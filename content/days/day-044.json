@@ -1,0 +1,895 @@
+{
+  "day": 44,
+  "phase": 3,
+  "title": {
+    "fr": "Aller et venir : le passé composé avec être",
+    "en": "Coming and going: the passé composé with être",
+    "hi": "आना-जाना: être के साथ पासे कॉम्पोज़े"
+  },
+  "objective": {
+    "en": "Tell the story of a journey with verbs of movement and reflexive verbs in the passé composé with être, making the participle agree (elle est allée, ils sont partis).",
+    "hi": "गति वाली क्रियाओं और निजवाचक (reflexive) क्रियाओं को être वाले पासे कॉम्पोज़े में इस्तेमाल करके किसी यात्रा की कहानी सुनाना, और कृदंत को कर्ता के अनुसार बदलना (elle est allée, ils sont partis)।"
+  },
+  "prerequisites": {
+    "days": [
+      4,
+      16,
+      27,
+      29,
+      41,
+      43
+    ],
+    "summary": {
+      "en": "The present of être (Day 4), aller and venir (Day 16), reflexive verbs (Day 27), transport (Day 29), and the passé composé with avoir (Days 41 and 43).",
+      "hi": "être का वर्तमान (दिन 4), aller और venir (दिन 16), निजवाचक क्रियाएँ (दिन 27), यातायात (दिन 29), और avoir वाला पासे कॉम्पोज़े (दिन 41 और 43)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "arriver",
+      "en": "to arrive",
+      "hi": "पहुँचना",
+      "pron": "आ-ग़ी-वे",
+      "ipa": "aʁive",
+      "pos": "verb",
+      "note": {
+        "en": "Past: je suis arrivé(e).",
+        "hi": "भूतकाल: je suis arrivé(e)।"
+      }
+    },
+    {
+      "fr": "partir",
+      "en": "to leave, to set off",
+      "hi": "निकलना, रवाना होना",
+      "pron": "पाग़-तीग़",
+      "ipa": "paʁtiʁ",
+      "pos": "verb",
+      "note": {
+        "en": "Past: je suis parti(e). partir de = to leave from: partir de Delhi.",
+        "hi": "भूतकाल: je suis parti(e)। partir de = कहीं से निकलना: partir de Delhi।"
+      }
+    },
+    {
+      "fr": "rester",
+      "en": "to stay",
+      "hi": "रुकना, ठहरना",
+      "pron": "ग़ैस-ते",
+      "ipa": "ʁɛste",
+      "pos": "verb",
+      "note": {
+        "en": "False friend: rester ≠ to rest. To rest = se reposer.",
+        "hi": "धोखेबाज़ शब्द: rester का मतलब 'आराम करना' नहीं है। आराम करना = se reposer।"
+      }
+    },
+    {
+      "fr": "tomber",
+      "en": "to fall",
+      "hi": "गिरना",
+      "pron": "तोँ-बे",
+      "ipa": "tɔ̃be",
+      "pos": "verb"
+    },
+    {
+      "fr": "naître",
+      "en": "to be born",
+      "hi": "जन्म लेना",
+      "pron": "नैत्ग़",
+      "ipa": "nɛtʁ",
+      "pos": "verb",
+      "note": {
+        "en": "Almost always used in the past: je suis né(e) à … = I was born in …",
+        "hi": "लगभग हमेशा भूतकाल में: je suis né(e) à … = मेरा जन्म … में हुआ।"
+      }
+    },
+    {
+      "fr": "rentrer",
+      "en": "to go/come back home",
+      "hi": "घर लौटना",
+      "pron": "ग़ाँ-त्रे",
+      "ipa": "ʁɑ̃tʁe",
+      "pos": "verb"
+    },
+    {
+      "fr": "monter",
+      "en": "to go up, to get on (a bus, plane)",
+      "hi": "ऊपर जाना, (बस/विमान में) चढ़ना",
+      "pron": "मोँ-ते",
+      "ipa": "mɔ̃te",
+      "pos": "verb"
+    },
+    {
+      "fr": "descendre",
+      "en": "to go down, to get off",
+      "hi": "नीचे उतरना",
+      "pron": "दे-साँद्ग़",
+      "ipa": "desɑ̃dʁ",
+      "pos": "verb",
+      "note": {
+        "en": "Past: je suis descendu(e).",
+        "hi": "भूतकाल: je suis descendu(e)।"
+      }
+    },
+    {
+      "fr": "l'aéroport",
+      "en": "the airport",
+      "hi": "हवाई अड्डा",
+      "pron": "ला-ए-ग़ो-पॉग़",
+      "ipa": "laeʁɔpɔʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "aéroport"
+    },
+    {
+      "fr": "le vol",
+      "en": "the flight",
+      "hi": "उड़ान, फ़्लाइट",
+      "pron": "लö वॉल",
+      "ipa": "lə vɔl",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "vol"
+    },
+    {
+      "fr": "la valise",
+      "en": "the suitcase",
+      "hi": "सूटकेस",
+      "pron": "ला वा-लीज़",
+      "ipa": "la valiz",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "valise"
+    },
+    {
+      "fr": "la douane",
+      "en": "customs (at a border)",
+      "hi": "कस्टम, सीमा शुल्क विभाग",
+      "pron": "ला द्वान",
+      "ipa": "la dwan",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "douane"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Je suis arrivé(e) au Canada en 2023.",
+      "en": "I arrived in Canada in 2023.",
+      "hi": "मैं 2023 में कनाडा पहुँचा/पहुँची।",
+      "pron": "झ़ö स्üई ज़ा-ग़ी-वे ओ का-ना-दा आँ दö मील वैँ-त्रवा",
+      "ipa": "ʒə sɥi zaʁive o kanada ɑ̃ dø mil vɛ̃ tʁwa"
+    },
+    {
+      "fr": "Je suis né(e) à Chandigarh.",
+      "en": "I was born in Chandigarh.",
+      "hi": "मेरा जन्म चंडीगढ़ में हुआ।",
+      "pron": "झ़ö स्üई ने आ शाँ-दी-गाग़",
+      "ipa": "ʒə sɥi ne a ʃɑ̃diɡaʁ"
+    },
+    {
+      "fr": "Nous sommes partis de Delhi le soir.",
+      "en": "We left Delhi in the evening.",
+      "hi": "हम शाम को दिल्ली से निकले।",
+      "pron": "नू सॉम पाग़-ती दö दे-ली लö स्वाग़",
+      "ipa": "nu sɔm paʁti də deli lə swaʁ"
+    },
+    {
+      "fr": "Elle est restée deux semaines.",
+      "en": "She stayed two weeks.",
+      "hi": "वह दो हफ़्ते रुकी।",
+      "pron": "ऐ-लै ग़ैस-ते दö स्मैन",
+      "ipa": "ɛ lɛ ʁɛste dø smɛn"
+    },
+    {
+      "fr": "Je me suis levé(e) très tôt.",
+      "en": "I got up very early.",
+      "hi": "मैं बहुत जल्दी उठा/उठी।",
+      "pron": "झ़ö मö स्üई ल-वे त्रै तो",
+      "ipa": "ʒə mə sɥi ləve tʁɛ to"
+    },
+    {
+      "fr": "Ça s'est bien passé.",
+      "en": "It went well.",
+      "hi": "सब ठीक रहा।",
+      "pron": "सा सै ब्यैँ पा-से",
+      "ipa": "sa sɛ bjɛ̃ pase",
+      "note": {
+        "en": "Very useful chunk. Question: Ça s'est bien passé ? = Did it go well?",
+        "hi": "बहुत काम का टुकड़ा। प्रश्न: Ça s'est bien passé ? = सब ठीक रहा?"
+      }
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "The passé composé with être and agreement",
+      "hi": "être के साथ पासे कॉम्पोज़े और कृदंत का मेल (agreement)"
+    },
+    "explanation": {
+      "en": "About 15 verbs, mostly about moving from one place to another or changing state, use être instead of avoir: aller (allé), venir (venu), arriver (arrivé), partir (parti), entrer (entré), sortir (sorti), monter (monté), descendre (descendu), naître (né), mourir (mort), rester (resté), tomber (tombé), rentrer (rentré), retourner (retourné), devenir (devenu), revenir (revenu). All reflexive verbs use être too: je me suis levé(e), elle s'est couchée. With être, the participle agrees with the subject like an adjective: add -e for a woman, -s for plural, -es for several women. Il est arrivé, elle est arrivée, ils sont arrivés, elles sont arrivées. Negation: je ne suis pas parti(e).",
+      "hi": "लगभग 15 क्रियाएँ, ज़्यादातर एक जगह से दूसरी जगह जाने या स्थिति बदलने वाली, avoir की जगह être लेती हैं: aller (allé), venir (venu), arriver (arrivé), partir (parti), entrer (entré), sortir (sorti), monter (monté), descendre (descendu), naître (né), mourir (mort), rester (resté), tomber (tombé), rentrer (rentré), retourner (retourné), devenir (devenu), revenir (revenu)। सभी निजवाचक क्रियाएँ भी être लेती हैं: je me suis levé(e), elle s'est couchée। être के साथ कृदंत विशेषण की तरह कर्ता से मेल खाता है: महिला के लिए -e, बहुवचन के लिए -s, कई महिलाओं के लिए -es। Il est arrivé, elle est arrivée, ils sont arrivés, elles sont arrivées। नकार: je ne suis pas parti(e)।"
+    },
+    "comparison": {
+      "en": "Hindi works almost exactly like this! With avoir-type verbs, Hindi uses ने and the verb does not follow the subject: उसने खाया (he or she). With movement verbs, Hindi has no ने and the verb agrees with the subject: वह गया / वह गई / वे गए. French does the same: elle a mangé (no change) but elle est allée (feminine -e), like गई. English has no such change: he went / she went.",
+      "hi": "हिंदी लगभग बिल्कुल ऐसे ही काम करती है! avoir जैसी क्रियाओं के साथ हिंदी में ने आता है और क्रिया कर्ता के अनुसार नहीं बदलती: उसने खाया (वह लड़का हो या लड़की)। गति वाली क्रियाओं में ने नहीं आता और क्रिया कर्ता से मेल खाती है: वह गया / वह गई / वे गए। फ़्रेंच भी यही करती है: elle a mangé (कोई बदलाव नहीं) पर elle est allée (स्त्रीलिंग -e), ठीक 'गई' की तरह। अंग्रेज़ी में ऐसा कोई बदलाव नहीं: he went / she went।"
+    },
+    "examples": [
+      {
+        "fr": "Priya est allée à Toronto.",
+        "en": "Priya went to Toronto.",
+        "hi": "प्रिया टोरंटो गई।",
+        "pron": "प्रिया ए ता-ले आ तो-ग़ोँ-तो"
+      },
+      {
+        "fr": "Mes parents sont arrivés hier soir.",
+        "en": "My parents arrived last night.",
+        "hi": "मेरे माता-पिता कल रात पहुँचे।",
+        "pron": "मे पा-ग़ाँ सोँ ता-ग़ी-वे यैग़ स्वाग़"
+      },
+      {
+        "fr": "Nous sommes restés trois jours à Québec.",
+        "en": "We stayed three days in Québec City.",
+        "hi": "हम क्यूबेक शहर में तीन दिन रुके।",
+        "pron": "नू सॉम ग़ैस-ते त्रवा झ़ूग़ आ के-बैक"
+      },
+      {
+        "fr": "Elle s'est levée à cinq heures.",
+        "en": "She got up at five.",
+        "hi": "वह पाँच बजे उठी।",
+        "pron": "ऐल सै ल-वे आ सैँ क्öग़"
+      },
+      {
+        "fr": "Je ne suis pas sorti hier.",
+        "en": "I didn't go out yesterday.",
+        "hi": "मैं कल बाहर नहीं गया।",
+        "pron": "झ़ö नö स्üई पा सॉग़-ती यैग़"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Don't use avoir with these verbs: 'J'ai allé' and 'J'ai arrivé' are wrong. Say 'Je suis allé(e)', 'Je suis arrivé(e)'.",
+        "hi": "इन क्रियाओं के साथ avoir मत लगाइए: 'J'ai allé' और 'J'ai arrivé' ग़लत हैं। 'Je suis allé(e)', 'Je suis arrivé(e)' कहिए।"
+      },
+      {
+        "en": "Don't forget agreement in writing: a woman writes 'je suis arrivée'. Most of the time you can't hear it, but the examiner can read it.",
+        "hi": "लिखते समय मेल मत भूलिए: महिला 'je suis arrivée' लिखेगी। ज़्यादातर यह सुनाई नहीं देता, पर परीक्षक पढ़ लेता है।"
+      },
+      {
+        "en": "'Je suis allé' is the past (I went), not 'I am going'. 'I am going' = je vais.",
+        "hi": "'Je suis allé' भूतकाल है (मैं गया), 'मैं जा रहा हूँ' नहीं। 'मैं जा रहा हूँ' = je vais।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Liaison: je suis allé, nous sommes arrivés",
+    "tip": {
+      "en": "The silent final s or t of être wakes up before a vowel and joins the next word: suis‿allé (स्üई ज़ा-ले), sont‿arrivés (सोँ ता-ग़ी-वे), est‿allée (ऐ ता-ले). The s sounds like z. Say each pair as one word.",
+      "hi": "être का चुप रहने वाला आख़िरी s या t, स्वर से पहले जाग जाता है और अगले शब्द से जुड़ जाता है: suis‿allé (स्üई ज़ा-ले), sont‿arrivés (सोँ ता-ग़ी-वे), est‿allée (ऐ ता-ले)। s की आवाज़ z (ज़) होती है। हर जोड़ी को एक शब्द की तरह बोलिए।"
+    },
+    "words": [
+      {
+        "fr": "je suis allé",
+        "en": "I went",
+        "hi": "मैं गया",
+        "pron": "झ़ö स्üई ज़ा-ले",
+        "ipa": "ʒə sɥi zale"
+      },
+      {
+        "fr": "nous sommes arrivés",
+        "en": "we arrived",
+        "hi": "हम पहुँचे",
+        "pron": "नू सॉम ज़ा-ग़ी-वे",
+        "ipa": "nu sɔm zaʁive"
+      },
+      {
+        "fr": "ils sont arrivés",
+        "en": "they arrived",
+        "hi": "वे पहुँचे",
+        "pron": "ईल सोँ ता-ग़ी-वे",
+        "ipa": "il sɔ̃ taʁive"
+      },
+      {
+        "fr": "elle est allée",
+        "en": "she went",
+        "hi": "वह गई",
+        "pron": "ऐ-लै ता-ले",
+        "ipa": "ɛ lɛ tale"
+      },
+      {
+        "fr": "vous êtes entrés",
+        "en": "you went in",
+        "hi": "आप अंदर गए",
+        "pron": "वू ज़ैत ज़ाँ-त्रे",
+        "ipa": "vu zɛt zɑ̃tʁe"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Mon arrivée au Canada",
+      "en": "My arrival in Canada"
+    },
+    "type": "interview",
+    "mode": "natural",
+    "context": {
+      "en": "On a community radio show in Montréal, a host interviews Harpreet about her arrival in Canada.",
+      "hi": "मॉन्ट्रियाल के एक सामुदायिक रेडियो कार्यक्रम में एक एंकर हरप्रीत से कनाडा पहुँचने के उसके अनुभव पर बात करता है।"
+    },
+    "lines": [
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Bonjour Harpreet. Vous êtes arrivée au Canada en 2023, c'est bien ça ?",
+        "en": "Hello Harpreet. You arrived in Canada in 2023, is that right?",
+        "hi": "नमस्ते हरप्रीत। आप 2023 में कनाडा आईं, है ना?"
+      },
+      {
+        "speaker": "Harpreet",
+        "voice": "f1",
+        "fr": "Oui, c'est ça. Je suis née à Amritsar, et je suis partie de Delhi en janvier, avec mon mari.",
+        "en": "Yes, that's right. I was born in Amritsar, and I left from Delhi in January, with my husband.",
+        "hi": "हाँ, सही है। मेरा जन्म अमृतसर में हुआ, और मैं जनवरी में अपने पति के साथ दिल्ली से निकली।"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Et le voyage, ça s'est bien passé ?",
+        "en": "And the journey, did it go well?",
+        "hi": "और सफ़र, सब ठीक रहा?"
+      },
+      {
+        "speaker": "Harpreet",
+        "voice": "f1",
+        "fr": "Oui et non ! Nous avons pris un vol de nuit et nous sommes arrivés à Toronto à six heures du matin. Mais nos valises ne sont pas arrivées !",
+        "en": "Yes and no! We took a night flight and arrived in Toronto at six in the morning. But our suitcases didn't arrive!",
+        "hi": "हाँ भी, नहीं भी! हमने रात की फ़्लाइट ली और सुबह छह बजे टोरंटो पहुँचे। पर हमारे सूटकेस नहीं पहुँचे!"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Oh non ! Qu'est-ce que vous avez fait ?",
+        "en": "Oh no! What did you do?",
+        "hi": "अरे नहीं! फिर आपने क्या किया?"
+      },
+      {
+        "speaker": "Harpreet",
+        "voice": "f1",
+        "fr": "Nous sommes restés deux heures à l'aéroport pour remplir un formulaire. Les valises sont arrivées trois jours plus tard.",
+        "en": "We stayed two hours at the airport to fill in a form. The suitcases arrived three days later.",
+        "hi": "हम एक फ़ॉर्म भरने के लिए दो घंटे हवाई अड्डे पर रुके। सूटकेस तीन दिन बाद पहुँचे।"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Et votre première impression du Canada ?",
+        "en": "And your first impression of Canada?",
+        "hi": "और कनाडा के बारे में आपकी पहली छाप?"
+      },
+      {
+        "speaker": "Harpreet",
+        "voice": "f1",
+        "fr": "Le froid ! Je suis sortie de l'aéroport : moins vingt degrés ! Et je suis tombée sur la glace devant le taxi.",
+        "en": "The cold! I went out of the airport: minus twenty degrees! And I fell on the ice in front of the taxi.",
+        "hi": "ठंड! मैं हवाई अड्डे से बाहर निकली: माइनस बीस डिग्री! और मैं टैक्सी के सामने बर्फ़ पर गिर गई।"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Aïe ! Et après ?",
+        "en": "Ouch! And then?",
+        "hi": "उफ़! और फिर?"
+      },
+      {
+        "speaker": "Harpreet",
+        "voice": "f1",
+        "fr": "Après, nous sommes allés chez mon cousin à Brampton. Nous sommes restés un mois chez lui.",
+        "en": "Then we went to my cousin's in Brampton. We stayed at his place for a month.",
+        "hi": "फिर हम ब्रैम्पटन में अपने कज़िन के यहाँ गए। हम एक महीना उसके घर रुके।"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Et aujourd'hui ?",
+        "en": "And today?",
+        "hi": "और आज?"
+      },
+      {
+        "speaker": "Harpreet",
+        "voice": "f1",
+        "fr": "Aujourd'hui, nous habitons à Montréal. J'étudie le français le soir, et mon mari est devenu chauffeur d'autobus.",
+        "en": "Today we live in Montréal. I study French in the evenings, and my husband has become a bus driver.",
+        "hi": "आज हम मॉन्ट्रियाल में रहते हैं। मैं शाम को फ़्रेंच पढ़ती हूँ, और मेरे पति बस ड्राइवर बन गए हैं।"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Merci, Harpreet, et bonne continuation !",
+        "en": "Thank you, Harpreet, and all the best!",
+        "hi": "धन्यवाद, हरप्रीत, आगे के लिए शुभकामनाएँ!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "Where was Harpreet born?"
+        },
+        "options": [
+          "In Delhi",
+          "In Amritsar",
+          "In Toronto",
+          "In Brampton"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Je suis née à Amritsar.' She left from Delhi.",
+          "hi": "'Je suis née à Amritsar.' वह दिल्ली से निकली थी।"
+        },
+        "kind": "literal",
+        "evidence": "Je suis née à Amritsar"
+      },
+      {
+        "q": {
+          "en": "What went wrong on arrival?"
+        },
+        "options": [
+          "Their suitcases didn't arrive",
+          "The flight was cancelled",
+          "Their cousin wasn't at the airport"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'nos valises ne sont pas arrivées' — note the être negative.",
+          "hi": "'nos valises ne sont pas arrivées' — être वाला नकार देखिए।"
+        },
+        "kind": "literal",
+        "evidence": "Mais nos valises ne sont pas arrivées !"
+      },
+      {
+        "q": {
+          "en": "When did they get their suitcases?"
+        },
+        "options": [
+          "Two hours later",
+          "The same evening",
+          "Three days later"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'trois jours plus tard' = three days later.",
+          "hi": "'trois jours plus tard' = तीन दिन बाद।"
+        },
+        "kind": "literal",
+        "evidence": "Les valises sont arrivées trois jours plus tard."
+      },
+      {
+        "q": {
+          "en": "What happened in front of the taxi?"
+        },
+        "options": [
+          "Harpreet fell on the ice",
+          "Harpreet lost her bag",
+          "Her husband fell"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'je suis tombée' — the -e shows the speaker is a woman.",
+          "hi": "'je suis tombée' — -e बताता है कि बोलने वाली महिला है।"
+        },
+        "kind": "literal",
+        "evidence": "je suis tombée sur la glace devant le taxi"
+      },
+      {
+        "q": {
+          "en": "What is true about her life today?"
+        },
+        "options": [
+          "She lives in Brampton with her cousin",
+          "She lives in Montréal and her husband drives buses",
+          "She has gone back to India"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "They live in Montréal; her husband 'est devenu chauffeur d'autobus'.",
+          "hi": "वे मॉन्ट्रियाल में रहते हैं; उसके पति 'est devenu chauffeur d'autobus' (बस ड्राइवर बन गए)।"
+        },
+        "kind": "inference",
+        "evidence": "mon mari est devenu chauffeur d'autobus"
+      }
+    ],
+    "dictation": [
+      "Je suis partie de Delhi en janvier.",
+      "Nous sommes arrivés à Toronto.",
+      "Je suis tombée sur la glace."
+    ],
+    "gapFill": {
+      "text": "Nous ___ arrivés à Toronto à six heures. Nous sommes ___ deux heures à l'aéroport. Je suis ___ de l'aéroport.",
+      "answers": [
+        "sommes",
+        "restés",
+        "sortie"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "presentation",
+    "instructions": {
+      "en": "Tell the story of a journey you made (to Canada, to another city, to your family's village). Use the prompts, then speak for 1–2 minutes without notes. Use être with movement verbs and avoir with the others.",
+      "hi": "अपनी किसी यात्रा की कहानी सुनाइए (कनाडा, किसी दूसरे शहर, या अपने परिवार के गाँव की)। सवालों की मदद लीजिए, फिर बिना नोट्स के 1–2 मिनट बोलिए। गति वाली क्रियाओं के साथ être और बाक़ी के साथ avoir।"
+    },
+    "prompts": [
+      {
+        "fr": "Quand est-ce que vous êtes parti(e) ?",
+        "en": "When did you leave?",
+        "hi": "आप कब निकले?",
+        "pron": "काँ ऐस-क वू ज़ैत पाग़-ती",
+        "model": "Je suis parti le 12 mars, à dix heures du soir."
+      },
+      {
+        "fr": "Comment est-ce que vous avez voyagé ?",
+        "en": "How did you travel?",
+        "hi": "आपने कैसे यात्रा की?",
+        "pron": "को-माँ ऐस-क वू ज़ा-वे व्वा-या-झ़े",
+        "model": "J'ai pris l'avion de Mumbai à Montréal, avec une escale à Paris."
+      },
+      {
+        "fr": "À quelle heure est-ce que vous êtes arrivé(e) ?",
+        "en": "What time did you arrive?",
+        "hi": "आप कितने बजे पहुँचे?",
+        "pron": "आ कैल öग़ ऐस-क वू ज़ैत ज़ा-ग़ी-वे",
+        "model": "Je suis arrivé à midi, très fatigué."
+      },
+      {
+        "fr": "Où est-ce que vous êtes resté(e) ?",
+        "en": "Where did you stay?",
+        "hi": "आप कहाँ रुके?",
+        "pron": "ऊ ऐस-क वू ज़ैत ग़ैस-ते",
+        "model": "Je suis resté deux semaines chez un ami."
+      },
+      {
+        "fr": "Qu'est-ce qui s'est passé de surprenant ?",
+        "en": "What surprising thing happened?",
+        "hi": "क्या कुछ हैरान करने वाला हुआ?",
+        "pron": "कैस-की सै पा-से द सüग़-प्रö-नाँ",
+        "model": "Je suis tombé dans la neige le premier jour !"
+      }
+    ],
+    "tip": {
+      "en": "Before you speak, sort your verbs: is it a movement (être) or an action (avoir)? 'J'ai pris l'avion' but 'je suis parti(e)'.",
+      "hi": "बोलने से पहले अपनी क्रियाएँ छाँट लीजिए: यह गति है (être) या कोई काम (avoir)? 'J'ai pris l'avion' पर 'je suis parti(e)'।"
+    }
+  },
+  "reading": {
+    "genre": "article",
+    "title": "De Kochi à Moncton : le parcours d'Anu",
+    "text": "Anu Thomas est née à Kochi, au Kerala, en 1992. Elle a étudié les sciences infirmières à Bangalore, puis elle a travaillé cinq ans dans un hôpital à Dubaï.\n\nEn 2021, Anu et son mari, Joseph, ont décidé de partir au Canada. Ils sont arrivés à Moncton, au Nouveau-Brunswick, un soir de septembre. « À l'aéroport, j'ai entendu du français et de l'anglais. J'ai été très surprise ! » raconte Anu.\n\nLes premiers mois ont été difficiles. Anu a passé des examens pour travailler comme infirmière au Canada, et elle a pris des cours de français le soir. Joseph est resté à la maison avec leur fils, Daniel, né en 2022.\n\nAujourd'hui, Anu travaille à l'hôpital de Moncton. Ses parents sont venus du Kerala l'été dernier et ils sont restés trois mois. « Ma mère est tombée amoureuse de la mer ici ! » dit Anu. Et la neige ? « Ça, c'est une autre histoire… »",
+    "translation": {
+      "en": "Anu Thomas was born in Kochi, in Kerala, in 1992. She studied nursing in Bangalore, then worked for five years in a hospital in Dubai.\n\nIn 2021, Anu and her husband Joseph decided to move to Canada. They arrived in Moncton, New Brunswick, one evening in September. 'At the airport I heard French and English. I was very surprised!' says Anu.\n\nThe first months were difficult. Anu took exams to work as a nurse in Canada, and she took French classes in the evening. Joseph stayed at home with their son, Daniel, born in 2022.\n\nToday Anu works at the hospital in Moncton. Her parents came from Kerala last summer and stayed three months. 'My mother fell in love with the sea here!' says Anu. And the snow? 'That's another story…'",
+      "hi": "अनु थॉमस का जन्म 1992 में केरल के कोच्चि में हुआ। उसने बेंगलुरु में नर्सिंग की पढ़ाई की, फिर दुबई के एक अस्पताल में पाँच साल काम किया।\n\n2021 में अनु और उसके पति जोसेफ़ ने कनाडा जाने का फ़ैसला किया। वे सितंबर की एक शाम न्यू ब्रंसविक के मॉन्कटन पहुँचे। 'हवाई अड्डे पर मैंने फ़्रेंच और अंग्रेज़ी दोनों सुनीं। मुझे बहुत हैरानी हुई!' अनु बताती है।\n\nपहले कुछ महीने मुश्किल थे। कनाडा में नर्स के तौर पर काम करने के लिए अनु ने परीक्षाएँ दीं, और शाम को फ़्रेंच की कक्षाएँ लीं। जोसेफ़ अपने बेटे डैनियल के साथ घर पर रहा, जिसका जन्म 2022 में हुआ।\n\nआज अनु मॉन्कटन के अस्पताल में काम करती है। पिछली गर्मियों में उसके माता-पिता केरल से आए और तीन महीने रुके। 'मेरी माँ को यहाँ के समुद्र से प्यार हो गया!' अनु कहती है। और बर्फ़? 'वह तो अलग ही कहानी है…'"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "Where did Anu work before coming to Canada?"
+        },
+        "options": [
+          "In Kochi",
+          "In Bangalore",
+          "In Dubai",
+          "In Moncton"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "She studied in Bangalore and worked five years in Dubai.",
+          "hi": "उसने बेंगलुरु में पढ़ाई की और दुबई में पाँच साल काम किया।"
+        },
+        "kind": "literal",
+        "evidence": "elle a travaillé cinq ans dans un hôpital à Dubaï"
+      },
+      {
+        "q": {
+          "en": "Why was Anu surprised at the airport?"
+        },
+        "options": [
+          "She heard two languages",
+          "Nobody spoke English",
+          "Her husband was late"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "She heard both French and English — Moncton is in a bilingual province.",
+          "hi": "उसने फ़्रेंच और अंग्रेज़ी दोनों सुनीं — मॉन्कटन एक द्विभाषी प्रांत में है।"
+        },
+        "kind": "inference",
+        "evidence": "j'ai entendu du français et de l'anglais"
+      },
+      {
+        "q": {
+          "en": "Who looked after Daniel during the first months?"
+        },
+        "options": [
+          "Anu's parents",
+          "Joseph",
+          "A neighbour"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Joseph est resté à la maison avec leur fils.'",
+          "hi": "'Joseph est resté à la maison avec leur fils.' (जोसेफ़ बेटे के साथ घर पर रहा।)"
+        },
+        "kind": "literal",
+        "evidence": "Joseph est resté à la maison avec leur fils"
+      },
+      {
+        "q": {
+          "en": "Where was Daniel most probably born?"
+        },
+        "options": [
+          "In Kerala",
+          "In Dubai",
+          "In Canada"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "The family arrived in Canada in 2021 and Daniel was born in 2022.",
+          "hi": "परिवार 2021 में कनाडा पहुँचा और डैनियल 2022 में पैदा हुआ।"
+        },
+        "kind": "inference",
+        "evidence": "né en 2022"
+      },
+      {
+        "q": {
+          "en": "What does Anu's last answer suggest about the snow?"
+        },
+        "options": [
+          "She loves it",
+          "She finds it less pleasant",
+          "She has never seen it"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'That's another story…' suggests the snow is not her favourite thing.",
+          "hi": "'वह तो अलग ही कहानी है…' से लगता है कि बर्फ़ उसे ख़ास पसंद नहीं।"
+        },
+        "kind": "inference",
+        "evidence": "Ça, c'est une autre histoire…"
+      }
+    ]
+  },
+  "writing": {
+    "type": "story",
+    "prompt": {
+      "en": "Write about a trip you made. Say when you left, how you travelled, when you arrived, where you stayed, what you did and when you came back. Use both être and avoir.",
+      "hi": "अपनी किसी यात्रा के बारे में लिखिए। बताइए कि आप कब निकले, कैसे गए, कब पहुँचे, कहाँ रुके, क्या किया और कब लौटे। être और avoir दोनों इस्तेमाल कीजिए।",
+      "fr": "Racontez un voyage."
+    },
+    "minWords": 60,
+    "maxWords": 110,
+    "hints": [
+      {
+        "en": "Movement verbs with être: je suis parti(e), arrivé(e), resté(e), rentré(e).",
+        "hi": "गति वाली क्रियाएँ être के साथ: je suis parti(e), arrivé(e), resté(e), rentré(e)।"
+      },
+      {
+        "en": "Other actions with avoir: j'ai pris, j'ai visité, j'ai mangé.",
+        "hi": "बाक़ी काम avoir के साथ: j'ai pris, j'ai visité, j'ai mangé।"
+      },
+      {
+        "en": "If you travelled with someone, use nous and add -s (or -es) to the participle.",
+        "hi": "अगर आप किसी के साथ गए, तो nous लिखिए और कृदंत में -s (या -es) जोड़िए।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Nous sommes partis de …",
+        "en": "We left from …",
+        "hi": "हम … से निकले",
+        "pron": "नू सॉम पाग़-ती दö"
+      },
+      {
+        "fr": "Nous sommes arrivés à …",
+        "en": "We arrived in …",
+        "hi": "हम … पहुँचे",
+        "pron": "नू सॉम ज़ा-ग़ी-वे आ"
+      },
+      {
+        "fr": "Nous sommes rentrés le …",
+        "en": "We came back on …",
+        "hi": "हम … को लौटे",
+        "pron": "नू सॉम ग़ाँ-त्रे लö"
+      }
+    ],
+    "model": {
+      "fr": "En décembre, ma sœur et moi, nous sommes allées à Jaipur pour le mariage de notre cousine. Nous sommes parties de Delhi en train à six heures du matin et nous sommes arrivées à midi. Nous sommes restées cinq jours chez notre tante. Nous avons visité le fort d'Amber et nous avons acheté des bracelets au marché. Le jour du mariage, nous nous sommes levées très tôt ! Nous sommes rentrées à Delhi fatiguées mais très contentes.",
+      "en": "In December my sister and I went to Jaipur for our cousin's wedding. We left Delhi by train at six in the morning and arrived at noon. We stayed five days at our aunt's. We visited Amber Fort and bought bangles at the market. On the wedding day we got up very early! We came back to Delhi tired but very happy."
+    },
+    "checklist": [
+      {
+        "en": "Did you use être with aller, partir, arriver, rester, rentrer?",
+        "hi": "क्या आपने aller, partir, arriver, rester, rentrer के साथ être लगाया?"
+      },
+      {
+        "en": "Do your être participles agree with the subject (-e, -s, -es)?",
+        "hi": "क्या être वाले कृदंत कर्ता से मेल खाते हैं (-e, -s, -es)?"
+      },
+      {
+        "en": "Did you keep avoir for the other verbs (j'ai visité, j'ai acheté)?",
+        "hi": "क्या बाक़ी क्रियाओं के लिए avoir रखा (j'ai visité, j'ai acheté)?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      16,
+      27,
+      29,
+      41,
+      43
+    ],
+    "items": [
+      {
+        "fr": "Je vais à la gare.",
+        "en": "I'm going to the station.",
+        "hi": "मैं स्टेशन जा रहा/रही हूँ।",
+        "pron": "झ़ö वै आ ला गाग़"
+      },
+      {
+        "fr": "Je viens de Pune.",
+        "en": "I come from Pune.",
+        "hi": "मैं पुणे से हूँ।",
+        "pron": "झ़ö व्यैँ दö पु-ने"
+      },
+      {
+        "fr": "Je me lève à six heures.",
+        "en": "I get up at six.",
+        "hi": "मैं छह बजे उठता/उठती हूँ।",
+        "pron": "झ़ö मö लैव आ सी ज़öग़"
+      },
+      {
+        "fr": "Descendez au deuxième arrêt.",
+        "en": "Get off at the second stop.",
+        "hi": "दूसरे स्टॉप पर उतरिए।",
+        "pron": "दे-साँ-दे ओ दö-ज़्यै मा-ग़ै"
+      },
+      {
+        "fr": "J'ai pris le train.",
+        "en": "I took the train.",
+        "hi": "मैंने ट्रेन ली।",
+        "pron": "झ़े प्री लö त्रैँ"
+      },
+      {
+        "fr": "J'ai fait un voyage.",
+        "en": "I took a trip.",
+        "hi": "मैंने एक यात्रा की।",
+        "pron": "झ़े फ़ै ऐँ व्वा-याझ़"
+      },
+      {
+        "fr": "J'ai eu une bonne nouvelle.",
+        "en": "I got some good news.",
+        "hi": "मुझे एक अच्छी ख़बर मिली।",
+        "pron": "झ़े ü üन बॉन नू-वैल"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Choose the correct sentence.",
+        "hi": "सही वाक्य चुनिए।"
+      },
+      "options": [
+        "J'ai arrivé à huit heures.",
+        "Je suis arrivé à huit heures.",
+        "Je suis arriver à huit heures."
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "arriver uses être: je suis arrivé(e).",
+        "hi": "arriver के साथ être आता है: je suis arrivé(e)।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete with the right participle of aller (subject: Meera).",
+        "hi": "aller के सही कृदंत से पूरा कीजिए (कर्ता: मीरा)।"
+      },
+      "sentence": "Meera est ___ à Ottawa.",
+      "answer": "allée",
+      "accept": [],
+      "explanation": {
+        "en": "With être, add -e for a woman: allée.",
+        "hi": "être के साथ महिला के लिए -e जोड़िए: allée।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which verb uses avoir, not être, in the passé composé?",
+        "hi": "पासे कॉम्पोज़े में कौन-सी क्रिया être नहीं, avoir लेती है?"
+      },
+      "options": [
+        "partir",
+        "rester",
+        "prendre",
+        "tomber"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "prendre is not a movement verb of the être list: j'ai pris.",
+        "hi": "prendre, être वाली सूची की गति-क्रिया नहीं है: j'ai pris।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "My parents stayed three weeks.",
+        "hi": "मेरे माता-पिता तीन हफ़्ते रुके।"
+      },
+      "answer": "Mes parents sont restés trois semaines.",
+      "accept": [
+        "Mes parents sont restés trois semaines"
+      ],
+      "explanation": {
+        "en": "rester → être; plural subject → restés.",
+        "hi": "rester → être; बहुवचन कर्ता → restés।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete with the right form of être.",
+        "hi": "être के सही रूप से पूरा कीजिए।"
+      },
+      "sentence": "Elle s'___ levée à six heures.",
+      "answer": "est",
+      "accept": [],
+      "explanation": {
+        "en": "Reflexive verbs use être: elle s'est levée.",
+        "hi": "निजवाचक क्रियाएँ être लेती हैं: elle s'est levée।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: We didn't go out.",
+        "hi": "शब्दों को सही क्रम में रखिए: हम बाहर नहीं गए।"
+      },
+      "words": [
+        "sommes",
+        "Nous",
+        "sortis",
+        "pas",
+        "ne",
+        "."
+      ],
+      "answer": "Nous ne sommes pas sortis.",
+      "explanation": {
+        "en": "ne … pas around être, then the participle.",
+        "hi": "ne … pas, être के दोनों ओर, फिर कृदंत।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "How do you say 'I was born in Delhi'?",
+        "hi": "'मेरा जन्म दिल्ली में हुआ' कैसे कहेंगे?"
+      },
+      "options": [
+        "J'ai né à Delhi.",
+        "Je suis né à Delhi.",
+        "Je nais à Delhi.",
+        "Je suis naître à Delhi."
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "naître → né, with être: je suis né(e).",
+        "hi": "naître → né, être के साथ: je suis né(e)।"
+      }
+    }
+  ]
+}

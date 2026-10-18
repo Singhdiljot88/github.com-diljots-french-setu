@@ -1,0 +1,87 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/noto-sans-devanagari";
+
+@theme {
+  --font-sans: "Inter Variable", "Noto Sans Devanagari Variable", "Nirmala UI", "Kohinoor Devanagari", system-ui, sans-serif;
+  --font-deva: "Noto Sans Devanagari Variable", "Nirmala UI", "Kohinoor Devanagari", "Mangal", sans-serif;
+  --color-brand-50: #eef7f6;
+  --color-brand-100: #d5ecea;
+  --color-brand-200: #acd8d4;
+  --color-brand-500: #2a8c84;
+  --color-brand-600: #1f726b;
+  --color-brand-700: #1b5c57;
+  --color-brand-900: #123c39;
+  --color-saffron-100: #fdf0dc;
+  --color-saffron-500: #e08a1e;
+  --color-saffron-700: #9a5b0d;
+}
+
+:root {
+  --bg: #f7f6f2;
+  --surface: #ffffff;
+  --surface-2: #f1f0eb;
+  --text: #1d2321;
+  --muted: #56605d;
+  --border: #dcdbd4;
+  --focus: #1f726b;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121615;
+    --surface: #1a201f;
+    --surface-2: #222a28;
+    --text: #e9eeec;
+    --muted: #a5b0ad;
+    --border: #33403d;
+    --focus: #6cc5bc;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121615; --surface: #1a201f; --surface-2: #222a28; --text: #e9eeec; --muted: #a5b0ad; --border: #33403d; --focus: #6cc5bc; color-scheme: dark;
+}
+
+html { -webkit-text-size-adjust: 100%; }
+body { background: var(--bg); color: var(--text); font-family: var(--font-sans); line-height: 1.55; }
+:lang(hi), .deva { font-family: var(--font-deva); line-height: 1.75; }
+.text-muted { color: var(--muted); }
+.surface { background: var(--surface); border: 1px solid var(--border); }
+.surface-2 { background: var(--surface-2); }
+.border-app { border-color: var(--border); }
+
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 6px; }
+.skip-link { position: absolute; left: -9999px; top: 0; }
+.skip-link:focus { left: 1rem; top: 1rem; z-index: 100; background: var(--surface); padding: .5rem 1rem; }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: .4rem; border-radius: .7rem; padding: .55rem 1rem; font-weight: 600; font-size: .95rem; min-height: 44px; transition: background .15s, border-color .15s; }
+.btn:disabled { opacity: .55; cursor: not-allowed; }
+.btn-primary { background: var(--color-brand-600); color: white; }
+.btn-primary:hover:not(:disabled) { background: var(--color-brand-700); }
+.btn-secondary { background: var(--surface); border: 1px solid var(--border); color: var(--text); }
+.btn-secondary:hover:not(:disabled) { border-color: var(--color-brand-500); }
+.btn-ghost { color: var(--text); }
+.btn-ghost:hover { background: var(--surface-2); }
+.btn-sm { min-height: 36px; padding: .3rem .7rem; font-size: .85rem; }
+.input { width: 100%; border-radius: .6rem; border: 1px solid var(--border); background: var(--surface); padding: .6rem .8rem; min-height: 44px; color: var(--text); }
+.input:focus { border-color: var(--color-brand-500); }
+.chip { display: inline-flex; align-items: center; gap: .3rem; border-radius: 999px; padding: .1rem .6rem; font-size: .75rem; font-weight: 600; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 1rem; padding: 1rem; }
+@media (min-width: 640px) { .card { padding: 1.25rem; } }
+.fr { font-weight: 600; }
+mark.add { background: #c9efd8; color: #0c4a26; border-radius: 3px; padding: 0 2px; }
+mark.del { background: #f8d1d1; color: #6b1010; text-decoration: line-through; border-radius: 3px; padding: 0 2px; }
+@media (prefers-color-scheme: dark) { mark.add { background: #1e4d33; color: #c9f5da; } mark.del { background: #5a2323; color: #ffd6d6; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+/* Printing (reports): light colours on white paper whatever the screen theme. */
+@media print {
+  :root, :root[data-theme="dark"] { --bg: #fff; --surface: #fff; --surface-2: #f4f4f2; --text: #111; --muted: #555; --border: #ccc; color-scheme: light; }
+  body { background: #fff !important; color: #111 !important; }
+  .card { border-radius: .4rem; padding: .6rem; }
+  a { color: inherit; text-decoration: none; }
+  nextjs-portal { display: none !important; }
+  @page { margin: 14mm 12mm; }
+}

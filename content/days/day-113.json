@@ -1,0 +1,850 @@
+{
+  "day": 113,
+  "phase": 6,
+  "title": {
+    "fr": "Écrire seul et se relire",
+    "en": "Independent writing and self-editing",
+    "hi": "ख़ुद लिखना और ख़ुद जाँचना"
+  },
+  "objective": {
+    "en": "Use a five-point self-editing checklist (gender, agreement, tense, connectors, punctuation and capitals), study a model opinion letter and a teacher's commentary, then write an opinion letter and correct it yourself.",
+    "hi": "ख़ुद जाँचने की पाँच बिंदुओं वाली सूची इस्तेमाल करना (लिंग, मेल, काल, योजक शब्द, विराम-चिह्न और बड़े अक्षर), एक मॉडल राय-पत्र और एक शिक्षिका की टिप्पणी समझना, फिर एक राय-पत्र लिखकर ख़ुद उसे सुधारना।"
+  },
+  "prerequisites": {
+    "days": [
+      89,
+      90,
+      102,
+      104,
+      107
+    ],
+    "summary": {
+      "en": "Formal letters (day 89), the agreement clinic (day 90), the 3-minute check (day 102), upgrades (day 104) and time plans (day 107).",
+      "hi": "औपचारिक पत्र (दिन 89), मेल (agreement) का विशेष अभ्यास (दिन 90), 3 मिनट की जाँच (दिन 102), बेहतर शब्द (दिन 104) और समय-योजना (दिन 107)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "la relecture",
+      "en": "proofreading, rereading",
+      "hi": "दोबारा पढ़कर जाँचना",
+      "pron": "ला ग़ö-लैक-तüग़",
+      "ipa": "la ʁəlɛktyʁ",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "relecture"
+    },
+    {
+      "fr": "corriger",
+      "en": "to correct",
+      "hi": "सुधारना",
+      "pron": "को-ग़ी-झ़े",
+      "ipa": "kɔʁiʒe",
+      "pos": "verb"
+    },
+    {
+      "fr": "une faute d'orthographe",
+      "en": "a spelling mistake",
+      "hi": "वर्तनी की ग़लती",
+      "pron": "üन फ़ोत दॉग़-तो-ग्ग़ाफ़",
+      "ipa": "yn fot dɔʁtɔɡʁaf",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "faute"
+    },
+    {
+      "fr": "la majuscule",
+      "en": "capital letter",
+      "hi": "बड़ा अक्षर (कैपिटल)",
+      "pron": "ला मा-झ़üस-कüल",
+      "ipa": "la maʒyskyl",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "majuscule"
+    },
+    {
+      "fr": "la minuscule",
+      "en": "small (lower-case) letter",
+      "hi": "छोटा अक्षर",
+      "pron": "ला मी-नüस-कüल",
+      "ipa": "la minyskyl",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "minuscule"
+    },
+    {
+      "fr": "la virgule",
+      "en": "comma",
+      "hi": "अल्पविराम",
+      "pron": "ला वीग़-गüल",
+      "ipa": "la viʁɡyl",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "virgule"
+    },
+    {
+      "fr": "supprimer",
+      "en": "to delete, to remove",
+      "hi": "हटाना / मिटाना",
+      "pron": "सü-प्ग़ी-मे",
+      "ipa": "sypʁime",
+      "pos": "verb"
+    },
+    {
+      "fr": "ajouter",
+      "en": "to add",
+      "hi": "जोड़ना",
+      "pron": "आ-झ़ू-ते",
+      "ipa": "aʒute",
+      "pos": "verb"
+    },
+    {
+      "fr": "la répétition",
+      "en": "repetition",
+      "hi": "दोहराव",
+      "pron": "ला ग़े-पे-ती-स्योँ",
+      "ipa": "la ʁepetisjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "répétition"
+    },
+    {
+      "fr": "le registre",
+      "en": "register (formal / informal)",
+      "hi": "भाषा का स्तर (औपचारिक / अनौपचारिक)",
+      "pron": "लö ग़ö-झ़ीस्त्ग़",
+      "ipa": "lə ʁəʒistʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "registre"
+    },
+    {
+      "fr": "nuancé",
+      "en": "nuanced, balanced",
+      "hi": "संतुलित / बारीकियों वाला",
+      "pron": "नü-आँ-से",
+      "ipa": "nɥɑ̃se",
+      "pos": "adjective"
+    },
+    {
+      "fr": "nuire à",
+      "en": "to harm",
+      "hi": "… को नुक़सान पहुँचाना",
+      "pron": "नüईग़ आ",
+      "ipa": "nɥiʁ a",
+      "pos": "verb",
+      "lemma": "nuire"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Je relis mon texte trois fois.",
+      "en": "I reread my text three times.",
+      "hi": "मैं अपना पाठ तीन बार दोबारा पढ़ता / पढ़ती हूँ।",
+      "pron": "झ़ö ग़ö-ली मोँ तैक्स्त त्ग़्वा फ़्वा"
+    },
+    {
+      "fr": "À chaque relecture, je cherche un seul type d'erreur.",
+      "en": "Each time I reread, I look for one type of error only.",
+      "hi": "हर बार दोबारा पढ़ते समय मैं सिर्फ़ एक तरह की ग़लती ढूँढता / ढूँढती हूँ।",
+      "pron": "आ शाक ग़ö-लैक-तüग़ झ़ö शैग़्श ऐँ सöल तीप दे-ग़öग़"
+    },
+    {
+      "fr": "Ici, il manque un e.",
+      "en": "Here, an e is missing.",
+      "hi": "यहाँ एक e छूट गया है।",
+      "pron": "ई-सी ईल माँक ऐँ ö"
+    },
+    {
+      "fr": "Je remplace ce mot pour éviter une répétition.",
+      "en": "I replace this word to avoid repetition.",
+      "hi": "दोहराव से बचने के लिए मैं यह शब्द बदलता / बदलती हूँ।",
+      "pron": "झ़ö ग़ाँ-प्लास स मो पूग़ ए-वी-ते üन ग़े-पे-ती-स्योँ"
+    },
+    {
+      "fr": "Les jours et les mois s'écrivent en minuscules.",
+      "en": "Days and months are written in lower case.",
+      "hi": "दिनों और महीनों के नाम छोटे अक्षरों में लिखे जाते हैं।",
+      "pron": "ले झ़ूग़ ए ले म्वा से-क्ग़ीव आँ मी-नüस-कüल"
+    },
+    {
+      "fr": "La réalité est plus nuancée.",
+      "en": "Reality is more nuanced.",
+      "hi": "सच्चाई ज़्यादा संतुलित / जटिल है।",
+      "pron": "ला ग़े-आ-ली-ते ऐ प्लü नü-आँ-से"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "A five-point self-editing checklist",
+      "hi": "ख़ुद जाँचने की पाँच बिंदुओं वाली सूची"
+    },
+    "explanation": {
+      "en": "Reread your text several times, looking for only one kind of error each time. 1) Gender: is each article right (le/la/un/une/l')? Watch -tion, -té (f.) and -ment, -age (m.). 2) Agreement: adjectives and past participles with être agree with their noun (une idée intéressante, elles sont arrivées); verbs agree with their subject (les jeunes passent). 3) Tense: is the time line coherent? Present for your opinion, passé composé and imparfait for examples, conditional for proposals (il faudrait, je proposerais). 4) Connectors: one per paragraph at least, no repetition of 'et' and 'mais' everywhere. 5) Punctuation and capitals: comma after an opening connector (Cependant, …); French uses lower case for days (lundi), months (janvier), languages (le français) and nationality adjectives (une famille indienne), but a capital for nationality nouns (les Indiens). Finally, check the register: formal letter, so no 'ça', 'ouais' or 'tu'.",
+      "hi": "अपना पाठ कई बार पढ़िए, हर बार सिर्फ़ एक तरह की ग़लती ढूँढते हुए। 1) लिंग: क्या हर उपपद सही है (le/la/un/une/l')? -tion, -té (स्त्रीलिंग) और -ment, -age (पुल्लिंग) पर नज़र रखिए। 2) मेल: विशेषण और être के साथ भूतकृदंत अपनी संज्ञा से मेल खाते हैं (une idée intéressante, elles sont arrivées); क्रियाएँ अपने कर्ता से मेल खाती हैं (les jeunes passent)। 3) काल: क्या समय-रेखा सुसंगत है? राय के लिए वर्तमान, उदाहरणों के लिए passé composé और imparfait, सुझावों के लिए conditional (il faudrait, je proposerais)। 4) योजक शब्द: हर अनुच्छेद में कम से कम एक, हर जगह 'et' और 'mais' का दोहराव नहीं। 5) विराम-चिह्न और बड़े अक्षर: शुरुआती योजक के बाद अल्पविराम (Cependant, …); फ़्रेंच में दिन (lundi), महीने (janvier), भाषाएँ (le français) और राष्ट्रीयता वाले विशेषण (une famille indienne) छोटे अक्षर से लिखे जाते हैं, पर राष्ट्रीयता वाली संज्ञा बड़े अक्षर से (les Indiens)। आख़िर में स्तर जाँचिए: औपचारिक पत्र है, तो 'ça', 'ouais' या 'tu' नहीं।"
+    },
+    "comparison": {
+      "en": "English writes Monday, January, French, Indian with capitals. French doesn't: lundi, janvier, le français, une famille indienne. This is one of the most common 'English habit' errors for Indian learners.",
+      "hi": "अंग्रेज़ी में Monday, January, French, Indian बड़े अक्षर से लिखे जाते हैं। फ़्रेंच में नहीं: lundi, janvier, le français, une famille indienne। भारतीय सीखने वालों में 'अंग्रेज़ी की आदत' से होने वाली यह सबसे आम ग़लतियों में से एक है।"
+    },
+    "examples": [
+      {
+        "fr": "C'est une idée intéressante.",
+        "en": "It's an interesting idea.",
+        "hi": "यह एक दिलचस्प विचार है।",
+        "pron": "सै तü नी-दे ऐँ-ते-ग़ै-साँत"
+      },
+      {
+        "fr": "Les jeunes passent trop de temps sur leur téléphone.",
+        "en": "Young people spend too much time on their phones.",
+        "hi": "युवा अपने फ़ोन पर बहुत ज़्यादा समय बिताते हैं।",
+        "pron": "ले झ़öन पास त्ग़ो द ताँ सüग़ लöग़ ते-ले-फ़ोन"
+      },
+      {
+        "fr": "Cependant, il faudrait mieux informer les parents.",
+        "en": "However, parents should be better informed.",
+        "hi": "फिर भी, माता-पिता को बेहतर जानकारी दी जानी चाहिए।",
+        "pron": "स-पाँ-दाँ ईल फ़ो-द्ग़ै म्यö ज़ैँ-फ़ॉग़-मे ले पा-ग़ाँ"
+      },
+      {
+        "fr": "Je suis arrivée au Canada en janvier, un lundi.",
+        "en": "I arrived in Canada in January, on a Monday.",
+        "hi": "मैं जनवरी में, एक सोमवार को, कनाडा पहुँची।",
+        "pron": "झ़ö स्üई ज़ा-ग़ी-वे ओ का-ना-दा आँ झ़ाँ-व्ये ऐँ लैँ-दी"
+      },
+      {
+        "fr": "Ma voisine est indienne ; elle parle français et hindi.",
+        "en": "My neighbour is Indian; she speaks French and Hindi.",
+        "hi": "मेरी पड़ोसन भारतीय है; वह फ़्रेंच और हिंदी बोलती है।",
+        "pron": "मा व्वा-ज़ीन ऐ तैँ-द्यैन ऐल पाग़ल फ़्ग़ाँ-सै ए ईन-दी"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Reading the whole text once 'for everything' finds very few errors. One pass per error type works much better.",
+        "hi": "पूरे पाठ को एक बार 'सब कुछ' के लिए पढ़ने से बहुत कम ग़लतियाँ मिलती हैं। हर प्रकार की ग़लती के लिए एक बार पढ़ना कहीं बेहतर है।"
+      },
+      {
+        "en": "Don't rewrite whole paragraphs in the last five minutes: correct small things, don't start new risks.",
+        "hi": "आख़िरी पाँच मिनट में पूरे अनुच्छेद दोबारा मत लिखिए: छोटी चीज़ें सुधारिए, नए जोखिम मत लीजिए।"
+      },
+      {
+        "en": "Keep your corrections readable: a clear crossing-out on paper, or a clean edit on screen.",
+        "hi": "सुधार पढ़ने लायक़ रखिए: काग़ज़ पर साफ़ काटना, या स्क्रीन पर साफ़ बदलाव।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Read aloud to self-correct: liaisons reveal agreement",
+    "tip": {
+      "en": "Whisper your text. Liaisons and final consonants reveal some errors: 'ils‿ont' (z sound) vs 'ils sont' (s sound); 'intéressante' ends with a t sound, 'intéressant' doesn't. If what you hear is not what you meant, check the spelling.",
+      "hi": "अपना पाठ फुसफुसाकर पढ़िए। लियाज़ों और आख़िरी व्यंजन कुछ ग़लतियाँ पकड़वा देते हैं: 'ils‿ont' (ज़ की आवाज़) बनाम 'ils sont' (स की आवाज़); 'intéressante' के अंत में त की आवाज़ है, 'intéressant' में नहीं। जो सुनाई दे वह आपका मतलब न हो, तो वर्तनी जाँचिए।"
+    },
+    "words": [
+      {
+        "fr": "ils ont",
+        "en": "they have",
+        "hi": "उनके पास है",
+        "pron": "ईल ज़ोँ",
+        "ipa": "il‿zɔ̃"
+      },
+      {
+        "fr": "ils sont",
+        "en": "they are",
+        "hi": "वे हैं",
+        "pron": "ईल सोँ",
+        "ipa": "il sɔ̃"
+      },
+      {
+        "fr": "intéressante",
+        "en": "interesting (f.)",
+        "hi": "दिलचस्प (स्त्रीलिंग)",
+        "pron": "ऐँ-ते-ग़ै-साँत",
+        "ipa": "ɛ̃teʁɛsɑ̃t"
+      },
+      {
+        "fr": "intéressant",
+        "en": "interesting (m.)",
+        "hi": "दिलचस्प (पुल्लिंग)",
+        "pron": "ऐँ-ते-ग़ै-साँ",
+        "ipa": "ɛ̃teʁɛsɑ̃"
+      },
+      {
+        "fr": "elles sont arrivées",
+        "en": "they (f.) have arrived",
+        "hi": "वे (स्त्रियाँ) पहुँच गई हैं",
+        "pron": "ऐल सोँ ता-ग़ी-वे",
+        "ipa": "ɛl sɔ̃t‿aʁive"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Le commentaire de la professeure",
+      "en": "The teacher's commentary"
+    },
+    "type": "monologue",
+    "mode": "natural",
+    "context": {
+      "en": "A short model commentary. A French teacher comments on a student's opinion letter in front of the class. Listen for the strengths and the problems she lists.",
+      "hi": "एक छोटी मॉडल टिप्पणी। एक फ़्रेंच शिक्षिका कक्षा के सामने एक विद्यार्थी के राय-पत्र पर टिप्पणी करती हैं। उनके बताए अच्छे पहलू और कमियाँ ध्यान से सुनिए।"
+    },
+    "lines": [
+      {
+        "speaker": "Professeure",
+        "voice": "f2",
+        "fr": "Bonjour à tous. Aujourd'hui, je commente la lettre de Ravi, que vous avez sous les yeux.",
+        "en": "Hello everyone. Today I'm commenting on Ravi's letter, which you have in front of you.",
+        "hi": "सभी को नमस्ते। आज मैं रवि के पत्र पर टिप्पणी कर रही हूँ, जो आपके सामने है।"
+      },
+      {
+        "speaker": "Professeure",
+        "voice": "f2",
+        "fr": "D'abord, les points forts : Ravi annonce clairement sa position dès la deuxième phrase, et ses trois arguments sont bien séparés en paragraphes.",
+        "en": "First, the strengths: Ravi states his position clearly from the second sentence, and his three arguments are well separated into paragraphs.",
+        "hi": "पहले अच्छी बातें: रवि दूसरे ही वाक्य में अपनी राय साफ़ बता देता है, और उसके तीनों तर्क अलग-अलग अनुच्छेदों में अच्छे से बँटे हैं।"
+      },
+      {
+        "speaker": "Professeure",
+        "voice": "f2",
+        "fr": "Il utilise des connecteurs variés : tout d'abord, par ailleurs, cependant. C'est très bien.",
+        "en": "He uses varied connectors: first of all, furthermore, however. That's very good.",
+        "hi": "वह अलग-अलग योजक शब्द इस्तेमाल करता है: tout d'abord, par ailleurs, cependant। यह बहुत अच्छा है।"
+      },
+      {
+        "speaker": "Professeure",
+        "voice": "f2",
+        "fr": "Maintenant, ce qu'il faut améliorer. J'ai compté six erreurs d'accord, surtout avec des adjectifs après des noms féminins : il a écrit « une idée intéressant », sans e.",
+        "en": "Now, what needs improving. I counted six agreement errors, mostly with adjectives after feminine nouns: he wrote 'une idée intéressant', without an e.",
+        "hi": "अब, क्या सुधारना है। मैंने मेल की छह ग़लतियाँ गिनीं, ज़्यादातर स्त्रीलिंग संज्ञाओं के बाद विशेषणों में: उसने 'une idée intéressant' लिखा, बिना e के।"
+      },
+      {
+        "speaker": "Professeure",
+        "voice": "f2",
+        "fr": "Il a aussi écrit « Lundi » et « Français » avec une majuscule ; or, en français, les jours et les langues s'écrivent en minuscules.",
+        "en": "He also wrote 'Lundi' and 'Français' with a capital; but in French, days and languages are written in lower case.",
+        "hi": "उसने 'Lundi' और 'Français' भी बड़े अक्षर से लिखे; जबकि फ़्रेंच में दिन और भाषाएँ छोटे अक्षर से लिखी जाती हैं।"
+      },
+      {
+        "speaker": "Professeure",
+        "voice": "f2",
+        "fr": "Enfin, sa conclusion est trop courte : une seule phrase qui répète l'introduction. Il faudrait terminer par une proposition concrète.",
+        "en": "Finally, his conclusion is too short: a single sentence that repeats the introduction. He should end with a concrete proposal.",
+        "hi": "आख़िर में, उसका निष्कर्ष बहुत छोटा है: एक ही वाक्य जो भूमिका को दोहराता है। उसे किसी ठोस सुझाव के साथ ख़त्म करना चाहिए।"
+      },
+      {
+        "speaker": "Professeure",
+        "voice": "f2",
+        "fr": "Mon conseil pour Ravi : gardez cinq minutes à la fin pour relire votre texte trois fois, en cherchant chaque fois un seul type d'erreur.",
+        "en": "My advice for Ravi: keep five minutes at the end to reread your text three times, looking for only one type of error each time.",
+        "hi": "रवि के लिए मेरी सलाह: अंत में पाँच मिनट रखिए और पाठ तीन बार पढ़िए, हर बार सिर्फ़ एक तरह की ग़लती ढूँढते हुए।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "What is one of Ravi's strengths?"
+        },
+        "options": [
+          "His conclusion",
+          "He states his position clearly and early",
+          "He has no agreement errors",
+          "His letter is very short"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Ravi annonce clairement sa position dès la deuxième phrase.'",
+          "hi": "'Ravi annonce clairement sa position dès la deuxième phrase' — राय जल्दी और साफ़।"
+        },
+        "kind": "literal",
+        "evidence": "annonce clairement sa position dès la deuxième phrase"
+      },
+      {
+        "q": {
+          "en": "How many agreement errors did the teacher count?"
+        },
+        "options": [
+          "Two",
+          "Three",
+          "Six",
+          "Ten"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'J'ai compté six erreurs d'accord.' Three is the number of arguments.",
+          "hi": "'J'ai compté six erreurs d'accord.' तीन तर्कों की संख्या है।"
+        },
+        "kind": "literal",
+        "evidence": "J'ai compté six erreurs d'accord"
+      },
+      {
+        "q": {
+          "en": "What is the capital-letter rule mentioned?"
+        },
+        "options": [
+          "Days and languages are written in lower case",
+          "All nouns take a capital",
+          "Only the first word of a letter takes a capital",
+          "Languages take a capital, days don't"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Les jours et les langues s'écrivent en minuscules.'",
+          "hi": "'Les jours et les langues s'écrivent en minuscules' — दिन और भाषाएँ छोटे अक्षर से।"
+        },
+        "kind": "literal",
+        "evidence": "les jours et les langues s'écrivent en minuscules"
+      },
+      {
+        "q": {
+          "en": "What is wrong with the conclusion?"
+        },
+        "options": [
+          "It is too long",
+          "It is missing",
+          "It contradicts the letter",
+          "It only repeats the introduction"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Une seule phrase qui répète l'introduction.' She wants a concrete proposal.",
+          "hi": "'Une seule phrase qui répète l'introduction.' वे एक ठोस सुझाव चाहती हैं।"
+        },
+        "kind": "inference",
+        "evidence": "une seule phrase qui répète l'introduction"
+      },
+      {
+        "q": {
+          "en": "What is the teacher's main advice?"
+        },
+        "options": [
+          "Write more slowly",
+          "Reread three times, one error type each time",
+          "Use more connectors",
+          "Write a longer introduction"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Relire votre texte trois fois, en cherchant chaque fois un seul type d'erreur.'",
+          "hi": "उनकी सलाह: पाठ तीन बार पढ़िए, हर बार सिर्फ़ एक तरह की ग़लती ढूँढते हुए — 'un seul type d'erreur'।"
+        },
+        "kind": "gist",
+        "evidence": "en cherchant chaque fois un seul type d'erreur"
+      }
+    ],
+    "dictation": [
+      "Ses trois arguments sont bien séparés en paragraphes.",
+      "En français, les jours et les langues s'écrivent en minuscules."
+    ],
+    "gapFill": {
+      "text": "Il utilise des connecteurs ___. Il faudrait terminer par une proposition ___.",
+      "answers": [
+        "variés",
+        "concrète"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "presentation",
+    "instructions": {
+      "en": "Explain your editing process aloud (2 minutes), as if teaching a classmate: how many times you reread, what you look for each time, and one example of an error you found today in your own letter.",
+      "hi": "अपनी जाँच की प्रक्रिया ज़ोर से समझाइए (2 मिनट), जैसे किसी सहपाठी को सिखा रहे हों: आप कितनी बार दोबारा पढ़ते हैं, हर बार क्या ढूँढते हैं, और आज अपने पत्र में मिली एक ग़लती का उदाहरण।"
+    },
+    "prompts": [
+      {
+        "fr": "D'abord, je relis pour vérifier le genre des noms.",
+        "en": "First, I reread to check the gender of the nouns.",
+        "hi": "पहले मैं संज्ञाओं का लिंग जाँचने के लिए दोबारा पढ़ता / पढ़ती हूँ।",
+        "pron": "दा-बॉग़ झ़ö ग़ö-ली पूग़ वे-ग़ी-फ़्ये लö झ़ाँग्ग़ दे नोँ"
+      },
+      {
+        "fr": "Ensuite, je regarde chaque adjectif et chaque participe passé.",
+        "en": "Then I look at every adjective and every past participle.",
+        "hi": "फिर मैं हर विशेषण और हर भूतकृदंत देखता / देखती हूँ।",
+        "pron": "आँ-स्üइत झ़ö ग़ö-गाग़्द शाक आद-झ़ैक-तीफ़ ए शाक पाग़-ती-सीप पा-से"
+      },
+      {
+        "fr": "Puis je vérifie les temps et les connecteurs.",
+        "en": "Then I check the tenses and connectors.",
+        "hi": "फिर मैं काल और योजक शब्द जाँचता / जाँचती हूँ।",
+        "pron": "प्üई झ़ö वे-ग़ी-फ़ी ले ताँ ए ले को-नैक-तöग़"
+      },
+      {
+        "fr": "Par exemple, aujourd'hui, j'ai trouvé « les gens pense » au lieu de « les gens pensent ».",
+        "en": "For example, today I found 'les gens pense' instead of 'les gens pensent'.",
+        "hi": "उदाहरण के लिए, आज मुझे सही रूप (les gens pensent) की जगह ग़लत रूप (les gens pense) मिला।",
+        "pron": "पा ग़ैग-ज़ाँप्ल ओ-झ़ूग़-दüई झ़े त्ग़ू-वे ले झ़ाँ पाँस ओ ल्यö दö ले झ़ाँ पाँस"
+      },
+      {
+        "fr": "Enfin, je compte mes mots.",
+        "en": "Finally, I count my words.",
+        "hi": "आख़िर में मैं अपने शब्द गिनता / गिनती हूँ।",
+        "pron": "आँ-फ़ैँ झ़ö कोँत मे मो"
+      }
+    ],
+    "tip": {
+      "en": "Notice the example in prompt 4: 'pense' and 'pensent' sound the same. That's exactly why you must check verbs with your eyes, not your ears.",
+      "hi": "चौथे वाक्य का उदाहरण देखिए: 'pense' और 'pensent' एक जैसे सुनाई देते हैं। इसीलिए क्रियाएँ कानों से नहीं, आँखों से जाँचनी पड़ती हैं।"
+    }
+  },
+  "reading": {
+    "genre": "letter",
+    "title": "Courrier des lecteurs — Une deuxième langue dès le primaire",
+    "text": "Madame, Monsieur,\n\nVotre journal a récemment publié l'affirmation suivante : « Apprendre une deuxième langue devrait être obligatoire dès l'école primaire. » Je voudrais réagir à cette idée, que je soutiens entièrement.\n\nTout d'abord, les jeunes enfants apprennent les langues avec une facilité étonnante. Ma fille, qui a sept ans, est arrivée à Montréal sans parler un mot de français. Six mois plus tard, elle corrigeait déjà ma prononciation ! Plus on commence tôt, plus l'apprentissage est naturel.\n\nPar ailleurs, parler deux langues ouvre de nombreuses portes. Au Canada, beaucoup d'emplois exigent le français et l'anglais, notamment dans la fonction publique. Offrir cette compétence à tous les enfants, c'est leur donner les mêmes chances, quel que soit le revenu de leurs parents.\n\nEnfin, apprendre une autre langue, c'est découvrir une autre culture. Les élèves deviennent plus ouverts et plus curieux, ce qui est essentiel dans une société aussi diverse que la nôtre.\n\nCertains diront que les programmes scolaires sont déjà trop chargés. C'est vrai, mais une langue peut aussi s'apprendre à travers d'autres matières, comme la musique ou le sport, sans ajouter beaucoup d'heures de cours.\n\nEn conclusion, rendre une deuxième langue obligatoire dès le primaire est un investissement pour l'avenir. Je propose que chaque école commence par deux heures par semaine dès la première année.\n\nVeuillez agréer, Madame, Monsieur, l'expression de mes sentiments distingués.\n\nMeera Joshi",
+    "translation": {
+      "en": "Dear Sir or Madam,\n\nYour newspaper recently published the following statement: 'Learning a second language should be compulsory from primary school.' I would like to react to this idea, which I fully support.\n\nFirst of all, young children learn languages with amazing ease. My daughter, who is seven, arrived in Montréal without speaking a word of French. Six months later, she was already correcting my pronunciation! The earlier you start, the more natural learning is.\n\nFurthermore, speaking two languages opens many doors. In Canada, many jobs require French and English, especially in the public service. Offering this skill to all children means giving them the same chances, whatever their parents' income.\n\nFinally, learning another language means discovering another culture. Pupils become more open and more curious, which is essential in a society as diverse as ours.\n\nSome will say that school programmes are already too full. That's true, but a language can also be learned through other subjects, such as music or sport, without adding many hours of lessons.\n\nIn conclusion, making a second language compulsory from primary school is an investment in the future. I suggest that every school start with two hours a week from the first year.\n\nYours faithfully,\n\nMeera Joshi",
+      "hi": "महोदया, महोदय,\n\nआपके अख़बार ने हाल ही में यह कथन छापा: 'प्राथमिक स्कूल से ही दूसरी भाषा सीखना अनिवार्य होना चाहिए।' मैं इस विचार पर प्रतिक्रिया देना चाहती हूँ, जिसका मैं पूरी तरह समर्थन करती हूँ।\n\nसबसे पहले, छोटे बच्चे हैरान करने वाली आसानी से भाषाएँ सीखते हैं। मेरी बेटी, जो सात साल की है, फ़्रेंच का एक शब्द बोले बिना मॉन्ट्रियाल आई थी। छह महीने बाद वह मेरा उच्चारण सुधारने लगी थी! जितनी जल्दी शुरुआत, उतना ही स्वाभाविक सीखना।\n\nइसके अलावा, दो भाषाएँ बोलने से कई रास्ते खुलते हैं। कनाडा में बहुत-सी नौकरियों में, ख़ासकर सरकारी सेवा में, फ़्रेंच और अंग्रेज़ी दोनों की ज़रूरत होती है। यह क्षमता सभी बच्चों को देना, उन्हें बराबर मौक़े देना है, चाहे उनके माता-पिता की आमदनी कुछ भी हो।\n\nआख़िर में, दूसरी भाषा सीखना दूसरी संस्कृति को जानना है। विद्यार्थी ज़्यादा खुले और जिज्ञासु बनते हैं, जो हमारे जैसे विविध समाज में बहुत ज़रूरी है।\n\nकुछ लोग कहेंगे कि स्कूल का पाठ्यक्रम पहले से ही बहुत भरा हुआ है। यह सच है, लेकिन भाषा दूसरे विषयों, जैसे संगीत या खेल, के ज़रिए भी सीखी जा सकती है, बिना ज़्यादा घंटे जोड़े।\n\nनिष्कर्ष में, प्राथमिक स्कूल से दूसरी भाषा को अनिवार्य बनाना भविष्य में निवेश है। मेरा सुझाव है कि हर स्कूल पहली कक्षा से हफ़्ते में दो घंटे से शुरुआत करे।\n\nभवदीया,\n\nमीरा जोशी"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "What is the writer's position?"
+        },
+        "options": [
+          "She fully supports the idea",
+          "She is against it",
+          "She has no opinion",
+          "She supports it only for older pupils"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Cette idée, que je soutiens entièrement.'",
+          "hi": "'Cette idée, que je soutiens entièrement' — वे पूरी तरह समर्थन करती हैं।"
+        },
+        "kind": "gist",
+        "evidence": "que je soutiens entièrement"
+      },
+      {
+        "q": {
+          "en": "What does the example of her daughter show?"
+        },
+        "options": [
+          "That children find French difficult",
+          "That young children learn languages quickly",
+          "That Montréal schools are excellent",
+          "That parents should teach at home"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "Six months later, 'elle corrigeait déjà ma prononciation' — supporting the idea that young children learn easily.",
+          "hi": "छह महीने बाद 'elle corrigeait déjà ma prononciation' — इससे साबित होता है कि छोटे बच्चे आसानी से सीखते हैं।"
+        },
+        "kind": "inference",
+        "evidence": "elle corrigeait déjà ma prononciation"
+      },
+      {
+        "q": {
+          "en": "What is the second argument about?"
+        },
+        "options": [
+          "Culture",
+          "Music",
+          "Equal chances on the job market",
+          "School timetables"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "Bilingual jobs, and 'c'est leur donner les mêmes chances'.",
+          "hi": "दो भाषाओं वाली नौकरियाँ, और 'c'est leur donner les mêmes chances' — बराबर मौक़े।"
+        },
+        "kind": "inference",
+        "evidence": "c'est leur donner les mêmes chances"
+      },
+      {
+        "q": {
+          "en": "Which counter-argument does she mention?"
+        },
+        "options": [
+          "School programmes are already too full",
+          "Children get tired",
+          "Teachers are not trained",
+          "It costs too much"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Certains diront que les programmes scolaires sont déjà trop chargés.'",
+          "hi": "'Certains diront que les programmes scolaires sont déjà trop chargés' — पाठ्यक्रम पहले से भरा है।"
+        },
+        "kind": "literal",
+        "evidence": "les programmes scolaires sont déjà trop chargés"
+      },
+      {
+        "q": {
+          "en": "How does she answer that counter-argument?"
+        },
+        "options": [
+          "By removing music and sport",
+          "By adding evening classes",
+          "By teaching the language through other subjects",
+          "By making the school day longer"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Une langue peut aussi s'apprendre à travers d'autres matières.'",
+          "hi": "'Une langue peut aussi s'apprendre à travers d'autres matières' — दूसरे विषयों के ज़रिए।"
+        },
+        "kind": "literal",
+        "evidence": "à travers d'autres matières"
+      },
+      {
+        "q": {
+          "en": "What concrete proposal ends the letter?"
+        },
+        "options": [
+          "One hour a day from kindergarten",
+          "Two hours a week from the first year",
+          "A language exam at age seven",
+          "Bilingual teachers in every class"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Deux heures par semaine dès la première année.' Notice: this is what the teacher asked Ravi to do.",
+          "hi": "'Deux heures par semaine dès la première année.' ध्यान दीजिए: शिक्षिका ने रवि से यही करने को कहा था।"
+        },
+        "kind": "literal",
+        "evidence": "deux heures par semaine dès la première année"
+      }
+    ]
+  },
+  "writing": {
+    "type": "opinion_letter",
+    "prompt": {
+      "en": "Write a letter to a newspaper reacting to the statement « Les réseaux sociaux font plus de mal que de bien aux jeunes » (35 minutes, 200+ words, three developed arguments). Then self-edit with the five-point checklist: one reread per point. Mark each correction you make.",
+      "hi": "« Les réseaux sociaux font plus de mal que de bien aux jeunes » कथन पर प्रतिक्रिया देते हुए अख़बार को पत्र लिखिए (35 मिनट, 200+ शब्द, तीन विकसित तर्क)। फिर पाँच बिंदुओं वाली सूची से ख़ुद जाँचिए: हर बिंदु के लिए एक बार पढ़िए। अपना हर सुधार चिह्नित कीजिए।",
+      "fr": "« Les réseaux sociaux font plus de mal que de bien aux jeunes. » Vous écrivez au journal pour donner votre opinion."
+    },
+    "minWords": 200,
+    "maxWords": 300,
+    "hints": [
+      {
+        "en": "A nuanced position is fine: 'je comprends cette inquiétude, mais la réalité est plus nuancée'.",
+        "hi": "संतुलित राय भी ठीक है: 'je comprends cette inquiétude, mais la réalité est plus nuancée'।"
+      },
+      {
+        "en": "End with a concrete proposal (je propose que les écoles…).",
+        "hi": "एक ठोस सुझाव के साथ ख़त्म कीजिए (je propose que les écoles…)।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Je comprends cette inquiétude, mais …",
+        "en": "I understand this concern, but …",
+        "hi": "मैं यह चिंता समझता / समझती हूँ, लेकिन …",
+        "pron": "झ़ö कोँ-प्ग़ाँ सैत ऐँ-क्ये-तüद मै"
+      },
+      {
+        "fr": "Le problème n'est pas l'outil, mais la façon de l'utiliser.",
+        "en": "The problem is not the tool, but how it's used.",
+        "hi": "समस्या औज़ार नहीं, उसे इस्तेमाल करने का तरीक़ा है।",
+        "pron": "लö प्ग़ो-ब्लैम नै पा लू-ती मै ला फ़ा-सोँ द लü-ती-ली-ज़े"
+      },
+      {
+        "fr": "Tout dépend de …",
+        "en": "It all depends on …",
+        "hi": "सब कुछ … पर निर्भर करता है",
+        "pron": "तू दे-पाँ दö"
+      }
+    ],
+    "model": {
+      "fr": "Madame, Monsieur,\n\nJe vous écris pour réagir à l'affirmation selon laquelle les réseaux sociaux font plus de mal que de bien aux jeunes. Je comprends cette inquiétude, mais je pense que la réalité est plus nuancée.\n\nTout d'abord, il est vrai que les réseaux sociaux peuvent nuire à la santé mentale. De nombreux adolescents passent plusieurs heures par jour sur leur téléphone et se comparent sans cesse aux autres. Mon neveu, par exemple, dormait très mal l'an dernier parce qu'il regardait des vidéos jusqu'à deux heures du matin.\n\nCependant, ces outils présentent aussi de vrais avantages. Grâce à eux, les jeunes immigrants gardent le contact avec leur famille restée au pays. Quand je suis arrivée au Canada, les appels vidéo avec ma mère m'ont beaucoup aidée à supporter la distance.\n\nPar ailleurs, les réseaux sociaux permettent d'apprendre. Beaucoup d'élèves y trouvent des tutoriels, des cours de langue ou des conseils pour choisir leurs études. Ma cousine a ainsi appris la programmation gratuitement, en regardant des vidéos.\n\nLe problème n'est donc pas l'outil lui-même, mais la façon de l'utiliser. C'est pourquoi je propose que les écoles apprennent aux élèves à gérer leur temps d'écran et à reconnaître les fausses informations.\n\nEn conclusion, les réseaux sociaux ne sont ni bons ni mauvais en eux-mêmes : tout dépend de l'éducation que l'on donne aux jeunes.\n\nVeuillez agréer, Madame, Monsieur, mes salutations distinguées.\n\nPriya Sharma",
+      "en": "Dear Sir or Madam,\n\nI am writing to react to the statement that social media does young people more harm than good. I understand this concern, but I think reality is more nuanced.\n\nFirst of all, it is true that social media can harm mental health. Many teenagers spend several hours a day on their phones and constantly compare themselves with others. My nephew, for example, slept very badly last year because he watched videos until two in the morning.\n\nHowever, these tools also have real advantages. Thanks to them, young immigrants keep in touch with the family they left behind. When I arrived in Canada, video calls with my mother helped me a lot to cope with the distance.\n\nFurthermore, social media makes learning possible. Many pupils find tutorials, language lessons or advice for choosing their studies there. My cousin learned programming for free this way, by watching videos.\n\nThe problem is therefore not the tool itself, but the way it is used. That is why I suggest that schools teach pupils to manage their screen time and to recognise false information.\n\nIn conclusion, social media is neither good nor bad in itself: it all depends on the education we give young people.\n\nYours faithfully,\n\nPriya Sharma"
+    },
+    "checklist": [
+      {
+        "en": "Reread 1 — gender: every le/la/un/une checked?",
+        "hi": "पहली बार — लिंग: क्या हर le/la/un/une जाँचा?"
+      },
+      {
+        "en": "Reread 2 — agreement: adjectives, participles, verbs with plural subjects?",
+        "hi": "दूसरी बार — मेल: विशेषण, भूतकृदंत, बहुवचन कर्ता वाली क्रियाएँ?"
+      },
+      {
+        "en": "Reread 3 — tenses and connectors: coherent time line, one connector per paragraph?",
+        "hi": "तीसरी बार — काल और योजक: सुसंगत समय-रेखा, हर अनुच्छेद में एक योजक?"
+      },
+      {
+        "en": "Reread 4 — punctuation, lower-case days/months/languages, formal register, word count?",
+        "hi": "चौथी बार — विराम-चिह्न, दिन/महीने/भाषाएँ छोटे अक्षर में, औपचारिक स्तर, शब्द-संख्या?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      89,
+      90,
+      97,
+      104,
+      107
+    ],
+    "items": [
+      {
+        "fr": "Veuillez agréer, Madame, Monsieur, mes salutations distinguées.",
+        "en": "Yours faithfully.",
+        "hi": "भवदीय।",
+        "pron": "वö-ये ज़ा-ग्ग़े-ए मा-दाम मö-स्यö मे सा-लü-ता-स्योँ दीस-तैँ-गे"
+      },
+      {
+        "fr": "la solution (f.) / le problème (m.)",
+        "en": "the solution / the problem",
+        "hi": "उपाय (स्त्रीलिंग) / समस्या (फ़्रेंच में पुल्लिंग)",
+        "pron": "ला सो-लü-स्योँ / लö प्ग़ो-ब्लैम"
+      },
+      {
+        "fr": "Certains diront que …",
+        "en": "Some will say that …",
+        "hi": "कुछ लोग कहेंगे कि …",
+        "pron": "सैग़-तैँ दी-ग़ोँ कö"
+      },
+      {
+        "fr": "C'est pourquoi je propose …",
+        "en": "That's why I suggest …",
+        "hi": "इसीलिए मैं सुझाव देता / देती हूँ …",
+        "pron": "सै पूग़-क्वा झ़ö प्ग़ो-पोज़"
+      },
+      {
+        "fr": "efficace",
+        "en": "effective",
+        "hi": "कारगर",
+        "pron": "ए-फ़ी-कास"
+      },
+      {
+        "fr": "par ailleurs",
+        "en": "furthermore",
+        "hi": "इसके अलावा",
+        "pron": "पा ग़ा-यöग़"
+      },
+      {
+        "fr": "en effet",
+        "en": "indeed",
+        "hi": "दरअसल",
+        "pron": "आँ ने-फ़ै"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which is written correctly in French?",
+        "hi": "फ़्रेंच में कौन-सा सही लिखा है?"
+      },
+      "options": [
+        "Je suis arrivé en Janvier, un Lundi.",
+        "Je suis arrivé en janvier, un lundi.",
+        "Je suis arrivé en janvier, un Lundi.",
+        "Je suis arrivé en Janvier, un lundi."
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Months and days are lower case in French.",
+        "hi": "फ़्रेंच में महीने और दिन छोटे अक्षर से लिखे जाते हैं।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Find the agreement error.",
+        "hi": "मेल की ग़लती ढूँढिए।"
+      },
+      "options": [
+        "une idée intéressante",
+        "des solutions efficaces",
+        "une proposition concret",
+        "les jeunes immigrants"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Proposition is feminine: une proposition concrète.",
+        "hi": "Proposition स्त्रीलिंग है: une proposition concrète।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which word should not appear in a formal letter?",
+        "hi": "औपचारिक पत्र में कौन-सा शब्द नहीं आना चाहिए?"
+      },
+      "options": [
+        "cependant",
+        "ouais",
+        "néanmoins",
+        "par conséquent"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "'Ouais' is very informal spoken French.",
+        "hi": "'Ouais' बहुत अनौपचारिक बोलचाल की फ़्रेंच है।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Correct the verb: Young people spend too much time online.",
+        "hi": "क्रिया सुधारिए: युवा ऑनलाइन बहुत समय बिताते हैं।"
+      },
+      "sentence": "Les jeunes ___ trop de temps en ligne.",
+      "answer": "passent",
+      "accept": [],
+      "explanation": {
+        "en": "Plural subject → -ent: les jeunes passent.",
+        "hi": "बहुवचन कर्ता → -ent: les jeunes passent।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete with the right capital or lower case: My neighbour is Indian.",
+        "hi": "सही बड़ा या छोटा अक्षर लिखिए: मेरी पड़ोसन भारतीय है।"
+      },
+      "sentence": "Ma voisine est ___ .",
+      "answer": "indienne",
+      "accept": [],
+      "explanation": {
+        "en": "Nationality adjective → lower case, feminine: indienne.",
+        "hi": "राष्ट्रीयता वाला विशेषण → छोटा अक्षर, स्त्रीलिंग: indienne।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "It all depends on education.",
+        "hi": "सब कुछ शिक्षा पर निर्भर करता है।"
+      },
+      "answer": "Tout dépend de l'éducation.",
+      "accept": [
+        "Tout dépend de l'éducation",
+        "Tout dépend de l'enseignement."
+      ],
+      "explanation": {
+        "en": "Dépendre de; de + l' before a vowel.",
+        "hi": "Dépendre de; स्वर से पहले de + l'।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: I reread my text three times.",
+        "hi": "शब्दों को सही क्रम में रखिए: मैं अपना पाठ तीन बार दोबारा पढ़ता हूँ।"
+      },
+      "words": [
+        "relis",
+        "Je",
+        "texte",
+        "mon",
+        "trois",
+        "fois."
+      ],
+      "answer": "Je relis mon texte trois fois.",
+      "explanation": {
+        "en": "Subject + verb + object + frequency.",
+        "hi": "कर्ता + क्रिया + कर्म + कितनी बार।"
+      }
+    }
+  ]
+}

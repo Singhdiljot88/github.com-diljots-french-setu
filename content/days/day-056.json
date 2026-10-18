@@ -1,0 +1,923 @@
+{
+  "day": 56,
+  "phase": 3,
+  "title": {
+    "fr": "Révision : les pronoms et les projets",
+    "en": "Review day: pronouns and plans",
+    "hi": "दोहराई का दिन: सर्वनाम और योजनाएँ"
+  },
+  "objective": {
+    "en": "Put together Days 50–55: compare places, replace nouns with le/la/les, lui/leur, y and en, order the steps of a plan, and talk about what you intend to do, all while planning a weekend trip.",
+    "hi": "दिन 50–55 को जोड़ना: जगहों की तुलना करना, संज्ञाओं की जगह le/la/les, lui/leur, y और en लगाना, किसी योजना के क़दम क्रम से बताना, और अपने इरादों की बात करना, यह सब एक सप्ताहांत यात्रा की योजना बनाते हुए।"
+  },
+  "prerequisites": {
+    "days": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "summary": {
+      "en": "You need comparatives and superlatives (Day 50), direct object pronouns (Day 51), indirect object pronouns (Day 52), y and en (Day 53), sequencing words (Day 54) and verbs of intention (Day 55).",
+      "hi": "आपको तुलना और सर्वोच्च रूप (दिन 50), प्रत्यक्ष कर्म सर्वनाम (दिन 51), अप्रत्यक्ष कर्म सर्वनाम (दिन 52), y और en (दिन 53), क्रम बताने वाले शब्द (दिन 54) और इरादे वाली क्रियाएँ (दिन 55) याद होनी चाहिए।"
+    }
+  },
+  "light": true,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "une escapade",
+      "en": "a getaway, a short trip",
+      "hi": "छोटी सैर, छोटी यात्रा",
+      "pron": "ऐस-का-पाद",
+      "ipa": "ɛskapad",
+      "pos": "noun",
+      "gender": "f",
+      "note": {
+        "en": "Une escapade de deux jours = a two-day getaway.",
+        "hi": "Une escapade de deux jours = दो दिन की छोटी सैर।"
+      }
+    },
+    {
+      "fr": "une auberge",
+      "en": "an inn; a small hotel",
+      "hi": "सराय, छोटा होटल",
+      "pron": "ओ-बैग़्झ़",
+      "ipa": "obɛʁʒ",
+      "pos": "noun",
+      "gender": "f",
+      "note": {
+        "en": "Une auberge de jeunesse = a youth hostel.",
+        "hi": "Une auberge de jeunesse = युवाओं का सस्ता हॉस्टल।"
+      }
+    },
+    {
+      "fr": "une randonnée",
+      "en": "a hike",
+      "hi": "पैदल पहाड़ी सैर, ट्रेक",
+      "pron": "ग़ाँ-दो-ने",
+      "ipa": "ʁɑ̃dɔne",
+      "pos": "noun",
+      "gender": "f",
+      "note": {
+        "en": "faire une randonnée = to go on a hike.",
+        "hi": "faire une randonnée = ट्रेक पर जाना।"
+      }
+    },
+    {
+      "fr": "l'hébergement",
+      "en": "accommodation",
+      "hi": "ठहरने की जगह",
+      "pron": "ले-बैग़्झ़ö-माँ",
+      "ipa": "lebɛʁʒəmɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "hébergement"
+    },
+    {
+      "fr": "le départ",
+      "en": "departure",
+      "hi": "रवानगी",
+      "pron": "लö दे-पाग़",
+      "ipa": "lə depaʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "départ",
+      "note": {
+        "en": "Its opposite is le retour (the return).",
+        "hi": "इसका उल्टा le retour (वापसी) है।"
+      }
+    },
+    {
+      "fr": "l'itinéraire",
+      "en": "the itinerary, the route",
+      "hi": "यात्रा का कार्यक्रम, रास्ता",
+      "pron": "ली-ती-ने-ग़ैग़",
+      "ipa": "litineʁɛʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "itinéraire"
+    },
+    {
+      "fr": "complet",
+      "en": "full, fully booked",
+      "hi": "भरा हुआ (कोई जगह ख़ाली नहीं)",
+      "pron": "कोँ-प्लै",
+      "ipa": "kɔ̃plɛ",
+      "pos": "adjective",
+      "note": {
+        "en": "Feminine: complète. L'auberge est complète = the inn is fully booked.",
+        "hi": "स्त्रीलिंग: complète। L'auberge est complète = सराय में कोई कमरा ख़ाली नहीं है।"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "J'ai vraiment envie de partir.",
+      "en": "I really feel like getting away.",
+      "hi": "मेरा सच में कहीं जाने का मन है।",
+      "pron": "झ़े व्ग़ै-माँ आँ-वी दö पाग़-तीग़"
+    },
+    {
+      "fr": "J'y suis allée l'année dernière.",
+      "en": "I went there last year.",
+      "hi": "मैं पिछले साल वहाँ गई थी।",
+      "pron": "झ़ी सüई ज़ा-ले ला-ने दैग़-न्यैग़"
+    },
+    {
+      "fr": "C'est moins cher que l'hôtel.",
+      "en": "It's cheaper than the hotel.",
+      "hi": "यह होटल से सस्ता है।",
+      "pron": "सै म्वैँ शैग़ कö लो-तैल"
+    },
+    {
+      "fr": "D'abord, on réserve ; ensuite, on part.",
+      "en": "First we book; then we leave.",
+      "hi": "पहले बुकिंग करते हैं, फिर निकलते हैं।",
+      "pron": "दा-बोग़ ओँ ग़े-ज़ैग़व — आँ-स्üईत ओँ पाग़"
+    },
+    {
+      "fr": "Je lui demanderai ce soir.",
+      "en": "I'll ask him (her) tonight.",
+      "hi": "मैं आज रात उससे पूछ लूँगा/लूँगी।",
+      "pron": "झ़ö ल्üई दö-माँ-दö-ग़े सö स्वाग़"
+    },
+    {
+      "fr": "Je t'envoie l'itinéraire.",
+      "en": "I'll send you the itinerary.",
+      "hi": "मैं तुम्हें यात्रा का कार्यक्रम भेजता/भेजती हूँ।",
+      "pron": "झ़ö ताँ-व्वा ली-ती-ने-ग़ैग़"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Recap: one plan, all the pronouns",
+      "hi": "दोहराई: एक योजना, सारे सर्वनाम"
+    },
+    "explanation": {
+      "en": "A trip plan uses everything from this week. Compare: Magog est moins cher que Mont-Tremblant ; c'est le plus beau lac de la région. Replace nouns so you don't repeat them: la chambre → je la réserve (direct object: le, la, l', les); à mon frère → je lui demande la voiture (indirect object with à + person: lui, leur, me, te, nous, vous); à Magog → on y va (y = there, or à + thing); des chaussures → j'en ai (en = some, or de + noun, often with a number: j'en ai deux). All these pronouns go before the conjugated verb, before the infinitive when there is one (je vais la réserver), and before avoir/être in the passé composé (j'y suis allé). Order the steps with d'abord, ensuite, puis, enfin, avant de + infinitive and après avoir + participle. Say what you intend with avoir l'intention de, compter, espérer or avoir envie de + infinitive.",
+      "hi": "एक यात्रा-योजना में इस हफ़्ते की हर चीज़ काम आती है। तुलना: Magog est moins cher que Mont-Tremblant ; c'est le plus beau lac de la région। संज्ञाएँ दोहराने से बचने के लिए उनकी जगह सर्वनाम: la chambre → je la réserve (प्रत्यक्ष कर्म: le, la, l', les); à mon frère → je lui demande la voiture (à + व्यक्ति वाला अप्रत्यक्ष कर्म: lui, leur, me, te, nous, vous); à Magog → on y va (y = वहाँ, या à + चीज़); des chaussures → j'en ai (en = कुछ, या de + संज्ञा, अक्सर संख्या के साथ: j'en ai deux)। ये सारे सर्वनाम संयुग्मित क्रिया से पहले आते हैं, मूल क्रिया हो तो उससे पहले (je vais la réserver), और पासे कॉम्पोज़े में avoir/être से पहले (j'y suis allé)। क़दमों को d'abord, ensuite, puis, enfin, avant de + मूल क्रिया और après avoir + कृदंत से क्रम दीजिए। इरादा बताने के लिए avoir l'intention de, compter, espérer या avoir envie de + मूल क्रिया।"
+    },
+    "comparison": {
+      "en": "Hindi also puts the pronoun before the verb: 'मैं उसे बुक करूँगा' → 'je la réserverai'. The difference is that Hindi changes the pronoun with ने/को/से (उसे, उससे), while French picks a different small word: la (उसे, a thing or person), lui (उससे / उसको, a person after à), y (वहाँ), en (उसमें से / कुछ). Ask yourself the Hindi question: 'किसे?' → le/la/les, 'किससे/किसको?' (à + person) → lui/leur, 'कहाँ?' → y, 'कितने?' → en.",
+      "hi": "हिंदी में भी सर्वनाम क्रिया से पहले आता है: 'मैं उसे बुक करूँगा' → 'je la réserverai'। फ़र्क़ यह है कि हिंदी में सर्वनाम ने/को/से से बदलता है (उसे, उससे), जबकि फ़्रेंच अलग छोटा शब्द चुनती है: la (उसे, चीज़ या व्यक्ति), lui (उससे / उसको, à के बाद व्यक्ति), y (वहाँ), en (उसमें से / कुछ)। ख़ुद से हिंदी वाला प्रश्न पूछिए: 'किसे?' → le/la/les, 'किससे/किसको?' (à + व्यक्ति) → lui/leur, 'कहाँ?' → y, 'कितने?' → en।"
+    },
+    "examples": [
+      {
+        "fr": "La chambre ? Je vais la réserver aujourd'hui.",
+        "en": "The room? I'm going to book it today.",
+        "hi": "कमरा? मैं उसे आज बुक करूँगा/करूँगी।",
+        "pron": "ला शाँब्ग़ — झ़ö वै ला ग़े-ज़ैग़-वे ओ-झ़ूग़-दüई"
+      },
+      {
+        "fr": "Mon frère ? Je lui demande sa voiture.",
+        "en": "My brother? I'm asking him for his car.",
+        "hi": "मेरा भाई? मैं उससे उसकी गाड़ी माँग रहा/रही हूँ।",
+        "pron": "मोँ फ़्रैग़ — झ़ö ल्üई दö-माँद सा व्वा-तüग़"
+      },
+      {
+        "fr": "Magog ? On y va vendredi soir.",
+        "en": "Magog? We're going there on Friday evening.",
+        "hi": "मागोग? हम वहाँ शुक्रवार शाम जा रहे हैं।",
+        "pron": "मा-गॉग — ओँ नी वा वाँ-द्ग़ö-दी स्वाग़"
+      },
+      {
+        "fr": "Des sacs de couchage ? J'en ai deux.",
+        "en": "Sleeping bags? I have two (of them).",
+        "hi": "स्लीपिंग बैग? मेरे पास दो हैं।",
+        "pron": "दे साक दö कू-शाझ़ — झ़ाँ ने दö"
+      },
+      {
+        "fr": "Après avoir mangé, nous rentrerons.",
+        "en": "After eating, we'll head home.",
+        "hi": "खाना खाने के बाद हम घर लौटेंगे।",
+        "pron": "आ-प्रै ज़ा-व्वाग़ माँ-झ़े नू ग़ाँ-त्ग़ö-ग़ोँ"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Don't put the pronoun after the verb as in English: 'Je réserve la' is wrong; say 'Je la réserve'.",
+        "hi": "अंग्रेज़ी की तरह सर्वनाम क्रिया के बाद मत रखिए: 'Je réserve la' ग़लत है; 'Je la réserve' कहिए।"
+      },
+      {
+        "en": "Demander and téléphoner take à + person, so use lui/leur, not le/la: 'Je lui téléphone', not 'Je le téléphone'.",
+        "hi": "demander और téléphoner के साथ à + व्यक्ति आता है, इसलिए lui/leur लगाइए, le/la नहीं: 'Je lui téléphone', 'Je le téléphone' नहीं।"
+      },
+      {
+        "en": "With en and a number, keep the number at the end: 'J'en ai deux', not 'J'ai deux en'.",
+        "hi": "en और संख्या के साथ संख्या अंत में रखिए: 'J'en ai deux', 'J'ai deux en' नहीं।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Review /ɥ/ and liaison",
+    "tip": {
+      "en": "For /ɥ/ (huit, nuit, depuis), start with your lips rounded for the French u (ü) and slide quickly into ई, in one beat: नüई, not नु-ई. Then keep the liaisons of this week: on‿y va (ओँ नी), nous‿en‿avons (नू ज़ाँ ना), huit‿heures (üई तöग़).",
+      "hi": "/ɥ/ (huit, nuit, depuis) के लिए होंठ फ़्रेंच u (ü) की तरह गोल करके शुरू कीजिए और एक ही झटके में ई पर फिसल जाइए: नüई, नु-ई नहीं। फिर इस हफ़्ते के लियाज़ों बनाए रखिए: on‿y va (ओँ नी), nous‿en‿avons (नू ज़ाँ ना), huit‿heures (üई तöग़)।"
+    },
+    "words": [
+      {
+        "fr": "la nuit",
+        "en": "the night",
+        "hi": "रात",
+        "pron": "ला नüई",
+        "ipa": "la nɥi"
+      },
+      {
+        "fr": "huit heures",
+        "en": "eight o'clock",
+        "hi": "आठ बजे",
+        "pron": "üई तöग़",
+        "ipa": "ɥi tœʁ"
+      },
+      {
+        "fr": "aujourd'hui",
+        "en": "today",
+        "hi": "आज",
+        "pron": "ओ-झ़ूग़-दüई",
+        "ipa": "oʒuʁdɥi"
+      },
+      {
+        "fr": "depuis",
+        "en": "since, for",
+        "hi": "से (समय)",
+        "pron": "दö-प्üई",
+        "ipa": "dəpɥi"
+      },
+      {
+        "fr": "on y va",
+        "en": "let's go; we're going there",
+        "hi": "चलो चलें; हम वहाँ जा रहे हैं",
+        "pron": "ओँ नी वा",
+        "ipa": "ɔ̃ ni va"
+      },
+      {
+        "fr": "nous en avons",
+        "en": "we have some",
+        "hi": "हमारे पास कुछ हैं",
+        "pron": "नू ज़ाँ ना-वोँ",
+        "ipa": "nu zɑ̃ navɔ̃"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "On part ce week-end ?",
+      "en": "Shall we go away this weekend?"
+    },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "In Montréal, two friends, Simran and Vikram, plan a weekend trip in the Eastern Townships (Estrie).",
+      "hi": "मॉन्ट्रियल में दो दोस्त, सिमरन और विक्रम, एस्त्री (Estrie) इलाक़े में सप्ताहांत यात्रा की योजना बनाते हैं।"
+    },
+    "lines": [
+      {
+        "speaker": "Simran",
+        "voice": "f1",
+        "fr": "Bon, ce week-end, on fait quoi ? J'ai vraiment envie de partir.",
+        "en": "So, what are we doing this weekend? I really feel like getting away.",
+        "hi": "तो, इस सप्ताहांत क्या करें? मेरा सच में कहीं जाने का मन है।"
+      },
+      {
+        "speaker": "Vikram",
+        "voice": "m1",
+        "fr": "Moi aussi. J'ai pensé à Mont-Tremblant. C'est à deux heures d'ici.",
+        "en": "Me too. I thought of Mont-Tremblant. It's two hours from here.",
+        "hi": "मेरा भी। मैंने मॉन्ट-ट्रेम्ब्लां के बारे में सोचा। यहाँ से दो घंटे की दूरी पर है।"
+      },
+      {
+        "speaker": "Simran",
+        "voice": "f1",
+        "fr": "Ben, j'y suis allée l'année dernière. C'est magnifique, mais c'est le village le plus cher de la région !",
+        "en": "Well, I went there last year. It's gorgeous, but it's the most expensive village in the region!",
+        "hi": "अरे, मैं पिछले साल वहाँ गई थी। बहुत सुंदर है, पर वह इलाक़े का सबसे महँगा गाँव है!"
+      },
+      {
+        "speaker": "Vikram",
+        "voice": "m1",
+        "fr": "Ah bon. Et Magog, alors ? Il y a un grand lac, et les auberges sont moins chères.",
+        "en": "Oh really. What about Magog, then? There's a big lake, and the inns are cheaper.",
+        "hi": "अच्छा। तो फिर मागोग? वहाँ एक बड़ी झील है, और सराय सस्ती हैं।"
+      },
+      {
+        "speaker": "Simran",
+        "voice": "f1",
+        "fr": "Bonne idée. On part quand ? Samedi matin ?",
+        "en": "Good idea. When do we leave? Saturday morning?",
+        "hi": "अच्छा विचार है। कब निकलें? शनिवार सुबह?"
+      },
+      {
+        "speaker": "Vikram",
+        "voice": "m1",
+        "fr": "Vendredi soir, plutôt. D'abord, on finit le travail, ensuite on prend la voiture de mon frère. Je lui demanderai ce soir.",
+        "en": "Friday evening, rather. First we finish work, then we take my brother's car. I'll ask him tonight.",
+        "hi": "बल्कि शुक्रवार शाम। पहले काम ख़त्म करेंगे, फिर मेरे भाई की गाड़ी लेंगे। मैं आज रात उससे पूछ लूँगा।"
+      },
+      {
+        "speaker": "Simran",
+        "voice": "f1",
+        "fr": "Parfait. Et pour dormir ? Je peux réserver une chambre dans une auberge.",
+        "en": "Perfect. And where do we sleep? I can book a room in an inn.",
+        "hi": "बढ़िया। और सोने का क्या? मैं किसी सराय में एक कमरा बुक कर सकती हूँ।"
+      },
+      {
+        "speaker": "Vikram",
+        "voice": "m1",
+        "fr": "Oui, mais réserve vite. En été, des chambres libres, il y en a très peu.",
+        "en": "Yes, but book quickly. In summer there are very few free rooms.",
+        "hi": "हाँ, पर जल्दी बुक कर लो। गर्मियों में ख़ाली कमरे बहुत कम होते हैं।"
+      },
+      {
+        "speaker": "Simran",
+        "voice": "f1",
+        "fr": "D'accord. Et samedi, j'ai l'intention de faire une randonnée au mont Orford.",
+        "en": "OK. And on Saturday I intend to go on a hike on Mount Orford.",
+        "hi": "ठीक है। और शनिवार को मेरा इरादा मॉन्ट ऑरफ़र्ड पर ट्रेक करने का है।"
+      },
+      {
+        "speaker": "Vikram",
+        "voice": "m1",
+        "fr": "Super. Mais cette fois, n'oublie pas tes chaussures de marche !",
+        "en": "Great. But this time, don't forget your walking shoes!",
+        "hi": "बढ़िया। पर इस बार अपने चलने वाले जूते मत भूलना!"
+      },
+      {
+        "speaker": "Simran",
+        "voice": "f1",
+        "fr": "Ha ha, promis ! Et dimanche, après avoir mangé au restaurant, on rentre tranquillement.",
+        "en": "Ha ha, I promise! And on Sunday, after eating at the restaurant, we come back at a relaxed pace.",
+        "hi": "हा हा, वादा! और रविवार को रेस्टोरेंट में खाना खाने के बाद आराम से लौट आएँगे।"
+      },
+      {
+        "speaker": "Vikram",
+        "voice": "m1",
+        "fr": "Ça marche. Je t'envoie l'itinéraire ce soir.",
+        "en": "Sounds good. I'll send you the itinerary tonight.",
+        "hi": "ठीक है। मैं आज रात तुम्हें यात्रा का कार्यक्रम भेज दूँगा।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "Why doesn't Simran want to go to Mont-Tremblant?"
+        },
+        "options": [
+          "It is too far",
+          "It is too expensive",
+          "She doesn't like the mountains"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "She says it is 'le village le plus cher de la région'.",
+          "hi": "वह कहती है कि यह 'le village le plus cher de la région' (इलाक़े का सबसे महँगा गाँव) है।"
+        },
+        "kind": "literal",
+        "evidence": "c'est le village le plus cher de la région"
+      },
+      {
+        "q": {
+          "en": "What two advantages of Magog does Vikram mention?"
+        },
+        "options": [
+          "A big lake and cheaper inns",
+          "A big park and good restaurants",
+          "A train station and cheap hotels"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Il y a un grand lac, et les auberges sont moins chères.'",
+          "hi": "'Il y a un grand lac, et les auberges sont moins chères.' (बड़ी झील है और सराय सस्ती हैं।)"
+        },
+        "kind": "literal",
+        "evidence": "Il y a un grand lac, et les auberges sont moins chères."
+      },
+      {
+        "q": {
+          "en": "When will they leave?"
+        },
+        "options": [
+          "Saturday morning",
+          "Sunday morning",
+          "Friday evening",
+          "Friday morning"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "Vikram corrects Simran: 'Vendredi soir, plutôt.'",
+          "hi": "विक्रम सिमरन को सुधारता है: 'Vendredi soir, plutôt.' (बल्कि शुक्रवार शाम।)"
+        },
+        "kind": "literal",
+        "evidence": "Vendredi soir, plutôt."
+      },
+      {
+        "q": {
+          "en": "In 'Je lui demanderai ce soir', who is 'lui'?"
+        },
+        "options": [
+          "Simran",
+          "The inn owner",
+          "Vikram's brother"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "He has just mentioned 'la voiture de mon frère'; he will ask his brother for the car.",
+          "hi": "उसने अभी-अभी 'la voiture de mon frère' कहा; वह अपने भाई से गाड़ी माँगेगा।"
+        },
+        "kind": "grammar",
+        "evidence": "on prend la voiture de mon frère. Je lui demanderai ce soir."
+      },
+      {
+        "q": {
+          "en": "What probably happened on a previous trip?"
+        },
+        "options": [
+          "Simran got lost on the mountain",
+          "Simran forgot her walking shoes",
+          "Vikram's car broke down",
+          "The inn was fully booked"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Cette fois, n'oublie pas tes chaussures de marche' suggests she forgot them last time, and she laughs.",
+          "hi": "'Cette fois, n'oublie pas tes chaussures de marche' (इस बार जूते मत भूलना) से लगता है कि पिछली बार वह उन्हें भूल गई थी, और वह हँसती है।"
+        },
+        "kind": "inference",
+        "evidence": "Mais cette fois, n'oublie pas tes chaussures de marche !"
+      }
+    ],
+    "dictation": [
+      "J'y suis allée l'année dernière.",
+      "Les auberges sont moins chères.",
+      "Je t'envoie l'itinéraire ce soir."
+    ],
+    "gapFill": {
+      "text": "Ben, j'___ suis allée l'année dernière. En été, des chambres libres, il y ___ a très peu. Je ___ demanderai ce soir.",
+      "answers": [
+        "y",
+        "en",
+        "lui"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "roleplay",
+    "instructions": {
+      "en": "Plan a weekend trip with a friend. Answer each of your friend's questions with a full sentence, using at least one pronoun (le/la, lui, y, en), one comparison and one sequencing word.",
+      "hi": "एक दोस्त के साथ सप्ताहांत यात्रा की योजना बनाइए। दोस्त के हर प्रश्न का पूरे वाक्य में जवाब दीजिए, कम से कम एक सर्वनाम (le/la, lui, y, en), एक तुलना और एक क्रम-शब्द के साथ।"
+    },
+    "prompts": [
+      {
+        "fr": "On va où ce week-end ?",
+        "en": "Where shall we go this weekend?",
+        "hi": "इस सप्ताहांत कहाँ चलें?",
+        "pron": "ओँ वा ऊ सö वी-कैंड",
+        "model": "J'ai envie d'aller à Québec. C'est plus intéressant que Gatineau pour un week-end."
+      },
+      {
+        "fr": "Tu y es déjà allé(e) ?",
+        "en": "Have you been there before?",
+        "hi": "क्या तुम वहाँ पहले गए/गई हो?",
+        "pron": "तü ई ए दे-झ़ा आ-ले",
+        "model": "Oui, j'y suis allé une fois, en hiver. Cette fois, je compte y aller en été."
+      },
+      {
+        "fr": "Comment on y va ?",
+        "en": "How do we get there?",
+        "hi": "वहाँ कैसे जाएँ?",
+        "pron": "को-माँ ओँ नी वा",
+        "model": "En train, c'est moins fatigant que la voiture. Je vais réserver les billets ce soir."
+      },
+      {
+        "fr": "Et pour dormir ?",
+        "en": "And where do we sleep?",
+        "hi": "और सोने का क्या?",
+        "pron": "ए पूग़ दोग़-मीग़",
+        "model": "Il y a une auberge près du Vieux-Québec. Je la connais, elle est propre et pas chère."
+      },
+      {
+        "fr": "Qu'est-ce qu'on fait samedi ?",
+        "en": "What do we do on Saturday?",
+        "hi": "शनिवार को क्या करें?",
+        "pron": "कैस-कों फ़ै साम-दी",
+        "model": "D'abord, on visite la vieille ville. Ensuite, on mange dans un petit restaurant. Enfin, on fait une promenade au bord du fleuve."
+      },
+      {
+        "fr": "Il faut prévenir Anjali ?",
+        "en": "Should we tell Anjali?",
+        "hi": "क्या अंजलि को बताना चाहिए?",
+        "pron": "ईल फ़ो प्रे-व्नीग़ आँ-झ़ा-ली",
+        "model": "Oui, je lui téléphone demain. Elle a peut-être envie de venir avec nous."
+      }
+    ],
+    "tip": {
+      "en": "Each time your partner names something, try to replace it with a pronoun in your answer: Québec → y, le billet → le, Anjali → lui.",
+      "hi": "हर बार जब साथी कोई चीज़ बोले, अपने जवाब में उसकी जगह सर्वनाम लगाने की कोशिश कीजिए: Québec → y, le billet → le, Anjali → lui।"
+    },
+    "scenario": {
+      "setting": {
+        "en": "At home on a Wednesday evening, planning the coming weekend with a friend.",
+        "hi": "बुधवार शाम घर पर, एक दोस्त के साथ आने वाले सप्ताहांत की योजना।"
+      },
+      "learnerRole": {
+        "en": "You want a short trip and have ideas about where to go.",
+        "hi": "आप एक छोटी यात्रा करना चाहते हैं और आपके पास जगहों के बारे में विचार हैं।"
+      },
+      "partnerRole": {
+        "en": "Your friend asks practical questions: where, how, where to sleep, what to do, who to invite.",
+        "hi": "आपका दोस्त व्यावहारिक प्रश्न पूछता है: कहाँ, कैसे, कहाँ सोना, क्या करना, किसे बुलाना।"
+      },
+      "goals": [
+        {
+          "en": "Choose a destination and compare it with another place.",
+          "hi": "एक जगह चुनिए और उसकी किसी दूसरी जगह से तुलना कीजिए।"
+        },
+        {
+          "en": "Order the activities with d'abord, ensuite, enfin.",
+          "hi": "गतिविधियों को d'abord, ensuite, enfin से क्रम दीजिए।"
+        },
+        {
+          "en": "Use at least three different pronouns.",
+          "hi": "कम से कम तीन अलग-अलग सर्वनामों का प्रयोग कीजिए।"
+        }
+      ]
+    }
+  },
+  "reading": {
+    "genre": "advertisement",
+    "title": "Escapade en Estrie : deux jours au bord du lac",
+    "text": "Vous avez envie de calme ? L'Estrie est à seulement une heure et demie de Montréal. C'est la région idéale pour un week-end nature.\n\nJOUR 1 – Arrivée à Magog. D'abord, installez-vous dans une de nos auberges. Ensuite, faites une promenade en bateau sur le lac : c'est la plus belle façon de découvrir la région. Le soir, goûtez la cuisine locale : les fromages de l'Estrie sont parmi les meilleurs du Québec.\n\nJOUR 2 – Le mont Orford. Le matin, faites une randonnée jusqu'au sommet (environ deux heures). La vue y est extraordinaire ! Après avoir pique-niqué au bord de l'eau, louez un vélo ou un kayak pour l'après-midi.\n\nINFOS PRATIQUES\n– Hébergement : de 95 $ à 180 $ la nuit, petit-déjeuner compris.\n– Réservez tôt : en été, les auberges sont souvent complètes.\n– Pas de voiture ? Un autobus part de Montréal tous les jours.\n– Des enfants ? Nous en accueillons avec plaisir : l'hébergement est gratuit pour les moins de six ans.\n\nPour plus d'informations, contactez le bureau touristique de Magog.",
+    "translation": {
+      "en": "Feel like some peace and quiet? The Eastern Townships are only an hour and a half from Montréal. It's the ideal region for a nature weekend.\n\nDAY 1 – Arrival in Magog. First, settle into one of our inns. Then take a boat ride on the lake: it's the most beautiful way to discover the region. In the evening, taste the local food: the cheeses of the Eastern Townships are among the best in Québec.\n\nDAY 2 – Mount Orford. In the morning, hike to the summit (about two hours). The view there is extraordinary! After a picnic by the water, rent a bike or a kayak for the afternoon.\n\nPRACTICAL INFORMATION\n– Accommodation: from $95 to $180 a night, breakfast included.\n– Book early: in summer, the inns are often fully booked.\n– No car? A bus leaves Montréal every day.\n– Children? We are happy to welcome them: accommodation is free for children under six.\n\nFor more information, contact the Magog tourist office.",
+      "hi": "क्या आपका सुकून पाने का मन है? एस्त्री, मॉन्ट्रियल से सिर्फ़ डेढ़ घंटे की दूरी पर है। प्रकृति के बीच सप्ताहांत बिताने के लिए यह सबसे सही इलाक़ा है।\n\nपहला दिन – मागोग पहुँचना। पहले हमारी किसी सराय में ठहर जाइए। फिर झील में नाव की सैर कीजिए: इलाक़े को जानने का यह सबसे सुंदर तरीक़ा है। शाम को स्थानीय खाना चखिए: एस्त्री के चीज़ क्यूबेक के सबसे अच्छे चीज़ों में से हैं।\n\nदूसरा दिन – मॉन्ट ऑरफ़र्ड। सुबह चोटी तक ट्रेक कीजिए (लगभग दो घंटे)। वहाँ का नज़ारा अद्भुत है! पानी के किनारे पिकनिक के बाद दोपहर के लिए साइकिल या कयाक किराए पर लीजिए।\n\nज़रूरी जानकारी\n– ठहरना: 95 से 180 डॉलर प्रति रात, नाश्ता शामिल।\n– जल्दी बुक कीजिए: गर्मियों में सराय अक्सर भरी रहती हैं।\n– गाड़ी नहीं है? मॉन्ट्रियल से रोज़ एक बस जाती है।\n– बच्चे साथ हैं? हम उनका ख़ुशी से स्वागत करते हैं: छह साल से छोटे बच्चों के लिए ठहरना मुफ़्त है।\n\nअधिक जानकारी के लिए मागोग के पर्यटन कार्यालय से संपर्क कीजिए।"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "How far is the region from Montréal?"
+        },
+        "options": [
+          "Thirty minutes",
+          "An hour and a half",
+          "Two hours",
+          "Three hours"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'à seulement une heure et demie de Montréal'.",
+          "hi": "'à seulement une heure et demie de Montréal' (मॉन्ट्रियल से सिर्फ़ डेढ़ घंटा)।"
+        },
+        "kind": "literal",
+        "evidence": "à seulement une heure et demie de Montréal"
+      },
+      {
+        "q": {
+          "en": "What should you do first on Day 1?"
+        },
+        "options": [
+          "Take a boat ride",
+          "Taste local cheese",
+          "Settle into an inn"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'D'abord, installez-vous dans une de nos auberges.'",
+          "hi": "'D'abord, installez-vous dans une de nos auberges.' (पहले हमारी किसी सराय में ठहर जाइए।)"
+        },
+        "kind": "literal",
+        "evidence": "D'abord, installez-vous dans une de nos auberges."
+      },
+      {
+        "q": {
+          "en": "In 'La vue y est extraordinaire', what does 'y' replace?"
+        },
+        "options": [
+          "the summit",
+          "the lake",
+          "Montréal",
+          "the inn"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "The sentence before talks about hiking 'jusqu'au sommet'; y = at the summit.",
+          "hi": "पिछला वाक्य 'jusqu'au sommet' (चोटी तक) की बात करता है; y = चोटी पर।"
+        },
+        "kind": "grammar",
+        "evidence": "faites une randonnée jusqu'au sommet (environ deux heures). La vue y est extraordinaire !"
+      },
+      {
+        "q": {
+          "en": "A family with a four-year-old child is reading the brochure. What is true for them?"
+        },
+        "options": [
+          "The child cannot come",
+          "The child sleeps for free",
+          "They must have a car"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "Accommodation 'est gratuit pour les moins de six ans', and a four-year-old is under six.",
+          "hi": "ठहरना 'est gratuit pour les moins de six ans' (छह साल से छोटे बच्चों के लिए मुफ़्त) है, और चार साल का बच्चा छह से छोटा है।"
+        },
+        "kind": "inference",
+        "evidence": "l'hébergement est gratuit pour les moins de six ans"
+      },
+      {
+        "q": {
+          "en": "Why does the brochure advise booking early?"
+        },
+        "options": [
+          "Prices go up in autumn",
+          "The bus is often full",
+          "The inns are often full in summer",
+          "The park closes early"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'en été, les auberges sont souvent complètes'.",
+          "hi": "'en été, les auberges sont souvent complètes' (गर्मियों में सराय अक्सर भरी रहती हैं)।"
+        },
+        "kind": "literal",
+        "evidence": "en été, les auberges sont souvent complètes"
+      }
+    ]
+  },
+  "writing": {
+    "type": "message",
+    "prompt": {
+      "en": "Write a message to a friend with your plan for a two-day trip: where you are going and why (with a comparison), how you will get there, where you will sleep, and what you will do each day in order.",
+      "hi": "एक दोस्त को संदेश लिखिए जिसमें दो दिन की यात्रा की योजना हो: कहाँ जा रहे हैं और क्यों (एक तुलना के साथ), कैसे जाएँगे, कहाँ ठहरेंगे, और हर दिन क्रम से क्या करेंगे।",
+      "fr": "Écrivez votre plan de voyage à un(e) ami(e)."
+    },
+    "minWords": 60,
+    "maxWords": 110,
+    "hints": [
+      {
+        "en": "Use d'abord, ensuite, enfin and one après avoir + participle.",
+        "hi": "d'abord, ensuite, enfin और एक après avoir + कृदंत का प्रयोग कीजिए।"
+      },
+      {
+        "en": "Replace at least two nouns with pronouns (y, en, le/la, lui).",
+        "hi": "कम से कम दो संज्ञाओं की जगह सर्वनाम लगाइए (y, en, le/la, lui)।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "J'ai l'intention d'aller à …",
+        "en": "I intend to go to …",
+        "hi": "मेरा … जाने का इरादा है",
+        "pron": "झ़े लैँ-ताँ-स्योँ दा-ले आ"
+      },
+      {
+        "fr": "C'est moins cher que …",
+        "en": "It's cheaper than …",
+        "hi": "यह … से सस्ता है",
+        "pron": "सै म्वैँ शैग़ कö"
+      },
+      {
+        "fr": "On y va en …",
+        "en": "We're going there by …",
+        "hi": "हम वहाँ … से जा रहे हैं",
+        "pron": "ओँ नी वा आँ"
+      }
+    ],
+    "model": {
+      "fr": "Salut Anjali ! Ce week-end, j'ai l'intention d'aller à Magog avec Vikram. C'est moins cher que Mont-Tremblant et il y a un très beau lac. On y va vendredi soir avec la voiture de son frère. J'ai réservé une chambre dans une petite auberge. Samedi, d'abord, nous ferons une randonnée au mont Orford. Ensuite, après avoir pique-niqué, nous louerons des kayaks. Dimanche, enfin, on mangera au restaurant et on rentrera. Tu as envie de venir ? Il reste une place dans la voiture !",
+      "en": "Hi Anjali! This weekend I intend to go to Magog with Vikram. It's cheaper than Mont-Tremblant and there's a really beautiful lake. We're going there on Friday evening in his brother's car. I've booked a room in a small inn. On Saturday, first we'll go on a hike on Mount Orford. Then, after a picnic, we'll rent kayaks. Finally, on Sunday we'll eat at a restaurant and come home. Do you feel like coming? There's one seat left in the car!"
+    },
+    "checklist": [
+      {
+        "en": "Is there a comparison (plus/moins … que)?",
+        "hi": "क्या कोई तुलना (plus/moins … que) है?"
+      },
+      {
+        "en": "Are the steps in order with d'abord, ensuite, enfin?",
+        "hi": "क्या क़दम d'abord, ensuite, enfin से क्रम में हैं?"
+      },
+      {
+        "en": "Are the pronouns before the verb (on y va, je la réserve)?",
+        "hi": "क्या सर्वनाम क्रिया से पहले हैं (on y va, je la réserve)?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "items": [
+      {
+        "fr": "Toronto est plus grand que Montréal.",
+        "en": "Toronto is bigger than Montréal.",
+        "hi": "टोरंटो मॉन्ट्रियल से बड़ा है।",
+        "pron": "तो-ग़ोँ-तो ऐ प्लü ग्ग़ाँ कö मोँ-ग़े-आल"
+      },
+      {
+        "fr": "C'est la ville la plus froide du pays.",
+        "en": "It's the coldest city in the country.",
+        "hi": "यह देश का सबसे ठंडा शहर है।",
+        "pron": "सै ला वील ला प्लü फ़्र्वाद दü पे-ई"
+      },
+      {
+        "fr": "Le train est meilleur que l'autobus.",
+        "en": "The train is better than the bus.",
+        "hi": "ट्रेन बस से बेहतर है।",
+        "pron": "लö त्रैँ ऐ मै-यöग़ कö लो-तो-बüस"
+      },
+      {
+        "fr": "Ta valise ? Je la ferme.",
+        "en": "Your suitcase? I'm closing it.",
+        "hi": "तुम्हारा सूटकेस? मैं उसे बंद कर रहा/रही हूँ।",
+        "pron": "ता वा-लीज़ — झ़ö ला फ़ैग़म"
+      },
+      {
+        "fr": "Les billets ? Je les ai achetés hier.",
+        "en": "The tickets? I bought them yesterday.",
+        "hi": "टिकट? मैंने उन्हें कल ख़रीद लिया।",
+        "pron": "ले बी-यै — झ़ö ले ज़े आश-ते ई-यैग़"
+      },
+      {
+        "fr": "Je leur offre des sucreries pour Diwali.",
+        "en": "I give them sweets for Diwali.",
+        "hi": "मैं उन्हें दिवाली पर मिठाई देता/देती हूँ।",
+        "pron": "झ़ö लöग़ ऑफ़्ग़ दे सü-क्ग़ö-ग़ी पूग़ दी-वा-ली"
+      },
+      {
+        "fr": "Ma mère ? Je lui téléphone tous les dimanches.",
+        "en": "My mother? I call her every Sunday.",
+        "hi": "मेरी माँ? मैं हर रविवार उन्हें फ़ोन करता/करती हूँ।",
+        "pron": "मा मैग़ — झ़ö ल्üई ते-ले-फ़ॉन तू ले दी-माँश"
+      },
+      {
+        "fr": "Le marché ? J'y vais le samedi.",
+        "en": "The market? I go there on Saturdays.",
+        "hi": "बाज़ार? मैं शनिवार को वहाँ जाता/जाती हूँ।",
+        "pron": "लö माग़-शे — झ़ी वै लö साम-दी"
+      },
+      {
+        "fr": "Des tomates ? J'en voudrais un kilo.",
+        "en": "Tomatoes? I'd like a kilo (of them).",
+        "hi": "टमाटर? मुझे एक किलो चाहिए।",
+        "pron": "दे तो-मात — झ़ाँ वू-द्ग़ै ऐँ की-लो"
+      },
+      {
+        "fr": "D'abord, j'ai signé le bail ; ensuite, j'ai payé le loyer.",
+        "en": "First I signed the lease; then I paid the rent.",
+        "hi": "पहले मैंने लीज़ पर हस्ताक्षर किए; फिर किराया दिया।",
+        "pron": "दा-बोग़ झ़े सी-न्ये लö बाय — आँ-स्üईत झ़े पे-ये लö ल्वा-ये"
+      },
+      {
+        "fr": "Avant de partir, vérifiez vos papiers.",
+        "en": "Before leaving, check your documents.",
+        "hi": "निकलने से पहले अपने काग़ज़ जाँच लीजिए।",
+        "pron": "आ-वाँ दö पाग़-तीग़ वे-ग़ी-फ़्ये वो पा-प्ये"
+      },
+      {
+        "fr": "Après avoir déménagé, j'ai cherché du travail.",
+        "en": "After moving house, I looked for work.",
+        "hi": "घर बदलने के बाद मैंने काम ढूँढा।",
+        "pron": "आ-प्रै ज़ा-व्वाग़ दे-मे-ना-झ़े झ़े शैग़-शे दü त्रा-वाय"
+      },
+      {
+        "fr": "Je compte passer le TEF en juin.",
+        "en": "I plan to take the TEF in June.",
+        "hi": "मेरा जून में TEF देने का इरादा है।",
+        "pron": "झ़ö कोँत पा-से लö तेफ़ आँ झ़üएँ"
+      },
+      {
+        "fr": "J'espère trouver un emploi dans mon domaine.",
+        "en": "I hope to find a job in my field.",
+        "hi": "मुझे उम्मीद है कि मुझे अपने क्षेत्र में नौकरी मिलेगी।",
+        "pron": "झ़ेस-पैग़ त्रू-वे ऐँ नाँ-प्ल्वा दाँ मोँ दो-मैन"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'La chambre ? Je vais ___ réserver.' Choose the pronoun.",
+        "hi": "'La chambre ? Je vais ___ réserver.' सर्वनाम चुनिए।"
+      },
+      "options": [
+        "lui",
+        "y",
+        "la",
+        "en"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "réserver la chambre (direct object, feminine) → la, placed before the infinitive.",
+        "hi": "réserver la chambre (प्रत्यक्ष कर्म, स्त्रीलिंग) → la, मूल क्रिया से पहले।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Replace 'à mon frère' with a pronoun.",
+        "hi": "'à mon frère' की जगह सर्वनाम लगाइए।"
+      },
+      "sentence": "Je ___ demande la voiture.",
+      "answer": "lui",
+      "accept": [],
+      "explanation": {
+        "en": "demander à + person → lui.",
+        "hi": "demander à + व्यक्ति → lui।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Des sacs de couchage ? ___' Which answer is correct?",
+        "hi": "'Des sacs de couchage ? ___' कौन-सा जवाब सही है?"
+      },
+      "options": [
+        "J'ai deux en.",
+        "Je les ai deux.",
+        "J'y ai deux.",
+        "J'en ai deux."
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "des + noun → en, before the verb; the number stays at the end.",
+        "hi": "des + संज्ञा → en, क्रिया से पहले; संख्या अंत में रहती है।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "Magog is cheaper than Mont-Tremblant.",
+        "hi": "मागोग मॉन्ट-ट्रेम्ब्लां से सस्ता है।"
+      },
+      "answer": "Magog est moins cher que Mont-Tremblant.",
+      "accept": [
+        "Magog est moins chère que Mont-Tremblant.",
+        "Magog, c'est moins cher que Mont-Tremblant."
+      ],
+      "explanation": {
+        "en": "cheaper = moins cher (que).",
+        "hi": "सस्ता = moins cher (que)।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: 'I went there last year.'",
+        "hi": "शब्दों को क्रम में लगाइए: 'मैं पिछले साल वहाँ गया।'"
+      },
+      "words": [
+        "suis",
+        "J'y",
+        "l'année",
+        "allé",
+        "dernière."
+      ],
+      "answer": "J'y suis allé l'année dernière.",
+      "explanation": {
+        "en": "y goes before the auxiliary être in the passé composé.",
+        "hi": "पासे कॉम्पोज़े में y सहायक क्रिया être से पहले आता है।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: 'After eating, we'll go home.'",
+        "hi": "पूरा कीजिए: 'खाना खाने के बाद हम घर जाएँगे।'"
+      },
+      "sentence": "Après ___ mangé, nous rentrerons.",
+      "answer": "avoir",
+      "accept": [],
+      "explanation": {
+        "en": "après + avoir + past participle.",
+        "hi": "après + avoir + कृदंत।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which word has the sound /ɥ/ (üइ)?",
+        "hi": "किस शब्द में /ɥ/ (üइ) की ध्वनि है?"
+      },
+      "options": [
+        "nuit",
+        "nous",
+        "noir"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "nuit = नüई. nous has ou (ऊ) and noir has oi (वा).",
+        "hi": "nuit = नüई। nous में ou (ऊ) है और noir में oi (वा)।"
+      }
+    }
+  ]
+}

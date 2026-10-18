@@ -1,0 +1,913 @@
+{
+  "day": 98,
+  "phase": 5,
+  "title": {
+    "fr": "Révision : thèmes et structures d'argumentation",
+    "en": "Review day: topics and argument structures",
+    "hi": "दोहराई का दिन: विषय और तर्क की संरचनाएँ"
+  },
+  "objective": {
+    "en": "Consolidate Days 92–97 under exam conditions: a mixed natural-speed listening set, a timed reading set, a timed TEF B role-play and a timed TEF B letter.",
+    "hi": "परीक्षा जैसी स्थिति में दिन 92–97 को पक्का करना: सामान्य गति का मिला-जुला सुनने का सेट, समयबद्ध पठन सेट, समयबद्ध TEF B रोल-प्ले और समयबद्ध TEF B पत्र।"
+  },
+  "prerequisites": {
+    "days": [
+      92,
+      93,
+      94,
+      95,
+      96,
+      97
+    ],
+    "summary": {
+      "en": "Administrative documents (92), passive and viewpoint (93), gérondif and note-taking (94), housing questions (95), TEF B persuasion (96), concession and refutation (97).",
+      "hi": "सरकारी-दफ़्तरी काग़ज़ात (92), कर्मवाच्य और दृष्टिकोण (93), gérondif और नोट्स लेना (94), घर से जुड़े सवाल (95), TEF B में मनाना (96), रियायत और खंडन (97)।"
+    }
+  },
+  "light": true,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "le justificatif",
+      "en": "supporting document, proof",
+      "hi": "सबूत का काग़ज़",
+      "pron": "लö झ़üस-ती-फ़ी-का-तीफ़",
+      "ipa": "lə ʒystifikatif",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "justificatif",
+      "note": {
+        "en": "Un justificatif de domicile = proof of address.",
+        "hi": "un justificatif de domicile = पते का सबूत।"
+      }
+    },
+    {
+      "fr": "le délai",
+      "en": "deadline, time allowed",
+      "hi": "समय-सीमा",
+      "pron": "लö दे-लै",
+      "ipa": "lə delɛ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "délai",
+      "note": {
+        "en": "Dans un délai de 30 jours = within 30 days. Not 'delay' in the English sense (that's un retard).",
+        "hi": "dans un délai de 30 jours = 30 दिनों के अंदर। अंग्रेज़ी 'delay' (देरी) नहीं — देरी = un retard।"
+      }
+    },
+    {
+      "fr": "la colocation",
+      "en": "flat-sharing",
+      "hi": "साझा किराये का घर / रूम-शेयरिंग",
+      "pron": "ला को-लो-का-स्योँ",
+      "ipa": "la kɔlɔkasjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "colocation",
+      "note": {
+        "en": "Un / une colocataire (un coloc) = a roommate.",
+        "hi": "un / une colocataire (un coloc) = साथ रहने वाला किरायेदार।"
+      }
+    },
+    {
+      "fr": "le covoiturage",
+      "en": "carpooling",
+      "hi": "कारपूलिंग / गाड़ी साझा करना",
+      "pron": "लö को-व्वा-त्ü-ग़ाझ़",
+      "ipa": "lə kovwatyʁaʒ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "covoiturage"
+    },
+    {
+      "fr": "la déconnexion",
+      "en": "disconnecting (from work, screens)",
+      "hi": "डिस्कनेक्ट होना / काम-स्क्रीन से दूरी",
+      "pron": "ला दे-को-नैक-स्योँ",
+      "ipa": "la dekɔnɛksjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "déconnexion"
+    },
+    {
+      "fr": "l'allocation",
+      "en": "allowance, benefit payment",
+      "hi": "भत्ता",
+      "pron": "ला-लो-का-स्योँ",
+      "ipa": "lalɔkasjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "allocation"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Je vous rappelle au sujet de votre demande.",
+      "en": "I'm calling you back about your request.",
+      "hi": "मैं आपके अनुरोध के सिलसिले में आपको वापस फ़ोन कर रहा हूँ।",
+      "pron": "झ़ö वू ग़ा-पैल ओ सü-झ़े दö वॉत्ग़ दö-माँद"
+    },
+    {
+      "fr": "Il est vrai que c'est plus long ; cependant, c'est moins cher.",
+      "en": "It's true that it takes longer; however, it's cheaper.",
+      "hi": "यह सच है कि इसमें ज़्यादा समय लगता है; फिर भी यह सस्ता है।",
+      "pron": "ई-लै व्ग़ै कö सै प्लü लोँ सö-पाँ-दाँ सै म्वैँ शैग़"
+    },
+    {
+      "fr": "En partageant les frais, tu économises la moitié.",
+      "en": "By sharing the costs, you save half.",
+      "hi": "ख़र्च बाँटकर तुम आधा बचा लेते हो।",
+      "pron": "आँ पाग़-ता-झ़ाँ ले फ़्ग़ै तü ए-को-नो-मीज़ ला म्वा-त्ये"
+    },
+    {
+      "fr": "Vous avez trente jours pour envoyer les justificatifs.",
+      "en": "You have thirty days to send the supporting documents.",
+      "hi": "सबूत के काग़ज़ भेजने के लिए आपके पास तीस दिन हैं।",
+      "pron": "वू ज़ा-वे त्ग़ाँत झ़ूग़ पूग़ आँ-व्वा-ये ले झ़üस-ती-फ़ी-का-तीफ़"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Week recap: passive, gérondif, noun-subject inversion, TEF B moves, concession",
+      "hi": "हफ़्ते की दोहराई: कर्मवाच्य, gérondif, संज्ञा कर्ता के साथ inversion, TEF B के क़दम, रियायत"
+    },
+    "explanation": {
+      "en": "Five tools from this week, all useful in the exam. (1) Passive être + participle (agreeing) + par: Le formulaire doit être signé par le locataire. (2) Gérondif en + -ant for 'by / while doing': En partageant la voiture, on pollue moins. (3) Inversion with a noun subject in TEF A: Le stationnement est-il inclus ? (4) TEF B: present (Il s'agit de…), argue (en plus, sans compter que), answer objections (Je comprends, mais… / Justement !). (5) Concession + refutation: Certes… mais… ; Bien que + subjunctive… ; Il n'en reste pas moins que…",
+      "hi": "इस हफ़्ते के पाँच औज़ार, सब परीक्षा में काम के। (1) कर्मवाच्य être + participle (मेल के साथ) + par: Le formulaire doit être signé par le locataire। (2) gérondif en + -ant, 'करके / करते हुए' के लिए: En partageant la voiture, on pollue moins। (3) TEF A में संज्ञा कर्ता के साथ inversion: Le stationnement est-il inclus ? (4) TEF B: पेश करना (Il s'agit de…), तर्क देना (en plus, sans compter que), आपत्तियों का जवाब (Je comprends, mais… / Justement !)। (5) रियायत + खंडन: Certes… mais… ; Bien que + subjonctif… ; Il n'en reste pas moins que…।"
+    },
+    "comparison": {
+      "en": "All five have Hindi equivalents (किया गया, करके, क्या…?, माना कि… पर), but French adds agreement (signée), a pronoun (est-il) or a mood (soit). Those small additions are where marks are lost.",
+      "hi": "पाँचों के हिंदी रूप हैं (किया गया, करके, क्या…?, माना कि… पर), पर फ़्रेंच में मेल (signée), सर्वनाम (est-il) या भाव (soit) जुड़ता है। अंक इन्हीं छोटी चीज़ों में कटते हैं।"
+    },
+    "examples": [
+      {
+        "fr": "La demande a été acceptée par le propriétaire.",
+        "en": "The application was accepted by the landlord.",
+        "hi": "मकान-मालिक ने आवेदन स्वीकार कर लिया।",
+        "pron": "ला दö-माँद आ ए-ते ताक-सैप-ते पाग़ लö प्ग़ो-प्ग़ी-ये-तैग़"
+      },
+      {
+        "fr": "En prenant le covoiturage, elle économise cent dollars par mois.",
+        "en": "By carpooling, she saves a hundred dollars a month.",
+        "hi": "कारपूलिंग करके वह हर महीने सौ डॉलर बचाती है।",
+        "pron": "आँ प्ग़ö-नाँ लö को-व्वा-त्ü-ग़ाझ़ ऐल ए-को-नो-मीज़ साँ दो-लाग़ पाग़ म्वा"
+      },
+      {
+        "fr": "La chambre est-elle meublée ?",
+        "en": "Is the room furnished?",
+        "hi": "क्या कमरे में फ़र्नीचर है?",
+        "pron": "ला शाँब्ग़ ए-तैल मö-ब्ले"
+      },
+      {
+        "fr": "Je comprends que tu hésites, mais justement, c'est le bon moment.",
+        "en": "I understand that you're hesitating, but that's exactly why it's the right time.",
+        "hi": "मैं समझता हूँ कि तुम हिचकिचा रहे हो, पर इसीलिए तो यह सही समय है।",
+        "pron": "झ़ö कोँ-प्ग़ाँ कö तü ए-ज़ीत मै झ़üस-तö-माँ सै लö बोँ मो-माँ"
+      },
+      {
+        "fr": "Bien que la gratuité coûte cher, elle attire de nouveaux visiteurs.",
+        "en": "Although free entry is costly, it attracts new visitors.",
+        "hi": "हालाँकि मुफ़्त प्रवेश महँगा पड़ता है, वह नए आगंतुकों को खींचता है।",
+        "pron": "ब्यैँ कö ला ग्ग़ा-त्üई-ते कूत शैग़ ऐल आ-तीग़ दö नू-वो वी-ज़ी-तöग़"
+      },
+      {
+        "fr": "Certes, c'est moins rapide. Il n'en reste pas moins que c'est plus écologique.",
+        "en": "Admittedly, it's slower. The fact remains that it's greener.",
+        "hi": "माना कि यह धीमा है। फिर भी सच यह है कि यह पर्यावरण के लिए बेहतर है।",
+        "pron": "सैग़त सै म्वैँ ग़ा-पीद इल नाँ ग़ैस्त पा म्वैँ कö सै प्लü ज़े-को-लो-झ़ीक"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Passive agreement: la demande a été acceptée (not accepté).",
+        "hi": "कर्मवाच्य में मेल: la demande a été acceptée (accepté नहीं)।"
+      },
+      {
+        "en": "The gérondif subject must be the same as the main verb's: 'En arrivant, le propriétaire m'a appelé' means the LANDLORD arrived.",
+        "hi": "gérondif का कर्ता मुख्य क्रिया वाला ही होना चाहिए: 'En arrivant, le propriétaire m'a appelé' का मतलब है कि मकान-मालिक पहुँचा।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Review: week's key sounds",
+    "tip": {
+      "en": "Quick check before the timed tasks: -tion [sjɔ̃] in colocation and déconnexion, the soft ch [ʃ] in chauffage, the nasal [ɑ̃] of the gérondif (-ant), and the silent s of certes.",
+      "hi": "समयबद्ध कामों से पहले जल्दी जाँच: colocation और déconnexion में -tion = स्योँ, chauffage में मुलायम 'श', gérondif (-ant) की नाक वाली आँ, और certes का न बोला जाने वाला s।"
+    },
+    "words": [
+      {
+        "fr": "la colocation",
+        "en": "flat-sharing",
+        "hi": "रूम-शेयरिंग",
+        "pron": "ला को-लो-का-स्योँ",
+        "ipa": "la kɔlɔkasjɔ̃"
+      },
+      {
+        "fr": "en partageant",
+        "en": "by sharing",
+        "hi": "बाँटकर",
+        "pron": "आँ पाग़-ता-झ़ाँ",
+        "ipa": "ɑ̃ paʁtaʒɑ̃"
+      },
+      {
+        "fr": "le chauffage",
+        "en": "heating",
+        "hi": "हीटिंग",
+        "pron": "लö शो-फ़ाझ़",
+        "ipa": "lə ʃofaʒ"
+      },
+      {
+        "fr": "certes",
+        "en": "admittedly",
+        "hi": "माना कि",
+        "pron": "सैग़त",
+        "ipa": "sɛʁt"
+      },
+      {
+        "fr": "le covoiturage",
+        "en": "carpooling",
+        "hi": "कारपूलिंग",
+        "pron": "लö को-व्वा-त्ü-ग़ाझ़",
+        "ipa": "lə kovwatyʁaʒ"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Série d'écoute mixte : trois documents",
+      "en": "Mixed listening set: three recordings"
+    },
+    "type": "radio",
+    "mode": "natural",
+    "context": {
+      "en": "Exam conditions: listen once, without pausing. Three short recordings follow each other: a public-service announcement, a voicemail from a landlord, and an extract from a radio debate on museums.",
+      "hi": "परीक्षा जैसी स्थिति: एक बार सुनिए, बिना रोके। तीन छोटी रिकॉर्डिंग एक के बाद एक आती हैं: एक सार्वजनिक सेवा घोषणा, मकान-मालिक का वॉइसमेल, और संग्रहालयों पर रेडियो बहस का एक अंश।"
+    },
+    "lines": [
+      {
+        "speaker": "Annonceur",
+        "voice": "m2",
+        "fr": "Document un. Avis aux résidents de Granby : à partir du premier octobre, le stationnement incitatif de la rue Principale sera réservé au covoiturage du lundi au vendredi, de six heures à dix heures.",
+        "en": "Recording one. Notice to Granby residents: from the first of October, the park-and-ride lot on Principale Street will be reserved for carpooling Monday to Friday, from six to ten a.m.",
+        "hi": "पहली रिकॉर्डिंग। ग्रानबी के निवासियों के लिए सूचना: एक अक्टूबर से, प्रिंसिपल स्ट्रीट की 'पार्क-एंड-राइड' पार्किंग सोमवार से शुक्रवार सुबह छह से दस बजे तक कारपूलिंग के लिए आरक्षित रहेगी।"
+      },
+      {
+        "speaker": "Annonceur",
+        "voice": "m2",
+        "fr": "Pour y accéder, inscrivez-vous gratuitement sur le site de la Ville. Les véhicules non inscrits pourront recevoir une contravention.",
+        "en": "To access it, register for free on the City's website. Unregistered vehicles may receive a ticket.",
+        "hi": "वहाँ जाने के लिए नगर-पालिका की वेबसाइट पर मुफ़्त में नाम दर्ज कराइए। बिना पंजीकरण वाली गाड़ियों को जुर्माने की पर्ची मिल सकती है।"
+      },
+      {
+        "speaker": "Annonceur",
+        "voice": "m2",
+        "fr": "Document deux.",
+        "en": "Recording two.",
+        "hi": "दूसरी रिकॉर्डिंग।"
+      },
+      {
+        "speaker": "M. Bélanger",
+        "voice": "m1",
+        "fr": "Oui, bonjour, ici Pierre Bélanger, le propriétaire du 3 ½ de la rue King. Je vous rappelle au sujet de votre demande. Bonne nouvelle : votre candidature a été acceptée.",
+        "en": "Yes, hello, this is Pierre Bélanger, the owner of the 3½ on King Street. I'm calling you back about your application. Good news: your application has been accepted.",
+        "hi": "हाँ, नमस्ते, मैं पियेर बेलाँझ़े, किंग स्ट्रीट वाले 3 ½ का मालिक। मैं आपके आवेदन के बारे में वापस फ़ोन कर रहा हूँ। अच्छी ख़बर: आपका आवेदन स्वीकार कर लिया गया है।"
+      },
+      {
+        "speaker": "M. Bélanger",
+        "voice": "m1",
+        "fr": "Il me manque seulement un justificatif de revenu. Si vous pouvez me l'envoyer d'ici vendredi, on signe le bail lundi soir, chez moi, vers dix-huit heures.",
+        "en": "I'm only missing a proof of income. If you can send it to me by Friday, we'll sign the lease Monday evening, at my place, around six p.m.",
+        "hi": "मुझे बस आमदनी का एक सबूत चाहिए। अगर आप शुक्रवार तक भेज दें, तो हम सोमवार शाम क़रीब छह बजे मेरे घर पर किरायानामा साइन कर लेंगे।"
+      },
+      {
+        "speaker": "M. Bélanger",
+        "voice": "m1",
+        "fr": "Ah, et j'ai vérifié : l'Internet n'est pas inclus, mais le chauffage, oui. Rappelez-moi au 450 555-0123. Merci !",
+        "en": "Oh, and I checked: internet isn't included, but heating is. Call me back at 450 555-0123. Thanks!",
+        "hi": "अरे, और मैंने देख लिया: इंटरनेट शामिल नहीं है, पर हीटिंग शामिल है। मुझे 450 555-0123 पर वापस फ़ोन कीजिए। धन्यवाद!"
+      },
+      {
+        "speaker": "Annonceur",
+        "voice": "m2",
+        "fr": "Document trois.",
+        "en": "Recording three.",
+        "hi": "तीसरी रिकॉर्डिंग।"
+      },
+      {
+        "speaker": "Animatrice",
+        "voice": "f2",
+        "fr": "Faut-il rendre les musées gratuits ? Madame Roy, vous dirigez un musée régional.",
+        "en": "Should museums be made free? Ms Roy, you run a regional museum.",
+        "hi": "क्या संग्रहालय मुफ़्त कर देने चाहिए? मैडम रॉय, आप एक क्षेत्रीय संग्रहालय चलाती हैं।"
+      },
+      {
+        "speaker": "Mme Roy",
+        "voice": "f1",
+        "fr": "Certes, la gratuité attire du monde : quand nous avons ouvert gratuitement le premier dimanche du mois, la fréquentation a doublé. Il n'en reste pas moins qu'un musée doit payer ses employés et entretenir ses collections.",
+        "en": "Admittedly, free entry attracts people: when we opened free of charge on the first Sunday of the month, attendance doubled. The fact remains that a museum must pay its employees and maintain its collections.",
+        "hi": "माना कि मुफ़्त प्रवेश से लोग आते हैं: जब हमने महीने के पहले रविवार को मुफ़्त प्रवेश रखा, तो आने वालों की संख्या दोगुनी हो गई। फिर भी सच यह है कि संग्रहालय को अपने कर्मचारियों को वेतन देना होता है और अपने संग्रह की देखभाल करनी होती है।"
+      },
+      {
+        "speaker": "Mme Roy",
+        "voice": "f1",
+        "fr": "Ma solution ? Une gratuité ciblée : pour les enfants, les étudiants et les nouveaux arrivants pendant leur première année.",
+        "en": "My solution? Targeted free entry: for children, students and newcomers during their first year.",
+        "hi": "मेरा समाधान? चुनिंदा मुफ़्त प्रवेश: बच्चों, विद्यार्थियों और नए आए लोगों के लिए उनके पहले साल में।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "Document 1: What will change on 1 October?"
+        },
+        "options": [
+          "Principale Street will be closed to cars",
+          "Bus routes will change",
+          "A parking lot will be reserved for carpooling on weekday mornings",
+          "Parking on Principale Street will become free all day"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Le stationnement incitatif… sera réservé au covoiturage du lundi au vendredi, de six heures à dix heures.'",
+          "hi": "'le stationnement incitatif … sera réservé au covoiturage' — सोमवार–शुक्रवार सुबह कारपूलिंग के लिए।"
+        },
+        "kind": "literal",
+        "evidence": "sera réservé au covoiturage du lundi au vendredi, de six heures à dix heures."
+      },
+      {
+        "q": {
+          "en": "Document 1: What happens to drivers who don't register?"
+        },
+        "options": [
+          "They may get a ticket",
+          "They must pay a registration fee",
+          "Nothing",
+          "Their car will be towed immediately"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Les véhicules non inscrits pourront recevoir une contravention.' Registration is free.",
+          "hi": "'les véhicules non inscrits pourront recevoir une contravention' — जुर्माने की पर्ची। पंजीकरण मुफ़्त है।"
+        },
+        "kind": "literal",
+        "evidence": "Les véhicules non inscrits pourront recevoir une contravention."
+      },
+      {
+        "q": {
+          "en": "Document 2: Why is the landlord calling?"
+        },
+        "options": [
+          "To refuse the application",
+          "To raise the rent",
+          "To cancel a visit",
+          "To say the application was accepted"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Bonne nouvelle : votre candidature a été acceptée.' (passive)",
+          "hi": "'bonne nouvelle : votre candidature a été acceptée' — आवेदन स्वीकार हुआ (कर्मवाच्य)।"
+        },
+        "kind": "gist",
+        "evidence": "Bonne nouvelle : votre candidature a été acceptée."
+      },
+      {
+        "q": {
+          "en": "Document 2: What must be sent by Friday?"
+        },
+        "options": [
+          "A reference letter",
+          "A proof of income",
+          "The signed lease",
+          "The first month's rent"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Il me manque seulement un justificatif de revenu… d'ici vendredi.' The lease is signed on Monday.",
+          "hi": "'il me manque seulement un justificatif de revenu' — शुक्रवार तक आमदनी का सबूत। किरायानामा सोमवार को।"
+        },
+        "kind": "literal",
+        "evidence": "Il me manque seulement un justificatif de revenu."
+      },
+      {
+        "q": {
+          "en": "Document 3: What happened when the museum opened for free one Sunday a month?"
+        },
+        "options": [
+          "The museum lost its staff",
+          "Nothing changed",
+          "Attendance doubled",
+          "Attendance fell"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'La fréquentation a doublé.' — her concession is supported by a figure.",
+          "hi": "'la fréquentation a doublé' — संख्या दोगुनी हुई; उनकी रियायत एक आँकड़े से समर्थित है।"
+        },
+        "kind": "literal",
+        "evidence": "la fréquentation a doublé."
+      },
+      {
+        "q": {
+          "en": "Document 3: What is Mme Roy's position?"
+        },
+        "options": [
+          "Free entry only for certain groups",
+          "Free entry for everyone, every day",
+          "No free entry at all",
+          "Closing small museums"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Une gratuité ciblée : pour les enfants, les étudiants et les nouveaux arrivants…' — a nuanced position.",
+          "hi": "'une gratuité ciblée' — सिर्फ़ बच्चों, विद्यार्थियों और नए आए लोगों के लिए; संतुलित राय।"
+        },
+        "kind": "inference",
+        "evidence": "Une gratuité ciblée : pour les enfants, les étudiants et les nouveaux arrivants pendant leur première année."
+      }
+    ],
+    "dictation": [
+      "Votre candidature a été acceptée.",
+      "Il me manque seulement un justificatif de revenu.",
+      "Certes, la gratuité attire du monde."
+    ],
+    "gapFill": {
+      "text": "Le stationnement sera réservé au ___ du lundi au vendredi. L'Internet n'est pas inclus, mais le ___, oui. Il n'en ___ pas moins qu'un musée doit payer ses employés.",
+      "answers": [
+        "covoiturage",
+        "chauffage",
+        "reste"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "tef_b",
+    "instructions": {
+      "en": "Timed TEF section B (set a timer for 10 minutes). Use document C of today's reading (the carpooling service). Present it to your friend in about one minute, then convince them to try it. Answer every objection with a different argument. Stop when the timer rings, even mid-sentence, and note how many objections you handled.",
+      "hi": "समयबद्ध TEF भाग B (10 मिनट का टाइमर लगाइए)। आज के पठन का दस्तावेज़ C (कारपूलिंग सेवा) इस्तेमाल कीजिए। लगभग एक मिनट में दोस्त के सामने इसे पेश कीजिए, फिर उसे आज़माने के लिए मनाइए। हर आपत्ति का जवाब अलग तर्क से दीजिए। टाइमर बजते ही रुक जाइए, चाहे वाक्य अधूरा हो, और लिखिए कि आपने कितनी आपत्तियों का जवाब दिया।"
+    },
+    "scenario": {
+      "setting": {
+        "en": "Document C: 'Covoit'Estrie', a free online carpooling service for the Sherbrooke–Magog area. Drivers and passengers are matched by schedule; passengers pay the driver $4 per trip; profiles are verified; a guaranteed ride home by taxi is offered twice a year if your driver cancels.",
+        "hi": "दस्तावेज़ C: 'Covoit'Estrie', शेरब्रुक–मागॉग इलाक़े के लिए मुफ़्त ऑनलाइन कारपूलिंग सेवा। ड्राइवरों और यात्रियों को समय के हिसाब से जोड़ा जाता है; यात्री हर सफ़र के लिए ड्राइवर को 4 डॉलर देते हैं; प्रोफ़ाइलों की जाँच होती है; अगर ड्राइवर रद्द कर दे तो साल में दो बार टैक्सी से घर पहुँचने की गारंटी है।"
+      },
+      "learnerRole": {
+        "en": "You use the service and want your friend, who drives alone to work in Magog every day, to join it. Use tu.",
+        "hi": "आप यह सेवा इस्तेमाल करते हैं और चाहते हैं कि आपका दोस्त, जो रोज़ अकेले गाड़ी चलाकर मागॉग काम पर जाता है, इससे जुड़े। tu इस्तेमाल कीजिए।"
+      },
+      "partnerRole": {
+        "en": "Your friend Julien. Objections: 'J'aime être seul dans ma voiture', 'Et si le passager est en retard ?', 'Je ne connais pas ces gens, c'est risqué', 'Quatre dollars, ça ne vaut pas la peine', 'Mes horaires changent souvent'.",
+        "hi": "आपका दोस्त जूलियाँ। आपत्तियाँ: 'J'aime être seul dans ma voiture', 'Et si le passager est en retard ?', 'Je ne connais pas ces gens, c'est risqué', 'Quatre dollars, ça ne vaut pas la peine', 'Mes horaires changent souvent'।"
+      },
+      "goals": [
+        {
+          "en": "Present the document in your own words in about one minute.",
+          "hi": "लगभग एक मिनट में दस्तावेज़ अपने शब्दों में पेश कीजिए।"
+        },
+        {
+          "en": "Handle at least four objections with four different arguments (money, environment, safety, social life).",
+          "hi": "कम से कम चार आपत्तियों का जवाब चार अलग तर्कों से दीजिए (पैसा, पर्यावरण, सुरक्षा, मेल-जोल)।"
+        },
+        {
+          "en": "Use at least one concession (Certes… / Je comprends, mais…) and one gérondif.",
+          "hi": "कम से कम एक रियायत (Certes… / Je comprends, mais…) और एक gérondif इस्तेमाल कीजिए।"
+        }
+      ]
+    },
+    "prompts": [
+      {
+        "fr": "Julien, tu connais Covoit'Estrie ? Il s'agit d'un service de covoiturage gratuit.",
+        "en": "Julien, do you know Covoit'Estrie? It's a free carpooling service.",
+        "hi": "जूलियाँ, तुम्हें कोवुआत-एस्त्री पता है? यह एक मुफ़्त कारपूलिंग सेवा है।",
+        "pron": "झ़ü-ल्यैँ तü को-नै को-व्वा-तैस-त्ग़ी इल सा-झ़ी दैँ सैग़-वीस दö को-व्वा-त्ü-ग़ाझ़ ग्ग़ा-त्üई"
+      },
+      {
+        "fr": "En prenant deux passagers, tu gagnerais huit dollars par trajet.",
+        "en": "By taking two passengers, you would earn eight dollars per trip.",
+        "hi": "दो यात्रियों को ले जाकर तुम हर सफ़र में आठ डॉलर कमाओगे।",
+        "pron": "आँ प्ग़ö-नाँ दö पा-सा-झ़े तü गा-न्यö-ग़ै üई दो-लाग़ पाग़ त्ग़ा-झ़ै"
+      },
+      {
+        "fr": "Je comprends que tu aimes être seul, mais tu pourrais essayer deux jours par semaine.",
+        "en": "I understand you like being alone, but you could try two days a week.",
+        "hi": "मैं समझता हूँ कि तुम्हें अकेले रहना पसंद है, पर तुम हफ़्ते में दो दिन आज़मा सकते हो।",
+        "pron": "झ़ö कोँ-प्ग़ाँ कö तü ऐम ज़ैत्ग़ सöल मै तü पू-ग़ै ए-से-ये दö झ़ूग़ पाग़ सö-मैन"
+      },
+      {
+        "fr": "Ce n'est pas risqué puisque tous les profils sont vérifiés.",
+        "en": "It isn't risky since all profiles are verified.",
+        "hi": "यह जोखिम भरा नहीं है क्योंकि सभी प्रोफ़ाइलों की जाँच होती है।",
+        "pron": "सö नै पा ग़िस-के प्üइस-कö तू ले प्ग़ो-फ़ील सोँ वे-ग़ी-फ़्ये"
+      },
+      {
+        "fr": "Certes, quatre dollars, ce n'est pas beaucoup. Il n'en reste pas moins que ça paie ton essence.",
+        "en": "Admittedly, four dollars isn't much. The fact remains that it pays for your gas.",
+        "hi": "माना कि चार डॉलर ज़्यादा नहीं हैं। फिर भी इससे तुम्हारे पेट्रोल का ख़र्च निकल जाता है।",
+        "pron": "सैग़त कात्ग़ दो-लाग़ सö नै पा बो-कू इल नाँ ग़ैस्त पा म्वैँ कö सा पै तोँ ने-साँस"
+      },
+      {
+        "fr": "Alors, on t'inscrit ce soir ?",
+        "en": "So, shall we sign you up tonight?",
+        "hi": "तो, आज रात तुम्हारा नाम दर्ज कर दें?",
+        "pron": "आ-लॉग़ ओँ तैँस-क्ग़ी सö स्वाग़"
+      }
+    ],
+    "tip": {
+      "en": "Timing check: presentation ≈ 1 min, then 8 minutes of objections, 1 minute to conclude. If you finish your arguments after 5 minutes, you are not developing enough — add an example to each.",
+      "hi": "समय की जाँच: परिचय ≈ 1 मिनट, फिर 8 मिनट आपत्तियाँ, 1 मिनट निष्कर्ष। अगर आपके तर्क 5 मिनट में ख़त्म हो जाते हैं, तो आप उन्हें काफ़ी विकसित नहीं कर रहे — हर तर्क में एक उदाहरण जोड़िए।"
+    }
+  },
+  "reading": {
+    "genre": "notice",
+    "title": "Lecture minutée (8 minutes) : babillard du centre communautaire",
+    "text": "DOCUMENT A — Colocation\nCherche colocataire pour grand 5 ½ près de l'Université de Sherbrooke, à partir du 1er septembre. Chambre fermée et meublée, 575 $ par mois, chauffage et Internet inclus. Nous sommes deux étudiantes en soins infirmiers, calmes et non-fumeuses. Cuisine et salon partagés, ménage organisé chaque semaine. Écrire à Inès : coloc.ines@exemple.ca.\n\nDOCUMENT B — Avis\nAide gratuite pour remplir vos déclarations de revenus. Des bénévoles formés vous aident à remplir vos déclarations fédérale et provinciale. Le service est offert aux personnes à revenu modeste, sur rendez-vous, les mardis et jeudis de 13 h à 16 h, jusqu'au 30 avril. Apportez vos feuillets de revenus, une pièce d'identité et, si vous êtes arrivé au Canada l'an dernier, la date exacte de votre arrivée. Attention : les dossiers incomplets ne pourront pas être traités le jour même.\n\nDOCUMENT C — Covoit'Estrie\nVous faites seul le trajet Sherbrooke–Magog chaque jour ? Partagez votre voiture ! Covoit'Estrie met en relation, gratuitement, conducteurs et passagers qui ont des horaires semblables. Chaque passager verse 4 $ par trajet au conducteur. Tous les profils sont vérifiés. Votre conducteur annule à la dernière minute ? Un retour en taxi vous est garanti, deux fois par année. En partageant un trajet de 40 km par jour, vous évitez environ une tonne de CO₂ par année.\n\nDOCUMENT D — Courrier des lecteurs\n« Bien que le covoiturage soit une bonne idée, il ne remplacera jamais un vrai service d'autobus entre nos villes. Les étudiants et les personnes âgées n'ont pas toujours d'amis qui conduisent. Certes, la région est grande et peu peuplée ; il n'en reste pas moins qu'un autobus toutes les heures aux heures de pointe n'est pas un luxe. » — Gilles, Magog",
+    "translation": {
+      "en": "DOCUMENT A — Flat-share\nLooking for a roommate for a large 5½ near the Université de Sherbrooke, from 1 September. Closed, furnished bedroom, $575 a month, heating and internet included. We are two nursing students, quiet and non-smokers. Shared kitchen and living room, cleaning organised every week. Write to Inès: coloc.ines@exemple.ca.\n\nDOCUMENT B — Notice\nFree help to fill in your income tax returns. Trained volunteers help you complete your federal and provincial returns. The service is offered to people with a modest income, by appointment, on Tuesdays and Thursdays from 1 to 4 p.m., until 30 April. Bring your income slips, a piece of ID and, if you arrived in Canada last year, the exact date of your arrival. Note: incomplete files cannot be processed the same day.\n\nDOCUMENT C — Covoit'Estrie\nDo you make the Sherbrooke–Magog trip alone every day? Share your car! Covoit'Estrie connects, free of charge, drivers and passengers with similar schedules. Each passenger pays the driver $4 per trip. All profiles are verified. Your driver cancels at the last minute? A ride home by taxi is guaranteed, twice a year. By sharing a 40 km trip every day, you avoid about one tonne of CO₂ a year.\n\nDOCUMENT D — Letters to the editor\n'Although carpooling is a good idea, it will never replace a real bus service between our towns. Students and seniors don't always have friends who drive. Admittedly, the region is large and sparsely populated; the fact remains that a bus every hour at peak times is not a luxury.' — Gilles, Magog",
+      "hi": "दस्तावेज़ A — साझा घर\nशेरब्रुक विश्वविद्यालय के पास बड़े 5 ½ के लिए 1 सितंबर से एक साथी किरायेदार चाहिए। बंद, फ़र्नीचर वाला कमरा, 575 डॉलर प्रति माह, हीटिंग और इंटरनेट शामिल। हम नर्सिंग की दो छात्राएँ हैं, शांत और धूम्रपान न करने वाली। रसोई और बैठक साझा, हर हफ़्ते सफ़ाई की बारी तय। इनेस को लिखिए: coloc.ines@exemple.ca।\n\nदस्तावेज़ B — सूचना\nआयकर रिटर्न भरने में मुफ़्त मदद। प्रशिक्षित स्वयंसेवक आपको संघीय और प्रांतीय रिटर्न भरने में मदद करते हैं। यह सेवा कम आमदनी वाले लोगों के लिए है, समय लेकर, मंगलवार और गुरुवार दोपहर 1 से 4 बजे तक, 30 अप्रैल तक। अपनी आमदनी की पर्चियाँ, एक पहचान-पत्र और, अगर आप पिछले साल कनाडा आए हैं, तो आने की सही तारीख़ लेकर आइए। ध्यान दें: अधूरी फ़ाइलों पर उसी दिन काम नहीं हो सकेगा।\n\nदस्तावेज़ C — कोवुआत-एस्त्री\nक्या आप रोज़ अकेले शेरब्रुक–मागॉग का सफ़र करते हैं? अपनी गाड़ी साझा कीजिए! कोवुआत-एस्त्री मिलते-जुलते समय वाले ड्राइवरों और यात्रियों को मुफ़्त में जोड़ता है। हर यात्री हर सफ़र के लिए ड्राइवर को 4 डॉलर देता है। सभी प्रोफ़ाइलों की जाँच होती है। आपका ड्राइवर आख़िरी पल में रद्द कर दे? साल में दो बार टैक्सी से घर लौटने की गारंटी है। रोज़ 40 किलोमीटर का सफ़र साझा करके आप साल में लगभग एक टन CO₂ बचाते हैं।\n\nदस्तावेज़ D — पाठकों के पत्र\n'हालाँकि कारपूलिंग अच्छा विचार है, यह हमारे शहरों के बीच असली बस सेवा की जगह कभी नहीं ले सकेगा। विद्यार्थियों और बुज़ुर्गों के हमेशा ऐसे दोस्त नहीं होते जो गाड़ी चलाते हों। माना कि इलाक़ा बड़ा है और आबादी कम है; फिर भी भीड़ के समय हर घंटे एक बस कोई विलासिता नहीं है।' — जिल, मागॉग"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "Document A: What is included in the $575?"
+        },
+        "options": [
+          "Nothing; all costs are extra",
+          "Heating and internet",
+          "Heating and meals",
+          "Internet only"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Chauffage et Internet inclus.'",
+          "hi": "'chauffage et Internet inclus' — हीटिंग और इंटरनेट।"
+        },
+        "kind": "literal",
+        "evidence": "chauffage et Internet inclus."
+      },
+      {
+        "q": {
+          "en": "Document B: Who can use the free tax service?"
+        },
+        "options": [
+          "Everyone, without an appointment",
+          "Only students",
+          "Only people who arrived this year",
+          "People with a modest income, by appointment"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Offert aux personnes à revenu modeste, sur rendez-vous.'",
+          "hi": "'offert aux personnes à revenu modeste, sur rendez-vous' — कम आमदनी वाले, समय लेकर।"
+        },
+        "kind": "literal",
+        "evidence": "Le service est offert aux personnes à revenu modeste, sur rendez-vous"
+      },
+      {
+        "q": {
+          "en": "Document B: What happens if you forget a document?"
+        },
+        "options": [
+          "Your file cannot be processed that day",
+          "You pay a fee",
+          "A volunteer completes it for you",
+          "You lose your refund"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Les dossiers incomplets ne pourront pas être traités le jour même.' (passive)",
+          "hi": "'les dossiers incomplets ne pourront pas être traités le jour même' — उसी दिन काम नहीं होगा।"
+        },
+        "kind": "inference",
+        "evidence": "les dossiers incomplets ne pourront pas être traités le jour même."
+      },
+      {
+        "q": {
+          "en": "Document C: What guarantee does the service offer?"
+        },
+        "options": [
+          "A free car once a year",
+          "A bus pass",
+          "A taxi ride home twice a year if the driver cancels",
+          "A refund of every cancelled trip"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Un retour en taxi vous est garanti, deux fois par année.'",
+          "hi": "'un retour en taxi vous est garanti, deux fois par année' — साल में दो बार टैक्सी।"
+        },
+        "kind": "literal",
+        "evidence": "Un retour en taxi vous est garanti, deux fois par année."
+      },
+      {
+        "q": {
+          "en": "Document D: What is Gilles's main argument?"
+        },
+        "options": [
+          "Students should buy cars",
+          "Carpooling cannot replace a real intercity bus service",
+          "Carpooling is dangerous",
+          "Buses should be free"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Il ne remplacera jamais un vrai service d'autobus entre nos villes.'",
+          "hi": "'il ne remplacera jamais un vrai service d'autobus' — कारपूलिंग बस सेवा की जगह नहीं ले सकती।"
+        },
+        "kind": "gist",
+        "evidence": "il ne remplacera jamais un vrai service d'autobus entre nos villes."
+      },
+      {
+        "q": {
+          "en": "Which structure does Gilles use?"
+        },
+        "options": [
+          "A list of statistics only",
+          "A question and answer",
+          "A personal story",
+          "Concession followed by refutation"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Bien que… soit…' and 'Certes… il n'en reste pas moins que…' — the Day 97 structures.",
+          "hi": "'bien que… soit…' और 'certes… il n'en reste pas moins que…' — दिन 97 की संरचनाएँ।"
+        },
+        "kind": "grammar",
+        "evidence": "Certes, la région est grande et peu peuplée ; il n'en reste pas moins qu'un autobus toutes les heures aux heures de pointe n'est pas un luxe."
+      }
+    ]
+  },
+  "writing": {
+    "type": "opinion_letter",
+    "prompt": {
+      "en": "Timed TEF section B writing (35 minutes, set a timer). A newspaper writes: 'Les musées devraient être gratuits pour tout le monde, tous les jours.' Write a letter to the newspaper (at least 200 words) giving your opinion with three developed arguments, one concession + refutation and concrete examples.",
+      "hi": "समयबद्ध TEF भाग B लेखन (35 मिनट, टाइमर लगाइए)। एक अख़बार लिखता है: 'Les musées devraient être gratuits pour tout le monde, tous les jours.' अख़बार को एक पत्र लिखिए (कम से कम 200 शब्द) जिसमें तीन विकसित तर्कों, एक रियायत + खंडन और ठोस उदाहरणों के साथ आपकी राय हो।",
+      "fr": "« Les musées devraient être gratuits pour tout le monde, tous les jours. » Qu'en pensez-vous ?"
+    },
+    "minWords": 200,
+    "maxWords": 300,
+    "hints": [
+      {
+        "en": "Spend 5 minutes on a plan, 25 writing, 5 checking agreement, subjunctive after bien que, and word count.",
+        "hi": "5 मिनट योजना पर, 25 लिखने पर, 5 मिनट मेल, bien que के बाद subjonctif और शब्द-संख्या जाँचने पर लगाइए।"
+      },
+      {
+        "en": "You may reuse ideas from the listening (attendance doubled, targeted free entry) — in your own words.",
+        "hi": "आप सुनने वाले हिस्से के विचार (संख्या दोगुनी, चुनिंदा मुफ़्त प्रवेश) अपने शब्दों में इस्तेमाल कर सकते हैं।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Je souhaite réagir à votre article sur…",
+        "en": "I would like to respond to your article on…",
+        "hi": "मैं … पर आपके लेख के बारे में अपनी प्रतिक्रिया देना चाहता हूँ।",
+        "pron": "झ़ö स्वैत ग़े-आ-झ़ीग़ आ वॉत्ग़ आग़-तीक्ल स्üग़"
+      },
+      {
+        "fr": "Prenons l'exemple de…",
+        "en": "Let's take the example of…",
+        "hi": "… का उदाहरण लेते हैं",
+        "pron": "प्ग़ö-नोँ लैग-ज़ाँप्ल दö"
+      },
+      {
+        "fr": "C'est pourquoi je propose que…",
+        "en": "That's why I suggest that…",
+        "hi": "इसीलिए मेरा सुझाव है कि…",
+        "pron": "सै पूग़-क्वा झ़ö प्ग़ो-पोज़ कö"
+      }
+    ],
+    "model": {
+      "fr": "Madame, Monsieur,\n\nJe souhaite réagir à votre article proposant la gratuité des musées pour tout le monde, tous les jours. Si l'intention est généreuse, je pense qu'une gratuité totale n'est pas la meilleure solution.\n\nD'abord, il est vrai que le prix d'entrée empêche certaines familles de visiter les musées. Quand on a trois enfants, une sortie peut coûter plus de soixante dollars. Pourtant, ce problème peut être réglé autrement, par exemple en offrant l'entrée gratuite aux enfants et aux étudiants.\n\nEnsuite, un musée a besoin d'argent pour fonctionner. Il doit payer ses guides, protéger ses collections et organiser de nouvelles expositions. Bien que les gouvernements versent déjà des subventions, les billets restent une source importante de revenus. Sans eux, la qualité des expositions risquerait de baisser.\n\nEnfin, la gratuité ne suffit pas à attirer de nouveaux publics. Prenons l'exemple de mon quartier : la bibliothèque est gratuite, mais beaucoup de nouveaux arrivants ne savent même pas qu'elle existe. Ce qui manque, c'est surtout l'information et l'accueil.\n\nC'est pourquoi je propose une gratuité ciblée : pour les jeunes, pour les nouveaux arrivants pendant leur première année et pour tous, le premier dimanche du mois. Il n'en reste pas moins que la culture doit être accessible à chacun.\n\nVeuillez agréer, Madame, Monsieur, mes salutations distinguées.\n\nPriya Nair, Granby",
+      "en": "Dear Sir or Madam,\n\nI would like to respond to your article proposing free museums for everyone, every day. Although the intention is generous, I think total free entry is not the best solution.\n\nFirst, it is true that the entry price prevents some families from visiting museums. When you have three children, an outing can cost more than sixty dollars. Yet this problem can be solved differently, for example by offering free entry to children and students.\n\nNext, a museum needs money to operate. It must pay its guides, protect its collections and organise new exhibitions. Although governments already pay subsidies, tickets remain an important source of income. Without them, the quality of exhibitions might decline.\n\nFinally, free entry is not enough to attract new audiences. Take the example of my neighbourhood: the library is free, but many newcomers don't even know it exists. What is missing above all is information and a welcome.\n\nThat's why I propose targeted free entry: for young people, for newcomers during their first year and for everyone on the first Sunday of the month. The fact remains that culture must be accessible to all.\n\nYours faithfully,\n\nPriya Nair, Granby"
+    },
+    "checklist": [
+      {
+        "en": "Did you finish within 35 minutes, with at least 200 words?",
+        "hi": "क्या आपने 35 मिनट में कम से कम 200 शब्द पूरे किए?"
+      },
+      {
+        "en": "Three arguments, each with an example? One concession + refutation?",
+        "hi": "तीन तर्क, हर एक के साथ उदाहरण? एक रियायत + खंडन?"
+      },
+      {
+        "en": "Bien que + subjunctive, passive agreement, formal closing — all checked?",
+        "hi": "bien que + subjonctif, कर्मवाच्य का मेल, औपचारिक अंत — सब जाँचा?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      92,
+      93,
+      94,
+      95,
+      96,
+      97
+    ],
+    "items": [
+      {
+        "fr": "Veuillez joindre une pièce d'identité.",
+        "en": "Please attach a piece of ID.",
+        "hi": "कृपया एक पहचान-पत्र साथ लगाइए।",
+        "pron": "वö-ये झ़्वैँद्ग़ üन प्यैस दी-दाँ-ती-ते"
+      },
+      {
+        "fr": "le formulaire dûment rempli",
+        "en": "the duly completed form",
+        "hi": "ठीक से भरा हुआ फ़ॉर्म",
+        "pron": "लö फ़ॉग़-म्ü-लैग़ द्ü-माँ ग़ाँ-प्ली"
+      },
+      {
+        "fr": "Les nouveaux horaires ont été annoncés par la société de transport.",
+        "en": "The new schedules were announced by the transit company.",
+        "hi": "नई समय-सारणी परिवहन कंपनी ने घोषित की।",
+        "pron": "ले नू-वो ज़ो-ग़ैग़ ओँ ते-ते आ-नोँ-से पाग़ ला सो-स्ये-ते दö त्ग़ाँस-पॉग़"
+      },
+      {
+        "fr": "selon l'auteur",
+        "en": "according to the author",
+        "hi": "लेखक के अनुसार",
+        "pron": "सö-लोँ लो-तöग़"
+      },
+      {
+        "fr": "En lisant le document, j'ai pris des notes.",
+        "en": "While reading the document, I took notes.",
+        "hi": "दस्तावेज़ पढ़ते हुए मैंने नोट्स लिए।",
+        "pron": "आँ ली-ज़ाँ लö दो-क्ü-माँ झ़े प्ग़ी दे नॉत"
+      },
+      {
+        "fr": "tout en travaillant",
+        "en": "while (still) working",
+        "hi": "काम करते हुए भी",
+        "pron": "तू ताँ त्ग़ा-वा-याँ"
+      },
+      {
+        "fr": "Le loyer comprend-il l'électricité ?",
+        "en": "Does the rent include electricity?",
+        "hi": "क्या किराये में बिजली शामिल है?",
+        "pron": "लö ल्वा-ये कोँ-प्ग़ाँ-तील ले-लैक-त्ग़ी-सी-ते"
+      },
+      {
+        "fr": "Combien de chambres y a-t-il ?",
+        "en": "How many bedrooms are there?",
+        "hi": "कितने बेडरूम हैं?",
+        "pron": "कोँ-ब्यैँ दö शाँब्ग़ या-तील"
+      },
+      {
+        "fr": "Il s'agit d'une formation de six mois.",
+        "en": "It's a six-month course.",
+        "hi": "यह छह महीने का कोर्स है।",
+        "pron": "इल सा-झ़ी दüन फ़ॉग़-मा-स्योँ दö सी म्वा"
+      },
+      {
+        "fr": "Sans compter que le stage est rémunéré.",
+        "en": "Not to mention that the internship is paid.",
+        "hi": "ऊपर से इंटर्नशिप के पैसे भी मिलते हैं।",
+        "pron": "साँ कोँ-ते कö लö स्ताझ़ ए ग़े-म्ü-ने-ग़े"
+      },
+      {
+        "fr": "Bien que ce soit pratique, c'est cher.",
+        "en": "Although it's convenient, it's expensive.",
+        "hi": "हालाँकि यह सुविधाजनक है, महँगा है।",
+        "pron": "ब्यैँ कö सö स्वा प्ग़ाक-तीक सै शैग़"
+      },
+      {
+        "fr": "Il n'en reste pas moins que la culture doit être accessible.",
+        "en": "The fact remains that culture must be accessible.",
+        "hi": "फिर भी सच यह है कि संस्कृति सबकी पहुँच में होनी चाहिए।",
+        "pron": "इल नाँ ग़ैस्त पा म्वैँ कö ला कूल-त्üग़ द्वा तैत्ग़ ऐक-से-सीब्ल"
+      },
+      {
+        "fr": "On pourrait objecter que c'est trop cher.",
+        "en": "One could object that it's too expensive.",
+        "hi": "कोई कह सकता है कि यह बहुत महँगा है।",
+        "pron": "ओँ पू-ग़ै तॉब-झ़ैक-ते कö सै त्ग़ो शैग़"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Choose the correct passive sentence.",
+        "hi": "सही कर्मवाच्य वाक्य चुनिए।"
+      },
+      "options": [
+        "Votre candidature a été acceptée.",
+        "Votre candidature a été accepté.",
+        "Votre candidature est été acceptée.",
+        "Votre candidature a acceptée."
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Avoir été + participle agreeing with candidature (feminine): acceptée.",
+        "hi": "avoir été + participle जो candidature (स्त्रीलिंग) से मेल खाए: acceptée।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete with a gérondif: By sharing the car, you pollute less (partager).",
+        "hi": "gérondif से पूरा कीजिए: गाड़ी साझा करके हम कम प्रदूषण करते हैं (partager)।"
+      },
+      "sentence": "En ___ la voiture, on pollue moins.",
+      "answer": "partageant",
+      "accept": [],
+      "explanation": {
+        "en": "Partager → nous partageons → partageant (keep the e after g).",
+        "hi": "partager → nous partageons → partageant (g के बाद e बना रहता है)।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "TEF A: the ad says 'chauffage inclus'. Which question is best?",
+        "hi": "TEF A: विज्ञापन में 'chauffage inclus' लिखा है। सबसे अच्छा सवाल कौन-सा है?"
+      },
+      "options": [
+        "Est-ce que le chauffage est compris ?",
+        "Il y a le chauffage ?",
+        "L'électricité est-elle comprise ?",
+        "Le chauffage est-il inclus ?"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Don't ask what the ad already says; ask about electricity instead.",
+        "hi": "विज्ञापन में जो लिखा है वह मत पूछिए; बिजली के बारे में पूछिए।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: Although it is free, few people come (être).",
+        "hi": "पूरा कीजिए: हालाँकि यह मुफ़्त है, कम लोग आते हैं (être)।"
+      },
+      "sentence": "Bien que ce ___ gratuit, peu de gens viennent.",
+      "answer": "soit",
+      "accept": [],
+      "explanation": {
+        "en": "Bien que + subjunctive: ce soit.",
+        "hi": "bien que + subjonctif: ce soit।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French (to a friend).",
+        "hi": "फ़्रेंच में लिखिए (दोस्त से)।"
+      },
+      "source": {
+        "en": "I understand, but that's exactly the point: it's free.",
+        "hi": "मैं समझता हूँ, पर यही तो बात है: यह मुफ़्त है।"
+      },
+      "answer": "Je comprends, mais justement : c'est gratuit.",
+      "accept": [
+        "Je comprends, mais justement, c'est gratuit.",
+        "Je comprends, mais justement c'est gratuit.",
+        "Je comprends mais justement : c'est gratuit."
+      ],
+      "explanation": {
+        "en": "Justement turns the objection into an argument.",
+        "hi": "justement आपत्ति को ही तर्क बना देता है।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put in order: Admittedly, it's slower, but it's cheaper.",
+        "hi": "क्रम में रखिए: माना कि यह धीमा है, पर सस्ता है।"
+      },
+      "words": [
+        "Certes,",
+        "c'est",
+        "plus",
+        "lent,",
+        "mais",
+        "c'est",
+        "moins",
+        "cher"
+      ],
+      "answer": "Certes, c'est plus lent, mais c'est moins cher.",
+      "explanation": {
+        "en": "Certes + concession, mais + your point.",
+        "hi": "certes + रियायत, mais + आपकी बात।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Dans un délai de 30 jours' means…",
+        "hi": "'Dans un délai de 30 jours' का मतलब है…"
+      },
+      "options": [
+        "after a 30-day delay",
+        "every 30 days",
+        "within 30 days",
+        "30 days late"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Un délai = time allowed / deadline; lateness = un retard.",
+        "hi": "un délai = दी गई समय-सीमा; देरी = un retard।"
+      }
+    }
+  ]
+}

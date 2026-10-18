@@ -1,0 +1,215 @@
+{
+  "day": 73,
+  "phase": 4,
+  "title": { "fr": "Répondre aux objections", "en": "Handling objections", "hi": "आपत्तियों का जवाब देना" },
+  "objective": {
+    "en": "Answer objections without sounding aggressive: recognise the other person's point (je comprends, certes, c'est vrai que, je reconnais que), then counter it (mais, pourtant, au contraire, même si).",
+    "hi": "आक्रामक लगे बिना आपत्तियों का जवाब देना: पहले सामने वाले की बात मानिए (je comprends, certes, c'est vrai que, je reconnais que), फिर उसका जवाब दीजिए (mais, pourtant, au contraire, même si)।"
+  },
+  "prerequisites": {
+    "days": [63, 65, 66, 69, 72],
+    "summary": {
+      "en": "You can agree and disagree politely (Day 63), use the conditional (65–66), contrast connectors (69) and persuasion phrases (72). Today: the art of 'yes, but…'.",
+      "hi": "आप शिष्टता से सहमति और असहमति जता सकते हैं (दिन 63), conditionnel (65–66), विरोध वाले योजक (69) और मनाने के वाक्यांश (72) इस्तेमाल कर सकते हैं। आज: 'हाँ, लेकिन…' की कला।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "une objection", "en": "an objection", "hi": "आपत्ति", "pron": "ü-नॉब-झ़ैक-स्योँ", "ipa": "yn ɔbʒɛksjɔ̃", "pos": "noun", "gender": "f", "lemma": "objection" },
+    { "fr": "un argument", "en": "an argument (a reason)", "hi": "तर्क, दलील", "pron": "ऐँ नाग़-गü-माँ", "ipa": "ɛ̃ naʁɡymɑ̃", "pos": "noun", "gender": "m", "lemma": "argument", "note": { "en": "A reason given, not a quarrel (a quarrel is une dispute).", "hi": "दिया गया कारण, झगड़ा नहीं (झगड़ा = une dispute)।" } },
+    { "fr": "certes", "en": "admittedly, of course", "hi": "माना कि, बेशक", "pron": "सैग़्त", "ipa": "sɛʁt", "pos": "adverb", "note": { "en": "Formal. Almost always followed later by mais.", "hi": "औपचारिक। लगभग हमेशा बाद में mais आता है।" } },
+    { "fr": "au contraire", "en": "on the contrary", "hi": "इसके उलट, बल्कि", "pron": "ओ कोँ-त्ग़ैग़", "ipa": "o kɔ̃tʁɛʁ", "pos": "phrase" },
+    { "fr": "même si", "en": "even if", "hi": "भले ही, चाहे", "pron": "मैम सी", "ipa": "mɛm si", "pos": "conjunction", "note": { "en": "Followed by the present or the imparfait, never the future or conditional.", "hi": "इसके बाद वर्तमान या imparfait आता है, भविष्य या conditionnel कभी नहीं।" } },
+    { "fr": "reconnaître", "en": "to admit, to recognise", "hi": "मानना, स्वीकार करना", "pron": "ग़ö-को-नैत्ग़", "ipa": "ʁəkɔnɛtʁ", "pos": "verb", "note": { "en": "Je reconnais que tu as raison = I admit you're right.", "hi": "Je reconnais que tu as raison = मैं मानता हूँ कि तुम सही हो।" } },
+    { "fr": "craindre", "en": "to fear", "hi": "डरना, आशंका होना", "pron": "क्ग़ैँद्ग़", "ipa": "kʁɛ̃dʁ", "pos": "verb", "note": { "en": "je crains, tu crains, il craint, nous craignons.", "hi": "je crains, tu crains, il craint, nous craignons।" } },
+    { "fr": "la crainte", "en": "fear, worry", "hi": "डर, चिंता", "pron": "ला क्ग़ैँत", "ipa": "la kʁɛ̃t", "pos": "noun", "gender": "f", "lemma": "crainte" },
+    { "fr": "rassurer", "en": "to reassure", "hi": "तसल्ली देना", "pron": "ग़ा-सü-ग़े", "ipa": "ʁasyʁe", "pos": "verb" },
+    { "fr": "un essai", "en": "a trial, a test", "hi": "प्रयोग, परीक्षण", "pron": "ऐँ ने-सै", "ipa": "ɛ̃ nesɛ", "pos": "noun", "gender": "m", "lemma": "essai" },
+    { "fr": "la baisse", "en": "fall, decrease", "hi": "गिरावट, कमी", "pron": "ला बैस", "ipa": "la bɛs", "pos": "noun", "gender": "f", "lemma": "baisse", "note": { "en": "Opposite: la hausse (an increase).", "hi": "उलटा: la hausse (बढ़ोतरी)।" } },
+    { "fr": "de toute façon", "en": "anyway, in any case", "hi": "वैसे भी, हर हाल में", "pron": "दö तूत फ़ा-सोँ", "ipa": "də tut fasɔ̃", "pos": "phrase" },
+    { "fr": "bref", "en": "in short", "hi": "संक्षेप में", "pron": "ब्ग़ैफ़", "ipa": "bʁɛf", "pos": "adverb" }
+  ],
+  "phrases": [
+    { "fr": "Je comprends, mais…", "en": "I understand, but…", "hi": "मैं समझता हूँ, लेकिन…", "pron": "झ़ö कोँ-प्ग़ाँ मै" },
+    { "fr": "Certes, c'est cher, mais c'est utile.", "en": "Admittedly it's expensive, but it's useful.", "hi": "माना कि यह महँगा है, लेकिन काम का है।", "pron": "सैग़्त सै शैग़ मै सै तü-तील" },
+    { "fr": "C'est vrai que c'est loin. Pourtant…", "en": "It's true that it's far. And yet…", "hi": "सच है कि यह दूर है। फिर भी…", "pron": "सै व्ग़ै कö सै ल्वैँ पूग़-ताँ" },
+    { "fr": "Au contraire !", "en": "On the contrary!", "hi": "बिल्कुल उलटा!", "pron": "ओ कोँ-त्ग़ैग़" },
+    { "fr": "Même si c'est difficile, ça vaut la peine.", "en": "Even if it's hard, it's worth it.", "hi": "भले ही यह मुश्किल है, फिर भी इसके लायक़ है।", "pron": "मैम सी सै दी-फ़ी-सील सा वो ला पैन" },
+    { "fr": "Je reconnais que vous avez raison sur ce point.", "en": "I admit you're right on that point.", "hi": "मैं मानता हूँ कि इस बात पर आप सही हैं।", "pron": "झ़ö ग़ö-को-नै कö वू ज़ा-वे ग़ै-ज़ोँ सüग़ सö प्वैँ" },
+    { "fr": "Vous avez réponse à tout !", "en": "You have an answer for everything!", "hi": "आपके पास हर बात का जवाब है!", "pron": "वू ज़ा-वे ग़े-पोँस आ तू" }
+  ],
+  "grammar": {
+    "title": { "en": "Concession: recognise, then counter", "hi": "रियायत (concession): पहले मानिए, फिर जवाब दीजिए" },
+    "explanation": {
+      "en": "A strong answer to an objection has two steps. STEP 1 — recognise: Je comprends (ta crainte / votre point de vue)… / C'est vrai que… / Il est vrai que… (formal) / Certes, … (formal) / Je reconnais que… / Bien sûr, … STEP 2 — counter: mais… / pourtant… / cependant… / au contraire ! (when the truth is the opposite of the objection) / de toute façon… Même si + present or imparfait ('even if') lets you accept a fact and keep your position in one sentence: Même si le trajet est long, je préfère ce travail. Never use the future or conditional after même si (just like after si). Examples: Certes, la formation est longue, mais elle est gratuite. — Ça va baisser la productivité ! — Au contraire, elle a souvent augmenté.",
+      "hi": "आपत्ति के मज़बूत जवाब के दो क़दम होते हैं। क़दम 1 — मानिए: Je comprends (ta crainte / votre point de vue)… / C'est vrai que… / Il est vrai que… (औपचारिक) / Certes, … (औपचारिक) / Je reconnais que… / Bien sûr, … क़दम 2 — जवाब दीजिए: mais… / pourtant… / cependant… / au contraire ! (जब सच आपत्ति का ठीक उलटा हो) / de toute façon… Même si + वर्तमान या imparfait ('भले ही') से आप एक ही वाक्य में तथ्य मानकर अपनी बात पर टिके रह सकते हैं: Même si le trajet est long, je préfère ce travail (भले ही सफ़र लंबा है, मुझे यही नौकरी पसंद है)। même si के बाद भविष्य या conditionnel कभी नहीं (ठीक si की तरह)। उदाहरण: Certes, la formation est longue, mais elle est gratuite। — Ça va baisser la productivité ! — Au contraire, elle a souvent augmenté।"
+    },
+    "comparison": {
+      "en": "Hindi has exact equivalents: 'माना कि…, लेकिन…' = Certes…, mais…; 'भले ही…' = Même si…; 'बल्कि / उलटा' = Au contraire. English: 'Admittedly…, but…', 'Even if…', 'On the contrary'. The difference: French uses these a lot in formal argument — TEF examiners expect to hear them.",
+      "hi": "हिंदी में सटीक बराबर रूप हैं: 'माना कि…, लेकिन…' = Certes…, mais…; 'भले ही…' = Même si…; 'बल्कि / उलटा' = Au contraire। अंग्रेज़ी: 'Admittedly…, but…', 'Even if…', 'On the contrary'। फ़र्क़ यह है कि फ़्रेंच औपचारिक बहस में इनका बहुत इस्तेमाल करती है — TEF परीक्षक इन्हें सुनने की उम्मीद रखते हैं।"
+    },
+    "examples": [
+      { "fr": "Je comprends ta crainte, mais le quartier est très sûr.", "en": "I understand your worry, but the neighbourhood is very safe.", "hi": "मैं तुम्हारी चिंता समझता हूँ, लेकिन मोहल्ला बहुत सुरक्षित है।", "pron": "झ़ö कोँ-प्ग़ाँ ता क्ग़ैँत मै लö काग़-त्ये ऐ त्ग़ै सüग़" },
+      { "fr": "Certes, les journées seraient plus longues, mais on aurait trois jours de repos.", "en": "Admittedly, the days would be longer, but we'd have three days off.", "hi": "माना कि दिन लंबे होंगे, लेकिन तीन दिन की छुट्टी मिलेगी।", "pron": "सैग़्त ले झ़ूग़-ने स्ग़ै प्लü लोँग मै ओँ नो-ग़ै त्ग़वा झ़ूग़ दö ग़ö-पो" },
+      { "fr": "C'est vrai que le cours est cher. Pourtant, il est très efficace.", "en": "It's true the course is expensive. And yet it's very effective.", "hi": "सच है कि कोर्स महँगा है। फिर भी, वह बहुत कारगर है।", "pron": "सै व्ग़ै कö लö कूग़ ऐ शैग़ पूग़-ताँ ई-लै त्ग़ै ज़े-फ़ी-कास" },
+      { "fr": "— Tu vas t'ennuyer. — Au contraire, je vais adorer !", "en": "— You'll be bored. — On the contrary, I'll love it!", "hi": "— तुम ऊब जाओगे। — बिल्कुल उलटा, मुझे बहुत मज़ा आएगा!", "pron": "तü वा ताँ-नüई-ये ओ कोँ-त्ग़ैग़ झ़ö वै ज़ा-दो-ग़े" },
+      { "fr": "Même s'il fait froid, je vais à pied au travail.", "en": "Even if it's cold, I walk to work.", "hi": "भले ही ठंड हो, मैं पैदल काम पर जाता हूँ।", "pron": "मैम सील फ़ै फ़्ग़वा झ़ö वै ज़ा प्ये ओ त्ग़ा-वाय" },
+      { "fr": "Je reconnais que l'idée est risquée. De toute façon, on peut essayer.", "en": "I admit the idea is risky. Anyway, we can try.", "hi": "मैं मानता हूँ कि विचार जोखिम भरा है। वैसे भी, हम कोशिश कर सकते हैं।", "pron": "झ़ö ग़ö-को-नै कö ली-दे ऐ ग़ीस-के दö तूत फ़ा-सोँ ओँ पö ए-से-ये" }
+    ],
+    "pitfalls": [
+      { "en": "Même si + present/imparfait only: 'même si ce sera difficile' is wrong → même si c'est difficile.", "hi": "même si के साथ सिर्फ़ वर्तमान/imparfait: 'même si ce sera difficile' ग़लत है → même si c'est difficile।" },
+      { "en": "Don't confuse au contraire (the opposite is true) with par contre (another side). — C'est cher ? — Au contraire, c'est gratuit !", "hi": "au contraire (उलटी बात सच है) और par contre (दूसरा पहलू) को मत मिलाइए। — C'est cher ? — Au contraire, c'est gratuit !" },
+      { "en": "Skipping step 1 sounds aggressive. Always recognise before you counter.", "hi": "क़दम 1 छोड़ना आक्रामक लगता है। जवाब देने से पहले हमेशा सामने वाले की बात मानिए।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Stress for emphasis",
+    "tip": {
+      "en": "Normal French stress falls lightly on the last syllable of a group. For EMPHASIS, French adds a strong stress on the FIRST syllable of an important word, often with a higher pitch: ab-so-lument → AB-solument; c'est in-croyable → c'est IN-croyable. In 'Au contraire !', stress con-: au CON-traire. Use it once or twice per answer, not on every word.",
+      "hi": "फ़्रेंच में सामान्य ज़ोर हल्के से किसी समूह के आख़िरी अक्षर पर पड़ता है। ज़ोर देने के लिए फ़्रेंच किसी अहम शब्द के पहले अक्षर पर ज़्यादा ज़ोर और ऊँची आवाज़ जोड़ती है: ab-so-lument → AB-solument; c'est in-croyable → c'est IN-croyable। 'Au contraire !' में con- पर ज़ोर: au CON-traire। हर जवाब में एक-दो बार इस्तेमाल कीजिए, हर शब्द पर नहीं।"
+    },
+    "words": [
+      { "fr": "absolument", "en": "absolutely", "hi": "बिल्कुल", "pron": "आब-सो-लü-माँ", "ipa": "apsɔlymɑ̃", "note": { "en": "Emphatic: AB-so-lü-माँ.", "hi": "ज़ोर देकर: AB-सो-लü-माँ।" } },
+      { "fr": "au contraire", "en": "on the contrary", "hi": "इसके उलट", "pron": "ओ कोँ-त्ग़ैग़", "ipa": "o kɔ̃tʁɛʁ" },
+      { "fr": "certes", "en": "admittedly", "hi": "माना कि", "pron": "सैग़्त", "ipa": "sɛʁt" },
+      { "fr": "incroyable", "en": "incredible", "hi": "अविश्वसनीय", "pron": "ऐँ-क्ग़्वा-याब्ल", "ipa": "ɛ̃kʁwajabl" },
+      { "fr": "même si", "en": "even if", "hi": "भले ही", "pron": "मैम सी", "ipa": "mɛm si" },
+      { "fr": "vraiment", "en": "really", "hi": "सच में", "pron": "व्ग़ै-माँ", "ipa": "vʁɛmɑ̃" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "La semaine de quatre jours ?", "en": "A four-day week?" },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Sophie proposes to her manager, Marc, a three-month trial of a four-day work week for their team in Montréal. Marc has many objections. Notice how Sophie first recognises each objection, then counters it. They use vous.",
+      "hi": "सोफ़ी अपने मैनेजर मार्क के सामने मॉन्ट्रियाल में उनकी टीम के लिए तीन महीने तक चार-दिन के कामकाजी हफ़्ते का प्रयोग प्रस्तावित करती है। मार्क की कई आपत्तियाँ हैं। ध्यान दीजिए कि सोफ़ी पहले हर आपत्ति मानती है, फिर उसका जवाब देती है। दोनों vous इस्तेमाल करते हैं।"
+    },
+    "lines": [
+      { "speaker": "Sophie", "voice": "f2", "fr": "Marc, vous avez cinq minutes ? J'aimerais vous parler d'une idée pour l'équipe.", "en": "Marc, do you have five minutes? I'd like to talk to you about an idea for the team.", "hi": "मार्क, क्या आपके पास पाँच मिनट हैं? मैं टीम के लिए एक विचार के बारे में आपसे बात करना चाहूँगी।" },
+      { "speaker": "Marc", "voice": "m2", "fr": "Bien sûr, allez-y.", "en": "Of course, go ahead.", "hi": "ज़रूर, बताइए।" },
+      { "speaker": "Sophie", "voice": "f2", "fr": "Je propose un essai de trois mois : la semaine de quatre jours. On travaillerait trente-six heures, du lundi au jeudi.", "en": "I'm proposing a three-month trial: the four-day week. We'd work thirty-six hours, Monday to Thursday.", "hi": "मेरा प्रस्ताव है तीन महीने का एक प्रयोग: चार दिन का हफ़्ता। हम सोमवार से गुरुवार तक छत्तीस घंटे काम करेंगे।" },
+      { "speaker": "Marc", "voice": "m2", "fr": "Quatre jours ? Mais nos clients appellent aussi le vendredi !", "en": "Four days? But our clients call on Fridays too!", "hi": "चार दिन? लेकिन हमारे ग्राहक शुक्रवार को भी फ़ोन करते हैं!" },
+      { "speaker": "Sophie", "voice": "f2", "fr": "Je comprends, mais on pourrait organiser une rotation : deux personnes travailleraient le vendredi et prendraient congé le lundi.", "en": "I understand, but we could set up a rotation: two people would work on Friday and take Monday off.", "hi": "मैं समझती हूँ, लेकिन हम बारी-बारी की व्यवस्था कर सकते हैं: दो लोग शुक्रवार को काम करेंगे और सोमवार को छुट्टी लेंगे।" },
+      { "speaker": "Marc", "voice": "m2", "fr": "Certes, c'est possible. Mais des journées de neuf heures, c'est long. Les gens seront fatigués.", "en": "Admittedly, that's possible. But nine-hour days are long. People will be tired.", "hi": "माना कि यह संभव है। लेकिन नौ घंटे के दिन लंबे होते हैं। लोग थक जाएँगे।" },
+      { "speaker": "Sophie", "voice": "f2", "fr": "C'est vrai que les journées seraient plus longues. Pourtant, les entreprises qui ont essayé disent que les employés sont moins stressés et plus concentrés.", "en": "It's true the days would be longer. And yet companies that have tried say employees are less stressed and more focused.", "hi": "सच है कि दिन लंबे होंगे। फिर भी, जिन कंपनियों ने यह आज़माया है, वे कहती हैं कि कर्मचारी कम तनाव में और ज़्यादा एकाग्र रहते हैं।" },
+      { "speaker": "Marc", "voice": "m2", "fr": "Hum. Moi, je crains surtout une baisse de productivité.", "en": "Hmm. What I fear most is a drop in productivity.", "hi": "हम्म। मुझे सबसे ज़्यादा डर उत्पादकता में गिरावट का है।" },
+      { "speaker": "Sophie", "voice": "f2", "fr": "Au contraire ! D'après plusieurs études, la productivité reste stable, et parfois elle augmente.", "en": "On the contrary! According to several studies, productivity stays stable, and sometimes it increases.", "hi": "बिल्कुल उलटा! कई अध्ययनों के अनुसार उत्पादकता स्थिर रहती है, और कभी-कभी बढ़ भी जाती है।" },
+      { "speaker": "Marc", "voice": "m2", "fr": "Même si c'est vrai, les autres équipes vont être jalouses.", "en": "Even if that's true, the other teams are going to be jealous.", "hi": "भले ही यह सच हो, बाक़ी टीमें जलेंगी।" },
+      { "speaker": "Sophie", "voice": "f2", "fr": "Peut-être au début. Mais ce serait un test utile pour toute l'entreprise. Si ça marche chez nous, les autres pourront essayer aussi.", "en": "Maybe at first. But it would be a useful test for the whole company. If it works for us, the others will be able to try too.", "hi": "शायद शुरू में। लेकिन यह पूरी कंपनी के लिए एक काम का परीक्षण होगा। अगर हमारे यहाँ चल गया, तो बाक़ी भी आज़मा सकेंगे।" },
+      { "speaker": "Marc", "voice": "m2", "fr": "Vous avez réponse à tout ! Et si les résultats sont mauvais ?", "en": "You have an answer for everything! And if the results are bad?", "hi": "आपके पास हर बात का जवाब है! और अगर नतीजे ख़राब हुए तो?" },
+      { "speaker": "Sophie", "voice": "f2", "fr": "Alors on arrête après trois mois, tout simplement. On mesurerait tout : les ventes, les délais, la satisfaction des clients.", "en": "Then we stop after three months, quite simply. We'd measure everything: sales, turnaround times, customer satisfaction.", "hi": "तो हम तीन महीने बाद बंद कर देंगे, बस। हम सब कुछ मापेंगे: बिक्री, काम में लगने वाला समय, ग्राहकों की संतुष्टि।" },
+      { "speaker": "Marc", "voice": "m2", "fr": "Bon. Je reconnais que l'idée est intéressante. Envoyez-moi une proposition écrite, et j'en parlerai à la direction.", "en": "Well. I admit the idea is interesting. Send me a written proposal, and I'll talk to management about it.", "hi": "ठीक है। मैं मानता हूँ कि विचार दिलचस्प है। मुझे एक लिखित प्रस्ताव भेजिए, मैं प्रबंधन से इस बारे में बात करूँगा।" },
+      { "speaker": "Sophie", "voice": "f2", "fr": "Merci, Marc ! Je vous l'envoie avant vendredi… enfin, avant jeudi !", "en": "Thank you, Marc! I'll send it to you before Friday… well, before Thursday!", "hi": "धन्यवाद, मार्क! मैं इसे शुक्रवार से पहले भेज दूँगी… मतलब, गुरुवार से पहले!" },
+      { "speaker": "Marc", "voice": "m2", "fr": "Vous voyez ? Vous pensez déjà à la semaine de quatre jours !", "en": "You see? You're already thinking of the four-day week!", "hi": "देखा? आप अभी से चार दिन के हफ़्ते के बारे में सोच रही हैं!" }
+    ],
+    "questions": [
+      { "q": { "en": "What exactly does Sophie propose?" }, "options": ["Working from home on Fridays", "A three-month trial of a four-day week", "Hiring two new employees", "Shorter meetings"], "answer": 1, "explanation": { "en": "A three-month trial: 36 hours from Monday to Thursday.", "hi": "तीन महीने का प्रयोग: सोमवार से गुरुवार तक 36 घंटे।" }, "kind": "literal", "evidence": "Je propose un essai de trois mois : la semaine de quatre jours." },
+      { "q": { "en": "What is Marc's first objection?" }, "options": ["Clients also call on Fridays", "The team is too small", "It's too expensive", "Management will say no"], "answer": 0, "explanation": { "en": "'Nos clients appellent aussi le vendredi !'", "hi": "'Nos clients appellent aussi le vendredi !' — ग्राहक शुक्रवार को भी फ़ोन करते हैं।" }, "kind": "literal", "evidence": "nos clients appellent aussi le vendredi" },
+      { "q": { "en": "How does Sophie answer that objection?" }, "options": ["She says Fridays are quiet", "She proposes closing on Mondays", "She proposes a rotation so some staff work on Friday", "She says clients can email instead"], "answer": 2, "explanation": { "en": "Two people would work on Friday and take Monday off.", "hi": "दो लोग शुक्रवार को काम करेंगे और सोमवार को छुट्टी लेंगे।" }, "kind": "inference", "evidence": "on pourrait organiser une rotation" },
+      { "q": { "en": "What does Marc fear most?" }, "options": ["Jealous clients", "Longer meetings", "Higher costs", "A drop in productivity"], "answer": 3, "explanation": { "en": "'Je crains surtout une baisse de productivité.'", "hi": "'Je crains surtout une baisse de productivité.' — उत्पादकता गिरने का डर।" }, "kind": "literal", "evidence": "je crains surtout une baisse de productivité" },
+      { "q": { "en": "What will happen if the results are bad?" }, "options": ["They will stop after three months", "They will try for six more months", "Sophie will lose her job", "Only Sophie will keep the four-day week"], "answer": 0, "explanation": { "en": "They simply stop after three months.", "hi": "वे बस तीन महीने बाद बंद कर देंगे।" }, "kind": "literal", "evidence": "on arrête après trois mois, tout simplement" },
+      { "q": { "en": "How does the conversation end?" }, "options": ["Marc refuses the idea", "Marc accepts immediately", "Marc asks for a written proposal to show management", "Sophie gives up"], "answer": 2, "explanation": { "en": "He admits the idea is interesting and asks for a written proposal.", "hi": "वह मानता है कि विचार दिलचस्प है और लिखित प्रस्ताव माँगता है।" }, "kind": "gist", "evidence": "Envoyez-moi une proposition écrite" }
+    ],
+    "dictation": ["Je comprends, mais on pourrait organiser une rotation.", "C'est vrai que les journées seraient plus longues.", "Je reconnais que l'idée est intéressante."],
+    "gapFill": { "text": "___, c'est possible. Mais les gens seront fatigués. — Au ___ ! La productivité reste stable.", "answers": ["Certes", "contraire"] }
+  },
+  "speaking": {
+    "type": "tef_b",
+    "instructions": {
+      "en": "You want a friend to sign up with you for an evening French conversation class (free, twice a week, at the library). Your friend raises five objections. For each one: recognise it (je comprends / c'est vrai que / certes), then counter it with a concrete argument. Use tu.",
+      "hi": "आप चाहते हैं कि आपका दोस्त आपके साथ शाम की फ़्रेंच बातचीत क्लास (मुफ़्त, हफ़्ते में दो बार, लाइब्रेरी में) में नाम लिखवाए। दोस्त पाँच आपत्तियाँ करता है। हर एक के लिए: पहले मानिए (je comprends / c'est vrai que / certes), फिर ठोस तर्क से जवाब दीजिए। tu इस्तेमाल कीजिए।"
+    },
+    "prompts": [
+      { "fr": "« Je n'ai pas le temps, je travaille beaucoup. »", "en": "'I don't have time, I work a lot.'", "hi": "'मेरे पास समय नहीं, मैं बहुत काम करता हूँ।'", "pron": "झ़ö ने पा लö ताँ झ़ö त्ग़ा-वाय बो-कू", "model": "Je comprends, mais c'est seulement deux heures par semaine, le soir. Et même si tu es fatigué, parler avec des gens, ça repose !" },
+      { "fr": "« Mon français est trop mauvais. »", "en": "'My French is too bad.'", "hi": "'मेरी फ़्रेंच बहुत ख़राब है।'", "pron": "मोँ फ़्ग़ाँ-सै ऐ त्ग़ो मो-वै", "model": "Au contraire ! Tu comprends déjà beaucoup. Et le cours est justement pour les gens qui veulent progresser." },
+      { "fr": "« Les applications, c'est suffisant. »", "en": "'Apps are enough.'", "hi": "'ऐप काफ़ी हैं।'", "pron": "ले ज़ा-प्ली-का-स्योँ सै सü-फ़ी-ज़ाँ", "model": "Certes, les applications sont pratiques, mais elles ne te font pas parler. Pour le TEF, il faut parler avec de vraies personnes." },
+      { "fr": "« La bibliothèque est loin de chez moi. »", "en": "'The library is far from my place.'", "hi": "'लाइब्रेरी मेरे घर से दूर है।'", "pron": "ला बी-ब्ली-यो-तैक ऐ ल्वैँ दö शे मवा", "model": "C'est vrai que ce n'est pas à côté. Pourtant, le bus 51 s'arrête devant. Et je peux passer te chercher en voiture !" },
+      { "fr": "« J'ai peur de faire des erreurs devant les autres. »", "en": "'I'm afraid of making mistakes in front of others.'", "hi": "'मुझे दूसरों के सामने ग़लतियाँ करने से डर लगता है।'", "pron": "झ़े पöग़ दö फ़ैग़ दे ज़े-ग़öग़ दö-वाँ ले ज़ोत्ग़", "model": "Je te comprends, j'avais la même crainte. Mais tout le monde fait des erreurs, c'est comme ça qu'on apprend. De toute façon, l'animatrice est très gentille." }
+    ],
+    "tip": {
+      "en": "Count your 'mais'. If every answer is 'Oui, mais…', vary it: certes… mais, c'est vrai que… pourtant, même si…, au contraire. Variety of structures is one of the criteria TEF examiners listen for.",
+      "hi": "अपने 'mais' गिनिए। अगर हर जवाब 'Oui, mais…' है, तो विविधता लाइए: certes… mais, c'est vrai que… pourtant, même si…, au contraire। ढाँचों की विविधता उन मापदंडों में से एक है जिन पर TEF परीक्षक ध्यान देते हैं।"
+    },
+    "scenario": {
+      "setting": { "en": "On the phone with a friend on a Sunday evening.", "hi": "रविवार शाम एक दोस्त से फ़ोन पर बातचीत।" },
+      "learnerRole": { "en": "Someone who has found a free evening French conversation class and wants a friend to join.", "hi": "कोई जिसे शाम की मुफ़्त फ़्रेंच बातचीत क्लास मिली है और जो चाहता है कि दोस्त भी साथ आए।" },
+      "partnerRole": { "en": "A friend who is shy and busy. They raise objections one after another (time, level, apps, distance, fear of mistakes) and partly agree only when the answers are concrete.", "hi": "एक शर्मीला और व्यस्त दोस्त। वह एक के बाद एक आपत्तियाँ करता है (समय, स्तर, ऐप, दूरी, ग़लतियों का डर) और जवाब ठोस हों तभी आंशिक रूप से मानता है।" },
+      "goals": [
+        { "en": "Recognise each objection before answering it.", "hi": "हर आपत्ति का जवाब देने से पहले उसे मानिए।" },
+        { "en": "Use at least four different concession structures, including même si and au contraire.", "hi": "कम से कम चार अलग रियायत-ढाँचे इस्तेमाल कीजिए, जिनमें même si और au contraire हों।" },
+        { "en": "Finish with a concrete plan for the first class.", "hi": "पहली क्लास के लिए ठोस योजना के साथ अंत कीजिए।" }
+      ]
+    }
+  },
+  "reading": {
+    "genre": "letter",
+    "title": "Courrier des lecteurs — Supprimer les devoirs ? Pas si vite !",
+    "text": "Madame, Monsieur,\n\nDans votre édition du 3 octobre, la chroniqueuse Isabelle Roy propose de supprimer les devoirs à l'école primaire. Je suis enseignant en quatrième année depuis quinze ans et père de deux enfants, et je ne partage pas son avis.\n\nCertes, les devoirs créent parfois des tensions à la maison. Je sais que beaucoup de parents rentrent tard du travail et n'ont pas l'énergie d'aider leurs enfants. C'est vrai aussi que certains élèves n'ont personne pour les aider, et que cela crée des inégalités.\n\nPourtant, supprimer complètement les devoirs ne réglerait pas le problème. Au contraire, les élèves en difficulté perdraient un moment important pour revoir ce qu'ils ont appris en classe. Quinze minutes de lecture le soir, ce n'est pas une punition : c'est une habitude qui aide toute la vie.\n\nMme Roy écrit que les enfants sont trop fatigués. Je la comprends, mais la solution est de donner des devoirs plus courts et plus intelligents, pas de les interdire. Même si un enfant fait seulement dix minutes de mathématiques, il apprend à travailler seul.\n\nEnfin, pour les familles qui ne peuvent pas aider, les écoles pourraient ouvrir une aide aux devoirs gratuite après les cours. Plusieurs écoles de notre quartier le font déjà, avec d'excellents résultats.\n\nBref, je propose de réformer les devoirs, pas de les supprimer.\n\nDaniel Fortin, Sherbrooke",
+    "translation": {
+      "en": "Letters to the editor — Abolish homework? Not so fast!\n\nDear Sir or Madam,\n\nIn your 3 October edition, columnist Isabelle Roy proposes abolishing homework in primary school. I have been a Grade 4 teacher for fifteen years and I am the father of two children, and I do not share her opinion.\n\nAdmittedly, homework sometimes creates tension at home. I know that many parents come home late from work and don't have the energy to help their children. It is also true that some pupils have no one to help them, and that this creates inequalities.\n\nYet abolishing homework completely would not solve the problem. On the contrary, pupils who are struggling would lose an important moment to review what they learned in class. Fifteen minutes of reading in the evening is not a punishment: it's a habit that helps for life.\n\nMs Roy writes that children are too tired. I understand her, but the solution is to give shorter, smarter homework, not to ban it. Even if a child does only ten minutes of maths, they learn to work on their own.\n\nFinally, for families who can't help, schools could open free homework help after classes. Several schools in our neighbourhood already do so, with excellent results.\n\nIn short, I propose reforming homework, not abolishing it.\n\nDaniel Fortin, Sherbrooke",
+      "hi": "पाठकों के पत्र — गृहकार्य ख़त्म करें? इतनी जल्दी नहीं!\n\nमहोदया / महोदय,\n\nआपके 3 अक्टूबर के अंक में स्तंभकार इज़ाबेल रॉय ने प्राथमिक स्कूल में गृहकार्य ख़त्म करने का प्रस्ताव रखा है। मैं पंद्रह साल से चौथी कक्षा का शिक्षक हूँ और दो बच्चों का पिता हूँ, और मैं उनकी राय से सहमत नहीं हूँ।\n\nमाना कि गृहकार्य से कभी-कभी घर में तनाव होता है। मैं जानता हूँ कि बहुत-से माता-पिता काम से देर से लौटते हैं और उनमें बच्चों की मदद करने की ऊर्जा नहीं बचती। यह भी सच है कि कुछ छात्रों की मदद करने वाला कोई नहीं होता, और इससे असमानता पैदा होती है।\n\nफिर भी, गृहकार्य को पूरी तरह ख़त्म करने से समस्या हल नहीं होगी। बल्कि, कमज़ोर छात्र वह अहम समय खो देंगे जिसमें वे क्लास में सीखी बातें दोहराते हैं। शाम को पंद्रह मिनट पढ़ना कोई सज़ा नहीं है: यह एक आदत है जो ज़िंदगी भर काम आती है।\n\nश्रीमती रॉय लिखती हैं कि बच्चे बहुत थके होते हैं। मैं उनकी बात समझता हूँ, लेकिन हल यह है कि छोटा और समझदारी भरा गृहकार्य दिया जाए, न कि उस पर पाबंदी लगाई जाए। भले ही कोई बच्चा सिर्फ़ दस मिनट गणित करे, वह अकेले काम करना सीखता है।\n\nआख़िर में, जो परिवार मदद नहीं कर सकते, उनके लिए स्कूल कक्षाओं के बाद मुफ़्त गृहकार्य-सहायता शुरू कर सकते हैं। हमारे मोहल्ले के कई स्कूल पहले से ऐसा कर रहे हैं, और नतीजे बहुत अच्छे हैं।\n\nसंक्षेप में, मेरा प्रस्ताव है कि गृहकार्य में सुधार हो, उसे ख़त्म न किया जाए।\n\nदानिएल फ़ोर्तें, शेरब्रुक"
+    },
+    "questions": [
+      { "q": { "en": "Who is the author of the letter?" }, "options": ["A school principal", "A teacher and father of two", "A journalist", "A primary-school pupil"], "answer": 1, "explanation": { "en": "He has been a Grade 4 teacher for fifteen years and is the father of two children.", "hi": "वह पंद्रह साल से चौथी कक्षा का शिक्षक है और दो बच्चों का पिता है।" }, "kind": "literal", "evidence": "Je suis enseignant en quatrième année depuis quinze ans et père de deux enfants" },
+      { "q": { "en": "Which of Ms Roy's points does he accept?" }, "options": ["Homework sometimes creates tension and inequality", "Children should not read at home", "Teachers give too much homework", "Parents should not help"], "answer": 0, "explanation": { "en": "He recognises the tensions at home and the inequalities (certes…, c'est vrai aussi que…).", "hi": "वह घर के तनाव और असमानता को मानता है (certes…, c'est vrai aussi que…)।" }, "kind": "inference", "evidence": "Certes, les devoirs créent parfois des tensions à la maison." },
+      { "q": { "en": "According to him, who would suffer most if homework disappeared?" }, "options": ["Teachers", "Parents who work late", "Pupils who are struggling", "The best pupils"], "answer": 2, "explanation": { "en": "Struggling pupils would lose time to review what they learned.", "hi": "कमज़ोर छात्र सीखी बातें दोहराने का समय खो देंगे।" }, "kind": "inference", "evidence": "les élèves en difficulté perdraient un moment important pour revoir ce qu'ils ont appris en classe" },
+      { "q": { "en": "What is his answer to the idea that children are too tired?" }, "options": ["Children should sleep more", "Homework should be shorter and smarter", "Homework should only be on weekends", "Parents should do the homework"], "answer": 1, "explanation": { "en": "Give shorter, smarter homework — not ban it.", "hi": "छोटा और समझदारी भरा गृहकार्य — पाबंदी नहीं।" }, "kind": "literal", "evidence": "la solution est de donner des devoirs plus courts et plus intelligents" },
+      { "q": { "en": "What does he suggest for families who cannot help?" }, "options": ["Private tutors paid by the government", "No homework for their children", "Online classes at night", "Free homework help at school after classes"], "answer": 3, "explanation": { "en": "Schools could open free homework help after classes.", "hi": "स्कूल कक्षाओं के बाद मुफ़्त गृहकार्य-सहायता शुरू कर सकते हैं।" }, "kind": "literal", "evidence": "les écoles pourraient ouvrir une aide aux devoirs gratuite après les cours" }
+    ]
+  },
+  "writing": {
+    "type": "email",
+    "prompt": {
+      "en": "You proposed a carpool (covoiturage) system to your colleagues. A colleague replies by email with three objections: 'It's complicated to organise', 'Schedules are all different' and 'I like being alone in my car'. Write your reply: recognise each objection, then answer it, and end with a concrete proposal.",
+      "hi": "आपने अपने सहकर्मियों के सामने कारपूल (covoiturage) व्यवस्था का प्रस्ताव रखा। एक सहकर्मी ईमेल से तीन आपत्तियाँ भेजता है: 'इसे संगठित करना मुश्किल है', 'सबका समय अलग है' और 'मुझे अपनी गाड़ी में अकेले रहना पसंद है'। अपना जवाब लिखिए: हर आपत्ति मानिए, फिर उसका जवाब दीजिए, और एक ठोस प्रस्ताव के साथ अंत कीजिए।",
+      "fr": "Répondez aux objections de votre collègue au sujet du covoiturage."
+    },
+    "minWords": 130,
+    "maxWords": 190,
+    "hints": [
+      { "en": "One paragraph per objection: recognise → counter → example.", "hi": "हर आपत्ति के लिए एक अनुच्छेद: मानिए → जवाब दीजिए → उदाहरण।" },
+      { "en": "Use a different concession structure for each objection.", "hi": "हर आपत्ति के लिए अलग रियायत-ढाँचा इस्तेमाल कीजिए।" },
+      { "en": "Stay friendly: this is a colleague (vous or tu, but be consistent).", "hi": "मित्रवत रहिए: यह सहकर्मी है (vous या tu, लेकिन एक ही रखिए)।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Merci pour ta réponse franche.", "en": "Thanks for your honest reply.", "hi": "तुम्हारे साफ़ जवाब के लिए धन्यवाद।", "pron": "मैग़-सी पूग़ ता ग़े-पोँस फ़्ग़ाँश" },
+      { "fr": "Je comprends ton point de vue, mais …", "en": "I understand your point of view, but …", "hi": "मैं तुम्हारा नज़रिया समझता हूँ, लेकिन …", "pron": "झ़ö कोँ-प्ग़ाँ तोँ प्वैँ द्वü मै" },
+      { "fr": "Certes, … ; cependant, …", "en": "Admittedly, … ; however, …", "hi": "माना कि … ; हालाँकि …", "pron": "सैग़्त सö-पाँ-दाँ" },
+      { "fr": "Même si …, on pourrait …", "en": "Even if …, we could …", "hi": "भले ही …, हम … सकते हैं", "pron": "मैम सी ओँ पू-ग़ै" }
+    ],
+    "model": {
+      "fr": "Salut Julien,\nMerci pour ta réponse franche, c'est utile pour améliorer le projet.\nTu dis que c'est compliqué à organiser. Je comprends, mais il existe des applications gratuites qui font tout le travail : chacun indique son trajet et ses horaires, et l'application propose des groupes.\nC'est vrai aussi que nos horaires sont différents. Pourtant, en regardant le planning, j'ai vu que huit personnes commencent à huit heures et habitent à Laval. On pourrait commencer avec ce petit groupe.\nEnfin, tu aimes être seul dans ta voiture. Certes, c'est agréable d'écouter sa musique tranquillement ! Cependant, même si tu fais du covoiturage seulement deux jours par semaine, tu économiserais environ cent dollars par mois, et tu garderais ta liberté les autres jours.\nJe propose donc un essai d'un mois, les mardis et jeudis. Si ça ne marche pas, on arrête. Tu veux essayer ?\nÀ bientôt,\nAnita",
+      "en": "Hi Julien,\nThanks for your honest reply — it's useful for improving the project.\nYou say it's complicated to organise. I understand, but there are free apps that do all the work: everyone enters their route and schedule, and the app suggests groups.\nIt's also true that our schedules are different. And yet, looking at the roster, I saw that eight people start at eight o'clock and live in Laval. We could start with that small group.\nFinally, you like being alone in your car. Admittedly, it's nice to listen to your music in peace! However, even if you carpool only two days a week, you'd save about a hundred dollars a month, and you'd keep your freedom on the other days.\nSo I propose a one-month trial, on Tuesdays and Thursdays. If it doesn't work, we stop. Do you want to try?\nSee you soon,\nAnita"
+    },
+    "checklist": [
+      { "en": "Did you recognise each objection before answering it?", "hi": "क्या आपने हर आपत्ति का जवाब देने से पहले उसे माना?" },
+      { "en": "Did you use at least four different concession structures?", "hi": "क्या आपने कम से कम चार अलग रियायत-ढाँचे इस्तेमाल किए?" },
+      { "en": "After même si, did you use the present or imparfait?", "hi": "क्या même si के बाद आपने वर्तमान या imparfait इस्तेमाल किया?" },
+      { "en": "Did you end with a concrete, low-risk proposal?", "hi": "क्या आपने एक ठोस, कम जोखिम वाले प्रस्ताव के साथ अंत किया?" }
+    ]
+  },
+  "review": {
+    "fromDays": [62, 63, 65, 66, 69, 72],
+    "items": [
+      { "fr": "Je ne suis pas tout à fait d'accord.", "en": "I don't completely agree.", "hi": "मैं पूरी तरह सहमत नहीं हूँ।", "pron": "झ़ö नö स्üई पा तू ता फ़ै दा-कॉग़" },
+      { "fr": "Tu devrais essayer.", "en": "You should try.", "hi": "तुम्हें आज़माना चाहिए।", "pron": "तü दö-व्ग़ै ए-से-ये" },
+      { "fr": "Ça vaut la peine d'attendre.", "en": "It's worth waiting.", "hi": "इंतज़ार करना फ़ायदेमंद है।", "pron": "सा वो ला पैन दा-ताँद्ग़" },
+      { "fr": "Si on essayait pendant un mois ?", "en": "What if we tried for a month?", "hi": "क्यों न एक महीने के लिए आज़माएँ?", "pron": "सी ओँ ने-से-यै पाँ-दाँ ऐँ म्वा" },
+      { "fr": "Il habite loin ; pourtant, il arrive toujours à l'heure.", "en": "He lives far away; and yet he's always on time.", "hi": "वह दूर रहता है; फिर भी हमेशा समय पर आता है।", "pron": "ई-ला-बीत ल्वैँ पूग़-ताँ ई-ला-ग़ीव तू-झ़ूग़ आ लöग़" },
+      { "fr": "Je ne peux pas venir, car je travaille.", "en": "I can't come, as I'm working.", "hi": "मैं नहीं आ सकता, क्योंकि मुझे काम है।", "pron": "झ़ö नö पö पा व्नीग़ काग़ झ़ö त्ग़ा-वाय" },
+      { "fr": "Je t'assure que ce n'est pas dangereux.", "en": "I promise you it's not dangerous.", "hi": "मेरा यक़ीन करो, यह ख़तरनाक नहीं है।", "pron": "झ़ö ता-सüग़ कö सö नै पा दाँ-झ़ö-ग़ö" },
+      { "fr": "Pourriez-vous m'envoyer une proposition écrite ?", "en": "Could you send me a written proposal?", "hi": "क्या आप मुझे लिखित प्रस्ताव भेज सकेंगे?", "pron": "पू-ग़्ये वू माँ-व्वा-ये üन प्ग़ो-पो-ज़ी-स्योँ ए-क्ग़ीत" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Choose the correct sentence.", "hi": "सही वाक्य चुनिए।" }, "options": ["Même si ce sera difficile, je vais essayer.", "Même si c'est difficile, je vais essayer.", "Même si ce serait difficile, je vais essayer.", "Même que c'est difficile, je vais essayer."], "answer": 1, "explanation": { "en": "même si + present (or imparfait), never future or conditional.", "hi": "même si + वर्तमान (या imparfait), भविष्य या conditionnel कभी नहीं।" } },
+    { "type": "mcq", "prompt": { "en": "— 'Ce cours va être ennuyeux.' — You think the opposite is true. Answer:", "hi": "— 'Ce cours va être ennuyeux.' — आपको लगता है कि उलटा सच है। जवाब दीजिए:" }, "options": ["Par contre, il est long.", "De plus, il est ennuyeux.", "Certes.", "Au contraire, il est passionnant !"], "answer": 3, "explanation": { "en": "Au contraire = the opposite is true.", "hi": "au contraire = उलटी बात सच है।" } },
+    { "type": "fill", "prompt": { "en": "Complete (formal 'admittedly'): Admittedly it's expensive, but it's useful.", "hi": "पूरा कीजिए (औपचारिक 'माना कि'): माना कि यह महँगा है, लेकिन काम का है।" }, "sentence": "___, c'est cher, mais c'est utile.", "answer": "Certes", "accept": ["certes"], "explanation": { "en": "Certes…, mais… = admittedly…, but…", "hi": "Certes…, mais… = माना कि…, लेकिन…" } },
+    { "type": "translate", "prompt": { "en": "Write in French (vous).", "hi": "फ़्रेंच में लिखिए (vous)।" }, "source": { "en": "I admit you are right on that point.", "hi": "मैं मानता हूँ कि इस बात पर आप सही हैं।" }, "answer": "Je reconnais que vous avez raison sur ce point.", "accept": ["Je reconnais que vous avez raison sur ce point", "Je reconnais que vous avez raison là-dessus."], "explanation": { "en": "reconnaître que + indicative; avoir raison.", "hi": "reconnaître que + indicative; avoir raison।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: It's true that it's far.", "hi": "शब्दों को सही क्रम में रखिए: सच है कि यह दूर है।" }, "words": ["vrai", "que", "loin.", "C'est", "c'est"], "answer": "C'est vrai que c'est loin.", "explanation": { "en": "C'est vrai que + sentence (step 1: recognise).", "hi": "C'est vrai que + वाक्य (क़दम 1: मानना)।" } },
+    { "type": "mcq", "prompt": { "en": "Which answer to 'C'est trop loin !' is the LEAST aggressive?", "hi": "'C'est trop loin !' का सबसे कम आक्रामक जवाब कौन-सा है?" }, "options": ["Non, c'est faux.", "Tu exagères toujours.", "Je comprends, mais il y a un bus direct.", "Ce n'est pas mon problème."], "answer": 2, "explanation": { "en": "Recognise first (je comprends), then counter with a fact.", "hi": "पहले मानिए (je comprends), फिर किसी तथ्य से जवाब दीजिए।" } },
+    { "type": "fill", "prompt": { "en": "Complete: Anyway, we can try.", "hi": "पूरा कीजिए: वैसे भी, हम कोशिश कर सकते हैं।" }, "sentence": "De toute ___, on peut essayer.", "answer": "façon", "accept": ["facon"], "explanation": { "en": "de toute façon = anyway.", "hi": "de toute façon = वैसे भी।" } }
+  ]
+}

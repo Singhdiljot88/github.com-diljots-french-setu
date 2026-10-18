@@ -1,0 +1,205 @@
+{
+  "day": 36,
+  "phase": 2,
+  "title": { "fr": "La santé et le corps", "en": "Health and the body", "hi": "सेहत और शरीर" },
+  "objective": {
+    "en": "Describe symptoms at a walk-in clinic or pharmacy (j'ai mal à la tête, j'ai de la fièvre), say how long you've been ill with depuis, and understand advice with il faut.",
+    "hi": "वॉक-इन क्लिनिक या फ़ार्मेसी में लक्षण बताना (j'ai mal à la tête, j'ai de la fièvre), depuis से बताना कि आप कब से बीमार हैं, और il faut वाली सलाह समझना।"
+  },
+  "prerequisites": {
+    "days": [4, 5, 16, 24, 30, 32],
+    "summary": {
+      "en": "malade / fatigué, avoir expressions, à + le = au, partitives, médecin and pharmacien, modal verbs.",
+      "hi": "malade / fatigué, avoir वाले वाक्यांश, à + le = au, 'कुछ' वाले आर्टिकल, médecin और pharmacien, सहायक क्रियाएँ।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "la tête", "en": "head", "hi": "सिर", "pron": "ला तैत", "ipa": "la tɛt", "pos": "noun", "gender": "f", "lemma": "tête" },
+    { "fr": "le ventre", "en": "stomach / belly", "hi": "पेट", "pron": "लö वाँत्ग़", "ipa": "lə vɑ̃tʁ", "pos": "noun", "gender": "m", "lemma": "ventre" },
+    { "fr": "la gorge", "en": "throat", "hi": "गला", "pron": "ला गॉग़्झ़", "ipa": "la ɡɔʁʒ", "pos": "noun", "gender": "f", "lemma": "gorge" },
+    { "fr": "le dos", "en": "back", "hi": "पीठ / कमर", "pron": "लö दो", "ipa": "lə do", "pos": "noun", "gender": "m", "lemma": "dos" },
+    { "fr": "les dents", "en": "teeth", "hi": "दाँत", "pron": "ले दाँ", "ipa": "le dɑ̃", "pos": "noun", "gender": "f", "lemma": "dent" },
+    { "fr": "le bras", "en": "arm", "hi": "बाँह", "pron": "लö ब्रा", "ipa": "lə bʁa", "pos": "noun", "gender": "m", "lemma": "bras" },
+    { "fr": "la jambe", "en": "leg", "hi": "टाँग", "pron": "ला झ़ाँब", "ipa": "la ʒɑ̃b", "pos": "noun", "gender": "f", "lemma": "jambe" },
+    { "fr": "le pied", "en": "foot", "hi": "पैर (पंजा)", "pron": "लö प्ये", "ipa": "lə pje", "pos": "noun", "gender": "m", "lemma": "pied" },
+    { "fr": "la fièvre", "en": "fever / temperature", "hi": "बुख़ार", "pron": "ला फ़्यैव्ग़", "ipa": "la fjɛvʁ", "pos": "noun", "gender": "f", "lemma": "fièvre" },
+    { "fr": "le rhume", "en": "cold (illness)", "hi": "ज़ुकाम", "pron": "लö ग़üम", "ipa": "lə ʁym", "pos": "noun", "gender": "m", "lemma": "rhume" },
+    { "fr": "la toux / tousser", "en": "cough / to cough", "hi": "खाँसी / खाँसना", "pron": "ला तू / तू-से", "ipa": "la tu / tuse", "pos": "noun", "gender": "f", "lemma": "toux" },
+    { "fr": "le médicament", "en": "medicine / medication", "hi": "दवा", "pron": "लö मे-दी-का-माँ", "ipa": "lə medikamɑ̃", "pos": "noun", "gender": "m", "lemma": "médicament" },
+    { "fr": "l'ordonnance", "en": "prescription", "hi": "पर्चा / नुस्ख़ा", "pron": "लॉग़-दो-नाँस", "ipa": "lɔʁdɔnɑ̃s", "pos": "noun", "gender": "f", "lemma": "ordonnance" },
+    { "fr": "la clinique sans rendez-vous", "en": "walk-in clinic", "hi": "बिना अपॉइंटमेंट वाला क्लिनिक", "pron": "ला क्ली-नीक साँ ग़ाँ-दे-वू", "ipa": "la klinik sɑ̃ ʁɑ̃devu", "pos": "noun", "gender": "f", "lemma": "clinique", "note": { "en": "In Québec, bring your health insurance card: la carte d'assurance maladie.", "hi": "क्यूबेक में अपना स्वास्थ्य बीमा कार्ड साथ लाइए: la carte d'assurance maladie।" } }
+  ],
+  "phrases": [
+    { "fr": "J'ai mal à la tête.", "en": "I have a headache.", "hi": "मेरे सिर में दर्द है।", "pron": "झ़े माल आ ला तैत" },
+    { "fr": "J'ai mal au ventre.", "en": "I have a stomach ache.", "hi": "मेरे पेट में दर्द है।", "pron": "झ़े माल ओ वाँत्ग़" },
+    { "fr": "J'ai de la fièvre.", "en": "I have a temperature.", "hi": "मुझे बुख़ार है।", "pron": "झ़े दö ला फ़्यैव्ग़" },
+    { "fr": "Je tousse depuis trois jours.", "en": "I've been coughing for three days.", "hi": "मुझे तीन दिन से खाँसी है।", "pron": "झ़ö तूस द्ö-प्üई त्र्वा झ़ूग़" },
+    { "fr": "Qu'est-ce qui ne va pas ?", "en": "What's wrong?", "hi": "क्या परेशानी है?", "pron": "कैस-की न्ö वा पा", "note": { "en": "What doctors ask first.", "hi": "डॉक्टर सबसे पहले यही पूछते हैं।" } },
+    { "fr": "Vous avez votre carte d'assurance maladie ?", "en": "Do you have your health card?", "hi": "क्या आपके पास स्वास्थ्य बीमा कार्ड है?", "pron": "वू ज़ा-वे वॉत्ग़ काग़्त दा-सü-ग़ाँस मा-ला-दी" }
+  ],
+  "grammar": {
+    "title": { "en": "avoir mal à, il faut + infinitive, depuis + present", "hi": "avoir mal à, il faut + मूल रूप, depuis + वर्तमान काल" },
+    "explanation": {
+      "en": "1) Pain: avoir mal à + body part, with à + le = au, à + les = aux: j'ai mal à la tête, au ventre, au dos, à l'oreille, aux dents, aux pieds. French uses le/la/les with body parts, not mon/ma. 2) Advice and obligation: il faut + infinitive = 'you need to / one must' (for everyone): Il faut boire de l'eau. Il faut rester au lit. Negative: Il ne faut pas fumer. 3) Duration up to now: depuis + PRESENT tense: Je suis malade depuis lundi. J'ai mal à la gorge depuis deux jours. J'habite à Montréal depuis un an. Question: Depuis quand ? (since when?) / Depuis combien de temps ? (for how long?)",
+      "hi": "1) दर्द: avoir mal à + शरीर का अंग, à + le = au, à + les = aux के साथ: j'ai mal à la tête, au ventre, au dos, à l'oreille, aux dents, aux pieds। फ़्रेंच में शरीर के अंगों के साथ le/la/les आता है, mon/ma नहीं। 2) सलाह और ज़रूरत: il faut + मूल रूप = 'चाहिए / ज़रूरी है' (सबके लिए): Il faut boire de l'eau। Il faut rester au lit। नकारात्मक: Il ne faut pas fumer। 3) अब तक की अवधि: depuis + वर्तमान काल: Je suis malade depuis lundi। J'ai mal à la gorge depuis deux jours। J'habite à Montréal depuis un an। सवाल: Depuis quand ? (कब से?) / Depuis combien de temps ? (कितने समय से?)"
+    },
+    "comparison": {
+      "en": "depuis is where Hindi beats English! Hindi says 'मुझे दो दिन से खाँसी है' — present tense + से. French says exactly the same: Je tousse depuis deux jours — present + depuis. English uses 'I have been coughing', so don't copy English and don't use a past tense. For body parts, Hindi says मेरे सिर में दर्द है and English 'my head hurts', but French says la tête: j'ai mal à la tête, never 'à ma tête'. And il faut works like Hindi 'पानी पीना चाहिए' — no person named.",
+      "hi": "depuis में हिंदी अंग्रेज़ी से आगे है! हिंदी में 'मुझे दो दिन से खाँसी है' — वर्तमान काल + से। फ़्रेंच में बिल्कुल वैसा ही: Je tousse depuis deux jours — वर्तमान + depuis। अंग्रेज़ी में 'I have been coughing' होता है, इसलिए अंग्रेज़ी की नक़ल मत कीजिए और भूतकाल मत लगाइए। शरीर के अंगों के लिए हिंदी में 'मेरे सिर में दर्द है', पर फ़्रेंच में la tête: j'ai mal à la tête, 'à ma tête' कभी नहीं। और il faut हिंदी के 'पानी पीना चाहिए' जैसा है — किसी व्यक्ति का नाम नहीं।"
+    },
+    "examples": [
+      { "fr": "J'ai mal à la tête depuis ce matin.", "en": "I've had a headache since this morning.", "hi": "मेरे सिर में सुबह से दर्द है।", "pron": "झ़े माल आ ला तैत द्ö-प्üई स्ö मा-तैँ" },
+      { "fr": "Mon fils a mal aux dents.", "en": "My son has toothache.", "hi": "मेरे बेटे के दाँत में दर्द है।", "pron": "मोँ फ़ीस आ माल ओ दाँ" },
+      { "fr": "Elle a mal au dos.", "en": "She has back pain.", "hi": "उसकी पीठ में दर्द है।", "pron": "ए ला माल ओ दो" },
+      { "fr": "Il faut boire beaucoup d'eau.", "en": "You need to drink a lot of water.", "hi": "ख़ूब पानी पीना चाहिए।", "pron": "ईल फ़ो ब्वाग़ बो-कू दो" },
+      { "fr": "Il ne faut pas aller au travail.", "en": "You mustn't go to work.", "hi": "काम पर नहीं जाना चाहिए।", "pron": "ईल न्ö फ़ो पा ज़ा-ले ओ त्रा-वाय" },
+      { "fr": "J'habite à Montréal depuis deux ans.", "en": "I've lived in Montréal for two years.", "hi": "मैं दो साल से मॉन्ट्रियाल में रहता/रहती हूँ।", "pron": "झ़ा-बीत आ मोँ-ग़े-आल द्ö-प्üई दö ज़ाँ" }
+    ],
+    "pitfalls": [
+      { "en": "Not 'j'ai mal à ma tête' — say 'j'ai mal à la tête'.", "hi": "'j'ai mal à ma tête' नहीं — 'j'ai mal à la tête' कहिए।" },
+      { "en": "Not 'à le ventre' or 'à les dents' — say 'au ventre', 'aux dents'.", "hi": "'à le ventre' या 'à les dents' नहीं — 'au ventre', 'aux dents' कहिए।" },
+      { "en": "With depuis, use the present: 'Je suis malade depuis lundi', not a past tense.", "hi": "depuis के साथ वर्तमान काल: 'Je suis malade depuis lundi', भूतकाल नहीं।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "/ɛ̃/ (médecin, faim) vs /ɑ̃/ (dent, ventre)",
+    "tip": {
+      "en": "/ɛ̃/ (in, ain, aim, ein, en after i/é) is a nasal ऐँ with the mouth fairly flat: médecin (मेद-सैँ), faim (फ़ैँ), main (मैँ). /ɑ̃/ (an, en, am) is a deeper, more open आँ: dent (दाँ), ventre (वाँत्ग़), jambe (झ़ाँब). Say 'cinq dents' — सैँक दाँ — and feel the jaw drop on the second.",
+      "hi": "/ɛ̃/ (in, ain, aim, ein, और i/é के बाद en) नासिक्य ऐँ है, मुँह थोड़ा चपटा: médecin (मेद-सैँ), faim (फ़ैँ), main (मैँ)। /ɑ̃/ (an, en, am) गहरा, ज़्यादा खुला आँ है: dent (दाँ), ventre (वाँत्ग़), jambe (झ़ाँब)। 'cinq dents' बोलिए — सैँक दाँ — और महसूस कीजिए कि दूसरे पर जबड़ा नीचे जाता है।"
+    },
+    "words": [
+      { "fr": "le médecin", "en": "the doctor", "hi": "डॉक्टर", "pron": "लö मेद-सैँ", "ipa": "lə medsɛ̃" },
+      { "fr": "j'ai faim", "en": "I'm hungry", "hi": "मुझे भूख लगी है", "pron": "झ़े फ़ैँ", "ipa": "ʒe fɛ̃" },
+      { "fr": "la main", "en": "the hand", "hi": "हाथ", "pron": "ला मैँ", "ipa": "la mɛ̃" },
+      { "fr": "une dent", "en": "a tooth", "hi": "एक दाँत", "pron": "üन दाँ", "ipa": "yn dɑ̃" },
+      { "fr": "le ventre", "en": "the stomach", "hi": "पेट", "pron": "लö वाँत्ग़", "ipa": "lə vɑ̃tʁ" },
+      { "fr": "cinq enfants", "en": "five children", "hi": "पाँच बच्चे", "pron": "सैँ-काँ-फ़ाँ", "ipa": "sɛ̃k ɑ̃fɑ̃" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "À la clinique sans rendez-vous", "en": "At the walk-in clinic" },
+    "type": "dialogue",
+    "mode": "pedagogical",
+    "context": {
+      "en": "Arjun feels ill and goes to a walk-in clinic in Montréal. First he speaks to the receptionist, then to the doctor.",
+      "hi": "अर्जुन की तबीयत ख़राब है और वह मॉन्ट्रियाल के एक वॉक-इन क्लिनिक जाता है। पहले वह रिसेप्शनिस्ट से, फिर डॉक्टर से बात करता है।"
+    },
+    "lines": [
+      { "speaker": "La réceptionniste", "voice": "f2", "fr": "Bonjour, monsieur. Vous avez votre carte d'assurance maladie ?", "en": "Hello, sir. Do you have your health card?", "hi": "नमस्ते, सर। क्या आपके पास स्वास्थ्य बीमा कार्ड है?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Oui, voilà. Je n'ai pas de rendez-vous.", "en": "Yes, here it is. I don't have an appointment.", "hi": "हाँ, यह रहा। मेरा अपॉइंटमेंट नहीं है।" },
+      { "speaker": "La réceptionniste", "voice": "f2", "fr": "Pas de problème, c'est une clinique sans rendez-vous. Il faut attendre environ une heure.", "en": "No problem, it's a walk-in clinic. You'll need to wait about an hour.", "hi": "कोई बात नहीं, यह बिना अपॉइंटमेंट वाला क्लिनिक है। लगभग एक घंटा इंतज़ार करना होगा।" },
+      { "speaker": "Le médecin", "voice": "m2", "fr": "Bonjour, monsieur Singh. Qu'est-ce qui ne va pas ?", "en": "Hello, Mr Singh. What's wrong?", "hi": "नमस्ते, सिंह साहब। क्या परेशानी है?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "J'ai mal à la gorge et j'ai mal à la tête.", "en": "I have a sore throat and a headache.", "hi": "मेरे गले में और सिर में दर्द है।" },
+      { "speaker": "Le médecin", "voice": "m2", "fr": "Depuis quand ?", "en": "Since when?", "hi": "कब से?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Depuis trois jours. Et ce matin, j'ai de la fièvre.", "en": "For three days. And this morning I have a temperature.", "hi": "तीन दिन से। और आज सुबह से मुझे बुख़ार है।" },
+      { "speaker": "Le médecin", "voice": "m2", "fr": "Vous toussez ?", "en": "Are you coughing?", "hi": "क्या आपको खाँसी है?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Oui, un peu, surtout la nuit.", "en": "Yes, a little, especially at night.", "hi": "हाँ, थोड़ी, ख़ासकर रात को।" },
+      { "speaker": "Le médecin", "voice": "m2", "fr": "Bon, c'est un gros rhume. Ce n'est pas grave. Il faut rester à la maison deux jours et boire beaucoup d'eau.", "en": "Well, it's a bad cold. It's not serious. You need to stay at home for two days and drink a lot of water.", "hi": "ठीक है, यह तेज़ ज़ुकाम है। गंभीर नहीं है। दो दिन घर पर रहना होगा और ख़ूब पानी पीना होगा।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Est-ce que je peux aller au travail demain ?", "en": "Can I go to work tomorrow?", "hi": "क्या मैं कल काम पर जा सकता हूँ?" },
+      { "speaker": "Le médecin", "voice": "m2", "fr": "Non, il ne faut pas aller au travail demain. Voici un billet médical pour votre patron.", "en": "No, you mustn't go to work tomorrow. Here's a medical note for your boss.", "hi": "नहीं, कल काम पर नहीं जाना चाहिए। यह आपके बॉस के लिए मेडिकल पर्ची है।" }
+    ],
+    "questions": [
+      { "q": { "en": "What does the receptionist ask for?" }, "options": ["An appointment", "His health card", "A prescription"], "answer": 1, "explanation": { "en": "'Vous avez votre carte d'assurance maladie ?'", "hi": "'Vous avez votre carte d'assurance maladie ?' — स्वास्थ्य बीमा कार्ड।" }, "kind": "literal", "evidence": "Vous avez votre carte d'assurance maladie ?" },
+      { "q": { "en": "How long must Arjun wait?" }, "options": ["About ten minutes", "About an hour", "Three days"], "answer": 1, "explanation": { "en": "'Il faut attendre environ une heure.'", "hi": "'Il faut attendre environ une heure.' — लगभग एक घंटा।" }, "kind": "literal", "evidence": "Il faut attendre environ une heure." },
+      { "q": { "en": "For how long has Arjun had a sore throat?" }, "options": ["Since this morning", "For three days", "For a week"], "answer": 1, "explanation": { "en": "'Depuis trois jours.' The fever started this morning.", "hi": "'Depuis trois jours.' बुख़ार आज सुबह से है।" }, "kind": "literal", "evidence": "Depuis trois jours." },
+      { "q": { "en": "What is the doctor's diagnosis?" }, "options": ["Something serious", "A bad cold", "A stomach problem"], "answer": 1, "explanation": { "en": "'c'est un gros rhume. Ce n'est pas grave.'", "hi": "'c'est un gros rhume. Ce n'est pas grave.' — तेज़ ज़ुकाम, गंभीर नहीं।" }, "kind": "literal", "evidence": "Bon, c'est un gros rhume. Ce n'est pas grave." },
+      { "q": { "en": "Why does the doctor give Arjun a note?" }, "options": ["For the pharmacy", "For his boss, because he must not go to work", "For the receptionist"], "answer": 1, "explanation": { "en": "'il ne faut pas aller au travail demain. Voici un billet médical pour votre patron.'", "hi": "कल काम पर नहीं जाना है, इसलिए बॉस के लिए पर्ची।" }, "kind": "inference", "evidence": "Voici un billet médical pour votre patron." }
+    ],
+    "dictation": ["J'ai mal à la gorge.", "Depuis trois jours.", "Il faut boire beaucoup d'eau."],
+    "gapFill": { "text": "J'ai mal à la gorge ___ trois jours. Il ___ rester à la maison deux jours.", "answers": ["depuis", "faut"] }
+  },
+  "speaking": {
+    "type": "roleplay",
+    "instructions": {
+      "en": "You are at a walk-in clinic. Tell the doctor what's wrong, where it hurts, since when, and ask one question about work or medicine.",
+      "hi": "आप वॉक-इन क्लिनिक में हैं। डॉक्टर को बताइए कि क्या परेशानी है, कहाँ दर्द है, कब से, और काम या दवा के बारे में एक सवाल पूछिए।"
+    },
+    "prompts": [
+      { "fr": "Bonjour. Qu'est-ce qui ne va pas ?", "en": "Hello. What's wrong?", "hi": "नमस्ते। क्या परेशानी है?", "pron": "बोँ-झ़ूग़ कैस-की न्ö वा पा", "model": "Bonjour, docteur. J'ai mal au ventre et j'ai de la fièvre." },
+      { "fr": "Depuis quand ?", "en": "Since when?", "hi": "कब से?", "pron": "द्ö-प्üई काँ", "model": "Depuis hier soir." },
+      { "fr": "Vous avez mal à la tête aussi ?", "en": "Do you have a headache too?", "hi": "क्या सिर में भी दर्द है?", "pron": "वू ज़ा-वे माल आ ला तैत ओ-सी", "model": "Non, mais je suis très fatigué." },
+      { "fr": "Il faut manger léger et boire de l'eau.", "en": "You need to eat light food and drink water.", "hi": "हल्का खाना खाना और पानी पीना चाहिए।", "pron": "ईल फ़ो माँ-झ़े ले-झ़े ए ब्वाग़ दö लो", "model": "D'accord. Est-ce que je dois prendre un médicament ?" },
+      { "fr": "Oui, voici une ordonnance.", "en": "Yes, here's a prescription.", "hi": "हाँ, यह रहा पर्चा।", "pron": "वी व्वा-सी ü-नॉग़-दो-नाँस", "model": "Merci. Est-ce que je peux aller au travail demain ?" }
+    ],
+    "tip": {
+      "en": "Answer 'Depuis quand ?' with depuis + a time point (lundi, hier, ce matin) or a duration (deux jours, une semaine) — and keep your verb in the present.",
+      "hi": "'Depuis quand ?' का जवाब depuis + समय-बिंदु (lundi, hier, ce matin) या अवधि (deux jours, une semaine) से दीजिए — और क्रिया वर्तमान काल में रखिए।"
+    },
+    "scenario": {
+      "setting": { "en": "A consultation room at a walk-in clinic in Montréal.", "hi": "मॉन्ट्रियाल के एक वॉक-इन क्लिनिक का परामर्श कक्ष।" },
+      "learnerRole": { "en": "A patient with flu-like symptoms.", "hi": "फ़्लू जैसे लक्षणों वाला मरीज़।" },
+      "partnerRole": { "en": "A calm doctor who asks short questions and gives advice with il faut.", "hi": "एक शांत डॉक्टर, जो छोटे सवाल पूछता है और il faut से सलाह देता है।" },
+      "goals": [
+        { "en": "Name at least two symptoms with avoir mal à / avoir de la fièvre.", "hi": "avoir mal à / avoir de la fièvre से कम से कम दो लक्षण बताइए।" },
+        { "en": "Say since when with depuis.", "hi": "depuis से बताइए कि कब से।" },
+        { "en": "Ask one permission question.", "hi": "अनुमति का एक सवाल पूछिए।" }
+      ]
+    }
+  },
+  "reading": {
+    "genre": "notice",
+    "title": "Sirop contre la toux — mode d'emploi",
+    "text": "Adultes et enfants de 12 ans et plus.\nPrendre 10 ml trois fois par jour, après les repas. Ne pas prendre plus de quatre doses par jour.\nNe pas donner aux enfants de moins de 12 ans.\nAttention : ce médicament peut causer de la fatigue. Il ne faut pas conduire après la prise.\nConsultez un médecin si la toux dure plus de sept jours ou si vous avez une forte fièvre.\n\nPharmacie du Plateau — avis\nLe pharmacien peut vous conseiller gratuitement pour les petits problèmes : rhume, mal de gorge, allergies. Ouvert sept jours sur sept, de 8 h à 22 h.",
+    "translation": {
+      "en": "Adults and children aged 12 and over.\nTake 10 ml three times a day, after meals. Do not take more than four doses a day.\nDo not give to children under 12.\nWarning: this medicine may cause tiredness. Do not drive after taking it.\nSee a doctor if the cough lasts more than seven days or if you have a high fever.\n\nPlateau Pharmacy — notice\nThe pharmacist can advise you free of charge for minor problems: colds, sore throats, allergies. Open seven days a week, from 8 a.m. to 10 p.m.",
+      "hi": "वयस्क और 12 साल या उससे बड़े बच्चे।\nदिन में तीन बार, खाने के बाद 10 मिलीलीटर लीजिए। दिन में चार ख़ुराक से ज़्यादा न लीजिए।\n12 साल से छोटे बच्चों को न दीजिए।\nसावधान: इस दवा से थकान हो सकती है। लेने के बाद गाड़ी नहीं चलानी चाहिए।\nअगर खाँसी सात दिन से ज़्यादा रहे या तेज़ बुख़ार हो, तो डॉक्टर को दिखाइए।\n\nप्लातो फ़ार्मेसी — सूचना\nफ़ार्मासिस्ट छोटी परेशानियों में मुफ़्त सलाह दे सकते हैं: ज़ुकाम, गले में दर्द, एलर्जी। हफ़्ते के सातों दिन, सुबह 8 से रात 10 बजे तक खुला।"
+    },
+    "questions": [
+      { "q": { "en": "How often should you take the syrup?" }, "options": ["Once a day", "Three times a day, after meals", "Four times a day, before meals"], "answer": 1, "explanation": { "en": "'Prendre 10 ml trois fois par jour, après les repas.' Four is the maximum.", "hi": "'Prendre 10 ml trois fois par jour, après les repas.' चार अधिकतम सीमा है।" }, "kind": "literal", "evidence": "Prendre 10 ml trois fois par jour, après les repas." },
+      { "q": { "en": "Can Kavita give this syrup to her 8-year-old daughter?" }, "options": ["Yes, 10 ml", "Yes, but only once a day", "No"], "answer": 2, "explanation": { "en": "'Ne pas donner aux enfants de moins de 12 ans.'", "hi": "'Ne pas donner aux enfants de moins de 12 ans.' — 12 से छोटे बच्चों को नहीं।" }, "kind": "inference", "evidence": "Ne pas donner aux enfants de moins de 12 ans." },
+      { "q": { "en": "Why shouldn't you drive after taking it?" }, "options": ["It can make you tired", "It causes fever", "It is very expensive"], "answer": 0, "explanation": { "en": "'ce médicament peut causer de la fatigue. Il ne faut pas conduire'.", "hi": "इससे थकान हो सकती है, इसलिए गाड़ी नहीं चलानी चाहिए।" }, "kind": "literal", "evidence": "ce médicament peut causer de la fatigue. Il ne faut pas conduire après la prise." },
+      { "q": { "en": "When should you see a doctor?" }, "options": ["After one day", "If the cough lasts more than seven days or with a high fever", "Only at night"], "answer": 1, "explanation": { "en": "'si la toux dure plus de sept jours ou si vous avez une forte fièvre'.", "hi": "खाँसी सात दिन से ज़्यादा रहे या तेज़ बुख़ार हो।" }, "kind": "literal", "evidence": "Consultez un médecin si la toux dure plus de sept jours ou si vous avez une forte fièvre." }
+    ]
+  },
+  "writing": {
+    "type": "message",
+    "prompt": {
+      "en": "You are ill and can't go to your French class (or work) today. Write a short message to your teacher (vous): what's wrong, since when, what the doctor says, and apologise.",
+      "hi": "आप बीमार हैं और आज फ़्रेंच क्लास (या काम) पर नहीं जा सकते। अपने शिक्षक को (vous के साथ) छोटा संदेश लिखिए: क्या परेशानी है, कब से, डॉक्टर क्या कहते हैं, और माफ़ी माँगिए।"
+    },
+    "minWords": 40,
+    "maxWords": 90,
+    "hints": [
+      { "en": "Start with 'Bonjour Madame …,' / 'Bonjour Monsieur …,' and end with 'Cordialement'.", "hi": "'Bonjour Madame …,' / 'Bonjour Monsieur …,' से शुरू कीजिए और 'Cordialement' से ख़त्म कीजिए।" },
+      { "en": "Use j'ai mal à …, depuis …, il faut … and je ne peux pas …", "hi": "j'ai mal à …, depuis …, il faut … और je ne peux pas … इस्तेमाल कीजिए।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Je suis malade.", "en": "I'm ill.", "hi": "मैं बीमार हूँ।", "pron": "झ़ö स्üई मा-लाद" },
+      { "fr": "Je ne peux pas venir au cours aujourd'hui.", "en": "I can't come to class today.", "hi": "मैं आज क्लास नहीं आ सकता/सकती।", "pron": "झ़ö न्ö पö पा व्ö-नीग़ ओ कूग़ ओ-झ़ूग़-द्üई" },
+      { "fr": "Excusez-moi.", "en": "I'm sorry.", "hi": "माफ़ कीजिए।", "pron": "ऐक्स-कü-ज़े मवा" }
+    ],
+    "model": {
+      "fr": "Bonjour Madame Tremblay, je suis malade et je ne peux pas venir au cours aujourd'hui. J'ai mal à la gorge depuis trois jours et j'ai de la fièvre. Le médecin dit : il faut rester à la maison deux jours. Excusez-moi. Est-ce que je peux avoir les devoirs par courriel ? Cordialement, Arjun Singh",
+      "en": "Hello Ms Tremblay, I'm ill and I can't come to class today. I've had a sore throat for three days and I have a temperature. The doctor says I need to stay at home for two days. I'm sorry. Could I have the homework by email? Kind regards, Arjun Singh"
+    },
+    "checklist": [
+      { "en": "Did you write 'mal à la / au / aux' (not 'à ma')?", "hi": "क्या 'mal à la / au / aux' लिखा ('à ma' नहीं)?" },
+      { "en": "Is the verb with depuis in the present?", "hi": "क्या depuis वाली क्रिया वर्तमान काल में है?" },
+      { "en": "Did you use vous and a polite closing?", "hi": "क्या vous और शिष्ट समापन लिखा?" }
+    ]
+  },
+  "review": {
+    "fromDays": [4, 5, 16, 24, 30, 32],
+    "items": [
+      { "fr": "Je suis fatigué. / Je suis fatiguée.", "en": "I'm tired.", "hi": "मैं थका / थकी हुई हूँ।", "pron": "झ़ö स्üई फ़ा-ती-गे" },
+      { "fr": "Ça ne va pas bien.", "en": "I'm not well.", "hi": "तबीयत ठीक नहीं है।", "pron": "सा न्ö वा पा ब्यैँ" },
+      { "fr": "Je vais à l'hôpital.", "en": "I'm going to the hospital.", "hi": "मैं अस्पताल जा रहा/रही हूँ।", "pron": "झ़ö वै ज़ा लो-पी-ताल" },
+      { "fr": "J'ai soif.", "en": "I'm thirsty.", "hi": "मुझे प्यास लगी है।", "pron": "झ़े स्वाफ़" },
+      { "fr": "Elle est pharmacienne.", "en": "She's a pharmacist.", "hi": "वह फ़ार्मासिस्ट है।", "pron": "ए लै फ़ाग़-मा-स्यैन" },
+      { "fr": "Je dois rester à la maison.", "en": "I have to stay at home.", "hi": "मुझे घर पर रहना है।", "pron": "झ़ö द्वा ग़ैस-ते आ ला मै-ज़ोँ" },
+      { "fr": "Il fait froid, j'ai un rhume.", "en": "It's cold, I have a cold.", "hi": "ठंड है, मुझे ज़ुकाम है।", "pron": "ईल फ़ै फ़्र्वा झ़े ऐँ ग़üम" },
+      { "fr": "de l'eau et du thé", "en": "water and tea", "hi": "पानी और चाय", "pron": "दö लो ए दü ते" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Choose: I have a headache.", "hi": "चुनिए: मेरे सिर में दर्द है।" }, "options": ["J'ai mal à ma tête.", "J'ai mal à la tête.", "Je suis mal à la tête.", "J'ai mal au tête."], "answer": 1, "explanation": { "en": "avoir mal à + la (tête is feminine), no possessive.", "hi": "avoir mal à + la (tête स्त्रीलिंग है), संबंधसूचक शब्द नहीं।" } },
+    { "type": "fill", "prompt": { "en": "Complete: He has a stomach ache.", "hi": "पूरा कीजिए: उसके पेट में दर्द है।" }, "sentence": "Il a mal ___ ventre.", "answer": "au", "accept": [], "explanation": { "en": "à + le ventre = au ventre.", "hi": "à + le ventre = au ventre।" } },
+    { "type": "fill", "prompt": { "en": "Complete: My son has toothache.", "hi": "पूरा कीजिए: मेरे बेटे के दाँत में दर्द है।" }, "sentence": "Mon fils a mal ___ dents.", "answer": "aux", "accept": [], "explanation": { "en": "à + les dents = aux dents.", "hi": "à + les dents = aux dents।" } },
+    { "type": "mcq", "prompt": { "en": "Choose: I've been ill since Monday.", "hi": "चुनिए: मैं सोमवार से बीमार हूँ।" }, "options": ["J'étais malade depuis lundi.", "Je suis malade depuis lundi.", "Je suis malade pour lundi."], "answer": 1, "explanation": { "en": "depuis + present, like Hindi 'सोमवार से बीमार हूँ'.", "hi": "depuis + वर्तमान काल, हिंदी 'सोमवार से बीमार हूँ' जैसा।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "You need to drink a lot of water.", "hi": "ख़ूब पानी पीना चाहिए।" }, "answer": "Il faut boire beaucoup d'eau.", "accept": ["il faut boire beaucoup d'eau", "Il faut boire beaucoup d’eau.", "Il faut boire beaucoup d'eau"], "explanation": { "en": "il faut + infinitive; beaucoup d'eau (quantity + de).", "hi": "il faut + मूल रूप; beaucoup d'eau (मात्रा + de)।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: I've had a temperature since this morning.", "hi": "शब्दों को सही क्रम में रखिए: मुझे सुबह से बुख़ार है।" }, "words": ["fièvre", "J'ai", "de", "la", "depuis", "ce", "matin", "."], "answer": "J'ai de la fièvre depuis ce matin.", "explanation": { "en": "avoir de la fièvre + depuis + time.", "hi": "avoir de la fièvre + depuis + समय।" } },
+    { "type": "mcq", "prompt": { "en": "Which word has the nasal ऐँ sound?", "hi": "किस शब्द में नासिक्य ऐँ की आवाज़ है?" }, "options": ["dent", "médecin", "ventre"], "answer": 1, "explanation": { "en": "médecin = मेद-सैँ. dent and ventre have आँ.", "hi": "médecin = मेद-सैँ। dent और ventre में आँ है।" } }
+  ]
+}

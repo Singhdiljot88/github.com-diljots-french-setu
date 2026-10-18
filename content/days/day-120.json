@@ -1,0 +1,996 @@
+{
+  "day": 120,
+  "phase": 6,
+  "title": {
+    "fr": "Bilan 6 : rapport final de préparation",
+    "en": "Checkpoint 6: final readiness report",
+    "hi": "पड़ाव 6: तैयारी की आख़िरी रिपोर्ट"
+  },
+  "objective": {
+    "en": "Take a final checkpoint across all four skills and the grammar of the whole course, record a final speaking sample (A and B) and a final writing sample, and prepare to read your readiness report: the app builds it from your own results (days completed, checkpoints, mocks, review), to show your strengths and what to keep working on — it is not an official score and does not predict a result.",
+    "hi": "चारों कौशलों और पूरे कोर्स के व्याकरण पर एक आख़िरी पड़ाव-परीक्षा देना, बोलने का आख़िरी नमूना (A और B) और लिखने का आख़िरी नमूना रिकॉर्ड करना, और अपनी तैयारी-रिपोर्ट पढ़ने के लिए तैयार होना: ऐप इसे आपके अपने नतीजों (पूरे किए दिन, पड़ाव, मॉक परीक्षाएँ, दोहराव) से बनाता है, ताकि आपकी ताक़त और आगे के काम की बातें दिखें — यह कोई आधिकारिक अंक नहीं है और किसी नतीजे की भविष्यवाणी नहीं करता।"
+  },
+  "prerequisites": {
+    "days": [
+      20,
+      40,
+      60,
+      80,
+      100,
+      117,
+      119
+    ],
+    "summary": {
+      "en": "The five earlier checkpoints (days 20, 40, 60, 80 and 100), your final error analysis (day 117) and your phrase bank (day 119).",
+      "hi": "पहले के पाँच पड़ाव (दिन 20, 40, 60, 80 और 100), आपका आख़िरी ग़लती-विश्लेषण (दिन 117) और आपका वाक्य-भंडार (दिन 119)।"
+    }
+  },
+  "light": false,
+  "checkpoint": true,
+  "vocabulary": [
+    {
+      "fr": "le parcours",
+      "en": "path, journey (of learning)",
+      "hi": "सफ़र / यात्रा (सीखने की)",
+      "pron": "लö पाग़-कूग़",
+      "ipa": "lə paʁkuʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "parcours"
+    },
+    {
+      "fr": "l'acquis",
+      "en": "what has been learned, achievement",
+      "hi": "जो सीख लिया गया / उपलब्धि",
+      "pron": "ला-की",
+      "ipa": "laki",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "acquis"
+    },
+    {
+      "fr": "le rapport",
+      "en": "report",
+      "hi": "रिपोर्ट / ब्योरा",
+      "pron": "लö ग़ा-पोग़",
+      "ipa": "lə ʁapɔʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "rapport"
+    },
+    {
+      "fr": "les transports en commun",
+      "en": "public transport",
+      "hi": "सार्वजनिक परिवहन",
+      "pron": "ले त्ग़ाँस-पोग़ आँ को-मैँ",
+      "ipa": "le tʁɑ̃spɔʁ ɑ̃ kɔmɛ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "transport"
+    },
+    {
+      "fr": "gratuit",
+      "en": "free (of charge)",
+      "hi": "मुफ़्त",
+      "pron": "ग्ग़ा-तüइ",
+      "ipa": "ɡʁatɥi",
+      "pos": "adjective"
+    },
+    {
+      "fr": "l'abonnement",
+      "en": "pass, subscription",
+      "hi": "पास / सदस्यता",
+      "pron": "ला-बॉन-माँ",
+      "ipa": "labɔnmɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "abonnement"
+    },
+    {
+      "fr": "la fréquentation",
+      "en": "ridership, number of users",
+      "hi": "इस्तेमाल करने वालों की संख्या",
+      "pron": "ला फ़्ग़े-काँ-ता-स्योँ",
+      "ipa": "la fʁekɑ̃tasjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "fréquentation"
+    },
+    {
+      "fr": "financer",
+      "en": "to fund",
+      "hi": "पैसा जुटाना / वित्त देना",
+      "pron": "फ़ी-ना-से",
+      "ipa": "finɑ̃se",
+      "pos": "verb"
+    },
+    {
+      "fr": "continuer à",
+      "en": "to keep on, to continue",
+      "hi": "जारी रखना",
+      "pron": "कोँ-ती-नü-ए आ",
+      "ipa": "kɔ̃tinɥe a",
+      "pos": "verb"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "J'ai fait beaucoup de chemin depuis le premier jour.",
+      "en": "I've come a long way since the first day.",
+      "hi": "पहले दिन से अब तक मैंने लंबा सफ़र तय किया है।",
+      "pron": "झ़े फ़ै बो-कू द श-मैँ द-प्üइ लö प्ग़ö-म्ये झ़ूग़"
+    },
+    {
+      "fr": "Mon point fort, c'est …",
+      "en": "My strong point is …",
+      "hi": "मेरा मज़बूत पहलू है …",
+      "pron": "मोँ प्वैँ फ़ोग़ सै"
+    },
+    {
+      "fr": "Je vais continuer à travailler …",
+      "en": "I'm going to keep working on …",
+      "hi": "मैं … पर काम जारी रखूँगा / रखूँगी",
+      "pron": "झ़ö वै कोँ-ती-नü-ए आ त्ग़ा-वा-ये"
+    },
+    {
+      "fr": "Je me sens prêt à faire de mon mieux.",
+      "en": "I feel ready to do my best.",
+      "hi": "मैं अपना सबसे अच्छा करने के लिए तैयार महसूस करता / करती हूँ।",
+      "pron": "झ़ö मö साँ प्ग़ै आ फ़ैग़ दö मोँ म्यö"
+    },
+    {
+      "fr": "Ce rapport m'aide à choisir mes priorités.",
+      "en": "This report helps me choose my priorities.",
+      "hi": "यह रिपोर्ट मुझे अपनी प्राथमिकताएँ चुनने में मदद करती है।",
+      "pron": "सö ग़ा-पोग़ मैद आ श्वा-ज़ीग़ मे प्ग़ी-यो-ग़ी-ते"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Final checkpoint: the course's key structures, and how to read your readiness report",
+      "hi": "आख़िरी पड़ाव: कोर्स के मुख्य ढाँचे, और अपनी तैयारी-रिपोर्ट कैसे पढ़ें"
+    },
+    "explanation": {
+      "en": "Today's assessment draws on the whole course. Check yourself on the structures that carry most of your exam French: être and avoir in the present (je suis, j'ai); numbers, including 70–99 (soixante-dix, quatre-vingts, quatre-vingt-dix); the passé composé with avoir or être, with agreement after être (elle est arrivée); the imparfait for description and habits (quand j'étais petit, je jouais…); the futur simple (j'appellerai) and the futur proche (je vais appeler); the polite conditional (je voudrais, pourriez-vous) and the conditional for opinions (les transports devraient être gratuits); il faut que + subjunctive (il faut que tu viennes); the relative pronouns qui, que and où; object pronouns before the verb (je l'ai vu); depuis + present. Your readiness report, built by the app from your data, will show each skill — reading, listening, writing, speaking — with your results over time, the error types that came back most often, and the days worth revisiting. Read it in three steps: first, what has improved (your acquis); second, the one or two areas that remain weakest; third, a short plan for the coming days. It is a learning tool, not an official score: only the real test, under its own scoring rules, gives a result.",
+      "hi": "आज की परीक्षा पूरे कोर्स से ली गई है। उन ढाँचों पर ख़ुद को जाँचिए जिन पर आपकी परीक्षा वाली फ़्रेंच सबसे ज़्यादा टिकी है: वर्तमान काल में être और avoir (je suis, j'ai); संख्याएँ, 70–99 समेत (soixante-dix, quatre-vingts, quatre-vingt-dix); avoir या être के साथ passé composé, être के बाद मेल के साथ (elle est arrivée); वर्णन और आदतों के लिए imparfait (quand j'étais petit, je jouais…); futur simple (j'appellerai) और futur proche (je vais appeler); शिष्ट संभावनार्थ (je voudrais, pourriez-vous) और राय के लिए संभावनार्थ (les transports devraient être gratuits); il faut que + subjonctif (il faut que tu viennes); संबंधवाचक सर्वनाम qui, que और où; क्रिया से पहले कर्म सर्वनाम (je l'ai vu); depuis + वर्तमान काल। आपकी तैयारी-रिपोर्ट, जिसे ऐप आपके डेटा से बनाता है, हर कौशल — पढ़ना, सुनना, लिखना, बोलना — में समय के साथ आपके नतीजे, सबसे ज़्यादा लौटने वाली ग़लतियों के प्रकार, और दोबारा देखने लायक़ दिन दिखाएगी। इसे तीन क़दमों में पढ़िए: पहले, क्या बेहतर हुआ (आपका acquis); दूसरे, सबसे कमज़ोर बचे एक या दो क्षेत्र; तीसरे, आने वाले दिनों की छोटी योजना। यह सीखने का साधन है, आधिकारिक अंक नहीं: नतीजा सिर्फ़ असली परीक्षा, अपने अंकन-नियमों के साथ, देती है।"
+    },
+    "comparison": {
+      "en": "Like a health check-up report, the readiness report is useful because it shows trends and priorities — not because it gives one magic number.",
+      "hi": "स्वास्थ्य-जाँच की रिपोर्ट की तरह, तैयारी-रिपोर्ट इसलिए काम की है क्योंकि वह रुझान और प्राथमिकताएँ दिखाती है — इसलिए नहीं कि वह कोई जादुई संख्या देती है।"
+    },
+    "examples": [
+      {
+        "fr": "Quand je suis arrivée, je ne comprenais presque rien.",
+        "en": "When I arrived, I understood almost nothing.",
+        "hi": "जब मैं आई थी, मुझे लगभग कुछ भी समझ नहीं आता था।",
+        "pron": "काँ झ़ö सüइ ज़ा-ग़ी-वे झ़ö नö कोँ-प्ग़ö-नै प्ग़ैस-क ग़्यैँ"
+      },
+      {
+        "fr": "Il faut que je continue à écouter la radio tous les jours.",
+        "en": "I need to keep listening to the radio every day.",
+        "hi": "मुझे रोज़ रेडियो सुनना जारी रखना है।",
+        "pron": "ईल फ़ो कö झ़ö कोँ-ती-नü आ ए-कू-ते ला ग़ा-द्यो तू ले झ़ूग़"
+      },
+      {
+        "fr": "C'est la ville où j'habite depuis trois ans.",
+        "en": "It's the city where I've lived for three years.",
+        "hi": "यह वह शहर है जहाँ मैं तीन साल से रह रहा / रही हूँ।",
+        "pron": "सै ला वील ऊ झ़ा-बीत द-प्üइ त्ग़्वा ज़ाँ"
+      },
+      {
+        "fr": "À mon avis, les transports en commun devraient être gratuits.",
+        "en": "In my opinion, public transport should be free.",
+        "hi": "मेरी राय में, सार्वजनिक परिवहन मुफ़्त होना चाहिए।",
+        "pron": "आ मोँ ना-वी ले त्ग़ाँस-पोग़ आँ को-मैँ द-व्ग़ै ऐत्ग़ ग्ग़ा-तüइ"
+      },
+      {
+        "fr": "Je l'appellerai demain pour lui donner la réponse.",
+        "en": "I'll call him tomorrow to give him the answer.",
+        "hi": "मैं कल उसे जवाब देने के लिए फ़ोन करूँगा / करूँगी।",
+        "pron": "झ़ö ला-पै-ल-ग़े द-मैँ पूग़ लüइ दो-ने ला ग़े-पोँस"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Don't read the report as a verdict. A weaker skill is simply where your next hours of practice are most useful.",
+        "hi": "रिपोर्ट को फ़ैसला मत समझिए। कमज़ोर कौशल बस वह जगह है जहाँ आपके अगले घंटों का अभ्यास सबसे ज़्यादा काम आएगा।"
+      },
+      {
+        "en": "Quatre-vingts takes an s, but quatre-vingt-dix and quatre-vingt-trois do not.",
+        "hi": "Quatre-vingts में s लगता है, लेकिन quatre-vingt-dix और quatre-vingt-trois में नहीं।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Course sound review: the six sound families of the course",
+    "tip": {
+      "en": "One word for each family you have worked on: u vs ou, the three nasals, the French r, é vs è, the silent final consonants, and liaison. Say the six words in a row, slowly and then naturally, and compare with your recordings from the first weeks.",
+      "hi": "जिन ध्वनि-परिवारों पर आपने काम किया, हर एक के लिए एक शब्द: u और ou, तीनों नासिक ध्वनियाँ, फ़्रेंच r, é और è, अंत के मूक व्यंजन, और liaison। छहों शब्द एक के बाद एक, पहले धीरे फिर स्वाभाविक रूप से बोलिए, और शुरुआती हफ़्तों की अपनी रिकॉर्डिंग से तुलना कीजिए।"
+    },
+    "words": [
+      {
+        "fr": "tu / tout",
+        "en": "you / all",
+        "hi": "तुम / सब",
+        "pron": "तü / तू",
+        "ipa": "ty / tu"
+      },
+      {
+        "fr": "bonjour, enfin, un an",
+        "en": "hello, finally, one year",
+        "hi": "नमस्ते, आख़िरकार, एक साल",
+        "pron": "बोँ-झ़ूग़ आँ-फ़ैँ ऐँ नाँ",
+        "ipa": "bɔ̃ʒuʁ ɑ̃fɛ̃ ɛ̃n‿ɑ̃"
+      },
+      {
+        "fr": "Paris",
+        "en": "Paris",
+        "hi": "पेरिस",
+        "pron": "पा-ग़ी",
+        "ipa": "paʁi"
+      },
+      {
+        "fr": "été / très",
+        "en": "summer / very",
+        "hi": "गर्मी / बहुत",
+        "pron": "ए-ते / त्ग़ै",
+        "ipa": "ete / tʁɛ"
+      },
+      {
+        "fr": "petit",
+        "en": "small",
+        "hi": "छोटा",
+        "pron": "प-ती",
+        "ipa": "pəti"
+      },
+      {
+        "fr": "les amis",
+        "en": "the friends",
+        "hi": "दोस्त",
+        "pron": "ले ज़ा-मी",
+        "ipa": "le‿zami"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Apprendre une langue à l'âge adulte",
+      "en": "Learning a language as an adult"
+    },
+    "type": "interview",
+    "mode": "natural",
+    "context": {
+      "en": "A final mixed listening, TEF-like: a local radio interview with Claire Dubois, a teacher of French to adult newcomers. Listen once, as in the test.",
+      "hi": "TEF जैसा एक आख़िरी मिला-जुला सुनने का अभ्यास: वयस्क नवागंतुकों को फ़्रेंच सिखाने वाली शिक्षिका क्लैर दुबुआ के साथ एक स्थानीय रेडियो इंटरव्यू। परीक्षा की तरह एक बार सुनिए।"
+    },
+    "lines": [
+      {
+        "speaker": "Animateur",
+        "voice": "m1",
+        "fr": "Claire Dubois, vous enseignez le français aux adultes depuis quinze ans. Est-ce qu'il est plus difficile d'apprendre une langue à quarante ans qu'à dix ans ?",
+        "en": "Claire Dubois, you've been teaching French to adults for fifteen years. Is it harder to learn a language at forty than at ten?",
+        "hi": "क्लैर दुबुआ, आप पंद्रह साल से वयस्कों को फ़्रेंच पढ़ा रही हैं। क्या दस साल की उम्र के मुक़ाबले चालीस की उम्र में भाषा सीखना ज़्यादा मुश्किल है?"
+      },
+      {
+        "speaker": "Claire",
+        "voice": "f2",
+        "fr": "C'est différent, plutôt que plus difficile. Les enfants imitent mieux les sons, c'est vrai. Mais les adultes ont un grand avantage : ils savent pourquoi ils apprennent.",
+        "en": "It's different rather than harder. Children imitate sounds better, it's true. But adults have a big advantage: they know why they are learning.",
+        "hi": "यह ज़्यादा मुश्किल नहीं, बल्कि अलग है। यह सच है कि बच्चे ध्वनियों की नक़ल बेहतर करते हैं। लेकिन वयस्कों के पास एक बड़ा फ़ायदा है: वे जानते हैं कि वे क्यों सीख रहे हैं।"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m1",
+        "fr": "Qu'est-ce qui fait la différence, selon vous, entre ceux qui progressent vite et les autres ?",
+        "en": "What makes the difference, in your view, between those who progress quickly and the others?",
+        "hi": "आपकी राय में, जल्दी प्रगति करने वालों और बाक़ी लोगों के बीच फ़र्क़ किस बात से पड़ता है?"
+      },
+      {
+        "speaker": "Claire",
+        "voice": "f2",
+        "fr": "La régularité, sans hésiter. Une demi-heure par jour vaut mieux que quatre heures le dimanche. Et il faut accepter de faire des erreurs : on n'apprend pas à nager sans se mouiller.",
+        "en": "Regularity, without hesitation. Half an hour a day is better than four hours on Sunday. And you have to accept making mistakes: you don't learn to swim without getting wet.",
+        "hi": "नियमितता, बिना किसी शक के। रोज़ आधा घंटा रविवार के चार घंटों से बेहतर है। और ग़लतियाँ करना स्वीकार करना पड़ता है: भीगे बिना तैरना नहीं सीखा जाता।"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m1",
+        "fr": "Beaucoup de vos élèves préparent un test officiel. Quel conseil leur donnez-vous pour les derniers jours ?",
+        "en": "Many of your students are preparing for an official test. What advice do you give them for the last days?",
+        "hi": "आपके कई विद्यार्थी किसी आधिकारिक परीक्षा की तैयारी कर रहे हैं। आख़िरी दिनों के लिए आप उन्हें क्या सलाह देती हैं?"
+      },
+      {
+        "speaker": "Claire",
+        "voice": "f2",
+        "fr": "De ne pas tout réviser. Ils relisent leurs notes, ils dorment bien, et ils se rappellent le chemin parcouru. Le jour du test, je leur dis : « Vous n'avez rien à prouver à personne, montrez simplement ce que vous savez faire. »",
+        "en": "Not to revise everything. They reread their notes, they sleep well, and they remember how far they've come. On test day, I tell them: 'You have nothing to prove to anyone, simply show what you can do.'",
+        "hi": "सब कुछ न दोहराएँ। वे अपने नोट्स दोबारा पढ़ते हैं, अच्छी नींद लेते हैं, और याद करते हैं कि उन्होंने कितना सफ़र तय किया है। परीक्षा के दिन मैं उनसे कहती हूँ: 'आपको किसी को कुछ साबित नहीं करना, बस वह दिखाइए जो आप कर सकते हैं।'"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m1",
+        "fr": "Et après le test ?",
+        "en": "And after the test?",
+        "hi": "और परीक्षा के बाद?"
+      },
+      {
+        "speaker": "Claire",
+        "voice": "f2",
+        "fr": "Après, on continue ! Une langue, ce n'est pas un examen, c'est une porte vers les gens. Mes anciens élèves viennent souvent me dire qu'ils regardent maintenant des films québécois sans sous-titres.",
+        "en": "Afterwards, you keep going! A language isn't an exam, it's a door to people. My former students often come and tell me that they now watch Québec films without subtitles.",
+        "hi": "बाद में, सीखना जारी रहता है! भाषा कोई परीक्षा नहीं, लोगों तक पहुँचने का दरवाज़ा है। मेरे पुराने विद्यार्थी अक्सर आकर बताते हैं कि अब वे बिना सबटाइटल के क्यूबेक की फ़िल्में देखते हैं।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "According to Claire, learning as an adult is…"
+        },
+        "options": [
+          "impossible",
+          "different rather than harder",
+          "much easier than as a child",
+          "only possible with a teacher"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'C'est différent, plutôt que plus difficile.'",
+          "hi": "'C'est différent, plutôt que plus difficile' — मुश्किल नहीं, अलग।"
+        },
+        "kind": "literal",
+        "evidence": "C'est différent, plutôt que plus difficile."
+      },
+      {
+        "q": {
+          "en": "What advantage do adults have?"
+        },
+        "options": [
+          "They imitate sounds better",
+          "They have more free time",
+          "They know why they are learning",
+          "They make fewer mistakes"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Ils savent pourquoi ils apprennent.' Imitating sounds is the children's advantage.",
+          "hi": "'Ils savent pourquoi ils apprennent' — ध्वनियों की नक़ल तो बच्चों का फ़ायदा है।"
+        },
+        "kind": "literal",
+        "evidence": "ils savent pourquoi ils apprennent"
+      },
+      {
+        "q": {
+          "en": "What does she mean by 'on n'apprend pas à nager sans se mouiller'?"
+        },
+        "options": [
+          "You should take swimming lessons",
+          "You have to accept making mistakes to learn",
+          "Learning is dangerous",
+          "You should study near water"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "The image follows 'il faut accepter de faire des erreurs'.",
+          "hi": "यह उदाहरण 'il faut accepter de faire des erreurs' के बाद आता है — ग़लतियाँ स्वीकार कीजिए।"
+        },
+        "kind": "inference",
+        "evidence": "il faut accepter de faire des erreurs"
+      },
+      {
+        "q": {
+          "en": "Which study habit does she recommend?"
+        },
+        "options": [
+          "Half an hour every day",
+          "Four hours every Sunday",
+          "One full day a month",
+          "Only before the test"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Une demi-heure par jour vaut mieux que quatre heures le dimanche.'",
+          "hi": "रोज़ आधा घंटा, रविवार के चार घंटों से बेहतर।"
+        },
+        "kind": "literal",
+        "evidence": "Une demi-heure par jour vaut mieux que quatre heures le dimanche."
+      },
+      {
+        "q": {
+          "en": "What does she advise for the last days before a test?"
+        },
+        "options": [
+          "Revise everything",
+          "Stop studying completely for a month",
+          "Not revise everything, sleep well, remember the progress made",
+          "Take extra classes"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'De ne pas tout réviser… ils dorment bien… le chemin parcouru.'",
+          "hi": "सब कुछ न दोहराएँ, अच्छी नींद लें, तय किया सफ़र याद करें।"
+        },
+        "kind": "gist",
+        "evidence": "De ne pas tout réviser."
+      },
+      {
+        "q": {
+          "en": "What do her former students often tell her?"
+        },
+        "options": [
+          "They have stopped speaking French",
+          "They have become teachers",
+          "They have moved to France",
+          "They watch Québec films without subtitles"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Ils regardent maintenant des films québécois sans sous-titres.'",
+          "hi": "अब वे बिना सबटाइटल के क्यूबेक की फ़िल्में देखते हैं।"
+        },
+        "kind": "literal",
+        "evidence": "ils regardent maintenant des films québécois sans sous-titres"
+      }
+    ],
+    "dictation": [
+      "Une demi-heure par jour vaut mieux que quatre heures le dimanche.",
+      "Une langue, ce n'est pas un examen, c'est une porte vers les gens."
+    ],
+    "gapFill": {
+      "text": "La ___, sans hésiter. Ils se rappellent le chemin ___.",
+      "answers": [
+        "régularité",
+        "parcouru"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "tef_b",
+    "focusSound": "Clear nasals: gratuit, transport, commun",
+    "instructions": {
+      "en": "Final speaking sample, recorded for your readiness report. Section A (5 minutes): call the information line about the advertisement below and ask about ten questions it does not answer. Section B (10 minutes): present the same advertisement to a friend who prefers to drive, and convince them to try the bus, answering each objection. Record both and keep them with your first recordings.",
+      "hi": "बोलने का आख़िरी नमूना, आपकी तैयारी-रिपोर्ट के लिए रिकॉर्ड किया गया। खंड A (5 मिनट): नीचे के विज्ञापन के बारे में सूचना-लाइन पर फ़ोन कीजिए और लगभग दस ऐसे प्रश्न पूछिए जिनका जवाब उसमें नहीं है। खंड B (10 मिनट): यही विज्ञापन एक ऐसे दोस्त को बताइए जो गाड़ी चलाना पसंद करता है, और हर आपत्ति का जवाब देते हुए उसे बस आज़माने के लिए मनाइए। दोनों रिकॉर्ड कीजिए और अपनी पहली रिकॉर्डिंग के साथ रखिए।"
+    },
+    "scenario": {
+      "setting": {
+        "en": "Advertisement: « Saint-Aurèle : l'autobus devient gratuit ! Dès le 1er septembre, toutes les lignes urbaines sont gratuites pour les résidents. Carte de résident obligatoire. Infos : 555-0124. »",
+        "hi": "विज्ञापन: « Saint-Aurèle : l'autobus devient gratuit ! Dès le 1er septembre, toutes les lignes urbaines sont gratuites pour les résidents. Carte de résident obligatoire. Infos : 555-0124. »"
+      },
+      "learnerRole": {
+        "en": "A: a resident calling for information. B: a friend who uses the bus and wants to convince a driver.",
+        "hi": "A: जानकारी के लिए फ़ोन करने वाला निवासी। B: बस इस्तेमाल करने वाला दोस्त जो गाड़ी चलाने वाले को मनाना चाहता है।"
+      },
+      "partnerRole": {
+        "en": "A: the information line agent. B: a friend who drives everywhere and finds the bus slow and unreliable.",
+        "hi": "A: सूचना-लाइन का कर्मचारी। B: हर जगह गाड़ी से जाने वाला दोस्त जिसे बस धीमी और भरोसे लायक़ नहीं लगती।"
+      },
+      "goals": [
+        {
+          "en": "A: ask about ten varied questions (card, frequency, hours, lines, visitors, bikes…).",
+          "hi": "A: लगभग दस अलग-अलग प्रश्न पूछिए (कार्ड, बारंबारता, समय, लाइनें, मेहमान, साइकिलें…)।"
+        },
+        {
+          "en": "B: present the ad in three points and answer at least four objections with different arguments.",
+          "hi": "B: विज्ञापन को तीन बिंदुओं में बताइए और अलग-अलग तर्कों से कम से कम चार आपत्तियों का जवाब दीजिए।"
+        },
+        {
+          "en": "Use at least three phrases from your phrase bank and avoid your two recurring errors.",
+          "hi": "अपने वाक्य-भंडार के कम से कम तीन वाक्य इस्तेमाल कीजिए और अपनी दो बार-बार की ग़लतियों से बचिए।"
+        }
+      ]
+    },
+    "prompts": [
+      {
+        "fr": "Bonjour, je vous appelle au sujet de l'autobus gratuit. Comment est-ce qu'on obtient la carte de résident ?",
+        "en": "Hello, I'm calling about the free bus. How do you get the resident card?",
+        "hi": "नमस्ते, मैं मुफ़्त बस के बारे में फ़ोन कर रहा / रही हूँ। निवासी कार्ड कैसे मिलता है?",
+        "pron": "बोँ-झ़ूग़ झ़ö वू ज़ा-पैल ओ सü-झ़े दö लो-तो-बüस ग्ग़ा-तüइ को-माँ ऐस कोँ नॉप-त्यैँ ला काग़्त दö ग़े-ज़ी-दाँ",
+        "model": "Bonjour, je vous appelle au sujet de l'autobus gratuit. Comment est-ce qu'on obtient la carte de résident ? Est-ce qu'il faut une preuve d'adresse ? Et je voudrais savoir si la carte est valable aussi pour mes enfants."
+      },
+      {
+        "fr": "Je voudrais savoir si les visiteurs doivent payer.",
+        "en": "I'd like to know if visitors have to pay.",
+        "hi": "मैं जानना चाहता / चाहती हूँ कि मेहमानों को पैसे देने होंगे या नहीं।",
+        "pron": "झ़ö वू-द्ग़ै सा-वाग़ सी ले वी-ज़ी-तöग़ द्वाव पे-ये"
+      },
+      {
+        "fr": "Regarde cette annonce : à partir de septembre, le bus est gratuit pour nous.",
+        "en": "Look at this ad: from September, the bus is free for us.",
+        "hi": "यह विज्ञापन देखो: सितंबर से बस हमारे लिए मुफ़्त है।",
+        "pron": "ग़ö-गाग़्द सैत आ-नोँस आ पाग़-तीग़ दö सैप-ताँब्ग़ लö बüस ऐ ग्ग़ा-तüइ पूग़ नू"
+      },
+      {
+        "fr": "Je te comprends, mais justement, tu n'auras plus à chercher une place de stationnement.",
+        "en": "I understand, but that's exactly it: you won't have to look for a parking space any more.",
+        "hi": "मैं तुम्हें समझता / समझती हूँ, पर बात यही है, तुम्हें अब पार्किंग की जगह नहीं ढूँढनी पड़ेगी।",
+        "pron": "झ़ö तö कोँ-प्ग़ाँ मै झ़üस-त-माँ तü नो-ग़ा प्लü ज़ा शैग़-शे üन प्लास दö स्ता-स्यॉन-माँ",
+        "model": "Je te comprends, le bus est parfois plus lent. Mais justement, tu n'auras plus à chercher une place de stationnement ni à payer l'essence. Et pendant le trajet, tu peux lire ou te reposer."
+      },
+      {
+        "fr": "Essaie juste une semaine, et après, tu décides.",
+        "en": "Just try it for a week, and then you decide.",
+        "hi": "बस एक हफ़्ता आज़माकर देखो, फिर फ़ैसला करना।",
+        "pron": "ए-सै झ़üस्त üन स-मैन ए आ-प्ग़ै तü दे-सीद"
+      }
+    ],
+    "tip": {
+      "en": "Listen to your first recordings from the start of the course before you record today. Whatever your report says, hearing the difference is the clearest sign of the work you have done.",
+      "hi": "आज रिकॉर्ड करने से पहले कोर्स की शुरुआत की अपनी पहली रिकॉर्डिंग सुनिए। रिपोर्ट चाहे जो कहे, फ़र्क़ सुनना आपकी मेहनत का सबसे साफ़ सबूत है।"
+    }
+  },
+  "reading": {
+    "genre": "article",
+    "title": "Autobus gratuit : un an après, Saint-Aurèle fait le bilan",
+    "text": "Il y a un an, la petite ville de Saint-Aurèle rendait ses autobus gratuits pour tous les résidents. L'objectif était double : réduire la circulation au centre-ville et aider les familles à faible revenu. Douze mois plus tard, la municipalité a publié un premier bilan.\n\nLes chiffres sont encourageants. La fréquentation a augmenté de 35 %, surtout chez les étudiants et les personnes âgées. « Avant, je dépensais près de quatre-vingt-dix dollars par mois pour mon abonnement, explique Mme Leblanc, retraitée. Maintenant, je vais voir mes petits-enfants deux fois par semaine au lieu d'une. »\n\nPourtant, la circulation automobile, elle, n'a presque pas diminué. Selon un spécialiste des transports interrogé par le journal, la gratuité attire surtout des personnes qui marchaient ou utilisaient déjà le vélo, et pas forcément les automobilistes. « Pour convaincre ceux qui conduisent, il faut d'abord des autobus plus fréquents et plus rapides », affirme-t-il.\n\nAutre difficulté : le coût. La gratuité est financée par une hausse de 2 % de l'impôt foncier, ce qui ne plaît pas à tout le monde. Certains propriétaires estiment qu'ils paient pour un service qu'ils n'utilisent jamais.\n\nLe maire reste optimiste. Il annonce deux nouvelles lignes et un autobus toutes les dix minutes aux heures de pointe dès l'automne prochain. « La gratuité n'est pas une solution magique, reconnaît-il, mais c'est un premier pas. Nous continuerons à l'améliorer. »\n\nLes citoyens sont invités à donner leur avis lors d'une consultation publique le 12 mars, à l'hôtel de ville.",
+    "translation": {
+      "en": "A year ago, the small town of Saint-Aurèle made its buses free for all residents. The aim was twofold: reduce traffic in the town centre and help low-income families. Twelve months later, the municipality has published a first review.\n\nThe figures are encouraging. Ridership has risen by 35%, especially among students and older people. 'Before, I spent nearly ninety dollars a month on my pass,' explains Mrs Leblanc, a retiree. 'Now I go to see my grandchildren twice a week instead of once.'\n\nHowever, car traffic has hardly decreased. According to a transport specialist interviewed by the newspaper, free fares mainly attract people who already walked or cycled, and not necessarily drivers. 'To convince those who drive, you first need more frequent and faster buses,' he says.\n\nAnother difficulty: the cost. Free transport is funded by a 2% increase in property tax, which doesn't please everyone. Some homeowners feel that they are paying for a service they never use.\n\nThe mayor remains optimistic. He is announcing two new lines and a bus every ten minutes at rush hour from next autumn. 'Free fares are not a magic solution,' he admits, 'but it's a first step. We will keep improving it.'\n\nCitizens are invited to give their opinion at a public consultation on 12 March, at the town hall.",
+      "hi": "एक साल पहले, सँ-ओरेल नाम के छोटे शहर ने अपनी बसें सभी निवासियों के लिए मुफ़्त कर दीं। लक्ष्य दोहरा था: शहर के बीच में यातायात कम करना और कम आमदनी वाले परिवारों की मदद करना। बारह महीने बाद, नगरपालिका ने पहली समीक्षा प्रकाशित की है।\n\nआँकड़े उत्साह बढ़ाने वाले हैं। यात्रियों की संख्या 35% बढ़ी है, ख़ासकर विद्यार्थियों और बुज़ुर्गों में। 'पहले मैं अपने पास पर महीने के लगभग नब्बे डॉलर ख़र्च करती थी,' सेवानिवृत्त श्रीमती लब्लाँ बताती हैं। 'अब मैं अपने नाती-पोतों से हफ़्ते में एक बार की जगह दो बार मिलने जाती हूँ।'\n\nफिर भी, गाड़ियों का यातायात लगभग कम नहीं हुआ है। अख़बार से बात करने वाले परिवहन के एक विशेषज्ञ के अनुसार, मुफ़्त सेवा ज़्यादातर उन लोगों को आकर्षित करती है जो पहले से पैदल चलते थे या साइकिल चलाते थे, न कि ज़रूरी तौर पर गाड़ी चलाने वालों को। 'गाड़ी चलाने वालों को मनाने के लिए पहले ज़्यादा बार आने वाली और तेज़ बसें चाहिए,' वे कहते हैं।\n\nएक और मुश्किल: ख़र्च। मुफ़्त सेवा का पैसा संपत्ति-कर में 2% की बढ़ोतरी से आता है, जो सबको पसंद नहीं। कुछ मकान-मालिकों को लगता है कि वे ऐसी सेवा के लिए पैसे दे रहे हैं जिसका वे कभी इस्तेमाल नहीं करते।\n\nमहापौर आशावादी हैं। वे अगले पतझड़ से दो नई लाइनें और भीड़ के समय हर दस मिनट पर एक बस की घोषणा कर रहे हैं। 'मुफ़्त सेवा कोई जादुई हल नहीं है,' वे मानते हैं, 'लेकिन यह पहला क़दम है। हम इसे बेहतर बनाते रहेंगे।'\n\nनागरिकों को 12 मार्च को नगर भवन में एक सार्वजनिक परामर्श में अपनी राय देने के लिए बुलाया गया है।"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "What were the two aims of free buses?"
+        },
+        "options": [
+          "Reduce traffic and help low-income families",
+          "Save money and build roads",
+          "Attract tourists and students",
+          "Reduce taxes and create jobs"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Réduire la circulation au centre-ville et aider les familles à faible revenu.'",
+          "hi": "शहर के बीच यातायात कम करना और कम आमदनी वाले परिवारों की मदद करना।"
+        },
+        "kind": "literal",
+        "evidence": "réduire la circulation au centre-ville et aider les familles à faible revenu"
+      },
+      {
+        "q": {
+          "en": "How has Mrs Leblanc's life changed?"
+        },
+        "options": [
+          "She has bought a car",
+          "She visits her grandchildren more often",
+          "She pays more taxes",
+          "She has moved"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Je vais voir mes petits-enfants deux fois par semaine au lieu d'une.'",
+          "hi": "वह अपने नाती-पोतों से हफ़्ते में दो बार मिलती है, पहले एक बार।"
+        },
+        "kind": "inference",
+        "evidence": "deux fois par semaine au lieu d'une"
+      },
+      {
+        "q": {
+          "en": "Why has car traffic hardly decreased, according to the specialist?"
+        },
+        "options": [
+          "Buses are too expensive",
+          "There are no buses in the centre",
+          "Drivers don't know about it",
+          "Free buses mainly attract people who walked or cycled"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'La gratuité attire surtout des personnes qui marchaient ou utilisaient déjà le vélo.'",
+          "hi": "मुफ़्त सेवा ज़्यादातर पहले से पैदल या साइकिल से चलने वालों को आकर्षित करती है।"
+        },
+        "kind": "literal",
+        "evidence": "la gratuité attire surtout des personnes qui marchaient ou utilisaient déjà le vélo"
+      },
+      {
+        "q": {
+          "en": "How is free transport funded?"
+        },
+        "options": [
+          "By a federal grant",
+          "By a 2% property-tax increase",
+          "By advertising on buses",
+          "By fines"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Financée par une hausse de 2 % de l'impôt foncier.'",
+          "hi": "संपत्ति-कर में 2% की बढ़ोतरी से।"
+        },
+        "kind": "literal",
+        "evidence": "financée par une hausse de 2 % de l'impôt foncier"
+      },
+      {
+        "q": {
+          "en": "What is the mayor's attitude?"
+        },
+        "options": [
+          "He wants to cancel the project",
+          "He thinks it's a perfect solution",
+          "Optimistic but realistic: a first step to improve",
+          "Indifferent"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Pas une solution magique… mais c'est un premier pas.'",
+          "hi": "'Pas une solution magique… mais c'est un premier pas' — आशावादी पर व्यावहारिक।"
+        },
+        "kind": "inference",
+        "evidence": "La gratuité n'est pas une solution magique"
+      },
+      {
+        "q": {
+          "en": "What can citizens do on 12 March?"
+        },
+        "options": [
+          "Give their opinion at a public consultation",
+          "Ride the new lines",
+          "Vote for a new mayor",
+          "Get their resident card"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Les citoyens sont invités à donner leur avis lors d'une consultation publique le 12 mars.'",
+          "hi": "12 मार्च को सार्वजनिक परामर्श में राय दे सकते हैं।"
+        },
+        "kind": "literal",
+        "evidence": "donner leur avis lors d'une consultation publique le 12 mars"
+      }
+    ]
+  },
+  "writing": {
+    "type": "opinion_letter",
+    "prompt": {
+      "en": "Final writing sample (section B format, 35 minutes): write a letter to a newspaper giving your opinion on the statement below. At least 200 words, with three developed arguments, an example for each, and an answer to one counter-argument. Keep this text for your readiness report and compare it with your first opinion texts.",
+      "hi": "लिखने का आख़िरी नमूना (खंड B का प्रारूप, 35 मिनट): नीचे के कथन पर अपनी राय देते हुए अख़बार को एक पत्र लिखिए। कम से कम 200 शब्द, तीन विकसित तर्कों के साथ, हर एक का उदाहरण, और एक विरोधी तर्क का जवाब। यह लेख अपनी तैयारी-रिपोर्ट के लिए रखिए और अपने पहले राय-लेखों से इसकी तुलना कीजिए।",
+      "fr": "« Les transports en commun devraient être gratuits pour tous. »"
+    },
+    "minWords": 200,
+    "maxWords": 300,
+    "hints": [
+      {
+        "en": "Plan for five minutes: position, three arguments with examples, one counter-argument, conclusion.",
+        "hi": "पाँच मिनट योजना: राय, उदाहरणों के साथ तीन तर्क, एक विरोधी तर्क, निष्कर्ष।"
+      },
+      {
+        "en": "You may use ideas from the Saint-Aurèle article, but in your own words.",
+        "hi": "आप सँ-ओरेल वाले लेख के विचार इस्तेमाल कर सकते हैं, लेकिन अपने शब्दों में।"
+      },
+      {
+        "en": "Keep five minutes to check agreements, verb endings and your two recurring errors.",
+        "hi": "लिंग-वचन मेल, क्रिया के अंत और अपनी दो बार-बार की ग़लतियाँ जाँचने के लिए पाँच मिनट रखिए।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Je suis tout à fait favorable à …",
+        "en": "I am entirely in favour of …",
+        "hi": "मैं … के पूरी तरह पक्ष में हूँ",
+        "pron": "झ़ö सüइ तू ता फ़ै फ़ा-वो-ग़ाब्ल आ"
+      },
+      {
+        "fr": "Certes, … mais …",
+        "en": "Admittedly, … but …",
+        "hi": "माना कि …, लेकिन …",
+        "pron": "सैग़्त मै"
+      },
+      {
+        "fr": "C'est pourquoi …",
+        "en": "That is why …",
+        "hi": "इसीलिए …",
+        "pron": "सै पूग़-क्वा"
+      }
+    ],
+    "model": {
+      "fr": "Madame, Monsieur,\n\nDans votre édition de samedi, vous posez la question de la gratuité des transports en commun. Je suis tout à fait favorable à cette idée, pour trois raisons.\n\nD'abord, la gratuité aide les personnes qui ont peu de moyens. Un abonnement mensuel coûte souvent près de cent dollars, ce qui représente une grosse dépense pour un étudiant ou une famille à faible revenu. Sans ce coût, ils pourraient se déplacer plus facilement pour travailler, étudier ou voir leurs proches.\n\nDe plus, des autobus gratuits encourageraient une partie des habitants à laisser leur voiture à la maison. Moins de voitures, c'est moins d'embouteillages et un air plus propre, ce qui profite à tout le monde, même aux automobilistes.\n\nEnfin, la gratuité simplifie la vie de chacun : plus besoin de chercher de la monnaie ou de recharger une carte. Les nouveaux arrivants, en particulier, découvriraient leur ville plus vite.\n\nCertes, ce service n'est pas vraiment gratuit : il faut le financer par les impôts. Mais nous payons déjà les routes, même quand nous ne conduisons pas. C'est pourquoi un transport public accessible à tous me semble un investissement juste.\n\nEn conclusion, je pense que la gratuité, accompagnée d'autobus plus fréquents, serait une excellente décision pour nos villes.\n\nVeuillez agréer, Madame, Monsieur, mes salutations distinguées.",
+      "en": "Dear Sir or Madam,\n\nIn your Saturday edition, you raise the question of free public transport. I am entirely in favour of this idea, for three reasons.\n\nFirst, free transport helps people who have little money. A monthly pass often costs nearly a hundred dollars, which is a big expense for a student or a low-income family. Without this cost, they could get around more easily to work, study or see their loved ones.\n\nMoreover, free buses would encourage some residents to leave their car at home. Fewer cars means fewer traffic jams and cleaner air, which benefits everyone, even drivers.\n\nFinally, free transport makes life simpler for everyone: no more need to look for change or top up a card. Newcomers, in particular, would discover their city more quickly.\n\nAdmittedly, this service isn't really free: it has to be funded through taxes. But we already pay for roads, even when we don't drive. That is why public transport accessible to all seems to me a fair investment.\n\nIn conclusion, I think that free transport, together with more frequent buses, would be an excellent decision for our cities.\n\nYours faithfully."
+    },
+    "checklist": [
+      {
+        "en": "At least 200 words, with a clear position in the first paragraph?",
+        "hi": "कम से कम 200 शब्द, पहले अनुच्छेद में साफ़ राय के साथ?"
+      },
+      {
+        "en": "Three arguments, each with an explanation and a concrete example?",
+        "hi": "तीन तर्क, हर एक में व्याख्या और ठोस उदाहरण?"
+      },
+      {
+        "en": "One counter-argument answered (Certes … mais …)?",
+        "hi": "एक विरोधी तर्क का जवाब (Certes … mais …)?"
+      },
+      {
+        "en": "Formal opening and closing formulas, and a final check of your two recurring errors?",
+        "hi": "औपचारिक शुरुआत और समापन के वाक्यांश, और अपनी दो बार-बार की ग़लतियों की आख़िरी जाँच?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      20,
+      40,
+      60,
+      80,
+      100,
+      107,
+      112,
+      117,
+      118,
+      119
+    ],
+    "items": [
+      {
+        "fr": "Je m'appelle … et j'habite à …",
+        "en": "My name is … and I live in …",
+        "hi": "मेरा नाम … है और मैं … में रहता / रहती हूँ।",
+        "pron": "झ़ö मा-पैल ए झ़ा-बीत आ"
+      },
+      {
+        "fr": "quatre-vingt-dix",
+        "en": "ninety",
+        "hi": "नब्बे",
+        "pron": "का-त्ग़ö-वैँ-दीस"
+      },
+      {
+        "fr": "Hier, je suis allé au marché.",
+        "en": "Yesterday I went to the market.",
+        "hi": "कल मैं बाज़ार गया था।",
+        "pron": "य्यैग़ झ़ö सüइ ज़ा-ले ओ माग़-शे"
+      },
+      {
+        "fr": "Quand j'étais petit, je jouais au cricket.",
+        "en": "When I was little, I played cricket.",
+        "hi": "जब मैं छोटा था, मैं क्रिकेट खेलता था।",
+        "pron": "काँ झ़े-तै प-ती झ़ö झ़ू-ऐ ओ क्ग़ी-कैत"
+      },
+      {
+        "fr": "Je voudrais prendre rendez-vous.",
+        "en": "I'd like to make an appointment.",
+        "hi": "मैं समय लेना चाहता / चाहती हूँ।",
+        "pron": "झ़ö वू-द्ग़ै प्ग़ाँद्ग़ ग़ाँ-दे-वू"
+      },
+      {
+        "fr": "Il faut que tu viennes.",
+        "en": "You have to come.",
+        "hi": "तुम्हें आना ही होगा।",
+        "pron": "ईल फ़ो कö तü व्यैन"
+      },
+      {
+        "fr": "À mon avis, …",
+        "en": "In my opinion, …",
+        "hi": "मेरी राय में, …",
+        "pron": "आ मोँ ना-वी"
+      },
+      {
+        "fr": "Je te comprends, mais justement …",
+        "en": "I understand, but that's exactly why …",
+        "hi": "मैं समझता / समझती हूँ, पर इसीलिए तो …",
+        "pron": "झ़ö तö कोँ-प्ग़ाँ मै झ़üस-त-माँ"
+      },
+      {
+        "fr": "cependant",
+        "en": "however",
+        "hi": "फिर भी",
+        "pron": "स-पाँ-दाँ"
+      },
+      {
+        "fr": "la pièce d'identité",
+        "en": "identity document",
+        "hi": "पहचान-पत्र",
+        "pron": "ला प्यैस दी-दाँ-ती-ते"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Choose the correct form: I am Canadian (woman speaking).",
+        "hi": "सही रूप चुनिए: मैं कनाडाई हूँ (महिला बोल रही है)।"
+      },
+      "options": [
+        "Je suis canadienne.",
+        "J'ai canadienne.",
+        "Je suis canadien.",
+        "Je es canadienne."
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Être for nationality, and the adjective agrees: canadienne.",
+        "hi": "राष्ट्रीयता के लिए être, और विशेषण मेल खाता है: canadienne।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Write the number 90 in letters.",
+        "hi": "संख्या 90 को शब्दों में लिखिए।"
+      },
+      "sentence": "Mon abonnement coûte ___ dollars.",
+      "answer": "quatre-vingt-dix",
+      "accept": [
+        "quatre vingt dix",
+        "nonante"
+      ],
+      "explanation": {
+        "en": "90 = quatre-vingt-dix (4 × 20 + 10).",
+        "hi": "90 = quatre-vingt-dix (4 × 20 + 10)।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Choose the correct auxiliary: We arrived late.",
+        "hi": "सही सहायक क्रिया चुनिए: हम देर से पहुँचे।"
+      },
+      "options": [
+        "Nous avons arrivés en retard.",
+        "Nous sommes arrivé en retard.",
+        "Nous avons arrivé en retard.",
+        "Nous sommes arrivés en retard."
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Arriver takes être, and the participle agrees with nous: arrivés.",
+        "hi": "Arriver के साथ être आता है, और भूतकृदंत nous से मेल खाता है: arrivés।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Imparfait of jouer: When I was little, I used to play cricket.",
+        "hi": "jouer का imparfait: जब मैं छोटा था, मैं क्रिकेट खेलता था।"
+      },
+      "sentence": "Quand j'étais petit, je ___ au cricket.",
+      "answer": "jouais",
+      "accept": [],
+      "explanation": {
+        "en": "Imparfait for a past habit: je jouais.",
+        "hi": "अतीत की आदत के लिए imparfait: je jouais।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French (futur simple).",
+        "hi": "फ़्रेंच में लिखिए (futur simple)।"
+      },
+      "source": {
+        "en": "I will call you tomorrow.",
+        "hi": "मैं तुम्हें कल फ़ोन करूँगा।"
+      },
+      "answer": "Je t'appellerai demain.",
+      "accept": [
+        "Je t'appellerai demain",
+        "Je vous appellerai demain."
+      ],
+      "explanation": {
+        "en": "Appeler doubles the l in the future: j'appellerai.",
+        "hi": "भविष्य काल में appeler का l दोहरा होता है: j'appellerai।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which is the most polite way to ask on the phone?",
+        "hi": "फ़ोन पर पूछने का सबसे शिष्ट तरीक़ा कौन-सा है?"
+      },
+      "options": [
+        "Je veux un rendez-vous.",
+        "Donnez-moi un rendez-vous.",
+        "Je voudrais un rendez-vous, s'il vous plaît.",
+        "Un rendez-vous !"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The conditional je voudrais + s'il vous plaît is the polite request.",
+        "hi": "संभावनार्थ je voudrais + s'il vous plaît शिष्ट निवेदन है।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Subjunctive of venir: You have to come.",
+        "hi": "venir का subjonctif: तुम्हें आना ही होगा।"
+      },
+      "sentence": "Il faut que tu ___.",
+      "answer": "viennes",
+      "accept": [],
+      "explanation": {
+        "en": "Il faut que + subjunctive: que tu viennes.",
+        "hi": "Il faut que + subjonctif: que tu viennes।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Choose the right relative pronoun: It's the city ___ I live.",
+        "hi": "सही संबंधवाचक सर्वनाम चुनिए: यह वह शहर है ___ मैं रहता हूँ।"
+      },
+      "options": [
+        "qui",
+        "que",
+        "où",
+        "dont"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Où for a place: la ville où j'habite.",
+        "hi": "जगह के लिए où: la ville où j'habite।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: I didn't see him.",
+        "hi": "शब्दों को क्रम में रखिए: मैंने उसे नहीं देखा।"
+      },
+      "words": [
+        "pas",
+        "Je",
+        "vu.",
+        "l'ai",
+        "ne"
+      ],
+      "answer": "Je ne l'ai pas vu.",
+      "explanation": {
+        "en": "Ne + pronoun + auxiliary + pas + participle.",
+        "hi": "Ne + सर्वनाम + सहायक क्रिया + pas + भूतकृदंत।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "TEF Canada listening: how many questions, in how much time?",
+        "hi": "TEF Canada सुनने की परीक्षा: कितने प्रश्न, कितने समय में?"
+      },
+      "options": [
+        "40 questions in 60 minutes",
+        "40 questions in 40 minutes",
+        "20 questions in 40 minutes",
+        "60 questions in 40 minutes"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Listening: 40 questions in 40 minutes, each recording played once. Reading: 40 questions in 60 minutes.",
+        "hi": "सुनना: 40 मिनट में 40 प्रश्न, हर रिकॉर्डिंग एक बार। पढ़ना: 60 मिनट में 40 प्रश्न।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "In my opinion, public transport should be free.",
+        "hi": "मेरी राय में, सार्वजनिक परिवहन मुफ़्त होना चाहिए।"
+      },
+      "answer": "À mon avis, les transports en commun devraient être gratuits.",
+      "accept": [
+        "A mon avis, les transports en commun devraient être gratuits.",
+        "Selon moi, les transports en commun devraient être gratuits.",
+        "À mon avis, le transport en commun devrait être gratuit."
+      ],
+      "explanation": {
+        "en": "Devoir in the conditional (devraient) for an opinion about what should happen.",
+        "hi": "क्या होना चाहिए इस पर राय के लिए devoir का संभावनार्थ (devraient)।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "What does writing section B require?",
+        "hi": "लेखन खंड B में क्या चाहिए?"
+      },
+      "options": [
+        "Continue a news story in 80+ words",
+        "A letter giving an opinion, 200+ words, three developed arguments",
+        "Fill in a form",
+        "A 50-word message"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Section B (35 min): opinion letter to a newspaper, 200+ words, three arguments. Section A (25 min) is the 80+ word continuation.",
+        "hi": "खंड B (35 मिनट): अख़बार को राय-पत्र, 200+ शब्द, तीन तर्क। खंड A (25 मिनट) 80+ शब्दों में कहानी आगे बढ़ाना है।"
+      }
+    }
+  ]
+}

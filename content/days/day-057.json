@@ -1,0 +1,939 @@
+{
+  "day": 57,
+  "phase": 3,
+  "title": {
+    "fr": "Écoute longue : messages et annonces",
+    "en": "Longer listening: messages and announcements",
+    "hi": "लंबी सुनवाई: संदेश और घोषणाएँ"
+  },
+  "objective": {
+    "en": "Understand voicemails and public announcements at natural speed, use the negations ne … plus, ne … jamais, ne … rien, ne … personne and ne … que, and recognise the dropped ne of everyday speech. This is your first practice in the style of the TEF listening tasks with messages (original material, not official test items).",
+    "hi": "स्वाभाविक गति वाले वॉइसमेल और सार्वजनिक घोषणाएँ समझना, ne … plus, ne … jamais, ne … rien, ne … personne और ne … que वाले निषेध इस्तेमाल करना, और रोज़मर्रा की बोली में छूट जाने वाले ne को पहचानना। यह संदेशों वाले TEF सुनवाई कार्यों की शैली में आपका पहला अभ्यास है (मौलिक सामग्री, आधिकारिक परीक्षा प्रश्न नहीं)।"
+  },
+  "prerequisites": {
+    "days": [
+      12,
+      41,
+      43,
+      48,
+      52
+    ],
+    "summary": {
+      "en": "You need basic negation ne … pas (Day 12), the passé composé (Days 41 and 43), the futur simple (Day 48) and indirect object pronouns (Day 52).",
+      "hi": "आपको साधारण निषेध ne … pas (दिन 12), पासे कॉम्पोज़े (दिन 41 और 43), फ़्यूतूर सैंप्ल (दिन 48) और अप्रत्यक्ष कर्म सर्वनाम (दिन 52) याद होने चाहिए।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "un message vocal",
+      "en": "a voicemail (message)",
+      "hi": "वॉइसमेल, आवाज़ वाला संदेश",
+      "pron": "ऐँ मे-साझ़ वो-काल",
+      "ipa": "ɛ̃ mesaʒ vɔkal",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "message vocal",
+      "note": {
+        "en": "Also la boîte vocale (the voicemail box). Plural: des messages vocaux.",
+        "hi": "la boîte vocale (वॉइसमेल बॉक्स) भी कहते हैं। बहुवचन: des messages vocaux।"
+      }
+    },
+    {
+      "fr": "une annonce",
+      "en": "an announcement; an ad",
+      "hi": "घोषणा; विज्ञापन",
+      "pron": "ü ना-नोँस",
+      "ipa": "yn anɔ̃s",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "annonce"
+    },
+    {
+      "fr": "rappeler",
+      "en": "to call back",
+      "hi": "वापस फ़ोन करना",
+      "pron": "ग़ा-प्ले",
+      "ipa": "ʁaple",
+      "pos": "verb",
+      "note": {
+        "en": "Double l when the ending is silent: je rappelle, tu rappelles; but nous rappelons.",
+        "hi": "जब अंत मूक हो तो दो l: je rappelle, tu rappelles; पर nous rappelons।"
+      }
+    },
+    {
+      "fr": "annuler",
+      "en": "to cancel",
+      "hi": "रद्द करना",
+      "pron": "आ-नü-ले",
+      "ipa": "anyle",
+      "pos": "verb",
+      "note": {
+        "en": "C'est annulé = it's cancelled.",
+        "hi": "C'est annulé = यह रद्द हो गया है।"
+      }
+    },
+    {
+      "fr": "déplacer",
+      "en": "to move, to reschedule",
+      "hi": "खिसकाना, दूसरे समय पर रखना",
+      "pron": "दे-प्ला-से",
+      "ipa": "deplase",
+      "pos": "verb",
+      "note": {
+        "en": "Votre rendez-vous est déplacé au jeudi = your appointment has been moved to Thursday.",
+        "hi": "Votre rendez-vous est déplacé au jeudi = आपकी मुलाक़ात गुरुवार पर खिसका दी गई है।"
+      }
+    },
+    {
+      "fr": "confirmer",
+      "en": "to confirm",
+      "hi": "पुष्टि करना",
+      "pron": "कोँ-फ़ीग़-मे",
+      "ipa": "kɔ̃fiʁme",
+      "pos": "verb"
+    },
+    {
+      "fr": "en raison de",
+      "en": "because of, due to",
+      "hi": "की वजह से",
+      "pron": "आँ ग़ै-ज़ोँ दö",
+      "ipa": "ɑ̃ ʁɛzɔ̃ də",
+      "pos": "phrase",
+      "note": {
+        "en": "Formal, typical of announcements: en raison de travaux, en raison de la neige.",
+        "hi": "औपचारिक, घोषणाओं में आम: en raison de travaux, en raison de la neige।"
+      }
+    },
+    {
+      "fr": "les travaux",
+      "en": "works, construction, repairs",
+      "hi": "निर्माण या मरम्मत का काम",
+      "pron": "ले त्रा-वो",
+      "ipa": "le tʁavo",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "travaux",
+      "note": {
+        "en": "Always plural in this sense.",
+        "hi": "इस अर्थ में हमेशा बहुवचन।"
+      }
+    },
+    {
+      "fr": "le quai",
+      "en": "the platform (metro, train)",
+      "hi": "प्लेटफ़ॉर्म",
+      "pron": "लö कै",
+      "ipa": "lə ke",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "quai"
+    },
+    {
+      "fr": "la sortie",
+      "en": "the exit",
+      "hi": "निकास, बाहर जाने का रास्ता",
+      "pron": "ला सोग़-ती",
+      "ipa": "la sɔʁti",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "sortie"
+    },
+    {
+      "fr": "jamais",
+      "en": "never",
+      "hi": "कभी नहीं",
+      "pron": "झ़ा-मै",
+      "ipa": "ʒamɛ",
+      "pos": "adverb",
+      "note": {
+        "en": "With a verb: ne … jamais. Je ne fume jamais.",
+        "hi": "क्रिया के साथ: ne … jamais। Je ne fume jamais (मैं कभी सिगरेट नहीं पीता)।"
+      }
+    },
+    {
+      "fr": "rien",
+      "en": "nothing",
+      "hi": "कुछ नहीं",
+      "pron": "ग़्यैँ",
+      "ipa": "ʁjɛ̃",
+      "pos": "pronoun",
+      "note": {
+        "en": "With a verb: ne … rien. Je ne vois rien.",
+        "hi": "क्रिया के साथ: ne … rien। Je ne vois rien (मुझे कुछ नहीं दिखता)।"
+      }
+    },
+    {
+      "fr": "personne",
+      "en": "nobody",
+      "hi": "कोई नहीं",
+      "pron": "पैग़-सॉन",
+      "ipa": "pɛʁsɔn",
+      "pos": "pronoun",
+      "note": {
+        "en": "With a verb: ne … personne. Careful: une personne (a noun) means 'a person'.",
+        "hi": "क्रिया के साथ: ne … personne। ध्यान दें: une personne (संज्ञा) का अर्थ 'एक व्यक्ति' है।"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Vous êtes bien sur la boîte vocale de …",
+      "en": "You have reached the voicemail of …",
+      "hi": "आप … के वॉइसमेल पर पहुँचे हैं",
+      "pron": "वू ज़ैत ब्यैँ सüग़ ला ब्वात वो-काल दö"
+    },
+    {
+      "fr": "Laissez un message après le bip.",
+      "en": "Leave a message after the beep.",
+      "hi": "बीप के बाद संदेश छोड़िए।",
+      "pron": "लै-से ज़ैँ मे-साझ़ आ-प्रै लö बीप"
+    },
+    {
+      "fr": "Votre attention, s'il vous plaît.",
+      "en": "Your attention, please.",
+      "hi": "कृपया ध्यान दीजिए।",
+      "pron": "वो-त्रा-ताँ-स्योँ सील वू प्लै"
+    },
+    {
+      "fr": "Je n'ai plus de batterie.",
+      "en": "My battery is dead (I have no more battery).",
+      "hi": "मेरी बैटरी ख़त्म हो गई है।",
+      "pron": "झ़ö ने प्लü दö बा-त्ग़ी"
+    },
+    {
+      "fr": "Il n'y a personne.",
+      "en": "There's nobody there.",
+      "hi": "वहाँ कोई नहीं है।",
+      "pron": "ईल न्या पैग़-सॉन"
+    },
+    {
+      "fr": "Je n'ai que dix minutes.",
+      "en": "I only have ten minutes.",
+      "hi": "मेरे पास सिर्फ़ दस मिनट हैं।",
+      "pron": "झ़ö ने कö दी मी-नüत"
+    },
+    {
+      "fr": "J'sais pas.",
+      "en": "Dunno. (I don't know, casual)",
+      "hi": "पता नहीं। (बोलचाल)",
+      "pron": "शे पा"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Five more negations, and the ne that disappears",
+      "hi": "पाँच और निषेध, और ग़ायब होने वाला ne"
+    },
+    "explanation": {
+      "en": "Like ne … pas, these negations wrap around the conjugated verb: ne … plus (no longer, no more): Je ne travaille plus le mardi. ne … jamais (never): Il ne mange jamais de viande. ne … rien (nothing): Je ne comprends rien. ne … personne (nobody): Je ne connais personne ici. ne … que (only, it is not really negative): Il ne reste que deux places. As with pas, des/du/un become de after plus and jamais: Je n'ai plus d'argent. In the passé composé, plus, jamais and rien go before the participle (Je n'ai rien vu, Je ne suis jamais allé à Vancouver), but personne goes after it (Je n'ai vu personne). Rien and personne can also be the subject, with ne before the verb: Personne n'est venu. Rien ne marche. In relaxed speech, French speakers usually drop ne: J'sais pas, Y a plus de pain, T'as rien mangé ? The negative meaning stays in pas, plus, rien … Understand it when you hear it, but keep ne in writing and in formal speaking.",
+      "hi": "ne … pas की तरह ये निषेध भी संयुग्मित क्रिया को दोनों ओर से घेरते हैं: ne … plus (अब नहीं, और नहीं): Je ne travaille plus le mardi। ne … jamais (कभी नहीं): Il ne mange jamais de viande। ne … rien (कुछ नहीं): Je ne comprends rien। ne … personne (कोई नहीं): Je ne connais personne ici। ne … que (सिर्फ़, असल में यह नकारात्मक नहीं है): Il ne reste que deux places। pas की तरह plus और jamais के बाद des/du/un बदलकर de हो जाते हैं: Je n'ai plus d'argent। पासे कॉम्पोज़े में plus, jamais और rien कृदंत से पहले आते हैं (Je n'ai rien vu, Je ne suis jamais allé à Vancouver), पर personne कृदंत के बाद (Je n'ai vu personne)। rien और personne कर्ता भी हो सकते हैं, तब ne क्रिया से पहले: Personne n'est venu। Rien ne marche। आराम की बोलचाल में फ़्रेंच बोलने वाले अक्सर ne छोड़ देते हैं: J'sais pas, Y a plus de pain, T'as rien mangé ? नकारात्मक अर्थ pas, plus, rien … में बना रहता है। सुनें तो समझिए, पर लिखते समय और औपचारिक बातचीत में ne रखिए।"
+    },
+    "comparison": {
+      "en": "Hindi works much the same way: नहीं is the negative, and a second word adds the meaning: कभी नहीं (ne … jamais), कुछ नहीं (ne … rien), कोई नहीं (ne … personne), अब नहीं (ne … plus). 'कोई नहीं आया' is exactly 'Personne n'est venu'. Only ne … que is different: it means सिर्फ़ / केवल, a positive meaning, so 'Je n'ai que dix minutes' = 'मेरे पास सिर्फ़ दस मिनट हैं'.",
+      "hi": "हिंदी लगभग ऐसे ही काम करती है: नहीं निषेध है, और दूसरा शब्द अर्थ जोड़ता है: कभी नहीं (ne … jamais), कुछ नहीं (ne … rien), कोई नहीं (ne … personne), अब नहीं (ne … plus)। 'कोई नहीं आया' बिल्कुल 'Personne n'est venu' है। सिर्फ़ ne … que अलग है: इसका अर्थ सिर्फ़ / केवल है, यानी सकारात्मक अर्थ, इसलिए 'Je n'ai que dix minutes' = 'मेरे पास सिर्फ़ दस मिनट हैं'।"
+    },
+    "examples": [
+      {
+        "fr": "Le docteur ne travaille plus le mardi.",
+        "en": "The doctor no longer works on Tuesdays.",
+        "hi": "डॉक्टर अब मंगलवार को काम नहीं करते।",
+        "pron": "लö दॉक-तöग़ नö त्रा-वाय प्लü लö माग़-दी"
+      },
+      {
+        "fr": "Je ne suis jamais allé à Vancouver.",
+        "en": "I've never been to Vancouver.",
+        "hi": "मैं कभी वैंकूवर नहीं गया।",
+        "pron": "झ़ö नö सüई झ़ा-मै ज़ा-ले आ वाँ-कू-वैग़"
+      },
+      {
+        "fr": "Je n'ai rien trouvé.",
+        "en": "I didn't find anything.",
+        "hi": "मुझे कुछ नहीं मिला।",
+        "pron": "झ़ö ने ग़्यैँ त्रू-वे"
+      },
+      {
+        "fr": "Je n'ai vu personne.",
+        "en": "I didn't see anyone.",
+        "hi": "मैंने किसी को नहीं देखा।",
+        "pron": "झ़ö ने वü पैग़-सॉन"
+      },
+      {
+        "fr": "Il ne reste que deux places.",
+        "en": "There are only two places left.",
+        "hi": "सिर्फ़ दो जगहें बची हैं।",
+        "pron": "ईल नö ग़ैस्त कö दö प्लास"
+      },
+      {
+        "fr": "Y a plus de pain.",
+        "en": "There's no bread left. (casual)",
+        "hi": "ब्रेड ख़त्म हो गई। (बोलचाल)",
+        "pron": "या प्लü दö पैँ"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Don't add pas to the other negations: 'Je ne mange pas jamais' is wrong; say 'Je ne mange jamais'.",
+        "hi": "दूसरे निषेधों के साथ pas मत जोड़िए: 'Je ne mange pas jamais' ग़लत है; 'Je ne mange jamais' कहिए।"
+      },
+      {
+        "en": "In the passé composé, personne goes after the participle: 'Je n'ai vu personne', not 'Je n'ai personne vu'.",
+        "hi": "पासे कॉम्पोज़े में personne कृदंत के बाद आता है: 'Je n'ai vu personne', 'Je n'ai personne vu' नहीं।"
+      },
+      {
+        "en": "In speech, 'Y a plus de pain' means there is NO more bread (ne dropped), while 'Il y a plus de pain' with the s pronounced (प्लüस) means there is MORE bread. Listen for the context.",
+        "hi": "बोलचाल में 'Y a plus de pain' का अर्थ है ब्रेड ख़त्म हो गई (ne छूटा हुआ), जबकि s बोलकर (प्लüस) 'Il y a plus de pain' का अर्थ है ज़्यादा ब्रेड है। संदर्भ पर ध्यान दीजिए।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Natural speech: dropped ne, j'sais pas",
+    "tip": {
+      "en": "In fast, relaxed speech, ne disappears and short words shrink: je ne sais pas → j'sais pas, which sounds like शे पा (the j becomes श next to s); il n'y a pas → y a pas (या पा); tu as → t'as (ता); je suis → j'suis (श्üई). You need to recognise these forms in the TEF listening sections and in daily life. When you speak in a formal situation, say the full forms.",
+      "hi": "तेज़ और सहज बोली में ne ग़ायब हो जाता है और छोटे शब्द सिकुड़ जाते हैं: je ne sais pas → j'sais pas, जो शे पा जैसा सुनाई देता है (s के पास j, श बन जाता है); il n'y a pas → y a pas (या पा); tu as → t'as (ता); je suis → j'suis (श्üई)। TEF के सुनवाई भागों में और रोज़मर्रा की ज़िंदगी में आपको ये रूप पहचानने होंगे। औपचारिक स्थिति में बोलते समय पूरे रूप बोलिए।"
+    },
+    "words": [
+      {
+        "fr": "j'sais pas",
+        "en": "dunno (je ne sais pas)",
+        "hi": "पता नहीं",
+        "pron": "शे पा",
+        "ipa": "ʃe pa"
+      },
+      {
+        "fr": "y a pas",
+        "en": "there isn't (il n'y a pas)",
+        "hi": "नहीं है",
+        "pron": "या पा",
+        "ipa": "ja pa"
+      },
+      {
+        "fr": "t'as vu ?",
+        "en": "did you see? (tu as vu)",
+        "hi": "तुमने देखा?",
+        "pron": "ता वü",
+        "ipa": "ta vy"
+      },
+      {
+        "fr": "j'suis pas là",
+        "en": "I'm not there (je ne suis pas là)",
+        "hi": "मैं वहाँ नहीं हूँ",
+        "pron": "श्üई पा ला",
+        "ipa": "ʃɥi pa la"
+      },
+      {
+        "fr": "c'est pas grave",
+        "en": "it doesn't matter (ce n'est pas grave)",
+        "hi": "कोई बात नहीं",
+        "pron": "सै पा ग्ग़ाव",
+        "ipa": "sɛ pa ɡʁav"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Deux messages et une annonce",
+      "en": "Two messages and an announcement"
+    },
+    "type": "voicemail",
+    "mode": "natural",
+    "context": {
+      "en": "Original practice in the style of TEF message tasks. You will hear a casual voicemail from a friend, a formal voicemail from a dental clinic, and an announcement in a metro station, all at natural speed.",
+      "hi": "TEF के संदेश वाले कार्यों की शैली में मौलिक अभ्यास। आप एक दोस्त का अनौपचारिक वॉइसमेल, एक दाँतों के क्लिनिक का औपचारिक वॉइसमेल, और एक मेट्रो स्टेशन की घोषणा सुनेंगे, सब स्वाभाविक गति में।"
+    },
+    "lines": [
+      {
+        "speaker": "Julie (message 1)",
+        "voice": "f2",
+        "fr": "Salut Aarav, c'est Julie. Euh… j'sais pas si t'as vu mon texto, alors je t'appelle.",
+        "en": "Hi Aarav, it's Julie. Um… I don't know if you saw my text, so I'm calling you.",
+        "hi": "हाय आरव, मैं जूली। अं… पता नहीं तुमने मेरा मैसेज देखा या नहीं, इसलिए फ़ोन कर रही हूँ।"
+      },
+      {
+        "speaker": "Julie (message 1)",
+        "voice": "f2",
+        "fr": "Pour samedi, c'est annulé. Y a plus de place au restaurant, ils m'ont dit ça ce matin.",
+        "en": "Saturday is cancelled. There's no room left at the restaurant, they told me this morning.",
+        "hi": "शनिवार का प्लान रद्द है। रेस्टोरेंट में जगह नहीं बची, उन्होंने आज सुबह बताया।"
+      },
+      {
+        "speaker": "Julie (message 1)",
+        "voice": "f2",
+        "fr": "J'ai rien trouvé d'autre pour l'instant… Tu connais pas un bon resto indien près du centre ?",
+        "en": "I haven't found anything else for now… Don't you know a good Indian restaurant near downtown?",
+        "hi": "अभी तक मुझे और कुछ नहीं मिला… तुम्हें डाउनटाउन के पास कोई अच्छा भारतीय रेस्टोरेंट नहीं पता?"
+      },
+      {
+        "speaker": "Julie (message 1)",
+        "voice": "f2",
+        "fr": "Tu me rappelles ce soir, après six heures ? Bon, à plus !",
+        "en": "Can you call me back tonight, after six? OK, see you!",
+        "hi": "आज शाम छह बजे के बाद मुझे वापस फ़ोन करोगे? ठीक है, फिर मिलते हैं!"
+      },
+      {
+        "speaker": "M. Tremblay (message 2)",
+        "voice": "m1",
+        "fr": "Bonjour, ici Pierre Tremblay, de la clinique dentaire des Érables. Ce message est pour Madame Kaur.",
+        "en": "Hello, this is Pierre Tremblay from the Érables dental clinic. This message is for Ms Kaur.",
+        "hi": "नमस्ते, मैं एराब्ल दंत क्लिनिक से पिएर ट्रॅम्ब्ले बोल रहा हूँ। यह संदेश श्रीमती कौर के लिए है।"
+      },
+      {
+        "speaker": "M. Tremblay (message 2)",
+        "voice": "m1",
+        "fr": "Votre rendez-vous du mardi 14 est déplacé au jeudi 16, à la même heure, dix heures trente.",
+        "en": "Your appointment on Tuesday the 14th has been moved to Thursday the 16th, at the same time, ten thirty.",
+        "hi": "मंगलवार 14 तारीख़ की आपकी मुलाक़ात गुरुवार 16 तारीख़ पर खिसका दी गई है, उसी समय, साढ़े दस बजे।"
+      },
+      {
+        "speaker": "M. Tremblay (message 2)",
+        "voice": "m1",
+        "fr": "Le docteur Roy ne travaille plus le mardi. Il ne reste que deux places jeudi, alors merci de confirmer avant demain midi.",
+        "en": "Dr Roy no longer works on Tuesdays. There are only two places left on Thursday, so please confirm before noon tomorrow.",
+        "hi": "डॉक्टर रॉय अब मंगलवार को काम नहीं करते। गुरुवार को सिर्फ़ दो जगहें बची हैं, इसलिए कृपया कल दोपहर बारह बजे से पहले पुष्टि कीजिए।"
+      },
+      {
+        "speaker": "M. Tremblay (message 2)",
+        "voice": "m1",
+        "fr": "Si le jeudi ne vous convient pas, téléphonez au 514 555-0142. Merci et bonne journée.",
+        "en": "If Thursday doesn't suit you, call 514 555-0142. Thank you and have a good day.",
+        "hi": "अगर गुरुवार आपके लिए ठीक नहीं है, तो 514 555-0142 पर फ़ोन कीजिए। धन्यवाद, आपका दिन अच्छा हो।"
+      },
+      {
+        "speaker": "Announcement",
+        "voice": "narrator",
+        "fr": "Votre attention, s'il vous plaît. En raison de travaux, la ligne verte ne circule plus entre les stations Centre et Université.",
+        "en": "Your attention, please. Due to construction work, the green line is no longer running between Centre and Université stations.",
+        "hi": "कृपया ध्यान दीजिए। निर्माण कार्य की वजह से हरी लाइन अब सेंटर और यूनिवर्सिते स्टेशनों के बीच नहीं चल रही है।"
+      },
+      {
+        "speaker": "Announcement",
+        "voice": "narrator",
+        "fr": "Des autobus gratuits vous attendent à la sortie principale de la station.",
+        "en": "Free buses are waiting for you at the main exit of the station.",
+        "hi": "स्टेशन के मुख्य निकास पर मुफ़्त बसें आपका इंतज़ार कर रही हैं।"
+      },
+      {
+        "speaker": "Announcement",
+        "voice": "narrator",
+        "fr": "Personne n'est autorisé à descendre sur les voies.",
+        "en": "Nobody is allowed to go down onto the tracks.",
+        "hi": "किसी को भी पटरियों पर उतरने की अनुमति नहीं है।"
+      },
+      {
+        "speaker": "Announcement",
+        "voice": "narrator",
+        "fr": "N'utilisez jamais les escaliers fermés et ne laissez rien sur les quais.",
+        "en": "Never use the closed stairs, and don't leave anything on the platforms.",
+        "hi": "बंद सीढ़ियों का इस्तेमाल कभी मत कीजिए और प्लेटफ़ॉर्म पर कुछ भी मत छोड़िए।"
+      },
+      {
+        "speaker": "Announcement",
+        "voice": "narrator",
+        "fr": "Nous ne savons pas encore quand le service reprendra. Merci de votre patience.",
+        "en": "We don't know yet when service will resume. Thank you for your patience.",
+        "hi": "हमें अभी नहीं पता कि सेवा कब फिर शुरू होगी। धैर्य रखने के लिए धन्यवाद।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "Why is Saturday's plan cancelled?"
+        },
+        "options": [
+          "Julie is sick",
+          "The restaurant has no room left",
+          "Aarav didn't answer her text",
+          "The restaurant is closed for works"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Y a plus de place au restaurant' = il n'y a plus de place (ne dropped).",
+          "hi": "'Y a plus de place au restaurant' = il n'y a plus de place (ne छूटा हुआ): रेस्टोरेंट में जगह नहीं बची।"
+        },
+        "kind": "literal",
+        "evidence": "Y a plus de place au restaurant"
+      },
+      {
+        "q": {
+          "en": "What does Julie want from Aarav?"
+        },
+        "options": [
+          "The name of a good Indian restaurant",
+          "A lift downtown",
+          "His new phone number"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Tu connais pas un bon resto indien près du centre ?' She hopes he can suggest one.",
+          "hi": "'Tu connais pas un bon resto indien près du centre ?' उसे उम्मीद है कि वह कोई रेस्टोरेंट सुझाएगा।"
+        },
+        "kind": "inference",
+        "evidence": "Tu connais pas un bon resto indien près du centre ?"
+      },
+      {
+        "q": {
+          "en": "When is Ms Kaur's new appointment?"
+        },
+        "options": [
+          "Tuesday the 14th at 10:30",
+          "Tuesday the 16th at 10:30",
+          "Thursday the 16th at noon",
+          "Thursday the 16th at 10:30"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'déplacé au jeudi 16, à la même heure, dix heures trente'.",
+          "hi": "'déplacé au jeudi 16, à la même heure, dix heures trente' (गुरुवार 16 पर, उसी समय, साढ़े दस बजे)।"
+        },
+        "kind": "literal",
+        "evidence": "déplacé au jeudi 16, à la même heure, dix heures trente"
+      },
+      {
+        "q": {
+          "en": "Why should Ms Kaur confirm quickly?"
+        },
+        "options": [
+          "The clinic is closing",
+          "The doctor is leaving",
+          "Only two places are left on Thursday"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "ne … que = only: 'Il ne reste que deux places jeudi'.",
+          "hi": "ne … que = सिर्फ़: 'Il ne reste que deux places jeudi' (गुरुवार को सिर्फ़ दो जगहें बची हैं)।"
+        },
+        "kind": "grammar",
+        "evidence": "Il ne reste que deux places jeudi"
+      },
+      {
+        "q": {
+          "en": "What should metro passengers do to continue their trip?"
+        },
+        "options": [
+          "Wait on the platform",
+          "Take the free buses at the main exit",
+          "Use the stairs to the other line",
+          "Walk along the tracks"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Des autobus gratuits vous attendent à la sortie principale'.",
+          "hi": "'Des autobus gratuits vous attendent à la sortie principale' (मुख्य निकास पर मुफ़्त बसें इंतज़ार कर रही हैं)।"
+        },
+        "kind": "inference",
+        "evidence": "Des autobus gratuits vous attendent à la sortie principale de la station."
+      },
+      {
+        "q": {
+          "en": "When will the green line run normally again?"
+        },
+        "options": [
+          "Tonight",
+          "Tomorrow morning",
+          "Nobody knows yet"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Nous ne savons pas encore quand le service reprendra.'",
+          "hi": "'Nous ne savons pas encore quand le service reprendra.' (हमें अभी नहीं पता कि सेवा कब फिर शुरू होगी।)"
+        },
+        "kind": "literal",
+        "evidence": "Nous ne savons pas encore quand le service reprendra."
+      }
+    ],
+    "dictation": [
+      "Le docteur Roy ne travaille plus le mardi.",
+      "Il ne reste que deux places jeudi.",
+      "Ne laissez rien sur les quais."
+    ],
+    "gapFill": {
+      "text": "Le docteur Roy ne travaille ___ le mardi. Il ne reste ___ deux places jeudi. N'utilisez ___ les escaliers fermés et ne laissez ___ sur les quais.",
+      "answers": [
+        "plus",
+        "que",
+        "jamais",
+        "rien"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "roleplay",
+    "instructions": {
+      "en": "You call a language school about your evening class, but nobody answers. Leave a detailed voicemail. Answer each cue in order, then say the whole message in one go, clearly, in about 45 seconds.",
+      "hi": "आप अपनी शाम की कक्षा के बारे में एक भाषा स्कूल को फ़ोन करते हैं, पर कोई नहीं उठाता। एक विस्तृत वॉइसमेल छोड़िए। हर संकेत का क्रम से जवाब दीजिए, फिर पूरा संदेश एक बार में, साफ़-साफ़, लगभग 45 सेकंड में बोलिए।"
+    },
+    "prompts": [
+      {
+        "fr": "Saluez et dites qui vous êtes.",
+        "en": "Greet and say who you are.",
+        "hi": "अभिवादन कीजिए और बताइए कि आप कौन हैं।",
+        "pron": "सा-लüए ए दीत की वू ज़ैत",
+        "model": "Bonjour, ici Ananya Sharma. Je suis inscrite au cours de français du mardi soir."
+      },
+      {
+        "fr": "Expliquez le problème.",
+        "en": "Explain the problem.",
+        "hi": "समस्या समझाइए।",
+        "pron": "ऐक्स-प्ली-के लö प्रो-ब्लैम",
+        "model": "Je ne peux plus venir le mardi, parce que mon nouveau travail finit à vingt heures."
+      },
+      {
+        "fr": "Dites ce que vous avez déjà essayé.",
+        "en": "Say what you have already tried.",
+        "hi": "बताइए कि आपने पहले क्या कोशिश की।",
+        "pron": "दीत सö कö वू ज़ा-वे दे-झ़ा ए-से-ये",
+        "model": "J'ai envoyé un courriel lundi, mais je n'ai rien reçu, et ce matin, personne n'a répondu au téléphone."
+      },
+      {
+        "fr": "Faites votre demande.",
+        "en": "Make your request.",
+        "hi": "अपना अनुरोध रखिए।",
+        "pron": "फ़ैत वोत्ग़ दö-माँद",
+        "model": "Est-ce que je peux changer de groupe ? Le jeudi soir, c'est parfait pour moi."
+      },
+      {
+        "fr": "Donnez vos coordonnées et terminez.",
+        "en": "Give your contact details and finish.",
+        "hi": "अपना संपर्क विवरण दीजिए और संदेश ख़त्म कीजिए।",
+        "pron": "दो-ने वो को-ओग़-दो-ने ए तैग़-मी-ने",
+        "model": "Vous pouvez me rappeler au 438 555-0176, après dix-sept heures. Merci beaucoup et bonne journée."
+      }
+    ],
+    "tip": {
+      "en": "On a voicemail, say your number slowly, in pairs as Canadians do (quatre-trente-huit, cinq-cinq-cinq…), and repeat it once at the end.",
+      "hi": "वॉइसमेल पर अपना नंबर धीरे-धीरे बोलिए, कनाडा की तरह जोड़ों या समूहों में (quatre-trente-huit, cinq-cinq-cinq…), और अंत में एक बार दोहराइए।"
+    }
+  },
+  "reading": {
+    "genre": "notice",
+    "title": "Trois avis du quartier",
+    "text": "PISCINE DU PARC DES ÉRABLES\nÀ partir du 1er septembre, la piscine extérieure ne sera plus ouverte le soir. Nouvel horaire : tous les jours, de 10 h à 17 h. Rappel : les enfants de moins de huit ans ne peuvent jamais nager sans un adulte. Il n'y a plus de casiers gratuits ; apportez votre cadenas.\n\nBIBLIOTHÈQUE MUNICIPALE – RETOUR DES LIVRES\nLa boîte de retour extérieure est brisée. Ne mettez rien dans cette boîte jusqu'à nouvel ordre. Rapportez vos livres au comptoir, du mardi au samedi, de 9 h à 20 h. Cette semaine, vous ne paierez pas de frais de retard.\n\nAVIS AUX LOCATAIRES – COUPURE D'EAU\nLe jeudi 9 octobre, de 9 h à 13 h, il n'y aura pas d'eau dans l'immeuble en raison de travaux sur les tuyaux. Personne ne doit utiliser les laveuses pendant les travaux. Ce jour-là, le concierge ne répondra qu'aux urgences, au 438 555-0199. Merci de votre compréhension.\nLa gestion",
+    "translation": {
+      "en": "ÉRABLES PARK POOL\nFrom 1 September, the outdoor pool will no longer be open in the evening. New hours: every day, 10 a.m. to 5 p.m. Reminder: children under eight may never swim without an adult. There are no more free lockers; bring your own padlock.\n\nPUBLIC LIBRARY – BOOK RETURNS\nThe outdoor return box is broken. Do not put anything in this box until further notice. Bring your books back to the desk, Tuesday to Saturday, 9 a.m. to 8 p.m. This week, you will not pay any late fees.\n\nNOTICE TO TENANTS – WATER SHUT-OFF\nOn Thursday 9 October, from 9 a.m. to 1 p.m., there will be no water in the building because of work on the pipes. Nobody may use the washing machines during the work. That day, the caretaker will only answer emergencies, at 438 555-0199. Thank you for your understanding.\nThe management",
+      "hi": "एराब्ल पार्क का स्विमिंग पूल\n1 सितंबर से बाहर वाला पूल शाम को नहीं खुलेगा। नया समय: रोज़, सुबह 10 बजे से शाम 5 बजे तक। याद रखिए: आठ साल से छोटे बच्चे बड़ों के बिना कभी नहीं तैर सकते। अब मुफ़्त लॉकर नहीं हैं; अपना ताला लेकर आइए।\n\nनगर पुस्तकालय – किताबें लौटाना\nबाहर वाला किताब-वापसी बक्सा टूटा हुआ है। अगली सूचना तक इस बक्से में कुछ भी मत डालिए। अपनी किताबें काउंटर पर लौटाइए, मंगलवार से शनिवार, सुबह 9 बजे से रात 8 बजे तक। इस हफ़्ते आपको देरी का जुर्माना नहीं देना होगा।\n\nकिराएदारों के लिए सूचना – पानी बंद\nगुरुवार 9 अक्टूबर को सुबह 9 बजे से दोपहर 1 बजे तक पाइपों पर काम की वजह से इमारत में पानी नहीं रहेगा। काम के दौरान कोई भी वॉशिंग मशीन इस्तेमाल न करे। उस दिन केयरटेकर सिर्फ़ आपात स्थितियों में जवाब देगा, 438 555-0199 पर। समझने के लिए धन्यवाद।\nप्रबंधन"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "What changes at the pool from 1 September?"
+        },
+        "options": [
+          "It closes on weekends",
+          "It is no longer open in the evening",
+          "It becomes free",
+          "It opens earlier"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'la piscine extérieure ne sera plus ouverte le soir'.",
+          "hi": "'la piscine extérieure ne sera plus ouverte le soir' (पूल अब शाम को नहीं खुलेगा)।"
+        },
+        "kind": "literal",
+        "evidence": "la piscine extérieure ne sera plus ouverte le soir"
+      },
+      {
+        "q": {
+          "en": "Neha, aged six, wants to swim while her father reads in the café. Is this allowed?"
+        },
+        "options": [
+          "Yes, every day",
+          "Yes, but only before 5 p.m.",
+          "No, she must swim with an adult"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "Children under eight 'ne peuvent jamais nager sans un adulte'.",
+          "hi": "आठ साल से छोटे बच्चे 'ne peuvent jamais nager sans un adulte' (बड़ों के बिना कभी नहीं तैर सकते)।"
+        },
+        "kind": "inference",
+        "evidence": "les enfants de moins de huit ans ne peuvent jamais nager sans un adulte"
+      },
+      {
+        "q": {
+          "en": "How should you return library books at the moment?"
+        },
+        "options": [
+          "Put them in the outdoor box",
+          "Bring them to the desk",
+          "Mail them",
+          "Return them next week"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Rapportez vos livres au comptoir'.",
+          "hi": "'Rapportez vos livres au comptoir' (अपनी किताबें काउंटर पर लौटाइए)।"
+        },
+        "kind": "literal",
+        "evidence": "Rapportez vos livres au comptoir"
+      },
+      {
+        "q": {
+          "en": "What may tenants not do on 9 October in the morning?"
+        },
+        "options": [
+          "Use the washing machines",
+          "Call the caretaker",
+          "Leave the building"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Personne ne doit utiliser les laveuses pendant les travaux.'",
+          "hi": "'Personne ne doit utiliser les laveuses pendant les travaux.' (काम के दौरान कोई भी वॉशिंग मशीन इस्तेमाल न करे।)"
+        },
+        "kind": "literal",
+        "evidence": "Personne ne doit utiliser les laveuses pendant les travaux."
+      },
+      {
+        "q": {
+          "en": "A tenant's tap is dripping a little on 9 October. Should they call the caretaker that day?"
+        },
+        "options": [
+          "Yes, he answers all calls",
+          "No, he only answers emergencies",
+          "Yes, but only after 1 p.m.",
+          "No, he is on holiday"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "ne … que = only: 'le concierge ne répondra qu'aux urgences'. A small drip is not an emergency.",
+          "hi": "ne … que = सिर्फ़: 'le concierge ne répondra qu'aux urgences'। हल्का टपकना आपात स्थिति नहीं है।"
+        },
+        "kind": "inference",
+        "evidence": "le concierge ne répondra qu'aux urgences"
+      }
+    ]
+  },
+  "writing": {
+    "type": "message",
+    "prompt": {
+      "en": "You are Aarav. Reply to Julie's voicemail by text or email: say you got her message, suggest an Indian restaurant and explain why, propose a time, and say what you can't do (use at least two different negations).",
+      "hi": "आप आरव हैं। जूली के वॉइसमेल का जवाब मैसेज या ईमेल से दीजिए: बताइए कि आपको उसका संदेश मिला, एक भारतीय रेस्टोरेंट सुझाइए और कारण बताइए, एक समय प्रस्तावित कीजिए, और बताइए कि आप क्या नहीं कर सकते (कम से कम दो अलग निषेधों के साथ)।",
+      "fr": "Répondez au message vocal de Julie."
+    },
+    "minWords": 60,
+    "maxWords": 110,
+    "hints": [
+      {
+        "en": "Write in correct written French: keep ne in every negation.",
+        "hi": "सही लिखित फ़्रेंच में लिखिए: हर निषेध में ne रखिए।"
+      },
+      {
+        "en": "Use a comparison to explain your choice (moins cher, plus près).",
+        "hi": "अपनी पसंद समझाने के लिए तुलना का प्रयोग कीजिए (moins cher, plus près)।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "J'ai bien reçu ton message.",
+        "en": "I got your message.",
+        "hi": "मुझे तुम्हारा संदेश मिल गया।",
+        "pron": "झ़े ब्यैँ ग़ö-सü तोँ मे-साझ़"
+      },
+      {
+        "fr": "Je ne suis jamais libre avant …",
+        "en": "I'm never free before …",
+        "hi": "मैं … से पहले कभी ख़ाली नहीं होता/होती",
+        "pron": "झ़ö नö सüई झ़ा-मै लीब्ग़ आ-वाँ"
+      },
+      {
+        "fr": "Qu'est-ce que tu en penses ?",
+        "en": "What do you think (of it)?",
+        "hi": "तुम्हारा क्या ख़याल है?",
+        "pron": "कैस-कö तü आँ पाँस"
+      }
+    ],
+    "model": {
+      "fr": "Salut Julie, j'ai bien reçu ton message. Dommage pour samedi ! Je connais un bon restaurant indien, Le Jardin de Jaipur, rue Sainte-Catherine. Il est moins cher que l'autre et plus près du métro. Mais attention, le samedi soir, il n'y a jamais de place sans réservation. Je ne travaille plus le samedi, alors je suis libre à partir de midi. On peut y aller à dix-neuf heures ? Je n'ai pas encore téléphoné : je le fais demain matin. Tu me dis si ça te va ? À bientôt, Aarav",
+      "en": "Hi Julie, I got your message. Too bad about Saturday! I know a good Indian restaurant, Le Jardin de Jaipur, on Sainte-Catherine Street. It's cheaper than the other one and closer to the metro. But be careful, on Saturday evenings there's never any room without a reservation. I no longer work on Saturdays, so I'm free from noon. Can we go at 7 p.m.? I haven't called yet: I'll do it tomorrow morning. Let me know if that works for you. See you soon, Aarav"
+    },
+    "checklist": [
+      {
+        "en": "Did you use at least two different negations (plus, jamais, rien, personne, que)?",
+        "hi": "क्या आपने कम से कम दो अलग निषेध (plus, jamais, rien, personne, que) इस्तेमाल किए?"
+      },
+      {
+        "en": "Is ne present in every negative sentence?",
+        "hi": "क्या हर नकारात्मक वाक्य में ne है?"
+      },
+      {
+        "en": "Did you answer Julie's question and propose a time?",
+        "hi": "क्या आपने जूली के प्रश्न का जवाब दिया और एक समय सुझाया?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      12,
+      41,
+      43,
+      47,
+      52,
+      54
+    ],
+    "items": [
+      {
+        "fr": "Je ne mange pas de viande.",
+        "en": "I don't eat meat.",
+        "hi": "मैं मांस नहीं खाता/खाती।",
+        "pron": "झ़ö नö माँझ़ पा दö व्याँद"
+      },
+      {
+        "fr": "Hier, j'ai pris le métro.",
+        "en": "Yesterday I took the metro.",
+        "hi": "कल मैंने मेट्रो ली।",
+        "pron": "ई-यैग़ झ़े प्री लö मे-त्रो"
+      },
+      {
+        "fr": "Je n'ai pas compris la question.",
+        "en": "I didn't understand the question.",
+        "hi": "मुझे प्रश्न समझ नहीं आया।",
+        "pron": "झ़ö ने पा कोँ-प्री ला कैस-त्योँ"
+      },
+      {
+        "fr": "Il pleuvait quand je suis sorti.",
+        "en": "It was raining when I went out.",
+        "hi": "जब मैं बाहर निकला तब बारिश हो रही थी।",
+        "pron": "ईल प्लö-वै काँ झ़ö सüई सोग़-ती"
+      },
+      {
+        "fr": "Je lui ai envoyé un texto.",
+        "en": "I sent him/her a text.",
+        "hi": "मैंने उसे एक मैसेज भेजा।",
+        "pron": "झ़ö ल्üई ए आँ-व्वा-ये ऐँ तैक्स-तो"
+      },
+      {
+        "fr": "Ensuite, téléphonez au propriétaire.",
+        "en": "Then call the landlord.",
+        "hi": "फिर मकान-मालिक को फ़ोन कीजिए।",
+        "pron": "आँ-स्üईत ते-ले-फ़ो-ने ओ प्रो-प्री-ए-तैग़"
+      },
+      {
+        "fr": "Je n'ai pas encore reçu ma carte.",
+        "en": "I haven't received my card yet.",
+        "hi": "मुझे अभी तक मेरा कार्ड नहीं मिला।",
+        "pron": "झ़ö ने पा ज़ाँ-कोग़ ग़ö-सü मा काग़्त"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'I no longer live in Delhi.' Choose the correct French.",
+        "hi": "'मैं अब दिल्ली में नहीं रहता।' सही फ़्रेंच चुनिए।"
+      },
+      "options": [
+        "Je n'habite jamais à Delhi.",
+        "Je n'habite que à Delhi.",
+        "Je n'habite pas plus à Delhi.",
+        "Je n'habite plus à Delhi."
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "no longer = ne … plus, without pas.",
+        "hi": "अब नहीं = ne … plus, pas के बिना।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: 'I didn't see anyone.'",
+        "hi": "पूरा कीजिए: 'मैंने किसी को नहीं देखा।'"
+      },
+      "sentence": "Je n'ai vu ___.",
+      "answer": "personne",
+      "accept": [],
+      "explanation": {
+        "en": "ne … personne; personne comes after the participle.",
+        "hi": "ne … personne; personne कृदंत के बाद आता है।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Il ne reste que deux places.' What does it mean?",
+        "hi": "'Il ne reste que deux places.' इसका क्या अर्थ है?"
+      },
+      "options": [
+        "There are only two places left.",
+        "There are no places left.",
+        "There are two places too many."
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "ne … que = only.",
+        "hi": "ne … que = सिर्फ़।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "I have never been to Vancouver.",
+        "hi": "मैं कभी वैंकूवर नहीं गया।"
+      },
+      "answer": "Je ne suis jamais allé à Vancouver.",
+      "accept": [
+        "Je ne suis jamais allée à Vancouver.",
+        "Je ne suis jamais allé(e) à Vancouver."
+      ],
+      "explanation": {
+        "en": "ne … jamais around the auxiliary; jamais goes before the participle.",
+        "hi": "ne … jamais सहायक क्रिया को घेरता है; jamais कृदंत से पहले आता है।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: 'Nobody came.'",
+        "hi": "शब्दों को क्रम में लगाइए: 'कोई नहीं आया।'"
+      },
+      "words": [
+        "venu.",
+        "n'est",
+        "Personne"
+      ],
+      "answer": "Personne n'est venu.",
+      "explanation": {
+        "en": "Personne as subject, then ne before the verb.",
+        "hi": "personne कर्ता के रूप में, फिर क्रिया से पहले ne।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "You hear 'J'sais pas' on a voicemail. What is the full form?",
+        "hi": "वॉइसमेल पर आप 'J'sais pas' सुनते हैं। इसका पूरा रूप क्या है?"
+      },
+      "options": [
+        "Je sais.",
+        "Je ne suis pas.",
+        "Je ne sais pas.",
+        "Je ne sais plus."
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "In casual speech ne is dropped and je shrinks: je ne sais pas → j'sais pas (शे पा).",
+        "hi": "बोलचाल में ne छूट जाता है और je सिकुड़ जाता है: je ne sais pas → j'sais pas (शे पा)।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: 'I have no more time.'",
+        "hi": "पूरा कीजिए: 'मेरे पास अब समय नहीं है।'"
+      },
+      "sentence": "Je n'ai plus ___ temps.",
+      "answer": "de",
+      "accept": [],
+      "explanation": {
+        "en": "After plus (like pas), du becomes de: Je n'ai plus de temps.",
+        "hi": "plus के बाद (pas की तरह) du बदलकर de हो जाता है: Je n'ai plus de temps।"
+      }
+    }
+  ]
+}

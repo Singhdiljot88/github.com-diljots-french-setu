@@ -1,0 +1,933 @@
+{
+  "day": 92,
+  "phase": 5,
+  "title": {
+    "fr": "TEF compréhension écrite : documents administratifs et professionnels",
+    "en": "TEF reading: administrative and professional documents",
+    "hi": "TEF पठन: प्रशासनिक और पेशेवर दस्तावेज़"
+  },
+  "objective": {
+    "en": "Understand memos, procedures and official notices: recognise formal instructions (veuillez, il est demandé de, prière de), dates of effect (à compter du), and nouns made from verbs (le renouvellement, la remise).",
+    "hi": "मेमो, प्रक्रियाएँ और आधिकारिक सूचनाएँ समझना: औपचारिक निर्देश (veuillez, il est demandé de, prière de), लागू होने की तारीख़ (à compter du), और क्रियाओं से बनी संज्ञाएँ (le renouvellement, la remise) पहचानना।"
+  },
+  "prerequisites": {
+    "days": [
+      2,
+      39,
+      58,
+      65,
+      81
+    ],
+    "summary": {
+      "en": "Forms (Day 2), email register (Day 39), formal instructions with the infinitive (Day 58), polite requests (Day 65) and everyday documents (Day 81).",
+      "hi": "फ़ॉर्म (दिन 2), ईमेल की शैली (दिन 39), infinitive वाले औपचारिक निर्देश (दिन 58), शिष्ट अनुरोध (दिन 65) और रोज़मर्रा के दस्तावेज़ (दिन 81)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "la note de service",
+      "en": "internal memo",
+      "hi": "आंतरिक परिपत्र / मेमो",
+      "pron": "ला नॉत दö सैग़-वीस",
+      "ipa": "la nɔt də sɛʁvis",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "note de service"
+    },
+    {
+      "fr": "à compter du",
+      "en": "as of, effective from",
+      "hi": "… से लागू",
+      "pron": "आ कोँ-ते दü",
+      "ipa": "a kɔ̃te dy",
+      "pos": "preposition",
+      "note": {
+        "en": "The p in compter is silent.",
+        "hi": "compter का p नहीं बोला जाता।"
+      }
+    },
+    {
+      "fr": "le délai",
+      "en": "deadline, time allowed",
+      "hi": "समय-सीमा",
+      "pron": "लö दे-लै",
+      "ipa": "lə delɛ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "délai",
+      "note": {
+        "en": "Trap: not 'delay' (= retard). Dans un délai de 10 jours = within 10 days.",
+        "hi": "जाल: इसका मतलब 'देरी' नहीं (देरी = retard)। dans un délai de 10 jours = 10 दिन के अंदर।"
+      }
+    },
+    {
+      "fr": "la date limite",
+      "en": "deadline (date)",
+      "hi": "आख़िरी तारीख़",
+      "pron": "ला दात ली-मीत",
+      "ipa": "la dat limit",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "date limite"
+    },
+    {
+      "fr": "le formulaire",
+      "en": "form",
+      "hi": "फ़ॉर्म / प्रपत्र",
+      "pron": "लö फ़ॉग़-म्ü-लैग़",
+      "ipa": "lə fɔʁmylɛʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "formulaire"
+    },
+    {
+      "fr": "la pièce justificative",
+      "en": "supporting document, proof",
+      "hi": "सबूत का काग़ज़",
+      "pron": "ला प्यैस झ़üस-ती-फ़ी-का-तीव",
+      "ipa": "la pjɛs ʒystifikativ",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "pièce justificative"
+    },
+    {
+      "fr": "le renouvellement",
+      "en": "renewal",
+      "hi": "नवीनीकरण",
+      "pron": "लö ग़ö-नू-वैल-माँ",
+      "ipa": "lə ʁənuvɛlmɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "renouvellement"
+    },
+    {
+      "fr": "la demande de congé",
+      "en": "leave request",
+      "hi": "छुट्टी का आवेदन",
+      "pron": "ला दö-माँद दö कोँ-झ़े",
+      "ipa": "la dəmɑ̃d də kɔ̃ʒe",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "demande"
+    },
+    {
+      "fr": "le supérieur immédiat",
+      "en": "direct supervisor",
+      "hi": "सीधा वरिष्ठ अधिकारी / बॉस",
+      "pron": "लö स्ü-पे-ग़्यöग़ ई-मे-द्या",
+      "ipa": "lə sypeʁjœʁ imedja",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "supérieur"
+    },
+    {
+      "fr": "les ressources humaines",
+      "en": "human resources (HR)",
+      "hi": "मानव संसाधन (एचआर)",
+      "pron": "ले ग़ö-सूग़्स ü-मैन",
+      "ipa": "le ʁəsuʁs ymɛn",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "ressource"
+    },
+    {
+      "fr": "le remboursement",
+      "en": "reimbursement, refund",
+      "hi": "पैसे की वापसी",
+      "pron": "लö ग़ाँ-बूग़स-माँ",
+      "ipa": "lə ʁɑ̃buʁsəmɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "remboursement"
+    },
+    {
+      "fr": "obligatoire",
+      "en": "compulsory",
+      "hi": "अनिवार्य",
+      "pron": "ओ-ब्ली-गा-त्वाग़",
+      "ipa": "ɔbliɡatwaʁ",
+      "pos": "adjective"
+    },
+    {
+      "fr": "préalable",
+      "en": "prior, beforehand",
+      "hi": "पहले से (ज़रूरी)",
+      "pron": "प्रे-आ-लाब्ल",
+      "ipa": "pʁealabl",
+      "pos": "adjective",
+      "note": {
+        "en": "Sans autorisation préalable = without prior permission.",
+        "hi": "sans autorisation préalable = पहले से अनुमति लिए बिना।"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Veuillez remplir le formulaire ci-joint.",
+      "en": "Please fill in the attached form.",
+      "hi": "कृपया संलग्न फ़ॉर्म भरें।",
+      "pron": "वö-ये ग़ाँ-प्लीग़ लö फ़ॉग़-म्ü-लैग़ सी-झ़्वैँ"
+    },
+    {
+      "fr": "Il est demandé aux employés de badger à l'entrée.",
+      "en": "Employees are asked to swipe their badge at the entrance.",
+      "hi": "कर्मचारियों से अनुरोध है कि प्रवेश पर अपना बैज स्कैन करें।",
+      "pron": "इ-लै द-माँ-दे ओ ज़ाँ-प्ल्वा-ये दö बा-झ़े आ लाँ-त्ग़े"
+    },
+    {
+      "fr": "À compter du 1er janvier, la procédure change.",
+      "en": "As of 1 January, the procedure changes.",
+      "hi": "1 जनवरी से प्रक्रिया बदल रही है।",
+      "pron": "आ कोँ-ते दü प्रö-म्ये झ़ाँ-व्ये ला प्रो-से-द्üग़ शाँझ़"
+    },
+    {
+      "fr": "Prière de ne pas stationner devant la porte.",
+      "en": "Please do not park in front of the door.",
+      "hi": "कृपया दरवाज़े के सामने गाड़ी न खड़ी करें।",
+      "pron": "प्री-यैग़ दö नö पा स्ता-स्यो-ने दö-वाँ ला पॉग़्त"
+    },
+    {
+      "fr": "Toute demande incomplète sera refusée.",
+      "en": "Any incomplete request will be refused.",
+      "hi": "हर अधूरा आवेदन अस्वीकार किया जाएगा।",
+      "pron": "तूत द-माँद ऐँ-कोँ-प्लैत सö-ग़ा ग़ö-फ़ü-ज़े"
+    },
+    {
+      "fr": "Dans un délai de dix jours ouvrables.",
+      "en": "Within ten working days.",
+      "hi": "दस कार्य-दिवसों के अंदर।",
+      "pron": "दाँ ज़ैँ दे-लै दö दी झ़ूग़ ऊ-व्ग़ाब्ल"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Administrative French: formal instructions and nominalisation",
+      "hi": "प्रशासनिक फ़्रेंच: औपचारिक निर्देश और क्रिया से संज्ञा बनाना"
+    },
+    "explanation": {
+      "en": "Official and workplace documents avoid 'you must'. Instead they use: Veuillez + infinitive (please…); Il est demandé de / Il est obligatoire de + infinitive; Prière de + infinitive; Merci de + infinitive; the infinitive alone (Ne pas jeter); the future for rules (Toute demande incomplète sera refusée); the passive (Les documents doivent être remis). Dates of effect: à compter du / à partir du / dès le. Documents also turn verbs into nouns to be short and impersonal (nominalisation): renouveler → le renouvellement; remettre → la remise; fermer → la fermeture; inscrire → l'inscription; rembourser → le remboursement; arriver → l'arrivée. In a TEF question, the answer often uses the verb while the text uses the noun (or the reverse): 'la remise des badges' = 'on rend les badges'.",
+      "hi": "आधिकारिक और कार्यस्थल के दस्तावेज़ 'आपको करना होगा' कहने से बचते हैं। इसकी जगह ये इस्तेमाल होते हैं: Veuillez + infinitive (कृपया…); Il est demandé de / Il est obligatoire de + infinitive; Prière de + infinitive; Merci de + infinitive; अकेला infinitive (Ne pas jeter); नियमों के लिए भविष्य काल (Toute demande incomplète sera refusée); passive (Les documents doivent être remis)। लागू होने की तारीख़: à compter du / à partir du / dès le। दस्तावेज़ छोटे और अवैयक्तिक रहने के लिए क्रियाओं को संज्ञा बनाते हैं (nominalisation): renouveler → le renouvellement; remettre → la remise; fermer → la fermeture; inscrire → l'inscription; rembourser → le remboursement; arriver → l'arrivée। TEF के सवाल में जवाब अक्सर क्रिया इस्तेमाल करता है जबकि पाठ में संज्ञा होती है (या उलटा): 'la remise des badges' = 'on rend les badges'।"
+    },
+    "comparison": {
+      "en": "Hindi official language does the same with Sanskrit-based nouns: 'नवीनीकरण', 'प्रस्तुतीकरण', 'अनुपालन' instead of everyday verbs. If you can read a Hindi government notice, you already know the strategy: turn the noun back into a simple verb in your head.",
+      "hi": "हिंदी की सरकारी भाषा भी यही करती है: रोज़मर्रा की क्रियाओं की जगह 'नवीनीकरण', 'प्रस्तुतीकरण', 'अनुपालन' जैसी संज्ञाएँ। अगर आप हिंदी की सरकारी सूचना पढ़ सकते हैं, तो आप रणनीति जानते हैं: संज्ञा को मन में सीधी क्रिया में बदल लीजिए।"
+    },
+    "examples": [
+      {
+        "fr": "Veuillez joindre une pièce justificative.",
+        "en": "Please attach a supporting document.",
+        "hi": "कृपया सबूत का एक काग़ज़ लगाएँ।",
+        "pron": "वö-ये झ़्वैँद्ग़ üन प्यैस झ़üस-ती-फ़ी-का-तीव"
+      },
+      {
+        "fr": "Le renouvellement de la carte doit être fait avant le 31 mars. (= Il faut renouveler la carte.)",
+        "en": "The card must be renewed before 31 March.",
+        "hi": "कार्ड का नवीनीकरण 31 मार्च से पहले होना चाहिए।",
+        "pron": "लö ग़ö-नू-वैल-माँ दö ला काग़्त द्वा तैत्ग़ फ़ै आ-वाँ लö त्ग़ाँत-ए-ऐँ माग़्स"
+      },
+      {
+        "fr": "La fermeture des bureaux aura lieu à 15 h. (= Les bureaux fermeront à 15 h.)",
+        "en": "The offices will close at 3 p.m.",
+        "hi": "दफ़्तर दोपहर 3 बजे बंद होंगे।",
+        "pron": "ला फ़ैग़-मö-त्üग़ दे ब्ü-ग़ो ओ-ग़ा ल्यö आ काँ-ज़öग़"
+      },
+      {
+        "fr": "Il est obligatoire de porter le badge.",
+        "en": "Wearing the badge is compulsory.",
+        "hi": "बैज पहनना अनिवार्य है।",
+        "pron": "इ-लै तो-ब्ली-गा-त्वाग़ दö पॉग़-ते लö बाझ़"
+      },
+      {
+        "fr": "Les demandes doivent être remises aux ressources humaines.",
+        "en": "Requests must be handed in to HR.",
+        "hi": "आवेदन मानव संसाधन विभाग को सौंपे जाने चाहिए।",
+        "pron": "ले द-माँद द्वाव ज़ैत्ग़ ग़ö-मीज़ ओ ग़ö-सूग़्स ü-मैन"
+      },
+      {
+        "fr": "Merci de prévenir votre supérieur immédiat.",
+        "en": "Please inform your direct supervisor.",
+        "hi": "कृपया अपने सीधे वरिष्ठ को सूचित करें।",
+        "pron": "मैग़-सी दö प्रे-व-नीग़ वॉत्ग़ स्ü-पे-ग़्यöग़ ई-मे-द्या"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "'Délai' is a time limit, not a delay: 'un délai de 48 heures' = you have 48 hours.",
+        "hi": "'délai' समय-सीमा है, देरी नहीं: 'un délai de 48 heures' = आपके पास 48 घंटे हैं।"
+      },
+      {
+        "en": "'Ci-joint' = attached (in this email/letter); 'ci-dessous' = below; 'ci-dessus' = above.",
+        "hi": "'ci-joint' = संलग्न; 'ci-dessous' = नीचे; 'ci-dessus' = ऊपर।"
+      },
+      {
+        "en": "'Sous réserve de' = subject to (a condition) — the thing is NOT guaranteed.",
+        "hi": "'sous réserve de' = … की शर्त पर — यह पक्का नहीं है।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Formal vocabulary pronunciation",
+    "tip": {
+      "en": "Long administrative words are easier in syllables, with the stress on the last one: re-nou-vel-le-MENT, jus-ti-fi-ca-TIVE. Don't pronounce the e in the middle of renouvellement or remboursement strongly.",
+      "hi": "लंबे प्रशासनिक शब्द अक्षरों में बाँटकर आसान होते हैं, ज़ोर आख़िरी पर: re-nou-vel-le-MENT, jus-ti-fi-ca-TIVE। renouvellement या remboursement के बीच वाले e को ज़ोर से मत बोलिए।"
+    },
+    "words": [
+      {
+        "fr": "le renouvellement",
+        "en": "renewal",
+        "hi": "नवीनीकरण",
+        "pron": "लö ग़ö-नू-वैल-माँ",
+        "ipa": "lə ʁənuvɛlmɑ̃"
+      },
+      {
+        "fr": "justificative",
+        "en": "supporting (document)",
+        "hi": "सबूत वाला",
+        "pron": "झ़üस-ती-फ़ी-का-तीव",
+        "ipa": "ʒystifikativ"
+      },
+      {
+        "fr": "ressources humaines",
+        "en": "human resources",
+        "hi": "मानव संसाधन",
+        "pron": "ग़ö-सूग़्स ü-मैन",
+        "ipa": "ʁəsuʁs ymɛn"
+      },
+      {
+        "fr": "préalablement",
+        "en": "beforehand",
+        "hi": "पहले से",
+        "pron": "प्रे-आ-ला-ब्लö-माँ",
+        "ipa": "pʁealabləmɑ̃"
+      },
+      {
+        "fr": "à compter du",
+        "en": "as of",
+        "hi": "… से लागू",
+        "pron": "आ कोँ-ते दü",
+        "ipa": "a kɔ̃te dy"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Message vocal des ressources humaines",
+      "en": "A voicemail from human resources"
+    },
+    "type": "voicemail",
+    "mode": "natural",
+    "context": {
+      "en": "Amit has just been hired by a logistics company. A human resources officer leaves him a voicemail with instructions for his first day.",
+      "hi": "अमित को अभी-अभी एक लॉजिस्टिक्स कंपनी में नौकरी मिली है। मानव संसाधन विभाग की एक अधिकारी उसे पहले दिन के निर्देशों के साथ वॉइसमेल छोड़ती है।"
+    },
+    "lines": [
+      {
+        "speaker": "Mme Bergeron",
+        "voice": "f1",
+        "fr": "Bonjour, monsieur Sharma, ici Isabelle Bergeron, du service des ressources humaines de Boréal Logistique.",
+        "en": "Hello, Mr Sharma, this is Isabelle Bergeron from the human resources department at Boréal Logistique.",
+        "hi": "नमस्ते, शर्मा जी, मैं बोरेआल लॉजिस्टिक के मानव संसाधन विभाग से इज़ाबेल बैर्झ़रोँ बोल रही हूँ।"
+      },
+      {
+        "speaker": "Mme Bergeron",
+        "voice": "f1",
+        "fr": "Je vous appelle pour confirmer votre entrée en fonction le lundi 3 février, à huit heures trente.",
+        "en": "I'm calling to confirm your start date on Monday 3 February, at 8:30 a.m.",
+        "hi": "मैं आपके काम शुरू करने की तारीख़, सोमवार 3 फ़रवरी सुबह 8:30, की पुष्टि करने के लिए फ़ोन कर रही हूँ।"
+      },
+      {
+        "speaker": "Mme Bergeron",
+        "voice": "f1",
+        "fr": "Veuillez vous présenter à l'accueil du bâtiment B, et non au bâtiment principal, où ont lieu des travaux en ce moment.",
+        "en": "Please go to the reception of building B, not the main building, where work is under way at the moment.",
+        "hi": "कृपया बिल्डिंग B के रिसेप्शन पर आइए, मुख्य बिल्डिंग में नहीं, जहाँ अभी काम चल रहा है।"
+      },
+      {
+        "speaker": "Mme Bergeron",
+        "voice": "f1",
+        "fr": "N'oubliez pas d'apporter une pièce d'identité avec photo, votre numéro d'assurance sociale et un spécimen de chèque pour le dépôt direct de votre salaire.",
+        "en": "Don't forget to bring photo ID, your social insurance number and a void cheque for direct deposit of your salary.",
+        "hi": "फ़ोटो वाला पहचान पत्र, अपना सोशल इंश्योरेंस नंबर और वेतन के सीधे जमा के लिए एक नमूना चेक लाना न भूलें।"
+      },
+      {
+        "speaker": "Mme Bergeron",
+        "voice": "f1",
+        "fr": "La matinée sera consacrée à la formation obligatoire en santé et sécurité. Des chaussures de sécurité vous seront remises sur place.",
+        "en": "The morning will be devoted to the compulsory health and safety training. Safety shoes will be given to you on site.",
+        "hi": "सुबह का समय अनिवार्य स्वास्थ्य और सुरक्षा प्रशिक्षण में जाएगा। सुरक्षा जूते आपको वहीं दिए जाएँगे।"
+      },
+      {
+        "speaker": "Mme Bergeron",
+        "voice": "f1",
+        "fr": "Pour cela, il est demandé de nous indiquer votre pointure avant vendredi, par courriel.",
+        "en": "For that, you are asked to tell us your shoe size before Friday, by email.",
+        "hi": "इसके लिए, कृपया शुक्रवार से पहले ईमेल से अपने जूते का नाप बताइए।"
+      },
+      {
+        "speaker": "Mme Bergeron",
+        "voice": "f1",
+        "fr": "L'après-midi, vous rencontrerez votre supérieur immédiat, monsieur Paquette, qui vous fera visiter l'entrepôt.",
+        "en": "In the afternoon you will meet your direct supervisor, Mr Paquette, who will show you around the warehouse.",
+        "hi": "दोपहर में आप अपने सीधे वरिष्ठ, पाकेत जी, से मिलेंगे, जो आपको गोदाम दिखाएँगे।"
+      },
+      {
+        "speaker": "Mme Bergeron",
+        "voice": "f1",
+        "fr": "Concernant le stationnement, la vignette vous sera remise à la fin de la journée. D'ici là, vous pouvez utiliser le stationnement des visiteurs.",
+        "en": "As for parking, the permit will be given to you at the end of the day. Until then, you can use the visitors' parking.",
+        "hi": "पार्किंग के बारे में, स्टिकर आपको दिन के अंत में दिया जाएगा। तब तक आप आगंतुकों की पार्किंग इस्तेमाल कर सकते हैं।"
+      },
+      {
+        "speaker": "Mme Bergeron",
+        "voice": "f1",
+        "fr": "Enfin, merci de me retourner le contrat signé dès que possible. Vous l'avez reçu en pièce jointe hier.",
+        "en": "Finally, please send me back the signed contract as soon as possible. You received it as an attachment yesterday.",
+        "hi": "अंत में, कृपया हस्ताक्षर किया हुआ अनुबंध जल्द से जल्द लौटा दीजिए। यह आपको कल अटैचमेंट में मिला था।"
+      },
+      {
+        "speaker": "Mme Bergeron",
+        "voice": "f1",
+        "fr": "Pour toute question, vous pouvez me joindre au 819 555-0133, poste 214. Bonne fin de journée et bienvenue dans l'équipe !",
+        "en": "For any questions, you can reach me at 819 555-0133, extension 214. Have a good evening and welcome to the team!",
+        "hi": "किसी भी सवाल के लिए आप मुझसे 819 555-0133, एक्सटेंशन 214 पर संपर्क कर सकते हैं। आपकी शाम शुभ हो और टीम में स्वागत है!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "Where must Amit go on his first day?"
+        },
+        "options": [
+          "The visitors' parking",
+          "The main building",
+          "Reception of building B",
+          "The warehouse directly"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'À l'accueil du bâtiment B, et non au bâtiment principal' (because of work).",
+          "hi": "'à l'accueil du bâtiment B, et non au bâtiment principal' (काम चलने की वजह से)।"
+        },
+        "kind": "literal",
+        "evidence": "Veuillez vous présenter à l'accueil du bâtiment B, et non au bâtiment principal"
+      },
+      {
+        "q": {
+          "en": "Why must he bring a void cheque?"
+        },
+        "options": [
+          "For direct deposit of his salary",
+          "For the parking permit",
+          "To open a bank account",
+          "To pay for his shoes"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Un spécimen de chèque pour le dépôt direct de votre salaire.'",
+          "hi": "'un spécimen de chèque pour le dépôt direct de votre salaire' — वेतन सीधे जमा करने के लिए।"
+        },
+        "kind": "literal",
+        "evidence": "un spécimen de chèque pour le dépôt direct de votre salaire"
+      },
+      {
+        "q": {
+          "en": "What will happen in the morning?"
+        },
+        "options": [
+          "A meeting with Mr Paquette",
+          "Signing the contract",
+          "A visit of the warehouse",
+          "Compulsory health and safety training"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'La matinée sera consacrée à la formation obligatoire en santé et sécurité.' The visit is in the afternoon.",
+          "hi": "'la matinée sera consacrée à la formation obligatoire…'। गोदाम का दौरा दोपहर में है।"
+        },
+        "kind": "literal",
+        "evidence": "La matinée sera consacrée à la formation obligatoire en santé et sécurité."
+      },
+      {
+        "q": {
+          "en": "What must Amit send by email before Friday?"
+        },
+        "options": [
+          "His parking request",
+          "His shoe size",
+          "His ID",
+          "His bank details"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Il est demandé de nous indiquer votre pointure avant vendredi, par courriel.' Pointure = shoe size.",
+          "hi": "'il est demandé de nous indiquer votre pointure avant vendredi'। pointure = जूते का नाप।"
+        },
+        "kind": "vocabulary",
+        "evidence": "il est demandé de nous indiquer votre pointure avant vendredi, par courriel"
+      },
+      {
+        "q": {
+          "en": "Where can he park on the first day?"
+        },
+        "options": [
+          "Nowhere; he must take the bus",
+          "In front of building B",
+          "In the visitors' parking",
+          "Anywhere on the street"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "The permit comes at the end of the day; until then, the visitors' parking.",
+          "hi": "स्टिकर दिन के अंत में मिलेगा; तब तक आगंतुकों की पार्किंग।"
+        },
+        "kind": "inference",
+        "evidence": "D'ici là, vous pouvez utiliser le stationnement des visiteurs."
+      },
+      {
+        "q": {
+          "en": "What must he do as soon as possible?"
+        },
+        "options": [
+          "Return the signed contract",
+          "Buy safety shoes",
+          "Visit the warehouse",
+          "Call Mr Paquette"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Merci de me retourner le contrat signé dès que possible.'",
+          "hi": "'merci de me retourner le contrat signé dès que possible' — हस्ताक्षरित अनुबंध लौटाना।"
+        },
+        "kind": "literal",
+        "evidence": "merci de me retourner le contrat signé dès que possible"
+      }
+    ],
+    "dictation": [
+      "Veuillez vous présenter à l'accueil du bâtiment B.",
+      "Des chaussures de sécurité vous seront remises sur place.",
+      "Merci de me retourner le contrat signé dès que possible."
+    ],
+    "gapFill": {
+      "text": "___ vous présenter à l'accueil du bâtiment B. Il est ___ de nous indiquer votre pointure avant vendredi. ___ de me retourner le contrat signé.",
+      "answers": [
+        "Veuillez",
+        "demandé",
+        "Merci"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "presentation",
+    "instructions": {
+      "en": "A new colleague doesn't understand today's memo. Explain it in simple, spoken French: turn the formal nouns into verbs and the formulas into 'il faut / tu dois / tu peux'.",
+      "hi": "एक नए सहकर्मी को आज का मेमो समझ नहीं आ रहा। उसे आसान बोलचाल की फ़्रेंच में समझाइए: औपचारिक संज्ञाओं को क्रियाओं में और वाक्यांशों को 'il faut / tu dois / tu peux' में बदलिए।"
+    },
+    "prompts": [
+      {
+        "fr": "À partir du 1er mars, on demande les congés en ligne.",
+        "en": "From 1 March, we request leave online.",
+        "hi": "1 मार्च से छुट्टी ऑनलाइन माँगी जाती है।",
+        "pron": "आ पाग़-तीग़ दü प्रö-म्ये माग़्स ओँ द-माँद ले कोँ-झ़े आँ लीन",
+        "model": "En gros, à partir du 1er mars, on ne remplit plus le formulaire papier : on demande nos congés en ligne."
+      },
+      {
+        "fr": "Il faut faire la demande trois semaines avant.",
+        "en": "You have to make the request three weeks before.",
+        "hi": "आवेदन तीन हफ़्ते पहले करना होता है।",
+        "pron": "इल फ़ो फ़ैग़ ला द-माँद त्ग़्वा स्मैन आ-वाँ"
+      },
+      {
+        "fr": "Ton chef doit répondre dans les cinq jours.",
+        "en": "Your boss has to answer within five days.",
+        "hi": "तुम्हारे बॉस को पाँच दिन के अंदर जवाब देना होता है।",
+        "pron": "तोँ शैफ़ द्वा ग़े-पोँद्ग़ दाँ ले सैँ झ़ूग़"
+      },
+      {
+        "fr": "Pendant les travaux, on entre par la porte arrière.",
+        "en": "During the work, we go in through the back door.",
+        "hi": "काम के दौरान हम पीछे के दरवाज़े से अंदर जाते हैं।",
+        "pron": "पाँ-दाँ ले त्ग़ा-वो ओँ नाँत्ग़ पाग़ ला पॉग़्त आ-ग़्यैग़"
+      },
+      {
+        "fr": "Si tu es malade, préviens ton chef avant neuf heures.",
+        "en": "If you're sick, tell your boss before nine.",
+        "hi": "अगर बीमार हो, तो नौ बजे से पहले अपने बॉस को बता दो।",
+        "pron": "सी तü ए मा-लाद प्रे-व्यैँ तोँ शैफ़ आ-वाँ नö-वöग़"
+      }
+    ],
+    "tip": {
+      "en": "Explaining a formal text in informal words is exactly what TEF reading questions do: if you can paraphrase, you can find the right option.",
+      "hi": "औपचारिक पाठ को अनौपचारिक शब्दों में समझाना ठीक वही है जो TEF पठन के सवाल करते हैं: अगर आप दूसरे शब्दों में कह सकते हैं, तो सही विकल्प ढूँढ सकते हैं।"
+    }
+  },
+  "reading": {
+    "genre": "notice",
+    "title": "Note de service — Boréal Logistique (document fictif)",
+    "text": "NOTE DE SERVICE\nDe : Direction des ressources humaines\nÀ : Tout le personnel\nObjet : Nouvelle procédure de demande de congés et travaux au bâtiment principal\n\n1. Demandes de congés\nÀ compter du 1er mars, les demandes de congés annuels se feront uniquement en ligne, sur le portail des employés. Le formulaire papier ne sera plus accepté. Toute demande devra être déposée au moins trois semaines avant la date de départ prévue. Le supérieur immédiat disposera d'un délai de cinq jours ouvrables pour l'approuver ou la refuser. Pour les congés de plus de deux semaines consécutives, une autorisation préalable de la direction est obligatoire.\n\nEn cas de maladie, il est demandé aux employés de prévenir leur supérieur avant 9 h. Une pièce justificative (billet médical) sera exigée à partir du troisième jour d'absence.\n\n2. Travaux au bâtiment principal\nLa rénovation de la cafétéria débutera le 10 mars et durera environ six semaines. Pendant cette période, l'entrée principale sera fermée. Le personnel est prié d'utiliser la porte arrière, du côté du stationnement. Des micro-ondes seront mis à la disposition des employés dans la salle de réunion du 2e étage.\n\nNous vous remercions de votre collaboration. Pour toute question, veuillez écrire à rh@boreal-exemple.ca.",
+    "translation": {
+      "en": "INTERNAL MEMO\nFrom: Human Resources Department\nTo: All staff\nSubject: New leave request procedure and work in the main building\n\n1. Leave requests\nAs of 1 March, requests for annual leave will be made only online, on the employee portal. The paper form will no longer be accepted. Every request must be submitted at least three weeks before the planned departure date. The direct supervisor will have five working days to approve or refuse it. For leave of more than two consecutive weeks, prior authorisation from management is compulsory.\n\nIn case of illness, employees are asked to inform their supervisor before 9 a.m. A supporting document (medical note) will be required from the third day of absence.\n\n2. Work in the main building\nThe renovation of the cafeteria will begin on 10 March and will last about six weeks. During this period, the main entrance will be closed. Staff are asked to use the back door, on the parking side. Microwaves will be made available to employees in the meeting room on the 2nd floor.\n\nThank you for your cooperation. For any question, please write to rh@boreal-exemple.ca.",
+      "hi": "आंतरिक मेमो\nप्रेषक: मानव संसाधन विभाग\nप्राप्तकर्ता: सभी कर्मचारी\nविषय: छुट्टी के आवेदन की नई प्रक्रिया और मुख्य बिल्डिंग में काम\n\n1. छुट्टी के आवेदन\n1 मार्च से सालाना छुट्टियों के आवेदन सिर्फ़ ऑनलाइन, कर्मचारी पोर्टल पर किए जाएँगे। काग़ज़ वाला फ़ॉर्म अब स्वीकार नहीं होगा। हर आवेदन जाने की तय तारीख़ से कम से कम तीन हफ़्ते पहले जमा करना होगा। सीधे वरिष्ठ के पास उसे मंज़ूर या नामंज़ूर करने के लिए पाँच कार्य-दिवस होंगे। लगातार दो हफ़्ते से ज़्यादा की छुट्टी के लिए प्रबंधन की पहले से अनुमति अनिवार्य है।\n\nबीमारी की स्थिति में, कर्मचारियों से अनुरोध है कि सुबह 9 बजे से पहले अपने वरिष्ठ को सूचित करें। अनुपस्थिति के तीसरे दिन से सबूत का काग़ज़ (डॉक्टर का पर्चा) माँगा जाएगा।\n\n2. मुख्य बिल्डिंग में काम\nकैफ़ेटेरिया का नवीनीकरण 10 मार्च से शुरू होगा और लगभग छह हफ़्ते चलेगा। इस दौरान मुख्य प्रवेश-द्वार बंद रहेगा। कर्मचारियों से अनुरोध है कि पार्किंग की तरफ़ वाला पिछला दरवाज़ा इस्तेमाल करें। दूसरी मंज़िल के मीटिंग रूम में कर्मचारियों के लिए माइक्रोवेव रखे जाएँगे।\n\nआपके सहयोग के लिए धन्यवाद। किसी भी सवाल के लिए कृपया rh@boreal-exemple.ca पर लिखें।"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "From 1 March, how do employees request annual leave?"
+        },
+        "options": [
+          "With the paper form",
+          "Online, on the employee portal",
+          "By phone to HR",
+          "By talking to their supervisor"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Uniquement en ligne, sur le portail des employés.'",
+          "hi": "'uniquement en ligne, sur le portail des employés' — सिर्फ़ ऑनलाइन।"
+        },
+        "kind": "literal",
+        "evidence": "les demandes de congés annuels se feront uniquement en ligne, sur le portail des employés"
+      },
+      {
+        "q": {
+          "en": "You want to leave on 30 April. What is the latest day to submit your request?"
+        },
+        "options": [
+          "23 April",
+          "25 April",
+          "30 March",
+          "9 April"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "At least three weeks (21 days) before 30 April → 9 April.",
+          "hi": "30 अप्रैल से कम से कम तीन हफ़्ते (21 दिन) पहले → 9 अप्रैल।"
+        },
+        "kind": "inference",
+        "evidence": "au moins trois semaines avant la date de départ prévue"
+      },
+      {
+        "q": {
+          "en": "What does 'un délai de cinq jours ouvrables' mean here?"
+        },
+        "options": [
+          "The supervisor has up to five working days to answer",
+          "Leave lasts five days",
+          "Employees wait five weeks",
+          "The supervisor answers after a five-day delay"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "Délai = time allowed, not delay.",
+          "hi": "délai = दिया गया समय, देरी नहीं।"
+        },
+        "kind": "vocabulary",
+        "evidence": "disposera d'un délai de cinq jours ouvrables pour l'approuver ou la refuser"
+      },
+      {
+        "q": {
+          "en": "Who needs management's prior authorisation?"
+        },
+        "options": [
+          "New employees",
+          "Everyone taking leave",
+          "People taking more than two weeks in a row",
+          "Sick employees"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Pour les congés de plus de deux semaines consécutives, une autorisation préalable…'",
+          "hi": "'pour les congés de plus de deux semaines consécutives…' — लगातार दो हफ़्ते से ज़्यादा।"
+        },
+        "kind": "literal",
+        "evidence": "Pour les congés de plus de deux semaines consécutives, une autorisation préalable de la direction est obligatoire."
+      },
+      {
+        "q": {
+          "en": "You are sick for two days. Do you need a medical note?"
+        },
+        "options": [
+          "Yes, from the first day",
+          "No, only from the third day",
+          "Yes, always",
+          "Only if HR asks"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'À partir du troisième jour d'absence.'",
+          "hi": "'à partir du troisième jour d'absence' — तीसरे दिन से।"
+        },
+        "kind": "inference",
+        "evidence": "Une pièce justificative (billet médical) sera exigée à partir du troisième jour d'absence."
+      },
+      {
+        "q": {
+          "en": "During the renovation, where can employees heat their lunch?"
+        },
+        "options": [
+          "In the parking lot",
+          "Nowhere",
+          "In the cafeteria",
+          "In the 2nd-floor meeting room"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Des micro-ondes … dans la salle de réunion du 2e étage.'",
+          "hi": "'des micro-ondes … dans la salle de réunion du 2e étage' — दूसरी मंज़िल का मीटिंग रूम।"
+        },
+        "kind": "inference",
+        "evidence": "Des micro-ondes seront mis à la disposition des employés dans la salle de réunion du 2e étage."
+      }
+    ]
+  },
+  "writing": {
+    "type": "email",
+    "prompt": {
+      "en": "Write a professional email to human resources. You want to take three weeks of leave in July to visit your family in India. Ask whether you need prior authorisation, explain your dates, and ask one other question about the new procedure.",
+      "hi": "मानव संसाधन विभाग को एक पेशेवर ईमेल लिखिए। आप भारत में अपने परिवार से मिलने के लिए जुलाई में तीन हफ़्ते की छुट्टी लेना चाहते हैं। पूछिए कि क्या पहले से अनुमति चाहिए, अपनी तारीख़ें बताइए, और नई प्रक्रिया के बारे में एक और सवाल पूछिए।"
+    },
+    "minWords": 90,
+    "maxWords": 150,
+    "hints": [
+      {
+        "en": "Object line, then Madame, Monsieur, (or Bonjour Madame Bergeron,).",
+        "hi": "विषय पंक्ति, फिर Madame, Monsieur, (या Bonjour Madame Bergeron,)।"
+      },
+      {
+        "en": "Use the conditional for requests: je souhaiterais, pourriez-vous.",
+        "hi": "अनुरोध के लिए conditionnel: je souhaiterais, pourriez-vous।"
+      },
+      {
+        "en": "Close with 'Je vous remercie de votre réponse. Cordialement,'.",
+        "hi": "'Je vous remercie de votre réponse. Cordialement,' से ख़त्म कीजिए।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Je souhaiterais prendre trois semaines de congé.",
+        "en": "I would like to take three weeks of leave.",
+        "hi": "मैं तीन हफ़्ते की छुट्टी लेना चाहूँगा।",
+        "pron": "झ़ö स्वै-त्ग़ै प्राँद्ग़ त्ग़्वा स्मैन दö कोँ-झ़े"
+      },
+      {
+        "fr": "Pourriez-vous me confirmer si…",
+        "en": "Could you confirm whether…",
+        "hi": "क्या आप पुष्टि कर सकते हैं कि क्या…",
+        "pron": "पू-ग़्ये वू मö कोँ-फ़ीग़-मे सी"
+      },
+      {
+        "fr": "Je vous remercie de votre réponse.",
+        "en": "Thank you for your reply.",
+        "hi": "आपके जवाब के लिए धन्यवाद।",
+        "pron": "झ़ö वू ग़ö-मैग़-सी दö वॉत्ग़ ग़े-पोँस"
+      }
+    ],
+    "model": {
+      "fr": "Objet : Demande d'information — congé en juillet\n\nBonjour Madame Bergeron,\n\nJe souhaiterais prendre trois semaines de congé, du lundi 7 au vendredi 25 juillet, afin de rendre visite à ma famille en Inde. D'après la note de service du 15 février, une autorisation préalable de la direction est obligatoire pour les congés de plus de deux semaines. Pourriez-vous me confirmer si je dois envoyer cette demande à la direction avant de la déposer sur le portail ? Par ailleurs, je voudrais savoir s'il est possible de prendre deux jours sans solde à la fin de mes vacances. Je vous remercie de votre réponse.\n\nCordialement,\nAmit Sharma\nPréposé à l'entrepôt, poste 305",
+      "en": "Subject: Request for information — leave in July\n\nHello Mrs Bergeron,\n\nI would like to take three weeks of leave, from Monday 7 to Friday 25 July, in order to visit my family in India. According to the memo of 15 February, prior authorisation from management is compulsory for leave of more than two weeks. Could you confirm whether I must send this request to management before submitting it on the portal? In addition, I would like to know if it is possible to take two unpaid days at the end of my holiday. Thank you for your reply.\n\nKind regards,\nAmit Sharma\nWarehouse clerk, extension 305"
+    },
+    "checklist": [
+      {
+        "en": "Is there a clear subject line?",
+        "hi": "क्या साफ़ विषय पंक्ति है?"
+      },
+      {
+        "en": "Did you give exact dates and the reason?",
+        "hi": "क्या आपने सही तारीख़ें और कारण दिए?"
+      },
+      {
+        "en": "Did you ask at least two questions politely (conditional, indirect question)?",
+        "hi": "क्या आपने शिष्टता से कम से कम दो सवाल पूछे (conditionnel, अप्रत्यक्ष प्रश्न)?"
+      },
+      {
+        "en": "Did you close with a formula and your name and position?",
+        "hi": "क्या आपने समापन वाक्य, नाम और पद के साथ अंत किया?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      2,
+      39,
+      58,
+      65,
+      81,
+      86
+    ],
+    "items": [
+      {
+        "fr": "Ne pas déranger.",
+        "en": "Do not disturb.",
+        "hi": "परेशान न करें।",
+        "pron": "नö पा दे-ग़ाँ-झ़े"
+      },
+      {
+        "fr": "Remplissez le formulaire.",
+        "en": "Fill in the form.",
+        "hi": "फ़ॉर्म भरिए।",
+        "pron": "ग़ाँ-प्ली-से लö फ़ॉग़-म्ü-लैग़"
+      },
+      {
+        "fr": "la pièce jointe",
+        "en": "the attachment",
+        "hi": "अटैचमेंट / संलग्न",
+        "pron": "ला प्यैस झ़्वैँत"
+      },
+      {
+        "fr": "Cordialement,",
+        "en": "Kind regards,",
+        "hi": "सादर,",
+        "pron": "कॉग़-द्याल-माँ"
+      },
+      {
+        "fr": "J'aimerais savoir si…",
+        "en": "I'd like to know if…",
+        "hi": "मैं जानना चाहूँगा कि क्या…",
+        "pron": "झ़ै-म्ग़ै सा-वाग़ सी"
+      },
+      {
+        "fr": "une pièce d'identité",
+        "en": "ID",
+        "hi": "पहचान पत्र",
+        "pron": "üन प्यैस दी-दाँ-ती-ते"
+      },
+      {
+        "fr": "sur réservation",
+        "en": "by reservation",
+        "hi": "बुकिंग करके",
+        "pron": "सüग़ ग़े-ज़ैग़-वा-स्योँ"
+      },
+      {
+        "fr": "le quart de travail",
+        "en": "the shift",
+        "hi": "शिफ़्ट",
+        "pron": "लö काग़ दö त्ग़ा-वाय"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Un délai de 48 heures' means…",
+        "hi": "'un délai de 48 heures' का मतलब है…"
+      },
+      "options": [
+        "you have 48 hours (time limit)",
+        "it is 48 hours late",
+        "it is open 48 hours",
+        "a 48-hour delay"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Délai = time allowed / time limit.",
+        "hi": "délai = दिया गया समय / समय-सीमा।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Nominalise: renouveler → le ___",
+        "hi": "संज्ञा बनाइए: renouveler → le ___"
+      },
+      "sentence": "Le ___ de la carte est obligatoire.",
+      "answer": "renouvellement",
+      "accept": [],
+      "explanation": {
+        "en": "Renouveler → le renouvellement (double l).",
+        "hi": "renouveler → le renouvellement (दो l)।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'À compter du 1er avril' means…",
+        "hi": "'À compter du 1er avril' का मतलब है…"
+      },
+      "options": [
+        "before 1 April",
+        "until 1 April",
+        "as of 1 April",
+        "counting on 1 April"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "À compter du = starting from (date of effect).",
+        "hi": "à compter du = … से लागू।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which sentence is the most formal instruction?",
+        "hi": "कौन-सा वाक्य सबसे औपचारिक निर्देश है?"
+      },
+      "options": [
+        "Tu dois signer.",
+        "Signe ici !",
+        "Veuillez signer le document.",
+        "Faut signer."
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Veuillez + infinitive is typical of formal documents.",
+        "hi": "veuillez + infinitive औपचारिक दस्तावेज़ों की पहचान है।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French (formal).",
+        "hi": "फ़्रेंच में लिखिए (औपचारिक)।"
+      },
+      "source": {
+        "en": "Please fill in the attached form.",
+        "hi": "कृपया संलग्न फ़ॉर्म भरें।"
+      },
+      "answer": "Veuillez remplir le formulaire ci-joint.",
+      "accept": [
+        "Veuillez remplir le formulaire ci-joint",
+        "Merci de remplir le formulaire ci-joint."
+      ],
+      "explanation": {
+        "en": "Veuillez + infinitive; ci-joint = attached.",
+        "hi": "veuillez + infinitive; ci-joint = संलग्न।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: Employees are asked to badge in.",
+        "hi": "पूरा कीजिए: कर्मचारियों से बैज स्कैन करने का अनुरोध है।"
+      },
+      "sentence": "Il est ___ aux employés de badger.",
+      "answer": "demandé",
+      "accept": [],
+      "explanation": {
+        "en": "Il est demandé de + infinitive.",
+        "hi": "il est demandé de + infinitive।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put in order: Any incomplete request will be refused.",
+        "hi": "क्रम में रखिए: हर अधूरा आवेदन अस्वीकार किया जाएगा।"
+      },
+      "words": [
+        "demande",
+        "Toute",
+        "sera",
+        "incomplète",
+        "refusée",
+        "."
+      ],
+      "answer": "Toute demande incomplète sera refusée.",
+      "explanation": {
+        "en": "Toute + noun + adjective + future passive.",
+        "hi": "toute + संज्ञा + विशेषण + भविष्य passive।"
+      }
+    }
+  ]
+}

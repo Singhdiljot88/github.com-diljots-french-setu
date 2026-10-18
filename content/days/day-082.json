@@ -1,0 +1,956 @@
+{
+  "day": 82,
+  "phase": 5,
+  "title": {
+    "fr": "TEF compréhension écrite : compléter des phrases et des textes",
+    "en": "TEF reading: completing sentences and texts",
+    "hi": "TEF पठन: वाक्य और पाठ पूरे करना"
+  },
+  "objective": {
+    "en": "Fill gaps in sentences and short texts by deciding what kind of word is missing (connector, preposition, pronoun or verb tense) and checking the words on both sides of the gap.",
+    "hi": "वाक्यों और छोटे पाठों में ख़ाली जगहें भरना — पहले तय करना कि किस तरह का शब्द ग़ायब है (संयोजक, पूर्वसर्ग, सर्वनाम या क्रिया का काल) और फिर ख़ाली जगह के दोनों तरफ़ के शब्द जाँचना।"
+  },
+  "prerequisites": {
+    "days": [
+      45,
+      51,
+      52,
+      62,
+      67,
+      68,
+      69,
+      81
+    ],
+    "summary": {
+      "en": "Time markers il y a / depuis / pendant (Day 45), object pronouns (Days 51–52), cause connectors (Day 62), relative pronouns qui, que, où, dont (Days 67–68), contrast and addition connectors (Day 69).",
+      "hi": "समय-सूचक il y a / depuis / pendant (दिन 45), कर्म सर्वनाम (दिन 51–52), कारण बताने वाले संयोजक (दिन 62), संबंधवाचक सर्वनाम qui, que, où, dont (दिन 67–68), विरोध और जोड़ने वाले संयोजक (दिन 69)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "cependant",
+      "en": "however",
+      "hi": "फिर भी / लेकिन",
+      "pron": "सö-पाँ-दाँ",
+      "ipa": "səpɑ̃dɑ̃",
+      "pos": "adverb",
+      "note": {
+        "en": "Formal 'mais'. Often after a semicolon or at the start of a sentence.",
+        "hi": "'mais' का औपचारिक रूप। अक्सर अर्धविराम के बाद या वाक्य की शुरुआत में।"
+      }
+    },
+    {
+      "fr": "pourtant",
+      "en": "yet, and yet",
+      "hi": "फिर भी / इसके बावजूद",
+      "pron": "पूग़-ताँ",
+      "ipa": "puʁtɑ̃",
+      "pos": "adverb"
+    },
+    {
+      "fr": "en effet",
+      "en": "indeed (confirms or explains)",
+      "hi": "दरअसल / वाक़ई",
+      "pron": "आँ ने-फ़ै",
+      "ipa": "ɑ̃n‿efɛ",
+      "pos": "adverb",
+      "note": {
+        "en": "Trap: it does not mean 'in effect'. It introduces an explanation of what was just said.",
+        "hi": "जाल: इसका मतलब 'असल में लागू' नहीं है। यह अभी कही बात की वजह या पुष्टि बताता है।"
+      }
+    },
+    {
+      "fr": "ainsi",
+      "en": "thus, in this way",
+      "hi": "इस तरह / इसलिए",
+      "pron": "ऐँ-सी",
+      "ipa": "ɛ̃si",
+      "pos": "adverb"
+    },
+    {
+      "fr": "afin de",
+      "en": "in order to",
+      "hi": "… के लिए / ताकि",
+      "pron": "आ-फ़ैँ दö",
+      "ipa": "afɛ̃ də",
+      "pos": "preposition",
+      "note": {
+        "en": "Followed by an infinitive, like 'pour': afin de réserver.",
+        "hi": "इसके बाद infinitive आता है, 'pour' की तरह: afin de réserver।"
+      }
+    },
+    {
+      "fr": "malgré",
+      "en": "despite",
+      "hi": "… के बावजूद",
+      "pron": "माल-ग्रे",
+      "ipa": "malɡʁe",
+      "pos": "preposition",
+      "note": {
+        "en": "Followed by a noun: malgré la neige.",
+        "hi": "इसके बाद संज्ञा आती है: malgré la neige।"
+      }
+    },
+    {
+      "fr": "lorsque",
+      "en": "when (formal)",
+      "hi": "जब",
+      "pron": "लॉग़स-कö",
+      "ipa": "lɔʁskə",
+      "pos": "conjunction"
+    },
+    {
+      "fr": "dès que",
+      "en": "as soon as",
+      "hi": "जैसे ही",
+      "pron": "दै कö",
+      "ipa": "dɛ kə",
+      "pos": "conjunction"
+    },
+    {
+      "fr": "tandis que",
+      "en": "whereas, while",
+      "hi": "जबकि",
+      "pron": "ताँ-दी कö",
+      "ipa": "tɑ̃di kə",
+      "pos": "conjunction"
+    },
+    {
+      "fr": "d'ailleurs",
+      "en": "besides, by the way",
+      "hi": "वैसे भी / वैसे",
+      "pron": "दा-यöग़",
+      "ipa": "dajœʁ",
+      "pos": "adverb"
+    },
+    {
+      "fr": "au lieu de",
+      "en": "instead of",
+      "hi": "… की बजाय",
+      "pron": "ओ ल्यö दö",
+      "ipa": "o ljø də",
+      "pos": "preposition"
+    },
+    {
+      "fr": "la parcelle",
+      "en": "plot (of land)",
+      "hi": "ज़मीन का टुकड़ा / क्यारी",
+      "pron": "ला पाग़-सैल",
+      "ipa": "la paʁsɛl",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "parcelle"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Quel type de mot manque ?",
+      "en": "What type of word is missing?",
+      "hi": "किस तरह का शब्द ग़ायब है?",
+      "pron": "कैल तीप दö मो माँक"
+    },
+    {
+      "fr": "Il y a deux ans, j'ai déménagé.",
+      "en": "Two years ago, I moved.",
+      "hi": "दो साल पहले मैं घर बदलकर आया।",
+      "pron": "इल या दö ज़ाँ झ़े दे-मे-नाँ-झ़े"
+    },
+    {
+      "fr": "J'habite ici depuis deux ans.",
+      "en": "I have lived here for two years.",
+      "hi": "मैं दो साल से यहाँ रहता हूँ।",
+      "pron": "झ़ा-बीत ई-सी दö-प्üई दö ज़ाँ"
+    },
+    {
+      "fr": "Je lui ai dit de rappeler.",
+      "en": "I told him/her to call back.",
+      "hi": "मैंने उससे दोबारा फ़ोन करने को कहा।",
+      "pron": "झ़ö ल्üई ए दी दö ग़ा-प्ले"
+    },
+    {
+      "fr": "C'est le projet dont je vous ai parlé.",
+      "en": "It's the project I told you about.",
+      "hi": "यह वही प्रोजेक्ट है जिसके बारे में मैंने आपको बताया था।",
+      "pron": "सै लö प्रो-झ़ै दोँ झ़ö वू ज़े पाग़-ले"
+    },
+    {
+      "fr": "Malgré la pluie, la fête a eu lieu.",
+      "en": "Despite the rain, the party took place.",
+      "hi": "बारिश के बावजूद पार्टी हुई।",
+      "pron": "माल-ग्रे ला प्लüई ला फ़ैत आ ü ल्यö"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Gapped texts: four questions to ask before you choose",
+      "hi": "ख़ाली जगह वाले पाठ: चुनने से पहले चार सवाल"
+    },
+    "explanation": {
+      "en": "For each gap, ask: (1) What category is missing? Look at the four options — if they are all connectors, the question tests logic; if they are pronouns, it tests the verb's construction; if they are verb forms, it tests tense. (2) Logic: does the next idea add (de plus), contrast (cependant, pourtant), explain (en effet, car) or conclude (donc, ainsi)? (3) Construction: dire à quelqu'un → lui/leur; parler de quelque chose → dont/en; a noun after → malgré, grâce à; an infinitive after → afin de, au lieu de; a full clause after → bien que, lorsque, tandis que. (4) Time: depuis + present for something still going on; il y a + passé composé for a finished event; pendant for a duration. Read the whole sentence with your choice before moving on.",
+      "hi": "हर ख़ाली जगह के लिए पूछिए: (1) किस श्रेणी का शब्द ग़ायब है? चारों विकल्प देखिए — अगर सब संयोजक हैं, तो सवाल तर्क की जाँच करता है; अगर सर्वनाम हैं, तो क्रिया की बनावट की; अगर क्रिया के रूप हैं, तो काल की। (2) तर्क: अगला विचार जोड़ता है (de plus), विरोध करता है (cependant, pourtant), समझाता है (en effet, car) या निष्कर्ष देता है (donc, ainsi)? (3) बनावट: dire à quelqu'un → lui/leur; parler de quelque chose → dont/en; बाद में संज्ञा → malgré, grâce à; बाद में infinitive → afin de, au lieu de; बाद में पूरा उपवाक्य → lorsque, tandis que। (4) समय: अभी तक चल रही बात के लिए depuis + वर्तमान; ख़त्म हो चुकी घटना के लिए il y a + passé composé; अवधि के लिए pendant। आगे बढ़ने से पहले अपने चुने शब्द के साथ पूरा वाक्य पढ़िए।"
+    },
+    "comparison": {
+      "en": "English uses 'for' for both 'depuis' and 'pendant', and Hindi uses 'से' for depuis ('दो साल से') but 'तक/के लिए' for pendant. Follow the Hindi instinct: if you would say 'से' and the action is still happening, French uses depuis + present.",
+      "hi": "अंग्रेज़ी में depuis और pendant दोनों के लिए 'for' आता है, जबकि हिंदी में depuis के लिए 'से' ('दो साल से') और pendant के लिए 'तक/के लिए'। हिंदी की समझ काम आती है: अगर आप 'से' कहेंगे और काम अभी भी चल रहा है, तो फ़्रेंच में depuis + वर्तमान काल।"
+    },
+    "examples": [
+      {
+        "fr": "Le bureau sera fermé lundi ; cependant, vous pouvez déposer vos documents.",
+        "en": "The office will be closed on Monday; however, you can drop off your documents.",
+        "hi": "दफ़्तर सोमवार को बंद रहेगा; फिर भी आप अपने काग़ज़ जमा कर सकते हैं।",
+        "pron": "लö ब्यू-ग़ो सö-ग़ा फ़ैग़-मे लैँ-दी सö-पाँ-दाँ वू पू-वे दे-पो-ज़े वो दो-क्ü-माँ"
+      },
+      {
+        "fr": "Mme Diallo a appelé : je lui ai dit de rappeler à 14 h.",
+        "en": "Ms Diallo called: I told her to call back at 2 p.m.",
+        "hi": "डियालो जी ने फ़ोन किया: मैंने उनसे दोपहर 2 बजे दोबारा फ़ोन करने को कहा।",
+        "pron": "मा-दाम द्या-लो आ आ-प्ले झ़ö ल्üई ए दी दö ग़ा-प्ले आ कातॉग़ज़öग़"
+      },
+      {
+        "fr": "Les travaux ont commencé il y a deux semaines.",
+        "en": "The work started two weeks ago.",
+        "hi": "काम दो हफ़्ते पहले शुरू हुआ।",
+        "pron": "ले त्ग़ा-वो ज़ोँ को-माँ-से इल या दö स्मैन"
+      },
+      {
+        "fr": "Ils cultivent des légumes depuis l'an dernier.",
+        "en": "They have been growing vegetables since last year.",
+        "hi": "वे पिछले साल से सब्ज़ियाँ उगा रहे हैं।",
+        "pron": "इल क्üल-तीव दे ले-ग्üम दö-प्üई लाँ दैग़-न्ये"
+      },
+      {
+        "fr": "Elle a pris le bus au lieu de prendre sa voiture.",
+        "en": "She took the bus instead of taking her car.",
+        "hi": "उसने अपनी गाड़ी लेने की बजाय बस ली।",
+        "pron": "ऐल आ प्री लö ब्üस ओ ल्यö दö प्राँद्ग़ सा व्वा-त्üग़"
+      },
+      {
+        "fr": "Chaque famille reçoit une parcelle dont elle s'occupe.",
+        "en": "Each family gets a plot that it looks after.",
+        "hi": "हर परिवार को एक क्यारी मिलती है जिसकी देखभाल वह करता है।",
+        "pron": "शाक फ़ा-मीय ग़ö-स्वा üन पाग़-सैल दोँ ऐल सो-क्üप"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "'Depuis' + passé composé for a starting point is a classic error: not 'J'ai commencé depuis deux ans' but 'J'ai commencé il y a deux ans'.",
+        "hi": "शुरुआत बताने के लिए 'depuis' + passé composé आम ग़लती है: 'J'ai commencé depuis deux ans' नहीं, बल्कि 'J'ai commencé il y a deux ans'।"
+      },
+      {
+        "en": "'Malgré' takes a noun, not a clause: malgré la neige, not 'malgré il neige'.",
+        "hi": "'malgré' के बाद संज्ञा आती है, उपवाक्य नहीं: malgré la neige, 'malgré il neige' नहीं।"
+      },
+      {
+        "en": "Dire, parler, téléphoner, demander take à: the pronoun is lui/leur, not le/la.",
+        "hi": "dire, parler, téléphoner, demander के साथ à आता है: सर्वनाम lui/leur होगा, le/la नहीं।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Reading gapped sentences aloud: connectors and pronoun groups",
+    "tip": {
+      "en": "Read the sentence with each option quietly in your head — your ear will often reject the wrong one. Connectors are followed by a short pause; pronoun groups are said as one word: je‿lui‿ai dit.",
+      "hi": "हर विकल्प के साथ वाक्य मन में धीरे से पढ़िए — अक्सर आपका कान ग़लत विकल्प को पकड़ लेगा। संयोजक के बाद हल्का विराम होता है; सर्वनाम वाला समूह एक शब्द की तरह बोला जाता है: je‿lui‿ai dit।"
+    },
+    "words": [
+      {
+        "fr": "cependant",
+        "en": "however",
+        "hi": "फिर भी",
+        "pron": "सö-पाँ-दाँ",
+        "ipa": "səpɑ̃dɑ̃",
+        "note": {
+          "en": "Two nasal 'an' sounds; the final t is silent.",
+          "hi": "दो नासिक्य 'an'; आख़िरी t नहीं बोला जाता।"
+        }
+      },
+      {
+        "fr": "je lui ai dit",
+        "en": "I told him/her",
+        "hi": "मैंने उससे कहा",
+        "pron": "झ़ö ल्üई ए दी",
+        "ipa": "ʒə lɥi e di"
+      },
+      {
+        "fr": "il y a deux ans",
+        "en": "two years ago",
+        "hi": "दो साल पहले",
+        "pron": "इल या दö ज़ाँ",
+        "ipa": "il i a dø zɑ̃",
+        "note": {
+          "en": "Liaison with z: deux‿ans.",
+          "hi": "ज़ के साथ liaison: deux‿ans।"
+        }
+      },
+      {
+        "fr": "en effet",
+        "en": "indeed",
+        "hi": "दरअसल",
+        "pron": "आँ ने-फ़ै",
+        "ipa": "ɑ̃n‿efɛ"
+      },
+      {
+        "fr": "d'ailleurs",
+        "en": "besides",
+        "hi": "वैसे भी",
+        "pron": "दा-यöग़",
+        "ipa": "dajœʁ"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Entrevue : un club de conversation à Sherbrooke",
+      "en": "Interview: a conversation club in Sherbrooke"
+    },
+    "type": "interview",
+    "mode": "natural",
+    "context": {
+      "en": "A local radio journalist interviews Sunita Rao, who started a free French conversation club. Before listening, look at the gap-fill and predict which kind of word goes in each gap.",
+      "hi": "एक स्थानीय रेडियो पत्रकार सुनीता राव से बात करती है, जिन्होंने एक मुफ़्त फ़्रेंच बातचीत क्लब शुरू किया। सुनने से पहले gap-fill देखिए और अंदाज़ा लगाइए कि हर ख़ाली जगह में किस तरह का शब्द आएगा।"
+    },
+    "lines": [
+      {
+        "speaker": "Journaliste",
+        "voice": "f1",
+        "fr": "Sunita Rao, vous êtes arrivée à Sherbrooke il y a trois ans. Pourquoi avez-vous créé ce club de conversation ?",
+        "en": "Sunita Rao, you arrived in Sherbrooke three years ago. Why did you create this conversation club?",
+        "hi": "सुनीता राव, आप तीन साल पहले शेरब्रुक आईं। आपने यह बातचीत क्लब क्यों शुरू किया?"
+      },
+      {
+        "speaker": "Sunita",
+        "voice": "f2",
+        "fr": "Quand je suis arrivée, je parlais déjà un peu français, mais je n'osais pas parler avec les gens.",
+        "en": "When I arrived, I already spoke a little French, but I didn't dare talk to people.",
+        "hi": "जब मैं आई, मैं थोड़ी फ़्रेंच पहले से बोलती थी, पर लोगों से बात करने की हिम्मत नहीं होती थी।"
+      },
+      {
+        "speaker": "Sunita",
+        "voice": "f2",
+        "fr": "J'avais peur de faire des erreurs, alors je restais souvent à la maison.",
+        "en": "I was afraid of making mistakes, so I often stayed at home.",
+        "hi": "मुझे ग़लतियाँ करने का डर था, इसलिए मैं अक्सर घर पर ही रहती थी।"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "f1",
+        "fr": "Et qu'est-ce qui a changé ?",
+        "en": "And what changed?",
+        "hi": "और फिर क्या बदला?"
+      },
+      {
+        "speaker": "Sunita",
+        "voice": "f2",
+        "fr": "Tout a changé grâce à une voisine. Elle m'a invitée à prendre un café chaque samedi et elle m'a corrigée avec beaucoup de patience.",
+        "en": "Everything changed thanks to a neighbour. She invited me for coffee every Saturday and corrected me very patiently.",
+        "hi": "एक पड़ोसन की वजह से सब बदल गया। उसने मुझे हर शनिवार कॉफ़ी पर बुलाया और बड़े धीरज से मेरी ग़लतियाँ सुधारीं।"
+      },
+      {
+        "speaker": "Sunita",
+        "voice": "f2",
+        "fr": "Au bout de six mois, j'ai eu envie d'aider d'autres nouveaux arrivants à mon tour.",
+        "en": "After six months, I wanted to help other newcomers in my turn.",
+        "hi": "छह महीने बाद मेरा मन हुआ कि अब मैं भी दूसरे नए आने वालों की मदद करूँ।"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "f1",
+        "fr": "Concrètement, comment fonctionne le club ?",
+        "en": "In practice, how does the club work?",
+        "hi": "असल में क्लब कैसे चलता है?"
+      },
+      {
+        "speaker": "Sunita",
+        "voice": "f2",
+        "fr": "On se retrouve le mercredi soir à la bibliothèque. Chaque semaine, on choisit un thème, par exemple le logement ou la recherche d'emploi.",
+        "en": "We meet on Wednesday evenings at the library. Each week we choose a topic, for example housing or job hunting.",
+        "hi": "हम बुधवार शाम लाइब्रेरी में मिलते हैं। हर हफ़्ते एक विषय चुनते हैं, जैसे घर ढूँढना या नौकरी की तलाश।"
+      },
+      {
+        "speaker": "Sunita",
+        "voice": "f2",
+        "fr": "Les participants discutent en petits groupes pendant une heure, puis on fait un petit bilan tous ensemble.",
+        "en": "Participants talk in small groups for an hour, then we do a short wrap-up all together.",
+        "hi": "प्रतिभागी एक घंटे छोटे समूहों में बात करते हैं, फिर हम सब मिलकर छोटा-सा सार निकालते हैं।"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "f1",
+        "fr": "Et il faut payer ?",
+        "en": "And do you have to pay?",
+        "hi": "और क्या पैसे देने पड़ते हैं?"
+      },
+      {
+        "speaker": "Sunita",
+        "voice": "f2",
+        "fr": "Non, c'est gratuit. La bibliothèque nous prête la salle, et une dizaine de bénévoles viennent nous aider.",
+        "en": "No, it's free. The library lends us the room, and about ten volunteers come to help us.",
+        "hi": "नहीं, यह मुफ़्त है। लाइब्रेरी हमें कमरा देती है, और लगभग दस स्वयंसेवक मदद करने आते हैं।"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "f1",
+        "fr": "Un conseil pour quelqu'un qui vient d'arriver ?",
+        "en": "Any advice for someone who has just arrived?",
+        "hi": "जो अभी-अभी आया है, उसके लिए कोई सलाह?"
+      },
+      {
+        "speaker": "Sunita",
+        "voice": "f2",
+        "fr": "Parlez, même si vous faites des fautes ! Les gens sont beaucoup plus patients qu'on le croit.",
+        "en": "Speak, even if you make mistakes! People are much more patient than we think.",
+        "hi": "बोलिए, चाहे ग़लतियाँ हों! लोग हमारी सोच से कहीं ज़्यादा धैर्यवान होते हैं।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "Why did Sunita often stay at home at first?"
+        },
+        "options": [
+          "She didn't know anyone",
+          "She didn't speak any French",
+          "She was afraid of making mistakes",
+          "She was working at home"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "She already spoke a little French but was afraid of errors ('alors' introduces the consequence).",
+          "hi": "वह थोड़ी फ़्रेंच जानती थी पर ग़लतियों से डरती थी ('alors' परिणाम बताता है)।"
+        },
+        "kind": "literal",
+        "evidence": "J'avais peur de faire des erreurs, alors je restais souvent à la maison."
+      },
+      {
+        "q": {
+          "en": "Who helped her change?"
+        },
+        "options": [
+          "A neighbour",
+          "A colleague",
+          "A teacher",
+          "A librarian"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Grâce à une voisine' — thanks to a (female) neighbour.",
+          "hi": "'grâce à une voisine' — एक पड़ोसन की वजह से।"
+        },
+        "kind": "literal",
+        "evidence": "Tout a changé grâce à une voisine."
+      },
+      {
+        "q": {
+          "en": "When did she decide to help other newcomers?"
+        },
+        "options": [
+          "After three years",
+          "Last Wednesday",
+          "As soon as she arrived",
+          "After six months"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Au bout de six mois' = after six months.",
+          "hi": "'au bout de six mois' = छह महीने बाद।"
+        },
+        "kind": "literal",
+        "evidence": "Au bout de six mois, j'ai eu envie d'aider d'autres nouveaux arrivants"
+      },
+      {
+        "q": {
+          "en": "Where and when does the club meet?"
+        },
+        "options": [
+          "Saturday mornings in a café",
+          "Wednesday evenings at the library",
+          "Every evening at the community centre",
+          "Wednesday mornings at city hall"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Le mercredi soir à la bibliothèque.' Saturday is when she had coffee with her neighbour — a distractor.",
+          "hi": "'le mercredi soir à la bibliothèque'। शनिवार पड़ोसन के साथ कॉफ़ी का दिन था — यह भटकाने वाला विकल्प है।"
+        },
+        "kind": "literal",
+        "evidence": "On se retrouve le mercredi soir à la bibliothèque."
+      },
+      {
+        "q": {
+          "en": "How long do participants talk in small groups?"
+        },
+        "options": [
+          "The whole evening",
+          "Thirty minutes",
+          "One hour",
+          "Two hours"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Pendant une heure' = for an hour.",
+          "hi": "'pendant une heure' = एक घंटे तक।"
+        },
+        "kind": "literal",
+        "evidence": "Les participants discutent en petits groupes pendant une heure"
+      },
+      {
+        "q": {
+          "en": "What is Sunita's main message to newcomers?"
+        },
+        "options": [
+          "Speak even with mistakes; people are patient",
+          "Only speak with other newcomers",
+          "Take paid classes first",
+          "Avoid speaking until you are fluent"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Parlez, même si vous faites des fautes !'",
+          "hi": "'Parlez, même si vous faites des fautes !' — बोलिए, ग़लतियाँ हों तो भी।"
+        },
+        "kind": "gist",
+        "evidence": "Parlez, même si vous faites des fautes !"
+      }
+    ],
+    "dictation": [
+      "Vous êtes arrivée à Sherbrooke il y a trois ans.",
+      "Tout a changé grâce à une voisine.",
+      "On se retrouve le mercredi soir à la bibliothèque."
+    ],
+    "gapFill": {
+      "text": "J'avais peur de faire des erreurs, ___ je restais souvent à la maison. Les participants discutent en petits groupes ___ une heure. Parlez, ___ si vous faites des fautes !",
+      "answers": [
+        "alors",
+        "pendant",
+        "même"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "conversation",
+    "instructions": {
+      "en": "Paraphrase each sentence: say the same idea with a different connector or structure. This trains you to recognise the paraphrased options in TEF questions.",
+      "hi": "हर वाक्य को दूसरे शब्दों में कहिए: वही बात किसी दूसरे संयोजक या ढाँचे से। इससे TEF के सवालों में दूसरे शब्दों में लिखे विकल्प पहचानने की आदत बनती है।"
+    },
+    "prompts": [
+      {
+        "fr": "Il pleuvait, mais nous sommes sortis.",
+        "en": "It was raining, but we went out.",
+        "hi": "बारिश हो रही थी, फिर भी हम बाहर गए।",
+        "pron": "इल प्लö-वै मै नू सोम सॉग़-ती",
+        "model": "Malgré la pluie, nous sommes sortis."
+      },
+      {
+        "fr": "Je prends le métro parce que c'est rapide.",
+        "en": "I take the metro because it's fast.",
+        "hi": "मैं मेट्रो लेता हूँ क्योंकि यह तेज़ है।",
+        "pron": "झ़ö प्राँ लö मे-त्ग़ो पाग़स कö सै ग़ा-पीद",
+        "model": "Je prends le métro car c'est rapide. / Comme c'est rapide, je prends le métro."
+      },
+      {
+        "fr": "Elle étudie le soir pour réussir le TEF.",
+        "en": "She studies in the evening to pass the TEF.",
+        "hi": "वह TEF पास करने के लिए शाम को पढ़ती है।",
+        "pron": "ऐल ए-त्ü-दी लö स्वाग़ पूग़ ग़े-ü-सीग़ लö तेफ़",
+        "model": "Elle étudie le soir afin de réussir le TEF."
+      },
+      {
+        "fr": "J'ai commencé ce travail il y a un an.",
+        "en": "I started this job a year ago.",
+        "hi": "मैंने यह काम एक साल पहले शुरू किया।",
+        "pron": "झ़े को-माँ-से सö त्ग़ा-वाय इल या ऐँ नाँ",
+        "model": "Je fais ce travail depuis un an."
+      },
+      {
+        "fr": "Je n'ai pas pris la voiture. J'ai pris le vélo.",
+        "en": "I didn't take the car. I took the bike.",
+        "hi": "मैंने गाड़ी नहीं ली। मैंने साइकिल ली।",
+        "pron": "झ़ö ने पा प्री ला व्वा-त्üग़ झ़े प्री लö वे-लो",
+        "model": "J'ai pris le vélo au lieu de prendre la voiture."
+      }
+    ],
+    "tip": {
+      "en": "Paraphrasing is a survival skill in the exam: if you forget a word when speaking, say the idea another way instead of stopping.",
+      "hi": "दूसरे शब्दों में कहना परीक्षा में बचाव का हुनर है: बोलते समय कोई शब्द भूल जाएँ, तो रुकने के बजाय वही बात दूसरी तरह कहिए।"
+    }
+  },
+  "reading": {
+    "genre": "article",
+    "title": "Phrases et texte à compléter",
+    "text": "PARTIE 1 — Phrases à compléter\n1. Le bureau sera fermé lundi ; (1) ___, vous pouvez déposer vos documents dans la boîte aux lettres.\n2. Mme Diallo a appelé ce matin. Je (2) ___ ai dit de rappeler après 14 h.\n3. Les travaux ont commencé (3) ___ deux semaines et ils dureront jusqu'à la fin du mois.\n\nPARTIE 2 — Texte à compléter\nLe jardin communautaire de la rue Fullum\nDepuis l'an dernier, les habitants de la rue Fullum (4) ___ des légumes sur un ancien terrain vide, entre une école et une station-service. Au début, peu de gens croyaient au projet : le terrain était sale et personne n'avait d'outils. (5) ___, aujourd'hui, plus de quarante familles y participent. Chaque famille reçoit une petite parcelle (6) ___ elle s'occupe pendant toute la saison, de mai à octobre. Le samedi matin, des bénévoles organisent des ateliers pour apprendre à composter et à économiser l'eau. L'été dernier, la récolte a été si abondante que le groupe a offert des paniers de légumes à la banque alimentaire du quartier. Les organisateurs cherchent maintenant de nouveaux bénévoles pour agrandir le jardin. Les personnes intéressées peuvent écrire au comité ou passer le samedi entre 9 h et midi.",
+    "translation": {
+      "en": "PART 1 — Sentences to complete\n1. The office will be closed on Monday; (1) [however], you can drop your documents in the mailbox.\n2. Ms Diallo called this morning. I told (2) [her] to call back after 2 p.m.\n3. The work started two weeks (3) [ago] and will last until the end of the month.\n\nPART 2 — Text to complete\nThe Fullum Street community garden\nSince last year, the residents of Fullum Street (4) [have been growing] vegetables on a former empty lot, between a school and a gas station. At first, few people believed in the project: the lot was dirty and nobody had any tools. (5) [Yet] today more than forty families take part. Each family receives a small plot (6) [which] it looks after for the whole season, from May to October. On Saturday mornings, volunteers run workshops to learn how to compost and save water. Last summer the harvest was so plentiful that the group gave baskets of vegetables to the neighbourhood food bank. The organisers are now looking for new volunteers to enlarge the garden. Interested people can write to the committee or drop by on Saturdays between 9 a.m. and noon.",
+      "hi": "भाग 1 — पूरे करने वाले वाक्य\n1. दफ़्तर सोमवार को बंद रहेगा; (1) [फिर भी], आप अपने काग़ज़ डाक के डिब्बे में डाल सकते हैं।\n2. डियालो जी ने आज सुबह फ़ोन किया। मैंने (2) [उनसे] दोपहर 2 बजे के बाद दोबारा फ़ोन करने को कहा।\n3. काम दो हफ़्ते (3) [पहले] शुरू हुआ और महीने के अंत तक चलेगा।\n\nभाग 2 — पूरा करने वाला पाठ\nफ़ुलम स्ट्रीट का सामुदायिक बग़ीचा\nपिछले साल से फ़ुलम स्ट्रीट के निवासी एक पुराने ख़ाली प्लॉट पर, एक स्कूल और एक पेट्रोल पंप के बीच, सब्ज़ियाँ (4) [उगा रहे हैं]। शुरू में बहुत कम लोगों को इस योजना पर भरोसा था: ज़मीन गंदी थी और किसी के पास औज़ार नहीं थे। (5) [फिर भी] आज चालीस से ज़्यादा परिवार इसमें हिस्सा लेते हैं। हर परिवार को एक छोटी क्यारी मिलती है (6) [जिसकी] देखभाल वह पूरे मौसम, मई से अक्तूबर तक, करता है। शनिवार सुबह स्वयंसेवक खाद बनाना और पानी बचाना सिखाने के लिए कार्यशालाएँ चलाते हैं। पिछली गर्मियों में फ़सल इतनी अच्छी हुई कि समूह ने मोहल्ले के फ़ूड बैंक को सब्ज़ियों की टोकरियाँ दीं। आयोजक अब बग़ीचे को बड़ा करने के लिए नए स्वयंसेवक ढूँढ रहे हैं। इच्छुक लोग समिति को लिख सकते हैं या शनिवार को सुबह 9 से दोपहर 12 बजे के बीच आ सकते हैं।"
+    },
+    "questions": [
+      {
+        "q": {
+          "fr": "Phrase 1 : quel mot convient ?",
+          "en": "Sentence 1: which word fits gap (1)?"
+        },
+        "options": [
+          "parce que",
+          "cependant",
+          "ainsi que",
+          "c'est-à-dire"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "The office is closed BUT you can still drop documents: a contrast connector followed by a comma. 'Parce que' and 'ainsi que' need a different structure.",
+          "hi": "दफ़्तर बंद है, लेकिन फिर भी काग़ज़ डाल सकते हैं: विरोध वाला संयोजक जिसके बाद अल्पविराम है। 'parce que' और 'ainsi que' को दूसरी बनावट चाहिए।"
+        },
+        "kind": "grammar",
+        "evidence": "Le bureau sera fermé lundi ; (1) ___, vous pouvez déposer vos documents"
+      },
+      {
+        "q": {
+          "fr": "Phrase 2 : quel pronom convient ?",
+          "en": "Sentence 2: which pronoun fits gap (2)?"
+        },
+        "options": [
+          "l'",
+          "la",
+          "leur",
+          "lui"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "Dire à quelqu'un → indirect pronoun. Mme Diallo is one person, so 'lui', not 'leur'.",
+          "hi": "dire à quelqu'un → अप्रत्यक्ष सर्वनाम। डियालो जी एक व्यक्ति हैं, इसलिए 'lui', 'leur' नहीं।"
+        },
+        "kind": "grammar",
+        "evidence": "Je (2) ___ ai dit de rappeler après 14 h."
+      },
+      {
+        "q": {
+          "fr": "Phrase 3 : quelle expression convient ?",
+          "en": "Sentence 3: which expression fits gap (3)?"
+        },
+        "options": [
+          "il y a",
+          "depuis",
+          "pendant",
+          "dans"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "A finished starting event in the passé composé + a point in the past = il y a ('ago').",
+          "hi": "passé composé में ख़त्म हो चुकी शुरुआत + बीता समय = il y a ('पहले')।"
+        },
+        "kind": "grammar",
+        "evidence": "Les travaux ont commencé (3) ___ deux semaines"
+      },
+      {
+        "q": {
+          "fr": "Texte, (4) : quelle forme du verbe convient ?",
+          "en": "Text, gap (4): which verb form fits?"
+        },
+        "options": [
+          "cultivaient",
+          "cultiveront",
+          "cultivent",
+          "ont cultivé"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Depuis l'an dernier' + an action still going on → present tense.",
+          "hi": "'depuis l'an dernier' + अभी तक चल रहा काम → वर्तमान काल।"
+        },
+        "kind": "grammar",
+        "evidence": "Depuis l'an dernier, les habitants de la rue Fullum (4) ___ des légumes"
+      },
+      {
+        "q": {
+          "fr": "Texte, (5) : quel connecteur convient ?",
+          "en": "Text, gap (5): which connector fits?"
+        },
+        "options": [
+          "Par exemple",
+          "Pourtant",
+          "Grâce à",
+          "Donc"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "Few people believed in it, YET forty families take part now: contrast. 'Grâce à' needs a noun.",
+          "hi": "बहुत कम लोगों को भरोसा था, फिर भी अब चालीस परिवार जुड़े हैं: विरोध। 'grâce à' के बाद संज्ञा चाहिए।"
+        },
+        "kind": "grammar",
+        "evidence": "(5) ___, aujourd'hui, plus de quarante familles y participent."
+      },
+      {
+        "q": {
+          "fr": "Texte, (6) : quel pronom relatif convient ?",
+          "en": "Text, gap (6): which relative pronoun fits?"
+        },
+        "options": [
+          "que",
+          "qui",
+          "où",
+          "dont"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "S'occuper DE quelque chose → dont.",
+          "hi": "s'occuper DE quelque chose → dont।"
+        },
+        "kind": "grammar",
+        "evidence": "Chaque famille reçoit une petite parcelle (6) ___ elle s'occupe"
+      }
+    ]
+  },
+  "writing": {
+    "type": "rewrite",
+    "prompt": {
+      "en": "Complete the gapped message below, then rewrite it in full. Change at least one connector for a synonym (e.g. mais → cependant).",
+      "hi": "नीचे दिया अधूरा संदेश पूरा कीजिए, फिर उसे पूरा दोबारा लिखिए। कम से कम एक संयोजक को उसके पर्यायवाची से बदलिए (जैसे mais → cependant)।",
+      "fr": "Bonjour à tous, j'habite dans l'immeuble ___ cinq ans. La semaine dernière, notre voisin M. Côté est tombé dans l'escalier ; je ___ ai apporté des courses. ___ la neige, il veut sortir. Nous cherchons des personnes ___ l'aider le mercredi. Merci !"
+    },
+    "minWords": 50,
+    "maxWords": 110,
+    "hints": [
+      {
+        "en": "Gap 1: still living there → depuis. Gap 2: apporter à quelqu'un → lui.",
+        "hi": "जगह 1: अभी भी वहीं रहते हैं → depuis। जगह 2: apporter à quelqu'un → lui।"
+      },
+      {
+        "en": "Gap 3 is followed by a noun → malgré. Gap 4 is followed by an infinitive → pour / afin de.",
+        "hi": "जगह 3 के बाद संज्ञा है → malgré। जगह 4 के बाद infinitive है → pour / afin de।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "depuis cinq ans",
+        "en": "for five years (and still now)",
+        "hi": "पाँच साल से",
+        "pron": "दö-प्üई सैँ काँ"
+      },
+      {
+        "fr": "je lui ai apporté",
+        "en": "I brought him/her",
+        "hi": "मैं उसके लिए ले गया",
+        "pron": "झ़ö ल्üई ए आ-पॉग़-ते"
+      },
+      {
+        "fr": "afin de l'aider",
+        "en": "in order to help him/her",
+        "hi": "उसकी मदद करने के लिए",
+        "pron": "आ-फ़ैँ दö लै-दे"
+      }
+    ],
+    "model": {
+      "fr": "Bonjour à tous, j'habite dans l'immeuble depuis cinq ans. La semaine dernière, notre voisin M. Côté est tombé dans l'escalier ; je lui ai apporté des courses. Malgré la neige, il veut sortir. Cependant, il ne peut pas encore marcher seul. Nous cherchons donc des personnes afin de l'aider le mercredi après-midi. Si vous êtes disponible, écrivez-moi. Merci !",
+      "en": "Hello everyone, I have lived in the building for five years. Last week our neighbour Mr Côté fell on the stairs; I brought him some groceries. Despite the snow, he wants to go out. However, he cannot walk alone yet. So we are looking for people to help him on Wednesday afternoons. If you are available, write to me. Thank you!"
+    },
+    "checklist": [
+      {
+        "en": "Did you use depuis + present for a situation that continues?",
+        "hi": "क्या आपने जारी स्थिति के लिए depuis + वर्तमान काल लगाया?"
+      },
+      {
+        "en": "Is the pronoun with apporter 'lui'?",
+        "hi": "क्या apporter के साथ सर्वनाम 'lui' है?"
+      },
+      {
+        "en": "Did you replace at least one connector with a synonym?",
+        "hi": "क्या आपने कम से कम एक संयोजक को पर्यायवाची से बदला?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      45,
+      52,
+      62,
+      67,
+      68,
+      69,
+      81
+    ],
+    "items": [
+      {
+        "fr": "grâce à",
+        "en": "thanks to",
+        "hi": "… की बदौलत",
+        "pron": "ग्ग़ास आ"
+      },
+      {
+        "fr": "à cause de",
+        "en": "because of (negative)",
+        "hi": "… की वजह से (बुरी बात)",
+        "pron": "आ कोज़ दö"
+      },
+      {
+        "fr": "en revanche",
+        "en": "on the other hand",
+        "hi": "दूसरी ओर",
+        "pron": "आँ ग़ö-वाँश"
+      },
+      {
+        "fr": "de plus",
+        "en": "moreover",
+        "hi": "इसके अलावा",
+        "pron": "दö प्लüस"
+      },
+      {
+        "fr": "la ville où j'habite",
+        "en": "the city where I live",
+        "hi": "वह शहर जहाँ मैं रहता हूँ",
+        "pron": "ला वील ऊ झ़ा-बीत"
+      },
+      {
+        "fr": "ce dont j'ai besoin",
+        "en": "what I need",
+        "hi": "जिसकी मुझे ज़रूरत है",
+        "pron": "सö दोँ झ़े बö-ज़्वैँ"
+      },
+      {
+        "fr": "je leur téléphone",
+        "en": "I phone them",
+        "hi": "मैं उन्हें फ़ोन करता हूँ",
+        "pron": "झ़ö लöग़ ते-ले-फ़ॉन"
+      },
+      {
+        "fr": "pendant deux heures",
+        "en": "for two hours",
+        "hi": "दो घंटे तक",
+        "pron": "पाँ-दाँ दö ज़öग़"
+      },
+      {
+        "fr": "Vous ne pouvez prendre qu'un ticket.",
+        "en": "You can only take one ticket.",
+        "hi": "आप सिर्फ़ एक टिकट ले सकते हैं।",
+        "pron": "वू नö पू-वे प्राँद्ग़ कैँ ती-कै"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Choose the correct word: 'Je suis à Montréal ___ trois ans' (I still live there).",
+        "hi": "सही शब्द चुनिए: 'Je suis à Montréal ___ trois ans' (मैं अब भी वहीं हूँ)।"
+      },
+      "options": [
+        "depuis",
+        "pendant",
+        "dans",
+        "il y a"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Still true now → depuis + present.",
+        "hi": "अभी भी सच है → depuis + वर्तमान काल।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'___ la grève, les bus circulent.' Which fits?",
+        "hi": "'___ la grève, les bus circulent.' कौन-सा सही है?"
+      },
+      "options": [
+        "Pourtant",
+        "Bien que",
+        "Malgré",
+        "Parce que"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "A noun follows (la grève) and the idea is contrast → malgré.",
+        "hi": "बाद में संज्ञा है (la grève) और विचार विरोध का है → malgré।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete with a pronoun: I phoned my parents and I told them the news.",
+        "hi": "सर्वनाम से पूरा कीजिए: मैंने माता-पिता को फ़ोन किया और उन्हें ख़बर बताई।"
+      },
+      "sentence": "J'ai téléphoné à mes parents et je ___ ai annoncé la nouvelle.",
+      "answer": "leur",
+      "accept": [],
+      "explanation": {
+        "en": "Annoncer à + several people → leur (never 'leurs' as a pronoun).",
+        "hi": "annoncer à + कई लोग → leur (सर्वनाम के रूप में कभी 'leurs' नहीं)।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete with a relative pronoun.",
+        "hi": "संबंधवाचक सर्वनाम से पूरा कीजिए।"
+      },
+      "sentence": "Voici le formulaire ___ vous avez besoin.",
+      "answer": "dont",
+      "accept": [],
+      "explanation": {
+        "en": "Avoir besoin DE → dont.",
+        "hi": "avoir besoin DE → dont।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Il fait froid. ___, je reste à la maison.' Which connector shows a consequence?",
+        "hi": "'Il fait froid. ___, je reste à la maison.' कौन-सा संयोजक परिणाम दिखाता है?"
+      },
+      "options": [
+        "Malgré",
+        "Cependant",
+        "Ainsi",
+        "En revanche"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Ainsi = so/thus (consequence). Cependant and en revanche show contrast.",
+        "hi": "ainsi = इसलिए/इस तरह (परिणाम)। cependant और en revanche विरोध दिखाते हैं।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "I took the train instead of driving.",
+        "hi": "मैंने गाड़ी चलाने की बजाय ट्रेन ली।"
+      },
+      "answer": "J'ai pris le train au lieu de conduire.",
+      "accept": [
+        "J'ai pris le train au lieu de conduire",
+        "j'ai pris le train au lieu de conduire."
+      ],
+      "explanation": {
+        "en": "Au lieu de + infinitive.",
+        "hi": "au lieu de + infinitive।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put in order: She arrived two years ago.",
+        "hi": "क्रम में रखिए: वह दो साल पहले आई।"
+      },
+      "words": [
+        "y",
+        "deux",
+        "est",
+        "Elle",
+        "il",
+        "arrivée",
+        "a",
+        "ans",
+        "."
+      ],
+      "answer": "Elle est arrivée il y a deux ans.",
+      "explanation": {
+        "en": "Passé composé + il y a + duration.",
+        "hi": "passé composé + il y a + अवधि।"
+      }
+    }
+  ]
+}

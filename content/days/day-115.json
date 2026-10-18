@@ -1,0 +1,723 @@
+{
+  "day": 115,
+  "phase": 6,
+  "title": {
+    "fr": "Examen blanc 3 (partie 1) : compréhension écrite et orale",
+    "en": "Mock 3 (part 1): reading and listening",
+    "hi": "मॉक परीक्षा 3 (भाग 1): पढ़कर और सुनकर समझना"
+  },
+  "objective": {
+    "en": "Do a final recap of your comprehension strategies, learn to recognise the usual question stems in French (purpose, tone, what the author suggests), warm up with a voicemail and a notice, then sit the full mock 3 reading (40 questions, 60 min) and listening (40 questions, 40 min, each recording once).",
+    "hi": "समझने की अपनी रणनीतियों का अंतिम दोहराव, फ़्रेंच में प्रश्नों की आम शुरुआत पहचानना (उद्देश्य, लहजा, लेखक क्या सुझाता है), एक वॉइसमेल और एक सूचना से अभ्यास, फिर पूरी मॉक 3 पठन (40 प्रश्न, 60 मिनट) और श्रवण (40 प्रश्न, 40 मिनट, हर रिकॉर्डिंग एक बार) परीक्षा देना।"
+  },
+  "prerequisites": {
+    "days": [
+      101,
+      103,
+      108,
+      110,
+      114
+    ],
+    "summary": {
+      "en": "Mocks 1 and 2 and their reviews, reformulations (day 108) and speed strategies (day 114).",
+      "hi": "मॉक 1 और 2 और उनकी समीक्षाएँ, दूसरे शब्दों में कही बात (दिन 108) और रफ़्तार की रणनीतियाँ (दिन 114)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "mock": {
+    "id": "mock-3",
+    "part": "reading_listening"
+  },
+  "vocabulary": [
+    {
+      "fr": "le but",
+      "en": "purpose, aim",
+      "hi": "उद्देश्य",
+      "pron": "लö बü",
+      "ipa": "lə by",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "but",
+      "note": {
+        "en": "The final t is usually silent: le but = लö बü. 'Quel est le but de ce document ?' is a very common question.",
+        "hi": "आख़िरी t आम तौर पर नहीं बोला जाता: le but = लö बü। 'Quel est le but de ce document ?' बहुत आम प्रश्न है।"
+      }
+    },
+    {
+      "fr": "le ton",
+      "en": "tone",
+      "hi": "लहजा",
+      "pron": "लö तोँ",
+      "ipa": "lə tɔ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "ton"
+    },
+    {
+      "fr": "l'extrait",
+      "en": "extract, excerpt",
+      "hi": "अंश",
+      "pron": "लैक्स-त्ग़ै",
+      "ipa": "lɛkstʁɛ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "extrait"
+    },
+    {
+      "fr": "convenir",
+      "en": "to suit, to be appropriate",
+      "hi": "उपयुक्त होना",
+      "pron": "कोँ-व-नीग़",
+      "ipa": "kɔ̃vniʁ",
+      "pos": "verb",
+      "note": {
+        "en": "'Quel titre convient le mieux ?' = Which title fits best?",
+        "hi": "'Quel titre convient le mieux ?' = कौन-सा शीर्षक सबसे उपयुक्त है?"
+      }
+    },
+    {
+      "fr": "on apprend que",
+      "en": "we learn that",
+      "hi": "पता चलता है कि",
+      "pron": "ओँ ना-प्ग़ाँ कö",
+      "ipa": "ɔ̃n‿apʁɑ̃ kə",
+      "pos": "phrase"
+    },
+    {
+      "fr": "à condition que",
+      "en": "provided that",
+      "hi": "बशर्ते कि",
+      "pron": "आ कोँ-दी-स्योँ कö",
+      "ipa": "a kɔ̃disjɔ̃ kə",
+      "pos": "conjunction"
+    },
+    {
+      "fr": "la veille",
+      "en": "the day before",
+      "hi": "एक दिन पहले",
+      "pron": "ला वैय",
+      "ipa": "la vɛj",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "veille"
+    },
+    {
+      "fr": "le règlement",
+      "en": "rules, regulations",
+      "hi": "नियमावली / नियम",
+      "pron": "लö ग़ैग्ल-माँ",
+      "ipa": "lə ʁɛɡləmɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "règlement"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Quel est le but de ce document ?",
+      "en": "What is the purpose of this document?",
+      "hi": "इस दस्तावेज़ का उद्देश्य क्या है?",
+      "pron": "कै लै लö बü दö स दो-कü-माँ"
+    },
+    {
+      "fr": "Que propose l'auteur ?",
+      "en": "What does the author suggest?",
+      "hi": "लेखक क्या सुझाव देता है?",
+      "pron": "कö प्ग़ो-पोज़ लो-तöग़"
+    },
+    {
+      "fr": "Quel est le ton de ce message ?",
+      "en": "What is the tone of this message?",
+      "hi": "इस संदेश का लहजा कैसा है?",
+      "pron": "कै लै लö तोँ दö स मै-साझ़"
+    },
+    {
+      "fr": "Quel titre convient le mieux ?",
+      "en": "Which title fits best?",
+      "hi": "कौन-सा शीर्षक सबसे उपयुक्त है?",
+      "pron": "कैल तीत्ग़ कोँ-व्यैँ लö म्यö"
+    },
+    {
+      "fr": "D'après ce document, on apprend que …",
+      "en": "According to this document, we learn that …",
+      "hi": "इस दस्तावेज़ से पता चलता है कि …",
+      "pron": "दा-प्ग़ै स दो-कü-माँ ओँ ना-प्ग़ाँ कö"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Final strategy recap and common question stems",
+      "hi": "रणनीति का अंतिम दोहराव और प्रश्नों की आम शुरुआत"
+    },
+    "explanation": {
+      "en": "Your strategy card: 1) Read the question before the document. 2) Identify the question type from its stem. 'Quel est le but de…?' asks why the document was written (inform, invite, warn, sell, complain). 'Quel est le ton…?' asks about attitude (neutral, ironic, worried, enthusiastic). 'Que propose / conseille…?' looks for an imperative, a conditional (il faudrait, je propose) or 'il vaut mieux'. 'On apprend que…' is a detail question: find the exact line. 'Quel titre convient…?' is a gist question: think of the whole document, not one sentence. 3) Expect reformulation: the right option uses other words. 4) Watch traps: absolute words (tous, jamais), negations, the first number heard, words repeated with another meaning. 5) Time: about 90 seconds per reading question on average; in listening each recording is played once with no going back. 6) Never leave an answer blank.",
+      "hi": "आपका रणनीति-कार्ड: 1) दस्तावेज़ से पहले प्रश्न पढ़िए। 2) प्रश्न की शुरुआत से उसका प्रकार पहचानिए। 'Quel est le but de…?' पूछता है दस्तावेज़ क्यों लिखा गया (जानकारी देना, बुलाना, चेतावनी देना, बेचना, शिकायत करना)। 'Quel est le ton…?' रवैये के बारे में है (निष्पक्ष, व्यंग्यात्मक, चिंतित, उत्साहित)। 'Que propose / conseille…?' में आज्ञार्थ, conditional (il faudrait, je propose) या 'il vaut mieux' ढूँढिए। 'On apprend que…' बारीक जानकारी का प्रश्न है: सटीक पंक्ति ढूँढिए। 'Quel titre convient…?' मुख्य भाव का प्रश्न है: एक वाक्य नहीं, पूरे दस्तावेज़ के बारे में सोचिए। 3) दूसरे शब्दों में कही बात की उम्मीद रखिए: सही विकल्प दूसरे शब्द इस्तेमाल करता है। 4) जालों से बचिए: पूर्ण शब्द (tous, jamais), नकार, पहली सुनी संख्या, दूसरे अर्थ में दोहराए शब्द। 5) समय: पठन में औसतन हर प्रश्न के लिए लगभग 90 सेकंड; श्रवण में हर रिकॉर्डिंग एक बार चलती है और पीछे नहीं जा सकते। 6) कभी कोई उत्तर ख़ाली मत छोड़िए।"
+    },
+    "comparison": {
+      "en": "Hindi exam papers also have typical stems: 'लेखक का उद्देश्य क्या है?', 'उपयुक्त शीर्षक दीजिए'. Recognising the French equivalents saves reading time.",
+      "hi": "हिंदी की परीक्षाओं में भी आम ढाँचे होते हैं: 'लेखक का उद्देश्य क्या है?', 'उपयुक्त शीर्षक दीजिए'। इनके फ़्रेंच रूप पहचानने से पढ़ने का समय बचता है।"
+    },
+    "examples": [
+      {
+        "fr": "Le but de ce message est d'informer les parents.",
+        "en": "The purpose of this message is to inform the parents.",
+        "hi": "इस संदेश का उद्देश्य माता-पिता को सूचित करना है।",
+        "pron": "लö बü दö स मै-साझ़ ऐ दैँ-फ़ॉग़-मे ले पा-ग़ाँ"
+      },
+      {
+        "fr": "Le ton de l'article est plutôt inquiet.",
+        "en": "The tone of the article is rather worried.",
+        "hi": "लेख का लहजा कुछ चिंतित है।",
+        "pron": "लö तोँ दö लाग़-तीक्ल ऐ प्लü-तो ऐँ-क्यै"
+      },
+      {
+        "fr": "L'auteur conseille de réserver à l'avance.",
+        "en": "The author advises booking in advance.",
+        "hi": "लेखक पहले से बुकिंग करने की सलाह देता है।",
+        "pron": "लो-तöग़ कोँ-सैय दö ग़े-ज़ैग़-वे आ ला-वाँस"
+      },
+      {
+        "fr": "On apprend que la collecte change à compter du 1er avril.",
+        "en": "We learn that collection changes from 1 April.",
+        "hi": "पता चलता है कि 1 अप्रैल से कचरा उठाने का समय बदल रहा है।",
+        "pron": "ओँ ना-प्ग़ाँ कö ला को-लैक्त शाँझ़ आ कोँ-ते दü प्ग़ö-म्ये ग़ा-व्ग़ील"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "For 'but' (purpose) questions, don't choose a detail that is true but secondary. Ask: why was this written?",
+        "hi": "'but' (उद्देश्य) वाले प्रश्नों में ऐसा विवरण मत चुनिए जो सच तो है पर गौण है। पूछिए: यह लिखा क्यों गया?"
+      },
+      {
+        "en": "Don't change a well-reasoned answer at the last second without a clear reason from the document.",
+        "hi": "दस्तावेज़ से साफ़ कारण के बिना, आख़िरी पल में सोच-समझकर दिया उत्तर मत बदलिए।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Focus routine: breathing, then question stems at exam speed",
+    "tip": {
+      "en": "Last mock of reading and listening: same routine, three slow breaths. Then read the question stems aloud quickly. When you see them on screen, you will understand them instantly.",
+      "hi": "पठन और श्रवण की आख़िरी मॉक: वही दिनचर्या, तीन धीमी साँसें। फिर प्रश्नों की शुरुआत वाले वाक्य जल्दी-जल्दी ज़ोर से पढ़िए। स्क्रीन पर देखते ही आप उन्हें तुरंत समझ जाएँगे।"
+    },
+    "words": [
+      {
+        "fr": "Quel est le but",
+        "en": "What is the purpose",
+        "hi": "उद्देश्य क्या है",
+        "pron": "कै लै लö बü",
+        "ipa": "kɛl ɛ lə by"
+      },
+      {
+        "fr": "Que propose",
+        "en": "What does … suggest",
+        "hi": "… क्या सुझाता है",
+        "pron": "कö प्ग़ो-पोज़",
+        "ipa": "kə pʁɔpoz"
+      },
+      {
+        "fr": "D'après",
+        "en": "According to",
+        "hi": "… के अनुसार",
+        "pron": "दा-प्ग़ै",
+        "ipa": "dapʁɛ"
+      },
+      {
+        "fr": "le règlement",
+        "en": "the rules",
+        "hi": "नियम",
+        "pron": "लö ग़ैग्ल-माँ",
+        "ipa": "lə ʁɛɡləmɑ̃"
+      },
+      {
+        "fr": "la veille au soir",
+        "en": "the evening before",
+        "hi": "एक दिन पहले शाम को",
+        "pron": "ला वै यो स्वाग़",
+        "ipa": "la vɛj‿o swaʁ"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Un appel de la garderie",
+      "en": "A call from the daycare"
+    },
+    "type": "voicemail",
+    "mode": "natural",
+    "context": {
+      "en": "Warm-up. A daycare worker leaves a message for a parent. Read the questions first, then listen once.",
+      "hi": "अभ्यास। डे-केयर की एक कर्मचारी एक अभिभावक के लिए संदेश छोड़ती है। पहले प्रश्न पढ़िए, फिर एक बार सुनिए।"
+    },
+    "lines": [
+      {
+        "speaker": "Nathalie",
+        "voice": "f2",
+        "fr": "Bonjour, madame Patel, c'est Nathalie, de la garderie Les Petits Pas.",
+        "en": "Hello, Ms Patel, it's Nathalie from Les Petits Pas daycare.",
+        "hi": "नमस्ते, श्रीमती पटेल, मैं ले पती पा डे-केयर से नताली बोल रही हूँ।"
+      },
+      {
+        "speaker": "Nathalie",
+        "voice": "f2",
+        "fr": "Je vous appelle parce que votre fille Anika a un peu de fièvre depuis midi, trente-huit et demi.",
+        "en": "I'm calling because your daughter Anika has had a slight fever since noon, thirty-eight and a half.",
+        "hi": "मैं इसलिए फ़ोन कर रही हूँ क्योंकि आपकी बेटी अनिका को दोपहर से हल्का बुख़ार है, साढ़े अड़तीस।"
+      },
+      {
+        "speaker": "Nathalie",
+        "voice": "f2",
+        "fr": "Elle va bien, elle joue tranquillement, mais selon notre règlement, nous devons vous demander de venir la chercher.",
+        "en": "She's fine, she's playing quietly, but according to our rules, we have to ask you to come and pick her up.",
+        "hi": "वह ठीक है, आराम से खेल रही है, लेकिन हमारे नियमों के अनुसार हमें आपसे उसे लेने आने को कहना पड़ता है।"
+      },
+      {
+        "speaker": "Nathalie",
+        "voice": "f2",
+        "fr": "Si vous ne pouvez pas vous libérer, vous pouvez envoyer une autre personne autorisée, comme votre mari, à condition qu'elle présente une pièce d'identité.",
+        "en": "If you can't get away, you can send another authorised person, such as your husband, provided they show ID.",
+        "hi": "अगर आप समय न निकाल पाएँ, तो किसी दूसरे अधिकृत व्यक्ति को, जैसे अपने पति को, भेज सकती हैं, बशर्ते वह पहचान-पत्र दिखाए।"
+      },
+      {
+        "speaker": "Nathalie",
+        "voice": "f2",
+        "fr": "Merci de me rappeler au 450 555 0134 pour me dire qui viendra. À tout à l'heure.",
+        "en": "Please call me back at 450 555 0134 to tell me who will come. See you shortly.",
+        "hi": "कृपया मुझे 450 555 0134 पर वापस फ़ोन करके बताइए कि कौन आएगा। थोड़ी देर में मिलते हैं।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "What is the purpose of the message?"
+        },
+        "options": [
+          "To announce that the daycare is closing",
+          "To tell the mother her daughter has a fever and must be picked up",
+          "To ask for a payment",
+          "To invite the parents to a meeting"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "Anika 'a un peu de fièvre' and the mother must 'venir la chercher'.",
+          "hi": "अनिका को 'un peu de fièvre' है और माँ को 'venir la chercher' — उसे लेने आना है।"
+        },
+        "kind": "gist",
+        "evidence": "a un peu de fièvre"
+      },
+      {
+        "q": {
+          "en": "How is Anika now?"
+        },
+        "options": [
+          "She is crying",
+          "She is asleep",
+          "She is fine and playing quietly",
+          "She went to hospital"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Elle va bien, elle joue tranquillement.'",
+          "hi": "'Elle va bien, elle joue tranquillement' — वह ठीक है, आराम से खेल रही है।"
+        },
+        "kind": "literal",
+        "evidence": "elle joue tranquillement"
+      },
+      {
+        "q": {
+          "en": "Why must a parent come?"
+        },
+        "options": [
+          "Because of the daycare's rules",
+          "Because the doctor said so",
+          "Because Anika asked for her mother",
+          "Because the daycare closes early"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Selon notre règlement, nous devons vous demander de venir la chercher.'",
+          "hi": "'Selon notre règlement…' — डे-केयर के नियमों के कारण।"
+        },
+        "kind": "inference",
+        "evidence": "selon notre règlement"
+      },
+      {
+        "q": {
+          "en": "On what condition can another person pick Anika up?"
+        },
+        "options": [
+          "They must call first",
+          "They must be a family member",
+          "They must arrive before 5 p.m.",
+          "They must show ID"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'À condition qu'elle présente une pièce d'identité.'",
+          "hi": "'À condition qu'elle présente une pièce d'identité' — बशर्ते पहचान-पत्र दिखाए।"
+        },
+        "kind": "literal",
+        "evidence": "à condition qu'elle présente une pièce d'identité"
+      }
+    ],
+    "dictation": [
+      "Votre fille a un peu de fièvre depuis midi.",
+      "Merci de me rappeler pour me dire qui viendra."
+    ],
+    "gapFill": {
+      "text": "Selon notre ___, nous devons vous demander de venir la chercher. Vous pouvez envoyer une autre personne ___.",
+      "answers": [
+        "règlement",
+        "autorisée"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "repeat",
+    "instructions": {
+      "en": "Warm-up: read each question stem aloud, then say in French what kind of answer you will look for (a purpose, a tone, a detail, a title).",
+      "hi": "अभ्यास: प्रश्नों की हर शुरुआत ज़ोर से पढ़िए, फिर फ़्रेंच में बोलिए कि आप किस तरह का उत्तर ढूँढेंगे (उद्देश्य, लहजा, विवरण, शीर्षक)।"
+    },
+    "prompts": [
+      {
+        "fr": "Quel est le but de ce document ? — Je cherche pourquoi il a été écrit.",
+        "en": "What is the purpose of this document? — I look for why it was written.",
+        "hi": "इस दस्तावेज़ का उद्देश्य क्या है? — मैं ढूँढता / ढूँढती हूँ कि यह क्यों लिखा गया।",
+        "pron": "कै लै लö बü दö स दो-कü-माँ झ़ö शैग़्श पूग़-क्वा ई ला ए-ते ए-क्ग़ी"
+      },
+      {
+        "fr": "Quel est le ton ? — Je cherche l'attitude de l'auteur.",
+        "en": "What is the tone? — I look for the author's attitude.",
+        "hi": "लहजा कैसा है? — मैं लेखक का रवैया ढूँढता / ढूँढती हूँ।",
+        "pron": "कै लै लö तोँ झ़ö शैग़्श ला-ती-तüद दö लो-तöग़"
+      },
+      {
+        "fr": "On apprend que … — Je cherche une ligne précise.",
+        "en": "We learn that … — I look for a precise line.",
+        "hi": "पता चलता है कि … — मैं एक सटीक पंक्ति ढूँढता / ढूँढती हूँ।",
+        "pron": "ओँ ना-प्ग़ाँ कö झ़ö शैग़्श üन लीन्य प्ग़े-सीज़"
+      },
+      {
+        "fr": "Quel titre convient le mieux ? — Je pense à tout le document.",
+        "en": "Which title fits best? — I think about the whole document.",
+        "hi": "कौन-सा शीर्षक सबसे उपयुक्त है? — मैं पूरे दस्तावेज़ के बारे में सोचता / सोचती हूँ।",
+        "pron": "कैल तीत्ग़ कोँ-व्यैँ लö म्यö झ़ö पाँस आ तू लö दो-कü-माँ"
+      }
+    ],
+    "tip": {
+      "en": "Naming the question type takes one second and tells you where to look. Do it silently for every question in today's mock.",
+      "hi": "प्रश्न का प्रकार पहचानने में एक सेकंड लगता है और इससे पता चल जाता है कि कहाँ देखना है। आज की मॉक में हर प्रश्न के लिए मन में ऐसा कीजिए।"
+    }
+  },
+  "reading": {
+    "genre": "notice",
+    "title": "Ville de Saint-Laurent-des-Pins — Collecte des matières résiduelles",
+    "text": "À compter du 1er avril, l'horaire de la collecte change dans votre secteur.\n\nOrdures ménagères : toutes les deux semaines, le jeudi (au lieu du lundi chaque semaine).\nRecyclage : chaque semaine, le mardi.\nCompost (bac brun) : chaque semaine du 1er avril au 30 novembre, puis toutes les deux semaines en hiver.\n\nLes bacs doivent être placés en bordure de rue la veille au soir, après 19 h, ou avant 7 h le jour même. Les poignées doivent être tournées vers la maison. Les sacs déposés à côté du bac ne seront pas ramassés.\n\nLes gros objets (meubles, matelas) sont ramassés une fois par mois, sur rendez-vous seulement. Les appareils contenant un gaz réfrigérant, comme les réfrigérateurs et les climatiseurs, doivent être apportés à l'écocentre.\n\nPour recevoir un rappel par courriel la veille de chaque collecte, inscrivez-vous sur le site de la Ville. Le service est gratuit. Pour toute question, appelez le 555-0148 du lundi au vendredi.",
+    "translation": {
+      "en": "From 1 April, the collection schedule changes in your area.\n\nHousehold garbage: every two weeks, on Thursday (instead of Monday every week).\nRecycling: every week, on Tuesday.\nCompost (brown bin): every week from 1 April to 30 November, then every two weeks in winter.\n\nBins must be placed at the edge of the street the evening before, after 7 p.m., or before 7 a.m. on the day itself. Handles must face the house. Bags left next to the bin will not be collected.\n\nBulky items (furniture, mattresses) are collected once a month, by appointment only. Appliances containing a refrigerant gas, such as fridges and air conditioners, must be taken to the eco-centre.\n\nTo receive an email reminder the day before each collection, sign up on the City's website. The service is free. For any question, call 555-0148 from Monday to Friday.",
+      "hi": "1 अप्रैल से आपके इलाक़े में कचरा उठाने का समय बदल रहा है।\n\nघरेलू कचरा: हर दो हफ़्ते में, गुरुवार को (हर हफ़्ते सोमवार की जगह)।\nरीसाइक्लिंग: हर हफ़्ते, मंगलवार को।\nकम्पोस्ट (भूरा डिब्बा): 1 अप्रैल से 30 नवंबर तक हर हफ़्ते, फिर सर्दियों में हर दो हफ़्ते।\n\nडिब्बे एक दिन पहले शाम 7 बजे के बाद, या उसी दिन सुबह 7 बजे से पहले, सड़क के किनारे रखने होंगे। हैंडल घर की ओर होने चाहिए। डिब्बे के बग़ल में रखी थैलियाँ नहीं उठाई जाएँगी।\n\nबड़ी चीज़ें (फ़र्नीचर, गद्दे) महीने में एक बार, सिर्फ़ पहले से समय लेकर, उठाई जाती हैं। रेफ़्रिजरेंट गैस वाले उपकरण, जैसे फ़्रिज और एयर-कंडीशनर, इको-सेंटर ले जाने होंगे।\n\nहर बार कचरा उठने से एक दिन पहले ईमेल से याद-दिहानी पाने के लिए नगर की वेबसाइट पर नाम दर्ज कीजिए। यह सेवा मुफ़्त है। किसी भी सवाल के लिए सोमवार से शुक्रवार तक 555-0148 पर फ़ोन कीजिए।"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "From 1 April, when is household garbage collected?"
+        },
+        "options": [
+          "Every Monday",
+          "Every Tuesday",
+          "Every two weeks, on Thursday",
+          "Once a month"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Toutes les deux semaines, le jeudi.' Monday was the old day: a trap.",
+          "hi": "'Toutes les deux semaines, le jeudi.' सोमवार पुराना दिन था: यह जाल है।"
+        },
+        "kind": "literal",
+        "evidence": "toutes les deux semaines, le jeudi"
+      },
+      {
+        "q": {
+          "en": "When can you put your bin out?"
+        },
+        "options": [
+          "Any time the day before",
+          "The evening before after 7 p.m., or before 7 a.m. that day",
+          "Only after 7 a.m. on the day",
+          "Two days before"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'La veille au soir, après 19 h, ou avant 7 h le jour même.'",
+          "hi": "'La veille au soir, après 19 h, ou avant 7 h le jour même।'"
+        },
+        "kind": "literal",
+        "evidence": "la veille au soir, après 19 h"
+      },
+      {
+        "q": {
+          "en": "What happens to bags left next to the bin?"
+        },
+        "options": [
+          "They are not collected",
+          "They are collected the next day",
+          "They cost extra",
+          "They go to the eco-centre"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Les sacs déposés à côté du bac ne seront pas ramassés.'",
+          "hi": "'Les sacs déposés à côté du bac ne seront pas ramassés' — नहीं उठाई जाएँगी।"
+        },
+        "kind": "literal",
+        "evidence": "ne seront pas ramassés"
+      },
+      {
+        "q": {
+          "en": "You want to get rid of an old fridge. What must you do?"
+        },
+        "options": [
+          "Leave it on the street on Thursday",
+          "Book the monthly collection",
+          "Put it next to the recycling bin",
+          "Take it to the eco-centre"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "Appliances with refrigerant gas, 'comme les réfrigérateurs', 'doivent être apportés à l'écocentre'.",
+          "hi": "रेफ़्रिजरेंट गैस वाले उपकरण, 'comme les réfrigérateurs', 'doivent être apportés à l'écocentre'।"
+        },
+        "kind": "inference",
+        "evidence": "doivent être apportés à l'écocentre"
+      },
+      {
+        "q": {
+          "en": "What is the main purpose of this notice?"
+        },
+        "options": [
+          "To sell compost bins",
+          "To announce a new collection schedule",
+          "To close the eco-centre",
+          "To recruit workers"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "The first sentence gives the purpose: 'l'horaire de la collecte change'.",
+          "hi": "पहला वाक्य उद्देश्य बताता है: 'l'horaire de la collecte change'।"
+        },
+        "kind": "gist",
+        "evidence": "l'horaire de la collecte change dans votre secteur"
+      }
+    ]
+  },
+  "writing": {
+    "type": "sentences",
+    "prompt": {
+      "en": "Warm-up: write three sentences — what you have improved since mock 1, what you will watch for today, and how you will stay calm.",
+      "hi": "अभ्यास: तीन वाक्य लिखिए — मॉक 1 के बाद आपने क्या सुधारा, आज आप किस बात पर ध्यान देंगे, और शांत कैसे रहेंगे।",
+      "fr": "Écrivez trois phrases sur vos progrès et vos objectifs pour l'examen blanc 3."
+    },
+    "minWords": 30,
+    "maxWords": 80,
+    "hints": [
+      {
+        "en": "Passé composé for progress, future for today.",
+        "hi": "प्रगति के लिए passé composé, आज के लिए भविष्य काल।"
+      },
+      {
+        "en": "Name one trap you will watch for.",
+        "hi": "एक जाल का नाम लिखिए जिससे आप बचेंगे।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Depuis le premier examen blanc, j'ai …",
+        "en": "Since the first mock, I have …",
+        "hi": "पहली मॉक के बाद से मैंने …",
+        "pron": "दö-प्üई लö प्ग़ö-म्ये ग़ैग-ज़ा-मैँ ब्लाँ झ़े"
+      },
+      {
+        "fr": "Aujourd'hui, je ferai attention à …",
+        "en": "Today, I'll pay attention to …",
+        "hi": "आज मैं … पर ध्यान दूँगा / दूँगी",
+        "pron": "ओ-झ़ूग़-दüई झ़ö फ़ö-ग़े आ-ताँ-स्योँ आ"
+      }
+    ],
+    "model": {
+      "fr": "Depuis le premier examen blanc, j'ai appris à reconnaître les reformulations. Aujourd'hui, je ferai attention aux mots comme « tous » et « jamais ». Avant chaque partie, je respirerai lentement trois fois pour rester calme.",
+      "en": "Since the first mock, I have learned to recognise reformulations. Today, I will pay attention to words like 'all' and 'never'. Before each part, I will breathe slowly three times to stay calm."
+    },
+    "checklist": [
+      {
+        "en": "Three sentences: progress, today's focus, calm?",
+        "hi": "तीन वाक्य: प्रगति, आज का ध्यान, शांति?"
+      },
+      {
+        "en": "Correct future forms (je ferai, je respirerai)?",
+        "hi": "भविष्य काल के सही रूप (je ferai, je respirerai)?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      101,
+      103,
+      108,
+      110,
+      114
+    ],
+    "items": [
+      {
+        "fr": "sans frais",
+        "en": "free of charge",
+        "hi": "बिना शुल्क",
+        "pron": "साँ फ़्ग़ै"
+      },
+      {
+        "fr": "n'aura pas lieu",
+        "en": "will not take place",
+        "hi": "नहीं होगा",
+        "pron": "नो-ग़ा पा ल्यö"
+      },
+      {
+        "fr": "il est défendu de",
+        "en": "it is forbidden to",
+        "hi": "… मना है",
+        "pron": "ई लै दे-फ़ाँ-दü दö"
+      },
+      {
+        "fr": "la plupart",
+        "en": "most",
+        "hi": "ज़्यादातर",
+        "pron": "ला प्लü-पाग़"
+      },
+      {
+        "fr": "y'a",
+        "en": "there is (spoken)",
+        "hi": "है (बोलचाल)",
+        "pron": "या"
+      },
+      {
+        "fr": "est resté stable",
+        "en": "stayed the same",
+        "hi": "स्थिर रहा",
+        "pron": "ऐ ग़ैस-ते स्ताब्ल"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Quel est le but de ce document ?' What does the question ask?",
+        "hi": "'Quel est le but de ce document ?' प्रश्न क्या पूछ रहा है?"
+      },
+      "options": [
+        "Who wrote it",
+        "Why it was written",
+        "When it was written",
+        "How long it is"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Le but = the purpose.",
+        "hi": "Le but = उद्देश्य।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which question is a gist (whole-document) question?",
+        "hi": "कौन-सा प्रश्न पूरे दस्तावेज़ के मुख्य भाव का है?"
+      },
+      "options": [
+        "À quelle heure ouvre le centre ?",
+        "Quel titre convient le mieux ?",
+        "Combien coûte le billet ?",
+        "Qui doit appeler ?"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Choosing a title requires the whole document.",
+        "hi": "शीर्षक चुनने के लिए पूरा दस्तावेज़ सोचना पड़ता है।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Vous pouvez envoyer quelqu'un, à condition qu'il présente une pièce d'identité.' What does 'à condition que' mean?",
+        "hi": "'à condition que' का क्या अर्थ है?"
+      },
+      "options": [
+        "because",
+        "unless",
+        "provided that",
+        "although"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "À condition que = provided that.",
+        "hi": "À condition que = बशर्ते कि।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete the question: What does the author suggest?",
+        "hi": "प्रश्न पूरा कीजिए: लेखक क्या सुझाव देता है?"
+      },
+      "sentence": "Que ___ l'auteur ?",
+      "answer": "propose",
+      "accept": [
+        "conseille",
+        "suggère"
+      ],
+      "explanation": {
+        "en": "Proposer = to suggest.",
+        "hi": "Proposer = सुझाव देना।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "the day before, in the evening",
+        "hi": "एक दिन पहले, शाम को"
+      },
+      "answer": "la veille au soir",
+      "accept": [
+        "La veille au soir",
+        "la veille, le soir"
+      ],
+      "explanation": {
+        "en": "La veille = the day before.",
+        "hi": "La veille = एक दिन पहले।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: What is the tone of the article?",
+        "hi": "शब्दों को सही क्रम में रखिए: लेख का लहजा कैसा है?"
+      },
+      "words": [
+        "est",
+        "Quel",
+        "ton",
+        "le",
+        "de",
+        "l'article",
+        "?"
+      ],
+      "answer": "Quel est le ton de l'article ?",
+      "explanation": {
+        "en": "Quel + est + noun.",
+        "hi": "Quel + est + संज्ञा।"
+      }
+    }
+  ]
+}

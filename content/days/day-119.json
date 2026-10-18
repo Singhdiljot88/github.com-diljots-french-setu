@@ -1,0 +1,702 @@
+{
+  "day": 119,
+  "phase": 6,
+  "title": {
+    "fr": "Journée de révision : mon répertoire de phrases",
+    "en": "Review day: personal phrase bank",
+    "hi": "दोहराव का दिन: मेरा निजी वाक्य-भंडार"
+  },
+  "objective": {
+    "en": "A light day: sort your personal phrase bank into six families (opening, asking, reacting, giving an opinion, linking, concluding), reread the top lines of your error notebook, and use your favourite phrases in a short listening, reading, speaking and writing practice — without new pressure.",
+    "hi": "एक हल्का दिन: अपने निजी वाक्य-भंडार को छह परिवारों में बाँटना (शुरुआत, पूछना, प्रतिक्रिया, राय देना, जोड़ना, समापन), अपनी ग़लतियों की कॉपी की सबसे ऊपर की पंक्तियाँ दोबारा पढ़ना, और अपने पसंदीदा वाक्यों को एक छोटे सुनने, पढ़ने, बोलने और लिखने के अभ्यास में इस्तेमाल करना — बिना किसी नए दबाव के।"
+  },
+  "prerequisites": {
+    "days": [
+      103,
+      107,
+      110,
+      112,
+      117
+    ],
+    "summary": {
+      "en": "The error notebook (days 103 and 110), connectors (day 107), the speaking toolkit (day 112) and your two final targets (day 117).",
+      "hi": "ग़लतियों की कॉपी (दिन 103 और 110), संयोजक (दिन 107), बोलने का औज़ार-बक्सा (दिन 112) और आपके दो आख़िरी लक्ष्य (दिन 117)।"
+    }
+  },
+  "light": true,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "le répertoire",
+      "en": "repertoire, personal collection (of phrases)",
+      "hi": "भंडार / संग्रह",
+      "pron": "लö ग़े-पैग़-त्वाग़",
+      "ipa": "lə ʁepɛʁtwaʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "répertoire"
+    },
+    {
+      "fr": "la formule",
+      "en": "set phrase, formula",
+      "hi": "तय वाक्यांश",
+      "pron": "ला फ़ोग़-मüल",
+      "ipa": "la fɔʁmyl",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "formule"
+    },
+    {
+      "fr": "par cœur",
+      "en": "by heart",
+      "hi": "ज़बानी / कंठस्थ",
+      "pron": "पाग़ कöग़",
+      "ipa": "paʁ kœʁ",
+      "pos": "phrase"
+    },
+    {
+      "fr": "réviser",
+      "en": "to revise, to review",
+      "hi": "दोहराना",
+      "pron": "ग़े-वी-ज़े",
+      "ipa": "ʁevize",
+      "pos": "verb"
+    },
+    {
+      "fr": "la fiche",
+      "en": "index card, sheet",
+      "hi": "कार्ड / पर्ची",
+      "pron": "ला फ़ीश",
+      "ipa": "la fiʃ",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "fiche"
+    },
+    {
+      "fr": "à portée de main",
+      "en": "within reach, handy",
+      "hi": "हाथ के पास / आसानी से उपलब्ध",
+      "pron": "आ पोग़-ते दö मैँ",
+      "ipa": "a pɔʁte də mɛ̃",
+      "pos": "phrase"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Je relis mes formules préférées.",
+      "en": "I reread my favourite set phrases.",
+      "hi": "मैं अपने पसंदीदा तय वाक्यांश दोबारा पढ़ता / पढ़ती हूँ।",
+      "pron": "झ़ö ग़ö-ली मे फ़ोग़-मüल प्ग़े-फ़े-ग़े"
+    },
+    {
+      "fr": "Cette phrase, je la connais par cœur.",
+      "en": "This sentence, I know it by heart.",
+      "hi": "यह वाक्य मुझे ज़बानी याद है।",
+      "pron": "सैत फ़्ग़ाज़ झ़ö ला को-नै पाग़ कöग़"
+    },
+    {
+      "fr": "Il vaut mieux bien connaître dix phrases que mal en connaître cinquante.",
+      "en": "It's better to know ten phrases well than fifty badly.",
+      "hi": "पचास वाक्य कच्चे जानने से अच्छा है दस वाक्य पक्के जानना।",
+      "pron": "ईल वो म्यö ब्यैँ को-नैत्ग़ दी फ़्ग़ाज़ कö माल आँ को-नैत्ग़ सैँ-काँत"
+    },
+    {
+      "fr": "Pour conclure, …",
+      "en": "To conclude, …",
+      "hi": "निष्कर्ष में, …",
+      "pron": "पूग़ कोँ-क्लüग़"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Recap: your phrase bank in six families, plus your top errors",
+      "hi": "दोहराव: छह परिवारों में आपका वाक्य-भंडार, और आपकी मुख्य ग़लतियाँ"
+    },
+    "explanation": {
+      "en": "Sort the phrases you have collected into six families and keep only two or three you really use in each. 1 Opening: Je vous appelle au sujet de votre annonce… / Madame, Monsieur, … 2 Asking: Je voudrais savoir si… / Pourriez-vous me dire… ? / Est-ce que… ? 3 Reacting and repairing: Ah, d'accord. / Vous voulez dire que… ? / Autrement dit… 4 Giving an opinion: À mon avis, … / Je suis convaincu que… / Je ne partage pas cette opinion. 5 Linking: d'abord, de plus, cependant, en effet, par exemple. 6 Concluding: Pour conclure, … / En conclusion, … / Veuillez agréer… Then copy the two recurring errors from day 117 at the top of the same page, with the correct form next to each (for example: elle est venu → elle est venue). A single page you can read in two minutes is more useful the day before the test than a thick notebook.",
+      "hi": "अपने जमा किए वाक्यों को छह परिवारों में बाँटिए और हर एक में सिर्फ़ वे दो-तीन रखिए जो आप सच में इस्तेमाल करते हैं। 1 शुरुआत: Je vous appelle au sujet de votre annonce… / Madame, Monsieur, … 2 पूछना: Je voudrais savoir si… / Pourriez-vous me dire… ? / Est-ce que… ? 3 प्रतिक्रिया और सुधार: Ah, d'accord. / Vous voulez dire que… ? / Autrement dit… 4 राय देना: À mon avis, … / Je suis convaincu que… / Je ne partage pas cette opinion. 5 जोड़ना: d'abord, de plus, cependant, en effet, par exemple. 6 समापन: Pour conclure, … / En conclusion, … / Veuillez agréer… फिर दिन 117 की अपनी दो बार-बार की ग़लतियाँ उसी पन्ने के सबसे ऊपर लिखिए, हर एक के आगे सही रूप (जैसे: elle est venu → elle est venue)। परीक्षा से एक दिन पहले दो मिनट में पढ़ा जा सकने वाला एक पन्ना मोटी कॉपी से ज़्यादा काम का है।"
+    },
+    "examples": [
+      {
+        "fr": "À mon avis, le télétravail a plus d'avantages que d'inconvénients.",
+        "en": "In my opinion, remote work has more advantages than disadvantages.",
+        "hi": "मेरी राय में, घर से काम करने के नुक़सान से ज़्यादा फ़ायदे हैं।",
+        "pron": "आ मोँ ना-वी लö ते-ले-त्ग़ा-वाय आ प्लü दा-वाँ-ताझ़ कö दैँ-नैँ-कोँ-वे-न्याँ"
+      },
+      {
+        "fr": "Je voudrais savoir si le matériel est fourni.",
+        "en": "I'd like to know if the equipment is provided.",
+        "hi": "मैं जानना चाहता / चाहती हूँ कि सामान दिया जाता है या नहीं।",
+        "pron": "झ़ö वू-द्ग़ै सा-वाग़ सी लö मा-ते-ग़्यैल ऐ फ़ूग़-नी"
+      },
+      {
+        "fr": "Pour conclure, je pense que c'est une excellente occasion.",
+        "en": "To conclude, I think it's an excellent opportunity.",
+        "hi": "निष्कर्ष में, मुझे लगता है कि यह एक बेहतरीन मौक़ा है।",
+        "pron": "पूग़ कोँ-क्लüग़ झ़ö पाँस कö सै तüन ऐक-से-लाँत ओ-का-ज़्योँ"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Don't add new phrases today: polish the ones you already use.",
+        "hi": "आज नए वाक्य मत जोड़िए: जो आप पहले से इस्तेमाल करते हैं, उन्हें निखारिए।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Personal review: your three hardest phrases",
+    "tip": {
+      "en": "Pick three phrases from your bank that you still stumble on. Say each one slowly, then at normal speed, then record it once. Below are phrases many learners find hard; replace them with your own.",
+      "hi": "अपने भंडार से तीन ऐसे वाक्य चुनिए जिन पर आप अब भी अटकते हैं। हर एक को पहले धीरे, फिर सामान्य गति से बोलिए, फिर एक बार रिकॉर्ड कीजिए। नीचे ऐसे वाक्य हैं जो बहुत से सीखने वालों को कठिन लगते हैं; इनकी जगह अपने वाक्य रखिए।"
+    },
+    "words": [
+      {
+        "fr": "Je voudrais savoir si…",
+        "en": "I'd like to know if…",
+        "hi": "मैं जानना चाहता / चाहती हूँ कि…",
+        "pron": "झ़ö वू-द्ग़ै सा-वाग़ सी",
+        "ipa": "ʒə vudʁɛ savwaʁ si"
+      },
+      {
+        "fr": "Veuillez agréer…",
+        "en": "Please accept… (letter formula)",
+        "hi": "कृपया स्वीकार करें… (पत्र का वाक्यांश)",
+        "pron": "वö-ये ज़ा-ग्ग़े-ए",
+        "ipa": "vœje aɡʁee"
+      },
+      {
+        "fr": "Je suis convaincu que…",
+        "en": "I am convinced that…",
+        "hi": "मुझे पूरा यक़ीन है कि…",
+        "pron": "झ़ö सüइ कोँ-वैँ-कü कö",
+        "ipa": "ʒə sɥi kɔ̃vɛ̃ky kə"
+      },
+      {
+        "fr": "Autrement dit…",
+        "en": "In other words…",
+        "hi": "दूसरे शब्दों में…",
+        "pron": "ओ-त्ग़ö-माँ दी",
+        "ipa": "otʁəmɑ̃ di"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Nos phrases préférées",
+      "en": "Our favourite phrases"
+    },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Two learners, Priya and Daniel, compare their phrase banks over coffee a few days before their test. Relax and listen for the phrases you also use.",
+      "hi": "दो सीखने वाले, प्रिया और डैनियल, अपनी परीक्षा से कुछ दिन पहले कॉफ़ी पर अपने वाक्य-भंडार की तुलना करते हैं। आराम से सुनिए और उन वाक्यों पर ध्यान दीजिए जो आप भी इस्तेमाल करते हैं।"
+    },
+    "lines": [
+      {
+        "speaker": "Priya",
+        "voice": "f1",
+        "fr": "Tu as fini ta fiche de phrases ? Moi, j'ai tout mis sur une seule page.",
+        "en": "Have you finished your phrase sheet? I put everything on a single page.",
+        "hi": "तुम्हारी वाक्यों की पर्ची पूरी हुई? मैंने तो सब कुछ एक ही पन्ने पर रख दिया।"
+      },
+      {
+        "speaker": "Daniel",
+        "voice": "m1",
+        "fr": "Presque. Ma préférée, c'est « Je te comprends, mais justement… ». Elle marche pour presque toutes les objections.",
+        "en": "Almost. My favourite is 'Je te comprends, mais justement…'. It works for almost every objection.",
+        "hi": "लगभग। मेरा पसंदीदा है « Je te comprends, mais justement… »। यह लगभग हर आपत्ति पर काम करता है।"
+      },
+      {
+        "speaker": "Priya",
+        "voice": "f1",
+        "fr": "C'est vrai. Moi, pour la section A, j'utilise beaucoup « Je voudrais savoir si… », parce que c'est poli et facile.",
+        "en": "True. For section A, I use 'Je voudrais savoir si…' a lot, because it's polite and easy.",
+        "hi": "सच है। मैं खंड A के लिए « Je voudrais savoir si… » बहुत इस्तेमाल करती हूँ, क्योंकि यह शिष्ट और आसान है।"
+      },
+      {
+        "speaker": "Daniel",
+        "voice": "m1",
+        "fr": "Et à l'écrit, tu commences comment ta lettre ?",
+        "en": "And in writing, how do you start your letter?",
+        "hi": "और लेखन में, तुम अपना पत्र कैसे शुरू करती हो?"
+      },
+      {
+        "speaker": "Priya",
+        "voice": "f1",
+        "fr": "Toujours pareil : « Madame, Monsieur, j'ai lu avec intérêt votre article sur… ». Comme ça, je ne perds pas de temps.",
+        "en": "Always the same: 'Madame, Monsieur, j'ai lu avec intérêt votre article sur…'. That way, I don't waste time.",
+        "hi": "हमेशा एक जैसा: « Madame, Monsieur, j'ai lu avec intérêt votre article sur… »। इस तरह मेरा समय बर्बाद नहीं होता।"
+      },
+      {
+        "speaker": "Daniel",
+        "voice": "m1",
+        "fr": "Bonne idée. Moi, je vais relire ma fiche dans le métro, la veille du test. Pas plus.",
+        "en": "Good idea. I'm going to reread my sheet on the metro, the day before the test. No more than that.",
+        "hi": "अच्छा विचार। मैं परीक्षा से एक दिन पहले मेट्रो में अपनी पर्ची दोबारा पढ़ूँगा। इससे ज़्यादा नहीं।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "How has Priya organised her phrases?"
+        },
+        "options": [
+          "In a thick notebook",
+          "On a single page",
+          "On her phone",
+          "She hasn't organised them"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'J'ai tout mis sur une seule page.'",
+          "hi": "'J'ai tout mis sur une seule page' — सब एक ही पन्ने पर।"
+        },
+        "kind": "literal",
+        "evidence": "j'ai tout mis sur une seule page"
+      },
+      {
+        "q": {
+          "en": "Why does Daniel like 'Je te comprends, mais justement…'?"
+        },
+        "options": [
+          "It's very formal",
+          "It works for almost every objection",
+          "His teacher told him to use it",
+          "It's short"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Elle marche pour presque toutes les objections.'",
+          "hi": "'Elle marche pour presque toutes les objections' — लगभग हर आपत्ति पर काम करता है।"
+        },
+        "kind": "literal",
+        "evidence": "Elle marche pour presque toutes les objections."
+      },
+      {
+        "q": {
+          "en": "Why does Priya always start her letter the same way?"
+        },
+        "options": [
+          "To save time",
+          "Because it's required",
+          "To impress the examiner",
+          "Because she doesn't know other formulas"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Comme ça, je ne perds pas de temps.'",
+          "hi": "'Comme ça, je ne perds pas de temps' — समय बचाने के लिए।"
+        },
+        "kind": "inference",
+        "evidence": "Comme ça, je ne perds pas de temps."
+      },
+      {
+        "q": {
+          "en": "When will Daniel reread his sheet?"
+        },
+        "options": [
+          "Every night",
+          "The morning of the test",
+          "On the metro, the day before the test",
+          "Never"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Dans le métro, la veille du test.'",
+          "hi": "'Dans le métro, la veille du test' — परीक्षा से एक दिन पहले मेट्रो में।"
+        },
+        "kind": "literal",
+        "evidence": "je vais relire ma fiche dans le métro, la veille du test"
+      }
+    ],
+    "dictation": [
+      "Moi, j'ai tout mis sur une seule page.",
+      "Comme ça, je ne perds pas de temps."
+    ],
+    "gapFill": {
+      "text": "Elle ___ pour presque toutes les objections. Je vais relire ma ___ dans le métro.",
+      "answers": [
+        "marche",
+        "fiche"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "conversation",
+    "instructions": {
+      "en": "Light practice: answer each question below in two or three sentences, using at least one phrase from your bank each time. Don't time yourself today; focus on sounding natural.",
+      "hi": "हल्का अभ्यास: नीचे के हर प्रश्न का जवाब दो-तीन वाक्यों में दीजिए, हर बार अपने भंडार का कम से कम एक वाक्य इस्तेमाल करते हुए। आज समय मत नापिए; स्वाभाविक लगने पर ध्यान दीजिए।"
+    },
+    "prompts": [
+      {
+        "fr": "Quelle est ta phrase préférée en français, et pourquoi ?",
+        "en": "What is your favourite phrase in French, and why?",
+        "hi": "फ़्रेंच में तुम्हारा पसंदीदा वाक्य कौन-सा है, और क्यों?",
+        "pron": "कैल ऐ ता फ़्ग़ाज़ प्ग़े-फ़े-ग़े आँ फ़्ग़ाँ-सै ए पूग़-क्वा",
+        "model": "Ma phrase préférée, c'est « Autrement dit ». Elle m'aide quand je ne trouve pas un mot : je peux reformuler sans m'arrêter. En plus, elle sonne très naturelle."
+      },
+      {
+        "fr": "Qu'est-ce qui a le plus changé dans ton français depuis le début ?",
+        "en": "What has changed most in your French since the beginning?",
+        "hi": "शुरुआत से अब तक तुम्हारी फ़्रेंच में सबसे ज़्यादा क्या बदला है?",
+        "pron": "कैस की आ लö प्लü शाँ-झ़े दाँ तोँ फ़्ग़ाँ-सै द-प्üइ लö दे-बü",
+        "model": "À mon avis, c'est la compréhension orale. Au début, je ne comprenais presque rien à la radio. Maintenant, je comprends l'essentiel, même quand les gens parlent vite."
+      },
+      {
+        "fr": "Comment est-ce que tu vas réviser la veille du test ?",
+        "en": "How are you going to revise the day before the test?",
+        "hi": "परीक्षा से एक दिन पहले तुम कैसे दोहराओगे?",
+        "pron": "को-माँ ऐस कö तü वा ग़े-वी-ज़े ला वैय दü तैस्त"
+      },
+      {
+        "fr": "Je te comprends, mais justement, c'est le moment de te reposer.",
+        "en": "I understand you, but that's exactly why it's time to rest.",
+        "hi": "मैं तुम्हें समझता / समझती हूँ, पर इसीलिए तो अब आराम करने का समय है।",
+        "pron": "झ़ö तö कोँ-प्ग़ाँ मै झ़üस-त-माँ सै लö मो-माँ दö तö ग़ö-पो-ज़े"
+      }
+    ],
+    "tip": {
+      "en": "A phrase becomes yours when you can say it without thinking. Use your favourites today in a real conversation, even a short one.",
+      "hi": "कोई वाक्य तब आपका बनता है जब आप उसे बिना सोचे बोल सकें। आज अपने पसंदीदा वाक्य किसी असली बातचीत में इस्तेमाल कीजिए, चाहे वह छोटी ही हो।"
+    }
+  },
+  "reading": {
+    "genre": "message",
+    "title": "Forum « Je prépare mon test » — Ma fiche de la dernière semaine",
+    "text": "Bonjour à tous,\n\nMon test est dans cinq jours, alors je partage ma fiche, au cas où elle serait utile à quelqu'un.\n\nJ'ai gardé seulement vingt phrases, rangées en six familles : commencer, demander, réagir, donner mon avis, relier les idées, conclure. Par exemple, pour réagir, j'ai « Ah, d'accord, et est-ce que… ? » et « Vous voulez dire que… ? ». Pour relier les idées, j'ai choisi « de plus », « cependant » et « par exemple », parce que je les utilise vraiment.\n\nEn haut de la page, j'ai écrit mes deux erreurs qui reviennent toujours : l'accord avec « être » (elle est partie, pas « elle est parti ») et « depuis » avec le présent (j'habite ici depuis deux ans, pas « j'ai habité »).\n\nJe relis la fiche une fois le matin et une fois le soir. Je ne cherche plus de nouvelles expressions : je veux être sûre de celles que je connais.\n\nEt vous, qu'est-ce que vous avez mis sur votre fiche ?\n\nSonia, Winnipeg",
+    "translation": {
+      "en": "Hello everyone,\n\nMy test is in five days, so I'm sharing my sheet, in case it's useful to someone.\n\nI kept only twenty phrases, sorted into six families: starting, asking, reacting, giving my opinion, linking ideas, concluding. For example, for reacting, I have 'Ah, d'accord, et est-ce que… ?' and 'Vous voulez dire que… ?'. For linking ideas, I chose 'de plus', 'cependant' and 'par exemple', because I really use them.\n\nAt the top of the page, I wrote my two errors that always come back: agreement with 'être' (elle est partie, not 'elle est parti') and 'depuis' with the present (j'habite ici depuis deux ans, not 'j'ai habité').\n\nI reread the sheet once in the morning and once in the evening. I'm no longer looking for new expressions: I want to be sure of the ones I know.\n\nAnd you, what have you put on your sheet?\n\nSonia, Winnipeg",
+      "hi": "सभी को नमस्ते,\n\nमेरी परीक्षा पाँच दिन में है, इसलिए मैं अपनी पर्ची साझा कर रही हूँ, शायद किसी के काम आ जाए।\n\nमैंने सिर्फ़ बीस वाक्य रखे हैं, छह परिवारों में बाँटकर: शुरू करना, पूछना, प्रतिक्रिया देना, अपनी राय देना, विचारों को जोड़ना, समापन। उदाहरण के लिए, प्रतिक्रिया के लिए मेरे पास 'Ah, d'accord, et est-ce que… ?' और 'Vous voulez dire que… ?' हैं। विचारों को जोड़ने के लिए मैंने 'de plus', 'cependant' और 'par exemple' चुने, क्योंकि मैं इन्हें सच में इस्तेमाल करती हूँ।\n\nपन्ने के सबसे ऊपर मैंने अपनी वे दो ग़लतियाँ लिखी हैं जो हमेशा लौटती हैं: 'être' के साथ मेल (elle est partie, न कि 'elle est parti') और वर्तमान काल के साथ 'depuis' (j'habite ici depuis deux ans, न कि 'j'ai habité')।\n\nमैं पर्ची एक बार सुबह और एक बार शाम को दोबारा पढ़ती हूँ। अब मैं नए मुहावरे नहीं ढूँढ रही: मैं उन पर पक्का होना चाहती हूँ जो मुझे आते हैं।\n\nऔर आप, आपने अपनी पर्ची पर क्या रखा है?\n\nसोनिया, विनिपेग"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "Why is Sonia sharing her sheet?"
+        },
+        "options": [
+          "Her teacher asked her to",
+          "In case it's useful to others",
+          "To sell it",
+          "Because she has finished her test"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Au cas où elle serait utile à quelqu'un.'",
+          "hi": "'Au cas où elle serait utile à quelqu'un' — शायद किसी के काम आ जाए।"
+        },
+        "kind": "literal",
+        "evidence": "au cas où elle serait utile à quelqu'un"
+      },
+      {
+        "q": {
+          "en": "How many phrases did she keep?"
+        },
+        "options": [
+          "Six",
+          "Fifty",
+          "Five",
+          "Twenty"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'J'ai gardé seulement vingt phrases' — six is the number of families.",
+          "hi": "'Vingt phrases' — बीस वाक्य; छह तो परिवारों की संख्या है।"
+        },
+        "kind": "literal",
+        "evidence": "J'ai gardé seulement vingt phrases"
+      },
+      {
+        "q": {
+          "en": "Why did she choose 'de plus', 'cependant' and 'par exemple'?"
+        },
+        "options": [
+          "She really uses them",
+          "They are the most formal",
+          "They are the shortest",
+          "They are on the official list"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Parce que je les utilise vraiment.'",
+          "hi": "'Parce que je les utilise vraiment' — क्योंकि वह इन्हें सच में इस्तेमाल करती है।"
+        },
+        "kind": "literal",
+        "evidence": "parce que je les utilise vraiment"
+      },
+      {
+        "q": {
+          "en": "Which sentence would Sonia mark as correct?"
+        },
+        "options": [
+          "J'ai habité ici depuis deux ans.",
+          "Elle est parti.",
+          "J'habite ici depuis deux ans.",
+          "Elle a partie."
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "Depuis + present for an action that continues: j'habite ici depuis deux ans.",
+          "hi": "जारी काम के लिए depuis + वर्तमान काल: j'habite ici depuis deux ans।"
+        },
+        "kind": "inference",
+        "evidence": "j'habite ici depuis deux ans"
+      }
+    ]
+  },
+  "writing": {
+    "type": "message",
+    "prompt": {
+      "en": "Light practice: reply to Sonia's forum post in 50 to 80 words. Say what is on your own sheet (two phrases you love and one error you watch for) and wish her good luck.",
+      "hi": "हल्का अभ्यास: सोनिया की फ़ोरम पोस्ट का जवाब 50 से 80 शब्दों में दीजिए। बताइए कि आपकी अपनी पर्ची पर क्या है (दो वाक्य जो आपको बहुत पसंद हैं और एक ग़लती जिस पर आप नज़र रखते हैं) और उसे शुभकामनाएँ दीजिए।"
+    },
+    "minWords": 50,
+    "maxWords": 80,
+    "hints": [
+      {
+        "en": "Use 'Moi aussi, …' or 'Moi, par contre, …' to react to her post.",
+        "hi": "उसकी पोस्ट पर प्रतिक्रिया के लिए 'Moi aussi, …' या 'Moi, par contre, …' इस्तेमाल कीजिए।"
+      },
+      {
+        "en": "Forum register: tu or vous both work; stay consistent.",
+        "hi": "फ़ोरम का स्तर: tu या vous दोनों चलते हैं; एक ही पर टिके रहिए।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Merci pour ta fiche !",
+        "en": "Thanks for your sheet!",
+        "hi": "तुम्हारी पर्ची के लिए धन्यवाद!",
+        "pron": "मैग़-सी पूग़ ता फ़ीश"
+      },
+      {
+        "fr": "Bonne chance pour ton test !",
+        "en": "Good luck with your test!",
+        "hi": "तुम्हारी परीक्षा के लिए शुभकामनाएँ!",
+        "pron": "बॉन शाँस पूग़ तोँ तैस्त"
+      }
+    ],
+    "model": {
+      "fr": "Salut Sonia,\n\nMerci pour ta fiche ! Moi aussi, j'ai rangé mes phrases en familles. Mes deux préférées sont « Autrement dit… », pour reformuler, et « Je te comprends, mais justement… », pour la section B. Par contre, mon erreur à moi, c'est les prépositions après les verbes : je dois écrire « appeler quelqu'un », sans « à ». Je vais relire tout ça demain matin.\n\nBonne chance pour ton test !\nRavi",
+      "en": "Hi Sonia,\n\nThanks for your sheet! I've also sorted my phrases into families. My two favourites are 'Autrement dit…', to rephrase, and 'Je te comprends, mais justement…', for section B. My own error, on the other hand, is prepositions after verbs: I must write 'appeler quelqu'un', without 'à'. I'm going to reread all that tomorrow morning.\n\nGood luck with your test!\nRavi"
+    },
+    "checklist": [
+      {
+        "en": "Two favourite phrases and one error mentioned?",
+        "hi": "दो पसंदीदा वाक्य और एक ग़लती बताई?"
+      },
+      {
+        "en": "A greeting and a good-luck wish?",
+        "hi": "संबोधन और शुभकामना?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      101,
+      103,
+      104,
+      106,
+      107,
+      110,
+      111,
+      112,
+      113,
+      116,
+      117,
+      118
+    ],
+    "items": [
+      {
+        "fr": "Je vous appelle au sujet de votre annonce.",
+        "en": "I'm calling about your advertisement.",
+        "hi": "मैं आपके विज्ञापन के बारे में फ़ोन कर रहा / रही हूँ।",
+        "pron": "झ़ö वू ज़ा-पैल ओ सü-झ़े दö वोत्ग़ आ-नोँस"
+      },
+      {
+        "fr": "Je voudrais savoir si …",
+        "en": "I'd like to know if …",
+        "hi": "मैं जानना चाहता / चाहती हूँ कि …",
+        "pron": "झ़ö वू-द्ग़ै सा-वाग़ सी"
+      },
+      {
+        "fr": "Pourriez-vous me dire … ?",
+        "en": "Could you tell me …?",
+        "hi": "क्या आप बता सकते हैं …?",
+        "pron": "पू-ग़ी-ये वू मö दीग़"
+      },
+      {
+        "fr": "Vous voulez dire que … ?",
+        "en": "Do you mean that …?",
+        "hi": "आपका मतलब है कि …?",
+        "pron": "वू वू-ले दीग़ कö"
+      },
+      {
+        "fr": "Autrement dit, …",
+        "en": "In other words, …",
+        "hi": "दूसरे शब्दों में, …",
+        "pron": "ओ-त्ग़ö-माँ दी"
+      },
+      {
+        "fr": "Je te comprends, mais justement …",
+        "en": "I understand, but that's exactly why …",
+        "hi": "मैं समझता / समझती हूँ, पर इसीलिए तो …",
+        "pron": "झ़ö तö कोँ-प्ग़ाँ मै झ़üस-त-माँ"
+      },
+      {
+        "fr": "À mon avis, …",
+        "en": "In my opinion, …",
+        "hi": "मेरी राय में, …",
+        "pron": "आ मोँ ना-वी"
+      },
+      {
+        "fr": "Je ne partage pas cette opinion.",
+        "en": "I don't share this opinion.",
+        "hi": "मैं इस राय से सहमत नहीं हूँ।",
+        "pron": "झ़ö नö पाग़-ताझ़ पा सैत ओ-पी-न्योँ"
+      },
+      {
+        "fr": "cependant",
+        "en": "however",
+        "hi": "फिर भी",
+        "pron": "स-पाँ-दाँ"
+      },
+      {
+        "fr": "Veuillez agréer mes salutations distinguées.",
+        "en": "Yours faithfully.",
+        "hi": "सादर।",
+        "pron": "वö-ये ज़ा-ग्ग़े-ए मे सा-लü-ता-स्योँ दीस-तैँ-गे"
+      },
+      {
+        "fr": "C'est une erreur qui revient souvent.",
+        "en": "It's a mistake that often comes back.",
+        "hi": "यह ऐसी ग़लती है जो अक्सर लौटती है।",
+        "pron": "सै तüन ए-ग़öग़ की ग़ö-व्यैँ सू-वाँ"
+      },
+      {
+        "fr": "Je garde cinq minutes pour la relecture.",
+        "en": "I keep five minutes for proofreading.",
+        "hi": "मैं जाँचने के लिए पाँच मिनट बचाकर रखता / रखती हूँ।",
+        "pron": "झ़ö गाग़्द सैँ मी-नüत पूग़ ला ग़ö-लैक-तüग़"
+      },
+      {
+        "fr": "la convocation",
+        "en": "notice to attend",
+        "hi": "बुलावा-पत्र",
+        "pron": "ला कोँ-वो-का-स्योँ"
+      },
+      {
+        "fr": "la pièce d'identité",
+        "en": "identity document",
+        "hi": "पहचान-पत्र",
+        "pron": "ला प्यैस दी-दाँ-ती-ते"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which family does 'cependant' belong to?",
+        "hi": "'cependant' किस परिवार का है?"
+      },
+      "options": [
+        "Opening",
+        "Linking",
+        "Asking",
+        "Concluding"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Cependant (however) links and contrasts ideas.",
+        "hi": "Cependant (फिर भी) विचारों को जोड़ता और उनमें विरोध दिखाता है।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "What is the best use of the day before the test, according to today's lesson?",
+        "hi": "आज के पाठ के अनुसार, परीक्षा से एक दिन पहले का सबसे अच्छा इस्तेमाल क्या है?"
+      },
+      "options": [
+        "Learn fifty new phrases",
+        "Reread one short page of phrases and errors",
+        "Do three full mocks",
+        "Change your strategies"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "One page you can read in two minutes: no new pressure.",
+        "hi": "दो मिनट में पढ़ा जा सकने वाला एक पन्ना: कोई नया दबाव नहीं।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: I know it by heart.",
+        "hi": "पूरा कीजिए: मुझे यह ज़बानी याद है।"
+      },
+      "sentence": "Je la connais par ___.",
+      "answer": "cœur",
+      "accept": [
+        "coeur"
+      ],
+      "explanation": {
+        "en": "Par cœur = by heart.",
+        "hi": "Par cœur = ज़बानी।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Correct the error: She left.",
+        "hi": "ग़लती सुधारिए: वह चली गई।"
+      },
+      "sentence": "Elle est ___.",
+      "answer": "partie",
+      "accept": [],
+      "explanation": {
+        "en": "Être + participle agrees with a feminine subject: partie.",
+        "hi": "Être + भूतकृदंत स्त्रीलिंग कर्ता से मेल खाता है: partie।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "I've lived here for two years.",
+        "hi": "मैं दो साल से यहाँ रह रहा हूँ।"
+      },
+      "answer": "J'habite ici depuis deux ans.",
+      "accept": [
+        "J'habite ici depuis deux ans",
+        "J'habite ici depuis 2 ans."
+      ],
+      "explanation": {
+        "en": "Depuis + present for something still going on.",
+        "hi": "अब भी जारी बात के लिए depuis + वर्तमान काल।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: I reread my favourite set phrases.",
+        "hi": "शब्दों को क्रम में रखिए: मैं अपने पसंदीदा तय वाक्यांश दोबारा पढ़ता हूँ।"
+      },
+      "words": [
+        "formules",
+        "Je",
+        "préférées.",
+        "mes",
+        "relis"
+      ],
+      "answer": "Je relis mes formules préférées.",
+      "explanation": {
+        "en": "The adjective préférées comes after the noun and agrees with it (feminine plural).",
+        "hi": "विशेषण préférées संज्ञा के बाद आता है और उससे मेल खाता है (स्त्रीलिंग बहुवचन)।"
+      }
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "day": 29,
+  "phase": 2,
+  "title": { "fr": "Se déplacer : transports et directions", "en": "Getting around: transport and directions", "hi": "आना-जाना: यातायात और रास्ता" },
+  "objective": {
+    "en": "Ask for and give directions in a city, say how you travel (en métro, à pied), use the verb prendre, and give instructions with the imperative (Prenez, Tournez, Continuez).",
+    "hi": "शहर में रास्ता पूछना और बताना, बताना कि आप कैसे आते-जाते हैं (en métro, à pied), prendre क्रिया का इस्तेमाल, और आज्ञार्थ (imperative) से निर्देश देना (Prenez, Tournez, Continuez)।"
+  },
+  "prerequisites": {
+    "days": [9, 15, 16, 17, 23],
+    "summary": {
+      "en": "-er verbs, telling the time, aller and places in town, où / comment, prepositions of place.",
+      "hi": "-er क्रियाएँ, समय बताना, aller और शहर की जगहें, où / comment, स्थानसूचक शब्द।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "le métro", "en": "metro / subway", "hi": "मेट्रो", "pron": "लö मे-त्रो", "ipa": "lə metʁo", "pos": "noun", "gender": "m", "lemma": "métro" },
+    { "fr": "l'autobus / le bus", "en": "bus", "hi": "बस", "pron": "लो-तो-बüस / लö बüस", "ipa": "lotobys / lə bys", "pos": "noun", "gender": "m", "lemma": "autobus", "note": { "en": "In Québec people often say 'l'autobus'; in France, 'le bus'.", "hi": "क्यूबेक में लोग अक्सर 'l'autobus' कहते हैं; फ़्रांस में 'le bus'।" } },
+    { "fr": "l'arrêt", "en": "(bus) stop", "hi": "बस स्टॉप", "pron": "ला-ग़ै", "ipa": "laʁɛ", "pos": "noun", "gender": "m", "lemma": "arrêt" },
+    { "fr": "la station", "en": "(metro) station", "hi": "(मेट्रो) स्टेशन", "pron": "ला स्ता-स्योँ", "ipa": "la stasjɔ̃", "pos": "noun", "gender": "f", "lemma": "station", "note": { "en": "A train station is 'la gare' (Day 16).", "hi": "रेलवे स्टेशन को 'la gare' कहते हैं (दिन 16)।" } },
+    { "fr": "le billet", "en": "ticket", "hi": "टिकट", "pron": "लö बी-यै", "ipa": "lə bijɛ", "pos": "noun", "gender": "m", "lemma": "billet" },
+    { "fr": "la carte de transport", "en": "transit card / pass", "hi": "यात्रा कार्ड / पास", "pron": "ला काग़्त दö त्राँस-पॉग़", "ipa": "la kaʁt də tʁɑ̃spɔʁ", "pos": "noun", "gender": "f", "lemma": "carte" },
+    { "fr": "la ligne", "en": "line (metro / bus)", "hi": "लाइन", "pron": "ला लीन्य", "ipa": "la liɲ", "pos": "noun", "gender": "f", "lemma": "ligne" },
+    { "fr": "à droite", "en": "to the right / on the right", "hi": "दाईं ओर", "pron": "आ द्र्वात", "ipa": "a dʁwat", "pos": "phrase" },
+    { "fr": "à gauche", "en": "to the left / on the left", "hi": "बाईं ओर", "pron": "आ गोश", "ipa": "a ɡoʃ", "pos": "phrase" },
+    { "fr": "tout droit", "en": "straight ahead", "hi": "सीधे", "pron": "तू द्र्वा", "ipa": "tu dʁwa", "pos": "phrase", "note": { "en": "Don't confuse tout droit (straight on) with à droite (to the right).", "hi": "tout droit (सीधे) को à droite (दाईं ओर) से मत मिलाइए।" } },
+    { "fr": "tourner", "en": "to turn", "hi": "मुड़ना", "pron": "तूग़-ने", "ipa": "tuʁne", "pos": "verb" },
+    { "fr": "traverser", "en": "to cross", "hi": "पार करना", "pron": "त्रा-वैग़-से", "ipa": "tʁavɛʁse", "pos": "verb" },
+    { "fr": "le feu", "en": "traffic light", "hi": "ट्रैफ़िक सिग्नल / बत्ती", "pron": "लö फ़ö", "ipa": "lə fø", "pos": "noun", "gender": "m", "lemma": "feu", "note": { "en": "Literally 'the fire'. Au feu = at the lights.", "hi": "शब्दशः 'आग'। Au feu = सिग्नल पर।" } },
+    { "fr": "à pied", "en": "on foot", "hi": "पैदल", "pron": "आ प्ये", "ipa": "a pje", "pos": "phrase" }
+  ],
+  "phrases": [
+    { "fr": "Excusez-moi, où est la station de métro ?", "en": "Excuse me, where is the metro station?", "hi": "माफ़ कीजिए, मेट्रो स्टेशन कहाँ है?", "pron": "ऐक्स-कü-ज़े मवा ऊ ऐ ला स्ता-स्योँ दö मे-त्रो" },
+    { "fr": "C'est par où ?", "en": "Which way is it?", "hi": "किस तरफ़ है?", "pron": "सै पाग़ ऊ" },
+    { "fr": "C'est loin ?", "en": "Is it far?", "hi": "क्या दूर है?", "pron": "सै ल्वैँ" },
+    { "fr": "C'est à dix minutes à pied.", "en": "It's ten minutes' walk.", "hi": "पैदल दस मिनट का रास्ता है।", "pron": "सै ता दी मी-नüत आ प्ये" },
+    { "fr": "Je prends le métro.", "en": "I take the metro.", "hi": "मैं मेट्रो लेता/लेती हूँ।", "pron": "झ़ö प्राँ लö मे-त्रो" },
+    { "fr": "Prenez la ligne orange.", "en": "Take the orange line.", "hi": "ऑरेंज लाइन लीजिए।", "pron": "प्रö-ने ला लीन्य ओ-ग़ाँझ़" }
+  ],
+  "grammar": {
+    "title": { "en": "prendre, the imperative, and en métro / à pied", "hi": "prendre, आज्ञार्थ (imperative), और en métro / à pied" },
+    "explanation": {
+      "en": "prendre (to take) is irregular: je prends, tu prends, il/elle prend, nous prenons, vous prenez, ils/elles prennent. Use it for transport: je prends le bus. To give instructions, use the imperative: the tu, nous or vous form without the subject. Prends ! / Prenons ! / Prenez ! For -er verbs, the tu form drops its s: tu tournes → Tourne à gauche ! For strangers, always use the vous form: Tournez, Continuez, Traversez, Descendez. To say how you travel: en + vehicle you are inside (en métro, en bus, en voiture, en train, en taxi) but à + things you sit on or your feet (à pied, à vélo).",
+      "hi": "prendre (लेना) अनियमित है: je prends, tu prends, il/elle prend, nous prenons, vous prenez, ils/elles prennent। यातायात के लिए इसका इस्तेमाल होता है: je prends le bus। निर्देश देने के लिए आज्ञार्थ का इस्तेमाल कीजिए: tu, nous या vous वाला रूप, बिना कर्ता के। Prends ! / Prenons ! / Prenez ! -er क्रियाओं में tu वाले रूप का s हट जाता है: tu tournes → Tourne à gauche ! अजनबियों के लिए हमेशा vous वाला रूप: Tournez, Continuez, Traversez, Descendez। आप कैसे यात्रा करते हैं: जिस वाहन के अंदर बैठते हैं उसके लिए en (en métro, en bus, en voiture, en train, en taxi), पर जिस पर बैठते हैं या पैरों के लिए à (à pied, à vélo)।"
+    },
+    "comparison": {
+      "en": "Hindi has politeness levels in the imperative too: लो (तुम) and लीजिए (आप) — exactly like Prends (tu) and Prenez (vous). English just says 'Take'. So when you would say 'मुड़िए' to a stranger in Hindi, say 'Tournez' in French. And 'en métro' works like Hindi 'मेट्रो से' (by metro); 'à pied' is simply 'पैदल'.",
+      "hi": "हिंदी में भी आज्ञार्थ के शिष्टता-स्तर होते हैं: लो (तुम) और लीजिए (आप) — बिल्कुल Prends (tu) और Prenez (vous) की तरह। अंग्रेज़ी में बस 'Take'। तो जहाँ आप किसी अजनबी से हिंदी में 'मुड़िए' कहते, वहाँ फ़्रेंच में 'Tournez' कहिए। और 'en métro' हिंदी के 'मेट्रो से' जैसा है; 'à pied' बस 'पैदल'।"
+    },
+    "examples": [
+      { "fr": "Je prends l'autobus 51 tous les matins.", "en": "I take the 51 bus every morning.", "hi": "मैं हर सुबह 51 नंबर की बस लेता/लेती हूँ।", "pron": "झ़ö प्राँ लो-तो-बüस सैँ-काँत-ऐँ तू ले मा-तैँ" },
+      { "fr": "Ils prennent le train pour Québec.", "en": "They take the train to Québec City.", "hi": "वे क्यूबेक सिटी के लिए ट्रेन लेते हैं।", "pron": "ईल प्रैन लö त्रैँ पूग़ के-बैक" },
+      { "fr": "Tournez à gauche au feu.", "en": "Turn left at the lights.", "hi": "सिग्नल पर बाईं ओर मुड़िए।", "pron": "तूग़-ने आ गोश ओ फ़ö" },
+      { "fr": "Continuez tout droit jusqu'à la banque.", "en": "Keep going straight until the bank.", "hi": "बैंक तक सीधे चलते जाइए।", "pron": "कोँ-ती-नü-ए तू द्र्वा झ़üस-का ला बाँक", "note": { "en": "jusqu'à = up to / until.", "hi": "jusqu'à = … तक।" } },
+      { "fr": "Traverse la rue ici !", "en": "Cross the street here! (tu)", "hi": "यहाँ सड़क पार करो!", "pron": "त्रा-वैग़्स ला ग़ü ई-सी" },
+      { "fr": "Je vais au travail en métro, mais je rentre à pied.", "en": "I go to work by metro, but I come home on foot.", "hi": "मैं काम पर मेट्रो से जाता/जाती हूँ, पर घर पैदल लौटता/लौटती हूँ।", "pron": "झ़ö वै ज़ो त्रा-वाय आँ मे-त्रो मै झ़ö ग़ाँत्ग़ आ प्ये" }
+    ],
+    "pitfalls": [
+      { "en": "il prend (प्राँ, nasal) but ils prennent (प्रैन, with n). Don't mix them.", "hi": "il prend (प्राँ, नासिक्य) पर ils prennent (प्रैन, n के साथ)। इन्हें मत मिलाइए।" },
+      { "en": "The tu imperative of -er verbs has no s: 'Tourne !', not 'Tournes !'.", "hi": "-er क्रियाओं के tu आज्ञार्थ में s नहीं होता: 'Tourne !', 'Tournes !' नहीं।" },
+      { "en": "Not 'en pied' — say 'à pied'.", "hi": "'en pied' नहीं — 'à pied' कहिए।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "/ɑ̃/ (en, prendre, descendre) vs /ɔ̃/ (bon, station, Montréal)",
+    "tip": {
+      "en": "/ɑ̃/ (an, en) is an open आँ: mouth open, jaw low. /ɔ̃/ (on) is a rounded ओँ: lips tight and forward. Neither has an n sound at the end. Try: 'en station' — आँ … स्ता-स्योँ: open, then round.",
+      "hi": "/ɑ̃/ (an, en) खुला आँ है: मुँह खुला, जबड़ा नीचे। /ɔ̃/ (on) गोल ओँ है: होंठ कसे और आगे। किसी के आख़िर में n की आवाज़ नहीं। बोलकर देखिए: 'en station' — आँ … स्ता-स्योँ: पहले खुला, फिर गोल।"
+    },
+    "words": [
+      { "fr": "en métro", "en": "by metro", "hi": "मेट्रो से", "pron": "आँ मे-त्रो", "ipa": "ɑ̃ metʁo" },
+      { "fr": "prendre", "en": "to take", "hi": "लेना", "pron": "प्राँद्ग़", "ipa": "pʁɑ̃dʁ" },
+      { "fr": "descendez", "en": "get off / go down", "hi": "उतरिए", "pron": "दे-साँ-दे", "ipa": "desɑ̃de" },
+      { "fr": "la station", "en": "the station", "hi": "स्टेशन", "pron": "ला स्ता-स्योँ", "ipa": "la stasjɔ̃" },
+      { "fr": "Montréal", "en": "Montréal", "hi": "मॉन्ट्रियाल (शहर)", "pron": "मोँ-ग़े-आल", "ipa": "mɔ̃ʁeal" },
+      { "fr": "C'est bon ?", "en": "Is that OK?", "hi": "ठीक है?", "pron": "सै बोँ", "ipa": "sɛ bɔ̃" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Où est la station de métro ?", "en": "Where is the metro station?" },
+    "type": "dialogue",
+    "mode": "pedagogical",
+    "context": {
+      "en": "Arjun is on rue Saint-Denis in Montréal. He asks a woman how to get to the metro and to the university.",
+      "hi": "अर्जुन मॉन्ट्रियाल की रू सां-देनी पर है। वह एक महिला से मेट्रो और विश्वविद्यालय का रास्ता पूछता है।"
+    },
+    "lines": [
+      { "speaker": "Arjun", "voice": "m1", "fr": "Excusez-moi, madame. Où est la station de métro, s'il vous plaît ?", "en": "Excuse me, madam. Where is the metro station, please?", "hi": "माफ़ कीजिए, मैडम। मेट्रो स्टेशन कहाँ है?" },
+      { "speaker": "La passante", "voice": "f2", "fr": "La station Mont-Royal ? Ce n'est pas loin. C'est à cinq minutes à pied.", "en": "Mont-Royal station? It's not far. It's five minutes' walk.", "hi": "मों-रोयाल स्टेशन? दूर नहीं है। पैदल पाँच मिनट है।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Merci ! C'est par où ?", "en": "Thanks! Which way is it?", "hi": "धन्यवाद! किस तरफ़ है?" },
+      { "speaker": "La passante", "voice": "f2", "fr": "Continuez tout droit sur la rue Saint-Denis. Au feu, tournez à gauche.", "en": "Keep going straight on Saint-Denis Street. At the lights, turn left.", "hi": "रू सां-देनी पर सीधे चलते जाइए। सिग्नल पर बाईं ओर मुड़िए।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Au feu, à gauche. D'accord.", "en": "At the lights, left. OK.", "hi": "सिग्नल पर, बाईं ओर। ठीक है।" },
+      { "speaker": "La passante", "voice": "f2", "fr": "Ensuite, traversez l'avenue. La station est en face de la pharmacie.", "en": "Then cross the avenue. The station is opposite the pharmacy.", "hi": "फिर एवेन्यू पार कीजिए। स्टेशन फ़ार्मेसी के ठीक सामने है।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Merci. Et pour l'Université de Montréal, je prends quelle ligne ?", "en": "Thanks. And for the Université de Montréal, which line do I take?", "hi": "धन्यवाद। और मॉन्ट्रियाल विश्वविद्यालय के लिए कौन-सी लाइन लूँ?" },
+      { "speaker": "La passante", "voice": "f2", "fr": "Prenez la ligne orange et descendez à la station Snowdon. Ensuite, prenez la ligne bleue.", "en": "Take the orange line and get off at Snowdon station. Then take the blue line.", "hi": "ऑरेंज लाइन लीजिए और स्नोडन स्टेशन पर उतरिए। फिर ब्लू लाइन लीजिए।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Et j'achète un billet où ?", "en": "And where do I buy a ticket?", "hi": "और टिकट कहाँ ख़रीदूँ?" },
+      { "speaker": "La passante", "voice": "f2", "fr": "À la station, au guichet ou à la machine.", "en": "At the station, at the ticket counter or the machine.", "hi": "स्टेशन पर, टिकट खिड़की पर या मशीन से।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Merci beaucoup, madame. Vous êtes très gentille !", "en": "Thank you very much, madam. You're very kind!", "hi": "बहुत धन्यवाद, मैडम। आप बहुत दयालु हैं!" },
+      { "speaker": "La passante", "voice": "f2", "fr": "De rien. Bonne journée !", "en": "You're welcome. Have a nice day!", "hi": "कोई बात नहीं। आपका दिन शुभ हो!" }
+    ],
+    "questions": [
+      { "q": { "en": "How far is the metro station?" }, "options": ["Five minutes on foot", "Ten minutes by bus", "Fifteen minutes on foot"], "answer": 0, "explanation": { "en": "'C'est à cinq minutes à pied.'", "hi": "'C'est à cinq minutes à pied.' — पैदल पाँच मिनट।" }, "kind": "literal", "evidence": "C'est à cinq minutes à pied." },
+      { "q": { "en": "What must Arjun do at the traffic lights?" }, "options": ["Turn right", "Turn left", "Go straight on"], "answer": 1, "explanation": { "en": "'Au feu, tournez à gauche.'", "hi": "'Au feu, tournez à gauche.' — सिग्नल पर बाईं ओर।" }, "kind": "literal", "evidence": "Au feu, tournez à gauche." },
+      { "q": { "en": "Where exactly is the station?" }, "options": ["Next to the bank", "Behind the university", "Opposite the pharmacy"], "answer": 2, "explanation": { "en": "'La station est en face de la pharmacie.'", "hi": "'La station est en face de la pharmacie.' — फ़ार्मेसी के सामने।" }, "kind": "literal", "evidence": "La station est en face de la pharmacie." },
+      { "q": { "en": "How does Arjun get to the university?" }, "options": ["Only the orange line", "Orange line, then blue line from Snowdon", "Blue line, then orange line"], "answer": 1, "explanation": { "en": "'Prenez la ligne orange et descendez à la station Snowdon. Ensuite, prenez la ligne bleue.'", "hi": "पहले ऑरेंज लाइन, स्नोडन पर उतरना, फिर ब्लू लाइन।" }, "kind": "inference", "evidence": "Prenez la ligne orange et descendez à la station Snowdon. Ensuite, prenez la ligne bleue." },
+      { "q": { "en": "Why does the woman say 'tournez' and not 'tourne'?" }, "options": ["Because she is talking to a stranger (vous)", "Because it is the past", "Because Arjun is a man"], "answer": 0, "explanation": { "en": "With a stranger, the polite vous imperative: tournez.", "hi": "अजनबी के साथ शिष्ट vous वाला आज्ञार्थ: tournez।" }, "kind": "grammar", "evidence": "tournez à gauche" }
+    ],
+    "dictation": ["Où est la station de métro ?", "Tournez à gauche.", "Continuez tout droit."],
+    "gapFill": { "text": "___ tout droit sur la rue Saint-Denis. Au feu, ___ à gauche.", "answers": ["Continuez", "tournez"] }
+  },
+  "speaking": {
+    "type": "roleplay",
+    "instructions": {
+      "en": "A visitor stops you in the street and asks for directions. Give clear directions with the vous imperative, say how far it is, and suggest transport.",
+      "hi": "सड़क पर एक पर्यटक आपको रोककर रास्ता पूछता है। vous वाले आज्ञार्थ से साफ़ रास्ता बताइए, बताइए कि कितनी दूर है, और कौन-सा वाहन लें, यह सुझाइए।"
+    },
+    "prompts": [
+      { "fr": "Excusez-moi, où est la bibliothèque ?", "en": "Excuse me, where is the library?", "hi": "माफ़ कीजिए, लाइब्रेरी कहाँ है?", "pron": "ऐक्स-कü-ज़े मवा ऊ ऐ ला बी-ब्ली-यो-तैक", "model": "Continuez tout droit et tournez à droite au feu." },
+      { "fr": "C'est loin ?", "en": "Is it far?", "hi": "क्या दूर है?", "pron": "सै ल्वैँ", "model": "Non, c'est à dix minutes à pied." },
+      { "fr": "Et la gare ?", "en": "And the train station?", "hi": "और रेलवे स्टेशन?", "pron": "ए ला गाग़", "model": "La gare est loin. Prenez le métro, ligne orange." },
+      { "fr": "Je descends où ?", "en": "Where do I get off?", "hi": "मैं कहाँ उतरूँ?", "pron": "झ़ö दे-साँ ऊ", "model": "Descendez à la station Bonaventure." },
+      { "fr": "J'achète un billet où ?", "en": "Where do I buy a ticket?", "hi": "टिकट कहाँ ख़रीदूँ?", "pron": "झ़ा-शैत ऐँ बी-यै ऊ", "model": "Au guichet, dans la station." }
+    ],
+    "tip": {
+      "en": "Point as you speak and repeat the key word: '… à droite. À droite !'. Short instructions are clearer than long ones.",
+      "hi": "बोलते समय इशारा कीजिए और मुख्य शब्द दोहराइए: '… à droite. À droite !'। छोटे निर्देश लंबे निर्देशों से ज़्यादा साफ़ होते हैं।"
+    },
+    "scenario": {
+      "setting": { "en": "A street corner in downtown Montréal.", "hi": "मॉन्ट्रियाल डाउनटाउन का एक नुक्कड़।" },
+      "learnerRole": { "en": "A local who knows the area.", "hi": "इलाक़ा जानने वाला एक स्थानीय व्यक्ति।" },
+      "partnerRole": { "en": "A polite visitor looking for the library and the train station.", "hi": "एक शिष्ट पर्यटक, जो लाइब्रेरी और रेलवे स्टेशन ढूँढ रहा है।" },
+      "goals": [
+        { "en": "Give at least three directions with the vous imperative.", "hi": "vous वाले आज्ञार्थ से कम से कम तीन निर्देश दीजिए।" },
+        { "en": "Say if it's near or far.", "hi": "बताइए कि पास है या दूर।" },
+        { "en": "Suggest transport with prendre.", "hi": "prendre से वाहन सुझाइए।" }
+      ]
+    }
+  },
+  "reading": {
+    "genre": "notice",
+    "title": "Avis aux clients — ligne 24",
+    "text": "Détour du lundi 3 au vendredi 14 mars.\nÀ cause de travaux sur la rue Sherbrooke, entre la rue Papineau et la rue De Lorimier, les autobus de la ligne 24 font un détour par la rue Ontario.\nLes arrêts Sherbrooke/Papineau et Sherbrooke/De Lorimier sont fermés. Prenez l'autobus aux arrêts temporaires sur la rue Ontario.\nPendant les travaux, le métro (ligne verte, station Papineau) est une bonne solution.\nPrévoyez 10 minutes de plus pour votre trajet.\nMerci de votre patience !",
+    "translation": {
+      "en": "Detour from Monday 3 to Friday 14 March.\nBecause of roadworks on Sherbrooke Street, between Papineau Street and De Lorimier Street, route 24 buses are making a detour along Ontario Street.\nThe Sherbrooke/Papineau and Sherbrooke/De Lorimier stops are closed. Take the bus at the temporary stops on Ontario Street.\nDuring the works, the metro (green line, Papineau station) is a good option.\nAllow 10 extra minutes for your journey.\nThank you for your patience!",
+      "hi": "सोमवार 3 से शुक्रवार 14 मार्च तक बदला हुआ रास्ता।\nशेरब्रुक स्ट्रीट पर, पापिनो स्ट्रीट और द लोरिमिए स्ट्रीट के बीच निर्माण-कार्य के कारण, लाइन 24 की बसें ओंटारियो स्ट्रीट से होकर जा रही हैं।\nशेरब्रुक/पापिनो और शेरब्रुक/द लोरिमिए स्टॉप बंद हैं। ओंटारियो स्ट्रीट के अस्थायी स्टॉप से बस लीजिए।\nकाम के दौरान मेट्रो (ग्रीन लाइन, पापिनो स्टेशन) एक अच्छा विकल्प है।\nअपनी यात्रा के लिए 10 मिनट ज़्यादा रखिए।\nआपके धैर्य के लिए धन्यवाद!"
+    },
+    "questions": [
+      { "q": { "en": "Why is there a detour?" }, "options": ["A festival", "Roadworks on Sherbrooke Street", "Snow on Ontario Street"], "answer": 1, "explanation": { "en": "'À cause de travaux sur la rue Sherbrooke' — because of works.", "hi": "'À cause de travaux sur la rue Sherbrooke' — निर्माण-कार्य के कारण।" }, "kind": "literal", "evidence": "À cause de travaux sur la rue Sherbrooke" },
+      { "q": { "en": "Where should passengers wait for the 24 bus?" }, "options": ["At the usual stops on Sherbrooke", "At temporary stops on Ontario Street", "At Papineau metro station only"], "answer": 1, "explanation": { "en": "'Prenez l'autobus aux arrêts temporaires sur la rue Ontario.'", "hi": "'Prenez l'autobus aux arrêts temporaires sur la rue Ontario.' — ओंटारियो स्ट्रीट के अस्थायी स्टॉप पर।" }, "kind": "literal", "evidence": "Prenez l'autobus aux arrêts temporaires sur la rue Ontario." },
+      { "q": { "en": "Ravi takes the 24 bus on Tuesday 18 March. Is there a detour?" }, "options": ["Yes", "No, the detour ends on 14 March", "Only in the evening"], "answer": 1, "explanation": { "en": "The detour is 'du lundi 3 au vendredi 14 mars'.", "hi": "बदला हुआ रास्ता 'du lundi 3 au vendredi 14 mars' तक है।" }, "kind": "inference", "evidence": "Détour du lundi 3 au vendredi 14 mars." },
+      { "q": { "en": "What does the notice advise?" }, "options": ["Take a taxi", "Allow 10 extra minutes", "Walk to Papineau Street"], "answer": 1, "explanation": { "en": "'Prévoyez 10 minutes de plus pour votre trajet.'", "hi": "'Prévoyez 10 minutes de plus pour votre trajet.' — 10 मिनट ज़्यादा रखिए।" }, "kind": "literal", "evidence": "Prévoyez 10 minutes de plus pour votre trajet." }
+    ]
+  },
+  "writing": {
+    "type": "message",
+    "prompt": {
+      "en": "A new friend is coming to your home and wants to go to a shop near you. Write directions from your home to the shop, with at least four instructions in the imperative and the transport to take.",
+      "hi": "एक नया दोस्त आपके घर आ रहा है और पास की एक दुकान जाना चाहता है। अपने घर से दुकान तक का रास्ता लिखिए — आज्ञार्थ में कम से कम चार निर्देश और कौन-सा वाहन लेना है।"
+    },
+    "minWords": 40,
+    "maxWords": 90,
+    "hints": [
+      { "en": "Choose tu (Tourne, Prends) or vous (Tournez, Prenez) and keep it the same.", "hi": "tu (Tourne, Prends) या vous (Tournez, Prenez) चुनिए और वही रखिए।" },
+      { "en": "Use landmarks: le feu, la pharmacie, en face de, à côté de.", "hi": "निशानियाँ इस्तेमाल कीजिए: le feu, la pharmacie, en face de, à côté de।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Sors de chez moi et tourne à droite.", "en": "Leave my place and turn right.", "hi": "मेरे घर से निकलो और दाईं ओर मुड़ो।", "pron": "सॉग़ दö शे मवा ए तूग़न आ द्र्वात" },
+      { "fr": "Prends l'autobus 55.", "en": "Take the 55 bus.", "hi": "55 नंबर की बस लो।", "pron": "प्राँ लो-तो-बüस सैँ-कोँत-सैँक" },
+      { "fr": "Le magasin est en face de …", "en": "The shop is opposite …", "hi": "दुकान … के सामने है", "pron": "लö मा-गा-ज़ैँ ऐ ताँ फ़ास दö" }
+    ],
+    "model": {
+      "fr": "Salut Neha ! Pour aller à l'épicerie Patel, c'est facile. Sors de chez moi et tourne à droite. Continue tout droit jusqu'au feu. Au feu, traverse la rue et prends l'autobus 55. Descends au troisième arrêt. L'épicerie est à côté de la banque, en face de la pharmacie. C'est à quinze minutes. À plus tard !",
+      "en": "Hi Neha! To get to Patel's grocery, it's easy. Leave my place and turn right. Keep going straight to the lights. At the lights, cross the street and take the 55 bus. Get off at the third stop. The grocery is next to the bank, opposite the pharmacy. It's fifteen minutes away. See you later!"
+    },
+    "checklist": [
+      { "en": "Did you keep the same form (all tu or all vous)?", "hi": "क्या आपने एक ही रूप रखा (सब tu या सब vous)?" },
+      { "en": "For tu, did you drop the s on -er verbs (tourne, continue)?", "hi": "tu के लिए, क्या -er क्रियाओं का s हटाया (tourne, continue)?" },
+      { "en": "Did you say where the shop is with a preposition of place?", "hi": "क्या स्थानसूचक शब्द से बताया कि दुकान कहाँ है?" }
+    ]
+  },
+  "review": {
+    "fromDays": [15, 16, 17, 23, 27],
+    "items": [
+      { "fr": "Je vais à la gare.", "en": "I'm going to the train station.", "hi": "मैं रेलवे स्टेशन जा रहा/रही हूँ।", "pron": "झ़ö वै ज़ा ला गाग़" },
+      { "fr": "la banque, la poste, l'hôpital", "en": "the bank, the post office, the hospital", "hi": "बैंक, डाकघर, अस्पताल", "pron": "ला बाँक ला पॉस्त लो-पी-ताल" },
+      { "fr": "Où est le marché ?", "en": "Where is the market?", "hi": "बाज़ार कहाँ है?", "pron": "ऊ ऐ लö माग़-शे" },
+      { "fr": "Comment vous allez au travail ?", "en": "How do you get to work?", "hi": "आप काम पर कैसे जाते हैं?", "pron": "को-माँ वू ज़ा-ले ओ त्रा-वाय" },
+      { "fr": "Il est huit heures moins dix.", "en": "It's ten to eight.", "hi": "आठ बजने में दस मिनट हैं।", "pron": "ई लै üई तöग़ म्वैँ दीस" },
+      { "fr": "en face de la pharmacie", "en": "opposite the pharmacy", "hi": "फ़ार्मेसी के सामने", "pron": "आँ फ़ास दö ला फ़ाग़-मा-सी" },
+      { "fr": "Je me dépêche !", "en": "I'm hurrying!", "hi": "मैं जल्दी कर रहा/रही हूँ!", "pron": "झ़ö म्ö दे-पैश" },
+      { "fr": "Nous venons de Delhi.", "en": "We come from Delhi.", "hi": "हम दिल्ली से आते हैं।", "pron": "नू व्ö-नोँ दö देल-ही" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Choose: They take the metro.", "hi": "चुनिए: वे मेट्रो लेते हैं।" }, "options": ["Ils prend le métro.", "Ils prenent le métro.", "Ils prennent le métro.", "Ils prendent le métro."], "answer": 2, "explanation": { "en": "ils prennent — double n.", "hi": "ils prennent — दो n।" } },
+    { "type": "fill", "prompt": { "en": "Polite instruction to a stranger: Turn right.", "hi": "अजनबी को शिष्ट निर्देश: दाईं ओर मुड़िए।" }, "sentence": "___ à droite.", "answer": "Tournez", "accept": ["tournez"], "explanation": { "en": "vous imperative: Tournez.", "hi": "vous वाला आज्ञार्थ: Tournez।" } },
+    { "type": "mcq", "prompt": { "en": "To a friend (tu): Cross the street!", "hi": "दोस्त से (tu): सड़क पार करो!" }, "options": ["Traverses la rue !", "Traverse la rue !", "Tu traverse la rue !"], "answer": 1, "explanation": { "en": "tu imperative of -er verbs: no s, no subject.", "hi": "-er क्रियाओं का tu आज्ञार्थ: न s, न कर्ता।" } },
+    { "type": "fill", "prompt": { "en": "Complete: I go to work on foot.", "hi": "पूरा कीजिए: मैं पैदल काम पर जाता हूँ।" }, "sentence": "Je vais au travail ___ pied.", "answer": "à", "accept": [], "explanation": { "en": "à pied (but en métro, en bus).", "hi": "à pied (पर en métro, en bus)।" } },
+    { "type": "mcq", "prompt": { "en": "'Continuez tout droit' means …", "hi": "'Continuez tout droit' का मतलब है …" }, "options": ["Turn right", "Keep going straight", "Cross the road"], "answer": 1, "explanation": { "en": "tout droit = straight ahead; à droite = right.", "hi": "tout droit = सीधे; à droite = दाईं ओर।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "Excuse me, where is the bus stop?", "hi": "माफ़ कीजिए, बस स्टॉप कहाँ है?" }, "answer": "Excusez-moi, où est l'arrêt d'autobus ?", "accept": ["Excusez-moi, où est l'arrêt de bus ?", "Excusez-moi, où est l'arrêt d'autobus?", "Excusez-moi, où est l'arrêt ?", "excusez-moi, où est l'arrêt de bus ?"], "explanation": { "en": "l'arrêt d'autobus (Québec) or l'arrêt de bus.", "hi": "l'arrêt d'autobus (क्यूबेक) या l'arrêt de bus।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: Take the orange line.", "hi": "शब्दों को सही क्रम में रखिए: ऑरेंज लाइन लीजिए।" }, "words": ["ligne", "Prenez", "orange", "la", "."], "answer": "Prenez la ligne orange.", "explanation": { "en": "Imperative first; colour after the noun (orange never changes).", "hi": "आज्ञार्थ पहले; रंग संज्ञा के बाद (orange नहीं बदलता)।" } }
+  ]
+}

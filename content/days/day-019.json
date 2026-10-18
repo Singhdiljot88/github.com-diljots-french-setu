@@ -1,0 +1,903 @@
+{
+  "day": 19,
+  "phase": 1,
+  "title": {
+    "fr": "Être poli : au café",
+    "en": "Being polite: at the café",
+    "hi": "शिष्टता: कैफ़े में"
+  },
+  "objective": {
+    "en": "Order politely in a café with je voudrais and s'il vous plaît, get the waiter's attention, ask for the bill and understand the price — and choose the right politeness level (tu/vous ↔ तू/तुम/आप).",
+    "hi": "je voudrais और s'il vous plaît से कैफ़े में शिष्टता से ऑर्डर देना, वेटर का ध्यान खींचना, बिल माँगना और क़ीमत समझना — और शिष्टता का सही स्तर चुनना (tu/vous ↔ तू/तुम/आप)।"
+  },
+  "prerequisites": {
+    "days": [
+      1,
+      4,
+      10,
+      12,
+      17
+    ],
+    "summary": {
+      "en": "tu/vous (Days 1 and 4), le thé, le café, le chocolat (Day 10), prices (Day 12), combien (Day 17).",
+      "hi": "tu/vous (दिन 1 और 4), le thé, le café, le chocolat (दिन 10), क़ीमतें (दिन 12), combien (दिन 17)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "je voudrais",
+      "en": "I would like",
+      "hi": "मुझे … चाहिए (शिष्ट)",
+      "pron": "झ़ö वू-द्ग़ै",
+      "ipa": "ʒə vudʁɛ",
+      "pos": "phrase",
+      "lemma": "vouloir",
+      "note": {
+        "en": "The polite form of vouloir (to want). 'Je veux' (I want) sounds too direct when ordering.",
+        "hi": "vouloir (चाहना) का शिष्ट रूप। ऑर्डर देते समय 'Je veux' (मुझे चाहिए/मैं चाहता हूँ) बहुत रूखा लगता है।"
+      }
+    },
+    {
+      "fr": "s'il vous plaît / s'il te plaît",
+      "en": "please (polite / friendly)",
+      "hi": "कृपया (शिष्ट / अपनापन)",
+      "pron": "सील वू प्लै / सील तö प्लै",
+      "ipa": "sil vu plɛ / sil tə plɛ",
+      "pos": "phrase"
+    },
+    {
+      "fr": "excusez-moi",
+      "en": "excuse me (polite)",
+      "hi": "माफ़ कीजिए / सुनिए",
+      "pron": "ऐक्स-कü-ज़े-मवा",
+      "ipa": "ɛkskyze mwa",
+      "pos": "phrase",
+      "note": {
+        "en": "With tu: excuse-moi.",
+        "hi": "tu के साथ: excuse-moi।"
+      }
+    },
+    {
+      "fr": "un café au lait",
+      "en": "a coffee with milk",
+      "hi": "दूध वाली कॉफ़ी",
+      "pron": "ऐँ का-फ़े ओ लै",
+      "ipa": "ɛ̃ kafe o lɛ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "café"
+    },
+    {
+      "fr": "un chocolat chaud",
+      "en": "a hot chocolate",
+      "hi": "गरम चॉकलेट (पेय)",
+      "pron": "ऐँ शो-को-ला शो",
+      "ipa": "ɛ̃ ʃɔkɔla ʃo",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "chocolat"
+    },
+    {
+      "fr": "un jus d'orange",
+      "en": "an orange juice",
+      "hi": "संतरे का जूस",
+      "pron": "ऐँ झ़ü दो-ग़ाँझ़",
+      "ipa": "ɛ̃ ʒy dɔʁɑ̃ʒ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "jus"
+    },
+    {
+      "fr": "un verre d'eau",
+      "en": "a glass of water",
+      "hi": "एक गिलास पानी",
+      "pron": "ऐँ वैग़ दो",
+      "ipa": "ɛ̃ vɛʁ do",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "verre",
+      "note": {
+        "en": "Tap water is usually free in cafés.",
+        "hi": "कैफ़े में नल का पानी आम तौर पर मुफ़्त होता है।"
+      }
+    },
+    {
+      "fr": "un croissant",
+      "en": "a croissant",
+      "hi": "क्रोसाँ (एक तरह की पेस्ट्री)",
+      "pron": "ऐँ क्ग़्वा-साँ",
+      "ipa": "ɛ̃ kʁwasɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "croissant"
+    },
+    {
+      "fr": "une soupe",
+      "en": "a soup",
+      "hi": "सूप",
+      "pron": "üन सूप",
+      "ipa": "yn sup",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "soupe"
+    },
+    {
+      "fr": "le sucre",
+      "en": "sugar",
+      "hi": "चीनी",
+      "pron": "लö सüक्ग़",
+      "ipa": "lə sykʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "sucre",
+      "note": {
+        "en": "Masculine in French; चीनी is feminine in Hindi.",
+        "hi": "फ़्रेंच में पुल्लिंग; हिंदी में 'चीनी' स्त्रीलिंग है।"
+      }
+    },
+    {
+      "fr": "sans",
+      "en": "without",
+      "hi": "के बिना",
+      "pron": "साँ",
+      "ipa": "sɑ̃",
+      "pos": "preposition",
+      "note": {
+        "en": "Opposite of avec: un thé sans sucre.",
+        "hi": "avec का उल्टा: un thé sans sucre।"
+      }
+    },
+    {
+      "fr": "le serveur / la serveuse",
+      "en": "waiter / waitress",
+      "hi": "वेटर (पुरुष / महिला)",
+      "pron": "लö सैग़-वöग़ / ला सैग़-वöज़",
+      "ipa": "lə sɛʁvœʁ / la sɛʁvøz",
+      "pos": "noun",
+      "gender": "mf",
+      "lemma": "serveur"
+    },
+    {
+      "fr": "l'addition",
+      "en": "the bill (in a café or restaurant)",
+      "hi": "बिल",
+      "pron": "ला-दी-स्योँ",
+      "ipa": "ladisjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "addition",
+      "note": {
+        "en": "In Québec you also hear 'la facture'.",
+        "hi": "क्यूबेक में 'la facture' भी सुनाई देता है।"
+      }
+    },
+    {
+      "fr": "Ça fait combien ?",
+      "en": "How much is that (in total)?",
+      "hi": "कुल कितना हुआ?",
+      "pron": "सा फ़ै कोँ-ब्यैँ",
+      "ipa": "sa fɛ kɔ̃bjɛ̃",
+      "pos": "phrase"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Je voudrais un café, s'il vous plaît.",
+      "en": "I'd like a coffee, please.",
+      "hi": "मुझे एक कॉफ़ी चाहिए, कृपया।",
+      "pron": "झ़ö वू-द्ग़ै ऐँ का-फ़े सील वू प्लै",
+      "ipa": "ʒə vudʁɛ ɛ̃ kafe sil vu plɛ"
+    },
+    {
+      "fr": "Un thé sans sucre, s'il vous plaît.",
+      "en": "A tea without sugar, please.",
+      "hi": "बिना चीनी की एक चाय, कृपया।",
+      "pron": "ऐँ ते साँ सüक्ग़ सील वू प्लै",
+      "ipa": "ɛ̃ te sɑ̃ sykʁ sil vu plɛ"
+    },
+    {
+      "fr": "Excusez-moi, monsieur !",
+      "en": "Excuse me, sir! (to call a waiter)",
+      "hi": "सुनिए, सर! (वेटर को बुलाने के लिए)",
+      "pron": "ऐक्स-कü-ज़े-मवा मö-स्यö",
+      "ipa": "ɛkskyze mwa məsjø"
+    },
+    {
+      "fr": "L'addition, s'il vous plaît.",
+      "en": "The bill, please.",
+      "hi": "बिल ले आइए, कृपया।",
+      "pron": "ला-दी-स्योँ सील वू प्लै",
+      "ipa": "ladisjɔ̃ sil vu plɛ"
+    },
+    {
+      "fr": "Ça fait onze dollars cinquante.",
+      "en": "That's eleven dollars fifty.",
+      "hi": "साढ़े ग्यारह डॉलर हुए।",
+      "pron": "सा फ़ै ओँज़ दो-लाग़ सैँ-काँत",
+      "ipa": "sa fɛ ɔ̃z dɔlaʁ sɛ̃kɑ̃t"
+    },
+    {
+      "fr": "Bien sûr !",
+      "en": "Of course!",
+      "hi": "बिल्कुल!",
+      "pron": "ब्यैँ सüग़",
+      "ipa": "bjɛ̃ syʁ"
+    },
+    {
+      "fr": "Tu me passes le sucre, s'il te plaît ?",
+      "en": "Can you pass me the sugar, please? (to a friend)",
+      "hi": "ज़रा चीनी देना, प्लीज़? (दोस्त से)",
+      "pron": "तü मö पास लö सüक्ग़ सील तö प्लै",
+      "ipa": "ty mə pas lə sykʁ sil tə plɛ"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Polite requests and politeness levels",
+      "hi": "शिष्ट अनुरोध और शिष्टता के स्तर"
+    },
+    "explanation": {
+      "en": "To order or ask for something politely, use je voudrais + noun (Je voudrais un jus d'orange) or + a verb (Je voudrais réserver une table). End with s'il vous plaît (vous) or s'il te plaît (tu). To get attention: Excusez-moi, madame / monsieur (vous) or Excuse-moi (tu). Add madame/monsieur — it makes any sentence warmer and more polite. In a café, shop, office or exam, use vous. In Québec, tu is more common in daily life (some servers will say tu to you), but you are never wrong with vous.",
+      "hi": "शिष्टता से ऑर्डर देने या कुछ माँगने के लिए je voudrais + संज्ञा (Je voudrais un jus d'orange) या + क्रिया (Je voudrais réserver une table)। अंत में s'il vous plaît (vous) या s'il te plaît (tu)। ध्यान खींचने के लिए: Excusez-moi, madame / monsieur (vous) या Excuse-moi (tu)। madame/monsieur जोड़िए — इससे हर वाक्य ज़्यादा गर्मजोशी भरा और शिष्ट लगता है। कैफ़े, दुकान, दफ़्तर या परीक्षा में vous बोलिए। क्यूबेक में रोज़ की ज़िंदगी में tu ज़्यादा आम है (कुछ वेटर आपसे tu बोलेंगे), पर vous बोलकर आप कभी गलत नहीं होंगे।"
+    },
+    "comparison": {
+      "en": "Hindi has three levels: आप (respect), तुम (friendly), तू (very close — or rude). French has two: vous ≈ आप, tu ≈ तुम. French has no real तू level: tu with a stranger can sound like तू, so stay with vous. Vous is also the plural 'you' for any group, like 'आप लोग / तुम सब'. And 'je voudrais' is like Hindi 'मुझे … चाहिए था / दीजिए' — softer than 'मुझे चाहिए'.",
+      "hi": "हिंदी में तीन स्तर हैं: आप (सम्मान), तुम (अपनापन), तू (बहुत क़रीबी — या अपमानजनक)। फ़्रेंच में दो हैं: vous ≈ आप, tu ≈ तुम। फ़्रेंच में 'तू' जैसा अलग स्तर नहीं है: किसी अजनबी से tu बोलना 'तू' जैसा लग सकता है, इसलिए vous पर ही रहिए। Vous किसी भी समूह के लिए बहुवचन 'आप लोग / तुम सब' भी है। और 'je voudrais' हिंदी के 'मुझे … चाहिए था / दीजिए' जैसा है — 'मुझे चाहिए' से नरम।"
+    },
+    "examples": [
+      {
+        "fr": "Je voudrais un chocolat chaud, s'il vous plaît.",
+        "en": "I'd like a hot chocolate, please.",
+        "hi": "मुझे एक गरम चॉकलेट चाहिए, कृपया।",
+        "pron": "झ़ö वू-द्ग़ै ऐँ शो-को-ला शो सील वू प्लै"
+      },
+      {
+        "fr": "Je voudrais réserver une table pour deux.",
+        "en": "I'd like to book a table for two.",
+        "hi": "मैं दो लोगों के लिए एक टेबल बुक करना चाहता/चाहती हूँ।",
+        "pron": "झ़ö वू-द्ग़ै ग़े-ज़ैग़-वे üन ताब्ल पूग़ दö"
+      },
+      {
+        "fr": "Excusez-moi, madame, où sont les toilettes ?",
+        "en": "Excuse me, madam, where are the toilets?",
+        "hi": "माफ़ कीजिए, मैडम, शौचालय कहाँ है?",
+        "pron": "ऐक्स-कü-ज़े-मवा मा-दाम ऊ सोँ ले त्वा-लैत"
+      },
+      {
+        "fr": "Karan, un jus d'orange, s'il te plaît !",
+        "en": "Karan, an orange juice, please! (to a friend)",
+        "hi": "करण, एक संतरे का जूस, प्लीज़!",
+        "pron": "का-ग़ान ऐँ झ़ü दो-ग़ाँझ़ सील तö प्लै"
+      },
+      {
+        "fr": "Vous désirez ? — Une soupe, s'il vous plaît.",
+        "en": "What would you like? — A soup, please.",
+        "hi": "आपको क्या चाहिए? — एक सूप, कृपया।",
+        "pron": "वू दे-ज़ी-ग़े — üन सूप सील वू प्लै"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Avoid 'Je veux un café' with staff — it sounds like a demand. Say 'Je voudrais…'.",
+        "hi": "कर्मचारियों से 'Je veux un café' मत कहिए — यह हुक्म जैसा लगता है। 'Je voudrais…' कहिए।"
+      },
+      {
+        "en": "Don't mix levels: 'Excusez-moi … s'il te plaît' is inconsistent. Keep vous with vous, tu with tu.",
+        "hi": "स्तर मत मिलाइए: 'Excusez-moi … s'il te plaît' बेमेल है। vous के साथ vous, tu के साथ tu।"
+      },
+      {
+        "en": "Prices: 11,50 $ is said 'onze dollars cinquante' (comma, not point).",
+        "hi": "क़ीमतें: 11,50 $ को 'onze dollars cinquante' बोलते हैं (कॉमा, पॉइंट नहीं)।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "/e/ vs /ɛ/: café, thé vs voudrais, mère",
+    "tip": {
+      "en": "/e/ (é, -er, -ez, et) is a tense ए with spread lips, like a smile: café, thé, excusez. /ɛ/ (è, ê, -ais, -ait, -et) is a more open ऐ, the jaw a little lower: voudrais, mère, lait, s'il vous plaît. Say them in pairs: thé (ते) / lait (लै).",
+      "hi": "/e/ (é, -er, -ez, et) — तना हुआ 'ए', होंठ फैले, जैसे मुस्कान: café, thé, excusez। /ɛ/ (è, ê, -ais, -ait, -et) — ज़्यादा खुला 'ऐ', जबड़ा थोड़ा नीचे: voudrais, mère, lait, s'il vous plaît। जोड़े में बोलिए: thé (ते) / lait (लै)।"
+    },
+    "words": [
+      {
+        "fr": "café",
+        "en": "coffee",
+        "hi": "कॉफ़ी",
+        "pron": "का-फ़े",
+        "ipa": "kafe"
+      },
+      {
+        "fr": "thé",
+        "en": "tea",
+        "hi": "चाय",
+        "pron": "ते",
+        "ipa": "te"
+      },
+      {
+        "fr": "voudrais",
+        "en": "would like",
+        "hi": "चाहूँगा / चाहूँगी",
+        "pron": "वू-द्ग़ै",
+        "ipa": "vudʁɛ"
+      },
+      {
+        "fr": "mère",
+        "en": "mother",
+        "hi": "माँ",
+        "pron": "मैग़",
+        "ipa": "mɛʁ"
+      },
+      {
+        "fr": "lait",
+        "en": "milk",
+        "hi": "दूध",
+        "pron": "लै",
+        "ipa": "lɛ"
+      },
+      {
+        "fr": "plaît",
+        "en": "(in s'il vous plaît)",
+        "hi": "(s'il vous plaît में)",
+        "pron": "प्लै",
+        "ipa": "plɛ"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Au café, à Montréal",
+      "en": "At a café in Montréal"
+    },
+    "type": "dialogue",
+    "mode": "pedagogical",
+    "context": {
+      "en": "Arjun and Priya order at a café on the Plateau in Montréal, then ask for the bill.",
+      "hi": "अर्जुन और प्रिया मॉन्ट्रियाल के प्लातो इलाक़े के एक कैफ़े में ऑर्डर देते हैं, फिर बिल माँगते हैं।"
+    },
+    "lines": [
+      {
+        "speaker": "Serveuse",
+        "voice": "f2",
+        "fr": "Bonjour ! Qu'est-ce que je vous sers ?",
+        "en": "Hello! What can I get you?",
+        "hi": "नमस्ते! आपके लिए क्या लाऊँ?"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Bonjour, madame. Je voudrais un café au lait, s'il vous plaît.",
+        "en": "Hello, madam. I'd like a coffee with milk, please.",
+        "hi": "नमस्ते, मैडम। मुझे दूध वाली कॉफ़ी चाहिए, कृपया।"
+      },
+      {
+        "speaker": "Priya",
+        "voice": "f1",
+        "fr": "Et pour moi, un thé sans sucre et un croissant, s'il vous plaît.",
+        "en": "And for me, a tea without sugar and a croissant, please.",
+        "hi": "और मेरे लिए, बिना चीनी की चाय और एक क्रोसाँ, कृपया।"
+      },
+      {
+        "speaker": "Serveuse",
+        "voice": "f2",
+        "fr": "Très bien. Et avec ça ?",
+        "en": "Very good. Anything else?",
+        "hi": "ठीक है। और कुछ?"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Un verre d'eau, s'il vous plaît. Merci !",
+        "en": "A glass of water, please. Thank you!",
+        "hi": "एक गिलास पानी, कृपया। धन्यवाद!"
+      },
+      {
+        "speaker": "Priya",
+        "voice": "f1",
+        "fr": "Excusez-moi, madame ! L'addition, s'il vous plaît.",
+        "en": "Excuse me, madam! The bill, please.",
+        "hi": "सुनिए, मैडम! बिल ले आइए, कृपया।"
+      },
+      {
+        "speaker": "Serveuse",
+        "voice": "f2",
+        "fr": "Bien sûr. Ça fait onze dollars cinquante.",
+        "en": "Of course. That's eleven dollars fifty.",
+        "hi": "बिल्कुल। साढ़े ग्यारह डॉलर हुए।"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Voilà. Merci, bonne journée !",
+        "en": "Here you are. Thank you, have a good day!",
+        "hi": "यह लीजिए। धन्यवाद, आपका दिन शुभ हो!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "What does Arjun order?"
+        },
+        "options": [
+          "A coffee with milk",
+          "A tea without sugar",
+          "A hot chocolate"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Je voudrais un café au lait'.",
+          "hi": "'Je voudrais un café au lait' — दूध वाली कॉफ़ी।"
+        },
+        "kind": "literal",
+        "evidence": "Je voudrais un café au lait, s'il vous plaît."
+      },
+      {
+        "q": {
+          "en": "How does Priya want her tea?"
+        },
+        "options": [
+          "With milk",
+          "With lots of sugar",
+          "Without sugar"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'un thé sans sucre' — sans = without.",
+          "hi": "'un thé sans sucre' — sans = के बिना।"
+        },
+        "kind": "literal",
+        "evidence": "un thé sans sucre et un croissant"
+      },
+      {
+        "q": {
+          "en": "Who orders something to eat?"
+        },
+        "options": [
+          "Arjun",
+          "Priya",
+          "Nobody"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "Priya orders a croissant.",
+          "hi": "प्रिया क्रोसाँ मँगाती है।"
+        },
+        "kind": "inference",
+        "evidence": "Et pour moi, un thé sans sucre et un croissant"
+      },
+      {
+        "q": {
+          "en": "How much do they pay?"
+        },
+        "options": [
+          "$11.50",
+          "$15.50",
+          "$1.50"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'onze dollars cinquante' = $11.50.",
+          "hi": "'onze dollars cinquante' = 11.50 डॉलर।"
+        },
+        "kind": "literal",
+        "evidence": "Ça fait onze dollars cinquante."
+      },
+      {
+        "q": {
+          "en": "How does Priya get the waitress's attention?"
+        },
+        "options": [
+          "Salut !",
+          "Excusez-moi, madame !",
+          "Hé, toi !"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "The polite way: 'Excusez-moi, madame !'",
+          "hi": "शिष्ट तरीक़ा: 'Excusez-moi, madame !'"
+        },
+        "kind": "literal",
+        "evidence": "Excusez-moi, madame !"
+      }
+    ],
+    "dictation": [
+      "Je voudrais un café au lait.",
+      "L'addition, s'il vous plaît.",
+      "Ça fait onze dollars cinquante."
+    ],
+    "gapFill": {
+      "text": "Je ___ un café au lait, s'il vous plaît. … Excusez-moi, madame ! L'___, s'il vous plaît.",
+      "answers": [
+        "voudrais",
+        "addition"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "roleplay",
+    "instructions": {
+      "en": "Role-play a visit to a café. Greet the server, order a drink and something to eat with je voudrais, ask for water, then call the server and ask for the bill. Understand the total.",
+      "hi": "कैफ़े जाने का अभिनय कीजिए। वेटर का अभिवादन कीजिए, je voudrais से एक पेय और कुछ खाने को मँगाइए, पानी माँगिए, फिर वेटर को बुलाकर बिल माँगिए। कुल रक़म समझिए।"
+    },
+    "prompts": [
+      {
+        "fr": "Bonjour, monsieur. Je voudrais un chocolat chaud, s'il vous plaît.",
+        "en": "Hello, sir. I'd like a hot chocolate, please.",
+        "hi": "नमस्ते, सर। मुझे एक गरम चॉकलेट चाहिए, कृपया।",
+        "pron": "बोँ-झ़ूग़ मö-स्यö झ़ö वू-द्ग़ै ऐँ शो-को-ला शो सील वू प्लै"
+      },
+      {
+        "fr": "Et une soupe, s'il vous plaît.",
+        "en": "And a soup, please.",
+        "hi": "और एक सूप, कृपया।",
+        "pron": "ए üन सूप सील वू प्लै"
+      },
+      {
+        "fr": "Un verre d'eau, s'il vous plaît.",
+        "en": "A glass of water, please.",
+        "hi": "एक गिलास पानी, कृपया।",
+        "pron": "ऐँ वैग़ दो सील वू प्लै"
+      },
+      {
+        "fr": "Excusez-moi ! L'addition, s'il vous plaît.",
+        "en": "Excuse me! The bill, please.",
+        "hi": "सुनिए! बिल ले आइए, कृपया।",
+        "pron": "ऐक्स-कü-ज़े-मवा ला-दी-स्योँ सील वू प्लै"
+      },
+      {
+        "fr": "Ça fait combien ?",
+        "en": "How much is it?",
+        "hi": "कुल कितना हुआ?",
+        "pron": "सा फ़ै कोँ-ब्यैँ",
+        "model": "Ça fait neuf dollars vingt-cinq."
+      }
+    ],
+    "tip": {
+      "en": "Smile and add madame / monsieur. A soft 'merci' after each answer from the server is normal in French cafés.",
+      "hi": "मुस्कुराइए और madame / monsieur जोड़िए। फ़्रेंच कैफ़े में वेटर के हर जवाब के बाद धीमे से 'merci' कहना आम बात है।"
+    },
+    "scenario": {
+      "setting": {
+        "en": "A small café on the Plateau in Montréal, on a cold morning.",
+        "hi": "मॉन्ट्रियाल के प्लातो इलाक़े का एक छोटा कैफ़े, एक ठंडी सुबह।"
+      },
+      "learnerRole": {
+        "en": "A customer.",
+        "hi": "एक ग्राहक।"
+      },
+      "partnerRole": {
+        "en": "A friendly server who speaks quickly and uses vous.",
+        "hi": "एक मिलनसार वेटर जो तेज़ बोलता है और vous इस्तेमाल करता है।"
+      },
+      "goals": [
+        {
+          "en": "Order a drink and food with je voudrais.",
+          "hi": "je voudrais से एक पेय और खाना मँगाइए।"
+        },
+        {
+          "en": "Get attention politely and ask for the bill.",
+          "hi": "शिष्टता से ध्यान खींचिए और बिल माँगिए।"
+        },
+        {
+          "en": "Understand the price.",
+          "hi": "क़ीमत समझिए।"
+        }
+      ]
+    }
+  },
+  "reading": {
+    "genre": "menu",
+    "title": "Café du Plateau — Menu",
+    "text": "CAFÉ DU PLATEAU — MENU\nBoissons chaudes : café 2,75 $ · café au lait 3,95 $ · thé 2,50 $ · chocolat chaud 3,50 $\nBoissons froides : jus d'orange 3,25 $ · eau minérale 2,00 $ · verre d'eau : gratuit\nÀ manger : croissant 2,25 $ · soupe du jour 5,50 $ · sandwich végétarien 7,95 $",
+    "translation": {
+      "en": "CAFÉ DU PLATEAU — MENU\nHot drinks: coffee $2.75 · coffee with milk $3.95 · tea $2.50 · hot chocolate $3.50\nCold drinks: orange juice $3.25 · mineral water $2.00 · glass of water: free\nTo eat: croissant $2.25 · soup of the day $5.50 · vegetarian sandwich $7.95",
+      "hi": "कैफ़े दु प्लातो — मेन्यू\nगरम पेय: कॉफ़ी 2.75 डॉलर · दूध वाली कॉफ़ी 3.95 डॉलर · चाय 2.50 डॉलर · गरम चॉकलेट 3.50 डॉलर\nठंडे पेय: संतरे का जूस 3.25 डॉलर · मिनरल वॉटर 2.00 डॉलर · एक गिलास पानी: मुफ़्त\nखाने के लिए: क्रोसाँ 2.25 डॉलर · आज का सूप 5.50 डॉलर · शाकाहारी सैंडविच 7.95 डॉलर"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "Which hot drink is the cheapest?"
+        },
+        "options": [
+          "Coffee",
+          "Tea",
+          "Hot chocolate"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "thé 2,50 $ is less than café 2,75 $ and chocolat chaud 3,50 $.",
+          "hi": "thé 2,50 $, café 2,75 $ और chocolat chaud 3,50 $ से सस्ती है।"
+        },
+        "kind": "inference",
+        "evidence": "thé 2,50 $"
+      },
+      {
+        "q": {
+          "en": "You are vegetarian and hungry. What can you order?"
+        },
+        "options": [
+          "Sandwich végétarien",
+          "Jus d'orange",
+          "Eau minérale"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'sandwich végétarien 7,95 $'.",
+          "hi": "'sandwich végétarien 7,95 $' — शाकाहारी सैंडविच।"
+        },
+        "kind": "inference",
+        "evidence": "sandwich végétarien 7,95 $"
+      },
+      {
+        "q": {
+          "en": "How much is a glass of water?"
+        },
+        "options": [
+          "$2.00",
+          "Free",
+          "$3.25"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'verre d'eau : gratuit'. Mineral water is $2.00.",
+          "hi": "'verre d'eau : gratuit' — मुफ़्त। मिनरल वॉटर 2.00 डॉलर का है।"
+        },
+        "kind": "literal",
+        "evidence": "verre d'eau : gratuit"
+      },
+      {
+        "q": {
+          "en": "A café au lait and a croissant. What is the total?"
+        },
+        "options": [
+          "$5.20",
+          "$6.75",
+          "$6.20"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "3,95 + 2,25 = 6,20 $ (six dollars vingt).",
+          "hi": "3,95 + 2,25 = 6,20 $ (six dollars vingt)।"
+        },
+        "kind": "inference",
+        "evidence": "café au lait 3,95 $"
+      }
+    ]
+  },
+  "writing": {
+    "type": "message",
+    "prompt": {
+      "en": "Write a short, polite message to a restaurant to book a table: say what you would like, for how many people, the day, the date and the time, and ask if it is possible.",
+      "hi": "टेबल बुक करने के लिए किसी रेस्टोरेंट को एक छोटा, शिष्ट संदेश लिखिए: आप क्या चाहते हैं, कितने लोगों के लिए, दिन, तारीख़ और समय, और पूछिए कि क्या यह संभव है।"
+    },
+    "minWords": 25,
+    "maxWords": 60,
+    "hints": [
+      {
+        "en": "Use je voudrais + réserver, and s'il vous plaît.",
+        "hi": "je voudrais + réserver, और s'il vous plaît लगाइए।"
+      },
+      {
+        "en": "Ask with est-ce que: Est-ce que c'est possible ?",
+        "hi": "est-ce que से पूछिए: Est-ce que c'est possible ?"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Je voudrais réserver une table pour … personnes.",
+        "en": "I'd like to book a table for … people.",
+        "hi": "मैं … लोगों के लिए एक टेबल बुक करना चाहता/चाहती हूँ।",
+        "pron": "झ़ö वू-द्ग़ै ग़े-ज़ैग़-वे üन ताब्ल पूग़ … पैग़-सॉन"
+      },
+      {
+        "fr": "Est-ce que c'est possible ?",
+        "en": "Is it possible?",
+        "hi": "क्या यह संभव है?",
+        "pron": "ऐस-कö सै पो-सीब्ल"
+      },
+      {
+        "fr": "Merci beaucoup !",
+        "en": "Thank you very much!",
+        "hi": "बहुत-बहुत धन्यवाद!",
+        "pron": "मैग़-सी बो-कू"
+      }
+    ],
+    "model": {
+      "fr": "Bonjour madame, bonjour monsieur,\nJe voudrais réserver une table pour quatre personnes, le samedi 12 mars, à dix-neuf heures, s'il vous plaît. Est-ce que c'est possible ?\nMerci beaucoup !\nPriya Sharma",
+      "en": "Hello,\nI'd like to book a table for four people on Saturday 12 March at 7 p.m., please. Is it possible?\nThank you very much!\nPriya Sharma"
+    },
+    "checklist": [
+      {
+        "en": "je voudrais (not je veux)?",
+        "hi": "je voudrais (je veux नहीं)?"
+      },
+      {
+        "en": "vous level throughout (s'il vous plaît)?",
+        "hi": "पूरे संदेश में vous स्तर (s'il vous plaît)?"
+      },
+      {
+        "en": "Date with le + number + month, time with à?",
+        "hi": "तारीख़ le + संख्या + महीना, समय à के साथ?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      1,
+      4,
+      10,
+      12,
+      15,
+      17
+    ],
+    "items": [
+      {
+        "fr": "Comment allez-vous ?",
+        "en": "How are you? (polite)",
+        "hi": "आप कैसे हैं?",
+        "pron": "को-माँ ता-ले वू"
+      },
+      {
+        "fr": "J'adore le thé.",
+        "en": "I love tea.",
+        "hi": "मुझे चाय बहुत पसंद है।",
+        "pron": "झ़ा-दॉग़ लö ते"
+      },
+      {
+        "fr": "Je n'aime pas le café.",
+        "en": "I don't like coffee.",
+        "hi": "मुझे कॉफ़ी पसंद नहीं।",
+        "pron": "झ़ö नैम पा लö का-फ़े"
+      },
+      {
+        "fr": "Combien coûte le billet ?",
+        "en": "How much is the ticket?",
+        "hi": "टिकट कितने का है?",
+        "pron": "कोँ-ब्यैँ कूत लö बी-यै"
+      },
+      {
+        "fr": "quatre-vingt-quinze",
+        "en": "95",
+        "hi": "पचानवे",
+        "pron": "कात्ग़ö-वैँ-कैँज़"
+      },
+      {
+        "fr": "à dix-neuf heures",
+        "en": "at 7 p.m.",
+        "hi": "शाम 7 बजे",
+        "pron": "आ दीज़-नö वöग़"
+      },
+      {
+        "fr": "Bonne journée !",
+        "en": "Have a good day!",
+        "hi": "आपका दिन शुभ हो!",
+        "pron": "बॉन झ़ूग़-ने"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which is the most polite way to order?",
+        "hi": "ऑर्डर देने का सबसे शिष्ट तरीक़ा कौन-सा है?"
+      },
+      "options": [
+        "Je veux un café.",
+        "Je voudrais un café, s'il vous plaît.",
+        "Un café !"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "je voudrais + s'il vous plaît.",
+        "hi": "je voudrais + s'il vous plaît।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: The bill, please.",
+        "hi": "पूरा कीजिए: बिल ले आइए, कृपया।"
+      },
+      "sentence": "L'___, s'il vous plaît.",
+      "answer": "addition",
+      "accept": [],
+      "explanation": {
+        "en": "l'addition = the bill (la facture is also heard in Québec).",
+        "hi": "l'addition = बिल (क्यूबेक में la facture भी सुनाई देता है)।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "You ask your friend for the sugar. You say…",
+        "hi": "आप अपने दोस्त से चीनी माँगते हैं। आप कहेंगे…"
+      },
+      "options": [
+        "Le sucre, s'il te plaît.",
+        "Le sucre, s'il vous plaît, madame.",
+        "Excusez-moi, monsieur, le sucre."
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "With a friend: tu → s'il te plaît.",
+        "hi": "दोस्त के साथ: tu → s'il te plaît।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "I'd like a glass of water, please.",
+        "hi": "मुझे एक गिलास पानी चाहिए, कृपया।"
+      },
+      "answer": "Je voudrais un verre d'eau, s'il vous plaît.",
+      "accept": [
+        "Je voudrais un verre d'eau s'il vous plaît",
+        "Je voudrais un verre d’eau, s’il vous plaît.",
+        "je voudrais un verre d'eau, s'il vous plaît."
+      ],
+      "explanation": {
+        "en": "je voudrais + un verre d'eau + s'il vous plaît.",
+        "hi": "je voudrais + un verre d'eau + s'il vous plaît।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: I'd like a tea without sugar.",
+        "hi": "शब्दों को सही क्रम में रखिए: मुझे बिना चीनी की चाय चाहिए।"
+      },
+      "words": [
+        "voudrais",
+        "Je",
+        "thé",
+        "un",
+        "sucre.",
+        "sans"
+      ],
+      "answer": "Je voudrais un thé sans sucre.",
+      "explanation": {
+        "en": "je voudrais + un thé + sans sucre (no article after sans).",
+        "hi": "je voudrais + un thé + sans sucre (sans के बाद उपपद नहीं)।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "The server says 'Ça fait sept dollars quatre-vingts.' How much is it?",
+        "hi": "वेटर कहता है 'Ça fait sept dollars quatre-vingts.' कितना हुआ?"
+      },
+      "options": [
+        "$7.80",
+        "$7.08",
+        "$4.80"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "sept dollars = $7, quatre-vingts = 80 cents.",
+        "hi": "sept dollars = 7 डॉलर, quatre-vingts = 80 सेंट।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which word has the open ऐ sound /ɛ/?",
+        "hi": "किस शब्द में खुली 'ऐ' आवाज़ /ɛ/ है?"
+      },
+      "options": [
+        "café",
+        "thé",
+        "lait"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "lait = लै (/ɛ/). café and thé end in /e/ (ए).",
+        "hi": "lait = लै (/ɛ/)। café और thé के अंत में /e/ (ए) है।"
+      }
+    }
+  ]
+}

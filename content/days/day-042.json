@@ -1,0 +1,838 @@
+{
+  "day": 42,
+  "phase": 3,
+  "title": {
+    "fr": "Révision : le présent et le passé ensemble",
+    "en": "Review day: present and past together",
+    "hi": "दोहराई का दिन: वर्तमान और भूतकाल साथ-साथ"
+  },
+  "objective": {
+    "en": "Switch confidently between the present (what you usually do) and the passé composé with avoir (what you did yesterday), and tell someone about your day.",
+    "hi": "वर्तमान काल (आप आमतौर पर क्या करते हैं) और avoir वाले पासे कॉम्पोज़े (आपने कल क्या किया) के बीच आराम से आना-जाना, और किसी को अपने दिन के बारे में बताना।"
+  },
+  "prerequisites": {
+    "days": [
+      27,
+      31,
+      34,
+      36,
+      37,
+      41
+    ],
+    "summary": {
+      "en": "Day 41 (passé composé with avoir), plus daily routine (Day 27), -ir/-re verbs (Day 31), frequency adverbs (Day 34) and futur proche (Day 37).",
+      "hi": "दिन 41 (avoir के साथ पासे कॉम्पोज़े), और साथ में दिनचर्या (दिन 27), -ir/-re क्रियाएँ (दिन 31), आवृत्ति बताने वाले क्रियाविशेषण (दिन 34) और futur proche (दिन 37)।"
+    }
+  },
+  "light": true,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "d'habitude",
+      "en": "usually",
+      "hi": "आमतौर पर",
+      "pron": "दा-बी-तüद",
+      "ipa": "dabityd",
+      "pos": "adverb",
+      "note": {
+        "en": "A signal for the present tense: D'habitude, je prends le bus.",
+        "hi": "यह वर्तमान काल का संकेत है: D'habitude, je prends le bus (आमतौर पर मैं बस लेता हूँ)।"
+      }
+    },
+    {
+      "fr": "ce matin",
+      "en": "this morning",
+      "hi": "आज सुबह",
+      "pron": "सö मा-तैँ",
+      "ipa": "sə matɛ̃",
+      "pos": "phrase"
+    },
+    {
+      "fr": "tôt",
+      "en": "early",
+      "hi": "जल्दी",
+      "pron": "तो",
+      "ipa": "to",
+      "pos": "adverb"
+    },
+    {
+      "fr": "tard",
+      "en": "late",
+      "hi": "देर से",
+      "pron": "ताग़",
+      "ipa": "taʁ",
+      "pos": "adverb",
+      "note": {
+        "en": "tard = late in the day; en retard = late for something (behind schedule).",
+        "hi": "tard = दिन में देर से; en retard = किसी काम के लिए लेट होना।"
+      }
+    },
+    {
+      "fr": "la journée",
+      "en": "the day (as a span of time)",
+      "hi": "दिन (पूरा दिन)",
+      "pron": "ला झ़ूग़-ने",
+      "ipa": "la ʒuʁne",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "journée",
+      "note": {
+        "en": "Bonne journée ! = Have a nice day! le jour is the date or unit; la journée is the whole day you live through.",
+        "hi": "Bonne journée ! = आपका दिन शुभ हो! le jour तारीख़ या इकाई है; la journée वह पूरा दिन है जो आप बिताते हैं।"
+      }
+    },
+    {
+      "fr": "le journal",
+      "en": "the diary; the newspaper",
+      "hi": "डायरी; अख़बार",
+      "pron": "लö झ़ूग़-नाल",
+      "ipa": "lə ʒuʁnal",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "journal",
+      "note": {
+        "en": "A personal diary is 'un journal intime'. Plural: les journaux.",
+        "hi": "निजी डायरी को 'un journal intime' कहते हैं। बहुवचन: les journaux।"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "D'habitude, je …, mais hier, j'ai …",
+      "en": "Usually I …, but yesterday I …",
+      "hi": "आमतौर पर मैं … , पर कल मैंने …",
+      "pron": "दा-बी-तüद झ़ö … मै यैग़ झ़े …"
+    },
+    {
+      "fr": "Qu'est-ce que tu as fait hier soir ?",
+      "en": "What did you do last night?",
+      "hi": "तुमने कल रात क्या किया?",
+      "pron": "कैस-क तü आ फ़ै यैग़ स्वाग़"
+    },
+    {
+      "fr": "J'ai passé une bonne journée.",
+      "en": "I had a good day.",
+      "hi": "मेरा दिन अच्छा बीता।",
+      "pron": "झ़े पा-से üन बॉन झ़ूग़-ने"
+    },
+    {
+      "fr": "Je suis un peu fatigué(e) ce matin.",
+      "en": "I'm a bit tired this morning.",
+      "hi": "आज सुबह मैं थोड़ा थका/थकी हुआ/हुई हूँ।",
+      "pron": "झ़ö स्üई ज़ैँ पö फ़ा-ती-गे सö मा-तैँ"
+    },
+    {
+      "fr": "Bon courage !",
+      "en": "Good luck! / Hang in there!",
+      "hi": "हिम्मत रखो! / शुभकामनाएँ!",
+      "pron": "बोँ कू-ग़ाझ़",
+      "note": {
+        "en": "Said to someone who has something hard to do: an exam, a long day, a move.",
+        "hi": "उससे कहा जाता है जिसके सामने कोई मुश्किल काम हो: परीक्षा, लंबा दिन, घर बदलना।"
+      }
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Recap: present for habits, passé composé for finished actions",
+      "hi": "दोहराई: आदतों के लिए वर्तमान, पूरे हुए कामों के लिए पासे कॉम्पोज़े"
+    },
+    "explanation": {
+      "en": "Use the present for what is true now or happens regularly: d'habitude, tous les jours, le samedi, souvent. Use the passé composé (avoir + participle) for a finished action at a given moment: hier, ce matin, samedi dernier, le week-end dernier. Note the tiny difference: 'le samedi' (every Saturday, present) vs 'samedi' (last Saturday, passé composé). The same verb changes form: je travaille → j'ai travaillé; je finis → j'ai fini; j'attends → j'ai attendu.",
+      "hi": "जो बात अभी सच है या नियमित रूप से होती है, उसके लिए वर्तमान काल: d'habitude, tous les jours, le samedi, souvent। किसी तय समय पर पूरा हो चुका काम हो तो पासे कॉम्पोज़े (avoir + कृदंत): hier, ce matin, samedi dernier, le week-end dernier। छोटा-सा फ़र्क़ देखिए: 'le samedi' (हर शनिवार, वर्तमान) और 'samedi' (पिछला शनिवार, पासे कॉम्पोज़े)। वही क्रिया रूप बदलती है: je travaille → j'ai travaillé; je finis → j'ai fini; j'attends → j'ai attendu।"
+    },
+    "comparison": {
+      "en": "Hindi makes the same split: 'मैं हर शनिवार काम करता हूँ' (habit) vs 'मैंने शनिवार को काम किया' (one finished time). English does too: 'I work' vs 'I worked'. The trap is the French time word: 'le samedi' with le = every Saturday.",
+      "hi": "हिंदी भी यही बँटवारा करती है: 'मैं हर शनिवार काम करता हूँ' (आदत) और 'मैंने शनिवार को काम किया' (एक बार, पूरा हुआ)। अंग्रेज़ी भी: 'I work' और 'I worked'। जाल फ़्रेंच के समय वाले शब्द में है: 'le samedi' में le का मतलब है हर शनिवार।"
+    },
+    "examples": [
+      {
+        "fr": "D'habitude, je prends le bus, mais ce matin, j'ai marché.",
+        "en": "Usually I take the bus, but this morning I walked.",
+        "hi": "आमतौर पर मैं बस लेता/लेती हूँ, पर आज सुबह मैं पैदल गया/गई।",
+        "pron": "दा-बी-तüद झ़ö प्राँ लö बüस मै सö मा-तैँ झ़े माग़-शे"
+      },
+      {
+        "fr": "Le samedi, je travaille. Samedi, j'ai travaillé jusqu'à huit heures.",
+        "en": "On Saturdays I work. On Saturday I worked until eight.",
+        "hi": "शनिवार को मैं काम करता/करती हूँ। (पिछले) शनिवार मैंने आठ बजे तक काम किया।",
+        "pron": "लö साम-दी झ़ö त्रा-वाय। साम-दी झ़े त्रा-वा-ये झ़üस-का üई तöग़"
+      },
+      {
+        "fr": "Tu finis tôt aujourd'hui ? — Non, mais hier, j'ai fini à trois heures.",
+        "en": "Are you finishing early today? — No, but yesterday I finished at three.",
+        "hi": "आज तुम जल्दी छूट रहे हो? — नहीं, पर कल मैं तीन बजे छूट गया था।",
+        "pron": "तü फ़ी-नी तो ओ-झ़ूग़-द्üई — नोँ मै यैग़ झ़े फ़ी-नी आ त्रवा ज़öग़"
+      },
+      {
+        "fr": "Nous dînons souvent tard. Hier, nous avons dîné à dix heures.",
+        "en": "We often eat dinner late. Yesterday we had dinner at ten.",
+        "hi": "हम अक्सर देर से रात का खाना खाते हैं। कल हमने दस बजे खाना खाया।",
+        "pron": "नू दी-नोँ सू-वाँ ताग़। यैग़ नू ज़ा-वोँ दी-ने आ दी ज़öग़"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "'Le lundi' = every Monday (present). 'Lundi' alone = last or next Monday, depending on the tense.",
+        "hi": "'Le lundi' = हर सोमवार (वर्तमान)। सिर्फ़ 'Lundi' = पिछला या अगला सोमवार, काल पर निर्भर।"
+      },
+      {
+        "en": "Don't use the present after hier: 'Hier, je mange' is wrong — say 'Hier, j'ai mangé'.",
+        "hi": "hier के बाद वर्तमान मत लगाइए: 'Hier, je mange' ग़लत है — 'Hier, j'ai mangé' कहिए।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Review /e/ (et, été) vs /ɛ/ (est, mère, fête)",
+    "tip": {
+      "en": "/e/ (ए) is tense, lips spread, mouth almost closed: et, été, café. /ɛ/ (ऐ) is more open, jaw lower: est, mère, fête. 'et' and 'est' differ only by this: Il est content et fatigué.",
+      "hi": "/e/ (ए) कसा हुआ है, होंठ फैले, मुँह लगभग बंद: et, été, café। /ɛ/ (ऐ) ज़्यादा खुला है, जबड़ा नीचे: est, mère, fête। 'et' (और) और 'est' (है) में फ़र्क़ बस इसी आवाज़ का है: Il est content et fatigué।"
+    },
+    "words": [
+      {
+        "fr": "et",
+        "en": "and",
+        "hi": "और",
+        "pron": "ए",
+        "ipa": "e"
+      },
+      {
+        "fr": "il est",
+        "en": "he is",
+        "hi": "वह है",
+        "pron": "ई-लै",
+        "ipa": "i lɛ"
+      },
+      {
+        "fr": "l'été",
+        "en": "summer",
+        "hi": "गर्मी का मौसम",
+        "pron": "ले-ते",
+        "ipa": "lete"
+      },
+      {
+        "fr": "la mère",
+        "en": "the mother",
+        "hi": "माँ",
+        "pron": "ला मैग़",
+        "ipa": "la mɛʁ"
+      },
+      {
+        "fr": "la fête",
+        "en": "the party, the celebration",
+        "hi": "पार्टी, उत्सव",
+        "pron": "ला फ़ैत",
+        "ipa": "la fɛt"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Un café le lundi matin",
+      "en": "A coffee on Monday morning"
+    },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Julie and Karan meet at the coffee machine at work in Gatineau. They talk about the weekend and the week ahead, at normal speed.",
+      "hi": "जूली और करन गातिनो में अपने दफ़्तर की कॉफ़ी मशीन के पास मिलते हैं। वे सामान्य रफ़्तार से वीकेंड और आने वाले हफ़्ते की बात करते हैं।"
+    },
+    "lines": [
+      {
+        "speaker": "Julie",
+        "voice": "f2",
+        "fr": "Salut Karan ! Ça va ? Tu es fatigué ce matin ?",
+        "en": "Hi Karan! How are you? Are you tired this morning?",
+        "hi": "हाय करन! कैसे हो? आज सुबह थके हुए हो?"
+      },
+      {
+        "speaker": "Karan",
+        "voice": "m2",
+        "fr": "Un peu, oui. D'habitude, je me couche à onze heures, mais hier, j'ai regardé un film jusqu'à une heure du matin.",
+        "en": "A bit, yes. Usually I go to bed at eleven, but yesterday I watched a film until one in the morning.",
+        "hi": "थोड़ा, हाँ। आमतौर पर मैं ग्यारह बजे सो जाता हूँ, पर कल मैंने रात एक बजे तक फ़िल्म देखी।"
+      },
+      {
+        "speaker": "Julie",
+        "voice": "f2",
+        "fr": "Ah bon ? Quel film ?",
+        "en": "Really? Which film?",
+        "hi": "अच्छा? कौन-सी फ़िल्म?"
+      },
+      {
+        "speaker": "Karan",
+        "voice": "m2",
+        "fr": "Un film indien avec des sous-titres en français. J'ai beaucoup aimé ! Et toi, ton week-end ?",
+        "en": "An Indian film with French subtitles. I really liked it! And you, your weekend?",
+        "hi": "एक भारतीय फ़िल्म, फ़्रेंच सबटाइटल के साथ। मुझे बहुत पसंद आई! और तुम, तुम्हारा वीकेंड?"
+      },
+      {
+        "speaker": "Julie",
+        "voice": "f2",
+        "fr": "Samedi, j'ai travaillé à la boutique. Le samedi, je travaille toujours.",
+        "en": "On Saturday I worked at the shop. On Saturdays I always work.",
+        "hi": "शनिवार को मैंने दुकान पर काम किया। शनिवार को मैं हमेशा काम करती हूँ।"
+      },
+      {
+        "speaker": "Karan",
+        "voice": "m2",
+        "fr": "Et dimanche ?",
+        "en": "And Sunday?",
+        "hi": "और रविवार?"
+      },
+      {
+        "speaker": "Julie",
+        "voice": "f2",
+        "fr": "Dimanche, j'ai joué au badminton avec ma cousine, et après, on a déjeuné au parc, au soleil.",
+        "en": "On Sunday I played badminton with my cousin, and afterwards we had lunch in the park, in the sun.",
+        "hi": "रविवार को मैंने अपनी कज़िन के साथ बैडमिंटन खेला, और फिर हमने धूप में पार्क में दोपहर का खाना खाया।"
+      },
+      {
+        "speaker": "Karan",
+        "voice": "m2",
+        "fr": "Super. Moi, j'ai étudié tout le week-end pour mon examen de français.",
+        "en": "Great. I studied all weekend for my French exam.",
+        "hi": "बढ़िया। मैंने पूरा वीकेंड अपनी फ़्रेंच परीक्षा के लिए पढ़ाई की।"
+      },
+      {
+        "speaker": "Julie",
+        "voice": "f2",
+        "fr": "Ton examen, c'est quand ?",
+        "en": "When is your exam?",
+        "hi": "तुम्हारी परीक्षा कब है?"
+      },
+      {
+        "speaker": "Karan",
+        "voice": "m2",
+        "fr": "Jeudi prochain. Cette semaine, je vais réviser tous les soirs.",
+        "en": "Next Thursday. This week I'm going to revise every evening.",
+        "hi": "अगले गुरुवार। इस हफ़्ते मैं हर शाम दोहराई करने वाला हूँ।"
+      },
+      {
+        "speaker": "Julie",
+        "voice": "f2",
+        "fr": "Bon courage ! Tu veux un café ?",
+        "en": "Good luck! Do you want a coffee?",
+        "hi": "शुभकामनाएँ! कॉफ़ी पिओगे?"
+      },
+      {
+        "speaker": "Karan",
+        "voice": "m2",
+        "fr": "Oui, merci. Un grand café, s'il te plaît !",
+        "en": "Yes, thanks. A big coffee, please!",
+        "hi": "हाँ, धन्यवाद। एक बड़ी कॉफ़ी, प्लीज़!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "Why is Karan tired?"
+        },
+        "options": [
+          "He worked late at the office",
+          "He watched a film until 1 a.m.",
+          "He played badminton",
+          "He studied all night"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "Yesterday he watched a film until one in the morning.",
+          "hi": "कल उसने रात एक बजे तक फ़िल्म देखी।"
+        },
+        "kind": "literal",
+        "evidence": "hier, j'ai regardé un film jusqu'à une heure du matin"
+      },
+      {
+        "q": {
+          "en": "What does Julie do every Saturday?"
+        },
+        "options": [
+          "She works at the shop",
+          "She plays badminton",
+          "She has lunch in the park"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Le samedi' (with le) = every Saturday, and the verb is in the present.",
+          "hi": "'Le samedi' (le के साथ) = हर शनिवार, और क्रिया वर्तमान काल में है।"
+        },
+        "kind": "grammar",
+        "evidence": "Le samedi, je travaille toujours."
+      },
+      {
+        "q": {
+          "en": "Who did Julie play badminton with?"
+        },
+        "options": [
+          "Karan",
+          "Her sister",
+          "Her cousin"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'avec ma cousine' = with my (female) cousin.",
+          "hi": "'avec ma cousine' = मेरी कज़िन (लड़की) के साथ।"
+        },
+        "kind": "literal",
+        "evidence": "j'ai joué au badminton avec ma cousine"
+      },
+      {
+        "q": {
+          "en": "When is Karan's exam?"
+        },
+        "options": [
+          "This Monday",
+          "Next Thursday",
+          "Last Thursday",
+          "This weekend"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Jeudi prochain' = next Thursday.",
+          "hi": "'Jeudi prochain' = अगले गुरुवार।"
+        },
+        "kind": "literal",
+        "evidence": "Jeudi prochain."
+      },
+      {
+        "q": {
+          "en": "What can we guess about Karan's plans this week?"
+        },
+        "options": [
+          "He will go out a lot",
+          "He will travel to India",
+          "He will be busy studying in the evenings"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "He is going to revise every evening (futur proche).",
+          "hi": "वह हर शाम दोहराई करने वाला है (futur proche)।"
+        },
+        "kind": "inference",
+        "evidence": "Cette semaine, je vais réviser tous les soirs."
+      }
+    ],
+    "dictation": [
+      "D'habitude, je me couche à onze heures.",
+      "Samedi, j'ai travaillé à la boutique.",
+      "J'ai étudié tout le week-end."
+    ],
+    "gapFill": {
+      "text": "Le samedi, je ___ toujours. Dimanche, j'ai ___ au badminton et on a ___ au parc.",
+      "answers": [
+        "travaille",
+        "joué",
+        "déjeuné"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "conversation",
+    "instructions": {
+      "en": "Answer each question about yesterday. For each answer, add a contrast with your habit: 'D'habitude …, mais hier …'. Then speak for one minute about yesterday from morning to evening.",
+      "hi": "कल के बारे में हर प्रश्न का जवाब दीजिए। हर जवाब में अपनी आदत से तुलना जोड़िए: 'D'habitude …, mais hier …'। फिर एक मिनट तक कल सुबह से शाम तक के बारे में बोलिए।"
+    },
+    "prompts": [
+      {
+        "fr": "À quelle heure tu as mangé hier soir ?",
+        "en": "What time did you eat last night?",
+        "hi": "कल रात तुमने कितने बजे खाना खाया?",
+        "pron": "आ कैल öग़ तü आ माँ-झ़े यैग़ स्वाग़",
+        "model": "D'habitude, je mange à huit heures, mais hier, j'ai mangé à dix heures."
+      },
+      {
+        "fr": "Tu as travaillé hier ?",
+        "en": "Did you work yesterday?",
+        "hi": "कल तुमने काम किया?",
+        "pron": "तü आ त्रा-वा-ये यैग़",
+        "model": "Oui, j'ai travaillé de neuf heures à cinq heures, comme d'habitude."
+      },
+      {
+        "fr": "Qu'est-ce que tu as regardé ou écouté ?",
+        "en": "What did you watch or listen to?",
+        "hi": "तुमने क्या देखा या सुना?",
+        "pron": "कैस-क तü आ ग़ö-गाग़-दे ऊ ए-कू-ते",
+        "model": "J'ai écouté un podcast en français et j'ai regardé les nouvelles."
+      },
+      {
+        "fr": "Tu as téléphoné à ta famille ?",
+        "en": "Did you phone your family?",
+        "hi": "तुमने अपने परिवार को फ़ोन किया?",
+        "pron": "तü आ ते-ले-फ़ो-ने आ ता फ़ा-मीय",
+        "model": "Oui, j'ai téléphoné à mes parents en Inde."
+      },
+      {
+        "fr": "Qu'est-ce que tu vas faire ce soir ?",
+        "en": "What are you going to do this evening?",
+        "hi": "आज शाम तुम क्या करने वाले हो?",
+        "pron": "कैस-क तü वा फ़ैग़ सö स्वाग़",
+        "model": "Ce soir, je vais me coucher tôt !"
+      }
+    ],
+    "tip": {
+      "en": "Listen to your own verbs: present 'je travaille' ends with a consonant sound, past 'j'ai travaillé' ends with ए. That one sound carries the tense.",
+      "hi": "अपनी क्रियाएँ ध्यान से सुनिए: वर्तमान 'je travaille' व्यंजन की आवाज़ पर ख़त्म होता है, भूतकाल 'j'ai travaillé' ए पर। काल का पूरा फ़र्क़ इसी एक आवाज़ में है।"
+    }
+  },
+  "reading": {
+    "genre": "story",
+    "title": "Cher journal…",
+    "text": "Mardi 14 novembre\n\nCher journal,\n\nD'habitude, le mardi, je travaille de neuf heures à cinq heures et je rentre en bus. Une journée normale. Mais aujourd'hui, tout a changé !\n\nCe matin, mon réveil n'a pas sonné et j'ai raté le bus de sept heures. Alors j'ai marché vingt minutes sous la pluie. Au bureau, surprise : mon chef a organisé une petite fête pour l'anniversaire de Nadia. Nous avons mangé un gâteau et nous avons chanté « Bonne fête ! ». À midi, j'ai téléphoné à la clinique et j'ai changé mon rendez-vous chez le médecin. L'après-midi, j'ai terminé un rapport important, et mon chef a beaucoup aimé mon travail.\n\nCe soir, je suis fatigué mais content. Je mange une soupe, je regarde les nouvelles et je vais me coucher tôt. Demain, je vais prendre le bus de six heures et demie… et je vais vérifier mon réveil !\n\nRohan",
+    "translation": {
+      "en": "Tuesday 14 November\n\nDear diary,\n\nUsually, on Tuesdays, I work from nine to five and go home by bus. A normal day. But today everything changed!\n\nThis morning my alarm didn't ring and I missed the seven o'clock bus. So I walked for twenty minutes in the rain. At the office, surprise: my boss organised a little party for Nadia's birthday. We ate cake and sang 'Happy birthday!'. At noon I phoned the clinic and changed my doctor's appointment. In the afternoon I finished an important report, and my boss really liked my work.\n\nThis evening I am tired but happy. I'm eating soup, watching the news and I'm going to go to bed early. Tomorrow I'm going to take the half past six bus… and I'm going to check my alarm!\n\nRohan",
+      "hi": "मंगलवार, 14 नवंबर\n\nप्यारी डायरी,\n\nआमतौर पर मंगलवार को मैं नौ से पाँच बजे तक काम करता हूँ और बस से घर लौटता हूँ। एक आम दिन। पर आज सब कुछ बदल गया!\n\nआज सुबह मेरा अलार्म नहीं बजा और सात बजे वाली बस छूट गई। तो मैं बारिश में बीस मिनट पैदल चला। दफ़्तर में सरप्राइज़: मेरे बॉस ने नादिया के जन्मदिन के लिए एक छोटी-सी पार्टी रखी थी। हमने केक खाया और 'जन्मदिन मुबारक!' गाया। दोपहर बारह बजे मैंने क्लिनिक फ़ोन करके डॉक्टर वाली अपॉइंटमेंट बदल दी। दोपहर बाद मैंने एक ज़रूरी रिपोर्ट पूरी की, और मेरे बॉस को मेरा काम बहुत पसंद आया।\n\nआज शाम मैं थका हुआ हूँ पर ख़ुश हूँ। मैं सूप पी रहा हूँ, समाचार देख रहा हूँ और जल्दी सोने जाऊँगा। कल मैं साढ़े छह बजे वाली बस लूँगा… और अपना अलार्म ज़रूर जाँचूँगा!\n\nरोहन"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "Why did Rohan miss his bus?"
+        },
+        "options": [
+          "It was raining",
+          "His alarm didn't ring",
+          "The bus was early",
+          "He forgot his card"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "His alarm didn't ring: 'mon réveil n'a pas sonné'.",
+          "hi": "उसका अलार्म नहीं बजा: 'mon réveil n'a pas sonné'।"
+        },
+        "kind": "literal",
+        "evidence": "mon réveil n'a pas sonné et j'ai raté le bus de sept heures"
+      },
+      {
+        "q": {
+          "en": "How did Rohan get to the office?"
+        },
+        "options": [
+          "On foot",
+          "By the next bus",
+          "By car with his boss"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "He walked twenty minutes in the rain.",
+          "hi": "वह बारिश में बीस मिनट पैदल चला।"
+        },
+        "kind": "inference",
+        "evidence": "Alors j'ai marché vingt minutes sous la pluie."
+      },
+      {
+        "q": {
+          "en": "What was the party at the office for?"
+        },
+        "options": [
+          "Rohan's birthday",
+          "The boss's birthday",
+          "Nadia's birthday",
+          "A new report"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "The boss organised a party for Nadia's birthday.",
+          "hi": "बॉस ने नादिया के जन्मदिन के लिए पार्टी रखी।"
+        },
+        "kind": "literal",
+        "evidence": "pour l'anniversaire de Nadia"
+      },
+      {
+        "q": {
+          "en": "What did Rohan do at noon?"
+        },
+        "options": [
+          "He went to the doctor",
+          "He changed an appointment by phone",
+          "He finished his report"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "He phoned the clinic and changed his appointment.",
+          "hi": "उसने क्लिनिक फ़ोन करके अपॉइंटमेंट बदली।"
+        },
+        "kind": "literal",
+        "evidence": "j'ai téléphoné à la clinique et j'ai changé mon rendez-vous chez le médecin"
+      },
+      {
+        "q": {
+          "en": "Why will Rohan take an earlier bus tomorrow?"
+        },
+        "options": [
+          "He has a meeting at six",
+          "He doesn't want to be late again",
+          "His boss asked him to"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "After missing the bus today, he plans an earlier bus and to check his alarm — he wants to avoid being late.",
+          "hi": "आज बस छूटने के बाद वह पहले वाली बस लेगा और अलार्म जाँचेगा — वह फिर लेट नहीं होना चाहता।"
+        },
+        "kind": "inference",
+        "evidence": "Demain, je vais prendre le bus de six heures et demie"
+      }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "Write a diary entry about yesterday. Start with a habit ('D'habitude, …') and then say what was different yesterday. End with one plan for tomorrow (futur proche).",
+      "hi": "कल के बारे में डायरी लिखिए। एक आदत से शुरू कीजिए ('D'habitude, …') और फिर बताइए कि कल क्या अलग हुआ। अंत में कल के लिए एक योजना लिखिए (futur proche)।",
+      "fr": "Écrivez une page de journal."
+    },
+    "minWords": 50,
+    "maxWords": 100,
+    "hints": [
+      {
+        "en": "Start with the date and 'Cher journal,'.",
+        "hi": "तारीख़ और 'Cher journal,' से शुरू कीजिए।"
+      },
+      {
+        "en": "Use the present for habits, the passé composé for yesterday, and aller + infinitive for tomorrow.",
+        "hi": "आदतों के लिए वर्तमान, कल (बीते) के लिए पासे कॉम्पोज़े, और आने वाले कल के लिए aller + मूल क्रिया।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Cher journal,",
+        "en": "Dear diary,",
+        "hi": "प्यारी डायरी,",
+        "pron": "शैग़ झ़ूग़-नाल"
+      },
+      {
+        "fr": "D'habitude, …, mais hier, …",
+        "en": "Usually …, but yesterday …",
+        "hi": "आमतौर पर …, पर कल …",
+        "pron": "दा-बी-तüद … मै यैग़"
+      },
+      {
+        "fr": "Demain, je vais …",
+        "en": "Tomorrow I'm going to …",
+        "hi": "कल (आने वाला) मैं … करने वाला/वाली हूँ",
+        "pron": "दö-मैँ झ़ö वै"
+      }
+    ],
+    "model": {
+      "fr": "Lundi 3 mars\n\nCher journal,\n\nD'habitude, le lundi, je travaille à la maison. Mais hier, j'ai travaillé au bureau, au centre-ville. J'ai attendu le métro quinze minutes ! À midi, j'ai mangé avec une collègue et nous avons parlé de nos familles. Le soir, j'ai cuisiné des pâtes et j'ai téléphoné à ma sœur. Je n'ai pas regardé la télé. Demain, je vais travailler à la maison et je vais dormir un peu plus.",
+      "en": "Monday 3 March\n\nDear diary,\n\nUsually, on Mondays, I work from home. But yesterday I worked at the office, downtown. I waited fifteen minutes for the metro! At noon I ate with a colleague and we talked about our families. In the evening I cooked pasta and phoned my sister. I didn't watch TV. Tomorrow I'm going to work from home and sleep a bit more."
+    },
+    "checklist": [
+      {
+        "en": "Is the habit sentence in the present and the 'yesterday' sentences in the passé composé?",
+        "hi": "क्या आदत वाला वाक्य वर्तमान में और 'कल' वाले वाक्य पासे कॉम्पोज़े में हैं?"
+      },
+      {
+        "en": "Did you use 'le lundi' (every Monday) and 'hier' correctly?",
+        "hi": "क्या आपने 'le lundi' (हर सोमवार) और 'hier' सही इस्तेमाल किए?"
+      },
+      {
+        "en": "Did you end with je vais + infinitive?",
+        "hi": "क्या आपने अंत में je vais + मूल क्रिया लिखी?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      22,
+      24,
+      27,
+      29,
+      31,
+      32,
+      34,
+      36,
+      37,
+      39,
+      41
+    ],
+    "items": [
+      {
+        "fr": "ma sœur et mes parents",
+        "en": "my sister and my parents",
+        "hi": "मेरी बहन और मेरे माता-पिता",
+        "pron": "मा सöग़ ए मे पा-ग़ाँ"
+      },
+      {
+        "fr": "Je ne mange pas de viande.",
+        "en": "I don't eat meat.",
+        "hi": "मैं मांस नहीं खाता/खाती।",
+        "pron": "झ़ö नö माँझ़ पा दö व्याँद"
+      },
+      {
+        "fr": "Je me couche à onze heures.",
+        "en": "I go to bed at eleven.",
+        "hi": "मैं ग्यारह बजे सोने जाता/जाती हूँ।",
+        "pron": "झ़ö मö कूश आ ओँ ज़öग़"
+      },
+      {
+        "fr": "Prenez la deuxième rue à droite.",
+        "en": "Take the second street on the right.",
+        "hi": "दाईं ओर की दूसरी गली लीजिए।",
+        "pron": "प्रö-ने ला दö-ज़्यैम ग़ü आ द्र्वात"
+      },
+      {
+        "fr": "Est-ce que je peux partir tôt ?",
+        "en": "Can I leave early?",
+        "hi": "क्या मैं जल्दी जा सकता/सकती हूँ?",
+        "pron": "ऐस-क झ़ö पö पाग़-तीग़ तो"
+      },
+      {
+        "fr": "Je dois travailler samedi.",
+        "en": "I have to work on Saturday.",
+        "hi": "मुझे शनिवार को काम करना है।",
+        "pron": "झ़ö द्वा त्रा-वा-ये साम-दी"
+      },
+      {
+        "fr": "Je joue souvent au badminton.",
+        "en": "I often play badminton.",
+        "hi": "मैं अक्सर बैडमिंटन खेलता/खेलती हूँ।",
+        "pron": "झ़ö झ़ू सू-वाँ ओ बाद-मिन-तॉन"
+      },
+      {
+        "fr": "J'ai mal à la tête.",
+        "en": "I have a headache.",
+        "hi": "मेरे सिर में दर्द है।",
+        "pron": "झ़े माल आ ला तैत"
+      },
+      {
+        "fr": "Je vais prendre rendez-vous.",
+        "en": "I'm going to make an appointment.",
+        "hi": "मैं अपॉइंटमेंट लेने वाला/वाली हूँ।",
+        "pron": "झ़ö वै प्राँद्ग़ ग़ाँ-दे-वू"
+      },
+      {
+        "fr": "Bonjour Madame, … Cordialement,",
+        "en": "Dear Madam, … Kind regards,",
+        "hi": "आदरणीय महोदया, … सादर,",
+        "pron": "बोँ-झ़ूग़ मा-दाम … कॉग़-द्या-ल-माँ"
+      },
+      {
+        "fr": "J'ai nettoyé la cuisine.",
+        "en": "I cleaned the kitchen.",
+        "hi": "मैंने रसोई साफ़ की।",
+        "pron": "झ़े नै-त्वा-ये ला क्üई-ज़ीन"
+      },
+      {
+        "fr": "Nous avons invité nos voisins.",
+        "en": "We invited our neighbours.",
+        "hi": "हमने अपने पड़ोसियों को बुलाया।",
+        "pron": "नू ज़ा-वोँ ज़ैँ-वी-ते नो व्वा-ज़ैँ"
+      },
+      {
+        "fr": "Tu as déjà fini ?",
+        "en": "Have you finished already?",
+        "hi": "तुमने पहले ही ख़त्म कर लिया?",
+        "pron": "तü आ दे-झ़ा फ़ी-नी"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Choose the right tense: 'Hier, je ___ au restaurant.'",
+        "hi": "सही काल चुनिए: 'Hier, je ___ au restaurant.'"
+      },
+      "options": [
+        "mange",
+        "ai mangé",
+        "vais manger"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "hier = yesterday → passé composé: j'ai mangé.",
+        "hi": "hier = बीता कल → पासे कॉम्पोज़े: j'ai mangé।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Le dimanche, je dors tard.' What does it mean?",
+        "hi": "'Le dimanche, je dors tard.' का मतलब क्या है?"
+      },
+      "options": [
+        "Last Sunday I slept late.",
+        "On Sundays I sleep late.",
+        "Next Sunday I will sleep late.",
+        "On Sunday I didn't sleep."
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "'Le dimanche' + present = a habit, every Sunday.",
+        "hi": "'Le dimanche' + वर्तमान = आदत, हर रविवार।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete with the passé composé of finir.",
+        "hi": "finir के पासे कॉम्पोज़े से पूरा कीजिए।"
+      },
+      "sentence": "Ce matin, nous ___ le rapport.",
+      "answer": "avons fini",
+      "accept": [],
+      "explanation": {
+        "en": "nous + avons + fini.",
+        "hi": "nous + avons + fini।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "Usually I take the bus, but this morning I walked.",
+        "hi": "आमतौर पर मैं बस लेता हूँ, पर आज सुबह मैं पैदल गया।"
+      },
+      "answer": "D'habitude, je prends le bus, mais ce matin, j'ai marché.",
+      "accept": [
+        "D'habitude je prends le bus, mais ce matin j'ai marché.",
+        "D'habitude, je prends le bus mais ce matin j'ai marché.",
+        "D'habitude, je prends le bus, mais ce matin j'ai marché."
+      ],
+      "explanation": {
+        "en": "Habit → present (je prends); this morning → passé composé (j'ai marché).",
+        "hi": "आदत → वर्तमान (je prends); आज सुबह → पासे कॉम्पोज़े (j'ai marché)।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: I didn't watch TV.",
+        "hi": "शब्दों को सही क्रम में रखिए: मैंने टीवी नहीं देखा।"
+      },
+      "words": [
+        "pas",
+        "Je",
+        "la",
+        "n'ai",
+        "télé",
+        "regardé",
+        "."
+      ],
+      "answer": "Je n'ai pas regardé la télé.",
+      "explanation": {
+        "en": "ne … pas around avoir, then the participle: Je n'ai pas regardé.",
+        "hi": "ne … pas, avoir के दोनों ओर, फिर कृदंत: Je n'ai pas regardé।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which word has the open sound /ɛ/ (ऐ)?",
+        "hi": "किस शब्द में खुली आवाज़ /ɛ/ (ऐ) है?"
+      },
+      "options": [
+        "et",
+        "été",
+        "mère"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "mère has è = /ɛ/. et and été have /e/.",
+        "hi": "mère में è = /ɛ/ है। et और été में /e/ है।"
+      }
+    }
+  ]
+}

@@ -1,0 +1,938 @@
+{
+  "day": 83,
+  "phase": 5,
+  "title": {
+    "fr": "TEF compréhension orale : conversations et annonces",
+    "en": "TEF listening: conversations and announcements",
+    "hi": "TEF श्रवण: बातचीत और घोषणाएँ"
+  },
+  "objective": {
+    "en": "Prepare for a recording you hear only once: predict the information from the questions, then catch fast numbers, times, platforms and changes in transport and service announcements.",
+    "hi": "सिर्फ़ एक बार सुनाई देने वाली रिकॉर्डिंग की तैयारी करना: सवालों से जानकारी का अंदाज़ा लगाना, फिर यातायात और सेवाओं की घोषणाओं में तेज़ बोली गई संख्याएँ, समय, प्लेटफ़ॉर्म और बदलाव पकड़ना।"
+  },
+  "prerequisites": {
+    "days": [
+      12,
+      15,
+      29,
+      57,
+      81
+    ],
+    "summary": {
+      "en": "Numbers 20–100 (Day 12), the 24-hour clock (Day 15), transport vocabulary (Day 29), public announcements (Day 57) and everyday documents (Day 81).",
+      "hi": "20–100 की संख्याएँ (दिन 12), 24 घंटे वाली घड़ी (दिन 15), यातायात के शब्द (दिन 29), सार्वजनिक घोषणाएँ (दिन 57) और रोज़मर्रा के दस्तावेज़ (दिन 81)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "le quai",
+      "en": "platform (station)",
+      "hi": "प्लेटफ़ॉर्म",
+      "pron": "लö कै",
+      "ipa": "lə ke",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "quai"
+    },
+    {
+      "fr": "la voie",
+      "en": "track (numbered platform)",
+      "hi": "पटरी / ट्रैक नंबर",
+      "pron": "ला व्वा",
+      "ipa": "la vwa",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "voie",
+      "note": {
+        "en": "In stations, 'voie 4' is the number you look for on the board.",
+        "hi": "स्टेशन पर बोर्ड में 'voie 4' जैसा नंबर देखा जाता है।"
+      }
+    },
+    {
+      "fr": "à destination de",
+      "en": "bound for, going to",
+      "hi": "… की ओर जाने वाला",
+      "pron": "आ दैस-ती-ना-स्योँ दö",
+      "ipa": "a dɛstinasjɔ̃ də",
+      "pos": "phrase"
+    },
+    {
+      "fr": "en provenance de",
+      "en": "arriving from",
+      "hi": "… से आने वाला",
+      "pron": "आँ प्रॉव-नाँस दö",
+      "ipa": "ɑ̃ pʁɔvnɑ̃s də",
+      "pos": "phrase"
+    },
+    {
+      "fr": "le retard",
+      "en": "delay",
+      "hi": "देरी",
+      "pron": "लö ग़ö-ताग़",
+      "ipa": "lə ʁətaʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "retard",
+      "note": {
+        "en": "Être en retard = to be late; un retard de vingt minutes = a twenty-minute delay.",
+        "hi": "être en retard = देर से होना; un retard de vingt minutes = बीस मिनट की देरी।"
+      }
+    },
+    {
+      "fr": "la correspondance",
+      "en": "connection (transfer)",
+      "hi": "आगे की गाड़ी / कनेक्शन",
+      "pron": "ला को-ग़ैस-पोँ-दाँस",
+      "ipa": "la kɔʁɛspɔ̃dɑ̃s",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "correspondance"
+    },
+    {
+      "fr": "l'interruption de service",
+      "en": "service interruption",
+      "hi": "सेवा में रुकावट",
+      "pron": "लैँ-तै-ग़üप-स्योँ दö सैग़-वीस",
+      "ipa": "lɛ̃teʁypsjɔ̃ də sɛʁvis",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "interruption"
+    },
+    {
+      "fr": "la navette",
+      "en": "shuttle",
+      "hi": "शटल गाड़ी",
+      "pron": "ला ना-वैत",
+      "ipa": "la navɛt",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "navette"
+    },
+    {
+      "fr": "desservir",
+      "en": "to serve (a stop, an area)",
+      "hi": "(किसी जगह तक) सेवा देना / रुकना",
+      "pron": "दे-सैग़-वीग़",
+      "ipa": "desɛʁviʁ",
+      "pos": "verb",
+      "note": {
+        "en": "Ce bus dessert l'aéroport = this bus goes to / stops at the airport.",
+        "hi": "Ce bus dessert l'aéroport = यह बस हवाई अड्डे तक जाती है।"
+      }
+    },
+    {
+      "fr": "l'embarquement",
+      "en": "boarding",
+      "hi": "विमान/गाड़ी में चढ़ना (बोर्डिंग)",
+      "pron": "लाँ-बाग़-कö-माँ",
+      "ipa": "lɑ̃baʁkəmɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "embarquement"
+    },
+    {
+      "fr": "le titre de transport",
+      "en": "ticket / fare card",
+      "hi": "यात्रा टिकट / पास",
+      "pron": "लö तीत्ग़ दö त्ग़ाँस-पॉग़",
+      "ipa": "lə titʁ də tʁɑ̃spɔʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "titre de transport"
+    },
+    {
+      "fr": "prévu",
+      "en": "scheduled, planned",
+      "hi": "तय / निर्धारित",
+      "pron": "प्रे-व्ü",
+      "ipa": "pʁevy",
+      "pos": "adjective",
+      "note": {
+        "en": "Past participle of prévoir: le départ prévu à 14 h 52.",
+        "hi": "prévoir का past participle: le départ prévu à 14 h 52।"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Le train partira avec un retard d'environ vingt minutes.",
+      "en": "The train will leave about twenty minutes late.",
+      "hi": "ट्रेन लगभग बीस मिनट देरी से चलेगी।",
+      "pron": "लö त्ग़ैँ पाग़-ती-ग़ा आ-वैक ऐँ ग़ö-ताग़ दाँ-वी-ग़ोँ वैँ मी-न्üत"
+    },
+    {
+      "fr": "Les passagers sont priés de se présenter à la porte 57.",
+      "en": "Passengers are asked to go to gate 57.",
+      "hi": "यात्रियों से अनुरोध है कि वे गेट 57 पर पहुँचें।",
+      "pron": "ले पा-सा-झ़े सोँ प्री-ये दö सö प्रे-ज़ाँ-ते आ ला पॉग़्त सैँ-काँत-सैत"
+    },
+    {
+      "fr": "Le service est interrompu entre ces deux stations.",
+      "en": "Service is interrupted between these two stations.",
+      "hi": "इन दो स्टेशनों के बीच सेवा रुकी हुई है।",
+      "pron": "लö सैग़-वीस ए तैँ-तै-ग़ोँ-प्ü आँत्ग़ से दö स्ता-स्योँ"
+    },
+    {
+      "fr": "Des navettes sont mises à votre disposition.",
+      "en": "Shuttles are available for you.",
+      "hi": "आपके लिए शटल गाड़ियाँ उपलब्ध हैं।",
+      "pron": "दे ना-वैत सोँ मीज़ आ वॉत्ग़ दिस-पो-ज़ी-स्योँ"
+    },
+    {
+      "fr": "Il passe toutes les douze minutes.",
+      "en": "It comes every twelve minutes.",
+      "hi": "यह हर बारह मिनट में आती है।",
+      "pron": "इल पास तूत ले दूज़ मी-न्üत"
+    },
+    {
+      "fr": "C'est bien la voie quatre ?",
+      "en": "Is it really track four?",
+      "hi": "पक्का ट्रैक चार ही है न?",
+      "pron": "सै ब्यैँ ला व्वा कात्ग़"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Predicting from the questions + fast numbers and times",
+      "hi": "सवालों से अंदाज़ा लगाना + तेज़ बोली गई संख्याएँ और समय"
+    },
+    "explanation": {
+      "en": "In TEF listening, each recording is played once and you cannot go back. Use the few seconds before it starts: read the question and options and decide WHAT you are waiting for — a number (combien, quel numéro), a time (à quelle heure), a place (où, quelle porte), a reason (pourquoi) or a change (au lieu de, ne … plus). Then listen for that slot only. Announcements often give a first piece of information and then CORRECT it: 'prévu à 14 h 52… partira vers 15 h 10' — the question usually asks for the new information. Fast numbers: build them in blocks. 77 = soixante-dix-sept (60 + 17), 95 = quatre-vingt-quinze (4×20 + 15), 81 = quatre-vingt-un (no 'et'), 71 = soixante et onze. Times are said in the 24-hour system: vingt et une heures trente = 21:30 = 9:30 p.m.",
+      "hi": "TEF श्रवण में हर रिकॉर्डिंग एक बार बजती है और पीछे नहीं जा सकते। शुरू होने से पहले के कुछ सेकंड का इस्तेमाल कीजिए: सवाल और विकल्प पढ़िए और तय कीजिए कि आप क्या सुनने का इंतज़ार कर रहे हैं — संख्या (combien, quel numéro), समय (à quelle heure), जगह (où, quelle porte), कारण (pourquoi) या बदलाव (au lieu de, ne … plus)। फिर सिर्फ़ उसी जानकारी पर ध्यान दीजिए। घोषणाएँ अक्सर पहले एक जानकारी देती हैं और फिर उसे सुधारती हैं: 'prévu à 14 h 52… partira vers 15 h 10' — सवाल आमतौर पर नई जानकारी पूछता है। तेज़ संख्याएँ टुकड़ों में जोड़िए: 77 = soixante-dix-sept (60 + 17), 95 = quatre-vingt-quinze (4×20 + 15), 81 = quatre-vingt-un ('et' नहीं), 71 = soixante et onze। समय 24 घंटे वाली प्रणाली में बोला जाता है: vingt et une heures trente = 21:30 = रात 9:30।"
+    },
+    "comparison": {
+      "en": "Hindi numbers are all unique words (सतहत्तर, पचानवे), so you are used to memorising. French 70–99 are built by calculation (60+17, 4×20+15). Don't translate digit by digit: hear 'quatre-vingt' and immediately think 80+.",
+      "hi": "हिंदी में हर संख्या का अलग शब्द है (सतहत्तर, पचानवे), इसलिए आपको याद करने की आदत है। फ़्रेंच में 70–99 हिसाब से बनते हैं (60+17, 4×20+15)। अंक-दर-अंक अनुवाद मत कीजिए: 'quatre-vingt' सुनते ही सोचिए 80 और आगे।"
+    },
+    "examples": [
+      {
+        "fr": "Le train soixante-dix-sept part de la voie quatre.",
+        "en": "Train 77 leaves from track four.",
+        "hi": "ट्रेन 77 ट्रैक चार से जाती है।",
+        "pron": "लö त्ग़ैँ स्वा-साँत-दिस-सैत पाग़ दö ला व्वा कात्ग़"
+      },
+      {
+        "fr": "Le vol quatre-vingt-quinze est à l'heure.",
+        "en": "Flight 95 is on time.",
+        "hi": "उड़ान 95 समय पर है।",
+        "pron": "लö वॉल कात्ग़-वैँ-कैँज़ ए ता लöग़"
+      },
+      {
+        "fr": "L'autobus quatre-vingt-un dessert la gare.",
+        "en": "Bus 81 serves the station.",
+        "hi": "बस 81 स्टेशन तक जाती है।",
+        "pron": "लो-तो-ब्üस कात्ग़-वैँ-ऐँ दे-सैग़ ला गाग़"
+      },
+      {
+        "fr": "L'embarquement commence à vingt et une heures trente.",
+        "en": "Boarding starts at 9:30 p.m.",
+        "hi": "बोर्डिंग रात 9:30 बजे शुरू होती है।",
+        "pron": "लाँ-बाग़-कö-माँ को-माँस आ वैँ-ते üन öग़ त्ग़ाँत"
+      },
+      {
+        "fr": "Il ne part plus à 14 h 52, mais vers 15 h 10.",
+        "en": "It no longer leaves at 2:52, but around 3:10.",
+        "hi": "अब यह 2:52 पर नहीं, बल्कि लगभग 3:10 पर चलेगी।",
+        "pron": "इल नö पाग़ प्लü आ का-तॉग़ज़ öग़ सैँ-काँत-दö मै वैग़ काँज़ öग़ दीस"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Don't stop listening when you hear the first number: the correction often comes right after ('au lieu de', 'désormais', 'ne … plus').",
+        "hi": "पहली संख्या सुनकर ध्यान मत हटाइए: सुधार अक्सर तुरंत बाद आता है ('au lieu de', 'désormais', 'ne … plus')।"
+      },
+      {
+        "en": "'Quatre-vingts' (80) has an s, but 'quatre-vingt-un' (81) does not, and there is no 'et' in 81 or 91.",
+        "hi": "'quatre-vingts' (80) में s है, पर 'quatre-vingt-un' (81) में नहीं, और 81 या 91 में 'et' नहीं आता।"
+      },
+      {
+        "en": "'Seize' (16) and 'six' (6) sound different, but 'soixante-six' (66) and 'soixante-seize' (76) are easy to confuse at speed — listen for the z sound in seize.",
+        "hi": "'seize' (16) और 'six' (6) अलग सुनाई देते हैं, पर तेज़ी में 'soixante-six' (66) और 'soixante-seize' (76) में भ्रम होता है — seize में ज़ की आवाज़ पर ध्यान दीजिए।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Fast numbers: soixante-dix-sept, quatre-vingt-quinze",
+    "tip": {
+      "en": "Say compound numbers as ONE rhythm group, with stress on the last syllable: soixante-dix-SEPT, quatre-vingt-QUINZE. The 'e' of quatre almost disappears: कात्ग़-वैँ.",
+      "hi": "जुड़ी संख्याओं को एक ही लय-समूह की तरह बोलिए, आख़िरी हिस्से पर ज़ोर देकर: soixante-dix-SEPT, quatre-vingt-QUINZE। quatre का 'e' लगभग ग़ायब हो जाता है: कात्ग़-वैँ।"
+    },
+    "words": [
+      {
+        "fr": "soixante-dix-sept",
+        "en": "77",
+        "hi": "सतहत्तर",
+        "pron": "स्वा-साँत-दिस-सैत",
+        "ipa": "swasɑ̃tdisɛt"
+      },
+      {
+        "fr": "quatre-vingt-quinze",
+        "en": "95",
+        "hi": "पचानवे",
+        "pron": "कात्ग़-वैँ-कैँज़",
+        "ipa": "katʁəvɛ̃kɛ̃z"
+      },
+      {
+        "fr": "quatre-vingt-un",
+        "en": "81",
+        "hi": "इक्यासी",
+        "pron": "कात्ग़-वैँ-ऐँ",
+        "ipa": "katʁəvɛ̃ɛ̃",
+        "note": {
+          "en": "No liaison, no 'et'.",
+          "hi": "न liaison, न 'et'।"
+        }
+      },
+      {
+        "fr": "soixante et onze",
+        "en": "71",
+        "hi": "इकहत्तर",
+        "pron": "स्वा-साँ-ते ओँज़",
+        "ipa": "swasɑ̃t‿e ɔ̃z"
+      },
+      {
+        "fr": "cinquante-sept",
+        "en": "57",
+        "hi": "सत्तावन",
+        "pron": "सैँ-काँत-सैत",
+        "ipa": "sɛ̃kɑ̃tsɛt"
+      },
+      {
+        "fr": "vingt et une heures",
+        "en": "9 p.m. (21:00)",
+        "hi": "रात 9 बजे",
+        "pron": "वैँ-ते üन öग़",
+        "ipa": "vɛ̃t‿e yn‿œʁ"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "À la gare, dans le métro, à l'aéroport",
+      "en": "At the station, in the metro, at the airport"
+    },
+    "type": "announcement",
+    "mode": "natural",
+    "context": {
+      "en": "A series of announcements and a short exchange between a traveller and a station agent. As in the TEF, imagine you hear it only once: read the questions first.",
+      "hi": "कुछ घोषणाएँ और एक यात्री व स्टेशन कर्मचारी के बीच छोटी बातचीत। TEF की तरह मान लीजिए कि आप इसे सिर्फ़ एक बार सुनेंगे: पहले सवाल पढ़िए।"
+    },
+    "lines": [
+      {
+        "speaker": "Annonce gare",
+        "voice": "f1",
+        "fr": "Mesdames et messieurs, le train numéro soixante-dix-sept à destination de Québec, prévu à quatorze heures cinquante-deux, partira avec un retard d'environ vingt minutes.",
+        "en": "Ladies and gentlemen, train number 77 bound for Québec City, scheduled for 2:52 p.m., will leave about twenty minutes late.",
+        "hi": "देवियो और सज्जनो, क्यूबेक जाने वाली ट्रेन नंबर 77, जो दोपहर 2:52 पर तय थी, लगभग बीस मिनट देरी से चलेगी।"
+      },
+      {
+        "speaker": "Annonce gare",
+        "voice": "f1",
+        "fr": "Attention : ce train partira de la voie quatre, et non de la voie deux.",
+        "en": "Please note: this train will leave from track four, not track two.",
+        "hi": "ध्यान दें: यह ट्रेन ट्रैक चार से चलेगी, ट्रैक दो से नहीं।"
+      },
+      {
+        "speaker": "Voyageur",
+        "voice": "m1",
+        "fr": "Pardon, madame, le train pour Québec, c'est bien la voie quatre maintenant ?",
+        "en": "Excuse me, madam, the train to Québec City is track four now, right?",
+        "hi": "माफ़ कीजिए मैडम, क्यूबेक वाली ट्रेन अब ट्रैक चार से ही है न?"
+      },
+      {
+        "speaker": "Agente",
+        "voice": "f2",
+        "fr": "Oui, c'est ça. Et il ne part plus à quatorze heures cinquante-deux, mais vers quinze heures dix.",
+        "en": "Yes, that's right. And it no longer leaves at 2:52, but around 3:10.",
+        "hi": "हाँ, सही है। और अब यह 2:52 पर नहीं, लगभग 3:10 पर चलेगी।"
+      },
+      {
+        "speaker": "Voyageur",
+        "voice": "m1",
+        "fr": "J'ai une correspondance à Québec pour Rivière-du-Loup. J'ai peur de la rater.",
+        "en": "I have a connection in Québec City to Rivière-du-Loup. I'm afraid of missing it.",
+        "hi": "मुझे क्यूबेक से रिवियेर-दू-लू की आगे की ट्रेन पकड़नी है। डर है कि छूट न जाए।"
+      },
+      {
+        "speaker": "Agente",
+        "voice": "f2",
+        "fr": "Ne vous inquiétez pas, aujourd'hui le train de correspondance attendra les voyageurs de ce train.",
+        "en": "Don't worry, today the connecting train will wait for passengers from this train.",
+        "hi": "चिंता मत कीजिए, आज आगे वाली ट्रेन इस ट्रेन के यात्रियों का इंतज़ार करेगी।"
+      },
+      {
+        "speaker": "Voyageur",
+        "voice": "m1",
+        "fr": "Parfait. Et pour aller au centre-ville en arrivant, il y a un autobus ?",
+        "en": "Perfect. And to get downtown when I arrive, is there a bus?",
+        "hi": "बढ़िया। और पहुँचकर शहर के बीच जाने के लिए कोई बस है?"
+      },
+      {
+        "speaker": "Agente",
+        "voice": "f2",
+        "fr": "Oui, le quatre-vingt-un. Il passe devant la gare toutes les douze minutes, jusqu'à minuit.",
+        "en": "Yes, the 81. It goes past the station every twelve minutes, until midnight.",
+        "hi": "हाँ, 81 नंबर। यह हर बारह मिनट में स्टेशन के सामने से गुज़रती है, आधी रात तक।"
+      },
+      {
+        "speaker": "Annonce métro",
+        "voice": "m2",
+        "fr": "Votre attention, s'il vous plaît. En raison d'une panne de train, le service est interrompu sur la ligne orange entre les stations Jean-Talon et Côte-Vertu.",
+        "en": "Your attention, please. Because of a train breakdown, service is interrupted on the orange line between Jean-Talon and Côte-Vertu stations.",
+        "hi": "कृपया ध्यान दें। एक ट्रेन ख़राब होने के कारण ऑरेंज लाइन पर ज़ाँ-तालोँ और कोत-वैर्तू स्टेशनों के बीच सेवा रुकी हुई है।"
+      },
+      {
+        "speaker": "Annonce métro",
+        "voice": "m2",
+        "fr": "Des navettes d'autobus sont mises à votre disposition. Le retour du service est prévu vers dix-huit heures quinze.",
+        "en": "Shuttle buses are available for you. Service is expected to resume around 6:15 p.m.",
+        "hi": "आपके लिए शटल बसें उपलब्ध हैं। सेवा लगभग शाम 6:15 बजे फिर शुरू होने की उम्मीद है।"
+      },
+      {
+        "speaker": "Annonce aéroport",
+        "voice": "narrator",
+        "fr": "Les passagers du vol quatre-vingt-quinze à destination de Delhi sont priés de se présenter à la porte cinquante-sept.",
+        "en": "Passengers on flight 95 to Delhi are asked to go to gate 57.",
+        "hi": "दिल्ली जाने वाली उड़ान 95 के यात्रियों से अनुरोध है कि वे गेट 57 पर पहुँचें।"
+      },
+      {
+        "speaker": "Annonce aéroport",
+        "voice": "narrator",
+        "fr": "L'embarquement commencera à vingt et une heures trente. Veuillez préparer votre carte d'embarquement et votre passeport.",
+        "en": "Boarding will start at 9:30 p.m. Please have your boarding pass and passport ready.",
+        "hi": "बोर्डिंग रात 9:30 बजे शुरू होगी। कृपया अपना बोर्डिंग पास और पासपोर्ट तैयार रखें।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "How late will train 77 be?"
+        },
+        "options": [
+          "It is cancelled",
+          "About 10 minutes",
+          "About 20 minutes",
+          "About 52 minutes"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Un retard d'environ vingt minutes.' 52 is part of the original time.",
+          "hi": "'un retard d'environ vingt minutes'। 52 पुराने समय का हिस्सा है।"
+        },
+        "kind": "literal",
+        "evidence": "partira avec un retard d'environ vingt minutes"
+      },
+      {
+        "q": {
+          "en": "From which track does the train leave now?"
+        },
+        "options": [
+          "Track four",
+          "Track twelve",
+          "Track seven",
+          "Track two"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'De la voie quatre, et non de la voie deux' — the new track is four.",
+          "hi": "'de la voie quatre, et non de la voie deux' — नया ट्रैक चार है।"
+        },
+        "kind": "literal",
+        "evidence": "ce train partira de la voie quatre, et non de la voie deux"
+      },
+      {
+        "q": {
+          "en": "What does the agent say about the traveller's connection?"
+        },
+        "options": [
+          "There is no connection today",
+          "He will certainly miss it",
+          "He must change his ticket",
+          "The connecting train will wait"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Le train de correspondance attendra les voyageurs de ce train.'",
+          "hi": "'le train de correspondance attendra les voyageurs de ce train' — आगे वाली ट्रेन इंतज़ार करेगी।"
+        },
+        "kind": "inference",
+        "evidence": "aujourd'hui le train de correspondance attendra les voyageurs de ce train"
+      },
+      {
+        "q": {
+          "en": "How often does bus 81 pass the station?"
+        },
+        "options": [
+          "Only until 10 p.m.",
+          "Every 12 minutes",
+          "Every 20 minutes",
+          "Every 81 minutes"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Toutes les douze minutes, jusqu'à minuit.' 81 is the bus number.",
+          "hi": "'toutes les douze minutes, jusqu'à minuit'। 81 बस का नंबर है।"
+        },
+        "kind": "literal",
+        "evidence": "Il passe devant la gare toutes les douze minutes, jusqu'à minuit."
+      },
+      {
+        "q": {
+          "en": "Why is the orange line interrupted, and what is offered?"
+        },
+        "options": [
+          "Bad weather; free tickets",
+          "A strike; taxis",
+          "A breakdown; shuttle buses",
+          "Construction work; refunds"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'En raison d'une panne de train' and 'des navettes d'autobus'.",
+          "hi": "'en raison d'une panne de train' (ट्रेन ख़राब) और 'des navettes d'autobus' (शटल बसें)।"
+        },
+        "kind": "literal",
+        "evidence": "Des navettes d'autobus sont mises à votre disposition."
+      },
+      {
+        "q": {
+          "en": "Passengers to Delhi must go to which gate, and when does boarding start?"
+        },
+        "options": [
+          "Gate 57, at 9:30 p.m.",
+          "Gate 57, at 11:30 p.m.",
+          "Gate 75, at 9 p.m.",
+          "Gate 95, at 9:30 p.m."
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "Gate 'cinquante-sept' (57); boarding 'vingt et une heures trente' (21:30). 95 is the flight number.",
+          "hi": "गेट 'cinquante-sept' (57); बोर्डिंग 'vingt et une heures trente' (21:30)। 95 उड़ान का नंबर है।"
+        },
+        "kind": "literal",
+        "evidence": "sont priés de se présenter à la porte cinquante-sept"
+      }
+    ],
+    "dictation": [
+      "Le train numéro soixante-dix-sept partira avec un retard d'environ vingt minutes.",
+      "Il passe devant la gare toutes les douze minutes.",
+      "L'embarquement commencera à vingt et une heures trente."
+    ],
+    "gapFill": {
+      "text": "Ce train partira de la voie ___, et non de la voie deux. Le service est ___ sur la ligne orange. Les passagers du vol ___ sont priés de se présenter à la porte cinquante-sept.",
+      "answers": [
+        "quatre",
+        "interrompu",
+        "quatre-vingt-quinze"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "presentation",
+    "instructions": {
+      "en": "You heard an announcement and your friend did not. Summarise it in two or three sentences: what, where, when, and what to do. Use the model if you are stuck.",
+      "hi": "आपने एक घोषणा सुनी और आपके दोस्त ने नहीं। उसे दो-तीन वाक्यों में बताइए: क्या, कहाँ, कब, और क्या करना है। अटकें तो मॉडल देखिए।"
+    },
+    "prompts": [
+      {
+        "fr": "Notre train a vingt minutes de retard.",
+        "en": "Our train is twenty minutes late.",
+        "hi": "हमारी ट्रेन बीस मिनट लेट है।",
+        "pron": "नॉत्ग़ त्ग़ैँ आ वैँ मी-न्üत दö ग़ö-ताग़",
+        "model": "Notre train a vingt minutes de retard et il part de la voie quatre, pas de la voie deux. On a le temps de prendre un café."
+      },
+      {
+        "fr": "Le métro ne fonctionne pas sur la ligne orange.",
+        "en": "The metro isn't running on the orange line.",
+        "hi": "ऑरेंज लाइन पर मेट्रो नहीं चल रही।",
+        "pron": "लö मे-त्ग़ो नö फ़ोँक-स्यॉन पा सüग़ ला लीन्य ओ-ग़ाँझ़",
+        "model": "Le métro ne fonctionne pas entre Jean-Talon et Côte-Vertu à cause d'une panne. Il y a des navettes, et ça devrait reprendre vers 18 h 15."
+      },
+      {
+        "fr": "On doit aller à la porte 57.",
+        "en": "We have to go to gate 57.",
+        "hi": "हमें गेट 57 पर जाना है।",
+        "pron": "ओँ द्वा ता-ले आ ला पॉग़्त सैँ-काँत-सैत",
+        "model": "On doit aller à la porte 57. L'embarquement commence à 21 h 30, alors prépare ton passeport."
+      },
+      {
+        "fr": "Le bus 81 passe toutes les douze minutes.",
+        "en": "Bus 81 comes every twelve minutes.",
+        "hi": "बस 81 हर बारह मिनट में आती है।",
+        "pron": "लö ब्üस कात्ग़-वैँ-ऐँ पास तूत ले दूज़ मी-न्üत",
+        "model": "Pour aller au centre-ville, on peut prendre le 81 devant la gare. Il passe toutes les douze minutes jusqu'à minuit."
+      }
+    ],
+    "tip": {
+      "en": "A good summary keeps the numbers and the change, and drops the polite formulas (Mesdames et messieurs, votre attention…).",
+      "hi": "अच्छे सार में संख्याएँ और बदलाव रहते हैं, शिष्टाचार वाले वाक्य (Mesdames et messieurs, votre attention…) हटा दिए जाते हैं।"
+    }
+  },
+  "reading": {
+    "genre": "schedule",
+    "title": "Info-voyageurs — Réseau de transport de la Rive-Nord (exemple fictif)",
+    "text": "INFO-VOYAGEURS — Semaine du 14 au 20 octobre\n\nHoraires du week-end\nLe samedi et le dimanche, les lignes 12 et 33 passent toutes les 20 minutes au lieu de toutes les 10 minutes. La ligne 81, qui dessert la gare et l'aéroport, garde son horaire habituel, 7 jours sur 7.\n\nTravaux sur le boulevard des Prairies\nDu lundi 14 au vendredi 18 octobre, de 9 h à 15 h, l'arrêt « Prairies / Laval » est déplacé de 100 mètres vers l'est, devant la pharmacie. Les autres arrêts de la ligne 33 ne changent pas.\n\nTarifs\nLe titre unitaire coûte 3,75 $. Le laissez-passer mensuel coûte 97 $ pour les adultes et 58 $ pour les étudiants à temps plein et les personnes de 65 ans et plus. Les enfants de moins de 12 ans voyagent gratuitement lorsqu'ils sont accompagnés d'un adulte. Le titre unitaire est valable 120 minutes, correspondances comprises.\n\nObjets perdus\nVous avez oublié un objet dans un autobus ? Appelez le service à la clientèle dans les 48 heures. Après 30 jours, les objets non réclamés sont donnés à des organismes de charité.\n\nAccessibilité\nTous nos autobus sont équipés d'une rampe. Les personnes à mobilité réduite peuvent réserver le transport adapté au moins 24 heures à l'avance.\n\nPour recevoir les alertes en temps réel, abonnez-vous à notre service de messages texte.",
+    "translation": {
+      "en": "TRAVELLER INFO — Week of 14 to 20 October\n\nWeekend schedules\nOn Saturdays and Sundays, lines 12 and 33 run every 20 minutes instead of every 10 minutes. Line 81, which serves the train station and the airport, keeps its usual schedule, 7 days a week.\n\nWork on Boulevard des Prairies\nFrom Monday 14 to Friday 18 October, from 9 a.m. to 3 p.m., the 'Prairies / Laval' stop is moved 100 metres east, in front of the pharmacy. The other stops on line 33 do not change.\n\nFares\nA single ticket costs $3.75. The monthly pass costs $97 for adults and $58 for full-time students and people aged 65 and over. Children under 12 travel free when accompanied by an adult. The single ticket is valid for 120 minutes, transfers included.\n\nLost and found\nDid you leave something on a bus? Call customer service within 48 hours. After 30 days, unclaimed items are given to charities.\n\nAccessibility\nAll our buses are equipped with a ramp. People with reduced mobility can book paratransit at least 24 hours in advance.\n\nTo receive real-time alerts, subscribe to our text-message service.",
+      "hi": "यात्री जानकारी — 14 से 20 अक्तूबर का हफ़्ता\n\nसप्ताहांत का समय\nशनिवार और रविवार को लाइन 12 और 33 हर 10 मिनट की बजाय हर 20 मिनट में चलती हैं। लाइन 81, जो रेलवे स्टेशन और हवाई अड्डे तक जाती है, अपने सामान्य समय पर हफ़्ते के सातों दिन चलती है।\n\nबुलवार दे प्रेरी पर काम\nसोमवार 14 से शुक्रवार 18 अक्तूबर तक, सुबह 9 से दोपहर 3 बजे तक, 'प्रेरी / लावाल' स्टॉप 100 मीटर पूर्व की ओर, फ़ार्मेसी के सामने, ले जाया गया है। लाइन 33 के बाक़ी स्टॉप नहीं बदलते।\n\nकिराया\nएक बार का टिकट 3.75 डॉलर का है। मासिक पास वयस्कों के लिए 97 डॉलर और पूर्णकालिक छात्रों तथा 65 साल या उससे ज़्यादा उम्र वालों के लिए 58 डॉलर का है। 12 साल से कम उम्र के बच्चे किसी वयस्क के साथ होने पर मुफ़्त यात्रा करते हैं। एक बार का टिकट 120 मिनट तक मान्य है, गाड़ी बदलना शामिल।\n\nखोया-पाया\nबस में कुछ भूल गए? 48 घंटों के अंदर ग्राहक सेवा को फ़ोन कीजिए। 30 दिन बाद, जिन चीज़ों पर कोई दावा नहीं करता, वे धर्मार्थ संस्थाओं को दे दी जाती हैं।\n\nसुलभता\nहमारी सभी बसों में रैंप है। चलने-फिरने में कठिनाई वाले लोग कम से कम 24 घंटे पहले विशेष परिवहन बुक कर सकते हैं।\n\nतुरंत अलर्ट पाने के लिए हमारी टेक्स्ट मैसेज सेवा की सदस्यता लीजिए।"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "On Sunday, how often does line 33 run?"
+        },
+        "options": [
+          "Every 10 minutes",
+          "Every 20 minutes",
+          "Every 12 minutes",
+          "It does not run"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Toutes les 20 minutes au lieu de toutes les 10 minutes' on weekends.",
+          "hi": "सप्ताहांत में 'toutes les 20 minutes au lieu de toutes les 10 minutes'।"
+        },
+        "kind": "literal",
+        "evidence": "les lignes 12 et 33 passent toutes les 20 minutes au lieu de toutes les 10 minutes"
+      },
+      {
+        "q": {
+          "en": "Which line can you take to the airport on a Sunday at the normal frequency?"
+        },
+        "options": [
+          "None",
+          "Line 12",
+          "Line 33",
+          "Line 81"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "Line 81 serves the airport and keeps its usual schedule 7 days a week.",
+          "hi": "लाइन 81 हवाई अड्डे तक जाती है और सातों दिन सामान्य समय पर चलती है।"
+        },
+        "kind": "inference",
+        "evidence": "La ligne 81, qui dessert la gare et l'aéroport, garde son horaire habituel, 7 jours sur 7."
+      },
+      {
+        "q": {
+          "en": "Wednesday 16 October at 11 a.m.: where do you wait for the bus at 'Prairies / Laval'?"
+        },
+        "options": [
+          "100 metres east, in front of the pharmacy",
+          "At the next stop",
+          "There is no bus during the work",
+          "At the usual place"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "From 14 to 18 October, 9 a.m. to 3 p.m., the stop is moved 100 m east.",
+          "hi": "14 से 18 अक्तूबर, सुबह 9 से दोपहर 3 बजे तक स्टॉप 100 मीटर पूर्व की ओर है।"
+        },
+        "kind": "inference",
+        "evidence": "l'arrêt « Prairies / Laval » est déplacé de 100 mètres vers l'est, devant la pharmacie"
+      },
+      {
+        "q": {
+          "en": "How much does a full-time student pay for a monthly pass?"
+        },
+        "options": [
+          "$3.75",
+          "$97",
+          "$58",
+          "Nothing"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "$58 for full-time students and people aged 65+.",
+          "hi": "पूर्णकालिक छात्रों और 65+ उम्र वालों के लिए 58 डॉलर।"
+        },
+        "kind": "literal",
+        "evidence": "58 $ pour les étudiants à temps plein"
+      },
+      {
+        "q": {
+          "en": "You buy a single ticket at 10:00. Can you change buses at 11:30 without paying again?"
+        },
+        "options": [
+          "No, the ticket is valid for one trip only",
+          "Yes, it is valid for 120 minutes including transfers",
+          "Only if you are a student",
+          "Only on weekends"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "10:00 + 120 minutes = 12:00, and transfers are included.",
+          "hi": "10:00 + 120 मिनट = 12:00, और गाड़ी बदलना शामिल है।"
+        },
+        "kind": "inference",
+        "evidence": "Le titre unitaire est valable 120 minutes, correspondances comprises."
+      },
+      {
+        "q": {
+          "en": "What happens to a lost umbrella nobody asks for after a month?"
+        },
+        "options": [
+          "It is sent to the owner",
+          "It is thrown away",
+          "It is sold",
+          "It is given to a charity"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "After 30 days, unclaimed items go to charities ('organismes de charité').",
+          "hi": "30 दिन बाद बिना दावे वाली चीज़ें धर्मार्थ संस्थाओं ('organismes de charité') को दी जाती हैं।"
+        },
+        "kind": "literal",
+        "evidence": "Après 30 jours, les objets non réclamés sont donnés à des organismes de charité."
+      }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "Write a short summary (in the third person) of the metro announcement from today's listening, for a colleague who missed it. Include the cause, the place, the solution and the time.",
+      "hi": "आज के श्रवण की मेट्रो वाली घोषणा का एक छोटा सार (अन्य पुरुष में) लिखिए, उस सहकर्मी के लिए जो इसे सुन नहीं पाया। कारण, जगह, उपाय और समय शामिल कीजिए।"
+    },
+    "minWords": 45,
+    "maxWords": 90,
+    "hints": [
+      {
+        "en": "Start with 'Selon l'annonce, …' or 'On a annoncé que …'.",
+        "hi": "'Selon l'annonce, …' या 'On a annoncé que …' से शुरू कीजिए।"
+      },
+      {
+        "en": "Use à cause de + noun for the cause and prévu for the expected time.",
+        "hi": "कारण के लिए à cause de + संज्ञा और अपेक्षित समय के लिए prévu इस्तेमाल कीजिए।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Selon l'annonce, …",
+        "en": "According to the announcement, …",
+        "hi": "घोषणा के अनुसार, …",
+        "pron": "सö-लोँ ला-नोँस"
+      },
+      {
+        "fr": "On a annoncé que…",
+        "en": "They announced that…",
+        "hi": "घोषणा की गई कि…",
+        "pron": "ओँ ना आ-नोँ-से कö"
+      },
+      {
+        "fr": "Le retour du service est prévu vers…",
+        "en": "Service is expected back around…",
+        "hi": "सेवा लगभग … बजे फिर शुरू होने की उम्मीद है",
+        "pron": "लö ग़ö-तूग़ दü सैग़-वीस ए प्रे-व्ü वैग़"
+      }
+    ],
+    "model": {
+      "fr": "Selon l'annonce entendue à 17 h, le métro ne circule plus sur la ligne orange entre les stations Jean-Talon et Côte-Vertu à cause d'une panne de train. Pour remplacer le métro, la société de transport a mis des navettes d'autobus à la disposition des voyageurs. Le retour du service est prévu vers 18 h 15. Il vaut donc mieux partir un peu plus tôt ce soir.",
+      "en": "According to the announcement heard at 5 p.m., the metro is no longer running on the orange line between Jean-Talon and Côte-Vertu stations because of a train breakdown. To replace the metro, the transit company has made shuttle buses available to travellers. Service is expected back around 6:15 p.m. So it is better to leave a little earlier this evening."
+    },
+    "checklist": [
+      {
+        "en": "Did you include cause, place, solution and time?",
+        "hi": "क्या आपने कारण, जगह, उपाय और समय शामिल किए?"
+      },
+      {
+        "en": "Did you write the times in the 24-hour format?",
+        "hi": "क्या आपने समय 24 घंटे वाले रूप में लिखा?"
+      },
+      {
+        "en": "Did you leave out the polite announcement formulas?",
+        "hi": "क्या आपने घोषणा के शिष्टाचार वाले वाक्य छोड़ दिए?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      12,
+      15,
+      29,
+      57,
+      81,
+      82
+    ],
+    "items": [
+      {
+        "fr": "soixante-dix",
+        "en": "70",
+        "hi": "सत्तर",
+        "pron": "स्वा-साँत-दीस"
+      },
+      {
+        "fr": "quatre-vingts",
+        "en": "80",
+        "hi": "अस्सी",
+        "pron": "कात्ग़-वैँ"
+      },
+      {
+        "fr": "quatre-vingt-dix",
+        "en": "90",
+        "hi": "नब्बे",
+        "pron": "कात्ग़-वैँ-दीस"
+      },
+      {
+        "fr": "Prenez la ligne verte.",
+        "en": "Take the green line.",
+        "hi": "हरी लाइन लीजिए।",
+        "pron": "प्रö-ने ला लीन्य वैग़्त"
+      },
+      {
+        "fr": "l'arrêt d'autobus",
+        "en": "the bus stop",
+        "hi": "बस स्टॉप",
+        "pron": "ला-ग़ै दो-तो-ब्üस"
+      },
+      {
+        "fr": "Il n'y a plus de métro.",
+        "en": "There is no more metro.",
+        "hi": "अब मेट्रो नहीं है।",
+        "pron": "इल नी या प्लü दö मे-त्ग़ो"
+      },
+      {
+        "fr": "fermé exceptionnellement",
+        "en": "exceptionally closed",
+        "hi": "अपवाद के तौर पर बंद",
+        "pron": "फ़ैग़-मे ऐक-सैप-स्यो-नैल-माँ"
+      },
+      {
+        "fr": "au lieu de",
+        "en": "instead of",
+        "hi": "… की बजाय",
+        "pron": "ओ ल्यö दö"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "You hear 'quatre-vingt-quinze'. Which number is it?",
+        "hi": "आप सुनते हैं 'quatre-vingt-quinze'। यह कौन-सी संख्या है?"
+      },
+      "options": [
+        "95",
+        "415",
+        "75",
+        "85"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "4 × 20 + 15 = 95.",
+        "hi": "4 × 20 + 15 = 95।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Le train en provenance de Toronto' — the train…",
+        "hi": "'Le train en provenance de Toronto' — यह ट्रेन…"
+      },
+      "options": [
+        "is cancelled in Toronto",
+        "is going to Toronto",
+        "is coming from Toronto",
+        "stops in Toronto"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "En provenance de = coming from. À destination de = going to.",
+        "hi": "en provenance de = से आने वाली। à destination de = की ओर जाने वाली।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Write 71 in letters.",
+        "hi": "71 को शब्दों में लिखिए।"
+      },
+      "sentence": "Prenez l'autobus ___.",
+      "answer": "soixante et onze",
+      "accept": [
+        "soixante-et-onze"
+      ],
+      "explanation": {
+        "en": "71 = soixante et onze (60 + 11), with 'et'.",
+        "hi": "71 = soixante et onze (60 + 11), 'et' के साथ।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Il ne part plus à 8 h, mais à 8 h 40.' When does it leave?",
+        "hi": "'Il ne part plus à 8 h, mais à 8 h 40.' यह कब चलेगी?"
+      },
+      "options": [
+        "It doesn't leave",
+        "8:00",
+        "8:40",
+        "8:00 and 8:40"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "'Ne … plus' cancels the old time; 'mais' gives the new one.",
+        "hi": "'ne … plus' पुराना समय रद्द करता है; 'mais' नया समय देता है।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "The bus comes every ten minutes.",
+        "hi": "बस हर दस मिनट में आती है।"
+      },
+      "answer": "L'autobus passe toutes les dix minutes.",
+      "accept": [
+        "Le bus passe toutes les dix minutes.",
+        "L'autobus passe toutes les 10 minutes.",
+        "Le bus passe toutes les 10 minutes."
+      ],
+      "explanation": {
+        "en": "'Toutes les + number + minutes' = every … minutes.",
+        "hi": "'toutes les + संख्या + minutes' = हर … मिनट में।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: Boarding starts at 21:30.",
+        "hi": "पूरा कीजिए: बोर्डिंग 21:30 पर शुरू होती है।"
+      },
+      "sentence": "L'___ commence à vingt et une heures trente.",
+      "answer": "embarquement",
+      "accept": [],
+      "explanation": {
+        "en": "L'embarquement = boarding (masculine).",
+        "hi": "l'embarquement = बोर्डिंग (पुल्लिंग)।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put in order: The train will leave from track four.",
+        "hi": "क्रम में रखिए: ट्रेन ट्रैक चार से चलेगी।"
+      },
+      "words": [
+        "partira",
+        "Le",
+        "de",
+        "voie",
+        "train",
+        "la",
+        "quatre",
+        "."
+      ],
+      "answer": "Le train partira de la voie quatre.",
+      "explanation": {
+        "en": "Subject + futur simple + de la voie + number.",
+        "hi": "कर्ता + futur simple + de la voie + संख्या।"
+      }
+    }
+  ]
+}

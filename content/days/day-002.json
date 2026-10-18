@@ -1,0 +1,177 @@
+{
+  "day": 2,
+  "phase": 1,
+  "title": { "fr": "L'alphabet et l'épellation de votre nom", "en": "The alphabet and spelling your name", "hi": "वर्णमाला और अपने नाम की स्पेलिंग बताना" },
+  "objective": {
+    "en": "Say the French alphabet, spell your name, your city and your email address aloud, and recognise the accents é, è, ê, à and ç.",
+    "hi": "फ़्रेंच वर्णमाला बोलना, अपना नाम, अपना शहर और अपना ईमेल पता अक्षर-अक्षर बोलकर बताना, और é, è, ê, à और ç जैसे चिह्न (accents) पहचानना।"
+  },
+  "prerequisites": {
+    "days": [1],
+    "summary": { "en": "Greetings (bonjour, merci, au revoir) and 'Je m'appelle…' from Day 1.", "hi": "पहले दिन के अभिवादन (bonjour, merci, au revoir) और 'Je m'appelle…'।" }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "l'alphabet", "en": "the alphabet", "hi": "वर्णमाला", "pron": "लाल-फ़ा-बे", "ipa": "lalfabɛ", "pos": "noun", "gender": "m", "lemma": "alphabet", "note": { "en": "The final t is silent. 'le' becomes l' before a vowel.", "hi": "आख़िरी t नहीं बोला जाता। स्वर से पहले 'le' का रूप l' हो जाता है।" } },
+    { "fr": "la lettre", "en": "letter (of the alphabet; also a letter you post)", "hi": "अक्षर / चिट्ठी", "pron": "ला लैत्ग़", "ipa": "la lɛtʁ", "pos": "noun", "gender": "f", "lemma": "lettre" },
+    { "fr": "épeler", "en": "to spell (aloud)", "hi": "स्पेलिंग बोलना / अक्षर-अक्षर बताना", "pron": "एप-ले", "ipa": "eple", "pos": "verb" },
+    { "fr": "l'accent", "en": "accent mark", "hi": "उच्चारण-चिह्न (accent)", "pron": "लाक-साँ", "ipa": "laksɑ̃", "pos": "noun", "gender": "m", "lemma": "accent" },
+    { "fr": "accent aigu", "en": "acute accent (é)", "hi": "ऊपर दाईं ओर की तिरछी लकीर (é)", "pron": "आक-साँ ते-गü", "ipa": "aksɑ̃ teɡy", "pos": "phrase", "note": { "en": "Only on e: é sounds like ए.", "hi": "सिर्फ़ e पर आता है: é की आवाज़ 'ए' जैसी है।" } },
+    { "fr": "accent grave", "en": "grave accent (è, à, ù)", "hi": "ऊपर बाईं ओर की तिरछी लकीर (è, à, ù)", "pron": "आक-साँ ग्ग़ाव", "ipa": "aksɑ̃ ɡʁav", "pos": "phrase", "note": { "en": "On e it opens the sound: è sounds like ऐ. On a and u it only changes meaning (a/à, ou/où).", "hi": "e पर यह आवाज़ खोल देता है: è 'ऐ' जैसा। a और u पर सिर्फ़ अर्थ बदलता है (a/à, ou/où)।" } },
+    { "fr": "accent circonflexe", "en": "circumflex (ê, â, ô, î, û)", "hi": "टोपी जैसा चिह्न (ê, â, ô)", "pron": "आक-साँ सिग़-कोँ-फ़्लैक्स", "ipa": "aksɑ̃ siʁkɔ̃flɛks", "pos": "phrase" },
+    { "fr": "la cédille", "en": "cedilla (ç)", "hi": "c के नीचे की छोटी पूँछ (ç)", "pron": "ला से-दीय", "ipa": "la sedij", "pos": "noun", "gender": "f", "lemma": "cédille", "note": { "en": "ç always sounds like s: français, ça.", "hi": "ç हमेशा 'स' बोला जाता है: français, ça।" } },
+    { "fr": "la majuscule", "en": "capital letter", "hi": "बड़ा अक्षर (कैपिटल)", "pron": "ला मा-झ़ü-स्कüल", "ipa": "la maʒyskyl", "pos": "noun", "gender": "f", "lemma": "majuscule" },
+    { "fr": "le courriel", "en": "email (Canadian French)", "hi": "ईमेल", "pron": "लö कू-ग़्यैल", "ipa": "lə kuʁjɛl", "pos": "noun", "gender": "m", "lemma": "courriel", "note": { "en": "Common in Québec and in official Canadian forms. In France people often say 'l'e-mail' or 'le mail'.", "hi": "क्यूबेक और कनाडा के सरकारी फ़ॉर्मों में आम है। फ़्रांस में लोग अक्सर 'l'e-mail' या 'le mail' कहते हैं।" } },
+    { "fr": "l'arobase", "en": "the @ sign", "hi": "@ का चिह्न", "pron": "ला-ग़ो-बाज़", "ipa": "laʁɔbaz", "pos": "noun", "gender": "f", "lemma": "arobase", "note": { "en": "You will hear 'arobase' for @ when people dictate email addresses.", "hi": "ईमेल पता बोलते समय @ के लिए 'arobase' सुनाई देगा।" } },
+    { "fr": "le point", "en": "dot / full stop", "hi": "बिंदु / डॉट", "pron": "लö प्वैँ", "ipa": "lə pwɛ̃", "pos": "noun", "gender": "m", "lemma": "point" },
+    { "fr": "la ville", "en": "city / town", "hi": "शहर", "pron": "ला वील", "ipa": "la vil", "pos": "noun", "gender": "f", "lemma": "ville", "note": { "en": "Trap: 'ill' in ville is said like ल, not य.", "hi": "जाल: ville में 'ill' को 'ल' बोलते हैं, 'य' नहीं।" } }
+  ],
+  "phrases": [
+    { "fr": "Comment ça s'écrit ?", "en": "How is that spelled?", "hi": "इसकी स्पेलिंग क्या है?", "pron": "को-माँ सा से-क्ग़ी", "ipa": "kɔmɑ̃ sa sekʁi" },
+    { "fr": "Pouvez-vous épeler, s'il vous plaît ?", "en": "Could you spell it, please?", "hi": "क्या आप स्पेलिंग बता सकते हैं, प्लीज़?", "pron": "पू-वे वू ज़ेप-ले सील वू प्लै", "ipa": "puve vu zeple sil vu plɛ" },
+    { "fr": "Ça s'écrit avec deux l.", "en": "It is spelled with two l's.", "hi": "इसमें दो 'l' लिखे जाते हैं।", "pron": "सा से-क्ग़ी आ-वैक दö ज़ैल", "ipa": "sa sekʁi avɛk dø zɛl", "note": { "en": "deux + elle: the x links as a z sound.", "hi": "deux + elle: x की आवाज़ 'ज़' बनकर जुड़ती है।" } },
+    { "fr": "Pardon ?", "en": "Sorry? / Pardon?", "hi": "माफ़ कीजिए, फिर से?", "pron": "पाग़-दोँ", "ipa": "paʁdɔ̃" },
+    { "fr": "Répétez, s'il vous plaît.", "en": "Please repeat.", "hi": "कृपया दोहराइए।", "pron": "ग़े-पे-ते सील वू प्लै", "ipa": "ʁepete sil vu plɛ" },
+    { "fr": "e accent aigu", "en": "e with an acute accent (é)", "hi": "e और उस पर तिरछी लकीर (é)", "pron": "ö आक-साँ ते-गü", "ipa": "ə aksɑ̃ teɡy" }
+  ],
+  "grammar": {
+    "title": { "en": "Letter names and what accents change", "hi": "अक्षरों के नाम और accents क्या बदलते हैं" },
+    "explanation": {
+      "en": "French uses the same 26 letters as English, but their names are different. The tricky ones: E is said ö, I is ई, U is ü, G is झ़े, J is झ़ी, R is ऐग़, W is 'double v' (दूब्लö-वे) and Y is 'i grec' (ई-ग्ग़ैक). Accents are part of the spelling, not decoration: é (ए) and è/ê (ऐ) change the sound of e, ç makes c sound like s, and à/ù separate words (a = has, à = to/at). When you spell, say the accent after the letter: 'e accent aigu', 'c cédille'.",
+      "hi": "फ़्रेंच में अंग्रेज़ी वाले ही 26 अक्षर हैं, पर उनके नाम अलग हैं। मुश्किल वाले: E को ö, I को ई, U को ü, G को झ़े, J को झ़ी, R को ऐग़, W को 'double v' (दूब्लö-वे) और Y को 'i grec' (ई-ग्ग़ैक) कहते हैं। Accents सजावट नहीं, स्पेलिंग का हिस्सा हैं: é (ए) और è/ê (ऐ) से e की आवाज़ बदलती है, ç से c 'स' बोला जाता है, और à/ù से शब्द अलग होते हैं (a = 'है/उसके पास है', à = 'को/में')। स्पेलिंग बोलते समय अक्षर के बाद accent बोलिए: 'e accent aigu', 'c cédille'।"
+    },
+    "comparison": {
+      "en": "English speakers say 'ee' for E and 'eye' for I; in French E is ö and I is ई — exactly where people make mistakes. Devanagari also uses marks to change sounds (मात्रा, nukta in ज़/ग़); French accents work in a similar way: é and e are as different as ए and ö.",
+      "hi": "अंग्रेज़ी में E को 'ई' और I को 'आइ' कहते हैं; फ़्रेंच में E = ö और I = ई — यहीं सबसे ज़्यादा गलती होती है। देवनागरी में भी चिह्नों से आवाज़ बदलती है (मात्राएँ, ज़/ग़ का नुक़्ता); फ़्रेंच accents भी कुछ वैसे ही हैं: é और e उतने ही अलग हैं जितने 'ए' और ö।"
+    },
+    "examples": [
+      { "fr": "Priya : P-R-I-Y-A.", "en": "Priya: P-R-I-Y-A.", "hi": "प्रिया: P-R-I-Y-A।", "pron": "प्रिया : पे ऐग़ ई ई-ग्ग़ैक आ" },
+      { "fr": "Delhi : D-E-L-H-I.", "en": "Delhi: D-E-L-H-I.", "hi": "दिल्ली: D-E-L-H-I।", "pron": "दै-ली : दे ö ऐल आश ई" },
+      { "fr": "Montréal : M-O-N-T-R-E accent aigu-A-L.", "en": "Montréal: M-O-N-T-R-É-A-L.", "hi": "मॉन्ट्रियाल: M-O-N-T-R-É-A-L।", "pron": "मोँ-ग़े-आल : ऐम ओ ऐन ते ऐग़ ö आक-साँ ते-गü आ ऐल" },
+      { "fr": "français : c cédille", "en": "français: c with a cedilla", "hi": "फ़्रेंच भाषा: c के नीचे पूँछ", "pron": "फ़्ग़ाँ-सै : से से-दीय" },
+      { "fr": "Il a vingt ans. / Il habite à Paris.", "en": "He is twenty. / He lives in Paris.", "hi": "वह बीस साल का है। / वह पेरिस में रहता है।", "pron": "ई ला वैँ ताँ / ई ला-बीत आ पा-ग़ी", "note": { "en": "a (without accent) = has; à (with accent) = in/to/at.", "hi": "a (बिना accent) = 'उसके पास है'; à (accent के साथ) = 'में/को'।" } }
+    ],
+    "pitfalls": [
+      { "en": "Don't say E as 'ee' and I as 'eye'. French E = ö, I = ई. Practise: 'e, i' = ö, ई.", "hi": "E को 'ई' और I को 'आइ' मत कहिए। फ़्रेंच में E = ö, I = ई। अभ्यास कीजिए: 'e, i' = ö, ई।" },
+      { "en": "Don't drop accents when you write. 'Prénom' without é is a spelling mistake, even on a form.", "hi": "लिखते समय accents मत छोड़िए। 'Prénom' बिना é के लिखना स्पेलिंग की गलती है, फ़ॉर्म में भी।" },
+      { "en": "G and J are swapped compared with English: G = झ़े, J = झ़ी.", "hi": "G और J अंग्रेज़ी से उल्टे लगते हैं: G = झ़े, J = झ़ी।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Letter names that trap English speakers: e, g, i, j, r, u, w, y",
+    "tip": {
+      "en": "Say each letter slowly and keep the vowel steady. For U, say ई and round your lips as for ऊ — that is ü. For E, say ए with rounded lips — that is ö. R comes from the throat, like ग़.",
+      "hi": "हर अक्षर धीरे बोलिए और स्वर स्थिर रखिए। U के लिए 'ई' बोलिए और होंठ 'ऊ' की तरह गोल कीजिए — यही ü है। E के लिए 'ए' बोलते हुए होंठ गोल कीजिए — यही ö है। R गले से आता है, ग़ की तरह।"
+    },
+    "words": [
+      { "fr": "E — le", "en": "the letter E, as in le", "hi": "अक्षर E, जैसे le में", "pron": "ö — लö", "ipa": "ə — lə", "note": { "en": "Not 'ee'.", "hi": "'ई' नहीं।" } },
+      { "fr": "I", "en": "the letter I", "hi": "अक्षर I", "pron": "ई", "ipa": "i" },
+      { "fr": "G / J", "en": "the letters G and J", "hi": "अक्षर G और J", "pron": "झ़े / झ़ी", "ipa": "ʒe / ʒi" },
+      { "fr": "R", "en": "the letter R", "hi": "अक्षर R", "pron": "ऐग़", "ipa": "ɛʁ" },
+      { "fr": "U — tu", "en": "the letter U, as in tu", "hi": "अक्षर U, जैसे tu में", "pron": "ü — तü", "ipa": "y — ty" },
+      { "fr": "W / Y", "en": "the letters W and Y", "hi": "अक्षर W और Y", "pron": "दूब्लö-वे / ई-ग्ग़ैक", "ipa": "dubləve / iɡʁɛk" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Au téléphone avec l'école", "en": "On the phone with the school" },
+    "type": "dialogue",
+    "mode": "pedagogical",
+    "context": { "en": "Arjun calls a language school in Montréal to register. The receptionist needs his name and email.", "hi": "अर्जुन रजिस्ट्रेशन के लिए मॉन्ट्रियाल के एक भाषा स्कूल में फ़ोन करता है। रिसेप्शनिस्ट को उसका नाम और ईमेल चाहिए।" },
+    "lines": [
+      { "speaker": "Réceptionniste", "voice": "f2", "fr": "École Saint-Laurent, bonjour !", "en": "Saint-Laurent School, hello!", "hi": "सां-लोरां स्कूल, नमस्ते!" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Bonjour, madame. Je m'appelle Arjun Mehta.", "en": "Hello, madam. My name is Arjun Mehta.", "hi": "नमस्ते, मैडम। मेरा नाम अर्जुन मेहता है।" },
+      { "speaker": "Réceptionniste", "voice": "f2", "fr": "Pardon ? Comment ça s'écrit ?", "en": "Sorry? How is that spelled?", "hi": "माफ़ कीजिए? इसकी स्पेलिंग क्या है?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Mehta : M-E-H-T-A.", "en": "Mehta: M-E-H-T-A.", "hi": "मेहता: M-E-H-T-A।" },
+      { "speaker": "Réceptionniste", "voice": "f2", "fr": "Merci. Et votre courriel, s'il vous plaît ?", "en": "Thank you. And your email, please?", "hi": "धन्यवाद। और आपका ईमेल, प्लीज़?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "arjun.mehta@exemple.ca : arjun, point, mehta, arobase, exemple, point, c-a.", "en": "arjun.mehta@exemple.ca: arjun, dot, mehta, at, exemple, dot, c-a.", "hi": "arjun.mehta@exemple.ca: अर्जुन, डॉट, मेहता, @, exemple, डॉट, c-a।" },
+      { "speaker": "Réceptionniste", "voice": "f2", "fr": "Parfait. Merci, monsieur Mehta. Au revoir !", "en": "Perfect. Thank you, Mr Mehta. Goodbye!", "hi": "बढ़िया। धन्यवाद, मेहता जी। फिर मिलेंगे!" }
+    ],
+    "questions": [
+      { "q": { "en": "How does Arjun spell his family name?" }, "options": ["M-E-T-H-A", "M-E-H-T-A", "M-E-H-D-A"], "answer": 1, "explanation": { "en": "He spells it letter by letter: M-E-H-T-A.", "hi": "वह अक्षर-अक्षर बताता है: M-E-H-T-A।" }, "kind": "literal", "evidence": "Mehta : M-E-H-T-A." },
+      { "q": { "en": "Why does the receptionist say 'Pardon ?'" }, "options": ["She did not catch the name", "She is saying goodbye", "She is angry"], "answer": 0, "explanation": { "en": "She says 'Pardon ?' and then asks how it is spelled — she did not understand the name.", "hi": "वह 'Pardon ?' कहकर स्पेलिंग पूछती है — उसे नाम समझ नहीं आया।" }, "kind": "inference", "evidence": "Pardon ? Comment ça s'écrit ?" },
+      { "q": { "en": "Which word means the @ sign?" }, "options": ["point", "arobase", "courriel"], "answer": 1, "explanation": { "en": "'arobase' is said for @; 'point' is the dot.", "hi": "@ के लिए 'arobase' बोला जाता है; 'point' डॉट है।" }, "kind": "vocabulary", "evidence": "mehta, arobase, exemple" },
+      { "q": { "en": "What does the receptionist ask for second?" }, "options": ["His city", "His email", "His first name"], "answer": 1, "explanation": { "en": "'Et votre courriel, s'il vous plaît ?' — courriel means email.", "hi": "'Et votre courriel, s'il vous plaît ?' — courriel का मतलब ईमेल है।" }, "kind": "literal", "evidence": "Et votre courriel, s'il vous plaît ?" }
+    ],
+    "dictation": ["Comment ça s'écrit ?", "Je m'appelle Arjun Mehta.", "Et votre courriel, s'il vous plaît ?"],
+    "gapFill": { "text": "Pardon ? Comment ça ___ ? … Et votre ___, s'il vous plaît ?", "answers": ["s'écrit", "courriel"] }
+  },
+  "speaking": {
+    "type": "pronunciation",
+    "focusSound": "letter names e, i, u, g, j, r",
+    "instructions": {
+      "en": "Say each line aloud, slowly, letter by letter. Then spell your own first name, family name and city, and record yourself.",
+      "hi": "हर पंक्ति धीरे-धीरे, अक्षर-अक्षर ज़ोर से बोलिए। फिर अपना पहला नाम, उपनाम और शहर की स्पेलिंग बोलिए और रिकॉर्ड कीजिए।"
+    },
+    "prompts": [
+      { "fr": "Je m'appelle Priya : P-R-I-Y-A.", "en": "My name is Priya: P-R-I-Y-A.", "hi": "मेरा नाम प्रिया है: P-R-I-Y-A।", "pron": "झ़ö मा-पैल प्रिया : पे ऐग़ ई ई-ग्ग़ैक आ" },
+      { "fr": "Toronto : T-O-R-O-N-T-O.", "en": "Toronto: T-O-R-O-N-T-O.", "hi": "टोरंटो: T-O-R-O-N-T-O।", "pron": "तो-ग़ोँ-तो : ते ओ ऐग़ ओ ऐन ते ओ" },
+      { "fr": "Jaipur : J-A-I-P-U-R.", "en": "Jaipur: J-A-I-P-U-R.", "hi": "जयपुर: J-A-I-P-U-R।", "pron": "जय-पुग़ : झ़ी आ ई पे ü ऐग़" },
+      { "fr": "Mon prénom, c'est … . Ça s'écrit …", "en": "My first name is … . It's spelled …", "hi": "मेरा पहला नाम … है। इसकी स्पेलिंग है …", "pron": "मोँ प्ग़े-नोँ सै … सा से-क्ग़ी …", "model": "Mon prénom, c'est Arjun. Ça s'écrit A-R-J-U-N." },
+      { "fr": "Mon courriel : priya point sharma arobase exemple point c-a.", "en": "My email: priya dot sharma at exemple dot c-a.", "hi": "मेरा ईमेल: प्रिया डॉट शर्मा @ एग्ज़ाम्पल डॉट c-a।", "pron": "मोँ कू-ग़्यैल : प्रिया प्वैँ शग़्मा आ-ग़ो-बाज़ ऐग़-ज़ाँप्ल प्वैँ से आ" }
+    ],
+    "tip": {
+      "en": "Pause slightly after each letter so the listener can write it down. Say 'deux l' or 'deux t' for double letters.",
+      "hi": "हर अक्षर के बाद थोड़ा रुकिए ताकि सुनने वाला लिख सके। दोहरे अक्षरों के लिए 'deux l' या 'deux t' कहिए।"
+    }
+  },
+  "reading": {
+    "genre": "form",
+    "title": "Formulaire d'inscription",
+    "text": "ÉCOLE SAINT-LAURENT — FORMULAIRE D'INSCRIPTION\nNom : SHARMA\nPrénom : Priya\nVille : Montréal\nCourriel : priya.sharma@exemple.ca\nCours : français, niveau débutant\nImportant : écrivez le nom en MAJUSCULES.",
+    "translation": {
+      "en": "SAINT-LAURENT SCHOOL — REGISTRATION FORM\nFamily name: SHARMA\nFirst name: Priya\nCity: Montréal\nEmail: priya.sharma@exemple.ca\nCourse: French, beginner level\nImportant: write the family name in CAPITALS.",
+      "hi": "सां-लोरां स्कूल — रजिस्ट्रेशन फ़ॉर्म\nउपनाम: शर्मा\nपहला नाम: प्रिया\nशहर: मॉन्ट्रियाल\nईमेल: priya.sharma@exemple.ca\nकोर्स: फ़्रेंच, शुरुआती स्तर\nज़रूरी: उपनाम बड़े (कैपिटल) अक्षरों में लिखिए।"
+    },
+    "questions": [
+      { "q": { "en": "What is the person's first name?" }, "options": ["Sharma", "Priya", "Laurent"], "answer": 1, "explanation": { "en": "'Prénom' is the first name: Priya.", "hi": "'Prénom' पहला नाम है: प्रिया।" }, "kind": "literal", "evidence": "Prénom : Priya" },
+      { "q": { "en": "How must you write the family name?" }, "options": ["In capital letters", "With accents", "In small letters"], "answer": 0, "explanation": { "en": "'écrivez le nom en MAJUSCULES' — write it in capitals.", "hi": "'écrivez le nom en MAJUSCULES' — बड़े अक्षरों में लिखिए।" }, "kind": "literal", "evidence": "écrivez le nom en MAJUSCULES" },
+      { "q": { "en": "Which letter in the city name carries an accent?" }, "options": ["The o", "The e", "The a"], "answer": 1, "explanation": { "en": "Montréal has é — e with an acute accent.", "hi": "Montréal में é है — e पर accent aigu।" }, "kind": "vocabulary", "evidence": "Ville : Montréal" }
+    ]
+  },
+  "writing": {
+    "type": "form",
+    "prompt": {
+      "en": "Fill in the same registration form with your own details: nom, prénom, ville, courriel. Write the family name in capitals and keep all accents.",
+      "hi": "यही रजिस्ट्रेशन फ़ॉर्म अपनी जानकारी से भरिए: nom, prénom, ville, courriel। उपनाम बड़े अक्षरों में लिखिए और सारे accents सही लगाइए।"
+    },
+    "minWords": 8,
+    "maxWords": 30,
+    "hints": [
+      { "en": "Nom = family name, Prénom = first name. Don't swap them.", "hi": "Nom = उपनाम, Prénom = पहला नाम। इन्हें उलटिए मत।" },
+      { "en": "Use the French spelling of cities when it exists: Montréal, Québec.", "hi": "शहरों की फ़्रेंच स्पेलिंग हो तो वही लिखिए: Montréal, Québec।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Nom : …", "en": "Family name: …", "hi": "उपनाम: …", "pron": "नोँ" },
+      { "fr": "Prénom : …", "en": "First name: …", "hi": "पहला नाम: …", "pron": "प्ग़े-नोँ" },
+      { "fr": "Ville : …", "en": "City: …", "hi": "शहर: …", "pron": "वील" },
+      { "fr": "Courriel : …", "en": "Email: …", "hi": "ईमेल: …", "pron": "कू-ग़्यैल" }
+    ],
+    "model": { "fr": "Nom : SINGH\nPrénom : Arjun\nVille : Québec\nCourriel : arjun.singh@exemple.ca", "en": "Family name: SINGH\nFirst name: Arjun\nCity: Québec\nEmail: arjun.singh@exemple.ca" },
+    "checklist": [
+      { "en": "Is the family name in capitals?", "hi": "क्या उपनाम बड़े अक्षरों में है?" },
+      { "en": "Did you write the é in Prénom (and in your city, if it has one)?", "hi": "क्या आपने Prénom में (और शहर में, अगर हो तो) é लगाया?" },
+      { "en": "Is your email complete, with @ and the dot?", "hi": "क्या आपका ईमेल पूरा है, @ और डॉट के साथ?" }
+    ]
+  },
+  "review": {
+    "fromDays": [1],
+    "items": [
+      { "fr": "Bonjour, madame.", "en": "Hello, madam.", "hi": "नमस्ते, मैडम।", "pron": "बोँ-झ़ूग़ मा-दाम" },
+      { "fr": "Je m'appelle …", "en": "My name is …", "hi": "मेरा नाम … है", "pron": "झ़ö मा-पैल" },
+      { "fr": "Comment vous appelez-vous ?", "en": "What is your name? (polite)", "hi": "आपका नाम क्या है?", "pron": "को-माँ वू ज़ा-प्ले वू" },
+      { "fr": "le prénom / le nom", "en": "first name / family name", "hi": "पहला नाम / उपनाम", "pron": "लö प्ग़े-नोँ / लö नोँ" },
+      { "fr": "Enchanté(e).", "en": "Nice to meet you.", "hi": "आपसे मिलकर ख़ुशी हुई।", "pron": "आँ-शाँ-ते" },
+      { "fr": "Merci beaucoup.", "en": "Thank you very much.", "hi": "बहुत-बहुत धन्यवाद।", "pron": "मैग़-सी बो-कू" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Which letter is called झ़ी in French?", "hi": "फ़्रेंच में किस अक्षर का नाम झ़ी है?" }, "options": ["G", "J", "I"], "answer": 1, "explanation": { "en": "J = झ़ी. G = झ़े, and I = ई.", "hi": "J = झ़ी। G = झ़े, और I = ई।" } },
+    { "type": "mcq", "prompt": { "en": "How does the letter E sound when you spell?", "hi": "स्पेलिंग बोलते समय अक्षर E कैसे बोलते हैं?" }, "options": ["ई (like English 'ee')", "ö (rounded lips)", "ए"], "answer": 1, "explanation": { "en": "E is ö. Saying 'ee' would sound like I.", "hi": "E = ö। 'ई' कहने पर वह I जैसा सुनाई देगा।" } },
+    { "type": "fill", "prompt": { "en": "Complete: How is that spelled?", "hi": "पूरा कीजिए: इसकी स्पेलिंग क्या है?" }, "sentence": "Comment ça ___ ?", "answer": "s'écrit", "accept": ["s’écrit"], "explanation": { "en": "'Comment ça s'écrit ?' — literally 'how does that write itself?'.", "hi": "'Comment ça s'écrit ?' — शब्दशः 'यह कैसे लिखा जाता है?'।" } },
+    { "type": "mcq", "prompt": { "en": "In an email address, what is '@' called?", "hi": "ईमेल पते में '@' को क्या कहते हैं?" }, "options": ["point", "accent", "arobase"], "answer": 2, "explanation": { "en": "@ = arobase. The dot is 'point'.", "hi": "@ = arobase। डॉट को 'point' कहते हैं।" } },
+    { "type": "mcq", "prompt": { "en": "In 'français', how is ç pronounced?", "hi": "'français' में ç कैसे बोला जाता है?" }, "options": ["like s", "like k", "like ch (श)"], "answer": 0, "explanation": { "en": "The cedilla makes c sound like s: फ़्ग़ाँ-सै.", "hi": "cédille से c की आवाज़ 'स' हो जाती है: फ़्ग़ाँ-सै।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "Please repeat.", "hi": "कृपया दोहराइए।" }, "answer": "Répétez, s'il vous plaît.", "accept": ["Répétez s'il vous plaît", "répétez, s'il vous plaît", "Répétez, s’il vous plaît."], "explanation": { "en": "'Répétez' + 's'il vous plaît' (please, polite). Note the two é.", "hi": "'Répétez' + 's'il vous plaît' (कृपया, शिष्ट)। दोनों é पर ध्यान दीजिए।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: Could you spell it, please?", "hi": "शब्दों को सही क्रम में रखिए: क्या आप स्पेलिंग बता सकते हैं, प्लीज़?" }, "words": ["épeler,", "s'il", "Pouvez-vous", "plaît", "vous", "?"], "answer": "Pouvez-vous épeler, s'il vous plaît ?", "explanation": { "en": "Pouvez-vous + épeler, then the polite ending s'il vous plaît.", "hi": "Pouvez-vous + épeler, फिर शिष्ट अंत s'il vous plaît।" } }
+  ]
+}

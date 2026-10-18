@@ -1,0 +1,897 @@
+{
+  "day": 48,
+  "phase": 3,
+  "title": {
+    "fr": "L'avenir : le futur simple",
+    "en": "The future: futur simple",
+    "hi": "भविष्य: फ़्यूतूर सैंप्ल (futur simple)"
+  },
+  "objective": {
+    "en": "Form the futur simple (regular verbs and the key irregular stems) to talk about plans, predictions and promises, and use 'si + present, future' for conditions.",
+    "hi": "फ़्यूतूर सैंप्ल (नियमित क्रियाएँ और मुख्य अनियमित मूल रूप) बनाकर योजनाओं, भविष्यवाणियों और वादों की बात करना, और शर्तों के लिए 'si + वर्तमान, भविष्य' इस्तेमाल करना।"
+  },
+  "prerequisites": {
+    "days": [
+      4,
+      5,
+      16,
+      30,
+      32,
+      37
+    ],
+    "summary": {
+      "en": "You know être, avoir, aller, faire, venir and the modals in the present (Days 4, 5, 16, 32), jobs (Day 30), and the futur proche aller + infinitive (Day 37).",
+      "hi": "आप वर्तमान काल में être, avoir, aller, faire, venir और pouvoir/vouloir/devoir (दिन 4, 5, 16, 32), पेशे (दिन 30), और futur proche यानी aller + मूल क्रिया (दिन 37) जानते हैं।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "l'avenir",
+      "en": "the future (in life)",
+      "hi": "भविष्य",
+      "pron": "लाव-नीग़",
+      "ipa": "lavniʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "avenir",
+      "note": {
+        "en": "l'avenir = what will happen in life; le futur = the grammar tense (and the future in general).",
+        "hi": "l'avenir = ज़िंदगी में आगे क्या होगा; le futur = व्याकरण का काल (और आम तौर पर भविष्य)।"
+      }
+    },
+    {
+      "fr": "l'année prochaine",
+      "en": "next year",
+      "hi": "अगले साल",
+      "pron": "ला-ने प्रो-शैन",
+      "ipa": "lane pʁɔʃɛn",
+      "pos": "phrase"
+    },
+    {
+      "fr": "dans cinq ans",
+      "en": "in five years' time",
+      "hi": "पाँच साल बाद",
+      "pron": "दाँ सैँ काँ",
+      "ipa": "dɑ̃ sɛ̃ kɑ̃",
+      "pos": "phrase",
+      "note": {
+        "en": "dans + duration = in … from now (future). Compare il y a cinq ans = five years ago.",
+        "hi": "dans + अवधि = अब से इतने समय बाद (भविष्य)। तुलना कीजिए: il y a cinq ans = पाँच साल पहले।"
+      }
+    },
+    {
+      "fr": "un jour",
+      "en": "one day, someday",
+      "hi": "एक दिन, किसी दिन",
+      "pron": "ऐँ झ़ूग़",
+      "ipa": "ɛ̃ ʒuʁ",
+      "pos": "phrase"
+    },
+    {
+      "fr": "peut-être",
+      "en": "maybe, perhaps",
+      "hi": "शायद",
+      "pron": "पö-तैत्ग़",
+      "ipa": "pøtɛtʁ",
+      "pos": "adverb"
+    },
+    {
+      "fr": "le projet",
+      "en": "the plan, the project",
+      "hi": "योजना, परियोजना",
+      "pron": "लö प्रो-झ़ै",
+      "ipa": "lə pʁɔʒɛ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "projet"
+    },
+    {
+      "fr": "la promotion",
+      "en": "the promotion (at work); a special offer",
+      "hi": "पदोन्नति, प्रमोशन; ख़ास छूट",
+      "pron": "ला प्रो-मो-स्योँ",
+      "ipa": "la pʁɔmɔsjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "promotion"
+    },
+    {
+      "fr": "la citoyenneté",
+      "en": "citizenship",
+      "hi": "नागरिकता",
+      "pron": "ला सी-त्वा-यैन-ते",
+      "ipa": "la sitwajɛnte",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "citoyenneté"
+    },
+    {
+      "fr": "construire",
+      "en": "to build",
+      "hi": "बनाना, निर्माण करना",
+      "pron": "कोँस-त्र्üईग़",
+      "ipa": "kɔ̃stʁɥiʁ",
+      "pos": "verb"
+    },
+    {
+      "fr": "le quartier",
+      "en": "the neighbourhood, the district",
+      "hi": "मोहल्ला, इलाक़ा",
+      "pron": "लö काग़-त्ये",
+      "ipa": "lə kaʁtje",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "quartier"
+    },
+    {
+      "fr": "la piste cyclable",
+      "en": "the bike lane",
+      "hi": "साइकिल लेन",
+      "pron": "ला पीस्त सी-क्लाब्ल",
+      "ipa": "la pist siklabl",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "piste"
+    },
+    {
+      "fr": "gagner",
+      "en": "to earn; to win",
+      "hi": "कमाना; जीतना",
+      "pron": "गा-न्ये",
+      "ipa": "ɡaɲe",
+      "pos": "verb"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "L'année prochaine, je passerai le TEF.",
+      "en": "Next year I will take the TEF.",
+      "hi": "अगले साल मैं TEF दूँगा/दूँगी।",
+      "pron": "ला-ने प्रो-शैन झ़ö पास-ग़े लö तेफ़",
+      "note": {
+        "en": "passer un examen = to take (sit) an exam, not to pass it. To pass = réussir.",
+        "hi": "passer un examen = परीक्षा देना, पास करना नहीं। पास करना = réussir।"
+      }
+    },
+    {
+      "fr": "Dans cinq ans, j'aurai la citoyenneté.",
+      "en": "In five years I will have citizenship.",
+      "hi": "पाँच साल बाद मेरे पास नागरिकता होगी।",
+      "pron": "दाँ सैँ काँ झ़ो-ग़े ला सी-त्वा-यैन-ते"
+    },
+    {
+      "fr": "Qu'est-ce que tu feras après tes études ?",
+      "en": "What will you do after your studies?",
+      "hi": "पढ़ाई के बाद तुम क्या करोगे?",
+      "pron": "कैस-क तü फ़ö-ग़ा आ-प्रै ते ज़े-तüद"
+    },
+    {
+      "fr": "S'il fait beau, nous irons au parc.",
+      "en": "If the weather is nice, we'll go to the park.",
+      "hi": "अगर मौसम अच्छा हुआ, तो हम पार्क जाएँगे।",
+      "pron": "सील फ़ै बो नू ज़ी-ग़ोँ ओ पाग़क"
+    },
+    {
+      "fr": "Un jour, je serai infirmière.",
+      "en": "One day I'll be a nurse.",
+      "hi": "एक दिन मैं नर्स बनूँगी।",
+      "pron": "ऐँ झ़ूग़ झ़ö स-ग़े ऐँ-फ़ीग़-म्यैग़"
+    },
+    {
+      "fr": "On verra !",
+      "en": "We'll see!",
+      "hi": "देखते हैं!",
+      "pron": "ओँ वै-ग़ा",
+      "note": {
+        "en": "voir → verr- in the future.",
+        "hi": "भविष्य में voir → verr-।"
+      }
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "The futur simple and 'si + present, future'",
+      "hi": "फ़्यूतूर सैंप्ल और 'si + वर्तमान, भविष्य'"
+    },
+    "explanation": {
+      "en": "Formation: infinitive + -ai, -as, -a, -ons, -ez, -ont (the endings look like avoir). parler → je parlerai, tu parleras, il parlera, nous parlerons, vous parlerez, ils parleront. finir → je finirai. For -re verbs, drop the final e: prendre → je prendrai, attendre → j'attendrai. Irregular stems (same endings): être → ser- (je serai), avoir → aur- (j'aurai), aller → ir- (j'irai), faire → fer- (je ferai), pouvoir → pourr- (je pourrai), venir → viendr- (je viendrai), also vouloir → voudr-, devoir → devr-, voir → verr-. Conditions: si + PRESENT, then FUTURE: S'il pleut, je resterai à la maison. Futur proche (je vais partir) is for near, decided plans and is very common in speech; futur simple is for further plans, predictions, promises and formal texts.",
+      "hi": "बनाना: मूल क्रिया (infinitive) + -ai, -as, -a, -ons, -ez, -ont (ये अंत avoir जैसे दिखते हैं)। parler → je parlerai, tu parleras, il parlera, nous parlerons, vous parlerez, ils parleront। finir → je finirai। -re वाली क्रियाओं में आख़िरी e हटाइए: prendre → je prendrai, attendre → j'attendrai। अनियमित मूल रूप (अंत वही): être → ser- (je serai), avoir → aur- (j'aurai), aller → ir- (j'irai), faire → fer- (je ferai), pouvoir → pourr- (je pourrai), venir → viendr- (je viendrai), और vouloir → voudr-, devoir → devr-, voir → verr-। शर्तें: si + वर्तमान, फिर भविष्य: S'il pleut, je resterai à la maison (अगर बारिश हुई तो मैं घर पर रहूँगा)। futur proche (je vais partir) पास की, तय योजनाओं के लिए है और बोलचाल में बहुत आम है; futur simple दूर की योजनाओं, भविष्यवाणियों, वादों और औपचारिक लेखों के लिए।"
+    },
+    "comparison": {
+      "en": "The futur simple is like the Hindi one-word future: parlerai ≈ बोलूँगा/बोलूँगी, irons ≈ जाएँगे. But French future endings don't change for gender: je serai = 'मैं होऊँगा' and 'मैं होऊँगी'. Big trap for Hindi speakers: Hindi often puts the future after 'अगर' (अगर कल बारिश होगी…). French never does: after si, use the present — S'il pleut demain (not 's'il pleuvra').",
+      "hi": "फ़्यूतूर सैंप्ल हिंदी के एक-शब्द वाले भविष्य काल जैसा है: parlerai ≈ बोलूँगा/बोलूँगी, irons ≈ जाएँगे। पर फ़्रेंच भविष्य के अंत लिंग से नहीं बदलते: je serai = 'मैं होऊँगा' भी और 'मैं होऊँगी' भी। हिंदी बोलने वालों के लिए बड़ा जाल: हिंदी में अक्सर 'अगर' के बाद भविष्य काल आता है (अगर कल बारिश होगी…)। फ़्रेंच में ऐसा कभी नहीं: si के बाद वर्तमान लगाइए — S'il pleut demain ('s'il pleuvra' नहीं)।"
+    },
+    "examples": [
+      {
+        "fr": "Je chercherai un travail à Montréal.",
+        "en": "I will look for a job in Montréal.",
+        "hi": "मैं मॉन्ट्रियाल में नौकरी ढूँढूँगा/ढूँढूँगी।",
+        "pron": "झ़ö शैग़-शö-ग़े ऐँ त्रा-वाय आ मोँ-ग़े-आल"
+      },
+      {
+        "fr": "Nous serons à Toronto en juillet.",
+        "en": "We will be in Toronto in July.",
+        "hi": "हम जुलाई में टोरंटो में होंगे।",
+        "pron": "नू स-ग़ोँ आ तो-ग़ोँ-तो आँ झ़üई-यै"
+      },
+      {
+        "fr": "Il fera froid demain.",
+        "en": "It will be cold tomorrow.",
+        "hi": "कल ठंड होगी।",
+        "pron": "ईल फ़ö-ग़ा फ़्रवा दö-मैँ"
+      },
+      {
+        "fr": "Si tu viens samedi, je ferai un biryani.",
+        "en": "If you come on Saturday, I'll make a biryani.",
+        "hi": "अगर तुम शनिवार को आओगे, तो मैं बिरयानी बनाऊँगा/बनाऊँगी।",
+        "pron": "सी तü व्यैँ साम-दी झ़ö फ़ö-ग़े ऐँ बी-ग़्या-नी"
+      },
+      {
+        "fr": "Vous pourrez parler avec le directeur.",
+        "en": "You will be able to speak with the director.",
+        "hi": "आप निदेशक से बात कर पाएँगे।",
+        "pron": "वू पू-ग़े पाग़-ले आ-वैक लö दी-ग़ैक-तöग़"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "After si, never the future: 'Si j'aurai le temps' is wrong → 'Si j'ai le temps, je viendrai'.",
+        "hi": "si के बाद कभी भविष्य नहीं: 'Si j'aurai le temps' ग़लत है → 'Si j'ai le temps, je viendrai'।"
+      },
+      {
+        "en": "The future stem always ends in r. If you can't hear an r before the ending, it's not the future: je parle (present) vs je parlerai (future).",
+        "hi": "भविष्य के मूल रूप के अंत में हमेशा r होता है। अगर अंत से पहले r सुनाई न दे, तो वह भविष्य नहीं: je parle (वर्तमान), je parlerai (भविष्य)।"
+      },
+      {
+        "en": "'Dans deux ans' = in two years (from now). Don't use 'en deux ans' here — that means 'within two years / it will take two years'.",
+        "hi": "'Dans deux ans' = (अब से) दो साल बाद। यहाँ 'en deux ans' मत लगाइए — उसका मतलब है 'दो साल के भीतर / दो साल लगेंगे'।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "/ʁ/ in future endings: parlerai, serai",
+    "tip": {
+      "en": "Every future form has an r just before the ending. Make it a soft throaty ग़, never a rolled र, and don't drop it. The e of parlerai is often swallowed: पाग़ल-ग़े. Final -ai in the future sounds ए.",
+      "hi": "भविष्य के हर रूप में अंत से ठीक पहले एक r होता है। इसे गले से निकलने वाला नरम ग़ बनाइए, घुमाया हुआ र कभी नहीं, और इसे छोड़िए मत। parlerai का e अक्सर निगल लिया जाता है: पाग़ल-ग़े। भविष्य का आख़िरी -ai ए जैसा सुनाई देता है।"
+    },
+    "words": [
+      {
+        "fr": "je parlerai",
+        "en": "I will speak",
+        "hi": "मैं बोलूँगा/बोलूँगी",
+        "pron": "झ़ö पाग़ल-ग़े",
+        "ipa": "ʒə paʁləʁe"
+      },
+      {
+        "fr": "je serai",
+        "en": "I will be",
+        "hi": "मैं होऊँगा/होऊँगी",
+        "pron": "झ़ö स-ग़े",
+        "ipa": "ʒə səʁe"
+      },
+      {
+        "fr": "j'aurai",
+        "en": "I will have",
+        "hi": "मेरे पास होगा",
+        "pron": "झ़ो-ग़े",
+        "ipa": "ʒoʁe"
+      },
+      {
+        "fr": "nous irons",
+        "en": "we will go",
+        "hi": "हम जाएँगे",
+        "pron": "नू ज़ी-ग़ोँ",
+        "ipa": "nu ziʁɔ̃"
+      },
+      {
+        "fr": "ils feront",
+        "en": "they will do/make",
+        "hi": "वे करेंगे",
+        "pron": "ईल फ़ö-ग़ोँ",
+        "ipa": "il fəʁɔ̃"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Votre avenir en direct",
+      "en": "Your future, live"
+    },
+    "type": "radio",
+    "mode": "natural",
+    "context": {
+      "en": "A light-hearted evening radio game in Gatineau: listeners call in with their plans, and 'Madame Étoile', a pretend fortune-teller, makes predictions.",
+      "hi": "गातिनो में शाम का एक मज़ेदार रेडियो खेल: श्रोता फ़ोन करके अपनी योजनाएँ बताते हैं, और 'मदाम एतुआल' नाम की एक नक़ली ज्योतिषी भविष्यवाणियाँ करती हैं।"
+    },
+    "lines": [
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Bonsoir et bienvenue à « Votre avenir en direct » ! Notre première auditrice s'appelle Deepa. Bonsoir, Deepa !",
+        "en": "Good evening and welcome to 'Your future, live'! Our first listener is called Deepa. Good evening, Deepa!",
+        "hi": "शुभ संध्या, और 'आपका भविष्य, लाइव' में स्वागत है! हमारी पहली श्रोता का नाम दीपा है। शुभ संध्या, दीपा!"
+      },
+      {
+        "speaker": "Deepa",
+        "voice": "f1",
+        "fr": "Bonsoir ! J'appelle de Gatineau.",
+        "en": "Good evening! I'm calling from Gatineau.",
+        "hi": "शुभ संध्या! मैं गातिनो से फ़ोन कर रही हूँ।"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Deepa, parlez-nous de vos projets. Qu'est-ce que vous ferez l'année prochaine ?",
+        "en": "Deepa, tell us about your plans. What will you do next year?",
+        "hi": "दीपा, हमें अपनी योजनाओं के बारे में बताइए। अगले साल आप क्या करेंगी?"
+      },
+      {
+        "speaker": "Deepa",
+        "voice": "f1",
+        "fr": "L'année prochaine, je passerai le TEF et je chercherai un travail d'infirmière.",
+        "en": "Next year I'll take the TEF and look for a nursing job.",
+        "hi": "अगले साल मैं TEF दूँगी और नर्स की नौकरी ढूँढूँगी।"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Madame Étoile, qu'est-ce que vous voyez ?",
+        "en": "Madame Étoile, what do you see?",
+        "hi": "मदाम एतुआल, आपको क्या दिख रहा है?"
+      },
+      {
+        "speaker": "Madame Étoile",
+        "voice": "f2",
+        "fr": "Hmm… Je vois un examen… Vous aurez une très bonne note à l'oral !",
+        "en": "Hmm… I see an exam… You will get a very good mark in the speaking test!",
+        "hi": "हम्म… मुझे एक परीक्षा दिख रही है… मौखिक परीक्षा में आपके बहुत अच्छे अंक आएँगे!"
+      },
+      {
+        "speaker": "Deepa",
+        "voice": "f1",
+        "fr": "C'est vrai ? Super ! Et pour le travail ?",
+        "en": "Really? Great! And for work?",
+        "hi": "सच? बढ़िया! और नौकरी का क्या?"
+      },
+      {
+        "speaker": "Madame Étoile",
+        "voice": "f2",
+        "fr": "Vous trouverez un poste dans un grand hôpital… mais au début, vous devrez travailler la nuit.",
+        "en": "You will find a position in a big hospital… but at the beginning you will have to work nights.",
+        "hi": "आपको एक बड़े अस्पताल में नौकरी मिलेगी… पर शुरुआत में आपको रात में काम करना पड़ेगा।"
+      },
+      {
+        "speaker": "Deepa",
+        "voice": "f1",
+        "fr": "Ah, ça, ce sera difficile ! Et mes parents ? Ils viendront au Canada ?",
+        "en": "Oh, that will be hard! And my parents? Will they come to Canada?",
+        "hi": "अरे, यह तो मुश्किल होगा! और मेरे माता-पिता? क्या वे कनाडा आएँगे?"
+      },
+      {
+        "speaker": "Madame Étoile",
+        "voice": "f2",
+        "fr": "Oui, ils viendront dans deux ans, en été. Il fera très beau !",
+        "en": "Yes, they will come in two years, in summer. The weather will be lovely!",
+        "hi": "हाँ, वे दो साल बाद, गर्मियों में आएँगे। मौसम बहुत सुहाना होगा!"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Et dans cinq ans, Deepa ?",
+        "en": "And in five years, Deepa?",
+        "hi": "और पाँच साल बाद, दीपा?"
+      },
+      {
+        "speaker": "Deepa",
+        "voice": "f1",
+        "fr": "Dans cinq ans, j'espère que j'aurai la citoyenneté et une petite maison avec un jardin.",
+        "en": "In five years I hope I'll have citizenship and a small house with a garden.",
+        "hi": "पाँच साल बाद, मुझे उम्मीद है कि मेरे पास नागरिकता और बग़ीचे वाला एक छोटा-सा घर होगा।"
+      },
+      {
+        "speaker": "Madame Étoile",
+        "voice": "f2",
+        "fr": "Je vois une maison… et un chien ! Si vous achetez une maison, vous aurez aussi un chien, c'est sûr !",
+        "en": "I see a house… and a dog! If you buy a house, you'll have a dog too, that's for sure!",
+        "hi": "मुझे एक घर दिख रहा है… और एक कुत्ता! अगर आप घर ख़रीदेंगी, तो कुत्ता भी ज़रूर होगा!"
+      },
+      {
+        "speaker": "Deepa",
+        "voice": "f1",
+        "fr": "Un chien ? Mon mari sera content !",
+        "en": "A dog? My husband will be happy!",
+        "hi": "कुत्ता? मेरे पति ख़ुश हो जाएँगे!"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Merci, Deepa ! C'est un jeu, bien sûr… Bonne soirée à tous !",
+        "en": "Thank you, Deepa! It's a game, of course… Good evening, everyone!",
+        "hi": "धन्यवाद, दीपा! बेशक, यह एक खेल है… सबकी शाम शुभ हो!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "What are Deepa's plans for next year?"
+        },
+        "options": [
+          "Buy a house and a dog",
+          "Work nights in a hospital",
+          "Bring her parents to Canada",
+          "Take the TEF and look for a nursing job"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'je passerai le TEF et je chercherai un travail d'infirmière'.",
+          "hi": "'je passerai le TEF et je chercherai un travail d'infirmière' (मैं TEF दूँगी और नर्स की नौकरी ढूँढूँगी)।"
+        },
+        "kind": "literal",
+        "evidence": "L'année prochaine, je passerai le TEF et je chercherai un travail d'infirmière."
+      },
+      {
+        "q": {
+          "en": "What does Deepa think will be difficult?"
+        },
+        "options": [
+          "The speaking test",
+          "Working at night",
+          "Finding a house"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "After hearing she will have to work nights, she says 'ce sera difficile'.",
+          "hi": "यह सुनकर कि उसे रात में काम करना पड़ेगा, वह कहती है 'ce sera difficile'।"
+        },
+        "kind": "inference",
+        "evidence": "Ah, ça, ce sera difficile !"
+      },
+      {
+        "q": {
+          "en": "When will her parents come, according to Madame Étoile?"
+        },
+        "options": [
+          "Next year in winter",
+          "In five years",
+          "In two years, in summer"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'dans deux ans, en été'.",
+          "hi": "'dans deux ans, en été' (दो साल बाद, गर्मियों में)।"
+        },
+        "kind": "literal",
+        "evidence": "ils viendront dans deux ans, en été"
+      },
+      {
+        "q": {
+          "en": "Which sentence is a condition (if … then …)?"
+        },
+        "options": [
+          "Vous aurez une très bonne note à l'oral !",
+          "Si vous achetez une maison, vous aurez aussi un chien",
+          "Il fera très beau !"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "si + present (achetez), then future (aurez).",
+          "hi": "si + वर्तमान (achetez), फिर भविष्य (aurez)।"
+        },
+        "kind": "grammar",
+        "evidence": "Si vous achetez une maison, vous aurez aussi un chien"
+      },
+      {
+        "q": {
+          "en": "How serious is the radio show?"
+        },
+        "options": [
+          "It's just a game for fun",
+          "It's a real fortune-teller service",
+          "It's an official TEF information programme"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "The host says at the end: 'C'est un jeu, bien sûr'.",
+          "hi": "एंकर अंत में कहता है: 'C'est un jeu, bien sûr' (बेशक, यह एक खेल है)।"
+        },
+        "kind": "gist",
+        "evidence": "C'est un jeu, bien sûr"
+      }
+    ],
+    "dictation": [
+      "Je chercherai un travail d'infirmière.",
+      "Vous aurez une très bonne note.",
+      "Ils viendront dans deux ans."
+    ],
+    "gapFill": {
+      "text": "L'année prochaine, je ___ le TEF. Vous ___ travailler la nuit. Mon mari ___ content !",
+      "answers": [
+        "passerai",
+        "devrez",
+        "sera"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "presentation",
+    "instructions": {
+      "en": "Talk about your life in five years: work, home, family, French, travel. Use the futur simple, one 'peut-être', and at least one 'si' sentence. Speak for 1–2 minutes.",
+      "hi": "पाँच साल बाद की अपनी ज़िंदगी के बारे में बोलिए: काम, घर, परिवार, फ़्रेंच, यात्राएँ। फ़्यूतूर सैंप्ल, एक बार 'peut-être', और कम से कम एक 'si' वाला वाक्य इस्तेमाल कीजिए। 1–2 मिनट बोलिए।"
+    },
+    "prompts": [
+      {
+        "fr": "Où est-ce que vous habiterez dans cinq ans ?",
+        "en": "Where will you live in five years?",
+        "hi": "पाँच साल बाद आप कहाँ रहेंगे?",
+        "pron": "ऊ ऐस-क वू ज़ा-बी-त्ग़े दाँ सैँ काँ",
+        "model": "Dans cinq ans, j'habiterai à Québec, peut-être dans le quartier Saint-Roch."
+      },
+      {
+        "fr": "Quel travail est-ce que vous ferez ?",
+        "en": "What job will you do?",
+        "hi": "आप कौन-सा काम करेंगे?",
+        "pron": "कैल त्रा-वाय ऐस-क वू फ़ö-ग़े",
+        "model": "Je serai ingénieur dans une entreprise d'énergie."
+      },
+      {
+        "fr": "Est-ce que vous parlerez bien français ?",
+        "en": "Will you speak French well?",
+        "hi": "क्या आप अच्छी फ़्रेंच बोलेंगे?",
+        "pron": "ऐस-क वू पाग़ल-ग़े ब्यैँ फ़्राँ-सै",
+        "model": "Oui, si j'étudie tous les jours, je parlerai très bien !"
+      },
+      {
+        "fr": "Qu'est-ce que votre famille fera ?",
+        "en": "What will your family do?",
+        "hi": "आपका परिवार क्या करेगा?",
+        "pron": "कैस-क वॉत्ग़ फ़ा-मीय फ़ö-ग़ा",
+        "model": "Mes enfants iront à l'école en français et ma femme aura son propre cabinet."
+      },
+      {
+        "fr": "Où est-ce que vous irez en vacances ?",
+        "en": "Where will you go on holiday?",
+        "hi": "आप छुट्टियों में कहाँ जाएँगे?",
+        "pron": "ऊ ऐस-क वू ज़ी-ग़े आँ वा-काँस",
+        "model": "Nous irons en Inde tous les deux ans pour voir nos parents."
+      }
+    ],
+    "tip": {
+      "en": "Check every 'si' sentence: the verb right after si must be in the present. Say it slowly once: 'Si j'étudie … je parlerai'.",
+      "hi": "हर 'si' वाला वाक्य जाँचिए: si के ठीक बाद वाली क्रिया वर्तमान काल में होनी चाहिए। एक बार धीरे से बोलिए: 'Si j'étudie … je parlerai'।"
+    }
+  },
+  "reading": {
+    "genre": "notice",
+    "title": "Ville de Sherbrooke — Projet « Quartier Vert 2030 »",
+    "text": "Chers citoyens,\n\nLa Ville de Sherbrooke présente son grand projet pour le quartier Nord. Les travaux commenceront au printemps prochain et finiront en 2030.\n\nVoici les changements :\n• Nous construirons une nouvelle bibliothèque, avec une salle pour les enfants et des cours de français gratuits pour les nouveaux arrivants.\n• Il y aura douze kilomètres de pistes cyclables. Les familles pourront aller à l'école et au travail à vélo, en sécurité.\n• Le vieux stationnement de la rue King deviendra un grand parc avec cinq cents arbres.\n• Un nouvel autobus passera toutes les dix minutes entre le quartier Nord et le centre-ville.\n\nPendant les travaux, certaines rues seront fermées. Nous vous informerons une semaine avant chaque fermeture.\n\nUne réunion publique aura lieu le jeudi 15 mai à 19 h, au centre communautaire. Si vous avez des questions, vous pourrez parler avec les ingénieurs du projet.\n\nEnsemble, nous aurons un quartier plus vert !",
+    "translation": {
+      "en": "Dear residents,\n\nThe City of Sherbrooke presents its big project for the North district. Work will start next spring and finish in 2030.\n\nHere are the changes:\n• We will build a new library, with a room for children and free French classes for newcomers.\n• There will be twelve kilometres of bike lanes. Families will be able to go to school and work by bike, safely.\n• The old car park on King Street will become a large park with five hundred trees.\n• A new bus will run every ten minutes between the North district and downtown.\n\nDuring the work, some streets will be closed. We will inform you one week before each closure.\n\nA public meeting will take place on Thursday 15 May at 7 p.m., at the community centre. If you have questions, you will be able to talk with the project's engineers.\n\nTogether, we will have a greener neighbourhood!",
+      "hi": "प्रिय नागरिको,\n\nशेरब्रुक नगर अपने उत्तरी इलाक़े के लिए एक बड़ी परियोजना पेश कर रहा है। काम अगले वसंत में शुरू होगा और 2030 में पूरा होगा।\n\nये बदलाव होंगे:\n• हम एक नया पुस्तकालय बनाएँगे, जिसमें बच्चों के लिए एक कमरा होगा और नए आने वालों के लिए मुफ़्त फ़्रेंच कक्षाएँ होंगी।\n• बारह किलोमीटर साइकिल लेन होंगी। परिवार सुरक्षित रूप से साइकिल से स्कूल और काम पर जा सकेंगे।\n• किंग स्ट्रीट का पुराना पार्किंग स्थल पाँच सौ पेड़ों वाला एक बड़ा पार्क बन जाएगा।\n• एक नई बस हर दस मिनट में उत्तरी इलाक़े और शहर के केंद्र के बीच चलेगी।\n\nकाम के दौरान कुछ सड़कें बंद रहेंगी। हर सड़क बंद होने से एक हफ़्ता पहले हम आपको सूचना देंगे।\n\nएक सार्वजनिक बैठक गुरुवार 15 मई को शाम 7 बजे सामुदायिक केंद्र में होगी। अगर आपके कोई प्रश्न हैं, तो आप परियोजना के इंजीनियरों से बात कर सकेंगे।\n\nमिलकर हम एक ज़्यादा हरा-भरा इलाक़ा बनाएँगे!"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "When will the work be finished?"
+        },
+        "options": [
+          "Next spring",
+          "On 15 May",
+          "In 2030",
+          "In ten years"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "The work will start next spring and finish in 2030.",
+          "hi": "काम अगले वसंत में शुरू होगा और 2030 में पूरा होगा।"
+        },
+        "kind": "literal",
+        "evidence": "Les travaux commenceront au printemps prochain et finiront en 2030."
+      },
+      {
+        "q": {
+          "en": "Who will the free French classes be for?"
+        },
+        "options": [
+          "Newcomers",
+          "Children only",
+          "The engineers"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'pour les nouveaux arrivants' = for newcomers.",
+          "hi": "'pour les nouveaux arrivants' = नए आने वालों के लिए।"
+        },
+        "kind": "literal",
+        "evidence": "des cours de français gratuits pour les nouveaux arrivants"
+      },
+      {
+        "q": {
+          "en": "What will happen to the old car park on King Street?"
+        },
+        "options": [
+          "It will become a library",
+          "It will become a park",
+          "It will get a new bus stop"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "It 'deviendra un grand parc' — devenir → deviendr- in the future.",
+          "hi": "वह 'deviendra un grand parc' (बड़ा पार्क बन जाएगा) — भविष्य में devenir → deviendr-।"
+        },
+        "kind": "literal",
+        "evidence": "Le vieux stationnement de la rue King deviendra un grand parc"
+      },
+      {
+        "q": {
+          "en": "How will residents know that their street will be closed?"
+        },
+        "options": [
+          "They will get information one week before",
+          "There will be a sign on the day",
+          "They must call the city"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "The city will inform residents one week before each closure.",
+          "hi": "नगर हर सड़क बंद होने से एक हफ़्ता पहले सूचना देगा।"
+        },
+        "kind": "literal",
+        "evidence": "Nous vous informerons une semaine avant chaque fermeture."
+      },
+      {
+        "q": {
+          "en": "Why might a resident go to the public meeting?"
+        },
+        "options": [
+          "To get a free bike",
+          "To ask the engineers questions about the project",
+          "To sign up for French classes"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "At the meeting, people with questions will be able to talk with the engineers.",
+          "hi": "बैठक में जिनके प्रश्न हैं वे इंजीनियरों से बात कर सकेंगे।"
+        },
+        "kind": "inference",
+        "evidence": "vous pourrez parler avec les ingénieurs du projet"
+      }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "Write about your plans for next year: work or studies, French, family, home, free time. Use the futur simple and at least one 'si' sentence.",
+      "hi": "अगले साल की अपनी योजनाओं के बारे में लिखिए: काम या पढ़ाई, फ़्रेंच, परिवार, घर, ख़ाली समय। फ़्यूतूर सैंप्ल और कम से कम एक 'si' वाला वाक्य इस्तेमाल कीजिए।",
+      "fr": "Quels sont vos projets pour l'année prochaine ?"
+    },
+    "minWords": 60,
+    "maxWords": 110,
+    "hints": [
+      {
+        "en": "Start with 'L'année prochaine, …'. Use at least four irregular futures: serai, aurai, irai, ferai, pourrai, viendrai.",
+        "hi": "'L'année prochaine, …' से शुरू कीजिए। कम से कम चार अनियमित भविष्य रूप लिखिए: serai, aurai, irai, ferai, pourrai, viendrai।"
+      },
+      {
+        "en": "si + present, then future: Si je réussis le TEF, je …",
+        "hi": "si + वर्तमान, फिर भविष्य: Si je réussis le TEF, je …"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "L'année prochaine, je …",
+        "en": "Next year I will …",
+        "hi": "अगले साल मैं …",
+        "pron": "ला-ने प्रो-शैन झ़ö"
+      },
+      {
+        "fr": "Si tout va bien, …",
+        "en": "If all goes well, …",
+        "hi": "अगर सब ठीक रहा, तो …",
+        "pron": "सी तू वा ब्यैँ"
+      },
+      {
+        "fr": "Je serai très content(e).",
+        "en": "I will be very happy.",
+        "hi": "मैं बहुत ख़ुश होऊँगा/होऊँगी।",
+        "pron": "झ़ö स-ग़े त्रै कोँ-ताँ (कोँ-ताँत)"
+      }
+    ],
+    "model": {
+      "fr": "L'année prochaine sera importante pour moi. En mars, je passerai le TEF. Si je réussis, je préparerai mon dossier d'immigration. Je continuerai mon travail de comptable, mais je chercherai aussi un poste au Québec. Ma sœur viendra à Pune en été et nous irons ensemble à Goa. Le week-end, je ferai du sport et je regarderai des films en français. Si tout va bien, à la fin de l'année, je pourrai parler français avec plus de confiance.",
+      "en": "Next year will be important for me. In March I will take the TEF. If I pass, I'll prepare my immigration file. I'll continue my accounting job, but I'll also look for a position in Québec. My sister will come to Pune in summer and we'll go to Goa together. At weekends I'll do sport and watch films in French. If all goes well, by the end of the year I'll be able to speak French with more confidence."
+    },
+    "checklist": [
+      {
+        "en": "Does every future verb have an r before the ending (-rai, -ras, -ra…)?",
+        "hi": "क्या भविष्य की हर क्रिया में अंत से पहले r है (-rai, -ras, -ra…)?"
+      },
+      {
+        "en": "Is the verb after si in the present?",
+        "hi": "क्या si के बाद वाली क्रिया वर्तमान में है?"
+      },
+      {
+        "en": "Did you use correct irregular stems (ser-, aur-, ir-, fer-, pourr-, viendr-)?",
+        "hi": "क्या आपने सही अनियमित मूल रूप लिखे (ser-, aur-, ir-, fer-, pourr-, viendr-)?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      30,
+      32,
+      37,
+      45,
+      46,
+      47
+    ],
+    "items": [
+      {
+        "fr": "Je vais prendre rendez-vous demain.",
+        "en": "I'm going to make an appointment tomorrow.",
+        "hi": "मैं कल अपॉइंटमेंट लेने वाला/वाली हूँ।",
+        "pron": "झ़ö वै प्राँद्ग़ ग़ाँ-दे-वू दö-मैँ"
+      },
+      {
+        "fr": "Je veux devenir ingénieure.",
+        "en": "I want to become an engineer.",
+        "hi": "मैं इंजीनियर बनना चाहती हूँ।",
+        "pron": "झ़ö वö दö-व-नीग़ ऐँ-झ़े-न्यöग़"
+      },
+      {
+        "fr": "Je dois finir ce projet.",
+        "en": "I must finish this project.",
+        "hi": "मुझे यह प्रोजेक्ट पूरा करना है।",
+        "pron": "झ़ö द्वा फ़ी-नीग़ सö प्रो-झ़ै"
+      },
+      {
+        "fr": "J'habite à Ottawa depuis un an.",
+        "en": "I've been living in Ottawa for a year.",
+        "hi": "मैं एक साल से ओटावा में रह रहा/रही हूँ।",
+        "pron": "झ़ा-बीत आ ओ-ता-वा दö-प्üई ऐँ नाँ"
+      },
+      {
+        "fr": "Quand j'étais petite, je voulais être pilote.",
+        "en": "When I was little, I wanted to be a pilot.",
+        "hi": "जब मैं छोटी थी, मैं पायलट बनना चाहती थी।",
+        "pron": "काँ झ़े-तै प्तीत झ़ö वू-लै ऐत्ग़ पी-लॉत"
+      },
+      {
+        "fr": "Tout à coup, il a commencé à neiger.",
+        "en": "All of a sudden it started to snow.",
+        "hi": "एकाएक बर्फ़ गिरनी शुरू हो गई।",
+        "pron": "तू ता कू ई-ला को-माँ-से आ नै-झ़े"
+      },
+      {
+        "fr": "Je suis arrivé(e) il y a deux ans.",
+        "en": "I arrived two years ago.",
+        "hi": "मैं दो साल पहले आया/आई।",
+        "pron": "झ़ö स्üई ज़ा-ग़ी-वे ई-लि-या दö ज़ाँ"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "What is the futur simple of 'je / être'?",
+        "hi": "'je / être' का फ़्यूतूर सैंप्ल क्या है?"
+      },
+      "options": [
+        "j'étais",
+        "je serai",
+        "je suis",
+        "je vais être été"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "être → ser- + -ai: je serai.",
+        "hi": "être → ser- + -ai: je serai।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete with aller in the futur simple.",
+        "hi": "aller के फ़्यूतूर सैंप्ल से पूरा कीजिए।"
+      },
+      "sentence": "L'été prochain, nous ___ en Inde.",
+      "answer": "irons",
+      "accept": [],
+      "explanation": {
+        "en": "aller → ir- + -ons: nous irons.",
+        "hi": "aller → ir- + -ons: nous irons।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Choose the correct sentence.",
+        "hi": "सही वाक्य चुनिए।"
+      },
+      "options": [
+        "S'il pleuvra, je resterai à la maison.",
+        "S'il pleut, je resterai à la maison.",
+        "S'il pleut, je reste à la maison demain je serai."
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "si + present, then future.",
+        "hi": "si + वर्तमान, फिर भविष्य।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete with avoir in the futur simple.",
+        "hi": "avoir के फ़्यूतूर सैंप्ल से पूरा कीजिए।"
+      },
+      "sentence": "Dans cinq ans, elle ___ sa citoyenneté.",
+      "answer": "aura",
+      "accept": [],
+      "explanation": {
+        "en": "avoir → aur- + -a: elle aura.",
+        "hi": "avoir → aur- + -a: elle aura।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "If you come, I will make tea.",
+        "hi": "अगर तुम आओगे, तो मैं चाय बनाऊँगा।"
+      },
+      "answer": "Si tu viens, je ferai du thé.",
+      "accept": [
+        "Si tu viens, je ferai un thé.",
+        "Si vous venez, je ferai du thé.",
+        "Si tu viens je ferai du thé."
+      ],
+      "explanation": {
+        "en": "si + present (viens), future (ferai). Hindi 'आओगे' becomes present in French.",
+        "hi": "si + वर्तमान (viens), भविष्य (ferai)। हिंदी का 'आओगे' फ़्रेंच में वर्तमान बन जाता है।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: One day I will be a nurse.",
+        "hi": "शब्दों को सही क्रम में रखिए: एक दिन मैं नर्स बनूँगी।"
+      },
+      "words": [
+        "serai",
+        "Un",
+        "infirmière",
+        "jour",
+        "je",
+        "."
+      ],
+      "answer": "Un jour je serai infirmière.",
+      "explanation": {
+        "en": "Time phrase, subject, future verb, job (no article after être for jobs).",
+        "hi": "समय वाला वाक्यांश, कर्ता, भविष्य की क्रिया, पेशा (être के बाद पेशे से पहले आर्टिकल नहीं)।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which form is the future?",
+        "hi": "कौन-सा रूप भविष्य काल है?"
+      },
+      "options": [
+        "je parle",
+        "je parlais",
+        "je parlerai"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The r before the ending marks the future: parlerai.",
+        "hi": "अंत से पहले वाला r भविष्य का निशान है: parlerai।"
+      }
+    }
+  ]
+}

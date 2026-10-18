@@ -1,0 +1,232 @@
+{
+  "day": 80,
+  "phase": 4,
+  "title": { "fr": "Checkpoint 4 : opinions et interaction", "en": "Checkpoint 4: opinions and interaction", "hi": "चेकपॉइंट 4: राय और बातचीत" },
+  "objective": {
+    "en": "Check everything from Phase 4 (Days 61–79): give and defend an opinion, compare, hypothesise, describe with relatives, connect ideas, persuade and answer objections, use the common subjunctive, explain causes and consequences, and tell or continue a news story.",
+    "hi": "चरण 4 (दिन 61–79) की हर चीज़ जाँचना: राय देना और उसका बचाव करना, तुलना करना, कल्पना करना, relative सर्वनामों से वर्णन करना, विचार जोड़ना, मनाना और आपत्तियों का जवाब देना, आम subjonctif इस्तेमाल करना, कारण और परिणाम समझाना, और कोई ख़बर सुनाना या आगे बढ़ाना।"
+  },
+  "prerequisites": {
+    "days": [61, 64, 65, 66, 67, 68, 69, 72, 73, 74, 75, 76, 78, 79],
+    "summary": {
+      "en": "This checkpoint covers the whole of Phase 4. Before you start, reread your notes from the review days (63, 70, 77).",
+      "hi": "यह चेकपॉइंट पूरे चरण 4 को कवर करता है। शुरू करने से पहले दोहराई वाले दिनों (63, 70, 77) के अपने नोट्स फिर से पढ़िए।"
+    }
+  },
+  "light": false,
+  "checkpoint": true,
+  "vocabulary": [
+    { "fr": "un débat", "en": "a debate", "hi": "बहस", "pron": "ऐँ दे-बा", "ipa": "ɛ̃ deba", "pos": "noun", "gender": "m", "lemma": "débat" },
+    { "fr": "un point de vue", "en": "a point of view", "hi": "नज़रिया, दृष्टिकोण", "pron": "ऐँ प्वैँ द्वü", "ipa": "ɛ̃ pwɛ̃ d vy", "pos": "noun", "gender": "m", "lemma": "point de vue" },
+    { "fr": "défendre", "en": "to defend", "hi": "बचाव करना, समर्थन करना", "pron": "दे-फ़ाँद्ग़", "ipa": "defɑ̃dʁ", "pos": "verb", "note": { "en": "défendre un point de vue = to argue for a viewpoint.", "hi": "défendre un point de vue = किसी नज़रिए का बचाव करना।" } },
+    { "fr": "nuancer", "en": "to qualify, to add nuance", "hi": "बारीकी जोड़ना", "pron": "नü-आँ-से", "ipa": "nɥɑ̃se", "pos": "verb" },
+    { "fr": "convaincant / convaincante", "en": "convincing", "hi": "विश्वसनीय, क़ायल करने वाला", "pron": "कोँ-वैँ-काँ / कोँ-वैँ-काँत", "ipa": "kɔ̃vɛ̃kɑ̃ / kɔ̃vɛ̃kɑ̃t", "pos": "adjective", "lemma": "convaincant" },
+    { "fr": "la gratuité", "en": "being free of charge", "hi": "मुफ़्त होना", "pron": "ला ग्ग़ा-तüई-ते", "ipa": "la ɡʁatɥite", "pos": "noun", "gender": "f", "lemma": "gratuité" },
+    { "fr": "à long terme", "en": "in the long term", "hi": "लंबे समय में", "pron": "आ लोँ तैग़्म", "ipa": "a lɔ̃ tɛʁm", "pos": "phrase" },
+    { "fr": "les transports en commun", "en": "public transport", "hi": "सार्वजनिक परिवहन", "pron": "ले त्ग़ाँस-पॉग़ आँ को-मैँ", "ipa": "le tʁɑ̃spɔʁ ɑ̃ kɔmɛ̃", "pos": "noun", "gender": "m", "lemma": "transport en commun" },
+    { "fr": "autrement dit", "en": "in other words", "hi": "दूसरे शब्दों में", "pron": "ओ-त्ग़ö-माँ दी", "ipa": "otʁəmɑ̃ di", "pos": "phrase" },
+    { "fr": "en somme", "en": "all in all", "hi": "कुल मिलाकर", "pron": "आँ सॉम", "ipa": "ɑ̃ sɔm", "pos": "phrase" }
+  ],
+  "phrases": [
+    { "fr": "Je ne partage pas votre point de vue.", "en": "I don't share your point of view.", "hi": "मैं आपके नज़रिए से सहमत नहीं हूँ।", "pron": "झ़ö नö पाग़-ताझ़ पा वो-त्ग़ö प्वैँ द्वü" },
+    { "fr": "Je suis d'accord sur un point.", "en": "I agree on one point.", "hi": "एक बात पर मैं सहमत हूँ।", "pron": "झ़ö स्üई दा-कॉग़ सüग़ ऐँ प्वैँ" },
+    { "fr": "Autrement dit, vous êtes contre ?", "en": "In other words, you're against it?", "hi": "दूसरे शब्दों में, आप विरोध में हैं?", "pron": "ओ-त्ग़ö-माँ दी वू ज़ै कोँत्ग़" },
+    { "fr": "Pourquoi ne pas commencer petit ?", "en": "Why not start small?", "hi": "क्यों न छोटे से शुरू करें?", "pron": "पूग़-क्वा नö पा को-माँ-से पö-ती" },
+    { "fr": "Je reste convaincue que c'est une bonne idée.", "en": "I'm still convinced it's a good idea.", "hi": "मुझे अब भी पक्का यक़ीन है कि यह अच्छा विचार है।", "pron": "झ़ö ग़ैस्त कोँ-वैँ-कü कö सै तüन बॉन ई-दे" },
+    { "fr": "À vous de juger !", "en": "You be the judge!", "hi": "फ़ैसला आप कीजिए!", "pron": "आ वू दö झ़ü-झ़े" }
+  ],
+  "grammar": {
+    "title": { "en": "Phase 4 map: the tools of opinion and interaction", "hi": "चरण 4 का नक़्शा: राय और बातचीत के औज़ार" },
+    "explanation": {
+      "en": "OPINION (61–63): À mon avis… / Je pense que + indicative / Je suis (tout à fait / plutôt) d'accord… / Je ne suis pas d'accord. COMPARE (64): plus / moins / aussi… que; je préfère A à B. POLITENESS and ADVICE (65): conditional — je voudrais, pourriez-vous, tu devrais, on pourrait. HYPOTHESIS (66): si + imparfait → conditional: Si j'avais le temps, je voyagerais. DESCRIBE (67–68): qui (subject), que (object), où (place/time), dont (de + …), ce qui / ce que. CONNECT (69): d'abord, ensuite, enfin; mais, cependant, pourtant, par contre; de plus. INTERACT (71–73): follow-up questions; tu devrais, je t'assure que, ça vaut la peine; concession: je comprends, mais… / certes… pourtant / au contraire / même si + present. STRUCTURE (74): intro → arguments + examples → nuance → conclusion; il est important de + infinitive. SUBJUNCTIVE (75–76): after il faut que, je veux que, pour que, feelings and doubt: que je sois, aie, aille, fasse. INDICATIVE after je pense que, je crois que, j'espère que. CONSEQUENCE (78): donc, alors, c'est pourquoi, par conséquent, si bien que; cause: parce que, comme, grâce à, à cause de. NEWS (79): passé composé (events) + imparfait (background); il a dit que + imparfait.",
+      "hi": "राय (61–63): À mon avis… / Je pense que + indicatif / Je suis (tout à fait / plutôt) d'accord… / Je ne suis pas d'accord। तुलना (64): plus / moins / aussi… que; je préfère A à B। शिष्टता और सलाह (65): conditionnel — je voudrais, pourriez-vous, tu devrais, on pourrait। कल्पना (66): si + imparfait → conditionnel: Si j'avais le temps, je voyagerais। वर्णन (67–68): qui (कर्ता), que (कर्म), où (जगह/समय), dont (de + …), ce qui / ce que। जोड़ना (69): d'abord, ensuite, enfin; mais, cependant, pourtant, par contre; de plus। बातचीत (71–73): आगे के सवाल; tu devrais, je t'assure que, ça vaut la peine; रियायत: je comprends, mais… / certes… pourtant / au contraire / même si + वर्तमान। ढाँचा (74): भूमिका → तर्क + उदाहरण → बारीकी → निष्कर्ष; il est important de + infinitive। subjonctif (75–76): il faut que, je veux que, pour que, भावनाओं और शंका के बाद: que je sois, aie, aille, fasse। je pense que, je crois que, j'espère que के बाद indicatif। परिणाम (78): donc, alors, c'est pourquoi, par conséquent, si bien que; कारण: parce que, comme, grâce à, à cause de। ख़बर (79): passé composé (घटनाएँ) + imparfait (पृष्ठभूमि); il a dit que + imparfait।"
+    },
+    "comparison": {
+      "en": "Many Phase 4 structures have close Hindi equivalents: 'मेरी राय में' = à mon avis, 'अगर… होता, तो…' = si + imparfait → conditional, 'माना कि…, लेकिन' = certes…, mais, 'ज़रूरी है कि वह आए' = il faut qu'il vienne (subjunctive), 'इसलिए' = donc. Use these bridges, but remember the two traps: subjunctive after feelings (Hindi uses a normal tense) and the tense shift in reported speech (Hindi keeps the original tense).",
+      "hi": "चरण 4 के कई ढाँचों के हिंदी में क़रीबी समकक्ष हैं: 'मेरी राय में' = à mon avis, 'अगर… होता, तो…' = si + imparfait → conditionnel, 'माना कि…, लेकिन' = certes…, mais, 'ज़रूरी है कि वह आए' = il faut qu'il vienne (subjonctif), 'इसलिए' = donc। इन पुलों का इस्तेमाल कीजिए, लेकिन दो जाल याद रखिए: भावनाओं के बाद subjonctif (हिंदी सामान्य काल रखती है) और अप्रत्यक्ष कथन में काल का बदलना (हिंदी मूल काल रखती है)।"
+    },
+    "examples": [
+      { "fr": "Si le métro était gratuit, je laisserais ma voiture.", "en": "If the metro were free, I'd leave my car.", "hi": "अगर मेट्रो मुफ़्त होती, तो मैं अपनी गाड़ी छोड़ देता।", "pron": "सी लö मे-त्ग़ो ए-तै ग्ग़ा-तüई झ़ö लै-सö-ग़ै मा व्वा-तüग़" },
+      { "fr": "C'est une ville où on vit bien.", "en": "It's a city where people live well.", "hi": "यह ऐसा शहर है जहाँ लोग अच्छे से रहते हैं।", "pron": "सै तüन वील ऊ ओँ वी ब्यैँ" },
+      { "fr": "Certes, c'est cher ; pourtant, c'est rentable à long terme.", "en": "Admittedly it's expensive; and yet it pays off in the long term.", "hi": "माना कि महँगा है; फिर भी लंबे समय में फ़ायदेमंद है।", "pron": "सैग़्त सै शैग़ पूग़-ताँ सै ग़ाँ-ताब्ल आ लोँ तैग़्म" },
+      { "fr": "Il faut que la ville ajoute des autobus.", "en": "The city has to add buses.", "hi": "शहर को और बसें जोड़नी होंगी।", "pron": "ईल फ़ो कö ला वील आ-झ़ूत दे ज़ो-तो-बüस" },
+      { "fr": "Je doute que la ville en ait les moyens.", "en": "I doubt the city can afford it.", "hi": "मुझे शक है कि शहर के पास इसके साधन हों।", "pron": "झ़ö दूत कö ला वील आँ नै ले म्वा-यैँ" },
+      { "fr": "Il a dit que le métro était déjà plein.", "en": "He said the metro was already full.", "hi": "उसने कहा कि मेट्रो पहले से भरी रहती थी।", "pron": "ई-ला दी कö लö मे-त्ग़ो ए-तै दे-झ़ा प्लैँ" }
+    ],
+    "pitfalls": [
+      { "en": "Si + imparfait → conditional, never si + conditional.", "hi": "si + imparfait → conditionnel, si + conditionnel कभी नहीं।" },
+      { "en": "Je pense que + indicative; je ne pense pas que / je doute que + subjunctive; j'espère que + indicative.", "hi": "je pense que + indicatif; je ne pense pas que / je doute que + subjonctif; j'espère que + indicatif।" },
+      { "en": "Même si + present or imparfait, never future or conditional.", "hi": "même si + वर्तमान या imparfait, भविष्य या conditionnel कभी नहीं।" },
+      { "en": "Grâce à = positive cause; à cause de = negative cause. Si bien que (result) ≠ pour que (purpose).", "hi": "grâce à = अच्छा कारण; à cause de = बुरा कारण। si bien que (नतीजा) ≠ pour que (उद्देश्य)।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Phase 4 sound review",
+    "tip": {
+      "en": "Review the key sounds of this phase: the emphatic stress of au CON-traire, the subjunctive forms soit [swa] and aille [aj], the ending -tion [sjɔ̃] (but question [stjɔ̃]), the ending -isme [ism] with no extra vowel, and the calm reading voice of a news story. Read each word twice: once neutral, once expressive.",
+      "hi": "इस चरण की मुख्य आवाज़ें दोहराइए: au CON-traire में ज़ोर, subjonctif के रूप soit [swa] और aille [aj], -tion का अंत [sjɔ̃] (लेकिन question [stjɔ̃]), -isme का अंत [ism] बिना अतिरिक्त स्वर के, और ख़बर पढ़ने वाली शांत आवाज़। हर शब्द दो बार पढ़िए: एक बार सामान्य, एक बार भाव के साथ।"
+    },
+    "words": [
+      { "fr": "au contraire", "en": "on the contrary", "hi": "बल्कि, इसके उलट", "pron": "ओ कोँ-त्ग़ैग़", "ipa": "o kɔ̃tʁɛʁ" },
+      { "fr": "qu'il soit", "en": "that he be", "hi": "कि वह हो", "pron": "कील स्वा", "ipa": "kil swa" },
+      { "fr": "que j'aille", "en": "that I go", "hi": "कि मैं जाऊँ", "pron": "कö झ़ाय", "ipa": "kə ʒaj" },
+      { "fr": "la pollution", "en": "pollution", "hi": "प्रदूषण", "pron": "ला पो-लü-स्योँ", "ipa": "la pɔlysjɔ̃" },
+      { "fr": "le tourisme", "en": "tourism", "hi": "पर्यटन", "pron": "लö तू-ग़ीस्म", "ipa": "lə tuʁism" },
+      { "fr": "cependant", "en": "however", "hi": "हालाँकि", "pron": "सö-पाँ-दाँ", "ipa": "səpɑ̃dɑ̃" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Débat : des transports en commun gratuits ?", "en": "Debate: free public transport?" },
+    "type": "radio",
+    "mode": "natural",
+    "context": {
+      "en": "A radio debate in Montréal. Host Julie asks two guests about a proposal to make public transport free: Priya Sharma, who takes the metro every day, and Marc Tremblay, a city councillor. Listen for opinions, arguments, objections and the final partial agreement.",
+      "hi": "मॉन्ट्रियाल में एक रेडियो बहस। होस्ट जूली दो मेहमानों से सार्वजनिक परिवहन मुफ़्त करने के प्रस्ताव पर बात करती हैं: प्रिया शर्मा, जो रोज़ मेट्रो लेती हैं, और मार्क ट्रेम्ब्ले, एक नगर पार्षद। राय, तर्क, आपत्तियाँ और आख़िर में आंशिक सहमति पर ध्यान दीजिए।"
+    },
+    "lines": [
+      { "speaker": "Julie", "voice": "f2", "fr": "Bonsoir. Ce soir, nous débattons d'une proposition qui fait beaucoup parler : rendre les transports en commun gratuits à Montréal. Avec nous, Priya Sharma, qui prend le métro tous les jours, et Marc Tremblay, conseiller municipal. Priya, vous êtes pour ?", "en": "Good evening. Tonight we're debating a proposal that's getting a lot of attention: making public transport free in Montréal. With us are Priya Sharma, who takes the metro every day, and Marc Tremblay, a city councillor. Priya, you're in favour?", "hi": "नमस्कार। आज शाम हम एक ऐसे प्रस्ताव पर बहस कर रहे हैं जिसकी बहुत चर्चा है: मॉन्ट्रियाल में सार्वजनिक परिवहन मुफ़्त करना। हमारे साथ हैं प्रिया शर्मा, जो रोज़ मेट्रो लेती हैं, और नगर पार्षद मार्क ट्रेम्ब्ले। प्रिया, आप पक्ष में हैं?" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Tout à fait. À mon avis, c'est la meilleure façon de réduire la pollution. Si le métro était gratuit, beaucoup de gens laisseraient leur voiture à la maison.", "en": "Absolutely. In my opinion, it's the best way to reduce pollution. If the metro were free, many people would leave their car at home.", "hi": "बिल्कुल। मेरी राय में प्रदूषण कम करने का यह सबसे अच्छा तरीक़ा है। अगर मेट्रो मुफ़्त होती, तो बहुत से लोग अपनी गाड़ी घर पर छोड़ देते।" },
+      { "speaker": "Marc", "voice": "m2", "fr": "Je comprends l'idée, mais je ne pense pas que ce soit réaliste. Le réseau coûte très cher. Qui va payer ?", "en": "I understand the idea, but I don't think it's realistic. The network is very expensive. Who's going to pay?", "hi": "मैं विचार समझता हूँ, लेकिन मुझे नहीं लगता कि यह व्यावहारिक है। यह नेटवर्क बहुत महँगा है। पैसे कौन देगा?" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Certes, ça coûte cher. Pourtant, les embouteillages coûtent cher aussi : du temps perdu, de l'essence, des problèmes de santé.", "en": "Admittedly, it's expensive. And yet traffic jams are expensive too: lost time, petrol, health problems.", "hi": "माना कि यह महँगा है। फिर भी ट्रैफ़िक जाम भी महँगे पड़ते हैं: बर्बाद समय, पेट्रोल, सेहत की समस्याएँ।" },
+      { "speaker": "Julie", "voice": "f2", "fr": "Marc, pour quelles raisons êtes-vous contre, exactement ?", "en": "Marc, why exactly are you against it?", "hi": "मार्क, आप ठीक-ठीक किन कारणों से विरोध में हैं?" },
+      { "speaker": "Marc", "voice": "m2", "fr": "D'abord, l'argent. La ville devrait augmenter les taxes, si bien que les familles paieraient de toute façon. Ensuite, le métro est déjà plein à l'heure de pointe.", "en": "First, money. The city would have to raise taxes, so families would pay anyway. Next, the metro is already full at rush hour.", "hi": "पहले, पैसा। शहर को कर बढ़ाने पड़ेंगे, जिससे परिवार वैसे भी पैसे देंगे। फिर, भीड़ के समय मेट्रो पहले से ही भरी रहती है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Justement, il faut que la ville ajoute des trains et des autobus. La gratuité et la qualité vont ensemble.", "en": "Exactly, the city has to add trains and buses. Being free and good quality go together.", "hi": "इसीलिए तो शहर को और ट्रेनें और बसें जोड़नी होंगी। मुफ़्त सेवा और अच्छी गुणवत्ता साथ-साथ चलती हैं।" },
+      { "speaker": "Marc", "voice": "m2", "fr": "Je suis d'accord sur un point : il faut améliorer le service. C'est pourquoi je préfère investir dans de nouvelles lignes plutôt que dans la gratuité.", "en": "I agree on one point: the service must be improved. That's why I'd rather invest in new lines than in free fares.", "hi": "एक बात पर मैं सहमत हूँ: सेवा बेहतर करनी होगी। इसीलिए मैं मुफ़्त सेवा के बजाय नई लाइनों में निवेश करना पसंद करूँगा।" },
+      { "speaker": "Julie", "voice": "f2", "fr": "Il existe pourtant des villes où les transports sont gratuits.", "en": "And yet there are cities where transport is free.", "hi": "फिर भी ऐसे शहर हैं जहाँ परिवहन मुफ़्त है।" },
+      { "speaker": "Marc", "voice": "m2", "fr": "Oui, mais ce sont souvent des villes plus petites, dont le réseau est simple.", "en": "Yes, but they are often smaller cities whose network is simple.", "hi": "हाँ, लेकिन वे अक्सर छोटे शहर होते हैं, जिनका नेटवर्क सरल होता है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Alors, pourquoi ne pas commencer petit ? Par exemple, la gratuité pour les étudiants et les personnes âgées.", "en": "So why not start small? For example, free transport for students and senior citizens.", "hi": "तो क्यों न छोटे से शुरू करें? उदाहरण के लिए, विद्यार्थियों और बुज़ुर्गों के लिए मुफ़्त सेवा।" },
+      { "speaker": "Marc", "voice": "m2", "fr": "Ça, c'est une proposition que je peux accepter. Je suis content que vous parliez de compromis.", "en": "Now that's a proposal I can accept. I'm glad you're talking about a compromise.", "hi": "यह ऐसा प्रस्ताव है जिसे मैं मान सकता हूँ। मुझे ख़ुशी है कि आप समझौते की बात कर रही हैं।" },
+      { "speaker": "Julie", "voice": "f2", "fr": "Donc, vous êtes d'accord sur quelque chose ?", "en": "So you agree on something?", "hi": "तो आप किसी बात पर सहमत हैं?" },
+      { "speaker": "Marc", "voice": "m2", "fr": "En partie. Une gratuité ciblée, oui. Une gratuité totale, je doute que la ville en ait les moyens.", "en": "Partly. Targeted free fares, yes. Completely free transport, I doubt the city can afford it.", "hi": "आंशिक रूप से। कुछ लोगों के लिए मुफ़्त सेवा, हाँ। पूरी तरह मुफ़्त सेवा, मुझे शक है कि शहर के पास इसके साधन हों।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Et moi, je reste convaincue qu'à long terme, la gratuité totale serait rentable.", "en": "And I'm still convinced that in the long term, completely free transport would pay off.", "hi": "और मुझे अब भी पक्का यक़ीन है कि लंबे समय में पूरी तरह मुफ़्त सेवा फ़ायदेमंद होगी।" },
+      { "speaker": "Julie", "voice": "f2", "fr": "Merci à vous deux pour ce débat. À vous de juger, chers auditeurs !", "en": "Thank you both for this debate. You be the judge, dear listeners!", "hi": "इस बहस के लिए आप दोनों का धन्यवाद। प्रिय श्रोताओ, फ़ैसला आप कीजिए!" }
+    ],
+    "questions": [
+      { "q": { "en": "What is Priya's main reason for free public transport?" }, "options": ["To save her own money", "To reduce pollution", "To help tourists", "To create jobs"], "answer": 1, "explanation": { "en": "She says it's the best way to reduce pollution.", "hi": "वह कहती हैं कि यह प्रदूषण कम करने का सबसे अच्छा तरीक़ा है।" }, "kind": "literal", "evidence": "c'est la meilleure façon de réduire la pollution" },
+      { "q": { "en": "What is Marc's first objection?" }, "options": ["The cost of the network", "The safety of the metro", "The noise of buses", "The lack of drivers"], "answer": 0, "explanation": { "en": "The network is very expensive: who will pay?", "hi": "नेटवर्क बहुत महँगा है: पैसे कौन देगा?" }, "kind": "literal", "evidence": "Le réseau coûte très cher." },
+      { "q": { "en": "How does Priya answer the cost objection?" }, "options": ["She says the metro is cheap.", "She proposes higher ticket prices.", "She says traffic jams also have a cost.", "She says taxes are already high."], "answer": 2, "explanation": { "en": "She recognises the cost, then says traffic jams are costly too (time, petrol, health).", "hi": "वह लागत मानती हैं, फिर कहती हैं कि ट्रैफ़िक जाम भी महँगे हैं (समय, पेट्रोल, सेहत)।" }, "kind": "inference", "evidence": "les embouteillages coûtent cher aussi" },
+      { "q": { "en": "What does Marc prefer to invest in?" }, "options": ["Free fares for everyone", "More parking spaces", "Cheaper petrol", "New metro or bus lines"], "answer": 3, "explanation": { "en": "He prefers to invest in new lines rather than in free fares.", "hi": "वह मुफ़्त सेवा के बजाय नई लाइनों में निवेश करना पसंद करते हैं।" }, "kind": "literal", "evidence": "je préfère investir dans de nouvelles lignes plutôt que dans la gratuité" },
+      { "q": { "en": "What compromise does Priya suggest?" }, "options": ["Free transport only on weekends", "Free transport for students and senior citizens", "Half-price tickets for everyone", "Free transport only in summer"], "answer": 1, "explanation": { "en": "Start small: free for students and older people.", "hi": "छोटे से शुरू करें: विद्यार्थियों और बुज़ुर्गों के लिए मुफ़्त।" }, "kind": "literal", "evidence": "la gratuité pour les étudiants et les personnes âgées" },
+      { "q": { "en": "How does the debate end?" }, "options": ["Marc completely changes his mind.", "Priya gives up her idea.", "They partly agree but still disagree on completely free transport.", "They agree on everything."], "answer": 2, "explanation": { "en": "Marc accepts targeted free fares but doubts the city can afford total free transport; Priya stays convinced.", "hi": "मार्क कुछ लोगों के लिए मुफ़्त सेवा मानते हैं लेकिन पूरी मुफ़्त सेवा पर शक करते हैं; प्रिया अपनी बात पर क़ायम हैं।" }, "kind": "inference", "evidence": "je doute que la ville en ait les moyens" }
+    ],
+    "dictation": [
+      "Si le métro était gratuit, beaucoup de gens laisseraient leur voiture.",
+      "Je ne pense pas que ce soit réaliste.",
+      "Il faut que la ville ajoute des trains et des autobus."
+    ],
+    "gapFill": {
+      "text": "___, ça coûte cher. ___, les embouteillages coûtent cher aussi. La ville devrait augmenter les taxes, si ___ que les familles paieraient de toute façon.",
+      "answers": ["Certes", "Pourtant", "bien"]
+    }
+  },
+  "speaking": {
+    "type": "tef_b",
+    "instructions": {
+      "en": "The city plans to close your neighbourhood's main shopping street to cars every weekend in summer. You are in favour. Argue your viewpoint for about three minutes with a friend who owns a shop on that street and disagrees. Present the project, give structured arguments with examples, answer each objection, and try to reach a compromise. Use tu.",
+      "hi": "शहर हर गर्मियों के सप्ताहांत में आपके मोहल्ले की मुख्य बाज़ार वाली सड़क को गाड़ियों के लिए बंद करने की योजना बना रहा है। आप पक्ष में हैं। लगभग तीन मिनट तक एक दोस्त के साथ अपने नज़रिए का बचाव कीजिए, जिसकी उसी सड़क पर दुकान है और जो असहमत है। परियोजना बताइए, उदाहरणों के साथ ढाँचे वाले तर्क दीजिए, हर आपत्ति का जवाब दीजिए, और समझौते तक पहुँचने की कोशिश कीजिए। tu इस्तेमाल कीजिए।"
+    },
+    "prompts": [
+      { "fr": "« Sans voitures, mes clients ne viendront plus. »", "en": "'Without cars, my customers won't come any more.'", "hi": "'गाड़ियों के बिना मेरे ग्राहक आना बंद कर देंगे।'", "pron": "साँ व्वा-तüग़ मे क्ली-याँ नö व्यैँ-द्ग़ोँ प्लü", "model": "Je comprends ta crainte, mais la plupart de tes clients viennent à pied ou en métro. Au contraire, s'il y avait plus de piétons, ils s'arrêteraient plus souvent devant ta vitrine." },
+      { "fr": "« Où est-ce que les gens vont se garer ? »", "en": "'Where are people going to park?'", "hi": "'लोग गाड़ी कहाँ खड़ी करेंगे?'", "pron": "ऊ ऐस-कö ले झ़ाँ वोँ सö गा-ग़े", "model": "Il y a un grand stationnement à deux rues, près de la station de métro. C'est pourquoi la ville propose aussi des navettes gratuites le samedi." },
+      { "fr": "« Les livraisons seront impossibles. »", "en": "'Deliveries will be impossible.'", "hi": "'सामान की डिलीवरी असंभव हो जाएगी।'", "pron": "ले ली-व्ग़ै-ज़ोँ सö-ग़ोँ ज़ैँ-पो-सीब्ल", "model": "Certes, c'est un vrai problème. Pourtant, les livraisons pourraient se faire le matin, avant dix heures. Il faut que la ville fixe des horaires clairs." },
+      { "fr": "« Ça va faire beaucoup de bruit, avec les festivals. »", "en": "'It's going to be noisy, with the festivals.'", "hi": "'त्योहारों के साथ इससे बहुत शोर होगा।'", "pron": "सा वा फ़ैग़ बो-कू दö ब्ग़üइ आ-वैक ले फ़ैस-ती-वाल", "model": "Même s'il y a quelques concerts, ce sera moins bruyant que les voitures et les klaxons. Et les spectacles s'arrêtent à vingt-deux heures." },
+      { "fr": "« Je doute que ça marche. »", "en": "'I doubt it'll work.'", "hi": "'मुझे शक है कि यह चलेगा।'", "pron": "झ़ö दूत कö सा माग़्श", "model": "Je comprends que tu aies des doutes. Dans d'autres quartiers de Montréal, les rues piétonnes ont attiré plus de monde, si bien que les commerces ont vendu plus." },
+      { "fr": "« Bon, et si on essayait seulement un mois ? »", "en": "'OK, and what if we only tried it for a month?'", "hi": "'अच्छा, और अगर हम सिर्फ़ एक महीने के लिए आज़माएँ तो?'", "pron": "बोँ ए सी ओँ ने-से-यै सöल-माँ ऐँ म्वा", "model": "C'est un très bon compromis ! On essaie en juillet, et en août on fait le bilan avec les commerçants. Je suis contente que tu sois d'accord pour essayer." }
+    ],
+    "tip": {
+      "en": "Three minutes = intro (20 s) + two arguments with examples (1 min) + objections (1 min 20) + conclusion and compromise (20 s). Recycle the phase's best tools: one si + imparfait, one certes… pourtant, one il faut que, one c'est pourquoi. Listen to every objection: the TEF rewards interaction, not a monologue.",
+      "hi": "तीन मिनट = भूमिका (20 सेकंड) + उदाहरणों के साथ दो तर्क (1 मिनट) + आपत्तियाँ (1 मिनट 20 सेकंड) + निष्कर्ष और समझौता (20 सेकंड)। इस चरण के सबसे अच्छे औज़ार दोबारा इस्तेमाल कीजिए: एक si + imparfait, एक certes… pourtant, एक il faut que, एक c'est pourquoi। हर आपत्ति सुनिए: TEF बातचीत को अंक देता है, एकालाप को नहीं।"
+    },
+    "scenario": {
+      "setting": { "en": "In your friend's shop on a quiet weekday afternoon.", "hi": "हफ़्ते के किसी शांत दोपहर में आपके दोस्त की दुकान में।" },
+      "learnerRole": { "en": "A resident who supports closing the shopping street to cars on summer weekends.", "hi": "एक निवासी जो गर्मियों के सप्ताहांत में बाज़ार की सड़क गाड़ियों के लिए बंद करने का समर्थन करता है।" },
+      "partnerRole": { "en": "A friend who owns a small shop on the street and is worried. They disagree firmly at first (customers, parking, deliveries, noise, doubts), ask for concrete facts, and accept only a trial period at the end if the arguments are convincing.", "hi": "एक दोस्त जिसकी उस सड़क पर छोटी दुकान है और जो चिंतित है। पहले वह पक्के तौर पर असहमत होता है (ग्राहक, पार्किंग, डिलीवरी, शोर, शंकाएँ), ठोस तथ्य माँगता है, और अगर तर्क क़ायल करने वाले हों तो आख़िर में सिर्फ़ एक आज़माइशी अवधि मानता है।" },
+      "goals": [
+        { "en": "Present the project clearly and give your position in the first 20 seconds.", "hi": "पहले 20 सेकंड में परियोजना साफ़ बताइए और अपनी राय दीजिए।" },
+        { "en": "Give at least two arguments, each with an example.", "hi": "कम से कम दो तर्क दीजिए, हर एक के साथ उदाहरण।" },
+        { "en": "Recognise every objection before answering it, with varied structures.", "hi": "हर आपत्ति का जवाब देने से पहले उसे मानिए, अलग-अलग ढाँचों के साथ।" },
+        { "en": "Use the subjunctive, a hypothesis (si + imparfait) and a consequence connector at least once each.", "hi": "subjonctif, एक कल्पना (si + imparfait) और एक परिणाम-योजक, हर एक कम से कम एक बार इस्तेमाल कीजिए।" },
+        { "en": "End with a compromise.", "hi": "समझौते के साथ अंत कीजिए।" }
+      ]
+    }
+  },
+  "reading": {
+    "genre": "opinion",
+    "title": "Apprendre le français au Canada : un investissement, pas une obligation",
+    "text": "Chaque année, des milliers de nouveaux arrivants s'installent au Canada. Beaucoup choisissent Toronto ou Vancouver et pensent que l'anglais suffit. À mon avis, c'est une erreur : apprendre le français est l'un des meilleurs investissements qu'on peut faire.\n\nTout d'abord, le français ouvre des portes sur le marché du travail. De nombreux postes, surtout dans la fonction publique fédérale, demandent les deux langues officielles. Par exemple, mon cousin Dev, qui travaille à Ottawa, a obtenu une promotion quand il a réussi son examen de français.\n\nEnsuite, parler français permet de découvrir une autre partie du pays. On peut travailler au Québec, au Nouveau-Brunswick ou dans les communautés francophones de l'Ontario, si bien que les possibilités se multiplient.\n\nCertes, apprendre une langue demande du temps, et beaucoup de nouveaux arrivants ont déjà un travail et une famille. Je comprends cette difficulté. Pourtant, il existe des cours gratuits, en ligne ou en soirée, et vingt minutes par jour suffisent pour progresser.\n\nOn me dit parfois : « Je suis trop vieux pour apprendre. » Au contraire ! Les adultes ont souvent plus de méthode et de motivation que les enfants. Il faut simplement qu'ils soient réguliers.\n\nEn conclusion, je ne pense pas qu'il soit nécessaire d'obliger les gens. Mais il est important de leur montrer que le français n'est pas un obstacle : c'est une chance. Et pour ceux qui préparent un examen comme le TEF, chaque mot appris est déjà une victoire.\n\nAnita Rao, Mississauga",
+    "translation": {
+      "en": "Learning French in Canada: an investment, not an obligation\n\nEvery year, thousands of newcomers settle in Canada. Many choose Toronto or Vancouver and think English is enough. In my opinion, that's a mistake: learning French is one of the best investments you can make.\n\nFirst of all, French opens doors on the job market. Many positions, especially in the federal public service, require both official languages. For example, my cousin Dev, who works in Ottawa, got a promotion when he passed his French exam.\n\nNext, speaking French lets you discover another part of the country. You can work in Québec, in New Brunswick or in Ontario's francophone communities, so the opportunities multiply.\n\nAdmittedly, learning a language takes time, and many newcomers already have a job and a family. I understand that difficulty. And yet there are free courses, online or in the evening, and twenty minutes a day is enough to make progress.\n\nPeople sometimes tell me: 'I'm too old to learn.' On the contrary! Adults often have more method and motivation than children. They simply need to be regular.\n\nIn conclusion, I don't think it's necessary to force people. But it's important to show them that French is not an obstacle: it's an opportunity. And for those preparing for an exam like the TEF, every word learnt is already a victory.\n\nAnita Rao, Mississauga",
+      "hi": "कनाडा में फ़्रेंच सीखना: एक निवेश, मजबूरी नहीं\n\nहर साल हज़ारों नए लोग कनाडा में बसते हैं। बहुत से लोग टोरंटो या वैंकूवर चुनते हैं और सोचते हैं कि अंग्रेज़ी काफ़ी है। मेरी राय में यह ग़लती है: फ़्रेंच सीखना उन सबसे अच्छे निवेशों में से एक है जो कोई कर सकता है।\n\nसबसे पहले, फ़्रेंच नौकरी के बाज़ार में दरवाज़े खोलती है। बहुत से पदों के लिए, ख़ासकर संघीय सरकारी सेवा में, दोनों आधिकारिक भाषाएँ माँगी जाती हैं। उदाहरण के लिए, मेरे चचेरे भाई देव, जो ओटावा में काम करते हैं, को फ़्रेंच की परीक्षा पास करने पर पदोन्नति मिली।\n\nफिर, फ़्रेंच बोलने से देश का एक और हिस्सा जानने को मिलता है। आप क्यूबेक, न्यू ब्रंसविक या ओंटारियो के फ़्रेंच-भाषी समुदायों में काम कर सकते हैं, जिससे मौक़े कई गुना बढ़ जाते हैं।\n\nमाना कि भाषा सीखने में समय लगता है, और बहुत से नए लोगों के पास पहले से नौकरी और परिवार है। मैं यह मुश्किल समझती हूँ। फिर भी मुफ़्त कोर्स मौजूद हैं, ऑनलाइन या शाम को, और आगे बढ़ने के लिए रोज़ बीस मिनट काफ़ी हैं।\n\nलोग कभी-कभी मुझसे कहते हैं: 'मैं सीखने के लिए बहुत बूढ़ा हूँ।' बिल्कुल उलटा! वयस्कों के पास अक्सर बच्चों से ज़्यादा तरीक़ा और लगन होती है। उन्हें बस नियमित रहना है।\n\nनिष्कर्ष में, मुझे नहीं लगता कि लोगों को मजबूर करना ज़रूरी है। लेकिन उन्हें यह दिखाना ज़रूरी है कि फ़्रेंच कोई रुकावट नहीं: यह एक मौक़ा है। और जो लोग TEF जैसी परीक्षा की तैयारी कर रहे हैं, उनके लिए सीखा गया हर शब्द पहले से ही एक जीत है।\n\nअनीता राव, मिसिसॉगा"
+    },
+    "questions": [
+      { "q": { "en": "What is the author's main opinion?" }, "options": ["English is enough in Canada.", "Learning French is one of the best investments for newcomers.", "French should be compulsory for all newcomers.", "Only children can learn French well."], "answer": 1, "explanation": { "en": "She says learning French is one of the best investments you can make.", "hi": "वह कहती हैं कि फ़्रेंच सीखना सबसे अच्छे निवेशों में से एक है।" }, "kind": "gist", "evidence": "apprendre le français est l'un des meilleurs investissements" },
+      { "q": { "en": "What happened to her cousin Dev?" }, "options": ["He got a promotion after passing his French exam.", "He moved to Québec.", "He failed his French exam.", "He became a French teacher."], "answer": 0, "explanation": { "en": "He got a promotion when he passed his French exam.", "hi": "फ़्रेंच परीक्षा पास करने पर उन्हें पदोन्नति मिली।" }, "kind": "literal", "evidence": "a obtenu une promotion quand il a réussi son examen de français" },
+      { "q": { "en": "What is the consequence of being able to work in several regions?" }, "options": ["People move house too often.", "Salaries are lower.", "There are more opportunities.", "People forget English."], "answer": 2, "explanation": { "en": "Si bien que les possibilités se multiplient: opportunities multiply.", "hi": "si bien que les possibilités se multiplient: मौक़े कई गुना बढ़ जाते हैं।" }, "kind": "inference", "evidence": "si bien que les possibilités se multiplient" },
+      { "q": { "en": "How does she answer the objection about lack of time?" }, "options": ["She says people should stop working.", "She recommends private lessons.", "She says time is not important.", "There are free courses and twenty minutes a day is enough."], "answer": 3, "explanation": { "en": "She recognises the difficulty, then mentions free courses and 20 minutes a day.", "hi": "वह मुश्किल मानती हैं, फिर मुफ़्त कोर्स और रोज़ 20 मिनट का ज़िक्र करती हैं।" }, "kind": "literal", "evidence": "vingt minutes par jour suffisent pour progresser" },
+      { "q": { "en": "Does the author want French to be compulsory?" }, "options": ["Yes, for everyone", "Yes, but only in Ontario", "No: she wants to show it's an opportunity", "She doesn't say"], "answer": 2, "explanation": { "en": "She doesn't think forcing people is necessary; she wants to show French is an opportunity.", "hi": "उन्हें नहीं लगता कि मजबूर करना ज़रूरी है; वह दिखाना चाहती हैं कि फ़्रेंच एक मौक़ा है।" }, "kind": "inference", "evidence": "je ne pense pas qu'il soit nécessaire d'obliger les gens" }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "Write a structured opinion text of about 180 words on this question: « Pour un nouvel arrivant, vaut-il mieux s'installer dans une grande ville ou dans une petite ville ? » Give your position, two arguments with examples, a nuance that recognises the other side, and a conclusion. Use at least one hypothesis (si + imparfait), one subjunctive or il faut / il est important de, and two consequence connectors.",
+      "hi": "इस सवाल पर लगभग 180 शब्दों का ढाँचे वाला राय-लेख लिखिए: « Pour un nouvel arrivant, vaut-il mieux s'installer dans une grande ville ou dans une petite ville ? » (नए आए व्यक्ति के लिए बड़े शहर में बसना बेहतर है या छोटे शहर में?) अपनी राय दीजिए, उदाहरणों के साथ दो तर्क, दूसरे पक्ष को मानने वाली एक बारीकी, और एक निष्कर्ष। कम से कम एक कल्पना (si + imparfait), एक subjonctif या il faut / il est important de, और दो परिणाम-योजक इस्तेमाल कीजिए।",
+      "fr": "Pour un nouvel arrivant, vaut-il mieux s'installer dans une grande ville ou dans une petite ville ?"
+    },
+    "minWords": 180,
+    "maxWords": 250,
+    "hints": [
+      { "en": "Write your plan first: position / argument 1 + example / argument 2 + example / nuance / conclusion.", "hi": "पहले योजना लिखिए: राय / तर्क 1 + उदाहरण / तर्क 2 + उदाहरण / बारीकी / निष्कर्ष।" },
+      { "en": "Recycle Phase 4 tools: comparisons (plus… que), relatives (où, qui), concession (certes… pourtant).", "hi": "चरण 4 के औज़ार दोबारा इस्तेमाल कीजिए: तुलना (plus… que), relative सर्वनाम (où, qui), रियायत (certes… pourtant)।" },
+      { "en": "Reread for the three traps: si + imparfait, subjunctive vs indicative, même si + present.", "hi": "तीन जालों के लिए दोबारा पढ़िए: si + imparfait, subjonctif बनाम indicatif, même si + वर्तमान।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Vaut-il mieux… ou… ?", "en": "Is it better to… or…?", "hi": "क्या … बेहतर है या …?", "pron": "वो-तील म्यö … ऊ" },
+      { "fr": "La vie y coûte moins cher.", "en": "Life there is cheaper.", "hi": "वहाँ रहना सस्ता है।", "pron": "ला वी ई कूत म्वैँ शैग़" },
+      { "fr": "Il est possible que certains se sentent seuls.", "en": "Some people may feel lonely.", "hi": "हो सकता है कि कुछ लोग अकेलापन महसूस करें।", "pron": "ई-लै पो-सीब्ल कö सैग़-तैँ सö साँत सöल" },
+      { "fr": "Si j'avais le choix, je commencerais par…", "en": "If I had the choice, I'd start with…", "hi": "अगर मेरे पास चुनाव होता, तो मैं … से शुरू करता।", "pron": "सी झ़ा-वै लö श्वा झ़ö को-माँ-सö-ग़ै पाग़" }
+    ],
+    "model": {
+      "fr": "Quand on arrive au Canada, faut-il s'installer à Toronto ou à Montréal, ou plutôt dans une petite ville ? À mon avis, une petite ville peut être un excellent premier choix, à condition d'y trouver du travail.\n\nTout d'abord, la vie y coûte moins cher. Les loyers sont souvent beaucoup plus bas que dans les grandes villes, si bien qu'une famille peut économiser plus vite. Par exemple, mes amis Ravi et Meera paient leur appartement deux fois moins cher à Rimouski que leurs cousins à Toronto.\n\nEnsuite, dans une petite ville, on connaît rapidement ses voisins, et on pratique la langue tous les jours, à l'épicerie ou au parc. C'est pourquoi l'intégration y est souvent plus facile.\n\nCertes, il y a moins d'emplois et moins de communautés indiennes. Il est possible que certains se sentent seuls au début. Pourtant, avec Internet, on garde facilement le contact avec sa famille et ses amis.\n\nEn conclusion, je ne pense pas qu'une grande ville soit toujours la meilleure solution. Il est important de comparer les offres d'emploi et le coût de la vie avant de décider. Si j'avais le choix aujourd'hui, je commencerais par une ville moyenne, puis je verrais.",
+      "en": "When you arrive in Canada, should you settle in Toronto or Montréal, or rather in a small town? In my opinion, a small town can be an excellent first choice, as long as you find work there.\n\nFirst of all, life there is cheaper. Rents are often much lower than in big cities, so a family can save faster. For example, my friends Ravi and Meera pay half as much for their apartment in Rimouski as their cousins in Toronto.\n\nNext, in a small town you quickly get to know your neighbours, and you practise the language every day, at the grocery store or in the park. That's why integration is often easier there.\n\nAdmittedly, there are fewer jobs and fewer Indian communities. Some people may feel lonely at first. And yet, with the Internet, it's easy to stay in touch with family and friends.\n\nIn conclusion, I don't think a big city is always the best solution. It's important to compare job offers and the cost of living before deciding. If I had the choice today, I would start with a medium-sized town, and then I'd see."
+    },
+    "checklist": [
+      { "en": "Is your position clear in the first paragraph?", "hi": "क्या पहले अनुच्छेद में आपकी राय साफ़ है?" },
+      { "en": "Do both arguments have a concrete example?", "hi": "क्या दोनों तर्कों के साथ ठोस उदाहरण है?" },
+      { "en": "Did you recognise the other side (certes… pourtant)?", "hi": "क्या आपने दूसरे पक्ष को माना (certes… pourtant)?" },
+      { "en": "Did you use si + imparfait → conditional correctly?", "hi": "क्या आपने si + imparfait → conditionnel सही इस्तेमाल किया?" },
+      { "en": "Subjunctive after je ne pense pas que / il est possible que, indicative after je pense que?", "hi": "je ne pense pas que / il est possible que के बाद subjonctif, je pense que के बाद indicatif?" },
+      { "en": "At least 180 words?", "hi": "कम से कम 180 शब्द?" }
+    ]
+  },
+  "review": {
+    "fromDays": [61, 64, 65, 66, 67, 68, 69, 72, 73, 74, 75, 76, 78, 79],
+    "items": [
+      { "fr": "À mon avis, c'est une bonne idée.", "en": "In my opinion, it's a good idea.", "hi": "मेरी राय में, यह अच्छा विचार है।", "pron": "आ मो ना-वी सै तüन बॉन ई-दे" },
+      { "fr": "Je préfère le métro à la voiture.", "en": "I prefer the metro to the car.", "hi": "मुझे गाड़ी से ज़्यादा मेट्रो पसंद है।", "pron": "झ़ö प्ग़े-फ़ैग़ लö मे-त्ग़ो आ ला व्वा-तüग़" },
+      { "fr": "Pourriez-vous répéter, s'il vous plaît ?", "en": "Could you repeat, please?", "hi": "क्या आप दोहरा सकेंगे?", "pron": "पू-ग़्ये वू ग़े-पे-ते सील वू प्लै" },
+      { "fr": "Si j'avais plus de temps, je ferais du bénévolat.", "en": "If I had more time, I'd volunteer.", "hi": "अगर मेरे पास ज़्यादा समय होता, तो मैं स्वयंसेवा करता।", "pron": "सी झ़ा-वै प्लüस दö ताँ झ़ö फ़ö-ग़ै दü बे-ने-वो-ला" },
+      { "fr": "C'est le quartier où j'habite.", "en": "It's the neighbourhood where I live.", "hi": "यह वह मोहल्ला है जहाँ मैं रहता हूँ।", "pron": "सै लö काग़-त्ये ऊ झ़ा-बीत" },
+      { "fr": "Ce dont j'ai besoin, c'est du temps.", "en": "What I need is time.", "hi": "मुझे जिसकी ज़रूरत है, वह है समय।", "pron": "सö दोँ झ़े बö-ज़्वैँ सै दü ताँ" },
+      { "fr": "Certes, c'est loin. Pourtant, ça vaut la peine.", "en": "Admittedly it's far. And yet it's worth it.", "hi": "माना कि दूर है। फिर भी इसके लायक़ है।", "pron": "सैग़्त सै ल्वैँ पूग़-ताँ सा वो ला पैन" },
+      { "fr": "Il faut que tu fasses un effort.", "en": "You have to make an effort.", "hi": "तुम्हें कोशिश करनी होगी।", "pron": "ईल फ़ो कö तü फ़ास ऐँ ने-फ़ॉग़" },
+      { "fr": "Je suis content que tu sois là.", "en": "I'm glad you're here.", "hi": "मुझे ख़ुशी है कि तुम यहाँ हो।", "pron": "झ़ö स्üई कोँ-ताँ कö तü स्वा ला" },
+      { "fr": "Par conséquent, la route a été fermée.", "en": "As a result, the road was closed.", "hi": "नतीजतन, सड़क बंद कर दी गई।", "pron": "पाग़ कोँ-से-काँ ला ग़ूत आ ए-ते फ़ैग़-मे" },
+      { "fr": "Elle a dit qu'elle était inquiète.", "en": "She said she was worried.", "hi": "उसने कहा कि वह चिंतित थी।", "pron": "ए-ला दी कै-ले-तै ऐँ-क्यैत" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Which sentence gives a polite, nuanced disagreement?", "hi": "कौन-सा वाक्य शिष्ट और संतुलित असहमति जताता है?" }, "options": ["C'est n'importe quoi !", "Tu as tort, point final.", "Je ne suis pas tout à fait d'accord avec toi.", "Je m'en fiche."], "answer": 2, "explanation": { "en": "Je ne suis pas tout à fait d'accord = polite, nuanced disagreement (Days 61–63).", "hi": "Je ne suis pas tout à fait d'accord = शिष्ट, संतुलित असहमति (दिन 61–63)।" } },
+    { "type": "fill", "prompt": { "en": "Complete with the conditional of aimer: I would like a coffee.", "hi": "aimer के conditionnel से पूरा कीजिए: मुझे एक कॉफ़ी चाहिए।" }, "sentence": "J'___ un café, s'il vous plaît.", "answer": "aimerais", "accept": [], "explanation": { "en": "Polite conditional: j'aimerais (Day 65).", "hi": "शिष्ट conditionnel: j'aimerais (दिन 65)।" } },
+    { "type": "mcq", "prompt": { "en": "Choose the correct sentence.", "hi": "सही वाक्य चुनिए।" }, "options": ["Si j'avais de l'argent, je voyagerais.", "Si j'aurais de l'argent, je voyagerais.", "Si j'avais de l'argent, je voyagerai.", "Si j'ai de l'argent, je voyagerais."], "answer": 0, "explanation": { "en": "Si + imparfait → conditional (Day 66).", "hi": "si + imparfait → conditionnel (दिन 66)।" } },
+    { "type": "fill", "prompt": { "en": "Complete: It's the city where I was born.", "hi": "पूरा कीजिए: यह वह शहर है जहाँ मेरा जन्म हुआ।" }, "sentence": "C'est la ville ___ je suis né.", "answer": "où", "accept": [], "explanation": { "en": "Où for a place (Day 67).", "hi": "जगह के लिए où (दिन 67)।" } },
+    { "type": "mcq", "prompt": { "en": "Choose the correct relative pronoun: C'est le livre ___ je t'ai parlé.", "hi": "सही relative सर्वनाम चुनिए: C'est le livre ___ je t'ai parlé.", "fr": "C'est le livre ___ je t'ai parlé." }, "options": ["que", "qui", "où", "dont"], "answer": 3, "explanation": { "en": "Parler DE quelque chose → dont (Day 68).", "hi": "parler DE quelque chose → dont (दिन 68)।" } },
+    { "type": "fill", "prompt": { "en": "Complete with a contrast connector: He lives far away; and yet he's always on time.", "hi": "विरोध वाले योजक से पूरा कीजिए: वह दूर रहता है; फिर भी हमेशा समय पर आता है।" }, "sentence": "Il habite loin ; ___, il est toujours à l'heure.", "answer": "pourtant", "accept": ["cependant", "Pourtant", "Cependant"], "explanation": { "en": "Pourtant / cependant introduce a contrast (Day 69).", "hi": "pourtant / cependant विरोध बताते हैं (दिन 69)।" } },
+    { "type": "translate", "prompt": { "en": "Write in French (tu).", "hi": "फ़्रेंच में लिखिए (tu)।" }, "source": { "en": "You should try, it's worth it.", "hi": "तुम्हें आज़माना चाहिए, यह इसके लायक़ है।" }, "answer": "Tu devrais essayer, ça vaut la peine.", "accept": ["Tu devrais essayer, ça vaut la peine", "Tu devrais essayer, ça vaut le coup."], "explanation": { "en": "Tu devrais + infinitive; ça vaut la peine (Day 72).", "hi": "tu devrais + infinitive; ça vaut la peine (दिन 72)।" } },
+    { "type": "mcq", "prompt": { "en": "Choose the correct sentence.", "hi": "सही वाक्य चुनिए।" }, "options": ["Même si il pleuvra, je viendrai.", "Même s'il pleut, je viendrai.", "Même s'il pleuvrait, je viendrai.", "Même qu'il pleut, je viendrai."], "answer": 1, "explanation": { "en": "Même si + present; si + il → s'il (Day 73).", "hi": "même si + वर्तमान; si + il → s'il (दिन 73)।" } },
+    { "type": "fill", "prompt": { "en": "Complete with aller: You have to go to the doctor.", "hi": "aller से पूरा कीजिए: तुम्हें डॉक्टर के पास जाना होगा।" }, "sentence": "Il faut que tu ___ chez le médecin.", "answer": "ailles", "accept": [], "explanation": { "en": "Il faut que + subjunctive: aller → que tu ailles (Day 75).", "hi": "il faut que + subjonctif: aller → que tu ailles (दिन 75)।" } },
+    { "type": "mcq", "prompt": { "en": "Choose the correct form: Je ne pense pas que ce ___ une bonne idée.", "hi": "सही रूप चुनिए: Je ne pense pas que ce ___ une bonne idée.", "fr": "Je ne pense pas que ce ___ une bonne idée." }, "options": ["est", "sera", "soit", "était"], "answer": 2, "explanation": { "en": "Negative opinion = doubt → subjunctive (Day 76).", "hi": "नकारात्मक राय = शंका → subjonctif (दिन 76)।" } },
+    { "type": "translate", "prompt": { "en": "Write in French with a formal consequence connector.", "hi": "एक औपचारिक परिणाम-योजक के साथ फ़्रेंच में लिखिए।" }, "source": { "en": "As a result, pollution has decreased.", "hi": "नतीजतन, प्रदूषण कम हुआ है।" }, "answer": "Par conséquent, la pollution a diminué.", "accept": ["Par conséquent, la pollution a diminué", "Par conséquent, la pollution a baissé."], "explanation": { "en": "Par conséquent = formal consequence (Day 78).", "hi": "par conséquent = औपचारिक परिणाम (दिन 78)।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: He said he was tired.", "hi": "शब्दों को सही क्रम में रखिए: उसने कहा कि वह थका था।" }, "words": ["dit", "fatigué.", "Il", "était", "a", "qu'il"], "answer": "Il a dit qu'il était fatigué.", "explanation": { "en": "Reported speech: present → imparfait (Day 79).", "hi": "अप्रत्यक्ष कथन: वर्तमान → imparfait (दिन 79)।" } }
+  ]
+}

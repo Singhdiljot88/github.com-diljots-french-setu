@@ -1,0 +1,6331 @@
+[
+  {
+    "lemma": "débutant",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "débutants",
+    "feminine": "débutante",
+    "en": [
+      "beginner"
+    ],
+    "hi": [
+      "शुरुआती",
+      "नौसिखिया"
+    ],
+    "ipa": "debytɑ̃",
+    "pron": "दे-बü-ताँ",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "education"
+    ],
+    "examples": [
+      {
+        "fr": "Ce cours est pour les débutants.",
+        "en": "This course is for beginners.",
+        "hi": "यह कोर्स शुरुआती लोगों के लिए है।"
+      },
+      {
+        "fr": "Je suis débutante en français, mais j'apprends vite.",
+        "en": "I'm a beginner in French, but I learn fast.",
+        "hi": "मैं फ़्रेंच में नौसिखिया हूँ, लेकिन जल्दी सीखती हूँ।"
+      }
+    ],
+    "collocations": [
+      "un cours pour débutants",
+      "niveau débutant",
+      "être débutant en"
+    ],
+    "mistakes": [
+      {
+        "en": "The feminine \"débutante\" sounds the final t: दे-बü-ताँत. The masculine \"débutant\" has a silent t.",
+        "hi": "स्त्रीलिंग \"débutante\" में अंतिम t बोला जाता है: दे-बü-ताँत। पुल्लिंग \"débutant\" में t नहीं बोला जाता।"
+      }
+    ],
+    "related": [
+      "niveau",
+      "cours",
+      "apprendre"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "debutant",
+      "débutent",
+      "debutent"
+    ]
+  },
+  {
+    "lemma": "décision",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "décisions",
+    "en": [
+      "decision"
+    ],
+    "hi": [
+      "फ़ैसला",
+      "निर्णय"
+    ],
+    "ipa": "desizjɔ̃",
+    "pron": "दे-सी-ज़्योँ",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "work",
+      "emotions"
+    ],
+    "examples": [
+      {
+        "fr": "J'ai pris la décision de déménager à Montréal.",
+        "en": "I made the decision to move to Montréal.",
+        "hi": "मैंने मॉन्ट्रियल जाकर बसने का फ़ैसला किया।"
+      },
+      {
+        "fr": "C'est une décision difficile.",
+        "en": "It's a difficult decision.",
+        "hi": "यह एक मुश्किल फ़ैसला है।"
+      }
+    ],
+    "collocations": [
+      "prendre une décision",
+      "une décision difficile",
+      "une bonne décision"
+    ],
+    "mistakes": [
+      {
+        "en": "English \"make a decision\" is \"prendre une décision\" in French, not \"faire une décision\".",
+        "hi": "अंग्रेज़ी \"make a decision\" को फ़्रेंच में \"prendre une décision\" कहते हैं, \"faire une décision\" नहीं।"
+      }
+    ],
+    "related": [
+      "choix",
+      "décider"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "descision",
+      "decision",
+      "décition"
+    ]
+  },
+  {
+    "lemma": "déconnexion",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "déconnexions",
+    "en": [
+      "disconnecting (from work, screens)",
+      "disconnection",
+      "logging out"
+    ],
+    "hi": [
+      "काम या स्क्रीन से दूरी",
+      "डिस्कनेक्ट होना",
+      "लॉग आउट"
+    ],
+    "ipa": "dekɔnɛksjɔ̃",
+    "pron": "दे-कॉ-नैक-स्योँ",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "work",
+      "technology"
+    ],
+    "examples": [
+      {
+        "fr": "Les salariés ont droit à la déconnexion le soir.",
+        "en": "Employees have the right to disconnect in the evening.",
+        "hi": "कर्मचारियों को शाम को काम से डिस्कनेक्ट होने का अधिकार है।"
+      },
+      {
+        "fr": "Une semaine de déconnexion m'a fait du bien.",
+        "en": "A week away from screens did me good.",
+        "hi": "स्क्रीन से एक हफ़्ते की दूरी ने मुझे अच्छा महसूस कराया।"
+      }
+    ],
+    "collocations": [
+      "le droit à la déconnexion",
+      "une déconnexion numérique"
+    ],
+    "mistakes": [
+      {
+        "en": "Spelled with -xion (like connexion), not -ction as in English \"disconnection\".",
+        "hi": "इसकी स्पेलिंग -xion है (connexion की तरह), अंग्रेज़ी \"disconnection\" की तरह -ction नहीं।"
+      }
+    ],
+    "related": [
+      "écran",
+      "télétravail",
+      "internet"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "déconnection",
+      "deconnexion"
+    ]
+  },
+  {
+    "lemma": "démarche",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "démarches",
+    "en": [
+      "a procedure, a step (administrative)",
+      "an approach",
+      "way of walking"
+    ],
+    "hi": [
+      "प्रक्रिया",
+      "कार्यवाही",
+      "क़दम"
+    ],
+    "ipa": "demaʁʃ",
+    "pron": "दे-माग़्श",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "administration"
+    ],
+    "examples": [
+      {
+        "fr": "Il faut faire plusieurs démarches pour obtenir la résidence permanente.",
+        "en": "You have to go through several procedures to get permanent residence.",
+        "hi": "स्थायी निवास पाने के लिए कई प्रक्रियाएँ पूरी करनी पड़ती हैं।"
+      },
+      {
+        "fr": "Quelles démarches dois-je faire pour changer d'adresse ?",
+        "en": "What steps do I need to take to change my address?",
+        "hi": "पता बदलने के लिए मुझे क्या-क्या करना होगा?"
+      }
+    ],
+    "collocations": [
+      "faire des démarches",
+      "les démarches administratives",
+      "une démarche en ligne"
+    ],
+    "mistakes": [
+      {
+        "en": "It does not mean \"a march\". \"Faire des démarches\" = to go through the paperwork / take the necessary steps.",
+        "hi": "इसका मतलब \"मार्च\" नहीं है। \"Faire des démarches\" = काग़ज़ी कार्यवाही करना / ज़रूरी क़दम उठाना।"
+      }
+    ],
+    "related": [
+      "dossier",
+      "formulaire",
+      "demande"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "demarche",
+      "démarge"
+    ]
+  },
+  {
+    "lemma": "dénouement",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "dénouements",
+    "en": [
+      "the ending, outcome (of a story)",
+      "resolution"
+    ],
+    "hi": [
+      "अंत",
+      "परिणाम",
+      "कहानी का निष्कर्ष"
+    ],
+    "ipa": "denumɑ̃",
+    "pron": "दे-नू-माँ",
+    "level": "B2",
+    "register": "neutral",
+    "topics": [
+      "culture"
+    ],
+    "examples": [
+      {
+        "fr": "Le dénouement du roman est très surprenant.",
+        "en": "The ending of the novel is very surprising.",
+        "hi": "उपन्यास का अंत बहुत चौंकाने वाला है।"
+      }
+    ],
+    "collocations": [
+      "un dénouement heureux",
+      "un dénouement inattendu"
+    ],
+    "mistakes": [
+      {
+        "en": "The e after ou is silent: दे-नू-माँ. Don't confuse with \"la fin\", which is the general word for \"end\".",
+        "hi": "ou के बाद वाला e नहीं बोला जाता: दे-नू-माँ। \"la fin\" से न मिलाएँ, जो \"अंत\" का आम शब्द है।"
+      }
+    ],
+    "related": [
+      "fin",
+      "histoire",
+      "roman"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "denouement",
+      "dénoument",
+      "dénouemant"
+    ]
+  },
+  {
+    "lemma": "dépendance",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "dépendances",
+    "en": [
+      "addiction, dependence",
+      "dependency"
+    ],
+    "hi": [
+      "लत",
+      "निर्भरता"
+    ],
+    "ipa": "depɑ̃dɑ̃s",
+    "pron": "दे-पाँ-दाँस",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "health",
+      "society"
+    ],
+    "examples": [
+      {
+        "fr": "La dépendance aux écrans touche beaucoup d'adolescents.",
+        "en": "Screen addiction affects many teenagers.",
+        "hi": "स्क्रीन की लत बहुत से किशोरों को प्रभावित करती है।"
+      },
+      {
+        "fr": "Il veut sortir de sa dépendance au tabac.",
+        "en": "He wants to get over his tobacco addiction.",
+        "hi": "वह तंबाकू की अपनी लत छोड़ना चाहता है।"
+      }
+    ],
+    "collocations": [
+      "la dépendance à",
+      "une dépendance aux écrans",
+      "être en situation de dépendance"
+    ],
+    "mistakes": [
+      {
+        "en": "Use \"dépendance à\" (au, aux), not \"dépendance de\": \"la dépendance au téléphone\".",
+        "hi": "\"dépendance à\" (au, aux) लगाएँ, \"dépendance de\" नहीं: \"la dépendance au téléphone\"।"
+      }
+    ],
+    "related": [
+      "écran",
+      "santé",
+      "stress"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "dépendence",
+      "dependance"
+    ]
+  },
+  {
+    "lemma": "détail",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "détails",
+    "en": [
+      "detail"
+    ],
+    "hi": [
+      "ब्योरा",
+      "विवरण",
+      "बारीकी"
+    ],
+    "ipa": "detaj",
+    "pron": "दे-ताय",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "work"
+    ],
+    "examples": [
+      {
+        "fr": "Pouvez-vous m'expliquer en détail ?",
+        "en": "Can you explain it to me in detail?",
+        "hi": "क्या आप मुझे विस्तार से समझा सकते हैं?"
+      },
+      {
+        "fr": "C'est un petit détail, ce n'est pas grave.",
+        "en": "It's a small detail, it doesn't matter.",
+        "hi": "यह छोटी सी बात है, कोई बात नहीं।"
+      }
+    ],
+    "collocations": [
+      "en détail",
+      "un petit détail",
+      "les détails pratiques"
+    ],
+    "mistakes": [
+      {
+        "en": "-ail is said आय: दे-ताय. The plural is \"détails\" (not \"détaux\").",
+        "hi": "-ail को आय बोलते हैं: दे-ताय। बहुवचन \"détails\" है (\"détaux\" नहीं)।"
+      }
+    ],
+    "related": [
+      "information",
+      "exemple"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "detail",
+      "détaille",
+      "détaile"
+    ]
+  },
+  {
+    "lemma": "emballage",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "emballages",
+    "en": [
+      "packaging",
+      "wrapping"
+    ],
+    "hi": [
+      "पैकिंग",
+      "पैकेजिंग"
+    ],
+    "ipa": "ɑ̃balaʒ",
+    "pron": "आँ-बा-लाझ़",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "shopping",
+      "environment"
+    ],
+    "examples": [
+      {
+        "fr": "Il y a trop d'emballages en plastique au supermarché.",
+        "en": "There is too much plastic packaging at the supermarket.",
+        "hi": "सुपरमार्केट में बहुत ज़्यादा प्लास्टिक पैकिंग होती है।"
+      },
+      {
+        "fr": "Mettez les emballages dans le bac de recyclage.",
+        "en": "Put the packaging in the recycling bin.",
+        "hi": "पैकिंग को रीसाइक्लिंग वाले डिब्बे में डालिए।"
+      }
+    ],
+    "collocations": [
+      "un emballage en plastique",
+      "sans emballage",
+      "un emballage recyclable"
+    ],
+    "mistakes": [
+      {
+        "en": "Nouns in -age are usually masculine: \"un emballage\", even if Hindi पैकिंग feels feminine.",
+        "hi": "-age वाले संज्ञा शब्द आम तौर पर पुल्लिंग होते हैं: \"un emballage\", भले ही हिंदी में पैकिंग स्त्रीलिंग लगे।"
+      }
+    ],
+    "related": [
+      "recyclage",
+      "déchet",
+      "sac"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "emballge",
+      "enballage"
+    ]
+  },
+  {
+    "lemma": "embarquement",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "embarquements",
+    "en": [
+      "boarding"
+    ],
+    "hi": [
+      "बोर्डिंग",
+      "विमान/जहाज़ पर चढ़ना"
+    ],
+    "ipa": "ɑ̃baʁkəmɑ̃",
+    "pron": "आँ-बाग़-कö-माँ",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "travel",
+      "transport"
+    ],
+    "examples": [
+      {
+        "fr": "L'embarquement commence à 14 h, porte 22.",
+        "en": "Boarding starts at 2 p.m., gate 22.",
+        "hi": "बोर्डिंग दोपहर 2 बजे गेट 22 पर शुरू होती है।"
+      },
+      {
+        "fr": "N'oubliez pas votre carte d'embarquement.",
+        "en": "Don't forget your boarding pass.",
+        "hi": "अपना बोर्डिंग पास मत भूलिए।"
+      }
+    ],
+    "collocations": [
+      "la carte d'embarquement",
+      "la porte d'embarquement",
+      "l'embarquement immédiat"
+    ],
+    "mistakes": [
+      {
+        "en": "Spelled with m before b (embarquement), not \"enbarquement\".",
+        "hi": "b से पहले m लिखा जाता है (embarquement), \"enbarquement\" नहीं।"
+      }
+    ],
+    "related": [
+      "avion",
+      "aéroport",
+      "vol",
+      "passager"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "enbarquement",
+      "embarcement",
+      "embarquemant"
+    ]
+  },
+  {
+    "lemma": "enfance",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "enfances",
+    "en": [
+      "childhood"
+    ],
+    "hi": [
+      "बचपन"
+    ],
+    "ipa": "ɑ̃fɑ̃s",
+    "pron": "आँ-फ़ाँस",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "family",
+      "people"
+    ],
+    "examples": [
+      {
+        "fr": "J'ai passé mon enfance à Jaipur.",
+        "en": "I spent my childhood in Jaipur.",
+        "hi": "मेरा बचपन जयपुर में बीता।"
+      },
+      {
+        "fr": "C'est mon ami d'enfance.",
+        "en": "He's my childhood friend.",
+        "hi": "वह मेरा बचपन का दोस्त है।"
+      }
+    ],
+    "collocations": [
+      "un ami d'enfance",
+      "un souvenir d'enfance",
+      "dans mon enfance",
+      "la petite enfance"
+    ],
+    "mistakes": [
+      {
+        "en": "\"Enfance\" is feminine, but you say \"mon enfance\" (mon before a vowel), not \"ma enfance\". Hindi बचपन is masculine.",
+        "hi": "\"Enfance\" स्त्रीलिंग है, फिर भी स्वर से पहले \"mon enfance\" कहते हैं, \"ma enfance\" नहीं। हिंदी में बचपन पुल्लिंग है।"
+      }
+    ],
+    "related": [
+      "enfant",
+      "souvenir",
+      "famille"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "enfence",
+      "anfance",
+      "enfanse"
+    ]
+  },
+  {
+    "lemma": "engagement",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "engagements",
+    "en": [
+      "a commitment",
+      "involvement",
+      "pledge"
+    ],
+    "hi": [
+      "प्रतिबद्धता",
+      "वचन",
+      "जुड़ाव"
+    ],
+    "ipa": "ɑ̃ɡaʒmɑ̃",
+    "pron": "आँ-गाझ़-माँ",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "society",
+      "work"
+    ],
+    "examples": [
+      {
+        "fr": "Le bénévolat demande un vrai engagement.",
+        "en": "Volunteering requires real commitment.",
+        "hi": "स्वयंसेवा के लिए सच्ची प्रतिबद्धता चाहिए।"
+      },
+      {
+        "fr": "Le maire a respecté ses engagements.",
+        "en": "The mayor kept his commitments.",
+        "hi": "महापौर ने अपने वादे निभाए।"
+      }
+    ],
+    "collocations": [
+      "prendre un engagement",
+      "respecter ses engagements",
+      "l'engagement citoyen"
+    ],
+    "mistakes": [
+      {
+        "en": "It rarely means a marriage engagement; that is \"les fiançailles\". \"Engagement\" = commitment.",
+        "hi": "इसका मतलब सगाई नहीं होता; सगाई = \"les fiançailles\"। \"Engagement\" = प्रतिबद्धता।"
+      }
+    ],
+    "related": [
+      "bénévolat",
+      "promesse"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "engagment",
+      "engajement",
+      "angagement"
+    ]
+  },
+  {
+    "lemma": "enquête",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "enquêtes",
+    "en": [
+      "an investigation",
+      "a survey, a poll",
+      "an inquiry"
+    ],
+    "hi": [
+      "जाँच",
+      "सर्वेक्षण",
+      "पूछताछ"
+    ],
+    "ipa": "ɑ̃kɛt",
+    "pron": "आँ-कैत",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "society",
+      "media"
+    ],
+    "examples": [
+      {
+        "fr": "La police a ouvert une enquête après l'incendie.",
+        "en": "The police opened an investigation after the fire.",
+        "hi": "आग लगने के बाद पुलिस ने जाँच शुरू की।"
+      },
+      {
+        "fr": "Selon une enquête, 60 % des Canadiens font du télétravail.",
+        "en": "According to a survey, 60% of Canadians work from home.",
+        "hi": "एक सर्वेक्षण के अनुसार, 60 % कनाडाई घर से काम करते हैं।"
+      }
+    ],
+    "collocations": [
+      "mener une enquête",
+      "une enquête de police",
+      "une enquête d'opinion",
+      "être en cours d'enquête"
+    ],
+    "mistakes": [
+      {
+        "en": "Don't forget the circumflex: enquête. The final -te is pronounced: आँ-कैत.",
+        "hi": "circumflex न भूलें: enquête। अंत का -te बोला जाता है: आँ-कैत।"
+      }
+    ],
+    "related": [
+      "police",
+      "sondage",
+      "incident"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "enquete",
+      "anquête",
+      "enquette"
+    ]
+  },
+  {
+    "lemma": "enregistrement",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "enregistrements",
+    "en": [
+      "recording",
+      "check-in (airport, hotel)",
+      "registration"
+    ],
+    "hi": [
+      "रिकॉर्डिंग",
+      "चेक-इन",
+      "पंजीकरण"
+    ],
+    "ipa": "ɑ̃ʁəʒistʁəmɑ̃",
+    "pron": "आँ-ग़ö-झ़िस-त्ग़ö-माँ",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "media",
+      "travel"
+    ],
+    "examples": [
+      {
+        "fr": "Écoutez l'enregistrement deux fois.",
+        "en": "Listen to the recording twice.",
+        "hi": "रिकॉर्डिंग दो बार सुनिए।"
+      },
+      {
+        "fr": "L'enregistrement des bagages ferme une heure avant le vol.",
+        "en": "Baggage check-in closes one hour before the flight.",
+        "hi": "सामान का चेक-इन उड़ान से एक घंटा पहले बंद हो जाता है।"
+      }
+    ],
+    "collocations": [
+      "un enregistrement audio",
+      "l'enregistrement des bagages",
+      "faire un enregistrement"
+    ],
+    "mistakes": [
+      {
+        "en": "Liaison with un/les: \"un enregistrement\" = ऐँ नाँ-ग़ö-झ़िस-त्ग़ö-माँ. The word has two silent-ish e's (ö) — don't drop the syllables completely.",
+        "hi": "un/les के साथ liaison: \"un enregistrement\" = ऐँ नाँ-ग़ö-झ़िस-त्ग़ö-माँ। इसमें दो हल्के e (ö) हैं — इन्हें पूरी तरह न छोड़ें।"
+      }
+    ],
+    "related": [
+      "audio",
+      "bagage",
+      "aéroport"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "enregistrment",
+      "enregistremant",
+      "enrégistrement"
+    ]
+  },
+  {
+    "lemma": "enseignant",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "enseignants",
+    "feminine": "enseignante",
+    "en": [
+      "teacher"
+    ],
+    "hi": [
+      "शिक्षक",
+      "अध्यापक"
+    ],
+    "ipa": "ɑ̃sɛɲɑ̃",
+    "pron": "आँ-सै-न्याँ",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "education",
+      "work"
+    ],
+    "examples": [
+      {
+        "fr": "Ma sœur est enseignante dans une école primaire.",
+        "en": "My sister is a teacher in a primary school.",
+        "hi": "मेरी बहन एक प्राथमिक विद्यालय में शिक्षिका है।"
+      },
+      {
+        "fr": "Les enseignants sont en grève aujourd'hui.",
+        "en": "The teachers are on strike today.",
+        "hi": "आज शिक्षक हड़ताल पर हैं।"
+      }
+    ],
+    "collocations": [
+      "un enseignant de français",
+      "devenir enseignant",
+      "les enseignants et les élèves"
+    ],
+    "mistakes": [
+      {
+        "en": "No article with a profession after être: \"Elle est enseignante\", not \"Elle est une enseignante\".",
+        "hi": "être के बाद पेशे के साथ article नहीं लगता: \"Elle est enseignante\", \"Elle est une enseignante\" नहीं।"
+      }
+    ],
+    "related": [
+      "professeur",
+      "instituteur",
+      "école",
+      "élève"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "enseignent",
+      "ensegnant",
+      "enseignan"
+    ]
+  },
+  {
+    "lemma": "entrevue",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "entrevues",
+    "en": [
+      "a job interview (Canada)",
+      "an interview, a meeting"
+    ],
+    "hi": [
+      "इंटरव्यू",
+      "साक्षात्कार",
+      "मुलाक़ात"
+    ],
+    "ipa": "ɑ̃tʁəvy",
+    "pron": "आँ-त्ग़ö-वü",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "work"
+    ],
+    "examples": [
+      {
+        "fr": "J'ai une entrevue d'embauche demain matin.",
+        "en": "I have a job interview tomorrow morning.",
+        "hi": "कल सुबह मेरा नौकरी का इंटरव्यू है।"
+      },
+      {
+        "fr": "L'entrevue s'est bien passée.",
+        "en": "The interview went well.",
+        "hi": "इंटरव्यू अच्छा रहा।"
+      }
+    ],
+    "collocations": [
+      "une entrevue d'embauche",
+      "passer une entrevue",
+      "se préparer à une entrevue"
+    ],
+    "mistakes": [
+      {
+        "en": "Canadian usage. In France a job interview is usually \"un entretien (d'embauche)\" — note that one is masculine.",
+        "hi": "यह कनाडा का प्रयोग है। फ़्रांस में नौकरी का इंटरव्यू आम तौर पर \"un entretien (d'embauche)\" कहलाता है — वह पुल्लिंग है।"
+      }
+    ],
+    "related": [
+      "entretien",
+      "CV",
+      "emploi"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "entrevu",
+      "antrevue",
+      "entre vue"
+    ]
+  },
+  {
+    "lemma": "entrée",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "entrées",
+    "en": [
+      "entrance; admission",
+      "entry",
+      "starter (of a meal)"
+    ],
+    "hi": [
+      "प्रवेश",
+      "प्रवेश द्वार",
+      "दाख़िला"
+    ],
+    "ipa": "ɑ̃tʁe",
+    "pron": "आँ-त्ग़े",
+    "level": "A1",
+    "register": "neutral",
+    "topics": [
+      "city",
+      "culture",
+      "food"
+    ],
+    "examples": [
+      {
+        "fr": "L'entrée du musée est gratuite le dimanche.",
+        "en": "Admission to the museum is free on Sundays.",
+        "hi": "रविवार को संग्रहालय में प्रवेश मुफ़्त है।"
+      },
+      {
+        "fr": "On se retrouve à l'entrée du parc.",
+        "en": "Let's meet at the park entrance.",
+        "hi": "हम पार्क के प्रवेश द्वार पर मिलते हैं।"
+      }
+    ],
+    "collocations": [
+      "l'entrée principale",
+      "l'entrée gratuite",
+      "un billet d'entrée",
+      "entrée interdite"
+    ],
+    "mistakes": [
+      {
+        "en": "Feminine despite the -ée that looks like a past participle: \"une entrée\". On a menu it means the starter, not the main course.",
+        "hi": "-ée के बावजूद यह स्त्रीलिंग है: \"une entrée\"। मेन्यू में इसका मतलब स्टार्टर है, मुख्य व्यंजन नहीं।"
+      }
+    ],
+    "related": [
+      "sortie",
+      "porte",
+      "billet"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "entree",
+      "entrè",
+      "antrée"
+    ]
+  },
+  {
+    "lemma": "erreur",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "erreurs",
+    "en": [
+      "a mistake, an error"
+    ],
+    "hi": [
+      "ग़लती",
+      "भूल",
+      "त्रुटि"
+    ],
+    "ipa": "ɛʁœʁ",
+    "pron": "ऐ-ग़öग़",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "education",
+      "work"
+    ],
+    "examples": [
+      {
+        "fr": "J'ai fait une erreur dans mon adresse.",
+        "en": "I made a mistake in my address.",
+        "hi": "मैंने अपने पते में ग़लती कर दी।"
+      },
+      {
+        "fr": "Désolé, j'ai appelé ce numéro par erreur.",
+        "en": "Sorry, I called this number by mistake.",
+        "hi": "माफ़ कीजिए, मैंने ग़लती से यह नंबर मिला दिया।"
+      }
+    ],
+    "collocations": [
+      "faire une erreur",
+      "par erreur",
+      "une erreur de calcul",
+      "corriger une erreur"
+    ],
+    "mistakes": [
+      {
+        "en": "\"Erreur\" is feminine: \"une erreur\", \"une grosse erreur\" (like Hindi ग़लती). Many learners say \"un erreur\".",
+        "hi": "\"Erreur\" स्त्रीलिंग है: \"une erreur\", \"une grosse erreur\" (हिंदी ग़लती की तरह)। कई लोग \"un erreur\" कह देते हैं।"
+      }
+    ],
+    "related": [
+      "faute",
+      "problème"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "erreure",
+      "ereur",
+      "érreur"
+    ]
+  },
+  {
+    "lemma": "escapade",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "escapades",
+    "en": [
+      "a getaway, a short trip"
+    ],
+    "hi": [
+      "छोटी सैर",
+      "छोटी छुट्टी",
+      "घूमने निकलना"
+    ],
+    "ipa": "ɛskapad",
+    "pron": "ऐस-का-पाद",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "travel"
+    ],
+    "examples": [
+      {
+        "fr": "On a fait une petite escapade à Québec ce week-end.",
+        "en": "We took a little getaway to Québec City this weekend.",
+        "hi": "इस वीकेंड हम क्यूबेक सिटी की छोटी सैर पर गए।"
+      },
+      {
+        "fr": "Une escapade à la campagne, ça vous dit ?",
+        "en": "How about a getaway to the countryside?",
+        "hi": "गाँव की तरफ़ एक छोटी सैर, क्या ख़याल है?"
+      }
+    ],
+    "collocations": [
+      "une escapade en amoureux",
+      "une escapade d'un week-end",
+      "faire une escapade"
+    ],
+    "mistakes": [
+      {
+        "en": "Feminine: \"une escapade\". The final -de is pronounced (ऐस-का-पाद), the e is silent.",
+        "hi": "स्त्रीलिंग: \"une escapade\"। अंत का -de बोला जाता है (ऐस-का-पाद), e नहीं।"
+      }
+    ],
+    "related": [
+      "voyage",
+      "séjour",
+      "vacances"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "escappade",
+      "éscapade",
+      "escapad"
+    ]
+  },
+  {
+    "lemma": "espagnol",
+    "pos": "noun",
+    "gender": "m",
+    "en": [
+      "Spanish (language)",
+      "a Spanish man (un Espagnol)"
+    ],
+    "hi": [
+      "स्पेनिश भाषा",
+      "स्पेन का निवासी"
+    ],
+    "ipa": "ɛspaɲɔl",
+    "pron": "ऐस-पा-न्यॉल",
+    "level": "A1",
+    "register": "neutral",
+    "topics": [
+      "education",
+      "culture"
+    ],
+    "examples": [
+      {
+        "fr": "Je parle anglais, hindi et un peu espagnol.",
+        "en": "I speak English, Hindi and a little Spanish.",
+        "hi": "मैं अंग्रेज़ी, हिंदी और थोड़ी स्पेनिश बोलता हूँ।"
+      },
+      {
+        "fr": "L'espagnol est facile pour moi.",
+        "en": "Spanish is easy for me.",
+        "hi": "स्पेनिश मेरे लिए आसान है।"
+      }
+    ],
+    "collocations": [
+      "parler espagnol",
+      "apprendre l'espagnol",
+      "un cours d'espagnol"
+    ],
+    "mistakes": [
+      {
+        "en": "Languages take a small letter in French: \"l'espagnol\". Only the person takes a capital: \"un Espagnol, une Espagnole\".",
+        "hi": "फ़्रेंच में भाषाओं के नाम छोटे अक्षर से लिखे जाते हैं: \"l'espagnol\"। सिर्फ़ व्यक्ति के लिए बड़ा अक्षर: \"un Espagnol, une Espagnole\"।"
+      }
+    ],
+    "related": [
+      "langue",
+      "anglais",
+      "français"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "espanol",
+      "espagniol",
+      "éspagnol"
+    ]
+  },
+  {
+    "lemma": "espèces",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "espèces",
+    "en": [
+      "cash"
+    ],
+    "hi": [
+      "नक़द",
+      "कैश"
+    ],
+    "ipa": "ɛspɛs",
+    "pron": "ऐस-पैस",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "money",
+      "shopping"
+    ],
+    "examples": [
+      {
+        "fr": "Vous payez en espèces ou par carte ?",
+        "en": "Are you paying cash or by card?",
+        "hi": "आप नक़द देंगे या कार्ड से?"
+      },
+      {
+        "fr": "Je n'ai pas d'espèces sur moi.",
+        "en": "I don't have any cash on me.",
+        "hi": "मेरे पास अभी नक़द नहीं है।"
+      }
+    ],
+    "collocations": [
+      "payer en espèces",
+      "en espèces",
+      "retirer des espèces"
+    ],
+    "mistakes": [
+      {
+        "en": "In the meaning \"cash\" it is always plural: \"en espèces\". The singular \"une espèce\" means a species or a kind.",
+        "hi": "\"नक़द\" के अर्थ में यह हमेशा बहुवचन होता है: \"en espèces\"। एकवचन \"une espèce\" का मतलब प्रजाति या क़िस्म है।"
+      }
+    ],
+    "related": [
+      "argent",
+      "monnaie",
+      "carte",
+      "billet"
+    ],
+    "synonyms": [
+      "argent comptant",
+      "comptant"
+    ],
+    "misspellings": [
+      "espaces",
+      "éspèces",
+      "especes"
+    ]
+  },
+  {
+    "lemma": "essai",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "essais",
+    "en": [
+      "a trial, a test",
+      "an attempt, a try",
+      "an essay"
+    ],
+    "hi": [
+      "परीक्षण",
+      "आज़माइश",
+      "कोशिश",
+      "निबंध"
+    ],
+    "ipa": "esɛ",
+    "pron": "ए-सै",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "work",
+      "education"
+    ],
+    "examples": [
+      {
+        "fr": "La période d'essai dure trois mois.",
+        "en": "The trial period lasts three months.",
+        "hi": "परिवीक्षा अवधि (प्रोबेशन) तीन महीने की होती है।"
+      },
+      {
+        "fr": "Vous pouvez faire un essai gratuit de l'application.",
+        "en": "You can try the app for free.",
+        "hi": "आप ऐप को मुफ़्त में आज़मा सकते हैं।"
+      }
+    ],
+    "collocations": [
+      "la période d'essai",
+      "un essai gratuit",
+      "à l'essai",
+      "un essai routier"
+    ],
+    "mistakes": [
+      {
+        "en": "The final -ai is said like ऐ (ए-सै), and the plural is \"essais\" with a silent s.",
+        "hi": "अंत का -ai ऐ की तरह बोला जाता है (ए-सै), और बहुवचन \"essais\" में s नहीं बोला जाता।"
+      }
+    ],
+    "related": [
+      "essayer",
+      "test",
+      "expérience"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "essaie",
+      "essay",
+      "éssai"
+    ]
+  },
+  {
+    "lemma": "extrait",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "extraits",
+    "en": [
+      "extract, excerpt",
+      "certificate (extrait d'acte de naissance)"
+    ],
+    "hi": [
+      "अंश",
+      "उद्धरण",
+      "प्रमाणपत्र की प्रति"
+    ],
+    "ipa": "ɛkstʁɛ",
+    "pron": "ऐक्स-त्ग़ै",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "culture",
+      "media",
+      "administration"
+    ],
+    "examples": [
+      {
+        "fr": "Lisez cet extrait du roman.",
+        "en": "Read this extract from the novel.",
+        "hi": "उपन्यास का यह अंश पढ़िए।"
+      },
+      {
+        "fr": "Voici un extrait de l'entrevue.",
+        "en": "Here is an excerpt from the interview.",
+        "hi": "यह इंटरव्यू का एक अंश है।"
+      }
+    ],
+    "collocations": [
+      "un extrait de texte",
+      "un extrait vidéo",
+      "un extrait d'acte de naissance"
+    ],
+    "mistakes": [
+      {
+        "en": "The final t is silent: ऐक्स-त्ग़ै. Masculine: \"un extrait\".",
+        "hi": "अंतिम t नहीं बोला जाता: ऐक्स-त्ग़ै। पुल्लिंग: \"un extrait\"।"
+      }
+    ],
+    "related": [
+      "texte",
+      "article",
+      "document"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "extrai",
+      "éxtrait",
+      "extret"
+    ]
+  },
+  {
+    "lemma": "faute",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "fautes",
+    "en": [
+      "careless mistake",
+      "a mistake, an error",
+      "fault, blame"
+    ],
+    "hi": [
+      "ग़लती",
+      "भूल",
+      "दोष"
+    ],
+    "ipa": "fot",
+    "pron": "फ़ोत",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "education"
+    ],
+    "examples": [
+      {
+        "fr": "Il y a trois fautes d'orthographe dans ton courriel.",
+        "en": "There are three spelling mistakes in your email.",
+        "hi": "तुम्हारे ईमेल में स्पेलिंग की तीन ग़लतियाँ हैं।"
+      },
+      {
+        "fr": "Ce n'est pas ta faute.",
+        "en": "It's not your fault.",
+        "hi": "यह तुम्हारी ग़लती नहीं है।"
+      }
+    ],
+    "collocations": [
+      "une faute d'orthographe",
+      "une faute de frappe",
+      "c'est ma faute",
+      "sans faute"
+    ],
+    "mistakes": [
+      {
+        "en": "\"Faute\" is for spelling/grammar slips and blame; \"erreur\" is more general (an error of judgement, a wrong number). Both are feminine.",
+        "hi": "\"Faute\" स्पेलिंग/व्याकरण की चूक और दोष के लिए है; \"erreur\" ज़्यादा सामान्य है (ग़लत फ़ैसला, ग़लत नंबर)। दोनों स्त्रीलिंग हैं।"
+      }
+    ],
+    "related": [
+      "erreur",
+      "orthographe"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "faut",
+      "foute",
+      "fote"
+    ]
+  },
+  {
+    "lemma": "festival",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "festivals",
+    "en": [
+      "festival"
+    ],
+    "hi": [
+      "उत्सव",
+      "महोत्सव",
+      "फ़ेस्टिवल"
+    ],
+    "ipa": "fɛstival",
+    "pron": "फ़ैस-ती-वाल",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "culture"
+    ],
+    "examples": [
+      {
+        "fr": "Le Festival de jazz de Montréal a lieu en été.",
+        "en": "The Montréal Jazz Festival takes place in summer.",
+        "hi": "मॉन्ट्रियल जैज़ फ़ेस्टिवल गर्मियों में होता है।"
+      },
+      {
+        "fr": "Nous allons à un festival de cinéma.",
+        "en": "We're going to a film festival.",
+        "hi": "हम एक फ़िल्म महोत्सव में जा रहे हैं।"
+      }
+    ],
+    "collocations": [
+      "un festival de musique",
+      "un festival de cinéma",
+      "aller à un festival"
+    ],
+    "mistakes": [
+      {
+        "en": "The plural is \"festivals\", not \"festivaux\" (unlike journal → journaux).",
+        "hi": "बहुवचन \"festivals\" है, \"festivaux\" नहीं (journal → journaux से अलग)।"
+      }
+    ],
+    "related": [
+      "fête",
+      "musique",
+      "culture"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "festivale",
+      "festivaux",
+      "fèstival"
+    ]
+  },
+  {
+    "lemma": "fiche",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "fiches",
+    "en": [
+      "index card, sheet",
+      "form (to fill in)",
+      "record card"
+    ],
+    "hi": [
+      "कार्ड",
+      "पर्ची",
+      "फ़ॉर्म"
+    ],
+    "ipa": "fiʃ",
+    "pron": "फ़ीश",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "education",
+      "administration"
+    ],
+    "examples": [
+      {
+        "fr": "Je fais des fiches de vocabulaire pour réviser.",
+        "en": "I make vocabulary cards to revise.",
+        "hi": "मैं दोहराने के लिए शब्दों के कार्ड बनाता हूँ।"
+      },
+      {
+        "fr": "Remplissez cette fiche, s'il vous plaît.",
+        "en": "Please fill in this form.",
+        "hi": "कृपया यह फ़ॉर्म भरिए।"
+      }
+    ],
+    "collocations": [
+      "une fiche de révision",
+      "remplir une fiche",
+      "une fiche d'inscription",
+      "une fiche technique"
+    ],
+    "mistakes": [
+      {
+        "en": "Don't confuse \"fiche\" (card, sheet) with \"fichier\" (a computer file).",
+        "hi": "\"fiche\" (कार्ड, पर्ची) को \"fichier\" (कंप्यूटर फ़ाइल) से न मिलाएँ।"
+      }
+    ],
+    "related": [
+      "formulaire",
+      "document",
+      "papier"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "fishe",
+      "fich"
+    ]
+  },
+  {
+    "lemma": "file",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "files",
+    "en": [
+      "queue / line",
+      "lane (of traffic)"
+    ],
+    "hi": [
+      "क़तार",
+      "लाइन",
+      "पंक्ति"
+    ],
+    "ipa": "fil",
+    "pron": "फ़ील",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "city",
+      "shopping"
+    ],
+    "examples": [
+      {
+        "fr": "Il y a une longue file devant la boulangerie.",
+        "en": "There's a long line in front of the bakery.",
+        "hi": "बेकरी के सामने लंबी लाइन लगी है।"
+      },
+      {
+        "fr": "Au Québec, on dit souvent « faire la file ».",
+        "en": "In Québec people often say \"faire la file\" (to stand in line).",
+        "hi": "क्यूबेक में अक्सर « faire la file » (लाइन में लगना) कहते हैं।"
+      }
+    ],
+    "collocations": [
+      "faire la file",
+      "une file d'attente",
+      "en file indienne",
+      "la file de gauche"
+    ],
+    "mistakes": [
+      {
+        "en": "\"File\" is not a computer file (that's \"un fichier\"). In France people usually say \"faire la queue\"; in Québec and Belgium \"faire la file\".",
+        "hi": "\"File\" कंप्यूटर फ़ाइल नहीं है (वह \"un fichier\" है)। फ़्रांस में आम तौर पर \"faire la queue\" कहते हैं; क्यूबेक और बेल्जियम में \"faire la file\"।"
+      }
+    ],
+    "related": [
+      "queue",
+      "attente",
+      "guichet"
+    ],
+    "synonyms": [
+      "queue"
+    ],
+    "misspellings": [
+      "fil",
+      "fille",
+      "filee"
+    ]
+  },
+  {
+    "lemma": "fin",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "fins",
+    "en": [
+      "end",
+      "the weekend (Québec: la fin de semaine)"
+    ],
+    "hi": [
+      "अंत",
+      "आख़िर",
+      "सप्ताहांत (क्यूबेक)"
+    ],
+    "ipa": "fɛ̃",
+    "pron": "फ़ैँ",
+    "level": "A1",
+    "register": "neutral",
+    "topics": [
+      "time"
+    ],
+    "examples": [
+      {
+        "fr": "Bonne fin de semaine !",
+        "en": "Have a good weekend! (Québec)",
+        "hi": "आपका सप्ताहांत अच्छा हो!"
+      },
+      {
+        "fr": "Je pars à la fin du mois.",
+        "en": "I'm leaving at the end of the month.",
+        "hi": "मैं महीने के आख़िर में जा रहा हूँ।"
+      }
+    ],
+    "collocations": [
+      "la fin de semaine",
+      "à la fin de",
+      "en fin de journée",
+      "sans fin"
+    ],
+    "mistakes": [
+      {
+        "en": "\"Fin\" is feminine: \"la fin\". \"La fin de semaine\" is the Québec word for \"week-end\"; in France it means the end of the working week.",
+        "hi": "\"Fin\" स्त्रीलिंग है: \"la fin\"। \"La fin de semaine\" क्यूबेक में \"week-end\" के लिए कहते हैं; फ़्रांस में इसका मतलब कामकाजी हफ़्ते का आख़िरी हिस्सा है।"
+      }
+    ],
+    "related": [
+      "début",
+      "week-end",
+      "semaine",
+      "finir"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "fain",
+      "finn",
+      "fin de semain"
+    ]
+  },
+  {
+    "lemma": "formation",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "formations",
+    "en": [
+      "training, a training course",
+      "education, qualifications"
+    ],
+    "hi": [
+      "प्रशिक्षण",
+      "ट्रेनिंग",
+      "शिक्षा"
+    ],
+    "ipa": "fɔʁmasjɔ̃",
+    "pron": "फ़ॉग़-मा-स्योँ",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "work",
+      "education"
+    ],
+    "examples": [
+      {
+        "fr": "Je suis une formation en informatique.",
+        "en": "I'm taking a training course in IT.",
+        "hi": "मैं कंप्यूटर की ट्रेनिंग ले रहा हूँ।"
+      },
+      {
+        "fr": "Quelle est votre formation ?",
+        "en": "What is your educational background?",
+        "hi": "आपकी शिक्षा किस क्षेत्र में है?"
+      }
+    ],
+    "collocations": [
+      "suivre une formation",
+      "la formation professionnelle",
+      "une formation en ligne",
+      "la formation continue"
+    ],
+    "mistakes": [
+      {
+        "en": "Usually not \"formation\" in the English sense of shape; it means training or education. \"Suivre une formation\" = to take a course.",
+        "hi": "आम तौर पर इसका मतलब अंग्रेज़ी वाला \"formation\" (बनावट) नहीं है; मतलब है प्रशिक्षण या शिक्षा। \"Suivre une formation\" = कोर्स करना।"
+      }
+    ],
+    "related": [
+      "cours",
+      "stage",
+      "diplôme",
+      "compétence"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "formasion",
+      "fornation",
+      "formation professionel"
+    ]
+  },
+  {
+    "lemma": "formule",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "formules",
+    "en": [
+      "set phrase, formula",
+      "option, package (at a restaurant, hotel)"
+    ],
+    "hi": [
+      "तय वाक्यांश",
+      "सूत्र",
+      "पैकेज"
+    ],
+    "ipa": "fɔʁmyl",
+    "pron": "फ़ॉग़-मüल",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "education",
+      "work"
+    ],
+    "examples": [
+      {
+        "fr": "Apprenez les formules de politesse pour vos courriels.",
+        "en": "Learn the polite set phrases for your emails.",
+        "hi": "अपने ईमेल के लिए शिष्टाचार वाले वाक्यांश सीखिए।"
+      },
+      {
+        "fr": "La formule midi coûte 15 dollars.",
+        "en": "The lunch special costs 15 dollars.",
+        "hi": "दोपहर का पैकेज 15 डॉलर का है।"
+      }
+    ],
+    "collocations": [
+      "une formule de politesse",
+      "une formule toute faite",
+      "la formule midi"
+    ],
+    "mistakes": [
+      {
+        "en": "The u is ü, not ऊ: फ़ॉग़-मüल, not \"फ़ॉर्मूला\".",
+        "hi": "u का उच्चारण ü है, ऊ नहीं: फ़ॉग़-मüल, \"फ़ॉर्मूला\" नहीं।"
+      }
+    ],
+    "related": [
+      "expression",
+      "phrase",
+      "courriel"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "formul",
+      "formulle",
+      "fourmule"
+    ]
+  },
+  {
+    "lemma": "foulard",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "foulards",
+    "en": [
+      "scarf"
+    ],
+    "hi": [
+      "स्कार्फ़",
+      "दुपट्टा",
+      "रूमाल"
+    ],
+    "ipa": "fulaʁ",
+    "pron": "फ़ू-लाग़",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "clothes"
+    ],
+    "examples": [
+      {
+        "fr": "Elle porte un foulard en soie.",
+        "en": "She's wearing a silk scarf.",
+        "hi": "उसने रेशमी स्कार्फ़ पहना है।"
+      },
+      {
+        "fr": "J'ai acheté un foulard rouge pour ma mère.",
+        "en": "I bought a red scarf for my mother.",
+        "hi": "मैंने माँ के लिए लाल स्कार्फ़ ख़रीदा।"
+      }
+    ],
+    "collocations": [
+      "un foulard en soie",
+      "porter un foulard",
+      "nouer un foulard"
+    ],
+    "mistakes": [
+      {
+        "en": "A \"foulard\" is a light (often silk) scarf; a thick winter scarf is \"une écharpe\". The final d is silent.",
+        "hi": "\"foulard\" हल्का (अक्सर रेशमी) स्कार्फ़ है; सर्दियों का मोटा मफ़लर \"une écharpe\" है। अंतिम d नहीं बोला जाता।"
+      }
+    ],
+    "related": [
+      "écharpe",
+      "vêtement",
+      "chapeau"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "foular",
+      "fular"
+    ]
+  },
+  {
+    "lemma": "fréquentation",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "fréquentations",
+    "en": [
+      "attendance, number of visitors",
+      "company one keeps (plural)"
+    ],
+    "hi": [
+      "आने वालों की संख्या",
+      "उपस्थिति",
+      "संगत"
+    ],
+    "ipa": "fʁekɑ̃tasjɔ̃",
+    "pron": "फ़्ग़े-काँ-ता-स्योँ",
+    "level": "B2",
+    "register": "neutral",
+    "topics": [
+      "culture",
+      "society"
+    ],
+    "examples": [
+      {
+        "fr": "La fréquentation des bibliothèques a augmenté de 10 %.",
+        "en": "Library attendance has risen by 10%.",
+        "hi": "पुस्तकालयों में आने वालों की संख्या 10 % बढ़ गई है।"
+      },
+      {
+        "fr": "Le musée a battu son record de fréquentation.",
+        "en": "The museum broke its attendance record.",
+        "hi": "संग्रहालय ने दर्शकों की संख्या का रिकॉर्ड तोड़ दिया।"
+      }
+    ],
+    "collocations": [
+      "la fréquentation touristique",
+      "un record de fréquentation",
+      "une baisse de fréquentation"
+    ],
+    "mistakes": [
+      {
+        "en": "In news and statistics it means how many people visit a place, not \"frequency\" (= \"la fréquence\").",
+        "hi": "ख़बरों और आँकड़ों में इसका मतलब किसी जगह आने वाले लोगों की संख्या है, \"आवृत्ति\" नहीं (वह \"la fréquence\" है)।"
+      }
+    ],
+    "related": [
+      "visiteur",
+      "hausse",
+      "musée"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "frequentation",
+      "fréquantation",
+      "fréquentasion"
+    ]
+  },
+  {
+    "lemma": "fumée",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "fumées",
+    "en": [
+      "smoke"
+    ],
+    "hi": [
+      "धुआँ"
+    ],
+    "ipa": "fyme",
+    "pron": "फ़ü-मे",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "environment",
+      "health"
+    ],
+    "examples": [
+      {
+        "fr": "On voyait de la fumée au-dessus de l'immeuble.",
+        "en": "You could see smoke above the building.",
+        "hi": "इमारत के ऊपर धुआँ दिख रहा था।"
+      },
+      {
+        "fr": "La fumée des feux de forêt arrive jusqu'à Montréal.",
+        "en": "The smoke from the forest fires reaches Montréal.",
+        "hi": "जंगल की आग का धुआँ मॉन्ट्रियल तक पहुँचता है।"
+      }
+    ],
+    "collocations": [
+      "un détecteur de fumée",
+      "de la fumée noire",
+      "la fumée de cigarette"
+    ],
+    "mistakes": [
+      {
+        "en": "Feminine: \"la fumée\", while Hindi धुआँ is masculine. The u is ü: फ़ü-मे.",
+        "hi": "स्त्रीलिंग: \"la fumée\", जबकि हिंदी में धुआँ पुल्लिंग है। u का उच्चारण ü है: फ़ü-मे।"
+      }
+    ],
+    "related": [
+      "feu",
+      "incendie",
+      "pollution"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "fumee",
+      "fumé",
+      "fummée"
+    ]
+  },
+  {
+    "lemma": "garantie",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "garanties",
+    "en": [
+      "warranty / guarantee"
+    ],
+    "hi": [
+      "वारंटी",
+      "गारंटी"
+    ],
+    "ipa": "ɡaʁɑ̃ti",
+    "pron": "गा-ग़ाँ-ती",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "shopping"
+    ],
+    "examples": [
+      {
+        "fr": "Ce téléphone est encore sous garantie.",
+        "en": "This phone is still under warranty.",
+        "hi": "यह फ़ोन अभी वारंटी में है।"
+      },
+      {
+        "fr": "La garantie est de deux ans.",
+        "en": "The warranty is for two years.",
+        "hi": "वारंटी दो साल की है।"
+      }
+    ],
+    "collocations": [
+      "sous garantie",
+      "une garantie prolongée",
+      "la garantie du fabricant"
+    ],
+    "mistakes": [
+      {
+        "en": "Feminine and ends in -ie: \"la garantie\". English \"under warranty\" = \"sous garantie\" (no article).",
+        "hi": "स्त्रीलिंग, अंत में -ie: \"la garantie\"। अंग्रेज़ी \"under warranty\" = \"sous garantie\" (article नहीं)।"
+      }
+    ],
+    "related": [
+      "reçu",
+      "achat",
+      "magasin"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "garanti",
+      "guarantie",
+      "garentie"
+    ]
+  },
+  {
+    "lemma": "gaspillage",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "gaspillages",
+    "en": [
+      "waste, wasting",
+      "food waste (gaspillage alimentaire)"
+    ],
+    "hi": [
+      "बर्बादी",
+      "फ़िज़ूलख़र्ची",
+      "खाने की बर्बादी"
+    ],
+    "ipa": "ɡaspijaʒ",
+    "pron": "गास-पी-याझ़",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "environment",
+      "food",
+      "society"
+    ],
+    "examples": [
+      {
+        "fr": "Le gaspillage alimentaire est un grand problème.",
+        "en": "Food waste is a big problem.",
+        "hi": "खाने की बर्बादी एक बड़ी समस्या है।"
+      },
+      {
+        "fr": "Quel gaspillage d'argent !",
+        "en": "What a waste of money!",
+        "hi": "पैसे की कितनी बर्बादी!"
+      }
+    ],
+    "collocations": [
+      "le gaspillage alimentaire",
+      "lutter contre le gaspillage",
+      "un gaspillage d'énergie"
+    ],
+    "mistakes": [
+      {
+        "en": "\"Waste\" as rubbish is \"déchets\"; \"gaspillage\" is the act of wasting. \"-ill-\" is said य: गास-पी-याझ़.",
+        "hi": "कचरे वाले \"waste\" के लिए \"déchets\" है; \"gaspillage\" बर्बाद करने की क्रिया है। \"-ill-\" को य बोलते हैं: गास-पी-याझ़।"
+      }
+    ],
+    "related": [
+      "déchet",
+      "invendu",
+      "consommation"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "gaspilage",
+      "gaspillege",
+      "gaspiyage"
+    ]
+  },
+  {
+    "lemma": "gestionnaire",
+    "pos": "noun",
+    "gender": "mf",
+    "plural": "gestionnaires",
+    "en": [
+      "manager (Canada)",
+      "administrator"
+    ],
+    "hi": [
+      "प्रबंधक",
+      "मैनेजर"
+    ],
+    "ipa": "ʒɛstjɔnɛʁ",
+    "pron": "झ़ैस-त्यॉ-नैग़",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "work"
+    ],
+    "examples": [
+      {
+        "fr": "La gestionnaire du magasin m'a rappelé.",
+        "en": "The store manager called me back.",
+        "hi": "दुकान की मैनेजर ने मुझे वापस फ़ोन किया।"
+      },
+      {
+        "fr": "Il travaille comme gestionnaire de projet.",
+        "en": "He works as a project manager.",
+        "hi": "वह प्रोजेक्ट मैनेजर के रूप में काम करता है।"
+      }
+    ],
+    "collocations": [
+      "un gestionnaire de projet",
+      "le gestionnaire d'immeuble",
+      "une gestionnaire de compte"
+    ],
+    "mistakes": [
+      {
+        "en": "Same form for men and women: \"un/une gestionnaire\". Avoid the anglicism \"manager\" in formal Canadian French.",
+        "hi": "पुरुष और महिला दोनों के लिए एक ही रूप: \"un/une gestionnaire\"। औपचारिक कनाडाई फ़्रेंच में \"manager\" से बचें।"
+      }
+    ],
+    "related": [
+      "patron",
+      "directeur",
+      "équipe"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "gestionaire",
+      "gestionnair",
+      "jestionnaire"
+    ]
+  },
+  {
+    "lemma": "gomme",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "gommes",
+    "en": [
+      "eraser",
+      "chewing gum (Québec: la gomme)"
+    ],
+    "hi": [
+      "रबड़",
+      "इरेज़र",
+      "च्युइंग गम"
+    ],
+    "ipa": "ɡɔm",
+    "pron": "गॉम",
+    "level": "A1",
+    "register": "neutral",
+    "topics": [
+      "education"
+    ],
+    "examples": [
+      {
+        "fr": "Tu peux me prêter ta gomme ?",
+        "en": "Can you lend me your eraser?",
+        "hi": "क्या तुम मुझे अपना रबड़ दे सकते हो?"
+      },
+      {
+        "fr": "J'ai un crayon et une gomme dans ma trousse.",
+        "en": "I have a pencil and an eraser in my pencil case.",
+        "hi": "मेरे पेंसिल बॉक्स में एक पेंसिल और एक रबड़ है।"
+      }
+    ],
+    "collocations": [
+      "une gomme à effacer",
+      "une gomme à mâcher"
+    ],
+    "mistakes": [
+      {
+        "en": "In France \"une gomme\" is an eraser; in Québec \"de la gomme\" usually means chewing gum, and an eraser is \"une efface\".",
+        "hi": "फ़्रांस में \"une gomme\" रबड़ है; क्यूबेक में \"de la gomme\" आम तौर पर च्युइंग गम है, और रबड़ को \"une efface\" कहते हैं।"
+      }
+    ],
+    "related": [
+      "crayon",
+      "stylo",
+      "classe"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "gome",
+      "gom",
+      "gum"
+    ]
+  },
+  {
+    "lemma": "grand-parent",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "grands-parents",
+    "en": [
+      "grandparent",
+      "grandfather / grandmother"
+    ],
+    "hi": [
+      "दादा/दादी",
+      "नाना/नानी"
+    ],
+    "ipa": "ɡʁɑ̃paʁɑ̃",
+    "pron": "ग्ग़ाँ-पा-ग़ाँ",
+    "level": "A1",
+    "register": "neutral",
+    "topics": [
+      "family"
+    ],
+    "examples": [
+      {
+        "fr": "Chaque grand-parent a raconté une histoire.",
+        "en": "Each grandparent told a story.",
+        "hi": "हर दादा-दादी ने एक कहानी सुनाई।"
+      },
+      {
+        "fr": "Mon grand-père et ma grand-mère vivent à Lucknow.",
+        "en": "My grandfather and grandmother live in Lucknow.",
+        "hi": "मेरे दादा और दादी लखनऊ में रहते हैं।"
+      }
+    ],
+    "collocations": [
+      "un grand-parent",
+      "le grand-père",
+      "la grand-mère"
+    ],
+    "mistakes": [
+      {
+        "en": "The singular is rare; you mostly hear the plural \"les grands-parents\", where both parts take -s. Hindi distinguishes दादा (father's side) and नाना (mother's side); French does not.",
+        "hi": "एकवचन कम प्रयोग होता है; ज़्यादातर बहुवचन \"les grands-parents\" सुनाई देता है, जिसमें दोनों हिस्सों में -s लगता है। हिंदी में दादा (पिता की ओर) और नाना (माँ की ओर) अलग हैं; फ़्रेंच में नहीं।"
+      }
+    ],
+    "related": [
+      "grands-parents",
+      "grand-père",
+      "grand-mère",
+      "famille"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "grandparent",
+      "grand parent",
+      "grant-parent"
+    ]
+  },
+  {
+    "lemma": "grands-parents",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "grands-parents",
+    "en": [
+      "grandparents"
+    ],
+    "hi": [
+      "दादा-दादी",
+      "नाना-नानी"
+    ],
+    "ipa": "ɡʁɑ̃paʁɑ̃",
+    "pron": "ग्ग़ाँ-पा-ग़ाँ",
+    "level": "A1",
+    "register": "neutral",
+    "topics": [
+      "family"
+    ],
+    "examples": [
+      {
+        "fr": "Pendant mon enfance, je passais l'été chez mes grands-parents.",
+        "en": "In my childhood I spent the summer at my grandparents' house.",
+        "hi": "बचपन में मैं गर्मियाँ अपने दादा-दादी के घर बिताता था।"
+      },
+      {
+        "fr": "Mes grands-parents habitent avec nous.",
+        "en": "My grandparents live with us.",
+        "hi": "मेरे दादा-दादी हमारे साथ रहते हैं।"
+      }
+    ],
+    "collocations": [
+      "chez mes grands-parents",
+      "les grands-parents maternels",
+      "les grands-parents paternels"
+    ],
+    "mistakes": [
+      {
+        "en": "Both parts are plural: \"grands-parents\" (not \"grand-parents\"). \"Chez mes grands-parents\" = at my grandparents' place.",
+        "hi": "दोनों हिस्से बहुवचन हैं: \"grands-parents\" (\"grand-parents\" नहीं)। \"Chez mes grands-parents\" = मेरे दादा-दादी के घर।"
+      }
+    ],
+    "related": [
+      "grand-parent",
+      "grand-père",
+      "grand-mère",
+      "famille"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "grand-parents",
+      "grands parents",
+      "grandparents"
+    ]
+  },
+  {
+    "lemma": "guichet",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "guichets",
+    "en": [
+      "counter / service window",
+      "ticket office"
+    ],
+    "hi": [
+      "काउंटर",
+      "खिड़की",
+      "टिकट घर"
+    ],
+    "ipa": "ɡiʃɛ",
+    "pron": "गी-शै",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "city",
+      "administration",
+      "money"
+    ],
+    "examples": [
+      {
+        "fr": "Adressez-vous au guichet numéro 3.",
+        "en": "Please go to counter number 3.",
+        "hi": "कृपया काउंटर नंबर 3 पर जाइए।"
+      },
+      {
+        "fr": "Le guichet automatique ne marche pas.",
+        "en": "The ATM isn't working.",
+        "hi": "एटीएम काम नहीं कर रहा है।"
+      }
+    ],
+    "collocations": [
+      "le guichet automatique",
+      "au guichet",
+      "un guichet unique"
+    ],
+    "mistakes": [
+      {
+        "en": "The u is silent after g: गी-शै (not गुई-शै). \"Guichet automatique\" is the Canadian word for ATM.",
+        "hi": "g के बाद u नहीं बोला जाता: गी-शै (गुई-शै नहीं)। \"Guichet automatique\" एटीएम के लिए कनाडाई शब्द है।"
+      }
+    ],
+    "related": [
+      "banque",
+      "billet",
+      "file"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "guiché",
+      "gichet",
+      "guichais"
+    ]
+  },
+  {
+    "lemma": "guide",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "guides",
+    "en": [
+      "guide (person or book)"
+    ],
+    "hi": [
+      "गाइड",
+      "मार्गदर्शक",
+      "मार्गदर्शिका (किताब)"
+    ],
+    "ipa": "ɡid",
+    "pron": "गीद",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "travel",
+      "culture"
+    ],
+    "examples": [
+      {
+        "fr": "Le guide nous a montré la vieille ville.",
+        "en": "The guide showed us the old town.",
+        "hi": "गाइड ने हमें पुराना शहर दिखाया।"
+      },
+      {
+        "fr": "J'ai acheté un guide de voyage sur le Canada.",
+        "en": "I bought a travel guide about Canada.",
+        "hi": "मैंने कनाडा पर एक यात्रा-गाइड (किताब) ख़रीदी।"
+      }
+    ],
+    "collocations": [
+      "un guide touristique",
+      "un guide de voyage",
+      "une visite guidée"
+    ],
+    "mistakes": [
+      {
+        "en": "The book is always masculine (\"un guide\"); for a woman tour guide, \"une guide\" is now common. The u is silent: गीद.",
+        "hi": "किताब हमेशा पुल्लिंग है (\"un guide\"); महिला गाइड के लिए अब \"une guide\" आम है। u नहीं बोला जाता: गीद।"
+      }
+    ],
+    "related": [
+      "touriste",
+      "visite",
+      "voyage"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "gide",
+      "guid",
+      "gaide"
+    ]
+  },
+  {
+    "lemma": "guitare",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "guitares",
+    "en": [
+      "guitar"
+    ],
+    "hi": [
+      "गिटार"
+    ],
+    "ipa": "ɡitaʁ",
+    "pron": "गी-ताग़",
+    "level": "A1",
+    "register": "neutral",
+    "topics": [
+      "culture"
+    ],
+    "examples": [
+      {
+        "fr": "Mon frère joue de la guitare.",
+        "en": "My brother plays the guitar.",
+        "hi": "मेरा भाई गिटार बजाता है।"
+      },
+      {
+        "fr": "J'apprends la guitare depuis un an.",
+        "en": "I've been learning guitar for a year.",
+        "hi": "मैं एक साल से गिटार सीख रहा हूँ।"
+      }
+    ],
+    "collocations": [
+      "jouer de la guitare",
+      "une guitare électrique",
+      "un cours de guitare"
+    ],
+    "mistakes": [
+      {
+        "en": "For instruments use \"jouer de\": \"jouer de la guitare\", not \"jouer la guitare\" or \"jouer à la guitare\" (à is for sports and games).",
+        "hi": "वाद्य के लिए \"jouer de\" लगाते हैं: \"jouer de la guitare\", \"jouer la guitare\" या \"jouer à la guitare\" नहीं (à खेलों के लिए है)।"
+      }
+    ],
+    "related": [
+      "piano",
+      "musique"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "guitar",
+      "gitare",
+      "guittare"
+    ]
+  },
+  {
+    "lemma": "hausse",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "hausses",
+    "en": [
+      "rise, increase"
+    ],
+    "hi": [
+      "बढ़ोतरी",
+      "वृद्धि"
+    ],
+    "ipa": "os",
+    "pron": "ओस",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "money",
+      "society"
+    ],
+    "examples": [
+      {
+        "fr": "On observe une hausse des loyers à Toronto.",
+        "en": "There is a rise in rents in Toronto.",
+        "hi": "टोरंटो में किराए में बढ़ोतरी देखी जा रही है।"
+      },
+      {
+        "fr": "Les prix sont en hausse ce mois-ci.",
+        "en": "Prices are going up this month.",
+        "hi": "इस महीने दाम बढ़ रहे हैं।"
+      }
+    ],
+    "collocations": [
+      "en hausse",
+      "la hausse des prix",
+      "une forte hausse",
+      "une hausse de 5 %"
+    ],
+    "mistakes": [
+      {
+        "en": "The h is \"aspiré\": say \"la hausse\" (ला ओस), no elision — never \"l'hausse\". Opposite: \"la baisse\".",
+        "hi": "यहाँ h \"aspiré\" है: \"la hausse\" (ला ओस) कहें, elision नहीं — \"l'hausse\" कभी नहीं। उलटा: \"la baisse\"।"
+      }
+    ],
+    "related": [
+      "baisse",
+      "augmentation",
+      "prix"
+    ],
+    "synonyms": [
+      "augmentation"
+    ],
+    "misspellings": [
+      "hause",
+      "ausse",
+      "hosse"
+    ]
+  },
+  {
+    "lemma": "hindi",
+    "pos": "noun",
+    "gender": "m",
+    "en": [
+      "Hindi"
+    ],
+    "hi": [
+      "हिंदी"
+    ],
+    "ipa": "indi",
+    "pron": "इन-दी",
+    "level": "A1",
+    "register": "neutral",
+    "topics": [
+      "education",
+      "culture"
+    ],
+    "examples": [
+      {
+        "fr": "Je parle hindi et anglais.",
+        "en": "I speak Hindi and English.",
+        "hi": "मैं हिंदी और अंग्रेज़ी बोलता हूँ।"
+      },
+      {
+        "fr": "Comment dit-on « merci » en hindi ?",
+        "en": "How do you say \"merci\" in Hindi?",
+        "hi": "हिंदी में « merci » कैसे कहते हैं?"
+      }
+    ],
+    "collocations": [
+      "parler hindi",
+      "en hindi",
+      "un film en hindi"
+    ],
+    "mistakes": [
+      {
+        "en": "Like all languages, written with a small letter: \"le hindi\". The h is not pronounced.",
+        "hi": "सभी भाषाओं की तरह छोटे अक्षर से लिखा जाता है: \"le hindi\"। h नहीं बोला जाता।"
+      }
+    ],
+    "related": [
+      "langue",
+      "anglais",
+      "ourdou"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "hindou",
+      "indi",
+      "hindie"
+    ]
+  },
+  {
+    "lemma": "hockey",
+    "pos": "noun",
+    "gender": "m",
+    "en": [
+      "hockey (ice hockey in Canada)"
+    ],
+    "hi": [
+      "हॉकी",
+      "आइस हॉकी"
+    ],
+    "ipa": "ɔkɛ",
+    "pron": "ऑ-कै",
+    "level": "A1",
+    "register": "neutral",
+    "topics": [
+      "culture"
+    ],
+    "examples": [
+      {
+        "fr": "Au Canada, beaucoup d'enfants jouent au hockey.",
+        "en": "In Canada, many children play hockey.",
+        "hi": "कनाडा में बहुत से बच्चे हॉकी खेलते हैं।"
+      },
+      {
+        "fr": "On regarde le match de hockey ce soir ?",
+        "en": "Shall we watch the hockey game tonight?",
+        "hi": "क्या आज रात हॉकी मैच देखें?"
+      }
+    ],
+    "collocations": [
+      "jouer au hockey",
+      "un match de hockey",
+      "le hockey sur glace",
+      "un joueur de hockey"
+    ],
+    "mistakes": [
+      {
+        "en": "Sports take \"jouer à\": \"jouer au hockey\". The h is aspiré: \"le hockey\", never \"l'hockey\". In Canada, \"hockey\" alone means ice hockey.",
+        "hi": "खेलों के साथ \"jouer à\": \"jouer au hockey\"। h aspiré है: \"le hockey\", \"l'hockey\" कभी नहीं। कनाडा में अकेला \"hockey\" आइस हॉकी को कहते हैं।"
+      }
+    ],
+    "related": [
+      "match",
+      "patin",
+      "glace"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "hocky",
+      "hokey",
+      "okey"
+    ]
+  },
+  {
+    "lemma": "hébergement",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "hébergements",
+    "en": [
+      "accommodation",
+      "lodging",
+      "hosting (website)"
+    ],
+    "hi": [
+      "ठहरने की जगह",
+      "रहने का इंतज़ाम",
+      "आवास"
+    ],
+    "ipa": "ebɛʁʒəmɑ̃",
+    "pron": "ए-बैग़-झ़ö-माँ",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "travel",
+      "housing"
+    ],
+    "examples": [
+      {
+        "fr": "Le prix comprend le vol et l'hébergement.",
+        "en": "The price includes the flight and accommodation.",
+        "hi": "कीमत में उड़ान और ठहरने का ख़र्च शामिल है।"
+      },
+      {
+        "fr": "Nous cherchons un hébergement pas cher près du centre.",
+        "en": "We're looking for cheap accommodation near the centre.",
+        "hi": "हम शहर के बीच में सस्ती ठहरने की जगह ढूँढ़ रहे हैं।"
+      }
+    ],
+    "collocations": [
+      "un hébergement temporaire",
+      "l'hébergement et les repas",
+      "trouver un hébergement"
+    ],
+    "mistakes": [
+      {
+        "en": "Silent h with elision: \"l'hébergement\". Usually singular, unlike English \"accommodations\".",
+        "hi": "h नहीं बोला जाता और elision होता है: \"l'hébergement\"। आम तौर पर एकवचन, अंग्रेज़ी \"accommodations\" से अलग।"
+      }
+    ],
+    "related": [
+      "hôtel",
+      "logement",
+      "séjour",
+      "réservation"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "hebergement",
+      "hébergemant",
+      "ébergement"
+    ]
+  },
+  {
+    "lemma": "image",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "images",
+    "en": [
+      "picture, image"
+    ],
+    "hi": [
+      "तस्वीर",
+      "चित्र",
+      "छवि"
+    ],
+    "ipa": "imaʒ",
+    "pron": "ई-माझ़",
+    "level": "A1",
+    "register": "neutral",
+    "topics": [
+      "media",
+      "technology"
+    ],
+    "examples": [
+      {
+        "fr": "Regardez l'image et décrivez-la.",
+        "en": "Look at the picture and describe it.",
+        "hi": "तस्वीर देखिए और उसका वर्णन कीजिए।"
+      },
+      {
+        "fr": "Cette entreprise a une bonne image.",
+        "en": "This company has a good image.",
+        "hi": "इस कंपनी की छवि अच्छी है।"
+      }
+    ],
+    "collocations": [
+      "décrire une image",
+      "une image floue",
+      "l'image de marque"
+    ],
+    "mistakes": [
+      {
+        "en": "Feminine: \"une image\" (Hindi तस्वीर is feminine too), even though most -age nouns are masculine.",
+        "hi": "स्त्रीलिंग: \"une image\" (हिंदी तस्वीर भी स्त्रीलिंग है), जबकि ज़्यादातर -age वाले शब्द पुल्लिंग होते हैं।"
+      }
+    ],
+    "related": [
+      "photo",
+      "dessin",
+      "écran"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "imagge",
+      "immage",
+      "imaje"
+    ]
+  },
+  {
+    "lemma": "incendie",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "incendies",
+    "en": [
+      "a fire (destructive)",
+      "blaze"
+    ],
+    "hi": [
+      "आग",
+      "अग्निकांड"
+    ],
+    "ipa": "ɛ̃sɑ̃di",
+    "pron": "ऐँ-साँ-दी",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "society",
+      "housing"
+    ],
+    "examples": [
+      {
+        "fr": "Un incendie a détruit l'entrepôt cette nuit.",
+        "en": "A fire destroyed the warehouse last night.",
+        "hi": "कल रात आग ने गोदाम को नष्ट कर दिया।"
+      },
+      {
+        "fr": "En cas d'incendie, n'utilisez pas l'ascenseur.",
+        "en": "In case of fire, do not use the elevator.",
+        "hi": "आग लगने पर लिफ़्ट का प्रयोग न करें।"
+      }
+    ],
+    "collocations": [
+      "en cas d'incendie",
+      "un incendie de forêt",
+      "éteindre un incendie",
+      "une alarme incendie"
+    ],
+    "mistakes": [
+      {
+        "en": "Masculine despite the -ie ending: \"un incendie\". \"Un feu\" is any fire (also traffic light); \"incendie\" is a destructive one.",
+        "hi": "-ie के बावजूद पुल्लिंग: \"un incendie\"। \"Un feu\" कोई भी आग है (ट्रैफ़िक लाइट भी); \"incendie\" विनाशकारी आग है।"
+      }
+    ],
+    "related": [
+      "feu",
+      "pompier",
+      "fumée"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "incendi",
+      "insendie",
+      "incendy"
+    ]
+  },
+  {
+    "lemma": "incident",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "incidents",
+    "en": [
+      "an incident"
+    ],
+    "hi": [
+      "घटना",
+      "हादसा"
+    ],
+    "ipa": "ɛ̃sidɑ̃",
+    "pron": "ऐँ-सी-दाँ",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "society",
+      "transport"
+    ],
+    "examples": [
+      {
+        "fr": "Le métro est arrêté à cause d'un incident.",
+        "en": "The metro is stopped because of an incident.",
+        "hi": "एक घटना की वजह से मेट्रो रुकी हुई है।"
+      },
+      {
+        "fr": "L'incident n'a fait aucun blessé.",
+        "en": "Nobody was injured in the incident.",
+        "hi": "इस घटना में कोई घायल नहीं हुआ।"
+      }
+    ],
+    "collocations": [
+      "un incident technique",
+      "sans incident",
+      "un incident de parcours"
+    ],
+    "mistakes": [
+      {
+        "en": "The final t is silent: ऐँ-सी-दाँ (not \"इन्सिडेंट\"). The nasal in- is ऐँ.",
+        "hi": "अंतिम t नहीं बोला जाता: ऐँ-सी-दाँ (\"इन्सिडेंट\" नहीं)। नासिक्य in- को ऐँ बोलते हैं।"
+      }
+    ],
+    "related": [
+      "accident",
+      "problème",
+      "interruption"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "incidant",
+      "insident",
+      "incidence"
+    ]
+  },
+  {
+    "lemma": "inscription",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "inscriptions",
+    "en": [
+      "registration, sign-up",
+      "enrolment",
+      "inscription (written)"
+    ],
+    "hi": [
+      "पंजीकरण",
+      "रजिस्ट्रेशन",
+      "दाख़िला"
+    ],
+    "ipa": "ɛ̃skʁipsjɔ̃",
+    "pron": "ऐँस-क्ग़ीप-स्योँ",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "administration",
+      "education"
+    ],
+    "examples": [
+      {
+        "fr": "L'inscription au cours est gratuite.",
+        "en": "Registration for the course is free.",
+        "hi": "कोर्स में रजिस्ट्रेशन मुफ़्त है।"
+      },
+      {
+        "fr": "La date limite d'inscription est le 15 mars.",
+        "en": "The registration deadline is March 15.",
+        "hi": "रजिस्ट्रेशन की आख़िरी तारीख़ 15 मार्च है।"
+      }
+    ],
+    "collocations": [
+      "les frais d'inscription",
+      "une fiche d'inscription",
+      "la date limite d'inscription"
+    ],
+    "mistakes": [
+      {
+        "en": "The usual French word for \"registration\" is \"inscription\" (not \"registration\"). Feminine, like all -tion nouns.",
+        "hi": "\"registration\" के लिए आम फ़्रेंच शब्द \"inscription\" है। सभी -tion वाले शब्दों की तरह स्त्रीलिंग।"
+      }
+    ],
+    "related": [
+      "formulaire",
+      "cours",
+      "dossier"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "inscripcion",
+      "inscribtion",
+      "enscription"
+    ]
+  },
+  {
+    "lemma": "instituteur",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "instituteurs",
+    "feminine": "institutrice",
+    "en": [
+      "primary-school teacher",
+      "the (female) primary-school teacher (institutrice)"
+    ],
+    "hi": [
+      "प्राथमिक स्कूल का शिक्षक",
+      "प्राथमिक स्कूल की अध्यापिका"
+    ],
+    "ipa": "ɛ̃stitytœʁ",
+    "pron": "ऐँस-ती-तü-तöग़",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "education",
+      "work"
+    ],
+    "examples": [
+      {
+        "fr": "Mon institutrice s'appelait Madame Roy.",
+        "en": "My primary-school teacher was called Mrs Roy.",
+        "hi": "मेरी प्राथमिक स्कूल की अध्यापिका का नाम मैडम रॉय था।"
+      },
+      {
+        "fr": "L'instituteur lit une histoire aux enfants.",
+        "en": "The teacher reads a story to the children.",
+        "hi": "शिक्षक बच्चों को एक कहानी पढ़कर सुनाते हैं।"
+      }
+    ],
+    "collocations": [
+      "un instituteur de maternelle",
+      "devenir instituteur"
+    ],
+    "mistakes": [
+      {
+        "en": "Feminine: \"institutrice\" (-teur → -trice). In France the official title is now \"professeur des écoles\"; in Canada, \"enseignant\".",
+        "hi": "स्त्रीलिंग: \"institutrice\" (-teur → -trice)। फ़्रांस में अब आधिकारिक पद \"professeur des écoles\" है; कनाडा में \"enseignant\"।"
+      }
+    ],
+    "related": [
+      "enseignant",
+      "professeur",
+      "école",
+      "enfance"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "instituter",
+      "institutrise",
+      "instituteure"
+    ]
+  },
+  {
+    "lemma": "interruption",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "interruptions",
+    "en": [
+      "service interruption",
+      "interruption, break"
+    ],
+    "hi": [
+      "रुकावट",
+      "बाधा",
+      "सेवा बंद होना"
+    ],
+    "ipa": "ɛ̃tɛʁypsjɔ̃",
+    "pron": "ऐँ-तै-ग़üप-स्योँ",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "transport",
+      "technology"
+    ],
+    "examples": [
+      {
+        "fr": "Il y a une interruption de service sur la ligne verte.",
+        "en": "There is a service interruption on the green line.",
+        "hi": "ग्रीन लाइन पर सेवा रुकी हुई है।"
+      },
+      {
+        "fr": "Il a parlé pendant une heure sans interruption.",
+        "en": "He spoke for an hour without a break.",
+        "hi": "वह बिना रुके एक घंटे तक बोलता रहा।"
+      }
+    ],
+    "collocations": [
+      "une interruption de service",
+      "sans interruption",
+      "une interruption de courant"
+    ],
+    "mistakes": [
+      {
+        "en": "Only one r is heard: ऐँ-तै-ग़üप-स्योँ. The u is ü.",
+        "hi": "सिर्फ़ एक r सुनाई देता है: ऐँ-तै-ग़üप-स्योँ। u का उच्चारण ü है।"
+      }
+    ],
+    "related": [
+      "incident",
+      "retard",
+      "métro"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "interuption",
+      "interrupsion",
+      "intérruption"
+    ]
+  },
+  {
+    "lemma": "invendu",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "invendus",
+    "en": [
+      "unsold goods",
+      "unsold item"
+    ],
+    "hi": [
+      "बिना बिका माल"
+    ],
+    "ipa": "ɛ̃vɑ̃dy",
+    "pron": "ऐँ-वाँ-दü",
+    "level": "B2",
+    "register": "neutral",
+    "topics": [
+      "shopping",
+      "environment"
+    ],
+    "examples": [
+      {
+        "fr": "Les supermarchés donnent leurs invendus aux banques alimentaires.",
+        "en": "Supermarkets give their unsold goods to food banks.",
+        "hi": "सुपरमार्केट अपना बिना बिका माल फ़ूड बैंकों को दे देते हैं।"
+      }
+    ],
+    "collocations": [
+      "les invendus alimentaires",
+      "donner les invendus",
+      "détruire les invendus"
+    ],
+    "mistakes": [
+      {
+        "en": "Mostly used in the plural, \"les invendus\" (liaison: लै ज़ैँ-वाँ-दü).",
+        "hi": "ज़्यादातर बहुवचन में प्रयोग होता है, \"les invendus\" (liaison: लै ज़ैँ-वाँ-दü)।"
+      }
+    ],
+    "related": [
+      "gaspillage",
+      "vente",
+      "magasin"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "invandu",
+      "invendue"
+    ]
+  },
+  {
+    "lemma": "itinéraire",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "itinéraires",
+    "en": [
+      "the itinerary, the route"
+    ],
+    "hi": [
+      "रास्ता",
+      "यात्रा-मार्ग",
+      "यात्रा कार्यक्रम"
+    ],
+    "ipa": "itineʁɛʁ",
+    "pron": "ई-ती-ने-ग़ैग़",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "travel",
+      "transport"
+    ],
+    "examples": [
+      {
+        "fr": "Quel est le meilleur itinéraire pour aller à l'aéroport ?",
+        "en": "What's the best route to the airport?",
+        "hi": "हवाई अड्डे जाने का सबसे अच्छा रास्ता कौन सा है?"
+      },
+      {
+        "fr": "Nous avons préparé l'itinéraire de notre voyage.",
+        "en": "We've planned the itinerary for our trip.",
+        "hi": "हमने अपनी यात्रा का कार्यक्रम तैयार कर लिया है।"
+      }
+    ],
+    "collocations": [
+      "calculer un itinéraire",
+      "un itinéraire bis",
+      "changer d'itinéraire"
+    ],
+    "mistakes": [
+      {
+        "en": "Masculine despite the -e: \"un itinéraire\". Spelled -aire, not -ary.",
+        "hi": "-e के बावजूद पुल्लिंग: \"un itinéraire\"। स्पेलिंग -aire है, -ary नहीं।"
+      }
+    ],
+    "related": [
+      "trajet",
+      "chemin",
+      "plan",
+      "voyage"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "itineraire",
+      "itinéraïre",
+      "itinerary"
+    ]
+  },
+  {
+    "lemma": "justificatif",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "justificatifs",
+    "en": [
+      "supporting document, proof"
+    ],
+    "hi": [
+      "सबूत",
+      "प्रमाण-पत्र",
+      "सहायक दस्तावेज़"
+    ],
+    "ipa": "ʒystifikatif",
+    "pron": "झ़üस-ती-फ़ी-का-तीफ़",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "administration"
+    ],
+    "examples": [
+      {
+        "fr": "Il faut fournir un justificatif de domicile.",
+        "en": "You must provide proof of address.",
+        "hi": "पते का सबूत देना होगा।"
+      },
+      {
+        "fr": "Gardez vos justificatifs de dépenses.",
+        "en": "Keep your receipts for expenses.",
+        "hi": "अपने ख़र्चों की रसीदें संभालकर रखिए।"
+      }
+    ],
+    "collocations": [
+      "un justificatif de domicile",
+      "un justificatif d'identité",
+      "fournir un justificatif"
+    ],
+    "mistakes": [
+      {
+        "en": "A noun here (\"un justificatif\"), though it looks like an adjective. Begins with झ़ü, not जस्.",
+        "hi": "यहाँ यह संज्ञा है (\"un justificatif\"), भले ही विशेषण जैसा दिखे। शुरुआत झ़ü से होती है, जस् से नहीं।"
+      }
+    ],
+    "related": [
+      "preuve",
+      "document",
+      "dossier"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "justificative",
+      "justifficatif",
+      "justificatife"
+    ]
+  },
+  {
+    "lemma": "kilo",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "kilos",
+    "en": [
+      "kilo"
+    ],
+    "hi": [
+      "किलो"
+    ],
+    "ipa": "kilo",
+    "pron": "की-लो",
+    "level": "A1",
+    "register": "neutral",
+    "topics": [
+      "food",
+      "shopping"
+    ],
+    "examples": [
+      {
+        "fr": "Un kilo de tomates, s'il vous plaît.",
+        "en": "A kilo of tomatoes, please.",
+        "hi": "एक किलो टमाटर दीजिए।"
+      },
+      {
+        "fr": "J'ai pris deux kilos pendant les vacances.",
+        "en": "I put on two kilos during the holidays.",
+        "hi": "छुट्टियों में मेरा वज़न दो किलो बढ़ गया।"
+      }
+    ],
+    "collocations": [
+      "un kilo de",
+      "un demi-kilo",
+      "le prix au kilo"
+    ],
+    "mistakes": [
+      {
+        "en": "Use \"de\" after a quantity: \"un kilo de pommes\", not \"un kilo des pommes\".",
+        "hi": "मात्रा के बाद \"de\" लगता है: \"un kilo de pommes\", \"un kilo des pommes\" नहीं।"
+      }
+    ],
+    "related": [
+      "litre",
+      "poids",
+      "marché"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "killo"
+    ]
+  },
+  {
+    "lemma": "kilométrage",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "kilométrages",
+    "en": [
+      "mileage"
+    ],
+    "hi": [
+      "कितने किलोमीटर चली (गाड़ी)",
+      "माइलेज"
+    ],
+    "ipa": "kilometʁaʒ",
+    "pron": "की-लो-मे-त्ग़ाझ़",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "transport"
+    ],
+    "examples": [
+      {
+        "fr": "La location comprend le kilométrage illimité.",
+        "en": "The rental includes unlimited mileage.",
+        "hi": "किराए में असीमित किलोमीटर शामिल हैं।"
+      },
+      {
+        "fr": "Cette voiture d'occasion a un faible kilométrage.",
+        "en": "This used car has low mileage.",
+        "hi": "यह पुरानी गाड़ी बहुत कम चली है।"
+      }
+    ],
+    "collocations": [
+      "le kilométrage illimité",
+      "un faible kilométrage",
+      "vérifier le kilométrage"
+    ],
+    "mistakes": [
+      {
+        "en": "Not about fuel economy: \"kilométrage\" is the distance a car has travelled. Fuel consumption is \"la consommation\".",
+        "hi": "यह ईंधन की खपत नहीं है: \"kilométrage\" गाड़ी द्वारा तय की गई दूरी है। ईंधन की खपत = \"la consommation\"।"
+      }
+    ],
+    "related": [
+      "voiture",
+      "location",
+      "route"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "kilometrage",
+      "kilométrge",
+      "kilomètrage"
+    ]
+  },
+  {
+    "lemma": "lettre",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "lettres",
+    "en": [
+      "letter (of the alphabet; also a letter you post)"
+    ],
+    "hi": [
+      "अक्षर",
+      "चिट्ठी",
+      "पत्र"
+    ],
+    "ipa": "lɛtʁ",
+    "pron": "लैत्ग़",
+    "level": "A1",
+    "register": "neutral",
+    "topics": [
+      "education",
+      "administration"
+    ],
+    "examples": [
+      {
+        "fr": "Le mot « bonjour » a sept lettres.",
+        "en": "The word \"bonjour\" has seven letters.",
+        "hi": "« bonjour » शब्द में सात अक्षर हैं।"
+      },
+      {
+        "fr": "J'ai reçu une lettre de l'immigration.",
+        "en": "I received a letter from immigration.",
+        "hi": "मुझे इमिग्रेशन विभाग से एक पत्र मिला।"
+      }
+    ],
+    "collocations": [
+      "une lettre majuscule",
+      "écrire une lettre",
+      "une lettre de motivation",
+      "la boîte aux lettres"
+    ],
+    "mistakes": [
+      {
+        "en": "The final -tre is a short त्ग़ with no vowel after it: लैत्ग़, not \"लेटर\".",
+        "hi": "अंत का -tre छोटा त्ग़ है, उसके बाद कोई स्वर नहीं: लैत्ग़, \"लेटर\" नहीं।"
+      }
+    ],
+    "related": [
+      "mot",
+      "majuscule",
+      "courriel",
+      "poste"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "letre",
+      "lèttre",
+      "lettr"
+    ]
+  },
+  {
+    "lemma": "ligne",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "lignes",
+    "en": [
+      "line (metro / bus)",
+      "line",
+      "figure (keep one's figure)"
+    ],
+    "hi": [
+      "लाइन",
+      "रेखा",
+      "रूट"
+    ],
+    "ipa": "liɲ",
+    "pron": "लीन्य",
+    "level": "A1",
+    "register": "neutral",
+    "topics": [
+      "transport",
+      "city"
+    ],
+    "examples": [
+      {
+        "fr": "Prenez la ligne orange jusqu'à Berri-UQAM.",
+        "en": "Take the orange line to Berri-UQAM.",
+        "hi": "बेरी-उकाम तक ऑरेंज लाइन लीजिए।"
+      },
+      {
+        "fr": "Vous pouvez payer en ligne.",
+        "en": "You can pay online.",
+        "hi": "आप ऑनलाइन भुगतान कर सकते हैं।"
+      }
+    ],
+    "collocations": [
+      "la ligne de métro",
+      "en ligne",
+      "une ligne d'autobus",
+      "garder la ligne"
+    ],
+    "mistakes": [
+      {
+        "en": "\"gn\" is न्य: लीन्य. \"En ligne\" = online.",
+        "hi": "\"gn\" को न्य बोलते हैं: लीन्य। \"En ligne\" = ऑनलाइन।"
+      }
+    ],
+    "related": [
+      "métro",
+      "autobus",
+      "station",
+      "arrêt"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "line",
+      "lign"
+    ]
+  },
+  {
+    "lemma": "linge",
+    "pos": "noun",
+    "gender": "m",
+    "en": [
+      "the laundry, the washing",
+      "linen"
+    ],
+    "hi": [
+      "कपड़े (धुलाई वाले)",
+      "धुलाई के कपड़े"
+    ],
+    "ipa": "lɛ̃ʒ",
+    "pron": "लैँझ़",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "housing"
+    ],
+    "examples": [
+      {
+        "fr": "Je fais le linge le samedi.",
+        "en": "I do the laundry on Saturdays.",
+        "hi": "मैं शनिवार को कपड़े धोता हूँ।"
+      },
+      {
+        "fr": "Le linge sèche sur le balcon.",
+        "en": "The washing is drying on the balcony.",
+        "hi": "कपड़े बालकनी में सूख रहे हैं।"
+      }
+    ],
+    "collocations": [
+      "laver le linge",
+      "étendre le linge",
+      "plier le linge",
+      "le linge sale"
+    ],
+    "mistakes": [
+      {
+        "en": "A singular, uncountable noun: \"le linge\" = all the laundry. Don't say \"les linges\" for clothes to wash.",
+        "hi": "यह एकवचन, अगणनीय शब्द है: \"le linge\" = धुलाई के सारे कपड़े। धोने वाले कपड़ों के लिए \"les linges\" न कहें।"
+      }
+    ],
+    "related": [
+      "machine",
+      "buanderie",
+      "vêtement",
+      "ménage"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "lainge",
+      "linje",
+      "linges"
+    ]
+  },
+  {
+    "lemma": "liste",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "listes",
+    "en": [
+      "list",
+      "waiting list (liste d'attente)"
+    ],
+    "hi": [
+      "सूची",
+      "लिस्ट",
+      "प्रतीक्षा सूची"
+    ],
+    "ipa": "list",
+    "pron": "लीस्त",
+    "level": "A1",
+    "register": "neutral",
+    "topics": [
+      "administration",
+      "shopping"
+    ],
+    "examples": [
+      {
+        "fr": "Je suis sur une liste d'attente pour un médecin de famille.",
+        "en": "I'm on a waiting list for a family doctor.",
+        "hi": "मैं फ़ैमिली डॉक्टर के लिए प्रतीक्षा सूची में हूँ।"
+      },
+      {
+        "fr": "J'ai fait la liste des courses.",
+        "en": "I made the shopping list.",
+        "hi": "मैंने ख़रीदारी की लिस्ट बना ली।"
+      }
+    ],
+    "collocations": [
+      "une liste d'attente",
+      "la liste des courses",
+      "faire une liste",
+      "être sur la liste"
+    ],
+    "mistakes": [
+      {
+        "en": "\"On a list\" is \"sur une liste\" (not \"dans\"). Feminine: \"la liste\".",
+        "hi": "\"On a list\" = \"sur une liste\" (\"dans\" नहीं)। स्त्रीलिंग: \"la liste\"।"
+      }
+    ],
+    "related": [
+      "attente",
+      "nom",
+      "inscription"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "list",
+      "lisste",
+      "listte"
+    ]
+  },
+  {
+    "lemma": "litre",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "litres",
+    "en": [
+      "litre"
+    ],
+    "hi": [
+      "लीटर"
+    ],
+    "ipa": "litʁ",
+    "pron": "लीत्ग़",
+    "level": "A1",
+    "register": "neutral",
+    "topics": [
+      "food",
+      "shopping"
+    ],
+    "examples": [
+      {
+        "fr": "Achète deux litres de lait, s'il te plaît.",
+        "en": "Buy two litres of milk, please.",
+        "hi": "कृपया दो लीटर दूध ले आओ।"
+      },
+      {
+        "fr": "L'essence coûte 1,60 $ le litre.",
+        "en": "Gas costs $1.60 a litre.",
+        "hi": "पेट्रोल 1,60 डॉलर प्रति लीटर है।"
+      }
+    ],
+    "collocations": [
+      "un litre de",
+      "un demi-litre",
+      "le prix au litre"
+    ],
+    "mistakes": [
+      {
+        "en": "Masculine: \"un litre\", and \"de\" after it: \"un litre d'eau\". \"Per litre\" = \"le litre\".",
+        "hi": "पुल्लिंग: \"un litre\", और उसके बाद \"de\": \"un litre d'eau\"। \"प्रति लीटर\" = \"le litre\"।"
+      }
+    ],
+    "related": [
+      "kilo",
+      "bouteille",
+      "eau"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "liter",
+      "littre",
+      "litr"
+    ]
+  },
+  {
+    "lemma": "logiciel",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "logiciels",
+    "en": [
+      "software, a program"
+    ],
+    "hi": [
+      "सॉफ़्टवेयर",
+      "प्रोग्राम"
+    ],
+    "ipa": "lɔʒisjɛl",
+    "pron": "लॉ-झ़ी-स्यैल",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "technology",
+      "work"
+    ],
+    "examples": [
+      {
+        "fr": "Je maîtrise plusieurs logiciels de comptabilité.",
+        "en": "I'm proficient in several accounting programs.",
+        "hi": "मुझे अकाउंटिंग के कई सॉफ़्टवेयर अच्छी तरह आते हैं।"
+      },
+      {
+        "fr": "Il faut installer ce logiciel sur l'ordinateur.",
+        "en": "You have to install this software on the computer.",
+        "hi": "यह सॉफ़्टवेयर कंप्यूटर पर इंस्टॉल करना होगा।"
+      }
+    ],
+    "collocations": [
+      "installer un logiciel",
+      "un logiciel libre",
+      "la mise à jour du logiciel"
+    ],
+    "mistakes": [
+      {
+        "en": "English \"software\" is uncountable, but \"un logiciel\" is countable: \"deux logiciels\" = two programs.",
+        "hi": "अंग्रेज़ी \"software\" अगणनीय है, लेकिन \"un logiciel\" गिना जा सकता है: \"deux logiciels\" = दो प्रोग्राम।"
+      }
+    ],
+    "related": [
+      "ordinateur",
+      "application",
+      "informatique"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "logicielle",
+      "logisiel",
+      "logiciell"
+    ]
+  },
+  {
+    "lemma": "loisir",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "loisirs",
+    "en": [
+      "leisure activities / hobbies",
+      "free time"
+    ],
+    "hi": [
+      "शौक़",
+      "फ़ुर्सत",
+      "मनोरंजन"
+    ],
+    "ipa": "lwaziʁ",
+    "pron": "ल्वा-ज़ीग़",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "culture"
+    ],
+    "examples": [
+      {
+        "fr": "Quels sont tes loisirs ?",
+        "en": "What are your hobbies?",
+        "hi": "तुम्हारे शौक़ क्या हैं?"
+      },
+      {
+        "fr": "Je n'ai pas beaucoup de temps pour mes loisirs.",
+        "en": "I don't have much time for my hobbies.",
+        "hi": "मेरे पास अपने शौक़ों के लिए ज़्यादा समय नहीं है।"
+      }
+    ],
+    "collocations": [
+      "les loisirs",
+      "le temps de loisir",
+      "un centre de loisirs",
+      "à loisir"
+    ],
+    "mistakes": [
+      {
+        "en": "Usually plural for hobbies: \"mes loisirs\". \"oi\" = वा and the s between vowels = ज़: ल्वा-ज़ीग़.",
+        "hi": "शौक़ों के लिए आम तौर पर बहुवचन: \"mes loisirs\"। \"oi\" = वा और स्वरों के बीच s = ज़: ल्वा-ज़ीग़।"
+      }
+    ],
+    "related": [
+      "sport",
+      "musique",
+      "passe-temps"
+    ],
+    "synonyms": [
+      "passe-temps"
+    ],
+    "misspellings": [
+      "loisire",
+      "loizir"
+    ]
+  },
+  {
+    "lemma": "loterie",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "loteries",
+    "en": [
+      "lottery"
+    ],
+    "hi": [
+      "लॉटरी"
+    ],
+    "ipa": "lɔtʁi",
+    "pron": "लॉ-त्ग़ी",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "money"
+    ],
+    "examples": [
+      {
+        "fr": "Il a gagné un million à la loterie.",
+        "en": "He won a million in the lottery.",
+        "hi": "उसने लॉटरी में दस लाख जीते।"
+      },
+      {
+        "fr": "Gagner à la loterie ne rend pas toujours heureux.",
+        "en": "Winning the lottery doesn't always make you happy.",
+        "hi": "लॉटरी जीतने से हमेशा ख़ुशी नहीं मिलती।"
+      }
+    ],
+    "collocations": [
+      "gagner à la loterie",
+      "un billet de loterie",
+      "jouer à la loterie"
+    ],
+    "mistakes": [
+      {
+        "en": "Only one t: \"loterie\". The middle e is silent: लॉ-त्ग़ी.",
+        "hi": "सिर्फ़ एक t: \"loterie\"। बीच का e नहीं बोला जाता: लॉ-त्ग़ी।"
+      }
+    ],
+    "related": [
+      "millionnaire",
+      "chance",
+      "billet"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "lotterie",
+      "loterrie",
+      "lottery"
+    ]
+  },
+  {
+    "lemma": "lycée",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "lycées",
+    "en": [
+      "secondary school, high school"
+    ],
+    "hi": [
+      "हाई स्कूल",
+      "उच्च माध्यमिक विद्यालय"
+    ],
+    "ipa": "lise",
+    "pron": "ली-से",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "education"
+    ],
+    "examples": [
+      {
+        "fr": "Ma fille est au lycée en France.",
+        "en": "My daughter is in high school in France.",
+        "hi": "मेरी बेटी फ़्रांस में हाई स्कूल में है।"
+      },
+      {
+        "fr": "Au lycée, j'étudiais les sciences.",
+        "en": "In high school I studied science.",
+        "hi": "हाई स्कूल में मैं विज्ञान पढ़ता था।"
+      }
+    ],
+    "collocations": [
+      "aller au lycée",
+      "un lycée professionnel",
+      "au lycée"
+    ],
+    "mistakes": [
+      {
+        "en": "Masculine despite -ée: \"le lycée\" (like \"le musée\"). It's a France word; in Québec, say \"l'école secondaire\" (then \"le cégep\").",
+        "hi": "-ée के बावजूद पुल्लिंग: \"le lycée\" (\"le musée\" की तरह)। यह फ़्रांस का शब्द है; क्यूबेक में \"l'école secondaire\" (फिर \"le cégep\") कहते हैं।"
+      }
+    ],
+    "related": [
+      "école",
+      "collège",
+      "élève"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "lycee",
+      "lisée",
+      "lycé"
+    ]
+  },
+  {
+    "lemma": "machine",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "machines",
+    "en": [
+      "machine",
+      "the washing machine (machine à laver)"
+    ],
+    "hi": [
+      "मशीन",
+      "वॉशिंग मशीन"
+    ],
+    "ipa": "maʃin",
+    "pron": "मा-शीन",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "housing"
+    ],
+    "examples": [
+      {
+        "fr": "La machine à laver est en panne.",
+        "en": "The washing machine is broken.",
+        "hi": "वॉशिंग मशीन ख़राब है।"
+      },
+      {
+        "fr": "Je mets une machine avant de partir.",
+        "en": "I'm putting a load of washing on before I leave.",
+        "hi": "जाने से पहले मैं मशीन में कपड़े डाल देता हूँ।"
+      }
+    ],
+    "collocations": [
+      "la machine à laver",
+      "mettre une machine",
+      "une machine à café",
+      "lancer une machine"
+    ],
+    "mistakes": [
+      {
+        "en": "\"ch\" is श, not च: मा-शीन. Informally \"une machine\" alone can mean a load of laundry.",
+        "hi": "\"ch\" को श बोलते हैं, च नहीं: मा-शीन। बोलचाल में अकेला \"une machine\" का मतलब एक बार की धुलाई भी हो सकता है।"
+      }
+    ],
+    "related": [
+      "machine à laver",
+      "linge",
+      "buanderie"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "machin",
+      "mashine",
+      "machinne"
+    ]
+  },
+  {
+    "lemma": "majuscule",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "majuscules",
+    "en": [
+      "capital letter"
+    ],
+    "hi": [
+      "बड़ा अक्षर",
+      "कैपिटल लेटर"
+    ],
+    "ipa": "maʒyskyl",
+    "pron": "मा-झ़üस-कüल",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "education"
+    ],
+    "examples": [
+      {
+        "fr": "Écrivez votre nom en majuscules.",
+        "en": "Write your name in capital letters.",
+        "hi": "अपना नाम बड़े अक्षरों में लिखिए।"
+      },
+      {
+        "fr": "Une phrase commence par une majuscule.",
+        "en": "A sentence begins with a capital letter.",
+        "hi": "वाक्य बड़े अक्षर से शुरू होता है।"
+      }
+    ],
+    "collocations": [
+      "en majuscules",
+      "une lettre majuscule",
+      "commencer par une majuscule"
+    ],
+    "mistakes": [
+      {
+        "en": "French uses fewer capitals than English: no capital for languages, days, months or nationality adjectives (\"lundi\", \"juin\", \"le français\").",
+        "hi": "फ़्रेंच में अंग्रेज़ी से कम बड़े अक्षर लगते हैं: भाषाओं, दिनों, महीनों और राष्ट्रीयता वाले विशेषणों में नहीं (\"lundi\", \"juin\", \"le français\")।"
+      }
+    ],
+    "related": [
+      "minuscule",
+      "lettre",
+      "ponctuation"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "majiscule",
+      "majuscul",
+      "majusucle"
+    ]
+  },
+  {
+    "lemma": "malentendu",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "malentendus",
+    "en": [
+      "misunderstanding"
+    ],
+    "hi": [
+      "ग़लतफ़हमी"
+    ],
+    "ipa": "malɑ̃tɑ̃dy",
+    "pron": "मा-लाँ-ताँ-दü",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "emotions"
+    ],
+    "examples": [
+      {
+        "fr": "Je crois qu'il y a un malentendu.",
+        "en": "I think there's a misunderstanding.",
+        "hi": "मुझे लगता है कोई ग़लतफ़हमी है।"
+      },
+      {
+        "fr": "On a réglé le malentendu en discutant.",
+        "en": "We cleared up the misunderstanding by talking.",
+        "hi": "हमने बात करके ग़लतफ़हमी दूर कर ली।"
+      }
+    ],
+    "collocations": [
+      "un simple malentendu",
+      "dissiper un malentendu",
+      "à cause d'un malentendu"
+    ],
+    "mistakes": [
+      {
+        "en": "Masculine (Hindi ग़लतफ़हमी is feminine): \"un malentendu\". Written as one word.",
+        "hi": "पुल्लिंग है (हिंदी ग़लतफ़हमी स्त्रीलिंग है): \"un malentendu\"। एक ही शब्द में लिखा जाता है।"
+      }
+    ],
+    "related": [
+      "problème",
+      "erreur",
+      "nuance"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "mal entendu",
+      "malantendu",
+      "malentendue"
+    ]
+  },
+  {
+    "lemma": "match",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "matchs",
+    "en": [
+      "the match, the game"
+    ],
+    "hi": [
+      "मैच",
+      "मुक़ाबला"
+    ],
+    "ipa": "matʃ",
+    "pron": "माच",
+    "level": "A1",
+    "register": "neutral",
+    "topics": [
+      "culture"
+    ],
+    "examples": [
+      {
+        "fr": "On regarde le match ce soir ?",
+        "en": "Shall we watch the game tonight?",
+        "hi": "क्या आज रात मैच देखें?"
+      },
+      {
+        "fr": "Les Canadiens ont gagné le match 3 à 1.",
+        "en": "The Canadiens won the game 3–1.",
+        "hi": "कैनेडियन्स ने मैच 3-1 से जीता।"
+      }
+    ],
+    "collocations": [
+      "un match de hockey",
+      "gagner un match",
+      "un match nul",
+      "regarder un match"
+    ],
+    "mistakes": [
+      {
+        "en": "Plural \"matchs\" (also seen: \"matches\"). \"Un match nul\" = a draw.",
+        "hi": "बहुवचन \"matchs\" (कभी-कभी \"matches\" भी)। \"Un match nul\" = बराबरी पर छूटा मैच।"
+      }
+    ],
+    "related": [
+      "hockey",
+      "équipe",
+      "sport"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "matche",
+      "mach",
+      "matsch"
+    ]
+  },
+  {
+    "lemma": "millionnaire",
+    "pos": "noun",
+    "gender": "mf",
+    "plural": "millionnaires",
+    "en": [
+      "millionaire"
+    ],
+    "hi": [
+      "करोड़पति",
+      "लखपति"
+    ],
+    "ipa": "miljɔnɛʁ",
+    "pron": "मी-ल्यॉ-नैग़",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "money"
+    ],
+    "examples": [
+      {
+        "fr": "Si j'étais millionnaire, je voyagerais partout.",
+        "en": "If I were a millionaire, I'd travel everywhere.",
+        "hi": "अगर मैं करोड़पति होता, तो मैं हर जगह घूमता।"
+      },
+      {
+        "fr": "Elle est devenue millionnaire grâce à la loterie.",
+        "en": "She became a millionaire thanks to the lottery.",
+        "hi": "वह लॉटरी की वजह से करोड़पति बन गई।"
+      }
+    ],
+    "collocations": [
+      "devenir millionnaire",
+      "un jeune millionnaire"
+    ],
+    "mistakes": [
+      {
+        "en": "Spelled with two n's in French (millionnaire), one in English. Same form for men and women.",
+        "hi": "फ़्रेंच में दो n हैं (millionnaire), अंग्रेज़ी में एक। पुरुष और महिला दोनों के लिए एक ही रूप।"
+      }
+    ],
+    "related": [
+      "loterie",
+      "argent",
+      "riche"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "millionaire",
+      "milionnaire",
+      "millionnair"
+    ]
+  },
+  {
+    "lemma": "minuscule",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "minuscules",
+    "en": [
+      "small (lower-case) letter"
+    ],
+    "hi": [
+      "छोटा अक्षर"
+    ],
+    "ipa": "minyskyl",
+    "pron": "मी-नüस-कüल",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "education"
+    ],
+    "examples": [
+      {
+        "fr": "En français, les jours s'écrivent en minuscules.",
+        "en": "In French, the days are written in lower case.",
+        "hi": "फ़्रेंच में दिनों के नाम छोटे अक्षरों में लिखे जाते हैं।"
+      },
+      {
+        "fr": "Ce mot commence par une minuscule.",
+        "en": "This word begins with a lower-case letter.",
+        "hi": "यह शब्द छोटे अक्षर से शुरू होता है।"
+      }
+    ],
+    "collocations": [
+      "en minuscules",
+      "une lettre minuscule"
+    ],
+    "mistakes": [
+      {
+        "en": "As an adjective \"minuscule\" also means \"tiny\": \"un appartement minuscule\".",
+        "hi": "विशेषण के रूप में \"minuscule\" का मतलब \"बहुत छोटा\" भी है: \"un appartement minuscule\"।"
+      }
+    ],
+    "related": [
+      "majuscule",
+      "lettre"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "miniscule",
+      "minuscul",
+      "minusule"
+    ]
+  },
+  {
+    "lemma": "modèle",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "modèles",
+    "en": [
+      "model",
+      "pattern, example to follow"
+    ],
+    "hi": [
+      "मॉडल",
+      "नमूना",
+      "आदर्श"
+    ],
+    "ipa": "mɔdɛl",
+    "pron": "मॉ-दैल",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "shopping"
+    ],
+    "examples": [
+      {
+        "fr": "Ce modèle existe aussi en noir.",
+        "en": "This model also comes in black.",
+        "hi": "यह मॉडल काले रंग में भी आता है।"
+      },
+      {
+        "fr": "Ma mère est mon modèle.",
+        "en": "My mother is my role model.",
+        "hi": "मेरी माँ मेरी आदर्श हैं।"
+      }
+    ],
+    "collocations": [
+      "un nouveau modèle",
+      "un modèle de lettre",
+      "suivre le modèle"
+    ],
+    "mistakes": [
+      {
+        "en": "Masculine even when it refers to a woman: \"Elle est un modèle pour moi\". Note the è.",
+        "hi": "महिला के लिए भी पुल्लिंग: \"Elle est un modèle pour moi\"। è पर ध्यान दें।"
+      }
+    ],
+    "related": [
+      "exemple",
+      "taille",
+      "marque"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "model",
+      "modele",
+      "modél"
+    ]
+  },
+  {
+    "lemma": "moitié",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "moitiés",
+    "en": [
+      "half"
+    ],
+    "hi": [
+      "आधा",
+      "आधा हिस्सा"
+    ],
+    "ipa": "mwatje",
+    "pron": "म्वा-त्ये",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "food",
+      "time"
+    ],
+    "examples": [
+      {
+        "fr": "La moitié des étudiants viennent de l'Inde.",
+        "en": "Half of the students come from India.",
+        "hi": "आधे छात्र भारत से आते हैं।"
+      },
+      {
+        "fr": "Coupe le gâteau en deux moitiés.",
+        "en": "Cut the cake into two halves.",
+        "hi": "केक को दो हिस्सों में काटो।"
+      }
+    ],
+    "collocations": [
+      "la moitié de",
+      "à moitié",
+      "à moitié prix",
+      "plus de la moitié"
+    ],
+    "mistakes": [
+      {
+        "en": "\"Half an hour\" uses \"demi\": \"une demi-heure\", not \"une moitié d'heure\". \"La moitié\" is for \"half of something\".",
+        "hi": "\"आधा घंटा\" के लिए \"demi\" लगता है: \"une demi-heure\", \"une moitié d'heure\" नहीं। \"La moitié\" = किसी चीज़ का आधा हिस्सा।"
+      }
+    ],
+    "related": [
+      "demi",
+      "plupart",
+      "partie"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "moitier",
+      "moitie",
+      "moité"
+    ]
+  },
+  {
+    "lemma": "moniteur",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "moniteurs",
+    "feminine": "monitrice",
+    "en": [
+      "camp counsellor, instructor",
+      "monitor (screen)"
+    ],
+    "hi": [
+      "प्रशिक्षक",
+      "कैंप सुपरवाइज़र",
+      "मॉनिटर (स्क्रीन)"
+    ],
+    "ipa": "mɔnitœʁ",
+    "pron": "मॉ-नी-तöग़",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "work",
+      "education"
+    ],
+    "examples": [
+      {
+        "fr": "Mon fils est moniteur dans un camp de jour cet été.",
+        "en": "My son is a counsellor at a day camp this summer.",
+        "hi": "मेरा बेटा इस गर्मी में एक डे-कैंप में सुपरवाइज़र है।"
+      },
+      {
+        "fr": "La monitrice de ski est très patiente.",
+        "en": "The ski instructor is very patient.",
+        "hi": "स्की सिखाने वाली प्रशिक्षिका बहुत धैर्यवान है।"
+      }
+    ],
+    "collocations": [
+      "un moniteur de ski",
+      "un moniteur de camp",
+      "une monitrice d'auto-école"
+    ],
+    "mistakes": [
+      {
+        "en": "Feminine: \"monitrice\" (-teur → -trice). A school teacher is not a \"moniteur\"; use \"enseignant\".",
+        "hi": "स्त्रीलिंग: \"monitrice\" (-teur → -trice)। स्कूल के शिक्षक को \"moniteur\" नहीं कहते; \"enseignant\" कहें।"
+      }
+    ],
+    "related": [
+      "animateur",
+      "camp",
+      "enseignant"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "moniter",
+      "monitor",
+      "monitteur"
+    ]
+  },
+  {
+    "lemma": "mot-clé",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "mots-clés",
+    "en": [
+      "keyword"
+    ],
+    "hi": [
+      "मुख्य शब्द",
+      "कीवर्ड"
+    ],
+    "ipa": "mokle",
+    "pron": "मो-क्ले",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "education",
+      "technology"
+    ],
+    "examples": [
+      {
+        "fr": "Soulignez les mots-clés de la question.",
+        "en": "Underline the keywords in the question.",
+        "hi": "प्रश्न के मुख्य शब्दों को रेखांकित कीजिए।"
+      },
+      {
+        "fr": "Tapez un mot-clé dans la barre de recherche.",
+        "en": "Type a keyword in the search bar.",
+        "hi": "सर्च बार में एक कीवर्ड टाइप कीजिए।"
+      }
+    ],
+    "collocations": [
+      "chercher par mot-clé",
+      "repérer les mots-clés",
+      "un mot-clé important"
+    ],
+    "mistakes": [
+      {
+        "en": "Both parts take -s in the plural: \"des mots-clés\". The t of \"mot\" is silent: मो-क्ले.",
+        "hi": "बहुवचन में दोनों हिस्सों में -s लगता है: \"des mots-clés\"। \"mot\" का t नहीं बोला जाता: मो-क्ले।"
+      }
+    ],
+    "related": [
+      "mot",
+      "clé",
+      "question"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "mot clé",
+      "mot-clef",
+      "mots clés"
+    ]
+  },
+  {
+    "lemma": "musique",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "musiques",
+    "en": [
+      "music"
+    ],
+    "hi": [
+      "संगीत",
+      "म्यूज़िक"
+    ],
+    "ipa": "myzik",
+    "pron": "मü-ज़ीक",
+    "level": "A1",
+    "register": "neutral",
+    "topics": [
+      "culture"
+    ],
+    "examples": [
+      {
+        "fr": "J'écoute de la musique dans le métro.",
+        "en": "I listen to music on the metro.",
+        "hi": "मैं मेट्रो में संगीत सुनता हूँ।"
+      },
+      {
+        "fr": "Tu aimes la musique indienne ?",
+        "en": "Do you like Indian music?",
+        "hi": "क्या तुम्हें भारतीय संगीत पसंद है?"
+      }
+    ],
+    "collocations": [
+      "écouter de la musique",
+      "faire de la musique",
+      "la musique classique",
+      "un festival de musique"
+    ],
+    "mistakes": [
+      {
+        "en": "Use the partitive after \"écouter\": \"écouter de la musique\". The u is ü and the s is ज़: मü-ज़ीक.",
+        "hi": "\"écouter\" के बाद partitive लगता है: \"écouter de la musique\"। u = ü और s = ज़: मü-ज़ीक।"
+      }
+    ],
+    "related": [
+      "chanson",
+      "festival",
+      "guitare",
+      "piano"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "musik",
+      "musiqe",
+      "music"
+    ]
+  },
+  {
+    "lemma": "natation",
+    "pos": "noun",
+    "gender": "f",
+    "en": [
+      "swimming"
+    ],
+    "hi": [
+      "तैराकी"
+    ],
+    "ipa": "natasjɔ̃",
+    "pron": "ना-ता-स्योँ",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "culture",
+      "health"
+    ],
+    "examples": [
+      {
+        "fr": "Je fais de la natation deux fois par semaine.",
+        "en": "I go swimming twice a week.",
+        "hi": "मैं हफ़्ते में दो बार तैराकी करता हूँ।"
+      },
+      {
+        "fr": "Les cours de natation commencent en septembre.",
+        "en": "Swimming lessons start in September.",
+        "hi": "तैराकी की कक्षाएँ सितंबर में शुरू होती हैं।"
+      }
+    ],
+    "collocations": [
+      "faire de la natation",
+      "un cours de natation",
+      "la piscine"
+    ],
+    "mistakes": [
+      {
+        "en": "Use \"faire de la natation\" for the sport; \"nager\" is the verb \"to swim\". The second t sounds like s: ना-ता-स्योँ.",
+        "hi": "खेल के लिए \"faire de la natation\" कहें; \"nager\" क्रिया \"तैरना\" है। दूसरा t स की तरह बोला जाता है: ना-ता-स्योँ।"
+      }
+    ],
+    "related": [
+      "piscine",
+      "nager",
+      "sport"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "natacion",
+      "nattation",
+      "natasion"
+    ]
+  },
+  {
+    "lemma": "navette",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "navettes",
+    "en": [
+      "shuttle"
+    ],
+    "hi": [
+      "शटल",
+      "शटल बस"
+    ],
+    "ipa": "navɛt",
+    "pron": "ना-वैत",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "transport",
+      "travel"
+    ],
+    "examples": [
+      {
+        "fr": "Une navette relie l'aéroport au centre-ville.",
+        "en": "A shuttle connects the airport to downtown.",
+        "hi": "एक शटल बस हवाई अड्डे को शहर के बीच से जोड़ती है।"
+      },
+      {
+        "fr": "La navette passe toutes les vingt minutes.",
+        "en": "The shuttle comes every twenty minutes.",
+        "hi": "शटल हर बीस मिनट में आती है।"
+      }
+    ],
+    "collocations": [
+      "une navette gratuite",
+      "la navette de l'aéroport",
+      "faire la navette entre"
+    ],
+    "mistakes": [
+      {
+        "en": "\"Faire la navette\" = to commute back and forth: \"Je fais la navette entre Laval et Montréal\".",
+        "hi": "\"Faire la navette\" = रोज़ आना-जाना: \"Je fais la navette entre Laval et Montréal\"।"
+      }
+    ],
+    "related": [
+      "autobus",
+      "aéroport",
+      "trajet"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "navete",
+      "navvette",
+      "navett"
+    ]
+  },
+  {
+    "lemma": "niveau",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "niveaux",
+    "en": [
+      "a level"
+    ],
+    "hi": [
+      "स्तर",
+      "लेवल"
+    ],
+    "ipa": "nivo",
+    "pron": "नी-वो",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "education"
+    ],
+    "examples": [
+      {
+        "fr": "Quel est votre niveau de français ?",
+        "en": "What is your level of French?",
+        "hi": "आपकी फ़्रेंच का स्तर क्या है?"
+      },
+      {
+        "fr": "Il faut un niveau B2 pour ce programme.",
+        "en": "You need a B2 level for this program.",
+        "hi": "इस प्रोग्राम के लिए B2 स्तर चाहिए।"
+      }
+    ],
+    "collocations": [
+      "le niveau de français",
+      "un test de niveau",
+      "au niveau de",
+      "le niveau de vie"
+    ],
+    "mistakes": [
+      {
+        "en": "Plural with -x: \"niveaux\". \"Au niveau de\" is overused in speech; prefer \"pour\" or \"en ce qui concerne\" in writing.",
+        "hi": "बहुवचन -x के साथ: \"niveaux\"। बोलचाल में \"au niveau de\" बहुत प्रयोग होता है; लेखन में \"pour\" या \"en ce qui concerne\" बेहतर है।"
+      }
+    ],
+    "related": [
+      "débutant",
+      "examen",
+      "cours"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "niveaus",
+      "nivau",
+      "niveu"
+    ]
+  },
+  {
+    "lemma": "nuance",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "nuances",
+    "en": [
+      "nuance, shade of meaning",
+      "shade (of colour)"
+    ],
+    "hi": [
+      "बारीक अंतर",
+      "बारीकी",
+      "रंग की छटा"
+    ],
+    "ipa": "nɥɑ̃s",
+    "pron": "नüआँस",
+    "level": "B2",
+    "register": "neutral",
+    "topics": [
+      "education"
+    ],
+    "examples": [
+      {
+        "fr": "Il y a une nuance entre « erreur » et « faute ».",
+        "en": "There's a nuance between \"erreur\" and \"faute\".",
+        "hi": "« erreur » और « faute » में बारीक अंतर है।"
+      },
+      {
+        "fr": "Son analyse manque de nuance.",
+        "en": "His analysis lacks nuance.",
+        "hi": "उसके विश्लेषण में बारीकी की कमी है।"
+      }
+    ],
+    "collocations": [
+      "une nuance de sens",
+      "sans nuance",
+      "apporter une nuance"
+    ],
+    "mistakes": [
+      {
+        "en": "\"nu\" + vowel glides: नüआँस (one syllable), not \"न्यू-आंस\".",
+        "hi": "\"nu\" के बाद स्वर मिलकर एक ध्वनि बनता है: नüआँस (एक अक्षर), \"न्यू-आंस\" नहीं।"
+      }
+    ],
+    "related": [
+      "différence",
+      "sens",
+      "détail"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "nuence",
+      "nuanse",
+      "nuamce"
+    ]
+  },
+  {
+    "lemma": "objectif",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "objectifs",
+    "en": [
+      "the objective, the target",
+      "lens (camera)"
+    ],
+    "hi": [
+      "लक्ष्य",
+      "उद्देश्य"
+    ],
+    "ipa": "ɔbʒɛktif",
+    "pron": "ऑब-झ़ैक-तीफ़",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "work",
+      "education"
+    ],
+    "examples": [
+      {
+        "fr": "Mon objectif est de réussir le TEF Canada.",
+        "en": "My objective is to pass the TEF Canada.",
+        "hi": "मेरा लक्ष्य TEF Canada पास करना है।"
+      },
+      {
+        "fr": "L'équipe a atteint ses objectifs.",
+        "en": "The team reached its targets.",
+        "hi": "टीम ने अपने लक्ष्य हासिल कर लिए।"
+      }
+    ],
+    "collocations": [
+      "atteindre un objectif",
+      "se fixer un objectif",
+      "un objectif réaliste"
+    ],
+    "mistakes": [
+      {
+        "en": "A noun here (\"un objectif\"); as an adjective \"objectif/objective\" means \"objective, impartial\".",
+        "hi": "यहाँ यह संज्ञा है (\"un objectif\"); विशेषण \"objectif/objective\" का मतलब \"निष्पक्ष\" है।"
+      }
+    ],
+    "related": [
+      "but",
+      "projet",
+      "résultat"
+    ],
+    "synonyms": [
+      "but"
+    ],
+    "misspellings": [
+      "objective",
+      "objéctif",
+      "objectiff"
+    ]
+  },
+  {
+    "lemma": "objection",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "objections",
+    "en": [
+      "an objection"
+    ],
+    "hi": [
+      "आपत्ति",
+      "एतराज़"
+    ],
+    "ipa": "ɔbʒɛksjɔ̃",
+    "pron": "ऑब-झ़ैक-स्योँ",
+    "level": "B2",
+    "register": "neutral",
+    "topics": [
+      "society"
+    ],
+    "examples": [
+      {
+        "fr": "Avez-vous des objections à ce projet ?",
+        "en": "Do you have any objections to this plan?",
+        "hi": "क्या आपको इस योजना पर कोई आपत्ति है?"
+      },
+      {
+        "fr": "Je vais répondre à cette objection.",
+        "en": "I'm going to answer that objection.",
+        "hi": "मैं इस आपत्ति का जवाब दूँगा।"
+      }
+    ],
+    "collocations": [
+      "faire une objection",
+      "répondre à une objection",
+      "sans objection"
+    ],
+    "mistakes": [
+      {
+        "en": "\"Une objection à\" (not \"contre\") something; feminine, like all -tion nouns.",
+        "hi": "किसी चीज़ पर आपत्ति = \"une objection à\" (\"contre\" नहीं); सभी -tion वाले शब्दों की तरह स्त्रीलिंग।"
+      }
+    ],
+    "related": [
+      "argument",
+      "opinion",
+      "débat"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "objéction",
+      "objecsion",
+      "obgection"
+    ]
+  },
+  {
+    "lemma": "objet",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "objets",
+    "en": [
+      "object, thing",
+      "subject (of an email)"
+    ],
+    "hi": [
+      "वस्तु",
+      "चीज़",
+      "विषय (ईमेल का)"
+    ],
+    "ipa": "ɔbʒɛ",
+    "pron": "ऑब-झ़ै",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "administration",
+      "technology"
+    ],
+    "examples": [
+      {
+        "fr": "Indiquez l'objet de votre courriel.",
+        "en": "State the subject of your email.",
+        "hi": "अपने ईमेल का विषय लिखिए।"
+      },
+      {
+        "fr": "J'ai perdu un objet de valeur dans l'autobus.",
+        "en": "I lost a valuable item on the bus.",
+        "hi": "मेरी एक क़ीमती चीज़ बस में खो गई।"
+      }
+    ],
+    "collocations": [
+      "l'objet du courriel",
+      "les objets trouvés",
+      "un objet de valeur"
+    ],
+    "mistakes": [
+      {
+        "en": "In an email or letter, \"Objet :\" is the subject line (not \"Sujet\"). The final t is silent: ऑब-झ़ै.",
+        "hi": "ईमेल या पत्र में \"Objet :\" विषय वाली पंक्ति है (\"Sujet\" नहीं)। अंतिम t नहीं बोला जाता: ऑब-झ़ै।"
+      }
+    ],
+    "related": [
+      "courriel",
+      "chose",
+      "lettre"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "objé",
+      "object",
+      "objè"
+    ]
+  },
+  {
+    "lemma": "occasion",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "occasions",
+    "en": [
+      "an opportunity, a chance",
+      "occasion",
+      "bargain, second-hand item (d'occasion)"
+    ],
+    "hi": [
+      "मौक़ा",
+      "अवसर",
+      "सेकंड-हैंड"
+    ],
+    "ipa": "ɔkazjɔ̃",
+    "pron": "ऑ-का-ज़्योँ",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "work",
+      "shopping"
+    ],
+    "examples": [
+      {
+        "fr": "J'ai eu l'occasion de travailler au Canada.",
+        "en": "I had the opportunity to work in Canada.",
+        "hi": "मुझे कनाडा में काम करने का मौक़ा मिला।"
+      },
+      {
+        "fr": "Nous avons acheté une voiture d'occasion.",
+        "en": "We bought a used car.",
+        "hi": "हमने एक पुरानी (सेकंड-हैंड) गाड़ी ख़रीदी।"
+      }
+    ],
+    "collocations": [
+      "avoir l'occasion de",
+      "profiter de l'occasion",
+      "d'occasion",
+      "à l'occasion de"
+    ],
+    "mistakes": [
+      {
+        "en": "\"D'occasion\" = second-hand. \"Une chance\" means luck; for \"an opportunity\" prefer \"une occasion\".",
+        "hi": "\"D'occasion\" = पुराना/सेकंड-हैंड। \"Une chance\" का मतलब क़िस्मत है; \"opportunity\" के लिए \"une occasion\" बेहतर है।"
+      }
+    ],
+    "related": [
+      "chance",
+      "possibilité"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "ocasion",
+      "occassion",
+      "occasien"
+    ]
+  },
+  {
+    "lemma": "ordures",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "ordures",
+    "en": [
+      "garbage, rubbish"
+    ],
+    "hi": [
+      "कचरा",
+      "कूड़ा"
+    ],
+    "ipa": "ɔʁdyʁ",
+    "pron": "ऑग़-दüग़",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "environment",
+      "housing"
+    ],
+    "examples": [
+      {
+        "fr": "La collecte des ordures a lieu le mardi.",
+        "en": "Garbage collection is on Tuesdays.",
+        "hi": "कचरा मंगलवार को उठाया जाता है।"
+      },
+      {
+        "fr": "N'oublie pas de sortir les ordures.",
+        "en": "Don't forget to take out the garbage.",
+        "hi": "कचरा बाहर रखना मत भूलना।"
+      }
+    ],
+    "collocations": [
+      "les ordures ménagères",
+      "sortir les ordures",
+      "la collecte des ordures",
+      "un sac à ordures"
+    ],
+    "mistakes": [
+      {
+        "en": "Almost always plural in this meaning: \"les ordures\". In Québec you also hear \"les vidanges\" (informal).",
+        "hi": "इस अर्थ में लगभग हमेशा बहुवचन: \"les ordures\"। क्यूबेक में बोलचाल में \"les vidanges\" भी सुनाई देता है।"
+      }
+    ],
+    "related": [
+      "déchet",
+      "poubelle",
+      "recyclage"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "ordure",
+      "ordurs",
+      "ordurres"
+    ]
+  },
+  {
+    "lemma": "organisme",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "organismes",
+    "en": [
+      "a community organisation",
+      "organisation, body",
+      "organism"
+    ],
+    "hi": [
+      "संस्था",
+      "संगठन",
+      "जीव"
+    ],
+    "ipa": "ɔʁɡanism",
+    "pron": "ऑग़-गा-निस्म",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "society",
+      "administration"
+    ],
+    "examples": [
+      {
+        "fr": "Un organisme communautaire aide les nouveaux arrivants.",
+        "en": "A community organisation helps newcomers.",
+        "hi": "एक सामुदायिक संस्था नए आए लोगों की मदद करती है।"
+      },
+      {
+        "fr": "C'est un organisme à but non lucratif.",
+        "en": "It's a non-profit organisation.",
+        "hi": "यह एक ग़ैर-लाभकारी संस्था है।"
+      }
+    ],
+    "collocations": [
+      "un organisme communautaire",
+      "un organisme à but non lucratif",
+      "un organisme public"
+    ],
+    "mistakes": [
+      {
+        "en": "Masculine despite the -e: \"un organisme\". In Canada it is the usual word for an NGO or community group.",
+        "hi": "-e के बावजूद पुल्लिंग: \"un organisme\"। कनाडा में किसी NGO या सामुदायिक समूह के लिए यही आम शब्द है।"
+      }
+    ],
+    "related": [
+      "association",
+      "bénévolat",
+      "bénévole"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "organism",
+      "orgamisme"
+    ]
+  },
+  {
+    "lemma": "outil",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "outils",
+    "en": [
+      "a tool"
+    ],
+    "hi": [
+      "औज़ार",
+      "साधन",
+      "उपकरण"
+    ],
+    "ipa": "uti",
+    "pron": "ऊ-ती",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "work",
+      "technology"
+    ],
+    "examples": [
+      {
+        "fr": "Le dictionnaire est un outil très utile.",
+        "en": "The dictionary is a very useful tool.",
+        "hi": "शब्दकोश एक बहुत उपयोगी साधन है।"
+      },
+      {
+        "fr": "Range tes outils dans la boîte.",
+        "en": "Put your tools away in the box.",
+        "hi": "अपने औज़ार डिब्बे में रख दो।"
+      }
+    ],
+    "collocations": [
+      "un outil de travail",
+      "une boîte à outils",
+      "un outil numérique"
+    ],
+    "mistakes": [
+      {
+        "en": "The final l is silent: ऊ-ती (not \"ऊ-तील\"). Liaison: \"des outils\" = दै ज़ू-ती.",
+        "hi": "अंतिम l नहीं बोला जाता: ऊ-ती (\"ऊ-तील\" नहीं)। liaison: \"des outils\" = दै ज़ू-ती।"
+      }
+    ],
+    "related": [
+      "moyen",
+      "application",
+      "logiciel"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "outille",
+      "outi",
+      "utile"
+    ]
+  },
+  {
+    "lemma": "paquet",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "paquets",
+    "en": [
+      "packet / pack",
+      "parcel"
+    ],
+    "hi": [
+      "पैकेट",
+      "पैकेज",
+      "पार्सल"
+    ],
+    "ipa": "pakɛ",
+    "pron": "पा-कै",
+    "level": "A1",
+    "register": "neutral",
+    "topics": [
+      "shopping",
+      "food"
+    ],
+    "examples": [
+      {
+        "fr": "Un paquet de riz, s'il vous plaît.",
+        "en": "A packet of rice, please.",
+        "hi": "एक पैकेट चावल दीजिए।"
+      },
+      {
+        "fr": "J'ai reçu un paquet par la poste.",
+        "en": "I received a parcel in the mail.",
+        "hi": "मुझे डाक से एक पार्सल मिला।"
+      }
+    ],
+    "collocations": [
+      "un paquet de",
+      "un paquet de cigarettes",
+      "envoyer un paquet"
+    ],
+    "mistakes": [
+      {
+        "en": "The final t is silent: पा-कै. \"De\" after it: \"un paquet de biscuits\".",
+        "hi": "अंतिम t नहीं बोला जाता: पा-कै। उसके बाद \"de\": \"un paquet de biscuits\"।"
+      }
+    ],
+    "related": [
+      "sac",
+      "boîte",
+      "colis"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "paqué",
+      "packet",
+      "pacquet"
+    ]
+  },
+  {
+    "lemma": "paragraphe",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "paragraphes",
+    "en": [
+      "paragraph"
+    ],
+    "hi": [
+      "अनुच्छेद",
+      "पैराग्राफ़"
+    ],
+    "ipa": "paʁaɡʁaf",
+    "pron": "पा-ग़ा-ग्ग़ाफ़",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "education"
+    ],
+    "examples": [
+      {
+        "fr": "Lisez le deuxième paragraphe.",
+        "en": "Read the second paragraph.",
+        "hi": "दूसरा अनुच्छेद पढ़िए।"
+      },
+      {
+        "fr": "Écrivez un paragraphe de 80 mots.",
+        "en": "Write a paragraph of 80 words.",
+        "hi": "80 शब्दों का एक अनुच्छेद लिखिए।"
+      }
+    ],
+    "collocations": [
+      "le premier paragraphe",
+      "écrire un paragraphe",
+      "changer de paragraphe"
+    ],
+    "mistakes": [
+      {
+        "en": "Masculine despite the -e, and spelled with -phe: \"un paragraphe\".",
+        "hi": "-e के बावजूद पुल्लिंग, और स्पेलिंग -phe के साथ: \"un paragraphe\"।"
+      }
+    ],
+    "related": [
+      "texte",
+      "phrase",
+      "ponctuation"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "paragraph",
+      "paragrafe",
+      "parragraphe"
+    ]
+  },
+  {
+    "lemma": "parcelle",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "parcelles",
+    "en": [
+      "plot (of land)",
+      "parcel, small portion"
+    ],
+    "hi": [
+      "ज़मीन का टुकड़ा",
+      "क्यारी",
+      "भूखंड"
+    ],
+    "ipa": "paʁsɛl",
+    "pron": "पाग़-सैल",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "environment",
+      "nature"
+    ],
+    "examples": [
+      {
+        "fr": "J'ai une parcelle dans le jardin communautaire.",
+        "en": "I have a plot in the community garden.",
+        "hi": "सामुदायिक बाग़ में मेरी एक क्यारी है।"
+      },
+      {
+        "fr": "Chaque parcelle mesure dix mètres carrés.",
+        "en": "Each plot measures ten square metres.",
+        "hi": "हर क्यारी दस वर्ग मीटर की है।"
+      }
+    ],
+    "collocations": [
+      "une parcelle de terrain",
+      "une parcelle de jardin",
+      "cultiver une parcelle"
+    ],
+    "mistakes": [
+      {
+        "en": "It is not a postal parcel (that's \"un colis\"). Two l's: parcelle.",
+        "hi": "यह डाक वाला पार्सल नहीं है (वह \"un colis\" है)। दो l: parcelle।"
+      }
+    ],
+    "related": [
+      "jardin",
+      "terre",
+      "légume"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "parcele",
+      "parselle",
+      "parcel"
+    ]
+  },
+  {
+    "lemma": "parfum",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "parfums",
+    "en": [
+      "the perfume",
+      "flavour (ice cream, yogurt)",
+      "scent"
+    ],
+    "hi": [
+      "इत्र",
+      "परफ़्यूम",
+      "स्वाद (फ़्लेवर)",
+      "ख़ुशबू"
+    ],
+    "ipa": "paʁfœ̃",
+    "pron": "पाग़-फ़ैँ",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "shopping",
+      "food"
+    ],
+    "examples": [
+      {
+        "fr": "Elle porte un parfum très léger.",
+        "en": "She's wearing a very light perfume.",
+        "hi": "उसने बहुत हल्का इत्र लगाया है।"
+      },
+      {
+        "fr": "Quel parfum de glace voulez-vous ?",
+        "en": "Which ice-cream flavour would you like?",
+        "hi": "आपको आइसक्रीम का कौन सा फ़्लेवर चाहिए?"
+      }
+    ],
+    "collocations": [
+      "un parfum de vanille",
+      "mettre du parfum",
+      "une bouteille de parfum"
+    ],
+    "mistakes": [
+      {
+        "en": "The final -um is a nasal ऐँ, not \"-um\": पाग़-फ़ैँ. It also means \"flavour\" for ice cream.",
+        "hi": "अंत का -um नासिक्य ऐँ है, \"-um\" नहीं: पाग़-फ़ैँ। आइसक्रीम के लिए इसका मतलब \"फ़्लेवर\" भी है।"
+      }
+    ],
+    "related": [
+      "odeur",
+      "goût",
+      "cadeau"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "parfume",
+      "perfum",
+      "parfun"
+    ]
+  },
+  {
+    "lemma": "passant",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "passants",
+    "feminine": "passante",
+    "en": [
+      "the passer-by"
+    ],
+    "hi": [
+      "राहगीर",
+      "आने-जाने वाला"
+    ],
+    "ipa": "pasɑ̃",
+    "pron": "पा-साँ",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "city",
+      "people"
+    ],
+    "examples": [
+      {
+        "fr": "Un passant a appelé les pompiers.",
+        "en": "A passer-by called the firefighters.",
+        "hi": "एक राहगीर ने दमकल को फ़ोन किया।"
+      },
+      {
+        "fr": "La journaliste interroge les passants.",
+        "en": "The journalist asks passers-by questions.",
+        "hi": "पत्रकार राहगीरों से सवाल पूछती है।"
+      }
+    ],
+    "collocations": [
+      "les passants",
+      "un simple passant",
+      "interroger des passants"
+    ],
+    "mistakes": [
+      {
+        "en": "Feminine \"une passante\" (final t heard: पा-साँत). English \"passers-by\" pluralises the first word; French just adds -s: \"des passants\".",
+        "hi": "स्त्रीलिंग \"une passante\" (अंत का t बोला जाता है: पा-साँत)। अंग्रेज़ी में \"passers-by\" होता है; फ़्रेंच में बस -s: \"des passants\"।"
+      }
+    ],
+    "related": [
+      "rue",
+      "trottoir",
+      "témoin"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "passent",
+      "pasant",
+      "passan"
+    ]
+  },
+  {
+    "lemma": "patience",
+    "pos": "noun",
+    "gender": "f",
+    "en": [
+      "patience"
+    ],
+    "hi": [
+      "धैर्य",
+      "सब्र"
+    ],
+    "ipa": "pasjɑ̃s",
+    "pron": "पा-स्याँस",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "emotions"
+    ],
+    "examples": [
+      {
+        "fr": "Merci de votre patience.",
+        "en": "Thank you for your patience.",
+        "hi": "आपके धैर्य के लिए धन्यवाद।"
+      },
+      {
+        "fr": "Apprendre une langue demande de la patience.",
+        "en": "Learning a language takes patience.",
+        "hi": "भाषा सीखने में धैर्य चाहिए।"
+      }
+    ],
+    "collocations": [
+      "avoir de la patience",
+      "perdre patience",
+      "un peu de patience",
+      "merci de votre patience"
+    ],
+    "mistakes": [
+      {
+        "en": "The t sounds like s: पा-स्याँस (not \"पेशेंस\"). Use \"de la patience\" after verbs like avoir/demander.",
+        "hi": "t को स बोलते हैं: पा-स्याँस (\"पेशेंस\" नहीं)। avoir/demander जैसी क्रियाओं के बाद \"de la patience\" कहें।"
+      }
+    ],
+    "related": [
+      "calme",
+      "attente",
+      "temps"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "patiance",
+      "pasience",
+      "patiense"
+    ]
+  },
+  {
+    "lemma": "patin",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "patins",
+    "en": [
+      "skating / skate",
+      "ice skate"
+    ],
+    "hi": [
+      "स्केटिंग",
+      "स्केट"
+    ],
+    "ipa": "patɛ̃",
+    "pron": "पा-तैँ",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "culture"
+    ],
+    "examples": [
+      {
+        "fr": "En hiver, on fait du patin sur le lac gelé.",
+        "en": "In winter we go skating on the frozen lake.",
+        "hi": "सर्दियों में हम जमी हुई झील पर स्केटिंग करते हैं।"
+      },
+      {
+        "fr": "J'ai acheté des patins à glace.",
+        "en": "I bought ice skates.",
+        "hi": "मैंने आइस स्केट ख़रीदे।"
+      }
+    ],
+    "collocations": [
+      "faire du patin",
+      "des patins à glace",
+      "une patinoire",
+      "le patin à roues alignées"
+    ],
+    "mistakes": [
+      {
+        "en": "\"Faire du patin\" (Québec) / \"faire du patinage\" = to go skating. The final -in is nasal ऐँ: पा-तैँ.",
+        "hi": "\"Faire du patin\" (क्यूबेक) / \"faire du patinage\" = स्केटिंग करना। अंत का -in नासिक्य ऐँ है: पा-तैँ।"
+      }
+    ],
+    "related": [
+      "hockey",
+      "glace",
+      "hiver",
+      "patinoire"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "patain",
+      "pattin",
+      "paten"
+    ]
+  },
+  {
+    "lemma": "patrimoine",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "patrimoines",
+    "en": [
+      "heritage",
+      "estate, assets"
+    ],
+    "hi": [
+      "विरासत",
+      "धरोहर"
+    ],
+    "ipa": "patʁimwan",
+    "pron": "पा-त्ग़ी-म्वान",
+    "level": "B2",
+    "register": "neutral",
+    "topics": [
+      "culture",
+      "society"
+    ],
+    "examples": [
+      {
+        "fr": "Le Vieux-Québec fait partie du patrimoine mondial.",
+        "en": "Old Québec is part of the world heritage.",
+        "hi": "पुराना क्यूबेक विश्व धरोहर का हिस्सा है।"
+      },
+      {
+        "fr": "Il faut protéger notre patrimoine culturel.",
+        "en": "We must protect our cultural heritage.",
+        "hi": "हमें अपनी सांस्कृतिक विरासत की रक्षा करनी चाहिए।"
+      }
+    ],
+    "collocations": [
+      "le patrimoine culturel",
+      "le patrimoine mondial",
+      "les Journées du patrimoine"
+    ],
+    "mistakes": [
+      {
+        "en": "Masculine despite the -e: \"le patrimoine\" (Hindi विरासत is feminine).",
+        "hi": "-e के बावजूद पुल्लिंग: \"le patrimoine\" (हिंदी विरासत स्त्रीलिंग है)।"
+      }
+    ],
+    "related": [
+      "culture",
+      "tradition",
+      "histoire"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "patrimoin",
+      "patrimone",
+      "patrimmoine"
+    ]
+  },
+  {
+    "lemma": "piano",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "pianos",
+    "en": [
+      "piano"
+    ],
+    "hi": [
+      "पियानो"
+    ],
+    "ipa": "pjano",
+    "pron": "प्या-नो",
+    "level": "A1",
+    "register": "neutral",
+    "topics": [
+      "culture"
+    ],
+    "examples": [
+      {
+        "fr": "Ma fille joue du piano.",
+        "en": "My daughter plays the piano.",
+        "hi": "मेरी बेटी पियानो बजाती है।"
+      },
+      {
+        "fr": "Il prend des cours de piano le samedi.",
+        "en": "He takes piano lessons on Saturdays.",
+        "hi": "वह शनिवार को पियानो सीखता है।"
+      }
+    ],
+    "collocations": [
+      "jouer du piano",
+      "un cours de piano",
+      "un piano électrique"
+    ],
+    "mistakes": [
+      {
+        "en": "Instruments take \"jouer de\": \"jouer du piano\" (de + le), not \"jouer le piano\".",
+        "hi": "वाद्यों के साथ \"jouer de\": \"jouer du piano\" (de + le), \"jouer le piano\" नहीं।"
+      }
+    ],
+    "related": [
+      "guitare",
+      "musique"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "pianno",
+      "pyano",
+      "piyano"
+    ]
+  },
+  {
+    "lemma": "piste",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "pistes",
+    "en": [
+      "track, trail",
+      "the bike lane (piste cyclable)",
+      "lead, clue",
+      "ski run"
+    ],
+    "hi": [
+      "रास्ता",
+      "साइकिल लेन",
+      "सुराग़",
+      "ट्रैक"
+    ],
+    "ipa": "pist",
+    "pron": "पीस्त",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "transport",
+      "city"
+    ],
+    "examples": [
+      {
+        "fr": "La ville a construit une nouvelle piste cyclable.",
+        "en": "The city built a new bike lane.",
+        "hi": "शहर ने एक नई साइकिल लेन बनाई है।"
+      },
+      {
+        "fr": "La police suit une piste sérieuse.",
+        "en": "The police are following a serious lead.",
+        "hi": "पुलिस एक पक्के सुराग़ पर काम कर रही है।"
+      }
+    ],
+    "collocations": [
+      "une piste cyclable",
+      "une piste de ski",
+      "suivre une piste",
+      "la piste de danse"
+    ],
+    "mistakes": [
+      {
+        "en": "A bike lane is \"une piste cyclable\" — not \"une ligne\" or \"une route pour vélos\".",
+        "hi": "साइकिल लेन = \"une piste cyclable\" — \"une ligne\" या \"une route pour vélos\" नहीं।"
+      }
+    ],
+    "related": [
+      "vélo",
+      "rue",
+      "trottoir"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "pist",
+      "piste ciclable",
+      "pieste"
+    ]
+  },
+  {
+    "lemma": "piège",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "pièges",
+    "en": [
+      "trap",
+      "pitfall"
+    ],
+    "hi": [
+      "जाल",
+      "फंदा",
+      "धोखा"
+    ],
+    "ipa": "pjɛʒ",
+    "pron": "प्यैझ़",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "education"
+    ],
+    "examples": [
+      {
+        "fr": "Attention, cette question est un piège !",
+        "en": "Careful, this question is a trap!",
+        "hi": "सावधान, यह सवाल एक चाल है!"
+      },
+      {
+        "fr": "Les faux amis sont un piège pour les anglophones.",
+        "en": "False friends are a trap for English speakers.",
+        "hi": "फ़ॉल्स फ़्रेंड्स अंग्रेज़ी बोलने वालों के लिए एक जाल हैं।"
+      }
+    ],
+    "collocations": [
+      "tomber dans le piège",
+      "un piège à éviter",
+      "une question piège"
+    ],
+    "mistakes": [
+      {
+        "en": "Masculine despite the -e: \"un piège\". Note the è.",
+        "hi": "-e के बावजूद पुल्लिंग: \"un piège\"। è पर ध्यान दें।"
+      }
+    ],
+    "related": [
+      "erreur",
+      "faute",
+      "difficulté"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "piége",
+      "piege",
+      "pièje"
+    ]
+  },
+  {
+    "lemma": "plupart",
+    "pos": "noun",
+    "gender": "f",
+    "en": [
+      "most (of)",
+      "the majority"
+    ],
+    "hi": [
+      "ज़्यादातर",
+      "अधिकांश"
+    ],
+    "ipa": "plypaʁ",
+    "pron": "प्लü-पाग़",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "society"
+    ],
+    "examples": [
+      {
+        "fr": "La plupart des gens prennent le métro.",
+        "en": "Most people take the metro.",
+        "hi": "ज़्यादातर लोग मेट्रो लेते हैं।"
+      },
+      {
+        "fr": "La plupart du temps, je travaille de la maison.",
+        "en": "Most of the time, I work from home.",
+        "hi": "ज़्यादातर समय मैं घर से काम करता हूँ।"
+      }
+    ],
+    "collocations": [
+      "la plupart des",
+      "la plupart du temps",
+      "pour la plupart"
+    ],
+    "mistakes": [
+      {
+        "en": "\"La plupart des + plural noun\" takes a plural verb: \"La plupart des étudiants sont…\" (not \"est\"). Never \"la plupart de les\".",
+        "hi": "\"La plupart des + बहुवचन संज्ञा\" के साथ क्रिया बहुवचन होती है: \"La plupart des étudiants sont…\" (\"est\" नहीं)। \"la plupart de les\" कभी नहीं।"
+      }
+    ],
+    "related": [
+      "moitié",
+      "majorité",
+      "beaucoup"
+    ],
+    "synonyms": [
+      "majorité"
+    ],
+    "misspellings": [
+      "plus part",
+      "pluspart",
+      "plupar"
+    ]
+  },
+  {
+    "lemma": "point",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "points",
+    "en": [
+      "dot / full stop",
+      "point",
+      "point (score)"
+    ],
+    "hi": [
+      "बिंदु",
+      "पूर्ण विराम",
+      "अंक",
+      "मुद्दा"
+    ],
+    "ipa": "pwɛ̃",
+    "pron": "प्वैँ",
+    "level": "A1",
+    "register": "neutral",
+    "topics": [
+      "education"
+    ],
+    "examples": [
+      {
+        "fr": "Une phrase se termine par un point.",
+        "en": "A sentence ends with a full stop.",
+        "hi": "वाक्य पूर्ण विराम पर ख़त्म होता है।"
+      },
+      {
+        "fr": "C'est un point important.",
+        "en": "That's an important point.",
+        "hi": "यह एक अहम मुद्दा है।"
+      }
+    ],
+    "collocations": [
+      "un point d'interrogation",
+      "un point d'exclamation",
+      "les deux-points",
+      "un point de vue",
+      "point final"
+    ],
+    "mistakes": [
+      {
+        "en": "In an email address \"point\" = \".\" (\"gmail point com\"). French \"?\", \"!\" and \":\" take a space before them.",
+        "hi": "ईमेल पते में \"point\" = \".\" (\"gmail point com\")। फ़्रेंच में \"?\", \"!\" और \":\" से पहले स्पेस आता है।"
+      }
+    ],
+    "related": [
+      "ponctuation",
+      "virgule",
+      "point de vue"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "poin",
+      "pointe",
+      "pwan"
+    ]
+  },
+  {
+    "lemma": "ponctuation",
+    "pos": "noun",
+    "gender": "f",
+    "en": [
+      "punctuation"
+    ],
+    "hi": [
+      "विराम चिह्न"
+    ],
+    "ipa": "pɔ̃ktɥasjɔ̃",
+    "pron": "पोँक-तüआ-स्योँ",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "education"
+    ],
+    "examples": [
+      {
+        "fr": "Faites attention à la ponctuation dans votre texte.",
+        "en": "Pay attention to the punctuation in your text.",
+        "hi": "अपने लेख में विराम चिह्नों का ध्यान रखिए।"
+      },
+      {
+        "fr": "Les signes de ponctuation changent le sens de la phrase.",
+        "en": "Punctuation marks change the meaning of the sentence.",
+        "hi": "विराम चिह्न वाक्य का अर्थ बदल देते हैं।"
+      }
+    ],
+    "collocations": [
+      "les signes de ponctuation",
+      "une faute de ponctuation"
+    ],
+    "mistakes": [
+      {
+        "en": "Spelled \"ponctuation\" with c and o (not \"punctuation\"). French puts a space before ? ! : ; .",
+        "hi": "स्पेलिंग \"ponctuation\" है, c और o के साथ (\"punctuation\" नहीं)। फ़्रेंच में ? ! : ; से पहले स्पेस आता है।"
+      }
+    ],
+    "related": [
+      "point",
+      "virgule",
+      "paragraphe"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "punctuation",
+      "ponctuasion",
+      "ponctuacion"
+    ]
+  },
+  {
+    "lemma": "portefeuille",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "portefeuilles",
+    "en": [
+      "the wallet",
+      "portfolio"
+    ],
+    "hi": [
+      "बटुआ",
+      "पर्स"
+    ],
+    "ipa": "pɔʁtəfœj",
+    "pron": "पॉग़-तö-फ़öय",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "money"
+    ],
+    "examples": [
+      {
+        "fr": "J'ai perdu mon portefeuille dans l'autobus.",
+        "en": "I lost my wallet on the bus.",
+        "hi": "मेरा बटुआ बस में खो गया।"
+      },
+      {
+        "fr": "Ma carte est dans mon portefeuille.",
+        "en": "My card is in my wallet.",
+        "hi": "मेरा कार्ड मेरे बटुए में है।"
+      }
+    ],
+    "collocations": [
+      "perdre son portefeuille",
+      "un portefeuille en cuir"
+    ],
+    "mistakes": [
+      {
+        "en": "Masculine (it's built on \"porter\" + \"feuille\"), written as one word. A coin purse is \"un porte-monnaie\".",
+        "hi": "पुल्लिंग (\"porter\" + \"feuille\" से बना), एक ही शब्द में लिखा जाता है। सिक्कों वाला पर्स = \"un porte-monnaie\"।"
+      }
+    ],
+    "related": [
+      "argent",
+      "carte",
+      "sac"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "porte-feuille",
+      "portefeuile",
+      "portfeuille"
+    ]
+  },
+  {
+    "lemma": "pot",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "pots",
+    "en": [
+      "the jar, the pot",
+      "a drink (informal: prendre un pot)"
+    ],
+    "hi": [
+      "मर्तबान",
+      "डिब्बा",
+      "गमला"
+    ],
+    "ipa": "po",
+    "pron": "पो",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "food",
+      "housing"
+    ],
+    "examples": [
+      {
+        "fr": "Il reste un pot de confiture dans le frigo.",
+        "en": "There's one jar of jam left in the fridge.",
+        "hi": "फ़्रिज में जैम का एक डिब्बा बचा है।"
+      },
+      {
+        "fr": "On prend un pot après le travail ?",
+        "en": "Shall we grab a drink after work?",
+        "hi": "काम के बाद कुछ पीने चलें?"
+      }
+    ],
+    "collocations": [
+      "un pot de confiture",
+      "un pot de fleurs",
+      "prendre un pot"
+    ],
+    "mistakes": [
+      {
+        "en": "The t is silent: पो. A cooking pot is usually \"une casserole\" or \"une marmite\", not \"un pot\".",
+        "hi": "t नहीं बोला जाता: पो। खाना पकाने का बर्तन आम तौर पर \"une casserole\" या \"une marmite\" है, \"un pot\" नहीं।"
+      }
+    ],
+    "related": [
+      "bouteille",
+      "boîte",
+      "verre"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "po",
+      "pott",
+      "peau"
+    ]
+  },
+  {
+    "lemma": "programme",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "programmes",
+    "en": [
+      "programme / schedule of events",
+      "program (of study)",
+      "TV programme"
+    ],
+    "hi": [
+      "कार्यक्रम",
+      "प्रोग्राम",
+      "पाठ्यक्रम"
+    ],
+    "ipa": "pʁɔɡʁam",
+    "pron": "प्ग़ॉ-ग्ग़ाम",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "culture",
+      "education"
+    ],
+    "examples": [
+      {
+        "fr": "Quel est le programme de la fête ?",
+        "en": "What's the programme for the festival?",
+        "hi": "उत्सव का कार्यक्रम क्या है?"
+      },
+      {
+        "fr": "Je suis inscrit à un programme d'études au cégep.",
+        "en": "I'm enrolled in a study program at the cégep.",
+        "hi": "मैंने सीजेप में एक पाठ्यक्रम में दाख़िला लिया है।"
+      }
+    ],
+    "collocations": [
+      "au programme",
+      "le programme de la journée",
+      "un programme d'études",
+      "un programme télé"
+    ],
+    "mistakes": [
+      {
+        "en": "Masculine despite the -e: \"le programme\". For computer software, French prefers \"un logiciel\".",
+        "hi": "-e के बावजूद पुल्लिंग: \"le programme\"। कंप्यूटर सॉफ़्टवेयर के लिए फ़्रेंच में \"un logiciel\" बेहतर है।"
+      }
+    ],
+    "related": [
+      "horaire",
+      "festival",
+      "logiciel"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "programe",
+      "program",
+      "programm"
+    ]
+  },
+  {
+    "lemma": "progression",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "progressions",
+    "en": [
+      "progress, improvement",
+      "progression"
+    ],
+    "hi": [
+      "प्रगति",
+      "तरक़्क़ी",
+      "बढ़त"
+    ],
+    "ipa": "pʁɔɡʁɛsjɔ̃",
+    "pron": "प्ग़ॉ-ग्ग़ै-स्योँ",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "education",
+      "society"
+    ],
+    "examples": [
+      {
+        "fr": "Ta progression en français est impressionnante.",
+        "en": "Your progress in French is impressive.",
+        "hi": "फ़्रेंच में तुम्हारी प्रगति प्रभावशाली है।"
+      },
+      {
+        "fr": "Le chômage est en progression.",
+        "en": "Unemployment is on the rise.",
+        "hi": "बेरोज़गारी बढ़ रही है।"
+      }
+    ],
+    "collocations": [
+      "en progression",
+      "une progression rapide",
+      "suivre sa progression"
+    ],
+    "mistakes": [
+      {
+        "en": "\"Le progrès\" (masculine) is the more common word for \"progress\": \"faire des progrès\". \"La progression\" stresses steady movement.",
+        "hi": "\"progress\" के लिए ज़्यादा आम शब्द \"le progrès\" (पुल्लिंग) है: \"faire des progrès\"। \"La progression\" लगातार आगे बढ़ने पर ज़ोर देता है।"
+      }
+    ],
+    "related": [
+      "progrès",
+      "hausse",
+      "niveau"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "progresion",
+      "progréssion",
+      "progretion"
+    ]
+  },
+  {
+    "lemma": "projet",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "projets",
+    "en": [
+      "the plan, the project"
+    ],
+    "hi": [
+      "योजना",
+      "प्रोजेक्ट",
+      "इरादा"
+    ],
+    "ipa": "pʁɔʒɛ",
+    "pron": "प्ग़ॉ-झ़ै",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "work"
+    ],
+    "examples": [
+      {
+        "fr": "Quels sont tes projets pour l'été ?",
+        "en": "What are your plans for the summer?",
+        "hi": "गर्मियों के लिए तुम्हारी क्या योजनाएँ हैं?"
+      },
+      {
+        "fr": "Nous travaillons sur un nouveau projet.",
+        "en": "We're working on a new project.",
+        "hi": "हम एक नए प्रोजेक्ट पर काम कर रहे हैं।"
+      }
+    ],
+    "collocations": [
+      "avoir des projets",
+      "un projet de loi",
+      "un chef de projet",
+      "un projet d'immigration"
+    ],
+    "mistakes": [
+      {
+        "en": "\"Plans\" for the future = \"des projets\", not \"des plans\" (a \"plan\" is a map or a layout). Final t is silent: प्ग़ॉ-झ़ै.",
+        "hi": "भविष्य की \"plans\" = \"des projets\", \"des plans\" नहीं (\"plan\" नक़्शा होता है)। अंतिम t नहीं बोला जाता: प्ग़ॉ-झ़ै।"
+      }
+    ],
+    "related": [
+      "plan",
+      "objectif",
+      "idée"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "projé",
+      "project",
+      "progét"
+    ]
+  },
+  {
+    "lemma": "promotion",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "promotions",
+    "en": [
+      "the promotion (at work); a special offer"
+    ],
+    "hi": [
+      "पदोन्नति",
+      "प्रमोशन",
+      "छूट वाला ऑफ़र"
+    ],
+    "ipa": "pʁɔmɔsjɔ̃",
+    "pron": "प्ग़ॉ-मॉ-स्योँ",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "work",
+      "shopping"
+    ],
+    "examples": [
+      {
+        "fr": "Elle a obtenu une promotion l'an dernier.",
+        "en": "She got a promotion last year.",
+        "hi": "पिछले साल उसकी पदोन्नति हुई।"
+      },
+      {
+        "fr": "Les pommes sont en promotion cette semaine.",
+        "en": "Apples are on special this week.",
+        "hi": "इस हफ़्ते सेब पर छूट है।"
+      }
+    ],
+    "collocations": [
+      "obtenir une promotion",
+      "en promotion",
+      "une promotion spéciale"
+    ],
+    "mistakes": [
+      {
+        "en": "\"En promotion\" (or \"en promo\") = on sale. \"Promotion\" is feminine, like all -tion nouns.",
+        "hi": "\"En promotion\" (या \"en promo\") = छूट पर। सभी -tion वाले शब्दों की तरह स्त्रीलिंग।"
+      }
+    ],
+    "related": [
+      "solde",
+      "rabais",
+      "carrière",
+      "salaire"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "promosion",
+      "prommotion"
+    ]
+  },
+  {
+    "lemma": "proposition",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "propositions",
+    "en": [
+      "a proposal, a suggestion",
+      "clause (grammar)"
+    ],
+    "hi": [
+      "प्रस्ताव",
+      "सुझाव"
+    ],
+    "ipa": "pʁɔpozisjɔ̃",
+    "pron": "प्ग़ॉ-पो-ज़ी-स्योँ",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "work",
+      "society"
+    ],
+    "examples": [
+      {
+        "fr": "J'ai une proposition à vous faire.",
+        "en": "I have a proposal for you.",
+        "hi": "मेरे पास आपके लिए एक प्रस्ताव है।"
+      },
+      {
+        "fr": "Ils ont accepté ma proposition.",
+        "en": "They accepted my suggestion.",
+        "hi": "उन्होंने मेरा सुझाव मान लिया।"
+      }
+    ],
+    "collocations": [
+      "faire une proposition",
+      "accepter une proposition",
+      "refuser une proposition"
+    ],
+    "mistakes": [
+      {
+        "en": "\"Make a proposal\" = \"faire une proposition\". The s between vowels is ज़: प्ग़ॉ-पो-ज़ी-स्योँ.",
+        "hi": "\"Make a proposal\" = \"faire une proposition\"। स्वरों के बीच s को ज़ बोलते हैं: प्ग़ॉ-पो-ज़ी-स्योँ।"
+      }
+    ],
+    "related": [
+      "idée",
+      "suggestion",
+      "solution"
+    ],
+    "synonyms": [
+      "suggestion"
+    ],
+    "misspellings": [
+      "proposision",
+      "propositon",
+      "proposicion"
+    ]
+  },
+  {
+    "lemma": "préposé",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "préposés",
+    "feminine": "préposée",
+    "en": [
+      "attendant, clerk",
+      "patient care attendant (Québec: préposé aux bénéficiaires)"
+    ],
+    "hi": [
+      "कर्मचारी",
+      "सहायक",
+      "मरीज़ों का देखभाल सहायक"
+    ],
+    "ipa": "pʁepoze",
+    "pron": "प्ग़े-पो-ज़े",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "work",
+      "health"
+    ],
+    "examples": [
+      {
+        "fr": "Elle travaille comme préposée aux bénéficiaires dans un CHSLD.",
+        "en": "She works as a patient care attendant in a long-term care home.",
+        "hi": "वह एक दीर्घकालिक देखभाल केंद्र में मरीज़ों की देखभाल सहायक है।"
+      },
+      {
+        "fr": "Le préposé au guichet m'a donné un formulaire.",
+        "en": "The clerk at the counter gave me a form.",
+        "hi": "काउंटर पर बैठे कर्मचारी ने मुझे एक फ़ॉर्म दिया।"
+      }
+    ],
+    "collocations": [
+      "un préposé aux bénéficiaires",
+      "une préposée à l'accueil",
+      "un préposé au guichet"
+    ],
+    "mistakes": [
+      {
+        "en": "Feminine \"préposée\" (same sound). \"Préposé aux bénéficiaires\" (PAB) is a Québec job title often seen in job ads.",
+        "hi": "स्त्रीलिंग \"préposée\" (उच्चारण वही)। \"Préposé aux bénéficiaires\" (PAB) क्यूबेक का पद है जो नौकरी के विज्ञापनों में अक्सर दिखता है।"
+      }
+    ],
+    "related": [
+      "infirmier",
+      "patient",
+      "hôpital"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "preposé",
+      "préposer"
+    ]
+  },
+  {
+    "lemma": "pénurie",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "pénuries",
+    "en": [
+      "shortage",
+      "labour shortage (pénurie de main-d'œuvre)"
+    ],
+    "hi": [
+      "कमी",
+      "किल्लत",
+      "मज़दूरों की कमी"
+    ],
+    "ipa": "penyʁi",
+    "pron": "पे-नü-ग़ी",
+    "level": "B1",
+    "register": "neutral",
+    "topics": [
+      "work",
+      "society"
+    ],
+    "examples": [
+      {
+        "fr": "Il y a une pénurie de main-d'œuvre dans les hôpitaux.",
+        "en": "There is a labour shortage in hospitals.",
+        "hi": "अस्पतालों में कर्मचारियों की कमी है।"
+      },
+      {
+        "fr": "La pénurie de logements fait monter les loyers.",
+        "en": "The housing shortage is pushing rents up.",
+        "hi": "मकानों की किल्लत से किराए बढ़ रहे हैं।"
+      }
+    ],
+    "collocations": [
+      "une pénurie de main-d'œuvre",
+      "une pénurie de logements",
+      "en pénurie"
+    ],
+    "mistakes": [
+      {
+        "en": "Use \"pénurie de\" + noun with no article: \"une pénurie d'eau\", not \"une pénurie de l'eau\".",
+        "hi": "\"pénurie de\" + बिना article की संज्ञा: \"une pénurie d'eau\", \"une pénurie de l'eau\" नहीं।"
+      }
+    ],
+    "related": [
+      "manque",
+      "emploi",
+      "logement"
+    ],
+    "synonyms": [
+      "manque"
+    ],
+    "misspellings": [
+      "penurie",
+      "pénnurie",
+      "pénury"
+    ]
+  },
+  {
+    "lemma": "quai",
+    "pos": "noun",
+    "gender": "m",
+    "plural": "quais",
+    "en": [
+      "the platform (metro, train)",
+      "quay, wharf"
+    ],
+    "hi": [
+      "प्लेटफ़ॉर्म",
+      "घाट"
+    ],
+    "ipa": "ke",
+    "pron": "के",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "transport"
+    ],
+    "examples": [
+      {
+        "fr": "Le train part du quai numéro 4.",
+        "en": "The train leaves from platform 4.",
+        "hi": "ट्रेन प्लेटफ़ॉर्म नंबर 4 से जाती है।"
+      },
+      {
+        "fr": "Attendez derrière la ligne jaune sur le quai.",
+        "en": "Wait behind the yellow line on the platform.",
+        "hi": "प्लेटफ़ॉर्म पर पीली लाइन के पीछे इंतज़ार कीजिए।"
+      }
+    ],
+    "collocations": [
+      "sur le quai",
+      "le quai de la gare",
+      "le quai numéro"
+    ],
+    "mistakes": [
+      {
+        "en": "\"qu\" is just क: के (not \"क्वाई\"). Say \"sur le quai\" (on the platform).",
+        "hi": "\"qu\" सिर्फ़ क है: के (\"क्वाई\" नहीं)। \"sur le quai\" कहें (प्लेटफ़ॉर्म पर)।"
+      }
+    ],
+    "related": [
+      "gare",
+      "métro",
+      "train",
+      "voie"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "quay",
+      "kai"
+    ]
+  },
+  {
+    "lemma": "qualité",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "qualités",
+    "en": [
+      "quality",
+      "quality of life (qualité de vie)",
+      "good quality (of a person)"
+    ],
+    "hi": [
+      "गुणवत्ता",
+      "गुण",
+      "जीवन की गुणवत्ता"
+    ],
+    "ipa": "kalite",
+    "pron": "का-ली-ते",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "society",
+      "work"
+    ],
+    "examples": [
+      {
+        "fr": "La qualité de vie est excellente à Ottawa.",
+        "en": "The quality of life is excellent in Ottawa.",
+        "hi": "ओटावा में जीवन की गुणवत्ता बहुत अच्छी है।"
+      },
+      {
+        "fr": "Quelles sont vos qualités ?",
+        "en": "What are your strengths?",
+        "hi": "आपके गुण क्या हैं?"
+      }
+    ],
+    "collocations": [
+      "la qualité de vie",
+      "de bonne qualité",
+      "la qualité de l'air",
+      "qualités et défauts"
+    ],
+    "mistakes": [
+      {
+        "en": "\"Vos qualités\" in a job interview = your strengths/good qualities. Feminine: \"la qualité\".",
+        "hi": "इंटरव्यू में \"vos qualités\" = आपकी ख़ूबियाँ। स्त्रीलिंग: \"la qualité\"।"
+      }
+    ],
+    "related": [
+      "défaut",
+      "vie",
+      "niveau"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "qualite",
+      "kalité",
+      "qualitée"
+    ]
+  },
+  {
+    "lemma": "randonnée",
+    "pos": "noun",
+    "gender": "f",
+    "plural": "randonnées",
+    "en": [
+      "a hike"
+    ],
+    "hi": [
+      "पैदल सैर",
+      "हाइकिंग",
+      "ट्रेकिंग"
+    ],
+    "ipa": "ʁɑ̃dɔne",
+    "pron": "ग़ाँ-दॉ-ने",
+    "level": "A2",
+    "register": "neutral",
+    "topics": [
+      "nature",
+      "travel"
+    ],
+    "examples": [
+      {
+        "fr": "On fait une randonnée dans les Laurentides dimanche.",
+        "en": "We're going on a hike in the Laurentians on Sunday.",
+        "hi": "रविवार को हम लॉरेंशियन पहाड़ों में हाइकिंग करेंगे।"
+      },
+      {
+        "fr": "J'adore la randonnée en montagne.",
+        "en": "I love hiking in the mountains.",
+        "hi": "मुझे पहाड़ों में पैदल सैर बहुत पसंद है।"
+      }
+    ],
+    "collocations": [
+      "faire une randonnée",
+      "faire de la randonnée",
+      "un sentier de randonnée",
+      "des chaussures de randonnée"
+    ],
+    "mistakes": [
+      {
+        "en": "Feminine despite looking like a past participle: \"une randonnée\". The first r is the throaty ग़.",
+        "hi": "past participle जैसा दिखने के बावजूद स्त्रीलिंग: \"une randonnée\"। पहला r गले वाला ग़ है।"
+      }
+    ],
+    "related": [
+      "montagne",
+      "forêt",
+      "nature",
+      "sentier"
+    ],
+    "synonyms": [],
+    "misspellings": [
+      "randonée",
+      "randonee",
+      "randonnee"
+    ]
+  }
+]

@@ -1,0 +1,188 @@
+{
+  "day": 4,
+  "phase": 1,
+  "title": { "fr": "Ça va ? Les pronoms et le verbe être", "en": "Ça va? Pronouns and être", "hi": "Ça va? सर्वनाम और क्रिया être" },
+  "objective": {
+    "en": "Ask and answer 'How are you?' with tu and vous, use all the subject pronouns (je, tu, il, elle, on, nous, vous, ils, elles) with the full present of être, and describe how you feel.",
+    "hi": "tu और vous के साथ 'आप कैसे हैं?' पूछना और जवाब देना, सभी कर्ता सर्वनाम (je, tu, il, elle, on, nous, vous, ils, elles) को être के पूरे वर्तमान काल के साथ इस्तेमाल करना, और अपनी हालत बताना।"
+  },
+  "prerequisites": {
+    "days": [1, 2, 3],
+    "summary": { "en": "Greetings and tu/vous (Day 1); je suis, tu es, il/elle est and masculine/feminine adjectives (Day 3).", "hi": "अभिवादन और tu/vous (दिन 1); je suis, tu es, il/elle est और पुल्लिंग/स्त्रीलिंग विशेषण (दिन 3)।" }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "nous sommes", "en": "we are", "hi": "हम हैं", "pron": "नू सॉम", "ipa": "nu sɔm", "pos": "verb", "lemma": "être", "note": { "en": "No liaison here: the s of nous is silent before a consonant.", "hi": "यहाँ जोड़ (liaison) नहीं: व्यंजन से पहले nous का s नहीं बोला जाता।" } },
+    { "fr": "vous êtes", "en": "you are (polite or plural)", "hi": "आप हैं / तुम सब हो", "pron": "वू ज़ैत", "ipa": "vu zɛt", "pos": "verb", "lemma": "être", "note": { "en": "Liaison: the s of vous sounds like z before êtes.", "hi": "जोड़: êtes से पहले vous का s 'ज़' बोला जाता है।" } },
+    { "fr": "ils sont / elles sont", "en": "they are (m or mixed / f)", "hi": "वे हैं (पुरुष या मिला-जुला समूह / स्त्रियाँ)", "pron": "ईल सोँ / ऐल सोँ", "ipa": "il sɔ̃ / ɛl sɔ̃", "pos": "verb", "lemma": "être" },
+    { "fr": "on", "en": "we (informal); people in general", "hi": "हम (बोलचाल में); लोग", "pron": "ओँ", "ipa": "ɔ̃", "pos": "pronoun", "note": { "en": "In everyday speech, 'on est' is the usual way to say 'we are'. The verb is like il/elle: on est.", "hi": "रोज़ की बोलचाल में 'हम हैं' के लिए आम तौर पर 'on est' कहते हैं। क्रिया il/elle जैसी रहती है: on est।" } },
+    { "fr": "Ça va ?", "en": "How are you? / How's it going?", "hi": "कैसे हो? / सब ठीक?", "pron": "सा वा", "ipa": "sa va", "pos": "phrase", "note": { "en": "Works with tu and, in a relaxed way, with vous. The answer can be the same words: 'Ça va.'", "hi": "tu के साथ, और हल्के अंदाज़ में vous के साथ भी चलता है। जवाब भी वही हो सकता है: 'Ça va.' (ठीक है)।" } },
+    { "fr": "ça va bien", "en": "I'm fine / things are good", "hi": "ठीक हूँ / सब बढ़िया है", "pron": "सा वा ब्यैँ", "ipa": "sa va bjɛ̃", "pos": "phrase" },
+    { "fr": "ça va mal", "en": "things are bad / I'm not well", "hi": "हालत ठीक नहीं / बुरा चल रहा है", "pron": "सा वा माल", "ipa": "sa va mal", "pos": "phrase" },
+    { "fr": "content / contente", "en": "happy, pleased (m / f)", "hi": "ख़ुश (पुरुष / स्त्री)", "pron": "कोँ-ताँ / कोँ-ताँत", "ipa": "kɔ̃tɑ̃ / kɔ̃tɑ̃t", "pos": "adjective", "lemma": "content", "note": { "en": "In the feminine you hear the t.", "hi": "स्त्रीलिंग में t सुनाई देता है।" } },
+    { "fr": "fatigué / fatiguée", "en": "tired (m / f)", "hi": "थका हुआ / थकी हुई", "pron": "फ़ा-ती-गे", "ipa": "fatiɡe", "pos": "adjective", "lemma": "fatigué", "note": { "en": "Both forms sound the same.", "hi": "दोनों रूप एक जैसे बोले जाते हैं।" } },
+    { "fr": "malade", "en": "ill, sick", "hi": "बीमार", "pron": "मा-लाद", "ipa": "malad", "pos": "adjective" },
+    { "fr": "occupé / occupée", "en": "busy (m / f)", "hi": "व्यस्त", "pron": "ऑ-कü-पे", "ipa": "ɔkype", "pos": "adjective", "lemma": "occupé" },
+    { "fr": "très", "en": "very", "hi": "बहुत", "pron": "त्ग़ै", "ipa": "tʁɛ", "pos": "adverb" },
+    { "fr": "un peu", "en": "a little", "hi": "थोड़ा", "pron": "ऐँ पö", "ipa": "ɛ̃ pø", "pos": "adverb" },
+    { "fr": "comme ci, comme ça", "en": "so-so", "hi": "ठीक-ठाक", "pron": "कॉम सी कॉम सा", "ipa": "kɔm si kɔm sa", "pos": "phrase" }
+  ],
+  "phrases": [
+    { "fr": "Comment allez-vous ?", "en": "How are you? (polite)", "hi": "आप कैसे हैं?", "pron": "को-माँ ता-ले वू", "ipa": "kɔmɑ̃ tale vu", "note": { "en": "Liaison: the t of comment is heard before allez.", "hi": "जोड़: allez से पहले comment का t सुनाई देता है।" } },
+    { "fr": "Ça va bien, merci. Et toi ?", "en": "I'm fine, thanks. And you? (friendly)", "hi": "ठीक हूँ, धन्यवाद। और तुम?", "pron": "सा वा ब्यैँ मैग़-सी ए त्वा", "ipa": "sa va bjɛ̃ mɛʁsi e twa" },
+    { "fr": "Très bien, merci. Et vous ?", "en": "Very well, thank you. And you? (polite)", "hi": "बहुत अच्छा, धन्यवाद। और आप?", "pron": "त्ग़ै ब्यैँ मैग़-सी ए वू", "ipa": "tʁɛ bjɛ̃ mɛʁsi e vu" },
+    { "fr": "Pas mal !", "en": "Not bad!", "hi": "बुरा नहीं!", "pron": "पा माल", "ipa": "pa mal" },
+    { "fr": "Je suis un peu fatigué(e).", "en": "I'm a little tired.", "hi": "मैं थोड़ा थका हुआ / थोड़ी थकी हुई हूँ।", "pron": "झ़ö सüई ज़ैँ पö फ़ा-ती-गे", "ipa": "ʒə sɥi zɛ̃ pø fatiɡe" },
+    { "fr": "On est contents.", "en": "We're happy.", "hi": "हम ख़ुश हैं।", "pron": "ओँ नै कोँ-ताँ", "ipa": "ɔ̃ nɛ kɔ̃tɑ̃", "note": { "en": "Liaison: on + est = ओँ नै.", "hi": "जोड़: on + est = ओँ नै।" } },
+    { "fr": "Bonne journée !", "en": "Have a good day!", "hi": "आपका दिन शुभ हो!", "pron": "बॉन झ़ूग़-ने", "ipa": "bɔn ʒuʁne" }
+  ],
+  "grammar": {
+    "title": { "en": "The subject pronouns and the full present of être", "hi": "कर्ता सर्वनाम (pronoun) और être का पूरा वर्तमान काल" },
+    "explanation": {
+      "en": "être (to be): je suis, tu es, il / elle / on est, nous sommes, vous êtes, ils / elles sont. 'On' is very common in speech for 'we' and takes the same verb as il: on est. 'Vous' is either polite (one person) or plural (several people). 'Ils' is for a group of men or a mixed group; 'elles' only for a group of women. Adjectives agree: add -e for a woman (contente) and -s for several people (contents, contentes).",
+      "hi": "être (होना): je suis, tu es, il / elle / on est, nous sommes, vous êtes, ils / elles sont। बोलचाल में 'हम' के लिए 'on' बहुत आम है और इसकी क्रिया il जैसी होती है: on est। 'Vous' या तो शिष्ट (एक व्यक्ति के लिए) है या बहुवचन (कई लोगों के लिए)। 'Ils' पुरुषों के समूह या मिले-जुले समूह के लिए है; 'elles' सिर्फ़ स्त्रियों के समूह के लिए। विशेषण मेल खाते हैं: स्त्री के लिए -e (contente) और कई लोगों के लिए -s (contents, contentes)।"
+    },
+    "comparison": {
+      "en": "Hindi uses वह for both he and she, and वे for 'they'. French must choose: il or elle, ils or elles. A group of nine women and one man is 'ils' in French. Like आप, vous is polite — but vous is also the normal plural 'you', like 'तुम सब'.",
+      "hi": "हिंदी में 'वह' पुरुष और स्त्री दोनों के लिए है, और 'वे' बहुवचन के लिए। फ़्रेंच में चुनना पड़ता है: il या elle, ils या elles। नौ स्त्रियाँ और एक पुरुष हों, तो फ़्रेंच में 'ils' कहते हैं। 'आप' की तरह vous शिष्ट है — पर vous सामान्य बहुवचन 'तुम सब' भी है।"
+    },
+    "examples": [
+      { "fr": "Je suis content. Tu es contente ?", "en": "I'm happy (m). Are you happy? (to a woman)", "hi": "मैं ख़ुश हूँ। क्या तुम ख़ुश हो?", "pron": "झ़ö सüई कोँ-ताँ तü ऐ कोँ-ताँत" },
+      { "fr": "Nous sommes fatigués.", "en": "We are tired.", "hi": "हम थके हुए हैं।", "pron": "नू सॉम फ़ा-ती-गे" },
+      { "fr": "Vous êtes malade, madame ?", "en": "Are you ill, madam?", "hi": "क्या आप बीमार हैं, मैडम?", "pron": "वू ज़ैत मा-लाद मा-दाम" },
+      { "fr": "Ravi et Anita sont occupés.", "en": "Ravi and Anita are busy.", "hi": "रवि और अनीता व्यस्त हैं।", "pron": "ग़ा-वी ए आ-नी-ता सोँ तॉ-कü-पे", "note": { "en": "A mixed group: masculine plural (occupés), and 'ils' if you use a pronoun.", "hi": "मिला-जुला समूह: पुल्लिंग बहुवचन (occupés), और सर्वनाम लगाएँ तो 'ils'।" } },
+      { "fr": "Elles sont à Ottawa.", "en": "They (women) are in Ottawa.", "hi": "वे (स्त्रियाँ) ओटावा में हैं।", "pron": "ऐल सोँ ता ऑ-ता-वा" },
+      { "fr": "On est très contents !", "en": "We're very happy!", "hi": "हम बहुत ख़ुश हैं!", "pron": "ओँ नै त्ग़ै कोँ-ताँ" }
+    ],
+    "pitfalls": [
+      { "en": "Don't say 'je suis bien' for 'I'm fine'. Say 'ça va bien' or 'je vais bien' (you'll learn aller on Day 16).", "hi": "'मैं ठीक हूँ' के लिए 'je suis bien' मत कहिए। 'ça va bien' या 'je vais bien' कहिए (aller दिन 16 में आएगा)।" },
+      { "en": "Don't use 'elles' for a mixed group. One man in the group is enough for 'ils'.", "hi": "मिले-जुले समूह के लिए 'elles' मत कहिए। समूह में एक भी पुरुष हो, तो 'ils'।" },
+      { "en": "'On' takes est, not sommes: 'on est', never 'on sommes'.", "hi": "'On' के साथ est आता है, sommes नहीं: 'on est', कभी 'on sommes' नहीं।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Liaison: vous êtes, nous sommes, ils sont vs ils ont (preview)",
+    "tip": {
+      "en": "A silent final s wakes up as a z sound when the next word starts with a vowel: vous êtes = वू ज़ैत. Before a consonant it stays silent: nous sommes = नू सॉम. Listen to the difference that matters a lot: ils sont (ईल सोँ, they are) vs ils ont (ईल ज़ोँ, they have — Day 5).",
+      "hi": "चुप रहने वाला आख़िरी s, अगला शब्द स्वर से शुरू हो तो 'ज़' बनकर जाग जाता है: vous êtes = वू ज़ैत। व्यंजन से पहले चुप रहता है: nous sommes = नू सॉम। यह फ़र्क़ बहुत ज़रूरी है: ils sont (ईल सोँ, वे हैं) और ils ont (ईल ज़ोँ, उनके पास है — दिन 5)।"
+    },
+    "words": [
+      { "fr": "vous êtes", "en": "you are", "hi": "आप हैं", "pron": "वू ज़ैत", "ipa": "vu zɛt" },
+      { "fr": "nous sommes", "en": "we are", "hi": "हम हैं", "pron": "नू सॉम", "ipa": "nu sɔm" },
+      { "fr": "ils sont", "en": "they are", "hi": "वे हैं", "pron": "ईल सोँ", "ipa": "il sɔ̃", "note": { "en": "s sound: सोँ.", "hi": "'स' की आवाज़: सोँ।" } },
+      { "fr": "ils ont", "en": "they have", "hi": "उनके पास है", "pron": "ईल ज़ोँ", "ipa": "il zɔ̃", "note": { "en": "z sound from liaison: ज़ोँ.", "hi": "जोड़ से 'ज़' की आवाज़: ज़ोँ।" } },
+      { "fr": "on est", "en": "we are (informal)", "hi": "हम हैं (बोलचाल)", "pron": "ओँ नै", "ipa": "ɔ̃ nɛ" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Au bureau, le matin", "en": "At the office, in the morning" },
+    "type": "dialogue",
+    "mode": "pedagogical",
+    "context": { "en": "Sophie and Raj are colleagues in Ottawa and use tu. Their manager, Madame Roy, arrives; with her they use vous.", "hi": "सोफ़ी और राज ओटावा में सहकर्मी हैं और आपस में tu बोलते हैं। उनकी मैनेजर, मदाम रुआ, आती हैं; उनसे वे vous बोलते हैं।" },
+    "lines": [
+      { "speaker": "Sophie", "voice": "f2", "fr": "Bonjour, Raj ! Ça va ?", "en": "Hello, Raj! How are you?", "hi": "नमस्ते, राज! कैसे हो?" },
+      { "speaker": "Raj", "voice": "m1", "fr": "Ça va bien, merci. Et toi, Sophie ?", "en": "I'm fine, thanks. And you, Sophie?", "hi": "ठीक हूँ, धन्यवाद। और तुम, सोफ़ी?" },
+      { "speaker": "Sophie", "voice": "f2", "fr": "Comme ci, comme ça. Je suis un peu fatiguée.", "en": "So-so. I'm a little tired.", "hi": "ठीक-ठाक। मैं थोड़ी थकी हुई हूँ।" },
+      { "speaker": "Raj", "voice": "m1", "fr": "Et Marc et Julie ?", "en": "And Marc and Julie?", "hi": "और मार्क और जूली?" },
+      { "speaker": "Sophie", "voice": "f2", "fr": "Ils sont malades.", "en": "They're ill.", "hi": "वे बीमार हैं।" },
+      { "speaker": "Mme Roy", "voice": "f1", "fr": "Bonjour, Sophie. Bonjour, Raj. Comment allez-vous ?", "en": "Hello, Sophie. Hello, Raj. How are you?", "hi": "नमस्ते, सोफ़ी। नमस्ते, राज। आप लोग कैसे हैं?" },
+      { "speaker": "Raj", "voice": "m1", "fr": "Très bien, merci, madame. Et vous ?", "en": "Very well, thank you, madam. And you?", "hi": "बहुत अच्छे, धन्यवाद, मैडम। और आप?" },
+      { "speaker": "Mme Roy", "voice": "f1", "fr": "Je suis très occupée, mais ça va !", "en": "I'm very busy, but I'm fine!", "hi": "मैं बहुत व्यस्त हूँ, पर ठीक हूँ!" }
+    ],
+    "questions": [
+      { "q": { "en": "How does Sophie feel?" }, "options": ["Very happy", "A little tired", "Very ill"], "answer": 1, "explanation": { "en": "She says 'je suis un peu fatiguée'.", "hi": "वह कहती है 'je suis un peu fatiguée' — थोड़ी थकी हुई।" }, "kind": "literal", "evidence": "Je suis un peu fatiguée." },
+      { "q": { "en": "What about Marc and Julie?" }, "options": ["They are busy", "They are tired", "They are ill"], "answer": 2, "explanation": { "en": "'Ils sont malades' — they are ill. 'Ils' because the group is mixed.", "hi": "'Ils sont malades' — वे बीमार हैं। समूह मिला-जुला है, इसलिए 'ils'।" }, "kind": "literal", "evidence": "Ils sont malades." },
+      { "q": { "en": "Why does Raj say 'Et vous ?' to Madame Roy, but 'Et toi ?' to Sophie?" }, "options": ["Madame Roy is his manager, so he is polite", "Madame Roy is a child", "Sophie is a stranger"], "answer": 0, "explanation": { "en": "He uses vous with his manager and tu with his colleague.", "hi": "वह मैनेजर से vous और सहकर्मी से tu बोलता है।" }, "kind": "inference", "evidence": "Très bien, merci, madame. Et vous ?" },
+      { "q": { "en": "How is Madame Roy?" }, "options": ["Very busy but fine", "Ill", "Tired and unhappy"], "answer": 0, "explanation": { "en": "'Je suis très occupée, mais ça va !'", "hi": "'Je suis très occupée, mais ça va !' — बहुत व्यस्त, पर ठीक।" }, "kind": "literal", "evidence": "Je suis très occupée, mais ça va !" },
+      { "q": { "en": "In 'Comment allez-vous ?', who is Madame Roy talking to?" }, "options": ["Only Raj", "Sophie and Raj together", "Marc and Julie"], "answer": 1, "explanation": { "en": "She greets both and asks 'Comment allez-vous ?' — here vous is plural.", "hi": "वह दोनों को नमस्ते कहकर 'Comment allez-vous ?' पूछती हैं — यहाँ vous बहुवचन है।" }, "kind": "inference", "evidence": "Bonjour, Sophie. Bonjour, Raj. Comment allez-vous ?" }
+    ],
+    "dictation": ["Ça va bien, merci.", "Ils sont malades.", "Comment allez-vous ?"],
+    "gapFill": { "text": "Je ___ un peu fatiguée. … Ils ___ malades.", "answers": ["suis", "sont"] }
+  },
+  "speaking": {
+    "type": "roleplay",
+    "instructions": {
+      "en": "Practise two short exchanges: first with a friend (tu), then with an older neighbour (vous). Ask how they are, answer, and ask back.",
+      "hi": "दो छोटी बातचीत का अभ्यास कीजिए: पहले एक दोस्त के साथ (tu), फिर एक बुज़ुर्ग पड़ोसी के साथ (vous)। हालचाल पूछिए, जवाब दीजिए, और वापस पूछिए।"
+    },
+    "prompts": [
+      { "fr": "Salut ! Ça va ?", "en": "Hi! How are you?", "hi": "हाय! कैसे हो?", "pron": "सा-लü सा वा" },
+      { "fr": "Ça va bien, merci. Et toi ?", "en": "I'm fine, thanks. And you?", "hi": "ठीक हूँ, धन्यवाद। और तुम?", "pron": "सा वा ब्यैँ मैग़-सी ए त्वा" },
+      { "fr": "Bonjour, madame. Comment allez-vous ?", "en": "Hello, madam. How are you?", "hi": "नमस्ते, मैडम। आप कैसी हैं?", "pron": "बोँ-झ़ूग़ मा-दाम को-माँ ता-ले वू" },
+      { "fr": "Très bien, merci. Et vous ?", "en": "Very well, thank you. And you?", "hi": "बहुत अच्छा, धन्यवाद। और आप?", "pron": "त्ग़ै ब्यैँ मैग़-सी ए वू" },
+      { "fr": "Je suis un peu fatigué(e), mais ça va.", "en": "I'm a little tired, but I'm OK.", "hi": "मैं थोड़ा थका / थोड़ी थकी हूँ, पर ठीक हूँ।", "pron": "झ़ö सüई ज़ैँ पö फ़ा-ती-गे मै सा वा", "model": "Je suis un peu fatiguée, mais ça va." }
+    ],
+    "tip": {
+      "en": "'Ça va ?' goes up at the end (question); 'Ça va.' goes down (answer). The words are the same — the melody does the work.",
+      "hi": "'Ça va ?' के अंत में आवाज़ ऊपर जाती है (प्रश्न); 'Ça va.' में नीचे आती है (जवाब)। शब्द वही हैं — फ़र्क़ सुर से आता है।"
+    },
+    "scenario": {
+      "setting": { "en": "In the lobby of your building in Gatineau.", "hi": "गैटिनो में आपकी बिल्डिंग की लॉबी में।" },
+      "learnerRole": { "en": "You, meeting a friend and then an older neighbour.", "hi": "आप, जो पहले एक दोस्त से और फिर एक बुज़ुर्ग पड़ोसी से मिलते हैं।" },
+      "partnerRole": { "en": "First your friend Karan (tu), then Madame Lavoie, your older neighbour (vous).", "hi": "पहले आपका दोस्त करण (tu), फिर आपकी बुज़ुर्ग पड़ोसी मदाम लावुआ (vous)।" },
+      "goals": [
+        { "en": "Ask 'how are you' with the right level: tu or vous.", "hi": "सही स्तर से हालचाल पूछिए: tu या vous।" },
+        { "en": "Say how you feel using être + an adjective.", "hi": "être + विशेषण से बताइए कि आप कैसा महसूस कर रहे हैं।" }
+      ]
+    }
+  },
+  "reading": {
+    "genre": "message",
+    "title": "Messages entre amies",
+    "text": "Priya : Salut Anita ! Ça va ?\nAnita : Pas très bien… Je suis malade.\nPriya : Oh non ! Tu es fatiguée ?\nAnita : Oui, très fatiguée. Et toi, ça va ?\nPriya : Oui, ça va bien. Ravi et moi, on est à Montréal. Nous sommes très contents ! À bientôt !",
+    "translation": {
+      "en": "Priya: Hi Anita! How are you?\nAnita: Not very well… I'm ill.\nPriya: Oh no! Are you tired?\nAnita: Yes, very tired. And you, how are you?\nPriya: Yes, I'm fine. Ravi and I are in Montréal. We're very happy! See you soon!",
+      "hi": "प्रिया: हाय अनीता! कैसी हो?\nअनीता: बहुत अच्छी नहीं… मैं बीमार हूँ।\nप्रिया: अरे नहीं! क्या तुम थकी हुई हो?\nअनीता: हाँ, बहुत थकी हुई। और तुम, कैसी हो?\nप्रिया: हाँ, मैं ठीक हूँ। रवि और मैं मॉन्ट्रियाल में हैं। हम बहुत ख़ुश हैं! जल्द मिलते हैं!"
+    },
+    "questions": [
+      { "q": { "en": "How is Anita?" }, "options": ["Happy", "Ill and very tired", "Busy"], "answer": 1, "explanation": { "en": "She writes 'Je suis malade' and 'très fatiguée'.", "hi": "वह लिखती है 'Je suis malade' और 'très fatiguée'।" }, "kind": "literal", "evidence": "Je suis malade." },
+      { "q": { "en": "Where are Priya and Ravi?" }, "options": ["In Montréal", "In Toronto", "With Anita"], "answer": 0, "explanation": { "en": "'Ravi et moi, on est à Montréal.'", "hi": "'Ravi et moi, on est à Montréal.' — रवि और मैं मॉन्ट्रियाल में हैं।" }, "kind": "literal", "evidence": "Ravi et moi, on est à Montréal." },
+      { "q": { "en": "Why is 'contents' written with -s?" }, "options": ["Because it is a question", "Because Priya is ill", "Because it is about two people (Priya and Ravi)"], "answer": 2, "explanation": { "en": "'Nous' = Priya and Ravi, a mixed group → masculine plural contents.", "hi": "'Nous' = प्रिया और रवि, मिला-जुला समूह → पुल्लिंग बहुवचन contents।" }, "kind": "grammar", "evidence": "Nous sommes très contents !" }
+    ]
+  },
+  "writing": {
+    "type": "message",
+    "prompt": {
+      "en": "Write a short text message to a friend: greet them, ask how they are, ask if they are tired, and say how you are.",
+      "hi": "एक दोस्त को छोटा संदेश लिखिए: अभिवादन कीजिए, हालचाल पूछिए, पूछिए कि क्या वह थका/थकी है, और बताइए कि आप कैसे हैं।"
+    },
+    "minWords": 10,
+    "maxWords": 35,
+    "hints": [
+      { "en": "A friend → tu, salut, et toi.", "hi": "दोस्त → tu, salut, et toi।" },
+      { "en": "Make the adjective agree: fatigué (man) / fatiguée (woman).", "hi": "विशेषण मिलाइए: fatigué (पुरुष) / fatiguée (स्त्री)।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Salut ! Ça va ?", "en": "Hi! How are you?", "hi": "हाय! कैसे हो?", "pron": "सा-लü सा वा" },
+      { "fr": "Tu es fatigué(e) ?", "en": "Are you tired?", "hi": "क्या तुम थके / थकी हो?", "pron": "तü ऐ फ़ा-ती-गे" },
+      { "fr": "Moi, je suis …", "en": "As for me, I'm …", "hi": "मैं तो … हूँ", "pron": "मवा झ़ö सüई" }
+    ],
+    "model": { "fr": "Salut Karan ! Ça va ? Tu es fatigué ? Moi, je suis un peu malade, mais ça va. À bientôt !", "en": "Hi Karan! How are you? Are you tired? I'm a little ill, but I'm OK. See you soon!" },
+    "checklist": [
+      { "en": "Did you use tu forms (tu es, et toi) with your friend?", "hi": "क्या आपने दोस्त के लिए tu वाले रूप (tu es, et toi) इस्तेमाल किए?" },
+      { "en": "Do your adjectives agree (e for a woman)?", "hi": "क्या विशेषण मेल खाते हैं (स्त्री के लिए e)?" },
+      { "en": "Did you put a space before ? and ! (French style)?", "hi": "क्या आपने ? और ! से पहले जगह छोड़ी (फ़्रेंच शैली)?" }
+    ]
+  },
+  "review": {
+    "fromDays": [1, 2, 3],
+    "items": [
+      { "fr": "Je suis indien / indienne.", "en": "I'm Indian.", "hi": "मैं भारतीय हूँ।", "pron": "झ़ö सüई ज़ैँ-द्यैँ / ज़ैँ-द्यैन" },
+      { "fr": "Vous êtes d'où ?", "en": "Where are you from?", "hi": "आप कहाँ से हैं?", "pron": "वू ज़ैत दू" },
+      { "fr": "J'habite à Toronto.", "en": "I live in Toronto.", "hi": "मैं टोरंटो में रहता/रहती हूँ।", "pron": "झ़ा-बीत आ तो-ग़ोँ-तो" },
+      { "fr": "Moi aussi !", "en": "Me too!", "hi": "मैं भी!", "pron": "मवा ओ-सी" },
+      { "fr": "À bientôt !", "en": "See you soon!", "hi": "जल्द मिलते हैं!", "pron": "आ ब्यैँ-तो" },
+      { "fr": "Pardon ?", "en": "Sorry? / Pardon?", "hi": "माफ़ कीजिए, फिर से?", "pron": "पाग़-दोँ" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Choose the right verb: 'Nous ___ fatigués.'", "hi": "सही क्रिया चुनिए: 'Nous ___ fatigués.'", "fr": "Nous ___ fatigués." }, "options": ["êtes", "sommes", "sont"], "answer": 1, "explanation": { "en": "nous → sommes.", "hi": "nous → sommes।" } },
+    { "type": "fill", "prompt": { "en": "Complete: Are you Canadian, sir?", "hi": "पूरा कीजिए: क्या आप कनाडाई हैं, सर?" }, "sentence": "Vous ___ canadien, monsieur ?", "answer": "êtes", "accept": [], "explanation": { "en": "vous → êtes (with liaison: वू ज़ैत).", "hi": "vous → êtes (जोड़ के साथ: वू ज़ैत)।" } },
+    { "type": "mcq", "prompt": { "en": "You meet your doctor. How do you ask how she is?", "hi": "आप अपनी डॉक्टर से मिलते हैं। हालचाल कैसे पूछेंगे?" }, "options": ["Salut, ça va ?", "Comment allez-vous ?", "Et toi ?"], "answer": 1, "explanation": { "en": "With a doctor, use the polite form: 'Comment allez-vous ?'", "hi": "डॉक्टर के साथ शिष्ट रूप: 'Comment allez-vous ?'" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "They (Marc and Julie) are ill.", "hi": "वे (मार्क और जूली) बीमार हैं।" }, "answer": "Ils sont malades.", "accept": ["Ils sont malades", "ils sont malades."], "explanation": { "en": "Mixed group → ils; malade + s in the plural.", "hi": "मिला-जुला समूह → ils; बहुवचन में malade + s।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: I'm a little tired (woman).", "hi": "शब्दों को सही क्रम में रखिए: मैं थोड़ी थकी हुई हूँ।" }, "words": ["un", "Je", "fatiguée.", "peu", "suis"], "answer": "Je suis un peu fatiguée.", "explanation": { "en": "Je suis + un peu + adjective.", "hi": "Je suis + un peu + विशेषण।" } },
+    { "type": "mcq", "prompt": { "en": "In everyday French, 'on est contents' means…", "hi": "रोज़ की फ़्रेंच में 'on est contents' का मतलब है…" }, "options": ["they are happy", "we are happy", "you are happy"], "answer": 1, "explanation": { "en": "In speech, on = we.", "hi": "बोलचाल में on = हम।" } },
+    { "type": "mcq", "prompt": { "en": "Which one is pronounced with a z sound: ईल ज़ोँ?", "hi": "किसमें 'ज़' की आवाज़ है: ईल ज़ोँ?" }, "options": ["ils sont", "ils ont", "nous sommes"], "answer": 1, "explanation": { "en": "ils ont = ईल ज़ोँ (liaison). ils sont = ईल सोँ.", "hi": "ils ont = ईल ज़ोँ (जोड़)। ils sont = ईल सोँ।" } }
+  ]
+}

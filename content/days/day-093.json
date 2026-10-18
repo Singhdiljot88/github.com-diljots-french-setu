@@ -1,0 +1,933 @@
+{
+  "day": 93,
+  "phase": 5,
+  "title": {
+    "fr": "TEF compréhension écrite : articles de presse et inférence",
+    "en": "TEF reading: press articles and inference",
+    "hi": "TEF पठन: अख़बार के लेख और अनुमान"
+  },
+  "objective": {
+    "en": "Read a press article and answer inference questions: recognise the passive voice, find the author's viewpoint and tone, and understand what is suggested but not said directly.",
+    "hi": "अख़बार का एक लेख पढ़कर अनुमान वाले सवालों के जवाब देना: passive voice पहचानना, लेखक का नज़रिया और लहजा ढूँढना, और जो सीधे नहीं कहा गया पर इशारा किया गया है उसे समझना।"
+  },
+  "prerequisites": {
+    "days": [
+      44,
+      69,
+      73,
+      76,
+      78,
+      92
+    ],
+    "summary": {
+      "en": "Être + participle (Day 44), contrast connectors (Day 69), concession (Day 73), reactions and doubt (Day 76), environment vocabulary (Day 78) and formal written style (Day 92).",
+      "hi": "être + participle (दिन 44), विरोध के संयोजक (दिन 69), रियायत (दिन 73), प्रतिक्रियाएँ और संदेह (दिन 76), पर्यावरण के शब्द (दिन 78) और औपचारिक लिखित शैली (दिन 92)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "le quotidien",
+      "en": "daily newspaper",
+      "hi": "दैनिक अख़बार",
+      "pron": "लö को-ती-द्यैँ",
+      "ipa": "lə kɔtidjɛ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "quotidien"
+    },
+    {
+      "fr": "la une",
+      "en": "front page",
+      "hi": "मुख पृष्ठ",
+      "pron": "ला üन",
+      "ipa": "la yn",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "une",
+      "note": {
+        "en": "No elision: la une. 'Faire la une' = to be front-page news.",
+        "hi": "elision नहीं होता: la une। 'faire la une' = मुख पृष्ठ की ख़बर बनना।"
+      }
+    },
+    {
+      "fr": "le chapeau",
+      "en": "lead paragraph (standfirst)",
+      "hi": "शीर्षक के नीचे का परिचय अनुच्छेद",
+      "pron": "लö शा-पो",
+      "ipa": "lə ʃapo",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "chapeau",
+      "note": {
+        "en": "Literally 'hat': the short paragraph in bold under the title.",
+        "hi": "शब्दशः 'टोपी': शीर्षक के नीचे मोटे अक्षरों वाला छोटा अनुच्छेद।"
+      }
+    },
+    {
+      "fr": "selon",
+      "en": "according to",
+      "hi": "… के अनुसार",
+      "pron": "सö-लोँ",
+      "ipa": "səlɔ̃",
+      "pos": "preposition"
+    },
+    {
+      "fr": "un sondage",
+      "en": "a poll, survey",
+      "hi": "सर्वेक्षण",
+      "pron": "ऐँ सोँ-दाझ़",
+      "ipa": "ɛ̃ sɔ̃daʒ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "sondage"
+    },
+    {
+      "fr": "le point de vue",
+      "en": "point of view",
+      "hi": "नज़रिया",
+      "pron": "लö प्वैँ द व्ü",
+      "ipa": "lə pwɛ̃ d vy",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "point de vue"
+    },
+    {
+      "fr": "le ton",
+      "en": "tone",
+      "hi": "लहजा",
+      "pron": "लö तोँ",
+      "ipa": "lə tɔ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "ton"
+    },
+    {
+      "fr": "critique",
+      "en": "critical",
+      "hi": "आलोचनात्मक",
+      "pron": "क्ग़ी-तीक",
+      "ipa": "kʁitik",
+      "pos": "adjective"
+    },
+    {
+      "fr": "ironique",
+      "en": "ironic",
+      "hi": "व्यंग्यात्मक",
+      "pron": "ई-ग़ो-नीक",
+      "ipa": "iʁɔnik",
+      "pos": "adjective"
+    },
+    {
+      "fr": "inquiétant",
+      "en": "worrying",
+      "hi": "चिंताजनक",
+      "pron": "ऐँ-क्ये-ताँ",
+      "ipa": "ɛ̃kjetɑ̃",
+      "pos": "adjective"
+    },
+    {
+      "fr": "le gaspillage alimentaire",
+      "en": "food waste",
+      "hi": "खाने की बर्बादी",
+      "pron": "लö गास-पी-याझ़ आ-ली-माँ-तैग़",
+      "ipa": "lə ɡaspijaʒ alimɑ̃tɛʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "gaspillage"
+    },
+    {
+      "fr": "les invendus",
+      "en": "unsold goods",
+      "hi": "बिना बिका माल",
+      "pron": "ले ज़ैँ-वाँ-द्ü",
+      "ipa": "le zɛ̃vɑ̃dy",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "invendu"
+    },
+    {
+      "fr": "être adopté",
+      "en": "to be passed (a law), adopted",
+      "hi": "पारित होना (क़ानून)",
+      "pron": "ऐत्ग़ आ-दॉप-ते",
+      "ipa": "ɛtʁ adɔpte",
+      "pos": "phrase"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "La loi a été adoptée en 2023.",
+      "en": "The law was passed in 2023.",
+      "hi": "क़ानून 2023 में पारित हुआ।",
+      "pron": "ला ल्वा आ ए-ते आ-दॉप-ते आँ दö मील वैँत-त्ग़्वा"
+    },
+    {
+      "fr": "Selon un sondage récent, …",
+      "en": "According to a recent poll, …",
+      "hi": "हाल के एक सर्वेक्षण के अनुसार, …",
+      "pron": "सö-लोँ ऐँ सोँ-दाझ़ ग़े-साँ"
+    },
+    {
+      "fr": "L'auteur semble penser que…",
+      "en": "The author seems to think that…",
+      "hi": "लेखक को लगता प्रतीत होता है कि…",
+      "pron": "लो-तöग़ साँब्ल पाँ-से कö"
+    },
+    {
+      "fr": "Le ton est plutôt critique.",
+      "en": "The tone is rather critical.",
+      "hi": "लहजा कुछ आलोचनात्मक है।",
+      "pron": "लö तोँ ए प्लü-तो क्ग़ी-तीक"
+    },
+    {
+      "fr": "Le texte laisse entendre que…",
+      "en": "The text suggests that…",
+      "hi": "पाठ इशारा करता है कि…",
+      "pron": "लö तैक्स्त लैस आँ-ताँद्ग़ कö"
+    },
+    {
+      "fr": "Des millions de tonnes sont jetées chaque année.",
+      "en": "Millions of tonnes are thrown away every year.",
+      "hi": "हर साल लाखों टन फेंक दिए जाते हैं।",
+      "pron": "दे मी-ल्योँ दö तॉन सोँ झ़्ö-ते शाक आ-ने"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "The passive voice and the author's viewpoint",
+      "hi": "passive voice और लेखक का नज़रिया"
+    },
+    "explanation": {
+      "en": "PASSIVE: être (in any tense) + past participle agreeing with the subject, + par for the agent. Active: La ville a adopté la loi. → Passive: La loi a été adoptée (par la ville). Present: est jeté; future: sera interdit; passé composé: a été adoptée. Articles use it to focus on the action, or to hide who is responsible ('Des erreurs ont été commises' — by whom?). VIEWPOINT: in TEF inference questions, look for (1) evaluative adjectives and adverbs: heureusement, malheureusement, hélas, enfin (= at last!), inquiétant, scandaleux, encourageant; (2) concession structures: 'Certes… mais' — the author's real opinion comes after mais; (3) the conditional for unconfirmed information: 'Le ministre aurait refusé' = reportedly refused; (4) quotation marks or 'soi-disant' to keep a distance; (5) rhetorical questions in the conclusion ('Combien de temps faudra-t-il encore attendre ?') = criticism.",
+      "hi": "PASSIVE: être (किसी भी काल में) + कर्ता से मेल खाता past participle, + करने वाले के लिए par। सक्रिय: La ville a adopté la loi। → कर्मवाच्य: La loi a été adoptée (par la ville)। वर्तमान: est jeté; भविष्य: sera interdit; passé composé: a été adoptée। लेख इसका इस्तेमाल काम पर ध्यान देने के लिए, या ज़िम्मेदार को छिपाने के लिए करते हैं ('Des erreurs ont été commises' — किसने?)। नज़रिया: TEF के अनुमान वाले सवालों में देखिए (1) मूल्यांकन करने वाले विशेषण और क्रियाविशेषण: heureusement, malheureusement, hélas, enfin (= आख़िरकार!), inquiétant, scandaleux, encourageant; (2) रियायत का ढाँचा: 'Certes… mais' — लेखक की असली राय mais के बाद आती है; (3) अपुष्ट जानकारी के लिए conditionnel: 'Le ministre aurait refusé' = कथित तौर पर मना किया; (4) दूरी बनाने के लिए उद्धरण चिह्न या 'soi-disant'; (5) निष्कर्ष में अलंकारिक प्रश्न ('Combien de temps faudra-t-il encore attendre ?') = आलोचना।"
+    },
+    "comparison": {
+      "en": "Hindi also has a passive ('क़ानून पारित किया गया', 'खाना फेंका जाता है'), used the same way in news. English 'was adopted' = French 'a été adoptée' — but French adds agreement: la loi a été adoptéE.",
+      "hi": "हिंदी में भी कर्मवाच्य है ('क़ानून पारित किया गया', 'खाना फेंका जाता है'), जो ख़बरों में इसी तरह इस्तेमाल होता है। अंग्रेज़ी 'was adopted' = फ़्रेंच 'a été adoptée' — पर फ़्रेंच में मेल भी होता है: la loi a été adoptéE।"
+    },
+    "examples": [
+      {
+        "fr": "Chaque année, des tonnes de nourriture sont jetées.",
+        "en": "Every year, tonnes of food are thrown away.",
+        "hi": "हर साल टनों खाना फेंका जाता है।",
+        "pron": "शाक आ-ने दे तॉन दö नू-ग़ी-त्üग़ सोँ झ़्ö-ते"
+      },
+      {
+        "fr": "La loi a été adoptée par l'Assemblée nationale.",
+        "en": "The law was passed by the National Assembly.",
+        "hi": "क़ानून राष्ट्रीय सभा द्वारा पारित किया गया।",
+        "pron": "ला ल्वा आ ए-ते आ-दॉप-ते पाग़ ला-साँ-ब्ले ना-स्यो-नाल"
+      },
+      {
+        "fr": "Les invendus seront donnés à des organismes.",
+        "en": "Unsold goods will be given to organisations.",
+        "hi": "बिना बिका माल संस्थाओं को दिया जाएगा।",
+        "pron": "ले ज़ैँ-वाँ-द्ü सö-ग़ोँ दो-ने आ दे ज़ॉग़-गा-नीस्म"
+      },
+      {
+        "fr": "Le maire aurait refusé de répondre.",
+        "en": "The mayor reportedly refused to answer.",
+        "hi": "बताया जाता है कि मेयर ने जवाब देने से मना कर दिया।",
+        "pron": "लö मैग़ ओ-ग़ै ग़ö-फ़ü-ज़े दö ग़े-पोँद्ग़"
+      },
+      {
+        "fr": "Certes, des efforts ont été faits, mais les résultats restent inquiétants.",
+        "en": "Admittedly, efforts have been made, but the results remain worrying.",
+        "hi": "माना कि कोशिशें की गई हैं, पर नतीजे अब भी चिंताजनक हैं।",
+        "pron": "सैग़्त दे ज़े-फ़ॉग़ ज़ोँ ए-ते फ़ै मै ले ग़े-ज़üल-ता ग़ैस्त ऐँ-क्ये-ताँ"
+      },
+      {
+        "fr": "Malheureusement, rien n'a changé.",
+        "en": "Unfortunately, nothing has changed.",
+        "hi": "दुर्भाग्य से कुछ नहीं बदला।",
+        "pron": "मा-लö-ग़öज़-माँ ग़्यैँ ना शाँ-झ़े"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Don't confuse the passive (a été adoptée = was passed) with the passé composé of être verbs (est arrivée = arrived). Test: can you add 'par quelqu'un'?",
+        "hi": "passive (a été adoptée = पारित हुई) को être वाली क्रियाओं के passé composé (est arrivée = आई) से मत मिलाइए। जाँच: क्या आप 'par quelqu'un' जोड़ सकते हैं?"
+      },
+      {
+        "en": "An inference question's answer is NOT written word for word. If an option copies a sentence exactly, check that it really answers the question asked.",
+        "hi": "अनुमान वाले सवाल का जवाब शब्दशः लिखा नहीं होता। अगर कोई विकल्प ठीक वही वाक्य दोहराता है, तो जाँचिए कि वह सच में पूछे गए सवाल का जवाब है।"
+      },
+      {
+        "en": "The journalist quoting someone is not the journalist's own opinion. Separate 'X says…' from the author's comments.",
+        "hi": "पत्रकार किसी को उद्धृत करे, तो वह पत्रकार की अपनी राय नहीं है। 'X कहता है…' को लेखक की टिप्पणियों से अलग कीजिए।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Reading an article aloud",
+    "tip": {
+      "en": "Read the title with a falling tone, pause after the lead paragraph, and slow down on numbers and names. In the passive, say a‿été as one group: आ ए-ते.",
+      "hi": "शीर्षक नीचे जाती आवाज़ में पढ़िए, परिचय अनुच्छेद के बाद रुकिए, और संख्याओं व नामों पर धीमे हो जाइए। passive में a‿été को एक समूह की तरह बोलिए: आ ए-ते।"
+    },
+    "words": [
+      {
+        "fr": "a été adoptée",
+        "en": "was passed",
+        "hi": "पारित हुई",
+        "pron": "आ ए-ते आ-दॉप-ते",
+        "ipa": "a ete adɔpte"
+      },
+      {
+        "fr": "le gaspillage",
+        "en": "waste",
+        "hi": "बर्बादी",
+        "pron": "लö गास-पी-याझ़",
+        "ipa": "lə ɡaspijaʒ",
+        "note": {
+          "en": "-ill- = य: gaspi-yage.",
+          "hi": "-ill- = य: गास-पी-याझ़।"
+        }
+      },
+      {
+        "fr": "actuellement",
+        "en": "currently (not 'actually')",
+        "hi": "फ़िलहाल",
+        "pron": "आक-त्üऐल-माँ",
+        "ipa": "aktɥɛlmɑ̃",
+        "note": {
+          "en": "False friend: actuellement = at present.",
+          "hi": "धोखेबाज़ शब्द: actuellement = इस समय, 'actually' नहीं।"
+        }
+      },
+      {
+        "fr": "d'après",
+        "en": "according to",
+        "hi": "… के अनुसार",
+        "pron": "दा-प्रै",
+        "ipa": "dapʁɛ"
+      },
+      {
+        "fr": "malheureusement",
+        "en": "unfortunately",
+        "hi": "दुर्भाग्य से",
+        "pron": "मा-लö-ग़öज़-माँ",
+        "ipa": "maløʁøzmɑ̃"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Reportage : des autobus électriques à l'essai",
+      "en": "Report: electric buses on trial"
+    },
+    "type": "radio",
+    "mode": "natural",
+    "context": {
+      "en": "A short radio report about a city testing electric buses, with a driver and a passenger interviewed. Notice the passive forms and the journalist's careful, neutral tone.",
+      "hi": "एक शहर में बिजली वाली बसों के परीक्षण पर छोटी रेडियो रिपोर्ट, एक ड्राइवर और एक यात्री से बातचीत के साथ। passive रूपों और पत्रकार के सधे, तटस्थ लहजे पर ध्यान दीजिए।"
+    },
+    "lines": [
+      {
+        "speaker": "Journaliste",
+        "voice": "m2",
+        "fr": "Depuis lundi, dix autobus électriques circulent dans les rues de Sherbrooke. Ils ont été achetés par la ville dans le cadre d'un projet pilote de deux ans.",
+        "en": "Since Monday, ten electric buses have been running in the streets of Sherbrooke. They were bought by the city as part of a two-year pilot project.",
+        "hi": "सोमवार से शेरब्रुक की सड़कों पर दस बिजली वाली बसें चल रही हैं। इन्हें शहर ने दो साल की एक प्रायोगिक परियोजना के तहत ख़रीदा है।"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "m2",
+        "fr": "Le projet a coûté douze millions de dollars, dont la moitié a été payée par le gouvernement provincial.",
+        "en": "The project cost twelve million dollars, half of which was paid by the provincial government.",
+        "hi": "परियोजना पर बारह मिलियन डॉलर ख़र्च हुए, जिनमें से आधा प्रांतीय सरकार ने चुकाया।"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "m2",
+        "fr": "Nous avons rencontré Josée, chauffeuse depuis quinze ans.",
+        "en": "We met Josée, a driver for fifteen years.",
+        "hi": "हम पंद्रह साल से बस चला रही जोज़े से मिले।"
+      },
+      {
+        "speaker": "Josée",
+        "voice": "f1",
+        "fr": "Franchement, c'est le jour et la nuit. Il n'y a presque pas de bruit, et on ne sent plus l'odeur du diesel. Les passagers me le disent tous les jours.",
+        "en": "Honestly, it's night and day. There's almost no noise, and you no longer smell diesel. Passengers tell me every day.",
+        "hi": "सच कहूँ तो ज़मीन-आसमान का फ़र्क़ है। लगभग कोई शोर नहीं, और डीज़ल की गंध भी नहीं आती। यात्री मुझे रोज़ यही कहते हैं।"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "m2",
+        "fr": "Tout n'est pourtant pas parfait. Mardi, deux autobus ont été retirés du service à cause du froid : leur batterie s'était vidée plus vite que prévu.",
+        "en": "Yet not everything is perfect. On Tuesday, two buses were taken out of service because of the cold: their battery had run down faster than expected.",
+        "hi": "फिर भी सब कुछ परफ़ेक्ट नहीं है। मंगलवार को ठंड की वजह से दो बसें सेवा से हटा दी गईं: उनकी बैटरी उम्मीद से जल्दी ख़त्म हो गई थी।"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "m2",
+        "fr": "Un passager, Karim, attendait à l'arrêt ce matin-là.",
+        "en": "A passenger, Karim, was waiting at the stop that morning.",
+        "hi": "एक यात्री, करीम, उस सुबह स्टॉप पर इंतज़ार कर रहा था।"
+      },
+      {
+        "speaker": "Karim",
+        "voice": "m1",
+        "fr": "J'ai attendu quarante minutes par moins vingt-cinq. L'idée est bonne, mais il faut que ça marche aussi en janvier !",
+        "en": "I waited forty minutes at minus twenty-five. The idea is good, but it has to work in January too!",
+        "hi": "मैंने माइनस पच्चीस डिग्री में चालीस मिनट इंतज़ार किया। विचार अच्छा है, पर इसे जनवरी में भी चलना चाहिए!"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "m2",
+        "fr": "Selon la société de transport, de nouvelles batteries adaptées à l'hiver seront installées d'ici le mois de mars.",
+        "en": "According to the transit company, new batteries adapted to winter will be installed by March.",
+        "hi": "परिवहन कंपनी के अनुसार, मार्च तक सर्दी के अनुकूल नई बैटरियाँ लगाई जाएँगी।"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "m2",
+        "fr": "Si le projet est un succès, toute la flotte, soit cent vingt autobus, pourrait être remplacée d'ici 2035.",
+        "en": "If the project is a success, the whole fleet, that is one hundred and twenty buses, could be replaced by 2035.",
+        "hi": "अगर परियोजना सफल रही, तो पूरा बेड़ा, यानी एक सौ बीस बसें, 2035 तक बदला जा सकता है।"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "m2",
+        "fr": "Un premier bilan sera présenté au conseil municipal à l'automne.",
+        "en": "A first assessment will be presented to the city council in the autumn.",
+        "hi": "पहला आकलन शरद ऋतु में नगर परिषद के सामने रखा जाएगा।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "Who paid for half of the project?"
+        },
+        "options": [
+          "The passengers",
+          "The city",
+          "The provincial government",
+          "The transit company"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "Passive: 'dont la moitié a été payée par le gouvernement provincial'.",
+          "hi": "passive: 'dont la moitié a été payée par le gouvernement provincial'।"
+        },
+        "kind": "literal",
+        "evidence": "dont la moitié a été payée par le gouvernement provincial"
+      },
+      {
+        "q": {
+          "en": "What does the driver appreciate most?"
+        },
+        "options": [
+          "Less noise and no diesel smell",
+          "Shorter routes",
+          "Fewer passengers",
+          "Higher pay"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Presque pas de bruit… on ne sent plus l'odeur du diesel.'",
+          "hi": "'presque pas de bruit… on ne sent plus l'odeur du diesel'।"
+        },
+        "kind": "literal",
+        "evidence": "Il n'y a presque pas de bruit, et on ne sent plus l'odeur du diesel."
+      },
+      {
+        "q": {
+          "en": "Why were two buses taken out of service?"
+        },
+        "options": [
+          "A drivers' strike",
+          "Snow on the roads",
+          "An accident",
+          "Their batteries ran down because of the cold"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'À cause du froid : leur batterie s'était vidée plus vite que prévu.'",
+          "hi": "'à cause du froid : leur batterie s'était vidée plus vite que prévu'।"
+        },
+        "kind": "literal",
+        "evidence": "deux autobus ont été retirés du service à cause du froid"
+      },
+      {
+        "q": {
+          "en": "What is Karim's attitude?"
+        },
+        "options": [
+          "Completely against electric buses",
+          "In favour of the idea but critical of winter reliability",
+          "Indifferent",
+          "Enthusiastic without reservation"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'L'idée est bonne, mais il faut que ça marche aussi en janvier !'",
+          "hi": "'l'idée est bonne, mais il faut que ça marche aussi en janvier !' — विचार अच्छा, पर सर्दी में भरोसा चाहिए।"
+        },
+        "kind": "inference",
+        "evidence": "L'idée est bonne, mais il faut que ça marche aussi en janvier !"
+      },
+      {
+        "q": {
+          "en": "What will happen by March?"
+        },
+        "options": [
+          "Ten more buses will be bought",
+          "All buses will be replaced",
+          "New winter batteries will be installed",
+          "The project will end"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'De nouvelles batteries adaptées à l'hiver seront installées d'ici le mois de mars.'",
+          "hi": "'de nouvelles batteries adaptées à l'hiver seront installées d'ici le mois de mars'।"
+        },
+        "kind": "literal",
+        "evidence": "de nouvelles batteries adaptées à l'hiver seront installées d'ici le mois de mars"
+      },
+      {
+        "q": {
+          "en": "Is the replacement of the whole fleet certain?"
+        },
+        "options": [
+          "No, it depends on the success of the project",
+          "Yes, by March",
+          "No, it was refused",
+          "Yes, it was decided"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Si le projet est un succès… pourrait être remplacée' — condition + conditional.",
+          "hi": "'si le projet est un succès… pourrait être remplacée' — शर्त + conditionnel।"
+        },
+        "kind": "inference",
+        "evidence": "Si le projet est un succès, toute la flotte, soit cent vingt autobus, pourrait être remplacée d'ici 2035."
+      }
+    ],
+    "dictation": [
+      "Ils ont été achetés par la ville.",
+      "Deux autobus ont été retirés du service à cause du froid.",
+      "Un premier bilan sera présenté au conseil municipal."
+    ],
+    "gapFill": {
+      "text": "Ils ont été ___ par la ville. La moitié a été ___ par le gouvernement provincial. De nouvelles batteries seront ___ d'ici le mois de mars.",
+      "answers": [
+        "achetés",
+        "payée",
+        "installées"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "presentation",
+    "instructions": {
+      "en": "Summarise today's article in 1–2 minutes: the topic, two key facts, and the author's point of view with one piece of evidence from the text (an adjective, a 'mais', a question).",
+      "hi": "आज के लेख का 1–2 मिनट में सार दीजिए: विषय, दो मुख्य तथ्य, और लेखक का नज़रिया, पाठ से एक सबूत के साथ (कोई विशेषण, कोई 'mais', कोई सवाल)।"
+    },
+    "prompts": [
+      {
+        "fr": "L'article parle du gaspillage alimentaire au Canada.",
+        "en": "The article is about food waste in Canada.",
+        "hi": "लेख कनाडा में खाने की बर्बादी के बारे में है।",
+        "pron": "लाग़-तीक्ल पाग़ल दü गास-पी-याझ़ आ-ली-माँ-तैग़ ओ का-ना-दा"
+      },
+      {
+        "fr": "Selon l'article, presque la moitié de la nourriture est perdue ou jetée.",
+        "en": "According to the article, almost half of the food is lost or thrown away.",
+        "hi": "लेख के अनुसार लगभग आधा खाना बर्बाद होता है या फेंका जाता है।",
+        "pron": "सö-लोँ लाग़-तीक्ल प्रैस-कö ला म्वा-ती-ये दö ला नू-ग़ी-त्üग़ ए पैग़-द्ü ऊ झ़्ö-ते"
+      },
+      {
+        "fr": "L'auteur est plutôt critique envers les grandes chaînes.",
+        "en": "The author is rather critical of the big chains.",
+        "hi": "लेखक बड़ी दुकान-शृंखलाओं के प्रति कुछ आलोचनात्मक है।",
+        "pron": "लो-तöग़ ए प्लü-तो क्ग़ी-तीक आँ-वैग़ ले ग्ग़ाँद शैन"
+      },
+      {
+        "fr": "On le voit quand il écrit « les bonnes intentions ne suffisent plus ».",
+        "en": "You can see it when he writes 'good intentions are no longer enough'.",
+        "hi": "यह तब दिखता है जब वह लिखता है कि 'अच्छे इरादे अब काफ़ी नहीं'।",
+        "pron": "ओँ लö व्वा काँ ती-ले-क्ग़ी ले बॉन ज़ैँ-ताँ-स्योँ नö स्ü-फ़ीज़ प्लü"
+      },
+      {
+        "fr": "Il propose une loi qui oblige les supermarchés à donner leurs invendus.",
+        "en": "He proposes a law forcing supermarkets to donate their unsold goods.",
+        "hi": "वह एक क़ानून का सुझाव देता है जो सुपरमार्केटों को बिना बिका माल दान करने पर मजबूर करे।",
+        "pron": "इल प्रो-पोज़ üन ल्वा की ओ-ब्लीझ़ ले स्ü-पैग़-माग़-शे आ दो-ने लöग़ ज़ैँ-वाँ-द्ü"
+      }
+    ],
+    "tip": {
+      "en": "Separate facts (selon l'article, …) from opinion (l'auteur pense / semble / critique…). Examiners and TEF questions test exactly this difference.",
+      "hi": "तथ्यों (selon l'article, …) को राय (l'auteur pense / semble / critique…) से अलग रखिए। परीक्षक और TEF के सवाल ठीक यही फ़र्क़ जाँचते हैं।"
+    }
+  },
+  "reading": {
+    "genre": "article",
+    "title": "Gaspillage alimentaire : les bonnes intentions ne suffisent plus",
+    "text": "Chaque année au Canada, près de la moitié de la nourriture produite est perdue ou jetée, du champ jusqu'au réfrigérateur. Malgré les promesses répétées des grandes chaînes d'épiceries, la situation s'améliore à peine.\n\nLes chiffres font réfléchir. Selon une étude publiée l'an dernier par un groupe de chercheurs universitaires, un ménage canadien jette en moyenne l'équivalent de 1 300 $ de nourriture par année. Dans les supermarchés, des tonnes de fruits, de légumes et de produits laitiers encore consommables sont retirées des rayons parce qu'ils sont « moches » ou proches de leur date de péremption.\n\nCertes, des initiatives intéressantes ont été lancées. Plusieurs épiceries vendent désormais des paniers de fruits imparfaits à prix réduit, et certaines applications permettent d'acheter à bas prix les invendus des boulangeries en fin de journée. Des banques alimentaires récupèrent aussi une partie de ces produits. Mais ces efforts restent volontaires, et donc fragiles : il suffit d'un changement de direction pour qu'un programme disparaisse.\n\nEn France, une loi oblige depuis 2016 les grandes surfaces à donner leurs invendus encore consommables à des associations. Elle n'est pas parfaite, mais elle a permis d'augmenter fortement les dons. Pourquoi le Canada n'adopterait-il pas une règle semblable ? Les grandes chaînes répondent que la logistique serait trop compliquée. Curieusement, elles trouvent pourtant des solutions efficaces lorsqu'il s'agit de livrer leurs produits à domicile en moins de deux heures.\n\nLes consommateurs ont aussi leur part de responsabilité : planifier ses repas, mieux comprendre la différence entre « meilleur avant » et « à consommer avant », congeler les restes. Toutefois, on ne peut pas demander aux familles de faire tous les efforts pendant que les plus gros acteurs se contentent de belles déclarations. Les bonnes intentions ont eu leur temps. Il est temps de légiférer.",
+    "translation": {
+      "en": "Every year in Canada, nearly half of the food produced is lost or thrown away, from the field to the fridge. Despite repeated promises from the big grocery chains, the situation is barely improving.\n\nThe figures are food for thought. According to a study published last year by a group of university researchers, a Canadian household throws away on average the equivalent of $1,300 of food per year. In supermarkets, tonnes of fruit, vegetables and dairy products that are still edible are removed from the shelves because they are 'ugly' or close to their expiry date.\n\nAdmittedly, some interesting initiatives have been launched. Several grocery stores now sell baskets of imperfect fruit at reduced prices, and some apps make it possible to buy bakeries' unsold goods cheaply at the end of the day. Food banks also recover some of these products. But these efforts remain voluntary, and therefore fragile: a change of management is enough for a programme to disappear.\n\nIn France, since 2016, a law has required large supermarkets to donate their unsold, still-edible goods to charities. It is not perfect, but it has greatly increased donations. Why wouldn't Canada adopt a similar rule? The big chains answer that the logistics would be too complicated. Curiously, however, they find efficient solutions when it comes to delivering their products to people's homes in under two hours.\n\nConsumers also bear part of the responsibility: planning meals, better understanding the difference between 'best before' and 'use by', freezing leftovers. However, we cannot ask families to make all the efforts while the biggest players are content with fine statements. Good intentions have had their time. It is time to legislate.",
+      "hi": "कनाडा में हर साल पैदा होने वाले खाने का लगभग आधा हिस्सा, खेत से फ़्रिज तक, बर्बाद होता है या फेंक दिया जाता है। बड़ी किराना शृंखलाओं के बार-बार के वादों के बावजूद स्थिति मुश्किल से सुधर रही है।\n\nआँकड़े सोचने पर मजबूर करते हैं। विश्वविद्यालय के शोधकर्ताओं के एक समूह द्वारा पिछले साल प्रकाशित एक अध्ययन के अनुसार, एक कनाडाई परिवार साल में औसतन 1,300 डॉलर के बराबर खाना फेंक देता है। सुपरमार्केटों में टनों फल, सब्ज़ियाँ और डेयरी उत्पाद, जो अभी खाने लायक़ हैं, अलमारियों से हटा दिए जाते हैं क्योंकि वे 'भद्दे' दिखते हैं या उनकी समाप्ति-तिथि क़रीब है।\n\nमाना कि कुछ दिलचस्प पहलें शुरू की गई हैं। कई दुकानें अब कम दाम पर बेढंगे फलों की टोकरियाँ बेचती हैं, और कुछ ऐप्स से दिन के अंत में बेकरियों का बिना बिका माल सस्ते में ख़रीदा जा सकता है। फ़ूड बैंक भी इनमें से कुछ चीज़ें ले लेते हैं। पर ये कोशिशें स्वैच्छिक हैं, और इसलिए कमज़ोर: प्रबंधन बदलते ही कोई कार्यक्रम ग़ायब हो सकता है।\n\nफ़्रांस में 2016 से एक क़ानून बड़े सुपरमार्केटों को अपना खाने लायक़ बिना बिका माल संस्थाओं को दान करने पर मजबूर करता है। यह परफ़ेक्ट नहीं है, पर इससे दान बहुत बढ़ा है। कनाडा ऐसा ही नियम क्यों न अपनाए? बड़ी शृंखलाएँ जवाब देती हैं कि इसकी व्यवस्था बहुत जटिल होगी। अजीब बात है कि जब अपने सामान को दो घंटे से कम में घर तक पहुँचाने की बात आती है, तो वे बड़े असरदार उपाय ढूँढ लेती हैं।\n\nग्राहकों की भी ज़िम्मेदारी है: खाने की योजना बनाना, 'इससे पहले बेहतर' और 'इससे पहले इस्तेमाल करें' का फ़र्क़ समझना, बचा खाना फ़्रीज़ करना। फिर भी, हम परिवारों से सारी मेहनत की उम्मीद नहीं कर सकते जबकि सबसे बड़े खिलाड़ी सिर्फ़ सुंदर बयानों से संतुष्ट रहें। अच्छे इरादों का समय बीत गया। अब क़ानून बनाने का समय है।"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "What is the author's main opinion?"
+        },
+        "options": [
+          "Voluntary efforts are enough",
+          "Canada should pass a law against food waste by supermarkets",
+          "Food waste is not a real problem",
+          "Consumers are the only ones responsible"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "The title and the last sentence: 'Il est temps de légiférer.'",
+          "hi": "शीर्षक और आख़िरी वाक्य: 'Il est temps de légiférer' — क़ानून बनाने का समय है।"
+        },
+        "kind": "gist",
+        "evidence": "Il est temps de légiférer."
+      },
+      {
+        "q": {
+          "en": "Why does the author call current initiatives 'fragiles'?"
+        },
+        "options": [
+          "Consumers don't use them",
+          "They are illegal",
+          "They cost too much",
+          "They are voluntary and can disappear easily"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Ces efforts restent volontaires, et donc fragiles : il suffit d'un changement de direction…'",
+          "hi": "'ces efforts restent volontaires, et donc fragiles…' — स्वैच्छिक हैं, आसानी से ख़त्म हो सकते हैं।"
+        },
+        "kind": "inference",
+        "evidence": "ces efforts restent volontaires, et donc fragiles"
+      },
+      {
+        "q": {
+          "en": "What is the tone of the sentence about home delivery in under two hours?"
+        },
+        "options": [
+          "Ironic",
+          "Neutral",
+          "Sad",
+          "Admiring"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Curieusement… pourtant' — the author suggests the chains' excuse is not credible: irony.",
+          "hi": "'curieusement… pourtant' — लेखक इशारा करता है कि शृंखलाओं का बहाना भरोसेमंद नहीं: व्यंग्य।"
+        },
+        "kind": "inference",
+        "evidence": "Curieusement, elles trouvent pourtant des solutions efficaces lorsqu'il s'agit de livrer leurs produits à domicile"
+      },
+      {
+        "q": {
+          "en": "What does the author think of the French law?"
+        },
+        "options": [
+          "It is perfect",
+          "It is useless",
+          "It is imperfect but effective",
+          "It should be cancelled"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Elle n'est pas parfaite, mais elle a permis d'augmenter fortement les dons.'",
+          "hi": "'elle n'est pas parfaite, mais elle a permis d'augmenter fortement les dons' — परफ़ेक्ट नहीं, पर असरदार।"
+        },
+        "kind": "inference",
+        "evidence": "Elle n'est pas parfaite, mais elle a permis d'augmenter fortement les dons."
+      },
+      {
+        "q": {
+          "en": "Why are some products removed from supermarket shelves?"
+        },
+        "options": [
+          "They are dangerous",
+          "They look 'ugly' or are close to their expiry date",
+          "They are too expensive",
+          "Customers complain"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "Passive 'sont retirées des rayons parce qu'ils sont « moches » ou proches de leur date de péremption'.",
+          "hi": "passive 'sont retirées des rayons parce qu'ils sont « moches » ou proches de leur date de péremption'।"
+        },
+        "kind": "literal",
+        "evidence": "sont retirées des rayons parce qu'ils sont « moches » ou proches de leur date de péremption"
+      },
+      {
+        "q": {
+          "en": "According to the author, what is the role of consumers?"
+        },
+        "options": [
+          "They should boycott supermarkets",
+          "They are the main cause",
+          "They have no role",
+          "They share some responsibility, but shouldn't carry all the effort"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Ont aussi leur part de responsabilité… Toutefois, on ne peut pas demander aux familles de faire tous les efforts.'",
+          "hi": "'ont aussi leur part de responsabilité… toutefois…' — कुछ ज़िम्मेदारी, पर सारी मेहनत उनसे नहीं।"
+        },
+        "kind": "inference",
+        "evidence": "on ne peut pas demander aux familles de faire tous les efforts"
+      }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "Write a summary of the food-waste article in about 80–120 words. Use your own words, the third person, and end with one sentence on the author's point of view.",
+      "hi": "खाने की बर्बादी वाले लेख का लगभग 80–120 शब्दों में सार लिखिए। अपने शब्दों में, अन्य पुरुष में, और अंत में लेखक के नज़रिए पर एक वाक्य लिखिए।"
+    },
+    "minWords": 80,
+    "maxWords": 130,
+    "hints": [
+      {
+        "en": "Start with 'Cet article traite de…' or 'Dans cet article, l'auteur explique que…'.",
+        "hi": "'Cet article traite de…' या 'Dans cet article, l'auteur explique que…' से शुरू कीजिए।"
+      },
+      {
+        "en": "Don't copy whole sentences; don't add your own opinion in a summary.",
+        "hi": "पूरे वाक्य मत उतारिए; सार में अपनी राय मत जोड़िए।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Cet article traite de…",
+        "en": "This article deals with…",
+        "hi": "यह लेख … के बारे में है",
+        "pron": "सै ताग़-तीक्ल त्ग़ैत दö"
+      },
+      {
+        "fr": "L'auteur souligne que…",
+        "en": "The author stresses that…",
+        "hi": "लेखक ज़ोर देता है कि…",
+        "pron": "लो-तöग़ सू-लीन्य कö"
+      },
+      {
+        "fr": "Il conclut que…",
+        "en": "He concludes that…",
+        "hi": "वह निष्कर्ष निकालता है कि…",
+        "pron": "इल कोँ-क्ल्ü कö"
+      }
+    ],
+    "model": {
+      "fr": "Cet article traite du gaspillage alimentaire au Canada, où près de la moitié de la nourriture est perdue ou jetée. L'auteur rappelle qu'un ménage jette environ 1 300 $ de nourriture par an et que les supermarchés retirent beaucoup de produits encore bons. Il reconnaît que certaines initiatives existent, comme les paniers de fruits imparfaits, mais il les juge fragiles parce qu'elles sont volontaires. Il cite l'exemple de la France, où une loi oblige les grandes surfaces à donner leurs invendus. Selon lui, les consommateurs doivent faire des efforts, mais les grandes chaînes doivent être obligées d'agir. Le ton est critique : l'auteur conclut qu'il faut une loi.",
+      "en": "This article deals with food waste in Canada, where nearly half of the food is lost or thrown away. The author recalls that a household throws away about $1,300 of food a year and that supermarkets remove many products that are still good. He acknowledges that some initiatives exist, such as baskets of imperfect fruit, but he considers them fragile because they are voluntary. He gives the example of France, where a law requires large supermarkets to donate their unsold goods. According to him, consumers must make efforts, but the big chains must be forced to act. The tone is critical: the author concludes that a law is needed."
+    },
+    "checklist": [
+      {
+        "en": "Is your summary in the third person, without your own opinion?",
+        "hi": "क्या आपका सार अन्य पुरुष में है, आपकी अपनी राय के बिना?"
+      },
+      {
+        "en": "Did you include the main fact, the counter-point and the conclusion?",
+        "hi": "क्या आपने मुख्य तथ्य, विरोधी पक्ष और निष्कर्ष शामिल किए?"
+      },
+      {
+        "en": "Did you name the author's tone?",
+        "hi": "क्या आपने लेखक का लहजा बताया?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      44,
+      69,
+      73,
+      76,
+      78,
+      92
+    ],
+    "items": [
+      {
+        "fr": "par conséquent",
+        "en": "consequently",
+        "hi": "परिणामस्वरूप",
+        "pron": "पाग़ कोँ-से-काँ"
+      },
+      {
+        "fr": "le recyclage",
+        "en": "recycling",
+        "hi": "रीसाइक्लिंग",
+        "pron": "लö ग़ö-सी-क्लाझ़"
+      },
+      {
+        "fr": "Je doute que ce soit vrai.",
+        "en": "I doubt that it's true.",
+        "hi": "मुझे शक है कि यह सच है।",
+        "pron": "झ़ö दूत कö सö स्वा व्ग़ै"
+      },
+      {
+        "fr": "Il est possible que la loi change.",
+        "en": "It's possible the law will change.",
+        "hi": "हो सकता है क़ानून बदले।",
+        "pron": "इ-लै पो-सीब्ल कö ला ल्वा शाँझ़"
+      },
+      {
+        "fr": "pourtant",
+        "en": "yet",
+        "hi": "फिर भी",
+        "pron": "पूग़-ताँ"
+      },
+      {
+        "fr": "certes… mais…",
+        "en": "admittedly… but…",
+        "hi": "माना कि… पर…",
+        "pron": "सैग़्त मै"
+      },
+      {
+        "fr": "le délai",
+        "en": "time limit",
+        "hi": "समय-सीमा",
+        "pron": "लö दे-लै"
+      },
+      {
+        "fr": "à compter du",
+        "en": "as of",
+        "hi": "… से लागू",
+        "pron": "आ कोँ-ते दü"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which sentence is in the PASSIVE voice?",
+        "hi": "कौन-सा वाक्य कर्मवाच्य (passive) में है?"
+      },
+      "options": [
+        "La loi a été adoptée hier.",
+        "Elle a adopté un chat.",
+        "Elle s'est levée tôt.",
+        "Elle est arrivée hier."
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "a été + adoptée, and you could add 'par le Parlement'.",
+        "hi": "a été + adoptée, और आप 'par le Parlement' जोड़ सकते हैं।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Make it passive: On jette des tonnes de nourriture. → Des tonnes de nourriture sont ___.",
+        "hi": "passive बनाइए: On jette des tonnes de nourriture. → Des tonnes de nourriture sont ___."
+      },
+      "sentence": "Des tonnes de nourriture sont ___.",
+      "answer": "jetées",
+      "accept": [],
+      "explanation": {
+        "en": "Agreement with 'des tonnes' (f. pl.): jetées.",
+        "hi": "'des tonnes' (स्त्री. बहु.) से मेल: jetées।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Le ministre aurait démissionné.' This means the information is…",
+        "hi": "'Le ministre aurait démissionné.' इसका मतलब है जानकारी…"
+      },
+      "options": [
+        "about the future",
+        "certain",
+        "not confirmed",
+        "false"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The conditional in news = reported, unconfirmed.",
+        "hi": "ख़बरों में conditionnel = कथित, अपुष्ट।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Certes, la mesure coûte cher, mais elle sauve des vies.' The author is…",
+        "hi": "'Certes, la mesure coûte cher, mais elle sauve des vies.' लेखक…"
+      },
+      "options": [
+        "undecided",
+        "against the measure",
+        "for the measure",
+        "neutral"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The real opinion comes after 'mais'.",
+        "hi": "असली राय 'mais' के बाद आती है।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "According to a recent poll, …",
+        "hi": "हाल के एक सर्वेक्षण के अनुसार, …"
+      },
+      "answer": "Selon un sondage récent, …",
+      "accept": [
+        "Selon un sondage récent",
+        "D'après un sondage récent",
+        "Selon un récent sondage"
+      ],
+      "explanation": {
+        "en": "Selon / d'après = according to.",
+        "hi": "selon / d'après = के अनुसार।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Actuellement' means…",
+        "hi": "'actuellement' का मतलब है…"
+      },
+      "options": [
+        "currently",
+        "accurately",
+        "finally",
+        "actually"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "False friend: actuellement = at present. 'Actually' = en fait.",
+        "hi": "धोखेबाज़ शब्द: actuellement = इस समय। 'actually' = en fait।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put in order: The buses were bought by the city.",
+        "hi": "क्रम में रखिए: बसें शहर द्वारा ख़रीदी गईं।"
+      },
+      "words": [
+        "autobus",
+        "Les",
+        "été",
+        "ont",
+        "achetés",
+        "par",
+        "la",
+        "ville",
+        "."
+      ],
+      "answer": "Les autobus ont été achetés par la ville.",
+      "explanation": {
+        "en": "ont été + participle agreeing with les autobus (m. pl.) + par.",
+        "hi": "ont été + les autobus (पु. बहु.) से मेल खाता participle + par।"
+      }
+    }
+  ]
+}

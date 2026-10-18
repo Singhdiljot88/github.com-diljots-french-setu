@@ -1,0 +1,213 @@
+{
+  "day": 65,
+  "phase": 4,
+  "title": { "fr": "Demander poliment : le conditionnel", "en": "Polite requests: the conditional", "hi": "शिष्टता से माँगना: conditionnel" },
+  "objective": {
+    "en": "Form the conditionnel présent and use it to make polite requests at work and in services: je voudrais, j'aimerais, pourriez-vous…, ça vous dérangerait de…, ce serait possible de…",
+    "hi": "conditionnel présent बनाना और दफ़्तर व सेवाओं में शिष्ट अनुरोध करने के लिए उसका इस्तेमाल करना: je voudrais, j'aimerais, pourriez-vous…, ça vous dérangerait de…, ce serait possible de…"
+  },
+  "prerequisites": {
+    "days": [46, 48, 52, 59],
+    "summary": {
+      "en": "You know the imparfait endings (Day 46), the future stems (Day 48), indirect pronouns like vous, me, lui (Day 52) and polite question forms (Day 59). The conditional combines the first two.",
+      "hi": "आप imparfait के अंत (दिन 46), भविष्य काल के stem (दिन 48), vous, me, lui जैसे अप्रत्यक्ष सर्वनाम (दिन 52) और शिष्ट प्रश्न (दिन 59) जानते हैं। conditionnel पहले दोनों को मिलाकर बनता है।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "une demande", "en": "a request; an application", "hi": "अनुरोध; आवेदन", "pron": "üन दö-माँद", "ipa": "yn dəmɑ̃d", "pos": "noun", "gender": "f", "lemma": "demande", "note": { "en": "Faux ami: 'demander' = to ask, NOT to demand.", "hi": "धोखेबाज़ शब्द: 'demander' = पूछना/माँगना, अंग्रेज़ी 'demand' (ज़बरदस्ती माँगना) नहीं।" } },
+    { "fr": "une attestation", "en": "an official letter, certificate", "hi": "प्रमाण-पत्र", "pron": "ü-ना-तैस-ता-स्योँ", "ipa": "yn atɛstasjɔ̃", "pos": "noun", "gender": "f", "lemma": "attestation", "note": { "en": "'Une attestation d'emploi' = a letter confirming your job.", "hi": "'Une attestation d'emploi' = नौकरी की पुष्टि करने वाला पत्र।" } },
+    { "fr": "un formulaire", "en": "a form", "hi": "फ़ॉर्म", "pron": "ऐँ फ़ॉग़-मü-लैग़", "ipa": "ɛ̃ fɔʁmylɛʁ", "pos": "noun", "gender": "m", "lemma": "formulaire" },
+    { "fr": "remplir", "en": "to fill in, to fill", "hi": "भरना", "pron": "ग़ाँ-प्लीग़", "ipa": "ʁɑ̃pliʁ", "pos": "verb" },
+    { "fr": "envoyer", "en": "to send", "hi": "भेजना", "pron": "आँ-व्वा-ये", "ipa": "ɑ̃vwaje", "pos": "verb", "note": { "en": "Irregular future/conditional stem: enverr- (j'enverrais).", "hi": "भविष्य/conditionnel का अनियमित stem: enverr- (j'enverrais)।" } },
+    { "fr": "déranger", "en": "to disturb, to bother", "hi": "परेशान करना, तकलीफ़ देना", "pron": "दे-ग़ाँ-झ़े", "ipa": "deʁɑ̃ʒe", "pos": "verb" },
+    { "fr": "le délai", "en": "time frame, processing time", "hi": "समय-सीमा, लगने वाला समय", "pron": "लö दे-लै", "ipa": "lə delɛ", "pos": "noun", "gender": "m", "lemma": "délai", "note": { "en": "Faux ami: not 'delay' (that's un retard).", "hi": "धोखेबाज़ शब्द: अंग्रेज़ी 'delay' (देरी) नहीं — देरी = un retard।" } },
+    { "fr": "urgent", "en": "urgent", "hi": "ज़रूरी, तुरंत वाला", "pron": "üग़-झ़ाँ", "ipa": "yʁʒɑ̃", "pos": "adjective", "note": { "en": "Feminine: urgente.", "hi": "स्त्रीलिंग: urgente।" } },
+    { "fr": "signer", "en": "to sign", "hi": "हस्ताक्षर करना", "pron": "सी-न्ये", "ipa": "siɲe", "pos": "verb" },
+    { "fr": "une pièce jointe", "en": "an attachment (email)", "hi": "अटैचमेंट, संलग्न फ़ाइल", "pron": "üन प्यैस झ़्वैँत", "ipa": "yn pjɛs ʒwɛ̃t", "pos": "noun", "gender": "f", "lemma": "pièce jointe" },
+    { "fr": "le gestionnaire", "en": "manager (Canada)", "hi": "मैनेजर, प्रबंधक", "pron": "लö झ़ैस-त्यॉ-नैग़", "ipa": "lə ʒɛstjɔnɛʁ", "pos": "noun", "gender": "mf", "lemma": "gestionnaire", "note": { "en": "Same form for a woman: la gestionnaire.", "hi": "महिला के लिए भी यही रूप: la gestionnaire।" } },
+    { "fr": "un renseignement", "en": "a piece of information", "hi": "जानकारी", "pron": "ऐँ ग़ाँ-सैन्य-माँ", "ipa": "ɛ̃ ʁɑ̃sɛɲmɑ̃", "pos": "noun", "gender": "m", "lemma": "renseignement", "note": { "en": "Often plural: des renseignements.", "hi": "अक्सर बहुवचन में: des renseignements।" } },
+    { "fr": "aimable", "en": "kind, nice", "hi": "मेहरबान, भला", "pron": "ऐ-माब्ल", "ipa": "ɛmabl", "pos": "adjective", "gender": "mf" }
+  ],
+  "phrases": [
+    { "fr": "Je voudrais un rendez-vous, s'il vous plaît.", "en": "I would like an appointment, please.", "hi": "मुझे एक अपॉइंटमेंट चाहिए, कृपया।", "pron": "झ़ö वू-द्ग़ै ऐँ ग़ाँ-दे-वू सील वू प्लै" },
+    { "fr": "Pourriez-vous m'envoyer le formulaire ?", "en": "Could you send me the form?", "hi": "क्या आप मुझे फ़ॉर्म भेज सकेंगे?", "pron": "पू-ग़्ये वू माँ-व्वा-ये लö फ़ॉग़-मü-लैग़" },
+    { "fr": "J'aimerais parler au responsable.", "en": "I'd like to speak to the person in charge.", "hi": "मैं ज़िम्मेदार व्यक्ति से बात करना चाहूँगा।", "pron": "झ़ैम-ग़ै पाग़-ले ओ ग़ैस-पोँ-साब्ल" },
+    { "fr": "Ça vous dérangerait de répéter ?", "en": "Would you mind repeating?", "hi": "क्या आप दोबारा बोलने की तकलीफ़ करेंगे?", "pron": "सा वू दे-ग़ाँझ़-ग़ै दö ग़े-पे-ते" },
+    { "fr": "Est-ce que ce serait possible de changer la date ?", "en": "Would it be possible to change the date?", "hi": "क्या तारीख़ बदलना मुमकिन होगा?", "pron": "ऐस-कö सö स्ग़ै पो-सीब्ल दö शाँ-झ़े ला दात" },
+    { "fr": "Vous auriez un stylo, par hasard ?", "en": "Would you have a pen, by any chance?", "hi": "क्या आपके पास पेन होगा, शायद?", "pron": "वू ज़ो-ग़्ये ऐँ स्ती-लो पाग़ आ-ज़ाग़" },
+    { "fr": "Je vous remercie de votre aide.", "en": "Thank you for your help.", "hi": "आपकी मदद के लिए धन्यवाद।", "pron": "झ़ö वू ग़ö-मैग़-सी दö वॉ-त्ग़ैद" }
+  ],
+  "grammar": {
+    "title": { "en": "The conditionnel présent and polite requests", "hi": "conditionnel présent और शिष्ट अनुरोध" },
+    "explanation": {
+      "en": "The conditional = the FUTURE stem + the IMPARFAIT endings (-ais, -ais, -ait, -ions, -iez, -aient). Regular verbs use the infinitive: parler → je parlerais; finir → je finirais; prendre → je prendrais (drop the final e). Irregular stems are exactly those of the future: être → ser- (je serais), avoir → aur- (j'aurais), aller → ir- (j'irais), faire → fer- (je ferais), pouvoir → pourr- (je pourrais), vouloir → voudr- (je voudrais), devoir → devr-, venir → viendr-, envoyer → enverr-, falloir → il faudrait. Today's main use is politeness: the conditional softens a request. Je veux → je voudrais; pouvez-vous → pourriez-vous; c'est possible → ce serait possible; il faut → il faudrait. 'Ça vous dérangerait de + infinitive ?' = 'Would you mind …?'",
+      "hi": "conditionnel = भविष्य काल का stem + imparfait के अंत (-ais, -ais, -ait, -ions, -iez, -aient)। नियमित क्रियाओं में infinitive ही stem है: parler → je parlerais; finir → je finirais; prendre → je prendrais (आख़िरी e हटाइए)। अनियमित stem बिल्कुल भविष्य काल वाले हैं: être → ser- (je serais), avoir → aur- (j'aurais), aller → ir- (j'irais), faire → fer- (je ferais), pouvoir → pourr- (je pourrais), vouloir → voudr- (je voudrais), devoir → devr-, venir → viendr-, envoyer → enverr-, falloir → il faudrait। आज का मुख्य इस्तेमाल शिष्टता है: conditionnel अनुरोध को नरम बनाता है। Je veux → je voudrais; pouvez-vous → pourriez-vous; c'est possible → ce serait possible; il faut → il faudrait। 'Ça vous dérangerait de + infinitive ?' = 'क्या आपको … करने में तकलीफ़ होगी?'"
+    },
+    "comparison": {
+      "en": "English does the same with 'would' and 'could': 'I want' → 'I would like', 'can you' → 'could you'. Hindi softens differently, often with the past or future: 'मुझे एक फ़ॉर्म चाहिए था', 'क्या आप बता देंगे?'. So when you would say 'चाहिए था' or 'देंगे?' in Hindi, think conditional in French.",
+      "hi": "अंग्रेज़ी भी 'would' और 'could' से यही करती है: 'I want' → 'I would like', 'can you' → 'could you'। हिंदी अलग तरीक़े से नरमी लाती है, अक्सर भूत या भविष्य काल से: 'मुझे एक फ़ॉर्म चाहिए था', 'क्या आप बता देंगे?'। तो जहाँ हिंदी में आप 'चाहिए था' या 'देंगे?' कहते, वहाँ फ़्रेंच में conditionnel सोचिए।"
+    },
+    "examples": [
+      { "fr": "Je voudrais une attestation d'emploi.", "en": "I would like an employment letter.", "hi": "मुझे नौकरी का प्रमाण-पत्र चाहिए था।", "pron": "झ़ö वू-द्ग़ै ü-ना-तैस-ता-स्योँ दाँ-प्लवा" },
+      { "fr": "Pourriez-vous signer ici, s'il vous plaît ?", "en": "Could you sign here, please?", "hi": "क्या आप यहाँ हस्ताक्षर कर देंगे, कृपया?", "pron": "पू-ग़्ये वू सी-न्ये ई-सी सील वू प्लै" },
+      { "fr": "Nous aimerions recevoir les renseignements par courriel.", "en": "We would like to receive the information by email.", "hi": "हम जानकारी ईमेल से पाना चाहेंगे।", "pron": "नू ज़ै-मö-ग़्योँ ग़ö-सö-व्वाग़ ले ग़ाँ-सैन्य-माँ पाग़ कू-ग़्यैल" },
+      { "fr": "Ça vous dérangerait de fermer la fenêtre ?", "en": "Would you mind closing the window?", "hi": "क्या आप खिड़की बंद करने की तकलीफ़ करेंगे?", "pron": "सा वू दे-ग़ाँझ़-ग़ै दö फ़ैग़-मे ला फ़ö-नैत्ग़" },
+      { "fr": "Il faudrait envoyer le dossier avant lundi.", "en": "The file should be sent before Monday.", "hi": "फ़ाइल सोमवार से पहले भेजनी होगी।", "pron": "ईल फ़ो-द्ग़ै आँ-व्वा-ये लö दो-स्ये आ-वाँ लैँ-दी" },
+      { "fr": "Tu pourrais m'aider ce soir ?", "en": "Could you help me tonight?", "hi": "क्या तुम आज शाम मेरी मदद कर सकोगे?", "pron": "तü पू-ग़ै मै-दे सö स्वाग़" }
+    ],
+    "pitfalls": [
+      { "en": "Don't say 'Je veux…' to an official or a shop assistant — it sounds rude. Use 'Je voudrais…'.", "hi": "किसी अधिकारी या दुकान वाले से 'Je veux…' मत कहिए — यह रूखा लगता है। 'Je voudrais…' कहिए।" },
+      { "en": "Future and conditional look alike: je voudrai (future, ए) vs je voudrais (conditional, ऐ). For requests you need the s: je voudrais.", "hi": "भविष्य और conditionnel एक जैसे दिखते हैं: je voudrai (भविष्य, ए) और je voudrais (conditionnel, ऐ)। अनुरोध के लिए s चाहिए: je voudrais।" },
+      { "en": "After 'ça vous dérangerait', use de + infinitive: ça vous dérangerait DE parler plus lentement ?", "hi": "'ça vous dérangerait' के बाद de + infinitive आता है: ça vous dérangerait DE parler plus lentement ?" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Conditional endings -rais / -rait: /ʁɛ/",
+    "tip": {
+      "en": "The conditional ending sounds like ग़ै (open ऐ), the future ending like ग़े (closed ए): je voudrai (वू-द्ग़े) vs je voudrais (वू-द्ग़ै). Many French speakers don't make the difference clearly — but in the exam, say ग़ै for the conditional. In pourriez-vous, the r + i + ez gives पू-ग़्ये.",
+      "hi": "conditionnel का अंत ग़ै (खुला ऐ) जैसा, और भविष्य का अंत ग़े (बंद ए) जैसा सुनाई देता है: je voudrai (वू-द्ग़े) और je voudrais (वू-द्ग़ै)। कई फ़्रेंच बोलने वाले यह फ़र्क़ साफ़ नहीं करते — लेकिन परीक्षा में conditionnel के लिए ग़ै बोलिए। pourriez-vous में r + i + ez मिलकर पू-ग़्ये बनता है।"
+    },
+    "words": [
+      { "fr": "je voudrais", "en": "I would like", "hi": "मुझे चाहिए था / मैं चाहूँगा", "pron": "झ़ö वू-द्ग़ै", "ipa": "ʒə vudʁɛ" },
+      { "fr": "j'aimerais", "en": "I would like", "hi": "मैं चाहूँगा", "pron": "झ़ैम-ग़ै", "ipa": "ʒɛmʁɛ" },
+      { "fr": "pourriez-vous", "en": "could you", "hi": "क्या आप … सकेंगे", "pron": "पू-ग़्ये वू", "ipa": "puʁje vu" },
+      { "fr": "ce serait", "en": "it would be", "hi": "यह … होगा", "pron": "सö स्ग़ै", "ipa": "sə s(ə)ʁɛ" },
+      { "fr": "il faudrait", "en": "it would be necessary", "hi": "… करना होगा", "pron": "ईल फ़ो-द्ग़ै", "ipa": "il fodʁɛ" },
+      { "fr": "vous auriez", "en": "you would have", "hi": "आपके पास … होगा", "pron": "वू ज़ो-ग़्ये", "ipa": "vu zoʁje" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Au bureau des ressources humaines", "en": "At the human resources office" },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Priya goes to the human resources office of her company in Montréal. She needs a document for her immigration file and has a question about her schedule.",
+      "hi": "प्रिया मॉन्ट्रियाल में अपनी कंपनी के मानव संसाधन (HR) दफ़्तर जाती है। उसे अपनी इमिग्रेशन फ़ाइल के लिए एक दस्तावेज़ चाहिए और अपने काम के समय के बारे में एक सवाल है।"
+    },
+    "lines": [
+      { "speaker": "Mme Gagnon", "voice": "f2", "fr": "Bonjour, je peux vous aider ?", "en": "Hello, can I help you?", "hi": "नमस्ते, मैं आपकी क्या मदद कर सकती हूँ?" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Bonjour, madame. Je voudrais une attestation d'emploi, s'il vous plaît. C'est pour mon dossier d'immigration.", "en": "Hello, madam. I'd like an employment letter, please. It's for my immigration file.", "hi": "नमस्ते, मैडम। मुझे नौकरी का प्रमाण-पत्र चाहिए था। यह मेरी इमिग्रेशन फ़ाइल के लिए है।" },
+      { "speaker": "Mme Gagnon", "voice": "f2", "fr": "Bien sûr. Vous auriez besoin de quelles informations, exactement ?", "en": "Of course. Which information would you need, exactly?", "hi": "ज़रूर। आपको ठीक-ठीक कौन-सी जानकारी चाहिए होगी?" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Il faudrait mon poste, mon salaire, mes heures par semaine et ma date d'embauche.", "en": "It would need my position, my salary, my weekly hours and my hiring date.", "hi": "उसमें मेरा पद, मेरी तनख़्वाह, हफ़्ते के घंटे और नौकरी शुरू होने की तारीख़ होनी चाहिए।" },
+      { "speaker": "Mme Gagnon", "voice": "f2", "fr": "D'accord. Pourriez-vous remplir ce petit formulaire ? Je l'enverrai au service de paie.", "en": "All right. Could you fill in this short form? I'll send it to the payroll department.", "hi": "ठीक है। क्या आप यह छोटा-सा फ़ॉर्म भर देंगी? मैं इसे वेतन विभाग को भेज दूँगी।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Pas de problème. Et est-ce que ce serait possible de l'avoir avant vendredi ? Mon rendez-vous est lundi.", "en": "No problem. And would it be possible to have it before Friday? My appointment is on Monday.", "hi": "कोई बात नहीं। और क्या यह शुक्रवार से पहले मिल पाना मुमकिन होगा? मेरा अपॉइंटमेंट सोमवार को है।" },
+      { "speaker": "Mme Gagnon", "voice": "f2", "fr": "Vendredi, ça risque d'être difficile. Le délai normal est de cinq jours ouvrables.", "en": "Friday might be difficult. The normal processing time is five business days.", "hi": "शुक्रवार तक मुश्किल हो सकता है। सामान्य समय पाँच कामकाजी दिन है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Je comprends. Ça vous dérangerait de dire que c'est urgent ? Je vous serais vraiment reconnaissante.", "en": "I understand. Would you mind saying it's urgent? I'd be really grateful.", "hi": "मैं समझती हूँ। क्या आप यह बताने की तकलीफ़ करेंगी कि यह ज़रूरी है? मैं आपकी सचमुच आभारी रहूँगी।" },
+      { "speaker": "Mme Gagnon", "voice": "f2", "fr": "Je vais essayer. Je pourrais aussi vous l'envoyer par courriel, si vous voulez. C'est plus rapide.", "en": "I'll try. I could also send it to you by email, if you like. It's faster.", "hi": "मैं कोशिश करूँगी। आप चाहें तो मैं इसे ईमेल से भी भेज सकती हूँ। वह ज़्यादा जल्दी होगा।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Ce serait parfait ! Une version signée par courriel, c'est accepté.", "en": "That would be perfect! A signed version by email is accepted.", "hi": "यह तो बहुत बढ़िया होगा! ईमेल से हस्ताक्षर वाली प्रति मान्य है।" },
+      { "speaker": "Mme Gagnon", "voice": "f2", "fr": "Très bien. Autre chose ?", "en": "Very good. Anything else?", "hi": "बहुत अच्छा। कुछ और?" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Oui, une petite question. J'aimerais changer mes horaires le mercredi pour suivre un cours de français. À qui est-ce que je devrais en parler ?", "en": "Yes, a small question. I'd like to change my hours on Wednesdays to take a French class. Who should I talk to about it?", "hi": "हाँ, एक छोटा-सा सवाल। मैं बुधवार को फ़्रेंच क्लास करने के लिए अपना काम का समय बदलना चाहूँगी। मुझे इस बारे में किससे बात करनी चाहिए?" },
+      { "speaker": "Mme Gagnon", "voice": "f2", "fr": "À votre gestionnaire, d'abord. Ensuite, vous pourriez m'envoyer sa confirmation.", "en": "To your manager, first. Then you could send me their confirmation.", "hi": "पहले अपने मैनेजर से। फिर आप उनकी पुष्टि मुझे भेज सकती हैं।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Merci beaucoup, madame. Vous êtes très aimable.", "en": "Thank you very much, madam. You're very kind.", "hi": "बहुत-बहुत धन्यवाद, मैडम। आप बहुत मेहरबान हैं।" },
+      { "speaker": "Mme Gagnon", "voice": "f2", "fr": "Avec plaisir. Bonne journée !", "en": "My pleasure. Have a nice day!", "hi": "ख़ुशी से। आपका दिन शुभ हो!" }
+    ],
+    "questions": [
+      { "q": { "en": "Why does Priya need the employment letter?" }, "options": ["To rent an apartment", "For her immigration file", "To open a bank account", "To change jobs"], "answer": 1, "explanation": { "en": "She says it's for her immigration file.", "hi": "वह कहती है कि यह उसकी इमिग्रेशन फ़ाइल के लिए है।" }, "kind": "literal", "evidence": "C'est pour mon dossier d'immigration." },
+      { "q": { "en": "What does Mme Gagnon ask Priya to do?" }, "options": ["Come back on Friday", "Call the payroll department", "Fill in a short form", "Write an email to her manager"], "answer": 2, "explanation": { "en": "'Pourriez-vous remplir ce petit formulaire ?'", "hi": "'Pourriez-vous remplir ce petit formulaire ?' — छोटा फ़ॉर्म भरने को कहती है।" }, "kind": "literal", "evidence": "Pourriez-vous remplir ce petit formulaire ?" },
+      { "q": { "en": "Why might Friday be difficult?" }, "options": ["The office is closed on Friday", "The normal processing time is five business days", "Mme Gagnon is on holiday", "The form is missing information"], "answer": 1, "explanation": { "en": "The normal processing time is five business days.", "hi": "सामान्य समय पाँच कामकाजी दिन है।" }, "kind": "inference", "evidence": "Le délai normal est de cinq jours ouvrables." },
+      { "q": { "en": "What solution does Mme Gagnon offer?" }, "options": ["Sending the letter by email", "Giving the letter today", "Calling the immigration office", "Signing the letter herself"], "answer": 0, "explanation": { "en": "She could send it by email, which is faster.", "hi": "वह इसे ईमेल से भेज सकती है, जो ज़्यादा जल्दी है।" }, "kind": "literal", "evidence": "Je pourrais aussi vous l'envoyer par courriel" },
+      { "q": { "en": "Why does Priya want to change her Wednesday hours?" }, "options": ["To see a doctor", "To pick up her children", "To work from home", "To take a French class"], "answer": 3, "explanation": { "en": "She wants to take a French class.", "hi": "वह फ़्रेंच क्लास करना चाहती है।" }, "kind": "literal", "evidence": "pour suivre un cours de français" },
+      { "q": { "en": "What tone does Priya use throughout?" }, "options": ["Impatient and demanding", "Very polite: conditional forms and thanks", "Informal, with tu", "Angry about the delay"], "answer": 1, "explanation": { "en": "She uses je voudrais, ce serait possible, ça vous dérangerait, and thanks Mme Gagnon warmly.", "hi": "वह je voudrais, ce serait possible, ça vous dérangerait इस्तेमाल करती है और गर्मजोशी से धन्यवाद देती है।" }, "kind": "gist", "evidence": "Je vous serais vraiment reconnaissante." }
+    ],
+    "dictation": ["Je voudrais une attestation d'emploi, s'il vous plaît.", "Pourriez-vous remplir ce petit formulaire ?", "Je pourrais vous l'envoyer par courriel."],
+    "gapFill": { "text": "Est-ce que ce ___ possible de l'avoir avant vendredi ? Ça vous ___ de dire que c'est urgent ?", "answers": ["serait", "dérangerait"] }
+  },
+  "speaking": {
+    "type": "roleplay",
+    "instructions": {
+      "en": "For each situation, make a polite request using the conditional. Use vous, add s'il vous plaît, and thank the person.",
+      "hi": "हर स्थिति में conditionnel से शिष्ट अनुरोध कीजिए। vous इस्तेमाल कीजिए, s'il vous plaît जोड़िए और सामने वाले को धन्यवाद दीजिए।"
+    },
+    "prompts": [
+      { "fr": "À la banque : vous voulez un rendez-vous avec un conseiller.", "en": "At the bank: you want an appointment with an adviser.", "hi": "बैंक में: आप किसी सलाहकार से अपॉइंटमेंट चाहते हैं।", "pron": "आ ला बाँक वू वू-ले ऐँ ग़ाँ-दे-वू आ-वै-कैँ कोँ-से-ये", "model": "Bonjour, je voudrais un rendez-vous avec un conseiller, s'il vous plaît. Ce serait possible jeudi ?" },
+      { "fr": "Au téléphone : la personne parle trop vite.", "en": "On the phone: the person speaks too fast.", "hi": "फ़ोन पर: सामने वाला बहुत तेज़ बोल रहा है।", "pron": "ओ ते-ले-फ़ॉन ला पैग़-सॉन पाग़्ल त्ग़ो वीत", "model": "Excusez-moi, ça vous dérangerait de parler un peu plus lentement ?" },
+      { "fr": "Au travail : vous avez besoin d'un document de votre gestionnaire.", "en": "At work: you need a document from your manager.", "hi": "काम पर: आपको अपने मैनेजर से एक दस्तावेज़ चाहिए।", "pron": "ओ त्ग़ा-वाय वू ज़ा-वे बö-ज़्वैँ दैँ दो-कü-माँ दö वॉत्ग़ झ़ैस-त्यॉ-नैग़", "model": "Pourriez-vous m'envoyer le rapport par courriel avant midi ? Merci beaucoup." },
+      { "fr": "À la clinique : vous voulez changer l'heure de votre rendez-vous.", "en": "At the clinic: you want to change your appointment time.", "hi": "क्लिनिक में: आप अपने अपॉइंटमेंट का समय बदलना चाहते हैं।", "pron": "आ ला क्ली-नीक वू वू-ले शाँ-झ़े लöग़ दö वॉत्ग़ ग़ाँ-दे-वू", "model": "Est-ce que ce serait possible de changer mon rendez-vous ? J'aimerais venir l'après-midi." },
+      { "fr": "Dans le train : vous voulez la place près de la fenêtre.", "en": "On the train: you would like the window seat.", "hi": "ट्रेन में: आपको खिड़की वाली सीट चाहिए।", "pron": "दाँ लö त्ग़ैँ वू वू-ले ला प्लास प्ग़ै दö ला फ़ö-नैत्ग़", "model": "Pardon, monsieur, ça vous dérangerait de changer de place avec moi ? J'aimerais être près de la fenêtre." }
+    ],
+    "tip": {
+      "en": "Polite French has a rhythm: greeting + softener + request + thanks. 'Bonjour, excusez-moi de vous déranger. Pourriez-vous… ? Merci beaucoup.' Skipping bonjour is the most common politeness mistake for newcomers.",
+      "hi": "शिष्ट फ़्रेंच की एक लय होती है: अभिवादन + नरमी + अनुरोध + धन्यवाद। 'Bonjour, excusez-moi de vous déranger. Pourriez-vous… ? Merci beaucoup.' नए लोगों की सबसे आम ग़लती है bonjour छोड़ देना।"
+    },
+    "scenario": {
+      "setting": { "en": "The front desk of an adult-education centre in Montréal.", "hi": "मॉन्ट्रियाल के एक वयस्क-शिक्षा केंद्र का स्वागत कक्ष।" },
+      "learnerRole": { "en": "A newcomer who wants to register for an evening French class and needs a receipt for an employer.", "hi": "एक नया आगंतुक जो शाम की फ़्रेंच क्लास में नाम लिखवाना चाहता है और अपने नियोक्ता के लिए एक रसीद चाहता है।" },
+      "partnerRole": { "en": "A busy but friendly receptionist who answers briefly and sometimes says something is not possible.", "hi": "एक व्यस्त लेकिन मिलनसार रिसेप्शनिस्ट जो छोटे जवाब देता है और कभी-कभी कहता है कि कोई बात मुमकिन नहीं।" },
+      "goals": [
+        { "en": "Make at least four requests with different polite forms.", "hi": "अलग-अलग शिष्ट रूपों से कम से कम चार अनुरोध कीजिए।" },
+        { "en": "When something is not possible, ask politely for another solution.", "hi": "जब कुछ मुमकिन न हो, तो शिष्टता से कोई दूसरा उपाय पूछिए।" }
+      ]
+    }
+  },
+  "reading": {
+    "genre": "email",
+    "title": "Demande de renseignements – cours de francisation du soir",
+    "text": "Objet : Demande de renseignements – cours de francisation du soir\n\nMadame, Monsieur,\n\nJe m'appelle Rohan Mehta et je suis arrivé à Montréal il y a quatre mois avec ma femme. Je travaille comme technicien informatique dans une entreprise de Saint-Laurent et j'aimerais suivre un cours de francisation le soir dans votre centre.\n\nJ'aurais quelques questions. D'abord, pourriez-vous m'indiquer les dates de la prochaine session ? Je voudrais aussi savoir si les cours du soir sont gratuits pour les résidents permanents. Ensuite, ma femme aimerait s'inscrire avec moi, mais elle travaille le mardi soir. Serait-il possible de choisir un groupe le lundi et le jeudi ?\n\nEnfin, mon employeur pourrait payer une partie de la formation. Pour cela, il me faudrait une lettre de votre centre avec le prix et le nombre d'heures du cours. Est-ce que vous pourriez me l'envoyer par courriel ?\n\nVous trouverez en pièce jointe une copie de ma carte de résident permanent. Si vous avez besoin d'autres documents, je pourrais passer à votre bureau un samedi matin.\n\nJe vous remercie d'avance de votre réponse.\n\nVeuillez agréer, Madame, Monsieur, mes salutations distinguées.\n\nRohan Mehta\n514 555-0148",
+    "translation": {
+      "en": "Subject: Request for information – evening French-integration course\n\nDear Sir or Madam,\n\nMy name is Rohan Mehta and I arrived in Montréal four months ago with my wife. I work as an IT technician in a company in Saint-Laurent and I would like to take an evening francisation course at your centre.\n\nI would have a few questions. First, could you tell me the dates of the next session? I would also like to know whether the evening classes are free for permanent residents. Next, my wife would like to register with me, but she works on Tuesday evenings. Would it be possible to choose a group on Mondays and Thursdays?\n\nFinally, my employer could pay part of the course. For that, I would need a letter from your centre with the price and the number of hours of the course. Could you send it to me by email?\n\nPlease find attached a copy of my permanent resident card. If you need other documents, I could come to your office on a Saturday morning.\n\nThank you in advance for your reply.\n\nYours faithfully,\n\nRohan Mehta\n514 555-0148",
+      "hi": "विषय: जानकारी के लिए अनुरोध – शाम का फ़्रांसीसीकरण (फ़्रेंच) कोर्स\n\nमहोदया / महोदय,\n\nमेरा नाम रोहन मेहता है और मैं चार महीने पहले अपनी पत्नी के साथ मॉन्ट्रियाल आया हूँ। मैं सां-लोरां की एक कंपनी में आईटी तकनीशियन के रूप में काम करता हूँ और आपके केंद्र में शाम का फ़्रेंच कोर्स करना चाहूँगा।\n\nमेरे कुछ प्रश्न हैं। पहला, क्या आप मुझे अगले सत्र की तारीख़ें बता सकेंगे? मैं यह भी जानना चाहूँगा कि क्या शाम की कक्षाएँ स्थायी निवासियों के लिए मुफ़्त हैं। दूसरा, मेरी पत्नी भी मेरे साथ नाम लिखवाना चाहेंगी, लेकिन वे मंगलवार शाम को काम करती हैं। क्या सोमवार और गुरुवार वाला समूह चुनना संभव होगा?\n\nआख़िर में, मेरा नियोक्ता कोर्स का कुछ हिस्सा दे सकता है। इसके लिए मुझे आपके केंद्र से एक पत्र चाहिए होगा जिसमें कोर्स की क़ीमत और घंटों की संख्या हो। क्या आप इसे मुझे ईमेल से भेज सकेंगे?\n\nसंलग्न फ़ाइल में मेरे स्थायी निवासी कार्ड की एक प्रति है। अगर आपको और दस्तावेज़ चाहिए, तो मैं किसी शनिवार सुबह आपके दफ़्तर आ सकता हूँ।\n\nआपके उत्तर के लिए पहले से धन्यवाद।\n\nसादर,\n\nरोहन मेहता\n514 555-0148"
+    },
+    "questions": [
+      { "q": { "en": "Why is Rohan writing to the centre?" }, "options": ["To complain about a class", "To cancel his registration", "He wants to take an evening French course", "He is looking for a job"], "answer": 2, "explanation": { "en": "He would like to take an evening francisation course.", "hi": "वह शाम का फ़्रेंच कोर्स करना चाहता है।" }, "kind": "gist", "evidence": "j'aimerais suivre un cours de francisation le soir" },
+      { "q": { "en": "What does he want to know about the price?" }, "options": ["Whether evening classes are free for permanent residents", "Whether he can pay in two parts", "Whether books are included", "Whether his wife pays less"], "answer": 0, "explanation": { "en": "He asks whether evening classes are free for permanent residents.", "hi": "वह पूछता है कि क्या शाम की कक्षाएँ स्थायी निवासियों के लिए मुफ़्त हैं।" }, "kind": "literal", "evidence": "si les cours du soir sont gratuits pour les résidents permanents" },
+      { "q": { "en": "Why does he ask for a Monday–Thursday group?" }, "options": ["He works on Tuesdays", "His wife works on Tuesday evenings", "The centre is closed on Tuesdays", "He has another class on Tuesdays"], "answer": 1, "explanation": { "en": "His wife works on Tuesday evenings.", "hi": "उसकी पत्नी मंगलवार शाम को काम करती है।" }, "kind": "inference", "evidence": "elle travaille le mardi soir" },
+      { "q": { "en": "Why does he need a letter from the centre?" }, "options": ["For his immigration file", "To get a student discount on transit", "For his wife's employer", "His employer might pay part of the course"], "answer": 3, "explanation": { "en": "His employer could pay part of the course and needs the price and hours.", "hi": "उसका नियोक्ता कोर्स का कुछ हिस्सा दे सकता है और उसे क़ीमत व घंटे चाहिए।" }, "kind": "inference", "evidence": "mon employeur pourrait payer une partie de la formation" },
+      { "q": { "en": "What did Rohan attach to his email?" }, "options": ["A copy of his permanent resident card", "His work contract", "A letter from his employer", "A registration form"], "answer": 0, "explanation": { "en": "'Vous trouverez en pièce jointe une copie de ma carte de résident permanent.'", "hi": "'Vous trouverez en pièce jointe une copie de ma carte de résident permanent.' — PR कार्ड की प्रति।" }, "kind": "literal", "evidence": "une copie de ma carte de résident permanent" }
+    ]
+  },
+  "writing": {
+    "type": "email",
+    "prompt": {
+      "en": "Write a formal email to the manager of your building. Problem: the heating in your bedroom doesn't work well. Ask politely (1) for a repair, (2) for a time when the technician could come, and (3) for a document (a copy of your lease). Use at least four conditional forms.",
+      "hi": "अपनी इमारत के मैनेजर को एक औपचारिक ईमेल लिखिए। समस्या: आपके बेडरूम की हीटिंग ठीक से काम नहीं करती। शिष्टता से माँगिए (1) मरम्मत, (2) तकनीशियन के आने का समय, और (3) एक दस्तावेज़ (आपके किराया-अनुबंध की प्रति)। कम से कम चार conditionnel रूप इस्तेमाल कीजिए।",
+      "fr": "Écrivez un courriel formel au gestionnaire de votre immeuble."
+    },
+    "minWords": 100,
+    "maxWords": 160,
+    "hints": [
+      { "en": "Start with 'Objet :' and 'Madame, Monsieur,' (or the person's name).", "hi": "'Objet :' और 'Madame, Monsieur,' (या व्यक्ति के नाम) से शुरू कीजिए।" },
+      { "en": "Explain the problem in the present and since when (depuis, Day 45).", "hi": "समस्या वर्तमान काल में और कब से है (depuis, दिन 45) बताइए।" },
+      { "en": "End with a formal closing: 'Je vous remercie d'avance. Cordialement,'.", "hi": "औपचारिक समापन से अंत कीजिए: 'Je vous remercie d'avance. Cordialement,'।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Je vous écris au sujet de …", "en": "I'm writing to you about …", "hi": "मैं आपको … के बारे में लिख रहा हूँ", "pron": "झ़ö वू ज़े-क्ग़ी ओ सü-झ़ै दö" },
+      { "fr": "Pourriez-vous m'indiquer …", "en": "Could you tell me …", "hi": "क्या आप मुझे बता सकेंगे …", "pron": "पू-ग़्ये वू मैँ-दी-के" },
+      { "fr": "Je vous serais reconnaissant(e) de …", "en": "I would be grateful if you …", "hi": "अगर आप … तो मैं आभारी रहूँगा/रहूँगी", "pron": "झ़ö वू स्ग़ै ग़ö-को-नै-साँ दö" },
+      { "fr": "Je vous remercie d'avance.", "en": "Thank you in advance.", "hi": "पहले से धन्यवाद।", "pron": "झ़ö वू ग़ö-मैग़-सी दा-वाँस" }
+    ],
+    "model": {
+      "fr": "Objet : Problème de chauffage – appartement 304\n\nMadame, Monsieur,\n\nJe vous écris au sujet du chauffage de mon appartement. Depuis une semaine, le radiateur de la chambre ne fonctionne presque plus et il fait très froid la nuit. Pourriez-vous envoyer un technicien le plus vite possible ? Je travaille pendant la journée, mais je pourrais être à la maison mardi ou jeudi après seize heures. Est-ce que ce serait possible ?\n\nJ'aurais aussi une petite demande : j'aimerais recevoir une copie de mon bail par courriel, car je ne trouve plus la mienne et j'en ai besoin pour un dossier. Je vous serais très reconnaissant de me l'envoyer avant la fin du mois.\n\nJe vous remercie d'avance de votre aide.\n\nCordialement,\n\nVikas Rao\nAppartement 304",
+      "en": "Subject: Heating problem – apartment 304\n\nDear Sir or Madam,\n\nI am writing to you about the heating in my apartment. For a week, the radiator in the bedroom has almost stopped working and it is very cold at night. Could you send a technician as soon as possible? I work during the day, but I could be at home on Tuesday or Thursday after 4 p.m. Would that be possible?\n\nI would also have a small request: I would like to receive a copy of my lease by email, because I can no longer find mine and I need it for a file. I would be very grateful if you could send it to me before the end of the month.\n\nThank you in advance for your help.\n\nKind regards,\n\nVikas Rao\nApartment 304"
+    },
+    "checklist": [
+      { "en": "Did you use at least four conditional forms (pourriez-vous, je pourrais, ce serait, j'aimerais, j'aurais…)?", "hi": "क्या आपने कम से कम चार conditionnel रूप (pourriez-vous, je pourrais, ce serait, j'aimerais, j'aurais…) इस्तेमाल किए?" },
+      { "en": "Did you include a subject line, a formal greeting and a formal closing?", "hi": "क्या आपने विषय-पंक्ति, औपचारिक संबोधन और औपचारिक समापन लिखा?" },
+      { "en": "Did you use vous everywhere?", "hi": "क्या आपने हर जगह vous इस्तेमाल किया?" },
+      { "en": "Did you check -rais (je) vs -rait (il / ce)?", "hi": "क्या आपने -rais (je) और -rait (il / ce) की जाँच की?" }
+    ]
+  },
+  "review": {
+    "fromDays": [45, 48, 52, 59, 62, 64],
+    "items": [
+      { "fr": "Je travaillerai demain.", "en": "I will work tomorrow.", "hi": "मैं कल काम करूँगा।", "pron": "झ़ö त्ग़ा-वाय-ग़े दö-मैँ" },
+      { "fr": "Nous ferons les courses samedi.", "en": "We'll do the shopping on Saturday.", "hi": "हम शनिवार को ख़रीदारी करेंगे।", "pron": "नू फ़ö-ग़ोँ ले कूग़स सा-म्दी" },
+      { "fr": "Quand j'étais étudiant, je lisais beaucoup.", "en": "When I was a student, I read a lot.", "hi": "जब मैं छात्र था, मैं बहुत पढ़ता था।", "pron": "काँ झ़े-तै ज़े-तü-द्याँ झ़ö ली-ज़ै बो-कू" },
+      { "fr": "Je lui ai envoyé un courriel.", "en": "I sent him/her an email.", "hi": "मैंने उसे एक ईमेल भेजा।", "pron": "झ़ö लüई ए आँ-व्वा-ये ऐँ कू-ग़्यैल" },
+      { "fr": "Je voudrais savoir si le cours est gratuit.", "en": "I'd like to know if the class is free.", "hi": "मैं जानना चाहूँगा कि क्या क्लास मुफ़्त है।", "pron": "झ़ö वू-द्ग़ै सा-व्वाग़ सी लö कूग़ ऐ ग्ग़ा-त्üई" },
+      { "fr": "J'habite ici depuis deux ans.", "en": "I have lived here for two years.", "hi": "मैं दो साल से यहाँ रहता हूँ।", "pron": "झ़ा-बीत ई-सी दö-प्üई दö ज़ाँ" },
+      { "fr": "Je préfère le bus au métro.", "en": "I prefer the bus to the metro.", "hi": "मुझे मेट्रो से ज़्यादा बस पसंद है।", "pron": "झ़ö प्ग़े-फ़ैग़ लö बüस ओ मे-त्ग़ो" },
+      { "fr": "Comme je suis malade, je reste à la maison.", "en": "As I'm ill, I'm staying home.", "hi": "चूँकि मैं बीमार हूँ, मैं घर पर ही हूँ।", "pron": "कॉम झ़ö स्üई मा-लाद झ़ö ग़ैस्त आ ला मै-ज़ोँ" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Which is the most polite way to ask for a form?", "hi": "फ़ॉर्म माँगने का सबसे शिष्ट तरीक़ा कौन-सा है?" }, "options": ["Je veux un formulaire.", "Donnez-moi un formulaire.", "Je voudrais un formulaire, s'il vous plaît.", "Un formulaire !"], "answer": 2, "explanation": { "en": "Conditional (je voudrais) + s'il vous plaît.", "hi": "conditionnel (je voudrais) + s'il vous plaît।" } },
+    { "type": "fill", "prompt": { "en": "Put pouvoir in the conditional (vous): Could you help me?", "hi": "pouvoir को conditionnel (vous) में रखिए: क्या आप मेरी मदद कर सकेंगे?" }, "sentence": "___-vous m'aider ?", "answer": "Pourriez", "accept": ["pourriez"], "explanation": { "en": "Stem pourr- + -iez.", "hi": "stem pourr- + -iez।" } },
+    { "type": "fill", "prompt": { "en": "Put être in the conditional: Would it be possible?", "hi": "être को conditionnel में रखिए: क्या यह मुमकिन होगा?" }, "sentence": "Ce ___ possible ?", "answer": "serait", "accept": [], "explanation": { "en": "Stem ser- + -ait.", "hi": "stem ser- + -ait।" } },
+    { "type": "translate", "prompt": { "en": "Write in French (vous).", "hi": "फ़्रेंच में लिखिए (vous)।" }, "source": { "en": "Would you mind repeating?", "hi": "क्या आप दोबारा बोलने की तकलीफ़ करेंगे?" }, "answer": "Ça vous dérangerait de répéter ?", "accept": ["Ça vous dérangerait de répéter?", "Ça vous dérangerait de répéter", "Cela vous dérangerait de répéter ?"], "explanation": { "en": "ça vous dérangerait de + infinitive.", "hi": "ça vous dérangerait de + infinitive।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: I would like to speak to the manager.", "hi": "शब्दों को सही क्रम में रखिए: मैं मैनेजर से बात करना चाहूँगा।" }, "words": ["au", "J'aimerais", "gestionnaire.", "parler"], "answer": "J'aimerais parler au gestionnaire.", "explanation": { "en": "parler à + le = parler au.", "hi": "parler à + le = parler au।" } },
+    { "type": "mcq", "prompt": { "en": "Which form is the CONDITIONAL?", "hi": "कौन-सा रूप conditionnel है?" }, "options": ["je ferai", "je ferais", "je faisais", "je fais"], "answer": 1, "explanation": { "en": "Future stem fer- + imparfait ending -ais = je ferais. 'Je ferai' is the future.", "hi": "भविष्य का stem fer- + imparfait अंत -ais = je ferais। 'Je ferai' भविष्य काल है।" } },
+    { "type": "mcq", "prompt": { "en": "'Le délai est de cinq jours' means…", "hi": "'Le délai est de cinq jours' का मतलब है…" }, "options": ["It's five days late", "The processing time is five days", "The office is closed for five days", "You must wait five weeks"], "answer": 1, "explanation": { "en": "Délai = time frame, not 'delay' (retard).", "hi": "délai = लगने वाला समय, 'देरी' (retard) नहीं।" } }
+  ]
+}

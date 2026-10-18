@@ -1,0 +1,205 @@
+{
+  "day": 25,
+  "phase": 2,
+  "title": { "fr": "Faire les courses : quantités et prix", "en": "Shopping and quantities", "hi": "ख़रीदारी: मात्रा और दाम" },
+  "objective": {
+    "en": "Buy food at a market or supermarket: ask for quantities (un kilo de, une bouteille de, beaucoup de), ask prices, understand totals and say how you will pay.",
+    "hi": "बाज़ार या सुपरमार्केट में खाना ख़रीदना: मात्रा माँगना (un kilo de, une bouteille de, beaucoup de), दाम पूछना, कुल रक़म समझना और बताना कि आप कैसे भुगतान करेंगे।"
+  },
+  "prerequisites": {
+    "days": [12, 16, 19, 24],
+    "summary": {
+      "en": "Numbers to 100, prices, je voudrais, partitive articles and pas de.",
+      "hi": "100 तक की संख्याएँ, दाम, je voudrais, 'कुछ' वाले आर्टिकल और pas de।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "le supermarché", "en": "supermarket", "hi": "सुपरमार्केट", "pron": "लö सü-पैग़-माग़-शे", "ipa": "lə sypɛʁmaʁʃe", "pos": "noun", "gender": "m", "lemma": "supermarché" },
+    { "fr": "l'épicerie", "en": "grocery store / corner shop", "hi": "किराने की दुकान", "pron": "ले-पी-स्ग़ी", "ipa": "lepisʁi", "pos": "noun", "gender": "f", "lemma": "épicerie", "note": { "en": "In Québec, 'faire l'épicerie' means to do the grocery shopping.", "hi": "क्यूबेक में 'faire l'épicerie' का मतलब है किराने का सामान ख़रीदना।" } },
+    { "fr": "le kilo", "en": "kilo", "hi": "किलो", "pron": "लö की-लो", "ipa": "lə kilo", "pos": "noun", "gender": "m", "lemma": "kilo" },
+    { "fr": "le litre", "en": "litre", "hi": "लीटर", "pron": "लö लीत्ग़", "ipa": "lə litʁ", "pos": "noun", "gender": "m", "lemma": "litre" },
+    { "fr": "la bouteille", "en": "bottle", "hi": "बोतल", "pron": "ला बू-तैय", "ipa": "la butɛj", "pos": "noun", "gender": "f", "lemma": "bouteille" },
+    { "fr": "le paquet", "en": "packet / pack", "hi": "पैकेट", "pron": "लö पा-कै", "ipa": "lə pakɛ", "pos": "noun", "gender": "m", "lemma": "paquet" },
+    { "fr": "la boîte", "en": "box / tin / carton", "hi": "डिब्बा", "pron": "ला ब्वात", "ipa": "la bwat", "pos": "noun", "gender": "f", "lemma": "boîte" },
+    { "fr": "la pomme", "en": "apple", "hi": "सेब", "pron": "ला पॉम", "ipa": "la pɔm", "pos": "noun", "gender": "f", "lemma": "pomme" },
+    { "fr": "la pomme de terre", "en": "potato", "hi": "आलू", "pron": "ला पॉम दö तैग़", "ipa": "la pɔm də tɛʁ", "pos": "noun", "gender": "f", "lemma": "pomme de terre", "note": { "en": "Literally 'apple of the earth'. Plural: des pommes de terre.", "hi": "शब्दशः 'धरती का सेब'। बहुवचन: des pommes de terre।" } },
+    { "fr": "l'oignon", "en": "onion", "hi": "प्याज़", "pron": "लो-न्योँ", "ipa": "lɔɲɔ̃", "pos": "noun", "gender": "m", "lemma": "oignon", "note": { "en": "Spelling trap: 'oi' here sounds ओ, not वा.", "hi": "वर्तनी का जाल: यहाँ 'oi' की आवाज़ ओ है, वा नहीं।" } },
+    { "fr": "coûter", "en": "to cost", "hi": "दाम होना / क़ीमत होना", "pron": "कू-ते", "ipa": "kute", "pos": "verb" },
+    { "fr": "payer", "en": "to pay", "hi": "भुगतान करना / पैसे देना", "pron": "पे-ये", "ipa": "peje", "pos": "verb", "note": { "en": "je paie, tu paies, il paie, nous payons, vous payez, ils paient.", "hi": "je paie, tu paies, il paie, nous payons, vous payez, ils paient।" } },
+    { "fr": "la carte", "en": "card (bank card)", "hi": "कार्ड", "pron": "ला काग़्त", "ipa": "la kaʁt", "pos": "noun", "gender": "f", "lemma": "carte" },
+    { "fr": "les espèces", "en": "cash", "hi": "नक़द", "pron": "ले ज़ैस-पैस", "ipa": "le zɛspɛs", "pos": "noun", "gender": "f", "lemma": "espèces", "note": { "en": "Always plural for cash: payer en espèces. In Québec you also hear 'payer comptant'.", "hi": "नक़द के अर्थ में हमेशा बहुवचन: payer en espèces। क्यूबेक में 'payer comptant' भी सुनाई देता है।" } }
+  ],
+  "phrases": [
+    { "fr": "Combien ça coûte ?", "en": "How much does it cost?", "hi": "इसका दाम क्या है?", "pron": "कोँ-ब्यैँ सा कूत", "ipa": "kɔ̃bjɛ̃ sa kut" },
+    { "fr": "Ça fait combien ?", "en": "How much is that (in total)?", "hi": "कुल कितना हुआ?", "pron": "सा फ़ै कोँ-ब्यैँ" },
+    { "fr": "Je voudrais un kilo de tomates, s'il vous plaît.", "en": "I'd like a kilo of tomatoes, please.", "hi": "मुझे एक किलो टमाटर चाहिए, कृपया।", "pron": "झ़ö वू-द्रै ऐँ की-लो दö तो-मात सील वू प्लै" },
+    { "fr": "Et avec ça ?", "en": "Anything else?", "hi": "और कुछ?", "pron": "ए आ-वैक सा", "note": { "en": "What sellers say. You answer: 'C'est tout, merci.'", "hi": "यह विक्रेता कहते हैं। आप जवाब दीजिए: 'C'est tout, merci.'" } },
+    { "fr": "C'est tout, merci.", "en": "That's all, thanks.", "hi": "बस इतना ही, धन्यवाद।", "pron": "सै तू मैग़-सी" },
+    { "fr": "Vous acceptez la carte ?", "en": "Do you take cards?", "hi": "क्या आप कार्ड लेते हैं?", "pron": "वू ज़ाक-सैप-ते ला काग़्त" },
+    { "fr": "Je paie en espèces.", "en": "I'll pay cash.", "hi": "मैं नक़द दूँगा/दूँगी।", "pron": "झ़ö पै आँ नैस-पैस" }
+  ],
+  "grammar": {
+    "title": { "en": "Quantities + de, and asking prices", "hi": "मात्रा + de, और दाम पूछना" },
+    "explanation": {
+      "en": "After a word of quantity, use de alone — no le, la, du or des: un kilo de pommes, un litre de lait, une bouteille d'eau, un paquet de riz, une boîte d'œufs. The same with beaucoup de (a lot of), un peu de (a little), trop de (too much / too many) and assez de (enough): beaucoup de légumes, un peu de sucre. To ask a price: Combien ça coûte ? / Ça coûte combien ? For several things: Les pommes coûtent combien ? — Elles coûtent quatre dollars le kilo. For the total: Ça fait combien ? — Ça fait onze dollars cinquante.",
+      "hi": "मात्रा बताने वाले शब्द के बाद सिर्फ़ de आता है — le, la, du या des नहीं: un kilo de pommes, un litre de lait, une bouteille d'eau, un paquet de riz, une boîte d'œufs। beaucoup de (बहुत), un peu de (थोड़ा), trop de (ज़रूरत से ज़्यादा) और assez de (काफ़ी) के साथ भी यही: beaucoup de légumes, un peu de sucre। दाम पूछने के लिए: Combien ça coûte ? / Ça coûte combien ? कई चीज़ों के लिए: Les pommes coûtent combien ? — Elles coûtent quatre dollars le kilo। कुल रक़म के लिए: Ça fait combien ? — Ça fait onze dollars cinquante।"
+    },
+    "comparison": {
+      "en": "Hindi says 'एक किलो सेब' with no linking word. English says 'a kilo of apples' — French is like English here: un kilo de pommes, with de = 'of'. But English 'a lot of the apples' has no French copy: just beaucoup de pommes. Note also 'quatre dollars le kilo' = 'four dollars a kilo' — French uses le where English uses 'a' and Hindi uses 'किलो' alone (चार डॉलर किलो).",
+      "hi": "हिंदी में 'एक किलो सेब' — कोई जोड़ने वाला शब्द नहीं। अंग्रेज़ी में 'a kilo of apples' — यहाँ फ़्रेंच अंग्रेज़ी जैसी है: un kilo de pommes, जिसमें de = 'of'। ध्यान दीजिए: 'quatre dollars le kilo' = 'चार डॉलर किलो' — फ़्रेंच यहाँ le लगाती है।"
+    },
+    "examples": [
+      { "fr": "Je voudrais un kilo de pommes.", "en": "I'd like a kilo of apples.", "hi": "मुझे एक किलो सेब चाहिए।", "pron": "झ़ö वू-द्रै ऐँ की-लो दö पॉम" },
+      { "fr": "Une bouteille d'eau, s'il vous plaît.", "en": "A bottle of water, please.", "hi": "एक बोतल पानी, कृपया।", "pron": "üन बू-तैय दो सील वू प्लै" },
+      { "fr": "Il y a beaucoup de fruits au marché.", "en": "There's a lot of fruit at the market.", "hi": "बाज़ार में बहुत सारे फल हैं।", "pron": "ई ल्या बो-कू दö फ़्रüई ओ माग़-शे" },
+      { "fr": "Je mange un peu de fromage.", "en": "I eat a little cheese.", "hi": "मैं थोड़ा चीज़ खाता/खाती हूँ।", "pron": "झ़ö माँझ़ ऐँ पö दö फ़्रो-माझ़" },
+      { "fr": "Il y a trop de sucre dans le thé !", "en": "There's too much sugar in the tea!", "hi": "चाय में बहुत ज़्यादा चीनी है!", "pron": "ई ल्या त्रो दö सüक्ग़ दाँ लö ते" },
+      { "fr": "Les tomates coûtent trois dollars le kilo.", "en": "Tomatoes cost three dollars a kilo.", "hi": "टमाटर तीन डॉलर किलो हैं।", "pron": "ले तो-मात कूत त्र्वा दो-लाग़ लö की-लो" }
+    ],
+    "pitfalls": [
+      { "en": "Not 'un kilo des pommes' — just 'un kilo de pommes'.", "hi": "'un kilo des pommes' नहीं — सिर्फ़ 'un kilo de pommes'।" },
+      { "en": "Not 'beaucoup du lait' — 'beaucoup de lait'.", "hi": "'beaucoup du lait' नहीं — 'beaucoup de lait'।" },
+      { "en": "Prices: 3,50 $ is written with a comma and said 'trois dollars cinquante'.", "hi": "दाम: 3,50 $ अल्पविराम (comma) से लिखा जाता है और 'trois dollars cinquante' बोला जाता है।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Enchaînement: une orange, il a",
+    "tip": {
+      "en": "When a word ends in a pronounced consonant and the next word starts with a vowel, the consonant jumps to the next word: une orange → ü-नॉ-ग़ाँझ़, il a → ई-ला. Don't pause between the words; make one chain.",
+      "hi": "जब कोई शब्द बोले जाने वाले व्यंजन पर ख़त्म हो और अगला शब्द स्वर से शुरू हो, तो वह व्यंजन अगले शब्द पर कूद जाता है: une orange → ü-नॉ-ग़ाँझ़, il a → ई-ला। शब्दों के बीच रुकिए मत; एक लड़ी बनाइए।"
+    },
+    "words": [
+      { "fr": "une orange", "en": "an orange", "hi": "एक संतरा", "pron": "ü-नॉ-ग़ाँझ़", "ipa": "y nɔʁɑ̃ʒ" },
+      { "fr": "il a", "en": "he has", "hi": "उसके पास है", "pron": "ई-ला", "ipa": "i la" },
+      { "fr": "elle achète", "en": "she buys", "hi": "वह ख़रीदती है", "pron": "ऐ-ला-शैत", "ipa": "ɛ laʃɛt" },
+      { "fr": "avec une carte", "en": "with a card", "hi": "कार्ड से", "pron": "आ-वै-कüन काग़्त", "ipa": "avɛ kyn kaʁt" },
+      { "fr": "quatre oignons", "en": "four onions", "hi": "चार प्याज़", "pron": "का-त्रो-न्योँ", "ipa": "ka tʁɔɲɔ̃" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Au marché Jean-Talon", "en": "At the Jean-Talon market" },
+    "type": "dialogue",
+    "mode": "pedagogical",
+    "context": {
+      "en": "Priya buys vegetables and fruit from a stall holder at a big outdoor market in Montréal.",
+      "hi": "प्रिया मॉन्ट्रियाल के एक बड़े खुले बाज़ार में एक दुकानदार से सब्ज़ियाँ और फल ख़रीदती है।"
+    },
+    "lines": [
+      { "speaker": "Le marchand", "voice": "m2", "fr": "Bonjour, madame ! Qu'est-ce que vous désirez ?", "en": "Hello, madam! What would you like?", "hi": "नमस्ते, मैडम! आपको क्या चाहिए?" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Bonjour ! Je voudrais un kilo de tomates et trois oignons, s'il vous plaît.", "en": "Hello! I'd like a kilo of tomatoes and three onions, please.", "hi": "नमस्ते! मुझे एक किलो टमाटर और तीन प्याज़ चाहिए, कृपया।" },
+      { "speaker": "Le marchand", "voice": "m2", "fr": "Voilà. Et avec ça ?", "en": "There you go. Anything else?", "hi": "यह लीजिए। और कुछ?" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Deux kilos de pommes de terre. Et les pommes, elles coûtent combien ?", "en": "Two kilos of potatoes. And the apples, how much are they?", "hi": "दो किलो आलू। और सेब, वे कितने के हैं?" },
+      { "speaker": "Le marchand", "voice": "m2", "fr": "Quatre dollars le kilo. Ce sont des pommes du Québec, très bonnes !", "en": "Four dollars a kilo. They're Québec apples, very good!", "hi": "चार डॉलर किलो। ये क्यूबेक के सेब हैं, बहुत अच्छे!" },
+      { "speaker": "Priya", "voice": "f1", "fr": "C'est un peu cher. Je voudrais un demi-kilo, alors.", "en": "That's a bit expensive. I'll have half a kilo, then.", "hi": "थोड़ा महँगा है। तो मुझे आधा किलो दीजिए।" },
+      { "speaker": "Le marchand", "voice": "m2", "fr": "Pas de problème. C'est tout ?", "en": "No problem. Is that all?", "hi": "कोई बात नहीं। बस इतना ही?" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Oui, c'est tout. Ça fait combien ?", "en": "Yes, that's all. How much is that?", "hi": "हाँ, बस इतना ही। कुल कितना हुआ?" },
+      { "speaker": "Le marchand", "voice": "m2", "fr": "Ça fait onze dollars cinquante.", "en": "That's eleven dollars fifty.", "hi": "साढ़े ग्यारह डॉलर हुए।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Vous acceptez la carte ?", "en": "Do you take cards?", "hi": "क्या आप कार्ड लेते हैं?" },
+      { "speaker": "Le marchand", "voice": "m2", "fr": "Non, désolé, seulement les espèces.", "en": "No, sorry, cash only.", "hi": "नहीं, माफ़ कीजिए, सिर्फ़ नक़द।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "D'accord. Voilà douze dollars.", "en": "OK. Here's twelve dollars.", "hi": "ठीक है। ये रहे बारह डॉलर।" }
+    ],
+    "questions": [
+      { "q": { "en": "How many onions does Priya ask for?" }, "options": ["Two", "Three", "Four", "One kilo"], "answer": 1, "explanation": { "en": "'un kilo de tomates et trois oignons'.", "hi": "'un kilo de tomates et trois oignons' — तीन प्याज़।" }, "kind": "literal", "evidence": "Je voudrais un kilo de tomates et trois oignons" },
+      { "q": { "en": "How much do the apples cost?" }, "options": ["$4 a kilo", "$11.50 a kilo", "$2 a kilo"], "answer": 0, "explanation": { "en": "'Quatre dollars le kilo.' $11.50 is the total.", "hi": "'Quatre dollars le kilo.' 11.50 डॉलर तो कुल रक़म है।" }, "kind": "literal", "evidence": "Quatre dollars le kilo." },
+      { "q": { "en": "Why does Priya buy only half a kilo of apples?" }, "options": ["She doesn't like apples", "She finds them a bit expensive", "There are no more apples"], "answer": 1, "explanation": { "en": "'C'est un peu cher. Je voudrais un demi-kilo, alors.'", "hi": "'C'est un peu cher.' — उसे थोड़े महँगे लगते हैं, इसलिए आधा किलो लेती है।" }, "kind": "inference", "evidence": "C'est un peu cher. Je voudrais un demi-kilo, alors." },
+      { "q": { "en": "What is the total?" }, "options": ["$12", "$11.50", "$4.50"], "answer": 1, "explanation": { "en": "'Ça fait onze dollars cinquante.' She gives $12.", "hi": "'Ça fait onze dollars cinquante.' वह 12 डॉलर देती है।" }, "kind": "literal", "evidence": "Ça fait onze dollars cinquante." },
+      { "q": { "en": "How does Priya pay?" }, "options": ["By card", "In cash", "She doesn't pay"], "answer": 1, "explanation": { "en": "The seller takes only cash ('seulement les espèces'), and she gives twelve dollars.", "hi": "दुकानदार सिर्फ़ नक़द लेता है ('seulement les espèces'), और वह बारह डॉलर देती है।" }, "kind": "inference", "evidence": "seulement les espèces" }
+    ],
+    "dictation": ["Je voudrais un kilo de tomates.", "Ça fait combien ?", "Vous acceptez la carte ?"],
+    "gapFill": { "text": "Je voudrais un kilo ___ tomates et trois oignons. Deux ___ de pommes de terre.", "answers": ["de", "kilos"] }
+  },
+  "speaking": {
+    "type": "roleplay",
+    "instructions": {
+      "en": "You are at a market stall. Buy four items with quantities, ask the price of one item, ask for the total and ask if you can pay by card.",
+      "hi": "आप बाज़ार की एक दुकान पर हैं। मात्रा के साथ चार चीज़ें ख़रीदिए, एक चीज़ का दाम पूछिए, कुल रक़म पूछिए और पूछिए कि क्या कार्ड से भुगतान हो सकता है।"
+    },
+    "prompts": [
+      { "fr": "Bonjour ! Qu'est-ce que vous désirez ?", "en": "Hello! What would you like?", "hi": "नमस्ते! आपको क्या चाहिए?", "pron": "बोँ-झ़ूग़ कैस-कö वू दे-ज़ी-ग़े", "model": "Bonjour ! Je voudrais un kilo de pommes de terre, s'il vous plaît." },
+      { "fr": "Et avec ça ?", "en": "Anything else?", "hi": "और कुछ?", "pron": "ए आ-वैक सा", "model": "Une bouteille de lait et un paquet de riz." },
+      { "fr": "Les oranges ? Elles sont très bonnes !", "en": "The oranges? They're very good!", "hi": "संतरे? बहुत अच्छे हैं!", "pron": "ले ज़ो-ग़ाँझ़ ऐल सोँ त्रै बॉन", "model": "Elles coûtent combien ?" },
+      { "fr": "C'est tout ?", "en": "Is that all?", "hi": "बस इतना ही?", "pron": "सै तू", "model": "Oui, c'est tout, merci. Ça fait combien ?" },
+      { "fr": "Ça fait dix-huit dollars.", "en": "That's eighteen dollars.", "hi": "अठारह डॉलर हुए।", "pron": "सा फ़ै दी-ज़üईत दो-लाग़", "model": "Vous acceptez la carte ?" }
+    ],
+    "tip": {
+      "en": "Say quantities as one rhythm group: un-kilo-de-pommes (ऐँ-की-लो-दö-पॉम). And link: une-orange (ü-नॉ-ग़ाँझ़).",
+      "hi": "मात्रा को एक लय-समूह में बोलिए: un-kilo-de-pommes (ऐँ-की-लो-दö-पॉम)। और जोड़िए: une-orange (ü-नॉ-ग़ाँझ़)।"
+    },
+    "scenario": {
+      "setting": { "en": "A fruit and vegetable stall at a Montréal market on Saturday morning.", "hi": "शनिवार सुबह मॉन्ट्रियाल के एक बाज़ार में फल-सब्ज़ी की दुकान।" },
+      "learnerRole": { "en": "A customer buying food for the week.", "hi": "हफ़्ते भर का खाना ख़रीदने वाला ग्राहक।" },
+      "partnerRole": { "en": "A friendly stall holder who uses vous and suggests products.", "hi": "एक मिलनसार दुकानदार, जो vous बोलता है और चीज़ें सुझाता है।" },
+      "goals": [
+        { "en": "Ask for at least four items with quantities.", "hi": "मात्रा के साथ कम से कम चार चीज़ें माँगिए।" },
+        { "en": "Ask the price of one item and the total.", "hi": "एक चीज़ का दाम और कुल रक़म पूछिए।" },
+        { "en": "Ask about paying by card.", "hi": "कार्ड से भुगतान के बारे में पूछिए।" }
+      ]
+    }
+  },
+  "reading": {
+    "genre": "advertisement",
+    "title": "Marché Frais — offres de la semaine",
+    "text": "Du jeudi 6 au mercredi 12 février\nPommes Gala : 1,99 $ le kilo\nLait : 4,49 $ les 2 litres\nRiz basmati : 12,99 $ le sac de 4 kilos\nŒufs : 3,99 $ la boîte de 12\nJus d'orange : 2 bouteilles pour 6 $\nOignons : 2,49 $ le sac de 2 kilos\nPain : 1 acheté = 1 gratuit !\nNous acceptons les cartes et les espèces. Ouvert tous les jours de 8 h à 22 h. Livraison gratuite à partir de 50 $ d'achats.",
+    "translation": {
+      "en": "From Thursday 6 to Wednesday 12 February\nGala apples: $1.99 a kilo\nMilk: $4.49 for 2 litres\nBasmati rice: $12.99 for a 4-kilo bag\nEggs: $3.99 for a box of 12\nOrange juice: 2 bottles for $6\nOnions: $2.49 for a 2-kilo bag\nBread: buy 1, get 1 free!\nWe accept cards and cash. Open every day from 8 a.m. to 10 p.m. Free delivery on purchases of $50 or more.",
+      "hi": "गुरुवार 6 से बुधवार 12 फ़रवरी तक\nगाला सेब: 1.99 डॉलर किलो\nदूध: 2 लीटर 4.49 डॉलर\nबासमती चावल: 4 किलो का थैला 12.99 डॉलर\nअंडे: 12 का डिब्बा 3.99 डॉलर\nसंतरे का जूस: 2 बोतलें 6 डॉलर में\nप्याज़: 2 किलो का थैला 2.49 डॉलर\nब्रेड: 1 ख़रीदिए = 1 मुफ़्त!\nहम कार्ड और नक़द दोनों लेते हैं। हर दिन सुबह 8 से रात 10 बजे तक खुला। 50 डॉलर या उससे ज़्यादा की ख़रीद पर मुफ़्त होम डिलीवरी।"
+    },
+    "questions": [
+      { "q": { "en": "How much is a box of 12 eggs?" }, "options": ["$1.99", "$3.99", "$4.49"], "answer": 1, "explanation": { "en": "'Œufs : 3,99 $ la boîte de 12'.", "hi": "'Œufs : 3,99 $ la boîte de 12' — 3.99 डॉलर।" }, "kind": "literal", "evidence": "Œufs : 3,99 $ la boîte de 12" },
+      { "q": { "en": "You buy two loaves of bread. How many do you pay for?" }, "options": ["None", "One", "Two"], "answer": 1, "explanation": { "en": "'1 acheté = 1 gratuit' — buy one, get one free.", "hi": "'1 acheté = 1 gratuit' — एक ख़रीदिए, एक मुफ़्त।" }, "kind": "inference", "evidence": "Pain : 1 acheté = 1 gratuit !" },
+      { "q": { "en": "Can you shop there on Sunday at 9 p.m.?" }, "options": ["Yes, it is open every day until 10 p.m.", "No, it closes at 8 p.m.", "No, it is closed on Sunday"], "answer": 0, "explanation": { "en": "'Ouvert tous les jours de 8 h à 22 h.'", "hi": "'Ouvert tous les jours de 8 h à 22 h.' — हर दिन रात 10 बजे तक खुला।" }, "kind": "inference", "evidence": "Ouvert tous les jours de 8 h à 22 h." },
+      { "q": { "en": "When is delivery free?" }, "options": ["Always", "From $50 of purchases", "Only on Thursday"], "answer": 1, "explanation": { "en": "'Livraison gratuite à partir de 50 $ d'achats.'", "hi": "'Livraison gratuite à partir de 50 $ d'achats.' — 50 डॉलर से ज़्यादा पर।" }, "kind": "literal", "evidence": "Livraison gratuite à partir de 50 $ d'achats." }
+    ]
+  },
+  "writing": {
+    "type": "message",
+    "prompt": {
+      "en": "Your flatmate is going to the supermarket. Write a text message with a shopping list of at least six items, each with a quantity.",
+      "hi": "आपका फ़्लैटमेट सुपरमार्केट जा रहा है। उसे एक संदेश लिखिए जिसमें कम से कम छह चीज़ों की सूची हो, हर एक की मात्रा के साथ।"
+    },
+    "minWords": 30,
+    "maxWords": 70,
+    "hints": [
+      { "en": "Use a different quantity word for each item: un kilo de, un litre de, une bouteille de, un paquet de, une boîte de.", "hi": "हर चीज़ के लिए अलग मात्रा-शब्द लिखिए: un kilo de, un litre de, une bouteille de, un paquet de, une boîte de।" },
+      { "en": "Add one sentence with il n'y a pas de.", "hi": "il n'y a pas de वाला एक वाक्य जोड़िए।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Voici la liste :", "en": "Here's the list:", "hi": "यह रही सूची:", "pron": "व्वा-सी ला लीस्त" },
+      { "fr": "un paquet de riz", "en": "a packet of rice", "hi": "चावल का एक पैकेट", "pron": "ऐँ पा-कै दö ग़ी" },
+      { "fr": "une boîte d'œufs", "en": "a box of eggs", "hi": "अंडों का एक डिब्बा", "pron": "üन ब्वात दö" }
+    ],
+    "model": {
+      "fr": "Salut Marc ! Tu vas au supermarché ? Voici la liste : un kilo de tomates, deux kilos de pommes de terre, un litre de lait, une bouteille de jus d'orange, un paquet de riz et une boîte d'œufs. Il n'y a pas de pain : un pain, s'il te plaît ! Merci et à plus tard !",
+      "en": "Hi Marc! Are you going to the supermarket? Here's the list: a kilo of tomatoes, two kilos of potatoes, a litre of milk, a bottle of orange juice, a packet of rice and a box of eggs. There's no bread: a loaf, please! Thanks and see you later!"
+    },
+    "checklist": [
+      { "en": "Is there only de (or d') after each quantity word?", "hi": "क्या हर मात्रा-शब्द के बाद सिर्फ़ de (या d') है?" },
+      { "en": "Did you add -s to plural foods (deux kilos de tomates)?", "hi": "क्या बहुवचन खाने के शब्दों में -s जोड़ा (deux kilos de tomates)?" },
+      { "en": "Did you use s'il te plaît (tu) with your flatmate?", "hi": "क्या फ़्लैटमेट के लिए s'il te plaît (tu) लिखा?" }
+    ]
+  },
+  "review": {
+    "fromDays": [12, 19, 24],
+    "items": [
+      { "fr": "soixante-quinze", "en": "seventy-five", "hi": "पचहत्तर", "pron": "स्वा-साँत कैँज़" },
+      { "fr": "quatre-vingts", "en": "eighty", "hi": "अस्सी", "pron": "का-त्रö-वैँ" },
+      { "fr": "Je voudrais un café, s'il vous plaît.", "en": "I'd like a coffee, please.", "hi": "मुझे एक कॉफ़ी चाहिए, कृपया।", "pron": "झ़ö वू-द्रै ऐँ का-फ़े सील वू प्लै" },
+      { "fr": "Je mange du pain.", "en": "I eat bread.", "hi": "मैं ब्रेड खाता/खाती हूँ।", "pron": "झ़ö माँझ़ दü पैँ" },
+      { "fr": "Il n'y a pas de lait.", "en": "There's no milk.", "hi": "दूध नहीं है।", "pron": "ईल न्या पा दö लै" },
+      { "fr": "de la confiture", "en": "(some) jam", "hi": "जैम", "pron": "दö ला कोँ-फ़ी-तüग़" },
+      { "fr": "Excusez-moi, madame.", "en": "Excuse me, madam.", "hi": "माफ़ कीजिए, मैडम।", "pron": "ऐक्स-कü-ज़े मवा मा-दाम" },
+      { "fr": "C'est ouvert le dimanche ?", "en": "Is it open on Sundays?", "hi": "क्या रविवार को खुला है?", "pron": "सै तू-वैग़ लö दी-माँश" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Choose: a kilo of apples.", "hi": "चुनिए: एक किलो सेब।" }, "options": ["un kilo des pommes", "un kilo de pommes", "un kilo du pommes"], "answer": 1, "explanation": { "en": "Quantity + de, no article.", "hi": "मात्रा + de, कोई आर्टिकल नहीं।" } },
+    { "type": "fill", "prompt": { "en": "Complete: a bottle of water.", "hi": "पूरा कीजिए: एक बोतल पानी।" }, "sentence": "une bouteille ___eau", "answer": "d'", "accept": ["d’", "d'"], "explanation": { "en": "de becomes d' before a vowel: une bouteille d'eau.", "hi": "स्वर से पहले de बदलकर d' हो जाता है: une bouteille d'eau।" } },
+    { "type": "mcq", "prompt": { "en": "The seller says 'Et avec ça ?'. What does he mean?", "hi": "दुकानदार कहता है 'Et avec ça ?'। उसका मतलब क्या है?" }, "options": ["How will you pay?", "Anything else?", "Is it expensive?", "Do you have a bag?"], "answer": 1, "explanation": { "en": "'Et avec ça ?' = Anything else? Answer: C'est tout, merci.", "hi": "'Et avec ça ?' = और कुछ? जवाब: C'est tout, merci।" } },
+    { "type": "fill", "prompt": { "en": "Complete: There's a lot of milk.", "hi": "पूरा कीजिए: बहुत सारा दूध है।" }, "sentence": "Il y a beaucoup ___ lait.", "answer": "de", "accept": [], "explanation": { "en": "beaucoup de + noun, never beaucoup du.", "hi": "beaucoup de + संज्ञा, कभी beaucoup du नहीं।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "How much is that (in total)?", "hi": "कुल कितना हुआ?" }, "answer": "Ça fait combien ?", "accept": ["ça fait combien ?", "Ça fait combien?", "Ca fait combien ?", "Combien ça fait ?"], "explanation": { "en": "For a total: Ça fait combien ?", "hi": "कुल रक़म के लिए: Ça fait combien ?" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: I'll pay cash.", "hi": "शब्दों को सही क्रम में रखिए: मैं नक़द दूँगा।" }, "words": ["espèces", "paie", "Je", "en", "."], "answer": "Je paie en espèces.", "explanation": { "en": "payer en espèces = to pay cash.", "hi": "payer en espèces = नक़द देना।" } },
+    { "type": "mcq", "prompt": { "en": "How do you say 4,50 $?", "hi": "4,50 $ कैसे बोलेंगे?" }, "options": ["quatre dollars cinquante", "quatre cinquante dollars", "quarante-cinq dollars"], "answer": 0, "explanation": { "en": "Dollars first, then the cents: quatre dollars cinquante.", "hi": "पहले डॉलर, फिर सेंट: quatre dollars cinquante।" } }
+  ]
+}

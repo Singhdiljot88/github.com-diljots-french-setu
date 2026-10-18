@@ -1,0 +1,193 @@
+{
+  "day": 33,
+  "phase": 2,
+  "title": { "fr": "Le temps et les saisons", "en": "Weather and seasons", "hi": "मौसम और ऋतुएँ" },
+  "objective": {
+    "en": "Describe the weather and temperatures (even −20 °C!), talk about the four seasons in Canada and India, understand a simple forecast, and tell the difference between 'il fait froid' and 'j'ai froid'.",
+    "hi": "मौसम और तापमान बताना (−20 °C भी!), कनाडा और भारत की चार ऋतुओं के बारे में बात करना, आसान मौसम-पूर्वानुमान समझना, और 'il fait froid' और 'j'ai froid' का फ़र्क़ समझना।"
+  },
+  "prerequisites": {
+    "days": [5, 12, 13, 16, 24, 26],
+    "summary": {
+      "en": "avoir expressions, numbers, months and seasons preview, faire, partitives, winter clothes.",
+      "hi": "avoir वाले वाक्यांश, संख्याएँ, महीने और ऋतुओं की झलक, faire, 'कुछ' वाले आर्टिकल, सर्दियों के कपड़े।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "le temps", "en": "weather (also: time)", "hi": "मौसम (समय भी)", "pron": "लö ताँ", "ipa": "lə tɑ̃", "pos": "noun", "gender": "m", "lemma": "temps" },
+    { "fr": "Il fait beau.", "en": "The weather is nice.", "hi": "मौसम अच्छा है।", "pron": "ईल फ़ै बो", "ipa": "il fɛ bo", "pos": "phrase", "note": { "en": "The opposite: Il fait mauvais.", "hi": "उल्टा: Il fait mauvais (मौसम ख़राब है)।" } },
+    { "fr": "Il fait chaud.", "en": "It's hot.", "hi": "गर्मी है।", "pron": "ईल फ़ै शो", "ipa": "il fɛ ʃo", "pos": "phrase" },
+    { "fr": "Il fait froid.", "en": "It's cold.", "hi": "ठंड है।", "pron": "ईल फ़ै फ़्र्वा", "ipa": "il fɛ fʁwa", "pos": "phrase" },
+    { "fr": "Il pleut.", "en": "It's raining.", "hi": "बारिश हो रही है।", "pron": "ईल प्लö", "ipa": "il plø", "pos": "phrase", "lemma": "pleuvoir" },
+    { "fr": "Il neige.", "en": "It's snowing.", "hi": "बर्फ़ गिर रही है।", "pron": "ईल नैझ़", "ipa": "il nɛʒ", "pos": "phrase", "lemma": "neiger" },
+    { "fr": "le vent", "en": "wind", "hi": "हवा / आँधी", "pron": "लö वाँ", "ipa": "lə vɑ̃", "pos": "noun", "gender": "m", "lemma": "vent" },
+    { "fr": "le soleil", "en": "sun / sunshine", "hi": "सूरज / धूप", "pron": "लö सो-लैय", "ipa": "lə sɔlɛj", "pos": "noun", "gender": "m", "lemma": "soleil" },
+    { "fr": "la pluie", "en": "rain", "hi": "बारिश", "pron": "ला प्लüई", "ipa": "la plɥi", "pos": "noun", "gender": "f", "lemma": "pluie" },
+    { "fr": "le nuage", "en": "cloud", "hi": "बादल", "pron": "लö नü-आझ़", "ipa": "lə nɥaʒ", "pos": "noun", "gender": "m", "lemma": "nuage" },
+    { "fr": "le degré", "en": "degree", "hi": "डिग्री", "pron": "लö द्ö-ग्रे", "ipa": "lə dəɡʁe", "pos": "noun", "gender": "m", "lemma": "degré" },
+    { "fr": "la saison", "en": "season", "hi": "ऋतु / मौसम", "pron": "ला सै-ज़ोँ", "ipa": "la sɛzɔ̃", "pos": "noun", "gender": "f", "lemma": "saison" },
+    { "fr": "le printemps, l'été, l'automne, l'hiver", "en": "spring, summer, autumn, winter", "hi": "वसंत, गर्मी, पतझड़, सर्दी", "pron": "लö प्रैँ-ताँ ले-ते लो-तॉन ली-वैग़", "ipa": "pʁɛ̃tɑ̃ ete otɔn ivɛʁ", "pos": "noun", "gender": "m", "lemma": "saison", "note": { "en": "All four are masculine. The m of automne is silent.", "hi": "चारों पुल्लिंग हैं। automne का m मूक है।" } },
+    { "fr": "la météo", "en": "weather forecast", "hi": "मौसम का हाल / पूर्वानुमान", "pron": "ला मे-ते-ओ", "ipa": "la meteo", "pos": "noun", "gender": "f", "lemma": "météo" }
+  ],
+  "phrases": [
+    { "fr": "Quel temps fait-il ?", "en": "What's the weather like?", "hi": "मौसम कैसा है?", "pron": "कैल ताँ फ़ै-तील", "ipa": "kɛl tɑ̃ fɛtil" },
+    { "fr": "Il fait moins vingt !", "en": "It's minus twenty!", "hi": "माइनस बीस डिग्री है!", "pron": "ईल फ़ै म्वैँ वैँ" },
+    { "fr": "Il fait vingt-cinq degrés.", "en": "It's twenty-five degrees.", "hi": "पच्चीस डिग्री है।", "pron": "ईल फ़ै वैँत-सैँक द्ö-ग्रे" },
+    { "fr": "Il y a du vent.", "en": "It's windy.", "hi": "हवा चल रही है।", "pron": "ई ल्या दü वाँ" },
+    { "fr": "J'ai froid !", "en": "I'm cold!", "hi": "मुझे ठंड लग रही है!", "pron": "झ़े फ़्र्वा", "note": { "en": "For a person, use avoir: j'ai froid, j'ai chaud. Never 'je suis froid'.", "hi": "व्यक्ति के लिए avoir: j'ai froid, j'ai chaud। 'je suis froid' कभी नहीं।" } },
+    { "fr": "Au printemps, il pleut souvent.", "en": "In spring it often rains.", "hi": "वसंत में अक्सर बारिश होती है।", "pron": "ओ प्रैँ-ताँ ईल प्लö सू-वाँ" }
+  ],
+  "grammar": {
+    "title": { "en": "Talking about the weather: il fait, il pleut, il y a", "hi": "मौसम की बात: il fait, il pleut, il y a" },
+    "explanation": {
+      "en": "Weather uses an impersonal il ('it'). 1) il fait + adjective: il fait beau / mauvais / chaud / froid / frais / doux. 2) il fait + temperature: il fait 25 degrés, il fait moins 20. 3) Two weather verbs used only with il: il pleut (pleuvoir), il neige (neiger). 4) il y a + partitive (Day 24): il y a du soleil, du vent, des nuages, de la pluie. Seasons: en été, en automne, en hiver (vowel sound), but au printemps. To ask: Quel temps fait-il ? / Il fait combien ? For how a person feels, switch to avoir: J'ai froid, Tu as chaud ?",
+      "hi": "मौसम के लिए अवैयक्तिक il ('यह') आता है। 1) il fait + विशेषण: il fait beau / mauvais / chaud / froid / frais / doux। 2) il fait + तापमान: il fait 25 degrés, il fait moins 20। 3) दो मौसम-क्रियाएँ जो सिर्फ़ il के साथ आती हैं: il pleut (pleuvoir), il neige (neiger)। 4) il y a + 'कुछ' वाला आर्टिकल (दिन 24): il y a du soleil, du vent, des nuages, de la pluie। ऋतुएँ: en été, en automne, en hiver (स्वर की आवाज़), पर au printemps। पूछना: Quel temps fait-il ? / Il fait combien ? व्यक्ति कैसा महसूस करता है, इसके लिए avoir: J'ai froid, Tu as chaud ?"
+    },
+    "comparison": {
+      "en": "Hindi needs no subject at all: ठंड है, बारिश हो रही है, बर्फ़ गिर रही है. English uses 'it is': it is cold. French uses 'it makes': il fait froid. And for your own body Hindi says मुझे ठंड लग रही है — with मुझे — while French says j'ai froid, literally 'I have cold'. Saying 'je suis froid' would mean 'I am a cold (unfriendly) person'!",
+      "hi": "हिंदी में कर्ता की ज़रूरत ही नहीं: ठंड है, बारिश हो रही है, बर्फ़ गिर रही है। अंग्रेज़ी में 'it is': it is cold। फ़्रेंच में 'it makes': il fait froid। और अपने शरीर के लिए हिंदी में 'मुझे ठंड लग रही है' — 'मुझे' के साथ — जबकि फ़्रेंच में j'ai froid, शब्दशः 'मेरे पास ठंड है'। 'je suis froid' का मतलब होगा 'मैं एक रूखा इंसान हूँ'!"
+    },
+    "examples": [
+      { "fr": "Aujourd'hui, il fait beau et chaud.", "en": "Today it's nice and warm.", "hi": "आज मौसम अच्छा और गर्म है।", "pron": "ओ-झ़ूग़-द्üई ईल फ़ै बो ए शो" },
+      { "fr": "En hiver, à Montréal, il fait moins vingt.", "en": "In winter in Montréal it's minus twenty.", "hi": "सर्दियों में मॉन्ट्रियाल में माइनस बीस होता है।", "pron": "आँ नी-वैग़ आ मोँ-ग़े-आल ईल फ़ै म्वैँ वैँ" },
+      { "fr": "Il pleut : prends ton parapluie !", "en": "It's raining: take your umbrella!", "hi": "बारिश हो रही है: अपना छाता ले लो!", "pron": "ईल प्लö प्राँ तोँ पा-ग़ा-प्लüई" },
+      { "fr": "Il y a du vent et des nuages.", "en": "It's windy and cloudy.", "hi": "हवा चल रही है और बादल हैं।", "pron": "ई ल्या दü वाँ ए दे नü-आझ़" },
+      { "fr": "Au printemps, il fait doux.", "en": "In spring it's mild.", "hi": "वसंत में मौसम सुहाना होता है।", "pron": "ओ प्रैँ-ताँ ईल फ़ै दू" },
+      { "fr": "J'ai froid : il fait très froid dehors !", "en": "I'm cold: it's very cold outside!", "hi": "मुझे ठंड लग रही है: बाहर बहुत ठंड है!", "pron": "झ़े फ़्र्वा ईल फ़ै त्रै फ़्र्वा द्ö-ऑग़" }
+    ],
+    "pitfalls": [
+      { "en": "Not 'il est froid' for the weather — say 'il fait froid'. ('Le café est froid' = the coffee is cold.)", "hi": "मौसम के लिए 'il est froid' नहीं — 'il fait froid' कहिए। ('Le café est froid' = कॉफ़ी ठंडी है।)" },
+      { "en": "Not 'en printemps' — say 'au printemps'.", "hi": "'en printemps' नहीं — 'au printemps' कहिए।" },
+      { "en": "Not 'je suis froid' — say 'j'ai froid'.", "hi": "'je suis froid' नहीं — 'j'ai froid' कहिए।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "/œ/ in heure, fleur, chaleur",
+    "tip": {
+      "en": "When eu / œu is followed by a pronounced consonant (often r), it is the open /œ/: heure, fleur, chaleur, sœur, neuf. Round your lips but keep your mouth more open than for deux. Compare: il pleut (closed ö, end of word) and la chaleur (open ö before r).",
+      "hi": "जब eu / œu के बाद कोई बोला जाने वाला व्यंजन (अक्सर r) आता है, तो वह खुला /œ/ होता है: heure, fleur, chaleur, sœur, neuf। होंठ गोल कीजिए पर मुँह deux से ज़्यादा खुला रखिए। तुलना कीजिए: il pleut (बंद ö, शब्द के अंत में) और la chaleur (r से पहले खुला ö)।"
+    },
+    "words": [
+      { "fr": "l'heure", "en": "the hour / time", "hi": "घंटा / समय", "pron": "लöग़", "ipa": "lœʁ" },
+      { "fr": "la fleur", "en": "the flower", "hi": "फूल", "pron": "ला फ़्लöग़", "ipa": "la flœʁ" },
+      { "fr": "la chaleur", "en": "the heat", "hi": "गर्मी / तपिश", "pron": "ला शा-लöग़", "ipa": "la ʃalœʁ" },
+      { "fr": "ma sœur", "en": "my sister", "hi": "मेरी बहन", "pron": "मा सöग़", "ipa": "ma sœʁ" },
+      { "fr": "neuf degrés", "en": "nine degrees", "hi": "नौ डिग्री", "pron": "नöफ़ द्ö-ग्रे", "ipa": "nœf dəɡʁe" },
+      { "fr": "il pleut", "en": "it's raining", "hi": "बारिश हो रही है", "pron": "ईल प्लö", "ipa": "il plø", "note": { "en": "Contrast: closed /ø/ at the end of a word.", "hi": "तुलना: शब्द के अंत में बंद /ø/।" } }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "La météo à la radio", "en": "The weather on the radio" },
+    "type": "radio",
+    "mode": "pedagogical",
+    "context": {
+      "en": "A January morning. Priya and Arjun listen to the weather forecast on a Québec radio station before going out.",
+      "hi": "जनवरी की एक सुबह। प्रिया और अर्जुन बाहर जाने से पहले क्यूबेक के एक रेडियो स्टेशन पर मौसम का हाल सुनते हैं।"
+    },
+    "lines": [
+      { "speaker": "L'animatrice", "voice": "f2", "fr": "Bonjour à tous ! Il est sept heures. Voici la météo.", "en": "Good morning, everyone! It's seven o'clock. Here is the weather.", "hi": "सभी को नमस्कार! सात बजे हैं। यह रहा मौसम का हाल।" },
+      { "speaker": "L'animatrice", "voice": "f2", "fr": "Ce matin, à Montréal, il fait froid : moins douze degrés. Il y a du soleil, mais aussi beaucoup de vent.", "en": "This morning in Montréal it's cold: minus twelve degrees. There's sunshine, but also a lot of wind.", "hi": "आज सुबह मॉन्ट्रियाल में ठंड है: माइनस बारह डिग्री। धूप है, पर हवा भी बहुत है।" },
+      { "speaker": "L'animatrice", "voice": "f2", "fr": "L'après-midi, il y a des nuages et il neige un peu.", "en": "In the afternoon there are clouds and it snows a little.", "hi": "दोपहर में बादल रहेंगे और थोड़ी बर्फ़ गिरेगी।" },
+      { "speaker": "L'animatrice", "voice": "f2", "fr": "À Québec, il neige toute la journée. On attend vingt centimètres de neige !", "en": "In Québec City it's snowing all day. We're expecting twenty centimetres of snow!", "hi": "क्यूबेक सिटी में पूरे दिन बर्फ़ गिरेगी। बीस सेंटीमीटर बर्फ़ की उम्मीद है!" },
+      { "speaker": "L'animatrice", "voice": "f2", "fr": "À Gatineau, il fait beau, mais il fait moins quinze.", "en": "In Gatineau the weather is nice, but it's minus fifteen.", "hi": "गातिनो में मौसम अच्छा है, पर माइनस पंद्रह है।" },
+      { "speaker": "L'animatrice", "voice": "f2", "fr": "Demain, il fait plus doux, mais il pleut le soir. Attention au verglas !", "en": "Tomorrow it's milder, but it rains in the evening. Watch out for black ice!", "hi": "कल मौसम थोड़ा नरम रहेगा, पर शाम को बारिश होगी। फिसलन भरी बर्फ़ से सावधान!" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Moins douze ! J'ai froid juste à écouter la radio.", "en": "Minus twelve! I feel cold just listening to the radio.", "hi": "माइनस बारह! रेडियो सुनकर ही मुझे ठंड लग रही है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Mets ta tuque, tes gants et ton foulard ! Et à Delhi, quel temps fait-il ?", "en": "Put on your hat, your gloves and your scarf! And in Delhi, what's the weather like?", "hi": "अपनी टोपी, दस्ताने और मफ़लर पहन लो! और दिल्ली में मौसम कैसा है?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Ma sœur dit : il fait quinze degrés et il fait beau.", "en": "My sister says: it's fifteen degrees and the weather is nice.", "hi": "मेरी बहन कहती है: पंद्रह डिग्री है और मौसम अच्छा है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Quinze degrés en janvier… Pour elle, c'est l'hiver !", "en": "Fifteen degrees in January… For her, that's winter!", "hi": "जनवरी में पंद्रह डिग्री… उसके लिए यही सर्दी है!" }
+    ],
+    "questions": [
+      { "q": { "en": "What is the temperature in Montréal this morning?" }, "options": ["−12 °C", "−15 °C", "−20 °C", "+15 °C"], "answer": 0, "explanation": { "en": "'moins douze degrés'. −15 is Gatineau; +15 is Delhi.", "hi": "'moins douze degrés'। −15 गातिनो का है; +15 दिल्ली का।" }, "kind": "literal", "evidence": "Ce matin, à Montréal, il fait froid : moins douze degrés." },
+      { "q": { "en": "Where does it snow all day?" }, "options": ["Montréal", "Québec City", "Gatineau"], "answer": 1, "explanation": { "en": "'À Québec, il neige toute la journée.'", "hi": "'À Québec, il neige toute la journée.' — क्यूबेक सिटी में।" }, "kind": "literal", "evidence": "À Québec, il neige toute la journée." },
+      { "q": { "en": "What will the weather be like tomorrow evening?" }, "options": ["Snow and wind", "Rain, with black ice", "Very hot"], "answer": 1, "explanation": { "en": "'il pleut le soir. Attention au verglas !'", "hi": "'il pleut le soir. Attention au verglas !' — शाम को बारिश, फिसलन।" }, "kind": "literal", "evidence": "Demain, il fait plus doux, mais il pleut le soir. Attention au verglas !" },
+      { "q": { "en": "What does Priya tell Arjun to do?" }, "options": ["Stay at home", "Put on his hat, gloves and scarf", "Call his sister"], "answer": 1, "explanation": { "en": "'Mets ta tuque, tes gants et ton foulard !'", "hi": "'Mets ta tuque, tes gants et ton foulard !' — टोपी, दस्ताने और मफ़लर पहनो।" }, "kind": "literal", "evidence": "Mets ta tuque, tes gants et ton foulard !" },
+      { "q": { "en": "Why does Arjun say 'J'ai froid' and not 'Il fait froid'?" }, "options": ["He is talking about how he feels", "He is talking about Delhi", "It is the past tense"], "answer": 0, "explanation": { "en": "j'ai froid = I (the person) feel cold. il fait froid = the weather is cold.", "hi": "j'ai froid = मुझे (व्यक्ति को) ठंड लग रही है। il fait froid = मौसम ठंडा है।" }, "kind": "grammar", "evidence": "J'ai froid juste à écouter la radio." }
+    ],
+    "dictation": ["Il fait froid.", "Il neige toute la journée.", "Quel temps fait-il ?"],
+    "gapFill": { "text": "Ce matin, à Montréal, il ___ froid : moins douze degrés. À Québec, il ___ toute la journée.", "answers": ["fait", "neige"] }
+  },
+  "speaking": {
+    "type": "conversation",
+    "instructions": {
+      "en": "Describe the weather today where you are, and compare the seasons in your Indian home town with a Canadian city.",
+      "hi": "आज आप जहाँ हैं वहाँ के मौसम का वर्णन कीजिए, और अपने भारतीय शहर की ऋतुओं की तुलना किसी कनाडाई शहर से कीजिए।"
+    },
+    "prompts": [
+      { "fr": "Quel temps fait-il aujourd'hui ?", "en": "What's the weather like today?", "hi": "आज मौसम कैसा है?", "pron": "कैल ताँ फ़ै-तील ओ-झ़ूग़-द्üई", "model": "Aujourd'hui, il fait froid et il y a des nuages. Il fait moins cinq degrés." },
+      { "fr": "Et dans votre ville en Inde ?", "en": "And in your city in India?", "hi": "और भारत में आपके शहर में?", "pron": "ए दाँ वॉत्ग़ वील आँ नैँद", "model": "À Jaipur, en ce moment, il fait beau et il fait vingt degrés." },
+      { "fr": "Quelle est votre saison préférée ?", "en": "What is your favourite season?", "hi": "आपकी पसंदीदा ऋतु कौन-सी है?", "pron": "कै लै वॉत्ग़ सै-ज़ोँ प्रे-फ़े-ग़े", "model": "Ma saison préférée, c'est l'automne, parce qu'il fait doux." },
+      { "fr": "Qu'est-ce que vous portez en hiver ?", "en": "What do you wear in winter?", "hi": "आप सर्दियों में क्या पहनते हैं?", "pron": "कैस-कö वू पॉग़-ते आँ नी-वैग़", "model": "En hiver, je porte un gros manteau, une tuque et des bottes." },
+      { "fr": "Vous avez froid au Canada ?", "en": "Are you cold in Canada?", "hi": "क्या आपको कनाडा में ठंड लगती है?", "pron": "वू ज़ा-वे फ़्र्वा ओ का-ना-दा", "model": "Oui, j'ai souvent froid en janvier !" }
+    ],
+    "tip": {
+      "en": "Weather = il fait. You = j'ai. Say the r in froid lightly from the throat (फ़्र्वा) and don't pronounce the d.",
+      "hi": "मौसम = il fait। आप = j'ai। froid का r गले से हल्का बोलिए (फ़्र्वा) और d मत बोलिए।"
+    }
+  },
+  "reading": {
+    "genre": "article",
+    "title": "Prévisions pour la fin de semaine — Ottawa-Gatineau",
+    "text": "Vendredi : il fait beau le matin, mais il y a des nuages l'après-midi. Maximum : 2 degrés. Minimum : moins 6.\nSamedi : il neige toute la journée. On attend 15 centimètres de neige. Il fait moins 8 degrés. Attention sur les routes !\nDimanche : le soleil revient, mais il fait très froid : moins 22 degrés avec le vent. Restez à l'intérieur si possible et habillez bien les enfants.\nLundi : il fait plus doux (moins 3 degrés) et il pleut un peu le soir. Attention au verglas.\nBonne fin de semaine ! Bonne nouvelle : la patinoire du canal Rideau est ouverte samedi et dimanche.",
+    "translation": {
+      "en": "Friday: nice in the morning, but cloudy in the afternoon. High: 2 degrees. Low: minus 6.\nSaturday: snow all day. We expect 15 centimetres of snow. It's minus 8 degrees. Be careful on the roads!\nSunday: the sun comes back, but it's very cold: minus 22 degrees with the wind chill. Stay indoors if possible and dress children warmly.\nMonday: milder (minus 3 degrees) and a little rain in the evening. Watch out for black ice.\nHave a good weekend! Good news: the Rideau Canal skating rink is open on Saturday and Sunday.",
+      "hi": "शुक्रवार: सुबह मौसम अच्छा, पर दोपहर में बादल। अधिकतम: 2 डिग्री। न्यूनतम: माइनस 6।\nशनिवार: पूरे दिन बर्फ़बारी। 15 सेंटीमीटर बर्फ़ की उम्मीद। माइनस 8 डिग्री। सड़कों पर सावधान!\nरविवार: धूप लौटेगी, पर बहुत ठंड: हवा के साथ माइनस 22 डिग्री। हो सके तो घर के अंदर रहिए और बच्चों को अच्छे से गर्म कपड़े पहनाइए।\nसोमवार: मौसम नरम (माइनस 3 डिग्री) और शाम को हल्की बारिश। फिसलन भरी बर्फ़ से सावधान।\nसप्ताहांत शुभ हो! अच्छी ख़बर: रिडो नहर का स्केटिंग रिंक शनिवार और रविवार को खुला है।"
+    },
+    "questions": [
+      { "q": { "en": "On which day does it snow all day?" }, "options": ["Friday", "Saturday", "Monday"], "answer": 1, "explanation": { "en": "'Samedi : il neige toute la journée.'", "hi": "'Samedi : il neige toute la journée.' — शनिवार।" }, "kind": "literal", "evidence": "Samedi : il neige toute la journée." },
+      { "q": { "en": "Which day is the coldest?" }, "options": ["Saturday", "Sunday", "Monday"], "answer": 1, "explanation": { "en": "Sunday: 'moins 22 degrés avec le vent'.", "hi": "रविवार: 'moins 22 degrés avec le vent'।" }, "kind": "inference", "evidence": "il fait très froid : moins 22 degrés avec le vent" },
+      { "q": { "en": "What is the danger on Monday evening?" }, "options": ["Strong heat", "Black ice", "A lot of snow"], "answer": 1, "explanation": { "en": "Rain at −3 °C freezes: 'Attention au verglas.'", "hi": "−3 °C पर बारिश जम जाती है: 'Attention au verglas.'" }, "kind": "literal", "evidence": "Attention au verglas." },
+      { "q": { "en": "In Québec, 'la fin de semaine' means …" }, "options": ["the end of the month", "the weekend", "Friday only"], "answer": 1, "explanation": { "en": "Québec French says 'la fin de semaine' for the weekend (Friday to Sunday here).", "hi": "क्यूबेक फ़्रेंच में सप्ताहांत को 'la fin de semaine' कहते हैं।" }, "kind": "vocabulary", "evidence": "Bonne fin de semaine !" }
+    ]
+  },
+  "writing": {
+    "type": "message",
+    "prompt": {
+      "en": "Write a postcard to a family member in India from Canada. Describe the weather and temperature, the season, what you wear, and compare it with the weather in India.",
+      "hi": "कनाडा से भारत में परिवार के किसी सदस्य को एक पोस्टकार्ड लिखिए। मौसम और तापमान, ऋतु, आप क्या पहनते हैं — इनका वर्णन कीजिए, और भारत के मौसम से तुलना कीजिए।"
+    },
+    "minWords": 40,
+    "maxWords": 90,
+    "hints": [
+      { "en": "Start with 'Chère maman,' or 'Cher papa,' and end with 'Bisous' or 'Je t'embrasse'.", "hi": "'Chère maman,' या 'Cher papa,' से शुरू कीजिए और 'Bisous' या 'Je t'embrasse' से ख़त्म कीजिए।" },
+      { "en": "Use il fait, il neige / il pleut, il y a du … and j'ai froid.", "hi": "il fait, il neige / il pleut, il y a du … और j'ai froid इस्तेमाल कीजिए।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Ici, il fait …", "en": "Here, it's …", "hi": "यहाँ … है", "pron": "ई-सी ईल फ़ै" },
+      { "fr": "En ce moment, c'est l'hiver.", "en": "At the moment it's winter.", "hi": "इस समय सर्दी है।", "pron": "आँ स्ö मो-माँ सै ली-वैग़" },
+      { "fr": "Et chez vous, quel temps fait-il ?", "en": "And at home, what's the weather like?", "hi": "और आपके यहाँ मौसम कैसा है?", "pron": "ए शे वू कैल ताँ फ़ै-तील" }
+    ],
+    "model": {
+      "fr": "Chère maman, je suis à Québec avec mes collègues. En ce moment, c'est l'hiver et il fait très froid : moins dix-huit degrés ! Il neige beaucoup, mais il y a du soleil. Je porte mon manteau noir, une tuque et des gants. J'ai froid, mais c'est très beau. Et à Lucknow, quel temps fait-il ? Bisous, Priya",
+      "en": "Dear Mum, I'm in Québec City with my colleagues. At the moment it's winter and it's very cold: minus eighteen degrees! It's snowing a lot, but it's sunny. I'm wearing my black coat, a hat and gloves. I'm cold, but it's very beautiful. And in Lucknow, what's the weather like? Love, Priya"
+    },
+    "checklist": [
+      { "en": "Did you use il fait for weather and j'ai froid/chaud for yourself?", "hi": "क्या मौसम के लिए il fait और अपने लिए j'ai froid/chaud लिखा?" },
+      { "en": "Did you write the season correctly (en hiver, au printemps)?", "hi": "क्या ऋतु सही लिखी (en hiver, au printemps)?" },
+      { "en": "Did you use 'Chère' for a woman and 'Cher' for a man?", "hi": "क्या महिला के लिए 'Chère' और पुरुष के लिए 'Cher' लिखा?" }
+    ]
+  },
+  "review": {
+    "fromDays": [5, 12, 13, 24, 26, 32],
+    "items": [
+      { "fr": "en janvier, en juillet", "en": "in January, in July", "hi": "जनवरी में, जुलाई में", "pron": "आँ झ़ाँ-व्ये आँ झ़üई-यै" },
+      { "fr": "moins quinze", "en": "minus fifteen", "hi": "माइनस पंद्रह", "pron": "म्वैँ कैँज़" },
+      { "fr": "J'ai faim et j'ai soif.", "en": "I'm hungry and thirsty.", "hi": "मुझे भूख और प्यास लगी है।", "pron": "झ़े फ़ैँ ए झ़े स्वाफ़" },
+      { "fr": "un manteau chaud", "en": "a warm coat", "hi": "एक गर्म कोट", "pron": "ऐँ माँ-तो शो" },
+      { "fr": "des bottes et des gants", "en": "boots and gloves", "hi": "बूट और दस्ताने", "pron": "दे बॉत ए दे गाँ" },
+      { "fr": "Il y a du soleil.", "en": "It's sunny.", "hi": "धूप है।", "pron": "ई ल्या दü सो-लैय" },
+      { "fr": "Tu dois porter une tuque.", "en": "You must wear a hat.", "hi": "तुम्हें टोपी पहननी होगी।", "pron": "तü द्वा पॉग़-ते üन तüक" },
+      { "fr": "Je fais du ski.", "en": "I ski.", "hi": "मैं स्कीइंग करता/करती हूँ।", "pron": "झ़ö फ़ै दü स्की" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Choose: It's cold today.", "hi": "चुनिए: आज ठंड है।" }, "options": ["Il est froid aujourd'hui.", "Il fait froid aujourd'hui.", "J'ai froid aujourd'hui.", "C'est froid aujourd'hui."], "answer": 1, "explanation": { "en": "Weather: il fait froid.", "hi": "मौसम: il fait froid।" } },
+    { "type": "mcq", "prompt": { "en": "Priya feels cold. She says:", "hi": "प्रिया को ठंड लग रही है। वह कहती है:" }, "options": ["Je suis froide.", "Il fait froid.", "J'ai froid."], "answer": 2, "explanation": { "en": "A person feeling cold: avoir froid.", "hi": "व्यक्ति को ठंड लगना: avoir froid।" } },
+    { "type": "fill", "prompt": { "en": "Complete: in spring", "hi": "पूरा कीजिए: वसंत में" }, "sentence": "___ printemps", "answer": "au", "accept": ["Au"], "explanation": { "en": "au printemps (but en été, en automne, en hiver).", "hi": "au printemps (पर en été, en automne, en hiver)।" } },
+    { "type": "fill", "prompt": { "en": "Complete: It's windy.", "hi": "पूरा कीजिए: हवा चल रही है।" }, "sentence": "Il y a ___ vent.", "answer": "du", "accept": [], "explanation": { "en": "il y a + partitive: du vent.", "hi": "il y a + 'कुछ' वाला आर्टिकल: du vent।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "It's snowing and it's minus ten.", "hi": "बर्फ़ गिर रही है और माइनस दस है।" }, "answer": "Il neige et il fait moins dix.", "accept": ["il neige et il fait moins dix", "Il neige et il fait moins dix degrés.", "Il neige et il fait -10."], "explanation": { "en": "il neige + il fait + temperature.", "hi": "il neige + il fait + तापमान।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: What's the weather like?", "hi": "शब्दों को सही क्रम में रखिए: मौसम कैसा है?" }, "words": ["temps", "Quel", "fait-il", "?"], "answer": "Quel temps fait-il ?", "explanation": { "en": "Fixed question: Quel temps fait-il ?", "hi": "तय सवाल: Quel temps fait-il ?" } },
+    { "type": "mcq", "prompt": { "en": "In which word is eu the OPEN sound (mouth more open)?", "hi": "किस शब्द में eu खुली आवाज़ है (मुँह ज़्यादा खुला)?" }, "options": ["il pleut", "deux", "la chaleur"], "answer": 2, "explanation": { "en": "Before a pronounced r: chaleur has open /œ/.", "hi": "बोले जाने वाले r से पहले: chaleur में खुला /œ/ है।" } }
+  ]
+}

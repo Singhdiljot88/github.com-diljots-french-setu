@@ -1,0 +1,932 @@
+{
+  "day": 94,
+  "phase": 5,
+  "title": {
+    "fr": "TEF compréhension orale : entrevues et reportages à la radio",
+    "en": "TEF listening: radio interviews and reports",
+    "hi": "TEF श्रवण: रेडियो इंटरव्यू और रिपोर्ट"
+  },
+  "objective": {
+    "en": "Follow a longer radio interview at natural speed, take quick notes with abbreviations, and understand the gérondif (en + -ant) that speakers use to explain how to do things.",
+    "hi": "प्राकृतिक गति में लंबा रेडियो इंटरव्यू समझना, संक्षेपों के साथ झटपट नोट्स लेना, और gérondif (en + -ant) समझना जिसका इस्तेमाल वक्ता यह समझाने के लिए करते हैं कि काम कैसे करें।"
+  },
+  "prerequisites": {
+    "days": [
+      27,
+      36,
+      46,
+      79,
+      83,
+      93
+    ],
+    "summary": {
+      "en": "Daily routine verbs (Day 27), health vocabulary (Day 36), the nous-stem of the imparfait (Day 46), reported speech (Day 79), listening strategies (Day 83) and press vocabulary (Day 93).",
+      "hi": "दिनचर्या की क्रियाएँ (दिन 27), स्वास्थ्य के शब्द (दिन 36), imparfait का nous वाला आधार (दिन 46), अप्रत्यक्ष कथन (दिन 79), श्रवण की रणनीतियाँ (दिन 83) और प्रेस के शब्द (दिन 93)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "l'émission",
+      "en": "programme, show (radio/TV)",
+      "hi": "कार्यक्रम (रेडियो/टीवी)",
+      "pron": "ले-मी-स्योँ",
+      "ipa": "lemisjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "émission"
+    },
+    {
+      "fr": "l'animateur / l'animatrice",
+      "en": "host, presenter",
+      "hi": "प्रस्तुतकर्ता / एंकर",
+      "pron": "ला-नी-मा-तöग़ / ला-नी-मा-त्ग़ीस",
+      "ipa": "lanimatœʁ / lanimatʁis",
+      "pos": "noun",
+      "gender": "mf",
+      "lemma": "animateur"
+    },
+    {
+      "fr": "l'invité / l'invitée",
+      "en": "guest",
+      "hi": "मेहमान",
+      "pron": "लैँ-वी-ते",
+      "ipa": "lɛ̃vite",
+      "pos": "noun",
+      "gender": "mf",
+      "lemma": "invité"
+    },
+    {
+      "fr": "en direct",
+      "en": "live",
+      "hi": "सीधा प्रसारण / लाइव",
+      "pron": "आँ दी-ग़ैक्त",
+      "ipa": "ɑ̃ diʁɛkt",
+      "pos": "phrase"
+    },
+    {
+      "fr": "à l'antenne",
+      "en": "on air",
+      "hi": "प्रसारण पर",
+      "pron": "आ लाँ-तैन",
+      "ipa": "a lɑ̃tɛn",
+      "pos": "phrase"
+    },
+    {
+      "fr": "l'auditeur / l'auditrice",
+      "en": "listener",
+      "hi": "श्रोता",
+      "pron": "लो-दी-तöग़ / लो-दी-त्ग़ीस",
+      "ipa": "loditœʁ / loditʁis",
+      "pos": "noun",
+      "gender": "mf",
+      "lemma": "auditeur"
+    },
+    {
+      "fr": "le reportage",
+      "en": "report, feature",
+      "hi": "रिपोर्ट / ख़ास ख़बर",
+      "pron": "लö ग़ö-पॉग़-ताझ़",
+      "ipa": "lə ʁəpɔʁtaʒ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "reportage"
+    },
+    {
+      "fr": "la chronique",
+      "en": "regular column / segment",
+      "hi": "नियमित स्तंभ / खंड",
+      "pron": "ला क्ग़ो-नीक",
+      "ipa": "la kʁɔnik",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "chronique"
+    },
+    {
+      "fr": "le balado",
+      "en": "podcast (Québec)",
+      "hi": "पॉडकास्ट",
+      "pron": "लö बा-ला-दो",
+      "ipa": "lə balado",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "balado",
+      "note": {
+        "en": "France usually says 'le podcast'.",
+        "hi": "फ़्रांस में आमतौर पर 'le podcast'।"
+      }
+    },
+    {
+      "fr": "la rediffusion",
+      "en": "rebroadcast, repeat",
+      "hi": "दोबारा प्रसारण",
+      "pron": "ला ग़ö-दी-फ़ü-ज़्योँ",
+      "ipa": "la ʁədifyzjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "rediffusion"
+    },
+    {
+      "fr": "le sommeil",
+      "en": "sleep",
+      "hi": "नींद",
+      "pron": "लö सो-मैय",
+      "ipa": "lə sɔmɛj",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "sommeil"
+    },
+    {
+      "fr": "prendre des notes",
+      "en": "to take notes",
+      "hi": "नोट्स लेना",
+      "pron": "प्राँद्ग़ दे नॉत",
+      "ipa": "pʁɑ̃dʁ de nɔt",
+      "pos": "phrase"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Nous recevons aujourd'hui…",
+      "en": "Today our guest is…",
+      "hi": "आज हमारे साथ हैं…",
+      "pron": "नू ग़ö-स-वोँ ओ-झ़ूग़-द्üई"
+    },
+    {
+      "fr": "Merci d'être avec nous.",
+      "en": "Thank you for being with us.",
+      "hi": "हमारे साथ होने के लिए धन्यवाद।",
+      "pron": "मैग़-सी दैत्ग़ आ-वैक नू"
+    },
+    {
+      "fr": "On dort mieux en éteignant les écrans.",
+      "en": "You sleep better by switching off screens.",
+      "hi": "स्क्रीन बंद करके नींद बेहतर आती है।",
+      "pron": "ओँ दॉग़ म्यö आँ ने-तै-न्याँ ले ज़े-क्ग़ाँ"
+    },
+    {
+      "fr": "Elle a expliqué que…",
+      "en": "She explained that…",
+      "hi": "उसने समझाया कि…",
+      "pron": "ऐ-ला ऐक्स-प्ली-के कö"
+    },
+    {
+      "fr": "Selon l'invitée, …",
+      "en": "According to the guest, …",
+      "hi": "मेहमान के अनुसार, …",
+      "pron": "सö-लोँ लैँ-वी-ते"
+    },
+    {
+      "fr": "On se retrouve après la pause.",
+      "en": "See you after the break.",
+      "hi": "ब्रेक के बाद मिलते हैं।",
+      "pron": "ओँ सö ग़ö-त्ग़ूव आ-प्रै ला पोज़"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "The gérondif (en + -ant) and note-taking abbreviations",
+      "hi": "gérondif (en + -ant) और नोट्स के संक्षेप"
+    },
+    "explanation": {
+      "en": "GÉRONDIF: en + present participle. Form: take the nous form of the present, remove -ons, add -ant: nous parlons → en parlant; nous finissons → en finissant; nous faisons → en faisant; nous prenons → en prenant. Three irregulars: être → en étant, avoir → en ayant, savoir → en sachant. It has the same subject as the main verb and expresses: (1) two actions at the same time: Je cuisine en écoutant la radio; (2) the manner or means — how: On apprend en pratiquant; (3) a condition: En partant maintenant, tu arriveras à l'heure (= si tu pars maintenant). With reflexive verbs keep the pronoun: en se couchant, en me levant. NOTE-TAKING in a once-only recording: write key words, not sentences; use symbols and abbreviations: + (plus, more), − (less), → (leads to), = (equals, means), ≠ (different from), env. (environ), ex. (par exemple), pcq (parce que), bcp (beaucoup), qqn (quelqu'un), qqch (quelque chose), pb (problème), tps (temps).",
+      "hi": "GÉRONDIF: en + present participle। बनाना: वर्तमान काल का nous रूप लीजिए, -ons हटाइए, -ant जोड़िए: nous parlons → en parlant; nous finissons → en finissant; nous faisons → en faisant; nous prenons → en prenant। तीन अनियमित: être → en étant, avoir → en ayant, savoir → en sachant। इसका कर्ता मुख्य क्रिया वाला ही होता है और यह बताता है: (1) एक साथ दो काम: Je cuisine en écoutant la radio (रेडियो सुनते हुए खाना बनाता हूँ); (2) तरीक़ा या साधन — कैसे: On apprend en pratiquant (अभ्यास करके सीखते हैं); (3) शर्त: En partant maintenant, tu arriveras à l'heure (= अगर अभी निकलो)। reflexive क्रियाओं में सर्वनाम रखिए: en se couchant, en me levant। एक बार बजने वाली रिकॉर्डिंग में नोट्स: पूरे वाक्य नहीं, मुख्य शब्द लिखिए; चिह्न और संक्षेप इस्तेमाल कीजिए: + (ज़्यादा), − (कम), → (नतीजा), = (बराबर, मतलब), ≠ (अलग), env. (लगभग), ex. (उदाहरण), pcq (क्योंकि), bcp (बहुत), qqn (कोई), qqch (कुछ), pb (समस्या), tps (समय)।"
+    },
+    "comparison": {
+      "en": "The gérondif is close to Hindi '-ते हुए' (रेडियो सुनते हुए) and '-कर' (अभ्यास करके), and to English '-ing' after 'while/by' (while listening, by practising). Unlike English, French needs 'en' in front.",
+      "hi": "gérondif हिंदी के '-ते हुए' (रेडियो सुनते हुए) और '-कर' (अभ्यास करके) के क़रीब है, और अंग्रेज़ी के 'while/by' के बाद वाले '-ing' (while listening, by practising) के। अंग्रेज़ी से अलग, फ़्रेंच में आगे 'en' लगाना ज़रूरी है।"
+    },
+    "examples": [
+      {
+        "fr": "Je cuisine en écoutant la radio.",
+        "en": "I cook while listening to the radio.",
+        "hi": "मैं रेडियो सुनते हुए खाना बनाता हूँ।",
+        "pron": "झ़ö क्üई-ज़ीन आँ ने-कू-ताँ ला ग़ा-द्यो"
+      },
+      {
+        "fr": "On apprend une langue en la pratiquant.",
+        "en": "You learn a language by practising it.",
+        "hi": "भाषा उसका अभ्यास करके सीखी जाती है।",
+        "pron": "ओँ ना-प्राँ üन लाँग आँ ला प्रा-ती-काँ"
+      },
+      {
+        "fr": "En vous couchant plus tôt, vous dormirez mieux.",
+        "en": "By going to bed earlier, you'll sleep better.",
+        "hi": "जल्दी सोने जाएँगे तो बेहतर नींद आएगी।",
+        "pron": "आँ वू कू-शाँ प्लü तो वू दॉग़-मी-ग़े म्यö"
+      },
+      {
+        "fr": "Elle s'est blessée en faisant du ski.",
+        "en": "She hurt herself while skiing.",
+        "hi": "स्कीइंग करते हुए उसे चोट लग गई।",
+        "pron": "ऐल सै ब्ले-से आँ फ़ö-ज़ाँ दü स्की"
+      },
+      {
+        "fr": "En étant patient, on obtient de bons résultats.",
+        "en": "By being patient, you get good results.",
+        "hi": "धैर्य रखकर अच्छे नतीजे मिलते हैं।",
+        "pron": "आँ ने-ताँ पा-स्याँ ओँ नॉब-त्यैँ दö बोँ ग़े-ज़üल-ता"
+      },
+      {
+        "fr": "Notes : sommeil − 7 h → pb concentration ; ex. écrans le soir",
+        "en": "Notes: sleep under 7 h → concentration problems; e.g. screens in the evening",
+        "hi": "नोट्स: नींद 7 घंटे से कम → ध्यान की समस्या; उदा. शाम को स्क्रीन",
+        "pron": "नॉत सो-मैय म्वैँ दö सै-तöग़ पö-ब्लैम कोँ-साँ-त्ग़ा-स्योँ"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "The subject of the gérondif must be the same as the main verb: 'En arrivant, il pleuvait' is wrong (it's not the rain arriving). Say 'Quand je suis arrivé, il pleuvait.'",
+        "hi": "gérondif का कर्ता मुख्य क्रिया वाला ही होना चाहिए: 'En arrivant, il pleuvait' ग़लत है (बारिश नहीं आ रही थी)। कहिए 'Quand je suis arrivé, il pleuvait.'"
+      },
+      {
+        "en": "Don't write full sentences while listening — you will miss the next information. Write 2–3 key words and complete them after the recording.",
+        "hi": "सुनते समय पूरे वाक्य मत लिखिए — अगली जानकारी छूट जाएगी। 2–3 मुख्य शब्द लिखिए और रिकॉर्डिंग के बाद पूरा कीजिए।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Listening to natural rhythm groups",
+    "tip": {
+      "en": "Radio speakers group words into chunks of 3–7 syllables with the stress at the end of each chunk: en éteignant / les écrans // une heure avant / de se coucher. Train your ear to cut the stream into these chunks.",
+      "hi": "रेडियो वक्ता शब्दों को 3–7 अक्षरों के टुकड़ों में बाँधते हैं, हर टुकड़े के अंत में ज़ोर देकर: en éteignant / les écrans // une heure avant / de se coucher। अपने कान को इस धारा को ऐसे टुकड़ों में काटने की आदत डालिए।"
+    },
+    "words": [
+      {
+        "fr": "en éteignant",
+        "en": "by switching off",
+        "hi": "बंद करके",
+        "pron": "आँ ने-तै-न्याँ",
+        "ipa": "ɑ̃n‿etɛɲɑ̃"
+      },
+      {
+        "fr": "en se couchant",
+        "en": "by going to bed",
+        "hi": "सोने जाकर",
+        "pron": "आँ सö कू-शाँ",
+        "ipa": "ɑ̃ sə kuʃɑ̃"
+      },
+      {
+        "fr": "l'invitée",
+        "en": "the guest (f)",
+        "hi": "मेहमान (स्त्री.)",
+        "pron": "लैँ-वी-ते",
+        "ipa": "lɛ̃vite"
+      },
+      {
+        "fr": "à l'antenne",
+        "en": "on air",
+        "hi": "प्रसारण पर",
+        "pron": "आ लाँ-तैन",
+        "ipa": "a lɑ̃tɛn"
+      },
+      {
+        "fr": "le sommeil",
+        "en": "sleep",
+        "hi": "नींद",
+        "pron": "लö सो-मैय",
+        "ipa": "lə sɔmɛj"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Entrevue radio : bien dormir pendant l'hiver",
+      "en": "Radio interview: sleeping well in winter"
+    },
+    "type": "interview",
+    "mode": "natural",
+    "context": {
+      "en": "A morning radio show interviews a sleep researcher about winter and sleep. Take notes with abbreviations as you listen — imagine you will hear it only once.",
+      "hi": "सुबह का एक रेडियो कार्यक्रम एक नींद-शोधकर्ता से सर्दी और नींद के बारे में बात करता है। सुनते हुए संक्षेपों में नोट्स लीजिए — मान लीजिए कि यह एक ही बार सुनाई देगा।"
+    },
+    "lines": [
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Bonjour et bienvenue à « Matins d'ici ». Nous recevons aujourd'hui la docteure Nadia Benali, chercheuse sur le sommeil à l'Université de Montréal. Merci d'être avec nous.",
+        "en": "Hello and welcome to 'Matins d'ici'. Today our guest is Dr Nadia Benali, a sleep researcher at the Université de Montréal. Thank you for being with us.",
+        "hi": "नमस्ते और 'मातैँ दिसी' में स्वागत है। आज हमारे साथ हैं डॉक्टर नादिया बनाली, यूनिवर्सिटी ऑफ़ मॉन्ट्रियाल में नींद पर शोध करने वाली। हमारे साथ होने के लिए धन्यवाद।"
+      },
+      {
+        "speaker": "Dre Benali",
+        "voice": "f1",
+        "fr": "Merci de m'avoir invitée.",
+        "en": "Thank you for inviting me.",
+        "hi": "मुझे बुलाने के लिए धन्यवाद।"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Beaucoup d'auditeurs nous disent qu'ils dorment mal en hiver. Est-ce une impression, ou c'est réel ?",
+        "en": "Many listeners tell us they sleep badly in winter. Is it just an impression, or is it real?",
+        "hi": "कई श्रोता हमें बताते हैं कि सर्दी में उन्हें नींद ठीक से नहीं आती। क्या यह सिर्फ़ एहसास है, या सच में ऐसा है?"
+      },
+      {
+        "speaker": "Dre Benali",
+        "voice": "f1",
+        "fr": "C'est tout à fait réel. Quand les journées raccourcissent, notre corps reçoit moins de lumière, et il produit plus de mélatonine, l'hormone du sommeil, mais au mauvais moment.",
+        "en": "It's absolutely real. When days get shorter, our body receives less light and produces more melatonin, the sleep hormone, but at the wrong time.",
+        "hi": "यह बिल्कुल सच है। जब दिन छोटे होते हैं, हमारे शरीर को कम रोशनी मिलती है, और वह नींद का हार्मोन मेलाटोनिन ज़्यादा बनाता है, पर ग़लत समय पर।"
+      },
+      {
+        "speaker": "Dre Benali",
+        "voice": "f1",
+        "fr": "Résultat : on est fatigué à quatre heures de l'après-midi, puis on n'arrive pas à s'endormir le soir.",
+        "en": "Result: you're tired at four in the afternoon, and then you can't fall asleep at night.",
+        "hi": "नतीजा: दोपहर चार बजे थकान लगती है, फिर रात को नींद नहीं आती।"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Et combien d'heures faut-il dormir, en moyenne ?",
+        "en": "And how many hours should we sleep, on average?",
+        "hi": "और औसतन कितने घंटे सोना चाहिए?"
+      },
+      {
+        "speaker": "Dre Benali",
+        "voice": "f1",
+        "fr": "Pour un adulte, entre sept et neuf heures. Or, selon nos études, un adulte sur trois dort moins de sept heures en semaine.",
+        "en": "For an adult, between seven and nine hours. Yet according to our studies, one adult in three sleeps less than seven hours on weekdays.",
+        "hi": "एक वयस्क के लिए सात से नौ घंटे। पर हमारे अध्ययनों के अनुसार हर तीन में से एक वयस्क हफ़्ते के दिनों में सात घंटे से कम सोता है।"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Alors, quels sont vos conseils pratiques ?",
+        "en": "So, what are your practical tips?",
+        "hi": "तो आपकी व्यावहारिक सलाह क्या है?"
+      },
+      {
+        "speaker": "Dre Benali",
+        "voice": "f1",
+        "fr": "D'abord, sortez le matin, même vingt minutes. En marchant à la lumière du jour, vous réglez votre horloge interne.",
+        "en": "First, go outside in the morning, even for twenty minutes. By walking in daylight, you set your internal clock.",
+        "hi": "पहले, सुबह बाहर निकलिए, चाहे बीस मिनट ही। दिन की रोशनी में चलकर आप अपनी अंदरूनी घड़ी ठीक करते हैं।"
+      },
+      {
+        "speaker": "Dre Benali",
+        "voice": "f1",
+        "fr": "Ensuite, on dort beaucoup mieux en éteignant les écrans une heure avant de se coucher. La lumière bleue trompe le cerveau.",
+        "en": "Next, you sleep much better by switching off screens an hour before going to bed. Blue light fools the brain.",
+        "hi": "फिर, सोने से एक घंटा पहले स्क्रीन बंद करके नींद बहुत बेहतर आती है। नीली रोशनी दिमाग़ को धोखा देती है।"
+      },
+      {
+        "speaker": "Dre Benali",
+        "voice": "f1",
+        "fr": "Enfin, gardez les mêmes heures, même le week-end. En vous levant à dix heures le dimanche, vous préparez un lundi difficile !",
+        "en": "Finally, keep the same hours, even at weekends. By getting up at ten on Sunday, you're setting yourself up for a hard Monday!",
+        "hi": "अंत में, एक ही समय रखिए, सप्ताहांत में भी। रविवार को दस बजे उठकर आप एक मुश्किल सोमवार की तैयारी कर रहे हैं!"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Et le café ? Beaucoup d'entre nous en boivent toute la journée.",
+        "en": "And coffee? Many of us drink it all day long.",
+        "hi": "और कॉफ़ी? हम में से कई लोग दिन भर पीते हैं।"
+      },
+      {
+        "speaker": "Dre Benali",
+        "voice": "f1",
+        "fr": "Le café du matin, aucun problème. Mais évitez-le après quatorze heures : son effet dure jusqu'à six heures.",
+        "en": "Morning coffee, no problem. But avoid it after 2 p.m.: its effect lasts up to six hours.",
+        "hi": "सुबह की कॉफ़ी में कोई दिक़्क़त नहीं। पर दोपहर 2 बजे के बाद इससे बचिए: इसका असर छह घंटे तक रहता है।"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Merci beaucoup, docteure Benali. Chers auditeurs, cette entrevue sera disponible en balado sur notre site dès midi.",
+        "en": "Thank you very much, Dr Benali. Dear listeners, this interview will be available as a podcast on our website from noon.",
+        "hi": "बहुत धन्यवाद, डॉक्टर बनाली। प्रिय श्रोताओ, यह इंटरव्यू दोपहर 12 बजे से हमारी वेबसाइट पर पॉडकास्ट के रूप में उपलब्ध होगा।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "According to the researcher, why do we sleep badly in winter?"
+        },
+        "options": [
+          "Because we exercise less",
+          "Because it is cold at night",
+          "Less light makes the body produce melatonin at the wrong time",
+          "Because we drink more coffee"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Moins de lumière… plus de mélatonine… mais au mauvais moment.'",
+          "hi": "'moins de lumière… plus de mélatonine… mais au mauvais moment'।"
+        },
+        "kind": "literal",
+        "evidence": "notre corps reçoit moins de lumière, et il produit plus de mélatonine, l'hormone du sommeil, mais au mauvais moment"
+      },
+      {
+        "q": {
+          "en": "What proportion of adults sleep less than seven hours on weekdays?"
+        },
+        "options": [
+          "One in three",
+          "One in seven",
+          "Nine in ten",
+          "One in two"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Un adulte sur trois dort moins de sept heures en semaine.'",
+          "hi": "'un adulte sur trois' — हर तीन में से एक।"
+        },
+        "kind": "literal",
+        "evidence": "un adulte sur trois dort moins de sept heures en semaine"
+      },
+      {
+        "q": {
+          "en": "What is the purpose of going out in the morning?"
+        },
+        "options": [
+          "To avoid traffic",
+          "To drink less coffee",
+          "To burn calories",
+          "To set the internal clock with daylight"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "Gérondif of means: 'En marchant à la lumière du jour, vous réglez votre horloge interne.'",
+          "hi": "साधन वाला gérondif: 'en marchant à la lumière du jour, vous réglez votre horloge interne'।"
+        },
+        "kind": "inference",
+        "evidence": "En marchant à la lumière du jour, vous réglez votre horloge interne."
+      },
+      {
+        "q": {
+          "en": "When should you switch off screens?"
+        },
+        "options": [
+          "At 4 p.m.",
+          "One hour before going to bed",
+          "Right before sleeping",
+          "After 2 p.m."
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'En éteignant les écrans une heure avant de se coucher.'",
+          "hi": "'en éteignant les écrans une heure avant de se coucher' — सोने से एक घंटा पहले।"
+        },
+        "kind": "literal",
+        "evidence": "en éteignant les écrans une heure avant de se coucher"
+      },
+      {
+        "q": {
+          "en": "What does she say about getting up late on Sunday?"
+        },
+        "options": [
+          "It is recommended once a month",
+          "It is good to recover",
+          "It makes Monday harder",
+          "It has no effect"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "She says: \"En vous levant à dix heures le dimanche, vous préparez un lundi difficile !\" — getting up late on Sunday makes Monday harder.",
+          "hi": "वह कहती हैं (\"vous préparez un lundi difficile\") — रविवार को देर से उठने पर सोमवार मुश्किल हो जाता है।"
+        },
+        "kind": "inference",
+        "evidence": "En vous levant à dix heures le dimanche, vous préparez un lundi difficile !"
+      },
+      {
+        "q": {
+          "en": "What is her advice about coffee?"
+        },
+        "options": [
+          "Avoid it after 2 p.m.",
+          "Drink it only in the evening",
+          "Drink no more than six cups",
+          "Stop completely"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Évitez-le après quatorze heures' — six hours is how long the effect lasts.",
+          "hi": "'évitez-le après quatorze heures' — छह घंटे असर की अवधि है।"
+        },
+        "kind": "literal",
+        "evidence": "évitez-le après quatorze heures : son effet dure jusqu'à six heures"
+      }
+    ],
+    "dictation": [
+      "Nous recevons aujourd'hui la docteure Nadia Benali.",
+      "On dort beaucoup mieux en éteignant les écrans.",
+      "Cette entrevue sera disponible en balado dès midi."
+    ],
+    "gapFill": {
+      "text": "En ___ à la lumière du jour, vous réglez votre horloge interne. On dort mieux en ___ les écrans une heure avant de se coucher. En vous ___ à dix heures le dimanche, vous préparez un lundi difficile.",
+      "answers": [
+        "marchant",
+        "éteignant",
+        "levant"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "presentation",
+    "instructions": {
+      "en": "Report what the guest said to a friend who missed the show. Use reported speech (Elle a dit que…, Elle a expliqué que…, Selon elle…) and at least two gérondifs.",
+      "hi": "जो दोस्त कार्यक्रम नहीं सुन पाया, उसे बताइए कि मेहमान ने क्या कहा। अप्रत्यक्ष कथन (Elle a dit que…, Elle a expliqué que…, Selon elle…) और कम से कम दो gérondif इस्तेमाल कीजिए।"
+    },
+    "prompts": [
+      {
+        "fr": "Ce matin, une chercheuse a parlé du sommeil à la radio.",
+        "en": "This morning, a researcher talked about sleep on the radio.",
+        "hi": "आज सुबह एक शोधकर्ता ने रेडियो पर नींद के बारे में बात की।",
+        "pron": "सö मा-तैँ üन शैग़-शöज़ आ पाग़-ले दü सो-मैय आ ला ग़ा-द्यो"
+      },
+      {
+        "fr": "Elle a dit qu'un adulte sur trois dormait moins de sept heures.",
+        "en": "She said one adult in three slept less than seven hours.",
+        "hi": "उसने कहा कि हर तीन में से एक वयस्क सात घंटे से कम सोता है।",
+        "pron": "ऐ-ला दी कैँ ना-द्üल्त सüग़ त्ग़्वा दॉग़-मै म्वैँ दö सै-तöग़"
+      },
+      {
+        "fr": "Selon elle, on dort mieux en sortant le matin.",
+        "en": "According to her, you sleep better by going out in the morning.",
+        "hi": "उसके अनुसार, सुबह बाहर निकलकर नींद बेहतर आती है।",
+        "pron": "सö-लोँ ऐल ओँ दॉग़ म्यö आँ सॉग़-ताँ लö मा-तैँ"
+      },
+      {
+        "fr": "Elle a expliqué qu'il fallait éteindre les écrans une heure avant.",
+        "en": "She explained that you had to switch off screens an hour before.",
+        "hi": "उसने समझाया कि एक घंटा पहले स्क्रीन बंद करनी चाहिए।",
+        "pron": "ऐ-ला ऐक्स-प्ली-के की-ल फ़ा-लै ए-तैँद्ग़ ले ज़े-क्ग़ाँ üन öग़ आ-वाँ"
+      },
+      {
+        "fr": "Elle a conseillé d'éviter le café après quatorze heures.",
+        "en": "She advised avoiding coffee after 2 p.m.",
+        "hi": "उसने दोपहर 2 बजे के बाद कॉफ़ी से बचने की सलाह दी।",
+        "pron": "ऐ-ला कोँ-से-ये दे-वी-ते लö का-फ़े आ-प्रै का-तॉग़ज़ öग़"
+      }
+    ],
+    "tip": {
+      "en": "When reporting in the past, the present becomes imparfait: 'Un adulte sur trois dort' → 'Elle a dit qu'un adulte sur trois dormait.'",
+      "hi": "बीते समय में बताते समय वर्तमान काल imparfait बन जाता है: 'Un adulte sur trois dort' → 'Elle a dit qu'un adulte sur trois dormait.'"
+    }
+  },
+  "reading": {
+    "genre": "schedule",
+    "title": "Radio Rive-Nord — Grille des émissions du samedi (exemple fictif)",
+    "text": "RADIO RIVE-NORD 98,5 — SAMEDI\n\n6 h – 9 h | MATINS D'ICI (en direct)\nNouvelles, météo et circulation toutes les demi-heures. À 7 h 40, la chronique « Santé » : cette semaine, comment bien dormir pendant l'hiver.\n\n9 h – 10 h | LA CUISINE DU MONDE\nUne cheffe invitée prépare un plat de son pays d'origine. Aujourd'hui : un biryani végétarien avec la cheffe Meena Iyer. Les recettes sont publiées sur notre site après l'émission.\n\n10 h – 12 h | LE GRAND DÉBAT (en direct)\nLes auditeurs réagissent à l'actualité de la semaine. Thème : faut-il interdire les voitures dans le Vieux-Terrebonne l'été ? Appelez-nous au 450 555-0198 ou écrivez-nous pendant l'émission.\n\n12 h – 12 h 30 | BULLETIN DE NOUVELLES\n\n12 h 30 – 14 h | NOUVEAUX ARRIVANTS, NOUVELLES VIES\nDes immigrants racontent leurs premières années au Québec. Cette semaine : trois infirmières venues du Maroc, des Philippines et de l'Inde. Rediffusion le mercredi à 21 h.\n\n14 h – 17 h | MUSIQUES SANS FRONTIÈRES\nDe la musique francophone du monde entier, de Montréal à Dakar. À 15 h, entrevue avec un jeune groupe acadien de Moncton.\n\n17 h – 18 h | LE CLUB DE LECTURE\nUne auteure présente son dernier roman. Les auditeurs peuvent gagner un exemplaire en répondant à une question.\n\nToutes nos émissions sont aussi disponibles en balado, sauf « Le grand débat », pour des raisons de droits.",
+    "translation": {
+      "en": "RADIO RIVE-NORD 98.5 — SATURDAY\n\n6–9 a.m. | MATINS D'ICI (live)\nNews, weather and traffic every half hour. At 7:40, the 'Health' segment: this week, how to sleep well in winter.\n\n9–10 a.m. | WORLD KITCHEN\nA guest chef prepares a dish from her country of origin. Today: a vegetarian biryani with chef Meena Iyer. Recipes are published on our website after the show.\n\n10 a.m.–noon | THE BIG DEBATE (live)\nListeners react to the week's news. Topic: should cars be banned in Old Terrebonne in summer? Call us at 450 555-0198 or write to us during the show.\n\nNoon–12:30 | NEWS BULLETIN\n\n12:30–2 p.m. | NEWCOMERS, NEW LIVES\nImmigrants talk about their first years in Québec. This week: three nurses from Morocco, the Philippines and India. Rebroadcast on Wednesday at 9 p.m.\n\n2–5 p.m. | MUSIC WITHOUT BORDERS\nFrench-language music from around the world, from Montréal to Dakar. At 3 p.m., an interview with a young Acadian band from Moncton.\n\n5–6 p.m. | THE BOOK CLUB\nAn author presents her latest novel. Listeners can win a copy by answering a question.\n\nAll our shows are also available as podcasts, except 'The Big Debate', for rights reasons.",
+      "hi": "रेडियो रिव-नॉर 98.5 — शनिवार\n\nसुबह 6 – 9 | मातैँ दिसी (सीधा प्रसारण)\nहर आधे घंटे में ख़बरें, मौसम और ट्रैफ़िक। सुबह 7:40 पर 'स्वास्थ्य' खंड: इस हफ़्ते, सर्दियों में अच्छी नींद कैसे लें।\n\nसुबह 9 – 10 | दुनिया की रसोई\nएक मेहमान शेफ़ अपने मूल देश का व्यंजन बनाती हैं। आज: शेफ़ मीना अय्यर के साथ शाकाहारी बिरयानी। कार्यक्रम के बाद व्यंजन-विधियाँ हमारी वेबसाइट पर छपती हैं।\n\nसुबह 10 – दोपहर 12 | बड़ी बहस (सीधा प्रसारण)\nश्रोता हफ़्ते की ख़बरों पर प्रतिक्रिया देते हैं। विषय: क्या गर्मियों में पुराने तैरबोन में गाड़ियों पर रोक लगनी चाहिए? कार्यक्रम के दौरान 450 555-0198 पर फ़ोन कीजिए या हमें लिखिए।\n\nदोपहर 12 – 12:30 | समाचार बुलेटिन\n\nदोपहर 12:30 – 2 | नए आने वाले, नई ज़िंदगियाँ\nप्रवासी क्यूबेक में अपने पहले सालों के बारे में बताते हैं। इस हफ़्ते: मोरक्को, फ़िलीपींस और भारत से आई तीन नर्सें। दोबारा प्रसारण बुधवार रात 9 बजे।\n\nदोपहर 2 – शाम 5 | बिना सरहदों का संगीत\nदुनिया भर का फ़्रेंच भाषा का संगीत, मॉन्ट्रियाल से डकार तक। दोपहर 3 बजे मॉन्क्टन के एक युवा अकादियन बैंड से बातचीत।\n\nशाम 5 – 6 | पुस्तक क्लब\nएक लेखिका अपना नया उपन्यास पेश करती हैं। श्रोता एक सवाल का जवाब देकर किताब की एक प्रति जीत सकते हैं।\n\nहमारे सभी कार्यक्रम पॉडकास्ट के रूप में भी उपलब्ध हैं, सिवाय 'बड़ी बहस' के, अधिकारों से जुड़े कारणों से।"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "At what time can you hear the segment about sleep?"
+        },
+        "options": [
+          "6:00",
+          "7:40",
+          "9:00",
+          "12:00"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'À 7 h 40, la chronique « Santé » : … comment bien dormir pendant l'hiver.'",
+          "hi": "'à 7 h 40, la chronique « Santé »…'।"
+        },
+        "kind": "literal",
+        "evidence": "À 7 h 40, la chronique « Santé »"
+      },
+      {
+        "q": {
+          "en": "Where can you find the biryani recipe?"
+        },
+        "options": [
+          "In the podcast only",
+          "By calling the station",
+          "In the newspaper",
+          "On the station's website after the show"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Les recettes sont publiées sur notre site après l'émission.'",
+          "hi": "'les recettes sont publiées sur notre site après l'émission'।"
+        },
+        "kind": "literal",
+        "evidence": "Les recettes sont publiées sur notre site après l'émission."
+      },
+      {
+        "q": {
+          "en": "Which show lets listeners take part by phone?"
+        },
+        "options": [
+          "Le grand débat",
+          "Musiques sans frontières",
+          "Bulletin de nouvelles",
+          "Matins d'ici"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Le grand débat': 'Appelez-nous au 450 555-0198.'",
+          "hi": "'Le grand débat': 'Appelez-nous au 450 555-0198'।"
+        },
+        "kind": "literal",
+        "evidence": "Appelez-nous au 450 555-0198 ou écrivez-nous pendant l'émission."
+      },
+      {
+        "q": {
+          "en": "You work on Saturday afternoons. When else can you hear the programme about the three nurses on the radio?"
+        },
+        "options": [
+          "It is not rebroadcast",
+          "Sunday at noon",
+          "Wednesday at 9 p.m.",
+          "Saturday at 5 p.m."
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Rediffusion le mercredi à 21 h.'",
+          "hi": "'rediffusion le mercredi à 21 h' — बुधवार रात 9 बजे।"
+        },
+        "kind": "inference",
+        "evidence": "Rediffusion le mercredi à 21 h."
+      },
+      {
+        "q": {
+          "en": "At 3 p.m. on Saturday, what can you hear?"
+        },
+        "options": [
+          "A cooking show",
+          "An interview with an Acadian band",
+          "The news",
+          "A book presentation"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'À 15 h, entrevue avec un jeune groupe acadien de Moncton.'",
+          "hi": "'à 15 h, entrevue avec un jeune groupe acadien de Moncton'।"
+        },
+        "kind": "literal",
+        "evidence": "À 15 h, entrevue avec un jeune groupe acadien de Moncton."
+      },
+      {
+        "q": {
+          "en": "Which show can NOT be downloaded as a podcast?"
+        },
+        "options": [
+          "Nouveaux arrivants, nouvelles vies",
+          "Le club de lecture",
+          "La cuisine du monde",
+          "Le grand débat"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Sauf « Le grand débat », pour des raisons de droits.'",
+          "hi": "'sauf « Le grand débat »' — उसके अलावा सब।"
+        },
+        "kind": "literal",
+        "evidence": "sauf « Le grand débat », pour des raisons de droits"
+      }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "Here are a listener's notes on the sleep interview. Turn them into a clear summary of at least 80 words, in full sentences, in the third person: « Dre Benali – chercheuse sommeil – hiver : − lumière → + mélatonine mauvais moment → fatigue 16 h, pb s'endormir. Adulte = 7–9 h ; 1/3 − 7 h. Conseils : 1) sortir matin (20 min) 2) écrans off 1 h avant 3) mêmes heures week-end 4) café ≠ après 14 h. »",
+      "hi": "नींद वाले इंटरव्यू पर एक श्रोता के नोट्स ये हैं। इन्हें कम से कम 80 शब्दों के साफ़ सार में बदलिए, पूरे वाक्यों में, अन्य पुरुष में: « Dre Benali – chercheuse sommeil – hiver : − lumière → + mélatonine mauvais moment → fatigue 16 h, pb s'endormir. Adulte = 7–9 h ; 1/3 − 7 h. Conseils : 1) sortir matin (20 min) 2) écrans off 1 h avant 3) mêmes heures week-end 4) café ≠ après 14 h. »"
+    },
+    "minWords": 80,
+    "maxWords": 140,
+    "hints": [
+      {
+        "en": "Decode each symbol: − = moins de, → = ce qui provoque / donc, ≠ = pas de.",
+        "hi": "हर चिह्न खोलिए: − = moins de, → = ce qui provoque / donc, ≠ = pas de।"
+      },
+      {
+        "en": "Use at least one gérondif and connectors (d'abord, ensuite, enfin).",
+        "hi": "कम से कम एक gérondif और संयोजक (d'abord, ensuite, enfin) इस्तेमाल कीजिए।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Selon la chercheuse, …",
+        "en": "According to the researcher, …",
+        "hi": "शोधकर्ता के अनुसार, …",
+        "pron": "सö-लोँ ला शैग़-शöज़"
+      },
+      {
+        "fr": "ce qui provoque…",
+        "en": "which causes…",
+        "hi": "जिससे … होता है",
+        "pron": "सö की प्रो-वॉक"
+      },
+      {
+        "fr": "Elle recommande de…",
+        "en": "She recommends…",
+        "hi": "वह सलाह देती है कि…",
+        "pron": "ऐल ग़ö-को-माँद दö"
+      }
+    ],
+    "model": {
+      "fr": "La docteure Nadia Benali, chercheuse sur le sommeil, explique pourquoi on dort mal en hiver. Comme les journées sont courtes, le corps reçoit moins de lumière et produit plus de mélatonine au mauvais moment, ce qui provoque de la fatigue vers 16 h et des difficultés à s'endormir le soir. Un adulte a besoin de sept à neuf heures de sommeil, mais un sur trois dort moins de sept heures. Elle recommande d'abord de sortir vingt minutes le matin. Ensuite, on dort mieux en éteignant les écrans une heure avant le coucher. Enfin, il faut garder les mêmes heures le week-end et éviter le café après 14 h.",
+      "en": "Dr Nadia Benali, a sleep researcher, explains why people sleep badly in winter. Because days are short, the body receives less light and produces more melatonin at the wrong time, which causes tiredness around 4 p.m. and difficulty falling asleep at night. An adult needs seven to nine hours of sleep, but one in three sleeps less than seven hours. She first recommends going out for twenty minutes in the morning. Next, you sleep better by switching off screens an hour before bedtime. Finally, you should keep the same hours at weekends and avoid coffee after 2 p.m."
+    },
+    "checklist": [
+      {
+        "en": "Did you turn every symbol into words?",
+        "hi": "क्या आपने हर चिह्न को शब्दों में बदला?"
+      },
+      {
+        "en": "Are all sentences complete, with a verb?",
+        "hi": "क्या सभी वाक्य पूरे हैं, क्रिया के साथ?"
+      },
+      {
+        "en": "Is there at least one gérondif (en + -ant)?",
+        "hi": "क्या कम से कम एक gérondif (en + -ant) है?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      27,
+      36,
+      79,
+      83,
+      93
+    ],
+    "items": [
+      {
+        "fr": "Je me couche à vingt-deux heures.",
+        "en": "I go to bed at 10 p.m.",
+        "hi": "मैं रात 10 बजे सोने जाता हूँ।",
+        "pron": "झ़ö मö कूश आ वैँत-दö-ज़öग़"
+      },
+      {
+        "fr": "J'ai mal à la tête.",
+        "en": "I have a headache.",
+        "hi": "मेरे सिर में दर्द है।",
+        "pron": "झ़े माल आ ला तैत"
+      },
+      {
+        "fr": "Il a dit qu'il viendrait.",
+        "en": "He said he would come.",
+        "hi": "उसने कहा कि वह आएगा।",
+        "pron": "इल आ दी की-ल व्यैँ-द्ग़ै"
+      },
+      {
+        "fr": "toutes les demi-heures",
+        "en": "every half hour",
+        "hi": "हर आधे घंटे में",
+        "pron": "तूत ले दö-मी öग़"
+      },
+      {
+        "fr": "La loi a été adoptée.",
+        "en": "The law was passed.",
+        "hi": "क़ानून पारित हुआ।",
+        "pron": "ला ल्वा आ ए-ते आ-दॉप-ते"
+      },
+      {
+        "fr": "selon un sondage",
+        "en": "according to a poll",
+        "hi": "एक सर्वेक्षण के अनुसार",
+        "pron": "सö-लोँ ऐँ सोँ-दाझ़"
+      },
+      {
+        "fr": "en raison de",
+        "en": "due to",
+        "hi": "… के कारण",
+        "pron": "आँ ग़ै-ज़ोँ दö"
+      },
+      {
+        "fr": "la météo",
+        "en": "the weather forecast",
+        "hi": "मौसम का हाल",
+        "pron": "ला मे-ते-ओ"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Form the gérondif of 'faire'.",
+        "hi": "'faire' का gérondif बनाइए।"
+      },
+      "sentence": "Elle s'est blessée en ___ du ski.",
+      "answer": "faisant",
+      "accept": [],
+      "explanation": {
+        "en": "Nous faisons → en faisant.",
+        "hi": "nous faisons → en faisant।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'On apprend en pratiquant.' The gérondif expresses…",
+        "hi": "'On apprend en pratiquant.' यहाँ gérondif बताता है…"
+      },
+      "options": [
+        "the means (how)",
+        "a cause",
+        "the future",
+        "time"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "How do we learn? By practising.",
+        "hi": "हम कैसे सीखते हैं? अभ्यास करके।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which gérondif is correct for 'être'?",
+        "hi": "'être' का सही gérondif कौन-सा है?"
+      },
+      "options": [
+        "en ayant",
+        "en êtant",
+        "en étant",
+        "en soyant"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Être → en étant (irregular). En ayant is from avoir.",
+        "hi": "être → en étant (अनियमित)। en ayant avoir से है।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "In notes, '→' usually means…",
+        "hi": "नोट्स में '→' का मतलब आमतौर पर होता है…"
+      },
+      "options": [
+        "less",
+        "equals",
+        "leads to / so",
+        "different from"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "→ = consequence (donc, ce qui provoque).",
+        "hi": "→ = परिणाम (donc, ce qui provoque)।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "I cook while listening to the radio.",
+        "hi": "मैं रेडियो सुनते हुए खाना बनाता हूँ।"
+      },
+      "answer": "Je cuisine en écoutant la radio.",
+      "accept": [
+        "Je cuisine en écoutant la radio",
+        "Je fais la cuisine en écoutant la radio."
+      ],
+      "explanation": {
+        "en": "Simultaneity: en + écoutant.",
+        "hi": "एक साथ: en + écoutant।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Report in the past: 'Un adulte sur trois dort mal.' → Elle a dit qu'un adulte sur trois ___ mal.",
+        "hi": "बीते समय में बताइए: 'Un adulte sur trois dort mal.' → Elle a dit qu'un adulte sur trois ___ mal."
+      },
+      "sentence": "Elle a dit qu'un adulte sur trois ___ mal.",
+      "answer": "dormait",
+      "accept": [],
+      "explanation": {
+        "en": "Present → imparfait after a past reporting verb.",
+        "hi": "बीती रिपोर्टिंग क्रिया के बाद वर्तमान → imparfait।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put in order: You sleep better by switching off screens.",
+        "hi": "क्रम में रखिए: स्क्रीन बंद करके बेहतर नींद आती है।"
+      },
+      "words": [
+        "dort",
+        "On",
+        "mieux",
+        "en",
+        "éteignant",
+        "les",
+        "écrans",
+        "."
+      ],
+      "answer": "On dort mieux en éteignant les écrans.",
+      "explanation": {
+        "en": "Main verb + adverb + gérondif + object.",
+        "hi": "मुख्य क्रिया + क्रियाविशेषण + gérondif + कर्म।"
+      }
+    }
+  ]
+}

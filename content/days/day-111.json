@@ -1,0 +1,915 @@
+{
+  "day": 111,
+  "phase": 6,
+  "title": {
+    "fr": "Parler sans notes",
+    "en": "Independent speaking",
+    "hi": "बिना नोट्स के बोलना"
+  },
+  "objective": {
+    "en": "Speak for two minutes on a society topic without notes, using a simple mental structure (position, reason, example, position), and explain any word you don't know with a definition (c'est une chose qui…, c'est quand…, c'est le fait de…).",
+    "hi": "किसी सामाजिक विषय पर बिना नोट्स के दो मिनट बोलना, एक आसान मानसिक ढाँचे के साथ (राय, कारण, उदाहरण, फिर राय), और कोई शब्द न आए तो उसकी परिभाषा देकर समझाना (c'est une chose qui…, c'est quand…, c'est le fait de…)।"
+  },
+  "prerequisites": {
+    "days": [
+      85,
+      97,
+      106
+    ],
+    "summary": {
+      "en": "Spontaneous opinions (day 85), argument structures (day 97) and repair strategies, especially circumlocution (day 106).",
+      "hi": "तुरंत राय देना (दिन 85), तर्क के ढाँचे (दिन 97) और सुधार-रणनीतियाँ, ख़ासकर वर्णन करके समझाना (दिन 106)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "le coût de la vie",
+      "en": "the cost of living",
+      "hi": "महँगाई / जीवन-यापन का ख़र्च",
+      "pron": "लö कू द ला वी",
+      "ipa": "lə ku d la vi",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "coût"
+    },
+    {
+      "fr": "le logement abordable",
+      "en": "affordable housing",
+      "hi": "किफ़ायती आवास",
+      "pron": "लö लॉझ़-माँ ता-बॉग़-दाब्ल",
+      "ipa": "lə lɔʒmɑ̃ abɔʁdabl",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "logement"
+    },
+    {
+      "fr": "l'intégration",
+      "en": "integration, settling in",
+      "hi": "घुलना-मिलना / समाज में जुड़ना",
+      "pron": "लैँ-ते-ग्ग़ा-स्योँ",
+      "ipa": "lɛ̃teɡʁasjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "intégration"
+    },
+    {
+      "fr": "un nouvel arrivant",
+      "en": "a newcomer",
+      "hi": "नया आया व्यक्ति",
+      "pron": "ऐँ नू-वै ला-ग़ी-वाँ",
+      "ipa": "ɛ̃ nuvɛl‿aʁivɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "arrivant",
+      "note": {
+        "en": "Nouvel (not nouveau) before a vowel: un nouvel arrivant, un nouvel emploi. Feminine: une nouvelle arrivante.",
+        "hi": "स्वर से पहले nouveau की जगह nouvel: un nouvel arrivant, un nouvel emploi। स्त्रीलिंग: une nouvelle arrivante।"
+      }
+    },
+    {
+      "fr": "la diversité",
+      "en": "diversity",
+      "hi": "विविधता",
+      "pron": "ला दी-वैग़-सी-ते",
+      "ipa": "la divɛʁsite",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "diversité"
+    },
+    {
+      "fr": "le malentendu",
+      "en": "misunderstanding",
+      "hi": "ग़लतफ़हमी",
+      "pron": "लö मा-लाँ-ताँ-दü",
+      "ipa": "lə malɑ̃tɑ̃dy",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "malentendu"
+    },
+    {
+      "fr": "la santé mentale",
+      "en": "mental health",
+      "hi": "मानसिक स्वास्थ्य",
+      "pron": "ला साँ-ते माँ-ताल",
+      "ipa": "la sɑ̃te mɑ̃tal",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "santé"
+    },
+    {
+      "fr": "les réseaux sociaux",
+      "en": "social media",
+      "hi": "सोशल मीडिया",
+      "pron": "ले ग़े-ज़ो सो-स्यो",
+      "ipa": "le ʁezo sɔsjo",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "réseau"
+    },
+    {
+      "fr": "le vieillissement",
+      "en": "ageing",
+      "hi": "बुढ़ापा / आबादी का बूढ़ा होना",
+      "pron": "लö व्ये-यीस-माँ",
+      "ipa": "lə vjejismɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "vieillissement"
+    },
+    {
+      "fr": "la liste d'attente",
+      "en": "waiting list",
+      "hi": "प्रतीक्षा-सूची",
+      "pron": "ला लीस्त दा-ताँत",
+      "ipa": "la list datɑ̃t",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "liste"
+    },
+    {
+      "fr": "la coopérative d'habitation",
+      "en": "housing co-operative",
+      "hi": "आवास सहकारी समिति",
+      "pron": "ला को-ओ-पे-ग़ा-तीव दा-बी-ता-स्योँ",
+      "ipa": "la kɔɔpeʁativ dabitasjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "coopérative"
+    },
+    {
+      "fr": "en vrac",
+      "en": "in bulk, loose (unpackaged)",
+      "hi": "खुला (बिना पैकेट के) / थोक में",
+      "pron": "आँ व्ग़ाक",
+      "ipa": "ɑ̃ vʁak",
+      "pos": "phrase"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "C'est un sujet qui me touche, parce que …",
+      "en": "It's a topic that matters to me, because …",
+      "hi": "यह विषय मुझे छूता है, क्योंकि …",
+      "pron": "सै तैँ सü-झ़ै की मö तूश पाग़-स कö"
+    },
+    {
+      "fr": "Je vais vous donner un exemple personnel.",
+      "en": "I'll give you a personal example.",
+      "hi": "मैं आपको एक निजी उदाहरण देता / देती हूँ।",
+      "pron": "झ़ö वै वू दो-ने ऐँ नैग-ज़ाँप्ल पैग़-सो-नैल"
+    },
+    {
+      "fr": "C'est quand on …",
+      "en": "It's when you …",
+      "hi": "यह तब होता है जब …",
+      "pron": "सै काँ तोँ"
+    },
+    {
+      "fr": "C'est le fait de vivre loin de sa famille.",
+      "en": "It's the fact of living far from your family.",
+      "hi": "यह अपने परिवार से दूर रहने की बात है।",
+      "pron": "सै लö फ़ै दö वीव्ग़ ल्वैँ दö सा फ़ा-मीय"
+    },
+    {
+      "fr": "D'un autre côté, …",
+      "en": "On the other hand, …",
+      "hi": "दूसरी ओर, …",
+      "pron": "दैँ नोत्ग़ को-ते"
+    },
+    {
+      "fr": "Bref, pour moi, …",
+      "en": "In short, for me, …",
+      "hi": "संक्षेप में, मेरे लिए …",
+      "pron": "ब्ग़ैफ़ पूग़ म्वा"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "A mental structure for speaking without notes, and defining words (qui, que, quand, le fait de)",
+      "hi": "बिना नोट्स बोलने का मानसिक ढाँचा, और शब्दों की परिभाषा देना (qui, que, quand, le fait de)"
+    },
+    "explanation": {
+      "en": "Without notes, use a four-step frame you can always remember: 1) Position — À mon avis, … 2) Reason — parce que / car … 3) Example — Par exemple, quand je suis arrivé(e)… 4) Position again, one step further — Bref, pour moi, … . Repeat the frame for a second idea with 'D'un autre côté'. To explain a word you don't know, choose the right definition pattern: a thing → c'est une chose qui + verb (qui = subject) or c'est une chose que + subject + verb (que = object: c'est une chose qu'on utilise pour…); a person → c'est quelqu'un qui …; a place → c'est un endroit où …; a situation → c'est quand + clause (c'est quand on n'a plus de travail); an action or idea → c'est le fait de + infinitive (c'est le fait de travailler depuis la maison). You can also give a synonym or opposite: ça ressemble à …, c'est le contraire de … .",
+      "hi": "बिना नोट्स के चार क़दम वाला ढाँचा इस्तेमाल कीजिए जो हमेशा याद रहे: 1) राय — À mon avis, … 2) कारण — parce que / car … 3) उदाहरण — Par exemple, quand je suis arrivé(e)… 4) फिर से राय, एक क़दम आगे — Bref, pour moi, …। दूसरे विचार के लिए 'D'un autre côté' के साथ यही ढाँचा दोहराइए। अनजाना शब्द समझाने के लिए सही परिभाषा-ढाँचा चुनिए: चीज़ → c'est une chose qui + क्रिया (qui = कर्ता) या c'est une chose que + कर्ता + क्रिया (que = कर्म: c'est une chose qu'on utilise pour…); व्यक्ति → c'est quelqu'un qui …; जगह → c'est un endroit où …; स्थिति → c'est quand + उपवाक्य (c'est quand on n'a plus de travail); काम या विचार → c'est le fait de + क्रिया का मूल रूप (c'est le fait de travailler depuis la maison)। समानार्थी या उलटा शब्द भी दे सकते हैं: ça ressemble à …, c'est le contraire de …।"
+    },
+    "comparison": {
+      "en": "Qui and que both translate as 'जो / जिसे' or 'that' in English, but French chooses by role: qui when the next verb has no other subject (une chose qui coûte cher), que when a new subject follows (une chose que tout le monde utilise).",
+      "hi": "Qui और que दोनों का अनुवाद 'जो / जिसे' या अंग्रेज़ी में 'that' होता है, पर फ़्रेंच भूमिका देखकर चुनती है: qui जब अगली क्रिया का कोई और कर्ता न हो (une chose qui coûte cher), que जब आगे नया कर्ता आए (une chose que tout le monde utilise)।"
+    },
+    "examples": [
+      {
+        "fr": "C'est une chose qu'on utilise pour garder la nourriture au froid.",
+        "en": "It's a thing you use to keep food cold.",
+        "hi": "यह एक चीज़ है जिसे खाना ठंडा रखने के लिए इस्तेमाल करते हैं।",
+        "pron": "सै तüन शोज़ कोँ नü-ती-लीज़ पूग़ गाग़-दे ला नू-ग़ी-तüग़ ओ फ़्ग़्वा"
+      },
+      {
+        "fr": "C'est quelqu'un qui aide les nouveaux arrivants à trouver un emploi.",
+        "en": "It's someone who helps newcomers find a job.",
+        "hi": "यह ऐसा व्यक्ति है जो नए आए लोगों को नौकरी ढूँढने में मदद करता है।",
+        "pron": "सै कैल-कैँ की ऐद ले नू-वो ज़ा-ग़ी-वाँ आ त्ग़ू-वे ऐँ नाँ-प्ल्वा"
+      },
+      {
+        "fr": "C'est quand on se sent seul dans un pays étranger.",
+        "en": "It's when you feel lonely in a foreign country.",
+        "hi": "यह तब होता है जब कोई विदेश में अकेला महसूस करता है।",
+        "pron": "सै काँ तोँ सö साँ सöल दाँ ज़ैँ पे-ई ए-त्ग़ाँ-झ़े"
+      },
+      {
+        "fr": "C'est le fait de partager un logement entre deux familles.",
+        "en": "It's the fact of sharing a home between two families.",
+        "hi": "यह दो परिवारों के बीच एक घर साझा करने की बात है।",
+        "pron": "सै लö फ़ै दö पाग़-ता-झ़े ऐँ लॉझ़-माँ आँत्ग़ दö फ़ा-मीय"
+      },
+      {
+        "fr": "Bref, pour moi, la langue est la clé de l'intégration.",
+        "en": "In short, for me, language is the key to integration.",
+        "hi": "संक्षेप में, मेरे लिए भाषा घुलने-मिलने की कुंजी है।",
+        "pron": "ब्ग़ैफ़ पूग़ म्वा ला लाँग ऐ ला क्ले दö लैँ-ते-ग्ग़ा-स्योँ"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Don't memorise a full speech: examiners notice. Memorise the frame and a few personal examples instead.",
+        "hi": "पूरा भाषण रटिए मत: परीक्षक पहचान लेते हैं। उसकी जगह ढाँचा और कुछ निजी उदाहरण याद कीजिए।"
+      },
+      {
+        "en": "Que becomes qu' before a vowel: une chose qu'on utilise. Qui never changes: quelqu'un qui aime.",
+        "hi": "स्वर से पहले que बदलकर qu' होता है: une chose qu'on utilise। Qui कभी नहीं बदलता: quelqu'un qui aime।"
+      },
+      {
+        "en": "After 'le fait de', use the infinitive: le fait de vivre, not le fait de vit.",
+        "hi": "'le fait de' के बाद क्रिया का मूल रूप: le fait de vivre, le fait de vit नहीं।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Fluency and rhythm: stress at the end of each rhythm group",
+    "tip": {
+      "en": "French rhythm is made of groups of 3 to 7 syllables with a slight stress on the last one. Speak in groups, not word by word: À mon avis | la langue | est la clé | de l'intégration. Breathe between groups, never inside one.",
+      "hi": "फ़्रेंच की लय 3 से 7 अक्षरों के समूहों से बनती है, जिनके आख़िरी अक्षर पर हल्का ज़ोर होता है। शब्द-शब्द नहीं, समूहों में बोलिए: À mon avis | la langue | est la clé | de l'intégration। साँस समूहों के बीच लीजिए, समूह के अंदर कभी नहीं।"
+    },
+    "words": [
+      {
+        "fr": "À mon avis",
+        "en": "In my opinion",
+        "hi": "मेरी राय में",
+        "pron": "आ मो ना-वी",
+        "ipa": "a mɔ̃n‿avi"
+      },
+      {
+        "fr": "le coût de la vie",
+        "en": "the cost of living",
+        "hi": "महँगाई",
+        "pron": "लö कू द ला वी",
+        "ipa": "lə ku d la vi"
+      },
+      {
+        "fr": "un nouvel arrivant",
+        "en": "a newcomer",
+        "hi": "नया आया व्यक्ति",
+        "pron": "ऐँ नू-वै ला-ग़ी-वाँ",
+        "ipa": "ɛ̃ nuvɛl‿aʁivɑ̃"
+      },
+      {
+        "fr": "D'un autre côté",
+        "en": "On the other hand",
+        "hi": "दूसरी ओर",
+        "pron": "दैँ नोत्ग़ को-ते",
+        "ipa": "dœ̃n‿otʁ kote"
+      },
+      {
+        "fr": "C'est le fait de",
+        "en": "It's the fact of",
+        "hi": "यह … की बात है",
+        "pron": "सै लö फ़ै दö",
+        "ipa": "sɛ lə fɛ də"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "La vie coûte cher",
+      "en": "Life is expensive"
+    },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "A free conversation model. Anjali and her colleague Mathieu chat about the cost of living in Montréal. Notice how Anjali explains a word she doesn't know and how both give personal examples.",
+      "hi": "खुली बातचीत का मॉडल। अंजलि और उसका सहकर्मी मैथ्यू मॉन्ट्रियाल में महँगाई के बारे में बात करते हैं। ध्यान दीजिए कि अंजलि एक अनजाना शब्द कैसे समझाती है और दोनों निजी उदाहरण कैसे देते हैं।"
+    },
+    "lines": [
+      {
+        "speaker": "Anjali",
+        "voice": "f1",
+        "fr": "Tu as vu ? Le prix du panier d'épicerie a encore augmenté ce mois-ci.",
+        "en": "Did you see? The price of groceries has gone up again this month.",
+        "hi": "तुमने देखा? इस महीने फिर से किराने का ख़र्च बढ़ गया।"
+      },
+      {
+        "speaker": "Mathieu",
+        "voice": "m2",
+        "fr": "Oui, j'ai remarqué. Moi, je fais maintenant les courses une seule fois par semaine, avec une liste.",
+        "en": "Yes, I noticed. I now do my shopping only once a week, with a list.",
+        "hi": "हाँ, मैंने ध्यान दिया। मैं अब हफ़्ते में सिर्फ़ एक बार, सूची बनाकर, सामान ख़रीदता हूँ।"
+      },
+      {
+        "speaker": "Anjali",
+        "voice": "f1",
+        "fr": "C'est malin. Nous, on achète beaucoup en vrac, c'est moins cher. Mais le plus gros problème, pour nous, c'est le loyer.",
+        "en": "That's smart. We buy a lot in bulk, it's cheaper. But our biggest problem is the rent.",
+        "hi": "समझदारी है। हम बहुत-सा सामान खुला लेते हैं, सस्ता पड़ता है। लेकिन हमारी सबसे बड़ी समस्या किराया है।"
+      },
+      {
+        "speaker": "Mathieu",
+        "voice": "m2",
+        "fr": "Ah oui ? Vous payez combien, si ce n'est pas indiscret ?",
+        "en": "Really? How much do you pay, if you don't mind me asking?",
+        "hi": "अच्छा? अगर बुरा न मानो तो कितना देते हो?"
+      },
+      {
+        "speaker": "Anjali",
+        "voice": "f1",
+        "fr": "Presque la moitié de notre salaire. On cherche un logement… euh, comment dire… un logement que la ville aide à payer, pour les familles qui gagnent moins.",
+        "en": "Almost half our salary. We're looking for housing… um, how can I put it… housing that the city helps pay for, for families who earn less.",
+        "hi": "लगभग आधी तनख़्वाह। हम ऐसा घर ढूँढ रहे हैं… अं, कैसे कहूँ… ऐसा घर जिसका किराया भरने में शहर मदद करता है, कम कमाने वाले परिवारों के लिए।"
+      },
+      {
+        "speaker": "Mathieu",
+        "voice": "m2",
+        "fr": "Un logement social, tu veux dire ? Ou un logement abordable ?",
+        "en": "Social housing, you mean? Or affordable housing?",
+        "hi": "सरकारी आवास, यही कहना चाहती हो? या किफ़ायती आवास?"
+      },
+      {
+        "speaker": "Anjali",
+        "voice": "f1",
+        "fr": "Voilà, abordable ! Mais les listes d'attente sont très longues, parfois deux ou trois ans.",
+        "en": "That's it, affordable! But the waiting lists are very long, sometimes two or three years.",
+        "hi": "हाँ, वही, किफ़ायती! लेकिन प्रतीक्षा-सूचियाँ बहुत लंबी हैं, कभी-कभी दो-तीन साल।"
+      },
+      {
+        "speaker": "Mathieu",
+        "voice": "m2",
+        "fr": "Je trouve que le gouvernement devrait construire beaucoup plus. Mais d'un autre côté, ça prend du temps et ça coûte cher.",
+        "en": "I think the government should build much more. But on the other hand, it takes time and it's expensive.",
+        "hi": "मुझे लगता है सरकार को कहीं ज़्यादा घर बनाने चाहिए। लेकिन दूसरी ओर, इसमें समय लगता है और ख़र्च बहुत होता है।"
+      },
+      {
+        "speaker": "Anjali",
+        "voice": "f1",
+        "fr": "C'est vrai. En attendant, des amis à nous partagent un appartement à deux familles. En Inde, c'est assez normal de vivre à plusieurs, mais ici, les gens trouvent ça étrange.",
+        "en": "That's true. In the meantime, some friends of ours share a flat between two families. In India, it's quite normal to live with many people, but here people find it strange.",
+        "hi": "सही है। तब तक हमारे कुछ दोस्त दो परिवार मिलकर एक फ़्लैट में रहते हैं। भारत में कई लोगों का साथ रहना काफ़ी सामान्य है, पर यहाँ लोगों को यह अजीब लगता है।"
+      },
+      {
+        "speaker": "Mathieu",
+        "voice": "m2",
+        "fr": "Pas tous ! Chez mes grands-parents, au Saguenay, on était huit dans la maison. C'est plutôt une question de génération.",
+        "en": "Not everyone! At my grandparents' place in the Saguenay, there were eight of us in the house. It's more a question of generation.",
+        "hi": "सबको नहीं! सागने में मेरे दादा-दादी के घर में हम आठ लोग रहते थे। यह ज़्यादातर पीढ़ी की बात है।"
+      },
+      {
+        "speaker": "Anjali",
+        "voice": "f1",
+        "fr": "Intéressant… Bon, et toi, tu as une solution miracle ?",
+        "en": "Interesting… Well, and you, do you have a miracle solution?",
+        "hi": "दिलचस्प… अच्छा, और तुम्हारे पास कोई जादुई हल है?"
+      },
+      {
+        "speaker": "Mathieu",
+        "voice": "m2",
+        "fr": "Malheureusement non. Mais je connais une coopérative d'habitation près de chez moi. Je t'envoie le lien ?",
+        "en": "Unfortunately not. But I know a housing co-op near my place. Shall I send you the link?",
+        "hi": "अफ़सोस, नहीं। लेकिन मेरे घर के पास एक आवास सहकारी समिति है। लिंक भेज दूँ?"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "How does Mathieu save on groceries?"
+        },
+        "options": [
+          "He buys in bulk",
+          "He shops once a week with a list",
+          "He grows vegetables",
+          "He eats at work"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Je fais maintenant les courses une seule fois par semaine, avec une liste.' Buying in bulk is Anjali's strategy.",
+          "hi": "'Je fais maintenant les courses une seule fois par semaine, avec une liste.' खुला सामान लेना अंजलि का तरीक़ा है।"
+        },
+        "kind": "literal",
+        "evidence": "je fais maintenant les courses une seule fois par semaine, avec une liste"
+      },
+      {
+        "q": {
+          "en": "What is Anjali's family's biggest problem?"
+        },
+        "options": [
+          "Food prices",
+          "Transport",
+          "The rent",
+          "Finding a job"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Le plus gros problème, pour nous, c'est le loyer.'",
+          "hi": "'Le plus gros problème, pour nous, c'est le loyer' — किराया।"
+        },
+        "kind": "literal",
+        "evidence": "le plus gros problème, pour nous, c'est le loyer"
+      },
+      {
+        "q": {
+          "en": "How does Anjali deal with the word she doesn't know?"
+        },
+        "options": [
+          "She describes it",
+          "She uses an English word",
+          "She stops talking",
+          "She asks Mathieu to spell it"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Un logement que la ville aide à payer, pour les familles qui gagnent moins' — a definition with que and qui.",
+          "hi": "'Un logement que la ville aide à payer, pour les familles qui gagnent moins' — que और qui के साथ परिभाषा।"
+        },
+        "kind": "inference",
+        "evidence": "un logement que la ville aide à payer"
+      },
+      {
+        "q": {
+          "en": "How long can the waiting lists be?"
+        },
+        "options": [
+          "Two or three months",
+          "Six months",
+          "Ten years",
+          "Two or three years"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Parfois deux ou trois ans.'",
+          "hi": "'Parfois deux ou trois ans' — कभी-कभी दो-तीन साल।"
+        },
+        "kind": "literal",
+        "evidence": "parfois deux ou trois ans"
+      },
+      {
+        "q": {
+          "en": "What does Mathieu think about several families living together?"
+        },
+        "options": [
+          "It is strange for all Quebecers",
+          "It is illegal",
+          "It is more a question of generation",
+          "It is only Indian"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Pas tous ! … C'est plutôt une question de génération.'",
+          "hi": "'Pas tous ! … C'est plutôt une question de génération' — पीढ़ी की बात।"
+        },
+        "kind": "inference",
+        "evidence": "C'est plutôt une question de génération."
+      },
+      {
+        "q": {
+          "en": "What does Mathieu offer at the end?"
+        },
+        "options": [
+          "To lend money",
+          "To send a link to a housing co-op",
+          "To share his flat",
+          "To call the city"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Je connais une coopérative d'habitation près de chez moi. Je t'envoie le lien ?'",
+          "hi": "वह कहता है कि उसके घर के पास एक आवास सहकारी समिति है और पूछता है कि क्या वह लिंक भेज दे: 'Je t'envoie le lien ?'"
+        },
+        "kind": "literal",
+        "evidence": "je connais une coopérative d'habitation près de chez moi"
+      }
+    ],
+    "dictation": [
+      "Le plus gros problème, pour nous, c'est le loyer.",
+      "Les listes d'attente sont très longues, parfois deux ou trois ans."
+    ],
+    "gapFill": {
+      "text": "On cherche un logement que la ville aide à ___. Un logement social, tu veux ___ ?",
+      "answers": [
+        "payer",
+        "dire"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "conversation",
+    "instructions": {
+      "en": "Free discussion. Choose two questions from today's discussion sheet. For each, speak for two minutes without notes using the frame Position – Reason – Example – Position. Your partner then asks you one follow-up question. If a word is missing, define it — never switch language.",
+      "hi": "खुली चर्चा। आज की चर्चा-सूची से दो प्रश्न चुनिए। हर एक पर बिना नोट्स के, राय – कारण – उदाहरण – राय के ढाँचे से दो मिनट बोलिए। फिर साथी आपसे एक और प्रश्न पूछेगा। कोई शब्द न आए तो उसकी परिभाषा दीजिए — भाषा कभी मत बदलिए।"
+    },
+    "scenario": {
+      "setting": {
+        "en": "A conversation club at a neighbourhood library in Montréal.",
+        "hi": "मॉन्ट्रियाल की एक मोहल्ला लाइब्रेरी में बातचीत क्लब।"
+      },
+      "learnerRole": {
+        "en": "A participant who speaks on two society questions.",
+        "hi": "एक प्रतिभागी जो दो सामाजिक प्रश्नों पर बोलता है।"
+      },
+      "partnerRole": {
+        "en": "The club facilitator, who listens and asks one follow-up question each time.",
+        "hi": "क्लब का संचालक, जो सुनता है और हर बार एक और प्रश्न पूछता है।"
+      },
+      "goals": [
+        {
+          "en": "Speak two minutes per question without reading.",
+          "hi": "हर प्रश्न पर बिना पढ़े दो मिनट बोलिए।"
+        },
+        {
+          "en": "Give at least one personal example per question.",
+          "hi": "हर प्रश्न पर कम से कम एक निजी उदाहरण दीजिए।"
+        },
+        {
+          "en": "Define at least one word with qui, que, quand or le fait de.",
+          "hi": "कम से कम एक शब्द की परिभाषा qui, que, quand या le fait de से दीजिए।"
+        }
+      ]
+    },
+    "prompts": [
+      {
+        "fr": "À mon avis, ce qui aide le plus, c'est la langue.",
+        "en": "In my opinion, what helps most is language.",
+        "hi": "मेरी राय में सबसे ज़्यादा मदद भाषा से मिलती है।",
+        "pron": "आ मो ना-वी स की ऐद लö प्लüस सै ला लाँग"
+      },
+      {
+        "fr": "Par exemple, quand je suis arrivé, je ne comprenais pas les gens au supermarché.",
+        "en": "For example, when I arrived, I didn't understand people at the supermarket.",
+        "hi": "उदाहरण के लिए, जब मैं आया, मुझे सुपरमार्केट में लोगों की बात समझ नहीं आती थी।",
+        "pron": "पा ग़ैग-ज़ाँप्ल काँ झ़ö स्üई ज़ा-ग़ी-वे झ़ö नö कोँ-प्ग़ö-नै पा ले झ़ाँ ओ सü-पैग़-माग़-शे"
+      },
+      {
+        "fr": "Je ne connais pas le mot, mais c'est quand on se sent loin de chez soi.",
+        "en": "I don't know the word, but it's when you feel far from home.",
+        "hi": "मुझे शब्द नहीं आता, पर यह तब होता है जब कोई घर से दूर महसूस करता है।",
+        "pron": "झ़ö नö को-नै पा लö मो मै सै काँ तोँ सö साँ ल्वैँ दö शे स्वा",
+        "model": "Je ne connais pas le mot… c'est quand on se sent loin de chez soi. Ah, le mal du pays !"
+      },
+      {
+        "fr": "D'un autre côté, les amis sont aussi très importants.",
+        "en": "On the other hand, friends are also very important.",
+        "hi": "दूसरी ओर, दोस्त भी बहुत ज़रूरी हैं।",
+        "pron": "दैँ नोत्ग़ को-ते ले ज़ा-मी सोँ तो-सी त्ग़ै ज़ैँ-पॉग़-ताँ"
+      },
+      {
+        "fr": "Bref, pour moi, les trois sont liés.",
+        "en": "In short, for me, the three are linked.",
+        "hi": "संक्षेप में, मेरे लिए तीनों जुड़े हुए हैं।",
+        "pron": "ब्ग़ैफ़ पूग़ म्वा ले त्ग़्वा सोँ ल्ये"
+      }
+    ],
+    "tip": {
+      "en": "Keep three personal stories ready (your arrival, a misunderstanding, a success). Almost any society question can be answered with one of them as the example.",
+      "hi": "तीन निजी क़िस्से तैयार रखिए (आपका आना, एक ग़लतफ़हमी, एक सफलता)। लगभग हर सामाजिक प्रश्न में इनमें से किसी एक को उदाहरण बनाया जा सकता है।"
+    }
+  },
+  "reading": {
+    "genre": "notice",
+    "title": "Club de conversation — Fiche de discussion n° 12 : vivre ensemble dans une société diverse",
+    "text": "Consignes : chaque participant choisit une question et parle pendant deux minutes sans notes. Les autres écoutent, puis posent au moins une question. Si vous ne trouvez pas un mot, expliquez-le avec d'autres mots : c'est la règle d'or du club ! Personne ne vous corrigera pendant que vous parlez ; l'animatrice notera les erreurs fréquentes et les présentera à la fin de la séance.\n\nQuestions :\n1. Selon vous, qu'est-ce qui aide le plus un nouvel arrivant à se sentir chez lui : le travail, la langue ou les amis ?\n2. Les fêtes de différentes cultures (Diwali, l'Aïd, le Nouvel An chinois, la Saint-Jean-Baptiste) devraient-elles être célébrées dans les écoles ?\n3. Est-il plus facile de s'intégrer dans une grande ville ou dans une petite ville ? Pourquoi ?\n4. Faut-il parler uniquement français à la maison pour que les enfants réussissent à l'école ?\n5. Racontez un malentendu culturel que vous avez vécu. Qu'est-ce que vous en avez appris ?\n\nConseil de l'animatrice : ne cherchez pas la réponse parfaite. Une opinion simple, un exemple vécu et une conclusion claire suffisent pour parler deux minutes.\n\nProchaine séance : jeudi à 19 h, salle B. Thème : le travail et la vie de famille. Entrée libre, sans inscription.",
+    "translation": {
+      "en": "Instructions: each participant chooses a question and speaks for two minutes without notes. The others listen, then ask at least one question. If you can't find a word, explain it with other words: that's the club's golden rule! Nobody will correct you while you are speaking; the facilitator will note frequent mistakes and present them at the end of the session.\n\nQuestions:\n1. In your opinion, what helps a newcomer most to feel at home: work, language or friends?\n2. Should the festivals of different cultures (Diwali, Eid, Chinese New Year, Saint-Jean-Baptiste Day) be celebrated in schools?\n3. Is it easier to integrate in a big city or a small town? Why?\n4. Should families speak only French at home so that children succeed at school?\n5. Tell us about a cultural misunderstanding you have experienced. What did you learn from it?\n\nFacilitator's advice: don't look for the perfect answer. A simple opinion, a real-life example and a clear conclusion are enough to speak for two minutes.\n\nNext session: Thursday at 7 p.m., room B. Theme: work and family life. Free entry, no registration.",
+      "hi": "निर्देश: हर प्रतिभागी एक प्रश्न चुनता है और बिना नोट्स के दो मिनट बोलता है। बाक़ी लोग सुनते हैं, फिर कम से कम एक प्रश्न पूछते हैं। अगर आपको कोई शब्द न मिले, तो उसे दूसरे शब्दों में समझाइए: यही क्लब का सुनहरा नियम है! बोलते समय कोई आपको नहीं टोकेगा; संचालिका आम ग़लतियाँ लिखेंगी और सत्र के अंत में उन्हें बताएँगी।\n\nप्रश्न:\n1. आपकी राय में किसी नए आए व्यक्ति को अपनापन महसूस कराने में सबसे ज़्यादा क्या मदद करता है: काम, भाषा या दोस्त?\n2. क्या अलग-अलग संस्कृतियों के त्योहार (दिवाली, ईद, चीनी नया साल, सां-ज़ां-बातीस्त दिवस) स्कूलों में मनाए जाने चाहिए?\n3. घुलना-मिलना बड़े शहर में आसान है या छोटे शहर में? क्यों?\n4. क्या बच्चों की स्कूल में सफलता के लिए घर पर सिर्फ़ फ़्रेंच बोलनी चाहिए?\n5. अपने साथ हुई किसी सांस्कृतिक ग़लतफ़हमी के बारे में बताइए। आपने उससे क्या सीखा?\n\nसंचालिका की सलाह: एकदम सही जवाब मत ढूँढिए। दो मिनट बोलने के लिए एक सीधी राय, एक अपना अनुभव और एक साफ़ निष्कर्ष काफ़ी है।\n\nअगला सत्र: गुरुवार शाम 7 बजे, कमरा B। विषय: काम और पारिवारिक जीवन। प्रवेश मुफ़्त, पंजीकरण की ज़रूरत नहीं।"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "How does each participant speak?"
+        },
+        "options": [
+          "For five minutes with notes",
+          "For two minutes without notes",
+          "By reading a text",
+          "In pairs"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Parle pendant deux minutes sans notes.'",
+          "hi": "'Parle pendant deux minutes sans notes' — बिना नोट्स दो मिनट।"
+        },
+        "kind": "literal",
+        "evidence": "parle pendant deux minutes sans notes"
+      },
+      {
+        "q": {
+          "en": "What is the club's golden rule?"
+        },
+        "options": [
+          "Never make mistakes",
+          "Speak only about yourself",
+          "Explain a missing word with other words",
+          "Ask the facilitator for help"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Si vous ne trouvez pas un mot, expliquez-le avec d'autres mots : c'est la règle d'or du club !'",
+          "hi": "सुनहरा नियम: शब्द न मिले तो उसे दूसरे शब्दों में समझाइए — 'expliquez-le avec d'autres mots'।"
+        },
+        "kind": "literal",
+        "evidence": "c'est la règle d'or du club"
+      },
+      {
+        "q": {
+          "en": "When are mistakes corrected?"
+        },
+        "options": [
+          "At the end of the session",
+          "Immediately",
+          "Never",
+          "By email the next day"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "The facilitator notes them and 'les présentera à la fin de la séance'.",
+          "hi": "संचालिका उन्हें लिखती है और 'les présentera à la fin de la séance'।"
+        },
+        "kind": "inference",
+        "evidence": "les présentera à la fin de la séance"
+      },
+      {
+        "q": {
+          "en": "Which question asks for a personal story?"
+        },
+        "options": [
+          "Question 1",
+          "Question 3",
+          "Question 4",
+          "Question 5"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Racontez un malentendu culturel que vous avez vécu.'",
+          "hi": "'Racontez un malentendu culturel que vous avez vécu' — अपना अनुभव सुनाइए।"
+        },
+        "kind": "inference",
+        "evidence": "Racontez un malentendu culturel que vous avez vécu."
+      },
+      {
+        "q": {
+          "en": "What do you need to do to attend the next session?"
+        },
+        "options": [
+          "Register online",
+          "Pay a fee",
+          "Nothing: entry is free with no registration",
+          "Bring a written text"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Entrée libre, sans inscription.'",
+          "hi": "'Entrée libre, sans inscription' — मुफ़्त, बिना पंजीकरण।"
+        },
+        "kind": "literal",
+        "evidence": "Entrée libre, sans inscription."
+      }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "Write talking points (not a full speech) for question 1 of the discussion sheet: your position, two reasons, one personal example for each, and a one-line conclusion. Then speak from memory without looking.",
+      "hi": "चर्चा-सूची के प्रश्न 1 के लिए बोलने के बिंदु लिखिए (पूरा भाषण नहीं): आपकी राय, दो कारण, हर एक के लिए एक निजी उदाहरण, और एक पंक्ति का निष्कर्ष। फिर बिना देखे याद से बोलिए।",
+      "fr": "Qu'est-ce qui aide le plus un nouvel arrivant à se sentir chez lui : le travail, la langue ou les amis ?"
+    },
+    "minWords": 60,
+    "maxWords": 120,
+    "hints": [
+      {
+        "en": "Write short notes with arrows, not full sentences — the goal is to speak freely afterwards.",
+        "hi": "पूरे वाक्य नहीं, तीरों वाले छोटे नोट्स लिखिए — लक्ष्य बाद में खुलकर बोलना है।"
+      },
+      {
+        "en": "Plan one word you might not know and how you would define it.",
+        "hi": "एक ऐसा शब्द सोचिए जो शायद न आए, और उसकी परिभाषा कैसे देंगे।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Position :",
+        "en": "Position:",
+        "hi": "राय:",
+        "pron": "पो-ज़ी-स्योँ"
+      },
+      {
+        "fr": "Exemple vécu :",
+        "en": "Real-life example:",
+        "hi": "अपना अनुभव:",
+        "pron": "ऐग-ज़ाँप्ल वे-कü"
+      }
+    ],
+    "model": {
+      "fr": "Position : la langue d'abord, puis les amis.\nRaison 1 : sans le français → difficile de comprendre les voisins, le médecin, l'école des enfants.\nExemple : ma première visite à la clinique → je n'ai rien compris, j'ai eu peur.\nRaison 2 : les amis → on se sent moins seul, ils expliquent les habitudes d'ici.\nExemple : ma voisine québécoise m'a invitée à la cabane à sucre → première fois que je me suis sentie chez moi.\nMot difficile : « le mal du pays » → c'est quand on se sent triste loin de chez soi.\nConclusion : la langue ouvre la porte, les amis nous font entrer.",
+      "en": "Position: language first, then friends.\nReason 1: without French → hard to understand neighbours, the doctor, the children's school.\nExample: my first visit to the clinic → I understood nothing, I was scared.\nReason 2: friends → you feel less alone, they explain local habits.\nExample: my Québécois neighbour invited me to a sugar shack → the first time I felt at home.\nDifficult word: 'homesickness' → it's when you feel sad far from home.\nConclusion: language opens the door, friends let us in."
+    },
+    "checklist": [
+      {
+        "en": "Are your notes short enough to glance at, not read?",
+        "hi": "क्या आपके नोट्स इतने छोटे हैं कि बस एक नज़र डालनी पड़े, पढ़ना न पड़े?"
+      },
+      {
+        "en": "Is each reason backed by a personal example?",
+        "hi": "क्या हर कारण के साथ एक निजी उदाहरण है?"
+      },
+      {
+        "en": "After writing, did you speak for two minutes without looking?",
+        "hi": "लिखने के बाद क्या आपने बिना देखे दो मिनट बोला?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      85,
+      95,
+      97,
+      106,
+      110
+    ],
+    "items": [
+      {
+        "fr": "C'est une chose qui sert à …",
+        "en": "It's a thing used for …",
+        "hi": "यह एक चीज़ है जो … के काम आती है",
+        "pron": "सै तüन शोज़ की सैग़ आ"
+      },
+      {
+        "fr": "Je trouve que …",
+        "en": "I think that …",
+        "hi": "मुझे लगता है कि …",
+        "pron": "झ़ö त्ग़ूव कö"
+      },
+      {
+        "fr": "ouais, j'sais pas",
+        "en": "yeah, I dunno (spoken)",
+        "hi": "हाँ, पता नहीं (बोलचाल)",
+        "pron": "वै शै पा"
+      },
+      {
+        "fr": "Certes …, mais …",
+        "en": "Admittedly …, but …",
+        "hi": "माना कि …, लेकिन …",
+        "pron": "सैग़्त … मै"
+      },
+      {
+        "fr": "le loyer",
+        "en": "the rent",
+        "hi": "किराया",
+        "pron": "लö ल्वा-ये"
+      },
+      {
+        "fr": "Autrement dit, …",
+        "en": "In other words, …",
+        "hi": "दूसरे शब्दों में, …",
+        "pron": "ओ-त्ग़ö-माँ दी"
+      },
+      {
+        "fr": "par rapport à",
+        "en": "compared with",
+        "hi": "की तुलना में",
+        "pron": "पाग़ ग़ा-पॉग़ आ"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which pattern defines a situation?",
+        "hi": "किसी स्थिति की परिभाषा किस ढाँचे से दी जाती है?"
+      },
+      "options": [
+        "C'est un endroit où …",
+        "C'est quand …",
+        "C'est quelqu'un qui …",
+        "C'est une chose qui …"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "C'est quand + clause describes a situation.",
+        "hi": "C'est quand + उपवाक्य किसी स्थिति का वर्णन करता है।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Choose the correct relative pronoun: 'C'est une application ___ tout le monde utilise.'",
+        "hi": "सही संबंधवाचक सर्वनाम चुनिए: 'C'est une application ___ tout le monde utilise.'"
+      },
+      "options": [
+        "qui",
+        "que",
+        "où",
+        "quand"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "'Tout le monde' is the subject of utilise, so the application is the object: que.",
+        "hi": "'Tout le monde' क्रिया utilise का कर्ता है, इसलिए application कर्म है: que।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "What is the four-step frame for speaking without notes?",
+        "hi": "बिना नोट्स बोलने का चार क़दम वाला ढाँचा क्या है?"
+      },
+      "options": [
+        "Example – Question – Answer – Thanks",
+        "Position – Reason – Example – Position",
+        "Greeting – Reason – Goodbye – Position",
+        "Reason – Reason – Reason – Reason"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Position, reason, example, then the position again, one step further.",
+        "hi": "राय, कारण, उदाहरण, फिर राय एक क़दम आगे।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: It's the fact of living far from your family.",
+        "hi": "पूरा कीजिए: यह परिवार से दूर रहने की बात है।"
+      },
+      "sentence": "C'est le fait ___ vivre loin de sa famille.",
+      "answer": "de",
+      "accept": [],
+      "explanation": {
+        "en": "Le fait de + infinitive.",
+        "hi": "Le fait de + क्रिया का मूल रूप।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: a newcomer (masculine)",
+        "hi": "पूरा कीजिए: एक नया आया व्यक्ति (पुल्लिंग)"
+      },
+      "sentence": "un ___ arrivant",
+      "answer": "nouvel",
+      "accept": [],
+      "explanation": {
+        "en": "Nouveau becomes nouvel before a vowel sound.",
+        "hi": "स्वर की आवाज़ से पहले nouveau बदलकर nouvel हो जाता है।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "It's someone who helps newcomers.",
+        "hi": "यह ऐसा व्यक्ति है जो नए आए लोगों की मदद करता है।"
+      },
+      "answer": "C'est quelqu'un qui aide les nouveaux arrivants.",
+      "accept": [
+        "C'est une personne qui aide les nouveaux arrivants.",
+        "C'est quelqu'un qui aide les nouveaux arrivants"
+      ],
+      "explanation": {
+        "en": "A person → c'est quelqu'un qui …",
+        "hi": "व्यक्ति → c'est quelqu'un qui …"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: In short, for me, language is the key.",
+        "hi": "शब्दों को सही क्रम में रखिए: संक्षेप में, मेरे लिए भाषा कुंजी है।"
+      },
+      "words": [
+        "Bref,",
+        "moi,",
+        "pour",
+        "la",
+        "est",
+        "langue",
+        "la",
+        "clé."
+      ],
+      "answer": "Bref, pour moi, la langue est la clé.",
+      "explanation": {
+        "en": "Bref + pour moi + the final position.",
+        "hi": "Bref + pour moi + अंतिम राय।"
+      }
+    }
+  ]
+}

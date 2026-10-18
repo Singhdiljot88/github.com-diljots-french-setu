@@ -1,0 +1,196 @@
+{
+  "day": 101,
+  "phase": 6,
+  "title": { "fr": "Examen blanc 1 (partie 1) : compréhension écrite et orale", "en": "Mock 1 (part 1): reading and listening", "hi": "मॉक परीक्षा 1 (भाग 1): पढ़कर और सुनकर समझना" },
+  "objective": {
+    "en": "Warm up with a short announcement and a short notice, learn the words used in exam instructions, set a time plan for each question, and then sit the full mock reading test (40 questions, 60 minutes) and the full mock listening test (40 questions, 40 minutes, each recording played once).",
+    "hi": "एक छोटी घोषणा और एक छोटी सूचना से अभ्यास शुरू करना, परीक्षा के निर्देशों में आने वाले शब्द सीखना, हर प्रश्न के लिए समय की योजना बनाना, और फिर पूरी मॉक पठन परीक्षा (40 प्रश्न, 60 मिनट) और पूरी मॉक श्रवण परीक्षा (40 प्रश्न, 40 मिनट, हर रिकॉर्डिंग सिर्फ़ एक बार) देना।"
+  },
+  "prerequisites": {
+    "days": [81, 83, 84, 92, 93, 94, 100],
+    "summary": {
+      "en": "The reading and listening strategies of phase 5: scanning for keywords, predicting from the questions, fast numbers, inference and the author's point of view.",
+      "hi": "चरण 5 की पढ़ने और सुनने की रणनीतियाँ: मुख्य शब्द ढूँढना, प्रश्नों से अनुमान लगाना, तेज़ बोली गई संख्याएँ, निहित अर्थ समझना और लेखक का दृष्टिकोण पहचानना।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "mock": { "id": "mock-1", "part": "reading_listening" },
+  "vocabulary": [
+    { "fr": "la consigne", "en": "instruction (in an exam or task)", "hi": "निर्देश", "pron": "ला कोँ-सीन्य", "ipa": "la kɔ̃siɲ", "pos": "noun", "gender": "f", "lemma": "consigne", "note": { "en": "Read the consigne first: it tells you how many answers to choose and what the document is.", "hi": "पहले निर्देश पढ़िए: उससे पता चलता है कि कितने उत्तर चुनने हैं और दस्तावेज़ किस तरह का है।" } },
+    { "fr": "l'épreuve", "en": "test, paper (one part of an exam)", "hi": "परीक्षा का खंड / प्रश्नपत्र", "pron": "ले-प्ग़öव", "ipa": "lepʁœv", "pos": "noun", "gender": "f", "lemma": "épreuve" },
+    { "fr": "la compréhension écrite", "en": "reading comprehension", "hi": "पढ़कर समझना", "pron": "ला कोँ-प्ग़े-आँ-स्योँ ए-क्ग़ीत", "ipa": "la kɔ̃pʁeɑ̃sjɔ̃ ekʁit", "pos": "noun", "gender": "f", "lemma": "compréhension" },
+    { "fr": "la compréhension orale", "en": "listening comprehension", "hi": "सुनकर समझना", "pron": "ला कोँ-प्ग़े-आँ-स्योँ ओ-ग़ाल", "ipa": "la kɔ̃pʁeɑ̃sjɔ̃ ɔʁal", "pos": "noun", "gender": "f", "lemma": "compréhension" },
+    { "fr": "l'enregistrement", "en": "recording", "hi": "रिकॉर्डिंग", "pron": "लाँ-ग़ö-झ़ीस-त्ग़ö-माँ", "ipa": "lɑ̃ʁəʒistʁəmɑ̃", "pos": "noun", "gender": "m", "lemma": "enregistrement" },
+    { "fr": "cocher", "en": "to tick (a box)", "hi": "निशान लगाना / टिक करना", "pron": "को-शे", "ipa": "kɔʃe", "pos": "verb" },
+    { "fr": "la bonne réponse", "en": "the right answer", "hi": "सही उत्तर", "pron": "ला बॉन ग़े-पोँस", "ipa": "la bɔn ʁepɔ̃s", "pos": "noun", "gender": "f", "lemma": "réponse" },
+    { "fr": "une seule fois", "en": "only once", "hi": "सिर्फ़ एक बार", "pron": "üन सöल फ़्वा", "ipa": "yn sœl fwa", "pos": "phrase" },
+    { "fr": "deviner", "en": "to guess", "hi": "अंदाज़ा लगाना", "pron": "दö-वी-ने", "ipa": "dəvine", "pos": "verb" },
+    { "fr": "éliminer", "en": "to eliminate, to rule out", "hi": "हटाना / ख़ारिज करना", "pron": "ए-ली-मी-ने", "ipa": "elimine", "pos": "verb", "note": { "en": "Eliminating two impossible options turns a blind guess into an educated guess.", "hi": "दो असंभव विकल्प हटा देने से अंधा अंदाज़ा समझदारी भरा अंदाज़ा बन जाता है।" } },
+    { "fr": "le temps imparti", "en": "the time allowed", "hi": "दिया गया समय", "pron": "लö ताँ ऐँ-पाग़-ती", "ipa": "lə tɑ̃ ɛ̃paʁti", "pos": "noun", "gender": "m", "lemma": "temps" },
+    { "fr": "laisser une question sans réponse", "en": "to leave a question unanswered", "hi": "किसी प्रश्न को बिना उत्तर के छोड़ देना", "pron": "लै-से üन कैस-त्योँ साँ ग़े-पोँस", "ipa": "lese yn kɛstjɔ̃ sɑ̃ ʁepɔ̃s", "pos": "phrase" }
+  ],
+  "phrases": [
+    { "fr": "Lisez le document, puis répondez aux questions.", "en": "Read the document, then answer the questions.", "hi": "दस्तावेज़ पढ़िए, फिर प्रश्नों के उत्तर दीजिए।", "pron": "ली-ज़े लö दो-कü-माँ प्üई ग़े-पोँ-दे ओ कैस-त्योँ" },
+    { "fr": "Choisissez la bonne réponse.", "en": "Choose the right answer.", "hi": "सही उत्तर चुनिए।", "pron": "श्वा-ज़ी-से ला बॉन ग़े-पोँस" },
+    { "fr": "Vous entendrez l'enregistrement une seule fois.", "en": "You will hear the recording only once.", "hi": "आप रिकॉर्डिंग सिर्फ़ एक बार सुनेंगे।", "pron": "वू ज़ाँ-ताँ-द्ग़े लाँ-ग़ö-झ़ीस-त्ग़ö-माँ üन सöल फ़्वा" },
+    { "fr": "Vous disposez de soixante minutes.", "en": "You have sixty minutes.", "hi": "आपके पास साठ मिनट हैं।", "pron": "वू दीस-पो-ज़े दö स्वा-साँत मी-नüत" },
+    { "fr": "Ne laissez aucune question sans réponse.", "en": "Don't leave any question unanswered.", "hi": "कोई भी प्रश्न बिना उत्तर के मत छोड़िए।", "pron": "नö लै-से ओ-कüन कैस-त्योँ साँ ग़े-पोँस" },
+    { "fr": "Je passe à la question suivante.", "en": "I'm moving on to the next question.", "hi": "मैं अगले प्रश्न पर जाता / जाती हूँ।", "pron": "झ़ö पास आ ला कैस-त्योँ स्üई-वाँत" }
+  ],
+  "grammar": {
+    "title": { "en": "Exam instructions (vous imperative and future) and a time plan", "hi": "परीक्षा के निर्देश (vous वाला आज्ञार्थ और भविष्य काल) और समय की योजना" },
+    "explanation": {
+      "en": "Exam instructions use two forms you already know. The vous imperative gives orders: Lisez, Écoutez, Choisissez, Cochez, Répondez. The simple future announces what will happen: Vous entendrez (you will hear), Vous aurez (you will have), Il y aura (there will be). Now the strategy. Reading: 40 questions in 60 minutes is about 90 seconds per question on average. Short everyday documents should take less, so you bank time for long articles. Read the question before the text and scan for the key words. Listening: 40 questions in 40 minutes, and each recording is played only once with no going back, so read the questions while you can, decide as soon as you hear the answer, and move on. Never leave a box empty: a blank answer can never earn a point. If you are unsure, eliminate the options that contradict the document and choose among the rest. Check the current scoring rules in the official candidate information.",
+      "hi": "परीक्षा के निर्देशों में दो रूप आते हैं जो आप जानते हैं। vous वाला आज्ञार्थ (imperative) निर्देश देता है: Lisez, Écoutez, Choisissez, Cochez, Répondez। साधारण भविष्य काल बताता है कि क्या होगा: Vous entendrez (आप सुनेंगे), Vous aurez (आपके पास होगा), Il y aura (होगा / होंगे)। अब रणनीति। पठन: 60 मिनट में 40 प्रश्न, यानी औसतन हर प्रश्न के लिए लगभग 90 सेकंड। छोटे रोज़मर्रा के दस्तावेज़ों में कम समय लगना चाहिए, ताकि लंबे लेखों के लिए समय बचे। पाठ से पहले प्रश्न पढ़िए और मुख्य शब्द ढूँढिए। श्रवण: 40 मिनट में 40 प्रश्न, और हर रिकॉर्डिंग सिर्फ़ एक बार चलती है, पीछे नहीं जा सकते — इसलिए जब मौक़ा मिले प्रश्न पढ़ लीजिए, उत्तर सुनते ही तय कीजिए और आगे बढ़िए। कोई ख़ाना ख़ाली मत छोड़िए: ख़ाली उत्तर से कभी अंक नहीं मिलता। पक्का न हो तो वे विकल्प हटाइए जो दस्तावेज़ से टकराते हैं, और बचे हुए में से चुनिए। अंक देने के मौजूदा नियम आधिकारिक उम्मीदवार-जानकारी में ज़रूर देखिए।"
+    },
+    "comparison": {
+      "en": "Hindi instructions use the आप imperative: पढ़िए, सुनिए, चुनिए. French uses the vous imperative in exactly the same polite way: Lisez, Écoutez, Choisissez — the verb alone, with no pronoun in front.",
+      "hi": "हिंदी के निर्देशों में 'आप' वाला आज्ञार्थ होता है: पढ़िए, सुनिए, चुनिए। फ़्रेंच में ठीक इसी शिष्ट ढंग से vous वाला आज्ञार्थ आता है: Lisez, Écoutez, Choisissez — सिर्फ़ क्रिया, आगे कोई सर्वनाम नहीं।"
+    },
+    "examples": [
+      { "fr": "Écoutez le document et cochez la bonne réponse.", "en": "Listen to the document and tick the right answer.", "hi": "दस्तावेज़ सुनिए और सही उत्तर पर निशान लगाइए।", "pron": "ए-कू-ते लö दो-कü-माँ ए को-शे ला बॉन ग़े-पोँस" },
+      { "fr": "Vous aurez quarante minutes.", "en": "You will have forty minutes.", "hi": "आपके पास चालीस मिनट होंगे।", "pron": "वू ज़ो-ग़े का-ग़ाँत मी-नüत" },
+      { "fr": "Si vous hésitez, éliminez les réponses impossibles.", "en": "If you hesitate, rule out the impossible answers.", "hi": "अगर आप दुविधा में हैं, तो असंभव उत्तर हटा दीजिए।", "pron": "सी वू ज़े-ज़ी-ते ए-ली-मी-ने ले ग़े-पोँस ज़ैँ-पो-सीब्ल" },
+      { "fr": "Ne restez pas bloqué sur une question.", "en": "Don't stay stuck on one question.", "hi": "किसी एक प्रश्न पर अटके मत रहिए।", "pron": "नö ग़ैस-ते पा ब्लो-के सüग़ üन कैस-त्योँ" },
+      { "fr": "Il y aura quatre réponses possibles.", "en": "There will be four possible answers.", "hi": "चार संभावित उत्तर होंगे।", "pron": "ईल या-ग़ा कात्ग़ ग़े-पोँस पो-सीब्ल" }
+    ],
+    "pitfalls": [
+      { "en": "Don't read the whole long text before looking at the question. Read the question first, then scan for its key words.", "hi": "प्रश्न देखने से पहले पूरा लंबा पाठ मत पढ़िए। पहले प्रश्न पढ़िए, फिर उसके मुख्य शब्द पाठ में ढूँढिए।" },
+      { "en": "An option that repeats words from the recording is not automatically right. Distractors often reuse the same words with a different meaning.", "hi": "जो विकल्प रिकॉर्डिंग के शब्द दोहराता है, वह अपने-आप सही नहीं होता। ग़लत विकल्प अक्सर वही शब्द अलग अर्थ में इस्तेमाल करते हैं।" },
+      { "en": "In listening you cannot go back. If you missed an answer, guess, and give your full attention to the next document.", "hi": "श्रवण में आप पीछे नहीं जा सकते। अगर कोई उत्तर छूट गया, तो अंदाज़ा लगाइए और अगले दस्तावेज़ पर पूरा ध्यान दीजिए।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Calm breathing and focus routine: slow rhythm groups before the test",
+    "tip": {
+      "en": "Before the test, breathe in for four seconds and out for six, three times. Then read the words below slowly, one rhythm group per breath, with the stress on the last syllable. A calm voice helps a calm mind.",
+      "hi": "परीक्षा से पहले तीन बार चार सेकंड साँस अंदर लीजिए और छह सेकंड में बाहर छोड़िए। फिर नीचे के शब्द धीरे-धीरे पढ़िए, हर साँस में एक लय-समूह, ज़ोर आख़िरी अक्षर पर। शांत आवाज़ से मन भी शांत रहता है।"
+    },
+    "words": [
+      { "fr": "respirer", "en": "to breathe", "hi": "साँस लेना", "pron": "ग़ैस-पी-ग़े", "ipa": "ʁɛspiʁe", "note": { "en": "Two throaty r sounds; neither is rolled.", "hi": "दो बार गले वाला r; कोई भी रोल नहीं होता।" } },
+      { "fr": "calme", "en": "calm", "hi": "शांत", "pron": "काल्म", "ipa": "kalm" },
+      { "fr": "lentement", "en": "slowly", "hi": "धीरे-धीरे", "pron": "लाँत-माँ", "ipa": "lɑ̃tmɑ̃", "note": { "en": "The middle e is silent: two syllables, both nasal.", "hi": "बीच का e नहीं बोला जाता: दो अक्षर, दोनों नासिक्य।" } },
+      { "fr": "se concentrer", "en": "to concentrate", "hi": "ध्यान लगाना", "pron": "सö कोँ-साँ-त्ग़े", "ipa": "sə kɔ̃sɑ̃tʁe" },
+      { "fr": "profondément", "en": "deeply", "hi": "गहराई से", "pron": "प्ग़ो-फ़ोँ-दे-माँ", "ipa": "pʁɔfɔ̃demɑ̃" },
+      { "fr": "tranquillement", "en": "calmly, quietly", "hi": "आराम से", "pron": "त्ग़ाँ-कील-माँ", "ipa": "tʁɑ̃kilmɑ̃", "note": { "en": "Here 'ill' sounds like 'il', not like y.", "hi": "यहाँ 'ill' की आवाज़ 'इल' है, य नहीं।" } }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Annonce à la médiathèque", "en": "An announcement at the media library" },
+    "type": "announcement",
+    "mode": "natural",
+    "context": {
+      "en": "Warm-up before the mock listening test. You are studying at the municipal media library in Gatineau when an announcement is made. Read the questions first; you will hear it once.",
+      "hi": "मॉक श्रवण परीक्षा से पहले का अभ्यास। आप गैटिनो की नगरपालिका मीडिया लाइब्रेरी में पढ़ रहे हैं, तभी एक घोषणा होती है। पहले प्रश्न पढ़िए; घोषणा सिर्फ़ एक बार सुनाई देगी।"
+    },
+    "lines": [
+      { "speaker": "Annonce", "voice": "f1", "fr": "Mesdames et messieurs, votre attention, s'il vous plaît.", "en": "Ladies and gentlemen, your attention, please.", "hi": "देवियो और सज्जनो, कृपया ध्यान दीजिए।" },
+      { "speaker": "Annonce", "voice": "f1", "fr": "La médiathèque municipale vous informe qu'en raison de travaux, la salle d'étude du deuxième étage sera fermée du lundi 3 au vendredi 14 novembre.", "en": "The municipal media library informs you that, because of renovation work, the study room on the second floor will be closed from Monday the 3rd to Friday the 14th of November.", "hi": "नगरपालिका मीडिया लाइब्रेरी आपको सूचित करती है कि मरम्मत के काम के कारण दूसरी मंज़िल का अध्ययन-कक्ष सोमवार 3 से शुक्रवार 14 नवंबर तक बंद रहेगा।" },
+      { "speaker": "Annonce", "voice": "f1", "fr": "Pendant cette période, vous pourrez travailler dans la salle polyvalente, au rez-de-chaussée, de 9 h à 20 h.", "en": "During this period, you will be able to work in the multipurpose room on the ground floor, from 9 a.m. to 8 p.m.", "hi": "इस दौरान आप भूतल पर बहुउद्देशीय कक्ष में सुबह 9 बजे से रात 8 बजे तक पढ़ाई कर सकेंगे।" },
+      { "speaker": "Annonce", "voice": "f1", "fr": "Le prêt et le retour des livres ne changent pas.", "en": "Borrowing and returning books do not change.", "hi": "किताबें लेने और लौटाने की व्यवस्था में कोई बदलाव नहीं है।" },
+      { "speaker": "Annonce", "voice": "f1", "fr": "En revanche, les ateliers de conversation du mercredi soir sont reportés au mois de décembre.", "en": "However, the Wednesday evening conversation workshops are postponed to December.", "hi": "लेकिन बुधवार शाम की बातचीत वाली कार्यशालाएँ दिसंबर तक टाल दी गई हैं।" },
+      { "speaker": "Annonce", "voice": "f1", "fr": "Les personnes déjà inscrites recevront un courriel avec les nouvelles dates.", "en": "People who have already registered will receive an email with the new dates.", "hi": "जिन लोगों ने पहले ही नाम लिखवा लिया है, उन्हें नई तारीख़ों के साथ एक ईमेल मिलेगा।" },
+      { "speaker": "Annonce", "voice": "f1", "fr": "Pour toute question, adressez-vous à l'accueil. Merci de votre compréhension.", "en": "For any questions, please go to the reception desk. Thank you for your understanding.", "hi": "किसी भी प्रश्न के लिए रिसेप्शन पर संपर्क कीजिए। आपके सहयोग के लिए धन्यवाद।" }
+    ],
+    "questions": [
+      { "q": { "en": "Why will the study room be closed?" }, "options": ["Because of renovation work", "Because of a staff shortage", "Because of an exam", "Because of a public holiday"], "answer": 0, "explanation": { "en": "'En raison de travaux' means 'because of (renovation) work'.", "hi": "'En raison de travaux' का मतलब है 'मरम्मत के काम के कारण'।" }, "kind": "literal", "evidence": "en raison de travaux" },
+      { "q": { "en": "Where can people study during this period?" }, "options": ["In a room on the second floor", "In the multipurpose room on the ground floor", "At the reception desk", "In another library"], "answer": 1, "explanation": { "en": "The announcement sends people to 'la salle polyvalente, au rez-de-chaussée'. The second floor is where the closed room is: a classic trap.", "hi": "घोषणा लोगों को 'la salle polyvalente, au rez-de-chaussée' भेजती है। दूसरी मंज़िल पर तो बंद कमरा है: यह आम जाल है।" }, "kind": "literal", "evidence": "dans la salle polyvalente, au rez-de-chaussée" },
+      { "q": { "en": "What happens to the conversation workshops?" }, "options": ["They are cancelled", "They move to Monday", "They are postponed to December", "They continue as usual"], "answer": 2, "explanation": { "en": "'Reportés' means postponed, not cancelled (annulés).", "hi": "'Reportés' का मतलब है टाल दिए गए, रद्द (annulés) नहीं।" }, "kind": "vocabulary", "evidence": "sont reportés au mois de décembre" },
+      { "q": { "en": "How will registered participants learn the new dates?" }, "options": ["By phone", "By a letter at home", "On a poster at the entrance", "By email"], "answer": 3, "explanation": { "en": "'Recevront un courriel' — they will receive an email.", "hi": "'Recevront un courriel' — उन्हें ईमेल मिलेगा।" }, "kind": "literal", "evidence": "recevront un courriel avec les nouvelles dates" },
+      { "q": { "en": "Which service is not affected?" }, "options": ["Borrowing and returning books", "The Wednesday workshops", "The second-floor study room", "Evening opening hours"], "answer": 0, "explanation": { "en": "'Ne changent pas' — book loans and returns stay the same.", "hi": "'Ne changent pas' — किताबें लेना-लौटाना पहले जैसा रहेगा।" }, "kind": "inference", "evidence": "Le prêt et le retour des livres ne changent pas." }
+    ],
+    "dictation": [
+      "La salle d'étude sera fermée du lundi 3 au vendredi 14 novembre.",
+      "Les personnes déjà inscrites recevront un courriel avec les nouvelles dates."
+    ],
+    "gapFill": {
+      "text": "En raison de ___, la salle d'étude sera fermée. Les ateliers de conversation sont ___ au mois de décembre.",
+      "answers": ["travaux", "reportés"]
+    }
+  },
+  "speaking": {
+    "type": "repeat",
+    "instructions": {
+      "en": "Warm-up: read each exam instruction aloud slowly, then a second time at normal speed. Say in your head what it asks you to do. This wakes up your French before the mock starts.",
+      "hi": "अभ्यास: परीक्षा का हर निर्देश पहले धीरे से ज़ोर से पढ़िए, फिर दूसरी बार सामान्य गति से। मन में बोलिए कि वह आपसे क्या करने को कह रहा है। इससे मॉक शुरू होने से पहले आपकी फ़्रेंच जाग जाती है।"
+    },
+    "prompts": [
+      { "fr": "Lisez attentivement la consigne.", "en": "Read the instruction carefully.", "hi": "निर्देश ध्यान से पढ़िए।", "pron": "ली-ज़े ज़ा-ताँ-तीव-माँ ला कोँ-सीन्य" },
+      { "fr": "Écoutez le document et répondez aux questions.", "en": "Listen to the document and answer the questions.", "hi": "दस्तावेज़ सुनिए और प्रश्नों के उत्तर दीजिए।", "pron": "ए-कू-ते लö दो-कü-माँ ए ग़े-पोँ-दे ओ कैस-त्योँ" },
+      { "fr": "Vous entendrez chaque document une seule fois.", "en": "You will hear each document only once.", "hi": "आप हर दस्तावेज़ सिर्फ़ एक बार सुनेंगे।", "pron": "वू ज़ाँ-ताँ-द्ग़े शाक दो-कü-माँ üन सöल फ़्वा" },
+      { "fr": "Choisissez une seule réponse par question.", "en": "Choose only one answer per question.", "hi": "हर प्रश्न का सिर्फ़ एक उत्तर चुनिए।", "pron": "श्वा-ज़ी-से üन सöल ग़े-पोँस पाग़ कैस-त्योँ" },
+      { "fr": "L'épreuve commence maintenant.", "en": "The test starts now.", "hi": "परीक्षा अब शुरू होती है।", "pron": "ले-प्ग़öव को-माँस मैँत-नाँ" }
+    ],
+    "tip": {
+      "en": "Keep a steady rhythm and don't rush 'une seule fois'. Reading instructions aloud at home means that on exam day you recognise them instantly and save precious seconds.",
+      "hi": "लय स्थिर रखिए और 'une seule fois' जल्दी में मत बोलिए। घर पर निर्देश ज़ोर से पढ़ने का फ़ायदा यह है कि परीक्षा के दिन आप उन्हें तुरंत पहचान लेते हैं और क़ीमती सेकंड बचते हैं।"
+    }
+  },
+  "reading": {
+    "genre": "notice",
+    "title": "Centre communautaire du Plateau — Cours de français du soir",
+    "text": "Inscriptions pour la session d'hiver\n\nLe Centre communautaire du Plateau offre des cours de français gratuits aux nouveaux arrivants âgés de 18 ans et plus. Les cours ont lieu le mardi et le jeudi, de 18 h 30 à 21 h, du 13 janvier au 3 avril.\n\nTrois niveaux sont proposés : débutant, intermédiaire et avancé. Un test de classement obligatoire aura lieu le samedi 10 janvier à 10 h. Les personnes qui ne pourront pas se présenter ce jour-là doivent prévenir le secrétariat au moins 48 heures à l'avance afin d'obtenir un autre rendez-vous.\n\nPour vous inscrire, présentez-vous au bureau 204 avec une pièce d'identité et une preuve de résidence au Québec, par exemple un bail ou une facture d'électricité. Les inscriptions sont ouvertes du 2 au 9 janvier, du lundi au vendredi, de 9 h à 16 h.\n\nAttention : le nombre de places est limité à vingt personnes par groupe. Une halte-garderie est offerte gratuitement pendant les cours, mais il faut la réserver au moment de l'inscription.\n\nRenseignements : 514 555 0198.",
+    "translation": {
+      "en": "Registration for the winter session\n\nThe Plateau Community Centre offers free French classes to newcomers aged 18 and over. Classes take place on Tuesdays and Thursdays, from 6:30 to 9 p.m., from 13 January to 3 April.\n\nThree levels are offered: beginner, intermediate and advanced. A compulsory placement test will take place on Saturday 10 January at 10 a.m. People who cannot attend that day must inform the office at least 48 hours in advance in order to get another appointment.\n\nTo register, come to office 204 with a piece of ID and proof of residence in Québec, for example a lease or an electricity bill. Registration is open from 2 to 9 January, Monday to Friday, from 9 a.m. to 4 p.m.\n\nPlease note: places are limited to twenty people per group. A drop-in childcare service is offered free of charge during classes, but it must be booked at the time of registration.\n\nInformation: 514 555 0198.",
+      "hi": "शीतकालीन सत्र के लिए पंजीकरण\n\nप्लातो सामुदायिक केंद्र 18 वर्ष और उससे अधिक आयु के नए आए लोगों के लिए मुफ़्त फ़्रेंच कक्षाएँ चलाता है। कक्षाएँ मंगलवार और गुरुवार को शाम 6:30 से रात 9 बजे तक, 13 जनवरी से 3 अप्रैल तक होती हैं।\n\nतीन स्तर उपलब्ध हैं: शुरुआती, मध्यम और उन्नत। एक अनिवार्य स्तर-निर्धारण परीक्षा शनिवार 10 जनवरी को सुबह 10 बजे होगी। जो लोग उस दिन नहीं आ पाएँगे, उन्हें दूसरा समय पाने के लिए कम से कम 48 घंटे पहले कार्यालय को सूचित करना होगा।\n\nपंजीकरण के लिए कमरा नंबर 204 में आइए, साथ में एक पहचान-पत्र और क्यूबेक में निवास का प्रमाण लाइए, जैसे किराए का अनुबंध या बिजली का बिल। पंजीकरण 2 से 9 जनवरी तक, सोमवार से शुक्रवार, सुबह 9 बजे से शाम 4 बजे तक खुला है।\n\nध्यान दें: हर समूह में सिर्फ़ बीस लोगों की जगह है। कक्षाओं के दौरान बच्चों की देखभाल की सुविधा मुफ़्त है, लेकिन इसे पंजीकरण के समय ही आरक्षित करना होगा।\n\nजानकारी: 514 555 0198।"
+    },
+    "questions": [
+      { "q": { "en": "Who can take these classes?" }, "options": ["Any resident of Montréal", "Newcomers aged 18 or over", "Children and teenagers", "Only advanced students"], "answer": 1, "explanation": { "en": "The classes are for 'nouveaux arrivants âgés de 18 ans et plus'.", "hi": "कक्षाएँ 'nouveaux arrivants âgés de 18 ans et plus' के लिए हैं।" }, "kind": "literal", "evidence": "aux nouveaux arrivants âgés de 18 ans et plus" },
+      { "q": { "en": "What must you do if you cannot come to the placement test?" }, "options": ["Take the beginner class directly", "Come on Monday instead", "Inform the office at least 48 hours in advance", "Send an email after the test"], "answer": 2, "explanation": { "en": "You must 'prévenir le secrétariat au moins 48 heures à l'avance' to get another appointment.", "hi": "दूसरा समय पाने के लिए 'prévenir le secrétariat au moins 48 heures à l'avance' ज़रूरी है।" }, "kind": "literal", "evidence": "doivent prévenir le secrétariat au moins 48 heures à l'avance" },
+      { "q": { "en": "Which document can prove that you live in Québec?" }, "options": ["A lease", "A passport", "A job offer", "A bus pass"], "answer": 0, "explanation": { "en": "Examples given: 'un bail ou une facture d'électricité'. The passport is ID, not proof of residence.", "hi": "दिए गए उदाहरण: 'un bail ou une facture d'électricité'। पासपोर्ट पहचान-पत्र है, निवास का प्रमाण नहीं।" }, "kind": "vocabulary", "evidence": "par exemple un bail ou une facture d'électricité" },
+      { "q": { "en": "What is true about the childcare service?" }, "options": ["It costs a small fee", "It is only on Saturdays", "It is only for children under two", "It is free but must be booked when you register"], "answer": 3, "explanation": { "en": "It is 'offerte gratuitement' but 'il faut la réserver au moment de l'inscription'.", "hi": "यह 'offerte gratuitement' है, पर 'il faut la réserver au moment de l'inscription'।" }, "kind": "inference", "evidence": "il faut la réserver au moment de l'inscription" },
+      { "q": { "en": "How many evenings a week are the classes?" }, "options": ["One", "Two", "Three", "Five"], "answer": 1, "explanation": { "en": "Tuesday and Thursday: two evenings.", "hi": "मंगलवार और गुरुवार: हफ़्ते में दो शामें।" }, "kind": "inference", "evidence": "le mardi et le jeudi" }
+    ]
+  },
+  "writing": {
+    "type": "sentences",
+    "prompt": {
+      "en": "Warm-up: write three sentences about your goals for today's mock test (time, calm, strategy).",
+      "hi": "अभ्यास: आज की मॉक परीक्षा के लिए अपने लक्ष्यों के बारे में तीन वाक्य लिखिए (समय, शांति, रणनीति)।",
+      "fr": "Écrivez trois phrases sur vos objectifs pour l'examen blanc d'aujourd'hui."
+    },
+    "minWords": 30,
+    "maxWords": 80,
+    "hints": [
+      { "en": "Use 'Mon objectif est de + infinitive' and 'Je veux + infinitive'.", "hi": "'Mon objectif est de + क्रिया का मूल रूप' और 'Je veux + क्रिया का मूल रूप' इस्तेमाल कीजिए।" },
+      { "en": "Write one sentence about time, one about calm, one about strategy.", "hi": "एक वाक्य समय पर, एक शांति पर और एक रणनीति पर लिखिए।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Mon objectif est de …", "en": "My goal is to …", "hi": "मेरा लक्ष्य … है", "pron": "मोँ नॉब-झ़ैक-तीफ़ ऐ दö" },
+      { "fr": "Je veux garder mon calme.", "en": "I want to stay calm.", "hi": "मैं शांत रहना चाहता / चाहती हूँ।", "pron": "झ़ö वö गाग़-दे मोँ काल्म" },
+      { "fr": "sans perdre de temps", "en": "without wasting time", "hi": "समय बर्बाद किए बिना", "pron": "साँ पैग़द्ग़ दö ताँ" }
+    ],
+    "model": {
+      "fr": "Aujourd'hui, je passe mon premier examen blanc. Mon objectif est de répondre à toutes les questions sans perdre de temps sur un seul document. Je veux aussi garder mon calme pendant l'épreuve d'écoute, parce que chaque enregistrement passe une seule fois.",
+      "en": "Today I am taking my first mock exam. My goal is to answer every question without wasting time on a single document. I also want to stay calm during the listening test, because each recording is played only once."
+    },
+    "checklist": [
+      { "en": "Did you write three complete sentences with a verb in each?", "hi": "क्या आपने तीन पूरे वाक्य लिखे, हर एक में क्रिया के साथ?" },
+      { "en": "After 'objectif est de' and 'je veux', did you use an infinitive?", "hi": "क्या 'objectif est de' और 'je veux' के बाद आपने क्रिया का मूल रूप (infinitive) लिखा?" },
+      { "en": "Did you check the accents on épreuve and écoute?", "hi": "क्या आपने épreuve और écoute के accent जाँचे?" }
+    ]
+  },
+  "review": {
+    "fromDays": [81, 83, 92, 93, 94],
+    "items": [
+      { "fr": "Il n'y a que deux trains le dimanche.", "en": "There are only two trains on Sundays.", "hi": "रविवार को सिर्फ़ दो ट्रेनें हैं।", "pron": "ईल नी या कö दö त्ग़ैँ लö दी-माँश" },
+      { "fr": "en raison de", "en": "because of, due to", "hi": "… के कारण", "pron": "आँ ग़ै-ज़ोँ दö" },
+      { "fr": "à compter du 1er mars", "en": "from 1 March onwards", "hi": "1 मार्च से", "pron": "आ कोँ-ते दü प्ग़ö-म्ये माग़्स" },
+      { "fr": "Veuillez vous présenter à l'accueil.", "en": "Please go to the reception desk.", "hi": "कृपया रिसेप्शन पर आइए।", "pron": "वö-ये वू प्ग़े-ज़ाँ-ते आ ला-कöय" },
+      { "fr": "en revanche", "en": "on the other hand, however", "hi": "दूसरी ओर / लेकिन", "pron": "आँ ग़ö-वाँश" },
+      { "fr": "reporté", "en": "postponed", "hi": "टाला गया", "pron": "ग़ö-पॉग़-ते" },
+      { "fr": "annulé", "en": "cancelled", "hi": "रद्द", "pron": "आ-नü-ले" },
+      { "fr": "soixante-dix-sept", "en": "seventy-seven", "hi": "सतहत्तर", "pron": "स्वा-साँत-दी-सैत" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "The instruction says 'Cochez la bonne réponse'. What do you do?", "hi": "निर्देश कहता है 'Cochez la bonne réponse'। आप क्या करेंगे?" }, "options": ["Write a sentence", "Tick the right answer", "Listen again", "Correct the text"], "answer": 1, "explanation": { "en": "Cocher = to tick a box.", "hi": "Cocher = ख़ाने में निशान लगाना।" } },
+    { "type": "mcq", "prompt": { "en": "In the reading test you have 60 minutes for 40 questions. What is the average time per question?", "hi": "पठन परीक्षा में 40 प्रश्नों के लिए 60 मिनट हैं। हर प्रश्न का औसत समय कितना है?" }, "options": ["About 30 seconds", "About 90 seconds", "About 3 minutes", "About 5 minutes"], "answer": 1, "explanation": { "en": "60 ÷ 40 = 1.5 minutes, about 90 seconds. Spend less on short documents to keep time for long ones.", "hi": "60 ÷ 40 = 1.5 मिनट, यानी लगभग 90 सेकंड। छोटे दस्तावेज़ों पर कम समय लगाइए ताकि लंबे दस्तावेज़ों के लिए समय बचे।" } },
+    { "type": "mcq", "prompt": { "en": "You missed the answer in a listening recording. What is the best move?", "hi": "किसी रिकॉर्डिंग में आपसे उत्तर छूट गया। सबसे अच्छा क़दम क्या है?" }, "options": ["Wait for it to be played again", "Leave the question blank", "Make an educated guess and focus on the next document", "Go back at the end of the test"], "answer": 2, "explanation": { "en": "Each recording is played once and you cannot go back. Guess, then concentrate on what comes next.", "hi": "हर रिकॉर्डिंग एक बार चलती है और आप पीछे नहीं जा सकते। अंदाज़ा लगाइए, फिर आगे आने वाली चीज़ पर ध्यान दीजिए।" } },
+    { "type": "fill", "prompt": { "en": "Complete the instruction: You will hear the recording only once.", "hi": "निर्देश पूरा कीजिए: आप रिकॉर्डिंग सिर्फ़ एक बार सुनेंगे।" }, "sentence": "Vous ___ l'enregistrement une seule fois.", "answer": "entendrez", "accept": [], "explanation": { "en": "Future of entendre with vous: vous entendrez.", "hi": "entendre का भविष्य काल, vous के साथ: vous entendrez।" } },
+    { "type": "fill", "prompt": { "en": "Complete: 'reportés' means postponed. Which word means cancelled?", "hi": "पूरा कीजिए: 'reportés' का अर्थ है टाले गए। रद्द के लिए कौन-सा शब्द है?" }, "sentence": "Les ateliers ne sont pas reportés, ils sont ___ .", "answer": "annulés", "accept": ["annules"], "explanation": { "en": "Annulé(e)s = cancelled. Plural masculine here because 'les ateliers' is masculine plural.", "hi": "Annulé(e)s = रद्द। यहाँ पुल्लिंग बहुवचन है क्योंकि 'les ateliers' पुल्लिंग बहुवचन है।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "Don't leave any question unanswered.", "hi": "कोई भी प्रश्न बिना उत्तर के मत छोड़िए।" }, "answer": "Ne laissez aucune question sans réponse.", "accept": ["Ne laissez aucune question sans réponse", "Ne laisse aucune question sans réponse."], "explanation": { "en": "Ne … aucune + noun = not any. Sans réponse = without an answer.", "hi": "Ne … aucune + संज्ञा = एक भी नहीं। Sans réponse = बिना उत्तर के।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: Choose only one answer.", "hi": "शब्दों को सही क्रम में रखिए: सिर्फ़ एक उत्तर चुनिए।" }, "words": ["seule", "Choisissez", "réponse.", "une"], "answer": "Choisissez une seule réponse.", "explanation": { "en": "Imperative first, then 'une seule' before the noun.", "hi": "पहले आज्ञार्थ क्रिया, फिर संज्ञा से पहले 'une seule'।" } }
+  ]
+}

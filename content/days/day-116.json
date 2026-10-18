@@ -1,0 +1,833 @@
+{
+  "day": 116,
+  "phase": 6,
+  "title": {
+    "fr": "Examen blanc 3 (partie 2) : expression écrite et orale",
+    "en": "Mock 3 (part 2): writing and speaking",
+    "hi": "मॉक परीक्षा 3 (भाग 2): लिखकर और बोलकर अभिव्यक्ति"
+  },
+  "objective": {
+    "en": "Run through one last planning routine for the four production tasks, warm up with a short listening, a short reading, a section B role-play and an opinion-letter opening, then sit the full mock 3 writing test (A: 25 min, 80+ words; B: 35 min, 200+ words) and speaking test (A: 5 min; B: 10 min).",
+    "hi": "चारों अभिव्यक्ति-कामों के लिए आख़िरी बार योजना की दिनचर्या दोहराना, एक छोटे सुनने, एक छोटे पढ़ने, खंड B की भूमिका-अभ्यास और राय-पत्र की शुरुआत से तैयारी करना, फिर पूरी मॉक 3 लेखन परीक्षा (A: 25 मिनट, 80+ शब्द; B: 35 मिनट, 200+ शब्द) और मौखिक परीक्षा (A: 5 मिनट; B: 10 मिनट) देना।"
+  },
+  "prerequisites": {
+    "days": [
+      102,
+      107,
+      109,
+      111,
+      113
+    ],
+    "summary": {
+      "en": "The quick plans for each task (days 102 and 109), writing under time (day 107), speaking without notes (day 111) and the self-editing checklist (day 113).",
+      "hi": "हर काम की झटपट योजना (दिन 102 और 109), समय के दबाव में लिखना (दिन 107), बिना नोट्स के बोलना (दिन 111) और ख़ुद जाँचने की सूची (दिन 113)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "mock": {
+    "id": "mock-3",
+    "part": "writing_speaking"
+  },
+  "vocabulary": [
+    {
+      "fr": "le plan",
+      "en": "plan, outline",
+      "hi": "योजना / रूपरेखा",
+      "pron": "लö प्लाँ",
+      "ipa": "lə plɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "plan"
+    },
+    {
+      "fr": "la relecture",
+      "en": "proofreading, rereading",
+      "hi": "दोबारा पढ़कर जाँचना",
+      "pron": "ला ग़ö-लैक-तüग़",
+      "ipa": "la ʁəlɛktyʁ",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "relecture"
+    },
+    {
+      "fr": "la thèse",
+      "en": "position, thesis",
+      "hi": "मुख्य राय / पक्ष",
+      "pron": "ला तैज़",
+      "ipa": "la tɛz",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "thèse"
+    },
+    {
+      "fr": "convaincre",
+      "en": "to convince",
+      "hi": "राज़ी करना / क़ायल करना",
+      "pron": "कोँ-वैँक्ग़",
+      "ipa": "kɔ̃vɛ̃kʁ",
+      "pos": "verb"
+    },
+    {
+      "fr": "nuancer",
+      "en": "to qualify, to add nuance",
+      "hi": "बात को संतुलित करना",
+      "pron": "नü-आँ-से",
+      "ipa": "nɥɑ̃se",
+      "pos": "verb"
+    },
+    {
+      "fr": "le bénévolat",
+      "en": "volunteering",
+      "hi": "स्वयंसेवा",
+      "pron": "लö बे-ने-वो-ला",
+      "ipa": "lə benevɔla",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "bénévolat"
+    },
+    {
+      "fr": "le bénévole",
+      "en": "volunteer",
+      "hi": "स्वयंसेवक",
+      "pron": "लö बे-ने-वॉल",
+      "ipa": "lə benevɔl",
+      "pos": "noun",
+      "gender": "mf",
+      "lemma": "bénévole"
+    },
+    {
+      "fr": "l'engagement",
+      "en": "commitment",
+      "hi": "प्रतिबद्धता / ज़िम्मेदारी",
+      "pron": "लाँ-गाझ़-माँ",
+      "ipa": "lɑ̃ɡaʒmɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "engagement"
+    },
+    {
+      "fr": "épanouissant",
+      "en": "fulfilling",
+      "hi": "संतोष देने वाला",
+      "pron": "ए-पा-नू-ई-साँ",
+      "ipa": "epanwisɑ̃",
+      "pos": "adjective"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "D'abord, je fais mon plan en trois minutes.",
+      "en": "First, I make my plan in three minutes.",
+      "hi": "पहले मैं तीन मिनट में अपनी योजना बनाता / बनाती हूँ।",
+      "pron": "दा-बोग़ झ़ö फ़ै मोँ प्लाँ आँ त्ग़्वा मी-नüत"
+    },
+    {
+      "fr": "Je garde cinq minutes pour la relecture.",
+      "en": "I keep five minutes for proofreading.",
+      "hi": "मैं जाँचने के लिए पाँच मिनट बचाकर रखता / रखती हूँ।",
+      "pron": "झ़ö गाग़्द सैँ मी-नüत पूग़ ला ग़ö-लैक-तüग़"
+    },
+    {
+      "fr": "Je comprends ton hésitation, mais …",
+      "en": "I understand your hesitation, but …",
+      "hi": "मैं तुम्हारी हिचकिचाहट समझता / समझती हूँ, लेकिन …",
+      "pron": "झ़ö कोँ-प्ग़ाँ तोँ ने-ज़ी-ता-स्योँ मै"
+    },
+    {
+      "fr": "Tu ne le regretteras pas.",
+      "en": "You won't regret it.",
+      "hi": "तुम्हें इसका पछतावा नहीं होगा।",
+      "pron": "तü नö लö ग़ö-ग्ग़ै-त-ग़ा पा"
+    },
+    {
+      "fr": "Je suis convaincu que …",
+      "en": "I am convinced that …",
+      "hi": "मुझे पूरा यक़ीन है कि …",
+      "pron": "झ़ö सüइ कोँ-वैँ-कü कö"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Final planning recap: the same routine for every production task",
+      "hi": "योजना का आख़िरी दोहराव: हर अभिव्यक्ति-काम के लिए एक ही दिनचर्या"
+    },
+    "explanation": {
+      "en": "Use one routine in four steps for all four tasks: read, plan, produce, check. Writing A (25 min): read the start twice (2 min), plan three events and an ending (3 min), write 80+ words in the same past tenses as the start (15 min), check agreements and verb endings (5 min). Writing B (35 min): read the statement and choose your position (2 min), plan the thesis, three arguments with an example each and one counter-argument (5 min), write 200+ words (23 min), check (5 min). Speaking A (5 min): read the ad, spot what it does NOT say, and ask about ten varied questions. Speaking B (10 min): present the ad in three points, then answer each objection with 'Je comprends, mais …' + a concrete benefit. The key words for planning are the same everywhere: d'abord, ensuite, de plus, cependant, enfin.",
+      "hi": "चारों कामों के लिए चार क़दमों की एक ही दिनचर्या अपनाइए: पढ़ना, योजना, लिखना/बोलना, जाँचना। लेखन A (25 मिनट): शुरुआत दो बार पढ़िए (2 मिनट), तीन घटनाएँ और एक अंत सोचिए (3 मिनट), शुरुआत वाले भूतकालों में 80+ शब्द लिखिए (15 मिनट), लिंग-वचन मेल और क्रिया के अंत जाँचिए (5 मिनट)। लेखन B (35 मिनट): कथन पढ़कर अपना पक्ष चुनिए (2 मिनट), मुख्य राय, तीन तर्क (हर एक के साथ उदाहरण) और एक विरोधी तर्क की योजना बनाइए (5 मिनट), 200+ शब्द लिखिए (23 मिनट), जाँचिए (5 मिनट)। मौखिक A (5 मिनट): विज्ञापन पढ़िए, देखिए कि उसमें क्या नहीं लिखा है, और लगभग दस अलग-अलग प्रश्न पूछिए। मौखिक B (10 मिनट): विज्ञापन को तीन बिंदुओं में बताइए, फिर हर आपत्ति का जवाब 'Je comprends, mais …' और एक ठोस फ़ायदे से दीजिए। योजना के मुख्य शब्द हर जगह वही हैं: d'abord, ensuite, de plus, cependant, enfin।"
+    },
+    "comparison": {
+      "en": "In Hindi you might say पहले, फिर, इसके अलावा, फिर भी, आख़िर में — the French planning words map onto them one to one.",
+      "hi": "हिंदी में आप कहेंगे पहले, फिर, इसके अलावा, फिर भी, आख़िर में — फ़्रेंच के योजना वाले शब्द ठीक इन्हीं से मेल खाते हैं।"
+    },
+    "examples": [
+      {
+        "fr": "D'abord, le bénévolat permet de rencontrer des gens.",
+        "en": "First, volunteering lets you meet people.",
+        "hi": "पहली बात, स्वयंसेवा से लोगों से मिलना होता है।",
+        "pron": "दा-बोग़ लö बे-ने-वो-ला पैग़-मै दö ग़ाँ-कोँ-त्ग़े दे झ़ाँ"
+      },
+      {
+        "fr": "De plus, c'est une expérience utile pour trouver un emploi.",
+        "en": "Moreover, it is a useful experience for finding a job.",
+        "hi": "इसके अलावा, नौकरी ढूँढने के लिए यह एक काम का अनुभव है।",
+        "pron": "दö प्लüस सै तüन ऐक-स्पे-ग़्याँस ü-तील पूग़ त्ग़ू-वे ऐँ नाँ-प्ल्वा"
+      },
+      {
+        "fr": "Cependant, il faut savoir gérer son temps.",
+        "en": "However, you need to know how to manage your time.",
+        "hi": "फिर भी, अपना समय सँभालना आना चाहिए।",
+        "pron": "स-पाँ-दाँ ईल फ़ो सा-वाग़ झ़े-ग़े सोँ ताँ"
+      },
+      {
+        "fr": "Enfin, aider les autres est très épanouissant.",
+        "en": "Finally, helping others is very fulfilling.",
+        "hi": "आख़िर में, दूसरों की मदद करना बहुत संतोष देता है।",
+        "pron": "आँ-फ़ैँ ए-दे ले ज़ोत्ग़ ऐ त्ग़ै ज़े-पा-नू-ई-साँ"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Don't skip the plan to 'save time': without it, arguments repeat and the text loses its structure.",
+        "hi": "'समय बचाने' के लिए योजना मत छोड़िए: उसके बिना तर्क दोहराए जाते हैं और लेख का ढाँचा बिगड़ जाता है।"
+      },
+      {
+        "en": "Don't skip the final check either: agreement and verb-ending errors are the easiest to correct in the last five minutes.",
+        "hi": "आख़िरी जाँच भी मत छोड़िए: लिंग-वचन मेल और क्रिया के अंत की ग़लतियाँ आख़िरी पाँच मिनट में सबसे आसानी से सुधरती हैं।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Warm-up: linking and fluent connectors",
+    "tip": {
+      "en": "Connectors open every sentence in section B, so they must come out smoothly. Say each one five times, linking where needed (de plus ends in a clear s; en effet links the n: an-né-fé). Then say a full sentence starting with each one.",
+      "hi": "खंड B में हर वाक्य संयोजक से शुरू होता है, इसलिए वे आसानी से निकलने चाहिए। हर एक को पाँच बार बोलिए, जहाँ ज़रूरत हो वहाँ जोड़कर (de plus के अंत में साफ़ s; en effet में n जुड़ता है)। फिर हर एक से शुरू होने वाला पूरा वाक्य बोलिए।"
+    },
+    "words": [
+      {
+        "fr": "d'abord",
+        "en": "first",
+        "hi": "पहले",
+        "pron": "दा-बोग़",
+        "ipa": "dabɔʁ"
+      },
+      {
+        "fr": "ensuite",
+        "en": "then",
+        "hi": "फिर",
+        "pron": "आँ-सüइत",
+        "ipa": "ɑ̃sɥit"
+      },
+      {
+        "fr": "de plus",
+        "en": "moreover",
+        "hi": "इसके अलावा",
+        "pron": "दö प्लüस",
+        "ipa": "də plys"
+      },
+      {
+        "fr": "cependant",
+        "en": "however",
+        "hi": "फिर भी",
+        "pron": "स-पाँ-दाँ",
+        "ipa": "səpɑ̃dɑ̃"
+      },
+      {
+        "fr": "en effet",
+        "en": "indeed",
+        "hi": "दरअसल",
+        "pron": "आँ ने-फ़ै",
+        "ipa": "ɑ̃n‿efɛ"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Devenir bénévole ?",
+      "en": "Becoming a volunteer?"
+    },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Warm-up. Nadia tries to convince her colleague Julien to volunteer with her at a food bank. Listen to the objections and the answers — exactly what you will do in speaking B.",
+      "hi": "अभ्यास। नादिया अपने सहकर्मी जूलियाँ को अपने साथ एक फ़ूड बैंक में स्वयंसेवा करने के लिए मनाने की कोशिश करती है। आपत्तियाँ और उनके जवाब सुनिए — ठीक यही आप मौखिक B में करेंगे।"
+    },
+    "lines": [
+      {
+        "speaker": "Nadia",
+        "voice": "f1",
+        "fr": "Julien, tu as vu l'annonce de la banque alimentaire ? Ils cherchent des bénévoles le samedi matin.",
+        "en": "Julien, did you see the food bank's ad? They're looking for volunteers on Saturday mornings.",
+        "hi": "जूलियाँ, तुमने फ़ूड बैंक का विज्ञापन देखा? उन्हें शनिवार सुबह के लिए स्वयंसेवक चाहिए।"
+      },
+      {
+        "speaker": "Julien",
+        "voice": "m1",
+        "fr": "Oui, mais le samedi, c'est mon seul jour pour dormir un peu.",
+        "en": "Yes, but Saturday is my only day to sleep a bit.",
+        "hi": "हाँ, लेकिन शनिवार ही मेरा थोड़ा सोने का इकलौता दिन है।"
+      },
+      {
+        "speaker": "Nadia",
+        "voice": "f1",
+        "fr": "Je comprends, mais ça commence seulement à dix heures. Et c'est juste deux samedis par mois, pas toutes les semaines.",
+        "en": "I understand, but it only starts at ten. And it's just two Saturdays a month, not every week.",
+        "hi": "मैं समझती हूँ, लेकिन यह सिर्फ़ दस बजे शुरू होता है। और महीने में बस दो शनिवार, हर हफ़्ते नहीं।"
+      },
+      {
+        "speaker": "Julien",
+        "voice": "m1",
+        "fr": "Deux samedis… Et qu'est-ce qu'on fait exactement ? Je ne suis pas très fort pour porter des caisses.",
+        "en": "Two Saturdays… And what exactly do you do? I'm not very good at carrying boxes.",
+        "hi": "दो शनिवार… और वहाँ ठीक-ठीक करना क्या होता है? मैं डिब्बे उठाने में बहुत अच्छा नहीं हूँ।"
+      },
+      {
+        "speaker": "Nadia",
+        "voice": "f1",
+        "fr": "Il n'y a pas que ça ! On peut accueillir les familles ou trier les produits. Toi qui parles trois langues, tu serais parfait à l'accueil.",
+        "en": "That's not all there is! You can welcome families or sort products. You speak three languages, you'd be perfect at reception.",
+        "hi": "सिर्फ़ इतना ही नहीं है! परिवारों का स्वागत कर सकते हैं या सामान छाँट सकते हैं। तुम तो तीन भाषाएँ बोलते हो, स्वागत-कक्ष पर तुम एकदम सही रहोगे।"
+      },
+      {
+        "speaker": "Julien",
+        "voice": "m1",
+        "fr": "C'est vrai que ça pourrait être utile. Et puis, ça ferait bien sur mon CV.",
+        "en": "It's true that could be useful. And besides, it would look good on my CV.",
+        "hi": "यह सच है कि यह काम का हो सकता है। और फिर, मेरे सीवी पर भी अच्छा लगेगा।"
+      },
+      {
+        "speaker": "Nadia",
+        "voice": "f1",
+        "fr": "Exactement. Et après, on va prendre un café ensemble. Tu ne le regretteras pas !",
+        "en": "Exactly. And afterwards, we'll go for a coffee together. You won't regret it!",
+        "hi": "बिल्कुल। और उसके बाद हम साथ में कॉफ़ी पीने चलेंगे। तुम्हें पछतावा नहीं होगा!"
+      },
+      {
+        "speaker": "Julien",
+        "voice": "m1",
+        "fr": "Bon, d'accord. Inscris-moi pour le premier samedi de mars.",
+        "en": "Fine, OK. Sign me up for the first Saturday in March.",
+        "hi": "चलो, ठीक है। मार्च के पहले शनिवार के लिए मेरा नाम लिखवा दो।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "What is Julien's first objection?"
+        },
+        "options": [
+          "Saturday is his only day to rest",
+          "He doesn't like the food bank",
+          "He works on Saturdays",
+          "He lives too far away"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Le samedi, c'est mon seul jour pour dormir un peu.'",
+          "hi": "'Le samedi, c'est mon seul jour pour dormir un peu' — शनिवार ही आराम का इकलौता दिन है।"
+        },
+        "kind": "literal",
+        "evidence": "le samedi, c'est mon seul jour pour dormir un peu"
+      },
+      {
+        "q": {
+          "en": "How often would Julien volunteer?"
+        },
+        "options": [
+          "Every Saturday",
+          "Once a month",
+          "Two Saturdays a month",
+          "Every morning"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'C'est juste deux samedis par mois, pas toutes les semaines.'",
+          "hi": "'Deux samedis par mois' — महीने में दो शनिवार।"
+        },
+        "kind": "literal",
+        "evidence": "c'est juste deux samedis par mois"
+      },
+      {
+        "q": {
+          "en": "Why does Nadia think Julien would be good at reception?"
+        },
+        "options": [
+          "He is very strong",
+          "He likes coffee",
+          "He has already volunteered",
+          "He speaks three languages"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Toi qui parles trois langues, tu serais parfait à l'accueil.'",
+          "hi": "'Toi qui parles trois langues' — वह तीन भाषाएँ बोलता है।"
+        },
+        "kind": "literal",
+        "evidence": "Toi qui parles trois langues, tu serais parfait à l'accueil."
+      },
+      {
+        "q": {
+          "en": "Which benefit does Julien himself mention?"
+        },
+        "options": [
+          "Meeting new friends",
+          "Getting free food",
+          "It would look good on his CV",
+          "Learning to cook"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Ça ferait bien sur mon CV.' He convinces himself — a sign Nadia's answers worked.",
+          "hi": "'Ça ferait bien sur mon CV' — वह ख़ुद फ़ायदा बताता है, यानी नादिया के जवाब काम कर गए।"
+        },
+        "kind": "inference",
+        "evidence": "ça ferait bien sur mon CV"
+      },
+      {
+        "q": {
+          "en": "How does the conversation end?"
+        },
+        "options": [
+          "Julien refuses",
+          "Julien asks to be signed up for March",
+          "Nadia gives up",
+          "They decide to think about it"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Inscris-moi pour le premier samedi de mars.'",
+          "hi": "'Inscris-moi pour le premier samedi de mars' — मार्च के पहले शनिवार के लिए नाम लिखवाओ।"
+        },
+        "kind": "gist",
+        "evidence": "Inscris-moi pour le premier samedi de mars."
+      }
+    ],
+    "dictation": [
+      "Je comprends, mais ça commence seulement à dix heures.",
+      "On peut accueillir les familles ou trier les produits."
+    ],
+    "gapFill": {
+      "text": "Et puis, ça ferait bien sur mon ___. Tu ne le ___ pas !",
+      "answers": [
+        "CV",
+        "regretteras"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "tef_b",
+    "instructions": {
+      "en": "Warm-up (3 minutes): your friend hesitates to join the food bank as a volunteer. Present the advertisement in three points (what, when, why), then answer three objections with 'Je comprends, mais …' and a concrete benefit. After that, take the full mock speaking test (A then B).",
+      "hi": "अभ्यास (3 मिनट): आपका दोस्त फ़ूड बैंक में स्वयंसेवक बनने से हिचक रहा है। विज्ञापन को तीन बिंदुओं में बताइए (क्या, कब, क्यों), फिर तीन आपत्तियों का जवाब 'Je comprends, mais …' और एक ठोस फ़ायदे से दीजिए। उसके बाद पूरी मॉक मौखिक परीक्षा दीजिए (पहले A, फिर B)।"
+    },
+    "scenario": {
+      "setting": {
+        "en": "A friend's living room. You show your friend the food bank's volunteer advertisement on your phone.",
+        "hi": "दोस्त का बैठक-कक्ष। आप अपने फ़ोन पर दोस्त को फ़ूड बैंक का स्वयंसेवक वाला विज्ञापन दिखाते हैं।"
+      },
+      "learnerRole": {
+        "en": "Someone who already volunteers and wants a friend to join.",
+        "hi": "जो पहले से स्वयंसेवा करता है और चाहता है कि दोस्त भी जुड़े।"
+      },
+      "partnerRole": {
+        "en": "A busy friend who raises objections about time, skills and usefulness.",
+        "hi": "एक व्यस्त दोस्त जो समय, क्षमता और उपयोगिता को लेकर आपत्तियाँ उठाता है।"
+      },
+      "goals": [
+        {
+          "en": "Present the ad clearly in three points.",
+          "hi": "विज्ञापन को साफ़-साफ़ तीन बिंदुओं में बताइए।"
+        },
+        {
+          "en": "Answer at least three objections without repeating the same argument.",
+          "hi": "एक ही तर्क दोहराए बिना कम से कम तीन आपत्तियों का जवाब दीजिए।"
+        },
+        {
+          "en": "End with a concrete proposal (date, meeting point).",
+          "hi": "एक ठोस प्रस्ताव के साथ ख़त्म कीजिए (तारीख़, मिलने की जगह)।"
+        }
+      ]
+    },
+    "prompts": [
+      {
+        "fr": "Regarde cette annonce : la banque alimentaire cherche des bénévoles.",
+        "en": "Look at this ad: the food bank is looking for volunteers.",
+        "hi": "यह विज्ञापन देखो: फ़ूड बैंक को स्वयंसेवक चाहिए।",
+        "pron": "ग़ö-गाग़्द सैत आ-नोँस ला बाँक आ-ली-माँ-तैग़ शैग़्श दे बे-ने-वॉल",
+        "model": "Regarde cette annonce : la banque alimentaire du quartier cherche des bénévoles deux samedis par mois, de dix heures à midi. Il n'y a pas besoin d'expérience, et une formation est donnée le premier jour."
+      },
+      {
+        "fr": "Je comprends, mais ça ne prend que deux heures.",
+        "en": "I understand, but it only takes two hours.",
+        "hi": "मैं समझता / समझती हूँ, लेकिन इसमें सिर्फ़ दो घंटे लगते हैं।",
+        "pron": "झ़ö कोँ-प्ग़ाँ मै सा नö प्ग़ाँ कö दö ज़öग़",
+        "model": "Je comprends que tu sois fatigué le samedi, mais ça ne prend que deux heures, et ça commence à dix heures : tu peux dormir avant !"
+      },
+      {
+        "fr": "Pas besoin d'expérience : ils forment tout le monde.",
+        "en": "No experience needed: they train everyone.",
+        "hi": "अनुभव की ज़रूरत नहीं: वे सबको सिखाते हैं।",
+        "pron": "पा बö-ज़्वैँ दैक-स्पे-ग़्याँस ईल फ़ोग़्म तू लö मोँद"
+      },
+      {
+        "fr": "En plus, c'est une expérience utile pour ton CV.",
+        "en": "Plus, it's a useful experience for your CV.",
+        "hi": "इसके अलावा, यह तुम्हारे सीवी के लिए काम का अनुभव है।",
+        "pron": "आँ प्लüस सै तüन ऐक-स्पे-ग़्याँस ü-तील पूग़ तोँ से-वे"
+      },
+      {
+        "fr": "On se retrouve samedi devant l'entrée à dix heures ?",
+        "en": "Shall we meet on Saturday in front of the entrance at ten?",
+        "hi": "शनिवार को दस बजे प्रवेश-द्वार के सामने मिलें?",
+        "pron": "ओँ सö ग़ö-त्ग़ूव सम-दी द-वाँ लाँ-त्ग़े आ दी ज़öग़"
+      }
+    ],
+    "tip": {
+      "en": "In section B, every objection is a chance to bring a new argument. Keep a mental list — time, money, skills, usefulness, fun — and use a different one each time.",
+      "hi": "खंड B में हर आपत्ति एक नया तर्क लाने का मौक़ा है। मन में एक सूची रखिए — समय, पैसा, क्षमता, उपयोगिता, मज़ा — और हर बार अलग तर्क इस्तेमाल कीजिए।"
+    }
+  },
+  "reading": {
+    "genre": "opinion",
+    "title": "Courrier des lecteurs : « Le bénévolat devrait être obligatoire à l'école secondaire »",
+    "text": "Madame, Monsieur,\n\nJ'ai lu avec intérêt votre article sur le bénévolat des jeunes. Selon certains, quarante heures de bénévolat devraient être obligatoires pour obtenir le diplôme d'études secondaires. Je partage en partie cette opinion.\n\nD'abord, le bénévolat permet aux adolescents de découvrir des milieux qu'ils ne connaissent pas : une résidence pour personnes âgées, un club sportif, une banque alimentaire. Ma fille, par exemple, a choisi d'aider à la bibliothèque municipale, et elle pense maintenant devenir bibliothécaire.\n\nDe plus, c'est une première expérience utile pour un futur emploi : on apprend à être ponctuel, à travailler en équipe et à parler avec le public.\n\nCependant, le mot « obligatoire » me gêne. Un engagement imposé n'a pas toujours le même sens qu'un engagement choisi. Certains jeunes travaillent déjà le soir pour aider leur famille ; il faudrait tenir compte de leur situation.\n\nEn conclusion, je suis convaincu que l'école doit encourager le bénévolat, mais avec souplesse : beaucoup de choix, des horaires adaptés et, peut-être, moins d'heures pour les élèves qui ont un emploi.\n\nVeuillez agréer, Madame, Monsieur, mes salutations distinguées.\n\nOmar Haddad, Gatineau",
+    "translation": {
+      "en": "Dear Sir or Madam,\n\nI read your article on youth volunteering with interest. According to some people, forty hours of volunteering should be compulsory to obtain the high-school diploma. I partly share this opinion.\n\nFirst, volunteering lets teenagers discover settings they don't know: a seniors' residence, a sports club, a food bank. My daughter, for example, chose to help at the municipal library, and she is now thinking of becoming a librarian.\n\nMoreover, it is a useful first experience for a future job: you learn to be punctual, to work in a team and to speak with the public.\n\nHowever, the word 'compulsory' bothers me. An imposed commitment does not always have the same meaning as a chosen one. Some young people already work in the evening to help their family; their situation should be taken into account.\n\nIn conclusion, I am convinced that school must encourage volunteering, but flexibly: plenty of choice, adapted schedules and, perhaps, fewer hours for students who have a job.\n\nYours faithfully,\n\nOmar Haddad, Gatineau",
+      "hi": "महोदय / महोदया,\n\nमैंने युवाओं की स्वयंसेवा पर आपका लेख रुचि से पढ़ा। कुछ लोगों के अनुसार, माध्यमिक स्कूल का डिप्लोमा पाने के लिए चालीस घंटे की स्वयंसेवा अनिवार्य होनी चाहिए। मैं इस राय से आंशिक रूप से सहमत हूँ।\n\nपहली बात, स्वयंसेवा से किशोरों को ऐसी जगहें जानने का मौक़ा मिलता है जिन्हें वे नहीं जानते: बुज़ुर्गों का आवास, कोई खेल क्लब, कोई फ़ूड बैंक। उदाहरण के लिए, मेरी बेटी ने नगर पुस्तकालय में मदद करना चुना, और अब वह लाइब्रेरियन बनने की सोच रही है।\n\nइसके अलावा, भविष्य की नौकरी के लिए यह एक काम का पहला अनुभव है: समय का पाबंद होना, टीम में काम करना और लोगों से बात करना सीखा जाता है।\n\nफिर भी, 'अनिवार्य' शब्द मुझे खटकता है। थोपी गई ज़िम्मेदारी का हमेशा वह अर्थ नहीं होता जो ख़ुद चुनी गई ज़िम्मेदारी का होता है। कुछ युवा अपने परिवार की मदद के लिए पहले से ही शाम को काम करते हैं; उनकी स्थिति का ध्यान रखना चाहिए।\n\nनिष्कर्ष में, मुझे पूरा यक़ीन है कि स्कूल को स्वयंसेवा को बढ़ावा देना चाहिए, लेकिन लचीलेपन के साथ: बहुत सारे विकल्प, अनुकूल समय और, शायद, नौकरी करने वाले विद्यार्थियों के लिए कम घंटे।\n\nसादर,\n\nओमार हद्दाद, गैटिनो"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "What is the writer's overall position?"
+        },
+        "options": [
+          "He is completely against volunteering",
+          "He partly agrees: encourage volunteering, but not as a strict obligation",
+          "He wants 80 compulsory hours",
+          "He thinks only adults should volunteer"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Je partage en partie cette opinion' and the conclusion: encourage, 'mais avec souplesse'.",
+          "hi": "'Je partage en partie cette opinion' और निष्कर्ष: बढ़ावा दें, 'mais avec souplesse' — लचीलेपन के साथ।"
+        },
+        "kind": "gist",
+        "evidence": "Je partage en partie cette opinion."
+      },
+      {
+        "q": {
+          "en": "What example does he give about his daughter?"
+        },
+        "options": [
+          "She works at a food bank",
+          "She refused to volunteer",
+          "She helped at the library and now thinks of becoming a librarian",
+          "She plays in a sports club"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Elle a choisi d'aider à la bibliothèque municipale, et elle pense maintenant devenir bibliothécaire.'",
+          "hi": "बेटी ने पुस्तकालय में मदद की और अब लाइब्रेरियन बनने की सोच रही है।"
+        },
+        "kind": "literal",
+        "evidence": "elle pense maintenant devenir bibliothécaire"
+      },
+      {
+        "q": {
+          "en": "Which skills does volunteering teach, according to the letter?"
+        },
+        "options": [
+          "Punctuality, teamwork, speaking with the public",
+          "Cooking and cleaning",
+          "Driving and repairing",
+          "Writing and drawing"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'On apprend à être ponctuel, à travailler en équipe et à parler avec le public.'",
+          "hi": "समय का पाबंद होना, टीम में काम करना, लोगों से बात करना।"
+        },
+        "kind": "literal",
+        "evidence": "on apprend à être ponctuel, à travailler en équipe et à parler avec le public"
+      },
+      {
+        "q": {
+          "en": "Why does the word 'obligatoire' bother him?"
+        },
+        "options": [
+          "Because volunteering is useless",
+          "Because an imposed commitment is not the same as a chosen one",
+          "Because schools have no money",
+          "Because his daughter refuses"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Un engagement imposé n'a pas toujours le même sens qu'un engagement choisi.' This is his counter-argument paragraph.",
+          "hi": "'Un engagement imposé n'a pas toujours le même sens qu'un engagement choisi' — यह उसका विरोधी-तर्क वाला अनुच्छेद है।"
+        },
+        "kind": "inference",
+        "evidence": "Un engagement imposé n'a pas toujours le même sens qu'un engagement choisi."
+      },
+      {
+        "q": {
+          "en": "What does he suggest for students who have a job?"
+        },
+        "options": [
+          "No diploma",
+          "Double the hours",
+          "Volunteering only in summer",
+          "Perhaps fewer hours"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Peut-être, moins d'heures pour les élèves qui ont un emploi.'",
+          "hi": "'Moins d'heures pour les élèves qui ont un emploi' — नौकरी करने वाले विद्यार्थियों के लिए कम घंटे।"
+        },
+        "kind": "literal",
+        "evidence": "moins d'heures pour les élèves qui ont un emploi"
+      }
+    ]
+  },
+  "writing": {
+    "type": "opinion_letter",
+    "prompt": {
+      "en": "Warm-up for section B (10 minutes): statement — « Le bénévolat devrait être obligatoire pour tous les adultes. » Write your three-line plan (position, three arguments, one counter-argument), then the opening and your first developed argument. Then take the full mock writing test.",
+      "hi": "खंड B का अभ्यास (10 मिनट): कथन — « Le bénévolat devrait être obligatoire pour tous les adultes. » तीन पंक्तियों की योजना लिखिए (राय, तीन तर्क, एक विरोधी तर्क), फिर शुरुआत और अपना पहला विकसित तर्क। उसके बाद पूरी मॉक लेखन परीक्षा दीजिए।",
+      "fr": "« Le bénévolat devrait être obligatoire pour tous les adultes. »"
+    },
+    "minWords": 60,
+    "maxWords": 130,
+    "hints": [
+      {
+        "en": "One argument = idea + explanation + concrete example.",
+        "hi": "एक तर्क = विचार + व्याख्या + ठोस उदाहरण।"
+      },
+      {
+        "en": "Start with the formal greeting and a sentence that states the topic.",
+        "hi": "औपचारिक संबोधन और विषय बताने वाले वाक्य से शुरू कीजिए।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Je ne partage pas cette opinion.",
+        "en": "I don't share this opinion.",
+        "hi": "मैं इस राय से सहमत नहीं हूँ।",
+        "pron": "झ़ö नö पाग़-ताझ़ पा सैत ओ-पी-न्योँ"
+      },
+      {
+        "fr": "Prenons l'exemple de …",
+        "en": "Let's take the example of …",
+        "hi": "… का उदाहरण लेते हैं",
+        "pron": "प्ग़ö-नोँ लैग-ज़ाँप्ल दö"
+      },
+      {
+        "fr": "Il me semble que …",
+        "en": "It seems to me that …",
+        "hi": "मुझे लगता है कि …",
+        "pron": "ईल मö साँब्ल कö"
+      }
+    ],
+    "model": {
+      "fr": "Plan : contre l'obligation / 1. manque de temps 2. engagement choisi 3. déjà des aides / mais : besoin de bénévoles.\n\nMadame, Monsieur,\n\nVotre journal affirme que le bénévolat devrait être obligatoire pour tous les adultes. Je ne partage pas cette opinion.\n\nD'abord, beaucoup d'adultes manquent déjà de temps. Prenons l'exemple d'une mère qui travaille à temps plein et s'occupe de ses parents âgés : il lui reste à peine une heure par jour pour elle-même. Lui imposer des heures de bénévolat ajouterait du stress au lieu d'aider la société.",
+      "en": "Plan: against the obligation / 1. lack of time 2. chosen commitment 3. help already exists / but: volunteers are needed.\n\nDear Sir or Madam,\n\nYour newspaper states that volunteering should be compulsory for all adults. I do not share this opinion.\n\nFirst, many adults already lack time. Let's take the example of a mother who works full time and looks after her elderly parents: she barely has an hour a day left for herself. Imposing volunteering hours on her would add stress instead of helping society."
+    },
+    "checklist": [
+      {
+        "en": "Is your position stated clearly in the first paragraph?",
+        "hi": "क्या आपकी राय पहले अनुच्छेद में साफ़ लिखी है?"
+      },
+      {
+        "en": "Does your first argument have an explanation and a concrete example?",
+        "hi": "क्या आपके पहले तर्क में व्याख्या और ठोस उदाहरण है?"
+      },
+      {
+        "en": "Did you check agreements (âgés, elle-même) and verb endings?",
+        "hi": "क्या आपने लिंग-वचन मेल (âgés, elle-même) और क्रिया के अंत जाँचे?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      102,
+      107,
+      109,
+      111,
+      113
+    ],
+    "items": [
+      {
+        "fr": "Un paragraphe, une idée.",
+        "en": "One paragraph, one idea.",
+        "hi": "एक अनुच्छेद, एक विचार।",
+        "pron": "ऐँ पा-ग़ा-ग्ग़ाफ़ üन ई-दे"
+      },
+      {
+        "fr": "le contre-argument",
+        "en": "counter-argument",
+        "hi": "विरोधी तर्क",
+        "pron": "लö कोँ-त्ग़ आग़-गü-माँ"
+      },
+      {
+        "fr": "Ça te dirait de venir avec moi ?",
+        "en": "Would you like to come with me?",
+        "hi": "क्या तुम मेरे साथ चलना चाहोगे?",
+        "pron": "सा तö दी-ग़ै दö व-नीग़ आ-वैक म्वा"
+      },
+      {
+        "fr": "Pourriez-vous me dire … ?",
+        "en": "Could you tell me …?",
+        "hi": "क्या आप बता सकते हैं …?",
+        "pron": "पू-ग़ी-ये वू मö दीग़"
+      },
+      {
+        "fr": "le brouillon",
+        "en": "the draft",
+        "hi": "रफ़ मसौदा",
+        "pron": "लö ब्ग़ू-योँ"
+      },
+      {
+        "fr": "Il me reste cinq minutes.",
+        "en": "I have five minutes left.",
+        "hi": "मेरे पास पाँच मिनट बचे हैं।",
+        "pron": "ईल मö ग़ैस्त सैँ मी-नüत"
+      },
+      {
+        "fr": "Veuillez agréer mes salutations distinguées.",
+        "en": "Yours faithfully.",
+        "hi": "सादर।",
+        "pron": "वö-ये ज़ा-ग्ग़े-ए मे सा-लü-ता-स्योँ दीस-तैँ-गे"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "In writing B (35 min), roughly how long should you keep for checking?",
+        "hi": "लेखन B (35 मिनट) में जाँचने के लिए लगभग कितना समय रखना चाहिए?"
+      },
+      "options": [
+        "None",
+        "About 5 minutes",
+        "About 20 minutes",
+        "The whole 35 minutes"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Plan about 5 minutes, write about 23, check about 5.",
+        "hi": "योजना लगभग 5 मिनट, लिखना लगभग 23, जाँच लगभग 5 मिनट।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Your friend says 'C'est trop loin.' Which answer best fits speaking B?",
+        "hi": "दोस्त कहता है 'C'est trop loin.' मौखिक B में कौन-सा जवाब सबसे अच्छा है?"
+      },
+      "options": [
+        "D'accord, tant pis.",
+        "Je comprends, mais il y a un autobus direct en quinze minutes.",
+        "C'est loin, oui.",
+        "Tu as raison, n'y va pas."
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Acknowledge the objection, then answer with a concrete benefit.",
+        "hi": "आपत्ति को मानिए, फिर एक ठोस फ़ायदे से जवाब दीजिए।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which connector introduces a counter-argument?",
+        "hi": "कौन-सा संयोजक विरोधी तर्क शुरू करता है?"
+      },
+      "options": [
+        "De plus",
+        "D'abord",
+        "Cependant",
+        "Ensuite"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Cependant = however; the others add or order ideas.",
+        "hi": "Cependant = फिर भी; बाक़ी विचार जोड़ते हैं या क्रम देते हैं।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: You won't regret it!",
+        "hi": "पूरा कीजिए: तुम्हें इसका पछतावा नहीं होगा!"
+      },
+      "sentence": "Tu ne le ___ pas !",
+      "answer": "regretteras",
+      "accept": [],
+      "explanation": {
+        "en": "Future of regretter, tu form: tu regretteras.",
+        "hi": "regretter का भविष्य काल, tu रूप: tu regretteras।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: I am convinced that volunteering is useful.",
+        "hi": "पूरा कीजिए: मुझे पूरा यक़ीन है कि स्वयंसेवा उपयोगी है।"
+      },
+      "sentence": "Je suis ___ que le bénévolat est utile.",
+      "answer": "convaincu",
+      "accept": [
+        "convaincue"
+      ],
+      "explanation": {
+        "en": "Convaincu (convaincue for a woman) + que + indicative.",
+        "hi": "Convaincu (स्त्री के लिए convaincue) + que + सामान्य क्रिया-रूप।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "I keep five minutes for proofreading.",
+        "hi": "मैं जाँचने के लिए पाँच मिनट बचाकर रखता हूँ।"
+      },
+      "answer": "Je garde cinq minutes pour la relecture.",
+      "accept": [
+        "Je garde 5 minutes pour la relecture.",
+        "Je garde cinq minutes pour relire."
+      ],
+      "explanation": {
+        "en": "Garder = to keep; la relecture = proofreading.",
+        "hi": "Garder = रखना; la relecture = दोबारा पढ़कर जाँचना।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: I understand your hesitation, but it only takes two hours.",
+        "hi": "शब्दों को क्रम में रखिए: मैं तुम्हारी हिचक समझता हूँ, लेकिन इसमें सिर्फ़ दो घंटे लगते हैं।"
+      },
+      "words": [
+        "mais",
+        "Je",
+        "ton",
+        "ça",
+        "comprends",
+        "hésitation,",
+        "ne",
+        "prend",
+        "que",
+        "heures.",
+        "deux"
+      ],
+      "answer": "Je comprends ton hésitation, mais ça ne prend que deux heures.",
+      "explanation": {
+        "en": "Ne … que = only, around the verb prend.",
+        "hi": "Ne … que = सिर्फ़, क्रिया prend के दोनों ओर।"
+      }
+    }
+  ]
+}

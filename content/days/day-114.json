@@ -1,0 +1,190 @@
+{
+  "day": 114,
+  "phase": 6,
+  "title": { "fr": "La vitesse : le français naturel en temps limité", "en": "Speed: natural French under time", "hi": "रफ़्तार: सीमित समय में स्वाभाविक फ़्रेंच" },
+  "objective": {
+    "en": "Recognise the reductions of fast spoken French (chais pas, t'as, y'a, faut), catch fast prices and numbers, skim a long text for its main ideas in a few minutes, and answer and summarise quickly.",
+    "hi": "तेज़ बोली जाने वाली फ़्रेंच के छोटे किए रूप पहचानना (chais pas, t'as, y'a, faut), तेज़ बोली गई क़ीमतें और संख्याएँ पकड़ना, किसी लंबे पाठ को कुछ मिनटों में सरसरी नज़र से पढ़कर मुख्य विचार निकालना, और जल्दी जवाब देना व सारांश लिखना।"
+  },
+  "prerequisites": {
+    "days": [83, 85, 93, 94, 110],
+    "summary": {
+      "en": "Fast numbers (day 83), spoken reductions (day 85), press articles (day 93), radio listening (day 94) and number shadowing (day 110).",
+      "hi": "तेज़ संख्याएँ (दिन 83), बोलचाल के छोटे रूप (दिन 85), अख़बारी लेख (दिन 93), रेडियो सुनना (दिन 94) और संख्याओं की शैडोइंग (दिन 110)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "chais pas", "en": "dunno (spoken form of 'je ne sais pas')", "hi": "पता नहीं (बोलचाल में 'je ne sais pas')", "pron": "शै पा", "ipa": "ʃɛ pa", "pos": "phrase", "note": { "en": "Understand it, but write 'je ne sais pas' and don't use it with an examiner.", "hi": "इसे समझिए, पर लिखते समय 'je ne sais pas' लिखिए और परीक्षक के सामने इस्तेमाल मत कीजिए।" } },
+    { "fr": "t'as", "en": "you have (spoken 'tu as')", "hi": "तुम्हारे पास है (बोलचाल में 'tu as')", "pron": "ता", "ipa": "ta", "pos": "phrase" },
+    { "fr": "y'a", "en": "there is / there are (spoken 'il y a')", "hi": "है / हैं (बोलचाल में 'il y a')", "pron": "या", "ipa": "ja", "pos": "phrase" },
+    { "fr": "faut que", "en": "(I/we) have to (spoken 'il faut que')", "hi": "… करना पड़ेगा (बोलचाल में 'il faut que')", "pron": "फ़ो कö", "ipa": "fo kə", "pos": "phrase" },
+    { "fr": "du coup", "en": "so, as a result (spoken)", "hi": "तो / इसलिए (बोलचाल)", "pron": "दü कू", "ipa": "dy ku", "pos": "adverb" },
+    { "fr": "bosser", "en": "to work (informal)", "hi": "काम करना (अनौपचारिक)", "pron": "बो-से", "ipa": "bɔse", "pos": "verb" },
+    { "fr": "carrément", "en": "totally, downright (informal)", "hi": "बिल्कुल / सीधे-सीधे (अनौपचारिक)", "pron": "का-ग़े-माँ", "ipa": "kaʁemɑ̃", "pos": "adverb" },
+    { "fr": "ça bouchonne", "en": "there's a traffic jam", "hi": "जाम लगा है", "pron": "सा बू-शॉन", "ipa": "sa buʃɔn", "pos": "phrase" },
+    { "fr": "dans la limite des stocks", "en": "while stocks last", "hi": "स्टॉक रहने तक", "pron": "दाँ ला लि-मीत दे स्तॉक", "ipa": "dɑ̃ la limit de stɔk", "pos": "phrase" },
+    { "fr": "survoler un texte", "en": "to skim a text", "hi": "पाठ पर सरसरी नज़र डालना", "pron": "सüग़-वो-ले ऐँ तैक्स्त", "ipa": "syʁvɔle ɛ̃ tɛkst", "pos": "phrase" },
+    { "fr": "la fréquentation", "en": "attendance, number of visitors", "hi": "आने वालों की संख्या", "pron": "ला फ़्ग़े-काँ-ता-स्योँ", "ipa": "la fʁekɑ̃tasjɔ̃", "pos": "noun", "gender": "f", "lemma": "fréquentation" },
+    { "fr": "le prêt", "en": "loan (of a book)", "hi": "उधार देना (किताब)", "pron": "लö प्ग़ै", "ipa": "lə pʁɛ", "pos": "noun", "gender": "m", "lemma": "prêt" }
+  ],
+  "phrases": [
+    { "fr": "Je survole le texte en deux minutes.", "en": "I skim the text in two minutes.", "hi": "मैं दो मिनट में पाठ पर सरसरी नज़र डालता / डालती हूँ।", "pron": "झ़ö सüग़-वॉल लö तैक्स्त आँ दö मी-नüत" },
+    { "fr": "Je lis le titre, l'introduction et la conclusion.", "en": "I read the title, the introduction and the conclusion.", "hi": "मैं शीर्षक, भूमिका और निष्कर्ष पढ़ता / पढ़ती हूँ।", "pron": "झ़ö ली लö तीत्ग़ लैँ-त्ग़ो-दüक-स्योँ ए ला कोँ-क्लü-ज़्योँ" },
+    { "fr": "T'as raison, mais faut dire que c'est pire l'hiver.", "en": "You're right, but you have to say it's worse in winter.", "hi": "तुम सही हो, पर मानना पड़ेगा कि सर्दी में और बुरा है।", "pron": "ता ग़ै-ज़ोँ मै फ़ो दीग़ कö सै पीग़ ली-वैग़" },
+    { "fr": "Y'a des jours où ça marche.", "en": "There are days when it works.", "hi": "कुछ दिन ऐसे होते हैं जब सब ठीक चलता है।", "pron": "या दे झ़ूग़ ऊ सा माग़्श" },
+    { "fr": "En résumé, …", "en": "In summary, …", "hi": "सारांश में, …", "pron": "आँ ग़े-ज़ü-मे" }
+  ],
+  "grammar": {
+    "title": { "en": "Recognising reductions, catching fast numbers, skimming long texts", "hi": "छोटे किए रूप पहचानना, तेज़ संख्याएँ पकड़ना, लंबे पाठ सरसरी नज़र से पढ़ना" },
+    "explanation": {
+      "en": "Fast speech reduces words. Learn to rebuild the full form: the ne of negation disappears (j'sais pas, c'est pas); je + sais sounds like 'chais'; tu + vowel becomes t' (t'as, t'es); il y a → y'a; il faut → faut; il est / il y a often lose the il. The meaning is the same — only the sound changes. Fast numbers: prices are often said without 'dollars' or with the cents directly after: cent quatre-vingt-dix-neuf (dollars) quatre-vingt-quinze = 199,95 $. Listen for the big block first (cent quatre-vingt…), then the end. Skimming a long reading text (about 1.5 minutes per question on average): read the title, the first paragraph and the last paragraph, then the first sentence of each paragraph — it usually carries the main idea. Then read the questions and go back only to the paragraph you need.",
+      "hi": "तेज़ बोली में शब्द छोटे हो जाते हैं। पूरा रूप दोबारा बनाना सीखिए: नकार का ne ग़ायब हो जाता है (j'sais pas, c'est pas); je + sais की आवाज़ 'chais' जैसी होती है; tu + स्वर बदलकर t' (t'as, t'es); il y a → y'a; il faut → faut; il est / il y a में अक्सर il छूट जाता है। अर्थ वही रहता है — सिर्फ़ आवाज़ बदलती है। तेज़ संख्याएँ: क़ीमतें अक्सर 'dollars' के बिना या उसके तुरंत बाद सेंट के साथ बोली जाती हैं: cent quatre-vingt-dix-neuf (dollars) quatre-vingt-quinze = 199,95 $। पहले बड़ा हिस्सा सुनिए (cent quatre-vingt…), फिर अंत। लंबे पाठ पर सरसरी नज़र (औसतन हर प्रश्न के लिए लगभग डेढ़ मिनट): शीर्षक, पहला और आख़िरी अनुच्छेद पढ़िए, फिर हर अनुच्छेद का पहला वाक्य — मुख्य विचार अक्सर उसी में होता है। फिर प्रश्न पढ़िए और सिर्फ़ ज़रूरी अनुच्छेद पर लौटिए।"
+    },
+    "comparison": {
+      "en": "Spoken Hindi does the same: 'क्या कर रहे हो' becomes 'क्या कर रै हो', 'मालूम नहीं' becomes 'पता नईं'. You understand it easily in Hindi; with practice, you will in French too.",
+      "hi": "बोली जाने वाली हिंदी में भी यही होता है: 'क्या कर रहे हो' बन जाता है 'क्या कर रै हो', 'पता नहीं' बन जाता है 'पता नईं'। हिंदी में आप यह आसानी से समझ लेते हैं; अभ्यास से फ़्रेंच में भी समझने लगेंगे।"
+    },
+    "examples": [
+      { "fr": "Chais pas = Je ne sais pas.", "en": "Dunno = I don't know.", "hi": "पता नहीं = मुझे नहीं पता।", "pron": "शै पा = झ़ö नö सै पा" },
+      { "fr": "T'es où ? = Tu es où ?", "en": "Where are you?", "hi": "तुम कहाँ हो?", "pron": "तै ऊ" },
+      { "fr": "Y'a pas de problème. = Il n'y a pas de problème.", "en": "No problem.", "hi": "कोई दिक़्क़त नहीं।", "pron": "या पा द प्ग़ो-ब्लैम" },
+      { "fr": "Faut que j'y aille. = Il faut que j'y aille.", "en": "I've got to go.", "hi": "मुझे जाना होगा।", "pron": "फ़ो कö झ़ी आय" },
+      { "fr": "cent quatre-vingt-dix-neuf quatre-vingt-quinze", "en": "199.95 (a price)", "hi": "199.95 (क़ीमत)", "pron": "साँ का-त्ग़ö-वैँ-दीज़-नöफ़ का-त्ग़ö-वैँ-कैँज़" }
+    ],
+    "pitfalls": [
+      { "en": "Understanding reductions is essential for listening, but don't use them in writing or with the examiner in section A.", "hi": "श्रवण के लिए छोटे रूप समझना ज़रूरी है, पर लिखने में या खंड A में परीक्षक के साथ इन्हें इस्तेमाल मत कीजिए।" },
+      { "en": "'C'est pas' is still negative even without ne. Don't miss the 'pas'.", "hi": "'C'est pas' में ne न होने पर भी अर्थ नकारात्मक है। 'pas' को मत छोड़िए।" },
+      { "en": "Skimming is not reading everything fast. It is choosing what to read.", "hi": "सरसरी नज़र का मतलब सब कुछ जल्दी पढ़ना नहीं है। इसका मतलब है चुनना कि क्या पढ़ना है।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Natural-speed shadowing: reduced forms",
+    "tip": {
+      "en": "Shadow the street-interview lines at full speed. Don't articulate every letter: let 'je sais' melt into 'chais', 'il y a' into 'y'a'. Shadowing reductions trains your ear to recognise them in the exam.",
+      "hi": "सड़क-इंटरव्यू की पंक्तियों को पूरी रफ़्तार से शैडो कीजिए। हर अक्षर साफ़-साफ़ मत बोलिए: 'je sais' को 'chais' में और 'il y a' को 'y'a' में घुलने दीजिए। छोटे रूपों की शैडोइंग से परीक्षा में कान उन्हें पहचानने लगते हैं।"
+    },
+    "words": [
+      { "fr": "chais pas", "en": "dunno", "hi": "पता नहीं", "pron": "शै पा", "ipa": "ʃɛ pa" },
+      { "fr": "t'es sûr ?", "en": "are you sure?", "hi": "पक्का?", "pron": "तै सüग़", "ipa": "tɛ syʁ" },
+      { "fr": "y'a personne", "en": "there's nobody", "hi": "कोई नहीं है", "pron": "या पैग़-सॉन", "ipa": "ja pɛʁsɔn" },
+      { "fr": "faut voir", "en": "we'll see", "hi": "देखना पड़ेगा", "pron": "फ़ो व्वाग़", "ipa": "fo vwaʁ" },
+      { "fr": "c'est pas grave", "en": "it doesn't matter", "hi": "कोई बात नहीं", "pron": "सै पा ग्ग़ाव", "ipa": "sɛ pa ɡʁav" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Extraits de radio à vitesse naturelle", "en": "Natural-speed radio extracts" },
+    "type": "radio",
+    "mode": "natural",
+    "context": {
+      "en": "Four short extracts from a Montréal morning radio show: a traffic update, an advertisement, and two people answering a street-interview question about their commute. Listen once at full speed.",
+      "hi": "मॉन्ट्रियाल के एक सुबह के रेडियो शो से चार छोटे अंश: ट्रैफ़िक की ख़बर, एक विज्ञापन, और आने-जाने के बारे में सड़क-इंटरव्यू में जवाब देते दो लोग। पूरी रफ़्तार पर एक बार सुनिए।"
+    },
+    "lines": [
+      { "speaker": "Animateur", "voice": "m2", "fr": "Sur les routes, ça bouchonne déjà sur l'autoroute 40 en direction est : comptez vingt minutes de plus que d'habitude.", "en": "On the roads, there's already a jam on Highway 40 eastbound: allow twenty minutes more than usual.", "hi": "सड़कों पर, हाईवे 40 पर पूर्व की ओर अभी से जाम है: रोज़ से बीस मिनट ज़्यादा मानकर चलिए।" },
+      { "speaker": "Publicité", "voice": "f1", "fr": "Cette semaine seulement chez Électro-Plus : l'aspirateur sans fil à cent quatre-vingt-dix-neuf dollars quatre-vingt-quinze au lieu de deux cent soixante-dix-neuf ! Offre valable jusqu'à dimanche, dans la limite des stocks.", "en": "This week only at Électro-Plus: the cordless vacuum cleaner at $199.95 instead of $279! Offer valid until Sunday, while stocks last.", "hi": "सिर्फ़ इस हफ़्ते इलेक्ट्रो-प्लस पर: बिना तार वाला वैक्यूम क्लीनर 279 की जगह 199.95 डॉलर में! ऑफ़र रविवार तक, स्टॉक रहने तक।" },
+      { "speaker": "Passant", "voice": "m1", "fr": "Ben, moi, chais pas… les transports, y'a des jours où ça marche, y'a des jours où c'est l'enfer. Du coup, j'pars une demi-heure plus tôt.", "en": "Well, me, I dunno… transport, there are days when it works, there are days when it's hell. So I leave half an hour earlier.", "hi": "अरे, मुझे पता नहीं… आना-जाना, कुछ दिन ठीक चलता है, कुछ दिन नरक जैसा। इसलिए मैं आधा घंटा पहले निकलता हूँ।" },
+      { "speaker": "Passante", "voice": "f2", "fr": "Ouais, t'as raison, mais faut dire que l'hiver, c'est pire. Moi, j'bosse à Laval, et en janvier, c'est carrément une heure et quart de trajet.", "en": "Yeah, you're right, but you have to say winter is worse. I work in Laval, and in January it's a whole hour and a quarter of commuting.", "hi": "हाँ, तुम सही हो, पर मानना पड़ेगा कि सर्दी में और बुरा है। मैं लावाल में काम करती हूँ, और जनवरी में तो पूरे सवा घंटे का सफ़र होता है।" }
+    ],
+    "questions": [
+      { "q": { "en": "How much extra time should drivers on Highway 40 allow?" }, "options": ["Ten minutes", "Forty minutes", "Twenty minutes", "Half an hour"], "answer": 2, "explanation": { "en": "'Comptez vingt minutes de plus que d'habitude.' 40 is the highway number.", "hi": "'Comptez vingt minutes de plus que d'habitude.' 40 तो हाईवे का नंबर है।" }, "kind": "literal", "evidence": "comptez vingt minutes de plus que d'habitude" },
+      { "q": { "en": "What is the sale price of the vacuum cleaner?" }, "options": ["$279", "$199.95", "$179.95", "$95"], "answer": 1, "explanation": { "en": "'Cent quatre-vingt-dix-neuf dollars quatre-vingt-quinze' = $199.95; $279 is the old price.", "hi": "'Cent quatre-vingt-dix-neuf dollars quatre-vingt-quinze' = 199.95 डॉलर; 279 पुरानी क़ीमत है।" }, "kind": "literal", "evidence": "cent quatre-vingt-dix-neuf dollars quatre-vingt-quinze" },
+      { "q": { "en": "How long is the offer valid?" }, "options": ["Until Sunday, while stocks last", "All month", "Only today", "Until the end of the year"], "answer": 0, "explanation": { "en": "'Offre valable jusqu'à dimanche, dans la limite des stocks.'", "hi": "'Offre valable jusqu'à dimanche, dans la limite des stocks' — रविवार तक, स्टॉक रहने तक।" }, "kind": "literal", "evidence": "Offre valable jusqu'à dimanche" },
+      { "q": { "en": "What does the man do because of unreliable transport?" }, "options": ["He works from home", "He drives instead", "He changed jobs", "He leaves half an hour earlier"], "answer": 3, "explanation": { "en": "'Du coup, j'pars une demi-heure plus tôt.' Du coup = so.", "hi": "'Du coup, j'pars une demi-heure plus tôt.' Du coup = इसलिए।" }, "kind": "literal", "evidence": "j'pars une demi-heure plus tôt" },
+      { "q": { "en": "How long is the woman's commute in January?" }, "options": ["Fifteen minutes", "One hour and a quarter", "Half an hour", "Two hours"], "answer": 1, "explanation": { "en": "'Carrément une heure et quart de trajet.'", "hi": "'Carrément une heure et quart de trajet' — सवा घंटा।" }, "kind": "literal", "evidence": "une heure et quart de trajet" },
+      { "q": { "en": "What does 'chais pas' mean?" }, "options": ["I don't know", "I'm not leaving", "It doesn't work", "I don't care"], "answer": 0, "explanation": { "en": "'Chais pas' is the spoken form of 'je ne sais pas'.", "hi": "'Chais pas', 'je ne sais pas' का बोलचाल वाला रूप है।" }, "kind": "vocabulary", "evidence": "chais pas" }
+    ],
+    "dictation": [
+      "Comptez vingt minutes de plus que d'habitude.",
+      "Offre valable jusqu'à dimanche, dans la limite des stocks."
+    ],
+    "gapFill": {
+      "text": "Y'a des jours où ça marche, y'a des jours où c'est l'enfer. Du ___, j'pars une demi-heure plus tôt. En janvier, c'est ___ une heure et quart de trajet.",
+      "answers": ["coup", "carrément"]
+    }
+  },
+  "speaking": {
+    "type": "conversation",
+    "instructions": {
+      "en": "Fast-response drills. Your partner (or the app) asks short questions at natural speed, sometimes with reductions. Start answering within three seconds, in a full sentence of standard French. Don't aim for perfect — aim for fast and clear.",
+      "hi": "तेज़ जवाब का अभ्यास। आपका साथी (या ऐप) स्वाभाविक गति से, कभी-कभी छोटे रूपों के साथ, छोटे प्रश्न पूछेगा। तीन सेकंड के अंदर मानक फ़्रेंच के पूरे वाक्य में जवाब देना शुरू कीजिए। परफ़ेक्ट नहीं — तेज़ और साफ़ बोलने का लक्ष्य रखिए।"
+    },
+    "prompts": [
+      { "fr": "T'as combien de temps de trajet le matin ?", "en": "How long is your commute in the morning?", "hi": "सुबह तुम्हारा कितनी देर का सफ़र होता है?", "pron": "ता कोँ-ब्यैँ द ताँ द त्ग़ा-झ़ै लö मा-तैँ", "model": "J'ai environ quarante minutes de trajet en métro." },
+      { "fr": "Y'a quoi de bien dans ton quartier ?", "en": "What's good in your neighbourhood?", "hi": "तुम्हारे मोहल्ले में क्या अच्छा है?", "pron": "या क्वा दö ब्यैँ दाँ तोँ काग़-त्ये", "model": "Il y a un grand parc et une bibliothèque très moderne." },
+      { "fr": "Tu préfères l'été ou l'hiver ? Pourquoi ?", "en": "Do you prefer summer or winter? Why?", "hi": "तुम्हें गर्मी पसंद है या सर्दी? क्यों?", "pron": "तü प्ग़े-फ़ैग़ ले-ते ऊ ली-वैग़ पूग़-क्वा", "model": "Je préfère l'été, parce qu'on peut faire du vélo et voir des amis dehors." },
+      { "fr": "C'est quoi, ton dernier achat ?", "en": "What was your last purchase?", "hi": "तुमने आख़िरी बार क्या ख़रीदा?", "pron": "सै क्वा तोँ दैग़-न्ये ग़ा-शा", "model": "J'ai acheté un manteau d'hiver en solde, à quatre-vingt-dix-neuf dollars." },
+      { "fr": "Faut faire quoi pour bien s'intégrer, à ton avis ?", "en": "What do you need to do to settle in well, in your view?", "hi": "तुम्हारी राय में अच्छे से घुलने-मिलने के लिए क्या करना चाहिए?", "pron": "फ़ो फ़ैग़ क्वा पूग़ ब्यैँ सैँ-ते-ग्ग़े आ तो ना-वी", "model": "À mon avis, il faut apprendre la langue et participer à la vie du quartier." }
+    ],
+    "tip": {
+      "en": "Answer the question first in one sentence, then add one detail. That pattern keeps you fast and relevant.",
+      "hi": "पहले एक वाक्य में प्रश्न का जवाब दीजिए, फिर एक बात और जोड़िए। इस ढर्रे से आप तेज़ भी रहते हैं और विषय पर भी।"
+    }
+  },
+  "reading": {
+    "genre": "article",
+    "title": "Les bibliothèques, nouveaux cœurs des quartiers",
+    "text": "Il y a vingt ans, beaucoup prédisaient la fin des bibliothèques. Avec Internet, pensait-on, plus personne n'aurait besoin d'emprunter des livres. Or, c'est le contraire qui s'est produit : dans plusieurs villes canadiennes, la fréquentation des bibliothèques publiques a augmenté ces dernières années, même si le nombre de prêts de livres papier, lui, a légèrement baissé.\n\nLe secret de ce succès ? Les bibliothèques ont changé de rôle. On y vient encore pour lire, bien sûr, mais aussi pour travailler, apprendre ou simplement rencontrer d'autres personnes. À Laval, par exemple, une bibliothèque de quartier propose désormais des ateliers d'aide aux devoirs, des cafés-rencontres pour nouveaux arrivants et même un petit studio d'enregistrement gratuit.\n\nPour les familles immigrantes, ces lieux jouent un rôle particulier. « Quand nous sommes arrivés, la bibliothèque a été le premier endroit où nous nous sommes sentis accueillis », raconte Amina, mère de trois enfants. « C'est gratuit, c'est chaud en hiver, et le personnel prend le temps d'expliquer. » Beaucoup de bibliothèques prêtent aujourd'hui des ordinateurs portables, des jeux de société, voire des instruments de musique.\n\nCette transformation a toutefois un coût. Les heures d'ouverture plus longues et les nouveaux services demandent du personnel supplémentaire, alors que les budgets municipaux sont limités. Certains bibliothécaires s'inquiètent aussi de devenir des « travailleurs sociaux » sans en avoir la formation : ils accueillent de plus en plus de personnes en difficulté, sans toujours savoir comment les aider.\n\nMalgré ces défis, la plupart des experts restent optimistes. Selon eux, dans une société où les lieux publics gratuits se font rares, la bibliothèque est devenue un espace essentiel, ouvert à tous, quels que soient l'âge, le revenu ou la langue de chacun. Reste à lui donner les moyens de remplir cette mission.",
+    "translation": {
+      "en": "Twenty years ago, many people predicted the end of libraries. With the internet, it was thought, nobody would need to borrow books any more. Yet the opposite has happened: in several Canadian cities, attendance at public libraries has risen in recent years, even though the number of paper-book loans has fallen slightly.\n\nThe secret of this success? Libraries have changed their role. People still come to read, of course, but also to work, learn or simply meet other people. In Laval, for example, a neighbourhood library now offers homework-help workshops, coffee meet-ups for newcomers and even a small free recording studio.\n\nFor immigrant families, these places play a special role. 'When we arrived, the library was the first place where we felt welcome,' says Amina, a mother of three. 'It's free, it's warm in winter, and the staff take the time to explain.' Many libraries now lend laptops, board games, and even musical instruments.\n\nThis transformation comes at a cost, however. Longer opening hours and new services require extra staff, while municipal budgets are limited. Some librarians also worry about becoming 'social workers' without having the training: they welcome more and more people in difficulty, without always knowing how to help them.\n\nDespite these challenges, most experts remain optimistic. In their view, in a society where free public places are becoming rare, the library has become an essential space, open to all, whatever their age, income or language. What remains is to give it the means to fulfil this mission.",
+      "hi": "बीस साल पहले बहुत-से लोग लाइब्रेरियों के अंत की भविष्यवाणी कर रहे थे। सोचा जाता था कि इंटरनेट के होते किसी को किताबें उधार लेने की ज़रूरत नहीं रहेगी। लेकिन हुआ इसका उलटा: कनाडा के कई शहरों में पिछले कुछ सालों में सार्वजनिक लाइब्रेरियों में आने वालों की संख्या बढ़ी है, भले ही छपी किताबों के उधार थोड़े कम हुए हैं।\n\nइस सफलता का राज़? लाइब्रेरियों ने अपनी भूमिका बदल ली है। लोग अब भी पढ़ने आते हैं, बेशक, पर काम करने, सीखने या बस दूसरे लोगों से मिलने भी आते हैं। उदाहरण के लिए, लावाल की एक मोहल्ला लाइब्रेरी अब होमवर्क में मदद की कार्यशालाएँ, नए आए लोगों के लिए कॉफ़ी-मुलाक़ातें और यहाँ तक कि एक छोटा मुफ़्त रिकॉर्डिंग स्टूडियो भी देती है।\n\nप्रवासी परिवारों के लिए ये जगहें ख़ास भूमिका निभाती हैं। तीन बच्चों की माँ अमीना बताती हैं, 'जब हम आए, तो लाइब्रेरी पहली जगह थी जहाँ हमें अपनापन महसूस हुआ। यह मुफ़्त है, सर्दी में गरम रहती है, और कर्मचारी समझाने के लिए समय निकालते हैं।' आज कई लाइब्रेरियाँ लैपटॉप, बोर्ड गेम, और यहाँ तक कि वाद्य-यंत्र भी उधार देती हैं।\n\nलेकिन इस बदलाव की एक क़ीमत है। ज़्यादा देर तक खुलने और नई सेवाओं के लिए अतिरिक्त कर्मचारी चाहिए, जबकि नगरपालिकाओं के बजट सीमित हैं। कुछ लाइब्रेरियन यह चिंता भी करते हैं कि वे बिना प्रशिक्षण के 'सामाजिक कार्यकर्ता' बनते जा रहे हैं: उनके पास मुश्किल में फँसे लोग बढ़ते जा रहे हैं, और वे हमेशा नहीं जानते कि उनकी मदद कैसे करें।\n\nइन चुनौतियों के बावजूद ज़्यादातर विशेषज्ञ आशावादी हैं। उनके अनुसार, ऐसे समाज में जहाँ मुफ़्त सार्वजनिक जगहें कम होती जा रही हैं, लाइब्रेरी एक ज़रूरी जगह बन गई है, जो सबके लिए खुली है, उम्र, आमदनी या भाषा चाहे जो हो। अब बस उसे यह काम पूरा करने के साधन देने बाक़ी हैं।"
+    },
+    "questions": [
+      { "q": { "en": "What did many people predict twenty years ago?" }, "options": ["The end of libraries", "More paper books", "Free internet for all", "Longer opening hours"], "answer": 0, "explanation": { "en": "'Beaucoup prédisaient la fin des bibliothèques.'", "hi": "'Beaucoup prédisaient la fin des bibliothèques' — लाइब्रेरियों के अंत की भविष्यवाणी।" }, "kind": "literal", "evidence": "beaucoup prédisaient la fin des bibliothèques" },
+      { "q": { "en": "What has happened recently, according to the first paragraph?" }, "options": ["Fewer visitors and fewer loans", "More visitors, but slightly fewer paper-book loans", "More loans but fewer visitors", "Libraries have closed"], "answer": 1, "explanation": { "en": "Attendance 'a augmenté', 'même si le nombre de prêts de livres papier, lui, a légèrement baissé'.", "hi": "आने वालों की संख्या 'a augmenté', 'même si le nombre de prêts de livres papier, lui, a légèrement baissé'।" }, "kind": "inference", "evidence": "même si le nombre de prêts de livres papier, lui, a légèrement baissé" },
+      { "q": { "en": "What is the main idea of the second paragraph? (Read its first sentences.)" }, "options": ["Libraries are too expensive", "Laval has the best library", "Libraries have changed their role", "People no longer read"], "answer": 2, "explanation": { "en": "'Les bibliothèques ont changé de rôle' — the first sentence after the question gives the main idea.", "hi": "'Les bibliothèques ont changé de rôle' — प्रश्न के बाद वाला पहला वाक्य मुख्य विचार देता है।" }, "kind": "gist", "evidence": "Les bibliothèques ont changé de rôle." },
+      { "q": { "en": "What does Amina particularly appreciate?" }, "options": ["The recording studio", "The musical instruments", "The homework help only", "It's free, warm, and the staff explain things"], "answer": 3, "explanation": { "en": "'C'est gratuit, c'est chaud en hiver, et le personnel prend le temps d'expliquer.'", "hi": "'C'est gratuit, c'est chaud en hiver, et le personnel prend le temps d'expliquer।'" }, "kind": "literal", "evidence": "le personnel prend le temps d'expliquer" },
+      { "q": { "en": "What worries some librarians?" }, "options": ["Losing their jobs to the internet", "Acting as social workers without the training", "Having too few visitors", "Lending expensive objects"], "answer": 1, "explanation": { "en": "They fear becoming 'travailleurs sociaux' 'sans en avoir la formation'.", "hi": "उन्हें डर है कि वे 'sans en avoir la formation' — बिना प्रशिक्षण के — 'travailleurs sociaux' बन रहे हैं।" }, "kind": "inference", "evidence": "sans en avoir la formation" },
+      { "q": { "en": "What is the author's conclusion?" }, "options": ["Libraries are essential but need more resources", "Libraries should go back to lending books only", "Libraries will disappear soon", "Libraries should charge a fee"], "answer": 0, "explanation": { "en": "Libraries are 'un espace essentiel'; 'reste à lui donner les moyens de remplir cette mission'.", "hi": "लाइब्रेरी 'un espace essentiel' है; 'reste à lui donner les moyens de remplir cette mission' — साधन देने बाक़ी हैं।" }, "kind": "gist", "evidence": "Reste à lui donner les moyens de remplir cette mission." }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "Fast summary: in 8 minutes, summarise the library article in 50 to 80 words. Skim first (2 minutes), write (5 minutes), check (1 minute). Use your own words; don't copy whole sentences.",
+      "hi": "तेज़ सारांश: 8 मिनट में लाइब्रेरी वाले लेख का 50 से 80 शब्दों में सारांश लिखिए। पहले सरसरी नज़र (2 मिनट), लिखना (5 मिनट), जाँच (1 मिनट)। अपने शब्दों में लिखिए; पूरे वाक्य नक़ल मत कीजिए।",
+      "fr": "Résumez l'article en 50 à 80 mots."
+    },
+    "minWords": 50,
+    "maxWords": 80,
+    "hints": [
+      { "en": "One sentence per paragraph of the article is enough: five ideas, five sentences.", "hi": "लेख के हर अनुच्छेद के लिए एक वाक्य काफ़ी है: पाँच विचार, पाँच वाक्य।" },
+      { "en": "Start with 'Contrairement aux prévisions, …' or 'Selon l'article, …'.", "hi": "'Contrairement aux prévisions, …' या 'Selon l'article, …' से शुरू कीजिए।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Contrairement aux prévisions, …", "en": "Contrary to predictions, …", "hi": "अनुमानों के उलट, …", "pron": "कोँ-त्ग़ैग़-माँ ओ प्ग़े-वी-ज़्योँ" },
+      { "fr": "Selon l'article, …", "en": "According to the article, …", "hi": "लेख के अनुसार, …", "pron": "स-लोँ लाग़-तीक्ल" }
+    ],
+    "model": {
+      "fr": "Contrairement aux prévisions, les bibliothèques publiques attirent aujourd'hui plus de visiteurs. Elles ont changé de rôle : on y lit, mais on y travaille, on y apprend et on y rencontre des gens, notamment les nouveaux arrivants. Cette évolution coûte cher et inquiète certains bibliothécaires, mais les experts jugent ces lieux gratuits essentiels, à condition de leur donner des moyens suffisants.",
+      "en": "Contrary to predictions, public libraries now attract more visitors. They have changed their role: people read there, but also work, learn and meet others, especially newcomers. This change is costly and worries some librarians, but experts consider these free places essential, provided they are given enough resources."
+    },
+    "checklist": [
+      { "en": "Between 50 and 80 words?", "hi": "50 से 80 शब्दों के बीच?" },
+      { "en": "Does it cover the beginning (prediction), the change, the cost and the conclusion?", "hi": "क्या इसमें शुरुआत (भविष्यवाणी), बदलाव, ख़र्च और निष्कर्ष आ गए?" },
+      { "en": "Did you finish within 8 minutes?", "hi": "क्या आपने 8 मिनट में पूरा किया?" }
+    ]
+  },
+  "review": {
+    "fromDays": [83, 85, 94, 103, 110],
+    "items": [
+      { "fr": "soixante-dix-sept", "en": "seventy-seven", "hi": "सतहत्तर", "pron": "स्वा-साँत-दी-सैत" },
+      { "fr": "quatre-vingt-quinze", "en": "ninety-five", "hi": "पचानवे", "pron": "का-त्ग़ö-वैँ-कैँज़" },
+      { "fr": "ouais", "en": "yeah", "hi": "हाँ (बोलचाल)", "pron": "वै" },
+      { "fr": "en lisant", "en": "while reading", "hi": "पढ़ते हुए", "pron": "आँ ली-ज़ाँ" },
+      { "fr": "Il n'y a que …", "en": "There is only …", "hi": "सिर्फ़ … है", "pron": "ईल नी या कö" },
+      { "fr": "la plupart des experts", "en": "most experts", "hi": "ज़्यादातर विशेषज्ञ", "pron": "ला प्लü-पाग़ दे ज़ैक्स-पैग़" },
+      { "fr": "a légèrement baissé", "en": "has fallen slightly", "hi": "थोड़ा घटा है", "pron": "आ ले-झ़ैग़-माँ बै-से" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "What is the full form of 'Y'a pas de souci'?", "hi": "'Y'a pas de souci' का पूरा रूप क्या है?" }, "options": ["Il n'y a pas de souci.", "Il y a un souci.", "Je n'ai pas de souci.", "Tu n'as pas de souci."], "answer": 0, "explanation": { "en": "Y'a = il y a; the ne is dropped but the sentence is negative.", "hi": "Y'a = il y a; ne छूट गया है पर वाक्य नकारात्मक है।" } },
+    { "type": "mcq", "prompt": { "en": "You hear 'cent quarante-neuf quatre-vingt-dix-neuf'. What is the price?", "hi": "आप सुनते हैं 'cent quarante-neuf quatre-vingt-dix-neuf'। क़ीमत क्या है?" }, "options": ["$140.99", "$149.99", "$149.90", "$194.99"], "answer": 1, "explanation": { "en": "Cent quarante-neuf = 149; quatre-vingt-dix-neuf = 99 cents.", "hi": "Cent quarante-neuf = 149; quatre-vingt-dix-neuf = 99 सेंट।" } },
+    { "type": "mcq", "prompt": { "en": "When skimming a long text, what should you read first?", "hi": "लंबे पाठ पर सरसरी नज़र डालते समय पहले क्या पढ़ना चाहिए?" }, "options": ["Every word slowly", "Only the last line", "The title, first and last paragraphs, and first sentences", "Only the numbers"], "answer": 2, "explanation": { "en": "These parts usually carry the main ideas.", "hi": "मुख्य विचार आम तौर पर इन्हीं हिस्सों में होते हैं।" } },
+    { "type": "fill", "prompt": { "en": "Write the standard form: 'Chais pas.'", "hi": "मानक रूप लिखिए: 'Chais pas.'" }, "sentence": "Je ne ___ pas.", "answer": "sais", "accept": [], "explanation": { "en": "Chais pas = je ne sais pas.", "hi": "Chais pas = je ne sais pas।" } },
+    { "type": "fill", "prompt": { "en": "Write the standard form: 'T'as raison.'", "hi": "मानक रूप लिखिए: 'T'as raison.'" }, "sentence": "Tu ___ raison.", "answer": "as", "accept": [], "explanation": { "en": "T'as = tu as.", "hi": "T'as = tu as।" } },
+    { "type": "translate", "prompt": { "en": "Write in standard French.", "hi": "मानक फ़्रेंच में लिखिए।" }, "source": { "en": "I've got to go. (standard form of 'Faut que j'y aille')", "hi": "मुझे जाना होगा। ('Faut que j'y aille' का मानक रूप)" }, "answer": "Il faut que j'y aille.", "accept": ["Il faut que j'y aille", "Je dois y aller."], "explanation": { "en": "Faut = il faut.", "hi": "Faut = il faut।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: I skim the text in two minutes.", "hi": "शब्दों को सही क्रम में रखिए: मैं दो मिनट में पाठ पर सरसरी नज़र डालता हूँ।" }, "words": ["survole", "Je", "le", "texte", "en", "deux", "minutes."], "answer": "Je survole le texte en deux minutes.", "explanation": { "en": "En + duration = within that time.", "hi": "En + अवधि = उतने समय में।" } }
+  ]
+}

@@ -1,0 +1,909 @@
+{
+  "day": 45,
+  "phase": 3,
+  "title": {
+    "fr": "Le temps au passé : il y a, pendant, depuis",
+    "en": "Time in the past: il y a, pendant, depuis",
+    "hi": "बीते समय की बात: il y a, pendant, depuis"
+  },
+  "objective": {
+    "en": "Say when something happened (il y a = ago), how long it lasted (pendant), how long it took (en), and how long something has been true (depuis + present).",
+    "hi": "बताना कि कोई बात कब हुई (il y a = … पहले), कितनी देर चली (pendant), पूरा होने में कितना समय लगा (en), और कोई बात कब से सच है (depuis + वर्तमान)।"
+  },
+  "prerequisites": {
+    "days": [
+      8,
+      13,
+      36,
+      41,
+      43,
+      44
+    ],
+    "summary": {
+      "en": "You need il y a (there is, Day 8), dates (Day 13), depuis with health (Day 36), and the passé composé with avoir and être (Days 41–44).",
+      "hi": "आपको il y a (है/हैं, दिन 8), तारीख़ें (दिन 13), सेहत वाले वाक्यों में depuis (दिन 36), और avoir तथा être वाला पासे कॉम्पोज़े (दिन 41–44) याद होना चाहिए।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "il y a (+ durée)",
+      "en": "ago",
+      "hi": "(इतने समय) पहले",
+      "pron": "ई-लि-या",
+      "ipa": "ilja",
+      "pos": "phrase",
+      "note": {
+        "en": "Same words as 'there is', but before a duration it means 'ago': il y a deux ans = two years ago.",
+        "hi": "यही शब्द 'है/हैं' के लिए भी हैं, पर किसी अवधि से पहले इसका मतलब 'पहले' होता है: il y a deux ans = दो साल पहले।"
+      }
+    },
+    {
+      "fr": "pendant",
+      "en": "for, during (a finished period)",
+      "hi": "(इतने समय) तक, के दौरान",
+      "pron": "पाँ-दाँ",
+      "ipa": "pɑ̃dɑ̃",
+      "pos": "preposition"
+    },
+    {
+      "fr": "depuis",
+      "en": "since; for (and still now)",
+      "hi": "से (अब तक)",
+      "pron": "दö-प्üई",
+      "ipa": "dəpɥi",
+      "pos": "preposition"
+    },
+    {
+      "fr": "longtemps",
+      "en": "a long time",
+      "hi": "लंबे समय तक, बहुत देर",
+      "pron": "लोँ-ताँ",
+      "ipa": "lɔ̃tɑ̃",
+      "pos": "adverb",
+      "note": {
+        "en": "Both the g and the final ps are silent.",
+        "hi": "g और आख़िरी ps दोनों नहीं बोले जाते।"
+      }
+    },
+    {
+      "fr": "récemment",
+      "en": "recently",
+      "hi": "हाल ही में",
+      "pron": "ग़े-सा-माँ",
+      "ipa": "ʁesamɑ̃",
+      "pos": "adverb",
+      "note": {
+        "en": "The -emment ending sounds like 'amant' (आ-माँ).",
+        "hi": "-emment अंत की आवाज़ 'आ-माँ' जैसी होती है।"
+      }
+    },
+    {
+      "fr": "une année",
+      "en": "a year (its length, its content)",
+      "hi": "एक साल (पूरा साल)",
+      "pron": "ü-ना-ने",
+      "ipa": "yn ane",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "année",
+      "note": {
+        "en": "Use 'an' with numbers (trois ans) and 'année' when you think of the year's content (une bonne année, l'année dernière).",
+        "hi": "संख्या के साथ 'an' (trois ans), और जब साल के भीतर की बात हो तो 'année' (une bonne année, l'année dernière)।"
+      }
+    },
+    {
+      "fr": "le lycée",
+      "en": "secondary school, high school",
+      "hi": "हाई स्कूल / उच्च माध्यमिक विद्यालय",
+      "pron": "लö ली-से",
+      "ipa": "lə lise",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "lycée",
+      "note": {
+        "en": "Masculine although it ends in -ée.",
+        "hi": "-ée पर ख़त्म होने के बावजूद यह पुल्लिंग है।"
+      }
+    },
+    {
+      "fr": "l'université",
+      "en": "the university",
+      "hi": "विश्वविद्यालय",
+      "pron": "लü-नी-वैग़-सी-ते",
+      "ipa": "lynivɛʁsite",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "université"
+    },
+    {
+      "fr": "le diplôme",
+      "en": "the degree, the diploma",
+      "hi": "डिग्री, उपाधि",
+      "pron": "लö दी-प्लोम",
+      "ipa": "lə diplom",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "diplôme"
+    },
+    {
+      "fr": "déménager",
+      "en": "to move (house)",
+      "hi": "घर बदलना, शिफ़्ट होना",
+      "pron": "दे-मे-ना-झ़े",
+      "ipa": "demenaʒe",
+      "pos": "verb",
+      "note": {
+        "en": "Uses avoir: j'ai déménagé.",
+        "hi": "avoir के साथ: j'ai déménagé।"
+      }
+    },
+    {
+      "fr": "se marier",
+      "en": "to get married",
+      "hi": "शादी करना",
+      "pron": "सö मा-ग़्ये",
+      "ipa": "sə maʁje",
+      "pos": "verb",
+      "note": {
+        "en": "Reflexive, so être in the past: je me suis marié(e).",
+        "hi": "निजवाचक है, इसलिए भूतकाल में être: je me suis marié(e)।"
+      }
+    },
+    {
+      "fr": "commencer",
+      "en": "to start, to begin",
+      "hi": "शुरू करना",
+      "pron": "को-माँ-से",
+      "ipa": "kɔmɑ̃se",
+      "pos": "verb"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Je suis arrivé(e) il y a deux ans.",
+      "en": "I arrived two years ago.",
+      "hi": "मैं दो साल पहले आया/आई।",
+      "pron": "झ़ö स्üई ज़ा-ग़ी-वे ई-लि-या दö ज़ाँ",
+      "ipa": "ʒə sɥi zaʁive ilja dø zɑ̃"
+    },
+    {
+      "fr": "J'habite ici depuis six mois.",
+      "en": "I have been living here for six months.",
+      "hi": "मैं छह महीने से यहाँ रह रहा/रही हूँ।",
+      "pron": "झ़ा-बीत ई-सी दö-प्üई सी म्वा",
+      "ipa": "ʒabit isi dəpɥi si mwa"
+    },
+    {
+      "fr": "Vous apprenez le français depuis combien de temps ?",
+      "en": "How long have you been learning French?",
+      "hi": "आप कब से फ़्रेंच सीख रहे हैं?",
+      "pron": "वू ज़ा-प्रö-ने लö फ़्राँ-सै दö-प्üई कोँ-ब्यैँ द ताँ",
+      "ipa": "vu zapʁəne lə fʁɑ̃sɛ dəpɥi kɔ̃bjɛ̃ də tɑ̃"
+    },
+    {
+      "fr": "J'ai travaillé pendant cinq ans à Pune.",
+      "en": "I worked in Pune for five years.",
+      "hi": "मैंने पाँच साल पुणे में काम किया।",
+      "pron": "झ़े त्रा-वा-ये पाँ-दाँ सैँ काँ आ पु-ने",
+      "ipa": "ʒe tʁavaje pɑ̃dɑ̃ sɛ̃ kɑ̃ a pune"
+    },
+    {
+      "fr": "Il y a combien de temps ?",
+      "en": "How long ago?",
+      "hi": "कितने समय पहले?",
+      "pron": "ई-लि-या कोँ-ब्यैँ द ताँ",
+      "ipa": "ilja kɔ̃bjɛ̃ də tɑ̃"
+    },
+    {
+      "fr": "J'ai trouvé un travail en trois semaines.",
+      "en": "I found a job in three weeks.",
+      "hi": "मुझे तीन हफ़्तों में नौकरी मिल गई।",
+      "pron": "झ़े त्रू-वे ऐँ त्रा-वाय आँ त्रवा स्मैन",
+      "ipa": "ʒe tʁuve ɛ̃ tʁavaj ɑ̃ tʁwa smɛn"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "il y a, pendant, depuis and en with time",
+      "hi": "समय के साथ il y a, pendant, depuis और en"
+    },
+    "explanation": {
+      "en": "il y a + duration = ago, with a past tense: Je suis arrivé il y a trois ans. pendant + duration = for, a period that is finished: J'ai habité à Delhi pendant dix ans (I don't live there now). depuis + duration or date = for/since, and the action is still going on, so French uses the PRESENT: J'habite à Montréal depuis 2022 / depuis deux ans. en + duration = how long it took to finish something: J'ai appris à conduire en trois mois. Questions: Il y a combien de temps … ? Pendant combien de temps … ? Depuis quand … ? Depuis combien de temps … ?",
+      "hi": "il y a + अवधि = (इतने समय) पहले, भूतकाल के साथ: Je suis arrivé il y a trois ans (मैं तीन साल पहले आया)। pendant + अवधि = इतने समय तक, ऐसी अवधि जो ख़त्म हो चुकी: J'ai habité à Delhi pendant dix ans (अब वहाँ नहीं रहता)। depuis + अवधि या तारीख़ = से, और काम अब भी जारी है, इसलिए फ़्रेंच में वर्तमान काल: J'habite à Montréal depuis 2022 / depuis deux ans। en + अवधि = कोई काम पूरा करने में कितना समय लगा: J'ai appris à conduire en trois mois। प्रश्न: Il y a combien de temps … ? Pendant combien de temps … ? Depuis quand … ? Depuis combien de temps … ?"
+    },
+    "comparison": {
+      "en": "With depuis, Hindi is a better guide than English! Hindi says 'मैं दो साल से यहाँ रह रहा हूँ' — a present form + से. French says the same: 'J'habite ici depuis deux ans' (present + depuis). English uses 'I have been living', and English speakers wrongly say 'J'ai habité ici depuis…'. Think in Hindi: से + present = depuis + present.",
+      "hi": "depuis के मामले में हिंदी अंग्रेज़ी से बेहतर मार्गदर्शक है! हिंदी कहती है 'मैं दो साल से यहाँ रह रहा हूँ' — वर्तमान रूप + से। फ़्रेंच भी यही कहती है: 'J'habite ici depuis deux ans' (वर्तमान + depuis)। अंग्रेज़ी में 'I have been living' होता है, इसलिए अंग्रेज़ी बोलने वाले ग़लती से 'J'ai habité ici depuis…' कह देते हैं। हिंदी में सोचिए: से + वर्तमान = depuis + वर्तमान।"
+    },
+    "examples": [
+      {
+        "fr": "Nous sommes arrivés à Ottawa il y a un an.",
+        "en": "We arrived in Ottawa a year ago.",
+        "hi": "हम एक साल पहले ओटावा पहुँचे।",
+        "pron": "नू सॉम ज़ा-ग़ी-वे ज़ा ओ-ता-वा ई-लि-या ऐँ नाँ"
+      },
+      {
+        "fr": "Elle a étudié à l'université pendant quatre ans.",
+        "en": "She studied at university for four years.",
+        "hi": "उसने चार साल विश्वविद्यालय में पढ़ाई की।",
+        "pron": "ऐ-ला ए-तü-द्ये आ लü-नी-वैग़-सी-ते पाँ-दाँ का-त्राँ"
+      },
+      {
+        "fr": "Je travaille dans cette entreprise depuis mars.",
+        "en": "I have been working in this company since March.",
+        "hi": "मैं मार्च से इस कंपनी में काम कर रहा/रही हूँ।",
+        "pron": "झ़ö त्रा-वाय दाँ सै ताँ-त्रö-प्रीज़ दö-प्üई माग़स"
+      },
+      {
+        "fr": "Il a fini le formulaire en dix minutes.",
+        "en": "He finished the form in ten minutes.",
+        "hi": "उसने दस मिनट में फ़ॉर्म पूरा कर दिया।",
+        "pron": "ई-ला फ़ी-नी लö फ़ॉग़-मü-लैग़ आँ दी मी-नüत"
+      },
+      {
+        "fr": "Depuis quand est-ce que tu as mal à la tête ? — Depuis ce matin.",
+        "en": "Since when have you had a headache? — Since this morning.",
+        "hi": "तुम्हारे सिर में दर्द कब से है? — आज सुबह से।",
+        "pron": "दö-प्üई काँ ऐस-क तü आ माल आ ला तैत — दö-प्üई सö मा-तैँ"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Don't use the passé composé with depuis for something still true: 'J'ai habité ici depuis deux ans' is wrong → 'J'habite ici depuis deux ans'.",
+        "hi": "जो बात अब भी सच है, उसके लिए depuis के साथ पासे कॉम्पोज़े मत लगाइए: 'J'ai habité ici depuis deux ans' ग़लत है → 'J'habite ici depuis deux ans'।"
+      },
+      {
+        "en": "'il y a' goes before the duration, not after: 'il y a deux ans' (not 'deux ans il y a', not 'deux ans avant').",
+        "hi": "'il y a' अवधि से पहले आता है, बाद में नहीं: 'il y a deux ans' ('deux ans il y a' या 'deux ans avant' नहीं)।"
+      },
+      {
+        "en": "pendant is often dropped in speech: J'ai travaillé cinq ans à Pune. Both are correct.",
+        "hi": "बोलचाल में pendant अक्सर छोड़ दिया जाता है: J'ai travaillé cinq ans à Pune। दोनों सही हैं।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "The glide /j/ in hier, travailler, il y a",
+    "tip": {
+      "en": "/j/ is the य sound. French writes it in many ways: i before a vowel (hier), -ill- (travailler, famille), y (il y a, payer). Keep it short and light, gliding straight into the next vowel: यैग़, not ही-ऐग़.",
+      "hi": "/j/ हिंदी की य वाली आवाज़ है। फ़्रेंच इसे कई तरह से लिखती है: स्वर से पहले i (hier), -ill- (travailler, famille), y (il y a, payer)। इसे छोटा और हल्का रखिए, सीधे अगले स्वर में फिसलते हुए: यैग़, ही-ऐग़ नहीं।"
+    },
+    "words": [
+      {
+        "fr": "hier",
+        "en": "yesterday",
+        "hi": "बीता कल",
+        "pron": "यैग़",
+        "ipa": "jɛʁ"
+      },
+      {
+        "fr": "travailler",
+        "en": "to work",
+        "hi": "काम करना",
+        "pron": "त्रा-वा-ये",
+        "ipa": "tʁavaje"
+      },
+      {
+        "fr": "la famille",
+        "en": "the family",
+        "hi": "परिवार",
+        "pron": "ला फ़ा-मीय",
+        "ipa": "la famij"
+      },
+      {
+        "fr": "il y a",
+        "en": "there is; ago",
+        "hi": "है/हैं; पहले",
+        "pron": "ई-लि-या",
+        "ipa": "ilja"
+      },
+      {
+        "fr": "payer",
+        "en": "to pay",
+        "hi": "भुगतान करना",
+        "pron": "पे-ये",
+        "ipa": "peje"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Votre parcours, monsieur Kumar ?",
+      "en": "Your background, Mr Kumar?"
+    },
+    "type": "interview",
+    "mode": "natural",
+    "context": {
+      "en": "At a newcomer services office in Ottawa, a counsellor asks Ravi Kumar about his background to help him plan his next steps.",
+      "hi": "ओटावा में नए आने वालों की सहायता करने वाले एक दफ़्तर में एक सलाहकार रवि कुमार से उनकी पृष्ठभूमि के बारे में पूछती हैं ताकि आगे की योजना बनाने में मदद कर सकें।"
+    },
+    "lines": [
+      {
+        "speaker": "Conseillère",
+        "voice": "f2",
+        "fr": "Bonjour, monsieur Kumar. Vous êtes au Canada depuis combien de temps ?",
+        "en": "Hello, Mr Kumar. How long have you been in Canada?",
+        "hi": "नमस्ते, कुमार जी। आप कितने समय से कनाडा में हैं?"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "Depuis huit mois. Je suis arrivé à Toronto il y a huit mois, en mars.",
+        "en": "For eight months. I arrived in Toronto eight months ago, in March.",
+        "hi": "आठ महीने से। मैं आठ महीने पहले, मार्च में, टोरंटो आया।"
+      },
+      {
+        "speaker": "Conseillère",
+        "voice": "f2",
+        "fr": "Et vous habitez à Ottawa depuis quand ?",
+        "en": "And since when have you lived in Ottawa?",
+        "hi": "और आप ओटावा में कब से रह रहे हैं?"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "Depuis septembre. J'ai déménagé il y a deux mois pour un travail.",
+        "en": "Since September. I moved two months ago for a job.",
+        "hi": "सितंबर से। मैं दो महीने पहले एक नौकरी के लिए यहाँ शिफ़्ट हुआ।"
+      },
+      {
+        "speaker": "Conseillère",
+        "voice": "f2",
+        "fr": "D'accord. Parlez-moi de vos études.",
+        "en": "All right. Tell me about your studies.",
+        "hi": "ठीक है। अपनी पढ़ाई के बारे में बताइए।"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "J'ai étudié l'informatique à l'université de Hyderabad pendant quatre ans. J'ai eu mon diplôme en 2015.",
+        "en": "I studied computer science at the University of Hyderabad for four years. I got my degree in 2015.",
+        "hi": "मैंने हैदराबाद विश्वविद्यालय में चार साल कंप्यूटर साइंस पढ़ा। 2015 में मुझे डिग्री मिली।"
+      },
+      {
+        "speaker": "Conseillère",
+        "voice": "f2",
+        "fr": "Et après vos études ?",
+        "en": "And after your studies?",
+        "hi": "और पढ़ाई के बाद?"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "J'ai travaillé pendant sept ans dans une banque à Bangalore, comme analyste.",
+        "en": "I worked for seven years in a bank in Bangalore, as an analyst.",
+        "hi": "मैंने सात साल बेंगलुरु के एक बैंक में एनालिस्ट के तौर पर काम किया।"
+      },
+      {
+        "speaker": "Conseillère",
+        "voice": "f2",
+        "fr": "Vous apprenez le français depuis longtemps ?",
+        "en": "Have you been learning French for a long time?",
+        "hi": "क्या आप बहुत समय से फ़्रेंच सीख रहे हैं?"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "Non, depuis un an seulement. J'ai commencé en Inde, avec des cours en ligne.",
+        "en": "No, for only one year. I started in India, with online classes.",
+        "hi": "नहीं, सिर्फ़ एक साल से। मैंने भारत में ऑनलाइन कक्षाओं से शुरुआत की।"
+      },
+      {
+        "speaker": "Conseillère",
+        "voice": "f2",
+        "fr": "Bravo, vous parlez déjà bien ! Et vous avez trouvé ce travail à Ottawa rapidement ?",
+        "en": "Well done, you already speak well! And did you find this job in Ottawa quickly?",
+        "hi": "शाबाश, आप पहले से अच्छा बोलते हैं! और ओटावा वाली यह नौकरी, जल्दी मिल गई?"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "Oui, assez vite. J'ai trouvé ce poste en trois semaines.",
+        "en": "Yes, quite fast. I found this position in three weeks.",
+        "hi": "हाँ, काफ़ी जल्दी। यह पद मुझे तीन हफ़्तों में मिल गया।"
+      },
+      {
+        "speaker": "Conseillère",
+        "voice": "f2",
+        "fr": "Très bien. Et votre famille ?",
+        "en": "Very good. And your family?",
+        "hi": "बहुत बढ़िया। और आपका परिवार?"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "Je me suis marié il y a cinq ans. Ma femme et ma fille vont arriver en décembre.",
+        "en": "I got married five years ago. My wife and daughter are going to arrive in December.",
+        "hi": "मेरी शादी पाँच साल पहले हुई। मेरी पत्नी और बेटी दिसंबर में आने वाली हैं।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "How long has Ravi been in Canada?"
+        },
+        "options": [
+          "Two months",
+          "Eight months",
+          "Four years",
+          "Five years"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Depuis huit mois' — he arrived eight months ago.",
+          "hi": "'Depuis huit mois' — वह आठ महीने पहले आया।"
+        },
+        "kind": "literal",
+        "evidence": "Depuis huit mois."
+      },
+      {
+        "q": {
+          "en": "Why did Ravi move to Ottawa?"
+        },
+        "options": [
+          "For his studies",
+          "To join his family",
+          "For a job"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "He moved two months ago 'pour un travail'.",
+          "hi": "वह दो महीने पहले 'pour un travail' (नौकरी के लिए) शिफ़्ट हुआ।"
+        },
+        "kind": "literal",
+        "evidence": "J'ai déménagé il y a deux mois pour un travail."
+      },
+      {
+        "q": {
+          "en": "How long did he work at the bank in Bangalore?"
+        },
+        "options": [
+          "Seven years",
+          "Four years",
+          "Eight months"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'pendant sept ans' — a finished period.",
+          "hi": "'pendant sept ans' — एक ख़त्म हो चुकी अवधि।"
+        },
+        "kind": "literal",
+        "evidence": "J'ai travaillé pendant sept ans dans une banque à Bangalore"
+      },
+      {
+        "q": {
+          "en": "How long has he been learning French?"
+        },
+        "options": [
+          "For one year",
+          "Since he arrived in Canada",
+          "For a long time"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'depuis un an seulement' — and he started in India, before coming.",
+          "hi": "'depuis un an seulement' — और उसने भारत में, आने से पहले, शुरुआत की।"
+        },
+        "kind": "literal",
+        "evidence": "Non, depuis un an seulement."
+      },
+      {
+        "q": {
+          "en": "Where are Ravi's wife and daughter now?"
+        },
+        "options": [
+          "In Ottawa with him",
+          "In Toronto",
+          "Not in Canada yet"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "They are going to arrive in December, so they are not in Canada yet.",
+          "hi": "वे दिसंबर में आने वाली हैं, यानी अभी कनाडा में नहीं हैं।"
+        },
+        "kind": "inference",
+        "evidence": "Ma femme et ma fille vont arriver en décembre."
+      }
+    ],
+    "dictation": [
+      "Je suis arrivé il y a huit mois.",
+      "J'habite à Ottawa depuis septembre.",
+      "J'ai trouvé ce poste en trois semaines."
+    ],
+    "gapFill": {
+      "text": "J'ai étudié l'informatique ___ quatre ans. J'apprends le français ___ un an. Je me suis marié ___ cinq ans.",
+      "answers": [
+        "pendant",
+        "depuis",
+        "il y a"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "conversation",
+    "instructions": {
+      "en": "Answer each question about your own life. Pay attention to the tense: depuis + present, il y a and pendant + passé composé.",
+      "hi": "हर प्रश्न का जवाब अपनी ज़िंदगी के बारे में दीजिए। काल पर ध्यान दीजिए: depuis + वर्तमान, il y a और pendant + पासे कॉम्पोज़े।"
+    },
+    "prompts": [
+      {
+        "fr": "Vous habitez dans votre ville depuis combien de temps ?",
+        "en": "How long have you lived in your city?",
+        "hi": "आप अपने शहर में कब से रह रहे हैं?",
+        "pron": "वू ज़ा-बीत दाँ वॉत्ग़ वील दö-प्üई कोँ-ब्यैँ द ताँ",
+        "model": "J'habite à Pune depuis douze ans."
+      },
+      {
+        "fr": "Vous apprenez le français depuis quand ?",
+        "en": "Since when have you been learning French?",
+        "hi": "आप कब से फ़्रेंच सीख रहे हैं?",
+        "pron": "वू ज़ा-प्रö-ने लö फ़्राँ-सै दö-प्üई काँ",
+        "model": "J'apprends le français depuis un mois et demi."
+      },
+      {
+        "fr": "Vous avez fini vos études il y a combien de temps ?",
+        "en": "How long ago did you finish your studies?",
+        "hi": "आपने कितने समय पहले पढ़ाई पूरी की?",
+        "pron": "वू ज़ा-वे फ़ी-नी वो ज़े-तüद ई-लि-या कोँ-ब्यैँ द ताँ",
+        "model": "J'ai fini mes études il y a six ans."
+      },
+      {
+        "fr": "Pendant combien de temps avez-vous étudié ?",
+        "en": "For how long did you study?",
+        "hi": "आपने कितने समय तक पढ़ाई की?",
+        "pron": "पाँ-दाँ कोँ-ब्यैँ द ताँ आ-वे वू ए-तü-द्ये",
+        "model": "J'ai étudié la comptabilité pendant trois ans."
+      },
+      {
+        "fr": "Vous avez déjà déménagé ? Il y a combien de temps ?",
+        "en": "Have you ever moved house? How long ago?",
+        "hi": "क्या आपने कभी घर बदला है? कितने समय पहले?",
+        "pron": "वू ज़ा-वे दे-झ़ा दे-मे-ना-झ़े — ई-लि-या कोँ-ब्यैँ द ताँ",
+        "model": "Oui, j'ai déménagé il y a deux ans, de Nagpur à Pune."
+      }
+    ],
+    "tip": {
+      "en": "Before answering a 'depuis' question, ask yourself in Hindi: 'कब से?' If the answer uses से + present in Hindi, use the present in French too.",
+      "hi": "'depuis' वाले प्रश्न का जवाब देने से पहले ख़ुद से हिंदी में पूछिए: 'कब से?' अगर हिंदी में से + वर्तमान आता है, तो फ़्रेंच में भी वर्तमान ही लगाइए।"
+    }
+  },
+  "reading": {
+    "genre": "article",
+    "title": "Portrait : Rajiv Mehta, le chef du Petit Bombay",
+    "text": "Rajiv Mehta est né à Mumbai en 1975. Enfant, il a passé beaucoup de temps dans la cuisine de sa grand-mère.\n\nAprès le lycée, il a étudié la gestion à l'université de Pune pendant trois ans, mais il n'a pas aimé ses études. En 1998, il est parti à Londres et il a travaillé pendant six ans dans des restaurants indiens.\n\nIl y a vingt ans, Rajiv est arrivé à Montréal avec cinq cents dollars et une valise. Il a appris le français en un an, le soir, après le travail. En 2006, il a ouvert un petit restaurant, Le Petit Bombay, rue Saint-Denis.\n\nAujourd'hui, Rajiv habite à Montréal depuis vingt ans, et son restaurant est toujours ouvert. Il s'est marié avec une Québécoise, Isabelle, il y a quinze ans, et ils ont deux enfants. Depuis 2020, il donne aussi des cours de cuisine le dimanche.\n\n« Je cuisine depuis toujours, dit-il. La cuisine, c'est ma vraie langue maternelle ! »",
+    "translation": {
+      "en": "Rajiv Mehta was born in Mumbai in 1975. As a child, he spent a lot of time in his grandmother's kitchen.\n\nAfter secondary school, he studied management at the University of Pune for three years, but he didn't like his studies. In 1998 he left for London and worked for six years in Indian restaurants.\n\nTwenty years ago, Rajiv arrived in Montréal with five hundred dollars and a suitcase. He learned French in one year, in the evenings, after work. In 2006 he opened a small restaurant, Le Petit Bombay, on Saint-Denis Street.\n\nToday Rajiv has been living in Montréal for twenty years, and his restaurant is still open. He married a Quebecer, Isabelle, fifteen years ago, and they have two children. Since 2020 he has also been giving cooking classes on Sundays.\n\n'I've been cooking forever,' he says. 'Cooking is my real mother tongue!'",
+      "hi": "राजीव मेहता का जन्म 1975 में मुंबई में हुआ। बचपन में वह अपनी दादी की रसोई में बहुत समय बिताते थे।\n\nहाई स्कूल के बाद उन्होंने पुणे विश्वविद्यालय में तीन साल मैनेजमेंट पढ़ा, पर उन्हें अपनी पढ़ाई पसंद नहीं आई। 1998 में वह लंदन चले गए और छह साल भारतीय रेस्टोरेंटों में काम किया।\n\nबीस साल पहले राजीव पाँच सौ डॉलर और एक सूटकेस लेकर मॉन्ट्रियाल पहुँचे। उन्होंने एक साल में, शाम को काम के बाद, फ़्रेंच सीखी। 2006 में उन्होंने सेंट-डेनी स्ट्रीट पर एक छोटा-सा रेस्टोरेंट खोला, 'ल पती बॉम्बे'।\n\nआज राजीव बीस साल से मॉन्ट्रियाल में रह रहे हैं, और उनका रेस्टोरेंट आज भी खुला है। पंद्रह साल पहले उन्होंने क्यूबेक की इज़ाबेल से शादी की, और उनके दो बच्चे हैं। 2020 से वह रविवार को खाना बनाने की कक्षाएँ भी लेते हैं।\n\n'मैं हमेशा से खाना बना रहा हूँ,' वह कहते हैं। 'खाना बनाना ही मेरी असली मातृभाषा है!'"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "Where did Rajiv's love of cooking probably begin?"
+        },
+        "options": [
+          "At university in Pune",
+          "In his grandmother's kitchen",
+          "In a restaurant in London",
+          "In Montréal"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "As a child he spent a lot of time in his grandmother's kitchen.",
+          "hi": "बचपन में वह अपनी दादी की रसोई में बहुत समय बिताते थे।"
+        },
+        "kind": "inference",
+        "evidence": "il a passé beaucoup de temps dans la cuisine de sa grand-mère"
+      },
+      {
+        "q": {
+          "en": "How long did Rajiv work in London?"
+        },
+        "options": [
+          "Three years",
+          "Twenty years",
+          "Six years"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'pendant six ans' — a finished period.",
+          "hi": "'pendant six ans' — ख़त्म हो चुकी अवधि।"
+        },
+        "kind": "literal",
+        "evidence": "il a travaillé pendant six ans dans des restaurants indiens"
+      },
+      {
+        "q": {
+          "en": "How long did it take him to learn French?"
+        },
+        "options": [
+          "One year",
+          "Twenty years",
+          "Six months"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'en un an' = it took him one year.",
+          "hi": "'en un an' = उन्हें एक साल लगा।"
+        },
+        "kind": "literal",
+        "evidence": "Il a appris le français en un an"
+      },
+      {
+        "q": {
+          "en": "Is Le Petit Bombay still open today?"
+        },
+        "options": [
+          "No, it closed in 2020",
+          "Yes, it is still open",
+          "The text doesn't say"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'son restaurant est toujours ouvert' — toujours here means 'still'.",
+          "hi": "'son restaurant est toujours ouvert' — यहाँ toujours का मतलब 'अब भी' है।"
+        },
+        "kind": "literal",
+        "evidence": "son restaurant est toujours ouvert"
+      },
+      {
+        "q": {
+          "en": "What does Rajiv mean by 'my real mother tongue'?"
+        },
+        "options": [
+          "He speaks Hindi at home",
+          "Cooking is how he expresses himself most naturally",
+          "He teaches languages on Sundays"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "He has cooked all his life; cooking feels as natural to him as a first language.",
+          "hi": "वह ज़िंदगी भर खाना बनाते आए हैं; उनके लिए खाना बनाना मातृभाषा जितना सहज है।"
+        },
+        "kind": "inference",
+        "evidence": "La cuisine, c'est ma vraie langue maternelle !"
+      }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "Write your own timeline: when and where you were born, your studies (for how long), your work, moves, and what you have been doing since when. Use il y a, pendant, depuis and en at least once each.",
+      "hi": "अपनी जीवन-रेखा लिखिए: आपका जन्म कब और कहाँ हुआ, आपकी पढ़ाई (कितने समय तक), काम, घर बदलना, और आप कब से क्या कर रहे हैं। il y a, pendant, depuis और en हर एक कम से कम एक बार इस्तेमाल कीजिए।",
+      "fr": "Écrivez votre parcours."
+    },
+    "minWords": 60,
+    "maxWords": 110,
+    "hints": [
+      {
+        "en": "Give dates with en: en 2015. Give 'ago' with il y a: il y a trois ans.",
+        "hi": "तारीख़ें en के साथ: en 2015। 'पहले' il y a के साथ: il y a trois ans।"
+      },
+      {
+        "en": "For things still true now, use depuis + present.",
+        "hi": "जो बातें अब भी सच हैं, उनके लिए depuis + वर्तमान।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Je suis né(e) à … en …",
+        "en": "I was born in … in …",
+        "hi": "मेरा जन्म … में … में हुआ",
+        "pron": "झ़ö स्üई ने आ … आँ"
+      },
+      {
+        "fr": "J'ai étudié … pendant … ans.",
+        "en": "I studied … for … years.",
+        "hi": "मैंने … साल तक … पढ़ा।",
+        "pron": "झ़े ए-तü-द्ये … पाँ-दाँ … आँ"
+      },
+      {
+        "fr": "Depuis …, je …",
+        "en": "Since …, I have been …",
+        "hi": "… से मैं …",
+        "pron": "दö-प्üई … झ़ö"
+      }
+    ],
+    "model": {
+      "fr": "Je suis née à Indore en 1994. J'ai étudié la pharmacie à l'université pendant quatre ans et j'ai eu mon diplôme en 2016. Ensuite, j'ai travaillé pendant cinq ans dans une pharmacie à Mumbai. Je me suis mariée il y a six ans. Nous sommes arrivés à Moncton il y a un an. J'ai trouvé un travail en deux mois. Depuis janvier, j'apprends le français le soir et j'habite dans un petit appartement près du centre.",
+      "en": "I was born in Indore in 1994. I studied pharmacy at university for four years and got my degree in 2016. Then I worked for five years in a pharmacy in Mumbai. I got married six years ago. We arrived in Moncton a year ago. I found a job in two months. Since January I have been learning French in the evenings and living in a small flat near the centre."
+    },
+    "checklist": [
+      {
+        "en": "Is every 'depuis' sentence in the present?",
+        "hi": "क्या depuis वाला हर वाक्य वर्तमान काल में है?"
+      },
+      {
+        "en": "Did you put il y a before the duration (il y a deux ans)?",
+        "hi": "क्या आपने il y a को अवधि से पहले रखा (il y a deux ans)?"
+      },
+      {
+        "en": "Did you use être for naître, arriver and se marier, with agreement?",
+        "hi": "क्या आपने naître, arriver और se marier के साथ être और सही मेल लगाया?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      13,
+      30,
+      36,
+      41,
+      43,
+      44
+    ],
+    "items": [
+      {
+        "fr": "le 3 janvier",
+        "en": "the 3rd of January",
+        "hi": "3 जनवरी",
+        "pron": "लö त्रवा झ़ाँ-व्ये"
+      },
+      {
+        "fr": "Je travaille comme infirmière.",
+        "en": "I work as a nurse.",
+        "hi": "मैं नर्स के तौर पर काम करती हूँ।",
+        "pron": "झ़ö त्रा-वाय कॉम ऐँ-फ़ीग़-म्यैग़"
+      },
+      {
+        "fr": "J'ai mal au dos depuis hier.",
+        "en": "My back has been hurting since yesterday.",
+        "hi": "मेरी पीठ में कल से दर्द है।",
+        "pron": "झ़े मा-लो दो दö-प्üई यैग़"
+      },
+      {
+        "fr": "Je suis parti(e) de Delhi.",
+        "en": "I left Delhi.",
+        "hi": "मैं दिल्ली से निकला/निकली।",
+        "pron": "झ़ö स्üई पाग़-ती दö दे-ली"
+      },
+      {
+        "fr": "Nous sommes restés une semaine.",
+        "en": "We stayed a week.",
+        "hi": "हम एक हफ़्ता रुके।",
+        "pron": "नू सॉम ग़ैस-ते üन स्मैन"
+      },
+      {
+        "fr": "J'ai eu mon permis.",
+        "en": "I got my licence.",
+        "hi": "मुझे लाइसेंस मिल गया।",
+        "pron": "झ़े ü मोँ पैग़-मी"
+      },
+      {
+        "fr": "J'ai pris des cours en ligne.",
+        "en": "I took online classes.",
+        "hi": "मैंने ऑनलाइन कक्षाएँ लीं।",
+        "pron": "झ़े प्री दे कूग़ आँ लीन्य"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Choose the correct sentence: 'I have been living in Toronto for three years.'",
+        "hi": "सही वाक्य चुनिए: 'मैं तीन साल से टोरंटो में रह रहा हूँ।'"
+      },
+      "options": [
+        "J'ai habité à Toronto depuis trois ans.",
+        "J'habite à Toronto depuis trois ans.",
+        "J'habite à Toronto il y a trois ans.",
+        "J'habite à Toronto pendant trois ans."
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Still true now → depuis + present.",
+        "hi": "अब भी सच है → depuis + वर्तमान।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: I arrived two weeks ago.",
+        "hi": "पूरा कीजिए: मैं दो हफ़्ते पहले आया।"
+      },
+      "sentence": "Je suis arrivé ___ deux semaines.",
+      "answer": "il y a",
+      "accept": [],
+      "explanation": {
+        "en": "ago = il y a, before the duration.",
+        "hi": "पहले = il y a, अवधि से पहले।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'J'ai travaillé à Delhi pendant dix ans.' Does the person still work in Delhi?",
+        "hi": "'J'ai travaillé à Delhi pendant dix ans.' क्या यह व्यक्ति अब भी दिल्ली में काम करता है?"
+      },
+      "options": [
+        "Yes",
+        "No",
+        "We can't know at all"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "pendant + passé composé describes a finished period.",
+        "hi": "pendant + पासे कॉम्पोज़े एक ख़त्म हो चुकी अवधि बताता है।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: She learned to drive in three months.",
+        "hi": "पूरा कीजिए: उसने तीन महीने में गाड़ी चलाना सीखा।"
+      },
+      "sentence": "Elle a appris à conduire ___ trois mois.",
+      "answer": "en",
+      "accept": [],
+      "explanation": {
+        "en": "en + duration = time needed to complete something.",
+        "hi": "en + अवधि = किसी काम को पूरा करने में लगा समय।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "How long have you been learning French?",
+        "hi": "आप कब से फ़्रेंच सीख रहे हैं?"
+      },
+      "answer": "Vous apprenez le français depuis combien de temps ?",
+      "accept": [
+        "Depuis combien de temps apprenez-vous le français ?",
+        "Tu apprends le français depuis combien de temps ?",
+        "Depuis quand apprenez-vous le français ?",
+        "Vous apprenez le français depuis quand ?"
+      ],
+      "explanation": {
+        "en": "Present tense + depuis combien de temps / depuis quand.",
+        "hi": "वर्तमान काल + depuis combien de temps / depuis quand।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: I got married five years ago.",
+        "hi": "शब्दों को सही क्रम में रखिए: मेरी शादी पाँच साल पहले हुई।"
+      },
+      "words": [
+        "suis",
+        "Je",
+        "ans",
+        "il",
+        "y",
+        "a",
+        "me",
+        "marié",
+        "cinq",
+        "."
+      ],
+      "answer": "Je me suis marié il y a cinq ans.",
+      "explanation": {
+        "en": "Reflexive → être; il y a + duration at the end.",
+        "hi": "निजवाचक → être; अंत में il y a + अवधि।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "How is 'il y a' pronounced?",
+        "hi": "'il y a' कैसे बोला जाता है?"
+      },
+      "options": [
+        "ईल ई आ",
+        "ई-लि-या",
+        "ईल या"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The three words run together with a य glide: ई-लि-या.",
+        "hi": "तीनों शब्द य की फिसलन के साथ जुड़ जाते हैं: ई-लि-या।"
+      }
+    }
+  ]
+}

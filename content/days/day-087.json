@@ -1,0 +1,980 @@
+{
+  "day": 87,
+  "phase": 5,
+  "title": {
+    "fr": "TEF expression orale B : convaincre un ami de faire du bénévolat",
+    "en": "TEF speaking B: convincing a friend to volunteer",
+    "hi": "TEF मौखिक अभिव्यक्ति B: दोस्त को स्वयंसेवा के लिए मनाना"
+  },
+  "objective": {
+    "en": "Present a volunteering ad to a friend and try to convince them for several minutes: give advice (tu devrais, à ta place), use the conditional and the imperative, and answer each objection with a new argument.",
+    "hi": "एक दोस्त के सामने स्वयंसेवा का विज्ञापन रखना और कुछ मिनट तक उसे मनाने की कोशिश करना: सलाह देना (tu devrais, à ta place), conditionnel और imperative इस्तेमाल करना, और हर आपत्ति का जवाब एक नए तर्क से देना।"
+  },
+  "prerequisites": {
+    "days": [
+      29,
+      51,
+      65,
+      66,
+      72,
+      73
+    ],
+    "summary": {
+      "en": "The imperative (Day 29), pronouns with the imperative (Days 51, 58), the conditional (Days 65–66), persuasion (Day 72) and handling objections (Day 73).",
+      "hi": "imperative (दिन 29), imperative के साथ सर्वनाम (दिन 51, 58), conditionnel (दिन 65–66), मनाना (दिन 72) और आपत्तियों का जवाब (दिन 73)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "le bénévolat",
+      "en": "volunteering",
+      "hi": "स्वयंसेवा",
+      "pron": "लö बे-ने-वो-ला",
+      "ipa": "lə benevɔla",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "bénévolat"
+    },
+    {
+      "fr": "un / une bénévole",
+      "en": "a volunteer",
+      "hi": "स्वयंसेवक / स्वयंसेविका",
+      "pron": "ऐँ / üन बे-ने-वॉल",
+      "ipa": "ɛ̃ / yn benevɔl",
+      "pos": "noun",
+      "gender": "mf",
+      "lemma": "bénévole"
+    },
+    {
+      "fr": "un organisme communautaire",
+      "en": "a community organisation",
+      "hi": "सामुदायिक संस्था",
+      "pron": "ऐँ नॉग़-गा-नीस्म को-म्ü-नो-तैग़",
+      "ipa": "ɛ̃n‿ɔʁɡanism kɔmynotɛʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "organisme"
+    },
+    {
+      "fr": "s'engager",
+      "en": "to get involved, to commit",
+      "hi": "जुड़ना / ज़िम्मेदारी लेना",
+      "pron": "साँ-गा-झ़े",
+      "ipa": "sɑ̃ɡaʒe",
+      "pos": "verb"
+    },
+    {
+      "fr": "consacrer du temps",
+      "en": "to devote time",
+      "hi": "समय देना",
+      "pron": "कोँ-सा-क्ग़े दü ताँ",
+      "ipa": "kɔ̃sakʁe dy tɑ̃",
+      "pos": "phrase"
+    },
+    {
+      "fr": "enrichissant",
+      "en": "rewarding, enriching",
+      "hi": "समृद्ध करने वाला / बहुत कुछ सिखाने वाला",
+      "pron": "आँ-ग़ी-शी-साँ",
+      "ipa": "ɑ̃ʁiʃisɑ̃",
+      "pos": "adjective"
+    },
+    {
+      "fr": "la banque alimentaire",
+      "en": "food bank",
+      "hi": "फ़ूड बैंक / अन्न बैंक",
+      "pron": "ला बाँक आ-ली-माँ-तैग़",
+      "ipa": "la bɑ̃k alimɑ̃tɛʁ",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "banque alimentaire"
+    },
+    {
+      "fr": "les aînés",
+      "en": "seniors, the elderly",
+      "hi": "बुज़ुर्ग",
+      "pron": "ले ज़ै-ने",
+      "ipa": "le zene",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "aîné",
+      "note": {
+        "en": "Common in Québec for 'seniors'. France often says 'les personnes âgées'.",
+        "hi": "क्यूबेक में 'बुज़ुर्गों' के लिए आम शब्द। फ़्रांस में अक्सर 'les personnes âgées'।"
+      }
+    },
+    {
+      "fr": "rendre service",
+      "en": "to help out, do a favour",
+      "hi": "मदद करना / काम आना",
+      "pron": "ग़ाँद्ग़ सैग़-वीस",
+      "ipa": "ʁɑ̃dʁ sɛʁvis",
+      "pos": "phrase"
+    },
+    {
+      "fr": "un horaire flexible",
+      "en": "a flexible schedule",
+      "hi": "लचीला समय",
+      "pron": "ऐँ नो-ग़ैग़ फ़्लैक-सीब्ल",
+      "ipa": "ɛ̃n‿ɔʁɛʁ flɛksibl",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "horaire"
+    },
+    {
+      "fr": "se faire des contacts",
+      "en": "to make contacts, network",
+      "hi": "जान-पहचान बनाना",
+      "pron": "सö फ़ैग़ दे कोँ-ताक्त",
+      "ipa": "sə fɛʁ de kɔ̃takt",
+      "pos": "phrase"
+    },
+    {
+      "fr": "valoriser",
+      "en": "to enhance, add value to",
+      "hi": "महत्व बढ़ाना",
+      "pron": "वा-लो-ग़ी-ज़े",
+      "ipa": "valɔʁize",
+      "pos": "verb",
+      "note": {
+        "en": "Ça valorise ton CV = it makes your CV stronger.",
+        "hi": "ça valorise ton CV = इससे तुम्हारा सीवी मज़बूत होता है।"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Tu devrais essayer, franchement.",
+      "en": "You should try, honestly.",
+      "hi": "सच में, तुम्हें आज़माना चाहिए।",
+      "pron": "तü दö-व्ग़ै ए-से-ये फ़्ग़ाँश-माँ"
+    },
+    {
+      "fr": "À ta place, je m'inscrirais tout de suite.",
+      "en": "If I were you, I'd sign up right away.",
+      "hi": "तुम्हारी जगह मैं होता तो तुरंत नाम लिखवा लेता।",
+      "pron": "आ ता प्लास झ़ö मैँस-क्ग़ी-ग़ै तूत स्üईत"
+    },
+    {
+      "fr": "Ça ne te prendrait que trois heures par semaine.",
+      "en": "It would only take you three hours a week.",
+      "hi": "इसमें तुम्हारे हफ़्ते के सिर्फ़ तीन घंटे लगेंगे।",
+      "pron": "सा नö तö प्राँ-द्ग़ै कö त्ग़्वा ज़öग़ पाग़ स्मैन"
+    },
+    {
+      "fr": "Je comprends, mais justement…",
+      "en": "I understand, but that's exactly why…",
+      "hi": "मैं समझता हूँ, पर इसीलिए तो…",
+      "pron": "झ़ö कोँ-प्राँ मै झ़üस-त-माँ"
+    },
+    {
+      "fr": "Viens avec moi samedi, juste pour voir !",
+      "en": "Come with me on Saturday, just to see!",
+      "hi": "शनिवार को मेरे साथ चलो, बस देखने के लिए!",
+      "pron": "व्यैँ आ-वैक म्वा साम-दी झ़üस्त पूग़ व्वाग़"
+    },
+    {
+      "fr": "Qu'est-ce que tu en penses ?",
+      "en": "What do you think?",
+      "hi": "तुम्हारा क्या ख़याल है?",
+      "pron": "कैस-कö तü आँ पाँस"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Advice and persuasion: devoir and pouvoir in the conditional, à ta place, the imperative",
+      "hi": "सलाह और मनाना: conditionnel में devoir और pouvoir, à ta place, imperative"
+    },
+    "explanation": {
+      "en": "TEF section B is a conversation with a friend (tu!). You present an ad, then persuade. Useful structures: (1) Conditional advice — tu devrais + infinitive (you should), tu pourrais + infinitive (you could), ce serait + adjective (it would be…), ça te ferait du bien (it would do you good). (2) À ta place, je + conditional: À ta place, je m'inscrirais. (3) Imperative for energy: Viens ! Essaie ! Inscris-toi ! N'hésite pas ! With a pronoun in the affirmative imperative the pronoun comes after with a hyphen (Appelle-les), in the negative it comes before (Ne les appelle pas). (4) Concession + new argument for objections: Je comprends, mais… / C'est vrai, pourtant… / Justement… Keep a reason after every piece of advice: 'Tu devrais essayer, parce que…'",
+      "hi": "TEF का भाग B एक दोस्त के साथ बातचीत है (tu!)। आप एक विज्ञापन पेश करते हैं, फिर मनाते हैं। उपयोगी ढाँचे: (1) conditionnel में सलाह — tu devrais + infinitive (तुम्हें … चाहिए), tu pourrais + infinitive (तुम … सकते हो), ce serait + विशेषण (यह … होगा), ça te ferait du bien (इससे तुम्हें अच्छा लगेगा)। (2) À ta place, je + conditionnel: À ta place, je m'inscrirais (तुम्हारी जगह मैं होता तो नाम लिखवाता)। (3) जोश के लिए imperative: Viens ! Essaie ! Inscris-toi ! N'hésite pas ! सकारात्मक imperative में सर्वनाम बाद में hyphen के साथ आता है (Appelle-les), नकारात्मक में पहले (Ne les appelle pas)। (4) आपत्तियों के लिए मान लेना + नया तर्क: Je comprends, mais… / C'est vrai, pourtant… / Justement… हर सलाह के बाद एक कारण दीजिए: 'Tu devrais essayer, parce que…'"
+    },
+    "comparison": {
+      "en": "Hindi softens advice with 'चाहिए' and 'ज़रा' ('तुम्हें ज़रा कोशिश करनी चाहिए'). French softens with the conditional: 'tu dois' sounds like an order, 'tu devrais' sounds like friendly advice — use devrais.",
+      "hi": "हिंदी में सलाह को 'चाहिए' और 'ज़रा' से नरम करते हैं ('तुम्हें ज़रा कोशिश करनी चाहिए')। फ़्रेंच में conditionnel से: 'tu dois' आदेश जैसा लगता है, 'tu devrais' दोस्ताना सलाह — devrais इस्तेमाल कीजिए।"
+    },
+    "examples": [
+      {
+        "fr": "Tu devrais t'inscrire, c'est seulement le samedi matin.",
+        "en": "You should sign up, it's only Saturday mornings.",
+        "hi": "तुम्हें नाम लिखवाना चाहिए, यह सिर्फ़ शनिवार सुबह है।",
+        "pron": "तü दö-व्ग़ै तैँस-क्ग़ीग़ सै सö-लö-माँ लö साम-दी मा-तैँ"
+      },
+      {
+        "fr": "À ta place, je n'hésiterais pas.",
+        "en": "If I were you, I wouldn't hesitate.",
+        "hi": "तुम्हारी जगह मैं होता तो बिल्कुल नहीं हिचकिचाता।",
+        "pron": "आ ता प्लास झ़ö ने-ज़ी-त्ग़ै पा"
+      },
+      {
+        "fr": "Ce serait bon pour ton français.",
+        "en": "It would be good for your French.",
+        "hi": "यह तुम्हारी फ़्रेंच के लिए अच्छा होगा।",
+        "pron": "सö सö-ग़ै बोँ पूग़ तोँ फ़्ग़ाँ-सै"
+      },
+      {
+        "fr": "Appelle-les aujourd'hui !",
+        "en": "Call them today!",
+        "hi": "उन्हें आज ही फ़ोन करो!",
+        "pron": "आ-पैल ले ओ-झ़ूग़-द्üई"
+      },
+      {
+        "fr": "Ne t'inquiète pas, ils forment les nouveaux.",
+        "en": "Don't worry, they train newcomers.",
+        "hi": "चिंता मत करो, वे नए लोगों को सिखाते हैं।",
+        "pron": "नö तैँ-क्यैत पा इल फ़ॉग़्म ले नू-वो"
+      },
+      {
+        "fr": "C'est vrai que tu es occupé, pourtant tu as tes dimanches libres.",
+        "en": "It's true you're busy, yet you have your Sundays free.",
+        "hi": "सच है कि तुम व्यस्त हो, फिर भी तुम्हारे रविवार ख़ाली रहते हैं।",
+        "pron": "सै व्ग़ै कö तü ए ज़ो-क्ü-पे पूग़-ताँ तü आ ते दी-माँश लीब्ग़"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "In the imperative, -er verbs lose the s with tu: 'Essaie !', 'Viens !' but 'Écoute !' (not 'Écoutes !').",
+        "hi": "imperative में tu के साथ -er क्रियाओं का s हट जाता है: 'Écoute !' ('Écoutes !' नहीं)।"
+      },
+      {
+        "en": "Don't switch to vous in section B: the examiner plays a friend. Use tu, ton, ta, tes throughout.",
+        "hi": "भाग B में vous पर मत जाइए: परीक्षक दोस्त बनता है। पूरे समय tu, ton, ta, tes।"
+      },
+      {
+        "en": "Don't give up after the first 'non'. In the TEF, the friend is designed to object; each objection is a chance to show a new argument.",
+        "hi": "पहले 'non' के बाद हार मत मानिए। TEF में दोस्त जान-बूझकर आपत्ति करता है; हर आपत्ति नया तर्क दिखाने का मौक़ा है।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Persuasive rhythm",
+    "tip": {
+      "en": "To sound convincing, slow down and stress the key word at the end of each group: Tu devrais ESSAYER. / Ça vaut vraiment la PEINE. A short pause before your strongest argument helps.",
+      "hi": "मनाने वाला लगने के लिए धीमे बोलिए और हर समूह के आख़िर में मुख्य शब्द पर ज़ोर दीजिए: Tu devrais ESSAYER. / Ça vaut vraiment la PEINE. अपने सबसे मज़बूत तर्क से पहले छोटा-सा विराम मदद करता है।"
+    },
+    "words": [
+      {
+        "fr": "ça vaut la peine",
+        "en": "it's worth it",
+        "hi": "यह इसके लायक़ है",
+        "pron": "सा वो ला पैन",
+        "ipa": "sa vo la pɛn"
+      },
+      {
+        "fr": "je t'assure",
+        "en": "I promise you, believe me",
+        "hi": "यक़ीन मानो",
+        "pron": "झ़ö ता-स्üग़",
+        "ipa": "ʒə tasyʁ"
+      },
+      {
+        "fr": "imagine",
+        "en": "imagine",
+        "hi": "सोचो तो",
+        "pron": "ई-मा-झ़ीन",
+        "ipa": "imaʒin"
+      },
+      {
+        "fr": "n'hésite pas",
+        "en": "don't hesitate",
+        "hi": "हिचकिचाओ मत",
+        "pron": "ने-ज़ीत पा",
+        "ipa": "nezit pa"
+      },
+      {
+        "fr": "enrichissant",
+        "en": "rewarding",
+        "hi": "बहुत कुछ देने वाला",
+        "pron": "आँ-ग़ी-शी-साँ",
+        "ipa": "ɑ̃ʁiʃisɑ̃"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Viens faire du bénévolat avec moi !",
+      "en": "Come and volunteer with me!"
+    },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Arjun has seen an ad for volunteers at a food bank and tries to convince his friend Kiran. This is a model of a TEF section B exchange: notice how each objection gets a new argument.",
+      "hi": "अर्जुन ने फ़ूड बैंक में स्वयंसेवकों का विज्ञापन देखा है और अपनी दोस्त किरण को मनाने की कोशिश करता है। यह TEF भाग B की मॉडल बातचीत है: ध्यान दीजिए कि हर आपत्ति का जवाब एक नए तर्क से दिया जाता है।"
+    },
+    "lines": [
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Kiran, regarde cette annonce ! La banque alimentaire du quartier cherche des bénévoles pour trier les dons le samedi matin.",
+        "en": "Kiran, look at this ad! The neighbourhood food bank is looking for volunteers to sort donations on Saturday mornings.",
+        "hi": "किरण, यह विज्ञापन देखो! मोहल्ले का फ़ूड बैंक शनिवार सुबह दान का सामान छाँटने के लिए स्वयंसेवक ढूँढ रहा है।"
+      },
+      {
+        "speaker": "Kiran",
+        "voice": "f1",
+        "fr": "Le samedi ? Oh non, c'est mon seul jour de repos. Je travaille déjà toute la semaine.",
+        "en": "Saturday? Oh no, it's my only day off. I already work all week.",
+        "hi": "शनिवार? अरे नहीं, वह मेरी इकलौती छुट्टी है। मैं तो पूरे हफ़्ते काम करती हूँ।"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Je comprends, mais ça ne te prendrait que trois heures, de neuf heures à midi. Tu aurais encore tout l'après-midi.",
+        "en": "I understand, but it would only take you three hours, from nine to noon. You'd still have the whole afternoon.",
+        "hi": "समझता हूँ, पर इसमें सिर्फ़ तीन घंटे लगेंगे, नौ से बारह बजे तक। तुम्हारी पूरी दोपहर ख़ाली रहेगी।"
+      },
+      {
+        "speaker": "Kiran",
+        "voice": "f1",
+        "fr": "Peut-être… Mais franchement, mon français n'est pas encore assez bon. J'ai peur de ne pas comprendre les consignes.",
+        "en": "Maybe… But honestly, my French isn't good enough yet. I'm afraid I won't understand the instructions.",
+        "hi": "शायद… पर सच कहूँ तो मेरी फ़्रेंच अभी उतनी अच्छी नहीं है। डर है कि निर्देश समझ नहीं पाऊँगी।"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Justement ! C'est la meilleure façon de pratiquer. Les autres bénévoles sont très patients, et le premier jour, une responsable t'explique tout.",
+        "en": "That's exactly the point! It's the best way to practise. The other volunteers are very patient, and on the first day a supervisor explains everything to you.",
+        "hi": "इसीलिए तो! अभ्यास का यह सबसे अच्छा तरीक़ा है। बाक़ी स्वयंसेवक बहुत धैर्यवान हैं, और पहले दिन एक ज़िम्मेदार व्यक्ति तुम्हें सब समझाती है।"
+      },
+      {
+        "speaker": "Kiran",
+        "voice": "f1",
+        "fr": "D'accord, mais ce n'est pas payé. Moi, je cherche plutôt un deuxième emploi.",
+        "en": "OK, but it's not paid. I'm looking for a second job instead.",
+        "hi": "ठीक है, पर इसमें पैसे नहीं मिलते। मैं तो दूसरी नौकरी ढूँढ रही हूँ।"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "C'est vrai, ce n'est pas payé. Pourtant, ça peut t'aider à trouver un emploi : tu aurais une expérience canadienne et une lettre de référence.",
+        "en": "True, it's not paid. Yet it can help you find a job: you'd have Canadian experience and a reference letter.",
+        "hi": "सच है, पैसे नहीं मिलते। फिर भी इससे नौकरी ढूँढने में मदद मिल सकती है: तुम्हारे पास कनाडा का अनुभव और एक सिफ़ारिशी पत्र होगा।"
+      },
+      {
+        "speaker": "Kiran",
+        "voice": "f1",
+        "fr": "Une lettre de référence ? Ils font ça ?",
+        "en": "A reference letter? They do that?",
+        "hi": "सिफ़ारिशी पत्र? वे यह देते हैं?"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Oui, après trois mois de bénévolat. Et tu te ferais des contacts. Mon ami Samuel a trouvé son poste actuel grâce à une bénévole qu'il a rencontrée là-bas.",
+        "en": "Yes, after three months of volunteering. And you'd make contacts. My friend Samuel found his current job thanks to a volunteer he met there.",
+        "hi": "हाँ, तीन महीने की स्वयंसेवा के बाद। और तुम्हारी जान-पहचान भी बनेगी। मेरे दोस्त सैमुएल को अपनी मौजूदा नौकरी वहीं मिली एक स्वयंसेविका की वजह से मिली।"
+      },
+      {
+        "speaker": "Kiran",
+        "voice": "f1",
+        "fr": "Hmm, c'est intéressant. Mais je ne connais personne là-bas, je suis un peu timide.",
+        "en": "Hmm, that's interesting. But I don't know anyone there, I'm a bit shy.",
+        "hi": "हम्म, यह दिलचस्प है। पर मैं वहाँ किसी को नहीं जानती, थोड़ी शर्मीली हूँ।"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Tu me connais, moi ! Je pourrais venir avec toi les premières semaines. Et imagine : tu aides des familles du quartier, c'est vraiment enrichissant.",
+        "en": "You know me! I could come with you for the first weeks. And imagine: you're helping local families, it's really rewarding.",
+        "hi": "मुझे तो जानती हो! मैं पहले कुछ हफ़्ते तुम्हारे साथ आ सकता हूँ। और सोचो: तुम मोहल्ले के परिवारों की मदद करोगी, यह सच में बहुत अच्छा अनुभव है।"
+      },
+      {
+        "speaker": "Kiran",
+        "voice": "f1",
+        "fr": "Bon… si tu viens avec moi, je veux bien essayer une fois.",
+        "en": "Well… if you come with me, I'm willing to try once.",
+        "hi": "ठीक है… अगर तुम मेरे साथ आओ, तो मैं एक बार आज़मा लेती हूँ।"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Super ! Inscris-toi sur leur site ce soir, et on y va ensemble samedi.",
+        "en": "Great! Sign up on their website tonight, and we'll go together on Saturday.",
+        "hi": "बढ़िया! आज रात उनकी वेबसाइट पर नाम लिखवा लो, और शनिवार को हम साथ चलेंगे।"
+      },
+      {
+        "speaker": "Kiran",
+        "voice": "f1",
+        "fr": "D'accord, tu as gagné ! Mais si je n'aime pas, je ne reviens pas.",
+        "en": "OK, you win! But if I don't like it, I'm not going back.",
+        "hi": "ठीक है, तुम जीत गए! पर अगर मुझे अच्छा नहीं लगा, तो दोबारा नहीं जाऊँगी।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "What is Kiran's first objection?"
+        },
+        "options": [
+          "She is too old",
+          "She doesn't like food banks",
+          "Saturday is her only day off",
+          "She lives too far away"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'C'est mon seul jour de repos.'",
+          "hi": "'c'est mon seul jour de repos' — वह उसकी इकलौती छुट्टी है।"
+        },
+        "kind": "literal",
+        "evidence": "c'est mon seul jour de repos"
+      },
+      {
+        "q": {
+          "en": "How does Arjun answer her worry about time?"
+        },
+        "options": [
+          "It's only three hours, 9 to noon",
+          "She can come on Sunday instead",
+          "It's only once a month",
+          "She can work from home"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Ça ne te prendrait que trois heures, de neuf heures à midi.'",
+          "hi": "'ça ne te prendrait que trois heures, de neuf heures à midi' — सिर्फ़ तीन घंटे।"
+        },
+        "kind": "literal",
+        "evidence": "ça ne te prendrait que trois heures, de neuf heures à midi"
+      },
+      {
+        "q": {
+          "en": "What does 'Justement !' show in Arjun's answer about French?"
+        },
+        "options": [
+          "He is angry",
+          "He changes the subject",
+          "He agrees she should not go",
+          "He turns her objection into an argument for going"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Justement' = that's exactly why: her weak French is a reason to practise there.",
+          "hi": "'justement' = इसीलिए तो: कमज़ोर फ़्रेंच वहाँ जाकर अभ्यास करने का कारण है।"
+        },
+        "kind": "inference",
+        "evidence": "Justement ! C'est la meilleure façon de pratiquer."
+      },
+      {
+        "q": {
+          "en": "According to Arjun, how could volunteering help Kiran find a job?"
+        },
+        "options": [
+          "The food bank pays well after three months",
+          "Canadian experience, a reference letter and contacts",
+          "The food bank hires all its volunteers",
+          "She would get a certificate in French"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "He mentions 'une expérience canadienne', 'une lettre de référence' and 'des contacts'.",
+          "hi": "वह 'une expérience canadienne', 'une lettre de référence' और 'des contacts' की बात करता है।"
+        },
+        "kind": "inference",
+        "evidence": "tu aurais une expérience canadienne et une lettre de référence"
+      },
+      {
+        "q": {
+          "en": "How did Samuel find his job?"
+        },
+        "options": [
+          "Through a newspaper ad",
+          "Through a website",
+          "Thanks to a volunteer he met at the food bank",
+          "Through Arjun"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Grâce à une bénévole qu'il a rencontrée là-bas.'",
+          "hi": "'grâce à une bénévole qu'il a rencontrée là-bas' — वहाँ मिली एक स्वयंसेविका की वजह से।"
+        },
+        "kind": "literal",
+        "evidence": "Mon ami Samuel a trouvé son poste actuel grâce à une bénévole qu'il a rencontrée là-bas."
+      },
+      {
+        "q": {
+          "en": "What finally convinces Kiran?"
+        },
+        "options": [
+          "Arjun offers to come with her",
+          "The reference letter only",
+          "Her employer asks her",
+          "The salary"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Si tu viens avec moi, je veux bien essayer une fois.'",
+          "hi": "'si tu viens avec moi, je veux bien essayer une fois' — अगर तुम साथ चलो।"
+        },
+        "kind": "inference",
+        "evidence": "si tu viens avec moi, je veux bien essayer une fois"
+      }
+    ],
+    "dictation": [
+      "Ça ne te prendrait que trois heures.",
+      "C'est la meilleure façon de pratiquer.",
+      "Inscris-toi sur leur site ce soir."
+    ],
+    "gapFill": {
+      "text": "Je ___, mais ça ne te prendrait que trois heures. C'est vrai, ce n'est pas payé. ___, ça peut t'aider à trouver un emploi. ___-toi sur leur site ce soir !",
+      "answers": [
+        "comprends",
+        "Pourtant",
+        "Inscris"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "tef_b",
+    "instructions": {
+      "en": "TEF section B practice (10 minutes). You found the 'Repas-Partage' volunteering ad in today's reading. Present it to a friend who is not interested, explain what it is, and try to convince them. The friend will object several times: accept part of each objection, then give a new argument. Use tu.",
+      "hi": "TEF भाग B का अभ्यास (10 मिनट)। आज के पठन में आपको 'Repas-Partage' का स्वयंसेवा विज्ञापन मिला। इसे एक ऐसे दोस्त के सामने रखिए जिसे रुचि नहीं है, समझाइए कि यह क्या है, और उसे मनाने की कोशिश कीजिए। दोस्त कई बार आपत्ति करेगा: हर आपत्ति का कुछ हिस्सा मानिए, फिर नया तर्क दीजिए। tu इस्तेमाल कीजिए।"
+    },
+    "scenario": {
+      "setting": {
+        "en": "An ad for 'Repas-Partage Saint-Clair', which delivers hot meals to isolated seniors. Volunteers drive or accompany a driver for 2–3 hours, once a week or every two weeks; training is provided; gas costs are reimbursed.",
+        "hi": "'Repas-Partage Saint-Clair' का विज्ञापन, जो अकेले रहने वाले बुज़ुर्गों तक गरम खाना पहुँचाता है। स्वयंसेवक हफ़्ते में एक बार या हर दो हफ़्ते में 2–3 घंटे गाड़ी चलाते हैं या ड्राइवर के साथ जाते हैं; प्रशिक्षण दिया जाता है; पेट्रोल का ख़र्च लौटाया जाता है।"
+      },
+      "learnerRole": {
+        "en": "You want your friend to volunteer with Repas-Partage. Present the ad and persuade.",
+        "hi": "आप चाहते हैं कि आपका दोस्त Repas-Partage के साथ स्वयंसेवा करे। विज्ञापन पेश कीजिए और मनाइए।"
+      },
+      "partnerRole": {
+        "en": "Your friend Daniel, who objects: 'Je n'ai pas le temps', 'Je n'ai pas de voiture', 'Je ne parle pas bien français', 'Ça ne sert à rien pour ma carrière', 'Je ne suis pas à l'aise avec les personnes âgées'. He accepts only if convinced.",
+        "hi": "आपका दोस्त डैनियल, जो आपत्ति करता है: 'Je n'ai pas le temps', 'Je n'ai pas de voiture', 'Je ne parle pas bien français', 'Ça ne sert à rien pour ma carrière', 'Je ne suis pas à l'aise avec les personnes âgées'। वह तभी मानेगा जब सच में क़ायल हो।"
+      },
+      "goals": [
+        {
+          "en": "Present the ad clearly: who, what, when, conditions.",
+          "hi": "विज्ञापन साफ़ पेश कीजिए: कौन, क्या, कब, शर्तें।"
+        },
+        {
+          "en": "Answer at least four objections, each with a different argument.",
+          "hi": "कम से कम चार आपत्तियों का जवाब दीजिए, हर एक नए तर्क से।"
+        },
+        {
+          "en": "Use tu devrais, à ta place, a conditional and an imperative.",
+          "hi": "tu devrais, à ta place, एक conditionnel और एक imperative इस्तेमाल कीजिए।"
+        }
+      ]
+    },
+    "prompts": [
+      {
+        "fr": "Écoute, j'ai vu une annonce super intéressante : Repas-Partage cherche des bénévoles.",
+        "en": "Listen, I saw a really interesting ad: Repas-Partage is looking for volunteers.",
+        "hi": "सुनो, मैंने एक बहुत दिलचस्प विज्ञापन देखा: रपा-पार्ताझ़ स्वयंसेवक ढूँढ रहा है।",
+        "pron": "ए-कूत झ़े व्ü üन ना-नोँस स्üपैग़ ऐँ-ते-ग़े-साँत",
+        "model": "Écoute, j'ai vu une annonce super intéressante : Repas-Partage cherche des bénévoles pour livrer des repas chauds à des aînés qui vivent seuls."
+      },
+      {
+        "fr": "Je comprends, mais c'est seulement deux heures toutes les deux semaines.",
+        "en": "I understand, but it's only two hours every two weeks.",
+        "hi": "मैं समझता हूँ, पर यह हर दो हफ़्ते में सिर्फ़ दो घंटे है।",
+        "pron": "झ़ö कोँ-प्राँ मै सै सö-लö-माँ दö ज़öग़ तूत ले दö स्मैन",
+        "model": "Je comprends que tu sois occupé, mais c'est seulement deux heures toutes les deux semaines. Tu pourrais choisir le jour."
+      },
+      {
+        "fr": "Tu n'as pas besoin de voiture : tu peux accompagner un chauffeur.",
+        "en": "You don't need a car: you can go with a driver.",
+        "hi": "तुम्हें गाड़ी की ज़रूरत नहीं: तुम ड्राइवर के साथ जा सकते हो।",
+        "pron": "तü ना पा बö-ज़्वैँ दö व्वा-त्üग़ तü पö आ-कोँ-पा-न्ये ऐँ शो-फ़öग़"
+      },
+      {
+        "fr": "Justement, ce serait parfait pour pratiquer ton français.",
+        "en": "That's exactly why: it would be perfect to practise your French.",
+        "hi": "इसीलिए तो, यह तुम्हारी फ़्रेंच के अभ्यास के लिए एकदम सही होगा।",
+        "pron": "झ़üस-त-माँ सö सö-ग़ै पाग़-फ़ै पूग़ प्रा-ती-के तोँ फ़्ग़ाँ-सै"
+      },
+      {
+        "fr": "C'est vrai que ce n'est pas payé, pourtant ça valorise ton CV.",
+        "en": "True, it's not paid, yet it makes your CV stronger.",
+        "hi": "सच है कि पैसे नहीं मिलते, फिर भी इससे तुम्हारा सीवी मज़बूत होता है।",
+        "pron": "सै व्ग़ै कö सö नै पा पै-ये पूग़-ताँ सा वा-लो-ग़ीज़ तोँ से-वे"
+      },
+      {
+        "fr": "À ta place, j'essaierais au moins une fois.",
+        "en": "If I were you, I'd try at least once.",
+        "hi": "तुम्हारी जगह मैं होता तो कम से कम एक बार आज़माता।",
+        "pron": "आ ता प्लास झ़े-सै-ग़ै ओ म्वैँ üन फ़्वा"
+      },
+      {
+        "fr": "Allez, inscris-toi avec moi ! Qu'est-ce que tu en penses ?",
+        "en": "Come on, sign up with me! What do you think?",
+        "hi": "चलो, मेरे साथ नाम लिखवाओ! तुम्हारा क्या ख़याल है?",
+        "pron": "आ-ले ऐँस-क्ग़ी त्वा आ-वैक म्वा कैस-कö तü आँ पाँस"
+      }
+    ],
+    "tip": {
+      "en": "Keep a stock of six arguments before you start (time, French, career, contacts, helping others, feeling good) so you never run out when the friend says no again.",
+      "hi": "शुरू करने से पहले छह तर्क तैयार रखिए (समय, फ़्रेंच, करियर, जान-पहचान, दूसरों की मदद, अच्छा महसूस करना), ताकि दोस्त के फिर 'नहीं' कहने पर आपके तर्क ख़त्म न हों।"
+    }
+  },
+  "reading": {
+    "genre": "advertisement",
+    "title": "Devenez bénévole chez Repas-Partage Saint-Clair",
+    "text": "REPAS-PARTAGE SAINT-CLAIR\nDes repas chauds, un sourire, une visite\n\nDepuis 1998, notre organisme communautaire livre des repas chauds et équilibrés aux aînés et aux personnes en perte d'autonomie qui vivent seules. Chaque midi, du lundi au vendredi, nos équipes visitent plus de 120 personnes dans la ville. Pour beaucoup d'entre elles, c'est la seule visite de la journée.\n\nNous cherchons des bénévoles pour :\n• conduire une des voitures de livraison (permis de conduire valide exigé) ;\n• accompagner un chauffeur et apporter les repas aux portes ;\n• aider à la cuisine le matin (préparation et emballage).\n\nCe que nous vous demandons\n• Deux à trois heures, une fois par semaine ou toutes les deux semaines, entre 10 h 30 et 13 h 30 ;\n• Un engagement d'au moins trois mois ;\n• De la ponctualité et de la bonne humeur !\nAucune expérience n'est nécessaire, et il n'est pas obligatoire de parler parfaitement français : plusieurs de nos bénévoles sont nouveaux au Canada.\n\nCe que nous vous offrons\n• Une formation de deux heures avant votre première livraison ;\n• Le remboursement de vos frais d'essence ;\n• Une lettre de référence après six mois ;\n• Le plaisir de faire une vraie différence dans votre communauté.\n\nSéance d'information : le mardi 8 octobre à 18 h, au 45, rue Principale. Inscription en ligne ou au 819 555-0110.",
+    "translation": {
+      "en": "REPAS-PARTAGE SAINT-CLAIR\nHot meals, a smile, a visit\n\nSince 1998, our community organisation has delivered hot, balanced meals to seniors and people with reduced independence who live alone. Every lunchtime, Monday to Friday, our teams visit more than 120 people in the city. For many of them, it is the only visit of the day.\n\nWe are looking for volunteers to:\n• drive one of the delivery cars (valid driver's licence required);\n• accompany a driver and bring the meals to the doors;\n• help in the kitchen in the morning (preparation and packing).\n\nWhat we ask of you\n• Two to three hours, once a week or every two weeks, between 10:30 a.m. and 1:30 p.m.;\n• A commitment of at least three months;\n• Punctuality and good humour!\nNo experience is necessary, and you don't have to speak perfect French: several of our volunteers are new to Canada.\n\nWhat we offer you\n• A two-hour training session before your first delivery;\n• Reimbursement of your gas costs;\n• A reference letter after six months;\n• The pleasure of making a real difference in your community.\n\nInformation session: Tuesday 8 October at 6 p.m., at 45 Rue Principale. Registration online or at 819 555-0110.",
+      "hi": "रपा-पार्ताझ़ सां-क्लैर\nगरम खाना, एक मुस्कान, एक मुलाक़ात\n\n1998 से हमारी सामुदायिक संस्था अकेले रहने वाले बुज़ुर्गों और कम आत्मनिर्भर लोगों तक गरम और संतुलित खाना पहुँचाती है। सोमवार से शुक्रवार, हर दोपहर, हमारी टीमें शहर में 120 से ज़्यादा लोगों से मिलती हैं। उनमें से कई लोगों के लिए यही दिन की इकलौती मुलाक़ात होती है।\n\nहमें इन कामों के लिए स्वयंसेवक चाहिए:\n• डिलीवरी की किसी एक गाड़ी को चलाना (मान्य ड्राइविंग लाइसेंस ज़रूरी);\n• ड्राइवर के साथ जाना और खाना दरवाज़े तक पहुँचाना;\n• सुबह रसोई में मदद करना (तैयारी और पैकिंग)।\n\nहम आपसे क्या चाहते हैं\n• हफ़्ते में एक बार या हर दो हफ़्ते में, सुबह 10:30 से दोपहर 1:30 के बीच, दो से तीन घंटे;\n• कम से कम तीन महीने की प्रतिबद्धता;\n• समय की पाबंदी और अच्छा मूड!\nकिसी अनुभव की ज़रूरत नहीं, और एकदम सही फ़्रेंच बोलना ज़रूरी नहीं: हमारे कई स्वयंसेवक कनाडा में नए हैं।\n\nहम आपको क्या देते हैं\n• पहली डिलीवरी से पहले दो घंटे का प्रशिक्षण;\n• पेट्रोल के ख़र्च की वापसी;\n• छह महीने बाद सिफ़ारिशी पत्र;\n• अपने समुदाय में सच्चा बदलाव लाने की ख़ुशी।\n\nजानकारी सत्र: मंगलवार 8 अक्तूबर, शाम 6 बजे, 45, रू प्रैंसिपाल पर। नाम ऑनलाइन या 819 555-0110 पर लिखवाइए।"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "Why are the visits important for many clients?"
+        },
+        "options": [
+          "They get free medicine",
+          "It is often their only visit of the day",
+          "They can choose their meals",
+          "They learn French"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Pour beaucoup d'entre elles, c'est la seule visite de la journée.'",
+          "hi": "'pour beaucoup d'entre elles, c'est la seule visite de la journée' — दिन की इकलौती मुलाक़ात।"
+        },
+        "kind": "inference",
+        "evidence": "Pour beaucoup d'entre elles, c'est la seule visite de la journée."
+      },
+      {
+        "q": {
+          "en": "Your friend has no driver's licence. Can he volunteer?"
+        },
+        "options": [
+          "Only after six months",
+          "Only on weekends",
+          "No, a licence is required for all tasks",
+          "Yes, he can accompany a driver or help in the kitchen"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "The licence is required only for driving; two other tasks exist.",
+          "hi": "लाइसेंस सिर्फ़ गाड़ी चलाने के लिए ज़रूरी है; दो और काम भी हैं।"
+        },
+        "kind": "inference",
+        "evidence": "accompagner un chauffeur et apporter les repas aux portes"
+      },
+      {
+        "q": {
+          "en": "What is the minimum commitment?"
+        },
+        "options": [
+          "Three months",
+          "Six months",
+          "One year",
+          "One day"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Un engagement d'au moins trois mois.' Six months is for the reference letter.",
+          "hi": "'un engagement d'au moins trois mois'। छह महीने सिफ़ारिशी पत्र के लिए हैं।"
+        },
+        "kind": "literal",
+        "evidence": "Un engagement d'au moins trois mois"
+      },
+      {
+        "q": {
+          "en": "Which statement about French is true?"
+        },
+        "options": [
+          "Perfect French is required",
+          "French is not necessary at all",
+          "You don't need perfect French",
+          "Only English is spoken"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Il n'est pas obligatoire de parler parfaitement français.'",
+          "hi": "'il n'est pas obligatoire de parler parfaitement français' — एकदम सही फ़्रेंच ज़रूरी नहीं।"
+        },
+        "kind": "literal",
+        "evidence": "il n'est pas obligatoire de parler parfaitement français"
+      },
+      {
+        "q": {
+          "en": "Which argument could answer a friend who says 'Ça va me coûter cher en essence'?"
+        },
+        "options": [
+          "The meals are free for volunteers",
+          "Gas costs are reimbursed",
+          "You get paid after three months",
+          "The organisation lends a bike"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Le remboursement de vos frais d'essence.'",
+          "hi": "'le remboursement de vos frais d'essence' — पेट्रोल का ख़र्च लौटाया जाता है।"
+        },
+        "kind": "inference",
+        "evidence": "Le remboursement de vos frais d'essence"
+      },
+      {
+        "q": {
+          "en": "When is the information session?"
+        },
+        "options": [
+          "Every weekday at 10:30",
+          "Monday at noon",
+          "8 October at 1:30 p.m.",
+          "Tuesday 8 October at 6 p.m."
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Le mardi 8 octobre à 18 h.'",
+          "hi": "'le mardi 8 octobre à 18 h' — मंगलवार 8 अक्तूबर, शाम 6 बजे।"
+        },
+        "kind": "literal",
+        "evidence": "Séance d'information : le mardi 8 octobre à 18 h"
+      }
+    ]
+  },
+  "writing": {
+    "type": "message",
+    "prompt": {
+      "en": "Write a message to a friend (tu) to convince them to volunteer with you at Repas-Partage. Present the organisation, give at least three arguments, and answer one objection you expect from them.",
+      "hi": "एक दोस्त को (tu) संदेश लिखिए ताकि वह आपके साथ Repas-Partage में स्वयंसेवा करे। संस्था का परिचय दीजिए, कम से कम तीन तर्क दीजिए, और उसकी एक संभावित आपत्ति का जवाब दीजिए।"
+    },
+    "minWords": 100,
+    "maxWords": 170,
+    "hints": [
+      {
+        "en": "Start with Salut + name, and end with a concrete proposal (date, time).",
+        "hi": "Salut + नाम से शुरू कीजिए, और एक ठोस प्रस्ताव (तारीख़, समय) से ख़त्म कीजिए।"
+      },
+      {
+        "en": "Anticipate an objection: 'Tu vas me dire que…, mais…'.",
+        "hi": "आपत्ति पहले से भाँपिए: 'Tu vas me dire que…, mais…'।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Tu vas me dire que…, mais…",
+        "en": "You're going to tell me that…, but…",
+        "hi": "तुम कहोगे कि…, पर…",
+        "pron": "तü वा मö दीग़ कö … मै"
+      },
+      {
+        "fr": "Ça te ferait du bien.",
+        "en": "It would do you good.",
+        "hi": "इससे तुम्हें अच्छा लगेगा।",
+        "pron": "सा तö फ़ö-ग़ै दü ब्यैँ"
+      },
+      {
+        "fr": "Qu'est-ce que tu en dis ?",
+        "en": "What do you say?",
+        "hi": "क्या कहते हो?",
+        "pron": "कैस-कö तü आँ दी"
+      }
+    ],
+    "model": {
+      "fr": "Salut Daniel,\nJ'ai trouvé une annonce qui devrait te plaire : Repas-Partage cherche des bénévoles pour livrer des repas chauds à des aînés qui vivent seuls. Tu vas me dire que tu n'as pas le temps, mais c'est seulement deux heures toutes les deux semaines, le midi. D'abord, ce serait parfait pour pratiquer ton français avec de vraies personnes. Ensuite, après six mois, ils donnent une lettre de référence : ça valoriserait ton CV. Enfin, imagine le sourire d'une dame qui ne voit personne de la journée ! Tu n'as même pas besoin de voiture, tu peux accompagner un chauffeur. À ta place, j'irais à la séance d'information mardi à 18 h. On y va ensemble ? Qu'est-ce que tu en dis ?\nÀ bientôt,\nMeera",
+      "en": "Hi Daniel,\nI found an ad you should like: Repas-Partage is looking for volunteers to deliver hot meals to seniors who live alone. You're going to tell me you don't have time, but it's only two hours every two weeks, at lunchtime. First, it would be perfect to practise your French with real people. Then, after six months, they give a reference letter: it would strengthen your CV. Finally, imagine the smile of a lady who sees nobody all day! You don't even need a car, you can go with a driver. If I were you, I'd go to the information session on Tuesday at 6 p.m. Shall we go together? What do you say?\nSee you soon,\nMeera"
+    },
+    "checklist": [
+      {
+        "en": "Did you use tu everywhere (te, ton, ta)?",
+        "hi": "क्या आपने हर जगह tu (te, ton, ta) इस्तेमाल किया?"
+      },
+      {
+        "en": "Did you give at least three arguments with connectors?",
+        "hi": "क्या आपने संयोजकों के साथ कम से कम तीन तर्क दिए?"
+      },
+      {
+        "en": "Did you answer one objection?",
+        "hi": "क्या आपने एक आपत्ति का जवाब दिया?"
+      },
+      {
+        "en": "Did you end with a concrete proposal and a question?",
+        "hi": "क्या आपने एक ठोस प्रस्ताव और एक सवाल से अंत किया?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      29,
+      65,
+      66,
+      72,
+      73,
+      86
+    ],
+    "items": [
+      {
+        "fr": "tu devrais",
+        "en": "you should",
+        "hi": "तुम्हें … चाहिए",
+        "pron": "तü दö-व्ग़ै"
+      },
+      {
+        "fr": "l'avantage, c'est que…",
+        "en": "the advantage is that…",
+        "hi": "फ़ायदा यह है कि…",
+        "pron": "ला-वाँ-ताझ़ सै कö"
+      },
+      {
+        "fr": "certes… mais…",
+        "en": "admittedly… but…",
+        "hi": "माना कि… पर…",
+        "pron": "सैग़्त मै"
+      },
+      {
+        "fr": "Si j'avais le temps, je viendrais.",
+        "en": "If I had time, I would come.",
+        "hi": "अगर मेरे पास समय होता, तो मैं आता।",
+        "pron": "सी झ़ा-वै लö ताँ झ़ö व्यैँ-द्ग़ै"
+      },
+      {
+        "fr": "Prenez la deuxième rue à droite.",
+        "en": "Take the second street on the right.",
+        "hi": "दाईं ओर दूसरी गली लीजिए।",
+        "pron": "प्रö-ने ला दö-ज़्यैम ग़ü आ द्ग़्वात"
+      },
+      {
+        "fr": "au contraire",
+        "en": "on the contrary",
+        "hi": "इसके उलट",
+        "pron": "ओ कोँ-त्ग़ैग़"
+      },
+      {
+        "fr": "un atout",
+        "en": "an asset",
+        "hi": "अतिरिक्त ख़ूबी",
+        "pron": "ऐँ ना-तू"
+      },
+      {
+        "fr": "Je voudrais savoir si c'est payé.",
+        "en": "I'd like to know if it's paid.",
+        "hi": "मैं जानना चाहूँगा कि क्या इसके पैसे मिलते हैं।",
+        "pron": "झ़ö वू-द्रै सा-वाग़ सी सै पै-ये"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which sentence is friendly ADVICE (not an order)?",
+        "hi": "कौन-सा वाक्य दोस्ताना सलाह है (आदेश नहीं)?"
+      },
+      "options": [
+        "Tu devrais venir.",
+        "Tu viens.",
+        "Tu es venu.",
+        "Tu dois venir."
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The conditional devrais softens the advice.",
+        "hi": "conditionnel devrais सलाह को नरम बनाता है।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: If I were you, I would sign up.",
+        "hi": "पूरा कीजिए: तुम्हारी जगह मैं होता तो नाम लिखवाता।"
+      },
+      "sentence": "À ta place, je m'___.",
+      "answer": "inscrirais",
+      "accept": [],
+      "explanation": {
+        "en": "S'inscrire → conditional: je m'inscrirais.",
+        "hi": "s'inscrire → conditionnel: je m'inscrirais।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Correct affirmative imperative: 'Call them!' (tu)",
+        "hi": "सही सकारात्मक imperative: 'उन्हें फ़ोन करो!' (tu)"
+      },
+      "options": [
+        "Appelle leur !",
+        "Les appelle !",
+        "Appelle-les !",
+        "Appelles-les !"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Pronoun after the verb with a hyphen; no s on appelle.",
+        "hi": "सर्वनाम क्रिया के बाद hyphen के साथ; appelle पर s नहीं।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Your friend says: 'Je n'ai pas de voiture.' Best TEF-style answer?",
+        "hi": "दोस्त कहता है: 'Je n'ai pas de voiture.' TEF शैली का सबसे अच्छा जवाब?"
+      },
+      "options": [
+        "Moi non plus.",
+        "Ah, alors tant pis.",
+        "Je comprends, mais tu peux accompagner un chauffeur.",
+        "Tu dois acheter une voiture."
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Accept the objection, then give a solution or new argument.",
+        "hi": "आपत्ति मानिए, फिर कोई हल या नया तर्क दीजिए।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French (to a friend).",
+        "hi": "फ़्रेंच में लिखिए (दोस्त से)।"
+      },
+      "source": {
+        "en": "It would only take you two hours.",
+        "hi": "इसमें तुम्हारे सिर्फ़ दो घंटे लगेंगे।"
+      },
+      "answer": "Ça ne te prendrait que deux heures.",
+      "accept": [
+        "Ça ne te prendrait que deux heures",
+        "Cela ne te prendrait que deux heures."
+      ],
+      "explanation": {
+        "en": "Conditional prendrait + ne … que.",
+        "hi": "conditionnel prendrait + ne … que।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: Don't worry! (tu)",
+        "hi": "पूरा कीजिए: चिंता मत करो! (tu)"
+      },
+      "sentence": "Ne t'___ pas !",
+      "answer": "inquiète",
+      "accept": [],
+      "explanation": {
+        "en": "Negative imperative of s'inquiéter: Ne t'inquiète pas.",
+        "hi": "s'inquiéter का नकारात्मक imperative: Ne t'inquiète pas।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put in order: It would be good for your French.",
+        "hi": "क्रम में रखिए: यह तुम्हारी फ़्रेंच के लिए अच्छा होगा।"
+      },
+      "words": [
+        "serait",
+        "Ce",
+        "pour",
+        "bon",
+        "français",
+        "ton",
+        "."
+      ],
+      "answer": "Ce serait bon pour ton français.",
+      "explanation": {
+        "en": "Ce serait + adjective + pour + noun.",
+        "hi": "ce serait + विशेषण + pour + संज्ञा।"
+      }
+    }
+  ]
+}

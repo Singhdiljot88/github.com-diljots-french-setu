@@ -1,0 +1,863 @@
+{
+  "day": 54,
+  "phase": 3,
+  "title": {
+    "fr": "Raconter dans l'ordre",
+    "en": "Narrating in order",
+    "hi": "क्रम से सुनाना"
+  },
+  "objective": {
+    "en": "Tell a sequence of events or explain a procedure step by step with d'abord, ensuite, puis, après, enfin and finalement, and link actions with avant de + infinitive (and recognise après avoir + participle).",
+    "hi": "d'abord, ensuite, puis, après, enfin और finalement से घटनाओं का क्रम सुनाना या किसी प्रक्रिया को क़दम-दर-क़दम समझाना, और avant de + मूल क्रिया से कामों को जोड़ना (साथ ही après avoir + कृदंत पहचानना)।"
+  },
+  "prerequisites": {
+    "days": [
+      27,
+      36,
+      41,
+      43,
+      44,
+      47
+    ],
+    "summary": {
+      "en": "You know d'abord and ensuite from the daily routine (Day 27), health vocabulary (Day 36), and the passé composé with avoir and être (Days 41–44), used for story events (Day 47).",
+      "hi": "आप दिनचर्या (दिन 27) से d'abord और ensuite, सेहत के शब्द (दिन 36), और avoir तथा être वाला पासे कॉम्पोज़े (दिन 41–44) जानते हैं, जो कहानी की घटनाओं के लिए आता है (दिन 47)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "puis",
+      "en": "then",
+      "hi": "फिर",
+      "pron": "प्üई",
+      "ipa": "pɥi",
+      "pos": "adverb",
+      "note": {
+        "en": "Very close to ensuite; use both to avoid repetition.",
+        "hi": "ensuite के बहुत क़रीब; दोहराव से बचने के लिए दोनों इस्तेमाल कीजिए।"
+      }
+    },
+    {
+      "fr": "enfin",
+      "en": "finally, lastly; at last!",
+      "hi": "आख़िर में; आख़िरकार!",
+      "pron": "आँ-फ़ैँ",
+      "ipa": "ɑ̃fɛ̃",
+      "pos": "adverb",
+      "note": {
+        "en": "The last step in a list, or relief after waiting: Enfin, le bus arrive !",
+        "hi": "सूची का आख़िरी क़दम, या इंतज़ार के बाद राहत: Enfin, le bus arrive ! (आख़िरकार बस आ गई!)"
+      }
+    },
+    {
+      "fr": "finalement",
+      "en": "in the end, eventually",
+      "hi": "अंत में, आख़िरकार (नतीजा)",
+      "pron": "फ़ी-नाल-माँ",
+      "ipa": "finalmɑ̃",
+      "pos": "adverb",
+      "note": {
+        "en": "Often introduces an outcome, sometimes a surprise: Finalement, on a mangé sur les cartons.",
+        "hi": "अक्सर नतीजा बताता है, कभी-कभी अनपेक्षित: Finalement, on a mangé sur les cartons।"
+      }
+    },
+    {
+      "fr": "avant de (+ infinitif)",
+      "en": "before (doing)",
+      "hi": "(… करने) से पहले",
+      "pron": "आ-वाँ द",
+      "ipa": "avɑ̃ də",
+      "pos": "phrase",
+      "lemma": "avant de"
+    },
+    {
+      "fr": "après avoir (+ participe)",
+      "en": "after (having done)",
+      "hi": "(… करने) के बाद, … करके",
+      "pron": "आ-प्रै ज़ा-व्वाग़",
+      "ipa": "apʁɛ zavwaʁ",
+      "pos": "phrase",
+      "lemma": "après avoir",
+      "note": {
+        "en": "Recognition only for now: après avoir mangé = after eating. With être verbs: après être arrivé(e).",
+        "hi": "अभी सिर्फ़ पहचानने के लिए: après avoir mangé = खाने के बाद। être वाली क्रियाओं के साथ: après être arrivé(e)।"
+      }
+    },
+    {
+      "fr": "le déménagement",
+      "en": "the move (house)",
+      "hi": "घर बदलना, शिफ़्टिंग",
+      "pron": "लö दे-मे-नाझ़-माँ",
+      "ipa": "lə demenaʒmɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "déménagement"
+    },
+    {
+      "fr": "le carton",
+      "en": "the cardboard box",
+      "hi": "गत्ते का डिब्बा",
+      "pron": "लö काग़-तोँ",
+      "ipa": "lə kaʁtɔ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "carton"
+    },
+    {
+      "fr": "la carte d'assurance maladie",
+      "en": "the health card",
+      "hi": "स्वास्थ्य बीमा कार्ड",
+      "pron": "ला काग़त दा-सü-ग़ाँस मा-ला-दी",
+      "ipa": "la kaʁt dasyʁɑ̃s maladi",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "carte"
+    },
+    {
+      "fr": "remplir",
+      "en": "to fill (in)",
+      "hi": "भरना",
+      "pron": "ग़ाँ-प्लीग़",
+      "ipa": "ʁɑ̃pliʁ",
+      "pos": "verb",
+      "note": {
+        "en": "Regular -ir verb like finir: je remplis, nous remplissons, j'ai rempli.",
+        "hi": "finir जैसी नियमित -ir क्रिया: je remplis, nous remplissons, j'ai rempli।"
+      }
+    },
+    {
+      "fr": "signer",
+      "en": "to sign",
+      "hi": "हस्ताक्षर करना",
+      "pron": "सी-न्ये",
+      "ipa": "siɲe",
+      "pos": "verb"
+    },
+    {
+      "fr": "la preuve de résidence",
+      "en": "the proof of address",
+      "hi": "निवास का प्रमाण",
+      "pron": "ला प्रöव द ग़े-ज़ी-दाँस",
+      "ipa": "la pʁœv də ʁezidɑ̃s",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "preuve"
+    },
+    {
+      "fr": "le délai",
+      "en": "the waiting time, the time limit",
+      "hi": "इंतज़ार की अवधि, समय-सीमा",
+      "pron": "लö दे-लै",
+      "ipa": "lə delɛ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "délai",
+      "note": {
+        "en": "False friend: un délai is a period of time, not a 'delay' (un retard).",
+        "hi": "धोखेबाज़ शब्द: un délai एक समय-अवधि है, 'देरी' नहीं (देरी = un retard)।"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "D'abord, … Ensuite, … Puis, … Enfin, …",
+      "en": "First, … Next, … Then, … Finally, …",
+      "hi": "पहले, … उसके बाद, … फिर, … आख़िर में, …",
+      "pron": "दा-बॉग़ … आँ-स्üइत … प्üई … आँ-फ़ैँ"
+    },
+    {
+      "fr": "Avant de partir, j'ai fermé les fenêtres.",
+      "en": "Before leaving, I closed the windows.",
+      "hi": "निकलने से पहले मैंने खिड़कियाँ बंद कीं।",
+      "pron": "आ-वाँ द पाग़-तीग़ झ़े फ़ैग़-मे ले फ़ö-नैत्ग़"
+    },
+    {
+      "fr": "Après avoir mangé, nous sommes sortis.",
+      "en": "After eating, we went out.",
+      "hi": "खाना खाकर हम बाहर गए।",
+      "pron": "आ-प्रै ज़ा-व्वाग़ माँ-झ़े नू सॉम सॉग़-ती"
+    },
+    {
+      "fr": "Et après, qu'est-ce qui s'est passé ?",
+      "en": "And then what happened?",
+      "hi": "और फिर क्या हुआ?",
+      "pron": "ए आ-प्रै कैस-की सै पा-से"
+    },
+    {
+      "fr": "Voici les étapes, dans l'ordre.",
+      "en": "Here are the steps, in order.",
+      "hi": "ये रहे क़दम, क्रम से।",
+      "pron": "व्वा-सी ले ज़े-ताप दाँ लॉग़द्ग़"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Sequencing connectors; avant de + infinitive; après avoir + participle",
+      "hi": "क्रम बताने वाले शब्द; avant de + मूल क्रिया; après avoir + कृदंत"
+    },
+    "explanation": {
+      "en": "To show order: d'abord (first) → ensuite / puis / après (then, next, after that) → enfin (finally, last step) → finalement (in the end, the outcome). Put the connector at the start, usually with a comma: D'abord, j'ai rempli le formulaire. Ensuite, … To link two actions by the same person: avant de + INFINITIVE (Avant de signer, lisez le document) and après avoir / après être + PAST PARTICIPLE (Après avoir signé, il est parti. Après être arrivée, elle a téléphoné). For après, you only need to recognise the form for now; you can always say 'Après, …' or 'Quand j'ai fini, …' instead.",
+      "hi": "क्रम दिखाने के लिए: d'abord (पहले) → ensuite / puis / après (फिर, उसके बाद) → enfin (आख़िर में, अंतिम क़दम) → finalement (अंत में, नतीजा)। जोड़ने वाला शब्द शुरू में रखिए, आमतौर पर अल्पविराम के साथ: D'abord, j'ai rempli le formulaire. Ensuite, … एक ही व्यक्ति के दो कामों को जोड़ने के लिए: avant de + मूल क्रिया (Avant de signer, lisez le document — हस्ताक्षर करने से पहले दस्तावेज़ पढ़िए) और après avoir / après être + भूत कृदंत (Après avoir signé, il est parti — हस्ताक्षर करके वह चला गया। Après être arrivée, elle a téléphoné)। après वाला रूप अभी सिर्फ़ पहचानना है; आप उसकी जगह हमेशा 'Après, …' या 'Quand j'ai fini, …' कह सकते हैं।"
+    },
+    "comparison": {
+      "en": "Hindi 'पहले … फिर … उसके बाद … आख़िर में' maps neatly onto d'abord … puis … ensuite … enfin. 'जाने से पहले' = avant de partir: both languages use a verb form + 'before', but French needs de + infinitive. 'खाना खाकर / खाने के बाद' ≈ après avoir mangé — the Hindi -कर form is a good mental match. English 'before leaving' uses -ing; French never does: not 'avant partant'.",
+      "hi": "हिंदी का 'पहले … फिर … उसके बाद … आख़िर में' बड़ी आसानी से d'abord … puis … ensuite … enfin पर बैठता है। 'जाने से पहले' = avant de partir: दोनों भाषाओं में क्रिया का एक रूप + 'पहले' आता है, पर फ़्रेंच में de + मूल क्रिया चाहिए। 'खाना खाकर / खाने के बाद' ≈ après avoir mangé — हिंदी का -कर वाला रूप अच्छा मानसिक मेल है। अंग्रेज़ी 'before leaving' में -ing है; फ़्रेंच में कभी नहीं: 'avant partant' नहीं।"
+    },
+    "examples": [
+      {
+        "fr": "D'abord, préparez vos documents.",
+        "en": "First, prepare your documents.",
+        "hi": "पहले अपने दस्तावेज़ तैयार कीजिए।",
+        "pron": "दा-बॉग़ प्रे-पा-ग़े वो दो-कü-माँ"
+      },
+      {
+        "fr": "Ensuite, nous avons chargé le camion, puis nous sommes partis.",
+        "en": "Next, we loaded the truck, then we left.",
+        "hi": "उसके बाद हमने ट्रक में सामान लादा, फिर हम निकल पड़े।",
+        "pron": "आँ-स्üइत नू ज़ा-वोँ शाग़-झ़े लö का-म्योँ प्üई नू सॉम पाग़-ती"
+      },
+      {
+        "fr": "Avant de signer, lisez bien le contrat.",
+        "en": "Before signing, read the contract carefully.",
+        "hi": "हस्ताक्षर करने से पहले अनुबंध ध्यान से पढ़िए।",
+        "pron": "आ-वाँ द सी-न्ये ली-ज़े ब्यैँ लö कोँ-त्रा"
+      },
+      {
+        "fr": "Après avoir fini les cartons, j'ai dormi une heure.",
+        "en": "After finishing the boxes, I slept for an hour.",
+        "hi": "डिब्बे पूरे करके मैं एक घंटा सोया।",
+        "pron": "आ-प्रै ज़ा-व्वाग़ फ़ी-नी ले काग़-तोँ झ़े दॉग़-मी ü नöग़"
+      },
+      {
+        "fr": "Enfin, la carte est arrivée par la poste.",
+        "en": "Finally, the card arrived by post.",
+        "hi": "आख़िरकार कार्ड डाक से आ गया।",
+        "pron": "आँ-फ़ैँ ला काग़त ए ता-ग़ी-वे पाग़ ला पॉस्त"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "After avant de, use the infinitive, never a conjugated verb: 'avant de je pars' is wrong → 'avant de partir'.",
+        "hi": "avant de के बाद मूल क्रिया आती है, संयुग्मित क्रिया कभी नहीं: 'avant de je pars' ग़लत है → 'avant de partir'।"
+      },
+      {
+        "en": "avant de / après avoir only work when both actions have the same subject: 'Avant de partir, j'ai fermé la porte' (I left, I closed).",
+        "hi": "avant de / après avoir तभी चलते हैं जब दोनों कामों का कर्ता एक ही हो: 'Avant de partir, j'ai fermé la porte' (मैं निकला, मैंने बंद किया)।"
+      },
+      {
+        "en": "Don't overuse 'après' alone: vary with ensuite and puis to sound natural.",
+        "hi": "सिर्फ़ 'après' बार-बार मत लगाइए: स्वाभाविक लगने के लिए ensuite और puis भी इस्तेमाल कीजिए।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Enchaînement across connectors",
+    "tip": {
+      "en": "A final pronounced consonant slides into the next vowel: ensuite‿on a (आँ-स्üई-तोँ-ना), d'abord‿il a (दा-बॉ-ग़ी-ला), puis‿elle (प्üई ऐल — no liaison after puis), enfin‿on est‿arrivés (आँ-फ़ैँ ओँ नै ता-ग़ी-वे). Pause briefly after the connector, then keep the rest smooth.",
+      "hi": "आख़िर में बोला जाने वाला व्यंजन अगले स्वर में फिसल जाता है: ensuite‿on a (आँ-स्üई-तोँ-ना), d'abord‿il a (दा-बॉ-ग़ी-ला), puis elle (प्üई ऐल — puis के बाद लियाज़ों नहीं), enfin‿on est‿arrivés (आँ-फ़ैँ ओँ नै ता-ग़ी-वे)। जोड़ने वाले शब्द के बाद हल्का रुकिए, फिर बाक़ी सहज बोलिए।"
+    },
+    "words": [
+      {
+        "fr": "Ensuite, on a mangé.",
+        "en": "Then we ate.",
+        "hi": "फिर हमने खाया।",
+        "pron": "आँ-स्üई-तोँ-ना माँ-झ़े"
+      },
+      {
+        "fr": "D'abord, il a téléphoné.",
+        "en": "First he phoned.",
+        "hi": "पहले उसने फ़ोन किया।",
+        "pron": "दा-बॉ-ग़ी-ला ते-ले-फ़ो-ने"
+      },
+      {
+        "fr": "Enfin, on est arrivés.",
+        "en": "At last we arrived.",
+        "hi": "आख़िरकार हम पहुँच गए।",
+        "pron": "आँ-फ़ैँ ओँ नै ता-ग़ी-वे"
+      },
+      {
+        "fr": "après avoir signé",
+        "en": "after signing",
+        "hi": "हस्ताक्षर करके",
+        "pron": "आ-प्रै ज़ा-व्वाग़ सी-न्ये"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Le jour du déménagement",
+      "en": "Moving day"
+    },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Jaspreet has just moved flats in Montréal. On Monday, his colleague Émilie asks him how it went.",
+      "hi": "जसप्रीत ने अभी-अभी मॉन्ट्रियाल में फ़्लैट बदला है। सोमवार को उसकी सहकर्मी एमिली पूछती है कि सब कैसा रहा।"
+    },
+    "lines": [
+      {
+        "speaker": "Émilie",
+        "voice": "f2",
+        "fr": "Alors, Jaspreet, ce déménagement, ça s'est bien passé ?",
+        "en": "So, Jaspreet, how did the move go?",
+        "hi": "तो जसप्रीत, शिफ़्टिंग कैसी रही?"
+      },
+      {
+        "speaker": "Jaspreet",
+        "voice": "m1",
+        "fr": "Ouf, quelle journée ! D'abord, je me suis levé à cinq heures pour finir les cartons.",
+        "en": "Phew, what a day! First, I got up at five to finish the boxes.",
+        "hi": "उफ़, क्या दिन था! पहले, मैं डिब्बे पूरे करने के लिए पाँच बजे उठा।"
+      },
+      {
+        "speaker": "Émilie",
+        "voice": "f2",
+        "fr": "À cinq heures !",
+        "en": "At five!",
+        "hi": "पाँच बजे!"
+      },
+      {
+        "speaker": "Jaspreet",
+        "voice": "m1",
+        "fr": "Oui. Ensuite, à huit heures, mes amis sont arrivés avec un camion. Avant de commencer, on a bu un grand café.",
+        "en": "Yes. Then, at eight, my friends arrived with a truck. Before starting, we had a big coffee.",
+        "hi": "हाँ। फिर आठ बजे मेरे दोस्त एक ट्रक लेकर आए। शुरू करने से पहले हमने एक बड़ी कॉफ़ी पी।"
+      },
+      {
+        "speaker": "Émilie",
+        "voice": "f2",
+        "fr": "Bonne idée.",
+        "en": "Good idea.",
+        "hi": "अच्छा किया।"
+      },
+      {
+        "speaker": "Jaspreet",
+        "voice": "m1",
+        "fr": "Puis on a descendu les meubles. Le problème : j'habitais au troisième étage, sans ascenseur !",
+        "en": "Then we carried the furniture down. The problem: I lived on the third floor, with no lift!",
+        "hi": "फिर हमने फ़र्नीचर नीचे उतारा। दिक़्क़त यह थी: मैं तीसरी मंज़िल पर रहता था, बिना लिफ़्ट के!"
+      },
+      {
+        "speaker": "Émilie",
+        "voice": "f2",
+        "fr": "Oh non…",
+        "en": "Oh no…",
+        "hi": "अरे नहीं…"
+      },
+      {
+        "speaker": "Jaspreet",
+        "voice": "m1",
+        "fr": "Après avoir chargé le camion, on a traversé la ville. Il y avait des embouteillages partout : c'était le premier juillet !",
+        "en": "After loading the truck, we crossed the city. There were traffic jams everywhere: it was the first of July!",
+        "hi": "ट्रक में सामान लादकर हमने शहर पार किया। हर जगह जाम था: पहली जुलाई थी!"
+      },
+      {
+        "speaker": "Émilie",
+        "voice": "f2",
+        "fr": "Ah oui, le jour du déménagement au Québec ! Tout le monde déménage ce jour-là.",
+        "en": "Ah yes, moving day in Québec! Everyone moves on that day.",
+        "hi": "अरे हाँ, क्यूबेक का शिफ़्टिंग वाला दिन! उस दिन सब लोग घर बदलते हैं।"
+      },
+      {
+        "speaker": "Jaspreet",
+        "voice": "m1",
+        "fr": "Exactement. Après ça, on a monté tous les cartons dans le nouvel appartement. Heureusement, il y a un ascenseur !",
+        "en": "Exactly. After that, we carried all the boxes up into the new flat. Luckily, there's a lift!",
+        "hi": "बिल्कुल। उसके बाद हमने सारे डिब्बे नए फ़्लैट में ऊपर चढ़ाए। शुक्र है, वहाँ लिफ़्ट है!"
+      },
+      {
+        "speaker": "Émilie",
+        "voice": "f2",
+        "fr": "Et le soir ?",
+        "en": "And in the evening?",
+        "hi": "और शाम को?"
+      },
+      {
+        "speaker": "Jaspreet",
+        "voice": "m1",
+        "fr": "Enfin, vers vingt heures, j'ai commandé des pizzas pour tout le monde. Finalement, on a mangé assis sur les cartons, parce que je n'avais pas encore de chaises !",
+        "en": "Finally, around 8 p.m., I ordered pizzas for everyone. In the end we ate sitting on the boxes, because I didn't have any chairs yet!",
+        "hi": "आख़िर में, क़रीब रात आठ बजे, मैंने सबके लिए पिज़्ज़ा मँगवाए। अंत में हमने डिब्बों पर बैठकर खाया, क्योंकि मेरे पास अभी कुर्सियाँ नहीं थीं!"
+      },
+      {
+        "speaker": "Émilie",
+        "voice": "f2",
+        "fr": "Ha ha ! C'est ça, un vrai déménagement !",
+        "en": "Ha ha! That's a real move!",
+        "hi": "हा हा! यही तो असली शिफ़्टिंग है!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "What did Jaspreet do first?"
+        },
+        "options": [
+          "He ordered pizzas",
+          "He got up at five to finish the boxes",
+          "He picked up the truck",
+          "He drank coffee with friends"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'D'abord, je me suis levé à cinq heures pour finir les cartons.'",
+          "hi": "'D'abord, je me suis levé à cinq heures pour finir les cartons.' (पहले, मैं डिब्बे पूरे करने के लिए पाँच बजे उठा।)"
+        },
+        "kind": "literal",
+        "evidence": "D'abord, je me suis levé à cinq heures pour finir les cartons."
+      },
+      {
+        "q": {
+          "en": "What did they do before starting to carry things?"
+        },
+        "options": [
+          "They had a big coffee",
+          "They ate pizza",
+          "They called a taxi"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Avant de commencer, on a bu un grand café.'",
+          "hi": "'Avant de commencer, on a bu un grand café.' (शुरू करने से पहले हमने बड़ी कॉफ़ी पी।)"
+        },
+        "kind": "literal",
+        "evidence": "Avant de commencer, on a bu un grand café."
+      },
+      {
+        "q": {
+          "en": "Why was carrying the furniture down so hard?"
+        },
+        "options": [
+          "It was raining",
+          "The old flat was on the third floor with no lift",
+          "The furniture was very old"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "He lived on the third floor and there was no lift.",
+          "hi": "वह तीसरी मंज़िल पर रहता था और लिफ़्ट नहीं थी।"
+        },
+        "kind": "inference",
+        "evidence": "j'habitais au troisième étage, sans ascenseur"
+      },
+      {
+        "q": {
+          "en": "Why was there so much traffic?"
+        },
+        "options": [
+          "There was an accident",
+          "It was a holiday parade",
+          "It was 1 July, when many people move in Québec"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "Émilie explains: everyone moves on that day in Québec.",
+          "hi": "एमिली बताती है: क्यूबेक में उस दिन सब लोग घर बदलते हैं।"
+        },
+        "kind": "inference",
+        "evidence": "Tout le monde déménage ce jour-là."
+      },
+      {
+        "q": {
+          "en": "Why did they eat sitting on boxes?"
+        },
+        "options": [
+          "They had no chairs yet",
+          "The table was broken",
+          "They were in a hurry"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'parce que je n'avais pas encore de chaises'.",
+          "hi": "'parce que je n'avais pas encore de chaises' (क्योंकि मेरे पास अभी कुर्सियाँ नहीं थीं)।"
+        },
+        "kind": "literal",
+        "evidence": "parce que je n'avais pas encore de chaises"
+      }
+    ],
+    "dictation": [
+      "D'abord, je me suis levé à cinq heures.",
+      "Avant de commencer, on a bu un café.",
+      "Enfin, j'ai commandé des pizzas."
+    ],
+    "gapFill": {
+      "text": "___, je me suis levé à cinq heures. ___ de commencer, on a bu un café. ___ avoir chargé le camion, on a traversé la ville.",
+      "answers": [
+        "D'abord",
+        "Avant",
+        "Après"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "presentation",
+    "instructions": {
+      "en": "Retell Jaspreet's moving day in the third person (il), using five connectors. Then tell, in order, what you did yesterday from morning to night. Use avant de at least once.",
+      "hi": "जसप्रीत के शिफ़्टिंग वाले दिन को अन्य पुरुष (il) में, पाँच जोड़ने वाले शब्दों के साथ दोबारा सुनाइए। फिर क्रम से बताइए कि आपने कल सुबह से रात तक क्या किया। कम से कम एक बार avant de इस्तेमाल कीजिए।"
+    },
+    "prompts": [
+      {
+        "fr": "D'abord, qu'est-ce qu'il a fait ?",
+        "en": "First, what did he do?",
+        "hi": "पहले उसने क्या किया?",
+        "pron": "दा-बॉग़ कैस-की-ला फ़ै",
+        "model": "D'abord, il s'est levé à cinq heures pour finir les cartons."
+      },
+      {
+        "fr": "Et ensuite ?",
+        "en": "And next?",
+        "hi": "और उसके बाद?",
+        "pron": "ए आँ-स्üइत",
+        "model": "Ensuite, ses amis sont arrivés avec un camion."
+      },
+      {
+        "fr": "Qu'est-ce qu'ils ont fait avant de commencer ?",
+        "en": "What did they do before starting?",
+        "hi": "शुरू करने से पहले उन्होंने क्या किया?",
+        "pron": "कैस-कील ज़ोँ फ़ै आ-वाँ द को-माँ-से",
+        "model": "Avant de commencer, ils ont bu un café."
+      },
+      {
+        "fr": "Et puis ?",
+        "en": "And then?",
+        "hi": "और फिर?",
+        "pron": "ए प्üई",
+        "model": "Puis ils ont descendu les meubles et ils ont traversé la ville."
+      },
+      {
+        "fr": "Comment la journée a-t-elle fini ?",
+        "en": "How did the day end?",
+        "hi": "दिन कैसे ख़त्म हुआ?",
+        "pron": "को-माँ ला झ़ूग़-ने आ-तैल फ़ी-नी",
+        "model": "Enfin, il a commandé des pizzas. Finalement, ils ont mangé sur les cartons !"
+      }
+    ],
+    "tip": {
+      "en": "Count your connectors on your fingers as you speak: d'abord (1), ensuite (2), puis (3), après (4), enfin (5). It keeps your story organised — exactly what examiners listen for.",
+      "hi": "बोलते समय उँगलियों पर जोड़ने वाले शब्द गिनिए: d'abord (1), ensuite (2), puis (3), après (4), enfin (5)। इससे आपकी कहानी व्यवस्थित रहती है — परीक्षक ठीक यही सुनना चाहते हैं।"
+    }
+  },
+  "reading": {
+    "genre": "article",
+    "title": "Nouvel arrivant : obtenir votre carte d'assurance maladie (exemple)",
+    "text": "Dans votre province, la carte d'assurance maladie vous permet de voir un médecin sans payer. Voici les étapes, dans l'ordre. Ces informations sont simplifiées : vérifiez toujours sur le site officiel de votre province.\n\nD'abord, préparez vos documents : votre passeport, votre document d'immigration (par exemple, la confirmation de résidence permanente) et une preuve de résidence, comme un bail ou une facture d'électricité.\n\nEnsuite, téléphonez au bureau de l'assurance maladie de votre région pour prendre rendez-vous. Avant d'y aller, remplissez le formulaire d'inscription. Mais il ne faut pas le signer à la maison : vous devez le signer devant l'agent.\n\nLe jour du rendez-vous, apportez tous les originaux. L'agent va vérifier vos documents, puis il va prendre votre photo et votre signature.\n\nAprès avoir donné vos documents, vous recevrez une lettre de confirmation. Enfin, la carte arrivera par la poste, normalement en quatre à six semaines.\n\nAttention : dans certaines provinces, il y a un délai d'attente avant d'avoir accès aux soins gratuits. Pendant ce délai, une assurance privée est recommandée.",
+    "translation": {
+      "en": "In your province, the health card lets you see a doctor without paying. Here are the steps, in order. This information is simplified: always check on your province's official website.\n\nFirst, prepare your documents: your passport, your immigration document (for example, the confirmation of permanent residence) and a proof of address, such as a lease or an electricity bill.\n\nNext, phone the health insurance office in your area to make an appointment. Before going there, fill in the registration form. But you must not sign it at home: you must sign it in front of the agent.\n\nOn the day of the appointment, bring all the originals. The agent will check your documents, then take your photo and your signature.\n\nAfter handing in your documents, you will receive a confirmation letter. Finally, the card will arrive by post, normally in four to six weeks.\n\nNote: in some provinces there is a waiting period before you get access to free care. During this period, private insurance is recommended.",
+      "hi": "आपके प्रांत में स्वास्थ्य बीमा कार्ड से आप बिना पैसे दिए डॉक्टर को दिखा सकते हैं। ये रहे क़दम, क्रम से। यह जानकारी सरल रूप में है: हमेशा अपने प्रांत की आधिकारिक वेबसाइट पर जाँच लीजिए।\n\nपहले, अपने दस्तावेज़ तैयार कीजिए: पासपोर्ट, आप्रवासन दस्तावेज़ (जैसे स्थायी निवास की पुष्टि) और निवास का कोई प्रमाण, जैसे किराए का अनुबंध या बिजली का बिल।\n\nउसके बाद, अपॉइंटमेंट लेने के लिए अपने इलाक़े के स्वास्थ्य बीमा दफ़्तर को फ़ोन कीजिए। वहाँ जाने से पहले पंजीकरण फ़ॉर्म भर लीजिए। पर उस पर घर पर हस्ताक्षर नहीं करने हैं: आपको अधिकारी के सामने हस्ताक्षर करने होंगे।\n\nअपॉइंटमेंट वाले दिन सारे मूल दस्तावेज़ ले जाइए। अधिकारी आपके दस्तावेज़ जाँचेंगे, फिर आपकी फ़ोटो और हस्ताक्षर लेंगे।\n\nदस्तावेज़ देने के बाद आपको पुष्टि का एक पत्र मिलेगा। आख़िर में, कार्ड डाक से आएगा, आमतौर पर चार से छह हफ़्तों में।\n\nध्यान दीजिए: कुछ प्रांतों में मुफ़्त इलाज मिलने से पहले इंतज़ार की एक अवधि होती है। उस दौरान निजी बीमा लेने की सलाह दी जाती है।"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "What does the health card allow you to do?"
+        },
+        "options": [
+          "Travel for free",
+          "See a doctor without paying",
+          "Work in the province",
+          "Rent a flat"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'vous permet de voir un médecin sans payer'.",
+          "hi": "'vous permet de voir un médecin sans payer' (बिना पैसे दिए डॉक्टर को दिखाने देता है)।"
+        },
+        "kind": "literal",
+        "evidence": "la carte d'assurance maladie vous permet de voir un médecin sans payer"
+      },
+      {
+        "q": {
+          "en": "Which document can be a proof of address?"
+        },
+        "options": [
+          "A passport",
+          "A driving licence",
+          "An electricity bill"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'comme un bail ou une facture d'électricité'.",
+          "hi": "'comme un bail ou une facture d'électricité' (जैसे किराए का अनुबंध या बिजली का बिल)।"
+        },
+        "kind": "literal",
+        "evidence": "une preuve de résidence, comme un bail ou une facture d'électricité"
+      },
+      {
+        "q": {
+          "en": "Why shouldn't you sign the form at home?"
+        },
+        "options": [
+          "Because you must sign it in front of the agent",
+          "Because the agent fills it in",
+          "Because you need a special pen"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'vous devez le signer devant l'agent'.",
+          "hi": "'vous devez le signer devant l'agent' (आपको अधिकारी के सामने हस्ताक्षर करने हैं)।"
+        },
+        "kind": "literal",
+        "evidence": "vous devez le signer devant l'agent"
+      },
+      {
+        "q": {
+          "en": "What comes right after you hand in your documents?"
+        },
+        "options": [
+          "A confirmation letter",
+          "The card arrives",
+          "A second appointment"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "First a confirmation letter; 'Enfin', the card by post.",
+          "hi": "पहले पुष्टि का पत्र; 'Enfin' (आख़िर में), डाक से कार्ड।"
+        },
+        "kind": "inference",
+        "evidence": "Après avoir donné vos documents, vous recevrez une lettre de confirmation."
+      },
+      {
+        "q": {
+          "en": "Why does the text recommend private insurance?"
+        },
+        "options": [
+          "The card is expensive",
+          "Doctors don't accept the card",
+          "There may be a waiting period before free care"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "In some provinces there is a waiting period; private insurance covers that time.",
+          "hi": "कुछ प्रांतों में इंतज़ार की अवधि होती है; निजी बीमा उस समय के लिए होता है।"
+        },
+        "kind": "inference",
+        "evidence": "il y a un délai d'attente avant d'avoir accès aux soins gratuits"
+      }
+    ]
+  },
+  "writing": {
+    "type": "story",
+    "prompt": {
+      "en": "Write a narrative of a busy day (your first day in a new city, a moving day, a wedding preparation day, a day of paperwork). Tell the events in order with at least five connectors and one 'avant de'.",
+      "hi": "किसी व्यस्त दिन का वर्णन लिखिए (नए शहर में आपका पहला दिन, शिफ़्टिंग का दिन, शादी की तैयारी का दिन, काग़ज़ी काम का दिन)। कम से कम पाँच जोड़ने वाले शब्दों और एक 'avant de' के साथ घटनाएँ क्रम से बताइए।",
+      "fr": "Racontez une journée chargée, dans l'ordre."
+    },
+    "minWords": 70,
+    "maxWords": 120,
+    "hints": [
+      {
+        "en": "Use d'abord, ensuite, puis, après, enfin / finalement — each once.",
+        "hi": "d'abord, ensuite, puis, après, enfin / finalement — हर एक एक बार।"
+      },
+      {
+        "en": "Use the passé composé for the steps and the imparfait for one or two background details.",
+        "hi": "क़दमों के लिए पासे कॉम्पोज़े और एक-दो पृष्ठभूमि वाली बातों के लिए इम्पारफ़े।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "D'abord, je suis allé(e) …",
+        "en": "First I went …",
+        "hi": "पहले मैं … गया/गई",
+        "pron": "दा-बॉग़ झ़ö स्üई ज़ा-ले"
+      },
+      {
+        "fr": "Avant de …, j'ai …",
+        "en": "Before …ing, I …",
+        "hi": "… करने से पहले मैंने …",
+        "pron": "आ-वाँ द … झ़े"
+      },
+      {
+        "fr": "Finalement, …",
+        "en": "In the end, …",
+        "hi": "अंत में, …",
+        "pron": "फ़ी-नाल-माँ"
+      }
+    ],
+    "model": {
+      "fr": "Mon premier jour à Toronto a été très chargé. D'abord, je suis allée à la banque pour ouvrir un compte. Il y avait beaucoup de monde, alors j'ai attendu une heure. Ensuite, j'ai acheté une carte SIM au centre commercial. Puis j'ai pris le métro pour visiter un appartement. Avant de signer le bail, j'ai posé beaucoup de questions au propriétaire. Après, j'ai téléphoné à mes parents en Inde. Enfin, le soir, j'ai mangé un dosa dans un petit restaurant. Finalement, je me suis couchée à vingt et une heures, très fatiguée mais contente !",
+      "en": "My first day in Toronto was very busy. First I went to the bank to open an account. There were a lot of people, so I waited an hour. Next I bought a SIM card at the shopping centre. Then I took the metro to visit a flat. Before signing the lease, I asked the landlord lots of questions. After that I phoned my parents in India. Finally, in the evening, I ate a dosa in a small restaurant. In the end I went to bed at 9 p.m., very tired but happy!"
+    },
+    "checklist": [
+      {
+        "en": "Did you use at least five different connectors, each at the start of a sentence?",
+        "hi": "क्या आपने कम से कम पाँच अलग-अलग जोड़ने वाले शब्द, हर एक वाक्य की शुरुआत में, इस्तेमाल किए?"
+      },
+      {
+        "en": "Is the verb after 'avant de' in the infinitive?",
+        "hi": "क्या 'avant de' के बाद वाली क्रिया मूल रूप (infinitive) में है?"
+      },
+      {
+        "en": "Did you choose être or avoir correctly for each passé composé?",
+        "hi": "क्या आपने हर पासे कॉम्पोज़े के लिए être या avoir सही चुना?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      27,
+      29,
+      44,
+      47,
+      51,
+      53
+    ],
+    "items": [
+      {
+        "fr": "D'abord, je me lave. Ensuite, je m'habille.",
+        "en": "First I wash. Then I get dressed.",
+        "hi": "पहले मैं नहाता/नहाती हूँ। फिर कपड़े पहनता/पहनती हूँ।",
+        "pron": "दा-बॉग़ झ़ö मö लाव। आँ-स्üइत झ़ö मा-बीय"
+      },
+      {
+        "fr": "Tournez à gauche, puis continuez tout droit.",
+        "en": "Turn left, then go straight on.",
+        "hi": "बाएँ मुड़िए, फिर सीधे चलते रहिए।",
+        "pron": "तूग़-ने आ गोश प्üई कोँ-ती-नü-ए तू द्र्वा"
+      },
+      {
+        "fr": "Nous sommes arrivés à midi.",
+        "en": "We arrived at noon.",
+        "hi": "हम दोपहर बारह बजे पहुँचे।",
+        "pron": "नू सॉम ज़ा-ग़ी-वे ज़ा मी-दी"
+      },
+      {
+        "fr": "Il y avait des embouteillages.",
+        "en": "There were traffic jams.",
+        "hi": "ट्रैफ़िक जाम थे।",
+        "pron": "ई-लि-या-वै दे ज़ाँ-बू-तै-याझ़"
+      },
+      {
+        "fr": "Le formulaire ? Je l'ai rempli.",
+        "en": "The form? I filled it in.",
+        "hi": "फ़ॉर्म? मैंने भर दिया।",
+        "pron": "लö फ़ॉग़-मü-लैग़ — झ़ö ले ग़ाँ-प्ली"
+      },
+      {
+        "fr": "La banque ? J'y suis allé(e) ce matin.",
+        "en": "The bank? I went there this morning.",
+        "hi": "बैंक? मैं आज सुबह वहाँ गया/गई।",
+        "pron": "ला बाँक — झ़ी स्üई ज़ा-ले सö मा-तैँ"
+      },
+      {
+        "fr": "Des cartons ? J'en ai acheté dix.",
+        "en": "Boxes? I bought ten.",
+        "hi": "डिब्बे? मैंने दस ख़रीदे।",
+        "pron": "दे काग़-तोँ — झ़ाँ ने आश-ते दीस"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which connector best introduces the LAST step of a procedure?",
+        "hi": "किसी प्रक्रिया का आख़िरी क़दम बताने के लिए सबसे अच्छा शब्द कौन-सा है?"
+      },
+      "options": [
+        "D'abord",
+        "Ensuite",
+        "Enfin",
+        "Puis"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "enfin = finally, the last step.",
+        "hi": "enfin = आख़िर में, अंतिम क़दम।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: Before leaving, I closed the door.",
+        "hi": "पूरा कीजिए: निकलने से पहले मैंने दरवाज़ा बंद किया।"
+      },
+      "sentence": "Avant de ___, j'ai fermé la porte.",
+      "answer": "partir",
+      "accept": [
+        "sortir"
+      ],
+      "explanation": {
+        "en": "avant de + infinitive: partir.",
+        "hi": "avant de + मूल क्रिया: partir।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "What does 'Après avoir mangé, nous sommes sortis' mean?",
+        "hi": "'Après avoir mangé, nous sommes sortis' का मतलब क्या है?"
+      },
+      "options": [
+        "Before eating, we went out.",
+        "After eating, we went out.",
+        "We went out to eat."
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "après avoir + participle = after having done.",
+        "hi": "après avoir + कृदंत = … करने के बाद।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "First, fill in the form. Then sign it.",
+        "hi": "पहले फ़ॉर्म भरिए। फिर उस पर हस्ताक्षर कीजिए।"
+      },
+      "answer": "D'abord, remplissez le formulaire. Ensuite, signez-le.",
+      "accept": [
+        "D'abord, remplissez le formulaire. Puis, signez-le.",
+        "D'abord remplissez le formulaire. Ensuite signez-le.",
+        "D'abord, remplissez le formulaire, puis signez-le."
+      ],
+      "explanation": {
+        "en": "Imperative of remplir (remplissez) and signer (signez). In a positive command the pronoun comes after: signez-le (Day 58).",
+        "hi": "remplir (remplissez) और signer (signez) का आज्ञार्थ। सकारात्मक आदेश में सर्वनाम बाद में आता है: signez-le (दिन 58)।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: Then we loaded the truck.",
+        "hi": "शब्दों को सही क्रम में रखिए: फिर हमने ट्रक में सामान लादा।"
+      },
+      "words": [
+        "avons",
+        "Puis",
+        "nous",
+        "chargé",
+        "le",
+        "camion",
+        "."
+      ],
+      "answer": "Puis nous avons chargé le camion.",
+      "explanation": {
+        "en": "Connector first, then the passé composé sentence.",
+        "hi": "पहले जोड़ने वाला शब्द, फिर पासे कॉम्पोज़े वाला वाक्य।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Choose the correct sentence.",
+        "hi": "सही वाक्य चुनिए।"
+      },
+      "options": [
+        "Avant de je mange, je me lave les mains.",
+        "Avant manger, je me lave les mains.",
+        "Avant de manger, je me lave les mains."
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "avant de + infinitive.",
+        "hi": "avant de + मूल क्रिया।"
+      }
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "day": 64,
+  "phase": 4,
+  "title": { "fr": "Préférences et choix", "en": "Preferences and choices", "hi": "पसंद और चुनाव" },
+  "objective": {
+    "en": "Say what you prefer with préférer, aimer mieux and plutôt que, weigh advantages and drawbacks with d'un côté… de l'autre, and choose between two options for housing or transport.",
+    "hi": "préférer, aimer mieux और plutôt que से अपनी पसंद बताना, d'un côté… de l'autre से फ़ायदे और नुक़सान तौलना, और घर या आने-जाने के दो विकल्पों में से एक चुनना।"
+  },
+  "prerequisites": {
+    "days": [48, 50, 61, 62],
+    "summary": {
+      "en": "You can compare (plus… que, meilleur, mieux — Day 50), give opinions and reasons (Days 61–62) and use si + present + future (Day 48).",
+      "hi": "आप तुलना कर सकते हैं (plus… que, meilleur, mieux — दिन 50), राय और कारण दे सकते हैं (दिन 61–62) और si + वर्तमान + भविष्य इस्तेमाल कर सकते हैं (दिन 48)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "préférer", "en": "to prefer", "hi": "पसंद करना (ज़्यादा)", "pron": "प्ग़े-फ़े-ग़े", "ipa": "pʁefeʁe", "pos": "verb", "note": { "en": "é → è when the ending is silent: je préfère, tu préfères, il préfère, ils préfèrent; but nous préférons, vous préférez.", "hi": "जब अंत की आवाज़ नहीं आती, é → è: je préfère, tu préfères, il préfère, ils préfèrent; लेकिन nous préférons, vous préférez।" } },
+    { "fr": "aimer mieux", "en": "to prefer, to like better", "hi": "ज़्यादा पसंद करना", "pron": "ऐ-मे म्यö", "ipa": "ɛme mjø", "pos": "phrase", "note": { "en": "Very common in speech: J'aime mieux rester ici.", "hi": "बोलचाल में बहुत आम: J'aime mieux rester ici (मुझे यहीं रुकना ज़्यादा पसंद है)।" } },
+    { "fr": "plutôt que", "en": "rather than", "hi": "के बजाय", "pron": "प्लü-तो कö", "ipa": "plyto kə", "pos": "phrase" },
+    { "fr": "un côté", "en": "a side", "hi": "एक तरफ़, पहलू", "pron": "ऐँ को-ते", "ipa": "ɛ̃ kote", "pos": "noun", "gender": "m", "lemma": "côté" },
+    { "fr": "la banlieue", "en": "the suburbs", "hi": "उपनगर, शहर का बाहरी इलाक़ा", "pron": "ला बाँ-ल्यö", "ipa": "la bɑ̃ljø", "pos": "noun", "gender": "f", "lemma": "banlieue" },
+    { "fr": "le centre-ville", "en": "downtown, city centre", "hi": "शहर का बीच का हिस्सा", "pron": "लö साँ-त्ग़ö-वील", "ipa": "lə sɑ̃tʁəvil", "pos": "noun", "gender": "m", "lemma": "centre-ville" },
+    { "fr": "spacieux", "en": "spacious, roomy", "hi": "खुला-खुला, बड़ा", "pron": "स्पा-स्यö", "ipa": "spasjø", "pos": "adjective", "note": { "en": "Feminine: spacieuse (स्पा-स्यöज़).", "hi": "स्त्रीलिंग: spacieuse (स्पा-स्यöज़)।" } },
+    { "fr": "lumineux", "en": "bright, full of light", "hi": "रोशनी वाला, उजाला", "pron": "लü-मी-नö", "ipa": "lyminø", "pos": "adjective", "note": { "en": "Feminine: lumineuse.", "hi": "स्त्रीलिंग: lumineuse।" } },
+    { "fr": "bruyant", "en": "noisy", "hi": "शोर-शराबे वाला", "pron": "ब्ग़üई-याँ", "ipa": "bʁɥijɑ̃", "pos": "adjective", "note": { "en": "Feminine: bruyante (the t is then heard).", "hi": "स्त्रीलिंग: bruyante (तब t सुनाई देता है)।" } },
+    { "fr": "meublé", "en": "furnished", "hi": "फ़र्नीचर सहित", "pron": "मö-ब्ले", "ipa": "mœble", "pos": "adjective" },
+    { "fr": "le chauffage", "en": "heating", "hi": "हीटिंग, घर गर्म रखने की व्यवस्था", "pron": "लö शो-फ़ाझ़", "ipa": "lə ʃofaʒ", "pos": "noun", "gender": "m", "lemma": "chauffage", "note": { "en": "In Canadian ads, 'chauffage inclus' means heating is included in the rent — important in winter!", "hi": "कनाडा के विज्ञापनों में 'chauffage inclus' का मतलब है हीटिंग किराए में शामिल है — सर्दियों में बहुत अहम!" } },
+    { "fr": "le stationnement", "en": "parking (Canada)", "hi": "पार्किंग", "pron": "लö स्ता-स्यॉन-माँ", "ipa": "lə stasjɔnmɑ̃", "pos": "noun", "gender": "m", "lemma": "stationnement", "note": { "en": "In France people often say 'le parking'.", "hi": "फ़्रांस में अक्सर 'le parking' कहते हैं।" } },
+    { "fr": "la buanderie", "en": "laundry room", "hi": "कपड़े धोने का कमरा", "pron": "ला बüआँ-द्ग़ी", "ipa": "la bɥɑ̃dʁi", "pos": "noun", "gender": "f", "lemma": "buanderie" }
+  ],
+  "phrases": [
+    { "fr": "Qu'est-ce que tu préfères ?", "en": "What do you prefer?", "hi": "तुम्हें क्या ज़्यादा पसंद है?", "pron": "कैस-कö तü प्ग़े-फ़ैग़" },
+    { "fr": "Je préfère le métro à la voiture.", "en": "I prefer the metro to the car.", "hi": "मुझे गाड़ी से ज़्यादा मेट्रो पसंद है।", "pron": "झ़ö प्ग़े-फ़ैग़ लö मे-त्ग़ो आ ला व्वा-तüग़" },
+    { "fr": "J'aime mieux habiter en ville.", "en": "I'd rather live in the city.", "hi": "मुझे शहर में रहना ज़्यादा पसंद है।", "pron": "झ़ैम म्यö ज़ा-बी-ते आँ वील" },
+    { "fr": "D'un côté, c'est grand ; de l'autre, c'est loin.", "en": "On one hand, it's big; on the other, it's far.", "hi": "एक तरफ़ यह बड़ा है; दूसरी तरफ़ यह दूर है।", "pron": "दैँ को-ते सै ग्ग़ाँ दö लोत्ग़ सै ल्वैँ" },
+    { "fr": "Le principal avantage, c'est le prix.", "en": "The main advantage is the price.", "hi": "सबसे बड़ा फ़ायदा क़ीमत है।", "pron": "लö प्ग़ैँ-सी-पा ला-वाँ-ताझ़ सै लö प्ग़ी" },
+    { "fr": "Le chauffage est inclus ?", "en": "Is heating included?", "hi": "क्या हीटिंग शामिल है?", "pron": "लö शो-फ़ाझ़ ऐ तैँ-क्लü" },
+    { "fr": "C'est le meilleur choix pour nous.", "en": "It's the best choice for us.", "hi": "हमारे लिए यही सबसे अच्छा चुनाव है।", "pron": "सै लö मै-यöग़ श्वा पूग़ नू" }
+  ],
+  "grammar": {
+    "title": { "en": "Preferences: préférer, aimer mieux, plutôt que; pros and cons", "hi": "पसंद: préférer, aimer mieux, plutôt que; फ़ायदे और नुक़सान" },
+    "explanation": {
+      "en": "Préférer + noun or + infinitive: je préfère le bus; je préfère marcher. To compare two things, use préférer A à B (à + le = au, à + les = aux): Je préfère le thé au café. Aimer mieux works the same way and is very common in speech: j'aime mieux rester. Plutôt que links two choices of the same kind: Je prends le vélo plutôt que la voiture. To weigh a choice, use set structures: l'avantage, c'est que… / l'inconvénient, c'est que…; d'un côté…, de l'autre (côté)…; and finish with a decision: finalement, je préfère… / c'est le meilleur choix.",
+      "hi": "préférer + संज्ञा या + infinitive: je préfère le bus; je préfère marcher। दो चीज़ों की तुलना के लिए préférer A à B (à + le = au, à + les = aux): Je préfère le thé au café (मुझे कॉफ़ी से ज़्यादा चाय पसंद है)। aimer mieux भी इसी तरह चलता है और बोलचाल में बहुत आम है: j'aime mieux rester। plutôt que एक जैसे दो विकल्पों को जोड़ता है: Je prends le vélo plutôt que la voiture। किसी चुनाव को तौलने के लिए तय ढाँचे इस्तेमाल कीजिए: l'avantage, c'est que… / l'inconvénient, c'est que…; d'un côté…, de l'autre (côté)…; और अंत में फ़ैसला: finalement, je préfère… / c'est le meilleur choix।"
+    },
+    "comparison": {
+      "en": "English: 'I prefer tea TO coffee' — French uses à exactly where English uses 'to'. Hindi puts the second thing first with से: 'मुझे कॉफ़ी से ज़्यादा चाय पसंद है'. Don't copy Hindi or English 'than' and say 'que' after préférer.",
+      "hi": "अंग्रेज़ी: 'I prefer tea TO coffee' — फ़्रेंच ठीक वहीं à लगाती है जहाँ अंग्रेज़ी 'to' लगाती है। हिंदी में दूसरी चीज़ पहले आती है, से के साथ: 'मुझे कॉफ़ी से ज़्यादा चाय पसंद है'। हिंदी या अंग्रेज़ी 'than' की नक़ल करके préférer के बाद 'que' मत लगाइए।"
+    },
+    "examples": [
+      { "fr": "Je préfère le thé au café.", "en": "I prefer tea to coffee.", "hi": "मुझे कॉफ़ी से ज़्यादा चाय पसंद है।", "pron": "झ़ö प्ग़े-फ़ैग़ लö ते ओ का-फ़े" },
+      { "fr": "Nous préférons louer un appartement meublé.", "en": "We prefer to rent a furnished apartment.", "hi": "हम फ़र्नीचर वाला अपार्टमेंट किराए पर लेना पसंद करते हैं।", "pron": "नू प्ग़े-फ़े-ग़ोँ लू-वे ऐँ ना-पाग़-तö-माँ मö-ब्ले" },
+      { "fr": "J'aime mieux marcher que prendre le bus.", "en": "I'd rather walk than take the bus.", "hi": "मुझे बस लेने से ज़्यादा पैदल चलना पसंद है।", "pron": "झ़ैम म्यö माग़-शे कö प्ग़ाँद्ग़ लö बüस", "note": { "en": "With aimer mieux + two infinitives, the second one comes after que.", "hi": "aimer mieux + दो infinitive में दूसरा que के बाद आता है।" } },
+      { "fr": "Je prends le vélo plutôt que la voiture.", "en": "I take the bike rather than the car.", "hi": "मैं गाड़ी के बजाय साइकिल लेता हूँ।", "pron": "झ़ö प्ग़ाँ लö वे-लो प्लü-तो कö ला व्वा-तüग़" },
+      { "fr": "D'un côté, la banlieue est calme ; de l'autre, le trajet est long.", "en": "On one hand the suburbs are quiet; on the other, the commute is long.", "hi": "एक तरफ़ उपनगर शांत हैं; दूसरी तरफ़ आने-जाने का सफ़र लंबा है।", "pron": "दैँ को-ते ला बाँ-ल्यö ऐ काल्म दö लोत्ग़ लö त्ग़ा-झ़ै ऐ लोँ" },
+      { "fr": "L'inconvénient, c'est que la rue est bruyante.", "en": "The drawback is that the street is noisy.", "hi": "नुक़सान यह है कि गली में शोर बहुत है।", "pron": "लैँ-कोँ-वे-न्याँ सै कö ला ग़ü ऐ ब्ग़üई-याँत" }
+    ],
+    "pitfalls": [
+      { "en": "Not 'Je préfère le thé que le café'. Say 'Je préfère le thé au café' (or '… plutôt que le café').", "hi": "'Je préfère le thé que le café' नहीं। कहिए 'Je préfère le thé au café' (या '… plutôt que le café')।" },
+      { "en": "Watch the accent: je préfère (è) but nous préférons (é). The written accent follows the sound.", "hi": "accent पर ध्यान दीजिए: je préfère (è) लेकिन nous préférons (é)। लिखा हुआ accent आवाज़ के हिसाब से बदलता है।" },
+      { "en": "After préférer, no de before an infinitive: 'je préfère de marcher' is wrong → je préfère marcher.", "hi": "préférer के बाद infinitive से पहले de नहीं: 'je préfère de marcher' ग़लत है → je préfère marcher।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "/e/ vs /ɛ/: préférer, je préfère",
+    "tip": {
+      "en": "In préférer, every é is closed — smile slightly: प्ग़े-फ़े-ग़े. In je préfère, the last syllable is open — drop the jaw: प्ग़े-फ़ैग़. The è appears exactly when the syllable ends in a pronounced consonant. The same pattern: répéter / je répète, espérer / j'espère.",
+      "hi": "préférer में हर é बंद है — हल्की मुस्कान रखिए: प्ग़े-फ़े-ग़े। je préfère में आख़िरी अक्षर खुला है — जबड़ा नीचे कीजिए: प्ग़े-फ़ैग़। è ठीक तब आता है जब अक्षर किसी बोले जाने वाले व्यंजन पर ख़त्म होता है। यही पैटर्न: répéter / je répète, espérer / j'espère।"
+    },
+    "words": [
+      { "fr": "préférer", "en": "to prefer", "hi": "पसंद करना", "pron": "प्ग़े-फ़े-ग़े", "ipa": "pʁefeʁe" },
+      { "fr": "je préfère", "en": "I prefer", "hi": "मुझे ज़्यादा पसंद है", "pron": "झ़ö प्ग़े-फ़ैग़", "ipa": "ʒə pʁefɛʁ" },
+      { "fr": "nous préférons", "en": "we prefer", "hi": "हम पसंद करते हैं", "pron": "नू प्ग़े-फ़े-ग़ोँ", "ipa": "nu pʁefeʁɔ̃" },
+      { "fr": "j'espère", "en": "I hope", "hi": "मुझे उम्मीद है", "pron": "झ़ैस-पैग़", "ipa": "ʒɛspɛʁ" },
+      { "fr": "meublé", "en": "furnished", "hi": "फ़र्नीचर सहित", "pron": "मö-ब्ले", "ipa": "mœble" },
+      { "fr": "l'inconvénient", "en": "the drawback", "hi": "नुक़सान", "pron": "लैँ-कोँ-वे-न्याँ", "ipa": "lɛ̃kɔ̃venjɑ̃" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Rosemont ou Laval ?", "en": "Rosemont or Laval?" },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Priya and Arjun have visited two apartments: a small one in Rosemont, a Montréal neighbourhood, and a bigger one in Laval, a suburb. In Québec, a 'trois et demi' has one bedroom and a 'quatre et demi' has two.",
+      "hi": "प्रिया और अर्जुन ने दो अपार्टमेंट देखे हैं: मॉन्ट्रियाल के रोज़मों इलाक़े में एक छोटा, और उपनगर लावाल में एक बड़ा। क्यूबेक में 'trois et demi' में एक बेडरूम होता है और 'quatre et demi' में दो।"
+    },
+    "lines": [
+      { "speaker": "Priya", "voice": "f1", "fr": "Alors, qu'est-ce que tu préfères ? Le trois et demi à Rosemont ou le quatre et demi à Laval ?", "en": "So, which do you prefer? The one-bedroom in Rosemont or the two-bedroom in Laval?", "hi": "तो, तुम्हें कौन-सा ज़्यादा पसंद है? रोज़मों का एक बेडरूम वाला या लावाल का दो बेडरूम वाला?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Honnêtement, j'aime mieux Rosemont. C'est à dix minutes du métro, et on peut tout faire à pied.", "en": "Honestly, I prefer Rosemont. It's ten minutes from the metro, and you can do everything on foot.", "hi": "सच कहूँ तो मुझे रोज़मों ज़्यादा पसंद है। मेट्रो से दस मिनट दूर है, और सब कुछ पैदल हो सकता है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Oui, mais il est petit. Une seule chambre ! Quand ta mère viendra d'Inde, elle dormira où ?", "en": "Yes, but it's small. Only one bedroom! When your mother comes from India, where will she sleep?", "hi": "हाँ, लेकिन वह छोटा है। सिर्फ़ एक बेडरूम! जब तुम्हारी माँ भारत से आएँगी, वे कहाँ सोएँगी?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Dans le salon ? … D'accord, c'est un inconvénient. Mais le loyer est de mille cinq cents dollars, chauffage inclus.", "en": "In the living room? … OK, that's a drawback. But the rent is fifteen hundred dollars, heating included.", "hi": "बैठक में? … ठीक है, यह एक कमी है। लेकिन किराया पंद्रह सौ डॉलर है, हीटिंग सहित।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "À Laval, c'est mille six cents, mais c'est beaucoup plus spacieux. Deux chambres, une buanderie et un stationnement.", "en": "In Laval it's sixteen hundred, but it's much more spacious. Two bedrooms, a laundry room and a parking spot.", "hi": "लावाल में सोलह सौ है, लेकिन वह कहीं ज़्यादा बड़ा है। दो बेडरूम, कपड़े धोने का कमरा और पार्किंग।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "On n'a pas de voiture ! Le stationnement, ça ne sert à rien.", "en": "We don't have a car! A parking spot is useless.", "hi": "हमारे पास गाड़ी नहीं है! पार्किंग किसी काम की नहीं।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Pas encore. Mais si on a un bébé, on voudra une voiture.", "en": "Not yet. But if we have a baby, we'll want a car.", "hi": "अभी नहीं। लेकिन अगर हमारा बच्चा होगा, तो हमें गाड़ी चाहिए होगी।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "D'un côté, tu as raison. De l'autre, je ne veux pas passer une heure dans les transports chaque matin.", "en": "On one hand, you're right. On the other, I don't want to spend an hour commuting every morning.", "hi": "एक तरफ़ तुम सही हो। दूसरी तरफ़, मैं हर सुबह एक घंटा सफ़र में नहीं बिताना चाहता।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Le trajet, c'est quarante minutes, pas une heure. Le métro va jusqu'à Laval.", "en": "The commute is forty minutes, not an hour. The metro goes all the way to Laval.", "hi": "सफ़र चालीस मिनट का है, एक घंटे का नहीं। मेट्रो लावाल तक जाती है।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Quarante minutes… Et l'appartement de Laval était plus lumineux, c'est vrai.", "en": "Forty minutes… And the Laval apartment was brighter, that's true.", "hi": "चालीस मिनट… और लावाल वाला अपार्टमेंट ज़्यादा रोशनी वाला था, यह सच है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Et plus calme. À Rosemont, la rue était très bruyante, avec tous les autobus.", "en": "And quieter. In Rosemont the street was very noisy, with all the buses.", "hi": "और ज़्यादा शांत। रोज़मों में सारी बसों की वजह से गली में बहुत शोर था।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Bon. Je préfère toujours la ville plutôt que la banlieue, mais pour la famille, Laval est peut-être le meilleur choix.", "en": "Well. I still prefer the city to the suburbs, but for the family, Laval is maybe the best choice.", "hi": "ठीक है। मुझे अब भी उपनगर के बजाय शहर ज़्यादा पसंद है, लेकिन परिवार के लिए शायद लावाल सबसे अच्छा चुनाव है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "On peut visiter encore une fois samedi, avant de décider ?", "en": "Can we visit once more on Saturday, before deciding?", "hi": "फ़ैसला करने से पहले क्या हम शनिवार को एक बार और देख आएँ?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Bonne idée. Et cette fois, on prend le métro, pour tester le trajet !", "en": "Good idea. And this time we take the metro, to test the commute!", "hi": "अच्छा ख़याल है। और इस बार हम मेट्रो से जाएँगे, सफ़र आज़माने के लिए!" }
+    ],
+    "questions": [
+      { "q": { "en": "Why does Arjun prefer Rosemont at first?" }, "options": ["It is bigger", "It is close to the metro and walkable", "It has a parking spot", "It is cheaper by 300 dollars"], "answer": 1, "explanation": { "en": "It's ten minutes from the metro and you can do everything on foot.", "hi": "वह मेट्रो से दस मिनट दूर है और सब कुछ पैदल हो सकता है।" }, "kind": "literal", "evidence": "C'est à dix minutes du métro" },
+      { "q": { "en": "What is Priya's main problem with Rosemont?" }, "options": ["It has only one bedroom", "It is too expensive", "There is no heating", "It is far from her work"], "answer": 0, "explanation": { "en": "Only one bedroom — no room for Arjun's mother when she visits.", "hi": "सिर्फ़ एक बेडरूम — अर्जुन की माँ के आने पर जगह नहीं होगी।" }, "kind": "literal", "evidence": "Une seule chambre !" },
+      { "q": { "en": "How do the two rents compare?" }, "options": ["They are the same", "Rosemont is 100 dollars more", "Laval is 100 dollars more", "Laval is 500 dollars more"], "answer": 2, "explanation": { "en": "Rosemont: 1,500 dollars; Laval: 1,600 dollars.", "hi": "रोज़मों: 1,500 डॉलर; लावाल: 1,600 डॉलर।" }, "kind": "inference", "evidence": "À Laval, c'est mille six cents" },
+      { "q": { "en": "Why could the parking spot be useful, according to Priya?" }, "options": ["Arjun will buy a car next month", "Her mother drives", "They could rent it out", "If they have a baby, they'll want a car"], "answer": 3, "explanation": { "en": "'Si on a un bébé, on voudra une voiture.'", "hi": "'Si on a un bébé, on voudra une voiture.' — बच्चा होने पर गाड़ी चाहिए होगी।" }, "kind": "inference", "evidence": "si on a un bébé, on voudra une voiture" },
+      { "q": { "en": "Which two other advantages does the Laval apartment have?" }, "options": ["It's brighter and quieter", "It's furnished and downtown", "It's cheaper and closer", "It has a garden and a garage"], "answer": 0, "explanation": { "en": "Arjun admits it was brighter; Priya adds it was quieter.", "hi": "अर्जुन मानता है कि वह ज़्यादा रोशनी वाला था; प्रिया जोड़ती है कि वह ज़्यादा शांत था।" }, "kind": "literal", "evidence": "l'appartement de Laval était plus lumineux" },
+      { "q": { "en": "What will they do on Saturday?" }, "options": ["Sign the lease in Laval", "Buy a car", "Visit again, going by metro to test the commute", "Look for a third apartment"], "answer": 2, "explanation": { "en": "They will visit again and take the metro to test the commute.", "hi": "वे फिर से देखने जाएँगे और सफ़र आज़माने के लिए मेट्रो लेंगे।" }, "kind": "gist", "evidence": "on prend le métro, pour tester le trajet" }
+    ],
+    "dictation": ["Honnêtement, j'aime mieux Rosemont.", "D'un côté, tu as raison.", "Je préfère la ville plutôt que la banlieue."],
+    "gapFill": { "text": "À Laval, c'est beaucoup plus ___. Mais pour la famille, Laval est peut-être le meilleur ___.", "answers": ["spacieux", "choix"] }
+  },
+  "speaking": {
+    "type": "conversation",
+    "instructions": {
+      "en": "For each pair, say which one you prefer, give one advantage and one drawback (d'un côté… de l'autre…), then make your final choice.",
+      "hi": "हर जोड़ी के लिए बताइए कि आपको कौन-सा ज़्यादा पसंद है, एक फ़ायदा और एक नुक़सान बताइए (d'un côté… de l'autre…), फिर अपना अंतिम चुनाव बताइए।"
+    },
+    "prompts": [
+      { "fr": "La ville ou la campagne ?", "en": "City or countryside?", "hi": "शहर या गाँव?", "pron": "ला वील ऊ ला काँ-पान्य", "model": "Je préfère la ville. D'un côté, c'est bruyant ; de l'autre, il y a du travail et des transports." },
+      { "fr": "Un appartement meublé ou vide ?", "en": "A furnished or an empty apartment?", "hi": "फ़र्नीचर वाला या ख़ाली अपार्टमेंट?", "pron": "ऐँ ना-पाग़-तö-माँ मö-ब्ले ऊ वीद", "model": "Au début, j'aime mieux un appartement meublé, parce que je n'ai pas de meubles." },
+      { "fr": "Le bus ou le vélo ?", "en": "Bus or bike?", "hi": "बस या साइकिल?", "pron": "लö बüस ऊ लö वे-लो", "model": "L'été, je prends le vélo plutôt que le bus. L'avantage, c'est que c'est gratuit." },
+      { "fr": "Cuisiner ou manger au restaurant ?", "en": "Cooking or eating out?", "hi": "ख़ुद खाना बनाना या रेस्टोरेंट में खाना?", "pron": "क्üई-ज़ी-ने ऊ माँ-झ़े ओ ग़ैस-तो-ग़ाँ", "model": "Je préfère cuisiner. C'est moins cher, et je connais les ingrédients." },
+      { "fr": "L'été ou l'hiver au Canada ?", "en": "Summer or winter in Canada?", "hi": "कनाडा में गर्मी या सर्दी?", "pron": "ले-ते ऊ ली-वैग़ ओ का-ना-दा", "model": "Je préfère l'été à l'hiver ! L'inconvénient de l'hiver, c'est le froid." }
+    ],
+    "tip": {
+      "en": "A choice sounds convincing when you show you have looked at both sides. Say one honest drawback of your choice — then explain why it doesn't matter much for you.",
+      "hi": "चुनाव तब भरोसेमंद लगता है जब आप दिखाते हैं कि आपने दोनों पहलू देखे हैं। अपने चुनाव की एक सच्ची कमी बताइए — फिर समझाइए कि आपके लिए वह ज़्यादा मायने क्यों नहीं रखती।"
+    }
+  },
+  "reading": {
+    "genre": "article",
+    "title": "Se déplacer à Montréal : voiture, vélo ou transports en commun ?",
+    "text": "Quand on s'installe à Montréal, une question arrive vite : faut-il acheter une voiture ? Voici les avantages et les inconvénients de chaque solution.\n\nLa voiture. Son principal avantage, c'est la liberté : on part quand on veut, on peut faire de grosses courses ou visiter les Laurentides le week-end. Mais elle coûte cher. Entre l'assurance, l'essence, l'entretien et le stationnement, il faut compter au moins huit cents dollars par mois. Et l'hiver, il faut déneiger la voiture avant de partir !\n\nLes transports en commun. D'un côté, le métro est rapide et il fonctionne même pendant les tempêtes de neige. Un abonnement mensuel coûte environ cent dollars. De l'autre côté, certains quartiers n'ont pas de station, et le bus est souvent en retard aux heures de pointe.\n\nLe vélo. Beaucoup de Montréalais prennent le vélo plutôt que la voiture d'avril à novembre. C'est bon pour la santé, gratuit et souvent plus rapide au centre-ville. L'inconvénient, c'est évidemment l'hiver : peu de gens aiment pédaler à moins vingt degrés.\n\nAlors, que choisir ? Selon notre petite enquête, la majorité des nouveaux arrivants aiment mieux commencer sans voiture. Ils utilisent le métro et le bus, puis ils louent une voiture pour les vacances. « Je préfère économiser pour un appartement plus grand », explique Daniel, arrivé du Sénégal il y a deux ans. « Et franchement, avec le métro, je lis un livre au lieu de chercher une place de stationnement ! »",
+    "translation": {
+      "en": "Getting around Montréal: car, bike or public transit?\n\nWhen you settle in Montréal, a question comes up quickly: should you buy a car? Here are the advantages and drawbacks of each option.\n\nThe car. Its main advantage is freedom: you leave when you want, you can do big grocery runs or visit the Laurentians on weekends. But it is expensive. Between insurance, gas, maintenance and parking, you have to count on at least eight hundred dollars a month. And in winter, you have to clear the snow off the car before leaving!\n\nPublic transit. On one hand, the metro is fast and it runs even during snowstorms. A monthly pass costs about a hundred dollars. On the other hand, some neighbourhoods have no station, and the bus is often late at rush hour.\n\nThe bike. Many Montrealers take the bike rather than the car from April to November. It's good for your health, free and often faster downtown. The drawback is obviously winter: few people like pedalling at minus twenty degrees.\n\nSo, what to choose? According to our small survey, most newcomers prefer to start without a car. They use the metro and the bus, then they rent a car for the holidays. 'I prefer to save for a bigger apartment,' explains Daniel, who arrived from Senegal two years ago. 'And honestly, on the metro I read a book instead of looking for a parking spot!'",
+      "hi": "मॉन्ट्रियाल में आना-जाना: गाड़ी, साइकिल या सार्वजनिक परिवहन?\n\nमॉन्ट्रियाल में बसते ही एक सवाल जल्दी सामने आता है: क्या गाड़ी ख़रीदनी चाहिए? यहाँ हर विकल्प के फ़ायदे और नुक़सान दिए गए हैं।\n\nगाड़ी। इसका सबसे बड़ा फ़ायदा है आज़ादी: जब चाहें निकल सकते हैं, बड़ी ख़रीदारी कर सकते हैं या वीकेंड पर लॉरेंशियन पहाड़ियाँ घूम सकते हैं। लेकिन यह महँगी है। बीमा, पेट्रोल, रखरखाव और पार्किंग मिलाकर हर महीने कम से कम आठ सौ डॉलर का हिसाब रखना पड़ता है। और सर्दियों में निकलने से पहले गाड़ी से बर्फ़ हटानी पड़ती है!\n\nसार्वजनिक परिवहन। एक तरफ़, मेट्रो तेज़ है और बर्फ़ीले तूफ़ानों में भी चलती है। एक महीने का पास लगभग सौ डॉलर का है। दूसरी तरफ़, कुछ इलाक़ों में स्टेशन नहीं है, और भीड़ के समय बस अक्सर देर से आती है।\n\nसाइकिल। बहुत-से मॉन्ट्रियाल वाले अप्रैल से नवंबर तक गाड़ी के बजाय साइकिल लेते हैं। यह सेहत के लिए अच्छी है, मुफ़्त है और शहर के बीच में अक्सर ज़्यादा तेज़ है। नुक़सान ज़ाहिर है, सर्दी: माइनस बीस डिग्री में साइकिल चलाना कम ही लोगों को पसंद है।\n\nतो, क्या चुनें? हमारे छोटे-से सर्वे के अनुसार, ज़्यादातर नए आगंतुक बिना गाड़ी के शुरुआत करना पसंद करते हैं। वे मेट्रो और बस इस्तेमाल करते हैं, फिर छुट्टियों के लिए गाड़ी किराए पर ले लेते हैं। दो साल पहले सेनेगल से आए डैनियल बताते हैं, \"मैं बड़े अपार्टमेंट के लिए पैसे बचाना पसंद करता हूँ। और सच कहूँ तो मेट्रो में मैं पार्किंग ढूँढ़ने के बजाय किताब पढ़ता हूँ!\""
+    },
+    "questions": [
+      { "q": { "en": "What is the main advantage of a car, according to the article?" }, "options": ["Freedom", "The price", "Safety in winter", "Speed downtown"], "answer": 0, "explanation": { "en": "'Son principal avantage, c'est la liberté.'", "hi": "'Son principal avantage, c'est la liberté.' — सबसे बड़ा फ़ायदा आज़ादी है।" }, "kind": "literal", "evidence": "Son principal avantage, c'est la liberté" },
+      { "q": { "en": "How much does a car cost per month, at least?" }, "options": ["About 100 dollars", "About 400 dollars", "At least 800 dollars", "More than 1,500 dollars"], "answer": 2, "explanation": { "en": "With insurance, gas, maintenance and parking: at least 800 dollars.", "hi": "बीमा, पेट्रोल, रखरखाव और पार्किंग मिलाकर: कम से कम 800 डॉलर।" }, "kind": "literal", "evidence": "il faut compter au moins huit cents dollars par mois" },
+      { "q": { "en": "Why is the metro a good option in winter?" }, "options": ["It is free in winter", "It runs even during snowstorms", "It goes to every neighbourhood", "Buses are never late"], "answer": 1, "explanation": { "en": "It keeps running during snowstorms.", "hi": "यह बर्फ़ीले तूफ़ानों में भी चलती रहती है।" }, "kind": "inference", "evidence": "il fonctionne même pendant les tempêtes de neige" },
+      { "q": { "en": "What is the problem with cycling?" }, "options": ["It is slow downtown", "Bikes are expensive", "There are no bike lanes", "Winter is too cold"], "answer": 3, "explanation": { "en": "Few people like pedalling at minus twenty degrees.", "hi": "माइनस बीस डिग्री में साइकिल चलाना कम लोगों को पसंद है।" }, "kind": "literal", "evidence": "peu de gens aiment pédaler à moins vingt degrés" },
+      { "q": { "en": "Why doesn't Daniel buy a car?" }, "options": ["He can't drive", "He prefers to save money for a bigger apartment", "He lives downtown and walks everywhere", "His employer gives him a car"], "answer": 1, "explanation": { "en": "He prefers to save for a bigger apartment — and he enjoys reading on the metro.", "hi": "वह बड़े अपार्टमेंट के लिए पैसे बचाना पसंद करता है — और मेट्रो में पढ़ना उसे अच्छा लगता है।" }, "kind": "inference", "evidence": "Je préfère économiser pour un appartement plus grand" }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "You must choose between two options: living downtown or in the suburbs (or buying a car or not). Write a paragraph with at least two advantages and two drawbacks, then say what you prefer and why.",
+      "hi": "आपको दो विकल्पों में से चुनना है: शहर के बीच में रहना या उपनगर में (या गाड़ी ख़रीदना या नहीं)। एक अनुच्छेद लिखिए जिसमें कम से कम दो फ़ायदे और दो नुक़सान हों, फिर बताइए कि आपको क्या पसंद है और क्यों।",
+      "fr": "Centre-ville ou banlieue ? Présentez les avantages et les inconvénients, puis faites votre choix."
+    },
+    "minWords": 100,
+    "maxWords": 160,
+    "hints": [
+      { "en": "Organise: option 1 (pros/cons) → option 2 (pros/cons) → your choice.", "hi": "क्रम रखिए: विकल्प 1 (फ़ायदे/नुक़सान) → विकल्प 2 (फ़ायदे/नुक़सान) → आपका चुनाव।" },
+      { "en": "Use comparatives from Day 50: plus cher, moins bruyant, meilleur.", "hi": "दिन 50 के तुलनात्मक रूप इस्तेमाल कीजिए: plus cher, moins bruyant, meilleur।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "L'avantage, c'est que …", "en": "The advantage is that …", "hi": "फ़ायदा यह है कि …", "pron": "ला-वाँ-ताझ़ सै कö" },
+      { "fr": "L'inconvénient, c'est que …", "en": "The drawback is that …", "hi": "नुक़सान यह है कि …", "pron": "लैँ-कोँ-वे-न्याँ सै कö" },
+      { "fr": "D'un côté … ; de l'autre …", "en": "On one hand … ; on the other …", "hi": "एक तरफ़ … ; दूसरी तरफ़ …", "pron": "दैँ को-ते दö लोत्ग़" },
+      { "fr": "Finalement, je préfère …", "en": "In the end, I prefer …", "hi": "आख़िरकार, मुझे … ज़्यादा पसंद है", "pron": "फ़ी-नाल-माँ झ़ö प्ग़े-फ़ैग़" }
+    ],
+    "model": {
+      "fr": "Quand on arrive à Toronto, il faut choisir entre le centre-ville et la banlieue. Le centre-ville a deux grands avantages : on peut tout faire à pied, et les transports sont très pratiques. En plus, il y a beaucoup de restaurants et d'activités. Mais l'inconvénient, c'est que les loyers sont très chers et les appartements sont souvent petits et bruyants. La banlieue, de son côté, est plus calme et plus spacieuse. On trouve des maisons avec un jardin pour le même prix qu'un petit appartement en ville. D'un côté, c'est idéal pour une famille ; de l'autre, le trajet est long et on a souvent besoin d'une voiture. Finalement, je préfère la banlieue, parce que j'ai deux enfants et je travaille de la maison trois jours par semaine. Pour moi, l'espace est plus important que les restaurants !",
+      "en": "When you arrive in Toronto, you have to choose between downtown and the suburbs. Downtown has two big advantages: you can do everything on foot, and transit is very convenient. Also, there are lots of restaurants and activities. But the drawback is that rents are very high and apartments are often small and noisy. The suburbs, for their part, are quieter and more spacious. You find houses with a garden for the same price as a small apartment in the city. On one hand, it's ideal for a family; on the other, the commute is long and you often need a car. In the end, I prefer the suburbs, because I have two children and I work from home three days a week. For me, space is more important than restaurants!"
+    },
+    "checklist": [
+      { "en": "Did you give at least two advantages and two drawbacks?", "hi": "क्या आपने कम से कम दो फ़ायदे और दो नुक़सान बताए?" },
+      { "en": "Did you use d'un côté… de l'autre… correctly?", "hi": "क्या आपने d'un côté… de l'autre… सही इस्तेमाल किया?" },
+      { "en": "Did you write préférer A à B (not 'que')?", "hi": "क्या आपने préférer A à B लिखा ('que' नहीं)?" },
+      { "en": "Did you end with a clear choice and a personal reason?", "hi": "क्या आपने साफ़ चुनाव और एक निजी कारण के साथ अंत किया?" }
+    ]
+  },
+  "review": {
+    "fromDays": [48, 50, 51, 61, 62],
+    "items": [
+      { "fr": "Toronto est plus grand que Montréal.", "en": "Toronto is bigger than Montréal.", "hi": "टोरंटो मॉन्ट्रियाल से बड़ा है।", "pron": "तो-ग़ोँ-तो ऐ प्लü ग्ग़ाँ कö मोँ-ग़े-आल" },
+      { "fr": "C'est le quartier le plus calme de la ville.", "en": "It's the quietest neighbourhood in the city.", "hi": "यह शहर का सबसे शांत इलाक़ा है।", "pron": "सै लö काग़-त्ये लö प्लü काल्म दö ला वील" },
+      { "fr": "Ce café est meilleur, et on y mange mieux.", "en": "This café is better, and you eat better there.", "hi": "यह कैफ़े बेहतर है, और वहाँ खाना भी बेहतर मिलता है।", "pron": "सö का-फ़े ऐ मै-यöग़ ए ओँ नी माँझ़ म्यö" },
+      { "fr": "Si le loyer est trop cher, nous chercherons ailleurs.", "en": "If the rent is too high, we'll look elsewhere.", "hi": "अगर किराया बहुत ज़्यादा है, तो हम कहीं और ढूँढ़ेंगे।", "pron": "सी लö ल्वा-ये ऐ त्ग़ो शैग़ नू शैग़-शö-ग़ोँ ज़ा-यöग़" },
+      { "fr": "L'appartement ? Nous l'avons visité hier.", "en": "The apartment? We visited it yesterday.", "hi": "अपार्टमेंट? हमने उसे कल देखा।", "pron": "ला-पाग़-तö-माँ नू ला-वोँ वी-ज़ी-ते यैग़" },
+      { "fr": "À mon avis, c'est trop loin.", "en": "In my opinion, it's too far.", "hi": "मेरी राय में, यह बहुत दूर है।", "pron": "आ मोँ ना-वी सै त्ग़ो ल्वैँ" },
+      { "fr": "Je reste ici parce que mon travail est à côté.", "en": "I'm staying here because my job is nearby.", "hi": "मैं यहीं रह रहा हूँ क्योंकि मेरा काम पास में है।", "pron": "झ़ö ग़ैस्त ई-सी पाग़स्-कö मोँ त्ग़ा-वाय ऐ ता को-ते" },
+      { "fr": "Grâce au métro, je n'ai pas besoin de voiture.", "en": "Thanks to the metro, I don't need a car.", "hi": "मेट्रो की बदौलत मुझे गाड़ी की ज़रूरत नहीं।", "pron": "ग्ग़ास ओ मे-त्ग़ो झ़ö ने पा बö-ज़्वैँ दö व्वा-तüग़" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Which sentence is correct?", "hi": "कौन-सा वाक्य सही है?" }, "options": ["Je préfère le thé que le café.", "Je préfère le thé au café.", "Je préfère le thé de le café.", "Je préfère de le thé."], "answer": 1, "explanation": { "en": "préférer A à B; à + le = au.", "hi": "préférer A à B; à + le = au।" } },
+    { "type": "fill", "prompt": { "en": "Complete with préférer (nous): We prefer the suburbs.", "hi": "préférer (nous) से पूरा कीजिए: हमें उपनगर ज़्यादा पसंद हैं।" }, "sentence": "Nous ___ la banlieue.", "answer": "préférons", "accept": [], "explanation": { "en": "With nous, both accents are é: préférons.", "hi": "nous के साथ दोनों accent é हैं: préférons।" } },
+    { "type": "fill", "prompt": { "en": "Complete with préférer (elle): She prefers to walk.", "hi": "préférer (elle) से पूरा कीजिए: उसे पैदल चलना ज़्यादा पसंद है।" }, "sentence": "Elle ___ marcher.", "answer": "préfère", "accept": [], "explanation": { "en": "Silent ending → è: elle préfère. No de before the infinitive.", "hi": "अंत की आवाज़ नहीं → è: elle préfère। infinitive से पहले de नहीं।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "I take the bike rather than the car.", "hi": "मैं गाड़ी के बजाय साइकिल लेता हूँ।" }, "answer": "Je prends le vélo plutôt que la voiture.", "accept": ["Je prends le vélo plutôt que la voiture", "Je prends mon vélo plutôt que la voiture."], "explanation": { "en": "plutôt que links two similar choices.", "hi": "plutôt que दो मिलते-जुलते विकल्पों को जोड़ता है।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: The main advantage is the price.", "hi": "शब्दों को सही क्रम में रखिए: सबसे बड़ा फ़ायदा क़ीमत है।" }, "words": ["avantage,", "principal", "c'est", "Le", "prix.", "le"], "answer": "Le principal avantage, c'est le prix.", "explanation": { "en": "Principal can come before avantage; then 'c'est' introduces the point.", "hi": "principal, avantage से पहले आ सकता है; फिर 'c'est' मुद्दा बताता है।" } },
+    { "type": "mcq", "prompt": { "en": "Complete: 'D'un côté, c'est spacieux ; ___, c'est loin.'", "hi": "पूरा कीजिए: 'D'un côté, c'est spacieux ; ___, c'est loin.'" }, "options": ["de l'autre", "d'autre côté", "à l'autre", "par l'autre"], "answer": 0, "explanation": { "en": "The fixed pair is d'un côté… de l'autre (côté).", "hi": "तय जोड़ी है d'un côté… de l'autre (côté)।" } },
+    { "type": "mcq", "prompt": { "en": "In an ad, 'chauffage inclus' means…", "hi": "विज्ञापन में 'chauffage inclus' का मतलब है…" }, "options": ["the heating is broken", "heating is included in the rent", "there is a fireplace", "you must buy a heater"], "answer": 1, "explanation": { "en": "Inclus = included: you don't pay heating separately.", "hi": "inclus = शामिल: हीटिंग का अलग से भुगतान नहीं।" } }
+  ]
+}

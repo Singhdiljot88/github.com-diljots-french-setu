@@ -1,0 +1,1063 @@
+{
+  "day": 96,
+  "phase": 5,
+  "title": {
+    "fr": "Travail, études et santé : convaincre un ami de suivre une formation",
+    "en": "Work, education and health care: convincing a friend to take a course",
+    "hi": "काम, पढ़ाई और स्वास्थ्य सेवा: दोस्त को कोर्स करने के लिए मनाना"
+  },
+  "objective": {
+    "en": "For TEF speaking B, present a training-course ad clearly in under a minute, then convince a friend by answering several objections with linked, developed arguments; write a persuasive email.",
+    "hi": "TEF मौखिक B के लिए, एक मिनट से कम में प्रशिक्षण-कोर्स का विज्ञापन साफ़ पेश करना, फिर जुड़े हुए और विस्तृत तर्कों से कई आपत्तियों का जवाब देकर दोस्त को मनाना; और एक मनाने वाला ईमेल लिखना।"
+  },
+  "prerequisites": {
+    "days": [
+      36,
+      59,
+      68,
+      79,
+      87,
+      91,
+      95
+    ],
+    "summary": {
+      "en": "Health vocabulary (Day 36), course ads (Day 59), job search (Day 68), argument building (Day 79), TEF B with a volunteering ad (Day 87), TEF review (Day 91) and housing questions (Day 95).",
+      "hi": "स्वास्थ्य के शब्द (दिन 36), कोर्स के विज्ञापन (दिन 59), नौकरी की तलाश (दिन 68), तर्क बनाना (दिन 79), स्वयंसेवा विज्ञापन के साथ TEF B (दिन 87), TEF दोहराई (दिन 91) और घर से जुड़े सवाल (दिन 95)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "le stage",
+      "en": "internship, work placement",
+      "hi": "इंटर्नशिप / व्यावहारिक प्रशिक्षण",
+      "pron": "लö स्ताझ़",
+      "ipa": "lə staʒ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "stage",
+      "note": {
+        "en": "Un stage rémunéré = a paid internship. Faire un stage = to do an internship.",
+        "hi": "un stage rémunéré = वेतन वाली इंटर्नशिप। faire un stage = इंटर्नशिप करना।"
+      }
+    },
+    {
+      "fr": "l'attestation",
+      "en": "certificate (of completion)",
+      "hi": "प्रमाणपत्र",
+      "pron": "ला-तैस-ता-स्योँ",
+      "ipa": "latɛstasjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "attestation"
+    },
+    {
+      "fr": "le diplôme",
+      "en": "diploma, degree",
+      "hi": "डिग्री / डिप्लोमा",
+      "pron": "लö दी-प्लोम",
+      "ipa": "lə diplom",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "diplôme",
+      "note": {
+        "en": "La reconnaissance des diplômes = recognition of foreign credentials, a key issue for newcomers.",
+        "hi": "la reconnaissance des diplômes = विदेशी डिग्रियों की मान्यता, नए आए लोगों के लिए एक अहम मुद्दा।"
+      }
+    },
+    {
+      "fr": "les frais de scolarité",
+      "en": "tuition fees",
+      "hi": "पढ़ाई की फ़ीस",
+      "pron": "ले फ़्ग़ै दö स्को-ला-ग़ी-ते",
+      "ipa": "le fʁɛ də skɔlaʁite",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "frais"
+    },
+    {
+      "fr": "une bourse",
+      "en": "a grant, a scholarship",
+      "hi": "छात्रवृत्ति / अनुदान",
+      "pron": "üन बूग़स",
+      "ipa": "yn buʁs",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "bourse",
+      "note": {
+        "en": "Une bourse d'études = scholarship. (La Bourse = the stock exchange.)",
+        "hi": "une bourse d'études = छात्रवृत्ति। (la Bourse = शेयर बाज़ार।)"
+      }
+    },
+    {
+      "fr": "les débouchés",
+      "en": "job prospects, career openings",
+      "hi": "नौकरी के अवसर",
+      "pron": "ले दे-बू-शे",
+      "ipa": "le debuʃe",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "débouché"
+    },
+    {
+      "fr": "les soins",
+      "en": "care (health care)",
+      "hi": "देखभाल / इलाज",
+      "pron": "ले स्वैँ",
+      "ipa": "le swɛ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "soin",
+      "note": {
+        "en": "Les soins de santé = health care; prendre soin de = to take care of.",
+        "hi": "les soins de santé = स्वास्थ्य सेवा; prendre soin de = देखभाल करना।"
+      }
+    },
+    {
+      "fr": "le préposé / la préposée aux bénéficiaires",
+      "en": "patient care attendant (Québec)",
+      "hi": "मरीज़ों की देखभाल करने वाला सहायक / सहायिका",
+      "pron": "लö प्ग़े-पो-ज़े / ला प्ग़े-पो-ज़े ओ बे-ने-फ़ी-स्यैग़",
+      "ipa": "lə pʁepoze / la pʁepoze o benefisjɛʁ",
+      "pos": "noun",
+      "gender": "mf",
+      "lemma": "préposé",
+      "note": {
+        "en": "Often shortened to PAB. Elsewhere: aide-soignant(e) or préposé(e) aux soins.",
+        "hi": "अक्सर छोटा करके PAB कहते हैं। दूसरी जगह: aide-soignant(e) या préposé(e) aux soins।"
+      }
+    },
+    {
+      "fr": "s'inscrire",
+      "en": "to register, to enrol",
+      "hi": "नाम लिखवाना / दाख़िला लेना",
+      "pron": "सैँस-क्ग़ीग़",
+      "ipa": "sɛ̃skʁiʁ",
+      "pos": "verb",
+      "note": {
+        "en": "Je m'inscris, tu t'inscris; past: je me suis inscrit(e).",
+        "hi": "je m'inscris, tu t'inscris; भूतकाल: je me suis inscrit(e)।"
+      }
+    },
+    {
+      "fr": "à distance",
+      "en": "remotely, online",
+      "hi": "ऑनलाइन / दूर से",
+      "pron": "आ दिस-ताँस",
+      "ipa": "a distɑ̃s",
+      "pos": "phrase"
+    },
+    {
+      "fr": "la pénurie de main-d'œuvre",
+      "en": "labour shortage",
+      "hi": "कामगारों की कमी",
+      "pron": "ला पे-न्ü-ग़ी दö मैँ-दöव्ग़",
+      "ipa": "la penyʁi də mɛ̃dœvʁ",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "pénurie"
+    },
+    {
+      "fr": "rémunéré",
+      "en": "paid",
+      "hi": "वेतन वाला / जिसके पैसे मिलें",
+      "pron": "ग़े-म्ü-ने-ग़े",
+      "ipa": "ʁemyneʁe",
+      "pos": "adjective"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Regarde, il s'agit d'une annonce pour une formation.",
+      "en": "Look, it's an ad for a training course.",
+      "hi": "देखो, यह एक प्रशिक्षण-कोर्स का विज्ञापन है।",
+      "pron": "ग़ö-गाग़्द इल सा-झ़ी दüन आ-नोँस पूग़ üन फ़ॉग़-मा-स्योँ"
+    },
+    {
+      "fr": "Je comprends, mais justement…",
+      "en": "I understand, but that's exactly the point…",
+      "hi": "मैं समझता हूँ, पर यही तो बात है…",
+      "pron": "झ़ö कोँ-प्ग़ाँ मै झ़üस-तö-माँ"
+    },
+    {
+      "fr": "Ce n'est pas un problème puisque les cours sont le soir.",
+      "en": "That's not a problem since the classes are in the evening.",
+      "hi": "यह कोई समस्या नहीं है क्योंकि क्लासें शाम को हैं।",
+      "pron": "सö नै पा ज़ैँ प्ग़ो-ब्लैम प्üइस-कö ले कूग़ सोँ लö स्वाग़"
+    },
+    {
+      "fr": "Sans compter que le stage est rémunéré.",
+      "en": "Not to mention that the internship is paid.",
+      "hi": "ऊपर से इंटर्नशिप के पैसे भी मिलते हैं।",
+      "pron": "साँ कोँ-ते कö लö स्ताझ़ ए ग़े-म्ü-ने-ग़े"
+    },
+    {
+      "fr": "Tu ne perds rien à essayer.",
+      "en": "You have nothing to lose by trying.",
+      "hi": "कोशिश करने में तुम्हारा कुछ नहीं जाता।",
+      "pron": "तü नö पैग़ ग़्यैँ आ ए-से-ये"
+    },
+    {
+      "fr": "Bon, alors, tu t'inscris avec moi ?",
+      "en": "So, are you signing up with me?",
+      "hi": "तो, तुम मेरे साथ नाम लिखवा रहे हो?",
+      "pron": "बोँ आ-लॉग़ तü तैँस-क्ग़ी आ-वैक म्वा"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "TEF B structure: present the document, then convince (linking long arguments)",
+      "hi": "TEF B की संरचना: दस्तावेज़ पेश करना, फिर मनाना (लंबे तर्कों को जोड़ना)"
+    },
+    "explanation": {
+      "en": "Section B has two moves. 1) PRESENT (about one minute): Il s'agit de… / C'est une annonce pour… ; L'annonce propose / offre… ; then the key facts: who, what, where, when, cost — in your own words, not reading aloud. 2) CONVINCE (the rest): give an argument, develop it with a reason or example, then link the next one. Adding: en plus, de plus, sans compter que, sans oublier + noun, surtout. Cause: puisque (known reason), comme (at the start), grâce à + noun (positive). Answering an objection: Je comprends, mais… / Justement ! / Au contraire… / Même si tu travailles, tu peux… / Ce n'est pas un problème puisque… / Et si + imparfait… ? (Et si tu essayais ?) Finish with a direct appeal: Alors, tu t'inscris ? A strong answer = acknowledge the objection + counter-argument + concrete detail from the ad.",
+      "hi": "भाग B में दो क़दम हैं। 1) पेश करना (लगभग एक मिनट): Il s'agit de… / C'est une annonce pour… ; L'annonce propose / offre… ; फिर मुख्य बातें: कौन, क्या, कहाँ, कब, कितना ख़र्च — अपने शब्दों में, पढ़कर नहीं। 2) मनाना (बाक़ी समय): एक तर्क दीजिए, उसे किसी कारण या उदाहरण से आगे बढ़ाइए, फिर अगला तर्क जोड़िए। जोड़ने के लिए: en plus, de plus, sans compter que, sans oublier + संज्ञा, surtout। कारण: puisque (जाना-माना कारण), comme (वाक्य की शुरुआत में), grâce à + संज्ञा (अच्छी वजह)। आपत्ति का जवाब: Je comprends, mais… / Justement ! / Au contraire… / Même si tu travailles, tu peux… / Ce n'est pas un problème puisque… / Et si + imparfait… ? (Et si tu essayais ?) अंत में सीधी अपील: Alors, tu t'inscris ? मज़बूत जवाब = आपत्ति मानना + जवाबी तर्क + विज्ञापन से कोई ठोस बात।"
+    },
+    "comparison": {
+      "en": "In Hindi or English you might simply repeat 'but…, but…'. French examiners reward variety: change your connector at each argument (mais → pourtant → au contraire → même si).",
+      "hi": "हिंदी या अंग्रेज़ी में हम बार-बार 'पर…, पर…' कह देते हैं। फ़्रेंच परीक्षक विविधता के लिए अंक देते हैं: हर तर्क पर जोड़ने वाला शब्द बदलिए (mais → pourtant → au contraire → même si)।"
+    },
+    "examples": [
+      {
+        "fr": "Il s'agit d'une formation de six mois pour devenir préposé aux bénéficiaires.",
+        "en": "It's a six-month course to become a patient care attendant.",
+        "hi": "यह मरीज़ों की देखभाल का सहायक बनने के लिए छह महीने का कोर्स है।",
+        "pron": "इल सा-झ़ी दüन फ़ॉग़-मा-स्योँ दö सी म्वा पूग़ दö-वö-नीग़ प्ग़े-पो-ज़े ओ बे-ने-फ़ी-स्यैग़"
+      },
+      {
+        "fr": "Je comprends que tu sois fatigué, mais les cours ne durent que trois soirs par semaine.",
+        "en": "I understand you're tired, but the classes are only three evenings a week.",
+        "hi": "मैं समझता हूँ कि तुम थके हुए हो, पर क्लासें हफ़्ते में सिर्फ़ तीन शाम हैं।",
+        "pron": "झ़ö कोँ-प्ग़ाँ कö तü स्वा फ़ा-ती-गे मै ले कूग़ नö द्üग़ कö त्ग़्वा स्वाग़ पाग़ सö-मैन"
+      },
+      {
+        "fr": "Justement, puisque tu n'as pas d'argent, la bourse va t'aider.",
+        "en": "Exactly, since you have no money, the grant will help you.",
+        "hi": "यही तो, क्योंकि तुम्हारे पास पैसे नहीं हैं, छात्रवृत्ति तुम्हारी मदद करेगी।",
+        "pron": "झ़üस-तö-माँ प्üइस-कö तü ना पा दाग़-झ़ाँ ला बूग़स वा तै-दे"
+      },
+      {
+        "fr": "Même si ton français n'est pas parfait, tu vas progresser pendant le stage.",
+        "en": "Even if your French isn't perfect, you'll improve during the internship.",
+        "hi": "भले ही तुम्हारी फ़्रेंच पूरी तरह ठीक न हो, इंटर्नशिप के दौरान तुम सुधरोगे।",
+        "pron": "मैम सी तोँ फ़्ग़ाँ-सै नै पा पाग़-फ़ै तü वा प्ग़ो-ग्ग़े-से पाँ-दाँ लö स्ताझ़"
+      },
+      {
+        "fr": "En plus, grâce à la pénurie de main-d'œuvre, les débouchés sont excellents.",
+        "en": "What's more, thanks to the labour shortage, the job prospects are excellent.",
+        "hi": "इसके अलावा, कामगारों की कमी की वजह से नौकरी के अवसर बहुत अच्छे हैं।",
+        "pron": "आँ प्लüस ग्ग़ास आ ला पे-न्ü-ग़ी दö मैँ-दöव्ग़ ले दे-बू-शे सोँ तैक-से-लाँ"
+      },
+      {
+        "fr": "Et si tu venais à la séance d'information avec moi ?",
+        "en": "What if you came to the information session with me?",
+        "hi": "क्यों न तुम मेरे साथ जानकारी वाले सत्र में चलो?",
+        "pron": "ए सी तü वö-नै आ ला से-आँस दैँ-फ़ॉग़-मा-स्योँ आ-वैक म्वा"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Don't read the ad aloud. Rephrase: not 'Formation gratuite de 24 semaines', but 'C'est une formation qui dure six mois et qui ne coûte rien.'",
+        "hi": "विज्ञापन पढ़कर मत सुनाइए। अपने शब्दों में कहिए: 'Formation gratuite de 24 semaines' नहीं, बल्कि 'C'est une formation qui dure six mois et qui ne coûte rien.'"
+      },
+      {
+        "en": "Je comprends que + subjunctive (que tu sois, que tu aies), but parce que / puisque + indicative.",
+        "hi": "je comprends que के बाद subjonctif (que tu sois, que tu aies), पर parce que / puisque के बाद indicatif।"
+      },
+      {
+        "en": "Use tu with the friend all the way through — don't switch to vous.",
+        "hi": "दोस्त के साथ पूरे समय tu इस्तेमाल कीजिए — बीच में vous पर मत जाइए।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Linking in long arguments (liaison and enchaînement)",
+    "tip": {
+      "en": "Long arguments sound fluent when connectors are glued to the next word: en‿effet, sans‿oublier, c'est‿un‿atout, tout‿à fait. Say each rhythm group in one breath, with a small rise at the end of each group and a fall at the end of the sentence.",
+      "hi": "लंबे तर्क तब धाराप्रवाह लगते हैं जब जोड़ने वाले शब्द अगले शब्द से चिपककर बोले जाते हैं: en‿effet, sans‿oublier, c'est‿un‿atout, tout‿à fait। हर लय-समूह एक साँस में कहिए, हर समूह के अंत में आवाज़ थोड़ी ऊपर और वाक्य के अंत में नीचे।"
+    },
+    "words": [
+      {
+        "fr": "en effet",
+        "en": "indeed",
+        "hi": "वाक़ई / दरअसल",
+        "pron": "आँ ने-फ़ै",
+        "ipa": "ɑ̃n‿efɛ"
+      },
+      {
+        "fr": "sans oublier",
+        "en": "not forgetting",
+        "hi": "यह भी न भूलें",
+        "pron": "साँ ज़ू-ब्ली-ये",
+        "ipa": "sɑ̃z‿ublije"
+      },
+      {
+        "fr": "c'est un atout",
+        "en": "it's an asset",
+        "hi": "यह एक फ़ायदा है",
+        "pron": "सै तैँ ना-तू",
+        "ipa": "sɛ.t‿ɛ̃.n‿a.tu"
+      },
+      {
+        "fr": "tout à fait",
+        "en": "absolutely",
+        "hi": "बिल्कुल",
+        "pron": "तू ता फ़ै",
+        "ipa": "tu.t‿a.fɛ"
+      },
+      {
+        "fr": "un avantage",
+        "en": "an advantage",
+        "hi": "एक फ़ायदा",
+        "pron": "ऐँ ना-वाँ-ताझ़",
+        "ipa": "ɛ̃n‿avɑ̃taʒ"
+      },
+      {
+        "fr": "les études",
+        "en": "studies",
+        "hi": "पढ़ाई",
+        "pron": "ले ज़े-त्üद",
+        "ipa": "le.z‿e.tyd"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "« Inscris-toi avec moi ! »",
+      "en": "'Sign up with me!'"
+    },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Nadia has found an evening course in computerised accounting and tries to convince her friend Rahul, who works in a warehouse. This is a model of TEF section B: a short presentation, then objections and answers.",
+      "hi": "नादिया को कंप्यूटर से हिसाब-किताब (अकाउंटिंग) का एक शाम का कोर्स मिला है, और वह अपने दोस्त राहुल को मनाने की कोशिश करती है, जो एक गोदाम में काम करता है। यह TEF भाग B का मॉडल है: छोटा परिचय, फिर आपत्तियाँ और जवाब।"
+    },
+    "lines": [
+      {
+        "speaker": "Nadia",
+        "voice": "f1",
+        "fr": "Rahul, regarde ça. Il s'agit d'une formation en comptabilité informatisée au centre de formation du quartier. Ça dure vingt semaines, trois soirs par semaine, et ça commence en septembre.",
+        "en": "Rahul, look at this. It's a computerised accounting course at the neighbourhood training centre. It lasts twenty weeks, three evenings a week, and it starts in September.",
+        "hi": "राहुल, यह देखो। यह मोहल्ले के प्रशिक्षण केंद्र में कंप्यूटर अकाउंटिंग का कोर्स है। बीस हफ़्ते चलता है, हफ़्ते में तीन शाम, और सितंबर में शुरू होता है।"
+      },
+      {
+        "speaker": "Rahul",
+        "voice": "m1",
+        "fr": "De la comptabilité ? Moi ? Je travaille à l'entrepôt de huit heures à seize heures, je suis crevé le soir.",
+        "en": "Accounting? Me? I work at the warehouse from eight to four, I'm exhausted in the evening.",
+        "hi": "अकाउंटिंग? मैं? मैं गोदाम में आठ से चार बजे तक काम करता हूँ, शाम तक बुरी तरह थक जाता हूँ।"
+      },
+      {
+        "speaker": "Nadia",
+        "voice": "f1",
+        "fr": "Je comprends, mais justement : tu me dis toujours que ton dos te fait mal. Avec un diplôme, tu pourrais enfin travailler dans un bureau.",
+        "en": "I understand, but that's the point: you always tell me your back hurts. With a diploma, you could finally work in an office.",
+        "hi": "मैं समझती हूँ, पर यही तो बात है: तुम हमेशा कहते हो कि तुम्हारी पीठ में दर्द होता है। डिप्लोमा के साथ तुम आख़िरकार दफ़्तर में काम कर सकोगे।"
+      },
+      {
+        "speaker": "Rahul",
+        "voice": "m1",
+        "fr": "Peut-être, mais ça doit coûter une fortune.",
+        "en": "Maybe, but it must cost a fortune.",
+        "hi": "शायद, पर इसकी फ़ीस तो बहुत ज़्यादा होगी।"
+      },
+      {
+        "speaker": "Nadia",
+        "voice": "f1",
+        "fr": "Pas du tout ! Les frais d'inscription sont de cent cinquante dollars seulement, et le matériel est fourni. Sans compter qu'il y a une bourse pour les personnes qui travaillent à temps plein.",
+        "en": "Not at all! The registration fee is only a hundred and fifty dollars, and the materials are provided. Not to mention there's a grant for people who work full-time.",
+        "hi": "बिल्कुल नहीं! दाख़िले की फ़ीस सिर्फ़ एक सौ पचास डॉलर है, और सामान दिया जाता है। ऊपर से पूर्णकालिक काम करने वालों के लिए छात्रवृत्ति भी है।"
+      },
+      {
+        "speaker": "Rahul",
+        "voice": "m1",
+        "fr": "Hum. Et mon français ? Les chiffres, d'accord, mais tout le vocabulaire technique…",
+        "en": "Hmm. And my French? Numbers, fine, but all the technical vocabulary…",
+        "hi": "हम्म। और मेरी फ़्रेंच? अंक ठीक हैं, पर सारे तकनीकी शब्द…"
+      },
+      {
+        "speaker": "Nadia",
+        "voice": "f1",
+        "fr": "Au contraire, c'est une excellente façon de progresser. Le groupe est petit, quinze personnes maximum, et il y a des ateliers de français des affaires le samedi matin, gratuits.",
+        "en": "On the contrary, it's an excellent way to improve. The group is small, fifteen people maximum, and there are free business-French workshops on Saturday mornings.",
+        "hi": "इसके उलट, सुधरने का यह बहुत अच्छा तरीक़ा है। समूह छोटा है, ज़्यादा से ज़्यादा पंद्रह लोग, और शनिवार सुबह व्यावसायिक फ़्रेंच की मुफ़्त कार्यशालाएँ भी हैं।"
+      },
+      {
+        "speaker": "Rahul",
+        "voice": "m1",
+        "fr": "Mais après, il faudra trouver un emploi. Personne ne va engager un débutant.",
+        "en": "But afterwards, I'll have to find a job. Nobody is going to hire a beginner.",
+        "hi": "पर उसके बाद नौकरी ढूँढनी पड़ेगी। कोई नौसिखिए को नहीं रखेगा।"
+      },
+      {
+        "speaker": "Nadia",
+        "voice": "f1",
+        "fr": "Ce n'est pas un problème puisque la formation se termine par un stage de quatre semaines en entreprise. L'an dernier, d'après l'annonce, huit étudiants sur dix ont trouvé un poste dans les trois mois.",
+        "en": "That's not a problem since the course ends with a four-week internship in a company. Last year, according to the ad, eight students out of ten found a job within three months.",
+        "hi": "यह कोई समस्या नहीं है क्योंकि कोर्स के अंत में किसी कंपनी में चार हफ़्ते की इंटर्नशिप होती है। विज्ञापन के मुताबिक़, पिछले साल दस में से आठ विद्यार्थियों को तीन महीने के अंदर नौकरी मिल गई।"
+      },
+      {
+        "speaker": "Rahul",
+        "voice": "m1",
+        "fr": "Huit sur dix ? Pas mal… Mais quatre semaines de stage, je ne peux pas quitter l'entrepôt aussi longtemps.",
+        "en": "Eight out of ten? Not bad… But a four-week internship, I can't leave the warehouse for that long.",
+        "hi": "दस में से आठ? बुरा नहीं… पर चार हफ़्ते की इंटर्नशिप, मैं गोदाम इतने दिन नहीं छोड़ सकता।"
+      },
+      {
+        "speaker": "Nadia",
+        "voice": "f1",
+        "fr": "Tu as des vacances, non ? Et si tu les prenais pendant le stage ? En plus, il est rémunéré, donc tu ne perdrais pas d'argent.",
+        "en": "You have holidays, don't you? What if you took them during the internship? Besides, it's paid, so you wouldn't lose money.",
+        "hi": "तुम्हारी छुट्टियाँ हैं न? क्यों न तुम वे इंटर्नशिप के दौरान ले लो? ऊपर से उसके पैसे भी मिलते हैं, तो तुम्हारा कोई नुक़सान नहीं होगा।"
+      },
+      {
+        "speaker": "Rahul",
+        "voice": "m1",
+        "fr": "Tu as réponse à tout, toi !",
+        "en": "You have an answer for everything!",
+        "hi": "तुम्हारे पास तो हर बात का जवाब है!"
+      },
+      {
+        "speaker": "Nadia",
+        "voice": "f1",
+        "fr": "Parce que je veux t'avoir dans mon groupe ! Moi aussi, je m'inscris. On pourrait étudier ensemble et faire le trajet ensemble.",
+        "en": "Because I want you in my group! I'm signing up too. We could study together and travel there together.",
+        "hi": "क्योंकि मैं तुम्हें अपने समूह में चाहती हूँ! मैं भी नाम लिखवा रही हूँ। हम साथ पढ़ सकते हैं और साथ आ-जा सकते हैं।"
+      },
+      {
+        "speaker": "Rahul",
+        "voice": "m1",
+        "fr": "Bon… Il y a une séance d'information ?",
+        "en": "OK… Is there an information session?",
+        "hi": "अच्छा… क्या कोई जानकारी वाला सत्र है?"
+      },
+      {
+        "speaker": "Nadia",
+        "voice": "f1",
+        "fr": "Jeudi prochain à dix-neuf heures. Tu ne perds rien à venir écouter.",
+        "en": "Next Thursday at seven p.m. You have nothing to lose by coming to listen.",
+        "hi": "अगले गुरुवार शाम सात बजे। आकर सुनने में तुम्हारा कुछ नहीं जाता।"
+      },
+      {
+        "speaker": "Rahul",
+        "voice": "m1",
+        "fr": "D'accord, je viens jeudi. Mais je ne promets rien !",
+        "en": "OK, I'll come on Thursday. But I'm not promising anything!",
+        "hi": "ठीक है, मैं गुरुवार को आता हूँ। पर कोई वादा नहीं!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "How is the course organised?"
+        },
+        "options": [
+          "Every Saturday for a year",
+          "Online only, at your own pace",
+          "Twenty weeks, three evenings a week",
+          "Four weeks, full-time"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Ça dure vingt semaines, trois soirs par semaine.' Four weeks is the internship; Saturday is the French workshop.",
+          "hi": "'ça dure vingt semaines, trois soirs par semaine' — बीस हफ़्ते, हफ़्ते में तीन शाम। चार हफ़्ते इंटर्नशिप है; शनिवार को फ़्रेंच कार्यशाला है।"
+        },
+        "kind": "literal",
+        "evidence": "Ça dure vingt semaines, trois soirs par semaine"
+      },
+      {
+        "q": {
+          "en": "Which personal reason does Nadia use in her first argument?"
+        },
+        "options": [
+          "Rahul's back pain",
+          "Rahul's high salary",
+          "Rahul's love of numbers",
+          "Rahul's boss"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Tu me dis toujours que ton dos te fait mal' — an office job would be easier on his back.",
+          "hi": "'tu me dis toujours que ton dos te fait mal' — दफ़्तर का काम उसकी पीठ के लिए आसान होगा।"
+        },
+        "kind": "inference",
+        "evidence": "tu me dis toujours que ton dos te fait mal."
+      },
+      {
+        "q": {
+          "en": "How does Nadia answer the objection about cost?"
+        },
+        "options": [
+          "The employer pays everything",
+          "The course is completely free",
+          "Rahul can pay after finding a job",
+          "Low fees, materials provided and a grant"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "Only $150, materials provided, 'sans compter qu'il y a une bourse'.",
+          "hi": "सिर्फ़ 150 डॉलर, सामान दिया जाता है, 'sans compter qu'il y a une bourse' — छात्रवृत्ति भी।"
+        },
+        "kind": "literal",
+        "evidence": "Les frais d'inscription sont de cent cinquante dollars seulement, et le matériel est fourni."
+      },
+      {
+        "q": {
+          "en": "What figure does Nadia quote from the ad?"
+        },
+        "options": [
+          "8 students out of 15 did the internship",
+          "8 out of 10 students found a job within three months",
+          "15 students found a job last year",
+          "10 out of 10 students passed the exam"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Huit étudiants sur dix ont trouvé un poste dans les trois mois.' 15 is the maximum group size.",
+          "hi": "'huit étudiants sur dix ont trouvé un poste dans les trois mois' — दस में से आठ। 15 समूह का अधिकतम आकार है।"
+        },
+        "kind": "literal",
+        "evidence": "huit étudiants sur dix ont trouvé un poste dans les trois mois."
+      },
+      {
+        "q": {
+          "en": "What solution does Nadia propose for the internship?"
+        },
+        "options": [
+          "Doing the internship at the weekend",
+          "Skipping the internship",
+          "Taking his holidays during the internship",
+          "Quitting the warehouse"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Et si tu les prenais pendant le stage ?' — use his holidays; the internship is also paid.",
+          "hi": "'et si tu les prenais pendant le stage ?' — अपनी छुट्टियाँ इंटर्नशिप में ले; इंटर्नशिप के पैसे भी मिलते हैं।"
+        },
+        "kind": "literal",
+        "evidence": "Et si tu les prenais pendant le stage ?"
+      },
+      {
+        "q": {
+          "en": "How does the conversation end?"
+        },
+        "options": [
+          "Rahul agrees to attend the information session but is not yet sure",
+          "Rahul registers immediately",
+          "Rahul refuses completely",
+          "Nadia decides not to register"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'D'accord, je viens jeudi. Mais je ne promets rien !' — a partial success, typical of TEF B.",
+          "hi": "'d'accord, je viens jeudi. mais je ne promets rien !' — आंशिक सफलता, जो TEF B में आम है।"
+        },
+        "kind": "gist",
+        "evidence": "D'accord, je viens jeudi. Mais je ne promets rien !"
+      }
+    ],
+    "dictation": [
+      "Il s'agit d'une formation en comptabilité informatisée.",
+      "Ce n'est pas un problème puisque la formation se termine par un stage.",
+      "Tu ne perds rien à venir écouter."
+    ],
+    "gapFill": {
+      "text": "Les frais d'___ sont de cent cinquante dollars. Sans ___ qu'il y a une bourse. Au ___, c'est une excellente façon de progresser.",
+      "answers": [
+        "inscription",
+        "compter",
+        "contraire"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "tef_b",
+    "instructions": {
+      "en": "TEF section B practice (10 minutes). Use today's reading: the ad for a six-month training course in patient care. First present the ad to your friend in your own words (about one minute). Then convince them to enrol: answer each objection with a new, developed argument and a detail from the ad. End with a direct question.",
+      "hi": "TEF भाग B का अभ्यास (10 मिनट)। आज का पठन इस्तेमाल कीजिए: मरीज़ों की देखभाल के छह महीने के प्रशिक्षण-कोर्स का विज्ञापन। पहले विज्ञापन अपने शब्दों में दोस्त के सामने पेश कीजिए (लगभग एक मिनट)। फिर उसे दाख़िला लेने के लिए मनाइए: हर आपत्ति का जवाब एक नए, विस्तृत तर्क और विज्ञापन की किसी बात से दीजिए। अंत में सीधा सवाल पूछिए।"
+    },
+    "scenario": {
+      "setting": {
+        "en": "An ad for 'Assistance aux soins — formation intensive de 6 mois' at a fictional vocational centre in Trois-Rivières: free tuition for eligible residents, a weekly allowance, classes Monday to Thursday 8 a.m.–2 p.m., two paid internships in a hospital and a seniors' residence, French support included, information session on 12 June.",
+        "hi": "त्रुआ-रिवियेर के एक काल्पनिक व्यावसायिक केंद्र में 'Assistance aux soins — formation intensive de 6 mois' का विज्ञापन: योग्य निवासियों के लिए मुफ़्त पढ़ाई, हर हफ़्ते भत्ता, सोमवार से गुरुवार सुबह 8 से दोपहर 2 बजे तक क्लास, एक अस्पताल और एक बुज़ुर्गों के आवास में दो वेतन वाली इंटर्नशिप, फ़्रेंच में मदद शामिल, 12 जून को जानकारी सत्र।"
+      },
+      "learnerRole": {
+        "en": "You think this course is perfect for your friend, who is looking for a stable job. Use tu.",
+        "hi": "आपको लगता है कि यह कोर्स आपके दोस्त के लिए बिल्कुल सही है, जो एक स्थायी नौकरी ढूँढ रहा है। tu इस्तेमाल कीजिए।"
+      },
+      "partnerRole": {
+        "en": "Your friend Sofia, a newcomer who worked in an office in her country. Objections: 'Je n'ai pas fait d'études en santé', 'Le sang, ça me fait peur', 'Six mois sans salaire, c'est impossible', 'Mon français n'est pas assez bon pour parler aux patients', 'Je dois m'occuper de mes enfants l'après-midi'. She accepts only if each objection gets a convincing answer.",
+        "hi": "आपकी दोस्त सोफ़िया, जो नई आई है और अपने देश में दफ़्तर में काम करती थी। आपत्तियाँ: 'Je n'ai pas fait d'études en santé', 'Le sang, ça me fait peur', 'Six mois sans salaire, c'est impossible', 'Mon français n'est pas assez bon pour parler aux patients', 'Je dois m'occuper de mes enfants l'après-midi'। वह तभी मानेगी जब हर आपत्ति का ठोस जवाब मिले।"
+      },
+      "goals": [
+        {
+          "en": "Present the ad in about one minute, without reading it: what, for whom, how long, cost, schedule.",
+          "hi": "लगभग एक मिनट में विज्ञापन पेश कीजिए, पढ़कर नहीं: क्या, किसके लिए, कितने समय, ख़र्च, समय-सारणी।"
+        },
+        {
+          "en": "Answer at least four objections, each time acknowledging, countering and giving a detail from the ad.",
+          "hi": "कम से कम चार आपत्तियों का जवाब दीजिए, हर बार मानते हुए, जवाबी तर्क देते हुए और विज्ञापन की कोई बात बताते हुए।"
+        },
+        {
+          "en": "Use at least five different connectors (en plus, puisque, même si, au contraire, sans compter que…).",
+          "hi": "कम से कम पाँच अलग जोड़ने वाले शब्द इस्तेमाल कीजिए (en plus, puisque, même si, au contraire, sans compter que…)।"
+        }
+      ]
+    },
+    "prompts": [
+      {
+        "fr": "Sofia, j'ai vu une annonce qui va t'intéresser.",
+        "en": "Sofia, I saw an ad that will interest you.",
+        "hi": "सोफ़िया, मैंने एक विज्ञापन देखा जो तुम्हें पसंद आएगा।",
+        "pron": "सो-फ़्या झ़े वü üन आ-नोँस की वा तैँ-ते-ग़ै-से"
+      },
+      {
+        "fr": "Il s'agit d'une formation de six mois pour travailler dans les soins.",
+        "en": "It's a six-month course to work in patient care.",
+        "hi": "यह मरीज़ों की देखभाल में काम करने के लिए छह महीने का कोर्स है।",
+        "pron": "इल सा-झ़ी दüन फ़ॉग़-मा-स्योँ दö सी म्वा पूग़ त्ग़ा-वा-ये दाँ ले स्वैँ",
+        "model": "Il s'agit d'une formation intensive de six mois pour devenir assistante aux soins. Elle est gratuite pour les résidents, et on reçoit même une allocation chaque semaine."
+      },
+      {
+        "fr": "Je comprends que tu n'aies pas étudié la santé, mais aucune expérience n'est exigée.",
+        "en": "I understand you haven't studied health, but no experience is required.",
+        "hi": "मैं समझती हूँ कि तुमने स्वास्थ्य की पढ़ाई नहीं की, पर कोई अनुभव ज़रूरी नहीं है।",
+        "pron": "झ़ö कोँ-प्ग़ाँ कö तü नै पा ज़े-त्ü-द्ये ला साँ-ते मै ओ-क्üन ऐक-स्पे-ग़्याँस नै तैग-ज़ी-झ़े"
+      },
+      {
+        "fr": "Justement, puisque les cours finissent à quatorze heures, tu peux aller chercher tes enfants.",
+        "en": "Exactly, since classes finish at 2 p.m., you can pick up your children.",
+        "hi": "यही तो, क्योंकि क्लासें दोपहर दो बजे ख़त्म हो जाती हैं, तुम अपने बच्चों को लेने जा सकती हो।",
+        "pron": "झ़üस-तö-माँ प्üइस-कö ले कूग़ फ़ी-नीस आ का-तॉग़्ज़ öग़ तü पö ज़ा-ले शैग़-शे ते ज़ाँ-फ़ाँ"
+      },
+      {
+        "fr": "Même si ton français n'est pas parfait, il y a un soutien en français inclus.",
+        "en": "Even if your French isn't perfect, French support is included.",
+        "hi": "भले ही तुम्हारी फ़्रेंच पूरी तरह ठीक न हो, फ़्रेंच में मदद शामिल है।",
+        "pron": "मैम सी तोँ फ़्ग़ाँ-सै नै पा पाग़-फ़ै ई-ली-या ऐँ सू-त्यैँ आँ फ़्ग़ाँ-सै ऐँ-क्लü"
+      },
+      {
+        "fr": "Sans compter que les deux stages sont rémunérés.",
+        "en": "Not to mention that both internships are paid.",
+        "hi": "ऊपर से दोनों इंटर्नशिप के पैसे भी मिलते हैं।",
+        "pron": "साँ कोँ-ते कö ले दö स्ताझ़ सोँ ग़े-म्ü-ने-ग़े"
+      },
+      {
+        "fr": "Avec la pénurie de main-d'œuvre, tu trouveras un emploi stable très vite.",
+        "en": "With the labour shortage, you'll find a stable job very quickly.",
+        "hi": "कामगारों की कमी के चलते तुम्हें बहुत जल्दी स्थायी नौकरी मिल जाएगी।",
+        "pron": "आ-वैक ला पे-न्ü-ग़ी दö मैँ-दöव्ग़ तü त्ग़ू-व्ग़ा ज़ैँ नाँ-प्ल्वा स्ताब्ल त्ग़ै वीत"
+      },
+      {
+        "fr": "Alors, on va ensemble à la séance d'information le 12 juin ?",
+        "en": "So, shall we go to the information session together on 12 June?",
+        "hi": "तो, 12 जून को जानकारी सत्र में साथ चलें?",
+        "pron": "आ-लॉग़ ओँ वा आँ-साँब्ल आ ला से-आँस दैँ-फ़ॉग़-मा-स्योँ लö दूज़ झ़्वैँ"
+      }
+    ],
+    "tip": {
+      "en": "Prepare a three-column plan before speaking: objection → counter-argument → detail from the ad. If your friend repeats the same objection, don't repeat your answer: bring a NEW argument (money → time → career → feelings).",
+      "hi": "बोलने से पहले तीन कॉलम वाली योजना बनाइए: आपत्ति → जवाबी तर्क → विज्ञापन की बात। अगर दोस्त वही आपत्ति दोहराए, तो अपना जवाब मत दोहराइए: नया तर्क लाइए (पैसा → समय → करियर → भावनाएँ)।"
+    }
+  },
+  "reading": {
+    "genre": "advertisement",
+    "title": "Assistance aux soins : formation intensive de 6 mois (exemple fictif)",
+    "text": "CENTRE DE FORMATION PROFESSIONNELLE DU CAP — TROIS-RIVIÈRES\n\nASSISTANCE AUX SOINS — FORMATION INTENSIVE DE 6 MOIS\nProchaine cohorte : du 25 août au 20 février\n\nVous aimez aider les autres ? Vous cherchez un métier utile, avec de vrais débouchés ? Les hôpitaux et les résidences pour aînés de la région manquent de personnel, et notre formation vous prépare à les rejoindre rapidement.\n\nCe que vous apprendrez\n• Les soins d'hygiène et de confort aux patients\n• La prévention des chutes et les déplacements sécuritaires\n• La communication avec les patients, les familles et l'équipe de soins\n• Les premiers secours (certificat inclus)\n\nHoraire\nDu lundi au jeudi, de 8 h à 14 h. Le vendredi est libre pour les révisions et la vie de famille.\n\nStages\nDeux stages rémunérés de trois semaines chacun : le premier dans une résidence pour aînés, le second à l'hôpital régional.\n\nConditions\n• Aucune expérience en santé n'est exigée.\n• Niveau de français intermédiaire. Un soutien linguistique de quatre heures par semaine est offert pendant toute la formation.\n• Formation gratuite pour les résidents admissibles. Une allocation hebdomadaire peut être versée pendant les cours.\n\nÀ la fin de la formation, vous recevrez une attestation reconnue par les employeurs de la région. En 2024, neuf diplômés sur dix travaillaient dans le domaine six mois après la fin des cours.\n\nSéance d'information : le jeudi 12 juin, à 18 h 30, salle 104, ou en ligne. Places limitées à 24 personnes par cohorte : inscrivez-vous avant le 15 juillet sur le site du centre ou au 819 555-0170.",
+    "translation": {
+      "en": "CAP VOCATIONAL TRAINING CENTRE — TROIS-RIVIÈRES\n\nCARE ASSISTANCE — 6-MONTH INTENSIVE COURSE\nNext cohort: 25 August to 20 February\n\nDo you like helping others? Are you looking for a useful occupation with real job prospects? Hospitals and seniors' residences in the region are short of staff, and our course prepares you to join them quickly.\n\nWhat you will learn\n• Hygiene and comfort care for patients\n• Fall prevention and safe transfers\n• Communication with patients, families and the care team\n• First aid (certificate included)\n\nSchedule\nMonday to Thursday, 8 a.m. to 2 p.m. Friday is free for revision and family life.\n\nInternships\nTwo paid internships of three weeks each: the first in a seniors' residence, the second at the regional hospital.\n\nConditions\n• No experience in health care is required.\n• Intermediate level of French. Language support of four hours a week is offered throughout the course.\n• Free tuition for eligible residents. A weekly allowance may be paid during the classes.\n\nAt the end of the course, you will receive a certificate recognised by employers in the region. In 2024, nine graduates out of ten were working in the field six months after the end of classes.\n\nInformation session: Thursday 12 June, at 6:30 p.m., room 104, or online. Places limited to 24 people per cohort: register before 15 July on the centre's website or at 819 555-0170.",
+      "hi": "काप व्यावसायिक प्रशिक्षण केंद्र — त्रुआ-रिवियेर\n\nदेखभाल सहायता — 6 महीने का गहन कोर्स\nअगला बैच: 25 अगस्त से 20 फ़रवरी\n\nक्या आपको दूसरों की मदद करना अच्छा लगता है? क्या आप असली अवसरों वाला कोई उपयोगी पेशा ढूँढ रहे हैं? इलाक़े के अस्पतालों और बुज़ुर्गों के आवासों में कर्मचारियों की कमी है, और हमारा कोर्स आपको जल्दी उनसे जुड़ने के लिए तैयार करता है।\n\nआप क्या सीखेंगे\n• मरीज़ों की साफ़-सफ़ाई और आराम से जुड़ी देखभाल\n• गिरने से बचाव और सुरक्षित ढंग से उठाना-बिठाना\n• मरीज़ों, परिवारों और देखभाल टीम से बातचीत\n• प्राथमिक चिकित्सा (प्रमाणपत्र शामिल)\n\nसमय-सारणी\nसोमवार से गुरुवार, सुबह 8 से दोपहर 2 बजे तक। शुक्रवार दोहराई और पारिवारिक जीवन के लिए ख़ाली है।\n\nइंटर्नशिप\nतीन-तीन हफ़्तों की दो वेतन वाली इंटर्नशिप: पहली बुज़ुर्गों के आवास में, दूसरी क्षेत्रीय अस्पताल में।\n\nशर्तें\n• स्वास्थ्य क्षेत्र का कोई अनुभव ज़रूरी नहीं है।\n• फ़्रेंच का मध्यम स्तर। पूरे कोर्स के दौरान हर हफ़्ते चार घंटे भाषा में मदद दी जाती है।\n• योग्य निवासियों के लिए पढ़ाई मुफ़्त। क्लास के दौरान हर हफ़्ते भत्ता दिया जा सकता है।\n\nकोर्स के अंत में आपको इलाक़े के नियोक्ताओं द्वारा मान्य प्रमाणपत्र मिलेगा। 2024 में, दस में से नौ स्नातक कोर्स ख़त्म होने के छह महीने बाद इसी क्षेत्र में काम कर रहे थे।\n\nजानकारी सत्र: गुरुवार 12 जून, शाम 6:30 बजे, कमरा 104, या ऑनलाइन। हर बैच में सिर्फ़ 24 जगहें: 15 जुलाई से पहले केंद्र की वेबसाइट पर या 819 555-0170 पर नाम लिखवाइए।"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "Why, according to the ad, are there real job prospects?"
+        },
+        "options": [
+          "The course is free",
+          "Hospitals and seniors' residences lack staff",
+          "The centre hires all its graduates",
+          "Salaries in health care are the highest in Québec"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Les hôpitaux et les résidences pour aînés de la région manquent de personnel.'",
+          "hi": "'les hôpitaux et les résidences pour aînés de la région manquent de personnel' — कर्मचारियों की कमी है।"
+        },
+        "kind": "literal",
+        "evidence": "Les hôpitaux et les résidences pour aînés de la région manquent de personnel"
+      },
+      {
+        "q": {
+          "en": "Which argument would best answer the objection 'I must pick up my children in the afternoon'?"
+        },
+        "options": [
+          "There is language support",
+          "The internships are paid",
+          "First aid is included",
+          "Classes end at 2 p.m. and Friday is free"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Du lundi au jeudi, de 8 h à 14 h. Le vendredi est libre…'",
+          "hi": "'du lundi au jeudi, de 8 h à 14 h' — क्लास दोपहर 2 बजे ख़त्म, और शुक्रवार ख़ाली।"
+        },
+        "kind": "inference",
+        "evidence": "Du lundi au jeudi, de 8 h à 14 h. Le vendredi est libre pour les révisions et la vie de famille."
+      },
+      {
+        "q": {
+          "en": "Where do the internships take place?"
+        },
+        "options": [
+          "In a seniors' residence, then at the regional hospital",
+          "Only at the hospital",
+          "Online",
+          "At the training centre"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Le premier dans une résidence pour aînés, le second à l'hôpital régional.'",
+          "hi": "'le premier dans une résidence pour aînés, le second à l'hôpital régional' — पहले बुज़ुर्गों का आवास, फिर अस्पताल।"
+        },
+        "kind": "literal",
+        "evidence": "le premier dans une résidence pour aînés, le second à l'hôpital régional."
+      },
+      {
+        "q": {
+          "en": "What is said about French?"
+        },
+        "options": [
+          "No French is needed",
+          "French classes cost extra",
+          "An intermediate level is needed, with 4 hours of support a week",
+          "Perfect French is required"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Niveau de français intermédiaire. Un soutien linguistique de quatre heures par semaine est offert.'",
+          "hi": "'niveau de français intermédiaire' और हर हफ़्ते चार घंटे की भाषा-मदद।"
+        },
+        "kind": "literal",
+        "evidence": "Un soutien linguistique de quatre heures par semaine est offert pendant toute la formation."
+      },
+      {
+        "q": {
+          "en": "'Une allocation hebdomadaire' is…"
+        },
+        "options": [
+          "a free weekend",
+          "a sum of money paid every week",
+          "a weekly exam",
+          "a monthly fee"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "Hebdomadaire = weekly; une allocation = an allowance (money you receive).",
+          "hi": "hebdomadaire = साप्ताहिक; une allocation = भत्ता (मिलने वाला पैसा)।"
+        },
+        "kind": "vocabulary",
+        "evidence": "Une allocation hebdomadaire peut être versée pendant les cours."
+      },
+      {
+        "q": {
+          "en": "Why should people register quickly?"
+        },
+        "options": [
+          "The course starts on 12 June",
+          "The allowance ends in July",
+          "Only nine people are accepted",
+          "Places are limited to 24 per cohort"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Places limitées à 24 personnes par cohorte : inscrivez-vous avant le 15 juillet.' 12 June is the information session.",
+          "hi": "'places limitées à 24 personnes par cohorte' — सीमित जगहें। 12 जून जानकारी सत्र है।"
+        },
+        "kind": "inference",
+        "evidence": "Places limitées à 24 personnes par cohorte"
+      }
+    ]
+  },
+  "writing": {
+    "type": "email",
+    "prompt": {
+      "en": "Your friend Sofia could not come to the information session. Write her a persuasive email (150–220 words): briefly present the care-assistance course, then give three developed arguments that answer her worries (children, money, French), and end with a concrete proposal.",
+      "hi": "आपकी दोस्त सोफ़िया जानकारी सत्र में नहीं आ सकी। उसे एक मनाने वाला ईमेल लिखिए (150–220 शब्द): देखभाल सहायता कोर्स का संक्षिप्त परिचय दीजिए, फिर तीन विस्तृत तर्क दीजिए जो उसकी चिंताओं (बच्चे, पैसा, फ़्रेंच) का जवाब दें, और अंत में एक ठोस प्रस्ताव रखिए।",
+      "fr": "Écrivez un courriel à votre amie pour la convaincre de s'inscrire à la formation."
+    },
+    "minWords": 150,
+    "maxWords": 220,
+    "hints": [
+      {
+        "en": "Structure: greeting → news of the session → presentation of the course → three arguments (one paragraph each) → proposal + closing.",
+        "hi": "संरचना: अभिवादन → सत्र की ख़बर → कोर्स का परिचय → तीन तर्क (हर एक का अलग अनुच्छेद) → प्रस्ताव + समापन।"
+      },
+      {
+        "en": "Each argument: acknowledge the worry (Je sais que…), counter (mais / pourtant), detail from the ad.",
+        "hi": "हर तर्क: चिंता मानिए (Je sais que…), जवाब दीजिए (mais / pourtant), विज्ञापन की बात लिखिए।"
+      },
+      {
+        "en": "Informal tone with tu, but correct spelling and full sentences.",
+        "hi": "tu के साथ अनौपचारिक लहजा, पर सही वर्तनी और पूरे वाक्य।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Je sais que tu hésites, mais…",
+        "en": "I know you're hesitating, but…",
+        "hi": "मुझे पता है कि तुम हिचकिचा रही हो, पर…",
+        "pron": "झ़ö सै कö तü ए-ज़ीत मै"
+      },
+      {
+        "fr": "Ce qui m'a convaincu, c'est que…",
+        "en": "What convinced me is that…",
+        "hi": "जिस बात ने मुझे क़ायल किया, वह यह है कि…",
+        "pron": "सö की मा कोँ-वैँ-क्ü सै कö"
+      },
+      {
+        "fr": "Pour toutes ces raisons, je pense que tu devrais…",
+        "en": "For all these reasons, I think you should…",
+        "hi": "इन सब कारणों से मुझे लगता है कि तुम्हें… चाहिए",
+        "pron": "पूग़ तूत से ग़ै-ज़ोँ झ़ö पाँस कö तü दö-व्ग़ै"
+      },
+      {
+        "fr": "Qu'est-ce que tu en dis ?",
+        "en": "What do you say?",
+        "hi": "तुम्हारा क्या कहना है?",
+        "pron": "कैस-कö तü आँ दी"
+      }
+    ],
+    "model": {
+      "fr": "Objet : La formation dont je t'ai parlé\n\nSalut Sofia,\n\nHier, je suis allée à la séance d'information du Centre du Cap, et je suis encore plus sûre que cette formation est faite pour toi. C'est un cours intensif de six mois pour devenir assistante aux soins, avec deux stages, l'un dans une résidence pour aînés et l'autre à l'hôpital régional.\n\nJe sais que tu t'inquiètes pour tes enfants. Pourtant, les cours ont lieu du lundi au jeudi, de 8 h à 14 h : tu pourras aller les chercher à l'école tous les jours, et le vendredi est libre.\n\nTu m'as aussi dit que six mois sans salaire, c'était impossible. Justement, la formation est gratuite pour les résidents, une allocation est versée chaque semaine et les deux stages sont rémunérés.\n\nEnfin, ton français est bien meilleur que tu ne le penses ! En plus, le centre offre quatre heures de soutien linguistique par semaine. Tu parleras aux patients tous les jours, c'est la meilleure façon de progresser.\n\nLes places sont limitées et il faut s'inscrire avant le 15 juillet. Et si on prenait un café samedi pour remplir le formulaire ensemble ? Qu'est-ce que tu en dis ?\n\nJe t'embrasse,\nAmina",
+      "en": "Subject: The course I told you about\n\nHi Sofia,\n\nYesterday I went to the information session at the Centre du Cap, and I'm even more sure that this course is made for you. It's a six-month intensive course to become a care assistant, with two internships, one in a seniors' residence and the other at the regional hospital.\n\nI know you're worried about your children. Yet classes take place Monday to Thursday, 8 a.m. to 2 p.m.: you'll be able to pick them up from school every day, and Friday is free.\n\nYou also told me that six months without a salary was impossible. That's exactly the point: the course is free for residents, an allowance is paid every week and both internships are paid.\n\nFinally, your French is much better than you think! What's more, the centre offers four hours of language support a week. You'll talk to patients every day; it's the best way to improve.\n\nPlaces are limited and you have to register before 15 July. What if we had a coffee on Saturday to fill in the form together? What do you say?\n\nHugs,\nAmina"
+    },
+    "checklist": [
+      {
+        "en": "Did you present the course briefly before arguing?",
+        "hi": "क्या आपने तर्क देने से पहले कोर्स का छोटा परिचय दिया?"
+      },
+      {
+        "en": "Does each of the three arguments answer a specific worry with a detail from the ad?",
+        "hi": "क्या तीनों तर्कों में से हर एक किसी ख़ास चिंता का जवाब विज्ञापन की बात से देता है?"
+      },
+      {
+        "en": "Did you vary connectors (pourtant, justement, en plus, enfin)?",
+        "hi": "क्या आपने जोड़ने वाले शब्द बदले (pourtant, justement, en plus, enfin)?"
+      },
+      {
+        "en": "Do you end with a concrete proposal and a question?",
+        "hi": "क्या आप एक ठोस प्रस्ताव और एक सवाल के साथ ख़त्म करते हैं?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      87,
+      89,
+      93,
+      94,
+      95
+    ],
+    "items": [
+      {
+        "fr": "À ta place, j'essaierais au moins une fois.",
+        "en": "If I were you, I'd try at least once.",
+        "hi": "तुम्हारी जगह मैं होता तो कम से कम एक बार आज़माता।",
+        "pron": "आ ता प्लास झ़े-सै-ग़ै ओ म्वैँ üन फ़्वा"
+      },
+      {
+        "fr": "Tu devrais t'inscrire avant la fin du mois.",
+        "en": "You should sign up before the end of the month.",
+        "hi": "तुम्हें महीने के अंत से पहले नाम लिखवा लेना चाहिए।",
+        "pron": "तü दö-व्ग़ै तैँस-क्ग़ीग़ आ-वाँ ला फ़ैँ दü म्वा"
+      },
+      {
+        "fr": "D'une part…, d'autre part…",
+        "en": "On the one hand…, on the other hand…",
+        "hi": "एक ओर…, दूसरी ओर…",
+        "pron": "दüन पाग़ दोत्ग़ पाग़"
+      },
+      {
+        "fr": "Le projet a été critiqué par plusieurs habitants.",
+        "en": "The project was criticised by several residents.",
+        "hi": "कई निवासियों ने इस परियोजना की आलोचना की।",
+        "pron": "लö प्ग़ो-झ़ै आ ए-ते क्ग़ी-ती-के पाग़ प्लü-ज़्यöग़ ज़ा-बी-ताँ"
+      },
+      {
+        "fr": "Tout en travaillant, elle suit des cours le soir.",
+        "en": "While working, she takes classes in the evening.",
+        "hi": "काम करते हुए भी वह शाम को क्लासें करती है।",
+        "pron": "तू ताँ त्ग़ा-वा-याँ ऐल स्üई दे कूग़ लö स्वाग़"
+      },
+      {
+        "fr": "Le loyer comprend-il l'électricité ?",
+        "en": "Does the rent include electricity?",
+        "hi": "क्या किराये में बिजली शामिल है?",
+        "pron": "लö ल्वा-ये कोँ-प्ग़ाँ-तील ले-लैक-त्ग़ी-सी-ते"
+      },
+      {
+        "fr": "Serait-il possible de visiter samedi ?",
+        "en": "Would it be possible to visit on Saturday?",
+        "hi": "क्या शनिवार को देखना संभव होगा?",
+        "pron": "सö-ग़ै-तील पो-सीब्ल दö वी-ज़ी-ते साम-दी"
+      },
+      {
+        "fr": "Je suis tout à fait d'accord avec cette idée.",
+        "en": "I completely agree with this idea.",
+        "hi": "मैं इस विचार से पूरी तरह सहमत हूँ।",
+        "pron": "झ़ö स्üई तू ता फ़ै दा-कॉग़ आ-वैक सैत ई-दे"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which sentence best starts the presentation in TEF B?",
+        "hi": "TEF B में परिचय शुरू करने के लिए सबसे अच्छा वाक्य कौन-सा है?"
+      },
+      "options": [
+        "Il s'agit d'une formation de six mois en soins.",
+        "Formation intensive de 6 mois, prochaine cohorte le 25 août.",
+        "Tu dois faire cette formation, c'est tout.",
+        "Je ne sais pas ce que c'est."
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Present in your own words with 'Il s'agit de…', don't read the ad or impose.",
+        "hi": "'Il s'agit de…' से अपने शब्दों में पेश कीजिए, विज्ञापन पढ़िए मत और ज़बरदस्ती मत कीजिए।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: Not to mention that the internship is paid.",
+        "hi": "पूरा कीजिए: ऊपर से इंटर्नशिप के पैसे भी मिलते हैं।"
+      },
+      "sentence": "Sans ___ que le stage est rémunéré.",
+      "answer": "compter",
+      "accept": [],
+      "explanation": {
+        "en": "Sans compter que = not to mention that (adds an argument).",
+        "hi": "sans compter que = ऊपर से / यह भी कि (एक और तर्क जोड़ता है)।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which form follows 'Je comprends que tu…'?",
+        "hi": "'Je comprends que tu…' के बाद कौन-सा रूप आता है?"
+      },
+      "options": [
+        "seras fatigué",
+        "être fatigué",
+        "sois fatigué",
+        "es fatigué"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Je comprends que + subjunctive when you accept someone's feeling: que tu sois.",
+        "hi": "किसी की भावना मानते समय je comprends que के बाद subjonctif: que tu sois।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French (to a friend).",
+        "hi": "फ़्रेंच में लिखिए (दोस्त से)।"
+      },
+      "source": {
+        "en": "You have nothing to lose by trying.",
+        "hi": "कोशिश करने में तुम्हारा कुछ नहीं जाता।"
+      },
+      "answer": "Tu ne perds rien à essayer.",
+      "accept": [
+        "Tu n'as rien à perdre à essayer.",
+        "Tu n'as rien à perdre en essayant.",
+        "Tu ne perds rien à essayer"
+      ],
+      "explanation": {
+        "en": "Ne … rien + perdre; à + infinitive.",
+        "hi": "ne … rien + perdre; à + infinitive।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: What if you came with me?",
+        "hi": "पूरा कीजिए: क्यों न तुम मेरे साथ चलो?"
+      },
+      "sentence": "Et si tu ___ avec moi ?",
+      "answer": "venais",
+      "accept": [],
+      "explanation": {
+        "en": "Et si + imparfait = a suggestion.",
+        "hi": "et si + imparfait = सुझाव।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Les débouchés sont excellents' means…",
+        "hi": "'Les débouchés sont excellents' का मतलब है…"
+      },
+      "options": [
+        "the classes are excellent",
+        "the fees are low",
+        "job prospects are excellent",
+        "the exits are well marked"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Les débouchés = career openings after a course.",
+        "hi": "les débouchés = कोर्स के बाद नौकरी के अवसर।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put in order: Even if you work, you can take the course.",
+        "hi": "क्रम में रखिए: भले ही तुम काम करते हो, तुम कोर्स कर सकते हो।"
+      },
+      "words": [
+        "si",
+        "Même",
+        "tu",
+        "travailles,",
+        "tu",
+        "peux",
+        "suivre",
+        "la",
+        "formation"
+      ],
+      "answer": "Même si tu travailles, tu peux suivre la formation.",
+      "explanation": {
+        "en": "Même si + indicative, then the main clause.",
+        "hi": "même si + indicatif, फिर मुख्य उपवाक्य।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "I'm signing up too.",
+        "hi": "मैं भी नाम लिखवा रहा हूँ।"
+      },
+      "answer": "Moi aussi, je m'inscris.",
+      "accept": [
+        "Je m'inscris aussi.",
+        "Moi aussi je m'inscris.",
+        "Moi aussi, je m'inscris"
+      ],
+      "explanation": {
+        "en": "S'inscrire: je m'inscris.",
+        "hi": "s'inscrire: je m'inscris।"
+      }
+    }
+  ]
+}

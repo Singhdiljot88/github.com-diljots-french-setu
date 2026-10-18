@@ -1,0 +1,180 @@
+{
+  "day": 9,
+  "phase": 1,
+  "title": { "fr": "Je parle, j'habite, je travaille : les verbes en -er", "en": "I speak, I live, I work: -er verbs", "hi": "मैं बोलता हूँ, रहता हूँ, काम करता हूँ: -er वाली क्रियाएँ" },
+  "objective": {
+    "en": "Conjugate regular -er verbs in the present (parler, habiter, travailler, aimer, étudier) and say which languages you speak, where you live, work and study.",
+    "hi": "नियमित -er क्रियाओं (parler, habiter, travailler, aimer, étudier) का वर्तमान काल बनाना, और बताना कि आप कौन-सी भाषाएँ बोलते हैं, कहाँ रहते, काम करते और पढ़ते हैं।"
+  },
+  "prerequisites": {
+    "days": [3, 4, 8],
+    "summary": { "en": "j'habite à (Day 3), all subject pronouns (Day 4), le/la/les and des (Days 6 and 8).", "hi": "j'habite à (दिन 3), सारे कर्ता सर्वनाम (दिन 4), le/la/les और des (दिन 6 और 8)।" }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "parler", "en": "to speak", "hi": "बोलना", "pron": "पाग़-ले", "ipa": "paʁle", "pos": "verb" },
+    { "fr": "habiter", "en": "to live (somewhere)", "hi": "रहना (कहीं)", "pron": "आ-बी-ते", "ipa": "abite", "pos": "verb" },
+    { "fr": "travailler", "en": "to work", "hi": "काम करना", "pron": "त्ग़ा-वा-ये", "ipa": "tʁavaje", "pos": "verb", "note": { "en": "'ill' = य: je travaille = झ़ö त्ग़ा-वाय.", "hi": "'ill' = य: je travaille = झ़ö त्ग़ा-वाय।" } },
+    { "fr": "aimer", "en": "to like / to love", "hi": "पसंद करना / प्यार करना", "pron": "ए-मे", "ipa": "eme", "pos": "verb" },
+    { "fr": "étudier", "en": "to study", "hi": "पढ़ाई करना", "pron": "ए-तü-द्ये", "ipa": "etydje", "pos": "verb" },
+    { "fr": "la langue", "en": "language (also: tongue)", "hi": "भाषा (और: जीभ)", "pron": "ला लाँग", "ipa": "la lɑ̃ɡ", "pos": "noun", "gender": "f", "lemma": "langue" },
+    { "fr": "le français", "en": "French (the language)", "hi": "फ़्रेंच भाषा", "pron": "लö फ़्ग़ाँ-सै", "ipa": "lə fʁɑ̃sɛ", "pos": "noun", "gender": "m", "lemma": "français", "note": { "en": "All language names are masculine and take a small letter.", "hi": "सभी भाषाओं के नाम पुल्लिंग हैं और छोटे अक्षर से लिखे जाते हैं।" } },
+    { "fr": "l'anglais", "en": "English (the language)", "hi": "अंग्रेज़ी भाषा", "pron": "लाँ-ग्लै", "ipa": "lɑ̃ɡlɛ", "pos": "noun", "gender": "m", "lemma": "anglais" },
+    { "fr": "l'hindi", "en": "Hindi", "hi": "हिंदी भाषा", "pron": "लिन-दी", "ipa": "lindi", "pos": "noun", "gender": "m", "lemma": "hindi", "note": { "en": "Silent h, so l'hindi.", "hi": "h नहीं बोला जाता, इसलिए l'hindi।" } },
+    { "fr": "l'espagnol", "en": "Spanish", "hi": "स्पैनिश भाषा", "pron": "लैस-पा-न्योल", "ipa": "lɛspaɲɔl", "pos": "noun", "gender": "m", "lemma": "espagnol" },
+    { "fr": "le restaurant", "en": "restaurant", "hi": "रेस्टोरेंट", "pron": "लö ग़ैस-तो-ग़ाँ", "ipa": "lə ʁɛstɔʁɑ̃", "pos": "noun", "gender": "m", "lemma": "restaurant" },
+    { "fr": "le magasin", "en": "shop, store", "hi": "दुकान", "pron": "लö मा-गा-ज़ैँ", "ipa": "lə maɡazɛ̃", "pos": "noun", "gender": "m", "lemma": "magasin", "note": { "en": "Masculine in French; दुकान is feminine in Hindi.", "hi": "फ़्रेंच में पुल्लिंग; हिंदी में 'दुकान' स्त्रीलिंग है।" } },
+    { "fr": "l'usine", "en": "factory", "hi": "कारख़ाना / फ़ैक्ट्री", "pron": "लü-ज़ीन", "ipa": "lyzin", "pos": "noun", "gender": "f", "lemma": "usine" },
+    { "fr": "l'université", "en": "university", "hi": "विश्वविद्यालय / यूनिवर्सिटी", "pron": "लü-नी-वैग़-सी-ते", "ipa": "lynivɛʁsite", "pos": "noun", "gender": "f", "lemma": "université" }
+  ],
+  "phrases": [
+    { "fr": "Tu parles quelles langues ?", "en": "Which languages do you speak?", "hi": "तुम कौन-सी भाषाएँ बोलते हो?", "pron": "तü पाग़्ल कैल लाँग", "ipa": "ty paʁl kɛl lɑ̃ɡ" },
+    { "fr": "Je parle hindi, anglais et un peu français.", "en": "I speak Hindi, English and a little French.", "hi": "मैं हिंदी, अंग्रेज़ी और थोड़ी फ़्रेंच बोलता/बोलती हूँ।", "pron": "झ़ö पाग़्ल इन-दी आँ-ग्लै ए ऐँ पö फ़्ग़ाँ-सै", "ipa": "ʒə paʁl indi ɑ̃ɡlɛ e ɛ̃ pø fʁɑ̃sɛ" },
+    { "fr": "À la maison, nous parlons hindi.", "en": "At home, we speak Hindi.", "hi": "घर पर हम हिंदी बोलते हैं।", "pron": "आ ला मै-ज़ोँ नू पाग़-लोँ इन-दी", "ipa": "a la mɛzɔ̃ nu paʁlɔ̃ indi" },
+    { "fr": "Je travaille dans un magasin.", "en": "I work in a shop.", "hi": "मैं एक दुकान में काम करता/करती हूँ।", "pron": "झ़ö त्ग़ा-वाय दाँ ज़ैँ मा-गा-ज़ैँ", "ipa": "ʒə tʁavaj dɑ̃ zɛ̃ maɡazɛ̃" },
+    { "fr": "J'étudie le français.", "en": "I study French. / I'm studying French.", "hi": "मैं फ़्रेंच पढ़ रहा/रही हूँ।", "pron": "झ़े-तü-दी लö फ़्ग़ाँ-सै", "ipa": "ʒetydi lə fʁɑ̃sɛ" },
+    { "fr": "Vous travaillez où ?", "en": "Where do you work?", "hi": "आप कहाँ काम करते हैं?", "pron": "वू त्ग़ा-वा-ये ऊ", "ipa": "vu tʁavaje u" }
+  ],
+  "grammar": {
+    "title": { "en": "Present tense of regular -er verbs", "hi": "नियमित -er क्रियाओं का वर्तमान काल" },
+    "explanation": {
+      "en": "Most French verbs end in -er. Remove -er and add: je -e, tu -es, il/elle/on -e, nous -ons, vous -ez, ils/elles -ent. parler → je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent. Good news: parle, parles and parlent sound exactly the same (पाग़्ल); only nous (-ons, ओँ) and vous (-ez, ए) sound different. Before a vowel or silent h, je → j': j'habite, j'aime, j'étudie. With languages: 'je parle français' (no article is usual), but 'j'aime le français' (article after aimer).",
+      "hi": "ज़्यादातर फ़्रेंच क्रियाएँ -er पर ख़त्म होती हैं। -er हटाइए और जोड़िए: je -e, tu -es, il/elle/on -e, nous -ons, vous -ez, ils/elles -ent। parler → je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent। अच्छी ख़बर: parle, parles और parlent बिल्कुल एक जैसे बोले जाते हैं (पाग़्ल); सिर्फ़ nous (-ons, ओँ) और vous (-ez, ए) अलग सुनाई देते हैं। स्वर या मौन h से पहले je → j': j'habite, j'aime, j'étudie। भाषाओं के साथ: 'je parle français' (आम तौर पर उपपद नहीं), पर 'j'aime le français' (aimer के बाद उपपद)।"
+    },
+    "comparison": {
+      "en": "One French present = two English and Hindi tenses: 'je travaille' = I work / I am working = मैं काम करता हूँ / मैं काम कर रहा हूँ. Never add être: 'je suis travaille' is wrong. Also, Hindi verbs change for gender (बोलता / बोलती); French verbs don't — je parle is the same for a man and a woman.",
+      "hi": "फ़्रेंच का एक वर्तमान काल = अंग्रेज़ी और हिंदी के दो काल: 'je travaille' = मैं काम करता हूँ / मैं काम कर रहा हूँ। être मत जोड़िए: 'je suis travaille' गलत है। साथ ही, हिंदी क्रिया लिंग से बदलती है (बोलता / बोलती); फ़्रेंच क्रिया नहीं — je parle पुरुष और स्त्री दोनों के लिए एक-सा है।"
+    },
+    "examples": [
+      { "fr": "Je parle hindi et anglais.", "en": "I speak Hindi and English.", "hi": "मैं हिंदी और अंग्रेज़ी बोलता/बोलती हूँ।", "pron": "झ़ö पाग़्ल इन-दी ए आँ-ग्लै" },
+      { "fr": "Tu habites à Gatineau ?", "en": "Do you live in Gatineau?", "hi": "क्या तुम गैटिनो में रहते हो?", "pron": "तü आ-बीत आ गा-ती-नो" },
+      { "fr": "Elle travaille dans un restaurant.", "en": "She works in a restaurant.", "hi": "वह एक रेस्टोरेंट में काम करती है।", "pron": "ऐल त्ग़ा-वाय दाँ ज़ैँ ग़ैस-तो-ग़ाँ" },
+      { "fr": "Nous étudions à l'université.", "en": "We study at the university.", "hi": "हम यूनिवर्सिटी में पढ़ते हैं।", "pron": "नू ज़े-तü-द्योँ आ लü-नी-वैग़-सी-ते" },
+      { "fr": "Vous aimez le français ?", "en": "Do you like French?", "hi": "क्या आपको फ़्रेंच पसंद है?", "pron": "वू ज़े-मे लö फ़्ग़ाँ-सै" },
+      { "fr": "Ils parlent espagnol.", "en": "They speak Spanish.", "hi": "वे स्पैनिश बोलते हैं।", "pron": "ईल पाग़्ल तैस-पा-न्योल", "note": { "en": "-ent is silent. Here the t links to espagnol.", "hi": "-ent नहीं बोला जाता। यहाँ t, espagnol से जुड़ता है।" } }
+    ],
+    "pitfalls": [
+      { "en": "Never pronounce -ent in ils parlent: it is पाग़्ल, not 'parlant'.", "hi": "ils parlent में -ent कभी मत बोलिए: यह पाग़्ल है, 'पाग़्लाँ' नहीं।" },
+      { "en": "Don't add être for '-ing': 'je travaille' already means 'I am working'.", "hi": "'-ing' के लिए être मत जोड़िए: 'je travaille' का मतलब पहले से 'मैं काम कर रहा हूँ' है।" },
+      { "en": "Write je → j' before a vowel or h: j'aime, j'habite (but je travaille, je parle).", "hi": "स्वर या h से पहले je → j': j'aime, j'habite (पर je travaille, je parle)।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Silent -e / -es / -ent endings: ils parlent",
+    "tip": {
+      "en": "In -er verbs, the endings -e, -es and -ent are all silent. So je parle, tu parles, il parle and ils parlent all sound like पाग़्ल. You hear the person from the pronoun, not the verb. Only -ons (ओँ) and -ez (ए) are heard.",
+      "hi": "-er क्रियाओं में -e, -es और -ent तीनों अंत चुप होते हैं। इसलिए je parle, tu parles, il parle और ils parlent सब 'पाग़्ल' जैसे सुनाई देते हैं। कौन है, यह सर्वनाम से पता चलता है, क्रिया से नहीं। सिर्फ़ -ons (ओँ) और -ez (ए) सुनाई देते हैं।"
+    },
+    "words": [
+      { "fr": "je parle", "en": "I speak", "hi": "मैं बोलता/बोलती हूँ", "pron": "झ़ö पाग़्ल", "ipa": "ʒə paʁl" },
+      { "fr": "tu parles", "en": "you speak", "hi": "तुम बोलते हो", "pron": "तü पाग़्ल", "ipa": "ty paʁl" },
+      { "fr": "ils parlent", "en": "they speak", "hi": "वे बोलते हैं", "pron": "ईल पाग़्ल", "ipa": "il paʁl" },
+      { "fr": "nous parlons", "en": "we speak", "hi": "हम बोलते हैं", "pron": "नू पाग़-लोँ", "ipa": "nu paʁlɔ̃" },
+      { "fr": "vous parlez", "en": "you speak (polite/plural)", "hi": "आप बोलते हैं", "pron": "वू पाग़-ले", "ipa": "vu paʁle" },
+      { "fr": "elles travaillent", "en": "they (f) work", "hi": "वे (स्त्रियाँ) काम करती हैं", "pron": "ऐल त्ग़ा-वाय", "ipa": "ɛl tʁavaj" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Les langues à la maison", "en": "Languages at home" },
+    "type": "dialogue",
+    "mode": "pedagogical",
+    "context": { "en": "Julie and Amit are friends in Ottawa. Julie asks Amit which languages his family speaks.", "hi": "जूली और अमित ओटावा में दोस्त हैं। जूली अमित से पूछती है कि उसका परिवार कौन-सी भाषाएँ बोलता है।" },
+    "lines": [
+      { "speaker": "Julie", "voice": "f2", "fr": "Amit, tu parles hindi à la maison ?", "en": "Amit, do you speak Hindi at home?", "hi": "अमित, क्या तुम घर पर हिंदी बोलते हो?" },
+      { "speaker": "Amit", "voice": "m1", "fr": "Oui, à la maison, nous parlons hindi et anglais.", "en": "Yes, at home we speak Hindi and English.", "hi": "हाँ, घर पर हम हिंदी और अंग्रेज़ी बोलते हैं।" },
+      { "speaker": "Julie", "voice": "f2", "fr": "Et les enfants ?", "en": "And the children?", "hi": "और बच्चे?" },
+      { "speaker": "Amit", "voice": "m1", "fr": "Les enfants parlent anglais et français. Ils étudient en français à l'école.", "en": "The children speak English and French. They study in French at school.", "hi": "बच्चे अंग्रेज़ी और फ़्रेंच बोलते हैं। वे स्कूल में फ़्रेंच में पढ़ते हैं।" },
+      { "speaker": "Julie", "voice": "f2", "fr": "Super ! Et toi, tu travailles en français ?", "en": "Great! And you, do you work in French?", "hi": "बढ़िया! और तुम, क्या तुम फ़्रेंच में काम करते हो?" },
+      { "speaker": "Amit", "voice": "m1", "fr": "Non, je travaille en anglais, dans un magasin. Mais j'étudie le français à l'université.", "en": "No, I work in English, in a shop. But I'm studying French at the university.", "hi": "नहीं, मैं अंग्रेज़ी में काम करता हूँ, एक दुकान में। पर मैं यूनिवर्सिटी में फ़्रेंच पढ़ रहा हूँ।" },
+      { "speaker": "Julie", "voice": "f2", "fr": "Moi, je parle français et un peu espagnol. J'aime les langues !", "en": "I speak French and a little Spanish. I love languages!", "hi": "मैं फ़्रेंच और थोड़ी स्पैनिश बोलती हूँ। मुझे भाषाएँ पसंद हैं!" },
+      { "speaker": "Amit", "voice": "m1", "fr": "Moi aussi, j'aime les langues !", "en": "Me too, I love languages!", "hi": "मुझे भी भाषाएँ पसंद हैं!" }
+    ],
+    "questions": [
+      { "q": { "en": "Which languages does Amit's family speak at home?" }, "options": ["Hindi and English", "French and English", "Hindi and French"], "answer": 0, "explanation": { "en": "'à la maison, nous parlons hindi et anglais'.", "hi": "'à la maison, nous parlons hindi et anglais' — हिंदी और अंग्रेज़ी।" }, "kind": "literal", "evidence": "à la maison, nous parlons hindi et anglais" },
+      { "q": { "en": "Which languages do the children speak?" }, "options": ["Hindi and English", "English and French", "French and Spanish"], "answer": 1, "explanation": { "en": "'Les enfants parlent anglais et français.'", "hi": "'Les enfants parlent anglais et français.' — अंग्रेज़ी और फ़्रेंच।" }, "kind": "literal", "evidence": "Les enfants parlent anglais et français." },
+      { "q": { "en": "Where does Amit work?" }, "options": ["In a school", "At the university", "In a shop"], "answer": 2, "explanation": { "en": "'je travaille en anglais, dans un magasin'.", "hi": "'je travaille en anglais, dans un magasin' — एक दुकान में।" }, "kind": "literal", "evidence": "je travaille en anglais, dans un magasin" },
+      { "q": { "en": "Where does Amit study French?" }, "options": ["At the university", "At home", "At work"], "answer": 0, "explanation": { "en": "'j'étudie le français à l'université'.", "hi": "'j'étudie le français à l'université' — यूनिवर्सिटी में।" }, "kind": "literal", "evidence": "Mais j'étudie le français à l'université." },
+      { "q": { "en": "Which languages does Julie speak?" }, "options": ["French and Hindi", "French and a little Spanish", "Only English"], "answer": 1, "explanation": { "en": "'je parle français et un peu espagnol'.", "hi": "'je parle français et un peu espagnol' — फ़्रेंच और थोड़ी स्पैनिश।" }, "kind": "literal", "evidence": "je parle français et un peu espagnol" }
+    ],
+    "dictation": ["Nous parlons hindi et anglais.", "Je travaille dans un magasin.", "J'aime les langues !"],
+    "gapFill": { "text": "Les enfants ___ anglais et français. … Non, je ___ en anglais, dans un magasin.", "answers": ["parlent", "travaille"] }
+  },
+  "speaking": {
+    "type": "repeat",
+    "instructions": {
+      "en": "Repeat each model, then answer for yourself: which languages you speak, where you live, where you work or study.",
+      "hi": "हर मॉडल दोहराइए, फिर अपने लिए जवाब दीजिए: आप कौन-सी भाषाएँ बोलते हैं, कहाँ रहते हैं, कहाँ काम करते या पढ़ते हैं।"
+    },
+    "prompts": [
+      { "fr": "Je parle hindi, anglais et un peu français.", "en": "I speak Hindi, English and a little French.", "hi": "मैं हिंदी, अंग्रेज़ी और थोड़ी फ़्रेंच बोलता/बोलती हूँ।", "pron": "झ़ö पाग़्ल इन-दी आँ-ग्लै ए ऐँ पö फ़्ग़ाँ-सै" },
+      { "fr": "J'habite à … .", "en": "I live in … .", "hi": "मैं … में रहता/रहती हूँ।", "pron": "झ़ा-बीत आ", "model": "J'habite à Brampton." },
+      { "fr": "Je travaille dans un restaurant / une usine / un bureau.", "en": "I work in a restaurant / a factory / an office.", "hi": "मैं एक रेस्टोरेंट / फ़ैक्ट्री / दफ़्तर में काम करता/करती हूँ।", "pron": "झ़ö त्ग़ा-वाय दाँ ज़ैँ ग़ैस-तो-ग़ाँ / ज़üन नü-ज़ीन / ज़ैँ बü-ग़ो" },
+      { "fr": "J'étudie le français.", "en": "I'm studying French.", "hi": "मैं फ़्रेंच पढ़ रहा/रही हूँ।", "pron": "झ़े-तü-दी लö फ़्ग़ाँ-सै" },
+      { "fr": "Et vous, vous parlez quelles langues ?", "en": "And you, which languages do you speak?", "hi": "और आप, आप कौन-सी भाषाएँ बोलते हैं?", "pron": "ए वू वू पाग़-ले कैल लाँग" }
+    ],
+    "tip": {
+      "en": "Make 'je parle' and 'ils parlent' sound identical. If you hear yourself saying 'parlent' with -ant, stop and cut the ending.",
+      "hi": "'je parle' और 'ils parlent' को बिल्कुल एक जैसा बोलिए। अगर आप 'parlent' में '-आँ' बोल रहे हैं, तो रुकिए और अंत काट दीजिए।"
+    }
+  },
+  "reading": {
+    "genre": "advertisement",
+    "title": "Échange linguistique",
+    "text": "ÉCHANGE LINGUISTIQUE\nBonjour ! Je m'appelle Sophie. J'ai dix-neuf ans et j'habite à Québec. Je parle français et j'étudie l'hindi à l'université.\nVous parlez hindi ? Vous étudiez le français ? On parle ensemble au café !\nContact : sophie.r@exemple.ca",
+    "translation": {
+      "en": "LANGUAGE EXCHANGE\nHello! My name is Sophie. I'm nineteen and I live in Québec City. I speak French and I'm studying Hindi at the university.\nDo you speak Hindi? Are you studying French? Let's talk together at a café!\nContact: sophie.r@exemple.ca",
+      "hi": "भाषा का आदान-प्रदान\nनमस्ते! मेरा नाम सोफ़ी है। मैं उन्नीस साल की हूँ और क्यूबेक शहर में रहती हूँ। मैं फ़्रेंच बोलती हूँ और यूनिवर्सिटी में हिंदी पढ़ रही हूँ।\nक्या आप हिंदी बोलते हैं? क्या आप फ़्रेंच पढ़ रहे हैं? चलिए, कैफ़े में साथ बात करते हैं!\nसंपर्क: sophie.r@exemple.ca"
+    },
+    "questions": [
+      { "q": { "en": "What is Sophie studying?" }, "options": ["French", "Hindi", "Spanish"], "answer": 1, "explanation": { "en": "'j'étudie l'hindi à l'université'.", "hi": "'j'étudie l'hindi à l'université' — हिंदी।" }, "kind": "literal", "evidence": "j'étudie l'hindi à l'université" },
+      { "q": { "en": "Who is the ad for?" }, "options": ["Hindi speakers who study French", "French teachers", "Students in Spain"], "answer": 0, "explanation": { "en": "'Vous parlez hindi ? Vous étudiez le français ?'", "hi": "'Vous parlez hindi ? Vous étudiez le français ?' — हिंदी बोलने वाले जो फ़्रेंच पढ़ते हैं।" }, "kind": "inference", "evidence": "Vous parlez hindi ? Vous étudiez le français ?" },
+      { "q": { "en": "Where does Sophie want to meet?" }, "options": ["At the university", "At a café", "At her home"], "answer": 1, "explanation": { "en": "'On parle ensemble au café !'", "hi": "'On parle ensemble au café !' — कैफ़े में।" }, "kind": "literal", "evidence": "On parle ensemble au café !" },
+      { "q": { "en": "How old is Sophie?" }, "options": ["Nine", "Nineteen", "Ninety"], "answer": 1, "explanation": { "en": "'J'ai dix-neuf ans' = 19.", "hi": "'J'ai dix-neuf ans' = 19।" }, "kind": "literal", "evidence": "J'ai dix-neuf ans" }
+    ]
+  },
+  "writing": {
+    "type": "sentences",
+    "prompt": {
+      "en": "Write 5 sentences about yourself with -er verbs: parler, habiter, travailler or étudier, and aimer.",
+      "hi": "-er क्रियाओं के साथ अपने बारे में 5 वाक्य लिखिए: parler, habiter, travailler या étudier, और aimer।"
+    },
+    "minWords": 20,
+    "maxWords": 50,
+    "hints": [
+      { "en": "Use a different verb in each sentence.", "hi": "हर वाक्य में अलग क्रिया इस्तेमाल कीजिए।" },
+      { "en": "parler + language with no article; aimer + le/la/les.", "hi": "parler + भाषा, बिना उपपद; aimer + le/la/les।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Je parle …", "en": "I speak …", "hi": "मैं … बोलता/बोलती हूँ", "pron": "झ़ö पाग़्ल" },
+      { "fr": "Je travaille dans …", "en": "I work in …", "hi": "मैं … में काम करता/करती हूँ", "pron": "झ़ö त्ग़ा-वाय दाँ" },
+      { "fr": "J'aime le / la / les …", "en": "I like …", "hi": "मुझे … पसंद है", "pron": "झ़ैम लö / ला / ले" }
+    ],
+    "model": { "fr": "Je m'appelle Priya. Je parle hindi, anglais et un peu français. J'habite à Montréal avec ma famille. Je travaille dans un bureau et j'étudie le français à l'université. J'aime les langues !", "en": "My name is Priya. I speak Hindi, English and a little French. I live in Montréal with my family. I work in an office and I study French at the university. I love languages!" },
+    "checklist": [
+      { "en": "Did you write j' before a vowel (j'habite, j'aime, j'étudie)?", "hi": "क्या स्वर से पहले j' लिखा (j'habite, j'aime, j'étudie)?" },
+      { "en": "Are language names in small letters?", "hi": "क्या भाषाओं के नाम छोटे अक्षरों में हैं?" },
+      { "en": "Does each verb ending match its pronoun?", "hi": "क्या हर क्रिया का अंत उसके सर्वनाम से मेल खाता है?" }
+    ]
+  },
+  "review": {
+    "fromDays": [3, 4, 6, 8],
+    "items": [
+      { "fr": "Je viens de Pune.", "en": "I'm from Pune.", "hi": "मैं पुणे से हूँ।", "pron": "झ़ö व्यैँ दö पु-ने" },
+      { "fr": "Nous sommes contents.", "en": "We are happy.", "hi": "हम ख़ुश हैं।", "pron": "नू सॉम कोँ-ताँ" },
+      { "fr": "Il y a des étudiants.", "en": "There are students.", "hi": "विद्यार्थी हैं।", "pron": "ई-ल्या दे ज़े-तü-द्याँ" },
+      { "fr": "C'est un bureau.", "en": "It's an office / a desk.", "hi": "यह एक दफ़्तर / डेस्क है।", "pron": "सै तैँ बü-ग़ो" },
+      { "fr": "Ce sont des amis.", "en": "They are friends.", "hi": "वे दोस्त हैं।", "pron": "सö सोँ दे ज़ा-मी" },
+      { "fr": "le professeur / la professeure", "en": "the teacher", "hi": "शिक्षक / शिक्षिका", "pron": "लö / ला प्ग़ो-फ़ै-सöग़" }
+    ]
+  },
+  "assessment": [
+    { "type": "fill", "prompt": { "en": "Complete with parler: We speak French.", "hi": "parler से पूरा कीजिए: हम फ़्रेंच बोलते हैं।" }, "sentence": "Nous ___ français.", "answer": "parlons", "accept": [], "explanation": { "en": "nous → -ons: parlons.", "hi": "nous → -ons: parlons।" } },
+    { "type": "fill", "prompt": { "en": "Complete with aimer: She likes languages.", "hi": "aimer से पूरा कीजिए: उसे भाषाएँ पसंद हैं।" }, "sentence": "Elle ___ les langues.", "answer": "aime", "accept": [], "explanation": { "en": "elle → -e: aime.", "hi": "elle → -e: aime।" } },
+    { "type": "mcq", "prompt": { "en": "Which is correct?", "hi": "कौन-सा सही है?" }, "options": ["Je habite à Toronto.", "J'habite à Toronto.", "Je suis habite à Toronto."], "answer": 1, "explanation": { "en": "je → j' before a silent h; no être.", "hi": "मौन h से पहले je → j'; être नहीं।" } },
+    { "type": "mcq", "prompt": { "en": "How is 'ils travaillent' pronounced?", "hi": "'ils travaillent' कैसे बोला जाता है?" }, "options": ["ईल त्ग़ा-वाय", "ईल त्ग़ा-वा-याँ", "ईल त्ग़ा-वा-ये"], "answer": 0, "explanation": { "en": "-ent is silent: same sound as il travaille.", "hi": "-ent नहीं बोला जाता: il travaille जैसी ही आवाज़।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "I work in a restaurant.", "hi": "मैं एक रेस्टोरेंट में काम करता हूँ।" }, "answer": "Je travaille dans un restaurant.", "accept": ["Je travaille dans un restaurant", "je travaille dans un restaurant."], "explanation": { "en": "travailler dans + un/une + place.", "hi": "travailler dans + un/une + जगह।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: Do you speak English? (polite)", "hi": "शब्दों को सही क्रम में रखिए: क्या आप अंग्रेज़ी बोलते हैं?" }, "words": ["anglais", "Vous", "parlez", "?"], "answer": "Vous parlez anglais ?", "explanation": { "en": "Vous + parlez + language; the voice rises for a question.", "hi": "Vous + parlez + भाषा; प्रश्न में आवाज़ ऊपर जाती है।" } },
+    { "type": "mcq", "prompt": { "en": "'Je travaille' can mean…", "hi": "'Je travaille' का मतलब हो सकता है…" }, "options": ["only 'I work'", "'I work' or 'I am working'", "'I worked'"], "answer": 1, "explanation": { "en": "The French present covers both.", "hi": "फ़्रेंच वर्तमान काल दोनों अर्थ देता है।" } }
+  ]
+}

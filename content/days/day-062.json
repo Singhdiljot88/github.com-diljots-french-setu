@@ -1,0 +1,200 @@
+{
+  "day": 62,
+  "phase": 4,
+  "title": { "fr": "Donner des raisons", "en": "Giving reasons", "hi": "कारण बताना" },
+  "objective": {
+    "en": "Explain why you did or chose something with parce que, car, puisque, comme, grâce à and à cause de, and choose the right word for a positive or negative cause.",
+    "hi": "parce que, car, puisque, comme, grâce à और à cause de से समझाना कि आपने कुछ क्यों किया या चुना, और अच्छे या बुरे कारण के लिए सही शब्द चुनना।"
+  },
+  "prerequisites": {
+    "days": [44, 46, 54, 61],
+    "summary": {
+      "en": "You can give an opinion (Day 61), tell past events with avoir and être, and describe the past with the imparfait. Today you add the 'why'.",
+      "hi": "आप राय दे सकते हैं (दिन 61), avoir और être के साथ बीती घटनाएँ बता सकते हैं और imparfait से अतीत का वर्णन कर सकते हैं। आज आप 'क्यों' जोड़ेंगे।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "la raison", "en": "reason", "hi": "कारण, वजह", "pron": "ला ग़ै-ज़ोँ", "ipa": "la ʁɛzɔ̃", "pos": "noun", "gender": "f", "lemma": "raison", "note": { "en": "Also in 'avoir raison' (to be right).", "hi": "'avoir raison' (सही होना) में भी आता है।" } },
+    { "fr": "expliquer", "en": "to explain", "hi": "समझाना", "pron": "ऐक्स-प्ली-के", "ipa": "ɛksplike", "pos": "verb" },
+    { "fr": "le choix", "en": "choice", "hi": "चुनाव, विकल्प", "pron": "लö श्वा", "ipa": "lə ʃwa", "pos": "noun", "gender": "m", "lemma": "choix", "note": { "en": "Silent x. Same form in the plural: les choix.", "hi": "x नहीं बोला जाता। बहुवचन में भी वही रूप: les choix।" } },
+    { "fr": "choisir", "en": "to choose", "hi": "चुनना", "pron": "श्वा-ज़ीग़", "ipa": "ʃwaziʁ", "pos": "verb", "note": { "en": "Like finir: je choisis, nous choisissons; past participle choisi.", "hi": "finir की तरह: je choisis, nous choisissons; past participle choisi।" } },
+    { "fr": "décider", "en": "to decide", "hi": "तय करना, फ़ैसला करना", "pron": "दे-सी-दे", "ipa": "deside", "pos": "verb", "note": { "en": "décider de + infinitive: J'ai décidé de partir.", "hi": "décider de + infinitive: J'ai décidé de partir (मैंने जाने का फ़ैसला किया)।" } },
+    { "fr": "la décision", "en": "decision", "hi": "फ़ैसला, निर्णय", "pron": "ला दे-सी-ज़्योँ", "ipa": "la desizjɔ̃", "pos": "noun", "gender": "f", "lemma": "décision", "note": { "en": "In French you 'take' a decision: prendre une décision.", "hi": "फ़्रेंच में फ़ैसला 'लिया' जाता है: prendre une décision — हिंदी की तरह ही।" } },
+    { "fr": "le loyer", "en": "rent", "hi": "किराया (मकान का)", "pron": "लö ल्वा-ये", "ipa": "lə lwaje", "pos": "noun", "gender": "m", "lemma": "loyer" },
+    { "fr": "augmenter", "en": "to increase, to go up", "hi": "बढ़ना, बढ़ाना", "pron": "ओग-माँ-ते", "ipa": "ɔɡmɑ̃te", "pos": "verb" },
+    { "fr": "parce que", "en": "because", "hi": "क्योंकि", "pron": "पाग़स्-कö", "ipa": "paʁskə", "pos": "conjunction", "note": { "en": "Becomes parce qu' before a vowel: parce qu'il, parce qu'on.", "hi": "स्वर से पहले parce qu' बनता है: parce qu'il, parce qu'on।" } },
+    { "fr": "car", "en": "because, for (more formal)", "hi": "क्योंकि (औपचारिक)", "pron": "काग़", "ipa": "kaʁ", "pos": "conjunction", "note": { "en": "Common in writing. Never at the very start of a sentence.", "hi": "लिखित भाषा में आम है। वाक्य की बिल्कुल शुरुआत में कभी नहीं आता।" } },
+    { "fr": "puisque", "en": "since (as we both know)", "hi": "चूँकि, जब … ही है तो", "pron": "प्üइस्-कö", "ipa": "pɥiskə", "pos": "conjunction" },
+    { "fr": "grâce à", "en": "thanks to", "hi": "की बदौलत, की मदद से", "pron": "ग्ग़ास आ", "ipa": "ɡʁas a", "pos": "preposition", "note": { "en": "For a positive cause. Followed by a noun or pronoun: grâce à toi.", "hi": "अच्छे कारण के लिए। इसके बाद संज्ञा या सर्वनाम आता है: grâce à toi।" } },
+    { "fr": "à cause de", "en": "because of", "hi": "की वजह से", "pron": "आ कोज़ दö", "ipa": "a koz də", "pos": "preposition", "note": { "en": "Usually for a negative cause. de + le = du, de + les = des: à cause du froid, à cause des travaux.", "hi": "आम तौर पर बुरे कारण के लिए। de + le = du, de + les = des: à cause du froid, à cause des travaux।" } }
+  ],
+  "phrases": [
+    { "fr": "Pourquoi tu as choisi cette ville ?", "en": "Why did you choose this city?", "hi": "तुमने यह शहर क्यों चुना?", "pron": "पूग़-क्वा तü आ श्वा-ज़ी सैत वील" },
+    { "fr": "Parce que c'est moins cher.", "en": "Because it's cheaper.", "hi": "क्योंकि यह सस्ता है।", "pron": "पाग़स्-कö सै म्वैँ शैग़" },
+    { "fr": "C'est pour ça que j'ai déménagé.", "en": "That's why I moved.", "hi": "इसीलिए मैंने घर बदला।", "pron": "सै पूग़ सा कö झ़े दे-मे-ना-झ़े" },
+    { "fr": "Comme il pleuvait, je suis resté à la maison.", "en": "As it was raining, I stayed home.", "hi": "चूँकि बारिश हो रही थी, मैं घर पर ही रहा।", "pron": "कॉम ईल प्लö-वै झ़ö स्üई ग़ैस-ते आ ला मै-ज़ोँ" },
+    { "fr": "Grâce à toi, j'ai trouvé un travail.", "en": "Thanks to you, I found a job.", "hi": "तुम्हारी बदौलत मुझे नौकरी मिली।", "pron": "ग्ग़ास आ त्वा झ़े त्ग़ू-वे ऐँ त्ग़ा-वाय" },
+    { "fr": "Le bus est en retard à cause de la neige.", "en": "The bus is late because of the snow.", "hi": "बर्फ़ की वजह से बस देर से है।", "pron": "लö बüस ऐ ताँ ग़ö-ताग़ आ कोज़ दö ला नैझ़" },
+    { "fr": "Pour quelle raison ?", "en": "For what reason?", "hi": "किस वजह से?", "pron": "पूग़ कैल ग़ै-ज़ोँ" }
+  ],
+  "grammar": {
+    "title": { "en": "Expressing cause: parce que, car, puisque, comme, grâce à, à cause de", "hi": "कारण बताना: parce que, car, puisque, comme, grâce à, à cause de" },
+    "explanation": {
+      "en": "Four words are followed by a full sentence (subject + verb). Parce que is the everyday answer to pourquoi, and can start a spoken answer. Car means the same but is more formal and comes only in the middle: Je reste ici, car je suis malade. Puisque gives a reason the listener already knows: Puisque tu es là, aide-moi ! Comme gives the reason at the START of the sentence: Comme il neigeait, j'ai pris le métro. Two expressions are followed by a noun: grâce à (positive result, 'thanks to') and à cause de (usually a problem, 'because of'). Remember the contractions: à cause du bruit, grâce au métro, à cause des travaux.",
+      "hi": "चार शब्दों के बाद पूरा वाक्य (कर्ता + क्रिया) आता है। Parce que 'pourquoi' का रोज़मर्रा का जवाब है और बोलचाल में जवाब की शुरुआत में भी आ सकता है। Car का मतलब वही है, पर यह औपचारिक है और सिर्फ़ वाक्य के बीच में आता है: Je reste ici, car je suis malade। Puisque ऐसा कारण बताता है जो सुनने वाला पहले से जानता है: Puisque tu es là, aide-moi ! (जब तुम यहाँ हो ही, तो मेरी मदद करो!)। Comme कारण को वाक्य की शुरुआत में रखता है: Comme il neigeait, j'ai pris le métro। दो अभिव्यक्तियों के बाद संज्ञा आती है: grâce à (अच्छा नतीजा, 'की बदौलत') और à cause de (आम तौर पर कोई समस्या, 'की वजह से')। संक्षिप्त रूप याद रखिए: à cause du bruit, grâce au métro, à cause des travaux।"
+    },
+    "comparison": {
+      "en": "English works the same way: 'because' + sentence (parce que) vs 'because of' + noun (à cause de). Hindi क्योंकि ≈ parce que / car, 'की वजह से' ≈ à cause de, and 'की बदौलत' ≈ grâce à. In Hindi, 'की वजह से' can be positive or negative; in French, à cause de sounds negative, so for good news use grâce à.",
+      "hi": "अंग्रेज़ी भी ऐसे ही चलती है: 'because' + वाक्य (parce que) और 'because of' + संज्ञा (à cause de)। हिंदी में क्योंकि ≈ parce que / car, 'की वजह से' ≈ à cause de, और 'की बदौलत' ≈ grâce à। हिंदी में 'की वजह से' अच्छे और बुरे दोनों कारणों के लिए चलता है; फ़्रेंच में à cause de नकारात्मक लगता है, इसलिए अच्छी ख़बर के लिए grâce à बोलिए।"
+    },
+    "examples": [
+      { "fr": "J'apprends le français parce que je veux vivre au Québec.", "en": "I'm learning French because I want to live in Québec.", "hi": "मैं फ़्रेंच सीख रहा हूँ क्योंकि मैं क्यूबेक में रहना चाहता हूँ।", "pron": "झ़ा-प्ग़ाँ लö फ़्ग़ाँ-सै पाग़स्-कö झ़ö वö वी-व्ग़ ओ के-बैक" },
+      { "fr": "Je ne viendrai pas ce soir, car je travaille demain matin.", "en": "I won't come tonight, as I'm working tomorrow morning.", "hi": "मैं आज रात नहीं आऊँगा, क्योंकि कल सुबह मुझे काम पर जाना है।", "pron": "झ़ö नö व्यैँ-द्ग़े पा सö स्वाग़ काग़ झ़ö त्ग़ा-वाय दö-मैँ मा-तैँ" },
+      { "fr": "Puisque tu as une voiture, tu peux nous emmener ?", "en": "Since you have a car, can you take us?", "hi": "जब तुम्हारे पास गाड़ी है ही, तो क्या तुम हमें ले चल सकते हो?", "pron": "प्üइस्-कö तü आ üन व्वा-तüग़ तü पö नू ज़ाँम-ने" },
+      { "fr": "Comme il neigeait, j'ai pris le métro.", "en": "As it was snowing, I took the metro.", "hi": "चूँकि बर्फ़ गिर रही थी, मैंने मेट्रो ली।", "pron": "कॉम ईल नै-झ़ै झ़े प्ग़ी लö मे-त्ग़ो" },
+      { "fr": "Grâce au métro, j'arrive au bureau en vingt minutes.", "en": "Thanks to the metro, I get to the office in twenty minutes.", "hi": "मेट्रो की बदौलत मैं बीस मिनट में दफ़्तर पहुँच जाता हूँ।", "pron": "ग्ग़ास ओ मे-त्ग़ो झ़ा-ग़ीव ओ बü-ग़ो आँ वैँ मी-नüत" },
+      { "fr": "Le vol est annulé à cause de la tempête.", "en": "The flight is cancelled because of the storm.", "hi": "तूफ़ान की वजह से उड़ान रद्द हो गई है।", "pron": "लö वॉल ऐ ता-नü-ले आ कोज़ दö ला ताँ-पैत" }
+    ],
+    "pitfalls": [
+      { "en": "Don't use parce que before a noun: 'parce que la neige' is wrong. Say 'à cause de la neige'.", "hi": "संज्ञा से पहले parce que मत लगाइए: 'parce que la neige' ग़लत है। कहिए 'à cause de la neige'।" },
+      { "en": "Don't start a sentence with car. 'Car je suis fatigué.' alone is wrong; use parce que or comme.", "hi": "वाक्य car से शुरू मत कीजिए। अकेला 'Car je suis fatigué.' ग़लत है; parce que या comme इस्तेमाल कीजिए।" },
+      { "en": "Don't forget the contractions: 'à cause de le froid' → à cause du froid; 'grâce à le métro' → grâce au métro.", "hi": "संक्षिप्त रूप मत भूलिए: 'à cause de le froid' → à cause du froid; 'grâce à le métro' → grâce au métro।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "The rhythm of 'parce que' in speech",
+    "tip": {
+      "en": "In careful speech, parce que has two syllables: पाग़स्-कö. In fast everyday speech the r almost disappears and you hear पास्-क or even just पस्क. Recognise the short form when listening, but say the clear form in the exam. Link it to the next word: parce qu'on → पाग़स्-कोँ.",
+      "hi": "साफ़ बोलने में parce que के दो अक्षर होते हैं: पाग़स्-कö। तेज़ रोज़मर्रा की बोली में r लगभग गायब हो जाता है और 'पास्-क' या सिर्फ़ 'पस्क' सुनाई देता है। सुनते समय छोटा रूप पहचानिए, लेकिन परीक्षा में साफ़ रूप बोलिए। इसे अगले शब्द से जोड़िए: parce qu'on → पाग़स्-कोँ।"
+    },
+    "words": [
+      { "fr": "parce que", "en": "because", "hi": "क्योंकि", "pron": "पाग़स्-कö", "ipa": "paʁskə", "note": { "en": "Fast speech: पास्-क.", "hi": "तेज़ बोली में: पास्-क।" } },
+      { "fr": "parce qu'on", "en": "because we/one", "hi": "क्योंकि हम", "pron": "पाग़स्-कोँ", "ipa": "paʁskɔ̃" },
+      { "fr": "puisque", "en": "since", "hi": "चूँकि", "pron": "प्üइस्-कö", "ipa": "pɥiskə" },
+      { "fr": "car", "en": "because (formal)", "hi": "क्योंकि", "pron": "काग़", "ipa": "kaʁ", "note": { "en": "The r is pronounced, softly in the throat.", "hi": "r बोला जाता है, गले से हल्का-सा।" } },
+      { "fr": "à cause de", "en": "because of", "hi": "की वजह से", "pron": "आ कोज़ दö", "ipa": "a koz də", "note": { "en": "The s between vowels sounds like z.", "hi": "दो स्वरों के बीच s की आवाज़ ज़ जैसी होती है।" } }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Pourquoi tu as fait ça ?", "en": "Why did you do that?" },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Arjun meets his friends Neha and Thomas in a café in Montréal. Each of them has made a big decision recently.",
+      "hi": "अर्जुन मॉन्ट्रियाल के एक कैफ़े में अपने दोस्तों नेहा और थॉमस से मिलता है। हाल ही में तीनों ने कोई बड़ा फ़ैसला लिया है।"
+    },
+    "lines": [
+      { "speaker": "Arjun", "voice": "m1", "fr": "Neha, on m'a dit que tu as quitté Montréal. C'est vrai ? Pourquoi ?", "en": "Neha, someone told me you left Montréal. Is it true? Why?", "hi": "नेहा, मुझे किसी ने बताया कि तुमने मॉन्ट्रियाल छोड़ दिया। सच में? क्यों?" },
+      { "speaker": "Neha", "voice": "f1", "fr": "Oui, je suis partie à Sherbrooke en mars. Je suis partie parce que les loyers à Montréal sont devenus trop chers.", "en": "Yes, I moved to Sherbrooke in March. I left because rents in Montréal became too expensive.", "hi": "हाँ, मैं मार्च में शेरब्रुक चली गई। मैं इसलिए गई क्योंकि मॉन्ट्रियाल में किराए बहुत महँगे हो गए थे।" },
+      { "speaker": "Thomas", "voice": "m2", "fr": "C'est vrai, mon loyer a augmenté de cent dollars cette année.", "en": "That's true, my rent went up by a hundred dollars this year.", "hi": "सही बात है, इस साल मेरा किराया सौ डॉलर बढ़ गया।" },
+      { "speaker": "Neha", "voice": "f1", "fr": "Et puis, comme mon travail est maintenant à distance, je peux habiter où je veux.", "en": "And also, since my job is now remote, I can live wherever I want.", "hi": "और फिर, चूँकि अब मेरा काम घर से होता है, मैं जहाँ चाहूँ रह सकती हूँ।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Et ce n'est pas trop calme pour toi, une petite ville ?", "en": "And isn't a small town too quiet for you?", "hi": "और छोटा शहर तुम्हारे लिए बहुत सुनसान तो नहीं?" },
+      { "speaker": "Neha", "voice": "f1", "fr": "Pas du tout. Grâce à l'université, il y a beaucoup de jeunes, de cafés et de concerts.", "en": "Not at all. Thanks to the university, there are lots of young people, cafés and concerts.", "hi": "बिल्कुल नहीं। विश्वविद्यालय की बदौलत वहाँ बहुत-से युवा, कैफ़े और कॉन्सर्ट हैं।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Et toi, Thomas, tu as vendu ta voiture, c'est ça ?", "en": "And you, Thomas, you sold your car, right?", "hi": "और तुम, थॉमस, तुमने अपनी गाड़ी बेच दी, है ना?" },
+      { "speaker": "Thomas", "voice": "m2", "fr": "Oui, à cause du prix de l'essence et de l'assurance. Ça me coûtait presque quatre cents dollars par mois !", "en": "Yes, because of the price of gas and insurance. It was costing me almost four hundred dollars a month!", "hi": "हाँ, पेट्रोल और बीमे की क़ीमत की वजह से। मुझे हर महीने लगभग चार सौ डॉलर लगते थे!" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Quatre cents dollars ? Mais comment tu vas au travail maintenant ?", "en": "Four hundred dollars? But how do you get to work now?", "hi": "चार सौ डॉलर? पर अब तुम काम पर कैसे जाते हो?" },
+      { "speaker": "Thomas", "voice": "m2", "fr": "À vélo l'été, en métro l'hiver. Puisque j'habite à côté d'une station, c'est facile.", "en": "By bike in summer, by metro in winter. Since I live next to a station, it's easy.", "hi": "गर्मियों में साइकिल से, सर्दियों में मेट्रो से। चूँकि मैं एक स्टेशन के पास रहता हूँ, यह आसान है।" },
+      { "speaker": "Neha", "voice": "f1", "fr": "Et toi, Arjun, pourquoi tu suis des cours de français le soir ? Tu parles déjà bien !", "en": "And you, Arjun, why are you taking French classes in the evening? You already speak well!", "hi": "और तुम, अर्जुन, तुम शाम को फ़्रेंच की क्लास क्यों करते हो? तुम तो पहले से अच्छा बोलते हो!" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Merci ! Je les suis car je veux passer le TEF en juin. J'ai besoin d'un bon score pour mon dossier d'immigration.", "en": "Thanks! I take them because I want to sit the TEF in June. I need a good score for my immigration application.", "hi": "शुक्रिया! मैं ये क्लास इसलिए करता हूँ क्योंकि जून में TEF देना चाहता हूँ। अपनी इमिग्रेशन फ़ाइल के लिए मुझे अच्छे स्कोर की ज़रूरत है।" },
+      { "speaker": "Thomas", "voice": "m2", "fr": "Et à cause du travail aussi, non ?", "en": "And because of work too, right?", "hi": "और काम की वजह से भी, है ना?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Oui. Mon patron cherche quelqu'un pour travailler avec des clients au Québec. Grâce au français, je pourrai peut-être avoir ce poste.", "en": "Yes. My boss is looking for someone to work with clients in Québec. Thanks to French, I might be able to get that position.", "hi": "हाँ। मेरे बॉस को क्यूबेक के ग्राहकों के साथ काम करने के लिए किसी की तलाश है। फ़्रेंच की बदौलत शायद मुझे वह पद मिल जाए।" }
+    ],
+    "questions": [
+      { "q": { "en": "Why did Neha leave Montréal?" }, "options": ["She found a job in Sherbrooke", "Rents became too expensive", "She wanted to study at the university", "She didn't like the winter"], "answer": 1, "explanation": { "en": "She left because rents in Montréal became too expensive.", "hi": "वह इसलिए गई क्योंकि मॉन्ट्रियाल में किराए बहुत महँगे हो गए थे।" }, "kind": "literal", "evidence": "les loyers à Montréal sont devenus trop chers" },
+      { "q": { "en": "Why can Neha live anywhere she likes?" }, "options": ["She works remotely now", "She has a car", "She doesn't work any more", "Her family pays her rent"], "answer": 0, "explanation": { "en": "'Comme mon travail est maintenant à distance' — her job is remote.", "hi": "'Comme mon travail est maintenant à distance' — उसका काम अब दूर से होता है।" }, "kind": "literal", "evidence": "comme mon travail est maintenant à distance" },
+      { "q": { "en": "Why isn't Sherbrooke boring, according to Neha?" }, "options": ["It is very close to Montréal", "It has a big airport", "The university brings young people and activities", "Her friends live there"], "answer": 2, "explanation": { "en": "Thanks to the university, there are many young people, cafés and concerts.", "hi": "विश्वविद्यालय की बदौलत वहाँ बहुत-से युवा, कैफ़े और कॉन्सर्ट हैं।" }, "kind": "inference", "evidence": "Grâce à l'université, il y a beaucoup de jeunes" },
+      { "q": { "en": "Why did Thomas sell his car?" }, "options": ["It was too old", "He moved to Sherbrooke", "He had an accident", "Gas and insurance were too expensive"], "answer": 3, "explanation": { "en": "Because of the price of gas and insurance: almost 400 dollars a month.", "hi": "पेट्रोल और बीमे की क़ीमत की वजह से: महीने के लगभग 400 डॉलर।" }, "kind": "literal", "evidence": "à cause du prix de l'essence et de l'assurance" },
+      { "q": { "en": "Why is life without a car easy for Thomas?" }, "options": ["He works from home", "He lives next to a metro station", "His office has a parking lot", "His friend drives him"], "answer": 1, "explanation": { "en": "'Puisque j'habite à côté d'une station, c'est facile.'", "hi": "'Puisque j'habite à côté d'une station, c'est facile.' — वह स्टेशन के पास रहता है।" }, "kind": "inference", "evidence": "Puisque j'habite à côté d'une station" },
+      { "q": { "en": "What are Arjun's two reasons for taking French classes?" }, "options": ["Immigration (TEF score) and a possible job", "Travel and friends", "His boss pays and the classes are free", "He wants to move to France"], "answer": 0, "explanation": { "en": "He needs a good TEF score for immigration, and French could help him get a position with Québec clients.", "hi": "उसे इमिग्रेशन के लिए अच्छा TEF स्कोर चाहिए, और फ़्रेंच से उसे क्यूबेक के ग्राहकों वाला पद मिल सकता है।" }, "kind": "gist", "evidence": "J'ai besoin d'un bon score pour mon dossier d'immigration." }
+    ],
+    "dictation": ["Je suis partie parce que les loyers sont devenus trop chers.", "Grâce à l'université, il y a beaucoup de jeunes.", "Puisque j'habite à côté d'une station, c'est facile."],
+    "gapFill": { "text": "Oui, à ___ du prix de l'essence. Et ___ mon travail est à distance, je peux habiter où je veux.", "answers": ["cause", "comme"] }
+  },
+  "speaking": {
+    "type": "conversation",
+    "instructions": {
+      "en": "Answer each 'why' question with a full reason. Use at least four different cause words across your answers. Try to give two reasons for at least one question.",
+      "hi": "हर 'क्यों' वाले प्रश्न का जवाब पूरे कारण के साथ दीजिए। अपने जवाबों में कम से कम चार अलग कारण-सूचक शब्द इस्तेमाल कीजिए। कम से कम एक प्रश्न के लिए दो कारण देने की कोशिश कीजिए।"
+    },
+    "prompts": [
+      { "fr": "Pourquoi apprenez-vous le français ?", "en": "Why are you learning French?", "hi": "आप फ़्रेंच क्यों सीख रहे हैं?", "pron": "पूग़-क्वा आ-प्ग़ö-ने वू लö फ़्ग़ाँ-सै", "model": "J'apprends le français parce que je veux immigrer au Canada, et aussi car j'aime les films français." },
+      { "fr": "Pourquoi avez-vous choisi votre quartier ?", "en": "Why did you choose your neighbourhood?", "hi": "आपने अपना मोहल्ला क्यों चुना?", "pron": "पूग़-क्वा आ-वे वू श्वा-ज़ी वॉत्ग़ö काग़-त्ये", "model": "Je l'ai choisi grâce à un ami : il habitait déjà là et le loyer était raisonnable." },
+      { "fr": "Pourquoi étiez-vous en retard la dernière fois ?", "en": "Why were you late last time?", "hi": "पिछली बार आप देर से क्यों आए थे?", "pron": "पूग़-क्वा ए-त्ये वू आँ ग़ö-ताग़ ला दैग़-न्यैग़ फ़वा", "model": "J'étais en retard à cause des travaux sur l'autoroute." },
+      { "fr": "Vous restez à la maison ce week-end ? Pourquoi ?", "en": "Are you staying home this weekend? Why?", "hi": "क्या आप इस वीकेंड घर पर रहेंगे? क्यों?", "pron": "वू ग़ैस-ते आ ला मै-ज़ोँ सö वी-कैंद पूग़-क्वा", "model": "Oui, comme je suis fatigué, je vais me reposer." },
+      { "fr": "Pourquoi le métro est-il pratique ?", "en": "Why is the metro convenient?", "hi": "मेट्रो सुविधाजनक क्यों है?", "pron": "पूग़-क्वा लö मे-त्ग़ो ऐ-तील प्ग़ा-तीक", "model": "Grâce au métro, on évite les embouteillages, et puisqu'il passe souvent, on n'attend pas longtemps." }
+    ],
+    "tip": {
+      "en": "Answering 'why' with a single word ('l'argent') is not enough in the TEF. Make a sentence: 'À cause de l'argent' or 'Parce que c'est moins cher'. Then, if you can, add a second reason with 'et puis…' or 'aussi'.",
+      "hi": "TEF में 'क्यों' का जवाब एक शब्द ('l'argent') में देना काफ़ी नहीं। वाक्य बनाइए: 'À cause de l'argent' या 'Parce que c'est moins cher'। फिर हो सके तो 'et puis…' या 'aussi' से दूसरा कारण जोड़िए।"
+    }
+  },
+  "reading": {
+    "genre": "opinion",
+    "title": "Forum Nouveaux Arrivants — Pourquoi avez-vous choisi votre ville ?",
+    "text": "Meera_Toronto\nJ'ai choisi Toronto parce que mon frère y habite depuis dix ans. Quand je suis arrivée, il m'a aidée à trouver un appartement et un travail. Comme je ne parlais pas français à l'époque, le Québec me faisait un peu peur. Aujourd'hui, j'apprends le français, car je voudrais travailler à Ottawa, pour le gouvernement fédéral.\n\nJulien_Moncton\nMoi, je viens de Lyon et j'ai choisi Moncton, au Nouveau-Brunswick. Puisque c'est une province bilingue, je peux parler français au travail et améliorer mon anglais le soir. Les loyers sont aussi moins chers qu'à Montréal ou à Toronto. Le seul problème, c'est l'hiver : à cause des tempêtes de neige, mon bus a souvent du retard !\n\nHarpreet_QC\nNous avons choisi la ville de Québec grâce à un programme d'accueil pour les familles. Les gens de l'organisme nous ont aidés avec l'école des enfants et la carte d'assurance maladie. Mon mari a trouvé un emploi en trois semaines grâce à leurs conseils. C'est une ville calme et sécuritaire, et c'est parfait pour nous. Le français ? Au début, c'était difficile, mais les enfants le parlent déjà mieux que nous !\n\nSam_Calgary\nPour moi, la raison est simple : le travail. Je suis ingénieur et il y a beaucoup d'emplois dans mon domaine en Alberta. Par contre, je ne pratique pas assez mon français, parce que tout le monde parle anglais ici.",
+    "translation": {
+      "en": "Newcomers' Forum — Why did you choose your city?\n\nMeera_Toronto\nI chose Toronto because my brother has lived there for ten years. When I arrived, he helped me find an apartment and a job. As I didn't speak French at the time, Québec scared me a little. Today I'm learning French, because I would like to work in Ottawa, for the federal government.\n\nJulien_Moncton\nI come from Lyon and I chose Moncton, in New Brunswick. Since it's a bilingual province, I can speak French at work and improve my English in the evening. Rents are also cheaper than in Montréal or Toronto. The only problem is winter: because of the snowstorms, my bus is often late!\n\nHarpreet_QC\nWe chose Québec City thanks to a settlement programme for families. The people at the organisation helped us with the children's school and the health insurance card. My husband found a job in three weeks thanks to their advice. It's a calm and safe city, and it's perfect for us. French? At first it was hard, but the children already speak it better than we do!\n\nSam_Calgary\nFor me, the reason is simple: work. I'm an engineer and there are lots of jobs in my field in Alberta. On the other hand, I don't practise my French enough, because everyone speaks English here.",
+      "hi": "नए आगंतुकों का फ़ोरम — आपने अपना शहर क्यों चुना?\n\nमीरा_टोरंटो\nमैंने टोरंटो इसलिए चुना क्योंकि मेरा भाई दस साल से वहाँ रहता है। जब मैं आई, उसने मुझे घर और नौकरी ढूँढ़ने में मदद की। चूँकि उस समय मैं फ़्रेंच नहीं बोलती थी, क्यूबेक से मुझे थोड़ा डर लगता था। आज मैं फ़्रेंच सीख रही हूँ, क्योंकि मैं ओटावा में संघीय सरकार के लिए काम करना चाहूँगी।\n\nजूलियन_मॉन्कटन\nमैं ल्यों से हूँ और मैंने न्यू ब्रंसविक का मॉन्कटन चुना। चूँकि यह दो भाषाओं वाला प्रांत है, मैं काम पर फ़्रेंच बोल सकता हूँ और शाम को अपनी अंग्रेज़ी सुधार सकता हूँ। किराए भी मॉन्ट्रियाल या टोरंटो से सस्ते हैं। बस एक ही दिक़्क़त है, सर्दी: बर्फ़ीले तूफ़ानों की वजह से मेरी बस अक्सर देर से आती है!\n\nहरप्रीत_QC\nहमने क्यूबेक शहर परिवारों के लिए एक स्वागत कार्यक्रम की बदौलत चुना। संस्था के लोगों ने बच्चों के स्कूल और स्वास्थ्य बीमा कार्ड में हमारी मदद की। उनकी सलाह की बदौलत मेरे पति को तीन हफ़्ते में नौकरी मिल गई। यह एक शांत और सुरक्षित शहर है, और हमारे लिए बिल्कुल सही है। फ़्रेंच? शुरू में मुश्किल थी, लेकिन बच्चे अभी से हमसे बेहतर बोलते हैं!\n\nसैम_कैलगरी\nमेरे लिए कारण सीधा है: काम। मैं इंजीनियर हूँ और अल्बर्टा में मेरे क्षेत्र में बहुत नौकरियाँ हैं। दूसरी ओर, मैं अपनी फ़्रेंच का पर्याप्त अभ्यास नहीं कर पाता, क्योंकि यहाँ सब अंग्रेज़ी बोलते हैं।"
+    },
+    "questions": [
+      { "q": { "en": "Why did Meera choose Toronto?" }, "options": ["Her brother has lived there for a long time", "She works for the federal government", "She speaks French", "Rents are cheap there"], "answer": 0, "explanation": { "en": "Her brother has lived there for ten years and helped her.", "hi": "उसका भाई दस साल से वहाँ रहता है और उसने उसकी मदद की।" }, "kind": "literal", "evidence": "mon frère y habite depuis dix ans" },
+      { "q": { "en": "Why was Meera a little afraid of Québec at first?" }, "options": ["Because of the winter", "She didn't speak French then", "She had no family there", "Jobs were rare"], "answer": 1, "explanation": { "en": "'Comme je ne parlais pas français à l'époque' — she didn't speak French at that time.", "hi": "'Comme je ne parlais pas français à l'époque' — उस समय वह फ़्रेंच नहीं बोलती थी।" }, "kind": "inference", "evidence": "Comme je ne parlais pas français à l'époque" },
+      { "q": { "en": "What is Julien's main reason for living in Moncton?" }, "options": ["The weather is mild", "His company sent him there", "He can use both French and English", "His bus is always on time"], "answer": 2, "explanation": { "en": "It's a bilingual province: French at work, English in the evening.", "hi": "यह दो भाषाओं वाला प्रांत है: काम पर फ़्रेंच, शाम को अंग्रेज़ी।" }, "kind": "literal", "evidence": "Puisque c'est une province bilingue" },
+      { "q": { "en": "How did Harpreet's husband find a job so quickly?" }, "options": ["Through his brother", "By learning French first", "Thanks to the government of Alberta", "Thanks to the settlement organisation's advice"], "answer": 3, "explanation": { "en": "He found a job in three weeks thanks to the organisation's advice.", "hi": "संस्था की सलाह की बदौलत उसे तीन हफ़्ते में नौकरी मिल गई।" }, "kind": "inference", "evidence": "grâce à leurs conseils" },
+      { "q": { "en": "Which person regrets not practising French enough?" }, "options": ["Meera", "Julien", "Harpreet", "Sam"], "answer": 3, "explanation": { "en": "Sam says he doesn't practise his French enough because everyone speaks English in Calgary.", "hi": "सैम कहता है कि वह फ़्रेंच का पर्याप्त अभ्यास नहीं करता, क्योंकि कैलगरी में सब अंग्रेज़ी बोलते हैं।" }, "kind": "inference", "evidence": "je ne pratique pas assez mon français, parce que tout le monde parle anglais ici" }
+    ]
+  },
+  "writing": {
+    "type": "message",
+    "prompt": {
+      "en": "Write a message to a French-speaking friend explaining an important decision you made (moving, changing jobs, starting a course…). Give at least three reasons and use at least four different cause words.",
+      "hi": "किसी फ़्रेंच बोलने वाले दोस्त को संदेश लिखकर अपना कोई अहम फ़ैसला समझाइए (घर बदलना, नौकरी बदलना, कोई कोर्स शुरू करना…)। कम से कम तीन कारण दीजिए और कम से कम चार अलग कारण-सूचक शब्द इस्तेमाल कीजिए।",
+      "fr": "Expliquez une décision importante à un ami."
+    },
+    "minWords": 90,
+    "maxWords": 150,
+    "hints": [
+      { "en": "Say what you decided first (passé composé): J'ai décidé de…", "hi": "पहले बताइए कि आपने क्या तय किया (passé composé): J'ai décidé de…" },
+      { "en": "Use grâce à for a positive cause and à cause de for a problem.", "hi": "अच्छे कारण के लिए grâce à और समस्या के लिए à cause de इस्तेमाल कीजिए।" },
+      { "en": "Put comme at the start of a sentence, car in the middle.", "hi": "comme वाक्य की शुरुआत में, car बीच में रखिए।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "J'ai décidé de …", "en": "I decided to …", "hi": "मैंने … का फ़ैसला किया", "pron": "झ़े दे-सी-दे दö" },
+      { "fr": "C'est pour ça que …", "en": "That's why …", "hi": "इसीलिए …", "pron": "सै पूग़ सा कö" },
+      { "fr": "La raison principale, c'est que …", "en": "The main reason is that …", "hi": "मुख्य कारण यह है कि …", "pron": "ला ग़ै-ज़ोँ प्ग़ैँ-सी-पाल सै कö" }
+    ],
+    "model": {
+      "fr": "Salut Camille,\nJe voulais t'expliquer ma décision : j'ai quitté mon travail au restaurant le mois dernier. D'abord, je l'ai quitté parce que les horaires étaient trop difficiles. Je finissais souvent à minuit et je ne voyais presque jamais mes enfants. Ensuite, comme je veux travailler dans un bureau, j'ai décidé de suivre une formation en comptabilité. Les cours commencent en septembre et c'est possible grâce à une bourse du gouvernement. Bien sûr, je gagne moins d'argent maintenant à cause de la formation, mais puisque mon mari travaille, nous pouvons payer le loyer. Je suis vraiment contente de ce choix, car c'est un projet important pour moi. Et toi, comment ça va ?\nBisous,\nAnita",
+      "en": "Hi Camille,\nI wanted to explain my decision: I left my job at the restaurant last month. First, I left it because the hours were too hard. I often finished at midnight and almost never saw my children. Next, as I want to work in an office, I decided to take an accounting course. Classes start in September, and it's possible thanks to a government grant. Of course, I earn less money now because of the course, but since my husband works, we can pay the rent. I'm really happy with this choice, because it's an important project for me. And you, how are you?\nHugs,\nAnita"
+    },
+    "checklist": [
+      { "en": "Did you use at least four cause words (parce que, car, comme, puisque, grâce à, à cause de)?", "hi": "क्या आपने कम से कम चार कारण-सूचक शब्द (parce que, car, comme, puisque, grâce à, à cause de) इस्तेमाल किए?" },
+      { "en": "Is there a noun (not a sentence) after grâce à and à cause de?", "hi": "क्या grâce à और à cause de के बाद संज्ञा (वाक्य नहीं) है?" },
+      { "en": "Did you use the passé composé for the decision and the imparfait for the old situation?", "hi": "क्या आपने फ़ैसले के लिए passé composé और पुरानी स्थिति के लिए imparfait इस्तेमाल किया?" }
+    ]
+  },
+  "review": {
+    "fromDays": [44, 46, 53, 55, 61],
+    "items": [
+      { "fr": "À mon avis, c'est une bonne idée.", "en": "In my opinion, it's a good idea.", "hi": "मेरी राय में, यह अच्छा विचार है।", "pron": "आ मोँ ना-वी सै-तüन बॉ-नी-दे" },
+      { "fr": "Je ne suis pas d'accord avec vous.", "en": "I don't agree with you.", "hi": "मैं आपसे सहमत नहीं हूँ।", "pron": "झ़ö नö स्üई पा दा-कॉग़ आ-वैक वू" },
+      { "fr": "Elle est arrivée au Canada en 2022.", "en": "She arrived in Canada in 2022.", "hi": "वह 2022 में कनाडा आई।", "pron": "ऐ-लै ता-ग़ी-वे ओ का-ना-दा आँ दö मील वैँ-दö" },
+      { "fr": "Avant, je prenais le bus tous les jours.", "en": "Before, I used to take the bus every day.", "hi": "पहले मैं रोज़ बस लेता था।", "pron": "आ-वाँ झ़ö प्ग़ö-नै लö बüस तू ले झ़ूग़" },
+      { "fr": "J'ai l'intention de chercher un appartement.", "en": "I intend to look for an apartment.", "hi": "मेरा इरादा एक अपार्टमेंट ढूँढ़ने का है।", "pron": "झ़े लैँ-ताँ-स्योँ दö शैग़-शे ऐँ ना-पाग़-तö-माँ" },
+      { "fr": "Montréal ? J'y vais souvent.", "en": "Montréal? I go there often.", "hi": "मॉन्ट्रियाल? मैं वहाँ अक्सर जाता हूँ।", "pron": "मोँ-ग़े-आल झ़ी वै सू-वाँ" },
+      { "fr": "Je trouve que tu as raison.", "en": "I think you're right.", "hi": "मुझे लगता है कि तुम सही हो।", "pron": "झ़ö त्ग़ूव कö तü आ ग़ै-ज़ोँ" },
+      { "fr": "Qu'est-ce que vous en pensez ?", "en": "What do you think about it?", "hi": "इस बारे में आपकी क्या राय है?", "pron": "कैस-कö वू ज़ाँ पाँ-से" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Choose: The flight is cancelled ___ the storm.", "hi": "चुनिए: तूफ़ान ___ उड़ान रद्द है।", "fr": "Le vol est annulé ___ la tempête." }, "options": ["parce que", "grâce à", "à cause de"], "answer": 2, "explanation": { "en": "A noun follows, and it is a problem: à cause de.", "hi": "आगे संज्ञा है और यह एक समस्या है: à cause de।" } },
+    { "type": "mcq", "prompt": { "en": "Which word can start the sentence? '___ il faisait beau, nous sommes allés au parc.'", "hi": "कौन-सा शब्द वाक्य की शुरुआत में आ सकता है? '___ il faisait beau, nous sommes allés au parc.'" }, "options": ["Car", "Comme", "À cause de"], "answer": 1, "explanation": { "en": "Comme gives the reason at the start of the sentence. Car cannot start a sentence; à cause de needs a noun.", "hi": "comme वाक्य की शुरुआत में कारण बताता है। car से वाक्य शुरू नहीं होता; à cause de के बाद संज्ञा चाहिए।" } },
+    { "type": "fill", "prompt": { "en": "Complete: I passed the exam thanks to my teacher.", "hi": "पूरा कीजिए: अपने शिक्षक की बदौलत मैं परीक्षा में पास हुआ।" }, "sentence": "J'ai réussi l'examen ___ à mon professeur.", "answer": "grâce", "accept": [], "explanation": { "en": "A positive cause: grâce à.", "hi": "अच्छा कारण: grâce à।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "I'm learning French because I want to live in Québec.", "hi": "मैं फ़्रेंच सीख रहा हूँ क्योंकि मैं क्यूबेक में रहना चाहता हूँ।" }, "answer": "J'apprends le français parce que je veux habiter au Québec.", "accept": ["J'apprends le français parce que je veux vivre au Québec.", "J'apprends le français car je veux habiter au Québec.", "J'apprends le français car je veux vivre au Québec.", "J'apprends le français parce que je veux habiter au Québec"], "explanation": { "en": "parce que (or car) + full sentence; the province is 'au Québec'.", "hi": "parce que (या car) + पूरा वाक्य; प्रांत के लिए 'au Québec'।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: I'm staying at home because I'm ill.", "hi": "शब्दों को सही क्रम में रखिए: मैं घर पर रह रहा हूँ क्योंकि मैं बीमार हूँ।" }, "words": ["car", "reste", "Je", "maison", "à", "je", "la", "malade.", "suis"], "answer": "Je reste à la maison car je suis malade.", "explanation": { "en": "Car comes in the middle, between the two parts.", "hi": "car बीच में, दोनों हिस्सों के बीच आता है।" } },
+    { "type": "fill", "prompt": { "en": "Complete with the right contraction: The bus is late because of the roadworks.", "hi": "सही संक्षिप्त रूप से पूरा कीजिए: सड़क के काम की वजह से बस देर से है।" }, "sentence": "Le bus est en retard à cause ___ travaux.", "answer": "des", "accept": [], "explanation": { "en": "de + les = des.", "hi": "de + les = des।" } },
+    { "type": "mcq", "prompt": { "en": "Your friend knows you are tired. Which is most natural? '___ tu es fatigué, reste à la maison !'", "hi": "आपका दोस्त जानता है कि आप थके हैं। सबसे स्वाभाविक क्या है? '___ tu es fatigué, reste à la maison !'" }, "options": ["Grâce à", "Puisque", "Car"], "answer": 1, "explanation": { "en": "Puisque introduces a reason both people already know, and it can start the sentence.", "hi": "puisque ऐसा कारण बताता है जो दोनों पहले से जानते हैं, और यह वाक्य की शुरुआत में आ सकता है।" } }
+  ]
+}

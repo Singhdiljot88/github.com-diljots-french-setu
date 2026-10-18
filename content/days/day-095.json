@@ -1,0 +1,1072 @@
+{
+  "day": 95,
+  "phase": 5,
+  "title": {
+    "fr": "Se loger au Canada : appeler au sujet d'un appartement",
+    "en": "Housing in Canada: calling about an apartment",
+    "hi": "कनाडा में घर ढूँढना: किराये के फ़्लैट के बारे में फ़ोन करना"
+  },
+  "objective": {
+    "en": "Understand an apartment ad and a landlord's answers on the phone, and ask about ten precise questions on price, conditions and availability (TEF speaking A), then write a clear email to a landlord.",
+    "hi": "किराये के फ़्लैट का विज्ञापन और फ़ोन पर मकान-मालिक के जवाब समझना, क़ीमत, शर्तों और उपलब्धता पर लगभग दस सटीक सवाल पूछना (TEF मौखिक A), और फिर मकान-मालिक को एक साफ़ ईमेल लिखना।"
+  },
+  "prerequisites": {
+    "days": [
+      23,
+      59,
+      64,
+      86,
+      91,
+      92
+    ],
+    "summary": {
+      "en": "Rooms and a rental listing (Day 23), question forms for ads (Day 59), comparing apartments (Day 64), TEF A with indirect questions (Day 86), TEF review (Day 91) and administrative documents (Day 92).",
+      "hi": "कमरे और किराये का विज्ञापन (दिन 23), विज्ञापनों के लिए प्रश्न-रूप (दिन 59), फ़्लैटों की तुलना (दिन 64), अप्रत्यक्ष प्रश्नों के साथ TEF A (दिन 86), TEF दोहराई (दिन 91) और सरकारी-दफ़्तरी काग़ज़ात (दिन 92)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "le bail",
+      "en": "lease",
+      "hi": "किरायानामा / लीज़",
+      "pron": "लö बाय",
+      "ipa": "lə baj",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "bail",
+      "note": {
+        "en": "Irregular plural: les baux. Signer un bail d'un an = to sign a one-year lease.",
+        "hi": "बहुवचन अनियमित है: les baux। signer un bail d'un an = एक साल का किरायानामा साइन करना।"
+      }
+    },
+    {
+      "fr": "le loyer",
+      "en": "rent",
+      "hi": "किराया",
+      "pron": "लö ल्वा-ये",
+      "ipa": "lə lwaje",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "loyer",
+      "note": {
+        "en": "Louer = to rent; le loyer = the money you pay each month.",
+        "hi": "louer = किराये पर लेना/देना; le loyer = हर महीने दी जाने वाली रक़म।"
+      }
+    },
+    {
+      "fr": "le chauffage",
+      "en": "heating",
+      "hi": "हीटिंग / घर गरम करने की व्यवस्था",
+      "pron": "लö शो-फ़ाझ़",
+      "ipa": "lə ʃofaʒ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "chauffage",
+      "note": {
+        "en": "Chauffage inclus = heating included in the rent — very important in a Canadian winter.",
+        "hi": "chauffage inclus = हीटिंग किराये में शामिल — कनाडा की सर्दी में बहुत अहम।"
+      }
+    },
+    {
+      "fr": "la caution",
+      "en": "security deposit",
+      "hi": "ज़मानत राशि / डिपॉज़िट",
+      "pron": "ला को-स्योँ",
+      "ipa": "la kosjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "caution",
+      "note": {
+        "en": "Also le dépôt de garantie. Rules differ by province: in Québec, a landlord generally cannot demand a deposit.",
+        "hi": "इसे le dépôt de garantie भी कहते हैं। नियम प्रांत के हिसाब से अलग हैं: क्यूबेक में मकान-मालिक आम तौर पर डिपॉज़िट नहीं माँग सकता।"
+      }
+    },
+    {
+      "fr": "le quartier",
+      "en": "neighbourhood",
+      "hi": "मोहल्ला / इलाक़ा",
+      "pron": "लö काग़-त्ये",
+      "ipa": "lə kaʁtje",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "quartier"
+    },
+    {
+      "fr": "le / la propriétaire",
+      "en": "landlord, owner",
+      "hi": "मकान-मालिक / मालकिन",
+      "pron": "लö / ला प्ग़ो-प्ग़ी-ये-तैग़",
+      "ipa": "lə / la pʁɔpʁijetɛʁ",
+      "pos": "noun",
+      "gender": "mf",
+      "lemma": "propriétaire"
+    },
+    {
+      "fr": "le / la locataire",
+      "en": "tenant",
+      "hi": "किरायेदार",
+      "pron": "लö / ला लो-का-तैग़",
+      "ipa": "lə / la lɔkatɛʁ",
+      "pos": "noun",
+      "gender": "mf",
+      "lemma": "locataire"
+    },
+    {
+      "fr": "meublé",
+      "en": "furnished",
+      "hi": "फ़र्नीचर समेत",
+      "pron": "मö-ब्ले",
+      "ipa": "mœble",
+      "pos": "adjective",
+      "note": {
+        "en": "Un appartement meublé / non meublé. In Canada, unfurnished is the norm.",
+        "hi": "un appartement meublé / non meublé। कनाडा में आम तौर पर फ़्लैट बिना फ़र्नीचर के होते हैं।"
+      }
+    },
+    {
+      "fr": "les électroménagers",
+      "en": "household appliances",
+      "hi": "घरेलू बिजली के उपकरण (फ़्रिज, चूल्हा आदि)",
+      "pron": "ले ज़े-लैक-त्ग़ो-मे-ना-झ़े",
+      "ipa": "le zelɛktʁomenaʒe",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "électroménager"
+    },
+    {
+      "fr": "la buanderie",
+      "en": "laundry room",
+      "hi": "कपड़े धोने का कमरा",
+      "pron": "ला ब्üआँ-द्ग़ी",
+      "ipa": "la bɥɑ̃dʁi",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "buanderie"
+    },
+    {
+      "fr": "le stationnement",
+      "en": "parking (Québec)",
+      "hi": "पार्किंग",
+      "pron": "लö स्ता-स्योन-माँ",
+      "ipa": "lə stasjɔnmɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "stationnement",
+      "note": {
+        "en": "In France: le parking or la place de parking.",
+        "hi": "फ़्रांस में: le parking या la place de parking।"
+      }
+    },
+    {
+      "fr": "emménager",
+      "en": "to move in",
+      "hi": "नए घर में रहने आना / शिफ़्ट होना",
+      "pron": "आँ-मे-ना-झ़े",
+      "ipa": "ɑ̃menaʒe",
+      "pos": "verb",
+      "note": {
+        "en": "Emménager = move in; déménager = move (out); un déménagement = a move.",
+        "hi": "emménager = नए घर में आना; déménager = घर बदलना; un déménagement = घर बदलने का काम।"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "J'appelle au sujet de l'appartement à louer.",
+      "en": "I'm calling about the apartment for rent.",
+      "hi": "मैं किराये वाले फ़्लैट के बारे में फ़ोन कर रहा हूँ।",
+      "pron": "झ़ा-पैल ओ सü-झ़े दö ला-पाग़-तö-माँ आ लू-ए"
+    },
+    {
+      "fr": "Est-ce que le chauffage est inclus dans le loyer ?",
+      "en": "Is heating included in the rent?",
+      "hi": "क्या हीटिंग किराये में शामिल है?",
+      "pron": "ऐस-कö लö शो-फ़ाझ़ ए तैँ-क्लü दाँ लö ल्वा-ये"
+    },
+    {
+      "fr": "À partir de quand le logement est-il libre ?",
+      "en": "From when is the place available?",
+      "hi": "फ़्लैट कब से ख़ाली है?",
+      "pron": "आ पाग़-तीग़ दö काँ लö लोझ़-माँ ए-तील लीब्ग़"
+    },
+    {
+      "fr": "Faut-il verser une caution ?",
+      "en": "Do I have to pay a deposit?",
+      "hi": "क्या डिपॉज़िट देना पड़ेगा?",
+      "pron": "फ़ो-तील वैग़-से üन को-स्योँ"
+    },
+    {
+      "fr": "Les animaux sont-ils acceptés ?",
+      "en": "Are pets allowed?",
+      "hi": "क्या पालतू जानवर रख सकते हैं?",
+      "pron": "ले ज़ा-नी-मो सोँ-तील ज़ाक-सैप-ते"
+    },
+    {
+      "fr": "Serait-il possible de visiter samedi ?",
+      "en": "Would it be possible to visit on Saturday?",
+      "hi": "क्या शनिवार को फ़्लैट देखना संभव होगा?",
+      "pron": "सö-ग़ै-तील पो-सीब्ल दö वी-ज़ी-ते साम-दी"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Asking about conditions: inversion with a noun subject, combien de, à partir de quand, est-il possible de",
+      "hi": "शर्तों के बारे में पूछना: संज्ञा कर्ता के साथ inversion, combien de, à partir de quand, est-il possible de"
+    },
+    "explanation": {
+      "en": "For TEF A you need precise questions about price, conditions and dates. (1) Inversion with a noun subject: keep the noun first, then add verb + pronoun: Le loyer comprend-il l'électricité ? / L'appartement est-il meublé ? (2) Amounts: Combien coûte le stationnement ? / Combien de chambres y a-t-il ? (de, never des). (3) Dates and duration: À partir de quand… ? (from when), Pour combien de temps… ? (for how long), Depuis quand… ? (since when). (4) Permission: Est-il possible de + infinitive / Peut-on + infinitive ? (5) Conditions with a choice: Le bail est-il d'un an ou de six mois ? Vary these forms with the indirect questions of Day 86.",
+      "hi": "TEF A के लिए आपको क़ीमत, शर्तों और तारीख़ों पर सटीक सवाल चाहिए। (1) संज्ञा कर्ता के साथ inversion: संज्ञा पहले रखिए, फिर क्रिया + सर्वनाम: Le loyer comprend-il l'électricité ? / L'appartement est-il meublé ? (2) मात्रा: Combien coûte le stationnement ? / Combien de chambres y a-t-il ? (de, कभी des नहीं)। (3) तारीख़ और अवधि: À partir de quand… ? (कब से), Pour combien de temps… ? (कितने समय के लिए), Depuis quand… ? (कब से [अब तक])। (4) अनुमति: Est-il possible de + infinitive / Peut-on + infinitive ? (5) विकल्प वाली शर्तें: Le bail est-il d'un an ou de six mois ? इन रूपों को दिन 86 के अप्रत्यक्ष प्रश्नों के साथ बदल-बदलकर इस्तेमाल कीजिए।"
+    },
+    "comparison": {
+      "en": "English says 'Is the apartment furnished?' (verb first). French keeps the noun first and repeats it as a pronoun after the verb: L'appartement est-il meublé ? Hindi only adds 'क्या' at the start, so watch the extra -il / -elle.",
+      "hi": "अंग्रेज़ी में 'Is the apartment furnished?' (क्रिया पहले)। फ़्रेंच में संज्ञा पहले रहती है और क्रिया के बाद सर्वनाम के रूप में दोहराई जाती है: L'appartement est-il meublé ? हिंदी में बस शुरू में 'क्या' लगता है, इसलिए अतिरिक्त -il / -elle का ध्यान रखिए।"
+    },
+    "examples": [
+      {
+        "fr": "Le loyer comprend-il l'électricité ?",
+        "en": "Does the rent include electricity?",
+        "hi": "क्या किराये में बिजली शामिल है?",
+        "pron": "लö ल्वा-ये कोँ-प्ग़ाँ-तील ले-लैक-त्ग़ी-सी-ते"
+      },
+      {
+        "fr": "L'appartement est-il meublé ?",
+        "en": "Is the apartment furnished?",
+        "hi": "क्या फ़्लैट में फ़र्नीचर है?",
+        "pron": "ला-पाग़-तö-माँ ए-तील मö-ब्ले"
+      },
+      {
+        "fr": "Combien de chambres y a-t-il ?",
+        "en": "How many bedrooms are there?",
+        "hi": "कितने बेडरूम हैं?",
+        "pron": "कोँ-ब्यैँ दö शाँब्ग़ या-तील"
+      },
+      {
+        "fr": "Pour combien de temps est le bail ?",
+        "en": "How long is the lease for?",
+        "hi": "किरायानामा कितने समय का है?",
+        "pron": "पूग़ कोँ-ब्यैँ दö ताँ ए लö बाय"
+      },
+      {
+        "fr": "Est-il possible de payer le loyer par virement ?",
+        "en": "Is it possible to pay the rent by bank transfer?",
+        "hi": "क्या किराया बैंक ट्रांसफ़र से देना संभव है?",
+        "pron": "ए-तील पो-सीब्ल दö पै-ये लö ल्वा-ये पाग़ वीग़-माँ"
+      },
+      {
+        "fr": "Peut-on repeindre les murs ?",
+        "en": "Can we repaint the walls?",
+        "hi": "क्या दीवारों पर दोबारा पेंट कर सकते हैं?",
+        "pron": "पö-तोँ ग़ö-पैँद्ग़ ले म्üग़"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Not 'Combien des chambres ?' — after combien, always de/d': combien de chambres, combien d'argent.",
+        "hi": "'Combien des chambres ?' नहीं — combien के बाद हमेशा de/d': combien de chambres, combien d'argent।"
+      },
+      {
+        "en": "Not 'Est le loyer inclus ?' — with a noun subject, add a pronoun: Le loyer est-il… ? or use Est-ce que le loyer est… ?",
+        "hi": "'Est le loyer inclus ?' नहीं — संज्ञा कर्ता हो तो सर्वनाम जोड़िए: Le loyer est-il… ? या Est-ce que le loyer est… ?"
+      },
+      {
+        "en": "Inclus agrees: le chauffage est inclus, l'eau chaude est incluse, les charges sont incluses.",
+        "hi": "inclus का मेल होता है: le chauffage est inclus, l'eau chaude est incluse, les charges sont incluses।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Housing words: -ail [aj], -oyer [waje], -tion [sjɔ̃], ch [ʃ]",
+    "tip": {
+      "en": "Bail ends like the English 'eye' with a quick y: बाय, never 'bel'. Loyer is three quick sounds l-wa-yé. -tion is [sjɔ̃] with a nasal end, so caution = को-स्योँ (no 'shun'). Ch is always soft श: chauffage, chambre.",
+      "hi": "bail का अंत तेज़ 'य' के साथ होता है: बाय, कभी 'बेल' नहीं। loyer तीन तेज़ आवाज़ें हैं: ल्वा-ये। -tion का उच्चारण नाक वाला स्योँ है, इसलिए caution = को-स्योँ ('शन' नहीं)। ch हमेशा मुलायम 'श' है: chauffage, chambre।"
+    },
+    "words": [
+      {
+        "fr": "le bail",
+        "en": "lease",
+        "hi": "किरायानामा",
+        "pron": "लö बाय",
+        "ipa": "lə baj"
+      },
+      {
+        "fr": "le loyer",
+        "en": "rent",
+        "hi": "किराया",
+        "pron": "लö ल्वा-ये",
+        "ipa": "lə lwaje"
+      },
+      {
+        "fr": "la caution",
+        "en": "deposit",
+        "hi": "डिपॉज़िट",
+        "pron": "ला को-स्योँ",
+        "ipa": "la kosjɔ̃"
+      },
+      {
+        "fr": "chauffage inclus",
+        "en": "heating included",
+        "hi": "हीटिंग शामिल",
+        "pron": "शो-फ़ाझ़ ऐँ-क्लü",
+        "ipa": "ʃofaʒ ɛ̃kly",
+        "note": {
+          "en": "The s of inclus is silent; incluse has a z sound: ऐँ-क्लüज़.",
+          "hi": "inclus का s नहीं बोला जाता; incluse में 'ज़' की आवाज़ है: ऐँ-क्लüज़।"
+        }
+      },
+      {
+        "fr": "la buanderie",
+        "en": "laundry room",
+        "hi": "कपड़े धोने का कमरा",
+        "pron": "ला ब्üआँ-द्ग़ी",
+        "ipa": "la bɥɑ̃dʁi"
+      },
+      {
+        "fr": "emménager",
+        "en": "to move in",
+        "hi": "नए घर में आना",
+        "pron": "आँ-मे-ना-झ़े",
+        "ipa": "ɑ̃menaʒe"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Appel au sujet d'un 4 ½ à Rosemont",
+      "en": "A call about a 4½ apartment in Rosemont"
+    },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Arjun calls the owner of an apartment advertised in Montréal. In Québec, a '4 ½' has two bedrooms, a living room, a kitchen and a bathroom (the half). Listen for prices, dates and conditions.",
+      "hi": "अर्जुन मॉन्ट्रियल में विज्ञापित एक फ़्लैट की मालकिन को फ़ोन करता है। क्यूबेक में '4 ½' में दो बेडरूम, एक बैठक, एक रसोई और एक बाथरूम (आधा) होता है। क़ीमत, तारीख़ें और शर्तें ध्यान से सुनिए।"
+    },
+    "lines": [
+      {
+        "speaker": "Mme Gagnon",
+        "voice": "f1",
+        "fr": "Allô, oui ?",
+        "en": "Hello, yes?",
+        "hi": "हेलो, हाँ?"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Bonjour, madame. J'appelle au sujet du 4 ½ à louer sur la rue Beaubien. Est-ce qu'il est toujours disponible ?",
+        "en": "Hello, madam. I'm calling about the 4½ for rent on Beaubien Street. Is it still available?",
+        "hi": "नमस्ते, मैडम। मैं बोबियाँ स्ट्रीट पर किराये वाले 4 ½ के बारे में फ़ोन कर रहा हूँ। क्या वह अभी भी ख़ाली है?"
+      },
+      {
+        "speaker": "Mme Gagnon",
+        "voice": "f1",
+        "fr": "Oui, il se libère le premier juillet. Les locataires actuels déménagent à Laval.",
+        "en": "Yes, it becomes free on the first of July. The current tenants are moving to Laval.",
+        "hi": "हाँ, वह एक जुलाई को ख़ाली होगा। अभी के किरायेदार लावाल जा रहे हैं।"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Parfait. Le loyer est de mille trois cent cinquante dollars, c'est bien ça ? Le chauffage est-il inclus ?",
+        "en": "Perfect. The rent is one thousand three hundred and fifty dollars, is that right? Is heating included?",
+        "hi": "बढ़िया। किराया एक हज़ार तीन सौ पचास डॉलर है, है न? क्या हीटिंग शामिल है?"
+      },
+      {
+        "speaker": "Mme Gagnon",
+        "voice": "f1",
+        "fr": "Oui, le chauffage et l'eau chaude sont inclus. L'électricité, par contre, c'est à vous de la payer.",
+        "en": "Yes, heating and hot water are included. Electricity, on the other hand, you have to pay yourself.",
+        "hi": "हाँ, हीटिंग और गरम पानी शामिल हैं। बिजली का बिल, हाँ, आपको ख़ुद भरना होगा।"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "D'accord. Pour combien de temps est le bail ?",
+        "en": "OK. How long is the lease?",
+        "hi": "ठीक है। किरायानामा कितने समय का है?"
+      },
+      {
+        "speaker": "Mme Gagnon",
+        "voice": "f1",
+        "fr": "Un an, du premier juillet au trente juin, comme presque partout à Montréal.",
+        "en": "One year, from the first of July to the thirtieth of June, like almost everywhere in Montréal.",
+        "hi": "एक साल का, एक जुलाई से तीस जून तक, जैसा मॉन्ट्रियल में लगभग हर जगह होता है।"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Je voudrais savoir si les électroménagers sont fournis.",
+        "en": "I'd like to know whether the appliances are provided.",
+        "hi": "मैं जानना चाहूँगा कि क्या घरेलू उपकरण दिए जाते हैं।"
+      },
+      {
+        "speaker": "Mme Gagnon",
+        "voice": "f1",
+        "fr": "Le frigo et la cuisinière, oui. Pour la laveuse et la sécheuse, il y a une buanderie au sous-sol.",
+        "en": "The fridge and the stove, yes. For the washer and dryer, there's a laundry room in the basement.",
+        "hi": "फ़्रिज और चूल्हा, हाँ। वॉशिंग मशीन और ड्रायर के लिए तहख़ाने में एक कपड़े धोने का कमरा है।"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Et pour le stationnement ? J'ai une petite voiture.",
+        "en": "And what about parking? I have a small car.",
+        "hi": "और पार्किंग? मेरे पास एक छोटी गाड़ी है।"
+      },
+      {
+        "speaker": "Mme Gagnon",
+        "voice": "f1",
+        "fr": "Il y a une place derrière l'immeuble, mais c'est cinquante dollars de plus par mois. Sinon, il faut une vignette de la Ville pour la rue.",
+        "en": "There's a spot behind the building, but it's fifty dollars more a month. Otherwise, you need a city permit for the street.",
+        "hi": "इमारत के पीछे एक जगह है, पर वह हर महीने पचास डॉलर अतिरिक्त है। नहीं तो सड़क पर खड़ी करने के लिए नगर-पालिका का परमिट चाहिए।"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Je comprends. Et le quartier, il est bien desservi par les transports ?",
+        "en": "I see. And the neighbourhood, is it well served by public transit?",
+        "hi": "समझ गया। और इलाक़ा, क्या वहाँ बस-मेट्रो की अच्छी सुविधा है?"
+      },
+      {
+        "speaker": "Mme Gagnon",
+        "voice": "f1",
+        "fr": "Très bien. Le métro est à sept minutes à pied, et l'autobus passe juste devant la porte.",
+        "en": "Very well. The metro is seven minutes' walk away, and the bus goes right past the door.",
+        "hi": "बहुत अच्छी। मेट्रो पैदल सात मिनट पर है, और बस ठीक दरवाज़े के सामने से गुज़रती है।"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Super. Serait-il possible de visiter cette semaine ?",
+        "en": "Great. Would it be possible to visit this week?",
+        "hi": "बढ़िया। क्या इस हफ़्ते फ़्लैट देखना संभव होगा?"
+      },
+      {
+        "speaker": "Mme Gagnon",
+        "voice": "f1",
+        "fr": "Samedi à dix heures, ça vous irait ? Apportez une preuve de revenu et le nom d'une référence, s'il vous plaît.",
+        "en": "Would Saturday at ten suit you? Please bring proof of income and the name of a reference.",
+        "hi": "शनिवार को दस बजे, चलेगा? कृपया आमदनी का सबूत और किसी एक हवाले (रेफ़रेंस) का नाम लेकर आइए।"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Ça me va très bien. Merci beaucoup, madame, à samedi !",
+        "en": "That suits me very well. Thank you very much, madam, see you Saturday!",
+        "hi": "मेरे लिए बिल्कुल ठीक है। बहुत धन्यवाद, मैडम, शनिवार को मिलते हैं!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "When does the apartment become free?"
+        },
+        "options": [
+          "On the thirtieth of June",
+          "On Saturday",
+          "On the first of July",
+          "Right away"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Il se libère le premier juillet.' June 30 is the end of the lease; Saturday is the visit.",
+          "hi": "'il se libère le premier juillet' — एक जुलाई। 30 जून किरायानामे का अंत है; शनिवार को फ़्लैट देखना है।"
+        },
+        "kind": "literal",
+        "evidence": "Oui, il se libère le premier juillet."
+      },
+      {
+        "q": {
+          "en": "What will Arjun have to pay in addition to the rent?"
+        },
+        "options": [
+          "Electricity",
+          "Heating",
+          "Hot water",
+          "Nothing at all"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "Heating and hot water are included; 'L'électricité, par contre, c'est à vous de la payer.'",
+          "hi": "हीटिंग और गरम पानी शामिल हैं; 'l'électricité, par contre, c'est à vous de la payer' — बिजली का बिल उसे भरना होगा।"
+        },
+        "kind": "literal",
+        "evidence": "L'électricité, par contre, c'est à vous de la payer."
+      },
+      {
+        "q": {
+          "en": "Which appliances come with the apartment?"
+        },
+        "options": [
+          "The washer and the dryer",
+          "All appliances",
+          "None",
+          "The fridge and the stove"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Le frigo et la cuisinière, oui.' The washer and dryer are in the shared laundry room.",
+          "hi": "'le frigo et la cuisinière, oui' — फ़्रिज और चूल्हा। वॉशिंग मशीन और ड्रायर साझा कमरे में हैं।"
+        },
+        "kind": "literal",
+        "evidence": "Le frigo et la cuisinière, oui."
+      },
+      {
+        "q": {
+          "en": "What is true about parking?"
+        },
+        "options": [
+          "Street parking needs no permit",
+          "A spot behind the building costs $50 more a month",
+          "Parking is free and included",
+          "There is no parking anywhere"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'C'est cinquante dollars de plus par mois. Sinon, il faut une vignette de la Ville pour la rue.'",
+          "hi": "'c'est cinquante dollars de plus par mois' — पीछे की जगह 50 डॉलर अतिरिक्त; सड़क के लिए परमिट चाहिए।"
+        },
+        "kind": "literal",
+        "evidence": "Il y a une place derrière l'immeuble, mais c'est cinquante dollars de plus par mois."
+      },
+      {
+        "q": {
+          "en": "What does Mme Gagnon suggest about the neighbourhood?"
+        },
+        "options": [
+          "It is too noisy",
+          "It is only practical by car",
+          "It is convenient for someone without a car",
+          "It is far from public transit"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "Metro seven minutes on foot and a bus at the door: easy to live there without a car.",
+          "hi": "मेट्रो पैदल सात मिनट और बस दरवाज़े पर: वहाँ बिना गाड़ी के रहना आसान है।"
+        },
+        "kind": "inference",
+        "evidence": "Le métro est à sept minutes à pied, et l'autobus passe juste devant la porte."
+      },
+      {
+        "q": {
+          "en": "What must Arjun bring to the visit?"
+        },
+        "options": [
+          "Proof of income and the name of a reference",
+          "A deposit of one month's rent",
+          "His car registration",
+          "A signed lease"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Apportez une preuve de revenu et le nom d'une référence.'",
+          "hi": "'apportez une preuve de revenu et le nom d'une référence' — आमदनी का सबूत और एक हवाले का नाम।"
+        },
+        "kind": "literal",
+        "evidence": "Apportez une preuve de revenu et le nom d'une référence, s'il vous plaît."
+      }
+    ],
+    "dictation": [
+      "J'appelle au sujet du 4 ½ à louer sur la rue Beaubien.",
+      "Le chauffage et l'eau chaude sont inclus.",
+      "Serait-il possible de visiter cette semaine ?"
+    ],
+    "gapFill": {
+      "text": "Le ___ est de mille trois cent cinquante dollars. Le ___ est d'un an. Il y a une ___ au sous-sol pour la laveuse et la sécheuse.",
+      "answers": [
+        "loyer",
+        "bail",
+        "buanderie"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "tef_a",
+    "instructions": {
+      "en": "TEF section A practice (5 minutes). You have read the apartment ad in today's reading (the 4½ near Parc Victoria in Sherbrooke). Phone the owner and ask about ten questions to obtain information the ad does NOT give. Greet, say why you are calling, vary your question forms, react to each answer, and end politely.",
+      "hi": "TEF भाग A का अभ्यास (5 मिनट)। आपने आज के पठन में फ़्लैट का विज्ञापन पढ़ा है (शेरब्रुक में पार्क विक्टोरिया के पास वाला 4 ½)। मालकिन को फ़ोन कीजिए और लगभग दस सवाल पूछकर वह जानकारी लीजिए जो विज्ञापन में नहीं है। अभिवादन कीजिए, फ़ोन का कारण बताइए, प्रश्नों के रूप बदलते रहिए, हर जवाब पर प्रतिक्रिया दीजिए और शिष्टता से बात ख़त्म कीजिए।"
+    },
+    "scenario": {
+      "setting": {
+        "en": "An apartment ad: 'À louer — Grand 4 ½ lumineux près du parc Victoria, Sherbrooke'. The ad gives the rent ($1,180), what is included, the date (1 August), the appliances, parking price, pets policy and documents required. It does not say: whether there is air conditioning, internet, snow removal, noise, the condition of the floors, whether you can paint, how the rent is paid, or whether the lease can be transferred.",
+        "hi": "फ़्लैट का विज्ञापन: 'À louer — Grand 4 ½ lumineux près du parc Victoria, Sherbrooke'। विज्ञापन में किराया (1 180 डॉलर), क्या शामिल है, तारीख़ (1 अगस्त), उपकरण, पार्किंग की क़ीमत, जानवरों का नियम और ज़रूरी काग़ज़ात दिए हैं। उसमें यह नहीं लिखा: एसी है या नहीं, इंटरनेट, बर्फ़ हटाने की व्यवस्था, शोर, फ़र्श की हालत, क्या पेंट कर सकते हैं, किराया कैसे देना है, या क्या किरायानामा किसी और को सौंपा जा सकता है।"
+      },
+      "learnerRole": {
+        "en": "You are a newcomer who will start a job in Sherbrooke in August. You call the owner. Use vous.",
+        "hi": "आप नए आए व्यक्ति हैं जो अगस्त में शेरब्रुक में नौकरी शुरू करेंगे। आप मालकिन को फ़ोन करते हैं। vous इस्तेमाल कीजिए।"
+      },
+      "partnerRole": {
+        "en": "The owner, Mme Louise Fortin, friendly but busy. She answers briefly and may ask you back: 'Vous êtes combien de personnes ?', 'Vous travaillez dans quel domaine ?'",
+        "hi": "मालकिन लुईज़ फ़ोर्तैँ, मिलनसार पर व्यस्त। वह छोटे जवाब देती हैं और आपसे भी पूछ सकती हैं: 'Vous êtes combien de personnes ?', 'Vous travaillez dans quel domaine ?'"
+      },
+      "goals": [
+        {
+          "en": "Ask at least ten questions on different topics, with at least four different question forms (inversion, est-ce que, indirect, combien / à partir de quand, est-il possible de).",
+          "hi": "अलग-अलग विषयों पर कम से कम दस सवाल पूछिए, कम से कम चार अलग प्रश्न-रूपों के साथ (inversion, est-ce que, अप्रत्यक्ष, combien / à partir de quand, est-il possible de)।"
+        },
+        {
+          "en": "Never ask for information already given in the ad.",
+          "hi": "विज्ञापन में पहले से दी गई जानकारी कभी मत पूछिए।"
+        },
+        {
+          "en": "Answer the owner's questions about yourself, then arrange a visit and close the call.",
+          "hi": "अपने बारे में मालकिन के सवालों का जवाब दीजिए, फिर फ़्लैट देखने का समय तय कीजिए और बात ख़त्म कीजिए।"
+        }
+      ]
+    },
+    "prompts": [
+      {
+        "fr": "Bonjour, madame Fortin. Je vous appelle au sujet du 4 ½ près du parc Victoria.",
+        "en": "Hello, Mrs Fortin. I'm calling about the 4½ near Parc Victoria.",
+        "hi": "नमस्ते, मैडम फ़ोर्तैँ। मैं पार्क विक्टोरिया के पास वाले 4 ½ के बारे में फ़ोन कर रहा हूँ।",
+        "pron": "बोँ-झ़ूग़ मा-दाम फ़ॉग़-तैँ झ़ö वू ज़ा-पैल ओ सü-झ़े दü कात्ग़ ए दö-मी प्ग़ै दü पाग़क वीक-तो-ग़्या"
+      },
+      {
+        "fr": "L'appartement est-il climatisé ?",
+        "en": "Is the apartment air-conditioned?",
+        "hi": "क्या फ़्लैट में एसी है?",
+        "pron": "ला-पाग़-तö-माँ ए-तील क्ली-मा-ती-ज़े",
+        "model": "L'appartement est-il climatisé ? Sinon, est-il possible d'installer un climatiseur dans la fenêtre ?"
+      },
+      {
+        "fr": "Je voudrais savoir si Internet est inclus.",
+        "en": "I'd like to know if internet is included.",
+        "hi": "मैं जानना चाहूँगा कि क्या इंटरनेट शामिल है।",
+        "pron": "झ़ö वू-द्ग़ै सा-वाग़ सी ऐँ-तैग़-नैत ए तैँ-क्लü"
+      },
+      {
+        "fr": "Qui s'occupe du déneigement en hiver ?",
+        "en": "Who takes care of snow removal in winter?",
+        "hi": "सर्दियों में बर्फ़ कौन हटाता है?",
+        "pron": "की सो-क्üप दü दे-नैझ़-माँ आँ नी-वैग़"
+      },
+      {
+        "fr": "Pourriez-vous me dire si l'immeuble est calme le soir ?",
+        "en": "Could you tell me if the building is quiet in the evening?",
+        "hi": "क्या आप बता सकती हैं कि शाम को इमारत में शांति रहती है?",
+        "pron": "पू-ग़्ये वू मö दीग़ सी ली-मöब्ल ए काल्म लö स्वाग़"
+      },
+      {
+        "fr": "Peut-on repeindre les chambres ?",
+        "en": "Can we repaint the bedrooms?",
+        "hi": "क्या बेडरूम में दोबारा पेंट कर सकते हैं?",
+        "pron": "पö-तोँ ग़ö-पैँद्ग़ ले शाँब्ग़"
+      },
+      {
+        "fr": "Comment faut-il payer le loyer : par chèque ou par virement ?",
+        "en": "How should the rent be paid: by cheque or by transfer?",
+        "hi": "किराया कैसे देना होगा: चेक से या बैंक ट्रांसफ़र से?",
+        "pron": "को-माँ फ़ो-तील पै-ये लö ल्वा-ये पाग़ शैक ऊ पाग़ वीग़-माँ"
+      },
+      {
+        "fr": "Nous sommes deux, et je commence un emploi à l'université en août.",
+        "en": "There are two of us, and I'm starting a job at the university in August.",
+        "hi": "हम दो लोग हैं, और मैं अगस्त में विश्वविद्यालय में नौकरी शुरू कर रहा हूँ।",
+        "pron": "नू सॉम दö ए झ़ö को-माँस ऐँ नाँ-प्ल्वा आ ल्ü-नी-वैग़-सी-ते आँ नूत"
+      },
+      {
+        "fr": "Serait-il possible de visiter mardi après dix-sept heures ?",
+        "en": "Would it be possible to visit on Tuesday after 5 p.m.?",
+        "hi": "क्या मंगलवार को शाम पाँच बजे के बाद फ़्लैट देखना संभव होगा?",
+        "pron": "सö-ग़ै-तील पो-सीब्ल दö वी-ज़ी-ते माग़-दी आ-प्ग़ै दी-सै तöग़"
+      }
+    ],
+    "tip": {
+      "en": "Before the call, underline everything the ad already says and cross it off. Then prepare one question per category: comfort (air conditioning, noise), services (internet, snow), rules (painting, subletting), money (payment method, increases), visit. Ten categories = ten questions without repetition.",
+      "hi": "फ़ोन से पहले विज्ञापन में जो लिखा है उस पर निशान लगाकर काट दीजिए। फिर हर श्रेणी के लिए एक सवाल तैयार कीजिए: आराम (एसी, शोर), सेवाएँ (इंटरनेट, बर्फ़), नियम (पेंट करना, किराये पर आगे देना), पैसा (भुगतान का तरीक़ा, बढ़ोतरी), देखने जाना। दस श्रेणियाँ = बिना दोहराव के दस सवाल।"
+    }
+  },
+  "reading": {
+    "genre": "advertisement",
+    "title": "À louer : grand 4 ½ lumineux près du parc Victoria",
+    "text": "À LOUER — Grand 4 ½ lumineux près du parc Victoria, Sherbrooke\n\nDisponible à partir du 1er août. Bail de 12 mois, renouvelable.\n\nSitué au deuxième étage d'un petit immeuble calme de six logements, cet appartement comprend deux chambres fermées, un salon double, une cuisine rénovée l'an dernier et une salle de bain avec bain et douche. Les grandes fenêtres donnent sur le parc, et le logement reçoit le soleil tout l'après-midi.\n\nLoyer : 1 180 $ par mois. Chauffage et eau chaude inclus. L'électricité est à la charge du locataire.\n\nÉlectroménagers fournis : réfrigérateur, cuisinière et lave-vaisselle. Buanderie commune au sous-sol (machines à pièces). Un espace de stationnement extérieur est offert pour 40 $ de plus par mois. Grand balcon à l'arrière et espace de rangement privé au sous-sol.\n\nLe quartier : à cinq minutes à pied d'une épicerie, d'une pharmacie et d'une école primaire. Arrêt d'autobus au coin de la rue (ligne 7, direction Université). Piste cyclable à proximité.\n\nConditions : logement non-fumeur. Petits animaux acceptés après discussion avec la propriétaire. Une enquête de crédit et deux références (ancien propriétaire ou employeur) seront demandées. Aucun dépôt exigé.\n\nVisites sur rendez-vous seulement, en semaine après 17 h ou le samedi matin. Pour plus de renseignements, communiquez avec Mme Louise Fortin au 819 555-0142 (laissez un message) ou par courriel à logements.fortin@exemple.ca.",
+    "translation": {
+      "en": "FOR RENT — Large, bright 4½ near Parc Victoria, Sherbrooke\n\nAvailable from 1 August. 12-month lease, renewable.\n\nLocated on the second floor of a small, quiet building of six units, this apartment has two closed bedrooms, a double living room, a kitchen renovated last year and a bathroom with a bath and shower. The large windows look onto the park, and the apartment gets sun all afternoon.\n\nRent: $1,180 a month. Heating and hot water included. Electricity is paid by the tenant.\n\nAppliances provided: refrigerator, stove and dishwasher. Shared laundry room in the basement (coin-operated machines). An outdoor parking space is available for $40 more a month. Large balcony at the back and private storage space in the basement.\n\nThe neighbourhood: five minutes' walk from a grocery store, a pharmacy and a primary school. Bus stop at the corner of the street (line 7, towards Université). Bike path nearby.\n\nConditions: non-smoking unit. Small pets accepted after discussion with the owner. A credit check and two references (former landlord or employer) will be required. No deposit required.\n\nVisits by appointment only, on weekdays after 5 p.m. or on Saturday mornings. For more information, contact Mrs Louise Fortin at 819 555-0142 (leave a message) or by email at logements.fortin@exemple.ca.",
+      "hi": "किराये के लिए — पार्क विक्टोरिया के पास बड़ा, रोशनी भरा 4 ½, शेरब्रुक\n\n1 अगस्त से उपलब्ध। 12 महीने का किरायानामा, आगे बढ़ाया जा सकता है।\n\nछह फ़्लैटों वाली एक छोटी, शांत इमारत की दूसरी मंज़िल पर स्थित इस फ़्लैट में दो बंद बेडरूम, एक बड़ी दोहरी बैठक, पिछले साल नई बनाई गई रसोई और बाथटब व शावर वाला बाथरूम है। बड़ी खिड़कियाँ पार्क की ओर खुलती हैं, और फ़्लैट में पूरी दोपहर धूप आती है।\n\nकिराया: 1 180 डॉलर प्रति माह। हीटिंग और गरम पानी शामिल। बिजली का ख़र्च किरायेदार देगा।\n\nदिए गए उपकरण: फ़्रिज, चूल्हा और बर्तन धोने की मशीन। तहख़ाने में साझा कपड़े धोने का कमरा (सिक्कों से चलने वाली मशीनें)। बाहर की एक पार्किंग जगह हर महीने 40 डॉलर अतिरिक्त में मिलती है। पीछे बड़ी बालकनी और तहख़ाने में सामान रखने की निजी जगह।\n\nइलाक़ा: किराने की दुकान, दवा की दुकान और प्राथमिक स्कूल से पैदल पाँच मिनट। गली के कोने पर बस स्टॉप (लाइन 7, विश्वविद्यालय की ओर)। पास में साइकिल पथ।\n\nशर्तें: धूम्रपान-मुक्त फ़्लैट। छोटे पालतू जानवर मालकिन से बात करने के बाद स्वीकार। क्रेडिट जाँच और दो हवाले (पुराना मकान-मालिक या नियोक्ता) माँगे जाएँगे। कोई डिपॉज़िट नहीं लिया जाएगा।\n\nफ़्लैट देखना केवल समय लेकर, हफ़्ते के दिनों में शाम 5 बजे के बाद या शनिवार सुबह। ज़्यादा जानकारी के लिए लुईज़ फ़ोर्तैँ से 819 555-0142 पर (संदेश छोड़िए) या logements.fortin@exemple.ca पर ईमेल से संपर्क कीजिए।"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "From when can a new tenant move in?"
+        },
+        "options": [
+          "After 12 months",
+          "From 1 August",
+          "From 1 July",
+          "Immediately"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Disponible à partir du 1er août.' 12 months is the length of the lease.",
+          "hi": "'disponible à partir du 1er août' — 1 अगस्त से। 12 महीने किरायानामे की अवधि है।"
+        },
+        "kind": "literal",
+        "evidence": "Disponible à partir du 1er août."
+      },
+      {
+        "q": {
+          "en": "What is included in the $1,180 rent?"
+        },
+        "options": [
+          "Electricity and heating",
+          "Parking and electricity",
+          "Everything, including parking",
+          "Heating and hot water"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Chauffage et eau chaude inclus.' Electricity is paid by the tenant and parking costs $40 more.",
+          "hi": "'chauffage et eau chaude inclus' — हीटिंग और गरम पानी। बिजली किरायेदार देगा और पार्किंग 40 डॉलर अतिरिक्त है।"
+        },
+        "kind": "literal",
+        "evidence": "Chauffage et eau chaude inclus."
+      },
+      {
+        "q": {
+          "en": "In the ad, 'machines à pièces' are…"
+        },
+        "options": [
+          "coin-operated machines",
+          "machines in every room",
+          "broken machines",
+          "free machines for tenants"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "Une pièce (de monnaie) = a coin; here it is not 'a room'. You pay with coins to use the washers.",
+          "hi": "une pièce (de monnaie) = सिक्का; यहाँ इसका मतलब 'कमरा' नहीं है। मशीनें इस्तेमाल करने के लिए सिक्के डालने होते हैं।"
+        },
+        "kind": "vocabulary",
+        "evidence": "Buanderie commune au sous-sol (machines à pièces)."
+      },
+      {
+        "q": {
+          "en": "What is the rule about pets?"
+        },
+        "options": [
+          "Any pet is welcome",
+          "Pets need a deposit",
+          "Small pets may be accepted after talking with the owner",
+          "All pets are forbidden"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Petits animaux acceptés après discussion avec la propriétaire.' And 'Aucun dépôt exigé'.",
+          "hi": "'petits animaux acceptés après discussion avec la propriétaire' — मालकिन से बात करने के बाद छोटे जानवर ठीक हैं। और कोई डिपॉज़िट नहीं।"
+        },
+        "kind": "literal",
+        "evidence": "Petits animaux acceptés après discussion avec la propriétaire."
+      },
+      {
+        "q": {
+          "en": "What will the owner ask applicants for?"
+        },
+        "options": [
+          "A letter from the school",
+          "A credit check and two references",
+          "A deposit and a work permit",
+          "Three months' rent in advance"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Une enquête de crédit et deux références (ancien propriétaire ou employeur) seront demandées.'",
+          "hi": "'une enquête de crédit et deux références … seront demandées' — क्रेडिट जाँच और दो हवाले।"
+        },
+        "kind": "literal",
+        "evidence": "Une enquête de crédit et deux références (ancien propriétaire ou employeur) seront demandées."
+      },
+      {
+        "q": {
+          "en": "For whom does this apartment seem especially practical?"
+        },
+        "options": [
+          "A smoker with a large dog",
+          "Someone who needs a furnished place for one month",
+          "A person who can visit only on Sunday",
+          "A family with a young child who takes the bus"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "Primary school five minutes away, bus stop at the corner, two bedrooms. The others clash with the non-smoking rule, the 12-month lease or the visit times.",
+          "hi": "प्राथमिक स्कूल पाँच मिनट पर, कोने पर बस स्टॉप, दो बेडरूम। बाक़ी विकल्प धूम्रपान-मुक्त नियम, 12 महीने के किरायानामे या देखने के समय से मेल नहीं खाते।"
+        },
+        "kind": "inference",
+        "evidence": "à cinq minutes à pied d'une épicerie, d'une pharmacie et d'une école primaire. Arrêt d'autobus au coin de la rue"
+      }
+    ]
+  },
+  "writing": {
+    "type": "email",
+    "prompt": {
+      "en": "You visited the 4½ near Parc Victoria yesterday. Write an email to Mrs Fortin (100–160 words): thank her for the visit, say you are interested and why, ask two questions that remain (for example about electricity costs in winter and the move-in day), and say which documents you can send.",
+      "hi": "आपने कल पार्क विक्टोरिया के पास वाला 4 ½ देखा। मैडम फ़ोर्तैँ को एक ईमेल लिखिए (100–160 शब्द): फ़्लैट दिखाने के लिए धन्यवाद दीजिए, बताइए कि आप रुचि रखते हैं और क्यों, बचे हुए दो सवाल पूछिए (जैसे सर्दियों में बिजली का ख़र्च और सामान लाने का दिन), और बताइए कि आप कौन-से काग़ज़ात भेज सकते हैं।",
+      "fr": "Écrivez un courriel à Mme Fortin après la visite de l'appartement."
+    },
+    "minWords": 100,
+    "maxWords": 160,
+    "hints": [
+      {
+        "en": "Start with 'Madame,' or 'Bonjour Madame Fortin,' and end with 'Cordialement,' + your full name and phone number.",
+        "hi": "'Madame,' या 'Bonjour Madame Fortin,' से शुरू कीजिए और 'Cordialement,' + अपना पूरा नाम और फ़ोन नंबर लिखकर ख़त्म कीजिए।"
+      },
+      {
+        "en": "Use one indirect question and one inversion to vary your questions.",
+        "hi": "सवालों में विविधता के लिए एक अप्रत्यक्ष प्रश्न और एक inversion इस्तेमाल कीजिए।"
+      },
+      {
+        "en": "Use the conditional for politeness: je serais très intéressé(e), pourriez-vous…",
+        "hi": "शिष्टता के लिए conditionnel लगाइए: je serais très intéressé(e), pourriez-vous…"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Je vous remercie pour la visite d'hier.",
+        "en": "Thank you for yesterday's visit.",
+        "hi": "कल फ़्लैट दिखाने के लिए आपका धन्यवाद।",
+        "pron": "झ़ö वू ग़ö-मैग़-सी पूग़ ला वी-ज़ीत दी-यैग़"
+      },
+      {
+        "fr": "L'appartement correspond tout à fait à nos besoins.",
+        "en": "The apartment fully meets our needs.",
+        "hi": "फ़्लैट हमारी ज़रूरतों के बिल्कुल अनुकूल है।",
+        "pron": "ला-पाग़-तö-माँ को-ग़ैस-पोँ तू ता फ़ै आ नो बö-ज़्वैँ"
+      },
+      {
+        "fr": "Je peux vous faire parvenir mes références.",
+        "en": "I can send you my references.",
+        "hi": "मैं आपको अपने हवाले भेज सकता हूँ।",
+        "pron": "झ़ö पö वू फ़ैग़ पाग़-वö-नीग़ मे ग़े-फ़े-ग़ाँस"
+      },
+      {
+        "fr": "Dans l'attente de votre réponse,",
+        "en": "Looking forward to your reply,",
+        "hi": "आपके जवाब की प्रतीक्षा में,",
+        "pron": "दाँ ला-ताँत दö वॉत्ग़ ग़े-पोँस"
+      }
+    ],
+    "model": {
+      "fr": "Objet : Visite du 4 ½ près du parc Victoria\n\nBonjour Madame Fortin,\n\nJe vous remercie pour la visite d'hier soir. L'appartement correspond tout à fait à nos besoins : il est lumineux, calme et proche de l'arrêt d'autobus pour l'université, où je commence à travailler en août. Ma conjointe et moi serions donc très intéressés à signer le bail.\n\nIl me reste deux petites questions. Pourriez-vous me dire environ combien coûte l'électricité en hiver pour ce logement ? D'autre part, le jour de l'emménagement, est-il possible de réserver l'ascenseur de service ou la porte arrière pour les meubles ?\n\nJe peux vous faire parvenir dès aujourd'hui une lettre de mon employeur, mes trois derniers relevés de paie et les coordonnées de notre ancien propriétaire.\n\nDans l'attente de votre réponse, je vous prie d'agréer mes salutations distinguées.\n\nArjun Mehta\n819 555-0187",
+      "en": "Subject: Visit of the 4½ near Parc Victoria\n\nHello Mrs Fortin,\n\nThank you for last night's visit. The apartment fully meets our needs: it is bright, quiet and close to the bus stop for the university, where I start working in August. My partner and I would therefore be very interested in signing the lease.\n\nI have two small questions left. Could you tell me roughly how much electricity costs in winter for this unit? Also, on moving day, is it possible to reserve the service elevator or the back door for the furniture?\n\nI can send you today a letter from my employer, my last three pay slips and the contact details of our former landlord.\n\nLooking forward to your reply, yours sincerely,\n\nArjun Mehta\n819 555-0187"
+    },
+    "checklist": [
+      {
+        "en": "Did you thank her and clearly say you are interested?",
+        "hi": "क्या आपने धन्यवाद दिया और साफ़ कहा कि आपकी रुचि है?"
+      },
+      {
+        "en": "Did you ask two questions with two different forms?",
+        "hi": "क्या आपने दो अलग रूपों में दो सवाल पूछे?"
+      },
+      {
+        "en": "Did you mention the documents you can send?",
+        "hi": "क्या आपने बताया कि आप कौन-से काग़ज़ात भेज सकते हैं?"
+      },
+      {
+        "en": "Are greeting, closing formula, name and phone number all there?",
+        "hi": "क्या अभिवादन, अंत का शिष्ट वाक्य, नाम और फ़ोन नंबर सब हैं?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      86,
+      88,
+      92,
+      93,
+      94
+    ],
+    "items": [
+      {
+        "fr": "Je voudrais savoir si le poste est toujours disponible.",
+        "en": "I'd like to know if the position is still available.",
+        "hi": "मैं जानना चाहूँगा कि क्या पद अभी भी ख़ाली है।",
+        "pron": "झ़ö वू-द्ग़ै सा-वाग़ सी लö पॉस्त ए तू-झ़ूग़ दिस-पो-नीब्ल"
+      },
+      {
+        "fr": "Pourriez-vous me dire ce qui est inclus ?",
+        "en": "Could you tell me what is included?",
+        "hi": "क्या आप बता सकते हैं कि क्या-क्या शामिल है?",
+        "pron": "पू-ग़्ये वू मö दीग़ सö की ए तैँ-क्लü"
+      },
+      {
+        "fr": "Il avait déjà quitté la maison quand j'ai appelé.",
+        "en": "He had already left the house when I called.",
+        "hi": "जब मैंने फ़ोन किया तब तक वह घर से जा चुका था।",
+        "pron": "ई-ला-वै दे-झ़ा की-ते ला मे-ज़ोँ काँ झ़े ऑप-ले"
+      },
+      {
+        "fr": "Veuillez joindre une preuve d'adresse.",
+        "en": "Please attach proof of address.",
+        "hi": "कृपया पते का सबूत साथ लगाइए।",
+        "pron": "वö-ये झ़्वैँद्ग़ üन प्ग़öव दा-द्ग़ैस"
+      },
+      {
+        "fr": "La demande doit être remplie avant le 15 mars.",
+        "en": "The application must be filled in before 15 March.",
+        "hi": "आवेदन 15 मार्च से पहले भरना ज़रूरी है।",
+        "pron": "ला दö-माँद द्वा तैत्ग़ ग़ाँ-प्ली आ-वाँ लö काँज़ माग़स"
+      },
+      {
+        "fr": "Les autobus ont été achetés par la Ville.",
+        "en": "The buses were bought by the City.",
+        "hi": "बसें नगर-पालिका ने ख़रीदी थीं।",
+        "pron": "ले ज़ो-तो-ब्üस ओँ ते-ते आश-ते पाग़ ला वील"
+      },
+      {
+        "fr": "En se levant plus tôt, on a plus de temps.",
+        "en": "By getting up earlier, you have more time.",
+        "hi": "जल्दी उठकर हमारे पास ज़्यादा समय होता है।",
+        "pron": "आँ सö लö-वाँ प्लü तो ओँ ना प्लü दö ताँ"
+      },
+      {
+        "fr": "selon l'expérience",
+        "en": "depending on experience",
+        "hi": "अनुभव के अनुसार",
+        "pron": "सö-लोँ लैक-स्पे-ग़्याँस"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which question is correct?",
+        "hi": "कौन-सा सवाल सही है?"
+      },
+      "options": [
+        "L'appartement est-il meublé ?",
+        "Est l'appartement meublé ?",
+        "L'appartement est meublé-il ?",
+        "Est-il l'appartement meublé ?"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Noun subject first, then verb + pronoun: L'appartement est-il… ?",
+        "hi": "पहले संज्ञा कर्ता, फिर क्रिया + सर्वनाम: L'appartement est-il… ?"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: How many bedrooms are there?",
+        "hi": "पूरा कीजिए: कितने बेडरूम हैं?"
+      },
+      "sentence": "Combien ___ chambres y a-t-il ?",
+      "answer": "de",
+      "accept": [],
+      "explanation": {
+        "en": "Combien + de, never des.",
+        "hi": "combien + de, कभी des नहीं।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Le chauffage est inclus' means…",
+        "hi": "'Le chauffage est inclus' का मतलब है…"
+      },
+      "options": [
+        "heating costs extra",
+        "the heater is broken",
+        "heating is included in the rent",
+        "there is no heating"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Inclus = included; you don't pay separately for heating.",
+        "hi": "inclus = शामिल; हीटिंग के लिए अलग से पैसे नहीं देने होते।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete with the correct word: the person who rents the apartment.",
+        "hi": "सही शब्द से पूरा कीजिए: वह व्यक्ति जो फ़्लैट किराये पर लेता है।"
+      },
+      "sentence": "L'électricité est à la charge du ___.",
+      "answer": "locataire",
+      "accept": [],
+      "explanation": {
+        "en": "Le locataire = tenant; le propriétaire = owner.",
+        "hi": "le locataire = किरायेदार; le propriétaire = मकान-मालिक।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "Is heating included in the rent?",
+        "hi": "क्या हीटिंग किराये में शामिल है?"
+      },
+      "answer": "Est-ce que le chauffage est inclus dans le loyer ?",
+      "accept": [
+        "Le chauffage est-il inclus dans le loyer ?",
+        "Est-ce que le chauffage est compris dans le loyer ?",
+        "Le chauffage est-il compris dans le loyer ?"
+      ],
+      "explanation": {
+        "en": "Est-ce que or noun + verb + il; inclus or compris.",
+        "hi": "est-ce que या संज्ञा + क्रिया + il; inclus या compris।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "The ad says 'Loyer : 1 180 $'. Which question is good for TEF A?",
+        "hi": "विज्ञापन में 'Loyer : 1 180 $' लिखा है। TEF A के लिए कौन-सा सवाल अच्छा है?"
+      },
+      "options": [
+        "Quel est le prix de l'appartement par mois ?",
+        "Le loyer est-il de 1 180 $ ?",
+        "Est-il possible de payer par virement ?",
+        "Combien coûte le loyer ?"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The other three ask for the price already given in the ad.",
+        "hi": "बाक़ी तीनों वही क़ीमत पूछते हैं जो विज्ञापन में पहले से दी गई है।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put in order: From when is the apartment available?",
+        "hi": "क्रम में रखिए: फ़्लैट कब से उपलब्ध है?"
+      },
+      "words": [
+        "partir",
+        "À",
+        "quand",
+        "de",
+        "l'appartement",
+        "est-il",
+        "disponible",
+        "?"
+      ],
+      "answer": "À partir de quand l'appartement est-il disponible ?",
+      "explanation": {
+        "en": "Question phrase + noun subject + verb-il + adjective.",
+        "hi": "प्रश्न-वाक्यांश + संज्ञा कर्ता + क्रिया-il + विशेषण।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: hot water is included (agreement).",
+        "hi": "पूरा कीजिए: गरम पानी शामिल है (लिंग का मेल)।"
+      },
+      "sentence": "L'eau chaude est ___.",
+      "answer": "incluse",
+      "accept": [
+        "comprise"
+      ],
+      "explanation": {
+        "en": "L'eau is feminine, so inclus → incluse.",
+        "hi": "l'eau स्त्रीलिंग है, इसलिए inclus → incluse।"
+      }
+    }
+  ]
+}

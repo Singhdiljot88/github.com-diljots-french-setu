@@ -1,0 +1,181 @@
+{
+  "day": 3,
+  "phase": 1,
+  "title": { "fr": "Tu viens d'où ? Les nationalités", "en": "Where are you from? Nationalities", "hi": "आप कहाँ से हैं? राष्ट्रीयताएँ" },
+  "objective": {
+    "en": "Say your nationality, where you come from and where you live, using être with je, tu, il and elle — and make nationality words feminine (indien → indienne).",
+    "hi": "être (होना) को je, tu, il और elle के साथ इस्तेमाल करके अपनी राष्ट्रीयता, आप कहाँ से हैं और कहाँ रहते हैं, बताना — और राष्ट्रीयता वाले शब्दों का स्त्रीलिंग रूप बनाना (indien → indienne)।"
+  },
+  "prerequisites": {
+    "days": [1, 2],
+    "summary": { "en": "Greetings, 'Je m'appelle…', tu vs vous (Day 1); spelling names and cities, la ville (Day 2).", "hi": "अभिवादन, 'Je m'appelle…', tu और vous (दिन 1); नाम और शहर की स्पेलिंग, la ville (दिन 2)।" }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "je suis", "en": "I am", "hi": "मैं हूँ", "pron": "झ़ö सüई", "ipa": "ʒə sɥi", "pos": "verb", "lemma": "être", "note": { "en": "From the verb être (to be). The s at the end is silent.", "hi": "क्रिया être (होना) से। आख़िरी s नहीं बोला जाता।" } },
+    { "fr": "tu es", "en": "you are (friendly)", "hi": "तुम हो", "pron": "तü ऐ", "ipa": "ty ɛ", "pos": "verb", "lemma": "être" },
+    { "fr": "il est / elle est", "en": "he is / she is", "hi": "वह है (पुरुष) / वह है (स्त्री)", "pron": "ई लै / ऐ लै", "ipa": "i lɛ / ɛ lɛ", "pos": "verb", "lemma": "être", "note": { "en": "The l of il/elle runs into est: ई लै, ऐ लै.", "hi": "il/elle का l, est से जुड़ जाता है: ई लै, ऐ लै।" } },
+    { "fr": "indien / indienne", "en": "Indian (m / f)", "hi": "भारतीय (पुरुष / स्त्री)", "pron": "ऐँ-द्यैँ / ऐँ-द्यैन", "ipa": "ɛ̃djɛ̃ / ɛ̃djɛn", "pos": "adjective", "lemma": "indien", "note": { "en": "Masculine ends in a nasal (no n sound); feminine -enne pronounces the n.", "hi": "पुल्लिंग नासिक्य स्वर पर ख़त्म होता है (n नहीं बोलते); स्त्रीलिंग -enne में n बोला जाता है।" } },
+    { "fr": "canadien / canadienne", "en": "Canadian (m / f)", "hi": "कनाडाई (पुरुष / स्त्री)", "pron": "का-ना-द्यैँ / का-ना-द्यैन", "ipa": "kanadjɛ̃ / kanadjɛn", "pos": "adjective", "lemma": "canadien" },
+    { "fr": "français / française", "en": "French (m / f)", "hi": "फ़्रांसीसी (पुरुष / स्त्री)", "pron": "फ़्ग़ाँ-सै / फ़्ग़ाँ-सैज़", "ipa": "fʁɑ̃sɛ / fʁɑ̃sɛz", "pos": "adjective", "lemma": "français", "note": { "en": "Feminine adds -e and the s is now heard as z.", "hi": "स्त्रीलिंग में -e जुड़ता है और अब s की आवाज़ 'ज़' सुनाई देती है।" } },
+    { "fr": "anglais / anglaise", "en": "English (m / f)", "hi": "अंग्रेज़ (पुरुष / स्त्री)", "pron": "आँ-ग्लै / आँ-ग्लैज़", "ipa": "ɑ̃ɡlɛ / ɑ̃ɡlɛz", "pos": "adjective", "lemma": "anglais" },
+    { "fr": "l'Inde", "en": "India", "hi": "भारत", "pron": "लैँद", "ipa": "lɛ̃d", "pos": "noun", "gender": "f", "lemma": "Inde" },
+    { "fr": "le Canada", "en": "Canada", "hi": "कनाडा", "pron": "लö का-ना-दा", "ipa": "lə kanada", "pos": "noun", "gender": "m", "lemma": "Canada" },
+    { "fr": "la France", "en": "France", "hi": "फ़्रांस", "pron": "ला फ़्ग़ाँस", "ipa": "la fʁɑ̃s", "pos": "noun", "gender": "f", "lemma": "France" },
+    { "fr": "le pays", "en": "country", "hi": "देश", "pron": "लö पे-ई", "ipa": "lə pei", "pos": "noun", "gender": "m", "lemma": "pays", "note": { "en": "Two syllables, and the s is silent.", "hi": "दो अक्षर-ध्वनियाँ (पे-ई), और s नहीं बोला जाता।" } },
+    { "fr": "la nationalité", "en": "nationality", "hi": "राष्ट्रीयता", "pron": "ला ना-स्यो-ना-ली-ते", "ipa": "la nasjɔnalite", "pos": "noun", "gender": "f", "lemma": "nationalité" },
+    { "fr": "je viens de", "en": "I come from", "hi": "मैं … से हूँ / मैं … से आया/आई हूँ", "pron": "झ़ö व्यैँ दö", "ipa": "ʒə vjɛ̃ də", "pos": "phrase", "lemma": "venir" },
+    { "fr": "j'habite à", "en": "I live in (a city)", "hi": "मैं … में रहता/रहती हूँ", "pron": "झ़ा-बीत आ", "ipa": "ʒabit a", "pos": "phrase", "lemma": "habiter", "note": { "en": "The h is silent, so je becomes j'.", "hi": "h नहीं बोला जाता, इसलिए je का रूप j' हो जाता है।" } }
+  ],
+  "phrases": [
+    { "fr": "Tu es d'où ?", "en": "Where are you from? (friendly)", "hi": "तुम कहाँ से हो?", "pron": "तü ऐ दू", "ipa": "ty ɛ du" },
+    { "fr": "Vous êtes d'où ?", "en": "Where are you from? (polite)", "hi": "आप कहाँ से हैं?", "pron": "वू ज़ैत दू", "ipa": "vu zɛt du", "note": { "en": "Liaison: vous + êtes = वू ज़ैत.", "hi": "जोड़ (liaison): vous + êtes = वू ज़ैत।" } },
+    { "fr": "Je viens de Delhi.", "en": "I'm from Delhi.", "hi": "मैं दिल्ली से हूँ।", "pron": "झ़ö व्यैँ दö दै-ली", "ipa": "ʒə vjɛ̃ də dɛli" },
+    { "fr": "Je viens d'Inde.", "en": "I'm from India.", "hi": "मैं भारत से हूँ।", "pron": "झ़ö व्यैँ दैँद", "ipa": "ʒə vjɛ̃ dɛ̃d" },
+    { "fr": "J'habite au Canada, à Toronto.", "en": "I live in Canada, in Toronto.", "hi": "मैं कनाडा में, टोरंटो में रहता/रहती हूँ।", "pron": "झ़ा-बीत ओ का-ना-दा आ तो-ग़ोँ-तो", "ipa": "ʒabit o kanada a tɔʁɔ̃to", "note": { "en": "Learn 'au Canada' as a block for now; Day 16 explains au.", "hi": "अभी 'au Canada' को एक साथ याद कीजिए; दिन 16 में au समझाया जाएगा।" } },
+    { "fr": "Moi, c'est Meera.", "en": "I'm Meera. (casual)", "hi": "मैं मीरा हूँ।", "pron": "मवा सै मीरा", "ipa": "mwa sɛ miʁa" },
+    { "fr": "Et toi ? / Et vous ?", "en": "And you? (friendly / polite)", "hi": "और तुम? / और आप?", "pron": "ए त्वा / ए वू", "ipa": "e twa / e vu" },
+    { "fr": "Moi aussi !", "en": "Me too!", "hi": "मैं भी!", "pron": "मवा ओ-सी", "ipa": "mwa osi" }
+  ],
+  "grammar": {
+    "title": { "en": "être (je, tu, il, elle) + nationality, and masculine/feminine", "hi": "être (je, tu, il, elle) + राष्ट्रीयता, और पुल्लिंग/स्त्रीलिंग" },
+    "explanation": {
+      "en": "être means 'to be': je suis (I am), tu es (you are), il est (he is), elle est (she is). After être, put the nationality directly, with no 'a/an': Je suis indien. Nationality words change for a woman: usually add -e (français → française), and -ien becomes -ienne (indien → indienne, canadien → canadienne). Nationality adjectives take a small letter in French: il est canadien.",
+      "hi": "être का मतलब है 'होना': je suis (मैं हूँ), tu es (तुम हो), il est (वह है — पुरुष), elle est (वह है — स्त्री)। être के बाद सीधे राष्ट्रीयता लिखिए, 'एक' जैसा कोई शब्द नहीं: Je suis indien। स्त्री के लिए राष्ट्रीयता का शब्द बदलता है: आम तौर पर -e जुड़ता है (français → française), और -ien का रूप -ienne हो जाता है (indien → indienne, canadien → canadienne)। फ़्रेंच में राष्ट्रीयता वाला विशेषण छोटे अक्षर से लिखा जाता है: il est canadien।"
+    },
+    "comparison": {
+      "en": "In Hindi, 'भारतीय' stays the same for a man and a woman, but the verb changes: मैं दिल्ली में रहता हूँ / रहती हूँ. French is the opposite here: 'j'habite' stays the same, but the adjective changes: indien / indienne. In English neither changes ('I am Indian').",
+      "hi": "हिंदी में 'भारतीय' पुरुष और स्त्री दोनों के लिए एक-सा रहता है, पर क्रिया बदलती है: मैं दिल्ली में रहता हूँ / रहती हूँ। यहाँ फ़्रेंच उल्टा है: 'j'habite' नहीं बदलता, पर विशेषण बदलता है: indien / indienne। अंग्रेज़ी में कुछ नहीं बदलता ('I am Indian')।"
+    },
+    "examples": [
+      { "fr": "Je suis indien. Je viens de Jaipur.", "en": "I'm Indian (man). I'm from Jaipur.", "hi": "मैं भारतीय हूँ। मैं जयपुर से हूँ।", "pron": "झ़ö सüई ज़ैँ-द्यैँ झ़ö व्यैँ दö जय-पुग़", "note": { "en": "Liaison: suis + indien = सüई ज़ैँ-द्यैँ.", "hi": "जोड़: suis + indien = सüई ज़ैँ-द्यैँ।" } },
+      { "fr": "Elle est indienne. Elle habite à Toronto.", "en": "She is Indian. She lives in Toronto.", "hi": "वह भारतीय है। वह टोरंटो में रहती है।", "pron": "ऐ लै तैँ-द्यैन ऐ ला-बीत आ तो-ग़ोँ-तो" },
+      { "fr": "Tu es canadien ?", "en": "Are you Canadian? (to a man)", "hi": "क्या तुम कनाडाई हो?", "pron": "तü ऐ का-ना-द्यैँ" },
+      { "fr": "Il est français. Il vient de Lyon.", "en": "He is French. He comes from Lyon.", "hi": "वह फ़्रांसीसी है। वह ल्यों से है।", "pron": "ई लै फ़्ग़ाँ-सै ईल व्यैँ दö ल्योँ", "note": { "en": "il vient (he comes) sounds like je viens.", "hi": "il vient (वह आता है) की आवाज़ je viens जैसी ही है।" } },
+      { "fr": "Elle est française.", "en": "She is French.", "hi": "वह फ़्रांसीसी है।", "pron": "ऐ लै फ़्ग़ाँ-सैज़" }
+    ],
+    "pitfalls": [
+      { "en": "Don't add un/une before a nationality after être: 'Je suis indien', not 'Je suis un indien'.", "hi": "être के बाद राष्ट्रीयता से पहले un/une मत लगाइए: 'Je suis indien', न कि 'Je suis un indien'।" },
+      { "en": "Don't write nationality adjectives with a capital: 'elle est indienne', not 'Indienne'.", "hi": "राष्ट्रीयता वाले विशेषण बड़े अक्षर से मत लिखिए: 'elle est indienne', न कि 'Indienne'।" },
+      { "en": "A woman says 'Je suis canadienne' — the n is heard. A man says 'canadien' — nasal, no n.", "hi": "स्त्री कहती है 'Je suis canadienne' — n सुनाई देता है। पुरुष कहता है 'canadien' — नासिक्य, n नहीं।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "/y/ vs /u/: tu / tout",
+    "tip": {
+      "en": "For /u/ (ou), say ऊ with rounded lips. For /y/ (u), keep the lips rounded exactly the same but push the tongue forward and say ई — that is ü. Switch slowly: ऊ → ü → ऊ.",
+      "hi": "/u/ (ou) के लिए होंठ गोल करके 'ऊ' बोलिए। /y/ (u) के लिए होंठ बिल्कुल वैसे ही गोल रखिए, पर जीभ आगे करके 'ई' बोलिए — यही ü है। धीरे-धीरे बदलिए: ऊ → ü → ऊ।"
+    },
+    "words": [
+      { "fr": "tu", "en": "you (friendly)", "hi": "तुम", "pron": "तü", "ipa": "ty" },
+      { "fr": "tout", "en": "all / everything", "hi": "सब", "pron": "तू", "ipa": "tu", "note": { "en": "Final t silent.", "hi": "आख़िरी t नहीं बोला जाता।" } },
+      { "fr": "la rue", "en": "street", "hi": "गली / सड़क", "pron": "ला ग़ü", "ipa": "la ʁy" },
+      { "fr": "la roue", "en": "wheel", "hi": "पहिया", "pron": "ला ग़ू", "ipa": "la ʁu" },
+      { "fr": "salut", "en": "hi", "hi": "हाय", "pron": "सा-लü", "ipa": "saly" },
+      { "fr": "vous", "en": "you (polite)", "hi": "आप", "pron": "वू", "ipa": "vu" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Premier jour à l'école de langues", "en": "First day at the language school" },
+    "type": "dialogue",
+    "mode": "pedagogical",
+    "context": { "en": "Two new students meet in the hallway of a language school in Montréal. They are about the same age, so they use tu.", "hi": "मॉन्ट्रियाल के एक भाषा स्कूल के गलियारे में दो नए विद्यार्थी मिलते हैं। दोनों हमउम्र हैं, इसलिए tu इस्तेमाल करते हैं।" },
+    "lines": [
+      { "speaker": "Lucas", "voice": "m2", "fr": "Salut ! Je m'appelle Lucas. Et toi ?", "en": "Hi! My name is Lucas. And you?", "hi": "हाय! मेरा नाम लुका है। और तुम?" },
+      { "speaker": "Meera", "voice": "f1", "fr": "Salut, Lucas ! Moi, c'est Meera.", "en": "Hi, Lucas! I'm Meera.", "hi": "हाय, लुका! मैं मीरा हूँ।" },
+      { "speaker": "Lucas", "voice": "m2", "fr": "Tu es canadienne ?", "en": "Are you Canadian?", "hi": "क्या तुम कनाडाई हो?" },
+      { "speaker": "Meera", "voice": "f1", "fr": "Non, je suis indienne. Je viens de Pune. Et toi, tu es français ?", "en": "No, I'm Indian. I'm from Pune. And you, are you French?", "hi": "नहीं, मैं भारतीय हूँ। मैं पुणे से हूँ। और तुम, क्या तुम फ़्रांसीसी हो?" },
+      { "speaker": "Lucas", "voice": "m2", "fr": "Oui, je suis français. Je viens de Lyon.", "en": "Yes, I'm French. I'm from Lyon.", "hi": "हाँ, मैं फ़्रांसीसी हूँ। मैं ल्यों से हूँ।" },
+      { "speaker": "Meera", "voice": "f1", "fr": "Tu habites à Montréal ?", "en": "Do you live in Montréal?", "hi": "क्या तुम मॉन्ट्रियाल में रहते हो?" },
+      { "speaker": "Lucas", "voice": "m2", "fr": "Oui, j'habite à Montréal. Et toi ?", "en": "Yes, I live in Montréal. And you?", "hi": "हाँ, मैं मॉन्ट्रियाल में रहता हूँ। और तुम?" },
+      { "speaker": "Meera", "voice": "f1", "fr": "Moi aussi ! J'habite à Montréal.", "en": "Me too! I live in Montréal.", "hi": "मैं भी! मैं मॉन्ट्रियाल में रहती हूँ।" }
+    ],
+    "questions": [
+      { "q": { "en": "What is Meera's nationality?" }, "options": ["Canadian", "French", "Indian"], "answer": 2, "explanation": { "en": "She says 'je suis indienne' — the feminine form of indien.", "hi": "वह कहती है 'je suis indienne' — indien का स्त्रीलिंग रूप।" }, "kind": "literal", "evidence": "Non, je suis indienne." },
+      { "q": { "en": "Which city does Meera come from?" }, "options": ["Pune", "Lyon", "Montréal"], "answer": 0, "explanation": { "en": "'Je viens de Pune.' Montréal is where she lives now.", "hi": "'Je viens de Pune.' मॉन्ट्रियाल में वह अभी रहती है।" }, "kind": "literal", "evidence": "Je viens de Pune." },
+      { "q": { "en": "Where is Lucas from?" }, "options": ["Montréal, Canada", "Lyon, France", "Pune, India"], "answer": 1, "explanation": { "en": "He is French and comes from Lyon.", "hi": "वह फ़्रांसीसी है और ल्यों से है।" }, "kind": "literal", "evidence": "Oui, je suis français. Je viens de Lyon." },
+      { "q": { "en": "What do Meera and Lucas have in common?" }, "options": ["Same nationality", "Same home city", "They both live in Montréal"], "answer": 2, "explanation": { "en": "Lucas lives in Montréal, and Meera says 'Moi aussi !'.", "hi": "लुका मॉन्ट्रियाल में रहता है, और मीरा कहती है 'Moi aussi !' (मैं भी)।" }, "kind": "inference", "evidence": "Moi aussi ! J'habite à Montréal." },
+      { "q": { "en": "Why do they use tu?" }, "options": ["They are classmates of the same age", "Lucas is a teacher", "They are at an official office"], "answer": 0, "explanation": { "en": "They are two new students; they greet with 'Salut' and use tu, as classmates do.", "hi": "दोनों नए विद्यार्थी हैं; 'Salut' से अभिवादन करते हैं और सहपाठियों की तरह tu बोलते हैं।" }, "kind": "inference", "evidence": "Tu es canadienne ?" }
+    ],
+    "dictation": ["Je suis indienne.", "Je viens de Lyon.", "J'habite à Montréal."],
+    "gapFill": { "text": "Non, je ___ indienne. Je ___ de Pune.", "answers": ["suis", "viens"] }
+  },
+  "speaking": {
+    "type": "repeat",
+    "instructions": {
+      "en": "Repeat each model sentence twice. Then answer the prompts about yourself: your name, your nationality, where you come from and where you live.",
+      "hi": "हर मॉडल वाक्य दो बार दोहराइए। फिर अपने बारे में जवाब दीजिए: आपका नाम, राष्ट्रीयता, आप कहाँ से हैं और कहाँ रहते हैं।"
+    },
+    "prompts": [
+      { "fr": "Je m'appelle …", "en": "My name is …", "hi": "मेरा नाम … है", "pron": "झ़ö मा-पैल", "model": "Je m'appelle Priya." },
+      { "fr": "Je suis indien / indienne.", "en": "I'm Indian.", "hi": "मैं भारतीय हूँ।", "pron": "झ़ö सüई ज़ैँ-द्यैँ / ज़ैँ-द्यैन", "model": "Je suis indienne." },
+      { "fr": "Je viens de …", "en": "I come from …", "hi": "मैं … से हूँ", "pron": "झ़ö व्यैँ दö", "model": "Je viens de Lucknow." },
+      { "fr": "J'habite à …", "en": "I live in …", "hi": "मैं … में रहता/रहती हूँ", "pron": "झ़ा-बीत आ", "model": "J'habite à Ottawa." },
+      { "fr": "Et vous, vous êtes d'où ?", "en": "And you, where are you from?", "hi": "और आप, आप कहाँ से हैं?", "pron": "ए वू वू ज़ैत दू" }
+    ],
+    "tip": {
+      "en": "Link 'suis' to a following vowel: 'je suis indien' = झ़ö सüई ज़ैँ-द्यैँ. And keep tu (ü) different from tout (ऊ).",
+      "hi": "'suis' को अगले स्वर से जोड़िए: 'je suis indien' = झ़ö सüई ज़ैँ-द्यैँ। और tu (ü) को tout (ऊ) से अलग रखिए।"
+    }
+  },
+  "reading": {
+    "genre": "form",
+    "title": "Trois profils",
+    "text": "PROFIL 1 — Anita Kaur. Elle est canadienne. Elle vient de Brampton. Elle habite à Toronto.\nPROFIL 2 — Rahul Verma. Il est indien. Il vient de Jaipur. Il habite à Ottawa.\nPROFIL 3 — Claire Martin. Elle est française. Elle vient de Paris. Elle habite à Montréal.",
+    "translation": {
+      "en": "PROFILE 1 — Anita Kaur. She is Canadian. She comes from Brampton. She lives in Toronto.\nPROFILE 2 — Rahul Verma. He is Indian. He comes from Jaipur. He lives in Ottawa.\nPROFILE 3 — Claire Martin. She is French. She comes from Paris. She lives in Montréal.",
+      "hi": "प्रोफ़ाइल 1 — अनीता कौर। वह कनाडाई है। वह ब्रैम्पटन से है। वह टोरंटो में रहती है।\nप्रोफ़ाइल 2 — राहुल वर्मा। वह भारतीय है। वह जयपुर से है। वह ओटावा में रहता है।\nप्रोफ़ाइल 3 — क्लेयर मार्तें। वह फ़्रांसीसी है। वह पेरिस से है। वह मॉन्ट्रियाल में रहती है।"
+    },
+    "questions": [
+      { "q": { "en": "Who is French?" }, "options": ["Anita", "Rahul", "Claire"], "answer": 2, "explanation": { "en": "'Claire Martin. Elle est française.'", "hi": "क्लेयर के बारे में लिखा है: 'Elle est française.' — वह फ़्रांसीसी है।" }, "kind": "literal", "evidence": "Claire Martin. Elle est française." },
+      { "q": { "en": "Where does Rahul live?" }, "options": ["Ottawa", "Jaipur", "Toronto"], "answer": 0, "explanation": { "en": "He comes from Jaipur but lives in Ottawa.", "hi": "वह जयपुर से है, पर ओटावा में रहता है।" }, "kind": "literal", "evidence": "Il habite à Ottawa." },
+      { "q": { "en": "Why is 'canadienne' spelled with -enne in Profile 1?" }, "options": ["Because Toronto is a big city", "Because Anita is a woman", "Because it is a question"], "answer": 1, "explanation": { "en": "Anita is a woman, so canadien becomes canadienne.", "hi": "अनीता स्त्री है, इसलिए canadien का रूप canadienne हो जाता है।" }, "kind": "grammar", "evidence": "Anita Kaur. Elle est canadienne." },
+      { "q": { "en": "Anita lives in Toronto. Where does she come from?" }, "options": ["Paris", "Brampton", "Jaipur"], "answer": 1, "explanation": { "en": "'Elle vient de Brampton' — she comes from Brampton and now lives in Toronto.", "hi": "'Elle vient de Brampton' — वह ब्रैम्पटन से है और अब टोरंटो में रहती है।" }, "kind": "literal", "evidence": "Elle vient de Brampton." }
+    ]
+  },
+  "writing": {
+    "type": "sentences",
+    "prompt": {
+      "en": "Write a 4-sentence self-introduction: your name, your nationality, where you come from and where you live.",
+      "hi": "4 वाक्यों में अपना परिचय लिखिए: आपका नाम, आपकी राष्ट्रीयता, आप कहाँ से हैं और कहाँ रहते हैं।"
+    },
+    "minWords": 12,
+    "maxWords": 40,
+    "hints": [
+      { "en": "Women: indienne, canadienne, française. Men: indien, canadien, français.", "hi": "स्त्रियाँ: indienne, canadienne, française। पुरुष: indien, canadien, français।" },
+      { "en": "Use 'je viens de' for where you are from and 'j'habite à' for where you live now.", "hi": "आप कहाँ से हैं, इसके लिए 'je viens de' और अभी कहाँ रहते हैं, इसके लिए 'j'habite à' लिखिए।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Je suis …", "en": "I am …", "hi": "मैं … हूँ", "pron": "झ़ö सüई" },
+      { "fr": "Je viens de …", "en": "I come from …", "hi": "मैं … से हूँ", "pron": "झ़ö व्यैँ दö" },
+      { "fr": "J'habite à …", "en": "I live in …", "hi": "मैं … में रहता/रहती हूँ", "pron": "झ़ा-बीत आ" }
+    ],
+    "model": { "fr": "Bonjour ! Je m'appelle Arjun Singh. Je suis indien. Je viens de Jaipur. J'habite à Toronto.", "en": "Hello! My name is Arjun Singh. I'm Indian. I'm from Jaipur. I live in Toronto." },
+    "checklist": [
+      { "en": "Does your nationality agree with you (masculine or feminine)?", "hi": "क्या राष्ट्रीयता का शब्द आपके लिंग से मेल खाता है?" },
+      { "en": "Did you write the nationality with a small letter and without un/une?", "hi": "क्या आपने राष्ट्रीयता छोटे अक्षर से और बिना un/une के लिखी?" },
+      { "en": "Did you write j'habite with an apostrophe?", "hi": "क्या आपने j'habite apostrophe के साथ लिखा?" }
+    ]
+  },
+  "review": {
+    "fromDays": [1, 2],
+    "items": [
+      { "fr": "Salut !", "en": "Hi!", "hi": "हाय!", "pron": "सा-लü" },
+      { "fr": "Je m'appelle …", "en": "My name is …", "hi": "मेरा नाम … है", "pron": "झ़ö मा-पैल" },
+      { "fr": "Tu t'appelles comment ?", "en": "What's your name? (friendly)", "hi": "तुम्हारा नाम क्या है?", "pron": "तü ता-पैल को-माँ" },
+      { "fr": "Comment ça s'écrit ?", "en": "How is that spelled?", "hi": "इसकी स्पेलिंग क्या है?", "pron": "को-माँ सा से-क्ग़ी" },
+      { "fr": "la ville", "en": "city", "hi": "शहर", "pron": "ला वील" },
+      { "fr": "Enchanté(e).", "en": "Nice to meet you.", "hi": "आपसे मिलकर ख़ुशी हुई।", "pron": "आँ-शाँ-ते" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Choose the right word: 'Elle est ___.' (Indian)", "hi": "सही शब्द चुनिए: 'Elle est ___.' (भारतीय)", "fr": "Elle est ___." }, "options": ["indien", "indienne", "Indienne"], "answer": 1, "explanation": { "en": "She is a woman → indienne, with a small i.", "hi": "वह स्त्री है → indienne, छोटे i के साथ।" } },
+    { "type": "fill", "prompt": { "en": "Complete: I am Canadian (man).", "hi": "पूरा कीजिए: मैं कनाडाई हूँ (पुरुष)।" }, "sentence": "Je ___ canadien.", "answer": "suis", "accept": [], "explanation": { "en": "je + être = je suis.", "hi": "je + être = je suis।" } },
+    { "type": "mcq", "prompt": { "en": "Which sentence is correct?", "hi": "कौन-सा वाक्य सही है?" }, "options": ["Je suis un indien.", "Je suis indien.", "Je indien."], "answer": 1, "explanation": { "en": "After être, no un/une before a nationality — and you need the verb suis.", "hi": "être के बाद राष्ट्रीयता से पहले un/une नहीं — और क्रिया suis ज़रूरी है।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "I live in Toronto.", "hi": "मैं टोरंटो में रहता हूँ।" }, "answer": "J'habite à Toronto.", "accept": ["J’habite à Toronto.", "j'habite à Toronto", "J'habite à Toronto"], "explanation": { "en": "habiter à + city. Don't forget the accent on à.", "hi": "habiter à + शहर। à पर accent मत भूलिए।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: She comes from Delhi.", "hi": "शब्दों को सही क्रम में रखिए: वह दिल्ली से है।" }, "words": ["de", "Elle", "Delhi.", "vient"], "answer": "Elle vient de Delhi.", "explanation": { "en": "Subject + vient + de + city.", "hi": "कर्ता + vient + de + शहर।" } },
+    { "type": "mcq", "prompt": { "en": "Which word has the sound ü (lips rounded, tongue forward)?", "hi": "किस शब्द में ü की आवाज़ है (होंठ गोल, जीभ आगे)?" }, "options": ["tout", "vous", "tu"], "answer": 2, "explanation": { "en": "tu = तü. tout and vous have the ऊ sound.", "hi": "tu = तü। tout और vous में 'ऊ' की आवाज़ है।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "She is French.", "hi": "वह फ़्रांसीसी है।" }, "answer": "Elle est française.", "accept": ["Elle est française", "elle est française."], "explanation": { "en": "français + e = française (the s now sounds like z).", "hi": "français + e = française (अब s की आवाज़ 'ज़' है)।" } }
+  ]
+}

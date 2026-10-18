@@ -1,0 +1,17 @@
+node_modules
+.next
+out
+.data
+*.tsbuildinfo
+next-env.d.ts
+test-results
+playwright-report
+coverage
+.vercel
+.DS_Store
+*.log
+*.pem
+# Secrets: never commit real keys
+.env
+.env.*
+!.env.example

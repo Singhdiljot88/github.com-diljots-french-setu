@@ -1,0 +1,206 @@
+{
+  "day": 38,
+  "phase": 2,
+  "title": { "fr": "Ce sac ou cette lampe ? Ce, cette, ces et quel", "en": "This one, that one: demonstratives and quel", "hi": "यह वाला या वह वाला? ce, cette, ces और quel" },
+  "objective": {
+    "en": "Point to objects with ce / cet / cette / ces, ask 'which?' with quel / quelle / quels / quelles, and choose between two items in a shop, giving a reason.",
+    "hi": "ce / cet / cette / ces से चीज़ों की ओर इशारा करना, quel / quelle / quels / quelles से 'कौन-सा?' पूछना, और दुकान में दो चीज़ों में से एक चुनकर कारण बताना।"
+  },
+  "prerequisites": {
+    "days": [7, 11, 25, 26, 31],
+    "summary": {
+      "en": "Gender of nouns, adjective agreement, prices and quantities, colours, -ir verbs like choisir.",
+      "hi": "संज्ञाओं का लिंग, विशेषणों का मेल, दाम और मात्रा, रंग, choisir जैसी -ir क्रियाएँ।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "le sac à dos", "en": "backpack", "hi": "पिट्ठू बैग / बस्ता", "pron": "लö साक आ दो", "ipa": "lə sak a do", "pos": "noun", "gender": "m", "lemma": "sac" },
+    { "fr": "la bouteille", "en": "bottle", "hi": "बोतल", "pron": "ला बू-तैय", "ipa": "la butɛj", "pos": "noun", "gender": "f" },
+    { "fr": "la lampe", "en": "lamp", "hi": "लैंप", "pron": "ला लाँप", "ipa": "la lɑ̃p", "pos": "noun", "gender": "f" },
+    { "fr": "la bouilloire", "en": "kettle", "hi": "केतली (बिजली वाली)", "pron": "ला बू-य्वाग़", "ipa": "la bujwaʁ", "pos": "noun", "gender": "f", "note": { "en": "Essential for chai in a Canadian flat!", "hi": "कनाडा के फ़्लैट में चाय के लिए ज़रूरी!" } },
+    { "fr": "l'ordinateur portable", "en": "laptop", "hi": "लैपटॉप", "pron": "लॉग़-दी-ना-तöग़ पॉग़-ताब्ल", "ipa": "lɔʁdinatœʁ pɔʁtabl", "pos": "noun", "gender": "m", "lemma": "ordinateur", "note": { "en": "Often just un portable — which in France can also mean a mobile phone. In Québec a mobile is un cellulaire.", "hi": "अक्सर सिर्फ़ un portable — फ़्रांस में इसका मतलब मोबाइल फ़ोन भी हो सकता है। क्यूबेक में मोबाइल को un cellulaire कहते हैं।" } },
+    { "fr": "le modèle", "en": "model", "hi": "मॉडल", "pron": "लö मो-दैल", "ipa": "lə mɔdɛl", "pos": "noun", "gender": "m" },
+    { "fr": "la garantie", "en": "warranty / guarantee", "hi": "वारंटी / गारंटी", "pron": "ला गा-ग़ाँ-ती", "ipa": "la ɡaʁɑ̃ti", "pos": "noun", "gender": "f" },
+    { "fr": "léger / légère", "en": "light (not heavy)", "hi": "हल्का / हल्की", "pron": "ले-झ़े / ले-झ़ैग़", "ipa": "leʒe / leʒɛʁ", "pos": "adjective", "lemma": "léger" },
+    { "fr": "lourd / lourde", "en": "heavy", "hi": "भारी", "pron": "लूग़ / लूग़्द", "ipa": "luʁ / luʁd", "pos": "adjective", "lemma": "lourd" },
+    { "fr": "solide", "en": "sturdy / strong", "hi": "मज़बूत", "pron": "सो-लीद", "ipa": "sɔlid", "pos": "adjective" },
+    { "fr": "pratique", "en": "practical / handy", "hi": "काम का / सुविधाजनक", "pron": "प्रा-तीक", "ipa": "pʁatik", "pos": "adjective" },
+    { "fr": "préférer", "en": "to prefer", "hi": "पसंद करना / ज़्यादा पसंद करना", "pron": "प्रे-फ़े-ग़े", "ipa": "pʁefeʁe", "pos": "verb", "note": { "en": "The middle accent changes: je préfère, tu préfères, il préfère, ils préfèrent — but nous préférons, vous préférez.", "hi": "बीच का एक्सेंट बदलता है: je préfère, tu préfères, il préfère, ils préfèrent — पर nous préférons, vous préférez।" } }
+  ],
+  "phrases": [
+    { "fr": "Vous cherchez quelque chose ?", "en": "Are you looking for something?", "hi": "क्या आप कुछ ढूँढ रहे हैं?", "pron": "वू शैग़-शे कैल-क्ö शोज़" },
+    { "fr": "Je cherche un sac à dos léger.", "en": "I'm looking for a light backpack.", "hi": "मैं एक हल्का बैग ढूँढ रहा/रही हूँ।", "pron": "झ़ö शैग़्श ऐँ साक आ दो ले-झ़े" },
+    { "fr": "Quel est le prix de ce modèle ?", "en": "What is the price of this model?", "hi": "इस मॉडल का दाम क्या है?", "pron": "कैल ऐ लö प्री द्ö स्ö मो-दैल" },
+    { "fr": "Quelle couleur voulez-vous ?", "en": "Which colour do you want?", "hi": "आपको कौन-सा रंग चाहिए?", "pron": "कैल कू-लöग़ वू-ले वू" },
+    { "fr": "Lequel préférez-vous ?", "en": "Which one do you prefer?", "hi": "आपको कौन-सा ज़्यादा पसंद है?", "pron": "लö-कैल प्रे-फ़े-ग़े वू" },
+    { "fr": "Il y a une garantie ?", "en": "Is there a warranty?", "hi": "क्या इसकी वारंटी है?", "pron": "ईल या üन गा-ग़ाँ-ती" },
+    { "fr": "Je vais prendre ce modèle.", "en": "I'll take this model.", "hi": "मैं यह मॉडल लूँगा/लूँगी।", "pron": "झ़ö वै प्राँद्ग़ स्ö मो-दैल" }
+  ],
+  "grammar": {
+    "title": { "en": "This / that: ce, cet, cette, ces — and which?: quel, quelle, quels, quelles", "hi": "यह / वह: ce, cet, cette, ces — और कौन-सा?: quel, quelle, quels, quelles" },
+    "explanation": {
+      "en": "Demonstratives point to a thing and agree with the noun. Masculine: ce sac. Masculine before a vowel or silent h: cet ordinateur, cet homme (cet sounds exactly like cette). Feminine: cette lampe. Plural (both genders): ces bouteilles, ces sacs. One word covers both 'this' and 'that'; to insist, add -ci (here) or -là (there): ce sac-ci, ce sac-là. To ask 'which?', use quel, which also agrees: quel sac ? quelle couleur ? quels modèles ? quelles bouteilles ? All four forms sound the same: कैल. Quel can also come before être: Quel est le prix ? Quelle est votre taille ? For 'which one?' without a noun you will hear lequel ? / laquelle ? (plural lesquels ? / lesquelles ?) — just recognise them for now.",
+      "hi": "निर्देशक शब्द (demonstratives) किसी चीज़ की ओर इशारा करते हैं और संज्ञा से मेल खाते हैं। पुल्लिंग: ce sac। स्वर या मूक h से पहले पुल्लिंग: cet ordinateur, cet homme (cet बिल्कुल cette जैसा सुनाई देता है)। स्त्रीलिंग: cette lampe। बहुवचन (दोनों लिंग): ces bouteilles, ces sacs। एक ही शब्द 'यह' और 'वह' दोनों है; ज़ोर देने के लिए -ci (यहाँ) या -là (वहाँ) जोड़िए: ce sac-ci, ce sac-là। 'कौन-सा?' पूछने के लिए quel लगाइए, जो भी मेल खाता है: quel sac ? quelle couleur ? quels modèles ? quelles bouteilles ? चारों रूप एक जैसे सुनाई देते हैं: कैल। quel, être से पहले भी आ सकता है: Quel est le prix ? Quelle est votre taille ? बिना संज्ञा के 'कौन-सा वाला?' के लिए आप lequel ? / laquelle ? (बहुवचन lesquels ? / lesquelles ?) सुनेंगे — अभी सिर्फ़ इन्हें पहचानिए।"
+    },
+    "comparison": {
+      "en": "English has this/that/these/those but no gender. Hindi यह/वह don't change for gender either — but Hindi कौन-सा / कौन-सी / कौन-से does, just like quel / quelle / quels: कौन-सा बैग? = quel sac ? कौन-सी लैंप? = quelle lampe ? कौन-से मॉडल? = quels modèles ? If you already say कौन-सी for a feminine noun, you already know how quelle works. One difference: French ce is both 'this' and 'that' (यह and वह), so the shop context or -ci / -là tells you which.",
+      "hi": "अंग्रेज़ी में this/that/these/those हैं पर लिंग नहीं। हिंदी के यह/वह भी लिंग से नहीं बदलते — पर हिंदी का कौन-सा / कौन-सी / कौन-से बदलता है, बिल्कुल quel / quelle / quels की तरह: कौन-सा बैग? = quel sac ? कौन-सी लैंप? = quelle lampe ? कौन-से मॉडल? = quels modèles ? अगर आप स्त्रीलिंग संज्ञा के लिए कौन-सी बोलते हैं, तो आप quelle का तरीक़ा पहले से जानते हैं। एक फ़र्क़: फ़्रेंच ce 'यह' और 'वह' दोनों है, इसलिए दुकान का संदर्भ या -ci / -là बताता है कि कौन-सा।"
+    },
+    "examples": [
+      { "fr": "Ce sac à dos est léger.", "en": "This backpack is light.", "hi": "यह बैग हल्का है।", "pron": "स्ö साक आ दो ऐ ले-झ़े" },
+      { "fr": "Cet ordinateur est très cher.", "en": "This computer is very expensive.", "hi": "यह कंप्यूटर बहुत महँगा है।", "pron": "सै तॉग़-दी-ना-तöग़ ऐ त्रै शैग़" },
+      { "fr": "Cette lampe est pratique.", "en": "This lamp is handy.", "hi": "यह लैंप काम का है।", "pron": "सैत लाँप ऐ प्रा-तीक" },
+      { "fr": "Ces bouteilles sont solides.", "en": "These bottles are sturdy.", "hi": "ये बोतलें मज़बूत हैं।", "pron": "से बू-तैय सोँ सो-लीद" },
+      { "fr": "Quelle couleur préférez-vous ?", "en": "Which colour do you prefer?", "hi": "आपको कौन-सा रंग ज़्यादा पसंद है?", "pron": "कैल कू-लöग़ प्रे-फ़े-ग़े वू" },
+      { "fr": "Quels modèles avez-vous ?", "en": "Which models do you have?", "hi": "आपके पास कौन-से मॉडल हैं?", "pron": "कैल मो-दैल आ-वे वू" },
+      { "fr": "Je préfère ce sac-là.", "en": "I prefer that bag (over there).", "hi": "मुझे वह (वहाँ वाला) बैग ज़्यादा पसंद है।", "pron": "झ़ö प्रे-फ़ैग़ स्ö साक-ला" }
+    ],
+    "pitfalls": [
+      { "en": "Before a vowel, masculine ce becomes cet: cet ordinateur, not 'ce ordinateur'.", "hi": "स्वर से पहले पुल्लिंग ce, cet बन जाता है: cet ordinateur, 'ce ordinateur' नहीं।" },
+      { "en": "ces (these) and ses (his/her, Day 22) sound the same: से. The meaning tells you which.", "hi": "ces (ये) और ses (उसके, दिन 22) एक जैसे सुनाई देते हैं: से। अर्थ से पता चलता है कि कौन-सा है।" },
+      { "en": "quel agrees in writing: quelle couleur (f), quels sacs (m pl). Check the noun's gender.", "hi": "लिखने में quel मेल खाता है: quelle couleur (स्त्री.), quels sacs (पु. बहु.)। संज्ञा का लिंग देखिए।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "/s/ vs /z/: poisson / poison, dessert / désert",
+    "tip": {
+      "en": "A single s between two vowels sounds like z: poison = प्वा-ज़ोँ, désert = दे-ज़ैग़, choisir = श्वा-ज़ीग़. A double ss stays s: poisson = प्वा-सोँ, dessert = दे-सैग़. Mixing them changes the meaning — you don't want to order 'poison' instead of fish! The plural ces also links with z before a vowel: ces objets = से ज़ॉब-झ़ै.",
+      "hi": "दो स्वरों के बीच अकेला s, ज़ की तरह सुनाई देता है: poison = प्वा-ज़ोँ, désert = दे-ज़ैग़, choisir = श्वा-ज़ीग़। दोहरा ss, स ही रहता है: poisson = प्वा-सोँ, dessert = दे-सैग़। इन्हें मिलाने से अर्थ बदल जाता है — मछली की जगह 'ज़हर' मत माँगिए! बहुवचन ces भी स्वर से पहले ज़ से जुड़ता है: ces objets = से ज़ॉब-झ़ै।"
+    },
+    "words": [
+      { "fr": "le poisson", "en": "fish", "hi": "मछली", "pron": "लö प्वा-सोँ", "ipa": "lə pwasɔ̃" },
+      { "fr": "le poison", "en": "poison", "hi": "ज़हर", "pron": "लö प्वा-ज़ोँ", "ipa": "lə pwazɔ̃" },
+      { "fr": "le dessert", "en": "dessert", "hi": "मिठाई (खाने के बाद)", "pron": "लö दे-सैग़", "ipa": "lə desɛʁ" },
+      { "fr": "le désert", "en": "desert", "hi": "रेगिस्तान", "pron": "लö दे-ज़ैग़", "ipa": "lə dezɛʁ" },
+      { "fr": "choisir", "en": "to choose", "hi": "चुनना", "pron": "श्वा-ज़ीग़", "ipa": "ʃwaziʁ" },
+      { "fr": "ces objets", "en": "these objects", "hi": "ये चीज़ें", "pron": "से ज़ॉब-झ़ै", "ipa": "se zɔbʒɛ" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Quel sac à dos choisir ?", "en": "Which backpack to choose?" },
+    "type": "dialogue",
+    "mode": "pedagogical",
+    "context": {
+      "en": "Priya is in a shop on rue Sainte-Catherine in Montréal. She needs a new backpack for her daily trip to work.",
+      "hi": "प्रिया मॉन्ट्रियाल की रू सैंत-कैथरीन पर एक दुकान में है। उसे रोज़ काम पर जाने के लिए एक नया बैग चाहिए।"
+    },
+    "lines": [
+      { "speaker": "Le vendeur", "voice": "m2", "fr": "Bonjour, madame. Vous cherchez quelque chose ?", "en": "Hello, madam. Are you looking for something?", "hi": "नमस्ते, मैडम। क्या आप कुछ ढूँढ रही हैं?" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Oui, je cherche un sac à dos pour aller au travail. Je prends le métro tous les jours.", "en": "Yes, I'm looking for a backpack to go to work. I take the metro every day.", "hi": "हाँ, मैं काम पर जाने के लिए एक बैग ढूँढ रही हूँ। मैं रोज़ मेट्रो लेती हूँ।" },
+      { "speaker": "Le vendeur", "voice": "m2", "fr": "Nous avons ces deux modèles. Ce sac noir coûte quatre-vingts dollars, et ce sac bleu coûte cinquante-cinq dollars.", "en": "We have these two models. This black bag costs eighty dollars, and this blue bag costs fifty-five dollars.", "hi": "हमारे पास ये दो मॉडल हैं। यह काला बैग अस्सी डॉलर का है, और यह नीला बैग पचपन डॉलर का।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Le sac noir est lourd ?", "en": "Is the black bag heavy?", "hi": "क्या काला बैग भारी है?" },
+      { "speaker": "Le vendeur", "voice": "m2", "fr": "Non, il est très léger, et il est solide. Il y a aussi une garantie de deux ans.", "en": "No, it's very light, and it's sturdy. There's also a two-year warranty.", "hi": "नहीं, यह बहुत हल्का है, और मज़बूत भी। इसकी दो साल की वारंटी भी है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Et le sac bleu ?", "en": "And the blue bag?", "hi": "और नीला बैग?" },
+      { "speaker": "Le vendeur", "voice": "m2", "fr": "Il est pratique, mais il n'y a pas de place pour un ordinateur portable.", "en": "It's handy, but there's no room for a laptop.", "hi": "यह काम का है, पर इसमें लैपटॉप की जगह नहीं है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Ah, ça ne va pas. Je prends mon ordinateur au travail tous les jours.", "en": "Ah, that won't work. I take my computer to work every day.", "hi": "अरे, यह नहीं चलेगा। मैं रोज़ अपना कंप्यूटर काम पर ले जाती हूँ।" },
+      { "speaker": "Le vendeur", "voice": "m2", "fr": "Alors, ce sac noir est parfait pour vous.", "en": "Then this black bag is perfect for you.", "hi": "तो यह काला बैग आपके लिए बिल्कुल सही है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Oui. Quelles couleurs avez-vous ?", "en": "Yes. Which colours do you have?", "hi": "हाँ। आपके पास कौन-से रंग हैं?" },
+      { "speaker": "Le vendeur", "voice": "m2", "fr": "Nous avons ce modèle en noir, en gris et en rouge.", "en": "We have this model in black, grey and red.", "hi": "यह मॉडल हमारे पास काले, स्लेटी और लाल रंग में है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Je vais prendre ce modèle en gris, s'il vous plaît.", "en": "I'll take this model in grey, please.", "hi": "मैं यह मॉडल स्लेटी रंग में लूँगी, प्लीज़।" }
+    ],
+    "questions": [
+      { "q": { "en": "What is Priya looking for?" }, "options": ["A bag for travelling abroad", "A backpack to go to work", "A laptop"], "answer": 1, "explanation": { "en": "'je cherche un sac à dos pour aller au travail'.", "hi": "'je cherche un sac à dos pour aller au travail' — काम पर जाने के लिए बैग।" }, "kind": "gist", "evidence": "je cherche un sac à dos pour aller au travail" },
+      { "q": { "en": "How much is the black bag?" }, "options": ["$55", "$80", "$90"], "answer": 1, "explanation": { "en": "'Ce sac noir coûte quatre-vingts dollars' = $80.", "hi": "'quatre-vingts dollars' = 80 डॉलर।" }, "kind": "literal", "evidence": "Ce sac noir coûte quatre-vingts dollars" },
+      { "q": { "en": "Why doesn't Priya choose the blue bag?" }, "options": ["It's too expensive", "It's too heavy", "There's no room for her laptop"], "answer": 2, "explanation": { "en": "'il n'y a pas de place pour un ordinateur portable' and she takes her computer to work every day.", "hi": "इसमें लैपटॉप की जगह नहीं है, और वह रोज़ कंप्यूटर काम पर ले जाती है।" }, "kind": "inference", "evidence": "il n'y a pas de place pour un ordinateur portable" },
+      { "q": { "en": "How long is the warranty on the black bag?" }, "options": ["One year", "Two years", "Five years"], "answer": 1, "explanation": { "en": "'une garantie de deux ans'.", "hi": "'une garantie de deux ans' — दो साल।" }, "kind": "literal", "evidence": "Il y a aussi une garantie de deux ans." },
+      { "q": { "en": "Which colour does Priya buy?" }, "options": ["Black", "Grey", "Red"], "answer": 1, "explanation": { "en": "'Je vais prendre ce modèle en gris'.", "hi": "'en gris' — स्लेटी।" }, "kind": "literal", "evidence": "Je vais prendre ce modèle en gris" }
+    ],
+    "dictation": ["Vous cherchez quelque chose ?", "Quelles couleurs avez-vous ?", "Ce sac noir est parfait pour vous."],
+    "gapFill": { "text": "Nous avons ___ deux modèles. Le sac noir est lourd ? Non, il est très ___, et il est solide. Alors, ___ sac noir est parfait pour vous.", "answers": ["ces", "léger", "ce"] }
+  },
+  "speaking": {
+    "type": "roleplay",
+    "instructions": {
+      "en": "You are in a shop and must choose between two items (two lamps, two bottles or two backpacks). Ask about price, colour and warranty with quel / quelle, compare using léger, lourd, solide, pratique, then choose one with ce / cette and say why with parce que.",
+      "hi": "आप एक दुकान में हैं और आपको दो चीज़ों (दो लैंप, दो बोतलें या दो बैग) में से एक चुननी है। quel / quelle से दाम, रंग और वारंटी के बारे में पूछिए, léger, lourd, solide, pratique से तुलना कीजिए, फिर ce / cette से एक चुनिए और parce que से कारण बताइए।"
+    },
+    "prompts": [
+      { "fr": "Bonjour ! Vous cherchez quelque chose ?", "en": "Hello! Are you looking for something?", "hi": "नमस्ते! क्या आप कुछ ढूँढ रहे हैं?", "pron": "बोँ-झ़ूग़ वू शैग़-शे कैल-क्ö शोज़", "model": "Oui, je cherche une bouteille pour l'eau. Je vais au sport trois fois par semaine." },
+      { "fr": "Nous avons cette bouteille rouge et cette bouteille grise.", "en": "We have this red bottle and this grey bottle.", "hi": "हमारे पास यह लाल बोतल और यह स्लेटी बोतल है।", "pron": "नू ज़ा-वोँ सैत बू-तैय ग़ूझ़ ए सैत बू-तैय ग्रीज़", "model": "Quel est le prix de cette bouteille rouge ?" },
+      { "fr": "Elle coûte vingt dollars. La grise coûte trente dollars.", "en": "It costs twenty dollars. The grey one costs thirty dollars.", "hi": "यह बीस डॉलर की है। स्लेटी वाली तीस डॉलर की है।", "pron": "ऐल कूत वैँ दो-लाग़ ला ग्रीज़ कूत त्राँत दो-लाग़", "model": "Et quelle bouteille est légère ? Il y a une garantie ?" },
+      { "fr": "La grise est légère et solide, avec une garantie d'un an.", "en": "The grey one is light and sturdy, with a one-year warranty.", "hi": "स्लेटी वाली हल्की और मज़बूत है, एक साल की वारंटी के साथ।", "pron": "ला ग्रीज़ ऐ ले-झ़ैग़ ए सो-लीद आ-वैक üन गा-ग़ाँ-ती दैँ नाँ", "model": "Je vais prendre cette bouteille grise, parce qu'elle est légère et solide." },
+      { "fr": "Très bien ! Vous payez comment ?", "en": "Very good! How are you paying?", "hi": "बहुत अच्छा! आप कैसे भुगतान करेंगे?", "pron": "त्रै ब्यैँ वू पे-ये को-माँ", "model": "Par carte, s'il vous plaît." }
+    ],
+    "tip": {
+      "en": "Point as you speak: cette bouteille-ci (this one here), cette bouteille-là (that one there). In real shops, gesture plus ce / cette is often all you need.",
+      "hi": "बोलते समय इशारा कीजिए: cette bouteille-ci (यह वाली, यहाँ), cette bouteille-là (वह वाली, वहाँ)। असली दुकानों में अक्सर इशारा और ce / cette ही काफ़ी होते हैं।"
+    },
+    "scenario": {
+      "setting": { "en": "A sports and outdoor shop in Montréal.", "hi": "मॉन्ट्रियाल में खेल और आउटडोर सामान की एक दुकान।" },
+      "learnerRole": { "en": "A customer choosing between two items.", "hi": "दो चीज़ों में से एक चुनने वाला ग्राहक।" },
+      "partnerRole": { "en": "A friendly salesperson who describes the items.", "hi": "एक मिलनसार विक्रेता, जो चीज़ों के बारे में बताता है।" },
+      "goals": [
+        { "en": "Ask two questions with quel / quelle.", "hi": "quel / quelle से दो सवाल पूछिए।" },
+        { "en": "Describe both items with at least two adjectives.", "hi": "दोनों चीज़ों का कम से कम दो विशेषणों से वर्णन कीजिए।" },
+        { "en": "Choose with ce / cet / cette and give a reason with parce que.", "hi": "ce / cet / cette से चुनिए और parce que से कारण बताइए।" }
+      ]
+    }
+  },
+  "reading": {
+    "genre": "chart",
+    "title": "Comparatif : deux bouilloires électriques",
+    "text": "Comparatif : deux bouilloires électriques\nModèle A — Rapido\nPrix : 39,99 $\nCouleurs : blanc ou noir\nCapacité : 1,7 litre\nPoints forts : cette bouilloire est très rapide et facile à nettoyer.\nGarantie : un an\nModèle B — Classique\nPrix : 59,99 $\nCouleurs : rouge, gris ou bleu\nCapacité : 1 litre\nPoints forts : ce modèle est solide et élégant. Il garde l'eau chaude pendant 30 minutes.\nGarantie : trois ans\nNotre avis : quel modèle choisir ? Pour une famille, choisissez la Rapido : elle est grande et pas chère. Pour une personne seule, la Classique est parfaite, mais attention au prix !",
+    "translation": {
+      "en": "Comparison: two electric kettles\nModel A — Rapido\nPrice: $39.99\nColours: white or black\nCapacity: 1.7 litres\nStrong points: this kettle is very fast and easy to clean.\nWarranty: one year\nModel B — Classique\nPrice: $59.99\nColours: red, grey or blue\nCapacity: 1 litre\nStrong points: this model is sturdy and elegant. It keeps water hot for 30 minutes.\nWarranty: three years\nOur opinion: which model should you choose? For a family, choose the Rapido: it's big and not expensive. For a person living alone, the Classique is perfect, but watch out for the price!",
+      "hi": "तुलना: दो बिजली की केतलियाँ\nमॉडल A — रापिडो\nदाम: 39.99 डॉलर\nरंग: सफ़ेद या काला\nक्षमता: 1.7 लीटर\nख़ूबियाँ: यह केतली बहुत तेज़ है और साफ़ करने में आसान।\nवारंटी: एक साल\nमॉडल B — क्लासीक\nदाम: 59.99 डॉलर\nरंग: लाल, स्लेटी या नीला\nक्षमता: 1 लीटर\nख़ूबियाँ: यह मॉडल मज़बूत और सुंदर है। यह पानी को 30 मिनट तक गरम रखता है।\nवारंटी: तीन साल\nहमारी राय: कौन-सा मॉडल चुनें? परिवार के लिए रापिडो चुनिए: यह बड़ी है और सस्ती भी। अकेले रहने वाले व्यक्ति के लिए क्लासीक बिल्कुल सही है, पर दाम पर ध्यान दीजिए!"
+    },
+    "questions": [
+      { "q": { "en": "Which model has the longer warranty?" }, "options": ["Model A — Rapido", "Model B — Classique", "Both have the same"], "answer": 1, "explanation": { "en": "Rapido: un an; Classique: trois ans.", "hi": "रापिडो: एक साल; क्लासीक: तीन साल।" }, "kind": "literal", "evidence": "Garantie : trois ans" },
+      { "q": { "en": "In which colours is the Rapido available?" }, "options": ["White or black", "Red, grey or blue", "Only grey"], "answer": 0, "explanation": { "en": "'Couleurs : blanc ou noir'.", "hi": "'blanc ou noir' — सफ़ेद या काला।" }, "kind": "literal", "evidence": "Couleurs : blanc ou noir" },
+      { "q": { "en": "Arjun lives with his wife, his parents and two children. Which kettle does the card suggest?" }, "options": ["The Rapido", "The Classique", "Neither"], "answer": 0, "explanation": { "en": "'Pour une famille, choisissez la Rapido : elle est grande et pas chère.'", "hi": "परिवार के लिए रापिडो: बड़ी और सस्ती।" }, "kind": "inference", "evidence": "Pour une famille, choisissez la Rapido" },
+      { "q": { "en": "What can the Classique do that the card mentions?" }, "options": ["Boil water in one minute", "Keep water hot for 30 minutes", "Hold 1.7 litres"], "answer": 1, "explanation": { "en": "'Il garde l'eau chaude pendant 30 minutes.'", "hi": "'Il garde l'eau chaude pendant 30 minutes.' — 30 मिनट तक पानी गरम।" }, "kind": "literal", "evidence": "Il garde l'eau chaude pendant 30 minutes." }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "Write a short online review of an object you own (a bag, a phone, a kettle, a coat…). Say how long you have had it, describe it with three adjectives, give one good point and one bad point, and say if you recommend it.",
+      "hi": "अपनी किसी चीज़ (बैग, फ़ोन, केतली, कोट…) की एक छोटी ऑनलाइन समीक्षा लिखिए। बताइए कि वह कब से आपके पास है, तीन विशेषणों से उसका वर्णन कीजिए, एक अच्छी और एक बुरी बात बताइए, और बताइए कि आप इसकी सिफ़ारिश करते हैं या नहीं।"
+    },
+    "minWords": 40,
+    "maxWords": 90,
+    "hints": [
+      { "en": "Use ce / cet / cette at least twice to refer to your object.", "hi": "अपनी चीज़ के लिए कम से कम दो बार ce / cet / cette लिखिए।" },
+      { "en": "Make the adjectives agree: cette bouilloire est légère, ce sac est léger.", "hi": "विशेषणों का मेल कीजिए: cette bouilloire est légère, ce sac est léger।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "J'ai ce sac depuis deux mois.", "en": "I've had this bag for two months.", "hi": "यह बैग दो महीने से मेरे पास है।", "pron": "झ़े स्ö साक द्ö-प्üई दö म्वा" },
+      { "fr": "Le point fort, c'est …", "en": "The strong point is …", "hi": "इसकी ख़ूबी है …", "pron": "लö प्वैँ फ़ॉग़ सै …" },
+      { "fr": "Je recommande ce modèle.", "en": "I recommend this model.", "hi": "मैं इस मॉडल की सिफ़ारिश करता/करती हूँ।", "pron": "झ़ö ग़ö-को-माँद स्ö मो-दैल" }
+    ],
+    "model": {
+      "fr": "Mon avis sur le sac à dos Urbain\nJ'ai ce sac à dos depuis deux mois. Je prends le métro tous les jours et ce sac est parfait : il est léger, solide et pratique. Il y a une place pour mon ordinateur portable. Cette couleur grise est très jolie. Le point faible, c'est le prix : quatre-vingts dollars, c'est cher. Mais la garantie est de deux ans. Je recommande ce modèle !\nNote : 4/5",
+      "en": "My review of the Urbain backpack\nI've had this backpack for two months. I take the metro every day and this bag is perfect: it's light, sturdy and practical. There's room for my laptop. This grey colour is very pretty. The weak point is the price: eighty dollars is expensive. But the warranty is two years. I recommend this model!\nRating: 4/5"
+    },
+    "checklist": [
+      { "en": "Did you use ce / cet / cette / ces correctly (cet before a vowel)?", "hi": "क्या ce / cet / cette / ces सही लिखे (स्वर से पहले cet)?" },
+      { "en": "Do your adjectives agree with the noun?", "hi": "क्या विशेषण संज्ञा से मेल खाते हैं?" },
+      { "en": "Did you give a good point, a bad point and a recommendation?", "hi": "क्या एक अच्छी बात, एक बुरी बात और सिफ़ारिश लिखी?" }
+    ]
+  },
+  "review": {
+    "fromDays": [22, 25, 26, 31, 36, 37],
+    "items": [
+      { "fr": "C'est combien ?", "en": "How much is it?", "hi": "यह कितने का है?", "pron": "सै कोँ-ब्यैँ" },
+      { "fr": "C'est trop cher.", "en": "It's too expensive.", "hi": "यह बहुत महँगा है।", "pron": "सै त्रो शैग़" },
+      { "fr": "Vous faites quelle taille ?", "en": "What size are you?", "hi": "आपका साइज़ क्या है?", "pron": "वू फ़ैत कैल ताय" },
+      { "fr": "Je choisis le manteau gris.", "en": "I choose the grey coat.", "hi": "मैं स्लेटी कोट चुनता/चुनती हूँ।", "pron": "झ़ö श्वा-ज़ी लö माँ-तो ग्री" },
+      { "fr": "Vous payez par carte ?", "en": "Are you paying by card?", "hi": "क्या आप कार्ड से भुगतान कर रहे हैं?", "pron": "वू पे-ये पाग़ काग़्त" },
+      { "fr": "ses enfants", "en": "his / her children", "hi": "उसके बच्चे", "pron": "से ज़ाँ-फ़ाँ" },
+      { "fr": "J'ai ce manteau depuis un an.", "en": "I've had this coat for a year.", "hi": "यह कोट एक साल से मेरे पास है।", "pron": "झ़े स्ö माँ-तो द्ö-प्üई ज़ैँ नाँ" },
+      { "fr": "Je vais acheter une tuque.", "en": "I'm going to buy a toque.", "hi": "मैं एक ऊनी टोपी ख़रीदने वाला/वाली हूँ।", "pron": "झ़ö वै ज़ाश-ते üन तüक" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Choose the right word: ___ ordinateur est léger.", "hi": "सही शब्द चुनिए: ___ ordinateur est léger।" }, "options": ["Ce", "Cet", "Cette", "Ces"], "answer": 1, "explanation": { "en": "Masculine before a vowel: cet.", "hi": "स्वर से पहले पुल्लिंग: cet।" } },
+    { "type": "fill", "prompt": { "en": "Complete: This lamp is handy.", "hi": "पूरा कीजिए: यह लैंप काम का है।" }, "sentence": "___ lampe est pratique.", "answer": "Cette", "accept": ["cette"], "explanation": { "en": "la lampe is feminine: cette.", "hi": "la lampe स्त्रीलिंग है: cette।" } },
+    { "type": "mcq", "prompt": { "en": "Which colour do you prefer?", "hi": "आपको कौन-सा रंग ज़्यादा पसंद है?" }, "options": ["Quel couleur préférez-vous ?", "Quelle couleur préférez-vous ?", "Quels couleur préférez-vous ?"], "answer": 1, "explanation": { "en": "la couleur is feminine singular: quelle.", "hi": "la couleur स्त्रीलिंग एकवचन है: quelle।" } },
+    { "type": "fill", "prompt": { "en": "Complete: Do you have these bottles in blue?", "hi": "पूरा कीजिए: क्या आपके पास ये बोतलें नीले रंग में हैं?" }, "sentence": "Vous avez ___ bouteilles en bleu ?", "answer": "ces", "accept": [], "explanation": { "en": "Plural: ces.", "hi": "बहुवचन: ces।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "This backpack is light.", "hi": "यह बैग हल्का है।" }, "answer": "Ce sac à dos est léger.", "accept": ["ce sac à dos est léger", "Ce sac à dos est léger"], "explanation": { "en": "le sac à dos → ce; léger agrees with a masculine noun.", "hi": "le sac à dos → ce; léger पुल्लिंग संज्ञा से मेल खाता है।" } },
+    { "type": "mcq", "prompt": { "en": "Which word has a z sound in the middle?", "hi": "किस शब्द के बीच में ज़ की आवाज़ है?" }, "options": ["poisson", "poison", "dessert"], "answer": 1, "explanation": { "en": "Single s between vowels = z: poison. Double ss = s.", "hi": "स्वरों के बीच अकेला s = ज़: poison। दोहरा ss = स।" } },
+    { "type": "mcq", "prompt": { "en": "A shop assistant asks 'Lequel préférez-vous ?' What does it mean?", "hi": "विक्रेता पूछता है 'Lequel préférez-vous ?' इसका मतलब क्या है?" }, "options": ["How much do you want to pay?", "Which one do you prefer?", "Do you want a bag?"], "answer": 1, "explanation": { "en": "lequel = which one.", "hi": "lequel = कौन-सा वाला।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: Which models do you have?", "hi": "शब्दों को सही क्रम में रखिए: आपके पास कौन-से मॉडल हैं?" }, "words": ["avez-vous", "modèles", "Quels", "?"], "answer": "Quels modèles avez-vous ?", "explanation": { "en": "Quels + noun + inverted verb.", "hi": "Quels + संज्ञा + उलटी क्रिया।" } }
+  ]
+}

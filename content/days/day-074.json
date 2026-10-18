@@ -1,0 +1,210 @@
+{
+  "day": 74,
+  "phase": 4,
+  "title": { "fr": "Structurer une opinion", "en": "Structuring an opinion", "hi": "राय को ढाँचे में रखना" },
+  "objective": {
+    "en": "Organise an opinion in clear parts (introduction, arguments with examples, a nuance, conclusion) and give recommendations with il est important de, il est nécessaire de and il faut + infinitive.",
+    "hi": "अपनी राय को साफ़ हिस्सों में रखना (भूमिका, उदाहरण के साथ तर्क, एक बारीकी, निष्कर्ष) और il est important de, il est nécessaire de तथा il faut + infinitive से सुझाव देना।"
+  },
+  "prerequisites": {
+    "days": [61, 62, 69, 73],
+    "summary": {
+      "en": "You can give an opinion (Day 61), give reasons (62), link ideas with connectors (69) and recognise objections (73). Today you put it all together into a speech or text with a clear plan.",
+      "hi": "आप राय दे सकते हैं (दिन 61), कारण बता सकते हैं (62), योजकों से विचार जोड़ सकते हैं (69) और आपत्तियाँ मान सकते हैं (73)। आज आप यह सब एक साफ़ योजना वाले भाषण या लेख में जोड़ेंगे।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "l'éducation", "en": "education", "hi": "शिक्षा", "pron": "ले-दü-का-स्योँ", "ipa": "ledykasjɔ̃", "pos": "noun", "gender": "f", "lemma": "éducation" },
+    { "fr": "la technologie", "en": "technology", "hi": "तकनीक, प्रौद्योगिकी", "pron": "ला तैक-नो-लो-झ़ी", "ipa": "la tɛknɔlɔʒi", "pos": "noun", "gender": "f", "lemma": "technologie" },
+    { "fr": "un écran", "en": "a screen", "hi": "स्क्रीन, परदा", "pron": "ऐँ ने-क्ग़ाँ", "ipa": "ɛ̃ nekʁɑ̃", "pos": "noun", "gender": "m", "lemma": "écran", "note": { "en": "le temps d'écran = screen time.", "hi": "le temps d'écran = स्क्रीन के सामने बिताया समय।" } },
+    { "fr": "un outil", "en": "a tool", "hi": "औज़ार, साधन", "pron": "ऐँ नू-ती", "ipa": "ɛ̃ nuti", "pos": "noun", "gender": "m", "lemma": "outil", "note": { "en": "The final l is silent.", "hi": "आख़िरी l नहीं बोला जाता।" } },
+    { "fr": "l'apprentissage", "en": "learning", "hi": "सीखना, सीखने की प्रक्रिया", "pron": "ला-प्ग़ाँ-ती-साझ़", "ipa": "lapʁɑ̃tisaʒ", "pos": "noun", "gender": "m", "lemma": "apprentissage" },
+    { "fr": "en ligne", "en": "online", "hi": "ऑनलाइन", "pron": "आँ लीन्य", "ipa": "ɑ̃ liɲ", "pos": "phrase", "note": { "en": "un cours en ligne = an online course.", "hi": "un cours en ligne = ऑनलाइन कोर्स।" } },
+    { "fr": "les réseaux sociaux", "en": "social media", "hi": "सोशल मीडिया", "pron": "ले ग़े-ज़ो सो-स्यो", "ipa": "le ʁezo sɔsjo", "pos": "noun", "gender": "m", "lemma": "réseau social" },
+    { "fr": "la dépendance", "en": "addiction, dependence", "hi": "लत, निर्भरता", "pron": "ला दे-पाँ-दाँस", "ipa": "la depɑ̃dɑ̃s", "pos": "noun", "gender": "f", "lemma": "dépendance" },
+    { "fr": "un inconvénient", "en": "a drawback", "hi": "नुक़सान, कमी", "pron": "ऐँ नैँ-कोँ-वे-न्याँ", "ipa": "ɛ̃ nɛ̃kɔ̃venjɑ̃", "pos": "noun", "gender": "m", "lemma": "inconvénient", "note": { "en": "Opposite: un avantage.", "hi": "उलटा: un avantage (फ़ायदा)।" } },
+    { "fr": "nécessaire", "en": "necessary", "hi": "ज़रूरी, आवश्यक", "pron": "ने-से-सैग़", "ipa": "nesesɛʁ", "pos": "adjective" },
+    { "fr": "tout d'abord", "en": "first of all", "hi": "सबसे पहले", "pron": "तू दा-बॉग़", "ipa": "tu dabɔʁ", "pos": "phrase" },
+    { "fr": "d'une part… d'autre part", "en": "on the one hand… on the other hand", "hi": "एक ओर… दूसरी ओर", "pron": "दüन पाग़ … दोत्ग़ पाग़", "ipa": "dyn paʁ … dotʁ paʁ", "pos": "phrase", "note": { "en": "Often used to add a second argument in the same direction, not only to contrast.", "hi": "अक्सर उसी दिशा में दूसरा तर्क जोड़ने के लिए, सिर्फ़ विरोध के लिए नहीं।" } },
+    { "fr": "en conclusion", "en": "in conclusion", "hi": "निष्कर्ष में, अंत में", "pron": "आँ कोँ-क्लü-ज़्योँ", "ipa": "ɑ̃ kɔ̃klyzjɔ̃", "pos": "phrase" }
+  ],
+  "phrases": [
+    { "fr": "Il est important de limiter le temps d'écran.", "en": "It's important to limit screen time.", "hi": "स्क्रीन का समय सीमित रखना ज़रूरी है।", "pron": "ई-लै तैँ-पोग़-ताँ दö ली-मी-ते लö ताँ दे-क्ग़ाँ" },
+    { "fr": "Il faut apprendre à utiliser ces outils.", "en": "We need to learn to use these tools.", "hi": "इन साधनों का इस्तेमाल करना सीखना पड़ेगा।", "pron": "ईल फ़ो आ-प्ग़ाँद्ग़ आ ü-ती-ली-ज़े से ज़ू-ती" },
+    { "fr": "Tout d'abord… Ensuite… Enfin…", "en": "First of all… Next… Finally…", "hi": "सबसे पहले… फिर… आख़िर में…", "pron": "तू दा-बॉग़ … आँ-स्üइत … आँ-फ़ैँ" },
+    { "fr": "Prenons un exemple.", "en": "Let's take an example.", "hi": "एक उदाहरण लेते हैं।", "pron": "प्ग़ö-नोँ ज़ैँ नैग-ज़ाँप्ल" },
+    { "fr": "D'un côté, c'est pratique ; de l'autre, c'est cher.", "en": "On one side it's practical; on the other, it's expensive.", "hi": "एक तरफ़ यह सुविधाजनक है; दूसरी तरफ़ महँगा है।", "pron": "दैँ को-ते सै प्ग़ा-तीक दö लोत्ग़ सै शैग़" },
+    { "fr": "En conclusion, je pense que c'est un bon outil.", "en": "In conclusion, I think it's a good tool.", "hi": "निष्कर्ष में, मुझे लगता है कि यह एक अच्छा साधन है।", "pron": "आँ कोँ-क्लü-ज़्योँ झ़ö पाँस कö सै तैँ बोँ नू-ती" },
+    { "fr": "Pour résumer, je suis pour, avec des conditions.", "en": "To sum up, I'm in favour, with conditions.", "hi": "संक्षेप में, मैं पक्ष में हूँ, कुछ शर्तों के साथ।", "pron": "पूग़ ग़े-ज़ü-मे झ़ö स्üई पूग़ आ-वैक दे कोँ-दी-स्योँ" }
+  ],
+  "grammar": {
+    "title": { "en": "The plan of an opinion + il est important de / il faut + infinitive", "hi": "राय की योजना + il est important de / il faut + infinitive" },
+    "explanation": {
+      "en": "A structured opinion has four parts. 1) INTRODUCTION: present the topic, often as a question, and give your position: Aujourd'hui, beaucoup d'élèves… Est-ce une bonne chose ? À mon avis, oui. 2) ARGUMENTS, each with an EXAMPLE: Tout d'abord… Par exemple… / Ensuite… / D'une part… d'autre part… 3) A NUANCE (the other side): Cependant… / Certes…, mais… 4) CONCLUSION, often with a recommendation: En conclusion / Pour résumer… To recommend, use an impersonal structure + infinitive: Il est important de + inf. (it is important to), Il est nécessaire de + inf. (it is necessary to), Il faut + inf. (we must / one must). Il faut has no real subject: il never changes (il faut, il fallait, il faudra). In speech, people often say C'est important de… instead of Il est important de…",
+      "hi": "ढाँचे वाली राय के चार हिस्से होते हैं। 1) भूमिका: विषय रखिए, अक्सर सवाल की तरह, और अपनी राय दीजिए: Aujourd'hui, beaucoup d'élèves… Est-ce une bonne chose ? À mon avis, oui। 2) तर्क, हर एक के साथ एक उदाहरण: Tout d'abord… Par exemple… / Ensuite… / D'une part… d'autre part… 3) एक बारीकी (दूसरा पक्ष): Cependant… / Certes…, mais… 4) निष्कर्ष, अक्सर एक सुझाव के साथ: En conclusion / Pour résumer… सुझाव देने के लिए बिना कर्ता वाला ढाँचा + infinitive: Il est important de + inf. (… करना ज़रूरी है), Il est nécessaire de + inf. (… करना आवश्यक है), Il faut + inf. (… करना चाहिए / पड़ेगा)। Il faut का कोई असली कर्ता नहीं होता: il कभी नहीं बदलता (il faut, il fallait, il faudra)। बोलचाल में लोग अक्सर Il est important de… की जगह C'est important de… कहते हैं।"
+    },
+    "comparison": {
+      "en": "Hindi works the same way: 'ज़रूरी है कि…' / '…करना चाहिए' also have no real subject, just like il faut. English needs a subject ('we must', 'you have to'); French il faut does not say who. Hindi essays also follow the same plan: भूमिका, तर्क, निष्कर्ष.",
+      "hi": "हिंदी भी इसी तरह काम करती है: 'ज़रूरी है कि…' / '…करना चाहिए' में भी असली कर्ता नहीं होता, बिल्कुल il faut की तरह। अंग्रेज़ी को कर्ता चाहिए ('we must', 'you have to'); फ़्रेंच il faut यह नहीं बताता कि कौन। हिंदी निबंध भी यही योजना अपनाते हैं: भूमिका, तर्क, निष्कर्ष।"
+    },
+    "examples": [
+      { "fr": "Il est important de dormir huit heures.", "en": "It's important to sleep eight hours.", "hi": "आठ घंटे सोना ज़रूरी है।", "pron": "ई-लै तैँ-पोग़-ताँ दö दॉग़-मीग़ üइ तöग़" },
+      { "fr": "Il faut protéger les enfants.", "en": "We must protect children.", "hi": "बच्चों की रक्षा करनी चाहिए।", "pron": "ईल फ़ो प्ग़ो-ते-झ़े ले ज़ाँ-फ़ाँ" },
+      { "fr": "Il ne faut pas interdire les écrans.", "en": "We must not ban screens.", "hi": "स्क्रीन पर पाबंदी नहीं लगानी चाहिए।", "pron": "ईल नö फ़ो पा ऐँ-तैग़-दीग़ ले ज़े-क्ग़ाँ" },
+      { "fr": "Il est nécessaire de vérifier les informations.", "en": "It's necessary to check information.", "hi": "जानकारी की जाँच करना आवश्यक है।", "pron": "ई-लै ने-से-सैग़ दö वे-ग़ी-फ़्ये ले ज़ैँ-फ़ोग़-मा-स्योँ" },
+      { "fr": "Tout d'abord, les cours en ligne sont flexibles.", "en": "First of all, online courses are flexible.", "hi": "सबसे पहले, ऑनलाइन कोर्स लचीले होते हैं।", "pron": "तू दा-बॉग़ ले कूग़ आँ लीन्य सोँ फ़्लैक-सीब्ल" },
+      { "fr": "En conclusion, la technologie est un outil utile.", "en": "In conclusion, technology is a useful tool.", "hi": "निष्कर्ष में, तकनीक एक उपयोगी साधन है।", "pron": "आँ कोँ-क्लü-ज़्योँ ला तैक-नो-लो-झ़ी ऐ तैँ नू-ती ü-तील" }
+    ],
+    "pitfalls": [
+      { "en": "Il est important DE + infinitive, not 'à': Il est important de lire (not 'à lire').", "hi": "Il est important DE + infinitive, 'à' नहीं: Il est important de lire ('à lire' नहीं)।" },
+      { "en": "Il ne faut pas = must NOT (a prohibition), not 'don't have to'. 'You don't have to' = Ce n'est pas nécessaire de… / Tu n'es pas obligé de…", "hi": "Il ne faut pas = नहीं करना चाहिए (मनाही), 'ज़रूरी नहीं' नहीं। 'ज़रूरी नहीं है' = Ce n'est pas nécessaire de… / Tu n'es pas obligé de…" },
+      { "en": "Every argument needs an example. An argument without an example sounds like a slogan.", "hi": "हर तर्क को एक उदाहरण चाहिए। बिना उदाहरण का तर्क नारे जैसा लगता है।" },
+      { "en": "Don't stack connectors: one per sentence is enough (not 'Tout d'abord, premièrement, d'une part…').", "hi": "योजकों का ढेर मत लगाइए: एक वाक्य में एक काफ़ी है ('Tout d'abord, premièrement, d'une part…' नहीं)।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Rhythm groups and pauses in a structured speech",
+    "tip": {
+      "en": "When you shadow a structured opinion, make a short pause after each connector (Tout d'abord | les tablettes sont légères). The connector itself is said as one block, with the voice slightly rising at the end. Then say each idea as a rhythm group, without stopping inside it. Do not pause between an article and its noun (les | tablettes is wrong).",
+      "hi": "जब आप ढाँचे वाली राय की नक़ल (shadowing) करें, तो हर योजक के बाद छोटा ठहराव रखिए (Tout d'abord | les tablettes sont légères)। योजक ख़ुद एक ही टुकड़े में बोला जाता है, आख़िर में आवाज़ थोड़ी ऊपर जाती है। फिर हर विचार को एक लय-समूह की तरह बोलिए, बीच में रुके बिना। article और उसकी संज्ञा के बीच मत रुकिए (les | tablettes ग़लत है)।"
+    },
+    "words": [
+      { "fr": "tout d'abord", "en": "first of all", "hi": "सबसे पहले", "pron": "तू दा-बॉग़", "ipa": "tu dabɔʁ" },
+      { "fr": "ensuite", "en": "next", "hi": "फिर, उसके बाद", "pron": "आँ-स्üइत", "ipa": "ɑ̃sɥit" },
+      { "fr": "par exemple", "en": "for example", "hi": "उदाहरण के लिए", "pron": "पा-ग़ैग-ज़ाँप्ल", "ipa": "paʁɛɡzɑ̃pl", "note": { "en": "The r links to exemple: pa-rè-gzã-pl.", "hi": "r, exemple से जुड़ जाता है।" } },
+      { "fr": "d'autre part", "en": "on the other hand", "hi": "दूसरी ओर", "pron": "दोत्ग़ पाग़", "ipa": "dotʁ paʁ" },
+      { "fr": "cependant", "en": "however", "hi": "हालाँकि", "pron": "सö-पाँ-दाँ", "ipa": "səpɑ̃dɑ̃" },
+      { "fr": "en conclusion", "en": "in conclusion", "hi": "निष्कर्ष में", "pron": "आँ कोँ-क्लü-ज़्योँ", "ipa": "ɑ̃ kɔ̃klyzjɔ̃" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Le point de vue de Léa : des tablettes à la place des manuels ?", "en": "Léa's point of view: tablets instead of textbooks?" },
+    "type": "radio",
+    "mode": "natural",
+    "context": {
+      "en": "On a morning radio show in Montréal, host Thomas welcomes columnist Léa for her short opinion piece. Today's question: should schools replace textbooks with tablets? Listen for the plan of her opinion: position, arguments, examples, nuance, conclusion.",
+      "hi": "मॉन्ट्रियाल के एक सुबह के रेडियो शो में होस्ट थॉमस स्तंभकार लेआ का उनकी छोटी राय-टिप्पणी के लिए स्वागत करते हैं। आज का सवाल: क्या स्कूलों को पाठ्यपुस्तकों की जगह टैबलेट ले आने चाहिए? उनकी राय की योजना पर ध्यान दीजिए: राय, तर्क, उदाहरण, बारीकी, निष्कर्ष।"
+    },
+    "lines": [
+      { "speaker": "Thomas", "voice": "m2", "fr": "Bonjour à tous et bienvenue dans « Le point de vue de Léa ». Ce matin, une question qui divise les parents : faut-il remplacer les manuels scolaires par des tablettes ? Léa, bonjour.", "en": "Hello everyone and welcome to 'Léa's point of view'. This morning, a question that divides parents: should we replace school textbooks with tablets? Léa, good morning.", "hi": "सबको नमस्कार और 'लेआ का नज़रिया' में आपका स्वागत है। आज सुबह एक ऐसा सवाल जिस पर माता-पिता बँटे हुए हैं: क्या स्कूल की किताबों की जगह टैबलेट ले आने चाहिए? लेआ, नमस्ते।" },
+      { "speaker": "Léa", "voice": "f2", "fr": "Bonjour Thomas. Alors, à mon avis, oui, mais pas n'importe comment.", "en": "Hello Thomas. Well, in my opinion, yes, but not just any old way.", "hi": "नमस्ते थॉमस। तो, मेरी राय में, हाँ, लेकिन किसी भी तरह से नहीं।" },
+      { "speaker": "Thomas", "voice": "m2", "fr": "Expliquez-nous.", "en": "Explain.", "hi": "समझाइए।" },
+      { "speaker": "Léa", "voice": "f2", "fr": "Tout d'abord, les tablettes sont légères. Aujourd'hui, un élève de secondaire porte parfois huit kilos de livres dans son sac. C'est trop lourd pour son dos.", "en": "First of all, tablets are light. Today, a high-school student sometimes carries eight kilos of books in their bag. That's too heavy for their back.", "hi": "सबसे पहले, टैबलेट हल्के होते हैं। आजकल हाई स्कूल का एक विद्यार्थी कभी-कभी अपने बस्ते में आठ किलो किताबें ढोता है। यह उसकी पीठ के लिए बहुत भारी है।" },
+      { "speaker": "Léa", "voice": "f2", "fr": "Ensuite, une tablette donne accès à des vidéos, à des exercices interactifs, à des dictionnaires. Par exemple, en sciences, on peut voir une expérience au lieu de lire seulement une description.", "en": "Next, a tablet gives access to videos, interactive exercises, dictionaries. For example, in science, you can watch an experiment instead of only reading a description.", "hi": "फिर, टैबलेट से वीडियो, इंटरैक्टिव अभ्यास और शब्दकोश मिल जाते हैं। उदाहरण के लिए, विज्ञान में सिर्फ़ विवरण पढ़ने के बजाय कोई प्रयोग देखा जा सकता है।" },
+      { "speaker": "Thomas", "voice": "m2", "fr": "D'accord, mais le prix ? Une tablette, ça coûte cher.", "en": "OK, but what about the price? A tablet is expensive.", "hi": "ठीक है, लेकिन क़ीमत? टैबलेट तो महँगा होता है।" },
+      { "speaker": "Léa", "voice": "f2", "fr": "C'est vrai, et c'est mon troisième point. Il est important de fournir une tablette à chaque élève, gratuitement. Sinon, on crée des inégalités entre les familles.", "en": "That's true, and it's my third point. It's important to provide a tablet to every student, free of charge. Otherwise, we create inequalities between families.", "hi": "सच है, और यही मेरी तीसरी बात है। हर विद्यार्थी को मुफ़्त में एक टैबलेट देना ज़रूरी है। वरना परिवारों के बीच असमानता पैदा होती है।" },
+      { "speaker": "Thomas", "voice": "m2", "fr": "Et les distractions ? Les jeux, les réseaux sociaux…", "en": "And distractions? Games, social media…", "hi": "और ध्यान भटकने का क्या? गेम, सोशल मीडिया…" },
+      { "speaker": "Léa", "voice": "f2", "fr": "Justement, il faut bloquer les jeux et les réseaux sociaux pendant les heures de classe. Une tablette scolaire n'est pas un téléphone personnel.", "en": "Exactly, games and social media must be blocked during class hours. A school tablet is not a personal phone.", "hi": "बिल्कुल, क्लास के घंटों में गेम और सोशल मीडिया बंद करने होंगे। स्कूल का टैबलेट कोई निजी फ़ोन नहीं है।" },
+      { "speaker": "Léa", "voice": "f2", "fr": "D'autre part, il ne faut pas jeter tous les livres. Pour une lecture longue, un roman par exemple, le papier reste plus agréable pour les yeux.", "en": "On the other hand, we mustn't throw away all the books. For long reading, a novel for example, paper is still easier on the eyes.", "hi": "दूसरी ओर, सारी किताबें फेंकनी नहीं चाहिए। लंबे पठन के लिए, जैसे कोई उपन्यास, काग़ज़ आँखों के लिए अब भी ज़्यादा आरामदेह है।" },
+      { "speaker": "Thomas", "voice": "m2", "fr": "Donc, si je résume, vous êtes pour, mais avec des conditions.", "en": "So, if I sum up, you're in favour, but with conditions.", "hi": "तो, अगर मैं सार कहूँ, तो आप पक्ष में हैं, लेकिन शर्तों के साथ।" },
+      { "speaker": "Léa", "voice": "f2", "fr": "Exactement. En conclusion, la tablette est un outil utile, mais c'est un outil, pas un professeur. L'essentiel, c'est toujours l'enseignant.", "en": "Exactly. In conclusion, the tablet is a useful tool, but it's a tool, not a teacher. What matters most is still the teacher.", "hi": "बिल्कुल। निष्कर्ष में, टैबलेट एक उपयोगी साधन है, लेकिन वह साधन है, शिक्षक नहीं। सबसे अहम हमेशा शिक्षक ही है।" },
+      { "speaker": "Thomas", "voice": "m2", "fr": "Merci Léa. Et vous, chers auditeurs, qu'en pensez-vous ? Écrivez-nous sur notre site.", "en": "Thank you, Léa. And you, dear listeners, what do you think? Write to us on our website.", "hi": "धन्यवाद लेआ। और आप, प्रिय श्रोताओ, आप क्या सोचते हैं? हमारी वेबसाइट पर हमें लिखिए।" }
+    ],
+    "questions": [
+      { "q": { "en": "What is Léa's overall position?" }, "options": ["She is completely against tablets.", "She is in favour, with conditions.", "She hasn't decided yet.", "She is in favour, without any conditions."], "answer": 1, "explanation": { "en": "She says yes, 'but not just any old way', and Thomas sums up: in favour, with conditions.", "hi": "वह हाँ कहती हैं, 'लेकिन किसी भी तरह से नहीं', और थॉमस सार देते हैं: पक्ष में, शर्तों के साथ।" }, "kind": "gist", "evidence": "à mon avis, oui, mais pas n'importe comment" },
+      { "q": { "en": "Which problem does her first argument address?" }, "options": ["School bags that are too heavy", "The price of books", "Pupils' eyesight", "A lack of teachers"], "answer": 0, "explanation": { "en": "A student sometimes carries eight kilos of books: too heavy for their back.", "hi": "एक विद्यार्थी कभी-कभी आठ किलो किताबें ढोता है: पीठ के लिए बहुत भारी।" }, "kind": "literal", "evidence": "un élève de secondaire porte parfois huit kilos de livres dans son sac" },
+      { "q": { "en": "What example does she give for science?" }, "options": ["Taking a test online", "Reading a longer description", "Watching an experiment", "Calling a scientist"], "answer": 2, "explanation": { "en": "With a tablet you can watch an experiment instead of only reading about it.", "hi": "टैबलेट से सिर्फ़ पढ़ने के बजाय प्रयोग देखा जा सकता है।" }, "kind": "literal", "evidence": "on peut voir une expérience au lieu de lire seulement une description" },
+      { "q": { "en": "Why does Léa insist that tablets should be free?" }, "options": ["Because tablets are cheap anyway", "Because the school wants to sell them later", "Because parents asked for it", "So that poorer families are not left behind"], "answer": 3, "explanation": { "en": "Otherwise there would be inequalities between families.", "hi": "वरना परिवारों के बीच असमानता होगी।" }, "kind": "inference", "evidence": "Sinon, on crée des inégalités entre les familles." },
+      { "q": { "en": "What does she say about paper books?" }, "options": ["They should all disappear.", "They should be kept, for example for novels.", "They are too expensive.", "They are better for science."], "answer": 1, "explanation": { "en": "We mustn't throw away all books: paper is easier on the eyes for long reading.", "hi": "सारी किताबें फेंकनी नहीं चाहिए: लंबे पठन के लिए काग़ज़ आँखों के लिए बेहतर है।" }, "kind": "literal", "evidence": "il ne faut pas jeter tous les livres" },
+      { "q": { "en": "What does she mean by 'c'est un outil, pas un professeur'?" }, "options": ["The teacher remains the most important element.", "Teachers should learn to use tablets.", "Tablets will soon replace teachers.", "Tablets are not useful for teachers."], "answer": 0, "explanation": { "en": "She adds: what matters most is still the teacher.", "hi": "वह आगे कहती हैं: सबसे अहम हमेशा शिक्षक ही है।" }, "kind": "inference", "evidence": "L'essentiel, c'est toujours l'enseignant." }
+    ],
+    "dictation": [
+      "Tout d'abord, les tablettes sont légères.",
+      "Il est important de fournir une tablette à chaque élève.",
+      "En conclusion, la tablette est un outil utile."
+    ],
+    "gapFill": {
+      "text": "___ d'abord, les tablettes sont légères. ___, une tablette donne accès à des vidéos. Il ___ bloquer les jeux pendant les heures de classe.",
+      "answers": ["Tout", "Ensuite", "faut"]
+    }
+  },
+  "speaking": {
+    "type": "presentation",
+    "instructions": {
+      "en": "Give a structured opinion of about two minutes on this question: « Faut-il apprendre à programmer (coder) à l'école primaire ? » Follow the five steps below. Prepare only five keywords on a card, one per step, and speak from them: do not write out and memorise a speech.",
+      "hi": "इस सवाल पर लगभग दो मिनट की ढाँचे वाली राय दीजिए: « Faut-il apprendre à programmer (coder) à l'école primaire ? » (क्या प्राथमिक स्कूल में प्रोग्रामिंग सिखानी चाहिए?) नीचे के पाँच क़दमों का पालन कीजिए। एक कार्ड पर सिर्फ़ पाँच मुख्य शब्द लिखिए, हर क़दम के लिए एक, और उन्हीं से बोलिए: पूरा भाषण लिखकर रटिए मत।"
+    },
+    "prompts": [
+      { "fr": "Présentez le sujet et donnez votre avis.", "en": "Present the topic and give your opinion.", "hi": "विषय रखिए और अपनी राय दीजिए।", "pron": "प्ग़े-ज़ाँ-ते लö सü-झ़ै ए दो-ने वो-त्ग़ा-वी", "model": "Aujourd'hui, beaucoup d'enfants utilisent des tablettes très jeunes. Faut-il leur apprendre à programmer dès l'école primaire ? À mon avis, oui, mais un peu seulement." },
+      { "fr": "Donnez un premier argument avec un exemple.", "en": "Give a first argument with an example.", "hi": "एक उदाहरण के साथ पहला तर्क दीजिए।", "pron": "दो-ने ज़ैँ प्ग़ö-म्ये ग़ाग़-गü-माँ आ-वैक ऐँ नैग-ज़ाँप्ल", "model": "Tout d'abord, la technologie est partout. Par exemple, ma fille de dix ans utilise déjà un ordinateur à l'école. Il est important de comprendre comment ces outils fonctionnent." },
+      { "fr": "Donnez un deuxième argument.", "en": "Give a second argument.", "hi": "दूसरा तर्क दीजिए।", "pron": "दो-ने ज़ैँ दö-ज़्यैम ज़ाग़-गü-माँ", "model": "Ensuite, programmer apprend à réfléchir étape par étape. C'est utile en mathématiques, mais aussi dans la vie de tous les jours." },
+      { "fr": "Mentionnez une limite ou une objection.", "en": "Mention a limit or an objection.", "hi": "कोई सीमा या आपत्ति बताइए।", "pron": "माँ-स्यो-ने üन ली-मीत ऊ üन नॉब-झ़ैक-स्योँ", "model": "Cependant, il ne faut pas oublier le sport et la lecture. Les enfants passent déjà beaucoup de temps devant les écrans." },
+      { "fr": "Concluez.", "en": "Conclude.", "hi": "निष्कर्ष दीजिए।", "pron": "कोँ-क्लü-ए", "model": "En conclusion, je suis pour, à condition de limiter le temps : une heure par semaine, c'est suffisant." }
+    ],
+    "tip": {
+      "en": "Two minutes is about five parts of 20–25 seconds each. If you lose your idea, buy time with a ready-made phrase: « Prenons un exemple… » or « Comment dire… ». An examiner prefers a clear plan with simple French to a long memorised text recited without eye contact.",
+      "hi": "दो मिनट यानी लगभग 20–25 सेकंड के पाँच हिस्से। अगर विचार भूल जाएँ, तो तैयार वाक्यांश से समय लीजिए: « Prenons un exemple… » या « Comment dire… »। परीक्षक को आसान फ़्रेंच वाली साफ़ योजना, बिना आँख मिलाए सुनाए गए लंबे रटे हुए पाठ से ज़्यादा पसंद आती है।"
+    }
+  },
+  "reading": {
+    "genre": "opinion",
+    "title": "Les cours en ligne : une chance pour les nouveaux arrivants ?",
+    "text": "Depuis quelques années, de plus en plus d'adultes apprennent en ligne : langues, informatique, comptabilité… Pour les nouveaux arrivants au Canada, ces cours sont-ils une vraie chance ? À mon avis, oui, à condition de bien les choisir.\n\nTout d'abord, les cours en ligne sont flexibles. Beaucoup de nouveaux arrivants travaillent le soir ou le week-end, et ils ont souvent des enfants. Par exemple, mon voisin Hamid, qui est chauffeur de taxi, suit un cours de français à six heures du matin, avant son travail. Sans Internet, il ne pourrait pas étudier.\n\nEnsuite, ces cours coûtent souvent moins cher que les cours traditionnels. Certains sont même gratuits, offerts par des bibliothèques ou des organismes communautaires.\n\nCependant, il faut être prudent. D'une part, apprendre seul devant un écran demande beaucoup de discipline : il est facile d'abandonner après deux semaines. D'autre part, une langue s'apprend aussi en parlant avec de vraies personnes. Une application ne remplace pas une conversation au marché ou avec un collègue.\n\nIl est donc important de combiner les deux : un cours en ligne pour la grammaire et le vocabulaire, et des activités en personne pour pratiquer. Il est aussi nécessaire de vérifier la qualité d'un cours avant de payer.\n\nEn conclusion, Internet est un outil formidable pour apprendre, mais il ne fait pas le travail à notre place. La motivation, elle, ne se télécharge pas !\n\nNadia Benali, Ottawa",
+    "translation": {
+      "en": "Online courses: an opportunity for newcomers?\n\nFor a few years now, more and more adults have been learning online: languages, computing, accounting… For newcomers to Canada, are these courses a real opportunity? In my opinion, yes, provided you choose them well.\n\nFirst of all, online courses are flexible. Many newcomers work in the evenings or at weekends, and they often have children. For example, my neighbour Hamid, who is a taxi driver, takes a French course at six in the morning, before work. Without the Internet, he couldn't study.\n\nNext, these courses often cost less than traditional courses. Some are even free, offered by libraries or community organisations.\n\nHowever, you have to be careful. On the one hand, learning alone in front of a screen takes a lot of discipline: it's easy to give up after two weeks. On the other hand, a language is also learnt by talking with real people. An app doesn't replace a conversation at the market or with a colleague.\n\nSo it's important to combine the two: an online course for grammar and vocabulary, and in-person activities to practise. It's also necessary to check the quality of a course before paying.\n\nIn conclusion, the Internet is a wonderful tool for learning, but it doesn't do the work for us. Motivation, for its part, can't be downloaded!\n\nNadia Benali, Ottawa",
+      "hi": "ऑनलाइन कोर्स: नए आए लोगों के लिए एक मौक़ा?\n\nकुछ सालों से ज़्यादा से ज़्यादा वयस्क ऑनलाइन सीख रहे हैं: भाषाएँ, कंप्यूटर, लेखा-जोखा… कनाडा में नए आए लोगों के लिए क्या ये कोर्स सच में एक मौक़ा हैं? मेरी राय में हाँ, बशर्ते उन्हें अच्छी तरह चुना जाए।\n\nसबसे पहले, ऑनलाइन कोर्स लचीले होते हैं। बहुत से नए आए लोग शाम को या सप्ताहांत में काम करते हैं, और अक्सर उनके बच्चे होते हैं। उदाहरण के लिए, मेरे पड़ोसी हामिद, जो टैक्सी ड्राइवर हैं, सुबह छह बजे, काम से पहले, फ़्रेंच का एक कोर्स करते हैं। इंटरनेट के बिना वे पढ़ नहीं पाते।\n\nफिर, ये कोर्स अक्सर पारंपरिक कोर्सों से सस्ते होते हैं। कुछ तो मुफ़्त भी होते हैं, जिन्हें पुस्तकालय या सामुदायिक संस्थाएँ चलाती हैं।\n\nहालाँकि, सावधान रहना ज़रूरी है। एक ओर, स्क्रीन के सामने अकेले सीखने में बहुत अनुशासन चाहिए: दो हफ़्ते बाद छोड़ देना आसान है। दूसरी ओर, भाषा असली लोगों से बात करके भी सीखी जाती है। कोई ऐप बाज़ार में या किसी सहकर्मी के साथ होने वाली बातचीत की जगह नहीं ले सकता।\n\nइसलिए दोनों को मिलाना ज़रूरी है: व्याकरण और शब्दावली के लिए ऑनलाइन कोर्स, और अभ्यास के लिए आमने-सामने की गतिविधियाँ। पैसे देने से पहले कोर्स की गुणवत्ता जाँचना भी आवश्यक है।\n\nनिष्कर्ष में, इंटरनेट सीखने के लिए एक शानदार साधन है, लेकिन वह हमारी जगह काम नहीं करता। और लगन, वह तो डाउनलोड नहीं होती!\n\nनादिया बेनाली, ओटावा"
+    },
+    "questions": [
+      { "q": { "en": "What is the author's position on online courses for newcomers?" }, "options": ["They are a waste of money.", "They are only useful for children.", "They are a real opportunity if you choose them well.", "They should replace all classes."], "answer": 2, "explanation": { "en": "She says yes, provided you choose them well.", "hi": "वह कहती हैं हाँ, बशर्ते उन्हें अच्छी तरह चुना जाए।" }, "kind": "literal", "evidence": "À mon avis, oui, à condition de bien les choisir." },
+      { "q": { "en": "Why does Hamid study at six in the morning?" }, "options": ["Because it's before his work", "Because the course is cheaper then", "Because his children are at school", "Because his teacher lives in another country"], "answer": 0, "explanation": { "en": "He follows the course before his work as a taxi driver.", "hi": "वह टैक्सी ड्राइवर के अपने काम से पहले कोर्स करते हैं।" }, "kind": "literal", "evidence": "suit un cours de français à six heures du matin, avant son travail" },
+      { "q": { "en": "Who offers some free courses?" }, "options": ["Taxi companies", "Universities only", "The government of Ontario", "Libraries and community organisations"], "answer": 3, "explanation": { "en": "Some free courses are offered by libraries or community organisations.", "hi": "कुछ मुफ़्त कोर्स पुस्तकालय या सामुदायिक संस्थाएँ चलाती हैं।" }, "kind": "literal", "evidence": "offerts par des bibliothèques ou des organismes communautaires" },
+      { "q": { "en": "According to the author, what is a risk of learning alone online?" }, "options": ["The courses are too difficult.", "You may give up quickly.", "Your computer may break.", "You may learn the wrong accent."], "answer": 1, "explanation": { "en": "It takes a lot of discipline: it's easy to give up after two weeks.", "hi": "इसमें बहुत अनुशासन चाहिए: दो हफ़्ते बाद छोड़ देना आसान है।" }, "kind": "inference", "evidence": "il est facile d'abandonner après deux semaines" },
+      { "q": { "en": "What does the last sentence suggest?" }, "options": ["Motivation apps are useful.", "The Internet is too slow.", "The effort has to come from the learner.", "Online courses are free."], "answer": 2, "explanation": { "en": "Motivation cannot be downloaded: the learner must provide it; the Internet doesn't do the work for us.", "hi": "लगन डाउनलोड नहीं होती: यह सीखने वाले को ख़ुद लानी होगी; इंटरनेट हमारी जगह काम नहीं करता।" }, "kind": "inference", "evidence": "La motivation, elle, ne se télécharge pas" }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "A community newspaper asks its readers: « Les jeunes passent trop de temps devant les écrans. Qu'en pensez-vous ? » Write a structured opinion text: an introduction with your position, two arguments each with an example, a nuance, and a conclusion with a recommendation.",
+      "hi": "एक सामुदायिक अख़बार अपने पाठकों से पूछता है: « Les jeunes passent trop de temps devant les écrans. Qu'en pensez-vous ? » (युवा स्क्रीन के सामने बहुत ज़्यादा समय बिताते हैं। आप क्या सोचते हैं?) एक ढाँचे वाला राय-लेख लिखिए: अपनी राय के साथ भूमिका, दो तर्क और हर एक के साथ एक उदाहरण, एक बारीकी, और एक सुझाव के साथ निष्कर्ष।",
+      "fr": "Les jeunes passent trop de temps devant les écrans. Qu'en pensez-vous ?"
+    },
+    "minWords": 150,
+    "maxWords": 220,
+    "hints": [
+      { "en": "Plan first: write five keywords (intro, argument 1, argument 2, nuance, conclusion) before you write sentences.", "hi": "पहले योजना: वाक्य लिखने से पहले पाँच मुख्य शब्द लिखिए (भूमिका, तर्क 1, तर्क 2, बारीकी, निष्कर्ष)।" },
+      { "en": "One paragraph per part. Start each paragraph with a connector.", "hi": "हर हिस्से के लिए एक अनुच्छेद। हर अनुच्छेद एक योजक से शुरू कीजिए।" },
+      { "en": "Your example can be personal (a child, a neighbour, yourself): it makes the text alive.", "hi": "आपका उदाहरण निजी हो सकता है (कोई बच्चा, पड़ोसी, आप ख़ुद): इससे लेख जीवंत बनता है।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Est-ce un problème ? À mon avis, oui.", "en": "Is it a problem? In my opinion, yes.", "hi": "क्या यह समस्या है? मेरी राय में, हाँ।", "pron": "ऐ-सैँ प्ग़ो-ब्लैम आ मो ना-वी वी" },
+      { "fr": "Tout d'abord, …  Par exemple, …", "en": "First of all, … For example, …", "hi": "सबसे पहले, … उदाहरण के लिए, …", "pron": "तू दा-बॉग़ … पा-ग़ैग-ज़ाँप्ल" },
+      { "fr": "Cependant, les écrans sont aussi utiles.", "en": "However, screens are also useful.", "hi": "हालाँकि, स्क्रीन उपयोगी भी हैं।", "pron": "सö-पाँ-दाँ ले ज़े-क्ग़ाँ सोँ तो-सी ü-तील" },
+      { "fr": "En conclusion, il est important de fixer des règles.", "en": "In conclusion, it's important to set rules.", "hi": "निष्कर्ष में, नियम तय करना ज़रूरी है।", "pron": "आँ कोँ-क्लü-ज़्योँ ई-लै तैँ-पोग़-ताँ दö फ़ीक-से दे ग़ैग्ल" }
+    ],
+    "model": {
+      "fr": "Aujourd'hui, les enfants et les adolescents passent plusieurs heures par jour devant un écran : téléphone, tablette, ordinateur, télévision. Est-ce un problème ? À mon avis, oui, mais la solution n'est pas d'interdire les écrans.\n\nTout d'abord, trop d'écran est mauvais pour la santé. Les jeunes qui jouent tard le soir dorment moins bien et sont fatigués à l'école. Par exemple, mon neveu de treize ans regardait des vidéos jusqu'à minuit, et ses notes ont baissé.\n\nEnsuite, les réseaux sociaux créent une dépendance. On regarde son téléphone toutes les cinq minutes, même pendant les repas, et on parle moins avec sa famille.\n\nCependant, les écrans sont aussi des outils utiles. Sur Internet, il y a d'excellentes vidéos pour apprendre les sciences ou une langue étrangère.\n\nEn conclusion, il est important de fixer des règles claires à la maison : pas de téléphone pendant les repas et pas d'écran une heure avant de dormir. Les parents doivent aussi donner l'exemple, parce que les enfants imitent les adultes.",
+      "en": "Today, children and teenagers spend several hours a day in front of a screen: phone, tablet, computer, television. Is it a problem? In my opinion, yes, but the solution is not to ban screens.\n\nFirst of all, too much screen time is bad for your health. Young people who play late at night sleep less well and are tired at school. For example, my thirteen-year-old nephew used to watch videos until midnight, and his marks went down.\n\nNext, social media creates addiction. People look at their phones every five minutes, even during meals, and talk less with their family.\n\nHowever, screens are also useful tools. On the Internet there are excellent videos for learning science or a foreign language.\n\nIn conclusion, it's important to set clear rules at home: no phone during meals and no screen an hour before bed. Parents must also set an example, because children imitate adults."
+    },
+    "checklist": [
+      { "en": "Does your introduction present the topic and give a clear position?", "hi": "क्या आपकी भूमिका विषय रखती है और साफ़ राय देती है?" },
+      { "en": "Does each argument have a concrete example?", "hi": "क्या हर तर्क के साथ एक ठोस उदाहरण है?" },
+      { "en": "Did you include a nuance (cependant / certes… mais)?", "hi": "क्या आपने एक बारीकी जोड़ी (cependant / certes… mais)?" },
+      { "en": "Did you use il est important de or il faut + infinitive in the conclusion?", "hi": "क्या आपने निष्कर्ष में il est important de या il faut + infinitive इस्तेमाल किया?" }
+    ]
+  },
+  "review": {
+    "fromDays": [61, 62, 64, 66, 67, 69, 73],
+    "items": [
+      { "fr": "À mon avis, c'est une bonne idée.", "en": "In my opinion, it's a good idea.", "hi": "मेरी राय में, यह अच्छा विचार है।", "pron": "आ मो ना-वी सै तüन बॉन ई-दे" },
+      { "fr": "Je préfère le train parce que c'est plus rapide.", "en": "I prefer the train because it's faster.", "hi": "मुझे ट्रेन पसंद है क्योंकि वह ज़्यादा तेज़ है।", "pron": "झ़ö प्ग़े-फ़ैग़ लö त्ग़ैँ पाग़स कö सै प्लü ग़ा-पीद" },
+      { "fr": "C'est la ville où j'ai grandi.", "en": "It's the city where I grew up.", "hi": "यह वह शहर है जहाँ मैं बड़ा हुआ।", "pron": "सै ला वील ऊ झ़े ग्ग़ाँ-दी" },
+      { "fr": "Si j'avais le temps, je ferais du sport.", "en": "If I had time, I would do sport.", "hi": "अगर मेरे पास समय होता, तो मैं खेलकूद करता।", "pron": "सी झ़ा-वै लö ताँ झ़ö फ़ö-ग़ै दü स्पॉग़" },
+      { "fr": "Il pleut ; pourtant, il sort sans parapluie.", "en": "It's raining; and yet he goes out without an umbrella.", "hi": "बारिश हो रही है; फिर भी वह बिना छाते के बाहर जाता है।", "pron": "ईल प्लö पूग़-ताँ ईल सॉग़ साँ पा-ग़ा-प्लüई" },
+      { "fr": "Même si c'est loin, j'y vais souvent.", "en": "Even if it's far, I go there often.", "hi": "भले ही यह दूर है, मैं वहाँ अक्सर जाता हूँ।", "pron": "मैम सी सै ल्वैँ झ़ी वै सू-वाँ" },
+      { "fr": "Je comprends ta crainte, mais c'est sans danger.", "en": "I understand your fear, but it's safe.", "hi": "मैं तुम्हारा डर समझता हूँ, लेकिन इसमें कोई ख़तरा नहीं है।", "pron": "झ़ö कोँ-प्ग़ाँ ता क्ग़ैँत मै सै साँ दाँ-झ़े" },
+      { "fr": "Le problème, c'est le prix.", "en": "The problem is the price.", "hi": "समस्या क़ीमत की है।", "pron": "लö प्ग़ो-ब्लैम सै लö प्ग़ी" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Choose the correct sentence.", "hi": "सही वाक्य चुनिए।" }, "options": ["Il est important à lire tous les jours.", "Il est important lire tous les jours.", "Il est important de lire tous les jours.", "Il est important que lire tous les jours."], "answer": 2, "explanation": { "en": "Il est important de + infinitive.", "hi": "Il est important de + infinitive।" } },
+    { "type": "mcq", "prompt": { "en": "'Il ne faut pas utiliser son téléphone en classe' means…", "hi": "'Il ne faut pas utiliser son téléphone en classe' का अर्थ है…" }, "options": ["You must not use your phone in class.", "You don't have to use your phone in class.", "You can use your phone in class.", "You never use your phone in class."], "answer": 0, "explanation": { "en": "Il ne faut pas = a prohibition (must not).", "hi": "Il ne faut pas = मनाही (नहीं करना चाहिए)।" } },
+    { "type": "fill", "prompt": { "en": "Complete: We must protect children.", "hi": "पूरा कीजिए: बच्चों की रक्षा करनी चाहिए।" }, "sentence": "Il ___ protéger les enfants.", "answer": "faut", "accept": [], "explanation": { "en": "Il faut + infinitive: impersonal, il never changes.", "hi": "Il faut + infinitive: बिना कर्ता वाला ढाँचा, il कभी नहीं बदलता।" } },
+    { "type": "mcq", "prompt": { "en": "Which connector best introduces the last part of an opinion text?", "hi": "राय-लेख के आख़िरी हिस्से की शुरुआत के लिए कौन-सा योजक सबसे सही है?" }, "options": ["Tout d'abord", "Ensuite", "Par exemple", "En conclusion"], "answer": 3, "explanation": { "en": "En conclusion / Pour résumer open the conclusion.", "hi": "En conclusion / Pour résumer से निष्कर्ष शुरू होता है।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "It's necessary to check the information.", "hi": "जानकारी की जाँच करना आवश्यक है।" }, "answer": "Il est nécessaire de vérifier les informations.", "accept": ["Il est nécessaire de vérifier l'information.", "C'est nécessaire de vérifier les informations.", "Il est nécessaire de vérifier les informations"], "explanation": { "en": "Il est nécessaire de + infinitive.", "hi": "Il est nécessaire de + infinitive।" } },
+    { "type": "fill", "prompt": { "en": "Complete: Let's take an example.", "hi": "पूरा कीजिए: एक उदाहरण लेते हैं।" }, "sentence": "___ un exemple.", "answer": "Prenons", "accept": ["prenons"], "explanation": { "en": "Prenons = nous form of prendre in the imperative: let's take.", "hi": "Prenons = prendre का nous वाला आज्ञार्थ रूप: (चलो) लेते हैं।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: First of all, online courses are flexible.", "hi": "शब्दों को सही क्रम में रखिए: सबसे पहले, ऑनलाइन कोर्स लचीले होते हैं।" }, "words": ["sont", "Tout", "en", "les", "d'abord,", "flexibles.", "cours", "ligne"], "answer": "Tout d'abord, les cours en ligne sont flexibles.", "explanation": { "en": "Connector first, then subject (les cours en ligne) + verb.", "hi": "पहले योजक, फिर कर्ता (les cours en ligne) + क्रिया।" } }
+  ]
+}

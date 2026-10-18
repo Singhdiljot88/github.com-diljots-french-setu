@@ -1,0 +1,215 @@
+{
+  "day": 71,
+  "phase": 4,
+  "title": { "fr": "Faire vivre la conversation", "en": "Keeping a conversation going", "hi": "बातचीत को आगे बढ़ाना" },
+  "objective": {
+    "en": "Keep a phone conversation about an ad going with follow-up questions (Ah bon ? C'est-à-dire ? Pourriez-vous préciser ? Et en ce qui concerne… ?) and by reformulating what you heard — the key skill of TEF speaking section A.",
+    "hi": "किसी विज्ञापन के बारे में फ़ोन पर बातचीत को आगे बढ़ाने वाले सवालों (Ah bon ? C'est-à-dire ? Pourriez-vous préciser ? Et en ce qui concerne… ?) और सुनी हुई बात को दोहराकर जारी रखना — TEF बोलने के भाग A की मुख्य क्षमता।"
+  },
+  "prerequisites": {
+    "days": [57, 59, 65, 68],
+    "summary": {
+      "en": "On Day 59 you learned to ask questions about an ad (inversion, est-ce que, je voudrais savoir si…). Now you learn to react to the answers and dig deeper, using polite conditional forms (Day 65).",
+      "hi": "दिन 59 में आपने किसी विज्ञापन के बारे में प्रश्न पूछना सीखा (inversion, est-ce que, je voudrais savoir si…)। अब आप जवाबों पर प्रतिक्रिया देना और गहराई में जाना सीखेंगे, शिष्ट conditionnel रूपों (दिन 65) के साथ।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "préciser", "en": "to specify, to clarify", "hi": "स्पष्ट करना, विस्तार से बताना", "pron": "प्ग़े-सी-ज़े", "ipa": "pʁesize", "pos": "verb" },
+    { "fr": "c'est-à-dire", "en": "that is to say, meaning", "hi": "यानी, मतलब", "pron": "सै-ता-दीग़", "ipa": "sɛtadiʁ", "pos": "phrase", "note": { "en": "Alone, with a rising voice, it asks 'Meaning?': C'est-à-dire ?", "hi": "अकेले, उठती आवाज़ के साथ, यह पूछता है 'मतलब?': C'est-à-dire ?" } },
+    { "fr": "en ce qui concerne", "en": "as for, regarding", "hi": "जहाँ तक … की बात है", "pron": "आँ सö की कोँ-सैग़्न", "ipa": "ɑ̃ sə ki kɔ̃sɛʁn", "pos": "phrase" },
+    { "fr": "concernant", "en": "concerning, about", "hi": "के बारे में", "pron": "कोँ-सैग़-नाँ", "ipa": "kɔ̃sɛʁnɑ̃", "pos": "preposition" },
+    { "fr": "le bénévolat", "en": "volunteer work", "hi": "स्वयंसेवा", "pron": "लö बे-ने-वो-ला", "ipa": "lə benevɔla", "pos": "noun", "gender": "m", "lemma": "bénévolat" },
+    { "fr": "le bénévole", "en": "volunteer", "hi": "स्वयंसेवक", "pron": "लö बे-ने-वॉल", "ipa": "lə benevɔl", "pos": "noun", "gender": "mf", "lemma": "bénévole", "note": { "en": "Same form for women: une bénévole.", "hi": "महिलाओं के लिए भी यही रूप: une bénévole।" } },
+    { "fr": "s'engager", "en": "to commit (oneself)", "hi": "वचन देना, ज़िम्मेदारी लेना", "pron": "साँ-गा-झ़े", "ipa": "sɑ̃ɡaʒe", "pos": "verb", "lemma": "engager" },
+    { "fr": "un engagement", "en": "a commitment", "hi": "प्रतिबद्धता, वचन", "pron": "ऐँ नाँ-गाझ़-माँ", "ipa": "ɛ̃ nɑ̃ɡaʒmɑ̃", "pos": "noun", "gender": "m", "lemma": "engagement" },
+    { "fr": "les frais", "en": "costs, fees", "hi": "ख़र्च, शुल्क", "pron": "ले फ़्ग़ै", "ipa": "le fʁɛ", "pos": "noun", "gender": "m", "lemma": "frais", "note": { "en": "Always plural in this meaning: les frais d'inscription.", "hi": "इस अर्थ में हमेशा बहुवचन: les frais d'inscription (पंजीकरण शुल्क)।" } },
+    { "fr": "s'inscrire", "en": "to register, to sign up", "hi": "नाम लिखवाना, पंजीकरण करना", "pron": "सैँस-क्ग़ीग़", "ipa": "sɛ̃skʁiʁ", "pos": "verb", "lemma": "inscrire", "note": { "en": "Like écrire: je m'inscris, nous nous inscrivons.", "hi": "écrire की तरह: je m'inscris, nous nous inscrivons।" } },
+    { "fr": "une séance", "en": "a session", "hi": "सत्र, बैठक", "pron": "üन से-आँस", "ipa": "yn seɑ̃s", "pos": "noun", "gender": "f", "lemma": "séance" },
+    { "fr": "avoir lieu", "en": "to take place", "hi": "होना, आयोजित होना", "pron": "आ-व्वाग़ ल्यö", "ipa": "avwaʁ ljø", "pos": "phrase", "note": { "en": "La réunion a lieu le lundi = the meeting takes place on Mondays.", "hi": "La réunion a lieu le lundi = बैठक सोमवार को होती है।" } },
+    { "fr": "obligatoire", "en": "compulsory, required", "hi": "अनिवार्य", "pron": "ओ-ब्ली-गा-त्वाग़", "ipa": "ɔbliɡatwaʁ", "pos": "adjective", "gender": "mf" }
+  ],
+  "phrases": [
+    { "fr": "Ah bon ? Vraiment ?", "en": "Oh really? Really?", "hi": "अच्छा? सच में?", "pron": "आ बोँ व्ग़ै-माँ" },
+    { "fr": "C'est-à-dire ?", "en": "Meaning? (What do you mean?)", "hi": "मतलब?", "pron": "सै-ता-दीग़" },
+    { "fr": "Pourriez-vous préciser ?", "en": "Could you be more specific?", "hi": "क्या आप थोड़ा और स्पष्ट करेंगे?", "pron": "पू-ग़्ये वू प्ग़े-सी-ज़े" },
+    { "fr": "Et en ce qui concerne les horaires ?", "en": "And as for the schedule?", "hi": "और समय के बारे में?", "pron": "ए आँ सö की कोँ-सैग़्न ले ज़ो-ग़ैग़" },
+    { "fr": "Si je comprends bien, c'est gratuit ?", "en": "If I understand correctly, it's free?", "hi": "अगर मैं ठीक समझ रहा हूँ, तो यह मुफ़्त है?", "pron": "सी झ़ö कोँ-प्ग़ाँ ब्यैँ सै ग्ग़ा-त्üई" },
+    { "fr": "Vous voulez dire que… ?", "en": "You mean that…?", "hi": "आपका मतलब है कि…?", "pron": "वू वू-ले दीग़ कö" },
+    { "fr": "Pourriez-vous me donner un exemple ?", "en": "Could you give me an example?", "hi": "क्या आप मुझे एक उदाहरण देंगे?", "pron": "पू-ग़्ये वू मö दो-ने ऐँ नैग-ज़ाँप्ल" }
+  ],
+  "grammar": {
+    "title": { "en": "Follow-up questions and reformulation", "hi": "आगे बढ़ाने वाले प्रश्न और बात को दोहराना" },
+    "explanation": {
+      "en": "A conversation lives on follow-ups. (1) Show interest: Ah bon ? / Ah oui ? / Vraiment ? (2) Ask for clarification: C'est-à-dire ? / Qu'est-ce que vous voulez dire par… ? / Pourriez-vous préciser ? / Pourriez-vous me donner un exemple ? (3) Dig deeper with a question word linked to the answer: Combien de… ? Quand exactement ? Comment ça se passe ? (4) Change topic smoothly: Et en ce qui concerne… ? / Et pour… ? / Concernant…, … ? (5) Reformulate to check: Si je comprends bien, … ? / Vous voulez dire que… ? / Donc, … ? In TEF speaking section A, you phone about an ad and have a few minutes to get information. Examiners reward questions that BUILD on the previous answer, not a memorised list of ten unrelated questions.",
+      "hi": "बातचीत आगे बढ़ाने वाले सवालों से ज़िंदा रहती है। (1) दिलचस्पी दिखाइए: Ah bon ? / Ah oui ? / Vraiment ? (2) स्पष्टीकरण माँगिए: C'est-à-dire ? / Qu'est-ce que vous voulez dire par… ? / Pourriez-vous préciser ? / Pourriez-vous me donner un exemple ? (3) जवाब से जुड़े प्रश्नवाचक शब्द से गहराई में जाइए: Combien de… ? Quand exactement ? Comment ça se passe ? (4) आसानी से विषय बदलिए: Et en ce qui concerne… ? / Et pour… ? / Concernant…, … ? (5) जाँचने के लिए बात दोहराइए: Si je comprends bien, … ? / Vous voulez dire que… ? / Donc, … ? TEF बोलने के भाग A में आप किसी विज्ञापन के बारे में फ़ोन करते हैं और जानकारी लेने के लिए कुछ मिनट मिलते हैं। परीक्षक उन सवालों को अंक देते हैं जो पिछले जवाब पर आधारित हों, न कि दस अलग-अलग रटे हुए सवालों की सूची को।"
+    },
+    "comparison": {
+      "en": "Hindi has the same tools: 'अच्छा?' ≈ Ah bon ?, 'मतलब?' / 'यानी?' ≈ C'est-à-dire ?, 'और … के बारे में?' ≈ Et en ce qui concerne… ? Use them in French exactly as naturally as you do in Hindi. Avoid the blunt 'Quoi ?' (≈ 'क्या?' said rudely): say 'Pardon ?' instead.",
+      "hi": "हिंदी में भी यही औज़ार हैं: 'अच्छा?' ≈ Ah bon ?, 'मतलब?' / 'यानी?' ≈ C'est-à-dire ?, 'और … के बारे में?' ≈ Et en ce qui concerne… ? इन्हें फ़्रेंच में भी उतनी ही सहजता से इस्तेमाल कीजिए जितना हिंदी में करते हैं। रूखा 'Quoi ?' (जैसे बेरुख़ी से 'क्या?') मत बोलिए: इसकी जगह 'Pardon ?' कहिए।"
+    },
+    "examples": [
+      { "fr": "— Les séances ont lieu le soir. — Ah bon ? À quelle heure exactement ?", "en": "— Sessions take place in the evening. — Oh really? At what time exactly?", "hi": "— सत्र शाम को होते हैं। — अच्छा? ठीक कितने बजे?", "pron": "ले से-आँस ओँ ल्यö लö स्वाग़ आ बोँ आ कै-लöग़ ऐग-ज़ाक-तö-माँ" },
+      { "fr": "— Il faut un document officiel. — C'est-à-dire ?", "en": "— You need an official document. — Meaning?", "hi": "— एक सरकारी दस्तावेज़ चाहिए। — मतलब?", "pron": "ईल फ़ो ऐँ दो-कü-माँ ओ-फ़ी-स्यैल सै-ता-दीग़" },
+      { "fr": "Si je comprends bien, la formation est obligatoire ?", "en": "If I understand correctly, the training is compulsory?", "hi": "अगर मैं ठीक समझ रहा हूँ, तो ट्रेनिंग अनिवार्य है?", "pron": "सी झ़ö कोँ-प्ग़ाँ ब्यैँ ला फ़ॉग़-मा-स्योँ ऐ तो-ब्ली-गा-त्वाग़" },
+      { "fr": "Et en ce qui concerne les frais de transport ?", "en": "And as for transport costs?", "hi": "और आने-जाने के ख़र्च के बारे में?", "pron": "ए आँ सö की कोँ-सैग़्न ले फ़्ग़ै दö त्ग़ाँस-पॉग़" },
+      { "fr": "Vous voulez dire qu'on peut arrêter en janvier ?", "en": "You mean you can stop in January?", "hi": "आपका मतलब है कि जनवरी में छोड़ा जा सकता है?", "pron": "वू वू-ले दीग़ कोँ पö ता-ग़ै-ते आँ झ़ाँ-व्ये" },
+      { "fr": "Comment ça se passe, une journée de bénévolat ?", "en": "What's a day of volunteering like?", "hi": "स्वयंसेवा का एक दिन कैसा होता है?", "pron": "को-माँ सा सö पास üन झ़ूग़-ने दö बे-ने-वो-ला" }
+    ],
+    "pitfalls": [
+      { "en": "Don't fire ten unrelated questions. Listen to the answer and ask about it: 'Le mercredi ? Et si je travaille le mercredi ?'", "hi": "दस अलग-अलग सवाल एक साथ मत दागिए। जवाब सुनिए और उसी पर पूछिए: 'Le mercredi ? Et si je travaille le mercredi ?'" },
+      { "en": "Don't say 'Quoi ?' to a stranger. Use 'Pardon ?' or 'Pourriez-vous répéter ?'.", "hi": "किसी अजनबी से 'Quoi ?' मत कहिए। 'Pardon ?' या 'Pourriez-vous répéter ?' कहिए।" },
+      { "en": "After 'Si je comprends bien,' give a full statement with rising intonation — no inversion needed.", "hi": "'Si je comprends bien,' के बाद पूरा कथन उठती आवाज़ में बोलिए — inversion की ज़रूरत नहीं।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Question intonation in follow-ups",
+    "tip": {
+      "en": "Short follow-ups carry all their meaning in the melody. 'Ah bon ?' rises sharply on bon ↗. 'C'est-à-dire ?' rises on the last syllable. A reformulation — 'Si je comprends bien, c'est gratuit ?' — stays flat, then rises at the very end. Without the rise, it sounds like a statement, not a question.",
+      "hi": "छोटे सवालों का पूरा अर्थ उनकी धुन में होता है। 'Ah bon ?' में bon पर आवाज़ तेज़ी से ऊपर जाती है ↗। 'C'est-à-dire ?' में आख़िरी अक्षर पर आवाज़ उठती है। दोहराने वाला वाक्य — 'Si je comprends bien, c'est gratuit ?' — सपाट चलता है, फिर बिल्कुल अंत में ऊपर जाता है। उठान के बिना यह सवाल नहीं, कथन लगता है।"
+    },
+    "words": [
+      { "fr": "Ah bon ?", "en": "Oh really?", "hi": "अच्छा?", "pron": "आ बोँ", "ipa": "a bɔ̃" },
+      { "fr": "C'est-à-dire ?", "en": "Meaning?", "hi": "मतलब?", "pron": "सै-ता-दीग़", "ipa": "sɛtadiʁ" },
+      { "fr": "Vraiment ?", "en": "Really?", "hi": "सच में?", "pron": "व्ग़ै-माँ", "ipa": "vʁɛmɑ̃" },
+      { "fr": "Pourriez-vous préciser ?", "en": "Could you specify?", "hi": "क्या आप स्पष्ट करेंगे?", "pron": "पू-ग़्ये वू प्ग़े-सी-ज़े", "ipa": "puʁje vu pʁesize" },
+      { "fr": "Et pour les enfants ?", "en": "And for the children?", "hi": "और बच्चों के लिए?", "pron": "ए पूग़ ले ज़ाँ-फ़ाँ", "ipa": "e puʁ le zɑ̃fɑ̃" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Un appel au centre communautaire", "en": "A call to the community centre" },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Priya saw an ad for a reading programme for children. She calls the community centre and talks to the coordinator, Jean Dubé. Notice how each question builds on his previous answer.",
+      "hi": "प्रिया ने बच्चों के लिए पढ़ने के एक कार्यक्रम का विज्ञापन देखा। वह सामुदायिक केंद्र को फ़ोन करती है और समन्वयक ज़्याँ दूबे से बात करती है। ध्यान दीजिए कि उसका हर सवाल पिछले जवाब पर कैसे टिका है।"
+    },
+    "lines": [
+      { "speaker": "M. Dubé", "voice": "m2", "fr": "Centre communautaire Les Érables, bonjour. Jean Dubé à l'appareil.", "en": "Les Érables Community Centre, hello. Jean Dubé speaking.", "hi": "ले ज़ेराब्ल सामुदायिक केंद्र, नमस्ते। मैं ज़्याँ दूबे बोल रहा हूँ।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Bonjour, monsieur. J'ai vu votre annonce pour le programme « Lire avec les enfants ». Je voudrais avoir quelques renseignements.", "en": "Hello, sir. I saw your ad for the 'Reading with Children' programme. I'd like some information.", "hi": "नमस्ते, सर। मैंने आपके 'बच्चों के साथ पढ़ें' कार्यक्रम का विज्ञापन देखा। मुझे कुछ जानकारी चाहिए थी।" },
+      { "speaker": "M. Dubé", "voice": "m2", "fr": "Bien sûr. C'est un programme où des bénévoles lisent des histoires à des enfants dans les écoles.", "en": "Of course. It's a programme where volunteers read stories to children in schools.", "hi": "ज़रूर। यह एक कार्यक्रम है जिसमें स्वयंसेवक स्कूलों में बच्चों को कहानियाँ पढ़कर सुनाते हैं।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Ah bon ? Dans quelles écoles, exactement ?", "en": "Oh really? In which schools, exactly?", "hi": "अच्छा? ठीक-ठीक किन स्कूलों में?" },
+      { "speaker": "M. Dubé", "voice": "m2", "fr": "Dans quatre écoles primaires du quartier. Les séances ont lieu le mercredi après-midi.", "en": "In four primary schools in the neighbourhood. Sessions take place on Wednesday afternoons.", "hi": "मोहल्ले के चार प्राथमिक स्कूलों में। सत्र बुधवार दोपहर को होते हैं।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "D'accord. Et une séance dure combien de temps ?", "en": "OK. And how long does a session last?", "hi": "ठीक है। और एक सत्र कितनी देर चलता है?" },
+      { "speaker": "M. Dubé", "voice": "m2", "fr": "Une heure par semaine, pendant toute l'année scolaire.", "en": "One hour a week, for the whole school year.", "hi": "हफ़्ते में एक घंटा, पूरे स्कूली साल।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Si je comprends bien, il faut s'engager pour dix mois ?", "en": "If I understand correctly, you have to commit for ten months?", "hi": "अगर मैं ठीक समझ रही हूँ, तो दस महीने के लिए वचन देना होगा?" },
+      { "speaker": "M. Dubé", "voice": "m2", "fr": "Pas forcément. On demande un engagement d'au moins une session, c'est-à-dire de septembre à décembre.", "en": "Not necessarily. We ask for a commitment of at least one term, that is, from September to December.", "hi": "ज़रूरी नहीं। हम कम से कम एक सत्र-अवधि की प्रतिबद्धता माँगते हैं, यानी सितंबर से दिसंबर तक।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Vous voulez dire qu'on peut arrêter en janvier ?", "en": "You mean you can stop in January?", "hi": "आपका मतलब है कि जनवरी में छोड़ा जा सकता है?" },
+      { "speaker": "M. Dubé", "voice": "m2", "fr": "Oui, si vous prévenez à l'avance. Mais la plupart des bénévoles restent toute l'année.", "en": "Yes, if you let us know in advance. But most volunteers stay all year.", "hi": "हाँ, अगर आप पहले से बता दें। लेकिन ज़्यादातर स्वयंसेवक पूरे साल रहते हैं।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Très bien. Et en ce qui concerne la langue ? Je parle français, mais j'ai un accent. C'est un problème ?", "en": "Very good. And as for the language? I speak French, but I have an accent. Is that a problem?", "hi": "बहुत अच्छा। और भाषा के बारे में? मैं फ़्रेंच बोलती हूँ, लेकिन मेरा लहजा अलग है। क्या यह समस्या है?" },
+      { "speaker": "M. Dubé", "voice": "m2", "fr": "Pas du tout ! Les enfants viennent de partout. Ce qui compte, c'est de lire avec plaisir.", "en": "Not at all! The children come from everywhere. What matters is reading with pleasure.", "hi": "बिल्कुल नहीं! बच्चे हर जगह से आते हैं। जो मायने रखता है, वह है मज़े से पढ़ना।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Pourriez-vous préciser ce qu'il faut pour s'inscrire ?", "en": "Could you specify what is needed to register?", "hi": "क्या आप बताएँगे कि नाम लिखवाने के लिए क्या-क्या चाहिए?" },
+      { "speaker": "M. Dubé", "voice": "m2", "fr": "Il faut remplir un formulaire en ligne et fournir une vérification des antécédents judiciaires. C'est obligatoire quand on travaille avec des enfants.", "en": "You have to fill in an online form and provide a criminal background check. It's compulsory when you work with children.", "hi": "एक ऑनलाइन फ़ॉर्म भरना होगा और आपराधिक रिकॉर्ड की जाँच (पुलिस सत्यापन) देनी होगी। बच्चों के साथ काम करने के लिए यह अनिवार्य है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Une vérification… c'est-à-dire un document de la police ?", "en": "A check… meaning a document from the police?", "hi": "जाँच… यानी पुलिस का कोई दस्तावेज़?" },
+      { "speaker": "M. Dubé", "voice": "m2", "fr": "Exactement. Nous vous aidons à faire la demande, et c'est gratuit pour les bénévoles. Il y a aussi une formation de deux heures en août.", "en": "Exactly. We help you apply, and it's free for volunteers. There's also a two-hour training session in August.", "hi": "बिल्कुल। हम आवेदन में आपकी मदद करते हैं, और स्वयंसेवकों के लिए यह मुफ़्त है। अगस्त में दो घंटे की एक ट्रेनिंग भी होती है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Parfait. Merci, vous avez été très clair. Je vais remplir le formulaire ce soir.", "en": "Perfect. Thank you, you've been very clear. I'll fill in the form tonight.", "hi": "बढ़िया। धन्यवाद, आपने सब बहुत साफ़ समझाया। मैं आज शाम फ़ॉर्म भर दूँगी।" }
+    ],
+    "questions": [
+      { "q": { "en": "What do volunteers do in this programme?" }, "options": ["Help children with homework at home", "Read stories to children in schools", "Teach French to parents", "Organise sports activities"], "answer": 1, "explanation": { "en": "Volunteers read stories to children in schools.", "hi": "स्वयंसेवक स्कूलों में बच्चों को कहानियाँ पढ़कर सुनाते हैं।" }, "kind": "literal", "evidence": "des bénévoles lisent des histoires à des enfants dans les écoles" },
+      { "q": { "en": "When do the sessions take place?" }, "options": ["Wednesday afternoons", "Saturday mornings", "Every evening", "Monday and Thursday"], "answer": 0, "explanation": { "en": "'Les séances ont lieu le mercredi après-midi.'", "hi": "'Les séances ont lieu le mercredi après-midi.' — बुधवार दोपहर।" }, "kind": "literal", "evidence": "Les séances ont lieu le mercredi après-midi." },
+      { "q": { "en": "What is the minimum commitment?" }, "options": ["Ten months", "One month", "From September to December", "Two hours in August"], "answer": 2, "explanation": { "en": "At least one term: from September to December.", "hi": "कम से कम एक सत्र-अवधि: सितंबर से दिसंबर।" }, "kind": "inference", "evidence": "un engagement d'au moins une session, c'est-à-dire de septembre à décembre" },
+      { "q": { "en": "Is Priya's accent a problem?" }, "options": ["Yes, she must take a test", "Only for older children", "Yes, she must do more training", "No — what matters is reading with pleasure"], "answer": 3, "explanation": { "en": "Not at all: the children come from everywhere; what matters is reading with pleasure.", "hi": "बिल्कुल नहीं: बच्चे हर जगह से आते हैं; मायने रखता है मज़े से पढ़ना।" }, "kind": "literal", "evidence": "Ce qui compte, c'est de lire avec plaisir." },
+      { "q": { "en": "Which document is required to register?" }, "options": ["A diploma", "A criminal background check", "A letter from her employer", "A medical certificate"], "answer": 1, "explanation": { "en": "A criminal background check, compulsory to work with children.", "hi": "आपराधिक रिकॉर्ड की जाँच, जो बच्चों के साथ काम के लिए अनिवार्य है।" }, "kind": "literal", "evidence": "fournir une vérification des antécédents judiciaires" },
+      { "q": { "en": "How does Priya check that she has understood?" }, "options": ["She asks him to send an email", "She asks him to repeat everything", "She reformulates: 'Si je comprends bien…', 'Vous voulez dire que…'", "She writes everything down silently"], "answer": 2, "explanation": { "en": "She reformulates his answers as questions to check them.", "hi": "वह जाँचने के लिए उसके जवाबों को सवाल के रूप में दोहराती है।" }, "kind": "gist", "evidence": "Si je comprends bien, il faut s'engager pour dix mois ?" }
+    ],
+    "dictation": ["Si je comprends bien, il faut s'engager pour dix mois ?", "Et en ce qui concerne la langue ?", "Pourriez-vous préciser ce qu'il faut pour s'inscrire ?"],
+    "gapFill": { "text": "Ah ___ ? Dans quelles écoles, exactement ? … Une vérification… ___ un document de la police ?", "answers": ["bon", "c'est-à-dire"] }
+  },
+  "speaking": {
+    "type": "tef_a",
+    "instructions": {
+      "en": "TEF-style practice (section A). Read the ad 'Bienvenue chez nous' in today's reading. You call the organisation to get information. Ask your first question, LISTEN to the answer, then ask a follow-up that builds on it. Aim for 10–12 questions in 5 minutes, using at least three different follow-up techniques.",
+      "hi": "TEF जैसा अभ्यास (भाग A)। आज के पाठ का विज्ञापन 'Bienvenue chez nous' पढ़िए। जानकारी लेने के लिए संस्था को फ़ोन कीजिए। पहला सवाल पूछिए, जवाब ध्यान से सुनिए, फिर उसी पर आधारित अगला सवाल पूछिए। 5 मिनट में 10–12 सवालों का लक्ष्य रखिए, कम से कम तीन अलग तरीक़ों से।"
+    },
+    "prompts": [
+      { "fr": "Présentez-vous et dites pourquoi vous appelez.", "en": "Introduce yourself and say why you're calling.", "hi": "अपना परिचय दीजिए और बताइए कि आप क्यों फ़ोन कर रहे हैं।", "pron": "प्ग़े-ज़ाँ-ते वू ए दीत पूग़-क्वा वू ज़ा-पैल", "model": "Bonjour, madame. Je m'appelle Karan. J'ai vu votre annonce pour le programme Bienvenue chez nous et j'aimerais avoir quelques renseignements." },
+      { "fr": "L'agente dit : « Vous rencontrez la famille deux fois par mois. » Posez une question de suivi.", "en": "The agent says: 'You meet the family twice a month.' Ask a follow-up question.", "hi": "एजेंट कहती है: 'आप परिवार से महीने में दो बार मिलते हैं।' आगे का एक सवाल पूछिए।", "pron": "ला-झ़ाँत दी वू ग़ाँ-कोँ-त्ग़े ला फ़ा-मीय दö फ़वा पाग़ म्वा पो-ज़े üन कैस-त्योँ दö स्üई-वी", "model": "Ah bon ? Et où est-ce qu'on se rencontre, exactement ? Chez la famille ou au centre ?" },
+      { "fr": "L'agente dit : « Il y a une formation obligatoire. » Demandez des précisions.", "en": "The agent says: 'There's a compulsory training.' Ask for details.", "hi": "एजेंट कहती है: 'एक अनिवार्य ट्रेनिंग है।' विस्तार से पूछिए।", "pron": "ला-झ़ाँत दी ई-ल्या üन फ़ॉग़-मा-स्योँ ओ-ब्ली-गा-त्वाग़ दö-माँ-दे दे प्ग़े-सी-ज़्योँ", "model": "Pourriez-vous préciser ? Elle dure combien de temps, et est-ce qu'elle est payante ?" },
+      { "fr": "Reformulez ce que vous avez compris sur les frais de transport.", "en": "Reformulate what you understood about transport costs.", "hi": "आने-जाने के ख़र्च के बारे में आपने जो समझा, उसे दोहराइए।", "pron": "ग़ö-फ़ॉग़-मü-ले सö कö वू ज़ा-वे कोँ-प्ग़ी सüग़ ले फ़्ग़ै दö त्ग़ाँस-पॉग़", "model": "Si je comprends bien, vous remboursez le bus jusqu'à trente dollars par mois ?" },
+      { "fr": "Changez de sujet : posez une question sur les langues.", "en": "Change topic: ask a question about languages.", "hi": "विषय बदलिए: भाषाओं के बारे में एक सवाल पूछिए।", "pron": "शाँ-झ़े दö सü-झ़ै पो-ज़े üन कैस-त्योँ सüग़ ले लाँग", "model": "Et en ce qui concerne les langues ? Je parle hindi et pendjabi. Est-ce que ça pourrait être utile ?" },
+      { "fr": "Terminez l'appel poliment.", "en": "End the call politely.", "hi": "शिष्टता से फ़ोन ख़त्म कीजिए।", "pron": "तैग़-मी-ने ला-पैल पो-लीत-माँ", "model": "Merci beaucoup, vous avez été très claire. Je vais m'inscrire avant le 15 septembre. Bonne journée !" }
+    ],
+    "tip": {
+      "en": "Use the answer as your next question. If the examiner says 'deux fois par mois', you have material: 'Deux fois par mois ? Et c'est flexible ?' Recycling their words shows you are listening — and gives you time to think.",
+      "hi": "जवाब को ही अपना अगला सवाल बनाइए। अगर परीक्षक कहे 'deux fois par mois', तो आपके पास सामग्री है: 'Deux fois par mois ? Et c'est flexible ?' उनके शब्दों को दोहराने से दिखता है कि आप सुन रहे हैं — और आपको सोचने का समय भी मिलता है।"
+    },
+    "scenario": {
+      "setting": { "en": "A phone call to the 'Bienvenue chez nous' volunteer programme in Gatineau (see the reading).", "hi": "गैटिनो के 'Bienvenue chez nous' स्वयंसेवी कार्यक्रम को फ़ोन (पाठ देखिए)।" },
+      "learnerRole": { "en": "A person interested in volunteering who wants all the practical details before registering.", "hi": "स्वयंसेवा में रुचि रखने वाला व्यक्ति जो नाम लिखवाने से पहले सारी व्यावहारिक जानकारी चाहता है।" },
+      "partnerRole": { "en": "The programme coordinator, who gives short answers and only adds details when asked. Sometimes the answer is vague ('ça dépend'), so the learner must ask for clarification.", "hi": "कार्यक्रम का समन्वयक, जो छोटे जवाब देता है और पूछने पर ही विस्तार बताता है। कभी-कभी जवाब अस्पष्ट होता है ('ça dépend'), इसलिए सीखने वाले को स्पष्टीकरण माँगना होगा।" },
+      "goals": [
+        { "en": "Ask at least 10 questions, several of them follow-ups on the previous answer.", "hi": "कम से कम 10 सवाल पूछिए, जिनमें कई पिछले जवाब पर आधारित हों।" },
+        { "en": "Use C'est-à-dire ?, Pourriez-vous préciser ? and Si je comprends bien… at least once each.", "hi": "C'est-à-dire ?, Pourriez-vous préciser ? और Si je comprends bien… में से हर एक कम से कम एक बार इस्तेमाल कीजिए।" },
+        { "en": "Change topic smoothly with Et en ce qui concerne… ?", "hi": "Et en ce qui concerne… ? से आसानी से विषय बदलिए।" }
+      ]
+    }
+  },
+  "reading": {
+    "genre": "advertisement",
+    "title": "Devenez bénévole ! Programme « Bienvenue chez nous »",
+    "text": "DEVENEZ BÉNÉVOLE ! Programme « Bienvenue chez nous » — Gatineau\n\nVous parlez français et vous avez envie d'aider une famille nouvellement arrivée au Québec ? Le programme Bienvenue chez nous cherche des bénévoles pour accompagner des familles immigrantes pendant leurs premiers mois.\n\nVotre rôle :\n• rencontrer votre famille jumelée deux fois par mois ;\n• l'aider dans la vie quotidienne : épicerie, transport, inscription à l'école, rendez-vous médicaux ;\n• pratiquer le français avec les parents et les enfants ;\n• partager la culture québécoise : fêtes, sorties, activités d'hiver !\n\nCe que nous demandons :\n• avoir 18 ans ou plus ;\n• être disponible au moins quatre heures par mois pendant six mois ;\n• participer à une formation gratuite (un samedi, de 9 h à 15 h) ;\n• fournir une vérification des antécédents judiciaires (nous payons les frais).\n\nCe que nous offrons :\n• l'aide d'une intervenante pendant tout le jumelage ;\n• le remboursement des frais de transport (jusqu'à 30 $ par mois) ;\n• une attestation de bénévolat, utile pour votre CV ;\n• des soirées de rencontre entre bénévoles.\n\nAucune expérience n'est nécessaire. Les personnes qui parlent une autre langue (arabe, espagnol, hindi, swahili…) sont particulièrement bienvenues.\n\nInscription avant le 15 septembre, par téléphone au 819 555-0172.",
+    "translation": {
+      "en": "BECOME A VOLUNTEER! 'Welcome Home' programme — Gatineau\n\nDo you speak French and would you like to help a family that has just arrived in Québec? The Welcome Home programme is looking for volunteers to support immigrant families during their first months.\n\nYour role:\n• meet your matched family twice a month;\n• help them in daily life: groceries, transport, school registration, medical appointments;\n• practise French with the parents and children;\n• share Québec culture: celebrations, outings, winter activities!\n\nWhat we ask:\n• be 18 or older;\n• be available at least four hours a month for six months;\n• take part in a free training session (one Saturday, 9 a.m. to 3 p.m.);\n• provide a criminal background check (we pay the fees).\n\nWhat we offer:\n• the support of a social worker throughout the matching;\n• reimbursement of transport costs (up to $30 a month);\n• a volunteer certificate, useful for your CV;\n• get-together evenings for volunteers.\n\nNo experience is necessary. People who speak another language (Arabic, Spanish, Hindi, Swahili…) are especially welcome.\n\nRegister before 15 September, by phone at 819 555-0172.",
+      "hi": "स्वयंसेवक बनिए! 'Bienvenue chez nous' (हमारे यहाँ स्वागत है) कार्यक्रम — गैटिनो\n\nक्या आप फ़्रेंच बोलते हैं और क्यूबेक में हाल ही में आए किसी परिवार की मदद करना चाहते हैं? 'Bienvenue chez nous' कार्यक्रम को ऐसे स्वयंसेवकों की तलाश है जो प्रवासी परिवारों के शुरुआती महीनों में उनका साथ दें।\n\nआपकी भूमिका:\n• अपने साथ जोड़े गए परिवार से महीने में दो बार मिलना;\n• रोज़मर्रा की ज़िंदगी में उनकी मदद करना: किराने का सामान, आने-जाने के साधन, स्कूल में दाख़िला, डॉक्टर के अपॉइंटमेंट;\n• माता-पिता और बच्चों के साथ फ़्रेंच का अभ्यास करना;\n• क्यूबेक की संस्कृति बाँटना: त्योहार, सैर-सपाटा, सर्दियों की गतिविधियाँ!\n\nहम क्या माँगते हैं:\n• 18 साल या उससे ज़्यादा उम्र;\n• छह महीने तक हर महीने कम से कम चार घंटे का समय;\n• एक मुफ़्त ट्रेनिंग में हिस्सा लेना (एक शनिवार, सुबह 9 से दोपहर 3 बजे तक);\n• आपराधिक रिकॉर्ड की जाँच देना (ख़र्च हम देते हैं)।\n\nहम क्या देते हैं:\n• पूरे समय एक सामाजिक कार्यकर्ता की मदद;\n• आने-जाने के ख़र्च की भरपाई (महीने में 30 डॉलर तक);\n• स्वयंसेवा का प्रमाण-पत्र, जो आपके सीवी के लिए काम का है;\n• स्वयंसेवकों के मिलने-जुलने की शामें।\n\nकिसी अनुभव की ज़रूरत नहीं। दूसरी भाषा (अरबी, स्पैनिश, हिंदी, स्वाहिली…) बोलने वालों का ख़ास तौर पर स्वागत है।\n\n15 सितंबर से पहले फ़ोन से नाम लिखवाइए: 819 555-0172।"
+    },
+    "questions": [
+      { "q": { "en": "Who does the programme help?" }, "options": ["Elderly people living alone", "Immigrant families in their first months", "Students looking for jobs", "Children with learning difficulties"], "answer": 1, "explanation": { "en": "It supports immigrant families during their first months.", "hi": "यह प्रवासी परिवारों के शुरुआती महीनों में उनका साथ देता है।" }, "kind": "gist", "evidence": "accompagner des familles immigrantes pendant leurs premiers mois" },
+      { "q": { "en": "How often do volunteers meet their family?" }, "options": ["Every week", "Once a month", "Twice a month", "Every day"], "answer": 2, "explanation": { "en": "Twice a month.", "hi": "महीने में दो बार।" }, "kind": "literal", "evidence": "rencontrer votre famille jumelée deux fois par mois" },
+      { "q": { "en": "Who pays for the background check?" }, "options": ["The organisation", "The volunteer", "The family", "The school"], "answer": 0, "explanation": { "en": "'Nous payons les frais' — the organisation pays.", "hi": "'Nous payons les frais' — ख़र्च संस्था देती है।" }, "kind": "literal", "evidence": "nous payons les frais" },
+      { "q": { "en": "What document do volunteers receive?" }, "options": ["A bus pass", "A French diploma", "A work permit", "A volunteer certificate for their CV"], "answer": 3, "explanation": { "en": "A volunteer certificate, useful for a CV.", "hi": "स्वयंसेवा का प्रमाण-पत्र, सीवी के लिए काम का।" }, "kind": "literal", "evidence": "une attestation de bénévolat, utile pour votre CV" },
+      { "q": { "en": "Why are speakers of other languages especially welcome, probably?" }, "options": ["They don't need the training", "They can help families who don't speak French well yet", "They will teach those languages in schools", "They get a higher reimbursement"], "answer": 1, "explanation": { "en": "Newly arrived families may not speak French yet; a volunteer who speaks their language can help more.", "hi": "नए आए परिवार शायद अभी फ़्रेंच न बोलते हों; उनकी भाषा बोलने वाला स्वयंसेवक ज़्यादा मदद कर सकता है।" }, "kind": "inference", "evidence": "Les personnes qui parlent une autre langue (arabe, espagnol, hindi, swahili…) sont particulièrement bienvenues." }
+    ]
+  },
+  "writing": {
+    "type": "sentences",
+    "prompt": {
+      "en": "Write the dialogue of a phone call about the 'Bienvenue chez nous' ad (12–16 lines). The caller must use at least four different follow-up techniques: showing interest, asking for clarification, reformulating and changing topic.",
+      "hi": "'Bienvenue chez nous' विज्ञापन के बारे में फ़ोन पर हुई बातचीत लिखिए (12–16 पंक्तियाँ)। फ़ोन करने वाले को कम से कम चार अलग तरीक़े इस्तेमाल करने हैं: दिलचस्पी दिखाना, स्पष्टीकरण माँगना, बात दोहराना और विषय बदलना।",
+      "fr": "Écrivez le dialogue d'un appel téléphonique au sujet de l'annonce."
+    },
+    "minWords": 110,
+    "maxWords": 180,
+    "hints": [
+      { "en": "Write it as a script: '— Caller: …' / '— Agent: …'.", "hi": "इसे संवाद की तरह लिखिए: '— Caller: …' / '— Agent: …'।" },
+      { "en": "Make the agent's answers short, so that the caller has to ask follow-ups.", "hi": "एजेंट के जवाब छोटे रखिए, ताकि फ़ोन करने वाले को आगे सवाल पूछने पड़ें।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "J'appelle au sujet de votre annonce.", "en": "I'm calling about your ad.", "hi": "मैं आपके विज्ञापन के बारे में फ़ोन कर रहा हूँ।", "pron": "झ़ा-पैल ओ सü-झ़ै दö वॉत्ग़ आ-नोँस" },
+      { "fr": "Qu'est-ce que vous voulez dire par … ?", "en": "What do you mean by … ?", "hi": "… से आपका क्या मतलब है?", "pron": "कैस-कö वू वू-ले दीग़ पाग़" },
+      { "fr": "Une dernière question : …", "en": "One last question: …", "hi": "एक आख़िरी सवाल: …", "pron": "üन दैग़-न्यैग़ कैस-त्योँ" }
+    ],
+    "model": {
+      "fr": "— Bonjour, madame. J'appelle au sujet de votre annonce pour le programme Bienvenue chez nous.\n— Bonjour ! Comment puis-je vous aider ?\n— Je voudrais savoir combien de temps il faut donner.\n— Quatre heures par mois.\n— Ah bon ? Seulement ? Et ces heures sont flexibles ?\n— Oui, vous choisissez avec la famille.\n— Si je comprends bien, on peut se voir le week-end ?\n— Bien sûr, beaucoup de bénévoles préfèrent le samedi.\n— Parfait. Et en ce qui concerne la formation ?\n— Elle est obligatoire.\n— C'est-à-dire ? Pourriez-vous préciser la date ?\n— C'est un samedi en septembre, de 9 h à 15 h.\n— D'accord. Une dernière question : est-ce que mon hindi pourrait être utile ?\n— Oui, nous accueillons souvent des familles de l'Inde.\n— Super ! Merci beaucoup, madame. Je vais m'inscrire cette semaine.",
+      "en": "— Hello, madam. I'm calling about your ad for the Welcome Home programme.\n— Hello! How can I help you?\n— I'd like to know how much time you have to give.\n— Four hours a month.\n— Oh really? Only that? And are those hours flexible?\n— Yes, you choose with the family.\n— If I understand correctly, we can meet on weekends?\n— Of course, many volunteers prefer Saturdays.\n— Perfect. And as for the training?\n— It's compulsory.\n— Meaning? Could you tell me the date?\n— It's one Saturday in September, from 9 a.m. to 3 p.m.\n— OK. One last question: could my Hindi be useful?\n— Yes, we often welcome families from India.\n— Great! Thank you very much, madam. I'll register this week."
+    },
+    "checklist": [
+      { "en": "Did the caller show interest (Ah bon ? Vraiment ?)?", "hi": "क्या फ़ोन करने वाले ने दिलचस्पी दिखाई (Ah bon ? Vraiment ?)?" },
+      { "en": "Did the caller ask for clarification (C'est-à-dire ? Pourriez-vous préciser ?)?", "hi": "क्या फ़ोन करने वाले ने स्पष्टीकरण माँगा (C'est-à-dire ? Pourriez-vous préciser ?)?" },
+      { "en": "Did the caller reformulate (Si je comprends bien…)?", "hi": "क्या फ़ोन करने वाले ने बात दोहराई (Si je comprends bien…)?" },
+      { "en": "Did the caller change topic (Et en ce qui concerne… ?) and use vous throughout?", "hi": "क्या फ़ोन करने वाले ने विषय बदला (Et en ce qui concerne… ?) और पूरे समय vous इस्तेमाल किया?" }
+    ]
+  },
+  "review": {
+    "fromDays": [57, 59, 65, 67, 68, 69],
+    "items": [
+      { "fr": "Est-ce que le cours est gratuit ?", "en": "Is the course free?", "hi": "क्या कोर्स मुफ़्त है?", "pron": "ऐस-कö लö कूग़ ऐ ग्ग़ा-त्üई" },
+      { "fr": "Peut-on s'inscrire en ligne ?", "en": "Can one register online?", "hi": "क्या ऑनलाइन नाम लिखवाया जा सकता है?", "pron": "पö-तोँ सैँस-क्ग़ीग़ आँ लीन्य" },
+      { "fr": "Je voudrais savoir si c'est obligatoire.", "en": "I'd like to know if it's compulsory.", "hi": "मैं जानना चाहूँगा कि क्या यह अनिवार्य है।", "pron": "झ़ö वू-द्ग़ै सा-व्वाग़ सी सै तो-ब्ली-गा-त्वाग़" },
+      { "fr": "Pourriez-vous répéter, s'il vous plaît ?", "en": "Could you repeat, please?", "hi": "क्या आप दोहरा देंगे, कृपया?", "pron": "पू-ग़्ये वू ग़े-पे-ते सील वू प्लै" },
+      { "fr": "Je n'ai rien compris.", "en": "I didn't understand anything.", "hi": "मुझे कुछ भी समझ नहीं आया।", "pron": "झ़ö ने ग़्यैँ कोँ-प्ग़ी" },
+      { "fr": "C'est un programme qui aide les familles.", "en": "It's a programme that helps families.", "hi": "यह एक कार्यक्रम है जो परिवारों की मदद करता है।", "pron": "सै तैँ प्ग़ो-ग्ग़ाम की ऐद ले फ़ा-मीय" },
+      { "fr": "Ce qui compte, c'est la motivation.", "en": "What matters is motivation.", "hi": "जो मायने रखता है, वह है लगन।", "pron": "सö की कोँत सै ला मो-ती-वा-स्योँ" },
+      { "fr": "Cependant, il faut être disponible le samedi.", "en": "However, you have to be available on Saturdays.", "hi": "हालाँकि, शनिवार को ख़ाली होना ज़रूरी है।", "pron": "सö-पाँ-दाँ ईल फ़ो ऐत्ग़ दीस-पो-नीब्ल लö सा-म्दी" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "The agent says something unclear. What is the best reaction?", "hi": "एजेंट कुछ अस्पष्ट कहता है। सबसे अच्छी प्रतिक्रिया क्या है?" }, "options": ["Quoi ?", "C'est-à-dire ? Pourriez-vous préciser ?", "Non.", "Au revoir."], "answer": 1, "explanation": { "en": "Ask politely for clarification.", "hi": "शिष्टता से स्पष्टीकरण माँगिए।" } },
+    { "type": "mcq", "prompt": { "en": "You want to change topic and ask about prices. What do you say?", "hi": "आप विषय बदलकर क़ीमत के बारे में पूछना चाहते हैं। आप क्या कहेंगे?" }, "options": ["Et en ce qui concerne les frais ?", "Si je comprends bien, c'est cher.", "Ah bon ?", "Vous voulez dire que non ?"], "answer": 0, "explanation": { "en": "Et en ce qui concerne… ? introduces a new topic.", "hi": "Et en ce qui concerne… ? नया विषय शुरू करता है।" } },
+    { "type": "fill", "prompt": { "en": "Complete the reformulation: If I understand correctly, it's on Wednesdays?", "hi": "दोहराने वाला वाक्य पूरा कीजिए: अगर मैं ठीक समझ रहा हूँ, तो यह बुधवार को है?" }, "sentence": "Si je ___ bien, c'est le mercredi ?", "answer": "comprends", "accept": [], "explanation": { "en": "Si je comprends bien = if I understand correctly.", "hi": "Si je comprends bien = अगर मैं ठीक समझ रहा हूँ।" } },
+    { "type": "translate", "prompt": { "en": "Write in French (vous).", "hi": "फ़्रेंच में लिखिए (vous)।" }, "source": { "en": "Could you give me an example?", "hi": "क्या आप मुझे एक उदाहरण देंगे?" }, "answer": "Pourriez-vous me donner un exemple ?", "accept": ["Pourriez-vous me donner un exemple?", "Pourriez-vous me donner un exemple", "Est-ce que vous pourriez me donner un exemple ?"], "explanation": { "en": "Polite conditional: pourriez-vous + infinitive.", "hi": "शिष्ट conditionnel: pourriez-vous + infinitive।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: You mean we can stop in January?", "hi": "शब्दों को सही क्रम में रखिए: आपका मतलब है कि जनवरी में छोड़ा जा सकता है?" }, "words": ["qu'on", "dire", "Vous", "arrêter", "peut", "voulez", "janvier", "en", "?"], "answer": "Vous voulez dire qu'on peut arrêter en janvier ?", "explanation": { "en": "Vous voulez dire que + sentence, with rising intonation.", "hi": "Vous voulez dire que + वाक्य, उठती आवाज़ के साथ।" } },
+    { "type": "mcq", "prompt": { "en": "The agent says: 'Les séances ont lieu le soir.' Which follow-up BUILDS on this answer?", "hi": "एजेंट कहता है: 'Les séances ont lieu le soir.' कौन-सा सवाल इसी जवाब पर आधारित है?" }, "options": ["Quel est votre nom ?", "C'est gratuit ?", "Il faut un diplôme ?", "Le soir ? À quelle heure exactement ?"], "answer": 3, "explanation": { "en": "It picks up 'le soir' and asks for a detail.", "hi": "यह 'le soir' को पकड़कर विस्तार पूछता है।" } },
+    { "type": "fill", "prompt": { "en": "Complete: The training takes place in August.", "hi": "पूरा कीजिए: ट्रेनिंग अगस्त में होती है।" }, "sentence": "La formation a ___ en août.", "answer": "lieu", "accept": [], "explanation": { "en": "avoir lieu = to take place.", "hi": "avoir lieu = होना, आयोजित होना।" } }
+  ]
+}

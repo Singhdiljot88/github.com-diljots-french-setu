@@ -1,0 +1,889 @@
+{
+  "day": 50,
+  "phase": 3,
+  "title": {
+    "fr": "Comparer : plus, moins, aussi",
+    "en": "Comparing things",
+    "hi": "तुलना करना: plus, moins, aussi"
+  },
+  "objective": {
+    "en": "Compare cities, climates and costs with plus/moins/aussi … que, plus de/moins de/autant de … que, meilleur and mieux, and say which is the most or least (le plus, le moins).",
+    "hi": "plus/moins/aussi … que, plus de/moins de/autant de … que, meilleur और mieux से शहरों, मौसम और ख़र्चों की तुलना करना, और बताना कि कौन सबसे ज़्यादा या सबसे कम है (le plus, le moins)।"
+  },
+  "prerequisites": {
+    "days": [
+      12,
+      18,
+      23,
+      25,
+      29,
+      33
+    ],
+    "summary": {
+      "en": "You need numbers and prices (Days 12, 25), adjective agreement (Day 18), housing (Day 23), transport (Day 29) and weather (Day 33).",
+      "hi": "आपको संख्याएँ और दाम (दिन 12, 25), विशेषणों का मेल (दिन 18), घर-मकान (दिन 23), यातायात (दिन 29) और मौसम (दिन 33) याद होने चाहिए।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "le loyer",
+      "en": "the rent",
+      "hi": "किराया",
+      "pron": "लö ल्वा-ये",
+      "ipa": "lə lwaje",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "loyer"
+    },
+    {
+      "fr": "le coût de la vie",
+      "en": "the cost of living",
+      "hi": "रहन-सहन का ख़र्च",
+      "pron": "लö कू द ला वी",
+      "ipa": "lə ku də la vi",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "coût"
+    },
+    {
+      "fr": "bon marché",
+      "en": "cheap, inexpensive",
+      "hi": "सस्ता",
+      "pron": "बोँ माग़-शे",
+      "ipa": "bɔ̃ maʁʃe",
+      "pos": "adjective",
+      "note": {
+        "en": "Invariable: des fruits bon marché. Comparative: meilleur marché or moins cher.",
+        "hi": "यह नहीं बदलता: des fruits bon marché। तुलना में: meilleur marché या moins cher।"
+      }
+    },
+    {
+      "fr": "le climat",
+      "en": "the climate",
+      "hi": "जलवायु",
+      "pron": "लö क्ली-मा",
+      "ipa": "lə klima",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "climat"
+    },
+    {
+      "fr": "humide",
+      "en": "humid, damp",
+      "hi": "नम, उमस भरा",
+      "pron": "ü-मीद",
+      "ipa": "ymid",
+      "pos": "adjective",
+      "gender": "mf"
+    },
+    {
+      "fr": "sec / sèche",
+      "en": "dry",
+      "hi": "सूखा / सूखी",
+      "pron": "सैक / सैश",
+      "ipa": "sɛk / sɛʃ",
+      "pos": "adjective",
+      "lemma": "sec"
+    },
+    {
+      "fr": "les transports en commun",
+      "en": "public transport",
+      "hi": "सार्वजनिक यातायात",
+      "pron": "ले त्राँस-पॉग़ आँ को-मैँ",
+      "ipa": "le tʁɑ̃spɔʁ ɑ̃ kɔmɛ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "transport"
+    },
+    {
+      "fr": "sûr / sûre",
+      "en": "safe; sure",
+      "hi": "सुरक्षित; पक्का",
+      "pron": "सüग़",
+      "ipa": "syʁ",
+      "pos": "adjective",
+      "lemma": "sûr",
+      "note": {
+        "en": "With the circumflex: sûr (safe, sure). Without: sur (on).",
+        "hi": "टोपी के साथ: sûr (सुरक्षित, पक्का)। बिना टोपी: sur (ऊपर)।"
+      }
+    },
+    {
+      "fr": "animé / animée",
+      "en": "lively, busy",
+      "hi": "चहल-पहल वाला/वाली",
+      "pron": "आ-नी-मे",
+      "ipa": "anime",
+      "pos": "adjective",
+      "lemma": "animé"
+    },
+    {
+      "fr": "la pollution",
+      "en": "pollution",
+      "hi": "प्रदूषण",
+      "pron": "ला पो-लü-स्योँ",
+      "ipa": "la pɔlysjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "pollution"
+    },
+    {
+      "fr": "l'embouteillage",
+      "en": "the traffic jam",
+      "hi": "ट्रैफ़िक जाम",
+      "pron": "लाँ-बू-तै-याझ़",
+      "ipa": "lɑ̃butɛjaʒ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "embouteillage"
+    },
+    {
+      "fr": "la qualité de vie",
+      "en": "quality of life",
+      "hi": "जीवन की गुणवत्ता",
+      "pron": "ला का-ली-ते द वी",
+      "ipa": "la kalite də vi",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "qualité"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Le loyer est plus cher à Toronto qu'à Montréal.",
+      "en": "Rent is more expensive in Toronto than in Montréal.",
+      "hi": "टोरंटो में किराया मॉन्ट्रियाल से ज़्यादा महँगा है।",
+      "pron": "लö ल्वा-ये ए प्लü शैग़ आ तो-ग़ोँ-तो का मोँ-ग़े-आल"
+    },
+    {
+      "fr": "Il fait moins froid à Vancouver.",
+      "en": "It's less cold in Vancouver.",
+      "hi": "वैंकूवर में ठंड कम होती है।",
+      "pron": "ईल फ़ै म्वैँ फ़्रवा आ वाँ-कू-वैग़"
+    },
+    {
+      "fr": "Les bus sont aussi rapides que le métro.",
+      "en": "The buses are as fast as the metro.",
+      "hi": "बसें भी मेट्रो जितनी तेज़ हैं।",
+      "pron": "ले बüस सोँ तो-सी ग़ा-पीद क लö मे-त्रो"
+    },
+    {
+      "fr": "Il y a plus de travail ici.",
+      "en": "There is more work here.",
+      "hi": "यहाँ ज़्यादा काम है।",
+      "pron": "ई-लि-या प्लü द त्रा-वाय ई-सी"
+    },
+    {
+      "fr": "C'est la meilleure ville pour les familles.",
+      "en": "It's the best city for families.",
+      "hi": "यह परिवारों के लिए सबसे अच्छा शहर है।",
+      "pron": "सै ला मै-यöग़ वील पूग़ ले फ़ा-मीय"
+    },
+    {
+      "fr": "Ça dépend !",
+      "en": "It depends!",
+      "hi": "निर्भर करता है!",
+      "pron": "सा दे-पाँ"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Comparatives and superlatives",
+      "hi": "तुलनात्मक और सर्वोच्च रूप (comparatives और superlatives)"
+    },
+    "explanation": {
+      "en": "With adjectives and adverbs: plus … que (more … than), moins … que (less … than), aussi … que (as … as). The adjective still agrees: La vie est plus chère ici. With nouns: plus de / moins de / autant de + noun + que: Il y a plus de neige à Québec qu'à Toronto. With verbs: verb + plus / moins / autant (que): Il pleut plus à Vancouver. Irregular: bon → meilleur (adjective: une meilleure idée); bien → mieux (adverb: Elle parle mieux français). Superlative: le / la / les plus (or moins) + adjective (+ de): la ville la plus chère du Canada; la plus grande ville. le meilleur / la meilleure; le mieux.",
+      "hi": "विशेषण और क्रियाविशेषण के साथ: plus … que (… से ज़्यादा), moins … que (… से कम), aussi … que (… जितना)। विशेषण का मेल बना रहता है: La vie est plus chère ici। संज्ञा के साथ: plus de / moins de / autant de + संज्ञा + que: Il y a plus de neige à Québec qu'à Toronto (क्यूबेक में टोरंटो से ज़्यादा बर्फ़ है)। क्रिया के साथ: क्रिया + plus / moins / autant (que): Il pleut plus à Vancouver। अनियमित: bon → meilleur (विशेषण: une meilleure idée); bien → mieux (क्रियाविशेषण: Elle parle mieux français)। सर्वोच्च: le / la / les plus (या moins) + विशेषण (+ de): la ville la plus chère du Canada (कनाडा का सबसे महँगा शहर); la plus grande ville। le meilleur / la meilleure; le mieux।"
+    },
+    "comparison": {
+      "en": "Hindi puts the thing compared first with से: 'चाय कॉफ़ी से ज़्यादा गर्म है'. French keeps the normal order and adds que after the adjective: 'Le thé est plus chaud que le café' — like English 'hotter than'. Hindi and English use one word, बेहतर / better, for both meilleur and mieux; French separates them: meilleur describes a noun, mieux describes a verb.",
+      "hi": "हिंदी में जिससे तुलना होती है वह से के साथ पहले आता है: 'चाय कॉफ़ी से ज़्यादा गर्म है'। फ़्रेंच सामान्य क्रम रखती है और विशेषण के बाद que लगाती है: 'Le thé est plus chaud que le café' — अंग्रेज़ी 'hotter than' की तरह। हिंदी और अंग्रेज़ी meilleur और mieux दोनों के लिए एक ही शब्द इस्तेमाल करती हैं (बेहतर / better); फ़्रेंच इन्हें अलग रखती है: meilleur संज्ञा का वर्णन करता है, mieux क्रिया का।"
+    },
+    "examples": [
+      {
+        "fr": "L'hiver est plus long à Québec qu'à Toronto.",
+        "en": "Winter is longer in Québec City than in Toronto.",
+        "hi": "क्यूबेक शहर में सर्दी टोरंटो से ज़्यादा लंबी होती है।",
+        "pron": "ली-वैग़ ए प्लü लोँ आ के-बैक का तो-ग़ोँ-तो"
+      },
+      {
+        "fr": "À Delhi, il y a moins de neige mais plus de pollution.",
+        "en": "In Delhi there is less snow but more pollution.",
+        "hi": "दिल्ली में बर्फ़ कम है पर प्रदूषण ज़्यादा।",
+        "pron": "आ दे-ली ई-लि-या म्वैँ द नैझ़ मै प्लü द पो-लü-स्योँ"
+      },
+      {
+        "fr": "Ce café est meilleur que l'autre.",
+        "en": "This coffee is better than the other one.",
+        "hi": "यह कॉफ़ी दूसरी वाली से बेहतर है।",
+        "pron": "सö का-फ़े ए मै-यöग़ क लोत्ग़"
+      },
+      {
+        "fr": "Tu parles mieux français maintenant !",
+        "en": "You speak French better now!",
+        "hi": "अब तुम बेहतर फ़्रेंच बोलते हो!",
+        "pron": "तü पाग़ल म्यö फ़्राँ-सै मैँत-नाँ"
+      },
+      {
+        "fr": "C'est le quartier le plus animé de la ville.",
+        "en": "It's the liveliest neighbourhood in the city.",
+        "hi": "यह शहर का सबसे चहल-पहल वाला इलाक़ा है।",
+        "pron": "सै लö काग़-त्ये लö प्लü ज़ा-नी-मे द ला वील"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Never 'plus bon' — say 'meilleur'. And not 'plus bien' — say 'mieux'.",
+        "hi": "'plus bon' कभी नहीं — 'meilleur' कहिए। और 'plus bien' नहीं — 'mieux' कहिए।"
+      },
+      {
+        "en": "In the superlative with an adjective after the noun, repeat the article: la ville la plus chère (not 'la plus chère ville' — that's only for adjectives that go before the noun, like grande).",
+        "hi": "जो विशेषण संज्ञा के बाद आता है, उसके सर्वोच्च रूप में आर्टिकल दोहराइए: la ville la plus chère ('la plus chère ville' नहीं — वह सिर्फ़ उन विशेषणों के लिए है जो संज्ञा से पहले आते हैं, जैसे grande)।"
+      },
+      {
+        "en": "After a superlative, 'in' is 'de': le plus grand parc de Montréal (not 'dans Montréal').",
+        "hi": "सर्वोच्च रूप के बाद 'में' के लिए de लगता है: le plus grand parc de Montréal ('dans Montréal' नहीं)।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "/œ/ in meilleur; /ø/ in mieux",
+    "tip": {
+      "en": "Both sounds are 'rounded ए'. In mieux (and deux, peu) the mouth is closed and tense: म्यö. In meilleur (and heure, sœur) the mouth is more open and relaxed, and the r follows: मै-यöग़. Also: 'plus' is said प्लü before a consonant, but liaises with z before a vowel: plus‿agréable.",
+      "hi": "दोनों आवाज़ें 'गोल होंठों वाला ए' हैं। mieux (और deux, peu) में मुँह बंद और कसा हुआ: म्यö। meilleur (और heure, sœur) में मुँह ज़्यादा खुला और ढीला, फिर r आता है: मै-यöग़। साथ ही: व्यंजन से पहले 'plus' को प्लü बोलते हैं, पर स्वर से पहले z के साथ जुड़ता है: plus‿agréable।"
+    },
+    "words": [
+      {
+        "fr": "meilleur",
+        "en": "better (adjective)",
+        "hi": "बेहतर",
+        "pron": "मै-यöग़",
+        "ipa": "mɛjœʁ"
+      },
+      {
+        "fr": "mieux",
+        "en": "better (adverb)",
+        "hi": "बेहतर ढंग से",
+        "pron": "म्यö",
+        "ipa": "mjø"
+      },
+      {
+        "fr": "plus cher",
+        "en": "more expensive",
+        "hi": "ज़्यादा महँगा",
+        "pron": "प्लü शैग़",
+        "ipa": "ply ʃɛʁ"
+      },
+      {
+        "fr": "plus agréable",
+        "en": "more pleasant",
+        "hi": "ज़्यादा सुहाना",
+        "pron": "प्लü ज़ा-ग्रे-आब्ल",
+        "ipa": "ply zaɡʁeabl"
+      },
+      {
+        "fr": "moins",
+        "en": "less",
+        "hi": "कम",
+        "pron": "म्वैँ",
+        "ipa": "mwɛ̃"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Montréal ou Toronto ?",
+      "en": "Montréal or Toronto?"
+    },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Aditi is moving to Canada and can't decide between two cities. She asks her friend Rohit, who lives in Montréal.",
+      "hi": "अदिति कनाडा जा रही है और दो शहरों के बीच फ़ैसला नहीं कर पा रही। वह अपने दोस्त रोहित से पूछती है, जो मॉन्ट्रियाल में रहता है।"
+    },
+    "lines": [
+      {
+        "speaker": "Rohit",
+        "voice": "m1",
+        "fr": "Alors, Aditi, tu as choisi ? Montréal ou Toronto ?",
+        "en": "So, Aditi, have you chosen? Montréal or Toronto?",
+        "hi": "तो अदिति, तुमने चुन लिया? मॉन्ट्रियाल या टोरंटो?"
+      },
+      {
+        "speaker": "Aditi",
+        "voice": "f1",
+        "fr": "Pas encore. À Toronto, il y a plus de travail dans mon domaine, la finance.",
+        "en": "Not yet. In Toronto there's more work in my field, finance.",
+        "hi": "अभी नहीं। टोरंटो में मेरे क्षेत्र, फ़ाइनेंस, में ज़्यादा काम है।"
+      },
+      {
+        "speaker": "Rohit",
+        "voice": "m1",
+        "fr": "Oui, mais le loyer est beaucoup plus cher à Toronto. Pour un deux-pièces, tu paies au moins 2 600 dollars par mois.",
+        "en": "Yes, but rent is much more expensive in Toronto. For a one-bedroom flat you pay at least 2,600 dollars a month.",
+        "hi": "हाँ, पर टोरंटो में किराया बहुत ज़्यादा महँगा है। एक बेडरूम वाले फ़्लैट के लिए तुम कम से कम 2,600 डॉलर महीना दोगी।"
+      },
+      {
+        "speaker": "Aditi",
+        "voice": "f1",
+        "fr": "Et à Montréal ?",
+        "en": "And in Montréal?",
+        "hi": "और मॉन्ट्रियाल में?"
+      },
+      {
+        "speaker": "Rohit",
+        "voice": "m1",
+        "fr": "C'est moins cher : environ 1 800 dollars. Et les transports en commun sont aussi bons qu'à Toronto.",
+        "en": "It's cheaper: about 1,800 dollars. And public transport is as good as in Toronto.",
+        "hi": "कम महँगा है: लगभग 1,800 डॉलर। और सार्वजनिक यातायात टोरंटो जितना ही अच्छा है।"
+      },
+      {
+        "speaker": "Aditi",
+        "voice": "f1",
+        "fr": "Et l'hiver ? On dit que l'hiver est plus froid à Montréal.",
+        "en": "And winter? They say winter is colder in Montréal.",
+        "hi": "और सर्दी? कहते हैं मॉन्ट्रियाल में सर्दी ज़्यादा होती है।"
+      },
+      {
+        "speaker": "Rohit",
+        "voice": "m1",
+        "fr": "C'est vrai, il fait un peu plus froid et il neige plus. Mais à Toronto, il y a plus d'embouteillages !",
+        "en": "That's true, it's a bit colder and it snows more. But in Toronto there are more traffic jams!",
+        "hi": "सच है, थोड़ी ज़्यादा ठंड होती है और बर्फ़ ज़्यादा गिरती है। पर टोरंटो में ट्रैफ़िक जाम ज़्यादा हैं!"
+      },
+      {
+        "speaker": "Aditi",
+        "voice": "f1",
+        "fr": "Ha ha ! Et le français ? Mon français n'est pas encore très bon.",
+        "en": "Ha ha! And French? My French isn't very good yet.",
+        "hi": "हा हा! और फ़्रेंच? मेरी फ़्रेंच अभी बहुत अच्छी नहीं है।"
+      },
+      {
+        "speaker": "Rohit",
+        "voice": "m1",
+        "fr": "À Montréal, tu parleras mieux dans un an. La rue, c'est la meilleure école !",
+        "en": "In Montréal you'll speak better in a year. The street is the best school!",
+        "hi": "मॉन्ट्रियाल में एक साल में तुम बेहतर बोलने लगोगी। गली-सड़क ही सबसे अच्छा स्कूल है!"
+      },
+      {
+        "speaker": "Aditi",
+        "voice": "f1",
+        "fr": "C'est vrai. Et la vie culturelle ?",
+        "en": "True. And cultural life?",
+        "hi": "सच है। और सांस्कृतिक जीवन?"
+      },
+      {
+        "speaker": "Rohit",
+        "voice": "m1",
+        "fr": "Pour moi, c'est la ville la plus animée du Canada : festivals, musique, restaurants…",
+        "en": "For me it's the liveliest city in Canada: festivals, music, restaurants…",
+        "hi": "मेरे लिए यह कनाडा का सबसे चहल-पहल वाला शहर है: त्योहार, संगीत, रेस्टोरेंट…"
+      },
+      {
+        "speaker": "Aditi",
+        "voice": "f1",
+        "fr": "Tu n'es pas très objectif : tu habites à Montréal !",
+        "en": "You're not very objective: you live in Montréal!",
+        "hi": "तुम ज़्यादा निष्पक्ष नहीं हो: तुम तो मॉन्ट्रियाल में रहते हो!"
+      },
+      {
+        "speaker": "Rohit",
+        "voice": "m1",
+        "fr": "D'accord, d'accord. Mais compare avec Delhi : ici, il y a moins de pollution et la vie est plus calme.",
+        "en": "OK, OK. But compare with Delhi: here there's less pollution and life is calmer.",
+        "hi": "ठीक है, ठीक है। पर दिल्ली से तुलना करो: यहाँ प्रदूषण कम है और ज़िंदगी ज़्यादा शांत है।"
+      },
+      {
+        "speaker": "Aditi",
+        "voice": "f1",
+        "fr": "Ça, c'est sûr. Bon, je vais réfléchir… mais je crois que Montréal gagne !",
+        "en": "That's for sure. Well, I'll think about it… but I think Montréal wins!",
+        "hi": "यह तो पक्का है। ठीक है, मैं सोचूँगी… पर मुझे लगता है मॉन्ट्रियाल जीत रहा है!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "What is Toronto's main advantage for Aditi?"
+        },
+        "options": [
+          "Lower rent",
+          "More jobs in finance",
+          "Less snow",
+          "Better French"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'plus de travail dans mon domaine, la finance'.",
+          "hi": "'plus de travail dans mon domaine, la finance' (मेरे क्षेत्र फ़ाइनेंस में ज़्यादा काम)।"
+        },
+        "kind": "literal",
+        "evidence": "il y a plus de travail dans mon domaine, la finance"
+      },
+      {
+        "q": {
+          "en": "How much does a similar flat cost in Montréal?"
+        },
+        "options": [
+          "About 2,600 dollars",
+          "About 1,200 dollars",
+          "About 1,800 dollars"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'environ 1 800 dollars' — less than Toronto's 2,600.",
+          "hi": "'environ 1 800 dollars' — टोरंटो के 2,600 से कम।"
+        },
+        "kind": "literal",
+        "evidence": "C'est moins cher : environ 1 800 dollars."
+      },
+      {
+        "q": {
+          "en": "According to Rohit, what is worse in Toronto?"
+        },
+        "options": [
+          "The traffic jams",
+          "The public transport",
+          "The snow"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'à Toronto, il y a plus d'embouteillages'.",
+          "hi": "'à Toronto, il y a plus d'embouteillages' (टोरंटो में ट्रैफ़िक जाम ज़्यादा हैं)।"
+        },
+        "kind": "literal",
+        "evidence": "à Toronto, il y a plus d'embouteillages"
+      },
+      {
+        "q": {
+          "en": "What does Rohit mean by 'La rue, c'est la meilleure école'?"
+        },
+        "options": [
+          "Montréal's schools are in the street",
+          "Living in French every day is the best way to learn",
+          "Aditi should study at night"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "Hearing and using French daily in Montréal will improve her French fastest.",
+          "hi": "मॉन्ट्रियाल में रोज़ फ़्रेंच सुनने और बोलने से उसकी फ़्रेंच सबसे तेज़ी से सुधरेगी।"
+        },
+        "kind": "inference",
+        "evidence": "La rue, c'est la meilleure école !"
+      },
+      {
+        "q": {
+          "en": "Why does Aditi say Rohit isn't objective?"
+        },
+        "options": [
+          "Because he lives in Montréal",
+          "Because he has never been to Toronto",
+          "Because he works in finance"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'tu habites à Montréal !' — he naturally prefers his own city.",
+          "hi": "'tu habites à Montréal !' — स्वाभाविक है कि वह अपने शहर को पसंद करता है।"
+        },
+        "kind": "inference",
+        "evidence": "Tu n'es pas très objectif : tu habites à Montréal !"
+      }
+    ],
+    "dictation": [
+      "Le loyer est beaucoup plus cher à Toronto.",
+      "Les transports en commun sont aussi bons.",
+      "Il y a moins de pollution."
+    ],
+    "gapFill": {
+      "text": "À Toronto, il y a ___ de travail. À Montréal, c'est ___ cher. Tu parleras ___ dans un an.",
+      "answers": [
+        "plus",
+        "moins",
+        "mieux"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "conversation",
+    "instructions": {
+      "en": "Compare two cities you know (for example your Indian city and a Canadian city). Answer each prompt with a comparative, then give your conclusion with a superlative or 'meilleur'.",
+      "hi": "दो ऐसे शहरों की तुलना कीजिए जिन्हें आप जानते हैं (जैसे आपका भारतीय शहर और कोई कनाडाई शहर)। हर प्रश्न का जवाब तुलनात्मक रूप से दीजिए, फिर सर्वोच्च रूप या 'meilleur' से निष्कर्ष बताइए।"
+    },
+    "prompts": [
+      {
+        "fr": "Où est-ce que le climat est plus agréable ?",
+        "en": "Where is the climate more pleasant?",
+        "hi": "कहाँ का मौसम ज़्यादा सुहाना है?",
+        "pron": "ऊ ऐस-क लö क्ली-मा ए प्लü ज़ा-ग्रे-आब्ल",
+        "model": "Le climat est plus agréable à Bangalore qu'à Ottawa : il fait moins froid."
+      },
+      {
+        "fr": "Où est-ce que la vie coûte moins cher ?",
+        "en": "Where does life cost less?",
+        "hi": "कहाँ रहना सस्ता है?",
+        "pron": "ऊ ऐस-क ला वी कूत म्वैँ शैग़",
+        "model": "La vie coûte moins cher à Bangalore, mais les salaires sont plus bas."
+      },
+      {
+        "fr": "Les transports sont meilleurs où ?",
+        "en": "Where is transport better?",
+        "hi": "यातायात कहाँ बेहतर है?",
+        "pron": "ले त्राँस-पॉग़ सोँ मै-यöग़ ऊ",
+        "model": "À Ottawa, il y a moins d'embouteillages, et les bus sont plus ponctuels."
+      },
+      {
+        "fr": "Où est-ce qu'il y a plus de choses à faire ?",
+        "en": "Where is there more to do?",
+        "hi": "कहाँ करने को ज़्यादा चीज़ें हैं?",
+        "pron": "ऊ ऐस-कि-लि-या प्लü द शोज़ आ फ़ैग़",
+        "model": "Il y a plus de restaurants et de fêtes à Bangalore."
+      },
+      {
+        "fr": "Pour vous, quelle est la meilleure ville ? Pourquoi ?",
+        "en": "For you, which is the best city? Why?",
+        "hi": "आपके लिए सबसे अच्छा शहर कौन-सा है? क्यों?",
+        "pron": "पूग़ वू कैल ए ला मै-यöग़ वील — पूग़-क्वा",
+        "model": "Pour ma famille, Ottawa est la meilleure ville, parce que c'est plus sûr et plus calme."
+      }
+    ],
+    "tip": {
+      "en": "Don't forget 'que' and the second element: 'plus cher que Delhi'. If you leave it out, make sure the context is clear: 'À Toronto, c'est plus cher.'",
+      "hi": "'que' और दूसरी चीज़ मत भूलिए: 'plus cher que Delhi'। अगर उसे छोड़ें, तो संदर्भ साफ़ होना चाहिए: 'À Toronto, c'est plus cher.'"
+    }
+  },
+  "reading": {
+    "genre": "article",
+    "title": "Trois villes, trois climats",
+    "text": "Vous rêvez du Canada, mais vous avez peur du froid ? Comparons trois villes.\n\nÀ Vancouver, l'hiver est le plus doux du Canada : en janvier, la température moyenne est de 4 °C. Mais il pleut beaucoup : il pleut plus à Vancouver qu'à Toronto, et il y a moins de soleil.\n\nÀ Winnipeg, au contraire, l'hiver est un des plus froids du pays : −16 °C en moyenne en janvier ! Mais l'air est sec et il y a plus de soleil qu'à Vancouver. Les loyers sont aussi moins chers : un appartement coûte environ 1 400 dollars par mois, contre 2 800 à Vancouver.\n\nEt Delhi ? En janvier, il fait environ 14 °C, mais en mai, la température dépasse souvent 40 °C. L'été à Delhi est beaucoup plus chaud que l'été à Winnipeg, qui reste agréable, avec 26 °C.\n\nAlors, quelle est la meilleure ville ? Ça dépend de vous ! Si vous aimez le soleil, Winnipeg est un meilleur choix que Vancouver. Si vous détestez la neige, Vancouver est la ville la plus agréable du Canada en hiver.",
+    "translation": {
+      "en": "Do you dream of Canada but are you afraid of the cold? Let's compare three cities.\n\nIn Vancouver, winter is the mildest in Canada: in January the average temperature is 4 °C. But it rains a lot: it rains more in Vancouver than in Toronto, and there is less sunshine.\n\nIn Winnipeg, on the other hand, winter is one of the coldest in the country: −16 °C on average in January! But the air is dry and there is more sunshine than in Vancouver. Rents are also cheaper: a flat costs about 1,400 dollars a month, compared with 2,800 in Vancouver.\n\nAnd Delhi? In January it is about 14 °C, but in May the temperature often goes above 40 °C. Summer in Delhi is much hotter than summer in Winnipeg, which stays pleasant at 26 °C.\n\nSo which is the best city? It depends on you! If you like sunshine, Winnipeg is a better choice than Vancouver. If you hate snow, Vancouver is the most pleasant city in Canada in winter.",
+      "hi": "क्या आप कनाडा का सपना देखते हैं, पर ठंड से डरते हैं? आइए तीन शहरों की तुलना करें।\n\nवैंकूवर में सर्दी कनाडा में सबसे हल्की होती है: जनवरी में औसत तापमान 4 °C होता है। पर बारिश बहुत होती है: वैंकूवर में टोरंटो से ज़्यादा बारिश होती है, और धूप कम निकलती है।\n\nइसके उलट, विनिपेग की सर्दी देश की सबसे ठंडी सर्दियों में से एक है: जनवरी में औसतन −16 °C! पर हवा सूखी है और वैंकूवर से ज़्यादा धूप निकलती है। किराए भी कम हैं: एक फ़्लैट लगभग 1,400 डॉलर महीने का पड़ता है, जबकि वैंकूवर में 2,800।\n\nऔर दिल्ली? जनवरी में लगभग 14 °C होता है, पर मई में तापमान अक्सर 40 °C से ऊपर चला जाता है। दिल्ली की गर्मी विनिपेग की गर्मी से कहीं ज़्यादा तेज़ है, जहाँ 26 °C के साथ मौसम सुहाना रहता है।\n\nतो सबसे अच्छा शहर कौन-सा है? यह आप पर निर्भर करता है! अगर आपको धूप पसंद है, तो विनिपेग वैंकूवर से बेहतर विकल्प है। अगर आपको बर्फ़ से नफ़रत है, तो सर्दियों में वैंकूवर कनाडा का सबसे सुहाना शहर है।"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "Which city has the mildest winter in Canada?"
+        },
+        "options": [
+          "Winnipeg",
+          "Toronto",
+          "Vancouver"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'l'hiver est le plus doux du Canada' — about Vancouver.",
+          "hi": "'l'hiver est le plus doux du Canada' — वैंकूवर के बारे में।"
+        },
+        "kind": "literal",
+        "evidence": "À Vancouver, l'hiver est le plus doux du Canada"
+      },
+      {
+        "q": {
+          "en": "Compared with Vancouver, what does Winnipeg have more of?"
+        },
+        "options": [
+          "Rain",
+          "Sunshine",
+          "Expensive flats"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'il y a plus de soleil qu'à Vancouver'.",
+          "hi": "'il y a plus de soleil qu'à Vancouver' (वैंकूवर से ज़्यादा धूप)।"
+        },
+        "kind": "literal",
+        "evidence": "il y a plus de soleil qu'à Vancouver"
+      },
+      {
+        "q": {
+          "en": "How does rent in Winnipeg compare with Vancouver?"
+        },
+        "options": [
+          "It is about half the price",
+          "It is the same",
+          "It is twice as expensive"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "1,400 vs 2,800 dollars: Winnipeg costs about half.",
+          "hi": "1,400 बनाम 2,800 डॉलर: विनिपेग में लगभग आधा।"
+        },
+        "kind": "inference",
+        "evidence": "un appartement coûte environ 1 400 dollars par mois, contre 2 800 à Vancouver"
+      },
+      {
+        "q": {
+          "en": "Which statement about summer is true?"
+        },
+        "options": [
+          "Winnipeg is hotter than Delhi",
+          "Delhi is much hotter than Winnipeg",
+          "Both are about 26 °C"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'L'été à Delhi est beaucoup plus chaud que l'été à Winnipeg'.",
+          "hi": "'L'été à Delhi est beaucoup plus chaud que l'été à Winnipeg' (दिल्ली की गर्मी विनिपेग से कहीं ज़्यादा)।"
+        },
+        "kind": "literal",
+        "evidence": "L'été à Delhi est beaucoup plus chaud que l'été à Winnipeg"
+      },
+      {
+        "q": {
+          "en": "According to the article, who should choose Winnipeg over Vancouver?"
+        },
+        "options": [
+          "People who hate snow",
+          "People who want a mild winter",
+          "People who like sunshine"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Si vous aimez le soleil, Winnipeg est un meilleur choix'.",
+          "hi": "'Si vous aimez le soleil, Winnipeg est un meilleur choix' (अगर आपको धूप पसंद है, तो विनिपेग बेहतर है)।"
+        },
+        "kind": "inference",
+        "evidence": "Si vous aimez le soleil, Winnipeg est un meilleur choix que Vancouver."
+      }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "Compare two places you know well (two cities, or your home town and a city you'd like to live in): climate, cost of living, transport, quality of life. End by saying which one you prefer and why.",
+      "hi": "दो ऐसी जगहों की तुलना कीजिए जिन्हें आप अच्छी तरह जानते हैं (दो शहर, या आपका गृहनगर और वह शहर जहाँ आप रहना चाहते हैं): मौसम, रहन-सहन का ख़र्च, यातायात, जीवन की गुणवत्ता। अंत में बताइए कि आपको कौन-सी जगह ज़्यादा पसंद है और क्यों।",
+      "fr": "Comparez deux villes."
+    },
+    "minWords": 60,
+    "maxWords": 110,
+    "hints": [
+      {
+        "en": "Use at least one of each: plus … que, moins … que, aussi … que, plus de / moins de + noun.",
+        "hi": "हर एक कम से कम एक बार: plus … que, moins … que, aussi … que, plus de / moins de + संज्ञा।"
+      },
+      {
+        "en": "Finish with a superlative or meilleur(e): Pour moi, … est la meilleure ville pour …",
+        "hi": "अंत सर्वोच्च रूप या meilleur(e) से कीजिए: Pour moi, … est la meilleure ville pour …"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "À …, il fait plus chaud qu'à …",
+        "en": "In …, it's hotter than in …",
+        "hi": "… में … से ज़्यादा गर्मी होती है",
+        "pron": "आ … ईल फ़ै प्लü शो का"
+      },
+      {
+        "fr": "Le coût de la vie est moins élevé.",
+        "en": "The cost of living is lower.",
+        "hi": "रहन-सहन का ख़र्च कम है।",
+        "pron": "लö कू द ला वी ए म्वैँ ज़ेल-वे"
+      },
+      {
+        "fr": "Pour moi, … est le meilleur choix.",
+        "en": "For me, … is the best choice.",
+        "hi": "मेरे लिए … सबसे अच्छा विकल्प है।",
+        "pron": "पूग़ म्वा … ए लö मै-यöग़ श्वा"
+      }
+    ],
+    "model": {
+      "fr": "Je compare Chandigarh, ma ville natale, et Halifax, où j'habite maintenant. À Chandigarh, il fait beaucoup plus chaud en été, mais l'hiver est moins long qu'à Halifax. Le coût de la vie est moins élevé en Inde : le loyer est trois fois moins cher. Par contre, à Halifax, il y a moins de pollution et moins d'embouteillages. Les deux villes sont aussi propres et aussi vertes. Pour moi, Halifax est la meilleure ville pour ma famille, parce que la qualité de vie est excellente.",
+      "en": "I'm comparing Chandigarh, my home town, and Halifax, where I live now. In Chandigarh it is much hotter in summer, but winter is shorter than in Halifax. The cost of living is lower in India: rent is three times cheaper. On the other hand, in Halifax there is less pollution and fewer traffic jams. The two cities are equally clean and equally green. For me, Halifax is the best city for my family, because the quality of life is excellent."
+    },
+    "checklist": [
+      {
+        "en": "Did you put 'que' after the adjective, and 'de' after plus/moins with nouns?",
+        "hi": "क्या आपने विशेषण के बाद 'que', और संज्ञा के साथ plus/moins के बाद 'de' लगाया?"
+      },
+      {
+        "en": "Did you use meilleur (not plus bon) and mieux (not plus bien)?",
+        "hi": "क्या आपने meilleur ('plus bon' नहीं) और mieux ('plus bien' नहीं) लिखा?"
+      },
+      {
+        "en": "Do your adjectives agree (la vie est plus chère)?",
+        "hi": "क्या आपके विशेषण मेल खाते हैं (la vie est plus chère)?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      23,
+      25,
+      29,
+      33,
+      45,
+      48
+    ],
+    "items": [
+      {
+        "fr": "un appartement à louer",
+        "en": "a flat for rent",
+        "hi": "किराए के लिए एक फ़्लैट",
+        "pron": "ऐँ ना-पाग़-त-माँ आ लू-वे"
+      },
+      {
+        "fr": "Combien ça coûte ?",
+        "en": "How much does it cost?",
+        "hi": "यह कितने का है?",
+        "pron": "कोँ-ब्यैँ सा कूत"
+      },
+      {
+        "fr": "Prenez le métro, ligne verte.",
+        "en": "Take the metro, green line.",
+        "hi": "मेट्रो लीजिए, ग्रीन लाइन।",
+        "pron": "प्रö-ने लö मे-त्रो लीन्य वैग़त"
+      },
+      {
+        "fr": "Il fait moins vingt.",
+        "en": "It's minus twenty.",
+        "hi": "माइनस बीस डिग्री है।",
+        "pron": "ईल फ़ै म्वैँ वैँ"
+      },
+      {
+        "fr": "J'habite ici depuis deux ans.",
+        "en": "I've been living here for two years.",
+        "hi": "मैं दो साल से यहाँ रह रहा/रही हूँ।",
+        "pron": "झ़ा-बीत ई-सी दö-प्üई दö ज़ाँ"
+      },
+      {
+        "fr": "L'année prochaine, je déménagerai.",
+        "en": "Next year I'll move.",
+        "hi": "अगले साल मैं घर बदलूँगा/बदलूँगी।",
+        "pron": "ला-ने प्रो-शैन झ़ö दे-मे-नाझ़-ग़े"
+      },
+      {
+        "fr": "Il y avait beaucoup de pollution.",
+        "en": "There was a lot of pollution.",
+        "hi": "बहुत प्रदूषण था।",
+        "pron": "ई-लि-या-वै बो-कू द पो-लü-स्योँ"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Choose the correct sentence.",
+        "hi": "सही वाक्य चुनिए।"
+      },
+      "options": [
+        "Ce restaurant est plus bon.",
+        "Ce restaurant est meilleur.",
+        "Ce restaurant est mieux bon.",
+        "Ce restaurant est plus meilleur."
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "bon → meilleur. Never 'plus bon'.",
+        "hi": "bon → meilleur। 'plus bon' कभी नहीं।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: There is less snow in Vancouver.",
+        "hi": "पूरा कीजिए: वैंकूवर में बर्फ़ कम है।"
+      },
+      "sentence": "Il y a ___ neige à Vancouver.",
+      "answer": "moins de",
+      "accept": [],
+      "explanation": {
+        "en": "With a noun: moins de + noun.",
+        "hi": "संज्ञा के साथ: moins de + संज्ञा।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'She speaks French better than me.' Which word?",
+        "hi": "'वह मुझसे बेहतर फ़्रेंच बोलती है।' कौन-सा शब्द?"
+      },
+      "options": [
+        "meilleur",
+        "meilleure",
+        "mieux"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "It describes the verb parler → adverb mieux.",
+        "hi": "यह क्रिया parler का वर्णन करता है → क्रियाविशेषण mieux।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "Rent is more expensive in Toronto than in Montréal.",
+        "hi": "टोरंटो में किराया मॉन्ट्रियाल से ज़्यादा महँगा है।"
+      },
+      "answer": "Le loyer est plus cher à Toronto qu'à Montréal.",
+      "accept": [
+        "Le loyer est plus cher à Toronto qu'à Montréal",
+        "À Toronto, le loyer est plus cher qu'à Montréal."
+      ],
+      "explanation": {
+        "en": "plus + adjective + que; que + à → qu'à.",
+        "hi": "plus + विशेषण + que; que + à → qu'à।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: It's the liveliest neighbourhood in the city.",
+        "hi": "पूरा कीजिए: यह शहर का सबसे चहल-पहल वाला इलाक़ा है।"
+      },
+      "sentence": "C'est le quartier ___ plus animé de la ville.",
+      "answer": "le",
+      "accept": [],
+      "explanation": {
+        "en": "Adjective after the noun → repeat the article: le quartier le plus animé.",
+        "hi": "संज्ञा के बाद वाला विशेषण → आर्टिकल दोहराइए: le quartier le plus animé।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: The buses are as fast as the metro.",
+        "hi": "शब्दों को सही क्रम में रखिए: बसें मेट्रो जितनी तेज़ हैं।"
+      },
+      "words": [
+        "aussi",
+        "Les",
+        "que",
+        "bus",
+        "rapides",
+        "sont",
+        "le",
+        "métro",
+        "."
+      ],
+      "answer": "Les bus sont aussi rapides que le métro.",
+      "explanation": {
+        "en": "aussi + adjective + que.",
+        "hi": "aussi + विशेषण + que।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which word has the open sound /œ/?",
+        "hi": "किस शब्द में खुली आवाज़ /œ/ है?"
+      },
+      "options": [
+        "mieux",
+        "deux",
+        "meilleur"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "meilleur ends in /œʁ/, like heure. mieux and deux have closed /ø/.",
+        "hi": "meilleur के अंत में /œʁ/ है, heure की तरह। mieux और deux में बंद /ø/ है।"
+      }
+    }
+  ]
+}

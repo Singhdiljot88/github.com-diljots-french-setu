@@ -1,0 +1,914 @@
+{
+  "day": 106,
+  "phase": 6,
+  "title": {
+    "fr": "Stratégies pour parler sous pression",
+    "en": "Speaking strategies under pressure",
+    "hi": "दबाव में बोलने की रणनीतियाँ"
+  },
+  "objective": {
+    "en": "Keep a conversation going when you are stuck: gain time, reformulate, ask for repetition and describe a word you don't know — then use these repairs in timed TEF A and B practice.",
+    "hi": "अटकने पर भी बातचीत जारी रखना: समय लेना, दूसरे शब्दों में कहना, दोहराने के लिए कहना और अनजाने शब्द का वर्णन करना — फिर इन तरीक़ों का समयबद्ध TEF A और B अभ्यास में इस्तेमाल करना।"
+  },
+  "prerequisites": {
+    "days": [
+      86,
+      87,
+      95,
+      96,
+      104
+    ],
+    "summary": {
+      "en": "Indirect questions (day 86), persuasion (day 87), and your mock 1 speaking review (day 104).",
+      "hi": "अप्रत्यक्ष प्रश्न (दिन 86), मनाने की भाषा (दिन 87), और मॉक 1 के बोलने की आपकी समीक्षा (दिन 104)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "reformuler",
+      "en": "to rephrase",
+      "hi": "दूसरे शब्दों में कहना",
+      "pron": "ग़ö-फ़ॉग़-मü-ले",
+      "ipa": "ʁəfɔʁmyle",
+      "pos": "verb"
+    },
+    {
+      "fr": "répéter",
+      "en": "to repeat",
+      "hi": "दोहराना",
+      "pron": "ग़े-पे-ते",
+      "ipa": "ʁepete",
+      "pos": "verb"
+    },
+    {
+      "fr": "hésiter",
+      "en": "to hesitate",
+      "hi": "हिचकिचाना",
+      "pron": "ए-ज़ी-ते",
+      "ipa": "ezite",
+      "pos": "verb"
+    },
+    {
+      "fr": "un trou de mémoire",
+      "en": "a memory blank",
+      "hi": "अचानक भूल जाना / दिमाग़ ख़ाली हो जाना",
+      "pron": "ऐँ त्ग़ू दö मे-म्वाग़",
+      "ipa": "ɛ̃ tʁu də memwaʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "trou"
+    },
+    {
+      "fr": "une sorte de",
+      "en": "a kind of",
+      "hi": "एक तरह का / की",
+      "pron": "üन सॉग़्त दö",
+      "ipa": "yn sɔʁt də",
+      "pos": "phrase"
+    },
+    {
+      "fr": "servir à",
+      "en": "to be used for",
+      "hi": "… के काम आना",
+      "pron": "सैग़-वीग़ आ",
+      "ipa": "sɛʁviʁ a",
+      "pos": "verb",
+      "lemma": "servir"
+    },
+    {
+      "fr": "autrement dit",
+      "en": "in other words",
+      "hi": "दूसरे शब्दों में",
+      "pron": "ओ-त्ग़ö-माँ दी",
+      "ipa": "otʁəmɑ̃ di",
+      "pos": "adverb"
+    },
+    {
+      "fr": "voyons",
+      "en": "let's see",
+      "hi": "चलिए देखते हैं",
+      "pron": "व्वा-योँ",
+      "ipa": "vwajɔ̃",
+      "pos": "interjection"
+    },
+    {
+      "fr": "le contraire",
+      "en": "the opposite",
+      "hi": "उलटा / विपरीत",
+      "pron": "लö कोँ-त्ग़ैग़",
+      "ipa": "lə kɔ̃tʁɛʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "contraire"
+    },
+    {
+      "fr": "numéroté",
+      "en": "numbered",
+      "hi": "नंबर वाला / क्रमांकित",
+      "pron": "नü-मे-ग़ो-ते",
+      "ipa": "nymeʁɔte",
+      "pos": "adjective"
+    },
+    {
+      "fr": "la patience",
+      "en": "patience",
+      "hi": "धैर्य",
+      "pron": "ला पा-स्याँस",
+      "ipa": "la pasjɑ̃s",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "patience"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Comment dire …",
+      "en": "How can I put it …",
+      "hi": "कैसे कहूँ …",
+      "pron": "को-माँ दीग़"
+    },
+    {
+      "fr": "Pourriez-vous répéter, s'il vous plaît ?",
+      "en": "Could you repeat, please?",
+      "hi": "क्या आप कृपया दोहरा सकते हैं?",
+      "pron": "पू-ग़ी-ये वू ग़े-पे-ते सील वू प्लै"
+    },
+    {
+      "fr": "Excusez-moi, je n'ai pas bien compris.",
+      "en": "Sorry, I didn't quite understand.",
+      "hi": "माफ़ कीजिए, मैं ठीक से समझा / समझी नहीं।",
+      "pron": "ऐक्स-कü-ज़े म्वा झ़ö ने पा ब्यैँ कोँ-प्ग़ी"
+    },
+    {
+      "fr": "Vous voulez dire que … ?",
+      "en": "Do you mean that … ?",
+      "hi": "आपका मतलब है कि … ?",
+      "pron": "वू वू-ले दीग़ कö"
+    },
+    {
+      "fr": "Je ne connais pas le mot, mais c'est une chose qui sert à …",
+      "en": "I don't know the word, but it's a thing used for …",
+      "hi": "मुझे शब्द नहीं आता, पर यह एक चीज़ है जो … के काम आती है",
+      "pron": "झ़ö नö को-नै पा लö मो मै सै तüन शोज़ की सैग़ आ"
+    },
+    {
+      "fr": "Ce que je veux dire, c'est que …",
+      "en": "What I mean is that …",
+      "hi": "मेरा कहने का मतलब यह है कि …",
+      "pron": "स कö झ़ö वö दीग़ सै कö"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Four repair strategies: gain time, ask, reformulate, describe",
+      "hi": "चार सुधार-रणनीतियाँ: समय लेना, पूछना, दूसरे शब्दों में कहना, वर्णन करना"
+    },
+    "explanation": {
+      "en": "Under pressure, silence is your enemy, not mistakes. 1) Gain time with French fillers instead of English 'um': Euh…, Alors…, Voyons…, Comment dire…, C'est une bonne question. 2) Ask for help politely: Pourriez-vous répéter ? Excusez-moi, je n'ai pas bien compris. Vous voulez dire que… ? 3) Reformulate to check or to correct yourself: Autrement dit, … / Ce que je veux dire, c'est que … / Enfin, je veux dire … 4) Describe a word you don't know (circumlocution) with a relative clause: c'est une chose qui sert à + infinitive; c'est un endroit où on …; c'est une personne qui …; c'est une sorte de …; c'est le contraire de … . Notice the grammar: qui is the subject of the next verb (une chose qui sert à), où is for places and times (un endroit où on mange).",
+      "hi": "दबाव में दुश्मन ग़लतियाँ नहीं, चुप्पी है। 1) अंग्रेज़ी 'um' की जगह फ़्रेंच भराव-शब्दों से समय लीजिए: Euh…, Alors…, Voyons…, Comment dire…, C'est une bonne question। 2) शिष्टता से मदद माँगिए: Pourriez-vous répéter ? Excusez-moi, je n'ai pas bien compris. Vous voulez dire que… ? 3) जाँचने या ख़ुद को सुधारने के लिए दूसरे शब्दों में कहिए: Autrement dit, … / Ce que je veux dire, c'est que … / Enfin, je veux dire … 4) अनजाने शब्द का वर्णन (circumlocution) संबंधवाचक उपवाक्य से कीजिए: c'est une chose qui sert à + क्रिया का मूल रूप; c'est un endroit où on …; c'est une personne qui …; c'est une sorte de …; c'est le contraire de …। व्याकरण पर ध्यान दीजिए: qui अगली क्रिया का कर्ता है (une chose qui sert à), où जगह और समय के लिए है (un endroit où on mange)।"
+    },
+    "comparison": {
+      "en": "In Hindi you might say 'वो… क्या कहते हैं… वो चीज़ जिससे…'. French works the same way: 'C'est… comment dire… une chose qui sert à…'. The relative pronoun qui ≈ जो, où ≈ जहाँ.",
+      "hi": "हिंदी में आप कह सकते हैं 'वो… क्या कहते हैं… वो चीज़ जिससे…'। फ़्रेंच में भी यही तरीक़ा है: 'C'est… comment dire… une chose qui sert à…'। संबंधवाचक सर्वनाम qui ≈ जो, où ≈ जहाँ।"
+    },
+    "examples": [
+      {
+        "fr": "C'est une chose qui sert à ouvrir les bouteilles.",
+        "en": "It's a thing used for opening bottles.",
+        "hi": "यह एक चीज़ है जो बोतलें खोलने के काम आती है।",
+        "pron": "सै तüन शोज़ की सैग़ आ ऊ-व्ग़ीग़ ले बू-तैय"
+      },
+      {
+        "fr": "C'est un endroit où on achète des médicaments.",
+        "en": "It's a place where you buy medicine.",
+        "hi": "यह एक जगह है जहाँ दवाइयाँ ख़रीदी जाती हैं।",
+        "pron": "सै तैँ नाँ-द्ग़्वा ऊ ओँ ना-शैत दे मे-दी-का-माँ"
+      },
+      {
+        "fr": "C'est une personne qui répare les voitures.",
+        "en": "It's a person who repairs cars.",
+        "hi": "यह एक व्यक्ति है जो गाड़ियाँ ठीक करता है।",
+        "pron": "सै तüन पैग़-सॉन की ग़े-पाग़ ले व्वा-तüग़"
+      },
+      {
+        "fr": "C'est le contraire de « gratuit ».",
+        "en": "It's the opposite of 'free'.",
+        "hi": "यह 'मुफ़्त' का उलटा है।",
+        "pron": "सै लö कोँ-त्ग़ैग़ दö ग्ग़ा-त्üई"
+      },
+      {
+        "fr": "Autrement dit, vous préférez le samedi ?",
+        "en": "In other words, you prefer Saturday?",
+        "hi": "दूसरे शब्दों में, आपको शनिवार पसंद है?",
+        "pron": "ओ-त्ग़ö-माँ दी वू प्ग़े-फ़े-ग़े लö सम-दी"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Don't switch to English for a missing word. Describe it in French: the examiner rewards communication.",
+        "hi": "कोई शब्द न आए तो अंग्रेज़ी में मत चले जाइए। उसका फ़्रेंच में वर्णन कीजिए: परीक्षक बातचीत जारी रखने की क़द्र करता है।"
+      },
+      {
+        "en": "Don't overuse fillers: one 'euh' to think is natural; ten in a row sounds lost.",
+        "hi": "भराव-शब्दों का ज़्यादा इस्तेमाल मत कीजिए: सोचने के लिए एक 'euh' स्वाभाविक है; लगातार दस से लगता है आप खो गए हैं।"
+      },
+      {
+        "en": "After 'servir à', use the infinitive: sert à ouvrir, not sert à ouvre.",
+        "hi": "'servir à' के बाद क्रिया का मूल रूप: sert à ouvrir, sert à ouvre नहीं।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Fluency drills: French hesitation sounds instead of English 'um'",
+    "tip": {
+      "en": "French speakers hesitate with 'euh' (a rounded ö), not 'um'. Practise saying a filler, then a full rhythm group without stopping: Euh… je voudrais savoir si… Keep the voice flowing; don't drop your intonation at the filler.",
+      "hi": "फ़्रेंच बोलने वाले 'um' नहीं, 'euh' (गोल होंठों वाला ö) से हिचकिचाते हैं। एक भराव-शब्द बोलिए, फिर बिना रुके पूरा लय-समूह: Euh… je voudrais savoir si… आवाज़ बहती रहे; भराव-शब्द पर सुर मत गिराइए।"
+    },
+    "words": [
+      {
+        "fr": "ben",
+        "en": "well (spoken)",
+        "hi": "अरे / ख़ैर (बोलचाल)",
+        "pron": "बैँ",
+        "ipa": "bɛ̃",
+        "note": {
+          "en": "Very common in spoken French, especially in Québec: 'Ben, je pense que oui.'",
+          "hi": "बोली जाने वाली फ़्रेंच में बहुत आम, ख़ासकर क्यूबेक में: 'Ben, je pense que oui.'"
+        }
+      },
+      {
+        "fr": "alors",
+        "en": "so, well",
+        "hi": "तो",
+        "pron": "आ-लॉग़",
+        "ipa": "alɔʁ"
+      },
+      {
+        "fr": "bon",
+        "en": "well, right",
+        "hi": "अच्छा / ठीक है",
+        "pron": "बोँ",
+        "ipa": "bɔ̃"
+      },
+      {
+        "fr": "voyons",
+        "en": "let's see",
+        "hi": "चलिए देखते हैं",
+        "pron": "व्वा-योँ",
+        "ipa": "vwajɔ̃"
+      },
+      {
+        "fr": "comment dire",
+        "en": "how can I put it",
+        "hi": "कैसे कहूँ",
+        "pron": "को-माँ दीग़",
+        "ipa": "kɔmɑ̃ diʁ"
+      },
+      {
+        "fr": "c'est une bonne question",
+        "en": "that's a good question",
+        "hi": "यह अच्छा सवाल है",
+        "pron": "सै तüन बॉन कैस-त्योँ",
+        "ipa": "sɛ tyn bɔn kɛstjɔ̃"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Un appel avec des réparations",
+      "en": "A call with repairs"
+    },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "A model interaction. Arjun calls a cultural centre about a Diwali evening (see the advertisement in today's reading). Listen to how he gains time, asks for repetition, reformulates and describes a word he doesn't know.",
+      "hi": "एक मॉडल बातचीत। अर्जुन दिवाली की एक शाम (आज के पठन का विज्ञापन देखिए) के बारे में एक सांस्कृतिक केंद्र को फ़ोन करता है। सुनिए कि वह कैसे समय लेता है, दोहराने को कहता है, दूसरे शब्दों में कहता है और एक अनजाने शब्द का वर्णन करता है।"
+    },
+    "lines": [
+      {
+        "speaker": "Employée",
+        "voice": "f2",
+        "fr": "Centre culturel de Brossard, bonjour !",
+        "en": "Brossard Cultural Centre, hello!",
+        "hi": "ब्रोसार सांस्कृतिक केंद्र, नमस्ते!"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Bonjour madame. J'appelle au sujet de la soirée de Diwali. J'aurais quelques questions, si vous avez un moment.",
+        "en": "Hello madam. I'm calling about the Diwali evening. I'd have a few questions, if you have a moment.",
+        "hi": "नमस्ते मैडम। मैं दिवाली की शाम के बारे में फ़ोन कर रहा हूँ। अगर आपके पास एक मिनट हो, तो मेरे कुछ सवाल हैं।"
+      },
+      {
+        "speaker": "Employée",
+        "voice": "f2",
+        "fr": "Bien sûr, je vous écoute.",
+        "en": "Of course, go ahead.",
+        "hi": "ज़रूर, बताइए।"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Alors… euh… comment dire… est-ce que le repas est compris dans le prix ?",
+        "en": "So… um… how can I put it… is the meal included in the price?",
+        "hi": "तो… अं… कैसे कहूँ… क्या खाना क़ीमत में शामिल है?"
+      },
+      {
+        "speaker": "Employée",
+        "voice": "f2",
+        "fr": "Oui, le buffet est inclus, pour les adultes comme pour les enfants.",
+        "en": "Yes, the buffet is included, for adults and children alike.",
+        "hi": "हाँ, बुफ़े शामिल है, बड़ों और बच्चों दोनों के लिए।"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Parfait. Et pour mon fils… il a quatre ans. Il doit payer ?",
+        "en": "Perfect. And for my son… he's four. Does he have to pay?",
+        "hi": "बढ़िया। और मेरा बेटा… वह चार साल का है। क्या उसे पैसे देने होंगे?"
+      },
+      {
+        "speaker": "Employée",
+        "voice": "f2",
+        "fr": "Non, c'est gratuit pour les moins de six ans. Par contre, il faut quand même lui réserver une place assise, puisque les tables sont numérotées.",
+        "en": "No, it's free for under-sixes. However, you still need to book him a seat, since the tables are numbered.",
+        "hi": "नहीं, छह साल से छोटे बच्चों के लिए मुफ़्त है। लेकिन फिर भी उसके लिए एक सीट बुक करनी होगी, क्योंकि मेज़ों पर नंबर लगे हैं।"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Pardon, je n'ai pas bien compris. Les tables sont… ?",
+        "en": "Sorry, I didn't quite understand. The tables are…?",
+        "hi": "माफ़ कीजिए, मैं ठीक से समझा नहीं। मेज़ें… ?"
+      },
+      {
+        "speaker": "Employée",
+        "voice": "f2",
+        "fr": "Numérotées. Chaque place a un numéro, comme au cinéma.",
+        "en": "Numbered. Each seat has a number, like at the cinema.",
+        "hi": "नंबर वाली। हर सीट का एक नंबर है, सिनेमा की तरह।"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Ah, d'accord. Autrement dit, je dois réserver quatre places pour ma famille.",
+        "en": "Ah, OK. In other words, I need to book four seats for my family.",
+        "hi": "अच्छा, ठीक है। दूसरे शब्दों में, मुझे अपने परिवार के लिए चार सीटें बुक करनी हैं।"
+      },
+      {
+        "speaker": "Employée",
+        "voice": "f2",
+        "fr": "Exactement.",
+        "en": "Exactly.",
+        "hi": "बिल्कुल।"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Une dernière chose. Ma fille voudrait apporter… euh, je ne connais pas le mot… c'est un petit objet qu'on allume, avec une flamme, pour Diwali.",
+        "en": "One last thing. My daughter would like to bring… um, I don't know the word… it's a small object you light, with a flame, for Diwali.",
+        "hi": "एक आख़िरी बात। मेरी बेटी लाना चाहती है… अं, मुझे शब्द नहीं आता… एक छोटी-सी चीज़ जिसे जलाते हैं, लौ वाली, दिवाली के लिए।"
+      },
+      {
+        "speaker": "Employée",
+        "voice": "f2",
+        "fr": "Une petite lampe à huile ? Je suis désolée, les flammes sont interdites dans la salle. Mais on distribue des bougies électriques à l'entrée.",
+        "en": "A small oil lamp? I'm sorry, flames are forbidden in the hall. But we hand out electric candles at the entrance.",
+        "hi": "छोटा-सा तेल का दीया? माफ़ कीजिए, हॉल में लौ की मनाही है। लेकिन हम प्रवेश पर बिजली वाली मोमबत्तियाँ बाँटते हैं।"
+      },
+      {
+        "speaker": "Arjun",
+        "voice": "m1",
+        "fr": "Très bien. Merci beaucoup pour votre patience, madame.",
+        "en": "Very well. Thank you very much for your patience, madam.",
+        "hi": "बहुत अच्छा। आपके धैर्य के लिए बहुत धन्यवाद, मैडम।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "What does Arjun say to gain time before his first question?"
+        },
+        "options": [
+          "Pourriez-vous répéter ?",
+          "Comment dire…",
+          "Autrement dit…",
+          "C'est le contraire de…"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Alors… euh… comment dire…' are time-gaining fillers.",
+          "hi": "'Alors… euh… comment dire…' समय लेने वाले भराव-शब्द हैं।"
+        },
+        "kind": "inference",
+        "evidence": "comment dire"
+      },
+      {
+        "q": {
+          "en": "What is true for Arjun's four-year-old son?"
+        },
+        "options": [
+          "He pays the child price",
+          "He cannot come",
+          "He is free but needs a reserved seat",
+          "He eats at a separate table"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "Free for under-sixes, 'mais il faut quand même lui réserver une place assise'.",
+          "hi": "छह से छोटे बच्चों के लिए मुफ़्त, 'mais il faut quand même lui réserver une place assise'।"
+        },
+        "kind": "inference",
+        "evidence": "il faut quand même lui réserver une place assise"
+      },
+      {
+        "q": {
+          "en": "What does Arjun do when he doesn't understand 'numérotées'?"
+        },
+        "options": [
+          "He says he didn't understand and repeats the start of the sentence",
+          "He changes the subject",
+          "He switches to English",
+          "He hangs up"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Pardon, je n'ai pas bien compris. Les tables sont… ?' — a polite request for repetition.",
+          "hi": "'Pardon, je n'ai pas bien compris. Les tables sont… ?' — दोहराने का शिष्ट अनुरोध।"
+        },
+        "kind": "literal",
+        "evidence": "Pardon, je n'ai pas bien compris."
+      },
+      {
+        "q": {
+          "en": "How many seats will Arjun book?"
+        },
+        "options": [
+          "Two",
+          "Three",
+          "Six",
+          "Four"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Autrement dit, je dois réserver quatre places pour ma famille.'",
+          "hi": "'Autrement dit, je dois réserver quatre places pour ma famille.' — चार सीटें।"
+        },
+        "kind": "literal",
+        "evidence": "je dois réserver quatre places pour ma famille"
+      },
+      {
+        "q": {
+          "en": "What strategy does Arjun use for 'oil lamp'?"
+        },
+        "options": [
+          "He spells the word",
+          "He describes the object",
+          "He asks his daughter",
+          "He uses the Hindi word only"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'C'est un petit objet qu'on allume, avec une flamme' — circumlocution.",
+          "hi": "'C'est un petit objet qu'on allume, avec une flamme' — वर्णन करके समझाना (circumlocution)।"
+        },
+        "kind": "inference",
+        "evidence": "c'est un petit objet qu'on allume"
+      },
+      {
+        "q": {
+          "en": "Why can't his daughter bring the lamp?"
+        },
+        "options": [
+          "Flames are forbidden in the hall",
+          "It is too expensive",
+          "Objects must be sold on site",
+          "Children cannot bring anything"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Les flammes sont interdites dans la salle.'",
+          "hi": "'Les flammes sont interdites dans la salle.' — हॉल में लौ की मनाही है।"
+        },
+        "kind": "literal",
+        "evidence": "les flammes sont interdites dans la salle"
+      }
+    ],
+    "dictation": [
+      "Pardon, je n'ai pas bien compris.",
+      "C'est un petit objet qu'on allume, avec une flamme."
+    ],
+    "gapFill": {
+      "text": "Il faut quand même lui réserver une place ___, puisque les tables sont ___.",
+      "answers": [
+        "assise",
+        "numérotées"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "tef_a",
+    "instructions": {
+      "en": "Timed practice. Section A (5 minutes): call the cultural centre about the Diwali evening and ask about ten questions. Your partner will sometimes use a word you may not know: use at least one repetition request, one reformulation and one description. Then, if you have time, do a 10-minute section B: convince a friend to come with you.",
+      "hi": "समयबद्ध अभ्यास। खंड A (5 मिनट): दिवाली की शाम के बारे में सांस्कृतिक केंद्र को फ़ोन कीजिए और लगभग दस प्रश्न पूछिए। सामने वाला कभी-कभी ऐसा शब्द बोलेगा जो शायद आपको न आता हो: कम से कम एक बार दोहराने को कहिए, एक बार दूसरे शब्दों में कहिए और एक बार वर्णन कीजिए। फिर समय हो तो 10 मिनट का खंड B कीजिए: एक दोस्त को साथ चलने के लिए मनाइए।"
+    },
+    "scenario": {
+      "setting": {
+        "en": "A phone call to the Brossard Cultural Centre about its Diwali evening.",
+        "hi": "दिवाली की शाम के बारे में ब्रोसार सांस्कृतिक केंद्र को फ़ोन।"
+      },
+      "learnerRole": {
+        "en": "You want to go with your family and need practical details.",
+        "hi": "आप परिवार के साथ जाना चाहते हैं और आपको व्यावहारिक जानकारी चाहिए।"
+      },
+      "partnerRole": {
+        "en": "A centre employee who speaks naturally and sometimes uses less common words (numérotées, vestiaire, accessible en fauteuil roulant).",
+        "hi": "केंद्र का कर्मचारी जो स्वाभाविक ढंग से बोलता है और कभी-कभी कम आम शब्द इस्तेमाल करता है (numérotées, vestiaire, accessible en fauteuil roulant)।"
+      },
+      "goals": [
+        {
+          "en": "Ask about ten different questions (tickets, children, food, transport, accessibility, volunteering…).",
+          "hi": "लगभग दस अलग प्रश्न पूछिए (टिकट, बच्चे, खाना, आना-जाना, सुगम्यता, स्वयंसेवा…)।"
+        },
+        {
+          "en": "Use at least three repair strategies without switching to English.",
+          "hi": "अंग्रेज़ी में गए बिना कम से कम तीन सुधार-रणनीतियाँ इस्तेमाल कीजिए।"
+        },
+        {
+          "en": "Never stay silent for more than three seconds.",
+          "hi": "तीन सेकंड से ज़्यादा कभी चुप मत रहिए।"
+        }
+      ]
+    },
+    "prompts": [
+      {
+        "fr": "Excusez-moi, pourriez-vous répéter le dernier mot ?",
+        "en": "Sorry, could you repeat the last word?",
+        "hi": "माफ़ कीजिए, क्या आप आख़िरी शब्द दोहरा सकते हैं?",
+        "pron": "ऐक्स-कü-ज़े म्वा पू-ग़ी-ये वू ग़े-पे-ते लö दैग़-न्ये मो"
+      },
+      {
+        "fr": "Vous voulez dire que les billets ne sont pas vendus sur place ?",
+        "en": "Do you mean the tickets aren't sold at the door?",
+        "hi": "आपका मतलब है कि टिकट वहीं पर नहीं बिकते?",
+        "pron": "वू वू-ले दीग़ कö ले बी-यै नö सोँ पा वाँ-दü सüग़ प्लास"
+      },
+      {
+        "fr": "C'est un endroit où on laisse les manteaux ?",
+        "en": "Is it a place where you leave your coats?",
+        "hi": "क्या यह वह जगह है जहाँ कोट छोड़े जाते हैं?",
+        "pron": "सै तैँ नाँ-द्ग़्वा ऊ ओँ लैस ले माँ-तो"
+      },
+      {
+        "fr": "Autrement dit, il vaut mieux venir en autobus ?",
+        "en": "In other words, it's better to come by bus?",
+        "hi": "दूसरे शब्दों में, बस से आना बेहतर है?",
+        "pron": "ओ-त्ग़ö-माँ दी ईल वो म्यö व-नीग़ आँ नो-तो-बüस"
+      },
+      {
+        "fr": "C'est une bonne question… voyons… je voudrais aussi savoir si la salle est accessible.",
+        "en": "That's a good question… let's see… I'd also like to know if the hall is accessible.",
+        "hi": "अच्छा सवाल है… चलिए देखते हैं… मैं यह भी जानना चाहता / चाहती हूँ कि हॉल तक पहुँचना आसान है या नहीं।",
+        "pron": "सै तüन बॉन कैस-त्योँ व्वा-योँ झ़ö वू-द्ग़ै ओ-सी सा-वाग़ सी ला साल ऐ ताक-से-सीब्ल"
+      }
+    ],
+    "tip": {
+      "en": "Repairs are a strength, not a weakness. A candidate who says 'Vous voulez dire que…?' shows real interaction — exactly what section A tests.",
+      "hi": "सुधार की कोशिश ताक़त है, कमज़ोरी नहीं। जो उम्मीदवार 'Vous voulez dire que…?' कहता है, वह असली बातचीत दिखाता है — खंड A ठीक यही परखता है।"
+    }
+  },
+  "reading": {
+    "genre": "advertisement",
+    "title": "Centre culturel de Brossard — Grande soirée de Diwali",
+    "text": "Grande soirée de Diwali — la fête des lumières\nSamedi 8 novembre, de 17 h à 23 h\n\nVenez célébrer Diwali en famille ou entre amis ! Au programme : atelier de rangoli pour les enfants (17 h – 18 h 30), spectacle de danses classiques et bollywood (19 h), grand buffet végétarien préparé par des restaurants de la région (20 h), puis soirée dansante avec un DJ jusqu'à 23 h.\n\nTarifs : adultes 25 $, enfants de 6 à 12 ans 10 $, gratuit pour les moins de 6 ans. Le buffet est inclus dans le prix du billet. Les billets sont en vente à l'accueil du centre et en ligne ; ils ne seront pas vendus sur place le soir même.\n\nTenue traditionnelle bienvenue, mais pas obligatoire !\n\nPour des raisons de sécurité, les feux d'artifice et les pétards sont interdits. Des bougies électriques seront distribuées gratuitement à l'entrée.\n\nStationnement gratuit derrière le centre (places limitées). Nous vous recommandons de venir en autobus : la ligne 45 s'arrête juste devant.\n\nBénévoles recherchés pour l'installation de la salle le samedi matin. Écrivez-nous !\n\nRenseignements : 450 555 0163",
+    "translation": {
+      "en": "Grand Diwali evening — the festival of lights\nSaturday 8 November, 5 p.m. to 11 p.m.\n\nCome and celebrate Diwali with your family or friends! On the programme: a rangoli workshop for children (5–6:30 p.m.), a show of classical and Bollywood dances (7 p.m.), a big vegetarian buffet prepared by local restaurants (8 p.m.), then a dance party with a DJ until 11 p.m.\n\nPrices: adults $25, children aged 6 to 12 $10, free for under-sixes. The buffet is included in the ticket price. Tickets are on sale at the centre's reception and online; they will not be sold at the door on the evening itself.\n\nTraditional dress welcome, but not compulsory!\n\nFor safety reasons, fireworks and firecrackers are forbidden. Electric candles will be handed out free of charge at the entrance.\n\nFree parking behind the centre (limited spaces). We recommend coming by bus: route 45 stops right in front.\n\nVolunteers wanted to set up the hall on Saturday morning. Write to us!\n\nInformation: 450 555 0163",
+      "hi": "दिवाली की भव्य शाम — रोशनी का त्योहार\nशनिवार 8 नवंबर, शाम 5 बजे से रात 11 बजे तक\n\nपरिवार या दोस्तों के साथ दिवाली मनाने आइए! कार्यक्रम: बच्चों के लिए रंगोली कार्यशाला (शाम 5 से 6:30), शास्त्रीय और बॉलीवुड नृत्यों का कार्यक्रम (शाम 7 बजे), इलाक़े के रेस्टोरेंटों का तैयार किया हुआ बड़ा शाकाहारी बुफ़े (रात 8 बजे), फिर रात 11 बजे तक डीजे के साथ नाच-गाना।\n\nशुल्क: बड़े 25 डॉलर, 6 से 12 साल के बच्चे 10 डॉलर, 6 साल से छोटे बच्चों के लिए मुफ़्त। बुफ़े टिकट की क़ीमत में शामिल है। टिकट केंद्र के रिसेप्शन पर और ऑनलाइन मिलते हैं; उसी शाम वहाँ पर टिकट नहीं बिकेंगे।\n\nपारंपरिक कपड़ों का स्वागत है, पर ज़रूरी नहीं!\n\nसुरक्षा कारणों से आतिशबाज़ी और पटाख़ों की मनाही है। प्रवेश पर बिजली वाली मोमबत्तियाँ मुफ़्त बाँटी जाएँगी।\n\nकेंद्र के पीछे मुफ़्त पार्किंग (जगह सीमित)। हमारी सलाह है कि बस से आइए: लाइन 45 ठीक सामने रुकती है।\n\nशनिवार सुबह हॉल सजाने के लिए स्वयंसेवक चाहिए। हमें लिखिए!\n\nजानकारी: 450 555 0163"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "What is planned for children at 5 p.m.?"
+        },
+        "options": [
+          "A dance show",
+          "A rangoli workshop",
+          "A buffet",
+          "A film"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Atelier de rangoli pour les enfants (17 h – 18 h 30).'",
+          "hi": "'Atelier de rangoli pour les enfants (17 h – 18 h 30)' — बच्चों के लिए रंगोली।"
+        },
+        "kind": "literal",
+        "evidence": "atelier de rangoli pour les enfants"
+      },
+      {
+        "q": {
+          "en": "Do you pay extra for the buffet?"
+        },
+        "options": [
+          "Yes, $10",
+          "Yes, for adults only",
+          "No, it is included in the ticket",
+          "There is no buffet"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Le buffet est inclus dans le prix du billet.'",
+          "hi": "'Le buffet est inclus dans le prix du billet.' — बुफ़े टिकट में शामिल है।"
+        },
+        "kind": "literal",
+        "evidence": "Le buffet est inclus dans le prix du billet."
+      },
+      {
+        "q": {
+          "en": "Can you buy a ticket at the door on 8 November?"
+        },
+        "options": [
+          "No",
+          "Yes, until 7 p.m.",
+          "Yes, but it is more expensive",
+          "Only for children"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Ils ne seront pas vendus sur place le soir même.'",
+          "hi": "'Ils ne seront pas vendus sur place le soir même.' — उसी शाम वहाँ टिकट नहीं मिलेंगे।"
+        },
+        "kind": "inference",
+        "evidence": "ils ne seront pas vendus sur place le soir même"
+      },
+      {
+        "q": {
+          "en": "What is forbidden?"
+        },
+        "options": [
+          "Traditional clothes",
+          "Children under six",
+          "Electric candles",
+          "Fireworks and firecrackers"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Les feux d'artifice et les pétards sont interdits.'",
+          "hi": "'Les feux d'artifice et les pétards sont interdits.' — आतिशबाज़ी और पटाख़े मना हैं।"
+        },
+        "kind": "vocabulary",
+        "evidence": "les feux d'artifice et les pétards sont interdits"
+      },
+      {
+        "q": {
+          "en": "Why does the centre recommend the bus?"
+        },
+        "options": [
+          "Parking is expensive",
+          "Parking spaces are limited",
+          "There is no parking",
+          "The bus is free that evening"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "Parking is free but has 'places limitées'.",
+          "hi": "पार्किंग मुफ़्त है पर 'places limitées' — जगह सीमित है।"
+        },
+        "kind": "inference",
+        "evidence": "Stationnement gratuit derrière le centre (places limitées)"
+      }
+    ]
+  },
+  "writing": {
+    "type": "sentences",
+    "prompt": {
+      "en": "Write your personal list of strategy phrases: two to gain time, two to ask for repetition or clarification, two to reformulate, and two descriptions of objects whose French name you don't know.",
+      "hi": "रणनीति-वाक्यांशों की अपनी निजी सूची लिखिए: दो समय लेने के लिए, दो दोहराने या स्पष्ट करने को कहने के लिए, दो दूसरे शब्दों में कहने के लिए, और दो ऐसी चीज़ों का वर्णन जिनका फ़्रेंच नाम आपको नहीं आता।",
+      "fr": "Écrivez votre liste personnelle de phrases de stratégie."
+    },
+    "minWords": 40,
+    "maxWords": 120,
+    "hints": [
+      {
+        "en": "For the descriptions, use qui (a thing which…) or où (a place where…).",
+        "hi": "वर्णन के लिए qui (एक चीज़ जो…) या où (एक जगह जहाँ…) इस्तेमाल कीजिए।"
+      },
+      {
+        "en": "Choose real objects from your daily life, e.g. a pressure cooker, a tiffin box.",
+        "hi": "रोज़मर्रा की असली चीज़ें चुनिए, जैसे प्रेशर कुकर, टिफ़िन बॉक्स।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "C'est une sorte de …",
+        "en": "It's a kind of …",
+        "hi": "यह एक तरह का … है",
+        "pron": "सै तüन सॉग़्त दö"
+      },
+      {
+        "fr": "On l'utilise pour …",
+        "en": "You use it to …",
+        "hi": "इसे … के लिए इस्तेमाल करते हैं",
+        "pron": "ओँ लü-ती-लीज़ पूग़"
+      }
+    ],
+    "model": {
+      "fr": "Pour gagner du temps : « C'est une bonne question… » et « Voyons… ». Pour demander de l'aide : « Pourriez-vous répéter, s'il vous plaît ? » et « Vous voulez dire que… ? ». Pour reformuler : « Autrement dit… » et « Ce que je veux dire, c'est que… ». Pour décrire : « C'est une casserole spéciale qui sert à cuire le riz très vite, avec de la vapeur. » « C'est une boîte en métal où on met son repas pour l'emporter au travail. »",
+      "en": "To gain time: 'That's a good question…' and 'Let's see…'. To ask for help: 'Could you repeat, please?' and 'Do you mean that…?'. To reformulate: 'In other words…' and 'What I mean is that…'. To describe: 'It's a special pot used to cook rice very fast, with steam.' 'It's a metal box where you put your meal to take it to work.'"
+    },
+    "checklist": [
+      {
+        "en": "Do you have two phrases for each of the four strategies?",
+        "hi": "क्या चारों रणनीतियों के लिए आपके पास दो-दो वाक्यांश हैं?"
+      },
+      {
+        "en": "After 'sert à', did you use an infinitive?",
+        "hi": "क्या 'sert à' के बाद आपने क्रिया का मूल रूप लिखा?"
+      },
+      {
+        "en": "Learn the list by heart and say it aloud once a day until the exam.",
+        "hi": "सूची याद कर लीजिए और परीक्षा तक रोज़ एक बार ज़ोर से बोलिए।"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      86,
+      87,
+      95,
+      102,
+      104
+    ],
+    "items": [
+      {
+        "fr": "Je voudrais savoir si …",
+        "en": "I'd like to know if …",
+        "hi": "मैं जानना चाहता / चाहती हूँ कि क्या …",
+        "pron": "झ़ö वू-द्ग़ै सा-वाग़ सी"
+      },
+      {
+        "fr": "Est-ce que c'est accessible en fauteuil roulant ?",
+        "en": "Is it wheelchair accessible?",
+        "hi": "क्या व्हीलचेयर से पहुँचा जा सकता है?",
+        "pron": "ऐस कö सै ताक-से-सीब्ल आँ फ़ो-तöय ग़ू-लाँ"
+      },
+      {
+        "fr": "Je te comprends, mais …",
+        "en": "I understand, but …",
+        "hi": "मैं समझता / समझती हूँ, पर …",
+        "pron": "झ़ö तö कोँ-प्ग़ाँ मै"
+      },
+      {
+        "fr": "C'est l'occasion de …",
+        "en": "It's a chance to …",
+        "hi": "यह … का मौक़ा है",
+        "pron": "सै लो-का-ज़्योँ दö"
+      },
+      {
+        "fr": "le vestiaire",
+        "en": "the cloakroom",
+        "hi": "कोट-घर / सामान रखने का कमरा",
+        "pron": "लö वैस-त्यैग़"
+      },
+      {
+        "fr": "Il suffit de …",
+        "en": "You just have to …",
+        "hi": "बस … करना है",
+        "pron": "ईल सü-फ़ी दö"
+      },
+      {
+        "fr": "compris / inclus",
+        "en": "included",
+        "hi": "शामिल",
+        "pron": "कोँ-प्ग़ी / ऐँ-क्लü"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "You didn't catch a word in section A. What is the best reaction?",
+        "hi": "खंड A में आपसे एक शब्द छूट गया। सबसे अच्छी प्रतिक्रिया क्या है?"
+      },
+      "options": [
+        "Say nothing and ask the next question",
+        "Excusez-moi, pourriez-vous répéter ?",
+        "Say 'Sorry, what?' in English",
+        "Hang up"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Asking politely for repetition in French is natural interaction.",
+        "hi": "फ़्रेंच में शिष्टता से दोहराने को कहना स्वाभाविक बातचीत है।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "You don't know the word 'ouvre-boîte' (can opener). What do you say?",
+        "hi": "आपको 'ouvre-boîte' (कैन खोलने का औज़ार) शब्द नहीं आता। आप क्या कहेंगे?"
+      },
+      "options": [
+        "C'est une chose qui sert à ouvrir les boîtes de conserve.",
+        "C'est une personne qui ouvre.",
+        "C'est un endroit où on ouvre.",
+        "Je ne sais pas."
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "A thing → une chose qui sert à + infinitive.",
+        "hi": "चीज़ के लिए → une chose qui sert à + क्रिया का मूल रूप।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: It's a place where you buy bread.",
+        "hi": "पूरा कीजिए: यह एक जगह है जहाँ ब्रेड ख़रीदते हैं।"
+      },
+      "sentence": "C'est un endroit ___ on achète du pain.",
+      "answer": "où",
+      "accept": [],
+      "explanation": {
+        "en": "Où for places: un endroit où …",
+        "hi": "जगह के लिए où: un endroit où …"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: It's a person who teaches.",
+        "hi": "पूरा कीजिए: यह एक व्यक्ति है जो पढ़ाता है।"
+      },
+      "sentence": "C'est une personne ___ enseigne.",
+      "answer": "qui",
+      "accept": [],
+      "explanation": {
+        "en": "Qui is the subject of 'enseigne'.",
+        "hi": "Qui, 'enseigne' का कर्ता है।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "In other words, it's free?",
+        "hi": "दूसरे शब्दों में, यह मुफ़्त है?"
+      },
+      "answer": "Autrement dit, c'est gratuit ?",
+      "accept": [
+        "Autrement dit, c'est gratuit?",
+        "Autrement dit c'est gratuit ?",
+        "En d'autres termes, c'est gratuit ?"
+      ],
+      "explanation": {
+        "en": "Autrement dit = in other words; intonation makes it a question.",
+        "hi": "Autrement dit = दूसरे शब्दों में; सुर से यह प्रश्न बनता है।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which filler sounds French?",
+        "hi": "कौन-सा भराव-शब्द फ़्रेंच लगता है?"
+      },
+      "options": [
+        "Um…",
+        "Like…",
+        "Euh…",
+        "You know…"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "'Euh' is the French hesitation sound.",
+        "hi": "'Euh' फ़्रेंच में हिचकिचाहट की आवाज़ है।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: Do you mean that it is closed?",
+        "hi": "शब्दों को सही क्रम में रखिए: आपका मतलब है कि यह बंद है?"
+      },
+      "words": [
+        "voulez",
+        "Vous",
+        "que",
+        "dire",
+        "c'est",
+        "fermé",
+        "?"
+      ],
+      "answer": "Vous voulez dire que c'est fermé ?",
+      "explanation": {
+        "en": "Vous voulez dire que + full sentence, with rising intonation.",
+        "hi": "Vous voulez dire que + पूरा वाक्य, उठते सुर के साथ।"
+      }
+    }
+  ]
+}

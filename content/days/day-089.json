@@ -1,0 +1,937 @@
+{
+  "day": 89,
+  "phase": 5,
+  "title": {
+    "fr": "TEF expression écrite B : la lettre au journal",
+    "en": "TEF writing B: letter to a newspaper",
+    "hi": "TEF लिखित अभिव्यक्ति B: अख़बार को पत्र"
+  },
+  "objective": {
+    "en": "Write a formal letter to a newspaper reacting to a statement: opening and closing formulas, a clear position, three developed arguments with examples, and a conclusion — at least 200 words in 35 minutes.",
+    "hi": "किसी कथन पर प्रतिक्रिया देते हुए अख़बार को औपचारिक पत्र लिखना: शुरुआती और समापन वाक्यांश, साफ़ राय, उदाहरणों के साथ तीन विकसित तर्क, और निष्कर्ष — 35 मिनट में कम से कम 200 शब्द।"
+  },
+  "prerequisites": {
+    "days": [
+      39,
+      61,
+      62,
+      69,
+      73,
+      74,
+      78
+    ],
+    "summary": {
+      "en": "Email register (Day 39), opinions and reasons (Days 61–62), connectors (Day 69), concession (Day 73), structuring an opinion (Day 74) and consequence connectors (Day 78).",
+      "hi": "ईमेल की शैली (दिन 39), राय और कारण (दिन 61–62), संयोजक (दिन 69), मान लेना/रियायत (दिन 73), राय को ढाँचे में रखना (दिन 74) और परिणाम वाले संयोजक (दिन 78)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "le courrier des lecteurs",
+      "en": "letters to the editor (section)",
+      "hi": "पाठकों के पत्र (स्तंभ)",
+      "pron": "लö कू-ग़्ये दे लैक-तöग़",
+      "ipa": "lə kuʁje de lɛktœʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "courrier"
+    },
+    {
+      "fr": "le rédacteur en chef / la rédactrice en chef",
+      "en": "editor-in-chief",
+      "hi": "मुख्य संपादक / संपादिका",
+      "pron": "लö ग़े-दाक-तöग़ आँ शैफ़",
+      "ipa": "lə ʁedaktœʁ ɑ̃ ʃɛf",
+      "pos": "noun",
+      "gender": "mf",
+      "lemma": "rédacteur"
+    },
+    {
+      "fr": "réagir à",
+      "en": "to react to",
+      "hi": "… पर प्रतिक्रिया देना",
+      "pron": "ग़े-आ-झ़ीग़ आ",
+      "ipa": "ʁeaʒiʁ a",
+      "pos": "verb"
+    },
+    {
+      "fr": "l'affirmation",
+      "en": "statement, claim",
+      "hi": "दावा / कथन",
+      "pron": "ला-फ़ीग़-मा-स्योँ",
+      "ipa": "lafiʁmasjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "affirmation"
+    },
+    {
+      "fr": "partager un avis",
+      "en": "to share an opinion",
+      "hi": "किसी राय से सहमत होना",
+      "pron": "पाग़-ता-झ़े ऐँ ना-वी",
+      "ipa": "paʁtaʒe ɛ̃n‿avi",
+      "pos": "phrase"
+    },
+    {
+      "fr": "s'opposer à",
+      "en": "to oppose",
+      "hi": "… का विरोध करना",
+      "pron": "सो-पो-ज़े आ",
+      "ipa": "sɔpoze a",
+      "pos": "verb"
+    },
+    {
+      "fr": "en tant que",
+      "en": "as (in the role of)",
+      "hi": "… के तौर पर",
+      "pron": "आँ ताँ कö",
+      "ipa": "ɑ̃ tɑ̃ kə",
+      "pos": "phrase",
+      "note": {
+        "en": "En tant que mère / qu'immigrant = as a mother / as an immigrant.",
+        "hi": "en tant que mère / qu'immigrant = एक माँ / एक प्रवासी के तौर पर।"
+      }
+    },
+    {
+      "fr": "il me semble que",
+      "en": "it seems to me that",
+      "hi": "मुझे लगता है कि",
+      "pron": "इल मö साँब्ल कö",
+      "ipa": "il mə sɑ̃bl kə",
+      "pos": "phrase"
+    },
+    {
+      "fr": "par exemple",
+      "en": "for example",
+      "hi": "उदाहरण के लिए",
+      "pron": "पा ग़ैग-ज़ाँप्ल",
+      "ipa": "paʁ‿ɛɡzɑ̃pl",
+      "pos": "phrase"
+    },
+    {
+      "fr": "en effet",
+      "en": "indeed (explains)",
+      "hi": "दरअसल",
+      "pron": "आँ ने-फ़ै",
+      "ipa": "ɑ̃n‿efɛ",
+      "pos": "adverb"
+    },
+    {
+      "fr": "en conclusion",
+      "en": "in conclusion",
+      "hi": "निष्कर्ष में",
+      "pron": "आँ कोँ-क्ल्ü-ज़्योँ",
+      "ipa": "ɑ̃ kɔ̃klyzjɔ̃",
+      "pos": "phrase"
+    },
+    {
+      "fr": "les salutations distinguées",
+      "en": "best regards (formal closing)",
+      "hi": "सादर अभिवादन (औपचारिक समापन)",
+      "pron": "ले सा-लü-ता-स्योँ दिस-तैँ-गे",
+      "ipa": "le salytasjɔ̃ distɛ̃ɡe",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "salutation"
+    },
+    {
+      "fr": "l'outil de traduction",
+      "en": "translation tool",
+      "hi": "अनुवाद का औज़ार / ऐप",
+      "pron": "लू-ती दö त्ग़ा-द्üक-स्योँ",
+      "ipa": "luti də tʁadyksjɔ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "outil"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Madame, Monsieur,",
+      "en": "Dear Sir or Madam,",
+      "hi": "महोदया, महोदय,",
+      "pron": "मा-दाम मö-स्यö"
+    },
+    {
+      "fr": "Je vous écris pour réagir à l'affirmation parue dans votre journal.",
+      "en": "I am writing to react to the statement published in your newspaper.",
+      "hi": "मैं आपके अख़बार में छपे कथन पर प्रतिक्रिया देने के लिए लिख रहा हूँ।",
+      "pron": "झ़ö वू ज़े-क्ग़ी पूग़ ग़े-आ-झ़ीग़ आ ला-फ़ीग़-मा-स्योँ पा-ग़ü दाँ वॉत्ग़ झ़ूग़-नाल"
+    },
+    {
+      "fr": "Je ne partage pas du tout cet avis.",
+      "en": "I do not share this opinion at all.",
+      "hi": "मैं इस राय से बिल्कुल सहमत नहीं हूँ।",
+      "pron": "झ़ö नö पाग़-ताझ़ पा दü तू सै ता-वी"
+    },
+    {
+      "fr": "Tout d'abord, … Ensuite, … Enfin, …",
+      "en": "First of all, … Next, … Finally, …",
+      "hi": "सबसे पहले, … फिर, … अंत में, …",
+      "pron": "तू दा-बॉग़ … आँ-स्üईत … आँ-फ़ैँ"
+    },
+    {
+      "fr": "Certes, … mais …",
+      "en": "Admittedly, … but …",
+      "hi": "माना कि, … पर …",
+      "pron": "सैग़्त … मै"
+    },
+    {
+      "fr": "Veuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.",
+      "en": "Yours faithfully.",
+      "hi": "सादर, आपका।",
+      "pron": "वö-ये ज़ा-ग्ग़े-ए मा-दाम मö-स्यö लैक्स-प्रै-स्योँ दö मे सा-लü-ता-स्योँ दिस-तैँ-गे"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "The formal letter: a fixed frame around your arguments",
+      "hi": "औपचारिक पत्र: आपके तर्कों के चारों ओर एक तय ढाँचा"
+    },
+    "explanation": {
+      "en": "TEF section B gives you a statement from a newspaper. You write to the newspaper (vous, formal) to give and justify your opinion: at least 200 words, at least three DEVELOPED arguments. A safe frame: (1) Opening: Madame, Monsieur, (with a comma). (2) Introduction: Je vous écris pour réagir à l'affirmation selon laquelle « … ». + your position: Je suis tout à fait d'accord / Je ne partage pas du tout cet avis / Je suis partiellement d'accord. (3) Three paragraphs, each = connector + argument + explanation (en effet, car) + concrete example (par exemple, moi-même, dans ma ville). (4) A concession to show balance: Certes, …, mais… / Il est vrai que…, cependant… (5) Conclusion: En conclusion / Pour toutes ces raisons, + restate your position. (6) Closing formula: Veuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées. + your name. Use 'je' for your opinion and 'on / les gens' for general facts; avoid tu, du coup, ouais.",
+      "hi": "TEF भाग B में आपको किसी अख़बार का एक कथन दिया जाता है। आप अख़बार को (vous, औपचारिक) अपनी राय देने और उसे सही ठहराने के लिए लिखते हैं: कम से कम 200 शब्द, कम से कम तीन विकसित तर्क। एक सुरक्षित ढाँचा: (1) शुरुआत: Madame, Monsieur, (अल्पविराम के साथ)। (2) भूमिका: Je vous écris pour réagir à l'affirmation selon laquelle « … »। + आपकी राय: Je suis tout à fait d'accord / Je ne partage pas du tout cet avis / Je suis partiellement d'accord। (3) तीन अनुच्छेद, हर एक = संयोजक + तर्क + समझाना (en effet, car) + ठोस उदाहरण (par exemple, moi-même, dans ma ville)। (4) संतुलन दिखाने के लिए एक रियायत: Certes, …, mais… / Il est vrai que…, cependant… (5) निष्कर्ष: En conclusion / Pour toutes ces raisons, + अपनी राय दोहराइए। (6) समापन वाक्य: Veuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées। + आपका नाम। अपनी राय के लिए 'je' और आम तथ्यों के लिए 'on / les gens'; tu, du coup, ouais से बचिए।"
+    },
+    "comparison": {
+      "en": "Hindi formal letters also have fixed formulas ('महोदय', 'सधन्यवाद', 'भवदीय'). French closing formulas are longer and feel exaggerated to English speakers — but they are normal and expected. Learn one by heart and always use it.",
+      "hi": "हिंदी के औपचारिक पत्रों में भी तय वाक्यांश होते हैं ('महोदय', 'सधन्यवाद', 'भवदीय')। फ़्रेंच के समापन वाक्य लंबे होते हैं और अंग्रेज़ी बोलने वालों को बढ़ा-चढ़ाकर लगते हैं — पर ये सामान्य और अपेक्षित हैं। एक याद कर लीजिए और हमेशा वही लिखिए।"
+    },
+    "examples": [
+      {
+        "fr": "Je vous écris pour réagir à l'affirmation selon laquelle apprendre une langue ne sert plus à rien.",
+        "en": "I'm writing to react to the claim that learning a language is no longer useful.",
+        "hi": "मैं इस दावे पर प्रतिक्रिया देने के लिए लिख रहा हूँ कि भाषा सीखना अब किसी काम का नहीं।",
+        "pron": "झ़ö वू ज़े-क्ग़ी पूग़ ग़े-आ-झ़ीग़ आ ला-फ़ीग़-मा-स्योँ सö-लोँ ला-कैल आ-प्राँद्ग़ üन लाँग नö सैग़ प्लü आ ग़्यैँ"
+      },
+      {
+        "fr": "En tant qu'immigrante, je ne partage pas du tout cet avis.",
+        "en": "As an immigrant, I don't share this opinion at all.",
+        "hi": "एक प्रवासी के तौर पर, मैं इस राय से बिल्कुल सहमत नहीं हूँ।",
+        "pron": "आँ ताँ की-मी-ग्ग़ाँत झ़ö नö पाग़-ताझ़ पा दü तू सै ता-वी"
+      },
+      {
+        "fr": "Tout d'abord, une application ne remplace pas une vraie conversation. En effet, …",
+        "en": "First of all, an app does not replace a real conversation. Indeed, …",
+        "hi": "सबसे पहले, कोई ऐप असली बातचीत की जगह नहीं ले सकता। दरअसल, …",
+        "pron": "तू दा-बॉग़ üन ना-प्ली-का-स्योँ नö ग़ाँ-प्लास पा üन व्ग़ै कोँ-वैग़-सा-स्योँ आँ ने-फ़ै"
+      },
+      {
+        "fr": "Certes, ces outils sont pratiques, mais ils font encore beaucoup d'erreurs.",
+        "en": "Admittedly, these tools are handy, but they still make many mistakes.",
+        "hi": "माना कि ये औज़ार सुविधाजनक हैं, पर ये अब भी बहुत ग़लतियाँ करते हैं।",
+        "pron": "सैग़्त से ज़ू-ती सोँ प्रा-तीक मै इल फ़ोँ आँ-कॉग़ बो-कू दे-ग़öग़"
+      },
+      {
+        "fr": "Pour toutes ces raisons, je pense qu'il faut continuer à apprendre les langues.",
+        "en": "For all these reasons, I think we must keep learning languages.",
+        "hi": "इन सभी कारणों से मुझे लगता है कि भाषाएँ सीखते रहना चाहिए।",
+        "pron": "पूग़ तूत से ग़ै-ज़ोँ झ़ö पाँस कील फ़ो कोँ-ती-न्üए आ आ-प्राँद्ग़ ले लाँग"
+      },
+      {
+        "fr": "Veuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.",
+        "en": "Yours faithfully.",
+        "hi": "सादर, आपका।",
+        "pron": "वö-ये ज़ा-ग्ग़े-ए मा-दाम मö-स्यö लैक्स-प्रै-स्योँ दö मे सा-लü-ता-स्योँ दिस-तैँ-गे"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Three arguments listed in one sentence are not 'developed'. Each argument needs an explanation AND an example — about 40–50 words each.",
+        "hi": "एक वाक्य में गिनाए गए तीन तर्क 'विकसित' नहीं होते। हर तर्क को समझाना और उदाहरण दोनों चाहिए — हर एक लगभग 40–50 शब्द।"
+      },
+      {
+        "en": "Don't copy the statement word for word as your whole introduction. Quote it once, then rephrase.",
+        "hi": "पूरा कथन शब्दशः उतारकर भूमिका मत बनाइए। एक बार उद्धृत कीजिए, फिर अपने शब्दों में कहिए।"
+      },
+      {
+        "en": "Don't write 'Cher journal' or 'Salut': the letter is formal. 'Madame, Monsieur,' is always correct.",
+        "hi": "'Cher journal' या 'Salut' मत लिखिए: पत्र औपचारिक है। 'Madame, Monsieur,' हमेशा सही है।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Formal intonation",
+    "tip": {
+      "en": "Formal French is said slowly, with clear liaisons that are optional in casual speech: vous‿écris, mes‿salutations, je suis‿entièrement d'accord. Each connector starts a new rhythm group with a slight rise.",
+      "hi": "औपचारिक फ़्रेंच धीमे बोली जाती है, साफ़ liaison के साथ जो आम बोलचाल में ज़रूरी नहीं होते: vous‿écris, mes‿salutations, je suis‿entièrement d'accord। हर संयोजक हल्की ऊँची आवाज़ के साथ नया लय-समूह शुरू करता है।"
+    },
+    "words": [
+      {
+        "fr": "veuillez agréer",
+        "en": "please accept",
+        "hi": "कृपया स्वीकार करें",
+        "pron": "वö-ये ज़ा-ग्ग़े-ए",
+        "ipa": "vœje zaɡʁee"
+      },
+      {
+        "fr": "distinguées",
+        "en": "distinguished",
+        "hi": "विशिष्ट / सादर",
+        "pron": "दिस-तैँ-गे",
+        "ipa": "distɛ̃ɡe",
+        "note": {
+          "en": "The u after g is silent: -gué = गे.",
+          "hi": "g के बाद का u नहीं बोला जाता: -gué = गे।"
+        }
+      },
+      {
+        "fr": "je vous écris",
+        "en": "I am writing to you",
+        "hi": "मैं आपको लिख रहा हूँ",
+        "pron": "झ़ö वू ज़े-क्ग़ी",
+        "ipa": "ʒə vu zekʁi"
+      },
+      {
+        "fr": "l'affirmation",
+        "en": "the statement",
+        "hi": "दावा",
+        "pron": "ला-फ़ीग़-मा-स्योँ",
+        "ipa": "lafiʁmasjɔ̃"
+      },
+      {
+        "fr": "entièrement d'accord",
+        "en": "entirely in agreement",
+        "hi": "पूरी तरह सहमत",
+        "pron": "आँ-त्यैग़-माँ दा-कॉग़",
+        "ipa": "ɑ̃tjɛʁmɑ̃ dakɔʁ"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "L'éditorial du matin : des rues sans voitures l'été ?",
+      "en": "The morning editorial: car-free streets in summer?"
+    },
+    "type": "radio",
+    "mode": "natural",
+    "context": {
+      "en": "A radio editorialist gives her opinion on closing shopping streets to cars in summer. Her structure is exactly what you need for TEF writing B: position, three arguments, a concession, a conclusion.",
+      "hi": "एक रेडियो संपादकीय लेखिका गर्मियों में बाज़ार वाली सड़कों को गाड़ियों के लिए बंद करने पर अपनी राय देती है। उसका ढाँचा ठीक वही है जो TEF लिखित B के लिए चाहिए: राय, तीन तर्क, एक रियायत, निष्कर्ष।"
+    },
+    "lines": [
+      {
+        "speaker": "Éditorialiste",
+        "voice": "f2",
+        "fr": "Bonjour à tous. Ce matin, je veux parler de la proposition de fermer la rue Saint-Denis aux voitures pendant tout l'été.",
+        "en": "Hello everyone. This morning I want to talk about the proposal to close Rue Saint-Denis to cars all summer.",
+        "hi": "सभी को नमस्ते। आज सुबह मैं पूरी गर्मियों में सां-दनी स्ट्रीट को गाड़ियों के लिए बंद करने के प्रस्ताव पर बात करना चाहती हूँ।"
+      },
+      {
+        "speaker": "Éditorialiste",
+        "voice": "f2",
+        "fr": "Certains commerçants sont inquiets. Moi, je suis convaincue que c'est une excellente idée, et voici pourquoi.",
+        "en": "Some shopkeepers are worried. As for me, I am convinced it is an excellent idea, and here is why.",
+        "hi": "कुछ दुकानदार चिंतित हैं। मुझे पूरा यक़ीन है कि यह बहुत अच्छा विचार है, और इसकी वजहें ये हैं।"
+      },
+      {
+        "speaker": "Éditorialiste",
+        "voice": "f2",
+        "fr": "Tout d'abord, une rue piétonne attire plus de monde. L'an dernier, quand la ville a fermé la rue pendant un mois, la fréquentation des boutiques a augmenté de quinze pour cent.",
+        "en": "First of all, a pedestrian street attracts more people. Last year, when the city closed the street for a month, shop traffic rose by fifteen percent.",
+        "hi": "सबसे पहले, पैदल चलने वालों की सड़क ज़्यादा लोगों को खींचती है। पिछले साल जब शहर ने एक महीने के लिए सड़क बंद की थी, दुकानों में आने वालों की संख्या पंद्रह प्रतिशत बढ़ गई थी।"
+      },
+      {
+        "speaker": "Éditorialiste",
+        "voice": "f2",
+        "fr": "Ensuite, c'est une question de santé publique. Moins de voitures, c'est moins de pollution et moins de bruit pour les familles qui habitent le quartier.",
+        "en": "Next, it's a public health issue. Fewer cars means less pollution and less noise for the families who live in the area.",
+        "hi": "फिर, यह जन-स्वास्थ्य का मामला है। कम गाड़ियाँ मतलब मोहल्ले में रहने वाले परिवारों के लिए कम प्रदूषण और कम शोर।"
+      },
+      {
+        "speaker": "Éditorialiste",
+        "voice": "f2",
+        "fr": "Enfin, une rue sans voitures devient un lieu de rencontre : des terrasses, des musiciens, des enfants qui jouent. On redonne la ville à ses habitants.",
+        "en": "Finally, a street without cars becomes a meeting place: terraces, musicians, children playing. We give the city back to its residents.",
+        "hi": "अंत में, बिना गाड़ियों की सड़क मिलने-जुलने की जगह बन जाती है: बाहर बैठने की जगहें, संगीतकार, खेलते बच्चे। हम शहर उसके निवासियों को लौटा देते हैं।"
+      },
+      {
+        "speaker": "Éditorialiste",
+        "voice": "f2",
+        "fr": "Certes, les livraisons posent un problème, et certaines personnes âgées ont besoin de leur voiture.",
+        "en": "Admittedly, deliveries are a problem, and some elderly people need their car.",
+        "hi": "माना कि सामान की डिलीवरी एक समस्या है, और कुछ बुज़ुर्गों को अपनी गाड़ी की ज़रूरत होती है।"
+      },
+      {
+        "speaker": "Éditorialiste",
+        "voice": "f2",
+        "fr": "Mais on peut autoriser les livraisons le matin, avant dix heures, et offrir une navette gratuite aux personnes à mobilité réduite.",
+        "en": "But deliveries can be allowed in the morning, before ten, and a free shuttle offered to people with reduced mobility.",
+        "hi": "पर सुबह दस बजे से पहले डिलीवरी की अनुमति दी जा सकती है, और चलने-फिरने में कठिनाई वाले लोगों को मुफ़्त शटल दी जा सकती है।"
+      },
+      {
+        "speaker": "Éditorialiste",
+        "voice": "f2",
+        "fr": "D'ailleurs, d'autres villes l'ont fait avec succès, comme Copenhague depuis des décennies.",
+        "en": "Besides, other cities have done it successfully, like Copenhagen for decades.",
+        "hi": "वैसे भी, दूसरे शहरों ने यह सफलता से किया है, जैसे कोपेनहेगन दशकों से।"
+      },
+      {
+        "speaker": "Éditorialiste",
+        "voice": "f2",
+        "fr": "En conclusion, fermer la rue l'été, ce n'est pas être contre les commerçants. C'est, au contraire, leur offrir plus de clients dans une ville plus agréable.",
+        "en": "In conclusion, closing the street in summer is not being against shopkeepers. On the contrary, it offers them more customers in a more pleasant city.",
+        "hi": "निष्कर्ष में, गर्मियों में सड़क बंद करना दुकानदारों के ख़िलाफ़ होना नहीं है। इसके उलट, यह उन्हें एक ज़्यादा सुहाने शहर में ज़्यादा ग्राहक देना है।"
+      },
+      {
+        "speaker": "Éditorialiste",
+        "voice": "f2",
+        "fr": "Et vous, qu'en pensez-vous ? Écrivez-nous ; vos lettres seront lues demain à l'antenne.",
+        "en": "And you, what do you think? Write to us; your letters will be read on air tomorrow.",
+        "hi": "और आप, आप क्या सोचते हैं? हमें लिखिए; आपके पत्र कल प्रसारण में पढ़े जाएँगे।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "What is the editorialist's position?"
+        },
+        "options": [
+          "In favour only for one month",
+          "Against the proposal",
+          "Strongly in favour",
+          "Undecided"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Je suis convaincue que c'est une excellente idée.'",
+          "hi": "'je suis convaincue que c'est une excellente idée' — पूरी तरह पक्ष में।"
+        },
+        "kind": "gist",
+        "evidence": "je suis convaincue que c'est une excellente idée"
+      },
+      {
+        "q": {
+          "en": "What evidence supports her first argument?"
+        },
+        "options": [
+          "Shop traffic rose by 15% during a one-month closure",
+          "Copenhagen's shops doubled their sales",
+          "Rents went down",
+          "Pollution dropped by 15%"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'La fréquentation des boutiques a augmenté de quinze pour cent.'",
+          "hi": "'la fréquentation des boutiques a augmenté de quinze pour cent' — दुकानों में आने वाले 15% बढ़े।"
+        },
+        "kind": "literal",
+        "evidence": "la fréquentation des boutiques a augmenté de quinze pour cent"
+      },
+      {
+        "q": {
+          "en": "Her second argument is about…"
+        },
+        "options": [
+          "parking prices",
+          "street safety at night",
+          "tourism",
+          "public health: pollution and noise"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'C'est une question de santé publique… moins de pollution et moins de bruit.'",
+          "hi": "'c'est une question de santé publique… moins de pollution et moins de bruit'।"
+        },
+        "kind": "literal",
+        "evidence": "c'est une question de santé publique"
+      },
+      {
+        "q": {
+          "en": "Which objection does she accept in part?"
+        },
+        "options": [
+          "The street will be too crowded",
+          "Deliveries and elderly people's needs",
+          "Musicians are too noisy",
+          "Restaurants will close"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Certes, les livraisons posent un problème, et certaines personnes âgées ont besoin de leur voiture.'",
+          "hi": "'certes, les livraisons posent un problème…' — डिलीवरी और बुज़ुर्गों की ज़रूरत।"
+        },
+        "kind": "literal",
+        "evidence": "Certes, les livraisons posent un problème"
+      },
+      {
+        "q": {
+          "en": "What solution does she propose for deliveries?"
+        },
+        "options": [
+          "Deliveries by bike only",
+          "Deliveries at night only",
+          "Deliveries before 10 a.m.",
+          "No deliveries in summer"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Autoriser les livraisons le matin, avant dix heures.'",
+          "hi": "'autoriser les livraisons le matin, avant dix heures' — सुबह 10 बजे से पहले।"
+        },
+        "kind": "literal",
+        "evidence": "on peut autoriser les livraisons le matin, avant dix heures"
+      },
+      {
+        "q": {
+          "en": "What does 'au contraire' introduce in her conclusion?"
+        },
+        "options": [
+          "The opposite of the objection: more customers for shops",
+          "A question to listeners",
+          "An example from Copenhagen",
+          "A new problem"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "It's not against shopkeepers; on the contrary, it brings them more customers.",
+          "hi": "यह दुकानदारों के ख़िलाफ़ नहीं; इसके उलट, उन्हें ज़्यादा ग्राहक देता है।"
+        },
+        "kind": "inference",
+        "evidence": "C'est, au contraire, leur offrir plus de clients dans une ville plus agréable."
+      }
+    ],
+    "dictation": [
+      "Tout d'abord, une rue piétonne attire plus de monde.",
+      "Certes, les livraisons posent un problème.",
+      "En conclusion, ce n'est pas être contre les commerçants."
+    ],
+    "gapFill": {
+      "text": "Tout d'___, une rue piétonne attire plus de monde. ___, c'est une question de santé publique. ___, les livraisons posent un problème. En ___, c'est une excellente idée.",
+      "answers": [
+        "abord",
+        "Ensuite",
+        "Certes",
+        "conclusion"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "presentation",
+    "instructions": {
+      "en": "Give your opinion aloud (2 minutes) on the statement in today's reading: « Avec les applications de traduction, apprendre une langue étrangère ne sert plus à rien. » Use the letter structure: position, three arguments with examples, one concession, conclusion.",
+      "hi": "आज के पठन वाले कथन पर अपनी राय ज़ोर से दीजिए (2 मिनट): « Avec les applications de traduction, apprendre une langue étrangère ne sert plus à rien. » पत्र वाला ढाँचा इस्तेमाल कीजिए: राय, उदाहरणों के साथ तीन तर्क, एक रियायत, निष्कर्ष।"
+    },
+    "prompts": [
+      {
+        "fr": "Je ne suis pas du tout d'accord avec cette affirmation.",
+        "en": "I don't agree at all with this statement.",
+        "hi": "मैं इस कथन से बिल्कुल सहमत नहीं हूँ।",
+        "pron": "झ़ö नö स्üई पा दü तू दा-कॉग़ आ-वैक सैत आ-फ़ीग़-मा-स्योँ"
+      },
+      {
+        "fr": "Tout d'abord, une langue, ce n'est pas seulement des mots : c'est une culture.",
+        "en": "First of all, a language is not just words: it's a culture.",
+        "hi": "सबसे पहले, भाषा सिर्फ़ शब्द नहीं है: यह एक संस्कृति है।",
+        "pron": "तू दा-बॉग़ üन लाँग सö नै पा सö-लö-माँ दे मो सै तüन कüल-त्üग़",
+        "model": "Tout d'abord, une langue, ce n'est pas seulement des mots : c'est une culture. Par exemple, l'humour québécois est impossible à traduire avec une application."
+      },
+      {
+        "fr": "Ensuite, pour trouver un emploi, il faut parler directement avec les gens.",
+        "en": "Next, to find a job, you have to talk directly with people.",
+        "hi": "फिर, नौकरी पाने के लिए लोगों से सीधे बात करनी पड़ती है।",
+        "pron": "आँ-स्üईत पूग़ त्ग़ू-वे ऐँ नाँ-प्ल्वा इल फ़ो पाग़-ले दी-ग़ैक-त-माँ आ-वैक ले झ़ाँ"
+      },
+      {
+        "fr": "Certes, ces outils sont utiles en voyage, mais ils ne remplacent pas une vraie conversation.",
+        "en": "Admittedly, these tools are useful when travelling, but they don't replace a real conversation.",
+        "hi": "माना कि ये औज़ार यात्रा में काम आते हैं, पर असली बातचीत की जगह नहीं ले सकते।",
+        "pron": "सैग़्त से ज़ू-ती सोँ ü-तील आँ व्वा-याझ़ मै इल नö ग़ाँ-प्लास पा üन व्ग़ै कोँ-वैग़-सा-स्योँ"
+      },
+      {
+        "fr": "Pour toutes ces raisons, je pense qu'apprendre une langue reste essentiel.",
+        "en": "For all these reasons, I think learning a language remains essential.",
+        "hi": "इन सभी कारणों से, मुझे लगता है कि भाषा सीखना आज भी ज़रूरी है।",
+        "pron": "पूग़ तूत से ग़ै-ज़ोँ झ़ö पाँस का-प्राँद्ग़ üन लाँग ग़ैस्त ए-साँ-स्यैल"
+      }
+    ],
+    "tip": {
+      "en": "Speaking your arguments aloud before writing is a quick way to check you really have three different ideas, not the same idea three times.",
+      "hi": "लिखने से पहले अपने तर्क ज़ोर से बोलना जाँचने का तेज़ तरीक़ा है कि आपके पास सच में तीन अलग विचार हैं, न कि एक ही विचार तीन बार।"
+    }
+  },
+  "reading": {
+    "genre": "letter",
+    "title": "Courrier des lecteurs : « Apprendre une langue ne sert plus à rien »",
+    "text": "La semaine dernière, notre journal a publié l'affirmation suivante : « Avec les applications de traduction, apprendre une langue étrangère ne sert plus à rien. » Voici deux réactions de lecteurs.\n\nLettre 1 — Fatima B., Laval\nMadame, Monsieur,\nJe vous écris pour réagir à l'affirmation parue dans votre édition du 12 mars. Je ne partage pas du tout cet avis. Tout d'abord, je suis infirmière et je travaille avec des patients qui parlent arabe, anglais ou espagnol. Quand un patient a peur, il a besoin d'une voix humaine, pas d'un téléphone. Ensuite, les applications font encore des erreurs graves : la semaine dernière, l'une d'elles a traduit « allergie à la pénicilline » par « allergie au pain » ! Enfin, apprendre le français m'a permis de comprendre la culture québécoise et de me faire des amis. Certes, ces outils sont pratiques en voyage, mais ils ne remplaceront jamais une vraie conversation.\nVeuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.\n\nLettre 2 — Marc-André D., Sherbrooke\nMadame, Monsieur,\nJe suis partiellement d'accord avec cette affirmation. Pour un touriste qui passe une semaine au Japon, une application suffit largement : elle est gratuite, rapide et disponible partout. Il me semble donc inutile d'obliger tous les élèves à étudier deux langues étrangères. Cependant, pour vivre ou travailler dans un autre pays, la situation est différente : personne ne veut passer une entrevue d'embauche avec un téléphone à la main. En conclusion, les écoles devraient adapter les cours aux besoins réels des élèves.\nRecevez, Madame, Monsieur, mes salutations les meilleures.",
+    "translation": {
+      "en": "Last week our newspaper published the following statement: 'With translation apps, learning a foreign language is no longer useful.' Here are two readers' reactions.\n\nLetter 1 — Fatima B., Laval\nDear Sir or Madam,\nI am writing to react to the statement published in your 12 March edition. I do not share this opinion at all. First of all, I am a nurse and I work with patients who speak Arabic, English or Spanish. When a patient is afraid, they need a human voice, not a phone. Next, apps still make serious mistakes: last week one of them translated 'allergy to penicillin' as 'allergy to bread'! Finally, learning French allowed me to understand Québec culture and make friends. Admittedly, these tools are handy when travelling, but they will never replace a real conversation.\nYours faithfully.\n\nLetter 2 — Marc-André D., Sherbrooke\nDear Sir or Madam,\nI partly agree with this statement. For a tourist spending a week in Japan, an app is more than enough: it is free, fast and available everywhere. So it seems to me pointless to force all students to study two foreign languages. However, to live or work in another country, the situation is different: nobody wants to do a job interview with a phone in their hand. In conclusion, schools should adapt classes to students' real needs.\nBest regards.",
+      "hi": "पिछले हफ़्ते हमारे अख़बार ने यह कथन छापा: 'अनुवाद ऐप्स के होते, विदेशी भाषा सीखना अब किसी काम का नहीं।' यहाँ पाठकों की दो प्रतिक्रियाएँ हैं।\n\nपत्र 1 — फ़ातिमा B., लावाल\nमहोदया, महोदय,\nमैं आपके 12 मार्च के अंक में छपे कथन पर प्रतिक्रिया देने के लिए लिख रही हूँ। मैं इस राय से बिल्कुल सहमत नहीं हूँ। सबसे पहले, मैं नर्स हूँ और ऐसे मरीज़ों के साथ काम करती हूँ जो अरबी, अंग्रेज़ी या स्पेनिश बोलते हैं। जब मरीज़ डरा होता है, उसे इंसानी आवाज़ चाहिए, फ़ोन नहीं। फिर, ऐप्स अब भी गंभीर ग़लतियाँ करते हैं: पिछले हफ़्ते एक ऐप ने 'पेनिसिलिन से एलर्जी' का अनुवाद 'ब्रेड से एलर्जी' कर दिया! अंत में, फ़्रेंच सीखने से मैं क्यूबेक की संस्कृति समझ पाई और दोस्त बना पाई। माना कि ये औज़ार यात्रा में सुविधाजनक हैं, पर ये कभी असली बातचीत की जगह नहीं ले पाएँगे।\nसादर, आपकी।\n\nपत्र 2 — मार्क-आँद्रे D., शेरब्रुक\nमहोदया, महोदय,\nमैं इस कथन से आंशिक रूप से सहमत हूँ। जापान में एक हफ़्ता बिताने वाले पर्यटक के लिए ऐप काफ़ी से ज़्यादा है: यह मुफ़्त, तेज़ और हर जगह उपलब्ध है। इसलिए मुझे सभी छात्रों को दो विदेशी भाषाएँ पढ़ने पर मजबूर करना बेकार लगता है। फिर भी, किसी दूसरे देश में रहने या काम करने के लिए स्थिति अलग है: कोई भी हाथ में फ़ोन लेकर नौकरी का इंटरव्यू नहीं देना चाहता। निष्कर्ष में, स्कूलों को कक्षाएँ छात्रों की असली ज़रूरतों के हिसाब से ढालनी चाहिए।\nशुभकामनाओं सहित।"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "What is Fatima's position on the statement?"
+        },
+        "options": [
+          "She has no opinion",
+          "She completely disagrees",
+          "She partly agrees",
+          "She completely agrees"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Je ne partage pas du tout cet avis.'",
+          "hi": "'je ne partage pas du tout cet avis' — बिल्कुल सहमत नहीं।"
+        },
+        "kind": "gist",
+        "evidence": "Je ne partage pas du tout cet avis."
+      },
+      {
+        "q": {
+          "en": "Which example does Fatima give to show that apps make mistakes?"
+        },
+        "options": [
+          "A wrong date of birth",
+          "A rude translation",
+          "A wrong address",
+          "'Allergy to penicillin' translated as 'allergy to bread'"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "She quotes the penicillin/bread error — a concrete example that develops her argument.",
+          "hi": "वह पेनिसिलिन/ब्रेड वाली ग़लती बताती है — एक ठोस उदाहरण जो उसके तर्क को विकसित करता है।"
+        },
+        "kind": "literal",
+        "evidence": "l'une d'elles a traduit « allergie à la pénicilline » par « allergie au pain »"
+      },
+      {
+        "q": {
+          "en": "Which concession does Fatima make?"
+        },
+        "options": [
+          "Apps are useful for travel",
+          "Learning languages is expensive",
+          "Nurses don't need languages",
+          "Culture is not important"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Certes, ces outils sont pratiques en voyage, mais…'",
+          "hi": "'certes, ces outils sont pratiques en voyage, mais…' — यात्रा में काम के हैं, माना।"
+        },
+        "kind": "inference",
+        "evidence": "Certes, ces outils sont pratiques en voyage"
+      },
+      {
+        "q": {
+          "en": "For whom does Marc-André think an app is enough?"
+        },
+        "options": [
+          "For immigrants",
+          "For job seekers",
+          "For a tourist on a short trip",
+          "For nurses"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Pour un touriste qui passe une semaine au Japon, une application suffit largement.'",
+          "hi": "'pour un touriste qui passe une semaine au Japon, une application suffit largement'।"
+        },
+        "kind": "literal",
+        "evidence": "Pour un touriste qui passe une semaine au Japon, une application suffit largement"
+      },
+      {
+        "q": {
+          "en": "What does Marc-André propose in his conclusion?"
+        },
+        "options": [
+          "Banning translation apps",
+          "Adapting language classes to students' real needs",
+          "Making two languages compulsory",
+          "Learning only Japanese"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Les écoles devraient adapter les cours aux besoins réels des élèves.'",
+          "hi": "'les écoles devraient adapter les cours aux besoins réels des élèves'।"
+        },
+        "kind": "literal",
+        "evidence": "les écoles devraient adapter les cours aux besoins réels des élèves"
+      },
+      {
+        "q": {
+          "en": "What do both letters have in common?"
+        },
+        "options": [
+          "Both are written by nurses",
+          "Both use informal language",
+          "Both fully support the statement",
+          "Both say apps are not enough for living or working abroad"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "Fatima says apps don't replace conversation; Marc-André says nobody wants an interview with a phone in hand.",
+          "hi": "फ़ातिमा कहती हैं ऐप्स बातचीत की जगह नहीं लेते; मार्क-आँद्रे कहते हैं हाथ में फ़ोन लेकर कोई इंटरव्यू नहीं देना चाहता।"
+        },
+        "kind": "inference",
+        "evidence": "personne ne veut passer une entrevue d'embauche avec un téléphone à la main"
+      }
+    ]
+  },
+  "writing": {
+    "type": "opinion_letter",
+    "prompt": {
+      "en": "TEF section B practice (timed: 35 minutes). A newspaper published this statement: « Avec les applications de traduction, apprendre une langue étrangère ne sert plus à rien. » Write a letter to the newspaper giving your opinion. At least 200 words and three developed arguments.",
+      "hi": "TEF भाग B का अभ्यास (समय: 35 मिनट)। एक अख़बार ने यह कथन छापा: « Avec les applications de traduction, apprendre une langue étrangère ne sert plus à rien. » अपनी राय देते हुए अख़बार को पत्र लिखिए। कम से कम 200 शब्द और तीन विकसित तर्क।",
+      "fr": "Vous réagissez à cette affirmation dans une lettre au journal (200 mots minimum, trois arguments)."
+    },
+    "minWords": 200,
+    "maxWords": 300,
+    "hints": [
+      {
+        "en": "Time plan: 5 minutes to list ideas and choose three, 25 minutes to write, 5 minutes to check.",
+        "hi": "समय योजना: 5 मिनट विचार लिखकर तीन चुनने के लिए, 25 मिनट लिखने के लिए, 5 मिनट जाँचने के लिए।"
+      },
+      {
+        "en": "Use your personal situation as examples (work, family, life in Canada) — it makes arguments concrete.",
+        "hi": "अपनी निजी स्थिति को उदाहरण बनाइए (काम, परिवार, कनाडा में जीवन) — इससे तर्क ठोस बनते हैं।"
+      },
+      {
+        "en": "Include one concession (Certes…, mais…).",
+        "hi": "एक रियायत शामिल कीजिए (Certes…, mais…)।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Je vous écris pour réagir à l'affirmation selon laquelle…",
+        "en": "I'm writing to react to the claim that…",
+        "hi": "मैं इस दावे पर प्रतिक्रिया देने के लिए लिख रहा हूँ कि…",
+        "pron": "झ़ö वू ज़े-क्ग़ी पूग़ ग़े-आ-झ़ीग़ आ ला-फ़ीग़-मा-स्योँ सö-लोँ ला-कैल"
+      },
+      {
+        "fr": "Prenons l'exemple de…",
+        "en": "Let's take the example of…",
+        "hi": "… का उदाहरण लेते हैं",
+        "pron": "प्रö-नोँ लैग-ज़ाँप्ल दö"
+      },
+      {
+        "fr": "Pour toutes ces raisons, …",
+        "en": "For all these reasons, …",
+        "hi": "इन सभी कारणों से, …",
+        "pron": "पूग़ तूत से ग़ै-ज़ोँ"
+      },
+      {
+        "fr": "Veuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.",
+        "en": "Yours faithfully.",
+        "hi": "सादर, आपका।",
+        "pron": "वö-ये ज़ा-ग्ग़े-ए मा-दाम मö-स्यö लैक्स-प्रै-स्योँ दö मे सा-लü-ता-स्योँ दिस-तैँ-गे"
+      }
+    ],
+    "model": {
+      "fr": "Madame, Monsieur,\nJe vous écris pour réagir à l'affirmation selon laquelle apprendre une langue étrangère ne sert plus à rien grâce aux applications de traduction. En tant qu'immigrant arrivé à Montréal il y a deux ans, je ne partage pas du tout cet avis.\nTout d'abord, une langue permet de créer de vraies relations. En effet, on ne se fait pas d'amis avec un téléphone entre les mains. Par exemple, c'est en parlant français avec mes voisins que j'ai été invité à mon premier souper québécois.\nEnsuite, le travail exige une communication rapide et précise. Dans une réunion ou au téléphone avec un client, personne n'a le temps d'attendre une traduction. De plus, ces outils font encore des erreurs : un mot mal traduit dans un contrat peut coûter très cher.\nEnfin, apprendre une langue, c'est aussi découvrir une culture. Les expressions, l'humour et les chansons d'un pays ne se traduisent pas mot à mot. Mes enfants comprennent maintenant les blagues de leurs amis, et ils se sentent chez eux ici.\nCertes, les applications sont très utiles pour un touriste ou dans une situation d'urgence. Cependant, elles ne peuvent pas remplacer la confiance qu'on gagne en parlant soi-même.\nPour toutes ces raisons, je pense que l'apprentissage des langues reste essentiel, surtout dans un pays bilingue comme le Canada.\nVeuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.\nRajesh Kumar",
+      "en": "Dear Sir or Madam,\nI am writing to react to the claim that learning a foreign language is no longer useful thanks to translation apps. As an immigrant who arrived in Montréal two years ago, I do not share this opinion at all.\nFirst of all, a language makes it possible to build real relationships. Indeed, you don't make friends with a phone in your hands. For example, it was by speaking French with my neighbours that I was invited to my first Québec dinner.\nNext, work requires fast and precise communication. In a meeting or on the phone with a client, nobody has time to wait for a translation. Moreover, these tools still make mistakes: a badly translated word in a contract can be very costly.\nFinally, learning a language also means discovering a culture. A country's expressions, humour and songs cannot be translated word for word. My children now understand their friends' jokes, and they feel at home here.\nAdmittedly, apps are very useful for a tourist or in an emergency. However, they cannot replace the confidence you gain by speaking yourself.\nFor all these reasons, I think language learning remains essential, especially in a bilingual country like Canada.\nYours faithfully,\nRajesh Kumar"
+    },
+    "checklist": [
+      {
+        "en": "Did you open with 'Madame, Monsieur,' and close with the formal formula?",
+        "hi": "क्या आपने 'Madame, Monsieur,' से शुरुआत और औपचारिक वाक्य से अंत किया?"
+      },
+      {
+        "en": "Is your position clear in the introduction and repeated in the conclusion?",
+        "hi": "क्या आपकी राय भूमिका में साफ़ है और निष्कर्ष में दोहराई गई है?"
+      },
+      {
+        "en": "Does each of your three arguments have an explanation and an example?",
+        "hi": "क्या आपके तीनों तर्कों में समझाना और उदाहरण दोनों हैं?"
+      },
+      {
+        "en": "Did you include a concession (Certes…, mais / cependant…)?",
+        "hi": "क्या आपने एक रियायत (Certes…, mais / cependant…) शामिल की?"
+      },
+      {
+        "en": "Did you write at least 200 words and use vous / a formal register?",
+        "hi": "क्या आपने कम से कम 200 शब्द लिखे और vous / औपचारिक शैली रखी?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      39,
+      61,
+      62,
+      69,
+      73,
+      74,
+      78
+    ],
+    "items": [
+      {
+        "fr": "selon moi",
+        "en": "in my view",
+        "hi": "मेरे हिसाब से",
+        "pron": "सö-लोँ म्वा"
+      },
+      {
+        "fr": "car",
+        "en": "because (formal)",
+        "hi": "क्योंकि",
+        "pron": "काग़"
+      },
+      {
+        "fr": "en revanche",
+        "en": "on the other hand",
+        "hi": "दूसरी ओर",
+        "pron": "आँ ग़ö-वाँश"
+      },
+      {
+        "fr": "par conséquent",
+        "en": "consequently",
+        "hi": "परिणामस्वरूप",
+        "pron": "पाग़ कोँ-से-काँ"
+      },
+      {
+        "fr": "Il est important de lire la consigne.",
+        "en": "It is important to read the instructions.",
+        "hi": "निर्देश पढ़ना ज़रूरी है।",
+        "pron": "इ-लै तैँ-पॉग़-ताँ दö लीग़ ला कोँ-सीन्य"
+      },
+      {
+        "fr": "Cordialement,",
+        "en": "Kind regards,",
+        "hi": "सादर,",
+        "pron": "कॉग़-द्याल-माँ"
+      },
+      {
+        "fr": "c'est pourquoi",
+        "en": "that's why",
+        "hi": "इसीलिए",
+        "pron": "सै पूग़-क्वा"
+      },
+      {
+        "fr": "même si",
+        "en": "even if",
+        "hi": "भले ही",
+        "pron": "मैम सी"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which opening is correct for a letter to a newspaper?",
+        "hi": "अख़बार को पत्र के लिए कौन-सी शुरुआत सही है?"
+      },
+      "options": [
+        "Madame, Monsieur,",
+        "Coucou,",
+        "Salut,",
+        "Cher journal,"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Madame, Monsieur, is the standard formal opening.",
+        "hi": "Madame, Monsieur, मानक औपचारिक शुरुआत है।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete the closing formula.",
+        "hi": "समापन वाक्य पूरा कीजिए।"
+      },
+      "sentence": "Veuillez ___, Madame, Monsieur, l'expression de mes salutations distinguées.",
+      "answer": "agréer",
+      "accept": [],
+      "explanation": {
+        "en": "Veuillez agréer = please accept.",
+        "hi": "veuillez agréer = कृपया स्वीकार करें।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which connector introduces a CONCESSION?",
+        "hi": "कौन-सा संयोजक रियायत (मान लेना) दिखाता है?"
+      },
+      "options": [
+        "Donc",
+        "Ensuite",
+        "Certes",
+        "Par exemple"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Certes … mais = admittedly … but.",
+        "hi": "certes … mais = माना कि … पर।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "A 'developed' argument contains…",
+        "hi": "एक 'विकसित' तर्क में होता है…"
+      },
+      "options": [
+        "the closing formula",
+        "only one short sentence",
+        "an idea, an explanation and an example",
+        "a question to the reader"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Idea + explanation (en effet) + example (par exemple).",
+        "hi": "विचार + समझाना (en effet) + उदाहरण (par exemple)।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French (formal).",
+        "hi": "फ़्रेंच में लिखिए (औपचारिक)।"
+      },
+      "source": {
+        "en": "I do not share this opinion at all.",
+        "hi": "मैं इस राय से बिल्कुल सहमत नहीं हूँ।"
+      },
+      "answer": "Je ne partage pas du tout cet avis.",
+      "accept": [
+        "Je ne partage pas du tout cet avis",
+        "Je ne partage pas du tout cette opinion."
+      ],
+      "explanation": {
+        "en": "Partager un avis = to share an opinion; pas du tout = not at all.",
+        "hi": "partager un avis = राय से सहमत होना; pas du tout = बिल्कुल नहीं।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: As a nurse, I think that…",
+        "hi": "पूरा कीजिए: एक नर्स के तौर पर, मुझे लगता है कि…"
+      },
+      "sentence": "En ___ qu'infirmière, je pense que…",
+      "answer": "tant",
+      "accept": [],
+      "explanation": {
+        "en": "En tant que = as (in the role of).",
+        "hi": "en tant que = … के तौर पर।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put in order: I'm writing to react to this statement.",
+        "hi": "क्रम में रखिए: मैं इस कथन पर प्रतिक्रिया देने के लिए लिख रहा हूँ।"
+      },
+      "words": [
+        "écris",
+        "Je",
+        "vous",
+        "réagir",
+        "pour",
+        "à",
+        "cette",
+        "affirmation",
+        "."
+      ],
+      "answer": "Je vous écris pour réagir à cette affirmation.",
+      "explanation": {
+        "en": "Je vous écris + pour + infinitive.",
+        "hi": "je vous écris + pour + infinitive।"
+      }
+    }
+  ]
+}

@@ -1,0 +1,996 @@
+{
+  "day": 59,
+  "phase": 3,
+  "title": {
+    "fr": "Introduction au TEF : demander des informations",
+    "en": "TEF intro: asking for information (speaking A)",
+    "hi": "TEF परिचय: जानकारी माँगना (बोलना भाग A)"
+  },
+  "objective": {
+    "en": "Ask polite, varied questions about an advertisement (housing, courses, jobs) using est-ce que, inversion (Pouvez-vous … ?) and indirect questions (Je voudrais savoir si …), as in section A of the TEF speaking test, where you phone someone about an ad and ask about ten questions. The tasks here are original practice, not official TEF material.",
+    "hi": "किसी विज्ञापन (मकान, कोर्स, नौकरी) के बारे में विनम्र और अलग-अलग तरह के प्रश्न पूछना, est-ce que, उलटे क्रम (Pouvez-vous … ?) और अप्रत्यक्ष प्रश्नों (Je voudrais savoir si …) के साथ, जैसे TEF बोलना परीक्षा के भाग A में, जहाँ आप किसी विज्ञापन के बारे में फ़ोन करके लगभग दस प्रश्न पूछते हैं। यहाँ के कार्य मौलिक अभ्यास हैं, आधिकारिक TEF सामग्री नहीं।"
+  },
+  "prerequisites": {
+    "days": [
+      10,
+      18,
+      32,
+      45,
+      53
+    ],
+    "summary": {
+      "en": "You need basic questions with intonation and question words (Days 10 and 18), vouloir and pouvoir + infinitive, including je voudrais (Day 32), time expressions like pendant (Day 45) and the pronoun en (Day 53).",
+      "hi": "आपको सुर वाले साधारण प्रश्न और प्रश्नवाचक शब्द (दिन 10 और 18), vouloir और pouvoir + मूल क्रिया, je voudrais सहित (दिन 32), pendant जैसे समय-सूचक (दिन 45) और सर्वनाम en (दिन 53) याद होने चाहिए।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "une formation",
+      "en": "a training course, a programme",
+      "hi": "प्रशिक्षण, कोर्स",
+      "pron": "üन फ़ोग़-मा-स्योँ",
+      "ipa": "yn fɔʁmasjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "formation"
+    },
+    {
+      "fr": "s'inscrire",
+      "en": "to register, to sign up",
+      "hi": "नाम लिखवाना, दाख़िला लेना",
+      "pron": "सैँस-क्ग़ीग़",
+      "ipa": "sɛ̃skʁiʁ",
+      "pos": "verb",
+      "note": {
+        "en": "Je m'inscris, nous nous inscrivons. Past: je me suis inscrit(e).",
+        "hi": "Je m'inscris, nous nous inscrivons। भूतकाल: je me suis inscrit(e)।"
+      }
+    },
+    {
+      "fr": "l'inscription",
+      "en": "registration",
+      "hi": "पंजीकरण, दाख़िला",
+      "pron": "लैँस-क्ग़ीप-स्योँ",
+      "ipa": "lɛ̃skʁipsjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "inscription",
+      "note": {
+        "en": "les frais d'inscription = registration fees.",
+        "hi": "les frais d'inscription = पंजीकरण शुल्क।"
+      }
+    },
+    {
+      "fr": "la durée",
+      "en": "the length, duration",
+      "hi": "अवधि",
+      "pron": "ला दü-ग़े",
+      "ipa": "la dyʁe",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "durée"
+    },
+    {
+      "fr": "durer",
+      "en": "to last",
+      "hi": "चलना (समय तक), टिकना",
+      "pron": "दü-ग़े",
+      "ipa": "dyʁe",
+      "pos": "verb",
+      "note": {
+        "en": "Combien de temps dure le cours ? = How long does the course last?",
+        "hi": "Combien de temps dure le cours ? = कोर्स कितने समय चलता है?"
+      }
+    },
+    {
+      "fr": "un niveau",
+      "en": "a level",
+      "hi": "स्तर",
+      "pron": "ऐँ नी-वो",
+      "ipa": "ɛ̃ nivo",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "niveau",
+      "note": {
+        "en": "un test de niveau = a placement test. Plural: niveaux.",
+        "hi": "un test de niveau = स्तर जाँचने की परीक्षा। बहुवचन: niveaux।"
+      }
+    },
+    {
+      "fr": "un horaire",
+      "en": "a schedule, timetable",
+      "hi": "समय-सारणी",
+      "pron": "ऐँ नो-ग़ैग़",
+      "ipa": "ɛ̃ nɔʁɛʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "horaire"
+    },
+    {
+      "fr": "compris",
+      "en": "included",
+      "hi": "शामिल",
+      "pron": "कोँ-प्री",
+      "ipa": "kɔ̃pʁi",
+      "pos": "adjective",
+      "note": {
+        "en": "Le matériel est compris ? = Is the material included? Feminine: comprise.",
+        "hi": "Le matériel est compris ? = क्या सामग्री शामिल है? स्त्रीलिंग: comprise।"
+      }
+    },
+    {
+      "fr": "une réduction",
+      "en": "a discount",
+      "hi": "छूट",
+      "pron": "üन ग़े-दüक-स्योँ",
+      "ipa": "yn ʁedyksjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "réduction"
+    },
+    {
+      "fr": "à distance",
+      "en": "online, remotely",
+      "hi": "दूर से, ऑनलाइन",
+      "pron": "आ दीस-ताँस",
+      "ipa": "a distɑ̃s",
+      "pos": "phrase",
+      "note": {
+        "en": "Its opposite is en présentiel (in person).",
+        "hi": "इसका उल्टा en présentiel (आमने-सामने, कक्षा में) है।"
+      }
+    },
+    {
+      "fr": "une attestation",
+      "en": "a certificate (of attendance)",
+      "hi": "प्रमाण-पत्र",
+      "pron": "ü ना-तैस-ता-स्योँ",
+      "ipa": "yn atɛstasjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "attestation"
+    },
+    {
+      "fr": "au sujet de",
+      "en": "about, concerning",
+      "hi": "के बारे में",
+      "pron": "ओ सü-झ़ै दö",
+      "ipa": "o syʒɛ də",
+      "pos": "phrase",
+      "note": {
+        "en": "J'appelle au sujet de votre annonce = I'm calling about your ad.",
+        "hi": "J'appelle au sujet de votre annonce = मैं आपके विज्ञापन के बारे में फ़ोन कर रहा/रही हूँ।"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "J'appelle au sujet de votre annonce.",
+      "en": "I'm calling about your ad.",
+      "hi": "मैं आपके विज्ञापन के बारे में फ़ोन कर रहा/रही हूँ।",
+      "pron": "झ़ा-पैल ओ सü-झ़ै दö वो-त्रा-नोँस"
+    },
+    {
+      "fr": "Je voudrais savoir s'il reste des places.",
+      "en": "I'd like to know if there are any places left.",
+      "hi": "मैं जानना चाहता/चाहती हूँ कि क्या जगहें बची हैं।",
+      "pron": "झ़ö वू-द्ग़ै सा-व्वाग़ सील ग़ैस्त दे प्लास"
+    },
+    {
+      "fr": "Pouvez-vous me dire combien ça coûte ?",
+      "en": "Can you tell me how much it costs?",
+      "hi": "क्या आप मुझे बता सकते हैं कि इसका कितना ख़र्च है?",
+      "pron": "पू-वे-वू मö दीग़ कोँ-ब्यैँ सा कूत"
+    },
+    {
+      "fr": "Y a-t-il un test de niveau ?",
+      "en": "Is there a placement test?",
+      "hi": "क्या कोई स्तर-परीक्षा है?",
+      "pron": "या-तील ऐँ तैस्त दö नी-वो"
+    },
+    {
+      "fr": "Est-ce que le matériel est compris ?",
+      "en": "Is the material included?",
+      "hi": "क्या सामग्री शामिल है?",
+      "pron": "ऐस-कö लö मा-ते-ग़्यैल ऐ कोँ-प्री"
+    },
+    {
+      "fr": "Une dernière question :",
+      "en": "One last question:",
+      "hi": "एक आख़िरी प्रश्न:",
+      "pron": "üन दैग़-न्यैग़ कैस-त्योँ"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Three ways to ask, and the polite indirect question",
+      "hi": "पूछने के तीन तरीक़े, और विनम्र अप्रत्यक्ष प्रश्न"
+    },
+    "explanation": {
+      "en": "French has three levels of question. 1) Intonation (casual): Vous avez des places ? 2) Est-ce que (neutral, always safe): Est-ce que vous avez des places ? Quand est-ce que le cours commence ? 3) Inversion (formal, very good on the phone and in the TEF): put the subject pronoun after the verb with a hyphen: Avez-vous des places ? Pouvez-vous m'aider ? Quand commence le cours ? If the verb ends in a vowel and the pronoun starts with one (il, elle, on), add -t- for the sound: A-t-il … ? Y a-t-il … ? Peut-on … ? Parle-t-elle … ? With a noun subject, keep the noun and add a pronoun: Le cours est-il gratuit ? Finally, the indirect question is the most polite way to start: Je voudrais savoir si … (si + il → s'il), Pouvez-vous me dire quand / où / combien … ? Inside an indirect question, use normal order and no est-ce que: Je voudrais savoir quand le cours commence (not 'quand est-ce que'). Qu'est-ce que becomes ce que: Je voudrais savoir ce que je dois apporter.",
+      "hi": "फ़्रेंच में प्रश्न के तीन स्तर हैं। 1) सुर से (अनौपचारिक): Vous avez des places ? 2) Est-ce que से (सामान्य, हमेशा सुरक्षित): Est-ce que vous avez des places ? Quand est-ce que le cours commence ? 3) उलटा क्रम (औपचारिक, फ़ोन पर और TEF में बहुत अच्छा): कर्ता सर्वनाम को क्रिया के बाद हाइफ़न के साथ रखिए: Avez-vous des places ? Pouvez-vous m'aider ? Quand commence le cours ? अगर क्रिया स्वर पर ख़त्म हो और सर्वनाम स्वर से शुरू हो (il, elle, on), तो ध्वनि के लिए -t- जोड़िए: A-t-il … ? Y a-t-il … ? Peut-on … ? Parle-t-elle … ? कर्ता संज्ञा हो तो संज्ञा रखिए और एक सर्वनाम जोड़िए: Le cours est-il gratuit ? अंत में, अप्रत्यक्ष प्रश्न शुरू करने का सबसे विनम्र तरीक़ा है: Je voudrais savoir si … (si + il → s'il), Pouvez-vous me dire quand / où / combien … ? अप्रत्यक्ष प्रश्न के अंदर सामान्य क्रम रखिए और est-ce que नहीं: Je voudrais savoir quand le cours commence ('quand est-ce que' नहीं)। qu'est-ce que बदलकर ce que हो जाता है: Je voudrais savoir ce que je dois apporter।"
+    },
+    "comparison": {
+      "en": "Hindi makes a yes/no question by adding क्या or just raising the voice: 'क्या आपके पास जगह है?' / 'आपके पास जगह है?'. That is French intonation or est-ce que (est-ce que works like क्या at the start). Hindi has no inversion, so practise it as a fixed polite formula, like 'क्या आप बता सकते हैं …?' = 'Pouvez-vous me dire … ?'. And 'मैं जानना चाहता हूँ कि क्या …' is exactly 'Je voudrais savoir si …': कि क्या = si.",
+      "hi": "हिंदी में हाँ/ना वाला प्रश्न क्या जोड़कर या बस आवाज़ उठाकर बनता है: 'क्या आपके पास जगह है?' / 'आपके पास जगह है?'। यह फ़्रेंच का सुर वाला प्रश्न या est-ce que है (est-ce que शुरू में क्या की तरह काम करता है)। हिंदी में उलटा क्रम नहीं है, इसलिए इसे एक तय विनम्र सूत्र की तरह अभ्यास कीजिए, जैसे 'क्या आप बता सकते हैं …?' = 'Pouvez-vous me dire … ?'। और 'मैं जानना चाहता हूँ कि क्या …' बिल्कुल 'Je voudrais savoir si …' है: कि क्या = si।"
+    },
+    "examples": [
+      {
+        "fr": "Est-ce que vous avez des cours le soir ?",
+        "en": "Do you have evening classes?",
+        "hi": "क्या आपकी शाम की कक्षाएँ हैं?",
+        "pron": "ऐस-कö वू ज़ा-वे दे कूग़ लö स्वाग़"
+      },
+      {
+        "fr": "Avez-vous encore des places ?",
+        "en": "Do you still have places?",
+        "hi": "क्या आपके पास अभी भी जगहें हैं?",
+        "pron": "आ-वे-वू ज़ाँ-कोग़ दे प्लास"
+      },
+      {
+        "fr": "Combien de temps dure la formation ?",
+        "en": "How long does the training last?",
+        "hi": "प्रशिक्षण कितने समय चलता है?",
+        "pron": "कोँ-ब्यैँ दö ताँ दüग़ ला फ़ोग़-मा-स्योँ"
+      },
+      {
+        "fr": "Peut-on payer en deux fois ?",
+        "en": "Can we pay in two instalments?",
+        "hi": "क्या दो किस्तों में भुगतान कर सकते हैं?",
+        "pron": "पö-तोँ पे-ये आँ दö फ़्वा"
+      },
+      {
+        "fr": "Le cours est-il gratuit ?",
+        "en": "Is the course free?",
+        "hi": "क्या कोर्स मुफ़्त है?",
+        "pron": "लö कूग़ ऐ-तील ग्ग़ा-त्üई"
+      },
+      {
+        "fr": "Je voudrais savoir si le matériel est compris.",
+        "en": "I'd like to know if the material is included.",
+        "hi": "मैं जानना चाहता/चाहती हूँ कि क्या सामग्री शामिल है।",
+        "pron": "झ़ö वू-द्ग़ै सा-व्वाग़ सी लö मा-ते-ग़्यैल ऐ कोँ-प्री"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Don't forget the -t- between two vowels: 'A-t-il', 'Peut-on' (t is already there), not 'A-il'.",
+        "hi": "दो स्वरों के बीच -t- मत भूलिए: 'A-t-il', 'Peut-on' (t पहले से है), 'A-il' नहीं।"
+      },
+      {
+        "en": "No est-ce que and no inversion inside an indirect question: 'Je voudrais savoir où est-ce que le cours a lieu' is wrong; say 'Je voudrais savoir où le cours a lieu'.",
+        "hi": "अप्रत्यक्ष प्रश्न के अंदर न est-ce que, न उलटा क्रम: 'Je voudrais savoir où est-ce que le cours a lieu' ग़लत है; 'Je voudrais savoir où le cours a lieu' कहिए।"
+      },
+      {
+        "en": "si + il becomes s'il, but si + elle stays si elle: 'Je voudrais savoir s'il reste des places', 'si elle est libre'.",
+        "hi": "si + il बदलकर s'il हो जाता है, पर si + elle वैसा ही si elle रहता है: 'Je voudrais savoir s'il reste des places', 'si elle est libre'।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Liaison in inversion: a-t-il, peut-on",
+    "tip": {
+      "en": "In inversion, the verb and the pronoun are one sound group: the t (written or added) always links to the pronoun. A-t-il = आ-तील, Peut-on = पö-तोँ, Y a-t-il = या-तील, Vend-il = वाँ-तील (a final d also sounds t here). Don't pause at the hyphen, and let your voice rise at the end of a yes/no question.",
+      "hi": "उलटे क्रम में क्रिया और सर्वनाम एक ही ध्वनि-समूह हैं: t (लिखा हुआ या जोड़ा हुआ) हमेशा सर्वनाम से जुड़ता है। A-t-il = आ-तील, Peut-on = पö-तोँ, Y a-t-il = या-तील, Vend-il = वाँ-तील (यहाँ अंतिम d भी t जैसा सुनाई देता है)। हाइफ़न पर रुकिए मत, और हाँ/ना वाले प्रश्न के अंत में आवाज़ ऊपर उठाइए।"
+    },
+    "words": [
+      {
+        "fr": "a-t-il",
+        "en": "does he have",
+        "hi": "क्या उसके पास है",
+        "pron": "आ-तील",
+        "ipa": "a til"
+      },
+      {
+        "fr": "y a-t-il",
+        "en": "is there / are there",
+        "hi": "क्या … है",
+        "pron": "या-तील",
+        "ipa": "ja til"
+      },
+      {
+        "fr": "peut-on",
+        "en": "can we / can one",
+        "hi": "क्या हम … सकते हैं",
+        "pron": "पö-तोँ",
+        "ipa": "pø tɔ̃"
+      },
+      {
+        "fr": "est-elle",
+        "en": "is she / is it",
+        "hi": "क्या वह है",
+        "pron": "ऐ-तैल",
+        "ipa": "ɛ tɛl"
+      },
+      {
+        "fr": "vend-il",
+        "en": "does he sell",
+        "hi": "क्या वह बेचता है",
+        "pron": "वाँ-तील",
+        "ipa": "vɑ̃ til"
+      },
+      {
+        "fr": "pouvez-vous",
+        "en": "can you",
+        "hi": "क्या आप … सकते हैं",
+        "pron": "पू-वे-वू",
+        "ipa": "puve vu"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Un appel au sujet d'une annonce",
+      "en": "A call about an advertisement"
+    },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Deepak saw an ad for evening French classes at the École Lumière and calls to ask for information. This is the kind of call you make in section A of the TEF speaking test (original practice).",
+      "hi": "दीपक ने एकोल लुमियैर (École Lumière) में शाम की फ़्रेंच कक्षाओं का एक विज्ञापन देखा और जानकारी के लिए फ़ोन करता है। TEF बोलना परीक्षा के भाग A में आप इसी तरह का फ़ोन करते हैं (मौलिक अभ्यास)।"
+    },
+    "lines": [
+      {
+        "speaker": "Réceptionniste",
+        "voice": "f2",
+        "fr": "École Lumière, bonjour !",
+        "en": "École Lumière, good morning!",
+        "hi": "एकोल लुमियैर, नमस्ते!"
+      },
+      {
+        "speaker": "Deepak",
+        "voice": "m1",
+        "fr": "Bonjour madame. J'appelle au sujet de votre annonce pour les cours de français du soir. Je voudrais savoir s'il reste des places.",
+        "en": "Hello. I'm calling about your ad for the evening French classes. I'd like to know if there are any places left.",
+        "hi": "नमस्ते मैडम। मैं शाम की फ़्रेंच कक्षाओं वाले आपके विज्ञापन के बारे में फ़ोन कर रहा हूँ। मैं जानना चाहता हूँ कि क्या जगहें बची हैं।"
+      },
+      {
+        "speaker": "Réceptionniste",
+        "voice": "f2",
+        "fr": "Oui, il en reste quelques-unes pour la session d'automne. Elle commence le 8 septembre.",
+        "en": "Yes, there are a few left for the autumn session. It starts on 8 September.",
+        "hi": "हाँ, पतझड़ सत्र के लिए कुछ बची हैं। यह 8 सितंबर को शुरू होता है।"
+      },
+      {
+        "speaker": "Deepak",
+        "voice": "m1",
+        "fr": "Parfait. Combien de temps dure la formation ?",
+        "en": "Perfect. How long does the course last?",
+        "hi": "बढ़िया। प्रशिक्षण कितने समय चलता है?"
+      },
+      {
+        "speaker": "Réceptionniste",
+        "voice": "f2",
+        "fr": "Douze semaines, deux soirs par semaine : le lundi et le mercredi, de 18 h 30 à 21 h.",
+        "en": "Twelve weeks, two evenings a week: Mondays and Wednesdays, from 6:30 to 9 p.m.",
+        "hi": "बारह हफ़्ते, हफ़्ते में दो शामें: सोमवार और बुधवार, शाम साढ़े छह से नौ बजे तक।"
+      },
+      {
+        "speaker": "Deepak",
+        "voice": "m1",
+        "fr": "D'accord. Et pouvez-vous me dire combien coûte l'inscription ?",
+        "en": "OK. And can you tell me how much registration costs?",
+        "hi": "ठीक है। और क्या आप बता सकती हैं कि दाख़िले का कितना ख़र्च है?"
+      },
+      {
+        "speaker": "Réceptionniste",
+        "voice": "f2",
+        "fr": "C'est 280 dollars pour la session, matériel compris. Les étudiants à temps plein ont une réduction de vingt pour cent.",
+        "en": "It's 280 dollars for the session, material included. Full-time students get a twenty per cent discount.",
+        "hi": "सत्र के लिए 280 डॉलर, सामग्री शामिल। पूर्णकालिक विद्यार्थियों को बीस प्रतिशत छूट मिलती है।"
+      },
+      {
+        "speaker": "Deepak",
+        "voice": "m1",
+        "fr": "Ah, moi, je travaille, je suis pas étudiant… Y a-t-il un test de niveau avant le début ?",
+        "en": "Ah, I work, I'm not a student… Is there a placement test before it starts?",
+        "hi": "अच्छा, मैं तो काम करता हूँ, विद्यार्थी नहीं हूँ… क्या शुरू होने से पहले कोई स्तर-परीक्षा है?"
+      },
+      {
+        "speaker": "Réceptionniste",
+        "voice": "f2",
+        "fr": "Oui, c'est obligatoire. Vous pouvez le passer en ligne ou ici, à l'école.",
+        "en": "Yes, it's compulsory. You can take it online or here at the school.",
+        "hi": "हाँ, यह ज़रूरी है। आप इसे ऑनलाइन या यहाँ स्कूल में दे सकते हैं।"
+      },
+      {
+        "speaker": "Deepak",
+        "voice": "m1",
+        "fr": "Et peut-on suivre les cours à distance ? Je voyage parfois pour mon travail.",
+        "en": "And can you take the classes online? I sometimes travel for work.",
+        "hi": "और क्या कक्षाएँ ऑनलाइन ली जा सकती हैं? मैं कभी-कभी काम के लिए यात्रा करता हूँ।"
+      },
+      {
+        "speaker": "Réceptionniste",
+        "voice": "f2",
+        "fr": "Non, les cours sont en présentiel. Mais si vous êtes absent, vous pouvez regarder l'enregistrement le lendemain.",
+        "en": "No, the classes are in person. But if you're absent, you can watch the recording the next day.",
+        "hi": "नहीं, कक्षाएँ आमने-सामने होती हैं। पर अगर आप अनुपस्थित हों, तो अगले दिन रिकॉर्डिंग देख सकते हैं।"
+      },
+      {
+        "speaker": "Deepak",
+        "voice": "m1",
+        "fr": "Très bien. Une dernière question : est-ce que vous donnez une attestation à la fin ?",
+        "en": "Very good. One last question: do you give a certificate at the end?",
+        "hi": "बहुत अच्छा। एक आख़िरी प्रश्न: क्या आप अंत में प्रमाण-पत्र देते हैं?"
+      },
+      {
+        "speaker": "Réceptionniste",
+        "voice": "f2",
+        "fr": "Oui, si vous assistez à quatre-vingts pour cent des cours. Pour vous inscrire, remplissez le formulaire sur notre site.",
+        "en": "Yes, if you attend eighty per cent of the classes. To register, fill in the form on our website.",
+        "hi": "हाँ, अगर आप अस्सी प्रतिशत कक्षाओं में उपस्थित रहें। दाख़िले के लिए हमारी वेबसाइट पर फ़ॉर्म भरिए।"
+      },
+      {
+        "speaker": "Deepak",
+        "voice": "m1",
+        "fr": "Merci beaucoup, madame. Bonne journée !",
+        "en": "Thank you very much. Have a good day!",
+        "hi": "बहुत-बहुत धन्यवाद, मैडम। आपका दिन अच्छा हो!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "What is Deepak's first question?"
+        },
+        "options": [
+          "When the course starts",
+          "If there are places left",
+          "How much the course costs",
+          "Where the school is"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Je voudrais savoir s'il reste des places.'",
+          "hi": "'Je voudrais savoir s'il reste des places.' (मैं जानना चाहता हूँ कि क्या जगहें बची हैं।)"
+        },
+        "kind": "literal",
+        "evidence": "Je voudrais savoir s'il reste des places."
+      },
+      {
+        "q": {
+          "en": "When are the classes?"
+        },
+        "options": [
+          "Monday and Wednesday evenings",
+          "Monday to Friday mornings",
+          "Saturday mornings",
+          "Tuesday and Thursday evenings"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'le lundi et le mercredi, de 18 h 30 à 21 h'.",
+          "hi": "'le lundi et le mercredi, de 18 h 30 à 21 h' (सोमवार और बुधवार, साढ़े छह से नौ बजे तक)।"
+        },
+        "kind": "literal",
+        "evidence": "le lundi et le mercredi, de 18 h 30 à 21 h"
+      },
+      {
+        "q": {
+          "en": "How much will Deepak probably pay?"
+        },
+        "options": [
+          "Nothing",
+          "About 224 dollars, with the discount",
+          "280 dollars"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "The discount is for full-time students, and Deepak says 'je travaille, je suis pas étudiant', so he pays the full 280 dollars.",
+          "hi": "छूट पूर्णकालिक विद्यार्थियों के लिए है, और दीपक कहता है 'je travaille, je suis pas étudiant' (मैं काम करता हूँ, विद्यार्थी नहीं हूँ), इसलिए वह पूरे 280 डॉलर देगा।"
+        },
+        "kind": "inference",
+        "evidence": "Ah, moi, je travaille, je suis pas étudiant"
+      },
+      {
+        "q": {
+          "en": "What can Deepak do when he travels for work?"
+        },
+        "options": [
+          "Follow the class live online",
+          "Watch the recording the next day",
+          "Change to a weekend group"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "Classes are in person, but 'vous pouvez regarder l'enregistrement le lendemain'.",
+          "hi": "कक्षाएँ आमने-सामने हैं, पर 'vous pouvez regarder l'enregistrement le lendemain' (आप अगले दिन रिकॉर्डिंग देख सकते हैं)।"
+        },
+        "kind": "inference",
+        "evidence": "vous pouvez regarder l'enregistrement le lendemain"
+      },
+      {
+        "q": {
+          "en": "What do you need to get the certificate?"
+        },
+        "options": [
+          "Pass a final exam",
+          "Pay an extra fee",
+          "Attend 80% of the classes",
+          "Take the placement test online"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'si vous assistez à quatre-vingts pour cent des cours'.",
+          "hi": "'si vous assistez à quatre-vingts pour cent des cours' (अगर आप अस्सी प्रतिशत कक्षाओं में उपस्थित रहें)।"
+        },
+        "kind": "literal",
+        "evidence": "si vous assistez à quatre-vingts pour cent des cours"
+      }
+    ],
+    "dictation": [
+      "Je voudrais savoir s'il reste des places.",
+      "Combien de temps dure la formation ?",
+      "Y a-t-il un test de niveau ?"
+    ],
+    "gapFill": {
+      "text": "Je voudrais ___ s'il reste des places. Combien de temps ___ la formation ? Y ___-t-il un test de niveau avant le début ? Et ___-on suivre les cours à distance ?",
+      "answers": [
+        "savoir",
+        "dure",
+        "a",
+        "peut"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "tef_a",
+    "instructions": {
+      "en": "TEF-style section A practice (original task, not official). You have read the ad below and you call the owner to get more information. Greet, say why you are calling, then ask about ten different questions, mixing est-ce que, inversion and indirect questions. Use vous. Aim for about 5 minutes with a partner playing the owner.",
+      "hi": "TEF शैली में भाग A का अभ्यास (मौलिक कार्य, आधिकारिक नहीं)। आपने नीचे दिया विज्ञापन पढ़ा है और अधिक जानकारी के लिए मालिक को फ़ोन करते हैं। अभिवादन कीजिए, फ़ोन का कारण बताइए, फिर लगभग दस अलग-अलग प्रश्न पूछिए, est-ce que, उलटे क्रम और अप्रत्यक्ष प्रश्नों को मिलाकर। vous का प्रयोग कीजिए। मालिक की भूमिका निभाने वाले साथी के साथ लगभग 5 मिनट का लक्ष्य रखिए।"
+    },
+    "prompts": [
+      {
+        "fr": "Présentez-vous et demandez si l'appartement est encore libre.",
+        "en": "Introduce yourself and ask if the apartment is still available.",
+        "hi": "अपना परिचय दीजिए और पूछिए कि क्या अपार्टमेंट अभी भी ख़ाली है।",
+        "pron": "प्रे-ज़ाँ-ते-वू ए दö-माँ-दे सी ला-पाग़-तö-माँ ऐ ताँ-कोग़ लीब्ग़",
+        "model": "Bonjour madame, je m'appelle Ritu Malhotra. J'appelle au sujet de votre annonce. Je voudrais savoir si l'appartement est encore libre."
+      },
+      {
+        "fr": "Le loyer",
+        "en": "The rent",
+        "hi": "किराया",
+        "pron": "लö ल्वा-ये",
+        "model": "Pouvez-vous me dire combien coûte le loyer par mois ?"
+      },
+      {
+        "fr": "Le chauffage",
+        "en": "The heating",
+        "hi": "हीटिंग",
+        "pron": "लö शो-फ़ाझ़",
+        "model": "Le chauffage est-il compris dans le loyer ?"
+      },
+      {
+        "fr": "L'étage et l'ascenseur",
+        "en": "The floor and the elevator",
+        "hi": "मंज़िल और लिफ़्ट",
+        "pron": "ले-ताझ़ ए ला-साँ-सöग़",
+        "model": "À quel étage se trouve l'appartement ? Y a-t-il un ascenseur ?"
+      },
+      {
+        "fr": "Les animaux",
+        "en": "Pets",
+        "hi": "पालतू जानवर",
+        "pron": "ले ज़ा-नी-मो",
+        "model": "J'ai un petit chat. Est-ce que les animaux sont acceptés ?"
+      },
+      {
+        "fr": "Le stationnement",
+        "en": "Parking",
+        "hi": "पार्किंग",
+        "pron": "लö स्ता-स्यो-न्माँ",
+        "model": "Y a-t-il une place de stationnement pour une voiture ?"
+      },
+      {
+        "fr": "La laveuse et la sécheuse",
+        "en": "Washer and dryer",
+        "hi": "वॉशिंग मशीन और ड्रायर",
+        "pron": "ला ला-वöज़ ए ला से-शöज़",
+        "model": "Est-ce qu'il y a une laveuse et une sécheuse dans l'appartement ?"
+      },
+      {
+        "fr": "Les transports",
+        "en": "Public transport",
+        "hi": "सार्वजनिक परिवहन",
+        "pron": "ले त्राँस-पोग़",
+        "model": "Le métro est-il loin ? Combien de minutes faut-il à pied ?"
+      },
+      {
+        "fr": "Le bail",
+        "en": "The lease",
+        "hi": "लीज़",
+        "pron": "लö बाय",
+        "model": "Je voudrais savoir si le bail est d'un an ou si on peut signer pour six mois."
+      },
+      {
+        "fr": "La visite",
+        "en": "The visit",
+        "hi": "देखने जाना",
+        "pron": "ला वी-ज़ीत",
+        "model": "Quand est-ce que je peux visiter l'appartement ? Samedi matin, c'est possible ?"
+      },
+      {
+        "fr": "Terminez l'appel.",
+        "en": "End the call.",
+        "hi": "फ़ोन ख़त्म कीजिए।",
+        "pron": "तैग़-मी-ने ला-पैल",
+        "model": "Merci beaucoup pour ces informations, madame. À samedi, alors. Bonne journée !"
+      }
+    ],
+    "tip": {
+      "en": "In this kind of task you are judged on asking many different, relevant questions, not on long answers. Don't use the same structure every time: start one with Est-ce que, the next with an inversion (Peut-on … ?), the next with Je voudrais savoir si … Listen to each answer and react briefly (D'accord, Très bien) before the next question.",
+      "hi": "इस तरह के कार्य में आपको कई अलग-अलग, संबंधित प्रश्न पूछने पर आँका जाता है, लंबे जवाबों पर नहीं। हर बार एक ही ढाँचा मत इस्तेमाल कीजिए: एक प्रश्न Est-ce que से शुरू कीजिए, अगला उलटे क्रम से (Peut-on … ?), अगला Je voudrais savoir si … से। हर जवाब सुनिए और अगले प्रश्न से पहले छोटी-सी प्रतिक्रिया दीजिए (D'accord, Très bien)।"
+    },
+    "scenario": {
+      "setting": {
+        "en": "You found this ad online: 'À LOUER – 4 ½ lumineux, quartier Rosemont, Montréal. Près du métro. Libre le 1er juillet. Contactez Mme Lefebvre.' (A 4½ in Québec is a two-bedroom apartment.) You phone the owner.",
+        "hi": "आपको ऑनलाइन यह विज्ञापन मिला: 'À LOUER – 4 ½ lumineux, quartier Rosemont, Montréal. Près du métro. Libre le 1er juillet. Contactez Mme Lefebvre.' (क्यूबेक में 4½ का मतलब दो बेडरूम वाला अपार्टमेंट है।) आप मालिक को फ़ोन करते हैं।"
+      },
+      "learnerRole": {
+        "en": "You are looking for an apartment for 1 July. You have a cat and a car, and you would like to visit soon.",
+        "hi": "आप 1 जुलाई के लिए अपार्टमेंट ढूँढ रहे हैं। आपके पास एक बिल्ली और एक गाड़ी है, और आप जल्दी देखने जाना चाहते हैं।"
+      },
+      "partnerRole": {
+        "en": "Mme Lefebvre, the owner. She answers politely: the rent is 1 450 dollars, heating not included, third floor without an elevator, small pets accepted, one parking spot, washer-dryer connections only, metro 5 minutes on foot, one-year lease, visits on Saturday.",
+        "hi": "श्रीमती लेफ़ेव्र, मालकिन। वे विनम्रता से जवाब देती हैं: किराया 1450 डॉलर, हीटिंग शामिल नहीं, तीसरी मंज़िल बिना लिफ़्ट, छोटे पालतू जानवर स्वीकार, एक पार्किंग जगह, वॉशर-ड्रायर के सिर्फ़ कनेक्शन, मेट्रो पैदल 5 मिनट, एक साल की लीज़, शनिवार को देखने आ सकते हैं।"
+      },
+      "goals": [
+        {
+          "en": "Greet, introduce yourself and give the reason for your call.",
+          "hi": "अभिवादन कीजिए, परिचय दीजिए और फ़ोन का कारण बताइए।"
+        },
+        {
+          "en": "Ask about ten different questions on price, the apartment, the building, the area and the visit.",
+          "hi": "किराए, अपार्टमेंट, इमारत, इलाक़े और देखने जाने के बारे में लगभग दस अलग-अलग प्रश्न पूछिए।"
+        },
+        {
+          "en": "Use all three question types: est-ce que, inversion and an indirect question.",
+          "hi": "तीनों प्रकार के प्रश्न इस्तेमाल कीजिए: est-ce que, उलटा क्रम और अप्रत्यक्ष प्रश्न।"
+        },
+        {
+          "en": "Use vous throughout and end the call politely.",
+          "hi": "पूरे समय vous का प्रयोग कीजिए और फ़ोन विनम्रता से ख़त्म कीजिए।"
+        }
+      ]
+    }
+  },
+  "reading": {
+    "genre": "advertisement",
+    "title": "Parler pour travailler",
+    "text": "PARLER POUR TRAVAILLER\nAteliers de français pour les nouveaux arrivants\n\nVous êtes arrivé au Canada récemment ? Vous cherchez un emploi et vous voulez parler français avec plus d'assurance ? Nos ateliers sont faits pour vous !\n\nAu programme : préparer un entretien d'embauche, écrire un CV et une lettre de motivation, téléphoner à un employeur, comprendre les offres d'emploi.\n\nNiveaux : intermédiaire et avancé. Un test de niveau gratuit est obligatoire avant l'inscription.\nDurée : huit semaines, le samedi de 9 h à 12 h.\nDébut : samedi 13 janvier.\nLieu : Bibliothèque centrale, salle 2, à deux minutes du métro.\nPrix : 120 $. Gratuit pour les résidents permanents arrivés au Canada depuis moins de cinq ans (apportez une preuve).\nGroupes de douze personnes au maximum.\n\nÀ apporter : un cahier et, si possible, votre CV en français.\n\nInscription en ligne ou sur place, du lundi au vendredi, de 10 h à 18 h. Attention : pas d'inscription par téléphone.\n\nCentre d'accueil Nouveaux Horizons",
+    "translation": {
+      "en": "SPEAK TO WORK\nFrench workshops for newcomers\n\nDid you arrive in Canada recently? Are you looking for a job and do you want to speak French with more confidence? Our workshops are made for you!\n\nOn the programme: preparing for a job interview, writing a CV and a cover letter, phoning an employer, understanding job offers.\n\nLevels: intermediate and advanced. A free placement test is required before registration.\nLength: eight weeks, Saturdays from 9 a.m. to 12 p.m.\nStart: Saturday 13 January.\nPlace: Central Library, room 2, two minutes from the metro.\nPrice: $120. Free for permanent residents who arrived in Canada less than five years ago (bring proof).\nGroups of twelve people maximum.\n\nTo bring: a notebook and, if possible, your CV in French.\n\nRegistration online or in person, Monday to Friday, 10 a.m. to 6 p.m. Please note: no registration by phone.\n\nNouveaux Horizons Welcome Centre",
+      "hi": "काम के लिए बोलिए\nनए आने वालों के लिए फ़्रेंच कार्यशालाएँ\n\nक्या आप हाल ही में कनाडा आए हैं? क्या आप नौकरी ढूँढ रहे हैं और ज़्यादा आत्मविश्वास से फ़्रेंच बोलना चाहते हैं? हमारी कार्यशालाएँ आपके लिए ही बनी हैं!\n\nकार्यक्रम में: नौकरी के इंटरव्यू की तैयारी, सीवी और आवेदन-पत्र लिखना, किसी नियोक्ता को फ़ोन करना, नौकरी के विज्ञापन समझना।\n\nस्तर: मध्यम और उन्नत। दाख़िले से पहले मुफ़्त स्तर-परीक्षा ज़रूरी है।\nअवधि: आठ हफ़्ते, शनिवार सुबह 9 बजे से दोपहर 12 बजे तक।\nशुरुआत: शनिवार 13 जनवरी।\nस्थान: केंद्रीय पुस्तकालय, कमरा 2, मेट्रो से दो मिनट।\nशुल्क: 120 डॉलर। उन स्थायी निवासियों के लिए मुफ़्त जो पाँच साल से कम समय पहले कनाडा आए हैं (प्रमाण लाइए)।\nहर समूह में अधिकतम बारह लोग।\n\nसाथ लाइए: एक कॉपी और, हो सके तो, फ़्रेंच में अपना सीवी।\n\nदाख़िला ऑनलाइन या वहीं जाकर, सोमवार से शुक्रवार, सुबह 10 बजे से शाम 6 बजे तक। ध्यान दें: फ़ोन से दाख़िला नहीं होता।\n\nनूवो ओरिज़ों स्वागत केंद्र"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "Who are these workshops mainly for?"
+        },
+        "options": [
+          "Children learning French at school",
+          "Tourists visiting Canada",
+          "Employers looking for staff",
+          "Newcomers looking for a job"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Ateliers de français pour les nouveaux arrivants … Vous cherchez un emploi ?'",
+          "hi": "'Ateliers de français pour les nouveaux arrivants … Vous cherchez un emploi ?' (नए आने वालों के लिए फ़्रेंच कार्यशालाएँ … क्या आप नौकरी ढूँढ रहे हैं?)"
+        },
+        "kind": "gist",
+        "evidence": "Vous cherchez un emploi et vous voulez parler français avec plus d'assurance ?"
+      },
+      {
+        "q": {
+          "en": "When do the workshops take place?"
+        },
+        "options": [
+          "Weekday evenings",
+          "Saturday mornings",
+          "Sunday afternoons"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'le samedi de 9 h à 12 h'.",
+          "hi": "'le samedi de 9 h à 12 h' (शनिवार सुबह 9 से 12 बजे तक)।"
+        },
+        "kind": "literal",
+        "evidence": "le samedi de 9 h à 12 h"
+      },
+      {
+        "q": {
+          "en": "Sunita became a permanent resident and arrived in Canada two years ago. How much will she pay?"
+        },
+        "options": [
+          "$120",
+          "$60",
+          "Nothing, if she brings proof"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "It is free for permanent residents who arrived 'depuis moins de cinq ans', with proof.",
+          "hi": "यह उन स्थायी निवासियों के लिए मुफ़्त है जो 'depuis moins de cinq ans' (पाँच साल से कम समय पहले) आए हैं, प्रमाण के साथ।"
+        },
+        "kind": "inference",
+        "evidence": "Gratuit pour les résidents permanents arrivés au Canada depuis moins de cinq ans (apportez une preuve)."
+      },
+      {
+        "q": {
+          "en": "What must you do before registering?"
+        },
+        "options": [
+          "Take a free placement test",
+          "Send your CV",
+          "Pay $120",
+          "Phone the centre"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Un test de niveau gratuit est obligatoire avant l'inscription.'",
+          "hi": "'Un test de niveau gratuit est obligatoire avant l'inscription.' (दाख़िले से पहले मुफ़्त स्तर-परीक्षा ज़रूरी है।)"
+        },
+        "kind": "literal",
+        "evidence": "Un test de niveau gratuit est obligatoire avant l'inscription."
+      },
+      {
+        "q": {
+          "en": "Omar works Monday to Friday and wants to register by phone on Saturday. What is the problem?"
+        },
+        "options": [
+          "The groups are full",
+          "Registration is not possible by phone, and the office is closed on Saturday",
+          "He must register in January"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'pas d'inscription par téléphone', and in-person registration is only 'du lundi au vendredi'. He can still register online.",
+          "hi": "'pas d'inscription par téléphone' (फ़ोन से दाख़िला नहीं), और वहीं जाकर दाख़िला सिर्फ़ 'du lundi au vendredi' (सोमवार से शुक्रवार) है। वह फिर भी ऑनलाइन दाख़िला ले सकता है।"
+        },
+        "kind": "inference",
+        "evidence": "Attention : pas d'inscription par téléphone."
+      }
+    ]
+  },
+  "writing": {
+    "type": "sentences",
+    "prompt": {
+      "en": "Read the ad 'Parler pour travailler' again. Write 10 different questions you would ask the centre to get more information (things the ad doesn't say, or details to check). Use at least three est-ce que questions, three inversions and two indirect questions.",
+      "hi": "'Parler pour travailler' विज्ञापन फिर से पढ़िए। अधिक जानकारी के लिए केंद्र से पूछे जाने वाले 10 अलग-अलग प्रश्न लिखिए (ऐसी बातें जो विज्ञापन में नहीं हैं, या जिनकी जाँच करनी है)। कम से कम तीन est-ce que वाले प्रश्न, तीन उलटे क्रम वाले और दो अप्रत्यक्ष प्रश्न इस्तेमाल कीजिए।",
+      "fr": "Écrivez 10 questions sur l'annonce."
+    },
+    "minWords": 70,
+    "maxWords": 140,
+    "hints": [
+      {
+        "en": "Think of topics: level test, teachers, number of students, absences, certificate, payment, parking, children, documents.",
+        "hi": "विषयों के बारे में सोचिए: स्तर-परीक्षा, शिक्षक, विद्यार्थियों की संख्या, अनुपस्थिति, प्रमाण-पत्र, भुगतान, पार्किंग, बच्चे, दस्तावेज़।"
+      },
+      {
+        "en": "Don't ask what the ad already says clearly (the day, the price).",
+        "hi": "वह मत पूछिए जो विज्ञापन में पहले से साफ़ लिखा है (दिन, शुल्क)।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Je voudrais savoir si …",
+        "en": "I'd like to know if …",
+        "hi": "मैं जानना चाहता/चाहती हूँ कि क्या …",
+        "pron": "झ़ö वू-द्ग़ै सा-व्वाग़ सी"
+      },
+      {
+        "fr": "Pouvez-vous me dire … ?",
+        "en": "Can you tell me … ?",
+        "hi": "क्या आप मुझे बता सकते हैं … ?",
+        "pron": "पू-वे-वू मö दीग़"
+      },
+      {
+        "fr": "Y a-t-il … ?",
+        "en": "Is there / Are there … ?",
+        "hi": "क्या … है/हैं?",
+        "pron": "या-तील"
+      }
+    ],
+    "model": {
+      "fr": "1. Est-ce que le test de niveau se fait en ligne ? 2. Combien de temps dure le test ? 3. Les professeurs sont-ils des conseillers en emploi ? 4. Est-ce qu'il y a encore des places dans le groupe avancé ? 5. Peut-on rattraper un atelier si on est absent ? 6. Je voudrais savoir si on reçoit une attestation à la fin. 7. Quels documents faut-il apporter comme preuve de résidence ? 8. Est-ce que je peux payer par carte ? 9. Y a-t-il un stationnement près de la bibliothèque ? 10. Pouvez-vous me dire s'il y a une deuxième session au printemps ?",
+      "en": "1. Is the placement test done online? 2. How long does the test last? 3. Are the teachers employment counsellors? 4. Are there still places in the advanced group? 5. Can you make up a workshop if you are absent? 6. I'd like to know if you get a certificate at the end. 7. What documents do you need to bring as proof of residence? 8. Can I pay by card? 9. Is there parking near the library? 10. Can you tell me if there is a second session in the spring?"
+    },
+    "checklist": [
+      {
+        "en": "Are all 10 questions different and not already answered by the ad?",
+        "hi": "क्या सभी 10 प्रश्न अलग हैं और विज्ञापन में उनका जवाब पहले से नहीं है?"
+      },
+      {
+        "en": "Did you use est-ce que, inversion (with -t- when needed) and indirect questions?",
+        "hi": "क्या आपने est-ce que, उलटा क्रम (ज़रूरत हो तो -t- के साथ) और अप्रत्यक्ष प्रश्न इस्तेमाल किए?"
+      },
+      {
+        "en": "In indirect questions, is the order normal, with no question mark after 'Je voudrais savoir si …'?",
+        "hi": "अप्रत्यक्ष प्रश्नों में क्या क्रम सामान्य है, और 'Je voudrais savoir si …' के बाद प्रश्नचिह्न नहीं है?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      32,
+      45,
+      53,
+      55,
+      57,
+      58
+    ],
+    "items": [
+      {
+        "fr": "Je voudrais prendre rendez-vous.",
+        "en": "I'd like to make an appointment.",
+        "hi": "मैं मुलाक़ात का समय लेना चाहता/चाहती हूँ।",
+        "pron": "झ़ö वू-द्ग़ै प्राँद्ग़ ग़ाँ-दे-वू"
+      },
+      {
+        "fr": "Je peux payer par carte ?",
+        "en": "Can I pay by card?",
+        "hi": "क्या मैं कार्ड से भुगतान कर सकता/सकती हूँ?",
+        "pron": "झ़ö पö पे-ये पाग़ काग़्त"
+      },
+      {
+        "fr": "Le cours dure trois heures.",
+        "en": "The class lasts three hours.",
+        "hi": "कक्षा तीन घंटे चलती है।",
+        "pron": "लö कूग़ दüग़ त्र्वा ज़öग़"
+      },
+      {
+        "fr": "Des places ? Il en reste deux.",
+        "en": "Places? There are two left.",
+        "hi": "जगहें? दो बची हैं।",
+        "pron": "दे प्लास — ईल आँ ग़ैस्त दö"
+      },
+      {
+        "fr": "J'ai l'intention de m'inscrire en janvier.",
+        "en": "I intend to register in January.",
+        "hi": "मेरा जनवरी में दाख़िला लेने का इरादा है।",
+        "pron": "झ़े लैँ-ताँ-स्योँ दö मैँस-क्ग़ीग़ आँ झ़ाँ-व्ये"
+      },
+      {
+        "fr": "Il n'y a plus de places le soir.",
+        "en": "There are no more evening places.",
+        "hi": "शाम की जगहें अब नहीं बचीं।",
+        "pron": "ईल न्या प्लü दö प्लास लö स्वाग़"
+      },
+      {
+        "fr": "Remplissez-le en ligne.",
+        "en": "Fill it in online.",
+        "hi": "इसे ऑनलाइन भरिए।",
+        "pron": "ग़ाँ-प्ली-से-लö आँ लीन्य"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which question uses inversion correctly?",
+        "hi": "कौन-सा प्रश्न उलटा क्रम सही इस्तेमाल करता है?"
+      },
+      "options": [
+        "A-il un test ?",
+        "Il y a-t-il un test ?",
+        "Y a-il-t un test ?",
+        "Y a-t-il un test ?"
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "a + il needs -t- between the two vowels: Y a-t-il … ?",
+        "hi": "a + il के बीच दो स्वरों के कारण -t- चाहिए: Y a-t-il … ?"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete the indirect question: 'I'd like to know if there are any places left.'",
+        "hi": "अप्रत्यक्ष प्रश्न पूरा कीजिए: 'मैं जानना चाहता हूँ कि क्या जगहें बची हैं।'"
+      },
+      "sentence": "Je voudrais savoir ___ reste des places.",
+      "answer": "s'il",
+      "accept": [
+        "s’il"
+      ],
+      "explanation": {
+        "en": "si + il → s'il.",
+        "hi": "si + il → s'il।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which indirect question is correct?",
+        "hi": "कौन-सा अप्रत्यक्ष प्रश्न सही है?"
+      },
+      "options": [
+        "Je voudrais savoir quand est-ce que le cours commence.",
+        "Je voudrais savoir quand commence-t-il le cours.",
+        "Je voudrais savoir quand le cours commence."
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Inside an indirect question: normal order, no est-ce que, no inversion with a pronoun.",
+        "hi": "अप्रत्यक्ष प्रश्न के अंदर: सामान्य क्रम, न est-ce que, न सर्वनाम वाला उलटा क्रम।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French with inversion.",
+        "hi": "उलटे क्रम के साथ फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "Can we pay in two instalments?",
+        "hi": "क्या हम दो किस्तों में भुगतान कर सकते हैं?"
+      },
+      "answer": "Peut-on payer en deux fois ?",
+      "accept": [
+        "Peut-on payer en deux fois?",
+        "Pouvons-nous payer en deux fois ?",
+        "Pouvons-nous payer en deux fois?"
+      ],
+      "explanation": {
+        "en": "pouvoir + on → Peut-on (the t is already there).",
+        "hi": "pouvoir + on → Peut-on (t पहले से मौजूद है)।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: 'Is the course free?'",
+        "hi": "शब्दों को क्रम में लगाइए: 'क्या कोर्स मुफ़्त है?'"
+      },
+      "words": [
+        "gratuit",
+        "Le",
+        "est-il",
+        "cours",
+        "?"
+      ],
+      "answer": "Le cours est-il gratuit ?",
+      "explanation": {
+        "en": "Noun subject + verb + -il: Le cours est-il … ?",
+        "hi": "संज्ञा कर्ता + क्रिया + -il: Le cours est-il … ?"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "In a TEF-style section A call about a job ad, which is the best first sentence?",
+        "hi": "नौकरी के विज्ञापन के बारे में TEF शैली वाले भाग A के फ़ोन में सबसे अच्छा पहला वाक्य कौन-सा है?"
+      },
+      "options": [
+        "Bonjour madame, j'appelle au sujet de votre annonce pour le poste de caissier.",
+        "Salut, c'est quoi le salaire ?",
+        "Je veux le travail.",
+        "Combien ?"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Greet politely, use vous and say why you are calling before asking questions.",
+        "hi": "विनम्रता से अभिवादन कीजिए, vous का प्रयोग कीजिए और प्रश्न पूछने से पहले फ़ोन का कारण बताइए।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete with est-ce que: 'When does the session start?'",
+        "hi": "est-ce que से पूरा कीजिए: 'सत्र कब शुरू होता है?'"
+      },
+      "sentence": "Quand ___ la session commence ?",
+      "answer": "est-ce que",
+      "accept": [],
+      "explanation": {
+        "en": "Question word + est-ce que + normal order.",
+        "hi": "प्रश्नवाचक शब्द + est-ce que + सामान्य क्रम।"
+      }
+    }
+  ]
+}

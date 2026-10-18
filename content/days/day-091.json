@@ -1,0 +1,965 @@
+{
+  "day": 91,
+  "phase": 5,
+  "title": {
+    "fr": "Révision : expression orale et écrite du TEF",
+    "en": "Review day: TEF speaking and writing",
+    "hi": "दोहराव का दिन: TEF बोलना और लिखना"
+  },
+  "objective": {
+    "en": "Consolidate Days 85–90 under exam conditions: a timed TEF A phone call with varied questions, a model TEF B letter analysed, and a timed news-story continuation with careful agreements.",
+    "hi": "दिन 85–90 को परीक्षा जैसी स्थिति में पक्का करना: अलग-अलग सवालों वाली समयबद्ध TEF A फ़ोन कॉल, एक मॉडल TEF B पत्र का विश्लेषण, और ध्यान से मेल करते हुए समयबद्ध ख़बर-लेखन।"
+  },
+  "prerequisites": {
+    "days": [
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
+    ],
+    "summary": {
+      "en": "Spoken French (Day 85), indirect questions (Day 86), persuasion (Day 87), plus-que-parfait and faits divers (Day 88), formal letters (Day 89) and agreement (Day 90).",
+      "hi": "बोलचाल की फ़्रेंच (दिन 85), अप्रत्यक्ष प्रश्न (दिन 86), मनाना (दिन 87), plus-que-parfait और फ़ै दिवैर (दिन 88), औपचारिक पत्र (दिन 89) और मेल (दिन 90)।"
+    }
+  },
+  "light": true,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "le camp de jour",
+      "en": "day camp",
+      "hi": "बच्चों का दिन का कैंप",
+      "pron": "लö काँ दö झ़ूग़",
+      "ipa": "lə kɑ̃ də ʒuʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "camp de jour"
+    },
+    {
+      "fr": "le moniteur / la monitrice",
+      "en": "camp counsellor, instructor",
+      "hi": "प्रशिक्षक / देखरेख करने वाला",
+      "pron": "लö मो-नी-तöग़ / ला मो-नी-त्ग़ीस",
+      "ipa": "lə mɔnitœʁ / la mɔnitʁis",
+      "pos": "noun",
+      "gender": "mf",
+      "lemma": "moniteur"
+    },
+    {
+      "fr": "le rabais",
+      "en": "discount (Québec)",
+      "hi": "छूट",
+      "pron": "लö ग़ा-बै",
+      "ipa": "lə ʁabɛ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "rabais",
+      "note": {
+        "en": "France often says 'la réduction' or 'la remise'.",
+        "hi": "फ़्रांस में अक्सर 'la réduction' या 'la remise'।"
+      }
+    },
+    {
+      "fr": "une voiture d'occasion",
+      "en": "a used car",
+      "hi": "पुरानी (सेकंड-हैंड) गाड़ी",
+      "pron": "üन व्वा-त्üग़ दो-का-ज़्योँ",
+      "ipa": "yn vwatyʁ dɔkazjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "voiture"
+    },
+    {
+      "fr": "le kilométrage",
+      "en": "mileage",
+      "hi": "गाड़ी कितने किलोमीटर चली है",
+      "pron": "लö की-लो-मे-त्ग़ाझ़",
+      "ipa": "lə kilɔmetʁaʒ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "kilométrage"
+    },
+    {
+      "fr": "négociable",
+      "en": "negotiable",
+      "hi": "मोल-भाव योग्य",
+      "pron": "ने-गो-स्याब्ल",
+      "ipa": "neɡɔsjabl",
+      "pos": "adjective"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "J'aurais quelques questions, si vous avez un moment.",
+      "en": "I'd have a few questions, if you have a moment.",
+      "hi": "अगर आपके पास समय हो, तो मेरे कुछ सवाल हैं।",
+      "pron": "झ़ो-ग़ै कैल-कö कैस-त्योँ सी वू ज़ा-वे ऐँ मो-माँ"
+    },
+    {
+      "fr": "Le service de garde est-il compris dans le prix ?",
+      "en": "Is daycare included in the price?",
+      "hi": "क्या बच्चों की देखभाल की सेवा दाम में शामिल है?",
+      "pron": "लö सैग़-वीस दö गाग़्द ए-तील कोँ-प्री दाँ लö प्री"
+    },
+    {
+      "fr": "Vous avez été très clair, merci.",
+      "en": "You've been very clear, thank you.",
+      "hi": "आपने बहुत साफ़ समझाया, धन्यवाद।",
+      "pron": "वू ज़ा-वे ए-ते त्ग़ै क्लैग़ मैग़-सी"
+    },
+    {
+      "fr": "Le prix est-il négociable ?",
+      "en": "Is the price negotiable?",
+      "hi": "क्या दाम में मोल-भाव हो सकता है?",
+      "pron": "लö प्री ए-तील ने-गो-स्याब्ल"
+    },
+    {
+      "fr": "Je vais y réfléchir et je vous rappelle.",
+      "en": "I'll think about it and call you back.",
+      "hi": "मैं इस पर सोचकर आपको दोबारा फ़ोन करता हूँ।",
+      "pron": "झ़ö वै ज़ी ग़े-फ़्ले-शीग़ ए झ़ö वू ग़ा-पैल"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Recap: five tools for TEF speaking and writing",
+      "hi": "दोहराव: TEF बोलने और लिखने के पाँच औज़ार"
+    },
+    "explanation": {
+      "en": "1) TEF A — vary your questions: Est-ce que…? / inversion (Le prix est-il…?) / Pourriez-vous me dire + statement order / Je voudrais savoir si… / question words (combien, quand, où). 2) TEF B speaking — persuade with tu devrais, à ta place + conditional, imperatives, and 'Je comprends, mais…' for objections. 3) Writing A — continue in the past: passé composé (events), imparfait (background), plus-que-parfait (earlier events), and give an ending. 4) Writing B — Madame, Monsieur, / position / three developed arguments / concession / conclusion / formal closing. 5) Final check for both: gender of each noun, adjective agreement, participle agreement with être.",
+      "hi": "1) TEF A — सवाल बदल-बदलकर पूछिए: Est-ce que…? / inversion (Le prix est-il…?) / Pourriez-vous me dire + सामान्य वाक्य-क्रम / Je voudrais savoir si… / प्रश्नवाचक शब्द (combien, quand, où)। 2) TEF B बोलना — tu devrais, à ta place + conditionnel, imperative से मनाइए, और आपत्तियों के लिए 'Je comprends, mais…'। 3) लेखन A — बीते समय में आगे बढ़ाइए: passé composé (घटनाएँ), imparfait (पृष्ठभूमि), plus-que-parfait (पहले की घटनाएँ), और अंत दीजिए। 4) लेखन B — Madame, Monsieur, / राय / तीन विकसित तर्क / रियायत / निष्कर्ष / औपचारिक समापन। 5) दोनों के लिए आख़िरी जाँच: हर संज्ञा का लिंग, विशेषण का मेल, être के साथ participle का मेल।"
+    },
+    "examples": [
+      {
+        "fr": "Pourriez-vous me dire combien coûte le camp ?",
+        "en": "Could you tell me how much the camp costs?",
+        "hi": "क्या आप बता सकती हैं कि कैंप का कितना ख़र्च है?",
+        "pron": "पू-ग़्ये वू मö दीग़ कोँ-ब्यैँ कूत लö काँ"
+      },
+      {
+        "fr": "La voiture a-t-elle déjà eu un accident ?",
+        "en": "Has the car ever had an accident?",
+        "hi": "क्या गाड़ी का पहले कभी एक्सीडेंट हुआ है?",
+        "pron": "ला व्वा-त्üग़ आ-तैल दे-झ़ा ü ऐँ नाक-सी-दाँ"
+      },
+      {
+        "fr": "À ta place, je m'inscrirais tout de suite.",
+        "en": "If I were you, I'd sign up right away.",
+        "hi": "तुम्हारी जगह मैं होता तो तुरंत नाम लिखवाता।",
+        "pron": "आ ता प्लास झ़ö मैँस-क्ग़ी-ग़ै तूत स्üईत"
+      },
+      {
+        "fr": "Le chien avait disparu trois jours plus tôt.",
+        "en": "The dog had disappeared three days earlier.",
+        "hi": "कुत्ता तीन दिन पहले ग़ायब हो गया था।",
+        "pron": "लö श्यैँ आ-वै दिस-पा-ग़ü त्ग़्वा झ़ूग़ प्लü तो"
+      },
+      {
+        "fr": "Certes, cela coûte cher ; cependant, c'est un investissement.",
+        "en": "Admittedly, it is expensive; however, it is an investment.",
+        "hi": "माना कि यह महँगा है; फिर भी यह एक निवेश है।",
+        "pron": "सैग़्त स-ला कूत शैग़ सö-पाँ-दाँ सै तैँ नैँ-वैस-तीस-माँ"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "In TEF A, the examiner may answer briefly on purpose: don't stop — react and ask the next question.",
+        "hi": "TEF A में परीक्षक जान-बूझकर छोटा जवाब दे सकता है: रुकिए मत — प्रतिक्रिया दीजिए और अगला सवाल पूछिए।"
+      },
+      {
+        "en": "Don't mix tu and vous: vous in section A (stranger), tu in section B (friend).",
+        "hi": "tu और vous मत मिलाइए: भाग A में vous (अजनबी), भाग B में tu (दोस्त)।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Review: question intonation, persuasive stress, formal liaisons",
+    "tip": {
+      "en": "Record yourself doing the TEF A call and listen: do direct questions rise (Le prix est négociable ? ↗) and indirect ones fall (Je voudrais savoir si le prix est négociable. ↘)?",
+      "hi": "TEF A कॉल करते हुए ख़ुद को रिकॉर्ड कीजिए और सुनिए: क्या सीधे सवाल ऊपर जाते हैं (Le prix est négociable ? ↗) और अप्रत्यक्ष नीचे आते हैं (Je voudrais savoir si le prix est négociable. ↘)?"
+    },
+    "words": [
+      {
+        "fr": "est-il compris",
+        "en": "is it included",
+        "hi": "क्या शामिल है",
+        "pron": "ए-तील कोँ-प्री",
+        "ipa": "ɛtil kɔ̃pʁi"
+      },
+      {
+        "fr": "a-t-elle",
+        "en": "has she / has it",
+        "hi": "क्या उसने / क्या इसका",
+        "pron": "आ-तैल",
+        "ipa": "atɛl"
+      },
+      {
+        "fr": "je vous écoute",
+        "en": "I'm listening",
+        "hi": "जी, बोलिए",
+        "pron": "झ़ö वू ज़े-कूत",
+        "ipa": "ʒə vu zekut"
+      },
+      {
+        "fr": "premiers soins",
+        "en": "first aid",
+        "hi": "प्राथमिक चिकित्सा",
+        "pron": "प्रö-म्ये स्वैँ",
+        "ipa": "pʁəmje swɛ̃"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Modèle TEF A : appel au sujet d'un camp de jour",
+      "en": "TEF A model: a call about a day camp"
+    },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Ravi calls a day camp for his daughter. Count his questions and notice how many different forms he uses — this is what the examiner rewards.",
+      "hi": "रवि अपनी बेटी के लिए एक डे-कैंप को फ़ोन करता है। उसके सवाल गिनिए और देखिए कि वह कितने अलग रूप इस्तेमाल करता है — परीक्षक इसी के अंक देता है।"
+    },
+    "lines": [
+      {
+        "speaker": "Employée",
+        "voice": "f2",
+        "fr": "Camp de jour Les Explorateurs, bonjour !",
+        "en": "Les Explorateurs day camp, hello!",
+        "hi": "ले ज़ैक्स्प्लोरातöर डे-कैंप, नमस्ते!"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "Bonjour, madame. J'ai vu votre annonce dans le journal du quartier et j'aurais quelques questions, si vous avez un moment.",
+        "en": "Hello, madam. I saw your ad in the local paper and I'd have a few questions, if you have a moment.",
+        "hi": "नमस्ते, मैडम। मैंने मोहल्ले के अख़बार में आपका विज्ञापन देखा, अगर आपके पास समय हो तो मेरे कुछ सवाल हैं।"
+      },
+      {
+        "speaker": "Employée",
+        "voice": "f2",
+        "fr": "Bien sûr, je vous écoute.",
+        "en": "Of course, go ahead.",
+        "hi": "ज़रूर, बोलिए।"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "D'abord, j'aimerais savoir pour quel âge est le camp. Ma fille a sept ans.",
+        "en": "First, I'd like to know what age the camp is for. My daughter is seven.",
+        "hi": "पहले, मैं जानना चाहूँगा कि कैंप किस उम्र के लिए है। मेरी बेटी सात साल की है।"
+      },
+      {
+        "speaker": "Employée",
+        "voice": "f2",
+        "fr": "Nous accueillons les enfants de six à douze ans, donc c'est parfait.",
+        "en": "We take children from six to twelve, so that's perfect.",
+        "hi": "हम छह से बारह साल के बच्चों को लेते हैं, तो यह एकदम सही है।"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "Très bien. Pourriez-vous me dire quels sont les horaires ?",
+        "en": "Very good. Could you tell me what the hours are?",
+        "hi": "बहुत अच्छा। क्या आप बता सकती हैं कि समय क्या है?"
+      },
+      {
+        "speaker": "Employée",
+        "voice": "f2",
+        "fr": "Les activités ont lieu de neuf heures à seize heures, et il y a un service de garde de sept heures trente à dix-huit heures.",
+        "en": "Activities run from 9 a.m. to 4 p.m., and there is a daycare service from 7:30 a.m. to 6 p.m.",
+        "hi": "गतिविधियाँ सुबह 9 से शाम 4 बजे तक होती हैं, और सुबह 7:30 से शाम 6 बजे तक देखभाल सेवा है।"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "Le service de garde est-il compris dans le prix ?",
+        "en": "Is the daycare included in the price?",
+        "hi": "क्या देखभाल सेवा दाम में शामिल है?"
+      },
+      {
+        "speaker": "Employée",
+        "voice": "f2",
+        "fr": "Non, il coûte vingt-cinq dollars de plus par semaine.",
+        "en": "No, it costs twenty-five dollars more per week.",
+        "hi": "नहीं, इसके हफ़्ते के पच्चीस डॉलर अलग लगते हैं।"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "Et le camp lui-même, ça coûte combien par semaine ?",
+        "en": "And the camp itself, how much does it cost per week?",
+        "hi": "और कैंप का ख़ुद का ख़र्च, हफ़्ते का कितना है?"
+      },
+      {
+        "speaker": "Employée",
+        "voice": "f2",
+        "fr": "Cent soixante-quinze dollars. Il y a un rabais de dix pour cent pour le deuxième enfant.",
+        "en": "A hundred and seventy-five dollars. There's a ten percent discount for the second child.",
+        "hi": "एक सौ पचहत्तर डॉलर। दूसरे बच्चे के लिए दस प्रतिशत छूट है।"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "Je voudrais savoir aussi ce que les enfants doivent apporter.",
+        "en": "I'd also like to know what the children have to bring.",
+        "hi": "मैं यह भी जानना चाहूँगा कि बच्चों को क्या लाना होता है।"
+      },
+      {
+        "speaker": "Employée",
+        "voice": "f2",
+        "fr": "Un lunch froid, une bouteille d'eau, de la crème solaire et un maillot de bain : on va à la piscine le mercredi.",
+        "en": "A cold lunch, a water bottle, sunscreen and a swimsuit: we go to the pool on Wednesdays.",
+        "hi": "ठंडा खाना, पानी की बोतल, सनस्क्रीन और स्विमसूट: हम बुधवार को स्विमिंग पूल जाते हैं।"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "Les moniteurs ont-ils une formation en premiers soins ?",
+        "en": "Do the counsellors have first-aid training?",
+        "hi": "क्या प्रशिक्षकों को प्राथमिक चिकित्सा का प्रशिक्षण मिला है?"
+      },
+      {
+        "speaker": "Employée",
+        "voice": "f2",
+        "fr": "Oui, tous nos moniteurs ont leur certificat de premiers soins.",
+        "en": "Yes, all our counsellors have their first-aid certificate.",
+        "hi": "हाँ, हमारे सभी प्रशिक्षकों के पास प्राथमिक चिकित्सा का प्रमाणपत्र है।"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "Parfait. Comment est-ce que je peux inscrire ma fille ?",
+        "en": "Perfect. How can I register my daughter?",
+        "hi": "बढ़िया। मैं अपनी बेटी का नाम कैसे लिखवा सकता हूँ?"
+      },
+      {
+        "speaker": "Employée",
+        "voice": "f2",
+        "fr": "En ligne, sur notre site, avant le 1er juin. Après cette date, il risque de ne plus y avoir de places.",
+        "en": "Online, on our website, before 1 June. After that date, there may be no places left.",
+        "hi": "ऑनलाइन, हमारी वेबसाइट पर, 1 जून से पहले। उस तारीख़ के बाद शायद जगह न बचे।"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "Merci beaucoup, madame. Vous avez été très claire. Bonne journée !",
+        "en": "Thank you very much, madam. You've been very clear. Have a good day!",
+        "hi": "बहुत धन्यवाद, मैडम। आपने बहुत साफ़ समझाया। आपका दिन शुभ हो!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "Which children does the camp accept?"
+        },
+        "options": [
+          "From 6 to 16",
+          "Only 7-year-olds",
+          "From 6 to 12",
+          "From 7 to 12"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'De six à douze ans.' Seven is the daughter's age.",
+          "hi": "'de six à douze ans'। सात बेटी की उम्र है।"
+        },
+        "kind": "literal",
+        "evidence": "Nous accueillons les enfants de six à douze ans"
+      },
+      {
+        "q": {
+          "en": "When do the activities take place?"
+        },
+        "options": [
+          "9 a.m. to 4 p.m.",
+          "9 a.m. to 6 p.m.",
+          "7:30 a.m. to 4 p.m.",
+          "7:30 a.m. to 6 p.m."
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "Activities 9–16 h; 7:30–18 h is the daycare service.",
+          "hi": "गतिविधियाँ 9–16 बजे; 7:30–18 बजे देखभाल सेवा है।"
+        },
+        "kind": "literal",
+        "evidence": "Les activités ont lieu de neuf heures à seize heures"
+      },
+      {
+        "q": {
+          "en": "How much does a week of camp WITH daycare cost for one child?"
+        },
+        "options": [
+          "$150",
+          "$25",
+          "$175",
+          "$200"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "$175 + $25 = $200.",
+          "hi": "175 + 25 = 200 डॉलर।"
+        },
+        "kind": "inference",
+        "evidence": "il coûte vingt-cinq dollars de plus par semaine"
+      },
+      {
+        "q": {
+          "en": "Who gets a 10% discount?"
+        },
+        "options": [
+          "Children under 7",
+          "The second child of a family",
+          "Families who register online",
+          "Children who stay all day"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Un rabais de dix pour cent pour le deuxième enfant.'",
+          "hi": "'un rabais de dix pour cent pour le deuxième enfant' — दूसरे बच्चे के लिए।"
+        },
+        "kind": "literal",
+        "evidence": "Il y a un rabais de dix pour cent pour le deuxième enfant."
+      },
+      {
+        "q": {
+          "en": "Why do children need a swimsuit?"
+        },
+        "options": [
+          "For the first-aid course",
+          "They swim every day",
+          "They go to the pool on Wednesdays",
+          "There is a lake trip in June"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'On va à la piscine le mercredi.'",
+          "hi": "'on va à la piscine le mercredi' — बुधवार को पूल।"
+        },
+        "kind": "literal",
+        "evidence": "on va à la piscine le mercredi"
+      },
+      {
+        "q": {
+          "en": "What risk is there after 1 June?"
+        },
+        "options": [
+          "There may be no places left",
+          "Registration must be by phone",
+          "The camp closes",
+          "Prices go up"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Il risque de ne plus y avoir de places.'",
+          "hi": "'il risque de ne plus y avoir de places' — शायद जगह न बचे।"
+        },
+        "kind": "inference",
+        "evidence": "il risque de ne plus y avoir de places"
+      }
+    ],
+    "dictation": [
+      "J'aimerais savoir pour quel âge est le camp.",
+      "Le service de garde est-il compris dans le prix ?",
+      "Les moniteurs ont-ils une formation en premiers soins ?"
+    ],
+    "gapFill": {
+      "text": "Pourriez-vous me dire quels ___ les horaires ? Je voudrais savoir ___ que les enfants doivent apporter. Les moniteurs ont-___ une formation en premiers soins ?",
+      "answers": [
+        "sont",
+        "ce",
+        "ils"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "tef_a",
+    "instructions": {
+      "en": "Timed TEF section A (5 minutes). Read the ad below, then phone the seller and ask about ten questions to get information that is not in the ad. Set a timer and don't stop until it rings.",
+      "hi": "समयबद्ध TEF भाग A (5 मिनट)। नीचे दिया विज्ञापन पढ़िए, फिर विक्रेता को फ़ोन करके लगभग दस सवाल पूछिए ताकि वह जानकारी मिले जो विज्ञापन में नहीं है। टाइमर लगाइए और उसके बजने तक रुकिए मत।"
+    },
+    "scenario": {
+      "setting": {
+        "en": "Ad: « À vendre : Toyota Corolla 2017, grise, 4 portes, pneus d'hiver inclus. 8 500 $, négociable. Appelez Marc au 514 555-0175. »",
+        "hi": "विज्ञापन: « À vendre : Toyota Corolla 2017, grise, 4 portes, pneus d'hiver inclus. 8 500 $, négociable. Appelez Marc au 514 555-0175. »"
+      },
+      "learnerRole": {
+        "en": "You are looking for a reliable used car for winter. Call the seller (vous).",
+        "hi": "आप सर्दियों के लिए एक भरोसेमंद पुरानी गाड़ी ढूँढ रहे हैं। विक्रेता को फ़ोन कीजिए (vous)।"
+      },
+      "partnerRole": {
+        "en": "Marc, the seller: answers briefly (kilométrage 95 000 km, one minor accident in 2020, recent brakes, available to visit on Saturday, accepts e-transfer).",
+        "hi": "विक्रेता मार्क: छोटे जवाब देता है (95 000 किमी चली, 2020 में एक छोटा एक्सीडेंट, ब्रेक हाल में बदले, शनिवार को देखने आ सकते हैं, ई-ट्रांसफ़र लेता है)।"
+      },
+      "goals": [
+        {
+          "en": "Ask about ten questions on different topics: mileage, accidents, maintenance, owners, visit, test drive, price, payment.",
+          "hi": "अलग-अलग विषयों पर लगभग दस सवाल पूछिए: किलोमीटर, एक्सीडेंट, रखरखाव, पिछले मालिक, देखने आना, टेस्ट ड्राइव, दाम, भुगतान।"
+        },
+        {
+          "en": "Use at least four different question forms.",
+          "hi": "कम से कम चार अलग प्रश्न-रूप इस्तेमाल कीजिए।"
+        },
+        {
+          "en": "Close by arranging a visit.",
+          "hi": "गाड़ी देखने का समय तय करके बात ख़त्म कीजिए।"
+        }
+      ]
+    },
+    "prompts": [
+      {
+        "fr": "Bonjour, monsieur. Je vous appelle au sujet de la Toyota que vous vendez.",
+        "en": "Hello, sir. I'm calling about the Toyota you're selling.",
+        "hi": "नमस्ते, सर। मैं आपकी बेची जा रही टोयोटा के बारे में फ़ोन कर रहा हूँ।",
+        "pron": "बोँ-झ़ूग़ मö-स्यö झ़ö वू ज़ा-पैल ओ सü-झ़े दö ला तो-यो-ता कö वू वाँ-दे"
+      },
+      {
+        "fr": "Pourriez-vous me dire quel est le kilométrage ?",
+        "en": "Could you tell me the mileage?",
+        "hi": "क्या आप बता सकते हैं कि गाड़ी कितने किलोमीटर चली है?",
+        "pron": "पू-ग़्ये वू मö दीग़ कै लै लö की-लो-मे-त्ग़ाझ़"
+      },
+      {
+        "fr": "La voiture a-t-elle déjà eu un accident ?",
+        "en": "Has the car ever had an accident?",
+        "hi": "क्या गाड़ी का कभी एक्सीडेंट हुआ है?",
+        "pron": "ला व्वा-त्üग़ आ-तैल दे-झ़ा ü ऐँ नाक-सी-दाँ"
+      },
+      {
+        "fr": "Je voudrais savoir si vous avez les factures d'entretien.",
+        "en": "I'd like to know if you have the maintenance receipts.",
+        "hi": "मैं जानना चाहूँगा कि क्या आपके पास रखरखाव के बिल हैं।",
+        "pron": "झ़ö वू-द्रै सा-वाग़ सी वू ज़ा-वे ले फ़ाक-त्üग़ दाँ-त्ग़ö-त्यैँ"
+      },
+      {
+        "fr": "Combien de propriétaires a-t-elle eus ?",
+        "en": "How many owners has it had?",
+        "hi": "इसके कितने मालिक रह चुके हैं?",
+        "pron": "कोँ-ब्यैँ दö प्रो-प्ग़ी-ए-तैग़ आ-तैल ü"
+      },
+      {
+        "fr": "Est-ce qu'il serait possible de faire un essai routier ?",
+        "en": "Would it be possible to do a test drive?",
+        "hi": "क्या टेस्ट ड्राइव करना संभव होगा?",
+        "pron": "ऐस-की-ल सö-ग़ै पो-सीब्ल दö फ़ैग़ ऐँ ने-सै ग़ू-त्ये"
+      },
+      {
+        "fr": "Le prix est négociable : jusqu'à combien ?",
+        "en": "The price is negotiable: down to how much?",
+        "hi": "दाम में मोल-भाव हो सकता है: कितने तक?",
+        "pron": "लö प्री ए ने-गो-स्याब्ल झ़üस-का कोँ-ब्यैँ"
+      },
+      {
+        "fr": "Quand est-ce que je pourrais venir la voir ?",
+        "en": "When could I come and see it?",
+        "hi": "मैं इसे देखने कब आ सकता हूँ?",
+        "pron": "काँ तैस-कö झ़ö पू-ग़ै वö-नीग़ ला व्वाग़"
+      }
+    ],
+    "tip": {
+      "en": "The ad already says the colour, the year, the doors and the winter tyres — don't ask about them. Ask what a careful buyer would want to know.",
+      "hi": "विज्ञापन में रंग, साल, दरवाज़े और सर्दियों के टायर पहले से लिखे हैं — उनके बारे में मत पूछिए। वह पूछिए जो एक सावधान ख़रीदार जानना चाहेगा।"
+    }
+  },
+  "reading": {
+    "genre": "letter",
+    "title": "Modèle TEF B : une lettre en faveur du service civique",
+    "text": "Affirmation publiée : « Tous les jeunes devraient faire un an de service civique après l'école secondaire. »\n\nMadame, Monsieur,\nJe vous écris pour réagir à l'affirmation selon laquelle tous les jeunes devraient consacrer une année au service de la communauté après le secondaire. Je suis en grande partie d'accord avec cette idée.\n\nTout d'abord, une telle année permettrait aux jeunes de mieux se connaître avant de choisir des études. En effet, beaucoup d'élèves commencent le cégep ou l'université sans savoir ce qu'ils veulent faire. Par exemple, mon neveu a changé trois fois de programme en deux ans, ce qui a coûté cher à sa famille.\n\nEnsuite, le service civique créerait des liens entre les générations et les cultures. Un jeune qui aide des aînés ou des familles immigrantes découvre des réalités qu'il ne voit pas à l'école. Moi-même, je suis arrivée de Delhi il y a quatre ans, et ce sont des bénévoles de dix-huit ans qui m'ont aidée à remplir mes premiers formulaires.\n\nEnfin, la société entière en profiterait. Les organismes communautaires manquent de bras, surtout en région. Des milliers de jeunes motivés pourraient, par exemple, soutenir les banques alimentaires ou l'aide aux devoirs.\n\nCertes, rendre ce service obligatoire poserait des problèmes : certains jeunes doivent travailler pour aider leur famille. C'est pourquoi l'État devrait verser une petite indemnité pendant cette année.\n\nPour toutes ces raisons, je pense qu'un service civique bien organisé serait une chance pour les jeunes et pour le pays.\n\nVeuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.\nPooja Mehta, Gatineau",
+    "translation": {
+      "en": "Published statement: 'All young people should do a year of civic service after high school.'\n\nDear Sir or Madam,\nI am writing to react to the statement that all young people should devote a year to serving the community after high school. I largely agree with this idea.\n\nFirst of all, such a year would allow young people to know themselves better before choosing their studies. Indeed, many students start CEGEP or university without knowing what they want to do. For example, my nephew changed programmes three times in two years, which cost his family a lot.\n\nNext, civic service would create links between generations and cultures. A young person who helps seniors or immigrant families discovers realities they don't see at school. I myself arrived from Delhi four years ago, and it was eighteen-year-old volunteers who helped me fill in my first forms.\n\nFinally, society as a whole would benefit. Community organisations are short of hands, especially in the regions. Thousands of motivated young people could, for example, support food banks or homework help.\n\nAdmittedly, making this service compulsory would cause problems: some young people have to work to help their families. That is why the State should pay a small allowance during this year.\n\nFor all these reasons, I think a well-organised civic service would be an opportunity for young people and for the country.\n\nYours faithfully,\nPooja Mehta, Gatineau",
+      "hi": "छपा हुआ कथन: 'सभी युवाओं को हाई स्कूल के बाद एक साल समाज-सेवा (सिविक सर्विस) करनी चाहिए।'\n\nमहोदया, महोदय,\nमैं इस कथन पर प्रतिक्रिया देने के लिए लिख रही हूँ कि सभी युवाओं को हाई स्कूल के बाद एक साल समुदाय की सेवा में देना चाहिए। मैं इस विचार से काफ़ी हद तक सहमत हूँ।\n\nसबसे पहले, ऐसा एक साल युवाओं को पढ़ाई चुनने से पहले ख़ुद को बेहतर समझने का मौक़ा देगा। दरअसल, कई छात्र सेजेप या विश्वविद्यालय यह जाने बिना शुरू कर देते हैं कि वे क्या करना चाहते हैं। उदाहरण के लिए, मेरे भतीजे ने दो साल में तीन बार कोर्स बदला, जिससे उसके परिवार का बहुत ख़र्च हुआ।\n\nफिर, सिविक सर्विस पीढ़ियों और संस्कृतियों के बीच रिश्ते बनाएगी। जो युवा बुज़ुर्गों या प्रवासी परिवारों की मदद करता है, वह ऐसी सच्चाइयाँ देखता है जो स्कूल में नहीं दिखतीं। मैं ख़ुद चार साल पहले दिल्ली से आई थी, और अठारह साल के स्वयंसेवकों ने ही मेरे पहले फ़ॉर्म भरने में मेरी मदद की थी।\n\nअंत में, पूरे समाज को इसका फ़ायदा होगा। सामुदायिक संस्थाओं के पास काम करने वाले हाथ कम हैं, ख़ासकर दूर-दराज़ के इलाक़ों में। हज़ारों उत्साही युवा, उदाहरण के लिए, फ़ूड बैंकों या होमवर्क में मदद जैसे कामों में हाथ बँटा सकते हैं।\n\nमाना कि इस सेवा को अनिवार्य करने से समस्याएँ होंगी: कुछ युवाओं को अपने परिवार की मदद के लिए काम करना पड़ता है। इसीलिए सरकार को इस साल के दौरान एक छोटा भत्ता देना चाहिए।\n\nइन सभी कारणों से, मुझे लगता है कि अच्छी तरह से संगठित सिविक सर्विस युवाओं और देश दोनों के लिए एक अवसर होगी।\n\nसादर,\nपूजा मेहता, गाटिनो"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "What is Pooja's position?"
+        },
+        "options": [
+          "Completely against",
+          "Largely in favour",
+          "Neutral",
+          "In favour only for university students"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Je suis en grande partie d'accord avec cette idée.'",
+          "hi": "'je suis en grande partie d'accord avec cette idée' — काफ़ी हद तक सहमत।"
+        },
+        "kind": "gist",
+        "evidence": "Je suis en grande partie d'accord avec cette idée."
+      },
+      {
+        "q": {
+          "en": "Which example supports her first argument?"
+        },
+        "options": [
+          "Food banks need help",
+          "Young people need money",
+          "Volunteers helped her with forms",
+          "Her nephew changed programmes three times"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "First argument (knowing yourself before studies) → example of the nephew.",
+          "hi": "पहला तर्क (पढ़ाई से पहले ख़ुद को जानना) → भतीजे का उदाहरण।"
+        },
+        "kind": "literal",
+        "evidence": "mon neveu a changé trois fois de programme en deux ans"
+      },
+      {
+        "q": {
+          "en": "What personal experience does she use in her second argument?"
+        },
+        "options": [
+          "Young volunteers helped her fill in forms",
+          "She works at a food bank",
+          "Her children volunteered",
+          "She did civic service in India"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Ce sont des bénévoles de dix-huit ans qui m'ont aidée à remplir mes premiers formulaires.'",
+          "hi": "'ce sont des bénévoles de dix-huit ans qui m'ont aidée à remplir mes premiers formulaires'।"
+        },
+        "kind": "literal",
+        "evidence": "ce sont des bénévoles de dix-huit ans qui m'ont aidée à remplir mes premiers formulaires"
+      },
+      {
+        "q": {
+          "en": "Which objection does she accept?"
+        },
+        "options": [
+          "Organisations don't want volunteers",
+          "It is too expensive for the State",
+          "Some young people must work to help their family",
+          "Young people are not motivated"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Certes, … certains jeunes doivent travailler pour aider leur famille.'",
+          "hi": "'certes, … certains jeunes doivent travailler pour aider leur famille'।"
+        },
+        "kind": "literal",
+        "evidence": "certains jeunes doivent travailler pour aider leur famille"
+      },
+      {
+        "q": {
+          "en": "What solution does she propose for this problem?"
+        },
+        "options": [
+          "Making the service optional",
+          "A small allowance paid by the State",
+          "Shorter service of three months",
+          "Service only in big cities"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'L'État devrait verser une petite indemnité pendant cette année.'",
+          "hi": "'l'État devrait verser une petite indemnité pendant cette année' — सरकार छोटा भत्ता दे।"
+        },
+        "kind": "literal",
+        "evidence": "l'État devrait verser une petite indemnité pendant cette année"
+      },
+      {
+        "q": {
+          "en": "Why is this a good model for TEF writing B?"
+        },
+        "options": [
+          "It uses informal language",
+          "It only gives one argument",
+          "It is very short",
+          "It has a position, three developed arguments with examples, a concession and a conclusion"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "Tout d'abord / Ensuite / Enfin, each with an example, then Certes and Pour toutes ces raisons.",
+          "hi": "Tout d'abord / Ensuite / Enfin, हर एक के साथ उदाहरण, फिर Certes और Pour toutes ces raisons।"
+        },
+        "kind": "inference",
+        "evidence": "Pour toutes ces raisons, je pense qu'un service civique bien organisé serait une chance"
+      }
+    ]
+  },
+  "writing": {
+    "type": "article_continuation",
+    "prompt": {
+      "en": "Timed TEF section A (25 minutes). Continue this news article in at least 80 words: « GATINEAU — Dimanche matin, Lucie Tremblay a eu la surprise de sa vie. Son chien Pistache, un petit labrador de deux ans, avait disparu trois jours plus tôt pendant une tempête de neige. Toute la famille l'avait cherché dans le quartier, sans succès. Vers 8 h, un voisin a frappé à la porte… »",
+      "hi": "समयबद्ध TEF भाग A (25 मिनट)। इस ख़बर को कम से कम 80 शब्दों में आगे बढ़ाइए: « GATINEAU — Dimanche matin, Lucie Tremblay a eu la surprise de sa vie. Son chien Pistache, un petit labrador de deux ans, avait disparu trois jours plus tôt pendant une tempête de neige. Toute la famille l'avait cherché dans le quartier, sans succès. Vers 8 h, un voisin a frappé à la porte… »",
+      "fr": "GATINEAU — Dimanche matin, Lucie Tremblay a eu la surprise de sa vie. Son chien Pistache, un petit labrador de deux ans, avait disparu trois jours plus tôt pendant une tempête de neige. Toute la famille l'avait cherché dans le quartier, sans succès. Vers 8 h, un voisin a frappé à la porte…"
+    },
+    "minWords": 80,
+    "maxWords": 160,
+    "hints": [
+      {
+        "en": "What did the neighbour say? Where had the dog been? How did the family react? How does it end?",
+        "hi": "पड़ोसी ने क्या कहा? कुत्ता कहाँ था? परिवार ने कैसी प्रतिक्रिया दी? अंत कैसे होता है?"
+      },
+      {
+        "en": "Include one quote and one plus-que-parfait.",
+        "hi": "एक उद्धरण और एक plus-que-parfait शामिल कीजिए।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Il tenait dans ses bras…",
+        "en": "He was holding in his arms…",
+        "hi": "वह अपनी बाँहों में … लिए था",
+        "pron": "इल त्ö-नै दाँ से ब्ग़ा"
+      },
+      {
+        "fr": "Le chien s'était réfugié dans…",
+        "en": "The dog had taken shelter in…",
+        "hi": "कुत्ते ने … में शरण ली थी",
+        "pron": "लö श्यैँ से-तै ग़े-फ़ü-झ़्ये दाँ"
+      },
+      {
+        "fr": "fou de joie",
+        "en": "overjoyed (crazy with joy)",
+        "hi": "ख़ुशी से पागल",
+        "pron": "फ़ू दö झ़्वा"
+      }
+    ],
+    "model": {
+      "fr": "C'était M. Gagnon, qui habite au bout de la rue. Il tenait dans ses bras un petit chien couvert de neige : c'était Pistache ! Le voisin a expliqué qu'il l'avait trouvé dans son garage, derrière des boîtes. Le chien s'y était sans doute réfugié pendant la tempête, quand la porte était restée ouverte. Pistache était fatigué et il avait très faim, mais il n'était pas blessé. Les enfants de Lucie ont crié de joie et l'ont embrassé pendant de longues minutes. « Nous avions perdu espoir », a raconté Lucie, très émue. Pour remercier M. Gagnon, la famille l'a invité à souper le soir même. Le vétérinaire a confirmé lundi que le chien était en bonne santé.",
+      "en": "It was Mr Gagnon, who lives at the end of the street. He was holding a little dog covered in snow: it was Pistache! The neighbour explained that he had found him in his garage, behind some boxes. The dog had probably taken shelter there during the storm, when the door had stayed open. Pistache was tired and very hungry, but he was not injured. Lucie's children shouted with joy and hugged him for long minutes. 'We had lost hope,' said Lucie, very moved. To thank Mr Gagnon, the family invited him to supper that same evening. On Monday the vet confirmed that the dog was in good health."
+    },
+    "checklist": [
+      {
+        "en": "At least 80 words, same characters (Lucie, Pistache, the neighbour)?",
+        "hi": "कम से कम 80 शब्द, वही पात्र (लूसी, पिस्ताश, पड़ोसी)?"
+      },
+      {
+        "en": "Past tenses only, with at least one plus-que-parfait?",
+        "hi": "सिर्फ़ बीते काल, कम से कम एक plus-que-parfait के साथ?"
+      },
+      {
+        "en": "A quote and a clear ending?",
+        "hi": "एक उद्धरण और साफ़ अंत?"
+      },
+      {
+        "en": "Agreement check: Pistache is masculine (il, fatigué, blessé).",
+        "hi": "मेल की जाँच: पिस्ताश पुल्लिंग है (il, fatigué, blessé)।"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
+    ],
+    "items": [
+      {
+        "fr": "C'est pas réaliste. (= Ce n'est pas réaliste.)",
+        "en": "It's not realistic.",
+        "hi": "यह व्यावहारिक नहीं है।",
+        "pron": "सै पा ग़े-आ-लीस्त"
+      },
+      {
+        "fr": "ça dépend",
+        "en": "it depends",
+        "hi": "निर्भर करता है",
+        "pron": "सा दे-पाँ"
+      },
+      {
+        "fr": "Je voudrais savoir si…",
+        "en": "I'd like to know if…",
+        "hi": "मैं जानना चाहूँगा कि क्या…",
+        "pron": "झ़ö वू-द्रै सा-वाग़ सी"
+      },
+      {
+        "fr": "Pourriez-vous m'indiquer…",
+        "en": "Could you tell me…",
+        "hi": "क्या आप मुझे बता सकेंगे…",
+        "pron": "पू-ग़्ये वू मैँ-दी-के"
+      },
+      {
+        "fr": "un atout",
+        "en": "an asset",
+        "hi": "अतिरिक्त ख़ूबी",
+        "pron": "ऐँ ना-तू"
+      },
+      {
+        "fr": "Tu devrais essayer.",
+        "en": "You should try.",
+        "hi": "तुम्हें आज़माना चाहिए।",
+        "pron": "तü दö-व्ग़ै ए-से-ये"
+      },
+      {
+        "fr": "Justement !",
+        "en": "That's exactly the point!",
+        "hi": "इसीलिए तो!",
+        "pron": "झ़üस-त-माँ"
+      },
+      {
+        "fr": "Ils avaient oublié la casserole.",
+        "en": "They had forgotten the pan.",
+        "hi": "वे बर्तन भूल गए थे।",
+        "pron": "इल ज़ा-वै ज़ू-ब्ली-ये ला का-स्ग़ॉल"
+      },
+      {
+        "fr": "la veille / le lendemain",
+        "en": "the day before / the day after",
+        "hi": "एक दिन पहले / अगले दिन",
+        "pron": "ला वैय / लö लाँद-मैँ"
+      },
+      {
+        "fr": "Je ne partage pas cet avis.",
+        "en": "I don't share this opinion.",
+        "hi": "मैं इस राय से सहमत नहीं।",
+        "pron": "झ़ö नö पाग़-ताझ़ पा सै ता-वी"
+      },
+      {
+        "fr": "Veuillez agréer mes salutations distinguées.",
+        "en": "Yours faithfully.",
+        "hi": "सादर।",
+        "pron": "वö-ये ज़ा-ग्ग़े-ए मे सा-लü-ता-स्योँ दिस-तैँ-गे"
+      },
+      {
+        "fr": "un problème, un musée, une image",
+        "en": "a problem, a museum, a picture",
+        "hi": "एक समस्या, एक संग्रहालय, एक चित्र",
+        "pron": "ऐँ प्रो-ब्लैम ऐँ म्ü-ज़े üन नी-माझ़"
+      },
+      {
+        "fr": "Elle est arrivée.",
+        "en": "She arrived.",
+        "hi": "वह आई।",
+        "pron": "ऐ-लै ता-ग़ी-वे"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "In TEF section A, which register do you use?",
+        "hi": "TEF भाग A में कौन-सी शैली इस्तेमाल करते हैं?"
+      },
+      "options": [
+        "vous, polite",
+        "tu or vous, it doesn't matter",
+        "only est-ce que questions",
+        "tu, informal"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "You phone a stranger (advertiser): vous.",
+        "hi": "आप एक अजनबी (विज्ञापनदाता) को फ़ोन करते हैं: vous।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Make it indirect: 'Où est le camp ?' → Pourriez-vous me dire…",
+        "hi": "अप्रत्यक्ष बनाइए: 'Où est le camp ?' → Pourriez-vous me dire…"
+      },
+      "sentence": "Pourriez-vous me dire ___ se trouve le camp ?",
+      "answer": "où",
+      "accept": [],
+      "explanation": {
+        "en": "Question words stay in indirect questions.",
+        "hi": "अप्रत्यक्ष प्रश्नों में प्रश्नवाचक शब्द वही रहते हैं।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Your friend says 'C'est trop cher.' Best TEF B answer?",
+        "hi": "दोस्त कहता है 'C'est trop cher.' TEF B का सबसे अच्छा जवाब?"
+      },
+      "options": [
+        "Ce n'est pas mon problème.",
+        "D'accord, alors non.",
+        "Je comprends, mais il y a un rabais pour les étudiants.",
+        "Tu es radin."
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Accept the objection, then counter with a new fact.",
+        "hi": "आपत्ति मानिए, फिर नए तथ्य से जवाब दीजिए।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Plus-que-parfait: The dog had disappeared.",
+        "hi": "plus-que-parfait: कुत्ता ग़ायब हो गया था।"
+      },
+      "sentence": "Le chien ___ disparu.",
+      "answer": "avait",
+      "accept": [],
+      "explanation": {
+        "en": "Disparaître takes avoir: il avait disparu.",
+        "hi": "disparaître के साथ avoir: il avait disparu।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French (formal letter).",
+        "hi": "फ़्रेंच में लिखिए (औपचारिक पत्र)।"
+      },
+      "source": {
+        "en": "I largely agree with this idea.",
+        "hi": "मैं इस विचार से काफ़ी हद तक सहमत हूँ।"
+      },
+      "answer": "Je suis en grande partie d'accord avec cette idée.",
+      "accept": [
+        "Je suis en grande partie d'accord avec cette idée",
+        "Je suis largement d'accord avec cette idée."
+      ],
+      "explanation": {
+        "en": "En grande partie = largely.",
+        "hi": "en grande partie = काफ़ी हद तक।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which is correct?",
+        "hi": "कौन-सा सही है?"
+      },
+      "options": [
+        "la problème",
+        "une problème grave",
+        "un problème grave",
+        "un problème grave et sérieuse"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Problème is masculine.",
+        "hi": "problème पुल्लिंग है।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put in order: Is daycare included in the price?",
+        "hi": "क्रम में रखिए: क्या देखभाल सेवा दाम में शामिल है?"
+      },
+      "words": [
+        "service",
+        "Le",
+        "garde",
+        "de",
+        "est-il",
+        "compris",
+        "dans",
+        "le",
+        "prix",
+        "?"
+      ],
+      "answer": "Le service de garde est-il compris dans le prix ?",
+      "explanation": {
+        "en": "Noun subject + verb-pronoun inversion (est-il).",
+        "hi": "संज्ञा कर्ता + क्रिया-सर्वनाम inversion (est-il)।"
+      }
+    }
+  ]
+}

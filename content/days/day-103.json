@@ -1,0 +1,198 @@
+{
+  "day": 103,
+  "phase": 6,
+  "title": { "fr": "Bilan de l'examen blanc 1 : compréhension écrite et orale", "en": "Mock 1 review: reading and listening", "hi": "मॉक परीक्षा 1 की समीक्षा: पढ़कर और सुनकर समझना" },
+  "objective": {
+    "en": "Go back over your mock 1 reading and listening answers, sort every mistake into one type (vocabulary, detail, inference, distractor trap), explain in French why an answer was wrong, and start a personal error notebook.",
+    "hi": "मॉक 1 के पठन और श्रवण के उत्तर फिर से देखना, हर ग़लती को एक प्रकार में बाँटना (शब्दावली, बारीक जानकारी, निहित अर्थ, भ्रामक विकल्प का जाल), फ़्रेंच में समझाना कि कोई उत्तर ग़लत क्यों था, और अपनी ग़लतियों की एक निजी कॉपी शुरू करना।"
+  },
+  "prerequisites": {
+    "days": [101, 102, 81, 83, 93],
+    "summary": {
+      "en": "You have taken mock 1. Have your answer sheet and your score by section ready; the app shows the questions you missed.",
+      "hi": "आप मॉक 1 दे चुके हैं। अपनी उत्तर-सूची और हर खंड के अंक तैयार रखिए; ऐप आपको वे प्रश्न दिखाता है जो ग़लत हुए।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "mock": { "id": "mock-1", "part": "review" },
+  "vocabulary": [
+    { "fr": "une erreur", "en": "a mistake, an error", "hi": "एक ग़लती", "pron": "ü नै-ग़öग़", "ipa": "yn‿eʁœʁ", "pos": "noun", "gender": "f", "lemma": "erreur", "note": { "en": "Feminine in French: une erreur. 'Error' feels neutral in English, and ग़लती is feminine in Hindi too — here they match.", "hi": "फ़्रेंच में स्त्रीलिंग: une erreur। हिंदी में भी 'ग़लती' स्त्रीलिंग है — यहाँ दोनों मेल खाते हैं।" } },
+    { "fr": "se tromper", "en": "to be wrong, to make a mistake", "hi": "ग़लती करना / ग़लत होना", "pron": "सö त्ग़ोँ-पे", "ipa": "sə tʁɔ̃pe", "pos": "verb" },
+    { "fr": "confondre", "en": "to confuse, to mix up", "hi": "दो चीज़ों में गड़बड़ करना / उलझ जाना", "pron": "कोँ-फ़ोँद्ग़", "ipa": "kɔ̃fɔ̃dʁ", "pos": "verb" },
+    { "fr": "le piège", "en": "trap", "hi": "जाल / फंदा", "pron": "लö प्यैझ़", "ipa": "lə pjɛʒ", "pos": "noun", "gender": "m", "lemma": "piège" },
+    { "fr": "le détail", "en": "detail", "hi": "बारीक बात / ब्योरा", "pron": "लö दे-ताय", "ipa": "lə detaj", "pos": "noun", "gender": "m", "lemma": "détail" },
+    { "fr": "la nuance", "en": "nuance, shade of meaning", "hi": "बारीक अंतर", "pron": "ला नü-आँस", "ipa": "la nɥɑ̃s", "pos": "noun", "gender": "f", "lemma": "nuance" },
+    { "fr": "sous-entendre", "en": "to imply", "hi": "इशारे में कहना / निहित होना", "pron": "सू-ज़ाँ-ताँद्ग़", "ipa": "suzɑ̃tɑ̃dʁ", "pos": "verb" },
+    { "fr": "le sens", "en": "meaning", "hi": "अर्थ", "pron": "लö साँस", "ipa": "lə sɑ̃s", "pos": "noun", "gender": "m", "lemma": "sens", "note": { "en": "The final s is pronounced here: साँस.", "hi": "यहाँ आख़िरी s बोला जाता है: साँस।" } },
+    { "fr": "la reformulation", "en": "rewording, paraphrase", "hi": "दूसरे शब्दों में कहना", "pron": "ला ग़ö-फ़ॉग़-मü-ला-स्योँ", "ipa": "la ʁəfɔʁmylasjɔ̃", "pos": "noun", "gender": "f", "lemma": "reformulation" },
+    { "fr": "le carnet d'erreurs", "en": "error notebook", "hi": "ग़लतियों की कॉपी", "pron": "लö काग़-नै दे-ग़öग़", "ipa": "lə kaʁnɛ deʁœʁ", "pos": "noun", "gender": "m", "lemma": "carnet" },
+    { "fr": "la plupart", "en": "most (of)", "hi": "ज़्यादातर", "pron": "ला प्लü-पाग़", "ipa": "la plypaʁ", "pos": "noun", "gender": "f", "lemma": "plupart", "note": { "en": "La plupart des gens = most people, not all people. A classic trap word.", "hi": "La plupart des gens = ज़्यादातर लोग, सभी लोग नहीं। यह आम जाल वाला शब्द है।" } }
+  ],
+  "phrases": [
+    { "fr": "Je me suis trompé parce que …", "en": "I got it wrong because …", "hi": "मुझसे ग़लती हुई क्योंकि …", "pron": "झ़ö मö स्üई त्ग़ोँ-पे पाग़-स कö" },
+    { "fr": "J'ai confondu « reporté » et « annulé ».", "en": "I mixed up 'postponed' and 'cancelled'.", "hi": "मैंने 'टाला गया' और 'रद्द' में गड़बड़ कर दी।", "pron": "झ़े कोँ-फ़ोँ-दü ग़ö-पॉग़-ते ए आ-नü-ले" },
+    { "fr": "Le texte ne dit pas que …", "en": "The text doesn't say that …", "hi": "पाठ यह नहीं कहता कि …", "pron": "लö तैक्स्त नö दी पा कö" },
+    { "fr": "C'était un piège.", "en": "It was a trap.", "hi": "वह एक जाल था।", "pron": "से-तै ऐँ प्यैझ़" },
+    { "fr": "La bonne réponse était la B, car …", "en": "The right answer was B, because …", "hi": "सही उत्तर B था, क्योंकि …", "pron": "ला बॉन ग़े-पोँस ए-तै ला बे काग़" },
+    { "fr": "Je note cette erreur dans mon carnet.", "en": "I'm writing this mistake in my notebook.", "hi": "मैं यह ग़लती अपनी कॉपी में लिख रहा / रही हूँ।", "pron": "झ़ö नॉत सै तै-ग़öग़ दाँ मोँ काग़-नै" }
+  ],
+  "grammar": {
+    "title": { "en": "Four types of comprehension error, and how to explain them (j'ai cru que … alors que …)", "hi": "समझ की चार तरह की ग़लतियाँ, और उन्हें समझाने का तरीक़ा (j'ai cru que … alors que …)" },
+    "explanation": {
+      "en": "Sort each wrong answer into one of four types. 1) Vocabulary: you did not know a key word (une permanence, reporté). Fix: write the word with an example sentence. 2) Detail: you understood the topic but missed a number, a day, a negation or a small word (ne … plus, sauf, sans). Fix: underline numbers and negations as you read or listen. 3) Inference: the answer was not written directly, it was said in other words or implied. Fix: look for synonyms and rewording. 4) Distractor trap: you chose an option that repeated words from the document but changed the meaning, was only partly true, or used an absolute word (tous, toujours, jamais) where the text said la plupart, souvent, parfois. Fix: check the whole option, not just one word. To explain an error in French, use: J'ai cru que + imparfait … alors que + present/imparfait …: J'ai cru que la réunion était jeudi, alors qu'elle est vendredi.",
+      "hi": "हर ग़लत उत्तर को चार में से एक प्रकार में रखिए। 1) शब्दावली: आपको कोई मुख्य शब्द नहीं आता था (une permanence, reporté)। उपाय: शब्द को एक उदाहरण-वाक्य के साथ लिखिए। 2) बारीक जानकारी: विषय समझ आया, पर कोई संख्या, दिन, नकार या छोटा शब्द छूट गया (ne … plus, sauf, sans)। उपाय: पढ़ते या सुनते समय संख्याओं और नकारों को रेखांकित कीजिए। 3) निहित अर्थ: उत्तर सीधे नहीं लिखा था, दूसरे शब्दों में कहा गया था या इशारे में था। उपाय: समानार्थी शब्द और दूसरे ढंग से कही बात ढूँढिए। 4) भ्रामक विकल्प का जाल: आपने ऐसा विकल्प चुना जिसमें दस्तावेज़ के शब्द थे पर अर्थ बदल दिया गया था, या जो सिर्फ़ आधा सच था, या जिसमें पूर्ण शब्द (tous, toujours, jamais) था जबकि पाठ में la plupart, souvent, parfois था। उपाय: एक शब्द नहीं, पूरा विकल्प जाँचिए। फ़्रेंच में ग़लती समझाने के लिए: J'ai cru que + imparfait … alors que + वर्तमान/imparfait …: J'ai cru que la réunion était jeudi, alors qu'elle est vendredi।"
+    },
+    "comparison": {
+      "en": "English says 'I thought that…, whereas…'. Hindi says 'मुझे लगा कि…, जबकि…'. French: J'ai cru que…, alors que… — note that after 'j'ai cru que' French uses the imparfait for what you wrongly believed.",
+      "hi": "अंग्रेज़ी में 'I thought that…, whereas…' कहते हैं। हिंदी में 'मुझे लगा कि…, जबकि…'। फ़्रेंच में: J'ai cru que…, alors que… — ध्यान दीजिए कि 'j'ai cru que' के बाद, जो ग़लत माना था, उसके लिए imparfait आता है।"
+    },
+    "examples": [
+      { "fr": "J'ai cru que la réunion était jeudi, alors qu'elle est vendredi.", "en": "I thought the meeting was on Thursday, whereas it's on Friday.", "hi": "मुझे लगा कि मीटिंग गुरुवार को है, जबकि वह शुक्रवार को है।", "pron": "झ़े क्ग़ü कö ला ग़े-ü-न्योँ ए-तै झ़ö-दी आ-लॉग़ कै-लै वाँ-द्ग़ö-दी" },
+      { "fr": "C'était une erreur de détail : je n'ai pas entendu la négation.", "en": "It was a detail error: I didn't hear the negation.", "hi": "यह बारीक जानकारी की ग़लती थी: मैंने नकार नहीं सुना।", "pron": "से-तै ü नै-ग़öग़ दö दे-ताय झ़ö ने पा ज़ाँ-ताँ-दü ला ने-गा-स्योँ" },
+      { "fr": "Le texte dit « la plupart », pas « tous ».", "en": "The text says 'most', not 'all'.", "hi": "पाठ में 'ज़्यादातर' लिखा है, 'सभी' नहीं।", "pron": "लö तैक्स्त दी ला प्लü-पाग़ पा तूस" },
+      { "fr": "La réponse était sous-entendue.", "en": "The answer was implied.", "hi": "उत्तर निहित था (सीधे नहीं कहा गया था)।", "pron": "ला ग़े-पोँस ए-तै सू-ज़ाँ-ताँ-दü" },
+      { "fr": "J'ai choisi la C parce qu'elle reprenait un mot du texte.", "en": "I chose C because it repeated a word from the text.", "hi": "मैंने C चुना क्योंकि उसमें पाठ का एक शब्द दोहराया गया था।", "pron": "झ़े श्वा-ज़ी ला से पाग़-स कैल ग़ö-प्ग़ö-नै ऐँ मो दü तैक्स्त" }
+    ],
+    "pitfalls": [
+      { "en": "Don't just count your score. A score tells you how much; the error types tell you what to practise.", "hi": "सिर्फ़ अंक मत गिनिए। अंक बताते हैं कितना; ग़लतियों के प्रकार बताते हैं कि किस चीज़ का अभ्यास करना है।" },
+      { "en": "Don't write 'je me suis trompé' for a woman without the e: a woman writes 'je me suis trompée'.", "hi": "महिला 'je me suis trompé' बिना e के न लिखे: महिला लिखती है 'je me suis trompée'।" },
+      { "en": "Lucky right answers count too. If you guessed and got it right, review that question as if it were wrong.", "hi": "क़िस्मत से सही हुए उत्तर भी गिनिए। अगर अंदाज़े से सही हुआ, तो उस प्रश्न को ग़लत मानकर दोहराइए।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Shadowing the small words that change meaning: ne … plus, ne … que, sauf, sans",
+    "tip": {
+      "en": "Many listening errors come from small words said quickly. Shadow the transcript sentence by sentence: play, pause, repeat at the same speed. Stress the meaning-changers slightly: plus, que, sauf, sans, pas encore.",
+      "hi": "सुनने की कई ग़लतियाँ जल्दी बोले गए छोटे शब्दों से होती हैं। प्रतिलेख को वाक्य-दर-वाक्य शैडो कीजिए: चलाइए, रोकिए, उसी गति से दोहराइए। अर्थ बदलने वाले शब्दों पर हल्का ज़ोर दीजिए: plus, que, sauf, sans, pas encore।"
+    },
+    "words": [
+      { "fr": "Ils ne travaillent plus le vendredi.", "en": "They no longer work on Fridays.", "hi": "वे अब शुक्रवार को काम नहीं करते।", "pron": "ईल नö त्ग़ा-वाय प्लü लö वाँ-द्ग़ö-दी", "note": { "en": "In speech the ne often disappears: only 'plus' carries the negation.", "hi": "बोलचाल में ne अक्सर ग़ायब हो जाता है: नकार सिर्फ़ 'plus' में रहता है।" } },
+      { "fr": "Il n'y a que cinq personnes.", "en": "There are only five people.", "hi": "सिर्फ़ पाँच लोग हैं।", "pron": "ईल नी या कö सैँ पैग़-सॉन" },
+      { "fr": "sauf le lundi", "en": "except on Mondays", "hi": "सोमवार को छोड़कर", "pron": "सोफ़ लö लैँ-दी", "ipa": "sof lə lœ̃di" },
+      { "fr": "sans réservation", "en": "without a booking", "hi": "बिना बुकिंग के", "pron": "साँ ग़े-ज़ैग़-वा-स्योँ", "ipa": "sɑ̃ ʁezɛʁvasjɔ̃" },
+      { "fr": "pas encore", "en": "not yet", "hi": "अभी नहीं", "pron": "पा ज़ाँ-कॉग़", "ipa": "pa zɑ̃kɔʁ" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "La réunion a changé", "en": "The meeting has changed" },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Re-listening practice. Two colleagues in an Ottawa office talk about a client meeting. Listen once without the transcript and answer; then listen again with the transcript and label each of your mistakes by type.",
+      "hi": "दोबारा सुनने का अभ्यास। ओटावा के एक दफ़्तर में दो सहकर्मी एक ग्राहक के साथ होने वाली मीटिंग के बारे में बात करते हैं। पहले बिना प्रतिलेख के एक बार सुनकर उत्तर दीजिए; फिर प्रतिलेख के साथ दोबारा सुनिए और अपनी हर ग़लती का प्रकार लिखिए।"
+    },
+    "lines": [
+      { "speaker": "Karim", "voice": "m1", "fr": "Dis, Julie, la réunion avec le client, c'est toujours jeudi à dix heures ?", "en": "Say, Julie, the meeting with the client, is it still Thursday at ten?", "hi": "सुनो जूली, ग्राहक के साथ मीटिंग अब भी गुरुवार को दस बजे है?" },
+      { "speaker": "Julie", "voice": "f1", "fr": "Non, justement, elle a été déplacée. Le client ne peut pas jeudi matin, alors on la fait vendredi, mais à la même heure.", "en": "No, actually, it's been moved. The client can't do Thursday morning, so we're having it on Friday, but at the same time.", "hi": "नहीं, यही तो बात है, वह खिसका दी गई है। ग्राहक गुरुवार सुबह नहीं आ सकता, इसलिए हम उसे शुक्रवार को कर रहे हैं, लेकिन उसी समय पर।" },
+      { "speaker": "Karim", "voice": "m1", "fr": "D'accord. Et dans la grande salle, comme d'habitude ?", "en": "OK. And in the big room, as usual?", "hi": "ठीक है। और बड़े हॉल में, हमेशा की तरह?" },
+      { "speaker": "Julie", "voice": "f1", "fr": "Ben non, la grande salle est réservée pour la formation. On sera dans le bureau de Madame Roy, au troisième.", "en": "Well no, the big room is booked for the training. We'll be in Ms Roy's office, on the third floor.", "hi": "अरे नहीं, बड़ा हॉल ट्रेनिंग के लिए बुक है। हम तीसरी मंज़िल पर मैडम रॉय के दफ़्तर में होंगे।" },
+      { "speaker": "Karim", "voice": "m1", "fr": "Ah, c'est un peu petit, non ? On sera combien ?", "en": "Oh, that's a bit small, isn't it? How many of us will there be?", "hi": "अच्छा, वह थोड़ा छोटा है, है ना? हम कितने लोग होंगे?" },
+      { "speaker": "Julie", "voice": "f1", "fr": "Six au départ, mais Paul ne viendra pas, il est en congé. Donc cinq.", "en": "Six at first, but Paul won't come, he's on leave. So five.", "hi": "पहले छह थे, लेकिन पॉल नहीं आएगा, वह छुट्टी पर है। तो पाँच।" },
+      { "speaker": "Karim", "voice": "m1", "fr": "Bon. Je dois préparer quelque chose ?", "en": "Right. Do I need to prepare anything?", "hi": "ठीक। क्या मुझे कुछ तैयार करना है?" },
+      { "speaker": "Julie", "voice": "f1", "fr": "Oui, les chiffres du dernier trimestre. Pas la présentation complète, juste un tableau d'une page.", "en": "Yes, the figures for the last quarter. Not the full presentation, just a one-page table.", "hi": "हाँ, पिछली तिमाही के आँकड़े। पूरा प्रेज़ेंटेशन नहीं, बस एक पन्ने की तालिका।" },
+      { "speaker": "Karim", "voice": "m1", "fr": "Parfait, je te l'envoie demain matin au plus tard.", "en": "Perfect, I'll send it to you tomorrow morning at the latest.", "hi": "बढ़िया, मैं तुम्हें कल सुबह तक भेज दूँगा।" },
+      { "speaker": "Julie", "voice": "f1", "fr": "Merci. Et n'oublie pas : le client préfère qu'on parle français pendant la réunion.", "en": "Thanks. And don't forget: the client prefers us to speak French during the meeting.", "hi": "धन्यवाद। और भूलना मत: ग्राहक चाहता है कि मीटिंग में हम फ़्रेंच बोलें।" }
+    ],
+    "questions": [
+      { "q": { "en": "When is the meeting now?" }, "options": ["Thursday at 10", "Friday at 10", "Friday afternoon", "Thursday afternoon"], "answer": 1, "explanation": { "en": "It moved to Friday 'à la même heure' — the same time, 10 o'clock. Thursday is the trap: it is the old day. Error type if missed: detail.", "hi": "मीटिंग शुक्रवार को 'à la même heure' — उसी समय, यानी दस बजे — हो गई। गुरुवार जाल है: वह पुराना दिन है। ग़लत हुआ तो प्रकार: बारीक जानकारी।" }, "kind": "inference", "evidence": "on la fait vendredi, mais à la même heure" },
+      { "q": { "en": "Where will the meeting take place?" }, "options": ["In the big room", "In the training room", "In Ms Roy's office", "At the client's office"], "answer": 2, "explanation": { "en": "'On sera dans le bureau de Madame Roy, au troisième.' The big room is mentioned, but it is booked.", "hi": "'On sera dans le bureau de Madame Roy, au troisième.' बड़े हॉल का ज़िक्र है, पर वह बुक है।" }, "kind": "literal", "evidence": "On sera dans le bureau de Madame Roy, au troisième." },
+      { "q": { "en": "How many people will attend?" }, "options": ["Three", "Four", "Six", "Five"], "answer": 3, "explanation": { "en": "Six at first, but Paul is on leave: 'Donc cinq.' Choosing six is a distractor trap: the first number you hear is not the final one.", "hi": "पहले छह, पर पॉल छुट्टी पर है: 'Donc cinq.' छह चुनना जाल है: पहली सुनी संख्या अंतिम नहीं होती।" }, "kind": "inference", "evidence": "Donc cinq." },
+      { "q": { "en": "What must Karim prepare?" }, "options": ["A one-page table of figures", "The full presentation", "A training plan", "A report on Paul's leave"], "answer": 0, "explanation": { "en": "'Pas la présentation complète, juste un tableau d'une page.' The option 'full presentation' repeats words from the dialogue but is negated.", "hi": "'Pas la présentation complète, juste un tableau d'une page.' 'पूरा प्रेज़ेंटेशन' वाले विकल्प में संवाद के शब्द हैं, पर वहाँ नकार है।" }, "kind": "literal", "evidence": "juste un tableau d'une page" },
+      { "q": { "en": "What does the client prefer?" }, "options": ["Meeting on Thursday", "Speaking French during the meeting", "Receiving the figures by email", "A bigger room"], "answer": 1, "explanation": { "en": "'Le client préfère qu'on parle français pendant la réunion.'", "hi": "'Le client préfère qu'on parle français pendant la réunion.' — ग्राहक मीटिंग में फ़्रेंच चाहता है।" }, "kind": "literal", "evidence": "le client préfère qu'on parle français pendant la réunion" }
+    ],
+    "dictation": [
+      "Le client ne peut pas jeudi matin, alors on la fait vendredi.",
+      "Pas la présentation complète, juste un tableau d'une page."
+    ],
+    "gapFill": {
+      "text": "La réunion a été ___. Six au départ, mais Paul ne viendra pas, il est en ___.",
+      "answers": ["déplacée", "congé"]
+    }
+  },
+  "speaking": {
+    "type": "presentation",
+    "instructions": {
+      "en": "Choose three questions you got wrong in mock 1 (or in today's listening and reading). For each, explain aloud in French in about 30 seconds: which answer you chose, which was right, what type of error it was, and what you will do next time.",
+      "hi": "मॉक 1 के (या आज के श्रवण और पठन के) तीन ऐसे प्रश्न चुनिए जो आपसे ग़लत हुए। हर एक के बारे में लगभग 30 सेकंड फ़्रेंच में ज़ोर से समझाइए: आपने कौन-सा उत्तर चुना, सही कौन-सा था, ग़लती किस प्रकार की थी, और अगली बार आप क्या करेंगे।"
+    },
+    "prompts": [
+      { "fr": "J'ai choisi la réponse … , mais la bonne réponse était la … .", "en": "I chose answer …, but the right answer was … .", "hi": "मैंने उत्तर … चुना, लेकिन सही उत्तर … था।", "pron": "झ़े श्वा-ज़ी ला ग़े-पोँस … मै ला बॉन ग़े-पोँस ए-तै ला …", "model": "J'ai choisi la réponse C, mais la bonne réponse était la D." },
+      { "fr": "C'était une erreur de vocabulaire : je ne connaissais pas le mot … .", "en": "It was a vocabulary error: I didn't know the word … .", "hi": "यह शब्दावली की ग़लती थी: मुझे … शब्द नहीं आता था।", "pron": "से-तै ü नै-ग़öग़ दö वो-का-बü-लैग़ झ़ö नö को-नै-सै पा लö मो", "model": "C'était une erreur de vocabulaire : je ne connaissais pas le mot « permanence »." },
+      { "fr": "J'ai cru que … , alors que … .", "en": "I thought that …, whereas … .", "hi": "मुझे लगा कि …, जबकि … ।", "pron": "झ़े क्ग़ü कö … आ-लॉग़ कö", "model": "J'ai cru que tous les employés étaient moins fatigués, alors que le texte dit « la plupart »." },
+      { "fr": "La prochaine fois, je soulignerai les chiffres et les négations.", "en": "Next time, I'll underline numbers and negations.", "hi": "अगली बार मैं संख्याओं और नकारों को रेखांकित करूँगा / करूँगी।", "pron": "ला प्ग़ो-शैन फ़्वा झ़ö सू-लीन्य-ग़े ले शीफ़्ग़ ए ले ने-गा-स्योँ" },
+      { "fr": "C'était un piège : l'option reprenait les mots du document.", "en": "It was a trap: the option repeated the document's words.", "hi": "यह जाल था: विकल्प में दस्तावेज़ के ही शब्द थे।", "pron": "से-तै ऐँ प्यैझ़ लॉप-स्योँ ग़ö-प्ग़ö-नै ले मो दü दो-कü-माँ" }
+    ],
+    "tip": {
+      "en": "Explaining a mistake aloud fixes it in memory much better than silently reading the correction. Keep each explanation short: chosen answer, right answer, type, next time.",
+      "hi": "ग़लती को ज़ोर से समझाने से वह चुपचाप सुधार पढ़ने की तुलना में कहीं बेहतर याद रहती है। हर व्याख्या छोटी रखिए: चुना हुआ उत्तर, सही उत्तर, प्रकार, अगली बार क्या।"
+    }
+  },
+  "reading": {
+    "genre": "article",
+    "title": "La semaine de quatre jours : une PME de Sherbrooke fait le pari",
+    "text": "Depuis janvier, les vingt-deux employés de Logiciels Boréal, une petite entreprise de Sherbrooke, ne travaillent plus que quatre jours par semaine. Leur salaire, lui, n'a pas changé. « Nous ne demandons pas aux équipes de faire quarante heures en quatre jours, précise la directrice, Nathalie Bérubé. Nous sommes passés à trente-deux heures, et nous avons supprimé les réunions inutiles. »\n\nSix mois plus tard, le bilan est plutôt positif. Selon un sondage interne, la plupart des employés se disent moins fatigués, et les absences pour maladie ont diminué d'environ un tiers. La production, elle, est restée stable. Certains clients s'étaient d'abord inquiétés de ne pas pouvoir joindre l'entreprise le vendredi ; une permanence téléphonique a donc été mise en place, assurée à tour de rôle par deux employés volontaires.\n\nTout n'est pas parfait pour autant. Quelques salariés reconnaissent qu'ils ont parfois du mal à terminer leurs tâches avant le jeudi soir, et que le rythme est plus intense. « Les journées sont plus chargées, mais le long week-end compense largement », résume un développeur.\n\nL'expérience intéresse d'autres entreprises de la région, mais les spécialistes restent prudents. Pour l'économiste Marc Lévesque, ce modèle convient surtout aux bureaux : « Dans un hôpital ou un commerce, on ne peut pas simplement fermer un jour de plus. Il faudrait embaucher davantage, et ce n'est pas toujours possible. »\n\nLogiciels Boréal décidera en décembre si la formule devient définitive.",
+    "translation": {
+      "en": "Since January, the twenty-two employees of Logiciels Boréal, a small company in Sherbrooke, have been working only four days a week. Their salary, however, has not changed. 'We are not asking the teams to do forty hours in four days,' explains the director, Nathalie Bérubé. 'We moved to thirty-two hours, and we got rid of unnecessary meetings.'\n\nSix months later, the results are fairly positive. According to an internal survey, most employees say they are less tired, and sick-leave absences have fallen by about a third. Output has remained stable. Some clients had at first worried that they would not be able to reach the company on Fridays, so a telephone service was set up, staffed in turn by two volunteer employees.\n\nNot everything is perfect, though. A few employees admit that they sometimes struggle to finish their tasks before Thursday evening, and that the pace is more intense. 'The days are busier, but the long weekend more than makes up for it,' sums up one developer.\n\nThe experiment interests other companies in the region, but specialists remain cautious. For the economist Marc Lévesque, this model suits offices above all: 'In a hospital or a shop, you can't just close one more day. You would have to hire more people, and that isn't always possible.'\n\nLogiciels Boréal will decide in December whether the arrangement becomes permanent.",
+      "hi": "जनवरी से शेरब्रुक की एक छोटी कंपनी, लॉजिसिएल बोरेआल, के बाईस कर्मचारी हफ़्ते में सिर्फ़ चार दिन काम करते हैं। उनकी तनख़्वाह में कोई बदलाव नहीं हुआ है। निदेशक नताली बेरूबे स्पष्ट करती हैं, 'हम टीमों से चार दिन में चालीस घंटे काम करने को नहीं कह रहे। हमने काम के घंटे बत्तीस कर दिए हैं, और बेकार की मीटिंगें बंद कर दी हैं।'\n\nछह महीने बाद नतीजे काफ़ी अच्छे हैं। एक आंतरिक सर्वे के अनुसार ज़्यादातर कर्मचारी कहते हैं कि वे कम थकते हैं, और बीमारी की वजह से छुट्टियाँ लगभग एक-तिहाई कम हो गई हैं। उत्पादन स्थिर रहा है। कुछ ग्राहकों को शुरू में चिंता थी कि शुक्रवार को वे कंपनी से संपर्क नहीं कर पाएँगे; इसलिए एक फ़ोन-सेवा शुरू की गई, जिसे बारी-बारी से दो स्वयंसेवी कर्मचारी सँभालते हैं।\n\nफिर भी सब कुछ बिल्कुल ठीक नहीं है। कुछ कर्मचारी मानते हैं कि कभी-कभी उन्हें गुरुवार शाम से पहले अपना काम पूरा करने में मुश्किल होती है, और काम की रफ़्तार ज़्यादा तेज़ है। एक डेवलपर का कहना है, 'दिन ज़्यादा व्यस्त होते हैं, लेकिन लंबा सप्ताहांत इसकी भरपूर भरपाई कर देता है।'\n\nइस प्रयोग में इलाक़े की दूसरी कंपनियों की भी दिलचस्पी है, लेकिन विशेषज्ञ सावधान हैं। अर्थशास्त्री मार्क लेवेस्क के अनुसार यह मॉडल ख़ास तौर पर दफ़्तरों के लिए ठीक है: 'किसी अस्पताल या दुकान को आप यूँ ही एक दिन और बंद नहीं कर सकते। ज़्यादा लोगों को नौकरी पर रखना पड़ेगा, और यह हमेशा संभव नहीं होता।'\n\nलॉजिसिएल बोरेआल दिसंबर में तय करेगी कि यह व्यवस्था स्थायी होगी या नहीं।"
+    },
+    "questions": [
+      { "q": { "en": "What happened to the employees' salary?" }, "options": ["It went down by 20%", "It stayed the same", "It went up slightly", "It depends on the employee"], "answer": 1, "explanation": { "en": "'Leur salaire, lui, n'a pas changé.' If you chose 'went down', you assumed instead of reading: an inference trap.", "hi": "'Leur salaire, lui, n'a pas changé.' अगर आपने 'कम हुई' चुना, तो आपने पढ़ने के बजाय अनुमान लगाया: यह निहित-अर्थ वाला जाल है।" }, "kind": "literal", "evidence": "Leur salaire, lui, n'a pas changé." },
+      { "q": { "en": "How many hours a week do they work now?" }, "options": ["Forty", "Twenty-two", "Thirty-two", "Thirty-six"], "answer": 2, "explanation": { "en": "'Nous sommes passés à trente-deux heures.' Forty is mentioned only in a negative sentence; twenty-two is the number of employees.", "hi": "'Nous sommes passés à trente-deux heures.' चालीस सिर्फ़ नकारात्मक वाक्य में आया है; बाईस कर्मचारियों की संख्या है।" }, "kind": "literal", "evidence": "Nous sommes passés à trente-deux heures" },
+      { "q": { "en": "What does the internal survey show?" }, "options": ["All employees are less tired", "Nobody is absent any more", "Production has doubled", "Most employees feel less tired"], "answer": 3, "explanation": { "en": "'La plupart' = most, not all. Absences fell by a third, they did not disappear.", "hi": "'La plupart' = ज़्यादातर, सभी नहीं। छुट्टियाँ एक-तिहाई कम हुईं, ख़त्म नहीं हुईं।" }, "kind": "vocabulary", "evidence": "la plupart des employés se disent moins fatigués" },
+      { "q": { "en": "How did the company respond to the clients' worry?" }, "options": ["It set up a phone service on Fridays", "It reopened on Fridays for everyone", "It hired two new employees", "It sent clients an apology"], "answer": 0, "explanation": { "en": "'Une permanence téléphonique a donc été mise en place', run by two volunteer employees — not new hires.", "hi": "'Une permanence téléphonique a donc été mise en place', जिसे दो स्वयंसेवी कर्मचारी चलाते हैं — नए लोग नहीं रखे गए।" }, "kind": "inference", "evidence": "une permanence téléphonique a donc été mise en place" },
+      { "q": { "en": "What is the economist's opinion?" }, "options": ["Every company should adopt the model", "The model mainly suits offices", "The model is bad for workers' health", "Hospitals have already adopted it"], "answer": 1, "explanation": { "en": "'Ce modèle convient surtout aux bureaux': it is harder for hospitals and shops.", "hi": "'Ce modèle convient surtout aux bureaux': अस्पतालों और दुकानों के लिए यह कठिन है।" }, "kind": "inference", "evidence": "ce modèle convient surtout aux bureaux" },
+      { "q": { "en": "Is the four-day week permanent at Logiciels Boréal?" }, "options": ["Yes, since January", "No, it ends in December", "Not yet: a decision will be made in December", "Yes, for offices only"], "answer": 2, "explanation": { "en": "'Décidera en décembre si la formule devient définitive' — it is not decided yet.", "hi": "'Décidera en décembre si la formule devient définitive' — अभी तय नहीं हुआ है।" }, "kind": "inference", "evidence": "Logiciels Boréal décidera en décembre si la formule devient définitive." }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "Write a personal error summary for mock 1 reading and listening: your scores, your two most frequent error types with an example of each, and three concrete actions for the next week.",
+      "hi": "मॉक 1 के पठन और श्रवण के लिए अपनी ग़लतियों का निजी सारांश लिखिए: आपके अंक, सबसे ज़्यादा होने वाले दो प्रकार की ग़लतियाँ (हर एक का एक उदाहरण), और अगले हफ़्ते के लिए तीन ठोस क़दम।",
+      "fr": "Rédigez un bilan personnel de vos erreurs à l'examen blanc 1."
+    },
+    "minWords": 80,
+    "maxWords": 150,
+    "hints": [
+      { "en": "Start with your scores: En compréhension écrite, j'ai eu … sur 40.", "hi": "अपने अंकों से शुरू कीजिए: En compréhension écrite, j'ai eu … sur 40।" },
+      { "en": "Use the future for your actions: je relirai, j'écouterai, je noterai.", "hi": "अपने क़दमों के लिए भविष्य काल लिखिए: je relirai, j'écouterai, je noterai।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Mes erreurs les plus fréquentes sont …", "en": "My most frequent mistakes are …", "hi": "मेरी सबसे ज़्यादा होने वाली ग़लतियाँ हैं …", "pron": "मे ज़े-ग़öग़ ले प्लü फ़्ग़े-काँत सोँ" },
+      { "fr": "Par exemple, …", "en": "For example, …", "hi": "उदाहरण के लिए, …", "pron": "पा ग़ैग-ज़ाँप्ल" },
+      { "fr": "La semaine prochaine, je …", "en": "Next week, I will …", "hi": "अगले हफ़्ते मैं …", "pron": "ला सö-मैन प्ग़ो-शैन झ़ö" }
+    ],
+    "model": {
+      "fr": "En compréhension écrite, j'ai eu 26 sur 40, et en compréhension orale, 22 sur 40. Mes erreurs les plus fréquentes sont des erreurs de détail et des pièges. Par exemple, j'ai cru que la réunion était jeudi, alors qu'elle avait été déplacée à vendredi. Dans un article, j'ai choisi « tous les employés », alors que le texte disait « la plupart ». La semaine prochaine, je soulignerai les chiffres et les négations, je lirai chaque option jusqu'au bout et j'écouterai une émission de radio de dix minutes par jour. Je noterai aussi chaque nouveau mot dans mon carnet d'erreurs.",
+      "en": "In reading I got 26 out of 40, and in listening 22 out of 40. My most frequent mistakes are detail errors and traps. For example, I thought the meeting was on Thursday, whereas it had been moved to Friday. In an article, I chose 'all the employees', whereas the text said 'most'. Next week, I will underline numbers and negations, I will read each option to the end, and I will listen to ten minutes of radio a day. I will also write every new word in my error notebook."
+    },
+    "checklist": [
+      { "en": "Did you name at least two error types with a real example?", "hi": "क्या आपने कम से कम दो प्रकार की ग़लतियाँ असली उदाहरण के साथ लिखीं?" },
+      { "en": "Are your actions concrete (what, how often)?", "hi": "क्या आपके क़दम ठोस हैं (क्या, कितनी बार)?" },
+      { "en": "Did you use 'j'ai cru que + imparfait' correctly?", "hi": "क्या आपने 'j'ai cru que + imparfait' सही इस्तेमाल किया?" }
+    ]
+  },
+  "review": {
+    "fromDays": [81, 85, 93, 101, 102],
+    "items": [
+      { "fr": "la consigne", "en": "the instruction", "hi": "निर्देश", "pron": "ला कोँ-सीन्य" },
+      { "fr": "une seule fois", "en": "only once", "hi": "सिर्फ़ एक बार", "pron": "üन सöल फ़्वा" },
+      { "fr": "éliminer les réponses impossibles", "en": "to rule out impossible answers", "hi": "असंभव उत्तर हटाना", "pron": "ए-ली-मी-ने ले ग़े-पोँस ज़ैँ-पो-सीब्ल" },
+      { "fr": "Selon l'auteur, …", "en": "According to the author, …", "hi": "लेखक के अनुसार, …", "pron": "सö-लोँ लो-तöग़" },
+      { "fr": "y'a pas de souci", "en": "no problem (spoken)", "hi": "कोई बात नहीं (बोलचाल)", "pron": "या पा द सू-सी" },
+      { "fr": "en revanche", "en": "on the other hand", "hi": "दूसरी ओर", "pron": "आँ ग़ö-वाँश" },
+      { "fr": "une permanence téléphonique", "en": "a phone service (staffed line)", "hi": "फ़ोन पर उपलब्ध सेवा", "pron": "üन पैग़-मा-नाँस ते-ले-फ़ो-नीक" },
+      { "fr": "je relis mon texte", "en": "I reread my text", "hi": "मैं अपना पाठ दोबारा पढ़ता / पढ़ती हूँ", "pron": "झ़ö ग़ö-ली मोँ तैक्स्त" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "The text says 'la plupart des clients sont satisfaits'. Which option is a trap?", "hi": "पाठ कहता है 'la plupart des clients sont satisfaits'। कौन-सा विकल्प जाल है?" }, "options": ["Most clients are satisfied", "Tous les clients sont satisfaits", "A majority of clients are happy", "Many clients are satisfied"], "answer": 1, "explanation": { "en": "'Tous' (all) is an absolute word; the text only says 'most'.", "hi": "'Tous' (सभी) पूर्ण शब्द है; पाठ सिर्फ़ 'ज़्यादातर' कहता है।" } },
+    { "type": "mcq", "prompt": { "en": "You missed the answer because you didn't hear 'ne … plus'. What type of error is it?", "hi": "आपसे उत्तर इसलिए छूटा क्योंकि आपने 'ne … plus' नहीं सुना। यह किस प्रकार की ग़लती है?" }, "options": ["Vocabulary", "Detail", "Inference", "Spelling"], "answer": 1, "explanation": { "en": "Missing a negation, a number or a small word is a detail error.", "hi": "नकार, संख्या या छोटा शब्द छूट जाना बारीक जानकारी की ग़लती है।" } },
+    { "type": "mcq", "prompt": { "en": "'Six au départ, mais Paul ne viendra pas.' How many people will come?", "hi": "'Six au départ, mais Paul ne viendra pas.' कितने लोग आएँगे?" }, "options": ["Six", "Seven", "Five", "Four"], "answer": 2, "explanation": { "en": "Six minus Paul = five. The first number heard is not always the answer.", "hi": "छह में से पॉल घटाइए = पाँच। पहली सुनी संख्या हमेशा उत्तर नहीं होती।" } },
+    { "type": "fill", "prompt": { "en": "Complete with the imparfait of être: I thought the room was free.", "hi": "être का imparfait लिखिए: मुझे लगा कि कमरा ख़ाली था।" }, "sentence": "J'ai cru que la salle ___ libre.", "answer": "était", "accept": ["etait"], "explanation": { "en": "After 'j'ai cru que', the wrong belief goes in the imparfait: était.", "hi": "'j'ai cru que' के बाद ग़लत धारणा imparfait में आती है: était।" } },
+    { "type": "fill", "prompt": { "en": "Complete: I got it wrong (a woman speaking).", "hi": "पूरा कीजिए: मुझसे ग़लती हुई (महिला बोल रही है)।" }, "sentence": "Je me suis ___ .", "answer": "trompée", "accept": ["trompee"], "explanation": { "en": "Se tromper uses être: the participle agrees with a female speaker: trompée.", "hi": "Se tromper के साथ être आता है: बोलने वाली महिला हो तो भूतकृदंत मेल खाता है: trompée।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "The text doesn't say that.", "hi": "पाठ यह नहीं कहता।" }, "answer": "Le texte ne dit pas ça.", "accept": ["Le texte ne dit pas cela.", "Le texte ne le dit pas.", "Le texte ne dit pas ça"], "explanation": { "en": "Ne … pas around the verb dit.", "hi": "क्रिया dit के दोनों ओर ne … pas।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: I mixed up the two words.", "hi": "शब्दों को सही क्रम में रखिए: मैंने दोनों शब्दों में गड़बड़ कर दी।" }, "words": ["confondu", "deux", "J'ai", "mots.", "les"], "answer": "J'ai confondu les deux mots.", "explanation": { "en": "Passé composé: j'ai + confondu, then the object.", "hi": "Passé composé: j'ai + confondu, फिर कर्म।" } }
+  ]
+}

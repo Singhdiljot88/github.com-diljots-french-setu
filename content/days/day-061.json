@@ -1,0 +1,202 @@
+{
+  "day": 61,
+  "phase": 4,
+  "title": { "fr": "À mon avis", "en": "In my opinion", "hi": "मेरी राय में" },
+  "objective": {
+    "en": "Give your opinion with je pense que, je trouve que, je crois que, à mon avis, selon moi and pour moi; say that you agree or disagree; discuss the pros and cons of working from home.",
+    "hi": "je pense que, je trouve que, je crois que, à mon avis, selon moi और pour moi से अपनी राय देना; सहमति या असहमति जताना; घर से काम करने (वर्क फ़्रॉम होम) के फ़ायदों और नुक़सानों पर बात करना।"
+  },
+  "prerequisites": {
+    "days": [41, 46, 48, 57, 60],
+    "summary": {
+      "en": "You can tell what happened (passé composé, imparfait), talk about the future and use negation such as ne … personne. Now you start saying what you think.",
+      "hi": "आप बता सकते हैं कि क्या हुआ (passé composé, imparfait), भविष्य की बात कर सकते हैं और ne … personne जैसा नकार इस्तेमाल कर सकते हैं। अब आप यह कहना शुरू करेंगे कि आप क्या सोचते हैं।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "le télétravail", "en": "remote work / working from home", "hi": "घर से काम, दूर से काम", "pron": "लö ते-ले-त्ग़ा-वाय", "ipa": "lə teletʁavaj", "pos": "noun", "gender": "m", "lemma": "télétravail", "note": { "en": "In Québec you will also hear 'travailler à distance'.", "hi": "क्यूबेक में आप 'travailler à distance' भी सुनेंगे।" } },
+    { "fr": "l'avis", "en": "opinion, view", "hi": "राय", "pron": "ला-वी", "ipa": "lavi", "pos": "noun", "gender": "m", "lemma": "avis", "note": { "en": "Silent s. 'Changer d'avis' = to change your mind.", "hi": "s नहीं बोला जाता। 'Changer d'avis' = अपनी राय बदलना।" } },
+    { "fr": "l'opinion", "en": "opinion", "hi": "मत, राय", "pron": "लो-पी-न्योँ", "ipa": "lɔpinjɔ̃", "pos": "noun", "gender": "f", "lemma": "opinion", "note": { "en": "Feminine in French: une opinion. In Hindi राय is also feminine — an easy match for once.", "hi": "फ़्रेंच में स्त्रीलिंग: une opinion। हिंदी में 'राय' भी स्त्रीलिंग है — इस बार दोनों मेल खाते हैं।" } },
+    { "fr": "penser", "en": "to think", "hi": "सोचना, मानना", "pron": "पाँ-से", "ipa": "pɑ̃se", "pos": "verb" },
+    { "fr": "trouver", "en": "to find; to think (judgement)", "hi": "पाना; (किसी बात के बारे में) लगना", "pron": "त्ग़ू-वे", "ipa": "tʁuve", "pos": "verb", "note": { "en": "'Je trouve que…' gives an opinion based on your own experience, like 'मुझे लगता है कि…'.", "hi": "'Je trouve que…' अपने अनुभव पर आधारित राय है, जैसे 'मुझे लगता है कि…'।" } },
+    { "fr": "croire", "en": "to believe", "hi": "विश्वास करना, मानना", "pron": "क्ग़वाग़", "ipa": "kʁwaʁ", "pos": "verb", "note": { "en": "Irregular: je crois, tu crois, il croit, nous croyons, vous croyez, ils croient.", "hi": "अनियमित: je crois, tu crois, il croit, nous croyons, vous croyez, ils croient।" } },
+    { "fr": "d'accord", "en": "agreed; in agreement", "hi": "सहमत; ठीक है", "pron": "दा-कॉग़", "ipa": "dakɔʁ", "pos": "phrase", "note": { "en": "'Être d'accord avec quelqu'un' = to agree with someone. Silent d at the end.", "hi": "'Être d'accord avec quelqu'un' = किसी से सहमत होना। आख़िरी d नहीं बोला जाता।" } },
+    { "fr": "un avantage", "en": "an advantage", "hi": "फ़ायदा", "pron": "ऐँ ना-वाँ-ताझ़", "ipa": "ɛ̃ navɑ̃taʒ", "pos": "noun", "gender": "m", "lemma": "avantage", "note": { "en": "Masculine, even though it ends in -e. Hindi फ़ायदा is masculine too.", "hi": "-e पर ख़त्म होता है फिर भी पुल्लिंग है। हिंदी में 'फ़ायदा' भी पुल्लिंग है।" } },
+    { "fr": "un inconvénient", "en": "a drawback, disadvantage", "hi": "नुक़सान, कमी", "pron": "ऐँ नैँ-कोँ-वे-न्याँ", "ipa": "ɛ̃ nɛ̃kɔ̃venjɑ̃", "pos": "noun", "gender": "m", "lemma": "inconvénient" },
+    { "fr": "le trajet", "en": "commute, journey (from A to B)", "hi": "आने-जाने का सफ़र", "pron": "लö त्ग़ा-झ़ै", "ipa": "lə tʁaʒɛ", "pos": "noun", "gender": "m", "lemma": "trajet" },
+    { "fr": "isolé", "en": "isolated, cut off", "hi": "अकेला, अलग-थलग", "pron": "ई-ज़ो-ले", "ipa": "izɔle", "pos": "adjective", "note": { "en": "Feminine: isolée (same sound).", "hi": "स्त्रीलिंग: isolée (आवाज़ वही)।" } },
+    { "fr": "efficace", "en": "efficient, effective", "hi": "कारगर, कुशल", "pron": "ए-फ़ी-कास", "ipa": "efikas", "pos": "adjective", "gender": "mf" },
+    { "fr": "la concentration", "en": "concentration, focus", "hi": "ध्यान, एकाग्रता", "pron": "ला कोँ-साँ-त्ग़ा-स्योँ", "ipa": "la kɔ̃sɑ̃tʁasjɔ̃", "pos": "noun", "gender": "f", "lemma": "concentration" }
+  ],
+  "phrases": [
+    { "fr": "À mon avis, le télétravail est pratique.", "en": "In my opinion, working from home is practical.", "hi": "मेरी राय में, घर से काम करना सुविधाजनक है।", "pron": "आ मोँ ना-वी लö ते-ले-त्ग़ा-वाय ऐ प्ग़ा-तीक" },
+    { "fr": "Je pense que c'est une bonne idée.", "en": "I think it's a good idea.", "hi": "मुझे लगता है कि यह अच्छा विचार है।", "pron": "झ़ö पाँस कö सै-तüन बॉ-नी-दे" },
+    { "fr": "Je ne suis pas d'accord avec toi.", "en": "I don't agree with you.", "hi": "मैं तुमसे सहमत नहीं हूँ।", "pron": "झ़ö नö स्üई पा दा-कॉग़ आ-वैक त्वा" },
+    { "fr": "Je suis tout à fait d'accord.", "en": "I completely agree.", "hi": "मैं पूरी तरह सहमत हूँ।", "pron": "झ़ö स्üई तू ता फ़ै दा-कॉग़" },
+    { "fr": "Selon moi, ça dépend.", "en": "In my view, it depends.", "hi": "मेरे हिसाब से, यह निर्भर करता है।", "pron": "सö-लोँ मवा सा दे-पाँ" },
+    { "fr": "Et toi, qu'est-ce que tu en penses ?", "en": "And you, what do you think about it?", "hi": "और तुम, तुम्हारी इस बारे में क्या राय है?", "pron": "ए त्वा कैस-कö तü आँ पाँस", "note": { "en": "'En' replaces 'de ça' (penser de = to think of). You met en on Day 53.", "hi": "'En' यहाँ 'de ça' की जगह है (penser de = के बारे में सोचना)। en आपने दिन 53 में सीखा था।" } },
+    { "fr": "Tu as raison.", "en": "You're right.", "hi": "तुम सही हो।", "pron": "तü आ ग़ै-ज़ोँ", "note": { "en": "French 'has' reason (avoir raison), it does not 'be' right.", "hi": "फ़्रेंच में 'सही होना' के लिए avoir raison (कारण 'रखना') कहते हैं, être नहीं।" } }
+  ],
+  "grammar": {
+    "title": { "en": "Saying what you think: opinion phrases", "hi": "अपनी सोच बताना: राय के वाक्यांश" },
+    "explanation": {
+      "en": "There are two families of opinion phrases. (1) A verb + que + a full sentence: je pense que…, je trouve que…, je crois que… The verb after que is in the normal present, past or future (the indicative). Que becomes qu' before a vowel: je pense qu'il a raison. (2) A short opener + comma + a full sentence, with no que: à mon avis, …; selon moi, …; pour moi, … To react, say je suis d'accord (avec toi / avec vous) or je ne suis pas d'accord. In speech you will often hear 'j'suis pas d'accord' without ne.",
+      "hi": "राय के वाक्यांशों के दो परिवार हैं। (1) क्रिया (verb) + que + पूरा वाक्य: je pense que…, je trouve que…, je crois que… que के बाद क्रिया सामान्य वर्तमान, भूत या भविष्य में रहती है (indicative)। स्वर से पहले que बन जाता है qu': je pense qu'il a raison। (2) छोटा शुरुआती वाक्यांश + अल्पविराम + पूरा वाक्य, बिना que: à mon avis, …; selon moi, …; pour moi, … प्रतिक्रिया देने के लिए कहिए je suis d'accord (avec toi / avec vous) या je ne suis pas d'accord। बोलचाल में अक्सर ne के बिना 'j'suis pas d'accord' सुनाई देगा।"
+    },
+    "comparison": {
+      "en": "English often drops 'that' (I think it's good). French never drops que. Hindi works like French here: 'मुझे लगता है कि…' — कि is almost always there, just like que. 'À mon avis' = 'मेरी राय में', and 'selon moi' = 'मेरे हिसाब से'. Careful: 'in my opinion' is NOT 'dans mon opinion'.",
+      "hi": "अंग्रेज़ी में 'that' अक्सर छूट जाता है (I think it's good)। फ़्रेंच में que कभी नहीं छूटता। यहाँ हिंदी फ़्रेंच जैसी है: 'मुझे लगता है कि…' — कि लगभग हमेशा रहता है, ठीक que की तरह। 'À mon avis' = 'मेरी राय में', और 'selon moi' = 'मेरे हिसाब से'। ध्यान दें: 'in my opinion' का अनुवाद 'dans mon opinion' नहीं है।"
+    },
+    "examples": [
+      { "fr": "Je pense que le métro est pratique.", "en": "I think the metro is convenient.", "hi": "मुझे लगता है कि मेट्रो सुविधाजनक है।", "pron": "झ़ö पाँस कö लö मे-त्ग़ो ऐ प्ग़ा-तीक" },
+      { "fr": "Je trouve qu'il fait trop froid à Montréal.", "en": "I find it's too cold in Montréal.", "hi": "मुझे लगता है कि मॉन्ट्रियाल में बहुत ज़्यादा ठंड है।", "pron": "झ़ö त्ग़ूव कील फ़ै त्ग़ो फ़्ग़वा आ मोँ-ग़े-आल" },
+      { "fr": "Je crois que tu as raison.", "en": "I believe you're right.", "hi": "मुझे विश्वास है कि तुम सही हो।", "pron": "झ़ö क्ग़वा कö तü आ ग़ै-ज़ोँ" },
+      { "fr": "À mon avis, c'est trop cher.", "en": "In my opinion, it's too expensive.", "hi": "मेरी राय में, यह बहुत महँगा है।", "pron": "आ मोँ ना-वी सै त्ग़ो शैग़" },
+      { "fr": "Selon moi, le télétravail n'est pas pour tout le monde.", "en": "In my view, remote work isn't for everyone.", "hi": "मेरे हिसाब से, घर से काम करना हर किसी के लिए नहीं है।", "pron": "सö-लोँ मवा लö ते-ले-त्ग़ा-वाय नै पा पूग़ तू लö मोँद" },
+      { "fr": "Je ne suis pas d'accord avec Marc.", "en": "I don't agree with Marc.", "hi": "मैं मार्क से सहमत नहीं हूँ।", "pron": "झ़ö नö स्üई पा दा-कॉग़ आ-वैक माग़्क" }
+    ],
+    "pitfalls": [
+      { "en": "Don't drop que: 'Je pense c'est bien' is wrong. Say 'Je pense que c'est bien.'", "hi": "que मत छोड़िए: 'Je pense c'est bien' ग़लत है। कहिए 'Je pense que c'est bien.'" },
+      { "en": "Don't say 'J'ai d'accord' or 'Je d'accord'. You ARE in agreement: 'Je suis d'accord.'", "hi": "'J'ai d'accord' या 'Je d'accord' मत कहिए। सही है 'Je suis d'accord' (मैं सहमत हूँ)।" },
+      { "en": "Don't put que after à mon avis / selon moi: 'À mon avis que…' is wrong.", "hi": "à mon avis / selon moi के बाद que मत लगाइए: 'À mon avis que…' ग़लत है।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "/ɑ̃/ (pense, temps) vs /ɔ̃/ (mon, opinion)",
+    "tip": {
+      "en": "Both are nasal vowels, with no n or m sound at the end. For /ɑ̃/ (an, en, am, em) open your mouth wide as for आ and let air go through the nose: आँ. For /ɔ̃/ (on, om) round your lips as for ओ: ओँ. 'Je pense' and 'mon avis' should sound clearly different.",
+      "hi": "दोनों नासिक्य स्वर हैं, आख़िर में न या म की आवाज़ नहीं आती। /ɑ̃/ (an, en, am, em) के लिए मुँह आ जैसा चौड़ा खोलिए और हवा नाक से जाने दीजिए: आँ। /ɔ̃/ (on, om) के लिए होंठ ओ की तरह गोल कीजिए: ओँ। 'Je pense' और 'mon avis' साफ़ अलग सुनाई देने चाहिए।"
+    },
+    "words": [
+      { "fr": "je pense", "en": "I think", "hi": "मैं सोचता/सोचती हूँ", "pron": "झ़ö पाँस", "ipa": "ʒə pɑ̃s" },
+      { "fr": "le temps", "en": "time; weather", "hi": "समय; मौसम", "pron": "लö ताँ", "ipa": "lə tɑ̃", "note": { "en": "Silent p and s.", "hi": "p और s नहीं बोले जाते।" } },
+      { "fr": "mon avis", "en": "my opinion", "hi": "मेरी राय", "pron": "मोँ ना-वी", "ipa": "mɔ̃ navi", "note": { "en": "Liaison: the n links to avis — मोँ ना-वी.", "hi": "लियेज़ों: n अगले शब्द avis से जुड़ता है — मोँ ना-वी।" } },
+      { "fr": "l'opinion", "en": "opinion", "hi": "राय", "pron": "लो-पी-न्योँ", "ipa": "lɔpinjɔ̃" },
+      { "fr": "un avantage", "en": "an advantage", "hi": "फ़ायदा", "pron": "ऐँ ना-वाँ-ताझ़", "ipa": "ɛ̃ navɑ̃taʒ" },
+      { "fr": "selon", "en": "according to", "hi": "के अनुसार", "pron": "सö-लोँ", "ipa": "səlɔ̃" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Le télétravail : pour ou contre ?", "en": "Remote work: for or against?" },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "In an office in Montréal, three colleagues — Marc, Sophie and Priya — react to a message from management about working from home.",
+      "hi": "मॉन्ट्रियाल के एक दफ़्तर में तीन सहकर्मी — मार्क, सोफ़ी और प्रिया — घर से काम करने के बारे में प्रबंधन के संदेश पर अपनी प्रतिक्रिया दे रहे हैं।"
+    },
+    "lines": [
+      { "speaker": "Marc", "voice": "m2", "fr": "Alors, vous avez lu le message de la direction ? On pourra travailler de la maison deux jours par semaine.", "en": "So, have you read the message from management? We'll be able to work from home two days a week.", "hi": "तो, तुम लोगों ने प्रबंधन का संदेश पढ़ा? हम हफ़्ते में दो दिन घर से काम कर सकेंगे।" },
+      { "speaker": "Sophie", "voice": "f2", "fr": "Oui ! Franchement, je trouve que c'est une excellente nouvelle. Je perds une heure et demie dans le métro chaque jour.", "en": "Yes! Honestly, I think it's excellent news. I lose an hour and a half on the metro every day.", "hi": "हाँ! सच कहूँ तो मुझे यह बहुत बढ़िया ख़बर लगती है। मेरा हर दिन डेढ़ घंटा मेट्रो में बर्बाद होता है।" },
+      { "speaker": "Marc", "voice": "m2", "fr": "Moi, je ne suis pas d'accord. À mon avis, on travaille mieux ensemble, au bureau.", "en": "I don't agree. In my opinion, we work better together, at the office.", "hi": "मैं सहमत नहीं हूँ। मेरी राय में, हम दफ़्तर में साथ मिलकर बेहतर काम करते हैं।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Ça dépend des gens, non ? Pour moi, le télétravail, c'est surtout plus calme. À la maison, je me concentre mieux.", "en": "It depends on the person, doesn't it? For me, remote work is above all quieter. At home, I concentrate better.", "hi": "यह लोगों पर निर्भर करता है, है ना? मेरे लिए घर से काम करने का सबसे बड़ा फ़ायदा शांति है। घर पर मेरा ध्यान बेहतर लगता है।" },
+      { "speaker": "Marc", "voice": "m2", "fr": "Peut-être, mais on est isolé. L'année dernière, j'ai travaillé six mois chez moi et je ne parlais à personne.", "en": "Maybe, but you're isolated. Last year I worked from home for six months and I didn't talk to anyone.", "hi": "शायद, लेकिन आदमी अकेला पड़ जाता है। पिछले साल मैंने छह महीने घर से काम किया और मैं किसी से बात नहीं करता था।" },
+      { "speaker": "Sophie", "voice": "f2", "fr": "Je comprends. Mais deux jours, ce n'est pas six mois !", "en": "I understand. But two days isn't six months!", "hi": "मैं समझती हूँ। लेकिन दो दिन, छह महीने तो नहीं हैं!" },
+      { "speaker": "Priya", "voice": "f1", "fr": "C'est vrai. Et puis on économise de l'argent : moins d'essence, moins de repas au restaurant.", "en": "That's true. And we save money too: less gas, fewer restaurant meals.", "hi": "सही बात है। और फिर पैसे भी बचते हैं: कम पेट्रोल, कम बार बाहर खाना।" },
+      { "speaker": "Marc", "voice": "m2", "fr": "D'accord, il y a des avantages. Mais je crois que les réunions en ligne sont moins efficaces.", "en": "OK, there are advantages. But I believe online meetings are less effective.", "hi": "ठीक है, कुछ फ़ायदे हैं। लेकिन मेरा मानना है कि ऑनलाइन मीटिंग कम कारगर होती हैं।" },
+      { "speaker": "Sophie", "voice": "f2", "fr": "Là, je suis tout à fait d'accord avec toi. Les réunions en ligne, c'est fatigant.", "en": "On that, I completely agree with you. Online meetings are tiring.", "hi": "इस बात पर मैं तुमसे पूरी तरह सहमत हूँ। ऑनलाइन मीटिंग थका देती हैं।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Et toi, Marc, tu vas choisir quels jours ?", "en": "And you, Marc, which days are you going to choose?", "hi": "और तुम, मार्क, तुम कौन-से दिन चुनोगे?" },
+      { "speaker": "Marc", "voice": "m2", "fr": "Je pense que je vais rester au bureau le lundi et le vendredi… et peut-être essayer le mercredi à la maison.", "en": "I think I'm going to stay at the office on Mondays and Fridays… and maybe try Wednesdays at home.", "hi": "मुझे लगता है कि मैं सोमवार और शुक्रवार को दफ़्तर में रहूँगा… और शायद बुधवार को घर से काम करके देखूँगा।" },
+      { "speaker": "Sophie", "voice": "f2", "fr": "Ah, tu vois ! Tu changes d'avis !", "en": "Ah, you see! You're changing your mind!", "hi": "देखा! तुम अपनी राय बदल रहे हो!" },
+      { "speaker": "Marc", "voice": "m2", "fr": "Je ne change pas d'avis, j'essaie, c'est tout !", "en": "I'm not changing my mind, I'm trying it, that's all!", "hi": "मैं राय नहीं बदल रहा, बस आज़मा रहा हूँ, इतना ही!" }
+    ],
+    "questions": [
+      { "q": { "en": "What has management announced?" }, "options": ["Everyone must come to the office every day", "Staff can work from home two days a week", "The office will close on Wednesdays", "Meetings will now be online"], "answer": 1, "explanation": { "en": "Marc says they will be able to work from home two days a week.", "hi": "मार्क कहता है कि वे हफ़्ते में दो दिन घर से काम कर सकेंगे।" }, "kind": "literal", "evidence": "On pourra travailler de la maison deux jours par semaine." },
+      { "q": { "en": "Why is Sophie so pleased?" }, "options": ["She lives next to the office", "She hates her colleagues", "Her commute by metro is long", "She has small children"], "answer": 2, "explanation": { "en": "She loses an hour and a half on the metro every day.", "hi": "उसका हर दिन डेढ़ घंटा मेट्रो में जाता है।" }, "kind": "literal", "evidence": "Je perds une heure et demie dans le métro chaque jour." },
+      { "q": { "en": "What happened when Marc worked from home last year?" }, "options": ["He felt lonely: he talked to nobody", "He worked better than ever", "He saved a lot of money", "He moved to another city"], "answer": 0, "explanation": { "en": "'Je ne parlais à personne' — he spoke to no one, so he felt isolated.", "hi": "'Je ne parlais à personne' — वह किसी से बात नहीं करता था, इसलिए अकेला महसूस करता था।" }, "kind": "inference", "evidence": "je ne parlais à personne" },
+      { "q": { "en": "Why does Priya like remote work?" }, "options": ["She can sleep later", "She concentrates better at home", "She can see her family in India", "She doesn't like the metro"], "answer": 1, "explanation": { "en": "She says it is calmer and she concentrates better at home.", "hi": "वह कहती है कि घर पर ज़्यादा शांति है और उसका ध्यान बेहतर लगता है।" }, "kind": "literal", "evidence": "À la maison, je me concentre mieux." },
+      { "q": { "en": "On which point do Sophie and Marc agree?" }, "options": ["The office is too far", "Two days at home is too much", "Restaurants are too expensive", "Online meetings are tiring and less effective"], "answer": 3, "explanation": { "en": "Marc says online meetings are less effective; Sophie completely agrees and finds them tiring.", "hi": "मार्क कहता है कि ऑनलाइन मीटिंग कम कारगर हैं; सोफ़ी पूरी तरह सहमत है और उन्हें थकाऊ मानती है।" }, "kind": "inference", "evidence": "Là, je suis tout à fait d'accord avec toi." },
+      { "q": { "en": "What does Marc finally decide?" }, "options": ["To stay at the office every day", "To work from home on Mondays and Fridays", "To try working from home on Wednesdays", "To ask management to cancel the plan"], "answer": 2, "explanation": { "en": "He will stay at the office on Mondays and Fridays and perhaps try Wednesdays at home.", "hi": "वह सोमवार और शुक्रवार दफ़्तर में रहेगा और शायद बुधवार को घर से काम आज़माएगा।" }, "kind": "gist", "evidence": "peut-être essayer le mercredi à la maison" }
+    ],
+    "dictation": ["À mon avis, on travaille mieux ensemble.", "Je trouve que c'est une excellente nouvelle.", "Je crois que les réunions en ligne sont moins efficaces."],
+    "gapFill": { "text": "Moi, je ne suis pas ___. À mon ___, on travaille mieux ensemble, au bureau.", "answers": ["d'accord", "avis"] }
+  },
+  "speaking": {
+    "type": "conversation",
+    "instructions": {
+      "en": "Answer each question with an opinion phrase and one short reason. Use a different opener each time (je pense que, je trouve que, à mon avis, selon moi, pour moi). Speak for about 20 seconds per answer.",
+      "hi": "हर प्रश्न का उत्तर राय वाले किसी वाक्यांश और एक छोटे कारण के साथ दीजिए। हर बार अलग शुरुआत कीजिए (je pense que, je trouve que, à mon avis, selon moi, pour moi)। हर उत्तर लगभग 20 सेकंड तक बोलिए।"
+    },
+    "prompts": [
+      { "fr": "Qu'est-ce que vous pensez du télétravail ?", "en": "What do you think of remote work?", "hi": "घर से काम करने के बारे में आपकी क्या राय है?", "pron": "कैस-कö वू पाँ-से दü ते-ले-त्ग़ा-वाय", "model": "Je pense que le télétravail est pratique, parce qu'on n'a pas de trajet. Mais on est parfois isolé." },
+      { "fr": "Est-ce que les transports sont pratiques dans votre ville ?", "en": "Is public transport convenient in your city?", "hi": "क्या आपके शहर में सार्वजनिक परिवहन सुविधाजनक है?", "pron": "ऐस-कö ले त्ग़ाँस-पॉग़ सोँ प्ग़ा-तीक दाँ वॉत्ग़ö वील", "model": "À mon avis, le métro de Delhi est très pratique, mais il y a trop de monde le matin." },
+      { "fr": "Vous préférez travailler seul ou en équipe ?", "en": "Do you prefer working alone or in a team?", "hi": "आप अकेले काम करना पसंद करते हैं या टीम में?", "pron": "वू प्ग़े-फ़े-ग़े त्ग़ा-वा-ये सöल ऊ आँ ने-कीप", "model": "Pour moi, c'est plus agréable en équipe. Je trouve qu'on a plus d'idées ensemble." },
+      { "fr": "Êtes-vous d'accord ? « Le français est une langue difficile. »", "en": "Do you agree? 'French is a difficult language.'", "hi": "क्या आप सहमत हैं? 'फ़्रेंच एक कठिन भाषा है।'", "pron": "ऐत वू दा-कॉग़ लö फ़्ग़ाँ-सै ऐ-तüन लाँग दी-फ़ी-सील", "model": "Je ne suis pas tout à fait d'accord. Selon moi, la prononciation est difficile, mais la grammaire est logique." },
+      { "fr": "Selon vous, est-ce qu'on peut apprendre une langue avec une application ?", "en": "In your view, can you learn a language with an app?", "hi": "आपके हिसाब से, क्या किसी ऐप से भाषा सीखी जा सकती है?", "pron": "सö-लोँ वू ऐस-कोँ पö आ-प्ग़ाँद्ग़ üन लाँग आ-वैक ü-ना-प्ली-का-स्योँ", "model": "Je crois que oui, mais il faut aussi parler avec des gens." }
+    ],
+    "tip": {
+      "en": "Don't stop after the opinion phrase. Always add one reason, even a simple one: 'Je pense que… parce que…'. A reason turns a one-word answer into real conversation.",
+      "hi": "राय वाले वाक्यांश के बाद रुकिए मत। हमेशा एक कारण जोड़िए, चाहे छोटा-सा हो: 'Je pense que… parce que…'। कारण जोड़ने से एक शब्द का जवाब असली बातचीत बन जाता है।"
+    }
+  },
+  "reading": {
+    "genre": "opinion",
+    "title": "Télétravail : je ne reviendrai pas en arrière !",
+    "text": "Publié par Ravi_G, Gatineau\n\nJe travaille pour une compagnie d'assurances à Ottawa. Avant, je prenais l'autobus tous les matins à sept heures et je passais presque deux heures par jour dans les transports. L'hiver, c'était vraiment pénible : la neige, le froid, les retards… Depuis un an, je travaille à la maison quatre jours sur cinq.\n\nÀ mon avis, le télétravail a beaucoup d'avantages. D'abord, j'ai plus de temps pour ma famille : maintenant, je prépare le déjeuner de mes enfants et je les accompagne à l'école. Ensuite, je trouve que je suis plus efficace. Personne ne m'interrompt et je finis mes dossiers plus vite. Enfin, j'économise environ deux cents dollars par mois.\n\nBien sûr, tout n'est pas parfait. Je pense que le plus grand inconvénient, c'est la solitude. Certains jours, je ne vois personne avant cinq heures du soir ! C'est pour ça que je vais au bureau le jeudi : je retrouve mes collègues, on mange ensemble et on discute.\n\nMa femme n'est pas d'accord avec moi. Selon elle, je travaille trop parce que mon bureau est dans le salon et je n'arrête jamais vraiment. Elle a peut-être raison…\n\nEt vous, qu'est-ce que vous en pensez ? Le télétravail, pour ou contre ?",
+    "translation": {
+      "en": "Remote work: I won't go back!\nPosted by Ravi_G, Gatineau\n\nI work for an insurance company in Ottawa. Before, I used to take the bus every morning at seven and I spent almost two hours a day commuting. In winter it was really hard: the snow, the cold, the delays… For a year now, I have been working at home four days out of five.\n\nIn my opinion, remote work has a lot of advantages. First, I have more time for my family: now I make my children's lunch and I take them to school. Next, I find that I am more efficient. Nobody interrupts me and I finish my files faster. Finally, I save about two hundred dollars a month.\n\nOf course, not everything is perfect. I think the biggest drawback is loneliness. Some days I don't see anyone before five in the evening! That's why I go to the office on Thursdays: I meet up with my colleagues, we eat together and we chat.\n\nMy wife doesn't agree with me. According to her, I work too much because my desk is in the living room and I never really stop. Maybe she's right…\n\nAnd you, what do you think? Remote work: for or against?",
+      "hi": "घर से काम: मैं वापस नहीं जाऊँगा!\nरवि_G, गैटिनो, द्वारा पोस्ट\n\nमैं ओटावा में एक बीमा कंपनी में काम करता हूँ। पहले मैं हर सुबह सात बजे बस पकड़ता था और रोज़ लगभग दो घंटे आने-जाने में बिताता था। सर्दियों में यह सच में बहुत तकलीफ़देह था: बर्फ़, ठंड, देरी… एक साल से मैं पाँच में से चार दिन घर से काम करता हूँ।\n\nमेरी राय में, घर से काम करने के बहुत फ़ायदे हैं। पहला, मेरे पास परिवार के लिए ज़्यादा समय है: अब मैं बच्चों का दोपहर का खाना बनाता हूँ और उन्हें स्कूल छोड़ने जाता हूँ। दूसरा, मुझे लगता है कि मैं ज़्यादा कुशलता से काम करता हूँ। कोई मुझे टोकता नहीं और मैं अपनी फ़ाइलें जल्दी निपटा लेता हूँ। आख़िर में, मैं हर महीने लगभग दो सौ डॉलर बचाता हूँ।\n\nबेशक, सब कुछ परफ़ेक्ट नहीं है। मुझे लगता है कि सबसे बड़ा नुक़सान अकेलापन है। कुछ दिन तो शाम पाँच बजे से पहले मैं किसी को देखता ही नहीं! इसीलिए मैं गुरुवार को दफ़्तर जाता हूँ: वहाँ सहकर्मियों से मिलता हूँ, हम साथ खाना खाते हैं और बातें करते हैं।\n\nमेरी पत्नी मुझसे सहमत नहीं है। उसके हिसाब से मैं बहुत ज़्यादा काम करता हूँ, क्योंकि मेरी मेज़ बैठक में है और मैं कभी ठीक से रुकता ही नहीं। शायद वह सही है…\n\nऔर आप, आपकी इस बारे में क्या राय है? घर से काम: पक्ष में या विरोध में?"
+    },
+    "questions": [
+      { "q": { "en": "How often does Ravi work from home now?" }, "options": ["Every day", "Four days out of five", "Only on Thursdays", "Two days a week"], "answer": 1, "explanation": { "en": "He works at home four days out of five.", "hi": "वह पाँच में से चार दिन घर से काम करता है।" }, "kind": "literal", "evidence": "je travaille à la maison quatre jours sur cinq" },
+      { "q": { "en": "Why was his commute hard in winter?" }, "options": ["The bus was too expensive", "He had to drive his children", "Snow, cold and delays", "The office opened at six"], "answer": 2, "explanation": { "en": "He lists the snow, the cold and the delays.", "hi": "वह बर्फ़, ठंड और देरी गिनाता है।" }, "kind": "literal", "evidence": "la neige, le froid, les retards" },
+      { "q": { "en": "Why does Ravi feel more efficient at home?" }, "options": ["Nobody interrupts him", "He has a bigger desk", "He works at night", "His wife helps him"], "answer": 0, "explanation": { "en": "'Personne ne m'interrompt' — no one interrupts him, so he finishes faster.", "hi": "'Personne ne m'interrompt' — कोई उसे टोकता नहीं, इसलिए वह जल्दी काम ख़त्म करता है।" }, "kind": "inference", "evidence": "Personne ne m'interrompt" },
+      { "q": { "en": "Why does he go to the office on Thursdays?" }, "options": ["His boss requires it", "To use a better computer", "To avoid his children", "To see and talk with his colleagues"], "answer": 3, "explanation": { "en": "The biggest drawback is loneliness, so on Thursdays he meets his colleagues, eats and chats with them.", "hi": "सबसे बड़ा नुक़सान अकेलापन है, इसलिए गुरुवार को वह सहकर्मियों से मिलता है, उनके साथ खाता है और बातें करता है।" }, "kind": "inference", "evidence": "je retrouve mes collègues" },
+      { "q": { "en": "What is his wife's opinion?" }, "options": ["He should go back to the office every day", "He works too much because he never really stops", "Remote work is perfect for the family", "He spends too much money"], "answer": 1, "explanation": { "en": "She thinks he works too much because his desk is in the living room.", "hi": "उसे लगता है कि वह बहुत ज़्यादा काम करता है, क्योंकि उसकी मेज़ बैठक में है।" }, "kind": "inference", "evidence": "je travaille trop parce que mon bureau est dans le salon" }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "A forum asks: 'Remote work: for or against?' Write a paragraph giving your opinion. Use at least three different opinion phrases, one advantage and one drawback, and end with a question to other readers.",
+      "hi": "एक फ़ोरम पूछता है: 'घर से काम: पक्ष में या विरोध में?' अपनी राय देते हुए एक अनुच्छेद लिखिए। कम से कम तीन अलग राय वाले वाक्यांश, एक फ़ायदा और एक नुक़सान लिखिए, और अंत में दूसरे पाठकों से एक प्रश्न पूछिए।",
+      "fr": "Le télétravail : pour ou contre ? Donnez votre avis."
+    },
+    "minWords": 80,
+    "maxWords": 140,
+    "hints": [
+      { "en": "Start with your main opinion: 'À mon avis, …'.", "hi": "अपनी मुख्य राय से शुरू कीजिए: 'À mon avis, …'।" },
+      { "en": "Give one personal example (your commute, your home, your job).", "hi": "एक निजी उदाहरण दीजिए (आपका सफ़र, आपका घर, आपका काम)।" },
+      { "en": "Use d'abord, ensuite, enfin (Day 54) to order your ideas.", "hi": "अपने विचारों को क्रम देने के लिए d'abord, ensuite, enfin (दिन 54) का इस्तेमाल कीजिए।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "À mon avis, …", "en": "In my opinion, …", "hi": "मेरी राय में, …", "pron": "आ मोँ ना-वी" },
+      { "fr": "Je trouve que …", "en": "I find that …", "hi": "मुझे लगता है कि …", "pron": "झ़ö त्ग़ूव कö" },
+      { "fr": "Le plus grand avantage, c'est …", "en": "The biggest advantage is …", "hi": "सबसे बड़ा फ़ायदा है …", "pron": "लö प्लü ग्ग़ाँ ता-वाँ-ताझ़ सै" },
+      { "fr": "Et vous, qu'en pensez-vous ?", "en": "And you, what do you think?", "hi": "और आप, आपकी क्या राय है?", "pron": "ए वू काँ पाँ-से वू" }
+    ],
+    "model": {
+      "fr": "À mon avis, le télétravail est une bonne solution, mais pas tous les jours. D'abord, je pense qu'on gagne beaucoup de temps. À Toronto, mon trajet dure une heure le matin et une heure le soir. À la maison, je commence plus tôt et je suis plus calme. Ensuite, je trouve qu'on économise de l'argent : moins d'essence, moins de cafés au restaurant. Mais je crois aussi que le bureau est important. Au bureau, on parle avec les collègues, on apprend des choses et on n'est pas isolé. Selon moi, deux jours à la maison et trois jours au bureau, c'est l'équilibre idéal. Et vous, êtes-vous d'accord avec moi ?",
+      "en": "In my opinion, remote work is a good solution, but not every day. First, I think you save a lot of time. In Toronto, my commute takes an hour in the morning and an hour in the evening. At home, I start earlier and I am calmer. Next, I find that you save money: less gas, fewer coffees out. But I also believe the office is important. At the office, you talk with colleagues, you learn things and you are not isolated. In my view, two days at home and three days at the office is the ideal balance. And you, do you agree with me?"
+    },
+    "checklist": [
+      { "en": "Did you use at least three different opinion phrases?", "hi": "क्या आपने कम से कम तीन अलग राय वाले वाक्यांश इस्तेमाल किए?" },
+      { "en": "Did you write que (or qu') after je pense / je trouve / je crois?", "hi": "क्या आपने je pense / je trouve / je crois के बाद que (या qu') लिखा?" },
+      { "en": "Did you give one advantage AND one drawback?", "hi": "क्या आपने एक फ़ायदा और एक नुक़सान दोनों लिखे?" },
+      { "en": "Did you finish with a question to the readers?", "hi": "क्या आपने पाठकों से एक प्रश्न पूछकर अंत किया?" }
+    ]
+  },
+  "review": {
+    "fromDays": [41, 43, 46, 48, 50, 51, 53, 57],
+    "items": [
+      { "fr": "J'ai pris le métro hier.", "en": "I took the metro yesterday.", "hi": "कल मैंने मेट्रो ली।", "pron": "झ़े प्ग़ी लö मे-त्ग़ो यैग़" },
+      { "fr": "Quand j'étais petit, j'habitais à Jaipur.", "en": "When I was little, I lived in Jaipur.", "hi": "जब मैं छोटा था, मैं जयपुर में रहता था।", "pron": "काँ झ़े-तै प्ती झ़ा-बी-तै आ झ़ै-पूग़" },
+      { "fr": "L'année prochaine, je serai au Canada.", "en": "Next year, I will be in Canada.", "hi": "अगले साल मैं कनाडा में रहूँगा।", "pron": "ला-ने प्ग़ो-शैन झ़ö सö-ग़े ओ का-ना-दा" },
+      { "fr": "L'hiver est plus froid à Montréal qu'à Delhi.", "en": "Winter is colder in Montréal than in Delhi.", "hi": "मॉन्ट्रियाल में सर्दी दिल्ली से ज़्यादा ठंडी होती है।", "pron": "ली-वैग़ ऐ प्लü फ़्ग़वा आ मोँ-ग़े-आल का दे-ली" },
+      { "fr": "Ce film ? Je l'ai vu deux fois.", "en": "That film? I've seen it twice.", "hi": "वह फ़िल्म? मैंने उसे दो बार देखा है।", "pron": "सö फ़ील्म झ़ö ले वü दö फ़वा" },
+      { "fr": "Des collègues ? J'en ai cinq.", "en": "Colleagues? I have five.", "hi": "सहकर्मी? मेरे पाँच हैं।", "pron": "दे को-लैग झ़ाँ ने सैँक" },
+      { "fr": "Je ne travaille plus le samedi.", "en": "I no longer work on Saturdays.", "hi": "मैं अब शनिवार को काम नहीं करता।", "pron": "झ़ö नö त्ग़ा-वाय प्लü लö सा-म्दी" },
+      { "fr": "Je téléphone à ma mère : je lui parle chaque dimanche.", "en": "I call my mother: I talk to her every Sunday.", "hi": "मैं माँ को फ़ोन करता हूँ: हर रविवार उनसे बात करता हूँ।", "pron": "झ़ö ते-ले-फ़ॉन आ मा मैग़ झ़ö लüई पाग़्ल शाक दी-माँश" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Which sentence is correct?", "hi": "कौन-सा वाक्य सही है?" }, "options": ["Je pense c'est une bonne idée.", "Je pense que c'est une bonne idée.", "Je pense de c'est une bonne idée."], "answer": 1, "explanation": { "en": "After penser you need que before a full sentence.", "hi": "penser के बाद पूरे वाक्य से पहले que ज़रूरी है।" } },
+    { "type": "fill", "prompt": { "en": "Complete: In my opinion, the metro is practical.", "hi": "पूरा कीजिए: मेरी राय में, मेट्रो सुविधाजनक है।" }, "sentence": "À mon ___, le métro est pratique.", "answer": "avis", "accept": [], "explanation": { "en": "À mon avis = in my opinion.", "hi": "À mon avis = मेरी राय में।" } },
+    { "type": "mcq", "prompt": { "en": "How do you say 'I agree'?", "hi": "'मैं सहमत हूँ' कैसे कहेंगे?" }, "options": ["J'ai d'accord.", "Je d'accord.", "Je suis d'accord."], "answer": 2, "explanation": { "en": "Être d'accord: je suis d'accord.", "hi": "Être d'accord: je suis d'accord।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "I think he is right.", "hi": "मुझे लगता है कि वह सही है।" }, "answer": "Je pense qu'il a raison.", "accept": ["Je pense qu'il a raison", "Je crois qu'il a raison.", "Je trouve qu'il a raison.", "Je crois qu'il a raison"], "explanation": { "en": "que + il → qu'il; 'to be right' = avoir raison.", "hi": "que + il → qu'il; 'सही होना' = avoir raison।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: I find that it's a good idea.", "hi": "शब्दों को सही क्रम में रखिए: मुझे लगता है कि यह अच्छा विचार है।" }, "words": ["que", "Je", "c'est", "trouve", "idée.", "bonne", "une"], "answer": "Je trouve que c'est une bonne idée.", "explanation": { "en": "Opinion verb + que + sentence. Bonne comes before idée.", "hi": "राय की क्रिया + que + वाक्य। bonne, idée से पहले आता है।" } },
+    { "type": "mcq", "prompt": { "en": "Which word has the nasal vowel /ɔ̃/ (ओँ)?", "hi": "किस शब्द में नासिक्य स्वर /ɔ̃/ (ओँ) है?" }, "options": ["temps", "selon", "pense", "avantage"], "answer": 1, "explanation": { "en": "Selon ends in 'on' = ओँ. The others have /ɑ̃/ (आँ).", "hi": "Selon के अंत में 'on' = ओँ है। बाक़ी में /ɑ̃/ (आँ) है।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "I don't agree with you. (tu)", "hi": "मैं तुमसे सहमत नहीं हूँ।" }, "answer": "Je ne suis pas d'accord avec toi.", "accept": ["Je ne suis pas d'accord avec toi", "Je suis pas d'accord avec toi."], "explanation": { "en": "Ne … pas goes around suis; 'with you' = avec toi.", "hi": "ne … pas, suis के दोनों ओर; 'तुमसे' = avec toi।" } }
+  ]
+}

@@ -1,0 +1,882 @@
+{
+  "day": 118,
+  "phase": 6,
+  "title": {
+    "fr": "Le jour de l'examen : préparation pratique",
+    "en": "Exam day: practical preparation",
+    "hi": "परीक्षा का दिन: व्यावहारिक तैयारी"
+  },
+  "objective": {
+    "en": "Know what to bring and what to expect on exam day (convocation, ID, arriving early, the order of the tests, the computer-based format, timing), understand and ask about centre instructions in French, and prepare a simple routine to manage stress — while remembering that your own centre's convocation is the reference.",
+    "hi": "परीक्षा के दिन क्या ले जाना है और क्या उम्मीद करनी है यह जानना (बुलावा-पत्र, पहचान-पत्र, जल्दी पहुँचना, परीक्षाओं का क्रम, कंप्यूटर वाला प्रारूप, समय), केंद्र के निर्देश फ़्रेंच में समझना और उनके बारे में पूछना, और तनाव सँभालने की एक आसान दिनचर्या तैयार करना — यह याद रखते हुए कि आपके अपने केंद्र का बुलावा-पत्र ही असली संदर्भ है।"
+  },
+  "prerequisites": {
+    "days": [
+      101,
+      106,
+      111,
+      112,
+      117
+    ],
+    "summary": {
+      "en": "Exam instructions vocabulary (day 101), repair strategies (day 106), speaking without notes and managing stage fright (days 111 and 112) and your final revision targets (day 117).",
+      "hi": "परीक्षा-निर्देशों की शब्दावली (दिन 101), सुधार-रणनीतियाँ (दिन 106), बिना नोट्स के बोलना और घबराहट सँभालना (दिन 111 और 112) और आख़िरी दोहराव के लक्ष्य (दिन 117)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "la convocation",
+      "en": "official notice to attend (with date, time, place)",
+      "hi": "बुलावा-पत्र (तारीख़, समय, जगह के साथ)",
+      "pron": "ला कोँ-वो-का-स्योँ",
+      "ipa": "la kɔ̃vɔkasjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "convocation"
+    },
+    {
+      "fr": "la pièce d'identité",
+      "en": "identity document",
+      "hi": "पहचान-पत्र",
+      "pron": "ला प्यैस दी-दाँ-ती-ते",
+      "ipa": "la pjɛs didɑ̃tite",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "pièce"
+    },
+    {
+      "fr": "en cours de validité",
+      "en": "valid, not expired",
+      "hi": "जिसकी मियाद ख़त्म न हुई हो / वैध",
+      "pron": "आँ कूग़ दö वा-ली-दी-ते",
+      "ipa": "ɑ̃ kuʁ də validite",
+      "pos": "phrase"
+    },
+    {
+      "fr": "la salle",
+      "en": "room",
+      "hi": "कमरा / हॉल",
+      "pron": "ला साल",
+      "ipa": "la sal",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "salle"
+    },
+    {
+      "fr": "le surveillant",
+      "en": "invigilator, exam supervisor",
+      "hi": "निरीक्षक / परीक्षा पर नज़र रखने वाला",
+      "pron": "लö सüग़-वै-याँ",
+      "ipa": "lə syʁvɛjɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "surveillant"
+    },
+    {
+      "fr": "le candidat",
+      "en": "candidate",
+      "hi": "परीक्षार्थी / उम्मीदवार",
+      "pron": "लö काँ-दी-दा",
+      "ipa": "lə kɑ̃dida",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "candidat"
+    },
+    {
+      "fr": "l'épreuve",
+      "en": "test, paper (part of an exam)",
+      "hi": "परीक्षा का भाग / प्रश्नपत्र",
+      "pron": "ले-प्ग़öव",
+      "ipa": "lepʁœv",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "épreuve"
+    },
+    {
+      "fr": "le casque",
+      "en": "headphones, headset",
+      "hi": "हेडफ़ोन",
+      "pron": "लö कास्क",
+      "ipa": "lə kask",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "casque"
+    },
+    {
+      "fr": "l'écran",
+      "en": "screen",
+      "hi": "स्क्रीन",
+      "pron": "ले-क्ग़ाँ",
+      "ipa": "lekʁɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "écran"
+    },
+    {
+      "fr": "en avance",
+      "en": "early, ahead of time",
+      "hi": "समय से पहले",
+      "pron": "आँ ना-वाँस",
+      "ipa": "ɑ̃n‿avɑ̃s",
+      "pos": "phrase"
+    },
+    {
+      "fr": "le stress",
+      "en": "stress",
+      "hi": "तनाव",
+      "pron": "लö स्त्ग़ैस",
+      "ipa": "lə stʁɛs",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "stress"
+    },
+    {
+      "fr": "respirer",
+      "en": "to breathe",
+      "hi": "साँस लेना",
+      "pron": "ग़ैस-पी-ग़े",
+      "ipa": "ʁɛspiʁe",
+      "pos": "verb"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Voici ma convocation et ma pièce d'identité.",
+      "en": "Here is my notice to attend and my ID.",
+      "hi": "यह रहा मेरा बुलावा-पत्र और मेरा पहचान-पत्र।",
+      "pron": "व्वा-सी मा कोँ-वो-का-स्योँ ए मा प्यैस दी-दाँ-ती-ते"
+    },
+    {
+      "fr": "Excusez-moi, où se trouve la salle d'examen ?",
+      "en": "Excuse me, where is the exam room?",
+      "hi": "माफ़ कीजिए, परीक्षा का कमरा कहाँ है?",
+      "pron": "ऐक्स-कü-ज़े म्वा ऊ सö त्ग़ूव ला साल दैग-ज़ा-मैँ"
+    },
+    {
+      "fr": "Mon casque ne fonctionne pas.",
+      "en": "My headphones aren't working.",
+      "hi": "मेरा हेडफ़ोन काम नहीं कर रहा।",
+      "pron": "मोँ कास्क नö फ़ोँक-स्यॉन पा"
+    },
+    {
+      "fr": "Où est-ce que je peux laisser mes affaires ?",
+      "en": "Where can I leave my belongings?",
+      "hi": "मैं अपना सामान कहाँ रख सकता / सकती हूँ?",
+      "pron": "ऊ ऐस कö झ़ö पö लै-से मे ज़ा-फ़ैग़"
+    },
+    {
+      "fr": "Pourriez-vous répéter la consigne, s'il vous plaît ?",
+      "en": "Could you repeat the instructions, please?",
+      "hi": "क्या आप निर्देश दोहरा सकते हैं, कृपया?",
+      "pron": "पू-ग़ी-ये वू ग़े-पे-ते ला कोँ-सीन्य सील वू प्लै"
+    },
+    {
+      "fr": "Je respire calmement avant de commencer.",
+      "en": "I breathe calmly before starting.",
+      "hi": "शुरू करने से पहले मैं शांति से साँस लेता / लेती हूँ।",
+      "pron": "झ़ö ग़ैस-पीग़ काल-म-माँ आ-वाँ दö को-माँ-से"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Understanding rules and advice: il faut, il est interdit de, il est conseillé de, the imperative",
+      "hi": "नियम और सलाह समझना: il faut, il est interdit de, il est conseillé de, आज्ञार्थ"
+    },
+    "explanation": {
+      "en": "Exam-centre documents and staff use a small set of structures, and the difference between them matters. Obligation: il faut + infinitive, vous devez + infinitive, … est obligatoire (you must). Prohibition: il est interdit de + infinitive, … n'est pas autorisé, ne … pas in the imperative (Ne parlez pas). Advice: il est conseillé de / nous vous conseillons de + infinitive, pensez à + infinitive (it's recommended, but not a rule). Instructions on the screen and from the surveillant are usually in the vous imperative: Mettez votre casque. Cliquez sur « Suivant ». Attendez le signal. Notice that the infinitive after de can be negative: il est conseillé de ne pas arriver à la dernière minute. As for the day itself, only the verified format is certain: reading 40 questions in 60 minutes, listening 40 questions in 40 minutes (each recording played once, no going back), writing 60 minutes (A 25 + B 35), speaking 15 minutes (A 5 + B 10). Everything else — times, room, what you may bring, the order of the tests, whether you need a printed convocation — is decided by your test centre: read your convocation and the centre's information carefully.",
+      "hi": "परीक्षा-केंद्र के काग़ज़ और कर्मचारी कुछ ही ढाँचे इस्तेमाल करते हैं, और उनका अंतर मायने रखता है। अनिवार्यता: il faut + क्रिया का मूल रूप, vous devez + क्रिया का मूल रूप, … est obligatoire (आपको करना ही है)। मनाही: il est interdit de + क्रिया का मूल रूप, … n'est pas autorisé, आज्ञार्थ में ne … pas (Ne parlez pas)। सलाह: il est conseillé de / nous vous conseillons de + क्रिया का मूल रूप, pensez à + क्रिया का मूल रूप (सलाह है, नियम नहीं)। स्क्रीन पर और निरीक्षक के निर्देश आमतौर पर vous वाले आज्ञार्थ में होते हैं: Mettez votre casque. Cliquez sur « Suivant ». Attendez le signal. ध्यान दीजिए कि de के बाद का मूल रूप नकारात्मक हो सकता है: il est conseillé de ne pas arriver à la dernière minute। जहाँ तक दिन की बात है, सिर्फ़ पक्का प्रारूप निश्चित है: पढ़ना 60 मिनट में 40 प्रश्न, सुनना 40 मिनट में 40 प्रश्न (हर रिकॉर्डिंग एक बार, पीछे जाना नहीं), लेखन 60 मिनट (A 25 + B 35), मौखिक 15 मिनट (A 5 + B 10)। बाक़ी सब कुछ — समय, कमरा, क्या ले जा सकते हैं, परीक्षाओं का क्रम, छपा हुआ बुलावा-पत्र चाहिए या नहीं — आपका परीक्षा-केंद्र तय करता है: अपना बुलावा-पत्र और केंद्र की जानकारी ध्यान से पढ़िए।"
+    },
+    "comparison": {
+      "en": "Hindi signs make the same three-way distinction: अनिवार्य है (obligatoire), मना है / वर्जित है (interdit), and सलाह दी जाती है (conseillé).",
+      "hi": "हिंदी के सूचना-पट भी यही तीन तरह का अंतर करते हैं: अनिवार्य है (obligatoire), मना है / वर्जित है (interdit), और सलाह दी जाती है (conseillé)।"
+    },
+    "examples": [
+      {
+        "fr": "Il faut présenter une pièce d'identité en cours de validité.",
+        "en": "You must show a valid identity document.",
+        "hi": "वैध पहचान-पत्र दिखाना ज़रूरी है।",
+        "pron": "ईल फ़ो प्ग़े-ज़ाँ-ते üन प्यैस दी-दाँ-ती-ते आँ कूग़ दö वा-ली-दी-ते"
+      },
+      {
+        "fr": "Il est interdit de parler pendant l'épreuve.",
+        "en": "Talking during the test is forbidden.",
+        "hi": "परीक्षा के दौरान बात करना मना है।",
+        "pron": "ई लै तैँ-तैग़-दी दö पाग़-ले पाँ-दाँ ले-प्ग़öव"
+      },
+      {
+        "fr": "Il est conseillé d'arriver trente minutes en avance.",
+        "en": "It is recommended to arrive thirty minutes early.",
+        "hi": "तीस मिनट पहले पहुँचने की सलाह दी जाती है।",
+        "pron": "ई लै कोँ-सै-ये दा-ग़ी-वे त्ग़ाँत मी-नüत आँ ना-वाँस"
+      },
+      {
+        "fr": "Mettez votre casque et attendez le signal.",
+        "en": "Put on your headphones and wait for the signal.",
+        "hi": "अपना हेडफ़ोन लगाइए और संकेत का इंतज़ार कीजिए।",
+        "pron": "मै-ते वोत्ग़ कास्क ए आ-ताँ-दे लö सी-न्याल"
+      },
+      {
+        "fr": "Pensez à vérifier l'adresse du centre la veille.",
+        "en": "Remember to check the centre's address the day before.",
+        "hi": "एक दिन पहले केंद्र का पता जाँचना याद रखिए।",
+        "pron": "पाँ-से आ वे-ग़ी-फ़्ये ला-द्ग़ैस दü साँत्ग़ ला वैय"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Don't confuse 'il est conseillé de' (advice) with 'il faut' (rule): the first is a recommendation, the second is required.",
+        "hi": "'il est conseillé de' (सलाह) को 'il faut' (नियम) से मत मिलाइए: पहला सुझाव है, दूसरा ज़रूरी है।"
+      },
+      {
+        "en": "Don't rely on what a friend did at another centre or in another year: procedures can differ, so your own convocation is the reference.",
+        "hi": "किसी दोस्त ने दूसरे केंद्र पर या किसी और साल में क्या किया, उस पर भरोसा मत कीजिए: प्रक्रियाएँ अलग हो सकती हैं, इसलिए आपका अपना बुलावा-पत्र ही संदर्भ है।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Calm, clear speech: slow pace, full vowels, breathing between groups of words",
+    "tip": {
+      "en": "Stress makes us speak fast and swallow the ends of words. Breathe in through the nose for four counts, out for four, then speak in short groups of three to five words, with a small pause between groups. Finish each word: say the full nasal in convocation and the full é in identité. A calm, slightly slower voice is easier to understand and gives you time to think.",
+      "hi": "तनाव में हम तेज़ बोलते हैं और शब्दों के अंत निगल जाते हैं। नाक से चार गिनती तक साँस अंदर लीजिए, चार तक बाहर, फिर तीन से पाँच शब्दों के छोटे समूहों में बोलिए, समूहों के बीच छोटा ठहराव रखकर। हर शब्द पूरा कीजिए: convocation में पूरी नासिक ध्वनि और identité में पूरा é बोलिए। शांत, थोड़ी धीमी आवाज़ समझने में आसान होती है और आपको सोचने का समय देती है।"
+    },
+    "words": [
+      {
+        "fr": "convocation",
+        "en": "notice to attend",
+        "hi": "बुलावा-पत्र",
+        "pron": "कोँ-वो-का-स्योँ",
+        "ipa": "kɔ̃vɔkasjɔ̃"
+      },
+      {
+        "fr": "identité",
+        "en": "identity",
+        "hi": "पहचान",
+        "pron": "ई-दाँ-ती-ते",
+        "ipa": "idɑ̃tite"
+      },
+      {
+        "fr": "surveillant",
+        "en": "invigilator",
+        "hi": "निरीक्षक",
+        "pron": "सüग़-वै-याँ",
+        "ipa": "syʁvɛjɑ̃"
+      },
+      {
+        "fr": "calmement",
+        "en": "calmly",
+        "hi": "शांति से",
+        "pron": "काल-म-माँ",
+        "ipa": "kalməmɑ̃"
+      },
+      {
+        "fr": "s'il vous plaît",
+        "en": "please",
+        "hi": "कृपया",
+        "pron": "सील वू प्लै",
+        "ipa": "sil vu plɛ"
+      },
+      {
+        "fr": "Pourriez-vous répéter ?",
+        "en": "Could you repeat?",
+        "hi": "क्या आप दोहरा सकते हैं?",
+        "pron": "पू-ग़ी-ये वू ग़े-पे-ते",
+        "ipa": "puʁje vu ʁepete"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Les consignes du surveillant",
+      "en": "The invigilator's instructions"
+    },
+    "type": "announcement",
+    "mode": "natural",
+    "context": {
+      "en": "An invented example: the welcome announcement at a fictional language centre, Centre Horizon, on a test morning. Real procedures depend on your own centre — this is practice for understanding spoken instructions.",
+      "hi": "एक काल्पनिक उदाहरण: परीक्षा की सुबह एक काल्पनिक भाषा-केंद्र, सेंटर ओरिज़ोन, की स्वागत घोषणा। असली प्रक्रियाएँ आपके अपने केंद्र पर निर्भर हैं — यह बोले गए निर्देश समझने का अभ्यास है।"
+    },
+    "lines": [
+      {
+        "speaker": "Surveillant",
+        "voice": "m2",
+        "fr": "Bonjour à tous et bienvenue au Centre Horizon. Je m'appelle Marc, je suis votre surveillant ce matin.",
+        "en": "Hello everyone and welcome to Centre Horizon. My name is Marc, I'm your invigilator this morning.",
+        "hi": "सभी को नमस्ते और सेंटर ओरिज़ोन में स्वागत है। मेरा नाम मार्क है, आज सुबह मैं आपका निरीक्षक हूँ।"
+      },
+      {
+        "speaker": "Surveillant",
+        "voice": "m2",
+        "fr": "Avant d'entrer dans la salle, préparez votre convocation et votre pièce d'identité. Je vais vérifier les noms un par un.",
+        "en": "Before entering the room, have your notice to attend and your ID ready. I'm going to check the names one by one.",
+        "hi": "कमरे में जाने से पहले अपना बुलावा-पत्र और पहचान-पत्र तैयार रखिए। मैं एक-एक करके नाम जाँचूँगा।"
+      },
+      {
+        "speaker": "Surveillant",
+        "voice": "m2",
+        "fr": "Vos sacs et vos téléphones, éteints, vont rester sur les étagères au fond du couloir. Gardez seulement une bouteille d'eau transparente.",
+        "en": "Your bags and your phones, switched off, will stay on the shelves at the end of the corridor. Keep only a clear bottle of water.",
+        "hi": "आपके बैग और फ़ोन, बंद करके, गलियारे के आख़िर में रखी अलमारियों पर रहेंगे। सिर्फ़ पानी की एक पारदर्शी बोतल अपने पास रखिए।"
+      },
+      {
+        "speaker": "Surveillant",
+        "voice": "m2",
+        "fr": "Chaque candidat aura un ordinateur et un casque. Dès que vous êtes assis, mettez le casque et faites le test du son. Si vous n'entendez rien, levez la main.",
+        "en": "Each candidate will have a computer and headphones. As soon as you're seated, put on the headphones and do the sound check. If you hear nothing, raise your hand.",
+        "hi": "हर परीक्षार्थी के पास एक कंप्यूटर और एक हेडफ़ोन होगा। बैठते ही हेडफ़ोन लगाइए और आवाज़ की जाँच कीजिए। अगर कुछ सुनाई न दे, तो हाथ उठाइए।"
+      },
+      {
+        "speaker": "Surveillant",
+        "voice": "m2",
+        "fr": "On commence par la compréhension écrite à neuf heures précises. Le temps restant s'affiche en haut de l'écran.",
+        "en": "We start with reading at exactly nine o'clock. The remaining time is shown at the top of the screen.",
+        "hi": "हम ठीक नौ बजे पढ़कर समझने से शुरू करेंगे। बचा हुआ समय स्क्रीन के ऊपर दिखाई देता है।"
+      },
+      {
+        "speaker": "Surveillant",
+        "voice": "m2",
+        "fr": "Une dernière chose : pendant l'épreuve, il est interdit de parler. Si vous avez un problème technique, ne quittez pas votre place, levez la main. Bonne chance à tous !",
+        "en": "One last thing: during the test, talking is forbidden. If you have a technical problem, don't leave your seat, raise your hand. Good luck, everyone!",
+        "hi": "एक आख़िरी बात: परीक्षा के दौरान बात करना मना है। अगर कोई तकनीकी समस्या हो, तो अपनी जगह मत छोड़िए, हाथ उठाइए। सभी को शुभकामनाएँ!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "What must candidates have ready before entering?"
+        },
+        "options": [
+          "A pen and paper",
+          "Their notice to attend and ID",
+          "Their phone",
+          "A printed timetable"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Préparez votre convocation et votre pièce d'identité.'",
+          "hi": "'Préparez votre convocation et votre pièce d'identité' — बुलावा-पत्र और पहचान-पत्र।"
+        },
+        "kind": "literal",
+        "evidence": "préparez votre convocation et votre pièce d'identité"
+      },
+      {
+        "q": {
+          "en": "What may candidates keep with them at this centre?"
+        },
+        "options": [
+          "Their bag",
+          "Their phone, switched off",
+          "A clear bottle of water",
+          "A dictionary"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Gardez seulement une bouteille d'eau transparente.' This is the fictional centre's rule — check your own.",
+          "hi": "'Gardez seulement une bouteille d'eau transparente' — यह काल्पनिक केंद्र का नियम है; अपने केंद्र का नियम देखिए।"
+        },
+        "kind": "literal",
+        "evidence": "Gardez seulement une bouteille d'eau transparente."
+      },
+      {
+        "q": {
+          "en": "What should you do first when you sit down?"
+        },
+        "options": [
+          "Start reading",
+          "Put on the headphones and do the sound check",
+          "Call the invigilator",
+          "Write your name on paper"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Mettez le casque et faites le test du son.'",
+          "hi": "'Mettez le casque et faites le test du son' — हेडफ़ोन लगाकर आवाज़ जाँचिए।"
+        },
+        "kind": "literal",
+        "evidence": "mettez le casque et faites le test du son"
+      },
+      {
+        "q": {
+          "en": "Where can you see the time left?"
+        },
+        "options": [
+          "On a clock on the wall",
+          "On your convocation",
+          "The invigilator announces it",
+          "At the top of the screen"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Le temps restant s'affiche en haut de l'écran.'",
+          "hi": "'Le temps restant s'affiche en haut de l'écran' — स्क्रीन के ऊपर।"
+        },
+        "kind": "literal",
+        "evidence": "Le temps restant s'affiche en haut de l'écran."
+      },
+      {
+        "q": {
+          "en": "What should you do if there is a technical problem?"
+        },
+        "options": [
+          "Go to the front desk",
+          "Restart the computer",
+          "Stay in your seat and raise your hand",
+          "Ask your neighbour"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Ne quittez pas votre place, levez la main.' Asking a neighbour would mean talking, which is forbidden.",
+          "hi": "'Ne quittez pas votre place, levez la main' — जगह मत छोड़िए, हाथ उठाइए। पड़ोसी से पूछना यानी बात करना, जो मना है।"
+        },
+        "kind": "inference",
+        "evidence": "ne quittez pas votre place, levez la main"
+      }
+    ],
+    "dictation": [
+      "Avant d'entrer dans la salle, préparez votre convocation et votre pièce d'identité.",
+      "Si vous avez un problème technique, levez la main."
+    ],
+    "gapFill": {
+      "text": "Chaque candidat aura un ordinateur et un ___. Le temps restant s'affiche en haut de l'___.",
+      "answers": [
+        "casque",
+        "écran"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "roleplay",
+    "instructions": {
+      "en": "Practise asking the exam staff questions. You arrive at a fictional test centre and something is unclear or goes wrong: you can't find the room, your headphones don't work, you didn't understand an instruction. Ask politely, check that you've understood, and thank the person. Speak in short, calm groups of words.",
+      "hi": "परीक्षा-कर्मचारियों से प्रश्न पूछने का अभ्यास कीजिए। आप एक काल्पनिक परीक्षा-केंद्र पहुँचते हैं और कुछ स्पष्ट नहीं है या गड़बड़ हो जाती है: कमरा नहीं मिल रहा, हेडफ़ोन काम नहीं कर रहा, कोई निर्देश समझ नहीं आया। विनम्रता से पूछिए, पक्का कीजिए कि आप समझ गए, और धन्यवाद दीजिए। शब्दों के छोटे, शांत समूहों में बोलिए।"
+    },
+    "scenario": {
+      "setting": {
+        "en": "The reception desk and then the exam room of a fictional test centre, twenty minutes before the start.",
+        "hi": "एक काल्पनिक परीक्षा-केंद्र का स्वागत-कक्ष और फिर परीक्षा का कमरा, शुरू होने से बीस मिनट पहले।"
+      },
+      "learnerRole": {
+        "en": "A candidate who arrived early and wants everything to be clear.",
+        "hi": "एक परीक्षार्थी जो जल्दी पहुँचा है और चाहता है कि सब कुछ साफ़ हो।"
+      },
+      "partnerRole": {
+        "en": "The receptionist, then the invigilator.",
+        "hi": "रिसेप्शनिस्ट, फिर निरीक्षक।"
+      },
+      "goals": [
+        {
+          "en": "Introduce yourself and show your documents.",
+          "hi": "अपना परिचय दीजिए और अपने काग़ज़ दिखाइए।"
+        },
+        {
+          "en": "Ask where to go and where to leave your belongings.",
+          "hi": "पूछिए कि कहाँ जाना है और सामान कहाँ रखना है।"
+        },
+        {
+          "en": "Report a technical problem and ask for an instruction to be repeated.",
+          "hi": "तकनीकी समस्या बताइए और कोई निर्देश दोहराने के लिए कहिए।"
+        }
+      ]
+    },
+    "prompts": [
+      {
+        "fr": "Bonjour, je viens pour le test de français de neuf heures. Voici ma convocation.",
+        "en": "Hello, I'm here for the nine o'clock French test. Here is my notice to attend.",
+        "hi": "नमस्ते, मैं नौ बजे की फ़्रेंच परीक्षा के लिए आया / आई हूँ। यह रहा मेरा बुलावा-पत्र।",
+        "pron": "बोँ-झ़ूग़ झ़ö व्यैँ पूग़ लö तैस्त दö फ़्ग़ाँ-सै दö नö-वöग़ व्वा-सी मा कोँ-वो-का-स्योँ",
+        "model": "Bonjour, je viens pour le test de français de neuf heures. Voici ma convocation et mon passeport. Pouvez-vous me dire dans quelle salle je dois aller ?"
+      },
+      {
+        "fr": "Où est-ce que je peux laisser mes affaires ?",
+        "en": "Where can I leave my belongings?",
+        "hi": "मैं अपना सामान कहाँ रख सकता / सकती हूँ?",
+        "pron": "ऊ ऐस कö झ़ö पö लै-से मे ज़ा-फ़ैग़"
+      },
+      {
+        "fr": "Est-ce que je peux garder ma bouteille d'eau ?",
+        "en": "Can I keep my water bottle?",
+        "hi": "क्या मैं अपनी पानी की बोतल रख सकता / सकती हूँ?",
+        "pron": "ऐस कö झ़ö पö गाग़-दे मा बू-तैय दो"
+      },
+      {
+        "fr": "Excusez-moi, mon casque ne fonctionne pas : je n'entends rien.",
+        "en": "Excuse me, my headphones aren't working: I can't hear anything.",
+        "hi": "माफ़ कीजिए, मेरा हेडफ़ोन काम नहीं कर रहा: मुझे कुछ सुनाई नहीं दे रहा।",
+        "pron": "ऐक्स-कü-ज़े म्वा मोँ कास्क नö फ़ोँक-स्यॉन पा झ़ö नाँ-ताँ ग़्यैँ",
+        "model": "Excusez-moi, mon casque ne fonctionne pas : je n'entends rien pendant le test du son. Est-ce que vous pouvez vérifier, ou me donner un autre casque, s'il vous plaît ?"
+      },
+      {
+        "fr": "Pardon, je n'ai pas bien compris. Il faut cliquer sur « Suivant » maintenant ?",
+        "en": "Sorry, I didn't quite understand. Do I need to click 'Next' now?",
+        "hi": "माफ़ कीजिए, मैं ठीक से नहीं समझा / समझी। क्या अभी « आगे » (Suivant) पर क्लिक करना है?",
+        "pron": "पाग़-दोँ झ़ö ने पा ब्यैँ कोँ-प्ग़ी ईल फ़ो क्ली-के सüग़ सüइ-वाँ मैँ-त-नाँ"
+      },
+      {
+        "fr": "Merci beaucoup, c'est très clair.",
+        "en": "Thank you very much, that's very clear.",
+        "hi": "बहुत धन्यवाद, बात बिल्कुल साफ़ है।",
+        "pron": "मैग़-सी बो-कू सै त्ग़ै क्लैग़"
+      }
+    ],
+    "tip": {
+      "en": "Asking for help in French on exam day is normal and polite — it is not part of your score, so don't hesitate. A calm question also calms you down.",
+      "hi": "परीक्षा के दिन फ़्रेंच में मदद माँगना सामान्य और शिष्ट है — इसका आपके अंकों से कोई लेना-देना नहीं, इसलिए हिचकिचाइए मत। शांति से पूछा गया प्रश्न आपको भी शांत करता है।"
+    }
+  },
+  "reading": {
+    "genre": "notice",
+    "title": "Centre Horizon — Informations pour les candidats",
+    "text": "Merci d'avoir choisi le Centre Horizon pour votre test de français. Voici quelques informations pratiques. Attention : elles concernent uniquement notre centre. Les règles officielles du test sont celles indiquées dans votre convocation.\n\nAvant le jour du test\nVérifiez votre convocation dès sa réception : nom, date, heure et adresse. Si une information est incorrecte, contactez-nous au 555-0190 au moins une semaine avant le test. Pensez à vérifier la date d'expiration de votre pièce d'identité.\n\nLe jour du test\nIl est conseillé d'arriver trente minutes avant l'heure indiquée. Les candidats en retard pourraient ne pas être admis dans la salle. Vous devez présenter la même pièce d'identité que celle utilisée lors de l'inscription.\n\nLes épreuves écrites (compréhension écrite, compréhension orale, expression écrite) se passent sur ordinateur. Un casque est fourni. L'expression orale se déroule dans une autre salle, avec un examinateur ; l'heure de votre passage est précisée sur votre convocation.\n\nUne petite pause est prévue entre certaines épreuves. Le stationnement est gratuit derrière le bâtiment, mais les places sont limitées : le métro (station Parc) est à cinq minutes à pied.\n\nPendant les épreuves\nLes téléphones doivent être éteints et rangés avec vos affaires. Il est interdit de communiquer avec les autres candidats. En cas de problème, levez la main : un surveillant viendra vous aider.",
+    "translation": {
+      "en": "Thank you for choosing Centre Horizon for your French test. Here is some practical information. Note: it concerns our centre only. The official rules of the test are those given in your notice to attend.\n\nBefore test day\nCheck your notice to attend as soon as you receive it: name, date, time and address. If any information is incorrect, contact us at 555-0190 at least one week before the test. Remember to check the expiry date of your identity document.\n\nOn test day\nIt is recommended to arrive thirty minutes before the time indicated. Late candidates might not be admitted to the room. You must present the same identity document as the one used when registering.\n\nThe written tests (reading, listening, writing) take place on a computer. Headphones are provided. Speaking takes place in another room, with an examiner; the time of your turn is specified on your notice to attend.\n\nA short break is planned between some of the tests. Parking is free behind the building, but spaces are limited: the metro (Parc station) is a five-minute walk away.\n\nDuring the tests\nPhones must be switched off and stored with your belongings. Communicating with other candidates is forbidden. If there is a problem, raise your hand: an invigilator will come and help you.",
+      "hi": "अपनी फ़्रेंच परीक्षा के लिए सेंटर ओरिज़ोन चुनने का धन्यवाद। यहाँ कुछ व्यावहारिक जानकारी है। ध्यान दें: यह सिर्फ़ हमारे केंद्र से जुड़ी है। परीक्षा के आधिकारिक नियम वही हैं जो आपके बुलावा-पत्र में दिए गए हैं।\n\nपरीक्षा के दिन से पहले\nबुलावा-पत्र मिलते ही उसे जाँचिए: नाम, तारीख़, समय और पता। अगर कोई जानकारी ग़लत है, तो परीक्षा से कम से कम एक हफ़्ता पहले हमसे 555-0190 पर संपर्क कीजिए। अपने पहचान-पत्र की मियाद ख़त्म होने की तारीख़ जाँचना याद रखिए।\n\nपरीक्षा के दिन\nदिए गए समय से तीस मिनट पहले पहुँचने की सलाह दी जाती है। देर से आने वाले परीक्षार्थियों को शायद कमरे में आने न दिया जाए। आपको वही पहचान-पत्र दिखाना होगा जो पंजीकरण के समय इस्तेमाल किया था।\n\nलिखित परीक्षाएँ (पढ़कर समझना, सुनकर समझना, लेखन) कंप्यूटर पर होती हैं। हेडफ़ोन दिया जाता है। मौखिक परीक्षा दूसरे कमरे में, एक परीक्षक के साथ होती है; आपकी बारी का समय आपके बुलावा-पत्र पर लिखा होता है।\n\nकुछ परीक्षाओं के बीच एक छोटा विराम रखा गया है। इमारत के पीछे पार्किंग मुफ़्त है, लेकिन जगहें सीमित हैं: मेट्रो (पार्क स्टेशन) पैदल पाँच मिनट की दूरी पर है।\n\nपरीक्षा के दौरान\nफ़ोन बंद करके अपने सामान के साथ रखने होंगे। दूसरे परीक्षार्थियों से बात करना मना है। कोई समस्या हो तो हाथ उठाइए: एक निरीक्षक आपकी मदद के लिए आएगा।"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "According to the sheet, where are the official rules of the test?"
+        },
+        "options": [
+          "In your notice to attend",
+          "On this information sheet",
+          "On the centre's door",
+          "Nowhere"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Les règles officielles du test sont celles indiquées dans votre convocation.'",
+          "hi": "आधिकारिक नियम बुलावा-पत्र में दिए गए हैं।"
+        },
+        "kind": "literal",
+        "evidence": "Les règles officielles du test sont celles indiquées dans votre convocation."
+      },
+      {
+        "q": {
+          "en": "What should you do if your name is misspelled on the convocation?"
+        },
+        "options": [
+          "Nothing",
+          "Correct it by hand",
+          "Call the centre at least a week before",
+          "Tell the invigilator on the day"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Contactez-nous au 555-0190 au moins une semaine avant le test.'",
+          "hi": "परीक्षा से कम से कम एक हफ़्ता पहले केंद्र से संपर्क कीजिए।"
+        },
+        "kind": "inference",
+        "evidence": "au moins une semaine avant le test"
+      },
+      {
+        "q": {
+          "en": "Which identity document must you show?"
+        },
+        "options": [
+          "Any document with a photo",
+          "Your bank card",
+          "Your student card",
+          "The same one used to register"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'La même pièce d'identité que celle utilisée lors de l'inscription.'",
+          "hi": "वही पहचान-पत्र जो पंजीकरण के समय इस्तेमाल किया था।"
+        },
+        "kind": "literal",
+        "evidence": "la même pièce d'identité que celle utilisée lors de l'inscription"
+      },
+      {
+        "q": {
+          "en": "Where does the speaking test take place at this centre?"
+        },
+        "options": [
+          "On the computer, in the same room",
+          "In another room, with an examiner",
+          "By phone, from home",
+          "In the corridor"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'L'expression orale se déroule dans une autre salle, avec un examinateur.'",
+          "hi": "मौखिक परीक्षा दूसरे कमरे में, एक परीक्षक के साथ।"
+        },
+        "kind": "literal",
+        "evidence": "L'expression orale se déroule dans une autre salle, avec un examinateur"
+      },
+      {
+        "q": {
+          "en": "Why does the sheet mention the metro?"
+        },
+        "options": [
+          "Because parking spaces are limited",
+          "Because parking is expensive",
+          "Because the metro is free",
+          "Because the centre is in the station"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "Parking is free 'mais les places sont limitées': the metro is the alternative.",
+          "hi": "पार्किंग मुफ़्त है 'mais les places sont limitées': मेट्रो विकल्प है।"
+        },
+        "kind": "inference",
+        "evidence": "mais les places sont limitées"
+      },
+      {
+        "q": {
+          "en": "What does 'pourraient ne pas être admis' mean?"
+        },
+        "options": [
+          "Will certainly be admitted",
+          "Must pay a fee",
+          "Might not be allowed in",
+          "Will get extra time"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "Conditional of pouvoir + ne pas + infinitive = might not.",
+          "hi": "pouvoir का संभावनार्थ + ne pas + मूल रूप = शायद … न।"
+        },
+        "kind": "vocabulary",
+        "evidence": "Les candidats en retard pourraient ne pas être admis dans la salle."
+      }
+    ]
+  },
+  "writing": {
+    "type": "sentences",
+    "prompt": {
+      "en": "Write your personal exam-day checklist in French: at least eight short lines covering the day before, the morning, arrival, and during the test. Use the infinitive (Vérifier…, Préparer…) or je + present (Je vérifie…). Only include what you know for sure or what your convocation says — add a line reminding yourself to reread it.",
+      "hi": "फ़्रेंच में परीक्षा-दिन की अपनी निजी सूची लिखिए: कम से कम आठ छोटी पंक्तियाँ, जिनमें एक दिन पहले, सुबह, पहुँचना और परीक्षा के दौरान का ध्यान हो। मूल रूप (Vérifier…, Préparer…) या je + वर्तमान काल (Je vérifie…) इस्तेमाल कीजिए। सिर्फ़ वही लिखिए जो आपको पक्का पता है या जो आपके बुलावा-पत्र में लिखा है — उसे दोबारा पढ़ने की याद दिलाने वाली एक पंक्ति भी जोड़िए।"
+    },
+    "minWords": 60,
+    "maxWords": 140,
+    "hints": [
+      {
+        "en": "Organise by time: la veille, le matin, à l'arrivée, pendant les épreuves.",
+        "hi": "समय के हिसाब से बाँटिए: la veille, le matin, à l'arrivée, pendant les épreuves।"
+      },
+      {
+        "en": "Include one line about stress (respirer, dormir, manger).",
+        "hi": "तनाव के बारे में एक पंक्ति रखिए (respirer, dormir, manger)।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "la veille",
+        "en": "the day before",
+        "hi": "एक दिन पहले",
+        "pron": "ला वैय"
+      },
+      {
+        "fr": "Relire ma convocation.",
+        "en": "Reread my notice to attend.",
+        "hi": "अपना बुलावा-पत्र दोबारा पढ़ना।",
+        "pron": "ग़ö-लीग़ मा कोँ-वो-का-स्योँ"
+      },
+      {
+        "fr": "Prévoir du temps pour le trajet.",
+        "en": "Allow time for the journey.",
+        "hi": "रास्ते के लिए समय रखना।",
+        "pron": "प्ग़े-व्वाग़ दü ताँ पूग़ लö त्ग़ा-झ़ै"
+      }
+    ],
+    "model": {
+      "fr": "La veille :\n– Relire ma convocation : heure, adresse, salle.\n– Vérifier que ma pièce d'identité est en cours de validité.\n– Préparer mon sac : convocation, passeport, bouteille d'eau.\n– Regarder le trajet et prévoir trente minutes de plus.\n– Me coucher tôt, sans réviser toute la nuit.\n\nLe matin :\n– Prendre un bon petit-déjeuner.\n– Partir en avance.\n\nPendant les épreuves :\n– Écouter les consignes du surveillant.\n– Regarder le temps restant sur l'écran.\n– Ne laisser aucune question sans réponse.\n– Respirer calmement entre deux épreuves.",
+      "en": "The day before:\n– Reread my notice to attend: time, address, room.\n– Check that my ID is valid.\n– Pack my bag: notice to attend, passport, water bottle.\n– Look at the journey and allow thirty extra minutes.\n– Go to bed early, without revising all night.\n\nIn the morning:\n– Have a good breakfast.\n– Leave early.\n\nDuring the tests:\n– Listen to the invigilator's instructions.\n– Look at the remaining time on the screen.\n– Leave no question unanswered.\n– Breathe calmly between two tests."
+    },
+    "checklist": [
+      {
+        "en": "At least eight lines, organised by moment of the day?",
+        "hi": "कम से कम आठ पंक्तियाँ, दिन के समय के हिसाब से?"
+      },
+      {
+        "en": "Same form throughout (all infinitives, or all je + present)?",
+        "hi": "पूरी सूची में एक ही रूप (सब मूल रूप, या सब je + वर्तमान)?"
+      },
+      {
+        "en": "A line reminding you to reread your convocation, and nothing you are unsure about?",
+        "hi": "बुलावा-पत्र दोबारा पढ़ने की याद वाली पंक्ति, और कोई भी ऐसी बात नहीं जिस पर आपको शक हो?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      101,
+      106,
+      111,
+      112,
+      117
+    ],
+    "items": [
+      {
+        "fr": "la consigne",
+        "en": "the instructions (of a task)",
+        "hi": "काम के निर्देश",
+        "pron": "ला कोँ-सीन्य"
+      },
+      {
+        "fr": "Cochez la bonne réponse.",
+        "en": "Tick the right answer.",
+        "hi": "सही जवाब पर निशान लगाइए।",
+        "pron": "को-शे ला बॉन ग़े-पोँस"
+      },
+      {
+        "fr": "Vous voulez dire que … ?",
+        "en": "Do you mean that …?",
+        "hi": "आपका मतलब है कि …?",
+        "pron": "वू वू-ले दीग़ कö"
+      },
+      {
+        "fr": "Comment dire … ?",
+        "en": "How do you say …?",
+        "hi": "… कैसे कहें?",
+        "pron": "को-माँ दीग़"
+      },
+      {
+        "fr": "J'ai le trac.",
+        "en": "I have stage fright.",
+        "hi": "मुझे घबराहट हो रही है।",
+        "pron": "झ़े लö त्ग़ाक"
+      },
+      {
+        "fr": "le point faible",
+        "en": "weak point",
+        "hi": "कमज़ोर पहलू",
+        "pron": "लö प्वैँ फ़ैब्ल"
+      },
+      {
+        "fr": "Il me reste dix minutes.",
+        "en": "I have ten minutes left.",
+        "hi": "मेरे पास दस मिनट बचे हैं।",
+        "pron": "ईल मö ग़ैस्त दी मी-नüत"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which document tells you the official time and place of your test?",
+        "hi": "कौन-सा काग़ज़ आपकी परीक्षा का आधिकारिक समय और जगह बताता है?"
+      },
+      "options": [
+        "Your convocation",
+        "A friend's message",
+        "This course",
+        "A forum online"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Your convocation (and your centre's information) is the reference.",
+        "hi": "आपका बुलावा-पत्र (और आपके केंद्र की जानकारी) ही संदर्भ है।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Il est conseillé d'arriver en avance' expresses…",
+        "hi": "'Il est conseillé d'arriver en avance' क्या बताता है?"
+      },
+      "options": [
+        "A prohibition",
+        "A piece of advice",
+        "A question",
+        "A past event"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Il est conseillé de = it is recommended.",
+        "hi": "Il est conseillé de = सलाह दी जाती है।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "In the listening test, how many times is each recording played?",
+        "hi": "सुनने की परीक्षा में हर रिकॉर्डिंग कितनी बार चलती है?"
+      },
+      "options": [
+        "Once",
+        "Twice",
+        "Three times",
+        "As many times as you want"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Each recording is played once and there is no going back.",
+        "hi": "हर रिकॉर्डिंग एक बार चलती है और पीछे नहीं जा सकते।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: Talking is forbidden during the test.",
+        "hi": "पूरा कीजिए: परीक्षा के दौरान बात करना मना है।"
+      },
+      "sentence": "Il est ___ de parler pendant l'épreuve.",
+      "answer": "interdit",
+      "accept": [],
+      "explanation": {
+        "en": "Il est interdit de + infinitive.",
+        "hi": "Il est interdit de + क्रिया का मूल रूप।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: My headphones aren't working.",
+        "hi": "पूरा कीजिए: मेरा हेडफ़ोन काम नहीं कर रहा।"
+      },
+      "sentence": "Mon ___ ne fonctionne pas.",
+      "answer": "casque",
+      "accept": [],
+      "explanation": {
+        "en": "Le casque = headphones (masculine singular in French).",
+        "hi": "Le casque = हेडफ़ोन (फ़्रेंच में पुल्लिंग एकवचन)।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "Here is my notice to attend and my ID.",
+        "hi": "यह रहा मेरा बुलावा-पत्र और मेरा पहचान-पत्र।"
+      },
+      "answer": "Voici ma convocation et ma pièce d'identité.",
+      "accept": [
+        "Voici ma convocation et ma pièce d'identité",
+        "Voilà ma convocation et ma pièce d'identité."
+      ],
+      "explanation": {
+        "en": "Both nouns are feminine: ma convocation, ma pièce d'identité.",
+        "hi": "दोनों संज्ञाएँ स्त्रीलिंग हैं: ma convocation, ma pièce d'identité।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: Where can I leave my belongings?",
+        "hi": "शब्दों को क्रम में रखिए: मैं अपना सामान कहाँ रख सकता हूँ?"
+      },
+      "words": [
+        "je",
+        "Où",
+        "affaires",
+        "peux",
+        "mes",
+        "est-ce",
+        "laisser",
+        "que"
+      ],
+      "answer": "Où est-ce que je peux laisser mes affaires ?",
+      "explanation": {
+        "en": "Question word + est-ce que + subject + verb.",
+        "hi": "प्रश्नवाचक शब्द + est-ce que + कर्ता + क्रिया।"
+      }
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "day": 77,
+  "phase": 4,
+  "title": { "fr": "Révision : convaincre et répondre aux objections", "en": "Review day: persuasion and objections", "hi": "दोहराई का दिन: मनाना और आपत्तियों का जवाब देना" },
+  "objective": {
+    "en": "Review Days 71–76 in one realistic task: persuade someone, recognise and answer their objections, reach a compromise, and use il faut que / je suis content que + subjunctive where they fit.",
+    "hi": "दिन 71–76 को एक वास्तविक काम में दोहराना: किसी को मनाना, उसकी आपत्तियाँ मानकर जवाब देना, समझौते तक पहुँचना, और जहाँ सही हो वहाँ il faut que / je suis content que + subjonctif इस्तेमाल करना।"
+  },
+  "prerequisites": {
+    "days": [71, 72, 73, 74, 75, 76],
+    "summary": {
+      "en": "This week you asked follow-up questions (71), persuaded (72), answered objections (73), structured an opinion (74) and met the subjunctive (75–76). Today you combine everything.",
+      "hi": "इस हफ़्ते आपने आगे के सवाल पूछे (71), मनाया (72), आपत्तियों का जवाब दिया (73), राय को ढाँचे में रखा (74) और subjonctif से मिले (75–76)। आज आप सब कुछ एक साथ जोड़ेंगे।"
+    }
+  },
+  "light": true,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "un compromis", "en": "a compromise", "hi": "समझौता", "pron": "ऐँ कोँ-प्ग़ो-मी", "ipa": "ɛ̃ kɔ̃pʁɔmi", "pos": "noun", "gender": "m", "lemma": "compromis" },
+    { "fr": "céder", "en": "to give in", "hi": "झुक जाना, मान जाना", "pron": "से-दे", "ipa": "sede", "pos": "verb" },
+    { "fr": "insister", "en": "to insist", "hi": "ज़ोर देना, अड़े रहना", "pron": "ऐँ-सीस-ते", "ipa": "ɛ̃siste", "pos": "verb" },
+    { "fr": "je te l'accorde", "en": "I'll grant you that", "hi": "यह बात मैं मानता हूँ", "pron": "झ़ö तö ला-कॉग़्द", "ipa": "ʒə tə lakɔʁd", "pos": "phrase", "note": { "en": "Formal: je vous l'accorde. A neat way to recognise an argument.", "hi": "औपचारिक: je vous l'accorde। किसी तर्क को मानने का बढ़िया तरीक़ा।" } },
+    { "fr": "le bénévolat", "en": "volunteering", "hi": "स्वयंसेवा", "pron": "लö बे-ने-वो-ला", "ipa": "lə benevɔla", "pos": "noun", "gender": "m", "lemma": "bénévolat", "note": { "en": "un / une bénévole = a volunteer.", "hi": "un / une bénévole = स्वयंसेवक।" } },
+    { "fr": "accueillant / accueillante", "en": "welcoming", "hi": "मिलनसार, स्वागत करने वाला", "pron": "आ-कö-याँ / आ-कö-याँत", "ipa": "akœjɑ̃ / akœjɑ̃t", "pos": "adjective", "lemma": "accueillant" }
+  ],
+  "phrases": [
+    { "fr": "Ça te dirait de venir ?", "en": "Would you fancy coming?", "hi": "आना चाहोगे?", "pron": "सा तö दी-ग़ै दö व्नीग़" },
+    { "fr": "Tu n'as aucune excuse !", "en": "You have no excuse!", "hi": "तुम्हारे पास कोई बहाना नहीं है!", "pron": "तü ना ज़ो-कüन ऐक्स-कüज़" },
+    { "fr": "C'est un bon compromis.", "en": "It's a good compromise.", "hi": "यह अच्छा समझौता है।", "pron": "सै तैँ बोँ कोँ-प्ग़ो-मी" },
+    { "fr": "Bon, tu as gagné !", "en": "OK, you win!", "hi": "ठीक है, तुम जीत गए!", "pron": "बोँ तü आ गा-न्ये" },
+    { "fr": "Je suis sûre que tu vas adorer.", "en": "I'm sure you'll love it.", "hi": "मुझे यक़ीन है कि तुम्हें बहुत पसंद आएगा।", "pron": "झ़ö स्üई सüग़ कö तü वा ज़ा-दो-ग़े" }
+  ],
+  "grammar": {
+    "title": { "en": "Recap: the persuasion toolkit (Days 71–76)", "hi": "दोहराई: मनाने का औज़ार-बक्सा (दिन 71–76)" },
+    "explanation": {
+      "en": "1) OPEN and ASK (Day 71): Ça te dirait de… ? Est-ce que vous pourriez me dire… ? Et pour… ? 2) PERSUADE (Day 72): Tu devrais… / Ça vaut la peine de… / Je t'assure que… / Imagine : si tu venais, tu… 3) RECOGNISE then COUNTER (Day 73): Je comprends, mais… / Certes…, pourtant… / Au contraire ! / Même si + present… / Je te l'accorde, … 4) STRUCTURE (Day 74): Tout d'abord… Ensuite… En conclusion, il est important de + infinitive. 5) SUBJUNCTIVE (Days 75–76) after il faut que, je veux que, pour que and feelings or doubts: Il faut que tu essaies. Je suis contente que tu sois là. Je doute que ce soit difficile. But INDICATIVE after je pense que, je crois que, je suis sûr(e) que, j'espère que. 6) CLOSE with a COMPROMISE: Si tu venais une fois par mois, ce serait déjà génial. → C'est un bon compromis.",
+      "hi": "1) शुरुआत और सवाल (दिन 71): Ça te dirait de… ? Est-ce que vous pourriez me dire… ? Et pour… ? 2) मनाना (दिन 72): Tu devrais… / Ça vaut la peine de… / Je t'assure que… / Imagine : si tu venais, tu… 3) पहले मानना, फिर जवाब (दिन 73): Je comprends, mais… / Certes…, pourtant… / Au contraire ! / Même si + वर्तमान… / Je te l'accorde, … 4) ढाँचा (दिन 74): Tout d'abord… Ensuite… En conclusion, il est important de + infinitive। 5) subjonctif (दिन 75–76) il faut que, je veux que, pour que और भावनाओं या शंकाओं के बाद: Il faut que tu essaies। Je suis contente que tu sois là। Je doute que ce soit difficile। लेकिन je pense que, je crois que, je suis sûr(e) que, j'espère que के बाद indicatif। 6) समझौते के साथ अंत: Si tu venais une fois par mois, ce serait déjà génial। → C'est un bon compromis।"
+    },
+    "comparison": {
+      "en": "Persuasion in Hindi often relies on warmth ('अरे यार, चलो न!'). French also uses warmth (Allez, viens !), but in the TEF the examiner listens for structured arguments and varied concessions, so add a reason to every 'Allez !'.",
+      "hi": "हिंदी में मनाना अक्सर अपनेपन पर टिका होता है ('अरे यार, चलो न!')। फ़्रेंच में भी अपनापन होता है (Allez, viens !), लेकिन TEF में परीक्षक ढाँचे वाले तर्क और तरह-तरह की रियायतें सुनना चाहता है, इसलिए हर 'Allez !' के साथ एक कारण जोड़िए।"
+    },
+    "examples": [
+      { "fr": "Ça te dirait de venir samedi ?", "en": "Would you like to come on Saturday?", "hi": "शनिवार को आना चाहोगे?", "pron": "सा तö दी-ग़ै दö व्नीग़ सम-दी" },
+      { "fr": "Certes, c'est loin. Pourtant, ça vaut la peine.", "en": "Admittedly it's far. And yet it's worth it.", "hi": "माना कि दूर है। फिर भी इसके लायक़ है।", "pron": "सैग़्त सै ल्वैँ पूग़-ताँ सा वो ला पैन" },
+      { "fr": "Il faut que tu essaies au moins une fois.", "en": "You have to try at least once.", "hi": "तुम्हें कम से कम एक बार आज़माना होगा।", "pron": "ईल फ़ो कö तü ए-सै ओ म्वैँ üन फ़्वा" },
+      { "fr": "Je suis contente que tu sois de l'équipe.", "en": "I'm glad you're on the team.", "hi": "मुझे ख़ुशी है कि तुम टीम में हो।", "pron": "झ़ö स्üई कोँ-ताँत कö तü स्वा दö ले-कीप" },
+      { "fr": "Je crois que c'est une bonne idée.", "en": "I believe it's a good idea.", "hi": "मुझे लगता है कि यह अच्छा विचार है।", "pron": "झ़ö क्ग़्वा कö सै तüन बॉन ई-दे" }
+    ],
+    "pitfalls": [
+      { "en": "Don't answer an objection with only 'Mais non !'. Recognise first, then give a concrete fact.", "hi": "आपत्ति का जवाब सिर्फ़ 'Mais non !' से मत दीजिए। पहले मानिए, फिर कोई ठोस तथ्य दीजिए।" },
+      { "en": "Je pense que + indicative; je ne pense pas que + subjunctive.", "hi": "Je pense que + indicatif; je ne pense pas que + subjonctif।" },
+      { "en": "Si + imparfait → conditional, never si + conditional: Si tu venais (not 'si tu viendrais').", "hi": "Si + imparfait → conditionnel, si + conditionnel कभी नहीं: Si tu venais ('si tu viendrais' नहीं)।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Review of expressive intonation",
+    "tip": {
+      "en": "Persuasion lives in the voice. Exclamations (Au contraire ! Franchement !) start high and fall. Surprised questions (Ah bon ? Vraiment ?) rise sharply at the end. A friendly push (Allez, viens !) stretches the first word: Alleeez. Record yourself saying today's phrases with and without emotion and hear the difference.",
+      "hi": "मनाने की ताक़त आवाज़ में होती है। विस्मयादिबोधक (Au contraire ! Franchement !) ऊँचे से शुरू होकर नीचे गिरते हैं। हैरानी वाले सवाल (Ah bon ? Vraiment ?) आख़िर में तेज़ी से ऊपर जाते हैं। दोस्ताना धक्का (Allez, viens !) पहले शब्द को खींचता है: Alleeez। आज के वाक्यांश भावना के साथ और बिना भावना के रिकॉर्ड कीजिए और फ़र्क़ सुनिए।"
+    },
+    "words": [
+      { "fr": "Au contraire !", "en": "On the contrary!", "hi": "बिल्कुल उलटा!", "pron": "ओ कोँ-त्ग़ैग़", "ipa": "o kɔ̃tʁɛʁ" },
+      { "fr": "Franchement !", "en": "Honestly!", "hi": "सच कहूँ तो!", "pron": "फ़्ग़ाँश-माँ", "ipa": "fʁɑ̃ʃmɑ̃" },
+      { "fr": "Ah bon ?", "en": "Really? (surprise)", "hi": "अच्छा? सच में?", "pron": "आ बोँ ↗", "ipa": "a bɔ̃" },
+      { "fr": "Allez, viens !", "en": "Come on, come!", "hi": "चलो न, आ जाओ!", "pron": "आ-ले व्यैँ", "ipa": "ale vjɛ̃" },
+      { "fr": "C'est génial !", "en": "It's great!", "hi": "यह तो कमाल है!", "pron": "सै झ़े-न्याल", "ipa": "sɛ ʒenjal" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Samedi à la banque alimentaire", "en": "Saturday at the food bank" },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Priya volunteers at her neighbourhood food bank in Montréal. She tries to convince her colleague Thomas to join her on Saturday mornings. Thomas has several objections. Notice every technique from this week: questions, persuasion, concessions, subjunctive and a final compromise.",
+      "hi": "प्रिया मॉन्ट्रियाल में अपने मोहल्ले के फ़ूड बैंक में स्वयंसेवा करती हैं। वे अपने सहकर्मी थॉमस को शनिवार सुबह अपने साथ आने के लिए मनाने की कोशिश करती हैं। थॉमस की कई आपत्तियाँ हैं। इस हफ़्ते की हर तकनीक पर ध्यान दीजिए: सवाल, मनाना, रियायतें, subjonctif और आख़िर में समझौता।"
+    },
+    "lines": [
+      { "speaker": "Priya", "voice": "f1", "fr": "Thomas, tu fais quelque chose samedi matin ?", "en": "Thomas, are you doing anything on Saturday morning?", "hi": "थॉमस, शनिवार सुबह कुछ कर रहे हो?" },
+      { "speaker": "Thomas", "voice": "m2", "fr": "Pas grand-chose. Pourquoi ?", "en": "Not much. Why?", "hi": "कुछ ख़ास नहीं। क्यों?" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Je fais du bénévolat à la banque alimentaire du quartier. On cherche des gens. Ça te dirait de venir ?", "en": "I volunteer at the neighbourhood food bank. We're looking for people. Would you like to come?", "hi": "मैं मोहल्ले के फ़ूड बैंक में स्वयंसेवा करती हूँ। हमें लोगों की ज़रूरत है। आना चाहोगे?" },
+      { "speaker": "Thomas", "voice": "m2", "fr": "Bof… Le samedi, c'est mon seul jour pour dormir.", "en": "Meh… Saturday is my only day to sleep in.", "hi": "हम्म… शनिवार ही मेरा सोने का अकेला दिन है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Je comprends, mais on commence à dix heures, pas à l'aube ! Tu pourrais dormir jusqu'à neuf heures.", "en": "I understand, but we start at ten, not at dawn! You could sleep until nine.", "hi": "मैं समझती हूँ, लेकिन हम दस बजे शुरू करते हैं, सुबह-सुबह नहीं! तुम नौ बजे तक सो सकते हो।" },
+      { "speaker": "Thomas", "voice": "m2", "fr": "Peut-être, mais je donne déjà de l'argent chaque année. Ce n'est pas suffisant ?", "en": "Maybe, but I already give money every year. Isn't that enough?", "hi": "शायद, लेकिन मैं हर साल पैसे तो दान करता ही हूँ। क्या इतना काफ़ी नहीं?" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Certes, l'argent est utile. Pourtant, ils ont surtout besoin de bras : trier les produits, préparer les paniers…", "en": "Admittedly, money is useful. And yet what they need most is hands: sorting products, preparing the baskets…", "hi": "माना कि पैसा काम का है। फिर भी उन्हें सबसे ज़्यादा हाथों की ज़रूरत है: सामान छाँटना, टोकरियाँ तैयार करना…" },
+      { "speaker": "Thomas", "voice": "m2", "fr": "Et je ne connais personne là-bas. Je vais me sentir un peu perdu.", "en": "And I don't know anyone there. I'll feel a bit lost.", "hi": "और मैं वहाँ किसी को नहीं जानता। मुझे थोड़ा अजीब लगेगा।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Au contraire ! Tout le monde est très accueillant. Et moi, je serai là. Je veux que tu te sentes à l'aise dès le premier jour.", "en": "On the contrary! Everyone is very welcoming. And I'll be there. I want you to feel comfortable from day one.", "hi": "बिल्कुल उलटा! सब लोग बहुत मिलनसार हैं। और मैं भी वहाँ रहूँगी। मैं चाहती हूँ कि तुम्हें पहले ही दिन से सहज लगे।" },
+      { "speaker": "Thomas", "voice": "m2", "fr": "C'est loin ?", "en": "Is it far?", "hi": "दूर है?" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Dix minutes à pied de chez toi. Franchement, tu n'as aucune excuse !", "en": "Ten minutes' walk from your place. Honestly, you have no excuse!", "hi": "तुम्हारे घर से पैदल दस मिनट। सच कहूँ तो तुम्हारे पास कोई बहाना नहीं है!" },
+      { "speaker": "Thomas", "voice": "m2", "fr": "Ha ha. Bon, je te l'accorde, ce n'est pas loin. Mais je doute d'avoir le temps tous les samedis.", "en": "Ha ha. OK, I'll grant you that, it's not far. But I doubt I'll have time every Saturday.", "hi": "हा हा। ठीक है, यह मैं मानता हूँ, दूर नहीं है। लेकिन मुझे शक है कि मेरे पास हर शनिवार समय होगा।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Personne ne te demande de venir chaque semaine. Si tu venais une fois par mois, ce serait déjà génial.", "en": "Nobody is asking you to come every week. If you came once a month, that would already be great.", "hi": "कोई तुमसे हर हफ़्ते आने को नहीं कह रहा। अगर तुम महीने में एक बार भी आओ, तो वह भी बहुत बढ़िया होगा।" },
+      { "speaker": "Thomas", "voice": "m2", "fr": "Une fois par mois… D'accord, c'est un bon compromis.", "en": "Once a month… OK, that's a good compromise.", "hi": "महीने में एक बार… ठीक है, यह अच्छा समझौता है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Super ! Je suis vraiment contente que tu sois de l'équipe.", "en": "Great! I'm really glad you're on the team.", "hi": "बढ़िया! मुझे सच में ख़ुशी है कि तुम टीम में हो।" },
+      { "speaker": "Thomas", "voice": "m2", "fr": "Mais attention : si je m'ennuie, je rentre dormir !", "en": "But be warned: if I get bored, I'm going home to sleep!", "hi": "लेकिन ध्यान रहे: अगर मैं ऊब गया, तो घर जाकर सो जाऊँगा!" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Je suis sûre que tu vas adorer.", "en": "I'm sure you'll love it.", "hi": "मुझे यक़ीन है कि तुम्हें बहुत पसंद आएगा।" }
+    ],
+    "questions": [
+      { "q": { "en": "What does Priya invite Thomas to do?" }, "options": ["Go to a party", "Volunteer at a food bank", "Go shopping on Saturday", "Give money to a charity"], "answer": 1, "explanation": { "en": "She volunteers at the neighbourhood food bank and asks him to come.", "hi": "वे मोहल्ले के फ़ूड बैंक में स्वयंसेवा करती हैं और उसे आने को कहती हैं।" }, "kind": "literal", "evidence": "Je fais du bénévolat à la banque alimentaire du quartier." },
+      { "q": { "en": "What is Thomas's first objection?" }, "options": ["Saturday is his only day to sleep in.", "He has to work on Saturday.", "He doesn't like food banks.", "It's too far."], "answer": 0, "explanation": { "en": "Saturday is his only day for sleeping.", "hi": "शनिवार उसका सोने का अकेला दिन है।" }, "kind": "literal", "evidence": "Le samedi, c'est mon seul jour pour dormir." },
+      { "q": { "en": "How does Priya answer the objection about money?" }, "options": ["She says money is useless.", "She asks him for more money.", "She says that what they need most is people to help.", "She says the food bank has enough money."], "answer": 2, "explanation": { "en": "She recognises money is useful, but they mostly need hands (people to work).", "hi": "वे मानती हैं कि पैसा काम का है, लेकिन उन्हें सबसे ज़्यादा काम करने वाले हाथ चाहिए।" }, "kind": "inference", "evidence": "ils ont surtout besoin de bras" },
+      { "q": { "en": "How far is the food bank from Thomas's home?" }, "options": ["Twenty minutes by bus", "Next door", "Five minutes by car", "Ten minutes on foot"], "answer": 3, "explanation": { "en": "Ten minutes' walk from his place.", "hi": "उसके घर से पैदल दस मिनट।" }, "kind": "literal", "evidence": "Dix minutes à pied de chez toi." },
+      { "q": { "en": "What compromise do they reach?" }, "options": ["Thomas will come once a month.", "Thomas will come every Saturday.", "Thomas will only give money.", "Thomas will come in the afternoon."], "answer": 0, "explanation": { "en": "Priya suggests once a month and Thomas calls it a good compromise.", "hi": "प्रिया महीने में एक बार का सुझाव देती हैं और थॉमस इसे अच्छा समझौता कहता है।" }, "kind": "literal", "evidence": "Si tu venais une fois par mois, ce serait déjà génial." },
+      { "q": { "en": "How does Thomas sound at the end?" }, "options": ["Angry that he gave in", "Still completely opposed", "In agreement, while joking", "Worried about the work"], "answer": 2, "explanation": { "en": "He accepts but jokes that he'll go home to sleep if he's bored.", "hi": "वह मान जाता है लेकिन मज़ाक़ करता है कि ऊब गया तो घर जाकर सो जाएगा।" }, "kind": "inference", "evidence": "si je m'ennuie, je rentre dormir" }
+    ],
+    "dictation": [
+      "Je comprends, mais on commence à dix heures.",
+      "Certes, l'argent est utile.",
+      "Si tu venais une fois par mois, ce serait déjà génial."
+    ],
+    "gapFill": {
+      "text": "___, l'argent est utile. ___, ils ont surtout besoin de bras. Je veux que tu te ___ à l'aise dès le premier jour.",
+      "answers": ["Certes", "Pourtant", "sentes"]
+    }
+  },
+  "speaking": {
+    "type": "tef_b",
+    "instructions": {
+      "en": "You saw a poster: « Cuisines du monde — 4 cours, le mardi soir, au centre communautaire, 40 $ ingrédients compris ». You want a friend to sign up with you. Present the activity, then answer your friend's objections one by one, and finish with a compromise. Use tu.",
+      "hi": "आपने एक पोस्टर देखा: « Cuisines du monde — 4 cours, le mardi soir, au centre communautaire, 40 $ ingrédients compris » (दुनिया भर के व्यंजन — 4 क्लास, मंगलवार शाम, सामुदायिक केंद्र में, 40 डॉलर सामग्री सहित)। आप चाहते हैं कि एक दोस्त आपके साथ नाम लिखवाए। गतिविधि के बारे में बताइए, फिर दोस्त की आपत्तियों का एक-एक करके जवाब दीजिए, और एक समझौते के साथ अंत कीजिए। tu इस्तेमाल कीजिए।"
+    },
+    "prompts": [
+      { "fr": "« Je ne sais pas cuisiner du tout. »", "en": "'I can't cook at all.'", "hi": "'मुझे बिल्कुल खाना बनाना नहीं आता।'", "pron": "झ़ö नö सै पा कüइ-ज़ी-ने दü तू", "model": "Justement ! Le cours est pour les débutants. Il faut que tu essaies au moins une fois." },
+      { "fr": "« Le mardi soir, je suis fatigué après le travail. »", "en": "'On Tuesday evenings I'm tired after work.'", "hi": "'मंगलवार शाम को काम के बाद मैं थका होता हूँ।'", "pron": "लö माग़-दी स्वाग़ झ़ö स्üई फ़ा-ती-गे आ-प्ग़ै लö त्ग़ा-वाय", "model": "Je comprends, mais on mange ce qu'on prépare. Tu n'as pas besoin de faire le souper après !" },
+      { "fr": "« Quarante dollars, c'est cher. »", "en": "'Forty dollars is expensive.'", "hi": "'चालीस डॉलर महँगा है।'", "pron": "का-ग़ाँत दो-लाग़ सै शैग़", "model": "Certes, mais c'est quarante dollars pour quatre cours, avec tous les ingrédients. Au restaurant, tu paies plus pour un seul repas." },
+      { "fr": "« Je ne connais personne là-bas. »", "en": "'I don't know anyone there.'", "hi": "'मैं वहाँ किसी को नहीं जानता।'", "pron": "झ़ö नö को-नै पैग़-सॉन ला-बा", "model": "Tu me connais, moi ! Et c'est une bonne occasion de rencontrer des voisins." },
+      { "fr": "« Et si je n'aime pas ? »", "en": "'And what if I don't like it?'", "hi": "'और अगर मुझे पसंद नहीं आया तो?'", "pron": "ए सी झ़ö नैम पा", "model": "Si tu n'aimes pas le premier cours, tu ne reviens pas, c'est tout. Mais je suis sûr que tu vas aimer !" }
+    ],
+    "tip": {
+      "en": "Listen to the objection before you answer: repeat its key word (« Cher ? Je comprends… »). This shows you are interacting, not reciting. Keep one strong argument in reserve for the end, then propose a compromise.",
+      "hi": "जवाब देने से पहले आपत्ति सुनिए: उसका मुख्य शब्द दोहराइए (« Cher ? Je comprends… »)। इससे पता चलता है कि आप बातचीत कर रहे हैं, रटा हुआ नहीं सुना रहे। एक मज़बूत तर्क आख़िर के लिए बचाकर रखिए, फिर समझौते का प्रस्ताव दीजिए।"
+    },
+    "scenario": {
+      "setting": { "en": "At a café after work, with a friend who is tired and a bit lazy.", "hi": "काम के बाद एक कैफ़े में, एक थके और थोड़े आलसी दोस्त के साथ।" },
+      "learnerRole": { "en": "Someone who wants a friend to sign up for a four-week world-cooking course together.", "hi": "कोई जो चाहता है कि दोस्त उसके साथ चार हफ़्ते के विश्व-व्यंजन कोर्स में नाम लिखवाए।" },
+      "partnerRole": { "en": "A friend who raises objections (can't cook, tired on Tuesdays, price, doesn't know anyone, might not like it). They disagree at first, accept only concrete answers, and agree to a compromise at the end, such as trying the first class.", "hi": "एक दोस्त जो आपत्तियाँ करता है (खाना बनाना नहीं आता, मंगलवार को थका होता है, क़ीमत, किसी को नहीं जानता, शायद पसंद न आए)। पहले असहमत होता है, सिर्फ़ ठोस जवाब मानता है, और आख़िर में समझौते पर राज़ी होता है, जैसे पहली क्लास आज़माना।" },
+      "goals": [
+        { "en": "Present the activity clearly (what, when, where, price).", "hi": "गतिविधि को साफ़ बताइए (क्या, कब, कहाँ, क़ीमत)।" },
+        { "en": "Recognise each objection before answering, using at least three different structures.", "hi": "जवाब देने से पहले हर आपत्ति मानिए, कम से कम तीन अलग ढाँचों से।" },
+        { "en": "Use the subjunctive at least once (il faut que / je suis content que).", "hi": "कम से कम एक बार subjonctif इस्तेमाल कीजिए (il faut que / je suis content que)।" },
+        { "en": "End with a compromise your friend accepts.", "hi": "ऐसे समझौते के साथ अंत कीजिए जिसे दोस्त मान ले।" }
+      ]
+    }
+  },
+  "reading": {
+    "genre": "letter",
+    "title": "Courrier des lecteurs — Le bénévolat obligatoire au secondaire : pour ou contre ?",
+    "text": "POUR\n\nMadame, Monsieur,\n\nJe suis tout à fait favorable à quarante heures de bénévolat obligatoire pour les élèves du secondaire. Certes, les adolescents ont déjà beaucoup de devoirs. Mais le bénévolat leur apprend des choses que l'école n'enseigne pas : être responsable, travailler en équipe, écouter les autres. Mon fils a aidé des personnes âgées dans une résidence l'année dernière. Au début, il ne voulait pas y aller ; aujourd'hui, il y retourne seul, chaque dimanche. Ces heures peuvent aussi aider les élèves à choisir un futur métier. Il faut que les jeunes découvrent leur communauté, et l'école est le meilleur endroit pour commencer.\n\nMireille Côté, Trois-Rivières\n\nCONTRE\n\nMadame, Monsieur,\n\nJe ne pense pas qu'un bénévolat obligatoire soit une bonne idée. Le bénévolat, par définition, c'est un choix libre. Si on oblige les jeunes, ils le feront sans motivation, seulement pour avoir leur diplôme. De plus, beaucoup d'élèves travaillent déjà le week-end pour aider leur famille. Ma fille, par exemple, travaille douze heures par semaine dans une épicerie. Où va-t-elle trouver quarante heures de plus ? Je propose plutôt que les écoles présentent des organismes aux élèves et que chacun choisisse librement.\n\nKarim Haddad, Longueuil",
+    "translation": {
+      "en": "Letters to the editor — Compulsory volunteering in high school: for or against?\n\nFOR\n\nDear Sir or Madam,\n\nI am completely in favour of forty hours of compulsory volunteering for high-school students. Admittedly, teenagers already have a lot of homework. But volunteering teaches them things that school doesn't teach: being responsible, working in a team, listening to others. My son helped elderly people in a residence last year. At first he didn't want to go; today he goes back on his own, every Sunday. These hours can also help students choose a future career. Young people need to discover their community, and school is the best place to start.\n\nMireille Côté, Trois-Rivières\n\nAGAINST\n\nDear Sir or Madam,\n\nI don't think compulsory volunteering is a good idea. Volunteering, by definition, is a free choice. If we force young people, they will do it without motivation, only to get their diploma. Moreover, many students already work at weekends to help their family. My daughter, for example, works twelve hours a week in a grocery store. Where is she going to find forty more hours? I suggest instead that schools introduce organisations to students and that each one chooses freely.\n\nKarim Haddad, Longueuil",
+      "hi": "पाठकों के पत्र — हाई स्कूल में अनिवार्य स्वयंसेवा: पक्ष में या विपक्ष में?\n\nपक्ष में\n\nमहोदया, महोदय,\n\nमैं हाई स्कूल के विद्यार्थियों के लिए चालीस घंटे की अनिवार्य स्वयंसेवा के पूरी तरह पक्ष में हूँ। माना कि किशोरों के पास पहले से बहुत होमवर्क होता है। लेकिन स्वयंसेवा उन्हें वे बातें सिखाती है जो स्कूल नहीं सिखाता: ज़िम्मेदार होना, टीम में काम करना, दूसरों की बात सुनना। मेरे बेटे ने पिछले साल एक वृद्धाश्रम में बुज़ुर्गों की मदद की। शुरू में वह जाना नहीं चाहता था; आज वह हर रविवार अपने आप वहाँ लौटकर जाता है। ये घंटे विद्यार्थियों को भविष्य का पेशा चुनने में भी मदद कर सकते हैं। ज़रूरी है कि युवा अपने समुदाय को जानें, और इसकी शुरुआत के लिए स्कूल सबसे अच्छी जगह है।\n\nमिरेय कोते, त्रोआ-रिविएर\n\nविपक्ष में\n\nमहोदया, महोदय,\n\nमुझे नहीं लगता कि अनिवार्य स्वयंसेवा अच्छा विचार है। स्वयंसेवा तो परिभाषा से ही एक आज़ाद चुनाव है। अगर हम युवाओं को मजबूर करेंगे, तो वे इसे बिना लगन के, सिर्फ़ डिप्लोमा पाने के लिए करेंगे। इसके अलावा, बहुत से विद्यार्थी पहले से ही सप्ताहांत में अपने परिवार की मदद के लिए काम करते हैं। उदाहरण के लिए, मेरी बेटी एक किराने की दुकान में हफ़्ते में बारह घंटे काम करती है। वह चालीस घंटे और कहाँ से लाएगी? मेरा सुझाव है कि इसके बजाय स्कूल विद्यार्थियों को संस्थाओं से परिचित कराएँ और हर कोई अपनी मर्ज़ी से चुने।\n\nकरीम हद्दाद, लोंगय"
+    },
+    "questions": [
+      { "q": { "en": "What does Mireille Côté support?" }, "options": ["Less homework for teenagers", "Forty hours of compulsory volunteering", "Paid jobs for high-school students", "Sunday classes"], "answer": 1, "explanation": { "en": "She is completely in favour of forty hours of compulsory volunteering.", "hi": "वे चालीस घंटे की अनिवार्य स्वयंसेवा के पूरी तरह पक्ष में हैं।" }, "kind": "literal", "evidence": "quarante heures de bénévolat obligatoire" },
+      { "q": { "en": "What does the example of her son show?" }, "options": ["He was forced and hated it.", "He prefers working in a grocery store.", "He came to enjoy volunteering.", "He didn't finish his hours."], "answer": 2, "explanation": { "en": "He didn't want to go at first, but now goes back on his own every Sunday.", "hi": "शुरू में वह जाना नहीं चाहता था, लेकिन अब हर रविवार अपने आप जाता है।" }, "kind": "inference", "evidence": "aujourd'hui, il y retourne seul, chaque dimanche" },
+      { "q": { "en": "What is Karim Haddad's main argument?" }, "options": ["Volunteering should be a free choice.", "Volunteering is dangerous for teenagers.", "Schools don't have enough money.", "Elderly people don't need help."], "answer": 0, "explanation": { "en": "By definition, volunteering is a free choice.", "hi": "परिभाषा से ही स्वयंसेवा एक आज़ाद चुनाव है।" }, "kind": "literal", "evidence": "c'est un choix libre" },
+      { "q": { "en": "Why does he mention his daughter?" }, "options": ["She is a volunteer in a residence.", "She failed her diploma.", "She agrees with Mireille.", "To show that many students have no time left"], "answer": 3, "explanation": { "en": "She already works twelve hours a week; she has no time for forty more hours.", "hi": "वह पहले से हफ़्ते में बारह घंटे काम करती है; उसके पास चालीस घंटे और का समय नहीं।" }, "kind": "inference", "evidence": "travaille douze heures par semaine dans une épicerie" },
+      { "q": { "en": "Which idea could both writers accept?" }, "options": ["Volunteering is useless.", "Schools can help students discover organisations.", "Teenagers should work in grocery stores.", "Diplomas should be abolished."], "answer": 1, "explanation": { "en": "Karim suggests schools introduce organisations; Mireille thinks school is the best place to discover the community.", "hi": "करीम सुझाव देते हैं कि स्कूल संस्थाओं से परिचय कराएँ; मिरेय मानती हैं कि समुदाय को जानने के लिए स्कूल सबसे अच्छी जगह है।" }, "kind": "inference", "evidence": "Je propose plutôt que les écoles présentent des organismes aux élèves" }
+    ]
+  },
+  "writing": {
+    "type": "opinion_letter",
+    "prompt": {
+      "en": "Write a persuasive letter to the newspaper in reply to ONE of the two letters above. Recognise the writer's arguments, answer them, give at least one personal example, and end with a clear proposal.",
+      "hi": "ऊपर के दो पत्रों में से किसी एक के जवाब में अख़बार को एक प्रेरक पत्र लिखिए। लेखक के तर्क मानिए, उनका जवाब दीजिए, कम से कम एक निजी उदाहरण दीजिए, और एक साफ़ प्रस्ताव के साथ अंत कीजिए।",
+      "fr": "Répondez à l'une des deux lettres sur le bénévolat obligatoire."
+    },
+    "minWords": 130,
+    "maxWords": 200,
+    "hints": [
+      { "en": "Start by naming the letter you are answering: Je voudrais répondre à la lettre de…", "hi": "उस पत्र का नाम लेकर शुरू कीजिए जिसका आप जवाब दे रहे हैं: Je voudrais répondre à la lettre de…" },
+      { "en": "Plan: recognise → your arguments with an example → answer one of their arguments → conclusion.", "hi": "योजना: मानिए → उदाहरण के साथ अपने तर्क → उनके किसी एक तर्क का जवाब → निष्कर्ष।" },
+      { "en": "Use formal register: vous, Madame, Monsieur, and a formal closing.", "hi": "औपचारिक शैली: vous, Madame, Monsieur, और औपचारिक समापन।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Je voudrais répondre à la lettre de M. Haddad.", "en": "I would like to reply to Mr Haddad's letter.", "hi": "मैं श्री हद्दाद के पत्र का जवाब देना चाहूँगा।", "pron": "झ़ö वू-द्ग़ै ग़े-पोँद्ग़ आ ला लैत्ग़ दö मö-स्यö आ-दाद" },
+      { "fr": "Je comprends ses craintes, mais…", "en": "I understand his fears, but…", "hi": "मैं उनकी आशंकाएँ समझता हूँ, लेकिन…", "pron": "झ़ö कोँ-प्ग़ाँ से क्ग़ैँत मै" },
+      { "fr": "Moi-même, j'ai…", "en": "I myself have…", "hi": "मैंने ख़ुद…", "pron": "म्वा-मैम झ़े" },
+      { "fr": "Veuillez agréer, Madame, Monsieur, mes salutations distinguées.", "en": "Yours faithfully.", "hi": "सादर।", "pron": "वö-ये ज़ा-ग्ग़े-ए मा-दाम मö-स्यö मे सा-लü-ता-स्योँ दीस-तैँ-गे" }
+    ],
+    "model": {
+      "fr": "Madame, Monsieur,\n\nJe voudrais répondre à la lettre de M. Haddad sur le bénévolat obligatoire au secondaire.\n\nJe comprends ses craintes. C'est vrai que beaucoup d'élèves travaillent déjà le week-end, et il ne faut pas les fatiguer davantage. Pourtant, je pense que le bénévolat obligatoire peut être une bonne chose, à condition d'être flexible.\n\nTout d'abord, quarante heures en cinq ans, ce n'est pas énorme : c'est moins d'une heure par mois. Ensuite, beaucoup de jeunes ne font jamais de bénévolat simplement parce qu'ils ne savent pas où aller. Une obligation leur donne une première occasion.\n\nM. Haddad écrit qu'un élève obligé n'aura pas de motivation. Au contraire, la motivation vient souvent après la première expérience. Moi-même, j'ai commencé à aider à la banque alimentaire pour mon école, et j'y suis resté six ans.\n\nEn conclusion, il faut que les écoles proposent des horaires souples, mais je suis convaincu que tous les élèves peuvent y gagner.\n\nVeuillez agréer, Madame, Monsieur, mes salutations distinguées.\n\nVikram Singh, Sherbrooke",
+      "en": "Dear Sir or Madam,\n\nI would like to reply to Mr Haddad's letter about compulsory volunteering in high school.\n\nI understand his fears. It's true that many students already work at weekends, and we must not tire them out even more. And yet I think compulsory volunteering can be a good thing, as long as it is flexible.\n\nFirst of all, forty hours over five years is not huge: it's less than an hour a month. Next, many young people never volunteer simply because they don't know where to go. An obligation gives them a first opportunity.\n\nMr Haddad writes that a student who is forced will have no motivation. On the contrary, motivation often comes after the first experience. I myself started helping at the food bank for my school, and I stayed there six years.\n\nIn conclusion, schools must offer flexible hours, but I am convinced that all students can benefit.\n\nYours faithfully,\n\nVikram Singh, Sherbrooke"
+    },
+    "checklist": [
+      { "en": "Did you name the letter you are answering?", "hi": "क्या आपने उस पत्र का नाम लिया जिसका जवाब दे रहे हैं?" },
+      { "en": "Did you recognise at least one of the writer's arguments before countering it?", "hi": "क्या आपने जवाब देने से पहले लेखक का कम से कम एक तर्क माना?" },
+      { "en": "Did you include a personal example?", "hi": "क्या आपने एक निजी उदाहरण शामिल किया?" },
+      { "en": "Is the register formal from start to finish?", "hi": "क्या शुरू से अंत तक शैली औपचारिक है?" }
+    ]
+  },
+  "review": {
+    "fromDays": [71, 72, 73, 74, 75, 76],
+    "items": [
+      { "fr": "Est-ce que vous pourriez me donner plus de détails ?", "en": "Could you give me more details?", "hi": "क्या आप मुझे और जानकारी दे सकेंगे?", "pron": "ऐस-कö वू पू-ग़्ये मö दो-ने प्लü दö दे-ताय" },
+      { "fr": "Et pour s'inscrire, comment ça marche ?", "en": "And how does registering work?", "hi": "और नाम लिखवाने के लिए क्या करना होता है?", "pron": "ए पूग़ सैँ-स्क्ग़ीग़ को-माँ सा माग़्श" },
+      { "fr": "Tu devrais venir avec moi.", "en": "You should come with me.", "hi": "तुम्हें मेरे साथ आना चाहिए।", "pron": "तü दö-व्ग़ै व्नीग़ आ-वैक म्वा" },
+      { "fr": "Je t'assure que ça vaut la peine.", "en": "I promise you it's worth it.", "hi": "मेरा यक़ीन करो, यह इसके लायक़ है।", "pron": "झ़ö ता-सüग़ कö सा वो ला पैन" },
+      { "fr": "Je comprends ta crainte, mais c'est sans danger.", "en": "I understand your worry, but it's safe.", "hi": "मैं तुम्हारी चिंता समझता हूँ, लेकिन इसमें कोई ख़तरा नहीं।", "pron": "झ़ö कोँ-प्ग़ाँ ता क्ग़ैँत मै सै साँ दाँ-झ़े" },
+      { "fr": "Même si c'est difficile, ça vaut la peine.", "en": "Even if it's hard, it's worth it.", "hi": "भले ही यह मुश्किल है, फिर भी इसके लायक़ है।", "pron": "मैम सी सै दी-फ़ी-सील सा वो ला पैन" },
+      { "fr": "Au contraire, c'est très utile !", "en": "On the contrary, it's very useful!", "hi": "बल्कि, यह बहुत काम का है!", "pron": "ओ कोँ-त्ग़ैग़ सै त्ग़ै ज़ü-तील" },
+      { "fr": "Tout d'abord, il est important de bien dormir.", "en": "First of all, it's important to sleep well.", "hi": "सबसे पहले, अच्छी नींद लेना ज़रूरी है।", "pron": "तू दा-बॉग़ ई-लै तैँ-पोग़-ताँ दö ब्यैँ दॉग़-मीग़" },
+      { "fr": "En conclusion, je suis pour, avec des conditions.", "en": "In conclusion, I'm in favour, with conditions.", "hi": "निष्कर्ष में, मैं पक्ष में हूँ, शर्तों के साथ।", "pron": "आँ कोँ-क्लü-ज़्योँ झ़ö स्üई पूग़ आ-वैक दे कोँ-दी-स्योँ" },
+      { "fr": "Il faut que nous parlions.", "en": "We need to talk.", "hi": "हमें बात करनी होगी।", "pron": "ईल फ़ो कö नू पाग़-ल्योँ" },
+      { "fr": "Je ne veux pas que tu aies peur.", "en": "I don't want you to be afraid.", "hi": "मैं नहीं चाहता कि तुम डरो।", "pron": "झ़ö नö वö पा कö तü ऐ पöग़" },
+      { "fr": "C'est dommage qu'il parte.", "en": "It's a pity he's leaving.", "hi": "अफ़सोस है कि वह जा रहा है।", "pron": "सै दो-माझ़ कील पाग़्त" },
+      { "fr": "Je ne pense pas que ce soit vrai.", "en": "I don't think it's true.", "hi": "मुझे नहीं लगता कि यह सच है।", "pron": "झ़ö नö पाँस पा कö सö स्वा व्ग़ै" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Your friend says: 'C'est trop cher.' Which answer recognises the objection AND counters it?", "hi": "आपका दोस्त कहता है: 'C'est trop cher.' कौन-सा जवाब आपत्ति मानता भी है और उसका जवाब भी देता है?" }, "options": ["Mais non !", "Certes, mais c'est quatre cours avec les ingrédients.", "Tu as raison, on n'y va pas.", "Ce n'est pas mon problème."], "answer": 1, "explanation": { "en": "Certes (recognise) + mais + a concrete fact (counter).", "hi": "Certes (मानना) + mais + एक ठोस तथ्य (जवाब)।" } },
+    { "type": "fill", "prompt": { "en": "Complete with être: I'm glad you're on the team.", "hi": "être से पूरा कीजिए: मुझे ख़ुशी है कि तुम टीम में हो।" }, "sentence": "Je suis contente que tu ___ de l'équipe.", "answer": "sois", "accept": [], "explanation": { "en": "Feeling + que → subjunctive.", "hi": "भावना + que → subjonctif।" } },
+    { "type": "mcq", "prompt": { "en": "Choose the correct sentence.", "hi": "सही वाक्य चुनिए।" }, "options": ["Si tu viendrais une fois par mois, ce serait génial.", "Si tu viens une fois par mois, ce serait génial.", "Si tu venais une fois par mois, ce sera génial.", "Si tu venais une fois par mois, ce serait génial."], "answer": 3, "explanation": { "en": "Si + imparfait → conditional.", "hi": "Si + imparfait → conditionnel।" } },
+    { "type": "translate", "prompt": { "en": "Write in French (tu).", "hi": "फ़्रेंच में लिखिए (tu)।" }, "source": { "en": "Would you like to come on Saturday?", "hi": "शनिवार को आना चाहोगे?" }, "answer": "Ça te dirait de venir samedi ?", "accept": ["Ça te dirait de venir samedi", "Tu voudrais venir samedi ?", "Est-ce que tu voudrais venir samedi ?"], "explanation": { "en": "Ça te dirait de + infinitive = a friendly invitation.", "hi": "Ça te dirait de + infinitive = दोस्ताना न्योता।" } },
+    { "type": "mcq", "prompt": { "en": "Choose the correct form: Je crois que c'___ une bonne idée.", "hi": "सही रूप चुनिए: Je crois que c'___ une bonne idée.", "fr": "Je crois que c'___ une bonne idée." }, "options": ["est", "soit", "être", "sois"], "answer": 0, "explanation": { "en": "Croire que (affirmative) + indicative.", "hi": "croire que (सकारात्मक) + indicatif।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: It's a good compromise.", "hi": "शब्दों को सही क्रम में रखिए: यह अच्छा समझौता है।" }, "words": ["bon", "C'est", "compromis.", "un"], "answer": "C'est un bon compromis.", "explanation": { "en": "bon comes before the noun.", "hi": "bon संज्ञा से पहले आता है।" } },
+    { "type": "fill", "prompt": { "en": "Complete with essayer: You have to try at least once.", "hi": "essayer से पूरा कीजिए: तुम्हें कम से कम एक बार आज़माना होगा।" }, "sentence": "Il faut que tu ___ au moins une fois.", "answer": "essaies", "accept": ["essayes"], "explanation": { "en": "ils essaient → que tu essaies (essayes is also accepted).", "hi": "ils essaient → que tu essaies (essayes भी मान्य है)।" } }
+  ]
+}

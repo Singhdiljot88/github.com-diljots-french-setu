@@ -1,0 +1,192 @@
+{
+  "day": 43,
+  "phase": 3,
+  "title": { "fr": "Les participes passés irréguliers", "en": "Irregular past participles", "hi": "अनियमित भूत कृदंत (past participles)" },
+  "objective": {
+    "en": "Use the most common irregular past participles (fait, pris, eu, été, vu, dit, écrit, lu, bu, mis, ouvert, pu, voulu, dû) to tell what happened during a busy day.",
+    "hi": "सबसे आम अनियमित भूत कृदंत (fait, pris, eu, été, vu, dit, écrit, lu, bu, mis, ouvert, pu, voulu, dû) इस्तेमाल करके बताना कि एक व्यस्त दिन में क्या-क्या हुआ।"
+  },
+  "prerequisites": {
+    "days": [16, 29, 32, 41, 42],
+    "summary": {
+      "en": "You know the passé composé with avoir and regular participles (Days 41–42), plus faire (Day 16), prendre (Day 29) and pouvoir/vouloir/devoir (Day 32) in the present.",
+      "hi": "आप avoir वाला पासे कॉम्पोज़े और नियमित कृदंत जानते हैं (दिन 41–42), साथ ही वर्तमान काल में faire (दिन 16), prendre (दिन 29) और pouvoir/vouloir/devoir (दिन 32)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "une bonne nouvelle", "en": "a piece of good news", "hi": "एक अच्छी ख़बर", "pron": "üन बॉन नू-वैल", "ipa": "yn bɔn nuvɛl", "pos": "noun", "gender": "f", "lemma": "nouvelle", "note": { "en": "une nouvelle = one piece of news; les nouvelles = the news (on TV or radio).", "hi": "une nouvelle = एक ख़बर; les nouvelles = समाचार (टीवी या रेडियो पर)।" } },
+    { "fr": "la réunion", "en": "the meeting", "hi": "मीटिंग, बैठक", "pron": "ला ग़े-ü-न्योँ", "ipa": "la ʁeynjɔ̃", "pos": "noun", "gender": "f", "lemma": "réunion" },
+    { "fr": "le colis", "en": "the parcel", "hi": "पार्सल", "pron": "लö को-ली", "ipa": "lə kɔli", "pos": "noun", "gender": "m", "lemma": "colis", "note": { "en": "The final s is silent, and the plural is the same: des colis.", "hi": "आख़िरी s नहीं बोला जाता, और बहुवचन भी वही है: des colis।" } },
+    { "fr": "la lettre", "en": "the letter", "hi": "चिट्ठी, पत्र", "pron": "ला लैत्ग़", "ipa": "la lɛtʁ", "pos": "noun", "gender": "f", "lemma": "lettre" },
+    { "fr": "le formulaire", "en": "the form (to fill in)", "hi": "फ़ॉर्म, प्रपत्र", "pron": "लö फ़ॉग़-मü-लैग़", "ipa": "lə fɔʁmylɛʁ", "pos": "noun", "gender": "m", "lemma": "formulaire" },
+    { "fr": "la fenêtre", "en": "the window", "hi": "खिड़की", "pron": "ला फ़ö-नैत्ग़", "ipa": "la fənɛtʁ", "pos": "noun", "gender": "f", "lemma": "fenêtre" },
+    { "fr": "le permis de conduire", "en": "the driving licence", "hi": "ड्राइविंग लाइसेंस", "pron": "लö पैग़-मी द कोँ-द्üईग़", "ipa": "lə pɛʁmi də kɔ̃dɥiʁ", "pos": "noun", "gender": "m", "lemma": "permis" },
+    { "fr": "un accident", "en": "an accident", "hi": "दुर्घटना", "pron": "ऐँ नाक-सी-दाँ", "ipa": "ɛ̃ naksidɑ̃", "pos": "noun", "gender": "m", "lemma": "accident" },
+    { "fr": "oublier", "en": "to forget", "hi": "भूल जाना", "pron": "ऊ-ब्ली-ये", "ipa": "ublije", "pos": "verb", "note": { "en": "Regular -er verb: j'ai oublié.", "hi": "नियमित -er क्रिया: j'ai oublié।" } },
+    { "fr": "faire la queue", "en": "to stand in line, to queue", "hi": "लाइन में खड़े होना", "pron": "फ़ैग़ ला क्ö", "ipa": "fɛʁ la kø", "pos": "phrase" },
+    { "fr": "toute la journée", "en": "all day long", "hi": "पूरे दिन", "pron": "तूत ला झ़ूग़-ने", "ipa": "tut la ʒuʁne", "pos": "phrase" },
+    { "fr": "vite", "en": "quickly, fast", "hi": "जल्दी से, तेज़ी से", "pron": "वीत", "ipa": "vit", "pos": "adverb" }
+  ],
+  "phrases": [
+    { "fr": "J'ai eu une journée chargée.", "en": "I had a busy day.", "hi": "मेरा दिन बहुत व्यस्त रहा।", "pron": "झ़े ü üन झ़ूग़-ने शाग़-झ़े", "ipa": "ʒe y yn ʒuʁne ʃaʁʒe" },
+    { "fr": "J'ai pris le métro.", "en": "I took the metro.", "hi": "मैंने मेट्रो ली।", "pron": "झ़े प्री लö मे-त्रो", "ipa": "ʒe pʁi lə metʁo" },
+    { "fr": "Tu as vu les nouvelles ?", "en": "Have you seen the news?", "hi": "तुमने समाचार देखे?", "pron": "तü आ वü ले नू-वैल", "ipa": "ty a vy le nuvɛl" },
+    { "fr": "Qu'est-ce qu'il a dit ?", "en": "What did he say?", "hi": "उसने क्या कहा?", "pron": "कैस-की-ला दी", "ipa": "kɛskila di" },
+    { "fr": "Je n'ai pas pu venir.", "en": "I couldn't come.", "hi": "मैं नहीं आ सका/सकी।", "pron": "झ़ö नै पा पü वö-नीग़", "ipa": "ʒə nɛ pa py vəniʁ" },
+    { "fr": "J'ai dû attendre une heure.", "en": "I had to wait an hour.", "hi": "मुझे एक घंटा इंतज़ार करना पड़ा।", "pron": "झ़े दü आ-ताँद्ग़ ü नöग़", "ipa": "ʒe dy atɑ̃dʁ y nœʁ" }
+  ],
+  "grammar": {
+    "title": { "en": "Irregular past participles", "hi": "अनियमित भूत कृदंत" },
+    "explanation": {
+      "en": "Many very common verbs have an irregular participle. Learn them in sound families. Ending in -u: avoir → eu, boire (to drink) → bu, lire (to read) → lu, voir (to see) → vu, pouvoir → pu, vouloir → voulu, devoir → dû. Ending in -is / -it: prendre → pris (also apprendre → appris, comprendre → compris), mettre (to put) → mis, dire (to say) → dit, écrire (to write) → écrit. Special: faire → fait, être → été, ouvrir (to open) → ouvert. They all use avoir: j'ai fait, tu as pris, il a eu, nous avons été, vous avez vu, ils ont dit.",
+      "hi": "कई बहुत आम क्रियाओं के कृदंत अनियमित होते हैं। इन्हें आवाज़ के परिवारों में याद कीजिए। -u वाले: avoir → eu, boire (पीना) → bu, lire (पढ़ना) → lu, voir (देखना) → vu, pouvoir → pu, vouloir → voulu, devoir → dû। -is / -it वाले: prendre → pris (और apprendre → appris, comprendre → compris), mettre (रखना/पहनना) → mis, dire (कहना) → dit, écrire (लिखना) → écrit। ख़ास: faire → fait, être → été, ouvrir (खोलना) → ouvert। ये सब avoir के साथ आते हैं: j'ai fait, tu as pris, il a eu, nous avons été, vous avez vu, ils ont dit।"
+    },
+    "comparison": {
+      "en": "English has the same problem (do → done, take → taken, see → seen), and so does Hindi: करना → किया, लेना → लिया, देना → दिया, जाना → गया. You learned those as a child; now learn the French list the same way, by repeating whole chunks: j'ai fait, j'ai pris, j'ai vu.",
+      "hi": "अंग्रेज़ी में भी यही बात है (do → done, take → taken, see → seen), और हिंदी में भी: करना → किया, लेना → लिया, देना → दिया, जाना → गया। वे रूप आपने बचपन में सीखे; फ़्रेंच की सूची भी वैसे ही सीखिए, पूरे टुकड़े दोहराकर: j'ai fait, j'ai pris, j'ai vu।"
+    },
+    "examples": [
+      { "fr": "J'ai fait les courses et j'ai pris le bus.", "en": "I did the shopping and took the bus.", "hi": "मैंने राशन-सामान ख़रीदा और बस ली।", "pron": "झ़े फ़ै ले कूग़स ए झ़े प्री लö बüस" },
+      { "fr": "Elle a eu un accident, mais elle va bien.", "en": "She had an accident, but she is fine.", "hi": "उसकी दुर्घटना हुई, पर वह ठीक है।", "pron": "ऐ-ला ü ऐँ नाक-सी-दाँ मै ऐल वा ब्यैँ" },
+      { "fr": "Nous avons vu un film et nous avons bu un thé.", "en": "We saw a film and drank a tea.", "hi": "हमने एक फ़िल्म देखी और चाय पी।", "pron": "नू ज़ा-वोँ वü ऐँ फ़िल्म ए नू ज़ा-वोँ बü ऐँ ते" },
+      { "fr": "Il a ouvert la fenêtre et il a lu le journal.", "en": "He opened the window and read the newspaper.", "hi": "उसने खिड़की खोली और अख़बार पढ़ा।", "pron": "ई-ला ऊ-वैग़ ला फ़ö-नैत्ग़ ए ई-ला लü लö झ़ूग़-नाल" },
+      { "fr": "J'ai été malade, alors je n'ai pas pu travailler.", "en": "I was ill, so I couldn't work.", "hi": "मैं बीमार था/थी, इसलिए काम नहीं कर पाया/पाई।", "pron": "झ़े ए-ते मा-लाद आ-लॉग़ झ़ö नै पा पü त्रा-वा-ये" }
+    ],
+    "pitfalls": [
+      { "en": "dû (from devoir) has a circumflex only to tell it apart from du (some): j'ai dû partir.", "hi": "dû (devoir से) पर टोपी (circumflex) सिर्फ़ इसे du (कुछ) से अलग करने के लिए है: j'ai dû partir।" },
+      { "en": "'eu' is pronounced like ü (y), not like the eu of deux: j'ai eu = झ़े ü.", "hi": "'eu' की आवाज़ ü (y) है, deux वाले eu जैसी नहीं: j'ai eu = झ़े ü।" },
+      { "en": "Don't make these regular: 'j'ai prendu', 'j'ai faisé', 'j'ai mettu' do not exist.", "hi": "इन्हें नियमित मत बनाइए: 'j'ai prendu', 'j'ai faisé', 'j'ai mettu' जैसे रूप होते ही नहीं।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "/y/ in eu, vu, lu, bu",
+    "tip": {
+      "en": "All the short -u participles end in the same sound /y/: say ई, then round your lips forward as for ऊ without moving your tongue. eu, vu, lu, bu, pu, dû all rhyme with tu.",
+      "hi": "सारे छोटे -u वाले कृदंत एक ही आवाज़ /y/ पर ख़त्म होते हैं: ई बोलिए, फिर जीभ हिलाए बिना होंठों को ऊ की तरह आगे गोल कीजिए। eu, vu, lu, bu, pu, dû सब tu के साथ तुक मिलाते हैं।"
+    },
+    "words": [
+      { "fr": "j'ai eu", "en": "I had", "hi": "मेरे पास था / मुझे मिला", "pron": "झ़े ü", "ipa": "ʒe y" },
+      { "fr": "j'ai vu", "en": "I saw", "hi": "मैंने देखा", "pron": "झ़े वü", "ipa": "ʒe vy" },
+      { "fr": "j'ai lu", "en": "I read (past)", "hi": "मैंने पढ़ा", "pron": "झ़े लü", "ipa": "ʒe ly" },
+      { "fr": "j'ai bu", "en": "I drank", "hi": "मैंने पिया", "pron": "झ़े बü", "ipa": "ʒe by" },
+      { "fr": "il a pu", "en": "he was able to", "hi": "वह कर पाया", "pron": "ई-ला पü", "ipa": "i la py" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Une journée chargée", "en": "A busy day" },
+    "type": "dialogue",
+    "mode": "pedagogical",
+    "context": { "en": "In the evening, Marc phones his friend Nisha in Montréal. She didn't answer his messages all day.", "hi": "शाम को मार्क मॉन्ट्रियाल में अपनी दोस्त निशा को फ़ोन करता है। उसने पूरे दिन मार्क के मैसेज का जवाब नहीं दिया।" },
+    "lines": [
+      { "speaker": "Marc", "voice": "m1", "fr": "Allô, Nisha ? J'ai écrit trois messages ce matin et tu n'as pas répondu !", "en": "Hello, Nisha? I wrote three messages this morning and you didn't answer!", "hi": "हैलो, निशा? मैंने आज सुबह तीन मैसेज लिखे और तुमने जवाब नहीं दिया!" },
+      { "speaker": "Nisha", "voice": "f1", "fr": "Désolée, Marc ! J'ai eu une journée très chargée.", "en": "Sorry, Marc! I had a very busy day.", "hi": "माफ़ करना, मार्क! मेरा दिन बहुत व्यस्त रहा।" },
+      { "speaker": "Marc", "voice": "m1", "fr": "Ah bon ? Qu'est-ce que tu as fait ?", "en": "Really? What did you do?", "hi": "अच्छा? क्या-क्या किया?" },
+      { "speaker": "Nisha", "voice": "f1", "fr": "D'abord, j'ai pris le bus à sept heures pour mon examen de conduite. Et j'ai eu mon permis !", "en": "First, I took the bus at seven for my driving test. And I got my licence!", "hi": "पहले, मैंने सात बजे अपने ड्राइविंग टेस्ट के लिए बस ली। और मुझे लाइसेंस मिल गया!" },
+      { "speaker": "Marc", "voice": "m1", "fr": "Bravo ! C'est une bonne nouvelle !", "en": "Well done! That's good news!", "hi": "शाबाश! यह तो अच्छी ख़बर है!" },
+      { "speaker": "Nisha", "voice": "f1", "fr": "Merci ! Après, j'ai dû aller à la poste. J'ai fait la queue quarante minutes pour un colis.", "en": "Thanks! Afterwards I had to go to the post office. I queued for forty minutes for a parcel.", "hi": "धन्यवाद! उसके बाद मुझे डाकघर जाना पड़ा। एक पार्सल के लिए मैं चालीस मिनट लाइन में खड़ी रही।" },
+      { "speaker": "Marc", "voice": "m1", "fr": "Quarante minutes ! Et l'après-midi ?", "en": "Forty minutes! And the afternoon?", "hi": "चालीस मिनट! और दोपहर बाद?" },
+      { "speaker": "Nisha", "voice": "f1", "fr": "J'ai eu une réunion au travail. Mon chef a dit : « Nous avons un nouveau projet. » Ensuite, j'ai écrit un long rapport.", "en": "I had a meeting at work. My boss said: 'We have a new project.' Then I wrote a long report.", "hi": "दफ़्तर में मेरी मीटिंग थी। मेरे बॉस ने कहा: 'हमारे पास एक नया प्रोजेक्ट है।' फिर मैंने एक लंबी रिपोर्ट लिखी।" },
+      { "speaker": "Marc", "voice": "m1", "fr": "Tu as pu manger, au moins ?", "en": "Were you at least able to eat?", "hi": "कम से कम कुछ खा तो पाई?" },
+      { "speaker": "Nisha", "voice": "f1", "fr": "Non, je n'ai pas pu ! J'ai seulement bu un café. J'ai mis une pomme dans mon sac… mais j'ai oublié la pomme !", "en": "No, I couldn't! I only drank a coffee. I put an apple in my bag… but I forgot the apple!", "hi": "नहीं, नहीं खा पाई! मैंने बस एक कॉफ़ी पी। मैंने बैग में एक सेब रखा था… पर सेब खाना भूल गई!" },
+      { "speaker": "Marc", "voice": "m1", "fr": "Oh là là ! Et ce soir ?", "en": "Oh dear! And this evening?", "hi": "हाय राम! और आज शाम?" },
+      { "speaker": "Nisha", "voice": "f1", "fr": "Ce soir, j'ai lu mes messages… et j'ai vu tes trois messages. Pardon !", "en": "This evening I read my messages… and I saw your three messages. Sorry!", "hi": "आज शाम मैंने अपने मैसेज पढ़े… और तुम्हारे तीनों मैसेज देखे। माफ़ी!" },
+      { "speaker": "Marc", "voice": "m1", "fr": "Pas de problème. Viens dîner samedi, pour fêter ton permis !", "en": "No problem. Come for dinner on Saturday, to celebrate your licence!", "hi": "कोई बात नहीं। शनिवार को खाने पर आओ, तुम्हारे लाइसेंस की ख़ुशी मनाने!" },
+      { "speaker": "Nisha", "voice": "f1", "fr": "Avec plaisir !", "en": "With pleasure!", "hi": "ज़रूर, ख़ुशी से!" }
+    ],
+    "questions": [
+      { "q": { "en": "Why didn't Nisha answer Marc's messages?" }, "options": ["She lost her phone", "She had a very busy day", "She was ill", "She was angry with him"], "answer": 1, "explanation": { "en": "She explains that she had a very busy day.", "hi": "वह बताती है कि उसका दिन बहुत व्यस्त था।" }, "kind": "literal", "evidence": "J'ai eu une journée très chargée." },
+      { "q": { "en": "What is Nisha's good news?" }, "options": ["She has a new job", "She got her driving licence", "She received a parcel from India"], "answer": 1, "explanation": { "en": "'j'ai eu mon permis' = I got my licence. Here 'avoir' in the past means 'to get'.", "hi": "'j'ai eu mon permis' = मुझे लाइसेंस मिल गया। यहाँ भूतकाल में 'avoir' का मतलब 'मिलना' है।" }, "kind": "literal", "evidence": "Et j'ai eu mon permis !" },
+      { "q": { "en": "How long did she wait at the post office?" }, "options": ["Fourteen minutes", "Four minutes", "Forty minutes"], "answer": 2, "explanation": { "en": "quarante = forty.", "hi": "quarante = चालीस।" }, "kind": "literal", "evidence": "J'ai fait la queue quarante minutes pour un colis." },
+      { "q": { "en": "What did Nisha have for lunch?" }, "options": ["An apple", "Nothing, only a coffee", "A sandwich at the meeting"], "answer": 1, "explanation": { "en": "She couldn't eat; she only drank a coffee and forgot her apple.", "hi": "वह खा नहीं पाई; उसने बस एक कॉफ़ी पी और सेब भूल गई।" }, "kind": "inference", "evidence": "J'ai seulement bu un café." },
+      { "q": { "en": "Why does Marc invite Nisha for dinner?" }, "options": ["To celebrate her licence", "Because it is his birthday", "To talk about the new project"], "answer": 0, "explanation": { "en": "'pour fêter ton permis' = to celebrate your licence.", "hi": "'pour fêter ton permis' = तुम्हारे लाइसेंस की ख़ुशी मनाने के लिए।" }, "kind": "literal", "evidence": "pour fêter ton permis" }
+    ],
+    "dictation": ["J'ai eu une journée très chargée.", "J'ai fait la queue quarante minutes.", "J'ai seulement bu un café."],
+    "gapFill": { "text": "D'abord, j'ai ___ le bus. Ensuite, j'ai ___ un long rapport. Ce soir, j'ai ___ tes trois messages.", "answers": ["pris", "écrit", "vu"] }
+  },
+  "speaking": {
+    "type": "conversation",
+    "instructions": {
+      "en": "Tell what you did yesterday using at least six irregular participles. Answer each prompt, then join your answers into a one-minute story.",
+      "hi": "कम से कम छह अनियमित कृदंत इस्तेमाल करके बताइए कि आपने कल क्या किया। हर प्रश्न का जवाब दीजिए, फिर सारे जवाब जोड़कर एक मिनट की कहानी बोलिए।"
+    },
+    "prompts": [
+      { "fr": "Qu'est-ce que tu as fait hier matin ?", "en": "What did you do yesterday morning?", "hi": "कल सुबह तुमने क्या किया?", "pron": "कैस-क तü आ फ़ै यैग़ मा-तैँ", "model": "Hier matin, j'ai fait du yoga et j'ai pris une douche." },
+      { "fr": "Tu as pris le bus ou le métro ?", "en": "Did you take the bus or the metro?", "hi": "तुमने बस ली या मेट्रो?", "pron": "तü आ प्री लö बüस ऊ लö मे-त्रो", "model": "J'ai pris le métro, et j'ai lu un livre pendant le trajet." },
+      { "fr": "Qu'est-ce que tu as bu et mangé ?", "en": "What did you drink and eat?", "hi": "तुमने क्या पिया और खाया?", "pron": "कैस-क तü आ बü ए माँ-झ़े", "model": "J'ai bu un thé au lait et j'ai mangé des parathas." },
+      { "fr": "Tu as vu ou écrit quelque chose d'intéressant ?", "en": "Did you see or write anything interesting?", "hi": "तुमने कुछ दिलचस्प देखा या लिखा?", "pron": "तü आ वü ऊ ए-क्री कैल-क्ö शोज़ दैँ-ते-ग़े-साँ", "model": "J'ai écrit un courriel à mon professeur et j'ai vu un bon film." },
+      { "fr": "Tu as pu te reposer le soir ?", "en": "Were you able to rest in the evening?", "hi": "शाम को तुम आराम कर पाए?", "pron": "तü आ पü तö ग़ö-पो-ज़े लö स्वाग़", "model": "Non, je n'ai pas pu : j'ai dû finir un travail." }
+    ],
+    "tip": {
+      "en": "Group the -u participles to practise one mouth position: j'ai eu, j'ai vu, j'ai lu, j'ai bu. Then contrast with the -i ones: j'ai pris, j'ai mis, j'ai dit.",
+      "hi": "-u वाले कृदंत एक साथ बोलिए ताकि मुँह की एक ही स्थिति का अभ्यास हो: j'ai eu, j'ai vu, j'ai lu, j'ai bu। फिर -i वालों से तुलना कीजिए: j'ai pris, j'ai mis, j'ai dit।"
+    }
+  },
+  "reading": {
+    "genre": "article",
+    "title": "Trois jours à Québec",
+    "text": "Le mois dernier, j'ai fait un petit voyage avec ma femme, Anjali. Nous avons pris le train de Montréal à Québec : trois heures de neige et de forêts. À l'hôtel, la réceptionniste a ouvert la fenêtre de notre chambre et nous avons vu le fleuve Saint-Laurent. Superbe !\n\nLe premier jour, nous avons visité le Vieux-Québec à pied. Il a fait très froid : moins quinze degrés ! Nous avons mis deux pulls, des gants et un bonnet. Le soir, nous avons bu un chocolat chaud et nous avons mangé une poutine.\n\nLe deuxième jour, nous avons voulu visiter le musée, mais nous n'avons pas pu : il est fermé le lundi ! Alors nous avons fait une promenade sur la terrasse Dufferin et j'ai pris beaucoup de photos.\n\nLe dernier soir, Anjali a écrit des cartes postales à sa famille à Pune, et moi, j'ai lu un guide sur la ville. Nous avons dit : « Nous allons revenir en été ! »\n\nVikram",
+    "translation": {
+      "en": "Last month I took a short trip with my wife, Anjali. We took the train from Montréal to Québec City: three hours of snow and forests. At the hotel, the receptionist opened our room's window and we saw the St Lawrence River. Superb!\n\nOn the first day we visited Old Québec on foot. It was very cold: minus fifteen degrees! We put on two sweaters, gloves and a woolly hat. In the evening we drank a hot chocolate and ate a poutine.\n\nOn the second day we wanted to visit the museum, but we couldn't: it's closed on Mondays! So we took a walk on the Dufferin Terrace and I took lots of photos.\n\nOn the last evening Anjali wrote postcards to her family in Pune, and I read a guidebook about the city. We said: 'We're going to come back in summer!'\n\nVikram",
+      "hi": "पिछले महीने मैंने अपनी पत्नी अंजलि के साथ एक छोटी-सी यात्रा की। हमने मॉन्ट्रियाल से क्यूबेक शहर तक ट्रेन ली: तीन घंटे बर्फ़ और जंगल। होटल में रिसेप्शनिस्ट ने हमारे कमरे की खिड़की खोली और हमें सेंट लॉरेंस नदी दिखी। शानदार!\n\nपहले दिन हमने पैदल पुराना क्यूबेक घूमा। बहुत ठंड थी: माइनस पंद्रह डिग्री! हमने दो-दो स्वेटर, दस्ताने और ऊनी टोपी पहनी। शाम को हमने हॉट चॉकलेट पी और पुतीन (फ़्राइज़, चीज़ और ग्रेवी का क्यूबेकी व्यंजन) खाई।\n\nदूसरे दिन हम संग्रहालय देखना चाहते थे, पर नहीं देख पाए: वह सोमवार को बंद रहता है! तो हमने दफ़रिन टैरेस पर सैर की और मैंने ढेर सारी तस्वीरें लीं।\n\nआख़िरी शाम अंजलि ने पुणे में अपने परिवार को पोस्टकार्ड लिखे, और मैंने शहर के बारे में एक गाइडबुक पढ़ी। हमने कहा: 'हम गर्मियों में फिर आएँगे!'\n\nविक्रम"
+    },
+    "questions": [
+      { "q": { "en": "How did Vikram and Anjali travel to Québec City?" }, "options": ["By car", "By plane", "By train", "By bus"], "answer": 2, "explanation": { "en": "'Nous avons pris le train' = we took the train.", "hi": "'Nous avons pris le train' = हमने ट्रेन ली।" }, "kind": "literal", "evidence": "Nous avons pris le train de Montréal à Québec" },
+      { "q": { "en": "What could they see from their hotel room?" }, "options": ["The St Lawrence River", "The museum", "The train station"], "answer": 0, "explanation": { "en": "When the window was opened, they saw the St Lawrence River.", "hi": "खिड़की खुलने पर उन्हें सेंट लॉरेंस नदी दिखी।" }, "kind": "literal", "evidence": "nous avons vu le fleuve Saint-Laurent" },
+      { "q": { "en": "Why did they put on two sweaters?" }, "options": ["The hotel had no heating", "It was minus fifteen degrees outside", "They wanted to look good in photos"], "answer": 1, "explanation": { "en": "It was very cold: minus fifteen.", "hi": "बहुत ठंड थी: माइनस पंद्रह।" }, "kind": "inference", "evidence": "Il a fait très froid : moins quinze degrés !" },
+      { "q": { "en": "What can we work out about the second day?" }, "options": ["It was a Sunday", "It was a Monday", "It was a holiday"], "answer": 1, "explanation": { "en": "The museum is closed on Mondays and they couldn't visit it, so the second day was a Monday.", "hi": "संग्रहालय सोमवार को बंद रहता है और वे उसे नहीं देख पाए, इसलिए दूसरा दिन सोमवार था।" }, "kind": "inference", "evidence": "il est fermé le lundi" },
+      { "q": { "en": "What did Anjali do on the last evening?" }, "options": ["She read a guidebook", "She took photos", "She wrote postcards to her family"], "answer": 2, "explanation": { "en": "Anjali wrote postcards; Vikram read the guidebook.", "hi": "अंजलि ने पोस्टकार्ड लिखे; विक्रम ने गाइडबुक पढ़ी।" }, "kind": "literal", "evidence": "Anjali a écrit des cartes postales à sa famille" }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "Write about a memorable day: a trip, an exam, a celebration or a difficult day. Say what you did, saw, ate or drank, and what someone said.",
+      "hi": "किसी यादगार दिन के बारे में लिखिए: कोई यात्रा, परीक्षा, उत्सव या कोई मुश्किल दिन। बताइए कि आपने क्या किया, देखा, खाया या पिया, और किसी ने क्या कहा।",
+      "fr": "Racontez une journée mémorable."
+    },
+    "minWords": 60,
+    "maxWords": 110,
+    "hints": [
+      { "en": "Use at least five irregular participles: fait, pris, eu, vu, bu, dit, écrit, mis, lu, pu…", "hi": "कम से कम पाँच अनियमित कृदंत इस्तेमाल कीजिए: fait, pris, eu, vu, bu, dit, écrit, mis, lu, pu…" },
+      { "en": "Avoid verbs of movement like aller or arriver for now — they use être (Day 44). Say 'j'ai fait un voyage', 'j'ai pris le train'.", "hi": "अभी aller या arriver जैसी गति वाली क्रियाओं से बचिए — वे être के साथ आती हैं (दिन 44)। 'j'ai fait un voyage', 'j'ai pris le train' कहिए।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "J'ai fait un voyage à …", "en": "I took a trip to …", "hi": "मैंने … की यात्रा की", "pron": "झ़े फ़ै ऐँ व्वा-याझ़ आ" },
+      { "fr": "Il a dit : « … »", "en": "He said: '…'", "hi": "उसने कहा: '…'", "pron": "ई-ला दी" },
+      { "fr": "Je n'ai pas pu …", "en": "I couldn't …", "hi": "मैं … नहीं कर पाया/पाई", "pron": "झ़ö नै पा पü" }
+    ],
+    "model": {
+      "fr": "Le jour de mon mariage à Lucknow a été une journée incroyable. Le matin, j'ai mis un beau kurta blanc et j'ai pris beaucoup de photos avec mes cousins. À midi, nous avons eu un grand repas : j'ai mangé trop de sucreries ! L'après-midi, mon grand-père a fait un petit discours. Il a dit : « Aidez-vous toujours ! » Le soir, nous avons dansé et nous avons bu du lassi. Je n'ai pas pu dormir : trop d'émotions !",
+      "en": "My wedding day in Lucknow was an incredible day. In the morning I put on a beautiful white kurta and took lots of photos with my cousins. At noon we had a big meal: I ate too many sweets! In the afternoon my grandfather made a short speech. He said: 'Always help each other!' In the evening we danced and drank lassi. I couldn't sleep: too many emotions!"
+    },
+    "checklist": [
+      { "en": "Did you use at least five irregular participles correctly (no 'prendu', 'faisé')?", "hi": "क्या आपने कम से कम पाँच अनियमित कृदंत सही लिखे ('prendu', 'faisé' नहीं)?" },
+      { "en": "Did you put the circumflex on dû and the t on fait, dit, écrit?", "hi": "क्या आपने dû पर टोपी लगाई और fait, dit, écrit में t लिखा?" },
+      { "en": "Is ne … pas around avoir in negative sentences?", "hi": "क्या नकारात्मक वाक्यों में ne … pas, avoir के दोनों ओर है?" }
+    ]
+  },
+  "review": {
+    "fromDays": [16, 29, 32, 41, 42],
+    "items": [
+      { "fr": "Je fais les courses le samedi.", "en": "I do the shopping on Saturdays.", "hi": "मैं शनिवार को राशन-सामान ख़रीदता/ख़रीदती हूँ।", "pron": "झ़ö फ़ै ले कूग़स लö साम-दी" },
+      { "fr": "Je prends le métro.", "en": "I take the metro.", "hi": "मैं मेट्रो लेता/लेती हूँ।", "pron": "झ़ö प्राँ लö मे-त्रो" },
+      { "fr": "Je peux ouvrir la fenêtre ?", "en": "Can I open the window?", "hi": "क्या मैं खिड़की खोल सकता/सकती हूँ?", "pron": "झ़ö पö ऊ-व्रीग़ ला फ़ö-नैत्ग़" },
+      { "fr": "Je dois remplir un formulaire.", "en": "I have to fill in a form.", "hi": "मुझे एक फ़ॉर्म भरना है।", "pron": "झ़ö द्वा ग़ाँ-प्लीग़ ऐँ फ़ॉग़-मü-लैग़" },
+      { "fr": "J'ai nettoyé la cuisine hier.", "en": "I cleaned the kitchen yesterday.", "hi": "कल मैंने रसोई साफ़ की।", "pron": "झ़े नै-त्वा-ये ला क्üई-ज़ीन यैग़" },
+      { "fr": "D'habitude, je me couche tôt.", "en": "Usually I go to bed early.", "hi": "आमतौर पर मैं जल्दी सो जाता/जाती हूँ।", "pron": "दा-बी-तüद झ़ö मö कूश तो" },
+      { "fr": "Nous avons attendu le bus.", "en": "We waited for the bus.", "hi": "हमने बस का इंतज़ार किया।", "pron": "नू ज़ा-वोँ ज़ा-ताँ-दü लö बüस" },
+      { "fr": "Bon courage !", "en": "Good luck!", "hi": "शुभकामनाएँ!", "pron": "बोँ कू-ग़ाझ़" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "What is the past participle of prendre?", "hi": "prendre का भूत कृदंत क्या है?" }, "options": ["prendu", "pris", "prené", "prit"], "answer": 1, "explanation": { "en": "prendre → pris: j'ai pris le bus.", "hi": "prendre → pris: j'ai pris le bus।" } },
+    { "type": "fill", "prompt": { "en": "Complete with the past participle of faire.", "hi": "faire के भूत कृदंत से पूरा कीजिए।" }, "sentence": "Samedi, nous avons ___ les courses.", "answer": "fait", "accept": [], "explanation": { "en": "faire → fait.", "hi": "faire → fait।" } },
+    { "type": "mcq", "prompt": { "en": "Which sentence means 'I had to leave'?", "hi": "किस वाक्य का मतलब है 'मुझे जाना पड़ा'?" }, "options": ["J'ai du partir.", "J'ai dû partir.", "Je dois partir.", "J'ai pu partir."], "answer": 1, "explanation": { "en": "devoir → dû, with a circumflex. 'J'ai pu' = I was able to.", "hi": "devoir → dû, टोपी के साथ। 'J'ai pu' = मैं कर पाया।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "We saw a film and drank a coffee.", "hi": "हमने एक फ़िल्म देखी और कॉफ़ी पी।" }, "answer": "Nous avons vu un film et nous avons bu un café.", "accept": ["Nous avons vu un film et bu un café.", "On a vu un film et on a bu un café.", "On a vu un film et bu un café."], "explanation": { "en": "voir → vu, boire → bu; both with avoir.", "hi": "voir → vu, boire → bu; दोनों avoir के साथ।" } },
+    { "type": "fill", "prompt": { "en": "Complete with the past participle of écrire.", "hi": "écrire के भूत कृदंत से पूरा कीजिए।" }, "sentence": "Elle a ___ une lettre à sa grand-mère.", "answer": "écrit", "accept": [], "explanation": { "en": "écrire → écrit (silent t).", "hi": "écrire → écrit (t नहीं बोला जाता)।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: He opened the window.", "hi": "शब्दों को सही क्रम में रखिए: उसने खिड़की खोली।" }, "words": ["fenêtre", "a", "la", "Il", "ouvert", "."], "answer": "Il a ouvert la fenêtre.", "explanation": { "en": "ouvrir → ouvert: Il a ouvert la fenêtre.", "hi": "ouvrir → ouvert: Il a ouvert la fenêtre।" } },
+    { "type": "mcq", "prompt": { "en": "How is 'j'ai eu' pronounced?", "hi": "'j'ai eu' कैसे बोला जाता है?" }, "options": ["झ़े ö (like deux)", "झ़े ü (like tu)", "झ़े यू"], "answer": 1, "explanation": { "en": "The participle eu is said /y/, exactly like the u of tu.", "hi": "कृदंत eu की आवाज़ /y/ है, बिल्कुल tu के u जैसी।" } }
+  ]
+}

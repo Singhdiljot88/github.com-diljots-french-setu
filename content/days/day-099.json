@@ -1,0 +1,1007 @@
+{
+  "day": 99,
+  "phase": 5,
+  "title": {
+    "fr": "Clinique 2 : temps et prépositions",
+    "en": "Clinic 2: tenses and prepositions",
+    "hi": "क्लिनिक 2: काल और पूर्वसर्ग"
+  },
+  "objective": {
+    "en": "Fix three error families that cost marks in TEF writing and speaking: à / en / au / aux with places, verbs followed by à or de, and tense consistency in a story or a letter.",
+    "hi": "उन तीन तरह की ग़लतियों को ठीक करना जो TEF लेखन और बोलने में अंक काटती हैं: जगहों के साथ à / en / au / aux, à या de के साथ आने वाली क्रियाएँ, और कहानी या पत्र में काल की एकरूपता।"
+  },
+  "prerequisites": {
+    "days": [
+      44,
+      54,
+      70,
+      88,
+      90,
+      97
+    ],
+    "summary": {
+      "en": "Passé composé with être and travel verbs (Day 44), narrating in order (Day 54), passé composé vs imparfait (Day 70), plus-que-parfait in a story (Day 88), Clinic 1 (Day 90) and complex sentences (Day 97).",
+      "hi": "être के साथ passé composé और यात्रा की क्रियाएँ (दिन 44), क्रम से कहानी (दिन 54), passé composé बनाम imparfait (दिन 70), कहानी में plus-que-parfait (दिन 88), क्लिनिक 1 (दिन 90) और जटिल वाक्य (दिन 97)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "commencer à",
+      "en": "to begin to",
+      "hi": "… करना शुरू करना",
+      "pron": "को-माँ-से आ",
+      "ipa": "kɔmɑ̃se a",
+      "pos": "verb",
+      "lemma": "commencer",
+      "note": {
+        "en": "J'ai commencé à travailler. (Commencer par = to start with.)",
+        "hi": "j'ai commencé à travailler। (commencer par = … से शुरुआत करना।)"
+      }
+    },
+    {
+      "fr": "continuer à",
+      "en": "to continue to",
+      "hi": "… करते रहना",
+      "pron": "कोँ-ती-न्üए आ",
+      "ipa": "kɔ̃tinɥe a",
+      "pos": "verb",
+      "lemma": "continuer"
+    },
+    {
+      "fr": "réussir à",
+      "en": "to manage to, to succeed in",
+      "hi": "… करने में कामयाब होना",
+      "pron": "ग़े-ü-सीग़ आ",
+      "ipa": "ʁeysiʁ a",
+      "pos": "verb",
+      "lemma": "réussir"
+    },
+    {
+      "fr": "s'habituer à",
+      "en": "to get used to",
+      "hi": "… की आदत पड़ना",
+      "pron": "सा-बी-त्üए आ",
+      "ipa": "sabitɥe a",
+      "pos": "verb",
+      "lemma": "habituer",
+      "note": {
+        "en": "Je me suis habitué(e) au froid / à conduire dans la neige.",
+        "hi": "je me suis habitué(e) au froid / à conduire dans la neige = मुझे ठंड / बर्फ़ में गाड़ी चलाने की आदत पड़ गई।"
+      }
+    },
+    {
+      "fr": "aider quelqu'un à",
+      "en": "to help someone to",
+      "hi": "किसी की … करने में मदद करना",
+      "pron": "ए-दे कैल-कैँ आ",
+      "ipa": "ede kɛlkœ̃ a",
+      "pos": "verb",
+      "lemma": "aider"
+    },
+    {
+      "fr": "penser à",
+      "en": "to think of, to remember to",
+      "hi": "… के बारे में सोचना / … करना याद रखना",
+      "pron": "पाँ-से आ",
+      "ipa": "pɑ̃se a",
+      "pos": "verb",
+      "lemma": "penser",
+      "note": {
+        "en": "Pense à réserver ! = Remember to book! (Penser de = to have an opinion of: Qu'est-ce que tu penses de… ?)",
+        "hi": "pense à réserver ! = बुकिंग करना याद रखना! (penser de = किसी के बारे में राय: Qu'est-ce que tu penses de… ?)"
+      }
+    },
+    {
+      "fr": "essayer de",
+      "en": "to try to",
+      "hi": "… करने की कोशिश करना",
+      "pron": "ए-से-ये दö",
+      "ipa": "eseje də",
+      "pos": "verb",
+      "lemma": "essayer"
+    },
+    {
+      "fr": "décider de",
+      "en": "to decide to",
+      "hi": "… करने का फ़ैसला करना",
+      "pron": "दे-सी-दे दö",
+      "ipa": "deside də",
+      "pos": "verb",
+      "lemma": "décider"
+    },
+    {
+      "fr": "oublier de",
+      "en": "to forget to",
+      "hi": "… करना भूल जाना",
+      "pron": "ऊ-ब्ली-ये दö",
+      "ipa": "ublije də",
+      "pos": "verb",
+      "lemma": "oublier"
+    },
+    {
+      "fr": "arrêter de",
+      "en": "to stop (doing)",
+      "hi": "… करना बंद करना",
+      "pron": "आ-ग़ै-ते दö",
+      "ipa": "aʁete də",
+      "pos": "verb",
+      "lemma": "arrêter"
+    },
+    {
+      "fr": "refuser de",
+      "en": "to refuse to",
+      "hi": "… करने से मना करना",
+      "pron": "ग़ö-फ़ü-ज़े दö",
+      "ipa": "ʁəfyze də",
+      "pos": "verb",
+      "lemma": "refuser"
+    },
+    {
+      "fr": "avoir l'intention de",
+      "en": "to intend to",
+      "hi": "… करने का इरादा होना",
+      "pron": "आ-व्वाग़ लैँ-ताँ-स्योँ दö",
+      "ipa": "avwaʁ lɛ̃tɑ̃sjɔ̃ də",
+      "pos": "phrase",
+      "lemma": "intention"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Je suis né en Inde et j'habite au Canada.",
+      "en": "I was born in India and I live in Canada.",
+      "hi": "मेरा जन्म भारत में हुआ और मैं कनाडा में रहता हूँ।",
+      "pron": "झ़ö स्üई ने आँ नैँद ए झ़ा-बीत ओ का-ना-दा"
+    },
+    {
+      "fr": "J'ai vécu deux ans aux États-Unis.",
+      "en": "I lived in the United States for two years.",
+      "hi": "मैं दो साल अमेरिका में रहा।",
+      "pron": "झ़े वे-क्ü दö ज़ाँ ओ ज़े-ता-ज़ü-नी"
+    },
+    {
+      "fr": "Nous partons à Vancouver, en Colombie-Britannique.",
+      "en": "We're leaving for Vancouver, in British Columbia.",
+      "hi": "हम ब्रिटिश कोलंबिया के वैंकूवर जा रहे हैं।",
+      "pron": "नू पाग़-तोँ आ वाँ-कू-वैग़ आँ को-लोँ-बी ब्ग़ी-ता-नीक"
+    },
+    {
+      "fr": "Elle revient du Mexique la semaine prochaine.",
+      "en": "She's coming back from Mexico next week.",
+      "hi": "वह अगले हफ़्ते मेक्सिको से लौट रही है।",
+      "pron": "ऐल ग़ö-व्यैँ दü मैक-सीक ला सö-मैन प्ग़ो-शैन"
+    },
+    {
+      "fr": "J'ai enfin réussi à trouver un appartement.",
+      "en": "I finally managed to find an apartment.",
+      "hi": "आख़िरकार मुझे एक फ़्लैट मिल ही गया।",
+      "pron": "झ़े आँ-फ़ैँ ग़े-ü-सी आ त्ग़ू-वे ऐँ ना-पाग़-तö-माँ"
+    },
+    {
+      "fr": "N'oublie pas de réserver tes billets !",
+      "en": "Don't forget to book your tickets!",
+      "hi": "अपने टिकट बुक करना मत भूलना!",
+      "pron": "नू-ब्ली पा दö ग़े-ज़ैग़-वे ते बी-ये"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Clinic: à / en / au / aux with places; verbs + à / de; tense consistency",
+      "hi": "क्लिनिक: जगहों के साथ à / en / au / aux; क्रिया + à / de; काल की एकरूपता"
+    },
+    "explanation": {
+      "en": "1) PLACES (in / to): à + city (à Toronto, à Delhi); en + feminine country, continent or province, and any country starting with a vowel (en Inde, en France, en Alberta, en Ontario, en Iran, en Asie); au + masculine country or province (au Canada, au Québec, au Japon, au Manitoba, au Nouveau-Brunswick); aux + plural (aux États-Unis, aux Philippines). FROM: de/d' instead of en (d'Inde, de France), du instead of au (du Canada), des instead of aux (des États-Unis). Careful: à Québec = the city; au Québec = the province. 2) VERBS + INFINITIVE: some take à (commencer à, continuer à, réussir à, s'habituer à, aider qqn à, penser à), others de (essayer de, décider de, oublier de, arrêter de, refuser de, avoir l'intention de), others nothing (vouloir, pouvoir, devoir, aimer, aller). Learn them as one block. 3) TENSE CONSISTENCY: in a past story, events in passé composé, background in imparfait, earlier events in plus-que-parfait — don't slip back into the present. Si + présent → futur; si + imparfait → conditionnel; quand + futur when the action is in the future (Quand j'arriverai, je t'appellerai).",
+      "hi": "1) जगहें (में / को): शहर के साथ à (à Toronto, à Delhi); स्त्रीलिंग देश, महाद्वीप या प्रांत के साथ, और स्वर से शुरू होने वाले हर देश के साथ en (en Inde, en France, en Alberta, en Ontario, en Iran, en Asie); पुल्लिंग देश या प्रांत के साथ au (au Canada, au Québec, au Japon, au Manitoba, au Nouveau-Brunswick); बहुवचन के साथ aux (aux États-Unis, aux Philippines)। 'से' के लिए: en की जगह de/d' (d'Inde, de France), au की जगह du (du Canada), aux की जगह des (des États-Unis)। ध्यान दें: à Québec = शहर; au Québec = प्रांत। 2) क्रिया + infinitive: कुछ के साथ à (commencer à, continuer à, réussir à, s'habituer à, aider qqn à, penser à), कुछ के साथ de (essayer de, décider de, oublier de, arrêter de, refuser de, avoir l'intention de), और कुछ के साथ कुछ नहीं (vouloir, pouvoir, devoir, aimer, aller)। इन्हें एक टुकड़े की तरह याद कीजिए। 3) काल की एकरूपता: भूतकाल की कहानी में घटनाएँ passé composé में, पृष्ठभूमि imparfait में, उससे पहले की घटनाएँ plus-que-parfait में — बीच में वर्तमान काल में मत फिसलिए। si + présent → futur; si + imparfait → conditionnel; भविष्य की बात हो तो quand + futur (Quand j'arriverai, je t'appellerai)।"
+    },
+    "comparison": {
+      "en": "Hindi uses one postposition 'में' for all places (दिल्ली में, भारत में, अमेरिका में) and 'से' for 'from'. French changes the word with the gender and number of the place, so you must know if a country is masculine, feminine or plural. Hindi 'जब मैं पहुँचूँगा' already uses the future — just like French quand + futur, unlike English 'when I arrive'.",
+      "hi": "हिंदी में सभी जगहों के लिए एक ही 'में' चलता है (दिल्ली में, भारत में, अमेरिका में) और 'से' के लिए एक ही शब्द। फ़्रेंच में जगह के लिंग और वचन के हिसाब से शब्द बदलता है, इसलिए पता होना चाहिए कि देश पुल्लिंग है, स्त्रीलिंग है या बहुवचन। हिंदी का 'जब मैं पहुँचूँगा' पहले से भविष्य काल है — बिल्कुल फ़्रेंच quand + futur जैसा, अंग्रेज़ी 'when I arrive' से अलग।"
+    },
+    "examples": [
+      {
+        "fr": "✗ J'habite en Canada. → ✓ J'habite au Canada.",
+        "en": "I live in Canada.",
+        "hi": "मैं कनाडा में रहता हूँ।",
+        "pron": "झ़ा-बीत ओ का-ना-दा"
+      },
+      {
+        "fr": "✗ Je viens de l'Inde à Toronto. → ✓ Je viens d'Inde et j'habite à Toronto.",
+        "en": "I come from India and I live in Toronto.",
+        "hi": "मैं भारत से हूँ और टोरंटो में रहता हूँ।",
+        "pron": "झ़ö व्यैँ दैँद ए झ़ा-बीत आ तो-ग़ोँ-तो"
+      },
+      {
+        "fr": "✗ Il travaille à États-Unis. → ✓ Il travaille aux États-Unis.",
+        "en": "He works in the United States.",
+        "hi": "वह अमेरिका में काम करता है।",
+        "pron": "इल त्ग़ा-वाय ओ ज़े-ता-ज़ü-नी"
+      },
+      {
+        "fr": "✗ Nous avons déménagé au Ontario. → ✓ Nous avons déménagé en Ontario.",
+        "en": "We moved to Ontario.",
+        "hi": "हम ओंटारियो चले गए।",
+        "pron": "नू ज़ा-वोँ दे-मे-ना-झ़े आँ नोँ-ता-ग़्यो"
+      },
+      {
+        "fr": "✗ Elle est rentrée de le Mexique. → ✓ Elle est rentrée du Mexique.",
+        "en": "She came back from Mexico.",
+        "hi": "वह मेक्सिको से लौट आई।",
+        "pron": "ऐ लै ग़ाँ-त्ग़े दü मैक-सीक"
+      },
+      {
+        "fr": "✗ J'ai commencé de travailler en mars. → ✓ J'ai commencé à travailler en mars.",
+        "en": "I started working in March.",
+        "hi": "मैंने मार्च में काम करना शुरू किया।",
+        "pron": "झ़े को-माँ-से आ त्ग़ा-वा-ये आँ माग़स"
+      },
+      {
+        "fr": "✗ J'ai essayé à appeler. → ✓ J'ai essayé d'appeler.",
+        "en": "I tried to call.",
+        "hi": "मैंने फ़ोन करने की कोशिश की।",
+        "pron": "झ़े ए-से-ये दा-प्ले"
+      },
+      {
+        "fr": "✗ Il a décidé à partir. → ✓ Il a décidé de partir.",
+        "en": "He decided to leave.",
+        "hi": "उसने जाने का फ़ैसला किया।",
+        "pron": "ई-ला दे-सी-दे दö पाग़-तीग़"
+      },
+      {
+        "fr": "✗ Je veux de visiter Québec. → ✓ Je veux visiter Québec.",
+        "en": "I want to visit Québec City.",
+        "hi": "मैं क्यूबेक शहर घूमना चाहता हूँ।",
+        "pron": "झ़ö वö वी-ज़ी-ते के-बैक"
+      },
+      {
+        "fr": "✗ Hier, je vais à la gare et je prends le train. → ✓ Hier, je suis allé à la gare et j'ai pris le train.",
+        "en": "Yesterday I went to the station and took the train.",
+        "hi": "कल मैं स्टेशन गया और ट्रेन ली।",
+        "pron": "ई-यैग़ झ़ö स्üई ज़ा-ले आ ला गाग़ ए झ़े प्ग़ी लö त्ग़ैँ"
+      },
+      {
+        "fr": "✗ Quand j'arrive à Calgary demain, je t'appelle. → ✓ Quand j'arriverai à Calgary demain, je t'appellerai.",
+        "en": "When I arrive in Calgary tomorrow, I'll call you.",
+        "hi": "जब मैं कल कैलगरी पहुँचूँगा, तुम्हें फ़ोन करूँगा।",
+        "pron": "काँ झ़ा-ग़ी-व्ग़े आ काल-गा-ग़ी दö-मैँ झ़ö ता-पैल-ग़े"
+      },
+      {
+        "fr": "✗ S'il fera beau, nous irons à la plage. → ✓ S'il fait beau, nous irons à la plage.",
+        "en": "If the weather is nice, we'll go to the beach.",
+        "hi": "अगर मौसम अच्छा हुआ, तो हम समुद्र-तट जाएँगे।",
+        "pron": "सील फ़ै बो नू ज़ी-ग़ोँ आ ला प्लाझ़"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Countries ending in -e are usually feminine (la France, l'Inde → en), but le Mexique, le Cambodge and le Mozambique are masculine (au).",
+        "hi": "-e पर ख़त्म होने वाले देश आम तौर पर स्त्रीलिंग होते हैं (la France, l'Inde → en), पर le Mexique, le Cambodge और le Mozambique पुल्लिंग हैं (au)।"
+      },
+      {
+        "en": "Never 'à le' or 'de le': à + le = au, de + le = du, à + les = aux, de + les = des.",
+        "hi": "कभी 'à le' या 'de le' नहीं: à + le = au, de + le = du, à + les = aux, de + les = des।"
+      },
+      {
+        "en": "Never put the future or conditional right after si meaning 'if': not 'si j'aurai', but 'si j'ai' or 'si j'avais'.",
+        "hi": "'अगर' वाले si के ठीक बाद futur या conditionnel कभी नहीं: 'si j'aurai' नहीं, बल्कि 'si j'ai' या 'si j'avais'।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Prepositions in rhythm groups",
+    "tip": {
+      "en": "A preposition is never stressed: it attaches to the place name and forms one group, with liaison or elision where needed: au‿Canada, en‿Inde (आँ नैँद), aux‿États-Unis (ओ ज़े-ता-ज़ü-नी), d'Inde. Say the group as one word.",
+      "hi": "पूर्वसर्ग पर कभी ज़ोर नहीं पड़ता: वह जगह के नाम से जुड़कर एक समूह बनाता है, ज़रूरत हो तो liaison या elision के साथ: au‿Canada, en‿Inde (आँ नैँद), aux‿États-Unis (ओ ज़े-ता-ज़ü-नी), d'Inde। पूरे समूह को एक शब्द की तरह बोलिए।"
+    },
+    "words": [
+      {
+        "fr": "en Inde",
+        "en": "in India",
+        "hi": "भारत में",
+        "pron": "आँ नैँद",
+        "ipa": "ɑ̃n‿ɛ̃d"
+      },
+      {
+        "fr": "au Canada",
+        "en": "in Canada",
+        "hi": "कनाडा में",
+        "pron": "ओ का-ना-दा",
+        "ipa": "o kanada"
+      },
+      {
+        "fr": "aux États-Unis",
+        "en": "in the United States",
+        "hi": "अमेरिका में",
+        "pron": "ओ ज़े-ता-ज़ü-नी",
+        "ipa": "o.z‿e.ta.z‿y.ni"
+      },
+      {
+        "fr": "en Ontario",
+        "en": "in Ontario",
+        "hi": "ओंटारियो में",
+        "pron": "आँ नोँ-ता-ग़्यो",
+        "ipa": "ɑ̃n‿ɔ̃taʁjo"
+      },
+      {
+        "fr": "d'Inde",
+        "en": "from India",
+        "hi": "भारत से",
+        "pron": "दैँद",
+        "ipa": "dɛ̃d"
+      },
+      {
+        "fr": "à Québec",
+        "en": "in Québec City",
+        "hi": "क्यूबेक शहर में",
+        "pron": "आ के-बैक",
+        "ipa": "a kebɛk"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Retour de voyage",
+      "en": "Back from a trip"
+    },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Ravi meets his colleague Chloé on Monday morning. She has just come back from a long trip; he is planning one. Notice every preposition before a place and every verb + à / de.",
+      "hi": "सोमवार सुबह रवि अपनी सहकर्मी क्लोए से मिलता है। वह अभी-अभी एक लंबी यात्रा से लौटी है; वह एक यात्रा की योजना बना रहा है। जगह से पहले आने वाले हर पूर्वसर्ग और हर क्रिया + à / de पर ध्यान दीजिए।"
+    },
+    "lines": [
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "Chloé ! Tu es revenue ! Alors, ce voyage ?",
+        "en": "Chloé! You're back! So, how was the trip?",
+        "hi": "क्लोए! तुम लौट आईं! तो, कैसी रही यात्रा?"
+      },
+      {
+        "speaker": "Chloé",
+        "voice": "f1",
+        "fr": "Génial, mais fatigant ! Je suis rentrée du Portugal samedi soir. On avait commencé par l'Espagne : une semaine à Madrid, puis trois jours à Séville.",
+        "en": "Great, but tiring! I got back from Portugal on Saturday night. We had started with Spain: a week in Madrid, then three days in Seville.",
+        "hi": "शानदार, पर थका देने वाली! मैं शनिवार रात पुर्तगाल से लौटी। हमने स्पेन से शुरुआत की थी: एक हफ़्ता मैड्रिड में, फिर तीन दिन सेविल में।"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "Et après, vous êtes allées au Portugal en train ?",
+        "en": "And then you went to Portugal by train?",
+        "hi": "और फिर तुम लोग ट्रेन से पुर्तगाल गईं?"
+      },
+      {
+        "speaker": "Chloé",
+        "voice": "f1",
+        "fr": "En autobus, c'était moins cher. On a passé cinq jours à Lisbonne. Ma sœur a même essayé de parler portugais, mais tout le monde lui répondait en anglais !",
+        "en": "By bus, it was cheaper. We spent five days in Lisbon. My sister even tried to speak Portuguese, but everyone answered her in English!",
+        "hi": "बस से, वह सस्ता था। हमने लिस्बन में पाँच दिन बिताए। मेरी बहन ने तो पुर्तगाली बोलने की कोशिश भी की, पर सब उसे अंग्रेज़ी में जवाब देते थे!"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "Ha ha ! Moi, j'ai décidé de partir en décembre. Je vais en Inde voir mes parents à Pune, et ensuite j'aimerais passer quelques jours au Sri Lanka.",
+        "en": "Ha ha! As for me, I've decided to leave in December. I'm going to India to see my parents in Pune, and then I'd like to spend a few days in Sri Lanka.",
+        "hi": "हा हा! मैंने दिसंबर में जाने का फ़ैसला किया है। मैं भारत जा रहा हूँ, पुणे में अपने माता-पिता से मिलने, और फिर कुछ दिन श्रीलंका में बिताना चाहूँगा।"
+      },
+      {
+        "speaker": "Chloé",
+        "voice": "f1",
+        "fr": "Au Sri Lanka ? Super ! Tu as déjà réservé tes billets ?",
+        "en": "Sri Lanka? Great! Have you already booked your tickets?",
+        "hi": "श्रीलंका? बढ़िया! क्या तुमने टिकट बुक कर लिए?"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "Pas encore. J'ai essayé de trouver un vol direct de Toronto, mais il faut passer par Londres ou par Doha. Les prix ont commencé à monter.",
+        "en": "Not yet. I tried to find a direct flight from Toronto, but you have to go through London or Doha. Prices have started to go up.",
+        "hi": "अभी नहीं। मैंने टोरंटो से सीधी उड़ान ढूँढने की कोशिश की, पर लंदन या दोहा होकर जाना पड़ता है। क़ीमतें बढ़ने लगी हैं।"
+      },
+      {
+        "speaker": "Chloé",
+        "voice": "f1",
+        "fr": "Alors n'attends pas ! Et pense à vérifier ton passeport. Ma sœur avait oublié de regarder la date : il expirait deux mois après le retour, on a eu chaud !",
+        "en": "Then don't wait! And remember to check your passport. My sister had forgotten to look at the date: it expired two months after our return — that was close!",
+        "hi": "तो इंतज़ार मत करो! और अपना पासपोर्ट जाँचना याद रखना। मेरी बहन तारीख़ देखना भूल गई थी: वह लौटने के दो महीने बाद ख़त्म हो रहा था, बाल-बाल बचे!"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "Bonne idée. Et toi, tu as réussi à te reposer un peu ?",
+        "en": "Good idea. And you, did you manage to rest a little?",
+        "hi": "अच्छा सुझाव। और तुम, क्या थोड़ा आराम कर पाईं?"
+      },
+      {
+        "speaker": "Chloé",
+        "voice": "f1",
+        "fr": "Pas vraiment. Avec le décalage horaire, je n'arrive pas à dormir. Mais je m'habituerai.",
+        "en": "Not really. With the jet lag, I can't sleep. But I'll get used to it.",
+        "hi": "सच में नहीं। समय के अंतर (जेट लैग) की वजह से मुझे नींद नहीं आ रही। पर आदत पड़ जाएगी।"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "Quand tu auras le temps, tu me montreras tes photos ?",
+        "en": "When you have time, will you show me your photos?",
+        "hi": "जब तुम्हारे पास समय होगा, मुझे अपनी तस्वीरें दिखाओगी?"
+      },
+      {
+        "speaker": "Chloé",
+        "voice": "f1",
+        "fr": "Promis. Et si tu veux, je t'aiderai à planifier ton itinéraire au Sri Lanka : une amie y a vécu deux ans.",
+        "en": "Promise. And if you want, I'll help you plan your route in Sri Lanka: a friend of mine lived there for two years.",
+        "hi": "पक्का। और अगर तुम चाहो, तो मैं श्रीलंका में तुम्हारा रास्ता तय करने में मदद करूँगी: मेरी एक सहेली वहाँ दो साल रही है।"
+      },
+      {
+        "speaker": "Ravi",
+        "voice": "m1",
+        "fr": "Avec plaisir ! On en parle au dîner ?",
+        "en": "With pleasure! Shall we talk about it at lunch?",
+        "hi": "ख़ुशी से! दोपहर के खाने पर इसकी बात करें?"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "Where did Chloé's trip begin?"
+        },
+        "options": [
+          "In Lisbon",
+          "In India",
+          "In Spain",
+          "In Portugal"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'On avait commencé par l'Espagne' — plus-que-parfait for the earlier part of the trip. She came back from Portugal.",
+          "hi": "'on avait commencé par l'Espagne' — यात्रा के पहले हिस्से के लिए plus-que-parfait। वह पुर्तगाल से लौटी।"
+        },
+        "kind": "literal",
+        "evidence": "On avait commencé par l'Espagne"
+      },
+      {
+        "q": {
+          "en": "Why did they take the bus to Portugal?"
+        },
+        "options": [
+          "It was cheaper",
+          "There was no train",
+          "It was faster",
+          "Her sister was afraid of planes"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'En autobus, c'était moins cher.'",
+          "hi": "'en autobus, c'était moins cher' — बस सस्ती थी।"
+        },
+        "kind": "literal",
+        "evidence": "En autobus, c'était moins cher."
+      },
+      {
+        "q": {
+          "en": "What is Ravi's plan for December?"
+        },
+        "options": [
+          "Go to Portugal with Chloé",
+          "Stay in Toronto",
+          "Visit London and Doha",
+          "Visit his parents in India, then go to Sri Lanka"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Je vais en Inde voir mes parents à Pune, et ensuite… au Sri Lanka.' London and Doha are only stopovers.",
+          "hi": "'je vais en Inde voir mes parents à Pune, et ensuite… au Sri Lanka' — लंदन और दोहा सिर्फ़ बीच के पड़ाव हैं।"
+        },
+        "kind": "literal",
+        "evidence": "Je vais en Inde voir mes parents à Pune, et ensuite j'aimerais passer quelques jours au Sri Lanka."
+      },
+      {
+        "q": {
+          "en": "Why does Chloé tell Ravi not to wait?"
+        },
+        "options": [
+          "She wants to travel with him",
+          "Prices have started to rise",
+          "Flights are cancelled",
+          "His passport has expired"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "Ravi says 'Les prix ont commencé à monter', so Chloé answers 'Alors n'attends pas !'",
+          "hi": "रवि कहता है 'les prix ont commencé à monter', इसलिए क्लोए कहती है 'alors n'attends pas !'"
+        },
+        "kind": "inference",
+        "evidence": "Les prix ont commencé à monter."
+      },
+      {
+        "q": {
+          "en": "What problem did Chloé's sister almost have?"
+        },
+        "options": [
+          "She missed the bus",
+          "She couldn't speak English",
+          "Her passport was close to expiring",
+          "She lost her passport"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Ma sœur avait oublié de regarder la date : il expirait deux mois après le retour.'",
+          "hi": "'ma sœur avait oublié de regarder la date' — पासपोर्ट लौटने के दो महीने बाद ख़त्म हो रहा था।"
+        },
+        "kind": "literal",
+        "evidence": "Ma sœur avait oublié de regarder la date : il expirait deux mois après le retour"
+      },
+      {
+        "q": {
+          "en": "How will Chloé help Ravi?"
+        },
+        "options": [
+          "By helping him plan his Sri Lanka route",
+          "By lending him money",
+          "By booking his flight",
+          "By driving him to the airport"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Je t'aiderai à planifier ton itinéraire au Sri Lanka.' (aider qqn à + infinitive)",
+          "hi": "'je t'aiderai à planifier ton itinéraire au Sri Lanka' — रास्ता तय करने में मदद (aider qqn à + infinitive)।"
+        },
+        "kind": "literal",
+        "evidence": "je t'aiderai à planifier ton itinéraire au Sri Lanka"
+      }
+    ],
+    "dictation": [
+      "Je suis rentrée du Portugal samedi soir.",
+      "J'ai décidé de partir en décembre.",
+      "Je t'aiderai à planifier ton itinéraire au Sri Lanka."
+    ],
+    "gapFill": {
+      "text": "Je vais ___ Inde voir mes parents ___ Pune. J'ai essayé ___ trouver un vol direct. Les prix ont commencé ___ monter.",
+      "answers": [
+        "en",
+        "à",
+        "de",
+        "à"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "conversation",
+    "instructions": {
+      "en": "Talk about travel for about four minutes. Answer each question with at least two sentences, naming countries, provinces and cities with the right preposition, and using at least four verbs + à / de. Keep your tenses consistent: past trips in passé composé / imparfait, future plans in futur.",
+      "hi": "लगभग चार मिनट यात्रा के बारे में बात कीजिए। हर सवाल का जवाब कम से कम दो वाक्यों में दीजिए, देशों, प्रांतों और शहरों के नाम सही पूर्वसर्ग के साथ लीजिए, और कम से कम चार क्रिया + à / de इस्तेमाल कीजिए। काल एक जैसे रखिए: पुरानी यात्राएँ passé composé / imparfait में, आगे की योजनाएँ futur में।"
+    },
+    "prompts": [
+      {
+        "fr": "D'où venez-vous et dans quelles villes avez-vous habité ?",
+        "en": "Where do you come from and which cities have you lived in?",
+        "hi": "आप कहाँ से हैं और किन शहरों में रहे हैं?",
+        "pron": "दू वö-ने वू ए दाँ कैल वील ज़ा-वे वू ज़ा-बी-ते",
+        "model": "Je viens d'Inde, du Gujarat. J'ai habité à Ahmedabad, puis à Mumbai. Depuis deux ans, j'habite au Canada, à Mississauga, en Ontario."
+      },
+      {
+        "fr": "Parlez-moi d'un voyage que vous avez fait.",
+        "en": "Tell me about a trip you took.",
+        "hi": "मुझे अपनी किसी यात्रा के बारे में बताइए।",
+        "pron": "पाग़-ले म्वा दैँ व्वा-याझ़ कö वू ज़ा-वे फ़ै",
+        "model": "L'été dernier, je suis allé aux États-Unis, à Boston. Il faisait très chaud, mais j'ai réussi à visiter toute la ville à pied."
+      },
+      {
+        "fr": "Qu'est-ce qui a été difficile quand vous êtes arrivé au Canada ?",
+        "en": "What was difficult when you arrived in Canada?",
+        "hi": "जब आप कनाडा पहुँचे, तो क्या मुश्किल था?",
+        "pron": "कैस-की आ ए-ते दी-फ़ी-सील काँ वू ज़ैत ज़ा-ग़ी-वे ओ का-ना-दा",
+        "model": "Au début, je n'arrivais pas à comprendre l'accent québécois, et j'ai mis du temps à m'habituer au froid. Mais j'ai continué à pratiquer chaque jour."
+      },
+      {
+        "fr": "Où avez-vous l'intention d'aller l'année prochaine ?",
+        "en": "Where do you intend to go next year?",
+        "hi": "अगले साल आपका कहाँ जाने का इरादा है?",
+        "pron": "ऊ आ-वे वू लैँ-ताँ-स्योँ दा-ले ला-ने प्ग़ो-शैन"
+      },
+      {
+        "fr": "Si vous pouviez vivre dans un autre pays, lequel choisiriez-vous ?",
+        "en": "If you could live in another country, which one would you choose?",
+        "hi": "अगर आप किसी और देश में रह पाते, तो कौन-सा चुनते?",
+        "pron": "सी वू पू-व्ये वीव्ग़ दाँ ज़ैँ नोत्ग़ पे-ई लö-कैल श्वा-ज़ी-ग़्ये वू"
+      },
+      {
+        "fr": "Qu'est-ce que vous n'oubliez jamais de mettre dans votre valise ?",
+        "en": "What do you never forget to put in your suitcase?",
+        "hi": "आप अपने सूटकेस में क्या रखना कभी नहीं भूलते?",
+        "pron": "कैस-कö वू नू-ब्ली-ये झ़ा-मै दö मैत्ग़ दाँ वॉत्ग़ वा-लीज़"
+      }
+    ],
+    "tip": {
+      "en": "Before speaking, list the places you will mention and write the preposition next to each one (au Gujarat? — le Gujarat is masculine, so au / du). If you are unsure of a country's gender, name the city instead: à Lisbonne is always correct.",
+      "hi": "बोलने से पहले, जिन जगहों का ज़िक्र करेंगे उनकी सूची बनाइए और हर एक के आगे पूर्वसर्ग लिखिए (au Gujarat? — le Gujarat पुल्लिंग है, तो au / du)। अगर किसी देश का लिंग पता न हो, तो शहर का नाम लीजिए: à Lisbonne हमेशा सही है।"
+    }
+  },
+  "reading": {
+    "genre": "message",
+    "title": "Texte à corriger : message de blogue (ce texte contient des erreurs de temps et de prépositions)",
+    "text": "Mon premier hiver au Canada\n\nIl y a deux ans, j'ai quitté l'Inde pour m'installer en Canada. Avant mon départ, j'avais vécu toute ma vie à Chennai, où il fait chaud presque toute l'année. Je ne savais donc pas à quoi m'attendre.\n\nJe suis arrivé à Winnipeg, au Manitoba, un 3 janvier. Quand je sors de l'aéroport, il faisait moins trente degrés. Mon cousin, qui habitait là depuis cinq ans, m'avait prêté un gros manteau, mais j'avais quand même froid aux oreilles !\n\nLes premières semaines ont été difficiles. J'ai commencé de chercher du travail tout de suite, mais personne ne répondait à mes courriels. Mon cousin m'a aidé à refaire mon CV « à la canadienne », et j'ai décidé à suivre un atelier gratuit pour les nouveaux arrivants. C'est là que j'ai rencontré Ana, une infirmière qui venait de les Philippines, et Omar, un ingénieur qui avait déjà travaillé à Émirats arabes unis.\n\nPeu à peu, je me suis habitué au froid. J'ai même appris à patiner sur la rivière Rouge ! Au printemps, j'ai réussi à trouver un emploi dans une entreprise de logiciels.\n\nAujourd'hui, j'habite toujours au Manitoba, mais j'ai l'intention à déménager à Montréal l'an prochain pour améliorer mon français. Si je trouverai un bon poste là-bas, je partirai en juillet. Et quand j'arriverai, je vous raconterai tout sur ce blogue !",
+    "translation": {
+      "en": "My first winter in Canada\n\nTwo years ago, I left India to settle in Canada. Before leaving, I had lived my whole life in Chennai, where it is hot almost all year. So I didn't know what to expect.\n\nI arrived in Winnipeg, Manitoba, on 3 January. When I came out of the airport, it was minus thirty degrees. My cousin, who had been living there for five years, had lent me a big coat, but my ears were still cold!\n\nThe first weeks were difficult. I started looking for work right away, but nobody answered my emails. My cousin helped me redo my CV 'the Canadian way', and I decided to take a free workshop for newcomers. That's where I met Ana, a nurse who came from the Philippines, and Omar, an engineer who had already worked in the United Arab Emirates.\n\nLittle by little, I got used to the cold. I even learned to skate on the Red River! In spring, I managed to find a job in a software company.\n\nToday I still live in Manitoba, but I intend to move to Montréal next year to improve my French. If I find a good job there, I'll leave in July. And when I arrive, I'll tell you everything on this blog!",
+      "hi": "कनाडा में मेरी पहली सर्दी\n\nदो साल पहले मैंने कनाडा में बसने के लिए भारत छोड़ा। जाने से पहले मैंने अपनी पूरी ज़िंदगी चेन्नई में बिताई थी, जहाँ लगभग पूरे साल गर्मी रहती है। इसलिए मुझे पता नहीं था कि क्या उम्मीद करूँ।\n\nमैं 3 जनवरी को मैनिटोबा के विनिपेग पहुँचा। जब मैं हवाई अड्डे से बाहर निकला, तापमान शून्य से तीस डिग्री नीचे था। मेरे चचेरे भाई ने, जो वहाँ पाँच साल से रह रहा था, मुझे एक मोटा कोट उधार दिया था, पर फिर भी मेरे कान ठंड से जम रहे थे!\n\nपहले कुछ हफ़्ते मुश्किल थे। मैंने तुरंत नौकरी ढूँढनी शुरू कर दी, पर कोई मेरे ईमेल का जवाब नहीं देता था। मेरे भाई ने मेरा सीवी 'कनाडाई ढंग से' दोबारा बनाने में मदद की, और मैंने नए आए लोगों के लिए एक मुफ़्त कार्यशाला में जाने का फ़ैसला किया। वहीं मेरी मुलाक़ात फ़िलीपींस से आई नर्स आना से और ओमर से हुई, जो एक इंजीनियर थे और पहले संयुक्त अरब अमीरात में काम कर चुके थे।\n\nधीरे-धीरे मुझे ठंड की आदत पड़ गई। मैंने तो रेड रिवर पर स्केटिंग करना भी सीख लिया! बसंत में मुझे एक सॉफ़्टवेयर कंपनी में नौकरी मिल गई।\n\nआज भी मैं मैनिटोबा में रहता हूँ, पर अपनी फ़्रेंच सुधारने के लिए अगले साल मॉन्ट्रियल जाने का इरादा है। अगर वहाँ अच्छी नौकरी मिल गई, तो मैं जुलाई में जाऊँगा। और जब पहुँचूँगा, तो इस ब्लॉग पर आपको सब कुछ बताऊँगा!"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "Which correction is needed in 's'installer en Canada'?"
+        },
+        "options": [
+          "No correction needed",
+          "au Canada",
+          "à Canada",
+          "aux Canada"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "Le Canada is masculine: au Canada.",
+          "hi": "le Canada पुल्लिंग है: au Canada।"
+        },
+        "kind": "grammar",
+        "evidence": "pour m'installer en Canada."
+      },
+      {
+        "q": {
+          "en": "'Quand je sors de l'aéroport, il faisait moins trente degrés.' What is wrong?"
+        },
+        "options": [
+          "'faisait' should be 'fait'",
+          "'de' should be 'du'",
+          "Nothing is wrong",
+          "'sors' should be in the past: je suis sorti"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "The story is in the past: a single event → passé composé (Quand je suis sorti…), background → imparfait (il faisait).",
+          "hi": "कहानी भूतकाल में है: एक घटना → passé composé (Quand je suis sorti…), पृष्ठभूमि → imparfait (il faisait)।"
+        },
+        "kind": "grammar",
+        "evidence": "Quand je sors de l'aéroport, il faisait moins trente degrés."
+      },
+      {
+        "q": {
+          "en": "In the third paragraph, which group contains TWO verb + preposition errors?"
+        },
+        "options": [
+          "commencé de chercher / décidé à suivre",
+          "aidé à refaire / commencé de chercher",
+          "décidé à suivre / répondait à",
+          "aidé à refaire / répondait à"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "Commencer à (not de) and décider de (not à). Aider qqn à and répondre à are correct.",
+          "hi": "commencer à (de नहीं) और décider de (à नहीं)। aider qqn à और répondre à सही हैं।"
+        },
+        "kind": "grammar",
+        "evidence": "J'ai commencé de chercher du travail tout de suite"
+      },
+      {
+        "q": {
+          "en": "How should 'venait de les Philippines' and 'travaillé à Émirats arabes unis' be corrected?"
+        },
+        "options": [
+          "venait de Philippines / travaillé au Émirats arabes unis",
+          "venait en Philippines / travaillé des Émirats arabes unis",
+          "venait des Philippines / travaillé aux Émirats arabes unis",
+          "venait du Philippines / travaillé en Émirats arabes unis"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "Both are plural: de + les = des; à + les = aux.",
+          "hi": "दोनों बहुवचन हैं: de + les = des; à + les = aux।"
+        },
+        "kind": "grammar",
+        "evidence": "une infirmière qui venait de les Philippines"
+      },
+      {
+        "q": {
+          "en": "Which sentence in the last paragraph contains a tense error?"
+        },
+        "options": [
+          "None of them",
+          "Si je trouverai un bon poste là-bas, je partirai en juillet.",
+          "Et quand j'arriverai, je vous raconterai tout.",
+          "Aujourd'hui, j'habite toujours au Manitoba."
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "Si + présent → futur: Si je trouve un bon poste… 'Quand j'arriverai' is correct (quand + futur).",
+          "hi": "si + présent → futur: Si je trouve un bon poste… 'quand j'arriverai' सही है (quand + futur)।"
+        },
+        "kind": "grammar",
+        "evidence": "Si je trouverai un bon poste là-bas, je partirai en juillet."
+      },
+      {
+        "q": {
+          "en": "Why does the author want to move to Montréal?"
+        },
+        "options": [
+          "Because it is warmer",
+          "To join his cousin",
+          "Because he lost his job",
+          "To improve his French"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'… déménager à Montréal l'an prochain pour améliorer mon français.'",
+          "hi": "'… pour améliorer mon français' — अपनी फ़्रेंच सुधारने के लिए।"
+        },
+        "kind": "literal",
+        "evidence": "pour améliorer mon français."
+      }
+    ]
+  },
+  "writing": {
+    "type": "rewrite",
+    "prompt": {
+      "en": "Correct and rewrite this paragraph. It contains 9 errors: prepositions with places, verbs + à / de, and tense consistency.",
+      "hi": "इस अनुच्छेद को सुधारकर दोबारा लिखिए। इसमें 9 ग़लतियाँ हैं: जगहों के साथ पूर्वसर्ग, क्रिया + à / de, और काल की एकरूपता।",
+      "fr": "L'année dernière, ma femme et moi, nous avons décidé à visiter le Maroc. Nous partons de Montréal un vendredi soir et nous sommes arrivés en Casablanca le lendemain. D'abord, nous avons passé trois jours au Fès, où nous avons essayé à apprendre quelques mots d'arabe. Ensuite, nous avons pris le train pour aller en Marrakech. Il fait très chaud, mais nous nous sommes vite habitués de la chaleur. Ma femme voulait de visiter tous les jardins de la ville ! Si nous aurons assez d'argent l'an prochain, nous irons en Japon."
+    },
+    "minWords": 80,
+    "maxWords": 140,
+    "hints": [
+      {
+        "en": "Cities always take à. Le Maroc and le Japon are masculine countries.",
+        "hi": "शहरों के साथ हमेशा à। le Maroc और le Japon पुल्लिंग देश हैं।"
+      },
+      {
+        "en": "Check each verb + infinitive: décider de, essayer de, s'habituer à, vouloir + nothing.",
+        "hi": "हर क्रिया + infinitive जाँचिए: décider de, essayer de, s'habituer à, vouloir + कुछ नहीं।"
+      },
+      {
+        "en": "The story is in the past (passé composé + imparfait); after si 'if', never the future.",
+        "hi": "कहानी भूतकाल में है (passé composé + imparfait); 'अगर' वाले si के बाद कभी futur नहीं।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "nous sommes arrivés à Casablanca",
+        "en": "we arrived in Casablanca",
+        "hi": "हम कासाब्लांका पहुँचे",
+        "pron": "नू सॉम ज़ा-ग़ी-वे आ का-ज़ा-ब्लाँ-का"
+      },
+      {
+        "fr": "nous nous sommes habitués à la chaleur",
+        "en": "we got used to the heat",
+        "hi": "हमें गर्मी की आदत पड़ गई",
+        "pron": "नू नू सॉम ज़ा-बी-त्üए आ ला शा-लöग़"
+      },
+      {
+        "fr": "si nous avons assez d'argent",
+        "en": "if we have enough money",
+        "hi": "अगर हमारे पास काफ़ी पैसे हों",
+        "pron": "सी नू ज़ा-वोँ ज़ा-से दाग़-झ़ाँ"
+      }
+    ],
+    "model": {
+      "fr": "L'année dernière, ma femme et moi, nous avons décidé de visiter le Maroc. Nous sommes partis de Montréal un vendredi soir et nous sommes arrivés à Casablanca le lendemain. D'abord, nous avons passé trois jours à Fès, où nous avons essayé d'apprendre quelques mots d'arabe. Ensuite, nous avons pris le train pour aller à Marrakech. Il faisait très chaud, mais nous nous sommes vite habitués à la chaleur. Ma femme voulait visiter tous les jardins de la ville ! Si nous avons assez d'argent l'an prochain, nous irons au Japon.",
+      "en": "Last year, my wife and I decided to visit Morocco. We left Montréal on a Friday evening and arrived in Casablanca the next day. First, we spent three days in Fez, where we tried to learn a few words of Arabic. Then we took the train to go to Marrakesh. It was very hot, but we quickly got used to the heat. My wife wanted to visit all the gardens in the city! If we have enough money next year, we'll go to Japan."
+    },
+    "checklist": [
+      {
+        "en": "Cities: à Casablanca, à Fès, à Marrakech. Country: au Japon.",
+        "hi": "शहर: à Casablanca, à Fès, à Marrakech। देश: au Japon।"
+      },
+      {
+        "en": "Verbs: décidé de, essayé d', habitués à, voulait visiter.",
+        "hi": "क्रियाएँ: décidé de, essayé d', habitués à, voulait visiter।"
+      },
+      {
+        "en": "Tenses: nous sommes partis, il faisait, si nous avons → nous irons.",
+        "hi": "काल: nous sommes partis, il faisait, si nous avons → nous irons।"
+      },
+      {
+        "en": "Did you find all 9 errors?",
+        "hi": "क्या आपने सभी 9 ग़लतियाँ ढूँढीं?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      88,
+      90,
+      95,
+      96,
+      97
+    ],
+    "items": [
+      {
+        "fr": "Quand je suis arrivé, le film avait déjà commencé.",
+        "en": "When I arrived, the film had already started.",
+        "hi": "जब मैं पहुँचा, फ़िल्म शुरू हो चुकी थी।",
+        "pron": "काँ झ़ö स्üई ज़ा-ग़ी-वे लö फ़ील्म आ-वै दे-झ़ा को-माँ-से"
+      },
+      {
+        "fr": "une grande ville, un problème important",
+        "en": "a big city, an important problem",
+        "hi": "एक बड़ा शहर, एक ज़रूरी समस्या",
+        "pron": "üन ग्ग़ाँद वील ऐँ प्ग़ो-ब्लैम ऐँ-पॉग़-ताँ"
+      },
+      {
+        "fr": "Elles sont arrivées en retard.",
+        "en": "They (f) arrived late.",
+        "hi": "वे (महिलाएँ) देर से पहुँचीं।",
+        "pron": "ऐल सोँ ता-ग़ी-वे आँ ग़ö-ताग़"
+      },
+      {
+        "fr": "Faut-il verser une caution ?",
+        "en": "Do I have to pay a deposit?",
+        "hi": "क्या डिपॉज़िट देना पड़ेगा?",
+        "pron": "फ़ो-तील वैग़-से üन को-स्योँ"
+      },
+      {
+        "fr": "Je comprends, mais justement…",
+        "en": "I understand, but that's exactly the point…",
+        "hi": "मैं समझता हूँ, पर यही तो बात है…",
+        "pron": "झ़ö कोँ-प्ग़ाँ मै झ़üस-तö-माँ"
+      },
+      {
+        "fr": "Et si tu venais avec moi ?",
+        "en": "What if you came with me?",
+        "hi": "क्यों न तुम मेरे साथ चलो?",
+        "pron": "ए सी तü वö-नै आ-वैक म्वा"
+      },
+      {
+        "fr": "Certes, c'est utile, mais il faut des limites.",
+        "en": "Admittedly, it's useful, but limits are needed.",
+        "hi": "माना कि यह उपयोगी है, पर सीमाएँ ज़रूरी हैं।",
+        "pron": "सैग़त सै तü-तील मै इल फ़ो दे ली-मीत"
+      },
+      {
+        "fr": "Bien qu'il soit tard, je continue à travailler.",
+        "en": "Although it's late, I keep working.",
+        "hi": "हालाँकि देर हो गई है, मैं काम करता रहता हूँ।",
+        "pron": "ब्यैँ कील स्वा ताग़ झ़ö कोँ-ती-न्ü आ त्ग़ा-वा-ये"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Choose the correct sentence.",
+        "hi": "सही वाक्य चुनिए।"
+      },
+      "options": [
+        "Mon frère travaille aux États-Unis.",
+        "Mon frère travaille en États-Unis.",
+        "Mon frère travaille à les États-Unis.",
+        "Mon frère travaille au États-Unis."
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Plural country: aux.",
+        "hi": "बहुवचन देश: aux।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: I come from Canada.",
+        "hi": "पूरा कीजिए: मैं कनाडा से हूँ।"
+      },
+      "sentence": "Je viens ___ Canada.",
+      "answer": "du",
+      "accept": [],
+      "explanation": {
+        "en": "Masculine country: au → du for 'from'.",
+        "hi": "पुल्लिंग देश: 'से' के लिए au → du।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: We moved to Alberta.",
+        "hi": "पूरा कीजिए: हम अल्बर्टा चले गए।"
+      },
+      "sentence": "Nous avons déménagé ___ Alberta.",
+      "answer": "en",
+      "accept": [],
+      "explanation": {
+        "en": "L'Alberta begins with a vowel (and is feminine): en Alberta.",
+        "hi": "l'Alberta स्वर से शुरू होता है (और स्त्रीलिंग है): en Alberta।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which verb takes 'de' before an infinitive?",
+        "hi": "किस क्रिया के बाद infinitive से पहले 'de' आता है?"
+      },
+      "options": [
+        "réussir",
+        "vouloir",
+        "essayer",
+        "commencer"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Essayer de; commencer à, réussir à; vouloir + infinitive directly.",
+        "hi": "essayer de; commencer à, réussir à; vouloir के बाद सीधे infinitive।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: I got used to the cold.",
+        "hi": "पूरा कीजिए: मुझे ठंड की आदत पड़ गई।"
+      },
+      "sentence": "Je me suis habitué ___ froid.",
+      "answer": "au",
+      "accept": [],
+      "explanation": {
+        "en": "S'habituer à + le froid = au froid.",
+        "hi": "s'habituer à + le froid = au froid।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Choose the correct sentence.",
+        "hi": "सही वाक्य चुनिए।"
+      },
+      "options": [
+        "S'il pleut demain, nous restions à la maison.",
+        "S'il pleuvrait demain, nous resterons à la maison.",
+        "S'il pleut demain, nous resterons à la maison.",
+        "S'il pleuvra demain, nous resterons à la maison."
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Si + présent → futur.",
+        "hi": "si + présent → futur।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "When I arrive in Toronto, I'll call you.",
+        "hi": "जब मैं टोरंटो पहुँचूँगा, तुम्हें फ़ोन करूँगा।"
+      },
+      "answer": "Quand j'arriverai à Toronto, je t'appellerai.",
+      "accept": [
+        "Quand j'arriverai à Toronto, je vous appellerai.",
+        "Lorsque j'arriverai à Toronto, je t'appellerai.",
+        "Quand j'arriverai à Toronto je t'appellerai."
+      ],
+      "explanation": {
+        "en": "Future action: quand + futur (not présent); à + city.",
+        "hi": "भविष्य की क्रिया: quand + futur (présent नहीं); शहर के साथ à।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put in order: She decided to live in Japan.",
+        "hi": "क्रम में रखिए: उसने जापान में रहने का फ़ैसला किया।"
+      },
+      "words": [
+        "a",
+        "Elle",
+        "décidé",
+        "de",
+        "vivre",
+        "au",
+        "Japon"
+      ],
+      "answer": "Elle a décidé de vivre au Japon.",
+      "explanation": {
+        "en": "Décider de + infinitive; le Japon → au Japon.",
+        "hi": "décider de + infinitive; le Japon → au Japon।"
+      }
+    }
+  ]
+}

@@ -1,0 +1,883 @@
+{
+  "day": 55,
+  "phase": 3,
+  "title": {
+    "fr": "Projets et intentions",
+    "en": "Plans and intentions",
+    "hi": "योजनाएँ और इरादे"
+  },
+  "objective": {
+    "en": "Explain your plans and the reasons behind them with avoir l'intention de, compter, espérer, projeter de and avoir envie de + infinitive, as you would in an interview or a motivation letter.",
+    "hi": "avoir l'intention de, compter, espérer, projeter de और avoir envie de + मूल क्रिया से अपनी योजनाएँ और उनके कारण समझाना, जैसे किसी इंटरव्यू या प्रेरणा-पत्र (motivation letter) में करते हैं।"
+  },
+  "prerequisites": {
+    "days": [
+      30,
+      32,
+      37,
+      45,
+      48,
+      53
+    ],
+    "summary": {
+      "en": "You need jobs (Day 30), vouloir/pouvoir + infinitive (Day 32), futur proche (Day 37), depuis (Day 45), futur simple (Day 48) and en (Day 53).",
+      "hi": "आपको पेशे (दिन 30), vouloir/pouvoir + मूल क्रिया (दिन 32), futur proche (दिन 37), depuis (दिन 45), फ़्यूतूर सैंप्ल (दिन 48) और en (दिन 53) याद होने चाहिए।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "avoir l'intention de",
+      "en": "to intend to",
+      "hi": "इरादा होना",
+      "pron": "आ-व्वाग़ लैँ-ताँ-स्योँ द",
+      "ipa": "avwaʁ lɛ̃tɑ̃sjɔ̃ də",
+      "pos": "phrase"
+    },
+    {
+      "fr": "compter",
+      "en": "to plan to, to count on (+ infinitive); to count",
+      "hi": "(कुछ करने की) सोचना/योजना होना; गिनना",
+      "pron": "कोँ-ते",
+      "ipa": "kɔ̃te",
+      "pos": "verb",
+      "note": {
+        "en": "The p is silent. No preposition: Je compte partir en mai.",
+        "hi": "p नहीं बोला जाता। कोई पूर्वसर्ग नहीं: Je compte partir en mai।"
+      }
+    },
+    {
+      "fr": "espérer",
+      "en": "to hope",
+      "hi": "उम्मीद करना",
+      "pron": "ऐस-पे-ग़े",
+      "ipa": "ɛspeʁe",
+      "pos": "verb",
+      "note": {
+        "en": "No preposition before an infinitive: J'espère réussir. Accent change: j'espère, nous espérons.",
+        "hi": "मूल क्रिया से पहले कोई पूर्वसर्ग नहीं: J'espère réussir। accent बदलता है: j'espère, nous espérons।"
+      }
+    },
+    {
+      "fr": "projeter de",
+      "en": "to plan to",
+      "hi": "(… करने की) योजना बनाना",
+      "pron": "प्रॉझ़-ते द",
+      "ipa": "pʁɔʒte də",
+      "pos": "phrase",
+      "lemma": "projeter",
+      "note": {
+        "en": "Double t in the singular: je projette, ils projettent.",
+        "hi": "एकवचन में दो t: je projette, ils projettent।"
+      }
+    },
+    {
+      "fr": "avoir envie de",
+      "en": "to feel like, to really want to",
+      "hi": "मन होना, इच्छा होना",
+      "pron": "आ-व्वाग़ आँ-वी द",
+      "ipa": "avwaʁ ɑ̃vi də",
+      "pos": "phrase"
+    },
+    {
+      "fr": "le but",
+      "en": "the goal, the aim",
+      "hi": "लक्ष्य, उद्देश्य",
+      "pron": "लö बü (बüत)",
+      "ipa": "lə by(t)",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "but",
+      "note": {
+        "en": "The t can be silent or pronounced; both are heard.",
+        "hi": "t बोला भी जा सकता है और नहीं भी; दोनों सुनाई देते हैं।"
+      }
+    },
+    {
+      "fr": "l'objectif",
+      "en": "the objective, the target",
+      "hi": "उद्देश्य, लक्ष्य",
+      "pron": "लॉब-झ़ैक-तीफ़",
+      "ipa": "lɔbʒɛktif",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "objectif"
+    },
+    {
+      "fr": "la résidence permanente",
+      "en": "permanent residence",
+      "hi": "स्थायी निवास",
+      "pron": "ला ग़े-ज़ी-दाँस पैग़-मा-नाँत",
+      "ipa": "la ʁezidɑ̃s pɛʁmanɑ̃t",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "résidence"
+    },
+    {
+      "fr": "s'installer",
+      "en": "to settle (in a place)",
+      "hi": "बस जाना",
+      "pron": "सैँ-स्ता-ले",
+      "ipa": "sɛ̃stale",
+      "pos": "verb",
+      "note": {
+        "en": "Reflexive → être in the past: nous nous sommes installés à Québec.",
+        "hi": "निजवाचक → भूतकाल में être: nous nous sommes installés à Québec।"
+      }
+    },
+    {
+      "fr": "la formation",
+      "en": "training, a training course",
+      "hi": "प्रशिक्षण, ट्रेनिंग",
+      "pron": "ला फ़ॉग़-मा-स्योँ",
+      "ipa": "la fɔʁmasjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "formation"
+    },
+    {
+      "fr": "améliorer",
+      "en": "to improve",
+      "hi": "सुधारना, बेहतर बनाना",
+      "pron": "आ-मे-ल्यो-ग़े",
+      "ipa": "ameljɔʁe",
+      "pos": "verb"
+    },
+    {
+      "fr": "obtenir",
+      "en": "to obtain, to get",
+      "hi": "प्राप्त करना, हासिल करना",
+      "pron": "ऑप-तö-नीग़",
+      "ipa": "ɔptəniʁ",
+      "pos": "verb",
+      "note": {
+        "en": "Conjugated like venir: j'obtiens; future j'obtiendrai; past j'ai obtenu (with avoir).",
+        "hi": "venir की तरह चलता है: j'obtiens; भविष्य j'obtiendrai; भूतकाल j'ai obtenu (avoir के साथ)।"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "J'ai l'intention de m'installer à Québec.",
+      "en": "I intend to settle in Québec City.",
+      "hi": "मेरा इरादा क्यूबेक शहर में बसने का है।",
+      "pron": "झ़े लैँ-ताँ-स्योँ द मैँ-स्ता-ले आ के-बैक"
+    },
+    {
+      "fr": "Je compte passer le TEF en mars.",
+      "en": "I plan to take the TEF in March.",
+      "hi": "मैं मार्च में TEF देने की सोच रहा/रही हूँ।",
+      "pron": "झ़ö कोँत पा-से लö तेफ़ आँ माग़स"
+    },
+    {
+      "fr": "J'espère trouver un travail dans mon domaine.",
+      "en": "I hope to find a job in my field.",
+      "hi": "मुझे अपने क्षेत्र में नौकरी मिलने की उम्मीद है।",
+      "pron": "झ़ैस-पैग़ त्रू-वे ऐँ त्रा-वाय दाँ मोँ दो-मैन"
+    },
+    {
+      "fr": "J'ai très envie de faire du ski.",
+      "en": "I really want to go skiing.",
+      "hi": "मेरा स्कीइंग करने का बहुत मन है।",
+      "pron": "झ़े त्रै ज़ाँ-वी द फ़ैग़ दü स्की"
+    },
+    {
+      "fr": "Mon objectif, c'est de …",
+      "en": "My goal is to …",
+      "hi": "मेरा लक्ष्य है …",
+      "pron": "मोँ नॉब-झ़ैक-तीफ़ सै द"
+    },
+    {
+      "fr": "C'est pour ça que …",
+      "en": "That's why …",
+      "hi": "इसीलिए …",
+      "pron": "सै पूग़ सा क"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Verbs of intention + infinitive (with or without de)",
+      "hi": "इरादा बताने वाली क्रियाएँ + मूल क्रिया (de के साथ या बिना)"
+    },
+    "explanation": {
+      "en": "All these are followed by an infinitive. Without a preposition: compter (Je compte partir), espérer (J'espère réussir), vouloir, aimer, préférer, aller. With de: avoir l'intention de, projeter de, avoir envie de, décider de, essayer de, rêver de (J'ai envie de voyager; Je rêve d'ouvrir un restaurant). de becomes d' before a vowel. Shades of meaning: avoir l'intention de = a decided intention (formal, good for interviews); compter = a firm plan; projeter de = an organised project; espérer = a hope, not certain; avoir envie de = a personal wish or desire. espérer can also take que + a full sentence, often in the future: J'espère que tu viendras.",
+      "hi": "इन सबके बाद मूल क्रिया (infinitive) आती है। बिना पूर्वसर्ग के: compter (Je compte partir), espérer (J'espère réussir), vouloir, aimer, préférer, aller। de के साथ: avoir l'intention de, projeter de, avoir envie de, décider de, essayer de, rêver de (J'ai envie de voyager; Je rêve d'ouvrir un restaurant)। स्वर से पहले de, d' बन जाता है। अर्थ के रंग: avoir l'intention de = तय इरादा (औपचारिक, इंटरव्यू के लिए अच्छा); compter = पक्की योजना; projeter de = व्यवस्थित योजना; espérer = उम्मीद, पक्का नहीं; avoir envie de = निजी इच्छा या मन। espérer के बाद que + पूरा वाक्य भी आ सकता है, अक्सर भविष्य काल में: J'espère que tu viendras (मुझे उम्मीद है कि तुम आओगे)।"
+    },
+    "comparison": {
+      "en": "Hindi has close equivalents: 'मेरा इरादा है …' = avoir l'intention de; 'मैं … करने की सोच रहा हूँ' = compter; 'मुझे उम्मीद है …' = espérer; 'मेरा मन है / मन कर रहा है …' = avoir envie de. Watch the prepositions, which follow neither Hindi nor English: English says 'hope TO', French says 'espérer' + infinitive with nothing in between; English 'feel like doing' becomes 'avoir envie DE faire'.",
+      "hi": "हिंदी में क़रीबी रूप हैं: 'मेरा इरादा है …' = avoir l'intention de; 'मैं … करने की सोच रहा हूँ' = compter; 'मुझे उम्मीद है …' = espérer; 'मेरा मन है / मन कर रहा है …' = avoir envie de। पूर्वसर्गों पर ध्यान दीजिए, जो न हिंदी के हिसाब से चलते हैं न अंग्रेज़ी के: अंग्रेज़ी 'hope TO' कहती है, फ़्रेंच में 'espérer' + मूल क्रिया, बीच में कुछ नहीं; अंग्रेज़ी 'feel like doing' बन जाता है 'avoir envie DE faire'।"
+    },
+    "examples": [
+      {
+        "fr": "Nous avons l'intention d'acheter une maison.",
+        "en": "We intend to buy a house.",
+        "hi": "हमारा घर ख़रीदने का इरादा है।",
+        "pron": "नू ज़ा-वोँ लैँ-ताँ-स्योँ दा-श्ते üन मै-ज़ोँ"
+      },
+      {
+        "fr": "Elle compte finir sa formation en juin.",
+        "en": "She plans to finish her training in June.",
+        "hi": "वह जून में अपनी ट्रेनिंग पूरी करने की सोच रही है।",
+        "pron": "ऐल कोँत फ़ी-नीग़ सा फ़ॉग़-मा-स्योँ आँ झ़ü-ऐँ"
+      },
+      {
+        "fr": "J'espère obtenir la résidence permanente.",
+        "en": "I hope to get permanent residence.",
+        "hi": "मुझे स्थायी निवास मिलने की उम्मीद है।",
+        "pron": "झ़ैस-पैग़ ऑप-तö-नीग़ ला ग़े-ज़ी-दाँस पैग़-मा-नाँत"
+      },
+      {
+        "fr": "Ils projettent de visiter le Yukon.",
+        "en": "They are planning to visit the Yukon.",
+        "hi": "वे यूकॉन घूमने की योजना बना रहे हैं।",
+        "pron": "ईल प्रो-झ़ैत द वी-ज़ी-ते लö यü-कॉन"
+      },
+      {
+        "fr": "Tu as envie de sortir ce soir ?",
+        "en": "Do you feel like going out tonight?",
+        "hi": "आज शाम बाहर जाने का मन है?",
+        "pron": "तü आ ज़ाँ-वी द सॉग़-तीग़ सö स्वाग़"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "No 'de' after espérer and compter: 'J'espère de réussir' is wrong → 'J'espère réussir'.",
+        "hi": "espérer और compter के बाद 'de' नहीं: 'J'espère de réussir' ग़लत है → 'J'espère réussir'।"
+      },
+      {
+        "en": "Don't forget 'de' with avoir envie and avoir l'intention: 'J'ai envie voyager' is wrong → 'J'ai envie de voyager'.",
+        "hi": "avoir envie और avoir l'intention के साथ 'de' मत भूलिए: 'J'ai envie voyager' ग़लत है → 'J'ai envie de voyager'।"
+      },
+      {
+        "en": "With a reflexive verb, the pronoun matches the subject: J'ai l'intention de m'installer; nous avons l'intention de nous installer.",
+        "hi": "निजवाचक क्रिया में सर्वनाम कर्ता से मेल खाता है: J'ai l'intention de m'installer; nous avons l'intention de nous installer।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Nasal vowel review: intention, compter, envie, besoin",
+    "tip": {
+      "en": "'intention' has all three nasals: in = ऐँ, ten = ताँ, tion = स्योँ. Don't pronounce an n or m after a nasal vowel: compter = कोँ-ते (no m, no p), envie = आँ-वी, besoin = बö-ज़्वैँ. Breathe through the nose on the vowel and stop there.",
+      "hi": "'intention' में तीनों नासिक्य स्वर हैं: in = ऐँ, ten = ताँ, tion = स्योँ। नासिक्य स्वर के बाद n या m मत बोलिए: compter = कोँ-ते (न m, न p), envie = आँ-वी, besoin = बö-ज़्वैँ। स्वर पर हवा नाक से निकालिए और वहीं रुक जाइए।"
+    },
+    "words": [
+      {
+        "fr": "l'intention",
+        "en": "the intention",
+        "hi": "इरादा",
+        "pron": "लैँ-ताँ-स्योँ",
+        "ipa": "lɛ̃tɑ̃sjɔ̃"
+      },
+      {
+        "fr": "compter",
+        "en": "to plan to; to count",
+        "hi": "सोचना; गिनना",
+        "pron": "कोँ-ते",
+        "ipa": "kɔ̃te"
+      },
+      {
+        "fr": "l'envie",
+        "en": "the desire",
+        "hi": "इच्छा, मन",
+        "pron": "लाँ-वी",
+        "ipa": "lɑ̃vi"
+      },
+      {
+        "fr": "le besoin",
+        "en": "the need",
+        "hi": "ज़रूरत",
+        "pron": "लö बö-ज़्वैँ",
+        "ipa": "lə bəzwɛ̃"
+      },
+      {
+        "fr": "longtemps",
+        "en": "a long time",
+        "hi": "लंबे समय तक",
+        "pron": "लोँ-ताँ",
+        "ipa": "lɔ̃tɑ̃"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Mes projets au Québec",
+      "en": "My plans in Québec"
+    },
+    "type": "monologue",
+    "mode": "natural",
+    "context": {
+      "en": "At a welcome evening for newcomers in Québec City, Farhan introduces himself and explains his plans.",
+      "hi": "क्यूबेक शहर में नए आने वालों के स्वागत समारोह में फ़रहान अपना परिचय देता है और अपनी योजनाएँ बताता है।"
+    },
+    "lines": [
+      {
+        "speaker": "Animatrice",
+        "voice": "f2",
+        "fr": "Bienvenue à notre soirée d'accueil ! Farhan, vous voulez vous présenter ?",
+        "en": "Welcome to our welcome evening! Farhan, would you like to introduce yourself?",
+        "hi": "हमारे स्वागत समारोह में आपका स्वागत है! फ़रहान, क्या आप अपना परिचय देना चाहेंगे?"
+      },
+      {
+        "speaker": "Farhan",
+        "voice": "m1",
+        "fr": "Oui, merci. Je m'appelle Farhan, j'ai trente-deux ans et je viens de Hyderabad, en Inde. Je suis arrivé à Québec il y a trois semaines avec ma femme, Sana.",
+        "en": "Yes, thank you. My name is Farhan, I'm thirty-two and I come from Hyderabad, in India. I arrived in Québec City three weeks ago with my wife, Sana.",
+        "hi": "हाँ, धन्यवाद। मेरा नाम फ़रहान है, मैं बत्तीस साल का हूँ और भारत के हैदराबाद से हूँ। मैं तीन हफ़्ते पहले अपनी पत्नी सना के साथ क्यूबेक शहर आया।"
+      },
+      {
+        "speaker": "Farhan",
+        "voice": "m1",
+        "fr": "En Inde, j'étais ingénieur civil. J'ai construit des ponts et des routes pendant huit ans.",
+        "en": "In India I was a civil engineer. I built bridges and roads for eight years.",
+        "hi": "भारत में मैं सिविल इंजीनियर था। मैंने आठ साल तक पुल और सड़कें बनाईं।"
+      },
+      {
+        "speaker": "Farhan",
+        "voice": "m1",
+        "fr": "Ici, mon premier objectif, c'est d'améliorer mon français. J'ai l'intention de suivre des cours intensifs pendant six mois.",
+        "en": "Here, my first goal is to improve my French. I intend to take intensive classes for six months.",
+        "hi": "यहाँ मेरा पहला लक्ष्य अपनी फ़्रेंच सुधारना है। मेरा छह महीने तक इंटेंसिव कक्षाएँ लेने का इरादा है।"
+      },
+      {
+        "speaker": "Farhan",
+        "voice": "m1",
+        "fr": "Ensuite, je compte faire reconnaître mon diplôme. Ça prend du temps, mais c'est nécessaire pour travailler comme ingénieur ici.",
+        "en": "Then I plan to get my degree recognised. It takes time, but it's necessary to work as an engineer here.",
+        "hi": "फिर मैं अपनी डिग्री को मान्यता दिलवाने की सोच रहा हूँ। इसमें समय लगता है, पर यहाँ इंजीनियर के तौर पर काम करने के लिए यह ज़रूरी है।"
+      },
+      {
+        "speaker": "Farhan",
+        "voice": "m1",
+        "fr": "En attendant, j'espère trouver un travail à temps partiel, peut-être dans un bureau d'études.",
+        "en": "Meanwhile, I hope to find a part-time job, maybe in an engineering firm.",
+        "hi": "तब तक मुझे कोई पार्ट-टाइम नौकरी मिलने की उम्मीद है, शायद किसी इंजीनियरिंग फ़र्म में।"
+      },
+      {
+        "speaker": "Farhan",
+        "voice": "m1",
+        "fr": "Ma femme, Sana, est infirmière. Elle a l'intention de passer les examens d'infirmière l'année prochaine.",
+        "en": "My wife, Sana, is a nurse. She intends to take the nursing exams next year.",
+        "hi": "मेरी पत्नी सना नर्स हैं। उनका अगले साल नर्सिंग की परीक्षाएँ देने का इरादा है।"
+      },
+      {
+        "speaker": "Farhan",
+        "voice": "m1",
+        "fr": "Dans cinq ans, nous espérons obtenir la citoyenneté. Et nous projetons d'acheter une petite maison près du fleuve.",
+        "en": "In five years we hope to get citizenship. And we're planning to buy a little house near the river.",
+        "hi": "पाँच साल में हमें नागरिकता मिलने की उम्मीद है। और हम नदी के पास एक छोटा-सा घर ख़रीदने की योजना बना रहे हैं।"
+      },
+      {
+        "speaker": "Farhan",
+        "voice": "m1",
+        "fr": "Et franchement, j'ai très envie de faire du ski cet hiver ! Je n'ai jamais vu autant de neige.",
+        "en": "And honestly, I really want to go skiing this winter! I've never seen so much snow.",
+        "hi": "और सच कहूँ तो, इस सर्दी में मेरा स्कीइंग करने का बहुत मन है! मैंने इतनी बर्फ़ कभी नहीं देखी।"
+      },
+      {
+        "speaker": "Animatrice",
+        "voice": "f2",
+        "fr": "Merci, Farhan ! Vous avez déjà des questions pour nous ?",
+        "en": "Thank you, Farhan! Do you already have questions for us?",
+        "hi": "धन्यवाद, फ़रहान! क्या आपके पास हमारे लिए कोई प्रश्न है?"
+      },
+      {
+        "speaker": "Farhan",
+        "voice": "m1",
+        "fr": "Oui : où est-ce que je peux trouver des cours de français gratuits ?",
+        "en": "Yes: where can I find free French classes?",
+        "hi": "हाँ: मुझे मुफ़्त फ़्रेंच कक्षाएँ कहाँ मिल सकती हैं?"
+      },
+      {
+        "speaker": "Animatrice",
+        "voice": "f2",
+        "fr": "Excellente question ! Il y en a au centre communautaire, le soir. Je vous donne le dépliant après la réunion.",
+        "en": "Excellent question! There are some at the community centre, in the evenings. I'll give you the leaflet after the meeting.",
+        "hi": "बहुत अच्छा प्रश्न! सामुदायिक केंद्र में शाम को होती हैं। बैठक के बाद मैं आपको पर्चा दे दूँगी।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "What was Farhan's job in India?"
+        },
+        "options": [
+          "Nurse",
+          "Teacher",
+          "Civil engineer",
+          "Bus driver"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'j'étais ingénieur civil' — he built bridges and roads.",
+          "hi": "'j'étais ingénieur civil' — वह पुल और सड़कें बनाता था।"
+        },
+        "kind": "literal",
+        "evidence": "En Inde, j'étais ingénieur civil."
+      },
+      {
+        "q": {
+          "en": "What is his first goal in Québec?"
+        },
+        "options": [
+          "To improve his French",
+          "To buy a house",
+          "To go skiing"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'mon premier objectif, c'est d'améliorer mon français'.",
+          "hi": "'mon premier objectif, c'est d'améliorer mon français' (मेरा पहला लक्ष्य फ़्रेंच सुधारना है)।"
+        },
+        "kind": "literal",
+        "evidence": "mon premier objectif, c'est d'améliorer mon français"
+      },
+      {
+        "q": {
+          "en": "Why does he want his degree recognised?"
+        },
+        "options": [
+          "To teach at university",
+          "Because it's necessary to work as an engineer here",
+          "To get citizenship faster"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'c'est nécessaire pour travailler comme ingénieur ici'.",
+          "hi": "'c'est nécessaire pour travailler comme ingénieur ici' (यहाँ इंजीनियर के तौर पर काम करने के लिए ज़रूरी है)।"
+        },
+        "kind": "literal",
+        "evidence": "c'est nécessaire pour travailler comme ingénieur ici"
+      },
+      {
+        "q": {
+          "en": "Which of Farhan's sentences is a personal wish rather than a career plan?"
+        },
+        "options": [
+          "J'ai l'intention de suivre des cours intensifs.",
+          "Je compte faire reconnaître mon diplôme.",
+          "J'ai très envie de faire du ski cet hiver !"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "avoir envie de expresses a personal desire.",
+          "hi": "avoir envie de निजी इच्छा बताता है।"
+        },
+        "kind": "inference",
+        "evidence": "j'ai très envie de faire du ski cet hiver"
+      },
+      {
+        "q": {
+          "en": "Where can Farhan find free French classes?"
+        },
+        "options": [
+          "At the library",
+          "At the community centre, in the evenings",
+          "At the university"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Il y en a au centre communautaire, le soir.'",
+          "hi": "'Il y en a au centre communautaire, le soir.' (सामुदायिक केंद्र में शाम को होती हैं।)"
+        },
+        "kind": "literal",
+        "evidence": "Il y en a au centre communautaire, le soir."
+      }
+    ],
+    "dictation": [
+      "Mon premier objectif, c'est d'améliorer mon français.",
+      "J'espère trouver un travail à temps partiel.",
+      "Nous projetons d'acheter une petite maison."
+    ],
+    "gapFill": {
+      "text": "J'ai l'___ de suivre des cours intensifs. Je ___ faire reconnaître mon diplôme. J'ai très ___ de faire du ski.",
+      "answers": [
+        "intention",
+        "compte",
+        "envie"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "presentation",
+    "instructions": {
+      "en": "Explain your plans and reasons, as in an interview with an immigration or job counsellor. Answer each question, then give a 90-second talk using four different verbs of intention and 'parce que' or 'c'est pour ça que'.",
+      "hi": "अपनी योजनाएँ और उनके कारण समझाइए, जैसे किसी आप्रवासन या नौकरी सलाहकार के साथ इंटरव्यू में। हर प्रश्न का जवाब दीजिए, फिर चार अलग-अलग इरादे वाली क्रियाओं और 'parce que' या 'c'est pour ça que' के साथ 90 सेकंड बोलिए।"
+    },
+    "prompts": [
+      {
+        "fr": "Pourquoi est-ce que vous apprenez le français ?",
+        "en": "Why are you learning French?",
+        "hi": "आप फ़्रेंच क्यों सीख रहे हैं?",
+        "pron": "पूग़-क्वा ऐस-क वू ज़ा-प्रö-ने लö फ़्राँ-सै",
+        "model": "J'apprends le français parce que j'ai l'intention de m'installer au Québec."
+      },
+      {
+        "fr": "Qu'est-ce que vous comptez faire l'année prochaine ?",
+        "en": "What do you plan to do next year?",
+        "hi": "अगले साल आप क्या करने की सोच रहे हैं?",
+        "pron": "कैस-क वू कोँ-ते फ़ैग़ ला-ने प्रो-शैन",
+        "model": "Je compte passer le TEF et préparer ma demande de résidence permanente."
+      },
+      {
+        "fr": "Quel travail espérez-vous trouver ?",
+        "en": "What job do you hope to find?",
+        "hi": "आपको किस नौकरी की उम्मीद है?",
+        "pron": "कैल त्रा-वाय ऐस-पे-ग़े वू त्रू-वे",
+        "model": "J'espère trouver un poste de comptable dans une petite entreprise."
+      },
+      {
+        "fr": "Qu'est-ce que vous projetez de faire en famille ?",
+        "en": "What are you planning to do as a family?",
+        "hi": "आप परिवार के साथ क्या करने की योजना बना रहे हैं?",
+        "pron": "कैस-क वू प्रॉझ़-ते द फ़ैग़ आँ फ़ा-मीय",
+        "model": "Nous projetons de visiter les Rocheuses en été."
+      },
+      {
+        "fr": "Et pour vous, personnellement, vous avez envie de quoi ?",
+        "en": "And for you personally, what do you feel like doing?",
+        "hi": "और आपका अपना, किस चीज़ का मन है?",
+        "pron": "ए पूग़ वू पैग़-सो-नैल-माँ वू ज़ा-वे ज़ाँ-वी द क्वा",
+        "model": "J'ai envie d'apprendre à patiner sur un lac gelé !"
+      }
+    ],
+    "tip": {
+      "en": "Vary your verbs: an examiner notices when you say 'je veux' five times. Rotate: j'ai l'intention de → je compte → j'espère → je projette de → j'ai envie de.",
+      "hi": "क्रियाएँ बदलते रहिए: परीक्षक ध्यान देता है जब आप पाँच बार 'je veux' कहते हैं। घुमाइए: j'ai l'intention de → je compte → j'espère → je projette de → j'ai envie de।"
+    }
+  },
+  "reading": {
+    "genre": "letter",
+    "title": "Pourquoi je veux étudier au cégep",
+    "text": "Je m'appelle Ishita Rao, j'ai vingt-six ans et j'habite à Montréal depuis un an. En Inde, j'ai étudié la psychologie à Bangalore et j'ai travaillé deux ans dans une école maternelle. J'adore travailler avec les enfants : ils sont curieux, drôles et toujours honnêtes.\n\nAujourd'hui, j'ai l'intention de m'inscrire au programme d'éducation à l'enfance de votre cégep. Mon objectif est de devenir éducatrice dans un centre de la petite enfance. Je sais que mon diplôme indien n'est pas suffisant ici : c'est pour ça que je veux suivre une formation québécoise.\n\nDepuis six mois, je prends des cours de français le soir, et j'espère réussir le TEF avec un bon niveau au printemps. Je compte aussi faire du bénévolat dans une bibliothèque pour enfants cet été, pour pratiquer mon français.\n\nPlus tard, je rêve d'ouvrir ma propre garderie bilingue. Je suis motivée, organisée et patiente, et je suis prête à travailler fort pour réaliser ce projet.\n\nIshita Rao",
+    "translation": {
+      "en": "My name is Ishita Rao, I'm twenty-six and I've been living in Montréal for a year. In India I studied psychology in Bangalore and worked for two years in a nursery school. I love working with children: they are curious, funny and always honest.\n\nToday I intend to enrol in your college's early childhood education programme. My goal is to become an educator in an early childhood centre. I know that my Indian degree isn't enough here: that's why I want to do a Québec training programme.\n\nFor six months I've been taking French classes in the evening, and I hope to pass the TEF with a good level in the spring. I also plan to volunteer in a children's library this summer, to practise my French.\n\nLater, I dream of opening my own bilingual daycare. I am motivated, organised and patient, and I'm ready to work hard to make this project happen.\n\nIshita Rao",
+      "hi": "मेरा नाम ईशिता राव है, मैं छब्बीस साल की हूँ और एक साल से मॉन्ट्रियाल में रह रही हूँ। भारत में मैंने बेंगलुरु में मनोविज्ञान पढ़ा और दो साल एक नर्सरी स्कूल में काम किया। मुझे बच्चों के साथ काम करना बहुत अच्छा लगता है: वे जिज्ञासु, मज़ेदार और हमेशा सच्चे होते हैं।\n\nअब मेरा इरादा आपके कॉलेज (सेजेप) के बाल्यावस्था शिक्षा कार्यक्रम में दाख़िला लेने का है। मेरा लक्ष्य किसी बाल देखभाल केंद्र में शिक्षिका बनना है। मुझे पता है कि मेरी भारतीय डिग्री यहाँ काफ़ी नहीं है: इसीलिए मैं क्यूबेक की कोई ट्रेनिंग करना चाहती हूँ।\n\nछह महीने से मैं शाम को फ़्रेंच की कक्षाएँ ले रही हूँ, और मुझे उम्मीद है कि वसंत में मैं अच्छे स्तर के साथ TEF पास कर लूँगी। इस गर्मी में मैं अपनी फ़्रेंच का अभ्यास करने के लिए बच्चों की एक लाइब्रेरी में स्वयंसेवा करने की भी सोच रही हूँ।\n\nआगे चलकर मेरा सपना अपना ख़ुद का द्विभाषी डे-केयर खोलने का है। मैं प्रेरित, व्यवस्थित और धैर्यवान हूँ, और इस सपने को पूरा करने के लिए कड़ी मेहनत करने को तैयार हूँ।\n\nईशिता राव"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "What did Ishita study in India?"
+        },
+        "options": [
+          "Early childhood education",
+          "Psychology",
+          "French",
+          "Nursing"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'j'ai étudié la psychologie à Bangalore'.",
+          "hi": "'j'ai étudié la psychologie à Bangalore' (मैंने बेंगलुरु में मनोविज्ञान पढ़ा)।"
+        },
+        "kind": "literal",
+        "evidence": "j'ai étudié la psychologie à Bangalore"
+      },
+      {
+        "q": {
+          "en": "Why does she want to do a Québec training programme?"
+        },
+        "options": [
+          "Her Indian degree isn't enough here",
+          "It is free",
+          "Her friends study there"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'mon diplôme indien n'est pas suffisant ici : c'est pour ça que…'.",
+          "hi": "'mon diplôme indien n'est pas suffisant ici : c'est pour ça que…' (मेरी भारतीय डिग्री यहाँ काफ़ी नहीं है: इसीलिए…)।"
+        },
+        "kind": "literal",
+        "evidence": "mon diplôme indien n'est pas suffisant ici : c'est pour ça que je veux suivre une formation québécoise"
+      },
+      {
+        "q": {
+          "en": "Why does she plan to volunteer in a library?"
+        },
+        "options": [
+          "To practise her French",
+          "To earn money",
+          "To find books for her course"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'pour pratiquer mon français'.",
+          "hi": "'pour pratiquer mon français' (अपनी फ़्रेंच का अभ्यास करने के लिए)।"
+        },
+        "kind": "literal",
+        "evidence": "pour pratiquer mon français"
+      },
+      {
+        "q": {
+          "en": "What is her long-term dream?"
+        },
+        "options": [
+          "To teach psychology",
+          "To work in a library",
+          "To open her own bilingual daycare"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'je rêve d'ouvrir ma propre garderie bilingue'.",
+          "hi": "'je rêve d'ouvrir ma propre garderie bilingue' (अपना द्विभाषी डे-केयर खोलने का सपना)।"
+        },
+        "kind": "literal",
+        "evidence": "je rêve d'ouvrir ma propre garderie bilingue"
+      },
+      {
+        "q": {
+          "en": "Who is this text probably written for?"
+        },
+        "options": [
+          "A friend in India",
+          "The college admissions office",
+          "A newspaper"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "She writes 'votre cégep' and lists her qualities: it's a motivation letter for admission.",
+          "hi": "वह 'votre cégep' (आपका कॉलेज) लिखती है और अपने गुण बताती है: यह दाख़िले के लिए प्रेरणा-पत्र है।"
+        },
+        "kind": "inference",
+        "evidence": "j'ai l'intention de m'inscrire au programme d'éducation à l'enfance de votre cégep"
+      }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "Write about your goals for the next five years (French, work, family, home, a personal wish). Give a reason for at least two of them.",
+      "hi": "अगले पाँच सालों के अपने लक्ष्यों के बारे में लिखिए (फ़्रेंच, काम, परिवार, घर, कोई निजी इच्छा)। कम से कम दो लक्ष्यों का कारण बताइए।",
+      "fr": "Quels sont vos objectifs pour les cinq prochaines années ?"
+    },
+    "minWords": 70,
+    "maxWords": 120,
+    "hints": [
+      {
+        "en": "Use at least four of: avoir l'intention de, compter, espérer, projeter de, avoir envie de, rêver de.",
+        "hi": "इनमें से कम से कम चार इस्तेमाल कीजिए: avoir l'intention de, compter, espérer, projeter de, avoir envie de, rêver de।"
+      },
+      {
+        "en": "Give reasons with parce que, pour + infinitive, or c'est pour ça que.",
+        "hi": "parce que, pour + मूल क्रिया, या c'est pour ça que से कारण बताइए।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Mon premier objectif, c'est de …",
+        "en": "My first goal is to …",
+        "hi": "मेरा पहला लक्ष्य है …",
+        "pron": "मोँ प्रö-म्ये ग़ॉब-झ़ैक-तीफ़ सै द"
+      },
+      {
+        "fr": "… pour pouvoir …",
+        "en": "… in order to be able to …",
+        "hi": "… ताकि मैं … कर सकूँ",
+        "pron": "पूग़ पू-व्वाग़"
+      },
+      {
+        "fr": "Je rêve de …",
+        "en": "I dream of …",
+        "hi": "मेरा सपना है …",
+        "pron": "झ़ö ग़ैव द"
+      }
+    ],
+    "model": {
+      "fr": "Dans les cinq prochaines années, j'ai trois grands objectifs. D'abord, j'ai l'intention d'améliorer mon français, parce que je veux travailler au Québec. Je compte passer le TEF en mai. Ensuite, j'espère obtenir la résidence permanente avec ma famille. Nous projetons de nous installer à Sherbrooke : la ville est calme et les loyers sont moins chers qu'à Montréal. Enfin, je rêve d'ouvrir une petite boulangerie indienne. Et personnellement, j'ai très envie d'apprendre à faire du ski !",
+      "en": "In the next five years I have three big goals. First, I intend to improve my French, because I want to work in Québec. I plan to take the TEF in May. Next, I hope to get permanent residence with my family. We're planning to settle in Sherbrooke: the city is calm and rents are cheaper than in Montréal. Finally, I dream of opening a small Indian bakery. And personally, I really want to learn to ski!"
+    },
+    "checklist": [
+      {
+        "en": "Did you use 'de' after avoir l'intention, projeter, avoir envie, rêver — and no 'de' after compter and espérer?",
+        "hi": "क्या आपने avoir l'intention, projeter, avoir envie, rêver के बाद 'de' लगाया — और compter तथा espérer के बाद नहीं?"
+      },
+      {
+        "en": "Is every verb after these expressions in the infinitive?",
+        "hi": "क्या इन अभिव्यक्तियों के बाद हर क्रिया मूल रूप में है?"
+      },
+      {
+        "en": "Did you give at least two reasons?",
+        "hi": "क्या आपने कम से कम दो कारण बताए?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      32,
+      37,
+      45,
+      48,
+      50,
+      53
+    ],
+    "items": [
+      {
+        "fr": "Je veux travailler au Canada.",
+        "en": "I want to work in Canada.",
+        "hi": "मैं कनाडा में काम करना चाहता/चाहती हूँ।",
+        "pron": "झ़ö वö त्रा-वा-ये ओ का-ना-दा"
+      },
+      {
+        "fr": "Je vais prendre des cours.",
+        "en": "I'm going to take classes.",
+        "hi": "मैं कक्षाएँ लेने वाला/वाली हूँ।",
+        "pron": "झ़ö वै प्राँद्ग़ दे कूग़"
+      },
+      {
+        "fr": "J'apprends le français depuis un an.",
+        "en": "I've been learning French for a year.",
+        "hi": "मैं एक साल से फ़्रेंच सीख रहा/रही हूँ।",
+        "pron": "झ़ा-प्राँ लö फ़्राँ-सै दö-प्üई ऐँ नाँ"
+      },
+      {
+        "fr": "Dans cinq ans, j'aurai ma maison.",
+        "en": "In five years I'll have my own house.",
+        "hi": "पाँच साल में मेरा अपना घर होगा।",
+        "pron": "दाँ सैँ काँ झ़ो-ग़े मा मै-ज़ोँ"
+      },
+      {
+        "fr": "Les loyers sont moins chers à Sherbrooke.",
+        "en": "Rents are cheaper in Sherbrooke.",
+        "hi": "शेरब्रुक में किराए कम हैं।",
+        "pron": "ले ल्वा-ये सोँ म्वैँ शैग़ आ शैग़-ब्रुक"
+      },
+      {
+        "fr": "Des cours gratuits ? Il y en a le soir.",
+        "en": "Free classes? There are some in the evening.",
+        "hi": "मुफ़्त कक्षाएँ? शाम को होती हैं।",
+        "pron": "दे कूग़ ग्रा-त्üई — ई-ल्याँ ना लö स्वाग़"
+      },
+      {
+        "fr": "Si je réussis, je serai très content(e).",
+        "en": "If I pass, I'll be very happy.",
+        "hi": "अगर मैं पास हो गया/गई, तो बहुत ख़ुश होऊँगा/होऊँगी।",
+        "pron": "सी झ़ö ग़े-ü-सी झ़ö स-ग़े त्रै कोँ-ताँ (कोँ-ताँत)"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Choose the correct sentence.",
+        "hi": "सही वाक्य चुनिए।"
+      },
+      "options": [
+        "J'espère de trouver un travail.",
+        "J'espère trouver un travail.",
+        "J'espère à trouver un travail.",
+        "J'espère que trouver un travail."
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "espérer + infinitive, no preposition.",
+        "hi": "espérer + मूल क्रिया, कोई पूर्वसर्ग नहीं।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: I feel like travelling.",
+        "hi": "पूरा कीजिए: मेरा घूमने का मन है।"
+      },
+      "sentence": "J'ai envie ___ voyager.",
+      "answer": "de",
+      "accept": [],
+      "explanation": {
+        "en": "avoir envie de + infinitive.",
+        "hi": "avoir envie de + मूल क्रिया।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which expression is the most formal way to state a decided plan in an interview?",
+        "hi": "इंटरव्यू में तय योजना बताने का सबसे औपचारिक तरीक़ा कौन-सा है?"
+      },
+      "options": [
+        "J'ai envie de …",
+        "J'ai l'intention de …",
+        "Ça me dit de …"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "avoir l'intention de = a decided intention, neutral to formal.",
+        "hi": "avoir l'intention de = तय इरादा, सामान्य से औपचारिक।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "We are planning to settle in Québec City.",
+        "hi": "हम क्यूबेक शहर में बसने की योजना बना रहे हैं।"
+      },
+      "answer": "Nous projetons de nous installer à Québec.",
+      "accept": [
+        "Nous projetons de nous installer à Québec",
+        "On projette de s'installer à Québec.",
+        "Nous comptons nous installer à Québec.",
+        "Nous avons l'intention de nous installer à Québec."
+      ],
+      "explanation": {
+        "en": "projeter de + infinitive; the reflexive pronoun matches nous.",
+        "hi": "projeter de + मूल क्रिया; निजवाचक सर्वनाम nous से मेल खाता है।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete with compter (je).",
+        "hi": "compter (je) से पूरा कीजिए।"
+      },
+      "sentence": "Je ___ passer le TEF en mars.",
+      "answer": "compte",
+      "accept": [],
+      "explanation": {
+        "en": "je compte + infinitive (the p is silent: कोँत).",
+        "hi": "je compte + मूल क्रिया (p नहीं बोला जाता: कोँत)।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: My goal is to improve my French.",
+        "hi": "शब्दों को सही क्रम में रखिए: मेरा लक्ष्य अपनी फ़्रेंच सुधारना है।"
+      },
+      "words": [
+        "objectif",
+        "Mon",
+        "d'améliorer",
+        "est",
+        "mon",
+        "français",
+        "."
+      ],
+      "answer": "Mon objectif est d'améliorer mon français.",
+      "explanation": {
+        "en": "Mon objectif est de + infinitive; de → d' before a vowel.",
+        "hi": "Mon objectif est de + मूल क्रिया; स्वर से पहले de → d'।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "How is 'compter' pronounced?",
+        "hi": "'compter' कैसे बोला जाता है?"
+      },
+      "options": [
+        "कॉम्प-टेर",
+        "कोँ-ते",
+        "कोम-ते"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Nasal ओँ, silent m and p, final -er = ए.",
+        "hi": "नासिक्य ओँ, m और p नहीं बोले जाते, अंत का -er = ए।"
+      }
+    }
+  ]
+}

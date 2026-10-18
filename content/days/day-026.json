@@ -1,0 +1,205 @@
+{
+  "day": 26,
+  "phase": 2,
+  "title": { "fr": "Les vêtements et les couleurs", "en": "Clothes and colours", "hi": "कपड़े और रंग" },
+  "objective": {
+    "en": "Shop for winter clothes in Canada: name clothes, describe them with colours that agree correctly, and ask for a size, a colour and the price.",
+    "hi": "कनाडा में सर्दियों के कपड़े ख़रीदना: कपड़ों के नाम लेना, उनका वर्णन सही रूप में मेल खाते रंगों से करना, और साइज़, रंग व दाम पूछना।"
+  },
+  "prerequisites": {
+    "days": [17, 18, 19, 25],
+    "summary": {
+      "en": "Adjective agreement (petit/petite), quel, polite requests, prices.",
+      "hi": "विशेषण का मेल (petit/petite), quel, शिष्ट अनुरोध, दाम।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "le manteau", "en": "coat", "hi": "कोट", "pron": "लö माँ-तो", "ipa": "lə mɑ̃to", "pos": "noun", "gender": "m", "lemma": "manteau", "note": { "en": "Plural: des manteaux.", "hi": "बहुवचन: des manteaux।" } },
+    { "fr": "la tuque", "en": "winter hat / beanie (Québec)", "hi": "ऊनी टोपी", "pron": "ला तüक", "ipa": "la tyk", "pos": "noun", "gender": "f", "lemma": "tuque", "note": { "en": "A Canadian word. In France: un bonnet.", "hi": "कनाडा का शब्द। फ़्रांस में: un bonnet।" } },
+    { "fr": "les bottes", "en": "boots", "hi": "बूट / ऊँचे जूते", "pron": "ले बॉत", "ipa": "le bɔt", "pos": "noun", "gender": "f", "lemma": "botte" },
+    { "fr": "les gants", "en": "gloves", "hi": "दस्ताने", "pron": "ले गाँ", "ipa": "le ɡɑ̃", "pos": "noun", "gender": "m", "lemma": "gant" },
+    { "fr": "le foulard", "en": "scarf", "hi": "मफ़लर / स्कार्फ़", "pron": "लö फ़ू-लाग़", "ipa": "lə fulaʁ", "pos": "noun", "gender": "m", "lemma": "foulard", "note": { "en": "In Québec 'foulard' is the warm winter scarf; in France it is 'une écharpe'.", "hi": "क्यूबेक में 'foulard' सर्दी का गर्म मफ़लर है; फ़्रांस में 'une écharpe' कहते हैं।" } },
+    { "fr": "le pantalon", "en": "trousers / pants", "hi": "पतलून / पैंट", "pron": "लö पाँ-ता-लोँ", "ipa": "lə pɑ̃talɔ̃", "pos": "noun", "gender": "m", "lemma": "pantalon", "note": { "en": "Singular in French: un pantalon = one pair of trousers.", "hi": "फ़्रेंच में एकवचन: un pantalon = एक पैंट।" } },
+    { "fr": "le chandail", "en": "sweater / jumper (Québec)", "hi": "स्वेटर", "pron": "लö शाँ-दाय", "ipa": "lə ʃɑ̃daj", "pos": "noun", "gender": "m", "lemma": "chandail", "note": { "en": "In France: un pull.", "hi": "फ़्रांस में: un pull।" } },
+    { "fr": "la robe", "en": "dress", "hi": "ड्रेस / फ़्रॉक", "pron": "ला ग़ॉब", "ipa": "la ʁɔb", "pos": "noun", "gender": "f", "lemma": "robe" },
+    { "fr": "la taille", "en": "size", "hi": "साइज़ / नाप", "pron": "ला ताय", "ipa": "la taj", "pos": "noun", "gender": "f", "lemma": "taille" },
+    { "fr": "essayer", "en": "to try on / to try", "hi": "पहनकर देखना / आज़माना", "pron": "ए-से-ये", "ipa": "eseje", "pos": "verb" },
+    { "fr": "porter", "en": "to wear (also: to carry)", "hi": "पहनना (उठाना भी)", "pron": "पॉग़-ते", "ipa": "pɔʁte", "pos": "verb" },
+    { "fr": "noir / noire", "en": "black", "hi": "काला / काली", "pron": "न्वाग़", "ipa": "nwaʁ", "pos": "adjective", "lemma": "noir", "note": { "en": "Masculine and feminine sound the same.", "hi": "पुल्लिंग और स्त्रीलिंग एक जैसे सुनाई देते हैं।" } },
+    { "fr": "blanc / blanche", "en": "white", "hi": "सफ़ेद", "pron": "ब्लाँ / ब्लाँश", "ipa": "blɑ̃ / blɑ̃ʃ", "pos": "adjective", "lemma": "blanc", "note": { "en": "Irregular feminine: blanche.", "hi": "अनियमित स्त्रीलिंग: blanche।" } },
+    { "fr": "vert / verte", "en": "green", "hi": "हरा / हरी", "pron": "वैग़ / वैग़्त", "ipa": "vɛʁ / vɛʁt", "pos": "adjective", "lemma": "vert", "note": { "en": "The t is heard only in the feminine.", "hi": "t सिर्फ़ स्त्रीलिंग में सुनाई देता है।" } }
+  ],
+  "phrases": [
+    { "fr": "Je cherche un manteau d'hiver.", "en": "I'm looking for a winter coat.", "hi": "मैं सर्दियों का एक कोट ढूँढ रहा/रही हूँ।", "pron": "झ़ö शैग़श ऐँ माँ-तो दी-वैग़" },
+    { "fr": "Quelle taille faites-vous ?", "en": "What size are you?", "hi": "आपका साइज़ क्या है?", "pron": "कैल ताय फ़ैत वू" },
+    { "fr": "Je fais du M.", "en": "I'm a medium.", "hi": "मेरा साइज़ M है।", "pron": "झ़ö फ़ै दü ऐम", "note": { "en": "Shoe sizes too: Je fais du 42.", "hi": "जूतों के लिए भी: Je fais du 42।" } },
+    { "fr": "Il y a une autre couleur ?", "en": "Is there another colour?", "hi": "क्या कोई और रंग है?", "pron": "ई ल्या ü-नोत्ग़ कू-लöग़" },
+    { "fr": "C'est trop grand. / C'est trop petit.", "en": "It's too big. / It's too small.", "hi": "यह बहुत बड़ा है। / यह बहुत छोटा है।", "pron": "सै त्रो ग्राँ / सै त्रो प्ती" },
+    { "fr": "Ça vous va très bien !", "en": "It really suits you!", "hi": "यह आप पर बहुत अच्छा लगता है!", "pron": "सा वू वा त्रै ब्यैँ" }
+  ],
+  "grammar": {
+    "title": { "en": "Colours: after the noun, and they agree", "hi": "रंग: संज्ञा के बाद, और मेल खाते हुए" },
+    "explanation": {
+      "en": "Colour adjectives come after the noun and agree with it in gender and number: un manteau noir, une tuque noire, des gants noirs, des bottes noires. Most add -e for feminine and -s for plural: vert/verte, gris/grise, bleu/bleue. Colours already ending in -e don't change in the feminine: rouge, jaune, rose. Some are irregular: blanc → blanche. Two very common colours never change at all, because they are also nouns (an orange, a chestnut): orange and marron — des gants orange, des bottes marron. To ask about size: Quelle taille ? (taille is feminine, so quelle).",
+      "hi": "रंग वाले विशेषण संज्ञा के बाद आते हैं और लिंग व वचन में उससे मेल खाते हैं: un manteau noir, une tuque noire, des gants noirs, des bottes noires। ज़्यादातर स्त्रीलिंग के लिए -e और बहुवचन के लिए -s जोड़ते हैं: vert/verte, gris/grise, bleu/bleue। जो रंग पहले से -e पर ख़त्म होते हैं, वे स्त्रीलिंग में नहीं बदलते: rouge, jaune, rose। कुछ अनियमित हैं: blanc → blanche। दो आम रंग कभी नहीं बदलते, क्योंकि वे संज्ञा भी हैं (संतरा, शाहबलूत): orange और marron — des gants orange, des bottes marron। साइज़ पूछना: Quelle taille ? (taille स्त्रीलिंग है, इसलिए quelle)।"
+    },
+    "comparison": {
+      "en": "English and Hindi put the colour before the noun (a black coat, काला कोट); French puts it after (un manteau noir). Agreement will feel familiar from Hindi: काला कोट / काली टोपी / काले दस्ताने, just like noir / noire / noirs. And just as Hindi लाल never changes (लाल कोट, लाल टोपी), French rouge stays rouge for masculine and feminine. But remember the gender is French: टोपी is feminine in Hindi and tuque is feminine too, but दस्ताने and gants are masculine — check each word.",
+      "hi": "अंग्रेज़ी और हिंदी में रंग संज्ञा से पहले आता है (a black coat, काला कोट); फ़्रेंच में बाद में (un manteau noir)। मेल होना हिंदी से जाना-पहचाना लगेगा: काला कोट / काली टोपी / काले दस्ताने, बिल्कुल noir / noire / noirs जैसा। और जैसे हिंदी का 'लाल' नहीं बदलता (लाल कोट, लाल टोपी), वैसे ही फ़्रेंच rouge पुल्लिंग-स्त्रीलिंग में एक-सा रहता है। पर लिंग फ़्रेंच वाला ही देखिए — हर शब्द का लिंग जाँचिए।"
+    },
+    "examples": [
+      { "fr": "un manteau noir et une tuque noire", "en": "a black coat and a black hat", "hi": "एक काला कोट और एक काली टोपी", "pron": "ऐँ माँ-तो न्वाग़ ए üन तüक न्वाग़" },
+      { "fr": "Je porte une chemise blanche.", "en": "I'm wearing a white shirt.", "hi": "मैंने सफ़ेद क़मीज़ पहनी है।", "pron": "झ़ö पॉग़्त üन श्ö-मीज़ ब्लाँश" },
+      { "fr": "Elle porte une robe verte.", "en": "She's wearing a green dress.", "hi": "उसने हरी ड्रेस पहनी है।", "pron": "ऐल पॉग़्त üन ग़ॉब वैग़्त" },
+      { "fr": "des gants gris et des bottes marron", "en": "grey gloves and brown boots", "hi": "स्लेटी दस्ताने और भूरे बूट", "pron": "दे गाँ ग्ग़ी ए दे बॉत मा-ग़ोँ" },
+      { "fr": "J'aime le foulard orange.", "en": "I like the orange scarf.", "hi": "मुझे नारंगी मफ़लर पसंद है।", "pron": "झ़ैम लö फ़ू-लाग़ ओ-ग़ाँझ़" },
+      { "fr": "Les chandails rouges sont à vingt dollars.", "en": "The red sweaters are twenty dollars.", "hi": "लाल स्वेटर बीस डॉलर के हैं।", "pron": "ले शाँ-दाय ग़ूझ़ सोँ ता वैँ दो-लाग़" }
+    ],
+    "pitfalls": [
+      { "en": "Not 'un noir manteau' — the colour goes after: un manteau noir.", "hi": "'un noir manteau' नहीं — रंग बाद में आता है: un manteau noir।" },
+      { "en": "Not 'des bottes marrons' or 'oranges': marron and orange never change.", "hi": "'des bottes marrons' या 'oranges' नहीं: marron और orange कभी नहीं बदलते।" },
+      { "en": "'Un pantalon' is singular in French, even though English says 'trousers'.", "hi": "फ़्रेंच में 'un pantalon' एकवचन है, भले अंग्रेज़ी में 'trousers' बहुवचन है।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "/ʁ/ practice: rouge, vert, noir, gris",
+    "tip": {
+      "en": "The French r is made at the back of the throat, like a soft ग़ (as in ग़लत) — the tongue tip stays down behind the lower teeth. Never roll it like Hindi र. At the end of a word (noir, vert) it is very light, almost a breath: न्वाग़.",
+      "hi": "फ़्रेंच r गले के पिछले हिस्से से बनता है, हल्के ग़ की तरह (जैसे 'ग़लत' में) — जीभ की नोक नीचे के दाँतों के पीछे टिकी रहती है। इसे हिंदी र की तरह कभी न घुमाइए। शब्द के आख़िर में (noir, vert) यह बहुत हल्का होता है, लगभग साँस जैसा: न्वाग़।"
+    },
+    "words": [
+      { "fr": "rouge", "en": "red", "hi": "लाल", "pron": "ग़ूझ़", "ipa": "ʁuʒ" },
+      { "fr": "vert", "en": "green", "hi": "हरा", "pron": "वैग़", "ipa": "vɛʁ" },
+      { "fr": "noir", "en": "black", "hi": "काला", "pron": "न्वाग़", "ipa": "nwaʁ" },
+      { "fr": "gris", "en": "grey", "hi": "स्लेटी", "pron": "ग्ग़ी", "ipa": "ɡʁi" },
+      { "fr": "marron", "en": "brown", "hi": "भूरा", "pron": "मा-ग़ोँ", "ipa": "maʁɔ̃" },
+      { "fr": "la robe rouge", "en": "the red dress", "hi": "लाल ड्रेस", "pron": "ला ग़ॉब ग़ूझ़", "ipa": "la ʁɔb ʁuʒ" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Mon premier manteau d'hiver", "en": "My first winter coat" },
+    "type": "dialogue",
+    "mode": "pedagogical",
+    "context": {
+      "en": "It is November in Montréal. Arjun goes to a clothing shop to buy his first winter coat.",
+      "hi": "मॉन्ट्रियाल में नवंबर का महीना है। अर्जुन अपना पहला सर्दियों का कोट ख़रीदने कपड़ों की दुकान जाता है।"
+    },
+    "lines": [
+      { "speaker": "La vendeuse", "voice": "f2", "fr": "Bonjour, monsieur. Je peux vous aider ?", "en": "Hello, sir. Can I help you?", "hi": "नमस्ते, सर। क्या मैं आपकी मदद कर सकती हूँ?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Bonjour, madame. Je cherche un manteau d'hiver. C'est mon premier hiver au Canada !", "en": "Hello, madam. I'm looking for a winter coat. It's my first winter in Canada!", "hi": "नमस्ते, मैडम। मैं सर्दियों का एक कोट ढूँढ रहा हूँ। कनाडा में यह मेरी पहली सर्दी है!" },
+      { "speaker": "La vendeuse", "voice": "f2", "fr": "Bienvenue ! Quelle taille faites-vous ?", "en": "Welcome! What size are you?", "hi": "स्वागत है! आपका साइज़ क्या है?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Je fais du L.", "en": "I'm a large.", "hi": "मेरा साइज़ L है।" },
+      { "speaker": "La vendeuse", "voice": "f2", "fr": "Voici un manteau très chaud. Il existe en noir, en gris et en bleu.", "en": "Here's a very warm coat. It comes in black, grey and blue.", "hi": "यह एक बहुत गर्म कोट है। यह काले, स्लेटी और नीले रंग में मिलता है।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "J'aime le manteau gris. Je peux essayer ?", "en": "I like the grey coat. Can I try it on?", "hi": "मुझे स्लेटी कोट पसंद है। क्या मैं पहनकर देख सकता हूँ?" },
+      { "speaker": "La vendeuse", "voice": "f2", "fr": "Bien sûr. La cabine est derrière vous.", "en": "Of course. The fitting room is behind you.", "hi": "ज़रूर। ट्रायल रूम आपके पीछे है।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Hmm… Il est un peu grand.", "en": "Hmm… It's a bit big.", "hi": "हम्म… यह थोड़ा बड़ा है।" },
+      { "speaker": "La vendeuse", "voice": "f2", "fr": "Voici la taille M.", "en": "Here's the size M.", "hi": "यह लीजिए, साइज़ M।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Parfait ! Il coûte combien ?", "en": "Perfect! How much is it?", "hi": "बिल्कुल ठीक! इसका दाम क्या है?" },
+      { "speaker": "La vendeuse", "voice": "f2", "fr": "Cent quatre-vingts dollars. Et il y a aussi des tuques et des gants à quinze dollars.", "en": "One hundred and eighty dollars. And there are also hats and gloves at fifteen dollars.", "hi": "एक सौ अस्सी डॉलर। और पंद्रह डॉलर में टोपियाँ और दस्ताने भी हैं।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Super ! Alors, une tuque noire et des gants noirs, s'il vous plaît.", "en": "Great! Then a black hat and black gloves, please.", "hi": "बढ़िया! तो एक काली टोपी और काले दस्ताने, कृपया।" }
+    ],
+    "questions": [
+      { "q": { "en": "Why does Arjun need a winter coat?" }, "options": ["His coat is too small", "It's his first winter in Canada", "He is going to Québec City"], "answer": 1, "explanation": { "en": "'C'est mon premier hiver au Canada !'", "hi": "'C'est mon premier hiver au Canada !' — कनाडा में उसकी पहली सर्दी।" }, "kind": "literal", "evidence": "C'est mon premier hiver au Canada !" },
+      { "q": { "en": "Which colours does the coat come in?" }, "options": ["Black, grey and blue", "Black, white and red", "Grey, green and brown"], "answer": 0, "explanation": { "en": "'Il existe en noir, en gris et en bleu.'", "hi": "'Il existe en noir, en gris et en bleu.' — काला, स्लेटी और नीला।" }, "kind": "literal", "evidence": "Il existe en noir, en gris et en bleu." },
+      { "q": { "en": "Which size does Arjun finally take?" }, "options": ["L", "M", "S"], "answer": 1, "explanation": { "en": "The L is 'un peu grand'; with the M he says 'Parfait !'.", "hi": "L 'un peu grand' है; M पर वह कहता है 'Parfait !'।" }, "kind": "inference", "evidence": "Voici la taille M." },
+      { "q": { "en": "How much is the coat?" }, "options": ["$15", "$80", "$180", "$100"], "answer": 2, "explanation": { "en": "'Cent quatre-vingts dollars' = 100 + 80 = $180.", "hi": "'Cent quatre-vingts dollars' = 100 + 80 = 180 डॉलर।" }, "kind": "literal", "evidence": "Cent quatre-vingts dollars." },
+      { "q": { "en": "What else does Arjun buy?" }, "options": ["A grey hat and grey gloves", "A black hat and black gloves", "Black boots"], "answer": 1, "explanation": { "en": "'une tuque noire et des gants noirs' — note noire (f.) and noirs (m. pl.).", "hi": "'une tuque noire et des gants noirs' — noire (स्त्री.) और noirs (पुं. बहु.) पर ध्यान दीजिए।" }, "kind": "literal", "evidence": "une tuque noire et des gants noirs" }
+    ],
+    "dictation": ["Je cherche un manteau d'hiver.", "Quelle taille faites-vous ?", "Il est un peu grand."],
+    "gapFill": { "text": "Il existe en ___, en gris et en bleu. Alors, une tuque ___ et des gants noirs, s'il vous plaît.", "answers": ["noir", "noire"] }
+  },
+  "speaking": {
+    "type": "roleplay",
+    "instructions": {
+      "en": "You are in a clothing shop in winter. Ask for an item, give your size, ask for another colour, say if it is too big or too small, and ask the price.",
+      "hi": "सर्दियों में आप कपड़ों की दुकान पर हैं। कोई कपड़ा माँगिए, अपना साइज़ बताइए, दूसरा रंग पूछिए, बताइए कि वह बड़ा है या छोटा, और दाम पूछिए।"
+    },
+    "prompts": [
+      { "fr": "Bonjour ! Je peux vous aider ?", "en": "Hello! Can I help you?", "hi": "नमस्ते! क्या मैं आपकी मदद कर सकता/सकती हूँ?", "pron": "बोँ-झ़ूग़ झ़ö पö वू ज़ै-दे", "model": "Bonjour ! Je cherche des bottes d'hiver." },
+      { "fr": "Quelle taille faites-vous ?", "en": "What size are you?", "hi": "आपका साइज़ क्या है?", "pron": "कैल ताय फ़ैत वू", "model": "Je fais du 42." },
+      { "fr": "Voici des bottes marron.", "en": "Here are some brown boots.", "hi": "ये रहे भूरे बूट।", "pron": "व्वा-सी दे बॉत मा-ग़ोँ", "model": "Il y a une autre couleur ? J'aime le noir." },
+      { "fr": "Ça va ? La taille est bonne ?", "en": "Is it OK? Is the size right?", "hi": "ठीक है? साइज़ सही है?", "pron": "सा वा ला ताय ऐ बॉन", "model": "Non, c'est un peu petit. Vous avez du 43 ?" },
+      { "fr": "Voilà, en 43.", "en": "Here you are, in 43.", "hi": "यह लीजिए, 43 में।", "pron": "व्वा-ला आँ का-ग़ाँत-त्र्वा", "model": "Parfait ! Elles coûtent combien ?" }
+    ],
+    "tip": {
+      "en": "Make each colour agree with the item: des bottes noires, une tuque grise. If you are not sure of the gender, ask: 'C'est un ou une ?'",
+      "hi": "हर रंग को कपड़े से मिलाइए: des bottes noires, une tuque grise। अगर लिंग पक्का न हो, तो पूछिए: 'C'est un ou une ?'"
+    },
+    "scenario": {
+      "setting": { "en": "A clothing shop in Montréal in November.", "hi": "नवंबर में मॉन्ट्रियाल की एक कपड़ों की दुकान।" },
+      "learnerRole": { "en": "A newcomer buying winter clothes.", "hi": "सर्दियों के कपड़े ख़रीदने वाला नया आया व्यक्ति।" },
+      "partnerRole": { "en": "A helpful sales assistant who uses vous.", "hi": "एक मददगार सेल्स सहायक, जो vous बोलता है।" },
+      "goals": [
+        { "en": "Ask for an item and give your size.", "hi": "कोई कपड़ा माँगिए और अपना साइज़ बताइए।" },
+        { "en": "Ask for another colour.", "hi": "दूसरा रंग माँगिए।" },
+        { "en": "Say it is too big or too small and ask the price.", "hi": "बताइए कि वह बड़ा या छोटा है, और दाम पूछिए।" }
+      ]
+    }
+  },
+  "reading": {
+    "genre": "advertisement",
+    "title": "Boutique Grand Nord — spécial hiver",
+    "text": "Le froid arrive ! Manteaux d'hiver pour femmes et hommes : -30 % (noir, gris, bleu ou rouge). Tailles XS à XXL.\nBottes chaudes : 89 $ (avant : 120 $). Couleurs : noir et marron.\nTuques : 15 $. Gants : deux paires pour 25 $.\nChandails en coton : blancs, verts ou orange, 30 $.\nVous pouvez essayer tous les vêtements en magasin. Échange possible pendant 30 jours avec le reçu.\nOuvert du lundi au samedi, de 10 h à 21 h. Fermé le dimanche.",
+    "translation": {
+      "en": "The cold is coming! Winter coats for women and men: 30% off (black, grey, blue or red). Sizes XS to XXL.\nWarm boots: $89 (before: $120). Colours: black and brown.\nWinter hats: $15. Gloves: two pairs for $25.\nCotton sweaters: white, green or orange, $30.\nYou can try on all clothes in the shop. Exchange possible for 30 days with the receipt.\nOpen Monday to Saturday, 10 a.m. to 9 p.m. Closed on Sunday.",
+      "hi": "ठंड आ रही है! महिलाओं और पुरुषों के लिए सर्दियों के कोट: 30% छूट (काला, स्लेटी, नीला या लाल)। साइज़ XS से XXL तक।\nगर्म बूट: 89 डॉलर (पहले: 120 डॉलर)। रंग: काला और भूरा।\nऊनी टोपियाँ: 15 डॉलर। दस्ताने: दो जोड़ी 25 डॉलर में।\nसूती स्वेटर: सफ़ेद, हरे या नारंगी, 30 डॉलर।\nआप दुकान में सारे कपड़े पहनकर देख सकते हैं। रसीद के साथ 30 दिन तक बदलना संभव।\nसोमवार से शनिवार, सुबह 10 से रात 9 बजे तक खुला। रविवार को बंद।"
+    },
+    "questions": [
+      { "q": { "en": "How much are the boots now?" }, "options": ["$120", "$89", "$30"], "answer": 1, "explanation": { "en": "'Bottes chaudes : 89 $ (avant : 120 $)' — 'avant' means before.", "hi": "'Bottes chaudes : 89 $ (avant : 120 $)' — 'avant' का मतलब है पहले।" }, "kind": "literal", "evidence": "Bottes chaudes : 89 $ (avant : 120 $)." },
+      { "q": { "en": "In which colours are the boots available?" }, "options": ["Black and brown", "Black and grey", "White and green"], "answer": 0, "explanation": { "en": "'Couleurs : noir et marron.'", "hi": "'Couleurs : noir et marron.' — काला और भूरा।" }, "kind": "literal", "evidence": "Couleurs : noir et marron." },
+      { "q": { "en": "Meera buys a coat, but it's too small. What can she do?" }, "options": ["Nothing", "Exchange it within 30 days with the receipt", "Exchange it only on Sunday"], "answer": 1, "explanation": { "en": "'Échange possible pendant 30 jours avec le reçu.'", "hi": "'Échange possible pendant 30 jours avec le reçu.' — रसीद के साथ 30 दिन में बदल सकती है।" }, "kind": "inference", "evidence": "Échange possible pendant 30 jours avec le reçu." },
+      { "q": { "en": "Why is 'orange' written without an s in 'blancs, verts ou orange'?" }, "options": ["It's a mistake", "orange is an invariable colour", "chandails is feminine"], "answer": 1, "explanation": { "en": "orange (like marron) never changes. blancs and verts take an s.", "hi": "orange (marron की तरह) कभी नहीं बदलता। blancs और verts में s लगता है।" }, "kind": "grammar", "evidence": "blancs, verts ou orange" }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "Describe what you wear in winter in Canada (or what you will need). Name at least five items, each with a colour.",
+      "hi": "बताइए कि आप कनाडा की सर्दियों में क्या पहनते हैं (या आपको क्या चाहिए होगा)। कम से कम पाँच कपड़ों के नाम लिखिए, हर एक के रंग के साथ।"
+    },
+    "minWords": 40,
+    "maxWords": 80,
+    "hints": [
+      { "en": "Use je porte + item + colour.", "hi": "je porte + कपड़ा + रंग लिखिए।" },
+      { "en": "Check agreement: une tuque grise, des gants noirs.", "hi": "मेल जाँचिए: une tuque grise, des gants noirs।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "En hiver, je porte …", "en": "In winter, I wear …", "hi": "सर्दियों में मैं … पहनता/पहनती हूँ", "pron": "आँ नी-वैग़ झ़ö पॉग़्त" },
+      { "fr": "sous mon manteau", "en": "under my coat", "hi": "मेरे कोट के नीचे", "pron": "सू मोँ माँ-तो" },
+      { "fr": "Il fait très froid.", "en": "It's very cold.", "hi": "बहुत ठंड है।", "pron": "ईल फ़ै त्रै फ़्र्वा" }
+    ],
+    "model": {
+      "fr": "En hiver, à Montréal, il fait très froid. Je porte un grand manteau noir et une tuque grise. Je porte aussi un foulard rouge et des gants noirs. Sous mon manteau, je porte un chandail bleu et un pantalon gris. Mes bottes sont marron. En Inde, je ne porte pas de manteau !",
+      "en": "In winter in Montréal it's very cold. I wear a big black coat and a grey hat. I also wear a red scarf and black gloves. Under my coat I wear a blue sweater and grey trousers. My boots are brown. In India, I don't wear a coat!"
+    },
+    "checklist": [
+      { "en": "Is every colour after its noun?", "hi": "क्या हर रंग अपनी संज्ञा के बाद है?" },
+      { "en": "Do the colours agree (noire, grise, noirs)? Did you leave marron and orange unchanged?", "hi": "क्या रंग मेल खाते हैं (noire, grise, noirs)? क्या marron और orange बिना बदले छोड़े?" },
+      { "en": "Did you use pas de in a negative sentence?", "hi": "क्या नकारात्मक वाक्य में pas de लिखा?" }
+    ]
+  },
+  "review": {
+    "fromDays": [17, 18, 22, 24, 25],
+    "items": [
+      { "fr": "Elle est petite et blonde.", "en": "She is short and blonde.", "hi": "वह छोटी और सुनहरे बालों वाली है।", "pron": "ए लै प्ö-तीत ए ब्लोँद" },
+      { "fr": "Il a les yeux noirs.", "en": "He has dark eyes.", "hi": "उसकी आँखें काली हैं।", "pron": "ई ला ले ज़्यö न्वाग़" },
+      { "fr": "Quel est ton prénom ?", "en": "What's your first name?", "hi": "तुम्हारा पहला नाम क्या है?", "pron": "कै लै तोँ प्रे-नोँ" },
+      { "fr": "Combien ça coûte ?", "en": "How much does it cost?", "hi": "इसका दाम क्या है?", "pron": "कोँ-ब्यैँ सा कूत" },
+      { "fr": "C'est un peu cher.", "en": "It's a bit expensive.", "hi": "थोड़ा महँगा है।", "pron": "सै तैँ पö शैग़" },
+      { "fr": "Vous acceptez la carte ?", "en": "Do you take cards?", "hi": "क्या आप कार्ड लेते हैं?", "pron": "वू ज़ाक-सैप-ते ला काग़्त" },
+      { "fr": "ma sœur et mon frère", "en": "my sister and my brother", "hi": "मेरी बहन और मेरा भाई", "pron": "मा सöग़ ए मोँ फ़्रैग़" },
+      { "fr": "en novembre", "en": "in November", "hi": "नवंबर में", "pron": "आँ नो-वाँब्ग़" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Choose: a black hat (tuque, f.).", "hi": "चुनिए: एक काली टोपी (tuque, स्त्री.)।" }, "options": ["un tuque noir", "une noire tuque", "une tuque noire", "une tuque noir"], "answer": 2, "explanation": { "en": "Feminine noun, colour after and agreeing: une tuque noire.", "hi": "स्त्रीलिंग संज्ञा, रंग बाद में और मेल खाता हुआ: une tuque noire।" } },
+    { "type": "fill", "prompt": { "en": "Complete: a white shirt.", "hi": "पूरा कीजिए: एक सफ़ेद क़मीज़।" }, "sentence": "une chemise ___", "answer": "blanche", "accept": [], "explanation": { "en": "blanc has an irregular feminine: blanche.", "hi": "blanc का स्त्रीलिंग अनियमित है: blanche।" } },
+    { "type": "mcq", "prompt": { "en": "Which is correct?", "hi": "कौन-सा सही है?" }, "options": ["des bottes marrons", "des bottes marron", "des marron bottes"], "answer": 1, "explanation": { "en": "marron never changes.", "hi": "marron कभी नहीं बदलता।" } },
+    { "type": "fill", "prompt": { "en": "Complete: What size? (taille is feminine)", "hi": "पूरा कीजिए: कौन-सा साइज़? (taille स्त्रीलिंग है)" }, "sentence": "___ taille faites-vous ?", "answer": "Quelle", "accept": ["quelle"], "explanation": { "en": "quel agrees with taille (f.): quelle.", "hi": "quel, taille (स्त्री.) से मेल खाता है: quelle।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "I'm looking for a winter coat.", "hi": "मैं सर्दियों का एक कोट ढूँढ रहा हूँ।" }, "answer": "Je cherche un manteau d'hiver.", "accept": ["je cherche un manteau d'hiver", "Je cherche un manteau d’hiver."], "explanation": { "en": "chercher = to look for (no 'for' needed).", "hi": "chercher = ढूँढना ('for' की ज़रूरत नहीं)।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: She is wearing a green dress.", "hi": "शब्दों को सही क्रम में रखिए: उसने हरी ड्रेस पहनी है।" }, "words": ["robe", "porte", "Elle", "verte", "une", "."], "answer": "Elle porte une robe verte.", "explanation": { "en": "Colour after the noun, feminine form verte.", "hi": "रंग संज्ञा के बाद, स्त्रीलिंग रूप verte।" } },
+    { "type": "mcq", "prompt": { "en": "How should you say the r in 'rouge'?", "hi": "'rouge' में r कैसे बोलना चाहिए?" }, "options": ["Rolled, like Hindi र", "From the throat, like a soft ग़", "Silent"], "answer": 1, "explanation": { "en": "French r is a throaty sound: ग़ूझ़.", "hi": "फ़्रेंच r गले से निकलने वाली आवाज़ है: ग़ूझ़।" } }
+  ]
+}

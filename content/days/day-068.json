@@ -1,0 +1,201 @@
+{
+  "day": 68,
+  "phase": 4,
+  "title": { "fr": "Dont, ce qui, ce que : ce dont j'ai besoin", "en": "Dont, ce qui, ce que: what I need", "hi": "dont, ce qui, ce que: मुझे जो चाहिए" },
+  "objective": {
+    "en": "Use dont with verbs built with de (avoir besoin de, parler de, être fier de…), and ce qui / ce que to say 'what' in the middle of a sentence — to talk about what you need and want in a job.",
+    "hi": "de वाली क्रियाओं (avoir besoin de, parler de, être fier de…) के साथ dont इस्तेमाल करना, और वाक्य के बीच में 'जो/क्या' कहने के लिए ce qui / ce que — ताकि आप बता सकें कि नौकरी में आपको क्या चाहिए और क्या पसंद है।"
+  },
+  "prerequisites": {
+    "days": [53, 55, 65, 67],
+    "summary": {
+      "en": "You know qui, que, où (Day 67), en for de + thing (Day 53), avoir envie de / avoir besoin de (Day 55) and polite conditional forms (Day 65).",
+      "hi": "आप qui, que, où (दिन 67), de + चीज़ के लिए en (दिन 53), avoir envie de / avoir besoin de (दिन 55) और शिष्ट conditionnel रूप (दिन 65) जानते हैं।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "dont", "en": "of which, about which, whose", "hi": "जिसके (बारे में), जिसकी", "pron": "दोँ", "ipa": "dɔ̃", "pos": "pronoun", "note": { "en": "Silent t. Replaces de + noun.", "hi": "t नहीं बोला जाता। de + संज्ञा की जगह आता है।" } },
+    { "fr": "ce qui", "en": "what (subject)", "hi": "जो (कर्ता)", "pron": "सö की", "ipa": "sə ki", "pos": "pronoun" },
+    { "fr": "ce que", "en": "what (object)", "hi": "जो (कर्म)", "pron": "सö कö", "ipa": "sə kə", "pos": "pronoun" },
+    { "fr": "un poste", "en": "a position, a job", "hi": "पद, नौकरी", "pron": "ऐँ पॉस्त", "ipa": "ɛ̃ pɔst", "pos": "noun", "gender": "m", "lemma": "poste", "note": { "en": "Masculine for a job; 'la poste' is the post office.", "hi": "नौकरी के अर्थ में पुल्लिंग; 'la poste' डाकघर है।" } },
+    { "fr": "une entrevue", "en": "a job interview (Canada)", "hi": "इंटरव्यू, साक्षात्कार", "pron": "ü-नाँ-त्ग़ö-वü", "ipa": "yn ɑ̃tʁəvy", "pos": "noun", "gender": "f", "lemma": "entrevue", "note": { "en": "In France: un entretien d'embauche.", "hi": "फ़्रांस में: un entretien d'embauche।" } },
+    { "fr": "le candidat", "en": "candidate, applicant", "hi": "उम्मीदवार", "pron": "लö काँ-दी-दा", "ipa": "lə kɑ̃dida", "pos": "noun", "gender": "m", "lemma": "candidat", "note": { "en": "Feminine: la candidate (काँ-दी-दात).", "hi": "स्त्रीलिंग: la candidate (काँ-दी-दात)।" } },
+    { "fr": "les compétences", "en": "skills", "hi": "कौशल, क़ाबिलियत", "pron": "ले कोँ-पे-ताँस", "ipa": "le kɔ̃petɑ̃s", "pos": "noun", "gender": "f", "lemma": "compétence" },
+    { "fr": "rechercher", "en": "to look for, to seek", "hi": "तलाश करना", "pron": "ग़ö-शैग़-शे", "ipa": "ʁəʃɛʁʃe", "pos": "verb" },
+    { "fr": "être fier de", "en": "to be proud of", "hi": "पर गर्व होना", "pron": "ऐत्ग़ फ़्यैग़ दö", "ipa": "ɛtʁ fjɛʁ də", "pos": "phrase", "lemma": "fier", "note": { "en": "Feminine: fière. Here the r IS pronounced.", "hi": "स्त्रीलिंग: fière। यहाँ r बोला जाता है।" } },
+    { "fr": "se souvenir de", "en": "to remember", "hi": "याद होना, याद रखना", "pron": "सö सू-व्नीग़ दö", "ipa": "sə suvniʁ də", "pos": "verb", "lemma": "se souvenir", "note": { "en": "Conjugated like venir: je me souviens.", "hi": "venir की तरह चलता है: je me souviens।" } },
+    { "fr": "une formation", "en": "training, a course", "hi": "प्रशिक्षण, ट्रेनिंग", "pron": "üन फ़ॉग़-मा-स्योँ", "ipa": "yn fɔʁmasjɔ̃", "pos": "noun", "gender": "f", "lemma": "formation" },
+    { "fr": "un logiciel", "en": "software, a program", "hi": "सॉफ़्टवेयर", "pron": "ऐँ लो-झ़ी-स्यैल", "ipa": "ɛ̃ lɔʒisjɛl", "pos": "noun", "gender": "m", "lemma": "logiciel" },
+    { "fr": "convenir", "en": "to suit", "hi": "ठीक बैठना, सुविधाजनक होना", "pron": "कोँव-नीग़", "ipa": "kɔ̃vniʁ", "pos": "verb", "note": { "en": "Ça vous convient ? = Does that suit you?", "hi": "Ça vous convient ? = क्या यह आपके लिए ठीक है?" } }
+  ],
+  "phrases": [
+    { "fr": "C'est exactement ce dont j'ai besoin.", "en": "It's exactly what I need.", "hi": "मुझे ठीक यही चाहिए।", "pron": "सै तैग-ज़ाक-तö-माँ सö दोँ झ़े बö-ज़्वैँ" },
+    { "fr": "Ce qui m'intéresse, c'est le contact avec les clients.", "en": "What interests me is contact with customers.", "hi": "मुझे जो चीज़ दिलचस्प लगती है, वह है ग्राहकों से संपर्क।", "pron": "सö की मैँ-ते-ग़ैस सै लö कोँ-ताक्त आ-वैक ले क्ली-याँ" },
+    { "fr": "Ce que je recherche, c'est un poste stable.", "en": "What I'm looking for is a stable position.", "hi": "मैं जो तलाश रहा हूँ, वह है एक स्थायी नौकरी।", "pron": "सö कö झ़ö ग़ö-शैग़्श सै तैँ पॉस्त स्ताब्ल" },
+    { "fr": "C'est le projet dont je suis le plus fier.", "en": "It's the project I'm proudest of.", "hi": "यह वह प्रोजेक्ट है जिस पर मुझे सबसे ज़्यादा गर्व है।", "pron": "सै लö प्ग़ो-झ़ै दोँ झ़ö स्üई लö प्लü फ़्यैग़" },
+    { "fr": "Je ne sais pas ce que tu veux dire.", "en": "I don't know what you mean.", "hi": "मुझे नहीं पता तुम क्या कहना चाहते हो।", "pron": "झ़ö नö सै पा सö कö तü वö दीग़" },
+    { "fr": "Ça vous conviendrait ?", "en": "Would that suit you?", "hi": "क्या यह आपके लिए ठीक रहेगा?", "pron": "सा वू कोँ-व्यैँ-द्ग़ै" }
+  ],
+  "grammar": {
+    "title": { "en": "Dont, ce qui, ce que (and ce dont)", "hi": "dont, ce qui, ce que (और ce dont)" },
+    "explanation": {
+      "en": "DONT replaces de + noun after verbs and expressions built with de: avoir besoin de, parler de, rêver de, se souvenir de, être fier de, avoir envie de. J'ai besoin d'un ordinateur. → C'est l'ordinateur dont j'ai besoin. On parle de ce film. → C'est le film dont on parle. (You'll also see dont for 'whose': une amie dont le fils est médecin.) When there is no noun before the relative and you mean 'what', add CE: CE QUI (subject, a verb follows): Ce qui m'intéresse, c'est le salaire. CE QUE (object, a subject follows): Ce que j'aime, c'est l'équipe. CE DONT (with de-verbs): Ce dont j'ai besoin, c'est du temps. These often start a sentence and are picked up by 'c'est…'.",
+      "hi": "DONT उन क्रियाओं और अभिव्यक्तियों के बाद de + संज्ञा की जगह लेता है जो de के साथ बनती हैं: avoir besoin de, parler de, rêver de, se souvenir de, être fier de, avoir envie de। J'ai besoin d'un ordinateur. → C'est l'ordinateur dont j'ai besoin (यही वह कंप्यूटर है जिसकी मुझे ज़रूरत है)। On parle de ce film. → C'est le film dont on parle (यह वह फ़िल्म है जिसकी चर्चा हो रही है)। (dont 'जिसका' के अर्थ में भी दिखेगा: une amie dont le fils est médecin।) जब relative से पहले कोई संज्ञा न हो और आपका मतलब 'जो/क्या' हो, तो CE जोड़िए: CE QUI (कर्ता, आगे क्रिया): Ce qui m'intéresse, c'est le salaire। CE QUE (कर्म, आगे कर्ता): Ce que j'aime, c'est l'équipe। CE DONT (de वाली क्रियाओं के साथ): Ce dont j'ai besoin, c'est du temps। ये अक्सर वाक्य की शुरुआत में आते हैं और फिर 'c'est…' से बात आगे बढ़ती है।"
+    },
+    "comparison": {
+      "en": "English 'what I need' and Hindi 'मुझे जो चाहिए' both hide the preposition. French shows it: need = besoin DE, so 'what I need' = ce DONT j'ai besoin. Hindi 'जो…वह' fits the French 'ce que…, c'est…' very well: 'जो मुझे पसंद है, वह है टीम' = Ce que j'aime, c'est l'équipe.",
+      "hi": "अंग्रेज़ी 'what I need' और हिंदी 'मुझे जो चाहिए' दोनों में संबंधबोधक (preposition) छिपा रहता है। फ़्रेंच उसे दिखाती है: ज़रूरत = besoin DE, इसलिए 'मुझे जो चाहिए' = ce DONT j'ai besoin। हिंदी का 'जो…वह' फ़्रेंच के 'ce que…, c'est…' से बहुत अच्छा मेल खाता है: 'जो मुझे पसंद है, वह है टीम' = Ce que j'aime, c'est l'équipe।"
+    },
+    "examples": [
+      { "fr": "C'est le livre dont je t'ai parlé.", "en": "It's the book I told you about.", "hi": "यह वही किताब है जिसके बारे में मैंने तुम्हें बताया था।", "pron": "सै लö लीव्ग़ दोँ झ़ö ते पाग़-ले" },
+      { "fr": "Voilà le poste dont je rêve.", "en": "Here is the job I dream of.", "hi": "यही वह नौकरी है जिसका मैं सपना देखता हूँ।", "pron": "व्वा-ला लö पॉस्त दोँ झ़ö ग़ैव" },
+      { "fr": "Ce qui est difficile, c'est l'accent québécois.", "en": "What's difficult is the Québec accent.", "hi": "जो मुश्किल है, वह है क्यूबेक का लहजा।", "pron": "सö की ऐ दी-फ़ी-सील सै लाक-साँ के-बे-क्वा" },
+      { "fr": "Ce que j'aime dans ce travail, c'est l'équipe.", "en": "What I like in this job is the team.", "hi": "इस काम में मुझे जो पसंद है, वह है टीम।", "pron": "सö कö झ़ैम दाँ सö त्ग़ा-वाय सै ले-कीप" },
+      { "fr": "Ce dont j'ai besoin, c'est d'un horaire flexible.", "en": "What I need is a flexible schedule.", "hi": "मुझे जो चाहिए, वह है लचीला समय।", "pron": "सö दोँ झ़े बö-ज़्वैँ सै दैँ नो-ग़ैग़ फ़्लैक-सीब्ल" },
+      { "fr": "Dis-moi ce que tu penses.", "en": "Tell me what you think.", "hi": "मुझे बताओ तुम क्या सोचते हो।", "pron": "दी मवा सö कö तü पाँस" }
+    ],
+    "pitfalls": [
+      { "en": "Not 'Je sais qu'est-ce que tu veux'. Inside a sentence, 'what' is ce que: Je sais ce que tu veux.", "hi": "'Je sais qu'est-ce que tu veux' नहीं। वाक्य के अंदर 'क्या' = ce que: Je sais ce que tu veux।" },
+      { "en": "Not 'ce que j'ai besoin' — besoin needs de, so: ce dont j'ai besoin.", "hi": "'ce que j'ai besoin' नहीं — besoin के साथ de आता है, इसलिए: ce dont j'ai besoin।" },
+      { "en": "Don't use dont with verbs that take à or no preposition: 'le film dont j'ai vu' is wrong → le film que j'ai vu.", "hi": "जो क्रियाएँ à के साथ या बिना preposition के आती हैं, उनके साथ dont मत लगाइए: 'le film dont j'ai vu' ग़लत है → le film que j'ai vu।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Silent letters review",
+    "tip": {
+      "en": "Many letters you see are not heard: the t of dont, the s of besoin is a z sound, the h of horaire is silent (so l'horaire, un horaire with liaison). But a final consonant followed by e IS heard: poste (पॉस्त), fière (फ़्यैग़). Read the word, then ask: is the last consonant followed by an e?",
+      "hi": "कई अक्षर दिखते हैं पर सुनाई नहीं देते: dont का t, besoin का s ज़ की आवाज़ देता है, horaire का h बोला नहीं जाता (इसलिए l'horaire, un horaire में लियेज़ों)। लेकिन अगर आख़िरी व्यंजन के बाद e हो, तो वह सुनाई देता है: poste (पॉस्त), fière (फ़्यैग़)। शब्द पढ़िए, फिर पूछिए: क्या आख़िरी व्यंजन के बाद e है?"
+    },
+    "words": [
+      { "fr": "dont", "en": "of which", "hi": "जिसके", "pron": "दोँ", "ipa": "dɔ̃" },
+      { "fr": "le besoin", "en": "the need", "hi": "ज़रूरत", "pron": "लö बö-ज़्वैँ", "ipa": "lə bəzwɛ̃" },
+      { "fr": "un horaire", "en": "a schedule", "hi": "समय-सारणी", "pron": "ऐँ नो-ग़ैग़", "ipa": "ɛ̃ nɔʁɛʁ", "note": { "en": "Silent h → liaison: ऐँ नो-ग़ैग़.", "hi": "h नहीं बोला जाता → लियेज़ों: ऐँ नो-ग़ैग़।" } },
+      { "fr": "le poste", "en": "the position", "hi": "पद", "pron": "लö पॉस्त", "ipa": "lə pɔst" },
+      { "fr": "le candidat", "en": "the candidate", "hi": "उम्मीदवार", "pron": "लö काँ-दी-दा", "ipa": "lə kɑ̃dida" },
+      { "fr": "fier", "en": "proud", "hi": "गर्वित", "pron": "फ़्यैग़", "ipa": "fjɛʁ", "note": { "en": "Exception: the r is pronounced (unlike parler).", "hi": "अपवाद: यहाँ r बोला जाता है (parler के उलट)।" } }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "L'entrevue d'embauche", "en": "The job interview" },
+    "type": "interview",
+    "mode": "natural",
+    "context": {
+      "en": "Arjun has a job interview for a bilingual customer-service position in a company in Laval. Mme Lavoie, the recruiter, asks him what he is looking for.",
+      "hi": "अर्जुन का लावाल की एक कंपनी में द्विभाषी ग्राहक-सेवा पद के लिए इंटरव्यू है। भर्ती करने वाली मदाम लावोआ उससे पूछती हैं कि वह क्या तलाश रहा है।"
+    },
+    "lines": [
+      { "speaker": "Mme Lavoie", "voice": "f2", "fr": "Bonjour, monsieur Mehra. Merci d'être venu. Pour commencer, pourriez-vous me dire ce qui vous intéresse dans ce poste ?", "en": "Hello, Mr Mehra. Thank you for coming. To start, could you tell me what interests you in this position?", "hi": "नमस्ते, मेहरा जी। आने के लिए धन्यवाद। शुरुआत में, क्या आप बताएँगे कि इस पद में आपको क्या दिलचस्प लगता है?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Bien sûr. Ce qui m'intéresse surtout, c'est le contact avec les clients. Dans mon ancien emploi à Bangalore, je travaillais déjà dans un centre d'appels.", "en": "Of course. What interests me most is contact with customers. In my previous job in Bangalore, I already worked in a call centre.", "hi": "ज़रूर। मुझे सबसे ज़्यादा ग्राहकों से संपर्क दिलचस्प लगता है। बैंगलोर में अपनी पिछली नौकरी में मैं पहले से एक कॉल सेंटर में काम करता था।" },
+      { "speaker": "Mme Lavoie", "voice": "f2", "fr": "Et qu'est-ce que vous recherchez dans une entreprise ?", "en": "And what are you looking for in a company?", "hi": "और आप किसी कंपनी में क्या तलाशते हैं?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Ce que je recherche, c'est une équipe dynamique et une entreprise où je peux progresser.", "en": "What I'm looking for is a dynamic team and a company where I can progress.", "hi": "मैं जो तलाश रहा हूँ, वह है एक जोशीली टीम और ऐसी कंपनी जहाँ मैं आगे बढ़ सकूँ।" },
+      { "speaker": "Mme Lavoie", "voice": "f2", "fr": "Parlez-moi d'un projet dont vous êtes fier.", "en": "Tell me about a project you're proud of.", "hi": "मुझे किसी ऐसे प्रोजेक्ट के बारे में बताइए जिस पर आपको गर्व है।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "L'année dernière, j'ai formé six nouveaux employés. C'est le projet dont je suis le plus fier, parce qu'ils sont tous restés dans l'entreprise.", "en": "Last year I trained six new employees. It's the project I'm proudest of, because they all stayed with the company.", "hi": "पिछले साल मैंने छह नए कर्मचारियों को प्रशिक्षण दिया। यही वह प्रोजेक्ट है जिस पर मुझे सबसे ज़्यादा गर्व है, क्योंकि वे सब कंपनी में टिके रहे।" },
+      { "speaker": "Mme Lavoie", "voice": "f2", "fr": "Très bien. Le poste demande de parler français et anglais. Comment évaluez-vous votre français ?", "en": "Very good. The position requires speaking French and English. How would you rate your French?", "hi": "बहुत अच्छा। इस पद के लिए फ़्रेंच और अंग्रेज़ी दोनों बोलनी होती हैं। आप अपनी फ़्रेंच को कैसा आँकते हैं?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Je le parle tous les jours depuis deux ans, mais il y a encore des expressions québécoises que je ne comprends pas toujours !", "en": "I've been speaking it every day for two years, but there are still Québec expressions I don't always understand!", "hi": "मैं दो साल से रोज़ फ़्रेंच बोलता हूँ, लेकिन अब भी कुछ क्यूबेकी मुहावरे हैं जो मुझे हमेशा समझ नहीं आते!" },
+      { "speaker": "Mme Lavoie", "voice": "f2", "fr": "Ça, vous allez les apprendre vite ! Est-ce qu'il y a des outils dont vous auriez besoin pour bien travailler ?", "en": "You'll learn those quickly! Are there any tools you would need to work well?", "hi": "वे तो आप जल्दी सीख जाएँगे! क्या कोई ऐसे साधन हैं जिनकी आपको अच्छे से काम करने के लिए ज़रूरत होगी?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Ce dont j'aurais besoin, c'est surtout d'une formation sur votre logiciel. Je connais d'autres systèmes, mais pas le vôtre.", "en": "What I would need is mainly training on your software. I know other systems, but not yours.", "hi": "मुझे जो चाहिए होगा, वह है मुख्य रूप से आपके सॉफ़्टवेयर की ट्रेनिंग। मैं दूसरे सिस्टम जानता हूँ, पर आपका नहीं।" },
+      { "speaker": "Mme Lavoie", "voice": "f2", "fr": "C'est prévu : il y a deux semaines de formation au début. Et pour l'horaire ?", "en": "That's planned: there are two weeks of training at the start. And as for the schedule?", "hi": "यह पहले से तय है: शुरुआत में दो हफ़्ते की ट्रेनिंग होती है। और समय के बारे में?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Ce qui serait idéal pour moi, c'est un horaire de jour. Je suis des cours de français le soir.", "en": "What would be ideal for me is a daytime schedule. I take French classes in the evening.", "hi": "मेरे लिए जो आदर्श होगा, वह है दिन का समय। मैं शाम को फ़्रेंच की क्लास करता हूँ।" },
+      { "speaker": "Mme Lavoie", "voice": "f2", "fr": "Nos horaires sont de huit heures à seize heures, du lundi au vendredi. Ça vous conviendrait ?", "en": "Our hours are 8 a.m. to 4 p.m., Monday to Friday. Would that suit you?", "hi": "हमारा समय सुबह आठ से शाम चार बजे तक है, सोमवार से शुक्रवार। क्या यह आपके लिए ठीक रहेगा?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Parfaitement. C'est exactement ce que je cherchais.", "en": "Perfectly. It's exactly what I was looking for.", "hi": "बिल्कुल। मैं ठीक यही ढूँढ़ रहा था।" },
+      { "speaker": "Mme Lavoie", "voice": "f2", "fr": "Parfait. Avez-vous des questions pour moi ?", "en": "Perfect. Do you have any questions for me?", "hi": "बढ़िया। क्या आपके कोई सवाल हैं मुझसे?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Oui : qu'est-ce que vous appréciez le plus dans votre entreprise ?", "en": "Yes: what do you appreciate most about your company?", "hi": "हाँ: आपको अपनी कंपनी में सबसे ज़्यादा क्या अच्छा लगता है?" }
+    ],
+    "questions": [
+      { "q": { "en": "What interests Arjun most in the position?" }, "options": ["The salary", "Contact with customers", "Working from home", "The company's software"], "answer": 1, "explanation": { "en": "'Ce qui m'intéresse surtout, c'est le contact avec les clients.'", "hi": "'Ce qui m'intéresse surtout, c'est le contact avec les clients.' — ग्राहकों से संपर्क।" }, "kind": "literal", "evidence": "Ce qui m'intéresse surtout, c'est le contact avec les clients." },
+      { "q": { "en": "Where did Arjun work before?" }, "options": ["In a call centre in Bangalore", "In a bank in Laval", "In a hospital in Montréal", "In a school in Delhi"], "answer": 0, "explanation": { "en": "He already worked in a call centre in Bangalore.", "hi": "वह पहले से बैंगलोर के एक कॉल सेंटर में काम करता था।" }, "kind": "literal", "evidence": "je travaillais déjà dans un centre d'appels" },
+      { "q": { "en": "Why is Arjun proud of his training project?" }, "options": ["He got a bonus", "It was very short", "All six employees stayed with the company", "His boss thanked him"], "answer": 2, "explanation": { "en": "He trained six employees and they all stayed.", "hi": "उसने छह कर्मचारियों को ट्रेनिंग दी और वे सब कंपनी में टिके रहे।" }, "kind": "inference", "evidence": "ils sont tous restés dans l'entreprise" },
+      { "q": { "en": "What is still difficult for Arjun in French?" }, "options": ["Writing emails", "Grammar", "Speaking on the phone", "Some Québec expressions"], "answer": 3, "explanation": { "en": "There are still Québec expressions he doesn't always understand.", "hi": "कुछ क्यूबेकी मुहावरे अब भी उसे हमेशा समझ नहीं आते।" }, "kind": "literal", "evidence": "il y a encore des expressions québécoises que je ne comprends pas toujours" },
+      { "q": { "en": "What would Arjun need to work well?" }, "options": ["A new computer", "Training on the company's software", "A French teacher", "A parking spot"], "answer": 1, "explanation": { "en": "Mainly training on their software.", "hi": "मुख्य रूप से उनके सॉफ़्टवेयर की ट्रेनिंग।" }, "kind": "literal", "evidence": "c'est surtout d'une formation sur votre logiciel" },
+      { "q": { "en": "Why does Arjun want a daytime schedule?" }, "options": ["He has small children", "He takes French classes in the evening", "He has a second job", "He lives far away"], "answer": 1, "explanation": { "en": "He takes French classes in the evening.", "hi": "वह शाम को फ़्रेंच की क्लास करता है।" }, "kind": "inference", "evidence": "Je suis des cours de français le soir." }
+    ],
+    "dictation": ["Ce qui m'intéresse, c'est le contact avec les clients.", "C'est le projet dont je suis le plus fier.", "C'est exactement ce que je cherchais."],
+    "gapFill": { "text": "___ je recherche, c'est une équipe dynamique. ___ j'aurais besoin, c'est d'une formation.", "answers": ["Ce que", "Ce dont"] }
+  },
+  "speaking": {
+    "type": "conversation",
+    "instructions": {
+      "en": "Answer like a candidate in a job interview. Start each answer with ce qui…, ce que… or ce dont…, then finish with c'est…",
+      "hi": "इंटरव्यू में उम्मीदवार की तरह जवाब दीजिए। हर जवाब ce qui…, ce que… या ce dont… से शुरू कीजिए, फिर c'est… से पूरा कीजिए।"
+    },
+    "prompts": [
+      { "fr": "Qu'est-ce qui est important pour vous dans un travail ?", "en": "What is important for you in a job?", "hi": "आपके लिए नौकरी में क्या ज़रूरी है?", "pron": "कैस-की ऐ तैँ-पॉग़-ताँ पूग़ वू दाँ ज़ैँ त्ग़ा-वाय", "model": "Ce qui est important pour moi, c'est une bonne ambiance et un salaire juste." },
+      { "fr": "Qu'est-ce que vous aimez faire au travail ?", "en": "What do you like doing at work?", "hi": "काम पर आपको क्या करना पसंद है?", "pron": "कैस-कö वू ज़ैम फ़ैग़ ओ त्ग़ा-वाय", "model": "Ce que j'aime, c'est résoudre des problèmes et aider mes collègues." },
+      { "fr": "De quoi auriez-vous besoin pour commencer ?", "en": "What would you need to start?", "hi": "शुरुआत करने के लिए आपको क्या चाहिए होगा?", "pron": "दö क्वा ओ-ग़्ये वू बö-ज़्वैँ पूग़ को-माँ-से", "model": "Ce dont j'aurais besoin, c'est d'une petite formation sur vos outils." },
+      { "fr": "Parlez d'une réussite dont vous êtes fier ou fière.", "en": "Talk about a success you're proud of.", "hi": "किसी ऐसी सफलता के बारे में बताइए जिस पर आपको गर्व है।", "pron": "पाग़-ले दüन ग़े-ü-सीत दोँ वू ज़ैत फ़्यैग़ ऊ फ़्यैग़", "model": "La réussite dont je suis le plus fier, c'est mon arrivée au Canada : j'ai trouvé un travail en trois mois." },
+      { "fr": "Qu'est-ce qui vous stresse au travail ?", "en": "What stresses you at work?", "hi": "काम पर आपको किस बात से तनाव होता है?", "pron": "कैस-की वू स्त्ग़ैस ओ त्ग़ा-वाय", "model": "Ce qui me stresse, c'est quand les consignes ne sont pas claires. Alors, je pose des questions." }
+    ],
+    "tip": {
+      "en": "'Ce que je recherche, c'est…' is a powerful structure for interviews and the TEF: it puts the important information at the end, where the listener's attention is strongest.",
+      "hi": "'Ce que je recherche, c'est…' इंटरव्यू और TEF के लिए एक असरदार ढाँचा है: यह अहम जानकारी को अंत में रखता है, जहाँ सुनने वाले का ध्यान सबसे ज़्यादा होता है।"
+    }
+  },
+  "reading": {
+    "genre": "article",
+    "title": "Recrutement : ce que les employeurs recherchent vraiment",
+    "text": "Vous cherchez un emploi au Québec ? Vous avez envoyé des dizaines de CV, mais personne ne vous rappelle ? Nous avons interrogé plusieurs recruteurs de la région de Montréal pour savoir ce qui fait la différence.\n\nD'abord, ce qui compte le plus, ce n'est pas toujours le diplôme. « Ce que nous regardons en premier, ce sont les compétences et l'expérience concrète », explique Sylvie Bouchard, recruteuse dans une entreprise de logistique. Elle conseille d'adapter son CV à chaque offre : « Un CV général, c'est souvent un CV que personne ne lit jusqu'au bout. »\n\nEnsuite, les employeurs parlent beaucoup du « savoir-être ». C'est ce dont ils ont besoin dans les équipes : des personnes ponctuelles, polies et capables de travailler avec des collègues de cultures différentes.\n\nLa langue est évidemment un sujet dont on parle souvent. Pour beaucoup de postes, un français fonctionnel suffit au début, surtout si le candidat montre qu'il continue à apprendre. « Un candidat qui suit des cours du soir, ça montre de la motivation. C'est exactement ce que j'aime voir », dit Karim Haddad, gestionnaire dans un hôpital.\n\nEnfin, n'oubliez pas le réseau. Selon les recruteurs, beaucoup d'emplois ne sont jamais affichés. Les activités de bénévolat, les associations professionnelles et les anciens collègues sont des contacts dont vous pourriez avoir besoin un jour.\n\nLe conseil final ? Préparez l'entrevue : renseignez-vous sur l'entreprise et préparez des questions. Ce qui impressionne un recruteur, c'est un candidat curieux.",
+    "translation": {
+      "en": "Recruitment: what employers are really looking for\n\nAre you looking for a job in Québec? Have you sent dozens of CVs, but nobody calls you back? We asked several recruiters in the Montréal area what makes the difference.\n\nFirst, what counts most is not always the diploma. 'What we look at first are skills and concrete experience,' explains Sylvie Bouchard, a recruiter in a logistics company. She advises adapting your CV to each job offer: 'A general CV is often a CV nobody reads to the end.'\n\nNext, employers talk a lot about 'soft skills'. That's what they need in their teams: people who are punctual, polite and able to work with colleagues from different cultures.\n\nLanguage is obviously a topic people often talk about. For many positions, functional French is enough at the start, especially if the candidate shows they are still learning. 'A candidate who takes evening classes shows motivation. That's exactly what I like to see,' says Karim Haddad, a manager in a hospital.\n\nFinally, don't forget your network. According to recruiters, many jobs are never posted. Volunteer activities, professional associations and former colleagues are contacts you might need one day.\n\nThe final advice? Prepare for the interview: find out about the company and prepare questions. What impresses a recruiter is a curious candidate.",
+      "hi": "भर्ती: नियोक्ता असल में क्या तलाशते हैं\n\nक्या आप क्यूबेक में नौकरी ढूँढ़ रहे हैं? आपने दर्जनों सीवी भेजे, लेकिन कोई वापस फ़ोन नहीं करता? हमने मॉन्ट्रियाल इलाक़े के कई भर्तीकर्ताओं से पूछा कि असली फ़र्क़ किस चीज़ से पड़ता है।\n\nपहली बात, जो सबसे ज़्यादा मायने रखता है, वह हमेशा डिग्री नहीं होती। एक लॉजिस्टिक्स कंपनी में भर्ती का काम करने वाली सिल्वी बूशार बताती हैं, \"हम सबसे पहले कौशल और ठोस अनुभव देखते हैं।\" उनकी सलाह है कि हर नौकरी के विज्ञापन के हिसाब से अपना सीवी बदलिए: \"एक आम-सा सीवी अक्सर ऐसा सीवी होता है जिसे कोई आख़िर तक नहीं पढ़ता।\"\n\nफिर, नियोक्ता 'व्यवहार-कौशल' की बहुत बात करते हैं। टीमों में उन्हें इसी की ज़रूरत है: ऐसे लोग जो समय के पाबंद हों, शिष्ट हों और अलग-अलग संस्कृतियों के सहकर्मियों के साथ काम कर सकें।\n\nभाषा ज़ाहिर है ऐसा विषय है जिस पर अक्सर बात होती है। कई पदों के लिए शुरुआत में काम चलाने लायक़ फ़्रेंच काफ़ी है, ख़ासकर अगर उम्मीदवार दिखाए कि वह सीखता जा रहा है। एक अस्पताल में मैनेजर करीम हद्दाद कहते हैं, \"जो उम्मीदवार शाम की क्लास करता है, उससे लगन दिखती है। मुझे ठीक यही देखना अच्छा लगता है।\"\n\nआख़िर में, अपने संपर्कों का जाल मत भूलिए। भर्तीकर्ताओं के अनुसार, बहुत-सी नौकरियाँ कभी विज्ञापित ही नहीं होतीं। स्वयंसेवा, पेशेवर संगठन और पुराने सहकर्मी ऐसे संपर्क हैं जिनकी आपको किसी दिन ज़रूरत पड़ सकती है।\n\nआख़िरी सलाह? इंटरव्यू की तैयारी कीजिए: कंपनी के बारे में जानकारी लीजिए और सवाल तैयार रखिए। भर्तीकर्ता को जो बात प्रभावित करती है, वह है जिज्ञासु उम्मीदवार।"
+    },
+    "questions": [
+      { "q": { "en": "What is the aim of the article?" }, "options": ["To explain how to write a cover letter", "To find out what makes the difference for employers", "To list jobs in Montréal", "To compare salaries in Québec"], "answer": 1, "explanation": { "en": "The journalists asked recruiters what makes the difference.", "hi": "पत्रकारों ने भर्तीकर्ताओं से पूछा कि फ़र्क़ किस चीज़ से पड़ता है।" }, "kind": "gist", "evidence": "pour savoir ce qui fait la différence" },
+      { "q": { "en": "What does Sylvie Bouchard look at first?" }, "options": ["The diploma", "The photo", "Skills and concrete experience", "The candidate's age"], "answer": 2, "explanation": { "en": "Skills and concrete experience come first.", "hi": "सबसे पहले कौशल और ठोस अनुभव।" }, "kind": "literal", "evidence": "ce sont les compétences et l'expérience concrète" },
+      { "q": { "en": "What does 'savoir-être' mean here?" }, "options": ["Being punctual, polite and good with diverse colleagues", "Having a master's degree", "Speaking perfect French", "Knowing the company's software"], "answer": 0, "explanation": { "en": "The text describes people who are punctual, polite and able to work with colleagues of different cultures.", "hi": "पाठ ऐसे लोगों का वर्णन करता है जो समय के पाबंद, शिष्ट और अलग संस्कृतियों के सहकर्मियों के साथ काम करने लायक़ हों।" }, "kind": "inference", "evidence": "des personnes ponctuelles, polies et capables de travailler avec des collègues de cultures différentes" },
+      { "q": { "en": "Why does Karim Haddad like candidates who take evening classes?" }, "options": ["They already speak perfect French", "They accept lower salaries", "They work at night", "It shows motivation"], "answer": 3, "explanation": { "en": "'Ça montre de la motivation.'", "hi": "'Ça montre de la motivation.' — इससे लगन दिखती है।" }, "kind": "literal", "evidence": "Un candidat qui suit des cours du soir, ça montre de la motivation." },
+      { "q": { "en": "Why is your network important?" }, "options": ["Many jobs are never posted", "Recruiters only read recommended CVs", "Volunteering is required by law", "Former colleagues decide salaries"], "answer": 0, "explanation": { "en": "Many jobs are never advertised, so contacts matter.", "hi": "बहुत-सी नौकरियाँ कभी विज्ञापित नहीं होतीं, इसलिए संपर्क मायने रखते हैं।" }, "kind": "inference", "evidence": "beaucoup d'emplois ne sont jamais affichés" }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "A job-search website asks you to write a short profile: 'What are you looking for in a job?' Explain what interests you, what you need, what you are proud of and what you would like to avoid. Use ce qui, ce que, ce dont and dont.",
+      "hi": "एक नौकरी-खोज वेबसाइट आपसे छोटा परिचय लिखने को कहती है: 'आप नौकरी में क्या तलाश रहे हैं?' बताइए कि आपको क्या दिलचस्प लगता है, आपको क्या चाहिए, आपको किस पर गर्व है और आप किससे बचना चाहेंगे। ce qui, ce que, ce dont और dont इस्तेमाल कीजिए।",
+      "fr": "Qu'est-ce que vous recherchez dans un emploi ?"
+    },
+    "minWords": 100,
+    "maxWords": 160,
+    "hints": [
+      { "en": "Start with a sentence about your profession and experience (depuis…, pendant…).", "hi": "अपने पेशे और अनुभव के बारे में एक वाक्य से शुरू कीजिए (depuis…, pendant…)।" },
+      { "en": "Use 'Ce qui…, c'est…' and 'Ce que…, c'est…' to structure your ideas.", "hi": "अपने विचारों को ढाँचा देने के लिए 'Ce qui…, c'est…' और 'Ce que…, c'est…' इस्तेमाल कीजिए।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Ce qui me motive, c'est …", "en": "What motivates me is …", "hi": "जो मुझे प्रेरित करता है, वह है …", "pron": "सö की मö मो-तीव सै" },
+      { "fr": "Ce dont j'ai besoin, c'est …", "en": "What I need is …", "hi": "मुझे जो चाहिए, वह है …", "pron": "सö दोँ झ़े बö-ज़्वैँ सै" },
+      { "fr": "Je cherche un poste où …", "en": "I'm looking for a position where …", "hi": "मैं ऐसा पद ढूँढ़ रहा हूँ जहाँ …", "pron": "झ़ö शैग़्श ऐँ पॉस्त ऊ" }
+    ],
+    "model": {
+      "fr": "Je suis comptable et j'ai travaillé pendant huit ans dans une banque à Mumbai. Je suis arrivée à Toronto il y a un an. Ce que je recherche maintenant, c'est un poste où je peux utiliser mon expérience et parler français et anglais. Ce qui me motive, c'est le travail précis et les chiffres, mais aussi le contact avec une équipe. Je suis très fière d'un projet dont je parle souvent en entrevue : j'ai simplifié le système de factures de mon agence. Ce dont j'ai besoin pour réussir, c'est d'une formation courte sur les règles fiscales canadiennes. Ce que je voudrais éviter, ce sont les horaires de nuit, parce que j'ai une fille de six ans. Je suis disponible tout de suite.",
+      "en": "I'm an accountant and I worked for eight years in a bank in Mumbai. I arrived in Toronto a year ago. What I'm looking for now is a position where I can use my experience and speak French and English. What motivates me is precise work and numbers, but also contact with a team. I'm very proud of a project I often talk about in interviews: I simplified the invoicing system of my branch. What I need to succeed is a short training on Canadian tax rules. What I'd like to avoid is night shifts, because I have a six-year-old daughter. I'm available immediately."
+    },
+    "checklist": [
+      { "en": "Did you use ce qui + verb and ce que + subject?", "hi": "क्या आपने ce qui + क्रिया और ce que + कर्ता इस्तेमाल किया?" },
+      { "en": "Did you use dont / ce dont with a verb built with de (besoin de, fier de, parler de)?", "hi": "क्या आपने de वाली क्रिया (besoin de, fier de, parler de) के साथ dont / ce dont इस्तेमाल किया?" },
+      { "en": "Is your profile positive and professional?", "hi": "क्या आपका परिचय सकारात्मक और पेशेवर है?" }
+    ]
+  },
+  "review": {
+    "fromDays": [45, 55, 65, 66, 67],
+    "items": [
+      { "fr": "C'est une entreprise qui recrute beaucoup.", "en": "It's a company that hires a lot.", "hi": "यह एक ऐसी कंपनी है जो बहुत भर्ती करती है।", "pron": "सै तü-नाँ-त्ग़ö-प्ग़ीज़ की ग़ö-क्ग़üत बो-कू" },
+      { "fr": "Le poste que je veux est à Laval.", "en": "The job I want is in Laval.", "hi": "जो नौकरी मुझे चाहिए, वह लावाल में है।", "pron": "लö पॉस्त कö झ़ö वö ऐ ता ला-वाल" },
+      { "fr": "C'est le bureau où je travaille.", "en": "It's the office where I work.", "hi": "यह वह दफ़्तर है जहाँ मैं काम करता हूँ।", "pron": "सै लö बü-ग़ो ऊ झ़ö त्ग़ा-वाय" },
+      { "fr": "Si j'avais le choix, je travaillerais de jour.", "en": "If I had the choice, I'd work days.", "hi": "अगर मेरे पास विकल्प होता, तो मैं दिन में काम करता।", "pron": "सी झ़ा-वै लö श्वा झ़ö त्ग़ा-वाय-ग़ै दö झ़ूग़" },
+      { "fr": "J'aimerais avoir plus de responsabilités.", "en": "I'd like to have more responsibilities.", "hi": "मैं ज़्यादा ज़िम्मेदारियाँ चाहूँगा।", "pron": "झ़ैम-ग़ै आ-व्वाग़ प्लü दö ग़ैस-पोँ-सा-बी-ली-ते" },
+      { "fr": "J'ai envie de changer de travail.", "en": "I feel like changing jobs.", "hi": "मेरा मन नौकरी बदलने का है।", "pron": "झ़े आँ-वी दö शाँ-झ़े दö त्ग़ा-वाय" },
+      { "fr": "Je travaille ici depuis trois ans.", "en": "I've been working here for three years.", "hi": "मैं तीन साल से यहाँ काम कर रहा हूँ।", "pron": "झ़ö त्ग़ा-वाय ई-सी दö-प्üई त्ग़वा ज़ाँ" },
+      { "fr": "Pourriez-vous me rappeler demain ?", "en": "Could you call me back tomorrow?", "hi": "क्या आप मुझे कल वापस फ़ोन कर सकेंगे?", "pron": "पू-ग़्ये वू मö ग़ाप-ले दö-मैँ" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Choose: 'C'est le logiciel ___ j'ai besoin.'", "hi": "चुनिए: 'C'est le logiciel ___ j'ai besoin.'" }, "options": ["que", "qui", "dont", "où"], "answer": 2, "explanation": { "en": "avoir besoin DE → dont.", "hi": "avoir besoin DE → dont।" } },
+    { "type": "mcq", "prompt": { "en": "Choose: '___ m'intéresse, c'est le salaire.'", "hi": "चुनिए: '___ m'intéresse, c'est le salaire.'" }, "options": ["Ce qui", "Ce que", "Ce dont", "Qu'est-ce que"], "answer": 0, "explanation": { "en": "A verb follows (intéresse) → ce qui.", "hi": "आगे क्रिया (intéresse) है → ce qui।" } },
+    { "type": "fill", "prompt": { "en": "Complete: Tell me what you think.", "hi": "पूरा कीजिए: मुझे बताओ तुम क्या सोचते हो।" }, "sentence": "Dis-moi ___ tu penses.", "answer": "ce que", "accept": [], "explanation": { "en": "Inside a sentence, 'what' + subject = ce que.", "hi": "वाक्य के अंदर 'क्या' + कर्ता = ce que।" } },
+    { "type": "fill", "prompt": { "en": "Complete: It's the project I'm proud of.", "hi": "पूरा कीजिए: यह वह प्रोजेक्ट है जिस पर मुझे गर्व है।" }, "sentence": "C'est le projet ___ je suis fier.", "answer": "dont", "accept": [], "explanation": { "en": "être fier DE → dont.", "hi": "être fier DE → dont।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "What I need is time.", "hi": "मुझे जो चाहिए, वह है समय।" }, "answer": "Ce dont j'ai besoin, c'est du temps.", "accept": ["Ce dont j'ai besoin, c'est de temps.", "Ce dont j'ai besoin, c'est du temps", "Ce dont j'ai besoin c'est du temps."], "explanation": { "en": "besoin de → ce dont … c'est du temps.", "hi": "besoin de → ce dont … c'est du temps।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: What I'm looking for is a stable job.", "hi": "शब्दों को सही क्रम में रखिए: मैं जो तलाश रहा हूँ, वह है एक स्थायी नौकरी।" }, "words": ["recherche,", "Ce", "c'est", "un", "que", "je", "stable.", "poste"], "answer": "Ce que je recherche, c'est un poste stable.", "explanation": { "en": "Ce que + subject + verb, c'est + noun.", "hi": "Ce que + कर्ता + क्रिया, c'est + संज्ञा।" } },
+    { "type": "mcq", "prompt": { "en": "Which sentence is correct?", "hi": "कौन-सा वाक्य सही है?" }, "options": ["Je ne sais pas qu'est-ce que tu veux.", "Je ne sais pas ce que tu veux.", "Je ne sais pas ce dont tu veux.", "Je ne sais pas ce qui tu veux."], "answer": 1, "explanation": { "en": "vouloir takes a direct object → ce que.", "hi": "vouloir सीधा कर्म लेता है → ce que।" } }
+  ]
+}

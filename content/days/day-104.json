@@ -1,0 +1,212 @@
+{
+  "day": 104,
+  "phase": 6,
+  "title": { "fr": "Bilan de l'examen blanc 1 : expression écrite et orale", "en": "Mock 1 review: writing and speaking", "hi": "मॉक परीक्षा 1 की समीक्षा: लिखना और बोलना" },
+  "objective": {
+    "en": "Correct and rewrite one of your mock 1 texts, replace overused basic words with more precise ones, study a model speaking B performance and a model writing A text, and redo one speaking section.",
+    "hi": "मॉक 1 के अपने किसी एक पाठ को सुधारकर दोबारा लिखना, बार-बार इस्तेमाल होने वाले साधारण शब्दों की जगह ज़्यादा सटीक शब्द रखना, मौखिक B का एक मॉडल प्रदर्शन और लेखन A का एक मॉडल पाठ समझना, और एक मौखिक खंड दोबारा करना।"
+  },
+  "prerequisites": {
+    "days": [102, 103, 87, 88, 89, 90, 97],
+    "summary": {
+      "en": "You have your mock 1 texts (A and B) and, if possible, a recording of your speaking. The plus-que-parfait (day 88), formal letters (day 89) and concession + refutation (day 97) are used today.",
+      "hi": "आपके पास मॉक 1 के अपने पाठ (A और B) और, हो सके तो, आपके बोलने की रिकॉर्डिंग है। आज plus-que-parfait (दिन 88), औपचारिक पत्र (दिन 89) और मानना + खंडन करना (दिन 97) काम आएँगे।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "réaliser", "en": "to carry out, to achieve", "hi": "पूरा करना / अंजाम देना", "pron": "ग़े-आ-ली-ज़े", "ipa": "ʁealize", "pos": "verb", "note": { "en": "Upgrade for 'faire': réaliser un projet. Careful: it rarely means 'to realise (understand)' — that is 'se rendre compte'.", "hi": "'faire' की जगह बेहतर शब्द: réaliser un projet। ध्यान दें: इसका अर्थ 'समझ जाना' कम ही होता है — उसके लिए 'se rendre compte' है।" } },
+    { "fr": "affirmer", "en": "to state, to claim", "hi": "दावा करना / ज़ोर देकर कहना", "pron": "आ-फ़ीग़-मे", "ipa": "afiʁme", "pos": "verb" },
+    { "fr": "de nombreux", "en": "many, numerous", "hi": "अनेक / बहुत सारे", "pron": "दö नोँ-ब्ग़ö", "ipa": "də nɔ̃bʁø", "pos": "determiner", "lemma": "nombreux", "note": { "en": "Agrees with the noun: de nombreux avantages, de nombreuses personnes.", "hi": "संज्ञा से मेल खाता है: de nombreux avantages, de nombreuses personnes।" } },
+    { "fr": "un avantage", "en": "an advantage", "hi": "एक फ़ायदा", "pron": "ऐँ ना-वाँ-ताझ़", "ipa": "ɛ̃n‿avɑ̃taʒ", "pos": "noun", "gender": "m", "lemma": "avantage", "note": { "en": "Masculine, like all nouns in -age (except une page, une image, une plage…).", "hi": "पुल्लिंग, -age वाली ज़्यादातर संज्ञाओं की तरह (अपवाद: une page, une image, une plage…)।" } },
+    { "fr": "un inconvénient", "en": "a drawback", "hi": "एक कमी / नुक़सान", "pron": "ऐँ नैँ-कोँ-वे-न्याँ", "ipa": "ɛ̃n‿ɛ̃kɔ̃venjɑ̃", "pos": "noun", "gender": "m", "lemma": "inconvénient" },
+    { "fr": "efficace", "en": "effective, efficient", "hi": "कारगर / असरदार", "pron": "ए-फ़ी-कास", "ipa": "efikas", "pos": "adjective", "note": { "en": "Upgrade for 'bon' when you mean 'it works well'.", "hi": "जब कहना हो 'अच्छा काम करता है', तब 'bon' की जगह।" } },
+    { "fr": "permettre de", "en": "to allow (someone) to, to make it possible to", "hi": "… करने देना / संभव बनाना", "pron": "पैग़-मैत्ग़ दö", "ipa": "pɛʁmɛtʁ də", "pos": "verb", "lemma": "permettre" },
+    { "fr": "un aspect", "en": "an aspect", "hi": "एक पहलू", "pron": "ऐँ नास-पै", "ipa": "ɛ̃n‿aspɛ", "pos": "noun", "gender": "m", "lemma": "aspect", "note": { "en": "Upgrade for 'une chose'. The final ct is silent.", "hi": "'une chose' की जगह बेहतर शब्द। आख़िरी ct नहीं बोला जाता।" } },
+    { "fr": "constater", "en": "to note, to observe", "hi": "देखना / पाना (तथ्य के रूप में)", "pron": "कोँस-ता-ते", "ipa": "kɔ̃state", "pos": "verb" },
+    { "fr": "essentiel", "en": "essential", "hi": "ज़रूरी / अनिवार्य", "pron": "ए-साँ-स्यैल", "ipa": "esɑ̃sjɛl", "pos": "adjective" },
+    { "fr": "en outre", "en": "moreover, in addition", "hi": "इसके अलावा", "pron": "आँ नूत्ग़", "ipa": "ɑ̃n‿utʁ", "pos": "adverb", "note": { "en": "Upgrade for 'aussi' at the start of a sentence.", "hi": "वाक्य की शुरुआत में 'aussi' की जगह।" } },
+    { "fr": "néanmoins", "en": "nevertheless", "hi": "फिर भी", "pron": "ने-आँ-म्वैँ", "ipa": "neɑ̃mwɛ̃", "pos": "adverb" }
+  ],
+  "phrases": [
+    { "fr": "Cela permet de gagner du temps.", "en": "This saves time.", "hi": "इससे समय बचता है।", "pron": "स-ला पैग़-मै दö गा-न्ये दü ताँ" },
+    { "fr": "Il est essentiel de bien se préparer.", "en": "It is essential to prepare well.", "hi": "अच्छी तैयारी करना बहुत ज़रूरी है।", "pron": "ई लै ते-साँ-स्यैल दö ब्यैँ सö प्ग़े-पा-ग़े" },
+    { "fr": "De nombreuses personnes pensent que …", "en": "Many people think that …", "hi": "बहुत-से लोग सोचते हैं कि …", "pron": "दö नोँ-ब्ग़öज़ पैग़-सॉन पाँस कö" },
+    { "fr": "Je reconnais que …, néanmoins …", "en": "I admit that …, nevertheless …", "hi": "मैं मानता / मानती हूँ कि …, फिर भी …", "pron": "झ़ö ग़ö-को-नै कö … ने-आँ-म्वैँ" },
+    { "fr": "En outre, c'est moins cher.", "en": "Moreover, it's cheaper.", "hi": "इसके अलावा, यह सस्ता है।", "pron": "आँ नूत्ग़ सै म्वैँ शैग़" },
+    { "fr": "Au contraire, c'est une occasion !", "en": "On the contrary, it's an opportunity!", "hi": "इसके उलट, यह तो एक मौक़ा है!", "pron": "ओ कोँ-त्ग़ैग़ सै तü नो-का-ज़्योँ" }
+  ],
+  "grammar": {
+    "title": { "en": "Rewriting: correct first, then upgrade", "hi": "दोबारा लिखना: पहले सुधार, फिर बेहतर शब्द" },
+    "explanation": {
+      "en": "Rewrite in two passes. Pass 1 — correct: gender and agreement, verb endings (les gens font, ils sont), negation with ne … pas, prepositions (beaucoup d'avantages). Pass 2 — upgrade: replace the most basic words by precise ones you are sure of. Useful swaps: faire → réaliser / effectuer; dire → affirmer / expliquer; beaucoup de → de nombreux / de nombreuses (agreeing with the noun); une chose → un aspect, un élément; bon → efficace, utile, agréable (choose the real meaning); il y a → on trouve, on compte; aussi (at the start) → en outre; mais → cependant, néanmoins. Also use 'permettre de + infinitive' to link a cause and a benefit: Le télétravail permet de gagner du temps. Never insert a word you are not sure of just to impress: a correct simple word is better than a wrong rare one.",
+      "hi": "दो चरणों में दोबारा लिखिए। चरण 1 — सुधार: लिंग और मेल, क्रिया के अंत (les gens font, ils sont), ne … pas वाला नकार, पूर्वसर्ग (beaucoup d'avantages)। चरण 2 — बेहतर शब्द: सबसे साधारण शब्दों की जगह ऐसे सटीक शब्द रखिए जिन पर आपको भरोसा हो। काम के बदलाव: faire → réaliser / effectuer; dire → affirmer / expliquer; beaucoup de → de nombreux / de nombreuses (संज्ञा से मेल खाते हुए); une chose → un aspect, un élément; bon → efficace, utile, agréable (असली अर्थ चुनिए); il y a → on trouve, on compte; aussi (शुरुआत में) → en outre; mais → cependant, néanmoins। कारण और फ़ायदे को जोड़ने के लिए 'permettre de + क्रिया का मूल रूप' भी इस्तेमाल कीजिए: Le télétravail permet de gagner du temps। सिर्फ़ प्रभाव डालने के लिए ऐसा शब्द मत डालिए जिस पर भरोसा न हो: सही साधारण शब्द ग़लत कठिन शब्द से बेहतर है।"
+    },
+    "comparison": {
+      "en": "It is like replacing 'अच्छा' in a Hindi essay with 'उपयोगी', 'कारगर' or 'सुखद' depending on what you mean. 'Bon' in French is just as vague as 'अच्छा'.",
+      "hi": "यह वैसा ही है जैसे हिंदी निबंध में 'अच्छा' की जगह, अर्थ के अनुसार, 'उपयोगी', 'कारगर' या 'सुखद' लिखना। फ़्रेंच में 'bon' भी 'अच्छा' जितना ही अस्पष्ट है।"
+    },
+    "examples": [
+      { "fr": "Il y a beaucoup de avantages. → Ce projet présente de nombreux avantages.", "en": "There are lots of advantages. → This project has numerous advantages.", "hi": "बहुत फ़ायदे हैं। → इस परियोजना के अनेक फ़ायदे हैं।", "pron": "स प्ग़ो-झ़ै प्ग़े-ज़ाँत दö नोँ-ब्ग़ö ज़ा-वाँ-ताझ़" },
+      { "fr": "Les gens fait moins de transport. → Les gens passent moins de temps dans les transports.", "en": "People do less transport. → People spend less time commuting.", "hi": "लोग कम परिवहन करते हैं। → लोग आने-जाने में कम समय बिताते हैं।", "pron": "ले झ़ाँ पास म्वैँ द ताँ दाँ ले त्ग़ाँस-पॉग़" },
+      { "fr": "C'est une bonne chose. → C'est une solution efficace.", "en": "It's a good thing. → It's an effective solution.", "hi": "यह अच्छी चीज़ है। → यह एक कारगर उपाय है।", "pron": "सै-तüन सो-लü-स्योँ ए-फ़ी-कास" },
+      { "fr": "Aussi, c'est moins cher. → En outre, cela coûte moins cher.", "en": "Also, it's cheaper. → Moreover, it costs less.", "hi": "साथ ही, यह सस्ता है। → इसके अलावा, इसमें कम ख़र्च आता है।", "pron": "आँ नूत्ग़ स-ला कूत म्वैँ शैग़" },
+      { "fr": "Les transports en commun permettent de réduire la pollution.", "en": "Public transport makes it possible to reduce pollution.", "hi": "सार्वजनिक परिवहन से प्रदूषण कम करना संभव होता है।", "pron": "ले त्ग़ाँस-पॉग़ आँ को-मैँ पैग़-मैत दö ग़े-दüईग़ ला पो-लü-स्योँ" }
+    ],
+    "pitfalls": [
+      { "en": "'De nombreux' replaces 'beaucoup de' but must agree: de nombreuses familles (f. pl.).", "hi": "'De nombreux', 'beaucoup de' की जगह आता है, पर उसे मेल खाना चाहिए: de nombreuses familles (स्त्रीलिंग बहुवचन)।" },
+      { "en": "After 'permettre de', use the infinitive: permet de gagner, not permet de gagne.", "hi": "'permettre de' के बाद क्रिया का मूल रूप: permet de gagner, permet de gagne नहीं।" },
+      { "en": "'Beaucoup de' becomes 'beaucoup d'' before a vowel: beaucoup d'avantages, never beaucoup de avantages.", "hi": "स्वर से पहले 'beaucoup de' बदलकर 'beaucoup d'' हो जाता है: beaucoup d'avantages, beaucoup de avantages कभी नहीं।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Shadowing your improved answers: linking in longer phrases",
+    "tip": {
+      "en": "Upgraded phrases are longer, so link the words inside each rhythm group: de nombreux‿avantages, en‿outre, un‿aspect. Record your corrected answer, then shadow it twice.",
+      "hi": "बेहतर किए गए वाक्यांश लंबे होते हैं, इसलिए हर लय-समूह के अंदर शब्दों को जोड़िए: de nombreux‿avantages, en‿outre, un‿aspect। अपना सुधरा हुआ उत्तर रिकॉर्ड कीजिए, फिर उसे दो बार शैडो कीजिए।"
+    },
+    "words": [
+      { "fr": "de nombreux avantages", "en": "numerous advantages", "hi": "अनेक फ़ायदे", "pron": "दö नोँ-ब्ग़ö ज़ा-वाँ-ताझ़", "ipa": "də nɔ̃bʁø z‿avɑ̃taʒ", "note": { "en": "Liaison: the x sounds like z before the vowel.", "hi": "लियाज़ों: स्वर से पहले x की आवाज़ z जैसी होती है।" } },
+      { "fr": "néanmoins", "en": "nevertheless", "hi": "फिर भी", "pron": "ने-आँ-म्वैँ", "ipa": "neɑ̃mwɛ̃" },
+      { "fr": "en outre", "en": "moreover", "hi": "इसके अलावा", "pron": "आँ नूत्ग़", "ipa": "ɑ̃n‿utʁ" },
+      { "fr": "efficace", "en": "effective", "hi": "कारगर", "pron": "ए-फ़ी-कास", "ipa": "efikas" },
+      { "fr": "un inconvénient", "en": "a drawback", "hi": "एक कमी", "pron": "ऐँ नैँ-कोँ-वे-न्याँ", "ipa": "ɛ̃n‿ɛ̃kɔ̃venjɑ̃" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Une sortie en raquettes", "en": "A snowshoe outing" },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "A model speaking B performance. Priya presents an advertisement for a snowshoe club to her friend Marc and tries to convince him. Notice how she accepts each objection before answering it.",
+      "hi": "मौखिक B का एक मॉडल प्रदर्शन। प्रिया अपने दोस्त मार्क को स्नोशू (बर्फ़ पर चलने के जूते) क्लब का विज्ञापन दिखाती है और उसे मनाने की कोशिश करती है। ध्यान दीजिए कि वह हर आपत्ति को पहले मानती है, फिर उसका जवाब देती है।"
+    },
+    "lines": [
+      { "speaker": "Priya", "voice": "f1", "fr": "Marc, regarde cette annonce : le club Plein Air Outaouais organise des sorties en raquettes tous les dimanches. Je pense que ça te plairait.", "en": "Marc, look at this ad: the Plein Air Outaouais club organises snowshoe outings every Sunday. I think you'd like it.", "hi": "मार्क, यह विज्ञापन देखो: प्लैन ऐर ऊतावे क्लब हर रविवार स्नोशू पर घूमने का कार्यक्रम रखता है। मुझे लगता है तुम्हें पसंद आएगा।" },
+      { "speaker": "Marc", "voice": "m1", "fr": "En raquettes ? En plein mois de janvier ? Non merci, j'ai horreur du froid.", "en": "Snowshoeing? In the middle of January? No thanks, I hate the cold.", "hi": "स्नोशू? ठीक जनवरी के बीच में? नहीं, धन्यवाद, मुझे ठंड से नफ़रत है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Je te comprends, mais justement, quand on bouge, on a beaucoup moins froid. Et le club prête des vêtements chauds aux débutants.", "en": "I understand, but that's the point: when you're moving, you feel much less cold. And the club lends warm clothes to beginners.", "hi": "मैं समझती हूँ, पर यही तो बात है: चलते-फिरते रहो तो ठंड बहुत कम लगती है। और क्लब नए लोगों को गरम कपड़े उधार देता है।" },
+      { "speaker": "Marc", "voice": "m1", "fr": "Mouais. Et ça coûte combien, tout ça ?", "en": "Hmm. And how much does all that cost?", "hi": "हम्म। और इस सब का ख़र्च कितना है?" },
+      { "speaker": "Priya", "voice": "f1", "fr": "C'est le grand avantage : la première sortie est gratuite, et ensuite c'est dix dollars, location des raquettes comprise.", "en": "That's the big advantage: the first outing is free, and after that it's ten dollars, snowshoe rental included.", "hi": "यही तो बड़ा फ़ायदा है: पहली बार मुफ़्त है, और उसके बाद दस डॉलर, स्नोशू का किराया मिलाकर।" },
+      { "speaker": "Marc", "voice": "m1", "fr": "Dix dollars, d'accord, ce n'est pas cher. Mais le dimanche, c'est mon seul jour de repos.", "en": "Ten dollars, OK, that's not expensive. But Sunday is my only day off.", "hi": "दस डॉलर, ठीक है, महँगा नहीं है। लेकिन रविवार तो मेरी आराम की इकलौती छुट्टी है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Justement ! La sortie dure seulement trois heures, le matin. Tu seras rentré pour le dîner, et tu auras passé ta matinée dehors plutôt que devant ton écran.", "en": "Exactly! The outing lasts only three hours, in the morning. You'll be home for lunch, and you'll have spent your morning outdoors rather than in front of your screen.", "hi": "इसीलिए तो! यह सिर्फ़ तीन घंटे का है, सुबह। तुम दोपहर के खाने तक लौट आओगे, और सुबह स्क्रीन के सामने नहीं, बाहर खुले में बिताई होगी।" },
+      { "speaker": "Marc", "voice": "m1", "fr": "Je ne connais personne dans ce club, moi.", "en": "I don't know anyone in that club.", "hi": "मैं तो उस क्लब में किसी को नहीं जानता।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Moi non plus, au début ! C'est l'occasion de rencontrer des gens et de pratiquer ton français. Les guides sont très accueillants.", "en": "Neither did I, at first! It's a chance to meet people and practise your French. The guides are very welcoming.", "hi": "शुरू में मैं भी नहीं जानती थी! यह लोगों से मिलने और अपनी फ़्रेंच का अभ्यास करने का मौक़ा है। गाइड बहुत अपनापन दिखाते हैं।" },
+      { "speaker": "Marc", "voice": "m1", "fr": "Et si je ne suis pas assez en forme ?", "en": "And what if I'm not fit enough?", "hi": "और अगर मैं पर्याप्त फ़िट नहीं हुआ तो?" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Il y a deux groupes : un groupe tranquille et un groupe sportif. Tu choisis ton rythme.", "en": "There are two groups: a relaxed group and a sporty group. You choose your pace.", "hi": "दो समूह हैं: एक आराम से चलने वाला और एक तेज़ चलने वाला। तुम अपनी रफ़्तार ख़ुद चुनो।" },
+      { "speaker": "Marc", "voice": "m1", "fr": "Bon… tu m'as convaincu. Je viens dimanche, mais si j'ai froid, c'est toi qui paies le chocolat chaud !", "en": "OK… you've convinced me. I'll come on Sunday, but if I'm cold, you're paying for the hot chocolate!", "hi": "ठीक है… तुमने मुझे मना लिया। मैं रविवार को आऊँगा, लेकिन अगर ठंड लगी, तो हॉट चॉकलेट के पैसे तुम दोगी!" }
+    ],
+    "questions": [
+      { "q": { "en": "What is Marc's first objection?" }, "options": ["The price", "The cold", "He has no time", "He doesn't know anyone"], "answer": 1, "explanation": { "en": "'J'ai horreur du froid' — he hates the cold.", "hi": "'J'ai horreur du froid' — उसे ठंड से नफ़रत है।" }, "kind": "literal", "evidence": "j'ai horreur du froid" },
+      { "q": { "en": "What does the club offer beginners?" }, "options": ["A free lunch", "A private guide", "Warm clothes on loan", "A discount on snowshoes"], "answer": 2, "explanation": { "en": "'Le club prête des vêtements chauds aux débutants' — prêter = to lend.", "hi": "'Le club prête des vêtements chauds aux débutants' — prêter = उधार देना।" }, "kind": "vocabulary", "evidence": "le club prête des vêtements chauds aux débutants" },
+      { "q": { "en": "How much does an outing cost after the first one?" }, "options": ["Ten dollars, snowshoe rental included", "Nothing", "Ten dollars plus rental", "Three dollars"], "answer": 0, "explanation": { "en": "'Dix dollars, location des raquettes comprise' — comprise = included.", "hi": "'Dix dollars, location des raquettes comprise' — comprise = शामिल।" }, "kind": "literal", "evidence": "ensuite c'est dix dollars, location des raquettes comprise" },
+      { "q": { "en": "How does Priya answer 'Sunday is my only day off'?" }, "options": ["She suggests Saturday instead", "She says the outing is short and in the morning", "She says he can leave early", "She says rest is not important"], "answer": 1, "explanation": { "en": "'La sortie dure seulement trois heures, le matin' — he will still have his afternoon.", "hi": "'La sortie dure seulement trois heures, le matin' — उसकी दोपहर फिर भी ख़ाली रहेगी।" }, "kind": "inference", "evidence": "La sortie dure seulement trois heures, le matin." },
+      { "q": { "en": "Which persuasion technique does Priya use several times?" }, "options": ["She gets angry", "She changes the subject", "She accepts the objection, then turns it into an argument", "She repeats the same argument"], "answer": 2, "explanation": { "en": "'Je te comprends, mais justement…' — she acknowledges, then uses the objection itself as a reason.", "hi": "'Je te comprends, mais justement…' — वह पहले मानती है, फिर उसी आपत्ति को तर्क बना देती है।" }, "kind": "inference", "evidence": "Je te comprends, mais justement" },
+      { "q": { "en": "How does the conversation end?" }, "options": ["Marc refuses", "Marc agrees to come on Sunday", "Marc will think about it", "Priya gives up"], "answer": 1, "explanation": { "en": "'Tu m'as convaincu. Je viens dimanche.'", "hi": "'Tu m'as convaincu. Je viens dimanche.' — मार्क मान जाता है।" }, "kind": "gist", "evidence": "tu m'as convaincu" }
+    ],
+    "dictation": [
+      "Quand on bouge, on a beaucoup moins froid.",
+      "C'est l'occasion de rencontrer des gens et de pratiquer ton français."
+    ],
+    "gapFill": {
+      "text": "La première sortie est ___, et ensuite c'est dix dollars, location des raquettes ___.",
+      "answers": ["gratuite", "comprise"]
+    }
+  },
+  "speaking": {
+    "type": "tef_b",
+    "instructions": {
+      "en": "Redo speaking section B (10 minutes). Present the snowshoe-club advertisement (or the one from your mock) to a friend and convince them to join you. Your friend will raise objections: answer each one with 'Je te comprends, mais…' plus a concrete argument. Record yourself and compare with mock 1.",
+      "hi": "मौखिक खंड B दोबारा कीजिए (10 मिनट)। स्नोशू क्लब का विज्ञापन (या अपने मॉक वाला) एक दोस्त को बताइए और उसे साथ चलने के लिए मनाइए। दोस्त आपत्तियाँ उठाएगा: हर एक का जवाब 'Je te comprends, mais…' और एक ठोस तर्क से दीजिए। ख़ुद को रिकॉर्ड कीजिए और मॉक 1 से तुलना कीजिए।"
+    },
+    "scenario": {
+      "setting": { "en": "At a café with a friend. You have found an advertisement for a weekend snowshoe club in the Outaouais region.", "hi": "एक दोस्त के साथ कैफ़े में। आपको ऊतावे इलाक़े के एक वीकेंड स्नोशू क्लब का विज्ञापन मिला है।" },
+      "learnerRole": { "en": "You present the advertisement (who, what, when, price) and try to convince your friend to come.", "hi": "आप विज्ञापन के बारे में बताते हैं (कौन, क्या, कब, कितने पैसे) और दोस्त को आने के लिए मनाने की कोशिश करते हैं।" },
+      "partnerRole": { "en": "A friend who is not convinced: hates the cold, is short of money, has little free time, is shy, and is worried about being unfit.", "hi": "एक दोस्त जो आसानी से नहीं मानता: ठंड से नफ़रत है, पैसे कम हैं, समय कम है, शर्मीला है, और फ़िट न होने की चिंता है।" },
+      "goals": [
+        { "en": "Present the document clearly in the first minute.", "hi": "पहले मिनट में दस्तावेज़ साफ़-साफ़ बताइए।" },
+        { "en": "Answer at least five objections with a different argument each time.", "hi": "कम से कम पाँच आपत्तियों का जवाब दीजिए, हर बार अलग तर्क के साथ।" },
+        { "en": "Use tu throughout and stay friendly, not pushy.", "hi": "पूरी बातचीत में tu रखिए और दोस्ताना रहिए, ज़बरदस्ती नहीं।" }
+      ]
+    },
+    "prompts": [
+      { "fr": "Regarde cette annonce, je pense que ça te plairait.", "en": "Look at this ad, I think you'd like it.", "hi": "यह विज्ञापन देखो, मुझे लगता है तुम्हें पसंद आएगा।", "pron": "ग़ö-गाग़्द सैत आ-नोँस झ़ö पाँस कö सा तö प्लै-ग़ै" },
+      { "fr": "Je te comprends, mais justement …", "en": "I understand, but that's exactly why …", "hi": "मैं समझता / समझती हूँ, पर इसीलिए तो …", "pron": "झ़ö तö कोँ-प्ग़ाँ मै झ़üस-त-माँ" },
+      { "fr": "C'est le grand avantage de ce club.", "en": "That's the big advantage of this club.", "hi": "यही इस क्लब का बड़ा फ़ायदा है।", "pron": "सै लö ग्ग़ाँ ता-वाँ-ताझ़ दö स क्लöब" },
+      { "fr": "Ça ne coûte presque rien.", "en": "It costs almost nothing.", "hi": "इसमें लगभग कुछ भी ख़र्च नहीं होता।", "pron": "सा नö कूत प्ग़ैस्क ग़्यैँ" },
+      { "fr": "C'est l'occasion de rencontrer des gens.", "en": "It's a chance to meet people.", "hi": "यह लोगों से मिलने का मौक़ा है।", "pron": "सै लो-का-ज़्योँ दö ग़ाँ-कोँ-त्ग़े दे झ़ाँ" },
+      { "fr": "Allez, viens avec moi dimanche !", "en": "Come on, come with me on Sunday!", "hi": "चलो ना, रविवार को मेरे साथ चलो!", "pron": "आ-ले व्यैँ आ-वैक म्वा दी-माँश" }
+    ],
+    "tip": {
+      "en": "In section B, don't argue against your friend: agree first, then reframe. And keep inventing: if the ad does not answer an objection, propose a solution yourself (we can share a taxi, I can lend you gloves).",
+      "hi": "खंड B में दोस्त से बहस मत कीजिए: पहले सहमत होइए, फिर बात को नए ढंग से रखिए। और नई बातें सोचते रहिए: अगर विज्ञापन में किसी आपत्ति का जवाब नहीं है, तो ख़ुद कोई हल सुझाइए (हम टैक्सी साझा कर सकते हैं, मैं तुम्हें दस्ताने दे सकता हूँ)।"
+    }
+  },
+  "reading": {
+    "genre": "article",
+    "title": "Fait divers — Un chien donne l'alerte au milieu de la nuit (texte modèle, section A)",
+    "text": "Début de l'article : Dans la nuit de mardi à mercredi, les habitants d'un immeuble de Longueuil ont été réveillés par les aboiements d'un chien.\n\nSuite rédigée (modèle) : Il était presque trois heures du matin. Max, un jeune labrador, aboyait sans arrêt devant la porte de l'appartement de sa propriétaire, Mme Lucie Fortin, 78 ans. Inquiet, un voisin du deuxième étage est descendu et a senti une forte odeur de fumée. Il a immédiatement appelé le 911.\n\nLes pompiers sont arrivés moins de dix minutes plus tard. Ils ont découvert qu'une casserole avait été oubliée sur la cuisinière allumée. Mme Fortin, qui dormait profondément, n'avait rien entendu. Les pompiers l'ont aidée à sortir, ainsi que les douze autres résidents de l'immeuble. Personne n'a été blessé, mais la cuisine a été gravement endommagée.\n\n« Sans Max, je ne serais peut-être plus là », a déclaré Mme Fortin le lendemain, très émue. Le chien, adopté il y a seulement deux mois dans un refuge de la région, est devenu le héros du quartier. Les voisins ont même organisé une petite fête en son honneur samedi dernier.\n\nLes pompiers rappellent qu'il est essentiel d'installer un détecteur de fumée dans chaque logement et de vérifier régulièrement qu'il fonctionne. Celui de Mme Fortin n'avait plus de pile.",
+    "translation": {
+      "en": "Start of the article: During the night from Tuesday to Wednesday, the residents of a building in Longueuil were woken up by a dog barking.\n\nContinuation (model): It was almost three in the morning. Max, a young Labrador, was barking non-stop in front of the door of his owner's flat, Ms Lucie Fortin, aged 78. Worried, a neighbour from the second floor came down and noticed a strong smell of smoke. He immediately called 911.\n\nThe firefighters arrived less than ten minutes later. They discovered that a saucepan had been forgotten on the lit stove. Ms Fortin, who was sound asleep, had heard nothing. The firefighters helped her get out, as well as the twelve other residents of the building. Nobody was hurt, but the kitchen was badly damaged.\n\n'Without Max, I might not be here any more,' Ms Fortin said the next day, deeply moved. The dog, adopted only two months ago from a shelter in the region, has become the hero of the neighbourhood. The neighbours even organised a small party in his honour last Saturday.\n\nThe firefighters remind everyone that it is essential to install a smoke detector in every home and to check regularly that it works. Ms Fortin's no longer had a battery.",
+      "hi": "लेख की शुरुआत: मंगलवार और बुधवार के बीच की रात लॉन्गई की एक इमारत के निवासी एक कुत्ते के भौंकने से जाग गए।\n\nआगे लिखा गया भाग (मॉडल): रात के लगभग तीन बज रहे थे। मैक्स, एक छोटा लैब्राडोर, अपनी मालकिन, 78 वर्षीय श्रीमती लूसी फ़ॉर्तैं, के फ़्लैट के दरवाज़े के सामने लगातार भौंक रहा था। चिंतित होकर दूसरी मंज़िल का एक पड़ोसी नीचे आया और उसे धुएँ की तेज़ गंध आई। उसने तुरंत 911 पर फ़ोन किया।\n\nदमकलकर्मी दस मिनट से भी कम समय में पहुँच गए। उन्हें पता चला कि जलते चूल्हे पर एक पतीला भूल से छूट गया था। श्रीमती फ़ॉर्तैं गहरी नींद में थीं और उन्होंने कुछ नहीं सुना था। दमकलकर्मियों ने उन्हें और इमारत के बाक़ी बारह निवासियों को बाहर निकलने में मदद की। कोई घायल नहीं हुआ, लेकिन रसोई को भारी नुक़सान पहुँचा।\n\nअगले दिन बहुत भावुक होकर श्रीमती फ़ॉर्तैं ने कहा, 'मैक्स न होता, तो शायद मैं आज ज़िंदा न होती।' यह कुत्ता, जिसे सिर्फ़ दो महीने पहले इलाक़े के एक पशु-आश्रय से गोद लिया गया था, मोहल्ले का हीरो बन गया है। पड़ोसियों ने पिछले शनिवार उसके सम्मान में एक छोटी-सी पार्टी भी रखी।\n\nदमकलकर्मी याद दिलाते हैं कि हर घर में धुएँ का डिटेक्टर लगाना और नियमित रूप से जाँचना कि वह काम कर रहा है, बहुत ज़रूरी है। श्रीमती फ़ॉर्तैं के डिटेक्टर में बैटरी ही नहीं थी।"
+    },
+    "questions": [
+      { "q": { "en": "What woke the residents up?" }, "options": ["A smoke alarm", "A phone call", "A dog barking", "The firefighters' siren"], "answer": 2, "explanation": { "en": "They were 'réveillés par les aboiements d'un chien'. The smoke alarm did not work.", "hi": "वे 'réveillés par les aboiements d'un chien' — कुत्ते के भौंकने से जागे। धुएँ का अलार्म काम नहीं कर रहा था।" }, "kind": "literal", "evidence": "réveillés par les aboiements d'un chien" },
+      { "q": { "en": "What caused the smoke?" }, "options": ["A saucepan left on the lit stove", "A cigarette", "An electrical fault", "A candle"], "answer": 0, "explanation": { "en": "'Une casserole avait été oubliée sur la cuisinière allumée.'", "hi": "'Une casserole avait été oubliée sur la cuisinière allumée.' — जलते चूल्हे पर पतीला छूट गया था।" }, "kind": "literal", "evidence": "une casserole avait été oubliée sur la cuisinière allumée" },
+      { "q": { "en": "Why didn't Ms Fortin's smoke detector go off?" }, "options": ["It was switched off by a neighbour", "She had no detector", "It was in another room", "It had no battery"], "answer": 3, "explanation": { "en": "'Celui de Mme Fortin n'avait plus de pile' — 'celui' refers to the smoke detector.", "hi": "'Celui de Mme Fortin n'avait plus de pile' — 'celui' धुएँ के डिटेक्टर की ओर इशारा करता है।" }, "kind": "inference", "evidence": "Celui de Mme Fortin n'avait plus de pile." },
+      { "q": { "en": "Where does Max come from?" }, "options": ["He was a gift from a neighbour", "He was adopted from a shelter two months ago", "He belongs to the firefighters", "He was found in the street"], "answer": 1, "explanation": { "en": "'Adopté il y a seulement deux mois dans un refuge de la région.'", "hi": "'Adopté il y a seulement deux mois dans un refuge de la région.' — दो महीने पहले आश्रय से गोद लिया।" }, "kind": "literal", "evidence": "adopté il y a seulement deux mois dans un refuge" },
+      { "q": { "en": "Why does the writer use 'avait été oubliée' (plus-que-parfait)?" }, "options": ["To describe a habit", "To give an order", "To talk about the future", "For an action that happened before the main events"], "answer": 3, "explanation": { "en": "The saucepan was forgotten before the firefighters arrived: the plus-que-parfait marks the earlier event.", "hi": "पतीला दमकलकर्मियों के पहुँचने से पहले भूला गया था: plus-que-parfait उससे पहले की घटना बताता है।" }, "kind": "grammar", "evidence": "avait été oubliée" },
+      { "q": { "en": "Was anyone injured?" }, "options": ["No one", "Ms Fortin", "A neighbour", "A firefighter"], "answer": 0, "explanation": { "en": "'Personne n'a été blessé.'", "hi": "'Personne n'a été blessé.' — कोई घायल नहीं हुआ।" }, "kind": "literal", "evidence": "Personne n'a été blessé" }
+    ]
+  },
+  "writing": {
+    "type": "rewrite",
+    "prompt": {
+      "en": "Correct and upgrade this weak paragraph (or a paragraph from your own mock 1 text). Pass 1: correct the errors. Pass 2: replace basic words with precise ones. Keep the same ideas, and add one concession.",
+      "hi": "इस कमज़ोर अनुच्छेद को (या मॉक 1 के अपने पाठ के किसी अनुच्छेद को) सुधारिए और बेहतर बनाइए। चरण 1: ग़लतियाँ ठीक कीजिए। चरण 2: साधारण शब्दों की जगह सटीक शब्द रखिए। वही विचार रखिए, और एक 'मानना' (concession) जोड़िए।",
+      "fr": "Je pense que le télétravail est une bonne chose. Il y a beaucoup de avantages. Les gens fait moins de transport et ils est moins fatigué. Aussi, on peut faire le travail plus bon à la maison. Mais il y a des problèmes aussi, par exemple on voit pas les collègues. Pour moi c'est bon."
+    },
+    "minWords": 80,
+    "maxWords": 160,
+    "hints": [
+      { "en": "Errors to find: beaucoup de avantages, les gens fait, ils est, fatigué (plural), plus bon, on voit pas.", "hi": "ढूँढने वाली ग़लतियाँ: beaucoup de avantages, les gens fait, ils est, fatigué (बहुवचन), plus bon, on voit pas।" },
+      { "en": "Upgrades: de nombreux, permettre de, en outre, efficacement, néanmoins, essentiel.", "hi": "बेहतर शब्द: de nombreux, permettre de, en outre, efficacement, néanmoins, essentiel।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "présenter de nombreux avantages", "en": "to have numerous advantages", "hi": "अनेक फ़ायदे होना", "pron": "प्ग़े-ज़ाँ-ते दö नोँ-ब्ग़ö ज़ा-वाँ-ताझ़" },
+      { "fr": "ce qui leur permet de …", "en": "which allows them to …", "hi": "जिससे वे … कर पाते हैं", "pron": "स की लöग़ पैग़-मै दö" },
+      { "fr": "Je reconnais néanmoins que …", "en": "I nevertheless admit that …", "hi": "फिर भी मैं मानता / मानती हूँ कि …", "pron": "झ़ö ग़ö-को-नै ने-आँ-म्वैँ कö" }
+    ],
+    "model": {
+      "fr": "À mon avis, le télétravail présente de nombreux avantages. Tout d'abord, les employés passent moins de temps dans les transports, ce qui leur permet d'être moins fatigués. En outre, beaucoup de personnes affirment qu'elles travaillent plus efficacement à la maison, car elles sont moins souvent interrompues. Je reconnais néanmoins que cette formule a aussi des inconvénients : on ne voit plus ses collègues, et certains salariés se sentent isolés. C'est pourquoi il me semble essentiel de combiner le télétravail avec deux ou trois jours au bureau. Ainsi, on profite des avantages des deux formules sans en subir les inconvénients.",
+      "en": "In my opinion, remote work has numerous advantages. First of all, employees spend less time commuting, which allows them to be less tired. Moreover, many people state that they work more efficiently at home, because they are interrupted less often. I nevertheless admit that this arrangement also has drawbacks: you no longer see your colleagues, and some employees feel isolated. That is why it seems essential to me to combine remote work with two or three days at the office. That way, you enjoy the advantages of both arrangements without suffering their drawbacks."
+    },
+    "checklist": [
+      { "en": "Did you correct all six errors listed in the hints?", "hi": "क्या आपने संकेतों में दी गई सभी छह ग़लतियाँ सुधारीं?" },
+      { "en": "Did you use at least four upgraded words correctly?", "hi": "क्या आपने कम से कम चार बेहतर शब्द सही ढंग से इस्तेमाल किए?" },
+      { "en": "Did you add a concession (Je reconnais que… néanmoins…)?", "hi": "क्या आपने एक 'मानना' जोड़ा (Je reconnais que… néanmoins…)?" }
+    ]
+  },
+  "review": {
+    "fromDays": [88, 89, 90, 97, 102, 103],
+    "items": [
+      { "fr": "Il avait oublié ses clés.", "en": "He had forgotten his keys.", "hi": "वह अपनी चाबियाँ भूल गया था।", "pron": "ई ला-वै तू-ब्ली-ये से क्ले" },
+      { "fr": "Madame, Monsieur,", "en": "Dear Sir or Madam,", "hi": "महोदया, महोदय,", "pron": "मा-दाम मö-स्यö" },
+      { "fr": "Certes …, mais …", "en": "Admittedly …, but …", "hi": "माना कि …, लेकिन …", "pron": "सैग़्त … मै" },
+      { "fr": "une solution", "en": "a solution (feminine: -tion)", "hi": "एक उपाय (स्त्रीलिंग: -tion)", "pron": "üन सो-लü-स्योँ" },
+      { "fr": "le problème", "en": "the problem (masculine)", "hi": "समस्या (फ़्रेंच में पुल्लिंग)", "pron": "लö प्ग़ो-ब्लैम" },
+      { "fr": "J'ai cru que …, alors que …", "en": "I thought that …, whereas …", "hi": "मुझे लगा कि …, जबकि …", "pron": "झ़े क्ग़ü कö … आ-लॉग़ कö" },
+      { "fr": "le brouillon", "en": "the draft", "hi": "रफ़ मसौदा", "pron": "लö ब्ग़ू-योँ" },
+      { "fr": "Je vérifie les accords.", "en": "I check the agreements.", "hi": "मैं मेल जाँचता / जाँचती हूँ।", "pron": "झ़ö वे-ग़ी-फ़ी ले ज़ा-कॉग़" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Which is the best upgrade of 'Il y a beaucoup de problèmes'?", "hi": "'Il y a beaucoup de problèmes' का सबसे अच्छा बेहतर रूप कौन-सा है?" }, "options": ["On constate de nombreux problèmes.", "On constate de nombreuses problèmes.", "Il y a beaucoup de problème.", "Il y a nombreux problèmes."], "answer": 0, "explanation": { "en": "Problème is masculine: de nombreux problèmes. The verb 'constater' is a precise upgrade for 'il y a'.", "hi": "Problème पुल्लिंग है: de nombreux problèmes। 'il y a' की जगह 'constater' सटीक शब्द है।" } },
+    { "type": "mcq", "prompt": { "en": "'Le vélo est bon pour aller au travail.' What does 'bon' mean here, and which upgrade fits?", "hi": "'Le vélo est bon pour aller au travail.' यहाँ 'bon' का क्या अर्थ है, और कौन-सा बेहतर शब्द ठीक बैठता है?" }, "options": ["délicieux", "efficace", "gentil", "content"], "answer": 1, "explanation": { "en": "Here 'bon' means 'works well': efficace. Délicieux is for food, gentil for people.", "hi": "यहाँ 'bon' का अर्थ है 'अच्छा काम करता है': efficace। Délicieux खाने के लिए, gentil लोगों के लिए।" } },
+    { "type": "mcq", "prompt": { "en": "Your friend says 'C'est trop cher.' What is the best section-B answer?", "hi": "दोस्त कहता है 'C'est trop cher.' खंड B के लिए सबसे अच्छा जवाब क्या है?" }, "options": ["Non, tu as tort.", "D'accord, on oublie.", "Je te comprends, mais la première séance est gratuite.", "C'est ton problème."], "answer": 2, "explanation": { "en": "Accept, then reframe with a concrete argument.", "hi": "पहले मानिए, फिर ठोस तर्क के साथ बात को नया रूप दीजिए।" } },
+    { "type": "fill", "prompt": { "en": "Complete: This allows you to save time.", "hi": "पूरा कीजिए: इससे समय बचता है।" }, "sentence": "Cela permet ___ gagner du temps.", "answer": "de", "accept": [], "explanation": { "en": "Permettre de + infinitive.", "hi": "Permettre de + क्रिया का मूल रूप।" } },
+    { "type": "fill", "prompt": { "en": "Correct the error: beaucoup de avantages → beaucoup ___ avantages", "hi": "ग़लती सुधारिए: beaucoup de avantages → beaucoup ___ avantages" }, "sentence": "Il y a beaucoup ___avantages.", "answer": "d'", "accept": ["d’"], "explanation": { "en": "De becomes d' before a vowel.", "hi": "स्वर से पहले de बदलकर d' हो जाता है।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "Moreover, it costs less.", "hi": "इसके अलावा, इसमें कम ख़र्च आता है।" }, "answer": "En outre, cela coûte moins cher.", "accept": ["En outre, ça coûte moins cher.", "De plus, cela coûte moins cher.", "En outre, cela coûte moins cher"], "explanation": { "en": "En outre = moreover. 'Coûter moins cher' = to cost less.", "hi": "En outre = इसके अलावा। 'Coûter moins cher' = कम ख़र्च आना।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: Many people think that it is useful.", "hi": "शब्दों को सही क्रम में रखिए: बहुत-से लोग सोचते हैं कि यह उपयोगी है।" }, "words": ["pensent", "De", "c'est", "nombreuses", "personnes", "que", "utile."], "answer": "De nombreuses personnes pensent que c'est utile.", "explanation": { "en": "Personne is feminine: de nombreuses personnes + plural verb pensent.", "hi": "Personne स्त्रीलिंग है: de nombreuses personnes + बहुवचन क्रिया pensent।" } }
+  ]
+}

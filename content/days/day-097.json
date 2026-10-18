@@ -1,0 +1,1004 @@
+{
+  "day": 97,
+  "phase": 5,
+  "title": {
+    "fr": "Environnement, technologie et culture : concéder pour mieux réfuter",
+    "en": "Environment, technology and culture: concede, then refute",
+    "hi": "पर्यावरण, तकनीक और संस्कृति: पहले मानना, फिर खंडन करना"
+  },
+  "objective": {
+    "en": "Follow a natural-speed debate on screen time and an opinion article on technology, and build flexible arguments that concede a point, refute it, and support it with examples and figures — in speech and in a 200-word opinion letter.",
+    "hi": "स्क्रीन-टाइम पर सामान्य गति की बहस और तकनीक पर एक राय-लेख समझना, और ऐसे लचीले तर्क बनाना जो पहले एक बात मानें, फिर उसका खंडन करें, और उदाहरणों व आँकड़ों से उसे मज़बूत करें — बोलकर भी और 200 शब्दों के राय-पत्र में भी।"
+  },
+  "prerequisites": {
+    "days": [
+      78,
+      79,
+      85,
+      89,
+      93,
+      96
+    ],
+    "summary": {
+      "en": "Cause and consequence with environment and technology vocabulary (Day 78), argument structure (Day 79), opinion listening (Day 85), the TEF B opinion letter (Day 89), viewpoint and the passive (Day 93) and linking long arguments (Day 96).",
+      "hi": "पर्यावरण और तकनीक के शब्दों के साथ कारण और परिणाम (दिन 78), तर्क की संरचना (दिन 79), राय सुनना (दिन 85), TEF B राय-पत्र (दिन 89), दृष्टिकोण और कर्मवाच्य (दिन 93) और लंबे तर्कों को जोड़ना (दिन 96)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "l'écran",
+      "en": "screen",
+      "hi": "स्क्रीन / परदा",
+      "pron": "ले-क्ग़ाँ",
+      "ipa": "lekʁɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "écran",
+      "note": {
+        "en": "Le temps d'écran = screen time; un écran tactile = a touch screen.",
+        "hi": "le temps d'écran = स्क्रीन-टाइम; un écran tactile = टच स्क्रीन।"
+      }
+    },
+    {
+      "fr": "la dépendance",
+      "en": "addiction, dependence",
+      "hi": "लत / निर्भरता",
+      "pron": "ला दे-पाँ-दाँस",
+      "ipa": "la depɑ̃dɑ̃s",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "dépendance"
+    },
+    {
+      "fr": "les réseaux sociaux",
+      "en": "social media",
+      "hi": "सोशल मीडिया",
+      "pron": "ले ग़े-ज़ो सो-स्यो",
+      "ipa": "le ʁezo sɔsjo",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "réseau social"
+    },
+    {
+      "fr": "un sondage",
+      "en": "a poll, a survey",
+      "hi": "सर्वेक्षण / जनमत सर्वे",
+      "pron": "ऐँ सोँ-दाझ़",
+      "ipa": "ɛ̃ sɔ̃daʒ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "sondage"
+    },
+    {
+      "fr": "la moitié",
+      "en": "half",
+      "hi": "आधा / आधे",
+      "pron": "ला म्वा-त्ये",
+      "ipa": "la mwatje",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "moitié",
+      "note": {
+        "en": "La moitié des jeunes = half of young people. Un tiers = a third, un quart = a quarter.",
+        "hi": "la moitié des jeunes = आधे युवा। un tiers = एक-तिहाई, un quart = एक-चौथाई।"
+      }
+    },
+    {
+      "fr": "un tiers",
+      "en": "a third",
+      "hi": "एक-तिहाई",
+      "pron": "ऐँ त्यैग़",
+      "ipa": "ɛ̃ tjɛʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "tiers"
+    },
+    {
+      "fr": "le réchauffement climatique",
+      "en": "global warming",
+      "hi": "जलवायु का गरम होना / ग्लोबल वार्मिंग",
+      "pron": "लö ग़े-शोफ़-माँ क्ली-मा-तीक",
+      "ipa": "lə ʁeʃofmɑ̃ klimatik",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "réchauffement"
+    },
+    {
+      "fr": "les émissions",
+      "en": "emissions",
+      "hi": "उत्सर्जन",
+      "pron": "ले ज़े-मी-स्योँ",
+      "ipa": "le zemisjɔ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "émission",
+      "note": {
+        "en": "Les émissions de gaz à effet de serre = greenhouse gas emissions. (Une émission is also a TV/radio programme.)",
+        "hi": "les émissions de gaz à effet de serre = ग्रीनहाउस गैसों का उत्सर्जन। (une émission टीवी/रेडियो कार्यक्रम भी होता है।)"
+      }
+    },
+    {
+      "fr": "le patrimoine",
+      "en": "heritage",
+      "hi": "विरासत / धरोहर",
+      "pron": "लö पा-त्ग़ी-म्वान",
+      "ipa": "lə patʁimwan",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "patrimoine"
+    },
+    {
+      "fr": "nuire à",
+      "en": "to harm",
+      "hi": "नुक़सान पहुँचाना",
+      "pron": "न्üइग़ आ",
+      "ipa": "nɥiʁ a",
+      "pos": "verb",
+      "lemma": "nuire",
+      "note": {
+        "en": "Les écrans nuisent au sommeil. Adjective: nuisible (harmful).",
+        "hi": "les écrans nuisent au sommeil = स्क्रीन नींद को नुक़सान पहुँचाती हैं। विशेषण: nuisible (हानिकारक)।"
+      }
+    },
+    {
+      "fr": "favoriser",
+      "en": "to encourage, to promote",
+      "hi": "बढ़ावा देना",
+      "pron": "फ़ा-वो-ग़ी-ज़े",
+      "ipa": "favɔʁize",
+      "pos": "verb"
+    },
+    {
+      "fr": "certes",
+      "en": "admittedly, certainly",
+      "hi": "माना कि / बेशक",
+      "pron": "सैग़त",
+      "ipa": "sɛʁt",
+      "pos": "adverb",
+      "note": {
+        "en": "Certes… mais… is the classic concession: you accept a point before refuting it.",
+        "hi": "certes… mais… पारंपरिक रियायत है: खंडन से पहले आप एक बात मान लेते हैं।"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Certes, les écrans sont utiles, mais il faut fixer des limites.",
+      "en": "Admittedly, screens are useful, but limits must be set.",
+      "hi": "माना कि स्क्रीन उपयोगी हैं, पर सीमाएँ तय करनी होंगी।",
+      "pron": "सैग़त ले ज़े-क्ग़ाँ सोँ तü-तील मै इल फ़ो फ़ीक-से दे ली-मीत"
+    },
+    {
+      "fr": "Il est vrai que…, cependant…",
+      "en": "It is true that…, however…",
+      "hi": "यह सच है कि…, फिर भी…",
+      "pron": "ई-लै व्ग़ै कö सö-पाँ-दाँ"
+    },
+    {
+      "fr": "On pourrait objecter que…",
+      "en": "One could object that…",
+      "hi": "कोई यह आपत्ति कर सकता है कि…",
+      "pron": "ओँ पू-ग़ै तॉब-झ़ैक-ते कö"
+    },
+    {
+      "fr": "Selon un sondage récent, près de la moitié des parents…",
+      "en": "According to a recent poll, nearly half of parents…",
+      "hi": "एक हालिया सर्वे के अनुसार, लगभग आधे माता-पिता…",
+      "pron": "सö-लोँ ऐँ सोँ-दाझ़ ग़े-साँ प्ग़ै दö ला म्वा-त्ये दे पा-ग़ाँ"
+    },
+    {
+      "fr": "Prenons l'exemple de…",
+      "en": "Let's take the example of…",
+      "hi": "… का उदाहरण लेते हैं",
+      "pron": "प्ग़ö-नोँ लैग-ज़ाँप्ल दö"
+    },
+    {
+      "fr": "Il n'en reste pas moins que…",
+      "en": "The fact remains that…",
+      "hi": "फिर भी यह सच्चाई बनी रहती है कि…",
+      "pron": "इल नाँ ग़ैस्त पा म्वैँ कö"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Concession + refutation; supporting with examples and data",
+      "hi": "रियायत + खंडन; उदाहरणों और आँकड़ों से समर्थन"
+    },
+    "explanation": {
+      "en": "A strong argument first recognises the other side (concession), then turns it around (refutation). Four useful patterns: (1) Certes + fact, mais + your point. (2) Il est vrai que + indicative, cependant / pourtant / toutefois + your point. (3) Bien que + SUBJUNCTIVE, main clause: Bien que les écrans soient pratiques, ils nuisent au sommeil. (Même si takes the indicative: Même si les écrans sont pratiques…) (4) On pourrait objecter que… Or / Pourtant… ; finish with Il n'en reste pas moins que… Then support with evidence: Par exemple / Prenons l'exemple de… ; Selon / D'après + source ; figures: la moitié de, un tiers de, trois personnes sur quatre, près de / plus de 60 %. With fractions and percentages, the verb usually agrees with the noun that follows: La moitié des élèves ont un téléphone.",
+      "hi": "मज़बूत तर्क पहले दूसरे पक्ष को मानता है (रियायत), फिर उसे पलट देता है (खंडन)। चार उपयोगी ढाँचे: (1) certes + तथ्य, mais + आपकी बात। (2) il est vrai que + indicatif, cependant / pourtant / toutefois + आपकी बात। (3) bien que + SUBJONCTIF, फिर मुख्य उपवाक्य: Bien que les écrans soient pratiques, ils nuisent au sommeil। (même si के बाद indicatif आता है: Même si les écrans sont pratiques…) (4) On pourrait objecter que… Or / Pourtant… ; अंत में Il n'en reste pas moins que…। फिर सबूत दीजिए: Par exemple / Prenons l'exemple de… ; Selon / D'après + स्रोत; आँकड़े: la moitié de, un tiers de, trois personnes sur quatre, près de / plus de 60 %। भिन्न और प्रतिशत के साथ क्रिया आम तौर पर बाद वाली संज्ञा से मेल खाती है: La moitié des élèves ont un téléphone।"
+    },
+    "comparison": {
+      "en": "Hindi 'माना कि…, पर…' works exactly like Certes…, mais…. But 'हालाँकि' maps to bien que, which needs the subjunctive — a frequent error for Indian learners.",
+      "hi": "हिंदी का 'माना कि…, पर…' बिल्कुल certes…, mais… जैसा है। पर 'हालाँकि' का मेल bien que से है, जिसके बाद subjonctif चाहिए — भारतीय विद्यार्थियों की आम ग़लती।"
+    },
+    "examples": [
+      {
+        "fr": "Certes, les réseaux sociaux nous rapprochent, mais ils favorisent aussi l'isolement.",
+        "en": "Admittedly, social media brings us closer, but it also encourages isolation.",
+        "hi": "माना कि सोशल मीडिया हमें पास लाता है, पर वह अकेलेपन को भी बढ़ावा देता है।",
+        "pron": "सैग़त ले ग़े-ज़ो सो-स्यो नू ग़ा-प्ग़ोश मै इल फ़ा-वो-ग़ीज़ ओ-सी ली-ज़ोल-माँ"
+      },
+      {
+        "fr": "Bien que la voiture électrique soit plus propre, sa batterie pose problème.",
+        "en": "Although the electric car is cleaner, its battery is a problem.",
+        "hi": "हालाँकि बिजली वाली कार ज़्यादा साफ़ है, उसकी बैटरी एक समस्या है।",
+        "pron": "ब्यैँ कö ला व्वा-त्üग़ ए-लैक-त्ग़ीक स्वा प्लü प्ग़ॉप्ग़ सा बात-ग़ी पोज़ प्ग़ो-ब्लैम"
+      },
+      {
+        "fr": "Il est vrai que les musées coûtent cher ; pourtant, ils protègent notre patrimoine.",
+        "en": "It's true that museums are expensive; yet they protect our heritage.",
+        "hi": "यह सच है कि संग्रहालय महँगे पड़ते हैं; फिर भी वे हमारी विरासत की रक्षा करते हैं।",
+        "pron": "ई-लै व्ग़ै कö ले म्ü-ज़े कूत शैग़ पूग़-ताँ इल प्ग़ो-तैझ़ नॉत्ग़ पा-त्ग़ी-म्वान"
+      },
+      {
+        "fr": "Selon un sondage, un tiers des adolescents dorment moins de sept heures.",
+        "en": "According to a poll, a third of teenagers sleep less than seven hours.",
+        "hi": "एक सर्वे के अनुसार, एक-तिहाई किशोर सात घंटे से कम सोते हैं।",
+        "pron": "सö-लोँ ऐँ सोँ-दाझ़ ऐँ त्यैग़ दे ज़ा-दो-ले-साँ दॉग़म म्वैँ दö सैत öग़"
+      },
+      {
+        "fr": "On pourrait objecter que le télétravail isole. Or, il réduit les émissions.",
+        "en": "One could object that remote work isolates people. Yet it reduces emissions.",
+        "hi": "कोई कह सकता है कि घर से काम अकेला कर देता है। पर वह उत्सर्जन घटाता है।",
+        "pron": "ओँ पू-ग़ै तॉब-झ़ैक-ते कö लö ते-ले-त्ग़ा-वाय ई-ज़ोल ऑग़ इल ग़े-द्üई ले ज़े-मी-स्योँ"
+      },
+      {
+        "fr": "Il n'en reste pas moins que la technologie doit rester un outil.",
+        "en": "The fact remains that technology must remain a tool.",
+        "hi": "फिर भी यह सच है कि तकनीक को सिर्फ़ एक साधन ही रहना चाहिए।",
+        "pron": "इल नाँ ग़ैस्त पा म्वैँ कö ला तैक-नो-लो-झ़ी द्वा ग़ैस-ते ऐँ नू-ती"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Not 'Bien que les écrans sont…' — bien que + subjunctive: soient. Même si + indicative: sont.",
+        "hi": "'Bien que les écrans sont…' नहीं — bien que + subjonctif: soient। même si + indicatif: sont।"
+      },
+      {
+        "en": "Don't put 'mais' after 'bien que': 'Bien que ce soit cher, mais c'est utile' is wrong (Hindi 'हालाँकि…, पर…' habit).",
+        "hi": "bien que के बाद mais मत लगाइए: 'Bien que ce soit cher, mais c'est utile' ग़लत है (हिंदी 'हालाँकि…, पर…' की आदत)।"
+      },
+      {
+        "en": "In TEF, an invented precise statistic is risky. Prefer 'selon de nombreuses études' or an example from your own experience.",
+        "hi": "TEF में गढ़ा हुआ सटीक आँकड़ा जोखिम भरा है। 'selon de nombreuses études' या अपने अनुभव का उदाहरण बेहतर है।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Shadowing a debate: concession words and stress at the end of groups",
+    "tip": {
+      "en": "In a debate, the concession is said quickly and lower; the refutation is louder, with stress on the last syllable before the pause: Certes, c'est pratique… MAIS c'est dangeREUX. Shadow the radio debate line by line, half a second behind the speaker.",
+      "hi": "बहस में रियायत वाला हिस्सा तेज़ी से और धीमी आवाज़ में बोला जाता है; खंडन ज़्यादा ज़ोर से, विराम से पहले आख़िरी अक्षर पर ज़ोर के साथ: Certes, c'est pratique… MAIS c'est dangeREUX। रेडियो बहस की हर पंक्ति को बोलने वाले से आधा सेकंड पीछे रहकर दोहराइए (शैडोइंग)।"
+    },
+    "words": [
+      {
+        "fr": "certes",
+        "en": "admittedly",
+        "hi": "माना कि",
+        "pron": "सैग़त",
+        "ipa": "sɛʁt",
+        "note": {
+          "en": "The final s is silent.",
+          "hi": "अंत का s नहीं बोला जाता।"
+        }
+      },
+      {
+        "fr": "cependant",
+        "en": "however",
+        "hi": "फिर भी",
+        "pron": "सö-पाँ-दाँ",
+        "ipa": "səpɑ̃dɑ̃"
+      },
+      {
+        "fr": "néanmoins",
+        "en": "nevertheless",
+        "hi": "इसके बावजूद",
+        "pron": "ने-आँ-म्वैँ",
+        "ipa": "neɑ̃mwɛ̃"
+      },
+      {
+        "fr": "bien que",
+        "en": "although",
+        "hi": "हालाँकि",
+        "pron": "ब्यैँ कö",
+        "ipa": "bjɛ̃ kə"
+      },
+      {
+        "fr": "pourtant",
+        "en": "yet",
+        "hi": "फिर भी / जबकि",
+        "pron": "पूग़-ताँ",
+        "ipa": "puʁtɑ̃"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Débat : faut-il limiter le temps d'écran des enfants ?",
+      "en": "Debate: should children's screen time be limited?"
+    },
+    "type": "radio",
+    "mode": "natural",
+    "context": {
+      "en": "A radio host invites a psychologist and a secondary-school teacher who uses digital tools in class. Listen for the concessions and refutations, and for the examples each guest gives.",
+      "hi": "एक रेडियो होस्ट एक मनोवैज्ञानिक और एक माध्यमिक स्कूल के शिक्षक को बुलाता है, जो कक्षा में डिजिटल साधन इस्तेमाल करते हैं। रियायतों और खंडनों को, और हर मेहमान के दिए उदाहरणों को ध्यान से सुनिए।"
+    },
+    "lines": [
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Bonsoir et bienvenue. Ce soir, une question qui divise les familles : faut-il limiter le temps d'écran des enfants ? Avec nous, Claire Morin, psychologue, et Marc Dubé, enseignant au secondaire.",
+        "en": "Good evening and welcome. Tonight, a question that divides families: should children's screen time be limited? With us, Claire Morin, psychologist, and Marc Dubé, secondary-school teacher.",
+        "hi": "नमस्कार और स्वागत है। आज शाम एक ऐसा सवाल जो परिवारों को बाँट देता है: क्या बच्चों का स्क्रीन-टाइम सीमित करना चाहिए? हमारे साथ हैं मनोवैज्ञानिक क्लेयर मोरैँ और माध्यमिक स्कूल के शिक्षक मार्क दुबे।"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Claire Morin, vous voyez beaucoup de jeunes en consultation. Votre position ?",
+        "en": "Claire Morin, you see a lot of young people in your practice. Your position?",
+        "hi": "क्लेयर मोरैँ, आप अपने क्लिनिक में बहुत से युवाओं से मिलती हैं। आपकी राय?"
+      },
+      {
+        "speaker": "Claire Morin",
+        "voice": "f1",
+        "fr": "Oui, il faut des limites claires. Dans ma pratique, presque la moitié des adolescents que je reçois pour de l'anxiété passent plus de cinq heures par jour sur leur téléphone. Et ces heures-là, ils les prennent souvent sur le sommeil.",
+        "en": "Yes, clear limits are needed. In my practice, almost half of the teenagers I see for anxiety spend more than five hours a day on their phone. And those hours are often taken from their sleep.",
+        "hi": "हाँ, साफ़ सीमाएँ ज़रूरी हैं। मेरे क्लिनिक में चिंता की समस्या लेकर आने वाले लगभग आधे किशोर रोज़ पाँच घंटे से ज़्यादा फ़ोन पर बिताते हैं। और ये घंटे अक्सर उनकी नींद में से निकलते हैं।"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Marc Dubé, vous utilisez des tablettes en classe. Vous n'êtes pas d'accord ?",
+        "en": "Marc Dubé, you use tablets in class. You don't agree?",
+        "hi": "मार्क दुबे, आप कक्षा में टैबलेट इस्तेमाल करते हैं। आप सहमत नहीं हैं?"
+      },
+      {
+        "speaker": "Marc Dubé",
+        "voice": "m1",
+        "fr": "Certes, le problème du sommeil est réel, je le vois aussi chez mes élèves. Mais je crois qu'on se trompe de cible. Ce n'est pas l'écran qui pose problème, c'est ce qu'on en fait.",
+        "en": "Admittedly, the sleep problem is real; I see it in my students too. But I think we're aiming at the wrong target. It's not the screen that is the problem, it's what we do with it.",
+        "hi": "माना कि नींद की समस्या असली है, मैं अपने विद्यार्थियों में भी देखता हूँ। पर मुझे लगता है कि हम ग़लत निशाना साध रहे हैं। समस्या स्क्रीन नहीं है, बल्कि यह है कि हम उसके साथ क्या करते हैं।"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "C'est-à-dire ?",
+        "en": "Meaning?",
+        "hi": "मतलब?"
+      },
+      {
+        "speaker": "Marc Dubé",
+        "voice": "m1",
+        "fr": "Prenons l'exemple de mon cours d'histoire. Mes élèves ont créé un balado sur le patrimoine de leur quartier. Ils ont interviewé des aînés, monté le son, écrit des textes. Deux heures d'écran, oui, mais deux heures très actives.",
+        "en": "Let's take the example of my history class. My students created a podcast about the heritage of their neighbourhood. They interviewed seniors, edited the sound, wrote texts. Two hours of screen time, yes, but two very active hours.",
+        "hi": "मेरी इतिहास की क्लास का उदाहरण लीजिए। मेरे विद्यार्थियों ने अपने मोहल्ले की विरासत पर एक पॉडकास्ट बनाया। उन्होंने बुज़ुर्गों का इंटरव्यू लिया, आवाज़ संपादित की, लेख लिखे। दो घंटे स्क्रीन, हाँ, पर दो बहुत सक्रिय घंटे।"
+      },
+      {
+        "speaker": "Claire Morin",
+        "voice": "f1",
+        "fr": "Je suis d'accord que ce genre de projet est formidable. Il n'en reste pas moins que, le soir, à la maison, les jeunes ne font pas de balados : ils font défiler des vidéos de quinze secondes.",
+        "en": "I agree that this kind of project is great. The fact remains that, in the evening at home, young people don't make podcasts: they scroll through fifteen-second videos.",
+        "hi": "मैं मानती हूँ कि इस तरह की परियोजना शानदार है। फिर भी सच यह है कि शाम को घर पर युवा पॉडकास्ट नहीं बनाते: वे पंद्रह सेकंड के वीडियो स्क्रॉल करते रहते हैं।"
+      },
+      {
+        "speaker": "Marc Dubé",
+        "voice": "m1",
+        "fr": "Justement ! Si on se contente d'interdire, ils n'apprennent rien. Il faut leur montrer comment les applications sont conçues pour retenir leur attention.",
+        "en": "Exactly! If we just ban things, they learn nothing. We need to show them how apps are designed to hold their attention.",
+        "hi": "यही तो! अगर हम सिर्फ़ मना कर दें, तो वे कुछ नहीं सीखते। हमें उन्हें दिखाना होगा कि ऐप उनका ध्यान बाँधे रखने के लिए कैसे बनाए जाते हैं।"
+      },
+      {
+        "speaker": "Claire Morin",
+        "voice": "f1",
+        "fr": "L'éducation, bien sûr. Mais bien qu'elle soit indispensable, elle ne suffit pas pour un enfant de dix ans. À cet âge, ce sont les parents qui doivent fixer des règles, par exemple pas de téléphone dans la chambre la nuit.",
+        "en": "Education, of course. But although it is essential, it isn't enough for a ten-year-old. At that age, it's the parents who must set rules, for example no phone in the bedroom at night.",
+        "hi": "शिक्षा, बेशक। पर हालाँकि वह ज़रूरी है, दस साल के बच्चे के लिए काफ़ी नहीं है। उस उम्र में माता-पिता को नियम तय करने चाहिए, जैसे रात को कमरे में फ़ोन नहीं।"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Alors, un point commun entre vous ?",
+        "en": "So, is there common ground between you?",
+        "hi": "तो, क्या आप दोनों के बीच कोई सहमति है?"
+      },
+      {
+        "speaker": "Marc Dubé",
+        "voice": "m1",
+        "fr": "Oui : le téléphone hors de la chambre la nuit, j'achète ! Et les parents devraient donner l'exemple. Combien d'entre nous regardent leur téléphone pendant le souper ?",
+        "en": "Yes: phones out of the bedroom at night, I'm sold! And parents should set the example. How many of us look at our phone during dinner?",
+        "hi": "हाँ: रात को फ़ोन कमरे से बाहर, यह मुझे मंज़ूर है! और माता-पिता को ख़ुद मिसाल बनना चाहिए। हममें से कितने लोग रात के खाने के समय फ़ोन देखते हैं?"
+      },
+      {
+        "speaker": "Claire Morin",
+        "voice": "f1",
+        "fr": "Tout à fait. Les enfants imitent ce qu'ils voient, pas ce qu'on leur dit.",
+        "en": "Absolutely. Children imitate what they see, not what they are told.",
+        "hi": "बिल्कुल। बच्चे वही करते हैं जो वे देखते हैं, वह नहीं जो उनसे कहा जाता है।"
+      },
+      {
+        "speaker": "Animateur",
+        "voice": "m2",
+        "fr": "Merci à vous deux. Et vous, chers auditeurs, écrivez-nous pour donner votre avis.",
+        "en": "Thank you both. And you, dear listeners, write to us to give your opinion.",
+        "hi": "आप दोनों का धन्यवाद। और आप, प्रिय श्रोताओ, अपनी राय देने के लिए हमें लिखिए।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "What does Claire Morin observe in her practice?"
+        },
+        "options": [
+          "Teenagers sleep more than five hours a day",
+          "Most parents have no rules",
+          "Almost half of the anxious teenagers she sees spend over five hours a day on their phone",
+          "Half of all teenagers have no phone"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Presque la moitié des adolescents que je reçois pour de l'anxiété passent plus de cinq heures par jour sur leur téléphone.'",
+          "hi": "'presque la moitié des adolescents … passent plus de cinq heures par jour sur leur téléphone' — लगभग आधे किशोर, पाँच घंटे से ज़्यादा।"
+        },
+        "kind": "literal",
+        "evidence": "presque la moitié des adolescents que je reçois pour de l'anxiété passent plus de cinq heures par jour sur leur téléphone."
+      },
+      {
+        "q": {
+          "en": "What does Marc Dubé concede before giving his opinion?"
+        },
+        "options": [
+          "That the sleep problem is real",
+          "That tablets should be banned",
+          "That podcasts are useless",
+          "That parents are always right"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Certes, le problème du sommeil est réel… Mais…' — a classic concession followed by refutation.",
+          "hi": "'certes, le problème du sommeil est réel… mais…' — पहले रियायत, फिर खंडन।"
+        },
+        "kind": "literal",
+        "evidence": "Certes, le problème du sommeil est réel, je le vois aussi chez mes élèves."
+      },
+      {
+        "q": {
+          "en": "According to Marc, what really matters?"
+        },
+        "options": [
+          "The size of the screen",
+          "The number of screens at home",
+          "The price of the devices",
+          "What we do with the screen"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Ce n'est pas l'écran qui pose problème, c'est ce qu'on en fait.'",
+          "hi": "'ce n'est pas l'écran qui pose problème, c'est ce qu'on en fait' — असली बात यह है कि स्क्रीन का क्या इस्तेमाल होता है।"
+        },
+        "kind": "gist",
+        "evidence": "Ce n'est pas l'écran qui pose problème, c'est ce qu'on en fait."
+      },
+      {
+        "q": {
+          "en": "Why does Marc mention the podcast project?"
+        },
+        "options": [
+          "To prove that history is boring",
+          "As an example of active, useful screen time",
+          "To show that students prefer radio",
+          "To complain about his students"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Prenons l'exemple…' — two hours of screen, 'mais deux heures très actives'. It supports his argument.",
+          "hi": "'prenons l'exemple…' — दो घंटे स्क्रीन, 'mais deux heures très actives'। यह उनके तर्क का सबूत है।"
+        },
+        "kind": "inference",
+        "evidence": "Deux heures d'écran, oui, mais deux heures très actives."
+      },
+      {
+        "q": {
+          "en": "Why, for Claire, is education not enough for a ten-year-old?"
+        },
+        "options": [
+          "Children of ten don't use phones",
+          "Teachers don't have time",
+          "At that age, parents must set rules",
+          "Schools don't teach about apps"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Bien qu'elle soit indispensable, elle ne suffit pas… ce sont les parents qui doivent fixer des règles.'",
+          "hi": "'bien qu'elle soit indispensable, elle ne suffit pas' — उस उम्र में माता-पिता को नियम बनाने होंगे।"
+        },
+        "kind": "literal",
+        "evidence": "À cet âge, ce sont les parents qui doivent fixer des règles"
+      },
+      {
+        "q": {
+          "en": "What do the two guests finally agree on?"
+        },
+        "options": [
+          "No phone in the bedroom at night, and parents setting an example",
+          "Banning tablets at school",
+          "Five hours of screen time a day is fine",
+          "Fifteen-second videos are educational"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "Marc: 'le téléphone hors de la chambre la nuit, j'achète !' and parents 'devraient donner l'exemple'; Claire: 'Tout à fait.'",
+          "hi": "मार्क: 'le téléphone hors de la chambre la nuit, j'achète !' और माता-पिता मिसाल बनें; क्लेयर: 'tout à fait'।"
+        },
+        "kind": "gist",
+        "evidence": "le téléphone hors de la chambre la nuit, j'achète ! Et les parents devraient donner l'exemple."
+      }
+    ],
+    "dictation": [
+      "Certes, le problème du sommeil est réel.",
+      "Ce n'est pas l'écran qui pose problème, c'est ce qu'on en fait.",
+      "Bien qu'elle soit indispensable, elle ne suffit pas."
+    ],
+    "gapFill": {
+      "text": "Presque la ___ des adolescents passent plus de cinq heures par jour sur leur téléphone. ___ l'exemple de mon cours d'histoire. Il n'en ___ pas moins que les jeunes font défiler des vidéos.",
+      "answers": [
+        "moitié",
+        "Prenons",
+        "reste"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "presentation",
+    "instructions": {
+      "en": "Argue for and against (about 3 minutes per topic). For each statement, give one concession (Certes… / Il est vrai que…), refute it with your own point, support it with an example or a general figure, and conclude (Il n'en reste pas moins que…). Then switch sides and defend the opposite view in one minute.",
+      "hi": "पक्ष और विपक्ष में तर्क दीजिए (हर विषय पर लगभग 3 मिनट)। हर कथन पर एक रियायत दीजिए (Certes… / Il est vrai que…), अपनी बात से उसका खंडन कीजिए, किसी उदाहरण या सामान्य आँकड़े से उसे मज़बूत कीजिए, और निष्कर्ष दीजिए (Il n'en reste pas moins que…)। फिर पक्ष बदलकर एक मिनट में उलटी राय का बचाव कीजिए।"
+    },
+    "prompts": [
+      {
+        "fr": "Les téléphones devraient être interdits à l'école.",
+        "en": "Phones should be banned at school.",
+        "hi": "स्कूल में फ़ोन पर पाबंदी होनी चाहिए।",
+        "pron": "ले ते-ले-फ़ॉन दö-व्ग़ै तैत्ग़ ऐँ-तैग़-दी ज़ा ले-कोल",
+        "model": "Certes, le téléphone peut être utile en cas d'urgence. Mais en classe, il distrait les élèves : prenons l'exemple d'une notification qui arrive pendant un examen. Il n'en reste pas moins que l'école doit rester un lieu de concentration."
+      },
+      {
+        "fr": "Le télétravail est bon pour l'environnement.",
+        "en": "Remote work is good for the environment.",
+        "hi": "घर से काम करना पर्यावरण के लिए अच्छा है।",
+        "pron": "लö ते-ले-त्ग़ा-वाय ए बोँ पूग़ लाँ-वी-ग़ोन-माँ",
+        "model": "Il est vrai que le télétravail peut isoler certaines personnes. Cependant, chaque jour sans trajet en voiture réduit les émissions. Par exemple, si la moitié des employés d'une entreprise restent chez eux deux jours par semaine, des centaines de trajets sont évités."
+      },
+      {
+        "fr": "Les musées devraient être gratuits.",
+        "en": "Museums should be free.",
+        "hi": "संग्रहालय मुफ़्त होने चाहिए।",
+        "pron": "ले म्ü-ज़े दö-व्ग़ै तैत्ग़ ग्ग़ा-त्üई"
+      },
+      {
+        "fr": "Les réseaux sociaux nuisent à la démocratie.",
+        "en": "Social media harms democracy.",
+        "hi": "सोशल मीडिया लोकतंत्र को नुक़सान पहुँचाता है।",
+        "pron": "ले ग़े-ज़ो सो-स्यो न्üईज़ आ ला दे-मो-क्ग़ा-सी"
+      },
+      {
+        "fr": "Bien que ce soit pratique, la livraison à domicile pollue beaucoup.",
+        "en": "Although it's convenient, home delivery pollutes a lot.",
+        "hi": "हालाँकि यह सुविधाजनक है, घर पर डिलीवरी बहुत प्रदूषण करती है।",
+        "pron": "ब्यैँ कö सö स्वा प्ग़ाक-तीक ला ली-व्ग़ै-ज़ोँ आ दो-मी-सील पो-लü बो-कू"
+      },
+      {
+        "fr": "On pourrait objecter que la culture locale disparaît avec Internet.",
+        "en": "One could object that local culture disappears with the internet.",
+        "hi": "कोई यह कह सकता है कि इंटरनेट के साथ स्थानीय संस्कृति ग़ायब हो रही है।",
+        "pron": "ओँ पू-ग़ै तॉब-झ़ैक-ते कö ला कूल-त्üग़ लो-काल दिस-पा-ग़ै आ-वैक ऐँ-तैग़-नैत"
+      }
+    ],
+    "tip": {
+      "en": "The examiner gives credit for nuance. A one-sided answer ('Les écrans, c'est mauvais') sounds B1; a concession followed by a precise refutation sounds B2. Keep one 'for' and one 'against' example ready for each big topic: screens, environment, culture, work.",
+      "hi": "परीक्षक बारीकी के लिए अंक देता है। एकतरफ़ा जवाब ('Les écrans, c'est mauvais') B1 जैसा लगता है; रियायत के बाद सटीक खंडन B2 जैसा लगता है। हर बड़े विषय (स्क्रीन, पर्यावरण, संस्कृति, काम) के लिए एक 'पक्ष' और एक 'विपक्ष' उदाहरण तैयार रखिए।"
+    }
+  },
+  "reading": {
+    "genre": "opinion",
+    "title": "Et si on apprenait à débrancher ?",
+    "text": "Il y a vingt ans, on nous promettait que la technologie nous ferait gagner du temps. Aujourd'hui, nous n'avons jamais eu autant d'outils numériques… ni aussi peu de temps libre. Faut-il pour autant rejeter le progrès ? Évidemment pas. Mais il est urgent de réapprendre à nous en servir.\n\nCertes, les téléphones intelligents ont transformé nos vies pour le mieux. Ils permettent à une grand-mère de Gaspé de voir ses petits-enfants installés à Vancouver, à un nouvel arrivant de trouver un emploi en quelques clics, à un agriculteur de suivre la météo heure par heure. Personne ne souhaite revenir aux cabines téléphoniques.\n\nIl n'en reste pas moins que ces appareils sont conçus pour capter notre attention le plus longtemps possible. Les notifications, le défilement sans fin, les vidéos qui s'enchaînent automatiquement : rien de tout cela n'est un hasard. Résultat, beaucoup d'entre nous consultent leur téléphone des dizaines de fois par jour, souvent sans raison.\n\nOn pourrait objecter que chacun est libre de ranger son appareil. C'est vrai en théorie. En pratique, bien que nous soyons des adultes responsables, nous luttons contre des applications créées par des équipes d'ingénieurs dont le métier est précisément de nous retenir.\n\nAlors, que faire ? D'abord, enseigner à l'école le fonctionnement de ces applications, comme on enseigne la nutrition. Ensuite, encourager les employeurs à respecter le droit à la déconnexion après les heures de travail. Enfin, à la maison, créer des zones sans écran : la table du souper, la chambre à coucher.\n\nLa technologie n'est ni bonne ni mauvaise ; elle est puissante. À nous de décider si elle reste un outil à notre service ou si nous devenons, peu à peu, des outils à son service.",
+    "translation": {
+      "en": "Twenty years ago, we were promised that technology would save us time. Today, we have never had so many digital tools… or so little free time. Should we therefore reject progress? Obviously not. But it is urgent to relearn how to use it.\n\nAdmittedly, smartphones have transformed our lives for the better. They allow a grandmother in Gaspé to see her grandchildren who live in Vancouver, a newcomer to find a job in a few clicks, a farmer to follow the weather hour by hour. Nobody wants to go back to phone booths.\n\nThe fact remains that these devices are designed to capture our attention for as long as possible. Notifications, endless scrolling, videos that play one after another automatically: none of this is a coincidence. As a result, many of us check our phone dozens of times a day, often for no reason.\n\nOne could object that everyone is free to put their device away. That's true in theory. In practice, although we are responsible adults, we are fighting against apps created by teams of engineers whose job is precisely to keep us hooked.\n\nSo what should we do? First, teach at school how these apps work, just as we teach nutrition. Next, encourage employers to respect the right to disconnect after working hours. Finally, at home, create screen-free zones: the dinner table, the bedroom.\n\nTechnology is neither good nor bad; it is powerful. It is up to us to decide whether it remains a tool at our service or whether we gradually become tools at its service.",
+      "hi": "बीस साल पहले हमसे वादा किया गया था कि तकनीक हमारा समय बचाएगी। आज हमारे पास इतने डिजिटल साधन पहले कभी नहीं थे… और न ही इतना कम ख़ाली समय। तो क्या हमें प्रगति को ठुकरा देना चाहिए? बिल्कुल नहीं। पर उसका इस्तेमाल दोबारा सीखना ज़रूरी हो गया है।\n\nमाना कि स्मार्टफ़ोन ने हमारी ज़िंदगी बेहतर बना दी है। उनकी वजह से गास्पे की एक दादी वैंकूवर में बसे अपने पोते-पोतियों को देख पाती है, एक नया आया व्यक्ति कुछ क्लिक में नौकरी ढूँढ लेता है, एक किसान घंटे-घंटे का मौसम देख सकता है। कोई भी टेलीफ़ोन बूथ के ज़माने में लौटना नहीं चाहता।\n\nफिर भी सच यह है कि ये उपकरण इस तरह बनाए गए हैं कि हमारा ध्यान ज़्यादा से ज़्यादा देर तक बाँधे रखें। नोटिफ़िकेशन, कभी न ख़त्म होने वाली स्क्रॉलिंग, अपने-आप एक के बाद एक चलने वाले वीडियो: इनमें से कुछ भी संयोग नहीं है। नतीजा यह कि हममें से बहुत से लोग दिन में दर्जनों बार फ़ोन देखते हैं, अक्सर बिना किसी वजह के।\n\nकोई यह आपत्ति कर सकता है कि हर कोई अपना फ़ोन रखने के लिए आज़ाद है। सिद्धांत में यह सच है। व्यवहार में, हालाँकि हम ज़िम्मेदार वयस्क हैं, हम ऐसे ऐप से लड़ रहे हैं जिन्हें इंजीनियरों की टीमों ने बनाया है और जिनका काम ही हमें बाँधे रखना है।\n\nतो क्या करें? पहले, स्कूल में इन ऐप के काम करने का तरीक़ा सिखाया जाए, जैसे पोषण सिखाया जाता है। फिर, नियोक्ताओं को काम के घंटों के बाद 'डिस्कनेक्ट होने के अधिकार' का सम्मान करने के लिए प्रेरित किया जाए। आख़िर में, घर पर बिना स्क्रीन वाले क्षेत्र बनाए जाएँ: रात के खाने की मेज़, सोने का कमरा।\n\nतकनीक न अच्छी है, न बुरी; वह ताक़तवर है। यह हम पर है कि वह हमारी सेवा में एक साधन बनी रहे, या हम धीरे-धीरे उसकी सेवा के साधन बन जाएँ।"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "What is the author's main position?"
+        },
+        "options": [
+          "Only children should limit their screen use",
+          "We should keep technology but learn to use it better",
+          "We should reject digital technology",
+          "Technology has no effect on our lives"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Faut-il pour autant rejeter le progrès ? Évidemment pas. Mais il est urgent de réapprendre à nous en servir.'",
+          "hi": "'faut-il pour autant rejeter le progrès ? évidemment pas.' — तकनीक रखिए, पर उसका इस्तेमाल बेहतर सीखिए।"
+        },
+        "kind": "gist",
+        "evidence": "Mais il est urgent de réapprendre à nous en servir."
+      },
+      {
+        "q": {
+          "en": "What is the function of the second paragraph (the grandmother, the newcomer, the farmer)?"
+        },
+        "options": [
+          "The author's conclusion",
+          "A criticism of farmers",
+          "A list of dangerous apps",
+          "A concession with examples of benefits"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "It begins with 'Certes' and gives positive examples before the refutation 'Il n'en reste pas moins que…'.",
+          "hi": "यह 'certes' से शुरू होता है और खंडन ('il n'en reste pas moins que…') से पहले फ़ायदों के उदाहरण देता है।"
+        },
+        "kind": "inference",
+        "evidence": "Certes, les téléphones intelligents ont transformé nos vies pour le mieux."
+      },
+      {
+        "q": {
+          "en": "According to the author, why do we check our phones so often?"
+        },
+        "options": [
+          "Devices and apps are designed to capture our attention",
+          "We receive too many work emails",
+          "Phones are cheaper than before",
+          "Schools require it"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Ces appareils sont conçus pour capter notre attention le plus longtemps possible… rien de tout cela n'est un hasard.'",
+          "hi": "'ces appareils sont conçus pour capter notre attention' — ये ध्यान खींचने के लिए बनाए गए हैं।"
+        },
+        "kind": "literal",
+        "evidence": "ces appareils sont conçus pour capter notre attention le plus longtemps possible."
+      },
+      {
+        "q": {
+          "en": "How does the author answer the objection that 'everyone is free to put their device away'?"
+        },
+        "options": [
+          "Phones cannot be switched off",
+          "The law forbids it",
+          "We are fighting apps built by experts to keep us hooked",
+          "Adults are not responsible"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'C'est vrai en théorie. En pratique… nous luttons contre des applications créées par des équipes d'ingénieurs…'",
+          "hi": "'c'est vrai en théorie. en pratique…' — हम विशेषज्ञ इंजीनियरों के बनाए ऐप से लड़ रहे हैं।"
+        },
+        "kind": "inference",
+        "evidence": "nous luttons contre des applications créées par des équipes d'ingénieurs dont le métier est précisément de nous retenir."
+      },
+      {
+        "q": {
+          "en": "Which solution is NOT proposed?"
+        },
+        "options": [
+          "Screen-free zones at home",
+          "Banning smartphones for adults",
+          "Teaching how apps work at school",
+          "A right to disconnect after work"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "The three solutions are school education, the 'droit à la déconnexion' and 'zones sans écran'. No ban is proposed.",
+          "hi": "तीन उपाय हैं: स्कूल में शिक्षा, 'droit à la déconnexion' और 'zones sans écran'। कोई पाबंदी नहीं सुझाई गई।"
+        },
+        "kind": "literal",
+        "evidence": "D'abord, enseigner à l'école le fonctionnement de ces applications, comme on enseigne la nutrition."
+      },
+      {
+        "q": {
+          "en": "In the last sentence, the author warns that we might…"
+        },
+        "options": [
+          "lose our jobs to engineers",
+          "stop using the internet",
+          "become better at technology",
+          "become tools serving technology"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'… ou si nous devenons, peu à peu, des outils à son service.' — a reversal of 'outil à notre service'.",
+          "hi": "'… ou si nous devenons, peu à peu, des outils à son service' — हम ख़ुद तकनीक के साधन बन सकते हैं।"
+        },
+        "kind": "inference",
+        "evidence": "si nous devenons, peu à peu, des outils à son service."
+      }
+    ]
+  },
+  "writing": {
+    "type": "opinion_letter",
+    "prompt": {
+      "en": "TEF section B style (35 minutes). A newspaper published: 'Les écoles secondaires devraient interdire complètement les téléphones cellulaires, même pendant les pauses.' Write a letter to the newspaper (at least 200 words) giving your opinion. Develop three arguments, include at least one concession + refutation, and support your points with examples.",
+      "hi": "TEF भाग B शैली (35 मिनट)। एक अख़बार ने छापा: 'Les écoles secondaires devraient interdire complètement les téléphones cellulaires, même pendant les pauses.' अख़बार को एक पत्र लिखिए (कम से कम 200 शब्द) जिसमें आपकी राय हो। तीन तर्क विकसित कीजिए, कम से कम एक रियायत + खंडन शामिल कीजिए, और अपनी बातों को उदाहरणों से मज़बूत कीजिए।",
+      "fr": "« Les écoles secondaires devraient interdire complètement les téléphones cellulaires, même pendant les pauses. » Qu'en pensez-vous ?"
+    },
+    "minWords": 200,
+    "maxWords": 300,
+    "hints": [
+      {
+        "en": "Plan: introduction (refer to the article + your position) → argument 1 → argument 2 → concession + refutation → conclusion with a proposal.",
+        "hi": "योजना: भूमिका (लेख का ज़िक्र + आपकी राय) → तर्क 1 → तर्क 2 → रियायत + खंडन → प्रस्ताव के साथ निष्कर्ष।"
+      },
+      {
+        "en": "Use bien que + subjunctive once and certes… mais once.",
+        "hi": "एक बार bien que + subjonctif और एक बार certes… mais इस्तेमाल कीजिए।"
+      },
+      {
+        "en": "Prefer concrete examples (a student, a school, your own experience) to invented statistics.",
+        "hi": "गढ़े हुए आँकड़ों की जगह ठोस उदाहरण दीजिए (कोई विद्यार्थी, कोई स्कूल, आपका अपना अनुभव)।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "C'est avec intérêt que j'ai lu votre article sur…",
+        "en": "I read your article on… with interest.",
+        "hi": "मैंने … पर आपका लेख रुचि के साथ पढ़ा।",
+        "pron": "सै ता-वैक ऐँ-ते-ग़ै कö झ़े लü वॉत्ग़ आग़-तीक्ल स्üग़"
+      },
+      {
+        "fr": "Bien que cette mesure soit tentante, …",
+        "en": "Although this measure is tempting, …",
+        "hi": "हालाँकि यह क़दम लुभावना है, …",
+        "pron": "ब्यैँ कö सैत मö-ज़üग़ स्वा ताँ-ताँत"
+      },
+      {
+        "fr": "Il n'en reste pas moins que…",
+        "en": "The fact remains that…",
+        "hi": "फिर भी सच यह है कि…",
+        "pron": "इल नाँ ग़ैस्त पा म्वैँ कö"
+      },
+      {
+        "fr": "En conclusion, je suis convaincu que…",
+        "en": "In conclusion, I am convinced that…",
+        "hi": "निष्कर्ष में, मुझे पूरा विश्वास है कि…",
+        "pron": "आँ कोँ-क्लü-ज़्योँ झ़ö स्üई कोँ-वैँ-क्ü कö"
+      }
+    ],
+    "model": {
+      "fr": "Madame, Monsieur,\n\nC'est avec intérêt que j'ai lu votre article proposant d'interdire complètement les téléphones cellulaires dans les écoles secondaires. Je suis en grande partie d'accord, mais pas pour les pauses.\n\nTout d'abord, en classe, le téléphone est une source constante de distraction. Mon neveu, qui est en quatrième secondaire, m'a raconté qu'il recevait parfois vingt notifications pendant un seul cours de mathématiques. Comment se concentrer dans ces conditions ? Interdire les téléphones pendant les cours me paraît donc indispensable.\n\nEnsuite, une interdiction claire protège les élèves les plus fragiles. Les photos prises sans permission et les messages blessants circulent souvent pendant la journée scolaire. Moins de téléphones, c'est aussi moins d'occasions d'intimidation.\n\nCertes, certains diront qu'il faut aller plus loin et confisquer les appareils toute la journée. Pourtant, bien que cette mesure soit tentante, elle me semble excessive. Pendant les pauses, beaucoup d'adolescents appellent leurs parents ou organisent un trajet après l'école. De plus, une interdiction totale empêche d'apprendre à utiliser son téléphone de façon responsable, ce qui est justement l'un des rôles de l'école.\n\nEn conclusion, je suis convaincu qu'il faut interdire les téléphones en classe, tout en laissant aux élèves une certaine liberté pendant les pauses. Il n'en reste pas moins que les parents doivent, eux aussi, donner l'exemple à la maison.\n\nVeuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.\n\nVikram Shah, Laval",
+      "en": "Dear Sir or Madam,\n\nI read with interest your article proposing a complete ban on mobile phones in secondary schools. I largely agree, but not for breaks.\n\nFirst of all, in class, the phone is a constant source of distraction. My nephew, who is in Secondary 4, told me he sometimes received twenty notifications during a single maths class. How can anyone concentrate in those conditions? Banning phones during classes therefore seems essential to me.\n\nNext, a clear ban protects the most vulnerable students. Photos taken without permission and hurtful messages often circulate during the school day. Fewer phones also means fewer opportunities for bullying.\n\nAdmittedly, some will say we should go further and confiscate devices all day. Yet, although this measure is tempting, it seems excessive to me. During breaks, many teenagers call their parents or arrange a ride after school. What's more, a total ban prevents them from learning to use their phone responsibly, which is precisely one of the roles of school.\n\nIn conclusion, I am convinced that phones should be banned in class, while leaving students some freedom during breaks. The fact remains that parents, too, must set an example at home.\n\nYours faithfully,\n\nVikram Shah, Laval"
+    },
+    "checklist": [
+      {
+        "en": "Is your position clear in the introduction and the conclusion?",
+        "hi": "क्या आपकी राय भूमिका और निष्कर्ष में साफ़ है?"
+      },
+      {
+        "en": "Do you have three developed arguments, each with an example?",
+        "hi": "क्या आपके तीन विकसित तर्क हैं, हर एक के साथ उदाहरण?"
+      },
+      {
+        "en": "Did you write at least one concession + refutation (certes… pourtant / bien que + subjunctive)?",
+        "hi": "क्या आपने कम से कम एक रियायत + खंडन लिखा (certes… pourtant / bien que + subjonctif)?"
+      },
+      {
+        "en": "Formal opening and closing formulas for a letter to a newspaper? At least 200 words?",
+        "hi": "अख़बार को पत्र के लिए औपचारिक शुरुआत और अंत? कम से कम 200 शब्द?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      78,
+      89,
+      93,
+      96
+    ],
+    "items": [
+      {
+        "fr": "C'est pourquoi la Ville a créé une piste cyclable.",
+        "en": "That's why the City created a bike path.",
+        "hi": "इसीलिए नगर-पालिका ने साइकिल पथ बनाया।",
+        "pron": "सै पूग़-क्वा ला वील आ क्ग़े-ए üन पीस्त सी-क्लाब्ल"
+      },
+      {
+        "fr": "Par conséquent, les émissions ont baissé.",
+        "en": "Consequently, emissions went down.",
+        "hi": "नतीजतन, उत्सर्जन कम हो गया।",
+        "pron": "पाग़ कोँ-से-काँ ले ज़े-मी-स्योँ ओँ बै-से"
+      },
+      {
+        "fr": "Je suis tout à fait opposé à cette mesure.",
+        "en": "I am completely opposed to this measure.",
+        "hi": "मैं इस क़दम का पूरी तरह विरोध करता हूँ।",
+        "pron": "झ़ö स्üई तू ता फ़ै तो-पो-ज़े आ सैत मö-ज़üग़"
+      },
+      {
+        "fr": "Veuillez agréer l'expression de mes salutations distinguées.",
+        "en": "Yours faithfully (formal closing).",
+        "hi": "सादर (औपचारिक पत्र का अंत)।",
+        "pron": "वö-ये ज़ा-ग्ग़े-ए लैक-स्प्ग़ै-स्योँ दö मे सा-लü-ता-स्योँ दिस-तैँ-गे"
+      },
+      {
+        "fr": "Selon les experts, le projet serait trop coûteux.",
+        "en": "According to experts, the project would be too costly.",
+        "hi": "विशेषज्ञों के अनुसार, परियोजना बहुत महँगी होगी।",
+        "pron": "सö-लोँ ले ज़ैक-स्पैग़ लö प्ग़ो-झ़ै सö-ग़ै त्ग़ो कू-तö"
+      },
+      {
+        "fr": "Sans compter que les cours sont gratuits.",
+        "en": "Not to mention that the classes are free.",
+        "hi": "ऊपर से क्लासें मुफ़्त हैं।",
+        "pron": "साँ कोँ-ते कö ले कूग़ सोँ ग्ग़ा-त्üई"
+      },
+      {
+        "fr": "Au contraire, c'est une excellente façon de progresser.",
+        "en": "On the contrary, it's an excellent way to improve.",
+        "hi": "इसके उलट, यह सुधरने का बहुत अच्छा तरीक़ा है।",
+        "pron": "ओ कोँ-त्ग़ैग़ सै तüन ऐक-से-लाँत फ़ा-सोँ दö प्ग़ो-ग्ग़े-से"
+      },
+      {
+        "fr": "Les nouveaux autobus ont été mis en service en mai.",
+        "en": "The new buses were put into service in May.",
+        "hi": "नई बसें मई में सेवा में लाई गईं।",
+        "pron": "ले नू-वो ज़ो-तो-ब्üस ओँ ते-ते मी ज़ाँ सैग़-वीस आँ मै"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Choose the correct sentence.",
+        "hi": "सही वाक्य चुनिए।"
+      },
+      "options": [
+        "Bien que les écrans soient utiles, ils nuisent au sommeil.",
+        "Bien que les écrans sont utiles, ils nuisent au sommeil.",
+        "Bien que les écrans soient utiles, mais ils nuisent au sommeil.",
+        "Même si les écrans soient utiles, ils nuisent au sommeil."
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Bien que + subjunctive, no 'mais'; même si + indicative.",
+        "hi": "bien que + subjonctif, mais नहीं; même si + indicatif।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete the concession: Admittedly, it's practical, but it's expensive.",
+        "hi": "रियायत पूरी कीजिए: माना कि यह सुविधाजनक है, पर महँगा है।"
+      },
+      "sentence": "___, c'est pratique, mais c'est cher.",
+      "answer": "Certes",
+      "accept": [
+        "certes"
+      ],
+      "explanation": {
+        "en": "Certes… mais… = admittedly… but…",
+        "hi": "certes… mais… = माना कि… पर…"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Il n'en reste pas moins que…' is used to…",
+        "hi": "'Il n'en reste pas moins que…' का इस्तेमाल होता है…"
+      },
+      "options": [
+        "agree completely with the other side",
+        "ask a question",
+        "maintain your point after a concession",
+        "introduce a first example"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "It means 'the fact remains that' — you keep your position despite what you conceded.",
+        "hi": "इसका मतलब है 'फिर भी सच यह है कि' — रियायत के बावजूद आप अपनी राय पर टिके रहते हैं।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: Half of the students have a phone (verb avoir).",
+        "hi": "पूरा कीजिए: आधे विद्यार्थियों के पास फ़ोन है (क्रिया avoir)।"
+      },
+      "sentence": "La moitié des élèves ___ un téléphone.",
+      "answer": "ont",
+      "accept": [
+        "a"
+      ],
+      "explanation": {
+        "en": "With 'la moitié des + plural noun', the verb usually agrees with the noun: ont (a is also accepted).",
+        "hi": "'la moitié des + बहुवचन संज्ञा' के साथ क्रिया आम तौर पर संज्ञा से मेल खाती है: ont (a भी स्वीकार्य है)।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "According to a poll, a third of parents are worried.",
+        "hi": "एक सर्वे के अनुसार, एक-तिहाई माता-पिता चिंतित हैं।"
+      },
+      "answer": "Selon un sondage, un tiers des parents sont inquiets.",
+      "accept": [
+        "Selon un sondage, un tiers des parents est inquiet.",
+        "D'après un sondage, un tiers des parents sont inquiets.",
+        "Selon un sondage, un tiers des parents s'inquiètent."
+      ],
+      "explanation": {
+        "en": "Selon / d'après + source; un tiers des + noun.",
+        "hi": "selon / d'après + स्रोत; un tiers des + संज्ञा।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Les écrans nuisent au sommeil' means screens…",
+        "hi": "'Les écrans nuisent au sommeil' का मतलब है स्क्रीन…"
+      },
+      "options": [
+        "replace sleep",
+        "measure sleep",
+        "harm sleep",
+        "improve sleep"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Nuire à = to harm.",
+        "hi": "nuire à = नुक़सान पहुँचाना।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put in order: One could object that remote work isolates people.",
+        "hi": "क्रम में रखिए: कोई कह सकता है कि घर से काम अकेला कर देता है।"
+      },
+      "words": [
+        "pourrait",
+        "On",
+        "objecter",
+        "que",
+        "le",
+        "télétravail",
+        "isole"
+      ],
+      "answer": "On pourrait objecter que le télétravail isole.",
+      "explanation": {
+        "en": "On + conditional pourrait + objecter que + clause.",
+        "hi": "on + conditionnel pourrait + objecter que + उपवाक्य।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "Let's take the example of public transit.",
+        "hi": "सार्वजनिक परिवहन का उदाहरण लेते हैं।"
+      },
+      "answer": "Prenons l'exemple des transports en commun.",
+      "accept": [
+        "Prenons l'exemple du transport en commun.",
+        "Prenons l'exemple des transports publics.",
+        "Prenons l'exemple des transports en commun"
+      ],
+      "explanation": {
+        "en": "Prenons = imperative nous of prendre; de + les = des.",
+        "hi": "prenons = prendre का nous वाला आज्ञार्थ रूप; de + les = des।"
+      }
+    }
+  ]
+}

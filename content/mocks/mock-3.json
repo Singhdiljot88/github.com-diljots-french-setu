@@ -1,0 +1,2386 @@
+{
+  "id": "mock-3",
+  "title": "Practice exam 3",
+  "disclaimer": "Original practice material written for French Setu. Not official TEF material, not recalled or leaked exam content. Results are raw practice scores, not TEF scores, CEFR levels or NCLC levels.",
+  "reading": {
+    "sections": [
+      {
+        "key": "everyday",
+        "title": "Documents de la vie quotidienne",
+        "instruction": "Questions 1–7. Read each short everyday document and choose the correct answer (one answer among four).",
+        "items": [
+          {
+            "document": {
+              "genre": "affiche",
+              "title": "Bibliothèque municipale — Prêt d'ordinateurs",
+              "text": "PRÊT D'ORDINATEURS PORTABLES\nVous n'avez pas d'ordinateur à la maison ? La bibliothèque prête des ordinateurs portables pour 14 jours aux abonnés de 18 ans et plus. Présentez votre carte d'abonné et une pièce d'identité avec photo au comptoir du prêt. Le chargeur est inclus. Aucun renouvellement possible si d'autres abonnés attendent."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que faut-il pour emprunter un ordinateur ?",
+                  "en": "What do you need to borrow a computer?"
+                },
+                "options": [
+                  "Payer un dépôt de garantie.",
+                  "Avoir moins de 18 ans.",
+                  "Montrer sa carte d'abonné et une pièce d'identité.",
+                  "Réserver en ligne 14 jours avant."
+                ],
+                "answer": 2,
+                "kind": "literal",
+                "evidence": "Présentez votre carte d'abonné et une pièce d'identité avec photo",
+                "explanation": {
+                  "en": "The notice asks you to show your library card and photo ID. No deposit or online booking is mentioned, and you must be 18 or over, not under 18.",
+                  "hi": "सूचना में लिखा है कि लाइब्रेरी कार्ड और फ़ोटो वाला पहचान-पत्र दिखाना है। जमानत राशि या ऑनलाइन बुकिंग की कोई बात नहीं है, और उम्र 18 साल या उससे ज़्यादा होनी चाहिए, कम नहीं।"
+                }
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "texto",
+              "title": "Message de Clara",
+              "text": "Salut Mehdi ! Finalement, le spectacle de danse de ce soir est reporté à samedi à cause de la tempête. Les billets restent valables, pas besoin de les échanger. On se retrouve devant le théâtre à 19 h 30 comme prévu ? Bisous, Clara"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Pourquoi Clara écrit-elle à Mehdi ?",
+                  "en": "Why is Clara writing to Mehdi?"
+                },
+                "options": [
+                  "Pour annoncer que le spectacle est annulé définitivement.",
+                  "Pour dire que le spectacle aura lieu un autre jour.",
+                  "Pour lui demander d'échanger les billets.",
+                  "Pour changer l'heure du rendez-vous."
+                ],
+                "answer": 1,
+                "kind": "gist",
+                "evidence": "le spectacle de danse de ce soir est reporté à samedi",
+                "explanation": {
+                  "en": "\"Reporté à samedi\" means postponed to Saturday, not cancelled. The tickets stay valid and the meeting time stays the same (\"comme prévu\").",
+                  "hi": "\"Reporté à samedi\" का मतलब है शनिवार तक टाल दिया गया, रद्द नहीं हुआ। टिकट वही चलेंगे और मिलने का समय भी वही है (\"comme prévu\" = जैसा तय था)।"
+                }
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "petite annonce",
+              "title": "Banque alimentaire du quartier",
+              "text": "On cherche des bénévoles !\nTri des dons, préparation des paniers, accueil des familles. Disponibilité minimale : 3 heures par mois. Aucune expérience requise, formation sur place. Idéal pour pratiquer son français et rencontrer des gens du quartier. Inscription : benevoles@banque-quartier.ca"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle est la condition pour devenir bénévole ?",
+                  "en": "What is the requirement to become a volunteer?"
+                },
+                "options": [
+                  "Donner au moins trois heures par mois.",
+                  "Avoir déjà travaillé dans une banque alimentaire.",
+                  "Parler parfaitement français.",
+                  "Habiter dans le quartier."
+                ],
+                "answer": 0,
+                "kind": "literal",
+                "evidence": "Disponibilité minimale : 3 heures par mois",
+                "explanation": {
+                  "en": "The only requirement is a minimum of 3 hours a month. No experience is needed, and French practice is presented as a benefit, not a condition.",
+                  "hi": "एकमात्र शर्त है महीने में कम से कम 3 घंटे देना। अनुभव ज़रूरी नहीं है, और फ़्रेंच का अभ्यास एक फ़ायदा बताया गया है, शर्त नहीं।"
+                }
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "avis",
+              "title": "Avis aux locataires",
+              "text": "AVIS AUX LOCATAIRES — Collecte des appareils électroniques\nLe samedi 12 octobre, de 9 h à 13 h, un conteneur sera installé dans le stationnement arrière. Vous pourrez y déposer vos vieux téléphones, ordinateurs, imprimantes et câbles. Attention : les téléviseurs et les piles ne sont pas acceptés. Merci de ne rien laisser dans les couloirs.\nLa gérance"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Qu'est-ce qu'on ne peut PAS déposer dans le conteneur ?",
+                  "en": "What can you NOT put in the container?"
+                },
+                "options": [
+                  "Un vieux téléphone.",
+                  "Une imprimante.",
+                  "Des câbles.",
+                  "Un téléviseur."
+                ],
+                "answer": 3,
+                "kind": "literal",
+                "evidence": "les téléviseurs et les piles ne sont pas acceptés",
+                "explanation": {
+                  "en": "Phones, computers, printers and cables are accepted; TVs and batteries are not.",
+                  "hi": "फ़ोन, कंप्यूटर, प्रिंटर और केबल रखे जा सकते हैं; टीवी और बैटरियाँ नहीं।"
+                }
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "notification",
+              "title": "Application de transport en commun",
+              "text": "Une nouvelle version de l'application est disponible. Elle corrige le problème d'affichage des horaires en temps réel. Si vous ne faites pas la mise à jour avant le 30 novembre, l'application ne pourra plus acheter de titres de transport. Vos titres déjà achetés resteront valides."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que se passera-t-il sans mise à jour après le 30 novembre ?",
+                  "en": "What will happen after 30 November without the update?"
+                },
+                "options": [
+                  "Les titres déjà achetés seront annulés.",
+                  "On ne pourra plus acheter de titres avec l'application.",
+                  "Les horaires ne s'afficheront plus du tout.",
+                  "L'application sera supprimée du téléphone."
+                ],
+                "answer": 1,
+                "kind": "literal",
+                "evidence": "l'application ne pourra plus acheter de titres de transport",
+                "explanation": {
+                  "en": "Without the update you can no longer buy tickets. Tickets already bought stay valid, so option A is the opposite of the text.",
+                  "hi": "अपडेट न करने पर ऐप से टिकट नहीं ख़रीद पाएँगे। पहले से ख़रीदे टिकट मान्य रहेंगे, इसलिए पहला विकल्प पाठ के उलट है।"
+                }
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "panneau",
+              "title": "Musée des beaux-arts — Horaires",
+              "text": "Du mardi au dimanche : 10 h – 17 h\nNocturne le mercredi jusqu'à 21 h\nFermé le lundi\nEntrée gratuite le premier dimanche du mois\nDernière admission 30 minutes avant la fermeture"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Un visiteur arrive au musée un mercredi à 20 h. Que se passe-t-il ?",
+                  "en": "A visitor arrives at the museum on a Wednesday at 8 p.m. What happens?"
+                },
+                "options": [
+                  "Il peut entrer, car le musée ferme à 21 h ce jour-là.",
+                  "Il ne peut pas entrer, car le musée est fermé le mercredi.",
+                  "Il entre gratuitement.",
+                  "Il doit revenir le lundi."
+                ],
+                "answer": 0,
+                "kind": "inference",
+                "evidence": "Nocturne le mercredi jusqu'à 21 h",
+                "explanation": {
+                  "en": "On Wednesdays the museum is open late until 9 p.m., and the last admission is 30 minutes before closing (8:30 p.m.), so 8 p.m. is fine. Free entry is only on the first Sunday; Monday is closed.",
+                  "hi": "बुधवार को संग्रहालय रात 9 बजे तक खुला रहता है और आख़िरी प्रवेश बंद होने से 30 मिनट पहले (8:30) तक है, इसलिए 8 बजे अंदर जा सकते हैं। मुफ़्त प्रवेश सिर्फ़ महीने के पहले रविवार को है; सोमवार को बंद रहता है।"
+                }
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "petite annonce",
+              "title": "Échange linguistique",
+              "text": "Je m'appelle Lucie, je suis Québécoise et j'apprends le pendjabi. Je propose une heure de conversation en français contre une heure en pendjabi, dans un café près du métro, le jeudi soir. Débutants bienvenus ! Écrivez-moi par la messagerie du site."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que propose Lucie ?",
+                  "en": "What is Lucie offering?"
+                },
+                "options": [
+                  "Des cours de français payants.",
+                  "Un emploi dans un café.",
+                  "Des cours de pendjabi en ligne.",
+                  "Un échange de conversation entre deux langues."
+                ],
+                "answer": 3,
+                "kind": "gist",
+                "evidence": "une heure de conversation en français contre une heure en pendjabi",
+                "explanation": {
+                  "en": "\"Contre\" here means \"in exchange for\": one hour of French for one hour of Punjabi. Nothing is paid, and it happens in person in a café.",
+                  "hi": "यहाँ \"contre\" का मतलब है \"के बदले में\": एक घंटा फ़्रेंच के बदले एक घंटा पंजाबी। कोई पैसा नहीं, और मुलाक़ात कैफ़े में आमने-सामने होगी।"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "gaps",
+        "title": "Phrases et texte à trous",
+        "instruction": "Questions 8–17. Choose the word or phrase that correctly fills each gap (___).",
+        "items": [
+          {
+            "document": {
+              "genre": "phrase à trous",
+              "title": "Question 8",
+              "text": "Depuis que je suis arrivée au Canada, je ___ bénévole dans un centre communautaire."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle forme convient ?",
+                  "en": "Which form fits?"
+                },
+                "options": [
+                  "suis",
+                  "serai",
+                  "étais",
+                  "sois"
+                ],
+                "answer": 0,
+                "kind": "grammar",
+                "explanation": {
+                  "en": "\"Depuis\" + an action still going on takes the present tense in French (\"je suis bénévole depuis…\" = I have been a volunteer since…). English uses the present perfect here; French does not.",
+                  "hi": "जो काम अब भी जारी है, उसके साथ \"depuis\" आने पर फ़्रेंच में वर्तमान काल लगता है (\"je suis bénévole depuis…\" = मैं तब से स्वयंसेवक हूँ)। अंग्रेज़ी में यहाँ present perfect होता है, फ़्रेंच में नहीं।"
+                }
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "phrase à trous",
+              "title": "Question 9",
+              "text": "Le formulaire ___ vous m'avez parlé n'est plus disponible en ligne."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quel pronom relatif convient ?",
+                  "en": "Which relative pronoun fits?"
+                },
+                "options": [
+                  "que",
+                  "où",
+                  "lequel",
+                  "dont"
+                ],
+                "answer": 3,
+                "kind": "grammar",
+                "explanation": {
+                  "en": "The verb is \"parler de quelque chose\". When the verb takes \"de\", the relative pronoun is \"dont\": le formulaire dont vous m'avez parlé = the form you told me about.",
+                  "hi": "क्रिया \"parler de\" (किसी के बारे में बात करना) है। जब क्रिया के साथ \"de\" आता है, तो संबंधवाचक सर्वनाम \"dont\" होता है: le formulaire dont vous m'avez parlé = वह फ़ॉर्म जिसके बारे में आपने मुझसे बात की थी।"
+                }
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "phrase à trous",
+              "title": "Question 10",
+              "text": "Il faudrait que tu ___ ton logiciel avant la réunion de demain."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle forme convient ?",
+                  "en": "Which form fits?"
+                },
+                "options": [
+                  "mets à jour",
+                  "mettras à jour",
+                  "mettes à jour",
+                  "mettais à jour"
+                ],
+                "answer": 2,
+                "kind": "grammar",
+                "explanation": {
+                  "en": "\"Il faut que / il faudrait que\" is always followed by the subjunctive: que tu mettes. The present \"mets\" sounds the same but is the wrong mood in writing.",
+                  "hi": "\"Il faut que / il faudrait que\" के बाद हमेशा subjonctif (संभावनार्थ) आता है: que tu mettes। \"mets\" सुनने में एक-सा लगता है, पर लिखने में ग़लत है।"
+                }
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "phrase à trous",
+              "title": "Question 11",
+              "text": "Le festival a été un grand succès, ___ la pluie qui est tombée tout l'après-midi."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quel mot convient ?",
+                  "en": "Which word fits?"
+                },
+                "options": [
+                  "grâce à",
+                  "malgré",
+                  "à cause de",
+                  "puisque"
+                ],
+                "answer": 1,
+                "kind": "vocabulary",
+                "explanation": {
+                  "en": "Success despite the rain is a contrast, so \"malgré\" (despite). \"Grâce à\" (thanks to) and \"à cause de\" (because of) express cause, and \"puisque\" must be followed by a verb clause.",
+                  "hi": "बारिश के बावजूद सफलता — यह विरोध है, इसलिए \"malgré\" (के बावजूद)। \"Grâce à\" (की बदौलत) और \"à cause de\" (की वजह से) कारण बताते हैं, और \"puisque\" के बाद पूरा वाक्य (क्रिया के साथ) आता है।"
+                }
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "lettre d'information",
+              "title": "Centre d'accueil des nouveaux arrivants — Atelier numérique",
+              "text": "Chers membres,\nNotre atelier « Premiers pas numériques » reprendra le 4 novembre. L'an dernier, (1) ___ 80 nouveaux arrivants y ont participé. Les séances (2) ___ lieu le mardi soir dans la salle informatique. Vous y apprendrez à créer un compte en ligne, à remplir des formulaires (3) ___ à protéger vos données personnelles. (4) ___ vous n'avez pas d'ordinateur, nous vous en prêterons un pendant la séance. Les places étant (5) ___, nous vous conseillons de vous inscrire rapidement. Nous remercions enfin les bénévoles (6) ___ ont rendu ce projet possible.\nL'équipe du Centre"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quel mot convient pour le blanc (1) ?",
+                  "en": "Which word fits gap (1)?"
+                },
+                "options": [
+                  "plus de",
+                  "plus que",
+                  "autant",
+                  "beaucoup"
+                ],
+                "answer": 0,
+                "kind": "grammar",
+                "explanation": {
+                  "en": "Before a number, French uses \"plus de\" (more than 80), not \"plus que\", which is used for comparisons between two things.",
+                  "hi": "किसी संख्या से पहले \"plus de\" आता है (80 से ज़्यादा), \"plus que\" नहीं — \"plus que\" दो चीज़ों की तुलना में इस्तेमाल होता है।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Quel mot convient pour le blanc (2) ?",
+                  "en": "Which word fits gap (2)?"
+                },
+                "options": [
+                  "feront",
+                  "auront",
+                  "seront",
+                  "prendront"
+                ],
+                "answer": 1,
+                "kind": "vocabulary",
+                "explanation": {
+                  "en": "The fixed expression is \"avoir lieu\" (to take place): les séances auront lieu. Don't translate \"take place\" word for word as \"prendre place\".",
+                  "hi": "तय मुहावरा है \"avoir lieu\" (होना / आयोजित होना): les séances auront lieu। अंग्रेज़ी \"take place\" का शब्दशः अनुवाद \"prendre place\" मत कीजिए।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Quel mot convient pour le blanc (3) ?",
+                  "en": "Which word fits gap (3)?"
+                },
+                "options": [
+                  "et",
+                  "ou",
+                  "mais",
+                  "donc"
+                ],
+                "answer": 0,
+                "kind": "grammar",
+                "explanation": {
+                  "en": "This is a list of three things you will learn: create an account, fill in forms and protect your data. The last item is joined with \"et\".",
+                  "hi": "यह तीन बातों की सूची है जो आप सीखेंगे: खाता बनाना, फ़ॉर्म भरना और अपना डेटा सुरक्षित रखना। आख़िरी चीज़ \"et\" (और) से जुड़ती है।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Quel mot convient pour le blanc (4) ?",
+                  "en": "Which word fits gap (4)?"
+                },
+                "options": [
+                  "Même",
+                  "Si",
+                  "Quand même",
+                  "Bien que"
+                ],
+                "answer": 1,
+                "kind": "grammar",
+                "explanation": {
+                  "en": "A condition: IF you have no computer, we will lend you one. \"Si\" + present, then future. \"Bien que\" would need the subjunctive and means \"although\".",
+                  "hi": "यह शर्त है: अगर आपके पास कंप्यूटर नहीं है, तो हम दे देंगे। \"Si\" + वर्तमान, फिर भविष्य काल। \"Bien que\" का अर्थ \"हालाँकि\" है और उसके बाद subjonctif आता है।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Quel mot convient pour le blanc (5) ?",
+                  "en": "Which word fits gap (5)?"
+                },
+                "options": [
+                  "limités",
+                  "limitée",
+                  "limitant",
+                  "limitées"
+                ],
+                "answer": 3,
+                "kind": "grammar",
+                "explanation": {
+                  "en": "\"Les places\" is feminine plural, so the adjective takes -es: \"limitées\". \"Étant\" here means \"being\" (since the places are limited).",
+                  "hi": "\"Les places\" स्त्रीलिंग बहुवचन है, इसलिए विशेषण \"limitées\" होगा। फ़्रेंच का लिंग (gender) हर बार हिंदी जैसा नहीं होता, इसलिए हर संज्ञा का लिंग अलग से याद रखिए।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Quel mot convient pour le blanc (6) ?",
+                  "en": "Which word fits gap (6)?"
+                },
+                "options": [
+                  "que",
+                  "dont",
+                  "qui",
+                  "lesquels"
+                ],
+                "answer": 2,
+                "kind": "grammar",
+                "explanation": {
+                  "en": "The volunteers are the subject of \"ont rendu\" (the volunteers made the project possible), so the relative pronoun is \"qui\".",
+                  "hi": "स्वयंसेवक \"ont rendu\" क्रिया के कर्ता हैं (उन्होंने परियोजना संभव बनाई), इसलिए संबंधवाचक सर्वनाम \"qui\" होगा।"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "quick",
+        "title": "Lecture rapide",
+        "instruction": "Questions 18–22. Read these documents quickly to find the information you need.",
+        "items": [
+          {
+            "document": {
+              "genre": "tableau",
+              "title": "Sondage : activités culturelles préférées des nouveaux arrivants (en %)",
+              "text": "Activité | 18-34 ans | 35-54 ans | 55 ans et +\nCinéma | 62 | 41 | 28\nFestivals en plein air | 55 | 47 | 30\nMusées | 24 | 33 | 45\nSpectacles de musique | 48 | 36 | 22\nActivités en bibliothèque | 19 | 38 | 51\nSource : enquête fictive auprès de 1 200 personnes installées depuis moins de cinq ans."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle activité est la plus populaire chez les 55 ans et plus ?",
+                  "en": "Which activity is most popular among people aged 55 and over?"
+                },
+                "options": [
+                  "Le cinéma.",
+                  "Les musées.",
+                  "Les activités en bibliothèque.",
+                  "Les festivals en plein air."
+                ],
+                "answer": 2,
+                "kind": "literal",
+                "evidence": "Activités en bibliothèque | 19 | 38 | 51",
+                "explanation": {
+                  "en": "In the last column, library activities have the highest figure (51%), ahead of museums (45%).",
+                  "hi": "आख़िरी कॉलम में लाइब्रेरी की गतिविधियों का आँकड़ा सबसे ऊँचा है (51%), संग्रहालयों (45%) से भी ज़्यादा।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Quelle affirmation correspond au tableau ?",
+                  "en": "Which statement matches the table?"
+                },
+                "options": [
+                  "Les 35-54 ans préfèrent les musées au cinéma.",
+                  "L'intérêt pour le cinéma diminue avec l'âge.",
+                  "Les festivals sont l'activité préférée des 18-34 ans.",
+                  "Les spectacles de musique attirent plus les 55 ans et plus que les 35-54 ans."
+                ],
+                "answer": 1,
+                "kind": "inference",
+                "evidence": "Cinéma | 62 | 41 | 28",
+                "explanation": {
+                  "en": "Cinema goes 62 → 41 → 28: it falls with age. For 35–54, cinema (41) beats museums (33); for 18–34, cinema (62) beats festivals (55); music shows fall from 36 to 22.",
+                  "hi": "सिनेमा 62 → 41 → 28 है: उम्र के साथ घटता है। 35–54 वालों में सिनेमा (41) संग्रहालय (33) से आगे है; 18–34 में सिनेमा (62) त्योहारों (55) से आगे है; संगीत कार्यक्रम 36 से 22 पर गिरते हैं।"
+                }
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "programme",
+              "title": "Fête de quartier interculturelle — Parc des Érables, samedi 21 septembre",
+              "text": "11 h : Ouverture et mot de bienvenue de la mairesse\n11 h 30 – 14 h : Marché des saveurs du monde (plats à moins de 8 $)\n13 h : Atelier de danse bhangra pour toute la famille\n15 h : Concert de la chorale des Nouveaux-Voisins\n16 h 30 : Remise des prix du concours photo « Mon nouveau chez-moi »\nEn cas de pluie, les activités auront lieu au gymnase de l'école Sainte-Anne."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "À quelle heure peut-on apprendre à danser ?",
+                  "en": "At what time can you learn to dance?"
+                },
+                "options": [
+                  "15 h",
+                  "11 h",
+                  "16 h 30",
+                  "13 h"
+                ],
+                "answer": 3,
+                "kind": "literal",
+                "evidence": "13 h : Atelier de danse bhangra pour toute la famille",
+                "explanation": {
+                  "en": "The bhangra dance workshop (\"atelier\") is at 1 p.m. At 3 p.m. there is a choir concert, not a dance class.",
+                  "hi": "भांगड़ा की कार्यशाला (\"atelier\") दोपहर 1 बजे है। 3 बजे गायक-मंडली का कार्यक्रम है, नृत्य की क्लास नहीं।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Que se passe-t-il s'il pleut ?",
+                  "en": "What happens if it rains?"
+                },
+                "options": [
+                  "La fête est annulée.",
+                  "La fête est reportée au dimanche.",
+                  "Les activités ont lieu dans un gymnase.",
+                  "Seul le concert est maintenu."
+                ],
+                "answer": 2,
+                "kind": "literal",
+                "evidence": "En cas de pluie, les activités auront lieu au gymnase",
+                "explanation": {
+                  "en": "\"En cas de pluie\" = if it rains. Everything moves indoors to the school gym; nothing is cancelled or postponed.",
+                  "hi": "\"En cas de pluie\" = बारिश होने पर। सब कुछ स्कूल के जिम में होगा; कुछ भी रद्द या स्थगित नहीं होगा।"
+                }
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "publicité",
+              "title": "Forfait mobile Bienvenue",
+              "text": "Forfait Bienvenue : 35 $/mois. 40 Go de données, appels illimités au Canada, 300 minutes vers l'international (Inde, Maroc, Philippines, etc.). Sans contrat. Aucune vérification de crédit pour les résidents permanents arrivés depuis moins d'un an : présentez simplement votre confirmation de résidence permanente en magasin."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "À qui ce forfait s'adresse-t-il en particulier ?",
+                  "en": "Who is this plan especially aimed at?"
+                },
+                "options": [
+                  "Aux étudiants étrangers sans visa.",
+                  "Aux personnes récemment installées au Canada.",
+                  "Aux entreprises qui appellent l'Inde.",
+                  "Aux personnes qui ont un bon historique de crédit."
+                ],
+                "answer": 1,
+                "kind": "inference",
+                "evidence": "Aucune vérification de crédit pour les résidents permanents arrivés depuis moins d'un an",
+                "explanation": {
+                  "en": "The name \"Bienvenue\", the international minutes and the no-credit-check offer for permanent residents who arrived less than a year ago all point to newcomers.",
+                  "hi": "\"Bienvenue\" (स्वागत) नाम, अंतरराष्ट्रीय मिनट और एक साल से कम पहले आए स्थायी निवासियों के लिए बिना क्रेडिट जाँच की सुविधा — सब नए आए लोगों की ओर इशारा करते हैं।"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "admin",
+        "title": "Documents administratifs et professionnels",
+        "instruction": "Questions 23–32. Read these administrative and workplace documents and answer the questions.",
+        "items": [
+          {
+            "document": {
+              "genre": "courriel professionnel",
+              "title": "Objet : Nouvelle politique de télétravail",
+              "text": "De : Nathalie Gagnon, Ressources humaines\nÀ : Tout le personnel\nObjet : Nouvelle politique de télétravail\n\nBonjour à toutes et à tous,\nÀ partir du 1er janvier, chaque employé pourra travailler de la maison jusqu'à deux jours par semaine, après accord de son gestionnaire. Le mardi restera une journée de présence obligatoire pour l'ensemble des équipes, afin de faciliter les réunions. Les personnes qui souhaitent se prévaloir de cette possibilité doivent remplir le formulaire en ligne avant le 15 décembre. L'entreprise fournira un écran supplémentaire à ceux qui en feront la demande, mais l'achat de mobilier reste à la charge des employés. Pour toute question, je tiendrai une séance d'information le jeudi 5 décembre à midi, dans la salle Laurentides.\nCordialement,\nNathalie Gagnon"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que doivent faire les employés intéressés par le télétravail ?",
+                  "en": "What must employees interested in remote work do?"
+                },
+                "options": [
+                  "Remplir un formulaire en ligne avant le 15 décembre.",
+                  "Écrire directement à Nathalie Gagnon.",
+                  "Assister obligatoirement à la séance d'information.",
+                  "Choisir le mardi comme journée à la maison."
+                ],
+                "answer": 0,
+                "kind": "literal",
+                "evidence": "doivent remplir le formulaire en ligne avant le 15 décembre",
+                "explanation": {
+                  "en": "The online form before 15 December is the required step. The information session is optional (\"pour toute question\"), and Tuesday is the day everyone must be at the office.",
+                  "hi": "ज़रूरी कदम है 15 दिसंबर से पहले ऑनलाइन फ़ॉर्म भरना। सूचना-सत्र वैकल्पिक है (\"pour toute question\" = किसी सवाल के लिए), और मंगलवार को सबको दफ़्तर आना ही है।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Que précise le courriel au sujet du matériel ?",
+                  "en": "What does the email say about equipment?"
+                },
+                "options": [
+                  "L'entreprise paie tout le matériel.",
+                  "Les employés doivent acheter eux-mêmes leurs meubles.",
+                  "Chaque employé recevra automatiquement un écran.",
+                  "Le matériel doit être rapporté au bureau le mardi."
+                ],
+                "answer": 1,
+                "kind": "vocabulary",
+                "evidence": "l'achat de mobilier reste à la charge des employés",
+                "explanation": {
+                  "en": "\"À la charge de\" = paid by. Furniture is paid by employees. The extra screen is given only on request (\"à ceux qui en feront la demande\"), not automatically.",
+                  "hi": "\"À la charge de\" = किसके ख़र्च पर। फ़र्नीचर का ख़र्च कर्मचारी उठाएँगे। अतिरिक्त स्क्रीन सिर्फ़ माँगने पर मिलेगी (\"à ceux qui en feront la demande\"), अपने-आप नहीं।"
+                }
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "règlement",
+              "title": "Charte du bénévole — Centre communautaire Les Passerelles",
+              "text": "1. Le bénévole s'engage à respecter la confidentialité des informations concernant les personnes accueillies.\n2. En cas d'absence, il prévient la coordonnatrice au moins 48 heures à l'avance, sauf urgence.\n3. Le bénévole ne reçoit aucune rémunération. Toutefois, ses frais de déplacement liés aux missions à l'extérieur du centre sont remboursés sur présentation des reçus.\n4. Une vérification des antécédents judiciaires est obligatoire pour toute activité auprès des enfants.\n5. Le centre offre à chaque bénévole une formation de base de six heures et, sur demande, une attestation d'heures de bénévolat, utile notamment pour une recherche d'emploi."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Un bénévole accompagne une personne âgée à l'hôpital en autobus. Selon la charte, il peut…",
+                  "en": "A volunteer takes an elderly person to hospital by bus. According to the charter, he can…"
+                },
+                "options": [
+                  "être payé à l'heure.",
+                  "ne pas prévenir de son absence.",
+                  "se faire rembourser son billet s'il garde le reçu.",
+                  "refuser la formation de base."
+                ],
+                "answer": 2,
+                "kind": "inference",
+                "evidence": "ses frais de déplacement liés aux missions à l'extérieur du centre sont remboursés sur présentation des reçus",
+                "explanation": {
+                  "en": "A hospital trip is a mission outside the centre, so the bus fare is refunded with a receipt. Volunteers are never paid (\"aucune rémunération\").",
+                  "hi": "अस्पताल ले जाना केंद्र के बाहर का काम है, इसलिए रसीद दिखाने पर बस का किराया वापस मिलेगा। स्वयंसेवकों को वेतन कभी नहीं मिलता (\"aucune rémunération\")।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "À quoi peut servir l'attestation d'heures de bénévolat ?",
+                  "en": "What can the volunteer-hours certificate be used for?"
+                },
+                "options": [
+                  "À obtenir un remboursement.",
+                  "À chercher un emploi.",
+                  "À travailler avec des enfants.",
+                  "À éviter la formation de base."
+                ],
+                "answer": 1,
+                "kind": "literal",
+                "evidence": "utile notamment pour une recherche d'emploi",
+                "explanation": {
+                  "en": "The charter says the certificate is useful especially when looking for a job. Working with children requires a background check, not this certificate.",
+                  "hi": "नियमावली के अनुसार यह प्रमाण-पत्र ख़ासकर नौकरी ढूँढने में काम आता है। बच्चों के साथ काम के लिए आपराधिक रिकॉर्ड की जाँच चाहिए, यह प्रमाण-पत्र नहीं।"
+                }
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "lettre officielle",
+              "title": "Service d'intégration des personnes immigrantes — Convocation",
+              "text": "Objet : Votre inscription au cours de français à temps partiel\n\nMadame Kaur,\nNous avons bien reçu votre demande d'inscription au cours de français à temps partiel (niveau débutant 2) et nous vous en remercions. Votre test de classement aura lieu le lundi 9 septembre à 18 h, au 250, rue Principale, local 104. Veuillez vous présenter quinze minutes à l'avance, munie de votre carte de résidente permanente ou de tout autre document attestant votre statut. Si vous ne pouvez pas vous présenter à cette date, vous devez communiquer avec nous au moins trois jours ouvrables avant le test ; à défaut, votre demande sera annulée et vous devrez soumettre un nouveau dossier. Les cours sont offerts gratuitement. Une halte-garderie est disponible sur place pour les enfants de 2 à 5 ans, sur réservation.\nVeuillez agréer, Madame, nos salutations distinguées.\nLe Service d'intégration"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Pourquoi Mme Kaur reçoit-elle cette lettre ?",
+                  "en": "Why does Mrs Kaur receive this letter?"
+                },
+                "options": [
+                  "Pour connaître les résultats de son test.",
+                  "Pour payer ses frais d'inscription.",
+                  "Pour apprendre que sa demande est refusée.",
+                  "Pour être convoquée à un test de niveau."
+                ],
+                "answer": 3,
+                "kind": "gist",
+                "evidence": "Votre test de classement aura lieu le lundi 9 septembre à 18 h",
+                "explanation": {
+                  "en": "A \"test de classement\" is a placement test; the letter gives its date and place. The courses are free, so there are no fees to pay.",
+                  "hi": "\"Test de classement\" स्तर तय करने वाली परीक्षा है; पत्र में उसकी तारीख़ और जगह दी गई है। कोर्स मुफ़्त हैं, इसलिए कोई फ़ीस नहीं देनी।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Que se passe-t-il si elle ne prévient pas à temps de son absence ?",
+                  "en": "What happens if she doesn't give notice of her absence in time?"
+                },
+                "options": [
+                  "Elle doit soumettre une nouvelle demande.",
+                  "Elle passe le test le lendemain.",
+                  "Elle doit payer une amende.",
+                  "Elle perd seulement sa place à la halte-garderie."
+                ],
+                "answer": 0,
+                "kind": "literal",
+                "evidence": "votre demande sera annulée et vous devrez soumettre un nouveau dossier",
+                "explanation": {
+                  "en": "\"À défaut\" = if you don't. Her application is cancelled and she must apply again from the start. No fine is mentioned.",
+                  "hi": "\"À défaut\" = ऐसा न करने पर। उनका आवेदन रद्द हो जाएगा और उन्हें शुरू से नया आवेदन देना होगा। जुर्माने की कोई बात नहीं है।"
+                }
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "contrat",
+              "title": "Contrat de service Internet résidentiel — Extrait des conditions générales",
+              "text": "Article 4 – Durée. Le présent contrat est conclu pour une durée de 24 mois. Le client peut le résilier à tout moment ; des frais de résiliation anticipée, calculés au prorata des mois restants et ne pouvant dépasser 50 $, seront alors facturés.\nArticle 5 – Équipement. Le modem demeure la propriété du fournisseur. Il doit être retourné dans les 30 jours suivant la fin du contrat, faute de quoi un montant de 120 $ sera facturé.\nArticle 6 – Interruptions. En cas de panne de plus de 24 heures consécutives non causée par le client, un crédit équivalent à une journée de service sera accordé pour chaque jour d'interruption, sur demande du client."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Si le client résilie son contrat après 12 mois, que se passe-t-il ?",
+                  "en": "If the customer cancels the contract after 12 months, what happens?"
+                },
+                "options": [
+                  "Il ne paie aucuns frais.",
+                  "Il paie des frais qui ne dépassent pas 50 $.",
+                  "Il doit payer les 12 mois restants en entier.",
+                  "Il devient propriétaire du modem."
+                ],
+                "answer": 1,
+                "kind": "inference",
+                "evidence": "ne pouvant dépasser 50 $",
+                "explanation": {
+                  "en": "Early cancellation fees are charged pro rata but are capped at 50 $. The modem always belongs to the provider.",
+                  "hi": "समय से पहले अनुबंध ख़त्म करने पर शुल्क बचे हुए महीनों के हिसाब से लगता है, पर 50 $ से ज़्यादा नहीं। मॉडेम हमेशा कंपनी का ही रहता है।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Pour obtenir un crédit après une panne de deux jours, le client doit…",
+                  "en": "To get a credit after a two-day outage, the customer must…"
+                },
+                "options": [
+                  "attendre que le crédit soit versé automatiquement.",
+                  "retourner le modem.",
+                  "en faire la demande.",
+                  "prouver que la panne a duré plus d'une semaine."
+                ],
+                "answer": 2,
+                "kind": "literal",
+                "evidence": "sur demande du client",
+                "explanation": {
+                  "en": "\"Sur demande du client\" = at the customer's request. The credit is not automatic; the customer must ask for it.",
+                  "hi": "\"Sur demande du client\" = ग्राहक के माँगने पर। क्रेडिट अपने-आप नहीं मिलता; ग्राहक को ख़ुद माँगना पड़ता है।"
+                }
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "règlement",
+              "title": "Bibliothèque — Règlement du laboratoire de création numérique",
+              "text": "- L'accès est réservé aux abonnés ayant suivi la séance d'initiation obligatoire (gratuite, d'une durée d'une heure).\n- Les imprimantes 3D se réservent en ligne, par plages de deux heures maximum, jusqu'à une semaine à l'avance.\n- Le filament est fourni pour les projets personnels de moins de 100 grammes ; au-delà, l'usager apporte son propre matériel.\n- Les jeunes de moins de 14 ans doivent être accompagnés d'un adulte en tout temps.\n- Tout usage commercial du matériel est interdit.\n- Le personnel peut interrompre une impression jugée dangereuse ou non conforme au présent règlement."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Avant d'utiliser le laboratoire pour la première fois, il faut…",
+                  "en": "Before using the lab for the first time, you must…"
+                },
+                "options": [
+                  "suivre une séance d'initiation.",
+                  "acheter du filament.",
+                  "réserver une plage de deux heures.",
+                  "venir avec un adulte."
+                ],
+                "answer": 0,
+                "kind": "literal",
+                "evidence": "L'accès est réservé aux abonnés ayant suivi la séance d'initiation obligatoire",
+                "explanation": {
+                  "en": "The introductory session is compulsory for everyone. An adult is needed only for under-14s, and filament is provided for small projects.",
+                  "hi": "परिचय-सत्र सबके लिए अनिवार्य है। किसी वयस्क का साथ सिर्फ़ 14 साल से कम उम्र वालों के लिए ज़रूरी है, और छोटे प्रोजेक्ट के लिए फ़िलामेंट मुफ़्त मिलता है।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Un usager veut fabriquer des objets pour les vendre au marché. Selon le règlement…",
+                  "en": "A user wants to make objects to sell at the market. According to the rules…"
+                },
+                "options": [
+                  "c'est permis s'il apporte son propre filament.",
+                  "c'est interdit.",
+                  "c'est permis pour moins de 100 grammes.",
+                  "il doit d'abord réserver une semaine à l'avance."
+                ],
+                "answer": 1,
+                "kind": "inference",
+                "evidence": "Tout usage commercial du matériel est interdit",
+                "explanation": {
+                  "en": "Selling objects is commercial use, which is forbidden whatever the amount of filament.",
+                  "hi": "चीज़ें बेचना व्यावसायिक उपयोग है, जो मना है — फ़िलामेंट कितना भी हो।"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "press",
+        "title": "Articles de presse",
+        "instruction": "Questions 33–40. Read the press articles and answer the questions.",
+        "items": [
+          {
+            "document": {
+              "genre": "article de presse",
+              "title": "Quand les adolescents enseignent le numérique aux aînés",
+              "text": "À Rimouski, le mercredi après-midi, la salle communautaire de la bibliothèque ressemble à une classe un peu particulière. D'un côté de la table, des élèves de quatrième et de cinquième secondaire ; de l'autre, des retraités qui tiennent leur téléphone intelligent comme un objet fragile. Le programme « Branchés ensemble », lancé il y a deux ans par une enseignante de l'école secondaire voisine, met en relation des adolescents bénévoles et des aînés qui veulent apprendre à utiliser les outils numériques.\n\n« Au départ, je pensais que mes élèves allaient s'ennuyer, raconte l'enseignante, Mélanie Bérubé. En réalité, ce sont eux qui me demandent de prolonger les séances. » Les jeunes y gagnent des heures de bénévolat reconnues par l'école, mais surtout, selon elle, une forme de confiance : pour une fois, ce sont eux qui savent et qui transmettent.\n\nDu côté des participants, les besoins sont très concrets : prendre un rendez-vous médical en ligne, faire une visioconférence avec des petits-enfants qui vivent à l'étranger ou encore reconnaître un courriel frauduleux. Gilles, 78 ans, avoue qu'il avait honte de demander de l'aide à ses propres enfants. « Avec ces jeunes-là, je ne me sens pas jugé. Ils répètent dix fois s'il le faut. »\n\nLe programme n'est pourtant pas à l'abri des difficultés. Les séances dépendent du calendrier scolaire et s'arrêtent pendant les vacances d'été, au moment même où certains aînés se retrouvent les plus isolés. Par ailleurs, la bibliothèque ne dispose que de six tablettes à prêter, ce qui oblige les participants qui n'ont pas d'appareil à attendre leur tour.\n\nLa municipalité étudie actuellement la possibilité d'étendre l'initiative à deux autres quartiers. Pour Mélanie Bérubé, l'enjeu dépasse largement la technologie : « On parle de briser l'isolement. Quand Gilles a vu sa petite-fille au Vietnam pour la première fois à l'écran, toute la salle a applaudi. »"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Qui est à l'origine du programme « Branchés ensemble » ?",
+                  "en": "Who started the \"Branchés ensemble\" programme?"
+                },
+                "options": [
+                  "La bibliothèque municipale.",
+                  "Un groupe de retraités.",
+                  "Une enseignante d'une école secondaire.",
+                  "La municipalité de Rimouski."
+                ],
+                "answer": 2,
+                "kind": "literal",
+                "evidence": "lancé il y a deux ans par une enseignante de l'école secondaire voisine",
+                "explanation": {
+                  "en": "A teacher from the nearby secondary school launched it. The library only hosts it, and the town is only considering expanding it.",
+                  "hi": "पास के माध्यमिक स्कूल की एक शिक्षिका ने इसे शुरू किया। लाइब्रेरी सिर्फ़ जगह देती है, और नगरपालिका अभी इसे फैलाने पर विचार कर रही है।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Pourquoi Gilles apprécie-t-il ce programme ?",
+                  "en": "Why does Gilles like this programme?"
+                },
+                "options": [
+                  "Parce que les jeunes sont patients et ne le jugent pas.",
+                  "Parce qu'il y reçoit une tablette gratuite.",
+                  "Parce que ses enfants lui ont conseillé d'y aller.",
+                  "Parce qu'il y rencontre des gens de son âge."
+                ],
+                "answer": 0,
+                "kind": "inference",
+                "evidence": "Avec ces jeunes-là, je ne me sens pas jugé. Ils répètent dix fois s'il le faut.",
+                "explanation": {
+                  "en": "He feels not judged and the teens repeat as often as needed — that is patience. He was in fact ashamed to ask his own children.",
+                  "hi": "उन्हें लगता है कि कोई उन्हें परखता नहीं और किशोर ज़रूरत हो तो दस बार समझाते हैं — यानी धैर्य। असल में उन्हें अपने बच्चों से मदद माँगने में शर्म आती थी।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Quelle limite du programme l'article mentionne-t-il ?",
+                  "en": "What limitation of the programme does the article mention?"
+                },
+                "options": [
+                  "Les adolescents perdent vite leur motivation.",
+                  "Les séances s'interrompent pendant l'été.",
+                  "Les aînés refusent d'utiliser des tablettes.",
+                  "La municipalité a réduit son financement."
+                ],
+                "answer": 1,
+                "kind": "literal",
+                "evidence": "s'arrêtent pendant les vacances d'été",
+                "explanation": {
+                  "en": "Sessions follow the school calendar and stop in summer. The teens are actually very motivated, and the only other problem is the small number of tablets.",
+                  "hi": "सत्र स्कूल के कैलेंडर पर चलते हैं और गर्मी की छुट्टियों में बंद हो जाते हैं। किशोर तो बहुत उत्साहित हैं; दूसरी समस्या सिर्फ़ टैबलेट की कमी है।"
+                }
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "article de presse",
+              "title": "Loin des grandes villes, l'accueil comme argument",
+              "text": "Depuis quelques années, plusieurs municipalités régionales du Québec et du Nouveau-Brunswick multiplient les initiatives pour attirer des personnes immigrantes. La raison est d'abord démographique : la population vieillit, les jeunes partent étudier dans les grands centres et les employeurs locaux peinent à recruter, notamment dans la santé, la transformation alimentaire et la construction.\n\nMais attirer ne suffit pas ; encore faut-il retenir. De nombreux nouveaux arrivants, après avoir obtenu un premier emploi en région, finissent par déménager à Montréal ou à Toronto quelques années plus tard. Les raisons invoquées sont souvent les mêmes : difficulté à trouver un logement adapté à une famille, absence de transport en commun, emploi du conjoint introuvable, mais aussi un sentiment de solitude.\n\nC'est pour répondre à ce dernier point que certaines localités ont mis sur pied des programmes de jumelage. Le principe est simple : une famille installée depuis longtemps accompagne une famille nouvellement arrivée pendant sa première année. On l'aide à ouvrir un compte bancaire, à inscrire les enfants à l'école ou à comprendre ce qu'est un « pneu d'hiver ». Surtout, on l'invite à souper, au match de hockey du samedi ou à la cabane à sucre.\n\nLes premiers bilans sont encourageants. Selon l'organisme qui coordonne un tel programme dans une petite ville de l'Estrie, près de huit familles jumelées sur dix vivent encore dans la région trois ans après leur arrivée, contre à peine la moitié pour les autres. Les responsables restent toutefois prudents : les familles qui acceptent le jumelage sont peut-être, dès le départ, plus motivées à rester.\n\nPour Aminata Diallo, arrivée de Dakar avec son mari et leurs deux enfants, la différence s'est jouée sur des détails. « Le premier hiver, notre famille jumelle nous a prêté des bottes et des habits de neige pour les petits. Ce n'est pas grand-chose, mais ce jour-là, j'ai compris que je n'étais pas seule ici. »"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Selon l'article, pourquoi ces régions veulent-elles attirer des personnes immigrantes ?",
+                  "en": "According to the article, why do these regions want to attract immigrants?"
+                },
+                "options": [
+                  "Pour développer le tourisme international.",
+                  "Parce que les grandes villes n'accueillent plus d'immigrants.",
+                  "Pour remplir les écoles de langues.",
+                  "Parce que la population vieillit et que les employeurs manquent de travailleurs."
+                ],
+                "answer": 3,
+                "kind": "literal",
+                "evidence": "les employeurs locaux peinent à recruter",
+                "explanation": {
+                  "en": "The reason is demographic: an ageing population, young people leaving, and employers who \"peinent à recruter\" (struggle to hire).",
+                  "hi": "कारण जनसंख्या से जुड़ा है: आबादी बूढ़ी हो रही है, युवा बाहर चले जाते हैं, और नियोक्ता \"peinent à recruter\" (कर्मचारी ढूँढने में मुश्किल झेलते हैं)।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Dans l'article, que signifie « encore faut-il retenir » ?",
+                  "en": "In the article, what does \"encore faut-il retenir\" mean?"
+                },
+                "options": [
+                  "Il faut aussi réussir à faire rester les nouveaux arrivants.",
+                  "Il faut limiter le nombre de nouveaux arrivants.",
+                  "Il faut se souvenir du nom des familles.",
+                  "Il faut garder les jeunes à l'école plus longtemps."
+                ],
+                "answer": 0,
+                "kind": "vocabulary",
+                "evidence": "Mais attirer ne suffit pas ; encore faut-il retenir.",
+                "explanation": {
+                  "en": "\"Encore faut-il…\" = \"you still have to…\". \"Retenir\" here means to keep people (from leaving), not to remember. The next sentence about newcomers moving away confirms it.",
+                  "hi": "\"Encore faut-il…\" = \"फिर भी यह ज़रूरी है कि…\"। यहाँ \"retenir\" का अर्थ लोगों को रोककर रखना है, याद रखना नहीं। अगला वाक्य, जिसमें लोग शहर छोड़कर चले जाते हैं, यही बताता है।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Pourquoi les responsables restent-ils prudents face aux résultats ?",
+                  "en": "Why are the organisers cautious about the results?"
+                },
+                "options": [
+                  "Parce que les chiffres sont trop anciens.",
+                  "Parce que très peu de familles participent.",
+                  "Parce que les familles jumelées étaient peut-être déjà plus décidées à rester.",
+                  "Parce que les familles jumelées déménagent plus souvent."
+                ],
+                "answer": 2,
+                "kind": "inference",
+                "evidence": "les familles qui acceptent le jumelage sont peut-être, dès le départ, plus motivées à rester",
+                "explanation": {
+                  "en": "The good result may not come from the programme itself: the families who join may have been more motivated to stay from the start.",
+                  "hi": "अच्छा नतीजा शायद सिर्फ़ कार्यक्रम की वजह से न हो: जो परिवार इसमें शामिल होते हैं, वे शायद शुरू से ही रुकने के लिए ज़्यादा इच्छुक हों।"
+                }
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "billet d'opinion",
+              "title": "Musées gratuits : et si on se trompait de combat ?",
+              "text": "Chaque fois qu'une ville annonce la gratuité de ses musées, les applaudissements fusent. Qui pourrait être contre l'idée d'ouvrir les portes de la culture à tous ? Pas moi. Et pourtant, je me permets de douter que la gratuité, à elle seule, change grand-chose.\n\nLes études menées dans plusieurs pays montrent la même tendance : lorsque l'entrée devient gratuite, la fréquentation augmente, parfois fortement. Mais les nouveaux visiteurs ressemblent étrangement aux anciens. Ce sont, pour l'essentiel, des personnes diplômées, habituées des lieux culturels, qui viennent simplement plus souvent. Les familles à faible revenu, les nouveaux arrivants ou les jeunes des quartiers éloignés restent, eux, largement absents.\n\nLe prix du billet n'est donc pas le principal obstacle. Le vrai frein est ailleurs : le sentiment que « ce n'est pas pour nous », la difficulté de se rendre au centre-ville, l'absence d'activités dans une langue que l'on maîtrise ou d'horaires compatibles avec un travail de soir. Ces barrières-là ne disparaissent pas avec un billet à zéro dollar.\n\nPlutôt que de dépenser des millions pour compenser la perte de revenus des billetteries, pourquoi ne pas investir dans la médiation culturelle ? Des animateurs qui vont dans les écoles, les organismes communautaires et les centres d'accueil pour immigrants ; des expositions qui voyagent dans les quartiers ; des visites guidées dans plusieurs langues. Ce travail est moins spectaculaire qu'une annonce de gratuité, mais il est sans doute plus efficace.\n\nLa culture pour tous est un bel objectif. Ouvrir la porte ne suffit pas : il faut aussi aller chercher ceux qui n'osent pas la pousser."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle est la position de l'auteur ?",
+                  "en": "What is the author's position?"
+                },
+                "options": [
+                  "Il est contre l'accès de tous à la culture.",
+                  "Il souhaite augmenter le prix des billets.",
+                  "Il pense que la gratuité ne suffit pas à attirer de nouveaux publics.",
+                  "Il veut que les musées ferment plus tôt le soir."
+                ],
+                "answer": 2,
+                "kind": "gist",
+                "evidence": "je me permets de douter que la gratuité, à elle seule, change grand-chose",
+                "explanation": {
+                  "en": "The author supports culture for all (\"Pas moi\") but doubts that free entry alone helps; he prefers investing in outreach (\"médiation culturelle\").",
+                  "hi": "लेखक सबके लिए संस्कृति के पक्ष में है (\"Pas moi\" = मैं विरोध नहीं करता), पर उसे शक है कि सिर्फ़ मुफ़्त प्रवेश से कुछ बदलेगा; वह लोगों तक पहुँचने वाले कार्यक्रमों (\"médiation culturelle\") में पैसा लगाना चाहता है।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Selon l'auteur, qui profite surtout de la gratuité ?",
+                  "en": "According to the author, who mainly benefits from free entry?"
+                },
+                "options": [
+                  "Les personnes qui fréquentaient déjà les musées.",
+                  "Les nouveaux arrivants.",
+                  "Les familles à faible revenu.",
+                  "Les jeunes des quartiers éloignés."
+                ],
+                "answer": 0,
+                "kind": "inference",
+                "evidence": "des personnes diplômées, habituées des lieux culturels, qui viennent simplement plus souvent",
+                "explanation": {
+                  "en": "The \"new\" visitors are mostly regular museum-goers who just come more often. The other three groups \"restent largement absents\" (stay largely absent).",
+                  "hi": "\"नए\" दर्शक ज़्यादातर वही लोग हैं जो पहले से संग्रहालय जाते थे, बस अब ज़्यादा बार आते हैं। बाक़ी तीनों समूह \"restent largement absents\" (ज़्यादातर नहीं आते)।"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "sections": [
+      {
+        "key": "pictures",
+        "title": "Associer une scène à un dialogue",
+        "instruction": "Questions 1–4. You will hear four short conversations, once each. For each one, choose the description of the scene that matches what you hear.",
+        "items": [
+          {
+            "context": "Une conversation à un comptoir.",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Employée",
+                "voice": "f1",
+                "fr": "Bonjour monsieur, je peux vous aider ?"
+              },
+              {
+                "speaker": "Homme",
+                "voice": "m1",
+                "fr": "Oui, je voudrais imprimer mon CV, mais l'imprimante ne marche pas."
+              },
+              {
+                "speaker": "Employée",
+                "voice": "f1",
+                "fr": "Ah, il faut d'abord payer à la borne, là-bas. C'est dix sous la page."
+              },
+              {
+                "speaker": "Homme",
+                "voice": "m1",
+                "fr": "D'accord, merci, j'y vais."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle scène correspond à cette conversation ?",
+                  "en": "Which scene matches this conversation?"
+                },
+                "options": [
+                  "Un homme achète un ordinateur dans un magasin.",
+                  "Une femme répare une imprimante.",
+                  "Un homme demande de l'aide pour imprimer un document.",
+                  "Un homme envoie son CV par courriel."
+                ],
+                "answer": 2,
+                "kind": "gist",
+                "evidence": "je voudrais imprimer mon CV, mais l'imprimante ne marche pas",
+                "explanation": {
+                  "en": "The man wants to print his CV and asks for help; the employee explains he must pay at the machine first. Nobody repairs or buys anything.",
+                  "hi": "आदमी अपना CV प्रिंट करना चाहता है और मदद माँगता है; कर्मचारी बताती है कि पहले मशीन पर पैसे देने होंगे। कोई कुछ ठीक नहीं करता, न ख़रीदता है।"
+                }
+              }
+            ]
+          },
+          {
+            "context": "Une conversation à l'accueil d'une patinoire.",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Père",
+                "voice": "m2",
+                "fr": "Bonjour, deux paires de patins à louer, s'il vous plaît. Une pointure 42 pour moi, et une pointure 30 pour ma fille."
+              },
+              {
+                "speaker": "Employée",
+                "voice": "f2",
+                "fr": "Voilà. Ça fait douze dollars. Et n'oubliez pas les casques : ils sont gratuits pour les enfants."
+              },
+              {
+                "speaker": "Père",
+                "voice": "m2",
+                "fr": "Parfait, on en prend un pour elle."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle scène correspond à cette conversation ?",
+                  "en": "Which scene matches this conversation?"
+                },
+                "options": [
+                  "Un homme loue des patins pour lui et sa fille.",
+                  "Un père et sa fille font du ski.",
+                  "Une femme achète des chaussures pour sa fille.",
+                  "Un homme rend des casques à l'accueil."
+                ],
+                "answer": 0,
+                "kind": "gist",
+                "evidence": "deux paires de patins à louer",
+                "explanation": {
+                  "en": "\"Louer des patins\" = to rent skates. The father asks for two pairs, one for himself and one for his daughter.",
+                  "hi": "\"Louer des patins\" = स्केट्स किराए पर लेना। पिता दो जोड़ी माँगते हैं, एक अपने लिए और एक बेटी के लिए।"
+                }
+              }
+            ]
+          },
+          {
+            "context": "Deux personnes travaillent ensemble dans un local.",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Femme",
+                "voice": "f1",
+                "fr": "Bon, Karim, toi, tu mets les conserves sur cette étagère, et moi, je m'occupe des fruits et légumes."
+              },
+              {
+                "speaker": "Karim",
+                "voice": "m1",
+                "fr": "D'accord. Et les boîtes de céréales, je les mets où ?"
+              },
+              {
+                "speaker": "Femme",
+                "voice": "f1",
+                "fr": "Dans le carton bleu, près de la porte. Les familles arrivent à quatorze heures, il faut que tout soit prêt."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle scène correspond à cette conversation ?",
+                  "en": "Which scene matches this conversation?"
+                },
+                "options": [
+                  "Deux personnes font leurs courses au supermarché.",
+                  "Une famille prend son repas.",
+                  "Un homme livre des cartons à domicile.",
+                  "Deux personnes rangent de la nourriture avant l'arrivée de familles."
+                ],
+                "answer": 3,
+                "kind": "inference",
+                "evidence": "tu mets les conserves sur cette étagère",
+                "explanation": {
+                  "en": "They are putting tins, fruit and cereal away before families arrive at 2 p.m. — typical of volunteers at a food bank. They are not shopping.",
+                  "hi": "वे डिब्बाबंद खाना, फल और अनाज सजा रहे हैं ताकि दोपहर 2 बजे परिवार आने से पहले सब तैयार हो — जैसे फ़ूड बैंक के स्वयंसेवक। वे ख़रीदारी नहीं कर रहे।"
+                }
+              }
+            ]
+          },
+          {
+            "context": "Une conversation au téléphone.",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Fille",
+                "voice": "f2",
+                "fr": "Maman, tu m'entends ? Ton image est bloquée !"
+              },
+              {
+                "speaker": "Mère",
+                "voice": "f1",
+                "fr": "Attends, je me rapproche du routeur… Et là ?"
+              },
+              {
+                "speaker": "Fille",
+                "voice": "f2",
+                "fr": "Ah, c'est mieux, je te vois ! Montre-moi la neige par la fenêtre !"
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle scène correspond à cette conversation ?",
+                  "en": "Which scene matches this conversation?"
+                },
+                "options": [
+                  "Une femme regarde la télévision.",
+                  "Une femme parle avec sa mère par appel vidéo.",
+                  "Deux femmes déneigent l'entrée de la maison.",
+                  "Une femme achète un routeur."
+                ],
+                "answer": 1,
+                "kind": "inference",
+                "evidence": "Ton image est bloquée",
+                "explanation": {
+                  "en": "\"Ton image est bloquée\" and \"je te vois\" show it is a video call between a daughter and her mother.",
+                  "hi": "\"Ton image est bloquée\" (तुम्हारी तस्वीर अटक गई है) और \"je te vois\" (मैं तुम्हें देख रही हूँ) से साफ़ है कि बेटी और माँ वीडियो कॉल पर हैं।"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "messages",
+        "title": "Messages, annonces et micro-trottoirs",
+        "instruction": "Questions 5–20. You will hear announcements, voicemail messages and street interviews, once each. Answer the questions.",
+        "items": [
+          {
+            "context": "Une annonce dans une station de métro.",
+            "type": "announcement",
+            "lines": [
+              {
+                "speaker": "Annonce",
+                "voice": "narrator",
+                "fr": "Votre attention, s'il vous plaît. En raison d'un incident technique, le service est interrompu sur la ligne verte entre les stations Centre et Université. Des autobus remplacent les trains. Le retour à la normale est prévu vers dix-huit heures. Merci de votre compréhension."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que doivent faire les voyageurs pour continuer leur trajet ?",
+                  "en": "What should passengers do to continue their journey?"
+                },
+                "options": [
+                  "Attendre le prochain train.",
+                  "Prendre les autobus de remplacement.",
+                  "Sortir du métro avant dix-huit heures.",
+                  "Acheter un nouveau billet."
+                ],
+                "answer": 1,
+                "kind": "inference",
+                "evidence": "Des autobus remplacent les trains.",
+                "explanation": {
+                  "en": "Trains are stopped on that section; replacement buses run instead. 6 p.m. is when normal service should return.",
+                  "hi": "उस हिस्से में ट्रेनें बंद हैं; उनकी जगह बसें चल रही हैं। शाम 6 बजे तक सेवा सामान्य होने की उम्मीद है।"
+                }
+              }
+            ]
+          },
+          {
+            "context": "Un message sur un répondeur.",
+            "type": "voicemail",
+            "lines": [
+              {
+                "speaker": "Sophie",
+                "voice": "f1",
+                "fr": "Bonjour, ici Sophie, de la bibliothèque du quartier. Ce message est pour monsieur Arjun Mehta. Le livre que vous avez réservé, « Apprendre le français en famille », est arrivé. Il vous attend au comptoir pendant sept jours. Passé ce délai, il sera remis à la personne suivante sur la liste. Bonne journée !"
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que doit faire monsieur Mehta ?",
+                  "en": "What should Mr Mehta do?"
+                },
+                "options": [
+                  "Rapporter un livre en retard.",
+                  "Rappeler Sophie.",
+                  "Réserver un autre livre.",
+                  "Venir chercher son livre dans les sept jours."
+                ],
+                "answer": 3,
+                "kind": "literal",
+                "evidence": "Il vous attend au comptoir pendant sept jours.",
+                "explanation": {
+                  "en": "His reserved book has arrived and is kept for seven days; after that it goes to the next person. He doesn't need to call back.",
+                  "hi": "उनकी बुक की हुई किताब आ गई है और सात दिन तक रखी जाएगी; उसके बाद अगले व्यक्ति को दे दी जाएगी। उन्हें वापस फ़ोन करने की ज़रूरत नहीं है।"
+                }
+              }
+            ]
+          },
+          {
+            "context": "Une annonce dans un festival.",
+            "type": "announcement",
+            "lines": [
+              {
+                "speaker": "Animatrice",
+                "voice": "f2",
+                "fr": "Mesdames et messieurs, bienvenue au Festival des lanternes ! Le défilé commencera dans vingt minutes devant la scène principale. Pour les familles, un atelier de fabrication de lanternes est offert gratuitement sous la tente jaune. Attention, les places sont limitées : inscrivez-vous dès maintenant au kiosque d'information. Enfin, nous vous rappelons que les chiens ne sont pas admis sur le site, sauf les chiens d'assistance."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Où a lieu l'atelier pour les familles ?",
+                  "en": "Where is the family workshop?"
+                },
+                "options": [
+                  "Devant la scène principale.",
+                  "Au kiosque d'information.",
+                  "Sous la tente jaune.",
+                  "À l'entrée du site."
+                ],
+                "answer": 2,
+                "kind": "literal",
+                "evidence": "sous la tente jaune",
+                "explanation": {
+                  "en": "The lantern workshop is under the yellow tent. You register at the information booth, and the parade starts in front of the main stage.",
+                  "hi": "लालटेन बनाने की कार्यशाला पीले तंबू में है। नाम सूचना-केंद्र पर लिखवाना है, और परेड मुख्य मंच के सामने शुरू होगी।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Que dit l'annonce au sujet des chiens ?",
+                  "en": "What does the announcement say about dogs?"
+                },
+                "options": [
+                  "Ils sont tous interdits.",
+                  "Seuls les chiens d'assistance sont acceptés.",
+                  "Ils doivent rester en laisse.",
+                  "Ils peuvent participer au défilé."
+                ],
+                "answer": 1,
+                "kind": "literal",
+                "evidence": "sauf les chiens d'assistance",
+                "explanation": {
+                  "en": "\"Sauf\" = except. Dogs are not allowed, except assistance dogs — so option A is too absolute.",
+                  "hi": "\"Sauf\" = को छोड़कर। कुत्ते मना हैं, सहायता करने वाले कुत्तों को छोड़कर — इसलिए पहला विकल्प पूरी तरह सही नहीं है।"
+                }
+              }
+            ]
+          },
+          {
+            "context": "Un micro-trottoir : un journaliste interroge des passants.",
+            "type": "street_interview",
+            "lines": [
+              {
+                "speaker": "Journaliste",
+                "voice": "m2",
+                "fr": "Aujourd'hui, on vous demande : est-ce que vous arrivez à vous déconnecter pendant vos loisirs ?"
+              },
+              {
+                "speaker": "Passante 1",
+                "voice": "f1",
+                "fr": "Honnêtement, non. Même au cinéma, je regarde mes messages. C'est plus fort que moi."
+              },
+              {
+                "speaker": "Passant",
+                "voice": "m1",
+                "fr": "Moi, oui. Le dimanche, je laisse mon cell à la maison et je pars faire du vélo. Ça me fait un bien fou."
+              },
+              {
+                "speaker": "Passante 2",
+                "voice": "f2",
+                "fr": "Ça dépend. En vacances, j'essaie, mais avec le travail, c'est pas toujours possible."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que fait l'homme le dimanche ?",
+                  "en": "What does the man do on Sundays?"
+                },
+                "options": [
+                  "Il fait du vélo sans son téléphone.",
+                  "Il va au cinéma.",
+                  "Il travaille à la maison.",
+                  "Il regarde ses messages."
+                ],
+                "answer": 0,
+                "kind": "literal",
+                "evidence": "je laisse mon cell à la maison et je pars faire du vélo",
+                "explanation": {
+                  "en": "\"Cell\" is Québec French for a mobile phone. He leaves it at home and goes cycling. The first woman is the one who checks messages at the cinema.",
+                  "hi": "\"Cell\" क्यूबेक की फ़्रेंच में मोबाइल फ़ोन को कहते हैं। वह फ़ोन घर छोड़कर साइकिल चलाने जाता है। सिनेमा में मैसेज देखने वाली पहली महिला है।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Que dit la deuxième femme ?",
+                  "en": "What does the second woman say?"
+                },
+                "options": [
+                  "Elle ne se déconnecte jamais.",
+                  "Elle se déconnecte facilement.",
+                  "Elle essaie en vacances, mais son travail l'en empêche parfois.",
+                  "Elle n'a pas de téléphone."
+                ],
+                "answer": 2,
+                "kind": "inference",
+                "evidence": "avec le travail, c'est pas toujours possible",
+                "explanation": {
+                  "en": "\"Ça dépend\": she tries on holiday, but work doesn't always allow it. Note the spoken dropping of \"ne\" in \"c'est pas\".",
+                  "hi": "\"Ça dépend\" (निर्भर करता है): छुट्टियों में कोशिश करती है, पर काम की वजह से हमेशा नहीं हो पाता। ध्यान दें, बोलचाल में \"c'est pas\" में \"ne\" छोड़ दिया जाता है।"
+                }
+              }
+            ]
+          },
+          {
+            "context": "Un message sur un répondeur.",
+            "type": "voicemail",
+            "lines": [
+              {
+                "speaker": "Julien Tremblay",
+                "voice": "m1",
+                "fr": "Bonjour madame Fernandes, c'est Julien Tremblay, de l'entreprise Informatik Plus. Je vous appelle au sujet de votre candidature au poste de technicienne en soutien informatique. Nous aimerions vous rencontrer en entrevue jeudi prochain, à dix heures. Est-ce que vous pourriez me rappeler avant mardi pour confirmer ? Mon numéro, c'est le 514 555-0187. Merci, et à bientôt."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Pourquoi Julien Tremblay appelle-t-il ?",
+                  "en": "Why is Julien Tremblay calling?"
+                },
+                "options": [
+                  "Pour offrir le poste à madame Fernandes.",
+                  "Pour lui proposer une entrevue d'embauche.",
+                  "Pour annuler une entrevue.",
+                  "Pour lui demander d'envoyer son CV."
+                ],
+                "answer": 1,
+                "kind": "gist",
+                "evidence": "Nous aimerions vous rencontrer en entrevue jeudi prochain",
+                "explanation": {
+                  "en": "\"Entrevue\" (Québec) = job interview. He invites her to an interview; he is not offering the job yet.",
+                  "hi": "\"Entrevue\" (क्यूबेक में) = नौकरी का इंटरव्यू। वह उन्हें इंटरव्यू के लिए बुला रहे हैं; अभी नौकरी नहीं दे रहे।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Que doit faire madame Fernandes ?",
+                  "en": "What must Mrs Fernandes do?"
+                },
+                "options": [
+                  "Le rappeler avant mardi.",
+                  "Venir mardi à dix heures.",
+                  "Lui envoyer un courriel.",
+                  "Le rappeler jeudi."
+                ],
+                "answer": 0,
+                "kind": "literal",
+                "evidence": "pourriez me rappeler avant mardi pour confirmer",
+                "explanation": {
+                  "en": "She must call back before Tuesday to confirm. Thursday at 10 is the interview itself.",
+                  "hi": "उन्हें पुष्टि के लिए मंगलवार से पहले फ़ोन करना है। गुरुवार 10 बजे तो इंटरव्यू है।"
+                }
+              }
+            ]
+          },
+          {
+            "context": "Une annonce dans un aéroport.",
+            "type": "announcement",
+            "lines": [
+              {
+                "speaker": "Annonce",
+                "voice": "narrator",
+                "fr": "Les passagers du vol 872 à destination de Delhi sont priés de se présenter à la porte 54. L'embarquement débutera dans quinze minutes, en commençant par les familles avec de jeunes enfants et les personnes ayant besoin d'assistance. Nous rappelons que chaque passager ne peut garder qu'un seul bagage à main en cabine."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Qui embarquera en premier ?",
+                  "en": "Who will board first?"
+                },
+                "options": [
+                  "Les passagers de la classe affaires.",
+                  "Les passagers sans bagage.",
+                  "Les passagers qui ont deux bagages à main.",
+                  "Les familles avec de jeunes enfants."
+                ],
+                "answer": 3,
+                "kind": "literal",
+                "evidence": "en commençant par les familles avec de jeunes enfants",
+                "explanation": {
+                  "en": "\"En commençant par\" = starting with. Families with young children and people needing assistance board first. Business class is not mentioned.",
+                  "hi": "\"En commençant par\" = से शुरुआत करते हुए। छोटे बच्चों वाले परिवार और सहायता चाहने वाले लोग पहले चढ़ेंगे। बिज़नेस क्लास का ज़िक्र नहीं है।"
+                }
+              }
+            ]
+          },
+          {
+            "context": "Une publicité à la radio.",
+            "type": "announcement",
+            "lines": [
+              {
+                "speaker": "Voix publicitaire",
+                "voice": "f2",
+                "fr": "Vous venez d'arriver au Canada et vous cherchez votre premier emploi ? Le Carrefour Emploi Nouveaux Arrivants vous offre des ateliers gratuits : rédaction de CV à la canadienne, simulation d'entrevue et réseautage. Les ateliers ont lieu en soirée, du lundi au jeudi. Aucun rendez-vous nécessaire : présentez-vous simplement avec votre CV !"
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que faut-il faire pour participer aux ateliers ?",
+                  "en": "What do you need to do to take part in the workshops?"
+                },
+                "options": [
+                  "Prendre rendez-vous par téléphone.",
+                  "Payer une inscription.",
+                  "Venir directement avec son CV.",
+                  "Avoir déjà un emploi au Canada."
+                ],
+                "answer": 2,
+                "kind": "literal",
+                "evidence": "Aucun rendez-vous nécessaire : présentez-vous simplement avec votre CV",
+                "explanation": {
+                  "en": "No appointment is needed and the workshops are free: you just turn up with your CV.",
+                  "hi": "पहले से समय लेने की ज़रूरत नहीं और कार्यशालाएँ मुफ़्त हैं: बस अपना CV लेकर पहुँच जाइए।"
+                }
+              }
+            ]
+          },
+          {
+            "context": "Un message sur un répondeur.",
+            "type": "voicemail",
+            "lines": [
+              {
+                "speaker": "Émilie",
+                "voice": "f2",
+                "fr": "Salut Priya, c'est Émilie ! Écoute, la course de bienfaisance de dimanche manque de bénévoles pour le ravitaillement. Si ça te tente, il faudrait être là à sept heures, au kilomètre cinq. On te donne un t-shirt et le déjeuner. Texte-moi d'ici vendredi, OK ? Bye !"
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que demande Émilie à Priya ?",
+                  "en": "What is Émilie asking Priya?"
+                },
+                "options": [
+                  "D'aider comme bénévole pendant une course.",
+                  "De courir avec elle dimanche.",
+                  "De préparer le déjeuner des coureurs.",
+                  "De lui acheter un t-shirt."
+                ],
+                "answer": 0,
+                "kind": "gist",
+                "evidence": "manque de bénévoles pour le ravitaillement",
+                "explanation": {
+                  "en": "The charity race needs volunteers at the refreshment point (\"ravitaillement\"). Priya would receive a T-shirt and breakfast, not make them. In Québec, \"le déjeuner\" is breakfast.",
+                  "hi": "चैरिटी दौड़ में पानी-नाश्ता देने (\"ravitaillement\") के लिए स्वयंसेवक कम हैं। प्रिया को टी-शर्ट और नाश्ता मिलेगा, उसे बनाना नहीं है। क्यूबेक में \"le déjeuner\" सुबह का नाश्ता होता है।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Comment Priya doit-elle répondre ?",
+                  "en": "How should Priya reply?"
+                },
+                "options": [
+                  "Par courriel.",
+                  "En la rappelant dimanche.",
+                  "Par texto avant vendredi.",
+                  "En passant chez elle."
+                ],
+                "answer": 2,
+                "kind": "literal",
+                "evidence": "Texte-moi d'ici vendredi",
+                "explanation": {
+                  "en": "\"Texte-moi\" = text me; \"d'ici vendredi\" = by Friday.",
+                  "hi": "\"Texte-moi\" = मुझे मैसेज करो; \"d'ici vendredi\" = शुक्रवार तक।"
+                }
+              }
+            ]
+          },
+          {
+            "context": "Un micro-trottoir : des personnes récemment arrivées au Canada répondent à une question.",
+            "type": "street_interview",
+            "lines": [
+              {
+                "speaker": "Journaliste",
+                "voice": "m2",
+                "fr": "Vous êtes arrivés au Canada récemment. Qu'est-ce qui vous a le plus surpris ?"
+              },
+              {
+                "speaker": "Passant",
+                "voice": "m1",
+                "fr": "Moi, c'est la politesse dans l'autobus. Tout le monde dit merci au chauffeur en descendant ! Chez moi, ça ne se fait pas du tout."
+              },
+              {
+                "speaker": "Passante",
+                "voice": "f1",
+                "fr": "Pour moi, c'est le froid, évidemment. Mais surtout, que les gens sortent quand même ! Même à moins vingt, ils vont patiner, ils font des pique-niques d'hiver… Moi, je reste sous ma couverture !"
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Qu'est-ce qui a surpris l'homme ?",
+                  "en": "What surprised the man?"
+                },
+                "options": [
+                  "Le prix de l'autobus.",
+                  "Le froid de l'hiver.",
+                  "Les retards des autobus.",
+                  "La politesse des passagers envers le chauffeur."
+                ],
+                "answer": 3,
+                "kind": "literal",
+                "evidence": "Tout le monde dit merci au chauffeur en descendant",
+                "explanation": {
+                  "en": "He was surprised that everyone thanks the driver when getting off. The cold is what the woman mentions.",
+                  "hi": "उन्हें हैरानी हुई कि उतरते समय सब ड्राइवर को धन्यवाद कहते हैं। ठंड की बात तो महिला करती है।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Qu'est-ce qui surprend surtout la femme ?",
+                  "en": "What surprises the woman most?"
+                },
+                "options": [
+                  "Il fait moins froid que prévu.",
+                  "Les gens restent chez eux en hiver.",
+                  "Les gens sortent même quand il fait très froid.",
+                  "Elle aime beaucoup patiner."
+                ],
+                "answer": 2,
+                "kind": "inference",
+                "evidence": "Mais surtout, que les gens sortent quand même",
+                "explanation": {
+                  "en": "\"Surtout\" marks the main point: people go out even at minus twenty. She herself stays under her blanket, so she does not skate.",
+                  "hi": "\"Surtout\" (सबसे ज़्यादा) मुख्य बात बताता है: लोग माइनस बीस में भी बाहर निकलते हैं। वह ख़ुद कंबल में रहती है, यानी स्केटिंग नहीं करती।"
+                }
+              }
+            ]
+          },
+          {
+            "context": "Une annonce dans un musée.",
+            "type": "announcement",
+            "lines": [
+              {
+                "speaker": "Annonce",
+                "voice": "narrator",
+                "fr": "Chers visiteurs, le musée fermera ses portes dans quinze minutes. Nous vous invitons à vous diriger vers la sortie. La boutique restera ouverte jusqu'à dix-huit heures trente. Merci de votre visite et à bientôt !"
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Qu'est-ce qui reste ouvert après la fermeture du musée ?",
+                  "en": "What stays open after the museum closes?"
+                },
+                "options": [
+                  "Le vestiaire.",
+                  "La boutique.",
+                  "Le café.",
+                  "Les salles d'exposition."
+                ],
+                "answer": 1,
+                "kind": "literal",
+                "evidence": "La boutique restera ouverte jusqu'à dix-huit heures trente.",
+                "explanation": {
+                  "en": "Only the shop (\"la boutique\") stays open until 6:30 p.m. The cloakroom and café are not mentioned.",
+                  "hi": "सिर्फ़ दुकान (\"la boutique\") शाम 6:30 तक खुली रहेगी। अमानत-घर और कैफ़े का ज़िक्र नहीं है।"
+                }
+              }
+            ]
+          },
+          {
+            "context": "Un message sur un répondeur.",
+            "type": "voicemail",
+            "lines": [
+              {
+                "speaker": "Marc",
+                "voice": "m2",
+                "fr": "Bonjour, ici Marc, le concierge. Je voulais vous avertir que demain matin, entre huit heures et midi, l'eau chaude sera coupée dans tout l'immeuble pour la réparation du chauffe-eau. Désolé pour le dérangement. Si vous avez des questions, je suis au bureau du rez-de-chaussée."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que se passera-t-il demain matin ?",
+                  "en": "What will happen tomorrow morning?"
+                },
+                "options": [
+                  "L'électricité sera coupée.",
+                  "Le concierge visitera chaque appartement.",
+                  "Le bureau du concierge sera fermé.",
+                  "Il n'y aura pas d'eau chaude dans l'immeuble."
+                ],
+                "answer": 3,
+                "kind": "literal",
+                "evidence": "l'eau chaude sera coupée dans tout l'immeuble",
+                "explanation": {
+                  "en": "\"L'eau chaude sera coupée\" = the hot water will be cut off, from 8 a.m. to noon, to repair the water heater.",
+                  "hi": "\"L'eau chaude sera coupée\" = गरम पानी बंद रहेगा, सुबह 8 से दोपहर 12 बजे तक, वॉटर हीटर की मरम्मत के लिए।"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "radio",
+        "title": "Entretiens et reportage radio",
+        "instruction": "Questions 21–30. You will hear two radio interviews and a radio report, once each. Read the questions before each recording.",
+        "items": [
+          {
+            "context": "Une émission de radio sur la vie communautaire. L'animateur reçoit la fondatrice d'un café-réparation.",
+            "type": "interview",
+            "lines": [
+              {
+                "speaker": "Animateur",
+                "voice": "m2",
+                "fr": "Bonjour et bienvenue à « Vivre ensemble ». Mon invitée aujourd'hui est Hélène Lavoie, fondatrice d'un café-réparation à Québec. Hélène, expliquez-nous le principe."
+              },
+              {
+                "speaker": "Hélène Lavoie",
+                "voice": "f1",
+                "fr": "Bonjour ! C'est très simple : une fois par mois, le samedi, des bénévoles bricoleurs accueillent les gens qui ont un objet brisé, un grille-pain, une lampe, un ordinateur portable, un vélo, et on essaie de le réparer ensemble. Ensemble, c'est important : on ne répare pas à la place des gens, on leur montre comment faire."
+              },
+              {
+                "speaker": "Animateur",
+                "voice": "m2",
+                "fr": "Et c'est payant ?"
+              },
+              {
+                "speaker": "Hélène Lavoie",
+                "voice": "f1",
+                "fr": "Non, c'est gratuit. On a une boîte pour les dons volontaires, qui nous sert surtout à acheter des pièces et des outils. Et on offre le café, évidemment, sinon ce ne serait pas un café-réparation !"
+              },
+              {
+                "speaker": "Animateur",
+                "voice": "m2",
+                "fr": "Qui sont vos bénévoles ?"
+              },
+              {
+                "speaker": "Hélène Lavoie",
+                "voice": "f1",
+                "fr": "Il y a de tout : des retraités qui étaient électriciens ou couturières, des étudiants en génie… Et de plus en plus de personnes immigrantes. Je pense à Rafael, un ingénieur arrivé de Colombie il y a un an. Il n'avait pas encore trouvé d'emploi dans son domaine, et chez nous, il a pu pratiquer son français tout en se rendant utile. D'ailleurs, c'est grâce à un contact rencontré chez nous qu'il a décroché son poste actuel."
+              },
+              {
+                "speaker": "Animateur",
+                "voice": "m2",
+                "fr": "Quel est votre plus grand défi ?"
+              },
+              {
+                "speaker": "Hélène Lavoie",
+                "voice": "f1",
+                "fr": "Les ordinateurs et les téléphones. Les fabricants rendent les réparations de plus en plus difficiles : les pièces sont collées, les vis sont spéciales, et on ne trouve pas toujours de pièces de rechange. C'est pour ça qu'on appuie les projets de loi sur le droit à la réparation."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quel est le principe du café-réparation ?",
+                  "en": "What is the idea behind the repair café?"
+                },
+                "options": [
+                  "Des bénévoles réparent les objets à la place des gens.",
+                  "Les gens apprennent à réparer leurs objets avec l'aide de bénévoles.",
+                  "On y vend des objets réparés.",
+                  "On y achète des pièces de rechange à bas prix."
+                ],
+                "answer": 1,
+                "kind": "gist",
+                "evidence": "on ne répare pas à la place des gens, on leur montre comment faire",
+                "explanation": {
+                  "en": "She insists on \"ensemble\": volunteers don't repair things for people, they show them how. Option A is exactly what she denies.",
+                  "hi": "वह \"ensemble\" (साथ मिलकर) पर ज़ोर देती हैं: स्वयंसेवक लोगों की जगह मरम्मत नहीं करते, उन्हें तरीक़ा सिखाते हैं। पहला विकल्प ठीक वही है जिसे वह नकारती हैं।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "À quoi servent principalement les dons ?",
+                  "en": "What are the donations mainly used for?"
+                },
+                "options": [
+                  "À payer les bénévoles.",
+                  "À louer la salle.",
+                  "À acheter des pièces et des outils.",
+                  "À acheter le café."
+                ],
+                "answer": 2,
+                "kind": "literal",
+                "evidence": "nous sert surtout à acheter des pièces et des outils",
+                "explanation": {
+                  "en": "\"Surtout\" = mainly: parts and tools. Coffee is offered, but it is not what the donations are mainly for.",
+                  "hi": "\"Surtout\" = मुख्य रूप से: पुर्ज़े और औज़ार। कॉफ़ी मुफ़्त दी जाती है, पर दान मुख्य रूप से उसके लिए नहीं है।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Qu'est-ce que le café-réparation a apporté à Rafael ?",
+                  "en": "What did the repair café bring Rafael?"
+                },
+                "options": [
+                  "Un diplôme d'ingénieur canadien.",
+                  "Un logement.",
+                  "Des cours de français officiels.",
+                  "Un contact qui l'a aidé à trouver un emploi."
+                ],
+                "answer": 3,
+                "kind": "inference",
+                "evidence": "c'est grâce à un contact rencontré chez nous qu'il a décroché son poste actuel",
+                "explanation": {
+                  "en": "\"Décrocher un poste\" = to land a job. He got his current job thanks to someone he met there. He practised French informally, not in official classes.",
+                  "hi": "\"Décrocher un poste\" = नौकरी पा लेना। वहाँ मिले एक व्यक्ति की वजह से उन्हें मौजूदा नौकरी मिली। फ़्रेंच का अभ्यास अनौपचारिक था, कोई सरकारी कोर्स नहीं।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Pourquoi les ordinateurs et les téléphones posent-ils problème ?",
+                  "en": "Why are computers and phones a problem?"
+                },
+                "options": [
+                  "Les fabricants les rendent difficiles à réparer.",
+                  "Les bénévoles refusent de les réparer.",
+                  "Ils sont trop dangereux à ouvrir.",
+                  "Les gens n'en apportent jamais."
+                ],
+                "answer": 0,
+                "kind": "literal",
+                "evidence": "Les fabricants rendent les réparations de plus en plus difficiles",
+                "explanation": {
+                  "en": "Glued parts, special screws and missing spare parts: manufacturers make repairs harder, which is why she supports \"right to repair\" bills.",
+                  "hi": "चिपके पुर्ज़े, ख़ास पेंच और अतिरिक्त पुर्ज़ों की कमी: निर्माता मरम्मत मुश्किल बनाते हैं, इसलिए वह \"मरम्मत के अधिकार\" वाले क़ानूनों का समर्थन करती हैं।"
+                }
+              }
+            ]
+          },
+          {
+            "context": "Une émission culturelle. L'animatrice reçoit le directeur d'un festival de contes à Moncton.",
+            "type": "interview",
+            "lines": [
+              {
+                "speaker": "Animatrice",
+                "voice": "f2",
+                "fr": "Ce soir, nous recevons Patrick Comeau, directeur du festival de contes de Moncton, qui commence la semaine prochaine. Patrick, qu'est-ce qui est nouveau cette année ?"
+              },
+              {
+                "speaker": "Patrick Comeau",
+                "voice": "m1",
+                "fr": "Cette année, on a voulu ouvrir le festival aux conteurs issus de l'immigration. Il y aura des contes acadiens, bien sûr, mais aussi des contes venus d'Haïti, du Cameroun, du Liban et même de l'Inde. Tous les spectacles sont en français, mais certains conteurs glissent quelques mots de leur langue maternelle. Le public adore ça."
+              },
+              {
+                "speaker": "Animatrice",
+                "voice": "f2",
+                "fr": "Ce n'est pas un risque, pour un festival qui défend la culture acadienne ?"
+              },
+              {
+                "speaker": "Patrick Comeau",
+                "voice": "m1",
+                "fr": "Au contraire. Les Acadiens savent ce que c'est, de devoir se battre pour garder sa langue et ses histoires. Je crois que ça crée des liens naturels avec les nouveaux arrivants. La tradition orale, c'est universel."
+              },
+              {
+                "speaker": "Animatrice",
+                "voice": "f2",
+                "fr": "Et pour les familles ?"
+              },
+              {
+                "speaker": "Patrick Comeau",
+                "voice": "m1",
+                "fr": "Le dimanche matin, on propose des contes pour les enfants de quatre à dix ans. C'est gratuit, mais il faut réserver sur notre site, parce que la salle ne contient que quatre-vingts places."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle est la nouveauté du festival cette année ?",
+                  "en": "What is new at the festival this year?"
+                },
+                "options": [
+                  "Les spectacles sont en anglais.",
+                  "Il accueille des conteurs issus de l'immigration.",
+                  "Il dure deux semaines.",
+                  "Il se déroule en plein air."
+                ],
+                "answer": 1,
+                "kind": "literal",
+                "evidence": "on a voulu ouvrir le festival aux conteurs issus de l'immigration",
+                "explanation": {
+                  "en": "The festival now includes storytellers of immigrant background (Haiti, Cameroon, Lebanon, India). All shows remain in French.",
+                  "hi": "अब त्योहार में प्रवासी पृष्ठभूमि के कथावाचक भी हैं (हैती, कैमरून, लेबनान, भारत)। सारे कार्यक्रम फ़्रेंच में ही हैं।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Selon Patrick Comeau, pourquoi les Acadiens peuvent-ils comprendre les nouveaux arrivants ?",
+                  "en": "According to Patrick Comeau, why can Acadians relate to newcomers?"
+                },
+                "options": [
+                  "Parce qu'ils ont eux aussi dû lutter pour préserver leur langue.",
+                  "Parce qu'ils parlent tous plusieurs langues.",
+                  "Parce que beaucoup d'entre eux viennent d'Haïti.",
+                  "Parce qu'ils voyagent beaucoup."
+                ],
+                "answer": 0,
+                "kind": "inference",
+                "evidence": "Les Acadiens savent ce que c'est, de devoir se battre pour garder sa langue et ses histoires",
+                "explanation": {
+                  "en": "Acadians know what it is to fight to keep their language and stories; this shared experience creates natural links with newcomers.",
+                  "hi": "अकादियन जानते हैं कि अपनी भाषा और कहानियाँ बचाने के लिए लड़ना क्या होता है; यही साझा अनुभव नए आए लोगों से स्वाभाविक रिश्ता बनाता है।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Pourquoi faut-il réserver pour les contes du dimanche ?",
+                  "en": "Why must you book for the Sunday stories?"
+                },
+                "options": [
+                  "Parce que le spectacle est payant.",
+                  "Parce que les enfants doivent avoir plus de dix ans.",
+                  "Parce que le nombre de places est limité.",
+                  "Parce que le spectacle a lieu en ligne."
+                ],
+                "answer": 2,
+                "kind": "inference",
+                "evidence": "la salle ne contient que quatre-vingts places",
+                "explanation": {
+                  "en": "\"Ne… que\" = only: the room holds only 80 people. The show is free and for children aged 4 to 10.",
+                  "hi": "\"Ne… que\" = सिर्फ़: हॉल में सिर्फ़ 80 जगहें हैं। कार्यक्रम मुफ़्त है और 4 से 10 साल के बच्चों के लिए है।"
+                }
+              }
+            ]
+          },
+          {
+            "context": "Un reportage radio dans un centre de services aux citoyens.",
+            "type": "report",
+            "lines": [
+              {
+                "speaker": "Journaliste",
+                "voice": "f2",
+                "fr": "Dans ce centre de services de la Rive-Sud, les agents d'accueil utilisent depuis six mois une application de traduction instantanée sur tablette. L'objectif : mieux servir les nouveaux arrivants qui ne parlent encore ni français ni anglais."
+              },
+              {
+                "speaker": "Agent d'accueil",
+                "voice": "m2",
+                "fr": "Avant, quand quelqu'un ne parlait ni français ni anglais, on devait lui demander de revenir avec un interprète, ou avec un enfant qui traduisait. Ce n'était pas idéal, surtout pour des questions médicales ou financières. Maintenant, on peut au moins régler les choses simples tout de suite."
+              },
+              {
+                "speaker": "Journaliste",
+                "voice": "f2",
+                "fr": "Mais l'outil a ses limites. Pour les documents officiels ou les situations délicates, le centre continue de faire appel à des interprètes professionnels."
+              },
+              {
+                "speaker": "Usagère",
+                "voice": "f1",
+                "fr": "C'est pratique, mais parfois, la traduction est bizarre. Une fois, la tablette m'a dit que je devais « manger mon formulaire » ! On a bien ri. Mais moi, je préfère parler avec une vraie personne."
+              },
+              {
+                "speaker": "Journaliste",
+                "voice": "f2",
+                "fr": "Le centre prévoit d'ailleurs d'offrir, dès l'automne, des ateliers de conversation en français, pour que l'application devienne, à terme, de moins en moins nécessaire."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle situation l'application permet-elle d'éviter dans les cas simples ?",
+                  "en": "What situation does the app help avoid in simple cases?"
+                },
+                "options": [
+                  "Les longues files d'attente au centre.",
+                  "Le fait de devoir revenir avec un interprète ou un enfant.",
+                  "Le manque d'agents d'accueil.",
+                  "La fermeture du centre le soir."
+                ],
+                "answer": 1,
+                "kind": "inference",
+                "evidence": "on devait lui demander de revenir avec un interprète, ou avec un enfant qui traduisait",
+                "explanation": {
+                  "en": "Before, people had to come back with an interpreter or a child translating; now simple matters are handled \"tout de suite\" (right away).",
+                  "hi": "पहले लोगों को दुभाषिए या अनुवाद करने वाले बच्चे के साथ दोबारा आना पड़ता था; अब आसान काम \"tout de suite\" (तुरंत) हो जाते हैं।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Dans quels cas le centre fait-il encore appel à des interprètes ?",
+                  "en": "In which cases does the centre still use interpreters?"
+                },
+                "options": [
+                  "Pour toutes les questions simples.",
+                  "Seulement le week-end.",
+                  "Pour les ateliers de conversation.",
+                  "Pour les documents officiels et les situations délicates."
+                ],
+                "answer": 3,
+                "kind": "literal",
+                "evidence": "Pour les documents officiels ou les situations délicates",
+                "explanation": {
+                  "en": "Professional interpreters are still used for official documents and sensitive situations; the app is for simple matters.",
+                  "hi": "सरकारी दस्तावेज़ों और नाज़ुक मामलों के लिए अब भी पेशेवर दुभाषिए बुलाए जाते हैं; ऐप सिर्फ़ आसान कामों के लिए है।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Quel est l'objectif du centre à long terme ?",
+                  "en": "What is the centre's long-term goal?"
+                },
+                "options": [
+                  "Remplacer tous les agents par des tablettes.",
+                  "Vendre l'application à d'autres centres.",
+                  "Que les usagers aient de moins en moins besoin de l'application.",
+                  "Supprimer les interprètes professionnels."
+                ],
+                "answer": 2,
+                "kind": "inference",
+                "evidence": "de moins en moins nécessaire",
+                "explanation": {
+                  "en": "\"À terme\" = in the long run. French conversation workshops should make the app less and less necessary.",
+                  "hi": "\"À terme\" = आगे चलकर। फ़्रेंच बातचीत की कार्यशालाओं से ऐप की ज़रूरत धीरे-धीरे कम होनी चाहिए।"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "everyday",
+        "title": "Documents sonores de la vie quotidienne",
+        "instruction": "Questions 31–40. You will hear various everyday recordings, once each. They become more difficult as you go.",
+        "items": [
+          {
+            "context": "Dans une boutique de téléphonie.",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Client",
+                "voice": "m1",
+                "fr": "Bonjour, j'aimerais une carte SIM prépayée. Je viens d'arriver et je n'ai pas encore d'adresse fixe."
+              },
+              {
+                "speaker": "Vendeuse",
+                "voice": "f1",
+                "fr": "Pas de problème : pour le prépayé, on n'a besoin que d'une pièce d'identité. Votre passeport, ça ira."
+              },
+              {
+                "speaker": "Client",
+                "voice": "m1",
+                "fr": "Parfait. Et je pourrai garder le même numéro si je prends un forfait mensuel plus tard ?"
+              },
+              {
+                "speaker": "Vendeuse",
+                "voice": "f1",
+                "fr": "Oui, tout à fait, et le transfert est gratuit."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Pourquoi le client choisit-il une carte prépayée ?",
+                  "en": "Why does the customer choose a prepaid SIM card?"
+                },
+                "options": [
+                  "Parce qu'il n'a pas encore d'adresse fixe.",
+                  "Parce qu'elle est gratuite.",
+                  "Parce qu'il veut changer de numéro.",
+                  "Parce qu'il n'a pas de passeport."
+                ],
+                "answer": 0,
+                "kind": "inference",
+                "evidence": "je n'ai pas encore d'adresse fixe",
+                "explanation": {
+                  "en": "He has just arrived and has no fixed address yet; for prepaid, only ID is needed. He actually wants to keep his number later.",
+                  "hi": "वह अभी आया है और उसका कोई पक्का पता नहीं है; प्रीपेड के लिए सिर्फ़ पहचान-पत्र चाहिए। असल में वह बाद में भी वही नंबर रखना चाहता है।"
+                }
+              }
+            ]
+          },
+          {
+            "context": "Deux collègues discutent à la pause.",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Collègue 1",
+                "voice": "f2",
+                "fr": "T'as réussi à avoir des billets pour le concert de jazz ?"
+              },
+              {
+                "speaker": "Collègue 2",
+                "voice": "m2",
+                "fr": "Non, tout est parti en dix minutes. Je me suis inscrit sur la liste d'attente, mais bon… Par contre, il y a la répétition générale la veille : elle est ouverte au public, et c'est gratuit."
+              },
+              {
+                "speaker": "Collègue 1",
+                "voice": "f2",
+                "fr": "Ah, génial ! On pourrait y aller ensemble, alors !"
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que vont probablement faire les deux collègues ?",
+                  "en": "What will the two colleagues probably do?"
+                },
+                "options": [
+                  "Acheter des billets sur Internet.",
+                  "Renoncer à la musique ce soir-là.",
+                  "Assister ensemble à la répétition générale.",
+                  "Revendre leurs billets."
+                ],
+                "answer": 2,
+                "kind": "inference",
+                "evidence": "On pourrait y aller ensemble, alors",
+                "explanation": {
+                  "en": "The concert is sold out, but the dress rehearsal (\"répétition générale\") the day before is free; \"y\" in \"y aller\" refers to it.",
+                  "hi": "कॉन्सर्ट के टिकट ख़त्म हो गए, पर एक दिन पहले की आख़िरी रिहर्सल (\"répétition générale\") मुफ़्त है; \"y aller\" में \"y\" उसी की ओर इशारा करता है।"
+                }
+              }
+            ]
+          },
+          {
+            "context": "Un père téléphone pour inscrire son fils à un camp de jour.",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Père",
+                "voice": "m1",
+                "fr": "Bonjour, j'appelle pour inscrire mon fils au camp de jour de cet été. Il a neuf ans."
+              },
+              {
+                "speaker": "Agente",
+                "voice": "f1",
+                "fr": "Très bien. Il nous reste des places dans le groupe des huit-dix ans, mais seulement pour les semaines de juillet. Août est complet."
+              },
+              {
+                "speaker": "Père",
+                "voice": "m1",
+                "fr": "Juillet, ça nous va. Et le service de garde, le matin ?"
+              },
+              {
+                "speaker": "Agente",
+                "voice": "f1",
+                "fr": "Il ouvre à sept heures ; c'est quinze dollars de plus par semaine. Par contre, je vous préviens : le paiement complet se fait au moment de l'inscription, et il n'est remboursable que sur présentation d'un certificat médical."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Pour quelle période le fils peut-il être inscrit ?",
+                  "en": "For which period can the son be registered?"
+                },
+                "options": [
+                  "Seulement en août.",
+                  "En juillet et en août.",
+                  "Seulement en juillet.",
+                  "Tout l'été, avec le service de garde."
+                ],
+                "answer": 2,
+                "kind": "literal",
+                "evidence": "seulement pour les semaines de juillet",
+                "explanation": {
+                  "en": "There are places only in July; August is full (\"complet\").",
+                  "hi": "जगहें सिर्फ़ जुलाई में बची हैं; अगस्त पूरा भर चुका है (\"complet\")।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Dans quel cas le paiement peut-il être remboursé ?",
+                  "en": "In which case can the payment be refunded?"
+                },
+                "options": [
+                  "Avec un certificat médical.",
+                  "Si la famille change d'avis avant juillet.",
+                  "Si l'enfant n'utilise pas le service de garde.",
+                  "Jamais, dans aucun cas."
+                ],
+                "answer": 0,
+                "kind": "literal",
+                "evidence": "il n'est remboursable que sur présentation d'un certificat médical",
+                "explanation": {
+                  "en": "\"Ne… que\" = only: refundable only with a medical certificate. So \"never\" is wrong.",
+                  "hi": "\"Ne… que\" = सिर्फ़: पैसा सिर्फ़ डॉक्टर का प्रमाण-पत्र दिखाने पर वापस होगा। इसलिए \"कभी नहीं\" ग़लत है।"
+                }
+              }
+            ]
+          },
+          {
+            "context": "Deux amis se parlent au téléphone. Vikram a déménagé à Sherbrooke il y a trois mois.",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Leïla",
+                "voice": "f2",
+                "fr": "Alors, ça fait trois mois que tu es à Sherbrooke. Tu ne regrettes pas Montréal ?"
+              },
+              {
+                "speaker": "Vikram",
+                "voice": "m1",
+                "fr": "Au début, si, un peu. Je ne connaissais personne, et il n'y avait pas un seul restaurant indien ouvert après vingt heures, tu imagines ! Mais je me suis inscrit dans une ligue de soccer, et là, tout a changé. Maintenant, j'ai plus d'amis ici qu'en quatre ans à Montréal."
+              },
+              {
+                "speaker": "Leïla",
+                "voice": "f2",
+                "fr": "Et le travail ?"
+              },
+              {
+                "speaker": "Vikram",
+                "voice": "m1",
+                "fr": "Le travail, c'est la raison pour laquelle je suis venu, et franchement, c'est mieux que ce que j'espérais. Le seul vrai bémol, c'est la voiture. Sans voiture, ici, c'est compliqué. Je vais devoir passer mon permis, et ça, j'avoue que ça ne m'enchante pas."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Qu'est-ce qui a aidé Vikram à s'intégrer à Sherbrooke ?",
+                  "en": "What helped Vikram fit in in Sherbrooke?"
+                },
+                "options": [
+                  "Ses collègues de travail.",
+                  "Un restaurant indien.",
+                  "Ses amis de Montréal.",
+                  "Une ligue de soccer."
+                ],
+                "answer": 3,
+                "kind": "literal",
+                "evidence": "je me suis inscrit dans une ligue de soccer, et là, tout a changé",
+                "explanation": {
+                  "en": "Joining a soccer league changed everything: he now has more friends there than in four years in Montréal. (In Canada, \"soccer\" = football.)",
+                  "hi": "सॉकर लीग में शामिल होने से सब बदल गया: अब उसके वहाँ मॉन्ट्रियल के चार सालों से भी ज़्यादा दोस्त हैं। (कनाडा में \"soccer\" = फ़ुटबॉल।)"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Quel est le principal inconvénient de Sherbrooke pour lui ?",
+                  "en": "What is the main drawback of Sherbrooke for him?"
+                },
+                "options": [
+                  "Il est difficile de se déplacer sans voiture.",
+                  "Son travail le déçoit.",
+                  "Il n'a pas d'amis.",
+                  "Il fait trop froid."
+                ],
+                "answer": 0,
+                "kind": "inference",
+                "evidence": "Sans voiture, ici, c'est compliqué.",
+                "explanation": {
+                  "en": "\"Le seul vrai bémol\" = the only real downside: getting around without a car. His job is better than he hoped.",
+                  "hi": "\"Le seul vrai bémol\" = एकमात्र असली कमी: बिना कार के आना-जाना मुश्किल है। उसकी नौकरी तो उम्मीद से भी अच्छी है।"
+                }
+              }
+            ]
+          },
+          {
+            "context": "Une assemblée publique dans une municipalité.",
+            "type": "everyday",
+            "lines": [
+              {
+                "speaker": "Présidente",
+                "voice": "f1",
+                "fr": "Passons au point suivant : le projet de transformer l'ancienne église Saint-Joseph en centre culturel. La parole est au public."
+              },
+              {
+                "speaker": "Citoyen",
+                "voice": "m2",
+                "fr": "Je suis plutôt favorable, mais je m'inquiète du stationnement. La rue est déjà saturée le soir, et si on y organise des spectacles, ça va devenir impossible pour les résidents."
+              },
+              {
+                "speaker": "Citoyenne",
+                "voice": "f2",
+                "fr": "Moi, je trouve qu'on se pose les mauvaises questions. Ce bâtiment est vide depuis huit ans. Chaque hiver, il se dégrade un peu plus. Si on ne fait rien, dans cinq ans, il faudra le démolir. Alors oui, il y aura des ajustements à faire, mais l'immobilisme coûte bien plus cher."
+              },
+              {
+                "speaker": "Présidente",
+                "voice": "f1",
+                "fr": "Merci. Je précise que l'étude de circulation sera présentée au conseil en mars, avant toute décision finale."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle est la position de l'homme ?",
+                  "en": "What is the man's position?"
+                },
+                "options": [
+                  "Il est totalement contre le projet.",
+                  "Il soutient le projet mais craint des problèmes de stationnement.",
+                  "Il veut démolir l'église.",
+                  "Il préfère construire un stationnement à la place."
+                ],
+                "answer": 1,
+                "kind": "inference",
+                "evidence": "Je suis plutôt favorable, mais je m'inquiète du stationnement.",
+                "explanation": {
+                  "en": "\"Plutôt favorable, mais…\" = rather in favour, but… He supports the idea with a reservation about parking.",
+                  "hi": "\"Plutôt favorable, mais…\" = कुल मिलाकर पक्ष में, लेकिन… वह योजना के पक्ष में है, बस पार्किंग को लेकर चिंतित है।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Que veut dire la femme par « l'immobilisme coûte bien plus cher » ?",
+                  "en": "What does the woman mean by \"l'immobilisme coûte bien plus cher\"?"
+                },
+                "options": [
+                  "Le centre culturel coûtera trop cher.",
+                  "Les résidents devront payer plus de taxes.",
+                  "Il faut déplacer le projet ailleurs.",
+                  "Ne rien faire aurait des conséquences plus graves que le projet."
+                ],
+                "answer": 3,
+                "kind": "vocabulary",
+                "evidence": "Si on ne fait rien, dans cinq ans, il faudra le démolir.",
+                "explanation": {
+                  "en": "\"L'immobilisme\" = doing nothing / refusing change. If nothing is done the building will have to be demolished, which is worse than adjusting the project.",
+                  "hi": "\"L'immobilisme\" = कुछ न करना / बदलाव से इनकार। अगर कुछ नहीं किया गया तो इमारत गिरानी पड़ेगी, जो योजना में थोड़े बदलाव करने से कहीं बुरा है।"
+                }
+              }
+            ]
+          },
+          {
+            "context": "Une chronique radio sur la société.",
+            "type": "radio",
+            "lines": [
+              {
+                "speaker": "Chroniqueur",
+                "voice": "m1",
+                "fr": "On parle souvent de la fracture numérique comme d'une affaire d'équipement : il y aurait ceux qui ont un ordinateur et ceux qui n'en ont pas. C'est de moins en moins vrai. Aujourd'hui, la très grande majorité des ménages possèdent au moins un téléphone intelligent. Le problème s'est déplacé : il concerne désormais les compétences et la confiance. Savoir faire défiler des vidéos ne signifie pas savoir remplir une déclaration de revenus en ligne, ni repérer une arnaque. Or, à mesure que les services publics se numérisent, ceux qui ne maîtrisent pas ces usages risquent de renoncer à des droits auxquels ils ont pourtant accès. Je ne plaide pas pour un retour au papier ; je plaide pour qu'on garde toujours, quelque part, un guichet avec un être humain derrière."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Selon le chroniqueur, en quoi consiste aujourd'hui la fracture numérique ?",
+                  "en": "According to the columnist, what is the digital divide about today?"
+                },
+                "options": [
+                  "Surtout un manque de compétences et de confiance.",
+                  "Surtout un manque d'appareils.",
+                  "Le prix trop élevé d'Internet.",
+                  "Le refus des jeunes d'utiliser les services publics."
+                ],
+                "answer": 0,
+                "kind": "gist",
+                "evidence": "il concerne désormais les compétences et la confiance",
+                "explanation": {
+                  "en": "\"Le problème s'est déplacé\": it is no longer about equipment (most households have a smartphone) but about skills and confidence.",
+                  "hi": "\"Le problème s'est déplacé\" (समस्या की जगह बदल गई है): अब बात उपकरणों की नहीं (ज़्यादातर घरों में स्मार्टफ़ोन है), बल्कि कौशल और आत्मविश्वास की है।"
+                }
+              },
+              {
+                "q": {
+                  "fr": "Que souhaite le chroniqueur ?",
+                  "en": "What does the columnist want?"
+                },
+                "options": [
+                  "Qu'on revienne aux formulaires papier.",
+                  "Qu'on supprime les services en ligne.",
+                  "Qu'il reste toujours la possibilité de parler à une personne.",
+                  "Que chaque ménage achète un ordinateur."
+                ],
+                "answer": 2,
+                "kind": "inference",
+                "evidence": "un guichet avec un être humain derrière",
+                "explanation": {
+                  "en": "He explicitly says he is not asking for a return to paper; he wants a counter with a human being always available somewhere.",
+                  "hi": "वह साफ़ कहता है कि वह काग़ज़ी व्यवस्था की वापसी नहीं चाहता; वह चाहता है कि कहीं न कहीं हमेशा एक काउंटर हो जहाँ कोई इंसान बैठा हो।"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "a": {
+      "articleStart": "Montréal, samedi soir. Un chat a provoqué une belle frayeur, puis un grand moment de solidarité, dans un immeuble du quartier Villeray. Vers 22 heures, plusieurs voisins ont entendu des miaulements qui semblaient venir de la cheminée d'un appartement inoccupé. Ne parvenant pas à joindre le propriétaire des lieux, ils ont finalement décidé d'appeler les pompiers.",
+      "instruction": {
+        "en": "Continue this news-in-brief story (fait divers) in French. Write at least 80 words. Tell what happened next and how the story ended, in the style of a newspaper report (third person, past tenses: passé composé and imparfait).",
+        "hi": "इस छोटी ख़बर (fait divers) को फ़्रेंच में आगे लिखिए। कम से कम 80 शब्द लिखिए। बताइए कि आगे क्या हुआ और कहानी कैसे ख़त्म हुई — अख़बार की रिपोर्ट की शैली में (अन्य पुरुष, भूतकाल: passé composé और imparfait)।"
+      },
+      "minWords": 80
+    },
+    "b": {
+      "statement": "« Les réseaux sociaux ont fait plus de mal que de bien à la vie de quartier : on connaît mieux ses amis en ligne que ses propres voisins. »",
+      "instruction": {
+        "en": "You read this opinion in a newspaper. Write a letter to the newspaper (at least 200 words) in which you say whether you agree or not, and justify your opinion with at least three arguments and examples.",
+        "hi": "आपने अख़बार में यह राय पढ़ी। अख़बार को एक पत्र लिखिए (कम से कम 200 शब्द), जिसमें बताइए कि आप सहमत हैं या नहीं, और अपनी राय को कम से कम तीन तर्कों और उदाहरणों से साबित कीजिए।"
+      },
+      "minWords": 200
+    }
+  },
+  "speaking": {
+    "a": {
+      "document": "COURS D'INFORMATIQUE POUR ADULTES\nCentre communautaire Les Érables\nVous voulez enfin être à l'aise avec un ordinateur, Internet et votre téléphone intelligent ?\n✔ Petits groupes\n✔ Cours le soir ou la fin de semaine\n✔ Débutants et intermédiaires\n✔ Matériel fourni sur place\nInscriptions en cours — places limitées !\nRenseignements : 819 555-0142",
+      "instruction": {
+        "en": "You saw this advertisement and you are interested. You phone the community centre to get more information. Ask about ten questions (5 minutes). The examiner plays the person who answers the phone.",
+        "hi": "आपने यह विज्ञापन देखा और आपको इसमें रुचि है। अधिक जानकारी के लिए आप सामुदायिक केंद्र को फ़ोन करते हैं। लगभग दस सवाल पूछिए (5 मिनट)। परीक्षक फ़ोन उठाने वाले व्यक्ति की भूमिका निभाएगा।"
+      },
+      "partnerFacts": [
+        "Les cours commencent le lundi 14 octobre et durent dix semaines.",
+        "Chaque groupe compte au maximum huit participants.",
+        "Il y a deux horaires : le mardi et le jeudi de 18 h 30 à 20 h 30, ou le samedi de 9 h 30 à 12 h 30.",
+        "Le prix est de 120 $ pour les dix semaines ; 60 $ pour les résidents permanents arrivés depuis moins de deux ans et pour les 65 ans et plus.",
+        "On peut payer en argent comptant, par carte de débit ou en deux versements.",
+        "Le niveau débutant couvre : allumer l'ordinateur, la souris et le clavier, créer une adresse courriel, naviguer sur Internet.",
+        "Le niveau intermédiaire couvre : les services publics en ligne, la visioconférence, la sécurité et les arnaques, le stockage de photos.",
+        "Un court test de niveau (15 minutes) est fait le premier soir.",
+        "Les ordinateurs sont fournis, mais on peut apporter son propre portable ou son téléphone.",
+        "Les cours sont donnés en français simple ; une bénévole parle aussi anglais et pendjabi pour aider.",
+        "Le centre est à cinq minutes à pied de l'arrêt d'autobus de la ligne 33 ; stationnement gratuit derrière le bâtiment.",
+        "Un service de garde gratuit est offert le samedi matin pour les enfants de 3 à 10 ans, sur réservation.",
+        "Une attestation de participation est remise à la fin si on a assisté à au moins huit cours.",
+        "Pour s'inscrire : venir sur place du lundi au vendredi, de 10 h à 16 h, avec une pièce d'identité, ou remplir le formulaire sur le site du centre."
+      ]
+    },
+    "b": {
+      "document": "DEVENEZ BÉNÉVOLE AU FESTIVAL DES CULTURES DU MONDE !\nGatineau — du 8 au 10 août\nTrois jours de musique, de danse et de cuisine des cinq continents, au cœur du parc riverain.\nNous cherchons 200 bénévoles pour :\n• l'accueil et l'information des visiteurs\n• l'aide aux artistes en coulisses\n• les kiosques de recyclage et de compostage\n• l'animation des activités pour enfants\nFormation de deux heures offerte. T-shirt officiel, repas et accès gratuit à tous les spectacles pour chaque bénévole.\nAucune expérience nécessaire — juste votre sourire !",
+      "instruction": {
+        "en": "You found this announcement and you think it would be a great idea for a friend of yours. Present it to your friend and try to convince them to sign up with you (10 minutes). The examiner plays your friend, who is not convinced and raises objections.",
+        "hi": "आपको यह सूचना मिली और आपको लगता है कि यह आपके एक दोस्त के लिए बहुत अच्छा मौक़ा है। अपने दोस्त को इसके बारे में बताइए और उसे अपने साथ नाम लिखवाने के लिए राज़ी करने की कोशिश कीजिए (10 मिनट)। परीक्षक आपके दोस्त की भूमिका निभाएगा, जो आसानी से नहीं मानेगा और आपत्तियाँ उठाएगा।"
+      },
+      "partnerObjections": [
+        "Je travaille déjà toute la semaine ; je n'ai pas envie de passer mes fins de semaine à travailler gratuitement.",
+        "Mon français n'est pas assez bon pour parler avec les visiteurs.",
+        "Travailler sans être payé, ce n'est pas vraiment utile pour ma carrière.",
+        "Il va y avoir trop de monde, et je n'aime pas la foule.",
+        "Et s'il pleut pendant les trois jours ? On va passer notre temps mouillés.",
+        "Le parc est loin de chez moi et je n'ai pas de voiture.",
+        "Je n'ai aucune expérience avec les enfants ni avec les artistes.",
+        "Je préfère acheter un billet et profiter des spectacles tranquillement.",
+        "Trier les déchets au kiosque de recyclage, ce n'est pas très motivant."
+      ]
+    }
+  }
+}

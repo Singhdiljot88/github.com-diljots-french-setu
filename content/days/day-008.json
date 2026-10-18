@@ -1,0 +1,179 @@
+{
+  "day": 8,
+  "phase": 1,
+  "title": { "fr": "Plus d'un : le pluriel, c'est et il y a", "en": "More than one: plurals, c'est and il y a", "hi": "एक से ज़्यादा: बहुवचन, c'est और il y a" },
+  "objective": {
+    "en": "Make nouns plural with les and des, say 'this is / these are' with c'est and ce sont, and describe what there is in a room with il y a.",
+    "hi": "les और des से संज्ञाओं का बहुवचन बनाना, c'est और ce sont से 'यह है / ये हैं' कहना, और il y a से बताना कि किसी कमरे में क्या-क्या है।"
+  },
+  "prerequisites": {
+    "days": [5, 6, 7],
+    "summary": { "en": "Numbers 0–20 (Day 5), un/une and le/la/l' with everyday objects (Day 6), the le/les sound contrast (Day 6).", "hi": "0–20 की संख्याएँ (दिन 5), रोज़ की चीज़ों के साथ un/une और le/la/l' (दिन 6), le/les की आवाज़ का फ़र्क़ (दिन 6)।" }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "les", "en": "the (plural)", "hi": "वे ख़ास (बहुवचन)", "pron": "ले", "ipa": "le", "pos": "determiner", "note": { "en": "One plural 'the' for masculine and feminine.", "hi": "पुल्लिंग और स्त्रीलिंग दोनों के लिए एक ही बहुवचन रूप।" } },
+    { "fr": "des", "en": "some / (plural of un, une)", "hi": "कुछ (un/une का बहुवचन)", "pron": "दे", "ipa": "de", "pos": "determiner", "note": { "en": "English often drops it ('there are chairs'); French needs it: il y a des chaises.", "hi": "अंग्रेज़ी में अक्सर छूट जाता है ('there are chairs'); फ़्रेंच में ज़रूरी है: il y a des chaises।" } },
+    { "fr": "c'est / ce sont", "en": "it is, this is / these are, they are", "hi": "यह है / ये हैं", "pron": "सै / सö सोँ", "ipa": "sɛ / sə sɔ̃", "pos": "phrase" },
+    { "fr": "il y a", "en": "there is / there are", "hi": "… है / … हैं (मौजूद है)", "pron": "ई-ल्या", "ipa": "ilja", "pos": "phrase", "note": { "en": "Never changes, singular or plural.", "hi": "एकवचन हो या बहुवचन, कभी नहीं बदलता।" } },
+    { "fr": "la salle de classe", "en": "classroom", "hi": "कक्षा / क्लासरूम", "pron": "ला साल दö क्लास", "ipa": "la sal də klas", "pos": "noun", "gender": "f", "lemma": "salle de classe" },
+    { "fr": "le tableau / les tableaux", "en": "board / boards", "hi": "बोर्ड / बोर्ड (कई)", "pron": "लö ता-ब्लो / ले ता-ब्लो", "ipa": "lə tablo / le tablo", "pos": "noun", "gender": "m", "lemma": "tableau", "note": { "en": "Nouns in -eau take -x in the plural (silent).", "hi": "-eau वाली संज्ञाओं का बहुवचन -x से बनता है (बोला नहीं जाता)।" } },
+    { "fr": "le bureau / les bureaux", "en": "desk, office / desks, offices", "hi": "डेस्क, दफ़्तर / कई डेस्क", "pron": "लö बü-ग़ो / ले बü-ग़ो", "ipa": "lə byʁo / le byʁo", "pos": "noun", "gender": "m", "lemma": "bureau" },
+    { "fr": "le cahier", "en": "notebook", "hi": "कॉपी", "pron": "लö का-ये", "ipa": "lə kaje", "pos": "noun", "gender": "m", "lemma": "cahier" },
+    { "fr": "le crayon", "en": "pencil", "hi": "पेंसिल", "pron": "लö क्ग़े-योँ", "ipa": "lə kʁɛjɔ̃", "pos": "noun", "gender": "m", "lemma": "crayon", "note": { "en": "Masculine in French; पेंसिल is feminine in Hindi.", "hi": "फ़्रेंच में पुल्लिंग; हिंदी में 'पेंसिल' स्त्रीलिंग है।" } },
+    { "fr": "la gomme", "en": "eraser", "hi": "रबड़", "pron": "ला गॉम", "ipa": "la ɡɔm", "pos": "noun", "gender": "f", "lemma": "gomme" },
+    { "fr": "l'étudiant / l'étudiante", "en": "student (m / f)", "hi": "विद्यार्थी / छात्र / छात्रा", "pron": "ले-तü-द्याँ / ले-तü-द्याँत", "ipa": "letydjɑ̃ / letydjɑ̃t", "pos": "noun", "gender": "mf", "lemma": "étudiant" },
+    { "fr": "le professeur / la professeure", "en": "teacher (m / f)", "hi": "शिक्षक / शिक्षिका", "pron": "लö प्ग़ो-फ़ै-सöग़", "ipa": "lə pʁɔfɛsœʁ", "pos": "noun", "gender": "mf", "lemma": "professeur", "note": { "en": "'la professeure' is standard in Canada and now common in France. Informally: le/la prof.", "hi": "'la professeure' कनाडा में मानक है और अब फ़्रांस में भी आम है। बोलचाल में: le/la prof।" } },
+    { "fr": "l'ami / l'amie", "en": "friend (m / f)", "hi": "दोस्त / सहेली", "pron": "ला-मी", "ipa": "lami", "pos": "noun", "gender": "mf", "lemma": "ami" },
+    { "fr": "beaucoup de", "en": "a lot of, many", "hi": "बहुत सारे / बहुत-सी", "pron": "बो-कू दö", "ipa": "boku də", "pos": "phrase", "note": { "en": "No article after it: beaucoup de livres (not 'de les').", "hi": "इसके बाद उपपद नहीं: beaucoup de livres ('de les' नहीं)।" } }
+  ],
+  "phrases": [
+    { "fr": "Il y a vingt chaises.", "en": "There are twenty chairs.", "hi": "बीस कुर्सियाँ हैं।", "pron": "ई-ल्या वैँ शैज़", "ipa": "ilja vɛ̃ ʃɛz" },
+    { "fr": "Il y a un tableau.", "en": "There is a board.", "hi": "एक बोर्ड है।", "pron": "ई-ल्या ऐँ ता-ब्लो", "ipa": "ilja ɛ̃ tablo" },
+    { "fr": "C'est un cahier.", "en": "It's a notebook.", "hi": "यह एक कॉपी है।", "pron": "सै तैँ का-ये", "ipa": "sɛ tɛ̃ kaje", "note": { "en": "Liaison: c'est + un = सै तैँ.", "hi": "जोड़: c'est + un = सै तैँ।" } },
+    { "fr": "Ce sont des crayons.", "en": "They are pencils.", "hi": "ये पेंसिलें हैं।", "pron": "सö सोँ दे क्ग़े-योँ", "ipa": "sə sɔ̃ de kʁɛjɔ̃" },
+    { "fr": "Qu'est-ce que c'est ?", "en": "What is it? / What's this?", "hi": "यह क्या है?", "pron": "कैस-कö सै", "ipa": "kɛskə sɛ" },
+    { "fr": "Les livres sont sur le bureau.", "en": "The books are on the desk.", "hi": "किताबें डेस्क पर हैं।", "pron": "ले लीव्ग़ सोँ सüग़ लö बü-ग़ो", "ipa": "le livʁ sɔ̃ syʁ lə byʁo" }
+  ],
+  "grammar": {
+    "title": { "en": "Plural nouns, c'est / ce sont, il y a", "hi": "बहुवचन संज्ञाएँ, c'est / ce sont, il y a" },
+    "explanation": {
+      "en": "Plural: le / la / l' → les; un / une → des. Most nouns add -s (un livre → des livres); nouns in -eau or -eu add -x (un tableau → des tableaux). The s or x is silent, so listen to the article: le (लö) vs les (ले). To name or point: c'est + singular (C'est une gomme), ce sont + plural (Ce sont des gommes). To say something exists somewhere: il y a + singular or plural (Il y a un tableau. Il y a des tables.).",
+      "hi": "बहुवचन: le / la / l' → les; un / une → des। ज़्यादातर संज्ञाओं में -s जुड़ता है (un livre → des livres); -eau या -eu वाली संज्ञाओं में -x (un tableau → des tableaux)। s या x बोला नहीं जाता, इसलिए उपपद सुनिए: le (लö) और les (ले)। किसी चीज़ का नाम बताने या इशारा करने के लिए: c'est + एकवचन (C'est une gomme), ce sont + बहुवचन (Ce sont des gommes)। कोई चीज़ कहीं मौजूद है, यह बताने के लिए: il y a + एकवचन या बहुवचन (Il y a un tableau. Il y a des tables.)।"
+    },
+    "comparison": {
+      "en": "English changes 'there is' to 'there are'; Hindi changes है to हैं. French 'il y a' never changes. On the other hand, English can say 'there are chairs' with no article, while French always needs des: il y a des chaises. Hindi also has no article here (कुर्सियाँ हैं) — so the French des feels extra to both of you, but it is required.",
+      "hi": "अंग्रेज़ी में 'there is' का 'there are' हो जाता है; हिंदी में 'है' का 'हैं'। फ़्रेंच का 'il y a' कभी नहीं बदलता। दूसरी ओर, अंग्रेज़ी में 'there are chairs' बिना उपपद के चलता है, पर फ़्रेंच में des हमेशा चाहिए: il y a des chaises। हिंदी में भी यहाँ उपपद नहीं है (कुर्सियाँ हैं) — इसलिए des आपको फ़ालतू लगेगा, पर यह ज़रूरी है।"
+    },
+    "examples": [
+      { "fr": "un cahier → des cahiers", "en": "a notebook → notebooks", "hi": "एक कॉपी → कॉपियाँ", "pron": "ऐँ का-ये → दे का-ये" },
+      { "fr": "le tableau → les tableaux", "en": "the board → the boards", "hi": "बोर्ड → कई बोर्ड", "pron": "लö ता-ब्लो → ले ता-ब्लो" },
+      { "fr": "C'est un ami. Ce sont des amis.", "en": "He's a friend. They're friends.", "hi": "वह एक दोस्त है। वे दोस्त हैं।", "pron": "सै तैँ ना-मी सö सोँ दे ज़ा-मी" },
+      { "fr": "Il y a des étudiants dans la salle.", "en": "There are students in the room.", "hi": "कमरे में विद्यार्थी हैं।", "pron": "ई-ल्या दे ज़े-तü-द्याँ दाँ ला साल" },
+      { "fr": "Il y a beaucoup de livres sur la table.", "en": "There are a lot of books on the table.", "hi": "मेज़ पर बहुत सारी किताबें हैं।", "pron": "ई-ल्या बो-कू दö लीव्ग़ सüग़ ला ताब्ल" }
+    ],
+    "pitfalls": [
+      { "en": "Don't say 'Il y a chaises'. Say 'Il y a des chaises'.", "hi": "'Il y a chaises' मत कहिए। 'Il y a des chaises' कहिए।" },
+      { "en": "Don't say 'Ils sont des livres' to point at things. Say 'Ce sont des livres'.", "hi": "चीज़ों की ओर इशारा करते हुए 'Ils sont des livres' मत कहिए। 'Ce sont des livres' कहिए।" },
+      { "en": "Don't pronounce the plural s: les livres = ले लीव्ग़, not ले लीव्ग़स.", "hi": "बहुवचन का s मत बोलिए: les livres = ले लीव्ग़, 'ले लीव्ग़स' नहीं।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Silent plural -s; liaison les amis, des enfants",
+    "tip": {
+      "en": "The plural s is silent at the end of a word. But the s of les and des wakes up as z before a vowel: les amis = ले ज़ा-मी, des enfants = दे ज़ाँ-फ़ाँ. Before a consonant it stays silent: les livres = ले लीव्ग़.",
+      "hi": "शब्द के अंत में बहुवचन का s नहीं बोला जाता। पर les और des का s स्वर से पहले 'ज़' बनकर जागता है: les amis = ले ज़ा-मी, des enfants = दे ज़ाँ-फ़ाँ। व्यंजन से पहले चुप रहता है: les livres = ले लीव्ग़।"
+    },
+    "words": [
+      { "fr": "les amis", "en": "the friends", "hi": "दोस्त (वे)", "pron": "ले ज़ा-मी", "ipa": "le zami" },
+      { "fr": "des enfants", "en": "children", "hi": "बच्चे", "pron": "दे ज़ाँ-फ़ाँ", "ipa": "de zɑ̃fɑ̃" },
+      { "fr": "les étudiants", "en": "the students", "hi": "विद्यार्थी (वे)", "pron": "ले ज़े-तü-द्याँ", "ipa": "le zetydjɑ̃" },
+      { "fr": "les livres", "en": "the books", "hi": "किताबें (वे)", "pron": "ले लीव्ग़", "ipa": "le livʁ", "note": { "en": "No liaison before a consonant.", "hi": "व्यंजन से पहले जोड़ नहीं।" } },
+      { "fr": "il y a", "en": "there is / are", "hi": "… है / हैं", "pron": "ई-ल्या", "ipa": "ilja" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "La salle de classe", "en": "The classroom" },
+    "type": "dialogue",
+    "mode": "pedagogical",
+    "context": { "en": "Madame Leblanc, a teacher at a language school in Moncton, shows the classroom to a new student, Karan.", "hi": "मॉन्कटन के एक भाषा स्कूल की शिक्षिका, मदाम लब्लाँ, नए विद्यार्थी करण को कक्षा दिखाती हैं।" },
+    "lines": [
+      { "speaker": "Mme Leblanc", "voice": "f2", "fr": "Voilà la salle de classe, Karan.", "en": "Here is the classroom, Karan.", "hi": "यह रही कक्षा, करण।" },
+      { "speaker": "Karan", "voice": "m1", "fr": "Merci, madame. Il y a beaucoup de chaises !", "en": "Thank you, madam. There are a lot of chairs!", "hi": "धन्यवाद, मैडम। बहुत सारी कुर्सियाँ हैं!" },
+      { "speaker": "Mme Leblanc", "voice": "f2", "fr": "Oui, il y a vingt chaises et dix tables.", "en": "Yes, there are twenty chairs and ten tables.", "hi": "हाँ, बीस कुर्सियाँ और दस मेज़ें हैं।" },
+      { "speaker": "Karan", "voice": "m1", "fr": "Et ça, c'est un ordinateur ?", "en": "And that, is it a computer?", "hi": "और यह, क्या यह कंप्यूटर है?" },
+      { "speaker": "Mme Leblanc", "voice": "f2", "fr": "Oui, c'est l'ordinateur de la classe.", "en": "Yes, it's the class computer.", "hi": "हाँ, यह कक्षा का कंप्यूटर है।" },
+      { "speaker": "Karan", "voice": "m1", "fr": "Et les livres ?", "en": "And the books?", "hi": "और किताबें?" },
+      { "speaker": "Mme Leblanc", "voice": "f2", "fr": "Les livres sont sur le bureau. Ce sont des livres pour les étudiants.", "en": "The books are on the desk. They are books for the students.", "hi": "किताबें डेस्क पर हैं। ये विद्यार्थियों के लिए किताबें हैं।" },
+      { "speaker": "Karan", "voice": "m1", "fr": "Super, merci !", "en": "Great, thanks!", "hi": "बढ़िया, धन्यवाद!" }
+    ],
+    "questions": [
+      { "q": { "en": "How many chairs are there?" }, "options": ["10", "20", "12"], "answer": 1, "explanation": { "en": "'il y a vingt chaises' — vingt = 20.", "hi": "'il y a vingt chaises' — vingt = 20।" }, "kind": "literal", "evidence": "il y a vingt chaises et dix tables" },
+      { "q": { "en": "How many tables are there?" }, "options": ["Ten", "Two", "Twenty"], "answer": 0, "explanation": { "en": "'dix tables' — dix = 10.", "hi": "'dix tables' — dix = 10।" }, "kind": "literal", "evidence": "vingt chaises et dix tables" },
+      { "q": { "en": "Whose computer is it?" }, "options": ["Karan's", "The teacher's", "The class's"], "answer": 2, "explanation": { "en": "'c'est l'ordinateur de la classe'.", "hi": "'c'est l'ordinateur de la classe' — कक्षा का कंप्यूटर।" }, "kind": "literal", "evidence": "c'est l'ordinateur de la classe" },
+      { "q": { "en": "Where are the books?" }, "options": ["On the chairs", "On the desk", "In a bag"], "answer": 1, "explanation": { "en": "'Les livres sont sur le bureau.'", "hi": "'Les livres sont sur le bureau.' — डेस्क पर।" }, "kind": "literal", "evidence": "Les livres sont sur le bureau." },
+      { "q": { "en": "Why does the teacher say 'Ce sont' and not 'C'est' in her last line?" }, "options": ["Because 'livres' is plural", "Because she is polite", "Because it is a question"], "answer": 0, "explanation": { "en": "ce sont + plural: ce sont des livres.", "hi": "ce sont + बहुवचन: ce sont des livres।" }, "kind": "grammar", "evidence": "Ce sont des livres pour les étudiants." }
+    ],
+    "dictation": ["Il y a beaucoup de chaises.", "C'est un ordinateur.", "Les livres sont sur le bureau."],
+    "gapFill": { "text": "Oui, ___ vingt chaises et dix tables. … ___ des livres pour les étudiants.", "answers": ["il y a", "Ce sont"] }
+  },
+  "speaking": {
+    "type": "repeat",
+    "instructions": {
+      "en": "Imagine a picture of a classroom. Describe it aloud with il y a, then point at things with c'est / ce sont. Repeat each model first.",
+      "hi": "एक कक्षा की तस्वीर की कल्पना कीजिए। il y a से उसका ज़ोर से वर्णन कीजिए, फिर c'est / ce sont से चीज़ों की ओर इशारा कीजिए। पहले हर मॉडल दोहराइए।"
+    },
+    "prompts": [
+      { "fr": "Il y a un tableau.", "en": "There is a board.", "hi": "एक बोर्ड है।", "pron": "ई-ल्या ऐँ ता-ब्लो" },
+      { "fr": "Il y a des chaises et des tables.", "en": "There are chairs and tables.", "hi": "कुर्सियाँ और मेज़ें हैं।", "pron": "ई-ल्या दे शैज़ ए दे ताब्ल" },
+      { "fr": "Il y a beaucoup d'étudiants.", "en": "There are a lot of students.", "hi": "बहुत सारे विद्यार्थी हैं।", "pron": "ई-ल्या बो-कू दे-तü-द्याँ" },
+      { "fr": "C'est une gomme.", "en": "It's an eraser.", "hi": "यह एक रबड़ है।", "pron": "सै तüन गॉम" },
+      { "fr": "Ce sont des crayons.", "en": "They are pencils.", "hi": "ये पेंसिलें हैं।", "pron": "सö सोँ दे क्ग़े-योँ", "model": "Ce sont des cahiers." }
+    ],
+    "tip": {
+      "en": "Say 'il y a' as one quick word: ई-ल्या. Don't separate it into three slow words.",
+      "hi": "'il y a' को एक तेज़ शब्द की तरह बोलिए: ई-ल्या। इसे तीन धीमे शब्दों में मत तोड़िए।"
+    }
+  },
+  "reading": {
+    "genre": "notice",
+    "title": "Salle 12 — Inventaire",
+    "text": "SALLE 12 — INVENTAIRE\nDans la salle, il y a :\n– 20 chaises\n– 10 tables\n– 1 tableau blanc\n– 2 ordinateurs\n– 25 livres de français\nAttention : les crayons et les gommes sont sur le bureau de Mme Leblanc.",
+    "translation": {
+      "en": "ROOM 12 — INVENTORY\nIn the room there are:\n– 20 chairs\n– 10 tables\n– 1 whiteboard\n– 2 computers\n– 25 French books\nPlease note: the pencils and erasers are on Mrs Leblanc's desk.",
+      "hi": "कमरा 12 — सामान की सूची\nकमरे में हैं:\n– 20 कुर्सियाँ\n– 10 मेज़ें\n– 1 व्हाइटबोर्ड\n– 2 कंप्यूटर\n– फ़्रेंच की 25 किताबें\nध्यान दें: पेंसिलें और रबड़ मदाम लब्लाँ की डेस्क पर हैं।"
+    },
+    "questions": [
+      { "q": { "en": "How many computers are in Room 12?" }, "options": ["1", "2", "10"], "answer": 1, "explanation": { "en": "'2 ordinateurs'.", "hi": "'2 ordinateurs' — दो कंप्यूटर।" }, "kind": "literal", "evidence": "2 ordinateurs" },
+      { "q": { "en": "Where can you find a pencil?" }, "options": ["On Mrs Leblanc's desk", "On the whiteboard", "In the French books"], "answer": 0, "explanation": { "en": "'les crayons et les gommes sont sur le bureau de Mme Leblanc'.", "hi": "'les crayons et les gommes sont sur le bureau de Mme Leblanc' — मदाम लब्लाँ की डेस्क पर।" }, "kind": "literal", "evidence": "les crayons et les gommes sont sur le bureau de Mme Leblanc" },
+      { "q": { "en": "What is a 'tableau blanc'?" }, "options": ["A white table", "A whiteboard", "A white book"], "answer": 1, "explanation": { "en": "tableau = board; blanc = white → whiteboard.", "hi": "tableau = बोर्ड; blanc = सफ़ेद → व्हाइटबोर्ड।" }, "kind": "vocabulary", "evidence": "1 tableau blanc" },
+      { "q": { "en": "Are there more chairs or tables?" }, "options": ["More tables", "The same number", "More chairs"], "answer": 2, "explanation": { "en": "20 chairs and 10 tables.", "hi": "20 कुर्सियाँ और 10 मेज़ें।" }, "kind": "inference", "evidence": "20 chaises" }
+    ]
+  },
+  "writing": {
+    "type": "sentences",
+    "prompt": {
+      "en": "List what is in your bedroom. Use 'Dans ma chambre, il y a…' and give at least six objects with un/une/des or numbers.",
+      "hi": "लिखिए कि आपके कमरे में क्या-क्या है। 'Dans ma chambre, il y a…' से शुरू कीजिए और un/une/des या संख्याओं के साथ कम से कम छह चीज़ें बताइए।"
+    },
+    "minWords": 18,
+    "maxWords": 50,
+    "hints": [
+      { "en": "la chambre = bedroom (feminine).", "hi": "la chambre = सोने का कमरा (स्त्रीलिंग)।" },
+      { "en": "One thing: un/une. Several: des or a number + plural s.", "hi": "एक चीज़: un/une। कई: des या संख्या + बहुवचन s।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Dans ma chambre, il y a …", "en": "In my bedroom, there is / are …", "hi": "मेरे कमरे में … है / हैं", "pron": "दाँ मा शाँब्ग़ ई-ल्या" },
+      { "fr": "Il y a beaucoup de …", "en": "There are a lot of …", "hi": "बहुत सारे … हैं", "pron": "ई-ल्या बो-कू दö" },
+      { "fr": "C'est / Ce sont …", "en": "It is / They are …", "hi": "यह है / ये हैं …", "pron": "सै / सö सोँ" }
+    ],
+    "model": { "fr": "Dans ma chambre, il y a un lit, une table et deux chaises. Il y a un ordinateur sur la table. Il y a aussi une lampe, des cahiers et beaucoup de livres.", "en": "In my bedroom there is a bed, a table and two chairs. There is a computer on the table. There is also a lamp, some notebooks and a lot of books." },
+    "checklist": [
+      { "en": "Did you use des (not nothing) before plural nouns?", "hi": "क्या बहुवचन संज्ञाओं से पहले des लगाया?" },
+      { "en": "Did you add -s (or -x) to plural nouns?", "hi": "क्या बहुवचन संज्ञाओं में -s (या -x) जोड़ा?" },
+      { "en": "beaucoup de + noun, with no les/des after de?", "hi": "beaucoup de + संज्ञा, de के बाद les/des नहीं?" }
+    ]
+  },
+  "review": {
+    "fromDays": [5, 6, 7],
+    "items": [
+      { "fr": "le livre, la table, l'ordinateur", "en": "the book, the table, the computer", "hi": "किताब, मेज़, कंप्यूटर", "pron": "लö लीव्ग़ ला ताब्ल लॉग़-दी-ना-तöग़" },
+      { "fr": "Où est la clé ?", "en": "Where is the key?", "hi": "चाबी कहाँ है?", "pron": "ऊ ऐ ला क्ले" },
+      { "fr": "Elle est dans le sac.", "en": "It's in the bag.", "hi": "वह थैले में है।", "pron": "ऐ लै दाँ लö साक" },
+      { "fr": "dix, quinze, vingt", "en": "ten, fifteen, twenty", "hi": "दस, पंद्रह, बीस", "pron": "दीस कैँज़ वैँ" },
+      { "fr": "J'ai deux enfants.", "en": "I have two children.", "hi": "मेरे दो बच्चे हैं।", "pron": "झ़े दö ज़ाँ-फ़ाँ" },
+      { "fr": "la voisine de l'appartement 8", "en": "the neighbour from apartment 8", "hi": "अपार्टमेंट 8 वाली पड़ोसन", "pron": "ला व्वा-ज़ीन दö ला-पाग़्त-माँ üइत" },
+      { "fr": "Bienvenue !", "en": "Welcome!", "hi": "स्वागत है!", "pron": "ब्यैँ-व्नü" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Plural of 'le tableau'?", "hi": "'le tableau' का बहुवचन?" }, "options": ["les tableaus", "les tableaux", "des tableau"], "answer": 1, "explanation": { "en": "-eau → -eaux.", "hi": "-eau → -eaux।" } },
+    { "type": "fill", "prompt": { "en": "Complete: They are notebooks.", "hi": "पूरा कीजिए: ये कॉपियाँ हैं।" }, "sentence": "___ sont des cahiers.", "answer": "Ce", "accept": ["ce"], "explanation": { "en": "ce sont + plural.", "hi": "ce sont + बहुवचन।" } },
+    { "type": "mcq", "prompt": { "en": "How do you say 'There are chairs'?", "hi": "'कुर्सियाँ हैं' कैसे कहेंगे?" }, "options": ["Il y a chaises.", "Ils sont des chaises.", "Il y a des chaises."], "answer": 2, "explanation": { "en": "il y a + des + plural noun.", "hi": "il y a + des + बहुवचन संज्ञा।" } },
+    { "type": "fill", "prompt": { "en": "Make it plural: un crayon → ___ crayons", "hi": "बहुवचन बनाइए: un crayon → ___ crayons" }, "sentence": "un crayon → ___ crayons", "answer": "des", "accept": [], "explanation": { "en": "un/une → des.", "hi": "un/une → des।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "There is a computer in the classroom.", "hi": "कक्षा में एक कंप्यूटर है।" }, "answer": "Il y a un ordinateur dans la salle de classe.", "accept": ["Il y a un ordinateur dans la salle de classe", "il y a un ordinateur dans la salle de classe."], "explanation": { "en": "il y a + un ordinateur + dans la salle de classe.", "hi": "il y a + un ordinateur + dans la salle de classe।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: There are a lot of books.", "hi": "शब्दों को सही क्रम में रखिए: बहुत सारी किताबें हैं।" }, "words": ["beaucoup", "Il", "livres.", "y", "de", "a"], "answer": "Il y a beaucoup de livres.", "explanation": { "en": "Il y a + beaucoup de + noun.", "hi": "Il y a + beaucoup de + संज्ञा।" } },
+    { "type": "mcq", "prompt": { "en": "How is 'les amis' pronounced?", "hi": "'les amis' कैसे बोला जाता है?" }, "options": ["ले आ-मी", "ले ज़ा-मी", "लैस आ-मीस"], "answer": 1, "explanation": { "en": "Liaison: the s of les sounds like z before a vowel.", "hi": "जोड़: स्वर से पहले les का s 'ज़' बोला जाता है।" } }
+  ]
+}

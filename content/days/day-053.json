@@ -1,0 +1,910 @@
+{
+  "day": 53,
+  "phase": 3,
+  "title": {
+    "fr": "Les pronoms y et en",
+    "en": "Y and en",
+    "hi": "सर्वनाम y और en"
+  },
+  "objective": {
+    "en": "Use y to replace a place or 'à + thing', and en to replace 'de + noun' and quantities (j'en ai trois, il y en a), so your answers sound natural and not repetitive.",
+    "hi": "जगह या 'à + चीज़' की जगह y, और 'de + संज्ञा' तथा मात्राओं की जगह en इस्तेमाल करना (j'en ai trois, il y en a), ताकि आपके जवाब स्वाभाविक लगें और दोहराव न हो।"
+  },
+  "prerequisites": {
+    "days": [
+      8,
+      16,
+      24,
+      25,
+      34,
+      51,
+      52
+    ],
+    "summary": {
+      "en": "You need il y a (Day 8), places in town and à + le = au (Day 16), partitives du/de la/des (Day 24), quantities (Day 25), frequency (Day 34) and object pronouns (Days 51–52).",
+      "hi": "आपको il y a (दिन 8), शहर की जगहें और à + le = au (दिन 16), partitive du/de la/des (दिन 24), मात्राएँ (दिन 25), आवृत्ति (दिन 34) और कर्म सर्वनाम (दिन 51–52) याद होने चाहिए।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "la douzaine",
+      "en": "the dozen",
+      "hi": "दर्जन",
+      "pron": "ला दू-ज़ैन",
+      "ipa": "la duzɛn",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "douzaine",
+      "note": {
+        "en": "une douzaine d'œufs = a dozen eggs.",
+        "hi": "une douzaine d'œufs = एक दर्जन अंडे।"
+      }
+    },
+    {
+      "fr": "le sachet",
+      "en": "the small bag, the packet",
+      "hi": "पैकेट, थैली",
+      "pron": "लö सा-शै",
+      "ipa": "lə saʃɛ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "sachet"
+    },
+    {
+      "fr": "la tranche",
+      "en": "the slice",
+      "hi": "टुकड़ा, स्लाइस",
+      "pron": "ला त्राँश",
+      "ipa": "la tʁɑ̃ʃ",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "tranche"
+    },
+    {
+      "fr": "le pot",
+      "en": "the jar, the pot",
+      "hi": "डिब्बा, मर्तबान",
+      "pron": "लö पो",
+      "ipa": "lə po",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "pot"
+    },
+    {
+      "fr": "la boîte de conserve",
+      "en": "the tin, the can",
+      "hi": "टिन का डिब्बा",
+      "pron": "ला ब्वात द कोँ-सैग़व",
+      "ipa": "la bwat də kɔ̃sɛʁv",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "boîte"
+    },
+    {
+      "fr": "assez (de)",
+      "en": "enough",
+      "hi": "काफ़ी, पर्याप्त",
+      "pron": "आ-से",
+      "ipa": "ase",
+      "pos": "adverb",
+      "lemma": "assez"
+    },
+    {
+      "fr": "plusieurs",
+      "en": "several",
+      "hi": "कई",
+      "pron": "प्लü-ज़्यöग़",
+      "ipa": "plyzjœʁ",
+      "pos": "determiner",
+      "note": {
+        "en": "Same form for masculine and feminine: plusieurs amis, plusieurs fois.",
+        "hi": "पुल्लिंग और स्त्रीलिंग दोनों के लिए एक ही रूप: plusieurs amis, plusieurs fois।"
+      }
+    },
+    {
+      "fr": "avoir besoin de",
+      "en": "to need",
+      "hi": "की ज़रूरत होना",
+      "pron": "आ-व्वाग़ बö-ज़्वैँ द",
+      "ipa": "avwaʁ bəzwɛ̃ də",
+      "pos": "phrase",
+      "note": {
+        "en": "Because of 'de', it works with en: J'en ai besoin = I need it/some.",
+        "hi": "'de' की वजह से इसके साथ en आता है: J'en ai besoin = मुझे इसकी ज़रूरत है।"
+      }
+    },
+    {
+      "fr": "penser à",
+      "en": "to think about",
+      "hi": "के बारे में सोचना",
+      "pron": "पाँ-से आ",
+      "ipa": "pɑ̃se a",
+      "pos": "phrase",
+      "note": {
+        "en": "With a thing → y: J'y pense. With a person → à lui / à elle: Je pense à elle.",
+        "hi": "किसी चीज़ के साथ → y: J'y pense। किसी व्यक्ति के साथ → à lui / à elle: Je pense à elle।"
+      }
+    },
+    {
+      "fr": "la salle de sport",
+      "en": "the gym",
+      "hi": "जिम",
+      "pron": "ला साल द स्पॉग़",
+      "ipa": "la sal də spɔʁ",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "salle"
+    },
+    {
+      "fr": "le centre commercial",
+      "en": "the shopping centre, the mall",
+      "hi": "शॉपिंग मॉल",
+      "pron": "लö साँत्ग़ को-मैग़-स्याल",
+      "ipa": "lə sɑ̃tʁ kɔmɛʁsjal",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "centre"
+    },
+    {
+      "fr": "la fois",
+      "en": "time (occurrence)",
+      "hi": "बार, दफ़ा",
+      "pron": "ला फ़्वा",
+      "ipa": "la fwa",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "fois",
+      "note": {
+        "en": "une fois par semaine = once a week. Not 'time' as in clock time (l'heure, le temps).",
+        "hi": "une fois par semaine = हफ़्ते में एक बार। घड़ी वाले समय के लिए नहीं (उसके लिए l'heure, le temps)।"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "On y va !",
+      "en": "Let's go!",
+      "hi": "चलो चलें!",
+      "pron": "ओँ नी वा",
+      "note": {
+        "en": "Literally 'we go there'. Very common.",
+        "hi": "शब्दशः 'हम वहाँ जाते हैं'। बहुत आम।"
+      }
+    },
+    {
+      "fr": "J'en ai besoin.",
+      "en": "I need it / I need some.",
+      "hi": "मुझे इसकी ज़रूरत है।",
+      "pron": "झ़ाँ ने बö-ज़्वैँ"
+    },
+    {
+      "fr": "Il y en a combien ?",
+      "en": "How many are there?",
+      "hi": "कितने हैं?",
+      "pron": "ई-ल्याँ ना कोँ-ब्यैँ"
+    },
+    {
+      "fr": "J'en voudrais deux, s'il vous plaît.",
+      "en": "I'd like two (of them), please.",
+      "hi": "मुझे दो चाहिए, कृपया।",
+      "pron": "झ़ाँ वू-द्रै दö सील वू प्लै"
+    },
+    {
+      "fr": "Vous y allez souvent ?",
+      "en": "Do you go there often?",
+      "hi": "क्या आप वहाँ अक्सर जाते हैं?",
+      "pron": "वू ज़ी आ-ले सू-वाँ"
+    },
+    {
+      "fr": "Il n'y en a pas.",
+      "en": "There isn't any.",
+      "hi": "बिल्कुल नहीं है।",
+      "pron": "ईल नी याँ ना पा"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "y (there / à + thing) and en (some, of it, of them)",
+      "hi": "y (वहाँ / à + चीज़) और en (कुछ, उसमें से, उनमें से)"
+    },
+    "explanation": {
+      "en": "y replaces a place introduced by à, en, dans, chez, sur…: Tu vas à la banque ? — Oui, j'y vais. It also replaces à + a thing (not a person): Tu penses à ton examen ? — Oui, j'y pense. en replaces de / du / de la / des + noun: Tu manges du riz ? — Oui, j'en mange. Non, je n'en mange pas. With a number or a quantity, en replaces the noun and you KEEP the number or quantity: Tu as des enfants ? — J'en ai deux. Tu as un vélo ? — Oui, j'en ai un. J'en achète un kilo. il y a des œufs → il y en a; il n'y en a pas. en also replaces de + verb phrases: J'ai besoin de sucre → J'en ai besoin. Position: like other pronouns — before the verb, before avoir (J'y suis allé, J'en ai acheté), before an infinitive (Je vais y aller).",
+      "hi": "y उस जगह की जगह आता है जो à, en, dans, chez, sur… के साथ आती है: Tu vas à la banque ? — Oui, j'y vais (हाँ, मैं वहाँ जा रहा हूँ)। यह à + चीज़ (व्यक्ति नहीं) की जगह भी आता है: Tu penses à ton examen ? — Oui, j'y pense। en, de / du / de la / des + संज्ञा की जगह आता है: Tu manges du riz ? — Oui, j'en mange। Non, je n'en mange pas। संख्या या मात्रा के साथ en संज्ञा की जगह लेता है और संख्या या मात्रा बनी रहती है: Tu as des enfants ? — J'en ai deux। Tu as un vélo ? — Oui, j'en ai un। J'en achète un kilo। il y a des œufs → il y en a; il n'y en a pas। en, de वाले वाक्यांशों की जगह भी आता है: J'ai besoin de sucre → J'en ai besoin। जगह: बाक़ी सर्वनामों जैसी — क्रिया से पहले, avoir से पहले (J'y suis allé, J'en ai acheté), मूल क्रिया से पहले (Je vais y aller)।"
+    },
+    "comparison": {
+      "en": "Hindi simply drops the repeated word: 'बाज़ार जाते हो? — हाँ, जाता हूँ', 'अंडे हैं? — हाँ, तीन हैं'. French cannot drop it — it needs y or en: 'Oui, j'y vais', 'Oui, il y en a trois'. English uses 'there' and 'some / of them' ('I have three of them'). So when your Hindi answer feels 'empty', French usually needs y or en in that gap.",
+      "hi": "हिंदी दोहराए जाने वाले शब्द को बस छोड़ देती है: 'बाज़ार जाते हो? — हाँ, जाता हूँ', 'अंडे हैं? — हाँ, तीन हैं'। फ़्रेंच उसे छोड़ नहीं सकती — उसे y या en चाहिए: 'Oui, j'y vais', 'Oui, il y en a trois'। अंग्रेज़ी 'there' और 'some / of them' इस्तेमाल करती है ('I have three of them')। इसलिए जब आपका हिंदी जवाब 'ख़ाली' लगे, तो फ़्रेंच में उस जगह आमतौर पर y या en चाहिए।"
+    },
+    "examples": [
+      {
+        "fr": "Le marché ? J'y vais le samedi.",
+        "en": "The market? I go there on Saturdays.",
+        "hi": "बाज़ार? मैं वहाँ शनिवार को जाता/जाती हूँ।",
+        "pron": "लö माग़-शे — झ़ी वै लö साम-दी"
+      },
+      {
+        "fr": "Des pommes ? J'en ai acheté un kilo.",
+        "en": "Apples? I bought a kilo (of them).",
+        "hi": "सेब? मैंने एक किलो ख़रीदे।",
+        "pron": "दे पॉम — झ़ाँ ने आश-ते ऐँ की-लो"
+      },
+      {
+        "fr": "Tu as des frères ? — Oui, j'en ai deux.",
+        "en": "Do you have brothers? — Yes, I have two.",
+        "hi": "तुम्हारे भाई हैं? — हाँ, दो हैं।",
+        "pron": "तü आ दे फ़्रैग़ — वी झ़ाँ ने दö"
+      },
+      {
+        "fr": "Du lait ? Il n'y en a pas.",
+        "en": "Milk? There isn't any.",
+        "hi": "दूध? बिल्कुल नहीं है।",
+        "pron": "दü लै — ईल नी याँ ना पा"
+      },
+      {
+        "fr": "Ton rendez-vous ? Je vais y penser.",
+        "en": "Your appointment? I'll think about it.",
+        "hi": "तुम्हारी अपॉइंटमेंट? मैं इसके बारे में याद रखूँगा/रखूँगी।",
+        "pron": "तोँ ग़ाँ-दे-वू — झ़ö वै ज़ी पाँ-से"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Keep the number with en: 'J'en ai deux' (not 'J'ai deux' or 'J'en ai'). And keep 'un/une' in the positive: 'J'en ai un', but negative 'Je n'en ai pas'.",
+        "hi": "en के साथ संख्या रखिए: 'J'en ai deux' ('J'ai deux' या सिर्फ़ 'J'en ai' नहीं)। सकारात्मक में 'un/une' भी रखिए: 'J'en ai un', पर नकारात्मक में 'Je n'en ai pas'।"
+      },
+      {
+        "en": "y is for places and things, not people: 'Je pense à ma mère' → 'Je pense à elle', not 'J'y pense'.",
+        "hi": "y जगहों और चीज़ों के लिए है, लोगों के लिए नहीं: 'Je pense à ma mère' → 'Je pense à elle', 'J'y pense' नहीं।"
+      },
+      {
+        "en": "Before the future of aller (j'irai, tu iras…), y is normally dropped to avoid the clash of two i sounds: 'Tu vas à Québec ? — Oui, j'irai en mai.'",
+        "hi": "aller के भविष्य काल (j'irai, tu iras…) से पहले, दो i की आवाज़ों के टकराव से बचने के लिए y आमतौर पर छोड़ दिया जाता है: 'Tu vas à Québec ? — Oui, j'irai en mai.'"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Liaison: j'en ai, on y va, vous en avez",
+    "tip": {
+      "en": "y and en are vowels, so they create liaison and elision everywhere: je → j' (j'y, j'en); on‿y (ओँ नी), vous‿en‿avez (वू ज़ाँ ना-वे), il y‿en‿a (ई-ल्याँ ना). Say each group as one smooth word.",
+      "hi": "y और en स्वर हैं, इसलिए हर जगह लियाज़ों और elision होता है: je → j' (j'y, j'en); on‿y (ओँ नी), vous‿en‿avez (वू ज़ाँ ना-वे), il y‿en‿a (ई-ल्याँ ना)। हर समूह को एक सहज शब्द की तरह बोलिए।"
+    },
+    "words": [
+      {
+        "fr": "j'en ai",
+        "en": "I have some",
+        "hi": "मेरे पास कुछ हैं",
+        "pron": "झ़ाँ ने",
+        "ipa": "ʒɑ̃ ne"
+      },
+      {
+        "fr": "on y va",
+        "en": "let's go",
+        "hi": "चलो चलें",
+        "pron": "ओँ नी वा",
+        "ipa": "ɔ̃ ni va"
+      },
+      {
+        "fr": "vous en avez",
+        "en": "you have some",
+        "hi": "आपके पास कुछ है",
+        "pron": "वू ज़ाँ ना-वे",
+        "ipa": "vu zɑ̃ nave"
+      },
+      {
+        "fr": "il y en a",
+        "en": "there are some",
+        "hi": "कुछ हैं",
+        "pron": "ई-ल्याँ ना",
+        "ipa": "il jɑ̃ na"
+      },
+      {
+        "fr": "nous y allons",
+        "en": "we're going there",
+        "hi": "हम वहाँ जा रहे हैं",
+        "pron": "नू ज़ी आ-लोँ",
+        "ipa": "nu zi alɔ̃"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "À l'épicerie du quartier",
+      "en": "At the neighbourhood grocery"
+    },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Meena is shopping at a small grocery in Montréal for her son's birthday party. She talks with the grocer.",
+      "hi": "मीना अपने बेटे की जन्मदिन पार्टी के लिए मॉन्ट्रियाल की एक छोटी किराने की दुकान पर ख़रीदारी कर रही है। वह दुकानदार से बात करती है।"
+    },
+    "lines": [
+      {
+        "speaker": "Épicier",
+        "voice": "m2",
+        "fr": "Bonjour madame ! Qu'est-ce que je vous sers ?",
+        "en": "Hello, madam! What can I get you?",
+        "hi": "नमस्ते मैडम! आपको क्या दूँ?"
+      },
+      {
+        "speaker": "Meena",
+        "voice": "f1",
+        "fr": "Bonjour ! Vous avez des mangues aujourd'hui ?",
+        "en": "Hello! Do you have mangoes today?",
+        "hi": "नमस्ते! आज आपके पास आम हैं?"
+      },
+      {
+        "speaker": "Épicier",
+        "voice": "m2",
+        "fr": "Oui, j'en ai. Elles viennent du Mexique. Vous en voulez combien ?",
+        "en": "Yes, I have some. They come from Mexico. How many do you want?",
+        "hi": "हाँ, हैं। मेक्सिको से आए हैं। कितने चाहिए?"
+      },
+      {
+        "speaker": "Meena",
+        "voice": "f1",
+        "fr": "J'en voudrais quatre, s'il vous plaît. Et vous avez de la coriandre fraîche ?",
+        "en": "I'd like four, please. And do you have fresh coriander?",
+        "hi": "चार चाहिए, कृपया। और ताज़ा धनिया है?"
+      },
+      {
+        "speaker": "Épicier",
+        "voice": "m2",
+        "fr": "Désolé, il n'y en a pas aujourd'hui. Le camion arrive demain matin.",
+        "en": "Sorry, there isn't any today. The truck arrives tomorrow morning.",
+        "hi": "माफ़ कीजिए, आज बिल्कुल नहीं है। ट्रक कल सुबह आएगा।"
+      },
+      {
+        "speaker": "Meena",
+        "voice": "f1",
+        "fr": "Dommage… J'en ai besoin pour mon chutney. Bon, je reviendrai demain. Et des œufs ?",
+        "en": "What a pity… I need some for my chutney. OK, I'll come back tomorrow. And eggs?",
+        "hi": "अफ़सोस… मुझे चटनी के लिए चाहिए था। ठीक है, कल फिर आऊँगी। और अंडे?"
+      },
+      {
+        "speaker": "Épicier",
+        "voice": "m2",
+        "fr": "Bien sûr. Une douzaine ?",
+        "en": "Of course. A dozen?",
+        "hi": "ज़रूर। एक दर्जन?"
+      },
+      {
+        "speaker": "Meena",
+        "voice": "f1",
+        "fr": "Non, j'en prends six seulement. Et un sachet de riz basmati, le grand.",
+        "en": "No, I'll take only six. And a bag of basmati rice, the big one.",
+        "hi": "नहीं, सिर्फ़ छह लूँगी। और बासमती चावल का एक पैकेट, बड़ा वाला।"
+      },
+      {
+        "speaker": "Épicier",
+        "voice": "m2",
+        "fr": "Voilà. Vous faites une fête ?",
+        "en": "Here you are. Are you having a party?",
+        "hi": "यह लीजिए। कोई पार्टी है?"
+      },
+      {
+        "speaker": "Meena",
+        "voice": "f1",
+        "fr": "Oui, samedi, c'est l'anniversaire de mon fils. Il y aura quinze enfants !",
+        "en": "Yes, on Saturday it's my son's birthday. There will be fifteen children!",
+        "hi": "हाँ, शनिवार को मेरे बेटे का जन्मदिन है। पंद्रह बच्चे होंगे!"
+      },
+      {
+        "speaker": "Épicier",
+        "voice": "m2",
+        "fr": "Quinze ! Alors il vous faut du jus. J'en ai en promotion : deux bouteilles pour cinq dollars.",
+        "en": "Fifteen! Then you need juice. I have some on special: two bottles for five dollars.",
+        "hi": "पंद्रह! तब तो आपको जूस चाहिए। मेरे पास ऑफ़र है: पाँच डॉलर में दो बोतलें।"
+      },
+      {
+        "speaker": "Meena",
+        "voice": "f1",
+        "fr": "Parfait, j'en prends quatre. Et vous connaissez un bon magasin de ballons ?",
+        "en": "Perfect, I'll take four. And do you know a good balloon shop?",
+        "hi": "बढ़िया, चार ले लेती हूँ। और क्या आप गुब्बारों की कोई अच्छी दुकान जानते हैं?"
+      },
+      {
+        "speaker": "Épicier",
+        "voice": "m2",
+        "fr": "Oui, au centre commercial, à côté de la pharmacie. J'y vais souvent pour mes petits-enfants.",
+        "en": "Yes, at the shopping centre, next to the pharmacy. I often go there for my grandchildren.",
+        "hi": "हाँ, शॉपिंग मॉल में, फ़ार्मेसी के बग़ल में। मैं अपने पोते-पोतियों के लिए अक्सर वहाँ जाता हूँ।"
+      },
+      {
+        "speaker": "Meena",
+        "voice": "f1",
+        "fr": "Merci beaucoup ! Ça fait combien ?",
+        "en": "Thank you very much! How much is it?",
+        "hi": "बहुत धन्यवाद! कितना हुआ?"
+      },
+      {
+        "speaker": "Épicier",
+        "voice": "m2",
+        "fr": "Trente-deux dollars cinquante, madame.",
+        "en": "Thirty-two dollars fifty, madam.",
+        "hi": "बत्तीस डॉलर पचास सेंट, मैडम।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "How many mangoes does Meena buy?"
+        },
+        "options": [
+          "Two",
+          "Four",
+          "Six",
+          "Twelve"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'J'en voudrais quatre' — en = des mangues.",
+          "hi": "'J'en voudrais quatre' — en = des mangues (आम)।"
+        },
+        "kind": "literal",
+        "evidence": "J'en voudrais quatre, s'il vous plaît."
+      },
+      {
+        "q": {
+          "en": "Why will Meena come back tomorrow?"
+        },
+        "options": [
+          "To pick up the cake",
+          "To pay",
+          "To buy coriander for her chutney"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "There is no coriander today; the truck comes tomorrow, and she needs it.",
+          "hi": "आज धनिया नहीं है; ट्रक कल आएगा, और उसे इसकी ज़रूरत है।"
+        },
+        "kind": "inference",
+        "evidence": "J'en ai besoin pour mon chutney. Bon, je reviendrai demain."
+      },
+      {
+        "q": {
+          "en": "How many eggs does she take?"
+        },
+        "options": [
+          "Six",
+          "A dozen",
+          "Fifteen"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'j'en prends six seulement'.",
+          "hi": "'j'en prends six seulement' (सिर्फ़ छह लूँगी)।"
+        },
+        "kind": "literal",
+        "evidence": "Non, j'en prends six seulement."
+      },
+      {
+        "q": {
+          "en": "Where is the balloon shop?"
+        },
+        "options": [
+          "Next to the grocery",
+          "At the shopping centre, next to the pharmacy",
+          "Near the school"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'au centre commercial, à côté de la pharmacie'.",
+          "hi": "'au centre commercial, à côté de la pharmacie' (मॉल में, फ़ार्मेसी के बग़ल में)।"
+        },
+        "kind": "literal",
+        "evidence": "au centre commercial, à côté de la pharmacie"
+      },
+      {
+        "q": {
+          "en": "In 'J'y vais souvent', what does 'y' replace?"
+        },
+        "options": [
+          "The pharmacy",
+          "The grocery",
+          "The shopping centre / balloon shop"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "y = there, the place just mentioned: the shop at the shopping centre.",
+          "hi": "y = वहाँ, अभी बताई गई जगह: मॉल वाली दुकान।"
+        },
+        "kind": "grammar",
+        "evidence": "J'y vais souvent pour mes petits-enfants."
+      }
+    ],
+    "dictation": [
+      "Oui, j'en ai.",
+      "Il n'y en a pas aujourd'hui.",
+      "J'y vais souvent."
+    ],
+    "gapFill": {
+      "text": "Des mangues ? Oui, j'___ ai. J'en ___ besoin pour mon chutney. Le centre commercial ? J'___ vais souvent.",
+      "answers": [
+        "en",
+        "ai",
+        "y"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "conversation",
+    "instructions": {
+      "en": "Answer each question in a full sentence using y or en. Don't repeat the noun. Then add a detail (when, how much, why).",
+      "hi": "हर प्रश्न का जवाब y या en के साथ पूरे वाक्य में दीजिए। संज्ञा मत दोहराइए। फिर एक बात जोड़िए (कब, कितना, क्यों)।"
+    },
+    "prompts": [
+      {
+        "fr": "Vous allez souvent au cinéma ?",
+        "en": "Do you often go to the cinema?",
+        "hi": "क्या आप अक्सर सिनेमा जाते हैं?",
+        "pron": "वू ज़ा-ले सू-वाँ ओ सी-ने-मा",
+        "model": "Non, j'y vais rarement, deux fois par an."
+      },
+      {
+        "fr": "Vous buvez du thé ?",
+        "en": "Do you drink tea?",
+        "hi": "क्या आप चाय पीते हैं?",
+        "pron": "वू बü-वे दü ते",
+        "model": "Oui, j'en bois trois tasses par jour, avec du gingembre."
+      },
+      {
+        "fr": "Vous avez des enfants ?",
+        "en": "Do you have children?",
+        "hi": "क्या आपके बच्चे हैं?",
+        "pron": "वू ज़ा-वे दे ज़ाँ-फ़ाँ",
+        "model": "Oui, j'en ai deux : une fille et un garçon."
+      },
+      {
+        "fr": "Vous êtes déjà allé(e) à Québec ?",
+        "en": "Have you ever been to Québec City?",
+        "hi": "क्या आप कभी क्यूबेक शहर गए हैं?",
+        "pron": "वू ज़ैत दे-झ़ा आ-ले आ के-बैक",
+        "model": "Non, je n'y suis jamais allé, mais j'y vais l'été prochain."
+      },
+      {
+        "fr": "Vous pensez à votre examen ?",
+        "en": "Are you thinking about your exam?",
+        "hi": "क्या आप अपनी परीक्षा के बारे में सोच रहे हैं?",
+        "pron": "वू पाँ-से आ वॉ-त्रैग-ज़ा-मैँ",
+        "model": "Oui, j'y pense tous les jours !"
+      }
+    ],
+    "tip": {
+      "en": "Quick test: if the question has à/au/en/dans + a place, answer with y. If it has du/de la/des or a number, answer with en.",
+      "hi": "जल्दी से जाँचिए: अगर प्रश्न में à/au/en/dans + जगह है, तो जवाब y से। अगर du/de la/des या कोई संख्या है, तो en से।"
+    }
+  },
+  "reading": {
+    "genre": "form",
+    "title": "Sondage : vos habitudes au quotidien",
+    "text": "Merci de répondre à notre petit questionnaire !\n\n1. Vous allez au supermarché combien de fois par semaine ?\n→ J'y vais une fois par semaine, le samedi matin.\n\n2. Vous achetez des fruits et des légumes bio ?\n→ Oui, j'en achète parfois, mais ils sont chers.\n\n3. Vous buvez du café ? Combien de tasses par jour ?\n→ Oui, j'en bois trois par jour. C'est peut-être trop !\n\n4. Vous allez à la salle de sport ?\n→ Non, je n'y vais jamais. Je préfère marcher dans le parc.\n\n5. Vous mangez de la viande ?\n→ Non, je n'en mange pas. Je suis végétarien depuis mon enfance.\n\n6. Vous pensez à l'environnement quand vous faites vos courses ?\n→ Oui, j'y pense souvent. J'apporte toujours mes sacs réutilisables.\n\n7. Vous avez une voiture ?\n→ Oui, j'en ai une, mais je la prends seulement pour aller chez ma sœur, à Laval.\n\nArun, 41 ans, Montréal",
+    "translation": {
+      "en": "Thank you for answering our short questionnaire!\n\n1. How many times a week do you go to the supermarket?\n→ I go once a week, on Saturday morning.\n\n2. Do you buy organic fruit and vegetables?\n→ Yes, I sometimes buy some, but they're expensive.\n\n3. Do you drink coffee? How many cups a day?\n→ Yes, I drink three a day. Maybe that's too many!\n\n4. Do you go to the gym?\n→ No, I never go. I prefer walking in the park.\n\n5. Do you eat meat?\n→ No, I don't eat any. I've been vegetarian since childhood.\n\n6. Do you think about the environment when you do your shopping?\n→ Yes, I often think about it. I always bring my reusable bags.\n\n7. Do you have a car?\n→ Yes, I have one, but I only use it to go to my sister's, in Laval.\n\nArun, 41, Montréal",
+      "hi": "हमारी छोटी-सी प्रश्नावली का जवाब देने के लिए धन्यवाद!\n\n1. आप हफ़्ते में कितनी बार सुपरमार्केट जाते हैं?\n→ मैं हफ़्ते में एक बार जाता हूँ, शनिवार सुबह।\n\n2. क्या आप जैविक (ऑर्गेनिक) फल और सब्ज़ियाँ ख़रीदते हैं?\n→ हाँ, कभी-कभी ख़रीदता हूँ, पर वे महँगे हैं।\n\n3. क्या आप कॉफ़ी पीते हैं? दिन में कितने कप?\n→ हाँ, दिन में तीन पीता हूँ। शायद यह ज़्यादा है!\n\n4. क्या आप जिम जाते हैं?\n→ नहीं, मैं कभी नहीं जाता। मुझे पार्क में टहलना ज़्यादा पसंद है।\n\n5. क्या आप मांस खाते हैं?\n→ नहीं, बिल्कुल नहीं खाता। मैं बचपन से शाकाहारी हूँ।\n\n6. ख़रीदारी करते समय क्या आप पर्यावरण के बारे में सोचते हैं?\n→ हाँ, अक्सर सोचता हूँ। मैं हमेशा अपने दोबारा इस्तेमाल होने वाले थैले लेकर जाता हूँ।\n\n7. क्या आपके पास गाड़ी है?\n→ हाँ, एक है, पर मैं उसे सिर्फ़ लावाल में अपनी बहन के घर जाने के लिए इस्तेमाल करता हूँ।\n\nअरुण, 41 साल, मॉन्ट्रियाल"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "When does Arun go to the supermarket?"
+        },
+        "options": [
+          "Every day",
+          "Never",
+          "Twice a week",
+          "Once a week, on Saturday morning"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'J'y vais une fois par semaine, le samedi matin.'",
+          "hi": "'J'y vais une fois par semaine, le samedi matin.' (हफ़्ते में एक बार, शनिवार सुबह।)"
+        },
+        "kind": "literal",
+        "evidence": "J'y vais une fois par semaine, le samedi matin."
+      },
+      {
+        "q": {
+          "en": "How many cups of coffee does he drink a day?"
+        },
+        "options": [
+          "One",
+          "Two",
+          "Three"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'j'en bois trois par jour' — en = du café, and the number stays.",
+          "hi": "'j'en bois trois par jour' — en = du café, और संख्या बनी रहती है।"
+        },
+        "kind": "literal",
+        "evidence": "j'en bois trois par jour"
+      },
+      {
+        "q": {
+          "en": "Why doesn't Arun eat meat?"
+        },
+        "options": [
+          "He has been vegetarian since childhood",
+          "It's too expensive",
+          "His doctor said no"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Je suis végétarien depuis mon enfance.'",
+          "hi": "'Je suis végétarien depuis mon enfance.' (मैं बचपन से शाकाहारी हूँ।)"
+        },
+        "kind": "literal",
+        "evidence": "Je suis végétarien depuis mon enfance."
+      },
+      {
+        "q": {
+          "en": "In answer 6, what does 'y' replace?"
+        },
+        "options": [
+          "The supermarket",
+          "The environment (à l'environnement)",
+          "The park"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "The question was 'Vous pensez à l'environnement ?' → 'j'y pense'.",
+          "hi": "प्रश्न था 'Vous pensez à l'environnement ?' → 'j'y pense'।"
+        },
+        "kind": "grammar",
+        "evidence": "Oui, j'y pense souvent."
+      },
+      {
+        "q": {
+          "en": "What can we guess about how Arun uses his car?"
+        },
+        "options": [
+          "He drives it every day to work",
+          "He uses it rarely",
+          "He drives to the gym"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "He only takes it to visit his sister; he walks and shops once a week.",
+          "hi": "वह उसे सिर्फ़ बहन से मिलने के लिए निकालता है; बाक़ी समय पैदल चलता है और हफ़्ते में एक बार ख़रीदारी करता है।"
+        },
+        "kind": "inference",
+        "evidence": "je la prends seulement pour aller chez ma sœur"
+      }
+    ]
+  },
+  "writing": {
+    "type": "form",
+    "prompt": {
+      "en": "Answer this survey about your own habits. Write a full sentence for each question, using y or en, and add one detail each time.",
+      "hi": "अपनी आदतों के बारे में इस सर्वेक्षण का जवाब दीजिए। हर प्रश्न के लिए y या en के साथ पूरा वाक्य लिखिए, और हर बार एक बात जोड़िए।",
+      "fr": "1. Vous allez au parc ? 2. Vous mangez des fruits tous les jours ? 3. Vous avez des frères ou des sœurs ? 4. Vous allez à la bibliothèque ? 5. Vous buvez de l'eau ? Combien de verres ? 6. Vous pensez à vos vacances ?"
+    },
+    "minWords": 45,
+    "maxWords": 90,
+    "hints": [
+      {
+        "en": "Questions 1, 4, 6 → y. Questions 2, 3, 5 → en (keep the number).",
+        "hi": "प्रश्न 1, 4, 6 → y। प्रश्न 2, 3, 5 → en (संख्या बनाए रखिए)।"
+      },
+      {
+        "en": "For a negative, put ne … pas around the pronoun + verb: je n'y vais pas, je n'en mange pas.",
+        "hi": "नकार के लिए सर्वनाम + क्रिया के चारों ओर ne … pas: je n'y vais pas, je n'en mange pas।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "J'y vais … fois par semaine.",
+        "en": "I go there … times a week.",
+        "hi": "मैं वहाँ हफ़्ते में … बार जाता/जाती हूँ।",
+        "pron": "झ़ी वै … फ़्वा पाग़ स्मैन"
+      },
+      {
+        "fr": "J'en mange tous les jours.",
+        "en": "I eat some every day.",
+        "hi": "मैं रोज़ खाता/खाती हूँ।",
+        "pron": "झ़ाँ माँझ़ तू ले झ़ूग़"
+      },
+      {
+        "fr": "Je n'en ai pas.",
+        "en": "I don't have any.",
+        "hi": "मेरे पास बिल्कुल नहीं है।",
+        "pron": "झ़ö नाँ ने पा"
+      }
+    ],
+    "model": {
+      "fr": "1. Oui, j'y vais le dimanche avec mes enfants. 2. Oui, j'en mange tous les jours, surtout des bananes. 3. J'en ai trois : deux sœurs et un frère. 4. Non, je n'y vais pas souvent, mais j'emprunte des livres en ligne. 5. Oui, j'en bois six verres par jour. 6. Oui, j'y pense beaucoup : nous irons en Inde en décembre !",
+      "en": "1. Yes, I go there on Sundays with my children. 2. Yes, I eat some every day, especially bananas. 3. I have three: two sisters and a brother. 4. No, I don't go there often, but I borrow books online. 5. Yes, I drink six glasses a day. 6. Yes, I think about them a lot: we'll go to India in December!"
+    },
+    "checklist": [
+      {
+        "en": "Did you use y for places and 'à + thing', en for 'de + noun' and quantities?",
+        "hi": "क्या आपने जगहों और 'à + चीज़' के लिए y, और 'de + संज्ञा' तथा मात्राओं के लिए en लगाया?"
+      },
+      {
+        "en": "Did you keep the number after en (j'en ai trois)?",
+        "hi": "क्या आपने en के बाद संख्या रखी (j'en ai trois)?"
+      },
+      {
+        "en": "Are y and en before the verb, with j' before them?",
+        "hi": "क्या y और en क्रिया से पहले हैं, और उनसे पहले j' है?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      16,
+      24,
+      25,
+      34,
+      51,
+      52
+    ],
+    "items": [
+      {
+        "fr": "Je vais au marché.",
+        "en": "I'm going to the market.",
+        "hi": "मैं बाज़ार जा रहा/रही हूँ।",
+        "pron": "झ़ö वै ओ माग़-शे"
+      },
+      {
+        "fr": "Je mange du riz et des légumes.",
+        "en": "I eat rice and vegetables.",
+        "hi": "मैं चावल और सब्ज़ियाँ खाता/खाती हूँ।",
+        "pron": "झ़ö माँझ़ दü ग़ी ए दे ले-गüम"
+      },
+      {
+        "fr": "un kilo de tomates",
+        "en": "a kilo of tomatoes",
+        "hi": "एक किलो टमाटर",
+        "pron": "ऐँ की-लो द तो-मात"
+      },
+      {
+        "fr": "Je ne vais jamais à la piscine.",
+        "en": "I never go to the pool.",
+        "hi": "मैं कभी स्विमिंग पूल नहीं जाता/जाती।",
+        "pron": "झ़ö नö वै झ़ा-मै आ ला पी-सीन"
+      },
+      {
+        "fr": "Je les achète au marché.",
+        "en": "I buy them at the market.",
+        "hi": "मैं उन्हें बाज़ार से ख़रीदता/ख़रीदती हूँ।",
+        "pron": "झ़ö ले ज़ा-शैत ओ माग़-शे"
+      },
+      {
+        "fr": "Je lui offre des fleurs.",
+        "en": "I give her flowers.",
+        "hi": "मैं उसे फूल देता/देती हूँ।",
+        "pron": "झ़ö ल्üई ऑफ़्ग़ दे फ़्लöग़"
+      },
+      {
+        "fr": "Ça fait combien ?",
+        "en": "How much is that?",
+        "hi": "कितना हुआ?",
+        "pron": "सा फ़ै कोँ-ब्यैँ"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Tu vas à la piscine ?' — 'Oui, j'___ vais.'",
+        "hi": "खाली जगह भरने के लिए सही शब्द चुनिए: 'Tu vas à la piscine ?' — 'Oui, j'___ vais.'"
+      },
+      "options": [
+        "en",
+        "y",
+        "la",
+        "lui"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "à + place → y.",
+        "hi": "à + जगह → y।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Tu as des enfants ?' — Choose the best answer.",
+        "hi": "'Tu as des enfants ?' — सबसे अच्छा जवाब चुनिए।"
+      },
+      "options": [
+        "Oui, j'ai deux.",
+        "Oui, j'en ai deux.",
+        "Oui, j'y ai deux.",
+        "Oui, je les ai deux."
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "de + noun with a number → en + keep the number.",
+        "hi": "संख्या के साथ de + संज्ञा → en + संख्या बनाए रखिए।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: Milk? There isn't any.",
+        "hi": "पूरा कीजिए: दूध? बिल्कुल नहीं है।"
+      },
+      "sentence": "Du lait ? Il n'y ___ a pas.",
+      "answer": "en",
+      "accept": [],
+      "explanation": {
+        "en": "il y a du lait → il y en a → il n'y en a pas.",
+        "hi": "il y a du lait → il y en a → il n'y en a pas।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "Coffee? I drink two cups a day.",
+        "hi": "कॉफ़ी? मैं दिन में दो कप पीता हूँ।"
+      },
+      "answer": "Du café ? J'en bois deux tasses par jour.",
+      "accept": [
+        "Du café ? J'en bois deux par jour.",
+        "Le café ? J'en bois deux tasses par jour.",
+        "Du café? J'en bois deux tasses par jour."
+      ],
+      "explanation": {
+        "en": "du café → en, keep the quantity.",
+        "hi": "du café → en, मात्रा बनाए रखिए।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: Montréal? I've never been there.",
+        "hi": "पूरा कीजिए: मॉन्ट्रियाल? मैं वहाँ कभी नहीं गया।"
+      },
+      "sentence": "Montréal ? Je n'___ suis jamais allé.",
+      "answer": "y",
+      "accept": [],
+      "explanation": {
+        "en": "à Montréal → y, before être.",
+        "hi": "à Montréal → y, être से पहले।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: I need it.",
+        "hi": "शब्दों को सही क्रम में रखिए: मुझे इसकी ज़रूरत है।"
+      },
+      "words": [
+        "besoin",
+        "J'en",
+        "ai",
+        "."
+      ],
+      "answer": "J'en ai besoin.",
+      "explanation": {
+        "en": "avoir besoin de → en before avoir.",
+        "hi": "avoir besoin de → avoir से पहले en।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "How is 'on y va' pronounced?",
+        "hi": "'on y va' कैसे बोला जाता है?"
+      },
+      "options": [
+        "ओँ ई वा",
+        "ओँ नी वा",
+        "ओन यी वा"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Liaison on‿y: the n joins y → ओँ नी वा.",
+        "hi": "लियाज़ों on‿y: n, y से जुड़ता है → ओँ नी वा।"
+      }
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "day": 1,
+  "phase": 1,
+  "title": { "fr": "Bonjour ! Premiers mots et sons du français", "en": "Bonjour! First words and French sounds", "hi": "बोंजूर! पहले शब्द और फ़्रेंच की आवाज़ें" },
+  "objective": {
+    "en": "Greet someone politely, say your name, ask someone's name and say goodbye — and notice that many final letters in French are silent.",
+    "hi": "किसी का शिष्टता से अभिवादन करना, अपना नाम बताना, किसी का नाम पूछना और विदा लेना — और यह पहचानना कि फ़्रेंच में कई शब्दों के आख़िरी अक्षर बोले नहीं जाते।"
+  },
+  "prerequisites": {
+    "days": [],
+    "summary": { "en": "None. This lesson assumes no French at all.", "hi": "कुछ नहीं। यह पाठ मानता है कि आप फ़्रेंच बिल्कुल नहीं जानते।" }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "bonjour", "en": "hello / good morning / good day", "hi": "नमस्ते (दिन में)", "pron": "बोँ-झ़ूग़", "ipa": "bɔ̃ʒuʁ", "pos": "interjection", "note": { "en": "Used from morning until early evening, with anyone.", "hi": "सुबह से शाम तक, किसी से भी कहा जा सकता है।" } },
+    { "fr": "bonsoir", "en": "good evening", "hi": "शुभ संध्या / नमस्ते (शाम को)", "pron": "बोँ-स्वाग़", "ipa": "bɔ̃swaʁ", "pos": "interjection" },
+    { "fr": "salut", "en": "hi / bye (informal)", "hi": "हाय / अच्छा, चलता हूँ (अनौपचारिक)", "pron": "सा-लü", "ipa": "saly", "pos": "interjection", "note": { "en": "Only with friends, family and children. The final t is silent.", "hi": "सिर्फ़ दोस्तों, परिवार और बच्चों के साथ। आख़िरी t नहीं बोला जाता।" } },
+    { "fr": "au revoir", "en": "goodbye", "hi": "फिर मिलेंगे / अलविदा", "pron": "ओ ग़ö-वाग़", "ipa": "o ʁəvwaʁ", "pos": "phrase" },
+    { "fr": "merci", "en": "thank you", "hi": "धन्यवाद / शुक्रिया", "pron": "मैग़-सी", "ipa": "mɛʁsi", "pos": "interjection" },
+    { "fr": "oui", "en": "yes", "hi": "हाँ", "pron": "वी", "ipa": "wi", "pos": "adverb" },
+    { "fr": "non", "en": "no", "hi": "नहीं", "pron": "नोँ", "ipa": "nɔ̃", "pos": "adverb", "note": { "en": "A nasal vowel: air goes through the nose, and no 'n' is pronounced at the end.", "hi": "नासिक्य स्वर: हवा नाक से निकलती है, आख़िर में 'न' की आवाज़ नहीं आती।" } },
+    { "fr": "madame", "en": "madam / Mrs", "hi": "मैडम / श्रीमती", "pron": "मा-दाम", "ipa": "madam", "pos": "noun", "gender": "f" },
+    { "fr": "monsieur", "en": "sir / Mr", "hi": "सर / श्रीमान", "pron": "मö-स्यö", "ipa": "məsjø", "pos": "noun", "gender": "m", "note": { "en": "Spelling trap: it is not said 'mon-sieur'. The r is silent.", "hi": "वर्तनी का जाल: इसे 'मॉन-सियर' नहीं बोलते। r नहीं बोला जाता।" } },
+    { "fr": "le nom", "en": "name / surname", "hi": "नाम / उपनाम", "pron": "लö नोँ", "ipa": "lə nɔ̃", "pos": "noun", "gender": "m", "lemma": "nom" },
+    { "fr": "le prénom", "en": "first name", "hi": "पहला नाम", "pron": "लö प्ग़े-नोँ", "ipa": "lə pʁenɔ̃", "pos": "noun", "gender": "m", "lemma": "prénom" },
+    { "fr": "enchanté", "en": "nice to meet you", "hi": "आपसे मिलकर ख़ुशी हुई", "pron": "आँ-शाँ-ते", "ipa": "ɑ̃ʃɑ̃te", "pos": "adjective", "note": { "en": "A woman may write 'enchantée'. It sounds exactly the same.", "hi": "महिला लिखते समय 'enchantée' लिख सकती है। बोलने में बिल्कुल वैसा ही लगता है।" } }
+  ],
+  "phrases": [
+    { "fr": "Je m'appelle Priya.", "en": "My name is Priya.", "hi": "मेरा नाम प्रिया है।", "pron": "झ़ö मा-पैल प्रिया", "ipa": "ʒə mapɛl pʁija", "note": { "en": "Literally 'I call myself Priya'. Don't translate word for word.", "hi": "शब्दशः 'मैं ख़ुद को प्रिया बुलाती हूँ'। शब्द-दर-शब्द अनुवाद मत कीजिए।" } },
+    { "fr": "Comment vous appelez-vous ?", "en": "What is your name? (polite)", "hi": "आपका नाम क्या है?", "pron": "को-माँ वू ज़ा-प्ले वू", "ipa": "kɔmɑ̃ vu zaple vu" },
+    { "fr": "Tu t'appelles comment ?", "en": "What's your name? (friendly)", "hi": "तुम्हारा नाम क्या है?", "pron": "तü ता-पैल को-माँ", "ipa": "ty tapɛl kɔmɑ̃" },
+    { "fr": "Bonjour, madame.", "en": "Hello (to a woman, politely).", "hi": "नमस्ते, मैडम।", "pron": "बोँ-झ़ूग़ मा-दाम", "ipa": "bɔ̃ʒuʁ madam" },
+    { "fr": "Merci beaucoup.", "en": "Thank you very much.", "hi": "बहुत-बहुत धन्यवाद।", "pron": "मैग़-सी बो-कू", "ipa": "mɛʁsi boku" },
+    { "fr": "À bientôt !", "en": "See you soon!", "hi": "जल्द मिलते हैं!", "pron": "आ ब्यैँ-तो", "ipa": "a bjɛ̃to" }
+  ],
+  "grammar": {
+    "title": { "en": "Saying your name, and tu vs vous", "hi": "अपना नाम बताना, और tu बनाम vous" },
+    "explanation": {
+      "en": "To give your name, say 'Je m'appelle' + your name. To ask, there are two ways. 'Vous' is polite: use it with strangers, older people, shop staff, officials and examiners. 'Tu' is friendly: use it with friends, family, children and classmates of your age. When in doubt, use vous — the other person will invite you to use tu if they want to.",
+      "hi": "अपना नाम बताने के लिए कहिए 'Je m'appelle' + अपना नाम। नाम पूछने के दो तरीक़े हैं। 'Vous' शिष्ट (सम्मानजनक) है: अजनबियों, बड़ों, दुकान के कर्मचारियों, अधिकारियों और परीक्षकों के साथ। 'Tu' अपनापन दिखाता है: दोस्तों, परिवार, बच्चों और हमउम्र सहपाठियों के साथ। शक हो तो vous ही बोलिए — सामने वाला चाहेगा तो ख़ुद कहेगा कि tu बोलिए।"
+    },
+    "comparison": {
+      "en": "Hindi has three levels — तू, तुम, आप. French has only two. Vous is close to आप, and tu covers both तुम and तू. Unlike आप, vous is also used for 'you' plural (talking to several people).",
+      "hi": "हिंदी में तीन स्तर हैं — तू, तुम, आप। फ़्रेंच में सिर्फ़ दो। Vous लगभग 'आप' जैसा है, और tu में 'तुम' और 'तू' दोनों आ जाते हैं। 'आप' से अलग, vous का इस्तेमाल कई लोगों से बात करते समय 'तुम सब / आप सब' के लिए भी होता है।"
+    },
+    "examples": [
+      { "fr": "Je m'appelle Arjun.", "en": "My name is Arjun.", "hi": "मेरा नाम अर्जुन है।", "pron": "झ़ö मा-पैल अग़-झ़ून" },
+      { "fr": "Comment vous appelez-vous, monsieur ?", "en": "What is your name, sir?", "hi": "आपका नाम क्या है, सर?", "pron": "को-माँ वू ज़ा-प्ले वू मö-स्यö" },
+      { "fr": "Salut ! Tu t'appelles comment ?", "en": "Hi! What's your name?", "hi": "हाय! तुम्हारा नाम क्या है?", "pron": "सा-लü तü ता-पैल को-माँ" },
+      { "fr": "Bonjour, je m'appelle Meera. Enchantée.", "en": "Hello, my name is Meera. Nice to meet you.", "hi": "नमस्ते, मेरा नाम मीरा है। आपसे मिलकर ख़ुशी हुई।", "pron": "बोँ-झ़ूग़ झ़ö मा-पैल मीरा आँ-शाँ-ते" }
+    ],
+    "pitfalls": [
+      { "en": "Don't say 'Mon nom est…' all the time. It is correct but sounds stiff; 'Je m'appelle…' is the natural choice.", "hi": "हर बार 'Mon nom est…' मत कहिए। यह सही है पर बनावटी लगता है; 'Je m'appelle…' ज़्यादा स्वाभाविक है।" },
+      { "en": "Don't use 'salut' with a receptionist, teacher or examiner. Use 'bonjour, madame' or 'bonjour, monsieur'.", "hi": "रिसेप्शनिस्ट, शिक्षक या परीक्षक से 'salut' मत कहिए। 'bonjour, madame' या 'bonjour, monsieur' कहिए।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Pure vowels and silent final letters",
+    "tip": {
+      "en": "French vowels stay steady — they do not glide like English 'o' in 'go'. Many final consonants are silent: salut, comment, beaucoup. Keep the tongue relaxed and the jaw still while the vowel sounds.",
+      "hi": "फ़्रेंच स्वर एक-सा बना रहता है — अंग्रेज़ी 'go' के 'o' की तरह खिसकता नहीं। कई शब्दों के आख़िरी व्यंजन बोले नहीं जाते: salut, comment, beaucoup। स्वर बोलते समय जीभ ढीली और जबड़ा स्थिर रखिए।"
+    },
+    "words": [
+      { "fr": "salut", "en": "hi", "hi": "हाय", "pron": "सा-लü", "ipa": "saly", "note": { "en": "Silent t.", "hi": "t नहीं बोला जाता।" } },
+      { "fr": "beaucoup", "en": "a lot", "hi": "बहुत", "pron": "बो-कू", "ipa": "boku", "note": { "en": "Silent p. 'eau' is one sound: ओ.", "hi": "p नहीं बोला जाता। 'eau' एक ही आवाज़ है: ओ।" } },
+      { "fr": "comment", "en": "how", "hi": "कैसे", "pron": "को-माँ", "ipa": "kɔmɑ̃", "note": { "en": "Silent t; 'en' is a nasal vowel.", "hi": "t नहीं बोला जाता; 'en' नासिक्य स्वर है।" } },
+      { "fr": "Paris", "en": "Paris", "hi": "पेरिस (शहर)", "pron": "पा-ग़ी", "ipa": "paʁi", "note": { "en": "Silent s. The r is throaty.", "hi": "s नहीं बोला जाता। r गले से निकलता है।" } }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "À l'accueil", "en": "At the reception desk" },
+    "type": "dialogue",
+    "mode": "pedagogical",
+    "context": { "en": "Priya arrives at a language school in Montréal. The receptionist, Monsieur Tremblay, greets her.", "hi": "प्रिया मॉन्ट्रियाल के एक भाषा स्कूल पहुँचती है। रिसेप्शनिस्ट, मोसियो त्राँब्ले, उसका स्वागत करते हैं।" },
+    "lines": [
+      { "speaker": "M. Tremblay", "voice": "m1", "fr": "Bonjour, madame.", "en": "Hello, madam.", "hi": "नमस्ते, मैडम।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Bonjour, monsieur.", "en": "Hello, sir.", "hi": "नमस्ते, सर।" },
+      { "speaker": "M. Tremblay", "voice": "m1", "fr": "Comment vous appelez-vous ?", "en": "What is your name?", "hi": "आपका नाम क्या है?" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Je m'appelle Priya Sharma.", "en": "My name is Priya Sharma.", "hi": "मेरा नाम प्रिया शर्मा है।" },
+      { "speaker": "M. Tremblay", "voice": "m1", "fr": "Enchanté, madame Sharma. Je m'appelle Luc Tremblay.", "en": "Nice to meet you, Ms Sharma. My name is Luc Tremblay.", "hi": "आपसे मिलकर ख़ुशी हुई, शर्मा जी। मेरा नाम लुक त्राँब्ले है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Enchantée. Merci, monsieur.", "en": "Nice to meet you. Thank you, sir.", "hi": "आपसे मिलकर ख़ुशी हुई। धन्यवाद, सर।" },
+      { "speaker": "M. Tremblay", "voice": "m1", "fr": "Au revoir, madame. À bientôt !", "en": "Goodbye, madam. See you soon!", "hi": "फिर मिलेंगे, मैडम। जल्द मिलते हैं!" }
+    ],
+    "questions": [
+      { "q": { "en": "What is the woman's family name?" }, "options": ["Priya", "Sharma", "Tremblay"], "answer": 1, "explanation": { "en": "She says 'Je m'appelle Priya Sharma' and he calls her 'madame Sharma'.", "hi": "वह कहती है 'Je m'appelle Priya Sharma' और वह उसे 'madame Sharma' कहते हैं।" }, "kind": "literal", "evidence": "Je m'appelle Priya Sharma." },
+      { "q": { "en": "Do they use tu or vous?" }, "options": ["tu, because they are friends", "vous, because they have just met", "both, one each"], "answer": 1, "explanation": { "en": "He asks 'Comment vous appelez-vous ?' — the polite form used with someone you have just met.", "hi": "वह पूछते हैं 'Comment vous appelez-vous ?' — यह शिष्ट रूप है, जो नए मिले व्यक्ति से बोला जाता है।" }, "kind": "inference", "evidence": "Comment vous appelez-vous ?" },
+      { "q": { "en": "How does the conversation end?" }, "options": ["Salut !", "Bonsoir !", "Au revoir, madame. À bientôt !"], "answer": 2, "explanation": { "en": "The receptionist says goodbye politely: 'Au revoir, madame. À bientôt !'", "hi": "रिसेप्शनिस्ट शिष्टता से विदा लेते हैं: 'Au revoir, madame. À bientôt !'" }, "kind": "literal", "evidence": "Au revoir, madame. À bientôt !" },
+      { "q": { "en": "Why does Priya say 'Enchantée' with an extra e in writing?" }, "options": ["Because she is a woman", "Because it is a question", "Because she is tired"], "answer": 0, "explanation": { "en": "A woman writes 'enchantée'. The sound does not change.", "hi": "महिला 'enchantée' लिखती है। आवाज़ नहीं बदलती।" }, "kind": "grammar", "evidence": "Enchantée. Merci, monsieur." }
+    ],
+    "dictation": ["Bonjour, monsieur.", "Je m'appelle Priya.", "Merci beaucoup."],
+    "gapFill": { "text": "___, madame. Comment vous ___-vous ?", "answers": ["Bonjour", "appelez"] }
+  },
+  "speaking": {
+    "type": "repeat",
+    "instructions": {
+      "en": "Listen to each line, then say it aloud twice. Then record yourself saying the introduction with your own name and compare it with the model.",
+      "hi": "हर पंक्ति सुनिए, फिर उसे दो बार ज़ोर से बोलिए। फिर अपने नाम के साथ परिचय रिकॉर्ड कीजिए और मॉडल से तुलना कीजिए।"
+    },
+    "prompts": [
+      { "fr": "Bonjour, madame.", "en": "Hello, madam.", "hi": "नमस्ते, मैडम।", "pron": "बोँ-झ़ूग़ मा-दाम" },
+      { "fr": "Bonsoir, monsieur.", "en": "Good evening, sir.", "hi": "शुभ संध्या, सर।", "pron": "बोँ-स्वाग़ मö-स्यö" },
+      { "fr": "Je m'appelle … . Enchanté(e).", "en": "My name is … . Nice to meet you.", "hi": "मेरा नाम … है। आपसे मिलकर ख़ुशी हुई।", "pron": "झ़ö मा-पैल … आँ-शाँ-ते", "model": "Je m'appelle Arjun. Enchanté." },
+      { "fr": "Comment vous appelez-vous ?", "en": "What is your name?", "hi": "आपका नाम क्या है?", "pron": "को-माँ वू ज़ा-प्ले वू" },
+      { "fr": "Merci beaucoup. Au revoir !", "en": "Thank you very much. Goodbye!", "hi": "बहुत धन्यवाद। फिर मिलेंगे!", "pron": "मैग़-सी बो-कू ओ ग़ö-वाग़" }
+    ],
+    "tip": {
+      "en": "Say 'bonjour' with your lips pushed forward on 'jour', and don't roll the r — let it come softly from the back of the throat, like ग़.",
+      "hi": "'bonjour' में 'jour' पर होंठ आगे की ओर गोल कीजिए, और r को रोल मत कीजिए — इसे गले के पिछले हिस्से से हल्का-सा निकलने दीजिए, जैसे ग़।"
+    }
+  },
+  "reading": {
+    "genre": "sign",
+    "title": "Panneaux à l'école",
+    "text": "BIENVENUE ! — École de langues Saint-Laurent\nENTRÉE →\n← SORTIE\nACCUEIL : OUVERT\nCAFÉTÉRIA : FERMÉ\nMerci et bonne journée !",
+    "translation": {
+      "en": "WELCOME! — Saint-Laurent Language School\nENTRANCE →\n← EXIT\nRECEPTION: OPEN\nCAFETERIA: CLOSED\nThank you and have a nice day!",
+      "hi": "स्वागत है! — सां-लोरां भाषा स्कूल\nप्रवेश →\n← निकास\nरिसेप्शन: खुला\nकैफ़ेटेरिया: बंद\nधन्यवाद, आपका दिन शुभ हो!"
+    },
+    "questions": [
+      { "q": { "en": "Which way is the exit?" }, "options": ["To the right (→)", "To the left (←)", "There is no exit sign"], "answer": 1, "explanation": { "en": "'Sortie' means exit, and its arrow points left.", "hi": "'Sortie' का मतलब है निकास, और उसका तीर बाईं ओर है।" }, "kind": "literal", "evidence": "← SORTIE" },
+      { "q": { "en": "Can you buy a coffee in the cafeteria now?" }, "options": ["Yes, it is open", "No, it is closed", "Only in the evening"], "answer": 1, "explanation": { "en": "'Cafétéria : fermé' — fermé means closed.", "hi": "'Cafétéria : fermé' — fermé का मतलब है बंद।" }, "kind": "inference", "evidence": "CAFÉTÉRIA : FERMÉ" },
+      { "q": { "en": "Where can you ask a question right now?" }, "options": ["At the reception", "At the cafeteria", "Nowhere"], "answer": 0, "explanation": { "en": "'Accueil : ouvert' — the reception is open.", "hi": "'Accueil : ouvert' — रिसेप्शन खुला है।" }, "kind": "inference", "evidence": "ACCUEIL : OUVERT" }
+    ]
+  },
+  "writing": {
+    "type": "sentences",
+    "prompt": {
+      "en": "Write a short polite greeting as if you were meeting your new French teacher: greet them, give your name, and say goodbye.",
+      "hi": "मान लीजिए आप अपने नए फ़्रेंच शिक्षक से मिल रहे हैं: शिष्टता से अभिवादन लिखिए, अपना नाम बताइए और विदा लीजिए।"
+    },
+    "minWords": 8,
+    "maxWords": 30,
+    "hints": [
+      { "en": "Start with 'Bonjour, madame' or 'Bonjour, monsieur'.", "hi": "'Bonjour, madame' या 'Bonjour, monsieur' से शुरू कीजिए।" },
+      { "en": "Use vous-level politeness: no 'salut' here.", "hi": "शिष्ट स्तर (vous) रखिए: यहाँ 'salut' नहीं।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Je m'appelle …", "en": "My name is …", "hi": "मेरा नाम … है", "pron": "झ़ö मा-पैल" },
+      { "fr": "Enchanté(e).", "en": "Nice to meet you.", "hi": "आपसे मिलकर ख़ुशी हुई।", "pron": "आँ-शाँ-ते" },
+      { "fr": "À bientôt !", "en": "See you soon!", "hi": "जल्द मिलते हैं!", "pron": "आ ब्यैँ-तो" }
+    ],
+    "model": { "fr": "Bonjour, madame. Je m'appelle Arjun Singh. Enchanté. Merci beaucoup et au revoir !", "en": "Hello, madam. My name is Arjun Singh. Nice to meet you. Thank you very much and goodbye!" },
+    "checklist": [
+      { "en": "Did you start with bonjour + madame/monsieur?", "hi": "क्या आपने bonjour + madame/monsieur से शुरुआत की?" },
+      { "en": "Did you write 'Je m'appelle' with the apostrophe and double l?", "hi": "क्या आपने 'Je m'appelle' में apostrophe और दो l लिखे?" },
+      { "en": "Did you end with a goodbye?", "hi": "क्या आपने विदा के शब्दों से अंत किया?" }
+    ]
+  },
+  "review": {
+    "fromDays": [],
+    "items": [
+      { "fr": "bonjour", "en": "hello", "hi": "नमस्ते", "pron": "बोँ-झ़ूग़" },
+      { "fr": "merci", "en": "thank you", "hi": "धन्यवाद", "pron": "मैग़-सी" },
+      { "fr": "au revoir", "en": "goodbye", "hi": "फिर मिलेंगे", "pron": "ओ ग़ö-वाग़" },
+      { "fr": "Je m'appelle …", "en": "My name is …", "hi": "मेरा नाम … है", "pron": "झ़ö मा-पैल" },
+      { "fr": "oui / non", "en": "yes / no", "hi": "हाँ / नहीं", "pron": "वी / नोँ" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "You meet an exam officer at 10 a.m. What do you say?", "hi": "सुबह 10 बजे आप परीक्षा अधिकारी से मिलते हैं। आप क्या कहेंगे?" }, "options": ["Salut !", "Bonjour, madame.", "Bonsoir !"], "answer": 1, "explanation": { "en": "In the morning, with an official: 'Bonjour' + madame/monsieur. 'Salut' is too informal; 'bonsoir' is for the evening.", "hi": "सुबह, किसी अधिकारी से: 'Bonjour' + madame/monsieur। 'Salut' बहुत अनौपचारिक है; 'bonsoir' शाम के लिए है।" } },
+    { "type": "mcq", "prompt": { "en": "Which question is polite (vous)?", "hi": "कौन-सा प्रश्न शिष्ट (vous) है?" }, "options": ["Tu t'appelles comment ?", "Comment vous appelez-vous ?", "Salut, ça va ?"], "answer": 1, "explanation": { "en": "'Comment vous appelez-vous ?' uses vous.", "hi": "'Comment vous appelez-vous ?' में vous है।" } },
+    { "type": "fill", "prompt": { "en": "Complete: My name is Ravi.", "hi": "पूरा कीजिए: मेरा नाम रवि है।" }, "sentence": "Je ___ Ravi.", "answer": "m'appelle", "accept": ["m’appelle"], "explanation": { "en": "'Je m'appelle' = my name is. Note the apostrophe and the double l.", "hi": "'Je m'appelle' = मेरा नाम … है। apostrophe और दो l पर ध्यान दीजिए।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "Thank you very much!", "hi": "बहुत-बहुत धन्यवाद!" }, "answer": "Merci beaucoup !", "accept": ["merci beaucoup", "Merci beaucoup!", "Merci beaucoup."], "explanation": { "en": "'Merci beaucoup' — literally 'thank you a lot'.", "hi": "'Merci beaucoup' — शब्दशः 'बहुत धन्यवाद'।" } },
+    { "type": "mcq", "prompt": { "en": "In 'salut', which letter is silent?", "hi": "'salut' में कौन-सा अक्षर नहीं बोला जाता?" }, "options": ["s", "l", "t"], "answer": 2, "explanation": { "en": "The final t is silent: सा-लü.", "hi": "आख़िरी t नहीं बोला जाता: सा-लü।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: What is your name? (polite)", "hi": "शब्दों को सही क्रम में रखिए: आपका नाम क्या है?" }, "words": ["vous", "Comment", "appelez-vous", "?"], "answer": "Comment vous appelez-vous ?", "explanation": { "en": "Question word first: Comment + vous + appelez-vous.", "hi": "प्रश्नवाचक शब्द पहले: Comment + vous + appelez-vous।" } }
+  ]
+}

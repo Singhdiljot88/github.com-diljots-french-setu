@@ -1,0 +1,908 @@
+{
+  "day": 58,
+  "phase": 3,
+  "title": {
+    "fr": "Lecture longue : les documents du quotidien",
+    "en": "Longer reading: everyday documents",
+    "hi": "लंबी पढ़ाई: रोज़मर्रा के दस्तावेज़"
+  },
+  "objective": {
+    "en": "Read and understand short everyday documents (rules, signs, small ads, labels), give and understand instructions with the imperative and pronouns (Prenez-le, Ne le prenez pas), and recognise infinitive instructions such as Ne pas fumer. This is practice in the style of the TEF reading tasks with everyday documents (original material, not official test items).",
+    "hi": "छोटे रोज़मर्रा के दस्तावेज़ (नियम, बोर्ड, छोटे विज्ञापन, लेबल) पढ़ना और समझना, आज्ञार्थ और सर्वनामों से निर्देश देना और समझना (Prenez-le, Ne le prenez pas), और Ne pas fumer जैसे मूल क्रिया वाले निर्देश पहचानना। यह रोज़मर्रा के दस्तावेज़ों वाले TEF पढ़ाई कार्यों की शैली में अभ्यास है (मौलिक सामग्री, आधिकारिक परीक्षा प्रश्न नहीं)।"
+  },
+  "prerequisites": {
+    "days": [
+      51,
+      52,
+      53,
+      57
+    ],
+    "summary": {
+      "en": "You need direct object pronouns (Day 51), indirect object pronouns (Day 52), y and en (Day 53) and the negations of Day 57, plus the vous imperative you have used since the early days (Écoutez, Répétez).",
+      "hi": "आपको प्रत्यक्ष कर्म सर्वनाम (दिन 51), अप्रत्यक्ष कर्म सर्वनाम (दिन 52), y और en (दिन 53) और दिन 57 के निषेध याद होने चाहिए, साथ में vous वाला आज्ञार्थ जो आप शुरू से इस्तेमाल कर रहे हैं (Écoutez, Répétez)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "le règlement",
+      "en": "the rules, regulations",
+      "hi": "नियमावली, नियम",
+      "pron": "लö ग़ै-ग्लö-माँ",
+      "ipa": "lə ʁɛɡləmɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "règlement",
+      "note": {
+        "en": "Le règlement de l'immeuble = the building rules.",
+        "hi": "Le règlement de l'immeuble = इमारत के नियम।"
+      }
+    },
+    {
+      "fr": "interdit",
+      "en": "forbidden, not allowed",
+      "hi": "मना, वर्जित",
+      "pron": "ऐँ-तैग़-दी",
+      "ipa": "ɛ̃tɛʁdi",
+      "pos": "adjective",
+      "note": {
+        "en": "Il est interdit de fumer = smoking is not allowed. Feminine: interdite.",
+        "hi": "Il est interdit de fumer = धूम्रपान मना है। स्त्रीलिंग: interdite।"
+      }
+    },
+    {
+      "fr": "autorisé",
+      "en": "allowed, permitted",
+      "hi": "अनुमति प्राप्त",
+      "pron": "ओ-तो-ग़ी-ज़े",
+      "ipa": "otɔʁize",
+      "pos": "adjective"
+    },
+    {
+      "fr": "les ordures",
+      "en": "garbage, rubbish",
+      "hi": "कूड़ा, कचरा",
+      "pron": "ले ज़ोग़-दüग़",
+      "ipa": "le zɔʁdyʁ",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "ordures",
+      "note": {
+        "en": "Usually plural. Un sac d'ordures = a garbage bag.",
+        "hi": "आमतौर पर बहुवचन। Un sac d'ordures = कूड़े का थैला।"
+      }
+    },
+    {
+      "fr": "le bac de recyclage",
+      "en": "the recycling bin",
+      "hi": "रीसाइक्लिंग का डिब्बा",
+      "pron": "लö बाक दö ग़ö-सी-क्लाझ़",
+      "ipa": "lə bak də ʁəsiklaʒ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "bac de recyclage",
+      "note": {
+        "en": "In Québec, people often just say le bac bleu.",
+        "hi": "क्यूबेक में लोग अक्सर बस le bac bleu (नीला डिब्बा) कहते हैं।"
+      }
+    },
+    {
+      "fr": "la boîte aux lettres",
+      "en": "the mailbox",
+      "hi": "लेटरबॉक्स, डाक-पेटी",
+      "pron": "ला ब्वात ओ लैत्ग़",
+      "ipa": "la bwat o lɛtʁ",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "boîte aux lettres"
+    },
+    {
+      "fr": "le stationnement",
+      "en": "parking",
+      "hi": "पार्किंग",
+      "pron": "लö स्ता-स्यो-न्माँ",
+      "ipa": "lə stasjɔnmɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "stationnement",
+      "note": {
+        "en": "Common in Canada; in France you also hear le parking. Verb: stationner (to park).",
+        "hi": "कनाडा में आम; फ़्रांस में le parking भी सुनते हैं। क्रिया: stationner (गाड़ी खड़ी करना)।"
+      }
+    },
+    {
+      "fr": "la clé",
+      "en": "the key",
+      "hi": "चाबी",
+      "pron": "ला क्ले",
+      "ipa": "la kle",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "clé",
+      "note": {
+        "en": "fermer à clé = to lock.",
+        "hi": "fermer à clé = ताला लगाना।"
+      }
+    },
+    {
+      "fr": "garder",
+      "en": "to keep",
+      "hi": "रखना, संभालकर रखना",
+      "pron": "गाग़-दे",
+      "ipa": "ɡaʁde",
+      "pos": "verb"
+    },
+    {
+      "fr": "éteindre",
+      "en": "to switch off; to put out",
+      "hi": "बंद करना (बत्ती, मशीन); बुझाना",
+      "pron": "ए-तैँद्ग़",
+      "ipa": "etɛ̃dʁ",
+      "pos": "verb",
+      "note": {
+        "en": "Éteignez la lumière = switch off the light. Opposite: allumer.",
+        "hi": "Éteignez la lumière = बत्ती बंद कीजिए। उल्टा: allumer।"
+      }
+    },
+    {
+      "fr": "le bruit",
+      "en": "noise",
+      "hi": "शोर",
+      "pron": "लö ब्ग़üई",
+      "ipa": "lə bʁɥi",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "bruit"
+    },
+    {
+      "fr": "une fuite d'eau",
+      "en": "a water leak",
+      "hi": "पानी का रिसाव",
+      "pron": "üन फ़üईत दो",
+      "ipa": "yn fɥit do",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "fuite d'eau"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Gardez-les sur vous.",
+      "en": "Keep them with you.",
+      "hi": "इन्हें अपने पास रखिए।",
+      "pron": "गाग़-दे-ले सüग़ वू"
+    },
+    {
+      "fr": "Ne la perdez pas.",
+      "en": "Don't lose it.",
+      "hi": "इसे खोइए मत।",
+      "pron": "नö ला पैग़-दे पा"
+    },
+    {
+      "fr": "Appelez-moi en cas d'urgence.",
+      "en": "Call me in an emergency.",
+      "hi": "आपात स्थिति में मुझे फ़ोन कीजिए।",
+      "pron": "आ-प्ले-म्वा आँ का दüग़-झ़ाँस"
+    },
+    {
+      "fr": "Allez-y !",
+      "en": "Go ahead! / Go there!",
+      "hi": "जाइए! / शुरू कीजिए!",
+      "pron": "आ-ले-ज़ी"
+    },
+    {
+      "fr": "Ne pas fumer.",
+      "en": "No smoking.",
+      "hi": "धूम्रपान न करें।",
+      "pron": "नö पा फ़ü-मे"
+    },
+    {
+      "fr": "Il est interdit de stationner ici.",
+      "en": "Parking is not allowed here.",
+      "hi": "यहाँ गाड़ी खड़ी करना मना है।",
+      "pron": "ई-लै तैँ-तैग़-दी दö स्ता-स्यो-ने ई-सी"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Instructions: the imperative with pronouns, and the infinitive on signs",
+      "hi": "निर्देश: सर्वनामों के साथ आज्ञार्थ, और बोर्डों पर मूल क्रिया"
+    },
+    "explanation": {
+      "en": "In a positive command, the pronoun goes AFTER the verb, joined with a hyphen: Prenez le formulaire → Prenez-le. Gardez les clés → Gardez-les. Téléphonez à Madame Roy → Téléphonez-lui. Allez à la réception → Allez-y. Prenez des brochures → Prenez-en. Me and te become moi and toi at the end: Appelez-moi. Assieds-toi. In a negative command, everything goes back to normal order: ne + pronoun + verb + pas: Ne le prenez pas. Ne les perdez pas. Ne m'appelez pas la nuit. N'y allez pas. With tu, -er verbs lose their s (Mange !), but keep it before y and en for the sound: Vas-y ! Manges-en ! On signs, notices and labels, French often uses the infinitive instead: Fermer la porte. Bien agiter avant emploi. In the negative, ne pas stays together before the infinitive: Ne pas fumer. Ne pas stationner. Ne pas donner aux enfants.",
+      "hi": "सकारात्मक आज्ञा में सर्वनाम क्रिया के बाद आता है, हाइफ़न से जुड़कर: Prenez le formulaire → Prenez-le। Gardez les clés → Gardez-les। Téléphonez à Madame Roy → Téléphonez-lui। Allez à la réception → Allez-y। Prenez des brochures → Prenez-en। अंत में me और te बदलकर moi और toi हो जाते हैं: Appelez-moi। Assieds-toi। नकारात्मक आज्ञा में सब सामान्य क्रम में लौट आता है: ne + सर्वनाम + क्रिया + pas: Ne le prenez pas। Ne les perdez pas। Ne m'appelez pas la nuit। N'y allez pas। tu के साथ -er क्रियाओं का s हट जाता है (Mange !), पर ध्वनि के लिए y और en से पहले रहता है: Vas-y ! Manges-en ! बोर्डों, सूचनाओं और लेबलों पर फ़्रेंच अक्सर इसकी जगह मूल क्रिया इस्तेमाल करती है: Fermer la porte। Bien agiter avant emploi। नकारात्मक में ne pas मूल क्रिया से पहले साथ रहते हैं: Ne pas fumer। Ne pas stationner। Ne pas donner aux enfants।"
+    },
+    "comparison": {
+      "en": "Hindi has a polite imperative too ('इसे लीजिए', 'इसे मत खोइए'), and the pronoun stays before the verb in both. French moves it after the verb only in the positive: 'Prenez-le' (इसे लीजिए) but 'Ne le prenez pas' (इसे मत लीजिए). Hindi signs also use a neutral form, like 'धूम्रपान न करें' or 'यहाँ गाड़ी खड़ी न करें': that is exactly the French 'Ne pas fumer', 'Ne pas stationner'.",
+      "hi": "हिंदी में भी विनम्र आज्ञार्थ है ('इसे लीजिए', 'इसे मत खोइए'), और दोनों में सर्वनाम क्रिया से पहले रहता है। फ़्रेंच सिर्फ़ सकारात्मक में उसे क्रिया के बाद ले जाती है: 'Prenez-le' (इसे लीजिए) पर 'Ne le prenez pas' (इसे मत लीजिए)। हिंदी बोर्ड भी तटस्थ रूप इस्तेमाल करते हैं, जैसे 'धूम्रपान न करें' या 'यहाँ गाड़ी खड़ी न करें': यही फ़्रेंच का 'Ne pas fumer', 'Ne pas stationner' है।"
+    },
+    "examples": [
+      {
+        "fr": "Le formulaire ? Remplissez-le et signez-le.",
+        "en": "The form? Fill it in and sign it.",
+        "hi": "फ़ॉर्म? इसे भरिए और इस पर हस्ताक्षर कीजिए।",
+        "pron": "लö फ़ोग़-मü-लैग़ — ग़ाँ-प्ली-से-लö ए सी-न्ये-लö"
+      },
+      {
+        "fr": "Les clés ? Ne les laissez pas dans la porte.",
+        "en": "The keys? Don't leave them in the door.",
+        "hi": "चाबियाँ? इन्हें दरवाज़े में मत छोड़िए।",
+        "pron": "ले क्ले — नö ले लै-से पा दाँ ला पोग़्त"
+      },
+      {
+        "fr": "Madame Roy ? Téléphonez-lui demain.",
+        "en": "Ms Roy? Call her tomorrow.",
+        "hi": "श्रीमती रॉय? उन्हें कल फ़ोन कीजिए।",
+        "pron": "मा-दाम ग़्वा — ते-ले-फ़ो-ने-ल्üई दö-मैँ"
+      },
+      {
+        "fr": "Ne m'appelez pas après 22 heures.",
+        "en": "Don't call me after 10 p.m.",
+        "hi": "रात 10 बजे के बाद मुझे फ़ोन मत कीजिए।",
+        "pron": "नö मा-प्ले पा आ-प्रै वैँ-दö ज़öग़"
+      },
+      {
+        "fr": "Bien agiter avant emploi.",
+        "en": "Shake well before use.",
+        "hi": "इस्तेमाल से पहले अच्छी तरह हिलाएँ।",
+        "pron": "ब्यैँ ना-झ़ी-ते आ-वाँ ताँ-प्ल्वा"
+      },
+      {
+        "fr": "Ne pas stationner devant la porte.",
+        "en": "No parking in front of the door.",
+        "hi": "दरवाज़े के सामने गाड़ी खड़ी न करें।",
+        "pron": "नö पा स्ता-स्यो-ने दö-वाँ ला पोग़्त"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Don't mix the two orders: 'Le prenez !' and 'Ne prenez-le pas' are both wrong. Positive: Prenez-le. Negative: Ne le prenez pas.",
+        "hi": "दोनों क्रम मत मिलाइए: 'Le prenez !' और 'Ne prenez-le pas' दोनों ग़लत हैं। सकारात्मक: Prenez-le। नकारात्मक: Ne le prenez pas।"
+      },
+      {
+        "en": "At the end of a positive command, me becomes moi: 'Appelez-moi', not 'Appelez-me'. In the negative it stays m': 'Ne m'appelez pas'.",
+        "hi": "सकारात्मक आज्ञा के अंत में me बदलकर moi हो जाता है: 'Appelez-moi', 'Appelez-me' नहीं। नकारात्मक में यह m' रहता है: 'Ne m'appelez pas'।"
+      },
+      {
+        "en": "On signs, 'ne pas' comes together before the infinitive: 'Ne pas fumer', not 'Ne fumer pas'.",
+        "hi": "बोर्डों पर 'ne pas' मूल क्रिया से पहले साथ आते हैं: 'Ne pas fumer', 'Ne fumer pas' नहीं।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Intonation of instructions",
+    "tip": {
+      "en": "An instruction starts on a high note and falls steadily to the end, with no question rise. In 'Prenez-le', the pronoun is the last syllable, so it carries the stress and its e is clear: प्रö-ने-लö, with a firm लö. In a negative instruction, put a little weight on pas: नö लö प्रö-ने पा. On a sign read aloud (Ne pas fumer), keep it flat and firm.",
+      "hi": "निर्देश ऊँचे सुर से शुरू होकर अंत तक धीरे-धीरे नीचे आता है, प्रश्न जैसा उठान नहीं होता। 'Prenez-le' में सर्वनाम आख़िरी अक्षर है, इसलिए उस पर ज़ोर पड़ता है और उसका e साफ़ सुनाई देता है: प्रö-ने-लö, दृढ़ लö के साथ। नकारात्मक निर्देश में pas पर थोड़ा वज़न दीजिए: नö लö प्रö-ने पा। बोर्ड को ज़ोर से पढ़ते समय (Ne pas fumer) सुर सपाट और दृढ़ रखिए।"
+    },
+    "words": [
+      {
+        "fr": "Prenez-le.",
+        "en": "Take it.",
+        "hi": "इसे लीजिए।",
+        "pron": "प्रö-ने-लö",
+        "ipa": "pʁəne lə"
+      },
+      {
+        "fr": "Ne le prenez pas.",
+        "en": "Don't take it.",
+        "hi": "इसे मत लीजिए।",
+        "pron": "नö लö प्रö-ने पा",
+        "ipa": "nə lə pʁəne pa"
+      },
+      {
+        "fr": "Donnez-lui.",
+        "en": "Give (it) to him/her.",
+        "hi": "उसे दीजिए।",
+        "pron": "दो-ने-ल्üई",
+        "ipa": "dɔne lɥi"
+      },
+      {
+        "fr": "Allez-y.",
+        "en": "Go ahead.",
+        "hi": "जाइए / शुरू कीजिए।",
+        "pron": "आ-ले-ज़ी",
+        "ipa": "ale zi"
+      },
+      {
+        "fr": "Appelez-moi.",
+        "en": "Call me.",
+        "hi": "मुझे फ़ोन कीजिए।",
+        "pron": "आ-प्ले-म्वा",
+        "ipa": "aple mwa"
+      },
+      {
+        "fr": "Ne pas fumer.",
+        "en": "No smoking.",
+        "hi": "धूम्रपान न करें।",
+        "pron": "नö पा फ़ü-मे",
+        "ipa": "nə pa fyme"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Bienvenue dans l'immeuble",
+      "en": "Welcome to the building"
+    },
+    "type": "dialogue",
+    "mode": "pedagogical",
+    "context": {
+      "en": "Tanvi Joshi moves into an apartment in Laval. The building manager, Mr Gagnon, gives her the keys and explains the rules.",
+      "hi": "तन्वी जोशी लावाल में एक अपार्टमेंट में आती हैं। इमारत के प्रबंधक, श्री गान्योँ, उन्हें चाबियाँ देते हैं और नियम समझाते हैं।"
+    },
+    "lines": [
+      {
+        "speaker": "M. Gagnon",
+        "voice": "m2",
+        "fr": "Bienvenue, madame Joshi. Voici vos clés. Gardez-les toujours sur vous : nous ne faisons pas de copies ici.",
+        "en": "Welcome, Ms Joshi. Here are your keys. Always keep them with you: we don't make copies here.",
+        "hi": "स्वागत है, श्रीमती जोशी। ये रहीं आपकी चाबियाँ। इन्हें हमेशा अपने पास रखिए: हम यहाँ चाबियों की नक़ल नहीं बनाते।"
+      },
+      {
+        "speaker": "Tanvi",
+        "voice": "f1",
+        "fr": "Merci. Et la petite clé, c'est pour quoi ?",
+        "en": "Thank you. And the small key, what's it for?",
+        "hi": "धन्यवाद। और यह छोटी चाबी किसलिए है?"
+      },
+      {
+        "speaker": "M. Gagnon",
+        "voice": "m2",
+        "fr": "C'est pour la boîte aux lettres. Ne la perdez pas : une nouvelle clé coûte vingt-cinq dollars.",
+        "en": "It's for the mailbox. Don't lose it: a new key costs twenty-five dollars.",
+        "hi": "यह लेटरबॉक्स की है। इसे खोइए मत: नई चाबी पच्चीस डॉलर की आती है।"
+      },
+      {
+        "speaker": "Tanvi",
+        "voice": "f1",
+        "fr": "D'accord. Et pour les ordures ?",
+        "en": "OK. And what about the garbage?",
+        "hi": "ठीक है। और कूड़े का क्या?"
+      },
+      {
+        "speaker": "M. Gagnon",
+        "voice": "m2",
+        "fr": "Les sacs d'ordures, mettez-les dans le conteneur derrière l'immeuble, le lundi soir. Le recyclage, c'est le mercredi.",
+        "en": "Garbage bags, put them in the container behind the building on Monday evenings. Recycling is on Wednesdays.",
+        "hi": "कूड़े के थैले, उन्हें सोमवार शाम इमारत के पीछे वाले कंटेनर में डालिए। रीसाइक्लिंग बुधवार को होती है।"
+      },
+      {
+        "speaker": "Tanvi",
+        "voice": "f1",
+        "fr": "Et le bac bleu, je le garde dans l'appartement ?",
+        "en": "And the blue bin, do I keep it in the apartment?",
+        "hi": "और नीला डिब्बा, क्या मैं उसे अपार्टमेंट में रखूँ?"
+      },
+      {
+        "speaker": "M. Gagnon",
+        "voice": "m2",
+        "fr": "Oui, gardez-le chez vous et descendez-le le mercredi matin. Mais ne le laissez jamais dans le couloir.",
+        "en": "Yes, keep it at home and take it down on Wednesday morning. But never leave it in the hallway.",
+        "hi": "हाँ, उसे घर में रखिए और बुधवार सुबह नीचे ले जाइए। पर उसे कभी गलियारे में मत छोड़िए।"
+      },
+      {
+        "speaker": "Tanvi",
+        "voice": "f1",
+        "fr": "Compris. Je peux stationner ma voiture devant l'immeuble ?",
+        "en": "Understood. Can I park my car in front of the building?",
+        "hi": "समझ गई। क्या मैं अपनी गाड़ी इमारत के सामने खड़ी कर सकती हूँ?"
+      },
+      {
+        "speaker": "M. Gagnon",
+        "voice": "m2",
+        "fr": "Non, c'est interdit. Votre place est au sous-sol, la numéro 12. Voici la télécommande du garage : ne la donnez à personne.",
+        "en": "No, that's not allowed. Your spot is in the basement, number 12. Here's the garage remote: don't give it to anyone.",
+        "hi": "नहीं, यह मना है। आपकी जगह तहख़ाने में है, नंबर 12। यह रहा गैराज का रिमोट: इसे किसी को मत दीजिए।"
+      },
+      {
+        "speaker": "Tanvi",
+        "voice": "f1",
+        "fr": "Très bien. Et s'il y a un problème dans l'appartement ?",
+        "en": "Very good. And if there's a problem in the apartment?",
+        "hi": "बहुत अच्छा। और अगर अपार्टमेंट में कोई समस्या हो तो?"
+      },
+      {
+        "speaker": "M. Gagnon",
+        "voice": "m2",
+        "fr": "Appelez-moi ou envoyez-moi un courriel. Mais la nuit, ne m'appelez pas, sauf en cas d'urgence, une fuite d'eau par exemple.",
+        "en": "Call me or send me an email. But at night, don't call me, except in an emergency, a water leak for example.",
+        "hi": "मुझे फ़ोन कीजिए या ईमेल भेजिए। पर रात को मुझे फ़ोन मत कीजिए, सिवाय आपात स्थिति के, जैसे पानी का रिसाव।"
+      },
+      {
+        "speaker": "M. Gagnon",
+        "voice": "m2",
+        "fr": "Ah, et le règlement de l'immeuble est affiché dans l'entrée. Lisez-le, s'il vous plaît !",
+        "en": "Oh, and the building rules are posted in the entrance. Please read them!",
+        "hi": "अरे हाँ, इमारत के नियम प्रवेश-द्वार पर लगे हैं। कृपया उन्हें पढ़ लीजिए!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "What is the small key for?"
+        },
+        "options": [
+          "The garage",
+          "The mailbox",
+          "The laundry room"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'C'est pour la boîte aux lettres.'",
+          "hi": "'C'est pour la boîte aux lettres.' (यह लेटरबॉक्स की है।)"
+        },
+        "kind": "literal",
+        "evidence": "C'est pour la boîte aux lettres."
+      },
+      {
+        "q": {
+          "en": "When should Tanvi put out her garbage bags?"
+        },
+        "options": [
+          "On Wednesday morning",
+          "Every evening",
+          "On Monday evening",
+          "On Monday morning"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'mettez-les dans le conteneur derrière l'immeuble, le lundi soir'.",
+          "hi": "'mettez-les dans le conteneur derrière l'immeuble, le lundi soir' (सोमवार शाम कंटेनर में डालिए)।"
+        },
+        "kind": "literal",
+        "evidence": "mettez-les dans le conteneur derrière l'immeuble, le lundi soir"
+      },
+      {
+        "q": {
+          "en": "In 'ne la donnez à personne', what is 'la'?"
+        },
+        "options": [
+          "The garage remote",
+          "The mailbox key",
+          "The parking spot",
+          "The car"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "He has just said 'Voici la télécommande du garage'; la = la télécommande.",
+          "hi": "उन्होंने अभी कहा 'Voici la télécommande du garage'; la = la télécommande (रिमोट)।"
+        },
+        "kind": "grammar",
+        "evidence": "Voici la télécommande du garage : ne la donnez à personne."
+      },
+      {
+        "q": {
+          "en": "Where should the blue bin stay most of the week?"
+        },
+        "options": [
+          "In the hallway",
+          "In the basement",
+          "In Tanvi's apartment"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'gardez-le chez vous' and 'ne le laissez jamais dans le couloir'.",
+          "hi": "'gardez-le chez vous' (उसे घर में रखिए) और 'ne le laissez jamais dans le couloir' (उसे कभी गलियारे में मत छोड़िए)।"
+        },
+        "kind": "literal",
+        "evidence": "gardez-le chez vous et descendez-le le mercredi matin"
+      },
+      {
+        "q": {
+          "en": "At 2 a.m., Tanvi's kitchen light stops working. What should she do?"
+        },
+        "options": [
+          "Call Mr Gagnon immediately",
+          "Wait and contact him in the morning or by email",
+          "Call the fire department"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "At night he says 'ne m'appelez pas, sauf en cas d'urgence'. A broken light is not an emergency like a water leak.",
+          "hi": "रात के लिए वे कहते हैं 'ne m'appelez pas, sauf en cas d'urgence'। ख़राब बत्ती पानी के रिसाव जैसी आपात स्थिति नहीं है।"
+        },
+        "kind": "inference",
+        "evidence": "Mais la nuit, ne m'appelez pas, sauf en cas d'urgence"
+      }
+    ],
+    "dictation": [
+      "Gardez-les toujours sur vous.",
+      "Ne la perdez pas.",
+      "Lisez-le, s'il vous plaît !"
+    ],
+    "gapFill": {
+      "text": "C'est pour la boîte aux lettres. Ne ___ perdez pas. Les sacs d'ordures, mettez-___ dans le conteneur. Appelez-___ ou envoyez-moi un courriel.",
+      "answers": [
+        "la",
+        "les",
+        "moi"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "conversation",
+    "instructions": {
+      "en": "A new roommate (or a friend staying with you) asks about the rules of your apartment. Answer each question with an instruction, using an imperative with a pronoun (positive or negative) whenever you can.",
+      "hi": "एक नया रूममेट (या आपके यहाँ ठहरा कोई दोस्त) आपके अपार्टमेंट के नियमों के बारे में पूछता है। हर प्रश्न का जवाब एक निर्देश से दीजिए, जहाँ हो सके सर्वनाम वाले आज्ञार्थ (सकारात्मक या नकारात्मक) के साथ।"
+    },
+    "prompts": [
+      {
+        "fr": "Les clés, je les mets où ?",
+        "en": "Where do I put the keys?",
+        "hi": "चाबियाँ कहाँ रखूँ?",
+        "pron": "ले क्ले — झ़ö ले मै ऊ",
+        "model": "Mets-les sur la petite table de l'entrée. Ne les laisse pas dans la porte."
+      },
+      {
+        "fr": "Et les ordures ?",
+        "en": "And the garbage?",
+        "hi": "और कूड़ा?",
+        "pron": "ए ले ज़ोग़-दüग़",
+        "model": "Descends-les le lundi soir. Le conteneur est derrière l'immeuble."
+      },
+      {
+        "fr": "Je peux utiliser la laveuse le soir ?",
+        "en": "Can I use the washing machine in the evening?",
+        "hi": "क्या मैं शाम को वॉशिंग मशीन चला सकता/सकती हूँ?",
+        "pron": "झ़ö पö ü-ती-ली-ज़े ला ला-वöज़ लö स्वाग़",
+        "model": "Oui, mais ne l'utilise pas après vingt-deux heures : les voisins dorment."
+      },
+      {
+        "fr": "Et si le propriétaire téléphone ?",
+        "en": "And if the landlord calls?",
+        "hi": "और अगर मकान-मालिक फ़ोन करे?",
+        "pron": "ए सी लö प्रो-प्री-ए-तैग़ ते-ले-फ़ॉन",
+        "model": "Réponds-lui poliment et dis-lui que je rentre dimanche."
+      },
+      {
+        "fr": "Je peux inviter des amis ?",
+        "en": "Can I invite friends?",
+        "hi": "क्या मैं दोस्तों को बुला सकता/सकती हूँ?",
+        "pron": "झ़ö पö ऐँ-वी-ते दे ज़ा-मी",
+        "model": "Bien sûr, invite-les ! Mais pas de bruit après vingt-trois heures, s'il te plaît."
+      }
+    ],
+    "tip": {
+      "en": "With a friend, use the tu imperative (Mets-les, Réponds-lui); with a guest you don't know well, use vous (Mettez-les, Répondez-lui). Remember: with tu, -er verbs drop the s (Range ta chambre, Arrose les plantes), while other verbs keep it (Descends, Réponds).",
+      "hi": "दोस्त के साथ tu वाला आज्ञार्थ इस्तेमाल कीजिए (Mets-les, Réponds-lui); कम जान-पहचान वाले मेहमान के साथ vous (Mettez-les, Répondez-lui)। याद रखिए: tu के साथ -er क्रियाओं का s हट जाता है (Range ta chambre, Arrose les plantes), जबकि दूसरी क्रियाएँ उसे रखती हैं (Descends, Réponds)।"
+    }
+  },
+  "reading": {
+    "genre": "notice",
+    "title": "Quatre documents du quotidien",
+    "text": "1. SALLE DE LAVAGE – RÈGLEMENT\nNe pas laisser vos vêtements dans les machines plus de 30 minutes après la fin du cycle. Nettoyer le filtre de la sécheuse après chaque utilisation. Ne pas utiliser les machines après 22 h. Merci de respecter vos voisins !\n\n2. PANNEAU DE RUE\nSTATIONNEMENT INTERDIT le mardi, de 9 h à 12 h, du 1er avril au 30 novembre. Nettoyage de la rue. Remorquage aux frais du propriétaire.\n\n3. PETITE ANNONCE\nÀ donner : canapé gris, très propre, trois places. Je déménage samedi, alors venez le chercher avant vendredi soir ! Il est au troisième étage, sans ascenseur : venez à deux. Ne m'appelez pas, j'ai un nouveau numéro et je ne réponds pas aux numéros inconnus. Texto seulement : 514 555-0123. Karim\n\n4. ÉTIQUETTE D'UN SIROP CONTRE LA TOUX\nBien agiter avant emploi. Respecter la dose indiquée par votre pharmacien. Ne pas donner aux enfants de moins de six ans. Conserver à l'abri de la lumière.",
+    "translation": {
+      "en": "1. LAUNDRY ROOM – RULES\nDo not leave your clothes in the machines more than 30 minutes after the end of the cycle. Clean the dryer filter after each use. Do not use the machines after 10 p.m. Please respect your neighbours!\n\n2. STREET SIGN\nNO PARKING on Tuesdays, 9 a.m. to 12 p.m., from 1 April to 30 November. Street cleaning. Towing at the owner's expense.\n\n3. SMALL AD\nFree: grey sofa, very clean, three seats. I'm moving on Saturday, so come and pick it up before Friday evening! It's on the third floor, with no elevator: come in pairs. Don't call me, I have a new number and I don't answer unknown numbers. Text only: 514 555-0123. Karim\n\n4. LABEL ON A COUGH SYRUP\nShake well before use. Follow the dose given by your pharmacist. Do not give to children under six. Store away from light.",
+      "hi": "1. कपड़े धोने का कमरा – नियम\nचक्र ख़त्म होने के बाद अपने कपड़े 30 मिनट से ज़्यादा मशीनों में न छोड़ें। हर इस्तेमाल के बाद ड्रायर का फ़िल्टर साफ़ करें। रात 10 बजे के बाद मशीनें न चलाएँ। कृपया अपने पड़ोसियों का ध्यान रखें!\n\n2. सड़क का बोर्ड\nपार्किंग मना, मंगलवार को सुबह 9 बजे से दोपहर 12 बजे तक, 1 अप्रैल से 30 नवंबर तक। सड़क की सफ़ाई। गाड़ी उठवाने का ख़र्च मालिक का।\n\n3. छोटा विज्ञापन\nमुफ़्त में देना है: स्लेटी सोफ़ा, बहुत साफ़, तीन लोगों वाला। मैं शनिवार को घर बदल रहा हूँ, इसलिए शुक्रवार शाम से पहले इसे ले जाइए! यह तीसरी मंज़िल पर है, लिफ़्ट नहीं है: दो लोग आइए। मुझे फ़ोन मत कीजिए, मेरा नया नंबर है और मैं अनजान नंबरों का जवाब नहीं देता। सिर्फ़ मैसेज: 514 555-0123। करीम\n\n4. खाँसी के सिरप का लेबल\nइस्तेमाल से पहले अच्छी तरह हिलाएँ। फ़ार्मासिस्ट की बताई ख़ुराक का पालन करें। छह साल से छोटे बच्चों को न दें। रोशनी से दूर रखें।"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "What must you do after using the dryer?"
+        },
+        "options": [
+          "Clean the filter",
+          "Leave the door open",
+          "Call the caretaker",
+          "Wait 30 minutes"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Nettoyer le filtre de la sécheuse après chaque utilisation' (infinitive instruction).",
+          "hi": "'Nettoyer le filtre de la sécheuse après chaque utilisation' (मूल क्रिया वाला निर्देश): हर इस्तेमाल के बाद फ़िल्टर साफ़ करें।"
+        },
+        "kind": "literal",
+        "evidence": "Nettoyer le filtre de la sécheuse après chaque utilisation."
+      },
+      {
+        "q": {
+          "en": "Raj parks on this street on Tuesday 14 May at 10 a.m. What can happen?"
+        },
+        "options": [
+          "Nothing, parking is free in May",
+          "His car can be towed, and he will pay",
+          "He will get a warning letter"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "Tuesday, between 9 and 12, between April and November: parking is forbidden, and 'Remorquage aux frais du propriétaire'.",
+          "hi": "मंगलवार, 9 से 12 के बीच, अप्रैल से नवंबर के बीच: पार्किंग मना है, और 'Remorquage aux frais du propriétaire' (गाड़ी उठवाने का ख़र्च मालिक का)।"
+        },
+        "kind": "inference",
+        "evidence": "Remorquage aux frais du propriétaire."
+      },
+      {
+        "q": {
+          "en": "How should you contact Karim about the sofa?"
+        },
+        "options": [
+          "By phone call",
+          "By email",
+          "By text message",
+          "At his door"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Ne m'appelez pas … Texto seulement'.",
+          "hi": "'Ne m'appelez pas … Texto seulement' (मुझे फ़ोन मत कीजिए … सिर्फ़ मैसेज)।"
+        },
+        "kind": "literal",
+        "evidence": "Texto seulement : 514 555-0123."
+      },
+      {
+        "q": {
+          "en": "Why does Karim say 'venez à deux'?"
+        },
+        "options": [
+          "The sofa is heavy and there is no elevator",
+          "He wants to meet new friends",
+          "There are two sofas"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "It's a three-seat sofa 'au troisième étage, sans ascenseur', so one person cannot carry it down alone.",
+          "hi": "यह तीन लोगों वाला सोफ़ा है, 'au troisième étage, sans ascenseur' (तीसरी मंज़िल, लिफ़्ट नहीं), इसलिए एक आदमी अकेले इसे नीचे नहीं ला सकता।"
+        },
+        "kind": "inference",
+        "evidence": "Il est au troisième étage, sans ascenseur : venez à deux."
+      },
+      {
+        "q": {
+          "en": "Who should not take the cough syrup?"
+        },
+        "options": [
+          "Adults",
+          "Children under six",
+          "People who work at night",
+          "Pharmacists"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Ne pas donner aux enfants de moins de six ans.'",
+          "hi": "'Ne pas donner aux enfants de moins de six ans.' (छह साल से छोटे बच्चों को न दें।)"
+        },
+        "kind": "literal",
+        "evidence": "Ne pas donner aux enfants de moins de six ans."
+      }
+    ]
+  },
+  "writing": {
+    "type": "message",
+    "prompt": {
+      "en": "A friend is staying in your apartment while you are away for a week. Write them a note with instructions: keys, garbage and recycling, plants or pets, noise, and who to call if there is a problem. Use at least three imperatives with pronouns.",
+      "hi": "जब आप एक हफ़्ते के लिए बाहर हैं, एक दोस्त आपके अपार्टमेंट में ठहर रहा है। उसके लिए निर्देशों वाला एक नोट लिखिए: चाबियाँ, कूड़ा और रीसाइक्लिंग, पौधे या पालतू जानवर, शोर, और कोई समस्या हो तो किसे फ़ोन करना है। कम से कम तीन सर्वनाम वाले आज्ञार्थ इस्तेमाल कीजिए।",
+      "fr": "Écrivez des instructions pour votre visiteur."
+    },
+    "minWords": 60,
+    "maxWords": 110,
+    "hints": [
+      {
+        "en": "Mix positive (Arrose-les) and negative (Ne les oublie pas) commands.",
+        "hi": "सकारात्मक (Arrose-les) और नकारात्मक (Ne les oublie pas) आज्ञाएँ मिलाइए।"
+      },
+      {
+        "en": "Choose tu or vous and keep it the same in the whole note.",
+        "hi": "tu या vous चुनिए और पूरे नोट में वही रखिए।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Garde-les sur toi.",
+        "en": "Keep them with you.",
+        "hi": "इन्हें अपने पास रखो।",
+        "pron": "गाग़्द-ले सüग़ त्वा"
+      },
+      {
+        "fr": "Ne les oublie pas.",
+        "en": "Don't forget them.",
+        "hi": "इन्हें भूलना मत।",
+        "pron": "नö ले ज़ू-ब्ली पा"
+      },
+      {
+        "fr": "En cas de problème, appelle-moi.",
+        "en": "If there's a problem, call me.",
+        "hi": "कोई समस्या हो तो मुझे फ़ोन करना।",
+        "pron": "आँ का दö प्रो-ब्लैम आ-पैल-म्वा"
+      }
+    ],
+    "model": {
+      "fr": "Salut Meghna ! Bienvenue chez moi. Voici les clés : garde-les toujours sur toi, et ne les laisse pas dans la porte. Les ordures, descends-les le lundi soir ; le bac bleu, sors-le le mercredi matin. Mes plantes ont soif : arrose-les deux fois par semaine, mais ne leur donne pas trop d'eau. Les voisins sont gentils, mais ne fais pas de bruit après vingt-deux heures. En cas de problème, appelle-moi. Si je ne réponds pas, téléphone à M. Gagnon, le concierge. Son numéro est sur le frigo. Bonne semaine !",
+      "en": "Hi Meghna! Welcome to my place. Here are the keys: always keep them with you, and don't leave them in the door. The garbage, take it down on Monday evening; the blue bin, put it out on Wednesday morning. My plants are thirsty: water them twice a week, but don't give them too much water. The neighbours are nice, but don't make noise after 10 p.m. If there's a problem, call me. If I don't answer, call Mr Gagnon, the caretaker. His number is on the fridge. Have a good week!"
+    },
+    "checklist": [
+      {
+        "en": "Are there at least three imperatives with a pronoun (garde-les, appelle-moi)?",
+        "hi": "क्या कम से कम तीन सर्वनाम वाले आज्ञार्थ हैं (garde-les, appelle-moi)?"
+      },
+      {
+        "en": "In negative commands, is the pronoun before the verb (ne les laisse pas)?",
+        "hi": "नकारात्मक आज्ञाओं में क्या सर्वनाम क्रिया से पहले है (ne les laisse pas)?"
+      },
+      {
+        "en": "Did you keep tu (or vous) all the way through?",
+        "hi": "क्या आपने पूरे नोट में tu (या vous) बनाए रखा?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      51,
+      52,
+      53,
+      54,
+      57
+    ],
+    "items": [
+      {
+        "fr": "Le loyer ? Je le paie le premier du mois.",
+        "en": "The rent? I pay it on the first of the month.",
+        "hi": "किराया? मैं इसे महीने की पहली तारीख़ को देता/देती हूँ।",
+        "pron": "लö ल्वा-ये — झ़ö लö पै लö प्रö-म्ये दü म्वा"
+      },
+      {
+        "fr": "Ma voisine ? Je lui ai prêté mon aspirateur.",
+        "en": "My neighbour? I lent her my vacuum cleaner.",
+        "hi": "मेरी पड़ोसन? मैंने उसे अपना वैक्यूम क्लीनर उधार दिया।",
+        "pron": "मा व्वा-ज़ीन — झ़ö ल्üई ए प्रै-ते मो ना-स्पी-ग़ा-तöग़"
+      },
+      {
+        "fr": "La laverie ? J'y vais le dimanche.",
+        "en": "The laundromat? I go there on Sundays.",
+        "hi": "लॉन्ड्री? मैं रविवार को वहाँ जाता/जाती हूँ।",
+        "pron": "ला ला-व्ग़ी — झ़ी वै लö दी-माँश"
+      },
+      {
+        "fr": "Du lait ? Il n'y en a plus.",
+        "en": "Milk? There's none left.",
+        "hi": "दूध? अब बिल्कुल नहीं बचा।",
+        "pron": "दü लै — ईल न्याँ ना प्लü"
+      },
+      {
+        "fr": "Avant de partir, fermez la porte à clé.",
+        "en": "Before leaving, lock the door.",
+        "hi": "निकलने से पहले दरवाज़े पर ताला लगाइए।",
+        "pron": "आ-वाँ दö पाग़-तीग़ फ़ैग़-मे ला पोग़्त आ क्ले"
+      },
+      {
+        "fr": "Je n'ai rien compris au message.",
+        "en": "I didn't understand anything in the message.",
+        "hi": "मुझे संदेश में कुछ भी समझ नहीं आया।",
+        "pron": "झ़ö ने ग़्यैँ कोँ-प्री ओ मे-साझ़"
+      },
+      {
+        "fr": "Personne n'a répondu.",
+        "en": "Nobody answered.",
+        "hi": "किसी ने जवाब नहीं दिया।",
+        "pron": "पैग़-सॉन ना ग़े-पोँ-दü"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'The form? Fill it in.' Choose the correct French.",
+        "hi": "'फ़ॉर्म? इसे भरिए।' सही फ़्रेंच चुनिए।"
+      },
+      "options": [
+        "Le remplissez.",
+        "Remplissez-le.",
+        "Remplissez-lui.",
+        "Remplissez le pas."
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Positive command: pronoun after the verb with a hyphen; le formulaire is a direct object → le.",
+        "hi": "सकारात्मक आज्ञा: सर्वनाम क्रिया के बाद हाइफ़न के साथ; le formulaire प्रत्यक्ष कर्म है → le।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Don't lose them.' Choose the correct French.",
+        "hi": "'इन्हें मत खोइए।' सही फ़्रेंच चुनिए।"
+      },
+      "options": [
+        "Ne perdez-les pas.",
+        "Perdez-les pas.",
+        "Ne les perdez pas.",
+        "Ne perdez pas les."
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Negative command: ne + pronoun + verb + pas.",
+        "hi": "नकारात्मक आज्ञा: ne + सर्वनाम + क्रिया + pas।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: 'Call me tomorrow.'",
+        "hi": "पूरा कीजिए: 'मुझे कल फ़ोन कीजिए।'"
+      },
+      "sentence": "Appelez-___ demain.",
+      "answer": "moi",
+      "accept": [],
+      "explanation": {
+        "en": "At the end of a positive command, me becomes moi.",
+        "hi": "सकारात्मक आज्ञा के अंत में me बदलकर moi हो जाता है।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete the sign: 'No smoking.'",
+        "hi": "बोर्ड पूरा कीजिए: 'धूम्रपान न करें।'"
+      },
+      "sentence": "Ne ___ fumer.",
+      "answer": "pas",
+      "accept": [],
+      "explanation": {
+        "en": "With an infinitive, ne pas comes together before the verb.",
+        "hi": "मूल क्रिया के साथ ne pas क्रिया से पहले साथ आते हैं।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French (vous form).",
+        "hi": "फ़्रेंच में लिखिए (vous रूप)।"
+      },
+      "source": {
+        "en": "Ms Roy? Call her tomorrow.",
+        "hi": "श्रीमती रॉय? उन्हें कल फ़ोन कीजिए।"
+      },
+      "answer": "Madame Roy ? Téléphonez-lui demain.",
+      "accept": [
+        "Madame Roy ? Appelez-la demain.",
+        "Madame Roy? Téléphonez-lui demain.",
+        "Madame Roy? Appelez-la demain.",
+        "Mme Roy ? Téléphonez-lui demain."
+      ],
+      "explanation": {
+        "en": "téléphoner à + person → lui; appeler + person → la.",
+        "hi": "téléphoner à + व्यक्ति → lui; appeler + व्यक्ति → la।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: 'Never leave it in the hallway.'",
+        "hi": "शब्दों को क्रम में लगाइए: 'इसे कभी गलियारे में मत छोड़िए।'"
+      },
+      "words": [
+        "laissez",
+        "le",
+        "Ne",
+        "jamais",
+        "dans",
+        "le",
+        "couloir."
+      ],
+      "answer": "Ne le laissez jamais dans le couloir.",
+      "explanation": {
+        "en": "Negative command: ne + le + laissez + jamais.",
+        "hi": "नकारात्मक आज्ञा: ne + le + laissez + jamais।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "A label says 'Conserver à l'abri de la lumière.' What should you do?",
+        "hi": "एक लेबल पर लिखा है 'Conserver à l'abri de la lumière.' आपको क्या करना चाहिए?"
+      },
+      "options": [
+        "Keep it in a dark place",
+        "Keep it in the fridge",
+        "Use it in daylight only"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "conserver = to store; à l'abri de la lumière = away from light.",
+        "hi": "conserver = रखना; à l'abri de la lumière = रोशनी से दूर।"
+      }
+    }
+  ]
+}

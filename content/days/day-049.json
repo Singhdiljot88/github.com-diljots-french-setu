@@ -1,0 +1,826 @@
+{
+  "day": 49,
+  "phase": 3,
+  "title": {
+    "fr": "Révision : le passé et l'avenir",
+    "en": "Review day: past and future",
+    "hi": "दोहराई का दिन: अतीत और भविष्य"
+  },
+  "objective": {
+    "en": "Put together everything from Days 43–48: tell your past (imparfait and passé composé), describe your present (depuis) and talk about your future (futur simple), choosing the right tense each time.",
+    "hi": "दिन 43–48 की हर बात को जोड़ना: अपना अतीत बताना (इम्पारफ़े और पासे कॉम्पोज़े), अपना वर्तमान बताना (depuis) और अपने भविष्य की बात करना (फ़्यूतूर सैंप्ल), हर बार सही काल चुनकर।"
+  },
+  "prerequisites": {
+    "days": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "summary": {
+      "en": "Irregular participles (43), être verbs (44), il y a / depuis / pendant (45), imparfait (46), imparfait vs passé composé (47) and the futur simple (48).",
+      "hi": "अनियमित कृदंत (43), être वाली क्रियाएँ (44), il y a / depuis / pendant (45), इम्पारफ़े (46), इम्पारफ़े बनाम पासे कॉम्पोज़े (47) और फ़्यूतूर सैंप्ल (48)।"
+    }
+  },
+  "light": true,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "avant",
+      "en": "before; in the past",
+      "hi": "पहले",
+      "pron": "आ-वाँ",
+      "ipa": "avɑ̃",
+      "pos": "adverb",
+      "note": {
+        "en": "Avant, j'habitais à Delhi = I used to live in Delhi (imparfait).",
+        "hi": "Avant, j'habitais à Delhi = पहले मैं दिल्ली में रहता था (इम्पारफ़े)।"
+      }
+    },
+    {
+      "fr": "à l'époque",
+      "en": "back then, at that time",
+      "hi": "उस ज़माने में, उस समय",
+      "pron": "आ ले-पॉक",
+      "ipa": "a lepɔk",
+      "pos": "phrase"
+    },
+    {
+      "fr": "plus tard",
+      "en": "later",
+      "hi": "बाद में",
+      "pron": "प्लü ताग़",
+      "ipa": "ply taʁ",
+      "pos": "adverb"
+    },
+    {
+      "fr": "le rêve",
+      "en": "the dream",
+      "hi": "सपना",
+      "pron": "लö ग़ैव",
+      "ipa": "lə ʁɛv",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "rêve"
+    },
+    {
+      "fr": "réaliser",
+      "en": "to achieve, to make real (a dream, a project)",
+      "hi": "(सपना/योजना) पूरा करना",
+      "pron": "ग़े-आ-ली-ज़े",
+      "ipa": "ʁealize",
+      "pos": "verb",
+      "note": {
+        "en": "False friend: réaliser un rêve = to make a dream come true. 'To realise' (understand) is usually se rendre compte.",
+        "hi": "धोखेबाज़ शब्द: réaliser un rêve = सपना पूरा करना। 'समझ में आना' के लिए आमतौर पर se rendre compte कहते हैं।"
+      }
+    },
+    {
+      "fr": "à l'avenir",
+      "en": "in (the) future, from now on",
+      "hi": "आगे से, भविष्य में",
+      "pron": "आ लाव-नीग़",
+      "ipa": "a lavniʁ",
+      "pos": "phrase"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "À l'époque, je voulais être musicien.",
+      "en": "Back then I wanted to be a musician.",
+      "hi": "उस समय मैं संगीतकार बनना चाहता था।",
+      "pron": "आ ले-पॉक झ़ö वू-लै ऐत्ग़ मü-ज़ी-स्यैँ"
+    },
+    {
+      "fr": "Finalement, je suis devenu(e) comptable.",
+      "en": "In the end I became an accountant.",
+      "hi": "आख़िरकार मैं अकाउंटेंट बन गया/गई।",
+      "pron": "फ़ी-नाल-माँ झ़ö स्üई दöव-नü कोँ-ताब्ल"
+    },
+    {
+      "fr": "Ça fait dix ans !",
+      "en": "It's been ten years!",
+      "hi": "दस साल हो गए!",
+      "pron": "सा फ़ै दी ज़ाँ"
+    },
+    {
+      "fr": "Mon rêve, c'est de …",
+      "en": "My dream is to …",
+      "hi": "मेरा सपना है कि …",
+      "pron": "मोँ ग़ैव सै द"
+    },
+    {
+      "fr": "C'est promis !",
+      "en": "It's a promise!",
+      "hi": "पक्का वादा!",
+      "pron": "सै प्रो-मी"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Recap: four tenses on one timeline",
+      "hi": "दोहराई: एक समय-रेखा पर चार काल"
+    },
+    "explanation": {
+      "en": "Then (background, habits, descriptions) → imparfait: Avant, j'habitais à Jaipur. À l'époque, il n'y avait pas de métro. One event, a step in the story → passé composé: En 2021, je suis parti(e). J'ai trouvé un travail. Now, and since when → present (+ depuis): Maintenant, je travaille à Toronto depuis deux ans. Later → futur simple (or futur proche for near plans): L'année prochaine, je passerai le TEF. Si j'ai le temps, je ferai du bénévolat. Remember the agreements with être (elle est partie) and the irregular participles and future stems.",
+      "hi": "तब (पृष्ठभूमि, आदतें, वर्णन) → इम्पारफ़े: Avant, j'habitais à Jaipur. À l'époque, il n'y avait pas de métro. एक घटना, कहानी का एक क़दम → पासे कॉम्पोज़े: En 2021, je suis parti(e). J'ai trouvé un travail. अभी, और कब से → वर्तमान (+ depuis): Maintenant, je travaille à Toronto depuis deux ans. बाद में → फ़्यूतूर सैंप्ल (पास की योजनाओं के लिए futur proche): L'année prochaine, je passerai le TEF. Si j'ai le temps, je ferai du bénévolat। être के साथ मेल (elle est partie), अनियमित कृदंत और भविष्य के मूल रूप याद रखिए।"
+    },
+    "comparison": {
+      "en": "Map it onto Hindi: 'पहले मैं जयपुर में रहता था' (imparfait) → '2021 में मैं निकला' (passé composé) → 'मैं दो साल से टोरंटो में काम कर रहा हूँ' (present + depuis) → 'अगले साल मैं TEF दूँगा' (futur simple). Four Hindi forms, four French tenses.",
+      "hi": "इसे हिंदी पर बिठाइए: 'पहले मैं जयपुर में रहता था' (इम्पारफ़े) → '2021 में मैं निकला' (पासे कॉम्पोज़े) → 'मैं दो साल से टोरंटो में काम कर रहा हूँ' (वर्तमान + depuis) → 'अगले साल मैं TEF दूँगा' (फ़्यूतूर सैंप्ल)। चार हिंदी रूप, चार फ़्रेंच काल।"
+    },
+    "examples": [
+      {
+        "fr": "Avant, je travaillais douze heures par jour.",
+        "en": "Before, I used to work twelve hours a day.",
+        "hi": "पहले मैं दिन में बारह घंटे काम करता/करती था/थी।",
+        "pron": "आ-वाँ झ़ö त्रा-वा-यै दू-ज़öग़ पाग़ झ़ूग़"
+      },
+      {
+        "fr": "En 2020, elle est partie à Winnipeg.",
+        "en": "In 2020 she left for Winnipeg.",
+        "hi": "2020 में वह विनिपेग चली गई।",
+        "pron": "आँ दö मील वैँ ऐ-लै पाग़-ती आ वी-नी-पैग"
+      },
+      {
+        "fr": "Maintenant, nous habitons ici depuis un an.",
+        "en": "Now we have been living here for a year.",
+        "hi": "अब हम एक साल से यहाँ रह रहे हैं।",
+        "pron": "मैँत-नाँ नू ज़ा-बी-तोँ ई-सी दö-प्üई ऐँ नाँ"
+      },
+      {
+        "fr": "Plus tard, j'ouvrirai mon propre restaurant.",
+        "en": "Later I will open my own restaurant.",
+        "hi": "बाद में मैं अपना ख़ुद का रेस्टोरेंट खोलूँगा/खोलूँगी।",
+        "pron": "प्लü ताग़ झ़ू-व्री-ग़े मोँ प्रॉप्ग़ ग़ैस-तो-ग़ाँ"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Watch the jump from present to past: 'Je suis ici depuis deux ans' (present) but 'Je suis arrivé(e) il y a deux ans' (passé composé).",
+        "hi": "वर्तमान से भूतकाल की छलाँग पर ध्यान दीजिए: 'Je suis ici depuis deux ans' (वर्तमान) पर 'Je suis arrivé(e) il y a deux ans' (पासे कॉम्पोज़े)।"
+      },
+      {
+        "en": "'Je suis devenu' (I became) uses être; 'J'ai eu' (I had, I got) uses avoir. Mixing them up is the most common error in life stories.",
+        "hi": "'Je suis devenu' (मैं बन गया) में être है; 'J'ai eu' (मुझे मिला/मेरे पास था) में avoir। जीवन-कहानियों में यही गड़बड़ सबसे आम ग़लती है।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Review liaison and rhythm",
+    "tip": {
+      "en": "Link the words that belong together and keep each rhythm group smooth: nous‿avons‿eu, ils sont‿arrivés, quand‿il était petit (the d of quand sounds t), dans‿un‿an. Raise your voice slightly at the end of each group and let it fall at the end.",
+      "hi": "साथ आने वाले शब्दों को जोड़िए और हर लय-समूह को सहज रखिए: nous‿avons‿eu, ils sont‿arrivés, quand‿il était petit (quand का d, t जैसा बोला जाता है), dans‿un‿an। हर समूह के अंत में आवाज़ हल्की-सी ऊपर उठाइए और वाक्य के अंत में नीचे लाइए।"
+    },
+    "words": [
+      {
+        "fr": "nous avons eu",
+        "en": "we had",
+        "hi": "हमारे पास था / हमें मिला",
+        "pron": "नू ज़ा-वोँ ज़ü",
+        "ipa": "nu zavɔ̃ zy"
+      },
+      {
+        "fr": "ils sont arrivés",
+        "en": "they arrived",
+        "hi": "वे पहुँचे",
+        "pron": "ईल सोँ ता-ग़ी-वे",
+        "ipa": "il sɔ̃ taʁive"
+      },
+      {
+        "fr": "quand il était petit",
+        "en": "when he was little",
+        "hi": "जब वह छोटा था",
+        "pron": "काँ ती-ले-तै प्ती",
+        "ipa": "kɑ̃ til etɛ pəti"
+      },
+      {
+        "fr": "dans un an",
+        "en": "in a year",
+        "hi": "एक साल बाद",
+        "pron": "दाँ ज़ैँ नाँ",
+        "ipa": "dɑ̃ zɛ̃ nɑ̃"
+      },
+      {
+        "fr": "c'est un rêve",
+        "en": "it's a dream",
+        "hi": "यह एक सपना है",
+        "pron": "सै तैँ ग़ैव",
+        "ipa": "sɛ tɛ̃ ʁɛv"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Dix ans après",
+      "en": "Ten years later"
+    },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "In a café in Toronto, Neha and Sameer, who studied together in Delhi, meet by chance after ten years.",
+      "hi": "टोरंटो के एक कैफ़े में नेहा और समीर, जो दिल्ली में साथ पढ़ते थे, दस साल बाद अचानक मिलते हैं।"
+    },
+    "lines": [
+      {
+        "speaker": "Neha",
+        "voice": "f1",
+        "fr": "Sameer ? C'est bien toi ? Incroyable !",
+        "en": "Sameer? Is it really you? Incredible!",
+        "hi": "समीर? सच में तुम हो? कमाल है!"
+      },
+      {
+        "speaker": "Sameer",
+        "voice": "m2",
+        "fr": "Neha ! On était à l'université ensemble à Delhi ! Ça fait dix ans, non ?",
+        "en": "Neha! We were at university together in Delhi! It's been ten years, hasn't it?",
+        "hi": "नेहा! हम दिल्ली में साथ यूनिवर्सिटी में थे! दस साल हो गए, है ना?"
+      },
+      {
+        "speaker": "Neha",
+        "voice": "f1",
+        "fr": "Oui, dix ans ! À l'époque, tu voulais être musicien, non ?",
+        "en": "Yes, ten years! Back then you wanted to be a musician, didn't you?",
+        "hi": "हाँ, दस साल! उस समय तुम संगीतकार बनना चाहते थे, है ना?"
+      },
+      {
+        "speaker": "Sameer",
+        "voice": "m2",
+        "fr": "Oui, je jouais de la guitare tous les soirs. Mais finalement, j'ai étudié l'informatique et je suis devenu programmeur.",
+        "en": "Yes, I played the guitar every evening. But in the end I studied computer science and became a programmer.",
+        "hi": "हाँ, मैं हर शाम गिटार बजाता था। पर आख़िरकार मैंने कंप्यूटर साइंस पढ़ा और प्रोग्रामर बन गया।"
+      },
+      {
+        "speaker": "Neha",
+        "voice": "f1",
+        "fr": "Et tu es à Toronto depuis quand ?",
+        "en": "And since when have you been in Toronto?",
+        "hi": "और तुम कब से टोरंटो में हो?"
+      },
+      {
+        "speaker": "Sameer",
+        "voice": "m2",
+        "fr": "Je suis arrivé il y a trois ans. Je travaille pour une banque. Et toi ?",
+        "en": "I arrived three years ago. I work for a bank. And you?",
+        "hi": "मैं तीन साल पहले आया। मैं एक बैंक के लिए काम करता हूँ। और तुम?"
+      },
+      {
+        "speaker": "Neha",
+        "voice": "f1",
+        "fr": "Moi, avant, j'étais professeure d'anglais à Jaipur. Je suis venue au Canada l'année dernière avec mon mari.",
+        "en": "Me, I used to be an English teacher in Jaipur. I came to Canada last year with my husband.",
+        "hi": "मैं पहले जयपुर में अंग्रेज़ी की अध्यापिका थी। पिछले साल मैं अपने पति के साथ कनाडा आई।"
+      },
+      {
+        "speaker": "Sameer",
+        "voice": "m2",
+        "fr": "Et maintenant, qu'est-ce que tu fais ?",
+        "en": "And what do you do now?",
+        "hi": "और अब तुम क्या करती हो?"
+      },
+      {
+        "speaker": "Neha",
+        "voice": "f1",
+        "fr": "J'étudie pour devenir éducatrice en garderie. Je finirai ma formation en juin.",
+        "en": "I'm studying to become a daycare educator. I'll finish my training in June.",
+        "hi": "मैं डे-केयर में शिक्षिका बनने के लिए पढ़ रही हूँ। मेरी ट्रेनिंग जून में पूरी होगी।"
+      },
+      {
+        "speaker": "Sameer",
+        "voice": "m2",
+        "fr": "Super ! Et après ?",
+        "en": "Great! And after that?",
+        "hi": "बढ़िया! और उसके बाद?"
+      },
+      {
+        "speaker": "Neha",
+        "voice": "f1",
+        "fr": "Après, nous déménagerons à Ottawa, parce que mon mari aura un nouveau poste là-bas. Et toi, tu joues encore de la guitare ?",
+        "en": "After that we'll move to Ottawa, because my husband will have a new job there. And you, do you still play the guitar?",
+        "hi": "उसके बाद हम ओटावा शिफ़्ट होंगे, क्योंकि मेरे पति को वहाँ नई नौकरी मिलेगी। और तुम, अब भी गिटार बजाते हो?"
+      },
+      {
+        "speaker": "Sameer",
+        "voice": "m2",
+        "fr": "Un peu, le week-end. Mon rêve ? L'année prochaine, je jouerai dans un petit café, devant un vrai public !",
+        "en": "A bit, at weekends. My dream? Next year I'll play in a little café, in front of a real audience!",
+        "hi": "थोड़ा-बहुत, वीकेंड पर। मेरा सपना? अगले साल मैं एक छोटे कैफ़े में असली श्रोताओं के सामने बजाऊँगा!"
+      },
+      {
+        "speaker": "Neha",
+        "voice": "f1",
+        "fr": "Je viendrai écouter, c'est promis !",
+        "en": "I'll come and listen, I promise!",
+        "hi": "मैं सुनने आऊँगी, पक्का वादा!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "How do Neha and Sameer know each other?"
+        },
+        "options": [
+          "They worked at the same bank",
+          "They studied together in Delhi",
+          "They are neighbours in Toronto"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'On était à l'université ensemble à Delhi'.",
+          "hi": "'On était à l'université ensemble à Delhi' (हम दिल्ली में साथ यूनिवर्सिटी में थे)।"
+        },
+        "kind": "literal",
+        "evidence": "On était à l'université ensemble à Delhi !"
+      },
+      {
+        "q": {
+          "en": "What job does Sameer do today?"
+        },
+        "options": [
+          "Musician",
+          "Teacher",
+          "Programmer for a bank",
+          "Daycare educator"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "He became a programmer and works for a bank; music was his old dream.",
+          "hi": "वह प्रोग्रामर बना और एक बैंक के लिए काम करता है; संगीत उसका पुराना सपना था।"
+        },
+        "kind": "inference",
+        "evidence": "je suis devenu programmeur"
+      },
+      {
+        "q": {
+          "en": "What was Neha's job in India?"
+        },
+        "options": [
+          "English teacher",
+          "Daycare educator",
+          "Programmer"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'avant, j'étais professeure d'anglais à Jaipur'.",
+          "hi": "'avant, j'étais professeure d'anglais à Jaipur' (पहले मैं जयपुर में अंग्रेज़ी की अध्यापिका थी)।"
+        },
+        "kind": "literal",
+        "evidence": "avant, j'étais professeure d'anglais à Jaipur"
+      },
+      {
+        "q": {
+          "en": "Why will Neha and her husband move to Ottawa?"
+        },
+        "options": [
+          "She will find a job there",
+          "Her husband will have a new job there",
+          "They don't like Toronto"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'parce que mon mari aura un nouveau poste là-bas'.",
+          "hi": "'parce que mon mari aura un nouveau poste là-bas' (क्योंकि मेरे पति को वहाँ नई नौकरी मिलेगी)।"
+        },
+        "kind": "literal",
+        "evidence": "parce que mon mari aura un nouveau poste là-bas"
+      },
+      {
+        "q": {
+          "en": "What is Sameer's dream for next year?"
+        },
+        "options": [
+          "To play the guitar in a café for an audience",
+          "To go back to Delhi",
+          "To change banks"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "He will play in a small café in front of a real audience.",
+          "hi": "वह एक छोटे कैफ़े में असली श्रोताओं के सामने बजाएगा।"
+        },
+        "kind": "literal",
+        "evidence": "je jouerai dans un petit café, devant un vrai public"
+      }
+    ],
+    "dictation": [
+      "À l'époque, tu voulais être musicien.",
+      "Je suis arrivé il y a trois ans.",
+      "Je finirai ma formation en juin."
+    ],
+    "gapFill": {
+      "text": "Je ___ de la guitare tous les soirs. Finalement, je suis ___ programmeur. L'année prochaine, je ___ dans un petit café.",
+      "answers": [
+        "jouais",
+        "devenu",
+        "jouerai"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "conversation",
+    "instructions": {
+      "en": "Answer the five questions to tell your past, present and future. Then join them into a 90-second talk: 'Avant … / Un jour … / Maintenant … / Plus tard …'.",
+      "hi": "अपना अतीत, वर्तमान और भविष्य बताने के लिए पाँचों प्रश्नों के जवाब दीजिए। फिर उन्हें जोड़कर 90 सेकंड बोलिए: 'Avant … / Un jour … / Maintenant … / Plus tard …'।"
+    },
+    "prompts": [
+      {
+        "fr": "Avant, où est-ce que vous habitiez ?",
+        "en": "Where did you use to live?",
+        "hi": "पहले आप कहाँ रहते थे?",
+        "pron": "आ-वाँ ऊ ऐस-क वू ज़ा-बी-त्ये",
+        "model": "Avant, j'habitais à Kanpur avec mes parents."
+      },
+      {
+        "fr": "Quand vous étiez enfant, quel était votre rêve ?",
+        "en": "When you were a child, what was your dream?",
+        "hi": "जब आप बच्चे थे, आपका सपना क्या था?",
+        "pron": "काँ वू ज़े-त्ये ज़ाँ-फ़ाँ कैल ए-तै वॉत्ग़ ग़ैव",
+        "model": "Quand j'étais enfant, je voulais être pilote."
+      },
+      {
+        "fr": "Qu'est-ce qui a changé dans votre vie ?",
+        "en": "What has changed in your life?",
+        "hi": "आपकी ज़िंदगी में क्या बदला?",
+        "pron": "कैस-की आ शाँ-झ़े दाँ वॉत्ग़ वी",
+        "model": "En 2022, je me suis marié et j'ai trouvé un travail à Pune."
+      },
+      {
+        "fr": "Qu'est-ce que vous faites maintenant, et depuis quand ?",
+        "en": "What do you do now, and since when?",
+        "hi": "आप अभी क्या करते हैं, और कब से?",
+        "pron": "कैस-क वू फ़ैत मैँत-नाँ ए दö-प्üई काँ",
+        "model": "Maintenant, je travaille comme comptable depuis trois ans."
+      },
+      {
+        "fr": "Et plus tard ?",
+        "en": "And later?",
+        "hi": "और बाद में?",
+        "pron": "ए प्लü ताग़",
+        "model": "Plus tard, j'habiterai au Canada et je parlerai bien français."
+      }
+    ],
+    "tip": {
+      "en": "Use the time word first, then choose the tense: avant/à l'époque → imparfait; en 2022/un jour → passé composé; maintenant/depuis → present; plus tard/dans cinq ans → future.",
+      "hi": "पहले समय वाला शब्द बोलिए, फिर काल चुनिए: avant/à l'époque → इम्पारफ़े; en 2022/un jour → पासे कॉम्पोज़े; maintenant/depuis → वर्तमान; plus tard/dans cinq ans → भविष्य।"
+    }
+  },
+  "reading": {
+    "genre": "article",
+    "title": "Lakshmi Iyer : hier, aujourd'hui, demain",
+    "text": "HIER. Quand elle était petite, à Chennai, Lakshmi était très timide. Elle ne parlait pas beaucoup en classe, mais elle adorait les chiffres. À 22 ans, elle a eu son diplôme de comptable et elle a travaillé six ans pour une grande entreprise à Bangalore. « À l'époque, je travaillais douze heures par jour. Je ne voyais pas mes amis », raconte-t-elle.\n\nAUJOURD'HUI. En 2020, elle a tout changé. Elle est partie au Canada et elle a commencé une nouvelle vie à Winnipeg. Depuis deux ans, elle travaille à mi-temps dans une coopérative et elle donne des cours de danse bharatanatyam le samedi. « Maintenant, j'ai du temps pour moi. »\n\nDEMAIN. Lakshmi a de grands projets. L'année prochaine, elle ouvrira sa propre école de danse. « Si j'ai assez d'élèves, je ferai un grand spectacle pour Diwali. Et un jour, je danserai sur une grande scène à Montréal ! »",
+    "translation": {
+      "en": "YESTERDAY. When she was little, in Chennai, Lakshmi was very shy. She didn't talk much in class, but she loved numbers. At 22 she got her accountancy degree and worked for six years for a big company in Bangalore. 'Back then I worked twelve hours a day. I didn't see my friends,' she says.\n\nTODAY. In 2020 she changed everything. She left for Canada and started a new life in Winnipeg. For two years she has been working part-time in a cooperative and she gives bharatanatyam dance classes on Saturdays. 'Now I have time for myself.'\n\nTOMORROW. Lakshmi has big plans. Next year she will open her own dance school. 'If I have enough students, I'll put on a big show for Diwali. And one day I'll dance on a big stage in Montréal!'",
+      "hi": "बीता कल। जब लक्ष्मी छोटी थी, चेन्नई में, वह बहुत शर्मीली थी। कक्षा में वह ज़्यादा नहीं बोलती थी, पर उसे अंकों से बहुत लगाव था। 22 साल की उम्र में उसे अकाउंटेंसी की डिग्री मिली और उसने बेंगलुरु की एक बड़ी कंपनी में छह साल काम किया। 'उस समय मैं दिन में बारह घंटे काम करती थी। मैं अपने दोस्तों से नहीं मिल पाती थी,' वह बताती है।\n\nआज। 2020 में उसने सब कुछ बदल दिया। वह कनाडा चली गई और विनिपेग में एक नई ज़िंदगी शुरू की। दो साल से वह एक सहकारी संस्था में आधे समय काम कर रही है और शनिवार को भरतनाट्यम सिखाती है। 'अब मेरे पास अपने लिए समय है।'\n\nआने वाला कल। लक्ष्मी की बड़ी योजनाएँ हैं। अगले साल वह अपना ख़ुद का नृत्य विद्यालय खोलेगी। 'अगर मेरे पास काफ़ी विद्यार्थी हुए, तो मैं दिवाली पर एक बड़ा कार्यक्रम करूँगी। और एक दिन मैं मॉन्ट्रियाल के किसी बड़े मंच पर नाचूँगी!'"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "What was Lakshmi like as a child?"
+        },
+        "options": [
+          "Very talkative",
+          "Very shy",
+          "Bad at maths",
+          "Always dancing"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Lakshmi était très timide' (imparfait: description).",
+          "hi": "'Lakshmi était très timide' (इम्पारफ़े: वर्णन)।"
+        },
+        "kind": "literal",
+        "evidence": "Lakshmi était très timide"
+      },
+      {
+        "q": {
+          "en": "Why didn't she see her friends in Bangalore?"
+        },
+        "options": [
+          "They lived in Chennai",
+          "She was too shy",
+          "She worked very long hours"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "She worked twelve hours a day, so she had no time.",
+          "hi": "वह दिन में बारह घंटे काम करती थी, इसलिए उसके पास समय नहीं था।"
+        },
+        "kind": "inference",
+        "evidence": "je travaillais douze heures par jour"
+      },
+      {
+        "q": {
+          "en": "What does Lakshmi do on Saturdays now?"
+        },
+        "options": [
+          "She teaches dance",
+          "She works at the cooperative",
+          "She studies accounting"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "She gives bharatanatyam classes on Saturdays.",
+          "hi": "वह शनिवार को भरतनाट्यम की कक्षाएँ लेती है।"
+        },
+        "kind": "literal",
+        "evidence": "elle donne des cours de danse bharatanatyam le samedi"
+      },
+      {
+        "q": {
+          "en": "What will she do next year?"
+        },
+        "options": [
+          "Open her own dance school",
+          "Move to Montréal",
+          "Go back to Bangalore"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'elle ouvrira sa propre école de danse'. Montréal is a dream for 'one day'.",
+          "hi": "'elle ouvrira sa propre école de danse' (वह अपना नृत्य विद्यालय खोलेगी)। मॉन्ट्रियाल 'एक दिन' वाला सपना है।"
+        },
+        "kind": "literal",
+        "evidence": "L'année prochaine, elle ouvrira sa propre école de danse."
+      },
+      {
+        "q": {
+          "en": "On what condition will she put on a big Diwali show?"
+        },
+        "options": [
+          "If the city pays for it",
+          "If she moves to Montréal",
+          "If she has enough students"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Si j'ai assez d'élèves' — si + present, then future.",
+          "hi": "'Si j'ai assez d'élèves' — si + वर्तमान, फिर भविष्य।"
+        },
+        "kind": "literal",
+        "evidence": "Si j'ai assez d'élèves, je ferai un grand spectacle pour Diwali."
+      }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "Write a then-and-now paragraph about yourself (or someone in your family): what life was like before, what changed, how it is now, and one plan for the future.",
+      "hi": "अपने बारे में (या परिवार के किसी सदस्य के बारे में) 'तब और अब' वाला अनुच्छेद लिखिए: पहले ज़िंदगी कैसी थी, क्या बदला, अब कैसी है, और भविष्य की एक योजना।",
+      "fr": "Avant et maintenant : racontez."
+    },
+    "minWords": 60,
+    "maxWords": 110,
+    "hints": [
+      {
+        "en": "Use four time words, each with its tense: avant, en (year), maintenant/depuis, plus tard.",
+        "hi": "चार समय वाले शब्द, हर एक अपने काल के साथ: avant, en (साल), maintenant/depuis, plus tard।"
+      },
+      {
+        "en": "Include one irregular participle and one irregular future.",
+        "hi": "एक अनियमित कृदंत और एक अनियमित भविष्य रूप शामिल कीजिए।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Avant, je …",
+        "en": "Before, I used to …",
+        "hi": "पहले मैं … करता/करती था/थी",
+        "pron": "आ-वाँ झ़ö"
+      },
+      {
+        "fr": "Tout a changé en …",
+        "en": "Everything changed in …",
+        "hi": "… में सब कुछ बदल गया",
+        "pron": "तू ता शाँ-झ़े आँ"
+      },
+      {
+        "fr": "Maintenant, je … depuis …",
+        "en": "Now I have been … for …",
+        "hi": "अब मैं … से … कर रहा/रही हूँ",
+        "pron": "मैँत-नाँ झ़ö … दö-प्üई"
+      }
+    ],
+    "model": {
+      "fr": "Avant, mon père était chauffeur de taxi à Mumbai. Il travaillait la nuit et il dormait le jour. Nous ne passions pas beaucoup de temps avec lui. Tout a changé en 2019 : il a eu un accident et il a dû arrêter. Il a appris l'informatique en un an. Maintenant, il travaille dans un bureau depuis quatre ans et il rentre à la maison à six heures. Plus tard, à sa retraite, il viendra au Canada avec ma mère.",
+      "en": "Before, my father was a taxi driver in Mumbai. He worked at night and slept during the day. We didn't spend much time with him. Everything changed in 2019: he had an accident and had to stop. He learned computing in a year. Now he has been working in an office for four years and comes home at six. Later, when he retires, he will come to Canada with my mother."
+    },
+    "checklist": [
+      {
+        "en": "Are descriptions and habits of 'before' in the imparfait?",
+        "hi": "क्या 'पहले' वाले वर्णन और आदतें इम्पारफ़े में हैं?"
+      },
+      {
+        "en": "Is the change (one event) in the passé composé?",
+        "hi": "क्या बदलाव (एक घटना) पासे कॉम्पोज़े में है?"
+      },
+      {
+        "en": "Is 'now + depuis' in the present, and the plan in the future?",
+        "hi": "क्या 'अब + depuis' वर्तमान में है, और योजना भविष्य में?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      41,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "items": [
+      {
+        "fr": "J'ai fait les courses.",
+        "en": "I did the shopping.",
+        "hi": "मैंने राशन-सामान ख़रीदा।",
+        "pron": "झ़े फ़ै ले कूग़स"
+      },
+      {
+        "fr": "Il a pris le bus.",
+        "en": "He took the bus.",
+        "hi": "उसने बस ली।",
+        "pron": "ई-ला प्री लö बüस"
+      },
+      {
+        "fr": "Nous avons vu un film.",
+        "en": "We saw a film.",
+        "hi": "हमने एक फ़िल्म देखी।",
+        "pron": "नू ज़ा-वोँ वü ऐँ फ़िल्म"
+      },
+      {
+        "fr": "Elle a écrit une lettre.",
+        "en": "She wrote a letter.",
+        "hi": "उसने एक चिट्ठी लिखी।",
+        "pron": "ऐ-ला ए-क्री üन लैत्ग़"
+      },
+      {
+        "fr": "Je suis né(e) à Surat.",
+        "en": "I was born in Surat.",
+        "hi": "मेरा जन्म सूरत में हुआ।",
+        "pron": "झ़ö स्üई ने आ सू-ग़ात"
+      },
+      {
+        "fr": "Ils sont partis hier.",
+        "en": "They left yesterday.",
+        "hi": "वे कल चले गए।",
+        "pron": "ईल सोँ पाग़-ती यैग़"
+      },
+      {
+        "fr": "Elle s'est mariée en 2018.",
+        "en": "She got married in 2018.",
+        "hi": "उसकी शादी 2018 में हुई।",
+        "pron": "ऐल सै मा-ग़्ये आँ दö मील दी-ज़üईत"
+      },
+      {
+        "fr": "J'apprends le français depuis deux mois.",
+        "en": "I've been learning French for two months.",
+        "hi": "मैं दो महीने से फ़्रेंच सीख रहा/रही हूँ।",
+        "pron": "झ़ा-प्राँ लö फ़्राँ-सै दö-प्üई दö म्वा"
+      },
+      {
+        "fr": "Il y avait un grand jardin.",
+        "en": "There was a big garden.",
+        "hi": "एक बड़ा बग़ीचा था।",
+        "pron": "ई-लि-या-वै ऐँ ग्राँ झ़ाग़-दैँ"
+      },
+      {
+        "fr": "Il pleuvait quand je suis sorti(e).",
+        "en": "It was raining when I went out.",
+        "hi": "जब मैं निकला/निकली, बारिश हो रही थी।",
+        "pron": "ईल प्लö-वै काँ झ़ö स्üई सॉग़-ती"
+      },
+      {
+        "fr": "Tout à coup, j'ai entendu un bruit.",
+        "en": "All of a sudden I heard a noise.",
+        "hi": "एकाएक मुझे एक आवाज़ सुनाई दी।",
+        "pron": "तू ता कू झ़े आँ-ताँ-दü ऐँ ब्रüई"
+      },
+      {
+        "fr": "Je serai content(e).",
+        "en": "I will be happy.",
+        "hi": "मैं ख़ुश होऊँगा/होऊँगी।",
+        "pron": "झ़ö स-ग़े कोँ-ताँ (कोँ-ताँत)"
+      },
+      {
+        "fr": "S'il fait beau, nous irons au lac.",
+        "en": "If it's nice, we'll go to the lake.",
+        "hi": "अगर मौसम अच्छा हुआ, तो हम झील पर जाएँगे।",
+        "pron": "सील फ़ै बो नू ज़ी-ग़ोँ ओ लाक"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Back then, I ___ in a village.' Choose the tense.",
+        "hi": "'उस समय मैं एक गाँव में ___।' काल चुनिए।"
+      },
+      "options": [
+        "ai habité",
+        "habitais",
+        "habiterai",
+        "habite"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "à l'époque + description → imparfait: j'habitais.",
+        "hi": "à l'époque + वर्णन → इम्पारफ़े: j'habitais।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete with devenir in the passé composé (subject: Neha).",
+        "hi": "devenir के पासे कॉम्पोज़े से पूरा कीजिए (कर्ता: नेहा)।"
+      },
+      "sentence": "Neha est ___ éducatrice.",
+      "answer": "devenue",
+      "accept": [],
+      "explanation": {
+        "en": "devenir uses être; feminine subject → devenue.",
+        "hi": "devenir के साथ être; स्त्रीलिंग कर्ता → devenue।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which sentence is correct?",
+        "hi": "कौन-सा वाक्य सही है?"
+      },
+      "options": [
+        "Je travaille ici depuis deux ans.",
+        "J'ai travaillé ici depuis deux ans.",
+        "Je travaillerai ici il y a deux ans."
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Still true now → present + depuis.",
+        "hi": "अब भी सच → वर्तमान + depuis।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "Next year I will open my own shop.",
+        "hi": "अगले साल मैं अपनी ख़ुद की दुकान खोलूँगा।"
+      },
+      "answer": "L'année prochaine, j'ouvrirai mon propre magasin.",
+      "accept": [
+        "L'année prochaine j'ouvrirai mon propre magasin.",
+        "L'année prochaine, j'ouvrirai ma propre boutique.",
+        "L'année prochaine, je vais ouvrir mon propre magasin."
+      ],
+      "explanation": {
+        "en": "ouvrir → ouvrir- + -ai: j'ouvrirai.",
+        "hi": "ouvrir → ouvrir- + -ai: j'ouvrirai।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: When I was little, I played cricket.",
+        "hi": "शब्दों को सही क्रम में रखिए: जब मैं छोटा था, मैं क्रिकेट खेलता था।"
+      },
+      "words": [
+        "j'étais",
+        "Quand",
+        "petit",
+        "je",
+        "jouais",
+        "au",
+        "cricket",
+        "."
+      ],
+      "answer": "Quand j'étais petit je jouais au cricket.",
+      "explanation": {
+        "en": "Two imparfaits: description (j'étais) and habit (je jouais).",
+        "hi": "दो इम्पारफ़े: वर्णन (j'étais) और आदत (je jouais)।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "In 'quand il était petit', how is 'quand il' linked?",
+        "hi": "'quand il était petit' में 'quand il' कैसे जुड़ता है?"
+      },
+      "options": [
+        "काँ दील",
+        "काँ तील",
+        "काँ ईल (no link)"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "In liaison, the d of quand sounds like t: काँ तील.",
+        "hi": "लियाज़ों में quand का d, t जैसा बोला जाता है: काँ तील।"
+      }
+    }
+  ]
+}

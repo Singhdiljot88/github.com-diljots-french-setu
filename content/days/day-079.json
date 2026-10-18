@@ -1,0 +1,209 @@
+{
+  "day": 79,
+  "phase": 4,
+  "title": { "fr": "Continuer un fait divers", "en": "Continuing a news story", "hi": "एक स्थानीय ख़बर को आगे बढ़ाना" },
+  "objective": {
+    "en": "Understand and continue a short news story (fait divers): use the passé composé for events and the imparfait for the background, and report what witnesses said with il a dit que / elle a expliqué que + imparfait. This prepares TEF writing section A.",
+    "hi": "एक छोटी स्थानीय ख़बर (fait divers) समझना और उसे आगे लिखना: घटनाओं के लिए passé composé और पृष्ठभूमि के लिए imparfait, और गवाहों की बात il a dit que / elle a expliqué que + imparfait से बताना। यह TEF लेखन के सेक्शन A की तैयारी है।"
+  },
+  "prerequisites": {
+    "days": [46, 47, 74, 78],
+    "summary": {
+      "en": "You know the passé composé and the imparfait and how to combine them in a story (Days 46–47), and you can link ideas with cause and consequence (Day 78). Today you apply them to the style of a newspaper.",
+      "hi": "आप passé composé और imparfait जानते हैं और कहानी में उन्हें मिलाना जानते हैं (दिन 46–47), और कारण-परिणाम से विचार जोड़ सकते हैं (दिन 78)। आज आप इन्हें अख़बार की शैली में इस्तेमाल करेंगे।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "un fait divers", "en": "a news item (local incident)", "hi": "स्थानीय घटना की ख़बर", "pron": "ऐँ फ़ै दी-वैग़", "ipa": "ɛ̃ fɛ divɛʁ", "pos": "noun", "gender": "m", "lemma": "fait divers", "note": { "en": "Short articles about accidents, fires, thefts, unusual events.", "hi": "दुर्घटना, आग, चोरी, अनोखी घटनाओं पर छोटे लेख।" } },
+    { "fr": "se produire", "en": "to happen, to occur", "hi": "घटित होना", "pron": "सö प्ग़ो-द्üइग़", "ipa": "sə pʁɔdɥiʁ", "pos": "verb", "note": { "en": "Passé composé with être: l'accident s'est produit à midi.", "hi": "passé composé être के साथ: l'accident s'est produit à midi।" } },
+    { "fr": "un incident", "en": "an incident", "hi": "घटना", "pron": "ऐँ नैँ-सी-दाँ", "ipa": "ɛ̃ nɛ̃sidɑ̃", "pos": "noun", "gender": "m", "lemma": "incident" },
+    { "fr": "un témoin", "en": "a witness", "hi": "गवाह, चश्मदीद", "pron": "ऐँ ते-म्वैँ", "ipa": "ɛ̃ temwɛ̃", "pos": "noun", "gender": "m", "lemma": "témoin", "note": { "en": "Always masculine, even for a woman: elle est le seul témoin.", "hi": "हमेशा पुल्लिंग, महिला के लिए भी: elle est le seul témoin।" } },
+    { "fr": "la police", "en": "the police", "hi": "पुलिस", "pron": "ला पो-लीस", "ipa": "la pɔlis", "pos": "noun", "gender": "f", "lemma": "police", "note": { "en": "un policier / une policière = a police officer.", "hi": "un policier / une policière = पुलिसकर्मी।" } },
+    { "fr": "les pompiers", "en": "firefighters", "hi": "दमकलकर्मी", "pron": "ले पोँ-प्ये", "ipa": "le pɔ̃pje", "pos": "noun", "gender": "m", "lemma": "pompier" },
+    { "fr": "un incendie", "en": "a fire (destructive)", "hi": "आग, अग्निकांड", "pron": "ऐँ नैँ-साँ-दी", "ipa": "ɛ̃ nɛ̃sɑ̃di", "pos": "noun", "gender": "m", "lemma": "incendie", "note": { "en": "le feu = fire in general; un incendie = a fire that destroys.", "hi": "le feu = आग (सामान्य); un incendie = विनाशकारी आग।" } },
+    { "fr": "blessé / blessée", "en": "injured", "hi": "घायल", "pron": "ब्ले-से", "ipa": "blese", "pos": "adjective", "lemma": "blessé" },
+    { "fr": "évacuer", "en": "to evacuate", "hi": "ख़ाली कराना", "pron": "ए-वा-कüए", "ipa": "evakɥe", "pos": "verb" },
+    { "fr": "une enquête", "en": "an investigation", "hi": "जाँच", "pron": "ü-नाँ-कैत", "ipa": "yn ɑ̃kɛt", "pos": "noun", "gender": "f", "lemma": "enquête", "note": { "en": "Une enquête est en cours = an investigation is under way.", "hi": "Une enquête est en cours = जाँच चल रही है।" } },
+    { "fr": "selon", "en": "according to", "hi": "के अनुसार", "pron": "सö-लोँ", "ipa": "səlɔ̃", "pos": "preposition", "note": { "en": "Also d'après: d'après la police.", "hi": "d'après भी: d'après la police (पुलिस के अनुसार)।" } },
+    { "fr": "raconter", "en": "to tell, to recount", "hi": "सुनाना, बताना", "pron": "ग़ा-कोँ-ते", "ipa": "ʁakɔ̃te", "pos": "verb" },
+    { "fr": "heureusement", "en": "fortunately", "hi": "ख़ुशक़िस्मती से", "pron": "ö-ग़öज़-माँ", "ipa": "øʁøzmɑ̃", "pos": "adverb" }
+  ],
+  "phrases": [
+    { "fr": "Un incendie s'est produit hier soir.", "en": "A fire broke out last night.", "hi": "कल रात आग लग गई।", "pron": "ऐँ नैँ-साँ-दी सै प्ग़ो-द्üइ यैग़ स्वाग़" },
+    { "fr": "Heureusement, personne n'a été blessé.", "en": "Fortunately, nobody was hurt.", "hi": "ख़ुशक़िस्मती से कोई घायल नहीं हुआ।", "pron": "ö-ग़öज़-माँ पैग़-सॉन ना ए-ते ब्ले-से" },
+    { "fr": "Selon les témoins, il faisait très froid.", "en": "According to witnesses, it was very cold.", "hi": "गवाहों के अनुसार बहुत ठंड थी।", "pron": "सö-लोँ ले ते-म्वैँ ईल फ़ö-ज़ै त्ग़ै फ़्ग़्वा" },
+    { "fr": "Une enquête est en cours.", "en": "An investigation is under way.", "hi": "जाँच चल रही है।", "pron": "ü-नाँ-कैत ऐ ताँ कूग़" },
+    { "fr": "Il a dit que c'était dangereux.", "en": "He said it was dangerous.", "hi": "उसने कहा कि यह ख़तरनाक था।", "pron": "ई-ला दी कö से-तै दाँ-झ़ö-ग़ö" },
+    { "fr": "Les pompiers sont arrivés quelques minutes plus tard.", "en": "The firefighters arrived a few minutes later.", "hi": "दमकलकर्मी कुछ मिनट बाद पहुँचे।", "pron": "ले पोँ-प्ये सोँ ता-ग़ी-वे कैल-कö मी-नüत प्लü ताग़" }
+  ],
+  "grammar": {
+    "title": { "en": "The narrative past in the news + reported speech basics", "hi": "ख़बरों में कथात्मक भूतकाल + अप्रत्यक्ष कथन की बुनियाद" },
+    "explanation": {
+      "en": "A fait divers mixes two past tenses, exactly as in a story. PASSÉ COMPOSÉ for the EVENTS, the actions that move the story forward: L'incendie a commencé vers 22 h. Les pompiers sont arrivés. Ils ont évacué l'immeuble. IMPARFAIT for the BACKGROUND (weather, time, what was happening): Il faisait froid. Les résidents dormaient. And for an action in progress that is interrupted: Je regardais la télé quand j'ai entendu des cris. REPORTED SPEECH: to report what someone said, use a reporting verb in the passé composé (il a dit que, elle a expliqué que, il a ajouté que, elle a raconté que) and change the PRESENT of the original words into the IMPARFAIT: « Les détecteurs ne fonctionnent pas. » → Il a expliqué que les détecteurs ne fonctionnaient pas. « C'est un rappel important. » → Il a ajouté que c'était un rappel important. Change the pronouns too: « Je suis inquiète » → Elle a dit qu'elle était inquiète. Journalists also use selon / d'après + source, and direct quotes with « … », a-t-il dit / a raconté Julie (inverted after the quote).",
+      "hi": "fait divers दो भूतकालों को मिलाता है, बिल्कुल कहानी की तरह। घटनाओं के लिए passé composé, यानी वे क्रियाएँ जो कहानी को आगे बढ़ाती हैं: L'incendie a commencé vers 22 h। Les pompiers sont arrivés। Ils ont évacué l'immeuble। पृष्ठभूमि के लिए imparfait (मौसम, समय, क्या चल रहा था): Il faisait froid। Les résidents dormaient। और किसी चल रही क्रिया के लिए जो बीच में रुक जाती है: Je regardais la télé quand j'ai entendu des cris (मैं टीवी देख रही थी जब मैंने चीख़ें सुनीं)। अप्रत्यक्ष कथन: किसी की कही बात बताने के लिए passé composé में एक कथन-क्रिया लगाइए (il a dit que, elle a expliqué que, il a ajouté que, elle a raconté que) और मूल शब्दों के वर्तमान को imparfait में बदलिए: « Les détecteurs ne fonctionnent pas. » → Il a expliqué que les détecteurs ne fonctionnaient pas। « C'est un rappel important. » → Il a ajouté que c'était un rappel important। सर्वनाम भी बदलिए: « Je suis inquiète » → Elle a dit qu'elle était inquiète। पत्रकार selon / d'après + स्रोत भी इस्तेमाल करते हैं, और « … » में सीधे उद्धरण, उद्धरण के बाद उलटे क्रम में: a-t-il dit / a raconté Julie।"
+    },
+    "comparison": {
+      "en": "Hindi keeps the original tense in reported speech: 'उसने कहा कि वह थका है' (literally 'he said that he IS tired'). French moves it into the past: Il a dit qu'il ÉTAIT fatigué. English does the same as French: He said he was tired. Hindi 'रहा था' (देख रही थी) corresponds well to the imparfait of an interrupted action.",
+      "hi": "हिंदी अप्रत्यक्ष कथन में मूल काल बनाए रखती है: 'उसने कहा कि वह थका है'। फ़्रेंच उसे भूतकाल में ले जाती है: Il a dit qu'il ÉTAIT fatigué (शाब्दिक: उसने कहा कि वह थका था)। अंग्रेज़ी फ़्रेंच जैसा ही करती है: He said he was tired। हिंदी का 'रहा था' (देख रही थी) बीच में रुकी क्रिया वाले imparfait से अच्छी तरह मेल खाता है।"
+    },
+    "examples": [
+      { "fr": "L'incendie a commencé vers vingt-deux heures.", "en": "The fire started around 10 p.m.", "hi": "आग रात लगभग दस बजे लगी।", "pron": "लैँ-साँ-दी आ को-माँ-से वैग़ व्ग़ैँ-दö ज़öग़" },
+      { "fr": "Il faisait très froid et les résidents dormaient.", "en": "It was very cold and the residents were sleeping.", "hi": "बहुत ठंड थी और निवासी सो रहे थे।", "pron": "ईल फ़ö-ज़ै त्ग़ै फ़्ग़्वा ए ले ग़े-ज़ी-दाँ दॉग़-मै" },
+      { "fr": "Je regardais la télé quand j'ai entendu des cris.", "en": "I was watching TV when I heard shouts.", "hi": "मैं टीवी देख रही थी जब मैंने चीख़ें सुनीं।", "pron": "झ़ö ग़ö-गाग़-दै ला ते-ले काँ झ़े आँ-ताँ-दü दे क्ग़ी" },
+      { "fr": "Il a expliqué que les détecteurs ne fonctionnaient pas.", "en": "He explained that the detectors weren't working.", "hi": "उसने समझाया कि डिटेक्टर काम नहीं कर रहे थे।", "pron": "ई-ला ऐक्स-प्ली-के कö ले दे-तैक-तöग़ नö फ़ोँक-स्यो-नै पा" },
+      { "fr": "Elle a dit qu'elle était inquiète.", "en": "She said she was worried.", "hi": "उसने कहा कि वह चिंतित थी।", "pron": "ए-ला दी कै-ले-तै ऐँ-क्यैत" },
+      { "fr": "« C'était terrible », a raconté une voisine.", "en": "'It was terrible,' a neighbour said.", "hi": "'बहुत भयानक था,' एक पड़ोसन ने बताया।", "pron": "से-तै तै-ग़ीब्ल आ ग़ा-कोँ-ते üन व्वा-ज़ीन" }
+    ],
+    "pitfalls": [
+      { "en": "Don't put a whole story in the imparfait: the events (arrived, called, evacuated) need the passé composé.", "hi": "पूरी कहानी imparfait में मत लिखिए: घटनाओं (पहुँचे, फ़ोन किया, ख़ाली कराया) के लिए passé composé चाहिए।" },
+      { "en": "In reported speech after a past verb, present → imparfait: Il a dit qu'il est fatigué ✗ → qu'il était fatigué ✓.", "hi": "भूतकाल की क्रिया के बाद अप्रत्यक्ष कथन में, वर्तमान → imparfait: Il a dit qu'il est fatigué ✗ → qu'il était fatigué ✓।" },
+      { "en": "Se produire, arriver and venir take être in the passé composé: l'incident s'est produit, les pompiers sont arrivés.", "hi": "se produire, arriver और venir passé composé में être लेते हैं: l'incident s'est produit, les pompiers sont arrivés।" },
+      { "en": "After a quote, invert: « … », a dit le policier (not 'le policier a dit' after the quote).", "hi": "उद्धरण के बाद क्रम उलटिए: « … », a dit le policier (उद्धरण के बाद 'le policier a dit' नहीं)।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Reading a news story aloud",
+    "tip": {
+      "en": "A newsreader's voice is calm and regular. Pause briefly at every comma, and longer at every full stop. Read times and numbers carefully: vers vingt-deux heures (vèr vin-tdeu-zeur), une quarantaine de personnes. Make liaisons that are compulsory (les‿enfants, sont‿arrivés) but don't over-dramatise: the facts are enough.",
+      "hi": "समाचार-वाचक की आवाज़ शांत और नियमित होती है। हर अल्पविराम पर थोड़ा रुकिए, और हर पूर्णविराम पर ज़्यादा। समय और संख्याएँ ध्यान से पढ़िए: vers vingt-deux heures (वैग़ व्ग़ैँ-दö ज़öग़), une quarantaine de personnes। ज़रूरी liaison कीजिए (les‿enfants, sont‿arrivés) लेकिन नाटक मत कीजिए: तथ्य काफ़ी हैं।"
+    },
+    "words": [
+      { "fr": "s'est produit", "en": "happened", "hi": "घटित हुआ", "pron": "सै प्ग़ो-द्üइ", "ipa": "sɛ pʁɔdɥi" },
+      { "fr": "sont arrivés", "en": "arrived", "hi": "पहुँचे", "pron": "सोँ ता-ग़ी-वे", "ipa": "sɔ̃ taʁive", "note": { "en": "Compulsory liaison: sont‿arrivés.", "hi": "ज़रूरी liaison: sont‿arrivés।" } },
+      { "fr": "un témoin", "en": "a witness", "hi": "गवाह", "pron": "ऐँ ते-म्वैँ", "ipa": "ɛ̃ temwɛ̃" },
+      { "fr": "vers vingt-deux heures", "en": "around 10 p.m.", "hi": "रात लगभग दस बजे", "pron": "वैग़ व्ग़ैँ-दö ज़öग़", "ipa": "vɛʁ vɛ̃tdøzœʁ" },
+      { "fr": "une quarantaine", "en": "about forty", "hi": "लगभग चालीस", "pron": "üन का-ग़ाँ-तैन", "ipa": "yn kaʁɑ̃tɛn" },
+      { "fr": "heureusement", "en": "fortunately", "hi": "ख़ुशक़िस्मती से", "pron": "ö-ग़öज़-माँ", "ipa": "øʁøzmɑ̃" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Incendie à Sherbrooke : un adolescent donne l'alerte", "en": "Fire in Sherbrooke: a teenager raises the alarm" },
+    "type": "radio",
+    "mode": "natural",
+    "context": {
+      "en": "The local evening news. The presenter introduces a report by journalist Léa Morin about a fire in an apartment building in Sherbrooke. You will also hear a teenager and a resident. Notice the passé composé for events and the imparfait for background.",
+      "hi": "स्थानीय शाम के समाचार। प्रस्तोता शेरब्रुक की एक अपार्टमेंट इमारत में लगी आग पर पत्रकार लेआ मोरैँ की रिपोर्ट पेश करते हैं। आप एक किशोर और एक निवासी को भी सुनेंगे। घटनाओं के लिए passé composé और पृष्ठभूमि के लिए imparfait पर ध्यान दीजिए।"
+    },
+    "lines": [
+      { "speaker": "Présentateur", "voice": "m2", "fr": "Bonsoir. Dans l'actualité locale, un incendie s'est produit hier soir dans un immeuble de Sherbrooke. Notre journaliste Léa Morin était sur place.", "en": "Good evening. In local news, a fire broke out last night in an apartment building in Sherbrooke. Our journalist Léa Morin was at the scene.", "hi": "नमस्कार। स्थानीय समाचारों में, कल रात शेरब्रुक की एक इमारत में आग लग गई। हमारी पत्रकार लेआ मोरैँ मौक़े पर मौजूद थीं।" },
+      { "speaker": "Léa", "voice": "f2", "fr": "Oui, bonsoir. L'incendie a commencé vers vingt-deux heures, au troisième étage. Il faisait très froid et beaucoup de résidents dormaient déjà.", "en": "Yes, good evening. The fire started around 10 p.m., on the third floor. It was very cold and many residents were already asleep.", "hi": "जी, नमस्कार। आग रात लगभग दस बजे तीसरी मंज़िल पर लगी। बहुत ठंड थी और कई निवासी पहले ही सो चुके थे।" },
+      { "speaker": "Léa", "voice": "f2", "fr": "C'est un adolescent de seize ans, Adam, qui a remarqué la fumée le premier. Il rentrait de son entraînement de hockey.", "en": "It was a sixteen-year-old, Adam, who noticed the smoke first. He was coming home from hockey practice.", "hi": "सबसे पहले धुआँ सोलह साल के एक किशोर, एडम, ने देखा। वह हॉकी की प्रैक्टिस से लौट रहा था।" },
+      { "speaker": "Adam", "voice": "m1", "fr": "J'ai vu de la fumée qui sortait d'une fenêtre. J'ai appelé le 911 et après, j'ai frappé à toutes les portes.", "en": "I saw smoke coming out of a window. I called 911 and then I knocked on all the doors.", "hi": "मैंने एक खिड़की से धुआँ निकलते देखा। मैंने 911 पर फ़ोन किया और फिर सारे दरवाज़े खटखटाए।" },
+      { "speaker": "Léa", "voice": "f2", "fr": "Les pompiers sont arrivés huit minutes plus tard. Ils ont évacué une quarantaine de personnes.", "en": "The firefighters arrived eight minutes later. They evacuated about forty people.", "hi": "दमकलकर्मी आठ मिनट बाद पहुँचे। उन्होंने लगभग चालीस लोगों को बाहर निकाला।" },
+      { "speaker": "Léa", "voice": "f2", "fr": "Une résidente, Mme Gagnon, m'a raconté sa soirée.", "en": "A resident, Ms Gagnon, told me about her evening.", "hi": "एक निवासी, मैडम गान्यों, ने मुझे अपनी शाम के बारे में बताया।" },
+      { "speaker": "Mme Gagnon", "voice": "f1", "fr": "Je regardais la télévision quand j'ai entendu des cris dans le couloir. J'ai pris mon chat et je suis sortie en pyjama !", "en": "I was watching television when I heard shouting in the corridor. I grabbed my cat and went out in my pyjamas!", "hi": "मैं टीवी देख रही थी जब मैंने गलियारे में चीख़ें सुनीं। मैंने अपनी बिल्ली उठाई और पायजामे में ही बाहर निकल आई!" },
+      { "speaker": "Léa", "voice": "f2", "fr": "Heureusement, personne n'a été blessé. Une personne âgée a cependant été transportée à l'hôpital par précaution.", "en": "Fortunately, nobody was injured. An elderly person was, however, taken to hospital as a precaution.", "hi": "ख़ुशक़िस्मती से कोई घायल नहीं हुआ। हालाँकि एक बुज़ुर्ग व्यक्ति को एहतियात के तौर पर अस्पताल ले जाया गया।" },
+      { "speaker": "Léa", "voice": "f2", "fr": "Selon les pompiers, l'incendie a probablement été causé par une chandelle. Une enquête est en cours.", "en": "According to the firefighters, the fire was probably caused by a candle. An investigation is under way.", "hi": "दमकलकर्मियों के अनुसार, आग शायद एक मोमबत्ती से लगी। जाँच चल रही है।" },
+      { "speaker": "Léa", "voice": "f2", "fr": "Le capitaine des pompiers a expliqué que les détecteurs de fumée ne fonctionnaient pas dans deux appartements.", "en": "The fire captain explained that the smoke detectors were not working in two apartments.", "hi": "दमकल कप्तान ने बताया कि दो अपार्टमेंट में धुआँ डिटेक्टर काम नहीं कर रहे थे।" },
+      { "speaker": "Léa", "voice": "f2", "fr": "Il a ajouté que c'était un rappel important : il faut vérifier ses détecteurs deux fois par an.", "en": "He added that it was an important reminder: you have to check your detectors twice a year.", "hi": "उन्होंने आगे कहा कि यह एक अहम चेतावनी थी: साल में दो बार अपने डिटेक्टर जाँचने चाहिए।" },
+      { "speaker": "Léa", "voice": "f2", "fr": "Les résidents ont passé la nuit dans un centre communautaire. La Croix-Rouge les aide maintenant à trouver un logement temporaire.", "en": "The residents spent the night in a community centre. The Red Cross is now helping them find temporary housing.", "hi": "निवासियों ने रात एक सामुदायिक केंद्र में बिताई। रेड क्रॉस अब अस्थायी घर ढूँढने में उनकी मदद कर रहा है।" },
+      { "speaker": "Présentateur", "voice": "m2", "fr": "Merci, Léa. Et bravo à Adam pour son courage.", "en": "Thank you, Léa. And well done to Adam for his courage.", "hi": "धन्यवाद, लेआ। और एडम को उसकी हिम्मत के लिए शाबाश।" }
+    ],
+    "questions": [
+      { "q": { "en": "When and where did the fire start?" }, "options": ["In the morning, in the basement", "Around 10 p.m., on the third floor", "At midnight, on the ground floor", "Around 8 p.m., in the corridor"], "answer": 1, "explanation": { "en": "Around 10 p.m., on the third floor.", "hi": "रात लगभग दस बजे, तीसरी मंज़िल पर।" }, "kind": "literal", "evidence": "L'incendie a commencé vers vingt-deux heures, au troisième étage." },
+      { "q": { "en": "What was Adam doing when he saw the smoke?" }, "options": ["Coming home from hockey practice", "Watching television", "Sleeping", "Walking his dog"], "answer": 0, "explanation": { "en": "He was coming home from his hockey practice (imparfait: background).", "hi": "वह हॉकी प्रैक्टिस से लौट रहा था (imparfait: पृष्ठभूमि)।" }, "kind": "literal", "evidence": "Il rentrait de son entraînement de hockey." },
+      { "q": { "en": "What did Adam do after calling 911?" }, "options": ["He waited for the firefighters outside.", "He went to bed.", "He knocked on all the doors.", "He took a video."], "answer": 2, "explanation": { "en": "He knocked on all the doors to warn the residents.", "hi": "उसने निवासियों को सावधान करने के लिए सारे दरवाज़े खटखटाए।" }, "kind": "literal", "evidence": "j'ai frappé à toutes les portes" },
+      { "q": { "en": "Why was an elderly person taken to hospital?" }, "options": ["She was badly burnt.", "She had fallen down the stairs.", "She had breathed in a lot of smoke.", "Only as a precaution: nobody was injured."], "answer": 3, "explanation": { "en": "Nobody was hurt; the person was taken 'par précaution' (as a precaution).", "hi": "कोई घायल नहीं हुआ; उस व्यक्ति को 'par précaution' (एहतियात के तौर पर) ले जाया गया।" }, "kind": "inference", "evidence": "transportée à l'hôpital par précaution" },
+      { "q": { "en": "What probably caused the fire?" }, "options": ["An electric heater", "A candle", "A cigarette", "A kitchen stove"], "answer": 1, "explanation": { "en": "According to the firefighters, probably a candle.", "hi": "दमकलकर्मियों के अनुसार, शायद एक मोमबत्ती।" }, "kind": "literal", "evidence": "l'incendie a probablement été causé par une chandelle" },
+      { "q": { "en": "What lesson does the fire captain want listeners to remember?" }, "options": ["Never light candles.", "Leave the building by the stairs.", "Check smoke detectors regularly.", "Keep pets in a cage."], "answer": 2, "explanation": { "en": "Detectors weren't working in two apartments: check them twice a year.", "hi": "दो अपार्टमेंट में डिटेक्टर काम नहीं कर रहे थे: उन्हें साल में दो बार जाँचिए।" }, "kind": "inference", "evidence": "il faut vérifier ses détecteurs deux fois par an" }
+    ],
+    "dictation": [
+      "Un incendie s'est produit hier soir.",
+      "Il faisait très froid et beaucoup de résidents dormaient déjà.",
+      "Le capitaine a expliqué que les détecteurs ne fonctionnaient pas."
+    ],
+    "gapFill": {
+      "text": "Je ___ la télévision quand j'___ entendu des cris dans le couloir. Les pompiers ___ arrivés huit minutes plus tard.",
+      "answers": ["regardais", "ai", "sont"]
+    }
+  },
+  "speaking": {
+    "type": "presentation",
+    "instructions": {
+      "en": "Retell the Sherbrooke fire story in your own words to a friend who didn't hear the news, in about one minute. Follow the five questions below. Use the passé composé for events, the imparfait for background, and report at least one thing someone said (il a dit que / elle a expliqué que).",
+      "hi": "शेरब्रुक की आग की कहानी अपने शब्दों में एक ऐसे दोस्त को सुनाइए जिसने ख़बर नहीं सुनी, लगभग एक मिनट में। नीचे के पाँच सवालों का पालन कीजिए। घटनाओं के लिए passé composé, पृष्ठभूमि के लिए imparfait, और किसी की कही कम से कम एक बात बताइए (il a dit que / elle a expliqué que)।"
+    },
+    "prompts": [
+      { "fr": "Où et quand ?", "en": "Where and when?", "hi": "कहाँ और कब?", "pron": "ऊ ए काँ", "model": "Tu as entendu ? Hier soir, il y a eu un incendie dans un immeuble à Sherbrooke, vers dix heures du soir." },
+      { "fr": "Quelle était la situation ?", "en": "What was the situation?", "hi": "हालात क्या थे?", "pron": "कैल ए-तै ला सी-तüआ-स्योँ", "model": "Il faisait très froid et beaucoup de gens dormaient déjà." },
+      { "fr": "Qu'est-ce qui s'est passé ?", "en": "What happened?", "hi": "क्या हुआ?", "pron": "कैस की सै पा-से", "model": "Un adolescent rentrait du hockey quand il a vu de la fumée. Il a appelé le 911 et il a frappé à toutes les portes. Les pompiers sont arrivés très vite et ils ont évacué tout le monde." },
+      { "fr": "Qu'est-ce qu'un témoin a dit ?", "en": "What did a witness say?", "hi": "एक गवाह ने क्या कहा?", "pron": "कैस-कैँ ते-म्वैँ आ दी", "model": "Une voisine a raconté qu'elle regardait la télé et qu'elle est sortie en pyjama avec son chat !" },
+      { "fr": "Comment l'histoire s'est-elle terminée ?", "en": "How did the story end?", "hi": "कहानी कैसे ख़त्म हुई?", "pron": "को-माँ लीस-त्वाग़ सै-तैल तैग़-मी-ने", "model": "Heureusement, personne n'a été blessé. Le capitaine des pompiers a dit qu'il fallait vérifier ses détecteurs de fumée." }
+    ],
+    "tip": {
+      "en": "Retelling is not reciting: change the words of the report into your own simpler words (« une quarantaine de personnes » → « tout le monde »). Start with a hook for your friend: « Tu as entendu ce qui s'est passé à Sherbrooke ? »",
+      "hi": "दोबारा सुनाना रटना नहीं है: रिपोर्ट के शब्दों को अपने आसान शब्दों में बदलिए (« une quarantaine de personnes » → « tout le monde »)। दोस्त का ध्यान खींचने वाली शुरुआत कीजिए: « Tu as entendu ce qui s'est passé à Sherbrooke ? »"
+    }
+  },
+  "reading": {
+    "genre": "article",
+    "title": "Ottawa : un cerf fait les soldes au centre commercial",
+    "text": "OTTAWA — Les clients d'un centre commercial de l'est d'Ottawa ont eu une drôle de surprise, samedi matin. Vers dix heures, un jeune cerf est entré dans le bâtiment par les portes automatiques de l'entrée principale.\n\nIl y avait beaucoup de monde ce jour-là, car les magasins proposaient des soldes importants. Selon plusieurs témoins, l'animal semblait aussi surpris que les clients. Il a d'abord traversé le hall en courant, puis il s'est arrêté devant une boutique de vêtements pour enfants.\n\n« Je faisais la queue au café quand j'ai vu quelque chose de marron passer à côté de moi, a raconté Julie Paquette, une cliente. Au début, j'ai pensé que c'était un gros chien ! »\n\nLes agents de sécurité ont rapidement fermé plusieurs portes et ont demandé aux clients de rester calmes. Certains parents ont pris leurs enfants dans leurs bras, tandis que d'autres clients filmaient la scène avec leur téléphone. Une employée de la boutique a éteint la musique pour ne pas effrayer l'animal.\n\nVers dix heures et quart, le cerf, visiblement paniqué, a commencé à courir vers l'escalier roulant. La police et un agent de protection de la faune sont arrivés quelques minutes plus tard…",
+    "translation": {
+      "en": "Ottawa: a deer goes sale shopping at the mall\n\nOTTAWA — Customers at a shopping centre in the east of Ottawa had a funny surprise on Saturday morning. Around ten o'clock, a young deer entered the building through the automatic doors of the main entrance.\n\nThere were a lot of people that day, as the shops were offering big sales. According to several witnesses, the animal seemed as surprised as the customers. It first ran across the hall, then stopped in front of a children's clothing shop.\n\n'I was queuing at the café when I saw something brown go past me,' said Julie Paquette, a customer. 'At first I thought it was a big dog!'\n\nSecurity guards quickly closed several doors and asked customers to stay calm. Some parents picked their children up, while other customers filmed the scene on their phones. A shop employee turned off the music so as not to frighten the animal.\n\nAround quarter past ten, the deer, visibly panicked, started running towards the escalator. The police and a wildlife officer arrived a few minutes later…",
+      "hi": "ओटावा: एक हिरण मॉल में सेल की ख़रीदारी करने पहुँचा\n\nओटावा — ओटावा के पूर्वी हिस्से के एक शॉपिंग सेंटर के ग्राहकों को शनिवार सुबह एक अजीब हैरानी हुई। लगभग दस बजे एक जवान हिरण मुख्य प्रवेश-द्वार के स्वचालित दरवाज़ों से इमारत में घुस आया।\n\nउस दिन बहुत भीड़ थी, क्योंकि दुकानों में बड़ी सेल चल रही थी। कई गवाहों के अनुसार, जानवर भी ग्राहकों जितना ही हैरान लग रहा था। पहले वह दौड़ता हुआ हॉल पार कर गया, फिर बच्चों के कपड़ों की एक दुकान के सामने रुक गया।\n\n'मैं कैफ़े में लाइन में खड़ी थी जब मैंने कोई भूरी चीज़ अपने बगल से गुज़रती देखी,' एक ग्राहक, जूली पाकेट, ने बताया। 'पहले मुझे लगा कि यह कोई बड़ा कुत्ता है!'\n\nसुरक्षाकर्मियों ने जल्दी से कई दरवाज़े बंद कर दिए और ग्राहकों से शांत रहने को कहा। कुछ माता-पिता ने अपने बच्चों को गोद में उठा लिया, जबकि दूसरे ग्राहक अपने फ़ोन से दृश्य का वीडियो बना रहे थे। दुकान की एक कर्मचारी ने संगीत बंद कर दिया ताकि जानवर डरे नहीं।\n\nलगभग सवा दस बजे, साफ़ तौर पर घबराया हुआ हिरण स्वचालित सीढ़ियों की ओर दौड़ने लगा। पुलिस और एक वन्यजीव संरक्षण अधिकारी कुछ मिनट बाद पहुँचे…"
+    },
+    "questions": [
+      { "q": { "en": "When did the deer enter the shopping centre?" }, "options": ["On Friday evening", "On Saturday around ten in the morning", "On Sunday at noon", "On Saturday at quarter past ten"], "answer": 1, "explanation": { "en": "On Saturday morning, around ten o'clock.", "hi": "शनिवार सुबह, लगभग दस बजे।" }, "kind": "literal", "evidence": "Vers dix heures, un jeune cerf est entré dans le bâtiment" },
+      { "q": { "en": "Why were there so many people that day?" }, "options": ["There was a concert.", "It was a public holiday.", "The shops were having big sales.", "A new café had opened."], "answer": 2, "explanation": { "en": "The shops were offering big sales.", "hi": "दुकानों में बड़ी सेल चल रही थी।" }, "kind": "literal", "evidence": "les magasins proposaient des soldes importants" },
+      { "q": { "en": "What did Julie Paquette think at first?" }, "options": ["That it was a big dog", "That it was a toy", "That it was a horse", "That it was a security guard"], "answer": 0, "explanation": { "en": "She first thought it was a big dog.", "hi": "पहले उसे लगा कि यह कोई बड़ा कुत्ता है।" }, "kind": "inference", "evidence": "j'ai pensé que c'était un gros chien" },
+      { "q": { "en": "What did the security guards do?" }, "options": ["They tried to catch the deer.", "They called the newspapers.", "They evacuated the whole building.", "They closed several doors and asked people to stay calm."], "answer": 3, "explanation": { "en": "They quickly closed several doors and asked customers to stay calm.", "hi": "उन्होंने जल्दी से कई दरवाज़े बंद किए और ग्राहकों से शांत रहने को कहा।" }, "kind": "literal", "evidence": "ont rapidement fermé plusieurs portes" },
+      { "q": { "en": "How does the article end?" }, "options": ["The deer is caught and released.", "With suspense: the police and a wildlife officer arrive.", "The shopping centre closes for the day.", "Julie Paquette adopts the deer."], "answer": 1, "explanation": { "en": "It stops as the police and a wildlife officer arrive: the reader doesn't yet know what happens.", "hi": "लेख वहीं रुक जाता है जब पुलिस और वन्यजीव अधिकारी पहुँचते हैं: पाठक को अभी पता नहीं कि आगे क्या हुआ।" }, "kind": "inference", "evidence": "La police et un agent de protection de la faune sont arrivés quelques minutes plus tard" }
+    ]
+  },
+  "writing": {
+    "type": "article_continuation",
+    "prompt": {
+      "en": "Continue the article about the deer in the Ottawa shopping centre (TEF writing section A style). Tell what happened next and how the story ended. Use the passé composé for events and the imparfait for descriptions, include one reported statement (il a expliqué que…) or quote, and keep the neutral tone of a newspaper. Write at least 80 words.",
+      "hi": "ओटावा के शॉपिंग सेंटर में हिरण वाले लेख को आगे लिखिए (TEF लेखन सेक्शन A की शैली में)। बताइए कि आगे क्या हुआ और कहानी कैसे ख़त्म हुई। घटनाओं के लिए passé composé और वर्णन के लिए imparfait इस्तेमाल कीजिए, एक अप्रत्यक्ष कथन (il a expliqué que…) या उद्धरण शामिल कीजिए, और अख़बार का तटस्थ लहजा बनाए रखिए। कम से कम 80 शब्द लिखिए।",
+      "fr": "Continuez l'article : racontez la suite et la fin de l'histoire."
+    },
+    "minWords": 80,
+    "maxWords": 180,
+    "hints": [
+      { "en": "Don't repeat the beginning: start exactly where the article stops (the police have just arrived).", "hi": "शुरुआत मत दोहराइए: ठीक वहीं से शुरू कीजिए जहाँ लेख रुकता है (पुलिस अभी पहुँची है)।" },
+      { "en": "Plan three steps: what the officers did → how the deer was caught or left → the end (where it went, reactions).", "hi": "तीन क़दमों की योजना: अधिकारियों ने क्या किया → हिरण कैसे पकड़ा गया या बाहर गया → अंत (वह कहाँ गया, प्रतिक्रियाएँ)।" },
+      { "en": "Keep it realistic and in the third person, like a journalist.", "hi": "इसे यथार्थवादी और अन्य पुरुष (third person) में रखिए, एक पत्रकार की तरह।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Pendant ce temps, …", "en": "Meanwhile, …", "hi": "इस बीच, …", "pron": "पाँ-दाँ सö ताँ" },
+      { "fr": "Après une dizaine de minutes, …", "en": "After about ten minutes, …", "hi": "लगभग दस मिनट बाद, …", "pron": "आ-प्ग़ै üन दी-ज़ैन दö मी-नüत" },
+      { "fr": "Selon l'agent, l'animal était en bonne santé.", "en": "According to the officer, the animal was in good health.", "hi": "अधिकारी के अनुसार, जानवर स्वस्थ था।", "pron": "सö-लोँ ला-झ़ाँ ला-नी-माल ए-तै ताँ बॉन साँ-ते" },
+      { "fr": "… a déclaré une employée.", "en": "… said an employee.", "hi": "… एक कर्मचारी ने कहा।", "pron": "आ दे-क्ला-ग़े ü-नाँ-प्ल्वा-ये" }
+    ],
+    "model": {
+      "fr": "Les policiers ont demandé aux clients de s'éloigner de l'escalier roulant. Pendant ce temps, l'agent de la faune préparait un grand filet. Le cerf était fatigué et il respirait très vite.\n\nAprès une dizaine de minutes, l'animal s'est caché derrière une grande plante, près de la pharmacie. L'agent s'est approché lentement et il a réussi à l'attraper sans le blesser. Les clients, qui retenaient leur souffle, ont applaudi. Deux enfants voulaient même caresser l'animal, mais l'agent a refusé.\n\nLe cerf a ensuite été transporté en camion jusqu'à un parc naturel, à une vingtaine de kilomètres de la ville. Selon l'agent, l'animal était en bonne santé. Il a expliqué que les cerfs entraient parfois en ville en hiver, parce qu'ils cherchaient de la nourriture.\n\nLe centre commercial a rouvert toutes ses portes vers midi, après une matinée très agitée. « C'était la matinée de soldes la plus étrange de ma vie ! » a déclaré une employée en riant.",
+      "en": "The police officers asked customers to move away from the escalator. Meanwhile, the wildlife officer was preparing a large net. The deer was tired and was breathing very fast.\n\nAfter about ten minutes, the animal hid behind a big plant, near the pharmacy. The officer approached slowly and managed to catch it without hurting it. The customers, who had been holding their breath, applauded. Two children even wanted to stroke the animal, but the officer said no.\n\nThe deer was then taken by truck to a nature park, about twenty kilometres from the city. According to the officer, the animal was in good health. He explained that deer sometimes come into town in winter because they are looking for food.\n\nThe shopping centre reopened all its doors around noon, after a very hectic morning. 'It was the strangest sale morning of my life!' an employee said, laughing."
+    },
+    "checklist": [
+      { "en": "Does your text start exactly where the article stops?", "hi": "क्या आपका पाठ ठीक वहीं से शुरू होता है जहाँ लेख रुकता है?" },
+      { "en": "Passé composé for events, imparfait for descriptions?", "hi": "घटनाओं के लिए passé composé, वर्णन के लिए imparfait?" },
+      { "en": "Did you include a reported statement or a quote (with inversion: a déclaré…)?", "hi": "क्या आपने एक अप्रत्यक्ष कथन या उद्धरण शामिल किया (उलटे क्रम के साथ: a déclaré…)?" },
+      { "en": "Does the story have a clear ending, in a neutral journalistic tone?", "hi": "क्या कहानी का अंत साफ़ है, तटस्थ पत्रकारी लहजे में?" }
+    ]
+  },
+  "review": {
+    "fromDays": [69, 74, 76, 78],
+    "items": [
+      { "fr": "Il pleuvait, alors on est restés à la maison.", "en": "It was raining, so we stayed at home.", "hi": "बारिश हो रही थी, तो हम घर पर रहे।", "pron": "ईल प्लö-वै आ-लॉग़ ओँ नै ग़ैस-ते ज़ा ला मै-ज़ोँ" },
+      { "fr": "À cause du bruit, je n'ai pas dormi.", "en": "Because of the noise, I didn't sleep.", "hi": "शोर की वजह से मैं सो नहीं पाया।", "pron": "आ कोज़ दü ब्ग़üइ झ़ö ने पा दॉग़-मी" },
+      { "fr": "Par conséquent, la route a été fermée.", "en": "As a result, the road was closed.", "hi": "नतीजतन, सड़क बंद कर दी गई।", "pron": "पाग़ कोँ-से-काँ ला ग़ूत आ ए-ते फ़ैग़-मे" },
+      { "fr": "Ensuite, il est parti ; enfin, il a appelé.", "en": "Then he left; finally, he called.", "hi": "फिर वह चला गया; आख़िर में उसने फ़ोन किया।", "pron": "आँ-स्üइत ई-लै पाग़-ती आँ-फ़ैँ ई-ला आ-प्ले" },
+      { "fr": "Je suis surpris qu'il soit déjà là.", "en": "I'm surprised he's already here.", "hi": "मुझे हैरानी है कि वह पहले ही यहाँ है।", "pron": "झ़ö स्üई सüग़-प्ग़ी कील स्वा दे-झ़ा ला" },
+      { "fr": "Je crois que c'est vrai.", "en": "I believe it's true.", "hi": "मुझे लगता है कि यह सच है।", "pron": "झ़ö क्ग़्वा कö सै व्ग़ै" },
+      { "fr": "Il est important de vérifier ses détecteurs.", "en": "It's important to check your detectors.", "hi": "अपने डिटेक्टर जाँचना ज़रूरी है।", "pron": "ई-लै तैँ-पोग़-ताँ दö वे-ग़ी-फ़्ये से दे-तैक-तöग़" },
+      { "fr": "Grâce aux voisins, tout le monde est sorti.", "en": "Thanks to the neighbours, everyone got out.", "hi": "पड़ोसियों की बदौलत सब बाहर निकल आए।", "pron": "ग्ग़ास ओ व्वा-ज़ैँ तू लö मोँ ऐ सॉग़-ती" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Choose the correct tenses: 'I was sleeping when the alarm rang.'", "hi": "सही काल चुनिए: 'मैं सो रहा था जब अलार्म बजा।'" }, "options": ["J'ai dormi quand l'alarme sonnait.", "Je dormais quand l'alarme sonnait.", "Je dormais quand l'alarme a sonné.", "J'ai dormi quand l'alarme a sonné."], "answer": 2, "explanation": { "en": "Action in progress → imparfait; the interrupting event → passé composé.", "hi": "चल रही क्रिया → imparfait; बीच में आने वाली घटना → passé composé।" } },
+    { "type": "fill", "prompt": { "en": "Report the sentence « Je suis fatigué. » — He said he was tired.", "hi": "वाक्य « Je suis fatigué. » को अप्रत्यक्ष कथन में बदलिए — उसने कहा कि वह थका था।" }, "sentence": "Il a dit qu'il ___ fatigué.", "answer": "était", "accept": [], "explanation": { "en": "After il a dit que: present → imparfait (suis → était).", "hi": "il a dit que के बाद: वर्तमान → imparfait (suis → était)।" } },
+    { "type": "mcq", "prompt": { "en": "Choose the correct sentence.", "hi": "सही वाक्य चुनिए।" }, "options": ["L'accident s'est produit à midi.", "L'accident a produit à midi.", "L'accident s'a produit à midi.", "L'accident est produit à midi."], "answer": 0, "explanation": { "en": "Se produire is pronominal → être: s'est produit.", "hi": "se produire सर्वनामिक क्रिया है → être: s'est produit।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "Fortunately, nobody was injured.", "hi": "ख़ुशक़िस्मती से कोई घायल नहीं हुआ।" }, "answer": "Heureusement, personne n'a été blessé.", "accept": ["Heureusement, personne n'a été blessé", "Heureusement, il n'y a pas eu de blessés."], "explanation": { "en": "Personne + ne + verb; n'a été blessé.", "hi": "personne + ne + क्रिया; n'a été blessé।" } },
+    { "type": "mcq", "prompt": { "en": "« C'était terrible », ___ une voisine. Choose the correct order after a quote.", "hi": "« C'était terrible », ___ une voisine. उद्धरण के बाद सही क्रम चुनिए।", "fr": "« C'était terrible », ___ une voisine." }, "options": ["une voisine a raconté", "a raconté", "elle a raconté que", "raconte que"], "answer": 1, "explanation": { "en": "After a quote, the verb comes before the subject: « … », a raconté une voisine.", "hi": "उद्धरण के बाद क्रिया कर्ता से पहले आती है: « … », a raconté une voisine।" } },
+    { "type": "fill", "prompt": { "en": "Complete with the imparfait of faire: It was very cold.", "hi": "faire के imparfait से पूरा कीजिए: बहुत ठंड थी।" }, "sentence": "Il ___ très froid.", "answer": "faisait", "accept": [], "explanation": { "en": "Weather in the past = background → imparfait.", "hi": "भूतकाल का मौसम = पृष्ठभूमि → imparfait।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: The firefighters arrived a few minutes later.", "hi": "शब्दों को सही क्रम में रखिए: दमकलकर्मी कुछ मिनट बाद पहुँचे।" }, "words": ["arrivés", "pompiers", "Les", "minutes", "sont", "quelques", "tard.", "plus"], "answer": "Les pompiers sont arrivés quelques minutes plus tard.", "explanation": { "en": "arriver takes être; the participle agrees: arrivés.", "hi": "arriver être लेता है; past participle का मेल: arrivés।" } }
+  ]
+}

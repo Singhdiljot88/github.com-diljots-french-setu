@@ -1,0 +1,213 @@
+{
+  "day": 78,
+  "phase": 4,
+  "title": { "fr": "Cause et conséquence : les grands sujets de société", "en": "Cause and consequence; society topics", "hi": "कारण और परिणाम: समाज के बड़े विषय" },
+  "objective": {
+    "en": "Explain causes and consequences on environment and technology topics, using donc, alors, c'est pourquoi, par conséquent and si bien que, alongside the cause words parce que, comme, grâce à and à cause de.",
+    "hi": "पर्यावरण और तकनीक के विषयों पर कारण और परिणाम समझाना: donc, alors, c'est pourquoi, par conséquent और si bien que के साथ, और कारण बताने वाले parce que, comme, grâce à और à cause de के साथ।"
+  },
+  "prerequisites": {
+    "days": [62, 69, 74],
+    "summary": {
+      "en": "You can give reasons with parce que and car (Day 62), link ideas with connectors (69) and structure an opinion (74). Today: how to show the RESULT of a cause.",
+      "hi": "आप parce que और car से कारण दे सकते हैं (दिन 62), योजकों से विचार जोड़ सकते हैं (69) और राय को ढाँचे में रख सकते हैं (74)। आज: किसी कारण का नतीजा कैसे दिखाएँ।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "l'environnement", "en": "the environment", "hi": "पर्यावरण", "pron": "लाँ-वी-ग़ॉन-माँ", "ipa": "lɑ̃viʁɔnmɑ̃", "pos": "noun", "gender": "m", "lemma": "environnement" },
+    { "fr": "la pollution", "en": "pollution", "hi": "प्रदूषण", "pron": "ला पो-लü-स्योँ", "ipa": "la pɔlysjɔ̃", "pos": "noun", "gender": "f", "lemma": "pollution", "note": { "en": "Verb: polluer (to pollute).", "hi": "क्रिया: polluer (प्रदूषित करना)।" } },
+    { "fr": "les déchets", "en": "waste, rubbish", "hi": "कचरा", "pron": "ले दे-शै", "ipa": "le deʃɛ", "pos": "noun", "gender": "m", "lemma": "déchet" },
+    { "fr": "recycler", "en": "to recycle", "hi": "पुनर्चक्रण करना, रीसायकल करना", "pron": "ग़ö-सी-क्ले", "ipa": "ʁəsikle", "pos": "verb", "note": { "en": "le recyclage = recycling; le bac de recyclage = the recycling bin.", "hi": "le recyclage = पुनर्चक्रण; le bac de recyclage = रीसायकलिंग का डिब्बा।" } },
+    { "fr": "le réchauffement climatique", "en": "global warming", "hi": "जलवायु का गर्म होना", "pron": "लö ग़े-शोफ़-माँ क्ली-मा-तीक", "ipa": "lə ʁeʃofmɑ̃ klimatik", "pos": "noun", "gender": "m", "lemma": "réchauffement climatique" },
+    { "fr": "gaspiller", "en": "to waste", "hi": "बर्बाद करना", "pron": "गास-पी-ये", "ipa": "ɡaspije", "pos": "verb", "note": { "en": "le gaspillage = waste (of food, energy).", "hi": "le gaspillage = बर्बादी (खाने, ऊर्जा की)।" } },
+    { "fr": "réduire", "en": "to reduce", "hi": "कम करना", "pron": "ग़े-द्üइग़", "ipa": "ʁedɥiʁ", "pos": "verb", "note": { "en": "je réduis, nous réduisons; past participle: réduit.", "hi": "je réduis, nous réduisons; past participle: réduit।" } },
+    { "fr": "l'énergie renouvelable", "en": "renewable energy", "hi": "नवीकरणीय ऊर्जा", "pron": "ले-नैग़-झ़ी ग़ö-नू-व्लाब्ल", "ipa": "lenɛʁʒi ʁənuvlabl", "pos": "noun", "gender": "f", "lemma": "énergie renouvelable" },
+    { "fr": "un appareil", "en": "a device, an appliance", "hi": "उपकरण", "pron": "ऐँ ना-पा-ग़ैय", "ipa": "ɛ̃ napaʁɛj", "pos": "noun", "gender": "m", "lemma": "appareil" },
+    { "fr": "la consommation", "en": "consumption", "hi": "खपत", "pron": "ला कोँ-सो-मा-स्योँ", "ipa": "la kɔ̃sɔmasjɔ̃", "pos": "noun", "gender": "f", "lemma": "consommation" },
+    { "fr": "un emballage", "en": "packaging", "hi": "पैकिंग, पैकेजिंग", "pron": "ऐँ नाँ-बा-लाझ़", "ipa": "ɛ̃ nɑ̃balaʒ", "pos": "noun", "gender": "m", "lemma": "emballage" },
+    { "fr": "par conséquent", "en": "consequently, as a result", "hi": "नतीजतन, परिणामस्वरूप", "pron": "पाग़ कोँ-से-काँ", "ipa": "paʁ kɔ̃sekɑ̃", "pos": "phrase" },
+    { "fr": "si bien que", "en": "so that (with the result that)", "hi": "जिससे, यहाँ तक कि", "pron": "सी ब्यैँ कö", "ipa": "si bjɛ̃ kə", "pos": "conjunction", "note": { "en": "Shows a result, followed by the indicative.", "hi": "नतीजा दिखाता है, इसके बाद indicatif आता है।" } }
+  ],
+  "phrases": [
+    { "fr": "Il pleut, donc je prends le bus.", "en": "It's raining, so I'm taking the bus.", "hi": "बारिश हो रही है, इसलिए मैं बस ले रहा हूँ।", "pron": "ईल प्लö दोँक झ़ö प्ग़ाँ लö बüस" },
+    { "fr": "C'est pourquoi il faut recycler.", "en": "That's why we must recycle.", "hi": "इसीलिए रीसायकल करना ज़रूरी है।", "pron": "सै पूग़-क्वा ईल फ़ो ग़ö-सी-क्ले" },
+    { "fr": "Par conséquent, la pollution a diminué.", "en": "As a result, pollution has decreased.", "hi": "नतीजतन, प्रदूषण कम हुआ है।", "pron": "पाग़ कोँ-से-काँ ला पो-लü-स्योँ आ दी-मी-नüए" },
+    { "fr": "Grâce au vélo, je suis en forme.", "en": "Thanks to cycling, I'm in good shape.", "hi": "साइकिल की बदौलत मैं तंदुरुस्त हूँ।", "pron": "ग्ग़ास ओ वे-लो झ़ö स्üई ज़ाँ फ़ॉग़्म" },
+    { "fr": "À cause de la circulation, je suis en retard.", "en": "Because of the traffic, I'm late.", "hi": "ट्रैफ़िक की वजह से मुझे देर हो गई।", "pron": "आ कोज़ दö ला सीग़-कü-ला-स्योँ झ़ö स्üई ज़ाँ ग़ö-ताग़" },
+    { "fr": "Comme l'essence coûte cher, on partage la voiture.", "en": "As petrol is expensive, we share the car.", "hi": "चूँकि पेट्रोल महँगा है, हम गाड़ी साझा करते हैं।", "pron": "कॉम ले-साँस कूत शैग़ ओँ पाग़-ताझ़ ला व्वा-तüग़" },
+    { "fr": "Ça a des conséquences graves.", "en": "It has serious consequences.", "hi": "इसके गंभीर नतीजे होते हैं।", "pron": "सा आ दे कोँ-से-काँस ग्ग़ाव" }
+  ],
+  "grammar": {
+    "title": { "en": "Expressing consequence (and cause)", "hi": "परिणाम (और कारण) बताना" },
+    "explanation": {
+      "en": "CONSEQUENCE connectors, from informal to formal: alors (spoken: Il faisait froid, alors on est restés à la maison), donc (everywhere; often after the verb in the middle of a sentence: Il pleut, donc je reste. / Je pense, donc je suis), c'est pourquoi (starts a sentence or clause: Les bus sont pleins. C'est pourquoi la ville achète de nouveaux bus.), par conséquent (formal, writing and TEF: Par conséquent, la pollution augmente.), si bien que + indicative (formal, after a comma; it joins two clauses: Les règles changent d'une ville à l'autre, si bien que les gens sont perdus.). CAUSE words to combine with them: parce que (answers 'why?'), car (formal, never at the start), comme (at the START of a sentence: Comme il pleut, je prends le bus), grâce à + noun (positive cause: grâce au vélo), à cause de + noun (negative cause: à cause de la pollution). Remember à + le = au, de + le = du: grâce au soleil, à cause du bruit.",
+      "hi": "परिणाम बताने वाले योजक, अनौपचारिक से औपचारिक तक: alors (बोलचाल: Il faisait froid, alors on est restés à la maison), donc (हर जगह; अक्सर वाक्य के बीच क्रिया के बाद: Il pleut, donc je reste। / Je pense, donc je suis), c'est pourquoi (वाक्य या उपवाक्य की शुरुआत में: Les bus sont pleins। C'est pourquoi la ville achète de nouveaux bus।), par conséquent (औपचारिक, लेखन और TEF में: Par conséquent, la pollution augmente।), si bien que + indicatif (औपचारिक, अल्पविराम के बाद; दो उपवाक्यों को जोड़ता है: Les règles changent d'une ville à l'autre, si bien que les gens sont perdus।)। इनके साथ कारण बताने वाले शब्द: parce que ('क्यों?' का जवाब), car (औपचारिक, शुरुआत में कभी नहीं), comme (वाक्य की शुरुआत में: Comme il pleut, je prends le bus), grâce à + संज्ञा (अच्छा कारण: grâce au vélo), à cause de + संज्ञा (बुरा कारण: à cause de la pollution)। याद रखिए à + le = au, de + le = du: grâce au soleil, à cause du bruit।"
+    },
+    "comparison": {
+      "en": "Hindi: 'इसलिए' = donc / c'est pourquoi; 'नतीजतन' = par conséquent; 'जिससे' = si bien que; 'चूँकि' = comme; 'की बदौलत' = grâce à; 'की वजह से' = à cause de. Like Hindi की बदौलत (good) vs की वजह से (often bad), French separates grâce à and à cause de. English 'so that' can mean result OR purpose: French splits them. Result = si bien que + indicative; purpose = pour que + subjunctive (Day 75).",
+      "hi": "हिंदी: 'इसलिए' = donc / c'est pourquoi; 'नतीजतन' = par conséquent; 'जिससे' = si bien que; 'चूँकि' = comme; 'की बदौलत' = grâce à; 'की वजह से' = à cause de। जैसे हिंदी में 'की बदौलत' (अच्छा) और 'की वजह से' (अक्सर बुरा) अलग हैं, वैसे ही फ़्रेंच grâce à और à cause de को अलग रखती है। अंग्रेज़ी का 'so that' नतीजा भी हो सकता है और उद्देश्य भी: फ़्रेंच इन्हें अलग करती है। नतीजा = si bien que + indicatif; उद्देश्य = pour que + subjonctif (दिन 75)।"
+    },
+    "examples": [
+      { "fr": "Il faisait froid, alors on est restés à la maison.", "en": "It was cold, so we stayed at home.", "hi": "ठंड थी, तो हम घर पर ही रहे।", "pron": "ईल फ़ö-ज़ै फ़्ग़्वा आ-लॉग़ ओँ नै ग़ैस-ते ज़ा ला मै-ज़ोँ" },
+      { "fr": "Les bus sont pleins. C'est pourquoi la ville achète de nouveaux bus.", "en": "The buses are full. That's why the city is buying new buses.", "hi": "बसें भरी रहती हैं। इसीलिए शहर नई बसें ख़रीद रहा है।", "pron": "ले बüस सोँ प्लैँ सै पूग़-क्वा ला वील आ-शैत दö नू-वो बüस" },
+      { "fr": "Les gens gaspillent l'énergie, si bien que les factures augmentent.", "en": "People waste energy, with the result that bills go up.", "hi": "लोग ऊर्जा बर्बाद करते हैं, जिससे बिल बढ़ जाते हैं।", "pron": "ले झ़ाँ गास-पीय ले-नैग़-झ़ी सी ब्यैँ कö ले फ़ाक-तüग़ ओग-माँत" },
+      { "fr": "Grâce au recyclage, on réduit les déchets.", "en": "Thanks to recycling, we reduce waste.", "hi": "पुनर्चक्रण की बदौलत हम कचरा कम करते हैं।", "pron": "ग्ग़ास ओ ग़ö-सी-क्लाझ़ ओँ ग़े-द्üइ ले दे-शै" },
+      { "fr": "À cause du bruit, je dors mal.", "en": "Because of the noise, I sleep badly.", "hi": "शोर की वजह से मुझे ठीक से नींद नहीं आती।", "pron": "आ कोज़ दü ब्ग़üइ झ़ö दॉग़ माल" },
+      { "fr": "Les vols sont moins chers ; par conséquent, on voyage plus.", "en": "Flights are cheaper; as a result, people travel more.", "hi": "उड़ानें सस्ती हैं; नतीजतन लोग ज़्यादा यात्रा करते हैं।", "pron": "ले वॉल सोँ म्वैँ शैग़ पाग़ कोँ-से-काँ ओँ व्वा-याझ़ प्लüस" }
+    ],
+    "pitfalls": [
+      { "en": "Si bien que (result) + indicative ≠ pour que (purpose) + subjunctive: Il a crié, si bien que tout le monde a entendu / Il crie pour que tout le monde entende.", "hi": "si bien que (नतीजा) + indicatif ≠ pour que (उद्देश्य) + subjonctif: Il a crié, si bien que tout le monde a entendu (वह चिल्लाया, जिससे सबने सुन लिया) / Il crie pour que tout le monde entende (वह चिल्लाता है ताकि सब सुन सकें)।" },
+      { "en": "Grâce à is only for positive causes. Don't say 'grâce à la pollution' (unless you are being ironic).", "hi": "grâce à सिर्फ़ अच्छे कारणों के लिए है। 'grâce à la pollution' मत कहिए (जब तक व्यंग्य न हो)।" },
+      { "en": "Comme (cause) goes at the start of the sentence; parce que usually comes after the main clause.", "hi": "comme (कारण) वाक्य की शुरुआत में आता है; parce que आमतौर पर मुख्य उपवाक्य के बाद आता है।" },
+      { "en": "Don't chain 'donc… donc… donc…': vary with c'est pourquoi and par conséquent in writing.", "hi": "'donc… donc… donc…' की ज़ंजीर मत बनाइए: लेखन में c'est pourquoi और par conséquent से विविधता लाइए।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Pronunciation of -tion and -isme",
+    "tip": {
+      "en": "The ending -tion is pronounced [sjɔ̃], like 'syon' with a nasal on: pollution = po-lü-syon. The t sounds like s! Exception: after s, it's a real t: question [kɛstjɔ̃], suggestion. The ending -isme is [ism], with a clear s and m, no extra vowel at the end: tourisme = tou-rism (not 'tou-ris-meu'). Hindi speakers sometimes say 'ism' with a long ई: keep it short.",
+      "hi": "-tion का उच्चारण [sjɔ̃] है, 'स्योँ' जैसा, नासिक्य ओँ के साथ: pollution = पो-लü-स्योँ। यहाँ t की आवाज़ s जैसी है! अपवाद: s के बाद असली t होता है: question [kɛstjɔ̃], suggestion। -isme का उच्चारण [ism] है, साफ़ s और m के साथ, आख़िर में कोई अतिरिक्त स्वर नहीं: tourisme = तू-ग़ीस्म ('तू-ग़ीस-मö' नहीं)। हिंदी बोलने वाले कभी-कभी 'इज़्म' लंबी ई के साथ बोलते हैं: इसे छोटा रखिए।"
+    },
+    "words": [
+      { "fr": "la pollution", "en": "pollution", "hi": "प्रदूषण", "pron": "ला पो-लü-स्योँ", "ipa": "la pɔlysjɔ̃" },
+      { "fr": "la consommation", "en": "consumption", "hi": "खपत", "pron": "ला कोँ-सो-मा-स्योँ", "ipa": "la kɔ̃sɔmasjɔ̃" },
+      { "fr": "une question", "en": "a question", "hi": "सवाल", "pron": "üन कैस-त्योँ", "ipa": "yn kɛstjɔ̃", "note": { "en": "After s: a real t sound.", "hi": "s के बाद: असली t की आवाज़।" } },
+      { "fr": "le tourisme", "en": "tourism", "hi": "पर्यटन", "pron": "लö तू-ग़ीस्म", "ipa": "lə tuʁism" },
+      { "fr": "l'optimisme", "en": "optimism", "hi": "आशावाद", "pron": "लॉप-ती-मीस्म", "ipa": "lɔptimism" },
+      { "fr": "le réalisme", "en": "realism", "hi": "यथार्थवाद", "pron": "लö ग़े-आ-लीस्म", "ipa": "lə ʁealism" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Débat d'idées : le télétravail est-il écologique ?", "en": "Debate: is remote work green?" },
+    "type": "radio",
+    "mode": "natural",
+    "context": {
+      "en": "On an evening radio show, host Julie asks two guests whether working from home is good for the environment: Samir Lefebvre, from an environmental association, and Arjun Mehta, a computer engineer. Listen for causes and consequences.",
+      "hi": "शाम के एक रेडियो शो में होस्ट जूली दो मेहमानों से पूछती हैं कि क्या घर से काम करना पर्यावरण के लिए अच्छा है: एक पर्यावरण संस्था के समीर लेफ़ेव्र, और कंप्यूटर इंजीनियर अर्जुन मेहता। कारणों और परिणामों पर ध्यान दीजिए।"
+    },
+    "lines": [
+      { "speaker": "Julie", "voice": "f2", "fr": "Bonsoir et bienvenue dans « Débat d'idées ». Ce soir, une question simple : le télétravail est-il bon pour l'environnement ? Samir Lefebvre, de l'association Vert Demain, on commence avec vous.", "en": "Good evening and welcome to 'Debate of ideas'. Tonight, a simple question: is remote work good for the environment? Samir Lefebvre, from the association Vert Demain, let's start with you.", "hi": "नमस्कार और 'विचारों की बहस' में आपका स्वागत है। आज शाम एक सीधा सवाल: क्या घर से काम करना पर्यावरण के लिए अच्छा है? पर्यावरण संस्था (Vert Demain) के समीर लेफ़ेव्र, शुरुआत आपसे करते हैं।" },
+      { "speaker": "Samir", "voice": "m2", "fr": "Merci. Pour moi, la réponse est oui. Quand les gens travaillent à la maison, ils ne prennent pas leur voiture. Par conséquent, il y a moins d'embouteillages et moins de pollution.", "en": "Thank you. For me, the answer is yes. When people work at home, they don't take their car. As a result, there are fewer traffic jams and less pollution.", "hi": "धन्यवाद। मेरे लिए जवाब हाँ है। जब लोग घर से काम करते हैं, तो वे अपनी गाड़ी नहीं निकालते। नतीजतन, ट्रैफ़िक जाम कम होते हैं और प्रदूषण भी कम होता है।" },
+      { "speaker": "Julie", "voice": "f2", "fr": "Arjun Mehta, vous êtes ingénieur informatique. Vous êtes d'accord ?", "en": "Arjun Mehta, you're a computer engineer. Do you agree?", "hi": "अर्जुन मेहता, आप कंप्यूटर इंजीनियर हैं। क्या आप सहमत हैं?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "En partie. C'est vrai que les trajets diminuent. Mais il ne faut pas oublier le numérique. Les visioconférences consomment beaucoup d'électricité, parce que les données passent par d'énormes centres de données.", "en": "Partly. It's true that commuting decreases. But we mustn't forget digital technology. Video calls use a lot of electricity, because the data goes through huge data centres.", "hi": "आंशिक रूप से। यह सच है कि आना-जाना कम होता है। लेकिन डिजिटल दुनिया को नहीं भूलना चाहिए। वीडियो कॉल बहुत बिजली खाती हैं, क्योंकि डेटा विशाल डेटा केंद्रों से होकर जाता है।" },
+      { "speaker": "Samir", "voice": "m2", "fr": "Certes, mais une heure de visioconférence pollue beaucoup moins qu'une heure de voiture.", "en": "Admittedly, but an hour of video call pollutes much less than an hour of driving.", "hi": "माना, लेकिन एक घंटे की वीडियो कॉल एक घंटे गाड़ी चलाने से बहुत कम प्रदूषण करती है।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Je suis d'accord. Le problème, c'est plutôt le chauffage. En hiver, chaque employé chauffe sa maison toute la journée, si bien que la consommation d'énergie augmente.", "en": "I agree. The problem is more the heating. In winter, every employee heats their home all day, with the result that energy consumption goes up.", "hi": "मैं सहमत हूँ। समस्या असल में हीटिंग की है। सर्दियों में हर कर्मचारी पूरे दिन अपना घर गरम रखता है, जिससे ऊर्जा की खपत बढ़ जाती है।" },
+      { "speaker": "Julie", "voice": "f2", "fr": "Ah, c'est un argument intéressant. Donc le télétravail n'est pas toujours écologique ?", "en": "Ah, that's an interesting argument. So remote work isn't always green?", "hi": "अरे, यह दिलचस्प तर्क है। तो घर से काम करना हमेशा पर्यावरण के अनुकूल नहीं होता?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Exactement. Ça dépend de la saison et de la distance. Si vous habitez à deux kilomètres du bureau et que vous y allez à vélo, le télétravail ne change presque rien.", "en": "Exactly. It depends on the season and the distance. If you live two kilometres from the office and cycle there, remote work changes almost nothing.", "hi": "बिल्कुल। यह मौसम और दूरी पर निर्भर करता है। अगर आप दफ़्तर से दो किलोमीटर दूर रहते हैं और साइकिल से जाते हैं, तो घर से काम करने से लगभग कुछ नहीं बदलता।" },
+      { "speaker": "Samir", "voice": "m2", "fr": "C'est vrai. Mais au Canada, beaucoup de gens font plus de trente kilomètres par jour en voiture. C'est pourquoi le télétravail reste, à mon avis, une bonne solution.", "en": "That's true. But in Canada, many people drive more than thirty kilometres a day. That's why remote work is still, in my opinion, a good solution.", "hi": "सच है। लेकिन कनाडा में बहुत से लोग रोज़ तीस किलोमीटर से ज़्यादा गाड़ी चलाते हैं। इसीलिए मेरी राय में घर से काम करना अब भी अच्छा उपाय है।" },
+      { "speaker": "Julie", "voice": "f2", "fr": "Et les entreprises ? Elles ont moins besoin de grands bureaux…", "en": "And companies? They need big offices less…", "hi": "और कंपनियाँ? उन्हें बड़े दफ़्तरों की उतनी ज़रूरत नहीं रहती…" },
+      { "speaker": "Samir", "voice": "m2", "fr": "Justement ! Les bureaux sont souvent à moitié vides, alors on pourrait les transformer en logements.", "en": "Exactly! Offices are often half empty, so we could turn them into housing.", "hi": "बिल्कुल! दफ़्तर अक्सर आधे ख़ाली रहते हैं, तो उन्हें घरों में बदला जा सकता है।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Ça, c'est une excellente idée. Il y a une crise du logement, donc ce serait utile pour tout le monde.", "en": "Now that's an excellent idea. There's a housing crisis, so it would be useful for everyone.", "hi": "यह तो बेहतरीन विचार है। घरों का संकट है, इसलिए यह सबके काम आएगा।" },
+      { "speaker": "Julie", "voice": "f2", "fr": "Pour conclure, une recommandation chacun ?", "en": "To conclude, one recommendation each?", "hi": "निष्कर्ष के तौर पर, एक-एक सुझाव?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Éteignez votre caméra quand elle n'est pas nécessaire, et baissez le chauffage de deux degrés.", "en": "Turn off your camera when it isn't necessary, and lower the heating by two degrees.", "hi": "जब ज़रूरत न हो तो अपना कैमरा बंद कीजिए, और हीटिंग दो डिग्री कम कीजिए।" },
+      { "speaker": "Samir", "voice": "m2", "fr": "Et si vous allez au bureau, prenez le bus ou le vélo !", "en": "And if you go to the office, take the bus or your bike!", "hi": "और अगर आप दफ़्तर जाएँ, तो बस या साइकिल लीजिए!" },
+      { "speaker": "Julie", "voice": "f2", "fr": "Merci à vous deux. À la semaine prochaine !", "en": "Thank you both. See you next week!", "hi": "आप दोनों का धन्यवाद। अगले हफ़्ते मिलते हैं!" }
+    ],
+    "questions": [
+      { "q": { "en": "What is the topic of the debate?" }, "options": ["Whether remote work is good for the environment", "How to find housing in Montréal", "Whether cars should be banned", "The cost of electricity"], "answer": 0, "explanation": { "en": "Julie asks whether remote work is good for the environment.", "hi": "जूली पूछती हैं कि क्या घर से काम करना पर्यावरण के लिए अच्छा है।" }, "kind": "gist", "evidence": "le télétravail est-il bon pour l'environnement" },
+      { "q": { "en": "According to Samir, what is the consequence of people not using their car?" }, "options": ["More video calls", "Fewer traffic jams and less pollution", "Cheaper petrol", "More bikes in the city"], "answer": 1, "explanation": { "en": "As a result (par conséquent), fewer traffic jams and less pollution.", "hi": "नतीजतन (par conséquent), कम ट्रैफ़िक जाम और कम प्रदूषण।" }, "kind": "literal", "evidence": "Par conséquent, il y a moins d'embouteillages et moins de pollution." },
+      { "q": { "en": "Why do video calls use a lot of electricity, according to Arjun?" }, "options": ["Because cameras are old", "Because people talk for too long", "Because the data goes through huge data centres", "Because laptops are always charging"], "answer": 2, "explanation": { "en": "The data goes through huge data centres.", "hi": "डेटा विशाल डेटा केंद्रों से होकर जाता है।" }, "kind": "literal", "evidence": "les données passent par d'énormes centres de données" },
+      { "q": { "en": "What, for Arjun, is the main environmental problem of remote work?" }, "options": ["Video calls", "Buying new computers", "Noise at home", "Heating homes all day in winter"], "answer": 3, "explanation": { "en": "Each employee heats their home all day in winter, so energy consumption rises.", "hi": "सर्दियों में हर कर्मचारी पूरे दिन घर गरम रखता है, इसलिए ऊर्जा की खपत बढ़ती है।" }, "kind": "inference", "evidence": "chaque employé chauffe sa maison toute la journée" },
+      { "q": { "en": "What does Samir suggest doing with half-empty offices?" }, "options": ["Turning them into housing", "Selling them to the city", "Closing them in winter", "Using them as data centres"], "answer": 0, "explanation": { "en": "We could transform them into housing.", "hi": "उन्हें घरों में बदला जा सकता है।" }, "kind": "literal", "evidence": "on pourrait les transformer en logements" },
+      { "q": { "en": "What is one of Arjun's recommendations?" }, "options": ["Moving closer to the office", "Lowering the heating by two degrees", "Buying an electric car", "Working at the office every day"], "answer": 1, "explanation": { "en": "Turn off the camera when not needed and lower the heating by two degrees.", "hi": "ज़रूरत न हो तो कैमरा बंद कीजिए और हीटिंग दो डिग्री कम कीजिए।" }, "kind": "literal", "evidence": "baissez le chauffage de deux degrés" }
+    ],
+    "dictation": [
+      "Par conséquent, il y a moins de pollution.",
+      "Il y a une crise du logement, donc ce serait utile.",
+      "C'est pourquoi le télétravail reste une bonne solution."
+    ],
+    "gapFill": {
+      "text": "Ils ne prennent pas leur voiture. Par ___, il y a moins de pollution. Chaque employé chauffe sa maison, si ___ que la consommation d'énergie augmente.",
+      "answers": ["conséquent", "bien"]
+    }
+  },
+  "speaking": {
+    "type": "conversation",
+    "instructions": {
+      "en": "For each fact, explain a likely cause AND a consequence in two or three sentences. Use a different connector each time (donc, alors, c'est pourquoi, par conséquent, si bien que) and at least one grâce à or à cause de.",
+      "hi": "हर तथ्य के लिए दो-तीन वाक्यों में एक संभावित कारण और एक परिणाम समझाइए। हर बार अलग योजक इस्तेमाल कीजिए (donc, alors, c'est pourquoi, par conséquent, si bien que) और कम से कम एक बार grâce à या à cause de।"
+    },
+    "prompts": [
+      { "fr": "Les étés sont de plus en plus chauds.", "en": "Summers are getting hotter and hotter.", "hi": "गर्मियाँ और ज़्यादा गरम होती जा रही हैं।", "pron": "ले ज़े-ते सोँ दö प्लü ज़ाँ प्लü शो", "model": "À cause du réchauffement climatique, les étés sont plus chauds. Par conséquent, il y a plus de feux de forêt au Canada." },
+      { "fr": "Beaucoup de gens changent de téléphone tous les deux ans.", "en": "Many people change phones every two years.", "hi": "बहुत से लोग हर दो साल में फ़ोन बदल लेते हैं।", "pron": "बो-कू दö झ़ाँ शाँझ़ दö ते-ले-फ़ॉन तू ले दö ज़ाँ", "model": "Les téléphones deviennent lents, alors les gens en achètent un nouveau. C'est pourquoi il y a autant de déchets électroniques." },
+      { "fr": "Ma ville a créé des pistes cyclables.", "en": "My city has created cycle lanes.", "hi": "मेरे शहर ने साइकिल लेन बनाई हैं।", "pron": "मा वील आ क्ग़े-ए दे पीस्त सी-क्लाब्ल", "model": "Grâce aux pistes cyclables, plus de gens vont au travail à vélo, si bien que la circulation a diminué." },
+      { "fr": "On gaspille beaucoup de nourriture.", "en": "We waste a lot of food.", "hi": "हम बहुत खाना बर्बाद करते हैं।", "pron": "ओँ गास-पीय बो-कू दö नू-ग़ी-तüग़", "model": "On achète trop et on oublie ce qu'il y a dans le frigo. Donc il faut faire une liste avant les courses." },
+      { "fr": "Le covoiturage devient populaire.", "en": "Carpooling is becoming popular.", "hi": "कारपूलिंग लोकप्रिय हो रही है।", "pron": "लö को-व्वा-तü-ग़ाझ़ दö-व्यैँ पो-पü-लैग़", "model": "Comme l'essence coûte cher, les gens partagent leur voiture. Par conséquent, ils économisent de l'argent et polluent moins." }
+    ],
+    "tip": {
+      "en": "In TEF section B, a cause-and-consequence chain is a strong argument: 'Comme…, … . Par conséquent, … . C'est pourquoi je pense que…'. Three links are enough; then give an example.",
+      "hi": "TEF के सेक्शन B में कारण-परिणाम की कड़ी एक मज़बूत तर्क होती है: 'Comme…, … । Par conséquent, … । C'est pourquoi je pense que…'। तीन कड़ियाँ काफ़ी हैं; फिर एक उदाहरण दीजिए।"
+    }
+  },
+  "reading": {
+    "genre": "article",
+    "title": "Recyclage : pourquoi nos bacs bleus ne suffisent pas",
+    "text": "Au Canada, presque tout le monde a un bac de recyclage. Pourtant, une partie importante de ce que nous mettons dans le bac bleu n'est jamais recyclée. Pourquoi ?\n\nD'abord, les règles changent d'une ville à l'autre. Une ville accepte certains plastiques ; la ville voisine les refuse. Les citoyens sont donc souvent perdus, si bien qu'ils mettent n'importe quoi dans le bac « pour être sûrs ».\n\nEnsuite, beaucoup d'objets sont sales. Un pot de yogourt encore plein ou une boîte de pizza grasse peut contaminer tout un chargement de papier. Par conséquent, le centre de tri doit parfois envoyer des tonnes de matières au dépotoir.\n\nEnfin, certains produits sont très difficiles à recycler, comme les sacs en plastique souple ou les emballages faits de plusieurs matériaux. Les machines des centres de tri ne peuvent pas les séparer. C'est pourquoi plusieurs provinces demandent maintenant aux entreprises de payer pour le recyclage de leurs emballages.\n\nAlors, que faire ? Les spécialistes donnent trois conseils simples : vérifier les règles de sa ville, rincer rapidement les contenants et, surtout, acheter moins de produits emballés. Comme le dit une employée d'un centre de tri : « Le meilleur déchet, c'est celui qu'on ne produit pas. »\n\nLe recyclage reste utile, mais il ne règle pas tout. Réduire et réutiliser passent avant recycler.",
+    "translation": {
+      "en": "Recycling: why our blue bins are not enough\n\nIn Canada, almost everyone has a recycling bin. And yet a large part of what we put in the blue bin is never recycled. Why?\n\nFirst, the rules change from one town to another. One town accepts certain plastics; the neighbouring town refuses them. Citizens are therefore often confused, with the result that they put anything in the bin 'to be on the safe side'.\n\nNext, many items are dirty. A yogurt pot that is still full or a greasy pizza box can contaminate a whole load of paper. As a result, the sorting centre sometimes has to send tonnes of material to the dump.\n\nFinally, some products are very hard to recycle, such as soft plastic bags or packaging made of several materials. The machines in sorting centres can't separate them. That's why several provinces now ask companies to pay for the recycling of their packaging.\n\nSo what can we do? Specialists give three simple tips: check your town's rules, quickly rinse containers and, above all, buy fewer packaged products. As an employee at a sorting centre says: 'The best waste is the waste we don't produce.'\n\nRecycling is still useful, but it doesn't solve everything. Reducing and reusing come before recycling.",
+      "hi": "रीसायकलिंग: हमारे नीले डिब्बे क्यों काफ़ी नहीं हैं\n\nकनाडा में लगभग हर किसी के पास रीसायकलिंग का डिब्बा है। फिर भी नीले डिब्बे में हम जो डालते हैं, उसका एक बड़ा हिस्सा कभी रीसायकल नहीं होता। क्यों?\n\nपहले, नियम एक शहर से दूसरे शहर में बदल जाते हैं। एक शहर कुछ प्लास्टिक लेता है; पड़ोसी शहर उन्हें मना कर देता है। इसलिए नागरिक अक्सर उलझन में रहते हैं, जिससे वे 'पक्का करने के लिए' डिब्बे में कुछ भी डाल देते हैं।\n\nफिर, बहुत-सी चीज़ें गंदी होती हैं। अभी भी भरा हुआ दही का डिब्बा या चिकना पिज़्ज़ा बॉक्स काग़ज़ के पूरे ढेर को ख़राब कर सकता है। नतीजतन, छँटाई केंद्र को कभी-कभी टनों सामग्री कूड़े के ढेर में भेजनी पड़ती है।\n\nआख़िर में, कुछ चीज़ें रीसायकल करना बहुत मुश्किल होता है, जैसे नरम प्लास्टिक की थैलियाँ या कई सामग्रियों से बनी पैकिंग। छँटाई केंद्रों की मशीनें उन्हें अलग नहीं कर पातीं। इसीलिए कई प्रांत अब कंपनियों से अपनी पैकिंग की रीसायकलिंग का ख़र्च उठाने को कह रहे हैं।\n\nतो क्या करें? विशेषज्ञ तीन आसान सलाह देते हैं: अपने शहर के नियम जाँचिए, डिब्बों को जल्दी से धो लीजिए और, सबसे बढ़कर, पैक किया हुआ सामान कम ख़रीदिए। जैसा कि छँटाई केंद्र की एक कर्मचारी कहती हैं: 'सबसे अच्छा कचरा वह है जो हम पैदा ही नहीं करते।'\n\nरीसायकलिंग अब भी उपयोगी है, लेकिन यह सब कुछ हल नहीं करती। कम करना और दोबारा इस्तेमाल करना, रीसायकल करने से पहले आते हैं।"
+    },
+    "questions": [
+      { "q": { "en": "What problem does the article start with?" }, "options": ["Many Canadians have no recycling bin.", "Recycling bins are too small.", "Much of what goes in the blue bin is never recycled.", "Recycling is too expensive for towns."], "answer": 2, "explanation": { "en": "A large part of what we put in the blue bin is never recycled.", "hi": "नीले डिब्बे में डाली जाने वाली चीज़ों का बड़ा हिस्सा कभी रीसायकल नहीं होता।" }, "kind": "literal", "evidence": "une partie importante de ce que nous mettons dans le bac bleu n'est jamais recyclée" },
+      { "q": { "en": "What is the consequence of rules that differ between towns?" }, "options": ["People put anything in the bin.", "People stop recycling completely.", "Towns share their sorting centres.", "Companies pay more."], "answer": 0, "explanation": { "en": "Citizens are confused, so they put anything in the bin 'to be sure'.", "hi": "नागरिक उलझन में रहते हैं, इसलिए 'पक्का करने के लिए' कुछ भी डाल देते हैं।" }, "kind": "inference", "evidence": "si bien qu'ils mettent n'importe quoi dans le bac" },
+      { "q": { "en": "What can a greasy pizza box do?" }, "options": ["Block the machines", "Contaminate a whole load of paper", "Attract animals", "Be recycled twice"], "answer": 1, "explanation": { "en": "It can contaminate a whole load of paper.", "hi": "यह काग़ज़ के पूरे ढेर को ख़राब कर सकता है।" }, "kind": "literal", "evidence": "peut contaminer tout un chargement de papier" },
+      { "q": { "en": "Why do several provinces ask companies to pay?" }, "options": ["Because companies produce too much paper", "Because citizens refuse to pay taxes", "Because sorting centres are closing", "Because some packaging can't be separated by the machines"], "answer": 3, "explanation": { "en": "Soft plastics and mixed-material packaging can't be separated by sorting machines; c'est pourquoi provinces ask companies to pay.", "hi": "नरम प्लास्टिक और मिली-जुली सामग्री की पैकिंग मशीनें अलग नहीं कर पातीं; c'est pourquoi प्रांत कंपनियों से भुगतान माँगते हैं।" }, "kind": "inference", "evidence": "Les machines des centres de tri ne peuvent pas les séparer." },
+      { "q": { "en": "What does the sorting-centre employee's quote mean?" }, "options": ["Waste should be burned.", "Recycling solves every problem.", "The best solution is to produce less waste.", "Sorting centres need more workers."], "answer": 2, "explanation": { "en": "The best waste is the one we never produce: reduce first.", "hi": "सबसे अच्छा कचरा वह है जो हम पैदा ही न करें: पहले कम कीजिए।" }, "kind": "inference", "evidence": "Le meilleur déchet, c'est celui qu'on ne produit pas." }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "Write three paragraphs on electronic waste: 1) why we change our devices so often (causes); 2) the consequences for the environment; 3) what we should do. Use at least five different cause or consequence words.",
+      "hi": "इलेक्ट्रॉनिक कचरे पर तीन अनुच्छेद लिखिए: 1) हम अपने उपकरण इतनी जल्दी क्यों बदलते हैं (कारण); 2) पर्यावरण पर इसके नतीजे; 3) हमें क्या करना चाहिए। कारण या परिणाम बताने वाले कम से कम पाँच अलग शब्द इस्तेमाल कीजिए।",
+      "fr": "Les déchets électroniques : causes, conséquences, solutions."
+    },
+    "minWords": 140,
+    "maxWords": 210,
+    "hints": [
+      { "en": "Paragraph 1: three causes (D'abord… Ensuite… Enfin…) with parce que, comme or à cause de.", "hi": "अनुच्छेद 1: तीन कारण (D'abord… Ensuite… Enfin…), parce que, comme या à cause de के साथ।" },
+      { "en": "Paragraph 2: consequences with si bien que and par conséquent.", "hi": "अनुच्छेद 2: si bien que और par conséquent के साथ परिणाम।" },
+      { "en": "Paragraph 3: start with C'est pourquoi and use il faut / il est important de.", "hi": "अनुच्छेद 3: C'est pourquoi से शुरू कीजिए और il faut / il est important de इस्तेमाल कीजिए।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Cette habitude a des conséquences graves.", "en": "This habit has serious consequences.", "hi": "इस आदत के गंभीर नतीजे होते हैं।", "pron": "सैत आ-बी-तüद आ दे कोँ-से-काँस ग्ग़ाव" },
+      { "fr": "…, si bien que leur fabrication pollue beaucoup.", "en": "…, with the result that making them pollutes a lot.", "hi": "…, जिससे उन्हें बनाने में बहुत प्रदूषण होता है।", "pron": "सी ब्यैँ कö लöग़ फ़ा-ब्ग़ी-का-स्योँ पो-लü बो-कू" },
+      { "fr": "C'est pourquoi il faut changer nos habitudes.", "en": "That's why we must change our habits.", "hi": "इसीलिए हमें अपनी आदतें बदलनी होंगी।", "pron": "सै पूग़-क्वा ईल फ़ो शाँ-झ़े नो ज़ा-बी-तüद" },
+      { "fr": "faire réparer un appareil", "en": "to have a device repaired", "hi": "उपकरण की मरम्मत करवाना", "pron": "फ़ैग़ ग़े-पा-ग़े ऐँ ना-पा-ग़ैय" }
+    ],
+    "model": {
+      "fr": "Aujourd'hui, nous changeons de téléphone, d'ordinateur ou de tablette très souvent. Pourquoi ? D'abord, les appareils deviennent lents après quelques années, parce que les nouvelles applications demandent plus de puissance. Ensuite, la publicité nous pousse à acheter le dernier modèle. Enfin, comme une réparation coûte souvent presque aussi cher qu'un appareil neuf, beaucoup de gens préfèrent le remplacer.\n\nCette habitude a des conséquences graves. Les appareils contiennent des métaux rares, si bien que leur fabrication pollue beaucoup. De plus, une grande partie des vieux appareils finit au dépotoir ou dans un tiroir. Par conséquent, ces métaux sont perdus pour toujours.\n\nC'est pourquoi il faut changer nos habitudes. Il est important de garder son téléphone plus longtemps, de le faire réparer et de déposer les vieux appareils dans un point de collecte. Les gouvernements pourraient aussi obliger les entreprises à vendre des pièces de rechange pendant dix ans. Grâce à ces gestes simples, nous produirions beaucoup moins de déchets.",
+      "en": "Today we change our phone, computer or tablet very often. Why? First, devices become slow after a few years, because new apps need more power. Next, advertising pushes us to buy the latest model. Finally, as a repair often costs almost as much as a new device, many people prefer to replace it.\n\nThis habit has serious consequences. Devices contain rare metals, with the result that making them pollutes a lot. Moreover, a large share of old devices ends up at the dump or in a drawer. As a result, these metals are lost forever.\n\nThat's why we must change our habits. It's important to keep your phone longer, to have it repaired and to drop old devices off at a collection point. Governments could also force companies to sell spare parts for ten years. Thanks to these simple actions, we would produce much less waste."
+    },
+    "checklist": [
+      { "en": "Did you use at least five different cause or consequence words?", "hi": "क्या आपने कारण या परिणाम के कम से कम पाँच अलग शब्द इस्तेमाल किए?" },
+      { "en": "Did you use grâce à for a positive cause and à cause de for a negative one?", "hi": "क्या आपने अच्छे कारण के लिए grâce à और बुरे के लिए à cause de इस्तेमाल किया?" },
+      { "en": "After si bien que, did you use the indicative?", "hi": "क्या si bien que के बाद आपने indicatif इस्तेमाल किया?" },
+      { "en": "Does each paragraph have one clear role (causes / consequences / solutions)?", "hi": "क्या हर अनुच्छेद की एक साफ़ भूमिका है (कारण / परिणाम / समाधान)?" }
+    ]
+  },
+  "review": {
+    "fromDays": [62, 66, 69, 74, 75, 76],
+    "items": [
+      { "fr": "Je ne viens pas, car je suis malade.", "en": "I'm not coming, as I'm ill.", "hi": "मैं नहीं आ रहा, क्योंकि मैं बीमार हूँ।", "pron": "झ़ö नö व्यैँ पा काग़ झ़ö स्üई मा-लाद" },
+      { "fr": "Il habite loin ; cependant, il vient à pied.", "en": "He lives far away; however, he comes on foot.", "hi": "वह दूर रहता है; हालाँकि, वह पैदल आता है।", "pron": "ई-ला-बीत ल्वैँ सö-पाँ-दाँ ईल व्यैँ आ प्ये" },
+      { "fr": "Si on prenait le bus, on polluerait moins.", "en": "If we took the bus, we'd pollute less.", "hi": "अगर हम बस लेते, तो कम प्रदूषण करते।", "pron": "सी ओँ प्ग़ö-नै लö बüस ओँ पो-लü-ग़ै म्वैँ" },
+      { "fr": "Il est nécessaire de réduire nos déchets.", "en": "It's necessary to reduce our waste.", "hi": "हमारा कचरा कम करना आवश्यक है।", "pron": "ई-लै ने-से-सैग़ दö ग़े-द्üइग़ नो दे-शै" },
+      { "fr": "Il faut que chacun fasse un effort.", "en": "Everyone has to make an effort.", "hi": "हर किसी को कोशिश करनी होगी।", "pron": "ईल फ़ो कö शा-कैँ फ़ास ऐँ ने-फ़ॉग़" },
+      { "fr": "Je doute que ce soit suffisant.", "en": "I doubt it's enough.", "hi": "मुझे शक है कि यह काफ़ी हो।", "pron": "झ़ö दूत कö सö स्वा सü-फ़ी-ज़ाँ" },
+      { "fr": "Je pense que c'est une bonne solution.", "en": "I think it's a good solution.", "hi": "मुझे लगता है कि यह अच्छा उपाय है।", "pron": "झ़ö पाँस कö सै तüन बॉन सो-लü-स्योँ" },
+      { "fr": "D'une part, c'est utile ; d'autre part, c'est bon marché.", "en": "On the one hand it's useful; on the other, it's cheap.", "hi": "एक ओर यह काम का है; दूसरी ओर सस्ता है।", "pron": "दüन पाग़ सै तü-तील दोत्ग़ पाग़ सै बोँ माग़-शे" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Which connector is the most formal way to introduce a consequence in a written text?", "hi": "लिखित पाठ में परिणाम बताने का सबसे औपचारिक योजक कौन-सा है?" }, "options": ["alors", "bon", "par conséquent", "du coup"], "answer": 2, "explanation": { "en": "Par conséquent is formal; alors and du coup are spoken.", "hi": "par conséquent औपचारिक है; alors और du coup बोलचाल के हैं।" } },
+    { "type": "mcq", "prompt": { "en": "Choose the sentence that expresses a RESULT.", "hi": "वह वाक्य चुनिए जो नतीजा बताता है।" }, "options": ["Il parle fort pour que tout le monde entende.", "Il a parlé fort, si bien que tout le monde a entendu.", "Il parle fort parce qu'il est content.", "Comme il parle fort, il est fatigué."], "answer": 1, "explanation": { "en": "Si bien que + indicative = result. Pour que = purpose.", "hi": "si bien que + indicatif = नतीजा। pour que = उद्देश्य।" } },
+    { "type": "fill", "prompt": { "en": "Complete (neutral 'so'): It's raining, so I'm taking the bus.", "hi": "पूरा कीजिए (सामान्य 'इसलिए'): बारिश हो रही है, इसलिए मैं बस ले रहा हूँ।" }, "sentence": "Il pleut, ___ je prends le bus.", "answer": "donc", "accept": ["alors"], "explanation": { "en": "Donc (or spoken alors) introduces a consequence.", "hi": "donc (या बोलचाल में alors) परिणाम बताता है।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "That's why we must recycle.", "hi": "इसीलिए रीसायकल करना ज़रूरी है।" }, "answer": "C'est pourquoi il faut recycler.", "accept": ["C'est pourquoi il faut recycler", "C'est pour ça qu'il faut recycler."], "explanation": { "en": "C'est pourquoi + clause; il faut + infinitive.", "hi": "C'est pourquoi + उपवाक्य; il faut + infinitive।" } },
+    { "type": "mcq", "prompt": { "en": "Choose the correct option: ___ la pluie, le match est annulé.", "hi": "सही विकल्प चुनिए: ___ la pluie, le match est annulé.", "fr": "___ la pluie, le match est annulé." }, "options": ["À cause de", "Grâce à", "Donc", "Si bien que"], "answer": 0, "explanation": { "en": "A negative cause + noun → à cause de.", "hi": "बुरा कारण + संज्ञा → à cause de।" } },
+    { "type": "fill", "prompt": { "en": "Complete: Thanks to cycling, I'm in good shape.", "hi": "पूरा कीजिए: साइकिल की बदौलत मैं तंदुरुस्त हूँ।" }, "sentence": "Grâce ___ vélo, je suis en forme.", "answer": "au", "accept": [], "explanation": { "en": "grâce à + le vélo → grâce au vélo.", "hi": "grâce à + le vélo → grâce au vélo।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: As a result, pollution has decreased.", "hi": "शब्दों को सही क्रम में रखिए: नतीजतन, प्रदूषण कम हुआ है।" }, "words": ["a", "conséquent,", "pollution", "Par", "la", "diminué."], "answer": "Par conséquent, la pollution a diminué.", "explanation": { "en": "Connector first, then subject + passé composé.", "hi": "पहले योजक, फिर कर्ता + passé composé।" } }
+  ]
+}

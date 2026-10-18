@@ -1,0 +1,903 @@
+{
+  "day": 52,
+  "phase": 3,
+  "title": {
+    "fr": "Les pronoms COI : lui, leur, me, te, nous, vous",
+    "en": "Indirect object pronouns",
+    "hi": "अप्रत्यक्ष कर्म सर्वनाम (indirect object pronouns): lui, leur, me, te, nous, vous"
+  },
+  "objective": {
+    "en": "Say what you give, tell, send or explain to people using lui, leur, me, te, nous and vous with verbs that take à (parler à, téléphoner à, donner à, offrir à).",
+    "hi": "à लेने वाली क्रियाओं (parler à, téléphoner à, donner à, offrir à) के साथ lui, leur, me, te, nous और vous इस्तेमाल करके बताना कि आप लोगों को क्या देते, बताते, भेजते या समझाते हैं।"
+  },
+  "prerequisites": {
+    "days": [
+      16,
+      22,
+      32,
+      39,
+      41,
+      51
+    ],
+    "summary": {
+      "en": "You need à + le = au (Day 16), family (Day 22), modal verbs (Day 32), messages (Day 39), the passé composé (Day 41) and direct object pronouns (Day 51).",
+      "hi": "आपको à + le = au (दिन 16), परिवार (दिन 22), modal क्रियाएँ (दिन 32), संदेश (दिन 39), पासे कॉम्पोज़े (दिन 41) और प्रत्यक्ष कर्म सर्वनाम (दिन 51) याद होने चाहिए।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "le cadeau",
+      "en": "the present, the gift",
+      "hi": "तोहफ़ा",
+      "pron": "लö का-दो",
+      "ipa": "lə kado",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "cadeau",
+      "note": {
+        "en": "Plural with -x: des cadeaux.",
+        "hi": "बहुवचन -x के साथ: des cadeaux।"
+      }
+    },
+    {
+      "fr": "offrir",
+      "en": "to give (as a present), to offer",
+      "hi": "(तोहफ़े में) देना",
+      "pron": "ऑ-फ़्रीग़",
+      "ipa": "ɔfʁiʁ",
+      "pos": "verb",
+      "note": {
+        "en": "Present like an -er verb: j'offre, tu offres, il offre. Past participle: offert.",
+        "hi": "वर्तमान -er क्रिया की तरह: j'offre, tu offres, il offre। भूत कृदंत: offert।"
+      }
+    },
+    {
+      "fr": "prêter",
+      "en": "to lend",
+      "hi": "उधार देना",
+      "pron": "प्रै-ते",
+      "ipa": "pʁɛte",
+      "pos": "verb",
+      "note": {
+        "en": "prêter qch à qn = to lend something to someone. To borrow = emprunter.",
+        "hi": "prêter qch à qn = किसी को कुछ उधार देना। उधार लेना = emprunter।"
+      }
+    },
+    {
+      "fr": "envoyer",
+      "en": "to send",
+      "hi": "भेजना",
+      "pron": "आँ-व्वा-ये",
+      "ipa": "ɑ̃vwaje",
+      "pos": "verb",
+      "note": {
+        "en": "y → i before a silent ending: j'envoie, ils envoient; nous envoyons. Past: j'ai envoyé.",
+        "hi": "मूक अंत से पहले y → i: j'envoie, ils envoient; nous envoyons। भूतकाल: j'ai envoyé।"
+      }
+    },
+    {
+      "fr": "expliquer",
+      "en": "to explain",
+      "hi": "समझाना",
+      "pron": "ऐक्स-प्ली-के",
+      "ipa": "ɛksplike",
+      "pos": "verb"
+    },
+    {
+      "fr": "demander",
+      "en": "to ask",
+      "hi": "पूछना, माँगना",
+      "pron": "दö-माँ-दे",
+      "ipa": "dəmɑ̃de",
+      "pos": "verb",
+      "note": {
+        "en": "demander à qn = to ask someone: Je lui demande l'heure.",
+        "hi": "demander à qn = किसी से पूछना: Je lui demande l'heure (मैं उससे समय पूछता हूँ)।"
+      }
+    },
+    {
+      "fr": "conseiller",
+      "en": "to advise, to recommend",
+      "hi": "सलाह देना",
+      "pron": "कोँ-सै-ये",
+      "ipa": "kɔ̃sɛje",
+      "pos": "verb"
+    },
+    {
+      "fr": "le conseil",
+      "en": "the (piece of) advice",
+      "hi": "सलाह",
+      "pron": "लö कोँ-सैय",
+      "ipa": "lə kɔ̃sɛj",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "conseil",
+      "note": {
+        "en": "Countable in French: un conseil, des conseils.",
+        "hi": "फ़्रेंच में यह गिना जाता है: un conseil (एक सलाह), des conseils।"
+      }
+    },
+    {
+      "fr": "la carte-cadeau",
+      "en": "the gift card",
+      "hi": "गिफ़्ट कार्ड",
+      "pron": "ला काग़त-का-दो",
+      "ipa": "la kaʁt kado",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "carte-cadeau"
+    },
+    {
+      "fr": "le parfum",
+      "en": "the perfume",
+      "hi": "इत्र, परफ़्यूम",
+      "pron": "लö पाग़-फ़ैँ",
+      "ipa": "lə paʁfɛ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "parfum"
+    },
+    {
+      "fr": "le foulard",
+      "en": "the scarf (light)",
+      "hi": "दुपट्टा, स्कार्फ़",
+      "pron": "लö फ़ू-लाग़",
+      "ipa": "lə fulaʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "foulard",
+      "note": {
+        "en": "A warm winter scarf is une écharpe.",
+        "hi": "सर्दियों का गर्म मफ़लर une écharpe कहलाता है।"
+      }
+    },
+    {
+      "fr": "le bijou",
+      "en": "the piece of jewellery",
+      "hi": "गहना",
+      "pron": "लö बी-झ़ू",
+      "ipa": "lə biʒu",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "bijou",
+      "note": {
+        "en": "Irregular plural: des bijoux.",
+        "hi": "अनियमित बहुवचन: des bijoux।"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Qu'est-ce que je peux lui offrir ?",
+      "en": "What can I give him/her?",
+      "hi": "मैं उसे क्या तोहफ़ा दे सकता/सकती हूँ?",
+      "pron": "कैस-क झ़ö पö ल्üई ऑ-फ़्रीग़"
+    },
+    {
+      "fr": "Je leur téléphone tous les dimanches.",
+      "en": "I phone them every Sunday.",
+      "hi": "मैं उन्हें हर रविवार फ़ोन करता/करती हूँ।",
+      "pron": "झ़ö लöग़ ते-ले-फ़ॉन तू ले दी-माँश"
+    },
+    {
+      "fr": "Tu peux me prêter ton vélo ?",
+      "en": "Can you lend me your bike?",
+      "hi": "क्या तुम मुझे अपनी साइकिल उधार दे सकते हो?",
+      "pron": "तü पö मö प्रै-ते तोँ वे-लो"
+    },
+    {
+      "fr": "Je vous conseille ce restaurant.",
+      "en": "I recommend this restaurant to you.",
+      "hi": "मैं आपको यह रेस्टोरेंट सुझाता/सुझाती हूँ।",
+      "pron": "झ़ö वू कोँ-सैय सö ग़ैस-तो-ग़ाँ"
+    },
+    {
+      "fr": "Ça va lui plaire !",
+      "en": "He/She is going to like it!",
+      "hi": "उसे यह पसंद आएगा!",
+      "pron": "सा वा ल्üई प्लैग़",
+      "note": {
+        "en": "plaire à = to please: literally 'it will please him/her'.",
+        "hi": "plaire à = पसंद आना: शब्दशः 'यह उसे भाएगा'।"
+      }
+    },
+    {
+      "fr": "Je t'envoie un message ce soir.",
+      "en": "I'll send you a message tonight.",
+      "hi": "मैं तुम्हें आज शाम मैसेज भेजता/भेजती हूँ।",
+      "pron": "झ़ö ताँ-व्वा ऐँ मे-साझ़ सö स्वाग़"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "lui, leur and me, te, nous, vous (à + person)",
+      "hi": "lui, leur और me, te, nous, vous (à + व्यक्ति)"
+    },
+    "explanation": {
+      "en": "An indirect object is a person introduced by à: Je parle à ma mère. Replace it with lui (to him OR to her) or leur (to them): Je lui parle. Je leur parle. For me, you and us, the pronouns are me (m'), te (t'), nous, vous — the same as direct pronouns. Common verbs with à + person: parler à, téléphoner à, écrire à, répondre à, demander à, dire à, donner qch à, offrir qch à, envoyer qch à, prêter qch à, expliquer qch à, conseiller à, plaire à. Position: exactly like le/la/les — before the verb (Je lui donne), before avoir (Je lui ai donné — no agreement), before an infinitive (Je vais lui donner).",
+      "hi": "अप्रत्यक्ष कर्म (indirect object) वह व्यक्ति है जो à के साथ आता है: Je parle à ma mère (मैं माँ से बात करता हूँ)। उसकी जगह lui (उसे/उससे — पुरुष या महिला दोनों) या leur (उन्हें/उनसे) लगाइए: Je lui parle। Je leur parle। मुझे, तुम्हें और हमें के लिए सर्वनाम हैं me (m'), te (t'), nous, vous — प्रत्यक्ष सर्वनाम जैसे ही। à + व्यक्ति वाली आम क्रियाएँ: parler à, téléphoner à, écrire à, répondre à, demander à, dire à, donner qch à, offrir qch à, envoyer qch à, prêter qch à, expliquer qch à, conseiller à, plaire à। जगह: बिल्कुल le/la/les की तरह — क्रिया से पहले (Je lui donne), avoir से पहले (Je lui ai donné — कोई मेल नहीं), मूल क्रिया से पहले (Je vais lui donner)।"
+    },
+    "comparison": {
+      "en": "Hindi को is a useful clue: 'मैं माँ को फ़ोन करता हूँ' → je téléphone à ma mère → je lui téléphone; 'मैंने उसे तोहफ़ा दिया' → je lui ai offert un cadeau. But Hindi also uses को / उसे with verbs that are direct in French: 'मैं उसे देखता हूँ' = je le vois, 'मैं उसको बुलाता हूँ' = je l'appelle, 'मैं उसकी मदद करता हूँ' = je l'aide. So check the French verb, not the Hindi. Also: lui has no gender, like Hindi उसे; le/la do.",
+      "hi": "हिंदी का 'को' अच्छा संकेत है: 'मैं माँ को फ़ोन करता हूँ' → je téléphone à ma mère → je lui téléphone; 'मैंने उसे तोहफ़ा दिया' → je lui ai offert un cadeau। पर हिंदी उन क्रियाओं के साथ भी को / उसे लगाती है जो फ़्रेंच में प्रत्यक्ष हैं: 'मैं उसे देखता हूँ' = je le vois, 'मैं उसको बुलाता हूँ' = je l'appelle, 'मैं उसकी मदद करता हूँ' = je l'aide। इसलिए हिंदी नहीं, फ़्रेंच क्रिया देखिए। साथ ही: lui लिंग नहीं बताता, हिंदी 'उसे' की तरह; le/la बताते हैं।"
+    },
+    "examples": [
+      {
+        "fr": "Ma sœur ? Je lui écris une carte.",
+        "en": "My sister? I'm writing her a card.",
+        "hi": "मेरी बहन? मैं उसे एक कार्ड लिख रहा/रही हूँ।",
+        "pron": "मा सöग़ — झ़ö ल्üई ए-क्री üन काग़त"
+      },
+      {
+        "fr": "Mes parents ? Je leur ai envoyé des photos.",
+        "en": "My parents? I sent them some photos.",
+        "hi": "मेरे माता-पिता? मैंने उन्हें कुछ तस्वीरें भेजीं।",
+        "pron": "मे पा-ग़ाँ — झ़ö लöग़ ए आँ-व्वा-ये दे फ़ो-तो"
+      },
+      {
+        "fr": "Le professeur nous explique la règle.",
+        "en": "The teacher explains the rule to us.",
+        "hi": "शिक्षक हमें नियम समझाते हैं।",
+        "pron": "लö प्रो-फ़ै-सöग़ नू ज़ैक्स-प्लीक ला ग़ैग्ल"
+      },
+      {
+        "fr": "Tu me prêtes ton stylo ?",
+        "en": "Will you lend me your pen?",
+        "hi": "मुझे अपना पेन दोगे?",
+        "pron": "तü मö प्रैत तोँ स्ती-लो"
+      },
+      {
+        "fr": "Je ne vais pas lui dire la surprise.",
+        "en": "I'm not going to tell him/her the surprise.",
+        "hi": "मैं उसे सरप्राइज़ नहीं बताने वाला/वाली।",
+        "pron": "झ़ö नö वै पा ल्üई दीग़ ला सüग़-प्रीज़"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "The pronoun leur never takes -s: je leur donne. (The possessive 'leurs' can: leurs enfants.)",
+        "hi": "सर्वनाम leur में कभी -s नहीं लगता: je leur donne। (संबंधवाचक 'leurs' में लग सकता है: leurs enfants।)"
+      },
+      {
+        "en": "lui means 'to him' AND 'to her': Je lui parle can be about Ravi or Priya.",
+        "hi": "lui का मतलब 'उसे (पुरुष)' भी है और 'उसे (महिला)' भी: Je lui parle रवि के बारे में भी हो सकता है और प्रिया के बारे में भी।"
+      },
+      {
+        "en": "Verbs like aider, appeler, inviter, voir, attendre take a direct object in French: je l'aide (not 'je lui aide').",
+        "hi": "aider, appeler, inviter, voir, attendre जैसी क्रियाएँ फ़्रेंच में प्रत्यक्ष कर्म लेती हैं: je l'aide ('je lui aide' नहीं)।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "/ɥ/ in lui, huit, nuit",
+    "tip": {
+      "en": "/ɥ/ is a quick ü gliding into ई: say ü very short, then ई. lui = ल्üई, not लुई (that would be Louis). Keep the lips rounded at the start.",
+      "hi": "/ɥ/ एक तेज़ ü है जो ई में फिसलता है: ü को बहुत छोटा बोलिए, फिर ई। lui = ल्üई, लुई नहीं (वह तो 'Louis' नाम होगा)। शुरुआत में होंठ गोल रखिए।"
+    },
+    "words": [
+      {
+        "fr": "lui",
+        "en": "to him / to her",
+        "hi": "उसे / उससे",
+        "pron": "ल्üई",
+        "ipa": "lɥi"
+      },
+      {
+        "fr": "huit",
+        "en": "eight",
+        "hi": "आठ",
+        "pron": "üईत",
+        "ipa": "ɥit"
+      },
+      {
+        "fr": "la nuit",
+        "en": "the night",
+        "hi": "रात",
+        "pron": "ला न्üई",
+        "ipa": "la nɥi"
+      },
+      {
+        "fr": "je suis",
+        "en": "I am",
+        "hi": "मैं हूँ",
+        "pron": "झ़ö स्üई",
+        "ipa": "ʒə sɥi"
+      },
+      {
+        "fr": "ensuite",
+        "en": "then, next",
+        "hi": "उसके बाद",
+        "pron": "आँ-स्üइत",
+        "ipa": "ɑ̃sɥit"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Les cadeaux de Diwali",
+      "en": "Diwali presents"
+    },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "In Mississauga, Kiran and her brother Dev plan Diwali presents for their family, in Canada and in India.",
+      "hi": "मिसिसॉगा में किरन और उसका भाई देव कनाडा और भारत में रहने वाले अपने परिवार के लिए दिवाली के तोहफ़ों की योजना बना रहे हैं।"
+    },
+    "lines": [
+      {
+        "speaker": "Kiran",
+        "voice": "f1",
+        "fr": "Dev, Diwali, c'est dans deux semaines ! Qu'est-ce qu'on offre à papa et maman ?",
+        "en": "Dev, Diwali is in two weeks! What shall we give Dad and Mum?",
+        "hi": "देव, दिवाली दो हफ़्ते में है! मम्मी-पापा को क्या दें?"
+      },
+      {
+        "speaker": "Dev",
+        "voice": "m2",
+        "fr": "Pour maman, un foulard en soie. On lui offre un foulard chaque année, mais elle adore ça.",
+        "en": "For Mum, a silk scarf. We give her a scarf every year, but she loves it.",
+        "hi": "मम्मी के लिए रेशमी दुपट्टा। हम हर साल उन्हें दुपट्टा देते हैं, पर उन्हें बहुत पसंद है।"
+      },
+      {
+        "speaker": "Kiran",
+        "voice": "f1",
+        "fr": "D'accord. Et papa ? L'année dernière, on lui a donné une montre.",
+        "en": "OK. And Dad? Last year we gave him a watch.",
+        "hi": "ठीक है। और पापा? पिछले साल हमने उन्हें घड़ी दी थी।"
+      },
+      {
+        "speaker": "Dev",
+        "voice": "m2",
+        "fr": "Papa veut apprendre le français, comme nous. On peut lui acheter des livres faciles en français.",
+        "en": "Dad wants to learn French, like us. We can buy him some easy books in French.",
+        "hi": "पापा हमारी तरह फ़्रेंच सीखना चाहते हैं। हम उनके लिए फ़्रेंच की आसान किताबें ख़रीद सकते हैं।"
+      },
+      {
+        "speaker": "Kiran",
+        "voice": "f1",
+        "fr": "Bonne idée ! Je lui explique toujours les mots difficiles, mais il oublie tout. Avec des livres, il pourra pratiquer seul.",
+        "en": "Good idea! I always explain the difficult words to him, but he forgets everything. With books he'll be able to practise alone.",
+        "hi": "अच्छा विचार! मैं उन्हें हमेशा मुश्किल शब्द समझाती हूँ, पर वह सब भूल जाते हैं। किताबों से वह अकेले अभ्यास कर पाएँगे।"
+      },
+      {
+        "speaker": "Dev",
+        "voice": "m2",
+        "fr": "Et grand-mère, en Inde ? On lui envoie un colis ?",
+        "en": "And Grandma, in India? Shall we send her a parcel?",
+        "hi": "और दादी, भारत में? उन्हें पार्सल भेजें?"
+      },
+      {
+        "speaker": "Kiran",
+        "voice": "f1",
+        "fr": "Non, c'est trop cher, et ça prend un mois. On lui téléphone en vidéo le jour de Diwali, et on lui envoie de l'argent pour les sucreries.",
+        "en": "No, it's too expensive, and it takes a month. We'll video-call her on Diwali day, and send her money for sweets.",
+        "hi": "नहीं, बहुत महँगा है, और एक महीना लगता है। दिवाली के दिन हम उन्हें वीडियो कॉल करेंगे, और मिठाइयों के लिए पैसे भेजेंगे।"
+      },
+      {
+        "speaker": "Dev",
+        "voice": "m2",
+        "fr": "Parfait. Et les enfants de nos cousins, à Brampton ?",
+        "en": "Perfect. And our cousins' children, in Brampton?",
+        "hi": "बढ़िया। और ब्रैम्पटन में हमारे कज़िन्स के बच्चे?"
+      },
+      {
+        "speaker": "Kiran",
+        "voice": "f1",
+        "fr": "On leur donne des cartes-cadeaux. Ils choisiront eux-mêmes.",
+        "en": "We'll give them gift cards. They'll choose for themselves.",
+        "hi": "उन्हें गिफ़्ट कार्ड दे देते हैं। वे ख़ुद चुन लेंगे।"
+      },
+      {
+        "speaker": "Dev",
+        "voice": "m2",
+        "fr": "Oui, ils nous ont dit l'année dernière : « On préfère les cartes-cadeaux ! »",
+        "en": "Yes, they told us last year: 'We prefer gift cards!'",
+        "hi": "हाँ, पिछले साल उन्होंने हमसे कहा था: 'हमें गिफ़्ट कार्ड ज़्यादा पसंद हैं!'"
+      },
+      {
+        "speaker": "Kiran",
+        "voice": "f1",
+        "fr": "Et toi, Dev, qu'est-ce que je t'offre ?",
+        "en": "And you, Dev, what shall I give you?",
+        "hi": "और तुम, देव, तुम्हें क्या दूँ?"
+      },
+      {
+        "speaker": "Dev",
+        "voice": "m2",
+        "fr": "Moi ? Rien ! Tu peux juste me prêter ta voiture samedi. Ça suffit !",
+        "en": "Me? Nothing! You can just lend me your car on Saturday. That's enough!",
+        "hi": "मुझे? कुछ नहीं! बस शनिवार को अपनी गाड़ी उधार दे देना। इतना काफ़ी है!"
+      },
+      {
+        "speaker": "Kiran",
+        "voice": "f1",
+        "fr": "Ha ha ! D'accord, mais tu fais le plein d'essence !",
+        "en": "Ha ha! OK, but you fill up the tank!",
+        "hi": "हा हा! ठीक है, पर पेट्रोल की टंकी तुम भरवाओगे!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "What will they give their mother?"
+        },
+        "options": [
+          "A watch",
+          "French books",
+          "Perfume",
+          "A silk scarf"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Pour maman, un foulard en soie.'",
+          "hi": "'Pour maman, un foulard en soie.' (मम्मी के लिए रेशमी दुपट्टा।)"
+        },
+        "kind": "literal",
+        "evidence": "Pour maman, un foulard en soie."
+      },
+      {
+        "q": {
+          "en": "Why are books a good present for their father?"
+        },
+        "options": [
+          "He loves reading novels",
+          "He can practise French alone",
+          "He asked for books"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "He forgets the words Kiran explains; with books he'll practise on his own.",
+          "hi": "किरन जो शब्द समझाती है, वह भूल जाते हैं; किताबों से वह अपने-आप अभ्यास करेंगे।"
+        },
+        "kind": "inference",
+        "evidence": "Avec des livres, il pourra pratiquer seul."
+      },
+      {
+        "q": {
+          "en": "Why won't they send a parcel to their grandmother?"
+        },
+        "options": [
+          "It's too expensive and too slow",
+          "She doesn't like presents",
+          "She is coming to Canada"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'c'est trop cher, et ça prend un mois'.",
+          "hi": "'c'est trop cher, et ça prend un mois' (बहुत महँगा है और एक महीना लगता है)।"
+        },
+        "kind": "literal",
+        "evidence": "c'est trop cher, et ça prend un mois"
+      },
+      {
+        "q": {
+          "en": "In 'On leur donne des cartes-cadeaux', who is 'leur'?"
+        },
+        "options": [
+          "The parents",
+          "The grandmother",
+          "The cousins' children"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "Dev has just mentioned 'les enfants de nos cousins'.",
+          "hi": "देव ने अभी 'les enfants de nos cousins' (हमारे कज़िन्स के बच्चे) का ज़िक्र किया है।"
+        },
+        "kind": "grammar",
+        "evidence": "On leur donne des cartes-cadeaux."
+      },
+      {
+        "q": {
+          "en": "What does Dev want from Kiran?"
+        },
+        "options": [
+          "Money for sweets",
+          "A gift card",
+          "To borrow her car on Saturday"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Tu peux juste me prêter ta voiture samedi.'",
+          "hi": "'Tu peux juste me prêter ta voiture samedi.' (बस शनिवार को अपनी गाड़ी उधार दे देना।)"
+        },
+        "kind": "literal",
+        "evidence": "Tu peux juste me prêter ta voiture samedi."
+      }
+    ],
+    "dictation": [
+      "On lui offre un foulard.",
+      "Je lui explique les mots difficiles.",
+      "On leur donne des cartes-cadeaux."
+    ],
+    "gapFill": {
+      "text": "L'année dernière, on ___ a donné une montre. On ___ donne des cartes-cadeaux. Tu peux ___ prêter ta voiture ?",
+      "answers": [
+        "lui",
+        "leur",
+        "me"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "conversation",
+    "instructions": {
+      "en": "Answer each question about the people in your life with lui, leur, me or vous. Then say what presents you will give three people for the next festival or birthday.",
+      "hi": "अपनी ज़िंदगी के लोगों के बारे में हर प्रश्न का जवाब lui, leur, me या vous से दीजिए। फिर बताइए कि अगले त्योहार या जन्मदिन पर आप तीन लोगों को क्या तोहफ़े देंगे।"
+    },
+    "prompts": [
+      {
+        "fr": "Vous téléphonez souvent à vos parents ?",
+        "en": "Do you often phone your parents?",
+        "hi": "क्या आप अक्सर अपने माता-पिता को फ़ोन करते हैं?",
+        "pron": "वू ते-ले-फ़ॉन सू-वाँ आ वो पा-ग़ाँ",
+        "model": "Oui, je leur téléphone tous les dimanches."
+      },
+      {
+        "fr": "Qu'est-ce que vous avez offert à votre meilleur(e) ami(e) ?",
+        "en": "What did you give your best friend?",
+        "hi": "आपने अपने सबसे अच्छे दोस्त को क्या तोहफ़ा दिया?",
+        "pron": "कैस-क वू ज़ा-वे ज़ॉ-फ़ैग़ आ वॉत्ग़ मै-यö-ग़ा-मी",
+        "model": "Je lui ai offert un livre de cuisine."
+      },
+      {
+        "fr": "Vous écrivez à votre professeur en français ?",
+        "en": "Do you write to your teacher in French?",
+        "hi": "क्या आप अपने शिक्षक को फ़्रेंच में लिखते हैं?",
+        "pron": "वू ज़े-क्री-वे आ वॉत्ग़ प्रो-फ़ै-सöग़ आँ फ़्राँ-सै",
+        "model": "Oui, je lui écris des courriels en français."
+      },
+      {
+        "fr": "Qu'est-ce que vous prêtez à vos amis ?",
+        "en": "What do you lend your friends?",
+        "hi": "आप अपने दोस्तों को क्या उधार देते हैं?",
+        "pron": "कैस-क वू प्रै-ते आ वो ज़ा-मी",
+        "model": "Je leur prête des livres, mais jamais ma voiture !"
+      },
+      {
+        "fr": "Qu'est-ce que vous allez offrir à votre mère pour son anniversaire ?",
+        "en": "What are you going to give your mother for her birthday?",
+        "hi": "आप अपनी माँ को उनके जन्मदिन पर क्या देने वाले हैं?",
+        "pron": "कैस-क वू ज़ा-ले ऑ-फ़्रीग़ आ वॉत्ग़ मैग़ पूग़ सोँ ना-नी-वैग़-सैग़",
+        "model": "Je vais lui offrir un bijou en argent."
+      }
+    ],
+    "tip": {
+      "en": "Before answering, ask: is there 'à' + a person in the question? Then use lui (one person) or leur (several). No à → le/la/les.",
+      "hi": "जवाब देने से पहले पूछिए: क्या प्रश्न में 'à' + व्यक्ति है? तो lui (एक व्यक्ति) या leur (कई)। à नहीं → le/la/les।"
+    }
+  },
+  "reading": {
+    "genre": "letter",
+    "title": "Le courrier de Madame Conseil",
+    "text": "Chère Madame Conseil,\n\nJe suis arrivée à Québec il y a un an avec mes deux enfants. Mes voisins, monsieur et madame Roy, m'ont beaucoup aidée : ils m'ont prêté des bottes d'hiver, ils m'ont expliqué le système des poubelles et ils gardent parfois mes enfants. Je voudrais leur dire merci, mais je ne sais pas comment. Est-ce que je peux leur offrir de l'argent ?\n\nSunita\n\n—\n\nChère Sunita,\n\nNon, il ne faut pas leur offrir d'argent ! Ici, c'est un peu gênant. Je vous conseille plutôt un cadeau personnel. Vous pouvez leur préparer un bon repas indien et les inviter chez vous. Vous pouvez aussi leur écrire une petite carte, en français bien sûr : ils seront touchés.\n\nEt si madame Roy aime les plantes, vous pouvez lui offrir une jolie plante pour son balcon.\n\nEnfin, le meilleur cadeau, c'est souvent le temps : vous pouvez leur proposer votre aide à votre tour, par exemple pour déneiger leur entrée !\n\nBonne chance,\nMadame Conseil",
+    "translation": {
+      "en": "Dear Madame Conseil,\n\nI arrived in Québec City a year ago with my two children. My neighbours, Mr and Mrs Roy, have helped me a lot: they lent me winter boots, they explained the garbage system to me, and they sometimes look after my children. I would like to say thank you to them, but I don't know how. Can I give them money?\n\nSunita\n\n—\n\nDear Sunita,\n\nNo, you shouldn't give them money! Here, it's a little embarrassing. I'd advise you to give a personal present instead. You can cook them a nice Indian meal and invite them to your home. You can also write them a little card — in French, of course: they'll be touched.\n\nAnd if Mrs Roy likes plants, you can give her a pretty plant for her balcony.\n\nFinally, the best present is often time: you can offer them your help in return, for example to clear the snow from their driveway!\n\nGood luck,\nMadame Conseil",
+      "hi": "आदरणीय मदाम कोंसैय,\n\nमैं एक साल पहले अपने दो बच्चों के साथ क्यूबेक शहर आई। मेरे पड़ोसी, श्री और श्रीमती रॉय, ने मेरी बहुत मदद की है: उन्होंने मुझे सर्दियों के जूते उधार दिए, कूड़े की व्यवस्था समझाई, और कभी-कभी मेरे बच्चों को सँभालते हैं। मैं उन्हें धन्यवाद कहना चाहती हूँ, पर समझ नहीं आता कैसे। क्या मैं उन्हें पैसे दे सकती हूँ?\n\nसुनीता\n\n—\n\nप्रिय सुनीता,\n\nनहीं, उन्हें पैसे नहीं देने चाहिए! यहाँ यह थोड़ा अटपटा लगता है। मेरी सलाह है कि इसकी जगह कोई निजी तोहफ़ा दीजिए। आप उनके लिए अच्छा-सा भारतीय खाना बनाकर उन्हें घर बुला सकती हैं। आप उन्हें एक छोटा-सा कार्ड भी लिख सकती हैं — फ़्रेंच में, बेशक: उन्हें बहुत अच्छा लगेगा।\n\nऔर अगर श्रीमती रॉय को पौधे पसंद हैं, तो आप उन्हें बालकनी के लिए एक सुंदर पौधा दे सकती हैं।\n\nआख़िर में, सबसे अच्छा तोहफ़ा अक्सर समय होता है: बदले में आप उन्हें अपनी मदद दे सकती हैं, जैसे उनके घर के रास्ते से बर्फ़ हटाना!\n\nशुभकामनाएँ,\nमदाम कोंसैय"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "Which of these did the neighbours NOT do for Sunita?"
+        },
+        "options": [
+          "Lend her winter boots",
+          "Explain the garbage system",
+          "Give her money",
+          "Look after her children"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "They lent boots, explained the bins and babysit; money is what Sunita wants to give them.",
+          "hi": "उन्होंने जूते उधार दिए, कूड़े की व्यवस्था समझाई और बच्चे सँभाले; पैसे तो सुनीता उन्हें देना चाहती है।"
+        },
+        "kind": "literal",
+        "evidence": "ils m'ont prêté des bottes d'hiver, ils m'ont expliqué le système des poubelles et ils gardent parfois mes enfants"
+      },
+      {
+        "q": {
+          "en": "What does Madame Conseil think about giving money?"
+        },
+        "options": [
+          "It's a good, practical idea",
+          "It would be a bit embarrassing",
+          "Only a small amount is fine"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'il ne faut pas … Ici, c'est un peu gênant.'",
+          "hi": "'il ne faut pas … Ici, c'est un peu gênant.' (नहीं देना चाहिए… यहाँ यह थोड़ा अटपटा है।)"
+        },
+        "kind": "inference",
+        "evidence": "Ici, c'est un peu gênant."
+      },
+      {
+        "q": {
+          "en": "Which idea does she suggest?"
+        },
+        "options": [
+          "Cooking them an Indian meal",
+          "Buying them a car",
+          "Paying for their holiday"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Vous pouvez leur préparer un bon repas indien'.",
+          "hi": "'Vous pouvez leur préparer un bon repas indien' (आप उनके लिए अच्छा भारतीय खाना बना सकती हैं)।"
+        },
+        "kind": "literal",
+        "evidence": "Vous pouvez leur préparer un bon repas indien et les inviter chez vous."
+      },
+      {
+        "q": {
+          "en": "In 'vous pouvez lui offrir une jolie plante', who is 'lui'?"
+        },
+        "options": [
+          "Sunita",
+          "Mr Roy",
+          "Mrs Roy"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "The sentence starts 'si madame Roy aime les plantes'.",
+          "hi": "वाक्य 'si madame Roy aime les plantes' से शुरू होता है।"
+        },
+        "kind": "grammar",
+        "evidence": "si madame Roy aime les plantes, vous pouvez lui offrir une jolie plante"
+      },
+      {
+        "q": {
+          "en": "What does 'le meilleur cadeau, c'est souvent le temps' mean here?"
+        },
+        "options": [
+          "She should give them a clock",
+          "Helping them in return is a great present",
+          "She should visit them less often"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "She explains it: offer your help in return, e.g. clearing snow.",
+          "hi": "वह समझाती हैं: बदले में अपनी मदद दीजिए, जैसे बर्फ़ हटाना।"
+        },
+        "kind": "inference",
+        "evidence": "vous pouvez leur proposer votre aide à votre tour"
+      }
+    ]
+  },
+  "writing": {
+    "type": "message",
+    "prompt": {
+      "en": "Write a message to a friend about the presents you are going to give your family for a festival (Diwali, Eid, Christmas, a birthday). Say what you will give each person and why. Use lui and leur at least three times.",
+      "hi": "किसी त्योहार (दिवाली, ईद, क्रिसमस, जन्मदिन) पर परिवार को दिए जाने वाले तोहफ़ों के बारे में एक दोस्त को संदेश लिखिए। बताइए कि आप हर व्यक्ति को क्या देंगे और क्यों। कम से कम तीन बार lui और leur इस्तेमाल कीजिए।",
+      "fr": "Écrivez un message sur vos cadeaux."
+    },
+    "minWords": 50,
+    "maxWords": 90,
+    "hints": [
+      {
+        "en": "Name the person first, then use the pronoun: Ma mère ? Je vais lui offrir …",
+        "hi": "पहले व्यक्ति का नाम लीजिए, फिर सर्वनाम: Ma mère ? Je vais lui offrir …"
+      },
+      {
+        "en": "Ask your friend for advice with me: Tu peux me conseiller ?",
+        "hi": "me के साथ दोस्त से सलाह माँगिए: Tu peux me conseiller ?"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Je vais lui offrir …",
+        "en": "I'm going to give him/her …",
+        "hi": "मैं उसे … देने वाला/वाली हूँ",
+        "pron": "झ़ö वै ल्üई ऑ-फ़्रीग़"
+      },
+      {
+        "fr": "Je leur envoie …",
+        "en": "I'm sending them …",
+        "hi": "मैं उन्हें … भेज रहा/रही हूँ",
+        "pron": "झ़ö लöग़ आँ-व्वा"
+      },
+      {
+        "fr": "Tu peux me conseiller ?",
+        "en": "Can you advise me?",
+        "hi": "क्या तुम मुझे सलाह दे सकते हो?",
+        "pron": "तü पö मö कोँ-सै-ये"
+      }
+    ],
+    "model": {
+      "fr": "Salut Nadia ! Pour l'Aïd, j'ai déjà trouvé presque tous les cadeaux. Ma mère adore la cuisine, alors je vais lui offrir un beau livre de recettes. Mes grands-parents habitent à Hyderabad : je leur envoie une carte et des photos des enfants. Mon frère ? Je lui donne une carte-cadeau, il est difficile ! Mais pour ma sœur, je n'ai pas d'idée. Tu peux me conseiller ? Je t'appelle ce soir. Bises, Sara",
+      "en": "Hi Nadia! For Eid I've already found almost all the presents. My mother loves cooking, so I'm going to give her a beautiful recipe book. My grandparents live in Hyderabad: I'm sending them a card and photos of the children. My brother? I'm giving him a gift card — he's difficult! But for my sister I have no idea. Can you advise me? I'll call you tonight. Love, Sara"
+    },
+    "checklist": [
+      {
+        "en": "Did you use lui for one person and leur for several?",
+        "hi": "क्या आपने एक व्यक्ति के लिए lui और कई के लिए leur लगाया?"
+      },
+      {
+        "en": "Are the pronouns before the verb (or before the infinitive)?",
+        "hi": "क्या सर्वनाम क्रिया से पहले (या मूल क्रिया से पहले) हैं?"
+      },
+      {
+        "en": "Did you avoid 'leurs' with an s for the pronoun?",
+        "hi": "क्या आपने सर्वनाम के लिए s वाला 'leurs' नहीं लिखा?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      22,
+      39,
+      43,
+      48,
+      51
+    ],
+    "items": [
+      {
+        "fr": "mon frère, ma sœur, mes parents",
+        "en": "my brother, my sister, my parents",
+        "hi": "मेरा भाई, मेरी बहन, मेरे माता-पिता",
+        "pron": "मोँ फ़्रैग़ मा सöग़ मे पा-ग़ाँ"
+      },
+      {
+        "fr": "J'ai écrit un courriel.",
+        "en": "I wrote an email.",
+        "hi": "मैंने एक ईमेल लिखा।",
+        "pron": "झ़े ए-क्री ऐँ कू-ग़्यैल"
+      },
+      {
+        "fr": "Je l'ai vu hier.",
+        "en": "I saw him/it yesterday.",
+        "hi": "मैंने उसे कल देखा।",
+        "pron": "झ़ö ले वü यैग़"
+      },
+      {
+        "fr": "Je les invite samedi.",
+        "en": "I'm inviting them on Saturday.",
+        "hi": "मैं उन्हें शनिवार को बुला रहा/रही हूँ।",
+        "pron": "झ़ö ले ज़ैँ-वीत साम-दी"
+      },
+      {
+        "fr": "Je vais la sortir.",
+        "en": "I'm going to take it out.",
+        "hi": "मैं उसे बाहर रखने वाला/वाली हूँ।",
+        "pron": "झ़ö वै ला सॉग़-तीग़"
+      },
+      {
+        "fr": "Nous fêterons Diwali ensemble.",
+        "en": "We will celebrate Diwali together.",
+        "hi": "हम साथ मिलकर दिवाली मनाएँगे।",
+        "pron": "नू फ़ैत-ग़ोँ दी-वा-ली आँ-साँब्ल"
+      },
+      {
+        "fr": "Bises,",
+        "en": "Love, (informal sign-off)",
+        "hi": "ढेर सारा प्यार,",
+        "pron": "बीज़"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Je téléphone à mes parents.' Replace with a pronoun.",
+        "hi": "'Je téléphone à mes parents.' सर्वनाम लगाइए।"
+      },
+      "options": [
+        "Je les téléphone.",
+        "Je leur téléphone.",
+        "Je lui téléphone.",
+        "Je leurs téléphone."
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "téléphoner à + several people → leur (no s).",
+        "hi": "téléphoner à + कई लोग → leur (बिना s)।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'J'aide ma voisine.' Replace with a pronoun.",
+        "hi": "'J'aide ma voisine.' सर्वनाम लगाइए।"
+      },
+      "options": [
+        "Je lui aide.",
+        "Je l'aide.",
+        "Je leur aide."
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "aider takes a direct object (no à) → l'.",
+        "hi": "aider प्रत्यक्ष कर्म लेता है (à नहीं) → l'।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: I gave him a present.",
+        "hi": "पूरा कीजिए: मैंने उसे एक तोहफ़ा दिया।"
+      },
+      "sentence": "Je ___ ai offert un cadeau.",
+      "answer": "lui",
+      "accept": [],
+      "explanation": {
+        "en": "offrir à + one person → lui, before avoir.",
+        "hi": "offrir à + एक व्यक्ति → lui, avoir से पहले।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "Can you lend me your book?",
+        "hi": "क्या तुम मुझे अपनी किताब उधार दे सकते हो?"
+      },
+      "answer": "Tu peux me prêter ton livre ?",
+      "accept": [
+        "Tu peux me prêter ton livre?",
+        "Peux-tu me prêter ton livre ?",
+        "Est-ce que tu peux me prêter ton livre ?",
+        "Vous pouvez me prêter votre livre ?"
+      ],
+      "explanation": {
+        "en": "me goes before the infinitive prêter.",
+        "hi": "me मूल क्रिया prêter से पहले आता है।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: The teacher explains the rule to us.",
+        "hi": "पूरा कीजिए: शिक्षक हमें नियम समझाते हैं।"
+      },
+      "sentence": "Le professeur ___ explique la règle.",
+      "answer": "nous",
+      "accept": [],
+      "explanation": {
+        "en": "to us = nous, before the verb.",
+        "hi": "हमें = nous, क्रिया से पहले।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: I'm going to write to her tomorrow.",
+        "hi": "शब्दों को सही क्रम में रखिए: मैं कल उसे लिखने वाला हूँ।"
+      },
+      "words": [
+        "vais",
+        "Je",
+        "écrire",
+        "lui",
+        "demain",
+        "."
+      ],
+      "answer": "Je vais lui écrire demain.",
+      "explanation": {
+        "en": "Pronoun before the infinitive: vais lui écrire.",
+        "hi": "सर्वनाम मूल क्रिया से पहले: vais lui écrire।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "How is 'lui' pronounced?",
+        "hi": "'lui' कैसे बोला जाता है?"
+      },
+      "options": [
+        "लुई",
+        "ल्üई",
+        "लवी"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "A quick ü gliding into ई: ल्üई.",
+        "hi": "तेज़ ü जो ई में फिसलता है: ल्üई।"
+      }
+    }
+  ]
+}

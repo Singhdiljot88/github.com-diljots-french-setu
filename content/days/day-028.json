@@ -1,0 +1,203 @@
+{
+  "day": 28,
+  "phase": 2,
+  "title": { "fr": "Révision : la maison, les repas et les courses", "en": "Review day: home, food and shopping", "hi": "दोहराई का दिन: घर, खाना और ख़रीदारी" },
+  "objective": {
+    "en": "Plan a dinner with friends: decide what to cook, what to buy and in what quantity, and write an invitation — reusing possessives, places, partitives, colours and reflexive verbs from this week.",
+    "hi": "दोस्तों के साथ रात के खाने की योजना बनाना: क्या पकाना है, क्या और कितना ख़रीदना है, और एक निमंत्रण लिखना — इस हफ़्ते के संबंधसूचक शब्द, स्थानसूचक शब्द, 'कुछ' वाले आर्टिकल, रंग और निजवाचक क्रियाएँ दोहराते हुए।"
+  },
+  "prerequisites": {
+    "days": [22, 23, 24, 25, 26, 27],
+    "summary": {
+      "en": "Family and possessives, home and prepositions, food and partitives, quantities and prices, clothes and colours, daily routine.",
+      "hi": "परिवार और संबंधसूचक शब्द, घर और स्थानसूचक शब्द, खाना और 'कुछ' वाले आर्टिकल, मात्रा और दाम, कपड़े और रंग, दिनचर्या।"
+    }
+  },
+  "light": true,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "la recette", "en": "recipe", "hi": "पकाने की विधि / रेसिपी", "pron": "ला ग़ö-सैत", "ipa": "la ʁəsɛt", "pos": "noun", "gender": "f", "lemma": "recette", "note": { "en": "False friend: a receipt is 'un reçu', not 'une recette'.", "hi": "धोखेबाज़ शब्द: रसीद को 'un reçu' कहते हैं, 'une recette' नहीं।" } },
+    { "fr": "inviter", "en": "to invite", "hi": "न्योता देना / बुलाना", "pron": "ऐँ-वी-ते", "ipa": "ɛ̃vite", "pos": "verb" },
+    { "fr": "l'invité / l'invitée", "en": "guest", "hi": "मेहमान", "pron": "लैँ-वी-ते", "ipa": "lɛ̃vite", "pos": "noun", "gender": "mf", "lemma": "invité" },
+    { "fr": "apporter", "en": "to bring (a thing)", "hi": "(कोई चीज़) लाना", "pron": "आ-पॉग़-ते", "ipa": "apɔʁte", "pos": "verb" },
+    { "fr": "le sucre", "en": "sugar", "hi": "चीनी", "pron": "लö सüक्ग़", "ipa": "lə sykʁ", "pos": "noun", "gender": "m", "lemma": "sucre" },
+    { "fr": "l'huile", "en": "oil", "hi": "तेल", "pron": "लüईल", "ipa": "lɥil", "pos": "noun", "gender": "f", "lemma": "huile", "note": { "en": "Feminine in French, masculine in Hindi (तेल).", "hi": "फ़्रेंच में स्त्रीलिंग, हिंदी में 'तेल' पुल्लिंग।" } },
+    { "fr": "ajouter", "en": "to add", "hi": "मिलाना / डालना", "pron": "आ-झ़ू-ते", "ipa": "aʒute", "pos": "verb" }
+  ],
+  "phrases": [
+    { "fr": "Tu es libre samedi soir ?", "en": "Are you free on Saturday evening?", "hi": "क्या तुम शनिवार शाम ख़ाली हो?", "pron": "तü ऐ लीब्ग़ सम-दी स्वाग़" },
+    { "fr": "Je t'invite à souper.", "en": "I'm inviting you to dinner. (Québec)", "hi": "मैं तुम्हें रात के खाने पर बुला रहा/रही हूँ।", "pron": "झ़ö तैँ-वीत आ सू-पे", "note": { "en": "In France: Je t'invite à dîner.", "hi": "फ़्रांस में: Je t'invite à dîner।" } },
+    { "fr": "Qu'est-ce que j'apporte ?", "en": "What shall I bring?", "hi": "मैं क्या लाऊँ?", "pron": "कैस-कö झ़ा-पॉग़्त" },
+    { "fr": "Avec plaisir !", "en": "With pleasure!", "hi": "ख़ुशी से!", "pron": "आ-वैक प्लै-ज़ीग़" },
+    { "fr": "Qu'est-ce qu'on achète ?", "en": "What shall we buy?", "hi": "हम क्या ख़रीदें?", "pron": "कैस-कोँ ना-शैत" }
+  ],
+  "grammar": {
+    "title": { "en": "Recap: the five big points of days 22–27", "hi": "दोहराई: दिन 22–27 की पाँच बड़ी बातें" },
+    "explanation": {
+      "en": "1) Possessives agree with the thing owned: mon frère, ma sœur, mes parents, sa femme, son mari, mon amie. 2) Place: dans, sur, sous, devant, derrière, entre, à côté de, en face de — with de + le = du (à côté du salon). 3) Unspecified amounts: du pain, de la confiture, de l'eau, des œufs; negative: pas de; with aimer: le/la/les. 4) Quantities + de alone: un kilo de tomates, beaucoup de lait. 5) Colours after the noun and agreeing (une tuque noire, des gants noirs; but orange and marron never change); reflexive verbs with me/te/se (je me lève, nous nous couchons).",
+      "hi": "1) संबंधसूचक शब्द उस चीज़ से मेल खाते हैं जो किसी की है: mon frère, ma sœur, mes parents, sa femme, son mari, mon amie। 2) जगह: dans, sur, sous, devant, derrière, entre, à côté de, en face de — de + le = du के साथ (à côté du salon)। 3) अनिश्चित मात्रा: du pain, de la confiture, de l'eau, des œufs; नकारात्मक: pas de; aimer के साथ: le/la/les। 4) मात्रा + सिर्फ़ de: un kilo de tomates, beaucoup de lait। 5) रंग संज्ञा के बाद और मेल खाते हुए (une tuque noire, des gants noirs; पर orange और marron कभी नहीं बदलते); निजवाचक क्रियाएँ me/te/se के साथ (je me lève, nous nous couchons)।"
+    },
+    "comparison": {
+      "en": "The common thread: French marks gender and number everywhere — on the possessive, the article and the adjective — and it almost never leaves a noun without an article. Hindi also marks gender (मेरा/मेरी, काला/काली) but often uses no article at all (दूध है?). When you translate from Hindi in your head, ask two questions about every noun: masculine or feminine in French? And which article does it need?",
+      "hi": "साझी बात: फ़्रेंच हर जगह लिंग और वचन दिखाती है — संबंधसूचक शब्द, आर्टिकल और विशेषण पर — और संज्ञा को लगभग कभी बिना आर्टिकल के नहीं छोड़ती। हिंदी भी लिंग दिखाती है (मेरा/मेरी, काला/काली) पर अक्सर कोई आर्टिकल नहीं लगाती (दूध है?)। जब आप मन में हिंदी से अनुवाद करें, तो हर संज्ञा के लिए दो सवाल पूछिए: फ़्रेंच में पुल्लिंग या स्त्रीलिंग? और इसे कौन-सा आर्टिकल चाहिए?"
+    },
+    "examples": [
+      { "fr": "Mes amis arrivent à sept heures.", "en": "My friends arrive at seven.", "hi": "मेरे दोस्त सात बजे आते हैं।", "pron": "मे ज़ा-मी ज़ा-ग़ीव आ सै तöग़" },
+      { "fr": "Le sucre est sur la table, à côté du riz.", "en": "The sugar is on the table, next to the rice.", "hi": "चीनी मेज़ पर, चावल के बगल में है।", "pron": "लö सüक्ग़ ऐ सüग़ ला ताब्ल आ को-ते दü ग़ी" },
+      { "fr": "On achète du poulet et un kilo de tomates.", "en": "We're buying chicken and a kilo of tomatoes.", "hi": "हम चिकन और एक किलो टमाटर ख़रीद रहे हैं।", "pron": "ओँ ना-शैत दü पू-लै ए ऐँ की-लो दö तो-मात" },
+      { "fr": "Marc ne mange pas de viande.", "en": "Marc doesn't eat meat.", "hi": "मार्क मांस नहीं खाता।", "pron": "माग़क न्ö माँझ़ पा दö व्याँद" },
+      { "fr": "Sophie porte une robe rouge.", "en": "Sophie is wearing a red dress.", "hi": "सोफ़ी ने लाल ड्रेस पहनी है।", "pron": "सो-फ़ी पॉग़्त üन ग़ॉब ग़ूझ़" },
+      { "fr": "Je me dépêche : le magasin ferme à neuf heures !", "en": "I'm hurrying: the shop closes at nine!", "hi": "मैं जल्दी कर रहा/रही हूँ: दुकान नौ बजे बंद होती है!", "pron": "झ़ö म्ö दे-पैश लö मा-गा-ज़ैँ फ़ैग़म आ नö वöग़" }
+    ],
+    "pitfalls": [
+      { "en": "'Je mange pain' → 'Je mange du pain'. 'Pas du lait' → 'pas de lait'.", "hi": "'Je mange pain' → 'Je mange du pain'। 'Pas du lait' → 'pas de lait'।" },
+      { "en": "'Ma amie' → 'mon amie'. 'Un kilo des pommes' → 'un kilo de pommes'.", "hi": "'Ma amie' → 'mon amie'। 'Un kilo des pommes' → 'un kilo de pommes'।" },
+      { "en": "'Je lève' (I lift) → 'je me lève' (I get up).", "hi": "'Je lève' (मैं उठाता हूँ) → 'je me lève' (मैं उठता हूँ)।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Review: /u/–/y/ and /ø/",
+    "tip": {
+      "en": "Three rounded vowels, three tongue positions. ऊ (sous, tout): tongue back. ü (sur, du, sucre): tongue forward as for ई, lips round. ö (deux, peu): tongue as for ए, lips round. Say them in a row: sous – sur – deux, and feel your tongue move forward.",
+      "hi": "तीन गोल होंठ वाले स्वर, जीभ की तीन जगहें। ऊ (sous, tout): जीभ पीछे। ü (sur, du, sucre): जीभ ई की तरह आगे, होंठ गोल। ö (deux, peu): जीभ ए की तरह, होंठ गोल। इन्हें एक के बाद एक बोलिए: sous – sur – deux, और महसूस कीजिए कि जीभ आगे खिसकती है।"
+    },
+    "words": [
+      { "fr": "du sucre", "en": "some sugar", "hi": "चीनी", "pron": "दü सüक्ग़", "ipa": "dy sykʁ" },
+      { "fr": "sous la table", "en": "under the table", "hi": "मेज़ के नीचे", "pron": "सू ला ताब्ल", "ipa": "su la tabl" },
+      { "fr": "sur la table", "en": "on the table", "hi": "मेज़ पर", "pron": "सüग़ ला ताब्ल", "ipa": "syʁ la tabl" },
+      { "fr": "deux tomates", "en": "two tomatoes", "hi": "दो टमाटर", "pron": "दö तो-मात", "ipa": "dø tɔmat" },
+      { "fr": "un peu de beurre", "en": "a little butter", "hi": "थोड़ा मक्खन", "pron": "ऐँ पö दö बöग़", "ipa": "œ̃ pø də bœʁ" },
+      { "fr": "Tu bois du jus ?", "en": "Do you drink juice?", "hi": "क्या तुम जूस पीते हो?", "pron": "तü ब्वा दü झ़ü", "ipa": "ty bwa dy ʒy" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Les courses pour le souper", "en": "Shopping for dinner" },
+    "type": "dialogue",
+    "mode": "pedagogical",
+    "context": {
+      "en": "Priya and Arjun are in a supermarket. They are inviting Julie and Marc to dinner on Saturday and decide what to buy.",
+      "hi": "प्रिया और अर्जुन एक सुपरमार्केट में हैं। वे शनिवार को जूली और मार्क को खाने पर बुला रहे हैं और तय कर रहे हैं कि क्या ख़रीदें।"
+    },
+    "lines": [
+      { "speaker": "Priya", "voice": "f1", "fr": "Arjun, samedi, nous invitons Julie et Marc à souper. Qu'est-ce qu'on achète ?", "en": "Arjun, on Saturday we're inviting Julie and Marc to dinner. What shall we buy?", "hi": "अर्जुन, शनिवार को हम जूली और मार्क को खाने पर बुला रहे हैं। हम क्या ख़रीदें?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "On fait un biryani ? Julie adore la cuisine indienne.", "en": "Shall we make a biryani? Julie loves Indian food.", "hi": "बिरयानी बनाएँ? जूली को भारतीय खाना बहुत पसंद है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Bonne idée ! Alors, du riz, du poulet et des oignons.", "en": "Good idea! So, rice, chicken and onions.", "hi": "अच्छा विचार! तो, चावल, चिकन और प्याज़।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Mais Marc ne mange pas de viande. Il est végétarien.", "en": "But Marc doesn't eat meat. He's vegetarian.", "hi": "पर मार्क मांस नहीं खाता। वह शाकाहारी है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Ah oui ! Alors, un biryani aux légumes : un kilo de pommes de terre, des carottes et deux paquets de riz.", "en": "Oh yes! Then a vegetable biryani: a kilo of potatoes, carrots and two packets of rice.", "hi": "अरे हाँ! तो सब्ज़ी वाली बिरयानी: एक किलो आलू, गाजर और चावल के दो पैकेट।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Et pour le dessert ?", "en": "And for dessert?", "hi": "और मीठे में?" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Julie apporte un gâteau. Et nous, on achète de la glace.", "en": "Julie is bringing a cake. And we'll buy ice cream.", "hi": "जूली केक ला रही है। और हम आइसक्रीम ख़रीदेंगे।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Il y a du lait et du sucre à la maison ?", "en": "Is there milk and sugar at home?", "hi": "क्या घर पर दूध और चीनी है?" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Il y a du sucre, mais il n'y a pas de lait. Une bouteille de lait, alors.", "en": "There's sugar, but there's no milk. A bottle of milk, then.", "hi": "चीनी है, पर दूध नहीं है। तो एक बोतल दूध।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Et les boissons ?", "en": "And drinks?", "hi": "और पीने के लिए?" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Deux bouteilles de jus d'orange et de l'eau.", "en": "Two bottles of orange juice and some water.", "hi": "संतरे के जूस की दो बोतलें और पानी।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Parfait. On se dépêche : le magasin ferme à vingt et une heures !", "en": "Perfect. Let's hurry: the shop closes at 9 p.m.!", "hi": "बढ़िया। जल्दी करते हैं: दुकान रात नौ बजे बंद होती है!" }
+    ],
+    "questions": [
+      { "q": { "en": "Why do they change the chicken biryani to a vegetable biryani?" }, "options": ["Chicken is too expensive", "Marc is vegetarian", "Julie doesn't like chicken"], "answer": 1, "explanation": { "en": "'Marc ne mange pas de viande. Il est végétarien.'", "hi": "'Marc ne mange pas de viande. Il est végétarien.' — मार्क शाकाहारी है।" }, "kind": "inference", "evidence": "Mais Marc ne mange pas de viande. Il est végétarien." },
+      { "q": { "en": "How many packets of rice do they buy?" }, "options": ["One", "Two", "Three"], "answer": 1, "explanation": { "en": "'deux paquets de riz'.", "hi": "'deux paquets de riz' — दो पैकेट।" }, "kind": "literal", "evidence": "deux paquets de riz" },
+      { "q": { "en": "Who is bringing the cake?" }, "options": ["Marc", "Priya", "Julie"], "answer": 2, "explanation": { "en": "'Julie apporte un gâteau.' Priya and Arjun buy ice cream.", "hi": "'Julie apporte un gâteau.' प्रिया और अर्जुन आइसक्रीम ख़रीदते हैं।" }, "kind": "literal", "evidence": "Julie apporte un gâteau." },
+      { "q": { "en": "Why do they buy milk?" }, "options": ["There is no milk at home", "Marc loves milk", "It's for the cake"], "answer": 0, "explanation": { "en": "'il n'y a pas de lait' — there is no milk at home.", "hi": "'il n'y a pas de lait' — घर पर दूध नहीं है।" }, "kind": "literal", "evidence": "Il y a du sucre, mais il n'y a pas de lait." },
+      { "q": { "en": "Why does Arjun want to hurry?" }, "options": ["The guests are arriving", "The shop closes at 9 p.m.", "The bus leaves at 9"], "answer": 1, "explanation": { "en": "'le magasin ferme à vingt et une heures' = 21:00.", "hi": "'le magasin ferme à vingt et une heures' = रात 9 बजे।" }, "kind": "literal", "evidence": "le magasin ferme à vingt et une heures" }
+    ],
+    "dictation": ["Qu'est-ce qu'on achète ?", "Il n'y a pas de lait.", "Julie apporte un gâteau."],
+    "gapFill": { "text": "Un kilo ___ pommes de terre. Il y a ___ sucre, mais il n'y a pas ___ lait.", "answers": ["de", "du", "de"] }
+  },
+  "speaking": {
+    "type": "roleplay",
+    "instructions": {
+      "en": "Plan a dinner with a friend. Decide the date, who is coming, the menu, and make a shopping list with quantities. Check what is already at home.",
+      "hi": "एक दोस्त के साथ रात के खाने की योजना बनाइए। तारीख़, कौन आ रहा है, क्या बनेगा — तय कीजिए, और मात्रा के साथ ख़रीदारी की सूची बनाइए। देखिए कि घर पर पहले से क्या है।"
+    },
+    "prompts": [
+      { "fr": "On invite qui samedi ?", "en": "Who shall we invite on Saturday?", "hi": "शनिवार को किसे बुलाएँ?", "pron": "ओँ नैँ-वीत की सम-दी", "model": "On invite mon frère et sa femme." },
+      { "fr": "Qu'est-ce qu'on fait à manger ?", "en": "What shall we cook?", "hi": "खाने में क्या बनाएँ?", "pron": "कैस-कोँ फ़ै आ माँ-झ़े", "model": "On fait du dal, du riz et des légumes." },
+      { "fr": "Il y a du riz à la maison ?", "en": "Is there rice at home?", "hi": "क्या घर पर चावल है?", "pron": "ई ल्या दü ग़ी आ ला मै-ज़ोँ", "model": "Non, il n'y a pas de riz. On achète deux paquets de riz." },
+      { "fr": "Et pour le dessert ?", "en": "And for dessert?", "hi": "और मीठे में?", "pron": "ए पूग़ लö दे-सैग़", "model": "Ma belle-sœur apporte un gâteau." },
+      { "fr": "Qu'est-ce que tu portes samedi ?", "en": "What are you wearing on Saturday?", "hi": "शनिवार को तुम क्या पहनोगे?", "pron": "कैस-कö तü पॉग़्त सम-दी", "model": "Je porte une chemise blanche et un pantalon noir." }
+    ],
+    "tip": {
+      "en": "Every food word needs a little word in front: du, de la, des, or de after a quantity or a negative. Say it slowly at first — accuracy before speed.",
+      "hi": "खाने के हर शब्द के आगे एक छोटा शब्द चाहिए: du, de la, des, या मात्रा या नकारात्मक के बाद de। पहले धीरे बोलिए — पहले शुद्धता, फिर रफ़्तार।"
+    },
+    "scenario": {
+      "setting": { "en": "At home, planning a dinner for Saturday.", "hi": "घर पर, शनिवार के खाने की योजना।" },
+      "learnerRole": { "en": "You are hosting the dinner.", "hi": "आप मेज़बान हैं।" },
+      "partnerRole": { "en": "Your flatmate, who asks questions with tu.", "hi": "आपका फ़्लैटमेट, जो tu के साथ सवाल पूछता है।" },
+      "goals": [
+        { "en": "Say who is invited and when.", "hi": "बताइए कि किसे और कब बुलाया है।" },
+        { "en": "Decide the menu with partitive articles.", "hi": "'कुछ' वाले आर्टिकल के साथ मेनू तय कीजिए।" },
+        { "en": "Make a shopping list with at least three quantities.", "hi": "कम से कम तीन मात्राओं के साथ ख़रीदारी की सूची बनाइए।" }
+      ]
+    }
+  },
+  "reading": {
+    "genre": "notice",
+    "title": "Recette : la soupe de lentilles de Kavita",
+    "text": "Pour quatre personnes. Préparation : 15 minutes. Cuisson : 30 minutes.\nIngrédients : 250 grammes de lentilles rouges, un oignon, deux tomates, un litre d'eau, un peu d'huile, du sel, un citron.\n1. D'abord, coupez l'oignon et les tomates.\n2. Ensuite, mettez un peu d'huile dans une casserole et ajoutez l'oignon.\n3. Puis ajoutez les tomates, les lentilles et l'eau.\n4. Laissez cuire trente minutes.\n5. Enfin, ajoutez du sel et un peu de jus de citron.\nLa soupe est végétarienne et elle est très bonne en hiver, avec du riz ou du pain.",
+    "translation": {
+      "en": "For four people. Preparation: 15 minutes. Cooking: 30 minutes.\nIngredients: 250 grams of red lentils, an onion, two tomatoes, a litre of water, a little oil, salt, a lemon.\n1. First, cut the onion and the tomatoes.\n2. Then put a little oil in a pan and add the onion.\n3. Then add the tomatoes, the lentils and the water.\n4. Let it cook for thirty minutes.\n5. Finally, add salt and a little lemon juice.\nThe soup is vegetarian and it is very good in winter, with rice or bread.",
+      "hi": "चार लोगों के लिए। तैयारी: 15 मिनट। पकाने का समय: 30 मिनट।\nसामग्री: 250 ग्राम लाल मसूर, एक प्याज़, दो टमाटर, एक लीटर पानी, थोड़ा तेल, नमक, एक नींबू।\n1. पहले, प्याज़ और टमाटर काटिए।\n2. फिर एक पतीले में थोड़ा तेल डालिए और प्याज़ मिलाइए।\n3. फिर टमाटर, मसूर और पानी डालिए।\n4. तीस मिनट पकने दीजिए।\n5. आख़िर में, नमक और थोड़ा नींबू का रस डालिए।\nयह सूप शाकाहारी है और सर्दियों में चावल या ब्रेड के साथ बहुत अच्छा लगता है।"
+    },
+    "questions": [
+      { "q": { "en": "How many people is the recipe for?" }, "options": ["Two", "Four", "Fifteen"], "answer": 1, "explanation": { "en": "'Pour quatre personnes.'", "hi": "'Pour quatre personnes.' — चार लोगों के लिए।" }, "kind": "literal", "evidence": "Pour quatre personnes." },
+      { "q": { "en": "How long does the soup cook?" }, "options": ["15 minutes", "30 minutes", "45 minutes"], "answer": 1, "explanation": { "en": "'Cuisson : 30 minutes' and 'Laissez cuire trente minutes'. 15 minutes is the preparation.", "hi": "'Cuisson : 30 minutes' और 'Laissez cuire trente minutes'। 15 मिनट तैयारी का समय है।" }, "kind": "literal", "evidence": "Laissez cuire trente minutes." },
+      { "q": { "en": "What is the very first step?" }, "options": ["Put oil in a pan", "Cut the onion and tomatoes", "Add salt"], "answer": 1, "explanation": { "en": "'D'abord, coupez l'oignon et les tomates.'", "hi": "'D'abord, coupez l'oignon et les tomates.' — पहले प्याज़ और टमाटर काटिए।" }, "kind": "literal", "evidence": "D'abord, coupez l'oignon et les tomates." },
+      { "q": { "en": "Can Marc, who is vegetarian, eat this soup?" }, "options": ["Yes, it's vegetarian", "No, there is chicken", "Only without lemon"], "answer": 0, "explanation": { "en": "'La soupe est végétarienne'.", "hi": "'La soupe est végétarienne' — सूप शाकाहारी है।" }, "kind": "inference", "evidence": "La soupe est végétarienne" }
+    ]
+  },
+  "writing": {
+    "type": "message",
+    "prompt": {
+      "en": "Write an invitation to dinner to a friend (tu). Give the day, time and your address, say what you are cooking and who else is coming, and ask what they would like to bring.",
+      "hi": "एक दोस्त को (tu के साथ) रात के खाने का निमंत्रण लिखिए। दिन, समय और अपना पता बताइए, बताइए कि क्या बना रहे हैं और और कौन आ रहा है, और पूछिए कि वह क्या लाना चाहेगा।"
+    },
+    "minWords": 35,
+    "maxWords": 80,
+    "hints": [
+      { "en": "Start with 'Salut …!' and end with 'À samedi !' or 'Bisous'.", "hi": "'Salut …!' से शुरू कीजिए और 'À samedi !' या 'Bisous' से ख़त्म कीजिए।" },
+      { "en": "Use at least one possessive, one partitive and one preposition of place.", "hi": "कम से कम एक संबंधसूचक शब्द, एक 'कुछ' वाला आर्टिकल और एक स्थानसूचक शब्द लिखिए।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Je t'invite à souper samedi.", "en": "I'm inviting you to dinner on Saturday.", "hi": "मैं तुम्हें शनिवार को खाने पर बुला रहा/रही हूँ।", "pron": "झ़ö तैँ-वीत आ सू-पे सम-दी" },
+      { "fr": "J'habite au 25, rue …", "en": "I live at 25 … Street.", "hi": "मैं 25, … गली में रहता/रहती हूँ।", "pron": "झ़ा-बीत ओ वैँत-सैँक ग़ü" },
+      { "fr": "Tu apportes … ?", "en": "Can you bring … ?", "hi": "क्या तुम … ला सकते हो?", "pron": "तü आ-पॉग़्त" }
+    ],
+    "model": {
+      "fr": "Salut Julie ! Je t'invite à souper samedi à sept heures. J'habite au 25, rue Bélanger, au deuxième étage, en face du parc. Je fais un biryani aux légumes et du dal. Mon frère et sa femme sont là aussi. Tu apportes un dessert ? Il n'y a pas de gâteau ! À samedi !",
+      "en": "Hi Julie! I'm inviting you to dinner on Saturday at seven. I live at 25 Bélanger Street, on the second floor, opposite the park. I'm making a vegetable biryani and dal. My brother and his wife will be there too. Can you bring a dessert? There's no cake! See you on Saturday!"
+    },
+    "checklist": [
+      { "en": "Did you give day, time and address?", "hi": "क्या आपने दिन, समय और पता दिया?" },
+      { "en": "Is there an article before every food (du dal, un biryani)?", "hi": "क्या हर खाने से पहले आर्टिकल है (du dal, un biryani)?" },
+      { "en": "Did you use tu forms throughout?", "hi": "क्या पूरे संदेश में tu वाले रूप हैं?" }
+    ]
+  },
+  "review": {
+    "fromDays": [22, 23, 24, 25, 26, 27],
+    "items": [
+      { "fr": "mon père et ma mère", "en": "my father and my mother", "hi": "मेरे पिता और मेरी माँ", "pron": "मोँ पैग़ ए मा मैग़" },
+      { "fr": "Son mari s'appelle Rohan.", "en": "Her husband's name is Rohan.", "hi": "उसके पति का नाम रोहन है।", "pron": "सोँ मा-ग़ी सा-पैल ग़ो-हान" },
+      { "fr": "Je suis célibataire.", "en": "I'm single.", "hi": "मैं अविवाहित हूँ।", "pron": "झ़ö स्üई से-ली-बा-तैग़" },
+      { "fr": "La cuisine est à côté du salon.", "en": "The kitchen is next to the living room.", "hi": "रसोई बैठक के बगल में है।", "pron": "ला क्üई-ज़ीन ऐ ता को-ते दü सा-लोँ" },
+      { "fr": "Le chauffage est compris ?", "en": "Is heating included?", "hi": "क्या हीटिंग शामिल है?", "pron": "लö शो-फ़ाझ़ ऐ कोँ-प्री" },
+      { "fr": "Je mange des œufs.", "en": "I eat eggs.", "hi": "मैं अंडे खाता/खाती हूँ।", "pron": "झ़ö माँझ़ दे ज़ö" },
+      { "fr": "Il n'y a pas d'eau.", "en": "There's no water.", "hi": "पानी नहीं है।", "pron": "ईल न्या पा दो" },
+      { "fr": "un litre de lait", "en": "a litre of milk", "hi": "एक लीटर दूध", "pron": "ऐँ लीत्ग़ दö लै" },
+      { "fr": "Ça fait combien ?", "en": "How much is that in total?", "hi": "कुल कितना हुआ?", "pron": "सा फ़ै कोँ-ब्यैँ" },
+      { "fr": "des gants noirs", "en": "black gloves", "hi": "काले दस्ताने", "pron": "दे गाँ न्वाग़" },
+      { "fr": "Quelle taille faites-vous ?", "en": "What size are you?", "hi": "आपका साइज़ क्या है?", "pron": "कैल ताय फ़ैत वू" },
+      { "fr": "Je m'habille.", "en": "I get dressed.", "hi": "मैं तैयार होता/होती हूँ।", "pron": "झ़ö मा-बीय" },
+      { "fr": "Nous nous couchons tard.", "en": "We go to bed late.", "hi": "हम देर से सोते हैं।", "pron": "नू नू कू-शोँ ताग़" },
+      { "fr": "d'abord, ensuite, enfin", "en": "first, then, finally", "hi": "पहले, उसके बाद, आख़िर में", "pron": "दा-बॉग़ आँ-स्üईत आँ-फ़ैँ" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Choose: her brother (Priya's brother).", "hi": "चुनिए: उसका भाई (प्रिया का भाई)।" }, "options": ["sa frère", "son frère", "ses frère"], "answer": 1, "explanation": { "en": "frère is masculine: son frère, whoever the owner is.", "hi": "frère पुल्लिंग है: son frère, मालिक चाहे जो हो।" } },
+    { "type": "fill", "prompt": { "en": "Complete: There's some jam.", "hi": "पूरा कीजिए: जैम है।" }, "sentence": "Il y a ___ confiture.", "answer": "de la", "accept": [], "explanation": { "en": "confiture is feminine: de la confiture.", "hi": "confiture स्त्रीलिंग है: de la confiture।" } },
+    { "type": "mcq", "prompt": { "en": "Which is correct?", "hi": "कौन-सा सही है?" }, "options": ["deux kilos des tomates", "deux kilos de tomates", "deux kilos du tomates"], "answer": 1, "explanation": { "en": "Quantity + de alone.", "hi": "मात्रा + सिर्फ़ de।" } },
+    { "type": "fill", "prompt": { "en": "Complete: The cat is under the bed.", "hi": "पूरा कीजिए: बिल्ली पलंग के नीचे है।" }, "sentence": "Le chat est ___ le lit.", "answer": "sous", "accept": [], "explanation": { "en": "sous = under (सू).", "hi": "sous = नीचे (सू)।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "What shall I bring?", "hi": "मैं क्या लाऊँ?" }, "answer": "Qu'est-ce que j'apporte ?", "accept": ["Qu'est-ce que j'apporte?", "qu'est-ce que j'apporte ?", "Qu’est-ce que j’apporte ?"], "explanation": { "en": "apporter = to bring a thing.", "hi": "apporter = कोई चीज़ लाना।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: She is wearing white boots.", "hi": "शब्दों को सही क्रम में रखिए: उसने सफ़ेद बूट पहने हैं।" }, "words": ["bottes", "porte", "Elle", "blanches", "des", "."], "answer": "Elle porte des bottes blanches.", "explanation": { "en": "bottes is feminine plural: blanches.", "hi": "bottes स्त्रीलिंग बहुवचन है: blanches।" } },
+    { "type": "mcq", "prompt": { "en": "Choose: You (vous) get up early.", "hi": "चुनिए: आप जल्दी उठते हैं।" }, "options": ["Vous se levez tôt.", "Vous vous levez tôt.", "Vous levez tôt."], "answer": 1, "explanation": { "en": "vous + vous: vous vous levez.", "hi": "vous के साथ vous: vous vous levez।" } }
+  ]
+}

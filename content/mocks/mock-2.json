@@ -1,0 +1,2521 @@
+{
+  "id": "mock-2",
+  "title": "Practice exam 2",
+  "disclaimer": "Original practice material written for French Setu. Not official TEF material, not recalled or leaked exam content. Results are raw practice scores, not TEF scores, CEFR levels or NCLC levels.",
+  "reading": {
+    "sections": [
+      {
+        "key": "everyday",
+        "title": "Documents de la vie quotidienne (Q1–7)",
+        "instruction": "Lisez chaque document et choisissez la bonne réponse. / Read each document and choose the correct answer.",
+        "items": [
+          {
+            "document": {
+              "genre": "notice",
+              "title": "Avis aux locataires",
+              "text": "AVIS AUX LOCATAIRES\nRésidence Les Érables — 1240, rue Saint-Denis\n\nEn raison de travaux de plomberie, l'eau chaude sera coupée le mardi 14 novembre, de 9 h à 16 h. L'eau froide restera disponible. Nous vous conseillons de ne pas utiliser votre lave-vaisselle pendant cette période.\nMerci de votre compréhension.\n\nLa gestion"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que se passera-t-il le 14 novembre ?",
+                  "en": "What will happen on 14 November?"
+                },
+                "options": [
+                  "Il n'y aura pas d'eau du tout dans l'immeuble.",
+                  "Le lave-vaisselle de l'immeuble sera remplacé.",
+                  "Les locataires n'auront pas d'eau chaude pendant la journée.",
+                  "Les locataires devront quitter leur appartement."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "Only the hot water is cut, from 9 a.m. to 4 p.m.; cold water stays available ('L'eau froide restera disponible').",
+                  "hi": "सिर्फ़ गरम पानी सुबह 9 से शाम 4 बजे तक बंद रहेगा; ठंडा पानी मिलता रहेगा ('L'eau froide restera disponible')।"
+                },
+                "kind": "literal",
+                "evidence": "l'eau chaude sera coupée le mardi 14 novembre, de 9 h à 16 h"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "sign",
+              "title": "Pharmacie du Vieux-Port",
+              "text": "PHARMACIE DU VIEUX-PORT\nLundi au vendredi : 8 h – 21 h\nSamedi : 9 h – 18 h\nDimanche et jours fériés : 10 h – 16 h\n\nLe pharmacien est disponible sans rendez-vous pour le renouvellement d'ordonnances et les conseils sur les médicaments.\nVaccination contre la grippe : sur rendez-vous uniquement."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Pour se faire vacciner contre la grippe, il faut…",
+                  "en": "To get a flu shot, you have to…"
+                },
+                "options": [
+                  "prendre rendez-vous.",
+                  "venir le dimanche.",
+                  "apporter une ordonnance.",
+                  "se présenter avant 10 h."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "'Sur rendez-vous uniquement' = by appointment only. Walk-in ('sans rendez-vous') is only for prescriptions and advice.",
+                  "hi": "'Sur rendez-vous uniquement' का मतलब है केवल अपॉइंटमेंट लेकर। बिना अपॉइंटमेंट ('sans rendez-vous') सिर्फ़ पर्चे और सलाह के लिए है।"
+                },
+                "kind": "literal",
+                "evidence": "Vaccination contre la grippe : sur rendez-vous uniquement."
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "notice",
+              "title": "Collecte des matières organiques",
+              "text": "VILLE DE SHERBROOKE — COLLECTE DES MATIÈRES ORGANIQUES\n\nÀ partir du 1er avril, le bac brun sera ramassé chaque semaine, le jeudi.\nVous pouvez y mettre : restes de fruits et légumes, coquilles d'œufs, marc de café, essuie-tout.\nNe mettez pas : sacs en plastique, couches, litière pour chats.\nPlacez votre bac au bord de la rue la veille au soir ou avant 7 h le jour de la collecte."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quand faut-il sortir le bac brun ?",
+                  "en": "When should you put the brown bin out?"
+                },
+                "options": [
+                  "Le mercredi soir ou le jeudi avant 7 h.",
+                  "Le jeudi en fin de journée.",
+                  "Le vendredi matin, avant le passage du camion.",
+                  "Le premier jeudi de chaque mois."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "Collection is on Thursday; 'la veille au soir' (the evening before) = Wednesday evening, or before 7 a.m. on Thursday.",
+                  "hi": "कचरा गुरुवार को उठता है; 'la veille au soir' यानी एक दिन पहले की शाम = बुधवार शाम, या गुरुवार सुबह 7 बजे से पहले।"
+                },
+                "kind": "inference",
+                "evidence": "la veille au soir ou avant 7 h le jour de la collecte"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "message",
+              "title": "Message de l'école",
+              "text": "De : École primaire Saint-Jean-Baptiste\n\nBonjour, en raison de la tempête de neige prévue cette nuit, l'école sera fermée demain, vendredi. Le service de garde restera lui aussi fermé. Les cours reprendront normalement lundi. Consultez notre site pour toute mise à jour."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Selon ce message, qu'est-ce qui est vrai ?",
+                  "en": "According to this message, what is true?"
+                },
+                "options": [
+                  "Les cours sont annulés lundi.",
+                  "Le service de garde accueille les enfants vendredi.",
+                  "L'école ouvrira plus tard vendredi.",
+                  "Aucun service ne sera offert aux enfants vendredi."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "Both the school and the daycare service ('le service de garde … lui aussi fermé') are closed on Friday; classes resume Monday.",
+                  "hi": "शुक्रवार को स्कूल और डे-केयर ('service de garde … lui aussi fermé') दोनों बंद हैं; सोमवार से कक्षाएँ फिर शुरू होंगी।"
+                },
+                "kind": "inference",
+                "evidence": "Le service de garde restera lui aussi fermé."
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "label",
+              "title": "Étiquette de médicament",
+              "text": "IBUPROFÈNE 200 mg — 24 comprimés\n\nAdultes et enfants de plus de 12 ans : 1 à 2 comprimés toutes les 6 à 8 heures, au besoin.\nNe pas dépasser 6 comprimés par 24 heures.\nPrendre avec de la nourriture ou du lait.\nConsulter un médecin si la douleur dure plus de 5 jours."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Comment faut-il prendre ce médicament ?",
+                  "en": "How should this medicine be taken?"
+                },
+                "options": [
+                  "À jeun, le matin.",
+                  "Toutes les deux heures.",
+                  "Pendant un repas ou avec du lait.",
+                  "Seulement le soir, avant de dormir."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "'Prendre avec de la nourriture ou du lait' = take with food or milk. 'À jeun' (on an empty stomach) is the opposite.",
+                  "hi": "'Prendre avec de la nourriture ou du lait' यानी खाने या दूध के साथ लें। 'À jeun' (ख़ाली पेट) इसका उल्टा है।"
+                },
+                "kind": "literal",
+                "evidence": "Prendre avec de la nourriture ou du lait."
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "sign",
+              "title": "Règlement du parc",
+              "text": "PARC DES HIRONDELLES — RÈGLEMENT\n\nChiens permis en laisse seulement.\nRamassez les excréments de votre animal.\nFeux interdits sauf dans les foyers prévus à cet effet.\nIl est interdit de cueillir les plantes et les fleurs.\nLe parc est fermé de minuit à 6 h."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Dans ce parc, on peut…",
+                  "en": "In this park, you may…"
+                },
+                "options": [
+                  "faire un feu dans un foyer aménagé.",
+                  "laisser son chien courir librement.",
+                  "cueillir des fleurs sauvages.",
+                  "se promener à 2 h du matin."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "Fires are forbidden 'sauf' (except) in the fire pits provided. Dogs must be on a leash, picking flowers is forbidden, and the park is closed from midnight to 6 a.m.",
+                  "hi": "आग जलाना मना है, 'sauf' (सिवाय) तय किए गए अलाव-स्थलों में। कुत्ते पट्टे में ही रहें, फूल तोड़ना मना है और पार्क आधी रात से सुबह 6 बजे तक बंद है।"
+                },
+                "kind": "inference",
+                "evidence": "Feux interdits sauf dans les foyers prévus à cet effet."
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "advertisement",
+              "title": "Appartement à louer",
+              "text": "À LOUER — 4 ½ à Gatineau (secteur Hull)\nGrand appartement au 2e étage, 2 chambres, cuisine rénovée, balcon.\nChauffage et eau chaude inclus, électricité non incluse.\nPrès de l'autobus et des écoles. Non-fumeur, petits animaux acceptés.\nLibre le 1er juillet. 1 450 $/mois.\nAppelez Martine après 17 h au 819 555-0142."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Qu'est-ce que le locataire devra payer en plus du loyer ?",
+                  "en": "What will the tenant have to pay on top of the rent?"
+                },
+                "options": [
+                  "Le chauffage.",
+                  "L'eau chaude.",
+                  "La rénovation de la cuisine.",
+                  "L'électricité."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "Heating and hot water are included; 'électricité non incluse' means the tenant pays electricity separately. (In Quebec, a '4 ½' has two bedrooms.)",
+                  "hi": "हीटिंग और गरम पानी किराए में शामिल हैं; 'électricité non incluse' यानी बिजली का बिल किराएदार अलग से भरेगा। (क्यूबेक में '4 ½' का मतलब दो बेडरूम वाला फ़्लैट।)"
+                },
+                "kind": "literal",
+                "evidence": "électricité non incluse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "gaps",
+        "title": "Phrases et texte à compléter (Q8–17)",
+        "instruction": "Choisissez le mot ou l'expression qui complète correctement la phrase ou le texte. / Choose the word or phrase that correctly fills the gap.",
+        "items": [
+          {
+            "document": {
+              "genre": "sentence",
+              "title": "Phrase 1",
+              "text": "Je cherche un appartement ___ soit proche de mon travail."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle option complète correctement la phrase ?",
+                  "en": "Which option correctly completes the sentence?"
+                },
+                "options": [
+                  "que",
+                  "qui",
+                  "dont",
+                  "où"
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "The gap is the subject of 'soit', so we need the subject relative pronoun 'qui'. 'Que' is for an object, 'dont' replaces 'de + noun', 'où' is for place/time.",
+                  "hi": "खाली जगह 'soit' क्रिया का कर्ता (subject) है, इसलिए 'qui' चाहिए। 'que' कर्म (object) के लिए, 'dont' 'de + संज्ञा' के लिए और 'où' जगह/समय के लिए आता है।"
+                },
+                "kind": "grammar"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "sentence",
+              "title": "Phrase 2",
+              "text": "Le médecin m'a conseillé de marcher tous les jours ___ rester en forme."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle option complète correctement la phrase ?",
+                  "en": "Which option correctly completes the sentence?"
+                },
+                "options": [
+                  "bien que",
+                  "malgré",
+                  "pour",
+                  "parce que"
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "'Pour + infinitive' expresses purpose (in order to). 'Parce que' and 'bien que' need a full clause, and 'malgré' needs a noun.",
+                  "hi": "'pour + infinitive' मक़सद बताता है (ताकि / के लिए)। 'parce que' और 'bien que' के बाद पूरा उपवाक्य चाहिए, और 'malgré' के बाद संज्ञा।"
+                },
+                "kind": "grammar"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "sentence",
+              "title": "Phrase 3",
+              "text": "Les élèves ___ les résultats sont excellents recevront un prix."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle option complète correctement la phrase ?",
+                  "en": "Which option correctly completes the sentence?"
+                },
+                "options": [
+                  "dont",
+                  "que",
+                  "qui",
+                  "lesquels"
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "'Les résultats des élèves' → 'les élèves dont les résultats…' (whose results). 'Dont' replaces a complement introduced by 'de'.",
+                  "hi": "'Les résultats des élèves' से बनता है 'les élèves dont les résultats…' (जिनके नतीजे)। 'dont' उस हिस्से की जगह आता है जो 'de' से शुरू होता है।"
+                },
+                "kind": "grammar"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "sentence",
+              "title": "Phrase 4",
+              "text": "Si la ville plantait plus d'arbres, il ___ moins chaud en été."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle option complète correctement la phrase ?",
+                  "en": "Which option correctly completes the sentence?"
+                },
+                "options": [
+                  "fait",
+                  "fera",
+                  "a fait",
+                  "ferait"
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "'Si + imparfait' (plantait) is followed by the conditional (ferait): a hypothetical situation, like English 'if… would'.",
+                  "hi": "'Si + imparfait' (plantait) के बाद संभावनार्थ / conditional (ferait) आता है: काल्पनिक स्थिति, जैसे हिंदी में 'अगर… लगाता, तो… होती'।"
+                },
+                "kind": "grammar"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "article",
+              "title": "Économiser l'énergie à la maison",
+              "text": "Économiser l'énergie à la maison : nos conseils\n\nAvec l'arrivée de l'hiver, la facture de chauffage peut vite augmenter. (1) ___, quelques gestes simples permettent de la réduire. D'abord, baissez le thermostat de deux degrés la nuit : vous ne sentirez presque pas la différence, (2) ___ vous économiserez jusqu'à 10 % d'énergie. Ensuite, vérifiez l'isolation de vos fenêtres. Si de l'air froid (3) ___ autour des cadres, posez des bandes isolantes : elles coûtent peu cher et s'installent facilement. Pensez aussi à fermer les rideaux le soir (4) ___ garder la chaleur à l'intérieur. Enfin, si vous êtes locataire, n'hésitez pas à contacter votre propriétaire : c'est à lui (5) ___ faire les grosses réparations. Plusieurs programmes gouvernementaux offrent d'ailleurs des subventions aux propriétaires qui (6) ___ des travaux de rénovation énergétique."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle option convient pour l'espace (1) ?",
+                  "en": "Which option fits gap (1)?"
+                },
+                "options": [
+                  "Pourtant",
+                  "Heureusement",
+                  "Donc",
+                  "Ainsi que"
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "The bill rises, but 'fortunately' simple actions can reduce it: 'Heureusement' introduces good news. 'Donc' (so) is illogical, 'pourtant' (yet) does not fit, 'ainsi que' (as well as) cannot start a sentence like this.",
+                  "hi": "बिल बढ़ता है, पर 'सौभाग्य से' कुछ आसान उपाय उसे घटा सकते हैं: 'Heureusement' अच्छी ख़बर लाता है। 'Donc' (इसलिए) तर्कहीन है, 'pourtant' (फिर भी) नहीं बैठता, और 'ainsi que' (के साथ-साथ) से ऐसा वाक्य शुरू नहीं होता।"
+                },
+                "kind": "vocabulary"
+              },
+              {
+                "q": {
+                  "fr": "Quelle option convient pour l'espace (2) ?",
+                  "en": "Which option fits gap (2)?"
+                },
+                "options": [
+                  "mais",
+                  "car",
+                  "donc",
+                  "ou"
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "Contrast: you will hardly feel a difference, BUT you will save up to 10 %. 'Mais' marks this contrast.",
+                  "hi": "विरोध दिखाना है: फ़र्क़ लगभग महसूस नहीं होगा, लेकिन 10 % तक ऊर्जा बचेगी। यह विरोध 'mais' (लेकिन) से दिखता है।"
+                },
+                "kind": "grammar"
+              },
+              {
+                "q": {
+                  "fr": "Quelle option convient pour l'espace (3) ?",
+                  "en": "Which option fits gap (3)?"
+                },
+                "options": [
+                  "entrera",
+                  "entrerait",
+                  "entre",
+                  "soit entré"
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "A real condition with 'si' takes the present tense: 'Si de l'air froid entre…, posez…'. Never the future or conditional right after 'si'.",
+                  "hi": "वास्तविक शर्त में 'si' के बाद वर्तमान काल (present) आता है: 'Si de l'air froid entre…, posez…'। 'si' के ठीक बाद भविष्य या conditional नहीं आता।"
+                },
+                "kind": "grammar"
+              },
+              {
+                "q": {
+                  "fr": "Quelle option convient pour l'espace (4) ?",
+                  "en": "Which option fits gap (4)?"
+                },
+                "options": [
+                  "pour que",
+                  "à cause de",
+                  "afin de",
+                  "au lieu de"
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "Purpose + infinitive: 'afin de garder' (in order to keep). 'Pour que' needs a subjunctive clause, 'à cause de' gives a cause, 'au lieu de' means 'instead of'.",
+                  "hi": "मक़सद + infinitive: 'afin de garder' (बनाए रखने के लिए)। 'pour que' के बाद subjunctive वाला उपवाक्य चाहिए, 'à cause de' कारण बताता है, 'au lieu de' का अर्थ है 'के बजाय'।"
+                },
+                "kind": "grammar"
+              },
+              {
+                "q": {
+                  "fr": "Quelle option convient pour l'espace (5) ?",
+                  "en": "Which option fits gap (5)?"
+                },
+                "options": [
+                  "que",
+                  "de",
+                  "par",
+                  "pour"
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "Fixed structure: 'C'est à quelqu'un de + infinitive' = it is someone's job to… → 'c'est à lui de faire'.",
+                  "hi": "तय ढाँचा: 'C'est à quelqu'un de + infinitive' = यह किसी की ज़िम्मेदारी है कि… → 'c'est à lui de faire' (यह उसका काम है)।"
+                },
+                "kind": "grammar"
+              },
+              {
+                "q": {
+                  "fr": "Quelle option convient pour l'espace (6) ?",
+                  "en": "Which option fits gap (6)?"
+                },
+                "options": [
+                  "entreprend",
+                  "entrepris",
+                  "entreprendre",
+                  "entreprennent"
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "'Qui' refers to 'les propriétaires' (plural), so the verb is third-person plural present: 'entreprennent'.",
+                  "hi": "'qui' यहाँ 'les propriétaires' (बहुवचन) के लिए है, इसलिए क्रिया तृतीय पुरुष बहुवचन वर्तमान में होगी: 'entreprennent'।"
+                },
+                "kind": "grammar"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "quick",
+        "title": "Lecture rapide (Q18–22)",
+        "instruction": "Parcourez rapidement les documents (tableaux, graphiques, horaires) et répondez. / Scan the documents (tables, charts, timetables) and answer.",
+        "items": [
+          {
+            "document": {
+              "genre": "chart",
+              "title": "Comparatif de logements",
+              "text": "COMPARATIF — Logements disponibles à Québec\n\n| Logement | Quartier | Pièces | Loyer | Inclus |\n| A | Limoilou | 3 ½ | 1 150 $ | chauffage |\n| B | Saint-Roch | 4 ½ | 1 480 $ | chauffage, électricité |\n| C | Sainte-Foy | 4 ½ | 1 390 $ | rien |\n| D | Montcalm | 5 ½ | 1 750 $ | chauffage, stationnement |"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quel logement de 4 ½ inclut l'électricité ?",
+                  "en": "Which 4 ½ apartment includes electricity?"
+                },
+                "options": [
+                  "Le logement A.",
+                  "Le logement B.",
+                  "Le logement C.",
+                  "Le logement D."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "Only B and C are 4 ½; B includes heating and electricity, C includes nothing ('rien').",
+                  "hi": "सिर्फ़ B और C '4 ½' हैं; B में हीटिंग और बिजली शामिल हैं, C में कुछ भी नहीं ('rien')।"
+                },
+                "kind": "literal",
+                "evidence": "chauffage, électricité"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "chart",
+              "title": "Sondage sur les transports",
+              "text": "Sondage : Comment les étudiants du Collège des Trois-Rives se rendent-ils sur le campus ?\n\nAutobus ████████████ 38 %\nVoiture ███████ 22 %\nMarche █████ 17 %\nVélo ████ 13 %\nCovoiturage ███ 10 %\n\n(Échantillon : 600 étudiants, automne 2025)"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Selon ce sondage, quel moyen de transport arrive en deuxième position ?",
+                  "en": "According to this survey, which means of transport comes second?"
+                },
+                "options": [
+                  "L'autobus.",
+                  "La marche.",
+                  "La voiture.",
+                  "Le vélo."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "The bus is first (38 %), the car second (22 %), then walking (17 %).",
+                  "hi": "बस पहले स्थान पर है (38 %), कार दूसरे (22 %) और फिर पैदल चलना (17 %)।"
+                },
+                "kind": "literal",
+                "evidence": "Voiture ███████ 22 %"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "schedule",
+              "title": "Clinique médicale du Plateau",
+              "text": "CLINIQUE MÉDICALE DU PLATEAU — Horaire\n\nConsultations sans rendez-vous : lundi au vendredi, 8 h à 11 h (arriver tôt, places limitées)\nConsultations avec rendez-vous : lundi au jeudi, 13 h à 20 h ; vendredi, 13 h à 17 h\nPrélèvements sanguins : mardi et jeudi, 7 h à 10 h, à jeun\n\nFermé la fin de semaine. En cas d'urgence, composez le 911 ou appelez Info-Santé au 811."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Vous devez faire une prise de sang. Quand venez-vous ?",
+                  "en": "You need a blood test. When do you go?"
+                },
+                "options": [
+                  "Le lundi après-midi.",
+                  "Le samedi matin.",
+                  "Le vendredi soir.",
+                  "Le jeudi tôt le matin, sans avoir mangé."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "Blood tests ('prélèvements sanguins') are on Tuesday and Thursday 7–10 a.m., 'à jeun' = without having eaten.",
+                  "hi": "ख़ून की जाँच ('prélèvements sanguins') मंगलवार और गुरुवार सुबह 7 से 10 बजे होती है, 'à jeun' यानी बिना कुछ खाए।"
+                },
+                "kind": "inference",
+                "evidence": "Prélèvements sanguins : mardi et jeudi, 7 h à 10 h, à jeun"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "schedule",
+              "title": "Activités de la bibliothèque",
+              "text": "BIBLIOTHÈQUE MUNICIPALE — Activités de novembre\n\n• Heure du conte (3-6 ans) : samedis, 10 h — gratuit\n• Atelier « Bien rédiger son CV » : mercredi 12 novembre, 18 h 30 — inscription obligatoire\n• Club de conversation en français (adultes, niveau intermédiaire) : tous les mardis, 19 h — gratuit, sans inscription\n• Initiation à la tablette pour aînés : jeudi 20 novembre, 14 h — places limitées à 10"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Vous êtes adulte et vous voulez pratiquer votre français sans vous inscrire. Quelle activité choisissez-vous ?",
+                  "en": "You are an adult and want to practise your French without registering. Which activity do you choose?"
+                },
+                "options": [
+                  "Le club de conversation.",
+                  "L'heure du conte.",
+                  "L'atelier sur le CV.",
+                  "L'initiation à la tablette."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "The conversation club is for adults, free and 'sans inscription' (no registration needed).",
+                  "hi": "बातचीत क्लब वयस्कों के लिए है, मुफ़्त है और 'sans inscription' (रजिस्ट्रेशन की ज़रूरत नहीं)।"
+                },
+                "kind": "literal",
+                "evidence": "gratuit, sans inscription"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "chart",
+              "title": "Déchets par habitant",
+              "text": "Ville de Val-des-Lacs — Déchets envoyés à l'enfouissement par habitant (kg par an)\n\n2015 : ████████████ 480 kg\n2018 : ███████████ 450 kg\n2021 : █████████ 390 kg\n2024 : ████████ 350 kg\nObjectif 2030 : ██████ 260 kg"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que montre ce graphique ?",
+                  "en": "What does this chart show?"
+                },
+                "options": [
+                  "Les déchets par habitant augmentent depuis 2015.",
+                  "La quantité de déchets par habitant diminue régulièrement.",
+                  "L'objectif de 2030 a déjà été atteint.",
+                  "La quantité de déchets est restée stable."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "From 480 kg (2015) to 350 kg (2024): a steady decrease. The 2030 goal (260 kg) has not yet been reached.",
+                  "hi": "2015 में 480 किलो से 2024 में 350 किलो: लगातार कमी। 2030 का लक्ष्य (260 किलो) अभी पूरा नहीं हुआ है।"
+                },
+                "kind": "gist",
+                "evidence": "2024 : ████████ 350 kg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "admin",
+        "title": "Documents administratifs et professionnels (Q23–32)",
+        "instruction": "Lisez les documents administratifs et professionnels et répondez aux questions. / Read the administrative and workplace documents and answer the questions.",
+        "items": [
+          {
+            "document": {
+              "genre": "contract",
+              "title": "Bail de logement — extrait",
+              "text": "BAIL DE LOGEMENT — EXTRAIT DES CONDITIONS PARTICULIÈRES\n\nArticle 4 — Durée. Le présent bail est conclu pour une durée de douze mois, du 1er juillet 2026 au 30 juin 2027. Il sera reconduit automatiquement aux mêmes conditions, sauf avis contraire de l'une des parties.\n\nArticle 5 — Loyer. Le loyer mensuel est de 1 320 $, payable le premier jour de chaque mois par virement bancaire.\n\nArticle 6 — Entretien. Le locataire s'engage à garder le logement propre et à signaler sans délai au propriétaire toute fuite d'eau ou tout bris. Les petites réparations courantes (ampoules, joints de robinet) sont à la charge du locataire ; les réparations majeures (toiture, chauffage, plomberie) sont à la charge du propriétaire.\n\nArticle 7 — Sous-location. Le locataire ne peut sous-louer tout ou partie du logement sans l'accord écrit préalable du propriétaire. Ce dernier ne peut refuser sans motif sérieux.\n\nArticle 8 — Non-renouvellement. Le locataire qui ne souhaite pas renouveler son bail doit en aviser le propriétaire par écrit entre trois et six mois avant la fin du bail."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Qui doit payer le remplacement d'une ampoule ?",
+                  "en": "Who has to pay for replacing a light bulb?"
+                },
+                "options": [
+                  "Le locataire.",
+                  "Le propriétaire.",
+                  "Les deux, à parts égales.",
+                  "Le gestionnaire de l'immeuble."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "Article 6: small routine repairs such as light bulbs are 'à la charge du locataire' (the tenant's responsibility).",
+                  "hi": "अनुच्छेद 6: बल्ब जैसी छोटी रोज़मर्रा की मरम्मत 'à la charge du locataire' है, यानी किराएदार की ज़िम्मेदारी।"
+                },
+                "kind": "literal",
+                "evidence": "Les petites réparations courantes (ampoules, joints de robinet) sont à la charge du locataire"
+              },
+              {
+                "q": {
+                  "fr": "Le locataire veut partir à la fin du bail. Que doit-il faire ?",
+                  "en": "The tenant wants to leave at the end of the lease. What must he do?"
+                },
+                "options": [
+                  "Prévenir le propriétaire par téléphone un mois avant.",
+                  "Ne rien faire : le bail se termine automatiquement.",
+                  "Envoyer un avis écrit entre trois et six mois avant le 30 juin 2027.",
+                  "Trouver lui-même un nouveau locataire."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "Article 8 requires written notice 3 to 6 months before the end. Without notice, the lease is renewed automatically (Article 4).",
+                  "hi": "अनुच्छेद 8 के अनुसार ख़त्म होने से 3 से 6 महीने पहले लिखित सूचना देनी होगी। सूचना न देने पर लीज़ अपने-आप आगे बढ़ जाती है (अनुच्छेद 4)।"
+                },
+                "kind": "inference",
+                "evidence": "doit en aviser le propriétaire par écrit entre trois et six mois avant la fin du bail"
+              },
+              {
+                "q": {
+                  "fr": "Concernant la sous-location, le bail indique que…",
+                  "en": "Regarding subletting, the lease states that…"
+                },
+                "options": [
+                  "elle est totalement interdite.",
+                  "elle est libre si elle dure moins de trois mois.",
+                  "le propriétaire peut la refuser sans donner de motif.",
+                  "elle est possible avec l'accord écrit du propriétaire, qui ne peut pas refuser sans bonne raison."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "Article 7: written prior consent is needed, and the landlord 'ne peut refuser sans motif sérieux' (cannot refuse without a serious reason).",
+                  "hi": "अनुच्छेद 7: पहले से लिखित अनुमति चाहिए, और मकान-मालिक 'ne peut refuser sans motif sérieux' यानी ठोस कारण के बिना मना नहीं कर सकता।"
+                },
+                "kind": "literal",
+                "evidence": "Ce dernier ne peut refuser sans motif sérieux."
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "email",
+              "title": "Courriel des ressources humaines",
+              "text": "Objet : Clinique de vaccination et évaluation ergonomique\nDe : Service des ressources humaines\nÀ : Tout le personnel\n\nBonjour à toutes et à tous,\n\nDans le cadre de notre programme de santé au travail, une clinique de vaccination contre la grippe aura lieu dans la salle de conférence B le mercredi 5 novembre, de 9 h à 15 h. La vaccination est gratuite et facultative. Pour éviter l'attente, nous vous demandons de réserver un créneau sur l'intranet avant le vendredi 31 octobre ; les personnes sans réservation seront reçues seulement s'il reste des places.\n\nPar ailleurs, les employés en télétravail au moins deux jours par semaine peuvent désormais demander une évaluation ergonomique de leur poste à domicile. Une ergothérapeute vous contactera pour un rendez-vous par vidéo. À la suite de cette évaluation, l'entreprise remboursera jusqu'à 300 $ pour l'achat d'une chaise ou d'un écran, sur présentation des factures.\n\nPour toute question, écrivez à sante@entreprise-boreal.ca.\n\nCordialement,\nNadia Tremblay, conseillère RH"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que doit faire un employé qui veut être sûr de se faire vacciner ?",
+                  "en": "What should an employee do to be sure of getting vaccinated?"
+                },
+                "options": [
+                  "Se présenter le 5 novembre sans réservation.",
+                  "Réserver un créneau sur l'intranet avant le 31 octobre.",
+                  "Envoyer un courriel à l'ergothérapeute.",
+                  "Payer le vaccin à la clinique."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "Booking a slot on the intranet before 31 October guarantees a place; walk-ins are seen only 's'il reste des places' (if places remain). The shot is free.",
+                  "hi": "31 अक्टूबर से पहले इंट्रानेट पर समय बुक करने से जगह पक्की होती है; बिना बुकिंग वालों को सिर्फ़ 's'il reste des places' (जगह बची हो तो) देखा जाएगा। टीका मुफ़्त है।"
+                },
+                "kind": "inference",
+                "evidence": "réserver un créneau sur l'intranet avant le vendredi 31 octobre"
+              },
+              {
+                "q": {
+                  "fr": "Pour obtenir le remboursement d'une chaise, un employé doit…",
+                  "en": "To be reimbursed for a chair, an employee must…"
+                },
+                "options": [
+                  "travailler à domicile tous les jours.",
+                  "acheter une chaise de plus de 300 $.",
+                  "avoir passé l'évaluation ergonomique et fournir ses factures.",
+                  "demander l'accord de son directeur."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "Reimbursement comes 'à la suite de cette évaluation' (after the assessment) and 'sur présentation des factures' (on presentation of receipts). Two days of telework a week is enough.",
+                  "hi": "पैसा 'à la suite de cette évaluation' (जाँच के बाद) और 'sur présentation des factures' (बिल दिखाने पर) मिलता है। हफ़्ते में दो दिन घर से काम करना काफ़ी है।"
+                },
+                "kind": "inference",
+                "evidence": "À la suite de cette évaluation, l'entreprise remboursera jusqu'à 300 $ pour l'achat d'une chaise ou d'un écran, sur présentation des factures."
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "letter",
+              "title": "Lettre du centre de services scolaire",
+              "text": "Centre de services scolaire de la Rivière-Verte\n\nObjet : Inscription à la francisation pour adultes\n\nMadame Kaur,\n\nNous avons bien reçu votre demande d'inscription au programme de francisation à temps plein. Nous avons le plaisir de vous informer que votre candidature a été acceptée. Les cours débuteront le lundi 12 janvier au Centre d'éducation des adultes Saint-Michel, du lundi au jeudi, de 8 h 30 à 15 h.\n\nVotre classement sera établi lors d'un test oral et écrit qui aura lieu le mercredi 7 janvier à 9 h. Veuillez apporter une pièce d'identité avec photo ainsi que l'original de votre certificat de sélection ou de votre carte de résident permanent. Sans ces documents, nous ne pourrons pas confirmer votre inscription.\n\nNous vous rappelons qu'une allocation de participation peut vous être versée si vous remplissez les conditions. Le formulaire de demande vous sera remis le premier jour des cours.\n\nVeuillez agréer, Madame, nos salutations distinguées.\n\nLe secrétariat"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Pourquoi Mme Kaur doit-elle venir le 7 janvier ?",
+                  "en": "Why must Ms Kaur come on 7 January?"
+                },
+                "options": [
+                  "Pour passer un test qui déterminera son niveau.",
+                  "Pour assister à son premier cours.",
+                  "Pour remplir le formulaire d'allocation.",
+                  "Pour rencontrer la directrice du centre."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "'Votre classement sera établi lors d'un test' = your level (placement) will be decided by a test on 7 January. Classes start on 12 January.",
+                  "hi": "'Votre classement sera établi lors d'un test' यानी 7 जनवरी की परीक्षा से उनका स्तर तय होगा। कक्षाएँ 12 जनवरी से शुरू होंगी।"
+                },
+                "kind": "literal",
+                "evidence": "Votre classement sera établi lors d'un test oral et écrit qui aura lieu le mercredi 7 janvier à 9 h."
+              },
+              {
+                "q": {
+                  "fr": "Que se passera-t-il si elle n'apporte pas ses documents ?",
+                  "en": "What will happen if she does not bring her documents?"
+                },
+                "options": [
+                  "Elle devra payer des frais.",
+                  "Son inscription ne pourra pas être confirmée.",
+                  "Elle commencera les cours plus tard.",
+                  "Elle recevra une allocation réduite."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "'Sans ces documents, nous ne pourrons pas confirmer votre inscription' — without them, registration cannot be confirmed.",
+                  "hi": "'Sans ces documents, nous ne pourrons pas confirmer votre inscription' — इन काग़ज़ों के बिना दाख़िला पक्का नहीं होगा।"
+                },
+                "kind": "literal",
+                "evidence": "Sans ces documents, nous ne pourrons pas confirmer votre inscription."
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "rules",
+              "title": "Règlement du jardin communautaire",
+              "text": "JARDIN COMMUNAUTAIRE DES TOURNESOLS — RÈGLEMENT 2026\n\n1. Chaque membre reçoit une parcelle de 3 m sur 6 m pour la saison (du 1er mai au 31 octobre). Les frais d'inscription sont de 35 $ par saison.\n2. La parcelle doit être cultivée au plus tard le 1er juin. Une parcelle laissée à l'abandon pendant plus de trois semaines pourra être attribuée à une autre personne de la liste d'attente, après un avertissement écrit.\n3. L'utilisation de pesticides et d'engrais chimiques est strictement interdite. Seuls le compost et les engrais naturels sont permis.\n4. Chaque membre participe à au moins quatre heures de corvée collective par saison (entretien des allées, du composteur et du cabanon).\n5. L'eau est disponible de 7 h à 21 h. Pour économiser l'eau, on arrose de préférence tôt le matin ou en soirée, et jamais en plein soleil.\n6. À la fin de la saison, la parcelle doit être nettoyée avant le 31 octobre. Les membres qui respectent le règlement ont priorité pour garder la même parcelle l'année suivante."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Qu'arrive-t-il si un membre ne s'occupe pas de sa parcelle pendant un mois ?",
+                  "en": "What happens if a member neglects their plot for a month?"
+                },
+                "options": [
+                  "Il doit payer une amende de 35 $.",
+                  "Il est immédiatement exclu du jardin.",
+                  "Il doit faire quatre heures de corvée supplémentaires.",
+                  "Il peut perdre sa parcelle après avoir reçu un avertissement écrit."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "Rule 2: a plot abandoned for more than three weeks may be given to someone on the waiting list, 'après un avertissement écrit' (after a written warning) — so not immediately.",
+                  "hi": "नियम 2: तीन हफ़्ते से ज़्यादा छोड़ी गई क्यारी प्रतीक्षा-सूची के किसी और को दी जा सकती है, 'après un avertissement écrit' (लिखित चेतावनी के बाद) — यानी तुरंत नहीं।"
+                },
+                "kind": "inference",
+                "evidence": "Une parcelle laissée à l'abandon pendant plus de trois semaines pourra être attribuée à une autre personne de la liste d'attente, après un avertissement écrit."
+              },
+              {
+                "q": {
+                  "fr": "Lequel de ces produits est permis dans le jardin ?",
+                  "en": "Which of these products is allowed in the garden?"
+                },
+                "options": [
+                  "Un insecticide.",
+                  "Le compost.",
+                  "Un engrais chimique.",
+                  "Un désherbant chimique."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "Rule 3: only compost and natural fertilisers are allowed; pesticides (including insecticides and weed killers) and chemical fertilisers are forbidden.",
+                  "hi": "नियम 3: सिर्फ़ कम्पोस्ट और प्राकृतिक खाद की अनुमति है; कीटनाशक, खरपतवार-नाशक और रासायनिक खाद मना हैं।"
+                },
+                "kind": "literal",
+                "evidence": "Seuls le compost et les engrais naturels sont permis."
+              },
+              {
+                "q": {
+                  "fr": "Quel avantage ont les membres qui respectent le règlement ?",
+                  "en": "What advantage do members who follow the rules have?"
+                },
+                "options": [
+                  "Ils ne paient pas les frais d'inscription.",
+                  "Ils reçoivent une parcelle plus grande.",
+                  "Ils peuvent arroser à toute heure.",
+                  "Ils sont prioritaires pour garder leur parcelle l'année suivante."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "Rule 6: members who respect the rules 'ont priorité' (have priority) to keep the same plot next year.",
+                  "hi": "नियम 6: नियम मानने वाले सदस्यों को अगले साल वही क्यारी रखने में 'priorité' (प्राथमिकता) मिलती है।"
+                },
+                "kind": "literal",
+                "evidence": "Les membres qui respectent le règlement ont priorité pour garder la même parcelle l'année suivante."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "press",
+        "title": "Articles de presse (Q33–40)",
+        "instruction": "Lisez les articles et répondez aux questions de compréhension, d'interprétation et de point de vue. / Read the articles and answer questions on content, inference and the author's viewpoint.",
+        "items": [
+          {
+            "document": {
+              "genre": "article",
+              "title": "Crise du logement : la colocation intergénérationnelle gagne du terrain",
+              "text": "Crise du logement : la colocation intergénérationnelle gagne du terrain\n\nÀ Montréal comme à Québec, trouver un appartement abordable relève de plus en plus du parcours du combattant. Selon plusieurs organismes de défense des locataires, le loyer moyen d'un logement de deux chambres a augmenté de près de 30 % en cinq ans, alors que les salaires, eux, ont progressé beaucoup plus lentement. Face à cette situation, une solution autrefois marginale attire un nombre croissant de personnes : la colocation intergénérationnelle.\n\nLe principe est simple. Une personne âgée qui vit seule dans une grande maison loue une chambre à un étudiant ou à un jeune travailleur, pour un loyer bien inférieur au prix du marché. En échange, le locataire s'engage à offrir une présence quelques soirs par semaine et à rendre de petits services : faire les courses, sortir les poubelles, déneiger l'entrée.\n\n« Au début, j'avais peur de perdre mon intimité », confie Gisèle, 78 ans, qui partage sa maison de Rosemont avec Karim, un étudiant en génie de 23 ans. « Aujourd'hui, je ne pourrais plus m'en passer. On soupe ensemble deux fois par semaine, et ma fille est rassurée de savoir que je ne suis pas seule la nuit. » Karim, lui, paie 450 $ par mois, soit environ deux fois moins qu'une chambre en colocation classique dans le même quartier.\n\nLes organismes qui mettent en relation les participants insistent toutefois sur l'importance d'une bonne préparation. Chaque duo est rencontré séparément, puis ensemble, et signe une entente qui précise les attentes de chacun : heures de silence, utilisation de la cuisine, visites. « Ce n'est pas une solution miracle à la crise du logement, prévient une coordonnatrice. Il faudra construire massivement des logements sociaux. Mais c'est une réponse humaine, qui brise aussi l'isolement des aînés. »"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "D'après l'article, pourquoi la colocation intergénérationnelle se développe-t-elle ?",
+                  "en": "According to the article, why is intergenerational house-sharing growing?"
+                },
+                "options": [
+                  "Parce que les loyers ont augmenté beaucoup plus vite que les salaires.",
+                  "Parce que les aînés veulent gagner beaucoup d'argent.",
+                  "Parce que le gouvernement l'impose aux propriétaires.",
+                  "Parce que les étudiants refusent de vivre en résidence."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "The article links the trend to rents rising almost 30 % in five years while wages rose much more slowly ('Face à cette situation…').",
+                  "hi": "लेख इस चलन को किराए से जोड़ता है: पाँच साल में किराया लगभग 30 % बढ़ा, जबकि तनख़्वाह बहुत धीरे बढ़ी ('Face à cette situation…')।"
+                },
+                "kind": "literal",
+                "evidence": "le loyer moyen d'un logement de deux chambres a augmenté de près de 30 % en cinq ans, alors que les salaires, eux, ont progressé beaucoup plus lentement"
+              },
+              {
+                "q": {
+                  "fr": "Que peut-on dire de Gisèle ?",
+                  "en": "What can we say about Gisèle?"
+                },
+                "options": [
+                  "Elle regrette d'avoir accueilli un étudiant.",
+                  "Elle a déménagé chez sa fille.",
+                  "Elle a d'abord hésité, mais elle est maintenant très satisfaite.",
+                  "Elle demande à Karim de faire tout le ménage."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "At first she feared losing her privacy, but now 'je ne pourrais plus m'en passer' (I couldn't do without it any more).",
+                  "hi": "शुरू में उन्हें अपनी निजता खोने का डर था, पर अब 'je ne pourrais plus m'en passer' यानी अब वे इसके बिना रह ही नहीं सकतीं।"
+                },
+                "kind": "inference",
+                "evidence": "Aujourd'hui, je ne pourrais plus m'en passer."
+              },
+              {
+                "q": {
+                  "fr": "Quel est le point de vue de la coordonnatrice ?",
+                  "en": "What is the coordinator's point of view?"
+                },
+                "options": [
+                  "Cette formule va régler à elle seule la crise du logement.",
+                  "Il faut cesser de construire des logements sociaux.",
+                  "Les aînés ne devraient pas vivre avec des étudiants.",
+                  "Cette formule est utile, mais elle ne remplace pas la construction de logements sociaux."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "She says it is 'pas une solution miracle' and that massive social housing construction is still needed, while praising its human side.",
+                  "hi": "वे कहती हैं कि यह 'pas une solution miracle' (कोई जादुई हल नहीं) है और बड़े पैमाने पर सामाजिक आवास बनाने ही होंगे, हालाँकि वे इसके मानवीय पहलू की तारीफ़ करती हैं।"
+                },
+                "kind": "inference",
+                "evidence": "Ce n'est pas une solution miracle à la crise du logement"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "article",
+              "title": "Îlots de chaleur : des cours d'école transformées en oasis de fraîcheur",
+              "text": "Îlots de chaleur : des cours d'école transformées en oasis de fraîcheur\n\nQuand le thermomètre dépasse 30 degrés, l'asphalte d'une cour d'école peut atteindre plus de 50 degrés en surface. Pour les enfants qui y jouent, mais aussi pour les habitants du quartier, ces grandes surfaces minéralisées sont de véritables îlots de chaleur. C'est pourquoi plusieurs villes du Québec et de France ont lancé des programmes pour « déminéraliser » les cours d'école, c'est-à-dire remplacer une partie du bitume par de la terre, de la pelouse, des arbres et des jeux en bois.\n\nÀ l'école primaire des Bois-Francs, les travaux se sont terminés au printemps dernier. Près de la moitié de la cour est désormais couverte de végétation. Quarante arbres ont été plantés, un petit potager a été aménagé et un sentier de copeaux de bois serpente entre les buttes. « Les élèves sont plus calmes en revenant de la récréation, observe la directrice, Sophie Gagnon. Il y a aussi moins de conflits, parce que les enfants ne se disputent plus tous le même terrain de soccer. »\n\nLes bienfaits ne s'arrêtent pas aux murs de l'école. En dehors des heures de classe, la cour est ouverte aux familles du quartier, qui manquaient d'espaces verts. Les nouvelles surfaces absorbent aussi l'eau de pluie, ce qui réduit les risques d'inondation lors des orages violents.\n\nCes projets ont cependant un coût : entre 300 000 et 800 000 dollars par cour, selon les aménagements. Certains parents s'inquiètent également de la boue les jours de pluie et des genoux écorchés. Pour les spécialistes de l'aménagement urbain, ces inconvénients pèsent peu face aux enjeux. Avec la multiplication des vagues de chaleur, adapter les lieux fréquentés par les enfants n'est plus un luxe, estiment-ils, mais une nécessité de santé publique."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Dans l'article, que signifie « déminéraliser » une cour d'école ?",
+                  "en": "In the article, what does 'déminéraliser' a schoolyard mean?"
+                },
+                "options": [
+                  "Y installer de nouveaux jeux en métal.",
+                  "Remplacer une partie de l'asphalte par des éléments naturels.",
+                  "Interdire l'accès aux élèves pendant l'été.",
+                  "Repeindre le sol en blanc pour réfléchir le soleil."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "The article explains it right away with 'c'est-à-dire' (that is to say): replacing part of the asphalt with soil, grass, trees and wooden play structures.",
+                  "hi": "लेख 'c'est-à-dire' (यानी) कहकर तुरंत समझाता है: डामर के कुछ हिस्से की जगह मिट्टी, घास, पेड़ और लकड़ी के झूले लगाना।"
+                },
+                "kind": "vocabulary",
+                "evidence": "remplacer une partie du bitume par de la terre, de la pelouse, des arbres et des jeux en bois"
+              },
+              {
+                "q": {
+                  "fr": "Selon la directrice, quel effet la nouvelle cour a-t-elle eu ?",
+                  "en": "According to the principal, what effect has the new yard had?"
+                },
+                "options": [
+                  "Les élèves ont de meilleures notes.",
+                  "Les élèves jouent davantage au soccer.",
+                  "Les enfants sont plus calmes et se disputent moins.",
+                  "Les parents viennent plus souvent à l'école."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "She says pupils are calmer after recess and there are fewer conflicts.",
+                  "hi": "प्रधानाचार्या कहती हैं कि छुट्टी के बाद बच्चे ज़्यादा शांत रहते हैं और झगड़े कम होते हैं।"
+                },
+                "kind": "literal",
+                "evidence": "Les élèves sont plus calmes en revenant de la récréation"
+              },
+              {
+                "q": {
+                  "fr": "Quelle est la position des spécialistes cités à la fin de l'article ?",
+                  "en": "What is the position of the experts quoted at the end?"
+                },
+                "options": [
+                  "Adapter les cours d'école est devenu indispensable pour la santé.",
+                  "Les coûts de ces projets sont trop élevés.",
+                  "Les inquiétudes des parents justifient d'arrêter les travaux.",
+                  "Il faudrait plutôt climatiser les écoles."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "For them the drawbacks 'pèsent peu' (matter little); it is 'n'est plus un luxe… mais une nécessité de santé publique'.",
+                  "hi": "उनके अनुसार कमियाँ 'pèsent peu' (मामूली हैं); यह 'n'est plus un luxe… mais une nécessité de santé publique' — अब विलासिता नहीं, जन-स्वास्थ्य की ज़रूरत है।"
+                },
+                "kind": "inference",
+                "evidence": "n'est plus un luxe, estiment-ils, mais une nécessité de santé publique"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "opinion",
+              "title": "Interdire le cellulaire à l'école : une bonne idée, mais pas suffisante",
+              "text": "Chronique — Interdire le cellulaire à l'école : une bonne idée, mais pas suffisante\n\nDepuis la rentrée, le cellulaire est interdit dans les classes de toutes les écoles secondaires de la province. Les enseignants que j'ai rencontrés sont presque unanimes : les élèves sont plus attentifs, et les pauses du midi ont retrouvé un peu de leur bruit d'autrefois — des conversations, des rires, des parties de cartes. Je m'en réjouis sincèrement.\n\nPourtant, il serait naïf de croire que le problème est réglé. Un adolescent qui laisse son téléphone dans son casier de 8 h à 15 h le retrouve aussitôt la cloche sonnée, et passe souvent plusieurs heures devant un écran le soir. Interdire, c'est facile ; apprendre à bien utiliser, c'est une autre affaire. Or, l'école semble avoir oublié la seconde partie du travail.\n\nNos jeunes vont vivre toute leur vie avec ces outils. Ils doivent comprendre comment fonctionnent les algorithmes des réseaux sociaux, pourquoi certaines applications sont conçues pour nous retenir le plus longtemps possible, comment vérifier une information avant de la partager. Ces compétences ne s'acquièrent pas en cachant le problème dans un casier.\n\nJe propose donc que chaque école consacre au moins une heure par semaine à l'éducation au numérique, dès la première année du secondaire. Les parents, eux aussi, ont un rôle à jouer : il est difficile de demander à un enfant de lâcher son téléphone à table quand on consulte le sien entre deux bouchées.\n\nL'interdiction était un premier pas nécessaire. Ne nous arrêtons pas en si bon chemin."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quel est l'avis général de l'auteur sur l'interdiction du cellulaire ?",
+                  "en": "What is the author's overall opinion of the phone ban?"
+                },
+                "options": [
+                  "Il la trouve inutile et voudrait l'annuler.",
+                  "Il l'approuve, mais pense qu'elle doit être accompagnée d'autres mesures.",
+                  "Il pense qu'elle a aggravé les problèmes des adolescents.",
+                  "Il n'exprime aucune opinion personnelle."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "He is glad about it ('Je m'en réjouis') and calls it 'un premier pas nécessaire', but proposes digital education too.",
+                  "hi": "वे इससे ख़ुश हैं ('Je m'en réjouis') और इसे 'un premier pas nécessaire' (ज़रूरी पहला क़दम) कहते हैं, पर साथ में डिजिटल शिक्षा का सुझाव भी देते हैं।"
+                },
+                "kind": "gist",
+                "evidence": "L'interdiction était un premier pas nécessaire."
+              },
+              {
+                "q": {
+                  "fr": "Quand l'auteur parle des parents qui consultent leur téléphone « entre deux bouchées », il veut dire que…",
+                  "en": "When the author mentions parents checking their phone 'between two bites', he means that…"
+                },
+                "options": [
+                  "les parents devraient manger plus lentement.",
+                  "les repas en famille sont devenus rares.",
+                  "les parents ne connaissent pas les réseaux sociaux.",
+                  "les parents donnent parfois le mauvais exemple."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "It is hard to ask a child to put the phone down at the table when you check yours during the meal: parents must set the example.",
+                  "hi": "जब आप ख़ुद खाना खाते हुए फ़ोन देखते हैं, तो बच्चे से फ़ोन छोड़ने को कहना मुश्किल है: माता-पिता को ख़ुद मिसाल बनना होगा।"
+                },
+                "kind": "inference",
+                "evidence": "il est difficile de demander à un enfant de lâcher son téléphone à table quand on consulte le sien entre deux bouchées"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "sections": [
+      {
+        "key": "pictures",
+        "title": "Dialogues et scènes (Q1–4)",
+        "instruction": "Écoutez chaque dialogue une seule fois et choisissez la scène qui correspond. / Listen to each conversation once and choose the matching scene.",
+        "items": [
+          {
+            "context": "Dans un commerce.",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Pharmacienne",
+                "voice": "f1",
+                "fr": "Bonjour, je peux vous aider ?"
+              },
+              {
+                "speaker": "Client",
+                "voice": "m1",
+                "fr": "Oui, j'ai mal à la gorge depuis deux jours. Vous auriez quelque chose ?"
+              },
+              {
+                "speaker": "Pharmacienne",
+                "voice": "f1",
+                "fr": "Je vous conseille ces pastilles. Vous en prenez une toutes les trois heures."
+              },
+              {
+                "speaker": "Client",
+                "voice": "m1",
+                "fr": "Parfait, je les prends. Je peux payer par carte ?"
+              },
+              {
+                "speaker": "Pharmacienne",
+                "voice": "f1",
+                "fr": "Bien sûr."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle scène correspond à ce dialogue ?",
+                  "en": "Which scene matches this conversation?"
+                },
+                "options": [
+                  "Un homme achète des pastilles dans une pharmacie.",
+                  "Un homme consulte un médecin dans une clinique.",
+                  "Une femme achète du sirop au supermarché.",
+                  "Un homme paie son repas au restaurant."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "A man with a sore throat buys lozenges ('pastilles') that the pharmacist recommends, and pays by card.",
+                  "hi": "गले में दर्द वाला एक आदमी फ़ार्मासिस्ट की सलाह पर 'pastilles' (गले की गोलियाँ) ख़रीदता है और कार्ड से पैसे देता है।"
+                },
+                "kind": "gist",
+                "evidence": "Je vous conseille ces pastilles."
+              }
+            ]
+          },
+          {
+            "context": "Dans un logement.",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Agent",
+                "voice": "m2",
+                "fr": "Voilà le salon. Comme vous voyez, il y a beaucoup de lumière."
+              },
+              {
+                "speaker": "Visiteuse",
+                "voice": "f2",
+                "fr": "C'est vrai, c'est très lumineux. Et la chambre, elle est où ?"
+              },
+              {
+                "speaker": "Agent",
+                "voice": "m2",
+                "fr": "Juste au bout du couloir, à côté de la salle de bain."
+              },
+              {
+                "speaker": "Visiteuse",
+                "voice": "f2",
+                "fr": "Et le balcon, il donne sur la rue ou sur la cour ?"
+              },
+              {
+                "speaker": "Agent",
+                "voice": "m2",
+                "fr": "Sur la cour. C'est très tranquille."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle scène correspond à ce dialogue ?",
+                  "en": "Which scene matches this conversation?"
+                },
+                "options": [
+                  "Une femme fait ses valises dans une chambre.",
+                  "Un homme fait visiter un appartement à une femme.",
+                  "Un homme et une femme repeignent un salon.",
+                  "Un homme déneige un balcon."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "The man shows the living room, bedroom and balcony: it is an apartment visit ('visite').",
+                  "hi": "आदमी बैठक, बेडरूम और बालकनी दिखा रहा है: यह फ़्लैट देखने का दौरा ('visite') है।"
+                },
+                "kind": "gist",
+                "evidence": "Voilà le salon. Comme vous voyez, il y a beaucoup de lumière."
+              }
+            ]
+          },
+          {
+            "context": "À l'école.",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Enseignante",
+                "voice": "f1",
+                "fr": "Votre fils fait de gros progrès en lecture, mais il a encore du mal en mathématiques."
+              },
+              {
+                "speaker": "Père",
+                "voice": "m1",
+                "fr": "On essaie de faire les devoirs avec lui tous les soirs."
+              },
+              {
+                "speaker": "Enseignante",
+                "voice": "f1",
+                "fr": "C'est très bien. Je peux aussi lui proposer l'aide aux devoirs le mercredi, après la classe."
+              },
+              {
+                "speaker": "Père",
+                "voice": "m1",
+                "fr": "Ah, ce serait super, merci !"
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle scène correspond à ce dialogue ?",
+                  "en": "Which scene matches this conversation?"
+                },
+                "options": [
+                  "Un élève passe un examen de mathématiques.",
+                  "Une mère inscrit son fils à la bibliothèque.",
+                  "Un père et une enseignante parlent des résultats d'un élève.",
+                  "Un père aide son fils à faire ses devoirs à la maison."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "A teacher tells a father about his son's progress in reading and difficulties in maths: a parent–teacher meeting.",
+                  "hi": "शिक्षिका एक पिता को बताती हैं कि बेटा पढ़ने में आगे बढ़ रहा है पर गणित में कमज़ोर है: यह अभिभावक-शिक्षक मुलाक़ात है।"
+                },
+                "kind": "gist",
+                "evidence": "Votre fils fait de gros progrès en lecture"
+              }
+            ]
+          },
+          {
+            "context": "Dans un lieu public.",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Employé",
+                "voice": "m2",
+                "fr": "Bonjour, qu'est-ce que vous apportez aujourd'hui ?"
+              },
+              {
+                "speaker": "Citoyenne",
+                "voice": "f2",
+                "fr": "Un vieux téléviseur et deux pots de peinture."
+              },
+              {
+                "speaker": "Employé",
+                "voice": "m2",
+                "fr": "Le téléviseur, vous le déposez dans le conteneur des appareils électroniques, là-bas à gauche. Pour la peinture, c'est au comptoir des résidus dangereux."
+              },
+              {
+                "speaker": "Citoyenne",
+                "voice": "f2",
+                "fr": "D'accord, merci."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle scène correspond à ce dialogue ?",
+                  "en": "Which scene matches this conversation?"
+                },
+                "options": [
+                  "Une femme achète un téléviseur dans un magasin.",
+                  "Une femme peint un mur de sa maison.",
+                  "Un homme répare un téléviseur.",
+                  "Une femme dépose de vieux objets dans un écocentre."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "She brings an old TV and paint to drop off in containers: a recycling depot (écocentre).",
+                  "hi": "वह पुराना टीवी और पेंट के डिब्बे जमा करने लाई है: यह रीसाइक्लिंग केंद्र (écocentre) है।"
+                },
+                "kind": "gist",
+                "evidence": "Le téléviseur, vous le déposez dans le conteneur des appareils électroniques"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "messages",
+        "title": "Annonces, messages et micro-trottoirs (Q5–20)",
+        "instruction": "Écoutez les annonces publiques, les messages sur répondeur et les micro-trottoirs une seule fois, puis répondez. / Listen once to the announcements, voicemails and street interviews, then answer.",
+        "items": [
+          {
+            "context": "Annonce dans le métro.",
+            "type": "announcement",
+            "lines": [
+              {
+                "speaker": "Annonce",
+                "voice": "narrator",
+                "fr": "Votre attention, s'il vous plaît. En raison d'un incident technique, le service est interrompu sur la ligne verte entre les stations Berri-UQAM et Frontenac. Des autobus de remplacement sont disponibles à la sortie des stations. Nous prévoyons la reprise du service vers 18 h 30. Merci de votre patience."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que propose-t-on aux voyageurs ?",
+                  "en": "What are passengers offered?"
+                },
+                "options": [
+                  "D'attendre le prochain métro sur le quai.",
+                  "De prendre un autobus de remplacement.",
+                  "De se faire rembourser leur billet.",
+                  "D'utiliser une autre ligne de métro."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "Replacement buses ('autobus de remplacement') are waiting at the station exits.",
+                  "hi": "स्टेशन के बाहर 'autobus de remplacement' यानी बदले में चलने वाली बसें उपलब्ध हैं।"
+                },
+                "kind": "literal",
+                "evidence": "Des autobus de remplacement sont disponibles à la sortie des stations."
+              }
+            ]
+          },
+          {
+            "context": "Annonce dans un hôpital.",
+            "type": "announcement",
+            "lines": [
+              {
+                "speaker": "Annonce",
+                "voice": "narrator",
+                "fr": "Avis aux visiteurs. En raison de l'épidémie de grippe, les visites aux patients de l'unité de médecine sont limitées à deux personnes à la fois, de 14 h à 20 h. Le port du masque est obligatoire dans tout l'étage. Des masques sont disponibles à l'entrée. Les enfants de moins de douze ans ne sont pas admis."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Qu'est-ce qui est obligatoire pour les visiteurs ?",
+                  "en": "What is compulsory for visitors?"
+                },
+                "options": [
+                  "Venir avec un enfant.",
+                  "Arriver avant 14 h.",
+                  "Porter un masque.",
+                  "Se faire vacciner sur place."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "'Le port du masque est obligatoire' = wearing a mask is compulsory on the whole floor.",
+                  "hi": "'Le port du masque est obligatoire' यानी पूरी मंज़िल पर मास्क पहनना ज़रूरी है।"
+                },
+                "kind": "literal",
+                "evidence": "Le port du masque est obligatoire dans tout l'étage."
+              }
+            ]
+          },
+          {
+            "context": "Annonce dans un supermarché.",
+            "type": "announcement",
+            "lines": [
+              {
+                "speaker": "Annonce",
+                "voice": "narrator",
+                "fr": "Chers clients, profitez cette semaine de notre promotion sur les fruits et légumes d'ici : deux paniers de pommes du Québec pour le prix d'un ! Et n'oubliez pas : depuis le 1er janvier, les sacs en plastique ne sont plus offerts aux caisses. Pensez à apporter vos sacs réutilisables. Merci et bon magasinage !"
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que demande-t-on aux clients ?",
+                  "en": "What are customers asked to do?"
+                },
+                "options": [
+                  "D'apporter leurs propres sacs.",
+                  "D'acheter des sacs en plastique à la caisse.",
+                  "De payer un supplément pour les pommes.",
+                  "D'utiliser les caisses libre-service."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "Plastic bags are no longer offered, so customers should bring reusable bags ('sacs réutilisables').",
+                  "hi": "अब प्लास्टिक की थैलियाँ नहीं मिलतीं, इसलिए ग्राहकों को अपनी 'sacs réutilisables' (बार-बार इस्तेमाल होने वाली थैलियाँ) लानी चाहिए।"
+                },
+                "kind": "literal",
+                "evidence": "Pensez à apporter vos sacs réutilisables."
+              }
+            ]
+          },
+          {
+            "context": "Annonce à l'université.",
+            "type": "announcement",
+            "lines": [
+              {
+                "speaker": "Annonce",
+                "voice": "narrator",
+                "fr": "Bonjour à toutes et à tous. Nous rappelons aux étudiants que la date limite pour abandonner un cours sans mention d'échec est le 10 novembre. Après cette date, l'abandon ne sera plus possible et le cours apparaîtra sur votre relevé de notes. Pour toute question, présentez-vous au registrariat, au local A-120."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Un étudiant veut abandonner un cours le 15 novembre. Que se passe-t-il ?",
+                  "en": "A student wants to drop a course on 15 November. What happens?"
+                },
+                "options": [
+                  "Il sera remboursé.",
+                  "Il doit simplement passer au local A-120.",
+                  "Le cours disparaît de son relevé de notes.",
+                  "Ce n'est plus possible."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "The deadline is 10 November; after that, dropping is no longer possible ('ne sera plus possible').",
+                  "hi": "आख़िरी तारीख़ 10 नवंबर है; उसके बाद कोर्स छोड़ना 'ne sera plus possible' यानी संभव नहीं होगा।"
+                },
+                "kind": "inference",
+                "evidence": "Après cette date, l'abandon ne sera plus possible"
+              }
+            ]
+          },
+          {
+            "context": "Message sur un répondeur.",
+            "type": "voicemail",
+            "lines": [
+              {
+                "speaker": "Julie",
+                "voice": "f1",
+                "fr": "Bonjour, ici Julie, de la clinique dentaire Sourire Plus. Je vous appelle pour confirmer votre rendez-vous de jeudi à 10 h avec la docteure Nguyen. Si vous ne pouvez pas venir, merci de nous prévenir au moins 24 heures à l'avance, sinon des frais de 50 $ s'appliqueront. Vous pouvez nous rappeler au 514 555-0187. Bonne journée !"
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Pourquoi faut-il prévenir 24 heures à l'avance en cas d'absence ?",
+                  "en": "Why must you give 24 hours' notice if you cannot come?"
+                },
+                "options": [
+                  "Pour obtenir un rabais.",
+                  "Pour éviter de payer des frais.",
+                  "Pour changer de dentiste.",
+                  "Pour recevoir un rappel par courriel."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "'Sinon des frais de 50 $ s'appliqueront' = otherwise a $50 fee will apply.",
+                  "hi": "'sinon des frais de 50 $ s'appliqueront' यानी ऐसा न करने पर 50 डॉलर का शुल्क लगेगा।"
+                },
+                "kind": "inference",
+                "evidence": "sinon des frais de 50 $ s'appliqueront"
+              }
+            ]
+          },
+          {
+            "context": "Message sur un répondeur.",
+            "type": "voicemail",
+            "lines": [
+              {
+                "speaker": "Robert Lavoie",
+                "voice": "m1",
+                "fr": "Oui, bonjour madame Diallo, c'est Robert Lavoie, le propriétaire. Je voulais vous avertir que l'exterminateur va passer dans l'immeuble lundi prochain, entre 8 h et midi, pour un traitement préventif contre les punaises de lit. Il faudrait vider vos armoires de cuisine et laisser une clé chez le concierge si vous n'êtes pas là. Merci, et rappelez-moi si vous avez des questions."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Qu'est-ce que Mme Diallo doit faire avant lundi ?",
+                  "en": "What must Ms Diallo do before Monday?"
+                },
+                "options": [
+                  "Quitter son appartement pour la semaine.",
+                  "Acheter un produit contre les insectes.",
+                  "Vider ses armoires de cuisine.",
+                  "Payer le passage de l'exterminateur."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "The landlord asks her to empty her kitchen cupboards ('vider vos armoires de cuisine') and leave a key if she is out.",
+                  "hi": "मकान-मालिक कहता है कि रसोई की अलमारियाँ ख़ाली कर दें ('vider vos armoires de cuisine') और घर पर न हों तो चाबी छोड़ दें।"
+                },
+                "kind": "literal",
+                "evidence": "Il faudrait vider vos armoires de cuisine"
+              }
+            ]
+          },
+          {
+            "context": "Message sur un répondeur.",
+            "type": "voicemail",
+            "lines": [
+              {
+                "speaker": "Caroline Bédard",
+                "voice": "f2",
+                "fr": "Bonjour monsieur Singh, ici Caroline Bédard, de la résidence pour aînés Les Jardins du Lac. Nous avons étudié votre candidature pour le poste de préposé aux bénéficiaires, et nous aimerions vous rencontrer en entrevue. Seriez-vous disponible mercredi après-midi ? Apportez, s'il vous plaît, une copie de votre diplôme et de votre certificat de secourisme. Vous pouvez me joindre au 450 555-0123, poste 204."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Pourquoi Caroline Bédard appelle-t-elle ?",
+                  "en": "Why is Caroline Bédard calling?"
+                },
+                "options": [
+                  "Pour proposer une entrevue d'embauche.",
+                  "Pour annoncer que le poste est déjà pris.",
+                  "Pour offrir une formation en secourisme.",
+                  "Pour donner des nouvelles d'un résident."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "'Nous aimerions vous rencontrer en entrevue' = we would like to meet you for an interview.",
+                  "hi": "'Nous aimerions vous rencontrer en entrevue' यानी हम आपको इंटरव्यू के लिए बुलाना चाहते हैं।"
+                },
+                "kind": "gist",
+                "evidence": "nous aimerions vous rencontrer en entrevue"
+              }
+            ]
+          },
+          {
+            "context": "Message sur un répondeur.",
+            "type": "voicemail",
+            "lines": [
+              {
+                "speaker": "Thomas",
+                "voice": "m2",
+                "fr": "Salut Léa, c'est Thomas ! Dis, pour samedi, le grand ménage du parc, on se donne rendez-vous à 9 h devant le chalet. La Ville fournit les gants et les sacs, mais apporte ta bouteille d'eau, ils n'en donneront pas. Et s'il pleut, c'est reporté à dimanche. Bon, rappelle-moi !"
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Qu'est-ce que Léa doit apporter ?",
+                  "en": "What does Léa need to bring?"
+                },
+                "options": [
+                  "Des gants.",
+                  "Des sacs à déchets.",
+                  "Une bouteille d'eau.",
+                  "Un parapluie."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "The city provides gloves and bags, but not water: 'apporte ta bouteille d'eau'.",
+                  "hi": "नगरपालिका दस्ताने और थैलियाँ देगी, पर पानी नहीं: 'apporte ta bouteille d'eau' (अपनी पानी की बोतल लाना)।"
+                },
+                "kind": "literal",
+                "evidence": "apporte ta bouteille d'eau"
+              }
+            ]
+          },
+          {
+            "context": "Micro-trottoir : les nouvelles pistes cyclables.",
+            "type": "street_interview",
+            "lines": [
+              {
+                "speaker": "Journaliste",
+                "voice": "m1",
+                "fr": "Bonjour madame, que pensez-vous des nouvelles pistes cyclables sur la rue Principale ?"
+              },
+              {
+                "speaker": "Passante",
+                "voice": "f1",
+                "fr": "Moi, j'adore ! Je vais au travail à vélo tous les jours, et je me sens beaucoup plus en sécurité qu'avant. Bon, c'est sûr que les automobilistes perdent des places de stationnement, mais faut s'adapter, hein."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle est l'opinion de cette femme ?",
+                  "en": "What is this woman's opinion?"
+                },
+                "options": [
+                  "Elle trouve les pistes dangereuses.",
+                  "Elle est favorable aux pistes cyclables.",
+                  "Elle regrette la perte des places de stationnement.",
+                  "Elle ne fait jamais de vélo."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "She loves them ('j'adore') and feels safer; she mentions lost parking but says people must adapt.",
+                  "hi": "उन्हें ये बहुत पसंद हैं ('j'adore') और वे ज़्यादा सुरक्षित महसूस करती हैं; पार्किंग कम होने की बात मानती हैं, पर कहती हैं कि लोगों को ढलना होगा।"
+                },
+                "kind": "gist",
+                "evidence": "je me sens beaucoup plus en sécurité qu'avant"
+              }
+            ]
+          },
+          {
+            "context": "Micro-trottoir : le télétravail.",
+            "type": "street_interview",
+            "lines": [
+              {
+                "speaker": "Journaliste",
+                "voice": "m1",
+                "fr": "Et vous, monsieur, le télétravail, ça vous convient ?"
+              },
+              {
+                "speaker": "Passant",
+                "voice": "m2",
+                "fr": "Ben, au début, j'étais content : pas de trafic, plus de temps avec les enfants. Mais après six mois, honnêtement, mes collègues me manquaient. Maintenant, je vais au bureau trois jours par semaine, et c'est l'équilibre parfait pour moi."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que pense cet homme de sa situation actuelle ?",
+                  "en": "What does this man think of his current situation?"
+                },
+                "options": [
+                  "Il préfère travailler à la maison tous les jours.",
+                  "Il déteste le télétravail depuis le début.",
+                  "Il a quitté son emploi pour rester avec ses enfants.",
+                  "Il a trouvé un bon équilibre entre la maison et le bureau."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "He now goes to the office three days a week and calls it 'l'équilibre parfait'. At first he liked full telework, then missed his colleagues.",
+                  "hi": "अब वे हफ़्ते में तीन दिन ऑफ़िस जाते हैं और इसे 'l'équilibre parfait' (सही संतुलन) कहते हैं। पहले पूरा घर से काम अच्छा लगा, फिर सहकर्मियों की याद आने लगी।"
+                },
+                "kind": "inference",
+                "evidence": "c'est l'équilibre parfait pour moi"
+              }
+            ]
+          },
+          {
+            "context": "Micro-trottoir : la hausse des loyers.",
+            "type": "street_interview",
+            "lines": [
+              {
+                "speaker": "Journaliste",
+                "voice": "m1",
+                "fr": "Madame, est-ce que la hausse des loyers vous touche ?"
+              },
+              {
+                "speaker": "Passante",
+                "voice": "f2",
+                "fr": "Oh oui ! Mon propriétaire m'a annoncé une augmentation de cent vingt dollars par mois. J'ai refusé et j'ai contacté le Tribunal administratif du logement. J'attends la décision, mais je ne veux pas déménager : mes enfants vont à l'école juste à côté."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Qu'a fait cette femme face à l'augmentation ?",
+                  "en": "What did this woman do about the increase?"
+                },
+                "options": [
+                  "Elle l'a acceptée sans discuter.",
+                  "Elle a déménagé près de l'école.",
+                  "Elle l'a refusée et s'est adressée à un tribunal.",
+                  "Elle a demandé de l'aide à ses enfants."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "She refused the increase and contacted the housing tribunal ('Tribunal administratif du logement').",
+                  "hi": "उन्होंने किराया-बढ़ोतरी से इनकार किया और आवास न्यायाधिकरण ('Tribunal administratif du logement') से संपर्क किया।"
+                },
+                "kind": "literal",
+                "evidence": "J'ai refusé et j'ai contacté le Tribunal administratif du logement."
+              }
+            ]
+          },
+          {
+            "context": "Micro-trottoir : le tri des déchets.",
+            "type": "street_interview",
+            "lines": [
+              {
+                "speaker": "Journaliste",
+                "voice": "m1",
+                "fr": "Et vous, jeune homme, vous triez vos déchets ?"
+              },
+              {
+                "speaker": "Passant",
+                "voice": "m2",
+                "fr": "Euh… honnêtement, pas toujours. Le recyclage, oui, mais le compost, je trouve ça compliqué dans un petit appartement. Ça sent mauvais l'été, pis j'ai pas de place. Si la Ville donnait des petits bacs fermés, je le ferais, c'est sûr."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Pourquoi ce jeune homme ne fait-il pas de compost ?",
+                  "en": "Why doesn't this young man compost?"
+                },
+                "options": [
+                  "Il trouve cela difficile dans son petit logement.",
+                  "Il ne sait pas ce qu'est le compost.",
+                  "La Ville ne ramasse pas le compost.",
+                  "Il n'a pas le temps."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "He finds composting complicated in a small apartment (smell in summer, no space).",
+                  "hi": "उन्हें छोटे फ़्लैट में कम्पोस्ट करना मुश्किल लगता है (गर्मी में बदबू, जगह की कमी)।"
+                },
+                "kind": "literal",
+                "evidence": "je trouve ça compliqué dans un petit appartement"
+              }
+            ]
+          },
+          {
+            "context": "Annonce dans une gare.",
+            "type": "announcement",
+            "lines": [
+              {
+                "speaker": "Annonce",
+                "voice": "narrator",
+                "fr": "Mesdames et messieurs, le train numéro 24 à destination de Québec, prévu à 15 h 10, partira avec un retard d'environ quarante minutes en raison de travaux sur la voie. Les passagers qui ont une correspondance à Québec sont priés de se présenter au comptoir de service pour obtenir de l'aide. Merci de votre compréhension."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Qui doit se présenter au comptoir de service ?",
+                  "en": "Who should go to the service counter?"
+                },
+                "options": [
+                  "Tous les passagers du train 24.",
+                  "Les passagers qui ont une correspondance à Québec.",
+                  "Les passagers qui veulent annuler leur voyage.",
+                  "Les passagers qui ont des bagages lourds."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "Only passengers with a connection ('correspondance') in Québec are asked to go to the counter.",
+                  "hi": "सिर्फ़ उन यात्रियों को काउंटर पर जाने को कहा गया है जिनकी क्यूबेक में आगे की ट्रेन ('correspondance') है।"
+                },
+                "kind": "literal",
+                "evidence": "Les passagers qui ont une correspondance à Québec sont priés de se présenter au comptoir de service"
+              }
+            ]
+          },
+          {
+            "context": "Message d'information à la radio.",
+            "type": "announcement",
+            "lines": [
+              {
+                "speaker": "Annonce",
+                "voice": "narrator",
+                "fr": "Vous avez de la fièvre, de la toux ou mal à la gorge ? Avant de vous rendre aux urgences, appelez Info-Santé au 811. Une infirmière évaluera vos symptômes et vous orientera vers le bon service : pharmacie, clinique ou hôpital. Ce service est gratuit et offert jour et nuit, sept jours sur sept."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Selon ce message, pourquoi appeler le 811 ?",
+                  "en": "According to this message, why call 811?"
+                },
+                "options": [
+                  "Pour prendre rendez-vous avec un spécialiste.",
+                  "Pour commander des médicaments.",
+                  "Pour obtenir une ambulance.",
+                  "Pour être conseillé par une infirmière avant d'aller aux urgences."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "A nurse assesses your symptoms and directs you to the right service before you go to the emergency room.",
+                  "hi": "एक नर्स आपके लक्षण समझकर बताती है कि कहाँ जाना है (फ़ार्मेसी, क्लिनिक या अस्पताल), इमरजेंसी जाने से पहले।"
+                },
+                "kind": "literal",
+                "evidence": "Une infirmière évaluera vos symptômes et vous orientera vers le bon service"
+              }
+            ]
+          },
+          {
+            "context": "Message sur un répondeur.",
+            "type": "voicemail",
+            "lines": [
+              {
+                "speaker": "Isabelle",
+                "voice": "f1",
+                "fr": "Bonjour, ici Isabelle, éducatrice au service de garde de l'école Marie-Curie. Votre fille Ananya fait un peu de fièvre depuis le dîner, trente-huit et demi. Elle va bien, elle se repose, mais selon notre politique, nous devons vous demander de venir la chercher le plus tôt possible. Merci de me rappeler pour me dire à quelle heure vous arriverez."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Qu'est-ce que l'éducatrice demande au parent ?",
+                  "en": "What does the educator ask the parent to do?"
+                },
+                "options": [
+                  "De donner un médicament à sa fille.",
+                  "De venir chercher sa fille rapidement.",
+                  "D'emmener sa fille chez le médecin demain.",
+                  "De payer un supplément pour le service de garde."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "Because of the fever, the policy requires the parent to pick up the child 'le plus tôt possible' (as soon as possible).",
+                  "hi": "बुख़ार की वजह से नियम के अनुसार माता-पिता को बच्ची को 'le plus tôt possible' (जितनी जल्दी हो सके) ले जाना होगा।"
+                },
+                "kind": "literal",
+                "evidence": "nous devons vous demander de venir la chercher le plus tôt possible"
+              }
+            ]
+          },
+          {
+            "context": "Annonce municipale.",
+            "type": "announcement",
+            "lines": [
+              {
+                "speaker": "Annonce",
+                "voice": "narrator",
+                "fr": "La municipalité de Saint-Rémi-des-Bois rappelle aux citoyens qu'en raison de la sécheresse, l'arrosage des pelouses est interdit jusqu'à nouvel ordre. L'arrosage des potagers et des fleurs reste permis avec un arrosoir, entre 20 h et 23 h seulement. Le lavage des voitures et le remplissage des piscines sont également interdits. Les contrevenants s'exposent à une amende."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Qu'est-ce qui est encore permis ?",
+                  "en": "What is still allowed?"
+                },
+                "options": [
+                  "Arroser son potager avec un arrosoir le soir.",
+                  "Arroser sa pelouse le soir.",
+                  "Laver sa voiture avec un tuyau.",
+                  "Remplir sa piscine le matin."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "Lawns, car washing and pools are banned; vegetable gardens and flowers may be watered with a watering can from 8 to 11 p.m.",
+                  "hi": "लॉन में पानी देना, गाड़ी धोना और पूल भरना मना है; सब्ज़ी की क्यारी और फूलों को रात 8 से 11 बजे तक झारी (arrosoir) से पानी दे सकते हैं।"
+                },
+                "kind": "inference",
+                "evidence": "L'arrosage des potagers et des fleurs reste permis avec un arrosoir, entre 20 h et 23 h seulement."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "radio",
+        "title": "Émissions et reportage radio (Q21–30)",
+        "instruction": "Écoutez les entrevues et le reportage radio une seule fois. Chaque document est suivi de plusieurs questions. / Listen once to the radio interviews and report; each is followed by several questions.",
+        "items": [
+          {
+            "context": "Émission de radio « Santé au quotidien » : entrevue sur le sommeil.",
+            "type": "interview",
+            "lines": [
+              {
+                "speaker": "Animatrice",
+                "voice": "f1",
+                "fr": "Bonjour et bienvenue à « Santé au quotidien ». Aujourd'hui, nous parlons du sommeil avec le docteur Martin Lefebvre, spécialiste des troubles du sommeil. Docteur, est-ce que les Canadiens dorment assez ?"
+              },
+              {
+                "speaker": "Dr Lefebvre",
+                "voice": "m1",
+                "fr": "Malheureusement, non. On estime qu'un adulte sur trois dort moins de sept heures par nuit, alors que c'est le minimum recommandé. Et chez les adolescents, la situation est encore plus préoccupante."
+              },
+              {
+                "speaker": "Animatrice",
+                "voice": "f1",
+                "fr": "Pourquoi les adolescents en particulier ?"
+              },
+              {
+                "speaker": "Dr Lefebvre",
+                "voice": "m1",
+                "fr": "Il y a d'abord une raison biologique : à l'adolescence, l'horloge interne se décale. Les jeunes ont naturellement sommeil plus tard le soir, mais l'école, elle, commence tôt le matin. Ajoutez à cela les écrans, qui retardent encore l'endormissement à cause de la lumière bleue, et vous obtenez des jeunes qui accumulent une vraie dette de sommeil."
+              },
+              {
+                "speaker": "Animatrice",
+                "voice": "f1",
+                "fr": "Quels conseils donneriez-vous à nos auditeurs ?"
+              },
+              {
+                "speaker": "Dr Lefebvre",
+                "voice": "m1",
+                "fr": "Le plus important, c'est la régularité : se coucher et se lever à la même heure, même la fin de semaine. Ensuite, éteindre les écrans une heure avant de dormir. Et contrairement à ce qu'on croit, l'alcool n'aide pas : il fait peut-être s'endormir plus vite, mais le sommeil est de moins bonne qualité."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Selon le docteur, quelle proportion d'adultes ne dort pas assez ?",
+                  "en": "According to the doctor, what proportion of adults do not sleep enough?"
+                },
+                "options": [
+                  "Un sur deux.",
+                  "Un sur trois.",
+                  "Un sur sept.",
+                  "Presque tous."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "'Un adulte sur trois dort moins de sept heures' — one adult in three sleeps less than the recommended seven hours.",
+                  "hi": "'Un adulte sur trois dort moins de sept heures' — हर तीन में से एक वयस्क सात घंटे से कम सोता है, जो न्यूनतम सलाह है।"
+                },
+                "kind": "literal",
+                "evidence": "un adulte sur trois dort moins de sept heures par nuit"
+              },
+              {
+                "q": {
+                  "fr": "Pourquoi les adolescents manquent-ils de sommeil, d'après le docteur ?",
+                  "en": "Why do teenagers lack sleep, according to the doctor?"
+                },
+                "options": [
+                  "Ils font trop de sport le soir.",
+                  "Ils boivent trop de café.",
+                  "Ils ont trop de devoirs.",
+                  "Leur horloge interne est décalée alors que l'école commence tôt."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "Biological reason: their internal clock shifts later, but school starts early; screens make it worse.",
+                  "hi": "जैविक कारण: उनकी अंदरूनी घड़ी देर की ओर खिसक जाती है, जबकि स्कूल सुबह जल्दी शुरू होता है; स्क्रीन इसे और बिगाड़ती हैं।"
+                },
+                "kind": "literal",
+                "evidence": "à l'adolescence, l'horloge interne se décale"
+              },
+              {
+                "q": {
+                  "fr": "Que dit le docteur à propos de l'alcool ?",
+                  "en": "What does the doctor say about alcohol?"
+                },
+                "options": [
+                  "Il diminue la qualité du sommeil.",
+                  "Il aide à mieux dormir.",
+                  "Il n'a aucun effet sur le sommeil.",
+                  "Il est conseillé d'en boire un verre avant de dormir."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "Alcohol may help you fall asleep faster, 'mais le sommeil est de moins bonne qualité' (but sleep quality is worse).",
+                  "hi": "शराब से शायद नींद जल्दी आ जाए, 'mais le sommeil est de moins bonne qualité' — पर नींद की गुणवत्ता ख़राब होती है।"
+                },
+                "kind": "inference",
+                "evidence": "le sommeil est de moins bonne qualité"
+              }
+            ]
+          },
+          {
+            "context": "Émission de radio « Vivre en ville » : entrevue sur les coopératives d'habitation.",
+            "type": "interview",
+            "lines": [
+              {
+                "speaker": "Animateur",
+                "voice": "m2",
+                "fr": "Vous écoutez « Vivre en ville ». Avec nous ce matin, Amina Benali, membre d'une coopérative d'habitation dans le quartier Saint-Henri. Amina, expliquez-nous : qu'est-ce qu'une coopérative d'habitation ?"
+              },
+              {
+                "speaker": "Amina",
+                "voice": "f2",
+                "fr": "C'est un immeuble qui appartient collectivement à ses résidents. On n'est pas propriétaires de notre appartement individuellement, mais on est tous membres de la coopérative, et on prend les décisions ensemble, en assemblée générale."
+              },
+              {
+                "speaker": "Animateur",
+                "voice": "m2",
+                "fr": "Et quel est l'avantage pour les locataires ?"
+              },
+              {
+                "speaker": "Amina",
+                "voice": "f2",
+                "fr": "Le principal, c'est le prix. Comme la coopérative ne cherche pas à faire de profit, nos loyers sont environ vingt-cinq pour cent plus bas que ceux du marché. Et on a une grande stabilité : personne ne peut nous mettre dehors pour revendre l'immeuble."
+              },
+              {
+                "speaker": "Animateur",
+                "voice": "m2",
+                "fr": "Il y a quand même des obligations, j'imagine ?"
+              },
+              {
+                "speaker": "Amina",
+                "voice": "f2",
+                "fr": "Oui, et il faut le savoir avant d'entrer. Chaque membre doit donner quelques heures par mois : moi, je fais partie du comité d'entretien ; d'autres s'occupent des finances ou de l'accueil des nouveaux. Ceux qui cherchent juste un loyer pas cher, sans s'impliquer, ne restent généralement pas longtemps."
+              },
+              {
+                "speaker": "Animateur",
+                "voice": "m2",
+                "fr": "Et comment fait-on pour entrer dans une coopérative ?"
+              },
+              {
+                "speaker": "Amina",
+                "voice": "f2",
+                "fr": "Il faut s'inscrire sur des listes d'attente, et être patient : ça peut prendre plusieurs années. Ensuite, on passe une entrevue avec un comité de sélection."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Selon Amina, à qui appartient l'immeuble ?",
+                  "en": "According to Amina, who owns the building?"
+                },
+                "options": [
+                  "À un grand propriétaire privé.",
+                  "À la Ville de Montréal.",
+                  "À l'ensemble des résidents membres de la coopérative.",
+                  "Chaque résident possède son propre appartement."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "'Il appartient collectivement à ses résidents' — owned collectively; nobody owns their unit individually.",
+                  "hi": "'Il appartient collectivement à ses résidents' — इमारत सभी निवासियों की साझा है; कोई अपना फ़्लैट अलग से नहीं रखता।"
+                },
+                "kind": "literal",
+                "evidence": "C'est un immeuble qui appartient collectivement à ses résidents."
+              },
+              {
+                "q": {
+                  "fr": "Quel est le principal avantage d'une coopérative, pour Amina ?",
+                  "en": "What is the main advantage of a co-op, for Amina?"
+                },
+                "options": [
+                  "Les loyers sont moins chers.",
+                  "Les appartements sont plus grands.",
+                  "On peut revendre son logement.",
+                  "Il n'y a aucune obligation."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "'Le principal, c'est le prix': rents are about 25 % below market because the co-op does not seek profit.",
+                  "hi": "'Le principal, c'est le prix': मुनाफ़ा न कमाने के कारण किराया बाज़ार से लगभग 25 % कम है।"
+                },
+                "kind": "literal",
+                "evidence": "Le principal, c'est le prix."
+              },
+              {
+                "q": {
+                  "fr": "Que laisse entendre Amina à propos des personnes qui ne veulent pas s'impliquer ?",
+                  "en": "What does Amina suggest about people who don't want to get involved?"
+                },
+                "options": [
+                  "Elles obtiennent un loyer encore plus bas.",
+                  "Elles finissent souvent par partir.",
+                  "Elles sont expulsées immédiatement.",
+                  "Elles deviennent responsables des finances."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "She says they 'ne restent généralement pas longtemps' (usually don't stay long) — implying the co-op life does not suit them.",
+                  "hi": "वे कहती हैं कि ऐसे लोग 'ne restent généralement pas longtemps' (आम तौर पर ज़्यादा दिन नहीं टिकते) — यानी यह जीवन-शैली उन्हें रास नहीं आती।"
+                },
+                "kind": "inference",
+                "evidence": "ne restent généralement pas longtemps"
+              }
+            ]
+          },
+          {
+            "context": "Reportage radio sur la collecte des matières organiques.",
+            "type": "report",
+            "lines": [
+              {
+                "speaker": "Journaliste",
+                "voice": "narrator",
+                "fr": "Depuis deux ans, la municipalité de Val-des-Lacs a mis en place une collecte des matières organiques dans tous les foyers. Le résultat dépasse les attentes : la quantité de déchets envoyés au site d'enfouissement a diminué de quarante pour cent. Nous avons rencontré le responsable du projet, Éric Dubois."
+              },
+              {
+                "speaker": "Éric Dubois",
+                "voice": "m1",
+                "fr": "Au départ, beaucoup de gens étaient sceptiques. Ils avaient peur des odeurs, des animaux. Alors on a fait une grosse campagne d'information, du porte-à-porte, et surtout, on a distribué gratuitement des petits bacs de cuisine avec des sacs en papier. Ça a tout changé."
+              },
+              {
+                "speaker": "Journaliste",
+                "voice": "narrator",
+                "fr": "Et que deviennent ces restes de table ? Ils sont transformés en compost dans une usine située à vingt kilomètres. Une partie de ce compost est ensuite redistribuée gratuitement aux citoyens chaque printemps. Martine Roy, une résidente, en profite chaque année."
+              },
+              {
+                "speaker": "Martine Roy",
+                "voice": "f1",
+                "fr": "Oui, j'y vais avec mon fils au mois de mai, et on remplit quelques sacs pour notre potager. C'est un peu comme si nos épluchures de légumes revenaient dans notre jardin ! Mes enfants trouvent ça génial, et ils sont devenus plus attentifs que moi au tri."
+              },
+              {
+                "speaker": "Journaliste",
+                "voice": "narrator",
+                "fr": "Tout n'est pas parfait pour autant. Dans les immeubles de plus de huit logements, le taux de participation reste faible, à peine vingt pour cent. La municipalité prévoit d'y installer des conteneurs communs l'an prochain."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quel résultat la municipalité a-t-elle obtenu ?",
+                  "en": "What result has the municipality achieved?"
+                },
+                "options": [
+                  "Les déchets envoyés à l'enfouissement ont diminué de 40 %.",
+                  "Les taxes municipales ont baissé de 40 %.",
+                  "40 % des familles ont abandonné le tri.",
+                  "Le compost se vend 40 $ le sac."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "Waste sent to landfill ('site d'enfouissement') fell by forty per cent.",
+                  "hi": "कचरा-भराव स्थल ('site d'enfouissement') पर भेजा जाने वाला कचरा चालीस प्रतिशत घट गया।"
+                },
+                "kind": "literal",
+                "evidence": "la quantité de déchets envoyés au site d'enfouissement a diminué de quarante pour cent"
+              },
+              {
+                "q": {
+                  "fr": "Selon Éric Dubois, qu'est-ce qui a surtout convaincu les habitants ?",
+                  "en": "According to Éric Dubois, what mainly convinced residents?"
+                },
+                "options": [
+                  "Des amendes pour ceux qui ne triaient pas.",
+                  "Une baisse de leur facture d'électricité.",
+                  "La distribution gratuite de petits bacs de cuisine.",
+                  "Une publicité à la télévision."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "'Et surtout' (above all) the free kitchen bins with paper bags: 'Ça a tout changé'.",
+                  "hi": "'Et surtout' (सबसे बढ़कर) मुफ़्त में दिए गए रसोई के छोटे डिब्बे और काग़ज़ की थैलियाँ: 'Ça a tout changé' (इसी से सब बदल गया)।"
+                },
+                "kind": "literal",
+                "evidence": "on a distribué gratuitement des petits bacs de cuisine avec des sacs en papier. Ça a tout changé."
+              },
+              {
+                "q": {
+                  "fr": "Que fait Martine Roy chaque printemps ?",
+                  "en": "What does Martine Roy do every spring?"
+                },
+                "options": [
+                  "Elle vend ses légumes au marché.",
+                  "Elle va chercher du compost gratuit pour son potager.",
+                  "Elle travaille à l'usine de compostage.",
+                  "Elle distribue des sacs à ses voisins."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "In May she goes with her son and fills a few bags of the free compost for their vegetable garden.",
+                  "hi": "मई में वे बेटे के साथ जाती हैं और अपनी सब्ज़ी की क्यारी के लिए मुफ़्त कम्पोस्ट की कुछ थैलियाँ भर लाती हैं।"
+                },
+                "kind": "inference",
+                "evidence": "on remplit quelques sacs pour notre potager"
+              },
+              {
+                "q": {
+                  "fr": "Quel problème reste à régler ?",
+                  "en": "What problem still needs solving?"
+                },
+                "options": [
+                  "Les odeurs près de l'usine.",
+                  "Le coût élevé des sacs en papier.",
+                  "Le manque de compost pour les citoyens.",
+                  "La faible participation dans les grands immeubles."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "In buildings with more than eight units, participation is only about 20 %; shared containers are planned.",
+                  "hi": "आठ से ज़्यादा फ़्लैट वाली इमारतों में भागीदारी सिर्फ़ लगभग 20 % है; वहाँ साझा कंटेनर लगाने की योजना है।"
+                },
+                "kind": "literal",
+                "evidence": "le taux de participation reste faible, à peine vingt pour cent"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "everyday",
+        "title": "Documents de la vie courante (Q31–40)",
+        "instruction": "Écoutez les documents une seule fois. La difficulté augmente progressivement. / Listen to each recording once. Difficulty increases gradually.",
+        "items": [
+          {
+            "context": "À la bibliothèque.",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Usager",
+                "voice": "m1",
+                "fr": "Bonjour, je voudrais emprunter ces trois livres, mais j'ai oublié ma carte."
+              },
+              {
+                "speaker": "Bibliothécaire",
+                "voice": "f2",
+                "fr": "Pas de problème. Vous avez une pièce d'identité ?"
+              },
+              {
+                "speaker": "Usager",
+                "voice": "m1",
+                "fr": "Oui, mon permis de conduire."
+              },
+              {
+                "speaker": "Bibliothécaire",
+                "voice": "f2",
+                "fr": "Parfait. Vous les avez pour trois semaines. Attention, celui-ci est une nouveauté : il faut le rapporter dans sept jours."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Combien de temps l'homme peut-il garder la nouveauté ?",
+                  "en": "How long can the man keep the new release?"
+                },
+                "options": [
+                  "Trois jours.",
+                  "Une semaine.",
+                  "Trois semaines.",
+                  "Un mois."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "Normal loans are three weeks, but the new book must be returned 'dans sept jours' (in seven days = one week).",
+                  "hi": "आम किताबें तीन हफ़्ते के लिए मिलती हैं, पर नई किताब 'dans sept jours' (सात दिन = एक हफ़्ते) में लौटानी है।"
+                },
+                "kind": "literal",
+                "evidence": "il faut le rapporter dans sept jours"
+              }
+            ]
+          },
+          {
+            "context": "Appel à une clinique.",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Réceptionniste",
+                "voice": "f1",
+                "fr": "Clinique familiale des Rivières, bonjour."
+              },
+              {
+                "speaker": "Patient",
+                "voice": "m2",
+                "fr": "Bonjour, j'aimerais prendre rendez-vous avec le docteur Roy. C'est pour un renouvellement d'ordonnance."
+              },
+              {
+                "speaker": "Réceptionniste",
+                "voice": "f1",
+                "fr": "Le docteur Roy n'a plus de place avant le mois prochain. Par contre, notre infirmière praticienne peut vous voir jeudi matin, et elle peut aussi renouveler les ordonnances."
+              },
+              {
+                "speaker": "Patient",
+                "voice": "m2",
+                "fr": "Ah bon ? Alors oui, jeudi, ça me va très bien."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Finalement, qui le patient va-t-il consulter ?",
+                  "en": "In the end, whom will the patient see?"
+                },
+                "options": [
+                  "Le docteur Roy, le mois prochain.",
+                  "Le docteur Roy, jeudi matin.",
+                  "L'infirmière praticienne, jeudi matin.",
+                  "Un pharmacien, dès aujourd'hui."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "The doctor has no slot before next month; the patient accepts the nurse practitioner on Thursday morning.",
+                  "hi": "डॉक्टर के पास अगले महीने से पहले जगह नहीं है; मरीज़ गुरुवार सुबह नर्स प्रैक्टिशनर से मिलने को मान जाता है।"
+                },
+                "kind": "inference",
+                "evidence": "notre infirmière praticienne peut vous voir jeudi matin"
+              }
+            ]
+          },
+          {
+            "context": "Entre voisins.",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Nathalie",
+                "voice": "f2",
+                "fr": "Dis donc, Marc, c'est quoi tout ce bruit chez toi depuis lundi ?"
+              },
+              {
+                "speaker": "Marc",
+                "voice": "m1",
+                "fr": "Ah, désolé pour le dérangement ! On fait installer une thermopompe. Avec les subventions du gouvernement, ça nous coûte presque la moitié du prix."
+              },
+              {
+                "speaker": "Nathalie",
+                "voice": "f2",
+                "fr": "Une thermopompe ? Ça sert à quoi, exactement ?"
+              },
+              {
+                "speaker": "Marc",
+                "voice": "m1",
+                "fr": "Ça chauffe la maison l'hiver et ça la climatise l'été. Et ça consomme beaucoup moins d'électricité que nos vieilles plinthes électriques. L'installateur dit qu'on devrait économiser environ six cents dollars par année."
+              },
+              {
+                "speaker": "Nathalie",
+                "voice": "f2",
+                "fr": "Intéressant… Ma fournaise au mazout a vingt-cinq ans, il faudrait que je la change de toute façon. Tu me donneras le nom de ton installateur ?"
+              },
+              {
+                "speaker": "Marc",
+                "voice": "m1",
+                "fr": "Bien sûr. Et les travaux finissent demain, promis !"
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Pourquoi y a-t-il du bruit chez Marc ?",
+                  "en": "Why is there noise at Marc's place?"
+                },
+                "options": [
+                  "Il fait installer un appareil qui chauffe et climatise la maison.",
+                  "Il refait entièrement sa cuisine.",
+                  "Il construit un garage.",
+                  "Il remplace toutes ses fenêtres."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "He is having a heat pump ('thermopompe') installed, which heats in winter and cools in summer.",
+                  "hi": "वे 'thermopompe' (हीट पंप) लगवा रहे हैं, जो सर्दी में घर गरम और गर्मी में ठंडा रखता है।"
+                },
+                "kind": "literal",
+                "evidence": "On fait installer une thermopompe."
+              },
+              {
+                "q": {
+                  "fr": "Que va probablement faire la voisine ?",
+                  "en": "What will the neighbour probably do?"
+                },
+                "options": [
+                  "Se plaindre du bruit à la municipalité.",
+                  "Garder sa vieille fournaise.",
+                  "Se renseigner pour remplacer son système de chauffage.",
+                  "Déménager à cause des travaux."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "Her oil furnace is 25 years old and must be replaced anyway; she asks for Marc's installer's name.",
+                  "hi": "उनकी तेल वाली भट्ठी 25 साल पुरानी है और वैसे भी बदलनी है; इसलिए वे मार्क से इंस्टॉलर का नाम माँगती हैं।"
+                },
+                "kind": "inference",
+                "evidence": "il faudrait que je la change de toute façon"
+              }
+            ]
+          },
+          {
+            "context": "Chez une conseillère d'orientation.",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Conseillère",
+                "voice": "f1",
+                "fr": "Alors, Rajesh, vous m'avez dit que vous étiez ingénieur en Inde. Qu'est-ce qui vous amène aujourd'hui ?"
+              },
+              {
+                "speaker": "Rajesh",
+                "voice": "m2",
+                "fr": "Eh bien, je voudrais travailler dans mon domaine ici, mais on m'a dit que je devais d'abord faire reconnaître mon diplôme."
+              },
+              {
+                "speaker": "Conseillère",
+                "voice": "f1",
+                "fr": "C'est exact. Pour porter le titre d'ingénieur au Québec, il faut être membre de l'Ordre des ingénieurs. Ils vont évaluer votre dossier, et vous devrez peut-être passer des examens ou suivre quelques cours d'appoint."
+              },
+              {
+                "speaker": "Rajesh",
+                "voice": "m2",
+                "fr": "Et combien de temps ça prend, en général ?"
+              },
+              {
+                "speaker": "Conseillère",
+                "voice": "f1",
+                "fr": "Ça dépend beaucoup des dossiers, mais comptez au moins un an. En attendant, rien ne vous empêche de travailler comme technicien, par exemple. Ça vous donnerait une première expérience canadienne, qui est très appréciée des employeurs."
+              },
+              {
+                "speaker": "Rajesh",
+                "voice": "m2",
+                "fr": "Je n'y avais pas pensé. C'est une bonne idée."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que doit faire Rajesh pour porter le titre d'ingénieur ?",
+                  "en": "What must Rajesh do to use the title of engineer?"
+                },
+                "options": [
+                  "Refaire un diplôme universitaire complet.",
+                  "Devenir membre de l'ordre professionnel des ingénieurs.",
+                  "Travailler cinq ans comme technicien.",
+                  "Réussir uniquement un test de français."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "'Il faut être membre de l'Ordre des ingénieurs' — membership of the professional order is required (after a file review, maybe exams or courses).",
+                  "hi": "'Il faut être membre de l'Ordre des ingénieurs' — पेशेवर संस्था (Ordre) का सदस्य बनना ज़रूरी है (फ़ाइल की जाँच के बाद, शायद परीक्षा या कुछ कोर्स भी)।"
+                },
+                "kind": "literal",
+                "evidence": "il faut être membre de l'Ordre des ingénieurs"
+              },
+              {
+                "q": {
+                  "fr": "Que lui conseille la conseillère en attendant ?",
+                  "en": "What does the counsellor advise him to do in the meantime?"
+                },
+                "options": [
+                  "Retourner travailler en Inde.",
+                  "Ne pas travailler pour se concentrer sur ses examens.",
+                  "Attendre la décision sans rien faire.",
+                  "Chercher un emploi de technicien pour acquérir de l'expérience."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "She suggests working as a technician to gain Canadian experience, which employers value.",
+                  "hi": "वे सुझाव देती हैं कि तब तक तकनीशियन की नौकरी करें ताकि कनाडा का अनुभव मिले, जिसे नियोक्ता बहुत महत्त्व देते हैं।"
+                },
+                "kind": "inference",
+                "evidence": "rien ne vous empêche de travailler comme technicien"
+              }
+            ]
+          },
+          {
+            "context": "Consultation publique au conseil municipal.",
+            "type": "everyday",
+            "lines": [
+              {
+                "speaker": "Animatrice",
+                "voice": "narrator",
+                "fr": "Bonsoir à tous. Ce soir, le conseil municipal vous consulte sur le projet de transformer le stationnement de la rue Principale en place publique piétonne. Monsieur, vous avez la parole."
+              },
+              {
+                "speaker": "Commerçant",
+                "voice": "m1",
+                "fr": "Merci. Je suis commerçant sur cette rue depuis quinze ans. Je comprends le désir d'avoir plus de verdure, mais si on supprime ces quatre-vingts places, mes clients des villages voisins, qui viennent en voiture, ne viendront plus. Je ne suis pas contre le projet, mais je demande qu'on construise d'abord un stationnement ailleurs."
+              },
+              {
+                "speaker": "Animatrice",
+                "voice": "narrator",
+                "fr": "Merci. Madame, à vous."
+              },
+              {
+                "speaker": "Résidente",
+                "voice": "f2",
+                "fr": "Moi, j'habite juste en face. Le soir, ce stationnement est vide, et l'été, c'est une vraie plaque chauffante. Dans les villes qui ont fait ce choix, les commerces ont souvent vu leur fréquentation augmenter, parce que les gens restent plus longtemps quand l'endroit est agréable. Je pense qu'il faut au moins essayer, par exemple avec un projet pilote pendant un été."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle est la position du commerçant ?",
+                  "en": "What is the shopkeeper's position?"
+                },
+                "options": [
+                  "Il est totalement opposé à toute place piétonne.",
+                  "Il accepte le projet à condition qu'un autre stationnement soit construit avant.",
+                  "Il veut agrandir le stationnement actuel.",
+                  "Il pense que ses clients préfèrent venir à pied."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "'Je ne suis pas contre le projet, mais…' — he is not against it, provided new parking is built first ('d'abord').",
+                  "hi": "'Je ne suis pas contre le projet, mais…' — वे विरोध में नहीं हैं, बशर्ते पहले ('d'abord') कहीं और पार्किंग बने।"
+                },
+                "kind": "inference",
+                "evidence": "je demande qu'on construise d'abord un stationnement ailleurs"
+              },
+              {
+                "q": {
+                  "fr": "Que propose la résidente ?",
+                  "en": "What does the resident propose?"
+                },
+                "options": [
+                  "De faire un essai pendant un été.",
+                  "D'abandonner le projet.",
+                  "De fermer les commerces le soir.",
+                  "De construire un nouveau stationnement."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "She suggests at least trying it with a pilot project ('projet pilote') for one summer.",
+                  "hi": "वे सुझाव देती हैं कि कम से कम एक गर्मी के लिए 'projet pilote' (प्रायोगिक योजना) के रूप में इसे आज़माया जाए।"
+                },
+                "kind": "literal",
+                "evidence": "par exemple avec un projet pilote pendant un été"
+              }
+            ]
+          },
+          {
+            "context": "Chronique radio sur la santé.",
+            "type": "radio",
+            "lines": [
+              {
+                "speaker": "Chroniqueur",
+                "voice": "m1",
+                "fr": "Bonjour. Parlons ce matin d'un paradoxe. Le Québec forme chaque année davantage de médecins, et pourtant, des centaines de milliers de personnes attendent toujours un médecin de famille. Comment l'expliquer ?"
+              },
+              {
+                "speaker": "Chroniqueur",
+                "voice": "m1",
+                "fr": "D'abord, beaucoup de jeunes médecins choisissent de travailler à temps partiel ou de se spécialiser plutôt que de faire de la médecine familiale, jugée trop lourde sur le plan administratif. Ensuite, la population vieillit, et un patient âgé demande plus de suivi."
+              },
+              {
+                "speaker": "Chroniqueur",
+                "voice": "m1",
+                "fr": "Faut-il pour autant désespérer ? Je ne le crois pas. Les infirmières praticiennes et les pharmaciens peuvent désormais prendre en charge une partie des soins courants. Encore faut-il que les patients le sachent. Combien d'entre nous attendent des semaines pour un rendez-vous, alors qu'un pharmacien aurait pu régler le problème en dix minutes ?"
+              },
+              {
+                "speaker": "Chroniqueur",
+                "voice": "m1",
+                "fr": "Le vrai défi, à mon avis, n'est pas seulement de former plus de médecins : c'est de mieux utiliser tous les professionnels que nous avons déjà."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Selon le chroniqueur, pourquoi tant de gens n'ont-ils pas de médecin de famille ?",
+                  "en": "According to the columnist, why do so many people have no family doctor?"
+                },
+                "options": [
+                  "Les universités forment de moins en moins de médecins.",
+                  "Beaucoup de jeunes médecins évitent la médecine familiale et la population vieillit.",
+                  "Les pharmaciens refusent de soigner les patients.",
+                  "Les patients ne veulent pas de médecin de famille."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "Two reasons: young doctors go part-time or specialise (family medicine seen as too administrative), and an ageing population needs more follow-up. More doctors are being trained, not fewer.",
+                  "hi": "दो कारण: युवा डॉक्टर पार्ट-टाइम काम करते हैं या विशेषज्ञ बनते हैं (फ़ैमिली मेडिसिन में काग़ज़ी काम बहुत है), और बूढ़ी होती आबादी को ज़्यादा देखभाल चाहिए। डॉक्टर कम नहीं, ज़्यादा तैयार हो रहे हैं।"
+                },
+                "kind": "literal",
+                "evidence": "beaucoup de jeunes médecins choisissent de travailler à temps partiel ou de se spécialiser"
+              },
+              {
+                "q": {
+                  "fr": "Quelle est la conclusion du chroniqueur ?",
+                  "en": "What is the columnist's conclusion?"
+                },
+                "options": [
+                  "Il suffit de former davantage de médecins.",
+                  "La situation est désespérée.",
+                  "Il faut mieux utiliser les autres professionnels de la santé.",
+                  "Les patients devraient aller directement à l'hôpital."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "'Le vrai défi… c'est de mieux utiliser tous les professionnels que nous avons déjà' — e.g. nurse practitioners and pharmacists. He explicitly says it is not hopeless.",
+                  "hi": "'Le vrai défi… c'est de mieux utiliser tous les professionnels que nous avons déjà' — जैसे नर्स प्रैक्टिशनर और फ़ार्मासिस्ट। वे साफ़ कहते हैं कि निराश होने की ज़रूरत नहीं।"
+                },
+                "kind": "gist",
+                "evidence": "c'est de mieux utiliser tous les professionnels que nous avons déjà"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "a": {
+      "articleStart": "Montréal, 12 février — Une scène peu ordinaire s'est déroulée hier matin dans un immeuble du quartier Villeray. Vers 7 h, une locataire du troisième étage a été réveillée par des bruits étranges qui venaient du plafond de sa cuisine. Croyant d'abord à une fuite d'eau, elle a immédiatement prévenu le concierge. Mais lorsque celui-ci a ouvert la trappe du grenier, il a découvert tout autre chose…",
+      "instruction": {
+        "en": "Continue this news-in-brief article (fait divers). Write at least 80 words. Say what the caretaker discovered, what happened next and how the story ended. Keep the style of a newspaper article: third person, past tenses (passé composé for events, imparfait for descriptions), and a clear ending.",
+        "hi": "इस छोटी ख़बर (fait divers) को आगे लिखिए। कम से कम 80 शब्द लिखिए। बताइए कि केयरटेकर को क्या मिला, उसके बाद क्या हुआ और कहानी कैसे ख़त्म हुई। अख़बार की शैली रखिए: अन्य पुरुष (third person), भूतकाल (घटनाओं के लिए passé composé, वर्णन के लिए imparfait) और साफ़ अंत।"
+      },
+      "minWords": 80
+    },
+    "b": {
+      "statement": "« Les devoirs à la maison devraient être supprimés à l'école primaire : après leur journée de classe, les enfants ont besoin de jouer et de se reposer, pas de travailler encore. »",
+      "instruction": {
+        "en": "You read this sentence in a newspaper. Write a letter to the newspaper (at least 200 words) in which you give your opinion on this statement. Justify your opinion with at least three well-developed arguments and examples. Use letter conventions (greeting, closing formula) and logical connectors (d'abord, de plus, cependant, enfin…).",
+        "hi": "आपने अख़बार में यह वाक्य पढ़ा। अख़बार को एक पत्र लिखिए (कम से कम 200 शब्द) जिसमें इस कथन पर अपनी राय दीजिए। अपनी राय को कम से कम तीन ठोस तर्कों और उदाहरणों से सिद्ध कीजिए। पत्र के नियम (संबोधन, समापन वाक्य) और जोड़ने वाले शब्द (d'abord, de plus, cependant, enfin…) इस्तेमाल कीजिए।"
+      },
+      "minWords": 200
+    }
+  },
+  "speaking": {
+    "a": {
+      "document": "À LOUER — Grand 3 ½ meublé, Plateau-Mont-Royal\n\nIdéal pour étudiant ou jeune professionnel !\nAppartement lumineux, entièrement meublé, cuisine équipée.\nÀ quelques minutes du métro.\nLibre bientôt.\nLoyer : à discuter.\n\nPour plus de renseignements : Mme Gauthier, 514 555-0199",
+      "instruction": {
+        "en": "You are interested in this apartment. You phone Mme Gauthier to find out more. Ask about ten questions to get the missing information (rent, what is included, availability, conditions, visits…). Be polite and use 'vous'. Time: 5 minutes.",
+        "hi": "आपको यह फ़्लैट पसंद आया है। ज़्यादा जानकारी के लिए आप Mme Gauthier को फ़ोन करते हैं। छूटी हुई जानकारी (किराया, क्या शामिल है, कब से ख़ाली है, शर्तें, देखने का समय…) पाने के लिए लगभग दस सवाल पूछिए। विनम्र रहिए और 'vous' का प्रयोग कीजिए। समय: 5 मिनट।"
+      },
+      "partnerFacts": [
+        "Le loyer est de 1 250 $ par mois.",
+        "Le chauffage, l'eau chaude et Internet sont inclus.",
+        "L'électricité n'est pas incluse : environ 40 $ par mois.",
+        "L'appartement est libre à partir du 1er août.",
+        "Le bail est d'une durée de douze mois minimum.",
+        "Il y a une chambre fermée, un salon, une cuisine et une salle de bain avec baignoire.",
+        "Les meubles comprennent un lit double, un canapé, une table avec quatre chaises, une laveuse et une sécheuse.",
+        "La station de métro Mont-Royal est à cinq minutes à pied.",
+        "L'appartement est au deuxième étage, sans ascenseur.",
+        "Les animaux ne sont pas acceptés et l'immeuble est non-fumeur.",
+        "Le premier mois de loyer est payable à la signature du bail.",
+        "Il faut fournir une preuve de revenus ou une lettre de l'employeur, et une référence d'un ancien propriétaire.",
+        "Les visites ont lieu le samedi entre 10 h et 14 h, sur rendez-vous.",
+        "Le stationnement est dans la rue, avec une vignette de la Ville (environ 150 $ par an).",
+        "L'immeuble compte six logements et il est très calme."
+      ]
+    },
+    "b": {
+      "document": "LES MARDIS VERTS — Jardinage urbain et cuisine zéro déchet\nCentre communautaire Saint-Michel\n\nVous habitez en appartement et rêvez de manger vos propres légumes ?\nTous les mardis, de 18 h 30 à 20 h 30, d'avril à septembre.\n\n• Apprenez à cultiver tomates, fines herbes et salades sur un balcon.\n• Découvrez le compostage en appartement.\n• Cuisinez des recettes simples pour ne plus rien gaspiller.\n\nInscription : 40 $ pour toute la saison (matériel et semences inclus).\nOuvert à tous, débutants bienvenus. Places limitées à 20 participants.\nBonus : chaque participant repart avec un bac de culture et ses premiers plants !",
+      "instruction": {
+        "en": "You have seen this announcement and you would like a friend to sign up with you. Present the activity to your friend and try to convince them to join. Your friend is not convinced and raises objections: answer each one with arguments. Use 'tu'. Time: 10 minutes.",
+        "hi": "आपने यह सूचना देखी है और चाहते हैं कि आपका एक दोस्त भी आपके साथ नाम लिखवाए। दोस्त को इस गतिविधि के बारे में बताइए और उसे शामिल होने के लिए मनाइए। दोस्त राज़ी नहीं है और आपत्तियाँ उठाता है: हर आपत्ति का तर्क के साथ जवाब दीजिए। 'tu' का प्रयोग कीजिए। समय: 10 मिनट।"
+      },
+      "partnerObjections": [
+        "Le mardi soir, je finis souvent tard au travail.",
+        "Je n'ai pas de jardin, j'habite dans un petit appartement.",
+        "40 $, c'est cher pour moi en ce moment.",
+        "Je n'ai jamais rien fait pousser : toutes mes plantes meurent !",
+        "Le centre communautaire est loin de chez moi.",
+        "D'avril à septembre, c'est long : je ne suis pas sûr de pouvoir m'engager pour six mois.",
+        "Le compost dans un appartement, ça sent mauvais, non ?",
+        "C'est plus simple d'acheter mes légumes au marché.",
+        "Je ne connaîtrai personne là-bas."
+      ]
+    }
+  }
+}

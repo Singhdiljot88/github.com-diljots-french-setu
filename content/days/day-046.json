@@ -1,0 +1,192 @@
+{
+  "day": 46,
+  "phase": 3,
+  "title": { "fr": "Quand j'étais petit : l'imparfait", "en": "When I was young: the imparfait", "hi": "जब मैं छोटा था: इम्पारफ़े (imparfait)" },
+  "objective": {
+    "en": "Form the imparfait and use it to describe how things were in the past (people, places, weather) and what you used to do regularly as a child.",
+    "hi": "इम्पारफ़े (imparfait) बनाना और उससे बताना कि अतीत में चीज़ें कैसी थीं (लोग, जगहें, मौसम) और बचपन में आप नियमित रूप से क्या करते थे।"
+  },
+  "prerequisites": {
+    "days": [9, 16, 18, 22, 23, 33, 34, 41],
+    "summary": {
+      "en": "You need the present tense nous form of common verbs (Days 9, 16), descriptions with adjectives (Day 18), family (Day 22), the home (Day 23), weather (Day 33) and frequency words (Day 34).",
+      "hi": "आपको आम क्रियाओं का वर्तमान काल वाला nous रूप (दिन 9, 16), विशेषणों से वर्णन (दिन 18), परिवार (दिन 22), घर (दिन 23), मौसम (दिन 33) और आवृत्ति वाले शब्द (दिन 34) याद होने चाहिए।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "l'enfance", "en": "childhood", "hi": "बचपन", "pron": "लाँ-फ़ाँस", "ipa": "lɑ̃fɑ̃s", "pos": "noun", "gender": "f", "lemma": "enfance" },
+    { "fr": "quand j'étais petit(e)", "en": "when I was little", "hi": "जब मैं छोटा/छोटी था/थी", "pron": "काँ झ़े-तै प्ती (प्तीत)", "ipa": "kɑ̃ ʒetɛ pəti(t)", "pos": "phrase", "note": { "en": "The classic way to start a childhood memory.", "hi": "बचपन की कोई याद शुरू करने का सबसे आम तरीक़ा।" } },
+    { "fr": "le village", "en": "the village", "hi": "गाँव", "pron": "लö वी-लाझ़", "ipa": "lə vilaʒ", "pos": "noun", "gender": "m", "lemma": "village", "note": { "en": "Masculine in French, although गाँव is also masculine in Hindi — an easy one!", "hi": "फ़्रेंच में पुल्लिंग, और हिंदी में 'गाँव' भी पुल्लिंग — यह आसान है!" } },
+    { "fr": "les grands-parents", "en": "grandparents", "hi": "दादा-दादी / नाना-नानी", "pron": "ले ग्राँ-पा-ग़ाँ", "ipa": "le ɡʁɑ̃paʁɑ̃", "pos": "noun", "gender": "m", "lemma": "grands-parents", "note": { "en": "French doesn't separate the father's and mother's side: grand-mère is both दादी and नानी.", "hi": "फ़्रेंच में पिता और माता की तरफ़ के लिए अलग शब्द नहीं हैं: grand-mère दादी भी है और नानी भी।" } },
+    { "fr": "l'école primaire", "en": "primary school", "hi": "प्राथमिक स्कूल", "pron": "ले-कॉल प्री-मैग़", "ipa": "lekɔl pʁimɛʁ", "pos": "noun", "gender": "f", "lemma": "école" },
+    { "fr": "l'institutrice", "en": "the (female) primary-school teacher", "hi": "प्राथमिक स्कूल की अध्यापिका", "pron": "लैँ-स्ती-तü-त्रीस", "ipa": "lɛ̃stitytʁis", "pos": "noun", "gender": "f", "lemma": "instituteur", "note": { "en": "Masculine: l'instituteur. Today people also say 'le/la professeur(e) des écoles'.", "hi": "पुल्लिंग: l'instituteur। आजकल 'le/la professeur(e) des écoles' भी कहते हैं।" } },
+    { "fr": "la cour", "en": "the courtyard; the playground", "hi": "आँगन; स्कूल का मैदान", "pron": "ला कूग़", "ipa": "la kuʁ", "pos": "noun", "gender": "f", "lemma": "cour" },
+    { "fr": "le toit", "en": "the roof", "hi": "छत", "pron": "लö त्वा", "ipa": "lə twa", "pos": "noun", "gender": "m", "lemma": "toit", "note": { "en": "Gender trap: छत is feminine in Hindi, le toit is masculine.", "hi": "लिंग का जाल: हिंदी में 'छत' स्त्रीलिंग है, पर le toit पुल्लिंग है।" } },
+    { "fr": "le cerf-volant", "en": "the kite", "hi": "पतंग", "pron": "लö सैग़-वो-लाँ", "ipa": "lə sɛʁvɔlɑ̃", "pos": "noun", "gender": "m", "lemma": "cerf-volant", "note": { "en": "Gender trap: पतंग is feminine, le cerf-volant is masculine. Plural: des cerfs-volants.", "hi": "लिंग का जाल: 'पतंग' स्त्रीलिंग है, le cerf-volant पुल्लिंग। बहुवचन: des cerfs-volants।" } },
+    { "fr": "le vélo", "en": "the bicycle", "hi": "साइकिल", "pron": "लö वे-लो", "ipa": "lə velo", "pos": "noun", "gender": "m", "lemma": "vélo", "note": { "en": "à vélo = by bike. Gender trap again: साइकिल is feminine in Hindi.", "hi": "à vélo = साइकिल से। फिर लिंग का जाल: हिंदी में 'साइकिल' स्त्रीलिंग है।" } },
+    { "fr": "l'arbre", "en": "the tree", "hi": "पेड़", "pron": "लाग़ब्ग़", "ipa": "laʁbʁ", "pos": "noun", "gender": "m", "lemma": "arbre" },
+    { "fr": "autrefois", "en": "in the past, in the old days", "hi": "पहले के ज़माने में, पुराने दिनों में", "pron": "ओ-त्रö-फ़्वा", "ipa": "otʁəfwa", "pos": "adverb" }
+  ],
+  "phrases": [
+    { "fr": "Quand j'étais petit, j'habitais à Lucknow.", "en": "When I was little, I lived in Lucknow.", "hi": "जब मैं छोटा था, मैं लखनऊ में रहता था।", "pron": "काँ झ़े-तै प्ती झ़ा-बी-तै आ लख-नऊ" },
+    { "fr": "Il y avait un grand arbre dans la cour.", "en": "There was a big tree in the courtyard.", "hi": "आँगन में एक बड़ा पेड़ था।", "pron": "ई-लि-या-वै ऐँ ग्राँ ताग़ब्ग़ दाँ ला कूग़", "note": { "en": "il y a → il y avait (there was / there were).", "hi": "il y a → il y avait (था/थे)।" } },
+    { "fr": "Il faisait très chaud en été.", "en": "It was very hot in summer.", "hi": "गर्मियों में बहुत गर्मी होती थी।", "pron": "ईल फ़ö-ज़ै त्रै शो आँ ने-ते" },
+    { "fr": "Tous les dimanches, nous allions au marché.", "en": "Every Sunday we used to go to the market.", "hi": "हर रविवार हम बाज़ार जाते थे।", "pron": "तू ले दी-माँश नू ज़ा-ल्योँ ओ माग़-शे" },
+    { "fr": "C'était une autre vie !", "en": "It was another life!", "hi": "वह तो अलग ही ज़िंदगी थी!", "pron": "से-तै ü नोत्ग़ वी" },
+    { "fr": "Ma grand-mère racontait des histoires.", "en": "My grandmother used to tell stories.", "hi": "मेरी दादी/नानी कहानियाँ सुनाया करती थीं।", "pron": "मा ग्राँ-मैग़ ग़ा-कोँ-तै दे ज़ीस-त्वाग़" }
+  ],
+  "grammar": {
+    "title": { "en": "The imparfait: formation and uses", "hi": "इम्पारफ़े: बनाना और इस्तेमाल" },
+    "explanation": {
+      "en": "Formation: take the nous form of the present, remove -ons, and add -ais, -ais, -ait, -ions, -iez, -aient. parler: nous parlons → parl- → je parlais, tu parlais, il parlait, nous parlions, vous parliez, ils parlaient. finir: nous finissons → je finissais. faire: nous faisons → je faisais. avoir: nous avons → j'avais. aller: nous allons → j'allais. prendre: nous prenons → je prenais. Only être is irregular: ét- → j'étais, il était, nous étions. Uses: (1) description in the past — what things were like: La maison était petite. Il faisait chaud. Il y avait un arbre. (2) habits, things you used to do: Tous les jours, je marchais à l'école. (3) something in progress at a past moment: À huit heures, je dormais.",
+      "hi": "बनाना: वर्तमान काल का nous रूप लीजिए, -ons हटाइए, और -ais, -ais, -ait, -ions, -iez, -aient जोड़िए। parler: nous parlons → parl- → je parlais, tu parlais, il parlait, nous parlions, vous parliez, ils parlaient। finir: nous finissons → je finissais। faire: nous faisons → je faisais। avoir: nous avons → j'avais। aller: nous allons → j'allais। prendre: nous prenons → je prenais। सिर्फ़ être अनियमित है: ét- → j'étais, il était, nous étions। इस्तेमाल: (1) अतीत का वर्णन — चीज़ें कैसी थीं: La maison était petite (घर छोटा था)। Il faisait chaud (गर्मी थी)। Il y avait un arbre (एक पेड़ था)। (2) आदतें, जो आप किया करते थे: Tous les jours, je marchais à l'école (मैं रोज़ पैदल स्कूल जाता था)। (3) अतीत के किसी पल में चल रहा काम: À huit heures, je dormais (आठ बजे मैं सो रहा था)।"
+    },
+    "comparison": {
+      "en": "Hindi gives you a perfect guide. Hindi था/थी/थे for description = imparfait: घर छोटा था = la maison était petite. Hindi habitual past 'करता था / जाता था' = imparfait: मैं रोज़ स्कूल जाता था = j'allais à l'école tous les jours. Hindi 'कर रहा था' (in progress) = imparfait too: मैं सो रहा था = je dormais. But a single completed event (मैं स्कूल गया) is passé composé: je suis allé à l'école. English hides this with one form, 'I went', for both.",
+      "hi": "हिंदी यहाँ बढ़िया मार्गदर्शक है। वर्णन वाला था/थी/थे = इम्पारफ़े: घर छोटा था = la maison était petite। आदत वाला भूतकाल 'करता था / जाता था' = इम्पारफ़े: मैं रोज़ स्कूल जाता था = j'allais à l'école tous les jours। 'कर रहा था' (चल रहा काम) भी = इम्पारफ़े: मैं सो रहा था = je dormais। पर एक बार पूरी हुई घटना (मैं स्कूल गया) पासे कॉम्पोज़े है: je suis allé à l'école। अंग्रेज़ी दोनों के लिए एक ही रूप 'I went' इस्तेमाल करके यह फ़र्क़ छिपा देती है।"
+    },
+    "examples": [
+      { "fr": "Quand j'étais petite, j'avais un chat.", "en": "When I was little, I had a cat.", "hi": "जब मैं छोटी थी, मेरे पास एक बिल्ली थी।", "pron": "काँ झ़े-तै प्तीत झ़ा-वै ऐँ शा" },
+      { "fr": "Nous habitions dans un petit village.", "en": "We lived in a small village.", "hi": "हम एक छोटे-से गाँव में रहते थे।", "pron": "नू ज़ा-बी-त्योँ दाँ ज़ैँ प्ती वी-लाझ़" },
+      { "fr": "Mon père prenait le bus tous les matins.", "en": "My father used to take the bus every morning.", "hi": "मेरे पिताजी हर सुबह बस लेते थे।", "pron": "मोँ पैग़ प्रö-नै लö बüस तू ले मा-तैँ" },
+      { "fr": "Le dimanche, ma mère faisait des parathas.", "en": "On Sundays my mother used to make parathas.", "hi": "रविवार को मेरी माँ पराठे बनाती थीं।", "pron": "लö दी-माँश मा मैग़ फ़ö-ज़ै दे पा-ग़ा-ता" },
+      { "fr": "Mes cousins jouaient au cricket dans la rue.", "en": "My cousins used to play cricket in the street.", "hi": "मेरे कज़िन गली में क्रिकेट खेलते थे।", "pron": "मे कू-ज़ैँ झ़ू-ऐ ओ क्री-कैत दाँ ला ग़ü" }
+    ],
+    "pitfalls": [
+      { "en": "-ger and -cer verbs keep their soft sound: manger → je mangeais, commencer → je commençais.", "hi": "-ger और -cer वाली क्रियाएँ अपनी नरम आवाज़ बनाए रखती हैं: manger → je mangeais, commencer → je commençais।" },
+      { "en": "Verbs ending in -ier get two i's with nous and vous: étudier → nous étudiions, vous étudiiez.", "hi": "-ier पर ख़त्म होने वाली क्रियाओं में nous और vous के साथ दो i आते हैं: étudier → nous étudiions, vous étudiiez।" },
+      { "en": "Don't use the imparfait for a single finished event: 'Hier, je mangeais au restaurant' sounds like background; to say 'I ate at a restaurant yesterday', use 'j'ai mangé'.", "hi": "एक बार पूरी हुई घटना के लिए इम्पारफ़े मत लगाइए: 'Hier, je mangeais au restaurant' पृष्ठभूमि जैसा लगता है; 'कल मैंने रेस्टोरेंट में खाया' के लिए 'j'ai mangé' कहिए।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "-ais, -ait, -aient all sound /ɛ/",
+    "tip": {
+      "en": "Five spellings, one sound: je parlais, tu parlais, il parlait, ils parlaient all end in an open ऐ — the -s, -t and -ent are silent. Only nous parlions (-योँ) and vous parliez (-ये) sound different. So in listening, use the subject pronoun to know who is speaking.",
+      "hi": "पाँच वर्तनियाँ, एक आवाज़: je parlais, tu parlais, il parlait, ils parlaient सब खुले ऐ पर ख़त्म होते हैं — -s, -t और -ent नहीं बोले जाते। सिर्फ़ nous parlions (-योँ) और vous parliez (-ये) अलग सुनाई देते हैं। इसलिए सुनते समय कर्ता सर्वनाम से समझिए कि कौन बोल रहा है।"
+    },
+    "words": [
+      { "fr": "je parlais", "en": "I was speaking / I used to speak", "hi": "मैं बोलता/बोलती था/थी", "pron": "झ़ö पाग़-लै", "ipa": "ʒə paʁlɛ" },
+      { "fr": "il parlait", "en": "he used to speak", "hi": "वह बोलता था", "pron": "ईल पाग़-लै", "ipa": "il paʁlɛ" },
+      { "fr": "ils parlaient", "en": "they used to speak", "hi": "वे बोलते थे", "pron": "ईल पाग़-लै", "ipa": "il paʁlɛ" },
+      { "fr": "nous parlions", "en": "we used to speak", "hi": "हम बोलते थे", "pron": "नू पाग़-ल्योँ", "ipa": "nu paʁljɔ̃" },
+      { "fr": "c'était", "en": "it was", "hi": "वह … था", "pron": "से-तै", "ipa": "setɛ" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "L'enfance à Pondichéry", "en": "Childhood in Pondicherry" },
+    "type": "dialogue",
+    "mode": "pedagogical",
+    "context": { "en": "Ananya lives in Montréal. For a school project, she asks her grandparents, who grew up in Pondicherry and speak French, about their childhood.", "hi": "अनन्या मॉन्ट्रियाल में रहती है। स्कूल के एक प्रोजेक्ट के लिए वह अपने नाना-नानी से उनके बचपन के बारे में पूछती है; वे पुदुच्चेरी में बड़े हुए और फ़्रेंच बोलते हैं।" },
+    "lines": [
+      { "speaker": "Ananya", "voice": "f1", "fr": "Grand-mère, grand-père, pour mon projet d'école : comment était votre enfance à Pondichéry ?", "en": "Grandma, Grandpa, for my school project: what was your childhood like in Pondicherry?", "hi": "नानी, नाना, मेरे स्कूल प्रोजेक्ट के लिए: पुदुच्चेरी में आपका बचपन कैसा था?" },
+      { "speaker": "Grand-mère", "voice": "f2", "fr": "Oh, c'était une autre vie ! Nous habitions dans une petite maison près de la mer. Il y avait une grande cour avec un manguier.", "en": "Oh, it was another life! We lived in a small house near the sea. There was a big courtyard with a mango tree.", "hi": "अरे, वह तो अलग ही ज़िंदगी थी! हम समुद्र के पास एक छोटे-से घर में रहते थे। एक बड़ा आँगन था जिसमें आम का पेड़ था।" },
+      { "speaker": "Grand-père", "voice": "m2", "fr": "Moi, j'habitais dans un village, à dix kilomètres. Mes parents avaient une ferme.", "en": "I lived in a village, ten kilometres away. My parents had a farm.", "hi": "मैं दस किलोमीटर दूर एक गाँव में रहता था। मेरे माता-पिता का एक खेत था।" },
+      { "speaker": "Ananya", "voice": "f1", "fr": "Vous alliez à l'école à pied ?", "en": "Did you walk to school?", "hi": "आप पैदल स्कूल जाते थे?" },
+      { "speaker": "Grand-père", "voice": "m2", "fr": "Oui, tous les jours, je marchais quarante minutes. Il n'y avait pas de bus !", "en": "Yes, every day I walked forty minutes. There was no bus!", "hi": "हाँ, मैं रोज़ चालीस मिनट पैदल चलता था। कोई बस नहीं थी!" },
+      { "speaker": "Grand-mère", "voice": "f2", "fr": "Moi, j'allais à l'école à vélo avec mon frère. Notre institutrice était très sévère, mais elle était juste.", "en": "I went to school by bike with my brother. Our teacher was very strict, but she was fair.", "hi": "मैं अपने भाई के साथ साइकिल से स्कूल जाती थी। हमारी अध्यापिका बहुत सख़्त थीं, पर न्यायप्रिय थीं।" },
+      { "speaker": "Ananya", "voice": "f1", "fr": "Et après l'école, qu'est-ce que vous faisiez ?", "en": "And after school, what did you do?", "hi": "और स्कूल के बाद आप क्या करते थे?" },
+      { "speaker": "Grand-père", "voice": "m2", "fr": "Je travaillais à la ferme avec mon père. Le soir, je faisais mes devoirs avec une lampe à pétrole.", "en": "I worked on the farm with my father. In the evening I did my homework by a kerosene lamp.", "hi": "मैं अपने पिता के साथ खेत पर काम करता था। शाम को मैं लालटेन की रोशनी में गृहकार्य करता था।" },
+      { "speaker": "Grand-mère", "voice": "f2", "fr": "Moi, je jouais avec mes cousines dans la cour. En janvier, pour Pongal, nous faisions des kolams devant la maison.", "en": "I played with my cousins in the courtyard. In January, for Pongal, we made kolams in front of the house.", "hi": "मैं अपनी कज़िन बहनों के साथ आँगन में खेलती थी। जनवरी में, पोंगल के लिए, हम घर के सामने कोलम बनाते थे।" },
+      { "speaker": "Ananya", "voice": "f1", "fr": "Vous aviez une télévision ?", "en": "Did you have a television?", "hi": "आपके पास टीवी था?" },
+      { "speaker": "Grand-mère", "voice": "f2", "fr": "Non ! Nous écoutions la radio. Le dimanche, toute la famille écoutait de la musique ensemble.", "en": "No! We listened to the radio. On Sundays, the whole family listened to music together.", "hi": "नहीं! हम रेडियो सुनते थे। रविवार को पूरा परिवार साथ बैठकर संगीत सुनता था।" },
+      { "speaker": "Grand-père", "voice": "m2", "fr": "Et il faisait chaud, très chaud ! Je ne connaissais pas la neige.", "en": "And it was hot, very hot! I didn't know what snow was.", "hi": "और गर्मी होती थी, बहुत गर्मी! मैंने बर्फ़ कभी नहीं देखी थी।" },
+      { "speaker": "Ananya", "voice": "f1", "fr": "Et maintenant, à Montréal, vous avez de la neige six mois par an !", "en": "And now, in Montréal, you have snow six months a year!", "hi": "और अब मॉन्ट्रियाल में आपके पास साल में छह महीने बर्फ़ रहती है!" },
+      { "speaker": "Grand-mère", "voice": "f2", "fr": "Eh oui, ma chérie. La vie est pleine de surprises !", "en": "Oh yes, my dear. Life is full of surprises!", "hi": "हाँ बेटा। ज़िंदगी आश्चर्यों से भरी है!" }
+    ],
+    "questions": [
+      { "q": { "en": "Where did the grandmother live as a child?" }, "options": ["On a farm in a village", "In a small house near the sea", "In a flat in the city centre", "In Montréal"], "answer": 1, "explanation": { "en": "'une petite maison près de la mer'. The grandfather lived on a farm.", "hi": "'une petite maison près de la mer'। खेत वाले घर में नाना रहते थे।" }, "kind": "literal", "evidence": "Nous habitions dans une petite maison près de la mer." },
+      { "q": { "en": "How did the grandfather get to school?" }, "options": ["He walked for forty minutes", "He took the bus", "He went by bike with his brother"], "answer": 0, "explanation": { "en": "He walked forty minutes every day; there was no bus.", "hi": "वह रोज़ चालीस मिनट पैदल चलते थे; कोई बस नहीं थी।" }, "kind": "literal", "evidence": "tous les jours, je marchais quarante minutes" },
+      { "q": { "en": "How does the grandmother describe her teacher?" }, "options": ["Kind and funny", "Young and shy", "Strict but fair"], "answer": 2, "explanation": { "en": "'très sévère, mais elle était juste'.", "hi": "'très sévère, mais elle était juste' (बहुत सख़्त, पर न्यायप्रिय)।" }, "kind": "literal", "evidence": "Notre institutrice était très sévère, mais elle était juste." },
+      { "q": { "en": "What did the family do on Sundays?" }, "options": ["They watched television", "They listened to music on the radio together", "They went to the beach"], "answer": 1, "explanation": { "en": "They had no TV; on Sundays the whole family listened to music.", "hi": "उनके पास टीवी नहीं था; रविवार को पूरा परिवार संगीत सुनता था।" }, "kind": "literal", "evidence": "Le dimanche, toute la famille écoutait de la musique ensemble." },
+      { "q": { "en": "Why does the grandmother say 'Life is full of surprises'?" }, "options": ["They grew up without snow and now live with a lot of it", "Ananya's project got a good mark", "They never went to school"], "answer": 0, "explanation": { "en": "The grandfather didn't know snow as a child, and now they live in Montréal with snow six months a year.", "hi": "नाना ने बचपन में बर्फ़ नहीं देखी थी, और अब वे मॉन्ट्रियाल में रहते हैं जहाँ साल में छह महीने बर्फ़ होती है।" }, "kind": "inference", "evidence": "Je ne connaissais pas la neige." }
+    ],
+    "dictation": ["Nous habitions près de la mer.", "Tous les jours, je marchais quarante minutes.", "Nous écoutions la radio."],
+    "gapFill": { "text": "Mes parents ___ une ferme. Notre institutrice ___ très sévère. Le soir, je ___ mes devoirs.", "answers": ["avaient", "était", "faisais"] }
+  },
+  "speaking": {
+    "type": "presentation",
+    "instructions": {
+      "en": "Describe your childhood home and your habits as a child. Answer the prompts with the imparfait, then speak for 1–2 minutes: the place, the people, the weather, what you used to do.",
+      "hi": "अपने बचपन के घर और बचपन की आदतों का वर्णन कीजिए। प्रश्नों के जवाब इम्पारफ़े में दीजिए, फिर 1–2 मिनट बोलिए: जगह, लोग, मौसम, और आप क्या किया करते थे।"
+    },
+    "prompts": [
+      { "fr": "Où est-ce que vous habitiez quand vous étiez petit(e) ?", "en": "Where did you live when you were little?", "hi": "जब आप छोटे थे, आप कहाँ रहते थे?", "pron": "ऊ ऐस-क वू ज़ा-बी-त्ये काँ वू ज़े-त्ये प्ती", "model": "Quand j'étais petit, j'habitais à Varanasi, près du Gange." },
+      { "fr": "Comment était votre maison ?", "en": "What was your house like?", "hi": "आपका घर कैसा था?", "pron": "को-माँ ए-तै वॉत्ग़ मै-ज़ोँ", "model": "Notre maison était vieille mais grande. Il y avait un toit où nous dormions en été." },
+      { "fr": "Comment alliez-vous à l'école ?", "en": "How did you go to school?", "hi": "आप स्कूल कैसे जाते थे?", "pron": "को-माँ आ-ल्ये वू ज़ा ले-कॉल", "model": "J'allais à l'école en rickshaw avec trois amis." },
+      { "fr": "Qu'est-ce que vous faisiez le dimanche ?", "en": "What did you use to do on Sundays?", "hi": "आप रविवार को क्या करते थे?", "pron": "कैस-क वू फ़ö-ज़्ये लö दी-माँश", "model": "Le dimanche, je jouais au cricket et je regardais des films avec mon père." },
+      { "fr": "Quel temps faisait-il en été ?", "en": "What was the weather like in summer?", "hi": "गर्मियों में मौसम कैसा होता था?", "pron": "कैल ताँ फ़ö-ज़ै-तील आँ ने-ते", "model": "Il faisait très chaud, quarante-cinq degrés !" }
+    ],
+    "tip": {
+      "en": "Think in Hindi 'था / करता था' and the imparfait comes naturally. Keep the ending short and open: -ais = ऐ.",
+      "hi": "हिंदी में 'था / करता था' सोचिए, इम्पारफ़े अपने-आप आ जाएगा। अंत को छोटा और खुला रखिए: -ais = ऐ।"
+    }
+  },
+  "reading": {
+    "genre": "story",
+    "title": "Les étés chez ma grand-mère",
+    "text": "Quand j'étais petite, je passais tous les étés chez mes grands-parents, dans un village près de Ludhiana. Leur maison n'était pas grande, mais elle avait un toit plat et une cour avec un vieil arbre.\n\nLe matin, je me levais tôt avec ma grand-mère. Elle préparait le thé et moi, je donnais à manger aux vaches. Mon grand-père lisait le journal sous l'arbre. À midi, il faisait très chaud, alors tout le monde dormait un peu.\n\nL'après-midi, je jouais avec mes cousins. Nous montions sur le toit et nous faisions voler des cerfs-volants. Mon cousin Harjit gagnait toujours ! Le soir, nous mangions tous ensemble dans la cour, sous les étoiles. Ma grand-mère racontait des histoires et je m'endormais souvent avant la fin.\n\nAujourd'hui, j'habite à Brampton et ma vie est très différente. Mais quand je sens l'odeur du thé à la cardamome, je suis de nouveau dans cette cour, en été.\n\nGurpreet",
+    "translation": {
+      "en": "When I was little, I spent every summer at my grandparents' house, in a village near Ludhiana. Their house wasn't big, but it had a flat roof and a courtyard with an old tree.\n\nIn the morning I got up early with my grandmother. She made the tea and I fed the cows. My grandfather read the newspaper under the tree. At noon it was very hot, so everyone slept a little.\n\nIn the afternoon I played with my cousins. We climbed onto the roof and flew kites. My cousin Harjit always won! In the evening we all ate together in the courtyard, under the stars. My grandmother told stories and I often fell asleep before the end.\n\nToday I live in Brampton and my life is very different. But when I smell cardamom tea, I am back in that courtyard, in summer.\n\nGurpreet",
+      "hi": "जब मैं छोटी थी, मैं हर गर्मी की छुट्टियाँ लुधियाना के पास एक गाँव में अपने दादा-दादी के घर बिताती थी। उनका घर बड़ा नहीं था, पर उसकी छत सपाट थी और आँगन में एक पुराना पेड़ था।\n\nसुबह मैं दादी के साथ जल्दी उठती थी। वह चाय बनाती थीं और मैं गायों को चारा खिलाती थी। दादाजी पेड़ के नीचे अख़बार पढ़ते थे। दोपहर को बहुत गर्मी होती थी, इसलिए सब थोड़ी देर सो जाते थे।\n\nदोपहर बाद मैं अपने कज़िन भाई-बहनों के साथ खेलती थी। हम छत पर चढ़कर पतंगें उड़ाते थे। मेरा कज़िन हरजीत हमेशा जीतता था! शाम को हम सब आँगन में तारों के नीचे साथ खाना खाते थे। दादी कहानियाँ सुनाती थीं और मैं अक्सर कहानी ख़त्म होने से पहले ही सो जाती थी।\n\nआज मैं ब्रैम्पटन में रहती हूँ और मेरी ज़िंदगी बहुत अलग है। पर जब भी मुझे इलायची वाली चाय की ख़ुशबू आती है, मैं फिर से गर्मियों के उसी आँगन में पहुँच जाती हूँ।\n\nगुरप्रीत"
+    },
+    "questions": [
+      { "q": { "en": "Where did Gurpreet spend her summers?" }, "options": ["In Brampton", "In Ludhiana city centre", "In her grandparents' village near Ludhiana", "At the seaside"], "answer": 2, "explanation": { "en": "'chez mes grands-parents, dans un village près de Ludhiana'.", "hi": "'chez mes grands-parents, dans un village près de Ludhiana' (लुधियाना के पास गाँव में दादा-दादी के घर)।" }, "kind": "literal", "evidence": "je passais tous les étés chez mes grands-parents, dans un village près de Ludhiana" },
+      { "q": { "en": "What did her grandfather do in the morning?" }, "options": ["He read the newspaper under the tree", "He made the tea", "He fed the cows"], "answer": 0, "explanation": { "en": "The grandmother made tea, Gurpreet fed the cows, the grandfather read the paper.", "hi": "दादी चाय बनाती थीं, गुरप्रीत गायों को खिलाती थी, दादाजी अख़बार पढ़ते थे।" }, "kind": "literal", "evidence": "Mon grand-père lisait le journal sous l'arbre." },
+      { "q": { "en": "Why did everyone sleep at midday?" }, "options": ["They got up very early", "It was too hot", "There was nothing to do"], "answer": 1, "explanation": { "en": "'il faisait très chaud, alors…' — the heat is the reason.", "hi": "'il faisait très chaud, alors…' — कारण गर्मी है।" }, "kind": "inference", "evidence": "À midi, il faisait très chaud, alors tout le monde dormait un peu." },
+      { "q": { "en": "Who always won at kite flying?" }, "options": ["Gurpreet", "Her grandfather", "Her cousin Harjit"], "answer": 2, "explanation": { "en": "'Mon cousin Harjit gagnait toujours !'", "hi": "'Mon cousin Harjit gagnait toujours !' (मेरा कज़िन हरजीत हमेशा जीतता था!)" }, "kind": "literal", "evidence": "Mon cousin Harjit gagnait toujours !" },
+      { "q": { "en": "What brings Gurpreet's childhood memories back today?" }, "options": ["The smell of cardamom tea", "Flying kites in Brampton", "Phone calls with her cousin"], "answer": 0, "explanation": { "en": "When she smells cardamom tea, she feels she is back in the courtyard.", "hi": "इलायची वाली चाय की ख़ुशबू आते ही उसे लगता है कि वह फिर उसी आँगन में है।" }, "kind": "inference", "evidence": "quand je sens l'odeur du thé à la cardamome, je suis de nouveau dans cette cour" }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "Write about your childhood: where you lived, what your home was like, who lived with you, the weather, and what you used to do on school days and holidays.",
+      "hi": "अपने बचपन के बारे में लिखिए: आप कहाँ रहते थे, आपका घर कैसा था, आपके साथ कौन रहता था, मौसम कैसा था, और स्कूल के दिनों और छुट्टियों में आप क्या करते थे।",
+      "fr": "Racontez votre enfance."
+    },
+    "minWords": 60,
+    "maxWords": 110,
+    "hints": [
+      { "en": "Start with 'Quand j'étais petit(e), …'.", "hi": "'Quand j'étais petit(e), …' से शुरू कीजिए।" },
+      { "en": "Use il y avait, c'était, il faisait for description; use habit words: tous les jours, le dimanche, souvent, toujours.", "hi": "वर्णन के लिए il y avait, c'était, il faisait; आदत वाले शब्द: tous les jours, le dimanche, souvent, toujours।" },
+      { "en": "Use the imparfait for everything in this text — no single events yet.", "hi": "इस पाठ में सब कुछ इम्पारफ़े में लिखिए — अभी एक बार की घटनाएँ नहीं।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Quand j'étais petit(e), …", "en": "When I was little, …", "hi": "जब मैं छोटा/छोटी था/थी, …", "pron": "काँ झ़े-तै प्ती (प्तीत)" },
+      { "fr": "Il y avait …", "en": "There was / there were …", "hi": "… था/थे", "pron": "ई-लि-या-वै" },
+      { "fr": "Tous les jours, je …", "en": "Every day I used to …", "hi": "मैं रोज़ … करता/करती था/थी", "pron": "तू ले झ़ूग़ झ़ö" }
+    ],
+    "model": {
+      "fr": "Quand j'étais petit, j'habitais à Kolkata avec mes parents, ma sœur et ma grand-mère. Notre appartement était petit, mais il y avait un grand balcon. Il faisait chaud et humide. Tous les jours, j'allais à l'école en tram avec ma sœur. Après l'école, je jouais au football avec mes voisins. Le soir, ma grand-mère chantait et mon père lisait le journal. Pendant les vacances, nous allions chez mon oncle, à la campagne. J'adorais ces vacances !",
+      "en": "When I was little, I lived in Kolkata with my parents, my sister and my grandmother. Our flat was small, but there was a big balcony. It was hot and humid. Every day I went to school by tram with my sister. After school I played football with my neighbours. In the evening my grandmother sang and my father read the newspaper. During the holidays we went to my uncle's in the countryside. I loved those holidays!"
+    },
+    "checklist": [
+      { "en": "Are your verbs in the imparfait (-ais, -ait, -ions, -aient)?", "hi": "क्या आपकी क्रियाएँ इम्पारफ़े में हैं (-ais, -ait, -ions, -aient)?" },
+      { "en": "Did you write j'étais (not j'été) and il y avait (not il y a)?", "hi": "क्या आपने j'étais (j'été नहीं) और il y avait (il y a नहीं) लिखा?" },
+      { "en": "Did you include description (place, weather) and habits?", "hi": "क्या आपने वर्णन (जगह, मौसम) और आदतें, दोनों शामिल कीं?" }
+    ]
+  },
+  "review": {
+    "fromDays": [18, 22, 23, 33, 34, 44, 45],
+    "items": [
+      { "fr": "Ma grand-mère est petite et gentille.", "en": "My grandmother is small and kind.", "hi": "मेरी दादी छोटे क़द की और प्यारी हैं।", "pron": "मा ग्राँ-मैग़ ए प्तीत ए झ़ाँ-तीय" },
+      { "fr": "La cuisine est à côté du salon.", "en": "The kitchen is next to the living room.", "hi": "रसोई बैठक के बग़ल में है।", "pron": "ला क्üई-ज़ीन ए ता को-ते दü सा-लोँ" },
+      { "fr": "Il fait chaud et il pleut.", "en": "It's hot and it's raining.", "hi": "गर्मी है और बारिश हो रही है।", "pron": "ईल फ़ै शो ए ईल प्लö" },
+      { "fr": "Je joue souvent au cricket.", "en": "I often play cricket.", "hi": "मैं अक्सर क्रिकेट खेलता/खेलती हूँ।", "pron": "झ़ö झ़ू सू-वाँ ओ क्री-कैत" },
+      { "fr": "Je suis né(e) à Patna.", "en": "I was born in Patna.", "hi": "मेरा जन्म पटना में हुआ।", "pron": "झ़ö स्üई ने आ पत-ना" },
+      { "fr": "J'habite ici depuis trois ans.", "en": "I've been living here for three years.", "hi": "मैं तीन साल से यहाँ रह रहा/रही हूँ।", "pron": "झ़ा-बीत ई-सी दö-प्üई त्रवा ज़ाँ" },
+      { "fr": "il y a dix ans", "en": "ten years ago", "hi": "दस साल पहले", "pron": "ई-लि-या दी ज़ाँ" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "What is the imparfait of 'nous / avoir'?", "hi": "'nous / avoir' का इम्पारफ़े क्या है?" }, "options": ["nous avons", "nous avions", "nous aviez", "nous avons eu"], "answer": 1, "explanation": { "en": "Stem av- + -ions: nous avions.", "hi": "मूल av- + -ions: nous avions।" } },
+    { "type": "fill", "prompt": { "en": "Complete with être in the imparfait.", "hi": "être के इम्पारफ़े से पूरा कीजिए।" }, "sentence": "Quand j'___ petite, j'habitais à Goa.", "answer": "étais", "accept": [], "explanation": { "en": "être is irregular: ét- → j'étais.", "hi": "être अनियमित है: ét- → j'étais।" } },
+    { "type": "mcq", "prompt": { "en": "Which Hindi sentence matches 'Je jouais au cricket tous les jours'?", "hi": "'Je jouais au cricket tous les jours' किस हिंदी वाक्य से मेल खाता है?" }, "options": ["मैंने आज क्रिकेट खेला।", "मैं रोज़ क्रिकेट खेलता था।", "मैं कल क्रिकेट खेलूँगा।"], "answer": 1, "explanation": { "en": "A past habit (खेलता था) = imparfait.", "hi": "अतीत की आदत (खेलता था) = इम्पारफ़े।" } },
+    { "type": "fill", "prompt": { "en": "Complete with faire in the imparfait.", "hi": "faire के इम्पारफ़े से पूरा कीजिए।" }, "sentence": "En été, il ___ très chaud.", "answer": "faisait", "accept": [], "explanation": { "en": "nous faisons → fais- → il faisait.", "hi": "nous faisons → fais- → il faisait।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "There was a big tree in the courtyard.", "hi": "आँगन में एक बड़ा पेड़ था।" }, "answer": "Il y avait un grand arbre dans la cour.", "accept": ["Dans la cour, il y avait un grand arbre.", "Il y avait un grand arbre dans la cour"], "explanation": { "en": "il y a → il y avait in the past.", "hi": "भूतकाल में il y a → il y avait।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: We used to live in a small village.", "hi": "शब्दों को सही क्रम में रखिए: हम एक छोटे-से गाँव में रहते थे।" }, "words": ["un", "Nous", "village", "habitions", "petit", "dans", "."], "answer": "Nous habitions dans un petit village.", "explanation": { "en": "habiter → nous habitions; petit goes before the noun.", "hi": "habiter → nous habitions; petit संज्ञा से पहले आता है।" } },
+    { "type": "mcq", "prompt": { "en": "Which two forms sound exactly the same?", "hi": "कौन-से दो रूप बिल्कुल एक जैसे सुनाई देते हैं?" }, "options": ["il parlait / ils parlaient", "nous parlions / vous parliez", "je parlais / nous parlions"], "answer": 0, "explanation": { "en": "-ait and -aient are both ऐ; the endings -t and -ent are silent.", "hi": "-ait और -aient दोनों ऐ हैं; -t और -ent नहीं बोले जाते।" } }
+  ]
+}

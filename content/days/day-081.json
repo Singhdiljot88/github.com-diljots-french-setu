@@ -1,0 +1,981 @@
+{
+  "day": 81,
+  "phase": 5,
+  "title": {
+    "fr": "TEF compréhension écrite : les documents de la vie quotidienne",
+    "en": "TEF reading: everyday documents",
+    "hi": "TEF पठन: रोज़मर्रा के दस्तावेज़"
+  },
+  "objective": {
+    "en": "Read short everyday documents (notices, signs, small ads) quickly, find the key detail a question asks for, and understand restriction with ne … que, dates and opening hours.",
+    "hi": "छोटे रोज़मर्रा के दस्तावेज़ (सूचनाएँ, बोर्ड, छोटे विज्ञापन) जल्दी पढ़ना, सवाल जो ख़ास जानकारी माँगता है उसे ढूँढना, और ne … que (सिर्फ़), तारीख़ें और खुलने का समय समझना।"
+  },
+  "prerequisites": {
+    "days": [
+      12,
+      13,
+      15,
+      57,
+      58,
+      59
+    ],
+    "summary": {
+      "en": "Numbers, dates and the 24-hour clock (Days 12–15), negation variants including ne … que (Day 57), and notices with infinitive instructions (Day 58).",
+      "hi": "संख्याएँ, तारीख़ें और 24 घंटे वाली घड़ी (दिन 12–15), नकार के अलग रूप जिनमें ne … que भी है (दिन 57), और infinitive वाले निर्देशों की सूचनाएँ (दिन 58)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "les horaires d'ouverture",
+      "en": "opening hours",
+      "hi": "खुलने का समय",
+      "pron": "ले ज़ो-ग़ैग़ दू-वैग़-तüग़",
+      "ipa": "lez‿ɔʁɛʁ duvɛʁtyʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "horaire",
+      "note": {
+        "en": "'Horaire' is masculine and the h is silent, so liaison: les‿horaires.",
+        "hi": "'horaire' पुल्लिंग है और h नहीं बोला जाता, इसलिए liaison होता है: les‿horaires।"
+      }
+    },
+    {
+      "fr": "fermé exceptionnellement",
+      "en": "exceptionally closed",
+      "hi": "अपवाद के तौर पर बंद",
+      "pron": "फ़ैग़-मे ऐक-सैप-स्यो-नैल-माँ",
+      "ipa": "fɛʁme ɛksɛpsjɔnɛlmɑ̃",
+      "pos": "phrase"
+    },
+    {
+      "fr": "un jour férié",
+      "en": "a public holiday",
+      "hi": "सरकारी छुट्टी का दिन",
+      "pron": "ऐँ झ़ूग़ फ़े-ग़्ये",
+      "ipa": "ɛ̃ ʒuʁ feʁje",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "jour férié"
+    },
+    {
+      "fr": "le tarif",
+      "en": "price, rate",
+      "hi": "दाम / शुल्क की दर",
+      "pron": "लö ता-ग़ीफ़",
+      "ipa": "lə taʁif",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "tarif",
+      "note": {
+        "en": "Tarif réduit = reduced price (students, seniors).",
+        "hi": "tarif réduit = रियायती दाम (छात्र, बुज़ुर्ग)।"
+      }
+    },
+    {
+      "fr": "gratuit",
+      "en": "free (no cost)",
+      "hi": "मुफ़्त",
+      "pron": "ग्रा-तüई",
+      "ipa": "ɡʁatɥi",
+      "pos": "adjective",
+      "note": {
+        "en": "Feminine: gratuite (the t is then pronounced). 'Free' meaning 'available' is 'libre'.",
+        "hi": "स्त्रीलिंग: gratuite (तब t बोला जाता है)। 'खाली/उपलब्ध' के अर्थ में 'free' = 'libre'।"
+      }
+    },
+    {
+      "fr": "sur réservation",
+      "en": "by reservation only",
+      "hi": "पहले से बुकिंग करके",
+      "pron": "सüग़ ग़े-ज़ैग़-वा-स्योँ",
+      "ipa": "syʁ ʁezɛʁvasjɔ̃",
+      "pos": "phrase"
+    },
+    {
+      "fr": "valable",
+      "en": "valid",
+      "hi": "मान्य",
+      "pron": "वा-लाब्ल",
+      "ipa": "valabl",
+      "pos": "adjective"
+    },
+    {
+      "fr": "à partir de",
+      "en": "from, starting on",
+      "hi": "… से (शुरू होकर)",
+      "pron": "आ पाग़-तीग़ दö",
+      "ipa": "a paʁtiʁ də",
+      "pos": "preposition",
+      "note": {
+        "en": "À partir du 12 septembre = starting on 12 September.",
+        "hi": "à partir du 12 septembre = 12 सितंबर से।"
+      }
+    },
+    {
+      "fr": "un abonnement",
+      "en": "a subscription, a pass",
+      "hi": "सदस्यता / मासिक-वार्षिक पास",
+      "pron": "ऐँ ना-बॉन-माँ",
+      "ipa": "ɛ̃n‿abɔnmɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "abonnement"
+    },
+    {
+      "fr": "emprunter",
+      "en": "to borrow",
+      "hi": "उधार लेना",
+      "pron": "आँ-प्रैँ-ते",
+      "ipa": "ɑ̃pʁɛ̃te",
+      "pos": "verb",
+      "note": {
+        "en": "Opposite: prêter (to lend), rendre (to give back).",
+        "hi": "उलटा: prêter (उधार देना), rendre (लौटाना)।"
+      }
+    },
+    {
+      "fr": "interdit",
+      "en": "forbidden, prohibited",
+      "hi": "मना / वर्जित",
+      "pron": "ऐँ-तैग़-दी",
+      "ipa": "ɛ̃tɛʁdi",
+      "pos": "adjective"
+    },
+    {
+      "fr": "une pièce d'identité",
+      "en": "a piece of ID",
+      "hi": "पहचान पत्र",
+      "pron": "üन प्यैस दी-दाँ-ती-ते",
+      "ipa": "yn pjɛs didɑ̃tite",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "pièce d'identité"
+    },
+    {
+      "fr": "le stationnement",
+      "en": "parking",
+      "hi": "गाड़ी खड़ी करना / पार्किंग",
+      "pron": "लö स्ता-स्यॉन-माँ",
+      "ipa": "lə stasjɔnmɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "stationnement",
+      "note": {
+        "en": "In Québec, 'stationnement' is used where France often says 'parking'.",
+        "hi": "क्यूबेक में 'stationnement' बोला जाता है, फ़्रांस में अक्सर 'parking'।"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Vous ne pouvez emprunter que dix documents.",
+      "en": "You can only borrow ten items.",
+      "hi": "आप सिर्फ़ दस चीज़ें उधार ले सकते हैं।",
+      "pron": "वू नö पू-वे आँ-प्रैँ-ते कö दी दो-क्ü-माँ"
+    },
+    {
+      "fr": "Fermé le dimanche et les jours fériés.",
+      "en": "Closed on Sundays and public holidays.",
+      "hi": "रविवार और सरकारी छुट्टियों पर बंद।",
+      "pron": "फ़ैग़-मे लö दी-माँश ए ले झ़ूग़ फ़े-ग़्ये"
+    },
+    {
+      "fr": "Dans la limite des stocks disponibles.",
+      "en": "While stocks last.",
+      "hi": "जब तक माल उपलब्ध है।",
+      "pron": "दाँ ला ली-मीत दे स्तॉक दिस-पो-नीब्ल"
+    },
+    {
+      "fr": "Merci de votre compréhension.",
+      "en": "Thank you for your understanding.",
+      "hi": "आपकी समझदारी के लिए धन्यवाद।",
+      "pron": "मैग़-सी दö वॉत्ग़ कोँ-प्रे-आँ-स्योँ"
+    },
+    {
+      "fr": "Places limitées.",
+      "en": "Limited places.",
+      "hi": "सीटें सीमित हैं।",
+      "pron": "प्लास ली-मी-ते"
+    },
+    {
+      "fr": "Ouvert du lundi au vendredi, de 9 h à 20 h.",
+      "en": "Open Monday to Friday, 9 a.m. to 8 p.m.",
+      "hi": "सोमवार से शुक्रवार, सुबह 9 से रात 8 बजे तक खुला।",
+      "pron": "ऊ-वैग़ दü लैँ-दी ओ वाँ-द्रö-दी दö नö-वöग़ आ वैँ-तöग़"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Reading strategy + ne … que (only) + numbers and dates in documents",
+      "hi": "पढ़ने की रणनीति + ne … que (सिर्फ़) + दस्तावेज़ों में संख्याएँ और तारीख़ें"
+    },
+    "explanation": {
+      "en": "In the TEF everyday-documents section you have little time, so read the question FIRST, underline its keyword (a day, a price, a person), then scan the document for that keyword instead of reading every word. Watch for restriction: 'ne … que' looks negative but means 'only': 'On ne peut emprunter que 10 livres' = you can borrow ONLY 10 books (you CAN borrow). 'Que' goes right before the thing that is limited. Dates: le 1er (premier) juillet, then le 2, le 3… (cardinal numbers); du 3 au 9 juillet = from the 3rd to the 9th; à partir du 12 = from the 12th. Times use the 24-hour clock: 18 h 30 = dix-huit heures trente = 6:30 p.m.",
+      "hi": "TEF के रोज़मर्रा-दस्तावेज़ वाले हिस्से में समय कम होता है, इसलिए पहले सवाल पढ़िए, उसका मुख्य शब्द (दिन, दाम, व्यक्ति) पहचानिए, फिर पूरा दस्तावेज़ शब्द-दर-शब्द पढ़ने के बजाय उसी शब्द को खोजिए (scanning)। प्रतिबंध पर ध्यान दीजिए: 'ne … que' दिखने में नकारात्मक है पर उसका मतलब है 'सिर्फ़': 'On ne peut emprunter que 10 livres' = आप सिर्फ़ 10 किताबें ले सकते हैं (यानी ले सकते हैं)। 'que' ठीक उस चीज़ से पहले आता है जो सीमित है। तारीख़ें: le 1er (premier) juillet, फिर le 2, le 3… (साधारण संख्याएँ); du 3 au 9 juillet = 3 से 9 तक; à partir du 12 = 12 से। समय 24 घंटे वाली घड़ी में: 18 h 30 = शाम 6:30।"
+    },
+    "comparison": {
+      "en": "English 'only' and Hindi 'सिर्फ़/ही' are single words. French splits restriction around the verb like a negation: ne + verb + que. In speech the 'ne' often disappears ('J'ai que dix dollars'), but 'que' keeps the meaning 'only'.",
+      "hi": "अंग्रेज़ी 'only' और हिंदी 'सिर्फ़/ही' एक-एक शब्द हैं। फ़्रेंच में यह नकार की तरह क्रिया के दोनों तरफ़ बँट जाता है: ne + क्रिया + que। बोलचाल में 'ne' अक्सर ग़ायब हो जाता है ('J'ai que dix dollars'), पर 'que' का मतलब 'सिर्फ़' ही रहता है।"
+    },
+    "examples": [
+      {
+        "fr": "La piscine n'ouvre que le week-end.",
+        "en": "The pool only opens at the weekend.",
+        "hi": "स्विमिंग पूल सिर्फ़ सप्ताहांत में खुलता है।",
+        "pron": "ला पी-सीन नू-व्ग़ö कö लö वी-कैंड"
+      },
+      {
+        "fr": "Cette offre n'est valable que jusqu'à 18 h.",
+        "en": "This offer is only valid until 6 p.m.",
+        "hi": "यह ऑफ़र सिर्फ़ शाम 6 बजे तक मान्य है।",
+        "pron": "सैत ऑफ़्ग़ नै वा-लाब्ल कö झ़üस-का दी-ज़üई-तöग़"
+      },
+      {
+        "fr": "Il n'y a que trois places libres.",
+        "en": "There are only three free places.",
+        "hi": "सिर्फ़ तीन ख़ाली जगहें हैं।",
+        "pron": "इल नी या कö त्रवा प्लास लीब्ग़"
+      },
+      {
+        "fr": "Fermeture du 3 au 9 juillet.",
+        "en": "Closed from 3 to 9 July.",
+        "hi": "3 से 9 जुलाई तक बंद।",
+        "pron": "फ़ैग़-मö-तüग़ दü त्रवा ओ नöफ़ झ़üई-यै"
+      },
+      {
+        "fr": "Le cours commence le 1er octobre à 18 h 30.",
+        "en": "The class starts on 1 October at 6:30 p.m.",
+        "hi": "क्लास 1 अक्तूबर को शाम 6:30 बजे शुरू होती है।",
+        "pron": "लö कूग़ को-माँस लö प्रö-म्ये ऑक-तॉब्ग़ आ दी-ज़üई-तöग़ त्ग़ाँत"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Don't read 'ne … que' as 'not'. 'Je ne bois que du thé' means 'I only drink tea', not 'I don't drink tea'.",
+        "hi": "'ne … que' को 'नहीं' मत समझिए। 'Je ne bois que du thé' = 'मैं सिर्फ़ चाय पीता हूँ', न कि 'मैं चाय नहीं पीता'।"
+      },
+      {
+        "en": "Only the first of the month is an ordinal: le 1er (premier) mai, but le 2 mai, le 21 mai.",
+        "hi": "महीने की सिर्फ़ पहली तारीख़ क्रमसूचक होती है: le 1er (premier) mai, लेकिन le 2 mai, le 21 mai।"
+      },
+      {
+        "en": "In a TEF question, the right option usually paraphrases the document. Don't choose an option just because it repeats a word you saw.",
+        "hi": "TEF के सवाल में सही विकल्प अक्सर दस्तावेज़ की बात को दूसरे शब्दों में कहता है। सिर्फ़ इसलिए कोई विकल्प मत चुनिए कि उसमें वही शब्द है जो आपने पढ़ा।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Reading notices aloud: numbers, times and dates",
+    "tip": {
+      "en": "When you read a notice aloud, say numbers in full and link them: dix-huit‿heures (z sound), vingt‿heures (t sound). Pause briefly after each piece of information, as an announcer would.",
+      "hi": "सूचना ज़ोर से पढ़ते समय संख्याएँ पूरी बोलिए और जोड़िए: dix-huit‿heures (ज़ की आवाज़), vingt‿heures (त की आवाज़)। हर जानकारी के बाद हल्का-सा रुकिए, जैसे उद्घोषक करता है।"
+    },
+    "words": [
+      {
+        "fr": "dix-huit heures",
+        "en": "6 p.m. (18:00)",
+        "hi": "शाम 6 बजे",
+        "pron": "दी-ज़üई-तöग़",
+        "ipa": "dizɥitœʁ",
+        "note": {
+          "en": "x sounds like z, and the t of huit links to heures.",
+          "hi": "x की आवाज़ ज़ जैसी, और huit का t heures से जुड़ता है।"
+        }
+      },
+      {
+        "fr": "vingt heures",
+        "en": "8 p.m. (20:00)",
+        "hi": "रात 8 बजे",
+        "pron": "वैँ-तöग़",
+        "ipa": "vɛ̃tœʁ",
+        "note": {
+          "en": "The t of vingt is heard before a vowel.",
+          "hi": "स्वर से पहले vingt का t सुनाई देता है।"
+        }
+      },
+      {
+        "fr": "le premier juillet",
+        "en": "the first of July",
+        "hi": "1 जुलाई",
+        "pron": "लö प्रö-म्ये झ़üई-यै",
+        "ipa": "lə pʁəmje ʒɥijɛ"
+      },
+      {
+        "fr": "douze dollars",
+        "en": "twelve dollars",
+        "hi": "बारह डॉलर",
+        "pron": "दूज़ दो-लाग़",
+        "ipa": "duz dɔlaʁ"
+      },
+      {
+        "fr": "exceptionnellement",
+        "en": "exceptionally",
+        "hi": "अपवाद के तौर पर",
+        "pron": "ऐक-सैप-स्यो-नैल-माँ",
+        "ipa": "ɛksɛpsjɔnɛlmɑ̃"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Petites annonces de tous les jours",
+      "en": "Short everyday announcements"
+    },
+    "type": "announcement",
+    "mode": "natural",
+    "context": {
+      "en": "Four short public announcements: in a supermarket, a library, a sports centre and from the city hall. In the TEF each recording is played only once, so read the questions before you listen.",
+      "hi": "चार छोटी सार्वजनिक घोषणाएँ: एक सुपरमार्केट, एक लाइब्रेरी, एक खेल केंद्र और नगरपालिका की ओर से। TEF में हर रिकॉर्डिंग सिर्फ़ एक बार बजती है, इसलिए सुनने से पहले सवाल पढ़ लीजिए।"
+    },
+    "lines": [
+      {
+        "speaker": "Supermarché",
+        "voice": "f1",
+        "fr": "Chers clients, bonjour. Profitez aujourd'hui seulement de notre promotion sur les fruits : deux paniers de fraises pour cinq dollars.",
+        "en": "Dear customers, hello. Today only, take advantage of our fruit promotion: two baskets of strawberries for five dollars.",
+        "hi": "प्रिय ग्राहको, नमस्ते। सिर्फ़ आज हमारे फलों के ऑफ़र का फ़ायदा उठाइए: स्ट्रॉबेरी की दो टोकरियाँ पाँच डॉलर में।"
+      },
+      {
+        "speaker": "Supermarché",
+        "voice": "f1",
+        "fr": "Cette offre n'est valable que jusqu'à dix-huit heures, dans la limite des stocks disponibles.",
+        "en": "This offer is only valid until 6 p.m., while stocks last.",
+        "hi": "यह ऑफ़र सिर्फ़ शाम छह बजे तक मान्य है, जब तक माल उपलब्ध है।"
+      },
+      {
+        "speaker": "Bibliothèque",
+        "voice": "m1",
+        "fr": "Votre attention, s'il vous plaît. La bibliothèque fermera ses portes dans quinze minutes.",
+        "en": "Your attention, please. The library will close in fifteen minutes.",
+        "hi": "कृपया ध्यान दें। लाइब्रेरी पंद्रह मिनट में बंद हो जाएगी।"
+      },
+      {
+        "speaker": "Bibliothèque",
+        "voice": "m1",
+        "fr": "Nous vous invitons à vous présenter au comptoir de prêt pour enregistrer vos documents.",
+        "en": "Please go to the loans desk to check out your items.",
+        "hi": "कृपया अपनी किताबें दर्ज कराने के लिए उधार काउंटर पर आइए।"
+      },
+      {
+        "speaker": "Bibliothèque",
+        "voice": "m1",
+        "fr": "Nous vous rappelons que la bibliothèque sera fermée lundi prochain, jour férié.",
+        "en": "We remind you that the library will be closed next Monday, a public holiday.",
+        "hi": "हम आपको याद दिलाते हैं कि अगले सोमवार, सरकारी छुट्टी के दिन, लाइब्रेरी बंद रहेगी।"
+      },
+      {
+        "speaker": "Centre sportif",
+        "voice": "f2",
+        "fr": "Bonjour à tous. En raison d'un problème technique, le cours de yoga de dix-neuf heures est annulé ce soir.",
+        "en": "Hello everyone. Because of a technical problem, the 7 p.m. yoga class is cancelled tonight.",
+        "hi": "सभी को नमस्ते। एक तकनीकी समस्या के कारण आज शाम सात बजे की योग क्लास रद्द है।"
+      },
+      {
+        "speaker": "Centre sportif",
+        "voice": "f2",
+        "fr": "Il est remplacé par une séance d'étirements dans la salle numéro deux, au premier étage.",
+        "en": "It is replaced by a stretching session in room two, on the first floor.",
+        "hi": "उसकी जगह पहली मंज़िल के कमरा नंबर दो में स्ट्रेचिंग का सत्र होगा।"
+      },
+      {
+        "speaker": "Centre sportif",
+        "voice": "f2",
+        "fr": "Les personnes inscrites seront remboursées ou pourront choisir un autre cours de la semaine.",
+        "en": "Registered people will be refunded or may choose another class this week.",
+        "hi": "जिन लोगों ने नाम लिखवाया है, उन्हें पैसे लौटा दिए जाएँगे या वे इस हफ़्ते की कोई और क्लास चुन सकेंगे।"
+      },
+      {
+        "speaker": "Mairie",
+        "voice": "m2",
+        "fr": "La mairie informe les résidents que la collecte des ordures aura lieu mercredi au lieu de mardi cette semaine.",
+        "en": "City hall informs residents that garbage collection will take place on Wednesday instead of Tuesday this week.",
+        "hi": "नगरपालिका निवासियों को सूचित करती है कि इस हफ़्ते कूड़ा मंगलवार की बजाय बुधवार को उठाया जाएगा।"
+      },
+      {
+        "speaker": "Mairie",
+        "voice": "m2",
+        "fr": "Les bacs de recyclage doivent être placés au bord du trottoir avant sept heures du matin.",
+        "en": "Recycling bins must be placed at the edge of the sidewalk before 7 a.m.",
+        "hi": "रीसाइक्लिंग के डिब्बे सुबह सात बजे से पहले फ़ुटपाथ के किनारे रखने होंगे।"
+      },
+      {
+        "speaker": "Mairie",
+        "voice": "m2",
+        "fr": "Pour plus d'information, consultez le site de la ville ou composez le 311.",
+        "en": "For more information, check the city website or dial 311.",
+        "hi": "ज़्यादा जानकारी के लिए शहर की वेबसाइट देखिए या 311 पर फ़ोन कीजिए।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "Until when can you buy the strawberries at the special price?"
+        },
+        "options": [
+          "Until 8 p.m.",
+          "Until 5 p.m.",
+          "Until 6 p.m.",
+          "Until the end of the week"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Dix-huit heures' is 18:00, i.e. 6 p.m. 'Cinq' is the price, not a time.",
+          "hi": "'dix-huit heures' = 18:00, यानी शाम 6 बजे। 'cinq' दाम है, समय नहीं।"
+        },
+        "kind": "literal",
+        "evidence": "Cette offre n'est valable que jusqu'à dix-huit heures"
+      },
+      {
+        "q": {
+          "en": "What should library users do now?"
+        },
+        "options": [
+          "Go to the loans desk",
+          "Come back on Monday",
+          "Return all their books",
+          "Leave their books on the tables"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "They are invited to go to the 'comptoir de prêt' to check out their items.",
+          "hi": "उन्हें 'comptoir de prêt' (उधार काउंटर) पर जाकर किताबें दर्ज कराने को कहा गया है।"
+        },
+        "kind": "literal",
+        "evidence": "Nous vous invitons à vous présenter au comptoir de prêt"
+      },
+      {
+        "q": {
+          "en": "Why will the library be closed next Monday?"
+        },
+        "options": [
+          "Because of a staff meeting",
+          "For repairs",
+          "Because of a technical problem",
+          "Because it is a public holiday"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Jour férié' means public holiday. The technical problem is in the sports-centre announcement.",
+          "hi": "'jour férié' = सरकारी छुट्टी। तकनीकी समस्या खेल केंद्र वाली घोषणा में है।"
+        },
+        "kind": "literal",
+        "evidence": "la bibliothèque sera fermée lundi prochain, jour férié"
+      },
+      {
+        "q": {
+          "en": "What happens to the 7 p.m. yoga class?"
+        },
+        "options": [
+          "It moves to the first floor",
+          "It is cancelled and replaced by stretching",
+          "It starts later",
+          "It is moved to next week"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "The yoga class is cancelled ('annulé') and a stretching session replaces it.",
+          "hi": "योग क्लास 'annulé' (रद्द) है और उसकी जगह स्ट्रेचिंग सत्र है।"
+        },
+        "kind": "literal",
+        "evidence": "le cours de yoga de dix-neuf heures est annulé ce soir"
+      },
+      {
+        "q": {
+          "en": "What can registered participants do?"
+        },
+        "options": [
+          "Nothing, the class is not refunded",
+          "Only get a refund",
+          "Get a refund or choose another class",
+          "Only attend stretching"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Seront remboursées OU pourront choisir un autre cours': two options.",
+          "hi": "'seront remboursées OU pourront choisir un autre cours': दो विकल्प हैं।"
+        },
+        "kind": "inference",
+        "evidence": "Les personnes inscrites seront remboursées ou pourront choisir un autre cours de la semaine."
+      },
+      {
+        "q": {
+          "en": "When is garbage collected this week?"
+        },
+        "options": [
+          "Wednesday",
+          "Thursday",
+          "Tuesday",
+          "Monday"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Mercredi au lieu de mardi' = Wednesday instead of Tuesday.",
+          "hi": "'mercredi au lieu de mardi' = मंगलवार की बजाय बुधवार।"
+        },
+        "kind": "literal",
+        "evidence": "la collecte des ordures aura lieu mercredi au lieu de mardi cette semaine"
+      }
+    ],
+    "dictation": [
+      "Cette offre n'est valable que jusqu'à dix-huit heures.",
+      "La bibliothèque fermera ses portes dans quinze minutes.",
+      "Les bacs doivent être placés avant sept heures du matin."
+    ],
+    "gapFill": {
+      "text": "En raison d'un problème technique, le cours de yoga de ___ heures est ___ ce soir. Il est remplacé par une séance d'étirements au premier ___.",
+      "answers": [
+        "dix-neuf",
+        "annulé",
+        "étage"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "presentation",
+    "instructions": {
+      "en": "A friend who doesn't read French shows you the documents from today's reading. Explain each one in simple French: what it is, the key information (day, time, price, condition) and what your friend should do.",
+      "hi": "आपका एक दोस्त, जो फ़्रेंच नहीं पढ़ पाता, आज के पाठ के दस्तावेज़ आपको दिखाता है। हर एक को आसान फ़्रेंच में समझाइए: यह क्या है, ज़रूरी जानकारी (दिन, समय, दाम, शर्त) और दोस्त को क्या करना चाहिए।"
+    },
+    "prompts": [
+      {
+        "fr": "C'est une affiche de la pharmacie. Elle est fermée le dimanche.",
+        "en": "It's a poster from the pharmacy. It's closed on Sundays.",
+        "hi": "यह फ़ार्मेसी का पोस्टर है। वह रविवार को बंद रहती है।",
+        "pron": "सै तüन ना-फ़िश दö ला फ़ाग़-मा-सी। ऐल ए फ़ैग़-मे लö दी-माँश",
+        "model": "C'est une affiche de la pharmacie. Elle est ouverte en semaine de 9 h à 20 h, mais elle est fermée le dimanche. Si c'est urgent, tu peux appeler le 811."
+      },
+      {
+        "fr": "La piscine est fermée du 3 au 9 juillet.",
+        "en": "The pool is closed from 3 to 9 July.",
+        "hi": "स्विमिंग पूल 3 से 9 जुलाई तक बंद है।",
+        "pron": "ला पी-सीन ए फ़ैग़-मे दü त्रवा ओ नöफ़ झ़üई-यै",
+        "model": "La piscine est fermée du 3 au 9 juillet pour des travaux, mais ne t'inquiète pas : ton abonnement est prolongé d'une semaine."
+      },
+      {
+        "fr": "Tu ne peux emprunter que dix documents.",
+        "en": "You can only borrow ten items.",
+        "hi": "तुम सिर्फ़ दस चीज़ें उधार ले सकते हो।",
+        "pron": "तü नö पö आँ-प्रैँ-ते कö दी दो-क्ü-माँ",
+        "model": "À la bibliothèque, tu ne peux emprunter que dix documents à la fois, et tu dois les rendre dans trois semaines."
+      },
+      {
+        "fr": "Pour le musée, il faut réserver la visite guidée.",
+        "en": "For the museum, you have to book the guided tour.",
+        "hi": "संग्रहालय के लिए गाइड वाला दौरा बुक करना पड़ता है।",
+        "pron": "पूग़ लö म्ü-ज़े इल फ़ो ग़े-ज़ैग़-वे ला वी-ज़ीत गी-दे",
+        "model": "Pour le musée, tu paies 12 dollars avec ta carte étudiante, mais il faut réserver si tu veux une visite guidée."
+      },
+      {
+        "fr": "Attention, le stationnement est interdit le mardi matin.",
+        "en": "Careful, parking is not allowed on Tuesday mornings.",
+        "hi": "ध्यान रहे, मंगलवार सुबह गाड़ी खड़ी करना मना है।",
+        "pron": "आ-ताँ-स्योँ लö स्ता-स्यॉन-माँ ए तैँ-तैग़-दी लö माग़-दी मा-तैँ",
+        "model": "Attention, le stationnement est interdit le mardi de 8 h à 10 h, sinon ta voiture sera remorquée."
+      }
+    ],
+    "tip": {
+      "en": "Use tu with a friend and keep sentences short: C'est… / Il faut… / Tu peux… / Tu ne peux … que… . Say numbers clearly — that is what your friend needs.",
+      "hi": "दोस्त के साथ tu बोलिए और वाक्य छोटे रखिए: C'est… / Il faut… / Tu peux… / Tu ne peux … que…। संख्याएँ साफ़ बोलिए — दोस्त को वही चाहिए।"
+    }
+  },
+  "reading": {
+    "genre": "notice",
+    "title": "Sept documents de la vie quotidienne",
+    "text": "A. PHARMACIE DU PLATEAU — Horaires d'été\nDu lundi au vendredi : 9 h – 20 h. Samedi : 10 h – 17 h. Fermé le dimanche et les jours fériés. En cas de besoin urgent, composez le 811 (Info-Santé).\n\nB. PISCINE MUNICIPALE SAINT-MICHEL\nFermeture exceptionnelle du 3 au 9 juillet pour travaux d'entretien. Les abonnements en cours seront prolongés d'une semaine. Merci de votre compréhension.\n\nC. BIBLIOTHÈQUE DU QUARTIER — Rappel\nLes documents empruntés doivent être rendus dans un délai de 21 jours. Vous ne pouvez emprunter que 10 documents à la fois. Les retours sont possibles 24 h sur 24 dans la boîte extérieure.\n\nD. PETITE ANNONCE\nÀ donner : canapé trois places, gris, en bon état. À récupérer sur place avant le 15 juin (3e étage sans ascenseur). Écrire à marc.l@courriel.ca. Pas d'appel, SVP.\n\nE. AVIS DE LA VILLE\nStationnement interdit le mardi de 8 h à 10 h, du 1er avril au 1er décembre, pour le nettoyage des rues. Les véhicules mal stationnés seront remorqués aux frais du propriétaire.\n\nF. MUSÉE DES BEAUX-ARTS\nEntrée gratuite pour les moins de 18 ans. Tarif réduit (12 $) pour les étudiants et les 65 ans et plus, sur présentation d'une pièce d'identité. Visites guidées sur réservation uniquement.\n\nG. CENTRE COMMUNAUTAIRE\nCours de cuisine indienne le jeudi soir, de 18 h 30 à 20 h 30, à partir du 12 septembre. Huit séances : 95 $, ingrédients compris. Places limitées : inscription au comptoir d'accueil seulement.",
+    "translation": {
+      "en": "A. PLATEAU PHARMACY — Summer hours\nMonday to Friday: 9 a.m. – 8 p.m. Saturday: 10 a.m. – 5 p.m. Closed on Sundays and public holidays. For urgent needs, dial 811 (Info-Santé health line).\n\nB. SAINT-MICHEL MUNICIPAL POOL\nExceptionally closed from 3 to 9 July for maintenance work. Current passes will be extended by one week. Thank you for your understanding.\n\nC. NEIGHBOURHOOD LIBRARY — Reminder\nBorrowed items must be returned within 21 days. You can only borrow 10 items at a time. Returns are possible 24 hours a day in the outside box.\n\nD. CLASSIFIED AD\nFree to give away: three-seat sofa, grey, in good condition. To be picked up on site before 15 June (3rd floor, no elevator). Write to marc.l@courriel.ca. No calls, please.\n\nE. CITY NOTICE\nNo parking on Tuesdays from 8 to 10 a.m., from 1 April to 1 December, for street cleaning. Badly parked vehicles will be towed at the owner's expense.\n\nF. MUSEUM OF FINE ARTS\nFree entry for under-18s. Reduced price ($12) for students and people aged 65 and over, on presentation of ID. Guided tours by reservation only.\n\nG. COMMUNITY CENTRE\nIndian cooking class on Thursday evenings, from 6:30 to 8:30 p.m., starting on 12 September. Eight sessions: $95, ingredients included. Limited places: registration at the reception desk only.",
+      "hi": "A. प्लातो फ़ार्मेसी — गर्मियों का समय\nसोमवार से शुक्रवार: सुबह 9 – रात 8 बजे। शनिवार: सुबह 10 – शाम 5 बजे। रविवार और सरकारी छुट्टियों पर बंद। तुरंत ज़रूरत हो तो 811 (इन्फ़ो-सांते स्वास्थ्य हेल्पलाइन) पर फ़ोन कीजिए।\n\nB. सां-मिशेल नगरपालिका स्विमिंग पूल\nरखरखाव के काम के लिए 3 से 9 जुलाई तक अपवाद के तौर पर बंद। चालू पास एक हफ़्ते के लिए बढ़ा दिए जाएँगे। आपकी समझदारी के लिए धन्यवाद।\n\nC. मोहल्ले की लाइब्रेरी — याद दिलाना\nउधार ली गई चीज़ें 21 दिन के अंदर लौटानी होंगी। आप एक बार में सिर्फ़ 10 चीज़ें उधार ले सकते हैं। बाहर रखे बक्से में चौबीसों घंटे लौटाई जा सकती हैं।\n\nD. छोटा विज्ञापन\nमुफ़्त में देना है: तीन सीटों वाला सोफ़ा, स्लेटी रंग, अच्छी हालत में। 15 जून से पहले यहीं से ले जाना होगा (तीसरी मंज़िल, लिफ़्ट नहीं)। marc.l@courriel.ca पर लिखिए। कृपया फ़ोन न करें।\n\nE. शहर की सूचना\n1 अप्रैल से 1 दिसंबर तक, सड़कों की सफ़ाई के लिए, मंगलवार सुबह 8 से 10 बजे तक गाड़ी खड़ी करना मना है। ग़लत जगह खड़ी गाड़ियाँ मालिक के ख़र्च पर उठा ली जाएँगी।\n\nF. ललित कला संग्रहालय\n18 साल से कम उम्र वालों के लिए प्रवेश मुफ़्त। छात्रों और 65 साल या उससे ज़्यादा उम्र वालों के लिए रियायती दाम (12 डॉलर), पहचान पत्र दिखाने पर। गाइड वाले दौरे सिर्फ़ पहले से बुकिंग करके।\n\nG. सामुदायिक केंद्र\nभारतीय खाना बनाने की क्लास, गुरुवार शाम 6:30 से 8:30 बजे तक, 12 सितंबर से। आठ सत्र: 95 डॉलर, सामग्री शामिल। सीटें सीमित: नाम सिर्फ़ रिसेप्शन काउंटर पर लिखा जाएगा।"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "Document A: You need medicine on a Sunday afternoon. What does the pharmacy suggest?"
+        },
+        "options": [
+          "Come on Saturday before 8 p.m.",
+          "Call a health phone line if it is urgent",
+          "Use the 24-hour box outside",
+          "Go to another branch"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "The pharmacy is closed on Sundays; for urgent needs it gives the 811 number.",
+          "hi": "फ़ार्मेसी रविवार को बंद है; तुरंत ज़रूरत के लिए वह 811 नंबर देती है।"
+        },
+        "kind": "inference",
+        "evidence": "En cas de besoin urgent, composez le 811"
+      },
+      {
+        "q": {
+          "en": "Document B: What happens to swimmers who have a pass?"
+        },
+        "options": [
+          "They can swim in another pool",
+          "They lose one week",
+          "They get a refund",
+          "They get one extra week"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Prolongés d'une semaine' = extended by a week.",
+          "hi": "'prolongés d'une semaine' = एक हफ़्ते के लिए बढ़ाए गए।"
+        },
+        "kind": "literal",
+        "evidence": "Les abonnements en cours seront prolongés d'une semaine."
+      },
+      {
+        "q": {
+          "en": "Document C: Which statement is true?"
+        },
+        "options": [
+          "You can have at most 10 items at a time",
+          "You must return items within 10 days",
+          "You can borrow as many items as you like",
+          "You must return items at the desk only"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Ne … que 10 documents' = only 10 items. Returns are possible in the outside box, and the delay is 21 days.",
+          "hi": "'ne … que 10 documents' = सिर्फ़ 10 चीज़ें। बाहर के बक्से में भी लौटा सकते हैं, और समय-सीमा 21 दिन है।"
+        },
+        "kind": "grammar",
+        "evidence": "Vous ne pouvez emprunter que 10 documents à la fois."
+      },
+      {
+        "q": {
+          "en": "Document D: How should you contact Marc?"
+        },
+        "options": [
+          "Through the building manager",
+          "By phone",
+          "By email",
+          "By visiting the 3rd floor"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "He gives an email address and writes 'Pas d'appel' — no calls.",
+          "hi": "वह ईमेल पता देता है और लिखता है 'Pas d'appel' — फ़ोन नहीं।"
+        },
+        "kind": "literal",
+        "evidence": "Écrire à marc.l@courriel.ca. Pas d'appel, SVP."
+      },
+      {
+        "q": {
+          "en": "Document E: It is Tuesday 14 May, 9 a.m. Can you park on this street?"
+        },
+        "options": [
+          "Yes, the rule starts in December",
+          "No, it is forbidden at that time",
+          "Yes, but only for one hour",
+          "Only on the other side"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "Tuesday, between 8 and 10 a.m., between 1 April and 1 December: parking is forbidden.",
+          "hi": "मंगलवार, सुबह 8 से 10 के बीच, 1 अप्रैल से 1 दिसंबर के बीच: गाड़ी खड़ी करना मना है।"
+        },
+        "kind": "inference",
+        "evidence": "Stationnement interdit le mardi de 8 h à 10 h, du 1er avril au 1er décembre"
+      },
+      {
+        "q": {
+          "en": "Document F: A 20-year-old student wants a guided tour. What must she do?"
+        },
+        "options": [
+          "Come with someone over 65",
+          "Pay the full price",
+          "Nothing — it is free",
+          "Show ID and book in advance"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "Students get the reduced price with ID, and guided tours are by reservation only.",
+          "hi": "छात्रों को पहचान पत्र दिखाकर रियायती दाम मिलता है, और गाइड वाला दौरा सिर्फ़ बुकिंग से होता है।"
+        },
+        "kind": "inference",
+        "evidence": "Visites guidées sur réservation uniquement."
+      },
+      {
+        "q": {
+          "en": "Document G: How can you register for the cooking class?"
+        },
+        "options": [
+          "At the reception desk",
+          "At the first class",
+          "Online",
+          "By phone"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Inscription au comptoir d'accueil seulement' — at the reception desk only.",
+          "hi": "'inscription au comptoir d'accueil seulement' — सिर्फ़ रिसेप्शन काउंटर पर।"
+        },
+        "kind": "literal",
+        "evidence": "inscription au comptoir d'accueil seulement"
+      }
+    ]
+  },
+  "writing": {
+    "type": "message",
+    "prompt": {
+      "en": "You manage a small apartment building in Gatineau. Write a short notice for the entrance: the water will be cut on a given day and time for repairs. Say when, why, what residents should do, and thank them.",
+      "hi": "आप गाटिनो में एक छोटी अपार्टमेंट बिल्डिंग की देखरेख करते हैं। प्रवेश-द्वार के लिए एक छोटी सूचना लिखिए: मरम्मत के लिए किसी तय दिन और समय पर पानी बंद रहेगा। बताइए कब, क्यों, निवासियों को क्या करना चाहिए, और उन्हें धन्यवाद दीजिए।",
+      "fr": "Rédigez un avis pour l'entrée de l'immeuble : coupure d'eau pour travaux."
+    },
+    "minWords": 40,
+    "maxWords": 90,
+    "hints": [
+      {
+        "en": "Start with a title in capitals: AVIS AUX RÉSIDENTS.",
+        "hi": "बड़े अक्षरों में शीर्षक से शुरू कीजिए: AVIS AUX RÉSIDENTS।"
+      },
+      {
+        "en": "Give the date and the time with the 24-hour clock: le jeudi 14 mars, de 9 h à 13 h.",
+        "hi": "तारीख़ और समय 24 घंटे वाली घड़ी में दीजिए: le jeudi 14 mars, de 9 h à 13 h।"
+      },
+      {
+        "en": "Use one infinitive instruction (Ne pas utiliser…) and one ne … que.",
+        "hi": "एक infinitive वाला निर्देश (Ne pas utiliser…) और एक ne … que इस्तेमाल कीजिए।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Nous vous informons que…",
+        "en": "We inform you that…",
+        "hi": "हम आपको सूचित करते हैं कि…",
+        "pron": "नू वू ज़ैँ-फ़ॉग़-मोँ कö"
+      },
+      {
+        "fr": "en raison de travaux",
+        "en": "because of repair work",
+        "hi": "मरम्मत के काम के कारण",
+        "pron": "आँ ग़ै-ज़ोँ दö त्ग़ा-वो"
+      },
+      {
+        "fr": "Merci de votre compréhension.",
+        "en": "Thank you for your understanding.",
+        "hi": "आपकी समझदारी के लिए धन्यवाद।",
+        "pron": "मैग़-सी दö वॉत्ग़ कोँ-प्रे-आँ-स्योँ"
+      },
+      {
+        "fr": "Pour toute question, contactez…",
+        "en": "For any question, contact…",
+        "hi": "किसी भी सवाल के लिए संपर्क कीजिए…",
+        "pron": "पूग़ तूत कैस-त्योँ कोँ-ताक-ते"
+      }
+    ],
+    "model": {
+      "fr": "AVIS AUX RÉSIDENTS\nNous vous informons que l'eau sera coupée le jeudi 14 mars, de 9 h à 13 h, en raison de travaux dans le sous-sol. Pensez à garder de l'eau en bouteille. Ne pas utiliser la machine à laver pendant les travaux. La coupure ne durera que quatre heures. Pour toute question, contactez le concierge au 819 555-0142. Merci de votre compréhension.\nLa gestion",
+      "en": "NOTICE TO RESIDENTS\nWe inform you that the water will be cut on Thursday 14 March, from 9 a.m. to 1 p.m., because of work in the basement. Remember to keep some bottled water. Do not use the washing machine during the work. The cut will only last four hours. For any question, contact the caretaker at 819 555-0142. Thank you for your understanding.\nThe management"
+    },
+    "checklist": [
+      {
+        "en": "Did you give the day, the date and the hours?",
+        "hi": "क्या आपने दिन, तारीख़ और घंटे दिए?"
+      },
+      {
+        "en": "Did you explain why (en raison de…)?",
+        "hi": "क्या आपने कारण बताया (en raison de…)?"
+      },
+      {
+        "en": "Did you include an instruction and a contact?",
+        "hi": "क्या आपने एक निर्देश और संपर्क दिया?"
+      },
+      {
+        "en": "Is 'ne … que' placed correctly around the verb?",
+        "hi": "क्या 'ne … que' क्रिया के दोनों तरफ़ सही जगह है?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      57,
+      58,
+      59,
+      65,
+      79
+    ],
+    "items": [
+      {
+        "fr": "Je n'ai plus de billets.",
+        "en": "I have no tickets left.",
+        "hi": "मेरे पास अब टिकट नहीं बचे।",
+        "pron": "झ़ö ने प्लü दö बी-यै"
+      },
+      {
+        "fr": "Ne pas fumer.",
+        "en": "No smoking.",
+        "hi": "धूम्रपान न करें।",
+        "pron": "नö पा फ़ü-मे"
+      },
+      {
+        "fr": "Prenez-le à l'accueil.",
+        "en": "Take it at reception.",
+        "hi": "इसे रिसेप्शन पर ले लीजिए।",
+        "pron": "प्रö-ने लö आ ला-कöय"
+      },
+      {
+        "fr": "Je voudrais savoir si c'est gratuit.",
+        "en": "I'd like to know if it's free.",
+        "hi": "मैं जानना चाहूँगा कि क्या यह मुफ़्त है।",
+        "pron": "झ़ö वू-द्रै सा-वाग़ सी सै ग्रा-तüई"
+      },
+      {
+        "fr": "Pourriez-vous me dire l'heure d'ouverture ?",
+        "en": "Could you tell me the opening time?",
+        "hi": "क्या आप मुझे खुलने का समय बता सकते हैं?",
+        "pron": "पू-ग़्ये वू मö दीग़ लöग़ दू-वैग़-तüग़"
+      },
+      {
+        "fr": "Personne n'est venu.",
+        "en": "Nobody came.",
+        "hi": "कोई नहीं आया।",
+        "pron": "पैग़-सॉन नै वö-नü"
+      },
+      {
+        "fr": "l'incident s'est produit hier",
+        "en": "the incident happened yesterday",
+        "hi": "घटना कल हुई",
+        "pron": "लैँ-सी-दाँ सै प्रो-दüई यैग़"
+      },
+      {
+        "fr": "la boîte aux lettres",
+        "en": "the mailbox",
+        "hi": "डाक का डिब्बा",
+        "pron": "ला ब्वात ओ लैत्ग़"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Le marché n'ouvre que le samedi.' What does it mean?",
+        "hi": "'Le marché n'ouvre que le samedi.' इसका क्या मतलब है?"
+      },
+      "options": [
+        "The market no longer opens on Saturday.",
+        "The market doesn't open on Saturday.",
+        "The market only opens on Saturday.",
+        "The market opens every day except Saturday."
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "ne … que = only. It is a restriction, not a negation.",
+        "hi": "ne … que = सिर्फ़। यह प्रतिबंध है, नकार नहीं।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete so that it means 'You only pay 5 dollars'.",
+        "hi": "ऐसे पूरा कीजिए कि मतलब हो 'आप सिर्फ़ 5 डॉलर देते हैं'।"
+      },
+      "sentence": "Vous ne payez ___ cinq dollars.",
+      "answer": "que",
+      "accept": [
+        "qu'"
+      ],
+      "explanation": {
+        "en": "'Que' goes before the limited element: ne payez que cinq dollars.",
+        "hi": "'que' सीमित चीज़ से पहले आता है: ne payez que cinq dollars।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "A notice says 'Fermeture du 3 au 9 juillet'. Is the place open on 8 July?",
+        "hi": "सूचना में लिखा है 'Fermeture du 3 au 9 juillet'। क्या 8 जुलाई को जगह खुली है?"
+      },
+      "options": [
+        "Only in the morning",
+        "Yes",
+        "No"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "From the 3rd to the 9th it is closed, so the 8th is closed.",
+        "hi": "3 से 9 तारीख़ तक बंद है, इसलिए 8 को भी बंद है।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which word means 'free of charge'?",
+        "hi": "कौन-सा शब्द 'मुफ़्त' का अर्थ देता है?"
+      },
+      "options": [
+        "gratuit",
+        "valable",
+        "réduit",
+        "libre"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Gratuit = no cost. Libre = available/free to move. Valable = valid. Réduit = reduced.",
+        "hi": "gratuit = बिना पैसे। libre = ख़ाली/आज़ाद। valable = मान्य। réduit = कम किया हुआ।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French (notice style).",
+        "hi": "फ़्रेंच में लिखिए (सूचना की शैली में)।"
+      },
+      "source": {
+        "en": "Closed on Sundays and public holidays.",
+        "hi": "रविवार और सरकारी छुट्टियों पर बंद।"
+      },
+      "answer": "Fermé le dimanche et les jours fériés.",
+      "accept": [
+        "Fermé le dimanche et les jours fériés",
+        "fermé le dimanche et les jours fériés",
+        "Fermé les dimanches et les jours fériés."
+      ],
+      "explanation": {
+        "en": "'Le dimanche' (singular with le) = every Sunday.",
+        "hi": "'le dimanche' (le के साथ एकवचन) = हर रविवार।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Write the time in words: 18 h 30.",
+        "hi": "समय शब्दों में लिखिए: 18 h 30।"
+      },
+      "sentence": "Le cours commence à ___.",
+      "answer": "dix-huit heures trente",
+      "accept": [
+        "dix-huit heures et demie",
+        "dix huit heures trente"
+      ],
+      "explanation": {
+        "en": "Official times use the 24-hour clock: dix-huit heures trente.",
+        "hi": "आधिकारिक समय 24 घंटे वाली घड़ी में: dix-huit heures trente।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put in order: I only work on Saturdays.",
+        "hi": "क्रम में रखिए: मैं सिर्फ़ शनिवार को काम करता हूँ।"
+      },
+      "words": [
+        "que",
+        "Je",
+        "le",
+        "travaille",
+        "ne",
+        "samedi",
+        "."
+      ],
+      "answer": "Je ne travaille que le samedi.",
+      "explanation": {
+        "en": "ne before the verb, que before the limited element.",
+        "hi": "ne क्रिया से पहले, que सीमित चीज़ से पहले।"
+      }
+    }
+  ]
+}

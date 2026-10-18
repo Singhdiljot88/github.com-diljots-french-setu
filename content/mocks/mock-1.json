@@ -1,0 +1,2373 @@
+{
+  "id": "mock-1",
+  "title": "Practice exam 1",
+  "disclaimer": "Original practice material written for French Setu. Not official TEF material, not recalled or leaked exam content. Results are raw practice scores, not TEF scores, CEFR levels or NCLC levels.",
+  "reading": {
+    "sections": [
+      {
+        "key": "everyday",
+        "title": "Documents de la vie quotidienne",
+        "instruction": "Lisez chaque document et choisissez la bonne réponse. — Read each short document and choose the correct answer.",
+        "items": [
+          {
+            "document": {
+              "genre": "notice",
+              "title": "Avis aux usagers du métro",
+              "text": "AVIS AUX USAGERS\nTravaux de modernisation\n\nDu 4 au 15 novembre, l'ascenseur de la station Jean-Talon sera hors service. Les personnes à mobilité réduite sont invitées à utiliser la station voisine, De Castelnau, ou le service de navette gratuit offert à la sortie principale.\n\nMerci de votre compréhension."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que propose-t-on aux personnes à mobilité réduite ?",
+                  "en": "What is offered to people with reduced mobility?"
+                },
+                "options": [
+                  "Un ascenseur provisoire dans la station Jean-Talon.",
+                  "Un taxi remboursé jusqu'au 15 novembre.",
+                  "Une navette gratuite à la sortie principale.",
+                  "Un billet gratuit pour la station De Castelnau."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "The notice offers 'le service de navette gratuit offert à la sortie principale' — a free shuttle. The other station is suggested, but no free ticket is mentioned.",
+                  "hi": "सूचना में 'le service de navette gratuit' यानी मुफ़्त शटल सेवा की बात है। पास वाले स्टेशन का सुझाव दिया गया है, पर मुफ़्त टिकट का कोई ज़िक्र नहीं है।"
+                },
+                "kind": "literal",
+                "evidence": "le service de navette gratuit offert à la sortie principale"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "sign",
+              "title": "Buanderie Le Tourbillon",
+              "text": "BUANDERIE LE TOURBILLON\nOuvert 7 jours sur 7, de 7 h à 23 h\n\nDernier lavage accepté à 21 h 30.\nLes machines acceptent les pièces de 1 $ et de 2 $ ainsi que les cartes de débit.\nMerci de retirer votre linge dès la fin du cycle."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Jusqu'à quelle heure peut-on commencer un lavage ?",
+                  "en": "Until what time can you start a wash?"
+                },
+                "options": [
+                  "Jusqu'à 21 h 30.",
+                  "Jusqu'à 23 h.",
+                  "Jusqu'à 22 h.",
+                  "Jusqu'à 19 h."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "'Dernier lavage accepté à 21 h 30' = the last wash is accepted at 9:30 p.m. The laundromat stays open until 11 p.m., but that is for drying and collecting.",
+                  "hi": "'Dernier lavage accepté à 21 h 30' का मतलब है आख़िरी धुलाई रात 9:30 बजे तक शुरू की जा सकती है। दुकान 23 h तक खुली है, पर वह अलग जानकारी है।"
+                },
+                "kind": "literal",
+                "evidence": "Dernier lavage accepté à 21 h 30."
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "message",
+              "title": "Texto de Julie",
+              "text": "Salut Karim, je suis coincée dans le bus, il y a un accident sur le boulevard. Je serai en retard d'au moins vingt minutes. Tu peux commencer la réunion sans moi ? Les documents sont sur mon bureau, dans la chemise bleue. Merci ! Julie"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que demande Julie à Karim ?",
+                  "en": "What does Julie ask Karim to do?"
+                },
+                "options": [
+                  "De venir la chercher en voiture.",
+                  "D'annuler la réunion.",
+                  "De lui envoyer les documents par courriel.",
+                  "De commencer la réunion sans attendre."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "Julie writes 'Tu peux commencer la réunion sans moi ?' She tells him where the documents are, but does not ask him to send them.",
+                  "hi": "जूली लिखती है 'Tu peux commencer la réunion sans moi ?' — यानी मीटिंग उसके बिना शुरू कर दो। काग़ज़ कहाँ रखे हैं यह बताती है, भेजने को नहीं कहती।"
+                },
+                "kind": "literal",
+                "evidence": "Tu peux commencer la réunion sans moi ?"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "advertisement",
+              "title": "Petite annonce",
+              "text": "À VENDRE — Vélo de ville pour femme, 7 vitesses, panier avant inclus. Acheté il y a deux ans, très peu utilisé (je déménage en Europe). 250 $, prix ferme. Disponible à partir du 1er décembre.\nÉcrire à : velo.plateau@courriel.ca — pas d'appels SVP."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle information est exacte ?",
+                  "en": "Which statement is correct?"
+                },
+                "options": [
+                  "Le prix peut être négocié.",
+                  "Il faut contacter la vendeuse par écrit.",
+                  "Le vélo est disponible immédiatement.",
+                  "Le panier est vendu séparément."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "'Écrire à … — pas d'appels SVP' means write, no phone calls. 'Prix ferme' means the price is not negotiable, and the basket is included.",
+                  "hi": "'Écrire à … — pas d'appels SVP' यानी लिखकर संपर्क कीजिए, फ़ोन नहीं। 'Prix ferme' का अर्थ है दाम तय है, मोलभाव नहीं होगा; टोकरी (panier) साथ में शामिल है।"
+                },
+                "kind": "literal",
+                "evidence": "pas d'appels SVP"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "sign",
+              "title": "Étiquette d'un produit",
+              "text": "SOUPE AUX LENTILLES ET LÉGUMES\n\nÀ consommer de préférence avant le 12/03/2027.\nAprès ouverture, conserver au réfrigérateur et consommer dans les 3 jours.\nPeut contenir des traces d'arachides."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que faut-il faire une fois le produit ouvert ?",
+                  "en": "What should you do once the product is opened?"
+                },
+                "options": [
+                  "Le garder au froid et le finir en trois jours.",
+                  "Le congeler immédiatement.",
+                  "Le consommer avant le 12 mars.",
+                  "Le réchauffer pendant trois minutes."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "'Après ouverture, conserver au réfrigérateur et consommer dans les 3 jours' = after opening, refrigerate and eat within three days. The 12 March date applies to the unopened product.",
+                  "hi": "'Après ouverture, conserver au réfrigérateur…' यानी खोलने के बाद फ़्रिज में रखें और 3 दिन में खा लें। 12 मार्च की तारीख़ बिना खुले डिब्बे के लिए है।"
+                },
+                "kind": "literal",
+                "evidence": "Après ouverture, conserver au réfrigérateur et consommer dans les 3 jours."
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "notice",
+              "title": "Avis aux locataires",
+              "text": "Chers locataires,\n\nLe déneigement du stationnement aura lieu ce jeudi entre 8 h et 11 h. Tous les véhicules devront être déplacés dans la rue avant 7 h 45. Les voitures restées sur place seront remorquées aux frais du propriétaire du véhicule.\n\nLa gestion"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que risque un locataire qui laisse sa voiture dans le stationnement jeudi matin ?",
+                  "en": "What happens to a tenant who leaves their car in the parking lot on Thursday morning?"
+                },
+                "options": [
+                  "Il devra déneiger lui-même sa place.",
+                  "Il recevra un simple avertissement.",
+                  "Sa voiture sera remorquée et il paiera les frais.",
+                  "Il ne pourra plus utiliser le stationnement cet hiver."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "'Les voitures restées sur place seront remorquées aux frais du propriétaire du véhicule' — the car will be towed at the owner's expense. 'Remorquer' = to tow.",
+                  "hi": "'seront remorquées aux frais du propriétaire' — गाड़ी खींचकर (tow करके) ले जाई जाएगी और ख़र्चा गाड़ी के मालिक को देना होगा।"
+                },
+                "kind": "inference",
+                "evidence": "Les voitures restées sur place seront remorquées aux frais du propriétaire du véhicule."
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "advertisement",
+              "title": "Forfait mobile — offre de rentrée",
+              "text": "FORFAIT MOBILE — OFFRE DE RENTRÉE\n\nAbonnez-vous avant le 30 septembre et obtenez 3 mois à moitié prix. Après cette période, le forfait revient au tarif régulier de 45 $ par mois.\nAucun contrat à long terme : vous pouvez résilier à tout moment, sans frais."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Selon cette publicité, quelle affirmation est vraie ?",
+                  "en": "According to this ad, which statement is true?"
+                },
+                "options": [
+                  "Les trois premiers mois coûtent 45 $ chacun.",
+                  "Il faut signer un contrat de deux ans.",
+                  "L'offre est valable toute l'année.",
+                  "On peut annuler l'abonnement sans payer de pénalité."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "'Vous pouvez résilier à tout moment, sans frais' = you can cancel at any time free of charge. The first three months are half price (so about 22.50 $), and the offer ends on 30 September.",
+                  "hi": "'Vous pouvez résilier à tout moment, sans frais' — आप कभी भी बिना शुल्क के सेवा बंद कर सकते हैं। पहले तीन महीने आधे दाम पर हैं, और ऑफ़र 30 सितंबर तक ही है।"
+                },
+                "kind": "literal",
+                "evidence": "vous pouvez résilier à tout moment, sans frais"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "gaps",
+        "title": "Phrases et texte lacunaires",
+        "instruction": "Choisissez le mot ou l'expression qui complète correctement chaque trou. — Choose the word or phrase that correctly fills each numbered gap.",
+        "items": [
+          {
+            "document": {
+              "genre": "sentences",
+              "title": "Phrases à compléter",
+              "text": "Complétez chaque phrase avec l'option qui convient.\n\n[1] Si tu prends le train de 7 h, tu ___ à Québec avant midi.\n[2] Le loyer comprend le chauffage, ___ l'électricité reste à la charge du locataire.\n[3] Pour obtenir un remboursement, il faut que vous ___ votre reçu.\n[4] C'est la collègue ___ je t'ai parlé hier à la cafétéria.\n[5] ___ la grève des chauffeurs, la plupart des lignes d'autobus ne circuleront pas lundi."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Phrase [1] : quelle option complète la phrase ?",
+                  "en": "Sentence [1]: which option fits the gap?"
+                },
+                "options": [
+                  "arriverais",
+                  "arriveras",
+                  "serais arrivé",
+                  "arrivais"
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "After 'si' + present tense (si tu prends), French uses the future in the main clause: tu arriveras. The conditional (arriverais) goes with 'si' + imperfect.",
+                  "hi": "'si' + वर्तमान काल (si tu prends) के बाद मुख्य वाक्य में भविष्य काल आता है: tu arriveras। Conditional (arriverais) तब आता है जब 'si' के बाद imparfait हो।"
+                },
+                "kind": "grammar",
+                "evidence": "Si tu prends le train de 7 h, tu ___ à Québec avant midi."
+              },
+              {
+                "q": {
+                  "fr": "Phrase [2] : quelle option complète la phrase ?",
+                  "en": "Sentence [2]: which option fits the gap?"
+                },
+                "options": [
+                  "donc",
+                  "car",
+                  "ou",
+                  "mais"
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "The two parts contrast (heating included / electricity not included), so we need 'mais' (but).",
+                  "hi": "दोनों हिस्सों में विरोध है (हीटिंग शामिल है / बिजली शामिल नहीं), इसलिए 'mais' (लेकिन) सही है।"
+                },
+                "kind": "grammar",
+                "evidence": "Le loyer comprend le chauffage, ___ l'électricité reste à la charge du locataire."
+              },
+              {
+                "q": {
+                  "fr": "Phrase [3] : quelle option complète la phrase ?",
+                  "en": "Sentence [3]: which option fits the gap?"
+                },
+                "options": [
+                  "gardiez",
+                  "gardez",
+                  "garderez",
+                  "garder"
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "'Il faut que' is always followed by the subjunctive: que vous gardiez.",
+                  "hi": "'Il faut que' के बाद हमेशा subjunctive (संभावनार्थ रूप) आता है: que vous gardiez।"
+                },
+                "kind": "grammar",
+                "evidence": "il faut que vous ___ votre reçu"
+              },
+              {
+                "q": {
+                  "fr": "Phrase [4] : quelle option complète la phrase ?",
+                  "en": "Sentence [4]: which option fits the gap?"
+                },
+                "options": [
+                  "que",
+                  "qui",
+                  "dont",
+                  "où"
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "The verb is 'parler de quelqu'un', so the relative pronoun replacing 'de + person' is 'dont'.",
+                  "hi": "क्रिया 'parler de' है (किसी के बारे में बात करना), इसलिए 'de' वाले हिस्से की जगह 'dont' आता है।"
+                },
+                "kind": "grammar",
+                "evidence": "C'est la collègue ___ je t'ai parlé hier"
+              },
+              {
+                "q": {
+                  "fr": "Phrase [5] : quelle option complète la phrase ?",
+                  "en": "Sentence [5]: which option fits the gap?"
+                },
+                "options": [
+                  "Grâce à",
+                  "En raison de",
+                  "Malgré",
+                  "Afin de"
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "The strike is the cause of a negative result, so 'en raison de' (because of) fits. 'Grâce à' is used for a positive cause, 'malgré' means despite.",
+                  "hi": "हड़ताल एक बुरे नतीजे का कारण है, इसलिए 'en raison de' (के कारण) सही है। 'Grâce à' अच्छे कारण के लिए होता है और 'malgré' का मतलब है 'के बावजूद'।"
+                },
+                "kind": "vocabulary",
+                "evidence": "la grève des chauffeurs, la plupart des lignes d'autobus ne circuleront pas lundi"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "article",
+              "title": "Vélos électriques en libre-service",
+              "text": "Depuis le mois dernier, les habitants de Sherbrooke peuvent emprunter un vélo électrique [1] ___ une simple application. Le principe est facile : on repère un vélo sur la carte, on le déverrouille avec son téléphone, puis on le [2] ___ à n'importe quelle station du réseau. Le service a connu un succès immédiat : plus de 12 000 trajets ont été effectués [3] ___ les trois premières semaines. La Ville reconnaît toutefois que certains problèmes [4] ___ être réglés, notamment le manque de vélos aux heures de pointe. [5] ___, elle prévoit d'ajouter 200 vélos d'ici le printemps."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Trou [1] : quelle option convient ?",
+                  "en": "Gap [1]: which option fits?"
+                },
+                "options": [
+                  "malgré",
+                  "loin d'",
+                  "grâce à",
+                  "au lieu d'"
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "The app is the means that makes borrowing possible: 'grâce à une simple application' (thanks to a simple app).",
+                  "hi": "ऐप ही वह साधन है जिससे साइकिल ली जा सकती है: 'grâce à une simple application' (एक आसान ऐप की बदौलत)।"
+                },
+                "kind": "vocabulary",
+                "evidence": "peuvent emprunter un vélo électrique [1] ___ une simple application"
+              },
+              {
+                "q": {
+                  "fr": "Trou [2] : quelle option convient ?",
+                  "en": "Gap [2]: which option fits?"
+                },
+                "options": [
+                  "dépose",
+                  "déposer",
+                  "déposé",
+                  "déposait"
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "The text lists steps in the present tense (on repère, on déverrouille), so we need 'on le dépose'.",
+                  "hi": "पाठ में सारे चरण वर्तमान काल में हैं (on repère, on déverrouille), इसलिए 'on le dépose' सही है।"
+                },
+                "kind": "grammar",
+                "evidence": "puis on le [2] ___ à n'importe quelle station du réseau"
+              },
+              {
+                "q": {
+                  "fr": "Trou [3] : quelle option convient ?",
+                  "en": "Gap [3]: which option fits?"
+                },
+                "options": [
+                  "depuis",
+                  "il y a",
+                  "dès",
+                  "pendant"
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "A completed action over a closed period (the first three weeks) takes 'pendant' (during).",
+                  "hi": "एक पूरी हो चुकी अवधि (पहले तीन हफ़्ते) में हुए काम के लिए 'pendant' (के दौरान) आता है।"
+                },
+                "kind": "grammar",
+                "evidence": "ont été effectués [3] ___ les trois premières semaines"
+              },
+              {
+                "q": {
+                  "fr": "Trou [4] : quelle option convient ?",
+                  "en": "Gap [4]: which option fits?"
+                },
+                "options": [
+                  "ont déjà pu",
+                  "doivent encore",
+                  "viennent d'",
+                  "n'ont jamais"
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "'Toutefois' signals a remaining problem (bikes are still lacking), so the problems 'doivent encore être réglés' (still have to be solved).",
+                  "hi": "'Toutefois' (फिर भी) बताता है कि समस्या अभी बाक़ी है, इसलिए 'doivent encore être réglés' — अभी हल होनी बाक़ी हैं।"
+                },
+                "kind": "vocabulary",
+                "evidence": "certains problèmes [4] ___ être réglés"
+              },
+              {
+                "q": {
+                  "fr": "Trou [5] : quelle option convient ?",
+                  "en": "Gap [5]: which option fits?"
+                },
+                "options": [
+                  "Pourtant",
+                  "Au contraire",
+                  "Pour y remédier",
+                  "Bref"
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "Adding 200 bikes is the solution to the shortage, so 'Pour y remédier' (to fix this) is the logical connector.",
+                  "hi": "200 साइकिलें जोड़ना कमी का समाधान है, इसलिए 'Pour y remédier' (इसे ठीक करने के लिए) तार्किक जोड़ने वाला शब्द है।"
+                },
+                "kind": "vocabulary",
+                "evidence": "elle prévoit d'ajouter 200 vélos d'ici le printemps"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "quick",
+        "title": "Lecture rapide",
+        "instruction": "Parcourez rapidement les documents (tableaux, graphiques, programmes) et répondez. — Scan the documents (tables, charts, listings) quickly and answer.",
+        "items": [
+          {
+            "document": {
+              "genre": "chart",
+              "title": "Tarifs du transport en commun",
+              "text": "TARIFS DU RÉSEAU DE TRANSPORT — en vigueur au 1er janvier\n\nTitre | Tarif régulier | Tarif réduit*\n1 passage | 3,75 $ | 2,50 $\n10 passages | 33,00 $ | 20,00 $\nCarte mensuelle | 97,00 $ | 58,00 $\nPasse week-end illimitée (du vendredi 18 h au lundi 5 h) | 15,00 $ | —\n\n* Tarif réduit : étudiants à temps plein de 18 à 25 ans et personnes de 65 ans et plus, sur présentation d'une carte avec photo. Enfants de 11 ans et moins : gratuit en tout temps."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Une étudiante de 20 ans, inscrite à temps plein, veut acheter une carte mensuelle. Combien paiera-t-elle ?",
+                  "en": "A 20-year-old full-time student wants a monthly pass. How much will she pay?"
+                },
+                "options": [
+                  "97,00 $",
+                  "33,00 $",
+                  "20,00 $",
+                  "58,00 $"
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "Full-time students aged 18 to 25 get the reduced fare; the reduced monthly pass costs 58 $.",
+                  "hi": "18 से 25 साल के फ़ुल-टाइम छात्रों को रियायती दर मिलती है; रियायती मासिक कार्ड 58 $ का है।"
+                },
+                "kind": "literal",
+                "evidence": "Carte mensuelle | 97,00 $ | 58,00 $"
+              },
+              {
+                "q": {
+                  "fr": "Quelle information est exacte ?",
+                  "en": "Which statement is correct?"
+                },
+                "options": [
+                  "La passe week-end n'existe pas au tarif réduit.",
+                  "Les enfants de 11 ans paient le tarif réduit.",
+                  "La passe week-end est valable jusqu'au lundi soir.",
+                  "Le tarif réduit ne demande aucune pièce justificative."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "In the reduced-fare column, the weekend pass has a dash (—): it is not offered at a reduced price. Children 11 and under travel free, and the pass ends Monday at 5 a.m.",
+                  "hi": "रियायती दर वाले कॉलम में वीकेंड पास के आगे '—' है, यानी वह रियायती दाम पर नहीं मिलता। 11 साल तक के बच्चे मुफ़्त हैं, और पास सोमवार सुबह 5 बजे ख़त्म होता है।"
+                },
+                "kind": "inference",
+                "evidence": "15,00 $ | —"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "chart",
+              "title": "Sondage sur les déplacements",
+              "text": "SONDAGE — Comment vous rendez-vous au travail ?\n(500 employés du centre-ville, octobre)\n\nTransport en commun ............ 46 %\nVoiture (seul) ................. 27 %\nVélo ........................... 12 %\nMarche .......................... 9 %\nCovoiturage ..................... 6 %"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle affirmation correspond aux résultats du sondage ?",
+                  "en": "Which statement matches the survey results?"
+                },
+                "options": [
+                  "La majorité des employés vient en voiture.",
+                  "Moins de la moitié des employés utilise le transport en commun.",
+                  "Le covoiturage est le deuxième moyen le plus utilisé.",
+                  "Plus d'employés viennent à pied qu'à vélo."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "Public transit is the most common choice, but at 46 % it is still less than half (50 %).",
+                  "hi": "सार्वजनिक परिवहन सबसे ज़्यादा इस्तेमाल होता है, पर 46 % आधे (50 %) से कम है।"
+                },
+                "kind": "inference",
+                "evidence": "Transport en commun ............ 46 %"
+              },
+              {
+                "q": {
+                  "fr": "Quelle part des employés se rend au travail à vélo ou à pied ?",
+                  "en": "What share of employees cycle or walk to work?"
+                },
+                "options": [
+                  "12 %",
+                  "9 %",
+                  "21 %",
+                  "27 %"
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "Cycling 12 % + walking 9 % = 21 %.",
+                  "hi": "साइकिल 12 % + पैदल 9 % = 21 %।"
+                },
+                "kind": "inference",
+                "evidence": "Vélo ........................... 12 %"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "schedule",
+              "title": "Ateliers de la bibliothèque",
+              "text": "BIBLIOTHÈQUE DU QUARTIER — Ateliers gratuits de novembre\n\n• Mardi 5, 18 h : Comprendre ses factures d'électricité — inscription obligatoire\n• Jeudi 7, 10 h : Club de conversation française, niveau débutant — sans inscription\n• Samedi 9, 14 h : Initiation à la recherche d'emploi en ligne — inscription obligatoire, apportez votre ordinateur portable\n• Mercredi 13, 19 h : Se loger en ville : droits et obligations du locataire — inscription obligatoire"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Vous voulez participer à un atelier sans vous inscrire. Lequel choisissez-vous ?",
+                  "en": "You want to attend a workshop without registering. Which one do you choose?"
+                },
+                "options": [
+                  "Celui du mardi 5.",
+                  "Celui du samedi 9.",
+                  "Celui du mercredi 13.",
+                  "Celui du jeudi 7."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "Only the French conversation club on Thursday 7 is marked 'sans inscription' (no registration). All the others say 'inscription obligatoire'.",
+                  "hi": "सिर्फ़ गुरुवार 7 तारीख़ वाले फ़्रेंच बातचीत क्लब के आगे 'sans inscription' (बिना पंजीकरण) लिखा है। बाक़ी सब में 'inscription obligatoire' है।"
+                },
+                "kind": "literal",
+                "evidence": "Club de conversation française, niveau débutant — sans inscription"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "admin",
+        "title": "Documents administratifs et professionnels",
+        "instruction": "Lisez les documents administratifs et professionnels et répondez aux questions. — Read the administrative and workplace documents and answer the questions.",
+        "items": [
+          {
+            "document": {
+              "genre": "email",
+              "title": "Nouvelle politique de télétravail",
+              "text": "De : Service des ressources humaines\nÀ : Tout le personnel\nObjet : Nouvelle politique de télétravail\n\nBonjour à toutes et à tous,\n\nÀ la suite de la consultation menée au printemps, la direction a adopté une nouvelle politique de télétravail qui entrera en vigueur le 6 janvier. Les employés dont les fonctions le permettent pourront travailler à domicile jusqu'à deux jours par semaine. Ces journées devront être convenues à l'avance avec votre gestionnaire et inscrites dans le calendrier partagé de l'équipe.\n\nLa présence au bureau reste obligatoire le mardi, journée réservée aux réunions d'équipe et à la formation. Par ailleurs, les nouveaux employés ne pourront demander à télétravailler qu'après la fin de leur période de probation de trois mois.\n\nL'entreprise remboursera une partie des frais liés au travail à domicile, à hauteur de 25 $ par mois, sur présentation d'une demande dans le portail RH. Le matériel informatique (ordinateur portable, écran) sera fourni ; en revanche, l'achat d'un bureau ou d'une chaise reste à la charge de l'employé.\n\nPour toute question, une séance d'information aura lieu le 12 décembre à 12 h 15, dans la salle Laurentides et en ligne.\n\nCordialement,\nL'équipe RH"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Combien de jours par semaine un employé pourra-t-il travailler à domicile, au maximum ?",
+                  "en": "What is the maximum number of days per week an employee may work from home?"
+                },
+                "options": [
+                  "Un jour.",
+                  "Deux jours.",
+                  "Trois jours.",
+                  "Autant qu'il le souhaite."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "'Jusqu'à deux jours par semaine' = up to two days a week.",
+                  "hi": "'jusqu'à deux jours par semaine' — हफ़्ते में ज़्यादा से ज़्यादा दो दिन।"
+                },
+                "kind": "literal",
+                "evidence": "pourront travailler à domicile jusqu'à deux jours par semaine"
+              },
+              {
+                "q": {
+                  "fr": "Une employée a été embauchée il y a un mois. Que peut-on dire de sa situation ?",
+                  "en": "An employee was hired a month ago. What can be said about her situation?"
+                },
+                "options": [
+                  "Elle peut télétravailler dès le 6 janvier.",
+                  "Elle doit télétravailler le mardi.",
+                  "Elle devra attendre environ deux mois avant de demander le télétravail.",
+                  "Elle n'aura jamais droit au télétravail."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "New employees can only ask after their three-month probation. Hired one month ago, she must wait about two more months.",
+                  "hi": "नए कर्मचारी तीन महीने की probation (परिवीक्षा) के बाद ही अनुरोध कर सकते हैं। उसे आए एक महीना हुआ है, इसलिए लगभग दो महीने और रुकना होगा।"
+                },
+                "kind": "inference",
+                "evidence": "qu'après la fin de leur période de probation de trois mois"
+              },
+              {
+                "q": {
+                  "fr": "Qu'est-ce qui ne sera pas payé par l'entreprise ?",
+                  "en": "What will the company NOT pay for?"
+                },
+                "options": [
+                  "Une chaise de bureau.",
+                  "Un ordinateur portable.",
+                  "Un écran.",
+                  "Une partie des frais de travail à domicile."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "The laptop and screen are provided and 25 $ a month is reimbursed, but 'l'achat d'un bureau ou d'une chaise reste à la charge de l'employé' — the employee pays for a desk or chair.",
+                  "hi": "लैपटॉप और स्क्रीन कंपनी देगी और हर महीने 25 $ भी लौटाएगी, लेकिन मेज़ या कुर्सी ख़रीदने का ख़र्च कर्मचारी को ख़ुद उठाना है ('reste à la charge de l'employé')।"
+                },
+                "kind": "literal",
+                "evidence": "l'achat d'un bureau ou d'une chaise reste à la charge de l'employé"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "notice",
+              "title": "Règlement d'un espace de coworking",
+              "text": "ESPACE DE TRAVAIL PARTAGÉ L'ATELIER — Règlement intérieur\n\n1. L'accès est réservé aux membres munis de leur carte magnétique. Les invités doivent être enregistrés à l'accueil et accompagnés en tout temps.\n2. Les salles de réunion se réservent en ligne, pour une durée maximale de deux heures consécutives. Toute réservation non utilisée dans les quinze premières minutes sera automatiquement annulée.\n3. Les appels téléphoniques et les visioconférences ne sont pas permis dans l'aire ouverte ; des cabines insonorisées sont à votre disposition.\n4. La cuisine commune doit être laissée propre. Les aliments oubliés dans le réfrigérateur sont jetés chaque vendredi à 17 h.\n5. Tout manquement répété au présent règlement peut entraîner la suspension de l'abonnement, sans remboursement."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Vous avez réservé une salle de réunion pour 10 h, mais vous arrivez à 10 h 20. Que se passe-t-il ?",
+                  "en": "You booked a meeting room for 10:00 but arrive at 10:20. What happens?"
+                },
+                "options": [
+                  "Votre réservation est prolongée de vingt minutes.",
+                  "Vous devez payer une amende.",
+                  "Votre abonnement est suspendu.",
+                  "Votre réservation a été annulée."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "A booking not used within the first fifteen minutes is cancelled automatically; twenty minutes late is too late.",
+                  "hi": "जो बुकिंग पहले पंद्रह मिनट में इस्तेमाल न हो, वह अपने-आप रद्द हो जाती है; बीस मिनट की देरी इससे ज़्यादा है।"
+                },
+                "kind": "inference",
+                "evidence": "Toute réservation non utilisée dans les quinze premières minutes sera automatiquement annulée."
+              },
+              {
+                "q": {
+                  "fr": "Où un membre doit-il faire une visioconférence ?",
+                  "en": "Where must a member hold a video call?"
+                },
+                "options": [
+                  "Dans l'aire ouverte, à voix basse.",
+                  "Dans une cabine insonorisée.",
+                  "Dans la cuisine commune.",
+                  "À l'accueil."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "Calls and video calls are not allowed in the open area; 'des cabines insonorisées sont à votre disposition' (soundproof booths are available).",
+                  "hi": "खुली जगह में फ़ोन और वीडियो कॉल की अनुमति नहीं है; इसके लिए 'cabines insonorisées' (साउंडप्रूफ़ केबिन) हैं।"
+                },
+                "kind": "literal",
+                "evidence": "des cabines insonorisées sont à votre disposition"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "form",
+              "title": "Contrat de service Internet",
+              "text": "CONTRAT DE SERVICE INTERNET RÉSIDENTIEL — Extrait des conditions générales\n\nArticle 4 – Durée. Le présent contrat est conclu pour une durée indéterminée. Le client peut y mettre fin à tout moment en avisant le fournisseur par écrit au moins trente (30) jours à l'avance.\n\nArticle 5 – Équipement. Le modem demeure la propriété du fournisseur. Il doit être retourné dans les quinze (15) jours suivant la résiliation. À défaut, des frais de 150 $ seront facturés au client.\n\nArticle 6 – Interruption de service. En cas d'interruption de plus de 24 heures consécutives attribuable au fournisseur, le client a droit à un crédit équivalant au prix d'une journée de service par jour d'interruption. Ce crédit doit être demandé dans les soixante (60) jours suivant l'incident.\n\nArticle 7 – Modification des tarifs. Le fournisseur peut modifier ses tarifs moyennant un préavis écrit de trente (30) jours. Le client qui refuse la modification peut résilier le contrat sans pénalité."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que doit faire un client qui veut mettre fin à son contrat ?",
+                  "en": "What must a customer do to end the contract?"
+                },
+                "options": [
+                  "Payer des frais de résiliation.",
+                  "Attendre la fin de la première année.",
+                  "Prévenir le fournisseur par écrit au moins 30 jours avant.",
+                  "Téléphoner au fournisseur la veille."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "Article 4: the customer can end it at any time 'en avisant le fournisseur par écrit au moins trente (30) jours à l'avance' (written notice at least 30 days ahead).",
+                  "hi": "धारा 4: ग्राहक कभी भी अनुबंध ख़त्म कर सकता है, बस कम से कम 30 दिन पहले लिखित सूचना देनी होगी।"
+                },
+                "kind": "literal",
+                "evidence": "en avisant le fournisseur par écrit au moins trente (30) jours à l'avance"
+              },
+              {
+                "q": {
+                  "fr": "Que se passe-t-il si le client ne rapporte pas le modem après la résiliation ?",
+                  "en": "What happens if the customer does not return the modem after cancelling?"
+                },
+                "options": [
+                  "Il doit payer 150 $.",
+                  "Il devient propriétaire du modem sans frais.",
+                  "Il perd son crédit de service.",
+                  "Son contrat est automatiquement renouvelé."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "Article 5: the modem must be returned within 15 days; 'à défaut' (otherwise), a 150 $ fee is charged.",
+                  "hi": "धारा 5: मॉडेम 15 दिन में लौटाना है; 'à défaut' (ऐसा न करने पर) 150 $ का शुल्क लगेगा।"
+                },
+                "kind": "literal",
+                "evidence": "À défaut, des frais de 150 $ seront facturés au client."
+              },
+              {
+                "q": {
+                  "fr": "Le service a été coupé pendant 10 heures à cause d'une panne du fournisseur. Le client a-t-il droit à un crédit ?",
+                  "en": "Service was cut for 10 hours because of a provider failure. Is the customer entitled to a credit?"
+                },
+                "options": [
+                  "Oui, d'une journée de service.",
+                  "Oui, s'il le demande dans les 60 jours.",
+                  "Oui, il peut résilier sans pénalité.",
+                  "Non, l'interruption n'a pas été assez longue."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "A credit is only given for an interruption of more than 24 consecutive hours. Ten hours is not enough.",
+                  "hi": "क्रेडिट सिर्फ़ तब मिलता है जब सेवा लगातार 24 घंटे से ज़्यादा बंद रहे। दस घंटे काफ़ी नहीं हैं।"
+                },
+                "kind": "inference",
+                "evidence": "En cas d'interruption de plus de 24 heures consécutives attribuable au fournisseur"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "letter",
+              "title": "Lettre de la Ville",
+              "text": "Ville de Rivière-Belle\nService de la mobilité\n\nObjet : Renouvellement de votre vignette de stationnement résidentiel\n\nMadame, Monsieur,\n\nVotre vignette de stationnement sur rue (zone 14) expire le 31 décembre. Pour la renouveler, vous devez présenter une demande avant le 15 décembre, en ligne ou au comptoir de l'hôtel de ville. Votre demande devra être accompagnée d'une preuve de résidence récente (bail ou facture datant de moins de trois mois) et du certificat d'immatriculation du véhicule, qui doit être à votre nom.\n\nLe tarif annuel est de 120 $. Il est réduit de moitié pour les véhicules entièrement électriques.\n\nNous vous rappelons que la vignette ne garantit pas une place devant votre domicile. Elle vous permet seulement de stationner dans les rues de votre zone sans limite de durée.\n\nVeuillez agréer, Madame, Monsieur, nos salutations distinguées.\n\nLe Service de la mobilité"
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Parmi ces documents, lequel peut servir de preuve de résidence ?",
+                  "en": "Which of these documents can serve as proof of residence?"
+                },
+                "options": [
+                  "Un permis de conduire expiré.",
+                  "Une facture reçue il y a six mois.",
+                  "Une facture datant de moins de trois mois.",
+                  "Une lettre d'un voisin."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "The letter asks for 'bail ou facture datant de moins de trois mois' — a lease or a bill less than three months old.",
+                  "hi": "पत्र में 'bail ou facture datant de moins de trois mois' माँगा गया है — किराये का अनुबंध या तीन महीने से कम पुराना बिल।"
+                },
+                "kind": "literal",
+                "evidence": "bail ou facture datant de moins de trois mois"
+              },
+              {
+                "q": {
+                  "fr": "Que permet exactement la vignette ?",
+                  "en": "What exactly does the permit allow?"
+                },
+                "options": [
+                  "D'avoir une place réservée devant chez soi.",
+                  "De stationner sans limite de temps dans les rues de sa zone.",
+                  "De stationner gratuitement dans toute la ville.",
+                  "De payer moitié prix dans les stationnements publics."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "The letter says the permit does not guarantee a spot in front of your home; it only lets you park in your zone's streets with no time limit.",
+                  "hi": "पत्र कहता है कि यह परमिट घर के सामने जगह की गारंटी नहीं देता; इससे सिर्फ़ अपने ज़ोन की सड़कों पर बिना समय-सीमा के गाड़ी खड़ी की जा सकती है।"
+                },
+                "kind": "inference",
+                "evidence": "Elle vous permet seulement de stationner dans les rues de votre zone sans limite de durée."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "press",
+        "title": "Articles de presse",
+        "instruction": "Lisez les articles et répondez aux questions de compréhension, d'inférence et d'opinion. — Read the articles and answer the literal, inference and viewpoint questions.",
+        "items": [
+          {
+            "document": {
+              "genre": "article",
+              "title": "Semaine de quatre jours : une PME de Trois-Rivières tire un premier bilan",
+              "text": "Il y a un an, l'entreprise de logiciels Numéris, qui compte 45 employés à Trois-Rivières, lançait une expérience audacieuse : passer à la semaine de quatre jours, sans baisse de salaire. Les bureaux sont désormais fermés le vendredi, et chaque employé travaille 32 heures au lieu de 37,5.\n\nDouze mois plus tard, les résultats dépassent les attentes de la direction. Selon les chiffres présentés mardi par la présidente, Martine Gagnon, la productivité est restée stable, tandis que les congés de maladie ont diminué de près de 30 %. « Nous craignions de prendre du retard sur nos projets. Ce n'est pas arrivé, parce que les équipes ont appris à éliminer les réunions inutiles », explique-t-elle.\n\nL'effet le plus visible concerne toutefois le recrutement. L'an dernier, l'entreprise peinait à pourvoir ses postes de programmeurs, très recherchés dans la région. Elle reçoit aujourd'hui trois fois plus de candidatures qu'auparavant, dont plusieurs venant de Montréal.\n\nTout n'est pas rose pour autant. Certains employés reconnaissent que leurs journées sont devenues plus intenses. « Le lundi et le jeudi, je n'ai presque plus le temps de dîner », confie Samuel, analyste depuis cinq ans. Le service à la clientèle a, quant à lui, dû s'organiser autrement : une petite équipe assure une permanence le vendredi en échange d'un jour de congé en semaine.\n\nLes spécialistes restent prudents. Pour Hélène Tremblay, professeure en gestion des ressources humaines, « ce modèle fonctionne bien dans les entreprises de services, où le travail est mesuré par objectifs. Il est beaucoup plus difficile à appliquer dans un hôpital ou une usine, où il faut une présence continue ».\n\nNuméris a décidé de prolonger l'expérience pour une deuxième année. La direction souhaite cependant revoir l'organisation du jeudi, une journée jugée trop chargée par une majorité d'employés."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Qu'est-ce qui a changé pour les employés de Numéris ?",
+                  "en": "What has changed for Numéris employees?"
+                },
+                "options": [
+                  "Ils travaillent moins d'heures pour le même salaire.",
+                  "Ils travaillent quatre jours de dix heures.",
+                  "Ils ont accepté une baisse de salaire.",
+                  "Ils travaillent désormais de la maison le vendredi."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "They moved to a four-day week 'sans baisse de salaire', working 32 hours instead of 37.5.",
+                  "hi": "वे 'sans baisse de salaire' (वेतन घटाए बिना) चार दिन के हफ़्ते पर आ गए हैं और 37,5 की जगह 32 घंटे काम करते हैं।"
+                },
+                "kind": "literal",
+                "evidence": "chaque employé travaille 32 heures au lieu de 37,5"
+              },
+              {
+                "q": {
+                  "fr": "Selon la présidente, pourquoi les projets n'ont-ils pas pris de retard ?",
+                  "en": "According to the president, why did projects not fall behind?"
+                },
+                "options": [
+                  "Parce que l'entreprise a embauché des programmeurs de Montréal.",
+                  "Parce que les employés travaillent aussi le vendredi.",
+                  "Parce que les équipes ont supprimé les réunions inutiles.",
+                  "Parce que les congés de maladie ont été réduits par la direction."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "Martine Gagnon says it did not happen 'parce que les équipes ont appris à éliminer les réunions inutiles'.",
+                  "hi": "मार्टीन गान्यों कहती हैं कि देरी इसलिए नहीं हुई क्योंकि टीमों ने बेकार की मीटिंगें ख़त्म करना सीख लिया।"
+                },
+                "kind": "literal",
+                "evidence": "parce que les équipes ont appris à éliminer les réunions inutiles"
+              },
+              {
+                "q": {
+                  "fr": "D'après l'article, quel est l'avantage le plus net de cette expérience ?",
+                  "en": "According to the article, what is the clearest benefit of the experiment?"
+                },
+                "options": [
+                  "Une hausse importante de la productivité.",
+                  "Une plus grande facilité à attirer des candidats.",
+                  "Des journées de travail plus calmes.",
+                  "Une baisse des coûts de bureau."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "'L'effet le plus visible concerne toutefois le recrutement': the company now receives three times more applications. Productivity only stayed stable.",
+                  "hi": "'L'effet le plus visible concerne toutefois le recrutement' — सबसे साफ़ असर भर्ती पर है: अब तीन गुना ज़्यादा आवेदन आते हैं। उत्पादकता सिर्फ़ स्थिर रही, बढ़ी नहीं।"
+                },
+                "kind": "inference",
+                "evidence": "L'effet le plus visible concerne toutefois le recrutement."
+              },
+              {
+                "q": {
+                  "fr": "Quelle est la position d'Hélène Tremblay ?",
+                  "en": "What is Hélène Tremblay's position?"
+                },
+                "options": [
+                  "Elle pense que ce modèle devrait devenir obligatoire.",
+                  "Elle juge l'expérience de Numéris trop coûteuse.",
+                  "Elle pense que le modèle convient surtout aux hôpitaux.",
+                  "Elle estime que le modèle ne convient pas à tous les secteurs."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "She says it works well in service companies but is 'beaucoup plus difficile à appliquer dans un hôpital ou une usine' — it does not suit every sector.",
+                  "hi": "उनके अनुसार यह मॉडल सेवा कंपनियों में अच्छा चलता है, पर अस्पताल या कारख़ाने में लागू करना बहुत मुश्किल है — यानी हर क्षेत्र के लिए ठीक नहीं।"
+                },
+                "kind": "inference",
+                "evidence": "Il est beaucoup plus difficile à appliquer dans un hôpital ou une usine"
+              }
+            ]
+          },
+          {
+            "document": {
+              "genre": "opinion",
+              "title": "Chronique — Le pourboire, ce réflexe devenu un piège",
+              "text": "Vous achetez un café à emporter et un muffin, et voilà que le terminal de paiement vous propose, avant même que vous ayez reçu votre commande, de laisser 18, 20 ou 25 % de pourboire. Le petit bouton « Aucun pourboire » existe bien, mais il est souvent placé dans un coin de l'écran, comme s'il fallait en avoir honte.\n\nJe n'ai rien contre le pourboire. Au restaurant, où le service est réel et où les salaires des serveurs restent bas, il me semble normal, et même nécessaire, de remercier une personne qui s'est occupée de nous pendant tout un repas. Mais depuis quelques années, la pratique s'est étendue à des commerces où personne ne nous sert vraiment : la boulangerie, le dépanneur, et même certains magasins en libre-service.\n\nLe problème n'est pas seulement financier. Ces écrans exercent une pression sociale très efficace : l'employé est devant nous, la file d'attente aussi, et refuser donne l'impression d'être avare. Beaucoup de consommateurs disent d'ailleurs se sentir obligés de donner, même lorsqu'ils trouvent la demande injustifiée.\n\nLes commerçants répondent que ces pourboires leur permettent de garder leur personnel dans un marché du travail difficile. L'argument est compréhensible, mais il revient à faire payer aux clients ce que l'employeur devrait assumer. Si un salaire est trop bas, c'est le salaire qu'il faut augmenter, quitte à afficher des prix un peu plus élevés. Au moins, le client saurait exactement ce qu'il paie.\n\nIl serait temps que les gouvernements encadrent ces pratiques : interdire de calculer le pourboire sur le montant taxes comprises, rendre l'option « aucun pourboire » aussi visible que les autres, et ne plus en proposer là où aucun service n'est rendu. En attendant, j'ai pris une décision simple : je laisse un pourboire quand on me sert, et seulement dans ce cas. Sans culpabilité."
+            },
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que reproche l'auteur au bouton « Aucun pourboire » ?",
+                  "en": "What does the author criticise about the 'No tip' button?"
+                },
+                "options": [
+                  "Il n'existe pas sur la plupart des terminaux.",
+                  "Il est souvent peu visible.",
+                  "Il ajoute des frais supplémentaires.",
+                  "Il n'apparaît qu'après le paiement."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "The author says the button exists but 'il est souvent placé dans un coin de l'écran' — it is often hidden in a corner.",
+                  "hi": "लेखक कहता है कि बटन है तो सही, पर अक्सर स्क्रीन के कोने में छिपा रहता है — यानी आसानी से नहीं दिखता।"
+                },
+                "kind": "literal",
+                "evidence": "il est souvent placé dans un coin de l'écran"
+              },
+              {
+                "q": {
+                  "fr": "Quelle est l'opinion de l'auteur sur le pourboire au restaurant ?",
+                  "en": "What is the author's opinion of tipping in restaurants?"
+                },
+                "options": [
+                  "Il le trouve justifié.",
+                  "Il le trouve excessif.",
+                  "Il voudrait l'interdire.",
+                  "Il pense qu'il devrait être inclus dans les taxes."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "'Au restaurant … il me semble normal, et même nécessaire' — he finds it normal and even necessary, because real service is given and wages are low.",
+                  "hi": "'Au restaurant … il me semble normal, et même nécessaire' — रेस्टोरेंट में वह टिप को सामान्य और ज़रूरी भी मानता है, क्योंकि वहाँ सचमुच सेवा मिलती है।"
+                },
+                "kind": "gist",
+                "evidence": "il me semble normal, et même nécessaire"
+              },
+              {
+                "q": {
+                  "fr": "Comment l'auteur répond-il à l'argument des commerçants ?",
+                  "en": "How does the author answer the shop owners' argument?"
+                },
+                "options": [
+                  "Il l'accepte entièrement.",
+                  "Il propose que les clients paient davantage de pourboire.",
+                  "Il affirme que c'est à l'employeur d'augmenter les salaires.",
+                  "Il pense que le marché du travail n'est pas difficile."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "He finds the argument understandable but says the employer should pay: 'c'est le salaire qu'il faut augmenter', even if prices rise a little.",
+                  "hi": "वह दलील को समझता है, पर कहता है कि यह ज़िम्मेदारी मालिक की है: 'c'est le salaire qu'il faut augmenter' — तनख़्वाह बढ़ानी चाहिए, भले दाम थोड़े बढ़ें।"
+                },
+                "kind": "inference",
+                "evidence": "c'est le salaire qu'il faut augmenter"
+              },
+              {
+                "q": {
+                  "fr": "Parmi ces mesures, laquelle l'auteur propose-t-il ?",
+                  "en": "Which of these measures does the author propose?"
+                },
+                "options": [
+                  "Fixer le pourboire à 10 % partout.",
+                  "Supprimer le pourboire dans les restaurants.",
+                  "Afficher les prix sans les taxes.",
+                  "Calculer le pourboire sur le montant avant taxes."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "He wants to 'interdire de calculer le pourboire sur le montant taxes comprises' — so the tip would be calculated before taxes.",
+                  "hi": "वह चाहता है कि टैक्स जोड़कर बनी रक़म पर टिप का हिसाब लगाना मना हो — यानी टिप टैक्स से पहले की रक़म पर लगे।"
+                },
+                "kind": "inference",
+                "evidence": "interdire de calculer le pourboire sur le montant taxes comprises"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "sections": [
+      {
+        "key": "pictures",
+        "title": "Conversations et scènes",
+        "instruction": "Écoutez chaque conversation une seule fois et choisissez la scène qui correspond. — Listen to each short conversation once and choose the description of the matching scene.",
+        "items": [
+          {
+            "context": "Conversation 1 — Écoutez et choisissez la scène qui correspond. (Listen and choose the matching scene.)",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Cliente",
+                "voice": "f1",
+                "fr": "Bonjour, je voudrais un aller-retour pour Ottawa, s'il vous plaît."
+              },
+              {
+                "speaker": "Employé",
+                "voice": "m1",
+                "fr": "Pour aujourd'hui ? Le prochain départ est à 14 h 10."
+              },
+              {
+                "speaker": "Cliente",
+                "voice": "f1",
+                "fr": "Parfait. Je peux payer par carte ?"
+              },
+              {
+                "speaker": "Employé",
+                "voice": "m1",
+                "fr": "Bien sûr, insérez-la ici."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle scène correspond à ce que vous avez entendu ?",
+                  "en": "Which scene matches what you heard?"
+                },
+                "options": [
+                  "Une femme réserve une chambre d'hôtel à Ottawa.",
+                  "Une femme achète un billet aller-retour au guichet.",
+                  "Un homme demande son chemin à une passante.",
+                  "Une femme se fait rembourser un billet."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "She asks for 'un aller-retour pour Ottawa' and pays by card at the counter: she is buying a return ticket.",
+                  "hi": "महिला 'un aller-retour pour Ottawa' माँगती है और कार्ड से पैसे देती है: वह काउंटर पर आने-जाने का टिकट ख़रीद रही है।"
+                },
+                "kind": "gist",
+                "evidence": "je voudrais un aller-retour pour Ottawa"
+              }
+            ]
+          },
+          {
+            "context": "Conversation 2 — Écoutez et choisissez la scène qui correspond. (Listen and choose the matching scene.)",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Client",
+                "voice": "m2",
+                "fr": "Excusez-moi, j'ai un rhume depuis trois jours. Vous auriez quelque chose contre la toux ?"
+              },
+              {
+                "speaker": "Pharmacienne",
+                "voice": "f2",
+                "fr": "Oui, ce sirop est très efficace. Vous le prenez trois fois par jour, après les repas."
+              },
+              {
+                "speaker": "Client",
+                "voice": "m2",
+                "fr": "Et ça ne fait pas dormir ? Je conduis pour mon travail."
+              },
+              {
+                "speaker": "Pharmacienne",
+                "voice": "f2",
+                "fr": "Non, celui-ci ne provoque pas de somnolence."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle scène correspond à ce que vous avez entendu ?",
+                  "en": "Which scene matches what you heard?"
+                },
+                "options": [
+                  "Un médecin examine un enfant malade.",
+                  "Un homme commande un repas au restaurant.",
+                  "Un chauffeur de taxi conduit une cliente à l'hôpital.",
+                  "Un homme demande conseil à une pharmacienne."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "The man has a cold and asks for something against a cough; she recommends a syrup: a pharmacy scene.",
+                  "hi": "आदमी को ज़ुकाम है और वह खाँसी की दवा माँगता है; महिला सिरप सुझाती है — यह फ़ार्मेसी (दवा की दुकान) का दृश्य है।"
+                },
+                "kind": "gist",
+                "evidence": "Vous auriez quelque chose contre la toux ?"
+              }
+            ]
+          },
+          {
+            "context": "Conversation 3 — Écoutez et choisissez la scène qui correspond. (Listen and choose the matching scene.)",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Propriétaire",
+                "voice": "f1",
+                "fr": "Voilà la cuisine. Elle a été rénovée l'an dernier."
+              },
+              {
+                "speaker": "Visiteur",
+                "voice": "m1",
+                "fr": "C'est lumineux ! Et le chauffage, il est inclus dans le loyer ?"
+              },
+              {
+                "speaker": "Propriétaire",
+                "voice": "f1",
+                "fr": "Oui, le chauffage et l'eau chaude. L'électricité est à vos frais."
+              },
+              {
+                "speaker": "Visiteur",
+                "voice": "m1",
+                "fr": "D'accord. Est-ce que je peux voir la chambre ?"
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle scène correspond à ce que vous avez entendu ?",
+                  "en": "Which scene matches what you heard?"
+                },
+                "options": [
+                  "Une femme fait visiter un appartement à un homme.",
+                  "Un couple fait la cuisine ensemble.",
+                  "Un électricien répare le chauffage.",
+                  "Un homme achète des meubles de cuisine."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "They talk about the kitchen, the rent ('le loyer') and the bedroom: she is showing a flat to a possible tenant.",
+                  "hi": "वे रसोई, किराया ('le loyer') और कमरे की बात करते हैं: महिला एक संभावित किरायेदार को फ़्लैट दिखा रही है।"
+                },
+                "kind": "gist",
+                "evidence": "il est inclus dans le loyer ?"
+              }
+            ]
+          },
+          {
+            "context": "Conversation 4 — Écoutez et choisissez la scène qui correspond. (Listen and choose the matching scene.)",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Client",
+                "voice": "m2",
+                "fr": "Bonjour, ma roue arrière est crevée, et les freins font un drôle de bruit."
+              },
+              {
+                "speaker": "Réparatrice",
+                "voice": "f2",
+                "fr": "Laissez-moi votre vélo, je regarde ça cet après-midi. Revenez vers 17 h."
+              },
+              {
+                "speaker": "Client",
+                "voice": "m2",
+                "fr": "Ça va coûter combien, à peu près ?"
+              },
+              {
+                "speaker": "Réparatrice",
+                "voice": "f2",
+                "fr": "Pour la crevaison, quinze dollars. Pour les freins, je vous dirai après."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle scène correspond à ce que vous avez entendu ?",
+                  "en": "Which scene matches what you heard?"
+                },
+                "options": [
+                  "Un homme loue un vélo pour la journée.",
+                  "Un homme achète un vélo neuf.",
+                  "Un homme laisse son vélo à réparer dans un atelier.",
+                  "Une femme répare sa voiture dans la rue."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "His back wheel has a puncture ('crevée') and she says 'Laissez-moi votre vélo': he is leaving his bike for repair.",
+                  "hi": "उसके पिछले पहिये में पंक्चर है ('crevée') और वह कहती है 'Laissez-moi votre vélo' — वह अपनी साइकिल मरम्मत के लिए छोड़ रहा है।"
+                },
+                "kind": "gist",
+                "evidence": "Laissez-moi votre vélo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "messages",
+        "title": "Annonces, messages et micro-trottoirs",
+        "instruction": "Écoutez les annonces publiques, les messages de répondeur et les micro-trottoirs, puis répondez. Chaque document est diffusé une seule fois. — Each announcement, voicemail or street interview is played once.",
+        "items": [
+          {
+            "context": "Annonce dans le métro. (Announcement in the metro.)",
+            "type": "announcement",
+            "lines": [
+              {
+                "speaker": "Annonceur",
+                "voice": "narrator",
+                "fr": "Votre attention, s'il vous plaît. En raison d'un incident technique, le service est interrompu sur la ligne orange entre les stations Lionel-Groulx et Côte-Vertu. Des autobus de remplacement sont disponibles à la sortie de chaque station. Nous prévoyons un retour à la normale vers 9 h 30."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que propose-t-on aux voyageurs ?",
+                  "en": "What is offered to passengers?"
+                },
+                "options": [
+                  "De prendre une autre ligne de métro.",
+                  "D'attendre sur le quai jusqu'à 9 h 30.",
+                  "De se faire rembourser leur billet.",
+                  "De prendre des autobus de remplacement."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "'Des autobus de remplacement sont disponibles à la sortie de chaque station' — replacement buses.",
+                  "hi": "'Des autobus de remplacement sont disponibles' — हर स्टेशन के बाहर बदले में बसें उपलब्ध हैं।"
+                },
+                "kind": "literal",
+                "evidence": "Des autobus de remplacement sont disponibles à la sortie de chaque station."
+              }
+            ]
+          },
+          {
+            "context": "Annonce à l'aéroport. (Announcement at the airport.)",
+            "type": "announcement",
+            "lines": [
+              {
+                "speaker": "Annonceuse",
+                "voice": "f2",
+                "fr": "Les passagers du vol 872 à destination de Paris sont priés de se présenter à la porte 52, et non plus à la porte 48. L'embarquement commencera dans vingt minutes, en priorité pour les familles avec de jeunes enfants."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Qu'est-ce qui a changé pour le vol 872 ?",
+                  "en": "What has changed for flight 872?"
+                },
+                "options": [
+                  "La porte d'embarquement.",
+                  "La destination.",
+                  "L'heure d'arrivée à Paris.",
+                  "Le numéro du vol."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "Passengers must go to gate 52 'et non plus à la porte 48' — the gate has changed.",
+                  "hi": "यात्रियों को गेट 52 पर जाना है, 'et non plus à la porte 48' — यानी अब गेट 48 नहीं; गेट बदल गया है।"
+                },
+                "kind": "literal",
+                "evidence": "et non plus à la porte 48"
+              }
+            ]
+          },
+          {
+            "context": "Message sur un répondeur. (Voicemail message.)",
+            "type": "voicemail",
+            "lines": [
+              {
+                "speaker": "Nathalie",
+                "voice": "f1",
+                "fr": "Bonjour, ici Nathalie, de la clinique dentaire des Érables. Je vous appelle pour confirmer votre rendez-vous de jeudi à 15 h avec la docteure Leblanc. Si vous ne pouvez pas venir, merci de nous prévenir au moins 24 heures à l'avance ; sinon, des frais de 50 $ s'appliquent. Vous pouvez nous joindre au 819 555-0142. Bonne journée !"
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Pourquoi Nathalie appelle-t-elle ?",
+                  "en": "Why is Nathalie calling?"
+                },
+                "options": [
+                  "Pour proposer un nouveau rendez-vous.",
+                  "Pour confirmer un rendez-vous.",
+                  "Pour annuler le rendez-vous de jeudi.",
+                  "Pour demander un paiement en retard."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "She says 'Je vous appelle pour confirmer votre rendez-vous de jeudi'.",
+                  "hi": "वह कहती है 'Je vous appelle pour confirmer votre rendez-vous' — गुरुवार की अपॉइंटमेंट पक्की करने के लिए।"
+                },
+                "kind": "literal",
+                "evidence": "Je vous appelle pour confirmer votre rendez-vous de jeudi à 15 h"
+              },
+              {
+                "q": {
+                  "fr": "Que se passe-t-il si le patient annule le matin même du rendez-vous ?",
+                  "en": "What happens if the patient cancels on the morning of the appointment?"
+                },
+                "options": [
+                  "Rien, l'annulation est gratuite.",
+                  "Il devra attendre un mois pour un autre rendez-vous.",
+                  "Il devra payer 50 $.",
+                  "Il perdra son dossier à la clinique."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "Patients must warn at least 24 hours ahead; otherwise 'des frais de 50 $ s'appliquent'. Cancelling the same morning is less than 24 hours.",
+                  "hi": "कम से कम 24 घंटे पहले बताना ज़रूरी है, वरना 50 $ लगेंगे। उसी सुबह रद्द करना 24 घंटे से कम है।"
+                },
+                "kind": "inference",
+                "evidence": "sinon, des frais de 50 $ s'appliquent"
+              }
+            ]
+          },
+          {
+            "context": "Message sur un répondeur. (Voicemail message.)",
+            "type": "voicemail",
+            "lines": [
+              {
+                "speaker": "Isabelle Côté",
+                "voice": "f2",
+                "fr": "Bonjour, monsieur Sharma, c'est Isabelle Côté, de l'entreprise Logistik Plus. On a bien reçu votre candidature pour le poste de répartiteur. Votre profil nous intéresse beaucoup et on aimerait vous rencontrer la semaine prochaine. Par contre, l'entrevue se fera en personne, à notre entrepôt de Laval, pas en vidéo. Rappelez-moi pour qu'on fixe une date. Merci !"
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Qu'apprend-on sur l'entrevue ?",
+                  "en": "What do we learn about the interview?"
+                },
+                "options": [
+                  "Elle aura lieu en vidéo.",
+                  "Elle aura lieu dans un entrepôt à Laval.",
+                  "Elle a déjà été fixée à lundi.",
+                  "Elle se fera par téléphone."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "'L'entrevue se fera en personne, à notre entrepôt de Laval, pas en vidéo.'",
+                  "hi": "'L'entrevue se fera en personne, à notre entrepôt de Laval' — इंटरव्यू आमने-सामने, लावाल के गोदाम में होगा, वीडियो पर नहीं।"
+                },
+                "kind": "literal",
+                "evidence": "l'entrevue se fera en personne, à notre entrepôt de Laval, pas en vidéo"
+              },
+              {
+                "q": {
+                  "fr": "Que doit faire M. Sharma ?",
+                  "en": "What must Mr Sharma do?"
+                },
+                "options": [
+                  "Envoyer son CV.",
+                  "Se présenter à l'entrepôt demain.",
+                  "Préparer une vidéo de présentation.",
+                  "Rappeler pour fixer une date."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "She ends with 'Rappelez-moi pour qu'on fixe une date' — call back to set a date.",
+                  "hi": "वह आख़िर में कहती है 'Rappelez-moi pour qu'on fixe une date' — मुझे वापस फ़ोन कीजिए ताकि हम तारीख़ तय करें।"
+                },
+                "kind": "literal",
+                "evidence": "Rappelez-moi pour qu'on fixe une date."
+              }
+            ]
+          },
+          {
+            "context": "Micro-trottoir : utilisez-vous les vélos en libre-service ? (Street interview: do you use the bike-share?)",
+            "type": "street_interview",
+            "lines": [
+              {
+                "speaker": "Journaliste",
+                "voice": "m1",
+                "fr": "Bonjour, madame. Vous utilisez les vélos en libre-service ?"
+              },
+              {
+                "speaker": "Passante",
+                "voice": "f2",
+                "fr": "Ah oui ! Moi, je le prends tous les jours l'été pour aller au boulot. C'est plus rapide que le bus, et puis j'fais du sport en même temps. Mais l'hiver, non, faut pas exagérer !"
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quand cette femme utilise-t-elle le vélo ?",
+                  "en": "When does this woman use the bike?"
+                },
+                "options": [
+                  "Seulement pendant la belle saison.",
+                  "Toute l'année, même l'hiver.",
+                  "Seulement le week-end.",
+                  "Quand le bus est en retard."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "She uses it 'tous les jours l'été' but not in winter ('l'hiver, non').",
+                  "hi": "वह 'tous les jours l'été' यानी गर्मियों में रोज़ साइकिल लेती है, पर सर्दियों में नहीं ('l'hiver, non')।"
+                },
+                "kind": "inference",
+                "evidence": "je le prends tous les jours l'été pour aller au boulot"
+              }
+            ]
+          },
+          {
+            "context": "Micro-trottoir : le télétravail. (Street interview: working from home.)",
+            "type": "street_interview",
+            "lines": [
+              {
+                "speaker": "Journaliste",
+                "voice": "f1",
+                "fr": "Et vous, monsieur, le télétravail, vous en pensez quoi ?"
+              },
+              {
+                "speaker": "Passant",
+                "voice": "m2",
+                "fr": "Franchement, au début, j'adorais. Plus de trafic, plus de stress le matin. Mais au bout de six mois, mes collègues me manquaient. Maintenant, je vais au bureau trois jours par semaine, et ça me convient parfaitement."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que pense cet homme aujourd'hui ?",
+                  "en": "What does this man think now?"
+                },
+                "options": [
+                  "Il veut travailler uniquement de la maison.",
+                  "Il est satisfait d'une formule qui alterne maison et bureau.",
+                  "Il veut retourner au bureau tous les jours.",
+                  "Il déteste le télétravail depuis le début."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "He now goes to the office three days a week 'et ça me convient parfaitement' — a mixed arrangement suits him.",
+                  "hi": "अब वह हफ़्ते में तीन दिन दफ़्तर जाता है 'et ça me convient parfaitement' — यह मिली-जुली व्यवस्था उसे पूरी तरह ठीक लगती है।"
+                },
+                "kind": "inference",
+                "evidence": "je vais au bureau trois jours par semaine, et ça me convient parfaitement"
+              }
+            ]
+          },
+          {
+            "context": "Annonce dans un supermarché. (Announcement in a supermarket.)",
+            "type": "announcement",
+            "lines": [
+              {
+                "speaker": "Annonceuse",
+                "voice": "f1",
+                "fr": "Chers clients, profitez de notre promotion de la semaine : à l'achat de deux paquets de café de notre marque maison, le troisième est offert. Offre valable jusqu'à dimanche, dans la limite des stocks disponibles. Nous vous informons également que le magasin fermera exceptionnellement à 18 h ce soir, en raison de l'inventaire annuel."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "En quoi consiste la promotion ?",
+                  "en": "What is the special offer?"
+                },
+                "options": [
+                  "Un rabais de moitié sur tous les cafés.",
+                  "Un paquet de café gratuit pour chaque client.",
+                  "Trois paquets de café pour le prix de deux.",
+                  "Un café offert à la caisse."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "'À l'achat de deux paquets … le troisième est offert' = buy two, get the third free.",
+                  "hi": "'à l'achat de deux paquets … le troisième est offert' — दो पैकेट ख़रीदने पर तीसरा मुफ़्त।"
+                },
+                "kind": "literal",
+                "evidence": "à l'achat de deux paquets de café de notre marque maison, le troisième est offert"
+              },
+              {
+                "q": {
+                  "fr": "Pourquoi le magasin ferme-t-il plus tôt ce soir ?",
+                  "en": "Why is the store closing early tonight?"
+                },
+                "options": [
+                  "À cause de l'inventaire annuel.",
+                  "À cause d'une panne d'électricité.",
+                  "Parce que c'est dimanche.",
+                  "Parce que les stocks sont épuisés."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "It closes at 6 p.m. 'en raison de l'inventaire annuel' (because of the annual stocktaking).",
+                  "hi": "दुकान आज शाम 6 बजे 'en raison de l'inventaire annuel' — सालाना स्टॉक-गिनती की वजह से — बंद होगी।"
+                },
+                "kind": "literal",
+                "evidence": "en raison de l'inventaire annuel"
+              }
+            ]
+          },
+          {
+            "context": "Message sur un répondeur. (Voicemail message.)",
+            "type": "voicemail",
+            "lines": [
+              {
+                "speaker": "Message automatique",
+                "voice": "narrator",
+                "fr": "Bonjour, ceci est un message de votre caisse. Nous avons remarqué une transaction inhabituelle sur votre carte de crédit hier soir. Par précaution, votre carte a été temporairement bloquée. Veuillez nous rappeler au numéro inscrit au dos de votre carte. Pour votre sécurité, nous ne vous demanderons jamais votre NIP par téléphone."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Pourquoi la carte a-t-elle été bloquée ?",
+                  "en": "Why was the card blocked?"
+                },
+                "options": [
+                  "Parce que la carte est expirée.",
+                  "Parce que le client a oublié son NIP.",
+                  "Parce que le client n'a pas payé son solde.",
+                  "À cause d'une opération qui semble suspecte."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "The bank noticed 'une transaction inhabituelle' (an unusual transaction) and blocked the card as a precaution.",
+                  "hi": "बैंक ने 'une transaction inhabituelle' (एक असामान्य लेन-देन) देखा और सावधानी के तौर पर कार्ड रोक दिया।"
+                },
+                "kind": "inference",
+                "evidence": "Nous avons remarqué une transaction inhabituelle sur votre carte de crédit hier soir."
+              }
+            ]
+          },
+          {
+            "context": "Annonce dans un train. (Announcement on a train.)",
+            "type": "announcement",
+            "lines": [
+              {
+                "speaker": "Chef de train",
+                "voice": "m1",
+                "fr": "Mesdames et messieurs, nous arrivons en gare de Montréal avec environ quinze minutes de retard, en raison d'un ralentissement causé par la neige. Les voyageurs en correspondance pour Québec sont invités à se présenter au comptoir du service à la clientèle : leur train les attendra."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que doivent savoir les voyageurs qui continuent vers Québec ?",
+                  "en": "What must passengers continuing to Québec City know?"
+                },
+                "options": [
+                  "Ils doivent prendre un autobus.",
+                  "Ils ont manqué leur correspondance.",
+                  "Leur train partira sans attendre.",
+                  "Leur train ne partira pas sans eux."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "They must go to the customer service desk: 'leur train les attendra' (their train will wait for them).",
+                  "hi": "उन्हें ग्राहक सेवा काउंटर पर जाना है: 'leur train les attendra' — उनकी ट्रेन उनका इंतज़ार करेगी।"
+                },
+                "kind": "literal",
+                "evidence": "leur train les attendra"
+              }
+            ]
+          },
+          {
+            "context": "Micro-trottoir : les nouvelles pistes cyclables. (Street interview: the new bike lanes.)",
+            "type": "street_interview",
+            "lines": [
+              {
+                "speaker": "Journaliste",
+                "voice": "m2",
+                "fr": "Madame, vous tenez une boutique sur la rue principale. Les nouvelles pistes cyclables, ça vous a dérangée ?"
+              },
+              {
+                "speaker": "Commerçante",
+                "voice": "f1",
+                "fr": "Je vous avoue que j'étais contre au départ. On a perdu des places de stationnement. Mais finalement, il y a plus de piétons et de cyclistes qui s'arrêtent chez moi. Mon chiffre d'affaires n'a pas baissé, au contraire."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quelle est aujourd'hui l'opinion de la commerçante ?",
+                  "en": "What is the shop owner's opinion today?"
+                },
+                "options": [
+                  "Elle reste opposée aux pistes cyclables.",
+                  "Elle a changé d'avis et voit des effets positifs.",
+                  "Elle demande plus de places de stationnement.",
+                  "Elle pense déménager sa boutique."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "She was against them at first ('au départ'), but her sales have not dropped — 'au contraire', they rose: she now sees the positive side.",
+                  "hi": "शुरू में वह विरोध में थी, पर उसकी बिक्री घटी नहीं — 'au contraire', बल्कि बढ़ी: अब उसकी राय बदल गई है।"
+                },
+                "kind": "inference",
+                "evidence": "Mon chiffre d'affaires n'a pas baissé, au contraire."
+              }
+            ]
+          },
+          {
+            "context": "Avis aux résidents. (Notice to residents.)",
+            "type": "announcement",
+            "lines": [
+              {
+                "speaker": "Annonceuse",
+                "voice": "f2",
+                "fr": "Avis aux résidents : en raison de la tempête prévue cette nuit, une opération de déneigement aura lieu demain à partir de 7 h dans le secteur du Vieux-Port. Le stationnement sera interdit des deux côtés de la rue. Surveillez les panneaux orange installés temporairement."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que doivent faire les résidents du secteur ?",
+                  "en": "What must residents of the area do?"
+                },
+                "options": [
+                  "Déneiger leur trottoir avant 7 h.",
+                  "Ne pas laisser leur voiture dans la rue demain.",
+                  "Garer leur voiture d'un seul côté de la rue.",
+                  "Installer des panneaux orange."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "'Le stationnement sera interdit des deux côtés de la rue' — no parking on either side, so cars must not stay in the street.",
+                  "hi": "'Le stationnement sera interdit des deux côtés de la rue' — सड़क के दोनों तरफ़ गाड़ी खड़ी करना मना होगा।"
+                },
+                "kind": "inference",
+                "evidence": "Le stationnement sera interdit des deux côtés de la rue."
+              }
+            ]
+          },
+          {
+            "context": "Message sur un répondeur. (Voicemail message.)",
+            "type": "voicemail",
+            "lines": [
+              {
+                "speaker": "Léa",
+                "voice": "f1",
+                "fr": "Salut Amrita, c'est Léa ! Écoute, pour samedi, finalement, le resto qu'on avait choisi est complet. J'ai réservé dans un petit restaurant libanais juste à côté du métro Mont-Royal, à 19 h 30 au lieu de 19 h. Dis-moi si ça te va. Ah, et c'est un « apportez votre vin », alors pense à acheter une bouteille !"
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que doit apporter Amrita ?",
+                  "en": "What should Amrita bring?"
+                },
+                "options": [
+                  "Une bouteille de vin.",
+                  "Un dessert libanais.",
+                  "La réservation imprimée.",
+                  "Rien, tout est compris."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "The restaurant is 'apportez votre vin' (bring your own wine), so Léa says 'pense à acheter une bouteille'.",
+                  "hi": "रेस्टोरेंट 'apportez votre vin' वाला है (अपनी वाइन ख़ुद लाइए), इसलिए लेआ कहती है 'pense à acheter une bouteille' — एक बोतल ख़रीद लेना।"
+                },
+                "kind": "literal",
+                "evidence": "pense à acheter une bouteille"
+              }
+            ]
+          },
+          {
+            "context": "Annonce de la piscine municipale. (Announcement from the city pool.)",
+            "type": "announcement",
+            "lines": [
+              {
+                "speaker": "Annonceur",
+                "voice": "m2",
+                "fr": "La piscine municipale vous informe que les bains libres du dimanche matin sont annulés pendant tout le mois de février, en raison d'une compétition régionale. En compensation, les bains libres du samedi après-midi sont prolongés d'une heure, jusqu'à 17 h."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Qu'est-ce qui change le samedi en février ?",
+                  "en": "What changes on Saturdays in February?"
+                },
+                "options": [
+                  "Les bains libres sont annulés.",
+                  "La piscine ferme à 16 h.",
+                  "Les bains libres durent une heure de plus.",
+                  "Une compétition a lieu l'après-midi."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "Saturday afternoon free swims 'sont prolongés d'une heure, jusqu'à 17 h' — they last one hour longer. It is Sunday morning that is cancelled.",
+                  "hi": "शनिवार दोपहर की 'bains libres' (आम तैराकी) 'prolongés d'une heure' — एक घंटा बढ़ा दी गई है। रविवार सुबह वाली रद्द हुई है।"
+                },
+                "kind": "literal",
+                "evidence": "les bains libres du samedi après-midi sont prolongés d'une heure, jusqu'à 17 h"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "radio",
+        "title": "Documents radiophoniques",
+        "instruction": "Écoutez les entrevues et le reportage radio, puis répondez aux questions. — Listen to the radio interviews and report, then answer the questions.",
+        "items": [
+          {
+            "context": "Émission de radio « Vivre en ville » : entrevue sur le déménagement du 1er juillet. (Radio interview about Québec's 1 July moving day.)",
+            "type": "interview",
+            "lines": [
+              {
+                "speaker": "Animatrice",
+                "voice": "f1",
+                "fr": "Bonjour et bienvenue à « Vivre en ville ». Le 1er juillet approche, et avec lui la grande journée du déménagement au Québec. Pour en parler, nous recevons Marc-André Bélanger, conseiller dans un comité de logement. Bonjour, Marc-André."
+              },
+              {
+                "speaker": "Marc-André Bélanger",
+                "voice": "m1",
+                "fr": "Bonjour."
+              },
+              {
+                "speaker": "Animatrice",
+                "voice": "f1",
+                "fr": "Cette année, la situation est-elle aussi difficile que l'an dernier ?"
+              },
+              {
+                "speaker": "Marc-André Bélanger",
+                "voice": "m1",
+                "fr": "Malheureusement, oui. Le taux d'inoccupation reste très bas. Concrètement, ça veut dire qu'il y a très peu de logements libres, et que les loyers des appartements disponibles ont beaucoup augmenté. Les familles avec enfants sont les plus touchées, parce que les grands logements sont rares."
+              },
+              {
+                "speaker": "Animatrice",
+                "voice": "f1",
+                "fr": "Quels conseils donnez-vous aux locataires qui cherchent encore ?"
+              },
+              {
+                "speaker": "Marc-André Bélanger",
+                "voice": "m1",
+                "fr": "D'abord, ne pas attendre la dernière minute. Ensuite, ne jamais verser d'argent avant d'avoir visité le logement et signé le bail. On voit de plus en plus de fausses annonces en ligne : quelqu'un demande un dépôt pour réserver un appartement qui n'existe pas, ou qui ne lui appartient pas."
+              },
+              {
+                "speaker": "Animatrice",
+                "voice": "f1",
+                "fr": "Et pour ceux qui ont déjà un logement et qui reçoivent un avis d'augmentation de loyer ?"
+              },
+              {
+                "speaker": "Marc-André Bélanger",
+                "voice": "m1",
+                "fr": "Beaucoup de gens ne le savent pas, mais un locataire a le droit de refuser une augmentation. Il doit répondre par écrit au propriétaire dans le mois qui suit la réception de l'avis. Refuser ne veut pas dire qu'il perd son logement : c'est alors au propriétaire de s'adresser au tribunal s'il veut obtenir la hausse."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Selon Marc-André Bélanger, qui souffre le plus de la situation ?",
+                  "en": "According to Marc-André Bélanger, who suffers most from the situation?"
+                },
+                "options": [
+                  "Les étudiants.",
+                  "Les personnes âgées.",
+                  "Les propriétaires.",
+                  "Les familles avec enfants."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "'Les familles avec enfants sont les plus touchées, parce que les grands logements sont rares.'",
+                  "hi": "'Les familles avec enfants sont les plus touchées' — बच्चों वाले परिवार सबसे ज़्यादा प्रभावित हैं, क्योंकि बड़े घर कम मिलते हैं।"
+                },
+                "kind": "literal",
+                "evidence": "Les familles avec enfants sont les plus touchées"
+              },
+              {
+                "q": {
+                  "fr": "Quel conseil donne-t-il pour éviter les arnaques ?",
+                  "en": "What advice does he give to avoid scams?"
+                },
+                "options": [
+                  "Ne rien payer avant d'avoir visité et signé le bail.",
+                  "Chercher uniquement des annonces en ligne.",
+                  "Verser un dépôt rapidement pour réserver.",
+                  "Attendre le 1er juillet pour signer."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "'Ne jamais verser d'argent avant d'avoir visité le logement et signé le bail' — never pay before visiting and signing.",
+                  "hi": "'ne jamais verser d'argent avant d'avoir visité le logement et signé le bail' — घर देखे और लीज़ पर दस्तख़त किए बिना कभी पैसे न दें।"
+                },
+                "kind": "literal",
+                "evidence": "ne jamais verser d'argent avant d'avoir visité le logement et signé le bail"
+              },
+              {
+                "q": {
+                  "fr": "Que doit faire un locataire qui refuse une augmentation de loyer ?",
+                  "en": "What must a tenant who refuses a rent increase do?"
+                },
+                "options": [
+                  "Quitter son logement le 1er juillet.",
+                  "Répondre par écrit au propriétaire dans un délai d'un mois.",
+                  "Payer l'augmentation puis porter plainte.",
+                  "Téléphoner au comité de logement."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "'Il doit répondre par écrit au propriétaire dans le mois qui suit la réception de l'avis.'",
+                  "hi": "'Il doit répondre par écrit au propriétaire dans le mois…' — उसे नोटिस मिलने के एक महीने के अंदर मालिक को लिखित जवाब देना होगा।"
+                },
+                "kind": "literal",
+                "evidence": "Il doit répondre par écrit au propriétaire dans le mois qui suit la réception de l'avis."
+              },
+              {
+                "q": {
+                  "fr": "Que se passe-t-il si le locataire refuse l'augmentation ?",
+                  "en": "What happens if the tenant refuses the increase?"
+                },
+                "options": [
+                  "Il doit quitter le logement.",
+                  "L'augmentation est appliquée automatiquement.",
+                  "Il garde son logement, et le propriétaire peut aller au tribunal.",
+                  "Le propriétaire doit baisser le loyer."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "Refusing 'ne veut pas dire qu'il perd son logement'; it is then up to the landlord to go to the tribunal.",
+                  "hi": "इनकार करने का मतलब घर खोना नहीं है ('ne veut pas dire qu'il perd son logement'); बढ़ोतरी चाहिए तो मालिक को अदालत जाना होगा।"
+                },
+                "kind": "inference",
+                "evidence": "c'est alors au propriétaire de s'adresser au tribunal s'il veut obtenir la hausse"
+              }
+            ]
+          },
+          {
+            "context": "Reportage radio sur les nouveaux bus de nuit. (Radio report on new night buses.)",
+            "type": "report",
+            "lines": [
+              {
+                "speaker": "Journaliste",
+                "voice": "m2",
+                "fr": "Depuis lundi, les noctambules de Québec ont une nouvelle option pour rentrer chez eux. La société de transport a lancé trois lignes de bus de nuit, qui circulent du jeudi au samedi, de 1 h à 4 h du matin. L'objectif : offrir une solution sûre et économique aux travailleurs de nuit, mais aussi aux jeunes qui sortent le week-end. Nous avons rencontré une passagère."
+              },
+              {
+                "speaker": "Passagère",
+                "voice": "f2",
+                "fr": "Je travaille dans un restaurant, je finis souvent après minuit. Avant, je devais prendre un taxi, et ça me coûtait presque le quart de mes pourboires. Là, avec ma carte mensuelle, c'est inclus. Ça change ma vie."
+              },
+              {
+                "speaker": "Journaliste",
+                "voice": "m2",
+                "fr": "Le service reste toutefois limité. Les bus ne passent que toutes les quarante minutes, et certains quartiers de banlieue ne sont pas encore desservis. La société de transport promet un premier bilan en décembre. Si la fréquentation est bonne, le service pourrait être étendu à toute la semaine dès l'an prochain."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quand circulent les bus de nuit ?",
+                  "en": "When do the night buses run?"
+                },
+                "options": [
+                  "Tous les soirs, de minuit à 5 h.",
+                  "Du jeudi au samedi, de 1 h à 4 h.",
+                  "Seulement le samedi soir.",
+                  "Du lundi au vendredi, après minuit."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "'Trois lignes de bus de nuit, qui circulent du jeudi au samedi, de 1 h à 4 h du matin.'",
+                  "hi": "रात की बसें गुरुवार से शनिवार तक, रात 1 बजे से सुबह 4 बजे तक चलती हैं।"
+                },
+                "kind": "literal",
+                "evidence": "qui circulent du jeudi au samedi, de 1 h à 4 h du matin"
+              },
+              {
+                "q": {
+                  "fr": "Pourquoi la passagère est-elle satisfaite ?",
+                  "en": "Why is the passenger satisfied?"
+                },
+                "options": [
+                  "Elle n'a plus besoin de payer un taxi.",
+                  "Elle finit maintenant son travail plus tôt.",
+                  "Les bus passent toutes les dix minutes.",
+                  "Le bus s'arrête devant son restaurant."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "Before, she took a taxi that cost almost a quarter of her tips; now the bus is included in her monthly pass.",
+                  "hi": "पहले उसे टैक्सी लेनी पड़ती थी जिसमें उसकी टिप का लगभग चौथाई हिस्सा चला जाता था; अब बस उसके मासिक कार्ड में शामिल है।"
+                },
+                "kind": "inference",
+                "evidence": "Avant, je devais prendre un taxi"
+              },
+              {
+                "q": {
+                  "fr": "À quelle condition le service pourrait-il être étendu ?",
+                  "en": "On what condition could the service be extended?"
+                },
+                "options": [
+                  "Si les quartiers de banlieue le demandent.",
+                  "Si les taxis acceptent.",
+                  "Si le bilan de décembre est négatif.",
+                  "Si les bus sont assez utilisés."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "'Si la fréquentation est bonne' — if ridership is good, the service could run all week.",
+                  "hi": "'Si la fréquentation est bonne' — अगर यात्री अच्छी संख्या में आएँ, तो सेवा पूरे हफ़्ते चल सकती है।"
+                },
+                "kind": "inference",
+                "evidence": "Si la fréquentation est bonne, le service pourrait être étendu à toute la semaine"
+              }
+            ]
+          },
+          {
+            "context": "Entrevue radio : un café-réparation à Gatineau. (Radio interview: a repair café in Gatineau.)",
+            "type": "interview",
+            "lines": [
+              {
+                "speaker": "Animateur",
+                "voice": "m1",
+                "fr": "Dans notre série sur l'économie de quartier, nous recevons aujourd'hui Sophie Nguyen, qui a fondé un café-réparation à Gatineau. Sophie, de quoi s'agit-il exactement ?"
+              },
+              {
+                "speaker": "Sophie Nguyen",
+                "voice": "f1",
+                "fr": "C'est un lieu où les gens apportent des objets brisés, un grille-pain, une lampe, un vêtement déchiré, et où des bénévoles les aident à les réparer. L'idée, ce n'est pas qu'on répare à leur place. On répare avec eux, pour qu'ils apprennent."
+              },
+              {
+                "speaker": "Animateur",
+                "voice": "m1",
+                "fr": "Et c'est gratuit ?"
+              },
+              {
+                "speaker": "Sophie Nguyen",
+                "voice": "f1",
+                "fr": "Oui. On demande seulement une contribution volontaire pour payer le loyer de la salle. Les pièces de rechange, par contre, sont à la charge des participants."
+              },
+              {
+                "speaker": "Animateur",
+                "voice": "m1",
+                "fr": "Pourquoi avoir lancé ce projet ?"
+              },
+              {
+                "speaker": "Sophie Nguyen",
+                "voice": "f1",
+                "fr": "Parce que j'étais frustrée de voir des appareils presque neufs finir à la poubelle. Souvent, il suffit de changer un fusible ou une courroie. Mais les fabricants ne nous facilitent pas la tâche : certaines vis sont spéciales, et les pièces sont introuvables, ou plus chères que l'appareil lui-même. C'est pour ça qu'on défend le droit à la réparation."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Quel est le principe du café-réparation ?",
+                  "en": "What is the principle of the repair café?"
+                },
+                "options": [
+                  "Des techniciens réparent les objets à la place des clients.",
+                  "On y vend des appareils d'occasion.",
+                  "Les participants réparent leurs objets avec l'aide de bénévoles.",
+                  "On y échange des objets brisés contre des objets neufs."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "'On répare avec eux, pour qu'ils apprennent' — volunteers repair together with people, not for them.",
+                  "hi": "'On répare avec eux, pour qu'ils apprennent' — स्वयंसेवक लोगों के साथ मिलकर मरम्मत करते हैं ताकि वे सीखें, उनकी जगह नहीं।"
+                },
+                "kind": "gist",
+                "evidence": "On répare avec eux, pour qu'ils apprennent."
+              },
+              {
+                "q": {
+                  "fr": "Qu'est-ce que les participants doivent payer ?",
+                  "en": "What do participants have to pay for?"
+                },
+                "options": [
+                  "Le loyer de la salle.",
+                  "Les pièces de rechange.",
+                  "Une inscription annuelle.",
+                  "Le travail des bénévoles."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "The room is paid by voluntary contributions, but 'les pièces de rechange … sont à la charge des participants'.",
+                  "hi": "हॉल का किराया स्वैच्छिक योगदान से चलता है, पर 'les pièces de rechange' (बदलने वाले पुर्ज़े) का ख़र्च प्रतिभागियों को देना होता है।"
+                },
+                "kind": "literal",
+                "evidence": "Les pièces de rechange, par contre, sont à la charge des participants."
+              },
+              {
+                "q": {
+                  "fr": "Selon Sophie Nguyen, qu'est-ce qui complique la réparation ?",
+                  "en": "According to Sophie Nguyen, what makes repairing difficult?"
+                },
+                "options": [
+                  "Le manque de bénévoles.",
+                  "Le prix du loyer de la salle.",
+                  "Le manque d'intérêt du public.",
+                  "Les choix des fabricants."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "She says 'les fabricants ne nous facilitent pas la tâche': special screws, parts that cannot be found or cost more than the device.",
+                  "hi": "वह कहती है कि निर्माता काम आसान नहीं करते: ख़ास तरह के पेंच, और पुर्ज़े या तो मिलते नहीं या उपकरण से भी महँगे होते हैं।"
+                },
+                "kind": "inference",
+                "evidence": "les fabricants ne nous facilitent pas la tâche"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "everyday",
+        "title": "Documents de la vie quotidienne",
+        "instruction": "Écoutez les documents (de difficulté croissante) et répondez. Aucun retour en arrière n'est possible. — Listen to the documents (increasing difficulty) and answer. You cannot go back.",
+        "items": [
+          {
+            "context": "Au restaurant. (At a restaurant.)",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Serveur",
+                "voice": "m1",
+                "fr": "Vous avez choisi ?"
+              },
+              {
+                "speaker": "Cliente",
+                "voice": "f2",
+                "fr": "Oui, je vais prendre le poulet au beurre. Mais attention, je suis allergique aux fruits à coque. Est-ce qu'il y en a dans la sauce ?"
+              },
+              {
+                "speaker": "Serveur",
+                "voice": "m1",
+                "fr": "Il y a de la poudre d'amande, oui. Je peux vous proposer le cari de légumes, il n'en contient pas."
+              },
+              {
+                "speaker": "Cliente",
+                "voice": "f2",
+                "fr": "Bon, va pour le cari, alors. Et un verre d'eau, s'il vous plaît."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Que commande finalement la cliente ?",
+                  "en": "What does the customer finally order?"
+                },
+                "options": [
+                  "Le poulet au beurre sans sauce.",
+                  "Un plat aux amandes.",
+                  "Le cari de légumes.",
+                  "Seulement un verre d'eau."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "The butter chicken sauce contains almond powder, so she says 'va pour le cari' — she takes the vegetable curry (plus water).",
+                  "hi": "बटर चिकन की सॉस में बादाम का पाउडर है, इसलिए वह कहती है 'va pour le cari' — वह सब्ज़ी करी लेती है (और पानी)।"
+                },
+                "kind": "literal",
+                "evidence": "Bon, va pour le cari, alors."
+              }
+            ]
+          },
+          {
+            "context": "Appel au service à la clientèle d'un fournisseur Internet. (Call to an Internet provider's customer service.)",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Agente",
+                "voice": "f1",
+                "fr": "Service à la clientèle, Mélanie à l'appareil. Comment puis-je vous aider ?"
+              },
+              {
+                "speaker": "Client",
+                "voice": "m2",
+                "fr": "Bonjour. Je viens de recevoir ma facture Internet, et elle est de 95 dollars au lieu de 60. Je ne comprends pas."
+              },
+              {
+                "speaker": "Agente",
+                "voice": "f1",
+                "fr": "Je regarde votre dossier… Effectivement, votre rabais promotionnel de douze mois s'est terminé le mois dernier. Vous payez maintenant le tarif régulier."
+              },
+              {
+                "speaker": "Client",
+                "voice": "m2",
+                "fr": "Personne ne m'a prévenu ! Si c'est comme ça, je vais changer de fournisseur."
+              },
+              {
+                "speaker": "Agente",
+                "voice": "f1",
+                "fr": "Attendez, je peux vous offrir un nouveau rabais de 20 dollars par mois si vous vous engagez pour deux ans."
+              },
+              {
+                "speaker": "Client",
+                "voice": "m2",
+                "fr": "Deux ans ? Hum… Je vais y réfléchir. Envoyez-moi l'offre par courriel, s'il vous plaît."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Pourquoi la facture du client a-t-elle augmenté ?",
+                  "en": "Why has the customer's bill gone up?"
+                },
+                "options": [
+                  "Sa promotion est terminée.",
+                  "Il a utilisé trop de données.",
+                  "Il a changé de forfait.",
+                  "Il y a eu une erreur de facturation."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "'Votre rabais promotionnel de douze mois s'est terminé le mois dernier' — his promotional discount has ended.",
+                  "hi": "'votre rabais promotionnel de douze mois s'est terminé' — उसकी बारह महीने की प्रमोशनल छूट पिछले महीने ख़त्म हो गई।"
+                },
+                "kind": "literal",
+                "evidence": "votre rabais promotionnel de douze mois s'est terminé le mois dernier"
+              },
+              {
+                "q": {
+                  "fr": "Comment se termine la conversation ?",
+                  "en": "How does the conversation end?"
+                },
+                "options": [
+                  "Le client accepte l'engagement de deux ans.",
+                  "Le client résilie son contrat.",
+                  "Le client veut recevoir l'offre par écrit avant de décider.",
+                  "L'agente annule l'augmentation."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "He says 'Je vais y réfléchir. Envoyez-moi l'offre par courriel' — he wants to think and get the offer by email.",
+                  "hi": "वह कहता है 'Je vais y réfléchir. Envoyez-moi l'offre par courriel' — वह सोचना चाहता है और ऑफ़र ईमेल पर माँगता है।"
+                },
+                "kind": "inference",
+                "evidence": "Je vais y réfléchir. Envoyez-moi l'offre par courriel"
+              }
+            ]
+          },
+          {
+            "context": "Deux collègues au travail. (Two colleagues at work.)",
+            "type": "conversation",
+            "lines": [
+              {
+                "speaker": "Nadia",
+                "voice": "f2",
+                "fr": "Dis, Thomas, tu pourrais me remplacer samedi matin ? Ma fille a un tournoi de hockey à Sherbrooke."
+              },
+              {
+                "speaker": "Thomas",
+                "voice": "m1",
+                "fr": "Samedi matin… J'ai promis d'aider mon frère à déménager. Mais je peux faire l'après-midi, si ça t'arrange."
+              },
+              {
+                "speaker": "Nadia",
+                "voice": "f2",
+                "fr": "Le tournoi dure toute la journée, malheureusement. Bon, je vais demander à Karine."
+              },
+              {
+                "speaker": "Thomas",
+                "voice": "m1",
+                "fr": "Attends, essaie plutôt Julien. Karine travaille déjà dimanche, et la gérante n'aime pas qu'on fasse six jours de suite."
+              },
+              {
+                "speaker": "Nadia",
+                "voice": "f2",
+                "fr": "Ah oui, c'est vrai. Merci pour le conseil !"
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Pourquoi Thomas ne peut-il pas remplacer Nadia samedi matin ?",
+                  "en": "Why can't Thomas replace Nadia on Saturday morning?"
+                },
+                "options": [
+                  "Il travaille déjà ce matin-là.",
+                  "Il va à un tournoi de hockey.",
+                  "Il doit garder sa fille.",
+                  "Il aide son frère à déménager."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "'J'ai promis d'aider mon frère à déménager.'",
+                  "hi": "'J'ai promis d'aider mon frère à déménager' — उसने अपने भाई को घर बदलने (सामान शिफ़्ट करने) में मदद का वादा किया है।"
+                },
+                "kind": "literal",
+                "evidence": "J'ai promis d'aider mon frère à déménager."
+              },
+              {
+                "q": {
+                  "fr": "Pourquoi Thomas conseille-t-il de demander à Julien plutôt qu'à Karine ?",
+                  "en": "Why does Thomas advise asking Julien rather than Karine?"
+                },
+                "options": [
+                  "Julien connaît mieux le travail du samedi.",
+                  "Karine travaillerait trop de jours d'affilée.",
+                  "Karine est en vacances.",
+                  "La gérante préfère Julien."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "Karine already works on Sunday, and the manager does not like staff working 'six jours de suite' (six days in a row).",
+                  "hi": "करीन रविवार को पहले से काम कर रही है, और मैनेजर को पसंद नहीं कि कोई 'six jours de suite' (लगातार छह दिन) काम करे।"
+                },
+                "kind": "inference",
+                "evidence": "la gérante n'aime pas qu'on fasse six jours de suite"
+              }
+            ]
+          },
+          {
+            "context": "Chronique radio sur la consommation. (Radio consumer-advice segment.)",
+            "type": "radio",
+            "lines": [
+              {
+                "speaker": "Chroniqueuse",
+                "voice": "f1",
+                "fr": "Bonjour à tous. Aujourd'hui, parlons des abonnements. Musique, films, jeux, livraison de repas, applications de sport : beaucoup de ménages en paient plusieurs chaque mois, souvent sans s'en rendre compte. Le piège, ce sont les essais gratuits. On s'inscrit pour un mois, on donne son numéro de carte, et on oublie d'annuler. Résultat : on paie pendant des mois un service qu'on n'utilise plus."
+              },
+              {
+                "speaker": "Chroniqueuse",
+                "voice": "f1",
+                "fr": "Mon conseil est simple. Une fois par trimestre, prenez votre relevé bancaire et surlignez chaque paiement récurrent. Pour chacun, posez-vous une seule question : est-ce que je l'ai utilisé le mois dernier ? Si la réponse est non, annulez. Vous pourrez toujours vous réabonner plus tard. Et au moment de vous inscrire à un essai gratuit, notez tout de suite dans votre agenda une alerte deux jours avant la fin de l'essai."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Selon la chroniqueuse, quel est le principal piège ?",
+                  "en": "According to the columnist, what is the main trap?"
+                },
+                "options": [
+                  "Les essais gratuits qu'on oublie d'annuler.",
+                  "Les prix trop élevés des abonnements.",
+                  "Les applications de sport.",
+                  "Les paiements en argent comptant."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "'Le piège, ce sont les essais gratuits … et on oublie d'annuler.'",
+                  "hi": "'Le piège, ce sont les essais gratuits' — असली जाल मुफ़्त ट्रायल हैं, जिन्हें लोग रद्द करना भूल जाते हैं।"
+                },
+                "kind": "literal",
+                "evidence": "Le piège, ce sont les essais gratuits."
+              },
+              {
+                "q": {
+                  "fr": "Que conseille-t-elle de faire tous les trois mois ?",
+                  "en": "What does she advise doing every three months?"
+                },
+                "options": [
+                  "Changer de banque.",
+                  "Se réabonner à tous ses services.",
+                  "Annuler tous ses abonnements.",
+                  "Vérifier les paiements réguliers sur son relevé bancaire."
+                ],
+                "answer": 3,
+                "explanation": {
+                  "en": "'Une fois par trimestre' (once a quarter = every three months), go through your bank statement and highlight every recurring payment.",
+                  "hi": "'Une fois par trimestre' — हर तीन महीने में अपना बैंक स्टेटमेंट देखिए और हर नियमित भुगतान पर निशान लगाइए। सब कुछ रद्द नहीं करना, सिर्फ़ जो इस्तेमाल न हुआ हो।"
+                },
+                "kind": "vocabulary",
+                "evidence": "Une fois par trimestre, prenez votre relevé bancaire et surlignez chaque paiement récurrent."
+              }
+            ]
+          },
+          {
+            "context": "Débat radio : faut-il un péage urbain ? (Radio debate: should there be a congestion charge?)",
+            "type": "radio",
+            "lines": [
+              {
+                "speaker": "Animateur",
+                "voice": "m2",
+                "fr": "Faut-il instaurer un péage pour entrer en voiture au centre-ville ? Nous en débattons avec Claire Fortin, urbaniste, et Patrick Roy, porte-parole d'une association de commerçants. Claire Fortin, vous êtes pour."
+              },
+              {
+                "speaker": "Claire Fortin",
+                "voice": "f1",
+                "fr": "Absolument. Les villes qui l'ont fait, comme Stockholm ou Londres, ont vu la circulation diminuer de façon significative dès la première année. Et ce qui est intéressant, c'est que les recettes ne disparaissent pas dans un trou noir : elles servent à financer le transport collectif. Autrement dit, les automobilistes paient pour améliorer l'option qui leur permettra, à terme, de laisser leur voiture."
+              },
+              {
+                "speaker": "Patrick Roy",
+                "voice": "m1",
+                "fr": "Sur le principe, je ne suis pas contre la réduction de la circulation. Mais on ne peut pas comparer Montréal à Londres. Ici, en dehors du centre, l'offre de transport en commun reste insuffisante. Si vous imposez un péage avant d'avoir amélioré le service, vous punissez les gens qui n'ont pas d'autre choix, et vous poussez les clients vers les centres commerciaux de banlieue, où le stationnement est gratuit."
+              },
+              {
+                "speaker": "Claire Fortin",
+                "voice": "f1",
+                "fr": "Je comprends l'inquiétude, mais à Stockholm aussi, les commerçants craignaient le pire. Or, après quelques mois, la fréquentation des commerces du centre était restée stable."
+              },
+              {
+                "speaker": "Patrick Roy",
+                "voice": "m1",
+                "fr": "Peut-être. Mais je demande simplement qu'on inverse l'ordre : d'abord le métro et les bus, ensuite le péage."
+              }
+            ],
+            "questions": [
+              {
+                "q": {
+                  "fr": "Selon Claire Fortin, à quoi devrait servir l'argent du péage ?",
+                  "en": "According to Claire Fortin, what should toll money be used for?"
+                },
+                "options": [
+                  "À construire des stationnements.",
+                  "À financer le transport collectif.",
+                  "À aider les commerçants du centre.",
+                  "À réduire les impôts des automobilistes."
+                ],
+                "answer": 1,
+                "explanation": {
+                  "en": "'Les recettes … servent à financer le transport collectif' — the revenue funds public transit.",
+                  "hi": "'elles servent à financer le transport collectif' — पैसा सार्वजनिक परिवहन पर ख़र्च होता है।"
+                },
+                "kind": "literal",
+                "evidence": "elles servent à financer le transport collectif"
+              },
+              {
+                "q": {
+                  "fr": "Quelle est la principale crainte de Patrick Roy ?",
+                  "en": "What is Patrick Roy's main fear?"
+                },
+                "options": [
+                  "Que la circulation augmente au centre-ville.",
+                  "Que le péage coûte trop cher à installer.",
+                  "Que le péage pénalise ceux qui n'ont pas d'alternative et fasse fuir les clients.",
+                  "Que Montréal copie trop vite Stockholm."
+                ],
+                "answer": 2,
+                "explanation": {
+                  "en": "He says a toll before better transit would 'punir les gens qui n'ont pas d'autre choix' and push customers to suburban malls with free parking.",
+                  "hi": "उसे डर है कि बेहतर परिवहन से पहले टोल लगाने से उन लोगों को सज़ा मिलेगी जिनके पास और कोई रास्ता नहीं, और ग्राहक मुफ़्त पार्किंग वाले उपनगरीय मॉल की ओर चले जाएँगे।"
+                },
+                "kind": "inference",
+                "evidence": "vous punissez les gens qui n'ont pas d'autre choix"
+              },
+              {
+                "q": {
+                  "fr": "Sur quoi porte finalement le désaccord entre les deux invités ?",
+                  "en": "What is the two guests' disagreement finally about?"
+                },
+                "options": [
+                  "Sur l'ordre des mesures à prendre.",
+                  "Sur la nécessité de réduire la circulation.",
+                  "Sur les résultats obtenus à Londres.",
+                  "Sur le prix du stationnement en banlieue."
+                ],
+                "answer": 0,
+                "explanation": {
+                  "en": "Patrick Roy is not against reducing traffic 'sur le principe'; he only asks to reverse the order: first better metro and buses, then the toll.",
+                  "hi": "पैट्रिक 'sur le principe' (सिद्धांत रूप में) ट्रैफ़िक घटाने के ख़िलाफ़ नहीं है; वह बस क्रम उलटना चाहता है: पहले मेट्रो और बसें, फिर टोल।"
+                },
+                "kind": "inference",
+                "evidence": "je demande simplement qu'on inverse l'ordre"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "a": {
+      "articleStart": "Un drôle de passager a semé la surprise, mardi matin, dans un autobus de la ligne 80, à Montréal. Vers 7 h 30, en pleine heure de pointe, un raton laveur est monté à bord à un arrêt de l'avenue du Parc, profitant de l'ouverture des portes. Les passagers, d'abord amusés, ont vite reculé lorsque l'animal s'est installé sous un siège. Le chauffeur a aussitôt immobilisé le véhicule et demandé à tout le monde de descendre.",
+      "instruction": {
+        "en": "Continue this news-in-brief article (fait divers). Write at least 80 words. Explain what happened next and how the story ended, in a neutral journalistic style: use past tenses (passé composé and imparfait), give precise details (times, people involved, reactions) and finish with a concluding sentence.",
+        "hi": "इस छोटी ख़बर (fait divers) को आगे बढ़ाइए। कम से कम 80 शब्द लिखिए। बताइए कि आगे क्या हुआ और कहानी कैसे ख़त्म हुई — तटस्थ पत्रकारी शैली में। भूतकाल (passé composé और imparfait) का प्रयोग कीजिए, ठोस जानकारी दीजिए (समय, कौन-कौन शामिल थे, लोगों की प्रतिक्रिया) और एक समापन वाक्य के साथ ख़त्म कीजिए।"
+      },
+      "minWords": 80
+    },
+    "b": {
+      "statement": "« Dans les grandes villes, la voiture individuelle n'a plus sa place : il faudrait tout simplement l'interdire au centre-ville. »",
+      "instruction": {
+        "en": "You read this sentence in a newspaper. Write a letter to the newspaper (at least 200 words) in which you give your opinion on it. Clearly state whether you agree or disagree, and justify your view with at least three developed arguments, using examples. Use a letter format (greeting, paragraphs, closing formula) and connectors such as d'abord, de plus, en revanche, enfin.",
+        "hi": "आपने अख़बार में यह वाक्य पढ़ा। अख़बार को एक पत्र लिखिए (कम से कम 200 शब्द) जिसमें इस पर अपनी राय दीजिए। साफ़ बताइए कि आप सहमत हैं या असहमत, और कम से कम तीन विस्तृत तर्कों और उदाहरणों से अपनी राय को सही ठहराइए। पत्र का ढाँचा रखिए (संबोधन, अनुच्छेद, समापन वाक्य) और d'abord, de plus, en revanche, enfin जैसे जोड़ने वाले शब्द इस्तेमाल कीजिए।"
+      },
+      "minWords": 200
+    }
+  },
+  "speaking": {
+    "a": {
+      "document": "OFFRE D'EMPLOI\n\nAgent(e) de service à la clientèle bilingue\nEntreprise de livraison en pleine croissance — Laval\n\n• Poste à temps plein ou à temps partiel\n• Français et anglais exigés\n• Formation payée offerte\n• Salaire concurrentiel + avantages sociaux\n• Entrée en fonction : rapidement\n\nVous aimez aider les gens et résoudre des problèmes ? Appelez Marie-Ève au 450 555-0198.",
+      "instruction": {
+        "en": "You have seen this job advertisement and you are interested. Phone the company to get more information. Ask about ten questions to find out the details that are missing from the ad (about 5 minutes). The examiner plays Marie-Ève. Use the polite 'vous' form.",
+        "hi": "आपने यह नौकरी का विज्ञापन देखा है और आपको इसमें रुचि है। ज़्यादा जानकारी के लिए कंपनी को फ़ोन कीजिए। विज्ञापन में जो बातें नहीं लिखी हैं, उन्हें जानने के लिए लगभग दस सवाल पूछिए (लगभग 5 मिनट)। परीक्षक मारी-ऐव की भूमिका निभाएँगे। शिष्ट 'vous' रूप का प्रयोग कीजिए।"
+      },
+      "partnerFacts": [
+        "Le poste consiste à répondre aux appels, aux courriels et au clavardage des clients qui attendent un colis.",
+        "Temps plein : 37,5 heures par semaine, du lundi au vendredi, de 8 h 30 à 17 h.",
+        "Temps partiel : de 20 à 25 heures par semaine, surtout le soir de 17 h à 21 h et le samedi.",
+        "Salaire de départ : 21 $ l'heure, 22,50 $ après la période d'essai.",
+        "Période d'essai de trois mois.",
+        "Formation payée de deux semaines, en présentiel, avant de commencer.",
+        "Avantages sociaux après trois mois : assurance médicaments et dentaire, trois semaines de vacances par an.",
+        "Télétravail possible deux jours par semaine après la formation.",
+        "Les bureaux sont à Laval, à dix minutes à pied de la station de métro Montmorency ; stationnement gratuit pour les employés.",
+        "Il faut un diplôme d'études secondaires ; une expérience en service à la clientèle est un atout, mais pas obligatoire.",
+        "Un test de langue en français et en anglais (15 minutes, par téléphone) fait partie du processus.",
+        "Envoyer le CV à emplois@livraison-exemple.ca avant le 30 du mois.",
+        "Les entrevues ont lieu la semaine suivante ; début de l'emploi le premier lundi du mois prochain."
+      ]
+    },
+    "b": {
+      "document": "PARTAGEZ LA ROUTE — AUTOPARTAGE DE QUARTIER\n\nPlus besoin d'avoir une voiture à vous !\n\n• Plus de 40 véhicules (dont 15 électriques) stationnés dans le quartier, accessibles 24 h sur 24\n• Réservation en quelques secondes avec l'application\n• Essence, assurance et entretien compris\n• Abonnement : 12 $ par mois, puis 9 $ de l'heure ou 55 $ la journée\n• Offre de lancement : premier mois gratuit et 2 heures de conduite offertes\n\nInscription en ligne avec votre permis de conduire. Membre dès 21 ans.",
+      "instruction": {
+        "en": "You saw this advertisement for a neighbourhood car-sharing service. A friend who is thinking of buying a car hesitates to join. Present the service to your friend and try to convince them to sign up (about 10 minutes). Answer each objection with arguments and examples. The examiner plays your friend. Use 'tu'.",
+        "hi": "आपने मोहल्ले की कार-शेयरिंग सेवा का यह विज्ञापन देखा है। आपका एक दोस्त कार ख़रीदने की सोच रहा है और इस सेवा से जुड़ने में हिचकिचा रहा है। उसे यह सेवा समझाइए और सदस्य बनने के लिए मनाइए (लगभग 10 मिनट)। उसकी हर आपत्ति का जवाब तर्कों और उदाहरणों से दीजिए। परीक्षक आपके दोस्त की भूमिका निभाएँगे। 'tu' का प्रयोग कीजिए।"
+      },
+      "partnerObjections": [
+        "Je préfère avoir ma propre voiture : je peux partir quand je veux.",
+        "Et si aucune voiture n'est disponible quand j'en ai besoin, par exemple le vendredi soir ?",
+        "9 $ de l'heure, c'est cher ! Pour un week-end au chalet, je vais payer une fortune.",
+        "Je n'aime pas conduire une voiture que d'autres personnes ont utilisée : elles sont sûrement sales.",
+        "Les voitures électriques, je ne sais pas les conduire, et j'ai peur de tomber en panne de batterie.",
+        "Avec deux enfants, j'ai besoin de sièges d'auto : je ne vais pas les transporter à chaque fois.",
+        "En cas d'accident, qui paie ? Je n'ai pas envie d'avoir des problèmes avec l'assurance.",
+        "L'hiver, je ne veux pas déneiger une voiture qui n'est même pas à moi.",
+        "Le premier mois est gratuit, mais après, ils vont sûrement augmenter les prix."
+      ]
+    }
+  }
+}

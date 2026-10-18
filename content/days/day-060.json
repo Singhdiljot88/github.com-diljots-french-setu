@@ -1,0 +1,1053 @@
+{
+  "day": 60,
+  "phase": 3,
+  "title": {
+    "fr": "Bilan 3 : communiquer de façon suivie",
+    "en": "Checkpoint 3: connected communication",
+    "hi": "पड़ाव 3: जुड़ा हुआ संवाद"
+  },
+  "objective": {
+    "en": "Show what you can do after Phase 3: follow and tell a life story across past, present and future, link your ideas, replace nouns with pronouns, use negations and ask polite questions. Today's test covers Days 41–59.",
+    "hi": "चरण 3 के बाद आप क्या कर सकते हैं, यह दिखाना: अतीत, वर्तमान और भविष्य में फैली किसी जीवन-कहानी को समझना और सुनाना, अपने विचार जोड़ना, संज्ञाओं की जगह सर्वनाम लगाना, निषेध इस्तेमाल करना और विनम्र प्रश्न पूछना। आज की परीक्षा दिन 41–59 को समेटती है।"
+  },
+  "prerequisites": {
+    "days": [
+      41,
+      44,
+      45,
+      47,
+      48,
+      50,
+      53,
+      54,
+      57,
+      58,
+      59
+    ],
+    "summary": {
+      "en": "Everything from Phase 3: the passé composé with avoir and être (Days 41–44), time expressions (Day 45), the imparfait and how it differs from the passé composé (Days 46–47), the futur simple (Day 48), comparisons (Day 50), object pronouns, y and en (Days 51–53), sequencing (Day 54), plans (Day 55), negations (Day 57), imperatives with pronouns (Day 58) and questions (Day 59).",
+      "hi": "चरण 3 की हर चीज़: avoir और être के साथ पासे कॉम्पोज़े (दिन 41–44), समय-सूचक (दिन 45), इम्पारफ़े और पासे कॉम्पोज़े से इसका फ़र्क़ (दिन 46–47), फ़्यूतूर सैंप्ल (दिन 48), तुलना (दिन 50), कर्म सर्वनाम, y और en (दिन 51–53), क्रम (दिन 54), योजनाएँ (दिन 55), निषेध (दिन 57), सर्वनाम वाला आज्ञार्थ (दिन 58) और प्रश्न (दिन 59)।"
+    }
+  },
+  "light": false,
+  "checkpoint": true,
+  "vocabulary": [
+    {
+      "fr": "le parcours",
+      "en": "path, journey (in life or career)",
+      "hi": "सफ़र, जीवन-यात्रा",
+      "pron": "लö पाग़-कूग़",
+      "ipa": "lə paʁkuʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "parcours",
+      "note": {
+        "en": "Un parcours professionnel = a career path.",
+        "hi": "Un parcours professionnel = पेशेवर सफ़र।"
+      }
+    },
+    {
+      "fr": "une étape",
+      "en": "a stage, a step",
+      "hi": "पड़ाव, चरण",
+      "pron": "ü ने-ताप",
+      "ipa": "yn etap",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "étape"
+    },
+    {
+      "fr": "un tournant",
+      "en": "a turning point",
+      "hi": "मोड़ (जीवन का)",
+      "pron": "ऐँ तूग़-नाँ",
+      "ipa": "ɛ̃ tuʁnɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "tournant",
+      "note": {
+        "en": "Ce jour-là a été un tournant dans ma vie.",
+        "hi": "Ce jour-là a été un tournant dans ma vie = वह दिन मेरी ज़िंदगी का एक मोड़ था।"
+      }
+    },
+    {
+      "fr": "quitter",
+      "en": "to leave (a place, a job, a person)",
+      "hi": "छोड़ना",
+      "pron": "की-ते",
+      "ipa": "kite",
+      "pos": "verb",
+      "note": {
+        "en": "quitter always takes a direct object: J'ai quitté l'Inde en 2016. Compare partir (no object): Je suis parti(e).",
+        "hi": "quitter के साथ हमेशा प्रत्यक्ष कर्म आता है: J'ai quitté l'Inde en 2016। तुलना कीजिए partir (बिना कर्म): Je suis parti(e)।"
+      }
+    },
+    {
+      "fr": "s'installer",
+      "en": "to settle (in a place)",
+      "hi": "बस जाना",
+      "pron": "सैँ-स्ता-ले",
+      "ipa": "sɛ̃stale",
+      "pos": "verb",
+      "note": {
+        "en": "Nous nous sommes installés à Gatineau = we settled in Gatineau.",
+        "hi": "Nous nous sommes installés à Gatineau = हम गैटिनो में बस गए।"
+      }
+    },
+    {
+      "fr": "réussir",
+      "en": "to succeed; to pass (an exam)",
+      "hi": "सफल होना; पास होना",
+      "pron": "ग़े-ü-सीग़",
+      "ipa": "ʁeysiʁ",
+      "pos": "verb"
+    },
+    {
+      "fr": "fier",
+      "en": "proud",
+      "hi": "गर्वित",
+      "pron": "फ़्यैग़",
+      "ipa": "fjɛʁ",
+      "pos": "adjective",
+      "note": {
+        "en": "Feminine: fière. Je suis fière de mon parcours.",
+        "hi": "स्त्रीलिंग: fière। Je suis fière de mon parcours = मुझे अपने सफ़र पर गर्व है।"
+      }
+    },
+    {
+      "fr": "un souvenir",
+      "en": "a memory",
+      "hi": "याद",
+      "pron": "ऐँ सू-व्नीग़",
+      "ipa": "ɛ̃ suvniʁ",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "souvenir"
+    },
+    {
+      "fr": "au début",
+      "en": "at first, in the beginning",
+      "hi": "शुरू में",
+      "pron": "ओ दे-बü",
+      "ipa": "o deby",
+      "pos": "phrase"
+    },
+    {
+      "fr": "grâce à",
+      "en": "thanks to",
+      "hi": "की बदौलत",
+      "pron": "ग्ग़ास आ",
+      "ipa": "ɡʁas a",
+      "pos": "preposition",
+      "note": {
+        "en": "Used for good results: grâce à mes voisins. For bad ones, use à cause de.",
+        "hi": "अच्छे नतीजों के लिए: grâce à mes voisins। बुरे नतीजों के लिए à cause de।"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Je suis né(e) à …",
+      "en": "I was born in …",
+      "hi": "मेरा जन्म … में हुआ",
+      "pron": "झ़ö सüई ने आ"
+    },
+    {
+      "fr": "Quand j'étais petit(e), …",
+      "en": "When I was little, …",
+      "hi": "जब मैं छोटा/छोटी था/थी, …",
+      "pron": "काँ झ़े-तै प्ती (प्तीत)"
+    },
+    {
+      "fr": "Ça a été un tournant.",
+      "en": "It was a turning point.",
+      "hi": "वह एक मोड़ था।",
+      "pron": "सा आ ए-ते ऐँ तूग़-नाँ"
+    },
+    {
+      "fr": "Je vis ici depuis huit ans.",
+      "en": "I've been living here for eight years.",
+      "hi": "मैं आठ साल से यहाँ रह रहा/रही हूँ।",
+      "pron": "झ़ö वी ई-सी दö-प्üई üई ताँ"
+    },
+    {
+      "fr": "Je suis fier (fière) de mon parcours.",
+      "en": "I'm proud of my journey.",
+      "hi": "मुझे अपने सफ़र पर गर्व है।",
+      "pron": "झ़ö सüई फ़्यैग़ दö मोँ पाग़-कूग़"
+    },
+    {
+      "fr": "Un jour, j'espère …",
+      "en": "One day, I hope to …",
+      "hi": "एक दिन, मुझे उम्मीद है कि …",
+      "pron": "ऐँ झ़ूग़ झ़ेस-पैग़"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Checkpoint review: the life-story toolkit",
+      "hi": "पड़ाव दोहराई: जीवन-कहानी का औज़ार-बक्सा"
+    },
+    "explanation": {
+      "en": "A life story uses all of Phase 3. Background and habits in the past → imparfait: Quand j'étais petite, je passais mes journées dans la cuisine. Events, steps → passé composé, with être for movement and change (agreement!): En 2016, nous sommes arrivés à Montréal. J'ai suivi des cours. When → il y a, pendant, depuis: Il y a quatre ans, j'ai ouvert ma boutique. J'ai étudié pendant deux ans. J'habite ici depuis huit ans (present). Link the steps: d'abord, ensuite, après avoir + participle, avant de + infinitive, enfin. Avoid repeating with pronouns: Ma boutique ? Je l'ai ouverte en 2021 (with avoir, the participle agrees with le/la/les placed before it). Mes voisins ? Je leur parlais tous les jours. Montréal ? J'y vis. Say what didn't happen: je ne connaissais personne, je ne comprenais rien. Compare: c'était plus difficile que maintenant. Finish with the future: L'année prochaine, j'ouvrirai … ; j'ai l'intention de … ; j'espère …",
+      "hi": "जीवन-कहानी में पूरा चरण 3 काम आता है। अतीत की पृष्ठभूमि और आदतें → इम्पारफ़े: Quand j'étais petite, je passais mes journées dans la cuisine। घटनाएँ, क़दम → पासे कॉम्पोज़े, गति और बदलाव के लिए être के साथ (मेल!): En 2016, nous sommes arrivés à Montréal। J'ai suivi des cours। कब → il y a, pendant, depuis: Il y a quatre ans, j'ai ouvert ma boutique। J'ai étudié pendant deux ans। J'habite ici depuis huit ans (वर्तमान)। क़दमों को जोड़िए: d'abord, ensuite, après avoir + कृदंत, avant de + मूल क्रिया, enfin। सर्वनामों से दोहराव से बचिए: Ma boutique ? Je l'ai ouverte en 2021 (avoir के साथ, पहले आए le/la/les से कृदंत मेल खाता है)। Mes voisins ? Je leur parlais tous les jours। Montréal ? J'y vis। जो नहीं हुआ वह बताइए: je ne connaissais personne, je ne comprenais rien। तुलना: c'était plus difficile que maintenant। भविष्य से ख़त्म कीजिए: L'année prochaine, j'ouvrirai … ; j'ai l'intention de … ; j'espère …"
+    },
+    "comparison": {
+      "en": "Hindi tells a life story with the same three layers: 'बचपन में मैं माँ की रसोई में रहती थी' (habit → imparfait), '2016 में हम मॉन्ट्रियल आए' (event → passé composé), 'आठ साल से यहाँ रह रही हूँ' (से + present → depuis + present), 'अगले साल दूसरी दुकान खोलूँगी' (future → futur simple). If you can feel the difference between रहती थी and रही in Hindi, you already know when to use the imparfait and the passé composé.",
+      "hi": "हिंदी भी जीवन-कहानी इन्हीं तीन परतों में सुनाती है: 'बचपन में मैं माँ की रसोई में रहती थी' (आदत → इम्पारफ़े), '2016 में हम मॉन्ट्रियल आए' (घटना → पासे कॉम्पोज़े), 'आठ साल से यहाँ रह रही हूँ' (से + वर्तमान → depuis + वर्तमान), 'अगले साल दूसरी दुकान खोलूँगी' (भविष्य → फ़्यूतूर सैंप्ल)। अगर आपको हिंदी में रहती थी और रही का फ़र्क़ महसूस होता है, तो आप पहले से जानते हैं कि इम्पारफ़े और पासे कॉम्पोज़े कब लगाना है।"
+    },
+    "examples": [
+      {
+        "fr": "Quand j'étais petite, je passais mes journées dans la cuisine.",
+        "en": "When I was little, I spent my days in the kitchen.",
+        "hi": "जब मैं छोटी थी, अपने दिन रसोई में बिताती थी।",
+        "pron": "काँ झ़े-तै प्तीत झ़ö पा-सै मे झ़ूग़-ने दाँ ला कü-ई-ज़ीन"
+      },
+      {
+        "fr": "En 2016, nous sommes arrivés à Montréal.",
+        "en": "In 2016, we arrived in Montréal.",
+        "hi": "2016 में हम मॉन्ट्रियल पहुँचे।",
+        "pron": "आँ दö मील सैज़ नू सोम ज़ा-ग़ी-वे आ मोँ-ग़े-आल"
+      },
+      {
+        "fr": "Il y a quatre ans, j'ai ouvert ma boutique.",
+        "en": "Four years ago, I opened my shop.",
+        "hi": "चार साल पहले मैंने अपनी दुकान खोली।",
+        "pron": "ई-ल्या कात्ग़ आँ झ़े ऊ-वैग़ मा बू-तीक"
+      },
+      {
+        "fr": "Au début, je ne connaissais personne.",
+        "en": "At first, I didn't know anybody.",
+        "hi": "शुरू में मैं किसी को नहीं जानती थी।",
+        "pron": "ओ दे-बü झ़ö नö को-नै-सै पैग़-सॉन"
+      },
+      {
+        "fr": "Après avoir suivi des cours, j'ai trouvé un emploi.",
+        "en": "After taking classes, I found a job.",
+        "hi": "कक्षाएँ लेने के बाद मुझे नौकरी मिली।",
+        "pron": "आ-प्रै ज़ा-व्वाग़ सüई-वी दे कूग़ झ़े त्रू-वे ऐँ नाँ-प्ल्वा"
+      },
+      {
+        "fr": "L'année prochaine, j'ouvrirai une deuxième boutique.",
+        "en": "Next year I'll open a second shop.",
+        "hi": "अगले साल मैं दूसरी दुकान खोलूँगी।",
+        "pron": "ला-ने प्रो-शैन झ़ू-व्री-ग़े üन दö-ज़्यैम बू-तीक"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Don't tell the whole story in the imparfait or the whole story in the passé composé. Ask: background or event?",
+        "hi": "पूरी कहानी इम्पारफ़े में या पूरी पासे कॉम्पोज़े में मत सुनाइए। ख़ुद से पूछिए: पृष्ठभूमि या घटना?"
+      },
+      {
+        "en": "Être verbs agree with the subject: 'Elle est arrivée', 'Nous sommes arrivés'. Avoid 'Elle a arrivé'.",
+        "hi": "être वाली क्रियाएँ कर्ता से मेल खाती हैं: 'Elle est arrivée', 'Nous sommes arrivés'। 'Elle a arrivé' से बचिए।"
+      },
+      {
+        "en": "'Il y a quatre ans' (four years ago) + passé composé, but 'depuis quatre ans' (for four years, still true) + present.",
+        "hi": "'Il y a quatre ans' (चार साल पहले) + पासे कॉम्पोज़े, पर 'depuis quatre ans' (चार साल से, अब भी जारी) + वर्तमान।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Phase 3 sound review",
+    "tip": {
+      "en": "Five sounds from this phase: 1) j'ai parlé (é = ए, past event) vs je parlais (ais = ऐ, habit): the difference is small but real. 2) Liaison after être: ils sont‿arrivés (सोँ ता). 3) /ɥ/ in depuis, huit (üई in one beat). 4) The -t- of inversion: y a-t-il (या-तील). 5) Natural speech: j'sais pas (शे पा). Read each word slowly, then at normal speed.",
+      "hi": "इस चरण की पाँच ध्वनियाँ: 1) j'ai parlé (é = ए, अतीत की घटना) बनाम je parlais (ais = ऐ, आदत): फ़र्क़ छोटा है पर असली है। 2) être के बाद लियाज़ों: ils sont‿arrivés (सोँ ता)। 3) depuis, huit में /ɥ/ (एक झटके में üई)। 4) उलटे क्रम का -t-: y a-t-il (या-तील)। 5) सहज बोली: j'sais pas (शे पा)। हर शब्द पहले धीरे पढ़िए, फिर सामान्य गति से।"
+    },
+    "words": [
+      {
+        "fr": "j'ai parlé",
+        "en": "I spoke",
+        "hi": "मैंने बात की",
+        "pron": "झ़े पाग़-ले",
+        "ipa": "ʒe paʁle"
+      },
+      {
+        "fr": "je parlais",
+        "en": "I used to speak",
+        "hi": "मैं बात करता/करती था/थी",
+        "pron": "झ़ö पाग़-लै",
+        "ipa": "ʒə paʁlɛ"
+      },
+      {
+        "fr": "ils sont arrivés",
+        "en": "they arrived",
+        "hi": "वे पहुँचे",
+        "pron": "ईल सोँ ता-ग़ी-वे",
+        "ipa": "il sɔ̃ taʁive"
+      },
+      {
+        "fr": "depuis huit ans",
+        "en": "for eight years",
+        "hi": "आठ साल से",
+        "pron": "दö-प्üई üई ताँ",
+        "ipa": "dəpɥi ɥi tɑ̃"
+      },
+      {
+        "fr": "y a-t-il",
+        "en": "is there",
+        "hi": "क्या … है",
+        "pron": "या-तील",
+        "ipa": "ja til"
+      },
+      {
+        "fr": "j'sais pas",
+        "en": "dunno",
+        "hi": "पता नहीं",
+        "pron": "शे पा",
+        "ipa": "ʃe pa"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Pooja, de Hyderabad à Montréal",
+      "en": "Pooja, from Hyderabad to Montréal"
+    },
+    "type": "interview",
+    "mode": "natural",
+    "context": {
+      "en": "On a community radio show, a journalist interviews Pooja Reddy, who owns a pastry shop in Montréal, about her life.",
+      "hi": "एक सामुदायिक रेडियो कार्यक्रम में एक पत्रकार मॉन्ट्रियल में पेस्ट्री की दुकान चलाने वाली पूजा रेड्डी से उनकी ज़िंदगी के बारे में बात करता है।"
+    },
+    "lines": [
+      {
+        "speaker": "Journaliste",
+        "voice": "m2",
+        "fr": "Bonjour Pooja, merci d'être avec nous. Vous êtes née où ?",
+        "en": "Hello Pooja, thank you for being with us. Where were you born?",
+        "hi": "नमस्ते पूजा, हमारे साथ होने के लिए धन्यवाद। आपका जन्म कहाँ हुआ?"
+      },
+      {
+        "speaker": "Pooja",
+        "voice": "f1",
+        "fr": "Bonjour ! Je suis née à Hyderabad, en Inde. Quand j'étais petite, je passais tout mon temps dans la cuisine de ma mère.",
+        "en": "Hello! I was born in Hyderabad, in India. When I was little, I spent all my time in my mother's kitchen.",
+        "hi": "नमस्ते! मेरा जन्म भारत में हैदराबाद में हुआ। जब मैं छोटी थी, अपना सारा समय माँ की रसोई में बिताती थी।"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "m2",
+        "fr": "Et pourtant, vous êtes devenue ingénieure, non ?",
+        "en": "And yet you became an engineer, didn't you?",
+        "hi": "और फिर भी आप इंजीनियर बनीं, है ना?"
+      },
+      {
+        "speaker": "Pooja",
+        "voice": "f1",
+        "fr": "Oui ! Mes parents voulaient un métier sûr. Alors j'ai étudié l'informatique et j'ai travaillé cinq ans à Bangalore.",
+        "en": "Yes! My parents wanted a safe career. So I studied computer science and worked for five years in Bangalore.",
+        "hi": "हाँ! मेरे माता-पिता एक सुरक्षित पेशा चाहते थे। इसलिए मैंने कंप्यूटर साइंस पढ़ा और पाँच साल बेंगलुरु में काम किया।"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "m2",
+        "fr": "Pourquoi êtes-vous venue au Canada ?",
+        "en": "Why did you come to Canada?",
+        "hi": "आप कनाडा क्यों आईं?"
+      },
+      {
+        "speaker": "Pooja",
+        "voice": "f1",
+        "fr": "Mon mari a trouvé un poste à Montréal. On est arrivés en janvier 2016, en plein hiver ! Il faisait moins vingt-cinq. Franchement, j'ai rien compris à ce froid !",
+        "en": "My husband found a job in Montréal. We arrived in January 2016, in the middle of winter! It was minus twenty-five. Honestly, I couldn't make sense of that cold!",
+        "hi": "मेरे पति को मॉन्ट्रियल में नौकरी मिली। हम जनवरी 2016 में पहुँचे, कड़ाके की सर्दी के बीच! तापमान माइनस पच्चीस था। सच कहूँ तो उस ठंड का मुझे कुछ समझ नहीं आया!"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "m2",
+        "fr": "Et le français ?",
+        "en": "And French?",
+        "hi": "और फ़्रेंच?"
+      },
+      {
+        "speaker": "Pooja",
+        "voice": "f1",
+        "fr": "Au début, je ne parlais pas un mot. C'était difficile : je ne connaissais personne.",
+        "en": "At first, I didn't speak a word. It was hard: I didn't know anybody.",
+        "hi": "शुरू में मैं एक शब्द नहीं बोलती थी। मुश्किल था: मैं किसी को नहीं जानती थी।"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "m2",
+        "fr": "Comment avez-vous appris ?",
+        "en": "How did you learn?",
+        "hi": "आपने कैसे सीखा?"
+      },
+      {
+        "speaker": "Pooja",
+        "voice": "f1",
+        "fr": "J'ai suivi des cours du soir pendant deux ans. Et chaque samedi, je parlais avec les marchands au marché. Ils étaient très patients avec moi !",
+        "en": "I took evening classes for two years. And every Saturday I talked with the vendors at the market. They were very patient with me!",
+        "hi": "मैंने दो साल शाम की कक्षाएँ लीं। और हर शनिवार मैं बाज़ार में दुकानदारों से बात करती थी। वे मेरे साथ बहुत धैर्य रखते थे!"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "m2",
+        "fr": "Et la pâtisserie, c'est arrivé quand ?",
+        "en": "And the pastry shop, when did that happen?",
+        "hi": "और पेस्ट्री की दुकान, वह कब हुआ?"
+      },
+      {
+        "speaker": "Pooja",
+        "voice": "f1",
+        "fr": "Il y a quatre ans. J'ai perdu mon emploi, et mon mari m'a dit : « C'est le moment, ouvre ta boutique ! » Alors je l'ai ouverte.",
+        "en": "Four years ago. I lost my job, and my husband told me: 'This is the moment, open your shop!' So I opened it.",
+        "hi": "चार साल पहले। मेरी नौकरी चली गई, और मेरे पति ने मुझसे कहा: 'यही मौक़ा है, अपनी दुकान खोलो!' तो मैंने उसे खोल लिया।"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "m2",
+        "fr": "Vous vendez quoi, exactement ?",
+        "en": "What exactly do you sell?",
+        "hi": "आप असल में क्या बेचती हैं?"
+      },
+      {
+        "speaker": "Pooja",
+        "voice": "f1",
+        "fr": "Des desserts indiens avec des produits d'ici. Mon gâteau à l'érable et à la cardamome, c'est le plus populaire !",
+        "en": "Indian desserts made with local products. My maple and cardamom cake is the most popular!",
+        "hi": "यहाँ की चीज़ों से बनी भारतीय मिठाइयाँ। मेरा मेपल और इलायची वाला केक सबसे लोकप्रिय है!"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "m2",
+        "fr": "Et l'avenir ?",
+        "en": "And the future?",
+        "hi": "और भविष्य?"
+      },
+      {
+        "speaker": "Pooja",
+        "voice": "f1",
+        "fr": "L'année prochaine, j'ouvrirai une deuxième boutique à Laval. Et je compte passer l'examen de citoyenneté. J'espère le réussir du premier coup !",
+        "en": "Next year I'll open a second shop in Laval. And I plan to take the citizenship test. I hope to pass it on the first try!",
+        "hi": "अगले साल मैं लावाल में दूसरी दुकान खोलूँगी। और मेरा नागरिकता परीक्षा देने का इरादा है। उम्मीद है कि पहली बार में ही पास हो जाऊँगी!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "What did Pooja love to do as a child?"
+        },
+        "options": [
+          "Play outside with friends",
+          "Spend time in her mother's kitchen",
+          "Study computers",
+          "Visit markets"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'je passais tout mon temps dans la cuisine de ma mère' (imparfait: a habit).",
+          "hi": "'je passais tout mon temps dans la cuisine de ma mère' (इम्पारफ़े: आदत)।"
+        },
+        "kind": "literal",
+        "evidence": "je passais tout mon temps dans la cuisine de ma mère"
+      },
+      {
+        "q": {
+          "en": "Why did Pooja become an engineer?"
+        },
+        "options": [
+          "Her parents wanted a safe career for her",
+          "She hated cooking",
+          "Her husband was an engineer"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Mes parents voulaient un métier sûr.'",
+          "hi": "'Mes parents voulaient un métier sûr.' (मेरे माता-पिता एक सुरक्षित पेशा चाहते थे।)"
+        },
+        "kind": "literal",
+        "evidence": "Mes parents voulaient un métier sûr."
+      },
+      {
+        "q": {
+          "en": "What was Pooja's first impression of Montréal?"
+        },
+        "options": [
+          "The people were cold",
+          "The city was too big",
+          "The winter cold was a shock"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "They arrived 'en plein hiver', it was minus 25, and she says 'j'ai rien compris à ce froid' (casual: je n'ai rien compris).",
+          "hi": "वे 'en plein hiver' (कड़ाके की सर्दी में) पहुँचे, माइनस 25 था, और वह कहती हैं 'j'ai rien compris à ce froid' (बोलचाल: je n'ai rien compris)।"
+        },
+        "kind": "inference",
+        "evidence": "Il faisait moins vingt-cinq. Franchement, j'ai rien compris à ce froid !"
+      },
+      {
+        "q": {
+          "en": "Besides classes, how did Pooja learn French?"
+        },
+        "options": [
+          "By watching TV",
+          "By talking with vendors at the market",
+          "By working in a bakery",
+          "With her husband"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'chaque samedi, je parlais avec les marchands au marché'.",
+          "hi": "'chaque samedi, je parlais avec les marchands au marché' (हर शनिवार मैं बाज़ार में दुकानदारों से बात करती थी)।"
+        },
+        "kind": "literal",
+        "evidence": "chaque samedi, je parlais avec les marchands au marché"
+      },
+      {
+        "q": {
+          "en": "What led Pooja to open her shop?"
+        },
+        "options": [
+          "She won a prize",
+          "Her parents gave her money",
+          "She lost her job and her husband encouraged her"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'J'ai perdu mon emploi, et mon mari m'a dit : « C'est le moment, ouvre ta boutique ! »'",
+          "hi": "'J'ai perdu mon emploi, et mon mari m'a dit : « C'est le moment, ouvre ta boutique ! »' (मेरी नौकरी चली गई, और पति ने कहा: यही मौक़ा है, दुकान खोलो!)"
+        },
+        "kind": "inference",
+        "evidence": "J'ai perdu mon emploi, et mon mari m'a dit : « C'est le moment, ouvre ta boutique ! »"
+      },
+      {
+        "q": {
+          "en": "What are Pooja's two plans?"
+        },
+        "options": [
+          "Open a shop in Laval and take the citizenship test",
+          "Return to India and write a cookbook",
+          "Study engineering again and move to Toronto"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'j'ouvrirai une deuxième boutique à Laval' and 'je compte passer l'examen de citoyenneté'.",
+          "hi": "'j'ouvrirai une deuxième boutique à Laval' (लावाल में दूसरी दुकान खोलूँगी) और 'je compte passer l'examen de citoyenneté' (नागरिकता परीक्षा देने का इरादा है)।"
+        },
+        "kind": "literal",
+        "evidence": "j'ouvrirai une deuxième boutique à Laval. Et je compte passer l'examen de citoyenneté."
+      }
+    ],
+    "dictation": [
+      "Quand j'étais petite, je passais tout mon temps dans la cuisine.",
+      "J'ai suivi des cours du soir pendant deux ans.",
+      "L'année prochaine, j'ouvrirai une deuxième boutique."
+    ],
+    "gapFill": {
+      "text": "Quand j'___ petite, je passais tout mon temps dans la cuisine de ma mère. On est ___ en janvier 2016. J'ai suivi des cours du soir ___ deux ans. L'année prochaine, j'___ une deuxième boutique à Laval.",
+      "answers": [
+        "étais",
+        "arrivés",
+        "pendant",
+        "ouvrirai"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "presentation",
+    "instructions": {
+      "en": "Tell your life story in about 3 minutes, as if you were the guest on Pooja's radio show. Use each prompt as a stage of your story. Mix the imparfait (background) and the passé composé (events), use at least one depuis and one il y a, and finish with two plans for the future.",
+      "hi": "लगभग 3 मिनट में अपनी जीवन-कहानी सुनाइए, जैसे आप पूजा वाले रेडियो कार्यक्रम के मेहमान हों। हर संकेत को अपनी कहानी का एक पड़ाव बनाइए। इम्पारफ़े (पृष्ठभूमि) और पासे कॉम्पोज़े (घटनाएँ) मिलाइए, कम से कम एक depuis और एक il y a इस्तेमाल कीजिए, और भविष्य की दो योजनाओं के साथ ख़त्म कीजिए।"
+    },
+    "prompts": [
+      {
+        "fr": "Vous êtes né(e) où ? Comment était votre enfance ?",
+        "en": "Where were you born? What was your childhood like?",
+        "hi": "आपका जन्म कहाँ हुआ? आपका बचपन कैसा था?",
+        "pron": "वू ज़ै ने ऊ — को-माँ ए-तै वो-त्रा-फ़ाँस",
+        "model": "Je suis né à Ludhiana, au Pendjab. Quand j'étais petit, nous habitions dans une grande maison avec mes grands-parents, et je jouais au cricket tous les soirs."
+      },
+      {
+        "fr": "Qu'est-ce que vous avez étudié ?",
+        "en": "What did you study?",
+        "hi": "आपने क्या पढ़ाई की?",
+        "pron": "कैस-कö वू ज़ा-वे ए-तü-द्ये",
+        "model": "J'ai étudié la comptabilité à Chandigarh. Ensuite, j'ai travaillé trois ans dans une banque."
+      },
+      {
+        "fr": "Pourquoi êtes-vous parti(e) ?",
+        "en": "Why did you leave?",
+        "hi": "आप क्यों निकले/निकलीं?",
+        "pron": "पूग़-क्वा ऐत-वू पाग़-ती",
+        "model": "Je voulais une nouvelle expérience. Mon cousin habitait déjà à Calgary, alors j'ai décidé de le rejoindre."
+      },
+      {
+        "fr": "Comment étaient les premiers mois ?",
+        "en": "What were the first months like?",
+        "hi": "पहले कुछ महीने कैसे थे?",
+        "pron": "को-माँ ए-तै ले प्रö-म्ये म्वा",
+        "model": "Je suis arrivé il y a six ans. Au début, je ne connaissais personne et je ne comprenais rien au système. C'était plus difficile que maintenant."
+      },
+      {
+        "fr": "Et aujourd'hui ?",
+        "en": "And today?",
+        "hi": "और आज?",
+        "pron": "ए ओ-झ़ूग़-दüई",
+        "model": "Aujourd'hui, je travaille comme comptable depuis trois ans. J'apprends le français parce que j'ai l'intention de m'installer à Montréal."
+      },
+      {
+        "fr": "Quels sont vos projets ?",
+        "en": "What are your plans?",
+        "hi": "आपकी योजनाएँ क्या हैं?",
+        "pron": "कैल सोँ वो प्रो-झ़ै",
+        "model": "L'année prochaine, je passerai le TEF. Un jour, j'espère acheter une maison et faire venir mes parents."
+      }
+    ],
+    "tip": {
+      "en": "Give your story a shape: one or two sentences per stage, and a time marker at the start of each one (Quand j'étais petit, En 2018, Il y a six ans, Aujourd'hui, L'année prochaine). The time marker tells the listener, and you, which tense comes next.",
+      "hi": "अपनी कहानी को आकार दीजिए: हर पड़ाव के लिए एक-दो वाक्य, और हर एक की शुरुआत में एक समय-सूचक (Quand j'étais petit, En 2018, Il y a six ans, Aujourd'hui, L'année prochaine)। समय-सूचक सुनने वाले को, और आपको भी, बताता है कि आगे कौन-सा काल आएगा।"
+    }
+  },
+  "reading": {
+    "genre": "article",
+    "title": "Portrait : Manoj Pillai, du volant à l'hôpital",
+    "text": "Quand Manoj Pillai est arrivé à Gatineau en 2015, il avait un diplôme d'infirmier et dix ans d'expérience dans un hôpital de Kochi. Mais au Canada, son diplôme n'était pas reconnu. « Je ne pouvais pas travailler comme infirmier. Ça a été un choc », raconte-t-il.\n\nPour payer le loyer, il est devenu chauffeur de taxi. Pendant trois ans, il a conduit la nuit et il a étudié le jour. « Je ne dormais que cinq heures par nuit. Mes enfants ne me voyaient presque jamais. » Il a d'abord suivi des cours de français, puis une formation d'appoint au cégep.\n\nEn 2019, il a enfin réussi l'examen de la profession. Depuis, il travaille au service des urgences de l'hôpital de Gatineau. Ses collègues l'apprécient beaucoup : « Il reste calme quand personne ne l'est », dit une infirmière.\n\nAujourd'hui, Manoj aide les nouveaux arrivants qui vivent la même situation. Son conseil ? « Ne perdez jamais patience, et demandez de l'aide. Seul, on n'y arrive pas. » L'année prochaine, il donnera des ateliers au centre communautaire de son quartier.",
+    "translation": {
+      "en": "When Manoj Pillai arrived in Gatineau in 2015, he had a nursing diploma and ten years of experience in a hospital in Kochi. But in Canada, his diploma was not recognised. 'I couldn't work as a nurse. It was a shock,' he says.\n\nTo pay the rent, he became a taxi driver. For three years he drove at night and studied during the day. 'I only slept five hours a night. My children almost never saw me.' First he took French classes, then a bridging programme at the cégep.\n\nIn 2019 he finally passed the professional exam. Since then he has worked in the emergency department of the Gatineau hospital. His colleagues think highly of him: 'He stays calm when nobody else is,' says a nurse.\n\nToday Manoj helps newcomers who are going through the same situation. His advice? 'Never lose patience, and ask for help. Alone, you can't make it.' Next year he will run workshops at his neighbourhood community centre.",
+      "hi": "जब मनोज पिल्लई 2015 में गैटिनो पहुँचे, उनके पास नर्सिंग का डिप्लोमा और कोच्चि के एक अस्पताल में दस साल का अनुभव था। पर कनाडा में उनका डिप्लोमा मान्य नहीं था। 'मैं नर्स के रूप में काम नहीं कर सकता था। यह एक झटका था,' वे बताते हैं।\n\nकिराया भरने के लिए वे टैक्सी ड्राइवर बन गए। तीन साल तक उन्होंने रात को गाड़ी चलाई और दिन में पढ़ाई की। 'मैं रात में सिर्फ़ पाँच घंटे सोता था। मेरे बच्चे मुझे लगभग कभी नहीं देखते थे।' पहले उन्होंने फ़्रेंच की कक्षाएँ लीं, फिर सेजेप में एक पूरक प्रशिक्षण।\n\n2019 में आख़िरकार उन्होंने पेशे की परीक्षा पास कर ली। तब से वे गैटिनो के अस्पताल के आपातकालीन विभाग में काम कर रहे हैं। उनके सहकर्मी उन्हें बहुत पसंद करते हैं: 'जब कोई शांत नहीं रहता, तब भी वे शांत रहते हैं,' एक नर्स कहती हैं।\n\nआज मनोज उन नए आने वालों की मदद करते हैं जो इसी स्थिति से गुज़र रहे हैं। उनकी सलाह? 'कभी धैर्य मत खोइए, और मदद माँगिए। अकेले यह नहीं हो पाता।' अगले साल वे अपने मोहल्ले के सामुदायिक केंद्र में कार्यशालाएँ लेंगे।"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "What was Manoj's problem when he arrived in Canada?"
+        },
+        "options": [
+          "He had no diploma",
+          "His nursing diploma was not recognised",
+          "He didn't like Gatineau",
+          "He couldn't find an apartment"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'au Canada, son diplôme n'était pas reconnu'.",
+          "hi": "'au Canada, son diplôme n'était pas reconnu' (कनाडा में उनका डिप्लोमा मान्य नहीं था)।"
+        },
+        "kind": "literal",
+        "evidence": "au Canada, son diplôme n'était pas reconnu"
+      },
+      {
+        "q": {
+          "en": "What was his life like during his three years as a taxi driver?"
+        },
+        "options": [
+          "Relaxed, with lots of family time",
+          "He worked only on weekends",
+          "Very tiring: little sleep and little time with his children"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Je ne dormais que cinq heures par nuit. Mes enfants ne me voyaient presque jamais.'",
+          "hi": "'Je ne dormais que cinq heures par nuit. Mes enfants ne me voyaient presque jamais.' (मैं रात में सिर्फ़ पाँच घंटे सोता था। बच्चे मुझे लगभग कभी नहीं देखते थे।)"
+        },
+        "kind": "inference",
+        "evidence": "Je ne dormais que cinq heures par nuit. Mes enfants ne me voyaient presque jamais."
+      },
+      {
+        "q": {
+          "en": "Since when has Manoj worked at the hospital in Gatineau?"
+        },
+        "options": [
+          "Since 2015",
+          "Since 2018",
+          "Since 2019"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'En 2019, il a enfin réussi l'examen … Depuis, il travaille au service des urgences'. Depuis = since then, i.e. since 2019, not since his arrival in 2015.",
+          "hi": "'En 2019, il a enfin réussi l'examen … Depuis, il travaille au service des urgences'। Depuis = तब से, यानी 2019 से, 2015 में आने के समय से नहीं।"
+        },
+        "kind": "inference",
+        "evidence": "Depuis, il travaille au service des urgences de l'hôpital de Gatineau."
+      },
+      {
+        "q": {
+          "en": "What do his colleagues say about him?"
+        },
+        "options": [
+          "He stays calm when others don't",
+          "He talks too much",
+          "He is often late",
+          "He works too slowly"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Il reste calme quand personne ne l'est.'",
+          "hi": "'Il reste calme quand personne ne l'est.' (जब कोई शांत नहीं रहता, तब भी वे शांत रहते हैं।)"
+        },
+        "kind": "literal",
+        "evidence": "Il reste calme quand personne ne l'est"
+      },
+      {
+        "q": {
+          "en": "In 'Seul, on n'y arrive pas', what is Manoj's message?"
+        },
+        "options": [
+          "You need other people's help to succeed",
+          "You should work alone",
+          "You should never come to Canada"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "He has just said 'demandez de l'aide'; y arriver = to manage, to succeed. Alone, you can't do it.",
+          "hi": "उन्होंने अभी कहा 'demandez de l'aide' (मदद माँगिए); y arriver = कर पाना, सफल होना। अकेले यह नहीं हो पाता।"
+        },
+        "kind": "inference",
+        "evidence": "Ne perdez jamais patience, et demandez de l'aide. Seul, on n'y arrive pas."
+      }
+    ]
+  },
+  "writing": {
+    "type": "story",
+    "prompt": {
+      "en": "Write a 120–160 word narrative about your life (or the life of someone you admire): where it started, what it was like, the turning point, the difficulties, life now, and one plan. Use the imparfait and the passé composé, depuis or il y a, at least one pronoun, one negation and one future.",
+      "hi": "अपनी ज़िंदगी (या किसी ऐसे व्यक्ति की ज़िंदगी जिसकी आप प्रशंसा करते हैं) के बारे में 120–160 शब्दों की कहानी लिखिए: कहाँ से शुरू हुई, कैसी थी, मोड़, मुश्किलें, अब की ज़िंदगी, और एक योजना। इम्पारफ़े और पासे कॉम्पोज़े, depuis या il y a, कम से कम एक सर्वनाम, एक निषेध और एक भविष्य रूप इस्तेमाल कीजिए।",
+      "fr": "Racontez un parcours de vie en 120 mots."
+    },
+    "minWords": 120,
+    "maxWords": 170,
+    "hints": [
+      {
+        "en": "Plan five short paragraphs or five time markers: Quand j'étais …, En …, Au début, Aujourd'hui, L'année prochaine.",
+        "hi": "पाँच छोटे अनुच्छेद या पाँच समय-सूचक सोचिए: Quand j'étais …, En …, Au début, Aujourd'hui, L'année prochaine।"
+      },
+      {
+        "en": "Check every être verb for agreement (elle est arrivée).",
+        "hi": "हर être वाली क्रिया का मेल जाँचिए (elle est arrivée)।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Ça a été un tournant.",
+        "en": "It was a turning point.",
+        "hi": "वह एक मोड़ था।",
+        "pron": "सा आ ए-ते ऐँ तूग़-नाँ"
+      },
+      {
+        "fr": "Grâce à …, j'ai pu …",
+        "en": "Thanks to …, I was able to …",
+        "hi": "… की बदौलत मैं … कर पाया/पाई",
+        "pron": "ग्ग़ास आ … झ़े पü"
+      },
+      {
+        "fr": "Je suis fier (fière) de …",
+        "en": "I am proud of …",
+        "hi": "मुझे … पर गर्व है",
+        "pron": "झ़ö सüई फ़्यैग़ दö"
+      }
+    ],
+    "model": {
+      "fr": "Je suis née à Pune, dans une petite famille. Quand j'étais enfant, j'adorais les langues : je lisais tous les livres de la bibliothèque. Après l'université, je suis devenue professeure d'anglais. En 2019, mon mari a reçu une offre de travail à Québec. Ça a été un tournant : nous avons vendu notre appartement et nous sommes partis avec nos deux enfants. Au début, c'était dur. Il faisait très froid, je ne connaissais personne et je ne comprenais rien à l'accent québécois ! Mais grâce à mes voisins, j'ai appris vite. Je leur parlais tous les jours. Aujourd'hui, j'habite à Québec depuis cinq ans et je travaille dans une école de langues. Je suis fière de mon parcours. L'année prochaine, je passerai le TEF et je demanderai la citoyenneté.",
+      "en": "I was born in Pune, into a small family. As a child, I loved languages: I read every book in the library. After university, I became an English teacher. In 2019, my husband got a job offer in Québec City. It was a turning point: we sold our apartment and left with our two children. At first it was hard. It was very cold, I didn't know anybody and I couldn't understand the Québec accent at all! But thanks to my neighbours, I learned quickly. I talked to them every day. Today I have lived in Québec City for five years and I work in a language school. I'm proud of my journey. Next year I'll take the TEF and apply for citizenship."
+    },
+    "checklist": [
+      {
+        "en": "Is there a clear mix of imparfait (background) and passé composé (events)?",
+        "hi": "क्या इम्पारफ़े (पृष्ठभूमि) और पासे कॉम्पोज़े (घटनाओं) का साफ़ मिश्रण है?"
+      },
+      {
+        "en": "Did you use depuis or il y a correctly, and at least one pronoun and one negation?",
+        "hi": "क्या आपने depuis या il y a सही इस्तेमाल किया, और कम से कम एक सर्वनाम और एक निषेध?"
+      },
+      {
+        "en": "Does the story end with a plan in the future?",
+        "hi": "क्या कहानी भविष्य की एक योजना के साथ ख़त्म होती है?"
+      },
+      {
+        "en": "Do you have at least 120 words?",
+        "hi": "क्या कम से कम 120 शब्द हैं?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      41,
+      44,
+      45,
+      46,
+      48,
+      51,
+      53,
+      57,
+      58,
+      59
+    ],
+    "items": [
+      {
+        "fr": "Hier, j'ai fini mon travail à six heures.",
+        "en": "Yesterday I finished work at six.",
+        "hi": "कल मैंने छह बजे अपना काम ख़त्म किया।",
+        "pron": "ई-यैग़ झ़े फ़ी-नी मोँ त्रा-वाय आ सी ज़öग़"
+      },
+      {
+        "fr": "Elle est partie en 2018.",
+        "en": "She left in 2018.",
+        "hi": "वह 2018 में चली गई।",
+        "pron": "ऐ लै पाग़-ती आँ दö मील दी-ज़üईत"
+      },
+      {
+        "fr": "Nous habitons ici depuis trois ans.",
+        "en": "We have been living here for three years.",
+        "hi": "हम तीन साल से यहाँ रह रहे हैं।",
+        "pron": "नू ज़ा-बी-तोँ ई-सी दö-प्üई त्र्वा ज़ाँ"
+      },
+      {
+        "fr": "À l'époque, il n'y avait pas de métro.",
+        "en": "Back then there was no metro.",
+        "hi": "उस समय मेट्रो नहीं थी।",
+        "pron": "आ ले-पॉक ईल न्या-वै पा दö मे-त्रो"
+      },
+      {
+        "fr": "Si j'ai le temps, je viendrai.",
+        "en": "If I have time, I'll come.",
+        "hi": "अगर मेरे पास समय हुआ, तो मैं आऊँगा/आऊँगी।",
+        "pron": "सी झ़े लö ताँ झ़ö व्यैँ-द्ग़े"
+      },
+      {
+        "fr": "Cette lettre ? Je l'ai envoyée hier.",
+        "en": "This letter? I sent it yesterday.",
+        "hi": "यह चिट्ठी? मैंने इसे कल भेज दिया।",
+        "pron": "सैत लैत्ग़ — झ़ö ले आँ-व्वा-ये ई-यैग़"
+      },
+      {
+        "fr": "Des amis ? J'en ai beaucoup ici.",
+        "en": "Friends? I have a lot (of them) here.",
+        "hi": "दोस्त? यहाँ मेरे बहुत हैं।",
+        "pron": "दे ज़ा-मी — झ़ाँ ने बो-कू ई-सी"
+      },
+      {
+        "fr": "Je ne fume plus.",
+        "en": "I don't smoke any more.",
+        "hi": "मैं अब सिगरेट नहीं पीता/पीती।",
+        "pron": "झ़ö नö फ़üम प्लü"
+      },
+      {
+        "fr": "Ne le perdez pas !",
+        "en": "Don't lose it!",
+        "hi": "इसे खोइए मत!",
+        "pron": "नö लö पैग़-दे पा"
+      },
+      {
+        "fr": "Pouvez-vous répéter, s'il vous plaît ?",
+        "en": "Could you repeat, please?",
+        "hi": "क्या आप दोहरा सकते हैं, कृपया?",
+        "pron": "पू-वे-वू ग़े-पे-ते सील वू प्लै"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Last year, she ___ in Canada.' Choose the correct form.",
+        "hi": "'पिछले साल वह कनाडा ___।' सही रूप चुनिए।"
+      },
+      "options": [
+        "a arrivé",
+        "est arrivée",
+        "est arrivé",
+        "arrivait"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "arriver uses être, and the participle agrees with elle: est arrivée.",
+        "hi": "arriver के साथ être आता है, और कृदंत elle से मेल खाता है: est arrivée।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete with the passé composé of prendre.",
+        "hi": "prendre के पासे कॉम्पोज़े से पूरा कीजिए।"
+      },
+      "sentence": "Hier, nous avons ___ le train pour Québec.",
+      "answer": "pris",
+      "accept": [],
+      "explanation": {
+        "en": "prendre → pris (irregular participle).",
+        "hi": "prendre → pris (अनियमित कृदंत)।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Quand j'étais petit, je ___ au cricket tous les soirs.'",
+        "hi": "'Quand j'étais petit, je ___ au cricket tous les soirs.' सही रूप चुनिए।"
+      },
+      "options": [
+        "ai joué",
+        "jouerai",
+        "jouais"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "A habit in the past (tous les soirs) → imparfait: je jouais.",
+        "hi": "अतीत की आदत (tous les soirs) → इम्पारफ़े: je jouais।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: 'I have been living here for eight years.'",
+        "hi": "पूरा कीजिए: 'मैं आठ साल से यहाँ रह रहा हूँ।'"
+      },
+      "sentence": "J'habite ici ___ huit ans.",
+      "answer": "depuis",
+      "accept": [],
+      "explanation": {
+        "en": "Still true now → present + depuis.",
+        "hi": "अब भी जारी → वर्तमान + depuis।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French (futur simple).",
+        "hi": "फ़्रेंच में लिखिए (फ़्यूतूर सैंप्ल)।"
+      },
+      "source": {
+        "en": "Next year I will take the TEF.",
+        "hi": "अगले साल मैं TEF दूँगा/दूँगी।"
+      },
+      "answer": "L'année prochaine, je passerai le TEF.",
+      "accept": [
+        "L'année prochaine je passerai le TEF.",
+        "L'an prochain, je passerai le TEF.",
+        "L'année prochaine, je passerai le TEF"
+      ],
+      "explanation": {
+        "en": "passer + -ai → je passerai.",
+        "hi": "passer + -ai → je passerai।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Montréal is the biggest city in Québec.' Choose the correct French.",
+        "hi": "'मॉन्ट्रियल क्यूबेक का सबसे बड़ा शहर है।' सही फ़्रेंच चुनिए।"
+      },
+      "options": [
+        "Montréal est la plus grande ville du Québec.",
+        "Montréal est la ville plus grande que Québec.",
+        "Montréal est la plus grand ville de Québec.",
+        "Montréal est plus grande ville du Québec."
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Superlative: la plus + adjective (agreeing with ville) + de; de + le Québec → du Québec.",
+        "hi": "सर्वोच्च रूप: la plus + विशेषण (ville से मेल) + de; de + le Québec → du Québec।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'Mes parents ? Je ___ téléphone tous les dimanches.'",
+        "hi": "'Mes parents ? Je ___ téléphone tous les dimanches.' सर्वनाम चुनिए।"
+      },
+      "options": [
+        "les",
+        "leur",
+        "lui",
+        "en"
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "téléphoner à + people (plural) → leur.",
+        "hi": "téléphoner à + लोग (बहुवचन) → leur।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Replace 'au marché' with a pronoun.",
+        "hi": "'au marché' की जगह सर्वनाम लगाइए।"
+      },
+      "sentence": "J'___ vais tous les samedis.",
+      "answer": "y",
+      "accept": [],
+      "explanation": {
+        "en": "à + place → y.",
+        "hi": "à + जगह → y।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put the words in order: 'After eating I called my sister.'",
+        "hi": "शब्दों को क्रम में लगाइए: 'खाना खाने के बाद मैंने अपनी बहन को फ़ोन किया।'"
+      },
+      "words": [
+        "Après",
+        "j'ai",
+        "mangé",
+        "avoir",
+        "appelé",
+        "ma",
+        "sœur."
+      ],
+      "answer": "Après avoir mangé j'ai appelé ma sœur.",
+      "explanation": {
+        "en": "après avoir + past participle, then the main clause.",
+        "hi": "après avoir + कृदंत, फिर मुख्य वाक्य।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'At first, I didn't know anybody.' Choose the correct French.",
+        "hi": "'शुरू में मैं किसी को नहीं जानता था।' सही फ़्रेंच चुनिए।"
+      },
+      "options": [
+        "Au début, je ne connaissais pas personne.",
+        "Au début, je connaissais personne pas.",
+        "Au début, je ne connaissais personne.",
+        "Au début, personne je ne connaissais."
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "ne … personne, without pas.",
+        "hi": "ne … personne, pas के बिना।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French (vous form).",
+        "hi": "फ़्रेंच में लिखिए (vous रूप)।"
+      },
+      "source": {
+        "en": "The keys? Don't leave them in the door.",
+        "hi": "चाबियाँ? इन्हें दरवाज़े में मत छोड़िए।"
+      },
+      "answer": "Les clés ? Ne les laissez pas dans la porte.",
+      "accept": [
+        "Les clés? Ne les laissez pas dans la porte.",
+        "Les clés ? Ne les laissez pas sur la porte.",
+        "Ne les laissez pas dans la porte."
+      ],
+      "explanation": {
+        "en": "Negative command: ne + les + laissez + pas.",
+        "hi": "नकारात्मक आज्ञा: ne + les + laissez + pas।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which is a correct polite question for a TEF-style section A call?",
+        "hi": "TEF शैली वाले भाग A के फ़ोन के लिए कौन-सा विनम्र प्रश्न सही है?"
+      },
+      "options": [
+        "Je voudrais savoir si le stationnement est compris.",
+        "Je voudrais savoir est-ce que le stationnement est compris ?",
+        "Le stationnement est-ce il compris ?"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Indirect question: Je voudrais savoir si + normal order, without est-ce que.",
+        "hi": "अप्रत्यक्ष प्रश्न: Je voudrais savoir si + सामान्य क्रम, est-ce que के बिना।"
+      }
+    }
+  ]
+}

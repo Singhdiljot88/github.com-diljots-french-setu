@@ -1,0 +1,189 @@
+{
+  "day": 105,
+  "phase": 6,
+  "title": { "fr": "Révision ciblée : mes erreurs récurrentes", "en": "Review day: targeted revision", "hi": "दोहराने का दिन: अपनी बार-बार होने वाली ग़लतियों पर निशाना" },
+  "objective": {
+    "en": "Revise the six errors that come back most often in learners' mocks (gender, agreement, place prepositions, verbs + à/de, être or avoir, tense choice in stories), practise your personal difficult sounds, and drill them in short listening, reading, speaking and writing tasks.",
+    "hi": "मॉक में सबसे ज़्यादा बार लौटने वाली छह ग़लतियों को दोहराना (लिंग, मेल, जगहों के पूर्वसर्ग, क्रिया + à/de, être या avoir, कहानी में काल का चुनाव), अपनी कठिन आवाज़ों का अभ्यास करना, और छोटे श्रवण, पठन, बोलने और लिखने के कामों में इनका अभ्यास करना।"
+  },
+  "prerequisites": {
+    "days": [90, 99, 103, 104],
+    "summary": {
+      "en": "The two error clinics (days 90 and 99) and your mock 1 error summary. Keep your error notebook open: today you choose the drills that match your own list.",
+      "hi": "ग़लतियों पर दोनों विशेष अभ्यास (दिन 90 और 99) और मॉक 1 की आपकी ग़लतियों का सारांश। अपनी ग़लतियों की कॉपी खुली रखिए: आज आप वे अभ्यास चुनेंगे जो आपकी अपनी सूची से मेल खाते हैं।"
+    }
+  },
+  "light": true,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "s'entraîner", "en": "to practise, to train", "hi": "अभ्यास करना", "pron": "साँ-त्ग़ै-ने", "ipa": "sɑ̃tʁɛne", "pos": "verb", "note": { "en": "S'entraîner à + infinitive: je m'entraîne à parler vite.", "hi": "S'entraîner à + क्रिया का मूल रूप: je m'entraîne à parler vite।" } },
+    { "fr": "la révision", "en": "revision, review", "hi": "दोहराना / पुनरावृत्ति", "pron": "ला ग़े-वी-ज़्योँ", "ipa": "la ʁevizjɔ̃", "pos": "noun", "gender": "f", "lemma": "révision" },
+    { "fr": "le point faible", "en": "weak point", "hi": "कमज़ोर पहलू", "pron": "लö प्वैँ फ़ैब्ल", "ipa": "lə pwɛ̃ fɛbl", "pos": "noun", "gender": "m", "lemma": "point" },
+    { "fr": "le point fort", "en": "strong point", "hi": "मज़बूत पहलू", "pron": "लö प्वैँ फ़ॉग़", "ipa": "lə pwɛ̃ fɔʁ", "pos": "noun", "gender": "m", "lemma": "point" },
+    { "fr": "progresser", "en": "to make progress", "hi": "प्रगति करना / आगे बढ़ना", "pron": "प्ग़ो-ग्ग़े-से", "ipa": "pʁɔɡʁese", "pos": "verb" },
+    { "fr": "cibler", "en": "to target", "hi": "निशाना बनाना / ध्यान केंद्रित करना", "pron": "सी-ब्ले", "ipa": "sible", "pos": "verb" }
+  ],
+  "phrases": [
+    { "fr": "Mon point faible, c'est la compréhension orale.", "en": "My weak point is listening.", "hi": "मेरा कमज़ोर पहलू सुनकर समझना है।", "pron": "मोँ प्वैँ फ़ैब्ल सै ला कोँ-प्ग़े-आँ-स्योँ ओ-ग़ाल" },
+    { "fr": "Je dois m'entraîner à écouter des émissions.", "en": "I need to practise listening to programmes.", "hi": "मुझे कार्यक्रम सुनने का अभ्यास करना है।", "pron": "झ़ö द्वा माँ-त्ग़ै-ने आ ए-कू-ते दे ज़े-मी-स्योँ" },
+    { "fr": "J'ai fait des progrès en écriture.", "en": "I've made progress in writing.", "hi": "लिखने में मैंने प्रगति की है।", "pron": "झ़े फ़ै दे प्ग़ो-ग्ग़ै आँ ने-क्ग़ी-तüग़" },
+    { "fr": "Aujourd'hui, je cible les prépositions.", "en": "Today I'm targeting prepositions.", "hi": "आज मैं पूर्वसर्गों पर ध्यान दे रहा / रही हूँ।", "pron": "ओ-झ़ूग़-दüई झ़ö सीब्ल ले प्ग़े-पो-ज़ी-स्योँ" }
+  ],
+  "grammar": {
+    "title": { "en": "Recap: the six most frequent errors in mock texts", "hi": "दोहराव: मॉक पाठों में सबसे ज़्यादा होने वाली छह ग़लतियाँ" },
+    "explanation": {
+      "en": "1) Gender: -tion, -sion, -té and -ure nouns are usually feminine (la solution, la société, la culture); -ment, -age and -eau are usually masculine (le logement, le voyage, le bureau). 2) Agreement: the adjective follows the noun's gender and number (des rues propres, une ville tranquille). 3) Places: en + feminine country (en France, en Inde), au + masculine country (au Canada), aux + plural (aux États-Unis), à + city (à Toronto). 4) Verbs + preposition: commencer à, aider à, penser à; essayer de, décider de, arrêter de. 5) Auxiliary: être with verbs of movement (aller, venir, partir, arriver, rester…) and with all reflexive verbs (je me suis levé); otherwise avoir. 6) Tense in stories: passé composé for completed events (il a appelé), imparfait for background and descriptions (il faisait froid), plus-que-parfait for an earlier event (il avait oublié). Find your two weakest points in your error notebook and drill only those today.",
+      "hi": "1) लिंग: -tion, -sion, -té और -ure वाली संज्ञाएँ आम तौर पर स्त्रीलिंग होती हैं (la solution, la société, la culture); -ment, -age और -eau वाली आम तौर पर पुल्लिंग (le logement, le voyage, le bureau)। 2) मेल: विशेषण संज्ञा के लिंग और वचन के अनुसार बदलता है (des rues propres, une ville tranquille)। 3) जगहें: स्त्रीलिंग देश के साथ en (en France, en Inde), पुल्लिंग देश के साथ au (au Canada), बहुवचन के साथ aux (aux États-Unis), शहर के साथ à (à Toronto)। 4) क्रिया + पूर्वसर्ग: commencer à, aider à, penser à; essayer de, décider de, arrêter de। 5) सहायक क्रिया: आने-जाने वाली क्रियाओं (aller, venir, partir, arriver, rester…) और सभी निजवाचक (reflexive) क्रियाओं के साथ être (je me suis levé); बाक़ी के साथ avoir। 6) कहानी में काल: पूरी हुई घटनाओं के लिए passé composé (il a appelé), पृष्ठभूमि और वर्णन के लिए imparfait (il faisait froid), उससे पहले की घटना के लिए plus-que-parfait (il avait oublié)। अपनी कॉपी में अपने दो सबसे कमज़ोर पहलू ढूँढिए और आज सिर्फ़ उन्हीं का अभ्यास कीजिए।"
+    },
+    "comparison": {
+      "en": "Hindi has no word for 'en/au/aux' — it just says 'भारत में', 'कनाडा में'. French changes the little word according to the country's gender: en Inde (f.), au Canada (m.). Learn the country with its preposition as one block.",
+      "hi": "हिंदी में 'en/au/aux' जैसा कुछ नहीं — बस 'भारत में', 'कनाडा में' कहते हैं। फ़्रेंच में देश के लिंग के अनुसार छोटा शब्द बदल जाता है: en Inde (स्त्रीलिंग), au Canada (पुल्लिंग)। देश को उसके पूर्वसर्ग के साथ एक इकाई की तरह याद कीजिए।"
+    },
+    "examples": [
+      { "fr": "La société canadienne est très diverse.", "en": "Canadian society is very diverse.", "hi": "कनाडा का समाज बहुत विविध है।", "pron": "ला सो-स्ये-ते का-ना-द्यैन ऐ त्ग़ै दी-वैग़्स" },
+      { "fr": "J'ai habité en Inde, puis je suis venu au Canada.", "en": "I lived in India, then I came to Canada.", "hi": "मैं भारत में रहा, फिर कनाडा आया।", "pron": "झ़े आ-बी-ते आँ नैँद प्üई झ़ö स्üई व-नü ओ का-ना-दा" },
+      { "fr": "J'ai commencé à travailler et j'ai décidé de reprendre mes études.", "en": "I started working and I decided to go back to studying.", "hi": "मैंने काम करना शुरू किया और फिर से पढ़ाई करने का फ़ैसला किया।", "pron": "झ़े को-माँ-से आ त्ग़ा-वा-ये ए झ़े दे-सी-दे दö ग़ö-प्ग़ाँद्ग़ मे ज़े-तüद" },
+      { "fr": "Elle s'est levée tôt parce qu'elle avait un entretien.", "en": "She got up early because she had an interview.", "hi": "वह जल्दी उठी क्योंकि उसका एक इंटरव्यू था।", "pron": "ऐल सै ल-वे तो पाग़-स कैल आ-वै ऐँ नाँ-त्ग़ö-त्यैँ" },
+      { "fr": "Il neigeait quand nous sommes arrivés à Moncton.", "en": "It was snowing when we arrived in Moncton.", "hi": "जब हम मॉन्क्टन पहुँचे, बर्फ़ गिर रही थी।", "pron": "ईल नै-झ़ै काँ नू सॉम ज़ा-ग़ी-वे आ मॉन्क-तॉन" }
+    ],
+    "pitfalls": [
+      { "en": "Don't revise everything at once. Two targeted points drilled well beat six points read quickly.", "hi": "सब कुछ एक साथ मत दोहराइए। दो चुने हुए पहलुओं का अच्छा अभ्यास, छह पहलुओं को जल्दी-जल्दी पढ़ने से बेहतर है।" },
+      { "en": "Le problème, le système, le programme are masculine although they end in -e.", "hi": "Le problème, le système, le programme पुल्लिंग हैं, भले ही इनके अंत में -e है।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Personal difficult sounds: /y/–/u/, the three nasals, é–è",
+    "tip": {
+      "en": "Pick the pair that is hardest for you and say each minimal pair five times, slowly then fast. Record yourself once and listen: can you hear the difference?",
+      "hi": "जो जोड़ी आपके लिए सबसे कठिन है उसे चुनिए और हर न्यूनतम जोड़ी पाँच बार बोलिए, पहले धीरे फिर तेज़। एक बार रिकॉर्ड करके सुनिए: क्या फ़र्क़ सुनाई देता है?"
+    },
+    "words": [
+      { "fr": "dessus / dessous", "en": "on top / underneath", "hi": "ऊपर / नीचे", "pron": "द-सü / द-सू", "ipa": "dəsy / dəsu", "note": { "en": "Rounded ü versus ऊ.", "hi": "गोल होंठों वाला ü बनाम ऊ।" } },
+      { "fr": "bon / banc / bain", "en": "good / bench / bath", "hi": "अच्छा / बेंच / स्नान", "pron": "बोँ / बाँ / बैँ", "ipa": "bɔ̃ / bɑ̃ / bɛ̃" },
+      { "fr": "parlé / parlait", "en": "spoken / was speaking", "hi": "बोला गया / बोल रहा था", "pron": "पाग़-ले / पाग़-लै", "ipa": "paʁle / paʁlɛ" },
+      { "fr": "rue / roue", "en": "street / wheel", "hi": "गली / पहिया", "pron": "ग़ü / ग़ू", "ipa": "ʁy / ʁu" },
+      { "fr": "vingt / vent / vont", "en": "twenty / wind / (they) go", "hi": "बीस / हवा / (वे) जाते हैं", "pron": "वैँ / वाँ / वोँ", "ipa": "vɛ̃ / vɑ̃ / vɔ̃" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Le bulletin de 7 heures", "en": "The 7 o'clock news bulletin" },
+    "type": "radio",
+    "mode": "natural",
+    "context": {
+      "en": "Mixed listening. A short regional radio bulletin with four different items. Listen once and answer.",
+      "hi": "मिला-जुला श्रवण। चार अलग ख़बरों वाला एक छोटा क्षेत्रीय रेडियो बुलेटिन। एक बार सुनिए और उत्तर दीजिए।"
+    },
+    "lines": [
+      { "speaker": "Animateur", "voice": "m2", "fr": "Il est 7 h, voici les informations régionales.", "en": "It's 7 o'clock, here is the regional news.", "hi": "सात बज रहे हैं, अब क्षेत्रीय समाचार।" },
+      { "speaker": "Animateur", "voice": "m2", "fr": "À Montréal, la ligne verte du métro est interrompue entre deux stations du centre-ville jusqu'à 9 h, à cause d'un problème technique. Des autobus remplacent le métro sur cette partie de la ligne.", "en": "In Montréal, the metro green line is interrupted between two downtown stations until 9 a.m. because of a technical problem. Buses are replacing the metro on that section of the line.", "hi": "मॉन्ट्रियाल में तकनीकी ख़राबी के कारण मेट्रो की ग्रीन लाइन शहर के बीच के दो स्टेशनों के बीच सुबह 9 बजे तक बंद है। लाइन के इस हिस्से पर मेट्रो की जगह बसें चल रही हैं।" },
+      { "speaker": "Animateur", "voice": "m2", "fr": "À Québec, la piscine municipale du quartier Limoilou rouvre ses portes aujourd'hui après un an de rénovations. L'entrée est gratuite pour tous ce week-end.", "en": "In Québec City, the municipal pool in the Limoilou neighbourhood reopens today after a year of renovations. Entry is free for everyone this weekend.", "hi": "क्यूबेक सिटी में लिमुआलू मोहल्ले का नगरपालिका स्विमिंग पूल एक साल की मरम्मत के बाद आज फिर खुल रहा है। इस सप्ताहांत सबके लिए प्रवेश मुफ़्त है।" },
+      { "speaker": "Animateur", "voice": "m2", "fr": "Côté météo, il fera froid ce matin, moins quinze degrés, mais le soleil sera au rendez-vous. Des chutes de neige sont attendues dans la soirée.", "en": "As for the weather, it will be cold this morning, minus fifteen degrees, but it will be sunny. Snowfall is expected in the evening.", "hi": "मौसम की बात करें तो आज सुबह ठंड रहेगी, माइनस पंद्रह डिग्री, लेकिन धूप खिली रहेगी। शाम को बर्फ़बारी की उम्मीद है।" },
+      { "speaker": "Animateur", "voice": "m2", "fr": "Enfin, le Salon de l'emploi de Laval aura lieu samedi. Plus de quatre-vingts entreprises y participeront. Pensez à apporter plusieurs copies de votre CV.", "en": "Finally, the Laval job fair will take place on Saturday. More than eighty companies will take part. Remember to bring several copies of your CV.", "hi": "आख़िर में, लावाल का रोज़गार मेला शनिवार को होगा। अस्सी से ज़्यादा कंपनियाँ इसमें भाग लेंगी। अपने सीवी की कई प्रतियाँ ले जाना न भूलें।" }
+    ],
+    "questions": [
+      { "q": { "en": "Until when is the metro line interrupted?" }, "options": ["Until 7 a.m.", "Until 9 a.m.", "All day", "Until the weekend"], "answer": 1, "explanation": { "en": "'Jusqu'à 9 h.' 7 h is the time of the bulletin.", "hi": "'Jusqu'à 9 h.' सात बजे तो बुलेटिन का समय है।" }, "kind": "literal", "evidence": "jusqu'à 9 h" },
+      { "q": { "en": "What is offered to metro passengers?" }, "options": ["Free taxis", "A refund", "Replacement buses", "Nothing"], "answer": 2, "explanation": { "en": "'Des autobus remplacent le métro.'", "hi": "'Des autobus remplacent le métro.' — मेट्रो की जगह बसें।" }, "kind": "literal", "evidence": "Des autobus remplacent le métro" },
+      { "q": { "en": "What is special about the pool this weekend?" }, "options": ["Entry is free", "It is closed for repairs", "It is only for children", "It opens at night"], "answer": 0, "explanation": { "en": "'L'entrée est gratuite pour tous ce week-end.'", "hi": "'L'entrée est gratuite pour tous ce week-end.' — सबके लिए मुफ़्त प्रवेश।" }, "kind": "literal", "evidence": "L'entrée est gratuite pour tous ce week-end." },
+      { "q": { "en": "What weather is expected this evening?" }, "options": ["Sunshine", "Rain", "Strong wind", "Snow"], "answer": 3, "explanation": { "en": "Sun in the morning, but 'des chutes de neige … dans la soirée'.", "hi": "सुबह धूप, लेकिन 'des chutes de neige … dans la soirée' — शाम को बर्फ़।" }, "kind": "literal", "evidence": "Des chutes de neige sont attendues dans la soirée." },
+      { "q": { "en": "What advice is given for the job fair?" }, "options": ["Register online first", "Bring several copies of your CV", "Arrive before 9 a.m.", "Dress warmly"], "answer": 1, "explanation": { "en": "'Pensez à apporter plusieurs copies de votre CV.'", "hi": "'Pensez à apporter plusieurs copies de votre CV.' — सीवी की कई प्रतियाँ ले जाइए।" }, "kind": "literal", "evidence": "Pensez à apporter plusieurs copies de votre CV." }
+    ],
+    "dictation": [
+      "La piscine municipale rouvre ses portes aujourd'hui après un an de rénovations.",
+      "Plus de quatre-vingts entreprises y participeront."
+    ],
+    "gapFill": {
+      "text": "Il fera froid ce matin, ___ quinze degrés, mais le soleil sera au rendez-vous. Des ___ de neige sont attendues dans la soirée.",
+      "answers": ["moins", "chutes"]
+    }
+  },
+  "speaking": {
+    "type": "pronunciation",
+    "focusSound": "/y/–/u/, nasal vowels, é–è",
+    "instructions": {
+      "en": "Targeted drills. Say each sentence three times, focusing on your personal difficult sound and on the grammar point in bold in your head. Then make one new sentence of your own on the same model.",
+      "hi": "निशाना साधे अभ्यास। हर वाक्य तीन बार बोलिए, अपनी कठिन आवाज़ और मन में उस व्याकरण-बिंदु पर ध्यान देते हुए। फिर उसी ढाँचे पर अपना एक नया वाक्य बनाइए।"
+    },
+    "prompts": [
+      { "fr": "Je suis venu au Canada en août.", "en": "I came to Canada in August.", "hi": "मैं अगस्त में कनाडा आया।", "pron": "झ़ö स्üई व-नü ओ का-ना-दा आँ नूत", "model": "Je suis venue au Canada en septembre." },
+      { "fr": "Tu as vu la rue où nous habitons ?", "en": "Have you seen the street where we live?", "hi": "क्या तुमने वह गली देखी जहाँ हम रहते हैं?", "pron": "तü आ वü ला ग़ü ऊ नू ज़ा-बी-तोँ" },
+      { "fr": "Mon voisin a commencé à apprendre le français.", "en": "My neighbour has started learning French.", "hi": "मेरे पड़ोसी ने फ़्रेंच सीखना शुरू किया है।", "pron": "मोँ व्वा-ज़ैँ आ को-माँ-से आ आ-प्ग़ाँद्ग़ लö फ़्ग़ाँ-सै" },
+      { "fr": "Elle a essayé de trouver un logement moins cher.", "en": "She tried to find cheaper housing.", "hi": "उसने सस्ता घर ढूँढने की कोशिश की।", "pron": "ऐ ला ए-से-ये दö त्ग़ू-वे ऐँ लॉझ़-माँ म्वैँ शैग़" },
+      { "fr": "Il faisait froid quand je suis arrivé.", "en": "It was cold when I arrived.", "hi": "जब मैं पहुँचा, ठंड थी।", "pron": "ईल फ़ö-ज़ै फ़्ग़्वा काँ झ़ö स्üई ज़ा-ग़ी-वे" }
+    ],
+    "tip": {
+      "en": "Pronunciation and grammar errors often travel together: 'je suis venu' said clearly helps you remember that venir takes être. Say the correct form aloud until it sounds normal to you.",
+      "hi": "उच्चारण और व्याकरण की ग़लतियाँ अक्सर साथ चलती हैं: 'je suis venu' साफ़ बोलने से याद रहता है कि venir के साथ être आता है। सही रूप तब तक ज़ोर से बोलिए जब तक वह आपको सामान्य न लगने लगे।"
+    }
+  },
+  "reading": {
+    "genre": "message",
+    "title": "Quatre petits documents",
+    "text": "1. SMS\nSalut Nadia ! Le cours de yoga de jeudi est annulé, la prof est malade. On se retrouve quand même au café à 18 h ? Bisous, Inès\n\n2. AVIS AUX LOCATAIRES\nEn raison de travaux sur la chaudière, l'eau chaude sera coupée le mardi 12 mars, de 9 h à 15 h. L'eau froide restera disponible. Nous vous prions de nous excuser pour ce désagrément. — La gestion, Immeuble Les Pins\n\n3. COURRIEL\nObjet : Votre candidature\nBonjour Monsieur Mehta,\nNous vous remercions pour votre candidature au poste de commis comptable. Votre profil a retenu notre attention et nous souhaitons vous rencontrer. Pourriez-vous vous présenter à nos bureaux le lundi 18 mars à 10 h 30 ? L'entretien durera environ quarante-cinq minutes. Merci d'apporter une copie de vos diplômes et de confirmer votre présence par courriel avant vendredi.\nCordialement,\nHélène Caron, Ressources humaines\n\n4. PETITE ANNONCE\nÀ VENDRE — Bureau en bois, très bon état, 60 $. Idéal pour étudiant. À récupérer sur place, 3e étage sans ascenseur. Disponible dès maintenant. Texto seulement : 438 555 0110.",
+    "translation": {
+      "en": "1. TEXT MESSAGE\nHi Nadia! Thursday's yoga class is cancelled, the teacher is ill. Shall we still meet at the café at 6 p.m.? Love, Inès\n\n2. NOTICE TO TENANTS\nBecause of work on the boiler, hot water will be cut off on Tuesday 12 March, from 9 a.m. to 3 p.m. Cold water will remain available. We apologise for this inconvenience. — The management, Les Pins building\n\n3. EMAIL\nSubject: Your application\nHello Mr Mehta,\nThank you for your application for the position of accounting clerk. Your profile caught our attention and we would like to meet you. Could you come to our offices on Monday 18 March at 10:30 a.m.? The interview will last about forty-five minutes. Please bring a copy of your diplomas and confirm your attendance by email before Friday.\nBest regards,\nHélène Caron, Human Resources\n\n4. CLASSIFIED AD\nFOR SALE — Wooden desk, very good condition, $60. Ideal for a student. To be collected on site, 3rd floor, no lift. Available now. Text only: 438 555 0110.",
+      "hi": "1. एसएमएस\nहाय नादिया! गुरुवार की योग कक्षा रद्द है, टीचर बीमार हैं। फिर भी हम शाम 6 बजे कैफ़े में मिलें? ढेर सारा प्यार, इनेस\n\n2. किरायेदारों के लिए सूचना\nबॉयलर पर काम के कारण मंगलवार 12 मार्च को सुबह 9 बजे से दोपहर 3 बजे तक गरम पानी बंद रहेगा। ठंडा पानी मिलता रहेगा। इस असुविधा के लिए हमें खेद है। — प्रबंधन, ले पैं इमारत\n\n3. ईमेल\nविषय: आपका आवेदन\nनमस्ते श्री मेहता,\nलेखा लिपिक के पद के लिए आवेदन करने के लिए धन्यवाद। आपकी प्रोफ़ाइल ने हमारा ध्यान खींचा है और हम आपसे मिलना चाहते हैं। क्या आप सोमवार 18 मार्च को सुबह 10:30 बजे हमारे दफ़्तर आ सकते हैं? इंटरव्यू लगभग पैंतालीस मिनट चलेगा। कृपया अपने डिप्लोमा की एक प्रति लाइए और शुक्रवार से पहले ईमेल से अपने आने की पुष्टि कीजिए।\nसादर,\nएलेन कारों, मानव संसाधन\n\n4. छोटा विज्ञापन\nबिक्री के लिए — लकड़ी की मेज़, बहुत अच्छी हालत, 60 डॉलर। विद्यार्थी के लिए बढ़िया। वहीं से ले जानी होगी, तीसरी मंज़िल, लिफ़्ट नहीं। अभी उपलब्ध। सिर्फ़ मैसेज कीजिए: 438 555 0110।"
+    },
+    "questions": [
+      { "q": { "en": "Why is the yoga class cancelled?" }, "options": ["The café is closed", "The teacher is ill", "Nadia is busy", "The room is being repaired"], "answer": 1, "explanation": { "en": "'La prof est malade.'", "hi": "'La prof est malade.' — टीचर बीमार हैं।" }, "kind": "literal", "evidence": "la prof est malade" },
+      { "q": { "en": "On 12 March, what can tenants still use between 9 and 3?" }, "options": ["Hot water", "The boiler", "Cold water", "Nothing at all"], "answer": 2, "explanation": { "en": "'L'eau froide restera disponible.'", "hi": "'L'eau froide restera disponible.' — ठंडा पानी मिलता रहेगा।" }, "kind": "literal", "evidence": "L'eau froide restera disponible." },
+      { "q": { "en": "What must Mr Mehta do before Friday?" }, "options": ["Send his diplomas by email", "Phone Ms Caron", "Come to the office", "Confirm by email that he will come"], "answer": 3, "explanation": { "en": "'Confirmer votre présence par courriel avant vendredi.' The diplomas are to be brought to the interview.", "hi": "'Confirmer votre présence par courriel avant vendredi.' डिप्लोमा इंटरव्यू में लाने हैं।" }, "kind": "literal", "evidence": "de confirmer votre présence par courriel avant vendredi" },
+      { "q": { "en": "How long will the interview last?" }, "options": ["About 45 minutes", "About 30 minutes", "One and a half hours", "The email doesn't say"], "answer": 0, "explanation": { "en": "'Environ quarante-cinq minutes.'", "hi": "'Environ quarante-cinq minutes.' — लगभग पैंतालीस मिनट।" }, "kind": "literal", "evidence": "environ quarante-cinq minutes" },
+      { "q": { "en": "What should a buyer of the desk plan for?" }, "options": ["Paying by card", "Carrying it down three floors of stairs", "Waiting a month", "Paying for delivery"], "answer": 1, "explanation": { "en": "'À récupérer sur place, 3e étage sans ascenseur' — you must carry it down the stairs yourself.", "hi": "'À récupérer sur place, 3e étage sans ascenseur' — मेज़ ख़ुद सीढ़ियों से नीचे लानी होगी।" }, "kind": "inference", "evidence": "3e étage sans ascenseur" }
+    ]
+  },
+  "writing": {
+    "type": "sentences",
+    "prompt": {
+      "en": "Targeted drill: write six sentences about your life in Canada or India, one for each of the six frequent errors (gender, agreement, place preposition, verb + à/de, être auxiliary, imparfait + passé composé). Underline the point in each sentence.",
+      "hi": "निशाना साधा अभ्यास: कनाडा या भारत में अपने जीवन के बारे में छह वाक्य लिखिए, छह आम ग़लतियों में से हर एक के लिए एक (लिंग, मेल, जगह का पूर्वसर्ग, क्रिया + à/de, être सहायक क्रिया, imparfait + passé composé)। हर वाक्य में वह बिंदु रेखांकित कीजिए।",
+      "fr": "Écrivez six phrases, une par erreur fréquente."
+    },
+    "minWords": 40,
+    "maxWords": 100,
+    "hints": [
+      { "en": "Keep each sentence short and sure. The goal is accuracy, not length.", "hi": "हर वाक्य छोटा और पक्का रखिए। लक्ष्य शुद्धता है, लंबाई नहीं।" },
+      { "en": "Use your error notebook: write the sentences you most often get wrong, correctly.", "hi": "अपनी कॉपी का इस्तेमाल कीजिए: जो वाक्य आपसे अक्सर ग़लत होते हैं, उन्हें सही लिखिए।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Je suis arrivé(e) au Canada en …", "en": "I arrived in Canada in …", "hi": "मैं … में कनाडा पहुँचा / पहुँची", "pron": "झ़ö स्üई ज़ा-ग़ी-वे ओ का-ना-दा आँ" },
+      { "fr": "J'ai décidé de …", "en": "I decided to …", "hi": "मैंने … करने का फ़ैसला किया", "pron": "झ़े दे-सी-दे दö" }
+    ],
+    "model": {
+      "fr": "La société québécoise est accueillante. Les hivers sont longs et très froids. Avant, j'habitais en Inde, à Pune. J'ai décidé de venir au Canada pour travailler. Je suis arrivée à Montréal en janvier. Il neigeait beaucoup quand je suis sortie de l'aéroport.",
+      "en": "Québec society is welcoming. The winters are long and very cold. Before, I lived in India, in Pune. I decided to come to Canada to work. I arrived in Montréal in January. It was snowing a lot when I came out of the airport."
+    },
+    "checklist": [
+      { "en": "Is société (f.) followed by a feminine adjective?", "hi": "क्या société (स्त्रीलिंग) के बाद स्त्रीलिंग विशेषण है?" },
+      { "en": "Did you use en Inde / au Canada / à + city correctly?", "hi": "क्या आपने en Inde / au Canada / à + शहर सही इस्तेमाल किया?" },
+      { "en": "Do arriver and sortir take être, with agreement if you are a woman?", "hi": "क्या arriver और sortir के साथ être है, और अगर आप महिला हैं तो मेल भी?" }
+    ]
+  },
+  "review": {
+    "fromDays": [88, 90, 94, 97, 99, 101, 102, 103, 104],
+    "items": [
+      { "fr": "la solution", "en": "the solution (f.)", "hi": "उपाय (स्त्रीलिंग)", "pron": "ला सो-लü-स्योँ" },
+      { "fr": "le logement", "en": "housing (m.)", "hi": "आवास (पुल्लिंग)", "pron": "लö लॉझ़-माँ" },
+      { "fr": "le voyage", "en": "the trip (m.)", "hi": "यात्रा (फ़्रेंच में पुल्लिंग)", "pron": "लö व्वा-याझ़" },
+      { "fr": "aux États-Unis", "en": "in / to the United States", "hi": "अमेरिका में", "pron": "ओ ज़े-ता-ज़ü-नी" },
+      { "fr": "en Inde", "en": "in / to India", "hi": "भारत में", "pron": "आँ नैँद" },
+      { "fr": "essayer de", "en": "to try to", "hi": "… की कोशिश करना", "pron": "ए-से-ये दö" },
+      { "fr": "aider à", "en": "to help to", "hi": "… में मदद करना", "pron": "ए-दे आ" },
+      { "fr": "Je me suis levé tôt.", "en": "I got up early.", "hi": "मैं जल्दी उठा।", "pron": "झ़ö मö स्üई ल-वे तो" },
+      { "fr": "en lisant le journal", "en": "while reading the newspaper", "hi": "अख़बार पढ़ते हुए", "pron": "आँ ली-ज़ाँ लö झ़ूग़-नाल" },
+      { "fr": "Certes …, mais …", "en": "Admittedly …, but …", "hi": "माना कि …, लेकिन …", "pron": "सैग़्त … मै" },
+      { "fr": "de nombreuses personnes", "en": "many people", "hi": "बहुत-से लोग", "pron": "दö नोँ-ब्ग़öज़ पैग़-सॉन" },
+      { "fr": "en outre", "en": "moreover", "hi": "इसके अलावा", "pron": "आँ नूत्ग़" },
+      { "fr": "C'était un piège.", "en": "It was a trap.", "hi": "वह जाल था।", "pron": "से-तै ऐँ प्यैझ़" },
+      { "fr": "Il me reste cinq minutes.", "en": "I have five minutes left.", "hi": "मेरे पास पाँच मिनट बचे हैं।", "pron": "ईल मö ग़ैस्त सैँ मी-नüत" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Which noun is feminine?", "hi": "कौन-सी संज्ञा स्त्रीलिंग है?" }, "options": ["logement", "voyage", "société", "bureau"], "answer": 2, "explanation": { "en": "Nouns in -té are usually feminine: la société. -ment, -age, -eau are usually masculine.", "hi": "-té वाली संज्ञाएँ आम तौर पर स्त्रीलिंग होती हैं: la société। -ment, -age, -eau आम तौर पर पुल्लिंग।" } },
+    { "type": "mcq", "prompt": { "en": "Choose the correct sentence.", "hi": "सही वाक्य चुनिए।" }, "options": ["J'ai habité au Inde.", "J'ai habité en Inde.", "J'ai habité à Inde.", "J'ai habité aux Inde."], "answer": 1, "explanation": { "en": "L'Inde is feminine: en Inde.", "hi": "L'Inde स्त्रीलिंग है: en Inde।" } },
+    { "type": "fill", "prompt": { "en": "Complete: She decided to leave.", "hi": "पूरा कीजिए: उसने जाने का फ़ैसला किया।" }, "sentence": "Elle a décidé ___ partir.", "answer": "de", "accept": [], "explanation": { "en": "Décider de + infinitive.", "hi": "Décider de + क्रिया का मूल रूप।" } },
+    { "type": "fill", "prompt": { "en": "Complete with the right auxiliary: We arrived yesterday.", "hi": "सही सहायक क्रिया लिखिए: हम कल पहुँचे।" }, "sentence": "Nous ___ arrivés hier.", "answer": "sommes", "accept": [], "explanation": { "en": "Arriver is a movement verb: être. Nous sommes arrivés.", "hi": "Arriver आने-जाने की क्रिया है: être। Nous sommes arrivés।" } },
+    { "type": "mcq", "prompt": { "en": "'Il ___ froid quand je suis sorti.' Which form fits?", "hi": "'Il ___ froid quand je suis sorti.' कौन-सा रूप सही है?" }, "options": ["a fait", "faisait", "fera", "fait"], "answer": 1, "explanation": { "en": "Background description in the past: imparfait, il faisait froid.", "hi": "भूतकाल में पृष्ठभूमि का वर्णन: imparfait, il faisait froid।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "My weak point is listening.", "hi": "मेरा कमज़ोर पहलू सुनकर समझना है।" }, "answer": "Mon point faible, c'est la compréhension orale.", "accept": ["Mon point faible est la compréhension orale.", "Mon point faible, c'est l'écoute.", "Mon point faible est l'écoute."], "explanation": { "en": "Le point faible (m.) — mon point faible.", "hi": "Le point faible (पुल्लिंग) — mon point faible।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: I started working in Toronto.", "hi": "शब्दों को सही क्रम में रखिए: मैंने टोरंटो में काम करना शुरू किया।" }, "words": ["commencé", "travailler", "J'ai", "à", "Toronto.", "à"], "answer": "J'ai commencé à travailler à Toronto.", "explanation": { "en": "Commencer à + infinitive, then à + city.", "hi": "Commencer à + क्रिया का मूल रूप, फिर à + शहर।" } }
+  ]
+}

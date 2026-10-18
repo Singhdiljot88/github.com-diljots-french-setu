@@ -1,0 +1,207 @@
+{
+  "day": 70,
+  "phase": 4,
+  "title": { "fr": "Révision : propositions en réunion", "en": "Review day: requests, hypotheses and relatives", "hi": "दोहराई: अनुरोध, कल्पनाएँ और relative सर्वनाम" },
+  "objective": {
+    "en": "Combine the tools of Days 64–69 in a real meeting: make proposals with the conditional (on pourrait, il faudrait, et si on…?), react to objections, describe things precisely with qui/que/où/dont, and link arguments with connectors.",
+    "hi": "दिन 64–69 के सारे औज़ार एक असली बैठक में इस्तेमाल करना: conditionnel से प्रस्ताव रखना (on pourrait, il faudrait, et si on…?), आपत्तियों का जवाब देना, qui/que/où/dont से सटीक वर्णन करना, और योजकों से तर्क जोड़ना।"
+  },
+  "prerequisites": {
+    "days": [64, 65, 66, 67, 68, 69],
+    "summary": {
+      "en": "Preferences and pros/cons (64), polite conditional (65), si + imparfait → conditional (66), qui/que/où (67), dont/ce qui/ce que (68), contrast and addition connectors (69).",
+      "hi": "पसंद और फ़ायदे/नुक़सान (64), शिष्ट conditionnel (65), si + imparfait → conditionnel (66), qui/que/où (67), dont/ce qui/ce que (68), विरोध और जोड़ के योजक (69)।"
+    }
+  },
+  "light": true,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "une réunion", "en": "a meeting", "hi": "बैठक, मीटिंग", "pron": "üन ग़े-ü-न्योँ", "ipa": "yn ʁeynjɔ̃", "pos": "noun", "gender": "f", "lemma": "réunion" },
+    { "fr": "une proposition", "en": "a proposal, a suggestion", "hi": "प्रस्ताव, सुझाव", "pron": "üन प्ग़ो-पो-ज़ी-स्योँ", "ipa": "yn pʁɔpozisjɔ̃", "pos": "noun", "gender": "f", "lemma": "proposition" },
+    { "fr": "proposer", "en": "to suggest, to propose", "hi": "सुझाव देना, प्रस्ताव रखना", "pron": "प्ग़ो-पो-ज़े", "ipa": "pʁɔpoze", "pos": "verb", "note": { "en": "Je propose de + infinitive: Je propose de voter.", "hi": "Je propose de + infinitive: Je propose de voter (मेरा सुझाव है कि वोट करें)।" } },
+    { "fr": "voter", "en": "to vote", "hi": "मतदान करना, वोट देना", "pron": "वो-ते", "ipa": "vɔte", "pos": "verb" },
+    { "fr": "le compte rendu", "en": "minutes, written summary (of a meeting)", "hi": "बैठक का ब्योरा", "pron": "लö कोँत ग़ाँ-दü", "ipa": "lə kɔ̃t ʁɑ̃dy", "pos": "noun", "gender": "m", "lemma": "compte rendu" },
+    { "fr": "le résident", "en": "resident", "hi": "निवासी", "pron": "लö ग़े-ज़ी-दाँ", "ipa": "lə ʁezidɑ̃", "pos": "noun", "gender": "m", "lemma": "résident", "note": { "en": "Feminine: la résidente.", "hi": "स्त्रीलिंग: la résidente।" } },
+    { "fr": "la ruelle", "en": "back lane, alley", "hi": "पिछली गली", "pron": "ला ग़ü-ऐल", "ipa": "la ʁɥɛl", "pos": "noun", "gender": "f", "lemma": "ruelle", "note": { "en": "In Montréal, a 'ruelle verte' is a back lane turned into a green space by residents.", "hi": "मॉन्ट्रियाल में 'ruelle verte' वह पिछली गली है जिसे निवासी हरियाली वाली जगह में बदल देते हैं।" } }
+  ],
+  "phrases": [
+    { "fr": "Je propose de planter des arbres.", "en": "I suggest planting trees.", "hi": "मेरा सुझाव है कि पेड़ लगाए जाएँ।", "pron": "झ़ö प्ग़ो-पोज़ दö प्लाँ-ते दे ज़ाग़्ब्ग़" },
+    { "fr": "On pourrait mettre les bancs au milieu.", "en": "We could put the benches in the middle.", "hi": "हम बेंच बीच में रख सकते हैं।", "pron": "ओँ पू-ग़ै मैत्ग़ ले बाँ ओ मी-ल्यö" },
+    { "fr": "Et si on organisait une fête ?", "en": "What if we organised a party?", "hi": "क्यों न हम एक पार्टी रखें?", "pron": "ए सी ओँ नॉग़-गा-नी-ज़ै üन फ़ैत", "note": { "en": "Et si + imparfait = a friendly suggestion (link with Day 66).", "hi": "Et si + imparfait = दोस्ताना सुझाव (दिन 66 से जोड़िए)।" } },
+    { "fr": "Ça me semble raisonnable.", "en": "That seems reasonable to me.", "hi": "मुझे यह ठीक लगता है।", "pron": "सा मö साँब्ल ग़ै-ज़ो-नाब्ल" },
+    { "fr": "Qui serait volontaire ?", "en": "Who would volunteer?", "hi": "कौन स्वेच्छा से यह करेगा?", "pron": "की स्ग़ै वो-लोँ-तैग़" },
+    { "fr": "Alors, je résume.", "en": "So, let me sum up.", "hi": "तो, मैं सार बताता हूँ।", "pron": "आ-लॉग़ झ़ö ग़े-ज़üम" }
+  ],
+  "grammar": {
+    "title": { "en": "Recap: proposing, objecting and describing in a meeting", "hi": "दोहराई: बैठक में प्रस्ताव, आपत्ति और वर्णन" },
+    "explanation": {
+      "en": "To PROPOSE, use the softening conditional of Day 65: on pourrait + infinitive, il faudrait + infinitive, ce serait bien de + infinitive, j'aimerais proposer… Or use je propose de + infinitive, or the friendly 'Et si on + imparfait ?' (Et si on votait ?). To IMAGINE consequences, use si + imparfait → conditional (Day 66): Si on mettait des bancs, les enfants joueraient dehors. To OBJECT politely: je comprends, mais… / par contre… / cependant… (Day 69). To DESCRIBE precisely, use relatives (Days 67–68): les enfants qui jouent dans la ruelle, l'endroit où…, le projet dont on parle, ce qui serait génial, c'est… To COMPARE options: je préfère A à B; d'un côté… de l'autre… (Day 64).",
+      "hi": "प्रस्ताव रखने के लिए दिन 65 का नरम conditionnel इस्तेमाल कीजिए: on pourrait + infinitive, il faudrait + infinitive, ce serait bien de + infinitive, j'aimerais proposer… या je propose de + infinitive, या दोस्ताना 'Et si on + imparfait ?' (Et si on votait ? — क्यों न वोट कर लें?)। नतीजों की कल्पना के लिए si + imparfait → conditionnel (दिन 66): Si on mettait des bancs, les enfants joueraient dehors। शिष्टता से आपत्ति के लिए: je comprends, mais… / par contre… / cependant… (दिन 69)। सटीक वर्णन के लिए relative सर्वनाम (दिन 67–68): les enfants qui jouent dans la ruelle, l'endroit où…, le projet dont on parle, ce qui serait génial, c'est… विकल्पों की तुलना के लिए: je préfère A à B; d'un côté… de l'autre… (दिन 64)।"
+    },
+    "comparison": {
+      "en": "Hindi suggestions often use 'क्यों न…?' (क्यों न पार्टी रखें?). French 'Et si on…?' is the same idea — but remember the imparfait after si: Et si on faisait…? (not 'Et si on fera').",
+      "hi": "हिंदी में सुझाव अक्सर 'क्यों न…?' से दिए जाते हैं (क्यों न पार्टी रखें?)। फ़्रेंच 'Et si on…?' वही विचार है — लेकिन si के बाद imparfait याद रखिए: Et si on faisait…? ('Et si on fera' नहीं)।"
+    },
+    "examples": [
+      { "fr": "On pourrait commencer la réunion à dix-neuf heures.", "en": "We could start the meeting at 7 p.m.", "hi": "हम बैठक शाम सात बजे शुरू कर सकते हैं।", "pron": "ओँ पू-ग़ै को-माँ-से ला ग़े-ü-न्योँ आ दीज़-नöफ़ öग़" },
+      { "fr": "Il faudrait demander l'avis des résidents.", "en": "We should ask the residents' opinion.", "hi": "निवासियों की राय पूछनी चाहिए।", "pron": "ईल फ़ो-द्ग़ै दö-माँ-दे ला-वी दे ग़े-ज़ी-दाँ" },
+      { "fr": "Et si on votait maintenant ?", "en": "What if we voted now?", "hi": "क्यों न अभी वोट कर लें?", "pron": "ए सी ओँ वो-तै मैँत-नाँ" },
+      { "fr": "Si on plantait des arbres, la ruelle serait plus fraîche.", "en": "If we planted trees, the lane would be cooler.", "hi": "अगर हम पेड़ लगाते, तो गली ज़्यादा ठंडी रहती।", "pron": "सी ओँ प्लाँ-तै दे ज़ाग़्ब्ग़ ला ग़ü-ऐल स्ग़ै प्लü फ़्ग़ैश" },
+      { "fr": "C'est le projet dont tout le monde parle.", "en": "It's the project everybody is talking about.", "hi": "यह वह प्रोजेक्ट है जिसकी सब चर्चा कर रहे हैं।", "pron": "सै लö प्ग़ो-झ़ै दोँ तू लö मोँद पाग़्ल" }
+    ],
+    "pitfalls": [
+      { "en": "After 'Et si on…', use the imparfait: Et si on allait au parc ? — not 'Et si on irait'.", "hi": "'Et si on…' के बाद imparfait: Et si on allait au parc ? — 'Et si on irait' नहीं।" },
+      { "en": "Je propose DE + infinitive: 'je propose planter' is wrong.", "hi": "Je propose DE + infinitive: 'je propose planter' ग़लत है।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Review: intonation of proposals, questions and objections",
+    "tip": {
+      "en": "A proposal with 'Et si on…?' rises at the end ↗. A firm decision falls ↘: 'On vote.' An objection often starts with a higher, slower 'Je comprends…' then a clear 'mais' with a little stress. Practise the three melodies on the same sentence: On met des bancs ? ↗ / On met des bancs. ↘ / Oui, mais… des bancs ?",
+      "hi": "'Et si on…?' वाला सुझाव अंत में ऊपर जाता है ↗। पक्का फ़ैसला नीचे आता है ↘: 'On vote.'। आपत्ति अक्सर थोड़े ऊँचे, धीमे 'Je comprends…' से शुरू होती है और फिर 'mais' पर हल्का ज़ोर। एक ही वाक्य पर तीनों धुनें अभ्यास कीजिए: On met des bancs ? ↗ / On met des bancs. ↘ / Oui, mais… des bancs ?"
+    },
+    "words": [
+      { "fr": "Et si on votait ?", "en": "What if we voted?", "hi": "क्यों न वोट करें?", "pron": "ए सी ओँ वो-तै ↗", "ipa": "e si ɔ̃ vɔtɛ" },
+      { "fr": "On pourrait…", "en": "We could…", "hi": "हम … सकते हैं", "pron": "ओँ पू-ग़ै", "ipa": "ɔ̃ puʁɛ" },
+      { "fr": "Je comprends, mais…", "en": "I understand, but…", "hi": "मैं समझता हूँ, लेकिन…", "pron": "झ़ö कोँ-प्ग़ाँ मै", "ipa": "ʒə kɔ̃pʁɑ̃ mɛ" },
+      { "fr": "la ruelle", "en": "the back lane", "hi": "पिछली गली", "pron": "ला ग़ü-ऐल", "ipa": "la ʁɥɛl" },
+      { "fr": "Qui serait volontaire ?", "en": "Who would volunteer?", "hi": "कौन स्वेच्छा से करेगा?", "pron": "की स्ग़ै वो-लोँ-तैग़ ↗", "ipa": "ki s(ə)ʁɛ vɔlɔ̃tɛʁ" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Réunion des résidents : le projet de ruelle verte", "en": "Residents' meeting: the green-lane project" },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Residents of a street in Rosemont, Montréal, meet in the evening to discuss turning their back lane into a 'ruelle verte'. Mme Côté chairs the meeting; M. Bernard, a retired neighbour, has doubts.",
+      "hi": "मॉन्ट्रियाल के रोज़मों इलाक़े की एक गली के निवासी शाम को मिलते हैं ताकि अपनी पिछली गली को 'ruelle verte' (हरी गली) बनाने पर चर्चा करें। मदाम कोते बैठक चला रही हैं; रिटायर पड़ोसी मोसियो बेर्नार को शंकाएँ हैं।"
+    },
+    "lines": [
+      { "speaker": "Mme Côté", "voice": "f2", "fr": "Bonsoir à tous, merci d'être venus. Ce soir, nous parlons du projet de ruelle verte. Qui veut commencer ?", "en": "Good evening everyone, thank you for coming. Tonight we're talking about the green-lane project. Who wants to start?", "hi": "सभी को शुभ संध्या, आने के लिए धन्यवाद। आज हम हरी गली के प्रोजेक्ट पर बात करेंगे। कौन शुरू करना चाहेगा?" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Moi. Je propose de planter des arbres et de mettre des bancs. Ce serait bien pour les enfants qui jouent dans la ruelle.", "en": "Me. I suggest planting trees and putting in benches. It would be good for the children who play in the lane.", "hi": "मैं। मेरा सुझाव है कि पेड़ लगाए जाएँ और बेंच रखी जाएँ। यह गली में खेलने वाले बच्चों के लिए अच्छा होगा।" },
+      { "speaker": "M. Bernard", "voice": "m2", "fr": "C'est joli, mais qui va payer ? Moi, je suis à la retraite, je n'ai pas beaucoup d'argent.", "en": "That's nice, but who's going to pay? I'm retired, I don't have much money.", "hi": "सुनने में अच्छा है, लेकिन पैसे कौन देगा? मैं रिटायर हूँ, मेरे पास ज़्यादा पैसे नहीं हैं।" },
+      { "speaker": "Mme Côté", "voice": "f2", "fr": "Bonne question. La ville paie la plus grande partie, si au moins la moitié des résidents signent la demande.", "en": "Good question. The city pays most of it, if at least half the residents sign the request.", "hi": "अच्छा सवाल है। अगर कम से कम आधे निवासी आवेदन पर हस्ताक्षर करें, तो ज़्यादातर ख़र्च नगर देता है।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Et si on organisait une corvée de nettoyage au printemps ? Ça ne coûterait rien et tout le monde pourrait participer.", "en": "What if we organised a clean-up day in spring? It wouldn't cost anything and everyone could take part.", "hi": "क्यों न हम वसंत में सफ़ाई का एक दिन रखें? इसमें कोई ख़र्च नहीं होगा और सब हिस्सा ले सकेंगे।" },
+      { "speaker": "M. Bernard", "voice": "m2", "fr": "Pourquoi pas. Par contre, je ne veux pas de bancs sous ma fenêtre : les jeunes feraient du bruit le soir.", "en": "Why not. On the other hand, I don't want benches under my window: young people would make noise in the evening.", "hi": "क्यों नहीं। लेकिन मुझे अपनी खिड़की के नीचे बेंच नहीं चाहिए: नौजवान शाम को शोर मचाएँगे।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Je comprends. On pourrait mettre les bancs au milieu de la ruelle, loin des fenêtres.", "en": "I understand. We could put the benches in the middle of the lane, away from the windows.", "hi": "मैं समझता हूँ। हम बेंच गली के बीच में, खिड़कियों से दूर रख सकते हैं।" },
+      { "speaker": "Mme Côté", "voice": "f2", "fr": "Ça me semble raisonnable. Monsieur Bernard, qu'est-ce que vous en pensez ?", "en": "That seems reasonable to me. Mr Bernard, what do you think?", "hi": "मुझे यह ठीक लगता है। मोसियो बेर्नार, आपकी क्या राय है?" },
+      { "speaker": "M. Bernard", "voice": "m2", "fr": "Si les bancs sont loin de chez moi, je suis d'accord. De plus, j'aimerais bien un petit jardin de fleurs.", "en": "If the benches are far from my place, I agree. What's more, I'd quite like a small flower garden.", "hi": "अगर बेंच मेरे घर से दूर हों, तो मैं सहमत हूँ। साथ ही, मुझे फूलों की एक छोटी क्यारी अच्छी लगेगी।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Excellente idée ! Ce qui serait génial, c'est un potager commun. Les enfants apprendraient à cultiver des légumes.", "en": "Excellent idea! What would be great is a shared vegetable garden. The children would learn to grow vegetables.", "hi": "बढ़िया ख़याल! जो सबसे बढ़िया होगा, वह है एक साझा सब्ज़ी बगीचा। बच्चे सब्ज़ियाँ उगाना सीखेंगे।" },
+      { "speaker": "Mme Côté", "voice": "f2", "fr": "Attention, il faudrait quelqu'un pour s'en occuper l'été. Qui serait volontaire ?", "en": "Careful, we'd need someone to look after it in summer. Who would volunteer?", "hi": "ध्यान रहे, गर्मियों में इसकी देखभाल के लिए किसी की ज़रूरत होगी। कौन स्वेच्छा से करेगा?" },
+      { "speaker": "M. Bernard", "voice": "m2", "fr": "Moi ! J'avais un grand potager quand j'habitais à la campagne.", "en": "Me! I had a big vegetable garden when I lived in the countryside.", "hi": "मैं! जब मैं गाँव में रहता था, तो मेरा एक बड़ा सब्ज़ी बगीचा था।" },
+      { "speaker": "Arjun", "voice": "m1", "fr": "Parfait. Alors, je résume : des arbres, des bancs au milieu, un potager et une corvée en avril.", "en": "Perfect. So, let me sum up: trees, benches in the middle, a vegetable garden and a clean-up day in April.", "hi": "बढ़िया। तो मैं सार बताता हूँ: पेड़, बीच में बेंच, एक सब्ज़ी बगीचा और अप्रैल में सफ़ाई का दिन।" },
+      { "speaker": "Mme Côté", "voice": "f2", "fr": "On vote ? Qui est pour ? … Unanimité ! Je vais écrire le compte rendu et l'envoyer à tous les résidents.", "en": "Shall we vote? Who's in favour? … Unanimous! I'll write the minutes and send them to all residents.", "hi": "वोट करें? कौन पक्ष में है? … सर्वसम्मति! मैं बैठक का ब्योरा लिखकर सभी निवासियों को भेज दूँगी।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Merci, madame Côté. Ça va être la plus belle ruelle du quartier !", "en": "Thank you, Mrs Côté. It's going to be the most beautiful lane in the neighbourhood!", "hi": "धन्यवाद, मदाम कोते। यह मोहल्ले की सबसे सुंदर गली बनेगी!" }
+    ],
+    "questions": [
+      { "q": { "en": "What does Arjun propose first?" }, "options": ["A parking lot", "Planting trees and putting in benches", "A party in the lane", "Closing the lane to children"], "answer": 1, "explanation": { "en": "He suggests planting trees and putting in benches.", "hi": "वह पेड़ लगाने और बेंच रखने का सुझाव देता है।" }, "kind": "literal", "evidence": "Je propose de planter des arbres et de mettre des bancs." },
+      { "q": { "en": "What is M. Bernard's first worry?" }, "options": ["The noise", "The trees' leaves", "Who will pay", "The children's safety"], "answer": 2, "explanation": { "en": "He asks who is going to pay — he is retired.", "hi": "वह पूछता है कि पैसे कौन देगा — वह रिटायर है।" }, "kind": "literal", "evidence": "qui va payer ?" },
+      { "q": { "en": "What does Priya suggest?" }, "options": ["A spring clean-up day", "Selling vegetables", "Asking the city for benches", "A second meeting"], "answer": 0, "explanation": { "en": "'Et si on organisait une corvée de nettoyage au printemps ?'", "hi": "'Et si on organisait une corvée de nettoyage au printemps ?' — वसंत में सफ़ाई का दिन।" }, "kind": "literal", "evidence": "Et si on organisait une corvée de nettoyage au printemps ?" },
+      { "q": { "en": "Why doesn't M. Bernard want benches under his window?" }, "options": ["They are ugly", "They are expensive", "They block his car", "Young people would make noise in the evening"], "answer": 3, "explanation": { "en": "He thinks young people would make noise there in the evening.", "hi": "उसे लगता है कि नौजवान वहाँ शाम को शोर मचाएँगे।" }, "kind": "inference", "evidence": "les jeunes feraient du bruit le soir" },
+      { "q": { "en": "Why does M. Bernard volunteer to look after the vegetable garden?" }, "options": ["He has experience: he used to have a big one", "He lives next to it", "He is paid by the city", "Nobody else can"], "answer": 0, "explanation": { "en": "He had a big vegetable garden when he lived in the countryside.", "hi": "जब वह गाँव में रहता था, उसका एक बड़ा सब्ज़ी बगीचा था।" }, "kind": "inference", "evidence": "J'avais un grand potager quand j'habitais à la campagne." },
+      { "q": { "en": "How does the meeting end?" }, "options": ["They postpone the decision", "Everyone votes in favour", "M. Bernard votes against", "The city refuses the project"], "answer": 1, "explanation": { "en": "The vote is unanimous.", "hi": "वोट सर्वसम्मति से होता है।" }, "kind": "gist", "evidence": "Unanimité !" }
+    ],
+    "dictation": ["Je propose de planter des arbres.", "On pourrait mettre les bancs au milieu de la ruelle.", "Ce qui serait génial, c'est un potager commun."],
+    "gapFill": { "text": "Et si on ___ une corvée au printemps ? Ça ne ___ rien.", "answers": ["organisait", "coûterait"] }
+  },
+  "speaking": {
+    "type": "roleplay",
+    "instructions": {
+      "en": "You are at a meeting of your building's residents. Make at least three proposals to improve the building, answer the partner's objections politely, and help the group reach a decision. Use the conditional, si + imparfait and at least two relative pronouns.",
+      "hi": "आप अपनी इमारत के निवासियों की बैठक में हैं। इमारत को बेहतर बनाने के कम से कम तीन प्रस्ताव रखिए, सामने वाले की आपत्तियों का शिष्टता से जवाब दीजिए, और समूह को किसी फ़ैसले तक पहुँचने में मदद कीजिए। conditionnel, si + imparfait और कम से कम दो relative सर्वनाम इस्तेमाल कीजिए।"
+    },
+    "prompts": [
+      { "fr": "Proposez une amélioration pour la cour de l'immeuble.", "en": "Propose an improvement for the building's courtyard.", "hi": "इमारत के आँगन के लिए कोई सुधार सुझाइए।", "pron": "प्ग़ो-पो-ज़े üन ना-मे-ल्यो-ग़ा-स्योँ पूग़ ला कूग़ दö ली-मö-ब्ल", "model": "Je propose d'installer des tables. Si on avait des tables, les familles qui habitent ici pourraient manger dehors l'été." },
+      { "fr": "Un voisin dit : « Ça coûte trop cher. » Répondez.", "en": "A neighbour says: 'It costs too much.' Answer.", "hi": "एक पड़ोसी कहता है: 'यह बहुत महँगा है।' जवाब दीजिए।", "pron": "ऐँ व्वा-ज़ैँ दी सा कूत त्ग़ो शैग़ ग़े-पोँ-दे", "model": "Je comprends. Cependant, on pourrait demander une aide à la ville, ou partager le prix entre quarante logements." },
+      { "fr": "Proposez une activité pour que les voisins se rencontrent.", "en": "Suggest an activity so that neighbours meet each other.", "hi": "कोई ऐसी गतिविधि सुझाइए जिससे पड़ोसी एक-दूसरे से मिलें।", "pron": "प्ग़ो-पो-ज़े üन नाक-ती-वी-ते पूग़ कö ले व्वा-ज़ैँ सö ग़ाँ-कोँत्ग़", "model": "Et si on organisait une fête des voisins en juin ? Chacun apporterait un plat de son pays." },
+      { "fr": "Un voisin préfère ne rien changer. Convainquez-le gentiment.", "en": "A neighbour prefers to change nothing. Convince him kindly.", "hi": "एक पड़ोसी कुछ भी नहीं बदलना चाहता। उसे प्यार से मनाइए।", "pron": "ऐँ व्वा-ज़ैँ प्ग़े-फ़ैग़ नö ग़्यैँ शाँ-झ़े कोँ-वैँ-के लö झ़ाँ-ती-माँ", "model": "D'un côté, je vous comprends. De l'autre, ce que les résidents demandent, c'est un peu plus de vie dans la cour. On pourrait essayer pendant un été." },
+      { "fr": "Résumez les décisions de la réunion.", "en": "Sum up the meeting's decisions.", "hi": "बैठक के फ़ैसलों का सार बताइए।", "pron": "ग़े-ज़ü-मे ले दे-सी-ज़्योँ दö ला ग़े-ü-न्योँ", "model": "Alors, je résume : des tables dans la cour, une fête des voisins en juin, et le comité qui écrira à la ville." }
+    ],
+    "tip": {
+      "en": "In a meeting, the person who reformulates and sums up looks most competent. 'Si je comprends bien, vous voulez…' and 'Alors, je résume…' are two phrases worth gold in the TEF speaking test.",
+      "hi": "बैठक में जो व्यक्ति बात को दोहराकर सार बताता है, वह सबसे क़ाबिल लगता है। 'Si je comprends bien, vous voulez…' और 'Alors, je résume…' TEF बोलने की परीक्षा में सोने जैसे क़ीमती वाक्य हैं।"
+    },
+    "scenario": {
+      "setting": { "en": "The common room of an apartment building in Gatineau, during a residents' meeting.", "hi": "गैटिनो की एक अपार्टमेंट इमारत का साझा कमरा, निवासियों की बैठक के दौरान।" },
+      "learnerRole": { "en": "A resident who wants to make the courtyard more pleasant and organise activities.", "hi": "एक निवासी जो आँगन को ज़्यादा सुहावना बनाना और गतिविधियाँ आयोजित करना चाहता है।" },
+      "partnerRole": { "en": "A long-time resident who is worried about cost and noise, sometimes disagrees, but can be convinced by good arguments.", "hi": "एक पुराना निवासी जिसे ख़र्च और शोर की चिंता है, कभी-कभी असहमत होता है, लेकिन अच्छे तर्कों से मान सकता है।" },
+      "goals": [
+        { "en": "Make three proposals with on pourrait / il faudrait / et si on…?", "hi": "on pourrait / il faudrait / et si on…? से तीन प्रस्ताव रखिए।" },
+        { "en": "Answer each objection with je comprends, mais… or cependant…", "hi": "हर आपत्ति का जवाब je comprends, mais… या cependant… से दीजिए।" },
+        { "en": "End by summarising the decisions.", "hi": "फ़ैसलों का सार बताकर अंत कीजिए।" }
+      ]
+    }
+  },
+  "reading": {
+    "genre": "notice",
+    "title": "Compte rendu — Réunion des résidents de la ruelle des Érables",
+    "text": "Date : mardi 14 mars, 19 h, salle communautaire\nPrésents : 23 résidents (sur 40 logements)\nPrésidente : Monique Côté\n\n1. Projet de ruelle verte\nLes résidents ont discuté du projet de ruelle verte présenté par M. Arjun Mehra. La ville paiera environ 80 % des travaux si au moins la moitié des logements signent la demande. Bonne nouvelle : 23 logements sur 40 ont déjà signé la demande, c'est donc plus de la moitié.\n\nDécisions :\n– planter six arbres et installer deux bancs au milieu de la ruelle, loin des fenêtres ;\n– créer un potager commun. M. Gérard Bernard, qui a beaucoup d'expérience, s'en occupera pendant l'été ;\n– organiser une corvée de nettoyage le samedi 22 avril, de 9 h à midi. Les résidents qui ont des gants et des sacs peuvent les apporter. Le café et les beignes seront offerts par l'association.\n\n2. Questions diverses\nPlusieurs résidents se plaignent des voitures qui roulent trop vite dans la ruelle. Il faudrait installer un panneau « Attention : enfants ». Mme Priya Sharma écrira à l'arrondissement pour faire la demande.\nOn a aussi parlé du stationnement des vélos. Cependant, les avis étaient très différents : la décision est reportée à la prochaine réunion.\n\nProchaine réunion : mardi 9 mai, 19 h.\nRédaction : Monique Côté",
+    "translation": {
+      "en": "Minutes — Meeting of the residents of Maple Lane\n\nDate: Tuesday 14 March, 7 p.m., community room\nPresent: 23 residents (out of 40 households)\nChair: Monique Côté\n\n1. Green-lane project\nThe residents discussed the green-lane project presented by Mr Arjun Mehra. The city will pay about 80% of the work if at least half of the households sign the request. Good news: 23 households out of 40 have already signed the request, so that is more than half.\n\nDecisions:\n– plant six trees and install two benches in the middle of the lane, away from the windows;\n– create a shared vegetable garden. Mr Gérard Bernard, who has a lot of experience, will look after it during the summer;\n– organise a clean-up day on Saturday 22 April, from 9 a.m. to noon. Residents who have gloves and bags can bring them. Coffee and doughnuts will be offered by the association.\n\n2. Other business\nSeveral residents complain about cars driving too fast in the lane. A 'Watch out: children' sign should be installed. Ms Priya Sharma will write to the borough to make the request.\nBike parking was also discussed. However, opinions were very different: the decision is postponed to the next meeting.\n\nNext meeting: Tuesday 9 May, 7 p.m.\nWritten by: Monique Côté",
+      "hi": "बैठक का ब्योरा — मेपल गली (रुएल दे ज़ेराब्ल) के निवासियों की बैठक\n\nतारीख़: मंगलवार 14 मार्च, शाम 7 बजे, सामुदायिक कक्ष\nउपस्थित: 23 निवासी (40 घरों में से)\nअध्यक्ष: मोनीक कोते\n\n1. हरी गली प्रोजेक्ट\nनिवासियों ने मोसियो अर्जुन मेहरा द्वारा रखे गए हरी गली प्रोजेक्ट पर चर्चा की। अगर कम से कम आधे घर आवेदन पर हस्ताक्षर करें, तो नगर लगभग 80% काम का ख़र्च देगा। अच्छी ख़बर: 40 में से 23 घर पहले ही आवेदन पर हस्ताक्षर कर चुके हैं, यानी आधे से ज़्यादा।\n\nफ़ैसले:\n– छह पेड़ लगाना और गली के बीच में, खिड़कियों से दूर, दो बेंच लगाना;\n– एक साझा सब्ज़ी बगीचा बनाना। मोसियो जेरार बेर्नार, जिन्हें काफ़ी अनुभव है, गर्मियों में इसकी देखभाल करेंगे;\n– शनिवार 22 अप्रैल को सुबह 9 बजे से दोपहर 12 बजे तक सफ़ाई का दिन रखना। जिन निवासियों के पास दस्ताने और थैले हैं, वे उन्हें ला सकते हैं। कॉफ़ी और डोनट संस्था की ओर से होंगे।\n\n2. अन्य विषय\nकई निवासियों को शिकायत है कि गली में गाड़ियाँ बहुत तेज़ चलती हैं। 'सावधान: बच्चे' का बोर्ड लगना चाहिए। मदाम प्रिया शर्मा यह माँग करने के लिए नगर-क्षेत्र कार्यालय को लिखेंगी।\nसाइकिल पार्किंग पर भी बात हुई। हालाँकि, राय बहुत अलग-अलग थीं: फ़ैसला अगली बैठक तक टाल दिया गया है।\n\nअगली बैठक: मंगलवार 9 मई, शाम 7 बजे।\nलेखन: मोनीक कोते"
+    },
+    "questions": [
+      { "q": { "en": "How many households have signed the request?" }, "options": ["14", "20", "23", "40"], "answer": 2, "explanation": { "en": "23 households out of 40 have already signed.", "hi": "40 में से 23 घर पहले ही हस्ताक्षर कर चुके हैं।" }, "kind": "literal", "evidence": "23 logements sur 40 ont déjà signé la demande" },
+      { "q": { "en": "How much of the work will the city pay?" }, "options": ["About 80%", "Half", "All of it", "Nothing"], "answer": 0, "explanation": { "en": "The city will pay about 80% of the work.", "hi": "नगर लगभग 80% काम का ख़र्च देगा।" }, "kind": "literal", "evidence": "La ville paiera environ 80 % des travaux" },
+      { "q": { "en": "What can residents bring to the clean-up day?" }, "options": ["Coffee and doughnuts", "Trees and flowers", "Their bikes", "Gloves and bags"], "answer": 3, "explanation": { "en": "Residents who have gloves and bags can bring them; coffee is offered by the association.", "hi": "जिनके पास दस्ताने और थैले हैं, वे ला सकते हैं; कॉफ़ी संस्था देगी।" }, "kind": "literal", "evidence": "Les résidents qui ont des gants et des sacs peuvent les apporter." },
+      { "q": { "en": "What problem did several residents raise?" }, "options": ["Noise from the benches", "Cars driving too fast in the lane", "Too many bikes", "The cost of the trees"], "answer": 1, "explanation": { "en": "They complain about cars driving too fast in the lane.", "hi": "उन्हें गली में तेज़ चलने वाली गाड़ियों की शिकायत है।" }, "kind": "literal", "evidence": "des voitures qui roulent trop vite dans la ruelle" },
+      { "q": { "en": "Which topic was NOT decided at this meeting?" }, "options": ["The vegetable garden", "The benches", "Bike parking", "The clean-up date"], "answer": 2, "explanation": { "en": "Opinions were different, so the bike-parking decision is postponed.", "hi": "राय अलग-अलग थीं, इसलिए साइकिल पार्किंग का फ़ैसला टाल दिया गया।" }, "kind": "inference", "evidence": "la décision est reportée à la prochaine réunion" }
+    ]
+  },
+  "writing": {
+    "type": "message",
+    "prompt": {
+      "en": "You couldn't attend the residents' meeting. Write a message to the chair, Mme Côté: apologise, say what you think of the decisions, make one new proposal (with the conditional) and explain what would happen if it were accepted (si + imparfait).",
+      "hi": "आप निवासियों की बैठक में नहीं जा पाए। अध्यक्ष मदाम कोते को संदेश लिखिए: माफ़ी माँगिए, फ़ैसलों पर अपनी राय बताइए, एक नया प्रस्ताव रखिए (conditionnel के साथ) और समझाइए कि अगर वह मान लिया जाए तो क्या होगा (si + imparfait)।",
+      "fr": "Écrivez à Mme Côté après la réunion."
+    },
+    "minWords": 100,
+    "maxWords": 160,
+    "hints": [
+      { "en": "Use vous and a polite opening and closing.", "hi": "vous और शिष्ट शुरुआत व समापन इस्तेमाल कीजिए।" },
+      { "en": "Refer to the decisions with relatives: le potager dont vous avez parlé, les bancs qui…", "hi": "relative सर्वनामों से फ़ैसलों का ज़िक्र कीजिए: le potager dont vous avez parlé, les bancs qui…" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Je n'ai malheureusement pas pu venir à la réunion.", "en": "Unfortunately, I couldn't come to the meeting.", "hi": "दुर्भाग्य से मैं बैठक में नहीं आ सका/सकी।", "pron": "झ़ö ने मा-लö-ग़öज़-माँ पा पü व्नीग़ आ ला ग़े-ü-न्योँ" },
+      { "fr": "J'aimerais proposer …", "en": "I'd like to propose …", "hi": "मैं … का प्रस्ताव रखना चाहूँगा", "pron": "झ़ैम-ग़ै प्ग़ो-पो-ज़े" },
+      { "fr": "Si on …, les résidents pourraient …", "en": "If we …, residents could …", "hi": "अगर हम …, तो निवासी … सकते", "pron": "सी ओँ ले ग़े-ज़ी-दाँ पू-ग़ै" }
+    ],
+    "model": {
+      "fr": "Bonjour madame Côté,\nJe n'ai malheureusement pas pu venir à la réunion de mardi, car je travaillais le soir. Merci beaucoup pour le compte rendu que vous avez envoyé. Je trouve que les décisions sont excellentes, surtout le potager dont M. Bernard va s'occuper. Mes enfants seront ravis !\nJ'aimerais proposer une idée pour la prochaine réunion. On pourrait installer une petite bibliothèque libre-service au bout de la ruelle : une boîte où les voisins laissent des livres qu'ils ont déjà lus. Si on avait une boîte comme ça, les enfants liraient plus et les voisins se parleraient davantage. Ce serait aussi gratuit, parce que je pourrais la construire moi-même.\nQu'en pensez-vous ?\nCordialement,\nRavi Kumar, logement 12",
+      "en": "Hello Mrs Côté,\nUnfortunately I couldn't come to Tuesday's meeting, as I was working in the evening. Thank you very much for the minutes you sent. I think the decisions are excellent, especially the vegetable garden Mr Bernard is going to look after. My children will be delighted!\nI'd like to propose an idea for the next meeting. We could install a small free library at the end of the lane: a box where neighbours leave books they have already read. If we had a box like that, the children would read more and the neighbours would talk to each other more. It would also be free, because I could build it myself.\nWhat do you think?\nKind regards,\nRavi Kumar, unit 12"
+    },
+    "checklist": [
+      { "en": "Did you apologise and give a reason (car, parce que)?", "hi": "क्या आपने माफ़ी माँगी और कारण दिया (car, parce que)?" },
+      { "en": "Did you make a proposal with on pourrait / j'aimerais proposer?", "hi": "क्या आपने on pourrait / j'aimerais proposer से प्रस्ताव रखा?" },
+      { "en": "Did you write a si + imparfait → conditional sentence?", "hi": "क्या आपने si + imparfait → conditionnel वाला वाक्य लिखा?" },
+      { "en": "Did you use at least two relative pronouns?", "hi": "क्या आपने कम से कम दो relative सर्वनाम इस्तेमाल किए?" }
+    ]
+  },
+  "review": {
+    "fromDays": [64, 65, 66, 67, 68, 69],
+    "items": [
+      { "fr": "Je préfère le bus au métro.", "en": "I prefer the bus to the metro.", "hi": "मुझे मेट्रो से ज़्यादा बस पसंद है।", "pron": "झ़ö प्ग़े-फ़ैग़ लö बüस ओ मे-त्ग़ो" },
+      { "fr": "D'un côté c'est grand, de l'autre c'est loin.", "en": "On one hand it's big, on the other it's far.", "hi": "एक तरफ़ यह बड़ा है, दूसरी तरफ़ दूर।", "pron": "दैँ को-ते सै ग्ग़ाँ दö लोत्ग़ सै ल्वैँ" },
+      { "fr": "Je voudrais un rendez-vous, s'il vous plaît.", "en": "I'd like an appointment, please.", "hi": "मुझे एक अपॉइंटमेंट चाहिए, कृपया।", "pron": "झ़ö वू-द्ग़ै ऐँ ग़ाँ-दे-वू सील वू प्लै" },
+      { "fr": "Pourriez-vous m'envoyer le formulaire ?", "en": "Could you send me the form?", "hi": "क्या आप मुझे फ़ॉर्म भेज सकेंगे?", "pron": "पू-ग़्ये वू माँ-व्वा-ये लö फ़ॉग़-मü-लैग़" },
+      { "fr": "Ça vous dérangerait de fermer la porte ?", "en": "Would you mind closing the door?", "hi": "क्या आप दरवाज़ा बंद करने की तकलीफ़ करेंगे?", "pron": "सा वू दे-ग़ाँझ़-ग़ै दö फ़ैग़-मे ला पॉग़्त" },
+      { "fr": "Si j'avais le temps, je ferais du bénévolat.", "en": "If I had time, I'd do volunteer work.", "hi": "अगर मेरे पास समय होता, तो मैं स्वयंसेवा करता।", "pron": "सी झ़ा-वै लö ताँ झ़ö फ़ö-ग़ै दü बे-ने-वो-ला" },
+      { "fr": "À ta place, je dirais oui.", "en": "If I were you, I'd say yes.", "hi": "तुम्हारी जगह मैं होता तो हाँ कहता।", "pron": "आ ता प्लास झ़ö दी-ग़ै वी" },
+      { "fr": "C'est la voisine qui m'a aidé.", "en": "It's the neighbour who helped me.", "hi": "यही वह पड़ोसन है जिसने मेरी मदद की।", "pron": "सै ला व्वा-ज़ीन की मा ए-दे" },
+      { "fr": "Le parc où je cours est tout près.", "en": "The park where I run is very close.", "hi": "जिस पार्क में मैं दौड़ता हूँ, वह बहुत पास है।", "pron": "लö पाग़्क ऊ झ़ö कूग़ ऐ तू प्ग़ै" },
+      { "fr": "C'est exactement ce dont j'ai besoin.", "en": "It's exactly what I need.", "hi": "मुझे ठीक यही चाहिए।", "pron": "सै तैग-ज़ाक-तö-माँ सö दोँ झ़े बö-ज़्वैँ" },
+      { "fr": "Ce que j'aime ici, c'est le calme.", "en": "What I like here is the quiet.", "hi": "यहाँ मुझे जो पसंद है, वह है शांति।", "pron": "सö कö झ़ैम ई-सी सै लö काल्म" },
+      { "fr": "C'est cher ; cependant, c'est pratique.", "en": "It's expensive; however, it's convenient.", "hi": "यह महँगा है; हालाँकि, सुविधाजनक है।", "pron": "सै शैग़ सö-पाँ-दाँ सै प्ग़ा-तीक" },
+      { "fr": "De plus, le quartier est sûr.", "en": "What's more, the neighbourhood is safe.", "hi": "साथ ही, इलाक़ा सुरक्षित है।", "pron": "दö प्लüस लö काग़-त्ये ऐ सüग़" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Choose the friendly suggestion: 'What if we organised a party?'", "hi": "दोस्ताना सुझाव चुनिए: 'क्यों न हम पार्टी रखें?'" }, "options": ["Et si on organisera une fête ?", "Et si on organisait une fête ?", "Et si on organiserait une fête ?", "Et si on organise une fête ?"], "answer": 1, "explanation": { "en": "Et si + imparfait.", "hi": "Et si + imparfait।" } },
+    { "type": "fill", "prompt": { "en": "Complete with pouvoir in the conditional (on): We could vote now.", "hi": "pouvoir के conditionnel (on) से पूरा कीजिए: हम अभी वोट कर सकते हैं।" }, "sentence": "On ___ voter maintenant.", "answer": "pourrait", "accept": [], "explanation": { "en": "pourr- + -ait.", "hi": "pourr- + -ait।" } },
+    { "type": "mcq", "prompt": { "en": "Choose: 'Le potager ___ M. Bernard s'occupera est au fond de la ruelle.'", "hi": "चुनिए: 'Le potager ___ M. Bernard s'occupera est au fond de la ruelle.'" }, "options": ["que", "qui", "où", "dont"], "answer": 3, "explanation": { "en": "s'occuper DE → dont.", "hi": "s'occuper DE → dont।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "If we planted trees, the lane would be more beautiful.", "hi": "अगर हम पेड़ लगाते, तो गली ज़्यादा सुंदर होती।" }, "answer": "Si on plantait des arbres, la ruelle serait plus belle.", "accept": ["Si nous plantions des arbres, la ruelle serait plus belle.", "Si on plantait des arbres, la ruelle serait plus belle", "Si nous plantions des arbres, la ruelle serait plus belle"], "explanation": { "en": "si + imparfait → conditional; ruelle is feminine → belle.", "hi": "si + imparfait → conditionnel; ruelle स्त्रीलिंग है → belle।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: I suggest planting trees.", "hi": "शब्दों को सही क्रम में रखिए: मेरा सुझाव है कि पेड़ लगाए जाएँ।" }, "words": ["planter", "Je", "arbres.", "de", "propose", "des"], "answer": "Je propose de planter des arbres.", "explanation": { "en": "proposer DE + infinitive.", "hi": "proposer DE + infinitive।" } },
+    { "type": "mcq", "prompt": { "en": "Which connector fits a formal summary? 'Le projet coûte cher ; ___, il est très utile pour le quartier.'", "hi": "औपचारिक ब्योरे में कौन-सा योजक ठीक है? 'Le projet coûte cher ; ___, il est très utile pour le quartier.'" }, "options": ["de plus", "parce que", "cependant", "dont"], "answer": 2, "explanation": { "en": "The two parts are in contrast, and the register is formal: cependant.", "hi": "दोनों हिस्सों में विरोध है और शैली औपचारिक है: cependant।" } },
+    { "type": "fill", "prompt": { "en": "Complete: What would be great is a shared garden.", "hi": "पूरा कीजिए: जो बढ़िया होगा, वह है एक साझा बगीचा।" }, "sentence": "___ serait génial, c'est un jardin commun.", "answer": "Ce qui", "accept": ["ce qui"], "explanation": { "en": "A verb follows (serait) → ce qui.", "hi": "आगे क्रिया (serait) है → ce qui।" } }
+  ]
+}

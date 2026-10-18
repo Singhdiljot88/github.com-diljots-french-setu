@@ -1,0 +1,177 @@
+{
+  "day": 6,
+  "phase": 1,
+  "title": { "fr": "Masculin ou féminin ? Les articles", "en": "Is it masculine or feminine? Articles", "hi": "पुल्लिंग या स्त्रीलिंग? उपपद (articles)" },
+  "objective": {
+    "en": "Name everyday objects with the right article — un/une (a) and le/la/l' (the) — and understand that every French noun has a gender, which is often different from Hindi.",
+    "hi": "रोज़मर्रा की चीज़ों के नाम सही उपपद के साथ बोलना — un/une (एक) और le/la/l' (वह ख़ास) — और यह समझना कि फ़्रेंच की हर संज्ञा का लिंग होता है, जो अक्सर हिंदी से अलग होता है।"
+  },
+  "prerequisites": {
+    "days": [3, 4, 5],
+    "summary": { "en": "Masculine/feminine adjectives (Day 3), il/elle (Day 4), un/une with frère and sœur (Day 5).", "hi": "पुल्लिंग/स्त्रीलिंग विशेषण (दिन 3), il/elle (दिन 4), frère और sœur के साथ un/une (दिन 5)।" }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "un / une", "en": "a / an (m / f)", "hi": "एक (पुल्लिंग / स्त्रीलिंग)", "pron": "ऐँ / üन", "ipa": "ɛ̃ / yn", "pos": "determiner" },
+    { "fr": "le / la / l'", "en": "the (m / f / before a vowel)", "hi": "वह ख़ास / निश्चित (पुल्लिंग / स्त्रीलिंग / स्वर से पहले)", "pron": "लö / ला / ल्", "ipa": "lə / la / l", "pos": "determiner" },
+    { "fr": "le livre", "en": "book", "hi": "किताब", "pron": "लö लीव्ग़", "ipa": "lə livʁ", "pos": "noun", "gender": "m", "lemma": "livre", "note": { "en": "Masculine in French, feminine in Hindi (किताब).", "hi": "फ़्रेंच में पुल्लिंग, हिंदी में स्त्रीलिंग (किताब)।" } },
+    { "fr": "la table", "en": "table", "hi": "मेज़", "pron": "ला ताब्ल", "ipa": "la tabl", "pos": "noun", "gender": "f", "lemma": "table" },
+    { "fr": "le téléphone", "en": "phone", "hi": "फ़ोन", "pron": "लö ते-ले-फ़ॉन", "ipa": "lə telefɔn", "pos": "noun", "gender": "m", "lemma": "téléphone", "note": { "en": "Ends in -e but is masculine.", "hi": "-e पर ख़त्म होता है, फिर भी पुल्लिंग है।" } },
+    { "fr": "la clé", "en": "key", "hi": "चाबी", "pron": "ला क्ले", "ipa": "la kle", "pos": "noun", "gender": "f", "lemma": "clé" },
+    { "fr": "le sac", "en": "bag", "hi": "थैला / बैग", "pron": "लö साक", "ipa": "lə sak", "pos": "noun", "gender": "m", "lemma": "sac", "note": { "en": "Here the final c is pronounced.", "hi": "यहाँ आख़िरी c बोला जाता है।" } },
+    { "fr": "la porte", "en": "door", "hi": "दरवाज़ा", "pron": "ला पॉग़्त", "ipa": "la pɔʁt", "pos": "noun", "gender": "f", "lemma": "porte", "note": { "en": "Feminine in French, masculine in Hindi (दरवाज़ा).", "hi": "फ़्रेंच में स्त्रीलिंग, हिंदी में पुल्लिंग (दरवाज़ा)।" } },
+    { "fr": "la chaise", "en": "chair", "hi": "कुर्सी", "pron": "ला शैज़", "ipa": "la ʃɛz", "pos": "noun", "gender": "f", "lemma": "chaise" },
+    { "fr": "le stylo", "en": "pen", "hi": "कलम / पेन", "pron": "लö स्ती-लो", "ipa": "lə stilo", "pos": "noun", "gender": "m", "lemma": "stylo", "note": { "en": "Masculine in French; कलम is feminine in Hindi.", "hi": "फ़्रेंच में पुल्लिंग; हिंदी में 'कलम' स्त्रीलिंग है।" } },
+    { "fr": "la fenêtre", "en": "window", "hi": "खिड़की", "pron": "ला फ़ö-नैत्ग़", "ipa": "la fənɛtʁ", "pos": "noun", "gender": "f", "lemma": "fenêtre" },
+    { "fr": "l'ordinateur", "en": "computer", "hi": "कंप्यूटर", "pron": "लॉग़-दी-ना-तöग़", "ipa": "lɔʁdinatœʁ", "pos": "noun", "gender": "m", "lemma": "ordinateur", "note": { "en": "l' hides the gender. Learn it as 'un ordinateur' (masculine).", "hi": "l' से लिंग पता नहीं चलता। इसे 'un ordinateur' (पुल्लिंग) के रूप में याद कीजिए।" } },
+    { "fr": "le lit", "en": "bed", "hi": "बिस्तर / पलंग", "pron": "लö ली", "ipa": "lə li", "pos": "noun", "gender": "m", "lemma": "lit" },
+    { "fr": "la lampe", "en": "lamp", "hi": "लैंप / बत्ती", "pron": "ला लाँप", "ipa": "la lɑ̃p", "pos": "noun", "gender": "f", "lemma": "lampe" }
+  ],
+  "phrases": [
+    { "fr": "Où est la clé ?", "en": "Where is the key?", "hi": "चाबी कहाँ है?", "pron": "ऊ ऐ ला क्ले", "ipa": "u ɛ la kle", "note": { "en": "où = where (more on Day 17).", "hi": "où = कहाँ (दिन 17 में और)।" } },
+    { "fr": "Elle est sur la table.", "en": "It's on the table.", "hi": "वह मेज़ पर है।", "pron": "ऐ लै सüग़ ला ताब्ल", "ipa": "ɛ lɛ syʁ la tabl" },
+    { "fr": "Il est dans le sac.", "en": "It's in the bag.", "hi": "वह थैले में है।", "pron": "ई लै दाँ लö साक", "ipa": "i lɛ dɑ̃ lə sak" },
+    { "fr": "Voilà le téléphone !", "en": "Here's the phone! / There's the phone!", "hi": "यह रहा फ़ोन!", "pron": "व्वा-ला लö ते-ले-फ़ॉन", "ipa": "vwala lə telefɔn" },
+    { "fr": "De rien.", "en": "You're welcome.", "hi": "कोई बात नहीं।", "pron": "दö ग़्यैँ", "ipa": "də ʁjɛ̃" },
+    { "fr": "un livre, une clé", "en": "a book, a key", "hi": "एक किताब, एक चाबी", "pron": "ऐँ लीव्ग़ üन क्ले", "ipa": "ɛ̃ livʁ yn kle" }
+  ],
+  "grammar": {
+    "title": { "en": "Gender and the articles un/une, le/la/l'", "hi": "लिंग और उपपद un/une, le/la/l'" },
+    "explanation": {
+      "en": "Every French noun is masculine or feminine — even objects. 'a/an' is un (m) or une (f). 'the' is le (m) or la (f); both become l' before a vowel or a silent h: l'ordinateur, l'enfant. Use un/une for something new or any one; use le/la for a specific thing you both know. Objects are 'il' or 'elle' according to their gender: la clé → elle; le sac → il. There is no reliable rule, so always learn a noun with its article.",
+      "hi": "फ़्रेंच की हर संज्ञा पुल्लिंग या स्त्रीलिंग होती है — चीज़ें भी। 'एक' के लिए un (पु.) या une (स्त्री.)। 'वह ख़ास' (the) के लिए le (पु.) या la (स्त्री.); स्वर या मौन h से पहले दोनों l' बन जाते हैं: l'ordinateur, l'enfant। किसी नई या कोई-सी भी चीज़ के लिए un/une; किसी ख़ास, जानी-पहचानी चीज़ के लिए le/la। चीज़ों के लिए भी उनके लिंग के हिसाब से 'il' या 'elle' बोलते हैं: la clé → elle; le sac → il। कोई पक्का नियम नहीं है, इसलिए हर संज्ञा उसके उपपद के साथ याद कीजिए।"
+    },
+    "comparison": {
+      "en": "Hindi also gives objects a gender, which helps — but the genders often don't match. किताब is feminine, le livre is masculine. दरवाज़ा is masculine, la porte is feminine. कलम is feminine, le stylo is masculine. Some do match: कुर्सी / la chaise, खिड़की / la fenêtre, चाबी / la clé. Never guess from Hindi. English has no gender at all, and 'the' never changes.",
+      "hi": "हिंदी में भी चीज़ों का लिंग होता है, जो मदद करता है — पर अक्सर लिंग मेल नहीं खाते। 'किताब' स्त्रीलिंग है, le livre पुल्लिंग। 'दरवाज़ा' पुल्लिंग है, la porte स्त्रीलिंग। 'कलम' स्त्रीलिंग है, le stylo पुल्लिंग। कुछ मेल खाते हैं: कुर्सी / la chaise, खिड़की / la fenêtre, चाबी / la clé। हिंदी से अंदाज़ा कभी मत लगाइए। अंग्रेज़ी में लिंग होता ही नहीं, और 'the' कभी नहीं बदलता।"
+    },
+    "examples": [
+      { "fr": "un livre → le livre", "en": "a book → the book", "hi": "एक किताब → वह किताब", "pron": "ऐँ लीव्ग़ → लö लीव्ग़" },
+      { "fr": "une porte → la porte", "en": "a door → the door", "hi": "एक दरवाज़ा → वह दरवाज़ा", "pron": "üन पॉग़्त → ला पॉग़्त" },
+      { "fr": "un ordinateur → l'ordinateur", "en": "a computer → the computer", "hi": "एक कंप्यूटर → वह कंप्यूटर", "pron": "ऐँ नॉग़-दी-ना-तöग़ → लॉग़-दी-ना-तöग़", "note": { "en": "Liaison: un + ordinateur = ऐँ नॉग़…", "hi": "जोड़: un + ordinateur = ऐँ नॉग़…" } },
+      { "fr": "Le stylo ? Il est sur la table.", "en": "The pen? It's on the table.", "hi": "पेन? वह मेज़ पर है।", "pron": "लö स्ती-लो ई लै सüग़ ला ताब्ल" },
+      { "fr": "La lampe ? Elle est sur le lit.", "en": "The lamp? It's on the bed.", "hi": "लैंप? वह बिस्तर पर है।", "pron": "ला लाँप ऐ लै सüग़ लö ली" }
+    ],
+    "pitfalls": [
+      { "en": "Don't translate gender from Hindi: 'la livre' and 'le porte' are wrong.", "hi": "हिंदी से लिंग का अनुवाद मत कीजिए: 'la livre' और 'le porte' गलत हैं।" },
+      { "en": "Don't use 'ça' or 'it' thinking: for a feminine object say elle, for a masculine object say il.", "hi": "'it' के हिसाब से मत सोचिए: स्त्रीलिंग चीज़ के लिए elle, पुल्लिंग के लिए il।" },
+      { "en": "Never write 'le ordinateur' or 'la enfant' — before a vowel it is l'.", "hi": "कभी 'le ordinateur' या 'la enfant' मत लिखिए — स्वर से पहले l' आता है।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "/ə/ in le vs /e/ in les",
+    "tip": {
+      "en": "le has a short, relaxed ö with rounded lips. les has a clear ए with spread lips, like a smile. This tiny difference tells you singular or plural: le livre (one book), les livres (books — Day 8). The same pair: de (दö) / des (दे).",
+      "hi": "le में छोटा, ढीला ö है, होंठ गोल। les में साफ़ 'ए' है, होंठ फैले हुए, जैसे मुस्कान। यही छोटा फ़र्क़ बताता है कि एकवचन है या बहुवचन: le livre (एक किताब), les livres (किताबें — दिन 8)। ऐसा ही जोड़ा: de (दö) / des (दे)।"
+    },
+    "words": [
+      { "fr": "le", "en": "the (m, singular)", "hi": "वह ख़ास (पुल्लिंग, एकवचन)", "pron": "लö", "ipa": "lə" },
+      { "fr": "les", "en": "the (plural)", "hi": "वे ख़ास (बहुवचन)", "pron": "ले", "ipa": "le" },
+      { "fr": "le livre", "en": "the book", "hi": "वह किताब", "pron": "लö लीव्ग़", "ipa": "lə livʁ" },
+      { "fr": "les livres", "en": "the books", "hi": "वे किताबें", "pron": "ले लीव्ग़", "ipa": "le livʁ", "note": { "en": "The plural s is silent: only le/les tells you.", "hi": "बहुवचन का s नहीं बोला जाता: सिर्फ़ le/les से पता चलता है।" } },
+      { "fr": "de / des", "en": "of / some", "hi": "का / कुछ", "pron": "दö / दे", "ipa": "də / de" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Où est la clé ?", "en": "Where is the key?" },
+    "type": "dialogue",
+    "mode": "pedagogical",
+    "context": { "en": "Ravi and Priya are in their new flat in Montréal. Ravi is looking for the key.", "hi": "रवि और प्रिया मॉन्ट्रियाल में अपने नए फ़्लैट में हैं। रवि चाबी ढूँढ रहा है।" },
+    "lines": [
+      { "speaker": "Ravi", "voice": "m1", "fr": "Priya, où est la clé ?", "en": "Priya, where is the key?", "hi": "प्रिया, चाबी कहाँ है?" },
+      { "speaker": "Priya", "voice": "f1", "fr": "La clé ? Elle est sur la table.", "en": "The key? It's on the table.", "hi": "चाबी? वह मेज़ पर है।" },
+      { "speaker": "Ravi", "voice": "m1", "fr": "Non. Sur la table : un livre et un stylo.", "en": "No. On the table: a book and a pen.", "hi": "नहीं। मेज़ पर: एक किताब और एक पेन।" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Elle est dans le sac ?", "en": "Is it in the bag?", "hi": "क्या वह थैले में है?" },
+      { "speaker": "Ravi", "voice": "m1", "fr": "Le sac ? Où est le sac ?", "en": "The bag? Where is the bag?", "hi": "थैला? थैला कहाँ है?" },
+      { "speaker": "Priya", "voice": "f1", "fr": "Il est sur la chaise, près de la porte.", "en": "It's on the chair, near the door.", "hi": "वह कुर्सी पर है, दरवाज़े के पास।" },
+      { "speaker": "Ravi", "voice": "m1", "fr": "Ah, voilà le sac… et voilà la clé, dans le sac ! Merci !", "en": "Ah, there's the bag… and there's the key, in the bag! Thanks!", "hi": "अरे, यह रहा थैला… और यह रही चाबी, थैले में! धन्यवाद!" },
+      { "speaker": "Priya", "voice": "f1", "fr": "De rien !", "en": "You're welcome!", "hi": "कोई बात नहीं!" }
+    ],
+    "questions": [
+      { "q": { "en": "What is Ravi looking for?" }, "options": ["The phone", "The key", "The book"], "answer": 1, "explanation": { "en": "'où est la clé ?' — the key.", "hi": "'où est la clé ?' — चाबी।" }, "kind": "literal", "evidence": "Priya, où est la clé ?" },
+      { "q": { "en": "What is on the table?" }, "options": ["A book and a pen", "The key and the bag", "A lamp"], "answer": 0, "explanation": { "en": "'Sur la table : un livre et un stylo.'", "hi": "'Sur la table : un livre et un stylo.' — एक किताब और एक पेन।" }, "kind": "literal", "evidence": "Sur la table : un livre et un stylo." },
+      { "q": { "en": "Where is the bag?" }, "options": ["On the table", "On the bed", "On the chair near the door"], "answer": 2, "explanation": { "en": "'Il est sur la chaise, près de la porte.'", "hi": "'Il est sur la chaise, près de la porte.' — कुर्सी पर, दरवाज़े के पास।" }, "kind": "literal", "evidence": "Il est sur la chaise, près de la porte." },
+      { "q": { "en": "Where was the key in the end?" }, "options": ["On the table", "In the bag", "Near the window"], "answer": 1, "explanation": { "en": "'voilà la clé, dans le sac !'", "hi": "'voilà la clé, dans le sac !' — थैले में।" }, "kind": "literal", "evidence": "voilà la clé, dans le sac !" },
+      { "q": { "en": "Priya says 'Il est sur la chaise'. What does 'il' refer to?" }, "options": ["Ravi", "The bag (le sac)", "The key (la clé)"], "answer": 1, "explanation": { "en": "le sac is masculine, so it is 'il'. The key would be 'elle'.", "hi": "le sac पुल्लिंग है, इसलिए 'il'। चाबी के लिए 'elle' होता।" }, "kind": "grammar", "evidence": "Il est sur la chaise" }
+    ],
+    "dictation": ["Où est la clé ?", "Elle est sur la table.", "Voilà le sac !"],
+    "gapFill": { "text": "La clé ? ___ est sur la table. … Le sac ? ___ est sur la chaise.", "answers": ["Elle", "Il"] }
+  },
+  "speaking": {
+    "type": "repeat",
+    "instructions": {
+      "en": "Look around your room. Point to each object and say it twice: first with un/une, then with le/la. Then say where two objects are.",
+      "hi": "अपने कमरे में चारों ओर देखिए। हर चीज़ की ओर इशारा करके उसे दो बार बोलिए: पहले un/une के साथ, फिर le/la के साथ। फिर बताइए कि दो चीज़ें कहाँ हैं।"
+    },
+    "prompts": [
+      { "fr": "un livre — le livre", "en": "a book — the book", "hi": "एक किताब — वह किताब", "pron": "ऐँ लीव्ग़ — लö लीव्ग़" },
+      { "fr": "une chaise — la chaise", "en": "a chair — the chair", "hi": "एक कुर्सी — वह कुर्सी", "pron": "üन शैज़ — ला शैज़" },
+      { "fr": "un ordinateur — l'ordinateur", "en": "a computer — the computer", "hi": "एक कंप्यूटर — वह कंप्यूटर", "pron": "ऐँ नॉग़-दी-ना-तöग़ — लॉग़-दी-ना-तöग़" },
+      { "fr": "une fenêtre — la fenêtre", "en": "a window — the window", "hi": "एक खिड़की — वह खिड़की", "pron": "üन फ़ö-नैत्ग़ — ला फ़ö-नैत्ग़" },
+      { "fr": "Le téléphone est sur le lit.", "en": "The phone is on the bed.", "hi": "फ़ोन बिस्तर पर है।", "pron": "लö ते-ले-फ़ॉन ऐ सüग़ लö ली", "model": "La clé est dans le sac." }
+    ],
+    "tip": {
+      "en": "Say 'une' with a real ü and a light n at the end (üन); say 'un' as a nasal with no n (ऐँ).",
+      "hi": "'une' में असली ü और अंत में हल्का n बोलिए (üन); 'un' नासिक्य है, n नहीं (ऐँ)।"
+    }
+  },
+  "reading": {
+    "genre": "message",
+    "title": "Liste de courses",
+    "text": "Liste de courses\nPour l'appartement : une lampe, une chaise, une table.\nPour l'école : un sac, un stylo.\nPour Ravi : une clé.\nMerci ! — Priya",
+    "translation": {
+      "en": "Shopping list\nFor the flat: a lamp, a chair, a table.\nFor school: a bag, a pen.\nFor Ravi: a key.\nThanks! — Priya",
+      "hi": "ख़रीदारी की सूची\nफ़्लैट के लिए: एक लैंप, एक कुर्सी, एक मेज़।\nस्कूल के लिए: एक बैग, एक पेन।\nरवि के लिए: एक चाबी।\nधन्यवाद! — प्रिया"
+    },
+    "questions": [
+      { "q": { "en": "What do they need for the flat?" }, "options": ["A bag and a pen", "A lamp, a chair and a table", "A key"], "answer": 1, "explanation": { "en": "'Pour l'appartement : une lampe, une chaise, une table.'", "hi": "'Pour l'appartement : une lampe, une chaise, une table.' — लैंप, कुर्सी, मेज़।" }, "kind": "literal", "evidence": "Pour l'appartement : une lampe, une chaise, une table." },
+      { "q": { "en": "What is for Ravi?" }, "options": ["A key", "A pen", "A book"], "answer": 0, "explanation": { "en": "'Pour Ravi : une clé.'", "hi": "'Pour Ravi : une clé.' — एक चाबी।" }, "kind": "literal", "evidence": "Pour Ravi : une clé." },
+      { "q": { "en": "Which item on the list is masculine?" }, "options": ["lampe", "chaise", "sac"], "answer": 2, "explanation": { "en": "'un sac' — un shows it is masculine. lampe and chaise have une.", "hi": "'un sac' — un से पता चलता है कि यह पुल्लिंग है। lampe और chaise के साथ une है।" }, "kind": "grammar", "evidence": "un sac, un stylo" }
+    ]
+  },
+  "writing": {
+    "type": "sentences",
+    "prompt": {
+      "en": "Label 8 objects in your home. For each, write it with un/une and with le/la/l'. Then write one sentence saying where one object is.",
+      "hi": "अपने घर की 8 चीज़ों के नाम लिखिए। हर चीज़ को un/une और le/la/l' के साथ लिखिए। फिर एक वाक्य लिखिए कि कोई एक चीज़ कहाँ है।"
+    },
+    "minWords": 30,
+    "maxWords": 60,
+    "hints": [
+      { "en": "Check each gender in the vocabulary list — don't trust Hindi gender.", "hi": "हर लिंग शब्द-सूची में जाँचिए — हिंदी के लिंग पर भरोसा मत कीजिए।" },
+      { "en": "Before a vowel: l' (l'ordinateur), but un/une stays.", "hi": "स्वर से पहले: l' (l'ordinateur), पर un/une वैसे ही रहते हैं।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "un … — le …", "en": "a … — the … (m)", "hi": "एक … — वह … (पुल्लिंग)", "pron": "ऐँ … — लö …" },
+      { "fr": "une … — la …", "en": "a … — the … (f)", "hi": "एक … — वह … (स्त्रीलिंग)", "pron": "üन … — ला …" },
+      { "fr": "… est sur / dans …", "en": "… is on / in …", "hi": "… पर / में है", "pron": "ऐ सüग़ / दाँ" }
+    ],
+    "model": { "fr": "un livre — le livre\nune table — la table\nun téléphone — le téléphone\nune clé — la clé\nun sac — le sac\nune porte — la porte\nun ordinateur — l'ordinateur\nune lampe — la lampe\nLe livre est sur la table.", "en": "a book — the book\na table — the table\na phone — the phone\na key — the key\na bag — the bag\na door — the door\na computer — the computer\na lamp — the lamp\nThe book is on the table." },
+    "checklist": [
+      { "en": "Does each un go with le, and each une with la?", "hi": "क्या हर un के साथ le, और हर une के साथ la है?" },
+      { "en": "Did you use l' before a vowel?", "hi": "क्या स्वर से पहले l' लगाया?" },
+      { "en": "Accents: téléphone, clé, fenêtre.", "hi": "Accents: téléphone, clé, fenêtre।" }
+    ]
+  },
+  "review": {
+    "fromDays": [2, 3, 4, 5],
+    "items": [
+      { "fr": "J'ai vingt ans.", "en": "I'm twenty.", "hi": "मैं बीस साल का / की हूँ।", "pron": "झ़े वैँ ताँ" },
+      { "fr": "un frère, une sœur", "en": "a brother, a sister", "hi": "एक भाई, एक बहन", "pron": "ऐँ फ़्ग़ैग़ üन सöग़" },
+      { "fr": "Tu as quel âge ?", "en": "How old are you?", "hi": "तुम्हारी उम्र क्या है?", "pron": "तü आ कै लाझ़" },
+      { "fr": "Il est content. Elle est contente.", "en": "He is happy. She is happy.", "hi": "वह ख़ुश है। वह ख़ुश है।", "pron": "ई लै कोँ-ताँ ऐ लै कोँ-ताँत" },
+      { "fr": "Nous sommes à Montréal.", "en": "We are in Montréal.", "hi": "हम मॉन्ट्रियाल में हैं।", "pron": "नू सॉम ज़ा मोँ-ग़े-आल" },
+      { "fr": "Pouvez-vous épeler, s'il vous plaît ?", "en": "Could you spell it, please?", "hi": "क्या आप स्पेलिंग बता सकते हैं?", "pron": "पू-वे वू ज़ेप-ले सील वू प्लै" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Choose the article: ___ livre (the book)", "hi": "उपपद चुनिए: ___ livre (वह किताब)" }, "options": ["la", "le", "l'"], "answer": 1, "explanation": { "en": "livre is masculine → le livre (even though किताब is feminine in Hindi).", "hi": "livre पुल्लिंग है → le livre (भले ही हिंदी में 'किताब' स्त्रीलिंग है)।" } },
+    { "type": "mcq", "prompt": { "en": "Choose the article: ___ porte (a door)", "hi": "उपपद चुनिए: ___ porte (एक दरवाज़ा)" }, "options": ["un", "le", "une"], "answer": 2, "explanation": { "en": "porte is feminine → une porte.", "hi": "porte स्त्रीलिंग है → une porte।" } },
+    { "type": "fill", "prompt": { "en": "Complete: the computer", "hi": "पूरा कीजिए: वह कंप्यूटर" }, "sentence": "___ordinateur", "answer": "l'", "accept": ["l’", "L'"], "explanation": { "en": "Before a vowel, le/la → l'.", "hi": "स्वर से पहले le/la → l'।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "a key and a pen", "hi": "एक चाबी और एक पेन" }, "answer": "une clé et un stylo", "accept": ["une clé et un stylo.", "Une clé et un stylo"], "explanation": { "en": "clé is feminine (une), stylo is masculine (un).", "hi": "clé स्त्रीलिंग (une), stylo पुल्लिंग (un)।" } },
+    { "type": "mcq", "prompt": { "en": "'La lampe ? ___ est sur la table.' Which pronoun?", "hi": "'La lampe ? ___ est sur la table.' कौन-सा सर्वनाम?", "fr": "La lampe ? ___ est sur la table." }, "options": ["Il", "Elle", "Ils"], "answer": 1, "explanation": { "en": "la lampe is feminine → elle.", "hi": "la lampe स्त्रीलिंग है → elle।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: The key is on the table.", "hi": "शब्दों को सही क्रम में रखिए: चाबी मेज़ पर है।" }, "words": ["est", "La", "table.", "sur", "clé", "la"], "answer": "La clé est sur la table.", "explanation": { "en": "Subject (la clé) + est + sur + la table.", "hi": "कर्ता (la clé) + est + sur + la table।" } },
+    { "type": "mcq", "prompt": { "en": "Which one is said with ए (spread lips)?", "hi": "किसमें 'ए' बोला जाता है (होंठ फैले हुए)?" }, "options": ["le", "les", "de"], "answer": 1, "explanation": { "en": "les = ले. le = लö and de = दö.", "hi": "les = ले। le = लö और de = दö।" } }
+  ]
+}

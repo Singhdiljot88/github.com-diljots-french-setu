@@ -1,0 +1,1025 @@
+{
+  "day": 90,
+  "phase": 5,
+  "title": {
+    "fr": "Clinique 1 : le genre et les accords",
+    "en": "Clinic 1: gender and agreement",
+    "hi": "क्लिनिक 1: लिंग और मेल (agreement)"
+  },
+  "objective": {
+    "en": "Fix the most frequent errors in TEF writing: wrong noun gender, adjectives that don't agree, and past participles that don't agree with être — using ending clues and a checking routine.",
+    "hi": "TEF लेखन की सबसे आम ग़लतियाँ सुधारना: संज्ञा का ग़लत लिंग, मेल न खाने वाले विशेषण, और être के साथ मेल न खाने वाले past participle — शब्द के अंत के संकेतों और जाँचने की एक आदत की मदद से।"
+  },
+  "prerequisites": {
+    "days": [
+      6,
+      18,
+      26,
+      44,
+      51,
+      88
+    ],
+    "summary": {
+      "en": "Articles and gender (Day 6), adjective agreement (Days 18, 26), passé composé with être and agreement (Day 44), direct object pronouns (Day 51) and the plus-que-parfait (Day 88).",
+      "hi": "उपपद और लिंग (दिन 6), विशेषण का मेल (दिन 18, 26), être के साथ passé composé और मेल (दिन 44), प्रत्यक्ष कर्म सर्वनाम (दिन 51) और plus-que-parfait (दिन 88)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "le problème",
+      "en": "problem",
+      "hi": "समस्या",
+      "pron": "लö प्रो-ब्लैम",
+      "ipa": "lə pʁɔblɛm",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "problème",
+      "note": {
+        "en": "Masculine despite -e. Most nouns in -ème and -gramme from Greek are masculine: le système, le programme.",
+        "hi": "-e के बावजूद पुल्लिंग। ग्रीक से आए -ème और -gramme वाले ज़्यादातर शब्द पुल्लिंग हैं: le système, le programme।"
+      }
+    },
+    {
+      "fr": "le programme",
+      "en": "programme, schedule",
+      "hi": "कार्यक्रम",
+      "pron": "लö प्रो-ग्राम",
+      "ipa": "lə pʁɔɡʁam",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "programme"
+    },
+    {
+      "fr": "le musée",
+      "en": "museum",
+      "hi": "संग्रहालय",
+      "pron": "लö म्ü-ज़े",
+      "ipa": "lə myze",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "musée",
+      "note": {
+        "en": "Trap: -ée is usually feminine (l'idée, la journée), but le musée and le lycée are masculine.",
+        "hi": "जाल: -ée आमतौर पर स्त्रीलिंग होता है (l'idée, la journée), पर le musée और le lycée पुल्लिंग हैं।"
+      }
+    },
+    {
+      "fr": "le lycée",
+      "en": "high school (France)",
+      "hi": "हाई स्कूल (फ़्रांस)",
+      "pron": "लö ली-से",
+      "ipa": "lə lise",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "lycée"
+    },
+    {
+      "fr": "la plage",
+      "en": "beach",
+      "hi": "समुद्र तट",
+      "pron": "ला प्लाझ़",
+      "ipa": "la plaʒ",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "plage",
+      "note": {
+        "en": "Exception to -age = masculine, like la page, l'image, la cage.",
+        "hi": "-age = पुल्लिंग के नियम का अपवाद, जैसे la page, l'image, la cage।"
+      }
+    },
+    {
+      "fr": "l'image",
+      "en": "picture, image",
+      "hi": "चित्र / छवि",
+      "pron": "ली-माझ़",
+      "ipa": "limaʒ",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "image"
+    },
+    {
+      "fr": "le silence",
+      "en": "silence",
+      "hi": "चुप्पी / ख़ामोशी",
+      "pron": "लö सी-लाँस",
+      "ipa": "lə silɑ̃s",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "silence",
+      "note": {
+        "en": "Exception: -ence is usually feminine (la science, la patience).",
+        "hi": "अपवाद: -ence आमतौर पर स्त्रीलिंग होता है (la science, la patience)।"
+      }
+    },
+    {
+      "fr": "l'équipe",
+      "en": "team",
+      "hi": "टीम",
+      "pron": "ले-कीप",
+      "ipa": "lekip",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "équipe"
+    },
+    {
+      "fr": "le légume",
+      "en": "vegetable",
+      "hi": "सब्ज़ी",
+      "pron": "लö ले-ग्üम",
+      "ipa": "lə leɡym",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "légume",
+      "note": {
+        "en": "Hindi सब्ज़ी is feminine; French légume is masculine.",
+        "hi": "हिंदी में 'सब्ज़ी' स्त्रीलिंग है; फ़्रेंच में légume पुल्लिंग।"
+      }
+    },
+    {
+      "fr": "la dent",
+      "en": "tooth",
+      "hi": "दाँत",
+      "pron": "ला दाँ",
+      "ipa": "la dɑ̃",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "dent",
+      "note": {
+        "en": "Hindi दाँत is masculine; French dent is feminine.",
+        "hi": "हिंदी में 'दाँत' पुल्लिंग है; फ़्रेंच में dent स्त्रीलिंग।"
+      }
+    },
+    {
+      "fr": "le choix",
+      "en": "choice",
+      "hi": "विकल्प / चुनाव",
+      "pron": "लö श्वा",
+      "ipa": "lə ʃwa",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "choix"
+    },
+    {
+      "fr": "la voix",
+      "en": "voice",
+      "hi": "आवाज़",
+      "pron": "ला व्वा",
+      "ipa": "la vwa",
+      "pos": "noun",
+      "gender": "f",
+      "lemma": "voix"
+    },
+    {
+      "fr": "l'environnement",
+      "en": "environment",
+      "hi": "पर्यावरण",
+      "pron": "लाँ-वी-ग़ॉन-माँ",
+      "ipa": "lɑ̃viʁɔnmɑ̃",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "environnement"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "C'est un grand problème.",
+      "en": "It's a big problem.",
+      "hi": "यह एक बड़ी समस्या है।",
+      "pron": "सै तैँ ग्ग़ाँ प्रो-ब्लैम"
+    },
+    {
+      "fr": "Elle est arrivée hier soir.",
+      "en": "She arrived last night.",
+      "hi": "वह कल रात आई।",
+      "pron": "ऐ-लै ता-ग़ी-वे यैग़ स्वाग़"
+    },
+    {
+      "fr": "Les nouvelles chaises sont blanches.",
+      "en": "The new chairs are white.",
+      "hi": "नई कुर्सियाँ सफ़ेद हैं।",
+      "pron": "ले नू-वैल शैज़ सोँ ब्लाँश"
+    },
+    {
+      "fr": "Toutes les informations sont importantes.",
+      "en": "All the information is important.",
+      "hi": "सारी जानकारी ज़रूरी है।",
+      "pron": "तूत ले ज़ैँ-फ़ॉग़-मा-स्योँ सोँ तैँ-पॉग़-ताँत"
+    },
+    {
+      "fr": "Je vérifie le genre dans le dictionnaire.",
+      "en": "I check the gender in the dictionary.",
+      "hi": "मैं शब्दकोश में लिंग जाँचता हूँ।",
+      "pron": "झ़ö वे-ग़ी-फ़ी लö झ़ाँग्ग़ दाँ लö दिक-स्यो-नैग़"
+    },
+    {
+      "fr": "Ma meilleure amie est québécoise.",
+      "en": "My best friend is from Québec.",
+      "hi": "मेरी सबसे अच्छी सहेली क्यूबेक की है।",
+      "pron": "मा मै-यöग़ आ-मी ए के-बे-क्वाज़"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Gender clues and the three agreement checks",
+      "hi": "लिंग के संकेत और मेल की तीन जाँचें"
+    },
+    "explanation": {
+      "en": "Gender clues from the ending (reliable most of the time): FEMININE — -tion/-sion (la situation), -té (la société, l'université), -ure (la voiture, la culture), -ance/-ence (la naissance, la patience; exception le silence), -ée (l'idée; exceptions le musée, le lycée), -ette (la baguette). MASCULINE — -ment (le logement, l'environnement), -age (le fromage, le voyage; exceptions la page, la plage, l'image), -isme (le tourisme), -eau (le bureau; exceptions l'eau, la peau), -ème/-gramme (le problème, le programme), -oir (le couloir). Then do three checks in every sentence you write: (1) ARTICLE and ADJECTIVES agree with the noun (une grande maison, des enfants contents, des chaises blanches). (2) A participle after ÊTRE agrees with the subject (elle est partie, ils sont arrivés, la lettre a été envoyée). (3) A participle after AVOIR agrees only with a direct object placed BEFORE it (la lettre que j'ai écrite, je l'ai vue) — otherwise no agreement (elle a mangé).",
+      "hi": "शब्द के अंत से लिंग के संकेत (ज़्यादातर भरोसेमंद): स्त्रीलिंग — -tion/-sion (la situation), -té (la société, l'université), -ure (la voiture, la culture), -ance/-ence (la naissance, la patience; अपवाद le silence), -ée (l'idée; अपवाद le musée, le lycée), -ette (la baguette)। पुल्लिंग — -ment (le logement, l'environnement), -age (le fromage, le voyage; अपवाद la page, la plage, l'image), -isme (le tourisme), -eau (le bureau; अपवाद l'eau, la peau), -ème/-gramme (le problème, le programme), -oir (le couloir)। फिर हर लिखे वाक्य में तीन जाँच कीजिए: (1) उपपद और विशेषण संज्ञा से मेल खाएँ (une grande maison, des enfants contents, des chaises blanches)। (2) ÊTRE के बाद participle कर्ता से मेल खाए (elle est partie, ils sont arrivés, la lettre a été envoyée)। (3) AVOIR के बाद participle सिर्फ़ तब मेल खाता है जब प्रत्यक्ष कर्म उससे पहले आए (la lettre que j'ai écrite, je l'ai vue) — वरना कोई मेल नहीं (elle a mangé)।"
+    },
+    "comparison": {
+      "en": "Hindi also has gender, which helps you notice it — but don't transfer Hindi genders: पानी (m) → l'eau (f); दाँत (m) → la dent (f); किताब (f) → le livre (m); सब्ज़ी (f) → le légume (m). English has no gender at all, so English-based guesses don't help. Learn every noun WITH its article.",
+      "hi": "हिंदी में भी लिंग होता है, इससे आपका ध्यान जाता है — पर हिंदी का लिंग फ़्रेंच पर मत लगाइए: पानी (पु.) → l'eau (स्त्री.); दाँत (पु.) → la dent (स्त्री.); किताब (स्त्री.) → le livre (पु.); सब्ज़ी (स्त्री.) → le légume (पु.)। अंग्रेज़ी में लिंग होता ही नहीं, इसलिए उससे अंदाज़ा नहीं लगता। हर संज्ञा उसके उपपद के साथ याद कीजिए।"
+    },
+    "examples": [
+      {
+        "fr": "✗ une problème important → ✓ un problème important",
+        "en": "an important problem",
+        "hi": "एक ज़रूरी समस्या",
+        "pron": "ऐँ प्रो-ब्लैम ऐँ-पॉग़-ताँ"
+      },
+      {
+        "fr": "✗ le situation est difficile → ✓ la situation est difficile",
+        "en": "the situation is difficult",
+        "hi": "स्थिति कठिन है",
+        "pron": "ला सी-त्üआ-स्योँ ए दी-फ़ी-सील"
+      },
+      {
+        "fr": "✗ un belle image → ✓ une belle image",
+        "en": "a beautiful picture",
+        "hi": "एक सुंदर चित्र",
+        "pron": "üन बैल ली-माझ़"
+      },
+      {
+        "fr": "✗ le logement est petite → ✓ le logement est petit",
+        "en": "the accommodation is small",
+        "hi": "घर छोटा है",
+        "pron": "लö लॉझ़-माँ ए प्ती"
+      },
+      {
+        "fr": "✗ des chaises blancs → ✓ des chaises blanches",
+        "en": "white chairs",
+        "hi": "सफ़ेद कुर्सियाँ",
+        "pron": "दे शैज़ ब्लाँश"
+      },
+      {
+        "fr": "✗ ma amie → ✓ mon amie",
+        "en": "my (female) friend",
+        "hi": "मेरी सहेली",
+        "pron": "मोँ ना-मी"
+      },
+      {
+        "fr": "✗ Elle est arrivé → ✓ Elle est arrivée",
+        "en": "She arrived.",
+        "hi": "वह आई।",
+        "pron": "ऐ-लै ता-ग़ी-वे"
+      },
+      {
+        "fr": "✗ Nous sommes allé au musée → ✓ Nous sommes allés au musée",
+        "en": "We went to the museum.",
+        "hi": "हम संग्रहालय गए।",
+        "pron": "नू सोम ज़ा-ले ओ म्ü-ज़े"
+      },
+      {
+        "fr": "✗ Elle a mangée une pomme → ✓ Elle a mangé une pomme",
+        "en": "She ate an apple.",
+        "hi": "उसने एक सेब खाया।",
+        "pron": "ऐ-ला माँ-झ़े üन पॉम"
+      },
+      {
+        "fr": "✗ La lettre que j'ai écrit → ✓ La lettre que j'ai écrite",
+        "en": "The letter I wrote",
+        "hi": "वह पत्र जो मैंने लिखा",
+        "pron": "ला लैत्ग़ कö झ़े ए-क्ग़ीत"
+      },
+      {
+        "fr": "✗ toute les personnes → ✓ toutes les personnes",
+        "en": "all the people",
+        "hi": "सभी लोग",
+        "pron": "तूत ले पैग़-सॉन"
+      },
+      {
+        "fr": "✗ Les enfants sont contents et fatigué → ✓ … contents et fatigués",
+        "en": "The children are happy and tired.",
+        "hi": "बच्चे ख़ुश और थके हुए हैं।",
+        "pron": "ले ज़ाँ-फ़ाँ सोँ कोँ-ताँ ए फ़ा-ती-गे"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Ma/ta/sa become mon/ton/son before a vowel even for feminine nouns: mon école, son amie, ton idée.",
+        "hi": "स्वर से पहले स्त्रीलिंग संज्ञा के साथ भी ma/ta/sa → mon/ton/son: mon école, son amie, ton idée।"
+      },
+      {
+        "en": "Gens is masculine plural for adjectives after it: les gens sont gentils. A mixed group (one man + women) takes masculine plural: Priya et Arjun sont partis.",
+        "hi": "gens के बाद विशेषण पुल्लिंग बहुवचन: les gens sont gentils। मिला-जुला समूह (एक पुरुष + महिलाएँ) पुल्लिंग बहुवचन लेता है: Priya et Arjun sont partis।"
+      },
+      {
+        "en": "The feminine is often HEARD (petit/petite, vert/verte), but a past participle in -é usually is not (arrivé/arrivée) — check those with your eyes, not your ears.",
+        "hi": "स्त्रीलिंग अक्सर सुनाई देता है (petit/petite, vert/verte), पर -é वाला participle आमतौर पर नहीं (arrivé/arrivée) — उन्हें कान से नहीं, आँख से जाँचिए।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Feminine endings pronounced",
+    "tip": {
+      "en": "Adding -e often makes a silent final consonant sound: petit (प्ती) → petite (प्तीत). If you pronounce the consonant, you are saying the feminine — use this to check yourself when speaking.",
+      "hi": "-e जुड़ने पर अक्सर चुप अंतिम व्यंजन बोला जाने लगता है: petit (प्ती) → petite (प्तीत)। अगर आप व्यंजन बोलते हैं, तो आप स्त्रीलिंग कह रहे हैं — बोलते समय ख़ुद को जाँचने के लिए इसका इस्तेमाल कीजिए।"
+    },
+    "words": [
+      {
+        "fr": "petit / petite",
+        "en": "small (m / f)",
+        "hi": "छोटा / छोटी",
+        "pron": "प्ती / प्तीत",
+        "ipa": "pəti / pətit"
+      },
+      {
+        "fr": "grand / grande",
+        "en": "big, tall (m / f)",
+        "hi": "बड़ा / बड़ी",
+        "pron": "ग्ग़ाँ / ग्ग़ाँद",
+        "ipa": "ɡʁɑ̃ / ɡʁɑ̃d"
+      },
+      {
+        "fr": "français / française",
+        "en": "French (m / f)",
+        "hi": "फ़्रांसीसी (पु. / स्त्री.)",
+        "pron": "फ़्ग़ाँ-सै / फ़्ग़ाँ-सैज़",
+        "ipa": "fʁɑ̃sɛ / fʁɑ̃sɛz"
+      },
+      {
+        "fr": "premier / première",
+        "en": "first (m / f)",
+        "hi": "पहला / पहली",
+        "pron": "प्रö-म्ये / प्रö-म्यैग़",
+        "ipa": "pʁəmje / pʁəmjɛʁ"
+      },
+      {
+        "fr": "sportif / sportive",
+        "en": "sporty (m / f)",
+        "hi": "खेल-प्रेमी (पु. / स्त्री.)",
+        "pron": "स्पॉग़-तीफ़ / स्पॉग़-तीव",
+        "ipa": "spɔʁtif / spɔʁtiv"
+      },
+      {
+        "fr": "heureux / heureuse",
+        "en": "happy (m / f)",
+        "hi": "ख़ुश (पु. / स्त्री.)",
+        "pron": "ö-ग़ö / ö-ग़öज़",
+        "ipa": "øʁø / øʁøz"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Le nouvel appartement",
+      "en": "The new apartment"
+    },
+    "type": "dialogue",
+    "mode": "natural",
+    "context": {
+      "en": "Two roommates, Neha and Julie, talk about their new apartment and the furniture that arrived. Listen for agreements you can HEAR (blanche, petite, neuve, contente).",
+      "hi": "दो रूममेट, नेहा और जूली, अपने नए अपार्टमेंट और आए हुए फ़र्नीचर के बारे में बात करती हैं। वे मेल सुनिए जो सुनाई देते हैं (blanche, petite, neuve, contente)।"
+    },
+    "lines": [
+      {
+        "speaker": "Julie",
+        "voice": "f2",
+        "fr": "Neha, les meubles sont enfin arrivés ! Le livreur est passé ce matin.",
+        "en": "Neha, the furniture has finally arrived! The delivery man came by this morning.",
+        "hi": "नेहा, आख़िरकार फ़र्नीचर आ गया! डिलीवरी वाला आज सुबह आया था।"
+      },
+      {
+        "speaker": "Neha",
+        "voice": "f1",
+        "fr": "Super ! Et la table de cuisine, elle est comment ?",
+        "en": "Great! And the kitchen table, what's it like?",
+        "hi": "बढ़िया! और रसोई की मेज़, कैसी है?"
+      },
+      {
+        "speaker": "Julie",
+        "voice": "f2",
+        "fr": "Elle est petite, mais elle est très jolie. Elle est blanche, avec quatre chaises grises.",
+        "en": "It's small, but it's very pretty. It's white, with four grey chairs.",
+        "hi": "छोटी है, पर बहुत सुंदर है। सफ़ेद है, चार स्लेटी कुर्सियों के साथ।"
+      },
+      {
+        "speaker": "Neha",
+        "voice": "f1",
+        "fr": "Et le canapé ? Je l'ai choisi en ligne, j'avais un peu peur.",
+        "en": "And the sofa? I chose it online, I was a bit worried.",
+        "hi": "और सोफ़ा? मैंने उसे ऑनलाइन चुना था, थोड़ा डर था।"
+      },
+      {
+        "speaker": "Julie",
+        "voice": "f2",
+        "fr": "Il est parfait : grand, confortable et vert foncé, comme sur la photo.",
+        "en": "It's perfect: big, comfortable and dark green, just like in the photo.",
+        "hi": "एकदम सही है: बड़ा, आरामदायक और गहरा हरा, बिल्कुल फ़ोटो जैसा।"
+      },
+      {
+        "speaker": "Neha",
+        "voice": "f1",
+        "fr": "Ouf ! Et la lampe que ma mère nous a offerte, tu l'as mise où ?",
+        "en": "Phew! And the lamp my mother gave us, where did you put it?",
+        "hi": "चलो! और वह लैंप जो मेरी माँ ने हमें दिया था, तुमने उसे कहाँ रखा?"
+      },
+      {
+        "speaker": "Julie",
+        "voice": "f2",
+        "fr": "Je l'ai mise dans le salon, à côté de la fenêtre. Elle est vraiment belle, ta mère a bon goût.",
+        "en": "I put it in the living room, next to the window. It's really beautiful, your mother has good taste.",
+        "hi": "मैंने उसे बैठक में खिड़की के पास रखा। सच में सुंदर है, तुम्हारी माँ की पसंद अच्छी है।"
+      },
+      {
+        "speaker": "Neha",
+        "voice": "f1",
+        "fr": "Elle va être contente ! Par contre, la machine à laver est neuve, mais elle fait un bruit bizarre.",
+        "en": "She'll be pleased! On the other hand, the washing machine is new, but it makes a strange noise.",
+        "hi": "वह ख़ुश होगी! दूसरी ओर, वॉशिंग मशीन नई है, पर अजीब आवाज़ करती है।"
+      },
+      {
+        "speaker": "Julie",
+        "voice": "f2",
+        "fr": "Oui, j'ai remarqué. J'ai appelé le propriétaire : il viendra la vérifier jeudi.",
+        "en": "Yes, I noticed. I called the landlord: he'll come and check it on Thursday.",
+        "hi": "हाँ, मैंने ध्यान दिया। मैंने मकान-मालिक को फ़ोन किया: वह गुरुवार को आकर उसे जाँचेगा।"
+      },
+      {
+        "speaker": "Neha",
+        "voice": "f1",
+        "fr": "Parfait. Et nos voisines du dessus, tu les as rencontrées ?",
+        "en": "Perfect. And our upstairs neighbours, have you met them?",
+        "hi": "बढ़िया। और ऊपर वाली पड़ोसनें, तुम उनसे मिलीं?"
+      },
+      {
+        "speaker": "Julie",
+        "voice": "f2",
+        "fr": "Oui, deux étudiantes vietnamiennes, très gentilles. Elles sont venues nous dire bonjour avec des biscuits.",
+        "en": "Yes, two Vietnamese students, very nice. They came to say hello with cookies.",
+        "hi": "हाँ, दो वियतनामी छात्राएँ, बहुत अच्छी। वे बिस्कुट लेकर नमस्ते कहने आईं।"
+      },
+      {
+        "speaker": "Neha",
+        "voice": "f1",
+        "fr": "Quelle chance ! On les invitera samedi pour fêter notre nouvelle vie ici.",
+        "en": "How lucky! We'll invite them on Saturday to celebrate our new life here.",
+        "hi": "क्या क़िस्मत है! हम उन्हें शनिवार को अपनी नई ज़िंदगी का जश्न मनाने बुलाएँगे।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "What is the kitchen table like?"
+        },
+        "options": [
+          "Big and white",
+          "Big and grey",
+          "Small and white",
+          "Small and green"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Elle est petite… Elle est blanche' — you can hear the feminine endings.",
+          "hi": "'elle est petite… elle est blanche' — स्त्रीलिंग अंत सुनाई देते हैं।"
+        },
+        "kind": "literal",
+        "evidence": "Elle est petite, mais elle est très jolie. Elle est blanche"
+      },
+      {
+        "q": {
+          "en": "What colour is the sofa?"
+        },
+        "options": [
+          "Dark green",
+          "Blue",
+          "Grey",
+          "White"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Vert foncé' — masculine because canapé is masculine.",
+          "hi": "'vert foncé' — पुल्लिंग क्योंकि canapé पुल्लिंग है।"
+        },
+        "kind": "literal",
+        "evidence": "grand, confortable et vert foncé"
+      },
+      {
+        "q": {
+          "en": "Who gave them the lamp?"
+        },
+        "options": [
+          "The landlord",
+          "The neighbours",
+          "Julie's mother",
+          "Neha's mother"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "Neha says 'la lampe que ma mère nous a offerte' — note offerte agrees with la lampe placed before.",
+          "hi": "नेहा कहती है 'la lampe que ma mère nous a offerte' — offerte पहले आए la lampe से मेल खाता है।"
+        },
+        "kind": "literal",
+        "evidence": "la lampe que ma mère nous a offerte"
+      },
+      {
+        "q": {
+          "en": "What is the problem with the washing machine?"
+        },
+        "options": [
+          "It is old",
+          "It makes a strange noise",
+          "It doesn't work at all",
+          "It is too small"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Elle est neuve, mais elle fait un bruit bizarre.'",
+          "hi": "'elle est neuve, mais elle fait un bruit bizarre' — नई है पर अजीब आवाज़ करती है।"
+        },
+        "kind": "literal",
+        "evidence": "la machine à laver est neuve, mais elle fait un bruit bizarre"
+      },
+      {
+        "q": {
+          "en": "Who are the upstairs neighbours?"
+        },
+        "options": [
+          "Two male students",
+          "The landlord's family",
+          "Two Vietnamese students (women)",
+          "A Vietnamese couple"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Deux étudiantes vietnamiennes… Elles sont venues' — all feminine forms.",
+          "hi": "'deux étudiantes vietnamiennes… elles sont venues' — सब स्त्रीलिंग रूप।"
+        },
+        "kind": "grammar",
+        "evidence": "deux étudiantes vietnamiennes, très gentilles"
+      },
+      {
+        "q": {
+          "en": "What do they plan for Saturday?"
+        },
+        "options": [
+          "To invite the neighbours",
+          "To visit Neha's mother",
+          "To move again",
+          "To buy a new washing machine"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'On les invitera samedi.'",
+          "hi": "'on les invitera samedi' — शनिवार को बुलाएँगे।"
+        },
+        "kind": "literal",
+        "evidence": "On les invitera samedi pour fêter notre nouvelle vie ici."
+      }
+    ],
+    "dictation": [
+      "Elle est petite, mais elle est très jolie.",
+      "Je l'ai mise dans le salon.",
+      "Elles sont venues nous dire bonjour."
+    ],
+    "gapFill": {
+      "text": "Elle est ___, avec quatre chaises ___. La lampe que ma mère nous a ___ est vraiment belle. Elles sont ___ nous dire bonjour.",
+      "answers": [
+        "blanche",
+        "grises",
+        "offerte",
+        "venues"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "presentation",
+    "instructions": {
+      "en": "Describe your home (or your dream home) in 6–8 sentences, with at least six adjectives and two passé composé sentences with être. Speak slowly and make every feminine ending you can hear clear.",
+      "hi": "अपने घर (या सपनों के घर) का 6–8 वाक्यों में वर्णन कीजिए, कम से कम छह विशेषणों और être वाले दो passé composé वाक्यों के साथ। धीरे बोलिए और हर सुनाई देने वाला स्त्रीलिंग अंत साफ़ बोलिए।"
+    },
+    "prompts": [
+      {
+        "fr": "Ma cuisine est petite mais lumineuse.",
+        "en": "My kitchen is small but bright.",
+        "hi": "मेरी रसोई छोटी है पर रोशनी वाली है।",
+        "pron": "मा क्üई-ज़ीन ए प्तीत मै ल्ü-मी-नöज़"
+      },
+      {
+        "fr": "Le salon est grand et confortable.",
+        "en": "The living room is big and comfortable.",
+        "hi": "बैठक बड़ी और आरामदायक है।",
+        "pron": "लö सा-लोँ ए ग्ग़ाँ ए कोँ-फ़ॉग़-ताब्ल"
+      },
+      {
+        "fr": "Les chambres sont claires et calmes.",
+        "en": "The bedrooms are light and quiet.",
+        "hi": "सोने के कमरे रोशन और शांत हैं।",
+        "pron": "ले शाँब्ग़ सोँ क्लैग़ ए काल्म"
+      },
+      {
+        "fr": "Ma sœur est venue m'aider à déménager.",
+        "en": "My sister came to help me move.",
+        "hi": "मेरी बहन घर बदलने में मेरी मदद करने आई।",
+        "pron": "मा सöग़ ए वö-न्ü मे-दे आ दे-मे-ना-झ़े"
+      },
+      {
+        "fr": "Mes parents sont arrivés d'Inde le mois dernier.",
+        "en": "My parents arrived from India last month.",
+        "hi": "मेरे माता-पिता पिछले महीने भारत से आए।",
+        "pron": "मे पा-ग़ाँ सोँ ता-ग़ी-वे दैँद लö म्वा दैग़-न्ये"
+      },
+      {
+        "fr": "C'est une maison ancienne, mais la salle de bains est neuve.",
+        "en": "It's an old house, but the bathroom is new.",
+        "hi": "यह पुराना घर है, पर बाथरूम नया है।",
+        "pron": "सै तüन मै-ज़ोँ आँ-स्यैन मै ला साल दö बैँ ए नöव"
+      }
+    ],
+    "tip": {
+      "en": "Before each adjective, think 'il or elle?' for a second. That one-second pause is worth it in the TEF.",
+      "hi": "हर विशेषण से पहले एक सेकंड सोचिए 'il या elle?'। TEF में यह एक सेकंड का ठहराव फ़ायदेमंद है।"
+    }
+  },
+  "reading": {
+    "genre": "email",
+    "title": "Courriel à corriger (ce texte contient des erreurs d'accord)",
+    "text": "Objet : Notre week-end à Québec\n\nBonjour Madame Leclerc,\n\nJe vous écris pour vous raconter notre voyage. Ma sœur et moi, nous sommes allé à Québec samedi dernier. Le voyage en train était long, mais très agréable. Nous avons visité une musée magnifique sur l'histoire de la ville et nous avons pris beaucoup de photos.\n\nLe soir, nous avons mangé dans un petite restaurant près du Vieux-Port. La serveuse était très gentil et elle nous a conseillé un plat typique. Malheureusement, il y a eu une problème avec notre réservation à l'hôtel : notre chambre n'était pas prête. Nous avons attendu une heure à la réception, et ma sœur était très fatigué.\n\nDimanche, il faisait beau. Nous sommes montées sur les remparts et nous avons admiré la vue sur le fleuve. Les rues du Vieux-Québec sont étroites et pleines de charme. J'ai acheté des cartes postales pour toute ma famille en Inde. Avant de reprendre le train, nous sommes passées au marché du Vieux-Port, où nous avons goûté des produits locaux : du sirop d'érable, des fromages et des pommes délicieuses.\n\nCe voyage était une expérience très enrichissant. La prochaine fois, nous voulons visiter les chutes Montmorency. Merci encore pour vos conseils, qui ont été très utiles !\n\nCordialement,\nAnita",
+    "translation": {
+      "en": "Subject: Our weekend in Québec City\n\nHello Mrs Leclerc,\n\nI'm writing to tell you about our trip. My sister and I went to Québec City last Saturday. The train journey was long but very pleasant. We visited a magnificent museum about the city's history and took lots of photos.\n\nIn the evening we ate in a small restaurant near the Old Port. The waitress was very kind and recommended a typical dish. Unfortunately, there was a problem with our hotel booking: our room was not ready. We waited an hour at reception, and my sister was very tired.\n\nOn Sunday the weather was nice. We went up on the ramparts and admired the view of the river. The streets of Old Québec are narrow and full of charm. I bought postcards for my whole family in India. Before taking the train back, we stopped at the Old Port market, where we tasted local products: maple syrup, cheeses and delicious apples.\n\nThis trip was a very rewarding experience. Next time we want to visit Montmorency Falls. Thank you again for your advice, which was very useful!\n\nKind regards,\nAnita",
+      "hi": "विषय: क्यूबेक में हमारा सप्ताहांत\n\nनमस्ते लेक्लैर्क जी,\n\nमैं आपको अपनी यात्रा के बारे में बताने के लिए लिख रही हूँ। मैं और मेरी बहन पिछले शनिवार क्यूबेक गए। ट्रेन का सफ़र लंबा था, पर बहुत सुहाना। हमने शहर के इतिहास पर एक शानदार संग्रहालय देखा और बहुत सारी तस्वीरें लीं।\n\nशाम को हमने पुराने बंदरगाह के पास एक छोटे रेस्तराँ में खाना खाया। वेट्रेस बहुत भली थी और उसने हमें एक पारंपरिक व्यंजन सुझाया। दुर्भाग्य से, होटल की बुकिंग में एक समस्या हुई: हमारा कमरा तैयार नहीं था। हमने रिसेप्शन पर एक घंटा इंतज़ार किया, और मेरी बहन बहुत थक गई थी।\n\nरविवार को मौसम अच्छा था। हम शहर की पुरानी दीवारों (परकोटे) पर चढ़े और नदी का नज़ारा देखा। पुराने क्यूबेक की गलियाँ संकरी और मनमोहक हैं। मैंने भारत में अपने पूरे परिवार के लिए पोस्टकार्ड ख़रीदे। वापसी की ट्रेन पकड़ने से पहले हम पुराने बंदरगाह के बाज़ार गए, जहाँ हमने स्थानीय चीज़ें चखीं: मेपल सिरप, तरह-तरह के चीज़ और स्वादिष्ट सेब।\n\nयह यात्रा बहुत समृद्ध करने वाला अनुभव थी। अगली बार हम मॉन्मोराँसी जलप्रपात देखना चाहते हैं। आपकी सलाह के लिए फिर से धन्यवाद, जो बहुत काम आई!\n\nसादर,\nअनीता"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "'nous sommes allé à Québec' (Anita and her sister). What is the correct form?"
+        },
+        "options": [
+          "nous sommes allés",
+          "nous sommes allées",
+          "nous avons allé",
+          "nous sommes allé"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "Être + two women → feminine plural: allées. (Later in the text she correctly writes 'nous sommes montées'.)",
+          "hi": "être + दो महिलाएँ → स्त्रीलिंग बहुवचन: allées। (आगे वह सही लिखती है 'nous sommes montées'।)"
+        },
+        "kind": "grammar",
+        "evidence": "Ma sœur et moi, nous sommes allé à Québec samedi dernier."
+      },
+      {
+        "q": {
+          "en": "'une musée magnifique' — what is the correction?"
+        },
+        "options": [
+          "une musée magnifique",
+          "un musé magnifique",
+          "la musée magnifique",
+          "un musée magnifique"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "Musée is masculine (exception to -ée).",
+          "hi": "musée पुल्लिंग है (-ée का अपवाद)।"
+        },
+        "kind": "grammar",
+        "evidence": "Nous avons visité une musée magnifique"
+      },
+      {
+        "q": {
+          "en": "'La serveuse était très gentil' — what is the correction?"
+        },
+        "options": [
+          "très gentille",
+          "très gentile",
+          "No error",
+          "très gentils"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "La serveuse is feminine: gentil → gentille (double l + e).",
+          "hi": "la serveuse स्त्रीलिंग है: gentil → gentille (दो l + e)।"
+        },
+        "kind": "grammar",
+        "evidence": "La serveuse était très gentil"
+      },
+      {
+        "q": {
+          "en": "'il y a eu une problème' — why is it wrong?"
+        },
+        "options": [
+          "It should be plural",
+          "It is correct",
+          "Problème is masculine: un problème",
+          "Il y a eu is wrong"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "Le problème: masculine despite the -e.",
+          "hi": "le problème: -e के बावजूद पुल्लिंग।"
+        },
+        "kind": "grammar",
+        "evidence": "il y a eu une problème avec notre réservation"
+      },
+      {
+        "q": {
+          "en": "Which sentence in the email is CORRECT?"
+        },
+        "options": [
+          "ma sœur était très fatigué",
+          "Les rues du Vieux-Québec sont étroites et pleines de charme.",
+          "une expérience très enrichissant",
+          "dans un petite restaurant"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "Les rues (f. pl.) → étroites, pleines: correct. The others need petit, fatiguée, enrichissante.",
+          "hi": "les rues (स्त्री. बहु.) → étroites, pleines: सही। बाक़ी में petit, fatiguée, enrichissante चाहिए।"
+        },
+        "kind": "grammar",
+        "evidence": "Les rues du Vieux-Québec sont étroites et pleines de charme."
+      },
+      {
+        "q": {
+          "en": "'vos conseils, qui ont été très utiles' — is 'utiles' correct?"
+        },
+        "options": [
+          "No, it should be 'utilles'",
+          "No, it should be 'utilées'",
+          "No, it should be 'utile'",
+          "Yes: conseils is plural, utile has the same form in m and f"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "Adjectives ending in -e don't change for gender; plural adds -s: utiles.",
+          "hi": "-e पर ख़त्म होने वाले विशेषण लिंग से नहीं बदलते; बहुवचन में -s: utiles।"
+        },
+        "kind": "grammar",
+        "evidence": "Merci encore pour vos conseils, qui ont été très utiles !"
+      }
+    ]
+  },
+  "writing": {
+    "type": "rewrite",
+    "prompt": {
+      "en": "Correct and rewrite this paragraph. It contains 8 agreement or gender errors.",
+      "hi": "इस अनुच्छेद को सुधारकर दोबारा लिखिए। इसमें लिंग या मेल की 8 ग़लतियाँ हैं।",
+      "fr": "Le semaine dernière, ma amie Kavya est arrivé à Montréal avec sa mari. Ils ont trouvé une petit appartement dans un quartier calme. La logement est lumineux, mais la cuisine est vieux. Kavya a commencé une nouvelle emploi dans une grande hôpital. Elle est très contente, mais un peu fatigué."
+    },
+    "minWords": 50,
+    "maxWords": 90,
+    "hints": [
+      {
+        "en": "Look at every article (le/la, un/une, ma/mon) and check the noun's gender.",
+        "hi": "हर उपपद (le/la, un/une, ma/mon) देखिए और संज्ञा का लिंग जाँचिए।"
+      },
+      {
+        "en": "Then check each adjective and each participle after être.",
+        "hi": "फिर हर विशेषण और être के बाद हर participle जाँचिए।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "la semaine dernière",
+        "en": "last week",
+        "hi": "पिछले हफ़्ते",
+        "pron": "ला स्मैन दैग़-न्यैग़"
+      },
+      {
+        "fr": "mon amie / son mari",
+        "en": "my friend (f) / her husband",
+        "hi": "मेरी सहेली / उसका पति",
+        "pron": "मोँ ना-मी / सोँ मा-ग़ी"
+      },
+      {
+        "fr": "un nouvel emploi",
+        "en": "a new job",
+        "hi": "एक नई नौकरी",
+        "pron": "ऐँ नू-वै लाँ-प्ल्वा"
+      }
+    ],
+    "model": {
+      "fr": "La semaine dernière, mon amie Kavya est arrivée à Montréal avec son mari. Ils ont trouvé un petit appartement dans un quartier calme. Le logement est lumineux, mais la cuisine est vieille. Kavya a commencé un nouvel emploi dans un grand hôpital. Elle est très contente, mais un peu fatiguée.",
+      "en": "Last week, my friend Kavya arrived in Montréal with her husband. They found a small apartment in a quiet neighbourhood. The accommodation is bright, but the kitchen is old. Kavya started a new job in a big hospital. She is very happy, but a little tired."
+    },
+    "checklist": [
+      {
+        "en": "la semaine, mon amie, arrivée, son mari, un petit appartement, le logement, vieille, un nouvel emploi, un grand hôpital, fatiguée — did you find them all?",
+        "hi": "la semaine, mon amie, arrivée, son mari, un petit appartement, le logement, vieille, un nouvel emploi, un grand hôpital, fatiguée — क्या आपने सब ढूँढे?"
+      },
+      {
+        "en": "Did you write 'nouvel' (not 'nouveau') before a vowel?",
+        "hi": "क्या आपने स्वर से पहले 'nouvel' ('nouveau' नहीं) लिखा?"
+      },
+      {
+        "en": "Did you remember that 'sa mari' is wrong because the possessive agrees with mari (masculine), not with Kavya?",
+        "hi": "क्या याद रखा कि 'sa mari' ग़लत है क्योंकि possessive mari (पुल्लिंग) से मेल खाता है, Kavya से नहीं?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      6,
+      18,
+      22,
+      26,
+      44,
+      51
+    ],
+    "items": [
+      {
+        "fr": "le livre / la table",
+        "en": "the book / the table",
+        "hi": "किताब / मेज़",
+        "pron": "लö लीव्ग़ / ला ताब्ल"
+      },
+      {
+        "fr": "une robe rouge, des pantalons noirs",
+        "en": "a red dress, black trousers",
+        "hi": "एक लाल ड्रेस, काली पतलूनें",
+        "pron": "üन ग़ॉब ग़ूझ़ दे पाँ-ता-लोँ न्वाग़"
+      },
+      {
+        "fr": "un beau garçon / une belle fille",
+        "en": "a handsome boy / a beautiful girl",
+        "hi": "एक सुंदर लड़का / एक सुंदर लड़की",
+        "pron": "ऐँ बो गाग़-सोँ / üन बैल फ़ीय"
+      },
+      {
+        "fr": "Elle est née à Pune.",
+        "en": "She was born in Pune.",
+        "hi": "वह पुणे में पैदा हुई।",
+        "pron": "ऐ-लै ने आ पुने"
+      },
+      {
+        "fr": "Ils se sont levés tôt.",
+        "en": "They got up early.",
+        "hi": "वे जल्दी उठे।",
+        "pron": "इल सö सोँ लö-वे तो"
+      },
+      {
+        "fr": "Je les ai vus hier.",
+        "en": "I saw them yesterday.",
+        "hi": "मैंने उन्हें कल देखा।",
+        "pron": "झ़ö ले ज़े व्ü यैग़"
+      },
+      {
+        "fr": "ses parents / sa sœur / son frère",
+        "en": "his/her parents / sister / brother",
+        "hi": "उसके माता-पिता / उसकी बहन / उसका भाई",
+        "pron": "से पा-ग़ाँ / सा सöग़ / सोँ फ़्ग़ैग़"
+      },
+      {
+        "fr": "un vieil ami",
+        "en": "an old friend",
+        "hi": "एक पुराना दोस्त",
+        "pron": "ऐँ व्यै या-मी"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which noun is FEMININE?",
+        "hi": "कौन-सी संज्ञा स्त्रीलिंग है?"
+      },
+      "options": [
+        "situation",
+        "problème",
+        "logement",
+        "fromage"
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "-tion → feminine. -ment, -age, -ème → masculine.",
+        "hi": "-tion → स्त्रीलिंग। -ment, -age, -ème → पुल्लिंग।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which noun is an EXCEPTION (masculine although it ends in -ée)?",
+        "hi": "कौन-सा शब्द अपवाद है (-ée पर ख़त्म होकर भी पुल्लिंग)?"
+      },
+      "options": [
+        "l'idée",
+        "la journée",
+        "le musée",
+        "l'année"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Le musée and le lycée are masculine.",
+        "hi": "le musée और le lycée पुल्लिंग हैं।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Correct the participle: My mother arrived yesterday.",
+        "hi": "participle सुधारिए: मेरी माँ कल आईं।"
+      },
+      "sentence": "Ma mère est ___ hier.",
+      "answer": "arrivée",
+      "accept": [],
+      "explanation": {
+        "en": "Être → agreement with ma mère (f.).",
+        "hi": "être → ma mère (स्त्री.) से मेल।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Choose the correct sentence.",
+        "hi": "सही वाक्य चुनिए।"
+      },
+      "options": [
+        "Elle a mangés une pomme.",
+        "Elle a mangée une pomme.",
+        "Elle a mangé une pomme.",
+        "Elle est mangé une pomme."
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "With avoir and the object AFTER the verb: no agreement.",
+        "hi": "avoir के साथ और कर्म क्रिया के बाद हो तो: कोई मेल नहीं।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Choose the possessive: my school (école is feminine).",
+        "hi": "possessive चुनिए: मेरा स्कूल (école स्त्रीलिंग है)।"
+      },
+      "sentence": "___ école est près d'ici.",
+      "answer": "Mon",
+      "accept": [
+        "mon"
+      ],
+      "explanation": {
+        "en": "Before a vowel: mon, even for a feminine noun.",
+        "hi": "स्वर से पहले: mon, स्त्रीलिंग संज्ञा के साथ भी।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French.",
+        "hi": "फ़्रेंच में लिखिए।"
+      },
+      "source": {
+        "en": "The white chairs are new.",
+        "hi": "सफ़ेद कुर्सियाँ नई हैं।"
+      },
+      "answer": "Les chaises blanches sont neuves.",
+      "accept": [
+        "Les chaises blanches sont neuves",
+        "Les chaises blanches sont nouvelles."
+      ],
+      "explanation": {
+        "en": "Chaises (f. pl.) → blanches, neuves.",
+        "hi": "chaises (स्त्री. बहु.) → blanches, neuves।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Agree the participle: the letter that I wrote.",
+        "hi": "participle का मेल कीजिए: वह पत्र जो मैंने लिखा।"
+      },
+      "sentence": "La lettre que j'ai ___ est sur la table.",
+      "answer": "écrite",
+      "accept": [],
+      "explanation": {
+        "en": "Direct object (la lettre, via que) placed BEFORE avoir → agreement.",
+        "hi": "प्रत्यक्ष कर्म (la lettre, que के ज़रिए) avoir से पहले → मेल।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put in order: My sisters went to the museum.",
+        "hi": "क्रम में रखिए: मेरी बहनें संग्रहालय गईं।"
+      },
+      "words": [
+        "sœurs",
+        "Mes",
+        "allées",
+        "sont",
+        "au",
+        "musée",
+        "."
+      ],
+      "answer": "Mes sœurs sont allées au musée.",
+      "explanation": {
+        "en": "Être + feminine plural: allées; au musée (masculine).",
+        "hi": "être + स्त्रीलिंग बहुवचन: allées; au musée (पुल्लिंग)।"
+      }
+    }
+  ]
+}

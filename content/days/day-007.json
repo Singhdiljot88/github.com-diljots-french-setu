@@ -1,0 +1,183 @@
+{
+  "day": 7,
+  "phase": 1,
+  "title": { "fr": "Révision : ma première mini-conversation", "en": "Review day: my first mini-conversation", "hi": "दोहराव का दिन: मेरी पहली छोटी बातचीत" },
+  "objective": {
+    "en": "Put Days 1–6 together in one short conversation: greet, give your name, nationality, city, age and family, talk about objects with the right article — and switch from vous to tu when invited.",
+    "hi": "दिन 1–6 को एक छोटी बातचीत में जोड़ना: अभिवादन, नाम, राष्ट्रीयता, शहर, उम्र और परिवार बताना, सही उपपद के साथ चीज़ों के बारे में बोलना — और कहे जाने पर vous से tu पर आना।"
+  },
+  "prerequisites": {
+    "days": [1, 2, 3, 4, 5, 6],
+    "summary": { "en": "Everything from Days 1–6: greetings, spelling, être, nationalities, feelings, avoir and age, un/une and le/la.", "hi": "दिन 1–6 की सारी बातें: अभिवादन, स्पेलिंग, être, राष्ट्रीयता, हालचाल, avoir और उम्र, un/une और le/la।" }
+  },
+  "light": true,
+  "checkpoint": false,
+  "vocabulary": [
+    { "fr": "le voisin / la voisine", "en": "neighbour (m / f)", "hi": "पड़ोसी / पड़ोसन", "pron": "लö व्वा-ज़ैँ / ला व्वा-ज़ीन", "ipa": "lə vwazɛ̃ / la vwazin", "pos": "noun", "gender": "mf", "lemma": "voisin", "note": { "en": "Same pattern as indien/indienne: the feminine pronounces the n.", "hi": "indien/indienne जैसा ही: स्त्रीलिंग में n बोला जाता है।" } },
+    { "fr": "l'appartement", "en": "flat / apartment", "hi": "फ़्लैट / अपार्टमेंट", "pron": "ला-पाग़्त-माँ", "ipa": "lapaʁtəmɑ̃", "pos": "noun", "gender": "m", "lemma": "appartement" },
+    { "fr": "l'immeuble", "en": "apartment building", "hi": "इमारत / बिल्डिंग", "pron": "ली-मöब्ल", "ipa": "limœbl", "pos": "noun", "gender": "m", "lemma": "immeuble" },
+    { "fr": "Bienvenue !", "en": "Welcome!", "hi": "स्वागत है!", "pron": "ब्यैँ-व्नü", "ipa": "bjɛ̃vny", "pos": "interjection" },
+    { "fr": "avec", "en": "with", "hi": "के साथ", "pron": "आ-वैक", "ipa": "avɛk", "pos": "preposition" },
+    { "fr": "ici", "en": "here", "hi": "यहाँ", "pron": "ई-सी", "ipa": "isi", "pos": "adverb" }
+  ],
+  "phrases": [
+    { "fr": "Vous êtes la nouvelle voisine ?", "en": "Are you the new neighbour?", "hi": "क्या आप नई पड़ोसन हैं?", "pron": "वू ज़ैत ला नू-वैल व्वा-ज़ीन", "ipa": "vu zɛt la nuvɛl vwazin" },
+    { "fr": "Bienvenue dans l'immeuble !", "en": "Welcome to the building!", "hi": "बिल्डिंग में आपका स्वागत है!", "pron": "ब्यैँ-व्नü दाँ ली-मöब्ल", "ipa": "bjɛ̃vny dɑ̃ limœbl" },
+    { "fr": "On se tutoie ?", "en": "Shall we say tu to each other?", "hi": "क्या हम एक-दूसरे को 'tu' कहें?", "pron": "ओँ सö तü-त्वा", "ipa": "ɔ̃ sə tytwa", "note": { "en": "A friendly offer to move from vous to tu. Let the other person (often the older one) offer it.", "hi": "vous से tu पर आने का दोस्ताना प्रस्ताव। यह प्रस्ताव सामने वाले (अक्सर बड़े) को करने दीजिए।" } },
+    { "fr": "Oui, avec plaisir !", "en": "Yes, with pleasure!", "hi": "हाँ, ख़ुशी से!", "pron": "वी आ-वैक प्ले-ज़ीग़", "ipa": "wi avɛk pleziʁ" },
+    { "fr": "J'habite ici avec ma famille.", "en": "I live here with my family.", "hi": "मैं यहाँ अपने परिवार के साथ रहता/रहती हूँ।", "pron": "झ़ा-बीत ई-सी आ-वैक मा फ़ा-मीय", "ipa": "ʒabit isi avɛk ma famij" }
+  ],
+  "grammar": {
+    "title": { "en": "Recap: greetings, être, avoir and articles", "hi": "दोहराव: अभिवादन, être, avoir और उपपद" },
+    "explanation": {
+      "en": "Four tools you now have. 1) Greetings: bonjour / bonsoir / salut, au revoir, merci, enchanté(e). 2) être for who you are and how you feel: je suis indienne, il est fatigué, nous sommes contents. 3) avoir for age and what you have: j'ai vingt ans, elle a un fils. 4) Articles: un/une (a), le/la/l' (the) — and objects take il/elle by gender. Choose vous with new adults and officials; move to tu only when invited ('On se tutoie ?').",
+      "hi": "अब आपके पास चार औज़ार हैं। 1) अभिवादन: bonjour / bonsoir / salut, au revoir, merci, enchanté(e)। 2) être — आप कौन हैं और कैसा महसूस करते हैं: je suis indienne, il est fatigué, nous sommes contents। 3) avoir — उम्र और आपके पास क्या है: j'ai vingt ans, elle a un fils। 4) उपपद: un/une (एक), le/la/l' (वह ख़ास) — और चीज़ों के लिए लिंग के हिसाब से il/elle। नए वयस्कों और अधिकारियों से vous बोलिए; tu पर तभी आइए जब सामने वाला कहे ('On se tutoie ?')।"
+    },
+    "comparison": {
+      "en": "Hindi uses होना for both 'I am Indian' and 'I am 20'. French splits them: être for identity and feelings, avoir for age. Moving from vous to tu is like moving from आप to तुम — in French it is often offered openly with 'On se tutoie ?'.",
+      "hi": "हिंदी में 'मैं भारतीय हूँ' और 'मैं 20 साल का हूँ' दोनों में 'होना' है। फ़्रेंच इन्हें बाँटती है: पहचान और भावना के लिए être, उम्र के लिए avoir। vous से tu पर आना वैसा ही है जैसे 'आप' से 'तुम' पर आना — फ़्रेंच में अक्सर इसे खुलकर पूछा जाता है: 'On se tutoie ?'।"
+    },
+    "examples": [
+      { "fr": "Je suis canadien et j'ai dix-neuf ans.", "en": "I'm Canadian and I'm nineteen.", "hi": "मैं कनाडाई हूँ और मैं उन्नीस साल का हूँ।", "pron": "झ़ö सüई का-ना-द्यैँ ए झ़े दीज़-नö वाँ" },
+      { "fr": "Elle est fatiguée. Elle a deux enfants.", "en": "She is tired. She has two children.", "hi": "वह थकी हुई है। उसके दो बच्चे हैं।", "pron": "ऐ लै फ़ा-ती-गे ऐ ला दö ज़ाँ-फ़ाँ" },
+      { "fr": "Voilà la clé. Elle est sur la table.", "en": "Here's the key. It's on the table.", "hi": "यह रही चाबी। वह मेज़ पर है।", "pron": "व्वा-ला ला क्ले ऐ लै सüग़ ला ताब्ल" },
+      { "fr": "Bonsoir, madame ! Comment allez-vous ?", "en": "Good evening, madam! How are you?", "hi": "शुभ संध्या, मैडम! आप कैसी हैं?", "pron": "बोँ-स्वाग़ मा-दाम को-माँ ता-ले वू" }
+    ],
+    "pitfalls": [
+      { "en": "être or avoir? 'Je suis fatigué' (state) but 'J'ai vingt ans' (age).", "hi": "être या avoir? 'Je suis fatigué' (हालत) पर 'J'ai vingt ans' (उम्र)।" },
+      { "en": "Don't jump to tu with a new adult neighbour. Wait for 'On se tutoie ?'.", "hi": "किसी नए वयस्क पड़ोसी से तुरंत tu पर मत आइए। 'On se tutoie ?' का इंतज़ार कीजिए।" }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Review of silent final letters and /y/",
+    "tip": {
+      "en": "Two habits to keep: drop most final consonants (salut, lit, Paris, petit) and make a real ü in tu, une, salut, bienvenue. Exceptions you know: sac, avec, (c is heard) and the numbers six, dix, huit, cinq when alone.",
+      "hi": "दो आदतें बनाए रखिए: ज़्यादातर आख़िरी व्यंजन छोड़िए (salut, lit, Paris, petit) और tu, une, salut, bienvenue में असली ü बोलिए। जो अपवाद आप जानते हैं: sac, avec (c बोला जाता है) और six, dix, huit, cinq जब अकेले हों।"
+    },
+    "words": [
+      { "fr": "salut", "en": "hi", "hi": "हाय", "pron": "सा-लü", "ipa": "saly" },
+      { "fr": "le lit", "en": "the bed", "hi": "बिस्तर", "pron": "लö ली", "ipa": "lə li" },
+      { "fr": "bienvenue", "en": "welcome", "hi": "स्वागत है", "pron": "ब्यैँ-व्नü", "ipa": "bjɛ̃vny" },
+      { "fr": "avec", "en": "with", "hi": "के साथ", "pron": "आ-वैक", "ipa": "avɛk", "note": { "en": "The c is heard.", "hi": "c बोला जाता है।" } },
+      { "fr": "une voisine", "en": "a neighbour (f)", "hi": "एक पड़ोसन", "pron": "üन व्वा-ज़ीन", "ipa": "yn vwazin" }
+    ]
+  },
+  "listening": {
+    "title": { "fr": "Au café de l'immeuble", "en": "At the building's café" },
+    "type": "dialogue",
+    "mode": "pedagogical",
+    "context": { "en": "Anita has just moved into a building in Montréal. In the small café downstairs, a neighbour, Marc, says hello.", "hi": "अनीता अभी-अभी मॉन्ट्रियाल की एक बिल्डिंग में आई है। नीचे छोटे कैफ़े में एक पड़ोसी, मार्क, उससे मिलता है।" },
+    "lines": [
+      { "speaker": "Marc", "voice": "m2", "fr": "Bonjour ! Vous êtes la nouvelle voisine ?", "en": "Hello! Are you the new neighbour?", "hi": "नमस्ते! क्या आप नई पड़ोसन हैं?" },
+      { "speaker": "Anita", "voice": "f1", "fr": "Oui ! Je m'appelle Anita. Et vous ?", "en": "Yes! My name is Anita. And you?", "hi": "हाँ! मेरा नाम अनीता है। और आप?" },
+      { "speaker": "Marc", "voice": "m2", "fr": "Je m'appelle Marc. Enchanté ! Vous êtes d'où ?", "en": "My name is Marc. Nice to meet you! Where are you from?", "hi": "मेरा नाम मार्क है। आपसे मिलकर ख़ुशी हुई! आप कहाँ से हैं?" },
+      { "speaker": "Anita", "voice": "f1", "fr": "Je suis indienne. Je viens de Chandigarh.", "en": "I'm Indian. I'm from Chandigarh.", "hi": "मैं भारतीय हूँ। मैं चंडीगढ़ से हूँ।" },
+      { "speaker": "Marc", "voice": "m2", "fr": "Moi, je suis canadien. J'ai deux enfants, un fils et une fille.", "en": "I'm Canadian. I have two children, a son and a daughter.", "hi": "मैं कनाडाई हूँ। मेरे दो बच्चे हैं, एक बेटा और एक बेटी।" },
+      { "speaker": "Anita", "voice": "f1", "fr": "Moi, j'ai un frère. Il a dix-neuf ans. Il habite à Toronto.", "en": "I have a brother. He's nineteen. He lives in Toronto.", "hi": "मेरा एक भाई है। वह उन्नीस साल का है। वह टोरंटो में रहता है।" },
+      { "speaker": "Marc", "voice": "m2", "fr": "Bienvenue dans l'immeuble, Anita ! On se tutoie ?", "en": "Welcome to the building, Anita! Shall we say tu?", "hi": "बिल्डिंग में स्वागत है, अनीता! क्या हम एक-दूसरे को 'tu' कहें?" },
+      { "speaker": "Anita", "voice": "f1", "fr": "Oui, avec plaisir ! Merci, Marc.", "en": "Yes, with pleasure! Thanks, Marc.", "hi": "हाँ, ख़ुशी से! धन्यवाद, मार्क।" }
+    ],
+    "questions": [
+      { "q": { "en": "Where does Anita come from?" }, "options": ["Toronto", "Chandigarh", "Montréal"], "answer": 1, "explanation": { "en": "'Je viens de Chandigarh.' Toronto is where her brother lives.", "hi": "'Je viens de Chandigarh.' टोरंटो में उसका भाई रहता है।" }, "kind": "literal", "evidence": "Je viens de Chandigarh." },
+      { "q": { "en": "What do we know about Marc's family?" }, "options": ["He has a son and a daughter", "He has a brother", "He has no children"], "answer": 0, "explanation": { "en": "'J'ai deux enfants, un fils et une fille.'", "hi": "'J'ai deux enfants, un fils et une fille.' — एक बेटा और एक बेटी।" }, "kind": "literal", "evidence": "J'ai deux enfants, un fils et une fille." },
+      { "q": { "en": "How old is Anita's brother?" }, "options": ["9", "17", "19"], "answer": 2, "explanation": { "en": "'Il a dix-neuf ans' — 19.", "hi": "'Il a dix-neuf ans' — 19।" }, "kind": "literal", "evidence": "Il a dix-neuf ans." },
+      { "q": { "en": "What does Marc propose at the end?" }, "options": ["To meet tomorrow", "To use tu with each other", "To spell her name"], "answer": 1, "explanation": { "en": "'On se tutoie ?' = shall we say tu to each other? Anita accepts.", "hi": "'On se tutoie ?' = क्या हम एक-दूसरे को tu कहें? अनीता मान जाती है।" }, "kind": "inference", "evidence": "On se tutoie ?" },
+      { "q": { "en": "Why do they use vous at the start?" }, "options": ["They are old friends", "They have just met and are adults", "Anita is a child"], "answer": 1, "explanation": { "en": "Two adults meeting for the first time start with vous ('Vous êtes la nouvelle voisine ?').", "hi": "पहली बार मिलने वाले दो वयस्क vous से शुरू करते हैं ('Vous êtes la nouvelle voisine ?')।" }, "kind": "inference", "evidence": "Vous êtes la nouvelle voisine ?" }
+    ],
+    "dictation": ["Je suis indienne.", "Il a dix-neuf ans.", "Bienvenue dans l'immeuble !"],
+    "gapFill": { "text": "Moi, je suis canadien. J'___ deux enfants. … Il ___ dix-neuf ans.", "answers": ["ai", "a"] }
+  },
+  "speaking": {
+    "type": "roleplay",
+    "instructions": {
+      "en": "Role-play meeting a new neighbour in the lobby. Use vous first, give your name, nationality, city, age or family, and accept when the neighbour offers tu.",
+      "hi": "लॉबी में एक नए पड़ोसी से मिलने का अभिनय कीजिए। पहले vous बोलिए, अपना नाम, राष्ट्रीयता, शहर, उम्र या परिवार बताइए, और जब पड़ोसी tu का प्रस्ताव दे तो मान लीजिए।"
+    },
+    "prompts": [
+      { "fr": "Bonjour ! Je suis la nouvelle voisine / le nouveau voisin.", "en": "Hello! I'm the new neighbour.", "hi": "नमस्ते! मैं नई पड़ोसन / नया पड़ोसी हूँ।", "pron": "बोँ-झ़ूग़ झ़ö सüई ला नू-वैल व्वा-ज़ीन / लö नू-वो व्वा-ज़ैँ" },
+      { "fr": "Je m'appelle … . Je suis … .", "en": "My name is … . I am … (nationality).", "hi": "मेरा नाम … है। मैं … हूँ।", "pron": "झ़ö मा-पैल … झ़ö सüई …", "model": "Je m'appelle Arjun. Je suis indien." },
+      { "fr": "Je viens de … . J'habite ici avec …", "en": "I'm from … . I live here with …", "hi": "मैं … से हूँ। मैं यहाँ … के साथ रहता/रहती हूँ।", "pron": "झ़ö व्यैँ दö … झ़ा-बीत ई-सी आ-वैक …", "model": "Je viens de Surat. J'habite ici avec ma sœur." },
+      { "fr": "Vous avez des enfants ?", "en": "Do you have children?", "hi": "क्या आपके बच्चे हैं?", "pron": "वू ज़ा-वे दे ज़ाँ-फ़ाँ" },
+      { "fr": "Oui, avec plaisir !", "en": "Yes, with pleasure!", "hi": "हाँ, ख़ुशी से!", "pron": "वी आ-वैक प्ले-ज़ीग़" }
+    ],
+    "tip": {
+      "en": "Keep each sentence short: one idea, one sentence. Smile and say 'Enchanté(e)' after the names.",
+      "hi": "हर वाक्य छोटा रखिए: एक बात, एक वाक्य। नाम के बाद मुस्कुराकर 'Enchanté(e)' कहिए।"
+    },
+    "scenario": {
+      "setting": { "en": "The lobby of your new building in Montréal, on a Saturday morning.", "hi": "शनिवार सुबह, मॉन्ट्रियाल में आपकी नई बिल्डिंग की लॉबी।" },
+      "learnerRole": { "en": "You have just moved in.", "hi": "आप अभी-अभी यहाँ रहने आए हैं।" },
+      "partnerRole": { "en": "Claire, a friendly neighbour in her forties, who offers tu at the end.", "hi": "क्लेयर, चालीस-पैंतालीस साल की मिलनसार पड़ोसन, जो आख़िर में tu का प्रस्ताव देती है।" },
+      "goals": [
+        { "en": "Greet politely and exchange names.", "hi": "शिष्टता से अभिवादन कीजिए और नाम बताइए।" },
+        { "en": "Give your nationality, origin and who you live with.", "hi": "अपनी राष्ट्रीयता, आप कहाँ से हैं और किसके साथ रहते हैं, बताइए।" },
+        { "en": "Ask one question about the neighbour's family.", "hi": "पड़ोसी के परिवार के बारे में एक प्रश्न पूछिए।" }
+      ]
+    }
+  },
+  "reading": {
+    "genre": "message",
+    "title": "Un mot pour la nouvelle voisine",
+    "text": "Bonjour et bienvenue dans l'immeuble !\nJe m'appelle Claire Dubois. Je suis la voisine de l'appartement 8. J'habite ici avec mon fils, Hugo. Il a dix ans.\nUne question ? Mon téléphone : 514 555-0148.\nÀ bientôt !\nClaire",
+    "translation": {
+      "en": "Hello and welcome to the building!\nMy name is Claire Dubois. I'm the neighbour from apartment 8. I live here with my son, Hugo. He is ten.\nA question? My phone: 514 555-0148.\nSee you soon!\nClaire",
+      "hi": "नमस्ते और बिल्डिंग में आपका स्वागत है!\nमेरा नाम क्लेयर दुबुआ है। मैं अपार्टमेंट 8 वाली पड़ोसन हूँ। मैं यहाँ अपने बेटे, ह्यूगो, के साथ रहती हूँ। वह दस साल का है।\nकोई सवाल? मेरा फ़ोन: 514 555-0148।\nजल्द मिलते हैं!\nक्लेयर"
+    },
+    "questions": [
+      { "q": { "en": "Which apartment does Claire live in?" }, "options": ["8", "10", "14"], "answer": 0, "explanation": { "en": "'la voisine de l'appartement 8'.", "hi": "'la voisine de l'appartement 8' — अपार्टमेंट 8।" }, "kind": "literal", "evidence": "Je suis la voisine de l'appartement 8." },
+      { "q": { "en": "Who is Hugo?" }, "options": ["Claire's brother", "Claire's son", "A new neighbour"], "answer": 1, "explanation": { "en": "'mon fils, Hugo' — her son.", "hi": "'mon fils, Hugo' — उसका बेटा।" }, "kind": "vocabulary", "evidence": "J'habite ici avec mon fils, Hugo." },
+      { "q": { "en": "How old is Hugo?" }, "options": ["Two", "Twelve", "Ten"], "answer": 2, "explanation": { "en": "'Il a dix ans.' — dix = 10.", "hi": "'Il a dix ans.' — dix = 10।" }, "kind": "literal", "evidence": "Il a dix ans." },
+      { "q": { "en": "What should you do if you have a question?" }, "options": ["Phone Claire", "Go to apartment 10", "Write an email"], "answer": 0, "explanation": { "en": "She gives her phone number after 'Une question ?'.", "hi": "'Une question ?' के बाद वह अपना फ़ोन नंबर देती है।" }, "kind": "inference", "evidence": "Une question ? Mon téléphone : 514 555-0148." }
+    ]
+  },
+  "writing": {
+    "type": "paragraph",
+    "prompt": {
+      "en": "Write a 5-sentence note to introduce yourself to your new neighbours: greeting, name, nationality and city of origin, who you live with (and their age), and a goodbye.",
+      "hi": "अपने नए पड़ोसियों को अपना परिचय देते हुए 5 वाक्यों का एक नोट लिखिए: अभिवादन, नाम, राष्ट्रीयता और आप कहाँ से हैं, आप किसके साथ रहते हैं (और उनकी उम्र), और विदा।"
+    },
+    "minWords": 20,
+    "maxWords": 50,
+    "hints": [
+      { "en": "être for nationality, avoir for age.", "hi": "राष्ट्रीयता के लिए être, उम्र के लिए avoir।" },
+      { "en": "You can copy Claire's note as a model and change the details.", "hi": "आप क्लेयर के नोट को नमूने की तरह लेकर अपनी जानकारी बदल सकते हैं।" }
+    ],
+    "usefulPhrases": [
+      { "fr": "Bonjour et bienvenue !", "en": "Hello and welcome!", "hi": "नमस्ते और स्वागत है!", "pron": "बोँ-झ़ूग़ ए ब्यैँ-व्नü" },
+      { "fr": "J'habite ici avec …", "en": "I live here with …", "hi": "मैं यहाँ … के साथ रहता/रहती हूँ", "pron": "झ़ा-बीत ई-सी आ-वैक" },
+      { "fr": "Je suis le voisin / la voisine de l'appartement …", "en": "I'm the neighbour from apartment …", "hi": "मैं अपार्टमेंट … वाला पड़ोसी / वाली पड़ोसन हूँ", "pron": "झ़ö सüई लö व्वा-ज़ैँ / ला व्वा-ज़ीन दö ला-पाग़्त-माँ" }
+    ],
+    "model": { "fr": "Bonjour ! Je m'appelle Ravi Kumar. Je suis indien, je viens de Bangalore. J'habite ici avec ma sœur, Neha. Elle a dix-huit ans. À bientôt !", "en": "Hello! My name is Ravi Kumar. I'm Indian, I'm from Bangalore. I live here with my sister, Neha. She is eighteen. See you soon!" },
+    "checklist": [
+      { "en": "Five sentences, each with a verb?", "hi": "पाँच वाक्य, हर एक में क्रिया?" },
+      { "en": "être for nationality and avoir for age?", "hi": "राष्ट्रीयता के लिए être और उम्र के लिए avoir?" },
+      { "en": "mon/ma matching the family word (mon frère, ma sœur)?", "hi": "परिवार वाले शब्द के हिसाब से mon/ma (mon frère, ma sœur)?" }
+    ]
+  },
+  "review": {
+    "fromDays": [1, 2, 3, 4, 5, 6],
+    "items": [
+      { "fr": "Bonjour, monsieur. Bonsoir, madame.", "en": "Hello, sir. Good evening, madam.", "hi": "नमस्ते, सर। शुभ संध्या, मैडम।", "pron": "बोँ-झ़ूग़ मö-स्यö बोँ-स्वाग़ मा-दाम" },
+      { "fr": "Comment vous appelez-vous ?", "en": "What is your name?", "hi": "आपका नाम क्या है?", "pron": "को-माँ वू ज़ा-प्ले वू" },
+      { "fr": "Comment ça s'écrit ?", "en": "How is that spelled?", "hi": "इसकी स्पेलिंग क्या है?", "pron": "को-माँ सा से-क्ग़ी" },
+      { "fr": "Je suis indien / indienne.", "en": "I'm Indian.", "hi": "मैं भारतीय हूँ।", "pron": "झ़ö सüई ज़ैँ-द्यैँ / ज़ैँ-द्यैन" },
+      { "fr": "Vous êtes d'où ?", "en": "Where are you from?", "hi": "आप कहाँ से हैं?", "pron": "वू ज़ैत दू" },
+      { "fr": "J'habite à Ottawa.", "en": "I live in Ottawa.", "hi": "मैं ओटावा में रहता/रहती हूँ।", "pron": "झ़ा-बीत आ ऑ-ता-वा" },
+      { "fr": "Comment allez-vous ? — Très bien, merci.", "en": "How are you? — Very well, thank you.", "hi": "आप कैसे हैं? — बहुत अच्छा, धन्यवाद।", "pron": "को-माँ ता-ले वू — त्ग़ै ब्यैँ मैग़-सी" },
+      { "fr": "Je suis un peu fatigué(e).", "en": "I'm a little tired.", "hi": "मैं थोड़ा थका / थोड़ी थकी हूँ।", "pron": "झ़ö सüई ज़ैँ पö फ़ा-ती-गे" },
+      { "fr": "Quel âge avez-vous ?", "en": "How old are you?", "hi": "आपकी उम्र क्या है?", "pron": "कै लाझ़ आ-वे वू" },
+      { "fr": "Ma fille a douze ans.", "en": "My daughter is twelve.", "hi": "मेरी बेटी बारह साल की है।", "pron": "मा फ़ीय आ दू ज़ाँ" },
+      { "fr": "un livre, une clé, l'ordinateur", "en": "a book, a key, the computer", "hi": "एक किताब, एक चाबी, वह कंप्यूटर", "pron": "ऐँ लीव्ग़ üन क्ले लॉग़-दी-ना-तöग़" },
+      { "fr": "Où est le sac ? — Il est sur la chaise.", "en": "Where is the bag? — It's on the chair.", "hi": "थैला कहाँ है? — वह कुर्सी पर है।", "pron": "ऊ ऐ लö साक — ई लै सüग़ ला शैज़" }
+    ]
+  },
+  "assessment": [
+    { "type": "mcq", "prompt": { "en": "Which sentence is correct?", "hi": "कौन-सा वाक्य सही है?" }, "options": ["Je suis dix-neuf ans.", "J'ai dix-neuf ans.", "J'ai dix-neuf."], "answer": 1, "explanation": { "en": "Age: avoir + number + ans.", "hi": "उम्र: avoir + संख्या + ans।" } },
+    { "type": "mcq", "prompt": { "en": "A new adult neighbour greets you. What do you answer?", "hi": "एक नया वयस्क पड़ोसी आपका अभिवादन करता है। आप क्या जवाब देंगे?" }, "options": ["Bonjour ! Comment allez-vous ?", "Salut ! Tu t'appelles comment ?", "Au revoir !"], "answer": 0, "explanation": { "en": "First meeting with an adult: bonjour + vous.", "hi": "किसी वयस्क से पहली मुलाक़ात: bonjour + vous।" } },
+    { "type": "fill", "prompt": { "en": "Complete: She is Indian.", "hi": "पूरा कीजिए: वह भारतीय है।" }, "sentence": "Elle ___ indienne.", "answer": "est", "accept": [], "explanation": { "en": "elle + être = elle est.", "hi": "elle + être = elle est।" } },
+    { "type": "fill", "prompt": { "en": "Complete with un or une: ___ fenêtre", "hi": "un या une से पूरा कीजिए: ___ fenêtre" }, "sentence": "___ fenêtre", "answer": "une", "accept": ["Une"], "explanation": { "en": "fenêtre is feminine.", "hi": "fenêtre स्त्रीलिंग है।" } },
+    { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "Welcome to the building!", "hi": "बिल्डिंग में आपका स्वागत है!" }, "answer": "Bienvenue dans l'immeuble !", "accept": ["Bienvenue dans l'immeuble!", "Bienvenue dans l’immeuble !", "bienvenue dans l'immeuble"], "explanation": { "en": "Bienvenue dans + place.", "hi": "Bienvenue dans + जगह।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: I live here with my sister.", "hi": "शब्दों को सही क्रम में रखिए: मैं यहाँ अपनी बहन के साथ रहती हूँ।" }, "words": ["ici", "J'habite", "sœur.", "avec", "ma"], "answer": "J'habite ici avec ma sœur.", "explanation": { "en": "J'habite + ici + avec + ma sœur.", "hi": "J'habite + ici + avec + ma sœur।" } },
+    { "type": "mcq", "prompt": { "en": "What does 'On se tutoie ?' mean?", "hi": "'On se tutoie ?' का क्या मतलब है?" }, "options": ["Shall we use tu with each other?", "Are you tired?", "Where are you from?"], "answer": 0, "explanation": { "en": "It is an offer to switch from vous to tu.", "hi": "यह vous से tu पर आने का प्रस्ताव है।" } }
+  ]
+}

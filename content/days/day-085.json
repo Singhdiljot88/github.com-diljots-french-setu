@@ -1,0 +1,954 @@
+{
+  "day": 85,
+  "phase": 5,
+  "title": {
+    "fr": "TEF compréhension orale : le micro-trottoir",
+    "en": "TEF listening: street interviews",
+    "hi": "TEF श्रवण: सड़क पर राय-सर्वेक्षण (माइक्रो-त्रोत्वार)"
+  },
+  "objective": {
+    "en": "Understand people giving quick opinions in spontaneous spoken French (dropped ne, ouais, y'a, ben, du coup) and decide whether each speaker is for, against or in between.",
+    "hi": "सहज बोलचाल की फ़्रेंच (ग़ायब ne, ouais, y'a, ben, du coup) में झटपट राय देने वाले लोगों को समझना, और तय करना कि हर वक्ता पक्ष में है, विपक्ष में या बीच में।"
+  },
+  "prerequisites": {
+    "days": [
+      57,
+      61,
+      62,
+      69,
+      73
+    ],
+    "summary": {
+      "en": "Dropped ne in speech (Day 57), opinion phrases (Day 61), reasons (Day 62), contrast connectors (Day 69) and concession (Day 73).",
+      "hi": "बोलचाल में ग़ायब ne (दिन 57), राय के वाक्यांश (दिन 61), कारण (दिन 62), विरोध के संयोजक (दिन 69) और रियायत/मान लेना (दिन 73)।"
+    }
+  },
+  "light": false,
+  "checkpoint": false,
+  "vocabulary": [
+    {
+      "fr": "ouais",
+      "en": "yeah",
+      "hi": "हाँ (बोलचाल)",
+      "pron": "वै",
+      "ipa": "wɛ",
+      "pos": "interjection",
+      "note": {
+        "en": "Very common in speech, too casual for the TEF speaking exam with an examiner playing a stranger.",
+        "hi": "बोलचाल में बहुत आम है, पर TEF बोलने की परीक्षा में अजनबी से बात करते समय बहुत अनौपचारिक लगेगा।"
+      }
+    },
+    {
+      "fr": "ben",
+      "en": "well (filler)",
+      "hi": "अरे / तो (भराव शब्द)",
+      "pron": "बैँ",
+      "ipa": "bɛ̃",
+      "pos": "interjection",
+      "note": {
+        "en": "From 'bien'. 'Ben oui' = well, yes, obviously.",
+        "hi": "'bien' से बना। 'ben oui' = और क्या, हाँ।"
+      }
+    },
+    {
+      "fr": "du coup",
+      "en": "so, as a result (spoken)",
+      "hi": "तो / इसलिए (बोलचाल)",
+      "pron": "दü कू",
+      "ipa": "dy ku",
+      "pos": "adverb",
+      "note": {
+        "en": "Spoken equivalent of 'donc'. In writing, prefer donc or par conséquent.",
+        "hi": "'donc' का बोलचाल वाला रूप। लिखते समय donc या par conséquent बेहतर है।"
+      }
+    },
+    {
+      "fr": "bof",
+      "en": "meh, not really",
+      "hi": "हम्म, कुछ ख़ास नहीं",
+      "pron": "बॉफ़",
+      "ipa": "bɔf",
+      "pos": "interjection",
+      "note": {
+        "en": "Shows lack of enthusiasm — a negative or lukewarm opinion.",
+        "hi": "उत्साह की कमी दिखाता है — नकारात्मक या ठंडी राय।"
+      }
+    },
+    {
+      "fr": "franchement",
+      "en": "honestly, frankly",
+      "hi": "सच कहूँ तो",
+      "pron": "फ़्ग़ाँश-माँ",
+      "ipa": "fʁɑ̃ʃmɑ̃",
+      "pos": "adverb"
+    },
+    {
+      "fr": "carrément",
+      "en": "totally, absolutely",
+      "hi": "बिल्कुल / पूरी तरह",
+      "pron": "का-ग़े-माँ",
+      "ipa": "kaʁemɑ̃",
+      "pos": "adverb"
+    },
+    {
+      "fr": "en gros",
+      "en": "basically, roughly",
+      "hi": "कुल मिलाकर",
+      "pron": "आँ ग्रो",
+      "ipa": "ɑ̃ ɡʁo",
+      "pos": "adverb"
+    },
+    {
+      "fr": "ça dépend",
+      "en": "it depends",
+      "hi": "निर्भर करता है",
+      "pron": "सा दे-पाँ",
+      "ipa": "sa depɑ̃",
+      "pos": "phrase"
+    },
+    {
+      "fr": "perso",
+      "en": "personally (spoken)",
+      "hi": "मेरे हिसाब से (बोलचाल)",
+      "pron": "पैग़-सो",
+      "ipa": "pɛʁso",
+      "pos": "adverb",
+      "note": {
+        "en": "Short for 'personnellement'.",
+        "hi": "'personnellement' का छोटा रूप।"
+      }
+    },
+    {
+      "fr": "le truc",
+      "en": "thing, stuff (informal)",
+      "hi": "चीज़ (अनौपचारिक)",
+      "pron": "लö त्ग़üक",
+      "ipa": "lə tʁyk",
+      "pos": "noun",
+      "gender": "m",
+      "lemma": "truc"
+    },
+    {
+      "fr": "être pour / être contre",
+      "en": "to be for / against",
+      "hi": "पक्ष में / विरोध में होना",
+      "pron": "ऐत्ग़ पूग़ / ऐत्ग़ कोँत्ग़",
+      "ipa": "ɛtʁ puʁ / ɛtʁ kɔ̃tʁ",
+      "pos": "phrase"
+    },
+    {
+      "fr": "les avis sont partagés",
+      "en": "opinions are divided",
+      "hi": "राय बँटी हुई है",
+      "pron": "ले ज़ा-वी सोँ पाग़-ता-झ़े",
+      "ipa": "le zavi sɔ̃ paʁtaʒe",
+      "pos": "phrase"
+    }
+  ],
+  "phrases": [
+    {
+      "fr": "Y'a pas assez de personnel.",
+      "en": "There aren't enough staff.",
+      "hi": "पर्याप्त कर्मचारी नहीं हैं।",
+      "pron": "या पा ज़ा-से दö पैग़-सो-नैल",
+      "note": {
+        "en": "Careful form: Il n'y a pas assez de personnel.",
+        "hi": "सावधान रूप: Il n'y a pas assez de personnel।"
+      }
+    },
+    {
+      "fr": "C'est pas réaliste.",
+      "en": "It's not realistic.",
+      "hi": "यह व्यावहारिक नहीं है।",
+      "pron": "सै पा ग़े-आ-लीस्त"
+    },
+    {
+      "fr": "J'sais pas, ça peut motiver les gens.",
+      "en": "I dunno, it can motivate people.",
+      "hi": "पता नहीं, इससे लोगों का हौसला बढ़ सकता है।",
+      "pron": "श्सै पा सा पö मो-ती-वे ले झ़ाँ"
+    },
+    {
+      "fr": "Ça marche pas pour tout le monde.",
+      "en": "It doesn't work for everyone.",
+      "hi": "यह सबके लिए नहीं चलता।",
+      "pron": "सा माग़श पा पूग़ तू लö मोँद"
+    },
+    {
+      "fr": "Je dis oui tout de suite.",
+      "en": "I say yes right away.",
+      "hi": "मैं तुरंत हाँ कहूँगा।",
+      "pron": "झ़ö दी वी तूत स्üईत"
+    },
+    {
+      "fr": "Je suis plutôt contre.",
+      "en": "I'm rather against it.",
+      "hi": "मैं कुछ हद तक इसके ख़िलाफ़ हूँ।",
+      "pron": "झ़ö स्üई प्लü-तो कोँत्ग़"
+    }
+  ],
+  "grammar": {
+    "title": {
+      "en": "Spoken French: what disappears and what it means",
+      "hi": "बोलचाल की फ़्रेंच: क्या ग़ायब होता है और उसका मतलब क्या है"
+    },
+    "explanation": {
+      "en": "In street interviews people speak fast and informally. Recognise these features: (1) 'ne' disappears in negation: 'C'est pas réaliste' = Ce n'est pas réaliste; 'y'a pas' = il n'y a pas. The word 'pas' alone carries the negation, so listen for it! (2) Sounds merge: tu es → t'es, je sais → j'sais (श्सै), il faut → faut. (3) Fillers: ben, euh, bon, genre, en fait — they carry no information. (4) Spoken connectors: du coup (= donc), en gros (= en résumé), perso (= personnellement). To identify an opinion, listen for markers: FOR — carrément, je suis pour, c'est une bonne idée, je dis oui; AGAINST — bof, pas vraiment, je suis contre, c'est pas réaliste; IN BETWEEN — ça dépend, oui mais, d'un côté… de l'autre, si … alors oui, sinon non.",
+      "hi": "सड़क पर सर्वेक्षण में लोग तेज़ और अनौपचारिक बोलते हैं। ये बातें पहचानिए: (1) नकार में 'ne' ग़ायब हो जाता है: 'C'est pas réaliste' = Ce n'est pas réaliste; 'y'a pas' = il n'y a pas। अकेला 'pas' ही नकार बताता है, इसलिए उसी पर ध्यान दीजिए! (2) आवाज़ें मिल जाती हैं: tu es → t'es, je sais → j'sais (श्सै), il faut → faut। (3) भराव शब्द: ben, euh, bon, genre, en fait — इनमें कोई जानकारी नहीं होती। (4) बोलचाल के संयोजक: du coup (= donc), en gros (= en résumé), perso (= personnellement)। राय पहचानने के लिए संकेत सुनिए: पक्ष — carrément, je suis pour, c'est une bonne idée, je dis oui; विपक्ष — bof, pas vraiment, je suis contre, c'est pas réaliste; बीच में — ça dépend, oui mais, d'un côté… de l'autre, si … alors oui, sinon non।"
+    },
+    "comparison": {
+      "en": "Hindi speakers also shorten in speech ('क्या कर रहे हो' → 'क्या कर रै हो'). The difference: in French the shortened negation can sound almost positive to a beginner, because 'ne' is the part you learned first. Train your ear on 'pas', 'jamais', 'plus', 'rien'.",
+      "hi": "हिंदी बोलने वाले भी बोलचाल में शब्द छोटे करते हैं ('क्या कर रहे हो' → 'क्या कर रै हो')। फ़र्क़ यह है कि फ़्रेंच में छोटा किया गया नकार शुरुआती सीखने वाले को लगभग सकारात्मक लग सकता है, क्योंकि आपने पहले 'ne' ही सीखा था। अपने कान को 'pas', 'jamais', 'plus', 'rien' पर तैयार कीजिए।"
+    },
+    "examples": [
+      {
+        "fr": "C'est pas réaliste pour nous. (= Ce n'est pas réaliste.)",
+        "en": "It's not realistic for us.",
+        "hi": "हमारे लिए यह व्यावहारिक नहीं है।",
+        "pron": "सै पा ग़े-आ-लीस्त पूग़ नू"
+      },
+      {
+        "fr": "Y'a déjà pas assez de monde. (= Il n'y a déjà pas assez de monde.)",
+        "en": "There already aren't enough people.",
+        "hi": "पहले से ही काफ़ी लोग नहीं हैं।",
+        "pron": "या दे-झ़ा पा ज़ा-से दö मोँद"
+      },
+      {
+        "fr": "T'es pour ou t'es contre ? (= Tu es pour ou contre ?)",
+        "en": "Are you for or against?",
+        "hi": "तुम पक्ष में हो या विरोध में?",
+        "pron": "तै पूग़ ऊ तै कोँत्ग़"
+      },
+      {
+        "fr": "Faut pas exagérer. (= Il ne faut pas exagérer.)",
+        "en": "Let's not exaggerate.",
+        "hi": "बढ़ा-चढ़ाकर नहीं बोलना चाहिए।",
+        "pron": "फ़ो पा ज़ैग-ज़ा-झ़े-ग़े"
+      },
+      {
+        "fr": "Du coup, je prends le vélo. (= Donc, je prends le vélo.)",
+        "en": "So I take the bike.",
+        "hi": "तो मैं साइकिल ले लेता हूँ।",
+        "pron": "दü कू झ़ö प्राँ लö वे-लो"
+      },
+      {
+        "fr": "Si on est payé pareil, je dis oui. Sinon, non.",
+        "en": "If we're paid the same, I say yes. Otherwise, no.",
+        "hi": "अगर तनख़्वाह उतनी ही मिले, तो हाँ। वरना नहीं।",
+        "pron": "सी ओँ नै पै-ये पा-ग़ैय झ़ö दी वी सी-नोँ नोँ"
+      }
+    ],
+    "pitfalls": [
+      {
+        "en": "Don't imitate everything in the exam: in TEF speaking, keep 'ne' most of the time and avoid ouais/bof with the examiner. Use them only to UNDERSTAND.",
+        "hi": "परीक्षा में सब कुछ नक़ल मत कीजिए: TEF बोलने में ज़्यादातर 'ne' रखिए और परीक्षक के साथ ouais/bof से बचिए। इन्हें सिर्फ़ समझने के लिए सीखिए।"
+      },
+      {
+        "en": "A speaker who starts with 'oui' can still be against: 'Oui, c'est sympa, mais pour moi c'est pas possible.' Wait for 'mais'.",
+        "hi": "'oui' से शुरू करने वाला भी विरोध में हो सकता है: 'Oui, c'est sympa, mais pour moi c'est pas possible.' 'mais' का इंतज़ार कीजिए।"
+      }
+    ]
+  },
+  "pronunciation": {
+    "focus": "Spoken reductions: t'es, y'a, j'sais pas",
+    "tip": {
+      "en": "These forms are shorter, not sloppier: one syllable instead of two. Practise hearing them, and repeat them only in relaxed conversation with friends.",
+      "hi": "ये रूप ढीले नहीं, बस छोटे हैं: दो की जगह एक अक्षर। इन्हें सुनने का अभ्यास कीजिए, और सिर्फ़ दोस्तों के साथ आरामदायक बातचीत में दोहराइए।"
+    },
+    "words": [
+      {
+        "fr": "t'es",
+        "en": "you are (tu es)",
+        "hi": "तुम हो",
+        "pron": "तै",
+        "ipa": "tɛ"
+      },
+      {
+        "fr": "y'a",
+        "en": "there is (il y a)",
+        "hi": "है",
+        "pron": "या",
+        "ipa": "ja"
+      },
+      {
+        "fr": "j'sais pas",
+        "en": "I don't know (je ne sais pas)",
+        "hi": "मुझे नहीं पता",
+        "pron": "श्सै पा",
+        "ipa": "ʃɛ pa",
+        "note": {
+          "en": "j + s merge into a ch sound: श्सै.",
+          "hi": "j + s मिलकर 'श' जैसी आवाज़ बनाते हैं: श्सै।"
+        }
+      },
+      {
+        "fr": "c'est pas",
+        "en": "it isn't (ce n'est pas)",
+        "hi": "यह नहीं है",
+        "pron": "सै पा",
+        "ipa": "sɛ pa"
+      },
+      {
+        "fr": "faut pas",
+        "en": "you mustn't (il ne faut pas)",
+        "hi": "नहीं करना चाहिए",
+        "pron": "फ़ो पा",
+        "ipa": "fo pa"
+      },
+      {
+        "fr": "chais pas",
+        "en": "dunno (very fast je ne sais pas)",
+        "hi": "पता नहीं (बहुत तेज़)",
+        "pron": "शै पा",
+        "ipa": "ʃɛ pa"
+      }
+    ]
+  },
+  "listening": {
+    "title": {
+      "fr": "Micro-trottoir : pour ou contre la semaine de quatre jours ?",
+      "en": "Street interview: for or against the four-day week?"
+    },
+    "type": "street_interview",
+    "mode": "natural",
+    "context": {
+      "en": "A radio journalist stops people in the street and asks one question. In the TEF, you often have to match each speaker with their opinion or reason.",
+      "hi": "एक रेडियो पत्रकार सड़क पर लोगों को रोककर एक सवाल पूछती है। TEF में अक्सर हर वक्ता को उसकी राय या कारण से मिलाना होता है।"
+    },
+    "lines": [
+      {
+        "speaker": "Journaliste",
+        "voice": "narrator",
+        "fr": "Bonjour, on fait un petit sondage pour Radio Centre-Ville. Pour ou contre la semaine de quatre jours ?",
+        "en": "Hello, we're doing a quick survey for Radio Centre-Ville. For or against the four-day week?",
+        "hi": "नमस्ते, हम रेडियो सॉन्त्र-वील के लिए एक छोटा सर्वे कर रहे हैं। चार दिन के कामकाजी हफ़्ते के पक्ष में हैं या विरोध में?"
+      },
+      {
+        "speaker": "Marc",
+        "voice": "m1",
+        "fr": "Ouais, carrément pour ! Moi, j'travaille dans un bureau, et franchement, un jour de plus pour la famille, ça changerait tout.",
+        "en": "Yeah, totally for! I work in an office and honestly, one more day for the family would change everything.",
+        "hi": "हाँ, बिल्कुल पक्ष में! मैं दफ़्तर में काम करता हूँ, और सच कहूँ तो परिवार के लिए एक दिन और मिले तो सब बदल जाएगा।"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "narrator",
+        "fr": "Même si les journées sont plus longues ?",
+        "en": "Even if the days are longer?",
+        "hi": "चाहे दिन लंबे हो जाएँ?"
+      },
+      {
+        "speaker": "Marc",
+        "voice": "m1",
+        "fr": "Ben oui. Je préfère faire dix heures par jour et avoir mes vendredis. Du coup, j'éviterais aussi les bouchons.",
+        "en": "Well, yes. I'd rather do ten hours a day and have my Fridays. So I'd also avoid the traffic jams.",
+        "hi": "और क्या। मैं रोज़ दस घंटे काम करके शुक्रवार की छुट्टी लेना पसंद करूँगा। इससे मैं ट्रैफ़िक जाम से भी बच जाऊँगा।"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "narrator",
+        "fr": "Et vous, madame ?",
+        "en": "And you, madam?",
+        "hi": "और आप, मैडम?"
+      },
+      {
+        "speaker": "Aïcha",
+        "voice": "f1",
+        "fr": "Bof, pas vraiment. Je suis infirmière. À l'hôpital, y'a déjà pas assez de personnel.",
+        "en": "Meh, not really. I'm a nurse. At the hospital there already aren't enough staff.",
+        "hi": "हम्म, ख़ास नहीं। मैं नर्स हूँ। अस्पताल में पहले से ही कर्मचारी कम हैं।"
+      },
+      {
+        "speaker": "Aïcha",
+        "voice": "f1",
+        "fr": "Si on travaille quatre jours, qui va s'occuper des patients le cinquième jour ? C'est pas réaliste pour nous.",
+        "en": "If we work four days, who will look after the patients on the fifth day? It's not realistic for us.",
+        "hi": "अगर हम चार दिन काम करें, तो पाँचवें दिन मरीज़ों को कौन देखेगा? हमारे लिए यह व्यावहारिक नहीं है।"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "narrator",
+        "fr": "Monsieur, votre avis ?",
+        "en": "Sir, your opinion?",
+        "hi": "सर, आपकी राय?"
+      },
+      {
+        "speaker": "Gurpreet",
+        "voice": "m2",
+        "fr": "Ça dépend. Pour les gens dans les bureaux, c'est une bonne idée. J'sais pas, ça peut motiver les employés.",
+        "en": "It depends. For people in offices, it's a good idea. I dunno, it can motivate employees.",
+        "hi": "निर्भर करता है। दफ़्तर वालों के लिए अच्छा विचार है। पता नहीं, इससे कर्मचारियों का हौसला बढ़ सकता है।"
+      },
+      {
+        "speaker": "Gurpreet",
+        "voice": "m2",
+        "fr": "Mais moi, j'ai un restaurant, et mes clients veulent manger sept jours sur sept ! En gros, ça marche pas pour tout le monde.",
+        "en": "But I have a restaurant, and my customers want to eat seven days a week! Basically, it doesn't work for everyone.",
+        "hi": "पर मेरा तो रेस्तराँ है, और मेरे ग्राहक हफ़्ते के सातों दिन खाना चाहते हैं! कुल मिलाकर, यह सबके लिए नहीं चलता।"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "narrator",
+        "fr": "Et vous ?",
+        "en": "And you?",
+        "hi": "और आप?"
+      },
+      {
+        "speaker": "Lucie",
+        "voice": "f2",
+        "fr": "Moi, je suis étudiante et je travaille à temps partiel dans un café. Perso, ce qui m'inquiète, c'est le salaire.",
+        "en": "I'm a student and I work part-time in a café. Personally, what worries me is the pay.",
+        "hi": "मैं छात्रा हूँ और एक कैफ़े में पार्ट-टाइम काम करती हूँ। मेरे हिसाब से, मुझे तनख़्वाह की चिंता है।"
+      },
+      {
+        "speaker": "Lucie",
+        "voice": "f2",
+        "fr": "Si on travaille moins mais qu'on est payé pareil, je dis oui tout de suite. Sinon, non merci.",
+        "en": "If we work less but get paid the same, I say yes right away. Otherwise, no thanks.",
+        "hi": "अगर काम कम हो पर तनख़्वाह उतनी ही रहे, तो मैं तुरंत हाँ कहूँगी। वरना, नहीं धन्यवाद।"
+      },
+      {
+        "speaker": "Journaliste",
+        "voice": "narrator",
+        "fr": "Merci à tous ! Comme vous l'entendez, les avis sont partagés.",
+        "en": "Thank you all! As you can hear, opinions are divided.",
+        "hi": "सबका धन्यवाद! जैसा आप सुन रहे हैं, राय बँटी हुई है।"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "en": "Why is Marc in favour?"
+        },
+        "options": [
+          "He wants shorter days",
+          "He wants a higher salary",
+          "He wants more time with his family",
+          "He works in a restaurant"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Un jour de plus pour la famille, ça changerait tout.' He even accepts longer days.",
+          "hi": "'un jour de plus pour la famille, ça changerait tout'। वह लंबे दिन भी मान लेता है।"
+        },
+        "kind": "literal",
+        "evidence": "un jour de plus pour la famille, ça changerait tout"
+      },
+      {
+        "q": {
+          "en": "When Aïcha says 'Bof, pas vraiment', she means…"
+        },
+        "options": [
+          "she is not in favour",
+          "she has no opinion at all",
+          "she didn't understand",
+          "she is enthusiastic"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Bof' + 'pas vraiment' signals a negative opinion, which she then explains.",
+          "hi": "'bof' + 'pas vraiment' नकारात्मक राय दिखाते हैं, जिसे वह फिर समझाती है।"
+        },
+        "kind": "vocabulary",
+        "evidence": "Bof, pas vraiment."
+      },
+      {
+        "q": {
+          "en": "What is Aïcha's main argument?"
+        },
+        "options": [
+          "Nurses earn too little",
+          "She prefers working at night",
+          "Patients don't like changes",
+          "Hospitals already lack staff"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Y'a déjà pas assez de personnel' = il n'y a déjà pas assez de personnel.",
+          "hi": "'y'a déjà pas assez de personnel' = il n'y a déjà pas assez de personnel — कर्मचारी कम हैं।"
+        },
+        "kind": "literal",
+        "evidence": "y'a déjà pas assez de personnel"
+      },
+      {
+        "q": {
+          "en": "What is Gurpreet's position?"
+        },
+        "options": [
+          "Completely against",
+          "Mixed: good for offices, not for his restaurant",
+          "He doesn't care",
+          "Completely for"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Ça dépend' … 'En gros, ça marche pas pour tout le monde.'",
+          "hi": "'ça dépend' … 'en gros, ça marche pas pour tout le monde' — मिली-जुली राय।"
+        },
+        "kind": "inference",
+        "evidence": "En gros, ça marche pas pour tout le monde."
+      },
+      {
+        "q": {
+          "en": "Under what condition would Lucie agree?"
+        },
+        "options": [
+          "If she works ten hours a day",
+          "If she could study more",
+          "If the pay stays the same",
+          "If cafés close on Mondays"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Si on travaille moins mais qu'on est payé pareil, je dis oui.'",
+          "hi": "'si on travaille moins mais qu'on est payé pareil, je dis oui' — तनख़्वाह वही रहे तो।"
+        },
+        "kind": "literal",
+        "evidence": "Si on travaille moins mais qu'on est payé pareil, je dis oui tout de suite."
+      },
+      {
+        "q": {
+          "en": "What is the journalist's conclusion?"
+        },
+        "options": [
+          "Opinions are divided",
+          "The idea will be adopted",
+          "Everyone is for it",
+          "Everyone is against it"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'Les avis sont partagés' = opinions are divided.",
+          "hi": "'les avis sont partagés' = राय बँटी हुई है।"
+        },
+        "kind": "gist",
+        "evidence": "les avis sont partagés"
+      }
+    ],
+    "dictation": [
+      "Je préfère faire dix heures par jour et avoir mes vendredis.",
+      "C'est pas réaliste pour nous.",
+      "En gros, ça marche pas pour tout le monde."
+    ],
+    "gapFill": {
+      "text": "___, pas vraiment. À l'hôpital, ___ déjà pas assez de personnel. ___ dépend. Pour les gens dans les bureaux, c'est une bonne idée.",
+      "answers": [
+        "Bof",
+        "y'a",
+        "Ça"
+      ]
+    }
+  },
+  "speaking": {
+    "type": "conversation",
+    "instructions": {
+      "en": "A journalist stops you in the street. Answer each question spontaneously in 2–3 sentences: give a clear position (pour / contre / ça dépend), one reason and one example. Speak naturally, but keep 'ne' in your negations.",
+      "hi": "एक पत्रकार आपको सड़क पर रोकता है। हर सवाल का 2–3 वाक्यों में तुरंत जवाब दीजिए: साफ़ राय (pour / contre / ça dépend), एक कारण और एक उदाहरण। स्वाभाविक बोलिए, पर नकार में 'ne' रखिए।"
+    },
+    "prompts": [
+      {
+        "fr": "Pour ou contre la semaine de quatre jours ?",
+        "en": "For or against the four-day week?",
+        "hi": "चार दिन के कामकाजी हफ़्ते के पक्ष में या विरोध में?",
+        "pron": "पूग़ ऊ कोँत्ग़ ला स्मैन दö कात्ग़ झ़ूग़",
+        "model": "Je suis plutôt pour. Avec un jour de plus, je pourrais étudier le français et m'occuper de mes enfants. Mais ce n'est pas possible dans tous les métiers."
+      },
+      {
+        "fr": "Faut-il interdire les voitures au centre-ville le dimanche ?",
+        "en": "Should cars be banned downtown on Sundays?",
+        "hi": "क्या रविवार को शहर के बीच गाड़ियों पर रोक लगनी चाहिए?",
+        "pron": "फ़ो-तील ऐँ-तैग़-दीग़ ले व्वा-त्üग़ ओ साँत्ग़-वील लö दी-माँश",
+        "model": "Ça dépend. Pour les familles, c'est agréable de marcher sans bruit. Par contre, les personnes âgées ont parfois besoin de leur voiture."
+      },
+      {
+        "fr": "Que pensez-vous des cours de français gratuits pour les nouveaux arrivants ?",
+        "en": "What do you think of free French classes for newcomers?",
+        "hi": "नए आने वालों के लिए मुफ़्त फ़्रेंच क्लासों के बारे में आपकी क्या राय है?",
+        "pron": "कö पाँ-से वू दे कूग़ दö फ़्ग़ाँ-सै ग्रा-तüई पूग़ ले नू-वो ज़ा-ग़ी-वाँ",
+        "model": "C'est une excellente idée ! Moi, j'ai appris grâce à un cours gratuit, et du coup j'ai trouvé un emploi plus vite."
+      },
+      {
+        "fr": "Vous aimez l'hiver canadien ?",
+        "en": "Do you like the Canadian winter?",
+        "hi": "क्या आपको कनाडा की सर्दी पसंद है?",
+        "pron": "वू ज़ै-मे ली-वैग़ का-ना-द्यैँ",
+        "model": "Franchement, pas vraiment ! Il fait trop froid et les journées sont courtes. Mais j'adore patiner avec mes amis."
+      }
+    ],
+    "tip": {
+      "en": "Start with your position in the first three words. In a street interview — and in the TEF — the listener needs to know immediately where you stand.",
+      "hi": "पहले तीन शब्दों में ही अपनी राय बता दीजिए। सड़क के सर्वे में — और TEF में — सुनने वाले को तुरंत पता चलना चाहिए कि आप किस तरफ़ हैं।"
+    }
+  },
+  "reading": {
+    "genre": "opinion",
+    "title": "Commentaires : l'autobus gratuit pour les moins de 25 ans ?",
+    "text": "ARTICLE — La Ville de Saint-Clair étudie la gratuité des autobus pour les jeunes de moins de 25 ans à partir de l'an prochain. Selon la mairie, la mesure coûterait environ 12 millions de dollars par année.\n\n23 COMMENTAIRES\n\nSophie_M — Enfin une bonne nouvelle ! Mon fils prend l'autobus tous les jours pour aller au cégep et ça nous coûte presque 60 $ par mois. Pour les familles comme la nôtre, c'est une vraie aide.\n\nJ-P Bouchard — Gratuit ? Rien n'est gratuit. Ce sont les contribuables qui vont payer, comme d'habitude. Je préférerais qu'on améliore d'abord la fréquence : le soir, dans mon quartier, il faut attendre 40 minutes entre deux autobus.\n\nRavi.K — Je suis d'accord avec le principe, mais pourquoi seulement les moins de 25 ans ? Les personnes âgées et les nouveaux arrivants qui cherchent un emploi en ont aussi besoin. Quand je suis arrivé, le transport représentait une grosse partie de mon budget.\n\nMélanie T. — Moi, je pense surtout à l'environnement. Si les jeunes prennent l'habitude du transport en commun maintenant, ils achèteront peut-être moins de voitures plus tard. C'est un investissement pour l'avenir.\n\nAnonyme — Tiens, encore une belle promesse… comme par hasard, un an avant les élections municipales.\n\nSophie_M — @J-P Bouchard Vous avez raison pour la fréquence, mais les deux ne sont pas incompatibles !",
+    "translation": {
+      "en": "ARTICLE — The City of Saint-Clair is studying free buses for young people under 25 starting next year. According to city hall, the measure would cost about 12 million dollars a year.\n\n23 COMMENTS\n\nSophie_M — Finally some good news! My son takes the bus every day to go to CEGEP and it costs us almost $60 a month. For families like ours, it's a real help.\n\nJ-P Bouchard — Free? Nothing is free. It's the taxpayers who will pay, as usual. I would prefer that they first improve the frequency: in the evening, in my neighbourhood, you have to wait 40 minutes between two buses.\n\nRavi.K — I agree with the principle, but why only under-25s? Seniors and newcomers looking for a job need it too. When I arrived, transport was a big part of my budget.\n\nMélanie T. — I'm mainly thinking of the environment. If young people get used to public transit now, they may buy fewer cars later. It's an investment for the future.\n\nAnonymous — Well, well, another nice promise… just by chance, one year before the municipal elections.\n\nSophie_M — @J-P Bouchard You're right about the frequency, but the two are not incompatible!",
+      "hi": "लेख — सां-क्लैर नगर अगले साल से 25 साल से कम उम्र के युवाओं के लिए बसें मुफ़्त करने पर विचार कर रहा है। नगरपालिका के अनुसार इस क़दम की लागत लगभग 1.2 करोड़ डॉलर सालाना होगी।\n\n23 टिप्पणियाँ\n\nसोफ़ी_M — आख़िरकार एक अच्छी ख़बर! मेरा बेटा रोज़ बस से सेजेप (कॉलेज) जाता है और इसमें हमारा लगभग 60 डॉलर महीना लगता है। हमारे जैसे परिवारों के लिए यह सच्ची मदद है।\n\nजे-पी बूशार — मुफ़्त? कुछ भी मुफ़्त नहीं होता। हमेशा की तरह करदाता ही पैसे भरेंगे। मैं चाहूँगा कि पहले बसों की आवृत्ति सुधारी जाए: शाम को मेरे मोहल्ले में दो बसों के बीच 40 मिनट इंतज़ार करना पड़ता है।\n\nरवि.K — मैं सिद्धांत से सहमत हूँ, पर सिर्फ़ 25 से कम उम्र वालों के लिए क्यों? बुज़ुर्गों और नौकरी ढूँढ रहे नए आने वालों को भी इसकी ज़रूरत है। जब मैं आया था, तो किराया मेरे बजट का बड़ा हिस्सा था।\n\nमेलानी T. — मैं मुख्य रूप से पर्यावरण के बारे में सोचती हूँ। अगर युवा अभी से सार्वजनिक परिवहन की आदत डाल लें, तो शायद बाद में कम गाड़ियाँ ख़रीदेंगे। यह भविष्य में निवेश है।\n\nअनाम — लो जी, एक और सुंदर वादा… और संयोग देखिए, नगर चुनावों से ठीक एक साल पहले।\n\nसोफ़ी_M — @जे-पी बूशार फ़्रीक्वेंसी के बारे में आप सही हैं, पर दोनों बातें एक साथ हो सकती हैं!"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "Why is Sophie in favour?"
+        },
+        "options": [
+          "For environmental reasons",
+          "Because it would help her family's budget",
+          "Because she is under 25",
+          "Because buses are too slow"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "She mentions the $60 a month for her son: 'c'est une vraie aide'.",
+          "hi": "वह बेटे के 60 डॉलर महीने की बात करती है: 'c'est une vraie aide'।"
+        },
+        "kind": "inference",
+        "evidence": "Pour les familles comme la nôtre, c'est une vraie aide."
+      },
+      {
+        "q": {
+          "en": "What does J-P Bouchard want first?"
+        },
+        "options": [
+          "Free buses for everyone",
+          "Fewer elections",
+          "Lower taxes for families",
+          "More frequent buses"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Je préférerais qu'on améliore d'abord la fréquence.'",
+          "hi": "'je préférerais qu'on améliore d'abord la fréquence' — पहले बसें ज़्यादा बार चलें।"
+        },
+        "kind": "literal",
+        "evidence": "Je préférerais qu'on améliore d'abord la fréquence"
+      },
+      {
+        "q": {
+          "en": "What is Ravi's position?"
+        },
+        "options": [
+          "For the idea, but wants it for more groups",
+          "Indifferent",
+          "For the idea only for students",
+          "Against the idea"
+        ],
+        "answer": 0,
+        "explanation": {
+          "en": "'D'accord avec le principe, mais pourquoi seulement les moins de 25 ans ?'",
+          "hi": "'d'accord avec le principe, mais pourquoi seulement les moins de 25 ans ?' — सहमत, पर दायरा बढ़ाना चाहते हैं।"
+        },
+        "kind": "inference",
+        "evidence": "Je suis d'accord avec le principe, mais pourquoi seulement les moins de 25 ans ?"
+      },
+      {
+        "q": {
+          "en": "Which long-term effect does Mélanie hope for?"
+        },
+        "options": [
+          "More buses at night",
+          "More jobs for drivers",
+          "Young people will buy fewer cars",
+          "Taxes will go down"
+        ],
+        "answer": 2,
+        "explanation": {
+          "en": "'Ils achèteront peut-être moins de voitures plus tard.'",
+          "hi": "'ils achèteront peut-être moins de voitures plus tard' — बाद में कम गाड़ियाँ।"
+        },
+        "kind": "literal",
+        "evidence": "ils achèteront peut-être moins de voitures plus tard"
+      },
+      {
+        "q": {
+          "en": "What is the tone of the anonymous comment?"
+        },
+        "options": [
+          "Enthusiastic",
+          "Ironic and suspicious",
+          "Neutral and factual",
+          "Worried about the environment"
+        ],
+        "answer": 1,
+        "explanation": {
+          "en": "'Tiens', 'belle promesse', 'comme par hasard … avant les élections' suggest a political trick: ironic.",
+          "hi": "'tiens', 'belle promesse', 'comme par hasard … avant les élections' — राजनीतिक चाल का इशारा: व्यंग्यपूर्ण।"
+        },
+        "kind": "inference",
+        "evidence": "comme par hasard, un an avant les élections municipales"
+      },
+      {
+        "q": {
+          "en": "In her reply, what does Sophie say to J-P?"
+        },
+        "options": [
+          "Taxes are not a problem",
+          "She will stop taking the bus",
+          "He is completely wrong",
+          "Free buses and better frequency can both happen"
+        ],
+        "answer": 3,
+        "explanation": {
+          "en": "'Les deux ne sont pas incompatibles' = both are possible together.",
+          "hi": "'les deux ne sont pas incompatibles' = दोनों साथ हो सकते हैं।"
+        },
+        "kind": "inference",
+        "evidence": "Vous avez raison pour la fréquence, mais les deux ne sont pas incompatibles !"
+      }
+    ]
+  },
+  "writing": {
+    "type": "message",
+    "prompt": {
+      "en": "Write your own comment under the article about free buses for under-25s. Give your position, at least two reasons, and react to one of the other comments by name.",
+      "hi": "25 से कम उम्र वालों के लिए मुफ़्त बस वाले लेख के नीचे अपनी टिप्पणी लिखिए। अपनी राय, कम से कम दो कारण दीजिए, और किसी एक टिप्पणी पर नाम लेकर प्रतिक्रिया दीजिए।"
+    },
+    "minWords": 60,
+    "maxWords": 120,
+    "hints": [
+      {
+        "en": "Written comments are less informal than speech: write 'ne' and use donc instead of du coup.",
+        "hi": "लिखी टिप्पणी बोलचाल से कम अनौपचारिक होती है: 'ne' लिखिए और du coup की जगह donc।"
+      },
+      {
+        "en": "React with '@Name, je suis d'accord avec vous sur…, mais…'.",
+        "hi": "'@नाम, je suis d'accord avec vous sur…, mais…' से प्रतिक्रिया दीजिए।"
+      }
+    ],
+    "usefulPhrases": [
+      {
+        "fr": "Je suis tout à fait pour.",
+        "en": "I'm completely in favour.",
+        "hi": "मैं पूरी तरह पक्ष में हूँ।",
+        "pron": "झ़ö स्üई तू ता फ़ै पूग़"
+      },
+      {
+        "fr": "Je comprends votre point de vue, mais…",
+        "en": "I understand your point of view, but…",
+        "hi": "मैं आपकी बात समझता हूँ, लेकिन…",
+        "pron": "झ़ö कोँ-प्राँ वॉत्ग़ प्वैँ द व्यü मै"
+      },
+      {
+        "fr": "C'est un investissement pour l'avenir.",
+        "en": "It's an investment for the future.",
+        "hi": "यह भविष्य के लिए निवेश है।",
+        "pron": "सै तैँ नैँ-वैस-तीस-माँ पूग़ ला-व-नीग़"
+      }
+    ],
+    "model": {
+      "fr": "Je suis plutôt pour cette mesure. D'abord, beaucoup d'étudiants travaillent à temps partiel et le transport coûte cher. Ensuite, c'est bon pour l'environnement. @J-P Bouchard, je suis d'accord avec vous sur la fréquence : attendre 40 minutes le soir, ce n'est pas acceptable. Cependant, on peut faire les deux. Je propose donc de commencer par les jeunes, puis d'élargir aux nouveaux arrivants, comme le dit Ravi.",
+      "en": "I'm rather in favour of this measure. First, many students work part-time and transport is expensive. Then, it's good for the environment. @J-P Bouchard, I agree with you about frequency: waiting 40 minutes in the evening is not acceptable. However, we can do both. So I suggest starting with young people, then extending it to newcomers, as Ravi says."
+    },
+    "checklist": [
+      {
+        "en": "Is your position clear in the first sentence?",
+        "hi": "क्या पहले वाक्य में आपकी राय साफ़ है?"
+      },
+      {
+        "en": "Did you give two reasons with connectors (d'abord, ensuite)?",
+        "hi": "क्या आपने संयोजकों (d'abord, ensuite) के साथ दो कारण दिए?"
+      },
+      {
+        "en": "Did you react to another comment politely?",
+        "hi": "क्या आपने किसी दूसरी टिप्पणी पर शिष्टता से प्रतिक्रिया दी?"
+      },
+      {
+        "en": "Did you keep 'ne' in your negations?",
+        "hi": "क्या आपने नकार में 'ne' रखा?"
+      }
+    ]
+  },
+  "review": {
+    "fromDays": [
+      57,
+      61,
+      62,
+      64,
+      69,
+      73
+    ],
+    "items": [
+      {
+        "fr": "à mon avis",
+        "en": "in my opinion",
+        "hi": "मेरी राय में",
+        "pron": "आ मोँ ना-वी"
+      },
+      {
+        "fr": "je trouve que",
+        "en": "I find that",
+        "hi": "मुझे लगता है कि",
+        "pron": "झ़ö त्ग़ूव कö"
+      },
+      {
+        "fr": "puisque",
+        "en": "since (known reason)",
+        "hi": "चूँकि",
+        "pron": "प्üइस-कö"
+      },
+      {
+        "fr": "d'un côté… de l'autre…",
+        "en": "on one hand… on the other…",
+        "hi": "एक तरफ़… दूसरी तरफ़…",
+        "pron": "दैँ को-ते दö लोत्ग़"
+      },
+      {
+        "fr": "par contre",
+        "en": "on the other hand",
+        "hi": "दूसरी ओर",
+        "pron": "पाग़ कोँत्ग़"
+      },
+      {
+        "fr": "Je comprends, mais…",
+        "en": "I understand, but…",
+        "hi": "मैं समझता हूँ, लेकिन…",
+        "pron": "झ़ö कोँ-प्राँ मै"
+      },
+      {
+        "fr": "même si",
+        "en": "even if",
+        "hi": "भले ही",
+        "pron": "मैम सी"
+      },
+      {
+        "fr": "Je ne suis pas d'accord.",
+        "en": "I don't agree.",
+        "hi": "मैं सहमत नहीं हूँ।",
+        "pron": "झ़ö नö स्üई पा दा-कॉग़"
+      }
+    ]
+  },
+  "assessment": [
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "'C'est pas possible' is the spoken form of…",
+        "hi": "'C'est pas possible' किसका बोलचाल वाला रूप है?"
+      },
+      "options": [
+        "Ce n'est pas possible.",
+        "C'est peut-être possible.",
+        "Ce n'est plus possible.",
+        "C'est possible."
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The 'ne' is dropped; 'pas' carries the negation.",
+        "hi": "'ne' हट गया है; नकार 'pas' से है।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "A speaker says 'Bof…'. Their opinion is probably…",
+        "hi": "कोई वक्ता कहता है 'Bof…'। उसकी राय शायद…"
+      },
+      "options": [
+        "angry",
+        "very positive",
+        "negative or unenthusiastic",
+        "a question"
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Bof shows lack of enthusiasm.",
+        "hi": "bof उत्साह की कमी दिखाता है।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Write the careful form of 'y'a pas de bus'.",
+        "hi": "'y'a pas de bus' का सावधान रूप लिखिए।"
+      },
+      "sentence": "___ pas de bus.",
+      "answer": "Il n'y a",
+      "accept": [
+        "il n'y a"
+      ],
+      "explanation": {
+        "en": "Y'a pas = il n'y a pas.",
+        "hi": "y'a pas = il n'y a pas।"
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": {
+        "en": "Which expression shows a NUANCED opinion?",
+        "hi": "कौन-सा वाक्यांश मिली-जुली राय दिखाता है?"
+      },
+      "options": [
+        "C'est nul.",
+        "Carrément !",
+        "Ça dépend.",
+        "Je suis contre."
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Ça dépend = it depends: neither fully for nor against.",
+        "hi": "ça dépend = निर्भर करता है: न पूरा पक्ष, न पूरा विरोध।"
+      }
+    },
+    {
+      "type": "translate",
+      "prompt": {
+        "en": "Write in French (careful written style).",
+        "hi": "फ़्रेंच में लिखिए (सावधान लिखित शैली)।"
+      },
+      "source": {
+        "en": "So I take the bus.",
+        "hi": "इसलिए मैं बस लेता हूँ।"
+      },
+      "answer": "Donc, je prends l'autobus.",
+      "accept": [
+        "Donc je prends l'autobus.",
+        "Donc, je prends le bus.",
+        "Donc je prends le bus.",
+        "Par conséquent, je prends l'autobus."
+      ],
+      "explanation": {
+        "en": "In writing, use donc rather than du coup.",
+        "hi": "लिखते समय du coup की जगह donc।"
+      }
+    },
+    {
+      "type": "fill",
+      "prompt": {
+        "en": "Complete: Opinions are divided.",
+        "hi": "पूरा कीजिए: राय बँटी हुई है।"
+      },
+      "sentence": "Les avis sont ___.",
+      "answer": "partagés",
+      "accept": [],
+      "explanation": {
+        "en": "Partagés agrees with 'les avis' (masculine plural).",
+        "hi": "partagés 'les avis' (पुल्लिंग बहुवचन) से मेल खाता है।"
+      }
+    },
+    {
+      "type": "reorder",
+      "prompt": {
+        "en": "Put in order: It doesn't work for everyone.",
+        "hi": "क्रम में रखिए: यह सबके लिए नहीं चलता।"
+      },
+      "words": [
+        "marche",
+        "Ça",
+        "pas",
+        "ne",
+        "tout",
+        "pour",
+        "le",
+        "monde",
+        "."
+      ],
+      "answer": "Ça ne marche pas pour tout le monde.",
+      "explanation": {
+        "en": "Careful form with ne … pas around the verb.",
+        "hi": "क्रिया के दोनों तरफ़ ne … pas वाला सावधान रूप।"
+      }
+    }
+  ]
+}
