@@ -42,9 +42,23 @@ export function AuthForm({ mode }: { mode: "signin" | "signup" }) {
 export function GuestButton({ className = "btn btn-secondary" }: { className?: string }) {
   const router = useRouter();
   const [busy, setBusy] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const start = async () => {
+    setBusy(true); setError(null);
+    try {
+      await api("/api/auth/guest", { body: {}, signal: AbortSignal.timeout(90_000) });
+      router.push("/onboarding"); router.refresh();
+    } catch (err) {
+      setError((err as Error).name === "TimeoutError" ? "The server did not answer within 90 seconds. Try again; if it keeps happening, check the hosting logs." : (err as Error).message);
+      setBusy(false);
+    }
+  };
   return (
-    <button type="button" className={className} disabled={busy} onClick={async () => { setBusy(true); await api("/api/auth/guest", { body: {} }); router.push("/onboarding"); router.refresh(); }}>
-      {busy ? "Creating guest account…" : "Try it as a guest"}
-    </button>
+    <div className="space-y-2">
+      <button type="button" className={className} disabled={busy} onClick={start}>
+        {busy ? "Creating guest account…" : "Try it as a guest"}
+      </button>
+      {error && <p role="alert" className="text-sm text-red-700 dark:text-red-300">{error}</p>}
+    </div>
   );
 }

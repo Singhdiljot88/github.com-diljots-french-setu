@@ -283,3 +283,14 @@ describe("Say it word matching", () => {
     expect([statusFor(4, 4), statusFor(3, 4), statusFor(1, 4), statusFor(0, 4)]).toEqual(["all", "most", "some", "none"]);
   });
 });
+
+describe("database setup errors", async () => {
+  const { asDbSetupError, DbSetupError } = await import("@/db/errors");
+  it("explains common Supabase connection mistakes in plain words", () => {
+    expect(asDbSetupError({ code: "28P01", message: "password authentication failed for user" })?.message).toMatch(/password/);
+    expect(asDbSetupError({ code: "XX000", message: "Tenant or user not found" })?.message).toMatch(/Transaction pooler/);
+    expect(asDbSetupError({ code: "ENOTFOUND", message: "getaddrinfo ENOTFOUND db.example" })?.message).toMatch(/could not connect/);
+    expect(asDbSetupError(new DbSetupError("x"))).toBeInstanceOf(DbSetupError);
+    expect(asDbSetupError(new Error("syntax error at or near"))).toBeNull();
+  });
+});

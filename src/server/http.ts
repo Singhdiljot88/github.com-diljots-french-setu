@@ -2,6 +2,7 @@ import "server-only";
 import { NextResponse } from "next/server";
 import { ZodError, type ZodType } from "zod";
 import { AuthError, requireUser, type CurrentUser } from "./auth";
+import { DbSetupError } from "@/db/errors";
 
 export class HttpError extends Error {
   constructor(public status: number, message: string) { super(message); }
@@ -54,6 +55,10 @@ export function errorResponse(e: unknown) {
   if (e instanceof AuthError) return NextResponse.json({ error: "Please sign in." }, { status: 401 });
   if (e instanceof HttpError) return NextResponse.json({ error: e.message }, { status: e.status });
   if (e instanceof ZodError) return NextResponse.json({ error: "Invalid request", issues: e.issues.slice(0, 5) }, { status: 400 });
+  if (e instanceof DbSetupError) {
+    console.error("[db]", e.message);
+    return NextResponse.json({ error: `Setup problem: ${e.message}` }, { status: 503 });
+  }
   console.error(e);
   return NextResponse.json({ error: "Something went wrong on the server." }, { status: 500 });
 }

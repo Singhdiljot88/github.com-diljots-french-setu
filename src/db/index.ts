@@ -3,6 +3,7 @@ import path from "node:path";
 import fs from "node:fs";
 import type { PgDatabase, PgQueryResultHKT } from "drizzle-orm/pg-core";
 import * as schema from "./schema";
+import { DbSetupError, asDbSetupError } from "./errors";
 
 export type DB = PgDatabase<PgQueryResultHKT, typeof schema>;
 
@@ -19,11 +20,15 @@ async function connect(): Promise<DB> {
     const { Pool } = await import("pg");
     const { drizzle } = await import("drizzle-orm/node-postgres");
     const { migrate } = await import("drizzle-orm/node-postgres/migrator");
-    const pool = new Pool({ connectionString: url, max: Number(process.env.DATABASE_POOL_MAX ?? 5), ssl: process.env.DATABASE_SSL === "require" ? { rejectUnauthorized: false } : undefined });
+    const pool = new Pool({ connectionString: url, max: Number(process.env.DATABASE_POOL_MAX ?? 5), connectionTimeoutMillis: 15_000, ssl: process.env.DATABASE_SSL === "require" ? { rejectUnauthorized: false } : undefined });
     db = drizzle(pool, { schema }) as unknown as DB;
     holder.close = () => pool.end();
     if (process.env.AUTO_MIGRATE !== "false") await migrate(db as never, { migrationsFolder });
   } else {
+    // Hosted serverless platforms have no lasting disk, so the embedded database cannot work there.
+    if (process.env.VERCEL || process.env.NETLIFY || process.env.AWS_LAMBDA_FUNCTION_NAME) {
+      throw new DbSetupError("No database is set up. Add DATABASE_URL (your Supabase connection string) and DATABASE_SSL=require in the hosting settings, then redeploy.");
+    }
     // Embedded Postgres (PGlite) for local use, demo mode and tests — no server needed.
     const { PGlite } = await import("@electric-sql/pglite");
     const { drizzle } = await import("drizzle-orm/pglite");
@@ -41,7 +46,7 @@ async function connect(): Promise<DB> {
 }
 
 export function getDb(): Promise<DB> {
-  if (!holder.db) holder.db = connect().catch((e) => { holder.db = undefined; throw e; });
+  if (!holder.db) holder.db = connect().catch((e) => { holder.db = undefined; throw asDbSetupError(e) ?? e; });
   return holder.db;
 }
 

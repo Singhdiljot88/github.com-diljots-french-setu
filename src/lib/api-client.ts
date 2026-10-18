@@ -14,6 +14,6 @@ export async function api<T = unknown>(path: string, opts: { method?: string; bo
   });
   let data: unknown = null;
   try { data = await res.json(); } catch { /* empty */ }
-  if (!res.ok) throw new ApiError(res.status, (data as { error?: string })?.error ?? `Request failed (${res.status})`, data);
+  if (!res.ok) throw new ApiError(res.status, (data as { error?: string })?.error ?? (res.status === 504 ? "The server took too long to answer (the very first start loads the whole course). Try again in a minute." : `Request failed (${res.status})`), data);
   return data as T;
 }
