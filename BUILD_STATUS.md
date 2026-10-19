@@ -116,10 +116,10 @@ Azure pronunciation assessment would give real accent feedback, but I could not 
 - Device voices vary by browser and OS. Firefox on Linux may have no French voice.
 - No score predictions or CLB mappings are shown anywhere, by design.
 
-## Hindi fix list v2 work (branch `hindi-fix-list`, not yet on main)
+## Hindi fix list v2 work (merged to main 2026-10-19)
 
-Verified on 2026-10-19: `npx tsc --noEmit` clean, `npm test` 52/52, `npx tsx scripts/validate-content.ts` all content valid, `npm run build` succeeds. Browser journeys: 4 of 8 pass; journeys 3 (speaking tutor conversation), 4 (writing "Saved" label), 6 (mock exam "Start" button) and the microphone-denied alert fail, most likely because their English-only selectors no longer match the bilingual labels. This must be fixed before merging to main.
+Verified on 2026-10-19: `npx tsc --noEmit` clean, `npm test` 52/52, `npx tsx scripts/validate-content.ts` all content valid, `npm run build` succeeds, browser journeys 8/8. Four journeys needed their selectors updated for the bilingual labels (e.g. "Start · शुरू करें", aria-label "Conversation · बातचीत", the rewritten microphone message); what they check is unchanged.
 
 Done: Hindi question text on all lessons; French-voice playback fix; time-zone picker; owner's pronunciation spellings (बों-जूर, सा-ल्यू, मेर-सी, ल) across all guides and teaching texts, one guide per French word; banned-string, mixed-script and old-letter lint; sound-help panels; TEF exam page and exam screens in Hindi; Hindi-only interface sweep; guided one-step lesson view; Hindi bridge boxes (tu/vous, gender, nasals, reflexives, depuis, passé composé); gender note; mnemonic field (no data yet); docs/HINDI_STYLE_GUIDE.md with QA checklist.
 
-Left: fix the 4 journeys; native Hindi reviewer sign-off; 100 mnemonics; owner decisions (spaced review vs repetition, ग़लत vs गलत spelling, demo notice wording).
+Left: native Hindi reviewer sign-off; 100 mnemonics; some server-built text (adaptive tips, checkpoint advice, review interval previews, page titles) is still English in Hindi-only mode; owner decisions (spaced review vs repetition, ग़लत vs गलत spelling, demo notice wording).

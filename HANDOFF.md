@@ -157,4 +157,4 @@ Deploy steps: `docs/DEPLOY.md`.
 
 ## 2026-10-19 update
 
-The Hindi fix list v2 work is on branch `hindi-fix-list` (see BUILD_STATUS.md for what passed and what is left). Do not merge it to main until the 4 failing browser journeys pass. Pronunciation guides follow content/CONVENTIONS.md section 3; Hindi text follows docs/HINDI_STYLE_GUIDE.md. The demo notice deliberately leaves out "progress is saved on this device", because on the hosted app progress is saved to the account database.
+The Hindi fix list v2 work is merged to main (see BUILD_STATUS.md for what passed and what is left). Pronunciation guides follow content/CONVENTIONS.md section 3; Hindi text follows docs/HINDI_STYLE_GUIDE.md. The demo notice deliberately leaves out "progress is saved on this device", because on the hosted app progress is saved to the account database.

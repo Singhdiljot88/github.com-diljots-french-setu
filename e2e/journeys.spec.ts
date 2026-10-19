@@ -64,7 +64,7 @@ test("3. the learner listens, records speech and gets honest, labelled feedback"
   await expect(page.getByText("Scripted partner (not AI)")).toBeVisible();
   await page.getByLabel("Your reply in French").fill("Je m'appelle Ravi et je habite à Toronto parce que je travaille ici.");
   await page.getByRole("button", { name: "Send" }).click();
-  await expect(page.locator("ol[aria-label=Conversation] li")).toHaveCount(3);
+  await expect(page.locator("ol[aria-label^=Conversation] li")).toHaveCount(3);
   await page.getByRole("button", { name: "End and get feedback" }).click();
   await expect(page.getByText(/Rule-based check \(not AI\)/)).toBeVisible();
   await expect(page.getByText(/je habite/).first()).toBeVisible();
@@ -75,11 +75,11 @@ test("4. the learner writes a paragraph, studies corrections and retries", async
   await page.goto("/writing/free-paragraph-city");
   const box = page.locator("textarea").first();
   await box.fill("Je habite à Montréal. La ville est grande et belle. Je ai beaucoup de amis ici. Nous allons à le parc le samedi. Je suis 30 ans et je travaille dans un bureau au centre-ville. Le hiver est très froid mais je aime la neige. Le été est chaud et il y a des festivals partout dans la ville. Je pense que Montréal est une ville parfaite pour moi et ma famille.");
-  await expect(page.getByText("Saved", { exact: true })).toBeVisible();
+  await expect(page.getByText(/^Saved( ·|$)/)).toBeVisible();
   await page.reload();
   await expect(page.locator("textarea").first()).toHaveValue(/Je habite à Montréal/);
   await page.getByRole("button", { name: /^Submit/ }).click();
-  await expect(page.getByText("Submitted", { exact: true })).toBeVisible();
+  await expect(page.getByText(/^Submitted( ·|$)/)).toBeVisible();
   await page.getByRole("button", { name: "Get feedback" }).click();
   await expect(page.getByRole("button", { name: /Checking your text/ })).toBeHidden({ timeout: 30_000 });
   await expect(page.getByText("Rule-based check (not AI)").first()).toBeVisible();
@@ -104,7 +104,7 @@ test("6. the learner completes a timed mock section that survives reload, then r
   await signUpAndOnboard(page, "mock");
   await page.goto("/exam");
   for (const s of ["Listening", "Writing", "Speaking"]) await page.getByRole("checkbox", { name: new RegExp(s) }).uncheck();
-  await page.getByRole("button", { name: "Start", exact: true }).click();
+  await page.getByRole("button", { name: /^Start(?! [A-Za-z])/ }).click();
   await page.waitForURL(/\/exam\/[0-9a-f-]{36}$/);
   await page.getByRole("button", { name: "Start reading" }).click();
   const timer = page.getByRole("timer");
@@ -137,7 +137,7 @@ test("microphone denied: recording explains how to allow it and the lesson still
   await page.getByRole("button", { name: /● Record/ }).first().click();
   const allow = page.getByRole("button", { name: "Allow and record" });
   if (await allow.isVisible().catch(() => false)) await allow.click();
-  await expect(page.getByRole("alert").filter({ hasText: /Microphone access was blocked/ }).first()).toBeVisible();
+  await expect(page.getByRole("alert").filter({ hasText: /allow the microphone/i }).first()).toBeVisible();
   await ctx.close();
 });
 
