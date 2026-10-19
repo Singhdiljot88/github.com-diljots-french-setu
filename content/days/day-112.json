@@ -16,18 +16,18 @@
   "light": true,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "la confiance en soi", "en": "self-confidence", "hi": "आत्मविश्वास", "pron": "ला कोँ-फ़्याँस आँ स्वा", "ipa": "la kɔ̃fjɑ̃s ɑ̃ swa", "pos": "noun", "gender": "f", "lemma": "confiance" },
+    { "fr": "la confiance en soi", "en": "self-confidence", "hi": "आत्मविश्वास", "pron": "ला कों-फ़्याँस आँ स्वा", "ipa": "la kɔ̃fjɑ̃s ɑ̃ swa", "pos": "noun", "gender": "f", "lemma": "confiance" },
     { "fr": "oser", "en": "to dare", "hi": "हिम्मत करना", "pron": "ओ-ज़े", "ipa": "oze", "pos": "verb" },
-    { "fr": "le trac", "en": "stage fright, nerves", "hi": "घबराहट (बोलने या मंच से पहले)", "pron": "लö त्ग़ाक", "ipa": "lə tʁak", "pos": "noun", "gender": "m", "lemma": "trac", "note": { "en": "Avoir le trac = to have butterflies before speaking or performing.", "hi": "Avoir le trac = बोलने या प्रस्तुति से पहले पेट में तितलियाँ उड़ना।" } },
-    { "fr": "se lancer", "en": "to take the plunge, to get started", "hi": "हिम्मत करके शुरू कर देना", "pron": "सö लाँ-से", "ipa": "sə lɑ̃se", "pos": "verb" },
-    { "fr": "détendu", "en": "relaxed", "hi": "तनाव-मुक्त / आराम से", "pron": "दे-ताँ-दü", "ipa": "detɑ̃dy", "pos": "adjective" },
-    { "fr": "se moquer de", "en": "to make fun of", "hi": "… का मज़ाक़ उड़ाना", "pron": "सö मो-के दö", "ipa": "sə mɔke də", "pos": "verb", "lemma": "se moquer" }
+    { "fr": "le trac", "en": "stage fright, nerves", "hi": "घबराहट (बोलने या मंच से पहले)", "pron": "ल त्राक", "ipa": "lə tʁak", "pos": "noun", "gender": "m", "lemma": "trac", "note": { "en": "Avoir le trac = to have butterflies before speaking or performing.", "hi": "Avoir le trac = बोलने या प्रस्तुति से पहले पेट में तितलियाँ उड़ना।" } },
+    { "fr": "se lancer", "en": "to take the plunge, to get started", "hi": "हिम्मत करके शुरू कर देना", "pron": "स लाँ-से", "ipa": "sə lɑ̃se", "pos": "verb" },
+    { "fr": "détendu", "en": "relaxed", "hi": "तनाव-मुक्त / आराम से", "pron": "दे-ताँ-द्यू", "ipa": "detɑ̃dy", "pos": "adjective" },
+    { "fr": "se moquer de", "en": "to make fun of", "hi": "… का मज़ाक़ उड़ाना", "pron": "स मो-के द", "ipa": "sə mɔke də", "pos": "verb", "lemma": "se moquer" }
   ],
   "phrases": [
-    { "fr": "J'ai un peu le trac, mais je me lance.", "en": "I'm a bit nervous, but I'll go for it.", "hi": "मुझे थोड़ी घबराहट है, पर मैं शुरू करता / करती हूँ।", "pron": "झ़े ऐँ पö लö त्ग़ाक मै झ़ö मö लाँस" },
-    { "fr": "Pardon, je reformule.", "en": "Sorry, let me rephrase.", "hi": "माफ़ कीजिए, मैं दूसरे शब्दों में कहता / कहती हूँ।", "pron": "पाग़-दोँ झ़ö ग़ö-फ़ॉग़-मüल" },
-    { "fr": "Ah, très bien. Et …", "en": "Ah, very good. And …", "hi": "अच्छा, बहुत बढ़िया। और …", "pron": "आ त्ग़ै ब्यैँ ए" },
-    { "fr": "Je n'ai pas peur de faire des erreurs.", "en": "I'm not afraid of making mistakes.", "hi": "मुझे ग़लतियाँ करने से डर नहीं लगता।", "pron": "झ़ö ने पा पöग़ दö फ़ैग़ दे ज़े-ग़öग़" }
+    { "fr": "J'ai un peu le trac, mais je me lance.", "en": "I'm a bit nervous, but I'll go for it.", "hi": "मुझे थोड़ी घबराहट है, पर मैं शुरू करता / करती हूँ।", "pron": "जे ऐं प ल त्राक मे ज म लाँस" },
+    { "fr": "Pardon, je reformule.", "en": "Sorry, let me rephrase.", "hi": "माफ़ कीजिए, मैं दूसरे शब्दों में कहता / कहती हूँ।", "pron": "पार-दों ज र-फ़ॉर-म्यूल" },
+    { "fr": "Ah, très bien. Et …", "en": "Ah, very good. And …", "hi": "अच्छा, बहुत बढ़िया। और …", "pron": "आ त्रे ब्यैं ए" },
+    { "fr": "Je n'ai pas peur de faire des erreurs.", "en": "I'm not afraid of making mistakes.", "hi": "मुझे ग़लतियाँ करने से डर नहीं लगता।", "pron": "ज ने पा पर द फ़ेर दे ज़े-रर" }
   ],
   "grammar": {
     "title": { "en": "Recap: the speaking toolkit", "hi": "दोहराव: बोलने का औज़ार-बक्सा" },
@@ -36,10 +36,10 @@
       "hi": "शुरुआत (खंड A): Bonjour madame / monsieur, je vous appelle au sujet de votre annonce… पूछना: रूप बदलते रहिए — Est-ce que…?, Je voudrais savoir si / combien / quand…, Pourriez-vous me dire…? प्रतिक्रिया: Ah, très bien. / Je comprends. / D'accord. सुधार: Pourriez-vous répéter ? / Vous voulez dire que… ? / Autrement dit… / Pardon, je reformule. अनजाने शब्द की परिभाषा: c'est une chose qui / que…, c'est quelqu'un qui…, c'est un endroit où…, c'est quand…, c'est le fait de… मनाना (खंड B): Je te comprends, mais justement… / C'est l'occasion de… / À ta place, je… / Tu devrais… खुलकर बोलना: राय – कारण – उदाहरण – राय। स्तर: खंड A में विज्ञापन वाले से vous, खंड B में दोस्त से tu — अपनी परीक्षा के निर्देश ज़रूर देखिए।"
     },
     "examples": [
-      { "fr": "Je vous appelle au sujet de votre annonce.", "en": "I'm calling about your advertisement.", "hi": "मैं आपके विज्ञापन के बारे में फ़ोन कर रहा / रही हूँ।", "pron": "झ़ö वू ज़ा-पैल ओ सü-झ़ै दö वॉ-त्ग़ा-नोँस" },
-      { "fr": "Je voudrais savoir combien de temps dure la formation.", "en": "I'd like to know how long the training lasts.", "hi": "मैं जानना चाहता / चाहती हूँ कि प्रशिक्षण कितने समय का है।", "pron": "झ़ö वू-द्ग़ै सा-वाग़ कोँ-ब्यैँ द ताँ दüग़ ला फ़ॉग़-मा-स्योँ" },
-      { "fr": "À ta place, je n'hésiterais pas.", "en": "If I were you, I wouldn't hesitate.", "hi": "तुम्हारी जगह मैं होता / होती तो हिचकिचाता / हिचकिचाती नहीं।", "pron": "आ ता प्लास झ़ö ने-ज़ी-त-ग़ै पा" },
-      { "fr": "Tu devrais venir au moins une fois.", "en": "You should come at least once.", "hi": "तुम्हें कम से कम एक बार आना चाहिए।", "pron": "तü दö-व्ग़ै व-नीग़ ओ म्वैँ üन फ़्वा" }
+      { "fr": "Je vous appelle au sujet de votre annonce.", "en": "I'm calling about your advertisement.", "hi": "मैं आपके विज्ञापन के बारे में फ़ोन कर रहा / रही हूँ।", "pron": "ज वू ज़ा-पेल ओ स्यू-जे द वॉत्र आ-नोंस" },
+      { "fr": "Je voudrais savoir combien de temps dure la formation.", "en": "I'd like to know how long the training lasts.", "hi": "मैं जानना चाहता / चाहती हूँ कि प्रशिक्षण कितने समय का है।", "pron": "ज वू-द्रे सा-वार कों-ब्यैं द ताँ द्यूर ला फ़ॉर-मा-स्यों" },
+      { "fr": "À ta place, je n'hésiterais pas.", "en": "If I were you, I wouldn't hesitate.", "hi": "तुम्हारी जगह मैं होता / होती तो हिचकिचाता / हिचकिचाती नहीं।", "pron": "आ ता प्लास ज ने-ज़ी-त्रे पा" },
+      { "fr": "Tu devrais venir au moins une fois.", "en": "You should come at least once.", "hi": "तुम्हें कम से कम एक बार आना चाहिए।", "pron": "त्यू द-व्रे व-नीर ओ म्वैं यून फ़्वा" }
     ],
     "pitfalls": [
       { "en": "Nerves make people switch to tu with the examiner in section A. Keep vous with the advertiser.", "hi": "घबराहट में लोग खंड A में परीक्षक से tu बोलने लगते हैं। विज्ञापन वाले से vous ही रखिए।" },
@@ -53,11 +53,11 @@
       "hi": "आत्मविश्वास भरी आवाज़ हाँ/ना वाले प्रश्न के अंत में ऊपर जाती है और कथन के अंत में नीचे आती है। प्रतिक्रियाएँ मुस्कुराकर बोलिए: 'Ah, très bien !' मुस्कान के साथ ज़्यादा अपनापन भरा लगता है।"
     },
     "words": [
-      { "fr": "Ah, très bien !", "en": "Ah, very good!", "hi": "अच्छा, बहुत बढ़िया!", "pron": "आ त्ग़ै ब्यैँ" },
-      { "fr": "Je comprends.", "en": "I understand.", "hi": "मैं समझता / समझती हूँ।", "pron": "झ़ö कोँ-प्ग़ाँ" },
-      { "fr": "C'est compris ?", "en": "Is it included?", "hi": "क्या यह शामिल है?", "pron": "सै कोँ-प्ग़ी" },
-      { "fr": "Tu viens avec moi ?", "en": "Are you coming with me?", "hi": "तुम मेरे साथ चल रहे हो?", "pron": "तü व्यैँ आ-वैक म्वा" },
-      { "fr": "Je me lance.", "en": "Here I go.", "hi": "मैं शुरू करता / करती हूँ।", "pron": "झ़ö मö लाँस" }
+      { "fr": "Ah, très bien !", "en": "Ah, very good!", "hi": "अच्छा, बहुत बढ़िया!", "pron": "आ त्रे ब्यैं" },
+      { "fr": "Je comprends.", "en": "I understand.", "hi": "मैं समझता / समझती हूँ।", "pron": "ज कों-प्राँ" },
+      { "fr": "C'est compris ?", "en": "Is it included?", "hi": "क्या यह शामिल है?", "pron": "से कों-प्री" },
+      { "fr": "Tu viens avec moi ?", "en": "Are you coming with me?", "hi": "तुम मेरे साथ चल रहे हो?", "pron": "त्यू व्यैं आ-वेक म्वा" },
+      { "fr": "Je me lance.", "en": "Here I go.", "hi": "मैं शुरू करता / करती हूँ।", "pron": "ज म लाँस" }
     ]
   },
   "listening": {
@@ -78,11 +78,11 @@
       { "speaker": "Animatrice", "voice": "f2", "fr": "Et enfin, la veille, dormez bien et évitez de réviser jusqu'à minuit. À la semaine prochaine !", "en": "And finally, the day before, sleep well and avoid revising until midnight. See you next week!", "hi": "और आख़िर में, एक दिन पहले अच्छी नींद लीजिए और आधी रात तक पढ़ाई मत कीजिए। अगले हफ़्ते मिलते हैं!" }
     ],
     "questions": [
-      { "q": { "en": "What is 'le trac'?" }, "options": ["A type of exam", "The fear you feel before speaking", "A breathing exercise", "A theatre"], "answer": 1, "explanation": { "en": "'Cette peur qu'on ressent avant de parler devant quelqu'un d'important.'", "hi": "'Cette peur qu'on ressent avant de parler devant quelqu'un d'important' — बोलने से पहले का डर।" }, "kind": "vocabulary", "evidence": "cette peur qu'on ressent avant de parler" },
-      { "q": { "en": "What is the first piece of advice?" }, "options": ["Prepare your first three sentences", "Learn a full speech by heart", "Speak very fast", "Avoid looking at the examiner"], "answer": 0, "explanation": { "en": "'Préparez vos trois premières phrases.'", "hi": "'Préparez vos trois premières phrases' — पहले तीन वाक्य तैयार रखिए।" }, "kind": "literal", "evidence": "préparez vos trois premières phrases" },
-      { "q": { "en": "Why should you smile?" }, "options": ["It hides mistakes", "It is required in the exam", "It also relaxes the other person", "It makes you speak faster"], "answer": 2, "explanation": { "en": "'Un sourire, ça détend aussi la personne en face.'", "hi": "'Un sourire, ça détend aussi la personne en face' — सामने वाला भी सहज होता है।" }, "kind": "literal", "evidence": "ça détend aussi la personne en face" },
-      { "q": { "en": "What should you do after a mistake?" }, "options": ["Start again from the beginning", "Apologise several times", "Stop and think in silence", "Correct yourself quickly and continue"], "answer": 3, "explanation": { "en": "'Corrigez-vous rapidement et continuez.'", "hi": "'Corrigez-vous rapidement et continuez' — जल्दी सुधारिए और आगे बढ़िए।" }, "kind": "literal", "evidence": "corrigez-vous rapidement et continuez" },
-      { "q": { "en": "What does she advise for the evening before?" }, "options": ["Revise until midnight", "Sleep well and don't revise late", "Watch a film in French", "Call a friend"], "answer": 1, "explanation": { "en": "'Dormez bien et évitez de réviser jusqu'à minuit.'", "hi": "'Dormez bien et évitez de réviser jusqu'à minuit' — अच्छी नींद, देर रात तक पढ़ाई नहीं।" }, "kind": "literal", "evidence": "évitez de réviser jusqu'à minuit" }
+      { "q": { "en": "What is 'le trac'?", "hi": "'le trac' क्या है?" }, "options": ["A type of exam", "The fear you feel before speaking", "A breathing exercise", "A theatre"], "optionsHi": ["एक प्रकार की परीक्षा", "बोलने से पहले महसूस होने वाला डर", "साँस का एक अभ्यास", "एक थिएटर"], "answer": 1, "explanation": { "en": "'Cette peur qu'on ressent avant de parler devant quelqu'un d'important.'", "hi": "'Cette peur qu'on ressent avant de parler devant quelqu'un d'important' — बोलने से पहले का डर।" }, "kind": "vocabulary", "evidence": "cette peur qu'on ressent avant de parler" },
+      { "q": { "en": "What is the first piece of advice?", "hi": "पहली सलाह क्या है?" }, "options": ["Prepare your first three sentences", "Learn a full speech by heart", "Speak very fast", "Avoid looking at the examiner"], "optionsHi": ["अपने पहले तीन वाक्य तैयार रखें", "पूरा भाषण रट लें", "बहुत तेज़ बोलें", "परीक्षक की ओर देखने से बचें"], "answer": 0, "explanation": { "en": "'Préparez vos trois premières phrases.'", "hi": "'Préparez vos trois premières phrases' — पहले तीन वाक्य तैयार रखिए।" }, "kind": "literal", "evidence": "préparez vos trois premières phrases" },
+      { "q": { "en": "Why should you smile?", "hi": "आपको मुस्कुराना क्यों चाहिए?" }, "options": ["It hides mistakes", "It is required in the exam", "It also relaxes the other person", "It makes you speak faster"], "optionsHi": ["इससे ग़लतियाँ छिप जाती हैं", "परीक्षा में यह ज़रूरी है", "इससे सामने वाला भी सहज हो जाता है", "इससे आप तेज़ बोलते हैं"], "answer": 2, "explanation": { "en": "'Un sourire, ça détend aussi la personne en face.'", "hi": "'Un sourire, ça détend aussi la personne en face' — सामने वाला भी सहज होता है।" }, "kind": "literal", "evidence": "ça détend aussi la personne en face" },
+      { "q": { "en": "What should you do after a mistake?", "hi": "ग़लती हो जाने के बाद आपको क्या करना चाहिए?" }, "options": ["Start again from the beginning", "Apologise several times", "Stop and think in silence", "Correct yourself quickly and continue"], "optionsHi": ["शुरू से फिर आरंभ करें", "कई बार माफ़ी माँगें", "रुककर चुपचाप सोचें", "जल्दी से स्वयं को सुधारें और आगे बढ़ें"], "answer": 3, "explanation": { "en": "'Corrigez-vous rapidement et continuez.'", "hi": "'Corrigez-vous rapidement et continuez' — जल्दी सुधारिए और आगे बढ़िए।" }, "kind": "literal", "evidence": "corrigez-vous rapidement et continuez" },
+      { "q": { "en": "What does she advise for the evening before?", "hi": "वह पिछली शाम के लिए क्या सलाह देती है?" }, "options": ["Revise until midnight", "Sleep well and don't revise late", "Watch a film in French", "Call a friend"], "optionsHi": ["आधी रात तक दोहराव करें", "अच्छी नींद लें और देर तक दोहराव न करें", "फ़्रेंच में फ़िल्म देखें", "किसी दोस्त को फ़ोन करें"], "answer": 1, "explanation": { "en": "'Dormez bien et évitez de réviser jusqu'à minuit.'", "hi": "'Dormez bien et évitez de réviser jusqu'à minuit' — अच्छी नींद, देर रात तक पढ़ाई नहीं।" }, "kind": "literal", "evidence": "évitez de réviser jusqu'à minuit" }
     ],
     "dictation": [
       "Une fois qu'on a commencé, la peur diminue souvent.",
@@ -100,10 +100,10 @@
       "hi": "खुलकर बोलने का अभ्यास, बिना टाइमर के। किसी साथी के साथ (या ख़ुद को रिकॉर्ड करते हुए) पाँच से दस मिनट इस बारे में बात कीजिए कि दिन 1 से आपकी फ़्रेंच कैसे बदली है। औज़ार-बक्से का खुलकर इस्तेमाल कीजिए: प्रतिक्रियाएँ, सुधार, उदाहरण। बस एक नियम: बोलते रहिए, और मज़ा लीजिए।"
     },
     "prompts": [
-      { "fr": "Au début, je ne savais même pas dire bonjour correctement.", "en": "At the beginning, I couldn't even say hello properly.", "hi": "शुरू में मुझे ठीक से 'बोंजूर' कहना भी नहीं आता था।", "pron": "ओ दे-बü झ़ö नö सा-वै मैम पा दीग़ बोँ-झ़ूग़ को-ग़ैक-त-माँ" },
-      { "fr": "Maintenant, j'arrive à tenir une conversation de dix minutes.", "en": "Now I can hold a ten-minute conversation.", "hi": "अब मैं दस मिनट की बातचीत कर लेता / लेती हूँ।", "pron": "मैँत-नाँ झ़ा-ग़ीव आ त-नीग़ üन कोँ-वैग़-सा-स्योँ दö दी मी-नüत" },
-      { "fr": "Ce qui m'a le plus aidé, c'est …", "en": "What helped me most is …", "hi": "मुझे सबसे ज़्यादा मदद … से मिली", "pron": "स की मा लö प्लü ज़ै-दे सै" },
-      { "fr": "J'ai encore un peu le trac, mais moins qu'avant.", "en": "I still get a bit nervous, but less than before.", "hi": "मुझे अब भी थोड़ी घबराहट होती है, पर पहले से कम।", "pron": "झ़े आँ-कॉग़ ऐँ पö लö त्ग़ाक मै म्वैँ का-वाँ" }
+      { "fr": "Au début, je ne savais même pas dire bonjour correctement.", "en": "At the beginning, I couldn't even say hello properly.", "hi": "शुरू में मुझे ठीक से 'बोंजूर' कहना भी नहीं आता था।", "pron": "ओ दे-ब्यू ज न सा-वे मेम पा दीर बों-जूर को-रेक-त-माँ" },
+      { "fr": "Maintenant, j'arrive à tenir une conversation de dix minutes.", "en": "Now I can hold a ten-minute conversation.", "hi": "अब मैं दस मिनट की बातचीत कर लेता / लेती हूँ।", "pron": "मैंत-नाँ जा-रीव आ त-नीर यून कों-वेर-सा-स्यों द दी मी-न्यूत" },
+      { "fr": "Ce qui m'a le plus aidé, c'est …", "en": "What helped me most is …", "hi": "मुझे सबसे ज़्यादा मदद … से मिली", "pron": "स की मा ल प्ल्यू ज़े-दे से" },
+      { "fr": "J'ai encore un peu le trac, mais moins qu'avant.", "en": "I still get a bit nervous, but less than before.", "hi": "मुझे अब भी थोड़ी घबराहट होती है, पर पहले से कम।", "pron": "जे आँ-कॉर ऐं प ल त्राक मे म्वैं का-वाँ" }
     ],
     "tip": {
       "en": "Confidence comes from volume of practice. Ten relaxed minutes today are worth more than one perfect sentence.",
@@ -119,11 +119,11 @@
       "hi": "राहुल, 34 वर्ष, टोरंटो: 'एक साल तक मैं फ़्रेंच समझता था, पर बोलने की हिम्मत नहीं होती थी। मुझे डर था कि लोग मेरे लहजे का मज़ाक़ उड़ाएँगे। एक दिन दफ़्तर में एक फ़्रेंच बोलने वाली सहकर्मी ने मुझसे कुछ जानकारी माँगी। मैंने ग़लतियों के साथ फ़्रेंच में जवाब दिया, और उसने बस मुझे धन्यवाद कहा। तब से हम हर दोपहर साथ में फ़्रेंच बोलते हैं।'\n\nफ़ातू, 41 वर्ष, मॉन्क्टन: 'मेरा तरीक़ा है ख़ुद से बात करना! सुबह कॉफ़ी बनाते समय मैं जो कर रही होती हूँ, उसका ज़ोर से वर्णन करती हूँ। अजीब लगता है, पर इससे मुझे जल्दी शब्द ढूँढने में बहुत मदद मिली है। मेरे बच्चे थोड़ा मज़ाक़ उड़ाते हैं, पर उन्होंने भी ऐसा करना शुरू कर दिया है।'\n\nली वेई, 27 वर्ष, क्यूबेक सिटी: 'मैं मोहल्ले के एक गायक-दल में शामिल हो गया। गाने से मैंने फ़्रेंच की लय सीखी और मुझमें आत्मविश्वास आया। और समूह में कोई आपको परखता हुआ कम लगता है। अब मुझे मीटिंग में हाथ उठाने से डर नहीं लगता।'\n\nऔर आप, बोलने की हिम्मत जुटाने का आपका तरीक़ा क्या है? हमें लिखिए: अगले महीने हम सबसे अच्छे सुझाव छापेंगे।"
     },
     "questions": [
-      { "q": { "en": "Why didn't Rahul dare to speak French?" }, "options": ["He didn't understand it", "He was afraid people would mock his accent", "He had no French-speaking colleagues", "He was too busy"], "answer": 1, "explanation": { "en": "'J'avais peur qu'on se moque de mon accent.' He did understand French.", "hi": "'J'avais peur qu'on se moque de mon accent.' वह फ़्रेंच समझता था।" }, "kind": "literal", "evidence": "J'avais peur qu'on se moque de mon accent." },
-      { "q": { "en": "How did his colleague react to his answer?" }, "options": ["She corrected all his mistakes", "She answered in English", "She laughed", "She simply thanked him"], "answer": 3, "explanation": { "en": "'Elle m'a simplement remercié.'", "hi": "'Elle m'a simplement remercié' — उसने बस धन्यवाद कहा।" }, "kind": "literal", "evidence": "elle m'a simplement remercié" },
-      { "q": { "en": "What is Fatou's trick?" }, "options": ["Describing aloud what she is doing", "Watching films", "Taking evening classes", "Singing in a choir"], "answer": 0, "explanation": { "en": "'Je décris à voix haute ce que je fais.'", "hi": "'Je décris à voix haute ce que je fais' — जो करती है उसका ज़ोर से वर्णन।" }, "kind": "literal", "evidence": "je décris à voix haute ce que je fais" },
-      { "q": { "en": "What did singing give Li Wei?" }, "options": ["A job", "New vocabulary only", "The rhythm of French and confidence", "Better grades"], "answer": 2, "explanation": { "en": "'Chanter m'a appris le rythme du français et m'a donné confiance.'", "hi": "'Chanter m'a appris le rythme du français et m'a donné confiance' — लय और आत्मविश्वास।" }, "kind": "literal", "evidence": "m'a appris le rythme du français" },
-      { "q": { "en": "What do the three testimonies have in common?" }, "options": ["They all took a course", "They all found a regular way to practise speaking", "They all live in Québec", "They all speak perfectly now"], "answer": 1, "explanation": { "en": "Lunch conversations, talking to oneself, a choir: each found a regular speaking habit. The text asks 'quel est votre truc pour oser parler ?'", "hi": "दोपहर की बातचीत, ख़ुद से बात, गायक-दल: हर किसी ने बोलने की नियमित आदत ढूँढी। पाठ पूछता है 'quel est votre truc pour oser parler ?'" }, "kind": "gist", "evidence": "quel est votre truc pour oser parler" }
+      { "q": { "en": "Why didn't Rahul dare to speak French?", "hi": "राहुल फ़्रेंच बोलने की हिम्मत क्यों नहीं करता था?" }, "options": ["He didn't understand it", "He was afraid people would mock his accent", "He had no French-speaking colleagues", "He was too busy"], "optionsHi": ["वह उसे समझ नहीं पाता था", "उसे डर था कि लोग उसके उच्चारण का मज़ाक उड़ाएँगे", "उसके कोई फ़्रेंच बोलने वाले सहकर्मी नहीं थे", "वह बहुत व्यस्त था"], "answer": 1, "explanation": { "en": "'J'avais peur qu'on se moque de mon accent.' He did understand French.", "hi": "'J'avais peur qu'on se moque de mon accent.' वह फ़्रेंच समझता था।" }, "kind": "literal", "evidence": "J'avais peur qu'on se moque de mon accent." },
+      { "q": { "en": "How did his colleague react to his answer?", "hi": "उसके जवाब पर उसकी सहकर्मी ने कैसी प्रतिक्रिया दी?" }, "options": ["She corrected all his mistakes", "She answered in English", "She laughed", "She simply thanked him"], "optionsHi": ["उसने उसकी सारी ग़लतियाँ सुधार दीं", "उसने अंग्रेज़ी में जवाब दिया", "वह हँस पड़ी", "उसने बस उसे धन्यवाद दिया"], "answer": 3, "explanation": { "en": "'Elle m'a simplement remercié.'", "hi": "'Elle m'a simplement remercié' — उसने बस धन्यवाद कहा।" }, "kind": "literal", "evidence": "elle m'a simplement remercié" },
+      { "q": { "en": "What is Fatou's trick?", "hi": "फ़ातू की तरकीब क्या है?" }, "options": ["Describing aloud what she is doing", "Watching films", "Taking evening classes", "Singing in a choir"], "optionsHi": ["जो कर रही है उसे ज़ोर से बोलकर बताना", "फ़िल्में देखना", "शाम की कक्षाएँ लेना", "किसी गायक-मंडली में गाना"], "answer": 0, "explanation": { "en": "'Je décris à voix haute ce que je fais.'", "hi": "'Je décris à voix haute ce que je fais' — जो करती है उसका ज़ोर से वर्णन।" }, "kind": "literal", "evidence": "je décris à voix haute ce que je fais" },
+      { "q": { "en": "What did singing give Li Wei?", "hi": "गाने से ली वेई को क्या मिला?" }, "options": ["A job", "New vocabulary only", "The rhythm of French and confidence", "Better grades"], "optionsHi": ["एक नौकरी", "केवल नई शब्दावली", "फ़्रेंच की लय और आत्मविश्वास", "बेहतर अंक"], "answer": 2, "explanation": { "en": "'Chanter m'a appris le rythme du français et m'a donné confiance.'", "hi": "'Chanter m'a appris le rythme du français et m'a donné confiance' — लय और आत्मविश्वास।" }, "kind": "literal", "evidence": "m'a appris le rythme du français" },
+      { "q": { "en": "What do the three testimonies have in common?", "hi": "तीनों अनुभवों में क्या समानता है?" }, "options": ["They all took a course", "They all found a regular way to practise speaking", "They all live in Québec", "They all speak perfectly now"], "optionsHi": ["सभी ने कोई पाठ्यक्रम किया", "सभी ने बोलने का अभ्यास करने का कोई नियमित तरीक़ा खोजा", "सभी क्यूबेक में रहते हैं", "सभी अब पूरी तरह धाराप्रवाह बोलते हैं"], "answer": 1, "explanation": { "en": "Lunch conversations, talking to oneself, a choir: each found a regular speaking habit. The text asks 'quel est votre truc pour oser parler ?'", "hi": "दोपहर की बातचीत, ख़ुद से बात, गायक-दल: हर किसी ने बोलने की नियमित आदत ढूँढी। पाठ पूछता है 'quel est votre truc pour oser parler ?'" }, "kind": "gist", "evidence": "quel est votre truc pour oser parler" }
     ]
   },
   "writing": {
@@ -140,8 +140,8 @@
       { "en": "Use one comparison (plus facile qu'avant, moins de trac).", "hi": "एक तुलना इस्तेमाल कीजिए (plus facile qu'avant, moins de trac)।" }
     ],
     "usefulPhrases": [
-      { "fr": "Ça avance bien !", "en": "It's going well!", "hi": "अच्छा चल रहा है!", "pron": "सा आ-वाँस ब्यैँ" },
-      { "fr": "Ce qui me stresse encore, c'est …", "en": "What still stresses me is …", "hi": "मुझे अब भी … से तनाव होता है", "pron": "स की मö स्त्ग़ैस आँ-कॉग़ सै" }
+      { "fr": "Ça avance bien !", "en": "It's going well!", "hi": "अच्छा चल रहा है!", "pron": "सा आ-वाँस ब्यैं" },
+      { "fr": "Ce qui me stresse encore, c'est …", "en": "What still stresses me is …", "hi": "मुझे अब भी … से तनाव होता है", "pron": "स की म स्त्रेस आँ-कॉर से" }
     ],
     "model": {
       "fr": "Salut Camille !\nJe voulais te donner des nouvelles de ma préparation. Ça avance bien ! Je comprends beaucoup mieux la radio qu'il y a deux mois, et j'écris mes lettres plus vite. Ce qui me stresse encore, c'est la partie orale : j'ai toujours un peu le trac avant de parler. Mon truc, c'est de préparer mes trois premières phrases et de sourire. Est-ce qu'on pourrait se voir samedi pour parler un peu français ?\nBises,\nPriya",
@@ -155,19 +155,19 @@
   "review": {
     "fromDays": [86, 87, 95, 104, 106, 109, 110, 111],
     "items": [
-      { "fr": "Je vous appelle au sujet de …", "en": "I'm calling about …", "hi": "मैं … के बारे में फ़ोन कर रहा / रही हूँ", "pron": "झ़ö वू ज़ा-पैल ओ सü-झ़ै दö" },
-      { "fr": "Pourriez-vous me dire …", "en": "Could you tell me …", "hi": "क्या आप बता सकते हैं …", "pron": "पू-ग़ी-ये वू मö दीग़" },
-      { "fr": "Est-ce que c'est compris dans le prix ?", "en": "Is it included in the price?", "hi": "क्या यह क़ीमत में शामिल है?", "pron": "ऐस कö सै कोँ-प्ग़ी दाँ लö प्ग़ी" },
-      { "fr": "Je te comprends, mais justement …", "en": "I understand, but that's exactly why …", "hi": "मैं समझता / समझती हूँ, पर इसीलिए तो …", "pron": "झ़ö तö कोँ-प्ग़ाँ मै झ़üस-त-माँ" },
-      { "fr": "C'est l'occasion de …", "en": "It's a chance to …", "hi": "यह … का मौक़ा है", "pron": "सै लो-का-ज़्योँ दö" },
-      { "fr": "À ta place, je …", "en": "If I were you, I would …", "hi": "तुम्हारी जगह मैं होता / होती तो …", "pron": "आ ता प्लास झ़ö" },
-      { "fr": "Vous voulez dire que … ?", "en": "Do you mean that … ?", "hi": "आपका मतलब है कि … ?", "pron": "वू वू-ले दीग़ कö" },
-      { "fr": "Autrement dit, …", "en": "In other words, …", "hi": "दूसरे शब्दों में, …", "pron": "ओ-त्ग़ö-माँ दी" },
-      { "fr": "C'est quelqu'un qui …", "en": "It's someone who …", "hi": "यह ऐसा व्यक्ति है जो …", "pron": "सै कैल-कैँ की" },
-      { "fr": "C'est un endroit où …", "en": "It's a place where …", "hi": "यह एक जगह है जहाँ …", "pron": "सै तैँ नाँ-द्ग़्वा ऊ" },
-      { "fr": "C'est le fait de …", "en": "It's the fact of …", "hi": "यह … की बात है", "pron": "सै लö फ़ै दö" },
-      { "fr": "Ah, très bien. Et …", "en": "Ah, very good. And …", "hi": "अच्छा, बहुत बढ़िया। और …", "pron": "आ त्ग़ै ब्यैँ ए" },
-      { "fr": "Bref, pour moi, …", "en": "In short, for me, …", "hi": "संक्षेप में, मेरे लिए …", "pron": "ब्ग़ैफ़ पूग़ म्वा" }
+      { "fr": "Je vous appelle au sujet de …", "en": "I'm calling about …", "hi": "मैं … के बारे में फ़ोन कर रहा / रही हूँ", "pron": "ज वू ज़ा-पेल ओ स्यू-जे द" },
+      { "fr": "Pourriez-vous me dire …", "en": "Could you tell me …", "hi": "क्या आप बता सकते हैं …", "pron": "पू-री-ये वू म दीर" },
+      { "fr": "Est-ce que c'est compris dans le prix ?", "en": "Is it included in the price?", "hi": "क्या यह क़ीमत में शामिल है?", "pron": "एस क से कों-प्री दाँ ल प्री" },
+      { "fr": "Je te comprends, mais justement …", "en": "I understand, but that's exactly why …", "hi": "मैं समझता / समझती हूँ, पर इसीलिए तो …", "pron": "ज त कों-प्राँ मे ज्यूस-त-माँ" },
+      { "fr": "C'est l'occasion de …", "en": "It's a chance to …", "hi": "यह … का मौक़ा है", "pron": "से लो-का-ज़्यों द" },
+      { "fr": "À ta place, je …", "en": "If I were you, I would …", "hi": "तुम्हारी जगह मैं होता / होती तो …", "pron": "आ ता प्लास ज" },
+      { "fr": "Vous voulez dire que … ?", "en": "Do you mean that … ?", "hi": "आपका मतलब है कि … ?", "pron": "वू वू-ले दीर क" },
+      { "fr": "Autrement dit, …", "en": "In other words, …", "hi": "दूसरे शब्दों में, …", "pron": "ओ-त्र-माँ दी" },
+      { "fr": "C'est quelqu'un qui …", "en": "It's someone who …", "hi": "यह ऐसा व्यक्ति है जो …", "pron": "से केल-कैं की" },
+      { "fr": "C'est un endroit où …", "en": "It's a place where …", "hi": "यह एक जगह है जहाँ …", "pron": "से तैं नाँ-द्र्वा ऊ" },
+      { "fr": "C'est le fait de …", "en": "It's the fact of …", "hi": "यह … की बात है", "pron": "से ल फ़े द" },
+      { "fr": "Ah, très bien. Et …", "en": "Ah, very good. And …", "hi": "अच्छा, बहुत बढ़िया। और …", "pron": "आ त्रे ब्यैं ए" },
+      { "fr": "Bref, pour moi, …", "en": "In short, for me, …", "hi": "संक्षेप में, मेरे लिए …", "pron": "ब्रेफ़ पूर म्वा" }
     ]
   },
   "assessment": [

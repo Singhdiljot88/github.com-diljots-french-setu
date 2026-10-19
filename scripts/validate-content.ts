@@ -10,7 +10,7 @@ import { DictEntry } from "../src/content/dictionary-schema";
 import { Mock } from "../src/content/mock-schema";
 import { PronunciationContent } from "../src/content/pronunciation-schema";
 import { OUTLINE, isLightDay, isCheckpointDay, phaseOf, MOCK_DAYS } from "../src/content/outline";
-import { lintDay, lintDictionary, lintMock } from "../src/content/lint";
+import { lintDay, lintDictionary, lintMock, lintPron, BANNED_STRINGS, norm } from "../src/content/lint";
 
 const root = path.resolve(__dirname, "..", "content");
 let args = process.argv.slice(2);
@@ -44,7 +44,7 @@ for (const file of args) {
   } else if (kind === "pron") {
     const r = PronunciationContent.safeParse(raw);
     if (!r.success) { for (const i of r.error.issues.slice(0, 25)) fail(file, `${i.path.join(".")}: ${i.message}`); continue; }
-    for (const s of r.data.sounds) for (const e of s.examples) if (/[a-zA-Z]/.test(e.pron.replace(/[üö]/g, ""))) fail(file, `${s.id}: Latin letters in pron "${e.pron}"`);
+    for (const s of r.data.sounds) for (const e of s.examples) { const w: string[] = []; lintPron(`${s.id} ${e.fr}`, e.pron, w); w.forEach((m) => fail(file, m)); }
     console.log(`✓ pronunciation: ${r.data.sounds.length} sounds, ${r.data.minimalPairs.length} minimal-pair sets`);
   } else if (kind === "mock") {
     const r = Mock.safeParse(raw);
@@ -63,5 +63,34 @@ for (const file of args) {
     console.log(`✓ ${path.basename(file)}: ${ok.length} entries`);
   }
 }
+// Whole-course checks: banned strings anywhere, and one guide per French word or phrase.
+if (process.argv.length <= 2) {
+  const files = [...args, ...walkSrc(path.resolve(root, "..", "src"))];
+  for (const file of files) {
+    const text = fs.readFileSync(file, "utf8");
+    for (const b of BANNED_STRINGS) if (text.includes(b.text)) fail(file, `banned string "${b.text}" (${b.why})`);
+  }
+  const guides = new Map<string, Map<string, string>>();
+  const visit = (o: unknown, file: string) => {
+    if (Array.isArray(o)) o.forEach((x) => visit(x, file));
+    else if (o && typeof o === "object") {
+      const r = o as Record<string, unknown>;
+      const fr = typeof r.fr === "string" ? r.fr : typeof r.lemma === "string" ? r.lemma : null;
+      if (fr && typeof r.pron === "string") {
+        const k = norm(fr).replace(/[.,!?;:…]+/g, "").replace(/\s+/g, " ").trim();
+        if (!guides.has(k)) guides.set(k, new Map());
+        guides.get(k)!.set(r.pron, path.basename(file));
+      }
+      Object.values(r).forEach((x) => visit(x, file));
+    }
+  };
+  for (const file of args) visit(JSON.parse(fs.readFileSync(file, "utf8")), file);
+  for (const [fr, prons] of guides) if (prons.size > 1) fail(root, `"${fr}" has ${prons.size} different guides: ${[...prons].map(([p, f]) => `${p} (${f})`).join(" / ")}`);
+}
+
+function walkSrc(dir: string): string[] {
+  return fs.readdirSync(dir, { withFileTypes: true }).flatMap((e) => e.isDirectory() ? walkSrc(path.join(dir, e.name)) : /\.(tsx?|json)$/.test(e.name) && !path.join(dir, e.name).endsWith(path.join("content", "lint.ts")) ? [path.join(dir, e.name)] : []);
+}
+
 console.log(errors ? `\n${errors} problem(s) found` : "\nAll content valid");
 process.exit(errors ? 1 : 0);

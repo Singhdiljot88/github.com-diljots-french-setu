@@ -21,7 +21,7 @@
     ],
     "summary": {
       "en": "Spoken French (Day 85), indirect questions (Day 86), persuasion (Day 87), plus-que-parfait and faits divers (Day 88), formal letters (Day 89) and agreement (Day 90).",
-      "hi": "बोलचाल की फ़्रेंच (दिन 85), अप्रत्यक्ष प्रश्न (दिन 86), मनाना (दिन 87), plus-que-parfait और फ़ै दिवैर (दिन 88), औपचारिक पत्र (दिन 89) और मेल (दिन 90)।"
+      "hi": "बोलचाल की फ़्रेंच (दिन 85), अप्रत्यक्ष प्रश्न (दिन 86), मनाना (दिन 87), plus-que-parfait और फ़े दी-वेर (दिन 88), औपचारिक पत्र (दिन 89) और मेल (दिन 90)।"
     }
   },
   "light": true,
@@ -31,7 +31,7 @@
       "fr": "le camp de jour",
       "en": "day camp",
       "hi": "बच्चों का दिन का कैंप",
-      "pron": "लö काँ दö झ़ूग़",
+      "pron": "ल काँ द जूर",
       "ipa": "lə kɑ̃ də ʒuʁ",
       "pos": "noun",
       "gender": "m",
@@ -41,7 +41,7 @@
       "fr": "le moniteur / la monitrice",
       "en": "camp counsellor, instructor",
       "hi": "प्रशिक्षक / देखरेख करने वाला",
-      "pron": "लö मो-नी-तöग़ / ला मो-नी-त्ग़ीस",
+      "pron": "ल मो-नी-तर / ला मो-नी-त्रीस",
       "ipa": "lə mɔnitœʁ / la mɔnitʁis",
       "pos": "noun",
       "gender": "mf",
@@ -51,7 +51,7 @@
       "fr": "le rabais",
       "en": "discount (Québec)",
       "hi": "छूट",
-      "pron": "लö ग़ा-बै",
+      "pron": "ल रा-बे",
       "ipa": "lə ʁabɛ",
       "pos": "noun",
       "gender": "m",
@@ -65,7 +65,7 @@
       "fr": "une voiture d'occasion",
       "en": "a used car",
       "hi": "पुरानी (सेकंड-हैंड) गाड़ी",
-      "pron": "üन व्वा-त्üग़ दो-का-ज़्योँ",
+      "pron": "यून व्वा-त्यूर दो-का-ज़्यों",
       "ipa": "yn vwatyʁ dɔkazjɔ̃",
       "pos": "noun",
       "gender": "f",
@@ -75,7 +75,7 @@
       "fr": "le kilométrage",
       "en": "mileage",
       "hi": "गाड़ी कितने किलोमीटर चली है",
-      "pron": "लö की-लो-मे-त्ग़ाझ़",
+      "pron": "ल की-लो-मे-त्राज",
       "ipa": "lə kilɔmetʁaʒ",
       "pos": "noun",
       "gender": "m",
@@ -95,31 +95,31 @@
       "fr": "J'aurais quelques questions, si vous avez un moment.",
       "en": "I'd have a few questions, if you have a moment.",
       "hi": "अगर आपके पास समय हो, तो मेरे कुछ सवाल हैं।",
-      "pron": "झ़ो-ग़ै कैल-कö कैस-त्योँ सी वू ज़ा-वे ऐँ मो-माँ"
+      "pron": "जो-रे केल-क केस-त्यों सी वू ज़ा-वे ऐं मो-माँ"
     },
     {
       "fr": "Le service de garde est-il compris dans le prix ?",
       "en": "Is daycare included in the price?",
       "hi": "क्या बच्चों की देखभाल की सेवा दाम में शामिल है?",
-      "pron": "लö सैग़-वीस दö गाग़्द ए-तील कोँ-प्री दाँ लö प्री"
+      "pron": "ल सेर-वीस द गार्द ए-तील कों-प्री दाँ ल प्री"
     },
     {
       "fr": "Vous avez été très clair, merci.",
       "en": "You've been very clear, thank you.",
       "hi": "आपने बहुत साफ़ समझाया, धन्यवाद।",
-      "pron": "वू ज़ा-वे ए-ते त्ग़ै क्लैग़ मैग़-सी"
+      "pron": "वू ज़ा-वे ए-ते त्रे क्लेर मेर-सी"
     },
     {
       "fr": "Le prix est-il négociable ?",
       "en": "Is the price negotiable?",
       "hi": "क्या दाम में मोल-भाव हो सकता है?",
-      "pron": "लö प्री ए-तील ने-गो-स्याब्ल"
+      "pron": "ल प्री ए-तील ने-गो-स्याब्ल"
     },
     {
       "fr": "Je vais y réfléchir et je vous rappelle.",
       "en": "I'll think about it and call you back.",
       "hi": "मैं इस पर सोचकर आपको दोबारा फ़ोन करता हूँ।",
-      "pron": "झ़ö वै ज़ी ग़े-फ़्ले-शीग़ ए झ़ö वू ग़ा-पैल"
+      "pron": "ज वे ज़ी रे-फ़्ले-शीर ए ज वू रा-पेल"
     }
   ],
   "grammar": {
@@ -136,31 +136,31 @@
         "fr": "Pourriez-vous me dire combien coûte le camp ?",
         "en": "Could you tell me how much the camp costs?",
         "hi": "क्या आप बता सकती हैं कि कैंप का कितना ख़र्च है?",
-        "pron": "पू-ग़्ये वू मö दीग़ कोँ-ब्यैँ कूत लö काँ"
+        "pron": "पू-र्ये वू म दीर कों-ब्यैं कूत ल काँ"
       },
       {
         "fr": "La voiture a-t-elle déjà eu un accident ?",
         "en": "Has the car ever had an accident?",
         "hi": "क्या गाड़ी का पहले कभी एक्सीडेंट हुआ है?",
-        "pron": "ला व्वा-त्üग़ आ-तैल दे-झ़ा ü ऐँ नाक-सी-दाँ"
+        "pron": "ला व्वा-त्यूर आ-तेल दे-जा यू ऐं नाक-सी-दाँ"
       },
       {
         "fr": "À ta place, je m'inscrirais tout de suite.",
         "en": "If I were you, I'd sign up right away.",
         "hi": "तुम्हारी जगह मैं होता तो तुरंत नाम लिखवाता।",
-        "pron": "आ ता प्लास झ़ö मैँस-क्ग़ी-ग़ै तूत स्üईत"
+        "pron": "आ ता प्लास ज मैंस-क्री-रे तूत स्यूईत"
       },
       {
         "fr": "Le chien avait disparu trois jours plus tôt.",
         "en": "The dog had disappeared three days earlier.",
         "hi": "कुत्ता तीन दिन पहले ग़ायब हो गया था।",
-        "pron": "लö श्यैँ आ-वै दिस-पा-ग़ü त्ग़्वा झ़ूग़ प्लü तो"
+        "pron": "ल श्यैं आ-वे दिस-पा-र्यू त्र्वा जूर प्ल्यू तो"
       },
       {
         "fr": "Certes, cela coûte cher ; cependant, c'est un investissement.",
         "en": "Admittedly, it is expensive; however, it is an investment.",
         "hi": "माना कि यह महँगा है; फिर भी यह एक निवेश है।",
-        "pron": "सैग़्त स-ला कूत शैग़ सö-पाँ-दाँ सै तैँ नैँ-वैस-तीस-माँ"
+        "pron": "सेर्त स-ला कूत शेर स-पाँ-दाँ से तैं नैं-वेस-तीस-माँ"
       }
     ],
     "pitfalls": [
@@ -185,28 +185,28 @@
         "fr": "est-il compris",
         "en": "is it included",
         "hi": "क्या शामिल है",
-        "pron": "ए-तील कोँ-प्री",
+        "pron": "ए-तील कों-प्री",
         "ipa": "ɛtil kɔ̃pʁi"
       },
       {
         "fr": "a-t-elle",
         "en": "has she / has it",
         "hi": "क्या उसने / क्या इसका",
-        "pron": "आ-तैल",
+        "pron": "आ-तेल",
         "ipa": "atɛl"
       },
       {
         "fr": "je vous écoute",
         "en": "I'm listening",
         "hi": "जी, बोलिए",
-        "pron": "झ़ö वू ज़े-कूत",
+        "pron": "ज वू ज़े-कूत",
         "ipa": "ʒə vu zekut"
       },
       {
         "fr": "premiers soins",
         "en": "first aid",
         "hi": "प्राथमिक चिकित्सा",
-        "pron": "प्रö-म्ये स्वैँ",
+        "pron": "प्र-म्ये स्वैं",
         "ipa": "pʁəmje swɛ̃"
       }
     ]
@@ -228,7 +228,7 @@
         "voice": "f2",
         "fr": "Camp de jour Les Explorateurs, bonjour !",
         "en": "Les Explorateurs day camp, hello!",
-        "hi": "ले ज़ैक्स्प्लोरातöर डे-कैंप, नमस्ते!"
+        "hi": "ले ज़ेक्स्प्लोरातर डे-कैंप, नमस्ते!"
       },
       {
         "speaker": "Ravi",
@@ -353,7 +353,8 @@
     "questions": [
       {
         "q": {
-          "en": "Which children does the camp accept?"
+          "en": "Which children does the camp accept?",
+          "hi": "शिविर में किस उम्र के बच्चे लिए जाते हैं?"
         },
         "options": [
           "From 6 to 16",
@@ -367,11 +368,18 @@
           "hi": "'de six à douze ans'। सात बेटी की उम्र है।"
         },
         "kind": "literal",
-        "evidence": "Nous accueillons les enfants de six à douze ans"
+        "evidence": "Nous accueillons les enfants de six à douze ans",
+        "optionsHi": [
+          "6 से 16 तक",
+          "केवल 7 साल के बच्चे",
+          "6 से 12 तक",
+          "7 से 12 तक"
+        ]
       },
       {
         "q": {
-          "en": "When do the activities take place?"
+          "en": "When do the activities take place?",
+          "hi": "गतिविधियाँ कब होती हैं?"
         },
         "options": [
           "9 a.m. to 4 p.m.",
@@ -389,7 +397,8 @@
       },
       {
         "q": {
-          "en": "How much does a week of camp WITH daycare cost for one child?"
+          "en": "How much does a week of camp WITH daycare cost for one child?",
+          "hi": "डे-केयर सहित शिविर के एक सप्ताह की कीमत एक बच्चे के लिए कितनी है?"
         },
         "options": [
           "$150",
@@ -407,7 +416,8 @@
       },
       {
         "q": {
-          "en": "Who gets a 10% discount?"
+          "en": "Who gets a 10% discount?",
+          "hi": "किसे 10% की छूट मिलती है?"
         },
         "options": [
           "Children under 7",
@@ -421,11 +431,18 @@
           "hi": "'un rabais de dix pour cent pour le deuxième enfant' — दूसरे बच्चे के लिए।"
         },
         "kind": "literal",
-        "evidence": "Il y a un rabais de dix pour cent pour le deuxième enfant."
+        "evidence": "Il y a un rabais de dix pour cent pour le deuxième enfant.",
+        "optionsHi": [
+          "7 साल से कम उम्र के बच्चों को",
+          "परिवार के दूसरे बच्चे को",
+          "ऑनलाइन पंजीकरण करने वाले परिवारों को",
+          "पूरे दिन रुकने वाले बच्चों को"
+        ]
       },
       {
         "q": {
-          "en": "Why do children need a swimsuit?"
+          "en": "Why do children need a swimsuit?",
+          "hi": "बच्चों को तैराकी की पोशाक की ज़रूरत क्यों है?"
         },
         "options": [
           "For the first-aid course",
@@ -439,11 +456,18 @@
           "hi": "'on va à la piscine le mercredi' — बुधवार को पूल।"
         },
         "kind": "literal",
-        "evidence": "on va à la piscine le mercredi"
+        "evidence": "on va à la piscine le mercredi",
+        "optionsHi": [
+          "प्राथमिक चिकित्सा पाठ्यक्रम के लिए",
+          "वे हर दिन तैराकी करते हैं",
+          "वे बुधवार को पूल जाते हैं",
+          "जून में झील की यात्रा है"
+        ]
       },
       {
         "q": {
-          "en": "What risk is there after 1 June?"
+          "en": "What risk is there after 1 June?",
+          "hi": "1 जून के बाद क्या जोखिम है?"
         },
         "options": [
           "There may be no places left",
@@ -457,7 +481,13 @@
           "hi": "'il risque de ne plus y avoir de places' — शायद जगह न बचे।"
         },
         "kind": "inference",
-        "evidence": "il risque de ne plus y avoir de places"
+        "evidence": "il risque de ne plus y avoir de places",
+        "optionsHi": [
+          "हो सकता है कोई जगह न बचे",
+          "पंजीकरण फ़ोन से करना होगा",
+          "शिविर बंद हो जाता है",
+          "कीमतें बढ़ जाती हैं"
+        ]
       }
     ],
     "dictation": [
@@ -513,49 +543,49 @@
         "fr": "Bonjour, monsieur. Je vous appelle au sujet de la Toyota que vous vendez.",
         "en": "Hello, sir. I'm calling about the Toyota you're selling.",
         "hi": "नमस्ते, सर। मैं आपकी बेची जा रही टोयोटा के बारे में फ़ोन कर रहा हूँ।",
-        "pron": "बोँ-झ़ूग़ मö-स्यö झ़ö वू ज़ा-पैल ओ सü-झ़े दö ला तो-यो-ता कö वू वाँ-दे"
+        "pron": "बों-जूर म-स्य ज वू ज़ा-पेल ओ स्यू-जे द ला तो-यो-ता क वू वाँ-दे"
       },
       {
         "fr": "Pourriez-vous me dire quel est le kilométrage ?",
         "en": "Could you tell me the mileage?",
         "hi": "क्या आप बता सकते हैं कि गाड़ी कितने किलोमीटर चली है?",
-        "pron": "पू-ग़्ये वू मö दीग़ कै लै लö की-लो-मे-त्ग़ाझ़"
+        "pron": "पू-र्ये वू म दीर के ले ल की-लो-मे-त्राज"
       },
       {
         "fr": "La voiture a-t-elle déjà eu un accident ?",
         "en": "Has the car ever had an accident?",
         "hi": "क्या गाड़ी का कभी एक्सीडेंट हुआ है?",
-        "pron": "ला व्वा-त्üग़ आ-तैल दे-झ़ा ü ऐँ नाक-सी-दाँ"
+        "pron": "ला व्वा-त्यूर आ-तेल दे-जा यू ऐं नाक-सी-दाँ"
       },
       {
         "fr": "Je voudrais savoir si vous avez les factures d'entretien.",
         "en": "I'd like to know if you have the maintenance receipts.",
         "hi": "मैं जानना चाहूँगा कि क्या आपके पास रखरखाव के बिल हैं।",
-        "pron": "झ़ö वू-द्रै सा-वाग़ सी वू ज़ा-वे ले फ़ाक-त्üग़ दाँ-त्ग़ö-त्यैँ"
+        "pron": "ज वू-द्रे सा-वार सी वू ज़ा-वे ले फ़ाक-त्यूर दाँ-त्र-त्यैं"
       },
       {
         "fr": "Combien de propriétaires a-t-elle eus ?",
         "en": "How many owners has it had?",
         "hi": "इसके कितने मालिक रह चुके हैं?",
-        "pron": "कोँ-ब्यैँ दö प्रो-प्ग़ी-ए-तैग़ आ-तैल ü"
+        "pron": "कों-ब्यैं द प्रो-प्री-ए-तेर आ-तेल यू"
       },
       {
         "fr": "Est-ce qu'il serait possible de faire un essai routier ?",
         "en": "Would it be possible to do a test drive?",
         "hi": "क्या टेस्ट ड्राइव करना संभव होगा?",
-        "pron": "ऐस-की-ल सö-ग़ै पो-सीब्ल दö फ़ैग़ ऐँ ने-सै ग़ू-त्ये"
+        "pron": "एस-की-ल स-रे पो-सीब्ल द फ़ेर ऐं ने-से रू-त्ये"
       },
       {
         "fr": "Le prix est négociable : jusqu'à combien ?",
         "en": "The price is negotiable: down to how much?",
         "hi": "दाम में मोल-भाव हो सकता है: कितने तक?",
-        "pron": "लö प्री ए ने-गो-स्याब्ल झ़üस-का कोँ-ब्यैँ"
+        "pron": "ल प्री ए ने-गो-स्याब्ल ज्यूस-का कों-ब्यैं"
       },
       {
         "fr": "Quand est-ce que je pourrais venir la voir ?",
         "en": "When could I come and see it?",
         "hi": "मैं इसे देखने कब आ सकता हूँ?",
-        "pron": "काँ तैस-कö झ़ö पू-ग़ै वö-नीग़ ला व्वाग़"
+        "pron": "काँ तेस-क ज पू-रे व-नीर ला व्वार"
       }
     ],
     "tip": {
@@ -574,7 +604,8 @@
     "questions": [
       {
         "q": {
-          "en": "What is Pooja's position?"
+          "en": "What is Pooja's position?",
+          "hi": "Pooja का रुख क्या है?"
         },
         "options": [
           "Completely against",
@@ -588,11 +619,18 @@
           "hi": "'je suis en grande partie d'accord avec cette idée' — काफ़ी हद तक सहमत।"
         },
         "kind": "gist",
-        "evidence": "Je suis en grande partie d'accord avec cette idée."
+        "evidence": "Je suis en grande partie d'accord avec cette idée.",
+        "optionsHi": [
+          "पूरी तरह विरोध में",
+          "काफ़ी हद तक पक्ष में",
+          "तटस्थ",
+          "केवल विश्वविद्यालय के छात्रों के लिए पक्ष में"
+        ]
       },
       {
         "q": {
-          "en": "Which example supports her first argument?"
+          "en": "Which example supports her first argument?",
+          "hi": "कौन-सा उदाहरण उसके पहले तर्क का समर्थन करता है?"
         },
         "options": [
           "Food banks need help",
@@ -606,11 +644,18 @@
           "hi": "पहला तर्क (पढ़ाई से पहले ख़ुद को जानना) → भतीजे का उदाहरण।"
         },
         "kind": "literal",
-        "evidence": "mon neveu a changé trois fois de programme en deux ans"
+        "evidence": "mon neveu a changé trois fois de programme en deux ans",
+        "optionsHi": [
+          "फ़ूड बैंकों को मदद की ज़रूरत है",
+          "युवाओं को पैसों की ज़रूरत है",
+          "स्वयंसेवकों ने फ़ॉर्म भरने में उसकी मदद की",
+          "उसके भतीजे ने तीन बार पाठ्यक्रम बदले"
+        ]
       },
       {
         "q": {
-          "en": "What personal experience does she use in her second argument?"
+          "en": "What personal experience does she use in her second argument?",
+          "hi": "अपने दूसरे तर्क में वह कौन-सा निजी अनुभव इस्तेमाल करती है?"
         },
         "options": [
           "Young volunteers helped her fill in forms",
@@ -624,11 +669,18 @@
           "hi": "'ce sont des bénévoles de dix-huit ans qui m'ont aidée à remplir mes premiers formulaires'।"
         },
         "kind": "literal",
-        "evidence": "ce sont des bénévoles de dix-huit ans qui m'ont aidée à remplir mes premiers formulaires"
+        "evidence": "ce sont des bénévoles de dix-huit ans qui m'ont aidée à remplir mes premiers formulaires",
+        "optionsHi": [
+          "युवा स्वयंसेवकों ने फ़ॉर्म भरने में उसकी मदद की",
+          "वह एक फ़ूड बैंक में काम करती है",
+          "उसके बच्चों ने स्वयंसेवा की",
+          "उसने भारत में नागरिक सेवा की"
+        ]
       },
       {
         "q": {
-          "en": "Which objection does she accept?"
+          "en": "Which objection does she accept?",
+          "hi": "वह किस आपत्ति को स्वीकार करती है?"
         },
         "options": [
           "Organisations don't want volunteers",
@@ -642,11 +694,18 @@
           "hi": "'certes, … certains jeunes doivent travailler pour aider leur famille'।"
         },
         "kind": "literal",
-        "evidence": "certains jeunes doivent travailler pour aider leur famille"
+        "evidence": "certains jeunes doivent travailler pour aider leur famille",
+        "optionsHi": [
+          "संस्थाएँ स्वयंसेवक नहीं चाहतीं",
+          "यह राज्य के लिए बहुत महँगा है",
+          "कुछ युवाओं को अपने परिवार की मदद के लिए काम करना पड़ता है",
+          "युवाओं में प्रेरणा नहीं है"
+        ]
       },
       {
         "q": {
-          "en": "What solution does she propose for this problem?"
+          "en": "What solution does she propose for this problem?",
+          "hi": "इस समस्या के लिए वह कौन-सा समाधान सुझाती है?"
         },
         "options": [
           "Making the service optional",
@@ -660,11 +719,18 @@
           "hi": "'l'État devrait verser une petite indemnité pendant cette année' — सरकार छोटा भत्ता दे।"
         },
         "kind": "literal",
-        "evidence": "l'État devrait verser une petite indemnité pendant cette année"
+        "evidence": "l'État devrait verser une petite indemnité pendant cette année",
+        "optionsHi": [
+          "सेवा को वैकल्पिक बनाना",
+          "राज्य द्वारा दिया जाने वाला एक छोटा भत्ता",
+          "तीन महीने की छोटी सेवा",
+          "केवल बड़े शहरों में सेवा"
+        ]
       },
       {
         "q": {
-          "en": "Why is this a good model for TEF writing B?"
+          "en": "Why is this a good model for TEF writing B?",
+          "hi": "TEF लेखन के भाग B के लिए यह एक अच्छा नमूना क्यों है?"
         },
         "options": [
           "It uses informal language",
@@ -678,7 +744,13 @@
           "hi": "Tout d'abord / Ensuite / Enfin, हर एक के साथ उदाहरण, फिर Certes और Pour toutes ces raisons।"
         },
         "kind": "inference",
-        "evidence": "Pour toutes ces raisons, je pense qu'un service civique bien organisé serait une chance"
+        "evidence": "Pour toutes ces raisons, je pense qu'un service civique bien organisé serait une chance",
+        "optionsHi": [
+          "इसमें अनौपचारिक भाषा का प्रयोग है",
+          "इसमें केवल एक तर्क दिया गया है",
+          "यह बहुत छोटा है",
+          "इसमें एक रुख, उदाहरणों सहित तीन विकसित तर्क, एक रियायत और एक निष्कर्ष है"
+        ]
       }
     ]
   },
@@ -706,19 +778,19 @@
         "fr": "Il tenait dans ses bras…",
         "en": "He was holding in his arms…",
         "hi": "वह अपनी बाँहों में … लिए था",
-        "pron": "इल त्ö-नै दाँ से ब्ग़ा"
+        "pron": "इल त-ने दाँ से ब्रा"
       },
       {
         "fr": "Le chien s'était réfugié dans…",
         "en": "The dog had taken shelter in…",
         "hi": "कुत्ते ने … में शरण ली थी",
-        "pron": "लö श्यैँ से-तै ग़े-फ़ü-झ़्ये दाँ"
+        "pron": "ल श्यैं से-ते रे-फ़्यू-ज्ये दाँ"
       },
       {
         "fr": "fou de joie",
         "en": "overjoyed (crazy with joy)",
         "hi": "ख़ुशी से पागल",
-        "pron": "फ़ू दö झ़्वा"
+        "pron": "फ़ू द ज्वा"
       }
     ],
     "model": {
@@ -758,7 +830,7 @@
         "fr": "C'est pas réaliste. (= Ce n'est pas réaliste.)",
         "en": "It's not realistic.",
         "hi": "यह व्यावहारिक नहीं है।",
-        "pron": "सै पा ग़े-आ-लीस्त"
+        "pron": "से पा रे-आ-लीस्त"
       },
       {
         "fr": "ça dépend",
@@ -770,67 +842,67 @@
         "fr": "Je voudrais savoir si…",
         "en": "I'd like to know if…",
         "hi": "मैं जानना चाहूँगा कि क्या…",
-        "pron": "झ़ö वू-द्रै सा-वाग़ सी"
+        "pron": "ज वू-द्रे सा-वार सी"
       },
       {
         "fr": "Pourriez-vous m'indiquer…",
         "en": "Could you tell me…",
         "hi": "क्या आप मुझे बता सकेंगे…",
-        "pron": "पू-ग़्ये वू मैँ-दी-के"
+        "pron": "पू-र्ये वू मैं-दी-के"
       },
       {
         "fr": "un atout",
         "en": "an asset",
         "hi": "अतिरिक्त ख़ूबी",
-        "pron": "ऐँ ना-तू"
+        "pron": "ऐं ना-तू"
       },
       {
         "fr": "Tu devrais essayer.",
         "en": "You should try.",
         "hi": "तुम्हें आज़माना चाहिए।",
-        "pron": "तü दö-व्ग़ै ए-से-ये"
+        "pron": "त्यू द-व्रे ए-से-ये"
       },
       {
         "fr": "Justement !",
         "en": "That's exactly the point!",
         "hi": "इसीलिए तो!",
-        "pron": "झ़üस-त-माँ"
+        "pron": "ज्यूस-त-माँ"
       },
       {
         "fr": "Ils avaient oublié la casserole.",
         "en": "They had forgotten the pan.",
         "hi": "वे बर्तन भूल गए थे।",
-        "pron": "इल ज़ा-वै ज़ू-ब्ली-ये ला का-स्ग़ॉल"
+        "pron": "इल ज़ा-वे ज़ू-ब्ली-ये ला का-स्रॉल"
       },
       {
         "fr": "la veille / le lendemain",
         "en": "the day before / the day after",
         "hi": "एक दिन पहले / अगले दिन",
-        "pron": "ला वैय / लö लाँद-मैँ"
+        "pron": "ला वेय / ल लाँद-मैं"
       },
       {
         "fr": "Je ne partage pas cet avis.",
         "en": "I don't share this opinion.",
         "hi": "मैं इस राय से सहमत नहीं।",
-        "pron": "झ़ö नö पाग़-ताझ़ पा सै ता-वी"
+        "pron": "ज न पार-ताज पा से ता-वी"
       },
       {
         "fr": "Veuillez agréer mes salutations distinguées.",
         "en": "Yours faithfully.",
         "hi": "सादर।",
-        "pron": "वö-ये ज़ा-ग्ग़े-ए मे सा-लü-ता-स्योँ दिस-तैँ-गे"
+        "pron": "व-ये ज़ा-ग्रे-ए मे सा-ल्यू-ता-स्यों दिस-तैं-गे"
       },
       {
         "fr": "un problème, un musée, une image",
         "en": "a problem, a museum, a picture",
         "hi": "एक समस्या, एक संग्रहालय, एक चित्र",
-        "pron": "ऐँ प्रो-ब्लैम ऐँ म्ü-ज़े üन नी-माझ़"
+        "pron": "ऐं प्रो-ब्लेम ऐं म्यू-ज़े यून नी-माज"
       },
       {
         "fr": "Elle est arrivée.",
         "en": "She arrived.",
         "hi": "वह आई।",
-        "pron": "ऐ-लै ता-ग़ी-वे"
+        "pron": "ए-ले ता-री-वे"
       }
     ]
   },

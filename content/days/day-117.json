@@ -17,22 +17,22 @@
   "checkpoint": false,
   "mock": { "id": "mock-3", "part": "review" },
   "vocabulary": [
-    { "fr": "récurrent", "en": "recurring", "hi": "बार-बार होने वाला", "pron": "ग़े-कü-ग़ाँ", "ipa": "ʁekyʁɑ̃", "pos": "adjective" },
-    { "fr": "le bilan", "en": "review, assessment, summary", "hi": "लेखा-जोखा / समीक्षा", "pron": "लö बी-लाँ", "ipa": "lə bilɑ̃", "pos": "noun", "gender": "m", "lemma": "bilan" },
-    { "fr": "le point faible", "en": "weak point", "hi": "कमज़ोर पहलू", "pron": "लö प्वैँ फ़ैब्ल", "ipa": "lə pwɛ̃ fɛbl", "pos": "noun", "gender": "m", "lemma": "point" },
-    { "fr": "le point fort", "en": "strong point", "hi": "मज़बूत पहलू", "pron": "लö प्वैँ फ़ोग़", "ipa": "lə pwɛ̃ fɔʁ", "pos": "noun", "gender": "m", "lemma": "point" },
-    { "fr": "progresser", "en": "to make progress", "hi": "प्रगति करना / आगे बढ़ना", "pron": "प्ग़ो-ग्ग़ै-से", "ipa": "pʁɔɡʁese", "pos": "verb" },
+    { "fr": "récurrent", "en": "recurring", "hi": "बार-बार होने वाला", "pron": "रे-क्यू-राँ", "ipa": "ʁekyʁɑ̃", "pos": "adjective" },
+    { "fr": "le bilan", "en": "review, assessment, summary", "hi": "लेखा-जोखा / समीक्षा", "pron": "ल बी-लाँ", "ipa": "lə bilɑ̃", "pos": "noun", "gender": "m", "lemma": "bilan" },
+    { "fr": "le point faible", "en": "weak point", "hi": "कमज़ोर पहलू", "pron": "ल प्वैं फ़ेब्ल", "ipa": "lə pwɛ̃ fɛbl", "pos": "noun", "gender": "m", "lemma": "point" },
+    { "fr": "le point fort", "en": "strong point", "hi": "मज़बूत पहलू", "pron": "ल प्वैं फ़ॉर", "ipa": "lə pwɛ̃ fɔʁ", "pos": "noun", "gender": "m", "lemma": "point" },
+    { "fr": "progresser", "en": "to make progress", "hi": "प्रगति करना / आगे बढ़ना", "pron": "प्रॉ-ग्रे-से", "ipa": "pʁɔɡʁese", "pos": "verb" },
     { "fr": "cibler", "en": "to target", "hi": "निशाना बनाना / केंद्रित करना", "pron": "सी-ब्ले", "ipa": "sible", "pos": "verb" },
-    { "fr": "la vente-débarras", "en": "garage sale", "hi": "घर के पुराने सामान की बिक्री", "pron": "ला वाँत दे-बा-ग़ा", "ipa": "la vɑ̃t debaʁa", "pos": "noun", "gender": "f", "lemma": "vente-débarras" },
-    { "fr": "d'occasion", "en": "second-hand, used", "hi": "पुराना / सेकंड-हैंड", "pron": "दो-का-ज़्योँ", "ipa": "dɔkazjɔ̃", "pos": "adjective" },
-    { "fr": "le témoin", "en": "witness", "hi": "गवाह / चश्मदीद", "pron": "लö ते-म्वैँ", "ipa": "lə temwɛ̃", "pos": "noun", "gender": "m", "lemma": "témoin" }
+    { "fr": "la vente-débarras", "en": "garage sale", "hi": "घर के पुराने सामान की बिक्री", "pron": "ला वाँत दे-बा-रा", "ipa": "la vɑ̃t debaʁa", "pos": "noun", "gender": "f", "lemma": "vente-débarras" },
+    { "fr": "d'occasion", "en": "second-hand, used", "hi": "पुराना / सेकंड-हैंड", "pron": "दॉ-का-ज़्यों", "ipa": "dɔkazjɔ̃", "pos": "adjective" },
+    { "fr": "le témoin", "en": "witness", "hi": "गवाह / चश्मदीद", "pron": "ल ते-म्वैं", "ipa": "lə temwɛ̃", "pos": "noun", "gender": "m", "lemma": "témoin" }
   ],
   "phrases": [
-    { "fr": "C'est une erreur qui revient souvent.", "en": "It's a mistake that often comes back.", "hi": "यह ऐसी ग़लती है जो अक्सर लौटती है।", "pron": "सै तüन ए-ग़öग़ की ग़ö-व्यैँ सू-वाँ" },
-    { "fr": "J'ai fait des progrès en compréhension orale.", "en": "I've made progress in listening.", "hi": "मैंने सुनकर समझने में प्रगति की है।", "pron": "झ़े फ़ै दे प्ग़ो-ग्ग़ै आँ कोँ-प्ग़े-आँ-स्योँ नो-ग़ाल" },
-    { "fr": "Je dois encore travailler les accords.", "en": "I still need to work on agreements.", "hi": "मुझे अभी भी लिंग-वचन मेल पर काम करना है।", "pron": "झ़ö द्वा आँ-कोग़ त्ग़ा-वा-ये ले ज़ा-कोग़" },
-    { "fr": "Cette semaine, je cible deux points seulement.", "en": "This week, I'm targeting only two points.", "hi": "इस हफ़्ते मैं सिर्फ़ दो बातों पर ध्यान दूँगा / दूँगी।", "pron": "सैत स-मैन झ़ö सीब्ल दö प्वैँ सö-ल-माँ" },
-    { "fr": "D'un examen à l'autre, …", "en": "From one exam to the next, …", "hi": "एक परीक्षा से दूसरी तक, …", "pron": "दैँ नैग-ज़ा-मैँ आ लोत्ग़" }
+    { "fr": "C'est une erreur qui revient souvent.", "en": "It's a mistake that often comes back.", "hi": "यह ऐसी ग़लती है जो अक्सर लौटती है।", "pron": "से त्यून ए-रर की र-व्यैं सू-वाँ" },
+    { "fr": "J'ai fait des progrès en compréhension orale.", "en": "I've made progress in listening.", "hi": "मैंने सुनकर समझने में प्रगति की है।", "pron": "जे फ़े दे प्रो-ग्रे आँ कों-प्रे-आँ-स्यों नो-राल" },
+    { "fr": "Je dois encore travailler les accords.", "en": "I still need to work on agreements.", "hi": "मुझे अभी भी लिंग-वचन मेल पर काम करना है।", "pron": "ज द्वा आँ-कोर त्रा-वा-ये ले ज़ा-कोर" },
+    { "fr": "Cette semaine, je cible deux points seulement.", "en": "This week, I'm targeting only two points.", "hi": "इस हफ़्ते मैं सिर्फ़ दो बातों पर ध्यान दूँगा / दूँगी।", "pron": "सेत स-मेन ज सीब्ल द प्वैं स-ल-माँ" },
+    { "fr": "D'un examen à l'autre, …", "en": "From one exam to the next, …", "hi": "एक परीक्षा से दूसरी तक, …", "pron": "दैं नेग-ज़ा-मैं आ लोत्र" }
   ],
   "grammar": {
     "title": { "en": "Final error analysis: finding the errors that keep coming back", "hi": "आख़िरी ग़लती-विश्लेषण: बार-बार लौटने वाली ग़लतियाँ ढूँढना" },
@@ -45,10 +45,10 @@
       "hi": "जैसे डॉक्टर कभी-कभार की खाँसी नहीं, बल्कि बार-बार लौटने वाला लक्षण देखता है, वैसे ही आप संयोग नहीं, पैटर्न ढूँढते हैं।"
     },
     "examples": [
-      { "fr": "D'un examen à l'autre, j'ai réduit mes erreurs de temps.", "en": "From one exam to the next, I reduced my tense errors.", "hi": "एक परीक्षा से दूसरी तक मैंने काल की ग़लतियाँ कम कीं।", "pron": "दैँ नैग-ज़ा-मैँ आ लोत्ग़ झ़े ग़े-दüइ मे ज़े-ग़öग़ दö ताँ" },
-      { "fr": "Je confonds encore « à » et « de » après certains verbes.", "en": "I still mix up 'à' and 'de' after some verbs.", "hi": "कुछ क्रियाओं के बाद मैं अब भी 'à' और 'de' में गड़बड़ करता / करती हूँ।", "pron": "झ़ö कोँ-फ़ोँ आँ-कोग़ आ ए दö आ-प्ग़ै सैग़-तैँ वैग़्ब" },
-      { "fr": "Je fais moins d'erreurs d'accord qu'au premier examen.", "en": "I make fewer agreement errors than in the first exam.", "hi": "पहली परीक्षा के मुक़ाबले मैं लिंग-वचन मेल की कम ग़लतियाँ करता / करती हूँ।", "pron": "झ़ö फ़ै म्वैँ दे-ग़öग़ दा-कोग़ को प्ग़ö-म्ये ग़ैग-ज़ा-मैँ" },
-      { "fr": "Mon point faible reste la gestion du temps à l'écrit.", "en": "My weak point is still time management in writing.", "hi": "मेरा कमज़ोर पहलू अब भी लेखन में समय सँभालना है।", "pron": "मोँ प्वैँ फ़ैब्ल ग़ैस्त ला झ़ैस-त्योँ दü ताँ आ ले-क्ग़ी" }
+      { "fr": "D'un examen à l'autre, j'ai réduit mes erreurs de temps.", "en": "From one exam to the next, I reduced my tense errors.", "hi": "एक परीक्षा से दूसरी तक मैंने काल की ग़लतियाँ कम कीं।", "pron": "दैं नेग-ज़ा-मैं आ लोत्र जे रे-द्यूइ मे ज़े-रर द ताँ" },
+      { "fr": "Je confonds encore « à » et « de » après certains verbes.", "en": "I still mix up 'à' and 'de' after some verbs.", "hi": "कुछ क्रियाओं के बाद मैं अब भी 'à' और 'de' में गड़बड़ करता / करती हूँ।", "pron": "ज कों-फ़ों आँ-कोर आ ए द आ-प्रे सेर-तैं वेर्ब" },
+      { "fr": "Je fais moins d'erreurs d'accord qu'au premier examen.", "en": "I make fewer agreement errors than in the first exam.", "hi": "पहली परीक्षा के मुक़ाबले मैं लिंग-वचन मेल की कम ग़लतियाँ करता / करती हूँ।", "pron": "ज फ़े म्वैं दे-रर दा-कोर को प्र-म्ये रेग-ज़ा-मैं" },
+      { "fr": "Mon point faible reste la gestion du temps à l'écrit.", "en": "My weak point is still time management in writing.", "hi": "मेरा कमज़ोर पहलू अब भी लेखन में समय सँभालना है।", "pron": "मों प्वैं फ़ेब्ल रेस्त ला जेस-त्यों द्यू ताँ आ ले-क्री" }
     ],
     "pitfalls": [
       { "en": "Don't try to fix everything in the last week. Two recurring errors, worked on every day, are worth more than ten listed once.", "hi": "आख़िरी हफ़्ते में सब कुछ सुधारने की कोशिश मत कीजिए। रोज़ अभ्यास की गई दो बार-बार की ग़लतियाँ एक बार लिखी दस ग़लतियों से ज़्यादा क़ीमती हैं।" },
@@ -62,11 +62,11 @@
       "hi": "हिंदी और अंग्रेज़ी बोलने वालों के लिए यही ध्वनियाँ सबसे ज़्यादा अर्थ बदल देती हैं। जोड़ियों में अभ्यास कीजिए: हर जोड़ी तीन बार धीरे, फिर तेज़ बोलिए। u के लिए 'ई' बोलिए और जीभ हिलाए बिना होंठ गोल कीजिए; नासिक ध्वनियों में अंत में n या m मत जोड़िए; r के लिए जीभ की नोक नीचे के दाँतों के पीछे रखिए।"
     },
     "words": [
-      { "fr": "dessus / dessous", "en": "on top / underneath", "hi": "ऊपर / नीचे", "pron": "द-सü / द-सू", "ipa": "dəsy / dəsu" },
-      { "fr": "vent / vin / vont", "en": "wind / wine / (they) go", "hi": "हवा / शराब / (वे) जाते हैं", "pron": "वाँ / वैँ / वोँ", "ipa": "vɑ̃ / vɛ̃ / vɔ̃" },
-      { "fr": "rue / roue", "en": "street / wheel", "hi": "गली / पहिया", "pron": "ग़ü / ग़ू", "ipa": "ʁy / ʁu" },
-      { "fr": "progrès", "en": "progress", "hi": "प्रगति", "pron": "प्ग़ो-ग्ग़ै", "ipa": "pʁɔɡʁɛ" },
-      { "fr": "récurrent", "en": "recurring", "hi": "बार-बार होने वाला", "pron": "ग़े-कü-ग़ाँ", "ipa": "ʁekyʁɑ̃" }
+      { "fr": "dessus / dessous", "en": "on top / underneath", "hi": "ऊपर / नीचे", "pron": "द-स्यू / द-सू", "ipa": "dəsy / dəsu" },
+      { "fr": "vent / vin / vont", "en": "wind / wine / (they) go", "hi": "हवा / शराब / (वे) जाते हैं", "pron": "वाँ / वैं / वों", "ipa": "vɑ̃ / vɛ̃ / vɔ̃" },
+      { "fr": "rue / roue", "en": "street / wheel", "hi": "गली / पहिया", "pron": "र्यू / रू", "ipa": "ʁy / ʁu" },
+      { "fr": "progrès", "en": "progress", "hi": "प्रगति", "pron": "प्रो-ग्रे", "ipa": "pʁɔɡʁɛ" },
+      { "fr": "récurrent", "en": "recurring", "hi": "बार-बार होने वाला", "pron": "रे-क्यू-राँ", "ipa": "ʁekyʁɑ̃" }
     ]
   },
   "listening": {
@@ -86,11 +86,11 @@
       { "speaker": "Hélène", "voice": "f2", "fr": "On en parle jeudi à dix-huit heures, comme d'habitude. Bonne soirée !", "en": "We'll talk about it on Thursday at six p.m., as usual. Have a good evening!", "hi": "इस पर गुरुवार शाम छह बजे बात करेंगे, हमेशा की तरह। शुभ संध्या!" }
     ],
     "questions": [
-      { "q": { "en": "What has improved in listening?" }, "options": ["The learner no longer leaves questions unanswered", "The learner finishes ten minutes early", "The learner understands every word", "Nothing has improved"], "answer": 0, "explanation": { "en": "'Tu ne laisses plus de questions sans réponse.'", "hi": "'Tu ne laisses plus de questions sans réponse' — अब कोई प्रश्न ख़ाली नहीं छूटता।" }, "kind": "literal", "evidence": "tu ne laisses plus de questions sans réponse" },
-      { "q": { "en": "What was the problem in writing section A?" }, "options": ["Too many tense errors", "No counter-argument", "About thirty words were missing", "The letter was too formal"], "answer": 2, "explanation": { "en": "'Il te manquait une trentaine de mots dans la section A.'", "hi": "'Une trentaine de mots' — लगभग तीस शब्द कम थे।" }, "kind": "literal", "evidence": "il te manquait une trentaine de mots dans la section A" },
-      { "q": { "en": "Why does Hélène call it a time problem?" }, "options": ["Because the learner's French is weak", "Because it has happened twice", "Because the exam was too long", "Because the learner arrived late"], "answer": 1, "explanation": { "en": "'C'est la deuxième fois que ça arrive' — a recurring error, linked to time, not language.", "hi": "'C'est la deuxième fois' — बार-बार की ग़लती, जो समय से जुड़ी है, भाषा से नहीं।" }, "kind": "inference", "evidence": "C'est la deuxième fois que ça arrive, donc c'est un problème de temps, pas de langue." },
-      { "q": { "en": "What advice does she give for speaking B?" }, "options": ["Speak more slowly", "Ask more questions", "Vary the expression 'c'est bien'", "Use shorter sentences"], "answer": 2, "explanation": { "en": "'Tu as souvent répété « c'est bien » : essaie de varier.'", "hi": "'c'est bien' बार-बार दोहराया — शब्दों में विविधता लाओ।" }, "kind": "literal", "evidence": "tu as souvent répété « c'est bien »" },
-      { "q": { "en": "When will they talk next?" }, "options": ["Tomorrow morning", "Thursday at 6 p.m.", "Thursday at 8 p.m.", "Next week"], "answer": 1, "explanation": { "en": "'Jeudi à dix-huit heures' = Thursday at 6 p.m.", "hi": "'Jeudi à dix-huit heures' = गुरुवार शाम छह बजे।" }, "kind": "literal", "evidence": "jeudi à dix-huit heures" }
+      { "q": { "en": "What has improved in listening?", "hi": "सुनने (लिसनिंग) में क्या सुधार आया है?" }, "options": ["The learner no longer leaves questions unanswered", "The learner finishes ten minutes early", "The learner understands every word", "Nothing has improved"], "optionsHi": ["शिक्षार्थी अब कोई प्रश्न बिना उत्तर के नहीं छोड़ता", "शिक्षार्थी दस मिनट पहले ख़त्म कर लेता है", "शिक्षार्थी हर शब्द समझ लेता है", "कुछ भी नहीं सुधरा है"], "answer": 0, "explanation": { "en": "'Tu ne laisses plus de questions sans réponse.'", "hi": "'Tu ne laisses plus de questions sans réponse' — अब कोई प्रश्न ख़ाली नहीं छूटता।" }, "kind": "literal", "evidence": "tu ne laisses plus de questions sans réponse" },
+      { "q": { "en": "What was the problem in writing section A?", "hi": "लेखन के खंड A में समस्या क्या थी?" }, "options": ["Too many tense errors", "No counter-argument", "About thirty words were missing", "The letter was too formal"], "optionsHi": ["काल की बहुत-सी ग़लतियाँ", "प्रति-तर्क नहीं था", "लगभग तीस शब्द कम थे", "पत्र बहुत औपचारिक था"], "answer": 2, "explanation": { "en": "'Il te manquait une trentaine de mots dans la section A.'", "hi": "'Une trentaine de mots' — लगभग तीस शब्द कम थे।" }, "kind": "literal", "evidence": "il te manquait une trentaine de mots dans la section A" },
+      { "q": { "en": "Why does Hélène call it a time problem?", "hi": "एलेन इसे समय की समस्या क्यों कहती हैं?" }, "options": ["Because the learner's French is weak", "Because it has happened twice", "Because the exam was too long", "Because the learner arrived late"], "optionsHi": ["क्योंकि शिक्षार्थी की फ़्रेंच कमज़ोर है", "क्योंकि ऐसा दो बार हो चुका है", "क्योंकि परीक्षा बहुत लंबी थी", "क्योंकि परीक्षा में पहुँचने में देर हुई थी"], "answer": 1, "explanation": { "en": "'C'est la deuxième fois que ça arrive' — a recurring error, linked to time, not language.", "hi": "'C'est la deuxième fois' — बार-बार की ग़लती, जो समय से जुड़ी है, भाषा से नहीं।" }, "kind": "inference", "evidence": "C'est la deuxième fois que ça arrive, donc c'est un problème de temps, pas de langue." },
+      { "q": { "en": "What advice does she give for speaking B?", "hi": "बोलने के खंड B के लिए वे क्या सलाह देती हैं?" }, "options": ["Speak more slowly", "Ask more questions", "Vary the expression 'c'est bien'", "Use shorter sentences"], "optionsHi": ["और धीरे बोलें", "और अधिक प्रश्न पूछें", "\"c'est bien\" वाली अभिव्यक्ति में विविधता लाएँ", "छोटे वाक्य इस्तेमाल करें"], "answer": 2, "explanation": { "en": "'Tu as souvent répété « c'est bien » : essaie de varier.'", "hi": "'c'est bien' बार-बार दोहराया — शब्दों में विविधता लाओ।" }, "kind": "literal", "evidence": "tu as souvent répété « c'est bien »" },
+      { "q": { "en": "When will they talk next?", "hi": "वे अगली बार कब बात करेंगे?" }, "options": ["Tomorrow morning", "Thursday at 6 p.m.", "Thursday at 8 p.m.", "Next week"], "optionsHi": ["कल सुबह", "गुरुवार शाम 6 बजे", "गुरुवार रात 8 बजे", "अगले सप्ताह"], "answer": 1, "explanation": { "en": "'Jeudi à dix-huit heures' = Thursday at 6 p.m.", "hi": "'Jeudi à dix-huit heures' = गुरुवार शाम छह बजे।" }, "kind": "literal", "evidence": "jeudi à dix-huit heures" }
     ],
     "dictation": [
       "C'est la deuxième fois que ça arrive, donc c'est un problème de temps, pas de langue.",
@@ -117,11 +117,11 @@
       ]
     },
     "prompts": [
-      { "fr": "Bonjour, je vous appelle au sujet de la vente-débarras du 14 juin.", "en": "Hello, I'm calling about the garage sale on 14 June.", "hi": "नमस्ते, मैं 14 जून की बिक्री के बारे में फ़ोन कर रहा / रही हूँ।", "pron": "बोँ-झ़ूग़ झ़ö वू ज़ा-पैल ओ सü-झ़े द ला वाँत दे-बा-ग़ा दü का-तोग़्ज़ झ़üऐँ" },
-      { "fr": "Combien coûte la location d'une table ?", "en": "How much does renting a table cost?", "hi": "एक टेबल किराए पर लेने का कितना ख़र्च है?", "pron": "कोँ-ब्यैँ कूत ला लो-का-स्योँ दüन ताब्ल" },
-      { "fr": "Qu'est-ce qui se passe s'il pleut ?", "en": "What happens if it rains?", "hi": "अगर बारिश हुई तो क्या होगा?", "pron": "कैस की सö पास सील प्लö" },
-      { "fr": "À quelle heure est-ce qu'on peut installer sa table ?", "en": "What time can we set up our table?", "hi": "हम अपनी टेबल कितने बजे लगा सकते हैं?", "pron": "आ कैल öग़ ऐस कोँ पö ऐँस-ता-ले सा ताब्ल" },
-      { "fr": "Est-ce que les acheteurs peuvent payer par carte, ou seulement en argent comptant ?", "en": "Can buyers pay by card, or only in cash?", "hi": "क्या ख़रीदार कार्ड से भुगतान कर सकते हैं, या सिर्फ़ नक़द?", "pron": "ऐस कö ले ज़ाश-तöग़ पöव पे-ये पाग़ काग़्त ऊ सö-ल-माँ आँ नाग़-झ़ाँ कोँ-ताँ", "model": "Est-ce que les acheteurs peuvent payer par carte, ou seulement en argent comptant ? Et vous savez s'il y aura des vélos d'enfant ? Je cherche un vélo d'occasion pour mon fils de huit ans." }
+      { "fr": "Bonjour, je vous appelle au sujet de la vente-débarras du 14 juin.", "en": "Hello, I'm calling about the garage sale on 14 June.", "hi": "नमस्ते, मैं 14 जून की बिक्री के बारे में फ़ोन कर रहा / रही हूँ।", "pron": "बों-जूर ज वू ज़ा-पेल ओ स्यू-जे द ला वाँत दे-बा-रा द्यू का-तोर्ज़ ज्यूऐं" },
+      { "fr": "Combien coûte la location d'une table ?", "en": "How much does renting a table cost?", "hi": "एक टेबल किराए पर लेने का कितना ख़र्च है?", "pron": "कों-ब्यैं कूत ला लो-का-स्यों द्यून ताब्ल" },
+      { "fr": "Qu'est-ce qui se passe s'il pleut ?", "en": "What happens if it rains?", "hi": "अगर बारिश हुई तो क्या होगा?", "pron": "केस की स पास सील प्ल" },
+      { "fr": "À quelle heure est-ce qu'on peut installer sa table ?", "en": "What time can we set up our table?", "hi": "हम अपनी टेबल कितने बजे लगा सकते हैं?", "pron": "आ केल अर एस कों प ऐंस-ता-ले सा ताब्ल" },
+      { "fr": "Est-ce que les acheteurs peuvent payer par carte, ou seulement en argent comptant ?", "en": "Can buyers pay by card, or only in cash?", "hi": "क्या ख़रीदार कार्ड से भुगतान कर सकते हैं, या सिर्फ़ नक़द?", "pron": "एस क ले ज़ाश-तर पव पे-ये पार कार्त ऊ स-ल-माँ आँ नार-जाँ कों-ताँ", "model": "Est-ce que les acheteurs peuvent payer par carte, ou seulement en argent comptant ? Et vous savez s'il y aura des vélos d'enfant ? Je cherche un vélo d'occasion pour mon fils de huit ans." }
     ],
     "tip": {
       "en": "Record yourself, then listen only for your two recurring errors. If they have gone, that is real progress — note it in your error notebook.",
@@ -137,11 +137,11 @@
       "hi": "छह हफ़्तों तक, दो साल पहले मॉन्कटन आए इंजीनियर अर्जुन मेहता ने अपनी फ़्रेंच परीक्षा से पहले तीन मॉक परीक्षाएँ दीं। हर बार वह अपनी ग़लतियाँ चार कॉलम वाली एक सीधी तालिका में लिखता था: समझ, रणनीति, भाषा और निर्देश।\n\n'शुरू में मैं सब कुछ एक साथ सुधारना चाहता था,' वह बताता है। 'पहली परीक्षा के बाद मेरे पास चालीस ग़लतियों की सूची थी और मुझे समझ नहीं आ रहा था कि कहाँ से शुरू करूँ।'\n\nतीनों तालिकाओं की तुलना करते हुए उसे बात समझ आई। बहुत सी ग़लतियाँ सिर्फ़ एक बार आई थीं: कोई अनजाना शब्द, ग़लत पढ़ा गया कोई प्रश्न। लेकिन दो समस्याएँ हर परीक्षा में लौटती थीं: 'être' के साथ भूतकृदंत का लिंग-वचन मेल और अपना पत्र दोबारा पढ़ने के लिए समय की कमी।\n\nइसलिए उसने सिर्फ़ इन्हीं दो बातों पर ध्यान देने का फ़ैसला किया। हर सुबह वह 'être' के साथ passé composé में पाँच वाक्य लिखता और हर मेल जाँचता था। लेखन में उसने अपना तरीक़ा बदला: अब वह उस खंड से शुरू करता है जिसमें उसे सबसे ज़्यादा समय लगता है और जाँचने के लिए हमेशा पाँच मिनट बचाकर रखता है।\n\n'बेशक, मैं अब भी ग़लतियाँ करता हूँ, लेकिन पहले से बहुत कम, और सबसे बड़ी बात, मुझे पता है कि कौन-सी ढूँढनी हैं।'\n\nउसकी शिक्षा-सलाहकार सार में कहती हैं: 'ग़लतियों की तालिका हिम्मत तोड़ने के लिए नहीं होती। वह चुनने के लिए होती है।'"
     },
     "questions": [
-      { "q": { "en": "What was Arjun's problem after the first mock?" }, "options": ["He had no errors", "He had a list of forty errors and didn't know where to start", "He had lost his table", "He had failed the real test"], "answer": 1, "explanation": { "en": "'J'avais une liste de quarante erreurs et je ne savais pas par où commencer.'", "hi": "चालीस ग़लतियों की सूची थी और पता नहीं था कि कहाँ से शुरू करें।" }, "kind": "literal", "evidence": "j'avais une liste de quarante erreurs et je ne savais pas par où commencer" },
-      { "q": { "en": "Which two problems came back in every exam?" }, "options": ["Unknown words and bad reading", "Participle agreement with 'être' and no time to reread", "Pronunciation and spelling", "Numbers and dates"], "answer": 1, "explanation": { "en": "'L'accord du participe passé avec « être » et le manque de temps pour relire sa lettre.'", "hi": "'être' के साथ भूतकृदंत का मेल और पत्र दोबारा पढ़ने के समय की कमी।" }, "kind": "literal", "evidence": "deux problèmes revenaient à chaque examen" },
-      { "q": { "en": "What does 'il a eu un déclic' suggest?" }, "options": ["He suddenly understood something", "He hurt himself", "He gave up", "He bought a new computer"], "answer": 0, "explanation": { "en": "From the context, comparing the tables made him see the pattern: un déclic = a sudden realisation.", "hi": "संदर्भ से, तालिकाओं की तुलना से उसे पैटर्न दिखा: un déclic = अचानक समझ आना।" }, "kind": "vocabulary", "evidence": "C'est en comparant les trois tableaux qu'il a eu un déclic." },
-      { "q": { "en": "How did he change his organisation in writing?" }, "options": ["He skips the plan", "He writes only section B", "He starts with the section that takes him longest and keeps five minutes to reread", "He writes in English first"], "answer": 2, "explanation": { "en": "'Il commence maintenant par la section qui lui prend le plus de temps et garde toujours cinq minutes pour la relecture.'", "hi": "सबसे ज़्यादा समय लेने वाले खंड से शुरू करता है और जाँच के लिए पाँच मिनट रखता है।" }, "kind": "literal", "evidence": "garde toujours cinq minutes pour la relecture" },
-      { "q": { "en": "What is the main message of the article?" }, "options": ["Mock exams are useless", "An error table helps you choose what to work on", "You must correct every error", "Engineers learn French faster"], "answer": 1, "explanation": { "en": "The final quote: 'Il sert à choisir.'", "hi": "आख़िरी उद्धरण: 'Il sert à choisir' — वह चुनने के लिए है।" }, "kind": "gist", "evidence": "Il sert à choisir." }
+      { "q": { "en": "What was Arjun's problem after the first mock?", "hi": "पहले मॉक टेस्ट के बाद अर्जुन की समस्या क्या थी?" }, "options": ["He had no errors", "He had a list of forty errors and didn't know where to start", "He had lost his table", "He had failed the real test"], "optionsHi": ["उसकी कोई ग़लती नहीं थी", "उसके पास चालीस ग़लतियों की सूची थी और उसे पता नहीं था कि कहाँ से शुरू करे", "उसकी तालिका खो गई थी", "वह असली परीक्षा में फ़ेल हो गया था"], "answer": 1, "explanation": { "en": "'J'avais une liste de quarante erreurs et je ne savais pas par où commencer.'", "hi": "चालीस ग़लतियों की सूची थी और पता नहीं था कि कहाँ से शुरू करें।" }, "kind": "literal", "evidence": "j'avais une liste de quarante erreurs et je ne savais pas par où commencer" },
+      { "q": { "en": "Which two problems came back in every exam?", "hi": "कौन-सी दो समस्याएँ हर परीक्षा में लौट आईं?" }, "options": ["Unknown words and bad reading", "Participle agreement with 'être' and no time to reread", "Pronunciation and spelling", "Numbers and dates"], "optionsHi": ["अनजाने शब्द और ख़राब पठन", "'être' के साथ पार्टिसिपल का सामंजस्य और दोबारा पढ़ने का समय न मिलना", "उच्चारण और वर्तनी", "संख्याएँ और तारीख़ें"], "answer": 1, "explanation": { "en": "'L'accord du participe passé avec « être » et le manque de temps pour relire sa lettre.'", "hi": "'être' के साथ भूतकृदंत का मेल और पत्र दोबारा पढ़ने के समय की कमी।" }, "kind": "literal", "evidence": "deux problèmes revenaient à chaque examen" },
+      { "q": { "en": "What does 'il a eu un déclic' suggest?", "hi": "'il a eu un déclic' से क्या संकेत मिलता है?" }, "options": ["He suddenly understood something", "He hurt himself", "He gave up", "He bought a new computer"], "optionsHi": ["उसे अचानक कुछ समझ आ गया", "उसे चोट लग गई", "उसने हार मान ली", "उसने नया कंप्यूटर ख़रीदा"], "answer": 0, "explanation": { "en": "From the context, comparing the tables made him see the pattern: un déclic = a sudden realisation.", "hi": "संदर्भ से, तालिकाओं की तुलना से उसे पैटर्न दिखा: un déclic = अचानक समझ आना।" }, "kind": "vocabulary", "evidence": "C'est en comparant les trois tableaux qu'il a eu un déclic." },
+      { "q": { "en": "How did he change his organisation in writing?", "hi": "लेखन में उसने अपना संगठन कैसे बदला?" }, "options": ["He skips the plan", "He writes only section B", "He starts with the section that takes him longest and keeps five minutes to reread", "He writes in English first"], "optionsHi": ["वह योजना छोड़ देता है", "वह केवल खंड B लिखता है", "वह उस खंड से शुरू करता है जिसमें उसे सबसे ज़्यादा समय लगता है और दोबारा पढ़ने के लिए पाँच मिनट रखता है", "वह पहले अंग्रेज़ी में लिखता है"], "answer": 2, "explanation": { "en": "'Il commence maintenant par la section qui lui prend le plus de temps et garde toujours cinq minutes pour la relecture.'", "hi": "सबसे ज़्यादा समय लेने वाले खंड से शुरू करता है और जाँच के लिए पाँच मिनट रखता है।" }, "kind": "literal", "evidence": "garde toujours cinq minutes pour la relecture" },
+      { "q": { "en": "What is the main message of the article?", "hi": "लेख का मुख्य संदेश क्या है?" }, "options": ["Mock exams are useless", "An error table helps you choose what to work on", "You must correct every error", "Engineers learn French faster"], "optionsHi": ["मॉक परीक्षाएँ बेकार हैं", "ग़लतियों की तालिका से यह चुनने में मदद मिलती है कि किस पर काम करना है", "आपको हर ग़लती सुधारनी चाहिए", "इंजीनियर फ़्रेंच जल्दी सीखते हैं"], "answer": 1, "explanation": { "en": "The final quote: 'Il sert à choisir.'", "hi": "आख़िरी उद्धरण: 'Il sert à choisir' — वह चुनने के लिए है।" }, "kind": "gist", "evidence": "Il sert à choisir." }
     ]
   },
   "writing": {
@@ -159,8 +159,8 @@
     ],
     "usefulPhrases": [
       { "fr": "Aussitôt, …", "en": "Immediately, …", "hi": "तुरंत, …", "pron": "ओ-सी-तो" },
-      { "fr": "Les agents ont fouillé …", "en": "The officers searched …", "hi": "पुलिसकर्मियों ने … की तलाशी ली", "pron": "ले ज़ा-झ़ाँ ओँ फ़ू-ये" },
-      { "fr": "Plus de peur que de mal.", "en": "More fright than harm.", "hi": "डर ज़्यादा, नुक़सान कम।", "pron": "प्लü दö पöग़ कö दö माल" }
+      { "fr": "Les agents ont fouillé …", "en": "The officers searched …", "hi": "पुलिसकर्मियों ने … की तलाशी ली", "pron": "ले ज़ा-जाँ ओं फ़ू-ये" },
+      { "fr": "Plus de peur que de mal.", "en": "More fright than harm.", "hi": "डर ज़्यादा, नुक़सान कम।", "pron": "प्ल्यू द पर क द माल" }
     ],
     "model": {
       "fr": "Ses parents, très inquiets, ont cherché partout autour des jeux pour enfants. Au bout de vingt minutes, ils ont appelé la police. Deux agentes sont venues rapidement et ont fouillé le parc avec l'aide de plusieurs promeneurs. Pendant ce temps, la fillette, qui avait suivi un canard, s'était assise au bord du lac. Un témoin, un homme qui promenait son chien, l'a trouvée en train de pleurer. Il l'a ramenée au poste d'accueil du parc, où ses parents l'attendaient. Elle n'était pas blessée : plus de peur que de mal.",
@@ -175,13 +175,13 @@
   "review": {
     "fromDays": [103, 110, 113, 115, 116],
     "items": [
-      { "fr": "J'ai cru que …, alors que …", "en": "I thought that …, whereas …", "hi": "मुझे लगा कि …, जबकि …", "pron": "झ़े क्ग़ü कö आ-लोग़ कö" },
-      { "fr": "le carnet d'erreurs", "en": "error notebook", "hi": "ग़लतियों की कॉपी", "pron": "लö काग़-नै दे-ग़öग़" },
-      { "fr": "la consigne", "en": "the instructions (of a task)", "hi": "काम के निर्देश", "pron": "ला कोँ-सीन्य" },
-      { "fr": "Je relis les accords.", "en": "I reread the agreements.", "hi": "मैं लिंग-वचन मेल दोबारा पढ़ता / पढ़ती हूँ।", "pron": "झ़ö ग़ö-ली ले ज़ा-कोग़" },
-      { "fr": "Je garde cinq minutes pour la relecture.", "en": "I keep five minutes for proofreading.", "hi": "मैं जाँचने के लिए पाँच मिनट बचाकर रखता / रखती हूँ।", "pron": "झ़ö गाग़्द सैँ मी-नüत पूग़ ला ग़ö-लैक-तüग़" },
-      { "fr": "Je comprends ton hésitation, mais …", "en": "I understand your hesitation, but …", "hi": "मैं तुम्हारी हिचकिचाहट समझता / समझती हूँ, लेकिन …", "pron": "झ़ö कोँ-प्ग़ाँ तोँ ने-ज़ी-ता-स्योँ मै" },
-      { "fr": "de moins en moins", "en": "less and less", "hi": "कम से कमतर", "pron": "दö म्वैँ ज़ाँ म्वैँ" }
+      { "fr": "J'ai cru que …, alors que …", "en": "I thought that …, whereas …", "hi": "मुझे लगा कि …, जबकि …", "pron": "जे क्र्यू क … आ-लॉर क" },
+      { "fr": "le carnet d'erreurs", "en": "error notebook", "hi": "ग़लतियों की कॉपी", "pron": "ल कार-ने दे-रर" },
+      { "fr": "la consigne", "en": "the instructions (of a task)", "hi": "काम के निर्देश", "pron": "ला कों-सीन्य" },
+      { "fr": "Je relis les accords.", "en": "I reread the agreements.", "hi": "मैं लिंग-वचन मेल दोबारा पढ़ता / पढ़ती हूँ।", "pron": "ज र-ली ले ज़ा-कोर" },
+      { "fr": "Je garde cinq minutes pour la relecture.", "en": "I keep five minutes for proofreading.", "hi": "मैं जाँचने के लिए पाँच मिनट बचाकर रखता / रखती हूँ।", "pron": "ज गार्द सैं मी-न्यूत पूर ला र-लेक-त्यूर" },
+      { "fr": "Je comprends ton hésitation, mais …", "en": "I understand your hesitation, but …", "hi": "मैं तुम्हारी हिचकिचाहट समझता / समझती हूँ, लेकिन …", "pron": "ज कों-प्राँ तों ने-ज़ी-ता-स्यों मे" },
+      { "fr": "de moins en moins", "en": "less and less", "hi": "कम से कमतर", "pron": "द म्वैं ज़ाँ म्वैं" }
     ]
   },
   "assessment": [

@@ -7,7 +7,7 @@ import { Speak } from "./audio";
 import { AccentBar } from "./accent-bar";
 
 type Explain = { en: string; hi: string };
-export type McqView = { q: { fr?: string; en: string }; options: string[]; kind?: string };
+export type McqView = { q: { fr?: string; en: string; hi?: string }; options: string[]; optionsHi?: string[]; kind?: string };
 type McqResult = { correct: boolean; answer: number; explanation: Explain; evidence?: string };
 
 /** Multiple-choice question graded on the server; the explanation appears only after an attempt. */
@@ -25,7 +25,7 @@ export function McqLive({ q, index, endpoint, section, onAnswered, name }: { q: 
   return (
     <fieldset className="rounded-xl border border-app p-3">
       <legend className="px-1 font-medium">
-        {index + 1}. {q.q.fr && <span lang="fr" className="block">{q.q.fr}</span>}<span className={q.q.fr ? "text-sm text-muted" : ""}>{q.q.en}</span>
+        {index + 1}. {q.q.fr && <span lang="fr" className="block">{q.q.fr}</span>}<Bi as="span" t={q.q} className={q.q.fr ? "text-sm text-muted" : ""} />
         {q.kind && <span className="chip surface-2 ml-2 text-[10px]">{q.kind}</span>}
       </legend>
       <div className="mt-2 grid gap-2">
@@ -34,20 +34,20 @@ export function McqLive({ q, index, endpoint, section, onAnswered, name }: { q: 
           return (
             <label key={i} className={`flex cursor-pointer items-start gap-2 rounded-lg border p-2 ${state === "right" ? "border-green-600 bg-green-50 dark:bg-green-900/30" : state === "wrong" ? "border-red-500 bg-red-50 dark:bg-red-900/30" : choice === i ? "border-brand-500" : "border-app"}`}>
               <input type="radio" name={name} checked={choice === i} disabled={!!res} onChange={() => setChoice(i)} className="mt-1" />
-              <span lang="fr">{o}</span>
-              {state === "right" && <span className="ml-auto text-sm text-green-700 dark:text-green-300">✓ correct answer</span>}
-              {state === "wrong" && <span className="ml-auto text-sm text-red-700 dark:text-red-300">your answer</span>}
+              {q.optionsHi?.[i] ? <Bi as="span" t={{ en: o, hi: q.optionsHi[i] }} /> : <span lang="fr">{o}</span>}
+              {state === "right" && <Bi as="span" className="ml-auto text-sm text-green-700 dark:text-green-300" t={{ en: "✓ correct answer", hi: "✓ सही उत्तर" }} />}
+              {state === "wrong" && <Bi as="span" className="ml-auto text-sm text-red-700 dark:text-red-300" t={{ en: "your answer", hi: "आपका उत्तर" }} />}
             </label>
           );
         })}
       </div>
-      {!res && <button type="button" className="btn btn-primary btn-sm mt-2" disabled={choice === null} onClick={submit}>Check</button>}
+      {!res && <button type="button" className="btn btn-primary btn-sm mt-2" disabled={choice === null} onClick={submit}><Bi as="span" t={{ en: "Check answer", hi: "उत्तर जाँचें" }} /></button>}
       {err && <p role="alert" className="text-sm text-red-700">{err}</p>}
       {res && (
         <div className="mt-2 rounded-lg surface-2 p-2 text-sm" aria-live="polite">
-          <p className="font-medium">{res.correct ? "Correct!" : "Not quite — this one is now in your mistake notebook for review."}</p>
+          <Bi className="font-medium" t={res.correct ? { en: "Correct!", hi: "सही!" } : { en: "Not quite. This one is now in your mistake notebook for review.", hi: "यह सही नहीं है। दोहराव के लिए यह प्रश्न आपकी ग़लतियों की कॉपी में जोड़ दिया गया है।" }} />
           <Bi t={res.explanation} />
-          {res.evidence && <p className="mt-1">Evidence: <q lang="fr">{res.evidence}</q></p>}
+          {res.evidence && <p className="mt-1"><Bi as="span" t={{ en: "Evidence", hi: "प्रमाण" }} />: <q lang="fr">{res.evidence}</q></p>}
         </div>
       )}
     </fieldset>
@@ -55,9 +55,9 @@ export function McqLive({ q, index, endpoint, section, onAnswered, name }: { q: 
 }
 
 export function ResultLine({ r }: { r: AnswerCheck }) {
-  if (r.result === "correct") return <p className="text-sm text-green-700 dark:text-green-300">✓ Correct</p>;
-  if (r.result === "accent") return <p className="text-sm text-saffron-700">Almost — check the accents: <span lang="fr" className="font-medium">{r.expected}</span></p>;
-  return <p className="text-sm text-red-700 dark:text-red-300">Expected: <span lang="fr" className="font-medium">{r.expected}</span></p>;
+  if (r.result === "correct") return <p className="text-sm text-green-700 dark:text-green-300">✓ <Bi as="span" t={{ en: "Correct", hi: "सही" }} /></p>;
+  if (r.result === "accent") return <p className="text-sm text-saffron-700"><Bi as="span" t={{ en: "Almost. Check the accents:", hi: "लगभग सही। accent के निशान जाँचें:" }} /> <span lang="fr" className="font-medium">{r.expected}</span></p>;
+  return <p className="text-sm text-red-700 dark:text-red-300"><Bi as="span" t={{ en: "Expected:", hi: "सही उत्तर:" }} /> <span lang="fr" className="font-medium">{r.expected}</span></p>;
 }
 
 /** Dictation: listen, type, compare. */
@@ -74,9 +74,9 @@ export function Dictation({ sentences, day, voice = "f1" }: { sentences: string[
     <ol className="space-y-3">
       {sentences.map((s, i) => (
         <li key={i} className="space-y-1">
-          <div className="flex items-center gap-2"><span className="text-sm text-muted">Sentence {i + 1}</span><Speak text={s} voice={voice} label={`dictation sentence ${i + 1}`} /></div>
+          <div className="flex items-center gap-2"><Bi as="span" className="text-sm text-muted" t={{ en: `Sentence ${i + 1}`, hi: `वाक्य ${i + 1}` }} /><Speak text={s} voice={voice} label={`dictation sentence ${i + 1}`} /></div>
           <input className="input" lang="fr" aria-label={`Type dictation sentence ${i + 1}`} value={vals[i]} onChange={(e) => setVals((p) => p.map((x, j) => (j === i ? e.target.value : x)))} disabled={!!res[i]} />
-          {!res[i] ? <button type="button" className="btn btn-secondary btn-sm" disabled={!vals[i].trim()} onClick={() => check(i)}>Check</button> : <ResultLine r={res[i]!} />}
+          {!res[i] ? <button type="button" className="btn btn-secondary btn-sm" disabled={!vals[i].trim()} onClick={() => check(i)}><Bi as="span" t={{ en: "Check", hi: "जाँचें" }} /></button> : <ResultLine r={res[i]!} />}
         </li>
       ))}
       <li><AccentBar /></li>
@@ -104,7 +104,7 @@ export function GapFill({ text, answers, day, itemRef, skill = "listening" }: { 
           )}</span>
         ))}
       </p>
-      {!res ? <button type="button" className="btn btn-secondary btn-sm" onClick={check}>Check</button> : <ul className="text-sm">{res.map((r, i) => <li key={i}>Gap {i + 1}: <ResultLine r={r} /></li>)}</ul>}
+      {!res ? <button type="button" className="btn btn-secondary btn-sm" onClick={check}><Bi as="span" t={{ en: "Check", hi: "जाँचें" }} /></button> : <ul className="text-sm">{res.map((r, i) => <li key={i}><Bi as="span" t={{ en: `Gap ${i + 1}:`, hi: `खाली जगह ${i + 1}:` }} /> <ResultLine r={r} /></li>)}</ul>}
     </div>
   );
 }

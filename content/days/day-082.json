@@ -33,7 +33,7 @@
       "fr": "cependant",
       "en": "however",
       "hi": "फिर भी / लेकिन",
-      "pron": "सö-पाँ-दाँ",
+      "pron": "स-पाँ-दाँ",
       "ipa": "səpɑ̃dɑ̃",
       "pos": "adverb",
       "note": {
@@ -45,7 +45,7 @@
       "fr": "pourtant",
       "en": "yet, and yet",
       "hi": "फिर भी / इसके बावजूद",
-      "pron": "पूग़-ताँ",
+      "pron": "पूर-ताँ",
       "ipa": "puʁtɑ̃",
       "pos": "adverb"
     },
@@ -53,7 +53,7 @@
       "fr": "en effet",
       "en": "indeed (confirms or explains)",
       "hi": "दरअसल / वाक़ई",
-      "pron": "आँ ने-फ़ै",
+      "pron": "आँ ने-फ़े",
       "ipa": "ɑ̃n‿efɛ",
       "pos": "adverb",
       "note": {
@@ -65,7 +65,7 @@
       "fr": "ainsi",
       "en": "thus, in this way",
       "hi": "इस तरह / इसलिए",
-      "pron": "ऐँ-सी",
+      "pron": "ऐं-सी",
       "ipa": "ɛ̃si",
       "pos": "adverb"
     },
@@ -73,7 +73,7 @@
       "fr": "afin de",
       "en": "in order to",
       "hi": "… के लिए / ताकि",
-      "pron": "आ-फ़ैँ दö",
+      "pron": "आ-फ़ैं द",
       "ipa": "afɛ̃ də",
       "pos": "preposition",
       "note": {
@@ -97,7 +97,7 @@
       "fr": "lorsque",
       "en": "when (formal)",
       "hi": "जब",
-      "pron": "लॉग़स-कö",
+      "pron": "लॉरस-क",
       "ipa": "lɔʁskə",
       "pos": "conjunction"
     },
@@ -105,7 +105,7 @@
       "fr": "dès que",
       "en": "as soon as",
       "hi": "जैसे ही",
-      "pron": "दै कö",
+      "pron": "दे क",
       "ipa": "dɛ kə",
       "pos": "conjunction"
     },
@@ -113,7 +113,7 @@
       "fr": "tandis que",
       "en": "whereas, while",
       "hi": "जबकि",
-      "pron": "ताँ-दी कö",
+      "pron": "ताँ-दी क",
       "ipa": "tɑ̃di kə",
       "pos": "conjunction"
     },
@@ -121,7 +121,7 @@
       "fr": "d'ailleurs",
       "en": "besides, by the way",
       "hi": "वैसे भी / वैसे",
-      "pron": "दा-यöग़",
+      "pron": "दा-यर",
       "ipa": "dajœʁ",
       "pos": "adverb"
     },
@@ -129,7 +129,7 @@
       "fr": "au lieu de",
       "en": "instead of",
       "hi": "… की बजाय",
-      "pron": "ओ ल्यö दö",
+      "pron": "ओ ल्य द",
       "ipa": "o ljø də",
       "pos": "preposition"
     },
@@ -137,7 +137,7 @@
       "fr": "la parcelle",
       "en": "plot (of land)",
       "hi": "ज़मीन का टुकड़ा / क्यारी",
-      "pron": "ला पाग़-सैल",
+      "pron": "ला पार-सेल",
       "ipa": "la paʁsɛl",
       "pos": "noun",
       "gender": "f",
@@ -149,37 +149,37 @@
       "fr": "Quel type de mot manque ?",
       "en": "What type of word is missing?",
       "hi": "किस तरह का शब्द ग़ायब है?",
-      "pron": "कैल तीप दö मो माँक"
+      "pron": "केल तीप द मो माँक"
     },
     {
       "fr": "Il y a deux ans, j'ai déménagé.",
       "en": "Two years ago, I moved.",
       "hi": "दो साल पहले मैं घर बदलकर आया।",
-      "pron": "इल या दö ज़ाँ झ़े दे-मे-नाँ-झ़े"
+      "pron": "इल या द ज़ाँ जे दे-मे-नाँ-जे"
     },
     {
       "fr": "J'habite ici depuis deux ans.",
       "en": "I have lived here for two years.",
       "hi": "मैं दो साल से यहाँ रहता हूँ।",
-      "pron": "झ़ा-बीत ई-सी दö-प्üई दö ज़ाँ"
+      "pron": "जा-बीत ई-सी द-प्यूई द ज़ाँ"
     },
     {
       "fr": "Je lui ai dit de rappeler.",
       "en": "I told him/her to call back.",
       "hi": "मैंने उससे दोबारा फ़ोन करने को कहा।",
-      "pron": "झ़ö ल्üई ए दी दö ग़ा-प्ले"
+      "pron": "ज ल्यूई ए दी द रा-प्ले"
     },
     {
       "fr": "C'est le projet dont je vous ai parlé.",
       "en": "It's the project I told you about.",
       "hi": "यह वही प्रोजेक्ट है जिसके बारे में मैंने आपको बताया था।",
-      "pron": "सै लö प्रो-झ़ै दोँ झ़ö वू ज़े पाग़-ले"
+      "pron": "से ल प्रो-जे दों ज वू ज़े पार-ले"
     },
     {
       "fr": "Malgré la pluie, la fête a eu lieu.",
       "en": "Despite the rain, the party took place.",
       "hi": "बारिश के बावजूद पार्टी हुई।",
-      "pron": "माल-ग्रे ला प्लüई ला फ़ैत आ ü ल्यö"
+      "pron": "माल-ग्रे ला प्ल्यूई ला फ़ेत आ यू ल्य"
     }
   ],
   "grammar": {
@@ -200,37 +200,37 @@
         "fr": "Le bureau sera fermé lundi ; cependant, vous pouvez déposer vos documents.",
         "en": "The office will be closed on Monday; however, you can drop off your documents.",
         "hi": "दफ़्तर सोमवार को बंद रहेगा; फिर भी आप अपने काग़ज़ जमा कर सकते हैं।",
-        "pron": "लö ब्यू-ग़ो सö-ग़ा फ़ैग़-मे लैँ-दी सö-पाँ-दाँ वू पू-वे दे-पो-ज़े वो दो-क्ü-माँ"
+        "pron": "ल ब्यू-रो स-रा फ़ेर-मे लैं-दी स-पाँ-दाँ वू पू-वे दे-पो-ज़े वो दो-क्यू-माँ"
       },
       {
         "fr": "Mme Diallo a appelé : je lui ai dit de rappeler à 14 h.",
         "en": "Ms Diallo called: I told her to call back at 2 p.m.",
         "hi": "डियालो जी ने फ़ोन किया: मैंने उनसे दोपहर 2 बजे दोबारा फ़ोन करने को कहा।",
-        "pron": "मा-दाम द्या-लो आ आ-प्ले झ़ö ल्üई ए दी दö ग़ा-प्ले आ कातॉग़ज़öग़"
+        "pron": "मा-दाम द्या-लो आ आ-प्ले ज ल्यूई ए दी द रा-प्ले आ कातॉरज़र"
       },
       {
         "fr": "Les travaux ont commencé il y a deux semaines.",
         "en": "The work started two weeks ago.",
         "hi": "काम दो हफ़्ते पहले शुरू हुआ।",
-        "pron": "ले त्ग़ा-वो ज़ोँ को-माँ-से इल या दö स्मैन"
+        "pron": "ले त्रा-वो ज़ों को-माँ-से इल या द स्मेन"
       },
       {
         "fr": "Ils cultivent des légumes depuis l'an dernier.",
         "en": "They have been growing vegetables since last year.",
         "hi": "वे पिछले साल से सब्ज़ियाँ उगा रहे हैं।",
-        "pron": "इल क्üल-तीव दे ले-ग्üम दö-प्üई लाँ दैग़-न्ये"
+        "pron": "इल क्यूल-तीव दे ले-ग्यूम द-प्यूई लाँ देर-न्ये"
       },
       {
         "fr": "Elle a pris le bus au lieu de prendre sa voiture.",
         "en": "She took the bus instead of taking her car.",
         "hi": "उसने अपनी गाड़ी लेने की बजाय बस ली।",
-        "pron": "ऐल आ प्री लö ब्üस ओ ल्यö दö प्राँद्ग़ सा व्वा-त्üग़"
+        "pron": "एल आ प्री ल ब्यूस ओ ल्य द प्राँद्र सा व्वा-त्यूर"
       },
       {
         "fr": "Chaque famille reçoit une parcelle dont elle s'occupe.",
         "en": "Each family gets a plot that it looks after.",
         "hi": "हर परिवार को एक क्यारी मिलती है जिसकी देखभाल वह करता है।",
-        "pron": "शाक फ़ा-मीय ग़ö-स्वा üन पाग़-सैल दोँ ऐल सो-क्üप"
+        "pron": "शाक फ़ा-मीय र-स्वा यून पार-सेल दों एल सो-क्यूप"
       }
     ],
     "pitfalls": [
@@ -259,7 +259,7 @@
         "fr": "cependant",
         "en": "however",
         "hi": "फिर भी",
-        "pron": "सö-पाँ-दाँ",
+        "pron": "स-पाँ-दाँ",
         "ipa": "səpɑ̃dɑ̃",
         "note": {
           "en": "Two nasal 'an' sounds; the final t is silent.",
@@ -270,14 +270,14 @@
         "fr": "je lui ai dit",
         "en": "I told him/her",
         "hi": "मैंने उससे कहा",
-        "pron": "झ़ö ल्üई ए दी",
+        "pron": "ज ल्यूई ए दी",
         "ipa": "ʒə lɥi e di"
       },
       {
         "fr": "il y a deux ans",
         "en": "two years ago",
         "hi": "दो साल पहले",
-        "pron": "इल या दö ज़ाँ",
+        "pron": "इल या द ज़ाँ",
         "ipa": "il i a dø zɑ̃",
         "note": {
           "en": "Liaison with z: deux‿ans.",
@@ -288,14 +288,14 @@
         "fr": "en effet",
         "en": "indeed",
         "hi": "दरअसल",
-        "pron": "आँ ने-फ़ै",
+        "pron": "आँ ने-फ़े",
         "ipa": "ɑ̃n‿efɛ"
       },
       {
         "fr": "d'ailleurs",
         "en": "besides",
         "hi": "वैसे भी",
-        "pron": "दा-यöग़",
+        "pron": "दा-यर",
         "ipa": "dajœʁ"
       }
     ]
@@ -407,7 +407,8 @@
     "questions": [
       {
         "q": {
-          "en": "Why did Sunita often stay at home at first?"
+          "en": "Why did Sunita often stay at home at first?",
+          "hi": "शुरू में Sunita अक्सर घर पर क्यों रहती थी?"
         },
         "options": [
           "She didn't know anyone",
@@ -421,11 +422,18 @@
           "hi": "वह थोड़ी फ़्रेंच जानती थी पर ग़लतियों से डरती थी ('alors' परिणाम बताता है)।"
         },
         "kind": "literal",
-        "evidence": "J'avais peur de faire des erreurs, alors je restais souvent à la maison."
+        "evidence": "J'avais peur de faire des erreurs, alors je restais souvent à la maison.",
+        "optionsHi": [
+          "वह किसी को नहीं जानती थी",
+          "उसे फ़्रेंच बिलकुल नहीं आती थी",
+          "उसे ग़लतियाँ करने का डर था",
+          "वह घर से काम करती थी"
+        ]
       },
       {
         "q": {
-          "en": "Who helped her change?"
+          "en": "Who helped her change?",
+          "hi": "उसे बदलने में किसने मदद की?"
         },
         "options": [
           "A neighbour",
@@ -439,11 +447,18 @@
           "hi": "'grâce à une voisine' — एक पड़ोसन की वजह से।"
         },
         "kind": "literal",
-        "evidence": "Tout a changé grâce à une voisine."
+        "evidence": "Tout a changé grâce à une voisine.",
+        "optionsHi": [
+          "एक पड़ोसी ने",
+          "एक सहकर्मी ने",
+          "एक शिक्षक ने",
+          "एक पुस्तकालयाध्यक्ष ने"
+        ]
       },
       {
         "q": {
-          "en": "When did she decide to help other newcomers?"
+          "en": "When did she decide to help other newcomers?",
+          "hi": "उसने नए आए लोगों की मदद करने का फ़ैसला कब किया?"
         },
         "options": [
           "After three years",
@@ -457,11 +472,18 @@
           "hi": "'au bout de six mois' = छह महीने बाद।"
         },
         "kind": "literal",
-        "evidence": "Au bout de six mois, j'ai eu envie d'aider d'autres nouveaux arrivants"
+        "evidence": "Au bout de six mois, j'ai eu envie d'aider d'autres nouveaux arrivants",
+        "optionsHi": [
+          "तीन साल बाद",
+          "पिछले बुधवार को",
+          "आते ही",
+          "छह महीने बाद"
+        ]
       },
       {
         "q": {
-          "en": "Where and when does the club meet?"
+          "en": "Where and when does the club meet?",
+          "hi": "क्लब कहाँ और कब मिलता है?"
         },
         "options": [
           "Saturday mornings in a café",
@@ -475,11 +497,18 @@
           "hi": "'le mercredi soir à la bibliothèque'। शनिवार पड़ोसन के साथ कॉफ़ी का दिन था — यह भटकाने वाला विकल्प है।"
         },
         "kind": "literal",
-        "evidence": "On se retrouve le mercredi soir à la bibliothèque."
+        "evidence": "On se retrouve le mercredi soir à la bibliothèque.",
+        "optionsHi": [
+          "शनिवार की सुबह किसी कैफ़े में",
+          "बुधवार की शाम पुस्तकालय में",
+          "हर शाम सामुदायिक केंद्र में",
+          "बुधवार की सुबह नगर भवन में"
+        ]
       },
       {
         "q": {
-          "en": "How long do participants talk in small groups?"
+          "en": "How long do participants talk in small groups?",
+          "hi": "प्रतिभागी छोटे समूहों में कितनी देर बात करते हैं?"
         },
         "options": [
           "The whole evening",
@@ -493,11 +522,18 @@
           "hi": "'pendant une heure' = एक घंटे तक।"
         },
         "kind": "literal",
-        "evidence": "Les participants discutent en petits groupes pendant une heure"
+        "evidence": "Les participants discutent en petits groupes pendant une heure",
+        "optionsHi": [
+          "पूरी शाम",
+          "तीस मिनट",
+          "एक घंटा",
+          "दो घंटे"
+        ]
       },
       {
         "q": {
-          "en": "What is Sunita's main message to newcomers?"
+          "en": "What is Sunita's main message to newcomers?",
+          "hi": "नए आए लोगों के लिए Sunita का मुख्य संदेश क्या है?"
         },
         "options": [
           "Speak even with mistakes; people are patient",
@@ -511,7 +547,13 @@
           "hi": "'Parlez, même si vous faites des fautes !' — बोलिए, ग़लतियाँ हों तो भी।"
         },
         "kind": "gist",
-        "evidence": "Parlez, même si vous faites des fautes !"
+        "evidence": "Parlez, même si vous faites des fautes !",
+        "optionsHi": [
+          "ग़लतियों के बावजूद बोलें; लोग धैर्य रखते हैं",
+          "केवल दूसरे नए आए लोगों से ही बात करें",
+          "पहले सशुल्क कक्षाएँ लें",
+          "जब तक धाराप्रवाह न हो जाएँ, बोलने से बचें"
+        ]
       }
     ],
     "dictation": [
@@ -539,35 +581,35 @@
         "fr": "Il pleuvait, mais nous sommes sortis.",
         "en": "It was raining, but we went out.",
         "hi": "बारिश हो रही थी, फिर भी हम बाहर गए।",
-        "pron": "इल प्लö-वै मै नू सोम सॉग़-ती",
+        "pron": "इल प्ल-वे मे नू सोम सॉर-ती",
         "model": "Malgré la pluie, nous sommes sortis."
       },
       {
         "fr": "Je prends le métro parce que c'est rapide.",
         "en": "I take the metro because it's fast.",
         "hi": "मैं मेट्रो लेता हूँ क्योंकि यह तेज़ है।",
-        "pron": "झ़ö प्राँ लö मे-त्ग़ो पाग़स कö सै ग़ा-पीद",
+        "pron": "ज प्राँ ल मे-त्रो पारस क से रा-पीद",
         "model": "Je prends le métro car c'est rapide. / Comme c'est rapide, je prends le métro."
       },
       {
         "fr": "Elle étudie le soir pour réussir le TEF.",
         "en": "She studies in the evening to pass the TEF.",
         "hi": "वह TEF पास करने के लिए शाम को पढ़ती है।",
-        "pron": "ऐल ए-त्ü-दी लö स्वाग़ पूग़ ग़े-ü-सीग़ लö तेफ़",
+        "pron": "एल ए-त्यू-दी ल स्वार पूर रे-यू-सीर ल तेफ़",
         "model": "Elle étudie le soir afin de réussir le TEF."
       },
       {
         "fr": "J'ai commencé ce travail il y a un an.",
         "en": "I started this job a year ago.",
         "hi": "मैंने यह काम एक साल पहले शुरू किया।",
-        "pron": "झ़े को-माँ-से सö त्ग़ा-वाय इल या ऐँ नाँ",
+        "pron": "जे को-माँ-से स त्रा-वाय इल या ऐं नाँ",
         "model": "Je fais ce travail depuis un an."
       },
       {
         "fr": "Je n'ai pas pris la voiture. J'ai pris le vélo.",
         "en": "I didn't take the car. I took the bike.",
         "hi": "मैंने गाड़ी नहीं ली। मैंने साइकिल ली।",
-        "pron": "झ़ö ने पा प्री ला व्वा-त्üग़ झ़े प्री लö वे-लो",
+        "pron": "ज ने पा प्री ला व्वा-त्यूर जे प्री ल वे-लो",
         "model": "J'ai pris le vélo au lieu de prendre la voiture."
       }
     ],
@@ -588,7 +630,8 @@
       {
         "q": {
           "fr": "Phrase 1 : quel mot convient ?",
-          "en": "Sentence 1: which word fits gap (1)?"
+          "en": "Sentence 1: which word fits gap (1)?",
+          "hi": "वाक्य 1: रिक्त स्थान (1) में कौन-सा शब्द सही बैठता है?"
         },
         "options": [
           "parce que",
@@ -607,7 +650,8 @@
       {
         "q": {
           "fr": "Phrase 2 : quel pronom convient ?",
-          "en": "Sentence 2: which pronoun fits gap (2)?"
+          "en": "Sentence 2: which pronoun fits gap (2)?",
+          "hi": "वाक्य 2: रिक्त स्थान (2) में कौन-सा सर्वनाम सही बैठता है?"
         },
         "options": [
           "l'",
@@ -626,7 +670,8 @@
       {
         "q": {
           "fr": "Phrase 3 : quelle expression convient ?",
-          "en": "Sentence 3: which expression fits gap (3)?"
+          "en": "Sentence 3: which expression fits gap (3)?",
+          "hi": "वाक्य 3: रिक्त स्थान (3) में कौन-सा पद सही बैठता है?"
         },
         "options": [
           "il y a",
@@ -645,7 +690,8 @@
       {
         "q": {
           "fr": "Texte, (4) : quelle forme du verbe convient ?",
-          "en": "Text, gap (4): which verb form fits?"
+          "en": "Text, gap (4): which verb form fits?",
+          "hi": "पाठ, रिक्त स्थान (4): कौन-सा क्रिया-रूप सही बैठता है?"
         },
         "options": [
           "cultivaient",
@@ -664,7 +710,8 @@
       {
         "q": {
           "fr": "Texte, (5) : quel connecteur convient ?",
-          "en": "Text, gap (5): which connector fits?"
+          "en": "Text, gap (5): which connector fits?",
+          "hi": "पाठ, रिक्त स्थान (5): कौन-सा योजक सही बैठता है?"
         },
         "options": [
           "Par exemple",
@@ -683,7 +730,8 @@
       {
         "q": {
           "fr": "Texte, (6) : quel pronom relatif convient ?",
-          "en": "Text, gap (6): which relative pronoun fits?"
+          "en": "Text, gap (6): which relative pronoun fits?",
+          "hi": "पाठ, रिक्त स्थान (6): कौन-सा संबंधवाचक सर्वनाम सही बैठता है?"
         },
         "options": [
           "que",
@@ -725,19 +773,19 @@
         "fr": "depuis cinq ans",
         "en": "for five years (and still now)",
         "hi": "पाँच साल से",
-        "pron": "दö-प्üई सैँ काँ"
+        "pron": "द-प्यूई सैं काँ"
       },
       {
         "fr": "je lui ai apporté",
         "en": "I brought him/her",
         "hi": "मैं उसके लिए ले गया",
-        "pron": "झ़ö ल्üई ए आ-पॉग़-ते"
+        "pron": "ज ल्यूई ए आ-पॉर-ते"
       },
       {
         "fr": "afin de l'aider",
         "en": "in order to help him/her",
         "hi": "उसकी मदद करने के लिए",
-        "pron": "आ-फ़ैँ दö लै-दे"
+        "pron": "आ-फ़ैं द ले-दे"
       }
     ],
     "model": {
@@ -774,55 +822,55 @@
         "fr": "grâce à",
         "en": "thanks to",
         "hi": "… की बदौलत",
-        "pron": "ग्ग़ास आ"
+        "pron": "ग्रास आ"
       },
       {
         "fr": "à cause de",
         "en": "because of (negative)",
         "hi": "… की वजह से (बुरी बात)",
-        "pron": "आ कोज़ दö"
+        "pron": "आ कोज़ द"
       },
       {
         "fr": "en revanche",
         "en": "on the other hand",
         "hi": "दूसरी ओर",
-        "pron": "आँ ग़ö-वाँश"
+        "pron": "आँ र-वाँश"
       },
       {
         "fr": "de plus",
         "en": "moreover",
         "hi": "इसके अलावा",
-        "pron": "दö प्लüस"
+        "pron": "द प्ल्यूस"
       },
       {
         "fr": "la ville où j'habite",
         "en": "the city where I live",
         "hi": "वह शहर जहाँ मैं रहता हूँ",
-        "pron": "ला वील ऊ झ़ा-बीत"
+        "pron": "ला वी-लू जा-बीत"
       },
       {
         "fr": "ce dont j'ai besoin",
         "en": "what I need",
         "hi": "जिसकी मुझे ज़रूरत है",
-        "pron": "सö दोँ झ़े बö-ज़्वैँ"
+        "pron": "स दों जे ब-ज़्वैं"
       },
       {
         "fr": "je leur téléphone",
         "en": "I phone them",
         "hi": "मैं उन्हें फ़ोन करता हूँ",
-        "pron": "झ़ö लöग़ ते-ले-फ़ॉन"
+        "pron": "ज लर ते-ले-फ़ॉन"
       },
       {
         "fr": "pendant deux heures",
         "en": "for two hours",
         "hi": "दो घंटे तक",
-        "pron": "पाँ-दाँ दö ज़öग़"
+        "pron": "पाँ-दाँ द ज़र"
       },
       {
         "fr": "Vous ne pouvez prendre qu'un ticket.",
         "en": "You can only take one ticket.",
         "hi": "आप सिर्फ़ एक टिकट ले सकते हैं।",
-        "pron": "वू नö पू-वे प्राँद्ग़ कैँ ती-कै"
+        "pron": "वू न पू-वे प्राँद्र कैं ती-के"
       }
     ]
   },

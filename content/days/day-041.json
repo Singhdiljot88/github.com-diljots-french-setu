@@ -1,10 +1,10 @@
 {
   "day": 41,
   "phase": 3,
-  "title": { "fr": "Le week-end dernier : le passé composé avec avoir", "en": "Last weekend: the passé composé with avoir", "hi": "पिछला वीकेंड: avoir के साथ पासे कॉम्पोज़े (भूतकाल)" },
+  "title": { "fr": "Le week-end dernier : le passé composé avec avoir", "en": "Last weekend: the passé composé with avoir", "hi": "पिछला वीकेंड: avoir के साथ passé composé (पूर्ण भूतकाल) (भूतकाल)" },
   "objective": {
     "en": "Say what you did last weekend using the passé composé with avoir and regular past participles (-é, -i, -u), in positive, negative and question form.",
-    "hi": "avoir और नियमित भूत कृदंत (past participle: -é, -i, -u) वाले पासे कॉम्पोज़े से बताना कि आपने पिछले वीकेंड क्या किया — सकारात्मक, नकारात्मक और प्रश्न, तीनों रूपों में।"
+    "hi": "avoir और नियमित भूत कृदंत (past participle: -é, -i, -u) वाले passé composé से बताना कि आपने पिछले वीकेंड क्या किया — सकारात्मक, नकारात्मक और प्रश्न, तीनों रूपों में।"
   },
   "prerequisites": {
     "days": [5, 9, 10, 27, 31, 34, 37],
@@ -16,44 +16,44 @@
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "hier", "en": "yesterday", "hi": "कल (बीता हुआ)", "pron": "यैग़", "ipa": "jɛʁ", "pos": "adverb", "note": { "en": "Hindi कल means both yesterday and tomorrow; French separates them: hier (yesterday) and demain (tomorrow).", "hi": "हिंदी का 'कल' बीते और आने वाले दोनों दिनों के लिए है; फ़्रेंच में अलग-अलग शब्द हैं: hier (बीता कल) और demain (आने वाला कल)।" } },
-    { "fr": "le week-end dernier", "en": "last weekend", "hi": "पिछला वीकेंड", "pron": "लö वी-कैन्द दैग़-न्ये", "ipa": "lə wikɛnd dɛʁnje", "pos": "phrase", "note": { "en": "dernier comes after the noun here: samedi dernier, le mois dernier.", "hi": "यहाँ dernier संज्ञा के बाद आता है: samedi dernier (पिछला शनिवार), le mois dernier (पिछला महीना)।" } },
-    { "fr": "ce week-end", "en": "this weekend (just past or coming)", "hi": "इस वीकेंड", "pron": "सö वी-कैन्द", "ipa": "sə wikɛnd", "pos": "phrase", "note": { "en": "On a Monday, 'ce week-end' + past tense means the weekend that has just ended.", "hi": "सोमवार को 'ce week-end' + भूतकाल का मतलब है अभी-अभी बीता वीकेंड।" } },
+    { "fr": "hier", "en": "yesterday", "hi": "कल (बीता हुआ)", "pron": "येर", "ipa": "jɛʁ", "pos": "adverb", "note": { "en": "Hindi कल means both yesterday and tomorrow; French separates them: hier (yesterday) and demain (tomorrow).", "hi": "हिंदी का 'कल' बीते और आने वाले दोनों दिनों के लिए है; फ़्रेंच में अलग-अलग शब्द हैं: hier (बीता कल) और demain (आने वाला कल)।" } },
+    { "fr": "le week-end dernier", "en": "last weekend", "hi": "पिछला वीकेंड", "pron": "ल वी-केन्द देर-न्ये", "ipa": "lə wikɛnd dɛʁnje", "pos": "phrase", "note": { "en": "dernier comes after the noun here: samedi dernier, le mois dernier.", "hi": "यहाँ dernier संज्ञा के बाद आता है: samedi dernier (पिछला शनिवार), le mois dernier (पिछला महीना)।" } },
+    { "fr": "ce week-end", "en": "this weekend (just past or coming)", "hi": "इस वीकेंड", "pron": "स वी-केन्द", "ipa": "sə wikɛnd", "pos": "phrase", "note": { "en": "On a Monday, 'ce week-end' + past tense means the weekend that has just ended.", "hi": "सोमवार को 'ce week-end' + भूतकाल का मतलब है अभी-अभी बीता वीकेंड।" } },
     { "fr": "passer", "en": "to spend (time)", "hi": "(समय) बिताना", "pron": "पा-से", "ipa": "pase", "pos": "verb", "note": { "en": "J'ai passé un bon week-end = I had a good weekend.", "hi": "J'ai passé un bon week-end = मेरा वीकेंड अच्छा बीता।" } },
-    { "fr": "ranger", "en": "to tidy up, to put away", "hi": "सामान ठीक से रखना, सजाना-समेटना", "pron": "ग़ाँ-झ़े", "ipa": "ʁɑ̃ʒe", "pos": "verb" },
-    { "fr": "nettoyer", "en": "to clean", "hi": "साफ़ करना", "pron": "नै-त्वा-ये", "ipa": "netwaje", "pos": "verb" },
-    { "fr": "cuisiner", "en": "to cook", "hi": "खाना बनाना", "pron": "क्üई-ज़ी-ने", "ipa": "kɥizine", "pos": "verb" },
-    { "fr": "inviter", "en": "to invite", "hi": "बुलाना, न्योता देना", "pron": "ऐँ-वी-ते", "ipa": "ɛ̃vite", "pos": "verb" },
-    { "fr": "dormir", "en": "to sleep", "hi": "सोना", "pron": "दॉग़-मीग़", "ipa": "dɔʁmiʁ", "pos": "verb", "note": { "en": "The present is irregular (je dors), but the past participle is regular: j'ai dormi.", "hi": "इसका वर्तमान काल अनियमित है (je dors), पर भूत कृदंत नियमित है: j'ai dormi।" } },
-    { "fr": "perdre", "en": "to lose", "hi": "हारना / खो देना", "pron": "पैग़-द्ग़", "ipa": "pɛʁdʁ", "pos": "verb", "note": { "en": "A regular -re verb like attendre: j'ai perdu.", "hi": "attendre जैसी नियमित -re क्रिया: j'ai perdu।" } },
-    { "fr": "la soirée", "en": "the evening; an evening party", "hi": "शाम / शाम की पार्टी", "pron": "ला स्वा-ग़े", "ipa": "la swaʁe", "pos": "noun", "gender": "f", "lemma": "soirée" },
-    { "fr": "le match", "en": "the match, the game", "hi": "मैच", "pron": "लö माच", "ipa": "lə matʃ", "pos": "noun", "gender": "m", "lemma": "match" },
-    { "fr": "déjà", "en": "already; ever (in questions)", "hi": "पहले ही / कभी (प्रश्न में)", "pron": "दे-झ़ा", "ipa": "deʒa", "pos": "adverb", "note": { "en": "Tu as déjà mangé ? = Have you already eaten? In the passé composé, déjà goes between avoir and the participle.", "hi": "Tu as déjà mangé ? = क्या तुमने खा लिया? पासे कॉम्पोज़े में déjà, avoir और कृदंत के बीच आता है।" } }
+    { "fr": "ranger", "en": "to tidy up, to put away", "hi": "सामान ठीक से रखना, सजाना-समेटना", "pron": "राँ-जे", "ipa": "ʁɑ̃ʒe", "pos": "verb" },
+    { "fr": "nettoyer", "en": "to clean", "hi": "साफ़ करना", "pron": "ने-त्वा-ये", "ipa": "netwaje", "pos": "verb" },
+    { "fr": "cuisiner", "en": "to cook", "hi": "खाना बनाना", "pron": "क्यूई-ज़ी-ने", "ipa": "kɥizine", "pos": "verb" },
+    { "fr": "inviter", "en": "to invite", "hi": "बुलाना, न्योता देना", "pron": "ऐं-वी-ते", "ipa": "ɛ̃vite", "pos": "verb" },
+    { "fr": "dormir", "en": "to sleep", "hi": "सोना", "pron": "दॉर-मीर", "ipa": "dɔʁmiʁ", "pos": "verb", "note": { "en": "The present is irregular (je dors), but the past participle is regular: j'ai dormi.", "hi": "इसका वर्तमान काल अनियमित है (je dors), पर भूत कृदंत नियमित है: j'ai dormi।" } },
+    { "fr": "perdre", "en": "to lose", "hi": "हारना / खो देना", "pron": "पेरद्र", "ipa": "pɛʁdʁ", "pos": "verb", "note": { "en": "A regular -re verb like attendre: j'ai perdu.", "hi": "attendre जैसी नियमित -re क्रिया: j'ai perdu।" } },
+    { "fr": "la soirée", "en": "the evening; an evening party", "hi": "शाम / शाम की पार्टी", "pron": "ला स्वा-रे", "ipa": "la swaʁe", "pos": "noun", "gender": "f", "lemma": "soirée" },
+    { "fr": "le match", "en": "the match, the game", "hi": "मैच", "pron": "ल माच", "ipa": "lə matʃ", "pos": "noun", "gender": "m", "lemma": "match" },
+    { "fr": "déjà", "en": "already; ever (in questions)", "hi": "पहले ही / कभी (प्रश्न में)", "pron": "दे-जा", "ipa": "deʒa", "pos": "adverb", "note": { "en": "Tu as déjà mangé ? = Have you already eaten? In the passé composé, déjà goes between avoir and the participle.", "hi": "Tu as déjà mangé ? = क्या तुमने खा लिया? passé composé में déjà, avoir और कृदंत के बीच आता है।" } }
   ],
   "phrases": [
-    { "fr": "Tu as passé un bon week-end ?", "en": "Did you have a good weekend?", "hi": "तुम्हारा वीकेंड अच्छा बीता?", "pron": "तü आ पा-से ऐँ बोँ वी-कैन्द", "ipa": "ty a pase ɛ̃ bɔ̃ wikɛnd" },
-    { "fr": "Qu'est-ce que tu as fait ce week-end ?", "en": "What did you do this weekend?", "hi": "तुमने इस वीकेंड क्या किया?", "pron": "कैस-क तü आ फ़ै सö वी-कैन्द", "ipa": "kɛskə ty a fɛ sə wikɛnd", "note": { "en": "Learn it as a chunk. 'fait' is the irregular past participle of faire — you will meet all the irregular ones on Day 43.", "hi": "इसे एक टुकड़े की तरह याद कीजिए। 'fait' क्रिया faire का अनियमित भूत कृदंत है — सारे अनियमित रूप दिन 43 में आएँगे।" } },
-    { "fr": "J'ai regardé un film à la maison.", "en": "I watched a film at home.", "hi": "मैंने घर पर एक फ़िल्म देखी।", "pron": "झ़े ग़ö-गाग़-दे ऐँ फ़िल्म आ ला मै-ज़ोँ", "ipa": "ʒe ʁəɡaʁde ɛ̃ film a la mɛzɔ̃" },
-    { "fr": "On a mangé au restaurant.", "en": "We ate at a restaurant.", "hi": "हमने रेस्टोरेंट में खाना खाया।", "pron": "ओँ-ना माँ-झ़े ओ ग़ैस-तो-ग़ाँ", "ipa": "ɔ̃ na mɑ̃ʒe o ʁɛstoʁɑ̃", "note": { "en": "Liaison: on‿a sounds like ओँ-ना.", "hi": "लियाज़ों (liaison): on‿a की आवाज़ ओँ-ना जैसी होती है।" } },
-    { "fr": "Je n'ai pas travaillé.", "en": "I didn't work.", "hi": "मैंने काम नहीं किया।", "pron": "झ़ö नै पा त्रा-वा-ये", "ipa": "ʒə nɛ pa tʁavaje" },
-    { "fr": "Et toi ? C'était comment ?", "en": "And you? How was it?", "hi": "और तुम? कैसा रहा?", "pron": "ए त्वा से-तै को-माँ", "ipa": "e twa setɛ kɔmɑ̃", "note": { "en": "'C'était' is a fixed chunk here; the imparfait itself comes on Day 46.", "hi": "'C'était' को यहाँ एक तय टुकड़े की तरह सीखिए; इम्पारफ़े (imparfait) काल दिन 46 में आएगा।" } }
+    { "fr": "Tu as passé un bon week-end ?", "en": "Did you have a good weekend?", "hi": "तुम्हारा वीकेंड अच्छा बीता?", "pron": "त्यू आ पा-से ऐं बों वी-केन्द", "ipa": "ty a pase ɛ̃ bɔ̃ wikɛnd" },
+    { "fr": "Qu'est-ce que tu as fait ce week-end ?", "en": "What did you do this weekend?", "hi": "तुमने इस वीकेंड क्या किया?", "pron": "केस-क त्यू आ फ़े स वी-केन्द", "ipa": "kɛskə ty a fɛ sə wikɛnd", "note": { "en": "Learn it as a chunk. 'fait' is the irregular past participle of faire — you will meet all the irregular ones on Day 43.", "hi": "इसे एक टुकड़े की तरह याद कीजिए। 'fait' क्रिया faire का अनियमित भूत कृदंत है — सारे अनियमित रूप दिन 43 में आएँगे।" } },
+    { "fr": "J'ai regardé un film à la maison.", "en": "I watched a film at home.", "hi": "मैंने घर पर एक फ़िल्म देखी।", "pron": "जे र-गार-दे ऐं फ़िल्म आ ला मे-ज़ों", "ipa": "ʒe ʁəɡaʁde ɛ̃ film a la mɛzɔ̃" },
+    { "fr": "On a mangé au restaurant.", "en": "We ate at a restaurant.", "hi": "हमने रेस्टोरेंट में खाना खाया।", "pron": "ओं-ना माँ-जे ओ रेस-तो-राँ", "ipa": "ɔ̃ na mɑ̃ʒe o ʁɛstoʁɑ̃", "note": { "en": "Liaison: on‿a sounds like ओं-ना.", "hi": "लियाज़ों (liaison): on‿a की आवाज़ ओं-ना जैसी होती है।" } },
+    { "fr": "Je n'ai pas travaillé.", "en": "I didn't work.", "hi": "मैंने काम नहीं किया।", "pron": "ज ने पा त्रा-वा-ये", "ipa": "ʒə nɛ pa tʁavaje" },
+    { "fr": "Et toi ? C'était comment ?", "en": "And you? How was it?", "hi": "और तुम? कैसा रहा?", "pron": "ए त्वा से-ते को-माँ", "ipa": "e twa setɛ kɔmɑ̃", "note": { "en": "'C'était' is a fixed chunk here; the imparfait itself comes on Day 46.", "hi": "'C'était' को यहाँ एक तय टुकड़े की तरह सीखिए; imparfait (अपूर्ण भूतकाल) (imparfait) काल दिन 46 में आएगा।" } }
   ],
   "grammar": {
-    "title": { "en": "The passé composé with avoir", "hi": "avoir के साथ पासे कॉम्पोज़े (passé composé)" },
+    "title": { "en": "The passé composé with avoir", "hi": "avoir के साथ passé composé (passé composé)" },
     "explanation": {
       "en": "To talk about a finished action in the past, French uses the passé composé: the present of avoir + a past participle. Regular participles: -er verbs → -é (parler → parlé), -ir verbs like finir → -i (finir → fini, choisir → choisi), -re verbs → -u (attendre → attendu, vendre → vendu). So: j'ai parlé, tu as fini, il/elle/on a attendu, nous avons mangé, vous avez choisi, ils/elles ont vendu. Negation wraps around avoir: je n'ai pas mangé. Questions work as usual: Tu as mangé ? / Est-ce que vous avez fini ?",
-      "hi": "बीते समय में पूरे हो चुके काम के लिए फ़्रेंच में पासे कॉम्पोज़े (passé composé) इस्तेमाल होता है: avoir का वर्तमान रूप + भूत कृदंत (past participle)। नियमित कृदंत: -er क्रियाएँ → -é (parler → parlé), finir जैसी -ir क्रियाएँ → -i (finir → fini, choisir → choisi), -re क्रियाएँ → -u (attendre → attendu, vendre → vendu)। यानी: j'ai parlé, tu as fini, il/elle/on a attendu, nous avons mangé, vous avez choisi, ils/elles ont vendu। नकार (negation) avoir को घेरता है: je n'ai pas mangé। प्रश्न हमेशा की तरह बनते हैं: Tu as mangé ? / Est-ce que vous avez fini ?"
+      "hi": "बीते समय में पूरे हो चुके काम के लिए फ़्रेंच में passé composé (passé composé) इस्तेमाल होता है: avoir का वर्तमान रूप + भूत कृदंत (past participle)। नियमित कृदंत: -er क्रियाएँ → -é (parler → parlé), finir जैसी -ir क्रियाएँ → -i (finir → fini, choisir → choisi), -re क्रियाएँ → -u (attendre → attendu, vendre → vendu)। यानी: j'ai parlé, tu as fini, il/elle/on a attendu, nous avons mangé, vous avez choisi, ils/elles ont vendu। नकार (negation) avoir को घेरता है: je n'ai pas mangé। प्रश्न हमेशा की तरह बनते हैं: Tu as mangé ? / Est-ce que vous avez fini ?"
     },
     "comparison": {
       "en": "One French tense covers both English 'I ate' and 'I have eaten': j'ai mangé. Hindi is similar to French here: 'मैंने खाना खाया' is also built from a helper + a past form. But careful: in Hindi the verb often agrees with the object (मैंने रोटी खाई, मैंने चावल खाए). In French with avoir, the participle does not change for the subject or the object in these sentences: elle a mangé, ils ont mangé.",
       "hi": "फ़्रेंच का एक ही काल अंग्रेज़ी के 'I ate' और 'I have eaten' दोनों का काम करता है: j'ai mangé। यहाँ हिंदी फ़्रेंच से मिलती-जुलती है: 'मैंने खाना खाया' भी सहायक + भूतकालिक रूप से बनता है। पर ध्यान दीजिए: हिंदी में क्रिया अक्सर कर्म (object) के अनुसार बदलती है (मैंने रोटी खाई, मैंने चावल खाए)। फ़्रेंच में avoir के साथ, इन वाक्यों में कृदंत न कर्ता (subject) से बदलता है न कर्म से: elle a mangé, ils ont mangé।"
     },
     "examples": [
-      { "fr": "J'ai parlé avec mon frère hier.", "en": "I spoke with my brother yesterday.", "hi": "मैंने कल अपने भाई से बात की।", "pron": "झ़े पाग़-ले आ-वैक मोँ फ़्रैग़ यैग़" },
-      { "fr": "Nous avons fini le travail à six heures.", "en": "We finished work at six o'clock.", "hi": "हमने छह बजे काम ख़त्म किया।", "pron": "नू ज़ा-वोँ फ़ी-नी लö त्रा-वाय आ सी ज़öग़" },
-      { "fr": "Elle a attendu le bus vingt minutes.", "en": "She waited twenty minutes for the bus.", "hi": "उसने बीस मिनट बस का इंतज़ार किया।", "pron": "ऐ-ला आ-ताँ-दü लö बüस वैँ मी-नüत" },
-      { "fr": "Tu as choisi un film ?", "en": "Have you chosen a film?", "hi": "तुमने कोई फ़िल्म चुनी?", "pron": "तü आ श्वा-ज़ी ऐँ फ़िल्म" },
-      { "fr": "Ils n'ont pas répondu.", "en": "They didn't answer.", "hi": "उन्होंने जवाब नहीं दिया।", "pron": "ईल नोँ पा ग़े-पोँ-दü" }
+      { "fr": "J'ai parlé avec mon frère hier.", "en": "I spoke with my brother yesterday.", "hi": "मैंने कल अपने भाई से बात की।", "pron": "जे पार-ले आ-वेक मों फ़्रेर येर" },
+      { "fr": "Nous avons fini le travail à six heures.", "en": "We finished work at six o'clock.", "hi": "हमने छह बजे काम ख़त्म किया।", "pron": "नू ज़ा-वों फ़ी-नी ल त्रा-वाय आ सी ज़र" },
+      { "fr": "Elle a attendu le bus vingt minutes.", "en": "She waited twenty minutes for the bus.", "hi": "उसने बीस मिनट बस का इंतज़ार किया।", "pron": "ए-ला आ-ताँ-द्यू ल ब्यूस वैं मी-न्यूत" },
+      { "fr": "Tu as choisi un film ?", "en": "Have you chosen a film?", "hi": "तुमने कोई फ़िल्म चुनी?", "pron": "त्यू आ श्वा-ज़ी ऐं फ़िल्म" },
+      { "fr": "Ils n'ont pas répondu.", "en": "They didn't answer.", "hi": "उन्होंने जवाब नहीं दिया।", "pron": "ईल नों पा रे-पों-द्यू" }
     ],
     "pitfalls": [
       { "en": "Don't forget avoir: 'Je mangé' is wrong. Say 'J'ai mangé'.", "hi": "avoir मत भूलिए: 'Je mangé' ग़लत है। 'J'ai mangé' कहिए।" },
@@ -64,15 +64,15 @@
   "pronunciation": {
     "focus": "/e/ in j'ai parlé vs /ə/ in je parle",
     "tip": {
-      "en": "The present 'je parle' has a weak ö in je and nothing at the end. The past 'j'ai parlé' has a clear, smiling ए twice: in j'ai and at the end of parlé. Spread your lips for ए — this final sound is what tells the listener it is the past.",
-      "hi": "वर्तमान 'je parle' में je का हल्का ö है और आख़िर में कोई स्वर नहीं। भूतकाल 'j'ai parlé' में दो बार साफ़, मुस्कुराता हुआ ए है: j'ai में और parlé के अंत में। ए के लिए होंठ फैलाइए — यही आख़िरी आवाज़ सुनने वाले को बताती है कि बात बीते समय की है।"
+      "en": "The present 'je parle' has a weak अ in je and nothing at the end. The past 'j'ai parlé' has a clear, smiling ए twice: in j'ai and at the end of parlé. Spread your lips for ए — this final sound is what tells the listener it is the past.",
+      "hi": "वर्तमान 'je parle' में je का हल्का अ है और आख़िर में कोई स्वर नहीं। भूतकाल 'j'ai parlé' में दो बार साफ़, मुस्कुराता हुआ ए है: j'ai में और parlé के अंत में। ए के लिए होंठ फैलाइए — यही आख़िरी आवाज़ सुनने वाले को बताती है कि बात बीते समय की है।"
     },
     "words": [
-      { "fr": "je parle", "en": "I speak", "hi": "मैं बोलता/बोलती हूँ", "pron": "झ़ö पाग़ल", "ipa": "ʒə paʁl" },
-      { "fr": "j'ai parlé", "en": "I spoke / I have spoken", "hi": "मैंने बात की", "pron": "झ़े पाग़-ले", "ipa": "ʒe paʁle" },
-      { "fr": "je regarde", "en": "I watch", "hi": "मैं देखता/देखती हूँ", "pron": "झ़ö ग़ö-गाग़द", "ipa": "ʒə ʁəɡaʁd" },
-      { "fr": "j'ai regardé", "en": "I watched", "hi": "मैंने देखा", "pron": "झ़े ग़ö-गाग़-दे", "ipa": "ʒe ʁəɡaʁde" },
-      { "fr": "nous avons dîné", "en": "we had dinner", "hi": "हमने रात का खाना खाया", "pron": "नू ज़ा-वोँ दी-ने", "ipa": "nu zavɔ̃ dine" }
+      { "fr": "je parle", "en": "I speak", "hi": "मैं बोलता/बोलती हूँ", "pron": "ज पार्ल", "ipa": "ʒə paʁl" },
+      { "fr": "j'ai parlé", "en": "I spoke / I have spoken", "hi": "मैंने बात की", "pron": "जे पार-ले", "ipa": "ʒe paʁle" },
+      { "fr": "je regarde", "en": "I watch", "hi": "मैं देखता/देखती हूँ", "pron": "ज र-गारद", "ipa": "ʒə ʁəɡaʁd" },
+      { "fr": "j'ai regardé", "en": "I watched", "hi": "मैंने देखा", "pron": "जे र-गार-दे", "ipa": "ʒe ʁəɡaʁde" },
+      { "fr": "nous avons dîné", "en": "we had dinner", "hi": "हमने रात का खाना खाया", "pron": "नू ज़ा-वों दी-ने", "ipa": "nu zavɔ̃ dine" }
     ]
   },
   "listening": {
@@ -95,11 +95,11 @@
       { "speaker": "Arjun", "voice": "m1", "fr": "Un vrai week-end de repos ! Bon, au travail maintenant.", "en": "A real weekend of rest! Right, back to work now.", "hi": "सच में आराम वाला वीकेंड! चलो, अब काम पर।" }
     ],
     "questions": [
-      { "q": { "en": "What did Arjun do on Saturday?" }, "options": ["He watched three films", "He tidied his flat and cleaned the kitchen", "He bought a winter coat", "He had dinner at his sister's"], "answer": 1, "explanation": { "en": "Arjun says he tidied his flat and cleaned the kitchen on Saturday.", "hi": "अर्जुन कहता है कि शनिवार को उसने फ़्लैट ठीक किया और रसोई साफ़ की।" }, "kind": "literal", "evidence": "Samedi, j'ai rangé mon appartement et j'ai nettoyé la cuisine." },
-      { "q": { "en": "What happened in the hockey game?" }, "options": ["Montréal won", "They didn't watch it", "Montréal lost"], "answer": 2, "explanation": { "en": "'Montréal a perdu' — perdu is the past participle of perdre (to lose).", "hi": "'Montréal a perdu' — perdu, perdre (हारना) का भूत कृदंत है।" }, "kind": "literal", "evidence": "Oui, mais Montréal a perdu." },
-      { "q": { "en": "What colour is Sophie's new coat?" }, "options": ["Red", "Black", "Grey"], "answer": 0, "explanation": { "en": "She says she chose a red coat: 'un manteau rouge'.", "hi": "वह कहती है कि उसने लाल कोट चुना: 'un manteau rouge'।" }, "kind": "literal", "evidence": "J'ai choisi un manteau rouge." },
-      { "q": { "en": "Where did Sophie eat on Saturday evening?" }, "options": ["At a restaurant", "At home", "At Arjun's", "At her sister's home"], "answer": 3, "explanation": { "en": "'chez ma sœur' = at my sister's place.", "hi": "'chez ma sœur' = मेरी बहन के घर।" }, "kind": "literal", "evidence": "j'ai dîné chez ma sœur" },
-      { "q": { "en": "How would you describe Sophie's Sunday?" }, "options": ["Busy with housework", "Quiet and restful", "Spent at the office"], "answer": 1, "explanation": { "en": "She didn't work or cook and watched films at home; Arjun calls it 'a real weekend of rest'.", "hi": "उसने न काम किया न खाना बनाया, घर पर फ़िल्में देखीं; अर्जुन इसे 'सच में आराम वाला वीकेंड' कहता है।" }, "kind": "inference", "evidence": "Dimanche, je n'ai pas travaillé et je n'ai pas cuisiné." }
+      { "q": { "en": "What did Arjun do on Saturday?", "hi": "Arjun ने शनिवार को क्या किया?" }, "options": ["He watched three films", "He tidied his flat and cleaned the kitchen", "He bought a winter coat", "He had dinner at his sister's"], "optionsHi": ["उसने तीन फ़िल्में देखीं", "उसने अपना फ़्लैट साफ़ किया और रसोई की सफ़ाई की", "उसने सर्दियों का कोट ख़रीदा", "उसने अपनी बहन के यहाँ रात का खाना खाया"], "answer": 1, "explanation": { "en": "Arjun says he tidied his flat and cleaned the kitchen on Saturday.", "hi": "अर्जुन कहता है कि शनिवार को उसने फ़्लैट ठीक किया और रसोई साफ़ की।" }, "kind": "literal", "evidence": "Samedi, j'ai rangé mon appartement et j'ai nettoyé la cuisine." },
+      { "q": { "en": "What happened in the hockey game?", "hi": "हॉकी के खेल में क्या हुआ?" }, "options": ["Montréal won", "They didn't watch it", "Montréal lost"], "optionsHi": ["Montréal जीत गया", "उन्होंने उसे नहीं देखा", "Montréal हार गया"], "answer": 2, "explanation": { "en": "'Montréal a perdu' — perdu is the past participle of perdre (to lose).", "hi": "'Montréal a perdu' — perdu, perdre (हारना) का भूत कृदंत है।" }, "kind": "literal", "evidence": "Oui, mais Montréal a perdu." },
+      { "q": { "en": "What colour is Sophie's new coat?", "hi": "Sophie का नया कोट किस रंग का है?" }, "options": ["Red", "Black", "Grey"], "optionsHi": ["लाल", "काला", "स्लेटी"], "answer": 0, "explanation": { "en": "She says she chose a red coat: 'un manteau rouge'.", "hi": "वह कहती है कि उसने लाल कोट चुना: 'un manteau rouge'।" }, "kind": "literal", "evidence": "J'ai choisi un manteau rouge." },
+      { "q": { "en": "Where did Sophie eat on Saturday evening?", "hi": "Sophie ने शनिवार की शाम को कहाँ खाना खाया?" }, "options": ["At a restaurant", "At home", "At Arjun's", "At her sister's home"], "optionsHi": ["रेस्तराँ में", "घर पर", "Arjun के यहाँ", "अपनी बहन के घर पर"], "answer": 3, "explanation": { "en": "'chez ma sœur' = at my sister's place.", "hi": "'chez ma sœur' = मेरी बहन के घर।" }, "kind": "literal", "evidence": "j'ai dîné chez ma sœur" },
+      { "q": { "en": "How would you describe Sophie's Sunday?", "hi": "आप Sophie के रविवार का वर्णन कैसे करेंगे?" }, "options": ["Busy with housework", "Quiet and restful", "Spent at the office"], "optionsHi": ["घर के कामों में व्यस्त", "शांत और आराम भरा", "दफ़्तर में बीता"], "answer": 1, "explanation": { "en": "She didn't work or cook and watched films at home; Arjun calls it 'a real weekend of rest'.", "hi": "उसने न काम किया न खाना बनाया, घर पर फ़िल्में देखीं; अर्जुन इसे 'सच में आराम वाला वीकेंड' कहता है।" }, "kind": "inference", "evidence": "Dimanche, je n'ai pas travaillé et je n'ai pas cuisiné." }
     ],
     "dictation": ["J'ai rangé mon appartement.", "Nous avons mangé ensemble.", "Je n'ai pas travaillé."],
     "gapFill": { "text": "Samedi, j'___ rangé mon appartement et j'ai ___ la cuisine. Mais Montréal a ___.", "answers": ["ai", "nettoyé", "perdu"] }
@@ -111,15 +111,15 @@
       "hi": "अपने पिछले वीकेंड के बारे में हर प्रश्न का जवाब एक-दो पूरे वाक्यों में दीजिए। j'ai + कृदंत इस्तेमाल कीजिए। फिर अपने वीकेंड का 45 सेकंड का सारांश रिकॉर्ड कीजिए: शनिवार, रविवार, और एक काम जो आपने नहीं किया।"
     },
     "prompts": [
-      { "fr": "Tu as passé un bon week-end ?", "en": "Did you have a good weekend?", "hi": "तुम्हारा वीकेंड अच्छा बीता?", "pron": "तü आ पा-से ऐँ बोँ वी-कैन्द", "model": "Oui, j'ai passé un très bon week-end, merci." },
-      { "fr": "Qu'est-ce que tu as fait samedi ?", "en": "What did you do on Saturday?", "hi": "तुमने शनिवार को क्या किया?", "pron": "कैस-क तü आ फ़ै साम-दी", "model": "Samedi, j'ai rangé ma chambre et j'ai cuisiné pour ma famille." },
-      { "fr": "Tu as invité des amis ?", "en": "Did you invite any friends?", "hi": "तुमने दोस्तों को बुलाया?", "pron": "तü आ ऐँ-वी-ते दे ज़ा-मी", "model": "Oui, j'ai invité deux amis et nous avons regardé un film." },
-      { "fr": "Qu'est-ce que tu n'as pas fait ?", "en": "What didn't you do?", "hi": "तुमने क्या नहीं किया?", "pron": "कैस-क तü ना पा फ़ै", "model": "Je n'ai pas travaillé et je n'ai pas étudié." },
-      { "fr": "Dimanche, tu as bien dormi ?", "en": "Did you sleep well on Sunday?", "hi": "रविवार को तुम ठीक से सोए?", "pron": "दी-माँश तü आ ब्यैँ दॉग़-मी", "model": "Oui, dimanche, j'ai dormi jusqu'à dix heures !" }
+      { "fr": "Tu as passé un bon week-end ?", "en": "Did you have a good weekend?", "hi": "तुम्हारा वीकेंड अच्छा बीता?", "pron": "त्यू आ पा-से ऐं बों वी-केन्द", "model": "Oui, j'ai passé un très bon week-end, merci." },
+      { "fr": "Qu'est-ce que tu as fait samedi ?", "en": "What did you do on Saturday?", "hi": "तुमने शनिवार को क्या किया?", "pron": "केस-क त्यू आ फ़े साम-दी", "model": "Samedi, j'ai rangé ma chambre et j'ai cuisiné pour ma famille." },
+      { "fr": "Tu as invité des amis ?", "en": "Did you invite any friends?", "hi": "तुमने दोस्तों को बुलाया?", "pron": "त्यू आ ऐं-वी-ते दे ज़ा-मी", "model": "Oui, j'ai invité deux amis et nous avons regardé un film." },
+      { "fr": "Qu'est-ce que tu n'as pas fait ?", "en": "What didn't you do?", "hi": "तुमने क्या नहीं किया?", "pron": "केस-क त्यू ना पा फ़े", "model": "Je n'ai pas travaillé et je n'ai pas étudié." },
+      { "fr": "Dimanche, tu as bien dormi ?", "en": "Did you sleep well on Sunday?", "hi": "रविवार को तुम ठीक से सोए?", "pron": "दी-माँश त्यू आ ब्यैं दॉर-मी", "model": "Oui, dimanche, j'ai dormi jusqu'à dix heures !" }
     ],
     "tip": {
-      "en": "Make the final -é of each participle clear and smiling (ए). If it sounds like ö, your listener will hear the present tense.",
-      "hi": "हर कृदंत के अंत का -é साफ़ और मुस्कुराता हुआ (ए) बोलिए। अगर यह ö जैसा लगेगा, तो सुनने वाले को वर्तमान काल सुनाई देगा।"
+      "en": "Make the final -é of each participle clear and smiling (ए). If it sounds like अ, your listener will hear the present tense.",
+      "hi": "हर कृदंत के अंत का -é साफ़ और मुस्कुराता हुआ (ए) बोलिए। अगर यह अ जैसा लगेगा, तो सुनने वाले को वर्तमान काल सुनाई देगा।"
     }
   },
   "reading": {
@@ -131,11 +131,11 @@
       "hi": "सबको नमस्ते! इस वीकेंड मैं कहीं घूमने नहीं गई।\n\nशनिवार सुबह मैं दस बजे तक सोई। फिर मैंने अपना कमरा ठीक किया और बाथरूम साफ़ किया। दोपहर बारह बजे मैंने जयपुर में अपनी माँ को फ़ोन किया और हमने एक घंटा बात की! दोपहर बाद बर्फ़ गिरी, तो मैंने घर पर एक सीरीज़ देखी।\n\nशनिवार शाम मैंने अपनी सहेलियों लैला और क्लोए को बुलाया। मैंने दाल-चावल बनाए, और क्लोए चॉकलेट केक लाई। हमने खाना खाया, संगीत सुना और ख़ूब बातें कीं।\n\nरविवार को मैंने बर्फ़ में बीस मिनट बस का इंतज़ार किया! बाज़ार में मैंने सब्ज़ियाँ चुनीं और थोड़ा चीज़ (पनीर जैसा) ख़रीदा। शाम को मैंने अपना फ़्रेंच का गृहकार्य पूरा किया। मैंने ज़्यादा पैसे ख़र्च नहीं किए: एक सादा, पर बहुत सुहाना वीकेंड।\n\nऔर आप, आपने इस वीकेंड क्या किया?"
     },
     "questions": [
-      { "q": { "en": "What did Meera do at noon on Saturday?" }, "options": ["She cleaned the bathroom", "She phoned her mother", "She went to the market", "She watched a series"], "answer": 1, "explanation": { "en": "At noon she phoned her mother in Jaipur.", "hi": "दोपहर बारह बजे उसने जयपुर में अपनी माँ को फ़ोन किया।" }, "kind": "literal", "evidence": "À midi, j'ai téléphoné à ma mère à Jaipur" },
-      { "q": { "en": "Why did Meera stay in and watch a series on Saturday afternoon?" }, "options": ["Because it snowed", "Because she was sick", "Because her friends were late"], "answer": 0, "explanation": { "en": "'il a neigé, alors…' — it snowed, so she stayed home.", "hi": "'il a neigé, alors…' — बर्फ़ गिरी, इसलिए वह घर पर रही।" }, "kind": "inference", "evidence": "il a neigé, alors j'ai regardé une série à la maison" },
-      { "q": { "en": "Who brought the dessert?" }, "options": ["Meera", "Leila", "Chloé"], "answer": 2, "explanation": { "en": "Chloé brought a chocolate cake.", "hi": "क्लोए चॉकलेट केक लाई।" }, "kind": "literal", "evidence": "Chloé a apporté un gâteau au chocolat" },
-      { "q": { "en": "Did Meera spend a lot of money this weekend?" }, "options": ["Yes, at the market", "No, not much", "Yes, on a trip"], "answer": 1, "explanation": { "en": "She says she didn't spend much money.", "hi": "वह कहती है कि उसने ज़्यादा पैसे ख़र्च नहीं किए।" }, "kind": "literal", "evidence": "Je n'ai pas dépensé beaucoup d'argent" },
-      { "q": { "en": "What is the general tone of the post?" }, "options": ["She is bored and unhappy", "She is happy with a calm, simple weekend", "She complains about the snow all weekend"], "answer": 1, "explanation": { "en": "She ends by calling it a simple but very pleasant weekend.", "hi": "वह अंत में इसे सादा पर बहुत सुहाना वीकेंड कहती है।" }, "kind": "gist", "evidence": "un week-end simple, mais très agréable" }
+      { "q": { "en": "What did Meera do at noon on Saturday?", "hi": "Meera ने शनिवार को दोपहर के समय क्या किया?" }, "options": ["She cleaned the bathroom", "She phoned her mother", "She went to the market", "She watched a series"], "optionsHi": ["उसने बाथरूम साफ़ किया", "उसने अपनी माँ को फ़ोन किया", "वह बाज़ार गई", "उसने एक सीरीज़ देखी"], "answer": 1, "explanation": { "en": "At noon she phoned her mother in Jaipur.", "hi": "दोपहर बारह बजे उसने जयपुर में अपनी माँ को फ़ोन किया।" }, "kind": "literal", "evidence": "À midi, j'ai téléphoné à ma mère à Jaipur" },
+      { "q": { "en": "Why did Meera stay in and watch a series on Saturday afternoon?", "hi": "Meera शनिवार की दोपहर घर पर क्यों रुकी और सीरीज़ क्यों देखी?" }, "options": ["Because it snowed", "Because she was sick", "Because her friends were late"], "optionsHi": ["क्योंकि बर्फ़ गिर रही थी", "क्योंकि वह बीमार थी", "क्योंकि उसके दोस्तों को देर हो गई थी"], "answer": 0, "explanation": { "en": "'il a neigé, alors…' — it snowed, so she stayed home.", "hi": "'il a neigé, alors…' — बर्फ़ गिरी, इसलिए वह घर पर रही।" }, "kind": "inference", "evidence": "il a neigé, alors j'ai regardé une série à la maison" },
+      { "q": { "en": "Who brought the dessert?", "hi": "मिठाई कौन लाया/लाई?" }, "options": ["Meera", "Leila", "Chloé"], "answer": 2, "explanation": { "en": "Chloé brought a chocolate cake.", "hi": "क्लोए चॉकलेट केक लाई।" }, "kind": "literal", "evidence": "Chloé a apporté un gâteau au chocolat" },
+      { "q": { "en": "Did Meera spend a lot of money this weekend?", "hi": "क्या Meera ने इस सप्ताहांत में बहुत पैसे ख़र्च किए?" }, "options": ["Yes, at the market", "No, not much", "Yes, on a trip"], "optionsHi": ["हाँ, बाज़ार में", "नहीं, ज़्यादा नहीं", "हाँ, यात्रा पर"], "answer": 1, "explanation": { "en": "She says she didn't spend much money.", "hi": "वह कहती है कि उसने ज़्यादा पैसे ख़र्च नहीं किए।" }, "kind": "literal", "evidence": "Je n'ai pas dépensé beaucoup d'argent" },
+      { "q": { "en": "What is the general tone of the post?", "hi": "इस पोस्ट का सामान्य भाव क्या है?" }, "options": ["She is bored and unhappy", "She is happy with a calm, simple weekend", "She complains about the snow all weekend"], "optionsHi": ["वह ऊबी हुई और दुखी है", "वह एक शांत, सादे सप्ताहांत से ख़ुश है", "वह पूरे सप्ताहांत बर्फ़ की शिकायत करती है"], "answer": 1, "explanation": { "en": "She ends by calling it a simple but very pleasant weekend.", "hi": "वह अंत में इसे सादा पर बहुत सुहाना वीकेंड कहती है।" }, "kind": "gist", "evidence": "un week-end simple, mais très agréable" }
     ]
   },
   "writing": {
@@ -148,15 +148,15 @@
     "minWords": 45,
     "maxWords": 90,
     "hints": [
-      { "en": "Use at least five different verbs in the passé composé: -é, -i and -u participles.", "hi": "पासे कॉम्पोज़े में कम से कम पाँच अलग क्रियाएँ इस्तेमाल कीजिए: -é, -i और -u वाले कृदंत।" },
+      { "en": "Use at least five different verbs in the passé composé: -é, -i and -u participles.", "hi": "passé composé में कम से कम पाँच अलग क्रियाएँ इस्तेमाल कीजिए: -é, -i और -u वाले कृदंत।" },
       { "en": "Start sentences with time markers: Samedi matin, L'après-midi, Dimanche soir.", "hi": "वाक्य समय बताने वाले शब्दों से शुरू कीजिए: Samedi matin, L'après-midi, Dimanche soir।" },
       { "en": "Add one negative sentence: Je n'ai pas …", "hi": "एक नकारात्मक वाक्य जोड़िए: Je n'ai pas …" }
     ],
     "usefulPhrases": [
-      { "fr": "Samedi matin, j'ai …", "en": "On Saturday morning I …", "hi": "शनिवार सुबह मैंने …", "pron": "साम-दी मा-तैँ झ़े" },
-      { "fr": "Ensuite, nous avons …", "en": "Then we …", "hi": "फिर हमने …", "pron": "आँ-स्üइत नू ज़ा-वोँ" },
-      { "fr": "Je n'ai pas …", "en": "I didn't …", "hi": "मैंने … नहीं किया", "pron": "झ़ö नै पा" },
-      { "fr": "C'était un bon week-end.", "en": "It was a good weekend.", "hi": "वीकेंड अच्छा रहा।", "pron": "से-तै ऐँ बोँ वी-कैन्द" }
+      { "fr": "Samedi matin, j'ai …", "en": "On Saturday morning I …", "hi": "शनिवार सुबह मैंने …", "pron": "साम-दी मा-तैं जे" },
+      { "fr": "Ensuite, nous avons …", "en": "Then we …", "hi": "फिर हमने …", "pron": "आँ-स्यूइत नू ज़ा-वों" },
+      { "fr": "Je n'ai pas …", "en": "I didn't …", "hi": "मैंने … नहीं किया", "pron": "ज ने पा" },
+      { "fr": "C'était un bon week-end.", "en": "It was a good weekend.", "hi": "वीकेंड अच्छा रहा।", "pron": "से-ते ऐं बों वी-केन्द" }
     ],
     "model": {
       "fr": "Le week-end dernier, j'ai passé deux jours tranquilles à Toronto. Samedi matin, j'ai nettoyé mon appartement et j'ai acheté des légumes au marché. Le soir, j'ai invité mon cousin et j'ai cuisiné un curry. Nous avons mangé et nous avons regardé un match de cricket. Dimanche, j'ai dormi jusqu'à neuf heures et j'ai fini un livre. Je n'ai pas travaillé. C'était un bon week-end !",
@@ -171,17 +171,17 @@
   "review": {
     "fromDays": [27, 31, 34, 37, 39],
     "items": [
-      { "fr": "Je me lève à sept heures.", "en": "I get up at seven.", "hi": "मैं सात बजे उठता/उठती हूँ।", "pron": "झ़ö मö लैव आ सै त्öग़" },
-      { "fr": "Je finis le travail à cinq heures.", "en": "I finish work at five.", "hi": "मैं पाँच बजे काम ख़त्म करता/करती हूँ।", "pron": "झ़ö फ़ी-नी लö त्रा-वाय आ सैँ क्öग़" },
-      { "fr": "J'attends le bus.", "en": "I'm waiting for the bus.", "hi": "मैं बस का इंतज़ार कर रहा/रही हूँ।", "pron": "झ़ा-ताँ लö बüस" },
-      { "fr": "Je fais souvent du sport le week-end.", "en": "I often do sport at the weekend.", "hi": "मैं वीकेंड पर अक्सर खेल-कूद करता/करती हूँ।", "pron": "झ़ö फ़ै सू-वाँ दü स्पॉग़ लö वी-कैन्द" },
-      { "fr": "Je vais inviter mes amis.", "en": "I'm going to invite my friends.", "hi": "मैं अपने दोस्तों को बुलाने वाला/वाली हूँ।", "pron": "झ़ö वै ज़ैँ-वी-ते मे ज़ा-मी" },
-      { "fr": "d'abord, ensuite", "en": "first, then", "hi": "पहले, फिर", "pron": "दा-बॉग़ आँ-स्üइत" },
-      { "fr": "Cordialement,", "en": "Kind regards,", "hi": "सादर,", "pron": "कॉग़-द्या-ल-माँ" }
+      { "fr": "Je me lève à sept heures.", "en": "I get up at seven.", "hi": "मैं सात बजे उठता/उठती हूँ।", "pron": "ज म लेव आ से तर" },
+      { "fr": "Je finis le travail à cinq heures.", "en": "I finish work at five.", "hi": "मैं पाँच बजे काम ख़त्म करता/करती हूँ।", "pron": "ज फ़ी-नी ल त्रा-वाय आ सैं-कर" },
+      { "fr": "J'attends le bus.", "en": "I'm waiting for the bus.", "hi": "मैं बस का इंतज़ार कर रहा/रही हूँ।", "pron": "जा-ताँ ल ब्यूस" },
+      { "fr": "Je fais souvent du sport le week-end.", "en": "I often do sport at the weekend.", "hi": "मैं वीकेंड पर अक्सर खेल-कूद करता/करती हूँ।", "pron": "ज फ़े सू-वाँ द्यू स्पॉर ल वी-केन्द" },
+      { "fr": "Je vais inviter mes amis.", "en": "I'm going to invite my friends.", "hi": "मैं अपने दोस्तों को बुलाने वाला/वाली हूँ।", "pron": "ज वे ज़ैं-वी-ते मे ज़ा-मी" },
+      { "fr": "d'abord, ensuite", "en": "first, then", "hi": "पहले, फिर", "pron": "दा-बॉर आँ-स्यूइत" },
+      { "fr": "Cordialement,", "en": "Kind regards,", "hi": "सादर,", "pron": "कॉर-द्याल-माँ" }
     ]
   },
   "assessment": [
-    { "type": "mcq", "prompt": { "en": "Choose the correct passé composé of 'nous / finir'.", "hi": "'nous / finir' का सही पासे कॉम्पोज़े चुनिए।" }, "options": ["nous avons finé", "nous avons fini", "nous sommes fini", "nous finissons"], "answer": 1, "explanation": { "en": "finir → fini (-ir verbs take -i), with avoir: nous avons fini.", "hi": "finir → fini (-ir क्रियाओं में -i), avoir के साथ: nous avons fini।" } },
+    { "type": "mcq", "prompt": { "en": "Choose the correct passé composé of 'nous / finir'.", "hi": "'nous / finir' का सही passé composé चुनिए।" }, "options": ["nous avons finé", "nous avons fini", "nous sommes fini", "nous finissons"], "answer": 1, "explanation": { "en": "finir → fini (-ir verbs take -i), with avoir: nous avons fini.", "hi": "finir → fini (-ir क्रियाओं में -i), avoir के साथ: nous avons fini।" } },
     { "type": "fill", "prompt": { "en": "Complete with the past participle of attendre.", "hi": "attendre के भूत कृदंत से पूरा कीजिए।" }, "sentence": "J'ai ___ le bus vingt minutes.", "answer": "attendu", "accept": [], "explanation": { "en": "-re verbs → -u: attendre → attendu.", "hi": "-re क्रियाएँ → -u: attendre → attendu।" } },
     { "type": "mcq", "prompt": { "en": "Which negative sentence is correct?", "hi": "कौन-सा नकारात्मक वाक्य सही है?" }, "options": ["J'ai ne pas mangé.", "Je n'ai mangé pas.", "Je n'ai pas mangé.", "Je ne mangé pas."], "answer": 2, "explanation": { "en": "ne … pas goes around avoir: je n'ai pas mangé.", "hi": "ne … pas, avoir को घेरता है: je n'ai pas mangé।" } },
     { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "Yesterday I cooked for my friends.", "hi": "कल मैंने अपने दोस्तों के लिए खाना बनाया।" }, "answer": "Hier, j'ai cuisiné pour mes amis.", "accept": ["Hier j'ai cuisiné pour mes amis.", "J'ai cuisiné pour mes amis hier.", "Hier, j'ai cuisiné pour mes amies.", "Hier, j'ai cuisiné pour mes amis"], "explanation": { "en": "hier + j'ai + cuisiné; 'pour mes amis' = for my friends.", "hi": "hier + j'ai + cuisiné; 'pour mes amis' = मेरे दोस्तों के लिए।" } },

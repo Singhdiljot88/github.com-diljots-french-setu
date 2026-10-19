@@ -32,7 +32,7 @@
       "fr": "le courrier des lecteurs",
       "en": "letters to the editor (section)",
       "hi": "पाठकों के पत्र (स्तंभ)",
-      "pron": "लö कू-ग़्ये दे लैक-तöग़",
+      "pron": "ल कू-र्ये दे लेक-तर",
       "ipa": "lə kuʁje de lɛktœʁ",
       "pos": "noun",
       "gender": "m",
@@ -42,7 +42,7 @@
       "fr": "le rédacteur en chef / la rédactrice en chef",
       "en": "editor-in-chief",
       "hi": "मुख्य संपादक / संपादिका",
-      "pron": "लö ग़े-दाक-तöग़ आँ शैफ़",
+      "pron": "ल रे-दाक-तर आँ शेफ़",
       "ipa": "lə ʁedaktœʁ ɑ̃ ʃɛf",
       "pos": "noun",
       "gender": "mf",
@@ -52,7 +52,7 @@
       "fr": "réagir à",
       "en": "to react to",
       "hi": "… पर प्रतिक्रिया देना",
-      "pron": "ग़े-आ-झ़ीग़ आ",
+      "pron": "रे-आ-जीर आ",
       "ipa": "ʁeaʒiʁ a",
       "pos": "verb"
     },
@@ -60,7 +60,7 @@
       "fr": "l'affirmation",
       "en": "statement, claim",
       "hi": "दावा / कथन",
-      "pron": "ला-फ़ीग़-मा-स्योँ",
+      "pron": "ला-फ़ीर-मा-स्यों",
       "ipa": "lafiʁmasjɔ̃",
       "pos": "noun",
       "gender": "f",
@@ -70,7 +70,7 @@
       "fr": "partager un avis",
       "en": "to share an opinion",
       "hi": "किसी राय से सहमत होना",
-      "pron": "पाग़-ता-झ़े ऐँ ना-वी",
+      "pron": "पार-ता-जे ऐं ना-वी",
       "ipa": "paʁtaʒe ɛ̃n‿avi",
       "pos": "phrase"
     },
@@ -86,7 +86,7 @@
       "fr": "en tant que",
       "en": "as (in the role of)",
       "hi": "… के तौर पर",
-      "pron": "आँ ताँ कö",
+      "pron": "आँ ताँ क",
       "ipa": "ɑ̃ tɑ̃ kə",
       "pos": "phrase",
       "note": {
@@ -98,7 +98,7 @@
       "fr": "il me semble que",
       "en": "it seems to me that",
       "hi": "मुझे लगता है कि",
-      "pron": "इल मö साँब्ल कö",
+      "pron": "इल म साँब्ल क",
       "ipa": "il mə sɑ̃bl kə",
       "pos": "phrase"
     },
@@ -106,7 +106,7 @@
       "fr": "par exemple",
       "en": "for example",
       "hi": "उदाहरण के लिए",
-      "pron": "पा ग़ैग-ज़ाँप्ल",
+      "pron": "पार एग-ज़ाँप्ल",
       "ipa": "paʁ‿ɛɡzɑ̃pl",
       "pos": "phrase"
     },
@@ -114,7 +114,7 @@
       "fr": "en effet",
       "en": "indeed (explains)",
       "hi": "दरअसल",
-      "pron": "आँ ने-फ़ै",
+      "pron": "आँ ने-फ़े",
       "ipa": "ɑ̃n‿efɛ",
       "pos": "adverb"
     },
@@ -122,7 +122,7 @@
       "fr": "en conclusion",
       "en": "in conclusion",
       "hi": "निष्कर्ष में",
-      "pron": "आँ कोँ-क्ल्ü-ज़्योँ",
+      "pron": "आँ कों-क्ल्यू-ज़्यों",
       "ipa": "ɑ̃ kɔ̃klyzjɔ̃",
       "pos": "phrase"
     },
@@ -130,7 +130,7 @@
       "fr": "les salutations distinguées",
       "en": "best regards (formal closing)",
       "hi": "सादर अभिवादन (औपचारिक समापन)",
-      "pron": "ले सा-लü-ता-स्योँ दिस-तैँ-गे",
+      "pron": "ले सा-ल्यू-ता-स्यों दिस-तैं-गे",
       "ipa": "le salytasjɔ̃ distɛ̃ɡe",
       "pos": "noun",
       "gender": "f",
@@ -140,7 +140,7 @@
       "fr": "l'outil de traduction",
       "en": "translation tool",
       "hi": "अनुवाद का औज़ार / ऐप",
-      "pron": "लू-ती दö त्ग़ा-द्üक-स्योँ",
+      "pron": "लू-ती द त्रा-द्यूक-स्यों",
       "ipa": "luti də tʁadyksjɔ̃",
       "pos": "noun",
       "gender": "m",
@@ -152,37 +152,37 @@
       "fr": "Madame, Monsieur,",
       "en": "Dear Sir or Madam,",
       "hi": "महोदया, महोदय,",
-      "pron": "मा-दाम मö-स्यö"
+      "pron": "मा-दाम म-स्य"
     },
     {
       "fr": "Je vous écris pour réagir à l'affirmation parue dans votre journal.",
       "en": "I am writing to react to the statement published in your newspaper.",
       "hi": "मैं आपके अख़बार में छपे कथन पर प्रतिक्रिया देने के लिए लिख रहा हूँ।",
-      "pron": "झ़ö वू ज़े-क्ग़ी पूग़ ग़े-आ-झ़ीग़ आ ला-फ़ीग़-मा-स्योँ पा-ग़ü दाँ वॉत्ग़ झ़ूग़-नाल"
+      "pron": "ज वू ज़े-क्री पूर रे-आ-जीर आ ला-फ़ीर-मा-स्यों पा-र्यू दाँ वॉत्र जूर-नाल"
     },
     {
       "fr": "Je ne partage pas du tout cet avis.",
       "en": "I do not share this opinion at all.",
       "hi": "मैं इस राय से बिल्कुल सहमत नहीं हूँ।",
-      "pron": "झ़ö नö पाग़-ताझ़ पा दü तू सै ता-वी"
+      "pron": "ज न पार-ताज पा द्यू तू से ता-वी"
     },
     {
       "fr": "Tout d'abord, … Ensuite, … Enfin, …",
       "en": "First of all, … Next, … Finally, …",
       "hi": "सबसे पहले, … फिर, … अंत में, …",
-      "pron": "तू दा-बॉग़ … आँ-स्üईत … आँ-फ़ैँ"
+      "pron": "तू दा-बॉर … आँ-स्यूइत … आँ-फ़ैं"
     },
     {
       "fr": "Certes, … mais …",
       "en": "Admittedly, … but …",
       "hi": "माना कि, … पर …",
-      "pron": "सैग़्त … मै"
+      "pron": "सेर्त … मे"
     },
     {
       "fr": "Veuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.",
       "en": "Yours faithfully.",
       "hi": "सादर, आपका।",
-      "pron": "वö-ये ज़ा-ग्ग़े-ए मा-दाम मö-स्यö लैक्स-प्रै-स्योँ दö मे सा-लü-ता-स्योँ दिस-तैँ-गे"
+      "pron": "व-ये ज़ा-ग्रे-ए मा-दाम म-स्य लेक्स-प्रे-स्यों द मे सा-ल्यू-ता-स्यों दिस-तैं-गे"
     }
   ],
   "grammar": {
@@ -203,37 +203,37 @@
         "fr": "Je vous écris pour réagir à l'affirmation selon laquelle apprendre une langue ne sert plus à rien.",
         "en": "I'm writing to react to the claim that learning a language is no longer useful.",
         "hi": "मैं इस दावे पर प्रतिक्रिया देने के लिए लिख रहा हूँ कि भाषा सीखना अब किसी काम का नहीं।",
-        "pron": "झ़ö वू ज़े-क्ग़ी पूग़ ग़े-आ-झ़ीग़ आ ला-फ़ीग़-मा-स्योँ सö-लोँ ला-कैल आ-प्राँद्ग़ üन लाँग नö सैग़ प्लü आ ग़्यैँ"
+        "pron": "ज वू ज़े-क्री पूर रे-आ-जीर आ ला-फ़ीर-मा-स्यों स-लों ला-केल आ-प्राँद्र यून लाँग न सेर प्ल्यू आ र्यैं"
       },
       {
         "fr": "En tant qu'immigrante, je ne partage pas du tout cet avis.",
         "en": "As an immigrant, I don't share this opinion at all.",
         "hi": "एक प्रवासी के तौर पर, मैं इस राय से बिल्कुल सहमत नहीं हूँ।",
-        "pron": "आँ ताँ की-मी-ग्ग़ाँत झ़ö नö पाग़-ताझ़ पा दü तू सै ता-वी"
+        "pron": "आँ ताँ की-मी-ग्राँत ज न पार-ताज पा द्यू तू से ता-वी"
       },
       {
         "fr": "Tout d'abord, une application ne remplace pas une vraie conversation. En effet, …",
         "en": "First of all, an app does not replace a real conversation. Indeed, …",
         "hi": "सबसे पहले, कोई ऐप असली बातचीत की जगह नहीं ले सकता। दरअसल, …",
-        "pron": "तू दा-बॉग़ üन ना-प्ली-का-स्योँ नö ग़ाँ-प्लास पा üन व्ग़ै कोँ-वैग़-सा-स्योँ आँ ने-फ़ै"
+        "pron": "तू दा-बॉर यून ना-प्ली-का-स्यों न राँ-प्लास पा यून व्रे कों-वेर-सा-स्यों आँ ने-फ़े"
       },
       {
         "fr": "Certes, ces outils sont pratiques, mais ils font encore beaucoup d'erreurs.",
         "en": "Admittedly, these tools are handy, but they still make many mistakes.",
         "hi": "माना कि ये औज़ार सुविधाजनक हैं, पर ये अब भी बहुत ग़लतियाँ करते हैं।",
-        "pron": "सैग़्त से ज़ू-ती सोँ प्रा-तीक मै इल फ़ोँ आँ-कॉग़ बो-कू दे-ग़öग़"
+        "pron": "सेर्त से ज़ू-ती सों प्रा-तीक मे इल फ़ों आँ-कॉर बो-कू दे-रर"
       },
       {
         "fr": "Pour toutes ces raisons, je pense qu'il faut continuer à apprendre les langues.",
         "en": "For all these reasons, I think we must keep learning languages.",
         "hi": "इन सभी कारणों से मुझे लगता है कि भाषाएँ सीखते रहना चाहिए।",
-        "pron": "पूग़ तूत से ग़ै-ज़ोँ झ़ö पाँस कील फ़ो कोँ-ती-न्üए आ आ-प्राँद्ग़ ले लाँग"
+        "pron": "पूर तूत से रे-ज़ों ज पाँस कील फ़ो कों-ती-न्यूए आ आ-प्राँद्र ले लाँग"
       },
       {
         "fr": "Veuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.",
         "en": "Yours faithfully.",
         "hi": "सादर, आपका।",
-        "pron": "वö-ये ज़ा-ग्ग़े-ए मा-दाम मö-स्यö लैक्स-प्रै-स्योँ दö मे सा-लü-ता-स्योँ दिस-तैँ-गे"
+        "pron": "व-ये ज़ा-ग्रे-ए मा-दाम म-स्य लेक्स-प्रे-स्यों द मे सा-ल्यू-ता-स्यों दिस-तैं-गे"
       }
     ],
     "pitfalls": [
@@ -262,14 +262,14 @@
         "fr": "veuillez agréer",
         "en": "please accept",
         "hi": "कृपया स्वीकार करें",
-        "pron": "वö-ये ज़ा-ग्ग़े-ए",
+        "pron": "व-ये ज़ा-ग्रे-ए",
         "ipa": "vœje zaɡʁee"
       },
       {
         "fr": "distinguées",
         "en": "distinguished",
         "hi": "विशिष्ट / सादर",
-        "pron": "दिस-तैँ-गे",
+        "pron": "दिस-तैं-गे",
         "ipa": "distɛ̃ɡe",
         "note": {
           "en": "The u after g is silent: -gué = गे.",
@@ -280,21 +280,21 @@
         "fr": "je vous écris",
         "en": "I am writing to you",
         "hi": "मैं आपको लिख रहा हूँ",
-        "pron": "झ़ö वू ज़े-क्ग़ी",
+        "pron": "ज वू ज़े-क्री",
         "ipa": "ʒə vu zekʁi"
       },
       {
         "fr": "l'affirmation",
         "en": "the statement",
         "hi": "दावा",
-        "pron": "ला-फ़ीग़-मा-स्योँ",
+        "pron": "ला-फ़ीर-मा-स्यों",
         "ipa": "lafiʁmasjɔ̃"
       },
       {
         "fr": "entièrement d'accord",
         "en": "entirely in agreement",
         "hi": "पूरी तरह सहमत",
-        "pron": "आँ-त्यैग़-माँ दा-कॉग़",
+        "pron": "आँ-त्येर-माँ दा-कॉर",
         "ipa": "ɑ̃tjɛʁmɑ̃ dakɔʁ"
       }
     ]
@@ -385,7 +385,8 @@
     "questions": [
       {
         "q": {
-          "en": "What is the editorialist's position?"
+          "en": "What is the editorialist's position?",
+          "hi": "संपादकीय लेखिका का रुख क्या है?"
         },
         "options": [
           "In favour only for one month",
@@ -399,11 +400,18 @@
           "hi": "'je suis convaincue que c'est une excellente idée' — पूरी तरह पक्ष में।"
         },
         "kind": "gist",
-        "evidence": "je suis convaincue que c'est une excellente idée"
+        "evidence": "je suis convaincue que c'est une excellente idée",
+        "optionsHi": [
+          "केवल एक महीने के लिए पक्ष में",
+          "प्रस्ताव के विरोध में",
+          "पूरी तरह पक्ष में",
+          "अनिश्चित"
+        ]
       },
       {
         "q": {
-          "en": "What evidence supports her first argument?"
+          "en": "What evidence supports her first argument?",
+          "hi": "उसके पहले तर्क का समर्थन कौन-सा प्रमाण करता है?"
         },
         "options": [
           "Shop traffic rose by 15% during a one-month closure",
@@ -417,11 +425,18 @@
           "hi": "'la fréquentation des boutiques a augmenté de quinze pour cent' — दुकानों में आने वाले 15% बढ़े।"
         },
         "kind": "literal",
-        "evidence": "la fréquentation des boutiques a augmenté de quinze pour cent"
+        "evidence": "la fréquentation des boutiques a augmenté de quinze pour cent",
+        "optionsHi": [
+          "एक महीने की बंदी के दौरान दुकानों में आवाजाही 15% बढ़ गई",
+          "Copenhagen की दुकानों की बिक्री दोगुनी हो गई",
+          "किराए घट गए",
+          "प्रदूषण 15% घट गया"
+        ]
       },
       {
         "q": {
-          "en": "Her second argument is about…"
+          "en": "Her second argument is about…",
+          "hi": "उसका दूसरा तर्क किस बारे में है…"
         },
         "options": [
           "parking prices",
@@ -435,11 +450,18 @@
           "hi": "'c'est une question de santé publique… moins de pollution et moins de bruit'।"
         },
         "kind": "literal",
-        "evidence": "c'est une question de santé publique"
+        "evidence": "c'est une question de santé publique",
+        "optionsHi": [
+          "पार्किंग की कीमतों के बारे में",
+          "रात में सड़क की सुरक्षा के बारे में",
+          "पर्यटन के बारे में",
+          "सार्वजनिक स्वास्थ्य के बारे में: प्रदूषण और शोर"
+        ]
       },
       {
         "q": {
-          "en": "Which objection does she accept in part?"
+          "en": "Which objection does she accept in part?",
+          "hi": "वह किस आपत्ति को आंशिक रूप से स्वीकार करती है?"
         },
         "options": [
           "The street will be too crowded",
@@ -453,11 +475,18 @@
           "hi": "'certes, les livraisons posent un problème…' — डिलीवरी और बुज़ुर्गों की ज़रूरत।"
         },
         "kind": "literal",
-        "evidence": "Certes, les livraisons posent un problème"
+        "evidence": "Certes, les livraisons posent un problème",
+        "optionsHi": [
+          "सड़क पर बहुत भीड़ हो जाएगी",
+          "सामान पहुँचाने और बुज़ुर्गों की ज़रूरतें",
+          "संगीतकार बहुत शोर करते हैं",
+          "रेस्तराँ बंद हो जाएँगे"
+        ]
       },
       {
         "q": {
-          "en": "What solution does she propose for deliveries?"
+          "en": "What solution does she propose for deliveries?",
+          "hi": "सामान की डिलीवरी के लिए वह कौन-सा समाधान सुझाती है?"
         },
         "options": [
           "Deliveries by bike only",
@@ -471,11 +500,18 @@
           "hi": "'autoriser les livraisons le matin, avant dix heures' — सुबह 10 बजे से पहले।"
         },
         "kind": "literal",
-        "evidence": "on peut autoriser les livraisons le matin, avant dix heures"
+        "evidence": "on peut autoriser les livraisons le matin, avant dix heures",
+        "optionsHi": [
+          "केवल साइकिल से डिलीवरी",
+          "केवल रात में डिलीवरी",
+          "सुबह 10 बजे से पहले डिलीवरी",
+          "गर्मियों में कोई डिलीवरी नहीं"
+        ]
       },
       {
         "q": {
-          "en": "What does 'au contraire' introduce in her conclusion?"
+          "en": "What does 'au contraire' introduce in her conclusion?",
+          "hi": "उसके निष्कर्ष में 'au contraire' किसे प्रस्तुत करता है?"
         },
         "options": [
           "The opposite of the objection: more customers for shops",
@@ -489,7 +525,13 @@
           "hi": "यह दुकानदारों के ख़िलाफ़ नहीं; इसके उलट, उन्हें ज़्यादा ग्राहक देता है।"
         },
         "kind": "inference",
-        "evidence": "C'est, au contraire, leur offrir plus de clients dans une ville plus agréable."
+        "evidence": "C'est, au contraire, leur offrir plus de clients dans une ville plus agréable.",
+        "optionsHi": [
+          "आपत्ति का उलटा: दुकानों के लिए ज़्यादा ग्राहक",
+          "श्रोताओं से एक सवाल",
+          "Copenhagen का एक उदाहरण",
+          "एक नई समस्या"
+        ]
       }
     ],
     "dictation": [
@@ -518,32 +560,32 @@
         "fr": "Je ne suis pas du tout d'accord avec cette affirmation.",
         "en": "I don't agree at all with this statement.",
         "hi": "मैं इस कथन से बिल्कुल सहमत नहीं हूँ।",
-        "pron": "झ़ö नö स्üई पा दü तू दा-कॉग़ आ-वैक सैत आ-फ़ीग़-मा-स्योँ"
+        "pron": "ज न स्यूई पा द्यू तू दा-कॉर आ-वेक सेत आ-फ़ीर-मा-स्यों"
       },
       {
         "fr": "Tout d'abord, une langue, ce n'est pas seulement des mots : c'est une culture.",
         "en": "First of all, a language is not just words: it's a culture.",
         "hi": "सबसे पहले, भाषा सिर्फ़ शब्द नहीं है: यह एक संस्कृति है।",
-        "pron": "तू दा-बॉग़ üन लाँग सö नै पा सö-लö-माँ दे मो सै तüन कüल-त्üग़",
+        "pron": "तू दा-बॉर यून लाँग स ने पा स-ल-माँ दे मो से त्यून क्यूल-त्यूर",
         "model": "Tout d'abord, une langue, ce n'est pas seulement des mots : c'est une culture. Par exemple, l'humour québécois est impossible à traduire avec une application."
       },
       {
         "fr": "Ensuite, pour trouver un emploi, il faut parler directement avec les gens.",
         "en": "Next, to find a job, you have to talk directly with people.",
         "hi": "फिर, नौकरी पाने के लिए लोगों से सीधे बात करनी पड़ती है।",
-        "pron": "आँ-स्üईत पूग़ त्ग़ू-वे ऐँ नाँ-प्ल्वा इल फ़ो पाग़-ले दी-ग़ैक-त-माँ आ-वैक ले झ़ाँ"
+        "pron": "आँ-स्यूईत पूर त्रू-वे ऐं नाँ-प्ल्वा इल फ़ो पार-ले दी-रेक-त-माँ आ-वेक ले जाँ"
       },
       {
         "fr": "Certes, ces outils sont utiles en voyage, mais ils ne remplacent pas une vraie conversation.",
         "en": "Admittedly, these tools are useful when travelling, but they don't replace a real conversation.",
         "hi": "माना कि ये औज़ार यात्रा में काम आते हैं, पर असली बातचीत की जगह नहीं ले सकते।",
-        "pron": "सैग़्त से ज़ू-ती सोँ ü-तील आँ व्वा-याझ़ मै इल नö ग़ाँ-प्लास पा üन व्ग़ै कोँ-वैग़-सा-स्योँ"
+        "pron": "सेर्त से ज़ू-ती सों यू-तील आँ व्वा-याज मे इल न राँ-प्लास पा यून व्रे कों-वेर-सा-स्यों"
       },
       {
         "fr": "Pour toutes ces raisons, je pense qu'apprendre une langue reste essentiel.",
         "en": "For all these reasons, I think learning a language remains essential.",
         "hi": "इन सभी कारणों से, मुझे लगता है कि भाषा सीखना आज भी ज़रूरी है।",
-        "pron": "पूग़ तूत से ग़ै-ज़ोँ झ़ö पाँस का-प्राँद्ग़ üन लाँग ग़ैस्त ए-साँ-स्यैल"
+        "pron": "पूर तूत से रे-ज़ों ज पाँस का-प्राँद्र यून लाँग रेस्त ए-साँ-स्येल"
       }
     ],
     "tip": {
@@ -562,7 +604,8 @@
     "questions": [
       {
         "q": {
-          "en": "What is Fatima's position on the statement?"
+          "en": "What is Fatima's position on the statement?",
+          "hi": "कथन पर Fatima का रुख क्या है?"
         },
         "options": [
           "She has no opinion",
@@ -576,11 +619,18 @@
           "hi": "'je ne partage pas du tout cet avis' — बिल्कुल सहमत नहीं।"
         },
         "kind": "gist",
-        "evidence": "Je ne partage pas du tout cet avis."
+        "evidence": "Je ne partage pas du tout cet avis.",
+        "optionsHi": [
+          "उसकी कोई राय नहीं है",
+          "वह पूरी तरह असहमत है",
+          "वह आंशिक रूप से सहमत है",
+          "वह पूरी तरह सहमत है"
+        ]
       },
       {
         "q": {
-          "en": "Which example does Fatima give to show that apps make mistakes?"
+          "en": "Which example does Fatima give to show that apps make mistakes?",
+          "hi": "ऐप्स ग़लतियाँ करते हैं, यह दिखाने के लिए Fatima कौन-सा उदाहरण देती है?"
         },
         "options": [
           "A wrong date of birth",
@@ -594,11 +644,18 @@
           "hi": "वह पेनिसिलिन/ब्रेड वाली ग़लती बताती है — एक ठोस उदाहरण जो उसके तर्क को विकसित करता है।"
         },
         "kind": "literal",
-        "evidence": "l'une d'elles a traduit « allergie à la pénicilline » par « allergie au pain »"
+        "evidence": "l'une d'elles a traduit « allergie à la pénicilline » par « allergie au pain »",
+        "optionsHi": [
+          "जन्म-तिथि की ग़लती",
+          "एक अशिष्ट अनुवाद",
+          "पते की ग़लती",
+          "'Allergy to penicillin' का अनुवाद 'allergy to bread' हो जाना"
+        ]
       },
       {
         "q": {
-          "en": "Which concession does Fatima make?"
+          "en": "Which concession does Fatima make?",
+          "hi": "Fatima कौन-सी रियायत देती है?"
         },
         "options": [
           "Apps are useful for travel",
@@ -612,11 +669,18 @@
           "hi": "'certes, ces outils sont pratiques en voyage, mais…' — यात्रा में काम के हैं, माना।"
         },
         "kind": "inference",
-        "evidence": "Certes, ces outils sont pratiques en voyage"
+        "evidence": "Certes, ces outils sont pratiques en voyage",
+        "optionsHi": [
+          "ऐप्स यात्रा के लिए उपयोगी हैं",
+          "भाषाएँ सीखना महँगा है",
+          "नर्सों को भाषाओं की ज़रूरत नहीं है",
+          "संस्कृति महत्त्वपूर्ण नहीं है"
+        ]
       },
       {
         "q": {
-          "en": "For whom does Marc-André think an app is enough?"
+          "en": "For whom does Marc-André think an app is enough?",
+          "hi": "Marc-André के अनुसार किसके लिए एक ऐप काफ़ी है?"
         },
         "options": [
           "For immigrants",
@@ -630,11 +694,18 @@
           "hi": "'pour un touriste qui passe une semaine au Japon, une application suffit largement'।"
         },
         "kind": "literal",
-        "evidence": "Pour un touriste qui passe une semaine au Japon, une application suffit largement"
+        "evidence": "Pour un touriste qui passe une semaine au Japon, une application suffit largement",
+        "optionsHi": [
+          "आप्रवासियों के लिए",
+          "नौकरी खोजने वालों के लिए",
+          "छोटी यात्रा पर गए पर्यटक के लिए",
+          "नर्सों के लिए"
+        ]
       },
       {
         "q": {
-          "en": "What does Marc-André propose in his conclusion?"
+          "en": "What does Marc-André propose in his conclusion?",
+          "hi": "अपने निष्कर्ष में Marc-André क्या सुझाव देता है?"
         },
         "options": [
           "Banning translation apps",
@@ -648,11 +719,18 @@
           "hi": "'les écoles devraient adapter les cours aux besoins réels des élèves'।"
         },
         "kind": "literal",
-        "evidence": "les écoles devraient adapter les cours aux besoins réels des élèves"
+        "evidence": "les écoles devraient adapter les cours aux besoins réels des élèves",
+        "optionsHi": [
+          "अनुवाद ऐप्स पर प्रतिबंध लगाना",
+          "भाषा कक्षाओं को छात्रों की वास्तविक ज़रूरतों के अनुसार ढालना",
+          "दो भाषाएँ अनिवार्य करना",
+          "केवल जापानी सीखना"
+        ]
       },
       {
         "q": {
-          "en": "What do both letters have in common?"
+          "en": "What do both letters have in common?",
+          "hi": "दोनों पत्रों में क्या बात समान है?"
         },
         "options": [
           "Both are written by nurses",
@@ -666,7 +744,13 @@
           "hi": "फ़ातिमा कहती हैं ऐप्स बातचीत की जगह नहीं लेते; मार्क-आँद्रे कहते हैं हाथ में फ़ोन लेकर कोई इंटरव्यू नहीं देना चाहता।"
         },
         "kind": "inference",
-        "evidence": "personne ne veut passer une entrevue d'embauche avec un téléphone à la main"
+        "evidence": "personne ne veut passer une entrevue d'embauche avec un téléphone à la main",
+        "optionsHi": [
+          "दोनों नर्सों द्वारा लिखे गए हैं",
+          "दोनों अनौपचारिक भाषा का प्रयोग करते हैं",
+          "दोनों कथन का पूरी तरह समर्थन करते हैं",
+          "दोनों कहते हैं कि विदेश में रहने या काम करने के लिए ऐप्स काफ़ी नहीं हैं"
+        ]
       }
     ]
   },
@@ -698,25 +782,25 @@
         "fr": "Je vous écris pour réagir à l'affirmation selon laquelle…",
         "en": "I'm writing to react to the claim that…",
         "hi": "मैं इस दावे पर प्रतिक्रिया देने के लिए लिख रहा हूँ कि…",
-        "pron": "झ़ö वू ज़े-क्ग़ी पूग़ ग़े-आ-झ़ीग़ आ ला-फ़ीग़-मा-स्योँ सö-लोँ ला-कैल"
+        "pron": "ज वू ज़े-क्री पूर रे-आ-जीर आ ला-फ़ीर-मा-स्यों स-लों ला-केल"
       },
       {
         "fr": "Prenons l'exemple de…",
         "en": "Let's take the example of…",
         "hi": "… का उदाहरण लेते हैं",
-        "pron": "प्रö-नोँ लैग-ज़ाँप्ल दö"
+        "pron": "प्र-नों लेग-ज़ाँप्ल द"
       },
       {
         "fr": "Pour toutes ces raisons, …",
         "en": "For all these reasons, …",
         "hi": "इन सभी कारणों से, …",
-        "pron": "पूग़ तूत से ग़ै-ज़ोँ"
+        "pron": "पूर तूत से रे-ज़ों"
       },
       {
         "fr": "Veuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.",
         "en": "Yours faithfully.",
         "hi": "सादर, आपका।",
-        "pron": "वö-ये ज़ा-ग्ग़े-ए मा-दाम मö-स्यö लैक्स-प्रै-स्योँ दö मे सा-लü-ता-स्योँ दिस-तैँ-गे"
+        "pron": "व-ये ज़ा-ग्रे-ए मा-दाम म-स्य लेक्स-प्रे-स्यों द मे सा-ल्यू-ता-स्यों दिस-तैं-गे"
       }
     ],
     "model": {
@@ -761,49 +845,49 @@
         "fr": "selon moi",
         "en": "in my view",
         "hi": "मेरे हिसाब से",
-        "pron": "सö-लोँ म्वा"
+        "pron": "स-लों म्वा"
       },
       {
         "fr": "car",
         "en": "because (formal)",
         "hi": "क्योंकि",
-        "pron": "काग़"
+        "pron": "कार"
       },
       {
         "fr": "en revanche",
         "en": "on the other hand",
         "hi": "दूसरी ओर",
-        "pron": "आँ ग़ö-वाँश"
+        "pron": "आँ र-वाँश"
       },
       {
         "fr": "par conséquent",
         "en": "consequently",
         "hi": "परिणामस्वरूप",
-        "pron": "पाग़ कोँ-से-काँ"
+        "pron": "पार कों-से-काँ"
       },
       {
         "fr": "Il est important de lire la consigne.",
         "en": "It is important to read the instructions.",
         "hi": "निर्देश पढ़ना ज़रूरी है।",
-        "pron": "इ-लै तैँ-पॉग़-ताँ दö लीग़ ला कोँ-सीन्य"
+        "pron": "इ-ले तैं-पॉर-ताँ द लीर ला कों-सीन्य"
       },
       {
         "fr": "Cordialement,",
         "en": "Kind regards,",
         "hi": "सादर,",
-        "pron": "कॉग़-द्याल-माँ"
+        "pron": "कॉर-द्याल-माँ"
       },
       {
         "fr": "c'est pourquoi",
         "en": "that's why",
         "hi": "इसीलिए",
-        "pron": "सै पूग़-क्वा"
+        "pron": "से पूर-क्वा"
       },
       {
         "fr": "même si",
         "en": "even if",
         "hi": "भले ही",
-        "pron": "मैम सी"
+        "pron": "मेम सी"
       }
     ]
   },

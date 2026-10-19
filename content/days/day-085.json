@@ -30,7 +30,7 @@
       "fr": "ouais",
       "en": "yeah",
       "hi": "हाँ (बोलचाल)",
-      "pron": "वै",
+      "pron": "वे",
       "ipa": "wɛ",
       "pos": "interjection",
       "note": {
@@ -42,7 +42,7 @@
       "fr": "ben",
       "en": "well (filler)",
       "hi": "अरे / तो (भराव शब्द)",
-      "pron": "बैँ",
+      "pron": "बैं",
       "ipa": "bɛ̃",
       "pos": "interjection",
       "note": {
@@ -54,7 +54,7 @@
       "fr": "du coup",
       "en": "so, as a result (spoken)",
       "hi": "तो / इसलिए (बोलचाल)",
-      "pron": "दü कू",
+      "pron": "द्यू कू",
       "ipa": "dy ku",
       "pos": "adverb",
       "note": {
@@ -78,7 +78,7 @@
       "fr": "franchement",
       "en": "honestly, frankly",
       "hi": "सच कहूँ तो",
-      "pron": "फ़्ग़ाँश-माँ",
+      "pron": "फ़्राँश-माँ",
       "ipa": "fʁɑ̃ʃmɑ̃",
       "pos": "adverb"
     },
@@ -86,7 +86,7 @@
       "fr": "carrément",
       "en": "totally, absolutely",
       "hi": "बिल्कुल / पूरी तरह",
-      "pron": "का-ग़े-माँ",
+      "pron": "का-रे-माँ",
       "ipa": "kaʁemɑ̃",
       "pos": "adverb"
     },
@@ -110,7 +110,7 @@
       "fr": "perso",
       "en": "personally (spoken)",
       "hi": "मेरे हिसाब से (बोलचाल)",
-      "pron": "पैग़-सो",
+      "pron": "पेर-सो",
       "ipa": "pɛʁso",
       "pos": "adverb",
       "note": {
@@ -122,7 +122,7 @@
       "fr": "le truc",
       "en": "thing, stuff (informal)",
       "hi": "चीज़ (अनौपचारिक)",
-      "pron": "लö त्ग़üक",
+      "pron": "ल त्र्यूक",
       "ipa": "lə tʁyk",
       "pos": "noun",
       "gender": "m",
@@ -132,7 +132,7 @@
       "fr": "être pour / être contre",
       "en": "to be for / against",
       "hi": "पक्ष में / विरोध में होना",
-      "pron": "ऐत्ग़ पूग़ / ऐत्ग़ कोँत्ग़",
+      "pron": "एत्र पूर / एत्र कोंत्र",
       "ipa": "ɛtʁ puʁ / ɛtʁ kɔ̃tʁ",
       "pos": "phrase"
     },
@@ -140,7 +140,7 @@
       "fr": "les avis sont partagés",
       "en": "opinions are divided",
       "hi": "राय बँटी हुई है",
-      "pron": "ले ज़ा-वी सोँ पाग़-ता-झ़े",
+      "pron": "ले ज़ा-वी सों पार-ता-जे",
       "ipa": "le zavi sɔ̃ paʁtaʒe",
       "pos": "phrase"
     }
@@ -150,7 +150,7 @@
       "fr": "Y'a pas assez de personnel.",
       "en": "There aren't enough staff.",
       "hi": "पर्याप्त कर्मचारी नहीं हैं।",
-      "pron": "या पा ज़ा-से दö पैग़-सो-नैल",
+      "pron": "या पा ज़ा-से द पेर-सो-नेल",
       "note": {
         "en": "Careful form: Il n'y a pas assez de personnel.",
         "hi": "सावधान रूप: Il n'y a pas assez de personnel।"
@@ -160,31 +160,31 @@
       "fr": "C'est pas réaliste.",
       "en": "It's not realistic.",
       "hi": "यह व्यावहारिक नहीं है।",
-      "pron": "सै पा ग़े-आ-लीस्त"
+      "pron": "से पा रे-आ-लीस्त"
     },
     {
       "fr": "J'sais pas, ça peut motiver les gens.",
       "en": "I dunno, it can motivate people.",
       "hi": "पता नहीं, इससे लोगों का हौसला बढ़ सकता है।",
-      "pron": "श्सै पा सा पö मो-ती-वे ले झ़ाँ"
+      "pron": "श्से पा सा प मो-ती-वे ले जाँ"
     },
     {
       "fr": "Ça marche pas pour tout le monde.",
       "en": "It doesn't work for everyone.",
       "hi": "यह सबके लिए नहीं चलता।",
-      "pron": "सा माग़श पा पूग़ तू लö मोँद"
+      "pron": "सा मारश पा पूर तू ल मोंद"
     },
     {
       "fr": "Je dis oui tout de suite.",
       "en": "I say yes right away.",
       "hi": "मैं तुरंत हाँ कहूँगा।",
-      "pron": "झ़ö दी वी तूत स्üईत"
+      "pron": "ज दी वी तूत स्यूईत"
     },
     {
       "fr": "Je suis plutôt contre.",
       "en": "I'm rather against it.",
       "hi": "मैं कुछ हद तक इसके ख़िलाफ़ हूँ।",
-      "pron": "झ़ö स्üई प्लü-तो कोँत्ग़"
+      "pron": "ज स्यूई प्ल्यू-तो कोंत्र"
     }
   ],
   "grammar": {
@@ -193,8 +193,8 @@
       "hi": "बोलचाल की फ़्रेंच: क्या ग़ायब होता है और उसका मतलब क्या है"
     },
     "explanation": {
-      "en": "In street interviews people speak fast and informally. Recognise these features: (1) 'ne' disappears in negation: 'C'est pas réaliste' = Ce n'est pas réaliste; 'y'a pas' = il n'y a pas. The word 'pas' alone carries the negation, so listen for it! (2) Sounds merge: tu es → t'es, je sais → j'sais (श्सै), il faut → faut. (3) Fillers: ben, euh, bon, genre, en fait — they carry no information. (4) Spoken connectors: du coup (= donc), en gros (= en résumé), perso (= personnellement). To identify an opinion, listen for markers: FOR — carrément, je suis pour, c'est une bonne idée, je dis oui; AGAINST — bof, pas vraiment, je suis contre, c'est pas réaliste; IN BETWEEN — ça dépend, oui mais, d'un côté… de l'autre, si … alors oui, sinon non.",
-      "hi": "सड़क पर सर्वेक्षण में लोग तेज़ और अनौपचारिक बोलते हैं। ये बातें पहचानिए: (1) नकार में 'ne' ग़ायब हो जाता है: 'C'est pas réaliste' = Ce n'est pas réaliste; 'y'a pas' = il n'y a pas। अकेला 'pas' ही नकार बताता है, इसलिए उसी पर ध्यान दीजिए! (2) आवाज़ें मिल जाती हैं: tu es → t'es, je sais → j'sais (श्सै), il faut → faut। (3) भराव शब्द: ben, euh, bon, genre, en fait — इनमें कोई जानकारी नहीं होती। (4) बोलचाल के संयोजक: du coup (= donc), en gros (= en résumé), perso (= personnellement)। राय पहचानने के लिए संकेत सुनिए: पक्ष — carrément, je suis pour, c'est une bonne idée, je dis oui; विपक्ष — bof, pas vraiment, je suis contre, c'est pas réaliste; बीच में — ça dépend, oui mais, d'un côté… de l'autre, si … alors oui, sinon non।"
+      "en": "In street interviews people speak fast and informally. Recognise these features: (1) 'ne' disappears in negation: 'C'est pas réaliste' = Ce n'est pas réaliste; 'y'a pas' = il n'y a pas. The word 'pas' alone carries the negation, so listen for it! (2) Sounds merge: tu es → t'es, je sais → j'sais (शे), il faut → faut. (3) Fillers: ben, euh, bon, genre, en fait — they carry no information. (4) Spoken connectors: du coup (= donc), en gros (= en résumé), perso (= personnellement). To identify an opinion, listen for markers: FOR — carrément, je suis pour, c'est une bonne idée, je dis oui; AGAINST — bof, pas vraiment, je suis contre, c'est pas réaliste; IN BETWEEN — ça dépend, oui mais, d'un côté… de l'autre, si … alors oui, sinon non.",
+      "hi": "सड़क पर सर्वेक्षण में लोग तेज़ और अनौपचारिक बोलते हैं। ये बातें पहचानिए: (1) नकार में 'ne' ग़ायब हो जाता है: 'C'est pas réaliste' = Ce n'est pas réaliste; 'y'a pas' = il n'y a pas। अकेला 'pas' ही नकार बताता है, इसलिए उसी पर ध्यान दीजिए! (2) आवाज़ें मिल जाती हैं: tu es → t'es, je sais → j'sais (शे), il faut → faut। (3) भराव शब्द: ben, euh, bon, genre, en fait — इनमें कोई जानकारी नहीं होती। (4) बोलचाल के संयोजक: du coup (= donc), en gros (= en résumé), perso (= personnellement)। राय पहचानने के लिए संकेत सुनिए: पक्ष — carrément, je suis pour, c'est une bonne idée, je dis oui; विपक्ष — bof, pas vraiment, je suis contre, c'est pas réaliste; बीच में — ça dépend, oui mais, d'un côté… de l'autre, si … alors oui, sinon non।"
     },
     "comparison": {
       "en": "Hindi speakers also shorten in speech ('क्या कर रहे हो' → 'क्या कर रै हो'). The difference: in French the shortened negation can sound almost positive to a beginner, because 'ne' is the part you learned first. Train your ear on 'pas', 'jamais', 'plus', 'rien'.",
@@ -205,37 +205,37 @@
         "fr": "C'est pas réaliste pour nous. (= Ce n'est pas réaliste.)",
         "en": "It's not realistic for us.",
         "hi": "हमारे लिए यह व्यावहारिक नहीं है।",
-        "pron": "सै पा ग़े-आ-लीस्त पूग़ नू"
+        "pron": "से पा रे-आ-लीस्त पूर नू"
       },
       {
         "fr": "Y'a déjà pas assez de monde. (= Il n'y a déjà pas assez de monde.)",
         "en": "There already aren't enough people.",
         "hi": "पहले से ही काफ़ी लोग नहीं हैं।",
-        "pron": "या दे-झ़ा पा ज़ा-से दö मोँद"
+        "pron": "या दे-जा पा ज़ा-से द मोंद"
       },
       {
         "fr": "T'es pour ou t'es contre ? (= Tu es pour ou contre ?)",
         "en": "Are you for or against?",
         "hi": "तुम पक्ष में हो या विरोध में?",
-        "pron": "तै पूग़ ऊ तै कोँत्ग़"
+        "pron": "ते पूर ऊ ते कोंत्र"
       },
       {
         "fr": "Faut pas exagérer. (= Il ne faut pas exagérer.)",
         "en": "Let's not exaggerate.",
         "hi": "बढ़ा-चढ़ाकर नहीं बोलना चाहिए।",
-        "pron": "फ़ो पा ज़ैग-ज़ा-झ़े-ग़े"
+        "pron": "फ़ो पा ज़ेग-ज़ा-जे-रे"
       },
       {
         "fr": "Du coup, je prends le vélo. (= Donc, je prends le vélo.)",
         "en": "So I take the bike.",
         "hi": "तो मैं साइकिल ले लेता हूँ।",
-        "pron": "दü कू झ़ö प्राँ लö वे-लो"
+        "pron": "द्यू कू ज प्राँ ल वे-लो"
       },
       {
         "fr": "Si on est payé pareil, je dis oui. Sinon, non.",
         "en": "If we're paid the same, I say yes. Otherwise, no.",
         "hi": "अगर तनख़्वाह उतनी ही मिले, तो हाँ। वरना नहीं।",
-        "pron": "सी ओँ नै पै-ये पा-ग़ैय झ़ö दी वी सी-नोँ नोँ"
+        "pron": "सी ओं ने पे-ये पा-रेय ज दी वी सी-नों नों"
       }
     ],
     "pitfalls": [
@@ -260,7 +260,7 @@
         "fr": "t'es",
         "en": "you are (tu es)",
         "hi": "तुम हो",
-        "pron": "तै",
+        "pron": "ते",
         "ipa": "tɛ"
       },
       {
@@ -274,18 +274,18 @@
         "fr": "j'sais pas",
         "en": "I don't know (je ne sais pas)",
         "hi": "मुझे नहीं पता",
-        "pron": "श्सै पा",
+        "pron": "शे पा",
         "ipa": "ʃɛ pa",
         "note": {
-          "en": "j + s merge into a ch sound: श्सै.",
-          "hi": "j + s मिलकर 'श' जैसी आवाज़ बनाते हैं: श्सै।"
+          "en": "j + s merge into a ch sound: शे.",
+          "hi": "j + s मिलकर 'श' जैसी आवाज़ बनाते हैं: शे।"
         }
       },
       {
         "fr": "c'est pas",
         "en": "it isn't (ce n'est pas)",
         "hi": "यह नहीं है",
-        "pron": "सै पा",
+        "pron": "से पा",
         "ipa": "sɛ pa"
       },
       {
@@ -299,7 +299,7 @@
         "fr": "chais pas",
         "en": "dunno (very fast je ne sais pas)",
         "hi": "पता नहीं (बहुत तेज़)",
-        "pron": "शै पा",
+        "pron": "शे पा",
         "ipa": "ʃɛ pa"
       }
     ]
@@ -418,7 +418,8 @@
     "questions": [
       {
         "q": {
-          "en": "Why is Marc in favour?"
+          "en": "Why is Marc in favour?",
+          "hi": "Marc पक्ष में क्यों है?"
         },
         "options": [
           "He wants shorter days",
@@ -432,11 +433,18 @@
           "hi": "'un jour de plus pour la famille, ça changerait tout'। वह लंबे दिन भी मान लेता है।"
         },
         "kind": "literal",
-        "evidence": "un jour de plus pour la famille, ça changerait tout"
+        "evidence": "un jour de plus pour la famille, ça changerait tout",
+        "optionsHi": [
+          "वह छोटे कार्यदिवस चाहता है",
+          "वह ज़्यादा वेतन चाहता है",
+          "वह अपने परिवार के साथ ज़्यादा समय चाहता है",
+          "वह एक रेस्तराँ में काम करता है"
+        ]
       },
       {
         "q": {
-          "en": "When Aïcha says 'Bof, pas vraiment', she means…"
+          "en": "When Aïcha says 'Bof, pas vraiment', she means…",
+          "hi": "जब Aïcha कहती है 'Bof, pas vraiment', तो उसका मतलब है…"
         },
         "options": [
           "she is not in favour",
@@ -450,11 +458,18 @@
           "hi": "'bof' + 'pas vraiment' नकारात्मक राय दिखाते हैं, जिसे वह फिर समझाती है।"
         },
         "kind": "vocabulary",
-        "evidence": "Bof, pas vraiment."
+        "evidence": "Bof, pas vraiment.",
+        "optionsHi": [
+          "वह पक्ष में नहीं है",
+          "उसकी कोई राय ही नहीं है",
+          "उसे समझ नहीं आया",
+          "वह उत्साहित है"
+        ]
       },
       {
         "q": {
-          "en": "What is Aïcha's main argument?"
+          "en": "What is Aïcha's main argument?",
+          "hi": "Aïcha का मुख्य तर्क क्या है?"
         },
         "options": [
           "Nurses earn too little",
@@ -468,11 +483,18 @@
           "hi": "'y'a déjà pas assez de personnel' = il n'y a déjà pas assez de personnel — कर्मचारी कम हैं।"
         },
         "kind": "literal",
-        "evidence": "y'a déjà pas assez de personnel"
+        "evidence": "y'a déjà pas assez de personnel",
+        "optionsHi": [
+          "नर्सों को बहुत कम वेतन मिलता है",
+          "वह रात में काम करना पसंद करती है",
+          "मरीज़ों को बदलाव पसंद नहीं हैं",
+          "अस्पतालों में पहले से ही कर्मचारियों की कमी है"
+        ]
       },
       {
         "q": {
-          "en": "What is Gurpreet's position?"
+          "en": "What is Gurpreet's position?",
+          "hi": "Gurpreet का रुख क्या है?"
         },
         "options": [
           "Completely against",
@@ -486,11 +508,18 @@
           "hi": "'ça dépend' … 'en gros, ça marche pas pour tout le monde' — मिली-जुली राय।"
         },
         "kind": "inference",
-        "evidence": "En gros, ça marche pas pour tout le monde."
+        "evidence": "En gros, ça marche pas pour tout le monde.",
+        "optionsHi": [
+          "पूरी तरह विरोध में",
+          "मिला-जुला: दफ़्तरों के लिए अच्छा, उसके रेस्तराँ के लिए नहीं",
+          "उसे कोई फ़र्क नहीं पड़ता",
+          "पूरी तरह पक्ष में"
+        ]
       },
       {
         "q": {
-          "en": "Under what condition would Lucie agree?"
+          "en": "Under what condition would Lucie agree?",
+          "hi": "Lucie किस शर्त पर सहमत होगी?"
         },
         "options": [
           "If she works ten hours a day",
@@ -504,11 +533,18 @@
           "hi": "'si on travaille moins mais qu'on est payé pareil, je dis oui' — तनख़्वाह वही रहे तो।"
         },
         "kind": "literal",
-        "evidence": "Si on travaille moins mais qu'on est payé pareil, je dis oui tout de suite."
+        "evidence": "Si on travaille moins mais qu'on est payé pareil, je dis oui tout de suite.",
+        "optionsHi": [
+          "अगर वह दिन में दस घंटे काम करे",
+          "अगर वह ज़्यादा पढ़ाई कर सके",
+          "अगर वेतन उतना ही रहे",
+          "अगर कैफ़े सोमवार को बंद रहें"
+        ]
       },
       {
         "q": {
-          "en": "What is the journalist's conclusion?"
+          "en": "What is the journalist's conclusion?",
+          "hi": "पत्रकार का निष्कर्ष क्या है?"
         },
         "options": [
           "Opinions are divided",
@@ -522,7 +558,13 @@
           "hi": "'les avis sont partagés' = राय बँटी हुई है।"
         },
         "kind": "gist",
-        "evidence": "les avis sont partagés"
+        "evidence": "les avis sont partagés",
+        "optionsHi": [
+          "राय बँटी हुई है",
+          "यह विचार अपनाया जाएगा",
+          "सब इसके पक्ष में हैं",
+          "सब इसके विरोध में हैं"
+        ]
       }
     ],
     "dictation": [
@@ -550,28 +592,28 @@
         "fr": "Pour ou contre la semaine de quatre jours ?",
         "en": "For or against the four-day week?",
         "hi": "चार दिन के कामकाजी हफ़्ते के पक्ष में या विरोध में?",
-        "pron": "पूग़ ऊ कोँत्ग़ ला स्मैन दö कात्ग़ झ़ूग़",
+        "pron": "पूर ऊ कोंत्र ला स्मेन द कात्र जूर",
         "model": "Je suis plutôt pour. Avec un jour de plus, je pourrais étudier le français et m'occuper de mes enfants. Mais ce n'est pas possible dans tous les métiers."
       },
       {
         "fr": "Faut-il interdire les voitures au centre-ville le dimanche ?",
         "en": "Should cars be banned downtown on Sundays?",
         "hi": "क्या रविवार को शहर के बीच गाड़ियों पर रोक लगनी चाहिए?",
-        "pron": "फ़ो-तील ऐँ-तैग़-दीग़ ले व्वा-त्üग़ ओ साँत्ग़-वील लö दी-माँश",
+        "pron": "फ़ो-तील ऐं-तेर-दीर ले व्वा-त्यूर ओ साँत्र-वील ल दी-माँश",
         "model": "Ça dépend. Pour les familles, c'est agréable de marcher sans bruit. Par contre, les personnes âgées ont parfois besoin de leur voiture."
       },
       {
         "fr": "Que pensez-vous des cours de français gratuits pour les nouveaux arrivants ?",
         "en": "What do you think of free French classes for newcomers?",
         "hi": "नए आने वालों के लिए मुफ़्त फ़्रेंच क्लासों के बारे में आपकी क्या राय है?",
-        "pron": "कö पाँ-से वू दे कूग़ दö फ़्ग़ाँ-सै ग्रा-तüई पूग़ ले नू-वो ज़ा-ग़ी-वाँ",
+        "pron": "क पाँ-से वू दे कूर द फ़्राँ-से ग्रा-त्यूई पूर ले नू-वो ज़ा-री-वाँ",
         "model": "C'est une excellente idée ! Moi, j'ai appris grâce à un cours gratuit, et du coup j'ai trouvé un emploi plus vite."
       },
       {
         "fr": "Vous aimez l'hiver canadien ?",
         "en": "Do you like the Canadian winter?",
         "hi": "क्या आपको कनाडा की सर्दी पसंद है?",
-        "pron": "वू ज़ै-मे ली-वैग़ का-ना-द्यैँ",
+        "pron": "वू ज़े-मे ली-वेर का-ना-द्यैं",
         "model": "Franchement, pas vraiment ! Il fait trop froid et les journées sont courtes. Mais j'adore patiner avec mes amis."
       }
     ],
@@ -591,7 +633,8 @@
     "questions": [
       {
         "q": {
-          "en": "Why is Sophie in favour?"
+          "en": "Why is Sophie in favour?",
+          "hi": "Sophie पक्ष में क्यों है?"
         },
         "options": [
           "For environmental reasons",
@@ -605,11 +648,18 @@
           "hi": "वह बेटे के 60 डॉलर महीने की बात करती है: 'c'est une vraie aide'।"
         },
         "kind": "inference",
-        "evidence": "Pour les familles comme la nôtre, c'est une vraie aide."
+        "evidence": "Pour les familles comme la nôtre, c'est une vraie aide.",
+        "optionsHi": [
+          "पर्यावरण के कारणों से",
+          "क्योंकि इससे उसके परिवार के बजट में मदद मिलेगी",
+          "क्योंकि वह 25 साल से कम उम्र की है",
+          "क्योंकि बसें बहुत धीमी हैं"
+        ]
       },
       {
         "q": {
-          "en": "What does J-P Bouchard want first?"
+          "en": "What does J-P Bouchard want first?",
+          "hi": "J-P Bouchard सबसे पहले क्या चाहता है?"
         },
         "options": [
           "Free buses for everyone",
@@ -623,11 +673,18 @@
           "hi": "'je préférerais qu'on améliore d'abord la fréquence' — पहले बसें ज़्यादा बार चलें।"
         },
         "kind": "literal",
-        "evidence": "Je préférerais qu'on améliore d'abord la fréquence"
+        "evidence": "Je préférerais qu'on améliore d'abord la fréquence",
+        "optionsHi": [
+          "सबके लिए मुफ़्त बसें",
+          "कम चुनाव",
+          "परिवारों के लिए कम कर",
+          "बसों की अधिक आवृत्ति"
+        ]
       },
       {
         "q": {
-          "en": "What is Ravi's position?"
+          "en": "What is Ravi's position?",
+          "hi": "Ravi का रुख क्या है?"
         },
         "options": [
           "For the idea, but wants it for more groups",
@@ -641,11 +698,18 @@
           "hi": "'d'accord avec le principe, mais pourquoi seulement les moins de 25 ans ?' — सहमत, पर दायरा बढ़ाना चाहते हैं।"
         },
         "kind": "inference",
-        "evidence": "Je suis d'accord avec le principe, mais pourquoi seulement les moins de 25 ans ?"
+        "evidence": "Je suis d'accord avec le principe, mais pourquoi seulement les moins de 25 ans ?",
+        "optionsHi": [
+          "विचार के पक्ष में, लेकिन चाहता है कि यह और समूहों के लिए भी हो",
+          "उदासीन",
+          "विचार के पक्ष में, लेकिन केवल छात्रों के लिए",
+          "विचार के विरोध में"
+        ]
       },
       {
         "q": {
-          "en": "Which long-term effect does Mélanie hope for?"
+          "en": "Which long-term effect does Mélanie hope for?",
+          "hi": "Mélanie को किस दीर्घकालिक प्रभाव की उम्मीद है?"
         },
         "options": [
           "More buses at night",
@@ -659,11 +723,18 @@
           "hi": "'ils achèteront peut-être moins de voitures plus tard' — बाद में कम गाड़ियाँ।"
         },
         "kind": "literal",
-        "evidence": "ils achèteront peut-être moins de voitures plus tard"
+        "evidence": "ils achèteront peut-être moins de voitures plus tard",
+        "optionsHi": [
+          "रात में ज़्यादा बसें",
+          "ड्राइवरों के लिए ज़्यादा नौकरियाँ",
+          "युवा लोग कम कारें खरीदेंगे",
+          "कर कम हो जाएँगे"
+        ]
       },
       {
         "q": {
-          "en": "What is the tone of the anonymous comment?"
+          "en": "What is the tone of the anonymous comment?",
+          "hi": "अनाम टिप्पणी का लहजा कैसा है?"
         },
         "options": [
           "Enthusiastic",
@@ -677,11 +748,18 @@
           "hi": "'tiens', 'belle promesse', 'comme par hasard … avant les élections' — राजनीतिक चाल का इशारा: व्यंग्यपूर्ण।"
         },
         "kind": "inference",
-        "evidence": "comme par hasard, un an avant les élections municipales"
+        "evidence": "comme par hasard, un an avant les élections municipales",
+        "optionsHi": [
+          "उत्साहपूर्ण",
+          "व्यंग्यपूर्ण और संदेह भरा",
+          "तटस्थ और तथ्यपरक",
+          "पर्यावरण को लेकर चिंतित"
+        ]
       },
       {
         "q": {
-          "en": "In her reply, what does Sophie say to J-P?"
+          "en": "In her reply, what does Sophie say to J-P?",
+          "hi": "अपने जवाब में Sophie, J-P से क्या कहती है?"
         },
         "options": [
           "Taxes are not a problem",
@@ -695,7 +773,13 @@
           "hi": "'les deux ne sont pas incompatibles' = दोनों साथ हो सकते हैं।"
         },
         "kind": "inference",
-        "evidence": "Vous avez raison pour la fréquence, mais les deux ne sont pas incompatibles !"
+        "evidence": "Vous avez raison pour la fréquence, mais les deux ne sont pas incompatibles !",
+        "optionsHi": [
+          "कर कोई समस्या नहीं हैं",
+          "वह बस लेना बंद कर देगी",
+          "वह पूरी तरह ग़लत है",
+          "मुफ़्त बसें और बेहतर आवृत्ति, दोनों साथ हो सकते हैं"
+        ]
       }
     ]
   },
@@ -722,19 +806,19 @@
         "fr": "Je suis tout à fait pour.",
         "en": "I'm completely in favour.",
         "hi": "मैं पूरी तरह पक्ष में हूँ।",
-        "pron": "झ़ö स्üई तू ता फ़ै पूग़"
+        "pron": "ज स्यूई तू ता फ़े पूर"
       },
       {
         "fr": "Je comprends votre point de vue, mais…",
         "en": "I understand your point of view, but…",
         "hi": "मैं आपकी बात समझता हूँ, लेकिन…",
-        "pron": "झ़ö कोँ-प्राँ वॉत्ग़ प्वैँ द व्यü मै"
+        "pron": "ज कों-प्राँ वॉत्र प्वैं द व्य्यू मे"
       },
       {
         "fr": "C'est un investissement pour l'avenir.",
         "en": "It's an investment for the future.",
         "hi": "यह भविष्य के लिए निवेश है।",
-        "pron": "सै तैँ नैँ-वैस-तीस-माँ पूग़ ला-व-नीग़"
+        "pron": "से तैं नैं-वेस-तीस-माँ पूर ला-व-नीर"
       }
     ],
     "model": {
@@ -774,49 +858,49 @@
         "fr": "à mon avis",
         "en": "in my opinion",
         "hi": "मेरी राय में",
-        "pron": "आ मोँ ना-वी"
+        "pron": "आ मों ना-वी"
       },
       {
         "fr": "je trouve que",
         "en": "I find that",
         "hi": "मुझे लगता है कि",
-        "pron": "झ़ö त्ग़ूव कö"
+        "pron": "ज त्रूव क"
       },
       {
         "fr": "puisque",
         "en": "since (known reason)",
         "hi": "चूँकि",
-        "pron": "प्üइस-कö"
+        "pron": "प्यूइस-क"
       },
       {
         "fr": "d'un côté… de l'autre…",
         "en": "on one hand… on the other…",
         "hi": "एक तरफ़… दूसरी तरफ़…",
-        "pron": "दैँ को-ते दö लोत्ग़"
+        "pron": "दैं को-ते द लोत्र"
       },
       {
         "fr": "par contre",
         "en": "on the other hand",
         "hi": "दूसरी ओर",
-        "pron": "पाग़ कोँत्ग़"
+        "pron": "पार कोंत्र"
       },
       {
         "fr": "Je comprends, mais…",
         "en": "I understand, but…",
         "hi": "मैं समझता हूँ, लेकिन…",
-        "pron": "झ़ö कोँ-प्राँ मै"
+        "pron": "ज कों-प्राँ मे"
       },
       {
         "fr": "même si",
         "en": "even if",
         "hi": "भले ही",
-        "pron": "मैम सी"
+        "pron": "मेम सी"
       },
       {
         "fr": "Je ne suis pas d'accord.",
         "en": "I don't agree.",
         "hi": "मैं सहमत नहीं हूँ।",
-        "pron": "झ़ö नö स्üई पा दा-कॉग़"
+        "pron": "ज न स्यूई पा दा-कॉर"
       }
     ]
   },

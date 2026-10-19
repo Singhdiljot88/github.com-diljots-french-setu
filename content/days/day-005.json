@@ -13,29 +13,29 @@
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "zéro, un, deux, trois, quatre, cinq", "en": "0, 1, 2, 3, 4, 5", "hi": "शून्य, एक, दो, तीन, चार, पाँच", "pron": "ज़े-ग़ो ऐँ दö त्ग़्वा कात्ग़ सैँक", "ipa": "zeʁo ɛ̃ dø tʁwa katʁ sɛ̃k", "pos": "number", "note": { "en": "'un' becomes 'une' before a feminine noun: une sœur.", "hi": "स्त्रीलिंग संज्ञा से पहले 'un' का रूप 'une' हो जाता है: une sœur।" } },
-    { "fr": "six, sept, huit, neuf, dix", "en": "6, 7, 8, 9, 10", "hi": "छह, सात, आठ, नौ, दस", "pron": "सीस सैत üइत नöफ़ दीस", "ipa": "sis sɛt ɥit nœf dis", "pos": "number", "note": { "en": "In 'sept' the p is silent.", "hi": "'sept' में p नहीं बोला जाता।" } },
-    { "fr": "onze, douze, treize, quatorze, quinze, seize", "en": "11, 12, 13, 14, 15, 16", "hi": "ग्यारह, बारह, तेरह, चौदह, पंद्रह, सोलह", "pron": "ओँज़ दूज़ त्ग़ैज़ का-तॉग़्ज़ कैँज़ सैज़", "ipa": "ɔ̃z duz tʁɛz katɔʁz kɛ̃z sɛz", "pos": "number" },
-    { "fr": "dix-sept, dix-huit, dix-neuf, vingt", "en": "17, 18, 19, 20", "hi": "सत्रह, अठारह, उन्नीस, बीस", "pron": "दी-सैत दी-ज़üइत दीज़-नöफ़ वैँ", "ipa": "disɛt dizɥit diznœf vɛ̃", "pos": "number", "note": { "en": "17–19 are 'ten-seven, ten-eight, ten-nine'. In vingt, the g and t are silent.", "hi": "17–19 का मतलब है 'दस-सात, दस-आठ, दस-नौ'। vingt में g और t नहीं बोले जाते।" } },
-    { "fr": "un an / deux ans", "en": "one year / two years", "hi": "एक साल / दो साल", "pron": "ऐँ नाँ / दö ज़ाँ", "ipa": "ɛ̃ nɑ̃ / dø zɑ̃", "pos": "noun", "gender": "m", "lemma": "an" },
-    { "fr": "l'âge", "en": "age", "hi": "उम्र", "pron": "लाझ़", "ipa": "laʒ", "pos": "noun", "gender": "m", "lemma": "âge", "note": { "en": "Masculine in French (quel âge), though उम्र is feminine in Hindi.", "hi": "फ़्रेंच में पुल्लिंग है (quel âge), जबकि हिंदी में 'उम्र' स्त्रीलिंग है।" } },
-    { "fr": "le frère", "en": "brother", "hi": "भाई", "pron": "लö फ़्ग़ैग़", "ipa": "lə fʁɛʁ", "pos": "noun", "gender": "m", "lemma": "frère" },
-    { "fr": "la sœur", "en": "sister", "hi": "बहन", "pron": "ला सöग़", "ipa": "la sœʁ", "pos": "noun", "gender": "f", "lemma": "sœur", "note": { "en": "œ is one letter: o and e joined.", "hi": "œ एक ही अक्षर है: o और e जुड़े हुए।" } },
+    { "fr": "zéro, un, deux, trois, quatre, cinq", "en": "0, 1, 2, 3, 4, 5", "hi": "शून्य, एक, दो, तीन, चार, पाँच", "pron": "ज़े-रो ऐं द त्र्वा कात्र सैंक", "ipa": "zeʁo ɛ̃ dø tʁwa katʁ sɛ̃k", "pos": "number", "note": { "en": "'un' becomes 'une' before a feminine noun: une sœur.", "hi": "स्त्रीलिंग संज्ञा से पहले 'un' का रूप 'une' हो जाता है: une sœur।" } },
+    { "fr": "six, sept, huit, neuf, dix", "en": "6, 7, 8, 9, 10", "hi": "छह, सात, आठ, नौ, दस", "pron": "सीस सेत यूइत नफ़ दीस", "ipa": "sis sɛt ɥit nœf dis", "pos": "number", "note": { "en": "In 'sept' the p is silent.", "hi": "'sept' में p नहीं बोला जाता।" } },
+    { "fr": "onze, douze, treize, quatorze, quinze, seize", "en": "11, 12, 13, 14, 15, 16", "hi": "ग्यारह, बारह, तेरह, चौदह, पंद्रह, सोलह", "pron": "ओंज़ दूज़ त्रेज़ का-तॉर्ज़ कैंज़ सेज़", "ipa": "ɔ̃z duz tʁɛz katɔʁz kɛ̃z sɛz", "pos": "number" },
+    { "fr": "dix-sept, dix-huit, dix-neuf, vingt", "en": "17, 18, 19, 20", "hi": "सत्रह, अठारह, उन्नीस, बीस", "pron": "दी-सेत दी-ज़्यूइत दीज़-नफ़ वैं", "ipa": "disɛt dizɥit diznœf vɛ̃", "pos": "number", "note": { "en": "17–19 are 'ten-seven, ten-eight, ten-nine'. In vingt, the g and t are silent.", "hi": "17–19 का मतलब है 'दस-सात, दस-आठ, दस-नौ'। vingt में g और t नहीं बोले जाते।" } },
+    { "fr": "un an / deux ans", "en": "one year / two years", "hi": "एक साल / दो साल", "pron": "ऐं नाँ / द ज़ाँ", "ipa": "ɛ̃ nɑ̃ / dø zɑ̃", "pos": "noun", "gender": "m", "lemma": "an" },
+    { "fr": "l'âge", "en": "age", "hi": "उम्र", "pron": "लाज", "ipa": "laʒ", "pos": "noun", "gender": "m", "lemma": "âge", "note": { "en": "Masculine in French (quel âge), though उम्र is feminine in Hindi.", "hi": "फ़्रेंच में पुल्लिंग है (quel âge), जबकि हिंदी में 'उम्र' स्त्रीलिंग है।" } },
+    { "fr": "le frère", "en": "brother", "hi": "भाई", "pron": "ल फ़्रेर", "ipa": "lə fʁɛʁ", "pos": "noun", "gender": "m", "lemma": "frère" },
+    { "fr": "la sœur", "en": "sister", "hi": "बहन", "pron": "ला सर", "ipa": "la sœʁ", "pos": "noun", "gender": "f", "lemma": "sœur", "note": { "en": "œ is one letter: o and e joined.", "hi": "œ एक ही अक्षर है: o और e जुड़े हुए।" } },
     { "fr": "l'enfant", "en": "child", "hi": "बच्चा / बच्ची", "pron": "लाँ-फ़ाँ", "ipa": "lɑ̃fɑ̃", "pos": "noun", "gender": "mf", "lemma": "enfant", "note": { "en": "un enfant (boy), une enfant (girl). Final t silent.", "hi": "un enfant (लड़का), une enfant (लड़की)। आख़िरी t नहीं बोला जाता।" } },
-    { "fr": "le père", "en": "father", "hi": "पिता", "pron": "लö पैग़", "ipa": "lə pɛʁ", "pos": "noun", "gender": "m", "lemma": "père" },
-    { "fr": "la mère", "en": "mother", "hi": "माँ", "pron": "ला मैग़", "ipa": "la mɛʁ", "pos": "noun", "gender": "f", "lemma": "mère" },
-    { "fr": "le fils", "en": "son", "hi": "बेटा", "pron": "लö फ़ीस", "ipa": "lə fis", "pos": "noun", "gender": "m", "lemma": "fils", "note": { "en": "Trap: the l is silent and the s is heard: फ़ीस.", "hi": "जाल: l नहीं बोला जाता और s सुनाई देता है: फ़ीस।" } },
+    { "fr": "le père", "en": "father", "hi": "पिता", "pron": "ल पेर", "ipa": "lə pɛʁ", "pos": "noun", "gender": "m", "lemma": "père" },
+    { "fr": "la mère", "en": "mother", "hi": "माँ", "pron": "ला मेर", "ipa": "la mɛʁ", "pos": "noun", "gender": "f", "lemma": "mère" },
+    { "fr": "le fils", "en": "son", "hi": "बेटा", "pron": "ल फ़ीस", "ipa": "lə fis", "pos": "noun", "gender": "m", "lemma": "fils", "note": { "en": "Trap: the l is silent and the s is heard: फ़ीस.", "hi": "जाल: l नहीं बोला जाता और s सुनाई देता है: फ़ीस।" } },
     { "fr": "la fille", "en": "daughter / girl", "hi": "बेटी / लड़की", "pron": "ला फ़ीय", "ipa": "la fij", "pos": "noun", "gender": "f", "lemma": "fille", "note": { "en": "Here 'ill' sounds like य (unlike ville).", "hi": "यहाँ 'ill' की आवाज़ 'य' है (ville से अलग)।" } },
     { "fr": "la famille", "en": "family", "hi": "परिवार", "pron": "ला फ़ा-मीय", "ipa": "la famij", "pos": "noun", "gender": "f", "lemma": "famille" }
   ],
   "phrases": [
-    { "fr": "Tu as quel âge ?", "en": "How old are you? (friendly)", "hi": "तुम्हारी उम्र क्या है?", "pron": "तü आ कै लाझ़", "ipa": "ty a kɛ laʒ" },
-    { "fr": "Quel âge avez-vous ?", "en": "How old are you? (polite)", "hi": "आपकी उम्र क्या है?", "pron": "कै लाझ़ आ-वे वू", "ipa": "kɛ laʒ ave vu" },
-    { "fr": "J'ai vingt ans.", "en": "I'm twenty.", "hi": "मैं बीस साल का / की हूँ।", "pron": "झ़े वैँ ताँ", "ipa": "ʒe vɛ̃ tɑ̃", "note": { "en": "Liaison: the t of vingt is heard before ans.", "hi": "जोड़: ans से पहले vingt का t सुनाई देता है।" } },
-    { "fr": "J'ai un frère et une sœur.", "en": "I have a brother and a sister.", "hi": "मेरा एक भाई और एक बहन है।", "pron": "झ़े ऐँ फ़्ग़ैग़ ए üन सöग़", "ipa": "ʒe ɛ̃ fʁɛʁ e yn sœʁ" },
-    { "fr": "Mon fils a huit ans.", "en": "My son is eight.", "hi": "मेरा बेटा आठ साल का है।", "pron": "मोँ फ़ीस आ üइ ताँ", "ipa": "mɔ̃ fis a ɥi tɑ̃", "note": { "en": "mon = my (masculine), ma = my (feminine). Learn them as blocks for now: mon frère, ma sœur.", "hi": "mon = मेरा (पुल्लिंग), ma = मेरी (स्त्रीलिंग)। अभी इन्हें जोड़े में याद कीजिए: mon frère, ma sœur।" } },
+    { "fr": "Tu as quel âge ?", "en": "How old are you? (friendly)", "hi": "तुम्हारी उम्र क्या है?", "pron": "त्यू आ के लाज", "ipa": "ty a kɛ laʒ" },
+    { "fr": "Quel âge avez-vous ?", "en": "How old are you? (polite)", "hi": "आपकी उम्र क्या है?", "pron": "के लाज आ-वे वू", "ipa": "kɛ laʒ ave vu" },
+    { "fr": "J'ai vingt ans.", "en": "I'm twenty.", "hi": "मैं बीस साल का / की हूँ।", "pron": "जे वैं ताँ", "ipa": "ʒe vɛ̃ tɑ̃", "note": { "en": "Liaison: the t of vingt is heard before ans.", "hi": "जोड़: ans से पहले vingt का t सुनाई देता है।" } },
+    { "fr": "J'ai un frère et une sœur.", "en": "I have a brother and a sister.", "hi": "मेरा एक भाई और एक बहन है।", "pron": "जे ऐं फ़्रेर ए यून सर", "ipa": "ʒe ɛ̃ fʁɛʁ e yn sœʁ" },
+    { "fr": "Mon fils a huit ans.", "en": "My son is eight.", "hi": "मेरा बेटा आठ साल का है।", "pron": "मों फ़ीस आ यूइ ताँ", "ipa": "mɔ̃ fis a ɥi tɑ̃", "note": { "en": "mon = my (masculine), ma = my (feminine). Learn them as blocks for now: mon frère, ma sœur.", "hi": "mon = मेरा (पुल्लिंग), ma = मेरी (स्त्रीलिंग)। अभी इन्हें जोड़े में याद कीजिए: mon frère, ma sœur।" } },
     { "fr": "Vous avez des enfants ?", "en": "Do you have children?", "hi": "क्या आपके बच्चे हैं?", "pron": "वू ज़ा-वे दे ज़ाँ-फ़ाँ", "ipa": "vu zave de zɑ̃fɑ̃" },
-    { "fr": "Elle s'appelle Léa.", "en": "Her name is Léa.", "hi": "उसका नाम लेआ है।", "pron": "ऐल सा-पैल ले-आ", "ipa": "ɛl sapɛl lea" }
+    { "fr": "Elle s'appelle Léa.", "en": "Her name is Léa.", "hi": "उसका नाम लेआ है।", "pron": "एल सा-पेल ले-आ", "ipa": "ɛl sapɛl lea" }
   ],
   "grammar": {
     "title": { "en": "avoir (to have) and giving your age", "hi": "avoir (पास होना) और उम्र बताना" },
@@ -48,31 +48,31 @@
       "hi": "अंग्रेज़ी में 'I am 30' और हिंदी में 'मैं 30 साल का हूँ' — दोनों में 'होना' है। फ़्रेंच में 'J'ai trente ans' — 'पास होना' के साथ। इसलिए कभी 'Je suis vingt ans' मत कहिए। साथ ही, हिंदी में पुरुष/स्त्री के लिए का/की बदलता है; फ़्रेंच 'j'ai … ans' सबके लिए एक-सा है। (20 से ऊपर की संख्याएँ दिन 12 में।)"
     },
     "examples": [
-      { "fr": "J'ai dix-neuf ans.", "en": "I'm nineteen.", "hi": "मैं उन्नीस साल का / की हूँ।", "pron": "झ़े दीज़-नö वाँ", "note": { "en": "neuf + ans: the f sounds like v.", "hi": "neuf + ans: f की आवाज़ 'व' हो जाती है।" } },
-      { "fr": "Ma sœur a seize ans.", "en": "My sister is sixteen.", "hi": "मेरी बहन सोलह साल की है।", "pron": "मा सöग़ आ सै ज़ाँ" },
-      { "fr": "Nous avons deux enfants.", "en": "We have two children.", "hi": "हमारे दो बच्चे हैं।", "pron": "नू ज़ा-वोँ दö ज़ाँ-फ़ाँ" },
-      { "fr": "Ils ont dix-huit ans.", "en": "They are eighteen.", "hi": "वे अठारह साल के हैं।", "pron": "ईल ज़ोँ दी-ज़üइ ताँ" },
-      { "fr": "Tu as quel âge, Simran ?", "en": "How old are you, Simran?", "hi": "सिमरन, तुम्हारी उम्र क्या है?", "pron": "तü आ कै लाझ़ सिम-ग़ान" }
+      { "fr": "J'ai dix-neuf ans.", "en": "I'm nineteen.", "hi": "मैं उन्नीस साल का / की हूँ।", "pron": "जे दीज़-न वाँ", "note": { "en": "neuf + ans: the f sounds like v.", "hi": "neuf + ans: f की आवाज़ 'व' हो जाती है।" } },
+      { "fr": "Ma sœur a seize ans.", "en": "My sister is sixteen.", "hi": "मेरी बहन सोलह साल की है।", "pron": "मा सर आ से ज़ाँ" },
+      { "fr": "Nous avons deux enfants.", "en": "We have two children.", "hi": "हमारे दो बच्चे हैं।", "pron": "नू ज़ा-वों द ज़ाँ-फ़ाँ" },
+      { "fr": "Ils ont dix-huit ans.", "en": "They are eighteen.", "hi": "वे अठारह साल के हैं।", "pron": "ईल ज़ों दी-ज़्यूइ ताँ" },
+      { "fr": "Tu as quel âge, Simran ?", "en": "How old are you, Simran?", "hi": "सिमरन, तुम्हारी उम्र क्या है?", "pron": "त्यू आ के लाज सिम-रान" }
     ],
     "pitfalls": [
       { "en": "Not 'Je suis vingt ans' and not 'J'ai vingt' — say 'J'ai vingt ans'.", "hi": "'Je suis vingt ans' नहीं, और 'J'ai vingt' भी नहीं — 'J'ai vingt ans' कहिए।" },
       { "en": "je + ai = j'ai (always shortened).", "hi": "je + ai = j'ai (हमेशा छोटा रूप)।" },
-      { "en": "Don't mix up ils sont (they are) and ils ont (they have): ईल सोँ / ईल ज़ोँ.", "hi": "ils sont (वे हैं) और ils ont (उनके पास है) में गड़बड़ मत कीजिए: ईल सोँ / ईल ज़ोँ।" }
+      { "en": "Don't mix up ils sont (they are) and ils ont (they have): ईल सों / ईल ज़ों.", "hi": "ils sont (वे हैं) और ils ont (उनके पास है) में गड़बड़ मत कीजिए: ईल सों / ईल ज़ों।" }
     ]
   },
   "pronunciation": {
     "focus": "Final consonants in numbers: six, dix, huit, cinq",
     "tip": {
-      "en": "six, dix, huit and cinq change with what follows. Alone, the final consonant is heard: सीस, दीस, üइत, सैँक. Before a vowel it links: six ans (सी ज़ाँ — s becomes z), dix ans (दी ज़ाँ), huit ans (üइ ताँ). Before a consonant, six, dix and huit drop it: six frères = सी फ़्ग़ैग़.",
-      "hi": "six, dix, huit और cinq आगे के शब्द के हिसाब से बदलते हैं। अकेले में आख़िरी व्यंजन सुनाई देता है: सीस, दीस, üइत, सैँक। स्वर से पहले जुड़ता है: six ans (सी ज़ाँ — s का 'ज़'), dix ans (दी ज़ाँ), huit ans (üइ ताँ)। व्यंजन से पहले six, dix और huit उसे छोड़ देते हैं: six frères = सी फ़्ग़ैग़।"
+      "en": "six, dix, huit and cinq change with what follows. Alone, the final consonant is heard: सीस, दीस, यूइत, सैंक. Before a vowel it links: six ans (सी ज़ाँ — s becomes z), dix ans (दी ज़ाँ), huit ans (यूइ ताँ). Before a consonant, six, dix and huit drop it: six frères = सी फ़्रेर.",
+      "hi": "six, dix, huit और cinq आगे के शब्द के हिसाब से बदलते हैं। अकेले में आख़िरी व्यंजन सुनाई देता है: सीस, दीस, यूइत, सैंक। स्वर से पहले जुड़ता है: six ans (सी ज़ाँ — s का 'ज़'), dix ans (दी ज़ाँ), huit ans (यूइ ताँ)। व्यंजन से पहले six, dix और huit उसे छोड़ देते हैं: six frères = सी फ़्रेर।"
     },
     "words": [
       { "fr": "six", "en": "six (alone)", "hi": "छह (अकेले)", "pron": "सीस", "ipa": "sis" },
       { "fr": "six ans", "en": "six years", "hi": "छह साल", "pron": "सी ज़ाँ", "ipa": "si zɑ̃" },
       { "fr": "dix enfants", "en": "ten children", "hi": "दस बच्चे", "pron": "दी ज़ाँ-फ़ाँ", "ipa": "di zɑ̃fɑ̃" },
-      { "fr": "huit ans", "en": "eight years", "hi": "आठ साल", "pron": "üइ ताँ", "ipa": "ɥi tɑ̃" },
-      { "fr": "cinq ans", "en": "five years", "hi": "पाँच साल", "pron": "सैँ काँ", "ipa": "sɛ̃ kɑ̃" },
-      { "fr": "neuf ans", "en": "nine years", "hi": "नौ साल", "pron": "नö वाँ", "ipa": "nœ vɑ̃", "note": { "en": "Only before ans (and heures): f → v.", "hi": "सिर्फ़ ans (और heures) से पहले: f → v।" } }
+      { "fr": "huit ans", "en": "eight years", "hi": "आठ साल", "pron": "यूइ ताँ", "ipa": "ɥi tɑ̃" },
+      { "fr": "cinq ans", "en": "five years", "hi": "पाँच साल", "pron": "सैं काँ", "ipa": "sɛ̃ kɑ̃" },
+      { "fr": "neuf ans", "en": "nine years", "hi": "नौ साल", "pron": "न वाँ", "ipa": "nœ vɑ̃", "note": { "en": "Only before ans (and heures): f → v.", "hi": "सिर्फ़ ans (और heures) से पहले: f → v।" } }
     ]
   },
   "listening": {
@@ -91,11 +91,11 @@
       { "speaker": "Voisine", "voice": "f2", "fr": "Elle s'appelle Léa.", "en": "Her name is Léa.", "hi": "उसका नाम लेआ है।" }
     ],
     "questions": [
-      { "q": { "en": "How many children do the Gills have?" }, "options": ["Two", "Three", "Six"], "answer": 1, "explanation": { "en": "'nous avons trois enfants' — three.", "hi": "'nous avons trois enfants' — तीन।" }, "kind": "literal", "evidence": "Oui, nous avons trois enfants." },
-      { "q": { "en": "How old is Aman?" }, "options": ["8", "12", "17"], "answer": 0, "explanation": { "en": "'Mon fils Aman a huit ans.'", "hi": "'Mon fils Aman a huit ans.' — अमन आठ साल का है।" }, "kind": "literal", "evidence": "Mon fils Aman a huit ans" },
-      { "q": { "en": "Who is the oldest of the three children?" }, "options": ["Simran", "Aman", "Dev"], "answer": 2, "explanation": { "en": "Dev is seventeen; Simran is twelve and Aman is eight.", "hi": "देव सत्रह साल का है; सिमरन बारह और अमन आठ साल का।" }, "kind": "inference", "evidence": "Et mon frère Dev a dix-sept ans !" },
-      { "q": { "en": "What do we learn about the neighbour's daughter?" }, "options": ["She is six and called Léa", "She is twelve and called Léa", "She is six and called Simran"], "answer": 0, "explanation": { "en": "'Elle a six ans' and 'Elle s'appelle Léa.'", "hi": "'Elle a six ans' और 'Elle s'appelle Léa.'" }, "kind": "literal", "evidence": "Elle a six ans." },
-      { "q": { "en": "Which verb do they use for age?" }, "options": ["être (to be)", "avoir (to have)", "s'appeler (to be called)"], "answer": 1, "explanation": { "en": "Age always uses avoir: 'Ils ont quel âge ?', 'a huit ans'.", "hi": "उम्र के लिए हमेशा avoir: 'Ils ont quel âge ?', 'a huit ans'।" }, "kind": "grammar", "evidence": "Ils ont quel âge ?" }
+      { "q": { "en": "How many children do the Gills have?", "hi": "Gill परिवार के कितने बच्चे हैं?" }, "options": ["Two", "Three", "Six"], "answer": 1, "explanation": { "en": "'nous avons trois enfants' — three.", "hi": "'nous avons trois enfants' — तीन।" }, "kind": "literal", "evidence": "Oui, nous avons trois enfants." },
+      { "q": { "en": "How old is Aman?", "hi": "Aman की उम्र कितनी है?" }, "options": ["8", "12", "17"], "answer": 0, "explanation": { "en": "'Mon fils Aman a huit ans.'", "hi": "'Mon fils Aman a huit ans.' — अमन आठ साल का है।" }, "kind": "literal", "evidence": "Mon fils Aman a huit ans" },
+      { "q": { "en": "Who is the oldest of the three children?", "hi": "तीनों बच्चों में सबसे बड़ा कौन है?" }, "options": ["Simran", "Aman", "Dev"], "answer": 2, "explanation": { "en": "Dev is seventeen; Simran is twelve and Aman is eight.", "hi": "देव सत्रह साल का है; सिमरन बारह और अमन आठ साल का।" }, "kind": "inference", "evidence": "Et mon frère Dev a dix-sept ans !" },
+      { "q": { "en": "What do we learn about the neighbour's daughter?", "hi": "पड़ोसी की बेटी के बारे में हमें क्या पता चलता है?" }, "options": ["She is six and called Léa", "She is twelve and called Léa", "She is six and called Simran"], "optionsHi": ["वह छह साल की है और उसका नाम Léa है", "वह बारह साल की है और उसका नाम Léa है", "वह छह साल की है और उसका नाम Simran है"], "answer": 0, "explanation": { "en": "'Elle a six ans' and 'Elle s'appelle Léa.'", "hi": "'Elle a six ans' और 'Elle s'appelle Léa.'" }, "kind": "literal", "evidence": "Elle a six ans." },
+      { "q": { "en": "Which verb do they use for age?", "hi": "उम्र बताने के लिए वे कौन-सी क्रिया इस्तेमाल करते हैं?" }, "options": ["être (to be)", "avoir (to have)", "s'appeler (to be called)"], "optionsHi": ["être (होना)", "avoir (रखना)", "s'appeler (नाम होना)"], "answer": 1, "explanation": { "en": "Age always uses avoir: 'Ils ont quel âge ?', 'a huit ans'.", "hi": "उम्र के लिए हमेशा avoir: 'Ils ont quel âge ?', 'a huit ans'।" }, "kind": "grammar", "evidence": "Ils ont quel âge ?" }
     ],
     "dictation": ["Nous avons trois enfants.", "Ma fille a douze ans.", "Elle a six ans."],
     "gapFill": { "text": "Mon fils Aman a ___ ans, et ma fille Simran a ___ ans.", "answers": ["huit", "douze"] }
@@ -107,15 +107,15 @@
       "hi": "0 से 20 तक दो बार ज़ोर से गिनिए। फिर अपनी उम्र, परिवार के दो लोगों की उम्र, और अपना फ़ोन नंबर एक-एक अंक करके बोलिए।"
     },
     "prompts": [
-      { "fr": "zéro, un, deux, trois … vingt", "en": "zero, one, two, three … twenty", "hi": "शून्य, एक, दो, तीन … बीस", "pron": "ज़े-ग़ो ऐँ दö त्ग़्वा … वैँ" },
-      { "fr": "J'ai … ans.", "en": "I am … years old.", "hi": "मैं … साल का / की हूँ।", "pron": "झ़े … आँ", "model": "J'ai dix-neuf ans." },
-      { "fr": "Mon frère a … ans.", "en": "My brother is …", "hi": "मेरा भाई … साल का है।", "pron": "मोँ फ़्ग़ैग़ आ … आँ", "model": "Mon frère a quinze ans." },
-      { "fr": "Ma mère a … ans.", "en": "My mother is …", "hi": "मेरी माँ … साल की हैं।", "pron": "मा मैग़ आ … आँ" },
-      { "fr": "Mon numéro : six, un, trois, cinq, cinq, cinq, zéro, un, deux, huit.", "en": "My number: 6-1-3-5-5-5-0-1-2-8.", "hi": "मेरा नंबर: 6-1-3-5-5-5-0-1-2-8।", "pron": "मोँ नü-मे-ग़ो सीस ऐँ त्ग़्वा सैँक सैँक सैँक ज़े-ग़ो ऐँ दö üइत" }
+      { "fr": "zéro, un, deux, trois … vingt", "en": "zero, one, two, three … twenty", "hi": "शून्य, एक, दो, तीन … बीस", "pron": "ज़े-रो ऐं द त्र्वा … वैं" },
+      { "fr": "J'ai … ans.", "en": "I am … years old.", "hi": "मैं … साल का / की हूँ।", "pron": "जे … आँ", "model": "J'ai dix-neuf ans." },
+      { "fr": "Mon frère a … ans.", "en": "My brother is …", "hi": "मेरा भाई … साल का है।", "pron": "मों फ़्रेर आ … आँ", "model": "Mon frère a quinze ans." },
+      { "fr": "Ma mère a … ans.", "en": "My mother is …", "hi": "मेरी माँ … साल की हैं।", "pron": "मा मेर आ … आँ" },
+      { "fr": "Mon numéro : six, un, trois, cinq, cinq, cinq, zéro, un, deux, huit.", "en": "My number: 6-1-3-5-5-5-0-1-2-8.", "hi": "मेरा नंबर: 6-1-3-5-5-5-0-1-2-8।", "pron": "मों न्यू-मे-रो सीस ऐं त्र्वा सैंक सैंक सैंक ज़े-रो ऐं द यूइत" }
     ],
     "tip": {
-      "en": "Say each digit clearly and pause between groups. 'un' is a nasal sound (ऐँ) — don't say 'oon'.",
-      "hi": "हर अंक साफ़ बोलिए और समूहों के बीच रुकिए। 'un' नासिक्य आवाज़ है (ऐँ) — 'ऊन' मत कहिए।"
+      "en": "Say each digit clearly and pause between groups. 'un' is a nasal sound (ऐं) — don't say 'oon'.",
+      "hi": "हर अंक साफ़ बोलिए और समूहों के बीच रुकिए। 'un' नासिक्य आवाज़ है (ऐं) — 'ऊन' मत कहिए।"
     }
   },
   "reading": {
@@ -127,10 +127,10 @@
       "hi": "पार्क स्कूल — संपर्क कार्ड\nविद्यार्थी: अमन गिल, 8 साल\nस्कूल में बहन: सिमरन गिल, 12 साल\nअभिभावक: हरप्रीत गिल (माँ)\nफ़ोन: 438 555-0192\nपता: अपार्टमेंट 16, रू लावाल, मॉन्ट्रियाल"
     },
     "questions": [
-      { "q": { "en": "How old is the pupil?" }, "options": ["Twelve", "Eight", "Sixteen"], "answer": 1, "explanation": { "en": "'Élève : Aman GILL, 8 ans' — huit ans.", "hi": "'Élève : Aman GILL, 8 ans' — आठ साल।" }, "kind": "literal", "evidence": "Élève : Aman GILL, 8 ans" },
-      { "q": { "en": "Who is Harpreet Gill?" }, "options": ["Aman's mother", "Aman's sister", "Aman's teacher"], "answer": 0, "explanation": { "en": "'Parent : Harpreet Gill (mère)' — mère = mother.", "hi": "'Parent : Harpreet Gill (mère)' — mère = माँ।" }, "kind": "vocabulary", "evidence": "Parent : Harpreet Gill (mère)" },
-      { "q": { "en": "How would you say the apartment number in French?" }, "options": ["six", "seize", "soixante"], "answer": 1, "explanation": { "en": "16 = seize.", "hi": "16 = seize।" }, "kind": "vocabulary", "evidence": "appartement 16" },
-      { "q": { "en": "What is Simran's relationship to Aman?" }, "options": ["His mother", "His sister", "His daughter"], "answer": 1, "explanation": { "en": "'Sœur à l'école : Simran' — sœur = sister.", "hi": "'Sœur à l'école : Simran' — sœur = बहन।" }, "kind": "vocabulary", "evidence": "Sœur à l'école : Simran GILL, 12 ans" }
+      { "q": { "en": "How old is the pupil?", "hi": "विद्यार्थी की उम्र कितनी है?" }, "options": ["Twelve", "Eight", "Sixteen"], "answer": 1, "explanation": { "en": "'Élève : Aman GILL, 8 ans' — huit ans.", "hi": "'Élève : Aman GILL, 8 ans' — आठ साल।" }, "kind": "literal", "evidence": "Élève : Aman GILL, 8 ans" },
+      { "q": { "en": "Who is Harpreet Gill?", "hi": "Harpreet Gill कौन है?" }, "options": ["Aman's mother", "Aman's sister", "Aman's teacher"], "optionsHi": ["Aman की माँ", "Aman की बहन", "Aman का शिक्षक"], "answer": 0, "explanation": { "en": "'Parent : Harpreet Gill (mère)' — mère = mother.", "hi": "'Parent : Harpreet Gill (mère)' — mère = माँ।" }, "kind": "vocabulary", "evidence": "Parent : Harpreet Gill (mère)" },
+      { "q": { "en": "How would you say the apartment number in French?", "hi": "अपार्टमेंट का नंबर फ़्रेंच में कैसे कहा जाएगा?" }, "options": ["six", "seize", "soixante"], "answer": 1, "explanation": { "en": "16 = seize.", "hi": "16 = seize।" }, "kind": "vocabulary", "evidence": "appartement 16" },
+      { "q": { "en": "What is Simran's relationship to Aman?", "hi": "Simran का Aman से क्या रिश्ता है?" }, "options": ["His mother", "His sister", "His daughter"], "optionsHi": ["उसकी माँ", "उसकी बहन", "उसकी बेटी"], "answer": 1, "explanation": { "en": "'Sœur à l'école : Simran' — sœur = sister.", "hi": "'Sœur à l'école : Simran' — sœur = बहन।" }, "kind": "vocabulary", "evidence": "Sœur à l'école : Simran GILL, 12 ans" }
     ]
   },
   "writing": {
@@ -146,9 +146,9 @@
       { "en": "If someone is over 20, write the number in digits for now (J'ai 34 ans). You'll write it in words after Day 12.", "hi": "अगर कोई 20 से ज़्यादा उम्र का है, तो अभी संख्या अंकों में लिखिए (J'ai 34 ans)। दिन 12 के बाद शब्दों में लिखेंगे।" }
     ],
     "usefulPhrases": [
-      { "fr": "J'ai … ans.", "en": "I'm … years old.", "hi": "मैं … साल का / की हूँ।", "pron": "झ़े … आँ" },
-      { "fr": "J'ai un frère et une sœur.", "en": "I have a brother and a sister.", "hi": "मेरा एक भाई और एक बहन है।", "pron": "झ़े ऐँ फ़्ग़ैग़ ए üन सöग़" },
-      { "fr": "Ma sœur a … ans.", "en": "My sister is …", "hi": "मेरी बहन … साल की है।", "pron": "मा सöग़ आ … आँ" }
+      { "fr": "J'ai … ans.", "en": "I'm … years old.", "hi": "मैं … साल का / की हूँ।", "pron": "जे … आँ" },
+      { "fr": "J'ai un frère et une sœur.", "en": "I have a brother and a sister.", "hi": "मेरा एक भाई और एक बहन है।", "pron": "जे ऐं फ़्रेर ए यून सर" },
+      { "fr": "Ma sœur a … ans.", "en": "My sister is …", "hi": "मेरी बहन … साल की है।", "pron": "मा सर आ … आँ" }
     ],
     "model": { "fr": "Je m'appelle Neha. J'ai vingt ans. J'ai un frère et une sœur. Mon frère a seize ans. Ma sœur a onze ans. Ma mère a 45 ans.", "en": "My name is Neha. I'm twenty. I have a brother and a sister. My brother is sixteen. My sister is eleven. My mother is 45." },
     "checklist": [
@@ -160,21 +160,21 @@
   "review": {
     "fromDays": [2, 3, 4],
     "items": [
-      { "fr": "Ça va ? — Ça va bien, merci.", "en": "How are you? — I'm fine, thanks.", "hi": "कैसे हो? — ठीक हूँ, धन्यवाद।", "pron": "सा वा — सा वा ब्यैँ मैग़-सी" },
-      { "fr": "nous sommes / vous êtes / ils sont", "en": "we are / you are / they are", "hi": "हम हैं / आप हैं / वे हैं", "pron": "नू सॉम / वू ज़ैत / ईल सोँ" },
-      { "fr": "Je suis canadienne.", "en": "I'm Canadian (woman).", "hi": "मैं कनाडाई हूँ।", "pron": "झ़ö सüई का-ना-द्यैन" },
-      { "fr": "Je viens de Pune.", "en": "I'm from Pune.", "hi": "मैं पुणे से हूँ।", "pron": "झ़ö व्यैँ दö पु-ने" },
-      { "fr": "Je suis un peu fatigué(e).", "en": "I'm a little tired.", "hi": "मैं थोड़ा थका / थोड़ी थकी हूँ।", "pron": "झ़ö सüई ज़ैँ पö फ़ा-ती-गे" },
-      { "fr": "Comment ça s'écrit ?", "en": "How is that spelled?", "hi": "इसकी स्पेलिंग क्या है?", "pron": "को-माँ सा से-क्ग़ी" }
+      { "fr": "Ça va ? — Ça va bien, merci.", "en": "How are you? — I'm fine, thanks.", "hi": "कैसे हो? — ठीक हूँ, धन्यवाद।", "pron": "सा वा — सा वा ब्यैं मेर-सी" },
+      { "fr": "nous sommes / vous êtes / ils sont", "en": "we are / you are / they are", "hi": "हम हैं / आप हैं / वे हैं", "pron": "नू सॉम / वू ज़ेत / ईल सों" },
+      { "fr": "Je suis canadienne.", "en": "I'm Canadian (woman).", "hi": "मैं कनाडाई हूँ।", "pron": "ज स्यूई का-ना-द्येन" },
+      { "fr": "Je viens de Pune.", "en": "I'm from Pune.", "hi": "मैं पुणे से हूँ।", "pron": "ज व्यैं द पु-ने" },
+      { "fr": "Je suis un peu fatigué(e).", "en": "I'm a little tired.", "hi": "मैं थोड़ा थका / थोड़ी थकी हूँ।", "pron": "ज स्यूई ज़ैं प फ़ा-ती-गे" },
+      { "fr": "Comment ça s'écrit ?", "en": "How is that spelled?", "hi": "इसकी स्पेलिंग क्या है?", "pron": "को-माँ सा से-क्री" }
     ]
   },
   "assessment": [
     { "type": "mcq", "prompt": { "en": "How do you say 'I'm twenty' in French?", "hi": "फ़्रेंच में 'मैं बीस साल का हूँ' कैसे कहेंगे?" }, "options": ["Je suis vingt ans.", "J'ai vingt.", "J'ai vingt ans."], "answer": 2, "explanation": { "en": "avoir + number + ans.", "hi": "avoir + संख्या + ans।" } },
     { "type": "fill", "prompt": { "en": "Complete: She is sixteen.", "hi": "पूरा कीजिए: वह सोलह साल की है।" }, "sentence": "Elle ___ seize ans.", "answer": "a", "accept": [], "explanation": { "en": "elle + avoir = elle a.", "hi": "elle + avoir = elle a।" } },
-    { "type": "fill", "prompt": { "en": "Complete: We have two children.", "hi": "पूरा कीजिए: हमारे दो बच्चे हैं।" }, "sentence": "Nous ___ deux enfants.", "answer": "avons", "accept": [], "explanation": { "en": "nous + avoir = nous avons (नू ज़ा-वोँ).", "hi": "nous + avoir = nous avons (नू ज़ा-वोँ)।" } },
+    { "type": "fill", "prompt": { "en": "Complete: We have two children.", "hi": "पूरा कीजिए: हमारे दो बच्चे हैं।" }, "sentence": "Nous ___ deux enfants.", "answer": "avons", "accept": [], "explanation": { "en": "nous + avoir = nous avons (नू ज़ा-वों).", "hi": "nous + avoir = nous avons (नू ज़ा-वों)।" } },
     { "type": "mcq", "prompt": { "en": "Which number is 'quinze'?", "hi": "'quinze' कौन-सी संख्या है?" }, "options": ["5", "15", "14"], "answer": 1, "explanation": { "en": "quinze = 15; cinq = 5; quatorze = 14.", "hi": "quinze = 15; cinq = 5; quatorze = 14।" } },
     { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "I have a brother and a sister.", "hi": "मेरा एक भाई और एक बहन है।" }, "answer": "J'ai un frère et une sœur.", "accept": ["J’ai un frère et une sœur.", "J'ai un frère et une sœur", "j'ai un frère et une soeur"], "explanation": { "en": "frère is masculine (un), sœur is feminine (une).", "hi": "frère पुल्लिंग है (un), sœur स्त्रीलिंग (une)।" } },
     { "type": "reorder", "prompt": { "en": "Put the words in order: How old are you? (friendly)", "hi": "शब्दों को सही क्रम में रखिए: तुम्हारी उम्र क्या है?" }, "words": ["quel", "Tu", "âge", "as", "?"], "answer": "Tu as quel âge ?", "explanation": { "en": "Tu + as + quel âge.", "hi": "Tu + as + quel âge।" } },
-    { "type": "mcq", "prompt": { "en": "How is 'huit ans' pronounced?", "hi": "'huit ans' कैसे बोला जाता है?" }, "options": ["üइत आँस", "üइ ताँ", "हुइत आन"], "answer": 1, "explanation": { "en": "The t links to ans; the s of ans is silent: üइ ताँ.", "hi": "t, ans से जुड़ता है; ans का s नहीं बोला जाता: üइ ताँ।" } }
+    { "type": "mcq", "prompt": { "en": "How is 'huit ans' pronounced?", "hi": "'huit ans' कैसे बोला जाता है?" }, "options": ["यूइत आँस", "यूइ ताँ", "हुइत आन"], "answer": 1, "explanation": { "en": "The t links to ans; the s of ans is silent: यूइ ताँ.", "hi": "t, ans से जुड़ता है; ans का s नहीं बोला जाता: यूइ ताँ।" } }
   ]
 }

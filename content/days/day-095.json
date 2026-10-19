@@ -21,7 +21,7 @@
     ],
     "summary": {
       "en": "Rooms and a rental listing (Day 23), question forms for ads (Day 59), comparing apartments (Day 64), TEF A with indirect questions (Day 86), TEF review (Day 91) and administrative documents (Day 92).",
-      "hi": "कमरे और किराये का विज्ञापन (दिन 23), विज्ञापनों के लिए प्रश्न-रूप (दिन 59), फ़्लैटों की तुलना (दिन 64), अप्रत्यक्ष प्रश्नों के साथ TEF A (दिन 86), TEF दोहराई (दिन 91) और सरकारी-दफ़्तरी काग़ज़ात (दिन 92)।"
+      "hi": "कमरे और किराये का विज्ञापन (दिन 23), विज्ञापनों के लिए प्रश्न-रूप (दिन 59), फ़्लैटों की तुलना (दिन 64), अप्रत्यक्ष प्रश्नों के साथ TEF A (दिन 86), TEF दोहराव (दिन 91) और सरकारी-दफ़्तरी काग़ज़ात (दिन 92)।"
     }
   },
   "light": false,
@@ -31,7 +31,7 @@
       "fr": "le bail",
       "en": "lease",
       "hi": "किरायानामा / लीज़",
-      "pron": "लö बाय",
+      "pron": "ल बाय",
       "ipa": "lə baj",
       "pos": "noun",
       "gender": "m",
@@ -45,7 +45,7 @@
       "fr": "le loyer",
       "en": "rent",
       "hi": "किराया",
-      "pron": "लö ल्वा-ये",
+      "pron": "ल ल्वा-ये",
       "ipa": "lə lwaje",
       "pos": "noun",
       "gender": "m",
@@ -59,7 +59,7 @@
       "fr": "le chauffage",
       "en": "heating",
       "hi": "हीटिंग / घर गरम करने की व्यवस्था",
-      "pron": "लö शो-फ़ाझ़",
+      "pron": "ल शो-फ़ाज",
       "ipa": "lə ʃofaʒ",
       "pos": "noun",
       "gender": "m",
@@ -73,7 +73,7 @@
       "fr": "la caution",
       "en": "security deposit",
       "hi": "ज़मानत राशि / डिपॉज़िट",
-      "pron": "ला को-स्योँ",
+      "pron": "ला को-स्यों",
       "ipa": "la kosjɔ̃",
       "pos": "noun",
       "gender": "f",
@@ -87,7 +87,7 @@
       "fr": "le quartier",
       "en": "neighbourhood",
       "hi": "मोहल्ला / इलाक़ा",
-      "pron": "लö काग़-त्ये",
+      "pron": "ल कार-त्ये",
       "ipa": "lə kaʁtje",
       "pos": "noun",
       "gender": "m",
@@ -97,7 +97,7 @@
       "fr": "le / la propriétaire",
       "en": "landlord, owner",
       "hi": "मकान-मालिक / मालकिन",
-      "pron": "लö / ला प्ग़ो-प्ग़ी-ये-तैग़",
+      "pron": "ल / ला प्रो-प्री-ए-तेर",
       "ipa": "lə / la pʁɔpʁijetɛʁ",
       "pos": "noun",
       "gender": "mf",
@@ -107,7 +107,7 @@
       "fr": "le / la locataire",
       "en": "tenant",
       "hi": "किरायेदार",
-      "pron": "लö / ला लो-का-तैग़",
+      "pron": "ल / ला लो-का-तेर",
       "ipa": "lə / la lɔkatɛʁ",
       "pos": "noun",
       "gender": "mf",
@@ -117,7 +117,7 @@
       "fr": "meublé",
       "en": "furnished",
       "hi": "फ़र्नीचर समेत",
-      "pron": "मö-ब्ले",
+      "pron": "म-ब्ले",
       "ipa": "mœble",
       "pos": "adjective",
       "note": {
@@ -129,7 +129,7 @@
       "fr": "les électroménagers",
       "en": "household appliances",
       "hi": "घरेलू बिजली के उपकरण (फ़्रिज, चूल्हा आदि)",
-      "pron": "ले ज़े-लैक-त्ग़ो-मे-ना-झ़े",
+      "pron": "ले ज़े-लेक-त्रो-मे-ना-जे",
       "ipa": "le zelɛktʁomenaʒe",
       "pos": "noun",
       "gender": "m",
@@ -139,7 +139,7 @@
       "fr": "la buanderie",
       "en": "laundry room",
       "hi": "कपड़े धोने का कमरा",
-      "pron": "ला ब्üआँ-द्ग़ी",
+      "pron": "ला ब्यूआँ-द्री",
       "ipa": "la bɥɑ̃dʁi",
       "pos": "noun",
       "gender": "f",
@@ -149,7 +149,7 @@
       "fr": "le stationnement",
       "en": "parking (Québec)",
       "hi": "पार्किंग",
-      "pron": "लö स्ता-स्योन-माँ",
+      "pron": "ल स्ता-स्यॉन-माँ",
       "ipa": "lə stasjɔnmɑ̃",
       "pos": "noun",
       "gender": "m",
@@ -163,7 +163,7 @@
       "fr": "emménager",
       "en": "to move in",
       "hi": "नए घर में रहने आना / शिफ़्ट होना",
-      "pron": "आँ-मे-ना-झ़े",
+      "pron": "आँ-मे-ना-जे",
       "ipa": "ɑ̃menaʒe",
       "pos": "verb",
       "note": {
@@ -177,37 +177,37 @@
       "fr": "J'appelle au sujet de l'appartement à louer.",
       "en": "I'm calling about the apartment for rent.",
       "hi": "मैं किराये वाले फ़्लैट के बारे में फ़ोन कर रहा हूँ।",
-      "pron": "झ़ा-पैल ओ सü-झ़े दö ला-पाग़-तö-माँ आ लू-ए"
+      "pron": "जा-पेल ओ स्यू-जे द ला-पार-त-माँ आ लू-ए"
     },
     {
       "fr": "Est-ce que le chauffage est inclus dans le loyer ?",
       "en": "Is heating included in the rent?",
       "hi": "क्या हीटिंग किराये में शामिल है?",
-      "pron": "ऐस-कö लö शो-फ़ाझ़ ए तैँ-क्लü दाँ लö ल्वा-ये"
+      "pron": "एस-क ल शो-फ़ाज ए तैं-क्ल्यू दाँ ल ल्वा-ये"
     },
     {
       "fr": "À partir de quand le logement est-il libre ?",
       "en": "From when is the place available?",
       "hi": "फ़्लैट कब से ख़ाली है?",
-      "pron": "आ पाग़-तीग़ दö काँ लö लोझ़-माँ ए-तील लीब्ग़"
+      "pron": "आ पार-तीर द काँ ल लोज-माँ ए-तील लीब्र"
     },
     {
       "fr": "Faut-il verser une caution ?",
       "en": "Do I have to pay a deposit?",
       "hi": "क्या डिपॉज़िट देना पड़ेगा?",
-      "pron": "फ़ो-तील वैग़-से üन को-स्योँ"
+      "pron": "फ़ो-तील वेर-से यून को-स्यों"
     },
     {
       "fr": "Les animaux sont-ils acceptés ?",
       "en": "Are pets allowed?",
       "hi": "क्या पालतू जानवर रख सकते हैं?",
-      "pron": "ले ज़ा-नी-मो सोँ-तील ज़ाक-सैप-ते"
+      "pron": "ले ज़ा-नी-मो सों-तील ज़ाक-सेप-ते"
     },
     {
       "fr": "Serait-il possible de visiter samedi ?",
       "en": "Would it be possible to visit on Saturday?",
       "hi": "क्या शनिवार को फ़्लैट देखना संभव होगा?",
-      "pron": "सö-ग़ै-तील पो-सीब्ल दö वी-ज़ी-ते साम-दी"
+      "pron": "स-रे-तील पो-सीब्ल द वी-ज़ी-ते साम-दी"
     }
   ],
   "grammar": {
@@ -228,37 +228,37 @@
         "fr": "Le loyer comprend-il l'électricité ?",
         "en": "Does the rent include electricity?",
         "hi": "क्या किराये में बिजली शामिल है?",
-        "pron": "लö ल्वा-ये कोँ-प्ग़ाँ-तील ले-लैक-त्ग़ी-सी-ते"
+        "pron": "ल ल्वा-ये कों-प्राँ-तील ले-लेक-त्री-सी-ते"
       },
       {
         "fr": "L'appartement est-il meublé ?",
         "en": "Is the apartment furnished?",
         "hi": "क्या फ़्लैट में फ़र्नीचर है?",
-        "pron": "ला-पाग़-तö-माँ ए-तील मö-ब्ले"
+        "pron": "ला-पार-त-माँ ए-तील म-ब्ले"
       },
       {
         "fr": "Combien de chambres y a-t-il ?",
         "en": "How many bedrooms are there?",
         "hi": "कितने बेडरूम हैं?",
-        "pron": "कोँ-ब्यैँ दö शाँब्ग़ या-तील"
+        "pron": "कों-ब्यैं द शाँब्र या-तील"
       },
       {
         "fr": "Pour combien de temps est le bail ?",
         "en": "How long is the lease for?",
         "hi": "किरायानामा कितने समय का है?",
-        "pron": "पूग़ कोँ-ब्यैँ दö ताँ ए लö बाय"
+        "pron": "पूर कों-ब्यैं द ताँ ए ल बाय"
       },
       {
         "fr": "Est-il possible de payer le loyer par virement ?",
         "en": "Is it possible to pay the rent by bank transfer?",
         "hi": "क्या किराया बैंक ट्रांसफ़र से देना संभव है?",
-        "pron": "ए-तील पो-सीब्ल दö पै-ये लö ल्वा-ये पाग़ वीग़-माँ"
+        "pron": "ए-तील पो-सीब्ल द पे-ये ल ल्वा-ये पार वीर-माँ"
       },
       {
         "fr": "Peut-on repeindre les murs ?",
         "en": "Can we repaint the walls?",
         "hi": "क्या दीवारों पर दोबारा पेंट कर सकते हैं?",
-        "pron": "पö-तोँ ग़ö-पैँद्ग़ ले म्üग़"
+        "pron": "प-तों र-पैंद्र ले म्यूर"
       }
     ],
     "pitfalls": [
@@ -279,54 +279,54 @@
   "pronunciation": {
     "focus": "Housing words: -ail [aj], -oyer [waje], -tion [sjɔ̃], ch [ʃ]",
     "tip": {
-      "en": "Bail ends like the English 'eye' with a quick y: बाय, never 'bel'. Loyer is three quick sounds l-wa-yé. -tion is [sjɔ̃] with a nasal end, so caution = को-स्योँ (no 'shun'). Ch is always soft श: chauffage, chambre.",
-      "hi": "bail का अंत तेज़ 'य' के साथ होता है: बाय, कभी 'बेल' नहीं। loyer तीन तेज़ आवाज़ें हैं: ल्वा-ये। -tion का उच्चारण नाक वाला स्योँ है, इसलिए caution = को-स्योँ ('शन' नहीं)। ch हमेशा मुलायम 'श' है: chauffage, chambre।"
+      "en": "Bail ends like the English 'eye' with a quick y: बाय, never 'bel'. Loyer is three quick sounds l-wa-yé. -tion is [sjɔ̃] with a nasal end, so caution = को-स्यों (no 'shun'). Ch is always soft श: chauffage, chambre.",
+      "hi": "bail का अंत तेज़ 'य' के साथ होता है: बाय, कभी 'बेल' नहीं। loyer तीन तेज़ आवाज़ें हैं: ल्वा-ये। -tion का उच्चारण नाक वाला स्यों है, इसलिए caution = को-स्यों ('शन' नहीं)। ch हमेशा मुलायम 'श' है: chauffage, chambre।"
     },
     "words": [
       {
         "fr": "le bail",
         "en": "lease",
         "hi": "किरायानामा",
-        "pron": "लö बाय",
+        "pron": "ल बाय",
         "ipa": "lə baj"
       },
       {
         "fr": "le loyer",
         "en": "rent",
         "hi": "किराया",
-        "pron": "लö ल्वा-ये",
+        "pron": "ल ल्वा-ये",
         "ipa": "lə lwaje"
       },
       {
         "fr": "la caution",
         "en": "deposit",
         "hi": "डिपॉज़िट",
-        "pron": "ला को-स्योँ",
+        "pron": "ला को-स्यों",
         "ipa": "la kosjɔ̃"
       },
       {
         "fr": "chauffage inclus",
         "en": "heating included",
         "hi": "हीटिंग शामिल",
-        "pron": "शो-फ़ाझ़ ऐँ-क्लü",
+        "pron": "शो-फ़ाज ऐं-क्ल्यू",
         "ipa": "ʃofaʒ ɛ̃kly",
         "note": {
-          "en": "The s of inclus is silent; incluse has a z sound: ऐँ-क्लüज़.",
-          "hi": "inclus का s नहीं बोला जाता; incluse में 'ज़' की आवाज़ है: ऐँ-क्लüज़।"
+          "en": "The s of inclus is silent; incluse has a z sound: ऐं-क्ल्यूज़.",
+          "hi": "inclus का s नहीं बोला जाता; incluse में 'ज़' की आवाज़ है: ऐं-क्ल्यूज़।"
         }
       },
       {
         "fr": "la buanderie",
         "en": "laundry room",
         "hi": "कपड़े धोने का कमरा",
-        "pron": "ला ब्üआँ-द्ग़ी",
+        "pron": "ला ब्यूआँ-द्री",
         "ipa": "la bɥɑ̃dʁi"
       },
       {
         "fr": "emménager",
         "en": "to move in",
         "hi": "नए घर में आना",
-        "pron": "आँ-मे-ना-झ़े",
+        "pron": "आँ-मे-ना-जे",
         "ipa": "ɑ̃menaʒe"
       }
     ]
@@ -459,7 +459,8 @@
     "questions": [
       {
         "q": {
-          "en": "When does the apartment become free?"
+          "en": "When does the apartment become free?",
+          "hi": "अपार्टमेंट कब खाली होता है?"
         },
         "options": [
           "On the thirtieth of June",
@@ -473,11 +474,18 @@
           "hi": "'il se libère le premier juillet' — एक जुलाई। 30 जून किरायानामे का अंत है; शनिवार को फ़्लैट देखना है।"
         },
         "kind": "literal",
-        "evidence": "Oui, il se libère le premier juillet."
+        "evidence": "Oui, il se libère le premier juillet.",
+        "optionsHi": [
+          "जून की तीस तारीख़ को",
+          "शनिवार को",
+          "जुलाई की पहली तारीख़ को",
+          "तुरंत"
+        ]
       },
       {
         "q": {
-          "en": "What will Arjun have to pay in addition to the rent?"
+          "en": "What will Arjun have to pay in addition to the rent?",
+          "hi": "किराये के अलावा Arjun को और क्या चुकाना होगा?"
         },
         "options": [
           "Electricity",
@@ -491,11 +499,18 @@
           "hi": "हीटिंग और गरम पानी शामिल हैं; 'l'électricité, par contre, c'est à vous de la payer' — बिजली का बिल उसे भरना होगा।"
         },
         "kind": "literal",
-        "evidence": "L'électricité, par contre, c'est à vous de la payer."
+        "evidence": "L'électricité, par contre, c'est à vous de la payer.",
+        "optionsHi": [
+          "बिजली",
+          "हीटिंग",
+          "गर्म पानी",
+          "कुछ भी नहीं"
+        ]
       },
       {
         "q": {
-          "en": "Which appliances come with the apartment?"
+          "en": "Which appliances come with the apartment?",
+          "hi": "अपार्टमेंट के साथ कौन-से उपकरण मिलते हैं?"
         },
         "options": [
           "The washer and the dryer",
@@ -509,11 +524,18 @@
           "hi": "'le frigo et la cuisinière, oui' — फ़्रिज और चूल्हा। वॉशिंग मशीन और ड्रायर साझा कमरे में हैं।"
         },
         "kind": "literal",
-        "evidence": "Le frigo et la cuisinière, oui."
+        "evidence": "Le frigo et la cuisinière, oui.",
+        "optionsHi": [
+          "वॉशर और ड्रायर",
+          "सभी उपकरण",
+          "कोई नहीं",
+          "फ़्रिज और चूल्हा"
+        ]
       },
       {
         "q": {
-          "en": "What is true about parking?"
+          "en": "What is true about parking?",
+          "hi": "पार्किंग के बारे में क्या सही है?"
         },
         "options": [
           "Street parking needs no permit",
@@ -527,11 +549,18 @@
           "hi": "'c'est cinquante dollars de plus par mois' — पीछे की जगह 50 डॉलर अतिरिक्त; सड़क के लिए परमिट चाहिए।"
         },
         "kind": "literal",
-        "evidence": "Il y a une place derrière l'immeuble, mais c'est cinquante dollars de plus par mois."
+        "evidence": "Il y a une place derrière l'immeuble, mais c'est cinquante dollars de plus par mois.",
+        "optionsHi": [
+          "सड़क पर पार्किंग के लिए परमिट नहीं चाहिए",
+          "इमारत के पीछे की जगह का खर्च हर महीने $50 और है",
+          "पार्किंग मुफ़्त है और शामिल है",
+          "कहीं भी पार्किंग नहीं है"
+        ]
       },
       {
         "q": {
-          "en": "What does Mme Gagnon suggest about the neighbourhood?"
+          "en": "What does Mme Gagnon suggest about the neighbourhood?",
+          "hi": "Mme Gagnon मोहल्ले के बारे में क्या सुझाव देती हैं?"
         },
         "options": [
           "It is too noisy",
@@ -545,11 +574,18 @@
           "hi": "मेट्रो पैदल सात मिनट और बस दरवाज़े पर: वहाँ बिना गाड़ी के रहना आसान है।"
         },
         "kind": "inference",
-        "evidence": "Le métro est à sept minutes à pied, et l'autobus passe juste devant la porte."
+        "evidence": "Le métro est à sept minutes à pied, et l'autobus passe juste devant la porte.",
+        "optionsHi": [
+          "वह बहुत शोरगुल वाला है",
+          "वह केवल कार से ही सुविधाजनक है",
+          "वह बिना कार वाले व्यक्ति के लिए सुविधाजनक है",
+          "वह सार्वजनिक परिवहन से दूर है"
+        ]
       },
       {
         "q": {
-          "en": "What must Arjun bring to the visit?"
+          "en": "What must Arjun bring to the visit?",
+          "hi": "देखने जाते समय Arjun को क्या साथ लाना होगा?"
         },
         "options": [
           "Proof of income and the name of a reference",
@@ -563,7 +599,13 @@
           "hi": "'apportez une preuve de revenu et le nom d'une référence' — आमदनी का सबूत और एक हवाले का नाम।"
         },
         "kind": "literal",
-        "evidence": "Apportez une preuve de revenu et le nom d'une référence, s'il vous plaît."
+        "evidence": "Apportez une preuve de revenu et le nom d'une référence, s'il vous plaît.",
+        "optionsHi": [
+          "आय का प्रमाण और एक संदर्भ का नाम",
+          "एक महीने के किराये की जमानत राशि",
+          "अपनी कार का पंजीकरण",
+          "हस्ताक्षरित पट्टा-अनुबंध"
+        ]
       }
     ],
     "dictation": [
@@ -597,7 +639,7 @@
       },
       "partnerRole": {
         "en": "The owner, Mme Louise Fortin, friendly but busy. She answers briefly and may ask you back: 'Vous êtes combien de personnes ?', 'Vous travaillez dans quel domaine ?'",
-        "hi": "मालकिन लुईज़ फ़ोर्तैँ, मिलनसार पर व्यस्त। वह छोटे जवाब देती हैं और आपसे भी पूछ सकती हैं: 'Vous êtes combien de personnes ?', 'Vous travaillez dans quel domaine ?'"
+        "hi": "मालकिन लुईज़ फ़ोर्तैं, मिलनसार पर व्यस्त। वह छोटे जवाब देती हैं और आपसे भी पूछ सकती हैं: 'Vous êtes combien de personnes ?', 'Vous travaillez dans quel domaine ?'"
       },
       "goals": [
         {
@@ -618,57 +660,57 @@
       {
         "fr": "Bonjour, madame Fortin. Je vous appelle au sujet du 4 ½ près du parc Victoria.",
         "en": "Hello, Mrs Fortin. I'm calling about the 4½ near Parc Victoria.",
-        "hi": "नमस्ते, मैडम फ़ोर्तैँ। मैं पार्क विक्टोरिया के पास वाले 4 ½ के बारे में फ़ोन कर रहा हूँ।",
-        "pron": "बोँ-झ़ूग़ मा-दाम फ़ॉग़-तैँ झ़ö वू ज़ा-पैल ओ सü-झ़े दü कात्ग़ ए दö-मी प्ग़ै दü पाग़क वीक-तो-ग़्या"
+        "hi": "नमस्ते, मैडम फ़ोर्तैं। मैं पार्क विक्टोरिया के पास वाले 4 ½ के बारे में फ़ोन कर रहा हूँ।",
+        "pron": "बों-जूर मा-दाम फ़ॉर-तैं ज वू ज़ा-पेल ओ स्यू-जे द्यू कात्र ए द-मी प्रे द्यू पारक वीक-तो-र्या"
       },
       {
         "fr": "L'appartement est-il climatisé ?",
         "en": "Is the apartment air-conditioned?",
         "hi": "क्या फ़्लैट में एसी है?",
-        "pron": "ला-पाग़-तö-माँ ए-तील क्ली-मा-ती-ज़े",
+        "pron": "ला-पार-त-माँ ए-तील क्ली-मा-ती-ज़े",
         "model": "L'appartement est-il climatisé ? Sinon, est-il possible d'installer un climatiseur dans la fenêtre ?"
       },
       {
         "fr": "Je voudrais savoir si Internet est inclus.",
         "en": "I'd like to know if internet is included.",
         "hi": "मैं जानना चाहूँगा कि क्या इंटरनेट शामिल है।",
-        "pron": "झ़ö वू-द्ग़ै सा-वाग़ सी ऐँ-तैग़-नैत ए तैँ-क्लü"
+        "pron": "ज वू-द्रे सा-वार सी ऐं-तेर-नेत ए तैं-क्ल्यू"
       },
       {
         "fr": "Qui s'occupe du déneigement en hiver ?",
         "en": "Who takes care of snow removal in winter?",
         "hi": "सर्दियों में बर्फ़ कौन हटाता है?",
-        "pron": "की सो-क्üप दü दे-नैझ़-माँ आँ नी-वैग़"
+        "pron": "की सो-क्यूप द्यू दे-नेज-माँ आँ नी-वेर"
       },
       {
         "fr": "Pourriez-vous me dire si l'immeuble est calme le soir ?",
         "en": "Could you tell me if the building is quiet in the evening?",
         "hi": "क्या आप बता सकती हैं कि शाम को इमारत में शांति रहती है?",
-        "pron": "पू-ग़्ये वू मö दीग़ सी ली-मöब्ल ए काल्म लö स्वाग़"
+        "pron": "पू-र्ये वू म दीर सी ली-मब्ल ए काल्म ल स्वार"
       },
       {
         "fr": "Peut-on repeindre les chambres ?",
         "en": "Can we repaint the bedrooms?",
         "hi": "क्या बेडरूम में दोबारा पेंट कर सकते हैं?",
-        "pron": "पö-तोँ ग़ö-पैँद्ग़ ले शाँब्ग़"
+        "pron": "प-तों र-पैंद्र ले शाँब्र"
       },
       {
         "fr": "Comment faut-il payer le loyer : par chèque ou par virement ?",
         "en": "How should the rent be paid: by cheque or by transfer?",
         "hi": "किराया कैसे देना होगा: चेक से या बैंक ट्रांसफ़र से?",
-        "pron": "को-माँ फ़ो-तील पै-ये लö ल्वा-ये पाग़ शैक ऊ पाग़ वीग़-माँ"
+        "pron": "को-माँ फ़ो-तील पे-ये ल ल्वा-ये पार शेक ऊ पार वीर-माँ"
       },
       {
         "fr": "Nous sommes deux, et je commence un emploi à l'université en août.",
         "en": "There are two of us, and I'm starting a job at the university in August.",
         "hi": "हम दो लोग हैं, और मैं अगस्त में विश्वविद्यालय में नौकरी शुरू कर रहा हूँ।",
-        "pron": "नू सॉम दö ए झ़ö को-माँस ऐँ नाँ-प्ल्वा आ ल्ü-नी-वैग़-सी-ते आँ नूत"
+        "pron": "नू सॉम द ए ज को-माँस ऐं नाँ-प्ल्वा आ ल्यू-नी-वेर-सी-ते आँ नूत"
       },
       {
         "fr": "Serait-il possible de visiter mardi après dix-sept heures ?",
         "en": "Would it be possible to visit on Tuesday after 5 p.m.?",
         "hi": "क्या मंगलवार को शाम पाँच बजे के बाद फ़्लैट देखना संभव होगा?",
-        "pron": "सö-ग़ै-तील पो-सीब्ल दö वी-ज़ी-ते माग़-दी आ-प्ग़ै दी-सै तöग़"
+        "pron": "स-रे-तील पो-सीब्ल द वी-ज़ी-ते मार-दी आ-प्रे दी-से तर"
       }
     ],
     "tip": {
@@ -682,12 +724,13 @@
     "text": "À LOUER — Grand 4 ½ lumineux près du parc Victoria, Sherbrooke\n\nDisponible à partir du 1er août. Bail de 12 mois, renouvelable.\n\nSitué au deuxième étage d'un petit immeuble calme de six logements, cet appartement comprend deux chambres fermées, un salon double, une cuisine rénovée l'an dernier et une salle de bain avec bain et douche. Les grandes fenêtres donnent sur le parc, et le logement reçoit le soleil tout l'après-midi.\n\nLoyer : 1 180 $ par mois. Chauffage et eau chaude inclus. L'électricité est à la charge du locataire.\n\nÉlectroménagers fournis : réfrigérateur, cuisinière et lave-vaisselle. Buanderie commune au sous-sol (machines à pièces). Un espace de stationnement extérieur est offert pour 40 $ de plus par mois. Grand balcon à l'arrière et espace de rangement privé au sous-sol.\n\nLe quartier : à cinq minutes à pied d'une épicerie, d'une pharmacie et d'une école primaire. Arrêt d'autobus au coin de la rue (ligne 7, direction Université). Piste cyclable à proximité.\n\nConditions : logement non-fumeur. Petits animaux acceptés après discussion avec la propriétaire. Une enquête de crédit et deux références (ancien propriétaire ou employeur) seront demandées. Aucun dépôt exigé.\n\nVisites sur rendez-vous seulement, en semaine après 17 h ou le samedi matin. Pour plus de renseignements, communiquez avec Mme Louise Fortin au 819 555-0142 (laissez un message) ou par courriel à logements.fortin@exemple.ca.",
     "translation": {
       "en": "FOR RENT — Large, bright 4½ near Parc Victoria, Sherbrooke\n\nAvailable from 1 August. 12-month lease, renewable.\n\nLocated on the second floor of a small, quiet building of six units, this apartment has two closed bedrooms, a double living room, a kitchen renovated last year and a bathroom with a bath and shower. The large windows look onto the park, and the apartment gets sun all afternoon.\n\nRent: $1,180 a month. Heating and hot water included. Electricity is paid by the tenant.\n\nAppliances provided: refrigerator, stove and dishwasher. Shared laundry room in the basement (coin-operated machines). An outdoor parking space is available for $40 more a month. Large balcony at the back and private storage space in the basement.\n\nThe neighbourhood: five minutes' walk from a grocery store, a pharmacy and a primary school. Bus stop at the corner of the street (line 7, towards Université). Bike path nearby.\n\nConditions: non-smoking unit. Small pets accepted after discussion with the owner. A credit check and two references (former landlord or employer) will be required. No deposit required.\n\nVisits by appointment only, on weekdays after 5 p.m. or on Saturday mornings. For more information, contact Mrs Louise Fortin at 819 555-0142 (leave a message) or by email at logements.fortin@exemple.ca.",
-      "hi": "किराये के लिए — पार्क विक्टोरिया के पास बड़ा, रोशनी भरा 4 ½, शेरब्रुक\n\n1 अगस्त से उपलब्ध। 12 महीने का किरायानामा, आगे बढ़ाया जा सकता है।\n\nछह फ़्लैटों वाली एक छोटी, शांत इमारत की दूसरी मंज़िल पर स्थित इस फ़्लैट में दो बंद बेडरूम, एक बड़ी दोहरी बैठक, पिछले साल नई बनाई गई रसोई और बाथटब व शावर वाला बाथरूम है। बड़ी खिड़कियाँ पार्क की ओर खुलती हैं, और फ़्लैट में पूरी दोपहर धूप आती है।\n\nकिराया: 1 180 डॉलर प्रति माह। हीटिंग और गरम पानी शामिल। बिजली का ख़र्च किरायेदार देगा।\n\nदिए गए उपकरण: फ़्रिज, चूल्हा और बर्तन धोने की मशीन। तहख़ाने में साझा कपड़े धोने का कमरा (सिक्कों से चलने वाली मशीनें)। बाहर की एक पार्किंग जगह हर महीने 40 डॉलर अतिरिक्त में मिलती है। पीछे बड़ी बालकनी और तहख़ाने में सामान रखने की निजी जगह।\n\nइलाक़ा: किराने की दुकान, दवा की दुकान और प्राथमिक स्कूल से पैदल पाँच मिनट। गली के कोने पर बस स्टॉप (लाइन 7, विश्वविद्यालय की ओर)। पास में साइकिल पथ।\n\nशर्तें: धूम्रपान-मुक्त फ़्लैट। छोटे पालतू जानवर मालकिन से बात करने के बाद स्वीकार। क्रेडिट जाँच और दो हवाले (पुराना मकान-मालिक या नियोक्ता) माँगे जाएँगे। कोई डिपॉज़िट नहीं लिया जाएगा।\n\nफ़्लैट देखना केवल समय लेकर, हफ़्ते के दिनों में शाम 5 बजे के बाद या शनिवार सुबह। ज़्यादा जानकारी के लिए लुईज़ फ़ोर्तैँ से 819 555-0142 पर (संदेश छोड़िए) या logements.fortin@exemple.ca पर ईमेल से संपर्क कीजिए।"
+      "hi": "किराये के लिए — पार्क विक्टोरिया के पास बड़ा, रोशनी भरा 4 ½, शेरब्रुक\n\n1 अगस्त से उपलब्ध। 12 महीने का किरायानामा, आगे बढ़ाया जा सकता है।\n\nछह फ़्लैटों वाली एक छोटी, शांत इमारत की दूसरी मंज़िल पर स्थित इस फ़्लैट में दो बंद बेडरूम, एक बड़ी दोहरी बैठक, पिछले साल नई बनाई गई रसोई और बाथटब व शावर वाला बाथरूम है। बड़ी खिड़कियाँ पार्क की ओर खुलती हैं, और फ़्लैट में पूरी दोपहर धूप आती है।\n\nकिराया: 1 180 डॉलर प्रति माह। हीटिंग और गरम पानी शामिल। बिजली का ख़र्च किरायेदार देगा।\n\nदिए गए उपकरण: फ़्रिज, चूल्हा और बर्तन धोने की मशीन। तहख़ाने में साझा कपड़े धोने का कमरा (सिक्कों से चलने वाली मशीनें)। बाहर की एक पार्किंग जगह हर महीने 40 डॉलर अतिरिक्त में मिलती है। पीछे बड़ी बालकनी और तहख़ाने में सामान रखने की निजी जगह।\n\nइलाक़ा: किराने की दुकान, दवा की दुकान और प्राथमिक स्कूल से पैदल पाँच मिनट। गली के कोने पर बस स्टॉप (लाइन 7, विश्वविद्यालय की ओर)। पास में साइकिल पथ।\n\nशर्तें: धूम्रपान-मुक्त फ़्लैट। छोटे पालतू जानवर मालकिन से बात करने के बाद स्वीकार। क्रेडिट जाँच और दो हवाले (पुराना मकान-मालिक या नियोक्ता) माँगे जाएँगे। कोई डिपॉज़िट नहीं लिया जाएगा।\n\nफ़्लैट देखना केवल समय लेकर, हफ़्ते के दिनों में शाम 5 बजे के बाद या शनिवार सुबह। ज़्यादा जानकारी के लिए लुईज़ फ़ोर्तैं से 819 555-0142 पर (संदेश छोड़िए) या logements.fortin@exemple.ca पर ईमेल से संपर्क कीजिए।"
     },
     "questions": [
       {
         "q": {
-          "en": "From when can a new tenant move in?"
+          "en": "From when can a new tenant move in?",
+          "hi": "नया किरायेदार कब से रहने आ सकता है?"
         },
         "options": [
           "After 12 months",
@@ -701,11 +744,18 @@
           "hi": "'disponible à partir du 1er août' — 1 अगस्त से। 12 महीने किरायानामे की अवधि है।"
         },
         "kind": "literal",
-        "evidence": "Disponible à partir du 1er août."
+        "evidence": "Disponible à partir du 1er août.",
+        "optionsHi": [
+          "12 महीने बाद",
+          "1 अगस्त से",
+          "1 जुलाई से",
+          "तुरंत"
+        ]
       },
       {
         "q": {
-          "en": "What is included in the $1,180 rent?"
+          "en": "What is included in the $1,180 rent?",
+          "hi": "$1,180 के किराये में क्या शामिल है?"
         },
         "options": [
           "Electricity and heating",
@@ -719,11 +769,18 @@
           "hi": "'chauffage et eau chaude inclus' — हीटिंग और गरम पानी। बिजली किरायेदार देगा और पार्किंग 40 डॉलर अतिरिक्त है।"
         },
         "kind": "literal",
-        "evidence": "Chauffage et eau chaude inclus."
+        "evidence": "Chauffage et eau chaude inclus.",
+        "optionsHi": [
+          "बिजली और हीटिंग",
+          "पार्किंग और बिजली",
+          "पार्किंग सहित सब कुछ",
+          "हीटिंग और गर्म पानी"
+        ]
       },
       {
         "q": {
-          "en": "In the ad, 'machines à pièces' are…"
+          "en": "In the ad, 'machines à pièces' are…",
+          "hi": "विज्ञापन में 'machines à pièces' का मतलब है…"
         },
         "options": [
           "coin-operated machines",
@@ -737,11 +794,18 @@
           "hi": "une pièce (de monnaie) = सिक्का; यहाँ इसका मतलब 'कमरा' नहीं है। मशीनें इस्तेमाल करने के लिए सिक्के डालने होते हैं।"
         },
         "kind": "vocabulary",
-        "evidence": "Buanderie commune au sous-sol (machines à pièces)."
+        "evidence": "Buanderie commune au sous-sol (machines à pièces).",
+        "optionsHi": [
+          "सिक्कों से चलने वाली मशीनें",
+          "हर कमरे में मशीनें",
+          "खराब मशीनें",
+          "किरायेदारों के लिए मुफ़्त मशीनें"
+        ]
       },
       {
         "q": {
-          "en": "What is the rule about pets?"
+          "en": "What is the rule about pets?",
+          "hi": "पालतू जानवरों के बारे में नियम क्या है?"
         },
         "options": [
           "Any pet is welcome",
@@ -755,11 +819,18 @@
           "hi": "'petits animaux acceptés après discussion avec la propriétaire' — मालकिन से बात करने के बाद छोटे जानवर ठीक हैं। और कोई डिपॉज़िट नहीं।"
         },
         "kind": "literal",
-        "evidence": "Petits animaux acceptés après discussion avec la propriétaire."
+        "evidence": "Petits animaux acceptés après discussion avec la propriétaire.",
+        "optionsHi": [
+          "कोई भी पालतू जानवर चलेगा",
+          "पालतू जानवरों के लिए जमानत राशि चाहिए",
+          "मालिक से बात करने के बाद छोटे पालतू जानवर स्वीकार किए जा सकते हैं",
+          "सभी पालतू जानवर मना हैं"
+        ]
       },
       {
         "q": {
-          "en": "What will the owner ask applicants for?"
+          "en": "What will the owner ask applicants for?",
+          "hi": "मालिक आवेदकों से क्या माँगेगा?"
         },
         "options": [
           "A letter from the school",
@@ -773,11 +844,18 @@
           "hi": "'une enquête de crédit et deux références … seront demandées' — क्रेडिट जाँच और दो हवाले।"
         },
         "kind": "literal",
-        "evidence": "Une enquête de crédit et deux références (ancien propriétaire ou employeur) seront demandées."
+        "evidence": "Une enquête de crédit et deux références (ancien propriétaire ou employeur) seront demandées.",
+        "optionsHi": [
+          "स्कूल का एक पत्र",
+          "क्रेडिट जाँच और दो संदर्भ",
+          "जमानत राशि और वर्क परमिट",
+          "तीन महीने का अग्रिम किराया"
+        ]
       },
       {
         "q": {
-          "en": "For whom does this apartment seem especially practical?"
+          "en": "For whom does this apartment seem especially practical?",
+          "hi": "यह अपार्टमेंट खास तौर पर किसके लिए व्यावहारिक लगता है?"
         },
         "options": [
           "A smoker with a large dog",
@@ -791,7 +869,13 @@
           "hi": "प्राथमिक स्कूल पाँच मिनट पर, कोने पर बस स्टॉप, दो बेडरूम। बाक़ी विकल्प धूम्रपान-मुक्त नियम, 12 महीने के किरायानामे या देखने के समय से मेल नहीं खाते।"
         },
         "kind": "inference",
-        "evidence": "à cinq minutes à pied d'une épicerie, d'une pharmacie et d'une école primaire. Arrêt d'autobus au coin de la rue"
+        "evidence": "à cinq minutes à pied d'une épicerie, d'une pharmacie et d'une école primaire. Arrêt d'autobus au coin de la rue",
+        "optionsHi": [
+          "बड़े कुत्ते वाले धूम्रपान करने वाले के लिए",
+          "एक महीने के लिए सुसज्जित जगह चाहने वाले के लिए",
+          "ऐसे व्यक्ति के लिए जो केवल रविवार को देखने आ सकता है",
+          "बस से चलने वाले छोटे बच्चे के परिवार के लिए"
+        ]
       }
     ]
   },
@@ -799,7 +883,7 @@
     "type": "email",
     "prompt": {
       "en": "You visited the 4½ near Parc Victoria yesterday. Write an email to Mrs Fortin (100–160 words): thank her for the visit, say you are interested and why, ask two questions that remain (for example about electricity costs in winter and the move-in day), and say which documents you can send.",
-      "hi": "आपने कल पार्क विक्टोरिया के पास वाला 4 ½ देखा। मैडम फ़ोर्तैँ को एक ईमेल लिखिए (100–160 शब्द): फ़्लैट दिखाने के लिए धन्यवाद दीजिए, बताइए कि आप रुचि रखते हैं और क्यों, बचे हुए दो सवाल पूछिए (जैसे सर्दियों में बिजली का ख़र्च और सामान लाने का दिन), और बताइए कि आप कौन-से काग़ज़ात भेज सकते हैं।",
+      "hi": "आपने कल पार्क विक्टोरिया के पास वाला 4 ½ देखा। मैडम फ़ोर्तैं को एक ईमेल लिखिए (100–160 शब्द): फ़्लैट दिखाने के लिए धन्यवाद दीजिए, बताइए कि आप रुचि रखते हैं और क्यों, बचे हुए दो सवाल पूछिए (जैसे सर्दियों में बिजली का ख़र्च और सामान लाने का दिन), और बताइए कि आप कौन-से काग़ज़ात भेज सकते हैं।",
       "fr": "Écrivez un courriel à Mme Fortin après la visite de l'appartement."
     },
     "minWords": 100,
@@ -823,25 +907,25 @@
         "fr": "Je vous remercie pour la visite d'hier.",
         "en": "Thank you for yesterday's visit.",
         "hi": "कल फ़्लैट दिखाने के लिए आपका धन्यवाद।",
-        "pron": "झ़ö वू ग़ö-मैग़-सी पूग़ ला वी-ज़ीत दी-यैग़"
+        "pron": "ज वू र-मेर-सी पूर ला वी-ज़ीत दी-येर"
       },
       {
         "fr": "L'appartement correspond tout à fait à nos besoins.",
         "en": "The apartment fully meets our needs.",
         "hi": "फ़्लैट हमारी ज़रूरतों के बिल्कुल अनुकूल है।",
-        "pron": "ला-पाग़-तö-माँ को-ग़ैस-पोँ तू ता फ़ै आ नो बö-ज़्वैँ"
+        "pron": "ला-पार-त-माँ को-रेस-पों तू ता फ़े आ नो ब-ज़्वैं"
       },
       {
         "fr": "Je peux vous faire parvenir mes références.",
         "en": "I can send you my references.",
         "hi": "मैं आपको अपने हवाले भेज सकता हूँ।",
-        "pron": "झ़ö पö वू फ़ैग़ पाग़-वö-नीग़ मे ग़े-फ़े-ग़ाँस"
+        "pron": "ज प वू फ़ेर पार-व-नीर मे रे-फ़े-राँस"
       },
       {
         "fr": "Dans l'attente de votre réponse,",
         "en": "Looking forward to your reply,",
         "hi": "आपके जवाब की प्रतीक्षा में,",
-        "pron": "दाँ ला-ताँत दö वॉत्ग़ ग़े-पोँस"
+        "pron": "दाँ ला-ताँत द वॉत्र रे-पोंस"
       }
     ],
     "model": {
@@ -880,49 +964,49 @@
         "fr": "Je voudrais savoir si le poste est toujours disponible.",
         "en": "I'd like to know if the position is still available.",
         "hi": "मैं जानना चाहूँगा कि क्या पद अभी भी ख़ाली है।",
-        "pron": "झ़ö वू-द्ग़ै सा-वाग़ सी लö पॉस्त ए तू-झ़ूग़ दिस-पो-नीब्ल"
+        "pron": "ज वू-द्रे सा-वार सी ल पॉस्त ए तू-जूर दिस-पो-नीब्ल"
       },
       {
         "fr": "Pourriez-vous me dire ce qui est inclus ?",
         "en": "Could you tell me what is included?",
         "hi": "क्या आप बता सकते हैं कि क्या-क्या शामिल है?",
-        "pron": "पू-ग़्ये वू मö दीग़ सö की ए तैँ-क्लü"
+        "pron": "पू-र्ये वू म दीर स की ए तैं-क्ल्यू"
       },
       {
         "fr": "Il avait déjà quitté la maison quand j'ai appelé.",
         "en": "He had already left the house when I called.",
         "hi": "जब मैंने फ़ोन किया तब तक वह घर से जा चुका था।",
-        "pron": "ई-ला-वै दे-झ़ा की-ते ला मे-ज़ोँ काँ झ़े ऑप-ले"
+        "pron": "ई-ला-वे दे-जा की-ते ला मे-ज़ों काँ जे ऑप-ले"
       },
       {
         "fr": "Veuillez joindre une preuve d'adresse.",
         "en": "Please attach proof of address.",
         "hi": "कृपया पते का सबूत साथ लगाइए।",
-        "pron": "वö-ये झ़्वैँद्ग़ üन प्ग़öव दा-द्ग़ैस"
+        "pron": "व-ये ज्वैंद्र यून प्रव दा-द्रेस"
       },
       {
         "fr": "La demande doit être remplie avant le 15 mars.",
         "en": "The application must be filled in before 15 March.",
         "hi": "आवेदन 15 मार्च से पहले भरना ज़रूरी है।",
-        "pron": "ला दö-माँद द्वा तैत्ग़ ग़ाँ-प्ली आ-वाँ लö काँज़ माग़स"
+        "pron": "ला द-माँद द्वा तेत्र राँ-प्ली आ-वाँ ल काँज़ मारस"
       },
       {
         "fr": "Les autobus ont été achetés par la Ville.",
         "en": "The buses were bought by the City.",
         "hi": "बसें नगर-पालिका ने ख़रीदी थीं।",
-        "pron": "ले ज़ो-तो-ब्üस ओँ ते-ते आश-ते पाग़ ला वील"
+        "pron": "ले ज़ो-तो-ब्यूस ओं ते-ते आश-ते पार ला वील"
       },
       {
         "fr": "En se levant plus tôt, on a plus de temps.",
         "en": "By getting up earlier, you have more time.",
         "hi": "जल्दी उठकर हमारे पास ज़्यादा समय होता है।",
-        "pron": "आँ सö लö-वाँ प्लü तो ओँ ना प्लü दö ताँ"
+        "pron": "आँ स ल-वाँ प्ल्यू तो ओं ना प्ल्यू द ताँ"
       },
       {
         "fr": "selon l'expérience",
         "en": "depending on experience",
         "hi": "अनुभव के अनुसार",
-        "pron": "सö-लोँ लैक-स्पे-ग़्याँस"
+        "pron": "स-लों लेक-स्पे-र्याँस"
       }
     ]
   },

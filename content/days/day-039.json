@@ -16,27 +16,27 @@
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "le courriel", "en": "email", "hi": "ईमेल", "pron": "लö कू-ग्यैल", "ipa": "lə kuʁjɛl", "pos": "noun", "gender": "m", "note": { "en": "Québec word, used in official French everywhere. In France people also say un e-mail or un mail.", "hi": "क्यूबेक का शब्द, जो हर जगह सरकारी फ़्रेंच में चलता है। फ़्रांस में लोग un e-mail या un mail भी कहते हैं।" } },
-    { "fr": "l'objet", "en": "subject (of an email)", "hi": "विषय (ईमेल का)", "pron": "लॉब-झ़ै", "ipa": "lɔbʒɛ", "pos": "noun", "gender": "m", "lemma": "objet", "note": { "en": "Also means 'object, thing' (Day 38: ces objets).", "hi": "इसका मतलब 'चीज़' भी है (दिन 38: ces objets)।" } },
-    { "fr": "la pièce jointe", "en": "attachment", "hi": "अटैचमेंट (संलग्न फ़ाइल)", "pron": "ला प्यैस झ़्वैँत", "ipa": "la pjɛs ʒwɛ̃t", "pos": "noun", "gender": "f", "lemma": "pièce", "note": { "en": "en pièce jointe = attached.", "hi": "en pièce jointe = संलग्न।" } },
+    { "fr": "le courriel", "en": "email", "hi": "ईमेल", "pron": "ल कू-र्येल", "ipa": "lə kuʁjɛl", "pos": "noun", "gender": "m", "note": { "en": "Québec word, used in official French everywhere. In France people also say un e-mail or un mail.", "hi": "क्यूबेक का शब्द, जो हर जगह सरकारी फ़्रेंच में चलता है। फ़्रांस में लोग un e-mail या un mail भी कहते हैं।" } },
+    { "fr": "l'objet", "en": "subject (of an email)", "hi": "विषय (ईमेल का)", "pron": "लॉब-जे", "ipa": "lɔbʒɛ", "pos": "noun", "gender": "m", "lemma": "objet", "note": { "en": "Also means 'object, thing' (Day 38: ces objets).", "hi": "इसका मतलब 'चीज़' भी है (दिन 38: ces objets)।" } },
+    { "fr": "la pièce jointe", "en": "attachment", "hi": "अटैचमेंट (संलग्न फ़ाइल)", "pron": "ला प्येस ज्वैंत", "ipa": "la pjɛs ʒwɛ̃t", "pos": "noun", "gender": "f", "lemma": "pièce", "note": { "en": "en pièce jointe = attached.", "hi": "en pièce jointe = संलग्न।" } },
     { "fr": "envoyer", "en": "to send", "hi": "भेजना", "pron": "आँ-व्वा-ये", "ipa": "ɑ̃vwaje", "pos": "verb" },
-    { "fr": "répondre (à)", "en": "to answer / to reply (to)", "hi": "जवाब देना", "pron": "ग़े-पोँद्ग़", "ipa": "ʁepɔ̃dʁ", "pos": "verb", "lemma": "répondre", "note": { "en": "An -re verb like attendre (Day 31): je réponds, nous répondons.", "hi": "attendre (दिन 31) जैसी -re क्रिया: je réponds, nous répondons।" } },
-    { "fr": "rappeler", "en": "to call back", "hi": "वापस फ़ोन करना", "pron": "ग़ा-प्ले", "ipa": "ʁaple", "pos": "verb" },
+    { "fr": "répondre (à)", "en": "to answer / to reply (to)", "hi": "जवाब देना", "pron": "रे-पोंद्र", "ipa": "ʁepɔ̃dʁ", "pos": "verb", "lemma": "répondre", "note": { "en": "An -re verb like attendre (Day 31): je réponds, nous répondons.", "hi": "attendre (दिन 31) जैसी -re क्रिया: je réponds, nous répondons।" } },
+    { "fr": "rappeler", "en": "to call back", "hi": "वापस फ़ोन करना", "pron": "रा-प्ले", "ipa": "ʁaple", "pos": "verb" },
     { "fr": "la boîte vocale", "en": "voicemail (box)", "hi": "वॉइसमेल", "pron": "ला ब्वात वो-काल", "ipa": "la bwat vɔkal", "pos": "noun", "gender": "f", "lemma": "boîte" },
-    { "fr": "le message", "en": "message", "hi": "संदेश", "pron": "लö मे-साझ़", "ipa": "lə mesaʒ", "pos": "noun", "gender": "m" },
-    { "fr": "le / la propriétaire", "en": "landlord / owner", "hi": "मकान-मालिक / मालिक", "pron": "लö / ला प्रो-प्री-ए-तैग़", "ipa": "pʁɔpʁijetɛʁ", "pos": "noun", "gender": "mf", "lemma": "propriétaire" },
-    { "fr": "le chauffage", "en": "heating", "hi": "हीटिंग (घर गरम करने की व्यवस्था)", "pron": "लö शो-फ़ाझ़", "ipa": "lə ʃofaʒ", "pos": "noun", "gender": "m" },
-    { "fr": "cordialement", "en": "kind regards (formal closing)", "hi": "सादर (औपचारिक समापन)", "pron": "कॉग़-द्याल-माँ", "ipa": "kɔʁdjalmɑ̃", "pos": "adverb" },
+    { "fr": "le message", "en": "message", "hi": "संदेश", "pron": "ल मे-साज", "ipa": "lə mesaʒ", "pos": "noun", "gender": "m" },
+    { "fr": "le / la propriétaire", "en": "landlord / owner", "hi": "मकान-मालिक / मालिक", "pron": "ल / ला प्रो-प्री-ए-तेर", "ipa": "pʁɔpʁijetɛʁ", "pos": "noun", "gender": "mf", "lemma": "propriétaire" },
+    { "fr": "le chauffage", "en": "heating", "hi": "हीटिंग (घर गरम करने की व्यवस्था)", "pron": "ल शो-फ़ाज", "ipa": "lə ʃofaʒ", "pos": "noun", "gender": "m" },
+    { "fr": "cordialement", "en": "kind regards (formal closing)", "hi": "सादर (औपचारिक समापन)", "pron": "कॉर-द्याल-माँ", "ipa": "kɔʁdjalmɑ̃", "pos": "adverb" },
     { "fr": "bises", "en": "love / hugs (informal closing)", "hi": "ढेर सारा प्यार (अनौपचारिक समापन)", "pron": "बीज़", "ipa": "biz", "pos": "interjection", "note": { "en": "Only for friends and family — never to a landlord or a teacher!", "hi": "सिर्फ़ दोस्तों और परिवार के लिए — मकान-मालिक या शिक्षक को कभी नहीं!" } }
   ],
   "phrases": [
-    { "fr": "Bonjour Madame,", "en": "Dear Madam / Hello Madam,", "hi": "नमस्ते मैडम, (औपचारिक)", "pron": "बोँ-झ़ूग़ मा-दाम" },
-    { "fr": "Salut Sophie !", "en": "Hi Sophie!", "hi": "हाय सोफ़ी!", "pron": "सा-लü सो-फ़ी" },
-    { "fr": "Je vous écris parce que …", "en": "I'm writing to you because …", "hi": "मैं आपको इसलिए लिख रहा/रही हूँ क्योंकि …", "pron": "झ़ö वू ज़े-क्री पाग़्स-कö …" },
-    { "fr": "Merci de me rappeler.", "en": "Please call me back.", "hi": "कृपया मुझे वापस फ़ोन कीजिए।", "pron": "मैग़-सी द्ö म्ö ग़ा-प्ले" },
-    { "fr": "Voici le document en pièce jointe.", "en": "Here is the document, attached.", "hi": "यह रहा दस्तावेज़, संलग्न।", "pron": "व्वा-सी लö दो-कü-माँ आँ प्यैस झ़्वैँत" },
-    { "fr": "À plus !", "en": "See you! / Later!", "hi": "फिर मिलते हैं!", "pron": "आ प्लüस" },
-    { "fr": "Cordialement,", "en": "Kind regards,", "hi": "सादर,", "pron": "कॉग़-द्याल-माँ" }
+    { "fr": "Bonjour Madame,", "en": "Dear Madam / Hello Madam,", "hi": "नमस्ते मैडम, (औपचारिक)", "pron": "बों-जूर मा-दाम" },
+    { "fr": "Salut Sophie !", "en": "Hi Sophie!", "hi": "हाय सोफ़ी!", "pron": "सा-ल्यू सो-फ़ी" },
+    { "fr": "Je vous écris parce que …", "en": "I'm writing to you because …", "hi": "मैं आपको इसलिए लिख रहा/रही हूँ क्योंकि …", "pron": "ज वू ज़े-क्री पार्स-क …" },
+    { "fr": "Merci de me rappeler.", "en": "Please call me back.", "hi": "कृपया मुझे वापस फ़ोन कीजिए।", "pron": "मेर-सी द म रा-प्ले" },
+    { "fr": "Voici le document en pièce jointe.", "en": "Here is the document, attached.", "hi": "यह रहा दस्तावेज़, संलग्न।", "pron": "व्वा-सी ल दो-क्यू-माँ आँ प्येस ज्वैंत" },
+    { "fr": "À plus !", "en": "See you! / Later!", "hi": "फिर मिलते हैं!", "pron": "आ प्ल्यूस" },
+    { "fr": "Cordialement,", "en": "Kind regards,", "hi": "सादर,", "pron": "कॉर-द्याल-माँ" }
   ],
   "grammar": {
     "title": { "en": "Register and simple connectors: et, mais, ou, parce que, alors", "hi": "भाषा का स्तर (register) और आसान जोड़ने वाले शब्द: et, mais, ou, parce que, alors" },
@@ -49,12 +49,12 @@
       "hi": "हिंदी में भी स्तर का यही विचार है: दोस्त को व्हाट्सऐप ('हाय यार, कैसा है?') दफ़्तर को लिखे पत्र ('आदरणीय महोदय, … भवदीय') से बहुत अलग है। tu ≈ तुम और vous ≈ आप। जोड़ने वाले शब्द लगभग एक-एक करके मिलते हैं: et = और, mais = पर / लेकिन, ou = या, parce que = क्योंकि, alors = तो / इसलिए। एक फ़र्क़: फ़्रेंच में औपचारिक ईमेल 'आदरणीय महोदय' जैसे भारी शब्दों से शुरू नहीं होता — Bonjour Monsieur, काफ़ी शिष्ट है। और अंग्रेज़ी का 'Dear …' फ़्रेंच में Bonjour या, बहुत औपचारिक रूप में, Madame, Monsieur, बन जाता है।"
     },
     "examples": [
-      { "fr": "Salut Julie ! Tu es libre samedi ?", "en": "Hi Julie! Are you free on Saturday?", "hi": "हाय जूली! क्या तुम शनिवार को ख़ाली हो?", "pron": "सा-लü झ़ü-ली तü ऐ लीब्ग़ सम-दी" },
-      { "fr": "Bonjour Monsieur, je vous écris parce que le chauffage ne marche pas.", "en": "Hello Sir, I'm writing to you because the heating isn't working.", "hi": "नमस्ते सर, मैं आपको इसलिए लिख रहा/रही हूँ क्योंकि हीटिंग काम नहीं कर रही।", "pron": "बोँ-झ़ूग़ म्ö-स्यö झ़ö वू ज़े-क्री पाग़्स-कö लö शो-फ़ाझ़ न्ö माग़्श पा" },
-      { "fr": "Je suis malade, alors je ne peux pas venir.", "en": "I'm sick, so I can't come.", "hi": "मैं बीमार हूँ, इसलिए नहीं आ सकता/सकती।", "pron": "झ़ö स्üई मा-लाद आ-लॉग़ झ़ö न्ö पö पा व्ö-नीग़" },
-      { "fr": "Tu préfères le café ou le thé ?", "en": "Do you prefer coffee or tea?", "hi": "तुम्हें कॉफ़ी ज़्यादा पसंद है या चाय?", "pron": "तü प्रे-फ़ैग़ लö का-फ़े ऊ लö ते" },
-      { "fr": "Le studio est petit mais très propre.", "en": "The studio is small but very clean.", "hi": "स्टूडियो छोटा है पर बहुत साफ़ है।", "pron": "लö स्तü-द्यो ऐ प्ö-ती मै त्रै प्रॉप्ग़" },
-      { "fr": "Merci d'avance et bonne journée.", "en": "Thanks in advance and have a good day.", "hi": "पहले से धन्यवाद और आपका दिन शुभ हो।", "pron": "मैग़-सी दा-वाँस ए बॉन झ़ूग़-ने" }
+      { "fr": "Salut Julie ! Tu es libre samedi ?", "en": "Hi Julie! Are you free on Saturday?", "hi": "हाय जूली! क्या तुम शनिवार को ख़ाली हो?", "pron": "सा-ल्यू ज्यू-ली त्यू ए लीब्र सम-दी" },
+      { "fr": "Bonjour Monsieur, je vous écris parce que le chauffage ne marche pas.", "en": "Hello Sir, I'm writing to you because the heating isn't working.", "hi": "नमस्ते सर, मैं आपको इसलिए लिख रहा/रही हूँ क्योंकि हीटिंग काम नहीं कर रही।", "pron": "बों-जूर म-स्य ज वू ज़े-क्री पार्स-क ल शो-फ़ाज न मार्श पा" },
+      { "fr": "Je suis malade, alors je ne peux pas venir.", "en": "I'm sick, so I can't come.", "hi": "मैं बीमार हूँ, इसलिए नहीं आ सकता/सकती।", "pron": "ज स्यूई मा-लाद आ-लॉर ज न प पा व-नीर" },
+      { "fr": "Tu préfères le café ou le thé ?", "en": "Do you prefer coffee or tea?", "hi": "तुम्हें कॉफ़ी ज़्यादा पसंद है या चाय?", "pron": "त्यू प्रे-फ़ेर ल का-फ़े ऊ ल ते" },
+      { "fr": "Le studio est petit mais très propre.", "en": "The studio is small but very clean.", "hi": "स्टूडियो छोटा है पर बहुत साफ़ है।", "pron": "ल स्त्यू-द्यो ए प-ती मे त्रे प्रॉप्र" },
+      { "fr": "Merci d'avance et bonne journée.", "en": "Thanks in advance and have a good day.", "hi": "पहले से धन्यवाद और आपका दिन शुभ हो।", "pron": "मेर-सी दा-वाँस ए बॉन जूर-ने" }
     ],
     "pitfalls": [
       { "en": "parce que becomes parce qu' before a vowel: parce qu'il pleut, parce qu'elle travaille.", "hi": "स्वर से पहले parce que, parce qu' बन जाता है: parce qu'il pleut, parce qu'elle travaille।" },
@@ -65,16 +65,16 @@
   "pronunciation": {
     "focus": "Silent final -t / -d, and liaison in formal phrases",
     "tip": {
-      "en": "Final t and d are usually silent: froid = फ़्र्वा, grand = ग्राँ, cordialement = कॉग़-द्याल-माँ, content = कोँ-ताँ. But in liaison before a vowel they come back — and d is pronounced t: un grand appartement = ऐँ ग्राँ ता-पाग़-त्ö-माँ, c'est urgent = सै तüग़-झ़ाँ. Formal French uses more liaisons: je vous écris = झ़ö वू ज़े-क्री, vous êtes = वू ज़ैत. Make them in voicemails and formal calls.",
-      "hi": "आख़िरी t और d आमतौर पर मूक रहते हैं: froid = फ़्र्वा, grand = ग्राँ, cordialement = कॉग़-द्याल-माँ, content = कोँ-ताँ। पर स्वर से पहले लियेज़ों (liaison) में वे लौट आते हैं — और d, त की तरह बोला जाता है: un grand appartement = ऐँ ग्राँ ता-पाग़-त्ö-माँ, c'est urgent = सै तüग़-झ़ाँ। औपचारिक फ़्रेंच में लियेज़ों ज़्यादा होते हैं: je vous écris = झ़ö वू ज़े-क्री, vous êtes = वू ज़ैत। वॉइसमेल और औपचारिक फ़ोन में इन्हें बोलिए।"
+      "en": "Final t and d are usually silent: froid = फ़्र्वा, grand = ग्राँ, cordialement = कॉर-द्याल-माँ, content = कों-ताँ. But in liaison before a vowel they come back — and d is pronounced t: un grand appartement = ऐं ग्राँ ता-पार-त-माँ, c'est urgent = से त्यूर-जाँ. Formal French uses more liaisons: je vous écris = ज वू ज़े-क्री, vous êtes = वू ज़ेत. Make them in voicemails and formal calls.",
+      "hi": "आख़िरी t और d आमतौर पर मूक रहते हैं: froid = फ़्र्वा, grand = ग्राँ, cordialement = कॉर-द्याल-माँ, content = कों-ताँ। पर स्वर से पहले लियेज़ों (liaison) में वे लौट आते हैं — और d, त की तरह बोला जाता है: un grand appartement = ऐं ग्राँ ता-पार-त-माँ, c'est urgent = से त्यूर-जाँ। औपचारिक फ़्रेंच में लियेज़ों ज़्यादा होते हैं: je vous écris = ज वू ज़े-क्री, vous êtes = वू ज़ेत। वॉइसमेल और औपचारिक फ़ोन में इन्हें बोलिए।"
     },
     "words": [
-      { "fr": "Il fait froid.", "en": "It's cold.", "hi": "ठंड है।", "pron": "ईल फ़ै फ़्र्वा", "ipa": "il fɛ fʁwa", "note": { "en": "Both the t of fait and the d of froid are silent.", "hi": "fait का t और froid का d, दोनों मूक हैं।" } },
-      { "fr": "cordialement", "en": "kind regards", "hi": "सादर", "pron": "कॉग़-द्याल-माँ", "ipa": "kɔʁdjalmɑ̃" },
-      { "fr": "un grand appartement", "en": "a big flat", "hi": "एक बड़ा फ़्लैट", "pron": "ऐँ ग्राँ ता-पाग़-त्ö-माँ", "ipa": "œ̃ ɡʁɑ̃ tapaʁtəmɑ̃" },
-      { "fr": "C'est urgent.", "en": "It's urgent.", "hi": "यह ज़रूरी है।", "pron": "सै तüग़-झ़ाँ", "ipa": "sɛ tyʁʒɑ̃" },
-      { "fr": "je vous écris", "en": "I'm writing to you", "hi": "मैं आपको लिख रहा/रही हूँ", "pron": "झ़ö वू ज़े-क्री", "ipa": "ʒə vu zekʁi" },
-      { "fr": "Vous êtes disponible ?", "en": "Are you available?", "hi": "क्या आप ख़ाली हैं?", "pron": "वू ज़ैत दीस-पो-नीब्ल", "ipa": "vu zɛt dispɔnibl" }
+      { "fr": "Il fait froid.", "en": "It's cold.", "hi": "ठंड है।", "pron": "ईल फ़े फ़्र्वा", "ipa": "il fɛ fʁwa", "note": { "en": "Both the t of fait and the d of froid are silent.", "hi": "fait का t और froid का d, दोनों मूक हैं।" } },
+      { "fr": "cordialement", "en": "kind regards", "hi": "सादर", "pron": "कॉर-द्याल-माँ", "ipa": "kɔʁdjalmɑ̃" },
+      { "fr": "un grand appartement", "en": "a big flat", "hi": "एक बड़ा फ़्लैट", "pron": "ऐं ग्राँ ता-पार-त-माँ", "ipa": "œ̃ ɡʁɑ̃ tapaʁtəmɑ̃" },
+      { "fr": "C'est urgent.", "en": "It's urgent.", "hi": "यह ज़रूरी है।", "pron": "से त्यूर-जाँ", "ipa": "sɛ tyʁʒɑ̃" },
+      { "fr": "je vous écris", "en": "I'm writing to you", "hi": "मैं आपको लिख रहा/रही हूँ", "pron": "ज वू ज़े-क्री", "ipa": "ʒə vu zekʁi" },
+      { "fr": "Vous êtes disponible ?", "en": "Are you available?", "hi": "क्या आप ख़ाली हैं?", "pron": "वू ज़ेत दीस-पो-नीब्ल", "ipa": "vu zɛt dispɔnibl" }
     ]
   },
   "listening": {
@@ -96,11 +96,11 @@
       { "speaker": "M. Gagnon", "voice": "m2", "fr": "Merci et bonne journée !", "en": "Thank you and have a good day!", "hi": "धन्यवाद और आपका दिन शुभ हो!" }
     ],
     "questions": [
-      { "q": { "en": "Why is the landlord calling?" }, "options": ["To ask for the rent", "A technician is going to repair the heating", "To sell the flat"], "answer": 1, "explanation": { "en": "'le technicien va venir réparer le chauffage'.", "hi": "'le technicien va venir réparer le chauffage' — तकनीशियन हीटिंग ठीक करेगा।" }, "kind": "gist", "evidence": "le technicien va venir réparer le chauffage" },
-      { "q": { "en": "When is the technician coming?" }, "options": ["Wednesday evening", "Thursday morning", "Thursday afternoon"], "answer": 1, "explanation": { "en": "'jeudi matin, entre neuf heures et midi'.", "hi": "गुरुवार सुबह, नौ से बारह बजे के बीच।" }, "kind": "literal", "evidence": "Il va passer jeudi matin, entre neuf heures et midi." },
-      { "q": { "en": "Priya works on Thursday morning. What does that mean?" }, "options": ["She must stay at home", "It's not a problem — the landlord has a key", "The repair is cancelled"], "answer": 1, "explanation": { "en": "'Si vous travaillez, ce n'est pas grave : j'ai une clé.'", "hi": "अगर वह काम पर है, तो कोई बात नहीं: मालिक के पास चाबी है।" }, "kind": "inference", "evidence": "Si vous travaillez, ce n'est pas grave : j'ai une clé." },
-      { "q": { "en": "What will the landlord send by email?" }, "options": ["A photo of the radiator", "The contract for next year", "The technician's bill"], "answer": 1, "explanation": { "en": "'le contrat pour l'année prochaine par courriel, en pièce jointe'.", "hi": "अगले साल का अनुबंध, अटैचमेंट में।" }, "kind": "literal", "evidence": "le contrat pour l'année prochaine par courriel" },
-      { "q": { "en": "By when must Priya call back?" }, "options": ["Before Wednesday evening", "Before Thursday noon", "Tomorrow morning"], "answer": 0, "explanation": { "en": "'Merci de me rappeler avant mercredi soir'.", "hi": "'avant mercredi soir' — बुधवार शाम से पहले।" }, "kind": "literal", "evidence": "Merci de me rappeler avant mercredi soir" }
+      { "q": { "en": "Why is the landlord calling?", "hi": "मकान-मालिक फ़ोन क्यों कर रहा है?" }, "options": ["To ask for the rent", "A technician is going to repair the heating", "To sell the flat"], "optionsHi": ["किराया माँगने के लिए", "एक तकनीशियन हीटिंग की मरम्मत करने वाला है", "फ़्लैट बेचने के लिए"], "answer": 1, "explanation": { "en": "'le technicien va venir réparer le chauffage'.", "hi": "'le technicien va venir réparer le chauffage' — तकनीशियन हीटिंग ठीक करेगा।" }, "kind": "gist", "evidence": "le technicien va venir réparer le chauffage" },
+      { "q": { "en": "When is the technician coming?", "hi": "तकनीशियन कब आ रहा है?" }, "options": ["Wednesday evening", "Thursday morning", "Thursday afternoon"], "optionsHi": ["बुधवार की शाम", "गुरुवार की सुबह", "गुरुवार की दोपहर"], "answer": 1, "explanation": { "en": "'jeudi matin, entre neuf heures et midi'.", "hi": "गुरुवार सुबह, नौ से बारह बजे के बीच।" }, "kind": "literal", "evidence": "Il va passer jeudi matin, entre neuf heures et midi." },
+      { "q": { "en": "Priya works on Thursday morning. What does that mean?", "hi": "प्रिया गुरुवार की सुबह काम करती है। इसका क्या मतलब है?" }, "options": ["She must stay at home", "It's not a problem — the landlord has a key", "The repair is cancelled"], "optionsHi": ["उसे घर पर रहना होगा", "कोई समस्या नहीं है, मकान-मालिक के पास चाबी है", "मरम्मत रद्द हो गई है"], "answer": 1, "explanation": { "en": "'Si vous travaillez, ce n'est pas grave : j'ai une clé.'", "hi": "अगर वह काम पर है, तो कोई बात नहीं: मालिक के पास चाबी है।" }, "kind": "inference", "evidence": "Si vous travaillez, ce n'est pas grave : j'ai une clé." },
+      { "q": { "en": "What will the landlord send by email?", "hi": "मकान-मालिक ईमेल से क्या भेजेगा?" }, "options": ["A photo of the radiator", "The contract for next year", "The technician's bill"], "optionsHi": ["रेडिएटर की एक तस्वीर", "अगले साल का अनुबंध", "तकनीशियन का बिल"], "answer": 1, "explanation": { "en": "'le contrat pour l'année prochaine par courriel, en pièce jointe'.", "hi": "अगले साल का अनुबंध, अटैचमेंट में।" }, "kind": "literal", "evidence": "le contrat pour l'année prochaine par courriel" },
+      { "q": { "en": "By when must Priya call back?", "hi": "प्रिया को कब तक वापस फ़ोन करना होगा?" }, "options": ["Before Wednesday evening", "Before Thursday noon", "Tomorrow morning"], "optionsHi": ["बुधवार की शाम से पहले", "गुरुवार दोपहर से पहले", "कल सुबह"], "answer": 0, "explanation": { "en": "'Merci de me rappeler avant mercredi soir'.", "hi": "'avant mercredi soir' — बुधवार शाम से पहले।" }, "kind": "literal", "evidence": "Merci de me rappeler avant mercredi soir" }
     ],
     "dictation": ["Il va passer jeudi matin.", "Merci de me rappeler avant mercredi soir.", "Merci et bonne journée !"],
     "gapFill": { "text": "Je vous appelle ___ le technicien va venir réparer le chauffage. Il va passer jeudi matin, entre neuf heures ___ midi.", "answers": ["parce que", "et"] }
@@ -112,11 +112,11 @@
       "hi": "आप अपने फ़्लैट की किसी समस्या के बारे में मकान-मालिक को फ़ोन करते हैं, पर वॉइसमेल मिलता है। एक साफ़ और शिष्ट संदेश छोड़िए: बताइए कि आप कौन हैं, parce que से समस्या समझाइए, बताइए कि आप कब ख़ाली हैं, अपना नंबर धीरे-धीरे बताइए, और शिष्टता से ख़त्म कीजिए।"
     },
     "prompts": [
-      { "fr": "Vous êtes bien chez Louis Gagnon. Laissez-moi un message après le bip.", "en": "You've reached Louis Gagnon. Leave me a message after the beep.", "hi": "आप लुई गानियों से जुड़े हैं। बीप के बाद मेरे लिए संदेश छोड़िए।", "pron": "वू ज़ैत ब्यैँ शे लुई गा-न्योँ ले-से-म्वा ऐँ मे-साझ़ आ-प्रै लö बीप", "model": "Bonjour, monsieur Gagnon. Ici Priya Sharma, de l'appartement 4." },
-      { "fr": "Pourquoi appelez-vous ?", "en": "Why are you calling?", "hi": "आप क्यों फ़ोन कर रहे हैं?", "pron": "पूग़-क्वा आ-प्ले वू", "model": "Je vous appelle parce que l'eau chaude ne marche pas dans la salle de bain." },
-      { "fr": "Quand êtes-vous disponible ?", "en": "When are you available?", "hi": "आप कब ख़ाली हैं?", "pron": "काँ ऐत वू दीस-पो-नीब्ल", "model": "Je suis disponible demain après dix-sept heures, ou samedi matin." },
-      { "fr": "Quel est votre numéro ?", "en": "What's your number?", "hi": "आपका नंबर क्या है?", "pron": "कैल ऐ वॉत्ग़ नü-मे-ग़ो", "model": "Merci de me rappeler au cinq-un-quatre, cinq-cinq-cinq, zéro-un-quatre-deux. Je répète : cinq-un-quatre, cinq-cinq-cinq, zéro-un-quatre-deux." },
-      { "fr": "Comment terminer le message ?", "en": "How do you end the message?", "hi": "संदेश कैसे ख़त्म करें?", "pron": "को-माँ तैग़-मी-ने लö मे-साझ़", "model": "Merci beaucoup et bonne journée. Au revoir !" }
+      { "fr": "Vous êtes bien chez Louis Gagnon. Laissez-moi un message après le bip.", "en": "You've reached Louis Gagnon. Leave me a message after the beep.", "hi": "आप लुई गानियों से जुड़े हैं। बीप के बाद मेरे लिए संदेश छोड़िए।", "pron": "वू ज़ेत ब्यैं शे लुई गा-न्यों ले-से-म्वा ऐं मे-साज आ-प्रे ल बीप", "model": "Bonjour, monsieur Gagnon. Ici Priya Sharma, de l'appartement 4." },
+      { "fr": "Pourquoi appelez-vous ?", "en": "Why are you calling?", "hi": "आप क्यों फ़ोन कर रहे हैं?", "pron": "पूर-क्वा आ-प्ले वू", "model": "Je vous appelle parce que l'eau chaude ne marche pas dans la salle de bain." },
+      { "fr": "Quand êtes-vous disponible ?", "en": "When are you available?", "hi": "आप कब ख़ाली हैं?", "pron": "काँ एत वू दीस-पो-नीब्ल", "model": "Je suis disponible demain après dix-sept heures, ou samedi matin." },
+      { "fr": "Quel est votre numéro ?", "en": "What's your number?", "hi": "आपका नंबर क्या है?", "pron": "केल ए वॉत्र न्यू-मे-रो", "model": "Merci de me rappeler au cinq-un-quatre, cinq-cinq-cinq, zéro-un-quatre-deux. Je répète : cinq-un-quatre, cinq-cinq-cinq, zéro-un-quatre-deux." },
+      { "fr": "Comment terminer le message ?", "en": "How do you end the message?", "hi": "संदेश कैसे ख़त्म करें?", "pron": "को-माँ तेर-मी-ने ल मे-साज", "model": "Merci beaucoup et bonne journée. Au revoir !" }
     ],
     "tip": {
       "en": "On a voicemail, nobody can ask you to repeat. Say your name and number slowly, give the number in groups (cinq-un-quatre …) and repeat it once at the end.",
@@ -142,10 +142,10 @@
       "hi": "ईमेल 1\nहाय सोफ़ी!\nमैं शाम 7 बजे तक काम पर हूँ, इसलिए किराने का सामान नहीं ला सकती। क्या तुम दूध और ब्रेड ख़रीद सकती हो? धन्यवाद!\nढेर सारा प्यार,\nप्रिया\n\nईमेल 2\nविषय: हीटिंग की मरम्मत\nनमस्ते श्री गानियों,\nमैं गुरुवार सुबह ख़ाली हूँ, पर मैं 10 बजे निकल जाऊँगी। क्या आप तकनीशियन के लिए दरवाज़ा खोल सकते हैं?\nसादर,\nप्रिया शर्मा, फ़्लैट 4\n\nईमेल 3\nविषय: शाम की फ़्रेंच कक्षा\nनमस्ते श्रीमती शर्मा,\nपंजीकरण के लिए धन्यवाद। आपकी समय-सारणी संलग्न है। कक्षा सोमवार 1 दिसंबर को शाम 6:30 बजे शुरू होती है।\nशुभ संध्या,\nजूली मार्तैं, रोज़मों सामुदायिक केंद्र"
     },
     "questions": [
-      { "q": { "en": "Which email is informal?" }, "options": ["Email 1", "Email 2", "Email 3"], "answer": 0, "explanation": { "en": "It starts with 'Salut Sophie !', uses tu and ends with 'Bises'.", "hi": "यह 'Salut Sophie !' से शुरू होता है, tu लगाता है और 'Bises' से ख़त्म होता है।" }, "kind": "gist", "evidence": "Salut Sophie !" },
-      { "q": { "en": "Why can't Priya do the grocery shopping?" }, "options": ["She is sick", "She is at work until 7 p.m.", "The shop is closed"], "answer": 1, "explanation": { "en": "'Je suis au travail jusqu'à 19 h, alors je ne peux pas faire l'épicerie.'", "hi": "वह शाम 7 बजे तक काम पर है।" }, "kind": "literal", "evidence": "Je suis au travail jusqu'à 19 h, alors je ne peux pas faire l'épicerie." },
-      { "q": { "en": "The technician arrives at 11 a.m. Will Priya be at home?" }, "options": ["Yes", "No, she is leaving at 10 a.m.", "We don't know"], "answer": 1, "explanation": { "en": "'mais je vais partir à 10 h' — that's why she asks Mr Gagnon to open the door.", "hi": "'mais je vais partir à 10 h' — इसीलिए वह श्री गानियों से दरवाज़ा खोलने को कहती है।" }, "kind": "inference", "evidence": "mais je vais partir à 10 h" },
-      { "q": { "en": "What is attached to email 3?" }, "options": ["A registration form", "The class timetable", "A bill"], "answer": 1, "explanation": { "en": "'Voici votre horaire en pièce jointe.'", "hi": "'Voici votre horaire en pièce jointe.' — समय-सारणी संलग्न है।" }, "kind": "literal", "evidence": "Voici votre horaire en pièce jointe." }
+      { "q": { "en": "Which email is informal?", "hi": "कौन-सा ईमेल अनौपचारिक है?" }, "options": ["Email 1", "Email 2", "Email 3"], "answer": 0, "explanation": { "en": "It starts with 'Salut Sophie !', uses tu and ends with 'Bises'.", "hi": "यह 'Salut Sophie !' से शुरू होता है, tu लगाता है और 'Bises' से ख़त्म होता है।" }, "kind": "gist", "evidence": "Salut Sophie !" },
+      { "q": { "en": "Why can't Priya do the grocery shopping?", "hi": "प्रिया किराने का सामान क्यों नहीं ला सकती?" }, "options": ["She is sick", "She is at work until 7 p.m.", "The shop is closed"], "optionsHi": ["वह बीमार है", "वह शाम 7 बजे तक काम पर है", "दुकान बंद है"], "answer": 1, "explanation": { "en": "'Je suis au travail jusqu'à 19 h, alors je ne peux pas faire l'épicerie.'", "hi": "वह शाम 7 बजे तक काम पर है।" }, "kind": "literal", "evidence": "Je suis au travail jusqu'à 19 h, alors je ne peux pas faire l'épicerie." },
+      { "q": { "en": "The technician arrives at 11 a.m. Will Priya be at home?", "hi": "तकनीशियन सुबह 11 बजे पहुँचता है। क्या प्रिया घर पर होगी?" }, "options": ["Yes", "No, she is leaving at 10 a.m.", "We don't know"], "optionsHi": ["हाँ", "नहीं, वह सुबह 10 बजे निकल रही है", "हमें नहीं पता"], "answer": 1, "explanation": { "en": "'mais je vais partir à 10 h' — that's why she asks Mr Gagnon to open the door.", "hi": "'mais je vais partir à 10 h' — इसीलिए वह श्री गानियों से दरवाज़ा खोलने को कहती है।" }, "kind": "inference", "evidence": "mais je vais partir à 10 h" },
+      { "q": { "en": "What is attached to email 3?", "hi": "ईमेल 3 के साथ क्या संलग्न है?" }, "options": ["A registration form", "The class timetable", "A bill"], "optionsHi": ["एक पंजीकरण फ़ॉर्म", "कक्षा की समय-सारणी", "एक बिल"], "answer": 1, "explanation": { "en": "'Voici votre horaire en pièce jointe.'", "hi": "'Voici votre horaire en pièce jointe.' — समय-सारणी संलग्न है।" }, "kind": "literal", "evidence": "Voici votre horaire en pièce jointe." }
     ]
   },
   "writing": {
@@ -161,9 +161,9 @@
       { "en": "Email 2: Objet line, Bonjour Madame / Monsieur + surname, vous, Cordialement + full name.", "hi": "ईमेल 2: Objet पंक्ति, Bonjour Madame / Monsieur + उपनाम, vous, Cordialement + पूरा नाम।" }
     ],
     "usefulPhrases": [
-      { "fr": "Tu es libre samedi soir ?", "en": "Are you free on Saturday evening?", "hi": "क्या तुम शनिवार शाम ख़ाली हो?", "pron": "तü ऐ लीब्ग़ सम-दी स्वाग़" },
-      { "fr": "Je ne peux pas venir parce que …", "en": "I can't come because …", "hi": "मैं नहीं आ सकता/सकती क्योंकि …", "pron": "झ़ö न्ö पö पा व्ö-नीग़ पाग़्स-कö …" },
-      { "fr": "Est-ce que je peux … ?", "en": "Can I … ?", "hi": "क्या मैं … सकता/सकती हूँ?", "pron": "ऐस-कö झ़ö पö …" }
+      { "fr": "Tu es libre samedi soir ?", "en": "Are you free on Saturday evening?", "hi": "क्या तुम शनिवार शाम ख़ाली हो?", "pron": "त्यू ए लीब्र सम-दी स्वार" },
+      { "fr": "Je ne peux pas venir parce que …", "en": "I can't come because …", "hi": "मैं नहीं आ सकता/सकती क्योंकि …", "pron": "ज न प पा व-नीर पार्स-क …" },
+      { "fr": "Est-ce que je peux … ?", "en": "Can I … ?", "hi": "क्या मैं … सकता/सकती हूँ?", "pron": "एस-क ज प …" }
     ],
     "model": {
       "fr": "1)\nSalut Marc !\nTu es libre samedi soir ? Nous faisons un souper chez moi, alors tu peux venir avec Sophie. Il y a un plat végétarien pour toi. Tu me réponds ?\nÀ plus,\nArjun\n\n2)\nObjet : Absence au cours de lundi\nBonjour Madame Martin,\nJe ne peux pas venir au cours lundi parce que je travaille le soir cette semaine. Est-ce que je peux recevoir les exercices par courriel ?\nMerci d'avance.\nCordialement,\nArjun Singh",
@@ -178,14 +178,14 @@
   "review": {
     "fromDays": [23, 29, 32, 33, 37, 38],
     "items": [
-      { "fr": "Je dois annuler mon rendez-vous.", "en": "I have to cancel my appointment.", "hi": "मुझे अपना अपॉइंटमेंट रद्द करना है।", "pron": "झ़ö द्वा आ-नü-ले मोँ ग़ाँ-दे-वू" },
+      { "fr": "Je dois annuler mon rendez-vous.", "en": "I have to cancel my appointment.", "hi": "मुझे अपना अपॉइंटमेंट रद्द करना है।", "pron": "ज द्वा आ-न्यू-ले मों राँ-दे-वू" },
       { "fr": "Il faut téléphoner avant.", "en": "You need to call beforehand.", "hi": "पहले फ़ोन करना होगा।", "pron": "ईल फ़ो ते-ले-फ़ो-ने आ-वाँ" },
-      { "fr": "Vous pouvez répéter, s'il vous plaît ?", "en": "Can you repeat, please?", "hi": "क्या आप दोहरा सकते हैं, प्लीज़?", "pron": "वू पू-वे ग़े-पे-ते सील वू प्लै" },
-      { "fr": "Quel est votre numéro de téléphone ?", "en": "What's your phone number?", "hi": "आपका फ़ोन नंबर क्या है?", "pron": "कैल ऐ वॉत्ग़ नü-मे-ग़ो द्ö ते-ले-फ़ॉन" },
-      { "fr": "Je suis disponible samedi.", "en": "I'm available on Saturday.", "hi": "मैं शनिवार को ख़ाली हूँ।", "pron": "झ़ö स्üई दीस-पो-नीब्ल सम-दी" },
-      { "fr": "Il fait froid aujourd'hui.", "en": "It's cold today.", "hi": "आज ठंड है।", "pron": "ईल फ़ै फ़्र्वा ओ-झ़ूग़-द्üई" },
-      { "fr": "Je vais prendre ce modèle.", "en": "I'll take this model.", "hi": "मैं यह मॉडल लूँगा/लूँगी।", "pron": "झ़ö वै प्राँद्ग़ स्ö मो-दैल" },
-      { "fr": "La salle de bain est à côté de la chambre.", "en": "The bathroom is next to the bedroom.", "hi": "बाथरूम बेडरूम के बगल में है।", "pron": "ला साल द्ö बैँ ऐ ता को-ते द्ö ला शाँब्ग़" }
+      { "fr": "Vous pouvez répéter, s'il vous plaît ?", "en": "Can you repeat, please?", "hi": "क्या आप दोहरा सकते हैं, प्लीज़?", "pron": "वू पू-वे रे-पे-ते सील वू प्ले" },
+      { "fr": "Quel est votre numéro de téléphone ?", "en": "What's your phone number?", "hi": "आपका फ़ोन नंबर क्या है?", "pron": "के ले वोत्र न्यू-मे-रो द ते-ले-फ़ॉन" },
+      { "fr": "Je suis disponible samedi.", "en": "I'm available on Saturday.", "hi": "मैं शनिवार को ख़ाली हूँ।", "pron": "ज स्यूई दीस-पो-नीब्ल सम-दी" },
+      { "fr": "Il fait froid aujourd'hui.", "en": "It's cold today.", "hi": "आज ठंड है।", "pron": "ईल फ़े फ़्र्वा ओ-जूर-द्यूई" },
+      { "fr": "Je vais prendre ce modèle.", "en": "I'll take this model.", "hi": "मैं यह मॉडल लूँगा/लूँगी।", "pron": "ज वे प्राँद्र स मो-देल" },
+      { "fr": "La salle de bain est à côté de la chambre.", "en": "The bathroom is next to the bedroom.", "hi": "बाथरूम बेडरूम के बगल में है।", "pron": "ला साल द बैं ए ता को-ते द ला शाँब्र" }
     ]
   },
   "assessment": [
@@ -195,7 +195,7 @@
     { "type": "fill", "prompt": { "en": "Complete: It's raining, so I'm taking the bus.", "hi": "पूरा कीजिए: बारिश हो रही है, इसलिए मैं बस ले रहा हूँ।" }, "sentence": "Il pleut, ___ je prends le bus.", "answer": "alors", "accept": ["donc"], "explanation": { "en": "alors introduces the result.", "hi": "alors नतीजा बताता है।" } },
     { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "I'm writing to you because the heating doesn't work.", "hi": "मैं आपको इसलिए लिख रहा हूँ क्योंकि हीटिंग काम नहीं करती।" }, "answer": "Je vous écris parce que le chauffage ne marche pas.", "accept": ["je vous écris parce que le chauffage ne marche pas", "Je vous écris parce que le chauffage ne fonctionne pas.", "Je vous écris parce que le chauffage ne marche pas"], "explanation": { "en": "Formal vous; parce que + full sentence.", "hi": "औपचारिक vous; parce que + पूरा वाक्य।" } },
     { "type": "mcq", "prompt": { "en": "What is 'la pièce jointe' in an email?", "hi": "ईमेल में 'la pièce jointe' क्या है?" }, "options": ["The attachment", "The subject", "The signature"], "answer": 0, "explanation": { "en": "pièce jointe = attachment; objet = subject.", "hi": "pièce jointe = अटैचमेंट; objet = विषय।" } },
-    { "type": "mcq", "prompt": { "en": "In 'Il fait froid', which final letters are silent?", "hi": "'Il fait froid' में आख़िर के कौन-से अक्षर मूक हैं?" }, "options": ["Only the t of fait", "The t of fait and the d of froid", "None"], "answer": 1, "explanation": { "en": "Final t and d are usually silent: ईल फ़ै फ़्र्वा.", "hi": "आख़िरी t और d आमतौर पर मूक होते हैं: ईल फ़ै फ़्र्वा।" } },
+    { "type": "mcq", "prompt": { "en": "In 'Il fait froid', which final letters are silent?", "hi": "'Il fait froid' में आख़िर के कौन-से अक्षर मूक हैं?" }, "options": ["Only the t of fait", "The t of fait and the d of froid", "None"], "answer": 1, "explanation": { "en": "Final t and d are usually silent: ईल फ़े फ़्र्वा.", "hi": "आख़िरी t और d आमतौर पर मूक होते हैं: ईल फ़े फ़्र्वा।" } },
     { "type": "reorder", "prompt": { "en": "Put the words in order: Please call me back.", "hi": "शब्दों को सही क्रम में रखिए: कृपया मुझे वापस फ़ोन कीजिए।" }, "words": ["rappeler", "Merci", "me", "de", "."], "answer": "Merci de me rappeler.", "explanation": { "en": "Merci de + infinitive is a polite request.", "hi": "Merci de + मूल रूप एक शिष्ट अनुरोध है।" } }
   ]
 }

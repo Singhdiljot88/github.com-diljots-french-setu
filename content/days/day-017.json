@@ -15,27 +15,27 @@
   "vocabulary": [
     { "fr": "où", "en": "where", "hi": "कहाँ", "pron": "ऊ", "ipa": "u", "pos": "adverb", "note": { "en": "With an accent: où (where). Without: ou (or).", "hi": "accent के साथ: où (कहाँ)। बिना accent: ou (या)।" } },
     { "fr": "quand", "en": "when", "hi": "कब", "pron": "काँ", "ipa": "kɑ̃", "pos": "adverb" },
-    { "fr": "comment", "en": "how", "hi": "कैसे", "pron": "को-माँ", "ipa": "kɔmɑ̃", "pos": "adverb" },
-    { "fr": "combien", "en": "how much / how many", "hi": "कितना / कितने", "pron": "कोँ-ब्यैँ", "ipa": "kɔ̃bjɛ̃", "pos": "adverb", "note": { "en": "combien de + noun: combien de billets ?", "hi": "combien de + संज्ञा: combien de billets ?" } },
-    { "fr": "pourquoi", "en": "why", "hi": "क्यों", "pron": "पूग़-क्वा", "ipa": "puʁkwa", "pos": "adverb" },
-    { "fr": "parce que", "en": "because", "hi": "क्योंकि", "pron": "पाग़्स-कö", "ipa": "paʁskə", "pos": "conjunction", "note": { "en": "parce qu' before a vowel: parce qu'il travaille.", "hi": "स्वर से पहले parce qu': parce qu'il travaille।" } },
+    { "fr": "comment", "en": "how", "hi": "कैसे", "pron": "कॉ-माँ", "ipa": "kɔmɑ̃", "pos": "adverb" },
+    { "fr": "combien", "en": "how much / how many", "hi": "कितना / कितने", "pron": "कों-ब्यैं", "ipa": "kɔ̃bjɛ̃", "pos": "adverb", "note": { "en": "combien de + noun: combien de billets ?", "hi": "combien de + संज्ञा: combien de billets ?" } },
+    { "fr": "pourquoi", "en": "why", "hi": "क्यों", "pron": "पूर-क्वा", "ipa": "puʁkwa", "pos": "adverb" },
+    { "fr": "parce que", "en": "because", "hi": "क्योंकि", "pron": "पारस-क", "ipa": "paʁskə", "pos": "conjunction", "note": { "en": "parce qu' before a vowel: parce qu'il travaille.", "hi": "स्वर से पहले parce qu': parce qu'il travaille।" } },
     { "fr": "qui", "en": "who", "hi": "कौन", "pron": "की", "ipa": "ki", "pos": "pronoun" },
     { "fr": "quoi", "en": "what (casual, after a verb or preposition)", "hi": "क्या (बोलचाल में, क्रिया के बाद)", "pron": "क्वा", "ipa": "kwa", "pos": "pronoun" },
-    { "fr": "quel / quelle", "en": "which, what (+ noun)", "hi": "कौन-सा / कौन-सी", "pron": "कैल", "ipa": "kɛl", "pos": "determiner", "note": { "en": "Agrees with the noun: quel jour, quelle heure, quels billets, quelles places. All sound the same.", "hi": "संज्ञा से मेल खाता है: quel jour, quelle heure, quels billets, quelles places। सब एक जैसे बोले जाते हैं।" } },
-    { "fr": "le spectacle", "en": "show, performance", "hi": "शो / प्रदर्शन", "pron": "लö स्पैक-ताक्ल", "ipa": "lə spɛktakl", "pos": "noun", "gender": "m", "lemma": "spectacle" },
-    { "fr": "le concert", "en": "concert", "hi": "संगीत कार्यक्रम / कॉन्सर्ट", "pron": "लö कोँ-सैग़", "ipa": "lə kɔ̃sɛʁ", "pos": "noun", "gender": "m", "lemma": "concert", "note": { "en": "The final t is silent.", "hi": "आख़िरी t नहीं बोला जाता।" } },
-    { "fr": "le billet", "en": "ticket; banknote", "hi": "टिकट; नोट", "pron": "लö बी-यै", "ipa": "lə bijɛ", "pos": "noun", "gender": "m", "lemma": "billet" },
-    { "fr": "l'entrée", "en": "entrance; admission", "hi": "प्रवेश; प्रवेश शुल्क", "pron": "लाँ-त्ग़े", "ipa": "lɑ̃tʁe", "pos": "noun", "gender": "f", "lemma": "entrée", "note": { "en": "'Entrée gratuite' = free admission. (On a menu, it means starter.)", "hi": "'Entrée gratuite' = मुफ़्त प्रवेश। (मेन्यू में इसका मतलब स्टार्टर है।)" } },
-    { "fr": "la fête", "en": "party, festival, celebration", "hi": "त्योहार / उत्सव / पार्टी", "pron": "ला फ़ैत", "ipa": "la fɛt", "pos": "noun", "gender": "f", "lemma": "fête" }
+    { "fr": "quel / quelle", "en": "which, what (+ noun)", "hi": "कौन-सा / कौन-सी", "pron": "केल", "ipa": "kɛl", "pos": "determiner", "note": { "en": "Agrees with the noun: quel jour, quelle heure, quels billets, quelles places. All sound the same.", "hi": "संज्ञा से मेल खाता है: quel jour, quelle heure, quels billets, quelles places। सब एक जैसे बोले जाते हैं।" } },
+    { "fr": "le spectacle", "en": "show, performance", "hi": "शो / प्रदर्शन", "pron": "ल स्पेक-ताक्ल", "ipa": "lə spɛktakl", "pos": "noun", "gender": "m", "lemma": "spectacle" },
+    { "fr": "le concert", "en": "concert", "hi": "संगीत कार्यक्रम / कॉन्सर्ट", "pron": "ल कों-सेर", "ipa": "lə kɔ̃sɛʁ", "pos": "noun", "gender": "m", "lemma": "concert", "note": { "en": "The final t is silent.", "hi": "आख़िरी t नहीं बोला जाता।" } },
+    { "fr": "le billet", "en": "ticket; banknote", "hi": "टिकट; नोट", "pron": "ल बी-ये", "ipa": "lə bijɛ", "pos": "noun", "gender": "m", "lemma": "billet" },
+    { "fr": "l'entrée", "en": "entrance; admission", "hi": "प्रवेश; प्रवेश शुल्क", "pron": "लाँ-त्रे", "ipa": "lɑ̃tʁe", "pos": "noun", "gender": "f", "lemma": "entrée", "note": { "en": "'Entrée gratuite' = free admission. (On a menu, it means starter.)", "hi": "'Entrée gratuite' = मुफ़्त प्रवेश। (मेन्यू में इसका मतलब स्टार्टर है।)" } },
+    { "fr": "la fête", "en": "party, festival, celebration", "hi": "त्योहार / उत्सव / पार्टी", "pron": "ला फ़ेत", "ipa": "la fɛt", "pos": "noun", "gender": "f", "lemma": "fête" }
   ],
   "phrases": [
-    { "fr": "Où est le concert ?", "en": "Where is the concert?", "hi": "कॉन्सर्ट कहाँ है?", "pron": "ऊ ऐ लö कोँ-सैग़", "ipa": "u ɛ lə kɔ̃sɛʁ" },
-    { "fr": "C'est quand ?", "en": "When is it?", "hi": "यह कब है?", "pron": "सै काँ", "ipa": "sɛ kɑ̃" },
-    { "fr": "Combien coûte le billet ?", "en": "How much is the ticket?", "hi": "टिकट कितने का है?", "pron": "कोँ-ब्यैँ कूत लö बी-यै", "ipa": "kɔ̃bjɛ̃ kut lə bijɛ" },
-    { "fr": "Pourquoi ? — Parce que je travaille.", "en": "Why? — Because I'm working.", "hi": "क्यों? — क्योंकि मेरा काम है।", "pron": "पूग़-क्वा — पाग़्स-कö झ़ö त्ग़ा-वाय", "ipa": "puʁkwa — paʁskə ʒə tʁavaj" },
-    { "fr": "Comment on va au parc ?", "en": "How do we get to the park?", "hi": "पार्क कैसे जाते हैं?", "pron": "को-माँ ओँ वा ओ पाग़्क", "ipa": "kɔmɑ̃ ɔ̃ va o paʁk" },
-    { "fr": "Tu fais quoi samedi ?", "en": "What are you doing on Saturday? (casual)", "hi": "शनिवार को क्या कर रहे हो?", "pron": "तü फ़ै क्वा साम-दी", "ipa": "ty fɛ kwa samdi" },
-    { "fr": "Qui est-ce ?", "en": "Who is it? / Who is that?", "hi": "यह कौन है?", "pron": "की ऐस", "ipa": "ki ɛs" }
+    { "fr": "Où est le concert ?", "en": "Where is the concert?", "hi": "कॉन्सर्ट कहाँ है?", "pron": "ऊ ए ल कों-सेर", "ipa": "u ɛ lə kɔ̃sɛʁ" },
+    { "fr": "C'est quand ?", "en": "When is it?", "hi": "यह कब है?", "pron": "से काँ", "ipa": "sɛ kɑ̃" },
+    { "fr": "Combien coûte le billet ?", "en": "How much is the ticket?", "hi": "टिकट कितने का है?", "pron": "कों-ब्यैं कूत ल बी-ये", "ipa": "kɔ̃bjɛ̃ kut lə bijɛ" },
+    { "fr": "Pourquoi ? — Parce que je travaille.", "en": "Why? — Because I'm working.", "hi": "क्यों? — क्योंकि मेरा काम है।", "pron": "पूर-क्वा — पार्स-क ज त्रा-वाय", "ipa": "puʁkwa — paʁskə ʒə tʁavaj" },
+    { "fr": "Comment on va au parc ?", "en": "How do we get to the park?", "hi": "पार्क कैसे जाते हैं?", "pron": "को-माँ ओं वा ओ पार्क", "ipa": "kɔmɑ̃ ɔ̃ va o paʁk" },
+    { "fr": "Tu fais quoi samedi ?", "en": "What are you doing on Saturday? (casual)", "hi": "शनिवार को क्या कर रहे हो?", "pron": "त्यू फ़े क्वा साम-दी", "ipa": "ty fɛ kwa samdi" },
+    { "fr": "Qui est-ce ?", "en": "Who is it? / Who is that?", "hi": "यह कौन है?", "pron": "की एस", "ipa": "ki ɛs" }
   ],
   "grammar": {
     "title": { "en": "Information questions: three word orders", "hi": "जानकारी वाले प्रश्न: तीन शब्द-क्रम" },
@@ -48,12 +48,12 @@
       "hi": "हिंदी में क-शब्दों का एक साफ़ समूह है जो एक-एक करके मेल खाता है: कहाँ = où, कब = quand, कैसे = comment, कितना = combien, क्यों = pourquoi, कौन = qui, क्या = quoi, कौन-सा = quel। हिंदी में प्रश्नवाचक शब्द बीच में आता है (तुम कहाँ रहते हो?), जो बोलचाल वाली फ़्रेंच 'Tu habites où ?' के क़रीब है। अंग्रेज़ी में उसे आगे लाना पड़ता है ('Where do you live?')।"
     },
     "examples": [
-      { "fr": "Où est-ce que tu travailles ?", "en": "Where do you work?", "hi": "तुम कहाँ काम करते हो?", "pron": "ऊ ऐस-कö तü त्ग़ा-वाय" },
-      { "fr": "Quand est-ce que le spectacle commence ?", "en": "When does the show start?", "hi": "शो कब शुरू होता है?", "pron": "काँ-तैस-कö लö स्पैक-ताक्ल को-माँस" },
+      { "fr": "Où est-ce que tu travailles ?", "en": "Where do you work?", "hi": "तुम कहाँ काम करते हो?", "pron": "ऊ एस-क त्यू त्रा-वाय" },
+      { "fr": "Quand est-ce que le spectacle commence ?", "en": "When does the show start?", "hi": "शो कब शुरू होता है?", "pron": "काँ-तेस-क ल स्पेक-ताक्ल को-माँस" },
       { "fr": "Comment vous appelez-vous ?", "en": "What's your name? (literally: how do you call yourself?)", "hi": "आपका नाम क्या है?", "pron": "को-माँ वू ज़ा-प्ले वू" },
-      { "fr": "Combien de billets ? — Deux billets, s'il vous plaît.", "en": "How many tickets? — Two tickets, please.", "hi": "कितने टिकट? — दो टिकट, कृपया।", "pron": "कोँ-ब्यैँ दö बी-यै — दö बी-यै सील वू प्लै" },
-      { "fr": "Quelle est votre adresse ?", "en": "What is your address?", "hi": "आपका पता क्या है?", "pron": "कै लै वो-त्ग़ा-द्ग़ैस" },
-      { "fr": "Pourquoi tu n'aimes pas le café ? — Parce que c'est amer.", "en": "Why don't you like coffee? — Because it's bitter.", "hi": "तुम्हें कॉफ़ी क्यों पसंद नहीं? — क्योंकि यह कड़वी है।", "pron": "पूग़-क्वा तü नैम पा लö का-फ़े — पाग़्स-कö सै ता-मैग़" }
+      { "fr": "Combien de billets ? — Deux billets, s'il vous plaît.", "en": "How many tickets? — Two tickets, please.", "hi": "कितने टिकट? — दो टिकट, कृपया।", "pron": "कों-ब्यैं द बी-ये — द बी-ये सील वू प्ले" },
+      { "fr": "Quelle est votre adresse ?", "en": "What is your address?", "hi": "आपका पता क्या है?", "pron": "के ले वो-त्रा-द्रेस" },
+      { "fr": "Pourquoi tu n'aimes pas le café ? — Parce que c'est amer.", "en": "Why don't you like coffee? — Because it's bitter.", "hi": "तुम्हें कॉफ़ी क्यों पसंद नहीं? — क्योंकि यह कड़वी है।", "pron": "पूर-क्वा त्यू नेम पा ल का-फ़े — पार्स-क से ता-मेर" }
     ],
     "pitfalls": [
       { "en": "'What is your name/address?' uses comment / quel, not qu'est-ce que: Quelle est votre adresse ?", "hi": "'आपका नाम/पता क्या है?' में comment / quel आता है, qu'est-ce que नहीं: Quelle est votre adresse ?" },
@@ -64,16 +64,16 @@
   "pronunciation": {
     "focus": "qu = /k/; silent final consonants in comment, quand",
     "tip": {
-      "en": "qu is always a simple क — no 'kw' sound: qui = की, quel = कैल, quand = काँ (quoi = क्वा because of oi). Final consonants are silent: quand (काँ), comment (को-माँ), combien. But in 'quand est-ce que' the d links as a t: काँ-तैस-कö.",
-      "hi": "qu हमेशा सीधा 'क' है — 'क्व' नहीं: qui = की, quel = कैल, quand = काँ (quoi = क्वा, oi की वजह से)। आख़िरी व्यंजन चुप रहते हैं: quand (काँ), comment (को-माँ), combien। पर 'quand est-ce que' में d, 'त' बनकर जुड़ता है: काँ-तैस-कö।"
+      "en": "qu is always a simple क — no 'kw' sound: qui = की, quel = केल, quand = काँ (quoi = क्वा because of oi). Final consonants are silent: quand (काँ), comment (को-माँ), combien. But in 'quand est-ce que' the d links as a t: काँ-तेस-क.",
+      "hi": "qu हमेशा सीधा 'क' है — 'क्व' नहीं: qui = की, quel = केल, quand = काँ (quoi = क्वा, oi की वजह से)। आख़िरी व्यंजन चुप रहते हैं: quand (काँ), comment (को-माँ), combien। पर 'quand est-ce que' में d, 'त' बनकर जुड़ता है: काँ-तेस-क।"
     },
     "words": [
       { "fr": "qui", "en": "who", "hi": "कौन", "pron": "की", "ipa": "ki" },
-      { "fr": "quel", "en": "which", "hi": "कौन-सा", "pron": "कैल", "ipa": "kɛl" },
+      { "fr": "quel", "en": "which", "hi": "कौन-सा", "pron": "केल", "ipa": "kɛl" },
       { "fr": "quand", "en": "when", "hi": "कब", "pron": "काँ", "ipa": "kɑ̃" },
-      { "fr": "quand est-ce que", "en": "when (+ question)", "hi": "कब (प्रश्न)", "pron": "काँ-तैस-कö", "ipa": "kɑ̃tɛskə" },
-      { "fr": "comment", "en": "how", "hi": "कैसे", "pron": "को-माँ", "ipa": "kɔmɑ̃" },
-      { "fr": "pourquoi", "en": "why", "hi": "क्यों", "pron": "पूग़-क्वा", "ipa": "puʁkwa" }
+      { "fr": "quand est-ce que", "en": "when (+ question)", "hi": "कब (प्रश्न)", "pron": "काँ-तेस-क", "ipa": "kɑ̃tɛskə" },
+      { "fr": "comment", "en": "how", "hi": "कैसे", "pron": "कॉ-माँ", "ipa": "kɔmɑ̃" },
+      { "fr": "pourquoi", "en": "why", "hi": "क्यों", "pron": "पूर-क्वा", "ipa": "puʁkwa" }
     ]
   },
   "listening": {
@@ -92,11 +92,11 @@
       { "speaker": "Passante", "voice": "f2", "fr": "C'est à dix minutes à pied. Bonne soirée !", "en": "It's ten minutes on foot. Have a nice evening!", "hi": "पैदल दस मिनट है। आपकी शाम अच्छी हो!" }
     ],
     "questions": [
-      { "q": { "en": "Where is the concert?" }, "options": ["At the community centre", "In Lafontaine Park", "At the station"], "answer": 1, "explanation": { "en": "'Il est au parc Lafontaine.'", "hi": "'Il est au parc Lafontaine.' — लाफ़ोंतेन पार्क में।" }, "kind": "literal", "evidence": "Il est au parc Lafontaine." },
-      { "q": { "en": "When is the concert?" }, "options": ["This evening at 8 p.m.", "Tomorrow at 10 a.m.", "Saturday at 2 p.m."], "answer": 0, "explanation": { "en": "'Ce soir, à vingt heures' — 20 h = 8 p.m.", "hi": "'Ce soir, à vingt heures' — 20 h = रात 8 बजे।" }, "kind": "literal", "evidence": "Ce soir, à vingt heures." },
-      { "q": { "en": "How much is a ticket?" }, "options": ["$20", "$10", "Nothing"], "answer": 2, "explanation": { "en": "'C'est gratuit'.", "hi": "'C'est gratuit' — मुफ़्त।" }, "kind": "literal", "evidence": "C'est gratuit" },
-      { "q": { "en": "Why is it free?" }, "options": ["Because it's a neighbourhood festival", "Because it's raining", "Because Ravi is a student"], "answer": 0, "explanation": { "en": "'parce que c'est la fête du quartier'.", "hi": "'parce que c'est la fête du quartier' — क्योंकि यह मोहल्ले का उत्सव है।" }, "kind": "inference", "evidence": "parce que c'est la fête du quartier" },
-      { "q": { "en": "How can Ravi get to the park?" }, "options": ["By train", "On foot, ten minutes", "By car, twenty minutes"], "answer": 1, "explanation": { "en": "'C'est à dix minutes à pied.'", "hi": "'C'est à dix minutes à pied.' — पैदल दस मिनट।" }, "kind": "literal", "evidence": "C'est à dix minutes à pied." }
+      { "q": { "en": "Where is the concert?", "hi": "कॉन्सर्ट कहाँ है?" }, "options": ["At the community centre", "In Lafontaine Park", "At the station"], "optionsHi": ["सामुदायिक केंद्र में", "Lafontaine Park में", "स्टेशन पर"], "answer": 1, "explanation": { "en": "'Il est au parc Lafontaine.'", "hi": "'Il est au parc Lafontaine.' — लाफ़ोंतेन पार्क में।" }, "kind": "literal", "evidence": "Il est au parc Lafontaine." },
+      { "q": { "en": "When is the concert?", "hi": "कॉन्सर्ट कब है?" }, "options": ["This evening at 8 p.m.", "Tomorrow at 10 a.m.", "Saturday at 2 p.m."], "optionsHi": ["आज शाम 8 बजे", "कल सुबह 10 बजे", "शनिवार को दोपहर 2 बजे"], "answer": 0, "explanation": { "en": "'Ce soir, à vingt heures' — 20 h = 8 p.m.", "hi": "'Ce soir, à vingt heures' — 20 h = रात 8 बजे।" }, "kind": "literal", "evidence": "Ce soir, à vingt heures." },
+      { "q": { "en": "How much is a ticket?", "hi": "टिकट कितने का है?" }, "options": ["$20", "$10", "Nothing"], "optionsHi": ["$20", "$10", "कुछ नहीं"], "answer": 2, "explanation": { "en": "'C'est gratuit'.", "hi": "'C'est gratuit' — मुफ़्त।" }, "kind": "literal", "evidence": "C'est gratuit" },
+      { "q": { "en": "Why is it free?", "hi": "यह मुफ़्त क्यों है?" }, "options": ["Because it's a neighbourhood festival", "Because it's raining", "Because Ravi is a student"], "optionsHi": ["क्योंकि यह मोहल्ले का उत्सव है", "क्योंकि बारिश हो रही है", "क्योंकि Ravi विद्यार्थी है"], "answer": 0, "explanation": { "en": "'parce que c'est la fête du quartier'.", "hi": "'parce que c'est la fête du quartier' — क्योंकि यह मोहल्ले का उत्सव है।" }, "kind": "inference", "evidence": "parce que c'est la fête du quartier" },
+      { "q": { "en": "How can Ravi get to the park?", "hi": "Ravi पार्क तक कैसे पहुँच सकता है?" }, "options": ["By train", "On foot, ten minutes", "By car, twenty minutes"], "optionsHi": ["ट्रेन से", "पैदल, दस मिनट में", "कार से, बीस मिनट में"], "answer": 1, "explanation": { "en": "'C'est à dix minutes à pied.'", "hi": "'C'est à dix minutes à pied.' — पैदल दस मिनट।" }, "kind": "literal", "evidence": "C'est à dix minutes à pied." }
     ],
     "dictation": ["Où est le concert ?", "Combien coûte le billet ?", "Comment on va au parc ?"],
     "gapFill": { "text": "___ est le concert, s'il vous plaît ? … Et c'est ___ ?", "answers": ["Où", "quand"] }
@@ -108,11 +108,11 @@
       "hi": "आज की पढ़ाई वाला कार्यक्रम का पोस्टर देखिए। पाँच मुख्य प्रश्न पूछिए (quoi, quand, où, combien, pourquoi) और पोस्टर से हर एक का जवाब दीजिए।"
     },
     "prompts": [
-      { "fr": "Qu'est-ce que c'est ?", "en": "What is it?", "hi": "यह क्या है?", "pron": "कैस-कö सै", "model": "C'est la fête de l'Inde." },
-      { "fr": "C'est quand ?", "en": "When is it?", "hi": "यह कब है?", "pron": "सै काँ", "model": "C'est le samedi 14 août, de 11 h à 22 h." },
-      { "fr": "C'est où ?", "en": "Where is it?", "hi": "यह कहाँ है?", "pron": "सै ऊ", "model": "C'est au parc Jarry." },
-      { "fr": "Combien coûte l'entrée ?", "en": "How much is admission?", "hi": "प्रवेश कितने का है?", "pron": "कोँ-ब्यैँ कूत लाँ-त्ग़े", "model": "L'entrée est gratuite." },
-      { "fr": "Pourquoi ? — Parce que …", "en": "Why? — Because …", "hi": "क्यों? — क्योंकि …", "pron": "पूग़-क्वा — पाग़्स-कö", "model": "Parce que c'est le Jour de l'Indépendance de l'Inde." }
+      { "fr": "Qu'est-ce que c'est ?", "en": "What is it?", "hi": "यह क्या है?", "pron": "केस-क से", "model": "C'est la fête de l'Inde." },
+      { "fr": "C'est quand ?", "en": "When is it?", "hi": "यह कब है?", "pron": "से काँ", "model": "C'est le samedi 14 août, de 11 h à 22 h." },
+      { "fr": "C'est où ?", "en": "Where is it?", "hi": "यह कहाँ है?", "pron": "से ऊ", "model": "C'est au parc Jarry." },
+      { "fr": "Combien coûte l'entrée ?", "en": "How much is admission?", "hi": "प्रवेश कितने का है?", "pron": "कों-ब्यैं कूत लाँ-त्रे", "model": "L'entrée est gratuite." },
+      { "fr": "Pourquoi ? — Parce que …", "en": "Why? — Because …", "hi": "क्यों? — क्योंकि …", "pron": "पूर-क्वा — पार्स-क", "model": "Parce que c'est le Jour de l'Indépendance de l'Inde." }
     ],
     "tip": {
       "en": "With question words, the voice usually starts high on the question word and falls: OÙ est la gare ? ↘",
@@ -128,10 +128,10 @@
       "hi": "मॉन्ट्रियाल में भारत उत्सव\nक्या? संगीत, नृत्य और भारतीय खाना\nकब? शनिवार, 14 अगस्त, सुबह 11 से रात 10 बजे तक\nकहाँ? जारी पार्क में\nकितना? प्रवेश मुफ़्त — भोजन: 12 डॉलर\nक्यों? भारत का स्वतंत्रता दिवस मनाने के लिए!\nकिसके लिए? पूरे परिवार के लिए"
     },
     "questions": [
-      { "q": { "en": "When does the festival end?" }, "options": ["At 11 a.m.", "At 10 p.m.", "At 2 p.m."], "answer": 1, "explanation": { "en": "'de 11 h à 22 h' — it ends at 22 h = 10 p.m.", "hi": "'de 11 h à 22 h' — 22 h = रात 10 बजे ख़त्म।" }, "kind": "literal", "evidence": "de 11 h à 22 h" },
-      { "q": { "en": "A family of four eats there. How much do they pay for meals?" }, "options": ["$12", "$48", "Nothing"], "answer": 1, "explanation": { "en": "Admission is free, but a meal is $12: 4 × 12 = 48.", "hi": "प्रवेश मुफ़्त है, पर भोजन 12 डॉलर: 4 × 12 = 48।" }, "kind": "inference", "evidence": "Entrée gratuite — repas : 12 $" },
-      { "q": { "en": "Why is there a festival?" }, "options": ["For a birthday", "For India's Independence Day", "For the end of school"], "answer": 1, "explanation": { "en": "'Pour célébrer le Jour de l'Indépendance de l'Inde !'", "hi": "'Pour célébrer le Jour de l'Indépendance de l'Inde !' — भारत का स्वतंत्रता दिवस।" }, "kind": "literal", "evidence": "Pour célébrer le Jour de l'Indépendance de l'Inde !" },
-      { "q": { "en": "Is the festival for adults only?" }, "options": ["Yes", "No, it's for the whole family", "Only for children"], "answer": 1, "explanation": { "en": "'Pour toute la famille'.", "hi": "'Pour toute la famille' — पूरे परिवार के लिए।" }, "kind": "literal", "evidence": "Pour toute la famille" }
+      { "q": { "en": "When does the festival end?", "hi": "उत्सव कब समाप्त होता है?" }, "options": ["At 11 a.m.", "At 10 p.m.", "At 2 p.m."], "answer": 1, "explanation": { "en": "'de 11 h à 22 h' — it ends at 22 h = 10 p.m.", "hi": "'de 11 h à 22 h' — 22 h = रात 10 बजे ख़त्म।" }, "kind": "literal", "evidence": "de 11 h à 22 h" },
+      { "q": { "en": "A family of four eats there. How much do they pay for meals?", "hi": "चार सदस्यों का एक परिवार वहाँ खाना खाता है। भोजन के लिए वह कितना भुगतान करता है?" }, "options": ["$12", "$48", "Nothing"], "optionsHi": ["$12", "$48", "कुछ नहीं"], "answer": 1, "explanation": { "en": "Admission is free, but a meal is $12: 4 × 12 = 48.", "hi": "प्रवेश मुफ़्त है, पर भोजन 12 डॉलर: 4 × 12 = 48।" }, "kind": "inference", "evidence": "Entrée gratuite — repas : 12 $" },
+      { "q": { "en": "Why is there a festival?", "hi": "यह उत्सव क्यों हो रहा है?" }, "options": ["For a birthday", "For India's Independence Day", "For the end of school"], "optionsHi": ["किसी जन्मदिन के लिए", "भारत के स्वतंत्रता दिवस के लिए", "स्कूल का सत्र समाप्त होने के लिए"], "answer": 1, "explanation": { "en": "'Pour célébrer le Jour de l'Indépendance de l'Inde !'", "hi": "'Pour célébrer le Jour de l'Indépendance de l'Inde !' — भारत का स्वतंत्रता दिवस।" }, "kind": "literal", "evidence": "Pour célébrer le Jour de l'Indépendance de l'Inde !" },
+      { "q": { "en": "Is the festival for adults only?", "hi": "क्या यह उत्सव केवल वयस्कों के लिए है?" }, "options": ["Yes", "No, it's for the whole family", "Only for children"], "optionsHi": ["हाँ", "नहीं, यह पूरे परिवार के लिए है", "केवल बच्चों के लिए"], "answer": 1, "explanation": { "en": "'Pour toute la famille'.", "hi": "'Pour toute la famille' — पूरे परिवार के लिए।" }, "kind": "literal", "evidence": "Pour toute la famille" }
     ]
   },
   "writing": {
@@ -147,9 +147,9 @@
       { "en": "Answer pourquoi with parce que.", "hi": "pourquoi का जवाब parce que से।" }
     ],
     "usefulPhrases": [
-      { "fr": "Où est-ce que … ?", "en": "Where … ?", "hi": "कहाँ … ?", "pron": "ऊ ऐस-कö" },
-      { "fr": "Combien coûte … ?", "en": "How much is … ?", "hi": "… कितने का है?", "pron": "कोँ-ब्यैँ कूत" },
-      { "fr": "Parce que …", "en": "Because …", "hi": "क्योंकि …", "pron": "पाग़्स-कö" }
+      { "fr": "Où est-ce que … ?", "en": "Where … ?", "hi": "कहाँ … ?", "pron": "ऊ एस-क" },
+      { "fr": "Combien coûte … ?", "en": "How much is … ?", "hi": "… कितने का है?", "pron": "कों-ब्यैं कूत" },
+      { "fr": "Parce que …", "en": "Because …", "hi": "क्योंकि …", "pron": "पारस-क" }
     ],
     "model": { "fr": "Qu'est-ce que c'est ? C'est la fête de l'Inde à Montréal. Quand est-ce que c'est ? C'est le samedi 14 août. Où est-ce que c'est ? C'est au parc Jarry. Combien coûte l'entrée ? L'entrée est gratuite, mais le repas coûte 12 dollars. Pourquoi est-ce qu'il y a une fête ? Parce que c'est le Jour de l'Indépendance de l'Inde.", "en": "What is it? It's the India Festival in Montréal. When is it? It's on Saturday 14 August. Where is it? It's in Jarry Park. How much is admission? Admission is free, but the meal costs 12 dollars. Why is there a festival? Because it's India's Independence Day." },
     "checklist": [
@@ -161,12 +161,12 @@
   "review": {
     "fromDays": [11, 12, 13, 15, 16],
     "items": [
-      { "fr": "Est-ce qu'il y a des places ?", "en": "Are there places?", "hi": "क्या जगह है?", "pron": "ऐस-की-ल्या दे प्लास" },
-      { "fr": "Qu'est-ce que tu fais le week-end ?", "en": "What do you do at the weekend?", "hi": "तुम वीकेंड पर क्या करते हो?", "pron": "कैस-कö तü फ़ै लö वी-कैन्द" },
-      { "fr": "Je vais au parc.", "en": "I'm going to the park.", "hi": "मैं पार्क जा रहा/रही हूँ।", "pron": "झ़ö वै ज़ो पाग़्क" },
-      { "fr": "Il est vingt heures.", "en": "It's 8 p.m.", "hi": "रात के आठ बजे हैं।", "pron": "ई लै वैँ तöग़" },
-      { "fr": "le samedi 14 août", "en": "Saturday 14 August", "hi": "शनिवार, 14 अगस्त", "pron": "लö साम-दी का-तॉग़्ज़ ऊत" },
-      { "fr": "C'est gratuit.", "en": "It's free.", "hi": "यह मुफ़्त है।", "pron": "सै ग्ग़ा-तüई" }
+      { "fr": "Est-ce qu'il y a des places ?", "en": "Are there places?", "hi": "क्या जगह है?", "pron": "एस-की-ल्या दे प्लास" },
+      { "fr": "Qu'est-ce que tu fais le week-end ?", "en": "What do you do at the weekend?", "hi": "तुम वीकेंड पर क्या करते हो?", "pron": "केस-क त्यू फ़े ल वी-केन्द" },
+      { "fr": "Je vais au parc.", "en": "I'm going to the park.", "hi": "मैं पार्क जा रहा/रही हूँ।", "pron": "ज वे ज़ो पार्क" },
+      { "fr": "Il est vingt heures.", "en": "It's 8 p.m.", "hi": "रात के आठ बजे हैं।", "pron": "ई ले वैं तर" },
+      { "fr": "le samedi 14 août", "en": "Saturday 14 August", "hi": "शनिवार, 14 अगस्त", "pron": "ल साम-दी का-तॉर्ज़ ऊत" },
+      { "fr": "C'est gratuit.", "en": "It's free.", "hi": "यह मुफ़्त है।", "pron": "से ग्रा-त्यूई" }
     ]
   },
   "assessment": [

@@ -16,28 +16,28 @@
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "se réveiller", "en": "to wake up", "hi": "जागना", "pron": "स्ö ग़े-वे-ये", "ipa": "sə ʁeveje", "pos": "verb", "lemma": "réveiller" },
-    { "fr": "se lever", "en": "to get up", "hi": "उठना (बिस्तर से)", "pron": "स्ö ल्ö-वे", "ipa": "sə ləve", "pos": "verb", "lemma": "lever", "note": { "en": "Accent in je, tu, il, ils forms: je me lève, ils se lèvent — but nous nous levons, vous vous levez.", "hi": "je, tu, il, ils रूपों में accent आता है: je me lève, ils se lèvent — पर nous nous levons, vous vous levez।" } },
-    { "fr": "se laver", "en": "to wash (oneself)", "hi": "नहाना / हाथ-मुँह धोना", "pron": "स्ö ला-वे", "ipa": "sə lave", "pos": "verb", "lemma": "laver" },
-    { "fr": "se doucher", "en": "to take a shower", "hi": "शावर लेना / नहाना", "pron": "स्ö दू-शे", "ipa": "sə duʃe", "pos": "verb", "lemma": "doucher" },
-    { "fr": "se brosser les dents", "en": "to brush one's teeth", "hi": "दाँत ब्रश करना", "pron": "स्ö ब्रॉ-से ले दाँ", "ipa": "sə bʁɔse le dɑ̃", "pos": "verb", "lemma": "brosser", "note": { "en": "French says 'les dents' (the teeth), not 'mes dents'.", "hi": "फ़्रेंच में 'les dents' कहते हैं, 'mes dents' नहीं।" } },
+    { "fr": "se réveiller", "en": "to wake up", "hi": "जागना", "pron": "स रे-वे-ये", "ipa": "sə ʁeveje", "pos": "verb", "lemma": "réveiller" },
+    { "fr": "se lever", "en": "to get up", "hi": "उठना (बिस्तर से)", "pron": "स ल-वे", "ipa": "sə ləve", "pos": "verb", "lemma": "lever", "note": { "en": "Accent in je, tu, il, ils forms: je me lève, ils se lèvent — but nous nous levons, vous vous levez.", "hi": "je, tu, il, ils रूपों में accent आता है: je me lève, ils se lèvent — पर nous nous levons, vous vous levez।" } },
+    { "fr": "se laver", "en": "to wash (oneself)", "hi": "नहाना / हाथ-मुँह धोना", "pron": "स ला-वे", "ipa": "sə lave", "pos": "verb", "lemma": "laver" },
+    { "fr": "se doucher", "en": "to take a shower", "hi": "शावर लेना / नहाना", "pron": "स दू-शे", "ipa": "sə duʃe", "pos": "verb", "lemma": "doucher" },
+    { "fr": "se brosser les dents", "en": "to brush one's teeth", "hi": "दाँत ब्रश करना", "pron": "स ब्रॉ-से ले दाँ", "ipa": "sə bʁɔse le dɑ̃", "pos": "verb", "lemma": "brosser", "note": { "en": "French says 'les dents' (the teeth), not 'mes dents'.", "hi": "फ़्रेंच में 'les dents' कहते हैं, 'mes dents' नहीं।" } },
     { "fr": "s'habiller", "en": "to get dressed", "hi": "कपड़े पहनना / तैयार होना", "pron": "सा-बी-ये", "ipa": "sabije", "pos": "verb", "lemma": "habiller" },
-    { "fr": "se coucher", "en": "to go to bed", "hi": "सोने जाना", "pron": "स्ö कू-शे", "ipa": "sə kuʃe", "pos": "verb", "lemma": "coucher" },
-    { "fr": "se dépêcher", "en": "to hurry", "hi": "जल्दी करना", "pron": "स्ö दे-पै-शे", "ipa": "sə depeʃe", "pos": "verb", "lemma": "dépêcher" },
-    { "fr": "se reposer", "en": "to rest", "hi": "आराम करना", "pron": "स्ö ग़ö-पो-ज़े", "ipa": "sə ʁəpoze", "pos": "verb", "lemma": "reposer" },
-    { "fr": "d'abord", "en": "first", "hi": "पहले", "pron": "दा-बॉग़", "ipa": "dabɔʁ", "pos": "adverb" },
-    { "fr": "ensuite", "en": "then / next", "hi": "उसके बाद", "pron": "आँ-स्üईत", "ipa": "ɑ̃sɥit", "pos": "adverb" },
-    { "fr": "puis", "en": "then", "hi": "फिर", "pron": "प्üई", "ipa": "pɥi", "pos": "adverb" },
-    { "fr": "enfin", "en": "finally / at last", "hi": "आख़िर में", "pron": "आँ-फ़ैँ", "ipa": "ɑ̃fɛ̃", "pos": "adverb" },
-    { "fr": "tôt / tard", "en": "early / late", "hi": "जल्दी / देर से", "pron": "तो / ताग़", "ipa": "to / taʁ", "pos": "adverb", "lemma": "tôt" }
+    { "fr": "se coucher", "en": "to go to bed", "hi": "सोने जाना", "pron": "स कू-शे", "ipa": "sə kuʃe", "pos": "verb", "lemma": "coucher" },
+    { "fr": "se dépêcher", "en": "to hurry", "hi": "जल्दी करना", "pron": "स दे-पे-शे", "ipa": "sə depeʃe", "pos": "verb", "lemma": "dépêcher" },
+    { "fr": "se reposer", "en": "to rest", "hi": "आराम करना", "pron": "स र-पो-ज़े", "ipa": "sə ʁəpoze", "pos": "verb", "lemma": "reposer" },
+    { "fr": "d'abord", "en": "first", "hi": "पहले", "pron": "दा-बॉर", "ipa": "dabɔʁ", "pos": "adverb" },
+    { "fr": "ensuite", "en": "then / next", "hi": "उसके बाद", "pron": "आँ-स्यूईत", "ipa": "ɑ̃sɥit", "pos": "adverb" },
+    { "fr": "puis", "en": "then", "hi": "फिर", "pron": "प्यूई", "ipa": "pɥi", "pos": "adverb" },
+    { "fr": "enfin", "en": "finally / at last", "hi": "आख़िर में", "pron": "आँ-फ़ैं", "ipa": "ɑ̃fɛ̃", "pos": "adverb" },
+    { "fr": "tôt / tard", "en": "early / late", "hi": "जल्दी / देर से", "pron": "तो / तार", "ipa": "to / taʁ", "pos": "adverb", "lemma": "tôt" }
   ],
   "phrases": [
-    { "fr": "Je me lève à six heures.", "en": "I get up at six.", "hi": "मैं छह बजे उठता/उठती हूँ।", "pron": "झ़ö म्ö लैव आ सी ज़öग़" },
-    { "fr": "À quelle heure tu te couches ?", "en": "What time do you go to bed?", "hi": "तुम कितने बजे सोते हो?", "pron": "आ कै लöग़ तü त्ö कूश" },
-    { "fr": "D'abord, je me douche.", "en": "First, I have a shower.", "hi": "पहले, मैं नहाता/नहाती हूँ।", "pron": "दा-बॉग़ झ़ö म्ö दूश" },
-    { "fr": "Je me dépêche !", "en": "I'm hurrying!", "hi": "मैं जल्दी कर रहा/रही हूँ!", "pron": "झ़ö म्ö दे-पैश" },
-    { "fr": "Le week-end, je me repose.", "en": "At the weekend I rest.", "hi": "सप्ताहांत में मैं आराम करता/करती हूँ।", "pron": "लö वी-कैन्द झ़ö म्ö ग़ö-पोज़" },
-    { "fr": "Je ne me lève pas tôt le dimanche.", "en": "I don't get up early on Sundays.", "hi": "रविवार को मैं जल्दी नहीं उठता/उठती।", "pron": "झ़ö न्ö म्ö लैव पा तो लö दी-माँश" }
+    { "fr": "Je me lève à six heures.", "en": "I get up at six.", "hi": "मैं छह बजे उठता/उठती हूँ।", "pron": "ज म लेव आ सी ज़र" },
+    { "fr": "À quelle heure tu te couches ?", "en": "What time do you go to bed?", "hi": "तुम कितने बजे सोते हो?", "pron": "आ के लर त्यू त कूश" },
+    { "fr": "D'abord, je me douche.", "en": "First, I have a shower.", "hi": "पहले, मैं नहाता/नहाती हूँ।", "pron": "दा-बॉर ज म दूश" },
+    { "fr": "Je me dépêche !", "en": "I'm hurrying!", "hi": "मैं जल्दी कर रहा/रही हूँ!", "pron": "ज म दे-पेश" },
+    { "fr": "Le week-end, je me repose.", "en": "At the weekend I rest.", "hi": "सप्ताहांत में मैं आराम करता/करती हूँ।", "pron": "ल वी-केन्द ज म र-पोज़" },
+    { "fr": "Je ne me lève pas tôt le dimanche.", "en": "I don't get up early on Sundays.", "hi": "रविवार को मैं जल्दी नहीं उठता/उठती।", "pron": "ज न म लेव पा तो ल दी-माँश" }
   ],
   "grammar": {
     "title": { "en": "Reflexive verbs: je me lève", "hi": "निजवाचक क्रियाएँ (reflexive verbs): je me lève" },
@@ -50,12 +50,12 @@
       "hi": "अंग्रेज़ी में अक्सर 'myself' नहीं आता: I get up, I get dressed, I wash। हिंदी में संयुक्त क्रियाएँ आती हैं: उठ जाना, तैयार होना, नहा लेना। फ़्रेंच में सर्वनाम हमेशा ज़रूरी है: je me lave का शब्दशः अर्थ है 'मैं ख़ुद को धोता हूँ'। तुलना कीजिए: je lave la voiture (मैं गाड़ी धोता हूँ — 'धोना') और je me lave (मैं नहाता हूँ — 'नहाना')। 'अपने आप को' से अनुवाद मत कीजिए; me/te/se को क्रिया का हिस्सा मानकर याद कीजिए।"
     },
     "examples": [
-      { "fr": "Je me réveille à six heures et demie.", "en": "I wake up at half past six.", "hi": "मैं साढ़े छह बजे जागता/जागती हूँ।", "pron": "झ़ö म्ö ग़े-वैय आ सी ज़öग़ ए दö-मी" },
-      { "fr": "Tu te lèves tôt ?", "en": "Do you get up early?", "hi": "क्या तुम जल्दी उठते हो?", "pron": "तü त्ö लैव तो" },
-      { "fr": "Elle s'habille dans sa chambre.", "en": "She gets dressed in her bedroom.", "hi": "वह अपने कमरे में तैयार होती है।", "pron": "ऐल सा-बीय दाँ सा शाँब्ग़" },
-      { "fr": "Nous nous couchons à onze heures.", "en": "We go to bed at eleven.", "hi": "हम ग्यारह बजे सोते हैं।", "pron": "नू नू कू-शोँ आ ओँ-ज़öग़" },
-      { "fr": "Vous vous reposez le dimanche ?", "en": "Do you rest on Sundays?", "hi": "क्या आप रविवार को आराम करते हैं?", "pron": "वू वू ग़ö-पो-ज़े लö दी-माँश" },
-      { "fr": "Ils ne se lèvent pas tard.", "en": "They don't get up late.", "hi": "वे देर से नहीं उठते।", "pron": "ईल न्ö स्ö लैव पा ताग़" }
+      { "fr": "Je me réveille à six heures et demie.", "en": "I wake up at half past six.", "hi": "मैं साढ़े छह बजे जागता/जागती हूँ।", "pron": "ज म रे-वेय आ सी ज़र ए द-मी" },
+      { "fr": "Tu te lèves tôt ?", "en": "Do you get up early?", "hi": "क्या तुम जल्दी उठते हो?", "pron": "त्यू त लेव तो" },
+      { "fr": "Elle s'habille dans sa chambre.", "en": "She gets dressed in her bedroom.", "hi": "वह अपने कमरे में तैयार होती है।", "pron": "एल सा-बीय दाँ सा शाँब्र" },
+      { "fr": "Nous nous couchons à onze heures.", "en": "We go to bed at eleven.", "hi": "हम ग्यारह बजे सोते हैं।", "pron": "नू नू कू-शों आ ओं-ज़र" },
+      { "fr": "Vous vous reposez le dimanche ?", "en": "Do you rest on Sundays?", "hi": "क्या आप रविवार को आराम करते हैं?", "pron": "वू वू र-पो-ज़े ल दी-माँश" },
+      { "fr": "Ils ne se lèvent pas tard.", "en": "They don't get up late.", "hi": "वे देर से नहीं उठते।", "pron": "ईल न स लेव पा तार" }
     ],
     "pitfalls": [
       { "en": "Don't drop the pronoun: 'Je lève à six heures' means 'I lift at six'. Say 'Je me lève'.", "hi": "सर्वनाम मत छोड़िए: 'Je lève à six heures' का मतलब है 'मैं छह बजे उठाता हूँ'। 'Je me lève' कहिए।" },
@@ -66,14 +66,14 @@
   "pronunciation": {
     "focus": "Silent letters in conjugations: il se lève, ils se lèvent",
     "tip": {
-      "en": "il se lève and ils se lèvent sound exactly the same: ईल स्ö लैव. The -e, -es and -ent endings are silent. Only nous (-ons, nasal ओँ) and vous (-ez, ए) sound different. The s of ils is silent too, unless the next word starts with a vowel: ils s'habillent = ईल सा-बीय.",
-      "hi": "il se lève और ils se lèvent बिल्कुल एक जैसे सुनाई देते हैं: ईल स्ö लैव। -e, -es और -ent अंत मूक हैं। सिर्फ़ nous (-ons, नासिक्य ओँ) और vous (-ez, ए) अलग सुनाई देते हैं। ils का s भी मूक है, जब तक अगला शब्द स्वर से शुरू न हो: ils s'habillent = ईल सा-बीय।"
+      "en": "il se lève and ils se lèvent sound exactly the same: ईल स लेव. The -e, -es and -ent endings are silent. Only nous (-ons, nasal ओं) and vous (-ez, ए) sound different. The s of ils is silent too, unless the next word starts with a vowel: ils s'habillent = ईल सा-बीय.",
+      "hi": "il se lève और ils se lèvent बिल्कुल एक जैसे सुनाई देते हैं: ईल स लेव। -e, -es और -ent अंत मूक हैं। सिर्फ़ nous (-ons, नासिक्य ओं) और vous (-ez, ए) अलग सुनाई देते हैं। ils का s भी मूक है, जब तक अगला शब्द स्वर से शुरू न हो: ils s'habillent = ईल सा-बीय।"
     },
     "words": [
-      { "fr": "il se lève", "en": "he gets up", "hi": "वह उठता है", "pron": "ईल स्ö लैव", "ipa": "il sə lɛv" },
-      { "fr": "ils se lèvent", "en": "they get up", "hi": "वे उठते हैं", "pron": "ईल स्ö लैव", "ipa": "il sə lɛv", "note": { "en": "Same sound as 'il se lève'.", "hi": "'il se lève' जैसी ही आवाज़।" } },
-      { "fr": "tu te douches", "en": "you take a shower", "hi": "तुम नहाते हो", "pron": "तü त्ö दूश", "ipa": "ty tə duʃ" },
-      { "fr": "nous nous levons", "en": "we get up", "hi": "हम उठते हैं", "pron": "नू नू ल्ö-वोँ", "ipa": "nu nu ləvɔ̃" },
+      { "fr": "il se lève", "en": "he gets up", "hi": "वह उठता है", "pron": "ईल स लेव", "ipa": "il sə lɛv" },
+      { "fr": "ils se lèvent", "en": "they get up", "hi": "वे उठते हैं", "pron": "ईल स लेव", "ipa": "il sə lɛv", "note": { "en": "Same sound as 'il se lève'.", "hi": "'il se lève' जैसी ही आवाज़।" } },
+      { "fr": "tu te douches", "en": "you take a shower", "hi": "तुम नहाते हो", "pron": "त्यू त दूश", "ipa": "ty tə duʃ" },
+      { "fr": "nous nous levons", "en": "we get up", "hi": "हम उठते हैं", "pron": "नू नू ल-वों", "ipa": "nu nu ləvɔ̃" },
       { "fr": "vous vous couchez", "en": "you go to bed", "hi": "आप सोने जाते हैं", "pron": "वू वू कू-शे", "ipa": "vu vu kuʃe" }
     ]
   },
@@ -100,11 +100,11 @@
       { "speaker": "Priya", "voice": "f1", "fr": "Parfait : la salle de bains est à moi le matin et à toi le soir !", "en": "Perfect: the bathroom is mine in the morning and yours in the evening!", "hi": "बढ़िया: सुबह बाथरूम मेरा और शाम को तुम्हारा!" }
     ],
     "questions": [
-      { "q": { "en": "What time does Priya get up?" }, "options": ["At 6:00", "At 7:30", "At 10:00"], "answer": 0, "explanation": { "en": "'Je me lève à six heures.' 7:30 is Sophie.", "hi": "'Je me lève à six heures.' साढ़े सात सोफ़ी का समय है।" }, "kind": "literal", "evidence": "Je me lève à six heures." },
-      { "q": { "en": "What does Priya do first in the morning?" }, "options": ["She has a shower", "She does yoga", "She eats eggs"], "answer": 1, "explanation": { "en": "'D'abord, je fais du yoga' — d'abord = first.", "hi": "'D'abord, je fais du yoga' — d'abord = पहले।" }, "kind": "literal", "evidence": "D'abord, je fais du yoga" },
-      { "q": { "en": "When does Sophie take a shower?" }, "options": ["In the morning", "In the evening", "At midnight"], "answer": 1, "explanation": { "en": "She answers 'Le soir.'", "hi": "वह जवाब देती है 'Le soir.' — शाम को।" }, "kind": "literal", "evidence": "Le soir. Le matin, je m'habille et je prends un café." },
-      { "q": { "en": "Why doesn't Sophie eat in the morning?" }, "options": ["She is not hungry", "She is always in a hurry", "She eats at the office"], "answer": 1, "explanation": { "en": "'Je me dépêche toujours !' — she is always rushing.", "hi": "'Je me dépêche toujours !' — उसे हमेशा जल्दी रहती है।" }, "kind": "inference", "evidence": "Je me dépêche toujours !" },
-      { "q": { "en": "Why is the shared bathroom not a problem?" }, "options": ["They have two bathrooms", "Priya uses it in the morning and Sophie in the evening", "Sophie doesn't shower"], "answer": 1, "explanation": { "en": "Priya showers in the morning, Sophie in the evening: 'à moi le matin et à toi le soir'.", "hi": "प्रिया सुबह नहाती है, सोफ़ी शाम को: 'à moi le matin et à toi le soir'।" }, "kind": "gist", "evidence": "la salle de bains est à moi le matin et à toi le soir" }
+      { "q": { "en": "What time does Priya get up?", "hi": "प्रिया कितने बजे उठती है?" }, "options": ["At 6:00", "At 7:30", "At 10:00"], "answer": 0, "explanation": { "en": "'Je me lève à six heures.' 7:30 is Sophie.", "hi": "'Je me lève à six heures.' साढ़े सात सोफ़ी का समय है।" }, "kind": "literal", "evidence": "Je me lève à six heures." },
+      { "q": { "en": "What does Priya do first in the morning?", "hi": "प्रिया सुबह सबसे पहले क्या करती है?" }, "options": ["She has a shower", "She does yoga", "She eats eggs"], "optionsHi": ["वह नहाती है", "वह योग करती है", "वह अंडे खाती है"], "answer": 1, "explanation": { "en": "'D'abord, je fais du yoga' — d'abord = first.", "hi": "'D'abord, je fais du yoga' — d'abord = पहले।" }, "kind": "literal", "evidence": "D'abord, je fais du yoga" },
+      { "q": { "en": "When does Sophie take a shower?", "hi": "सोफ़ी कब नहाती है?" }, "options": ["In the morning", "In the evening", "At midnight"], "optionsHi": ["सुबह", "शाम को", "आधी रात को"], "answer": 1, "explanation": { "en": "She answers 'Le soir.'", "hi": "वह जवाब देती है 'Le soir.' — शाम को।" }, "kind": "literal", "evidence": "Le soir. Le matin, je m'habille et je prends un café." },
+      { "q": { "en": "Why doesn't Sophie eat in the morning?", "hi": "सोफ़ी सुबह खाना क्यों नहीं खाती?" }, "options": ["She is not hungry", "She is always in a hurry", "She eats at the office"], "optionsHi": ["उसे भूख नहीं लगती", "वह हमेशा जल्दी में रहती है", "वह दफ़्तर में खाती है"], "answer": 1, "explanation": { "en": "'Je me dépêche toujours !' — she is always rushing.", "hi": "'Je me dépêche toujours !' — उसे हमेशा जल्दी रहती है।" }, "kind": "inference", "evidence": "Je me dépêche toujours !" },
+      { "q": { "en": "Why is the shared bathroom not a problem?", "hi": "साझा स्नानघर समस्या क्यों नहीं है?" }, "options": ["They have two bathrooms", "Priya uses it in the morning and Sophie in the evening", "Sophie doesn't shower"], "optionsHi": ["उनके पास दो स्नानघर हैं", "प्रिया उसे सुबह इस्तेमाल करती है और सोफ़ी शाम को", "सोफ़ी नहाती ही नहीं"], "answer": 1, "explanation": { "en": "Priya showers in the morning, Sophie in the evening: 'à moi le matin et à toi le soir'.", "hi": "प्रिया सुबह नहाती है, सोफ़ी शाम को: 'à moi le matin et à toi le soir'।" }, "kind": "gist", "evidence": "la salle de bains est à moi le matin et à toi le soir" }
     ],
     "dictation": ["Je me lève à six heures.", "Je m'habille et je prends un café.", "Tu te couches tôt ?"],
     "gapFill": { "text": "Je ___ lève à six heures. D'abord, je fais du yoga, ___ je me douche.", "answers": ["me", "ensuite"] }
@@ -116,15 +116,15 @@
       "hi": "लगभग एक मिनट में अपनी सुबह की दिनचर्या बताइए। कम से कम पाँच निजवाचक क्रियाएँ, समय, और d'abord / ensuite / puis / enfin इस्तेमाल कीजिए।"
     },
     "prompts": [
-      { "fr": "Je me réveille à …", "en": "I wake up at …", "hi": "मैं … बजे जागता/जागती हूँ", "pron": "झ़ö म्ö ग़े-वैय आ", "model": "Je me réveille à six heures et quart." },
-      { "fr": "D'abord, je …", "en": "First, I …", "hi": "पहले, मैं …", "pron": "दा-बॉग़ झ़ö", "model": "D'abord, je me lève et je me douche." },
-      { "fr": "Ensuite, je …", "en": "Then, I …", "hi": "उसके बाद, मैं …", "pron": "आँ-स्üईत झ़ö", "model": "Ensuite, je m'habille et je mange du pain." },
-      { "fr": "Puis, je …", "en": "Then, I …", "hi": "फिर, मैं …", "pron": "प्üई झ़ö", "model": "Puis, je me brosse les dents." },
-      { "fr": "Enfin, je …", "en": "Finally, I …", "hi": "आख़िर में, मैं …", "pron": "आँ-फ़ैँ झ़ö", "model": "Enfin, à huit heures, je vais au travail. Je me dépêche !" }
+      { "fr": "Je me réveille à …", "en": "I wake up at …", "hi": "मैं … बजे जागता/जागती हूँ", "pron": "ज म रे-वेय आ", "model": "Je me réveille à six heures et quart." },
+      { "fr": "D'abord, je …", "en": "First, I …", "hi": "पहले, मैं …", "pron": "दा-बॉर ज", "model": "D'abord, je me lève et je me douche." },
+      { "fr": "Ensuite, je …", "en": "Then, I …", "hi": "उसके बाद, मैं …", "pron": "आँ-स्यूईत ज", "model": "Ensuite, je m'habille et je mange du pain." },
+      { "fr": "Puis, je …", "en": "Then, I …", "hi": "फिर, मैं …", "pron": "प्यूई ज", "model": "Puis, je me brosse les dents." },
+      { "fr": "Enfin, je …", "en": "Finally, I …", "hi": "आख़िर में, मैं …", "pron": "आँ-फ़ैं ज", "model": "Enfin, à huit heures, je vais au travail. Je me dépêche !" }
     ],
     "tip": {
-      "en": "Glue the pronoun to the verb as one sound: je-me-lève (झ़ö-म्ö-लैव). Don't stress me — the push goes on the last syllable.",
-      "hi": "सर्वनाम को क्रिया से एक आवाज़ की तरह जोड़िए: je-me-lève (झ़ö-म्ö-लैव)। me पर ज़ोर मत दीजिए — ज़ोर आख़िरी अक्षर पर जाता है।"
+      "en": "Glue the pronoun to the verb as one sound: je-me-lève (ज-म-लेव). Don't stress me — the push goes on the last syllable.",
+      "hi": "सर्वनाम को क्रिया से एक आवाज़ की तरह जोड़िए: je-me-lève (ज-म-लेव)। me पर ज़ोर मत दीजिए — ज़ोर आख़िरी अक्षर पर जाता है।"
     }
   },
   "reading": {
@@ -136,10 +136,10 @@
       "hi": "मेरा नाम राहुल है और मैं गातिनो में बस ड्राइवर हूँ। मैं बहुत जल्दी, साढ़े चार बजे उठता हूँ! पहले मैं नहाता हूँ और कपड़े पहनता हूँ। फिर मैं ब्रेड खाता हूँ और चाय पीता हूँ। मैं सुबह छह बजे से दोपहर दो बजे तक काम करता हूँ। दोपहर में मैं एक घंटा आराम करता हूँ। फिर साढ़े तीन बजे मैं अपने बच्चों के स्कूल जाता हूँ। शाम को हम साथ में खाना खाते हैं। आख़िर में, मैं नौ बजे सो जाता हूँ। मेरी पत्नी ग्यारह बजे सोती है, क्योंकि वह शाम को पढ़ाई करती है। सप्ताहांत में मैं जल्दी नहीं उठता: मैं आठ बजे जागता हूँ!"
     },
     "questions": [
-      { "q": { "en": "What time does Rahul get up on weekdays?" }, "options": ["4:30", "6:00", "8:00"], "answer": 0, "explanation": { "en": "'à quatre heures et demie' = 4:30. 8:00 is at the weekend.", "hi": "'à quatre heures et demie' = साढ़े चार। आठ बजे सप्ताहांत में।" }, "kind": "literal", "evidence": "Je me lève très tôt, à quatre heures et demie !" },
-      { "q": { "en": "What are Rahul's working hours?" }, "options": ["4:30 a.m. to 2 p.m.", "6 a.m. to 2 p.m.", "6 a.m. to 3:30 p.m."], "answer": 1, "explanation": { "en": "'de six heures à quatorze heures' — 14 h = 2 p.m.", "hi": "'de six heures à quatorze heures' — 14 बजे = दोपहर 2 बजे।" }, "kind": "literal", "evidence": "Je travaille de six heures à quatorze heures." },
-      { "q": { "en": "Why does Rahul's wife go to bed later?" }, "options": ["She works at night", "She studies in the evening", "She watches TV"], "answer": 1, "explanation": { "en": "'parce qu'elle étudie le soir'.", "hi": "'parce qu'elle étudie le soir' — क्योंकि वह शाम को पढ़ती है।" }, "kind": "literal", "evidence": "parce qu'elle étudie le soir" },
-      { "q": { "en": "What is different at the weekend?" }, "options": ["He works more", "He wakes up later", "He goes to bed earlier"], "answer": 1, "explanation": { "en": "'je ne me lève pas tôt : je me réveille à huit heures'.", "hi": "'je ne me lève pas tôt : je me réveille à huit heures' — देर से जागता है।" }, "kind": "inference", "evidence": "je me réveille à huit heures" }
+      { "q": { "en": "What time does Rahul get up on weekdays?", "hi": "कामकाजी दिनों में राहुल कितने बजे उठता है?" }, "options": ["4:30", "6:00", "8:00"], "answer": 0, "explanation": { "en": "'à quatre heures et demie' = 4:30. 8:00 is at the weekend.", "hi": "'à quatre heures et demie' = साढ़े चार। आठ बजे सप्ताहांत में।" }, "kind": "literal", "evidence": "Je me lève très tôt, à quatre heures et demie !" },
+      { "q": { "en": "What are Rahul's working hours?", "hi": "राहुल के काम के घंटे क्या हैं?" }, "options": ["4:30 a.m. to 2 p.m.", "6 a.m. to 2 p.m.", "6 a.m. to 3:30 p.m."], "optionsHi": ["सुबह 4:30 से दोपहर 2 बजे तक", "सुबह 6 से दोपहर 2 बजे तक", "सुबह 6 से दोपहर 3:30 बजे तक"], "answer": 1, "explanation": { "en": "'de six heures à quatorze heures' — 14 h = 2 p.m.", "hi": "'de six heures à quatorze heures' — 14 बजे = दोपहर 2 बजे।" }, "kind": "literal", "evidence": "Je travaille de six heures à quatorze heures." },
+      { "q": { "en": "Why does Rahul's wife go to bed later?", "hi": "राहुल की पत्नी देर से क्यों सोती है?" }, "options": ["She works at night", "She studies in the evening", "She watches TV"], "optionsHi": ["वह रात में काम करती है", "वह शाम को पढ़ाई करती है", "वह टीवी देखती है"], "answer": 1, "explanation": { "en": "'parce qu'elle étudie le soir'.", "hi": "'parce qu'elle étudie le soir' — क्योंकि वह शाम को पढ़ती है।" }, "kind": "literal", "evidence": "parce qu'elle étudie le soir" },
+      { "q": { "en": "What is different at the weekend?", "hi": "सप्ताहांत में क्या अलग होता है?" }, "options": ["He works more", "He wakes up later", "He goes to bed earlier"], "optionsHi": ["वह ज़्यादा काम करता है", "वह देर से उठता है", "वह जल्दी सोता है"], "answer": 1, "explanation": { "en": "'je ne me lève pas tôt : je me réveille à huit heures'.", "hi": "'je ne me lève pas tôt : je me réveille à huit heures' — देर से जागता है।" }, "kind": "inference", "evidence": "je me réveille à huit heures" }
     ]
   },
   "writing": {
@@ -155,9 +155,9 @@
       { "en": "Add one negative sentence: Je ne me lève pas tôt le dimanche.", "hi": "एक नकारात्मक वाक्य जोड़िए: Je ne me lève pas tôt le dimanche।" }
     ],
     "usefulPhrases": [
-      { "fr": "Je me lève à … heures.", "en": "I get up at … o'clock.", "hi": "मैं … बजे उठता/उठती हूँ।", "pron": "झ़ö म्ö लैव आ … ज़öग़" },
-      { "fr": "Je m'habille.", "en": "I get dressed.", "hi": "मैं तैयार होता/होती हूँ।", "pron": "झ़ö मा-बीय" },
-      { "fr": "Je me couche à … heures.", "en": "I go to bed at … o'clock.", "hi": "मैं … बजे सोता/सोती हूँ।", "pron": "झ़ö म्ö कूश आ … ज़öग़" }
+      { "fr": "Je me lève à … heures.", "en": "I get up at … o'clock.", "hi": "मैं … बजे उठता/उठती हूँ।", "pron": "ज म लेव आ … ज़र" },
+      { "fr": "Je m'habille.", "en": "I get dressed.", "hi": "मैं तैयार होता/होती हूँ।", "pron": "ज मा-बीय" },
+      { "fr": "Je me couche à … heures.", "en": "I go to bed at … o'clock.", "hi": "मैं … बजे सोता/सोती हूँ।", "pron": "ज म कूश आ … ज़र" }
     ],
     "model": {
       "fr": "Je me réveille à six heures et quart. D'abord, je me lève et je me douche. Ensuite, je m'habille et je mange du pain avec du beurre. Puis je me brosse les dents. À huit heures, je vais au travail en métro. Je travaille de neuf heures à dix-sept heures. Le soir, je me repose et je parle avec ma famille en Inde. Enfin, je me couche à onze heures. Le dimanche, je ne me lève pas tôt !",
@@ -172,14 +172,14 @@
   "review": {
     "fromDays": [15, 16, 24, 26],
     "items": [
-      { "fr": "Il est sept heures moins le quart.", "en": "It's a quarter to seven.", "hi": "पौने सात बजे हैं।", "pron": "ई लै सै तöग़ म्वैँ लö काग़" },
+      { "fr": "Il est sept heures moins le quart.", "en": "It's a quarter to seven.", "hi": "पौने सात बजे हैं।", "pron": "ई ले से तर म्वैं ल कार" },
       { "fr": "à midi", "en": "at noon", "hi": "दोपहर बारह बजे", "pron": "आ मी-दी" },
-      { "fr": "le matin, l'après-midi, le soir", "en": "in the morning, afternoon, evening", "hi": "सुबह, दोपहर, शाम", "pron": "लö मा-तैँ ला-प्रै-मी-दी लö स्वाग़" },
-      { "fr": "Je vais au travail.", "en": "I go to work.", "hi": "मैं काम पर जाता/जाती हूँ।", "pron": "झ़ö वै ज़ो त्रा-वाय" },
-      { "fr": "Je fais du yoga.", "en": "I do yoga.", "hi": "मैं योग करता/करती हूँ।", "pron": "झ़ö फ़ै दü यो-गा" },
-      { "fr": "Je bois du thé.", "en": "I drink tea.", "hi": "मैं चाय पीता/पीती हूँ।", "pron": "झ़ö ब्वा दü ते" },
-      { "fr": "Je porte un manteau noir.", "en": "I'm wearing a black coat.", "hi": "मैंने काला कोट पहना है।", "pron": "झ़ö पॉग़्त ऐँ माँ-तो न्वाग़" },
-      { "fr": "Je ne mange pas de viande.", "en": "I don't eat meat.", "hi": "मैं मांस नहीं खाता/खाती।", "pron": "झ़ö न्ö माँझ़ पा दö व्याँद" }
+      { "fr": "le matin, l'après-midi, le soir", "en": "in the morning, afternoon, evening", "hi": "सुबह, दोपहर, शाम", "pron": "ल मा-तैं ला-प्रे-मी-दी ल स्वार" },
+      { "fr": "Je vais au travail.", "en": "I go to work.", "hi": "मैं काम पर जाता/जाती हूँ।", "pron": "ज वे ज़ो त्रा-वाय" },
+      { "fr": "Je fais du yoga.", "en": "I do yoga.", "hi": "मैं योग करता/करती हूँ।", "pron": "ज फ़े द्यू यो-गा" },
+      { "fr": "Je bois du thé.", "en": "I drink tea.", "hi": "मैं चाय पीता/पीती हूँ।", "pron": "ज ब्वा द्यू ते" },
+      { "fr": "Je porte un manteau noir.", "en": "I'm wearing a black coat.", "hi": "मैंने काला कोट पहना है।", "pron": "ज पॉर्त ऐं माँ-तो न्वार" },
+      { "fr": "Je ne mange pas de viande.", "en": "I don't eat meat.", "hi": "मैं मांस नहीं खाता/खाती।", "pron": "ज न माँज पा द व्याँद" }
     ]
   },
   "assessment": [
@@ -189,6 +189,6 @@
     { "type": "mcq", "prompt": { "en": "Make it negative: Tu te lèves tôt.", "hi": "नकारात्मक बनाइए: Tu te lèves tôt।" }, "options": ["Tu ne lèves te pas tôt.", "Tu te ne lèves pas tôt.", "Tu ne te lèves pas tôt.", "Tu ne te pas lèves tôt."], "answer": 2, "explanation": { "en": "ne + pronoun + verb + pas.", "hi": "ne + सर्वनाम + क्रिया + pas।" } },
     { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "First, I have a shower.", "hi": "पहले, मैं नहाता हूँ।" }, "answer": "D'abord, je me douche.", "accept": ["d'abord, je me douche", "D'abord je me douche.", "D’abord, je me douche."], "explanation": { "en": "d'abord = first; se doucher → je me douche.", "hi": "d'abord = पहले; se doucher → je me douche।" } },
     { "type": "reorder", "prompt": { "en": "Put the words in order: They don't get up late.", "hi": "शब्दों को सही क्रम में रखिए: वे देर से नहीं उठते।" }, "words": ["se", "pas", "Ils", "lèvent", "ne", "tard", "."], "answer": "Ils ne se lèvent pas tard.", "explanation": { "en": "Ils + ne + se + lèvent + pas + tard.", "hi": "Ils + ne + se + lèvent + pas + tard।" } },
-    { "type": "mcq", "prompt": { "en": "Which two sound exactly the same?", "hi": "कौन-से दो बिल्कुल एक जैसे सुनाई देते हैं?" }, "options": ["il se lève / ils se lèvent", "nous nous levons / vous vous levez", "je me lève / nous nous levons"], "answer": 0, "explanation": { "en": "-e and -ent are silent: both are ईल स्ö लैव.", "hi": "-e और -ent मूक हैं: दोनों ईल स्ö लैव हैं।" } }
+    { "type": "mcq", "prompt": { "en": "Which two sound exactly the same?", "hi": "कौन-से दो बिल्कुल एक जैसे सुनाई देते हैं?" }, "options": ["il se lève / ils se lèvent", "nous nous levons / vous vous levez", "je me lève / nous nous levons"], "answer": 0, "explanation": { "en": "-e and -ent are silent: both are ईल स लेव.", "hi": "-e और -ent मूक हैं: दोनों ईल स लेव हैं।" } }
   ]
 }

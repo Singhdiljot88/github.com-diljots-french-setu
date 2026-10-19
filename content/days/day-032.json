@@ -16,28 +16,28 @@
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "pouvoir", "en": "can / to be able to / may", "hi": "सकना", "pron": "पू-व्वाग़", "ipa": "puvwaʁ", "pos": "verb" },
-    { "fr": "vouloir", "en": "to want", "hi": "चाहना", "pron": "वू-ल्वाग़", "ipa": "vulwaʁ", "pos": "verb" },
-    { "fr": "devoir", "en": "must / to have to", "hi": "(करना) पड़ना / चाहिए", "pron": "द्ö-व्वाग़", "ipa": "dəvwaʁ", "pos": "verb" },
-    { "fr": "permis / permise", "en": "allowed", "hi": "अनुमति है / इजाज़त है", "pron": "पैग़-मी / पैग़-मीज़", "ipa": "pɛʁmi", "pos": "adjective", "lemma": "permis" },
-    { "fr": "interdit / interdite", "en": "forbidden / not allowed", "hi": "मना / वर्जित", "pron": "ऐँ-तैग़-दी / ऐँ-तैग़-दीत", "ipa": "ɛ̃tɛʁdi", "pos": "adjective", "lemma": "interdit" },
-    { "fr": "obligatoire", "en": "compulsory / mandatory", "hi": "अनिवार्य / ज़रूरी", "pron": "ओ-ब्ली-गा-त्वाग़", "ipa": "ɔbliɡatwaʁ", "pos": "adjective" },
-    { "fr": "le règlement", "en": "rules / regulations", "hi": "नियम / नियमावली", "pron": "लö ग़ै-ग्लö-माँ", "ipa": "lə ʁɛɡləmɑ̃", "pos": "noun", "gender": "m", "lemma": "règlement" },
-    { "fr": "le bruit", "en": "noise", "hi": "शोर", "pron": "लö ब्ग़üई", "ipa": "lə bʁɥi", "pos": "noun", "gender": "m", "lemma": "bruit" },
-    { "fr": "fumer", "en": "to smoke", "hi": "धूम्रपान करना / सिगरेट पीना", "pron": "फ़ü-मे", "ipa": "fyme", "pos": "verb" },
-    { "fr": "la poubelle", "en": "rubbish bin / garbage", "hi": "कूड़ेदान", "pron": "ला पू-बैल", "ipa": "la pubɛl", "pos": "noun", "gender": "f", "lemma": "poubelle" },
-    { "fr": "recycler", "en": "to recycle", "hi": "रीसायकल करना", "pron": "ग़ö-सी-क्ले", "ipa": "ʁəsikle", "pos": "verb" },
-    { "fr": "le / la colocataire", "en": "flatmate / roommate", "hi": "साथ में किराये पर रहने वाला / फ़्लैटमेट", "pron": "लö / ला को-लो-का-तैग़", "ipa": "kolɔkatɛʁ", "pos": "noun", "gender": "mf", "lemma": "colocataire", "note": { "en": "Informal: le/la coloc.", "hi": "अनौपचारिक: le/la coloc।" } },
-    { "fr": "l'ascenseur", "en": "lift / elevator", "hi": "लिफ़्ट", "pron": "ला-साँ-सöग़", "ipa": "lasɑ̃sœʁ", "pos": "noun", "gender": "m", "lemma": "ascenseur" },
-    { "fr": "le stationnement", "en": "parking (Québec)", "hi": "पार्किंग", "pron": "लö स्ता-स्यॉन-माँ", "ipa": "lə stasjɔnmɑ̃", "pos": "noun", "gender": "m", "lemma": "stationnement", "note": { "en": "In France: le parking.", "hi": "फ़्रांस में: le parking।" } }
+    { "fr": "pouvoir", "en": "can / to be able to / may", "hi": "सकना", "pron": "पू-वार", "ipa": "puvwaʁ", "pos": "verb" },
+    { "fr": "vouloir", "en": "to want", "hi": "चाहना", "pron": "वू-लवार", "ipa": "vulwaʁ", "pos": "verb" },
+    { "fr": "devoir", "en": "must / to have to", "hi": "(करना) पड़ना / चाहिए", "pron": "द-व्वार", "ipa": "dəvwaʁ", "pos": "verb" },
+    { "fr": "permis / permise", "en": "allowed", "hi": "अनुमति है / इजाज़त है", "pron": "पेर-मी / पेर-मीज़", "ipa": "pɛʁmi", "pos": "adjective", "lemma": "permis" },
+    { "fr": "interdit / interdite", "en": "forbidden / not allowed", "hi": "मना / वर्जित", "pron": "ऐं-तेर-दी / ऐं-तेर-दीत", "ipa": "ɛ̃tɛʁdi", "pos": "adjective", "lemma": "interdit" },
+    { "fr": "obligatoire", "en": "compulsory / mandatory", "hi": "अनिवार्य / ज़रूरी", "pron": "ऑ-ब्ली-गा-त्वार", "ipa": "ɔbliɡatwaʁ", "pos": "adjective" },
+    { "fr": "le règlement", "en": "rules / regulations", "hi": "नियम / नियमावली", "pron": "ल रे-ग्ल-माँ", "ipa": "lə ʁɛɡləmɑ̃", "pos": "noun", "gender": "m", "lemma": "règlement" },
+    { "fr": "le bruit", "en": "noise", "hi": "शोर", "pron": "ल ब्र्यूई", "ipa": "lə bʁɥi", "pos": "noun", "gender": "m", "lemma": "bruit" },
+    { "fr": "fumer", "en": "to smoke", "hi": "धूम्रपान करना / सिगरेट पीना", "pron": "फ़्यू-मे", "ipa": "fyme", "pos": "verb" },
+    { "fr": "la poubelle", "en": "rubbish bin / garbage", "hi": "कूड़ेदान", "pron": "ला पू-बेल", "ipa": "la pubɛl", "pos": "noun", "gender": "f", "lemma": "poubelle" },
+    { "fr": "recycler", "en": "to recycle", "hi": "रीसायकल करना", "pron": "र-सी-क्ले", "ipa": "ʁəsikle", "pos": "verb" },
+    { "fr": "le / la colocataire", "en": "flatmate / roommate", "hi": "साथ में किराये पर रहने वाला / फ़्लैटमेट", "pron": "ल / ला को-लो-का-तेर", "ipa": "kolɔkatɛʁ", "pos": "noun", "gender": "mf", "lemma": "colocataire", "note": { "en": "Informal: le/la coloc.", "hi": "अनौपचारिक: le/la coloc।" } },
+    { "fr": "l'ascenseur", "en": "lift / elevator", "hi": "लिफ़्ट", "pron": "ला-साँ-सर", "ipa": "lasɑ̃sœʁ", "pos": "noun", "gender": "m", "lemma": "ascenseur" },
+    { "fr": "le stationnement", "en": "parking (Québec)", "hi": "पार्किंग", "pron": "ल स्ता-स्यॉन-माँ", "ipa": "lə stasjɔnmɑ̃", "pos": "noun", "gender": "m", "lemma": "stationnement", "note": { "en": "In France: le parking.", "hi": "फ़्रांस में: le parking।" } }
   ],
   "phrases": [
-    { "fr": "Est-ce que je peux ouvrir la fenêtre ?", "en": "May I open the window?", "hi": "क्या मैं खिड़की खोल सकता/सकती हूँ?", "pron": "ऐस-कö झ़ö पö ज़ू-व्रीग़ ला फ़ö-नैत्ग़" },
-    { "fr": "Vous pouvez répéter, s'il vous plaît ?", "en": "Could you repeat, please?", "hi": "क्या आप दोहरा सकते हैं, कृपया?", "pron": "वू पू-वे ग़े-पे-ते सील वू प्लै", "note": { "en": "Very useful in the TEF speaking test!", "hi": "TEF की बोलने वाली परीक्षा में बहुत काम का!" } },
-    { "fr": "Tu veux un café ?", "en": "Do you want a coffee?", "hi": "क्या तुम कॉफ़ी लोगे?", "pron": "तü वö ज़ैँ का-फ़े" },
-    { "fr": "Je dois partir.", "en": "I have to go.", "hi": "मुझे जाना है।", "pron": "झ़ö द्वा पाग़-तीग़" },
-    { "fr": "Il est interdit de fumer.", "en": "Smoking is not allowed.", "hi": "धूम्रपान मना है।", "pron": "ई लै तैँ-तैग़-दी दö फ़ü-मे" },
-    { "fr": "On ne peut pas stationner ici.", "en": "You can't park here.", "hi": "यहाँ गाड़ी खड़ी नहीं कर सकते।", "pron": "ओँ न्ö पö पा स्ता-स्यो-ने ई-सी" }
+    { "fr": "Est-ce que je peux ouvrir la fenêtre ?", "en": "May I open the window?", "hi": "क्या मैं खिड़की खोल सकता/सकती हूँ?", "pron": "एस-क ज प ज़ू-व्रीर ला फ़-नेत्र" },
+    { "fr": "Vous pouvez répéter, s'il vous plaît ?", "en": "Could you repeat, please?", "hi": "क्या आप दोहरा सकते हैं, कृपया?", "pron": "वू पू-वे रे-पे-ते सील वू प्ले", "note": { "en": "Very useful in the TEF speaking test!", "hi": "TEF की बोलने वाली परीक्षा में बहुत काम का!" } },
+    { "fr": "Tu veux un café ?", "en": "Do you want a coffee?", "hi": "क्या तुम कॉफ़ी लोगे?", "pron": "त्यू व ज़ैं का-फ़े" },
+    { "fr": "Je dois partir.", "en": "I have to go.", "hi": "मुझे जाना है।", "pron": "ज द्वा पार-तीर" },
+    { "fr": "Il est interdit de fumer.", "en": "Smoking is not allowed.", "hi": "धूम्रपान मना है।", "pron": "ई ले तैं-तेर-दी द फ़्यू-मे" },
+    { "fr": "On ne peut pas stationner ici.", "en": "You can't park here.", "hi": "यहाँ गाड़ी खड़ी नहीं कर सकते।", "pron": "ओं न प पा स्ता-स्यो-ने ई-सी" }
   ],
   "grammar": {
     "title": { "en": "pouvoir, vouloir, devoir + infinitive", "hi": "pouvoir, vouloir, devoir + मूल क्रिया (infinitive)" },
@@ -50,12 +50,12 @@
       "hi": "शब्द-क्रम अंग्रेज़ी जैसा है (I can go → je peux aller), हिंदी जैसा नहीं, जहाँ 'सकना' क्रिया के बाद आता है (मैं जा सकता हूँ)। और ज़रूरत बताने के लिए हिंदी में 'मुझे जाना है / मुझे जाना पड़ेगा' — 'मुझे' के साथ — पर फ़्रेंच में सामान्य कर्ता ही रहता है: je dois partir। यहाँ 'मुझे' के लिए कोई फ़्रेंच शब्द मत ढूँढिए। ध्यान दीजिए: 'Je veux' उतना ही सीधा है जितना रूखे स्वर में 'मुझे चाहिए'; दुकान वालों से 'Je voudrais' बोलिए।"
     },
     "examples": [
-      { "fr": "Je peux payer par carte ?", "en": "Can I pay by card?", "hi": "क्या मैं कार्ड से भुगतान कर सकता/सकती हूँ?", "pron": "झ़ö पö पे-ये पाग़ काग़्त" },
-      { "fr": "Tu veux venir au cinéma samedi ?", "en": "Do you want to come to the cinema on Saturday?", "hi": "क्या तुम शनिवार को सिनेमा चलना चाहोगे?", "pron": "तü वö व्ö-नीग़ ओ सी-ने-मा सम-दी" },
-      { "fr": "Nous devons recycler le papier.", "en": "We must recycle paper.", "hi": "हमें काग़ज़ रीसायकल करना चाहिए।", "pron": "नू द्ö-वोँ ग़ö-सी-क्ले लö पा-प्ये" },
-      { "fr": "Vous ne pouvez pas fumer ici.", "en": "You can't smoke here.", "hi": "आप यहाँ धूम्रपान नहीं कर सकते।", "pron": "वू न्ö पू-वे पा फ़ü-मे ई-सी" },
-      { "fr": "Ils veulent un appartement près du métro.", "en": "They want a flat near the metro.", "hi": "उन्हें मेट्रो के पास एक फ़्लैट चाहिए।", "pron": "ईल वöल ज़ैँ ना-पाग़-तö-माँ प्रै दü मे-त्रो" },
-      { "fr": "Elle doit travailler samedi.", "en": "She has to work on Saturday.", "hi": "उसे शनिवार को काम करना है।", "pron": "ऐल द्वा त्रा-वा-ये सम-दी" }
+      { "fr": "Je peux payer par carte ?", "en": "Can I pay by card?", "hi": "क्या मैं कार्ड से भुगतान कर सकता/सकती हूँ?", "pron": "ज प पे-ये पार कार्त" },
+      { "fr": "Tu veux venir au cinéma samedi ?", "en": "Do you want to come to the cinema on Saturday?", "hi": "क्या तुम शनिवार को सिनेमा चलना चाहोगे?", "pron": "त्यू व व-नीर ओ सी-ने-मा सम-दी" },
+      { "fr": "Nous devons recycler le papier.", "en": "We must recycle paper.", "hi": "हमें काग़ज़ रीसायकल करना चाहिए।", "pron": "नू द-वों र-सी-क्ले ल पा-प्ये" },
+      { "fr": "Vous ne pouvez pas fumer ici.", "en": "You can't smoke here.", "hi": "आप यहाँ धूम्रपान नहीं कर सकते।", "pron": "वू न पू-वे पा फ़्यू-मे ई-सी" },
+      { "fr": "Ils veulent un appartement près du métro.", "en": "They want a flat near the metro.", "hi": "उन्हें मेट्रो के पास एक फ़्लैट चाहिए।", "pron": "ईल वल ज़ैं ना-पार-त-माँ प्रे द्यू मे-त्रो" },
+      { "fr": "Elle doit travailler samedi.", "en": "She has to work on Saturday.", "hi": "उसे शनिवार को काम करना है।", "pron": "एल द्वा त्रा-वा-ये सम-दी" }
     ],
     "pitfalls": [
       { "en": "After the modal, the infinitive: not 'je peux parle' but 'je peux parler'.", "hi": "सहायक क्रिया के बाद मूल रूप: 'je peux parle' नहीं, 'je peux parler'।" },
@@ -66,15 +66,15 @@
   "pronunciation": {
     "focus": "/ø/ (peux, veut) vs /œ/ (peuvent, veulent)",
     "tip": {
-      "en": "Both are written eu and shown as ö. In an open syllable at the end (peux, veut, deux) it is closed and tense: lips tightly rounded. Before a pronounced consonant (peuvent = पöव, veulent = वöल, heure) the mouth opens a little more and relaxes. Try: il veut (ईल वö) → ils veulent (ईल वöल): open slightly on the second.",
-      "hi": "दोनों eu लिखे जाते हैं और ö से दिखाए जाते हैं। आख़िर के खुले अक्षर में (peux, veut, deux) यह बंद और कसा होता है: होंठ कसकर गोल। बोले जाने वाले व्यंजन से पहले (peuvent = पöव, veulent = वöल, heure) मुँह थोड़ा और खुलता और ढीला होता है। बोलकर देखिए: il veut (ईल वö) → ils veulent (ईल वöल): दूसरे में थोड़ा खोलिए।"
+      "en": "Both are written eu. Our guides show this vowel with the bare consonant (deux = द, peux = प), or with अ when no consonant comes before it (heure = अर); always say it with rounded lips. In an open syllable at the end (peux, veut, deux) it is closed and tense: lips tightly rounded. Before a pronounced consonant (peuvent = पव, veulent = वल, heure) the mouth opens a little more and relaxes. Try: il veut (ईल व) → ils veulent (ईल वल): open slightly on the second.",
+      "hi": "दोनों eu लिखे जाते हैं। हमारी गाइड में यह स्वर सिर्फ़ व्यंजन से (deux = द, peux = प), या पहले कोई व्यंजन न हो तो अ से (heure = अर) दिखाया जाता है; इसे हमेशा गोल होंठों से बोलिए। आख़िर के खुले अक्षर में (peux, veut, deux) यह बंद और कसा होता है: होंठ कसकर गोल। बोले जाने वाले व्यंजन से पहले (peuvent = पव, veulent = वल, heure) मुँह थोड़ा और खुलता और ढीला होता है। बोलकर देखिए: il veut (ईल व) → ils veulent (ईल वल): दूसरे में थोड़ा खोलिए।"
     },
     "words": [
-      { "fr": "je peux", "en": "I can", "hi": "मैं सकता/सकती हूँ", "pron": "झ़ö पö", "ipa": "ʒə pø" },
-      { "fr": "il veut", "en": "he wants", "hi": "वह चाहता है", "pron": "ईल वö", "ipa": "il vø" },
-      { "fr": "ils peuvent", "en": "they can", "hi": "वे सकते हैं", "pron": "ईल पöव", "ipa": "il pœv" },
-      { "fr": "elles veulent", "en": "they (f.) want", "hi": "वे चाहती हैं", "pron": "ऐल वöल", "ipa": "ɛl vœl" },
-      { "fr": "deux heures", "en": "two hours / two o'clock", "hi": "दो घंटे / दो बजे", "pron": "दö ज़öग़", "ipa": "dø zœʁ", "note": { "en": "Both sounds: closed ø in deux, open œ in heures.", "hi": "दोनों आवाज़ें: deux में बंद ø, heures में खुला œ।" } }
+      { "fr": "je peux", "en": "I can", "hi": "मैं सकता/सकती हूँ", "pron": "ज प", "ipa": "ʒə pø" },
+      { "fr": "il veut", "en": "he wants", "hi": "वह चाहता है", "pron": "ईल व", "ipa": "il vø" },
+      { "fr": "ils peuvent", "en": "they can", "hi": "वे सकते हैं", "pron": "ईल पव", "ipa": "il pœv" },
+      { "fr": "elles veulent", "en": "they (f.) want", "hi": "वे चाहती हैं", "pron": "एल वल", "ipa": "ɛl vœl" },
+      { "fr": "deux heures", "en": "two hours / two o'clock", "hi": "दो घंटे / दो बजे", "pron": "द ज़र", "ipa": "dø zœʁ", "note": { "en": "Both sounds: closed ø in deux, open œ in heures.", "hi": "दोनों आवाज़ें: deux में बंद ø, heures में खुला œ।" } }
     ]
   },
   "listening": {
@@ -100,11 +100,11 @@
       { "speaker": "Priya", "voice": "f1", "fr": "Parfait. Merci, madame Roy !", "en": "Perfect. Thank you, Madame Roy!", "hi": "बढ़िया। धन्यवाद, मादाम रॉय!" }
     ],
     "questions": [
-      { "q": { "en": "When can Priya use her phone?" }, "options": ["At the till", "During her break", "Never"], "answer": 1, "explanation": { "en": "Not at the till, but 'pendant la pause, c'est permis'.", "hi": "काउंटर पर नहीं, पर 'pendant la pause, c'est permis'।" }, "kind": "inference", "evidence": "Mais pendant la pause, c'est permis." },
-      { "q": { "en": "How long is the lunch break?" }, "options": ["Twenty minutes", "Thirty minutes", "One hour"], "answer": 1, "explanation": { "en": "'une pause de trente minutes à midi'.", "hi": "'une pause de trente minutes à midi' — तीस मिनट।" }, "kind": "literal", "evidence": "Vous avez une pause de trente minutes à midi." },
-      { "q": { "en": "What is compulsory?" }, "options": ["A blue sweater and a badge", "A white shirt", "Working on Saturdays"], "answer": 0, "explanation": { "en": "'le chandail bleu est obligatoire. Et vous devez porter votre badge.'", "hi": "नीला स्वेटर अनिवार्य है और बैज भी लगाना है।" }, "kind": "literal", "evidence": "le chandail bleu est obligatoire. Et vous devez porter votre badge." },
-      { "q": { "en": "What time must Priya arrive on Saturdays?" }, "options": ["7:00", "8:00", "12:00"], "answer": 1, "explanation": { "en": "'le samedi, vous devez arriver à huit heures'.", "hi": "'le samedi, vous devez arriver à huit heures' — आठ बजे।" }, "kind": "literal", "evidence": "le samedi, vous devez arriver à huit heures" },
-      { "q": { "en": "Why can't staff park behind the pharmacy?" }, "options": ["It's for deliveries", "It's too small", "It's for customers"], "answer": 0, "explanation": { "en": "'le stationnement est interdit … C'est pour les livraisons.'", "hi": "'C'est pour les livraisons.' — वह डिलीवरी के लिए है।" }, "kind": "literal", "evidence": "C'est pour les livraisons." }
+      { "q": { "en": "When can Priya use her phone?", "hi": "प्रिया अपना फ़ोन कब इस्तेमाल कर सकती है?" }, "options": ["At the till", "During her break", "Never"], "optionsHi": ["बिलिंग काउंटर पर", "अपने विराम (ब्रेक) के दौरान", "कभी नहीं"], "answer": 1, "explanation": { "en": "Not at the till, but 'pendant la pause, c'est permis'.", "hi": "काउंटर पर नहीं, पर 'pendant la pause, c'est permis'।" }, "kind": "inference", "evidence": "Mais pendant la pause, c'est permis." },
+      { "q": { "en": "How long is the lunch break?", "hi": "दोपहर के खाने का विराम कितना लंबा है?" }, "options": ["Twenty minutes", "Thirty minutes", "One hour"], "optionsHi": ["बीस मिनट", "तीस मिनट", "एक घंटा"], "answer": 1, "explanation": { "en": "'une pause de trente minutes à midi'.", "hi": "'une pause de trente minutes à midi' — तीस मिनट।" }, "kind": "literal", "evidence": "Vous avez une pause de trente minutes à midi." },
+      { "q": { "en": "What is compulsory?", "hi": "क्या अनिवार्य है?" }, "options": ["A blue sweater and a badge", "A white shirt", "Working on Saturdays"], "optionsHi": ["नीला स्वेटर और एक बैज", "एक सफ़ेद कमीज़", "शनिवार को काम करना"], "answer": 0, "explanation": { "en": "'le chandail bleu est obligatoire. Et vous devez porter votre badge.'", "hi": "नीला स्वेटर अनिवार्य है और बैज भी लगाना है।" }, "kind": "literal", "evidence": "le chandail bleu est obligatoire. Et vous devez porter votre badge." },
+      { "q": { "en": "What time must Priya arrive on Saturdays?", "hi": "प्रिया को शनिवार को कितने बजे पहुँचना होगा?" }, "options": ["7:00", "8:00", "12:00"], "answer": 1, "explanation": { "en": "'le samedi, vous devez arriver à huit heures'.", "hi": "'le samedi, vous devez arriver à huit heures' — आठ बजे।" }, "kind": "literal", "evidence": "le samedi, vous devez arriver à huit heures" },
+      { "q": { "en": "Why can't staff park behind the pharmacy?", "hi": "कर्मचारी फ़ार्मेसी के पीछे गाड़ी खड़ी क्यों नहीं कर सकते?" }, "options": ["It's for deliveries", "It's too small", "It's for customers"], "optionsHi": ["यह डिलीवरी के लिए है", "यह बहुत छोटी है", "यह ग्राहकों के लिए है"], "answer": 0, "explanation": { "en": "'le stationnement est interdit … C'est pour les livraisons.'", "hi": "'C'est pour les livraisons.' — वह डिलीवरी के लिए है।" }, "kind": "literal", "evidence": "C'est pour les livraisons." }
     ],
     "dictation": ["Est-ce que je peux utiliser mon téléphone ?", "Le chandail bleu est obligatoire.", "Vous devez arriver à huit heures."],
     "gapFill": { "text": "Non, vous ne ___ pas utiliser votre téléphone à la caisse. Et vous ___ porter votre badge.", "answers": ["pouvez", "devez"] }
@@ -116,11 +116,11 @@
       "hi": "आप नए किरायेदार हैं। बिल्डिंग मैनेजर से कई चीज़ों की अनुमति माँगिए, और अपनी ज़िम्मेदारियों के बारे में पूछिए।"
     },
     "prompts": [
-      { "fr": "Bonjour ! Vous avez des questions sur l'immeuble ?", "en": "Hello! Do you have questions about the building?", "hi": "नमस्ते! बिल्डिंग के बारे में कोई सवाल है?", "pron": "बोँ-झ़ूग़ वू ज़ा-वे दे कैस-त्योँ सüग़ ली-मöब्ल", "model": "Oui. Est-ce que je peux avoir un chat ?" },
-      { "fr": "Les animaux sont permis.", "en": "Pets are allowed.", "hi": "पालतू जानवरों की अनुमति है।", "pron": "ले ज़ा-नी-मो सोँ पैग़-मी", "model": "Super ! Et est-ce que je peux mettre mon vélo dans le couloir ?" },
-      { "fr": "Non, c'est interdit.", "en": "No, that's not allowed.", "hi": "नहीं, यह मना है।", "pron": "नोँ सै तैँ-तैग़-दी", "model": "D'accord. Où est-ce que je dois mettre les poubelles ?" },
-      { "fr": "Dans le garage. Et vous devez recycler.", "en": "In the garage. And you must recycle.", "hi": "गैराज में। और आपको रीसायकल करना होगा।", "pron": "दाँ लö गा-ग़ाझ़ ए वू द्ö-वे ग़ö-सी-क्ले", "model": "Pas de problème. Je veux aussi savoir : on peut faire du bruit le samedi soir ?" },
-      { "fr": "Pas après vingt-deux heures.", "en": "Not after 10 p.m.", "hi": "रात दस बजे के बाद नहीं।", "pron": "पा ज़ा-प्रै वैँत-दö ज़öग़", "model": "Je comprends. Merci beaucoup !" }
+      { "fr": "Bonjour ! Vous avez des questions sur l'immeuble ?", "en": "Hello! Do you have questions about the building?", "hi": "नमस्ते! बिल्डिंग के बारे में कोई सवाल है?", "pron": "बों-जूर वू ज़ा-वे दे केस-त्यों स्यूर ली-मब्ल", "model": "Oui. Est-ce que je peux avoir un chat ?" },
+      { "fr": "Les animaux sont permis.", "en": "Pets are allowed.", "hi": "पालतू जानवरों की अनुमति है।", "pron": "ले ज़ा-नी-मो सों पेर-मी", "model": "Super ! Et est-ce que je peux mettre mon vélo dans le couloir ?" },
+      { "fr": "Non, c'est interdit.", "en": "No, that's not allowed.", "hi": "नहीं, यह मना है।", "pron": "नों से तैं-तेर-दी", "model": "D'accord. Où est-ce que je dois mettre les poubelles ?" },
+      { "fr": "Dans le garage. Et vous devez recycler.", "en": "In the garage. And you must recycle.", "hi": "गैराज में। और आपको रीसायकल करना होगा।", "pron": "दाँ ल गा-राज ए वू द-वे र-सी-क्ले", "model": "Pas de problème. Je veux aussi savoir : on peut faire du bruit le samedi soir ?" },
+      { "fr": "Pas après vingt-deux heures.", "en": "Not after 10 p.m.", "hi": "रात दस बजे के बाद नहीं।", "pron": "पा ज़ा-प्रे वैंत-द ज़र", "model": "Je comprends. Merci beaucoup !" }
     ],
     "tip": {
       "en": "Start each request with 'Est-ce que je peux … ?' and keep the next verb in the infinitive. Thank the person even when the answer is no.",
@@ -146,10 +146,10 @@
       "hi": "सबकी शांति के लिए:\n• रात 10 बजे के बाद और सुबह 7 बजे से पहले शोर मना है।\n• गलियारों में, लिफ़्ट में और बालकनी पर धूम्रपान मना है।\n• पालतू जानवरों की अनुमति है, पर गलियारों में कुत्तों को पट्टे में रखना होगा।\n• आपको रीसायकल करना होगा: नीला डिब्बा काग़ज़, प्लास्टिक और काँच के लिए है। कूड़ेदान गैराज में हैं।\n• कपड़े धोने का कमरा सुबह 8 से रात 9 बजे तक खुला है। आप मशीनों में अपने कपड़े नहीं छोड़ सकते।\n• साइकिलें साइकिल वाले कमरे में ही रखनी होंगी।\nकोई सवाल? आप बिल्डिंग मैनेजर को फ़ोन कर सकते हैं: 514 555-0166।"
     },
     "questions": [
-      { "q": { "en": "Can you play loud music at 11 p.m.?" }, "options": ["Yes", "No, noise is not allowed after 10 p.m.", "Only on Saturdays"], "answer": 1, "explanation": { "en": "'Le bruit est interdit après 22 h'.", "hi": "'Le bruit est interdit après 22 h' — रात 10 के बाद शोर मना।" }, "kind": "inference", "evidence": "Le bruit est interdit après 22 h et avant 7 h." },
-      { "q": { "en": "Where is smoking NOT mentioned as forbidden?" }, "options": ["On the balconies", "In the lift", "Inside your own flat"], "answer": 2, "explanation": { "en": "The list is corridors, lift and balconies — your flat is not mentioned.", "hi": "सूची में गलियारे, लिफ़्ट और बालकनी हैं — अपना फ़्लैट नहीं।" }, "kind": "inference", "evidence": "Il est interdit de fumer dans les couloirs, dans l'ascenseur et sur les balcons." },
-      { "q": { "en": "What goes in the blue bin?" }, "options": ["Food", "Paper, plastic and glass", "Clothes"], "answer": 1, "explanation": { "en": "'le bac bleu est pour le papier, le plastique et le verre'.", "hi": "'le bac bleu est pour le papier, le plastique et le verre' — काग़ज़, प्लास्टिक और काँच।" }, "kind": "literal", "evidence": "le bac bleu est pour le papier, le plastique et le verre" },
-      { "q": { "en": "Are dogs allowed?" }, "options": ["No", "Yes, but on a lead in the corridors", "Only in the garage"], "answer": 1, "explanation": { "en": "'Les animaux sont permis, mais les chiens doivent rester en laisse dans les couloirs.'", "hi": "जानवरों की अनुमति है, पर गलियारों में कुत्ते पट्टे में।" }, "kind": "literal", "evidence": "Les animaux sont permis, mais les chiens doivent rester en laisse dans les couloirs." }
+      { "q": { "en": "Can you play loud music at 11 p.m.?", "hi": "क्या आप रात 11 बजे तेज़ संगीत बजा सकते हैं?" }, "options": ["Yes", "No, noise is not allowed after 10 p.m.", "Only on Saturdays"], "optionsHi": ["हाँ", "नहीं, रात 10 बजे के बाद शोर की अनुमति नहीं है", "केवल शनिवार को"], "answer": 1, "explanation": { "en": "'Le bruit est interdit après 22 h'.", "hi": "'Le bruit est interdit après 22 h' — रात 10 के बाद शोर मना।" }, "kind": "inference", "evidence": "Le bruit est interdit après 22 h et avant 7 h." },
+      { "q": { "en": "Where is smoking NOT mentioned as forbidden?", "hi": "कहाँ धूम्रपान का निषेध नहीं बताया गया है?" }, "options": ["On the balconies", "In the lift", "Inside your own flat"], "optionsHi": ["बालकनियों में", "लिफ़्ट में", "आपके अपने फ़्लैट के अंदर"], "answer": 2, "explanation": { "en": "The list is corridors, lift and balconies — your flat is not mentioned.", "hi": "सूची में गलियारे, लिफ़्ट और बालकनी हैं — अपना फ़्लैट नहीं।" }, "kind": "inference", "evidence": "Il est interdit de fumer dans les couloirs, dans l'ascenseur et sur les balcons." },
+      { "q": { "en": "What goes in the blue bin?", "hi": "नीले डिब्बे में क्या डाला जाता है?" }, "options": ["Food", "Paper, plastic and glass", "Clothes"], "optionsHi": ["खाना", "काग़ज़, प्लास्टिक और काँच", "कपड़े"], "answer": 1, "explanation": { "en": "'le bac bleu est pour le papier, le plastique et le verre'.", "hi": "'le bac bleu est pour le papier, le plastique et le verre' — काग़ज़, प्लास्टिक और काँच।" }, "kind": "literal", "evidence": "le bac bleu est pour le papier, le plastique et le verre" },
+      { "q": { "en": "Are dogs allowed?", "hi": "क्या कुत्तों की अनुमति है?" }, "options": ["No", "Yes, but on a lead in the corridors", "Only in the garage"], "optionsHi": ["नहीं", "हाँ, लेकिन गलियारों में पट्टे पर", "केवल गैराज में"], "answer": 1, "explanation": { "en": "'Les animaux sont permis, mais les chiens doivent rester en laisse dans les couloirs.'", "hi": "जानवरों की अनुमति है, पर गलियारों में कुत्ते पट्टे में।" }, "kind": "literal", "evidence": "Les animaux sont permis, mais les chiens doivent rester en laisse dans les couloirs." }
     ]
   },
   "writing": {
@@ -165,9 +165,9 @@
       { "en": "Add one sign-style rule: Il est interdit de …", "hi": "सूचना वाले अंदाज़ का एक नियम जोड़िए: Il est interdit de …" }
     ],
     "usefulPhrases": [
-      { "fr": "On doit recycler.", "en": "We must recycle.", "hi": "हमें रीसायकल करना होगा।", "pron": "ओँ द्वा ग़ö-सी-क्ले" },
-      { "fr": "On peut inviter des amis.", "en": "We can invite friends.", "hi": "हम दोस्तों को बुला सकते हैं।", "pron": "ओँ पö ऐँ-वी-ते दे ज़ा-मी" },
-      { "fr": "On ne peut pas fumer.", "en": "We can't smoke.", "hi": "हम धूम्रपान नहीं कर सकते।", "pron": "ओँ न्ö पö पा फ़ü-मे" }
+      { "fr": "On doit recycler.", "en": "We must recycle.", "hi": "हमें रीसायकल करना होगा।", "pron": "ओं द्वा र-सी-क्ले" },
+      { "fr": "On peut inviter des amis.", "en": "We can invite friends.", "hi": "हम दोस्तों को बुला सकते हैं।", "pron": "ओं प ऐं-वी-ते दे ज़ा-मी" },
+      { "fr": "On ne peut pas fumer.", "en": "We can't smoke.", "hi": "हम धूम्रपान नहीं कर सकते।", "pron": "ओं न प पा फ़्यू-मे" }
     ],
     "model": {
       "fr": "Règlement de l'appartement : Nous devons laver la vaisselle tous les soirs. Le samedi, on doit nettoyer la salle de bains. Chaque colocataire doit recycler le papier et le plastique. On peut inviter des amis le week-end. On peut aussi utiliser la cuisine jusqu'à vingt-trois heures. On ne peut pas faire de bruit après vingt-deux heures. Il est interdit de fumer dans l'appartement.",
@@ -182,14 +182,14 @@
   "review": {
     "fromDays": [19, 23, 24, 27, 29, 31],
     "items": [
-      { "fr": "Je voudrais un thé, s'il vous plaît.", "en": "I'd like a tea, please.", "hi": "मुझे एक चाय चाहिए, कृपया।", "pron": "झ़ö वू-द्रै ऐँ ते सील वू प्लै" },
-      { "fr": "Excusez-moi, monsieur.", "en": "Excuse me, sir.", "hi": "माफ़ कीजिए, सर।", "pron": "ऐक्स-कü-ज़े मवा मö-स्यö" },
-      { "fr": "le balcon, la cuisine, la salle de bains", "en": "the balcony, the kitchen, the bathroom", "hi": "बालकनी, रसोई, बाथरूम", "pron": "लö बाल-कोँ ला क्üई-ज़ीन ला साल दö बैँ" },
-      { "fr": "Il n'y a pas de bruit.", "en": "There's no noise.", "hi": "कोई शोर नहीं है।", "pron": "ईल न्या पा दö ब्ग़üई" },
-      { "fr": "Je me couche à onze heures.", "en": "I go to bed at eleven.", "hi": "मैं ग्यारह बजे सोता/सोती हूँ।", "pron": "झ़ö म्ö कूश आ ओँ-ज़öग़" },
-      { "fr": "Prenez l'autobus.", "en": "Take the bus.", "hi": "बस लीजिए।", "pron": "प्रö-ने लो-तो-बüस" },
-      { "fr": "Je finis à midi.", "en": "I finish at noon.", "hi": "मैं दोपहर बारह बजे ख़त्म करता/करती हूँ।", "pron": "झ़ö फ़ी-नी आ मी-दी" },
-      { "fr": "Nous attendons l'ascenseur.", "en": "We're waiting for the lift.", "hi": "हम लिफ़्ट का इंतज़ार कर रहे हैं।", "pron": "नू ज़ा-ताँ-दोँ ला-साँ-सöग़" }
+      { "fr": "Je voudrais un thé, s'il vous plaît.", "en": "I'd like a tea, please.", "hi": "मुझे एक चाय चाहिए, कृपया।", "pron": "ज वू-द्रे ऐं ते सील वू प्ले" },
+      { "fr": "Excusez-moi, monsieur.", "en": "Excuse me, sir.", "hi": "माफ़ कीजिए, सर।", "pron": "एक्स-क्यू-ज़े-मवा म-स्य" },
+      { "fr": "le balcon, la cuisine, la salle de bains", "en": "the balcony, the kitchen, the bathroom", "hi": "बालकनी, रसोई, बाथरूम", "pron": "ल बाल-कों ला क्यूई-ज़ीन ला साल द बैं" },
+      { "fr": "Il n'y a pas de bruit.", "en": "There's no noise.", "hi": "कोई शोर नहीं है।", "pron": "ईल न्या पा द ब्र्यूई" },
+      { "fr": "Je me couche à onze heures.", "en": "I go to bed at eleven.", "hi": "मैं ग्यारह बजे सोता/सोती हूँ।", "pron": "ज म कूश आ ओं ज़र" },
+      { "fr": "Prenez l'autobus.", "en": "Take the bus.", "hi": "बस लीजिए।", "pron": "प्र-ने लो-तो-ब्यूस" },
+      { "fr": "Je finis à midi.", "en": "I finish at noon.", "hi": "मैं दोपहर बारह बजे ख़त्म करता/करती हूँ।", "pron": "ज फ़ी-नी आ मी-दी" },
+      { "fr": "Nous attendons l'ascenseur.", "en": "We're waiting for the lift.", "hi": "हम लिफ़्ट का इंतज़ार कर रहे हैं।", "pron": "नू ज़ा-ताँ-दों ला-साँ-सर" }
     ]
   },
   "assessment": [

@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import { requireUser, getProfile } from "@/server/auth";
 import { EXAM_VARIANTS } from "@/server/profile-schema";
 import { SettingsForm } from "@/components/settings-form";
+import { Bi } from "@/components/bi";
 
 export const metadata = { title: "Settings" };
 export const dynamic = "force-dynamic";
@@ -14,8 +15,8 @@ export default async function SettingsPage() {
   return (
     <div className="space-y-4">
       <header>
-        <h1 className="text-2xl font-bold">Settings <span lang="hi" className="deva text-lg font-normal text-muted">· सेटिंग्स</span></h1>
-        <p className="text-muted">Signed in as {user.isGuest ? "a guest" : user.email}.</p>
+        <h1 className="text-2xl font-bold"><Bi as="span" t={{ en: "Settings", hi: "सेटिंग्स" }} /></h1>
+        <Bi className="text-muted" t={user.isGuest ? { en: "Signed in as a guest.", hi: "आप मेहमान के रूप में साइन इन हैं।" } : { en: `Signed in as ${user.email}.`, hi: `${user.email} से साइन इन हैं।` }} />
       </header>
       <SettingsForm isGuest={user.isGuest} variants={variants} initial={{
         displayName: p.displayName, explanationLang: p.explanationLang, dailyMinutes: p.dailyMinutes, pace: p.pace, examDate: p.examDate,

@@ -16,28 +16,28 @@
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "toujours", "en": "always", "hi": "हमेशा", "pron": "तू-झ़ूग़", "ipa": "tuʒuʁ", "pos": "adverb" },
+    { "fr": "toujours", "en": "always", "hi": "हमेशा", "pron": "तू-जूर", "ipa": "tuʒuʁ", "pos": "adverb" },
     { "fr": "souvent", "en": "often", "hi": "अक्सर", "pron": "सू-वाँ", "ipa": "suvɑ̃", "pos": "adverb" },
-    { "fr": "parfois", "en": "sometimes", "hi": "कभी-कभी", "pron": "पाग़-फ़्वा", "ipa": "paʁfwa", "pos": "adverb" },
-    { "fr": "rarement", "en": "rarely", "hi": "शायद ही कभी", "pron": "ग़ाग़-माँ", "ipa": "ʁaʁmɑ̃", "pos": "adverb" },
-    { "fr": "ne … jamais", "en": "never", "hi": "कभी नहीं", "pron": "न्ö … झ़ा-मै", "ipa": "nə … ʒamɛ", "pos": "adverb", "lemma": "jamais" },
-    { "fr": "le hockey", "en": "(ice) hockey", "hi": "(बर्फ़ पर) हॉकी", "pron": "लö ओ-कै", "ipa": "lə ɔkɛ", "pos": "noun", "gender": "m", "lemma": "hockey", "note": { "en": "The h blocks elision and liaison: le hockey, not l'hockey. In Canada 'le hockey' means ice hockey.", "hi": "यहाँ h की वजह से जोड़ नहीं होता: le hockey, l'hockey नहीं। कनाडा में 'le hockey' का मतलब बर्फ़ पर खेली जाने वाली हॉकी है।" } },
-    { "fr": "le soccer", "en": "football / soccer (Canada)", "hi": "फ़ुटबॉल", "pron": "लö सो-कैग़", "ipa": "lə sɔkɛʁ", "pos": "noun", "gender": "m", "lemma": "soccer", "note": { "en": "In Canada 'le football' is usually American-style football. In France, 'le foot' = soccer.", "hi": "कनाडा में 'le football' आमतौर पर अमेरिकी फ़ुटबॉल होता है। फ़्रांस में 'le foot' = सॉकर।" } },
-    { "fr": "la natation", "en": "swimming", "hi": "तैराकी", "pron": "ला ना-ता-स्योँ", "ipa": "la natasjɔ̃", "pos": "noun", "gender": "f", "lemma": "natation" },
-    { "fr": "le vélo", "en": "bike / cycling", "hi": "साइकिल / साइकिल चलाना", "pron": "लö वे-लो", "ipa": "lə velo", "pos": "noun", "gender": "m", "lemma": "vélo" },
-    { "fr": "le patin", "en": "skating / skate", "hi": "स्केटिंग / स्केट", "pron": "लö पा-तैँ", "ipa": "lə patɛ̃", "pos": "noun", "gender": "m", "lemma": "patin", "note": { "en": "faire du patin (Québec) = faire du patinage = to skate.", "hi": "faire du patin (क्यूबेक) = faire du patinage = स्केटिंग करना।" } },
-    { "fr": "la guitare", "en": "guitar", "hi": "गिटार", "pron": "ला गी-ताग़", "ipa": "la ɡitaʁ", "pos": "noun", "gender": "f", "lemma": "guitare" },
-    { "fr": "le piano", "en": "piano", "hi": "पियानो", "pron": "लö प्या-नो", "ipa": "lə pjano", "pos": "noun", "gender": "m", "lemma": "piano" },
-    { "fr": "les loisirs", "en": "leisure activities / hobbies", "hi": "शौक़ / फ़ुर्सत के काम", "pron": "ले ल्वा-ज़ीग़", "ipa": "le lwaziʁ", "pos": "noun", "gender": "m", "lemma": "loisir" },
-    { "fr": "une fois par semaine", "en": "once a week", "hi": "हफ़्ते में एक बार", "pron": "üन फ़्वा पाग़ स्ö-मैन", "ipa": "yn fwa paʁ səmɛn", "pos": "phrase", "lemma": "fois", "note": { "en": "deux fois par mois = twice a month.", "hi": "deux fois par mois = महीने में दो बार।" } }
+    { "fr": "parfois", "en": "sometimes", "hi": "कभी-कभी", "pron": "पार-फ़्वा", "ipa": "paʁfwa", "pos": "adverb" },
+    { "fr": "rarement", "en": "rarely", "hi": "शायद ही कभी", "pron": "रार-माँ", "ipa": "ʁaʁmɑ̃", "pos": "adverb" },
+    { "fr": "ne … jamais", "en": "never", "hi": "कभी नहीं", "pron": "न … जा-मे", "ipa": "nə … ʒamɛ", "pos": "adverb", "lemma": "jamais" },
+    { "fr": "le hockey", "en": "(ice) hockey", "hi": "(बर्फ़ पर) हॉकी", "pron": "ल ओ-के", "ipa": "lə ɔkɛ", "pos": "noun", "gender": "m", "lemma": "hockey", "note": { "en": "The h blocks elision and liaison: le hockey, not l'hockey. In Canada 'le hockey' means ice hockey.", "hi": "यहाँ h की वजह से जोड़ नहीं होता: le hockey, l'hockey नहीं। कनाडा में 'le hockey' का मतलब बर्फ़ पर खेली जाने वाली हॉकी है।" } },
+    { "fr": "le soccer", "en": "football / soccer (Canada)", "hi": "फ़ुटबॉल", "pron": "ल सो-केर", "ipa": "lə sɔkɛʁ", "pos": "noun", "gender": "m", "lemma": "soccer", "note": { "en": "In Canada 'le football' is usually American-style football. In France, 'le foot' = soccer.", "hi": "कनाडा में 'le football' आमतौर पर अमेरिकी फ़ुटबॉल होता है। फ़्रांस में 'le foot' = सॉकर।" } },
+    { "fr": "la natation", "en": "swimming", "hi": "तैराकी", "pron": "ला ना-ता-स्यों", "ipa": "la natasjɔ̃", "pos": "noun", "gender": "f", "lemma": "natation" },
+    { "fr": "le vélo", "en": "bike / cycling", "hi": "साइकिल / साइकिल चलाना", "pron": "ल वे-लो", "ipa": "lə velo", "pos": "noun", "gender": "m", "lemma": "vélo" },
+    { "fr": "le patin", "en": "skating / skate", "hi": "स्केटिंग / स्केट", "pron": "ल पा-तैं", "ipa": "lə patɛ̃", "pos": "noun", "gender": "m", "lemma": "patin", "note": { "en": "faire du patin (Québec) = faire du patinage = to skate.", "hi": "faire du patin (क्यूबेक) = faire du patinage = स्केटिंग करना।" } },
+    { "fr": "la guitare", "en": "guitar", "hi": "गिटार", "pron": "ला गी-तार", "ipa": "la ɡitaʁ", "pos": "noun", "gender": "f", "lemma": "guitare" },
+    { "fr": "le piano", "en": "piano", "hi": "पियानो", "pron": "ल प्या-नो", "ipa": "lə pjano", "pos": "noun", "gender": "m", "lemma": "piano" },
+    { "fr": "les loisirs", "en": "leisure activities / hobbies", "hi": "शौक़ / फ़ुर्सत के काम", "pron": "ले ल्वा-ज़ीर", "ipa": "le lwaziʁ", "pos": "noun", "gender": "m", "lemma": "loisir" },
+    { "fr": "une fois par semaine", "en": "once a week", "hi": "हफ़्ते में एक बार", "pron": "यून फ़्वा पार स-मेन", "ipa": "yn fwa paʁ səmɛn", "pos": "phrase", "lemma": "fois", "note": { "en": "deux fois par mois = twice a month.", "hi": "deux fois par mois = महीने में दो बार।" } }
   ],
   "phrases": [
-    { "fr": "Qu'est-ce que tu fais le week-end ?", "en": "What do you do at the weekend?", "hi": "तुम सप्ताहांत में क्या करते हो?", "pron": "कैस-कö तü फ़ै लö वी-कैन्द" },
-    { "fr": "Je fais du vélo le dimanche.", "en": "I go cycling on Sundays.", "hi": "मैं रविवार को साइकिल चलाता/चलाती हूँ।", "pron": "झ़ö फ़ै दü वे-लो लö दी-माँश" },
-    { "fr": "Je joue au soccer avec mes amis.", "en": "I play soccer with my friends.", "hi": "मैं अपने दोस्तों के साथ फ़ुटबॉल खेलता/खेलती हूँ।", "pron": "झ़ö झ़ू ओ सो-कैग़ आ-वैक मे ज़ा-मी" },
-    { "fr": "Elle joue de la guitare.", "en": "She plays the guitar.", "hi": "वह गिटार बजाती है।", "pron": "ऐल झ़ू दö ला गी-ताग़" },
-    { "fr": "Je ne fais jamais de sport.", "en": "I never do any sport.", "hi": "मैं कभी खेल-कूद नहीं करता/करती।", "pron": "झ़ö न्ö फ़ै झ़ा-मै दö स्पॉग़" },
-    { "fr": "Tu fais du sport combien de fois par semaine ?", "en": "How many times a week do you do sport?", "hi": "तुम हफ़्ते में कितनी बार खेल-कूद करते हो?", "pron": "तü फ़ै दü स्पॉग़ कोँ-ब्यैँ दö फ़्वा पाग़ स्ö-मैन" }
+    { "fr": "Qu'est-ce que tu fais le week-end ?", "en": "What do you do at the weekend?", "hi": "तुम सप्ताहांत में क्या करते हो?", "pron": "केस-क त्यू फ़े ल वी-केन्द" },
+    { "fr": "Je fais du vélo le dimanche.", "en": "I go cycling on Sundays.", "hi": "मैं रविवार को साइकिल चलाता/चलाती हूँ।", "pron": "ज फ़े द्यू वे-लो ल दी-माँश" },
+    { "fr": "Je joue au soccer avec mes amis.", "en": "I play soccer with my friends.", "hi": "मैं अपने दोस्तों के साथ फ़ुटबॉल खेलता/खेलती हूँ।", "pron": "ज जू ओ सो-केर आ-वेक मे ज़ा-मी" },
+    { "fr": "Elle joue de la guitare.", "en": "She plays the guitar.", "hi": "वह गिटार बजाती है।", "pron": "एल जू द ला गी-तार" },
+    { "fr": "Je ne fais jamais de sport.", "en": "I never do any sport.", "hi": "मैं कभी खेल-कूद नहीं करता/करती।", "pron": "ज न फ़े जा-मे द स्पॉर" },
+    { "fr": "Tu fais du sport combien de fois par semaine ?", "en": "How many times a week do you do sport?", "hi": "तुम हफ़्ते में कितनी बार खेल-कूद करते हो?", "pron": "त्यू फ़े द्यू स्पॉर कों-ब्यैं द फ़्वा पार स-मेन" }
   ],
   "grammar": {
     "title": { "en": "faire du / jouer à / jouer de, and adverbs of frequency", "hi": "faire du / jouer à / jouer de, और आवृत्ति (कितनी बार) बताने वाले शब्द" },
@@ -50,12 +50,12 @@
       "hi": "हिंदी में दो क्रियाएँ हैं: खेलों के लिए 'खेलना' (क्रिकेट खेलना) और वाद्यों के लिए 'बजाना' (गिटार बजाना)। फ़्रेंच में एक ही क्रिया jouer है, पर छोटा शब्द बदलता है: खेलों के लिए jouer À (= खेलना) और वाद्यों के लिए jouer DE (= बजाना)। अंग्रेज़ी में दोनों के लिए 'play'। क्रम भी अलग है: हिंदी में आवृत्ति वाला शब्द क्रिया से पहले आता है (मैं अक्सर क्रिकेट खेलता हूँ); फ़्रेंच में क्रिया के बाद: je joue souvent au cricket।"
     },
     "examples": [
-      { "fr": "Je joue souvent au cricket le dimanche.", "en": "I often play cricket on Sundays.", "hi": "मैं अक्सर रविवार को क्रिकेट खेलता/खेलती हूँ।", "pron": "झ़ö झ़ू सू-वाँ ओ क्री-कैत लö दी-माँश" },
-      { "fr": "Tu fais du patin en hiver ?", "en": "Do you skate in winter?", "hi": "क्या तुम सर्दियों में स्केटिंग करते हो?", "pron": "तü फ़ै दü पा-तैँ आँ नी-वैग़" },
-      { "fr": "Mon fils joue du piano.", "en": "My son plays the piano.", "hi": "मेरा बेटा पियानो बजाता है।", "pron": "मोँ फ़ीस झ़ू दü प्या-नो" },
-      { "fr": "Elle fait de la natation deux fois par semaine.", "en": "She swims twice a week.", "hi": "वह हफ़्ते में दो बार तैराकी करती है।", "pron": "ऐल फ़ै दö ला ना-ता-स्योँ दö फ़्वा पाग़ स्ö-मैन" },
-      { "fr": "Parfois, nous allons au cinéma.", "en": "Sometimes we go to the cinema.", "hi": "कभी-कभी हम सिनेमा जाते हैं।", "pron": "पाग़-फ़्वा नू ज़ा-लोँ ओ सी-ने-मा" },
-      { "fr": "Il ne fait jamais de vélo en hiver.", "en": "He never cycles in winter.", "hi": "वह सर्दियों में कभी साइकिल नहीं चलाता।", "pron": "ईल न्ö फ़ै झ़ा-मै दö वे-लो आँ नी-वैग़" }
+      { "fr": "Je joue souvent au cricket le dimanche.", "en": "I often play cricket on Sundays.", "hi": "मैं अक्सर रविवार को क्रिकेट खेलता/खेलती हूँ।", "pron": "ज जू सू-वाँ ओ क्री-केत ल दी-माँश" },
+      { "fr": "Tu fais du patin en hiver ?", "en": "Do you skate in winter?", "hi": "क्या तुम सर्दियों में स्केटिंग करते हो?", "pron": "त्यू फ़े द्यू पा-तैं आँ नी-वेर" },
+      { "fr": "Mon fils joue du piano.", "en": "My son plays the piano.", "hi": "मेरा बेटा पियानो बजाता है।", "pron": "मों फ़ीस जू द्यू प्या-नो" },
+      { "fr": "Elle fait de la natation deux fois par semaine.", "en": "She swims twice a week.", "hi": "वह हफ़्ते में दो बार तैराकी करती है।", "pron": "एल फ़े द ला ना-ता-स्यों द फ़्वा पार स-मेन" },
+      { "fr": "Parfois, nous allons au cinéma.", "en": "Sometimes we go to the cinema.", "hi": "कभी-कभी हम सिनेमा जाते हैं।", "pron": "पार-फ़्वा नू ज़ा-लों ओ सी-ने-मा" },
+      { "fr": "Il ne fait jamais de vélo en hiver.", "en": "He never cycles in winter.", "hi": "वह सर्दियों में कभी साइकिल नहीं चलाता।", "pron": "ईल न फ़े जा-मे द वे-लो आँ नी-वेर" }
     ],
     "pitfalls": [
       { "en": "Not 'je joue le piano' — say 'je joue du piano'.", "hi": "'je joue le piano' नहीं — 'je joue du piano' कहिए।" },
@@ -71,11 +71,11 @@
       "hi": "फ़्रेंच शब्दों का अपना अलग ज़ोर नहीं होता, जैसे अंग्रेज़ी 'FOOT-ball' में। इसके बजाय हर लय-समूह का आख़िरी अक्षर थोड़ा लंबा होता है: je joue au soc-CER। Je fais du vé-LO / le di-MANCHE। hockey या souvent के पहले अक्षर पर ज़ोर मत दीजिए — इन्हें बराबर रखिए, ज़ोर समूह के आख़िर में।"
     },
     "words": [
-      { "fr": "le hockey", "en": "hockey", "hi": "हॉकी", "pron": "लö ओ-कै", "ipa": "lə ɔkɛ", "note": { "en": "Not 'HOC-key': even, slight push on कै.", "hi": "'हॉक-की' नहीं: बराबर, हल्का ज़ोर कै पर।" } },
-      { "fr": "Je joue au soccer.", "en": "I play soccer.", "hi": "मैं फ़ुटबॉल खेलता/खेलती हूँ।", "pron": "झ़ö झ़ू ओ सो-कैग़" },
+      { "fr": "le hockey", "en": "hockey", "hi": "हॉकी", "pron": "ल ओ-के", "ipa": "lə ɔkɛ", "note": { "en": "Not 'HOC-key': even, slight push on के.", "hi": "'हॉक-की' नहीं: बराबर, हल्का ज़ोर के पर।" } },
+      { "fr": "Je joue au soccer.", "en": "I play soccer.", "hi": "मैं फ़ुटबॉल खेलता/खेलती हूँ।", "pron": "ज जू ओ सो-केर" },
       { "fr": "souvent", "en": "often", "hi": "अक्सर", "pron": "सू-वाँ", "ipa": "suvɑ̃" },
-      { "fr": "Je fais du vélo le dimanche.", "en": "I cycle on Sundays.", "hi": "मैं रविवार को साइकिल चलाता/चलाती हूँ।", "pron": "झ़ö फ़ै दü वे-लो / लö दी-माँश" },
-      { "fr": "la natation", "en": "swimming", "hi": "तैराकी", "pron": "ला ना-ता-स्योँ", "ipa": "la natasjɔ̃" }
+      { "fr": "Je fais du vélo le dimanche.", "en": "I cycle on Sundays.", "hi": "मैं रविवार को साइकिल चलाता/चलाती हूँ।", "pron": "ज फ़े द्यू वे-लो ल दी-माँश" },
+      { "fr": "la natation", "en": "swimming", "hi": "तैराकी", "pron": "ला ना-ता-स्यों", "ipa": "la natasjɔ̃" }
     ]
   },
   "listening": {
@@ -101,11 +101,11 @@
       { "speaker": "Priya", "voice": "f1", "fr": "Alors, rendez-vous samedi à quatorze heures au parc, pour le patin !", "en": "So, let's meet on Saturday at 2 p.m. at the park, for skating!", "hi": "तो, शनिवार दोपहर दो बजे पार्क में मिलते हैं, स्केटिंग के लिए!" }
     ],
     "questions": [
-      { "q": { "en": "What does Marc always do on Saturday mornings?" }, "options": ["He skates", "He plays hockey", "He plays the piano"], "answer": 1, "explanation": { "en": "'Le samedi matin, je joue toujours au hockey'.", "hi": "'Le samedi matin, je joue toujours au hockey' — हमेशा हॉकी।" }, "kind": "literal", "evidence": "Le samedi matin, je joue toujours au hockey avec mon équipe." },
-      { "q": { "en": "Has Priya been skating before?" }, "options": ["Yes, often", "Yes, sometimes", "No, never"], "answer": 2, "explanation": { "en": "'Je ne fais jamais de patin, je voudrais essayer !'", "hi": "'Je ne fais jamais de patin' — उसने कभी स्केटिंग नहीं की।" }, "kind": "inference", "evidence": "Je ne fais jamais de patin, je voudrais essayer !" },
-      { "q": { "en": "Who plays the guitar?" }, "options": ["Julie", "Marc", "Priya"], "answer": 2, "explanation": { "en": "Priya: 'je joue de la guitare avec des amis'. Julie plays the piano.", "hi": "प्रिया: 'je joue de la guitare avec des amis'। जूली पियानो बजाती है।" }, "kind": "literal", "evidence": "le soir, je joue de la guitare avec des amis" },
-      { "q": { "en": "How often does Julie play the piano?" }, "options": ["Always", "Often", "Rarely"], "answer": 2, "explanation": { "en": "'je joue du piano, mais rarement'.", "hi": "'je joue du piano, mais rarement' — शायद ही कभी।" }, "kind": "literal", "evidence": "Moi, je joue du piano, mais rarement." },
-      { "q": { "en": "What do they finally decide?" }, "options": ["To watch soccer on Sunday", "To go skating on Saturday at 2 p.m.", "To do yoga on Sunday"], "answer": 1, "explanation": { "en": "'rendez-vous samedi à quatorze heures au parc, pour le patin !'", "hi": "'rendez-vous samedi à quatorze heures au parc, pour le patin !' — शनिवार 2 बजे स्केटिंग।" }, "kind": "gist", "evidence": "rendez-vous samedi à quatorze heures au parc, pour le patin !" }
+      { "q": { "en": "What does Marc always do on Saturday mornings?", "hi": "मार्क शनिवार की सुबह हमेशा क्या करता है?" }, "options": ["He skates", "He plays hockey", "He plays the piano"], "optionsHi": ["वह स्केटिंग करता है", "वह हॉकी खेलता है", "वह पियानो बजाता है"], "answer": 1, "explanation": { "en": "'Le samedi matin, je joue toujours au hockey'.", "hi": "'Le samedi matin, je joue toujours au hockey' — हमेशा हॉकी।" }, "kind": "literal", "evidence": "Le samedi matin, je joue toujours au hockey avec mon équipe." },
+      { "q": { "en": "Has Priya been skating before?", "hi": "क्या प्रिया पहले कभी स्केटिंग कर चुकी है?" }, "options": ["Yes, often", "Yes, sometimes", "No, never"], "optionsHi": ["हाँ, अक्सर", "हाँ, कभी-कभी", "नहीं, कभी नहीं"], "answer": 2, "explanation": { "en": "'Je ne fais jamais de patin, je voudrais essayer !'", "hi": "'Je ne fais jamais de patin' — उसने कभी स्केटिंग नहीं की।" }, "kind": "inference", "evidence": "Je ne fais jamais de patin, je voudrais essayer !" },
+      { "q": { "en": "Who plays the guitar?", "hi": "गिटार कौन बजाता है?" }, "options": ["Julie", "Marc", "Priya"], "answer": 2, "explanation": { "en": "Priya: 'je joue de la guitare avec des amis'. Julie plays the piano.", "hi": "प्रिया: 'je joue de la guitare avec des amis'। जूली पियानो बजाती है।" }, "kind": "literal", "evidence": "le soir, je joue de la guitare avec des amis" },
+      { "q": { "en": "How often does Julie play the piano?", "hi": "जूली कितनी बार पियानो बजाती है?" }, "options": ["Always", "Often", "Rarely"], "optionsHi": ["हमेशा", "अक्सर", "कभी-कभार"], "answer": 2, "explanation": { "en": "'je joue du piano, mais rarement'.", "hi": "'je joue du piano, mais rarement' — शायद ही कभी।" }, "kind": "literal", "evidence": "Moi, je joue du piano, mais rarement." },
+      { "q": { "en": "What do they finally decide?", "hi": "आख़िर में वे क्या तय करते हैं?" }, "options": ["To watch soccer on Sunday", "To go skating on Saturday at 2 p.m.", "To do yoga on Sunday"], "optionsHi": ["रविवार को फ़ुटबॉल देखना", "शनिवार को दोपहर 2 बजे स्केटिंग करने जाना", "रविवार को योग करना"], "answer": 1, "explanation": { "en": "'rendez-vous samedi à quatorze heures au parc, pour le patin !'", "hi": "'rendez-vous samedi à quatorze heures au parc, pour le patin !' — शनिवार 2 बजे स्केटिंग।" }, "kind": "gist", "evidence": "rendez-vous samedi à quatorze heures au parc, pour le patin !" }
     ],
     "dictation": ["Je joue toujours au hockey.", "Je ne fais jamais de patin.", "Tu joues de la guitare ?"],
     "gapFill": { "text": "Le samedi matin, je joue toujours ___ hockey. Moi, je fais souvent ___ patin. Moi, je joue ___ piano, mais rarement.", "answers": ["au", "du", "du"] }
@@ -117,11 +117,11 @@
       "hi": "अपने फ़ुर्सत के समय के बारे में बोलिए। हर गतिविधि के लिए बताइए कि आप उसे कितनी बार करते हैं। कम से कम एक faire du, एक jouer à और एक jouer de इस्तेमाल कीजिए (या बताइए कि आप कोई वाद्य कभी नहीं बजाते)।"
     },
     "prompts": [
-      { "fr": "Qu'est-ce que vous faites le week-end ?", "en": "What do you do at the weekend?", "hi": "आप सप्ताहांत में क्या करते हैं?", "pron": "कैस-कö वू फ़ैत लö वी-कैन्द", "model": "Le samedi, je fais souvent du vélo au parc." },
-      { "fr": "Vous faites du sport ?", "en": "Do you do sport?", "hi": "क्या आप खेल-कूद करते हैं?", "pron": "वू फ़ैत दü स्पॉग़", "model": "Oui, je joue au badminton deux fois par semaine." },
-      { "fr": "Vous jouez d'un instrument ?", "en": "Do you play an instrument?", "hi": "क्या आप कोई वाद्य बजाते हैं?", "pron": "वू झ़ू-ए दैँ नैँस-त्रü-माँ", "model": "Non, je ne joue jamais d'instrument, mais j'aime la musique." },
+      { "fr": "Qu'est-ce que vous faites le week-end ?", "en": "What do you do at the weekend?", "hi": "आप सप्ताहांत में क्या करते हैं?", "pron": "केस-क वू फ़ेत ल वी-केन्द", "model": "Le samedi, je fais souvent du vélo au parc." },
+      { "fr": "Vous faites du sport ?", "en": "Do you do sport?", "hi": "क्या आप खेल-कूद करते हैं?", "pron": "वू फ़ेत द्यू स्पॉर", "model": "Oui, je joue au badminton deux fois par semaine." },
+      { "fr": "Vous jouez d'un instrument ?", "en": "Do you play an instrument?", "hi": "क्या आप कोई वाद्य बजाते हैं?", "pron": "वू जू-ए दैं नैंस-त्र्यू-माँ", "model": "Non, je ne joue jamais d'instrument, mais j'aime la musique." },
       { "fr": "Vous allez souvent au cinéma ?", "en": "Do you often go to the cinema?", "hi": "क्या आप अक्सर सिनेमा जाते हैं?", "pron": "वू ज़ा-ले सू-वाँ ओ सी-ने-मा", "model": "Non, je vais rarement au cinéma. Je regarde des films à la maison." },
-      { "fr": "Et en hiver ?", "en": "And in winter?", "hi": "और सर्दियों में?", "pron": "ए आँ नी-वैग़", "model": "En hiver, je fais parfois du patin avec mes collègues." }
+      { "fr": "Et en hiver ?", "en": "And in winter?", "hi": "और सर्दियों में?", "pron": "ए आँ नी-वेर", "model": "En hiver, je fais parfois du patin avec mes collègues." }
     ],
     "tip": {
       "en": "Build a three-part answer: activity + frequency + when/with whom. 'Je joue souvent au cricket le dimanche avec mes amis.' That is already a strong TEF-style sentence.",
@@ -137,10 +137,10 @@
       "hi": "जनवरी से मार्च तक\nतैराकी: स्विमिंग पूल हर दिन सुबह 6 से रात 9 बजे तक खुला। वयस्कों की कक्षाएँ मंगलवार और गुरुवार शाम को।\nस्केटिंग: खुला स्केटिंग रिंक मुफ़्त। स्केट किराये पर: 5 डॉलर।\nबैडमिंटन: बुधवार शाम 6 से 8 बजे तक। रैकेट रिसेप्शन पर उपलब्ध।\nयोग: शनिवार सुबह 9:30 बजे। शुरुआती लोगों का स्वागत है!\nइनडोर क्रिकेट: रविवार सुबह 10 से दोपहर 1 बजे तक, जिम में। नया!\nसंगीत: किशोरों के लिए गिटार की कक्षाएँ, शुक्रवार शाम 5 बजे।\nपंजीकरण: मोहल्ले के निवासियों के लिए हर सत्र 40 डॉलर, बाक़ी के लिए 60 डॉलर। रिसेप्शन पर या ऑनलाइन पंजीकरण कीजिए।"
     },
     "questions": [
-      { "q": { "en": "When are the adult swimming classes?" }, "options": ["Every day at 6 a.m.", "Tuesday and Thursday evenings", "Saturday morning"], "answer": 1, "explanation": { "en": "'Cours pour adultes le mardi et le jeudi soir.'", "hi": "'Cours pour adultes le mardi et le jeudi soir.' — मंगलवार और गुरुवार शाम।" }, "kind": "literal", "evidence": "Cours pour adultes le mardi et le jeudi soir." },
-      { "q": { "en": "Priya has no skates. How much does she pay to skate?" }, "options": ["Nothing", "$5", "$40"], "answer": 1, "explanation": { "en": "The rink is free, but 'Location de patins : 5 $'.", "hi": "रिंक मुफ़्त है, पर 'Location de patins : 5 $' — स्केट किराये पर 5 डॉलर।" }, "kind": "inference", "evidence": "Location de patins : 5 $." },
-      { "q": { "en": "Arjun loves cricket. When can he play?" }, "options": ["Sunday 10 a.m. to 1 p.m.", "Wednesday 6 to 8 p.m.", "Friday at 5 p.m."], "answer": 0, "explanation": { "en": "'Cricket intérieur : le dimanche de 10 h à 13 h'.", "hi": "'Cricket intérieur : le dimanche de 10 h à 13 h' — रविवार।" }, "kind": "literal", "evidence": "Cricket intérieur : le dimanche de 10 h à 13 h, au gymnase." },
-      { "q": { "en": "Who are the guitar classes for?" }, "options": ["Adults", "Beginners of all ages", "Teenagers"], "answer": 2, "explanation": { "en": "'cours de guitare pour adolescents'.", "hi": "'cours de guitare pour adolescents' — किशोरों के लिए।" }, "kind": "literal", "evidence": "cours de guitare pour adolescents" }
+      { "q": { "en": "When are the adult swimming classes?", "hi": "वयस्कों की तैराकी की कक्षाएँ कब होती हैं?" }, "options": ["Every day at 6 a.m.", "Tuesday and Thursday evenings", "Saturday morning"], "optionsHi": ["हर दिन सुबह 6 बजे", "मंगलवार और गुरुवार की शाम को", "शनिवार की सुबह"], "answer": 1, "explanation": { "en": "'Cours pour adultes le mardi et le jeudi soir.'", "hi": "'Cours pour adultes le mardi et le jeudi soir.' — मंगलवार और गुरुवार शाम।" }, "kind": "literal", "evidence": "Cours pour adultes le mardi et le jeudi soir." },
+      { "q": { "en": "Priya has no skates. How much does she pay to skate?", "hi": "प्रिया के पास स्केट्स नहीं हैं। स्केटिंग करने के लिए उसे कितना भुगतान करना होगा?" }, "options": ["Nothing", "$5", "$40"], "optionsHi": ["कुछ नहीं", "$5", "$40"], "answer": 1, "explanation": { "en": "The rink is free, but 'Location de patins : 5 $'.", "hi": "रिंक मुफ़्त है, पर 'Location de patins : 5 $' — स्केट किराये पर 5 डॉलर।" }, "kind": "inference", "evidence": "Location de patins : 5 $." },
+      { "q": { "en": "Arjun loves cricket. When can he play?", "hi": "अर्जुन को क्रिकेट बहुत पसंद है। वह कब खेल सकता है?" }, "options": ["Sunday 10 a.m. to 1 p.m.", "Wednesday 6 to 8 p.m.", "Friday at 5 p.m."], "answer": 0, "explanation": { "en": "'Cricket intérieur : le dimanche de 10 h à 13 h'.", "hi": "'Cricket intérieur : le dimanche de 10 h à 13 h' — रविवार।" }, "kind": "literal", "evidence": "Cricket intérieur : le dimanche de 10 h à 13 h, au gymnase." },
+      { "q": { "en": "Who are the guitar classes for?", "hi": "गिटार की कक्षाएँ किनके लिए हैं?" }, "options": ["Adults", "Beginners of all ages", "Teenagers"], "optionsHi": ["वयस्कों के लिए", "सभी उम्र के शुरुआती सीखने वालों के लिए", "किशोरों के लिए"], "answer": 2, "explanation": { "en": "'cours de guitare pour adolescents'.", "hi": "'cours de guitare pour adolescents' — किशोरों के लिए।" }, "kind": "literal", "evidence": "cours de guitare pour adolescents" }
     ]
   },
   "writing": {
@@ -156,9 +156,9 @@
       { "en": "Put the frequency word after the verb; with ne … jamais use de.", "hi": "आवृत्ति का शब्द क्रिया के बाद रखिए; ne … jamais के साथ de लिखिए।" }
     ],
     "usefulPhrases": [
-      { "fr": "Pendant la semaine, …", "en": "During the week, …", "hi": "हफ़्ते के दौरान, …", "pron": "पाँ-दाँ ला स्ö-मैन" },
-      { "fr": "deux fois par semaine", "en": "twice a week", "hi": "हफ़्ते में दो बार", "pron": "दö फ़्वा पाग़ स्ö-मैन" },
-      { "fr": "Je ne … jamais de …", "en": "I never … any …", "hi": "मैं कभी … नहीं …", "pron": "झ़ö न्ö … झ़ा-मै दö" }
+      { "fr": "Pendant la semaine, …", "en": "During the week, …", "hi": "हफ़्ते के दौरान, …", "pron": "पाँ-दाँ ला स-मेन" },
+      { "fr": "deux fois par semaine", "en": "twice a week", "hi": "हफ़्ते में दो बार", "pron": "द फ़्वा पार स-मेन" },
+      { "fr": "Je ne … jamais de …", "en": "I never … any …", "hi": "मैं कभी … नहीं …", "pron": "ज न … जा-मे द" }
     ],
     "model": {
       "fr": "Pendant la semaine, je travaille beaucoup, mais j'ai un peu de temps libre. Le mardi et le jeudi, je fais de la natation. Le samedi, je joue souvent au badminton avec mes collègues. Le dimanche, je joue parfois de la guitare. Je vais rarement au cinéma, parce que c'est cher. Je ne regarde jamais la télé le matin !",
@@ -173,14 +173,14 @@
   "review": {
     "fromDays": [10, 13, 16, 24, 27, 33],
     "items": [
-      { "fr": "J'adore la musique.", "en": "I love music.", "hi": "मुझे संगीत बहुत पसंद है।", "pron": "झ़ा-दॉग़ ला मü-ज़ीक" },
-      { "fr": "Je déteste le froid.", "en": "I hate the cold.", "hi": "मुझे ठंड से नफ़रत है।", "pron": "झ़ö दे-तैस्त लö फ़्र्वा" },
-      { "fr": "le samedi et le dimanche", "en": "on Saturdays and Sundays", "hi": "शनिवार और रविवार को", "pron": "लö सम-दी ए लö दी-माँश" },
-      { "fr": "Je vais au parc.", "en": "I'm going to the park.", "hi": "मैं पार्क जा रहा/रही हूँ।", "pron": "झ़ö वै ज़ो पाग़क" },
-      { "fr": "Je fais du yoga.", "en": "I do yoga.", "hi": "मैं योग करता/करती हूँ।", "pron": "झ़ö फ़ै दü यो-गा" },
-      { "fr": "Je me repose le dimanche.", "en": "I rest on Sundays.", "hi": "मैं रविवार को आराम करता/करती हूँ।", "pron": "झ़ö म्ö ग़ö-पोज़ लö दी-माँश" },
-      { "fr": "Il fait beau, on va au parc ?", "en": "The weather is nice, shall we go to the park?", "hi": "मौसम अच्छा है, पार्क चलें?", "pron": "ईल फ़ै बो ओँ वा ओ पाग़क" },
-      { "fr": "Je ne mange pas de viande.", "en": "I don't eat meat.", "hi": "मैं मांस नहीं खाता/खाती।", "pron": "झ़ö न्ö माँझ़ पा दö व्याँद" }
+      { "fr": "J'adore la musique.", "en": "I love music.", "hi": "मुझे संगीत बहुत पसंद है।", "pron": "जा-दॉर ला म्यू-ज़ीक" },
+      { "fr": "Je déteste le froid.", "en": "I hate the cold.", "hi": "मुझे ठंड से नफ़रत है।", "pron": "ज दे-तेस्त ल फ़्र्वा" },
+      { "fr": "le samedi et le dimanche", "en": "on Saturdays and Sundays", "hi": "शनिवार और रविवार को", "pron": "ल सम-दी ए ल दी-माँश" },
+      { "fr": "Je vais au parc.", "en": "I'm going to the park.", "hi": "मैं पार्क जा रहा/रही हूँ।", "pron": "ज वे ज़ो पार्क" },
+      { "fr": "Je fais du yoga.", "en": "I do yoga.", "hi": "मैं योग करता/करती हूँ।", "pron": "ज फ़े द्यू यो-गा" },
+      { "fr": "Je me repose le dimanche.", "en": "I rest on Sundays.", "hi": "मैं रविवार को आराम करता/करती हूँ।", "pron": "ज म र-पोज़ ल दी-माँश" },
+      { "fr": "Il fait beau, on va au parc ?", "en": "The weather is nice, shall we go to the park?", "hi": "मौसम अच्छा है, पार्क चलें?", "pron": "ईल फ़े बो ओं वा ओ पारक" },
+      { "fr": "Je ne mange pas de viande.", "en": "I don't eat meat.", "hi": "मैं मांस नहीं खाता/खाती।", "pron": "ज न माँज पा द व्याँद" }
     ]
   },
   "assessment": [

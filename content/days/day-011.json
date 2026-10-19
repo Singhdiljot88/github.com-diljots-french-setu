@@ -13,28 +13,28 @@
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "est-ce que", "en": "(turns a sentence into a yes/no question)", "hi": "क्या (हाँ/नहीं वाले प्रश्न की शुरुआत)", "pron": "ऐस-कö", "ipa": "ɛskə", "pos": "phrase", "note": { "en": "Before a vowel: est-ce qu'il, est-ce qu'on.", "hi": "स्वर से पहले: est-ce qu'il, est-ce qu'on।" } },
-    { "fr": "qu'est-ce que", "en": "what (as an object: what do you…?)", "hi": "क्या (आप क्या … ?)", "pron": "कैस-कö", "ipa": "kɛskə", "pos": "phrase" },
+    { "fr": "est-ce que", "en": "(turns a sentence into a yes/no question)", "hi": "क्या (हाँ/नहीं वाले प्रश्न की शुरुआत)", "pron": "एस-क", "ipa": "ɛskə", "pos": "phrase", "note": { "en": "Before a vowel: est-ce qu'il, est-ce qu'on.", "hi": "स्वर से पहले: est-ce qu'il, est-ce qu'on।" } },
+    { "fr": "qu'est-ce que", "en": "what (as an object: what do you…?)", "hi": "क्या (आप क्या … ?)", "pron": "केस-क", "ipa": "kɛskə", "pos": "phrase" },
     { "fr": "si", "en": "yes (contradicting a negative question)", "hi": "हाँ, बिल्कुल (नकारात्मक प्रश्न के जवाब में)", "pron": "सी", "ipa": "si", "pos": "adverb" },
-    { "fr": "la bibliothèque", "en": "library", "hi": "पुस्तकालय / लाइब्रेरी", "pron": "ला बी-ब्ली-यो-तैक", "ipa": "la biblijɔtɛk", "pos": "noun", "gender": "f", "lemma": "bibliothèque", "note": { "en": "Not a bookshop (that is une librairie).", "hi": "किताबों की दुकान नहीं (वह une librairie है)।" } },
-    { "fr": "le centre communautaire", "en": "community centre", "hi": "सामुदायिक केंद्र", "pron": "लö साँत्ग़ को-मü-नो-तैग़", "ipa": "lə sɑ̃tʁ kɔmynotɛʁ", "pos": "noun", "gender": "m", "lemma": "centre communautaire" },
-    { "fr": "le cours", "en": "class, course, lesson", "hi": "क्लास / कोर्स", "pron": "लö कूग़", "ipa": "lə kuʁ", "pos": "noun", "gender": "m", "lemma": "cours", "note": { "en": "Same form in the plural: les cours. The s is silent.", "hi": "बहुवचन में भी यही रूप: les cours। s नहीं बोला जाता।" } },
-    { "fr": "la carte", "en": "card", "hi": "कार्ड", "pron": "ला काग़्त", "ipa": "la kaʁt", "pos": "noun", "gender": "f", "lemma": "carte" },
-    { "fr": "gratuit / gratuite", "en": "free (no cost)", "hi": "मुफ़्त", "pron": "ग्ग़ा-तüई / ग्ग़ा-तüइत", "ipa": "ɡʁatɥi / ɡʁatɥit", "pos": "adjective", "lemma": "gratuit" },
-    { "fr": "emprunter", "en": "to borrow", "hi": "उधार लेना", "pron": "आँ-प्ग़ैँ-ते", "ipa": "ɑ̃pʁɛ̃te", "pos": "verb" },
-    { "fr": "jouer", "en": "to play", "hi": "खेलना / बजाना", "pron": "झ़ू-ए", "ipa": "ʒwe", "pos": "verb" },
+    { "fr": "la bibliothèque", "en": "library", "hi": "पुस्तकालय / लाइब्रेरी", "pron": "ला बी-ब्ली-यो-तेक", "ipa": "la biblijɔtɛk", "pos": "noun", "gender": "f", "lemma": "bibliothèque", "note": { "en": "Not a bookshop (that is une librairie).", "hi": "किताबों की दुकान नहीं (वह une librairie है)।" } },
+    { "fr": "le centre communautaire", "en": "community centre", "hi": "सामुदायिक केंद्र", "pron": "ल साँत्र को-म्यू-नो-तेर", "ipa": "lə sɑ̃tʁ kɔmynotɛʁ", "pos": "noun", "gender": "m", "lemma": "centre communautaire" },
+    { "fr": "le cours", "en": "class, course, lesson", "hi": "क्लास / कोर्स", "pron": "ल कूर", "ipa": "lə kuʁ", "pos": "noun", "gender": "m", "lemma": "cours", "note": { "en": "Same form in the plural: les cours. The s is silent.", "hi": "बहुवचन में भी यही रूप: les cours। s नहीं बोला जाता।" } },
+    { "fr": "la carte", "en": "card", "hi": "कार्ड", "pron": "ला कार्त", "ipa": "la kaʁt", "pos": "noun", "gender": "f", "lemma": "carte" },
+    { "fr": "gratuit / gratuite", "en": "free (no cost)", "hi": "मुफ़्त", "pron": "ग्रा-त्यूई / ग्रा-त्यूइत", "ipa": "ɡʁatɥi / ɡʁatɥit", "pos": "adjective", "lemma": "gratuit" },
+    { "fr": "emprunter", "en": "to borrow", "hi": "उधार लेना", "pron": "आँ-प्रैं-ते", "ipa": "ɑ̃pʁɛ̃te", "pos": "verb" },
+    { "fr": "jouer", "en": "to play", "hi": "खेलना / बजाना", "pron": "ज्वे", "ipa": "ʒwe", "pos": "verb" },
     { "fr": "écouter", "en": "to listen (to)", "hi": "सुनना", "pron": "ए-कू-ते", "ipa": "ekute", "pos": "verb", "note": { "en": "No 'to' needed: j'écoute la radio.", "hi": "'को' जैसा शब्द नहीं चाहिए: j'écoute la radio।" } },
-    { "fr": "chercher", "en": "to look for", "hi": "ढूँढना", "pron": "शैग़-शे", "ipa": "ʃɛʁʃe", "pos": "verb" },
-    { "fr": "le week-end", "en": "weekend", "hi": "सप्ताहांत / वीकेंड", "pron": "लö वी-कैन्द", "ipa": "lə wikɛnd", "pos": "noun", "gender": "m", "lemma": "week-end", "note": { "en": "In Québec you also hear 'la fin de semaine'.", "hi": "क्यूबेक में 'la fin de semaine' भी सुनाई देता है।" } },
+    { "fr": "chercher", "en": "to look for", "hi": "ढूँढना", "pron": "शेर-शे", "ipa": "ʃɛʁʃe", "pos": "verb" },
+    { "fr": "le week-end", "en": "weekend", "hi": "सप्ताहांत / वीकेंड", "pron": "ल वी-केन्द", "ipa": "lə wikɛnd", "pos": "noun", "gender": "m", "lemma": "week-end", "note": { "en": "In Québec you also hear 'la fin de semaine'.", "hi": "क्यूबेक में 'la fin de semaine' भी सुनाई देता है।" } },
     { "fr": "souvent", "en": "often", "hi": "अक्सर", "pron": "सू-वाँ", "ipa": "suvɑ̃", "pos": "adverb" }
   ],
   "phrases": [
-    { "fr": "Est-ce que vous parlez français ?", "en": "Do you speak French?", "hi": "क्या आप फ़्रेंच बोलते हैं?", "pron": "ऐस-कö वू पाग़-ले फ़्ग़ाँ-सै", "ipa": "ɛskə vu paʁle fʁɑ̃sɛ" },
-    { "fr": "Tu travailles le week-end ?", "en": "Do you work at the weekend?", "hi": "क्या तुम वीकेंड पर काम करते हो?", "pron": "तü त्ग़ा-वाय लö वी-कैन्द", "ipa": "ty tʁavaj lə wikɛnd" },
-    { "fr": "Qu'est-ce que tu aimes ?", "en": "What do you like?", "hi": "तुम्हें क्या पसंद है?", "pron": "कैस-कö तü ऐम", "ipa": "kɛskə ty ɛm" },
-    { "fr": "Est-ce qu'il y a un cours de français ?", "en": "Is there a French class?", "hi": "क्या फ़्रेंच की कोई क्लास है?", "pron": "ऐस-की-ल्या ऐँ कूग़ दö फ़्ग़ाँ-सै", "ipa": "ɛskilja ɛ̃ kuʁ də fʁɑ̃sɛ" },
-    { "fr": "Vous n'aimez pas le café ? — Si !", "en": "You don't like coffee? — Yes, I do!", "hi": "आपको कॉफ़ी पसंद नहीं? — है, बिल्कुल पसंद है!", "pron": "वू ने-मे पा लö का-फ़े — सी", "ipa": "vu neme pa lə kafe — si" },
-    { "fr": "Qu'est-ce que vous cherchez ?", "en": "What are you looking for?", "hi": "आप क्या ढूँढ रहे हैं?", "pron": "कैस-कö वू शैग़-शे", "ipa": "kɛskə vu ʃɛʁʃe" }
+    { "fr": "Est-ce que vous parlez français ?", "en": "Do you speak French?", "hi": "क्या आप फ़्रेंच बोलते हैं?", "pron": "एस-क वू पार-ले फ़्राँ-से", "ipa": "ɛskə vu paʁle fʁɑ̃sɛ" },
+    { "fr": "Tu travailles le week-end ?", "en": "Do you work at the weekend?", "hi": "क्या तुम वीकेंड पर काम करते हो?", "pron": "त्यू त्रा-वाय ल वी-केन्द", "ipa": "ty tʁavaj lə wikɛnd" },
+    { "fr": "Qu'est-ce que tu aimes ?", "en": "What do you like?", "hi": "तुम्हें क्या पसंद है?", "pron": "केस-क त्यू एम", "ipa": "kɛskə ty ɛm" },
+    { "fr": "Est-ce qu'il y a un cours de français ?", "en": "Is there a French class?", "hi": "क्या फ़्रेंच की कोई क्लास है?", "pron": "एस-की-ल्या ऐं कूर द फ़्राँ-से", "ipa": "ɛskilja ɛ̃ kuʁ də fʁɑ̃sɛ" },
+    { "fr": "Vous n'aimez pas le café ? — Si !", "en": "You don't like coffee? — Yes, I do!", "hi": "आपको कॉफ़ी पसंद नहीं? — है, बिल्कुल पसंद है!", "pron": "वू ने-मे पा ल का-फ़े — सी", "ipa": "vu neme pa lə kafe — si" },
+    { "fr": "Qu'est-ce que vous cherchez ?", "en": "What are you looking for?", "hi": "आप क्या ढूँढ रहे हैं?", "pron": "केस-क वू शेर-शे", "ipa": "kɛskə vu ʃɛʁʃe" }
   ],
   "grammar": {
     "title": { "en": "Yes/no questions, qu'est-ce que, and si", "hi": "हाँ/नहीं वाले प्रश्न, qu'est-ce que, और si" },
@@ -48,10 +48,10 @@
     },
     "examples": [
       { "fr": "Vous habitez ici ?", "en": "Do you live here?", "hi": "क्या आप यहाँ रहते हैं?", "pron": "वू ज़ा-बी-ते ई-सी" },
-      { "fr": "Est-ce que tu as des enfants ?", "en": "Do you have children?", "hi": "क्या तुम्हारे बच्चे हैं?", "pron": "ऐस-कö तü आ दे ज़ाँ-फ़ाँ" },
-      { "fr": "Est-ce qu'elle travaille le week-end ?", "en": "Does she work at the weekend?", "hi": "क्या वह वीकेंड पर काम करती है?", "pron": "ऐस-कैल त्ग़ा-वाय लö वी-कैन्द" },
-      { "fr": "Qu'est-ce que vous étudiez ?", "en": "What are you studying?", "hi": "आप क्या पढ़ रहे हैं?", "pron": "कैस-कö वू ज़े-तü-द्ये" },
-      { "fr": "Tu ne joues pas au cricket ? — Si, souvent !", "en": "Don't you play cricket? — Yes, often!", "hi": "तुम क्रिकेट नहीं खेलते? — खेलता हूँ, अक्सर!", "pron": "तü नö झ़ू पा ज़ो क्ग़ी-कैत — सी सू-वाँ" }
+      { "fr": "Est-ce que tu as des enfants ?", "en": "Do you have children?", "hi": "क्या तुम्हारे बच्चे हैं?", "pron": "एस-क त्यू आ दे ज़ाँ-फ़ाँ" },
+      { "fr": "Est-ce qu'elle travaille le week-end ?", "en": "Does she work at the weekend?", "hi": "क्या वह वीकेंड पर काम करती है?", "pron": "एस-केल त्रा-वाय ल वी-केन्द" },
+      { "fr": "Qu'est-ce que vous étudiez ?", "en": "What are you studying?", "hi": "आप क्या पढ़ रहे हैं?", "pron": "केस-क वू ज़े-त्यू-द्ये" },
+      { "fr": "Tu ne joues pas au cricket ? — Si, souvent !", "en": "Don't you play cricket? — Yes, often!", "hi": "तुम क्रिकेट नहीं खेलते? — खेलता हूँ, अक्सर!", "pron": "त्यू न जू पा ज़ो क्री-केत — सी सू-वाँ" }
     ],
     "pitfalls": [
       { "en": "Don't answer 'Oui' to a negative question when you mean yes. Tu n'es pas fatigué ? — Si, je suis fatigué.", "hi": "नकारात्मक प्रश्न का 'हाँ' वाला जवाब 'Oui' नहीं है। Tu n'es pas fatigué ? — Si, je suis fatigué।" },
@@ -67,9 +67,9 @@
     },
     "words": [
       { "fr": "Ça va. ↘ / Ça va ? ↗", "en": "I'm fine. / How are you?", "hi": "ठीक हूँ। / कैसे हो?", "pron": "सा वा ↘ / सा वा ↗" },
-      { "fr": "Tu travailles. ↘ / Tu travailles ? ↗", "en": "You work. / Do you work?", "hi": "तुम काम करते हो। / क्या तुम काम करते हो?", "pron": "तü त्ग़ा-वाय ↘ / तü त्ग़ा-वाय ↗" },
-      { "fr": "Est-ce que c'est gratuit ? ↗", "en": "Is it free?", "hi": "क्या यह मुफ़्त है?", "pron": "ऐस-कö सै ग्ग़ा-तüई ↗" },
-      { "fr": "Qu'est-ce que c'est ? ↘", "en": "What is it?", "hi": "यह क्या है?", "pron": "कैस-कö सै ↘" },
+      { "fr": "Tu travailles. ↘ / Tu travailles ? ↗", "en": "You work. / Do you work?", "hi": "तुम काम करते हो। / क्या तुम काम करते हो?", "pron": "त्यू त्रा-वाय ↘ / त्यू त्रा-वाय ↗" },
+      { "fr": "Est-ce que c'est gratuit ? ↗", "en": "Is it free?", "hi": "क्या यह मुफ़्त है?", "pron": "एस-क से ग्रा-त्यूई ↗" },
+      { "fr": "Qu'est-ce que c'est ? ↘", "en": "What is it?", "hi": "यह क्या है?", "pron": "केस-क से ↘" },
       { "fr": "Si ! ↘", "en": "Yes (I do)!", "hi": "हाँ, है!", "pron": "सी ↘" }
     ]
   },
@@ -89,11 +89,11 @@
       { "speaker": "Vikram", "voice": "m1", "fr": "Si, j'aime le hockey ! Est-ce qu'il y a un cours de cuisine ?", "en": "Yes, I do like hockey! Is there a cooking class?", "hi": "है, मुझे हॉकी पसंद है! क्या खाना बनाने की कोई क्लास है?" }
     ],
     "questions": [
-      { "q": { "en": "Where does Vikram live?" }, "options": ["Montréal", "Moncton", "Ottawa"], "answer": 1, "explanation": { "en": "'Oui, j'habite à Moncton.'", "hi": "'Oui, j'habite à Moncton.' — वह मॉन्कटन में रहता है।" }, "kind": "literal", "evidence": "Oui, j'habite à Moncton." },
-      { "q": { "en": "How well does Vikram speak French?" }, "options": ["Very well", "Not at all", "A little — he is studying it"], "answer": 2, "explanation": { "en": "'Un peu. J'étudie le français.'", "hi": "'Un peu. J'étudie le français.' — थोड़ी-सी, पढ़ रहा है।" }, "kind": "literal", "evidence": "Un peu. J'étudie le français." },
-      { "q": { "en": "What does Vikram love doing?" }, "options": ["Cooking", "Dancing", "Reading"], "answer": 0, "explanation": { "en": "'j'adore cuisiner'.", "hi": "'j'adore cuisiner' — खाना बनाना।" }, "kind": "literal", "evidence": "J'aime le cricket et j'adore cuisiner." },
-      { "q": { "en": "Does Vikram like hockey?" }, "options": ["No", "Yes", "He doesn't know hockey"], "answer": 1, "explanation": { "en": "He answers the negative question with 'Si' — yes, he does.", "hi": "वह नकारात्मक प्रश्न का जवाब 'Si' से देता है — हाँ, पसंद है।" }, "kind": "inference", "evidence": "Si, j'aime le hockey !" },
-      { "q": { "en": "What does Vikram ask at the end?" }, "options": ["If there is a hockey team", "If there is a cooking class", "If the centre is free"], "answer": 1, "explanation": { "en": "'Est-ce qu'il y a un cours de cuisine ?'", "hi": "'Est-ce qu'il y a un cours de cuisine ?' — खाना बनाने की क्लास।" }, "kind": "literal", "evidence": "Est-ce qu'il y a un cours de cuisine ?" }
+      { "q": { "en": "Where does Vikram live?", "hi": "Vikram कहाँ रहता है?" }, "options": ["Montréal", "Moncton", "Ottawa"], "answer": 1, "explanation": { "en": "'Oui, j'habite à Moncton.'", "hi": "'Oui, j'habite à Moncton.' — वह मॉन्कटन में रहता है।" }, "kind": "literal", "evidence": "Oui, j'habite à Moncton." },
+      { "q": { "en": "How well does Vikram speak French?", "hi": "Vikram फ़्रेंच कितनी अच्छी तरह बोलता है?" }, "options": ["Very well", "Not at all", "A little — he is studying it"], "optionsHi": ["बहुत अच्छी तरह", "बिलकुल नहीं", "थोड़ी — वह इसे सीख रहा है"], "answer": 2, "explanation": { "en": "'Un peu. J'étudie le français.'", "hi": "'Un peu. J'étudie le français.' — थोड़ी-सी, पढ़ रहा है।" }, "kind": "literal", "evidence": "Un peu. J'étudie le français." },
+      { "q": { "en": "What does Vikram love doing?", "hi": "Vikram को क्या करना बहुत पसंद है?" }, "options": ["Cooking", "Dancing", "Reading"], "optionsHi": ["खाना पकाना", "नाचना", "पढ़ना"], "answer": 0, "explanation": { "en": "'j'adore cuisiner'.", "hi": "'j'adore cuisiner' — खाना बनाना।" }, "kind": "literal", "evidence": "J'aime le cricket et j'adore cuisiner." },
+      { "q": { "en": "Does Vikram like hockey?", "hi": "क्या Vikram को हॉकी पसंद है?" }, "options": ["No", "Yes", "He doesn't know hockey"], "optionsHi": ["नहीं", "हाँ", "वह हॉकी को नहीं जानता"], "answer": 1, "explanation": { "en": "He answers the negative question with 'Si' — yes, he does.", "hi": "वह नकारात्मक प्रश्न का जवाब 'Si' से देता है — हाँ, पसंद है।" }, "kind": "inference", "evidence": "Si, j'aime le hockey !" },
+      { "q": { "en": "What does Vikram ask at the end?", "hi": "अंत में Vikram क्या पूछता है?" }, "options": ["If there is a hockey team", "If there is a cooking class", "If the centre is free"], "optionsHi": ["क्या वहाँ कोई हॉकी टीम है", "क्या वहाँ कोई कुकिंग क्लास है", "क्या केंद्र ख़ाली है"], "answer": 1, "explanation": { "en": "'Est-ce qu'il y a un cours de cuisine ?'", "hi": "'Est-ce qu'il y a un cours de cuisine ?' — खाना बनाने की क्लास।" }, "kind": "literal", "evidence": "Est-ce qu'il y a un cours de cuisine ?" }
     ],
     "dictation": ["Est-ce que vous parlez français ?", "Qu'est-ce que vous aimez ?", "Si, j'aime le hockey !"],
     "gapFill": { "text": "___ vous habitez à Moncton ? … ___ vous aimez ?", "answers": ["Est-ce que", "Qu'est-ce que"] }
@@ -105,11 +105,11 @@
       "hi": "साथी (या ऐप के साथी) से पाँच हाँ/नहीं वाले प्रश्न पूछिए: दो आवाज़ ऊपर ले जाकर, तीन est-ce que के साथ। साथी के प्रश्नों का जवाब oui, non या si से दीजिए।"
     },
     "prompts": [
-      { "fr": "Tu parles anglais ?", "en": "Do you speak English?", "hi": "क्या तुम अंग्रेज़ी बोलते हो?", "pron": "तü पाग़्ल आँ-ग्लै" },
-      { "fr": "Est-ce que tu habites ici ?", "en": "Do you live here?", "hi": "क्या तुम यहाँ रहते हो?", "pron": "ऐस-कö तü आ-बीत ई-सी" },
-      { "fr": "Est-ce que tu as des frères ?", "en": "Do you have brothers?", "hi": "क्या तुम्हारे भाई हैं?", "pron": "ऐस-कö तü आ दे फ़्ग़ैग़" },
-      { "fr": "Est-ce que tu travailles le week-end ?", "en": "Do you work at the weekend?", "hi": "क्या तुम वीकेंड पर काम करते हो?", "pron": "ऐस-कö तü त्ग़ा-वाय लö वी-कैन्द", "model": "Non, je ne travaille pas le week-end." },
-      { "fr": "Tu n'aimes pas le thé ? — Si, j'aime le thé !", "en": "You don't like tea? — Yes, I do!", "hi": "तुम्हें चाय पसंद नहीं? — है, मुझे चाय पसंद है!", "pron": "तü नैम पा लö ते — सी झ़ैम लö ते" }
+      { "fr": "Tu parles anglais ?", "en": "Do you speak English?", "hi": "क्या तुम अंग्रेज़ी बोलते हो?", "pron": "त्यू पार्ल आँ-ग्ले" },
+      { "fr": "Est-ce que tu habites ici ?", "en": "Do you live here?", "hi": "क्या तुम यहाँ रहते हो?", "pron": "एस-क त्यू आ-बीत ई-सी" },
+      { "fr": "Est-ce que tu as des frères ?", "en": "Do you have brothers?", "hi": "क्या तुम्हारे भाई हैं?", "pron": "एस-क त्यू आ दे फ़्रेर" },
+      { "fr": "Est-ce que tu travailles le week-end ?", "en": "Do you work at the weekend?", "hi": "क्या तुम वीकेंड पर काम करते हो?", "pron": "एस-क त्यू त्रा-वाय ल वी-केन्द", "model": "Non, je ne travaille pas le week-end." },
+      { "fr": "Tu n'aimes pas le thé ? — Si, j'aime le thé !", "en": "You don't like tea? — Yes, I do!", "hi": "तुम्हें चाय पसंद नहीं? — है, मुझे चाय पसंद है!", "pron": "त्यू नेम पा ल ते — सी जेम ल ते" }
     ],
     "tip": {
       "en": "Exaggerate the rise at first, like a surprised question. Your ear will learn the melody.",
@@ -125,10 +125,10 @@
       "hi": "मोहल्ले की लाइब्रेरी — अक्सर पूछे जाने वाले प्रश्न\nक्या कार्ड मुफ़्त है? हाँ, कार्ड मुफ़्त है।\nक्या फ़िल्में उधार ले सकते हैं? हाँ, फ़िल्में और किताबें।\nक्या फ़्रेंच की क्लासें हैं? हाँ, वीकेंड पर।\nबच्चों के लिए क्या है? किताबें, खेल और संगीत।\nक्या यहाँ कैफ़े है? नहीं, कैफ़े नहीं है।"
     },
     "questions": [
-      { "q": { "en": "How much does the library card cost?" }, "options": ["Nothing — it's free", "Ten dollars", "It depends on age"], "answer": 0, "explanation": { "en": "'Oui, la carte est gratuite.'", "hi": "'Oui, la carte est gratuite.' — कार्ड मुफ़्त है।" }, "kind": "literal", "evidence": "Oui, la carte est gratuite." },
-      { "q": { "en": "When are the French classes?" }, "options": ["Every evening", "At the weekend", "There are none"], "answer": 1, "explanation": { "en": "'Oui, le week-end.'", "hi": "'Oui, le week-end.' — वीकेंड पर।" }, "kind": "literal", "evidence": "Est-ce qu'il y a des cours de français ? Oui, le week-end." },
-      { "q": { "en": "Can you buy a coffee at the library?" }, "options": ["Yes, at the café", "Only at the weekend", "No, there is no café"], "answer": 2, "explanation": { "en": "'Non, il n'y a pas de café.'", "hi": "'Non, il n'y a pas de café.' — कैफ़े नहीं है।" }, "kind": "inference", "evidence": "Non, il n'y a pas de café." },
-      { "q": { "en": "Which question asks 'what'?" }, "options": ["Est-ce que la carte est gratuite ?", "Qu'est-ce qu'il y a pour les enfants ?", "Est-ce qu'il y a un café ?"], "answer": 1, "explanation": { "en": "qu'est-ce que = what. The others are yes/no questions.", "hi": "qu'est-ce que = क्या (what)। बाक़ी हाँ/नहीं वाले प्रश्न हैं।" }, "kind": "grammar", "evidence": "Qu'est-ce qu'il y a pour les enfants ?" }
+      { "q": { "en": "How much does the library card cost?", "hi": "लाइब्रेरी कार्ड की कीमत कितनी है?" }, "options": ["Nothing — it's free", "Ten dollars", "It depends on age"], "optionsHi": ["कुछ नहीं — यह मुफ़्त है", "दस डॉलर", "उम्र पर निर्भर करता है"], "answer": 0, "explanation": { "en": "'Oui, la carte est gratuite.'", "hi": "'Oui, la carte est gratuite.' — कार्ड मुफ़्त है।" }, "kind": "literal", "evidence": "Oui, la carte est gratuite." },
+      { "q": { "en": "When are the French classes?", "hi": "फ़्रेंच कक्षाएँ कब होती हैं?" }, "options": ["Every evening", "At the weekend", "There are none"], "optionsHi": ["हर शाम", "सप्ताहांत में", "कोई नहीं है"], "answer": 1, "explanation": { "en": "'Oui, le week-end.'", "hi": "'Oui, le week-end.' — वीकेंड पर।" }, "kind": "literal", "evidence": "Est-ce qu'il y a des cours de français ? Oui, le week-end." },
+      { "q": { "en": "Can you buy a coffee at the library?", "hi": "क्या लाइब्रेरी में कॉफ़ी मिल सकती है?" }, "options": ["Yes, at the café", "Only at the weekend", "No, there is no café"], "optionsHi": ["हाँ, कैफ़े में", "केवल सप्ताहांत में", "नहीं, वहाँ कोई कैफ़े नहीं है"], "answer": 2, "explanation": { "en": "'Non, il n'y a pas de café.'", "hi": "'Non, il n'y a pas de café.' — कैफ़े नहीं है।" }, "kind": "inference", "evidence": "Non, il n'y a pas de café." },
+      { "q": { "en": "Which question asks 'what'?", "hi": "कौन-सा प्रश्न 'क्या' (what) पूछता है?" }, "options": ["Est-ce que la carte est gratuite ?", "Qu'est-ce qu'il y a pour les enfants ?", "Est-ce qu'il y a un café ?"], "answer": 1, "explanation": { "en": "qu'est-ce que = what. The others are yes/no questions.", "hi": "qu'est-ce que = क्या (what)। बाक़ी हाँ/नहीं वाले प्रश्न हैं।" }, "kind": "grammar", "evidence": "Qu'est-ce qu'il y a pour les enfants ?" }
     ]
   },
   "writing": {
@@ -144,9 +144,9 @@
       { "en": "End every question with a space and ?", "hi": "हर प्रश्न के अंत में जगह छोड़कर ? लगाइए।" }
     ],
     "usefulPhrases": [
-      { "fr": "Est-ce que vous … ?", "en": "Do you … ?", "hi": "क्या आप … ?", "pron": "ऐस-कö वू" },
-      { "fr": "Qu'est-ce que vous aimez ?", "en": "What do you like?", "hi": "आपको क्या पसंद है?", "pron": "कैस-कö वू ज़े-मे" },
-      { "fr": "Vous parlez … ?", "en": "Do you speak … ?", "hi": "क्या आप … बोलते हैं?", "pron": "वू पाग़-ले" }
+      { "fr": "Est-ce que vous … ?", "en": "Do you … ?", "hi": "क्या आप … ?", "pron": "एस-क वू" },
+      { "fr": "Qu'est-ce que vous aimez ?", "en": "What do you like?", "hi": "आपको क्या पसंद है?", "pron": "केस-क वू ज़े-मे" },
+      { "fr": "Vous parlez … ?", "en": "Do you speak … ?", "hi": "क्या आप … बोलते हैं?", "pron": "वू पार-ले" }
     ],
     "model": { "fr": "Est-ce que vous habitez à Toronto ? Est-ce que vous parlez hindi ? Vous avez des enfants ? Qu'est-ce que vous aimez ? Est-ce que vous travaillez le week-end ?", "en": "Do you live in Toronto? Do you speak Hindi? Do you have children? What do you like? Do you work at the weekend?" },
     "checklist": [
@@ -158,12 +158,12 @@
   "review": {
     "fromDays": [8, 9, 10],
     "items": [
-      { "fr": "Je n'aime pas le café.", "en": "I don't like coffee.", "hi": "मुझे कॉफ़ी पसंद नहीं।", "pron": "झ़ö नैम पा लö का-फ़े" },
-      { "fr": "J'adore la musique.", "en": "I love music.", "hi": "मुझे संगीत बहुत पसंद है।", "pron": "झ़ा-दॉग़ ला मü-ज़ीक" },
-      { "fr": "Moi non plus.", "en": "Me neither.", "hi": "मुझे भी नहीं।", "pron": "मवा नोँ प्लü" },
-      { "fr": "Vous travaillez où ?", "en": "Where do you work?", "hi": "आप कहाँ काम करते हैं?", "pron": "वू त्ग़ा-वा-ये ऊ" },
-      { "fr": "Il n'y a pas de tableau.", "en": "There is no board.", "hi": "कोई बोर्ड नहीं है।", "pron": "ईल नी-या पा दö ता-ब्लो" },
-      { "fr": "Ce sont des livres.", "en": "They are books.", "hi": "ये किताबें हैं।", "pron": "सö सोँ दे लीव्ग़" }
+      { "fr": "Je n'aime pas le café.", "en": "I don't like coffee.", "hi": "मुझे कॉफ़ी पसंद नहीं।", "pron": "ज नेम पा ल का-फ़े" },
+      { "fr": "J'adore la musique.", "en": "I love music.", "hi": "मुझे संगीत बहुत पसंद है।", "pron": "जा-दॉर ला म्यू-ज़ीक" },
+      { "fr": "Moi non plus.", "en": "Me neither.", "hi": "मुझे भी नहीं।", "pron": "मवा नों प्ल्यू" },
+      { "fr": "Vous travaillez où ?", "en": "Where do you work?", "hi": "आप कहाँ काम करते हैं?", "pron": "वू त्रा-वा-ये ऊ" },
+      { "fr": "Il n'y a pas de tableau.", "en": "There is no board.", "hi": "कोई बोर्ड नहीं है।", "pron": "ईल नी-या पा द ता-ब्लो" },
+      { "fr": "Ce sont des livres.", "en": "They are books.", "hi": "ये किताबें हैं।", "pron": "स सों दे लीव्र" }
     ]
   },
   "assessment": [

@@ -28,7 +28,7 @@
       "fr": "le mot-clé",
       "en": "keyword",
       "hi": "मुख्य शब्द",
-      "pron": "लö मो-क्ले",
+      "pron": "ल मो-क्ले",
       "ipa": "lə mokle",
       "pos": "noun",
       "gender": "m",
@@ -38,7 +38,7 @@
       "fr": "repérer",
       "en": "to spot, to locate",
       "hi": "पहचानना / ढूँढ निकालना",
-      "pron": "ग़ö-पे-ग़े",
+      "pron": "र-पे-रे",
       "ipa": "ʁəpeʁe",
       "pos": "verb"
     },
@@ -46,7 +46,7 @@
       "fr": "le piège",
       "en": "trap",
       "hi": "जाल / फंदा",
-      "pron": "लö प्यैझ़",
+      "pron": "ल प्येज",
       "ipa": "lə pjɛʒ",
       "pos": "noun",
       "gender": "m",
@@ -64,7 +64,7 @@
       "fr": "la consigne",
       "en": "instruction (of a task)",
       "hi": "निर्देश",
-      "pron": "ला कोँ-सीन्य",
+      "pron": "ला कों-सीन्य",
       "ipa": "la kɔ̃siɲ",
       "pos": "noun",
       "gender": "f",
@@ -78,7 +78,7 @@
       "fr": "reporté",
       "en": "postponed",
       "hi": "आगे के लिए टाला गया",
-      "pron": "ग़ö-पॉग़-ते",
+      "pron": "र-पॉर-ते",
       "ipa": "ʁəpɔʁte",
       "pos": "adjective",
       "note": {
@@ -92,31 +92,31 @@
       "fr": "Je lis d'abord la question.",
       "en": "I read the question first.",
       "hi": "मैं पहले सवाल पढ़ता हूँ।",
-      "pron": "झ़ö ली दा-बॉग़ ला कैस-त्योँ"
+      "pron": "ज ली दा-बॉर ला केस-त्यों"
     },
     {
       "fr": "J'élimine les réponses impossibles.",
       "en": "I rule out the impossible answers.",
       "hi": "मैं असंभव जवाब हटा देता हूँ।",
-      "pron": "झ़े-ली-मीन ले ग़े-पोँस ऐँ-पो-सीब्ल"
+      "pron": "जे-ली-मीन ले रे-पोंस ऐं-पो-सीब्ल"
     },
     {
       "fr": "Le texte dit le contraire.",
       "en": "The text says the opposite.",
       "hi": "पाठ इसका उलटा कहता है।",
-      "pron": "लö तैक्स्त दी लö कोँ-त्ग़ैग़"
+      "pron": "ल तेक्स्त दी ल कों-त्रेर"
     },
     {
       "fr": "C'est un piège : le mot est le même, mais le sens change.",
       "en": "It's a trap: the word is the same, but the meaning changes.",
       "hi": "यह जाल है: शब्द वही है, पर मतलब बदल जाता है।",
-      "pron": "सै तैँ प्यैझ़ लö मो ए लö मैम मै लö साँस शाँझ़"
+      "pron": "से तैं प्येज ल मो ए ल मेम मे ल साँस शाँज"
     },
     {
       "fr": "La sortie est reportée au mardi suivant.",
       "en": "The outing is postponed to the following Tuesday.",
       "hi": "सैर अगले मंगलवार तक टाल दी गई है।",
-      "pron": "ला सॉग़-ती ए ग़ö-पॉग़-ते ओ माग़-दी स्üई-वाँ"
+      "pron": "ला सॉर-ती ए र-पॉर-ते ओ मार-दी स्यूई-वाँ"
     }
   ],
   "grammar": {
@@ -133,31 +133,31 @@
         "fr": "Les machines n'acceptent que les pièces de 1 $ et 2 $.",
         "en": "The machines only accept $1 and $2 coins.",
         "hi": "मशीनें सिर्फ़ 1 और 2 डॉलर के सिक्के लेती हैं।",
-        "pron": "ले मा-शीन ना-क्सैप्त कö ले प्यैस दö ऐँ दो-लाग़ ए दö दो-लाग़"
+        "pron": "ले मा-शीन ना-क्सेप्त क ले प्येस द ऐं दो-लार ए द दो-लार"
       },
       {
         "fr": "La réunion n'aura pas lieu au gymnase, mais à la bibliothèque.",
         "en": "The meeting won't be in the gym, but in the library.",
         "hi": "बैठक जिम में नहीं, बल्कि लाइब्रेरी में होगी।",
-        "pron": "ला ग़े-ü-न्योँ नो-ग़ा पा ल्यö ओ झ़ीम-नाज़ मै आ ला बि-ब्ली-यो-तैक"
+        "pron": "ला रे-यू-न्यों नो-रा पा ल्य ओ जीम-नाज़ मे आ ला बि-ब्ली-यो-तेक"
       },
       {
         "fr": "Malgré la tempête, l'école reste ouverte.",
         "en": "Despite the storm, the school stays open.",
         "hi": "तूफ़ान के बावजूद स्कूल खुला रहता है।",
-        "pron": "माल-ग्रे ला ताँ-पैत ले-कॉल ग़ैस्त ऊ-वैग़्त"
+        "pron": "माल-ग्रे ला ताँ-पेत ले-कॉल रेस्त ऊ-वेर्त"
       },
       {
         "fr": "J'attends l'autobus depuis vingt minutes.",
         "en": "I've been waiting for the bus for twenty minutes.",
         "hi": "मैं बीस मिनट से बस का इंतज़ार कर रहा हूँ।",
-        "pron": "झ़ा-ताँ लो-तो-ब्üस दö-प्üई वैँ मी-न्üत"
+        "pron": "जा-ताँ लो-तो-ब्यूस द-प्यूई वैं मी-न्यूत"
       },
       {
         "fr": "Rappelez-moi au poste vingt-trois avant seize heures.",
         "en": "Call me back at extension 23 before 4 p.m.",
         "hi": "शाम 4 बजे से पहले मुझे एक्सटेंशन 23 पर दोबारा फ़ोन कीजिए।",
-        "pron": "ग़ा-प्ले म्वा ओ पॉस्त वैँत-त्ग़्वा आ-वाँ सै-ज़öग़"
+        "pron": "रा-प्ले म्वा ओ पॉस्त वैंत-त्र्वा आ-वाँ से-ज़र"
       }
     ],
     "pitfalls": [
@@ -174,43 +174,43 @@
   "pronunciation": {
     "focus": "Fast-speech review: numbers, times and reductions",
     "tip": {
-      "en": "In fast speech, 'il y a' often sounds like 'y'a' (या), 'je ne sais pas' like 'j'sais pas' (श्से पा), and times are linked: seize‿heures (सै-ज़öग़). Recognise these forms, even if you speak more carefully.",
-      "hi": "तेज़ बोली में 'il y a' अक्सर 'y'a' (या) जैसा, 'je ne sais pas' 'j'sais pas' (श्से पा) जैसा सुनाई देता है, और समय जुड़कर बोले जाते हैं: seize‿heures (सै-ज़öग़)। इन्हें पहचानिए, भले ही आप ख़ुद ध्यान से बोलें।"
+      "en": "In fast speech, 'il y a' often sounds like 'y'a' (या), 'je ne sais pas' like 'j'sais pas' (श्से पा), and times are linked: seize‿heures (से-ज़र). Recognise these forms, even if you speak more carefully.",
+      "hi": "तेज़ बोली में 'il y a' अक्सर 'y'a' (या) जैसा, 'je ne sais pas' 'j'sais pas' (श्से पा) जैसा सुनाई देता है, और समय जुड़कर बोले जाते हैं: seize‿heures (से-ज़र)। इन्हें पहचानिए, भले ही आप ख़ुद ध्यान से बोलें।"
     },
     "words": [
       {
         "fr": "seize heures",
         "en": "4 p.m. (16:00)",
         "hi": "शाम 4 बजे",
-        "pron": "सै-ज़öग़",
+        "pron": "से-ज़र",
         "ipa": "sɛzœʁ"
       },
       {
         "fr": "il y a",
         "en": "there is / ago",
         "hi": "है / पहले",
-        "pron": "इल या (तेज़ी में: या)",
+        "pron": "इल या",
         "ipa": "il i a / ja"
       },
       {
         "fr": "vingt-trois",
         "en": "23",
         "hi": "तेईस",
-        "pron": "वैँत-त्ग़्वा",
+        "pron": "वैंत-त्र्वा",
         "ipa": "vɛ̃ttʁwa"
       },
       {
         "fr": "dix-sept heures",
         "en": "5 p.m. (17:00)",
         "hi": "शाम 5 बजे",
-        "pron": "दी-सै-तöग़",
+        "pron": "दी-से-तर",
         "ipa": "disɛtœʁ"
       },
       {
         "fr": "trente minutes",
         "en": "thirty minutes",
         "hi": "तीस मिनट",
-        "pron": "त्ग़ाँत मी-न्üत",
+        "pron": "त्राँत मी-न्यूत",
         "ipa": "tʁɑ̃t minyt"
       }
     ]
@@ -232,7 +232,7 @@
         "voice": "f1",
         "fr": "Bonjour, ici Hélène Gagnon, secrétaire de l'école Sainte-Anne. Je laisse un message pour les parents de Riya Kumar.",
         "en": "Hello, this is Hélène Gagnon, secretary at Sainte-Anne school. I'm leaving a message for Riya Kumar's parents.",
-        "hi": "नमस्ते, मैं हेलेन गान्योँ, सां-ताँन स्कूल की सचिव बोल रही हूँ। यह संदेश रिया कुमार के माता-पिता के लिए है।"
+        "hi": "नमस्ते, मैं हेलेन गान्यों, सां-ताँन स्कूल की सचिव बोल रही हूँ। यह संदेश रिया कुमार के माता-पिता के लिए है।"
       },
       {
         "speaker": "Mme Gagnon",
@@ -308,7 +308,8 @@
     "questions": [
       {
         "q": {
-          "en": "Why is the museum outing changed?"
+          "en": "Why is the museum outing changed?",
+          "hi": "संग्रहालय की सैर क्यों बदली गई है?"
         },
         "options": [
           "The bus is broken",
@@ -322,11 +323,18 @@
           "hi": "'à cause de la tempête de neige annoncée' — बताए गए बर्फ़ीले तूफ़ान की वजह से।"
         },
         "kind": "literal",
-        "evidence": "à cause de la tempête de neige annoncée"
+        "evidence": "à cause de la tempête de neige annoncée",
+        "optionsHi": [
+          "बस खराब है",
+          "संग्रहालय बंद है",
+          "बर्फ़ीले तूफ़ान का पूर्वानुमान है",
+          "पर्याप्त अभिभावक नहीं हैं"
+        ]
       },
       {
         "q": {
-          "en": "What happens to the outing?"
+          "en": "What happens to the outing?",
+          "hi": "सैर का क्या होगा?"
         },
         "options": [
           "It is moved to the following Tuesday",
@@ -340,11 +348,18 @@
           "hi": "'reportée au mardi suivant' — टाली गई, रद्द नहीं।"
         },
         "kind": "literal",
-        "evidence": "La sortie au musée prévue jeudi est reportée au mardi suivant"
+        "evidence": "La sortie au musée prévue jeudi est reportée au mardi suivant",
+        "optionsHi": [
+          "वह अगले मंगलवार तक टाल दी गई है",
+          "वह योजना के अनुसार गुरुवार को होगी",
+          "वह अगले गुरुवार तक टाल दी गई है",
+          "वह रद्द कर दी गई है"
+        ]
       },
       {
         "q": {
-          "en": "What must parents do if they have a question?"
+          "en": "What must parents do if they have a question?",
+          "hi": "अगर अभिभावकों का कोई सवाल हो तो उन्हें क्या करना चाहिए?"
         },
         "options": [
           "Come to the school on Tuesday",
@@ -358,11 +373,18 @@
           "hi": "'rappelez-moi … poste vingt-trois, avant seize heures' — एक्सटेंशन 23, शाम 4 से पहले।"
         },
         "kind": "literal",
-        "evidence": "poste vingt-trois, avant seize heures"
+        "evidence": "poste vingt-trois, avant seize heures",
+        "optionsHi": [
+          "मंगलवार को स्कूल आना चाहिए",
+          "शाम 4 बजे के बाद फ़ोन करना चाहिए",
+          "ईमेल भेजना चाहिए",
+          "शाम 4 बजे से पहले एक्सटेंशन 23 पर फ़ोन करना चाहिए"
+        ]
       },
       {
         "q": {
-          "en": "Why does the store close early tonight?"
+          "en": "Why does the store close early tonight?",
+          "hi": "आज रात दुकान जल्दी बंद क्यों हो रही है?"
         },
         "options": [
           "For renovations",
@@ -376,11 +398,18 @@
           "hi": "'pour l'inventaire' = स्टॉक गिनती के लिए।"
         },
         "kind": "literal",
-        "evidence": "notre magasin fermera exceptionnellement à dix-sept heures ce soir pour l'inventaire"
+        "evidence": "notre magasin fermera exceptionnellement à dix-sept heures ce soir pour l'inventaire",
+        "optionsHi": [
+          "नवीनीकरण के लिए",
+          "स्टॉक की गिनती के लिए",
+          "तूफ़ान की वजह से",
+          "छुट्टी की वजह से"
+        ]
       },
       {
         "q": {
-          "en": "How much time do Raj and Chloé have to shop today?"
+          "en": "How much time do Raj and Chloé have to shop today?",
+          "hi": "आज Raj और Chloé के पास खरीदारी के लिए कितना समय है?"
         },
         "options": [
           "Four and a half hours",
@@ -394,11 +423,18 @@
           "hi": "'on n'a que trente minutes' — ne … que = सिर्फ़।"
         },
         "kind": "grammar",
-        "evidence": "On n'a que trente minutes."
+        "evidence": "On n'a que trente minutes.",
+        "optionsHi": [
+          "साढ़े चार घंटे",
+          "पाँच मिनट",
+          "तीस मिनट",
+          "एक घंटा"
+        ]
       },
       {
         "q": {
-          "en": "Why is Chloé's plan for tomorrow possible?"
+          "en": "Why is Chloé's plan for tomorrow possible?",
+          "hi": "Chloé की कल की योजना संभव क्यों है?"
         },
         "options": [
           "The store closes at 9 p.m. on weekdays",
@@ -412,7 +448,13 @@
           "hi": "वह लगभग शाम 6 बजे ख़ाली है, और हफ़्ते के दिनों में दुकान रात 9 बजे बंद होती है।"
         },
         "kind": "inference",
-        "evidence": "en semaine ils ferment à vingt et une heures"
+        "evidence": "en semaine ils ferment à vingt et une heures",
+        "optionsHi": [
+          "दुकान कार्यदिवसों में रात 9 बजे बंद होती है",
+          "कल उसे काम पर नहीं जाना है",
+          "Raj अकेला जाएगा",
+          "दुकान शाम 6 बजे खुलती है"
+        ]
       }
     ],
     "dictation": [
@@ -440,25 +482,25 @@
         "fr": "Je choisis la réponse B, parce que le message dit « reportée au mardi suivant ».",
         "en": "I choose answer B, because the message says 'postponed to the following Tuesday'.",
         "hi": "मैं जवाब B चुनता हूँ, क्योंकि संदेश में यही कहा गया है (reportée au mardi suivant)।",
-        "pron": "झ़ö श्वा ला ग़े-पोँस बे पाग़स कö लö मे-साझ़ दी ग़ö-पॉग़-ते ओ माग़-दी स्üई-वाँ"
+        "pron": "ज श्वा ला रे-पोंस बे पारस क ल मे-साज दी र-पॉर-ते ओ मार-दी स्यूई-वाँ"
       },
       {
         "fr": "La réponse A est un piège : la sortie n'est pas annulée.",
         "en": "Answer A is a trap: the outing is not cancelled.",
         "hi": "जवाब A एक जाल है: सैर रद्द नहीं हुई है।",
-        "pron": "ला ग़े-पोँस आ ए तैँ प्यैझ़ ला सॉग़-ती नै पा ज़ा-न्ü-ले"
+        "pron": "ला रे-पोंस आ ए तैं प्येज ला सॉर-ती ने पा ज़ा-न्यू-ले"
       },
       {
         "fr": "Le mot-clé, c'est « que » : ils n'ont que trente minutes.",
         "en": "The keyword is 'que': they only have thirty minutes.",
         "hi": "मुख्य शब्द 'que' है: उनके पास सिर्फ़ तीस मिनट हैं।",
-        "pron": "लö मो-क्ले सै कö इल नोँ कö त्ग़ाँत मी-न्üत"
+        "pron": "ल मो-क्ले से क इल नों क त्राँत मी-न्यूत"
       },
       {
         "fr": "J'ai éliminé « quatre heures et demie », parce que c'est l'heure actuelle.",
         "en": "I ruled out 'half past four' because it's the current time.",
         "hi": "मैंने 'साढ़े चार' को हटा दिया, क्योंकि यह अभी का समय है।",
-        "pron": "झ़े ए-ली-मी-ने कात्ग़ öग़ ए दö-मी पाग़स कö सै लöग़ आक-त्üऐल"
+        "pron": "जे ए-ली-मी-ने कात्र अर ए द-मी पारस क से लर आक-त्यूएल"
       }
     ],
     "tip": {
@@ -477,7 +519,8 @@
     "questions": [
       {
         "q": {
-          "en": "Document A: Where will the parents' meeting take place?"
+          "en": "Document A: Where will the parents' meeting take place?",
+          "hi": "दस्तावेज़ A: अभिभावकों की बैठक कहाँ होगी?"
         },
         "options": [
           "In the gym",
@@ -491,11 +534,18 @@
           "hi": "'n'aura pas lieu au gymnase, mais à la bibliothèque' — जिम पुराना कमरा है।"
         },
         "kind": "literal",
-        "evidence": "n'aura pas lieu au gymnase, mais à la bibliothèque de l'école"
+        "evidence": "n'aura pas lieu au gymnase, mais à la bibliothèque de l'école",
+        "optionsHi": [
+          "जिम में",
+          "स्कूल के पुस्तकालय में",
+          "डे-केयर के कमरे में",
+          "ऑनलाइन"
+        ]
       },
       {
         "q": {
-          "en": "Document A: What must parents do by 4 November?"
+          "en": "Document A: What must parents do by 4 November?",
+          "hi": "दस्तावेज़ A: अभिभावकों को 4 नवंबर तक क्या करना होगा?"
         },
         "options": [
           "Bring their child",
@@ -509,11 +559,18 @@
           "hi": "'Merci de confirmer votre présence avant le lundi 4 novembre' — उपस्थिति की पुष्टि।"
         },
         "kind": "literal",
-        "evidence": "Merci de confirmer votre présence avant le lundi 4 novembre."
+        "evidence": "Merci de confirmer votre présence avant le lundi 4 novembre.",
+        "optionsHi": [
+          "अपने बच्चे को साथ लाना",
+          "पुस्तकालय को फ़ोन करना",
+          "डे-केयर का शुल्क चुकाना",
+          "पुष्टि करना कि वे आएँगे या नहीं"
+        ]
       },
       {
         "q": {
-          "en": "Document B: You arrive at 22:00 with dirty clothes. What happens?"
+          "en": "Document B: You arrive at 22:00 with dirty clothes. What happens?",
+          "hi": "दस्तावेज़ B: आप रात 22:00 बजे गंदे कपड़े लेकर पहुँचते हैं। क्या होता है?"
         },
         "options": [
           "You cannot start a wash; the last one is at 21:30",
@@ -527,11 +584,18 @@
           "hi": "यह रात 11 बजे तक खुला है, पर आख़िरी धुलाई 9:30 बजे है।"
         },
         "kind": "inference",
-        "evidence": "Dernier lavage : 21 h 30."
+        "evidence": "Dernier lavage : 21 h 30.",
+        "optionsHi": [
+          "आप धुलाई शुरू नहीं कर सकते; आखिरी धुलाई 21:30 बजे होती है",
+          "आप 22:00 बजे के बाद केवल ड्रायर इस्तेमाल कर सकते हैं",
+          "लॉन्ड्री बंद है",
+          "आप कपड़े धो सकते हैं; वह 23:00 बजे बंद होती है"
+        ]
       },
       {
         "q": {
-          "en": "Document B: How can you pay?"
+          "en": "Document B: How can you pay?",
+          "hi": "दस्तावेज़ B: आप भुगतान कैसे कर सकते हैं?"
         },
         "options": [
           "Cash to the staff",
@@ -545,11 +609,18 @@
           "hi": "'n'acceptent que les pièces de 1 $ et 2 $ et les cartes de débit' — सिर्फ़ ये।"
         },
         "kind": "grammar",
-        "evidence": "Les machines n'acceptent que les pièces de 1 $ et 2 $ et les cartes de débit."
+        "evidence": "Les machines n'acceptent que les pièces de 1 $ et 2 $ et les cartes de débit.",
+        "optionsHi": [
+          "कर्मचारियों को नकद देकर",
+          "किसी भी सिक्के या नोट से",
+          "$1 या $2 के सिक्कों से या डेबिट कार्ड से",
+          "केवल क्रेडिट कार्ड से"
+        ]
       },
       {
         "q": {
-          "en": "Document C: What is Neha asking Aman?"
+          "en": "Document C: What is Neha asking Aman?",
+          "hi": "दस्तावेज़ C: Neha, Aman से क्या कह रही है?"
         },
         "options": [
           "To cancel the class",
@@ -563,11 +634,18 @@
           "hi": "शनिवार की क्लास रद्द है; भरपाई रविवार सुबह 10 बजे है: 'Tu peux l'emmener ?'"
         },
         "kind": "inference",
-        "evidence": "Il y a une séance de rattrapage dimanche à 10 h. Tu peux l'emmener ?"
+        "evidence": "Il y a une séance de rattrapage dimanche à 10 h. Tu peux l'emmener ?",
+        "optionsHi": [
+          "कक्षा रद्द कर दे",
+          "रविवार को 10 बजे Kabir को तैराकी के लिए ले जाए",
+          "शनिवार को Kabir को तैराकी के लिए ले जाए",
+          "उसकी जगह काम पर चला जाए"
+        ]
       },
       {
         "q": {
-          "en": "Document D: It rains all weekend on 12–13 October. What happens?"
+          "en": "Document D: It rains all weekend on 12–13 October. What happens?",
+          "hi": "दस्तावेज़ D: 12–13 अक्टूबर को पूरे सप्ताहांत बारिश होती है। क्या होता है?"
         },
         "options": [
           "Only bikes are sold",
@@ -581,7 +659,13 @@
           "hi": "'remise à la fin de semaine suivante' = अगले सप्ताहांत तक टाली गई।"
         },
         "kind": "literal",
-        "evidence": "En cas de pluie, la vente est remise à la fin de semaine suivante."
+        "evidence": "En cas de pluie, la vente est remise à la fin de semaine suivante.",
+        "optionsHi": [
+          "केवल साइकिलें बेची जाती हैं",
+          "बिक्री रद्द हो जाती है",
+          "बिक्री घर के अंदर होती है",
+          "बिक्री अगले सप्ताहांत तक टाल दी जाती है"
+        ]
       }
     ]
   },
@@ -608,19 +692,19 @@
         "fr": "Il faut lire la question avant le document.",
         "en": "You must read the question before the document.",
         "hi": "दस्तावेज़ से पहले सवाल पढ़ना चाहिए।",
-        "pron": "इल फ़ो लीग़ ला कैस-त्योँ आ-वाँ लö दो-क्ü-माँ"
+        "pron": "इल फ़ो लीर ला केस-त्यों आ-वाँ ल दो-क्यू-माँ"
       },
       {
         "fr": "Je ne dois pas laisser de réponse vide.",
         "en": "I mustn't leave any answer blank.",
         "hi": "मुझे कोई जवाब ख़ाली नहीं छोड़ना है।",
-        "pron": "झ़ö नö द्वा पा लै-से दö ग़े-पोँस वीद"
+        "pron": "ज न द्वा पा ले-से द रे-पोंस वीद"
       },
       {
         "fr": "Attention aux pièges !",
         "en": "Watch out for traps!",
         "hi": "जालों से सावधान!",
-        "pron": "आ-ताँ-स्योँ ओ प्यैझ़"
+        "pron": "आ-ताँ-स्यों ओ प्येज"
       }
     ],
     "model": {
@@ -656,79 +740,79 @@
         "fr": "Vous ne pouvez emprunter que dix documents.",
         "en": "You can only borrow ten items.",
         "hi": "आप सिर्फ़ दस चीज़ें उधार ले सकते हैं।",
-        "pron": "वू नö पू-वे आँ-प्रैँ-ते कö दी दो-क्ü-माँ"
+        "pron": "वू न पू-वे आँ-प्रैं-ते क दी दो-क्यू-माँ"
       },
       {
         "fr": "un jour férié",
         "en": "a public holiday",
         "hi": "सरकारी छुट्टी",
-        "pron": "ऐँ झ़ूग़ फ़े-ग़्ये"
+        "pron": "ऐं जूर फ़े-र्ये"
       },
       {
         "fr": "sur réservation",
         "en": "by reservation",
         "hi": "बुकिंग करके",
-        "pron": "सüग़ ग़े-ज़ैग़-वा-स्योँ"
+        "pron": "स्यूर रे-ज़ेर-वा-स्यों"
       },
       {
         "fr": "gratuit",
         "en": "free of charge",
         "hi": "मुफ़्त",
-        "pron": "ग्रा-तüई"
+        "pron": "ग्रा-त्यूई"
       },
       {
         "fr": "cependant",
         "en": "however",
         "hi": "फिर भी",
-        "pron": "सö-पाँ-दाँ"
+        "pron": "स-पाँ-दाँ"
       },
       {
         "fr": "malgré la neige",
         "en": "despite the snow",
         "hi": "बर्फ़ के बावजूद",
-        "pron": "माल-ग्रे ला नैझ़"
+        "pron": "माल-ग्रे ला नेज"
       },
       {
         "fr": "afin de réussir",
         "en": "in order to succeed",
         "hi": "सफल होने के लिए",
-        "pron": "आ-फ़ैँ दö ग़े-ü-सीग़"
+        "pron": "आ-फ़ैं द रे-यू-सीर"
       },
       {
         "fr": "je lui ai dit",
         "en": "I told him/her",
         "hi": "मैंने उससे कहा",
-        "pron": "झ़ö ल्üई ए दी"
+        "pron": "ज ल्यूई ए दी"
       },
       {
         "fr": "à destination de Québec",
         "en": "bound for Québec City",
         "hi": "क्यूबेक जाने वाली",
-        "pron": "आ दैस-ती-ना-स्योँ दö के-बैक"
+        "pron": "आ देस-ती-ना-स्यों द के-बेक"
       },
       {
         "fr": "la correspondance",
         "en": "the connection",
         "hi": "आगे की गाड़ी",
-        "pron": "ला को-ग़ैस-पोँ-दाँस"
+        "pron": "ला को-रेस-पों-दाँस"
       },
       {
         "fr": "soixante-dix-sept",
         "en": "77",
         "hi": "सतहत्तर",
-        "pron": "स्वा-साँत-दिस-सैत"
+        "pron": "स्वा-साँत-दिस-सेत"
       },
       {
         "fr": "quatre-vingt-quinze",
         "en": "95",
         "hi": "पचानवे",
-        "pron": "कात्ग़-वैँ-कैँज़"
+        "pron": "कात्र-वैं-कैंज़"
       },
       {
         "fr": "Le service est interrompu.",
         "en": "Service is interrupted.",
         "hi": "सेवा रुकी हुई है।",
-        "pron": "लö सैग़-वीस ए तैँ-तै-ग़ोँ-प्ü"
+        "pron": "ल सेर-वीस ए तैं-ते-रों-प्यू"
       }
     ]
   },

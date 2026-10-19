@@ -1,62 +1,62 @@
 {
   "day": 47,
   "phase": 3,
-  "title": { "fr": "Raconter une histoire : passé composé ou imparfait ?", "en": "Telling a story: passé composé vs imparfait", "hi": "कहानी सुनाना: पासे कॉम्पोज़े या इम्पारफ़े?" },
+  "title": { "fr": "Raconter une histoire : passé composé ou imparfait ?", "en": "Telling a story: passé composé vs imparfait", "hi": "कहानी सुनाना: passé composé (पूर्ण भूतकाल) या imparfait (अपूर्ण भूतकाल)?" },
   "objective": {
     "en": "Tell a short story in the past, using the imparfait for the background (weather, situation, what was happening) and the passé composé for the events (what happened next, suddenly).",
-    "hi": "बीते समय की एक छोटी कहानी सुनाना: पृष्ठभूमि (मौसम, स्थिति, क्या चल रहा था) के लिए इम्पारफ़े और घटनाओं (आगे क्या हुआ, अचानक क्या हुआ) के लिए पासे कॉम्पोज़े।"
+    "hi": "बीते समय की एक छोटी कहानी सुनाना: पृष्ठभूमि (मौसम, स्थिति, क्या चल रहा था) के लिए imparfait और घटनाओं (आगे क्या हुआ, अचानक क्या हुआ) के लिए passé composé।"
   },
   "prerequisites": {
     "days": [33, 36, 41, 43, 44, 46],
     "summary": {
       "en": "You know the passé composé with avoir and être (Days 41–44) and the imparfait (Day 46), plus weather (Day 33) and the body (Day 36).",
-      "hi": "आप avoir और être वाला पासे कॉम्पोज़े (दिन 41–44) और इम्पारफ़े (दिन 46) जानते हैं, साथ ही मौसम (दिन 33) और शरीर (दिन 36) के शब्द।"
+      "hi": "आप avoir और être वाला passé composé (दिन 41–44) और imparfait (दिन 46) जानते हैं, साथ ही मौसम (दिन 33) और शरीर (दिन 36) के शब्द।"
     }
   },
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "soudain", "en": "suddenly", "hi": "अचानक", "pron": "सू-दैँ", "ipa": "sudɛ̃", "pos": "adverb", "note": { "en": "A signal for the passé composé: something happens.", "hi": "पासे कॉम्पोज़े का संकेत: कुछ घटता है।" } },
+    { "fr": "soudain", "en": "suddenly", "hi": "अचानक", "pron": "सू-दैं", "ipa": "sudɛ̃", "pos": "adverb", "note": { "en": "A signal for the passé composé: something happens.", "hi": "passé composé का संकेत: कुछ घटता है।" } },
     { "fr": "tout à coup", "en": "all of a sudden", "hi": "एकाएक, अचानक से", "pron": "तू ता कू", "ipa": "tu ta ku", "pos": "phrase", "note": { "en": "Liaison: tout‿à = तू ता.", "hi": "लियाज़ों: tout‿à = तू ता।" } },
-    { "fr": "pendant que", "en": "while", "hi": "जब तक / जबकि (उसी दौरान)", "pron": "पाँ-दाँ क", "ipa": "pɑ̃dɑ̃ kə", "pos": "conjunction", "note": { "en": "Usually followed by the imparfait: pendant que je dormais …", "hi": "आमतौर पर इसके बाद इम्पारफ़े आता है: pendant que je dormais … (जब मैं सो रहा था …)" } },
-    { "fr": "heureusement", "en": "fortunately, luckily", "hi": "ख़ुशक़िस्मती से, शुक्र है", "pron": "ö-ग़ö-ज़-माँ", "ipa": "øʁøzmɑ̃", "pos": "adverb" },
-    { "fr": "le trottoir", "en": "the pavement, the sidewalk", "hi": "फ़ुटपाथ", "pron": "लö त्रो-त्वाग़", "ipa": "lə tʁɔtwaʁ", "pos": "noun", "gender": "m", "lemma": "trottoir" },
-    { "fr": "le verglas", "en": "black ice", "hi": "सड़क पर जमी पतली, फिसलन भरी बर्फ़", "pron": "लö वैग़-ग्ला", "ipa": "lə vɛʁɡla", "pos": "noun", "gender": "m", "lemma": "verglas", "note": { "en": "A very Canadian winter word: thin invisible ice on roads and pavements.", "hi": "कनाडा की सर्दियों का बहुत आम शब्द: सड़कों और फ़ुटपाथ पर जमी पतली, दिखाई न देने वाली बर्फ़।" } },
+    { "fr": "pendant que", "en": "while", "hi": "जब तक / जबकि (उसी दौरान)", "pron": "पाँ-दाँ क", "ipa": "pɑ̃dɑ̃ kə", "pos": "conjunction", "note": { "en": "Usually followed by the imparfait: pendant que je dormais …", "hi": "आमतौर पर इसके बाद imparfait आता है: pendant que je dormais … (जब मैं सो रहा था …)" } },
+    { "fr": "heureusement", "en": "fortunately, luckily", "hi": "ख़ुशक़िस्मती से, शुक्र है", "pron": "अ-रज़-माँ", "ipa": "øʁøzmɑ̃", "pos": "adverb" },
+    { "fr": "le trottoir", "en": "the pavement, the sidewalk", "hi": "फ़ुटपाथ", "pron": "ल त्रो-त्वार", "ipa": "lə tʁɔtwaʁ", "pos": "noun", "gender": "m", "lemma": "trottoir" },
+    { "fr": "le verglas", "en": "black ice", "hi": "सड़क पर जमी पतली, फिसलन भरी बर्फ़", "pron": "ल वेर-ग्ला", "ipa": "lə vɛʁɡla", "pos": "noun", "gender": "m", "lemma": "verglas", "note": { "en": "A very Canadian winter word: thin invisible ice on roads and pavements.", "hi": "कनाडा की सर्दियों का बहुत आम शब्द: सड़कों और फ़ुटपाथ पर जमी पतली, दिखाई न देने वाली बर्फ़।" } },
     { "fr": "glisser", "en": "to slip, to slide", "hi": "फिसलना", "pron": "ग्ली-से", "ipa": "ɡlise", "pos": "verb" },
-    { "fr": "le portefeuille", "en": "the wallet", "hi": "बटुआ", "pron": "लö पॉग़-त-फ़öय", "ipa": "lə pɔʁtəfœj", "pos": "noun", "gender": "m", "lemma": "portefeuille", "note": { "en": "Literally 'carry-leaves'. Gender trap: masculine.", "hi": "शब्दशः 'पत्ते ढोने वाला'। लिंग पर ध्यान: पुल्लिंग।" } },
-    { "fr": "le passant", "en": "the passer-by", "hi": "राहगीर", "pron": "लö पा-साँ", "ipa": "lə pasɑ̃", "pos": "noun", "gender": "m", "lemma": "passant", "note": { "en": "Feminine: la passante.", "hi": "स्त्रीलिंग: la passante।" } },
+    { "fr": "le portefeuille", "en": "the wallet", "hi": "बटुआ", "pron": "ल पॉर-त-फ़य", "ipa": "lə pɔʁtəfœj", "pos": "noun", "gender": "m", "lemma": "portefeuille", "note": { "en": "Literally 'carry-leaves'. Gender trap: masculine.", "hi": "शब्दशः 'पत्ते ढोने वाला'। लिंग पर ध्यान: पुल्लिंग।" } },
+    { "fr": "le passant", "en": "the passer-by", "hi": "राहगीर", "pron": "ल पा-साँ", "ipa": "lə pasɑ̃", "pos": "noun", "gender": "m", "lemma": "passant", "note": { "en": "Feminine: la passante.", "hi": "स्त्रीलिंग: la passante।" } },
     { "fr": "aider", "en": "to help", "hi": "मदद करना", "pron": "ए-दे", "ipa": "ede", "pos": "verb" },
     { "fr": "appeler", "en": "to call", "hi": "बुलाना, फ़ोन करना", "pron": "आ-प्ले", "ipa": "aple", "pos": "verb", "note": { "en": "Double l in the singular present: j'appelle, il appelle. Past: j'ai appelé.", "hi": "वर्तमान एकवचन में दो l: j'appelle, il appelle। भूतकाल: j'ai appelé।" } },
     { "fr": "la police", "en": "the police", "hi": "पुलिस", "pron": "ला पो-लीस", "ipa": "la pɔlis", "pos": "noun", "gender": "f", "lemma": "police" }
   ],
   "phrases": [
-    { "fr": "Il neigeait quand je suis sorti(e).", "en": "It was snowing when I went out.", "hi": "जब मैं बाहर निकला/निकली, बर्फ़ गिर रही थी।", "pron": "ईल नै-झ़ै काँ झ़ö स्üई सॉग़-ती" },
-    { "fr": "Je marchais vers le métro quand j'ai glissé.", "en": "I was walking to the metro when I slipped.", "hi": "मैं मेट्रो की ओर जा रहा/रही था/थी, तभी फिसल गया/गई।", "pron": "झ़ö माग़-शै वैग़ लö मे-त्रो काँ झ़े ग्ली-से" },
-    { "fr": "Tout à coup, j'ai entendu un bruit.", "en": "All of a sudden I heard a noise.", "hi": "एकाएक मुझे एक आवाज़ सुनाई दी।", "pron": "तू ता कू झ़े आँ-ताँ-दü ऐँ ब्रüई" },
-    { "fr": "Heureusement, un passant m'a aidé(e).", "en": "Luckily, a passer-by helped me.", "hi": "शुक्र है, एक राहगीर ने मेरी मदद की।", "pron": "ö-ग़ö-ज़-माँ ऐँ पा-साँ मा ए-दे", "note": { "en": "m' = me. You'll study these pronouns on Days 51–52; learn this as a chunk.", "hi": "m' = मुझे/मेरी। ये सर्वनाम दिन 51–52 में आएँगे; अभी इसे एक टुकड़े की तरह सीखिए।" } },
-    { "fr": "Qu'est-ce qui s'est passé ?", "en": "What happened?", "hi": "क्या हुआ?", "pron": "कैस-की सै पा-से" },
-    { "fr": "Tu t'es fait mal ?", "en": "Did you hurt yourself?", "hi": "तुम्हें चोट लगी?", "pron": "तü तै फ़ै माल" }
+    { "fr": "Il neigeait quand je suis sorti(e).", "en": "It was snowing when I went out.", "hi": "जब मैं बाहर निकला/निकली, बर्फ़ गिर रही थी।", "pron": "ईल ने-जे काँ ज स्यूई सॉर-ती" },
+    { "fr": "Je marchais vers le métro quand j'ai glissé.", "en": "I was walking to the metro when I slipped.", "hi": "मैं मेट्रो की ओर जा रहा/रही था/थी, तभी फिसल गया/गई।", "pron": "ज मार-शे वेर ल मे-त्रो काँ जे ग्ली-से" },
+    { "fr": "Tout à coup, j'ai entendu un bruit.", "en": "All of a sudden I heard a noise.", "hi": "एकाएक मुझे एक आवाज़ सुनाई दी।", "pron": "तू ता कू जे आँ-ताँ-द्यू ऐं ब्र्यूई" },
+    { "fr": "Heureusement, un passant m'a aidé(e).", "en": "Luckily, a passer-by helped me.", "hi": "शुक्र है, एक राहगीर ने मेरी मदद की।", "pron": "अ-र-ज़-माँ ऐं पा-साँ मा ए-दे", "note": { "en": "m' = me. You'll study these pronouns on Days 51–52; learn this as a chunk.", "hi": "m' = मुझे/मेरी। ये सर्वनाम दिन 51–52 में आएँगे; अभी इसे एक टुकड़े की तरह सीखिए।" } },
+    { "fr": "Qu'est-ce qui s'est passé ?", "en": "What happened?", "hi": "क्या हुआ?", "pron": "केस-की से पा-से" },
+    { "fr": "Tu t'es fait mal ?", "en": "Did you hurt yourself?", "hi": "तुम्हें चोट लगी?", "pron": "त्यू ते फ़े माल" }
   ],
   "grammar": {
-    "title": { "en": "Background (imparfait) vs events (passé composé)", "hi": "पृष्ठभूमि (इम्पारफ़े) बनाम घटनाएँ (पासे कॉम्पोज़े)" },
+    "title": { "en": "Background (imparfait) vs events (passé composé)", "hi": "पृष्ठभूमि (imparfait) बनाम घटनाएँ (passé composé)" },
     "explanation": {
       "en": "A story has a stage and actions. The imparfait paints the stage: the time, the weather, the place, how people felt, what was going on (Il était huit heures. Il neigeait. J'étais fatigué. Je marchais vers le métro.). The passé composé tells the events, one after the other, that move the story forward (J'ai glissé. Je suis tombé. Un passant est arrivé.). When an event interrupts an action in progress, use imparfait + quand + passé composé: Je dormais quand le téléphone a sonné. With pendant que (while), use the imparfait for the longer background action. Words like soudain, tout à coup, puis, ensuite usually introduce the passé composé.",
-      "hi": "कहानी में एक मंच होता है और कुछ घटनाएँ। इम्पारफ़े मंच सजाता है: समय, मौसम, जगह, लोग कैसा महसूस कर रहे थे, क्या चल रहा था (Il était huit heures. Il neigeait. J'étais fatigué. Je marchais vers le métro.)। पासे कॉम्पोज़े घटनाएँ बताता है, एक के बाद एक, जो कहानी को आगे बढ़ाती हैं (J'ai glissé. Je suis tombé. Un passant est arrivé.)। जब कोई घटना किसी चल रहे काम को बीच में रोकती है, तो इम्पारफ़े + quand + पासे कॉम्पोज़े: Je dormais quand le téléphone a sonné (मैं सो रहा था, तभी फ़ोन बजा)। pendant que (जबकि/उस दौरान) के साथ लंबे चलने वाले काम के लिए इम्पारफ़े। soudain, tout à coup, puis, ensuite जैसे शब्द आमतौर पर पासे कॉम्पोज़े लाते हैं।"
+      "hi": "कहानी में एक मंच होता है और कुछ घटनाएँ। imparfait मंच सजाता है: समय, मौसम, जगह, लोग कैसा महसूस कर रहे थे, क्या चल रहा था (Il était huit heures. Il neigeait. J'étais fatigué. Je marchais vers le métro.)। passé composé घटनाएँ बताता है, एक के बाद एक, जो कहानी को आगे बढ़ाती हैं (J'ai glissé. Je suis tombé. Un passant est arrivé.)। जब कोई घटना किसी चल रहे काम को बीच में रोकती है, तो imparfait + quand + passé composé: Je dormais quand le téléphone a sonné (मैं सो रहा था, तभी फ़ोन बजा)। pendant que (जबकि/उस दौरान) के साथ लंबे चलने वाले काम के लिए imparfait। soudain, tout à coup, puis, ensuite जैसे शब्द आमतौर पर passé composé लाते हैं।"
     },
     "comparison": {
       "en": "Hindi shows the split clearly: 'मैं सड़क पर चल रहा था, तभी अचानक बारिश शुरू हुई.' चल रहा था = imparfait (je marchais); शुरू हुई = passé composé (il a commencé à pleuvoir). English does it too: 'I was walking … when it started'. Rule of thumb: रहा था / था / करता था → imparfait; one completed हुआ / किया / गया → passé composé.",
-      "hi": "हिंदी में यह बँटवारा साफ़ दिखता है: 'मैं सड़क पर चल रहा था, तभी अचानक बारिश शुरू हुई।' चल रहा था = इम्पारफ़े (je marchais); शुरू हुई = पासे कॉम्पोज़े (il a commencé à pleuvoir)। अंग्रेज़ी में भी: 'I was walking … when it started'। आसान नियम: रहा था / था / करता था → इम्पारफ़े; एक बार पूरा हुआ हुआ / किया / गया → पासे कॉम्पोज़े।"
+      "hi": "हिंदी में यह बँटवारा साफ़ दिखता है: 'मैं सड़क पर चल रहा था, तभी अचानक बारिश शुरू हुई।' चल रहा था = imparfait (je marchais); शुरू हुई = passé composé (il a commencé à pleuvoir)। अंग्रेज़ी में भी: 'I was walking … when it started'। आसान नियम: रहा था / था / करता था → imparfait; एक बार पूरा हुआ हुआ / किया / गया → passé composé।"
     },
     "examples": [
-      { "fr": "Il faisait beau et nous mangions dans le jardin.", "en": "The weather was nice and we were eating in the garden.", "hi": "मौसम अच्छा था और हम बग़ीचे में खाना खा रहे थे।", "pron": "ईल फ़ö-ज़ै बो ए नू माँ-झ़्योँ दाँ लö झ़ाग़-दैँ" },
-      { "fr": "Soudain, il a commencé à pleuvoir.", "en": "Suddenly it started to rain.", "hi": "अचानक बारिश शुरू हो गई।", "pron": "सू-दैँ ई-ला को-माँ-से आ प्लö-व्वाग़" },
-      { "fr": "Je dormais quand le téléphone a sonné.", "en": "I was sleeping when the phone rang.", "hi": "मैं सो रहा/रही था/थी, तभी फ़ोन बजा।", "pron": "झ़ö दॉग़-मै काँ लö ते-ले-फ़ॉन आ सो-ने" },
-      { "fr": "Pendant que j'attendais le bus, j'ai vu un accident.", "en": "While I was waiting for the bus, I saw an accident.", "hi": "जब मैं बस का इंतज़ार कर रहा/रही था/थी, मैंने एक दुर्घटना देखी।", "pron": "पाँ-दाँ क झ़ा-ताँ-दै लö बüस झ़े वü ऐँ नाक-सी-दाँ" },
-      { "fr": "Elle était fatiguée, alors elle est rentrée.", "en": "She was tired, so she went home.", "hi": "वह थकी हुई थी, इसलिए घर लौट गई।", "pron": "ऐ-लै-तै फ़ा-ती-गे आ-लॉग़ ऐ-लै ग़ाँ-त्रे" }
+      { "fr": "Il faisait beau et nous mangions dans le jardin.", "en": "The weather was nice and we were eating in the garden.", "hi": "मौसम अच्छा था और हम बग़ीचे में खाना खा रहे थे।", "pron": "ईल फ़-ज़े बो ए नू माँ-ज्यों दाँ ल जार-दैं" },
+      { "fr": "Soudain, il a commencé à pleuvoir.", "en": "Suddenly it started to rain.", "hi": "अचानक बारिश शुरू हो गई।", "pron": "सू-दैं ई-ला को-माँ-से आ प्ल-व्वार" },
+      { "fr": "Je dormais quand le téléphone a sonné.", "en": "I was sleeping when the phone rang.", "hi": "मैं सो रहा/रही था/थी, तभी फ़ोन बजा।", "pron": "ज दॉर-मे काँ ल ते-ले-फ़ॉन आ सो-ने" },
+      { "fr": "Pendant que j'attendais le bus, j'ai vu un accident.", "en": "While I was waiting for the bus, I saw an accident.", "hi": "जब मैं बस का इंतज़ार कर रहा/रही था/थी, मैंने एक दुर्घटना देखी।", "pron": "पाँ-दाँ क जा-ताँ-दे ल ब्यूस जे व्यू ऐं नाक-सी-दाँ" },
+      { "fr": "Elle était fatiguée, alors elle est rentrée.", "en": "She was tired, so she went home.", "hi": "वह थकी हुई थी, इसलिए घर लौट गई।", "pron": "ए-ले-ते फ़ा-ती-गे आ-लॉर ए-ले राँ-त्रे" }
     ],
     "pitfalls": [
-      { "en": "Don't tell a list of events in the imparfait: 'Je me levais, je prenais le bus, j'arrivais' sounds like a daily habit, not one story.", "hi": "घटनाओं की सूची इम्पारफ़े में मत सुनाइए: 'Je me levais, je prenais le bus, j'arrivais' रोज़ की आदत जैसा लगता है, एक कहानी नहीं।" },
-      { "en": "Feelings and descriptions at a moment in the past are normally imparfait: j'avais peur, j'étais content, il était grand.", "hi": "अतीत के किसी पल की भावनाएँ और वर्णन आमतौर पर इम्पारफ़े में होते हैं: j'avais peur, j'étais content, il était grand।" }
+      { "en": "Don't tell a list of events in the imparfait: 'Je me levais, je prenais le bus, j'arrivais' sounds like a daily habit, not one story.", "hi": "घटनाओं की सूची imparfait में मत सुनाइए: 'Je me levais, je prenais le bus, j'arrivais' रोज़ की आदत जैसा लगता है, एक कहानी नहीं।" },
+      { "en": "Feelings and descriptions at a moment in the past are normally imparfait: j'avais peur, j'étais content, il était grand.", "hi": "अतीत के किसी पल की भावनाएँ और वर्णन आमतौर पर imparfait में होते हैं: j'avais peur, j'étais content, il était grand।" }
     ]
   },
   "pronunciation": {
@@ -66,10 +66,10 @@
       "hi": "फ़्रेंच लंबे वाक्यों को 3–7 अक्षरों (syllables) के लय-समूहों में बाँटती है। हर समूह के भीतर सारे अक्षर बराबर बोले जाते हैं; हर समूह का आख़िरी अक्षर थोड़ा लंबा होता है। हर समूह के अंत में आवाज़ ऊपर जाती है, और सिर्फ़ वाक्य के बिल्कुल अंत में नीचे आती है। अंग्रेज़ी की तरह पहले अक्षर पर ज़ोर मत दीजिए।"
     },
     "words": [
-      { "fr": "Il neigeait / et je marchais / vers le métro.", "en": "It was snowing and I was walking to the metro.", "hi": "बर्फ़ गिर रही थी और मैं मेट्रो की ओर चल रहा था।", "pron": "ईल नै-झ़ै ↗ / ए झ़ö माग़-शै ↗ / वैग़ लö मे-त्रो ↘" },
-      { "fr": "Quand je suis arrivé / au bureau, …", "en": "When I arrived at the office, …", "hi": "जब मैं दफ़्तर पहुँचा, …", "pron": "काँ झ़ö स्üई ज़ा-ग़ी-वे ↗ / ओ बü-ग़ो ↗" },
-      { "fr": "Tout à coup, / j'ai entendu / un bruit.", "en": "All of a sudden I heard a noise.", "hi": "एकाएक मुझे एक आवाज़ सुनाई दी।", "pron": "तू ता कू ↗ / झ़े आँ-ताँ-दü ↗ / ऐँ ब्रüई ↘" },
-      { "fr": "Heureusement, / un passant / est venu.", "en": "Luckily a passer-by came.", "hi": "शुक्र है, एक राहगीर आया।", "pron": "ö-ग़ö-ज़-माँ ↗ / ऐँ पा-साँ ↗ / ए वö-नü ↘" }
+      { "fr": "Il neigeait / et je marchais / vers le métro.", "en": "It was snowing and I was walking to the metro.", "hi": "बर्फ़ गिर रही थी और मैं मेट्रो की ओर चल रहा था।", "pron": "ईल ने-जे ↗ / ए ज मार-शे ↗ / वेर ल मे-त्रो ↘" },
+      { "fr": "Quand je suis arrivé / au bureau, …", "en": "When I arrived at the office, …", "hi": "जब मैं दफ़्तर पहुँचा, …", "pron": "काँ ज स्यूई ज़ा-री-वे ↗ / ओ ब्यू-रो ↗" },
+      { "fr": "Tout à coup, / j'ai entendu / un bruit.", "en": "All of a sudden I heard a noise.", "hi": "एकाएक मुझे एक आवाज़ सुनाई दी।", "pron": "तू ता कू ↗ / जे आँ-ताँ-द्यू ↗ / ऐं ब्र्यूई ↘" },
+      { "fr": "Heureusement, / un passant / est venu.", "en": "Luckily a passer-by came.", "hi": "शुक्र है, एक राहगीर आया।", "pron": "अ-र-ज़-माँ ↗ / ऐं पा-साँ ↗ / ए व-न्यू ↘" }
     ]
   },
   "listening": {
@@ -93,11 +93,11 @@
       { "speaker": "Thomas", "voice": "m1", "fr": "Assieds-toi. Je fais un thé pour toi.", "en": "Sit down. I'll make you a tea.", "hi": "बैठो। मैं तुम्हारे लिए चाय बनाता हूँ।" }
     ],
     "questions": [
-      { "q": { "en": "What was the weather like that morning?" }, "options": ["Sunny but cold", "Rainy and windy", "Snowy, with icy pavements", "Foggy"], "answer": 2, "explanation": { "en": "It was snowing a lot and the pavements were icy — background in the imparfait.", "hi": "बहुत बर्फ़ गिर रही थी और फ़ुटपाथ जमे हुए थे — पृष्ठभूमि इम्पारफ़े में।" }, "kind": "literal", "evidence": "Il neigeait beaucoup et les trottoirs étaient glacés." },
-      { "q": { "en": "What was Kavita doing when she slipped?" }, "options": ["Walking to the metro and listening to music", "Waiting for the bus", "Looking for her wallet"], "answer": 0, "explanation": { "en": "'Je marchais … j'écoutais de la musique' (imparfait), then 'j'ai glissé' (passé composé).", "hi": "'Je marchais … j'écoutais de la musique' (इम्पारफ़े), फिर 'j'ai glissé' (पासे कॉम्पोज़े)।" }, "kind": "grammar", "evidence": "Je marchais vers le métro, j'écoutais de la musique" },
-      { "q": { "en": "Where did she hurt herself?" }, "options": ["Her head", "Her knee", "Her hand"], "answer": 1, "explanation": { "en": "'au genou' = on the knee.", "hi": "'au genou' = घुटने पर।" }, "kind": "literal", "evidence": "Un peu, au genou." },
-      { "q": { "en": "What really happened to the wallet?" }, "options": ["A thief stole it in the metro", "She left it at home", "It fell in the snow and the passer-by brought it back"], "answer": 2, "explanation": { "en": "It fell in the snow while she was on the ground; the passer-by brought it to the metro.", "hi": "जब वह ज़मीन पर थी, बटुआ बर्फ़ में गिर गया; राहगीर उसे मेट्रो तक ले आया।" }, "kind": "inference", "evidence": "le passant est arrivé au métro avec mon portefeuille à la main" },
-      { "q": { "en": "How late is Kavita?" }, "options": ["Two minutes", "Twenty minutes", "An hour"], "answer": 1, "explanation": { "en": "'avec vingt minutes de retard'.", "hi": "'avec vingt minutes de retard' (बीस मिनट देर से)।" }, "kind": "literal", "evidence": "je suis ici avec vingt minutes de retard" }
+      { "q": { "en": "What was the weather like that morning?", "hi": "उस सुबह मौसम कैसा था?" }, "options": ["Sunny but cold", "Rainy and windy", "Snowy, with icy pavements", "Foggy"], "optionsHi": ["धूप वाला लेकिन ठंडा", "बारिश और तेज़ हवा वाला", "बर्फ़ीला, फिसलन भरे फ़ुटपाथों वाला", "कोहरे वाला"], "answer": 2, "explanation": { "en": "It was snowing a lot and the pavements were icy — background in the imparfait.", "hi": "बहुत बर्फ़ गिर रही थी और फ़ुटपाथ जमे हुए थे — पृष्ठभूमि imparfait में।" }, "kind": "literal", "evidence": "Il neigeait beaucoup et les trottoirs étaient glacés." },
+      { "q": { "en": "What was Kavita doing when she slipped?", "hi": "फिसलते समय Kavita क्या कर रही थी?" }, "options": ["Walking to the metro and listening to music", "Waiting for the bus", "Looking for her wallet"], "optionsHi": ["संगीत सुनते हुए मेट्रो की ओर पैदल जा रही थी", "बस का इंतज़ार कर रही थी", "अपना बटुआ ढूँढ रही थी"], "answer": 0, "explanation": { "en": "'Je marchais … j'écoutais de la musique' (imparfait), then 'j'ai glissé' (passé composé).", "hi": "'Je marchais … j'écoutais de la musique' (imparfait), फिर 'j'ai glissé' (passé composé)।" }, "kind": "grammar", "evidence": "Je marchais vers le métro, j'écoutais de la musique" },
+      { "q": { "en": "Where did she hurt herself?", "hi": "उसे कहाँ चोट लगी?" }, "options": ["Her head", "Her knee", "Her hand"], "optionsHi": ["सिर में", "घुटने में", "हाथ में"], "answer": 1, "explanation": { "en": "'au genou' = on the knee.", "hi": "'au genou' = घुटने पर।" }, "kind": "literal", "evidence": "Un peu, au genou." },
+      { "q": { "en": "What really happened to the wallet?", "hi": "बटुए का असल में क्या हुआ?" }, "options": ["A thief stole it in the metro", "She left it at home", "It fell in the snow and the passer-by brought it back"], "optionsHi": ["मेट्रो में किसी चोर ने उसे चुरा लिया", "वह उसे घर पर भूल गई थी", "वह बर्फ़ में गिर गया और राहगीर उसे लौटा गया"], "answer": 2, "explanation": { "en": "It fell in the snow while she was on the ground; the passer-by brought it to the metro.", "hi": "जब वह ज़मीन पर थी, बटुआ बर्फ़ में गिर गया; राहगीर उसे मेट्रो तक ले आया।" }, "kind": "inference", "evidence": "le passant est arrivé au métro avec mon portefeuille à la main" },
+      { "q": { "en": "How late is Kavita?", "hi": "Kavita को कितनी देर हो गई है?" }, "options": ["Two minutes", "Twenty minutes", "An hour"], "answer": 1, "explanation": { "en": "'avec vingt minutes de retard'.", "hi": "'avec vingt minutes de retard' (बीस मिनट देर से)।" }, "kind": "literal", "evidence": "je suis ici avec vingt minutes de retard" }
     ],
     "dictation": ["Il neigeait beaucoup.", "Tout à coup, j'ai glissé et je suis tombée.", "Il était très gentil."],
     "gapFill": { "text": "Je ___ vers le métro et j'écoutais de la musique. Tout à coup, j'___ glissé. Un passant est venu : il ___ très gentil.", "answers": ["marchais", "ai", "était"] }
@@ -106,18 +106,18 @@
     "type": "presentation",
     "instructions": {
       "en": "Tell a short true or invented story (a small accident, a surprise, a lost object). First set the scene in the imparfait, then tell 3–4 events in the passé composé, then say how it ended. Speak for about one minute.",
-      "hi": "एक छोटी सच्ची या काल्पनिक कहानी सुनाइए (कोई छोटी दुर्घटना, कोई सरप्राइज़, कोई खोई चीज़)। पहले इम्पारफ़े में दृश्य बनाइए, फिर पासे कॉम्पोज़े में 3–4 घटनाएँ बताइए, फिर अंत बताइए। लगभग एक मिनट बोलिए।"
+      "hi": "एक छोटी सच्ची या काल्पनिक कहानी सुनाइए (कोई छोटी दुर्घटना, कोई सरप्राइज़, कोई खोई चीज़)। पहले imparfait में दृश्य बनाइए, फिर passé composé में 3–4 घटनाएँ बताइए, फिर अंत बताइए। लगभग एक मिनट बोलिए।"
     },
     "prompts": [
-      { "fr": "Quel jour c'était ? Quel temps faisait-il ?", "en": "What day was it? What was the weather like?", "hi": "कौन-सा दिन था? मौसम कैसा था?", "pron": "कैल झ़ूग़ से-तै — कैल ताँ फ़ö-ज़ै-तील", "model": "C'était un samedi de janvier. Il faisait très froid et il neigeait." },
-      { "fr": "Où étiez-vous ? Qu'est-ce que vous faisiez ?", "en": "Where were you? What were you doing?", "hi": "आप कहाँ थे? क्या कर रहे थे?", "pron": "ऊ ए-त्ये वू — कैस-क वू फ़ö-ज़्ये", "model": "J'étais au supermarché et je cherchais du riz basmati." },
-      { "fr": "Qu'est-ce qui s'est passé tout à coup ?", "en": "What suddenly happened?", "hi": "अचानक क्या हुआ?", "pron": "कैस-की सै पा-से तू ता कू", "model": "Tout à coup, j'ai vu mon ancienne professeure de Delhi !" },
-      { "fr": "Qu'est-ce que vous avez fait ensuite ?", "en": "What did you do next?", "hi": "उसके बाद आपने क्या किया?", "pron": "कैस-क वू ज़ा-वे फ़ै आँ-स्üइत", "model": "Je suis allé dire bonjour et nous avons pris un café ensemble." },
-      { "fr": "Comment l'histoire a-t-elle fini ?", "en": "How did the story end?", "hi": "कहानी कैसे ख़त्म हुई?", "pron": "को-माँ लीस-त्वाग़ आ-तैल फ़ी-नी", "model": "Finalement, nous avons échangé nos numéros. J'étais très content !" }
+      { "fr": "Quel jour c'était ? Quel temps faisait-il ?", "en": "What day was it? What was the weather like?", "hi": "कौन-सा दिन था? मौसम कैसा था?", "pron": "केल जूर से-ते — केल ताँ फ़-ज़े-तील", "model": "C'était un samedi de janvier. Il faisait très froid et il neigeait." },
+      { "fr": "Où étiez-vous ? Qu'est-ce que vous faisiez ?", "en": "Where were you? What were you doing?", "hi": "आप कहाँ थे? क्या कर रहे थे?", "pron": "ऊ ए-त्ये वू — केस-क वू फ़-ज़्ये", "model": "J'étais au supermarché et je cherchais du riz basmati." },
+      { "fr": "Qu'est-ce qui s'est passé tout à coup ?", "en": "What suddenly happened?", "hi": "अचानक क्या हुआ?", "pron": "केस-की से पा-से तू ता कू", "model": "Tout à coup, j'ai vu mon ancienne professeure de Delhi !" },
+      { "fr": "Qu'est-ce que vous avez fait ensuite ?", "en": "What did you do next?", "hi": "उसके बाद आपने क्या किया?", "pron": "केस-क वू ज़ा-वे फ़े आँ-स्यूइत", "model": "Je suis allé dire bonjour et nous avons pris un café ensemble." },
+      { "fr": "Comment l'histoire a-t-elle fini ?", "en": "How did the story end?", "hi": "कहानी कैसे ख़त्म हुई?", "pron": "को-माँ लीस-त्वार आ-तेल फ़ी-नी", "model": "Finalement, nous avons échangé nos numéros. J'étais très content !" }
     ],
     "tip": {
       "en": "Change your voice a little between the scene and the events: slower and softer for the background (imparfait), quicker and stronger after 'tout à coup' (passé composé). Listeners love it.",
-      "hi": "दृश्य और घटनाओं के बीच आवाज़ थोड़ी बदलिए: पृष्ठभूमि (इम्पारफ़े) के लिए धीमी और नरम, 'tout à coup' के बाद (पासे कॉम्पोज़े) थोड़ी तेज़ और ज़ोरदार। सुनने वालों को यह बहुत अच्छा लगता है।"
+      "hi": "दृश्य और घटनाओं के बीच आवाज़ थोड़ी बदलिए: पृष्ठभूमि (imparfait) के लिए धीमी और नरम, 'tout à coup' के बाद (passé composé) थोड़ी तेज़ और ज़ोरदार। सुनने वालों को यह बहुत अच्छा लगता है।"
     }
   },
   "reading": {
@@ -129,11 +129,11 @@
       "hi": "पिछले मंगलवार, शाम लगभग पाँच बजे, लावाल में अँधेरा हो चुका था और ज़ोरों से बर्फ़ गिर रही थी। 78 साल की श्रीमती लूसी गान्यों फ़ार्मेसी के सामने बस का इंतज़ार कर रही थीं। उन्होंने मोटे दस्ताने पहने थे और उन्हें ठंड लग रही थी। अचानक उन्होंने देखा कि उनकी शादी की अँगूठी उँगली में नहीं है।\n\n'मैंने हर जगह ढूँढा, पर तीस सेंटीमीटर बर्फ़ थी!' वह बताती हैं।\n\nउसी समय 15 साल का एक किशोर, समीर हद्दाद, स्कूल से घर लौट रहा था। उसने देखा कि श्रीमती गान्यों रो रही हैं। उसने अपना बैग नीचे रखा और अपने फ़ोन की टॉर्च से उनके साथ चालीस मिनट तक ढूँढता रहा।\n\nएकाएक उसे बर्फ़ के नीचे कुछ चमकता हुआ दिखा: वही अँगूठी थी! 'मैं बहुत ख़ुश थी। मैं फिर रोई, पर ख़ुशी के मारे!' श्रीमती गान्यों कहती हैं।\n\nऔर समीर? वह बस चुपचाप घर चला गया। 'मुझे रात के खाने (क्यूबेक में souper) के लिए देर हो गई, पर मेरी माँ समझ गईं!' वह बताता है।"
     },
     "questions": [
-      { "q": { "en": "What was Mrs Gagnon doing when she noticed the ring was missing?" }, "options": ["Shopping in the pharmacy", "Waiting for the bus", "Walking home", "Clearing snow"], "answer": 1, "explanation": { "en": "'attendait le bus' — the imparfait gives the background action.", "hi": "'attendait le bus' — इम्पारफ़े पृष्ठभूमि का काम बताता है।" }, "kind": "literal", "evidence": "attendait le bus devant la pharmacie" },
-      { "q": { "en": "Why was it hard to find the ring?" }, "options": ["There was a lot of snow and it was dark", "She had lost it at home", "The bus came immediately"], "answer": 0, "explanation": { "en": "It was dark (il faisait nuit) and there were 30 cm of snow.", "hi": "अँधेरा था (il faisait nuit) और तीस सेंटीमीटर बर्फ़ थी।" }, "kind": "inference", "evidence": "il y avait trente centimètres de neige" },
-      { "q": { "en": "How did Samir help?" }, "options": ["He called the police", "He gave her his gloves", "He searched with her for forty minutes using his phone's light"], "answer": 2, "explanation": { "en": "He searched for forty minutes with his phone's lamp.", "hi": "उसने फ़ोन की टॉर्च से चालीस मिनट तक ढूँढा।" }, "kind": "literal", "evidence": "il a cherché avec elle pendant quarante minutes, avec la lampe de son téléphone" },
-      { "q": { "en": "Why did Mrs Gagnon cry the second time?" }, "options": ["Because she was cold", "Because she was happy", "Because the ring was broken"], "answer": 1, "explanation": { "en": "'mais de joie' = but with joy.", "hi": "'mais de joie' = पर ख़ुशी से।" }, "kind": "inference", "evidence": "J'ai encore pleuré, mais de joie !" },
-      { "q": { "en": "What does Samir's reaction suggest about him?" }, "options": ["He wanted a reward", "He is modest and didn't make a big deal of it", "He was angry to be late"], "answer": 1, "explanation": { "en": "He simply went home and only mentions being late for supper.", "hi": "वह बस चुपचाप घर चला गया और सिर्फ़ खाने में देर होने की बात करता है।" }, "kind": "inference", "evidence": "Il est simplement rentré chez lui." }
+      { "q": { "en": "What was Mrs Gagnon doing when she noticed the ring was missing?", "hi": "जब Mrs Gagnon ने देखा कि अँगूठी ग़ायब है, तब वे क्या कर रही थीं?" }, "options": ["Shopping in the pharmacy", "Waiting for the bus", "Walking home", "Clearing snow"], "optionsHi": ["दवाइयों की दुकान में ख़रीदारी", "बस का इंतज़ार", "पैदल घर जाना", "बर्फ़ हटाना"], "answer": 1, "explanation": { "en": "'attendait le bus' — the imparfait gives the background action.", "hi": "'attendait le bus' — imparfait पृष्ठभूमि का काम बताता है।" }, "kind": "literal", "evidence": "attendait le bus devant la pharmacie" },
+      { "q": { "en": "Why was it hard to find the ring?", "hi": "अँगूठी ढूँढना मुश्किल क्यों था?" }, "options": ["There was a lot of snow and it was dark", "She had lost it at home", "The bus came immediately"], "optionsHi": ["बहुत बर्फ़ थी और अँधेरा था", "वह उसे घर पर खो आई थीं", "बस तुरंत आ गई"], "answer": 0, "explanation": { "en": "It was dark (il faisait nuit) and there were 30 cm of snow.", "hi": "अँधेरा था (il faisait nuit) और तीस सेंटीमीटर बर्फ़ थी।" }, "kind": "inference", "evidence": "il y avait trente centimètres de neige" },
+      { "q": { "en": "How did Samir help?", "hi": "Samir ने कैसे मदद की?" }, "options": ["He called the police", "He gave her his gloves", "He searched with her for forty minutes using his phone's light"], "optionsHi": ["उसने पुलिस को बुलाया", "उसने उन्हें अपने दस्ताने दिए", "उसने अपने फ़ोन की रोशनी से चालीस मिनट तक उनके साथ ढूँढा"], "answer": 2, "explanation": { "en": "He searched for forty minutes with his phone's lamp.", "hi": "उसने फ़ोन की टॉर्च से चालीस मिनट तक ढूँढा।" }, "kind": "literal", "evidence": "il a cherché avec elle pendant quarante minutes, avec la lampe de son téléphone" },
+      { "q": { "en": "Why did Mrs Gagnon cry the second time?", "hi": "Mrs Gagnon दूसरी बार क्यों रोईं?" }, "options": ["Because she was cold", "Because she was happy", "Because the ring was broken"], "optionsHi": ["क्योंकि उन्हें ठंड लग रही थी", "क्योंकि वे ख़ुश थीं", "क्योंकि अँगूठी टूट गई थी"], "answer": 1, "explanation": { "en": "'mais de joie' = but with joy.", "hi": "'mais de joie' = पर ख़ुशी से।" }, "kind": "inference", "evidence": "J'ai encore pleuré, mais de joie !" },
+      { "q": { "en": "What does Samir's reaction suggest about him?", "hi": "Samir की प्रतिक्रिया उसके बारे में क्या संकेत देती है?" }, "options": ["He wanted a reward", "He is modest and didn't make a big deal of it", "He was angry to be late"], "optionsHi": ["वह इनाम चाहता था", "वह विनम्र है और उसने इसे बड़ी बात नहीं बनाया", "उसे देर होने पर ग़ुस्सा आया"], "answer": 1, "explanation": { "en": "He simply went home and only mentions being late for supper.", "hi": "वह बस चुपचाप घर चला गया और सिर्फ़ खाने में देर होने की बात करता है।" }, "kind": "inference", "evidence": "Il est simplement rentré chez lui." }
     ]
   },
   "writing": {
@@ -146,14 +146,14 @@
     "minWords": 80,
     "maxWords": 120,
     "hints": [
-      { "en": "Paragraph 1 (imparfait): day, time, weather, where you were, what you were doing, how you felt.", "hi": "पहला अनुच्छेद (इम्पारफ़े): दिन, समय, मौसम, आप कहाँ थे, क्या कर रहे थे, कैसा महसूस कर रहे थे।" },
-      { "en": "Paragraph 2 (passé composé): 'Soudain / Tout à coup …', then 3–4 events.", "hi": "दूसरा अनुच्छेद (पासे कॉम्पोज़े): 'Soudain / Tout à coup …', फिर 3–4 घटनाएँ।" },
-      { "en": "End with a feeling (imparfait) or a final event (passé composé).", "hi": "अंत किसी भावना (इम्पारफ़े) या आख़िरी घटना (पासे कॉम्पोज़े) से कीजिए।" }
+      { "en": "Paragraph 1 (imparfait): day, time, weather, where you were, what you were doing, how you felt.", "hi": "पहला अनुच्छेद (imparfait): दिन, समय, मौसम, आप कहाँ थे, क्या कर रहे थे, कैसा महसूस कर रहे थे।" },
+      { "en": "Paragraph 2 (passé composé): 'Soudain / Tout à coup …', then 3–4 events.", "hi": "दूसरा अनुच्छेद (passé composé): 'Soudain / Tout à coup …', फिर 3–4 घटनाएँ।" },
+      { "en": "End with a feeling (imparfait) or a final event (passé composé).", "hi": "अंत किसी भावना (imparfait) या आख़िरी घटना (passé composé) से कीजिए।" }
     ],
     "usefulPhrases": [
-      { "fr": "C'était un lundi matin. Il pleuvait.", "en": "It was a Monday morning. It was raining.", "hi": "सोमवार की सुबह थी। बारिश हो रही थी।", "pron": "से-तै ऐँ लैँ-दी मा-तैँ। ईल प्लö-वै" },
+      { "fr": "C'était un lundi matin. Il pleuvait.", "en": "It was a Monday morning. It was raining.", "hi": "सोमवार की सुबह थी। बारिश हो रही थी।", "pron": "से-ते ऐं लैं-दी मा-तैं। ईल प्ल-वे" },
       { "fr": "Tout à coup, …", "en": "All of a sudden, …", "hi": "एकाएक, …", "pron": "तू ता कू" },
-      { "fr": "Heureusement, …", "en": "Luckily, …", "hi": "शुक्र है, …", "pron": "ö-ग़ö-ज़-माँ" },
+      { "fr": "Heureusement, …", "en": "Luckily, …", "hi": "शुक्र है, …", "pron": "अ-रज़-माँ" },
       { "fr": "Finalement, …", "en": "In the end, …", "hi": "आख़िरकार, …", "pron": "फ़ी-नाल-माँ" }
     ],
     "model": {
@@ -161,30 +161,30 @@
       "en": "It was a Monday morning in February. It was minus twenty and there was black ice on the pavements. I was late, so I was walking fast to the bus stop. I was thinking about my nine o'clock meeting.\n\nAll of a sudden I saw an old lady on the ground in front of the bakery. Her arm hurt. I called 911 and waited for the ambulance with her. While we were waiting, we talked about her life in Haiti. The ambulance arrived after fifteen minutes.\n\nIn the end I got to the office at ten, but my boss understood. I was happy: I had helped someone."
     },
     "checklist": [
-      { "en": "Is the background (weather, time, feelings, actions in progress) in the imparfait?", "hi": "क्या पृष्ठभूमि (मौसम, समय, भावनाएँ, चल रहे काम) इम्पारफ़े में है?" },
-      { "en": "Are the main events in the passé composé, with être for movement verbs?", "hi": "क्या मुख्य घटनाएँ पासे कॉम्पोज़े में हैं, और गति वाली क्रियाओं के साथ être है?" },
+      { "en": "Is the background (weather, time, feelings, actions in progress) in the imparfait?", "hi": "क्या पृष्ठभूमि (मौसम, समय, भावनाएँ, चल रहे काम) imparfait में है?" },
+      { "en": "Are the main events in the passé composé, with être for movement verbs?", "hi": "क्या मुख्य घटनाएँ passé composé में हैं, और गति वाली क्रियाओं के साथ être है?" },
       { "en": "Did you use at least one 'quand' or 'pendant que' sentence?", "hi": "क्या आपने कम से कम एक 'quand' या 'pendant que' वाला वाक्य लिखा?" }
     ]
   },
   "review": {
     "fromDays": [33, 36, 43, 44, 45, 46],
     "items": [
-      { "fr": "Il fait froid et il neige.", "en": "It's cold and it's snowing.", "hi": "ठंड है और बर्फ़ गिर रही है।", "pron": "ईल फ़ै फ़्रवा ए ईल नैझ़" },
-      { "fr": "J'ai mal au genou.", "en": "My knee hurts.", "hi": "मेरे घुटने में दर्द है।", "pron": "झ़े मा-लो झ़ö-नू" },
-      { "fr": "J'ai vu un accident.", "en": "I saw an accident.", "hi": "मैंने एक दुर्घटना देखी।", "pron": "झ़े वü ऐँ नाक-सी-दाँ" },
-      { "fr": "Elle est tombée sur la glace.", "en": "She fell on the ice.", "hi": "वह बर्फ़ पर गिर गई।", "pron": "ऐ-लै तोँ-बे सüग़ ला ग्लास" },
-      { "fr": "Je suis arrivé(e) il y a dix minutes.", "en": "I arrived ten minutes ago.", "hi": "मैं दस मिनट पहले पहुँचा/पहुँची।", "pron": "झ़ö स्üई ज़ा-ग़ी-वे ई-लि-या दी मी-नüत" },
-      { "fr": "Quand j'étais petit, j'avais peur du noir.", "en": "When I was little, I was afraid of the dark.", "hi": "जब मैं छोटा था, मुझे अँधेरे से डर लगता था।", "pron": "काँ झ़े-तै प्ती झ़ा-वै पöग़ दü न्वाग़" },
-      { "fr": "Il y avait beaucoup de monde.", "en": "There were lots of people.", "hi": "बहुत भीड़ थी।", "pron": "ई-लि-या-वै बो-कू द मोँद" }
+      { "fr": "Il fait froid et il neige.", "en": "It's cold and it's snowing.", "hi": "ठंड है और बर्फ़ गिर रही है।", "pron": "ईल फ़े फ़्रवा ए ईल नेज" },
+      { "fr": "J'ai mal au genou.", "en": "My knee hurts.", "hi": "मेरे घुटने में दर्द है।", "pron": "जे मा-लो ज-नू" },
+      { "fr": "J'ai vu un accident.", "en": "I saw an accident.", "hi": "मैंने एक दुर्घटना देखी।", "pron": "जे व्यू ऐं नाक-सी-दाँ" },
+      { "fr": "Elle est tombée sur la glace.", "en": "She fell on the ice.", "hi": "वह बर्फ़ पर गिर गई।", "pron": "ए-ले तों-बे स्यूर ला ग्लास" },
+      { "fr": "Je suis arrivé(e) il y a dix minutes.", "en": "I arrived ten minutes ago.", "hi": "मैं दस मिनट पहले पहुँचा/पहुँची।", "pron": "ज स्यूई ज़ा-री-वे ई-लि-या दी मी-न्यूत" },
+      { "fr": "Quand j'étais petit, j'avais peur du noir.", "en": "When I was little, I was afraid of the dark.", "hi": "जब मैं छोटा था, मुझे अँधेरे से डर लगता था।", "pron": "काँ जे-ते प्ती जा-वे पर द्यू न्वार" },
+      { "fr": "Il y avait beaucoup de monde.", "en": "There were lots of people.", "hi": "बहुत भीड़ थी।", "pron": "ई-लि-या-वे बो-कू द मोंद" }
     ]
   },
   "assessment": [
-    { "type": "mcq", "prompt": { "en": "Choose the right pair: 'Je ___ la télé quand mon frère ___.'", "hi": "सही जोड़ी चुनिए: 'Je ___ la télé quand mon frère ___.'" }, "options": ["ai regardé / arrivait", "regardais / est arrivé", "regardais / arrivait", "ai regardé / est arrivé"], "answer": 1, "explanation": { "en": "Action in progress (imparfait) interrupted by an event (passé composé).", "hi": "चल रहा काम (इम्पारफ़े), जिसे एक घटना (पासे कॉम्पोज़े) ने रोका।" } },
-    { "type": "fill", "prompt": { "en": "Complete with pleuvoir in the imparfait.", "hi": "pleuvoir के इम्पारफ़े से पूरा कीजिए।" }, "sentence": "Il ___ quand je suis sorti.", "answer": "pleuvait", "accept": [], "explanation": { "en": "Weather as background → imparfait: il pleuvait.", "hi": "पृष्ठभूमि वाला मौसम → इम्पारफ़े: il pleuvait।" } },
-    { "type": "mcq", "prompt": { "en": "Which word usually introduces an event in the passé composé?", "hi": "कौन-सा शब्द आमतौर पर पासे कॉम्पोज़े वाली घटना लाता है?" }, "options": ["d'habitude", "tout à coup", "pendant que", "tous les jours"], "answer": 1, "explanation": { "en": "tout à coup = all of a sudden → a single event.", "hi": "tout à coup = एकाएक → एक घटना।" } },
+    { "type": "mcq", "prompt": { "en": "Choose the right pair: 'Je ___ la télé quand mon frère ___.'", "hi": "सही जोड़ी चुनिए: 'Je ___ la télé quand mon frère ___.'" }, "options": ["ai regardé / arrivait", "regardais / est arrivé", "regardais / arrivait", "ai regardé / est arrivé"], "answer": 1, "explanation": { "en": "Action in progress (imparfait) interrupted by an event (passé composé).", "hi": "चल रहा काम (imparfait), जिसे एक घटना (passé composé) ने रोका।" } },
+    { "type": "fill", "prompt": { "en": "Complete with pleuvoir in the imparfait.", "hi": "pleuvoir के imparfait से पूरा कीजिए।" }, "sentence": "Il ___ quand je suis sorti.", "answer": "pleuvait", "accept": [], "explanation": { "en": "Weather as background → imparfait: il pleuvait.", "hi": "पृष्ठभूमि वाला मौसम → imparfait: il pleuvait।" } },
+    { "type": "mcq", "prompt": { "en": "Which word usually introduces an event in the passé composé?", "hi": "कौन-सा शब्द आमतौर पर passé composé वाली घटना लाता है?" }, "options": ["d'habitude", "tout à coup", "pendant que", "tous les jours"], "answer": 1, "explanation": { "en": "tout à coup = all of a sudden → a single event.", "hi": "tout à coup = एकाएक → एक घटना।" } },
     { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "I was sleeping when the phone rang.", "hi": "मैं सो रहा था, तभी फ़ोन बजा।" }, "answer": "Je dormais quand le téléphone a sonné.", "accept": ["Je dormais quand le téléphone a sonné", "Je dormais lorsque le téléphone a sonné."], "explanation": { "en": "dormais (in progress) + quand + a sonné (event).", "hi": "dormais (चल रहा काम) + quand + a sonné (घटना)।" } },
-    { "type": "fill", "prompt": { "en": "Complete with être in the imparfait.", "hi": "être के इम्पारफ़े से पूरा कीजिए।" }, "sentence": "Le passant ___ très gentil.", "answer": "était", "accept": [], "explanation": { "en": "Description of a person → imparfait.", "hi": "किसी व्यक्ति का वर्णन → इम्पारफ़े।" } },
-    { "type": "reorder", "prompt": { "en": "Put the words in order: Suddenly I slipped.", "hi": "शब्दों को सही क्रम में रखिए: अचानक मैं फिसल गया।" }, "words": ["glissé", "Soudain", "j'ai", "."], "answer": "Soudain j'ai glissé.", "explanation": { "en": "Time word first, then the event in the passé composé.", "hi": "पहले समय वाला शब्द, फिर पासे कॉम्पोज़े में घटना।" } },
-    { "type": "mcq", "prompt": { "en": "Which Hindi verb form usually matches the imparfait?", "hi": "कौन-सा हिंदी क्रिया रूप आमतौर पर इम्पारफ़े से मेल खाता है?" }, "options": ["गिर गया", "चल रहा था", "पहुँचा"], "answer": 1, "explanation": { "en": "रहा था = action in progress in the past → imparfait.", "hi": "रहा था = अतीत में चल रहा काम → इम्पारफ़े।" } }
+    { "type": "fill", "prompt": { "en": "Complete with être in the imparfait.", "hi": "être के imparfait से पूरा कीजिए।" }, "sentence": "Le passant ___ très gentil.", "answer": "était", "accept": [], "explanation": { "en": "Description of a person → imparfait.", "hi": "किसी व्यक्ति का वर्णन → imparfait।" } },
+    { "type": "reorder", "prompt": { "en": "Put the words in order: Suddenly I slipped.", "hi": "शब्दों को सही क्रम में रखिए: अचानक मैं फिसल गया।" }, "words": ["glissé", "Soudain", "j'ai", "."], "answer": "Soudain j'ai glissé.", "explanation": { "en": "Time word first, then the event in the passé composé.", "hi": "पहले समय वाला शब्द, फिर passé composé में घटना।" } },
+    { "type": "mcq", "prompt": { "en": "Which Hindi verb form usually matches the imparfait?", "hi": "कौन-सा हिंदी क्रिया रूप आमतौर पर imparfait से मेल खाता है?" }, "options": ["गिर गया", "चल रहा था", "पहुँचा"], "answer": 1, "explanation": { "en": "रहा था = action in progress in the past → imparfait.", "hi": "रहा था = अतीत में चल रहा काम → imparfait।" } }
   ]
 }

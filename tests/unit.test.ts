@@ -13,6 +13,10 @@ import { ruleBasedFeedback } from "@/server/writing-check";
 import { TEF_CANADA, SECTION_ORDER } from "@/content/tef-config";
 import { pastDeadline, readingQuestions, listeningQuestions, listeningItems } from "@/server/exam";
 import { recommendations } from "@/server/reports";
+import { toClientLesson } from "@/server/lesson-view";
+import { Mcq } from "@/content/schema";
+import { lintPron } from "@/content/lint";
+import { BRIDGE_DAYS, HINDI_BRIDGES } from "@/lib/hindi-bridges";
 
 const T0 = new Date("2026-10-18T12:00:00Z");
 const MIN = 60_000, DAY = 86_400_000;
@@ -197,6 +201,38 @@ describe("course content", () => {
   it("loads the pronunciation lab", () => {
     const p = loadPronunciationFromDisk();
     expect(p.sounds.length).toBeGreaterThanOrEqual(16);
+  });
+  it("gives every lesson question Hindi text", () => {
+    for (const { day: d } of days) for (const q of [...d.listening.questions, ...d.reading.questions]) expect(q.q.hi, `day ${d.day}: ${q.q.en}`).toBeTruthy();
+  });
+  it("sends questions with Hindi to the browser but never the answer", () => {
+    const c = toClientLesson(days[0].day);
+    const q = c.listening.questions[0] as Record<string, unknown>;
+    expect((q.q as { hi?: string }).hi).toBeTruthy();
+    expect(q).not.toHaveProperty("answer");
+    expect(q).not.toHaveProperty("explanation");
+  });
+  it("rejects Hindi options that do not match the English options", () => {
+    const base = { q: { en: "Where?" }, options: ["here", "there", "nowhere"], answer: 0, explanation: { en: "x", hi: "क" } };
+    expect(Mcq.safeParse({ ...base, optionsHi: ["यहाँ", "वहाँ", "कहीं नहीं"] }).success).toBe(true);
+    expect(Mcq.safeParse({ ...base, optionsHi: ["यहाँ", "वहाँ"] }).success).toBe(false);
+  });
+  it("uses the owner's pronunciation spellings", () => {
+    const vocab = new Map(days.flatMap(({ day: d }) => [...d.vocabulary, ...d.phrases]).map((v) => [v.fr.toLowerCase(), v.pron]));
+    expect(vocab.get("bonjour")).toBe("बों-जूर");
+    expect(vocab.get("salut")).toBe("सा-ल्यू");
+    expect(vocab.get("merci")).toBe("मेर-सी");
+    const out: string[] = [];
+    lintPron("test", "सा-लü", out);
+    lintPron("test", "बोँ-झ़ूग़", out);
+    expect(out.length).toBeGreaterThanOrEqual(2);
+  });
+  it("puts Hindi bridge boxes on real lessons with both languages", () => {
+    for (const [day, key] of Object.entries(BRIDGE_DAYS)) {
+      expect(days[Number(day) - 1]).toBeTruthy();
+      expect(HINDI_BRIDGES[key].text.hi).toMatch(/[\u0900-\u097F]/);
+      expect(HINDI_BRIDGES[key].text.en).toBeTruthy();
+    }
   });
 });
 

@@ -16,27 +16,27 @@
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "finir", "en": "to finish", "hi": "ख़त्म करना / ख़त्म होना", "pron": "फ़ी-नीग़", "ipa": "finiʁ", "pos": "verb" },
-    { "fr": "choisir", "en": "to choose", "hi": "चुनना", "pron": "श्वा-ज़ीग़", "ipa": "ʃwaziʁ", "pos": "verb" },
-    { "fr": "remplir", "en": "to fill (in)", "hi": "भरना", "pron": "ग़ाँ-प्लीग़", "ipa": "ʁɑ̃pliʁ", "pos": "verb", "note": { "en": "remplir un formulaire = to fill in a form.", "hi": "remplir un formulaire = फ़ॉर्म भरना।" } },
-    { "fr": "réussir", "en": "to succeed / to pass (an exam)", "hi": "सफल होना / (परीक्षा) पास करना", "pron": "ग़े-ü-सीग़", "ipa": "ʁeysiʁ", "pos": "verb", "note": { "en": "réussir un examen = to pass an exam. 'Passer un examen' means to take it!", "hi": "réussir un examen = परीक्षा पास करना। 'Passer un examen' का मतलब है परीक्षा देना!" } },
-    { "fr": "attendre", "en": "to wait (for)", "hi": "इंतज़ार करना", "pron": "आ-ताँद्ग़", "ipa": "atɑ̃dʁ", "pos": "verb" },
-    { "fr": "vendre", "en": "to sell", "hi": "बेचना", "pron": "वाँद्ग़", "ipa": "vɑ̃dʁ", "pos": "verb" },
-    { "fr": "répondre (à)", "en": "to answer / to reply (to)", "hi": "जवाब देना", "pron": "ग़े-पोँद्ग़", "ipa": "ʁepɔ̃dʁ", "pos": "verb", "lemma": "répondre" },
-    { "fr": "entendre", "en": "to hear", "hi": "सुनना (आवाज़ सुनाई देना)", "pron": "आँ-ताँद्ग़", "ipa": "ɑ̃tɑ̃dʁ", "pos": "verb" },
-    { "fr": "perdre", "en": "to lose", "hi": "खोना", "pron": "पैग़द्ग़", "ipa": "pɛʁdʁ", "pos": "verb" },
-    { "fr": "le guichet", "en": "counter / service window", "hi": "काउंटर / खिड़की", "pron": "लö गी-शै", "ipa": "lə ɡiʃɛ", "pos": "noun", "gender": "m", "lemma": "guichet", "note": { "en": "In Canada, 'un guichet automatique' is an ATM.", "hi": "कनाडा में 'un guichet automatique' का मतलब एटीएम है।" } },
-    { "fr": "le compte", "en": "(bank) account", "hi": "(बैंक) खाता", "pron": "लö कोँत", "ipa": "lə kɔ̃t", "pos": "noun", "gender": "m", "lemma": "compte", "note": { "en": "Silent p, like comptable.", "hi": "comptable की तरह p मूक है।" } },
-    { "fr": "le formulaire", "en": "form", "hi": "फ़ॉर्म / प्रपत्र", "pron": "लö फ़ॉग़-मü-लैग़", "ipa": "lə fɔʁmylɛʁ", "pos": "noun", "gender": "m", "lemma": "formulaire" },
+    { "fr": "finir", "en": "to finish", "hi": "ख़त्म करना / ख़त्म होना", "pron": "फ़ी-नीर", "ipa": "finiʁ", "pos": "verb" },
+    { "fr": "choisir", "en": "to choose", "hi": "चुनना", "pron": "श्वा-ज़ीर", "ipa": "ʃwaziʁ", "pos": "verb" },
+    { "fr": "remplir", "en": "to fill (in)", "hi": "भरना", "pron": "राँ-प्लीर", "ipa": "ʁɑ̃pliʁ", "pos": "verb", "note": { "en": "remplir un formulaire = to fill in a form.", "hi": "remplir un formulaire = फ़ॉर्म भरना।" } },
+    { "fr": "réussir", "en": "to succeed / to pass (an exam)", "hi": "सफल होना / (परीक्षा) पास करना", "pron": "रे-यू-सीर", "ipa": "ʁeysiʁ", "pos": "verb", "note": { "en": "réussir un examen = to pass an exam. 'Passer un examen' means to take it!", "hi": "réussir un examen = परीक्षा पास करना। 'Passer un examen' का मतलब है परीक्षा देना!" } },
+    { "fr": "attendre", "en": "to wait (for)", "hi": "इंतज़ार करना", "pron": "आ-ताँद्र", "ipa": "atɑ̃dʁ", "pos": "verb" },
+    { "fr": "vendre", "en": "to sell", "hi": "बेचना", "pron": "वाँद्र", "ipa": "vɑ̃dʁ", "pos": "verb" },
+    { "fr": "répondre (à)", "en": "to answer / to reply (to)", "hi": "जवाब देना", "pron": "रे-पोंद्र", "ipa": "ʁepɔ̃dʁ", "pos": "verb", "lemma": "répondre" },
+    { "fr": "entendre", "en": "to hear", "hi": "सुनना (आवाज़ सुनाई देना)", "pron": "आँ-ताँद्र", "ipa": "ɑ̃tɑ̃dʁ", "pos": "verb" },
+    { "fr": "perdre", "en": "to lose", "hi": "खोना", "pron": "पेरद्र", "ipa": "pɛʁdʁ", "pos": "verb" },
+    { "fr": "le guichet", "en": "counter / service window", "hi": "काउंटर / खिड़की", "pron": "ल गी-शे", "ipa": "lə ɡiʃɛ", "pos": "noun", "gender": "m", "lemma": "guichet", "note": { "en": "In Canada, 'un guichet automatique' is an ATM.", "hi": "कनाडा में 'un guichet automatique' का मतलब एटीएम है।" } },
+    { "fr": "le compte", "en": "(bank) account", "hi": "(बैंक) खाता", "pron": "ल कोंत", "ipa": "lə kɔ̃t", "pos": "noun", "gender": "m", "lemma": "compte", "note": { "en": "Silent p, like comptable.", "hi": "comptable की तरह p मूक है।" } },
+    { "fr": "le formulaire", "en": "form", "hi": "फ़ॉर्म / प्रपत्र", "pron": "ल फ़ॉर-म्यू-लेर", "ipa": "lə fɔʁmylɛʁ", "pos": "noun", "gender": "m", "lemma": "formulaire" },
     { "fr": "la file d'attente", "en": "queue / line", "hi": "क़तार / लाइन", "pron": "ला फ़ील दा-ताँत", "ipa": "la fil datɑ̃t", "pos": "noun", "gender": "f", "lemma": "file" }
   ],
   "phrases": [
-    { "fr": "À quelle heure tu finis ?", "en": "What time do you finish?", "hi": "तुम कितने बजे ख़त्म करते हो?", "pron": "आ कै लöग़ तü फ़ी-नी" },
-    { "fr": "Je finis à dix-sept heures.", "en": "I finish at 5 p.m.", "hi": "मैं शाम पाँच बजे ख़त्म करता/करती हूँ।", "pron": "झ़ö फ़ी-नी आ दी-सै तöग़" },
-    { "fr": "J'attends mon tour.", "en": "I'm waiting for my turn.", "hi": "मैं अपनी बारी का इंतज़ार कर रहा/रही हूँ।", "pron": "झ़ा-ताँ मोँ तूग़" },
-    { "fr": "Prenez un numéro et attendez, s'il vous plaît.", "en": "Take a number and wait, please.", "hi": "कृपया एक नंबर लीजिए और इंतज़ार कीजिए।", "pron": "प्रö-ने ज़ैँ नü-मे-ग़ो ए आ-ताँ-दे सील वू प्लै" },
-    { "fr": "Je voudrais ouvrir un compte.", "en": "I'd like to open an account.", "hi": "मैं एक खाता खोलना चाहूँगा/चाहूँगी।", "pron": "झ़ö वू-द्रै ज़ू-व्रीग़ ऐँ कोँत" },
-    { "fr": "Il ne répond pas.", "en": "He's not answering.", "hi": "वह जवाब नहीं दे रहा।", "pron": "ईल न्ö ग़े-पोँ पा" }
+    { "fr": "À quelle heure tu finis ?", "en": "What time do you finish?", "hi": "तुम कितने बजे ख़त्म करते हो?", "pron": "आ के लर त्यू फ़ी-नी" },
+    { "fr": "Je finis à dix-sept heures.", "en": "I finish at 5 p.m.", "hi": "मैं शाम पाँच बजे ख़त्म करता/करती हूँ।", "pron": "ज फ़ी-नी आ दी-से तर" },
+    { "fr": "J'attends mon tour.", "en": "I'm waiting for my turn.", "hi": "मैं अपनी बारी का इंतज़ार कर रहा/रही हूँ।", "pron": "जा-ताँ मों तूर" },
+    { "fr": "Prenez un numéro et attendez, s'il vous plaît.", "en": "Take a number and wait, please.", "hi": "कृपया एक नंबर लीजिए और इंतज़ार कीजिए।", "pron": "प्र-ने ज़ैं न्यू-मे-रो ए आ-ताँ-दे सील वू प्ले" },
+    { "fr": "Je voudrais ouvrir un compte.", "en": "I'd like to open an account.", "hi": "मैं एक खाता खोलना चाहूँगा/चाहूँगी।", "pron": "ज वू-द्रे ज़ू-व्रीर ऐं कोंत" },
+    { "fr": "Il ne répond pas.", "en": "He's not answering.", "hi": "वह जवाब नहीं दे रहा।", "pron": "ईल न रे-पों पा" }
   ],
   "grammar": {
     "title": { "en": "Present tense of -ir and -re verbs", "hi": "-ir और -re क्रियाओं का वर्तमान काल" },
@@ -49,12 +49,12 @@
       "hi": "दो पूर्वसर्ग (preposition) वाले जाल। अंग्रेज़ी 'wait FOR the bus' और हिंदी 'बस का इंतज़ार' दोनों में एक छोटा शब्द है, पर फ़्रेंच में नहीं: attendre le bus ('attendre pour' कभी नहीं)। उल्टा भी: अंग्रेज़ी 'answer the email' में कुछ नहीं, पर फ़्रेंच में à चाहिए — répondre à un courriel, répondre au téléphone। यहाँ हिंदी मदद करती है: 'ईमेल का जवाब देना / किसी को जवाब देना' — à को उसी का/को की तरह सोचिए।"
     },
     "examples": [
-      { "fr": "Je finis le travail à cinq heures.", "en": "I finish work at five.", "hi": "मैं पाँच बजे काम ख़त्म करता/करती हूँ।", "pron": "झ़ö फ़ी-नी लö त्रा-वाय आ सैँ-कöग़" },
-      { "fr": "Nous choisissons un dessert.", "en": "We're choosing a dessert.", "hi": "हम एक मिठाई चुन रहे हैं।", "pron": "नू श्वा-ज़ी-सोँ ज़ैँ दे-सैग़" },
-      { "fr": "Les cours finissent à midi.", "en": "Classes finish at noon.", "hi": "कक्षाएँ दोपहर बारह बजे ख़त्म होती हैं।", "pron": "ले कूग़ फ़ी-नीस आ मी-दी" },
-      { "fr": "J'attends l'autobus depuis dix minutes.", "en": "I've been waiting for the bus for ten minutes.", "hi": "मैं दस मिनट से बस का इंतज़ार कर रहा/रही हूँ।", "pron": "झ़ा-ताँ लो-तो-बüस द्ö-प्üई दी मी-नüत", "note": { "en": "depuis + present: full lesson on Day 36.", "hi": "depuis + वर्तमान काल: पूरा पाठ दिन 36 में।" } },
-      { "fr": "Elle vend sa voiture.", "en": "She's selling her car.", "hi": "वह अपनी गाड़ी बेच रही है।", "pron": "ऐल वाँ सा व्वा-तüग़" },
-      { "fr": "Vous répondez au courriel ?", "en": "Are you replying to the email?", "hi": "क्या आप ईमेल का जवाब दे रहे हैं?", "pron": "वू ग़े-पोँ-दे ओ कू-ग्यैल" }
+      { "fr": "Je finis le travail à cinq heures.", "en": "I finish work at five.", "hi": "मैं पाँच बजे काम ख़त्म करता/करती हूँ।", "pron": "ज फ़ी-नी ल त्रा-वाय आ सैं-कर" },
+      { "fr": "Nous choisissons un dessert.", "en": "We're choosing a dessert.", "hi": "हम एक मिठाई चुन रहे हैं।", "pron": "नू श्वा-ज़ी-सों ज़ैं दे-सेर" },
+      { "fr": "Les cours finissent à midi.", "en": "Classes finish at noon.", "hi": "कक्षाएँ दोपहर बारह बजे ख़त्म होती हैं।", "pron": "ले कूर फ़ी-नीस आ मी-दी" },
+      { "fr": "J'attends l'autobus depuis dix minutes.", "en": "I've been waiting for the bus for ten minutes.", "hi": "मैं दस मिनट से बस का इंतज़ार कर रहा/रही हूँ।", "pron": "जा-ताँ लो-तो-ब्यूस द-प्यूई दी मी-न्यूत", "note": { "en": "depuis + present: full lesson on Day 36.", "hi": "depuis + वर्तमान काल: पूरा पाठ दिन 36 में।" } },
+      { "fr": "Elle vend sa voiture.", "en": "She's selling her car.", "hi": "वह अपनी गाड़ी बेच रही है।", "pron": "एल वाँ सा व्वा-त्यूर" },
+      { "fr": "Vous répondez au courriel ?", "en": "Are you replying to the email?", "hi": "क्या आप ईमेल का जवाब दे रहे हैं?", "pron": "वू रे-पों-दे ओ कू-ग्येल" }
     ],
     "pitfalls": [
       { "en": "Not 'J'attends pour le bus' — just 'J'attends le bus'.", "hi": "'J'attends pour le bus' नहीं — सिर्फ़ 'J'attends le bus'।" },
@@ -73,8 +73,8 @@
       { "fr": "ils finissent", "en": "they finish", "hi": "वे ख़त्म करते हैं", "pron": "ईल फ़ी-नीस", "ipa": "il finis" },
       { "fr": "il attend", "en": "he waits", "hi": "वह इंतज़ार करता है", "pron": "ई-ला-ताँ", "ipa": "il atɑ̃" },
       { "fr": "ils attendent", "en": "they wait", "hi": "वे इंतज़ार करते हैं", "pron": "ईल ज़ा-ताँद", "ipa": "il zatɑ̃d" },
-      { "fr": "elle vend", "en": "she sells", "hi": "वह बेचती है", "pron": "ऐल वाँ", "ipa": "ɛl vɑ̃" },
-      { "fr": "elles vendent", "en": "they (f.) sell", "hi": "वे बेचती हैं", "pron": "ऐल वाँद", "ipa": "ɛl vɑ̃d" }
+      { "fr": "elle vend", "en": "she sells", "hi": "वह बेचती है", "pron": "एल वाँ", "ipa": "ɛl vɑ̃" },
+      { "fr": "elles vendent", "en": "they (f.) sell", "hi": "वे बेचती हैं", "pron": "एल वाँद", "ipa": "ɛl vɑ̃d" }
     ]
   },
   "listening": {
@@ -100,11 +100,11 @@
       { "speaker": "Le conseiller", "voice": "m2", "fr": "Pas de problème. Nous finissons dans vingt minutes.", "en": "No problem. We'll finish in twenty minutes.", "hi": "कोई बात नहीं। हम बीस मिनट में ख़त्म कर देंगे।" }
     ],
     "questions": [
-      { "q": { "en": "Why is Priya at the bank?" }, "options": ["To change money", "To open an account", "To sell her card"], "answer": 1, "explanation": { "en": "'Je voudrais ouvrir un compte.'", "hi": "'Je voudrais ouvrir un compte.' — खाता खोलने।" }, "kind": "literal", "evidence": "Je voudrais ouvrir un compte. Je suis nouvelle au Canada." },
-      { "q": { "en": "What must she do first when she arrives?" }, "options": ["Fill in a form", "Take a number and wait", "Go to counter three"], "answer": 1, "explanation": { "en": "'Prenez un numéro à la machine et attendez'.", "hi": "'Prenez un numéro à la machine et attendez' — नंबर लेकर इंतज़ार।" }, "kind": "literal", "evidence": "Prenez un numéro à la machine et attendez" },
-      { "q": { "en": "Which counter does she go to?" }, "options": ["Counter 3", "Counter 47", "Counter 7"], "answer": 0, "explanation": { "en": "'Numéro quarante-sept, au guichet trois' — 47 is her number, 3 is the counter.", "hi": "'Numéro quarante-sept, au guichet trois' — 47 उसका नंबर है, 3 काउंटर।" }, "kind": "literal", "evidence": "Numéro quarante-sept, au guichet trois, s'il vous plaît." },
-      { "q": { "en": "Why does Priya choose the green card?" }, "options": ["She likes green", "The account is free for one year for newcomers", "It's faster"], "answer": 1, "explanation": { "en": "'le compte est gratuit pendant un an pour les nouveaux arrivants'.", "hi": "'le compte est gratuit pendant un an pour les nouveaux arrivants' — एक साल मुफ़्त।" }, "kind": "inference", "evidence": "le compte est gratuit pendant un an pour les nouveaux arrivants" },
-      { "q": { "en": "Will Priya be late for her class?" }, "options": ["Yes, they finish at five", "No, they finish in twenty minutes", "We don't know"], "answer": 1, "explanation": { "en": "'Nous finissons dans vingt minutes.'", "hi": "'Nous finissons dans vingt minutes.' — बीस मिनट में ख़त्म।" }, "kind": "inference", "evidence": "Nous finissons dans vingt minutes." }
+      { "q": { "en": "Why is Priya at the bank?", "hi": "प्रिया बैंक में क्यों है?" }, "options": ["To change money", "To open an account", "To sell her card"], "optionsHi": ["पैसे बदलवाने के लिए", "खाता खुलवाने के लिए", "अपना कार्ड बेचने के लिए"], "answer": 1, "explanation": { "en": "'Je voudrais ouvrir un compte.'", "hi": "'Je voudrais ouvrir un compte.' — खाता खोलने।" }, "kind": "literal", "evidence": "Je voudrais ouvrir un compte. Je suis nouvelle au Canada." },
+      { "q": { "en": "What must she do first when she arrives?", "hi": "पहुँचने पर उसे सबसे पहले क्या करना चाहिए?" }, "options": ["Fill in a form", "Take a number and wait", "Go to counter three"], "optionsHi": ["फ़ॉर्म भरना", "नंबर लेकर प्रतीक्षा करना", "तीन नंबर के काउंटर पर जाना"], "answer": 1, "explanation": { "en": "'Prenez un numéro à la machine et attendez'.", "hi": "'Prenez un numéro à la machine et attendez' — नंबर लेकर इंतज़ार।" }, "kind": "literal", "evidence": "Prenez un numéro à la machine et attendez" },
+      { "q": { "en": "Which counter does she go to?", "hi": "वह किस काउंटर पर जाती है?" }, "options": ["Counter 3", "Counter 47", "Counter 7"], "answer": 0, "explanation": { "en": "'Numéro quarante-sept, au guichet trois' — 47 is her number, 3 is the counter.", "hi": "'Numéro quarante-sept, au guichet trois' — 47 उसका नंबर है, 3 काउंटर।" }, "kind": "literal", "evidence": "Numéro quarante-sept, au guichet trois, s'il vous plaît." },
+      { "q": { "en": "Why does Priya choose the green card?", "hi": "प्रिया हरा कार्ड क्यों चुनती है?" }, "options": ["She likes green", "The account is free for one year for newcomers", "It's faster"], "optionsHi": ["उसे हरा रंग पसंद है", "नए प्रवासियों के लिए खाता एक साल तक मुफ़्त है", "यह ज़्यादा तेज़ है"], "answer": 1, "explanation": { "en": "'le compte est gratuit pendant un an pour les nouveaux arrivants'.", "hi": "'le compte est gratuit pendant un an pour les nouveaux arrivants' — एक साल मुफ़्त।" }, "kind": "inference", "evidence": "le compte est gratuit pendant un an pour les nouveaux arrivants" },
+      { "q": { "en": "Will Priya be late for her class?", "hi": "क्या प्रिया अपनी कक्षा के लिए देर से पहुँचेगी?" }, "options": ["Yes, they finish at five", "No, they finish in twenty minutes", "We don't know"], "optionsHi": ["हाँ, वे पाँच बजे ख़त्म करते हैं", "नहीं, वे बीस मिनट में ख़त्म करते हैं", "हमें नहीं पता"], "answer": 1, "explanation": { "en": "'Nous finissons dans vingt minutes.'", "hi": "'Nous finissons dans vingt minutes.' — बीस मिनट में ख़त्म।" }, "kind": "inference", "evidence": "Nous finissons dans vingt minutes." }
     ],
     "dictation": ["Je voudrais ouvrir un compte.", "Remplissez le formulaire.", "Je choisis la carte verte."],
     "gapFill": { "text": "D'abord, ___ le formulaire. Ensuite, ___ votre carte : la carte bleue ou la carte verte.", "answers": ["remplissez", "choisissez"] }
@@ -116,11 +116,11 @@
       "hi": "-ir और -re क्रियाओं से अपने दिन के बारे में सवालों के जवाब दीजिए: आप कब ख़त्म करते हैं, बस का कितना इंतज़ार करते हैं, क्या चुनते हैं, संदेशों का जवाब कैसे देते हैं।"
     },
     "prompts": [
-      { "fr": "À quelle heure vous finissez le travail ?", "en": "What time do you finish work?", "hi": "आप कितने बजे काम ख़त्म करते हैं?", "pron": "आ कै लöग़ वू फ़ी-नी-से लö त्रा-वाय", "model": "Je finis le travail à dix-sept heures trente." },
-      { "fr": "Et vos cours de français ?", "en": "And your French classes?", "hi": "और आपकी फ़्रेंच क्लास?", "pron": "ए वो कूग़ दö फ़्राँ-सै", "model": "Les cours finissent à vingt et une heures." },
-      { "fr": "Vous attendez l'autobus le matin ?", "en": "Do you wait for the bus in the morning?", "hi": "क्या आप सुबह बस का इंतज़ार करते हैं?", "pron": "वू ज़ा-ताँ-दे लो-तो-बüस लö मा-तैँ", "model": "Oui, j'attends l'autobus dix minutes à l'arrêt." },
-      { "fr": "Au restaurant, qu'est-ce que vous choisissez ?", "en": "At a restaurant, what do you choose?", "hi": "रेस्टोरेंट में आप क्या चुनते हैं?", "pron": "ओ ग़ैस-तो-ग़ाँ कैस-कö वू श्वा-ज़ी-से", "model": "Je choisis souvent un plat végétarien." },
-      { "fr": "Vous répondez vite aux messages ?", "en": "Do you answer messages quickly?", "hi": "क्या आप संदेशों का जल्दी जवाब देते हैं?", "pron": "वू ग़े-पोँ-दे वीत ओ मे-साझ़", "model": "Oui, je réponds aux messages le soir." }
+      { "fr": "À quelle heure vous finissez le travail ?", "en": "What time do you finish work?", "hi": "आप कितने बजे काम ख़त्म करते हैं?", "pron": "आ के लर वू फ़ी-नी-से ल त्रा-वाय", "model": "Je finis le travail à dix-sept heures trente." },
+      { "fr": "Et vos cours de français ?", "en": "And your French classes?", "hi": "और आपकी फ़्रेंच क्लास?", "pron": "ए वो कूर द फ़्राँ-से", "model": "Les cours finissent à vingt et une heures." },
+      { "fr": "Vous attendez l'autobus le matin ?", "en": "Do you wait for the bus in the morning?", "hi": "क्या आप सुबह बस का इंतज़ार करते हैं?", "pron": "वू ज़ा-ताँ-दे लो-तो-ब्यूस ल मा-तैं", "model": "Oui, j'attends l'autobus dix minutes à l'arrêt." },
+      { "fr": "Au restaurant, qu'est-ce que vous choisissez ?", "en": "At a restaurant, what do you choose?", "hi": "रेस्टोरेंट में आप क्या चुनते हैं?", "pron": "ओ रेस-तो-राँ केस-क वू श्वा-ज़ी-से", "model": "Je choisis souvent un plat végétarien." },
+      { "fr": "Vous répondez vite aux messages ?", "en": "Do you answer messages quickly?", "hi": "क्या आप संदेशों का जल्दी जवाब देते हैं?", "pron": "वू रे-पों-दे वीत ओ मे-साज", "model": "Oui, je réponds aux messages le soir." }
     ],
     "tip": {
       "en": "Listen for -issez / -ez in the question and change to -is / -s in your answer: 'Vous finissez ?' → 'Je finis'. 'Vous attendez ?' → 'J'attends'.",
@@ -136,10 +136,10 @@
       "hi": "स्वागत है!\n1. प्रवेश के दाईं ओर लगी मशीन से नंबर लीजिए।\n2. प्रतीक्षालय में इंतज़ार कीजिए। स्क्रीन देखिए: उस पर आपका नंबर और काउंटर का नंबर दिखता है।\n3. एक पहचान पत्र और अपना कार्ड तैयार रखिए।\nकाउंटर 1 और 2 निजी खातों के बारे में सवालों के जवाब देते हैं। काउंटर 3 कंपनियों के लिए आरक्षित है।\nऔसत प्रतीक्षा समय: 15 मिनट।\nहम शाम 5 बजे तक ग्राहकों की सेवा करते हैं। 4:45 के बाद नंबर नहीं मिलते।\nआपके धैर्य के लिए धन्यवाद!"
     },
     "questions": [
-      { "q": { "en": "Where do you take a number?" }, "options": ["At counter 1", "At the kiosk to the right of the entrance", "On the screen"], "answer": 1, "explanation": { "en": "'Prenez un numéro à la borne, à droite de l'entrée.'", "hi": "'Prenez un numéro à la borne, à droite de l'entrée.' — प्रवेश के दाईं ओर की मशीन से।" }, "kind": "literal", "evidence": "Prenez un numéro à la borne, à droite de l'entrée." },
-      { "q": { "en": "What should you have ready?" }, "options": ["An ID and your card", "A form and a pen", "Cash"], "answer": 0, "explanation": { "en": "'Préparez une pièce d'identité et votre carte.'", "hi": "'Préparez une pièce d'identité et votre carte.' — पहचान पत्र और कार्ड।" }, "kind": "literal", "evidence": "Préparez une pièce d'identité et votre carte." },
-      { "q": { "en": "Arjun has a question about his personal account. Which counter can help?" }, "options": ["Only counter 3", "Counter 1 or 2", "Any counter"], "answer": 1, "explanation": { "en": "'Les guichets 1 et 2 répondent aux questions sur les comptes personnels.'", "hi": "काउंटर 1 और 2 निजी खातों के सवालों का जवाब देते हैं।" }, "kind": "inference", "evidence": "Les guichets 1 et 2 répondent aux questions sur les comptes personnels." },
-      { "q": { "en": "Neha arrives at 4:50 p.m. What happens?" }, "options": ["She waits 15 minutes", "She can't get a number", "She goes to counter 3"], "answer": 1, "explanation": { "en": "'Après 16 h 45, il n'y a pas de numéros.'", "hi": "'Après 16 h 45, il n'y a pas de numéros.' — 4:45 के बाद नंबर नहीं।" }, "kind": "inference", "evidence": "Après 16 h 45, il n'y a pas de numéros." }
+      { "q": { "en": "Where do you take a number?", "hi": "आप नंबर कहाँ से लेते हैं?" }, "options": ["At counter 1", "At the kiosk to the right of the entrance", "On the screen"], "optionsHi": ["काउंटर 1 पर", "प्रवेश द्वार के दाईं ओर लगे कियोस्क से", "स्क्रीन पर"], "answer": 1, "explanation": { "en": "'Prenez un numéro à la borne, à droite de l'entrée.'", "hi": "'Prenez un numéro à la borne, à droite de l'entrée.' — प्रवेश के दाईं ओर की मशीन से।" }, "kind": "literal", "evidence": "Prenez un numéro à la borne, à droite de l'entrée." },
+      { "q": { "en": "What should you have ready?", "hi": "आपको क्या तैयार रखना चाहिए?" }, "options": ["An ID and your card", "A form and a pen", "Cash"], "optionsHi": ["एक पहचान-पत्र और आपका कार्ड", "एक फ़ॉर्म और एक पेन", "नक़द"], "answer": 0, "explanation": { "en": "'Préparez une pièce d'identité et votre carte.'", "hi": "'Préparez une pièce d'identité et votre carte.' — पहचान पत्र और कार्ड।" }, "kind": "literal", "evidence": "Préparez une pièce d'identité et votre carte." },
+      { "q": { "en": "Arjun has a question about his personal account. Which counter can help?", "hi": "अर्जुन का अपने निजी खाते के बारे में एक सवाल है। कौन-सा काउंटर उसकी मदद कर सकता है?" }, "options": ["Only counter 3", "Counter 1 or 2", "Any counter"], "optionsHi": ["केवल काउंटर 3", "काउंटर 1 या 2", "कोई भी काउंटर"], "answer": 1, "explanation": { "en": "'Les guichets 1 et 2 répondent aux questions sur les comptes personnels.'", "hi": "काउंटर 1 और 2 निजी खातों के सवालों का जवाब देते हैं।" }, "kind": "inference", "evidence": "Les guichets 1 et 2 répondent aux questions sur les comptes personnels." },
+      { "q": { "en": "Neha arrives at 4:50 p.m. What happens?", "hi": "नेहा शाम 4:50 बजे पहुँचती है। क्या होता है?" }, "options": ["She waits 15 minutes", "She can't get a number", "She goes to counter 3"], "optionsHi": ["वह 15 मिनट प्रतीक्षा करती है", "उसे नंबर नहीं मिल पाता", "वह काउंटर 3 पर जाती है"], "answer": 1, "explanation": { "en": "'Après 16 h 45, il n'y a pas de numéros.'", "hi": "'Après 16 h 45, il n'y a pas de numéros.' — 4:45 के बाद नंबर नहीं।" }, "kind": "inference", "evidence": "Après 16 h 45, il n'y a pas de numéros." }
     ]
   },
   "writing": {
@@ -155,9 +155,9 @@
       { "en": "Remember: attendre + noun (no 'pour'); répondre à.", "hi": "याद रखिए: attendre + संज्ञा ('pour' नहीं); répondre à।" }
     ],
     "usefulPhrases": [
-      { "fr": "Je finis à … heures.", "en": "I finish at … o'clock.", "hi": "मैं … बजे ख़त्म करता/करती हूँ।", "pron": "झ़ö फ़ी-नी आ … ज़öग़" },
-      { "fr": "J'attends le métro.", "en": "I wait for the metro.", "hi": "मैं मेट्रो का इंतज़ार करता/करती हूँ।", "pron": "झ़ा-ताँ लö मे-त्रो" },
-      { "fr": "Je réponds aux courriels.", "en": "I answer emails.", "hi": "मैं ईमेल का जवाब देता/देती हूँ।", "pron": "झ़ö ग़े-पोँ ओ कू-ग्यैल" }
+      { "fr": "Je finis à … heures.", "en": "I finish at … o'clock.", "hi": "मैं … बजे ख़त्म करता/करती हूँ।", "pron": "ज फ़ी-नी आ … ज़र" },
+      { "fr": "J'attends le métro.", "en": "I wait for the metro.", "hi": "मैं मेट्रो का इंतज़ार करता/करती हूँ।", "pron": "जा-ताँ ल मे-त्रो" },
+      { "fr": "Je réponds aux courriels.", "en": "I answer emails.", "hi": "मैं ईमेल का जवाब देता/देती हूँ।", "pron": "ज रे-पों ओ कू-ग्येल" }
     ],
     "model": {
       "fr": "Le lundi, je finis le travail à dix-sept heures. Ensuite, j'attends l'autobus avec ma collègue. Le soir, je réponds aux courriels de ma famille. Le mercredi, nous choisissons un film ensemble. Mon voisin vend son vélo, parce qu'il part en Inde. Les étudiants de mon cours réussissent toujours l'examen !",
@@ -172,14 +172,14 @@
   "review": {
     "fromDays": [12, 15, 25, 27, 29],
     "items": [
-      { "fr": "quarante-sept", "en": "forty-seven", "hi": "सैंतालीस", "pron": "का-ग़ाँत-सैत" },
-      { "fr": "Il est dix-sept heures trente.", "en": "It's 5:30 p.m.", "hi": "शाम के साढ़े पाँच बजे हैं।", "pron": "ई लै दी-सै तöग़ त्राँत" },
-      { "fr": "Je paie par carte.", "en": "I pay by card.", "hi": "मैं कार्ड से भुगतान करता/करती हूँ।", "pron": "झ़ö पै पाग़ काग़्त" },
-      { "fr": "Prenez un numéro.", "en": "Take a number.", "hi": "एक नंबर लीजिए।", "pron": "प्रö-ने ज़ैँ नü-मे-ग़ो" },
-      { "fr": "Je me dépêche, le cours est à cinq heures.", "en": "I'm hurrying, the class is at five.", "hi": "मैं जल्दी कर रहा/रही हूँ, क्लास पाँच बजे है।", "pron": "झ़ö म्ö दे-पैश लö कूग़ ऐ ता सैँ-कöग़" },
-      { "fr": "C'est gratuit.", "en": "It's free.", "hi": "यह मुफ़्त है।", "pron": "सै ग्रा-त्üई" },
-      { "fr": "Tournez à droite.", "en": "Turn right.", "hi": "दाईं ओर मुड़िए।", "pron": "तूग़-ने आ द्र्वात" },
-      { "fr": "Quelle est la différence ?", "en": "What's the difference?", "hi": "फ़र्क़ क्या है?", "pron": "कै लै ला दी-फ़े-ग़ाँस" }
+      { "fr": "quarante-sept", "en": "forty-seven", "hi": "सैंतालीस", "pron": "का-राँत-सेत" },
+      { "fr": "Il est dix-sept heures trente.", "en": "It's 5:30 p.m.", "hi": "शाम के साढ़े पाँच बजे हैं।", "pron": "ई ले दी-से तर त्राँत" },
+      { "fr": "Je paie par carte.", "en": "I pay by card.", "hi": "मैं कार्ड से भुगतान करता/करती हूँ।", "pron": "ज पे पार कार्त" },
+      { "fr": "Prenez un numéro.", "en": "Take a number.", "hi": "एक नंबर लीजिए।", "pron": "प्र-ने ज़ैं न्यू-मे-रो" },
+      { "fr": "Je me dépêche, le cours est à cinq heures.", "en": "I'm hurrying, the class is at five.", "hi": "मैं जल्दी कर रहा/रही हूँ, क्लास पाँच बजे है।", "pron": "ज म दे-पेश ल कूर ए ता सैं-कर" },
+      { "fr": "C'est gratuit.", "en": "It's free.", "hi": "यह मुफ़्त है।", "pron": "से ग्रा-त्यूई" },
+      { "fr": "Tournez à droite.", "en": "Turn right.", "hi": "दाईं ओर मुड़िए।", "pron": "तूर-ने आ द्र्वात" },
+      { "fr": "Quelle est la différence ?", "en": "What's the difference?", "hi": "फ़र्क़ क्या है?", "pron": "के ले ला दी-फ़े-राँस" }
     ]
   },
   "assessment": [

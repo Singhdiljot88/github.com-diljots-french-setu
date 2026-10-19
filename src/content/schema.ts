@@ -30,18 +30,23 @@ export const VocabItem = LangItem.extend({
   gender: z.enum(["m", "f", "mf"]).optional(),
   /** Dictionary lemma when different from `fr` (e.g. fr "la maison" -> lemma "maison"). */
   lemma: z.string().optional(),
+  /** Hindi memory aid (याद करने की तरकीब), shown labelled as a memory aid, never as a translation. Must reuse this item's `pron`, not a new spelling. */
+  mnemonic: z.object({ hi: devanagari, en: z.string().optional(), reviewed: z.boolean().default(false) }).optional(),
 });
 export type VocabItem = z.infer<typeof VocabItem>;
 
 export const Mcq = z.object({
-  q: z.object({ fr: z.string().optional(), en: nonEmpty }),
+  q: z.object({ fr: z.string().optional(), en: nonEmpty, hi: devanagari.optional() }),
   options: z.array(nonEmpty).min(3).max(4),
+  /** Hindi versions of English answer choices (left out when the choices are French). */
+  optionsHi: z.array(nonEmpty).min(3).max(4).optional(),
   answer: z.number().int().min(0).max(3),
   explanation: Explain,
   kind: z.enum(["literal", "inference", "vocabulary", "grammar", "gist"]).optional(),
   /** Exact quote from the passage/audio transcript that justifies the answer. */
   evidence: z.string().optional(),
-}).refine((m) => m.answer < m.options.length, "answer index out of range");
+}).refine((m) => m.answer < m.options.length, "answer index out of range")
+  .refine((m) => !m.optionsHi || m.optionsHi.length === m.options.length, "optionsHi must match options one to one");
 export type Mcq = z.infer<typeof Mcq>;
 
 export const Voice = z.enum(["f1", "m1", "f2", "m2", "narrator"]);

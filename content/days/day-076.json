@@ -16,28 +16,28 @@
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "content / contente", "en": "happy, pleased", "hi": "ख़ुश", "pron": "कोँ-ताँ / कोँ-ताँत", "ipa": "kɔ̃tɑ̃ / kɔ̃tɑ̃t", "pos": "adjective", "lemma": "content" },
-    { "fr": "ravi / ravie", "en": "delighted", "hi": "बहुत ख़ुश", "pron": "ग़ा-वी", "ipa": "ʁavi", "pos": "adjective", "lemma": "ravi" },
-    { "fr": "déçu / déçue", "en": "disappointed", "hi": "निराश", "pron": "दे-सü", "ipa": "desy", "pos": "adjective", "lemma": "déçu", "note": { "en": "From décevoir (to disappoint). Not 'deceived'!", "hi": "décevoir (निराश करना) से। 'धोखा खाया हुआ' नहीं!" } },
-    { "fr": "surpris / surprise", "en": "surprised", "hi": "हैरान", "pron": "सüग़-प्ग़ी / सüग़-प्ग़ीज़", "ipa": "syʁpʁi / syʁpʁiz", "pos": "adjective", "lemma": "surpris" },
-    { "fr": "inquiet / inquiète", "en": "worried", "hi": "चिंतित", "pron": "ऐँ-क्यै / ऐँ-क्यैत", "ipa": "ɛ̃kjɛ / ɛ̃kjɛt", "pos": "adjective", "lemma": "inquiet" },
-    { "fr": "regretter", "en": "to be sorry, to regret", "hi": "अफ़सोस होना", "pron": "ग़ö-ग्ग़े-ते", "ipa": "ʁəɡʁete", "pos": "verb" },
+    { "fr": "content / contente", "en": "happy, pleased", "hi": "ख़ुश", "pron": "कों-ताँ / कों-ताँत", "ipa": "kɔ̃tɑ̃ / kɔ̃tɑ̃t", "pos": "adjective", "lemma": "content" },
+    { "fr": "ravi / ravie", "en": "delighted", "hi": "बहुत ख़ुश", "pron": "रा-वी", "ipa": "ʁavi", "pos": "adjective", "lemma": "ravi" },
+    { "fr": "déçu / déçue", "en": "disappointed", "hi": "निराश", "pron": "दे-स्यू", "ipa": "desy", "pos": "adjective", "lemma": "déçu", "note": { "en": "From décevoir (to disappoint). Not 'deceived'!", "hi": "décevoir (निराश करना) से। 'धोखा खाया हुआ' नहीं!" } },
+    { "fr": "surpris / surprise", "en": "surprised", "hi": "हैरान", "pron": "स्यूर-प्री / स्यूर-प्रीज़", "ipa": "syʁpʁi / syʁpʁiz", "pos": "adjective", "lemma": "surpris" },
+    { "fr": "inquiet / inquiète", "en": "worried", "hi": "चिंतित", "pron": "ऐं-क्ये / ऐं-क्येत", "ipa": "ɛ̃kjɛ / ɛ̃kjɛt", "pos": "adjective", "lemma": "inquiet" },
+    { "fr": "regretter", "en": "to be sorry, to regret", "hi": "अफ़सोस होना", "pron": "र-ग्रे-ते", "ipa": "ʁəɡʁete", "pos": "verb" },
     { "fr": "douter", "en": "to doubt", "hi": "शक होना", "pron": "दू-ते", "ipa": "dute", "pos": "verb" },
-    { "fr": "c'est dommage", "en": "it's a pity", "hi": "अफ़सोस की बात है", "pron": "सै दो-माझ़", "ipa": "sɛ dɔmaʒ", "pos": "phrase" },
-    { "fr": "une nouvelle", "en": "a piece of news", "hi": "ख़बर", "pron": "üन नू-वैल", "ipa": "yn nuvɛl", "pos": "noun", "gender": "f", "lemma": "nouvelle", "note": { "en": "les nouvelles = the news. Une bonne / mauvaise nouvelle.", "hi": "les nouvelles = समाचार। Une bonne / mauvaise nouvelle = अच्छी / बुरी ख़बर।" } },
-    { "fr": "une annonce", "en": "an announcement", "hi": "घोषणा", "pron": "ü-ना-नोँस", "ipa": "yn anɔ̃s", "pos": "noun", "gender": "f", "lemma": "annonce" },
-    { "fr": "une augmentation", "en": "a raise, an increase", "hi": "बढ़ोतरी, वेतन-वृद्धि", "pron": "ü-नोग-माँ-ता-स्योँ", "ipa": "yn ɔɡmɑ̃tasjɔ̃", "pos": "noun", "gender": "f", "lemma": "augmentation" },
-    { "fr": "déménager", "en": "to move (house, office)", "hi": "घर/दफ़्तर बदलना", "pron": "दे-मे-ना-झ़े", "ipa": "demenaʒe", "pos": "verb" },
-    { "fr": "partir à la retraite", "en": "to retire", "hi": "सेवानिवृत्त होना", "pron": "पाग़-तीग़ आ ला ग़ö-त्ग़ैत", "ipa": "paʁtiʁ a la ʁətʁɛt", "pos": "phrase" }
+    { "fr": "c'est dommage", "en": "it's a pity", "hi": "अफ़सोस की बात है", "pron": "से दो-माज", "ipa": "sɛ dɔmaʒ", "pos": "phrase" },
+    { "fr": "une nouvelle", "en": "a piece of news", "hi": "ख़बर", "pron": "यून नू-वेल", "ipa": "yn nuvɛl", "pos": "noun", "gender": "f", "lemma": "nouvelle", "note": { "en": "les nouvelles = the news. Une bonne / mauvaise nouvelle.", "hi": "les nouvelles = समाचार। Une bonne / mauvaise nouvelle = अच्छी / बुरी ख़बर।" } },
+    { "fr": "une annonce", "en": "an announcement", "hi": "घोषणा", "pron": "यू ना-नोंस", "ipa": "yn anɔ̃s", "pos": "noun", "gender": "f", "lemma": "annonce" },
+    { "fr": "une augmentation", "en": "a raise, an increase", "hi": "बढ़ोतरी, वेतन-वृद्धि", "pron": "यू-नोग-माँ-ता-स्यों", "ipa": "yn ɔɡmɑ̃tasjɔ̃", "pos": "noun", "gender": "f", "lemma": "augmentation" },
+    { "fr": "déménager", "en": "to move (house, office)", "hi": "घर/दफ़्तर बदलना", "pron": "दे-मे-ना-जे", "ipa": "demenaʒe", "pos": "verb" },
+    { "fr": "partir à la retraite", "en": "to retire", "hi": "सेवानिवृत्त होना", "pron": "पार-तीर आ ला र-त्रेत", "ipa": "paʁtiʁ a la ʁətʁɛt", "pos": "phrase" }
   ],
   "phrases": [
-    { "fr": "Je suis content que tu sois là.", "en": "I'm glad you're here.", "hi": "मुझे ख़ुशी है कि तुम यहाँ हो।", "pron": "झ़ö स्üई कोँ-ताँ कö तü स्वा ला" },
-    { "fr": "C'est dommage qu'elle parte.", "en": "It's a pity she's leaving.", "hi": "अफ़सोस है कि वह जा रही है।", "pron": "सै दो-माझ़ कैल पाग़्त" },
-    { "fr": "Je doute que ce soit vrai.", "en": "I doubt it's true.", "hi": "मुझे शक है कि यह सच हो।", "pron": "झ़ö दूत कö सö स्वा व्ग़ै" },
-    { "fr": "Il est possible qu'il fasse froid.", "en": "It may be cold.", "hi": "हो सकता है कि ठंड हो।", "pron": "ई-लै पो-सीब्ल कील फ़ास फ़्ग़्वा" },
-    { "fr": "Je pense que c'est une bonne nouvelle.", "en": "I think it's good news.", "hi": "मुझे लगता है कि यह अच्छी ख़बर है।", "pron": "झ़ö पाँस कö सै तüन बॉन नू-वैल" },
-    { "fr": "Je ne pense pas que ce soit une bonne idée.", "en": "I don't think it's a good idea.", "hi": "मुझे नहीं लगता कि यह अच्छा विचार है।", "pron": "झ़ö नö पाँस पा कö सö स्वा तüन बॉन ई-दे" },
-    { "fr": "Ça, c'est une bonne nouvelle !", "en": "Now that's good news!", "hi": "यह तो अच्छी ख़बर है!", "pron": "सा सै तüन बॉन नू-वैल" }
+    { "fr": "Je suis content que tu sois là.", "en": "I'm glad you're here.", "hi": "मुझे ख़ुशी है कि तुम यहाँ हो।", "pron": "ज स्यूई कों-ताँ क त्यू स्वा ला" },
+    { "fr": "C'est dommage qu'elle parte.", "en": "It's a pity she's leaving.", "hi": "अफ़सोस है कि वह जा रही है।", "pron": "से दो-माज केल पार्त" },
+    { "fr": "Je doute que ce soit vrai.", "en": "I doubt it's true.", "hi": "मुझे शक है कि यह सच हो।", "pron": "ज दूत क स स्वा व्रे" },
+    { "fr": "Il est possible qu'il fasse froid.", "en": "It may be cold.", "hi": "हो सकता है कि ठंड हो।", "pron": "ई-ले पो-सीब्ल कील फ़ास फ़्र्वा" },
+    { "fr": "Je pense que c'est une bonne nouvelle.", "en": "I think it's good news.", "hi": "मुझे लगता है कि यह अच्छी ख़बर है।", "pron": "ज पाँस क से त्यून बॉन नू-वेल" },
+    { "fr": "Je ne pense pas que ce soit une bonne idée.", "en": "I don't think it's a good idea.", "hi": "मुझे नहीं लगता कि यह अच्छा विचार है।", "pron": "ज न पाँस पा क स स्वा त्यून बॉन ई-दे" },
+    { "fr": "Ça, c'est une bonne nouvelle !", "en": "Now that's good news!", "hi": "यह तो अच्छी ख़बर है!", "pron": "सा से त्यून बॉन नू-वेल" }
   ],
   "grammar": {
     "title": { "en": "Feelings and doubt → subjunctive; opinion and certainty → indicative", "hi": "भावना और शंका → subjonctif; राय और निश्चितता → indicatif" },
@@ -50,12 +50,12 @@
       "hi": "यहाँ फ़्रेंच और हिंदी अलग हैं। हिंदी भावना के बाद सामान्य काल रखती है: 'मुझे ख़ुशी है कि तुम आए'; और 'मुझे लगता है कि वह सही है' बिल्कुल je pense que + indicatif की तरह है। शंका या संभावना के बाद हिंदी भी subjonctif जैसा रूप लेती है ('हो सकता है कि वह आए'), जैसे फ़्रेंच il est possible qu'il… + subjonctif। तो: संभावना हिंदी जैसी है; भावनाओं वाला नियम याद करना होगा (फ़्रेंच = subjonctif)। अंग्रेज़ी में क्रिया कभी नहीं बदलती: I'm glad you are here।"
     },
     "examples": [
-      { "fr": "Je suis ravie que la direction soit d'accord.", "en": "I'm delighted that management agrees.", "hi": "मुझे बहुत ख़ुशी है कि प्रबंधन सहमत है।", "pron": "झ़ö स्üई ग़ा-वी कö ला दी-ग़ैक-स्योँ स्वा दा-कॉग़" },
-      { "fr": "Je regrette que tu ne sois pas là.", "en": "I'm sorry you're not here.", "hi": "मुझे अफ़सोस है कि तुम यहाँ नहीं हो।", "pron": "झ़ö ग़ö-ग्ग़ैत कö तü नö स्वा पा ला" },
-      { "fr": "Je doute qu'il ait le temps.", "en": "I doubt he has the time.", "hi": "मुझे शक है कि उसके पास समय हो।", "pron": "झ़ö दूत कील ऐ लö ताँ" },
-      { "fr": "Je crois qu'il a raison.", "en": "I believe he's right.", "hi": "मुझे लगता है कि वह सही है।", "pron": "झ़ö क्ग़्वा कील आ ग़ै-ज़ोँ" },
-      { "fr": "Je ne crois pas qu'il ait raison.", "en": "I don't believe he's right.", "hi": "मुझे नहीं लगता कि वह सही है।", "pron": "झ़ö नö क्ग़्वा पा कील ऐ ग़ै-ज़ोँ" },
-      { "fr": "J'espère que tu vas bien.", "en": "I hope you're well.", "hi": "उम्मीद है तुम ठीक हो।", "pron": "झ़ै-स्पैग़ कö तü वा ब्यैँ" }
+      { "fr": "Je suis ravie que la direction soit d'accord.", "en": "I'm delighted that management agrees.", "hi": "मुझे बहुत ख़ुशी है कि प्रबंधन सहमत है।", "pron": "ज स्यूई रा-वी क ला दी-रेक-स्यों स्वा दा-कॉर" },
+      { "fr": "Je regrette que tu ne sois pas là.", "en": "I'm sorry you're not here.", "hi": "मुझे अफ़सोस है कि तुम यहाँ नहीं हो।", "pron": "ज र-ग्रेत क त्यू न स्वा पा ला" },
+      { "fr": "Je doute qu'il ait le temps.", "en": "I doubt he has the time.", "hi": "मुझे शक है कि उसके पास समय हो।", "pron": "ज दूत कील ए ल ताँ" },
+      { "fr": "Je crois qu'il a raison.", "en": "I believe he's right.", "hi": "मुझे लगता है कि वह सही है।", "pron": "ज क्र्वा कील आ रे-ज़ों" },
+      { "fr": "Je ne crois pas qu'il ait raison.", "en": "I don't believe he's right.", "hi": "मुझे नहीं लगता कि वह सही है।", "pron": "ज न क्र्वा पा कील ए रे-ज़ों" },
+      { "fr": "J'espère que tu vas bien.", "en": "I hope you're well.", "hi": "उम्मीद है तुम ठीक हो।", "pron": "जे-स्पेर क त्यू वा ब्यैं" }
     ],
     "pitfalls": [
       { "en": "J'espère que + INDICATIVE, not subjunctive: J'espère que tu vas bien (not 'que tu ailles bien').", "hi": "J'espère que + indicatif, subjonctif नहीं: J'espère que tu vas bien ('que tu ailles bien' नहीं)।" },
@@ -72,11 +72,11 @@
     },
     "words": [
       { "fr": "qu'il soit", "en": "that he be", "hi": "कि वह हो", "pron": "कील स्वा", "ipa": "kil swa" },
-      { "fr": "qu'elle parte", "en": "that she leave", "hi": "कि वह जाए", "pron": "कैल पाग़्त", "ipa": "kɛl paʁt" },
-      { "fr": "que tu ailles", "en": "that you go", "hi": "कि तुम जाओ", "pron": "कö तü आय", "ipa": "kə ty aj" },
+      { "fr": "qu'elle parte", "en": "that she leave", "hi": "कि वह जाए", "pron": "केल पार्त", "ipa": "kɛl paʁt" },
+      { "fr": "que tu ailles", "en": "that you go", "hi": "कि तुम जाओ", "pron": "क त्यू आय", "ipa": "kə ty aj" },
       { "fr": "qu'il fasse", "en": "that he do", "hi": "कि वह करे", "pron": "कील फ़ास", "ipa": "kil fas" },
-      { "fr": "que nous ayons", "en": "that we have", "hi": "कि हमारे पास हो", "pron": "कö नू ज़ै-योँ", "ipa": "kə nu zɛjɔ̃" },
-      { "fr": "que vous soyez", "en": "that you be", "hi": "कि आप हों", "pron": "कö वू स्वा-ये", "ipa": "kə vu swaje" }
+      { "fr": "que nous ayons", "en": "that we have", "hi": "कि हमारे पास हो", "pron": "क नू ज़े-यों", "ipa": "kə nu zɛjɔ̃" },
+      { "fr": "que vous soyez", "en": "that you be", "hi": "कि आप हों", "pron": "क वू स्वा-ये", "ipa": "kə vu swaje" }
     ]
   },
   "listening": {
@@ -105,12 +105,12 @@
       { "speaker": "Sophie", "voice": "f2", "fr": "Je m'en occupe. Il faut que tout le monde signe la carte avant vendredi.", "en": "I'll take care of it. Everyone has to sign the card before Friday.", "hi": "मैं इसे सँभाल लूँगी। सबको शुक्रवार से पहले कार्ड पर दस्तख़त करने होंगे।" }
     ],
     "questions": [
-      { "q": { "en": "What is the first piece of news?" }, "options": ["The office is moving to Laval in January.", "Ms Tremblay has been promoted.", "The team is going to grow.", "Salaries will go down."], "answer": 0, "explanation": { "en": "Sophie announces the move to Laval in January.", "hi": "सोफ़ी जनवरी में लावाल जाने की ख़बर देती है।" }, "kind": "literal", "evidence": "Le bureau déménage à Laval en janvier" },
-      { "q": { "en": "Why is Samir disappointed about the move?" }, "options": ["He doesn't like Laval.", "He has no car.", "He lives very close to the current office.", "He wanted to move to Toronto."], "answer": 2, "explanation": { "en": "He lives two streets from the current office.", "hi": "वह मौजूदा दफ़्तर से दो गली दूर रहता है।" }, "kind": "inference", "evidence": "j'habite à deux rues d'ici" },
-      { "q": { "en": "Why is Arjun happy about the move?" }, "options": ["Laval has better restaurants.", "He will save travel time.", "His wife works in Laval.", "The new office is bigger."], "answer": 1, "explanation": { "en": "He lives in Laval and will save an hour a day.", "hi": "वह लावाल में रहता है और उसका रोज़ एक घंटा बचेगा।" }, "kind": "inference", "evidence": "je vais gagner une heure par jour" },
-      { "q": { "en": "Why does Arjun doubt that remote work is for everyone?" }, "options": ["Management said no last year.", "Samir told him.", "His job can't be done online.", "The email says it depends on the position."], "answer": 3, "explanation": { "en": "The email says 'selon les postes' (depending on the position).", "hi": "ईमेल में लिखा है 'selon les postes' (पद के अनुसार)।" }, "kind": "literal", "evidence": "selon les postes" },
-      { "q": { "en": "When does Arjun think the raise will start?" }, "options": ["In January", "In April", "Next week", "Next year"], "answer": 1, "explanation": { "en": "He doesn't think it's for January: rather April.", "hi": "उसे नहीं लगता कि यह जनवरी से है: शायद अप्रैल से।" }, "kind": "literal", "evidence": "plutôt pour avril" },
-      { "q": { "en": "What do they decide to do for Ms Tremblay?" }, "options": ["Write to management", "Ask her to stay", "Organise a farewell party", "Visit her in Laval"], "answer": 2, "explanation": { "en": "Arjun suggests a little farewell party, and Sophie will organise the card.", "hi": "अर्जुन छोटी विदाई पार्टी का सुझाव देता है, और सोफ़ी कार्ड का इंतज़ाम करेगी।" }, "kind": "literal", "evidence": "une petite fête de départ" }
+      { "q": { "en": "What is the first piece of news?", "hi": "पहली ख़बर क्या है?" }, "options": ["The office is moving to Laval in January.", "Ms Tremblay has been promoted.", "The team is going to grow.", "Salaries will go down."], "optionsHi": ["जनवरी में दफ़्तर Laval जा रहा है।", "Ms Tremblay की पदोन्नति हो गई है।", "टीम बढ़ने वाली है।", "वेतन घटेंगे।"], "answer": 0, "explanation": { "en": "Sophie announces the move to Laval in January.", "hi": "सोफ़ी जनवरी में लावाल जाने की ख़बर देती है।" }, "kind": "literal", "evidence": "Le bureau déménage à Laval en janvier" },
+      { "q": { "en": "Why is Samir disappointed about the move?", "hi": "Samir इस स्थानांतरण से निराश क्यों है?" }, "options": ["He doesn't like Laval.", "He has no car.", "He lives very close to the current office.", "He wanted to move to Toronto."], "optionsHi": ["उसे Laval पसंद नहीं।", "उसके पास कार नहीं है।", "वह मौजूदा दफ़्तर के बहुत पास रहता है।", "वह Toronto जाना चाहता था।"], "answer": 2, "explanation": { "en": "He lives two streets from the current office.", "hi": "वह मौजूदा दफ़्तर से दो गली दूर रहता है।" }, "kind": "inference", "evidence": "j'habite à deux rues d'ici" },
+      { "q": { "en": "Why is Arjun happy about the move?", "hi": "Arjun इस स्थानांतरण से ख़ुश क्यों है?" }, "options": ["Laval has better restaurants.", "He will save travel time.", "His wife works in Laval.", "The new office is bigger."], "optionsHi": ["Laval में बेहतर रेस्तराँ हैं।", "उसका सफ़र का समय बचेगा।", "उसकी पत्नी Laval में काम करती है।", "नया दफ़्तर बड़ा है।"], "answer": 1, "explanation": { "en": "He lives in Laval and will save an hour a day.", "hi": "वह लावाल में रहता है और उसका रोज़ एक घंटा बचेगा।" }, "kind": "inference", "evidence": "je vais gagner une heure par jour" },
+      { "q": { "en": "Why does Arjun doubt that remote work is for everyone?", "hi": "Arjun को संदेह क्यों है कि रिमोट वर्क सबके लिए है?" }, "options": ["Management said no last year.", "Samir told him.", "His job can't be done online.", "The email says it depends on the position."], "optionsHi": ["पिछले साल प्रबंधन ने मना कर दिया था।", "Samir ने उसे बताया।", "उसका काम ऑनलाइन नहीं हो सकता।", "ईमेल में लिखा है कि यह पद पर निर्भर करता है।"], "answer": 3, "explanation": { "en": "The email says 'selon les postes' (depending on the position).", "hi": "ईमेल में लिखा है 'selon les postes' (पद के अनुसार)।" }, "kind": "literal", "evidence": "selon les postes" },
+      { "q": { "en": "When does Arjun think the raise will start?", "hi": "Arjun के अनुसार वेतन-वृद्धि कब से शुरू होगी?" }, "options": ["In January", "In April", "Next week", "Next year"], "optionsHi": ["जनवरी में", "अप्रैल में", "अगले सप्ताह", "अगले साल"], "answer": 1, "explanation": { "en": "He doesn't think it's for January: rather April.", "hi": "उसे नहीं लगता कि यह जनवरी से है: शायद अप्रैल से।" }, "kind": "literal", "evidence": "plutôt pour avril" },
+      { "q": { "en": "What do they decide to do for Ms Tremblay?", "hi": "Ms Tremblay के लिए वे क्या करने का फ़ैसला करते हैं?" }, "options": ["Write to management", "Ask her to stay", "Organise a farewell party", "Visit her in Laval"], "optionsHi": ["प्रबंधन को लिखने का", "उनसे रुकने को कहने का", "विदाई पार्टी आयोजित करने का", "Laval में उनसे मिलने जाने का"], "answer": 2, "explanation": { "en": "Arjun suggests a little farewell party, and Sophie will organise the card.", "hi": "अर्जुन छोटी विदाई पार्टी का सुझाव देता है, और सोफ़ी कार्ड का इंतज़ाम करेगी।" }, "kind": "literal", "evidence": "une petite fête de départ" }
     ],
     "dictation": [
       "Je suis déçu qu'on quitte le centre-ville.",
@@ -129,11 +129,11 @@
       "hi": "एक दोस्त आपको कुछ ख़बरें सुनाता है। दो वाक्यों में स्वाभाविक प्रतिक्रिया दीजिए: पहले कोई भावना या शंका (subjonctif), फिर एक राय (je pense que / je crois que + indicatif)। tu इस्तेमाल कीजिए।"
     },
     "prompts": [
-      { "fr": "« J'ai enfin mon permis de conduire ! »", "en": "'I finally have my driving licence!'", "hi": "'आख़िरकार मुझे ड्राइविंग लाइसेंस मिल गया!'", "pron": "झ़े आँ-फ़ैँ मोँ पैग़-मी दö कोँ-द्üइग़", "model": "Bravo ! Je suis vraiment content que tu aies ton permis. Je pense que ça va changer ta vie, surtout l'hiver." },
-      { "fr": "« Le cours de français du samedi est annulé. »", "en": "'The Saturday French class is cancelled.'", "hi": "'शनिवार की फ़्रेंच क्लास रद्द हो गई है।'", "pron": "लö कूग़ दö फ़्ग़ाँ-सै दü सम-दी ऐ ता-नü-ले", "model": "Oh non, c'est dommage que le cours soit annulé ! Je crois qu'on peut demander un autre horaire." },
-      { "fr": "« Il va tomber cinquante centimètres de neige demain. »", "en": "'Fifty centimetres of snow will fall tomorrow.'", "hi": "'कल पचास सेंटीमीटर बर्फ़ गिरेगी।'", "pron": "ईल वा तोँ-बे सैँ-काँत साँ-ती-मैत्ग़ दö नैझ़ दö-मैँ", "model": "Cinquante centimètres ? Je doute qu'il y ait autant de neige. Je pense que la météo exagère un peu." },
-      { "fr": "« Je déménage à Vancouver le mois prochain. »", "en": "'I'm moving to Vancouver next month.'", "hi": "'मैं अगले महीने वैंकूवर जा रहा हूँ।'", "pron": "झ़ö दे-मे-नाझ़ आ वाँ-कू-वैग़ लö म्वा प्ग़ो-शैँ", "model": "Déjà ? Je suis triste que tu partes, mais je crois que c'est une belle occasion pour toi." },
-      { "fr": "« Notre loyer va augmenter de dix pour cent. »", "en": "'Our rent is going up by ten percent.'", "hi": "'हमारा किराया दस प्रतिशत बढ़ने वाला है।'", "pron": "नो-त्ग़ö ल्वा-ये वा ओग-माँ-ते दö दी पूग़ साँ", "model": "Dix pour cent ? Je suis surpris que l'augmentation soit si forte. Il est possible que ce ne soit pas légal : il faut vérifier." }
+      { "fr": "« J'ai enfin mon permis de conduire ! »", "en": "'I finally have my driving licence!'", "hi": "'आख़िरकार मुझे ड्राइविंग लाइसेंस मिल गया!'", "pron": "जे आँ-फ़ैं मों पेर-मी द कों-द्यूइर", "model": "Bravo ! Je suis vraiment content que tu aies ton permis. Je pense que ça va changer ta vie, surtout l'hiver." },
+      { "fr": "« Le cours de français du samedi est annulé. »", "en": "'The Saturday French class is cancelled.'", "hi": "'शनिवार की फ़्रेंच क्लास रद्द हो गई है।'", "pron": "ल कूर द फ़्राँ-से द्यू सम-दी ए ता-न्यू-ले", "model": "Oh non, c'est dommage que le cours soit annulé ! Je crois qu'on peut demander un autre horaire." },
+      { "fr": "« Il va tomber cinquante centimètres de neige demain. »", "en": "'Fifty centimetres of snow will fall tomorrow.'", "hi": "'कल पचास सेंटीमीटर बर्फ़ गिरेगी।'", "pron": "ईल वा तों-बे सैं-काँत साँ-ती-मेत्र द नेज द-मैं", "model": "Cinquante centimètres ? Je doute qu'il y ait autant de neige. Je pense que la météo exagère un peu." },
+      { "fr": "« Je déménage à Vancouver le mois prochain. »", "en": "'I'm moving to Vancouver next month.'", "hi": "'मैं अगले महीने वैंकूवर जा रहा हूँ।'", "pron": "ज दे-मे-नाज आ वाँ-कू-वेर ल म्वा प्रो-शैं", "model": "Déjà ? Je suis triste que tu partes, mais je crois que c'est une belle occasion pour toi." },
+      { "fr": "« Notre loyer va augmenter de dix pour cent. »", "en": "'Our rent is going up by ten percent.'", "hi": "'हमारा किराया दस प्रतिशत बढ़ने वाला है।'", "pron": "नो-त्र ल्वा-ये वा ओग-माँ-ते द दी पूर साँ", "model": "Dix pour cent ? Je suis surpris que l'augmentation soit si forte. Il est possible que ce ne soit pas légal : il faut vérifier." }
     ],
     "tip": {
       "en": "When you hesitate, choose a 'safe' structure: je pense que + indicative is always correct for an opinion. Add feeling + subjunctive only with the forms you know well (sois, soit, aies, ait, fasse, parte). Real reactions are short: 'C'est dommage qu'il parte !' is enough.",
@@ -149,11 +149,11 @@
       "hi": "मार्टीन का स्तंभ: तीन ख़बरें, तीन प्रतिक्रियाएँ\n\nइस हफ़्ते कई ख़बरों पर मॉन्ट्रियाल के लोगों में चर्चा हुई। ये रहीं मेरी प्रतिक्रियाएँ।\n\nपहली ख़बर: शहर पुस्तकालयों के खुलने का समय रात दस बजे तक बढ़ाने वाला है। मुझे बहुत ख़ुशी है कि पुस्तकालय देर तक खुले रहेंगे: बहुत से विद्यार्थियों और कामकाजी लोगों के पास शाम से पहले जाने का समय नहीं होता। मुझे लगता है कि यह बेहतरीन फ़ैसला है, और इसमें लगभग कुछ ख़र्च नहीं होता।\n\nदूसरी ख़बर: जुलाई में मेट्रो टिकट की क़ीमत पच्चीस सेंट बढ़ जाएगी। मैं जानती हूँ कि परिवहन कंपनी को पैसों की ज़रूरत है, लेकिन मुझे अफ़सोस है कि वह एक बार फिर यात्रियों से ही पैसे वसूलना चुन रही है। हो सकता है कि कुछ परिवार मेट्रो कम और गाड़ी ज़्यादा इस्तेमाल करने लगें। यह ठीक उसका उलटा होगा जो हम धरती के लिए चाहते हैं।\n\nतीसरी ख़बर: शहर के केंद्र की एक बड़ी दुकान मार्च में बिना पैकेजिंग वाली किराने की दुकान खोलने का वादा कर रही है। सच कहूँ तो मुझे शक है कि यह परियोजना इतनी जल्दी तैयार हो: काम तो अभी शुरू भी नहीं हुआ। लेकिन अगर यह दुकान कभी खुली, तो मुझे लगता है कि बहुत से ग्राहकों की इसमें दिलचस्पी होगी। सबसे पहले मेरी!\n\nआख़िर में, एक छोटी-सी अच्छी ख़बर: मेरे मोहल्ले के पार्क का स्केटिंग रिंक नवंबर की ठंड की वजह से इस साल जल्दी खुलेगा। मुझे ख़ुशी है कि आख़िरकार सर्दी किसी काम तो आई!\n\nऔर आप, इस हफ़्ते किस ख़बर ने आपको प्रतिक्रिया देने पर मजबूर किया?"
     },
     "questions": [
-      { "q": { "en": "How does Martine feel about the new library hours?" }, "options": ["Worried", "Delighted", "Surprised", "Disappointed"], "answer": 1, "explanation": { "en": "She is delighted the libraries will stay open later.", "hi": "उन्हें बहुत ख़ुशी है कि पुस्तकालय देर तक खुले रहेंगे।" }, "kind": "literal", "evidence": "Je suis ravie que les bibliothèques restent ouvertes plus tard" },
-      { "q": { "en": "What will happen to the metro ticket?" }, "options": ["It will become free in July.", "It will be cheaper for families.", "It will cost twenty-five cents more in July.", "It will only be sold online."], "answer": 2, "explanation": { "en": "The price goes up by twenty-five cents in July.", "hi": "जुलाई में क़ीमत पच्चीस सेंट बढ़ेगी।" }, "kind": "literal", "evidence": "va augmenter de vingt-cinq cents en juillet" },
-      { "q": { "en": "What negative effect does she fear from the price increase?" }, "options": ["More people driving instead of taking the metro", "Fewer metro lines", "Longer waiting times", "Fewer jobs at the transit company"], "answer": 0, "explanation": { "en": "Some families may take the car more, which is bad for the planet.", "hi": "कुछ परिवार गाड़ी ज़्यादा इस्तेमाल कर सकते हैं, जो धरती के लिए बुरा है।" }, "kind": "inference", "evidence": "Il est possible que certaines familles prennent moins le métro et plus la voiture." },
-      { "q": { "en": "Why does she doubt the grocery store will open in March?" }, "options": ["The store has no money.", "The city refused the project.", "Customers aren't interested.", "The construction work hasn't started."], "answer": 3, "explanation": { "en": "The work hasn't even started yet.", "hi": "काम अभी शुरू भी नहीं हुआ।" }, "kind": "inference", "evidence": "les travaux n'ont même pas commencé" },
-      { "q": { "en": "What is the tone of her last reaction about winter?" }, "options": ["Angry", "Sad", "Humorous", "Worried"], "answer": 2, "explanation": { "en": "She jokes that winter is finally good for something (the rink opens earlier).", "hi": "वह मज़ाक़ करती हैं कि आख़िरकार सर्दी किसी काम आई (रिंक जल्दी खुलेगा)।" }, "kind": "inference", "evidence": "Je suis contente que l'hiver serve enfin à quelque chose" }
+      { "q": { "en": "How does Martine feel about the new library hours?", "hi": "पुस्तकालय के नए समय के बारे में Martine कैसा महसूस करती है?" }, "options": ["Worried", "Delighted", "Surprised", "Disappointed"], "optionsHi": ["चिंतित", "बहुत ख़ुश", "हैरान", "निराश"], "answer": 1, "explanation": { "en": "She is delighted the libraries will stay open later.", "hi": "उन्हें बहुत ख़ुशी है कि पुस्तकालय देर तक खुले रहेंगे।" }, "kind": "literal", "evidence": "Je suis ravie que les bibliothèques restent ouvertes plus tard" },
+      { "q": { "en": "What will happen to the metro ticket?", "hi": "मेट्रो के टिकट का क्या होगा?" }, "options": ["It will become free in July.", "It will be cheaper for families.", "It will cost twenty-five cents more in July.", "It will only be sold online."], "optionsHi": ["जुलाई में यह मुफ़्त हो जाएगा।", "परिवारों के लिए यह सस्ता हो जाएगा।", "जुलाई में इसकी क़ीमत पच्चीस सेंट बढ़ जाएगी।", "यह सिर्फ़ ऑनलाइन बिकेगा।"], "answer": 2, "explanation": { "en": "The price goes up by twenty-five cents in July.", "hi": "जुलाई में क़ीमत पच्चीस सेंट बढ़ेगी।" }, "kind": "literal", "evidence": "va augmenter de vingt-cinq cents en juillet" },
+      { "q": { "en": "What negative effect does she fear from the price increase?", "hi": "किराया बढ़ने से वह कौन-सा बुरा असर होने का डर जताती है?" }, "options": ["More people driving instead of taking the metro", "Fewer metro lines", "Longer waiting times", "Fewer jobs at the transit company"], "optionsHi": ["मेट्रो लेने के बजाय ज़्यादा लोग गाड़ी चलाएँगे", "मेट्रो की लाइनें कम हो जाएँगी", "इंतज़ार का समय लंबा हो जाएगा", "परिवहन कंपनी में नौकरियाँ कम हो जाएँगी"], "answer": 0, "explanation": { "en": "Some families may take the car more, which is bad for the planet.", "hi": "कुछ परिवार गाड़ी ज़्यादा इस्तेमाल कर सकते हैं, जो धरती के लिए बुरा है।" }, "kind": "inference", "evidence": "Il est possible que certaines familles prennent moins le métro et plus la voiture." },
+      { "q": { "en": "Why does she doubt the grocery store will open in March?", "hi": "उसे संदेह क्यों है कि किराने की दुकान मार्च में खुलेगी?" }, "options": ["The store has no money.", "The city refused the project.", "Customers aren't interested.", "The construction work hasn't started."], "optionsHi": ["दुकान के पास पैसे नहीं हैं।", "शहर ने प्रोजेक्ट अस्वीकार कर दिया।", "ग्राहकों की दिलचस्पी नहीं है।", "निर्माण कार्य शुरू नहीं हुआ है।"], "answer": 3, "explanation": { "en": "The work hasn't even started yet.", "hi": "काम अभी शुरू भी नहीं हुआ।" }, "kind": "inference", "evidence": "les travaux n'ont même pas commencé" },
+      { "q": { "en": "What is the tone of her last reaction about winter?", "hi": "सर्दी के बारे में उसकी आख़िरी प्रतिक्रिया का लहजा कैसा है?" }, "options": ["Angry", "Sad", "Humorous", "Worried"], "optionsHi": ["ग़ुस्से भरा", "उदास", "हास्य भरा", "चिंतित"], "answer": 2, "explanation": { "en": "She jokes that winter is finally good for something (the rink opens earlier).", "hi": "वह मज़ाक़ करती हैं कि आख़िरकार सर्दी किसी काम आई (रिंक जल्दी खुलेगा)।" }, "kind": "inference", "evidence": "Je suis contente que l'hiver serve enfin à quelque chose" }
     ]
   },
   "writing": {
@@ -171,10 +171,10 @@
       { "en": "Use at least one je doute que and one je ne pense pas que.", "hi": "कम से कम एक je doute que और एक je ne pense pas que इस्तेमाल कीजिए।" }
     ],
     "usefulPhrases": [
-      { "fr": "Tu as vu les annonces ?", "en": "Have you seen the announcements?", "hi": "तुमने घोषणाएँ देखीं?", "pron": "तü आ वü ले ज़ा-नोँस" },
-      { "fr": "Je suis déçue que…", "en": "I'm disappointed that…", "hi": "मैं निराश हूँ कि…", "pron": "झ़ö स्üई दे-सü कö" },
-      { "fr": "Je doute que ce soit justifié.", "en": "I doubt it's justified.", "hi": "मुझे शक है कि यह उचित हो।", "pron": "झ़ö दूत कö सö स्वा झ़üस-ती-फ़्ये" },
-      { "fr": "Il est possible que je sois en voyage.", "en": "I may be travelling.", "hi": "हो सकता है कि मैं यात्रा पर रहूँ।", "pron": "ई-लै पो-सीब्ल कö झ़ö स्वा आँ व्वा-याझ़" }
+      { "fr": "Tu as vu les annonces ?", "en": "Have you seen the announcements?", "hi": "तुमने घोषणाएँ देखीं?", "pron": "त्यू आ व्यू ले ज़ा-नोंस" },
+      { "fr": "Je suis déçue que…", "en": "I'm disappointed that…", "hi": "मैं निराश हूँ कि…", "pron": "ज स्यूई दे-स्यू क" },
+      { "fr": "Je doute que ce soit justifié.", "en": "I doubt it's justified.", "hi": "मुझे शक है कि यह उचित हो।", "pron": "ज दूत क स स्वा ज्यूस-ती-फ़्ये" },
+      { "fr": "Il est possible que je sois en voyage.", "en": "I may be travelling.", "hi": "हो सकता है कि मैं यात्रा पर रहूँ।", "pron": "ई-ले पो-सीब्ल क ज स्वा आँ व्वा-याज" }
     ],
     "model": {
       "fr": "Salut Neha,\n\nTu as vu les annonces dans l'ascenseur ? Il y a beaucoup de nouvelles cette semaine !\n\nD'abord, la salle de sport ferme pendant deux mois pour des travaux. Je suis déçue qu'elle soit fermée tout l'été, parce que c'est là que je fais mon yoga. Je pense que je vais courir au parc à la place.\n\nEnsuite, une garderie va ouvrir juste à côté de l'immeuble. Je suis vraiment contente que les familles aient enfin une solution près de chez elles. La rue sera sans doute plus bruyante le matin, mais ce n'est pas grave.\n\nPar contre, le prix du stationnement augmente encore. Je doute que ce soit justifié : le parking n'a pas changé depuis cinq ans ! Je ne pense pas que les voisins soient d'accord.\n\nEnfin, il y aura une fête des voisins en juin. Il est possible que je sois en voyage à ce moment-là, mais j'espère que non. Je crois que c'est une belle occasion de se rencontrer. Tu viens ?\n\nBisous,\nPriya",
@@ -190,14 +190,14 @@
   "review": {
     "fromDays": [61, 66, 69, 73, 74, 75],
     "items": [
-      { "fr": "Il faut que tu sois à l'heure.", "en": "You have to be on time.", "hi": "तुम्हें समय पर होना होगा।", "pron": "ईल फ़ो कö तü स्वा ज़ा लöग़" },
-      { "fr": "Je veux que vous fassiez attention.", "en": "I want you to be careful.", "hi": "मैं चाहता हूँ कि आप सावधान रहें।", "pron": "झ़ö वö कö वू फ़ा-स्ये ज़ा-ताँ-स्योँ" },
-      { "fr": "Je parle fort pour que tout le monde entende.", "en": "I speak loudly so that everyone can hear.", "hi": "मैं ज़ोर से बोलता हूँ ताकि सब सुन सकें।", "pron": "झ़ö पाग़ल फ़ॉग़ पूग़ कö तू लö मोँद आँ-ताँद" },
-      { "fr": "Il est important de vérifier les informations.", "en": "It's important to check the information.", "hi": "जानकारी की जाँच करना ज़रूरी है।", "pron": "ई-लै तैँ-पोग़-ताँ दö वे-ग़ी-फ़्ये ले ज़ैँ-फ़ोग़-मा-स्योँ" },
-      { "fr": "Au contraire, c'est une très bonne idée !", "en": "On the contrary, it's a very good idea!", "hi": "बल्कि, यह बहुत अच्छा विचार है!", "pron": "ओ कोँ-त्ग़ैग़ सै तüन त्ग़ै बॉन ई-दे" },
-      { "fr": "Si j'étais toi, j'accepterais.", "en": "If I were you, I'd accept.", "hi": "अगर मैं तुम्हारी जगह होता, तो मान लेता।", "pron": "सी झ़े-तै त्वा झ़ाक-सैप-तö-ग़ै" },
-      { "fr": "Le bureau est loin ; en revanche, le salaire est meilleur.", "en": "The office is far; on the other hand, the salary is better.", "hi": "दफ़्तर दूर है; दूसरी तरफ़, तनख़्वाह बेहतर है।", "pron": "लö बü-ग़ो ऐ ल्वैँ आँ ग़ö-वाँश लö सा-लैग़ ऐ मै-यöग़" },
-      { "fr": "À mon avis, c'est trop cher.", "en": "In my opinion, it's too expensive.", "hi": "मेरी राय में, यह बहुत महँगा है।", "pron": "आ मो ना-वी सै त्ग़ो शैग़" }
+      { "fr": "Il faut que tu sois à l'heure.", "en": "You have to be on time.", "hi": "तुम्हें समय पर होना होगा।", "pron": "ईल फ़ो क त्यू स्वा ज़ा लर" },
+      { "fr": "Je veux que vous fassiez attention.", "en": "I want you to be careful.", "hi": "मैं चाहता हूँ कि आप सावधान रहें।", "pron": "ज व क वू फ़ा-स्ये ज़ा-ताँ-स्यों" },
+      { "fr": "Je parle fort pour que tout le monde entende.", "en": "I speak loudly so that everyone can hear.", "hi": "मैं ज़ोर से बोलता हूँ ताकि सब सुन सकें।", "pron": "ज पारल फ़ॉर पूर क तू ल मोंद आँ-ताँद" },
+      { "fr": "Il est important de vérifier les informations.", "en": "It's important to check the information.", "hi": "जानकारी की जाँच करना ज़रूरी है।", "pron": "ई-ले तैं-पोर-ताँ द वे-री-फ़्ये ले ज़ैं-फ़ोर-मा-स्यों" },
+      { "fr": "Au contraire, c'est une très bonne idée !", "en": "On the contrary, it's a very good idea!", "hi": "बल्कि, यह बहुत अच्छा विचार है!", "pron": "ओ कों-त्रेर से त्यून त्रे बॉन ई-दे" },
+      { "fr": "Si j'étais toi, j'accepterais.", "en": "If I were you, I'd accept.", "hi": "अगर मैं तुम्हारी जगह होता, तो मान लेता।", "pron": "सी जे-ते त्वा जाक-सेप-त-रे" },
+      { "fr": "Le bureau est loin ; en revanche, le salaire est meilleur.", "en": "The office is far; on the other hand, the salary is better.", "hi": "दफ़्तर दूर है; दूसरी तरफ़, तनख़्वाह बेहतर है।", "pron": "ल ब्यू-रो ए ल्वैं आँ र-वाँश ल सा-लेर ए मे-यर" },
+      { "fr": "À mon avis, c'est trop cher.", "en": "In my opinion, it's too expensive.", "hi": "मेरी राय में, यह बहुत महँगा है।", "pron": "आ मों ना-वी से त्रो शेर" }
     ]
   },
   "assessment": [

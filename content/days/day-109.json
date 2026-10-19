@@ -17,21 +17,21 @@
   "checkpoint": false,
   "mock": { "id": "mock-2", "part": "writing_speaking" },
   "vocabulary": [
-    { "fr": "le paragraphe", "en": "paragraph", "hi": "अनुच्छेद", "pron": "लö पा-ग़ा-ग्ग़ाफ़", "ipa": "lə paʁaɡʁaf", "pos": "noun", "gender": "m", "lemma": "paragraphe" },
-    { "fr": "le contre-argument", "en": "counter-argument", "hi": "विरोधी तर्क", "pron": "लö कोँ-त्ग़ आग़-गü-माँ", "ipa": "lə kɔ̃tʁaʁɡymɑ̃", "pos": "noun", "gender": "m", "lemma": "contre-argument" },
-    { "fr": "un exemple concret", "en": "a concrete example", "hi": "एक ठोस उदाहरण", "pron": "ऐँ नैग-ज़ाँप्ल कोँ-क्ग़ै", "ipa": "ɛ̃n‿ɛɡzɑ̃pl kɔ̃kʁɛ", "pos": "noun", "gender": "m", "lemma": "exemple" },
-    { "fr": "le dénouement", "en": "the ending, outcome (of a story)", "hi": "कहानी का अंत / परिणाम", "pron": "लö दे-नू-माँ", "ipa": "lə denumɑ̃", "pos": "noun", "gender": "m", "lemma": "dénouement" },
-    { "fr": "la ponctuation", "en": "punctuation", "hi": "विराम-चिह्न", "pron": "ला पोँक-तü-आ-स्योँ", "ipa": "la pɔ̃ktɥasjɔ̃", "pos": "noun", "gender": "f", "lemma": "ponctuation" },
-    { "fr": "enchaîner", "en": "to link, to follow on", "hi": "जोड़ते जाना / आगे बढ़ाना", "pron": "आँ-शै-ने", "ipa": "ɑ̃ʃɛne", "pos": "verb" },
-    { "fr": "la parcelle", "en": "plot (of land)", "hi": "ज़मीन का छोटा टुकड़ा / क्यारी", "pron": "ला पाग़-सैल", "ipa": "la paʁsɛl", "pos": "noun", "gender": "f", "lemma": "parcelle" },
-    { "fr": "le bonnet de bain", "en": "swimming cap", "hi": "तैराकी की टोपी", "pron": "लö बो-नै दö बैँ", "ipa": "lə bɔnɛ də bɛ̃", "pos": "noun", "gender": "m", "lemma": "bonnet" }
+    { "fr": "le paragraphe", "en": "paragraph", "hi": "अनुच्छेद", "pron": "ल पा-रा-ग्राफ़", "ipa": "lə paʁaɡʁaf", "pos": "noun", "gender": "m", "lemma": "paragraphe" },
+    { "fr": "le contre-argument", "en": "counter-argument", "hi": "विरोधी तर्क", "pron": "ल कों-त्र आर-ग्यू-माँ", "ipa": "lə kɔ̃tʁaʁɡymɑ̃", "pos": "noun", "gender": "m", "lemma": "contre-argument" },
+    { "fr": "un exemple concret", "en": "a concrete example", "hi": "एक ठोस उदाहरण", "pron": "ऐं नेग-ज़ाँप्ल कों-क्रे", "ipa": "ɛ̃n‿ɛɡzɑ̃pl kɔ̃kʁɛ", "pos": "noun", "gender": "m", "lemma": "exemple" },
+    { "fr": "le dénouement", "en": "the ending, outcome (of a story)", "hi": "कहानी का अंत / परिणाम", "pron": "ल दे-नू-माँ", "ipa": "lə denumɑ̃", "pos": "noun", "gender": "m", "lemma": "dénouement" },
+    { "fr": "la ponctuation", "en": "punctuation", "hi": "विराम-चिह्न", "pron": "ला पोंक-त्यू-आ-स्यों", "ipa": "la pɔ̃ktɥasjɔ̃", "pos": "noun", "gender": "f", "lemma": "ponctuation" },
+    { "fr": "enchaîner", "en": "to link, to follow on", "hi": "जोड़ते जाना / आगे बढ़ाना", "pron": "आँ-शे-ने", "ipa": "ɑ̃ʃɛne", "pos": "verb" },
+    { "fr": "la parcelle", "en": "plot (of land)", "hi": "ज़मीन का छोटा टुकड़ा / क्यारी", "pron": "ला पार-सेल", "ipa": "la paʁsɛl", "pos": "noun", "gender": "f", "lemma": "parcelle" },
+    { "fr": "le bonnet de bain", "en": "swimming cap", "hi": "तैराकी की टोपी", "pron": "ल बो-ने द बैं", "ipa": "lə bɔnɛ də bɛ̃", "pos": "noun", "gender": "m", "lemma": "bonnet" }
   ],
   "phrases": [
-    { "fr": "Qui ? Quoi ? Où ? Quand ? Comment ? Combien ? Pourquoi ?", "en": "Who? What? Where? When? How? How much? Why?", "hi": "कौन? क्या? कहाँ? कब? कैसे? कितना? क्यों?", "pron": "की क्वा ऊ काँ को-माँ कोँ-ब्यैँ पूग़-क्वा" },
-    { "fr": "Je fais une liste des objections possibles.", "en": "I make a list of possible objections.", "hi": "मैं संभावित आपत्तियों की सूची बनाता / बनाती हूँ।", "pron": "झ़ö फ़ै üन लीस्त दे ज़ॉब-झ़ैक-स्योँ पो-सीब्ल" },
-    { "fr": "Un paragraphe, une idée.", "en": "One paragraph, one idea.", "hi": "एक अनुच्छेद, एक विचार।", "pron": "ऐँ पा-ग़ा-ग्ग़ाफ़ üन ई-दे" },
-    { "fr": "Ça te dirait de venir avec moi ?", "en": "Would you like to come with me?", "hi": "क्या तुम मेरे साथ चलना चाहोगे?", "pron": "सा तö दी-ग़ै दö व-नीग़ आ-वैक म्वा" },
-    { "fr": "Je garde du temps pour le dénouement.", "en": "I keep time for the ending.", "hi": "मैं अंत के लिए समय बचाकर रखता / रखती हूँ।", "pron": "झ़ö गाग़्द दü ताँ पूग़ लö दे-नू-माँ" }
+    { "fr": "Qui ? Quoi ? Où ? Quand ? Comment ? Combien ? Pourquoi ?", "en": "Who? What? Where? When? How? How much? Why?", "hi": "कौन? क्या? कहाँ? कब? कैसे? कितना? क्यों?", "pron": "की क्वा ऊ काँ को-माँ कों-ब्यैं पूर-क्वा" },
+    { "fr": "Je fais une liste des objections possibles.", "en": "I make a list of possible objections.", "hi": "मैं संभावित आपत्तियों की सूची बनाता / बनाती हूँ।", "pron": "ज फ़े यून लीस्त दे ज़ॉब-जेक-स्यों पो-सीब्ल" },
+    { "fr": "Un paragraphe, une idée.", "en": "One paragraph, one idea.", "hi": "एक अनुच्छेद, एक विचार।", "pron": "ऐं पा-रा-ग्राफ़ यून ई-दे" },
+    { "fr": "Ça te dirait de venir avec moi ?", "en": "Would you like to come with me?", "hi": "क्या तुम मेरे साथ चलना चाहोगे?", "pron": "सा त दी-रे द व-नीर आ-वेक म्वा" },
+    { "fr": "Je garde du temps pour le dénouement.", "en": "I keep time for the ending.", "hi": "मैं अंत के लिए समय बचाकर रखता / रखती हूँ।", "pron": "ज गार्द द्यू ताँ पूर ल दे-नू-माँ" }
   ],
   "grammar": {
     "title": { "en": "One quick plan for each production task", "hi": "हर अभिव्यक्ति-काम के लिए एक झटपट योजना" },
@@ -44,11 +44,11 @@
       "hi": "हिंदी और अंग्रेज़ी के पत्रकार भी वही 'पाँच प्रश्न' इस्तेमाल करते हैं (कौन, क्या, कहाँ, कब, क्यों)। फ़्रेंच में ये हैं Qui, Quoi, Où, Quand, Pourquoi — साथ में Comment और Combien, जो खंड A में बहुत काम आते हैं।"
     },
     "examples": [
-      { "fr": "Où se trouve exactement la piscine ?", "en": "Where exactly is the pool?", "hi": "स्विमिंग पूल ठीक-ठीक कहाँ है?", "pron": "ऊ सö त्ग़ूव ऐग-ज़ाक-तö-माँ ला पी-सीन" },
-      { "fr": "Combien de personnes y a-t-il par groupe ?", "en": "How many people are there per group?", "hi": "हर समूह में कितने लोग होते हैं?", "pron": "कोँ-ब्यैँ दö पैग़-सॉन ई या-तील पाग़ ग्ग़ूप" },
-      { "fr": "Pourriez-vous me dire comment se passe l'inscription ?", "en": "Could you tell me how registration works?", "hi": "क्या आप बता सकते हैं कि पंजीकरण कैसे होता है?", "pron": "पू-ग़ी-ये वू मö दीग़ को-माँ सö पास लैँस-क्ग़ीप-स्योँ" },
-      { "fr": "Le conducteur avait remarqué une fumée blanche.", "en": "The driver had noticed white smoke.", "hi": "ड्राइवर ने सफ़ेद धुआँ देखा था।", "pron": "लö कोँ-दüक-तöग़ आ-वै ग़ö-माग़-के üन फ़ü-मे ब्लाँश" },
-      { "fr": "Finalement, tous les passagers sont rentrés chez eux.", "en": "In the end, all the passengers went home.", "hi": "आख़िरकार सभी यात्री घर लौट गए।", "pron": "फ़ी-नाल-माँ तू ले पा-सा-झ़े सोँ ग़ाँ-त्ग़े शे ज़ö" }
+      { "fr": "Où se trouve exactement la piscine ?", "en": "Where exactly is the pool?", "hi": "स्विमिंग पूल ठीक-ठीक कहाँ है?", "pron": "ऊ स त्रूव एग-ज़ाक-त-माँ ला पी-सीन" },
+      { "fr": "Combien de personnes y a-t-il par groupe ?", "en": "How many people are there per group?", "hi": "हर समूह में कितने लोग होते हैं?", "pron": "कों-ब्यैं द पेर-सॉन ई या-तील पार ग्रूप" },
+      { "fr": "Pourriez-vous me dire comment se passe l'inscription ?", "en": "Could you tell me how registration works?", "hi": "क्या आप बता सकते हैं कि पंजीकरण कैसे होता है?", "pron": "पू-री-ये वू म दीर को-माँ स पास लैंस-क्रीप-स्यों" },
+      { "fr": "Le conducteur avait remarqué une fumée blanche.", "en": "The driver had noticed white smoke.", "hi": "ड्राइवर ने सफ़ेद धुआँ देखा था।", "pron": "ल कों-द्यूक-तर आ-वे र-मार-के यून फ़्यू-मे ब्लाँश" },
+      { "fr": "Finalement, tous les passagers sont rentrés chez eux.", "en": "In the end, all the passengers went home.", "hi": "आख़िरकार सभी यात्री घर लौट गए।", "pron": "फ़ी-नाल-माँ तू ले पा-सा-जे सों राँ-त्रे शे ज़" }
     ],
     "pitfalls": [
       { "en": "In speaking A, don't ask questions the advertisement already answers: it sounds as if you haven't read it.", "hi": "मौखिक A में वे प्रश्न मत पूछिए जिनका जवाब विज्ञापन में पहले से है: लगता है आपने उसे पढ़ा ही नहीं।" },
@@ -62,11 +62,11 @@
       "hi": "दबाव में लंबे शिष्ट शब्दों पर ज़बान लड़खड़ाती है। नीचे का हर शब्द पहले अक्षर-अक्षर करके, फिर एक बहते शब्द की तरह, तीन बार बोलिए। é और i पर हल्का मुस्कुराइए, u और ou पर होंठ गोल कीजिए।"
     },
     "words": [
-      { "fr": "renseignements", "en": "information", "hi": "जानकारी", "pron": "ग़ाँ-सैन्य-माँ", "ipa": "ʁɑ̃sɛɲmɑ̃" },
-      { "fr": "inscription", "en": "registration", "hi": "पंजीकरण", "pron": "ऐँस-क्ग़ीप-स्योँ", "ipa": "ɛ̃skʁipsjɔ̃" },
-      { "fr": "disponible", "en": "available", "hi": "उपलब्ध", "pron": "दीस-पो-नीब्ल", "ipa": "disponibl" },
-      { "fr": "rembourser", "en": "to refund", "hi": "पैसे लौटाना", "pron": "ग़ाँ-बूग़-से", "ipa": "ʁɑ̃buʁse" },
-      { "fr": "Pourriez-vous", "en": "Could you", "hi": "क्या आप … सकते हैं", "pron": "पू-ग़ी-ये वू", "ipa": "puʁje vu" }
+      { "fr": "renseignements", "en": "information", "hi": "जानकारी", "pron": "राँ-सेन्य-माँ", "ipa": "ʁɑ̃sɛɲmɑ̃" },
+      { "fr": "inscription", "en": "registration", "hi": "पंजीकरण", "pron": "ऐंस-क्रीप-स्यों", "ipa": "ɛ̃skʁipsjɔ̃" },
+      { "fr": "disponible", "en": "available", "hi": "उपलब्ध", "pron": "दीस-पॉ-नीब्ल", "ipa": "disponibl" },
+      { "fr": "rembourser", "en": "to refund", "hi": "पैसे लौटाना", "pron": "राँ-बूर-से", "ipa": "ʁɑ̃buʁse" },
+      { "fr": "Pourriez-vous", "en": "Could you", "hi": "क्या आप … सकते हैं", "pron": "पू-र्ये वू", "ipa": "puʁje vu" }
     ]
   },
   "listening": {
@@ -88,11 +88,11 @@
       { "speaker": "Samir", "voice": "m1", "fr": "D'accord, tu me tentes. Envoie-moi le lien pour l'inscription ce soir.", "en": "OK, you're tempting me. Send me the registration link tonight.", "hi": "ठीक है, तुम मुझे ललचा रही हो। आज शाम मुझे पंजीकरण का लिंक भेज दो।" }
     ],
     "questions": [
-      { "q": { "en": "Why does Léa call Samir?" }, "options": ["To invite him to dinner", "To suggest sharing a garden plot", "To sell him tomatoes", "To ask for help at work"], "answer": 1, "explanation": { "en": "'Ça te dirait de partager une parcelle avec moi ?'", "hi": "'Ça te dirait de partager une parcelle avec moi ?' — क्यारी साझा करने का प्रस्ताव।" }, "kind": "gist", "evidence": "Ça te dirait de partager une parcelle avec moi ?" },
-      { "q": { "en": "What is Samir's first objection?" }, "options": ["He knows nothing about vegetables", "It is too expensive", "He works on Saturdays", "He doesn't like tomatoes"], "answer": 0, "explanation": { "en": "'Je n'y connais rien, moi, en légumes.'", "hi": "'Je n'y connais rien, moi, en légumes' — सब्ज़ियों के बारे में कुछ नहीं जानता।" }, "kind": "literal", "evidence": "Je n'y connais rien, moi, en légumes." },
-      { "q": { "en": "How much does the plot cost?" }, "options": ["Thirty dollars a month", "It is free", "Thirty dollars for the whole season", "Thirteen dollars"], "answer": 2, "explanation": { "en": "'Trente dollars pour toute la saison.' The workshop is the free part.", "hi": "'Trente dollars pour toute la saison.' मुफ़्त तो कार्यशाला है।" }, "kind": "literal", "evidence": "trente dollars pour toute la saison" },
-      { "q": { "en": "How often would Samir need to go?" }, "options": ["Every day", "Twice a week", "Once a month", "Once a week"], "answer": 3, "explanation": { "en": "Twice a week shared between two people: 'une fois chacun'.", "hi": "हफ़्ते में दो बार, दो लोगों में बँटा: 'une fois chacun' — हर कोई एक बार।" }, "kind": "inference", "evidence": "une fois chacun" },
-      { "q": { "en": "What does Samir ask Léa to do?" }, "options": ["Send him the registration link", "Call him tomorrow", "Register for him", "Buy the seeds"], "answer": 0, "explanation": { "en": "'Envoie-moi le lien pour l'inscription ce soir.'", "hi": "'Envoie-moi le lien pour l'inscription ce soir' — आज शाम लिंक भेजो।" }, "kind": "literal", "evidence": "Envoie-moi le lien pour l'inscription ce soir." }
+      { "q": { "en": "Why does Léa call Samir?", "hi": "लेआ समीर को फ़ोन क्यों करती है?" }, "options": ["To invite him to dinner", "To suggest sharing a garden plot", "To sell him tomatoes", "To ask for help at work"], "optionsHi": ["उसे रात के खाने पर बुलाने के लिए", "बगीचे का एक प्लॉट साझा करने का सुझाव देने के लिए", "उसे टमाटर बेचने के लिए", "काम में मदद माँगने के लिए"], "answer": 1, "explanation": { "en": "'Ça te dirait de partager une parcelle avec moi ?'", "hi": "'Ça te dirait de partager une parcelle avec moi ?' — क्यारी साझा करने का प्रस्ताव।" }, "kind": "gist", "evidence": "Ça te dirait de partager une parcelle avec moi ?" },
+      { "q": { "en": "What is Samir's first objection?", "hi": "समीर की पहली आपत्ति क्या है?" }, "options": ["He knows nothing about vegetables", "It is too expensive", "He works on Saturdays", "He doesn't like tomatoes"], "optionsHi": ["वह सब्ज़ियों के बारे में कुछ नहीं जानता", "यह बहुत महँगा है", "वह शनिवार को काम करता है", "उसे टमाटर पसंद नहीं हैं"], "answer": 0, "explanation": { "en": "'Je n'y connais rien, moi, en légumes.'", "hi": "'Je n'y connais rien, moi, en légumes' — सब्ज़ियों के बारे में कुछ नहीं जानता।" }, "kind": "literal", "evidence": "Je n'y connais rien, moi, en légumes." },
+      { "q": { "en": "How much does the plot cost?", "hi": "प्लॉट की क़ीमत कितनी है?" }, "options": ["Thirty dollars a month", "It is free", "Thirty dollars for the whole season", "Thirteen dollars"], "optionsHi": ["तीस डॉलर प्रति माह", "यह मुफ़्त है", "पूरे मौसम के लिए तीस डॉलर", "तेरह डॉलर"], "answer": 2, "explanation": { "en": "'Trente dollars pour toute la saison.' The workshop is the free part.", "hi": "'Trente dollars pour toute la saison.' मुफ़्त तो कार्यशाला है।" }, "kind": "literal", "evidence": "trente dollars pour toute la saison" },
+      { "q": { "en": "How often would Samir need to go?", "hi": "समीर को कितनी बार जाना होगा?" }, "options": ["Every day", "Twice a week", "Once a month", "Once a week"], "optionsHi": ["हर दिन", "सप्ताह में दो बार", "महीने में एक बार", "सप्ताह में एक बार"], "answer": 3, "explanation": { "en": "Twice a week shared between two people: 'une fois chacun'.", "hi": "हफ़्ते में दो बार, दो लोगों में बँटा: 'une fois chacun' — हर कोई एक बार।" }, "kind": "inference", "evidence": "une fois chacun" },
+      { "q": { "en": "What does Samir ask Léa to do?", "hi": "समीर लेआ से क्या करने को कहता है?" }, "options": ["Send him the registration link", "Call him tomorrow", "Register for him", "Buy the seeds"], "optionsHi": ["उसे पंजीकरण का लिंक भेजे", "कल उसे फ़ोन करे", "उसकी जगह पंजीकरण कर दे", "बीज ख़रीद ले"], "answer": 0, "explanation": { "en": "'Envoie-moi le lien pour l'inscription ce soir.'", "hi": "'Envoie-moi le lien pour l'inscription ce soir' — आज शाम लिंक भेजो।" }, "kind": "literal", "evidence": "Envoie-moi le lien pour l'inscription ce soir." }
     ],
     "dictation": [
       "Ça te dirait de partager une parcelle avec moi ?",
@@ -119,11 +119,11 @@
       ]
     },
     "prompts": [
-      { "fr": "Qui sont les moniteurs ? Ils parlent anglais aussi ?", "en": "Who are the instructors? Do they also speak English?", "hi": "प्रशिक्षक कौन हैं? क्या वे अंग्रेज़ी भी बोलते हैं?", "pron": "की सोँ ले मो-नी-तöग़ ईल पाग़ल ताँ-ग्लै ओ-सी" },
-      { "fr": "Est-ce que je peux faire un cours d'essai ?", "en": "Can I do a trial class?", "hi": "क्या मैं एक आज़माइशी कक्षा ले सकता / सकती हूँ?", "pron": "ऐस कö झ़ö पö फ़ैग़ ऐँ कूग़ दे-सै" },
-      { "fr": "Je voudrais savoir s'il y a un stationnement près de la piscine.", "en": "I'd like to know if there's parking near the pool.", "hi": "मैं जानना चाहता / चाहती हूँ कि पूल के पास पार्किंग है या नहीं।", "pron": "झ़ö वू-द्ग़ै सा-वाग़ सी ली या ऐँ स्ता-स्यॉन-माँ प्ग़ै द ला पी-सीन" },
-      { "fr": "Si je manque un cours, est-ce que je peux le rattraper ?", "en": "If I miss a class, can I make it up?", "hi": "अगर मेरी एक कक्षा छूट जाए, तो क्या मैं उसकी भरपाई कर सकता / सकती हूँ?", "pron": "सी झ़ö माँक ऐँ कूग़ ऐस कö झ़ö पö लö ग़ा-त्ग़ा-पे" },
-      { "fr": "Pourriez-vous me dire comment on paie ?", "en": "Could you tell me how you pay?", "hi": "क्या आप बता सकते हैं कि भुगतान कैसे होता है?", "pron": "पू-ग़ी-ये वू मö दीग़ को-माँ ओँ पै" }
+      { "fr": "Qui sont les moniteurs ? Ils parlent anglais aussi ?", "en": "Who are the instructors? Do they also speak English?", "hi": "प्रशिक्षक कौन हैं? क्या वे अंग्रेज़ी भी बोलते हैं?", "pron": "की सों ले मो-नी-तर ईल पारल ताँ-ग्ले ओ-सी" },
+      { "fr": "Est-ce que je peux faire un cours d'essai ?", "en": "Can I do a trial class?", "hi": "क्या मैं एक आज़माइशी कक्षा ले सकता / सकती हूँ?", "pron": "एस क ज प फ़ेर ऐं कूर दे-से" },
+      { "fr": "Je voudrais savoir s'il y a un stationnement près de la piscine.", "en": "I'd like to know if there's parking near the pool.", "hi": "मैं जानना चाहता / चाहती हूँ कि पूल के पास पार्किंग है या नहीं।", "pron": "ज वू-द्रे सा-वार सी ली या ऐं स्ता-स्यॉन-माँ प्रे द ला पी-सीन" },
+      { "fr": "Si je manque un cours, est-ce que je peux le rattraper ?", "en": "If I miss a class, can I make it up?", "hi": "अगर मेरी एक कक्षा छूट जाए, तो क्या मैं उसकी भरपाई कर सकता / सकती हूँ?", "pron": "सी ज माँक ऐं कूर एस क ज प ल रा-त्रा-पे" },
+      { "fr": "Pourriez-vous me dire comment on paie ?", "en": "Could you tell me how you pay?", "hi": "क्या आप बता सकते हैं कि भुगतान कैसे होता है?", "pron": "पू-री-ये वू म दीर को-माँ ओं पे" }
     ],
     "tip": {
       "en": "Planning your questions by question word takes 30 seconds and stops you from running out of ideas after five questions.",
@@ -139,11 +139,11 @@
       "hi": "क्या आपने कभी तैरना नहीं सीखा, या आप अपनी तकनीक सुधारना चाहते हैं? हमारे प्रमाणित प्रशिक्षक आराम भरे माहौल में, अधिकतम छह लोगों के छोटे समूहों में आपका स्वागत करते हैं।\n\nस्तर 1 (शुरुआती, पानी से डरने वाले भी आ सकते हैं!): सोमवार और बुधवार, शाम 7 से 8 बजे।\nस्तर 2 (सुधार): मंगलवार और गुरुवार, रात 8 से 9 बजे।\n\nसत्र की अवधि: दस हफ़्ते, 15 जनवरी से।\nशुल्क: निवासियों के लिए 120 डॉलर, ग़ैर-निवासियों के लिए 160 डॉलर। पते का प्रमाण माँगा जाता है। इन कक्षाओं के दौरान बच्चों को आने की अनुमति नहीं है, लेकिन रविवार दोपहर परिवारों के लिए खुला तैराकी-समय होता है।\n\nतैराकी की टोपी ज़रूरी है। तैराकी के चश्मे की सलाह दी जाती है। कपड़े बदलने के कमरों में लॉकर हैं: अपना ताला ख़ुद लाइए।\n\nऑनलाइन पंजीकरण 5 जनवरी सुबह 8 बजे से। जगहें जल्दी भर जाती हैं!\n\nदोनों स्तरों में से चुनने में दुविधा है? शनिवार 10 जनवरी को एक छोटी मुफ़्त जाँच रखी गई है।"
     },
     "questions": [
-      { "q": { "en": "How many people are in a group at most?" }, "options": ["Six", "Ten", "Twelve", "Fifteen"], "answer": 0, "explanation": { "en": "'En petits groupes de six personnes au maximum.' Ten is the number of weeks.", "hi": "'En petits groupes de six personnes au maximum.' दस तो हफ़्तों की संख्या है।" }, "kind": "literal", "evidence": "six personnes au maximum" },
-      { "q": { "en": "Which level suits someone who is afraid of water?" }, "options": ["Level 2", "Level 1", "Neither", "Only private lessons"], "answer": 1, "explanation": { "en": "Level 1: 'débutants, peur de l'eau acceptée'.", "hi": "स्तर 1: 'débutants, peur de l'eau acceptée'।" }, "kind": "inference", "evidence": "peur de l'eau acceptée" },
-      { "q": { "en": "How much does a non-resident pay?" }, "options": ["$120", "$100", "$160", "Nothing"], "answer": 2, "explanation": { "en": "'160 $ pour les non-résidents.'", "hi": "'160 $ pour les non-résidents.' — ग़ैर-निवासी 160 डॉलर।" }, "kind": "literal", "evidence": "160 $ pour les non-résidents" },
-      { "q": { "en": "What must you wear?" }, "options": ["Goggles", "A wetsuit", "Sports shoes", "A swimming cap"], "answer": 3, "explanation": { "en": "'Bonnet de bain obligatoire.' Goggles are only recommended.", "hi": "'Bonnet de bain obligatoire.' चश्मा सिर्फ़ सुझाया गया है।" }, "kind": "vocabulary", "evidence": "Bonnet de bain obligatoire." },
-      { "q": { "en": "What can you do if you are unsure of your level?" }, "options": ["Take a short free test on 10 January", "Try both levels for free", "Call the instructor", "Register for level 2 directly"], "answer": 0, "explanation": { "en": "'Un court test gratuit est proposé le samedi 10 janvier.'", "hi": "'Un court test gratuit est proposé le samedi 10 janvier.' — 10 जनवरी को मुफ़्त जाँच।" }, "kind": "literal", "evidence": "Un court test gratuit est proposé le samedi 10 janvier." }
+      { "q": { "en": "How many people are in a group at most?", "hi": "एक समूह में अधिकतम कितने लोग होते हैं?" }, "options": ["Six", "Ten", "Twelve", "Fifteen"], "answer": 0, "explanation": { "en": "'En petits groupes de six personnes au maximum.' Ten is the number of weeks.", "hi": "'En petits groupes de six personnes au maximum.' दस तो हफ़्तों की संख्या है।" }, "kind": "literal", "evidence": "six personnes au maximum" },
+      { "q": { "en": "Which level suits someone who is afraid of water?", "hi": "पानी से डरने वाले व्यक्ति के लिए कौन-सा स्तर उपयुक्त है?" }, "options": ["Level 2", "Level 1", "Neither", "Only private lessons"], "answer": 1, "explanation": { "en": "Level 1: 'débutants, peur de l'eau acceptée'.", "hi": "स्तर 1: 'débutants, peur de l'eau acceptée'।" }, "kind": "inference", "evidence": "peur de l'eau acceptée" },
+      { "q": { "en": "How much does a non-resident pay?", "hi": "ग़ैर-निवासी को कितना भुगतान करना पड़ता है?" }, "options": ["$120", "$100", "$160", "Nothing"], "answer": 2, "explanation": { "en": "'160 $ pour les non-résidents.'", "hi": "'160 $ pour les non-résidents.' — ग़ैर-निवासी 160 डॉलर।" }, "kind": "literal", "evidence": "160 $ pour les non-résidents" },
+      { "q": { "en": "What must you wear?", "hi": "आपको क्या पहनना ज़रूरी है?" }, "options": ["Goggles", "A wetsuit", "Sports shoes", "A swimming cap"], "optionsHi": ["चश्मा (गॉगल्स)", "वेटसूट", "खेल के जूते", "स्विमिंग कैप"], "answer": 3, "explanation": { "en": "'Bonnet de bain obligatoire.' Goggles are only recommended.", "hi": "'Bonnet de bain obligatoire.' चश्मा सिर्फ़ सुझाया गया है।" }, "kind": "vocabulary", "evidence": "Bonnet de bain obligatoire." },
+      { "q": { "en": "What can you do if you are unsure of your level?", "hi": "यदि आपको अपने स्तर के बारे में पक्का पता नहीं है, तो आप क्या कर सकते हैं?" }, "options": ["Take a short free test on 10 January", "Try both levels for free", "Call the instructor", "Register for level 2 directly"], "optionsHi": ["10 जनवरी को एक छोटा मुफ़्त टेस्ट दें", "दोनों स्तर मुफ़्त में आज़माएँ", "प्रशिक्षक को फ़ोन करें", "सीधे स्तर 2 में पंजीकरण करें"], "answer": 0, "explanation": { "en": "'Un court test gratuit est proposé le samedi 10 janvier.'", "hi": "'Un court test gratuit est proposé le samedi 10 janvier.' — 10 जनवरी को मुफ़्त जाँच।" }, "kind": "literal", "evidence": "Un court test gratuit est proposé le samedi 10 janvier." }
     ]
   },
   "writing": {
@@ -160,8 +160,8 @@
       { "en": "Use one plus-que-parfait for something that had happened earlier.", "hi": "पहले हो चुकी किसी बात के लिए एक plus-que-parfait इस्तेमाल कीजिए।" }
     ],
     "usefulPhrases": [
-      { "fr": "Quelques minutes plus tard, …", "en": "A few minutes later, …", "hi": "कुछ मिनट बाद, …", "pron": "कैल-कö मी-नüत प्लü ताग़" },
-      { "fr": "Heureusement, …", "en": "Fortunately, …", "hi": "ख़ुशक़िस्मती से, …", "pron": "ö-ग़öज़-माँ" }
+      { "fr": "Quelques minutes plus tard, …", "en": "A few minutes later, …", "hi": "कुछ मिनट बाद, …", "pron": "केल-क मी-न्यूत प्ल्यू तार" },
+      { "fr": "Heureusement, …", "en": "Fortunately, …", "hi": "ख़ुशक़िस्मती से, …", "pron": "अ-रज़-माँ" }
     ],
     "model": {
       "fr": "Plan : moteur en panne / passagers inquiets / un nouvel autobus.\n\nLe conducteur avait remarqué une fumée blanche quelques secondes plus tôt. Il a immédiatement arrêté le moteur et a demandé aux vingt passagers de rester calmes. Il faisait très froid, et une vieille dame avait peur. Quelques minutes plus tard, la police est arrivée pour bloquer une voie du pont. Heureusement, un nouvel autobus est venu chercher les passagers.",
@@ -176,12 +176,12 @@
   "review": {
     "fromDays": [102, 104, 106, 107],
     "items": [
-      { "fr": "le brouillon", "en": "the draft", "hi": "रफ़ मसौदा", "pron": "लö ब्ग़ू-योँ" },
-      { "fr": "Il me reste cinq minutes.", "en": "I have five minutes left.", "hi": "मेरे पास पाँच मिनट बचे हैं।", "pron": "ईल मö ग़ैस्त सैँ मी-नüत" },
-      { "fr": "Je te comprends, mais justement …", "en": "I understand, but that's exactly why …", "hi": "मैं समझता / समझती हूँ, पर इसीलिए तो …", "pron": "झ़ö तö कोँ-प्ग़ाँ मै झ़üस-त-माँ" },
-      { "fr": "Vous voulez dire que … ?", "en": "Do you mean that …?", "hi": "आपका मतलब है कि …?", "pron": "वू वू-ले दीग़ कö" },
-      { "fr": "grâce à / à cause de", "en": "thanks to / because of", "hi": "की बदौलत / की वजह से", "pron": "ग्ग़ास आ / आ कोज़ दö" },
-      { "fr": "en effet", "en": "indeed", "hi": "दरअसल", "pron": "आँ ने-फ़ै" }
+      { "fr": "le brouillon", "en": "the draft", "hi": "रफ़ मसौदा", "pron": "ल ब्रू-यों" },
+      { "fr": "Il me reste cinq minutes.", "en": "I have five minutes left.", "hi": "मेरे पास पाँच मिनट बचे हैं।", "pron": "ईल म रेस्त सैं मी-न्यूत" },
+      { "fr": "Je te comprends, mais justement …", "en": "I understand, but that's exactly why …", "hi": "मैं समझता / समझती हूँ, पर इसीलिए तो …", "pron": "ज त कों-प्राँ मे ज्यूस-त-माँ" },
+      { "fr": "Vous voulez dire que … ?", "en": "Do you mean that …?", "hi": "आपका मतलब है कि …?", "pron": "वू वू-ले दीर क" },
+      { "fr": "grâce à / à cause de", "en": "thanks to / because of", "hi": "की बदौलत / की वजह से", "pron": "ग्रास आ / आ कोज़ द" },
+      { "fr": "en effet", "en": "indeed", "hi": "दरअसल", "pron": "आँ ने-फ़े" }
     ]
   },
   "assessment": [

@@ -14,27 +14,27 @@
   "checkpoint": false,
   "vocabulary": [
     { "fr": "aller", "en": "to go", "hi": "जाना", "pron": "आ-ले", "ipa": "ale", "pos": "verb", "note": { "en": "Irregular: je vais, tu vas, il va, nous allons, vous allez, ils vont.", "hi": "अनियमित: je vais, tu vas, il va, nous allons, vous allez, ils vont।" } },
-    { "fr": "faire", "en": "to do, to make", "hi": "करना, बनाना", "pron": "फ़ैग़", "ipa": "fɛʁ", "pos": "verb", "note": { "en": "Irregular: je fais, tu fais, il fait, nous faisons, vous faites, ils font.", "hi": "अनियमित: je fais, tu fais, il fait, nous faisons, vous faites, ils font।" } },
-    { "fr": "venir", "en": "to come", "hi": "आना", "pron": "वö-नीग़", "ipa": "vəniʁ", "pos": "verb", "note": { "en": "Irregular: je viens, tu viens, il vient, nous venons, vous venez, ils viennent.", "hi": "अनियमित: je viens, tu viens, il vient, nous venons, vous venez, ils viennent।" } },
+    { "fr": "faire", "en": "to do, to make", "hi": "करना, बनाना", "pron": "फ़ेर", "ipa": "fɛʁ", "pos": "verb", "note": { "en": "Irregular: je fais, tu fais, il fait, nous faisons, vous faites, ils font.", "hi": "अनियमित: je fais, tu fais, il fait, nous faisons, vous faites, ils font।" } },
+    { "fr": "venir", "en": "to come", "hi": "आना", "pron": "व-नीर", "ipa": "vəniʁ", "pos": "verb", "note": { "en": "Irregular: je viens, tu viens, il vient, nous venons, vous venez, ils viennent.", "hi": "अनियमित: je viens, tu viens, il vient, nous venons, vous venez, ils viennent।" } },
     { "fr": "la banque", "en": "bank", "hi": "बैंक", "pron": "ला बाँक", "ipa": "la bɑ̃k", "pos": "noun", "gender": "f", "lemma": "banque" },
     { "fr": "la poste", "en": "post office", "hi": "डाकघर", "pron": "ला पॉस्त", "ipa": "la pɔst", "pos": "noun", "gender": "f", "lemma": "poste", "note": { "en": "Also: le bureau de poste.", "hi": "यह भी: le bureau de poste।" } },
-    { "fr": "le marché", "en": "market", "hi": "बाज़ार / मंडी", "pron": "लö माग़-शे", "ipa": "lə maʁʃe", "pos": "noun", "gender": "m", "lemma": "marché" },
-    { "fr": "le supermarché", "en": "supermarket", "hi": "सुपरमार्केट", "pron": "लö सü-पैग़-माग़-शे", "ipa": "lə sypɛʁmaʁʃe", "pos": "noun", "gender": "m", "lemma": "supermarché", "note": { "en": "In Québec people often say l'épicerie (grocery store).", "hi": "क्यूबेक में लोग अक्सर l'épicerie (किराने की दुकान) कहते हैं।" } },
+    { "fr": "le marché", "en": "market", "hi": "बाज़ार / मंडी", "pron": "ल मार-शे", "ipa": "lə maʁʃe", "pos": "noun", "gender": "m", "lemma": "marché" },
+    { "fr": "le supermarché", "en": "supermarket", "hi": "सुपरमार्केट", "pron": "ल स्यू-पेर-मार-शे", "ipa": "lə sypɛʁmaʁʃe", "pos": "noun", "gender": "m", "lemma": "supermarché", "note": { "en": "In Québec people often say l'épicerie (grocery store).", "hi": "क्यूबेक में लोग अक्सर l'épicerie (किराने की दुकान) कहते हैं।" } },
     { "fr": "l'hôpital", "en": "hospital", "hi": "अस्पताल", "pron": "लो-पी-ताल", "ipa": "lopital", "pos": "noun", "gender": "m", "lemma": "hôpital" },
-    { "fr": "la gare", "en": "train station", "hi": "रेलवे स्टेशन", "pron": "ला गाग़", "ipa": "la ɡaʁ", "pos": "noun", "gender": "f", "lemma": "gare" },
+    { "fr": "la gare", "en": "train station", "hi": "रेलवे स्टेशन", "pron": "ला गार", "ipa": "la ɡaʁ", "pos": "noun", "gender": "f", "lemma": "gare" },
     { "fr": "l'école", "en": "school", "hi": "स्कूल / विद्यालय", "pron": "ले-कॉल", "ipa": "lekɔl", "pos": "noun", "gender": "f", "lemma": "école" },
-    { "fr": "le parc", "en": "park", "hi": "पार्क / बग़ीचा", "pron": "लö पाग़्क", "ipa": "lə paʁk", "pos": "noun", "gender": "m", "lemma": "parc" },
-    { "fr": "la pharmacie", "en": "pharmacy, chemist", "hi": "दवा की दुकान", "pron": "ला फ़ाग़-मा-सी", "ipa": "la faʁmasi", "pos": "noun", "gender": "f", "lemma": "pharmacie" },
-    { "fr": "le centre-ville", "en": "downtown, town centre", "hi": "शहर का मुख्य इलाक़ा / डाउनटाउन", "pron": "लö साँत्ग़-वील", "ipa": "lə sɑ̃tʁəvil", "pos": "noun", "gender": "m", "lemma": "centre-ville" },
-    { "fr": "les courses", "en": "the shopping (groceries)", "hi": "घर का सामान / ख़रीदारी", "pron": "ले कूग़्स", "ipa": "le kuʁs", "pos": "noun", "gender": "f", "lemma": "course", "note": { "en": "faire les courses = to do the grocery shopping.", "hi": "faire les courses = घर का सामान ख़रीदना।" } }
+    { "fr": "le parc", "en": "park", "hi": "पार्क / बग़ीचा", "pron": "ल पार्क", "ipa": "lə paʁk", "pos": "noun", "gender": "m", "lemma": "parc" },
+    { "fr": "la pharmacie", "en": "pharmacy, chemist", "hi": "दवा की दुकान", "pron": "ला फ़ार-मा-सी", "ipa": "la faʁmasi", "pos": "noun", "gender": "f", "lemma": "pharmacie" },
+    { "fr": "le centre-ville", "en": "downtown, town centre", "hi": "शहर का मुख्य इलाक़ा / डाउनटाउन", "pron": "ल साँत्र-वील", "ipa": "lə sɑ̃tʁəvil", "pos": "noun", "gender": "m", "lemma": "centre-ville" },
+    { "fr": "les courses", "en": "the shopping (groceries)", "hi": "घर का सामान / ख़रीदारी", "pron": "ले कूर्स", "ipa": "le kuʁs", "pos": "noun", "gender": "f", "lemma": "course", "note": { "en": "faire les courses = to do the grocery shopping.", "hi": "faire les courses = घर का सामान ख़रीदना।" } }
   ],
   "phrases": [
-    { "fr": "Tu vas où ?", "en": "Where are you going?", "hi": "तुम कहाँ जा रहे हो?", "pron": "तü वा ऊ", "ipa": "ty va u" },
-    { "fr": "Je vais à la banque.", "en": "I'm going to the bank.", "hi": "मैं बैंक जा रहा/रही हूँ।", "pron": "झ़ö वै ज़ा ला बाँक", "ipa": "ʒə vɛ za la bɑ̃k" },
-    { "fr": "Nous allons au marché.", "en": "We're going to the market.", "hi": "हम बाज़ार जा रहे हैं।", "pron": "नू ज़ा-लोँ ज़ो माग़-शे", "ipa": "nu zalɔ̃ zo maʁʃe" },
-    { "fr": "Je viens du supermarché.", "en": "I'm coming from the supermarket.", "hi": "मैं सुपरमार्केट से आ रहा/रही हूँ।", "pron": "झ़ö व्यैँ दü सü-पैग़-माग़-शे", "ipa": "ʒə vjɛ̃ dy sypɛʁmaʁʃe" },
-    { "fr": "Je fais les courses.", "en": "I'm doing the shopping.", "hi": "मैं घर का सामान ख़रीद रहा/रही हूँ।", "pron": "झ़ö फ़ै ले कूग़्स", "ipa": "ʒə fɛ le kuʁs" },
-    { "fr": "On fait du sport ?", "en": "Shall we do some sport?", "hi": "चलो, कुछ खेल-कूद करें?", "pron": "ओँ फ़ै दü स्पॉग़", "ipa": "ɔ̃ fɛ dy spɔʁ" },
+    { "fr": "Tu vas où ?", "en": "Where are you going?", "hi": "तुम कहाँ जा रहे हो?", "pron": "त्यू वा ऊ", "ipa": "ty va u" },
+    { "fr": "Je vais à la banque.", "en": "I'm going to the bank.", "hi": "मैं बैंक जा रहा/रही हूँ।", "pron": "ज वे ज़ा ला बाँक", "ipa": "ʒə vɛ za la bɑ̃k" },
+    { "fr": "Nous allons au marché.", "en": "We're going to the market.", "hi": "हम बाज़ार जा रहे हैं।", "pron": "नू ज़ा-लों ज़ो मार-शे", "ipa": "nu zalɔ̃ zo maʁʃe" },
+    { "fr": "Je viens du supermarché.", "en": "I'm coming from the supermarket.", "hi": "मैं सुपरमार्केट से आ रहा/रही हूँ।", "pron": "ज व्यैं द्यू स्यू-पेर-मार-शे", "ipa": "ʒə vjɛ̃ dy sypɛʁmaʁʃe" },
+    { "fr": "Je fais les courses.", "en": "I'm doing the shopping.", "hi": "मैं घर का सामान ख़रीद रहा/रही हूँ।", "pron": "ज फ़े ले कूर्स", "ipa": "ʒə fɛ le kuʁs" },
+    { "fr": "On fait du sport ?", "en": "Shall we do some sport?", "hi": "चलो, कुछ खेल-कूद करें?", "pron": "ओं फ़े द्यू स्पॉर", "ipa": "ɔ̃ fɛ dy spɔʁ" },
     { "fr": "À samedi !", "en": "See you on Saturday!", "hi": "शनिवार को मिलते हैं!", "pron": "आ साम-दी", "ipa": "a samdi" }
   ],
   "grammar": {
@@ -48,12 +48,12 @@
       "hi": "हिंदी में 'जाना' के साथ अक्सर 'को' नहीं लगता: मैं बाज़ार जा रहा हूँ। फ़्रेंच में à हमेशा चाहिए: Je vais au marché। और फ़्रेंच में à/de, le/les से चिपक जाते हैं (au, aux, du, des) — कभी 'à le' या 'de le' मत लिखिए। faire, 'करना' जैसा है और कई तय वाक्यांशों में आता है: faire les courses (ख़रीदारी करना), faire du sport (खेल-कूद करना)।"
     },
     "examples": [
-      { "fr": "Je vais au parc avec les enfants.", "en": "I'm going to the park with the children.", "hi": "मैं बच्चों के साथ पार्क जा रहा/रही हूँ।", "pron": "झ़ö वै ज़ो पाग़्क आ-वैक ले ज़ाँ-फ़ाँ" },
-      { "fr": "Elle va à l'hôpital à huit heures.", "en": "She goes to the hospital at eight.", "hi": "वह आठ बजे अस्पताल जाती है।", "pron": "ऐल वा आ लो-पी-ताल आ üइ तöग़" },
-      { "fr": "Vous venez de la gare ?", "en": "Are you coming from the station?", "hi": "क्या आप स्टेशन से आ रहे हैं?", "pron": "वू वö-ने दö ला गाग़" },
-      { "fr": "Ils viennent du Canada.", "en": "They come from Canada.", "hi": "वे कनाडा से हैं।", "pron": "ईल व्यैन दü का-ना-दा", "note": { "en": "Now you see why it was 'au Canada' and 'du Canada' on Day 3: le Canada.", "hi": "अब समझ आया कि दिन 3 में 'au Canada' और 'du Canada' क्यों था: le Canada।" } },
-      { "fr": "Nous faisons les courses le samedi.", "en": "We do the shopping on Saturdays.", "hi": "हम हर शनिवार घर का सामान ख़रीदते हैं।", "pron": "नू फ़ö-ज़ोँ ले कूग़्स लö साम-दी", "note": { "en": "faisons is said फ़ö-ज़ोँ, not फ़ै-ज़ोँ.", "hi": "faisons को फ़ö-ज़ोँ बोलते हैं, फ़ै-ज़ोँ नहीं।" } },
-      { "fr": "Qu'est-ce que tu fais le week-end ?", "en": "What do you do at the weekend?", "hi": "तुम वीकेंड पर क्या करते हो?", "pron": "कैस-कö तü फ़ै लö वी-कैन्द" }
+      { "fr": "Je vais au parc avec les enfants.", "en": "I'm going to the park with the children.", "hi": "मैं बच्चों के साथ पार्क जा रहा/रही हूँ।", "pron": "ज वे ज़ो पार्क आ-वेक ले ज़ाँ-फ़ाँ" },
+      { "fr": "Elle va à l'hôpital à huit heures.", "en": "She goes to the hospital at eight.", "hi": "वह आठ बजे अस्पताल जाती है।", "pron": "एल वा आ लो-पी-ताल आ यूइ तर" },
+      { "fr": "Vous venez de la gare ?", "en": "Are you coming from the station?", "hi": "क्या आप स्टेशन से आ रहे हैं?", "pron": "वू व-ने द ला गार" },
+      { "fr": "Ils viennent du Canada.", "en": "They come from Canada.", "hi": "वे कनाडा से हैं।", "pron": "ईल व्येन द्यू का-ना-दा", "note": { "en": "Now you see why it was 'au Canada' and 'du Canada' on Day 3: le Canada.", "hi": "अब समझ आया कि दिन 3 में 'au Canada' और 'du Canada' क्यों था: le Canada।" } },
+      { "fr": "Nous faisons les courses le samedi.", "en": "We do the shopping on Saturdays.", "hi": "हम हर शनिवार घर का सामान ख़रीदते हैं।", "pron": "नू फ़-ज़ों ले कूर्स ल साम-दी", "note": { "en": "faisons is said फ़-ज़ों, not फ़े-ज़ों.", "hi": "faisons को फ़-ज़ों बोलते हैं, फ़े-ज़ों नहीं।" } },
+      { "fr": "Qu'est-ce que tu fais le week-end ?", "en": "What do you do at the weekend?", "hi": "तुम वीकेंड पर क्या करते हो?", "pron": "केस-क त्यू फ़े ल वी-केन्द" }
     ],
     "pitfalls": [
       { "en": "Never 'à le' or 'de le': au parc, du parc.", "hi": "कभी 'à le' या 'de le' नहीं: au parc, du parc।" },
@@ -64,16 +64,16 @@
   "pronunciation": {
     "focus": "French /ʁ/ introduction (gare, rue, Paris)",
     "tip": {
-      "en": "The French r is made at the back of the throat, close to the Urdu/Hindi ग़ in ग़लत — not a rolled र and not an English r. Start with 'a-ga' and make the g soft and rubbing: गा → ग़ा. At the end of a word it is light: gare = गाग़, faire = फ़ैग़.",
-      "hi": "फ़्रेंच r गले के पिछले हिस्से से बनता है, उर्दू/हिंदी 'ग़लत' के ग़ के क़रीब — रोल वाला र नहीं, और अंग्रेज़ी r भी नहीं। 'आ-गा' से शुरू कीजिए और ग को नरम, रगड़ वाला बनाइए: गा → ग़ा। शब्द के अंत में हल्का होता है: gare = गाग़, faire = फ़ैग़।"
+      "en": "The French r, written र in our guides, is made at the back of the throat, close to the soft ग़ in ग़लत — not a rolled Hindi र and not an English r. Start with 'a-ga' and let the g turn soft and rubbing, with the tongue tip down behind the lower teeth: that rubbing sound is the French r. At the end of a word it is light: gare = गार, faire = फ़ेर.",
+      "hi": "फ़्रेंच r, जिसे हमारी गाइड में र लिखा जाता है, गले के पिछले हिस्से से बनता है, 'ग़लत' के नरम ग़ के क़रीब — रोल वाला हिंदी र नहीं, और अंग्रेज़ी r भी नहीं। 'आ-गा' से शुरू कीजिए और ग को नरम, रगड़ वाला बनाइए, जीभ की नोक नीचे के दाँतों के पीछे रखिए: यही रगड़ वाली आवाज़ फ़्रेंच r है। शब्द के अंत में हल्का होता है: gare = गार, faire = फ़ेर।"
     },
     "words": [
-      { "fr": "la gare", "en": "station", "hi": "स्टेशन", "pron": "ला गाग़", "ipa": "la ɡaʁ" },
-      { "fr": "la rue", "en": "street", "hi": "गली / सड़क", "pron": "ला ग़ü", "ipa": "la ʁy" },
-      { "fr": "Paris", "en": "Paris", "hi": "पेरिस", "pron": "पा-ग़ी", "ipa": "paʁi" },
-      { "fr": "le marché", "en": "market", "hi": "बाज़ार", "pron": "लö माग़-शे", "ipa": "lə maʁʃe" },
-      { "fr": "Montréal", "en": "Montréal", "hi": "मॉन्ट्रियाल", "pron": "मोँ-ग़े-आल", "ipa": "mɔ̃ʁeal" },
-      { "fr": "faire", "en": "to do", "hi": "करना", "pron": "फ़ैग़", "ipa": "fɛʁ" }
+      { "fr": "la gare", "en": "station", "hi": "स्टेशन", "pron": "ला गार", "ipa": "la ɡaʁ" },
+      { "fr": "la rue", "en": "street", "hi": "गली / सड़क", "pron": "ला र्यू", "ipa": "la ʁy" },
+      { "fr": "Paris", "en": "Paris", "hi": "पेरिस", "pron": "पा-री", "ipa": "paʁi" },
+      { "fr": "le marché", "en": "market", "hi": "बाज़ार", "pron": "ल मार-शे", "ipa": "lə maʁʃe" },
+      { "fr": "Montréal", "en": "Montréal", "hi": "मॉन्ट्रियाल", "pron": "मों-रे-आल", "ipa": "mɔ̃ʁeal" },
+      { "fr": "faire", "en": "to do", "hi": "करना", "pron": "फ़ेर", "ipa": "fɛʁ" }
     ]
   },
   "listening": {
@@ -92,11 +92,11 @@
       { "speaker": "Arjun", "voice": "m1", "fr": "Parfait ! À samedi !", "en": "Perfect! See you Saturday!", "hi": "बढ़िया! शनिवार को मिलते हैं!" }
     ],
     "questions": [
-      { "q": { "en": "Where is Arjun going first?" }, "options": ["To the post office", "To the bank", "To the market"], "answer": 1, "explanation": { "en": "'Je vais à la banque, et après, je vais à la poste.'", "hi": "'Je vais à la banque, et après, je vais à la poste.' — पहले बैंक।" }, "kind": "literal", "evidence": "Je vais à la banque, et après, je vais à la poste." },
-      { "q": { "en": "Where is Léa coming from?" }, "options": ["The market", "The hospital", "The park"], "answer": 0, "explanation": { "en": "'je viens du marché' — du = de + le.", "hi": "'je viens du marché' — du = de + le।" }, "kind": "literal", "evidence": "Moi, je viens du marché." },
-      { "q": { "en": "Why is Léa going to the hospital tomorrow?" }, "options": ["She is ill", "She works there", "She visits a friend"], "answer": 1, "explanation": { "en": "'Je travaille à l'hôpital.'", "hi": "'Je travaille à l'hôpital.' — वह वहाँ काम करती है।" }, "kind": "inference", "evidence": "Je travaille à l'hôpital." },
-      { "q": { "en": "What is the plan for Saturday?" }, "options": ["Shopping at the market", "Sport in the park at ten", "Work at the bank"], "answer": 1, "explanation": { "en": "'on fait du sport ensemble ?' — 'On va au parc samedi, à dix heures ?'", "hi": "'on fait du sport ensemble ?' — 'On va au parc samedi, à dix heures ?' — दस बजे पार्क में खेल-कूद।" }, "kind": "gist", "evidence": "On va au parc samedi, à dix heures ?" },
-      { "q": { "en": "What is Léa doing today?" }, "options": ["Grocery shopping for the weekend", "Working at the hospital", "Going to the bank"], "answer": 0, "explanation": { "en": "'Je fais les courses pour le week-end.'", "hi": "'Je fais les courses pour le week-end.' — वीकेंड के लिए सामान ख़रीदना।" }, "kind": "literal", "evidence": "Je fais les courses pour le week-end." }
+      { "q": { "en": "Where is Arjun going first?", "hi": "Arjun सबसे पहले कहाँ जा रहा है?" }, "options": ["To the post office", "To the bank", "To the market"], "optionsHi": ["डाकघर", "बैंक", "बाज़ार"], "answer": 1, "explanation": { "en": "'Je vais à la banque, et après, je vais à la poste.'", "hi": "'Je vais à la banque, et après, je vais à la poste.' — पहले बैंक।" }, "kind": "literal", "evidence": "Je vais à la banque, et après, je vais à la poste." },
+      { "q": { "en": "Where is Léa coming from?", "hi": "Léa कहाँ से आ रही है?" }, "options": ["The market", "The hospital", "The park"], "optionsHi": ["बाज़ार से", "अस्पताल से", "पार्क से"], "answer": 0, "explanation": { "en": "'je viens du marché' — du = de + le.", "hi": "'je viens du marché' — du = de + le।" }, "kind": "literal", "evidence": "Moi, je viens du marché." },
+      { "q": { "en": "Why is Léa going to the hospital tomorrow?", "hi": "Léa कल अस्पताल क्यों जा रही है?" }, "options": ["She is ill", "She works there", "She visits a friend"], "optionsHi": ["वह बीमार है", "वह वहाँ काम करती है", "वह किसी दोस्त से मिलने जाती है"], "answer": 1, "explanation": { "en": "'Je travaille à l'hôpital.'", "hi": "'Je travaille à l'hôpital.' — वह वहाँ काम करती है।" }, "kind": "inference", "evidence": "Je travaille à l'hôpital." },
+      { "q": { "en": "What is the plan for Saturday?", "hi": "शनिवार की क्या योजना है?" }, "options": ["Shopping at the market", "Sport in the park at ten", "Work at the bank"], "optionsHi": ["बाज़ार में ख़रीदारी", "दस बजे पार्क में खेल", "बैंक में काम"], "answer": 1, "explanation": { "en": "'on fait du sport ensemble ?' — 'On va au parc samedi, à dix heures ?'", "hi": "'on fait du sport ensemble ?' — 'On va au parc samedi, à dix heures ?' — दस बजे पार्क में खेल-कूद।" }, "kind": "gist", "evidence": "On va au parc samedi, à dix heures ?" },
+      { "q": { "en": "What is Léa doing today?", "hi": "Léa आज क्या कर रही है?" }, "options": ["Grocery shopping for the weekend", "Working at the hospital", "Going to the bank"], "optionsHi": ["सप्ताहांत के लिए किराने की ख़रीदारी", "अस्पताल में काम", "बैंक जाना"], "answer": 0, "explanation": { "en": "'Je fais les courses pour le week-end.'", "hi": "'Je fais les courses pour le week-end.' — वीकेंड के लिए सामान ख़रीदना।" }, "kind": "literal", "evidence": "Je fais les courses pour le week-end." }
     ],
     "dictation": ["Je vais à la banque.", "Je viens du marché.", "On va au parc samedi ?"],
     "gapFill": { "text": "Moi, je viens ___ marché. … Non, demain, je vais ___ l'hôpital.", "answers": ["du", "à"] }
@@ -108,15 +108,15 @@
       "hi": "हर मॉडल दोहराइए, फिर बताइए कि इस हफ़्ते आप तीन किन जगहों पर जाते हैं, आज आप कहाँ से आ रहे हैं, और वीकेंड पर एक काम जो आप करते हैं।"
     },
     "prompts": [
-      { "fr": "Lundi, je vais au bureau.", "en": "On Monday, I go to the office.", "hi": "सोमवार को मैं दफ़्तर जाता/जाती हूँ।", "pron": "लैँ-दी झ़ö वै ज़ो बü-ग़ो" },
-      { "fr": "Mercredi, je vais à la pharmacie.", "en": "On Wednesday, I go to the pharmacy.", "hi": "बुधवार को मैं दवा की दुकान जाता/जाती हूँ।", "pron": "मैग़-क्ग़ö-दी झ़ö वै ज़ा ला फ़ाग़-मा-सी" },
-      { "fr": "Je viens de l'école.", "en": "I'm coming from school.", "hi": "मैं स्कूल से आ रहा/रही हूँ।", "pron": "झ़ö व्यैँ दö ले-कॉल" },
-      { "fr": "Le week-end, je fais les courses.", "en": "At the weekend, I do the shopping.", "hi": "वीकेंड पर मैं घर का सामान ख़रीदता/ख़रीदती हूँ।", "pron": "लö वी-कैन्द झ़ö फ़ै ले कूग़्स", "model": "Le samedi, je fais du sport au parc." },
+      { "fr": "Lundi, je vais au bureau.", "en": "On Monday, I go to the office.", "hi": "सोमवार को मैं दफ़्तर जाता/जाती हूँ।", "pron": "लैं-दी ज वे ज़ो ब्यू-रो" },
+      { "fr": "Mercredi, je vais à la pharmacie.", "en": "On Wednesday, I go to the pharmacy.", "hi": "बुधवार को मैं दवा की दुकान जाता/जाती हूँ।", "pron": "मेर-क्र-दी ज वे ज़ा ला फ़ार-मा-सी" },
+      { "fr": "Je viens de l'école.", "en": "I'm coming from school.", "hi": "मैं स्कूल से आ रहा/रही हूँ।", "pron": "ज व्यैं द ले-कॉल" },
+      { "fr": "Le week-end, je fais les courses.", "en": "At the weekend, I do the shopping.", "hi": "वीकेंड पर मैं घर का सामान ख़रीदता/ख़रीदती हूँ।", "pron": "ल वी-केन्द ज फ़े ले कूर्स", "model": "Le samedi, je fais du sport au parc." },
       { "fr": "Et vous, vous allez où ?", "en": "And you, where are you going?", "hi": "और आप, आप कहाँ जा रहे हैं?", "pron": "ए वू वू ज़ा-ले ऊ" }
     ],
     "tip": {
-      "en": "Link vais to a vowel: je vais à = झ़ö वै ज़ा. And nous allons, vous allez: liaison z.",
-      "hi": "vais को स्वर से जोड़िए: je vais à = झ़ö वै ज़ा। और nous allons, vous allez में जोड़: 'ज़'।"
+      "en": "Link vais to a vowel: je vais à = ज वे ज़ा. And nous allons, vous allez: liaison z.",
+      "hi": "vais को स्वर से जोड़िए: je vais à = ज वे ज़ा। और nous allons, vous allez में जोड़: 'ज़'।"
     }
   },
   "reading": {
@@ -128,10 +128,10 @@
       "hi": "सां-रॉक मोहल्ला — कहाँ जाएँ?\n1. मुख्य स्टेशन: मॉन्ट्रियाल और क्यूबेक के लिए ट्रेनें\n2. मोहल्ला बैंक: सोमवार से शुक्रवार, सुबह 9 – शाम 5\n3. डाकघर: बैंक के बगल में\n4. सां-रॉक बाज़ार: फल और सब्ज़ियाँ, शनिवार और रविवार\n5. पार्क अस्पताल: आपातकालीन विभाग, चौबीसों घंटे\n6. दवा की दुकान: अस्पताल के सामने\n7. विक्टोरिया पार्क: बच्चों के लिए झूले और खेल"
     },
     "questions": [
-      { "q": { "en": "You want vegetables. Where do you go, and when?" }, "options": ["To the market, at the weekend", "To the pharmacy, every day", "To the station, on Monday"], "answer": 0, "explanation": { "en": "'Marché Saint-Roch : fruits et légumes, samedi et dimanche'.", "hi": "'Marché Saint-Roch : fruits et légumes, samedi et dimanche' — बाज़ार, शनिवार-रविवार।" }, "kind": "inference", "evidence": "Marché Saint-Roch : fruits et légumes, samedi et dimanche" },
-      { "q": { "en": "Where is the post office?" }, "options": ["Opposite the hospital", "Next to the bank", "In the park"], "answer": 1, "explanation": { "en": "'à côté de la banque' = next to the bank.", "hi": "'à côté de la banque' = बैंक के बगल में।" }, "kind": "literal", "evidence": "Bureau de poste : à côté de la banque" },
-      { "q": { "en": "It's 2 a.m. and you need a doctor urgently. Where do you go?" }, "options": ["To the bank", "To the hospital", "To the post office"], "answer": 1, "explanation": { "en": "The hospital emergency department is open 24 hours a day.", "hi": "अस्पताल का आपातकालीन विभाग चौबीसों घंटे खुला है।" }, "kind": "inference", "evidence": "urgences 24 h sur 24" },
-      { "q": { "en": "Where can children play?" }, "options": ["Victoria Park", "Central station", "Saint-Roch Market"], "answer": 0, "explanation": { "en": "'Parc Victoria : jeux pour enfants'.", "hi": "'Parc Victoria : jeux pour enfants' — बच्चों के लिए खेल।" }, "kind": "literal", "evidence": "Parc Victoria : jeux pour enfants" }
+      { "q": { "en": "You want vegetables. Where do you go, and when?", "hi": "आपको सब्ज़ियाँ चाहिए। आप कहाँ और कब जाएँगे?" }, "options": ["To the market, at the weekend", "To the pharmacy, every day", "To the station, on Monday"], "optionsHi": ["बाज़ार, सप्ताहांत में", "फ़ार्मेसी, हर दिन", "स्टेशन, सोमवार को"], "answer": 0, "explanation": { "en": "'Marché Saint-Roch : fruits et légumes, samedi et dimanche'.", "hi": "'Marché Saint-Roch : fruits et légumes, samedi et dimanche' — बाज़ार, शनिवार-रविवार।" }, "kind": "inference", "evidence": "Marché Saint-Roch : fruits et légumes, samedi et dimanche" },
+      { "q": { "en": "Where is the post office?", "hi": "डाकघर कहाँ है?" }, "options": ["Opposite the hospital", "Next to the bank", "In the park"], "optionsHi": ["अस्पताल के सामने", "बैंक के बगल में", "पार्क में"], "answer": 1, "explanation": { "en": "'à côté de la banque' = next to the bank.", "hi": "'à côté de la banque' = बैंक के बगल में।" }, "kind": "literal", "evidence": "Bureau de poste : à côté de la banque" },
+      { "q": { "en": "It's 2 a.m. and you need a doctor urgently. Where do you go?", "hi": "रात के 2 बजे हैं और आपको तुरंत डॉक्टर की ज़रूरत है। आप कहाँ जाएँगे?" }, "options": ["To the bank", "To the hospital", "To the post office"], "optionsHi": ["बैंक", "अस्पताल", "डाकघर"], "answer": 1, "explanation": { "en": "The hospital emergency department is open 24 hours a day.", "hi": "अस्पताल का आपातकालीन विभाग चौबीसों घंटे खुला है।" }, "kind": "inference", "evidence": "urgences 24 h sur 24" },
+      { "q": { "en": "Where can children play?", "hi": "बच्चे कहाँ खेल सकते हैं?" }, "options": ["Victoria Park", "Central station", "Saint-Roch Market"], "answer": 0, "explanation": { "en": "'Parc Victoria : jeux pour enfants'.", "hi": "'Parc Victoria : jeux pour enfants' — बच्चों के लिए खेल।" }, "kind": "literal", "evidence": "Parc Victoria : jeux pour enfants" }
     ]
   },
   "writing": {
@@ -147,9 +147,9 @@
       { "en": "Le lundi = every Monday.", "hi": "Le lundi = हर सोमवार।" }
     ],
     "usefulPhrases": [
-      { "fr": "Le lundi, je vais au …", "en": "On Mondays, I go to the …", "hi": "हर सोमवार मैं … जाता/जाती हूँ", "pron": "लö लैँ-दी झ़ö वै ज़ो" },
-      { "fr": "Le mardi, je vais à la …", "en": "On Tuesdays, I go to the …", "hi": "हर मंगलवार मैं … जाता/जाती हूँ", "pron": "लö माग़-दी झ़ö वै ज़ा ला" },
-      { "fr": "Je fais les courses / du sport.", "en": "I do the shopping / some sport.", "hi": "मैं सामान ख़रीदता/ख़रीदती हूँ / खेल-कूद करता/करती हूँ।", "pron": "झ़ö फ़ै ले कूग़्स / दü स्पॉग़" }
+      { "fr": "Le lundi, je vais au …", "en": "On Mondays, I go to the …", "hi": "हर सोमवार मैं … जाता/जाती हूँ", "pron": "ल लैं-दी ज वे ज़ो" },
+      { "fr": "Le mardi, je vais à la …", "en": "On Tuesdays, I go to the …", "hi": "हर मंगलवार मैं … जाता/जाती हूँ", "pron": "ल मार-दी ज वे ज़ा ला" },
+      { "fr": "Je fais les courses / du sport.", "en": "I do the shopping / some sport.", "hi": "मैं सामान ख़रीदता/ख़रीदती हूँ / खेल-कूद करता/करती हूँ।", "pron": "ज फ़े ले कूर्स / द्यू स्पॉर" }
     ],
     "model": { "fr": "Le lundi, je vais au bureau. Le mardi, je vais à l'école de langues. Le mercredi, je vais à la banque. Le jeudi, je vais à la pharmacie. Le vendredi, je vais au cinéma. Le samedi, je vais au marché et je fais les courses. Le dimanche, je vais au parc avec ma famille.", "en": "On Mondays, I go to the office. On Tuesdays, I go to the language school. On Wednesdays, I go to the bank. On Thursdays, I go to the pharmacy. On Fridays, I go to the cinema. On Saturdays, I go to the market and do the shopping. On Sundays, I go to the park with my family." },
     "checklist": [
@@ -161,12 +161,12 @@
   "review": {
     "fromDays": [3, 9, 13, 15],
     "items": [
-      { "fr": "Je viens de Delhi.", "en": "I'm from Delhi.", "hi": "मैं दिल्ली से हूँ।", "pron": "झ़ö व्यैँ दö दै-ली" },
-      { "fr": "J'habite au Canada.", "en": "I live in Canada.", "hi": "मैं कनाडा में रहता/रहती हूँ।", "pron": "झ़ा-बीत ओ का-ना-दा" },
-      { "fr": "Il est huit heures et demie.", "en": "It's half past eight.", "hi": "साढ़े आठ बजे हैं।", "pron": "ई लै üइ तöग़ ए दö-मी" },
-      { "fr": "Je rentre à dix-huit heures.", "en": "I go home at 6 p.m.", "hi": "मैं शाम 6 बजे घर लौटता/लौटती हूँ।", "pron": "झ़ö ग़ाँत्ग़ आ दी-ज़üइ तöग़" },
-      { "fr": "le samedi matin", "en": "on Saturday mornings", "hi": "हर शनिवार सुबह", "pron": "लö साम-दी मा-तैँ" },
-      { "fr": "Je travaille dans un restaurant.", "en": "I work in a restaurant.", "hi": "मैं एक रेस्टोरेंट में काम करता/करती हूँ।", "pron": "झ़ö त्ग़ा-वाय दाँ ज़ैँ ग़ैस-तो-ग़ाँ" }
+      { "fr": "Je viens de Delhi.", "en": "I'm from Delhi.", "hi": "मैं दिल्ली से हूँ।", "pron": "ज व्यैं द दे-ली" },
+      { "fr": "J'habite au Canada.", "en": "I live in Canada.", "hi": "मैं कनाडा में रहता/रहती हूँ।", "pron": "जा-बीत ओ का-ना-दा" },
+      { "fr": "Il est huit heures et demie.", "en": "It's half past eight.", "hi": "साढ़े आठ बजे हैं।", "pron": "ई ले यूइ तर ए द-मी" },
+      { "fr": "Je rentre à dix-huit heures.", "en": "I go home at 6 p.m.", "hi": "मैं शाम 6 बजे घर लौटता/लौटती हूँ।", "pron": "ज राँत्र आ दी-ज़्यूइ तर" },
+      { "fr": "le samedi matin", "en": "on Saturday mornings", "hi": "हर शनिवार सुबह", "pron": "ल साम-दी मा-तैं" },
+      { "fr": "Je travaille dans un restaurant.", "en": "I work in a restaurant.", "hi": "मैं एक रेस्टोरेंट में काम करता/करती हूँ।", "pron": "ज त्रा-वाय दाँ ज़ैं रेस-तो-राँ" }
     ]
   },
   "assessment": [

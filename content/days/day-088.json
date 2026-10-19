@@ -4,7 +4,7 @@
   "title": {
     "fr": "TEF expression écrite A : continuer un fait divers",
     "en": "TEF writing A: continuing a news story",
-    "hi": "TEF लिखित अभिव्यक्ति A: एक ख़बर (फ़ै दिवैर) को आगे बढ़ाना"
+    "hi": "TEF लिखित अभिव्यक्ति A: एक ख़बर (फ़े दी-वेर) को आगे बढ़ाना"
   },
   "objective": {
     "en": "Continue the beginning of a news article in at least 80 words, in a journalistic style: passé composé for events, imparfait for background, and the plus-que-parfait for what had happened before.",
@@ -21,7 +21,7 @@
     ],
     "summary": {
       "en": "Passé composé with avoir and être (Days 41–44), imparfait and its contrast with the passé composé (Days 46–47), sequencing connectors (Day 54) and faits divers with reported speech (Day 79).",
-      "hi": "avoir और être के साथ passé composé (दिन 41–44), imparfait और passé composé से उसका फ़र्क़ (दिन 46–47), क्रम बताने वाले संयोजक (दिन 54) और अप्रत्यक्ष कथन के साथ फ़ै दिवैर (दिन 79)।"
+      "hi": "avoir और être के साथ passé composé (दिन 41–44), imparfait और passé composé से उसका फ़र्क़ (दिन 46–47), क्रम बताने वाले संयोजक (दिन 54) और अप्रत्यक्ष कथन के साथ फ़े दी-वेर (दिन 79)।"
     }
   },
   "light": false,
@@ -31,7 +31,7 @@
       "fr": "un fait divers",
       "en": "a local news story (accident, crime, rescue)",
       "hi": "स्थानीय ख़बर (दुर्घटना, अपराध, बचाव)",
-      "pron": "ऐँ फ़ै दी-वैग़",
+      "pron": "ऐं फ़े दी-वेर",
       "ipa": "ɛ̃ fɛ divɛʁ",
       "pos": "noun",
       "gender": "m",
@@ -41,7 +41,7 @@
       "fr": "un incendie",
       "en": "a fire (building)",
       "hi": "आग (इमारत में)",
-      "pron": "ऐँ नैँ-साँ-दी",
+      "pron": "ऐं नैं-साँ-दी",
       "ipa": "ɛ̃n‿ɛ̃sɑ̃di",
       "pos": "noun",
       "gender": "m",
@@ -55,7 +55,7 @@
       "fr": "les pompiers",
       "en": "firefighters",
       "hi": "दमकलकर्मी",
-      "pron": "ले पोँ-प्ये",
+      "pron": "ले पों-प्ये",
       "ipa": "le pɔ̃pje",
       "pos": "noun",
       "gender": "m",
@@ -65,7 +65,7 @@
       "fr": "donner l'alerte",
       "en": "to raise the alarm",
       "hi": "ख़तरे की सूचना देना",
-      "pron": "दो-ने ला-लैग़्त",
+      "pron": "दो-ने ला-लेर्त",
       "ipa": "dɔne lalɛʁt",
       "pos": "phrase"
     },
@@ -73,7 +73,7 @@
       "fr": "évacuer",
       "en": "to evacuate",
       "hi": "ख़ाली कराना",
-      "pron": "ए-वा-क्üए",
+      "pron": "ए-वा-क्यूए",
       "ipa": "evakɥe",
       "pos": "verb"
     },
@@ -81,7 +81,7 @@
       "fr": "porter secours à",
       "en": "to come to the aid of",
       "hi": "… की मदद को आना / बचाना",
-      "pron": "पॉग़-ते सö-कूग़ आ",
+      "pron": "पॉर-ते स-कूर आ",
       "ipa": "pɔʁte səkuʁ a",
       "pos": "phrase"
     },
@@ -89,7 +89,7 @@
       "fr": "sain et sauf",
       "en": "safe and sound",
       "hi": "सही-सलामत",
-      "pron": "सैँ ए सोफ़",
+      "pron": "सैं ए सोफ़",
       "ipa": "sɛ̃ e sof",
       "pos": "phrase",
       "note": {
@@ -101,7 +101,7 @@
       "fr": "légèrement blessé",
       "en": "slightly injured",
       "hi": "हल्का घायल",
-      "pron": "ले-झ़ैग़-माँ ब्ले-से",
+      "pron": "ले-जेर-माँ ब्ले-से",
       "ipa": "leʒɛʁmɑ̃ blese",
       "pos": "phrase"
     },
@@ -109,7 +109,7 @@
       "fr": "la fumée",
       "en": "smoke",
       "hi": "धुआँ",
-      "pron": "ला फ़ü-मे",
+      "pron": "ला फ़्यू-मे",
       "ipa": "la fyme",
       "pos": "noun",
       "gender": "f",
@@ -119,7 +119,7 @@
       "fr": "un passant / une passante",
       "en": "a passer-by",
       "hi": "राहगीर",
-      "pron": "ऐँ पा-साँ / üन पा-साँत",
+      "pron": "ऐं पा-साँ / यून पा-साँत",
       "ipa": "ɛ̃ pasɑ̃ / yn pasɑ̃t",
       "pos": "noun",
       "gender": "mf",
@@ -129,7 +129,7 @@
       "fr": "l'enquête",
       "en": "investigation",
       "hi": "जाँच",
-      "pron": "लाँ-कैत",
+      "pron": "लाँ-केत",
       "ipa": "lɑ̃kɛt",
       "pos": "noun",
       "gender": "f",
@@ -139,7 +139,7 @@
       "fr": "rendre",
       "en": "to give back, return",
       "hi": "लौटाना",
-      "pron": "ग़ाँद्ग़",
+      "pron": "राँद्र",
       "ipa": "ʁɑ̃dʁ",
       "pos": "verb"
     },
@@ -147,7 +147,7 @@
       "fr": "la veille",
       "en": "the day before",
       "hi": "एक दिन पहले",
-      "pron": "ला वैय",
+      "pron": "ला वेय",
       "ipa": "la vɛj",
       "pos": "noun",
       "gender": "f",
@@ -163,37 +163,37 @@
       "fr": "Selon les pompiers, le feu avait pris dans la cuisine.",
       "en": "According to the firefighters, the fire had started in the kitchen.",
       "hi": "दमकलकर्मियों के अनुसार आग रसोई में लगी थी।",
-      "pron": "सö-लोँ ले पोँ-प्ये लö फ़ö आ-वै प्री दाँ ला क्üई-ज़ीन"
+      "pron": "स-लों ले पों-प्ये ल फ़ आ-वे प्री दाँ ला क्यूई-ज़ीन"
     },
     {
       "fr": "Ils étaient partis quelques minutes plus tôt.",
       "en": "They had left a few minutes earlier.",
       "hi": "वे कुछ मिनट पहले निकल गए थे।",
-      "pron": "इल ज़े-तै पाग़-ती कैल-कö मी-न्üत प्लü तो"
+      "pron": "इल ज़े-ते पार-ती केल-क मी-न्यूत प्ल्यू तो"
     },
     {
       "fr": "Heureusement, personne n'a été blessé.",
       "en": "Fortunately, nobody was injured.",
       "hi": "सौभाग्य से कोई घायल नहीं हुआ।",
-      "pron": "ö-ग़öज़-माँ पैग़-सॉन ना ए-ते ब्ले-से"
+      "pron": "अ-रज़-माँ पेर-सॉन ना ए-ते ब्ले-से"
     },
     {
       "fr": "Les pompiers sont arrivés sur place dix minutes plus tard.",
       "en": "The firefighters arrived on the scene ten minutes later.",
       "hi": "दमकलकर्मी दस मिनट बाद मौक़े पर पहुँचे।",
-      "pron": "ले पोँ-प्ये सोँ ता-ग़ी-वे सüग़ प्लास दी मी-न्üत प्लü ताग़"
+      "pron": "ले पों-प्ये सों ता-री-वे स्यूर प्लास दी मी-न्यूत प्ल्यू तार"
     },
     {
       "fr": "Une enquête est en cours.",
       "en": "An investigation is under way.",
       "hi": "जाँच चल रही है।",
-      "pron": "üन नाँ-कैत ए ताँ कूग़"
+      "pron": "यू-नाँ-केत ए ताँ कूर"
     },
     {
       "fr": "« J'ai eu très peur », a-t-elle déclaré.",
       "en": "'I was very scared,' she said.",
       "hi": "'मुझे बहुत डर लगा,' उसने कहा।",
-      "pron": "झ़े ü त्ग़ै पöग़ आ-तैल दे-क्ला-ग़े"
+      "pron": "जे यू त्रे पर आ-तेल दे-क्ला-रे"
     }
   ],
   "grammar": {
@@ -214,37 +214,37 @@
         "fr": "Ils avaient oublié une casserole sur la cuisinière.",
         "en": "They had forgotten a pan on the stove.",
         "hi": "वे चूल्हे पर एक बर्तन भूल गए थे।",
-        "pron": "इल ज़ा-वै ज़ू-ब्ली-ये üन का-स्ग़ॉल सüग़ ला क्üई-ज़ी-न्यैग़"
+        "pron": "इल ज़ा-वे ज़ू-ब्ली-ये यून का-स्रॉल स्यूर ला क्यूई-ज़ी-न्येर"
       },
       {
         "fr": "Quand les pompiers sont arrivés, les voisins étaient déjà sortis.",
         "en": "When the firefighters arrived, the neighbours had already gone out.",
         "hi": "जब दमकलकर्मी पहुँचे, पड़ोसी पहले ही बाहर निकल चुके थे।",
-        "pron": "काँ ले पोँ-प्ये सोँ ता-ग़ी-वे ले व्वा-ज़ैँ ए-तै दे-झ़ा सॉग़-ती"
+        "pron": "काँ ले पों-प्ये सों ता-री-वे ले व्वा-ज़ैं ए-ते दे-जा सॉर-ती"
       },
       {
         "fr": "Elle s'était endormie devant la télévision.",
         "en": "She had fallen asleep in front of the TV.",
         "hi": "वह टीवी के सामने सो गई थी।",
-        "pron": "ऐल से-तै ताँ-दॉग़-मी दö-वाँ ला ते-ले-वी-ज़्योँ"
+        "pron": "एल से-ते ताँ-दॉर-मी द-वाँ ला ते-ले-वी-ज़्यों"
       },
       {
         "fr": "L'étudiant avait retiré l'argent la veille.",
         "en": "The student had withdrawn the money the day before.",
         "hi": "छात्र ने एक दिन पहले पैसे निकाले थे।",
-        "pron": "ले-त्ü-द्याँ आ-वै ग़ö-ती-ग़े लाग़-झ़ाँ ला वैय"
+        "pron": "ले-त्यू-द्याँ आ-वे र-ती-रे लार-जाँ ला वेय"
       },
       {
         "fr": "Il n'avait rien remarqué.",
         "en": "He hadn't noticed anything.",
         "hi": "उसने कुछ भी ध्यान नहीं दिया था।",
-        "pron": "इल ना-वै ग़्यैँ ग़ö-माग़-के"
+        "pron": "इल ना-वे र्यैं र-मार-के"
       },
       {
         "fr": "Il a dit qu'il avait vu de la fumée.",
         "en": "He said he had seen smoke.",
         "hi": "उसने कहा कि उसने धुआँ देखा था।",
-        "pron": "इल आ दी की-ला-वै व्ü दö ला फ़ü-मे"
+        "pron": "इल आ दी की-ला-वे व्यू द ला फ़्यू-मे"
       }
     ],
     "pitfalls": [
@@ -273,21 +273,21 @@
         "fr": "il avait oublié",
         "en": "he had forgotten",
         "hi": "वह भूल गया था",
-        "pron": "ई-ला-वै तू-ब्ली-ये",
+        "pron": "ई-ला-वे तू-ब्ली-ये",
         "ipa": "il‿avɛt‿ublije"
       },
       {
         "fr": "ils étaient partis",
         "en": "they had left",
         "hi": "वे निकल गए थे",
-        "pron": "इल ज़े-तै पाग़-ती",
+        "pron": "इल ज़े-ते पार-ती",
         "ipa": "il‿zetɛ paʁti"
       },
       {
         "fr": "heureusement",
         "en": "fortunately",
         "hi": "सौभाग्य से",
-        "pron": "ö-ग़öज़-माँ",
+        "pron": "अ-रज़-माँ",
         "ipa": "øʁøzmɑ̃"
       },
       {
@@ -301,7 +301,7 @@
         "fr": "les pompiers",
         "en": "the firefighters",
         "hi": "दमकलकर्मी",
-        "pron": "ले पोँ-प्ये",
+        "pron": "ले पों-प्ये",
         "ipa": "le pɔ̃pje"
       }
     ]
@@ -399,7 +399,8 @@
     "questions": [
       {
         "q": {
-          "en": "Where did the driver find the wallet?"
+          "en": "Where did the driver find the wallet?",
+          "hi": "ड्राइवर को बटुआ कहाँ मिला?"
         },
         "options": [
           "At the service centre",
@@ -413,11 +414,18 @@
           "hi": "'sous un siège à la fin de son trajet' — रूट के आख़िर में सीट के नीचे।"
         },
         "kind": "literal",
-        "evidence": "a trouvé un portefeuille sous un siège à la fin de son trajet"
+        "evidence": "a trouvé un portefeuille sous un siège à la fin de son trajet",
+        "optionsHi": [
+          "सेवा केंद्र पर",
+          "बस स्टॉप पर",
+          "अपने मार्ग के अंत में एक सीट के नीचे",
+          "विश्वविद्यालय में"
+        ]
       },
       {
         "q": {
-          "en": "Why did the student have so much cash?"
+          "en": "Why did the student have so much cash?",
+          "hi": "छात्रा के पास इतना नकद क्यों था?"
         },
         "options": [
           "She had withdrawn it to pay her rent",
@@ -431,11 +439,18 @@
           "hi": "plus-que-parfait: 'avait retiré cet argent la veille pour payer son loyer'।"
         },
         "kind": "literal",
-        "evidence": "avait retiré cet argent la veille pour payer son loyer"
+        "evidence": "avait retiré cet argent la veille pour payer son loyer",
+        "optionsHi": [
+          "उसने अपना किराया चुकाने के लिए निकाला था",
+          "उसके पिता ने भेजा था",
+          "उसने अपनी कार बेची थी",
+          "उसने कोई इनाम जीता था"
+        ]
       },
       {
         "q": {
-          "en": "Why did the driver act quickly?"
+          "en": "Why did the driver act quickly?",
+          "hi": "ड्राइवर ने जल्दी कार्रवाई क्यों की?"
         },
         "options": [
           "He wanted the reward",
@@ -449,11 +464,18 @@
           "hi": "'j'ai tout de suite pensé à mon fils, qui étudie en France' — अपने बेटे की याद आई।"
         },
         "kind": "inference",
-        "evidence": "j'ai tout de suite pensé à mon fils, qui étudie en France"
+        "evidence": "j'ai tout de suite pensé à mon fils, qui étudie en France",
+        "optionsHi": [
+          "वह इनाम चाहता था",
+          "पुलिस ने उसे फ़ोन किया था",
+          "उसके मालिक ने उससे कहा था",
+          "उसे विदेश में पढ़ रहे अपने बेटे की याद आई"
+        ]
       },
       {
         "q": {
-          "en": "How did they find the owner?"
+          "en": "How did they find the owner?",
+          "hi": "उन्हें मालिक का पता कैसे चला?"
         },
         "options": [
           "Through social media",
@@ -467,11 +489,18 @@
           "hi": "'on a appelé l'université avec le numéro de la carte' — कार्ड नंबर से विश्वविद्यालय को फ़ोन।"
         },
         "kind": "literal",
-        "evidence": "on a appelé l'université avec le numéro de la carte"
+        "evidence": "on a appelé l'université avec le numéro de la carte",
+        "optionsHi": [
+          "सोशल मीडिया के ज़रिए",
+          "कार्ड नंबर बताकर विश्वविद्यालय को फ़ोन करके",
+          "बस स्टॉप पर इंतज़ार करके",
+          "पुलिस के ज़रिए"
+        ]
       },
       {
         "q": {
-          "en": "Why did Sana keep her rent in cash?"
+          "en": "Why did Sana keep her rent in cash?",
+          "hi": "Sana ने अपना किराया नकद में क्यों रखा था?"
         },
         "options": [
           "The bank was closed",
@@ -485,11 +514,18 @@
           "hi": "'mon propriétaire n'accepte que l'argent comptant' — ne … que = सिर्फ़।"
         },
         "kind": "grammar",
-        "evidence": "mon propriétaire n'accepte que l'argent comptant"
+        "evidence": "mon propriétaire n'accepte que l'argent comptant",
+        "optionsHi": [
+          "बैंक बंद था",
+          "उसका कोई बैंक खाता नहीं है",
+          "उसका मकान-मालिक केवल नकद लेता है",
+          "उसे कार्डों पर भरोसा नहीं है"
+        ]
       },
       {
         "q": {
-          "en": "What did the driver do when Sana offered $200?"
+          "en": "What did the driver do when Sana offered $200?",
+          "hi": "जब Sana ने $200 देने की पेशकश की तो ड्राइवर ने क्या किया?"
         },
         "options": [
           "He refused it",
@@ -503,7 +539,13 @@
           "hi": "'mais il a refusé' — उन्होंने मना कर दिया।"
         },
         "kind": "literal",
-        "evidence": "j'ai voulu donner deux cents dollars à M. Côté, mais il a refusé"
+        "evidence": "j'ai voulu donner deux cents dollars à M. Côté, mais il a refusé",
+        "optionsHi": [
+          "उसने मना कर दिया",
+          "उसने उसे दान में दे दिया",
+          "उसने आधा स्वीकार किया",
+          "उसने स्वीकार कर लिया"
+        ]
       }
     ],
     "dictation": [
@@ -531,32 +573,32 @@
         "fr": "Hier matin, à Québec, un chauffeur d'autobus a trouvé un portefeuille.",
         "en": "Yesterday morning in Québec City, a bus driver found a wallet.",
         "hi": "कल सुबह क्यूबेक में एक बस ड्राइवर को एक बटुआ मिला।",
-        "pron": "यैग़ मा-तैँ आ के-बैक ऐँ शो-फ़öग़ दो-तो-ब्üस आ त्ग़ू-वे ऐँ पॉग़्त-फ़öय"
+        "pron": "येर मा-तैं आ के-बेक ऐं शो-फ़र दो-तो-ब्यूस आ त्रू-वे ऐं पॉर्त-फ़य"
       },
       {
         "fr": "Une étudiante avait perdu deux mille dollars.",
         "en": "A student had lost two thousand dollars.",
         "hi": "एक छात्रा के दो हज़ार डॉलर खो गए थे।",
-        "pron": "üन ने-त्ü-द्याँत आ-वै पैग़-द्ü दö मील दो-लाग़"
+        "pron": "यून ने-त्यू-द्याँत आ-वे पेर-द्यू द मील दो-लार"
       },
       {
         "fr": "Elle avait retiré l'argent la veille pour son loyer.",
         "en": "She had withdrawn the money the day before for her rent.",
         "hi": "उसने एक दिन पहले किराए के लिए पैसे निकाले थे।",
-        "pron": "ऐल आ-वै ग़ö-ती-ग़े लाग़-झ़ाँ ला वैय पूग़ सोँ ल्वा-ये"
+        "pron": "एल आ-वे र-ती-रे लार-जाँ ला वेय पूर सों ल्वा-ये"
       },
       {
         "fr": "Le chauffeur a refusé la récompense.",
         "en": "The driver refused the reward.",
         "hi": "ड्राइवर ने इनाम लेने से मना कर दिया।",
-        "pron": "लö शो-फ़öग़ आ ग़ö-फ़ü-ज़े ला ग़े-कोँ-पाँस",
+        "pron": "ल शो-फ़र आ र-फ़्यू-ज़े ला रे-कों-पाँस",
         "model": "Le chauffeur a refusé la récompense. Il a dit que c'était normal de rendre ce qui ne nous appartient pas."
       },
       {
         "fr": "Finalement, la société de transport va lui remettre un prix.",
         "en": "In the end, the transit company is going to give him an award.",
         "hi": "आख़िर में परिवहन कंपनी उसे एक पुरस्कार देगी।",
-        "pron": "फ़ी-नाल-माँ ला सो-स्ये-ते दö त्ग़ाँस-पॉग़ वा ल्üई ग़ö-मैत्ग़ ऐँ प्री"
+        "pron": "फ़ी-नाल-माँ ला सो-स्ये-ते द त्राँस-पॉर वा ल्यूई र-मेत्र ऐं प्री"
       }
     ],
     "tip": {
@@ -570,12 +612,13 @@
     "text": "MONCTON — Mardi soir, vers 21 h, les résidents d'un immeuble de la rue des Pins ont eu une grosse frayeur. Selon les pompiers, un feu avait pris dans la cuisine d'un appartement du deuxième étage. Ses occupants, un couple d'une trentaine d'années, étaient partis faire des courses quelques minutes plus tôt. Ils avaient oublié une casserole d'huile sur la cuisinière allumée.\n\nC'est Malik Haddad, 15 ans, qui a donné l'alerte. L'adolescent rentrait de son entraînement de hockey quand il a senti une forte odeur de fumée dans l'escalier. « Au début, j'ai cru que quelqu'un faisait un barbecue sur son balcon, raconte-t-il. Puis j'ai vu de la fumée noire qui sortait sous une porte. »\n\nLe jeune homme a immédiatement frappé à toutes les portes de l'étage en criant « Au feu ! » et il a appelé le 911 avec son cellulaire. En quelques minutes, la plupart des voisins étaient sortis dans la rue, en pyjama pour certains, malgré le froid.\n\nMais une résidente manquait. Mme Thérèse LeBlanc, 82 ans, vit seule au bout du couloir et se déplace avec une marchette. Elle ne répondait pas. Malik savait qu'elle regardait souvent la télévision très fort le soir. Il est remonté au deuxième étage, où la fumée devenait de plus en plus épaisse…",
     "translation": {
       "en": "MONCTON — On Tuesday evening, around 9 p.m., the residents of a building on Rue des Pins had a big scare. According to the firefighters, a fire had started in the kitchen of a second-floor apartment. Its occupants, a couple in their thirties, had gone shopping a few minutes earlier. They had forgotten a pan of oil on the lit stove.\n\nIt was Malik Haddad, 15, who raised the alarm. The teenager was coming home from hockey practice when he smelled a strong smell of smoke in the stairwell. 'At first I thought someone was having a barbecue on their balcony,' he says. 'Then I saw black smoke coming out from under a door.'\n\nThe young man immediately knocked on all the doors on the floor shouting 'Fire!' and called 911 on his cellphone. Within a few minutes, most of the neighbours had come out into the street, some in pyjamas, despite the cold.\n\nBut one resident was missing. Mrs Thérèse LeBlanc, 82, lives alone at the end of the corridor and uses a walker. She was not answering. Malik knew that she often watched television very loudly in the evening. He went back up to the second floor, where the smoke was getting thicker and thicker…",
-      "hi": "मॉन्क्टन — मंगलवार शाम लगभग 9 बजे, रू दे पैँ की एक इमारत के निवासियों को बड़ा डर लगा। दमकलकर्मियों के अनुसार, दूसरी मंज़िल के एक अपार्टमेंट की रसोई में आग लगी थी। वहाँ रहने वाले, तीस-पैंतीस साल के एक दंपति, कुछ मिनट पहले ख़रीदारी करने निकल गए थे। वे जलते चूल्हे पर तेल से भरा एक बर्तन भूल गए थे।\n\nख़तरे की सूचना 15 साल के मालिक हद्दाद ने दी। किशोर अपनी हॉकी प्रैक्टिस से लौट रहा था जब उसे सीढ़ियों में धुएँ की तेज़ गंध आई। 'पहले मुझे लगा कि कोई अपनी बालकनी में बारबेक्यू कर रहा है,' वह बताता है। 'फिर मैंने एक दरवाज़े के नीचे से काला धुआँ निकलते देखा।'\n\nलड़के ने तुरंत 'आग! आग!' चिल्लाते हुए मंज़िल के सारे दरवाज़े खटखटाए और अपने मोबाइल से 911 पर फ़ोन किया। कुछ ही मिनटों में ज़्यादातर पड़ोसी सड़क पर निकल आए थे, कुछ तो ठंड के बावजूद पायजामे में।\n\nपर एक निवासी नहीं दिख रही थीं। 82 साल की थेरेज़ लब्लाँ गलियारे के आख़िर में अकेली रहती हैं और वॉकर के सहारे चलती हैं। वे जवाब नहीं दे रही थीं। मालिक जानता था कि वे शाम को अक्सर बहुत ऊँची आवाज़ में टीवी देखती हैं। वह दूसरी मंज़िल पर वापस चढ़ गया, जहाँ धुआँ और घना होता जा रहा था…"
+      "hi": "मॉन्क्टन — मंगलवार शाम लगभग 9 बजे, रू दे पैं की एक इमारत के निवासियों को बड़ा डर लगा। दमकलकर्मियों के अनुसार, दूसरी मंज़िल के एक अपार्टमेंट की रसोई में आग लगी थी। वहाँ रहने वाले, तीस-पैंतीस साल के एक दंपति, कुछ मिनट पहले ख़रीदारी करने निकल गए थे। वे जलते चूल्हे पर तेल से भरा एक बर्तन भूल गए थे।\n\nख़तरे की सूचना 15 साल के मालिक हद्दाद ने दी। किशोर अपनी हॉकी प्रैक्टिस से लौट रहा था जब उसे सीढ़ियों में धुएँ की तेज़ गंध आई। 'पहले मुझे लगा कि कोई अपनी बालकनी में बारबेक्यू कर रहा है,' वह बताता है। 'फिर मैंने एक दरवाज़े के नीचे से काला धुआँ निकलते देखा।'\n\nलड़के ने तुरंत 'आग! आग!' चिल्लाते हुए मंज़िल के सारे दरवाज़े खटखटाए और अपने मोबाइल से 911 पर फ़ोन किया। कुछ ही मिनटों में ज़्यादातर पड़ोसी सड़क पर निकल आए थे, कुछ तो ठंड के बावजूद पायजामे में।\n\nपर एक निवासी नहीं दिख रही थीं। 82 साल की थेरेज़ लब्लाँ गलियारे के आख़िर में अकेली रहती हैं और वॉकर के सहारे चलती हैं। वे जवाब नहीं दे रही थीं। मालिक जानता था कि वे शाम को अक्सर बहुत ऊँची आवाज़ में टीवी देखती हैं। वह दूसरी मंज़िल पर वापस चढ़ गया, जहाँ धुआँ और घना होता जा रहा था…"
     },
     "questions": [
       {
         "q": {
-          "en": "What had caused the fire?"
+          "en": "What had caused the fire?",
+          "hi": "आग किस कारण लगी थी?"
         },
         "options": [
           "A barbecue on a balcony",
@@ -589,11 +632,18 @@
           "hi": "plus-que-parfait: 'ils avaient oublié une casserole d'huile sur la cuisinière allumée'। बारबेक्यू सिर्फ़ मालिक का पहला अंदाज़ा था।"
         },
         "kind": "literal",
-        "evidence": "Ils avaient oublié une casserole d'huile sur la cuisinière allumée."
+        "evidence": "Ils avaient oublié une casserole d'huile sur la cuisinière allumée.",
+        "optionsHi": [
+          "बालकनी पर बारबेक्यू से",
+          "चूल्हे पर भूल से छोड़ी गई तेल की कड़ाही से",
+          "सिगरेट से",
+          "बिजली की खराबी से"
+        ]
       },
       {
         "q": {
-          "en": "Where were the occupants of the apartment?"
+          "en": "Where were the occupants of the apartment?",
+          "hi": "अपार्टमेंट में रहने वाले लोग कहाँ थे?"
         },
         "options": [
           "At hockey practice",
@@ -607,11 +657,18 @@
           "hi": "'étaient partis faire des courses quelques minutes plus tôt' — ख़रीदारी करने गए थे।"
         },
         "kind": "literal",
-        "evidence": "étaient partis faire des courses quelques minutes plus tôt"
+        "evidence": "étaient partis faire des courses quelques minutes plus tôt",
+        "optionsHi": [
+          "हॉकी के अभ्यास में",
+          "बालकनी पर",
+          "सो रहे थे",
+          "खरीदारी करने बाहर गए थे"
+        ]
       },
       {
         "q": {
-          "en": "What was Malik doing when he noticed the smoke?"
+          "en": "What was Malik doing when he noticed the smoke?",
+          "hi": "जब Malik ने धुआँ देखा तब वह क्या कर रहा था?"
         },
         "options": [
           "Coming home from hockey practice",
@@ -625,11 +682,18 @@
           "hi": "पृष्ठभूमि के लिए imparfait: 'l'adolescent rentrait de son entraînement de hockey'।"
         },
         "kind": "literal",
-        "evidence": "L'adolescent rentrait de son entraînement de hockey"
+        "evidence": "L'adolescent rentrait de son entraînement de hockey",
+        "optionsHi": [
+          "हॉकी के अभ्यास से घर लौट रहा था",
+          "खरीदारी कर रहा था",
+          "बारबेक्यू कर रहा था",
+          "टीवी देख रहा था"
+        ]
       },
       {
         "q": {
-          "en": "Which two actions did Malik do first?"
+          "en": "Which two actions did Malik do first?",
+          "hi": "Malik ने सबसे पहले कौन-से दो काम किए?"
         },
         "options": [
           "He took the elevator and left",
@@ -643,11 +707,18 @@
           "hi": "'a immédiatement frappé à toutes les portes … et il a appelé le 911'।"
         },
         "kind": "literal",
-        "evidence": "a immédiatement frappé à toutes les portes de l'étage"
+        "evidence": "a immédiatement frappé à toutes les portes de l'étage",
+        "optionsHi": [
+          "लिफ़्ट ली और वहाँ से निकल गया",
+          "दरवाज़ा खोला और आग बुझा दी",
+          "दरवाज़े खटखटाए और 911 पर फ़ोन किया",
+          "अपने माता-पिता को फ़ोन किया और बाहर इंतज़ार किया"
+        ]
       },
       {
         "q": {
-          "en": "Why was Mrs LeBlanc in particular danger?"
+          "en": "Why was Mrs LeBlanc in particular danger?",
+          "hi": "Mrs LeBlanc विशेष रूप से खतरे में क्यों थीं?"
         },
         "options": [
           "She lived on the first floor",
@@ -661,11 +732,18 @@
           "hi": "82 साल, अकेली रहती हैं, वॉकर से चलती हैं, जवाब नहीं दे रही थीं, अक्सर तेज़ आवाज़ में टीवी देखती हैं।"
         },
         "kind": "inference",
-        "evidence": "Malik savait qu'elle regardait souvent la télévision très fort le soir."
+        "evidence": "Malik savait qu'elle regardait souvent la télévision très fort le soir.",
+        "optionsHi": [
+          "वह पहली मंज़िल पर रहती थीं",
+          "वह बुज़ुर्ग हैं, वॉकर इस्तेमाल करती हैं और टीवी की वजह से शायद सुन न पाएँ",
+          "वह सड़क पर सो रही थीं",
+          "आग उन्होंने ही लगाई थी"
+        ]
       },
       {
         "q": {
-          "en": "How does the article stop?"
+          "en": "How does the article stop?",
+          "hi": "लेख का अंत कैसे होता है?"
         },
         "options": [
           "With an interview of the firefighters",
@@ -679,7 +757,13 @@
           "hi": "यह रहस्य पर रुकता है: 'Il est remonté au deuxième étage…' — TEF A का काम यहीं से आगे लिखना है।"
         },
         "kind": "gist",
-        "evidence": "Il est remonté au deuxième étage, où la fumée devenait de plus en plus épaisse"
+        "evidence": "Il est remonté au deuxième étage, où la fumée devenait de plus en plus épaisse",
+        "optionsHi": [
+          "दमकलकर्मियों के साक्षात्कार के साथ",
+          "अस्पताल में भर्ती Mrs LeBlanc के साथ",
+          "आग के खत्म होने के साथ",
+          "Malik के धुएँ में वापस ऊपर जाने के साथ"
+        ]
       }
     ]
   },
@@ -711,25 +795,25 @@
         "fr": "Quelques minutes plus tard, …",
         "en": "A few minutes later, …",
         "hi": "कुछ मिनट बाद, …",
-        "pron": "कैल-कö मी-न्üत प्लü ताग़"
+        "pron": "केल-क मी-न्यूत प्ल्यू तार"
       },
       {
         "fr": "Les pompiers ont maîtrisé l'incendie.",
         "en": "The firefighters brought the fire under control.",
         "hi": "दमकलकर्मियों ने आग पर क़ाबू पा लिया।",
-        "pron": "ले पोँ-प्ये ज़ोँ मै-त्ग़ी-ज़े लैँ-साँ-दी"
+        "pron": "ले पों-प्ये ज़ों मे-त्री-ज़े लैं-साँ-दी"
       },
       {
         "fr": "Elle a été transportée à l'hôpital par précaution.",
         "en": "She was taken to hospital as a precaution.",
         "hi": "एहतियात के तौर पर उन्हें अस्पताल ले जाया गया।",
-        "pron": "ऐल आ ए-ते त्ग़ाँस-पॉग़-ते आ लो-पी-ताल पाग़ प्रे-को-स्योँ"
+        "pron": "एल आ ए-ते त्राँस-पॉर-ते आ लो-पी-ताल पार प्रे-को-स्यों"
       },
       {
         "fr": "« … », a-t-il déclaré.",
         "en": "'…,' he said.",
         "hi": "'…,' उसने कहा।",
-        "pron": "आ-ती-ल दे-क्ला-ग़े"
+        "pron": "आ-ती-ल दे-क्ला-रे"
       }
     ],
     "model": {
@@ -779,43 +863,43 @@
         "fr": "le témoin",
         "en": "the witness",
         "hi": "गवाह",
-        "pron": "लö ते-म्वैँ"
+        "pron": "ल ते-म्वैं"
       },
       {
         "fr": "l'incident s'est produit vers minuit",
         "en": "the incident happened around midnight",
         "hi": "घटना आधी रात के आसपास हुई",
-        "pron": "लैँ-सी-दाँ सै प्रो-दüई वैग़ मी-न्üई"
+        "pron": "लैं-सी-दाँ से प्रो-द्यूई वेर मी-न्यूई"
       },
       {
         "fr": "Il a dit qu'il était fatigué.",
         "en": "He said he was tired.",
         "hi": "उसने कहा कि वह थका हुआ था।",
-        "pron": "इल आ दी की-ले-तै फ़ा-ती-गे"
+        "pron": "इल आ दी की-ले-ते फ़ा-ती-गे"
       },
       {
         "fr": "Elle est tombée dans l'escalier.",
         "en": "She fell on the stairs.",
         "hi": "वह सीढ़ियों पर गिर गई।",
-        "pron": "ऐल ए तोँ-बे दाँ लैस-का-ल्ये"
+        "pron": "एल ए तों-बे दाँ लेस-का-ल्ये"
       },
       {
         "fr": "Il pleuvait quand l'accident a eu lieu.",
         "en": "It was raining when the accident happened.",
         "hi": "जब दुर्घटना हुई, बारिश हो रही थी।",
-        "pron": "इल प्लö-वै काँ लाक-सी-दाँ आ ü ल्यö"
+        "pron": "इल प्ल-वे काँ लाक-सी-दाँ आ यू ल्य"
       },
       {
         "fr": "d'abord… ensuite… enfin",
         "en": "first… then… finally",
         "hi": "पहले… फिर… आख़िर में",
-        "pron": "दा-बॉग़ आँ-स्üईत आँ-फ़ैँ"
+        "pron": "दा-बॉर आँ-स्यूईत आँ-फ़ैं"
       },
       {
         "fr": "J'ai vu, j'ai pris, j'ai mis",
         "en": "I saw, I took, I put",
         "hi": "मैंने देखा, लिया, रखा",
-        "pron": "झ़े व्ü झ़े प्री झ़े मी"
+        "pron": "जे व्यू जे प्री जे मी"
       }
     ]
   },
@@ -888,7 +972,7 @@
       "type": "mcq",
       "prompt": {
         "en": "Which is the best way to CONTINUE a fait divers in TEF A?",
-        "hi": "TEF A में फ़ै दिवैर आगे बढ़ाने का सबसे अच्छा तरीक़ा क्या है?"
+        "hi": "TEF A में फ़े दी-वेर आगे बढ़ाने का सबसे अच्छा तरीक़ा क्या है?"
       },
       "options": [
         "Write your opinion about fires",

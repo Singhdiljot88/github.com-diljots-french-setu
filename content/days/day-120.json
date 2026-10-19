@@ -32,7 +32,7 @@
       "fr": "le parcours",
       "en": "path, journey (of learning)",
       "hi": "सफ़र / यात्रा (सीखने की)",
-      "pron": "लö पाग़-कूग़",
+      "pron": "ल पार-कूर",
       "ipa": "lə paʁkuʁ",
       "pos": "noun",
       "gender": "m",
@@ -52,7 +52,7 @@
       "fr": "le rapport",
       "en": "report",
       "hi": "रिपोर्ट / ब्योरा",
-      "pron": "लö ग़ा-पोग़",
+      "pron": "ल रा-पोर",
       "ipa": "lə ʁapɔʁ",
       "pos": "noun",
       "gender": "m",
@@ -62,7 +62,7 @@
       "fr": "les transports en commun",
       "en": "public transport",
       "hi": "सार्वजनिक परिवहन",
-      "pron": "ले त्ग़ाँस-पोग़ आँ को-मैँ",
+      "pron": "ले त्राँस-पॉर आँ को-मैं",
       "ipa": "le tʁɑ̃spɔʁ ɑ̃ kɔmɛ̃",
       "pos": "noun",
       "gender": "m",
@@ -72,7 +72,7 @@
       "fr": "gratuit",
       "en": "free (of charge)",
       "hi": "मुफ़्त",
-      "pron": "ग्ग़ा-तüइ",
+      "pron": "ग्रा-त्यूई",
       "ipa": "ɡʁatɥi",
       "pos": "adjective"
     },
@@ -90,7 +90,7 @@
       "fr": "la fréquentation",
       "en": "ridership, number of users",
       "hi": "इस्तेमाल करने वालों की संख्या",
-      "pron": "ला फ़्ग़े-काँ-ता-स्योँ",
+      "pron": "ला फ़्रे-काँ-ता-स्यों",
       "ipa": "la fʁekɑ̃tasjɔ̃",
       "pos": "noun",
       "gender": "f",
@@ -100,7 +100,7 @@
       "fr": "financer",
       "en": "to fund",
       "hi": "पैसा जुटाना / वित्त देना",
-      "pron": "फ़ी-ना-से",
+      "pron": "फ़ी-नाँ-से",
       "ipa": "finɑ̃se",
       "pos": "verb"
     },
@@ -108,7 +108,7 @@
       "fr": "continuer à",
       "en": "to keep on, to continue",
       "hi": "जारी रखना",
-      "pron": "कोँ-ती-नü-ए आ",
+      "pron": "कों-ती-न्यूए आ",
       "ipa": "kɔ̃tinɥe a",
       "pos": "verb"
     }
@@ -118,31 +118,31 @@
       "fr": "J'ai fait beaucoup de chemin depuis le premier jour.",
       "en": "I've come a long way since the first day.",
       "hi": "पहले दिन से अब तक मैंने लंबा सफ़र तय किया है।",
-      "pron": "झ़े फ़ै बो-कू द श-मैँ द-प्üइ लö प्ग़ö-म्ये झ़ूग़"
+      "pron": "जे फ़े बो-कू द श-मैं द-प्यूइ ल प्र-म्ये जूर"
     },
     {
       "fr": "Mon point fort, c'est …",
       "en": "My strong point is …",
       "hi": "मेरा मज़बूत पहलू है …",
-      "pron": "मोँ प्वैँ फ़ोग़ सै"
+      "pron": "मों प्वैं फ़ोर से"
     },
     {
       "fr": "Je vais continuer à travailler …",
       "en": "I'm going to keep working on …",
       "hi": "मैं … पर काम जारी रखूँगा / रखूँगी",
-      "pron": "झ़ö वै कोँ-ती-नü-ए आ त्ग़ा-वा-ये"
+      "pron": "ज वे कों-ती-न्यू-ए आ त्रा-वा-ये"
     },
     {
       "fr": "Je me sens prêt à faire de mon mieux.",
       "en": "I feel ready to do my best.",
       "hi": "मैं अपना सबसे अच्छा करने के लिए तैयार महसूस करता / करती हूँ।",
-      "pron": "झ़ö मö साँ प्ग़ै आ फ़ैग़ दö मोँ म्यö"
+      "pron": "ज म साँ प्रे आ फ़ेर द मों म्य"
     },
     {
       "fr": "Ce rapport m'aide à choisir mes priorités.",
       "en": "This report helps me choose my priorities.",
       "hi": "यह रिपोर्ट मुझे अपनी प्राथमिकताएँ चुनने में मदद करती है।",
-      "pron": "सö ग़ा-पोग़ मैद आ श्वा-ज़ीग़ मे प्ग़ी-यो-ग़ी-ते"
+      "pron": "स रा-पोर मेद आ श्वा-ज़ीर मे प्री-यो-री-ते"
     }
   ],
   "grammar": {
@@ -163,31 +163,31 @@
         "fr": "Quand je suis arrivée, je ne comprenais presque rien.",
         "en": "When I arrived, I understood almost nothing.",
         "hi": "जब मैं आई थी, मुझे लगभग कुछ भी समझ नहीं आता था।",
-        "pron": "काँ झ़ö सüइ ज़ा-ग़ी-वे झ़ö नö कोँ-प्ग़ö-नै प्ग़ैस-क ग़्यैँ"
+        "pron": "काँ ज स्यूइ ज़ा-री-वे ज न कों-प्र-ने प्रेस-क र्यैं"
       },
       {
         "fr": "Il faut que je continue à écouter la radio tous les jours.",
         "en": "I need to keep listening to the radio every day.",
         "hi": "मुझे रोज़ रेडियो सुनना जारी रखना है।",
-        "pron": "ईल फ़ो कö झ़ö कोँ-ती-नü आ ए-कू-ते ला ग़ा-द्यो तू ले झ़ूग़"
+        "pron": "ईल फ़ो क ज कों-ती-न्यू आ ए-कू-ते ला रा-द्यो तू ले जूर"
       },
       {
         "fr": "C'est la ville où j'habite depuis trois ans.",
         "en": "It's the city where I've lived for three years.",
         "hi": "यह वह शहर है जहाँ मैं तीन साल से रह रहा / रही हूँ।",
-        "pron": "सै ला वील ऊ झ़ा-बीत द-प्üइ त्ग़्वा ज़ाँ"
+        "pron": "से ला वील ऊ जा-बीत द-प्यूइ त्र्वा ज़ाँ"
       },
       {
         "fr": "À mon avis, les transports en commun devraient être gratuits.",
         "en": "In my opinion, public transport should be free.",
         "hi": "मेरी राय में, सार्वजनिक परिवहन मुफ़्त होना चाहिए।",
-        "pron": "आ मोँ ना-वी ले त्ग़ाँस-पोग़ आँ को-मैँ द-व्ग़ै ऐत्ग़ ग्ग़ा-तüइ"
+        "pron": "आ मों ना-वी ले त्राँस-पोर आँ को-मैं द-व्रे एत्र ग्रा-त्यूइ"
       },
       {
         "fr": "Je l'appellerai demain pour lui donner la réponse.",
         "en": "I'll call him tomorrow to give him the answer.",
         "hi": "मैं कल उसे जवाब देने के लिए फ़ोन करूँगा / करूँगी।",
-        "pron": "झ़ö ला-पै-ल-ग़े द-मैँ पूग़ लüइ दो-ने ला ग़े-पोँस"
+        "pron": "ज ला-पे-ल-रे द-मैं पूर ल्यूइ दो-ने ला रे-पोंस"
       }
     ],
     "pitfalls": [
@@ -212,35 +212,35 @@
         "fr": "tu / tout",
         "en": "you / all",
         "hi": "तुम / सब",
-        "pron": "तü / तू",
+        "pron": "त्यू / तू",
         "ipa": "ty / tu"
       },
       {
         "fr": "bonjour, enfin, un an",
         "en": "hello, finally, one year",
         "hi": "नमस्ते, आख़िरकार, एक साल",
-        "pron": "बोँ-झ़ूग़ आँ-फ़ैँ ऐँ नाँ",
+        "pron": "बों-जूर आँ-फ़ैं ऐं नाँ",
         "ipa": "bɔ̃ʒuʁ ɑ̃fɛ̃ ɛ̃n‿ɑ̃"
       },
       {
         "fr": "Paris",
         "en": "Paris",
         "hi": "पेरिस",
-        "pron": "पा-ग़ी",
+        "pron": "पा-री",
         "ipa": "paʁi"
       },
       {
         "fr": "été / très",
         "en": "summer / very",
         "hi": "गर्मी / बहुत",
-        "pron": "ए-ते / त्ग़ै",
+        "pron": "ए-ते / त्रे",
         "ipa": "ete / tʁɛ"
       },
       {
         "fr": "petit",
         "en": "small",
         "hi": "छोटा",
-        "pron": "प-ती",
+        "pron": "प्ती",
         "ipa": "pəti"
       },
       {
@@ -324,7 +324,8 @@
     "questions": [
       {
         "q": {
-          "en": "According to Claire, learning as an adult is…"
+          "en": "According to Claire, learning as an adult is…",
+          "hi": "क्लेयर के अनुसार, वयस्क के रूप में सीखना…"
         },
         "options": [
           "impossible",
@@ -338,11 +339,18 @@
           "hi": "'C'est différent, plutôt que plus difficile' — मुश्किल नहीं, अलग।"
         },
         "kind": "literal",
-        "evidence": "C'est différent, plutôt que plus difficile."
+        "evidence": "C'est différent, plutôt que plus difficile.",
+        "optionsHi": [
+          "असंभव है",
+          "कठिन नहीं, बल्कि अलग है",
+          "बच्चे के रूप में सीखने से कहीं आसान है",
+          "केवल शिक्षक के साथ ही संभव है"
+        ]
       },
       {
         "q": {
-          "en": "What advantage do adults have?"
+          "en": "What advantage do adults have?",
+          "hi": "वयस्कों को कौन-सा लाभ मिलता है?"
         },
         "options": [
           "They imitate sounds better",
@@ -356,11 +364,18 @@
           "hi": "'Ils savent pourquoi ils apprennent' — ध्वनियों की नक़ल तो बच्चों का फ़ायदा है।"
         },
         "kind": "literal",
-        "evidence": "ils savent pourquoi ils apprennent"
+        "evidence": "ils savent pourquoi ils apprennent",
+        "optionsHi": [
+          "वे आवाज़ों की नक़ल बेहतर करते हैं",
+          "उनके पास ज़्यादा खाली समय होता है",
+          "उन्हें पता होता है कि वे क्यों सीख रहे हैं",
+          "वे कम ग़लतियाँ करते हैं"
+        ]
       },
       {
         "q": {
-          "en": "What does she mean by 'on n'apprend pas à nager sans se mouiller'?"
+          "en": "What does she mean by 'on n'apprend pas à nager sans se mouiller'?",
+          "hi": "'on n'apprend pas à nager sans se mouiller' से उसका क्या मतलब है?"
         },
         "options": [
           "You should take swimming lessons",
@@ -374,11 +389,18 @@
           "hi": "यह उदाहरण 'il faut accepter de faire des erreurs' के बाद आता है — ग़लतियाँ स्वीकार कीजिए।"
         },
         "kind": "inference",
-        "evidence": "il faut accepter de faire des erreurs"
+        "evidence": "il faut accepter de faire des erreurs",
+        "optionsHi": [
+          "आपको तैराकी की कक्षाएँ लेनी चाहिए",
+          "सीखने के लिए ग़लतियाँ करने को स्वीकार करना पड़ता है",
+          "सीखना ख़तरनाक है",
+          "आपको पानी के पास पढ़ाई करनी चाहिए"
+        ]
       },
       {
         "q": {
-          "en": "Which study habit does she recommend?"
+          "en": "Which study habit does she recommend?",
+          "hi": "वह पढ़ाई की कौन-सी आदत की सलाह देती है?"
         },
         "options": [
           "Half an hour every day",
@@ -392,11 +414,18 @@
           "hi": "रोज़ आधा घंटा, रविवार के चार घंटों से बेहतर।"
         },
         "kind": "literal",
-        "evidence": "Une demi-heure par jour vaut mieux que quatre heures le dimanche."
+        "evidence": "Une demi-heure par jour vaut mieux que quatre heures le dimanche.",
+        "optionsHi": [
+          "हर दिन आधा घंटा",
+          "हर रविवार चार घंटे",
+          "महीने में एक पूरा दिन",
+          "केवल परीक्षा से पहले"
+        ]
       },
       {
         "q": {
-          "en": "What does she advise for the last days before a test?"
+          "en": "What does she advise for the last days before a test?",
+          "hi": "परीक्षा से पहले के आख़िरी दिनों के लिए वह क्या सलाह देती है?"
         },
         "options": [
           "Revise everything",
@@ -410,11 +439,18 @@
           "hi": "सब कुछ न दोहराएँ, अच्छी नींद लें, तय किया सफ़र याद करें।"
         },
         "kind": "gist",
-        "evidence": "De ne pas tout réviser."
+        "evidence": "De ne pas tout réviser.",
+        "optionsHi": [
+          "सब कुछ दोहराएँ",
+          "एक महीने तक पढ़ाई पूरी तरह बंद कर दें",
+          "सब कुछ न दोहराएँ, अच्छी नींद लें, अब तक की प्रगति को याद रखें",
+          "अतिरिक्त कक्षाएँ लें"
+        ]
       },
       {
         "q": {
-          "en": "What do her former students often tell her?"
+          "en": "What do her former students often tell her?",
+          "hi": "उसके पूर्व विद्यार्थी उससे अक्सर क्या कहते हैं?"
         },
         "options": [
           "They have stopped speaking French",
@@ -428,7 +464,13 @@
           "hi": "अब वे बिना सबटाइटल के क्यूबेक की फ़िल्में देखते हैं।"
         },
         "kind": "literal",
-        "evidence": "ils regardent maintenant des films québécois sans sous-titres"
+        "evidence": "ils regardent maintenant des films québécois sans sous-titres",
+        "optionsHi": [
+          "उन्होंने फ़्रेंच बोलना छोड़ दिया है",
+          "वे शिक्षक बन गए हैं",
+          "वे फ़्रांस चले गए हैं",
+          "वे बिना सबटाइटल के क्यूबेक की फ़िल्में देखते हैं"
+        ]
       }
     ],
     "dictation": [
@@ -483,33 +525,33 @@
         "fr": "Bonjour, je vous appelle au sujet de l'autobus gratuit. Comment est-ce qu'on obtient la carte de résident ?",
         "en": "Hello, I'm calling about the free bus. How do you get the resident card?",
         "hi": "नमस्ते, मैं मुफ़्त बस के बारे में फ़ोन कर रहा / रही हूँ। निवासी कार्ड कैसे मिलता है?",
-        "pron": "बोँ-झ़ूग़ झ़ö वू ज़ा-पैल ओ सü-झ़े दö लो-तो-बüस ग्ग़ा-तüइ को-माँ ऐस कोँ नॉप-त्यैँ ला काग़्त दö ग़े-ज़ी-दाँ",
+        "pron": "बों-जूर ज वू ज़ा-पेल ओ स्यू-जे द लो-तो-ब्यूस ग्रा-त्यूइ को-माँ एस कों नॉप-त्यैं ला कार्त द रे-ज़ी-दाँ",
         "model": "Bonjour, je vous appelle au sujet de l'autobus gratuit. Comment est-ce qu'on obtient la carte de résident ? Est-ce qu'il faut une preuve d'adresse ? Et je voudrais savoir si la carte est valable aussi pour mes enfants."
       },
       {
         "fr": "Je voudrais savoir si les visiteurs doivent payer.",
         "en": "I'd like to know if visitors have to pay.",
         "hi": "मैं जानना चाहता / चाहती हूँ कि मेहमानों को पैसे देने होंगे या नहीं।",
-        "pron": "झ़ö वू-द्ग़ै सा-वाग़ सी ले वी-ज़ी-तöग़ द्वाव पे-ये"
+        "pron": "ज वू-द्रे सा-वार सी ले वी-ज़ी-तर द्वाव पे-ये"
       },
       {
         "fr": "Regarde cette annonce : à partir de septembre, le bus est gratuit pour nous.",
         "en": "Look at this ad: from September, the bus is free for us.",
         "hi": "यह विज्ञापन देखो: सितंबर से बस हमारे लिए मुफ़्त है।",
-        "pron": "ग़ö-गाग़्द सैत आ-नोँस आ पाग़-तीग़ दö सैप-ताँब्ग़ लö बüस ऐ ग्ग़ा-तüइ पूग़ नू"
+        "pron": "र-गार्द सेत आ-नोंस आ पार-तीर द सेप-ताँब्र ल ब्यूस ए ग्रा-त्यूइ पूर नू"
       },
       {
         "fr": "Je te comprends, mais justement, tu n'auras plus à chercher une place de stationnement.",
         "en": "I understand, but that's exactly it: you won't have to look for a parking space any more.",
         "hi": "मैं तुम्हें समझता / समझती हूँ, पर बात यही है, तुम्हें अब पार्किंग की जगह नहीं ढूँढनी पड़ेगी।",
-        "pron": "झ़ö तö कोँ-प्ग़ाँ मै झ़üस-त-माँ तü नो-ग़ा प्लü ज़ा शैग़-शे üन प्लास दö स्ता-स्यॉन-माँ",
+        "pron": "ज त कों-प्राँ मे ज्यूस-त-माँ त्यू नो-रा प्ल्यू ज़ा शेर-शे यून प्लास द स्ता-स्यॉन-माँ",
         "model": "Je te comprends, le bus est parfois plus lent. Mais justement, tu n'auras plus à chercher une place de stationnement ni à payer l'essence. Et pendant le trajet, tu peux lire ou te reposer."
       },
       {
         "fr": "Essaie juste une semaine, et après, tu décides.",
         "en": "Just try it for a week, and then you decide.",
         "hi": "बस एक हफ़्ता आज़माकर देखो, फिर फ़ैसला करना।",
-        "pron": "ए-सै झ़üस्त üन स-मैन ए आ-प्ग़ै तü दे-सीद"
+        "pron": "ए-से ज्यूस्त यून स-मेन ए आ-प्रे त्यू दे-सीद"
       }
     ],
     "tip": {
@@ -528,7 +570,8 @@
     "questions": [
       {
         "q": {
-          "en": "What were the two aims of free buses?"
+          "en": "What were the two aims of free buses?",
+          "hi": "मुफ़्त बसों के दो उद्देश्य क्या थे?"
         },
         "options": [
           "Reduce traffic and help low-income families",
@@ -542,11 +585,18 @@
           "hi": "शहर के बीच यातायात कम करना और कम आमदनी वाले परिवारों की मदद करना।"
         },
         "kind": "literal",
-        "evidence": "réduire la circulation au centre-ville et aider les familles à faible revenu"
+        "evidence": "réduire la circulation au centre-ville et aider les familles à faible revenu",
+        "optionsHi": [
+          "यातायात घटाना और कम आय वाले परिवारों की मदद करना",
+          "पैसे बचाना और सड़कें बनाना",
+          "पर्यटकों और विद्यार्थियों को आकर्षित करना",
+          "कर घटाना और नौकरियाँ पैदा करना"
+        ]
       },
       {
         "q": {
-          "en": "How has Mrs Leblanc's life changed?"
+          "en": "How has Mrs Leblanc's life changed?",
+          "hi": "श्रीमती लेब्लां का जीवन कैसे बदला है?"
         },
         "options": [
           "She has bought a car",
@@ -560,11 +610,18 @@
           "hi": "वह अपने नाती-पोतों से हफ़्ते में दो बार मिलती है, पहले एक बार।"
         },
         "kind": "inference",
-        "evidence": "deux fois par semaine au lieu d'une"
+        "evidence": "deux fois par semaine au lieu d'une",
+        "optionsHi": [
+          "उन्होंने कार ख़रीद ली है",
+          "वे अपने नाती-पोतों से अधिक बार मिलने जाती हैं",
+          "वे अधिक कर देती हैं",
+          "वे कहीं और रहने चली गई हैं"
+        ]
       },
       {
         "q": {
-          "en": "Why has car traffic hardly decreased, according to the specialist?"
+          "en": "Why has car traffic hardly decreased, according to the specialist?",
+          "hi": "विशेषज्ञ के अनुसार कारों का यातायात मुश्किल से ही क्यों घटा है?"
         },
         "options": [
           "Buses are too expensive",
@@ -578,11 +635,18 @@
           "hi": "मुफ़्त सेवा ज़्यादातर पहले से पैदल या साइकिल से चलने वालों को आकर्षित करती है।"
         },
         "kind": "literal",
-        "evidence": "la gratuité attire surtout des personnes qui marchaient ou utilisaient déjà le vélo"
+        "evidence": "la gratuité attire surtout des personnes qui marchaient ou utilisaient déjà le vélo",
+        "optionsHi": [
+          "बसें बहुत महँगी हैं",
+          "केंद्र में कोई बस नहीं है",
+          "चालकों को इसकी जानकारी नहीं है",
+          "मुफ़्त बसें मुख्य रूप से उन लोगों को आकर्षित करती हैं जो पैदल या साइकिल से चलते थे"
+        ]
       },
       {
         "q": {
-          "en": "How is free transport funded?"
+          "en": "How is free transport funded?",
+          "hi": "मुफ़्त परिवहन के लिए धन कैसे जुटाया जाता है?"
         },
         "options": [
           "By a federal grant",
@@ -596,11 +660,18 @@
           "hi": "संपत्ति-कर में 2% की बढ़ोतरी से।"
         },
         "kind": "literal",
-        "evidence": "financée par une hausse de 2 % de l'impôt foncier"
+        "evidence": "financée par une hausse de 2 % de l'impôt foncier",
+        "optionsHi": [
+          "संघीय अनुदान से",
+          "संपत्ति कर में 2% की वृद्धि से",
+          "बसों पर विज्ञापन से",
+          "जुर्मानों से"
+        ]
       },
       {
         "q": {
-          "en": "What is the mayor's attitude?"
+          "en": "What is the mayor's attitude?",
+          "hi": "महापौर (मेयर) का रुख़ कैसा है?"
         },
         "options": [
           "He wants to cancel the project",
@@ -614,11 +685,18 @@
           "hi": "'Pas une solution magique… mais c'est un premier pas' — आशावादी पर व्यावहारिक।"
         },
         "kind": "inference",
-        "evidence": "La gratuité n'est pas une solution magique"
+        "evidence": "La gratuité n'est pas une solution magique",
+        "optionsHi": [
+          "वह परियोजना रद्द करना चाहता है",
+          "उसे लगता है कि यह एक आदर्श समाधान है",
+          "आशावादी पर यथार्थवादी: सुधार की दिशा में पहला क़दम",
+          "उदासीन"
+        ]
       },
       {
         "q": {
-          "en": "What can citizens do on 12 March?"
+          "en": "What can citizens do on 12 March?",
+          "hi": "12 मार्च को नागरिक क्या कर सकते हैं?"
         },
         "options": [
           "Give their opinion at a public consultation",
@@ -632,7 +710,13 @@
           "hi": "12 मार्च को सार्वजनिक परामर्श में राय दे सकते हैं।"
         },
         "kind": "literal",
-        "evidence": "donner leur avis lors d'une consultation publique le 12 mars"
+        "evidence": "donner leur avis lors d'une consultation publique le 12 mars",
+        "optionsHi": [
+          "सार्वजनिक परामर्श में अपनी राय दें",
+          "नई लाइनों पर सवारी करें",
+          "नए महापौर के लिए मतदान करें",
+          "अपना निवासी कार्ड प्राप्त करें"
+        ]
       }
     ]
   },
@@ -664,19 +748,19 @@
         "fr": "Je suis tout à fait favorable à …",
         "en": "I am entirely in favour of …",
         "hi": "मैं … के पूरी तरह पक्ष में हूँ",
-        "pron": "झ़ö सüइ तू ता फ़ै फ़ा-वो-ग़ाब्ल आ"
+        "pron": "ज स्यूइ तू ता फ़े फ़ा-वो-राब्ल आ"
       },
       {
         "fr": "Certes, … mais …",
         "en": "Admittedly, … but …",
         "hi": "माना कि …, लेकिन …",
-        "pron": "सैग़्त मै"
+        "pron": "सेर्त … मे"
       },
       {
         "fr": "C'est pourquoi …",
         "en": "That is why …",
         "hi": "इसीलिए …",
-        "pron": "सै पूग़-क्वा"
+        "pron": "से पूर-क्वा"
       }
     ],
     "model": {
@@ -720,49 +804,49 @@
         "fr": "Je m'appelle … et j'habite à …",
         "en": "My name is … and I live in …",
         "hi": "मेरा नाम … है और मैं … में रहता / रहती हूँ।",
-        "pron": "झ़ö मा-पैल ए झ़ा-बीत आ"
+        "pron": "ज मा-पेल ए जा-बीत आ"
       },
       {
         "fr": "quatre-vingt-dix",
         "en": "ninety",
         "hi": "नब्बे",
-        "pron": "का-त्ग़ö-वैँ-दीस"
+        "pron": "का-त्र-वैं-दीस"
       },
       {
         "fr": "Hier, je suis allé au marché.",
         "en": "Yesterday I went to the market.",
         "hi": "कल मैं बाज़ार गया था।",
-        "pron": "य्यैग़ झ़ö सüइ ज़ा-ले ओ माग़-शे"
+        "pron": "य्येर ज स्यूइ ज़ा-ले ओ मार-शे"
       },
       {
         "fr": "Quand j'étais petit, je jouais au cricket.",
         "en": "When I was little, I played cricket.",
         "hi": "जब मैं छोटा था, मैं क्रिकेट खेलता था।",
-        "pron": "काँ झ़े-तै प-ती झ़ö झ़ू-ऐ ओ क्ग़ी-कैत"
+        "pron": "काँ जे-ते प-ती ज जू-ए ओ क्री-केत"
       },
       {
         "fr": "Je voudrais prendre rendez-vous.",
         "en": "I'd like to make an appointment.",
         "hi": "मैं समय लेना चाहता / चाहती हूँ।",
-        "pron": "झ़ö वू-द्ग़ै प्ग़ाँद्ग़ ग़ाँ-दे-वू"
+        "pron": "ज वू-द्रे प्राँद्र राँ-दे-वू"
       },
       {
         "fr": "Il faut que tu viennes.",
         "en": "You have to come.",
         "hi": "तुम्हें आना ही होगा।",
-        "pron": "ईल फ़ो कö तü व्यैन"
+        "pron": "ईल फ़ो क त्यू व्येन"
       },
       {
         "fr": "À mon avis, …",
         "en": "In my opinion, …",
         "hi": "मेरी राय में, …",
-        "pron": "आ मोँ ना-वी"
+        "pron": "आ मों ना-वी"
       },
       {
         "fr": "Je te comprends, mais justement …",
         "en": "I understand, but that's exactly why …",
         "hi": "मैं समझता / समझती हूँ, पर इसीलिए तो …",
-        "pron": "झ़ö तö कोँ-प्ग़ाँ मै झ़üस-त-माँ"
+        "pron": "ज त कों-प्राँ मे ज्यूस-त-माँ"
       },
       {
         "fr": "cependant",
@@ -774,7 +858,7 @@
         "fr": "la pièce d'identité",
         "en": "identity document",
         "hi": "पहचान-पत्र",
-        "pron": "ला प्यैस दी-दाँ-ती-ते"
+        "pron": "ला प्येस दी-दाँ-ती-ते"
       }
     ]
   },

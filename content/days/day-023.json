@@ -16,28 +16,28 @@
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "l'appartement", "en": "flat / apartment", "hi": "फ़्लैट", "pron": "ला-पाग़-तö-माँ", "ipa": "lapaʁtəmɑ̃", "pos": "noun", "gender": "m", "lemma": "appartement" },
-    { "fr": "la maison", "en": "house / home", "hi": "मकान / घर", "pron": "ला मै-ज़ोँ", "ipa": "la mɛzɔ̃", "pos": "noun", "gender": "f", "lemma": "maison", "note": { "en": "à la maison = at home.", "hi": "à la maison = घर पर।" } },
-    { "fr": "la pièce", "en": "room (any room)", "hi": "कमरा", "pron": "ला प्यैस", "ipa": "la pjɛs", "pos": "noun", "gender": "f", "lemma": "pièce" },
-    { "fr": "la chambre", "en": "bedroom", "hi": "सोने का कमरा / बेडरूम", "pron": "ला शाँब्ग़", "ipa": "la ʃɑ̃bʁ", "pos": "noun", "gender": "f", "lemma": "chambre", "note": { "en": "Trap: 'chambre' is a bedroom, not any room. Any room = une pièce.", "hi": "जाल: 'chambre' सिर्फ़ सोने का कमरा है, हर कमरा नहीं। कोई भी कमरा = une pièce।" } },
-    { "fr": "le salon", "en": "living room", "hi": "बैठक / ड्रॉइंग रूम", "pron": "लö सा-लोँ", "ipa": "lə salɔ̃", "pos": "noun", "gender": "m", "lemma": "salon" },
-    { "fr": "la cuisine", "en": "kitchen (also: cooking)", "hi": "रसोई", "pron": "ला क्üई-ज़ीन", "ipa": "la kɥizin", "pos": "noun", "gender": "f", "lemma": "cuisine" },
-    { "fr": "la salle de bains", "en": "bathroom", "hi": "स्नानघर / बाथरूम", "pron": "ला साल दö बैँ", "ipa": "la sal də bɛ̃", "pos": "noun", "gender": "f", "lemma": "salle de bains" },
-    { "fr": "le lit", "en": "bed", "hi": "पलंग / बिस्तर", "pron": "लö ली", "ipa": "lə li", "pos": "noun", "gender": "m", "lemma": "lit", "note": { "en": "Silent t.", "hi": "t मूक है।" } },
-    { "fr": "le canapé", "en": "sofa / couch", "hi": "सोफ़ा", "pron": "लö का-ना-पे", "ipa": "lə kanape", "pos": "noun", "gender": "m", "lemma": "canapé", "note": { "en": "In Québec you will also hear 'le divan'.", "hi": "क्यूबेक में 'le divan' भी सुनाई देगा।" } },
-    { "fr": "l'armoire", "en": "wardrobe / cupboard", "hi": "अलमारी", "pron": "लाग़-म्वाग़", "ipa": "laʁmwaʁ", "pos": "noun", "gender": "f", "lemma": "armoire" },
-    { "fr": "la fenêtre", "en": "window", "hi": "खिड़की", "pron": "ला फ़ö-नैत्ग़", "ipa": "la fənɛtʁ", "pos": "noun", "gender": "f", "lemma": "fenêtre" },
-    { "fr": "le loyer", "en": "rent", "hi": "किराया", "pron": "लö ल्वा-ये", "ipa": "lə lwaje", "pos": "noun", "gender": "m", "lemma": "loyer" },
-    { "fr": "le chauffage", "en": "heating", "hi": "हीटिंग / घर गर्म करने की व्यवस्था", "pron": "लö शो-फ़ाझ़", "ipa": "lə ʃofaʒ", "pos": "noun", "gender": "m", "lemma": "chauffage", "note": { "en": "In Canadian winters, always ask if heating is included in the rent (chauffage compris).", "hi": "कनाडा की सर्दियों में हमेशा पूछिए कि हीटिंग किराये में शामिल है या नहीं (chauffage compris)।" } },
+    { "fr": "l'appartement", "en": "flat / apartment", "hi": "फ़्लैट", "pron": "ला-पार्त-माँ", "ipa": "lapaʁtəmɑ̃", "pos": "noun", "gender": "m", "lemma": "appartement" },
+    { "fr": "la maison", "en": "house / home", "hi": "मकान / घर", "pron": "ला मे-ज़ों", "ipa": "la mɛzɔ̃", "pos": "noun", "gender": "f", "lemma": "maison", "note": { "en": "à la maison = at home.", "hi": "à la maison = घर पर।" } },
+    { "fr": "la pièce", "en": "room (any room)", "hi": "कमरा", "pron": "ला प्येस", "ipa": "la pjɛs", "pos": "noun", "gender": "f", "lemma": "pièce" },
+    { "fr": "la chambre", "en": "bedroom", "hi": "सोने का कमरा / बेडरूम", "pron": "ला शाँब्र", "ipa": "la ʃɑ̃bʁ", "pos": "noun", "gender": "f", "lemma": "chambre", "note": { "en": "Trap: 'chambre' is a bedroom, not any room. Any room = une pièce.", "hi": "जाल: 'chambre' सिर्फ़ सोने का कमरा है, हर कमरा नहीं। कोई भी कमरा = une pièce।" } },
+    { "fr": "le salon", "en": "living room", "hi": "बैठक / ड्रॉइंग रूम", "pron": "ल सा-लों", "ipa": "lə salɔ̃", "pos": "noun", "gender": "m", "lemma": "salon" },
+    { "fr": "la cuisine", "en": "kitchen (also: cooking)", "hi": "रसोई", "pron": "ला क्यूई-ज़ीन", "ipa": "la kɥizin", "pos": "noun", "gender": "f", "lemma": "cuisine" },
+    { "fr": "la salle de bains", "en": "bathroom", "hi": "स्नानघर / बाथरूम", "pron": "ला साल द बैं", "ipa": "la sal də bɛ̃", "pos": "noun", "gender": "f", "lemma": "salle de bains" },
+    { "fr": "le lit", "en": "bed", "hi": "पलंग / बिस्तर", "pron": "ल ली", "ipa": "lə li", "pos": "noun", "gender": "m", "lemma": "lit", "note": { "en": "Silent t.", "hi": "t मूक है।" } },
+    { "fr": "le canapé", "en": "sofa / couch", "hi": "सोफ़ा", "pron": "ल का-ना-पे", "ipa": "lə kanape", "pos": "noun", "gender": "m", "lemma": "canapé", "note": { "en": "In Québec you will also hear 'le divan'.", "hi": "क्यूबेक में 'le divan' भी सुनाई देगा।" } },
+    { "fr": "l'armoire", "en": "wardrobe / cupboard", "hi": "अलमारी", "pron": "लार-म्वार", "ipa": "laʁmwaʁ", "pos": "noun", "gender": "f", "lemma": "armoire" },
+    { "fr": "la fenêtre", "en": "window", "hi": "खिड़की", "pron": "ला फ़-नेत्र", "ipa": "la fənɛtʁ", "pos": "noun", "gender": "f", "lemma": "fenêtre" },
+    { "fr": "le loyer", "en": "rent", "hi": "किराया", "pron": "ल ल्वा-ये", "ipa": "lə lwaje", "pos": "noun", "gender": "m", "lemma": "loyer" },
+    { "fr": "le chauffage", "en": "heating", "hi": "हीटिंग / घर गर्म करने की व्यवस्था", "pron": "ल शो-फ़ाज", "ipa": "lə ʃofaʒ", "pos": "noun", "gender": "m", "lemma": "chauffage", "note": { "en": "In Canadian winters, always ask if heating is included in the rent (chauffage compris).", "hi": "कनाडा की सर्दियों में हमेशा पूछिए कि हीटिंग किराये में शामिल है या नहीं (chauffage compris)।" } },
     { "fr": "mille", "en": "thousand", "hi": "हज़ार", "pron": "मील", "ipa": "mil", "pos": "number", "note": { "en": "Never takes an s: deux mille. 1 100 = mille cent.", "hi": "इसमें कभी s नहीं लगता: deux mille। 1 100 = mille cent।" } }
   ],
   "phrases": [
-    { "fr": "C'est un quatre et demie.", "en": "It's a 4½ (a two-bedroom flat, in Québec).", "hi": "यह साढ़े चार कमरों वाला (दो बेडरूम का) फ़्लैट है।", "pron": "सै तैँ कात्ग़ ए दö-मी", "note": { "en": "In Québec, flats are counted in rooms, and the bathroom counts as ½. A 3½ has one bedroom, a 4½ has two, a 5½ has three.", "hi": "क्यूबेक में फ़्लैट कमरों में गिने जाते हैं, और बाथरूम ½ गिना जाता है। 3½ में एक बेडरूम, 4½ में दो, 5½ में तीन।" } },
-    { "fr": "Il y a combien de chambres ?", "en": "How many bedrooms are there?", "hi": "कितने बेडरूम हैं?", "pron": "ई ल्या कोँ-ब्यैँ दö शाँब्ग़" },
-    { "fr": "Le loyer est de combien ?", "en": "How much is the rent?", "hi": "किराया कितना है?", "pron": "लö ल्वा-ये ऐ दö कोँ-ब्यैँ" },
-    { "fr": "Le chauffage est compris ?", "en": "Is heating included?", "hi": "क्या हीटिंग शामिल है?", "pron": "लö शो-फ़ाझ़ ऐ कोँ-प्री" },
-    { "fr": "C'est près du métro ?", "en": "Is it near the metro?", "hi": "क्या यह मेट्रो के पास है?", "pron": "सै प्रै दü मे-त्रो" },
-    { "fr": "J'habite au deuxième étage.", "en": "I live on the second floor.", "hi": "मैं दूसरी मंज़िल पर रहता/रहती हूँ।", "pron": "झ़ा-बीत ओ दö-ज़्यैम ए-ताझ़" }
+    { "fr": "C'est un quatre et demie.", "en": "It's a 4½ (a two-bedroom flat, in Québec).", "hi": "यह साढ़े चार कमरों वाला (दो बेडरूम का) फ़्लैट है।", "pron": "से तैं कात्र ए द-मी", "note": { "en": "In Québec, flats are counted in rooms, and the bathroom counts as ½. A 3½ has one bedroom, a 4½ has two, a 5½ has three.", "hi": "क्यूबेक में फ़्लैट कमरों में गिने जाते हैं, और बाथरूम ½ गिना जाता है। 3½ में एक बेडरूम, 4½ में दो, 5½ में तीन।" } },
+    { "fr": "Il y a combien de chambres ?", "en": "How many bedrooms are there?", "hi": "कितने बेडरूम हैं?", "pron": "ई ल्या कों-ब्यैं द शाँब्र" },
+    { "fr": "Le loyer est de combien ?", "en": "How much is the rent?", "hi": "किराया कितना है?", "pron": "ल ल्वा-ये ए द कों-ब्यैं" },
+    { "fr": "Le chauffage est compris ?", "en": "Is heating included?", "hi": "क्या हीटिंग शामिल है?", "pron": "ल शो-फ़ाज ए कों-प्री" },
+    { "fr": "C'est près du métro ?", "en": "Is it near the metro?", "hi": "क्या यह मेट्रो के पास है?", "pron": "से प्रे द्यू मे-त्रो" },
+    { "fr": "J'habite au deuxième étage.", "en": "I live on the second floor.", "hi": "मैं दूसरी मंज़िल पर रहता/रहती हूँ।", "pron": "जा-बीत ओ द-ज़्येम ए-ताज" }
   ],
   "grammar": {
     "title": { "en": "Where is it? Prepositions of place", "hi": "कहाँ है? स्थानसूचक शब्द (prepositions)" },
@@ -50,32 +50,32 @@
       "hi": "हिंदी में स्थान बताने वाला शब्द संज्ञा के बाद आता है (मेज़ पर, बिस्तर के नीचे)। फ़्रेंच में, अंग्रेज़ी की तरह, पहले आता है: sur la table, sous le lit। दिलचस्प बात: हिंदी 'के बगल में' और फ़्रेंच 'à côté de' दोनों में एक छोटा जोड़ने वाला शब्द है (के / de) — और जैसे हिंदी में 'का/के/की' बदलता है, वैसे ही फ़्रेंच में de बदलकर du/des हो जाता है।"
     },
     "examples": [
-      { "fr": "Le chat est sous le lit.", "en": "The cat is under the bed.", "hi": "बिल्ली पलंग के नीचे है।", "pron": "लö शा ऐ सू लö ली" },
-      { "fr": "Mon téléphone est sur la table.", "en": "My phone is on the table.", "hi": "मेरा फ़ोन मेज़ पर है।", "pron": "मोँ ते-ले-फ़ॉन ऐ सüग़ ला ताब्ल" },
-      { "fr": "La salle de bains est à côté de la chambre.", "en": "The bathroom is next to the bedroom.", "hi": "बाथरूम बेडरूम के बगल में है।", "pron": "ला साल दö बैँ ऐ ता को-ते दö ला शाँब्ग़" },
-      { "fr": "Il y a un canapé devant la fenêtre.", "en": "There's a sofa in front of the window.", "hi": "खिड़की के सामने एक सोफ़ा है।", "pron": "ई ल्या ऐँ का-ना-पे दö-वाँ ला फ़ö-नैत्ग़" },
-      { "fr": "L'épicerie est en face du parc.", "en": "The grocery store is opposite the park.", "hi": "किराने की दुकान पार्क के ठीक सामने है।", "pron": "ले-पी-स्ग़ी ऐ ताँ फ़ास दü पाग़क" },
-      { "fr": "La cuisine est entre le salon et le balcon.", "en": "The kitchen is between the living room and the balcony.", "hi": "रसोई बैठक और बालकनी के बीच में है।", "pron": "ला क्üई-ज़ीन ऐ ताँत्ग़ लö सा-लोँ ए लö बाल-कोँ" }
+      { "fr": "Le chat est sous le lit.", "en": "The cat is under the bed.", "hi": "बिल्ली पलंग के नीचे है।", "pron": "ल शा ए सू ल ली" },
+      { "fr": "Mon téléphone est sur la table.", "en": "My phone is on the table.", "hi": "मेरा फ़ोन मेज़ पर है।", "pron": "मों ते-ले-फ़ॉन ए स्यूर ला ताब्ल" },
+      { "fr": "La salle de bains est à côté de la chambre.", "en": "The bathroom is next to the bedroom.", "hi": "बाथरूम बेडरूम के बगल में है।", "pron": "ला साल द बैं ए ता को-ते द ला शाँब्र" },
+      { "fr": "Il y a un canapé devant la fenêtre.", "en": "There's a sofa in front of the window.", "hi": "खिड़की के सामने एक सोफ़ा है।", "pron": "ई ल्या ऐं का-ना-पे द-वाँ ला फ़-नेत्र" },
+      { "fr": "L'épicerie est en face du parc.", "en": "The grocery store is opposite the park.", "hi": "किराने की दुकान पार्क के ठीक सामने है।", "pron": "ले-पी-स्री ए ताँ फ़ास द्यू पारक" },
+      { "fr": "La cuisine est entre le salon et le balcon.", "en": "The kitchen is between the living room and the balcony.", "hi": "रसोई बैठक और बालकनी के बीच में है।", "pron": "ला क्यूई-ज़ीन ए ताँत्र ल सा-लों ए ल बाल-कों" }
     ],
     "pitfalls": [
       { "en": "Not 'à côté de le salon' — say 'à côté du salon'.", "hi": "'à côté de le salon' नहीं — 'à côté du salon' कहिए।" },
-      { "en": "sur (सüग़, on) and sous (सू, under) mean opposite things. Round your lips carefully for ü.", "hi": "sur (सüग़, ऊपर) और sous (सू, नीचे) का मतलब उल्टा है। ü के लिए होंठ ध्यान से गोल कीजिए।" },
+      { "en": "sur (स्यूर, on) and sous (सू, under) mean opposite things. Round your lips carefully for यू.", "hi": "sur (स्यूर, ऊपर) और sous (सू, नीचे) का मतलब उल्टा है। यू के लिए होंठ ध्यान से गोल कीजिए।" },
       { "en": "'In the kitchen' is 'dans la cuisine', not 'en la cuisine'.", "hi": "'रसोई में' = 'dans la cuisine', 'en la cuisine' नहीं।" }
     ]
   },
   "pronunciation": {
     "focus": "/u/ (sous) vs /y/ (sur)",
     "tip": {
-      "en": "For /u/ (ou) say a normal Hindi ऊ. For /y/ (u) keep your tongue where it is for ई, then round your lips as for ऊ — that is ü. Practise in pairs: sous / sur, tout / tu. If you say 'sous' when you mean 'sur', the keys are under the table instead of on it!",
-      "hi": "/u/ (ou) के लिए साधारण हिंदी ऊ बोलिए। /y/ (u) के लिए जीभ ई की जगह पर रखिए, फिर होंठ ऊ की तरह गोल कीजिए — यही ü है। जोड़ों में अभ्यास कीजिए: sous / sur, tout / tu। अगर आप 'sur' की जगह 'sous' बोल दें, तो चाबियाँ मेज़ पर नहीं, मेज़ के नीचे हो जाएँगी!"
+      "en": "For /u/ (ou) say a normal Hindi ऊ. For /y/ (u) keep your tongue where it is for ई, then round your lips as for ऊ — that is यू. Practise in pairs: sous / sur, tout / tu. If you say 'sous' when you mean 'sur', the keys are under the table instead of on it!",
+      "hi": "/u/ (ou) के लिए साधारण हिंदी ऊ बोलिए। /y/ (u) के लिए जीभ ई की जगह पर रखिए, फिर होंठ ऊ की तरह गोल कीजिए — यही यू है। जोड़ों में अभ्यास कीजिए: sous / sur, tout / tu। अगर आप 'sur' की जगह 'sous' बोल दें, तो चाबियाँ मेज़ पर नहीं, मेज़ के नीचे हो जाएँगी!"
     },
     "words": [
       { "fr": "sous", "en": "under", "hi": "नीचे", "pron": "सू", "ipa": "su" },
-      { "fr": "sur", "en": "on", "hi": "ऊपर / पर", "pron": "सüग़", "ipa": "syʁ" },
+      { "fr": "sur", "en": "on", "hi": "ऊपर / पर", "pron": "स्यूर", "ipa": "syʁ" },
       { "fr": "tout", "en": "all / everything", "hi": "सब", "pron": "तू", "ipa": "tu" },
-      { "fr": "tu", "en": "you (informal)", "hi": "तुम / तू", "pron": "तü", "ipa": "ty" },
+      { "fr": "tu", "en": "you (informal)", "hi": "तुम / तू", "pron": "त्यू", "ipa": "ty" },
       { "fr": "la douche", "en": "the shower", "hi": "शावर / फुहारा", "pron": "ला दूश", "ipa": "la duʃ" },
-      { "fr": "la rue", "en": "the street", "hi": "गली / सड़क", "pron": "ला ग़ü", "ipa": "la ʁy" }
+      { "fr": "la rue", "en": "the street", "hi": "गली / सड़क", "pron": "ला र्यू", "ipa": "la ʁy" }
     ]
   },
   "listening": {
@@ -101,11 +101,11 @@
       { "speaker": "Priya", "voice": "f1", "fr": "Parfait ! J'aime beaucoup l'appartement.", "en": "Perfect! I really like the flat.", "hi": "बढ़िया! मुझे फ़्लैट बहुत पसंद है।" }
     ],
     "questions": [
-      { "q": { "en": "How many bedrooms does the flat have?" }, "options": ["One", "Two", "Three", "Four"], "answer": 1, "explanation": { "en": "'Il y a deux chambres.' A 4½ in Québec has two bedrooms.", "hi": "'Il y a deux chambres.' क्यूबेक के 4½ में दो बेडरूम होते हैं।" }, "kind": "literal", "evidence": "Il y a deux chambres." },
-      { "q": { "en": "Where is the big bedroom?" }, "options": ["Next to the bathroom", "Opposite the kitchen", "Behind the living room"], "answer": 0, "explanation": { "en": "'à côté de la salle de bains' = next to the bathroom.", "hi": "'à côté de la salle de bains' = बाथरूम के बगल में।" }, "kind": "literal", "evidence": "La grande chambre est à côté de la salle de bains." },
-      { "q": { "en": "What is opposite the flat?" }, "options": ["A metro station", "A school", "A park"], "answer": 2, "explanation": { "en": "'en face, il y a un parc'. The metro is five minutes away, not opposite.", "hi": "'en face, il y a un parc'। मेट्रो पाँच मिनट दूर है, सामने नहीं।" }, "kind": "literal", "evidence": "Oui, et en face, il y a un parc." },
-      { "q": { "en": "How much is the rent?" }, "options": ["$100 a month", "$1,100 a month", "$1,000 a month"], "answer": 1, "explanation": { "en": "'Mille cent' = 1,100.", "hi": "'Mille cent' = 1100 (ग्यारह सौ)।" }, "kind": "literal", "evidence": "Mille cent dollars par mois." },
-      { "q": { "en": "Will Priya pay extra for heating?" }, "options": ["Yes, heating is extra", "No, heating is included", "We don't know"], "answer": 1, "explanation": { "en": "'le chauffage et l'eau chaude sont compris' — included in the rent.", "hi": "'le chauffage et l'eau chaude sont compris' — किराये में शामिल हैं।" }, "kind": "inference", "evidence": "le chauffage et l'eau chaude sont compris" }
+      { "q": { "en": "How many bedrooms does the flat have?", "hi": "फ़्लैट में कितने शयनकक्ष हैं?" }, "options": ["One", "Two", "Three", "Four"], "optionsHi": ["एक", "दो", "तीन", "चार"], "answer": 1, "explanation": { "en": "'Il y a deux chambres.' A 4½ in Québec has two bedrooms.", "hi": "'Il y a deux chambres.' क्यूबेक के 4½ में दो बेडरूम होते हैं।" }, "kind": "literal", "evidence": "Il y a deux chambres." },
+      { "q": { "en": "Where is the big bedroom?", "hi": "बड़ा शयनकक्ष कहाँ है?" }, "options": ["Next to the bathroom", "Opposite the kitchen", "Behind the living room"], "optionsHi": ["स्नानघर के बगल में", "रसोई के सामने", "बैठक के पीछे"], "answer": 0, "explanation": { "en": "'à côté de la salle de bains' = next to the bathroom.", "hi": "'à côté de la salle de bains' = बाथरूम के बगल में।" }, "kind": "literal", "evidence": "La grande chambre est à côté de la salle de bains." },
+      { "q": { "en": "What is opposite the flat?", "hi": "फ़्लैट के सामने क्या है?" }, "options": ["A metro station", "A school", "A park"], "optionsHi": ["मेट्रो स्टेशन", "स्कूल", "पार्क"], "answer": 2, "explanation": { "en": "'en face, il y a un parc'. The metro is five minutes away, not opposite.", "hi": "'en face, il y a un parc'। मेट्रो पाँच मिनट दूर है, सामने नहीं।" }, "kind": "literal", "evidence": "Oui, et en face, il y a un parc." },
+      { "q": { "en": "How much is the rent?", "hi": "किराया कितना है?" }, "options": ["$100 a month", "$1,100 a month", "$1,000 a month"], "answer": 1, "explanation": { "en": "'Mille cent' = 1,100.", "hi": "'Mille cent' = 1100 (ग्यारह सौ)।" }, "kind": "literal", "evidence": "Mille cent dollars par mois." },
+      { "q": { "en": "Will Priya pay extra for heating?", "hi": "क्या प्रिया को हीटिंग के लिए अलग से पैसे देने होंगे?" }, "options": ["Yes, heating is extra", "No, heating is included", "We don't know"], "optionsHi": ["हाँ, हीटिंग अलग से है", "नहीं, हीटिंग शामिल है", "हमें नहीं पता"], "answer": 1, "explanation": { "en": "'le chauffage et l'eau chaude sont compris' — included in the rent.", "hi": "'le chauffage et l'eau chaude sont compris' — किराये में शामिल हैं।" }, "kind": "inference", "evidence": "le chauffage et l'eau chaude sont compris" }
     ],
     "dictation": ["Il y a deux chambres.", "Le loyer est de combien ?", "Le chauffage est compris ?"],
     "gapFill": { "text": "La cuisine est ici, ___ le salon et le balcon. Oui, et en ___, il y a un parc.", "answers": ["entre", "face"] }
@@ -117,11 +117,11 @@
       "hi": "एक दोस्त फ़ोन करके आपके घर के बारे में पूछता है। उसके सवालों के जवाब दीजिए: कैसा घर है, कौन-से कमरे हैं, चीज़ें कहाँ हैं, और पास में क्या है।"
     },
     "prompts": [
-      { "fr": "Tu habites dans une maison ou un appartement ?", "en": "Do you live in a house or a flat?", "hi": "तुम मकान में रहते हो या फ़्लैट में?", "pron": "तü आ-बीत दाँ ज़üन मै-ज़ोँ ऊ ऐँ ना-पाग़-तö-माँ", "model": "J'habite dans un appartement, au deuxième étage." },
-      { "fr": "Il y a combien de pièces ?", "en": "How many rooms are there?", "hi": "कितने कमरे हैं?", "pron": "ई ल्या कोँ-ब्यैँ दö प्यैस", "model": "C'est un trois et demie : il y a une chambre, un salon et une cuisine." },
-      { "fr": "Où est ton lit ?", "en": "Where is your bed?", "hi": "तुम्हारा पलंग कहाँ है?", "pron": "ऊ ऐ तोँ ली", "model": "Mon lit est dans la chambre, sous la fenêtre." },
-      { "fr": "Qu'est-ce qu'il y a dans le salon ?", "en": "What is there in the living room?", "hi": "बैठक में क्या-क्या है?", "pron": "कैस-की-ल्या दाँ लö सा-लोँ", "model": "Il y a un canapé et une table devant la fenêtre." },
-      { "fr": "C'est près du métro ?", "en": "Is it near the metro?", "hi": "क्या यह मेट्रो के पास है?", "pron": "सै प्रै दü मे-त्रो", "model": "Oui, la station est à côté de l'épicerie, en face du parc." }
+      { "fr": "Tu habites dans une maison ou un appartement ?", "en": "Do you live in a house or a flat?", "hi": "तुम मकान में रहते हो या फ़्लैट में?", "pron": "त्यू आ-बीत दाँ ज़्यून मे-ज़ों ऊ ऐं ना-पार-त-माँ", "model": "J'habite dans un appartement, au deuxième étage." },
+      { "fr": "Il y a combien de pièces ?", "en": "How many rooms are there?", "hi": "कितने कमरे हैं?", "pron": "ई ल्या कों-ब्यैं द प्येस", "model": "C'est un trois et demie : il y a une chambre, un salon et une cuisine." },
+      { "fr": "Où est ton lit ?", "en": "Where is your bed?", "hi": "तुम्हारा पलंग कहाँ है?", "pron": "ऊ ए तों ली", "model": "Mon lit est dans la chambre, sous la fenêtre." },
+      { "fr": "Qu'est-ce qu'il y a dans le salon ?", "en": "What is there in the living room?", "hi": "बैठक में क्या-क्या है?", "pron": "केस-की-ल्या दाँ ल सा-लों", "model": "Il y a un canapé et une table devant la fenêtre." },
+      { "fr": "C'est près du métro ?", "en": "Is it near the metro?", "hi": "क्या यह मेट्रो के पास है?", "pron": "से प्रे द्यू मे-त्रो", "model": "Oui, la station est à côté de l'épicerie, en face du parc." }
     ],
     "tip": {
       "en": "Use at least four different prepositions. When you say 'à côté de' + masculine noun, remember: à côté du.",
@@ -147,10 +147,10 @@
       "hi": "किराये के लिए — रोज़मों, मॉन्ट्रियाल में 4½\nदूसरी मंज़िल पर सुंदर फ़्लैट, 1 जुलाई से ख़ाली। दो बेडरूम, एक बड़ी बैठक, आधुनिक रसोई और शावर वाला बाथरूम। फ़्लैट के पीछे बालकनी, एक छोटे बग़ीचे के सामने।\nकिराया: 1250 डॉलर महीना। हीटिंग और गर्म पानी शामिल। बिजली शामिल नहीं।\nमेट्रो के पास (स्टेशन पैदल 4 मिनट) और एक प्राइमरी स्कूल के बगल में। किराने की दुकान सामने।\nधूम्रपान न करने वाले। पालतू जानवर नहीं।\nसंपर्क: श्रीमती नादिया रॉय: 438 555-0142 (शाम 5 बजे के बाद)।"
     },
     "questions": [
-      { "q": { "en": "From when is the flat available?" }, "options": ["1 June", "1 July", "Immediately"], "answer": 1, "explanation": { "en": "'libre le 1er juillet'. In Québec, 1 July is the traditional moving day.", "hi": "'libre le 1er juillet'। क्यूबेक में 1 जुलाई पारंपरिक रूप से घर बदलने का दिन है।" }, "kind": "literal", "evidence": "libre le 1er juillet" },
-      { "q": { "en": "Which cost is NOT included in the rent?" }, "options": ["Heating", "Hot water", "Electricity"], "answer": 2, "explanation": { "en": "'Électricité non comprise' — electricity is not included.", "hi": "'Électricité non comprise' — बिजली शामिल नहीं है।" }, "kind": "literal", "evidence": "Électricité non comprise." },
-      { "q": { "en": "Where is the balcony?" }, "options": ["In front of the school", "Behind the flat", "Next to the metro"], "answer": 1, "explanation": { "en": "'Balcon derrière l'appartement' — behind the flat.", "hi": "'Balcon derrière l'appartement' — फ़्लैट के पीछे।" }, "kind": "literal", "evidence": "Balcon derrière l'appartement" },
-      { "q": { "en": "Ravi has a cat and wants to call at 2 p.m. What is the problem?" }, "options": ["Pets are not allowed, and he should call after 5 p.m.", "The flat is too far from the metro", "The flat has only one bedroom"], "answer": 0, "explanation": { "en": "'Pas d'animaux' (no pets) and the phone number is for 'après 17 h' (after 5 p.m.).", "hi": "'Pas d'animaux' (पालतू जानवर नहीं) और फ़ोन 'après 17 h' (शाम 5 बजे के बाद) करना है।" }, "kind": "inference", "evidence": "Pas d'animaux." }
+      { "q": { "en": "From when is the flat available?", "hi": "फ़्लैट कब से उपलब्ध है?" }, "options": ["1 June", "1 July", "Immediately"], "optionsHi": ["1 जून से", "1 जुलाई से", "तुरंत"], "answer": 1, "explanation": { "en": "'libre le 1er juillet'. In Québec, 1 July is the traditional moving day.", "hi": "'libre le 1er juillet'। क्यूबेक में 1 जुलाई पारंपरिक रूप से घर बदलने का दिन है।" }, "kind": "literal", "evidence": "libre le 1er juillet" },
+      { "q": { "en": "Which cost is NOT included in the rent?", "hi": "किराये में कौन-सा खर्च शामिल नहीं है?" }, "options": ["Heating", "Hot water", "Electricity"], "optionsHi": ["हीटिंग", "गर्म पानी", "बिजली"], "answer": 2, "explanation": { "en": "'Électricité non comprise' — electricity is not included.", "hi": "'Électricité non comprise' — बिजली शामिल नहीं है।" }, "kind": "literal", "evidence": "Électricité non comprise." },
+      { "q": { "en": "Where is the balcony?", "hi": "बालकनी कहाँ है?" }, "options": ["In front of the school", "Behind the flat", "Next to the metro"], "optionsHi": ["स्कूल के सामने", "फ़्लैट के पीछे", "मेट्रो के बगल में"], "answer": 1, "explanation": { "en": "'Balcon derrière l'appartement' — behind the flat.", "hi": "'Balcon derrière l'appartement' — फ़्लैट के पीछे।" }, "kind": "literal", "evidence": "Balcon derrière l'appartement" },
+      { "q": { "en": "Ravi has a cat and wants to call at 2 p.m. What is the problem?", "hi": "रवि के पास एक बिल्ली है और वह दोपहर 2 बजे फ़ोन करना चाहता है। समस्या क्या है?" }, "options": ["Pets are not allowed, and he should call after 5 p.m.", "The flat is too far from the metro", "The flat has only one bedroom"], "optionsHi": ["पालतू जानवरों की अनुमति नहीं है, और उसे शाम 5 बजे के बाद फ़ोन करना चाहिए", "फ़्लैट मेट्रो से बहुत दूर है", "फ़्लैट में केवल एक शयनकक्ष है"], "answer": 0, "explanation": { "en": "'Pas d'animaux' (no pets) and the phone number is for 'après 17 h' (after 5 p.m.).", "hi": "'Pas d'animaux' (पालतू जानवर नहीं) और फ़ोन 'après 17 h' (शाम 5 बजे के बाद) करना है।" }, "kind": "inference", "evidence": "Pas d'animaux." }
     ]
   },
   "writing": {
@@ -166,9 +166,9 @@
       { "en": "Use at least four prepositions of place.", "hi": "कम से कम चार स्थानसूचक शब्द इस्तेमाल कीजिए।" }
     ],
     "usefulPhrases": [
-      { "fr": "J'habite dans un appartement / une maison.", "en": "I live in a flat / a house.", "hi": "मैं एक फ़्लैट / मकान में रहता/रहती हूँ।", "pron": "झ़ा-बीत दाँ ज़ैँ ना-पाग़-तö-माँ / ज़üन मै-ज़ोँ" },
-      { "fr": "Il y a … pièces.", "en": "There are … rooms.", "hi": "… कमरे हैं।", "pron": "ई ल्या … प्यैस" },
-      { "fr": "à côté du / de la …", "en": "next to the …", "hi": "… के बगल में", "pron": "आ को-ते दü / दö ला" }
+      { "fr": "J'habite dans un appartement / une maison.", "en": "I live in a flat / a house.", "hi": "मैं एक फ़्लैट / मकान में रहता/रहती हूँ।", "pron": "जा-बीत दाँ ज़ैं ना-पार-त-माँ / ज़्यून मे-ज़ों" },
+      { "fr": "Il y a … pièces.", "en": "There are … rooms.", "hi": "… कमरे हैं।", "pron": "ई ल्या … प्येस" },
+      { "fr": "à côté du / de la …", "en": "next to the …", "hi": "… के बगल में", "pron": "आ को-ते द्यू / द ला" }
     ],
     "model": {
       "fr": "J'habite dans un appartement à Montréal. C'est un trois et demie au deuxième étage. Il y a une chambre, un salon, une petite cuisine et une salle de bains. Dans le salon, il y a un canapé devant la fenêtre. Mon lit est dans la chambre, à côté de l'armoire. La station de métro est près de l'appartement, en face d'une épicerie.",
@@ -183,14 +183,14 @@
   "review": {
     "fromDays": [6, 8, 12, 16, 22],
     "items": [
-      { "fr": "une table, une porte, une clé", "en": "a table, a door, a key", "hi": "एक मेज़, एक दरवाज़ा, एक चाबी", "pron": "üन ताब्ल üन पॉग़्त üन क्ले" },
-      { "fr": "Il y a deux livres sur la table.", "en": "There are two books on the table.", "hi": "मेज़ पर दो किताबें हैं।", "pron": "ई ल्या दö लीव्ग़ सüग़ ला ताब्ल" },
-      { "fr": "C'est mon sac.", "en": "It's my bag.", "hi": "यह मेरा बैग है।", "pron": "सै मोँ साक" },
-      { "fr": "Ce sont mes clés.", "en": "These are my keys.", "hi": "ये मेरी चाबियाँ हैं।", "pron": "सö सोँ मे क्ले" },
-      { "fr": "Je vais à la banque.", "en": "I'm going to the bank.", "hi": "मैं बैंक जा रहा/रही हूँ।", "pron": "झ़ö वै ज़ा ला बाँक" },
-      { "fr": "quatre-vingt-dix", "en": "ninety", "hi": "नब्बे", "pron": "का-त्रö-वैँ-दीस" },
-      { "fr": "Notre maison est grande.", "en": "Our house is big.", "hi": "हमारा घर बड़ा है।", "pron": "नॉत्ग़ मै-ज़ोँ ऐ ग्राँद" },
-      { "fr": "Leurs enfants sont à l'école.", "en": "Their children are at school.", "hi": "उनके बच्चे स्कूल में हैं।", "pron": "लöग़ ज़ाँ-फ़ाँ सोँ ता ले-कॉल" }
+      { "fr": "une table, une porte, une clé", "en": "a table, a door, a key", "hi": "एक मेज़, एक दरवाज़ा, एक चाबी", "pron": "यून ताब्ल यून पॉर्त यून क्ले" },
+      { "fr": "Il y a deux livres sur la table.", "en": "There are two books on the table.", "hi": "मेज़ पर दो किताबें हैं।", "pron": "ई ल्या द लीव्र स्यूर ला ताब्ल" },
+      { "fr": "C'est mon sac.", "en": "It's my bag.", "hi": "यह मेरा बैग है।", "pron": "से मों साक" },
+      { "fr": "Ce sont mes clés.", "en": "These are my keys.", "hi": "ये मेरी चाबियाँ हैं।", "pron": "स सों मे क्ले" },
+      { "fr": "Je vais à la banque.", "en": "I'm going to the bank.", "hi": "मैं बैंक जा रहा/रही हूँ।", "pron": "ज वे ज़ा ला बाँक" },
+      { "fr": "quatre-vingt-dix", "en": "ninety", "hi": "नब्बे", "pron": "का-त्र-वैं-दीस" },
+      { "fr": "Notre maison est grande.", "en": "Our house is big.", "hi": "हमारा घर बड़ा है।", "pron": "नॉत्र मे-ज़ों ए ग्राँद" },
+      { "fr": "Leurs enfants sont à l'école.", "en": "Their children are at school.", "hi": "उनके बच्चे स्कूल में हैं।", "pron": "लर ज़ाँ-फ़ाँ सों ता ले-कॉल" }
     ]
   },
   "assessment": [
@@ -200,6 +200,6 @@
     { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "Is heating included?", "hi": "क्या हीटिंग शामिल है?" }, "answer": "Le chauffage est compris ?", "accept": ["Est-ce que le chauffage est compris ?", "le chauffage est compris ?", "Le chauffage est compris?"], "explanation": { "en": "Intonation question: Le chauffage est compris ?", "hi": "उतार-चढ़ाव वाला प्रश्न: Le chauffage est compris ?" } },
     { "type": "fill", "prompt": { "en": "Complete: The grocery store is opposite the school.", "hi": "पूरा कीजिए: किराने की दुकान स्कूल के ठीक सामने है।" }, "sentence": "L'épicerie est en ___ de l'école.", "answer": "face", "accept": [], "explanation": { "en": "en face de = opposite.", "hi": "en face de = ठीक सामने।" } },
     { "type": "reorder", "prompt": { "en": "Put the words in order: There is a sofa in the living room.", "hi": "शब्दों को सही क्रम में रखिए: बैठक में एक सोफ़ा है।" }, "words": ["un", "Il", "canapé", "y", "dans", "a", "le", "salon", "."], "answer": "Il y a un canapé dans le salon.", "explanation": { "en": "Il y a + thing + place.", "hi": "Il y a + चीज़ + जगह।" } },
-    { "type": "mcq", "prompt": { "en": "Which word has the ü sound (lips rounded, tongue as for ई)?", "hi": "किस शब्द में ü की आवाज़ है (होंठ गोल, जीभ ई जैसी)?" }, "options": ["sous", "sur", "douche"], "answer": 1, "explanation": { "en": "sur = सüग़. sous and douche have ऊ.", "hi": "sur = सüग़। sous और douche में ऊ है।" } }
+    { "type": "mcq", "prompt": { "en": "Which word has the यू sound (lips rounded, tongue as for ई)?", "hi": "किस शब्द में यू की आवाज़ है (होंठ गोल, जीभ ई जैसी)?" }, "options": ["sous", "sur", "douche"], "answer": 1, "explanation": { "en": "sur = स्यूर. sous and douche have ऊ.", "hi": "sur = स्यूर। sous और douche में ऊ है।" } }
   ]
 }

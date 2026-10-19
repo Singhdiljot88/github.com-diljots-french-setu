@@ -16,26 +16,26 @@
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "le rendez-vous", "en": "appointment / meeting", "hi": "अपॉइंटमेंट / मुलाक़ात", "pron": "लö ग़ाँ-दे-वू", "ipa": "lə ʁɑ̃devu", "pos": "noun", "gender": "m", "lemma": "rendez-vous", "note": { "en": "Same form in the plural: des rendez-vous.", "hi": "बहुवचन में भी यही रूप: des rendez-vous।" } },
-    { "fr": "prendre rendez-vous", "en": "to make an appointment", "hi": "अपॉइंटमेंट लेना", "pron": "प्राँद्ग़ ग़ाँ-दे-वू", "ipa": "pʁɑ̃dʁ ʁɑ̃devu", "pos": "phrase", "lemma": "rendez-vous", "note": { "en": "No article: prendre rendez-vous avec le médecin.", "hi": "कोई आर्टिकल नहीं: prendre rendez-vous avec le médecin।" } },
-    { "fr": "disponible", "en": "available / free", "hi": "ख़ाली / उपलब्ध", "pron": "दीस-पो-नीब्ल", "ipa": "dispɔnibl", "pos": "adjective" },
-    { "fr": "annuler", "en": "to cancel", "hi": "रद्द करना", "pron": "आ-नü-ले", "ipa": "anyle", "pos": "verb" },
-    { "fr": "changer", "en": "to change", "hi": "बदलना", "pron": "शाँ-झ़े", "ipa": "ʃɑ̃ʒe", "pos": "verb" },
-    { "fr": "confirmer", "en": "to confirm", "hi": "पक्का करना / पुष्टि करना", "pron": "कोँ-फ़ीग़-मे", "ipa": "kɔ̃fiʁme", "pos": "verb" },
+    { "fr": "le rendez-vous", "en": "appointment / meeting", "hi": "अपॉइंटमेंट / मुलाक़ात", "pron": "ल राँ-दे-वू", "ipa": "lə ʁɑ̃devu", "pos": "noun", "gender": "m", "lemma": "rendez-vous", "note": { "en": "Same form in the plural: des rendez-vous.", "hi": "बहुवचन में भी यही रूप: des rendez-vous।" } },
+    { "fr": "prendre rendez-vous", "en": "to make an appointment", "hi": "अपॉइंटमेंट लेना", "pron": "प्राँद्र राँ-दे-वू", "ipa": "pʁɑ̃dʁ ʁɑ̃devu", "pos": "phrase", "lemma": "rendez-vous", "note": { "en": "No article: prendre rendez-vous avec le médecin.", "hi": "कोई आर्टिकल नहीं: prendre rendez-vous avec le médecin।" } },
+    { "fr": "disponible", "en": "available / free", "hi": "ख़ाली / उपलब्ध", "pron": "दीस-पॉ-नीब्ल", "ipa": "dispɔnibl", "pos": "adjective" },
+    { "fr": "annuler", "en": "to cancel", "hi": "रद्द करना", "pron": "आ-न्यू-ले", "ipa": "anyle", "pos": "verb" },
+    { "fr": "changer", "en": "to change", "hi": "बदलना", "pron": "शाँ-जे", "ipa": "ʃɑ̃ʒe", "pos": "verb" },
+    { "fr": "confirmer", "en": "to confirm", "hi": "पक्का करना / पुष्टि करना", "pron": "कों-फ़ीर-मे", "ipa": "kɔ̃fiʁme", "pos": "verb" },
     { "fr": "téléphoner (à)", "en": "to phone / to call", "hi": "फ़ोन करना", "pron": "ते-ले-फ़ो-ने", "ipa": "telefɔne", "pos": "verb", "lemma": "téléphoner", "note": { "en": "téléphoner à quelqu'un — like Hindi 'किसी को फ़ोन करना'.", "hi": "téléphoner à quelqu'un — हिंदी 'किसी को फ़ोन करना' की तरह।" } },
-    { "fr": "demain", "en": "tomorrow", "hi": "कल (आने वाला)", "pron": "द्ö-मैँ", "ipa": "dəmɛ̃", "pos": "adverb", "note": { "en": "Hindi कल means both yesterday and tomorrow; French has two words: hier (yesterday) and demain (tomorrow).", "hi": "हिंदी में 'कल' का मतलब बीता हुआ और आने वाला दोनों है; फ़्रेंच में दो शब्द हैं: hier (बीता कल) और demain (आने वाला कल)।" } },
-    { "fr": "après-demain", "en": "the day after tomorrow", "hi": "परसों (आने वाला)", "pron": "आ-प्रै-द्ö-मैँ", "ipa": "apʁɛdəmɛ̃", "pos": "adverb" },
-    { "fr": "la semaine prochaine", "en": "next week", "hi": "अगले हफ़्ते", "pron": "ला स्ö-मैन प्रो-शैन", "ipa": "la səmɛn pʁɔʃɛn", "pos": "phrase", "lemma": "prochain" },
-    { "fr": "le mois prochain", "en": "next month", "hi": "अगले महीने", "pron": "लö म्वा प्रो-शैँ", "ipa": "lə mwa pʁɔʃɛ̃", "pos": "phrase", "lemma": "prochain" },
-    { "fr": "le / la dentiste", "en": "dentist", "hi": "दाँतों का डॉक्टर", "pron": "लö / ला दाँ-तीस्त", "ipa": "dɑ̃tist", "pos": "noun", "gender": "mf", "lemma": "dentiste" }
+    { "fr": "demain", "en": "tomorrow", "hi": "कल (आने वाला)", "pron": "द-मैं", "ipa": "dəmɛ̃", "pos": "adverb", "note": { "en": "Hindi कल means both yesterday and tomorrow; French has two words: hier (yesterday) and demain (tomorrow).", "hi": "हिंदी में 'कल' का मतलब बीता हुआ और आने वाला दोनों है; फ़्रेंच में दो शब्द हैं: hier (बीता कल) और demain (आने वाला कल)।" } },
+    { "fr": "après-demain", "en": "the day after tomorrow", "hi": "परसों (आने वाला)", "pron": "आ-प्रेद-मैं", "ipa": "apʁɛdəmɛ̃", "pos": "adverb" },
+    { "fr": "la semaine prochaine", "en": "next week", "hi": "अगले हफ़्ते", "pron": "ला स-मेन प्रो-शेन", "ipa": "la səmɛn pʁɔʃɛn", "pos": "phrase", "lemma": "prochain" },
+    { "fr": "le mois prochain", "en": "next month", "hi": "अगले महीने", "pron": "ल म्वा प्रो-शैं", "ipa": "lə mwa pʁɔʃɛ̃", "pos": "phrase", "lemma": "prochain" },
+    { "fr": "le / la dentiste", "en": "dentist", "hi": "दाँतों का डॉक्टर", "pron": "ल / ला दाँ-तीस्त", "ipa": "dɑ̃tist", "pos": "noun", "gender": "mf", "lemma": "dentiste" }
   ],
   "phrases": [
-    { "fr": "Je voudrais prendre rendez-vous.", "en": "I'd like to make an appointment.", "hi": "मैं एक अपॉइंटमेंट लेना चाहूँगा/चाहूँगी।", "pron": "झ़ö वू-द्रै प्राँद्ग़ ग़ाँ-दे-वू" },
-    { "fr": "C'est à quel nom ?", "en": "What name is it under?", "hi": "किस नाम से?", "pron": "सै ता कैल नोँ" },
-    { "fr": "Vous êtes disponible jeudi ?", "en": "Are you available on Thursday?", "hi": "क्या आप गुरुवार को ख़ाली हैं?", "pron": "वू ज़ैत दीस-पो-नीब्ल झ़ö-दी" },
+    { "fr": "Je voudrais prendre rendez-vous.", "en": "I'd like to make an appointment.", "hi": "मैं एक अपॉइंटमेंट लेना चाहूँगा/चाहूँगी।", "pron": "ज वू-द्रे प्राँद्र राँ-दे-वू" },
+    { "fr": "C'est à quel nom ?", "en": "What name is it under?", "hi": "किस नाम से?", "pron": "से ता केल नों" },
+    { "fr": "Vous êtes disponible jeudi ?", "en": "Are you available on Thursday?", "hi": "क्या आप गुरुवार को ख़ाली हैं?", "pron": "वू ज़ेत दीस-पो-नीब्ल ज-दी" },
     { "fr": "Ça vous va ?", "en": "Does that suit you?", "hi": "क्या यह आपके लिए ठीक है?", "pron": "सा वू वा" },
-    { "fr": "Est-ce que je peux changer mon rendez-vous ?", "en": "Can I change my appointment?", "hi": "क्या मैं अपना अपॉइंटमेंट बदल सकता/सकती हूँ?", "pron": "ऐस-कö झ़ö पö शाँ-झ़े मोँ ग़ाँ-दे-वू" },
-    { "fr": "Je dois annuler mon rendez-vous.", "en": "I have to cancel my appointment.", "hi": "मुझे अपना अपॉइंटमेंट रद्द करना है।", "pron": "झ़ö द्वा आ-नü-ले मोँ ग़ाँ-दे-वू" }
+    { "fr": "Est-ce que je peux changer mon rendez-vous ?", "en": "Can I change my appointment?", "hi": "क्या मैं अपना अपॉइंटमेंट बदल सकता/सकती हूँ?", "pron": "एस-क ज प शाँ-जे मों राँ-दे-वू" },
+    { "fr": "Je dois annuler mon rendez-vous.", "en": "I have to cancel my appointment.", "hi": "मुझे अपना अपॉइंटमेंट रद्द करना है।", "pron": "ज द्वा आ-न्यू-ले मों राँ-दे-वू" }
   ],
   "grammar": {
     "title": { "en": "The futur proche: aller + infinitive", "hi": "निकट भविष्य (futur proche): aller + मूल रूप" },
@@ -48,12 +48,12 @@
       "hi": "यह बिल्कुल अंग्रेज़ी 'I'm going to work' जैसा है — aller = 'going to'। हिंदी में भी इसका क़रीबी रूप है: 'मैं काम करने वाला हूँ'। हिंदी का 'कल' एक जाल है: इसका मतलब बीता कल और आने वाला कल दोनों है। फ़्रेंच इसे बाँटती है: hier और demain। तो 'कल मैं डॉक्टर के पास जाऊँगा' = Demain, je vais aller chez le médecin।"
     },
     "examples": [
-      { "fr": "Demain, je vais prendre rendez-vous chez le dentiste.", "en": "Tomorrow I'm going to make an appointment at the dentist's.", "hi": "कल मैं दाँतों के डॉक्टर का अपॉइंटमेंट लूँगा/लूँगी।", "pron": "द्ö-मैँ झ़ö वै प्राँद्ग़ ग़ाँ-दे-वू शे लö दाँ-तीस्त" },
-      { "fr": "Nous allons visiter Québec le mois prochain.", "en": "We're going to visit Québec City next month.", "hi": "हम अगले महीने क्यूबेक सिटी घूमने जाएँगे।", "pron": "नू ज़ा-लोँ वी-ज़ी-ते के-बैक लö म्वा प्रो-शैँ" },
-      { "fr": "Il va neiger ce soir.", "en": "It's going to snow this evening.", "hi": "आज शाम बर्फ़ गिरने वाली है।", "pron": "ईल वा नै-झ़े स्ö स्वाग़" },
-      { "fr": "Tu vas venir à la fête samedi ?", "en": "Are you going to come to the party on Saturday?", "hi": "क्या तुम शनिवार को पार्टी में आओगे?", "pron": "तü वा व्ö-नीग़ आ ला फ़ैत सम-दी" },
-      { "fr": "Elles ne vont pas travailler la semaine prochaine.", "en": "They aren't going to work next week.", "hi": "वे अगले हफ़्ते काम नहीं करेंगी।", "pron": "ऐल न्ö वोँ पा त्रा-वा-ये ला स्ö-मैन प्रो-शैन" },
-      { "fr": "Je vais aller à la pharmacie après le travail.", "en": "I'm going to go to the pharmacy after work.", "hi": "मैं काम के बाद फ़ार्मेसी जाऊँगा/जाऊँगी।", "pron": "झ़ö वै ज़ा-ले आ ला फ़ाग़-मा-सी आ-प्रै लö त्रा-वाय" }
+      { "fr": "Demain, je vais prendre rendez-vous chez le dentiste.", "en": "Tomorrow I'm going to make an appointment at the dentist's.", "hi": "कल मैं दाँतों के डॉक्टर का अपॉइंटमेंट लूँगा/लूँगी।", "pron": "द-मैं ज वे प्राँद्र राँ-दे-वू शे ल दाँ-तीस्त" },
+      { "fr": "Nous allons visiter Québec le mois prochain.", "en": "We're going to visit Québec City next month.", "hi": "हम अगले महीने क्यूबेक सिटी घूमने जाएँगे।", "pron": "नू ज़ा-लों वी-ज़ी-ते के-बेक ल म्वा प्रो-शैं" },
+      { "fr": "Il va neiger ce soir.", "en": "It's going to snow this evening.", "hi": "आज शाम बर्फ़ गिरने वाली है।", "pron": "ईल वा ने-जे स स्वार" },
+      { "fr": "Tu vas venir à la fête samedi ?", "en": "Are you going to come to the party on Saturday?", "hi": "क्या तुम शनिवार को पार्टी में आओगे?", "pron": "त्यू वा व-नीर आ ला फ़ेत सम-दी" },
+      { "fr": "Elles ne vont pas travailler la semaine prochaine.", "en": "They aren't going to work next week.", "hi": "वे अगले हफ़्ते काम नहीं करेंगी।", "pron": "एल न वों पा त्रा-वा-ये ला स-मेन प्रो-शेन" },
+      { "fr": "Je vais aller à la pharmacie après le travail.", "en": "I'm going to go to the pharmacy after work.", "hi": "मैं काम के बाद फ़ार्मेसी जाऊँगा/जाऊँगी।", "pron": "ज वे ज़ा-ले आ ला फ़ार-मा-सी आ-प्रे ल त्रा-वाय" }
     ],
     "pitfalls": [
       { "en": "The second verb stays in the infinitive: not 'je vais travaille' but 'je vais travailler'.", "hi": "दूसरी क्रिया मूल रूप में रहती है: 'je vais travaille' नहीं, 'je vais travailler'।" },
@@ -64,15 +64,15 @@
   "pronunciation": {
     "focus": "Enchaînement and liaison in je vais aller",
     "tip": {
-      "en": "The futur proche joins words smoothly. The silent s of vais / allons / allez becomes z before a vowel: je vais aller = झ़ö वै ज़ा-ले, nous allons arriver = नू ज़ा-लोँ ज़ा-ग़ी-वे. The t of vont is heard before a vowel: ils vont appeler = ईल वोँ ता-प्ले. Say each as one chain.",
-      "hi": "निकट भविष्य में शब्द आपस में सहज रूप से जुड़ते हैं। vais / allons / allez का मूक s स्वर से पहले ज़ बन जाता है: je vais aller = झ़ö वै ज़ा-ले, nous allons arriver = नू ज़ा-लोँ ज़ा-ग़ी-वे। vont का t स्वर से पहले सुनाई देता है: ils vont appeler = ईल वोँ ता-प्ले। हर एक को एक लड़ी की तरह बोलिए।"
+      "en": "The futur proche joins words smoothly. The silent s of vais / allons / allez becomes z before a vowel: je vais aller = ज वे ज़ा-ले, nous allons arriver = नू ज़ा-लों ज़ा-री-वे. The t of vont is heard before a vowel: ils vont appeler = ईल वों ता-प्ले. Say each as one chain.",
+      "hi": "निकट भविष्य में शब्द आपस में सहज रूप से जुड़ते हैं। vais / allons / allez का मूक s स्वर से पहले ज़ बन जाता है: je vais aller = ज वे ज़ा-ले, nous allons arriver = नू ज़ा-लों ज़ा-री-वे। vont का t स्वर से पहले सुनाई देता है: ils vont appeler = ईल वों ता-प्ले। हर एक को एक लड़ी की तरह बोलिए।"
     },
     "words": [
-      { "fr": "je vais aller", "en": "I'm going to go", "hi": "मैं जाने वाला/वाली हूँ", "pron": "झ़ö वै ज़ा-ले", "ipa": "ʒə vɛ zale" },
-      { "fr": "nous allons arriver", "en": "we're going to arrive", "hi": "हम पहुँचने वाले हैं", "pron": "नू ज़ा-लोँ ज़ा-ग़ी-वे", "ipa": "nu zalɔ̃ zaʁive" },
-      { "fr": "vous allez être", "en": "you're going to be", "hi": "आप होने वाले हैं", "pron": "वू ज़ा-ले ज़ैत्ग़", "ipa": "vu zale zɛtʁ" },
-      { "fr": "ils vont appeler", "en": "they're going to call", "hi": "वे फ़ोन करने वाले हैं", "pron": "ईल वोँ ता-प्ले", "ipa": "il vɔ̃ taple" },
-      { "fr": "il va annuler", "en": "he's going to cancel", "hi": "वह रद्द करने वाला है", "pron": "ईल वा आ-नü-ले", "ipa": "il va anyle", "note": { "en": "No consonant to link: just glide from वा to आ.", "hi": "जोड़ने के लिए कोई व्यंजन नहीं: बस वा से आ पर सरकिए।" } }
+      { "fr": "je vais aller", "en": "I'm going to go", "hi": "मैं जाने वाला/वाली हूँ", "pron": "ज वे ज़ा-ले", "ipa": "ʒə vɛ zale" },
+      { "fr": "nous allons arriver", "en": "we're going to arrive", "hi": "हम पहुँचने वाले हैं", "pron": "नू ज़ा-लों ज़ा-री-वे", "ipa": "nu zalɔ̃ zaʁive" },
+      { "fr": "vous allez être", "en": "you're going to be", "hi": "आप होने वाले हैं", "pron": "वू ज़ा-ले ज़ेत्र", "ipa": "vu zale zɛtʁ" },
+      { "fr": "ils vont appeler", "en": "they're going to call", "hi": "वे फ़ोन करने वाले हैं", "pron": "ईल वों ता-प्ले", "ipa": "il vɔ̃ taple" },
+      { "fr": "il va annuler", "en": "he's going to cancel", "hi": "वह रद्द करने वाला है", "pron": "ईल वा आ-न्यू-ले", "ipa": "il va anyle", "note": { "en": "No consonant to link: just glide from वा to आ.", "hi": "जोड़ने के लिए कोई व्यंजन नहीं: बस वा से आ पर सरकिए।" } }
     ]
   },
   "listening": {
@@ -98,11 +98,11 @@
       { "speaker": "Priya", "voice": "f1", "fr": "D'accord. Merci beaucoup, au revoir !", "en": "OK. Thank you very much, goodbye!", "hi": "ठीक है। बहुत धन्यवाद, नमस्ते!" }
     ],
     "questions": [
-      { "q": { "en": "Why does Priya call the clinic?" }, "options": ["To cancel an appointment", "She has toothache and wants an appointment", "To ask for the address"], "answer": 1, "explanation": { "en": "'Je voudrais prendre rendez-vous … J'ai mal aux dents.'", "hi": "'Je voudrais prendre rendez-vous … J'ai mal aux dents.' — दाँत में दर्द, अपॉइंटमेंट।" }, "kind": "gist", "evidence": "J'ai mal aux dents." },
-      { "q": { "en": "Why doesn't Thursday at 3 p.m. work for Priya?" }, "options": ["She is working until 5 p.m.", "The dentist is not available", "She has a French class"], "answer": 0, "explanation": { "en": "'Jeudi, je travaille. Je vais finir à dix-sept heures.'", "hi": "'Jeudi, je travaille. Je vais finir à dix-sept heures.' — वह पाँच बजे तक काम करती है।" }, "kind": "inference", "evidence": "Jeudi, je travaille. Je vais finir à dix-sept heures." },
-      { "q": { "en": "When is the appointment?" }, "options": ["Thursday at 3 p.m.", "Thursday at 6 p.m.", "Friday at 6 p.m."], "answer": 2, "explanation": { "en": "'vendredi, il y a une place à dix-huit heures' — 'parfait !'", "hi": "शुक्रवार शाम छह बजे — 'parfait !'" }, "kind": "literal", "evidence": "Vendredi à dix-huit heures, parfait !" },
-      { "q": { "en": "How will Priya get a confirmation?" }, "options": ["By text message today", "By email tomorrow", "By letter"], "answer": 1, "explanation": { "en": "'Vous allez recevoir un courriel de confirmation demain.'", "hi": "'Vous allez recevoir un courriel de confirmation demain.' — कल ईमेल।" }, "kind": "literal", "evidence": "Vous allez recevoir un courriel de confirmation demain." },
-      { "q": { "en": "What happens if she cancels less than 24 hours before?" }, "options": ["Nothing", "She pays $50", "She loses her health card"], "answer": 1, "explanation": { "en": "'Sinon, vous allez payer cinquante dollars.'", "hi": "'Sinon, vous allez payer cinquante dollars.' — पचास डॉलर।" }, "kind": "inference", "evidence": "Sinon, vous allez payer cinquante dollars." }
+      { "q": { "en": "Why does Priya call the clinic?", "hi": "प्रिया क्लिनिक को फ़ोन क्यों करती है?" }, "options": ["To cancel an appointment", "She has toothache and wants an appointment", "To ask for the address"], "optionsHi": ["अपॉइंटमेंट रद्द करने के लिए", "उसके दाँत में दर्द है और वह अपॉइंटमेंट चाहती है", "पता पूछने के लिए"], "answer": 1, "explanation": { "en": "'Je voudrais prendre rendez-vous … J'ai mal aux dents.'", "hi": "'Je voudrais prendre rendez-vous … J'ai mal aux dents.' — दाँत में दर्द, अपॉइंटमेंट।" }, "kind": "gist", "evidence": "J'ai mal aux dents." },
+      { "q": { "en": "Why doesn't Thursday at 3 p.m. work for Priya?", "hi": "गुरुवार को दोपहर 3 बजे का समय प्रिया के लिए ठीक क्यों नहीं है?" }, "options": ["She is working until 5 p.m.", "The dentist is not available", "She has a French class"], "optionsHi": ["वह शाम 5 बजे तक काम कर रही है", "दंतचिकित्सक उपलब्ध नहीं हैं", "उसकी फ़्रेंच की कक्षा है"], "answer": 0, "explanation": { "en": "'Jeudi, je travaille. Je vais finir à dix-sept heures.'", "hi": "'Jeudi, je travaille. Je vais finir à dix-sept heures.' — वह पाँच बजे तक काम करती है।" }, "kind": "inference", "evidence": "Jeudi, je travaille. Je vais finir à dix-sept heures." },
+      { "q": { "en": "When is the appointment?", "hi": "अपॉइंटमेंट कब है?" }, "options": ["Thursday at 3 p.m.", "Thursday at 6 p.m.", "Friday at 6 p.m."], "optionsHi": ["गुरुवार को दोपहर 3 बजे", "गुरुवार को शाम 6 बजे", "शुक्रवार को शाम 6 बजे"], "answer": 2, "explanation": { "en": "'vendredi, il y a une place à dix-huit heures' — 'parfait !'", "hi": "शुक्रवार शाम छह बजे — 'parfait !'" }, "kind": "literal", "evidence": "Vendredi à dix-huit heures, parfait !" },
+      { "q": { "en": "How will Priya get a confirmation?", "hi": "प्रिया को पुष्टि कैसे मिलेगी?" }, "options": ["By text message today", "By email tomorrow", "By letter"], "optionsHi": ["आज टेक्स्ट संदेश से", "कल ईमेल से", "पत्र से"], "answer": 1, "explanation": { "en": "'Vous allez recevoir un courriel de confirmation demain.'", "hi": "'Vous allez recevoir un courriel de confirmation demain.' — कल ईमेल।" }, "kind": "literal", "evidence": "Vous allez recevoir un courriel de confirmation demain." },
+      { "q": { "en": "What happens if she cancels less than 24 hours before?", "hi": "अगर वह 24 घंटे से कम समय पहले रद्द करे तो क्या होता है?" }, "options": ["Nothing", "She pays $50", "She loses her health card"], "optionsHi": ["कुछ नहीं", "उसे $50 देने होंगे", "उसका स्वास्थ्य कार्ड ज़ब्त हो जाता है"], "answer": 1, "explanation": { "en": "'Sinon, vous allez payer cinquante dollars.'", "hi": "'Sinon, vous allez payer cinquante dollars.' — पचास डॉलर।" }, "kind": "inference", "evidence": "Sinon, vous allez payer cinquante dollars." }
     ],
     "dictation": ["Je voudrais prendre rendez-vous.", "C'est à quel nom ?", "Vous allez recevoir un courriel."],
     "gapFill": { "text": "Jeudi, je travaille. Je ___ finir à dix-sept heures. Vous ___ recevoir un courriel de confirmation demain.", "answers": ["vais", "allez"] }
@@ -114,15 +114,15 @@
       "hi": "अपॉइंटमेंट के लिए एक क्लिनिक को फ़ोन कीजिए। अपना नाम बताइए और स्पेल कीजिए, पहला समय मना कीजिए और निकट भविष्य से कारण बताइए, दूसरा समय मान लीजिए, फिर पूछिए कि रद्द कैसे करें।"
     },
     "prompts": [
-      { "fr": "Clinique Saint-Denis, bonjour !", "en": "Saint-Denis Clinic, hello!", "hi": "सां-देनी क्लिनिक, नमस्ते!", "pron": "क्ली-नीक सैँ-दö-नी बोँ-झ़ूग़", "model": "Bonjour ! Je voudrais prendre rendez-vous avec un médecin, s'il vous plaît." },
-      { "fr": "C'est à quel nom ?", "en": "What name is it under?", "hi": "किस नाम से?", "pron": "सै ता कैल नोँ", "model": "Singh, S-I-N-G-H. Arjun Singh." },
-      { "fr": "Lundi à neuf heures, ça vous va ?", "en": "Monday at nine, does that suit you?", "hi": "सोमवार नौ बजे, ठीक है?", "pron": "लैँ-दी आ नö वöग़ सा वू वा", "model": "Lundi matin, je vais être au travail. Vous êtes disponible le soir ?" },
-      { "fr": "Mardi à dix-huit heures ?", "en": "Tuesday at 6 p.m.?", "hi": "मंगलवार शाम छह बजे?", "pron": "माग़-दी आ दी-ज़üई तöग़", "model": "Oui, mardi à dix-huit heures, c'est parfait." },
-      { "fr": "Très bien, c'est noté.", "en": "Very good, it's booked.", "hi": "बहुत अच्छा, नोट कर लिया।", "pron": "त्रै ब्यैँ सै नो-ते", "model": "Merci. Et si je dois changer mon rendez-vous, je dois téléphoner quand ?" }
+      { "fr": "Clinique Saint-Denis, bonjour !", "en": "Saint-Denis Clinic, hello!", "hi": "सां-देनी क्लिनिक, नमस्ते!", "pron": "क्ली-नीक सैं-द-नी बों-जूर", "model": "Bonjour ! Je voudrais prendre rendez-vous avec un médecin, s'il vous plaît." },
+      { "fr": "C'est à quel nom ?", "en": "What name is it under?", "hi": "किस नाम से?", "pron": "से ता केल नों", "model": "Singh, S-I-N-G-H. Arjun Singh." },
+      { "fr": "Lundi à neuf heures, ça vous va ?", "en": "Monday at nine, does that suit you?", "hi": "सोमवार नौ बजे, ठीक है?", "pron": "लैं-दी आ न वर सा वू वा", "model": "Lundi matin, je vais être au travail. Vous êtes disponible le soir ?" },
+      { "fr": "Mardi à dix-huit heures ?", "en": "Tuesday at 6 p.m.?", "hi": "मंगलवार शाम छह बजे?", "pron": "मार-दी आ दी-ज़्यूई तर", "model": "Oui, mardi à dix-huit heures, c'est parfait." },
+      { "fr": "Très bien, c'est noté.", "en": "Very good, it's booked.", "hi": "बहुत अच्छा, नोट कर लिया।", "pron": "त्रे ब्यैं से नो-ते", "model": "Merci. Et si je dois changer mon rendez-vous, je dois téléphoner quand ?" }
     ],
     "tip": {
-      "en": "Spell your name with French letter names (Day 2): H is 'ash' (आश), I is 'i' (ई), G is झ़े. Practise your own name before the call.",
-      "hi": "अपना नाम फ़्रेंच अक्षरों के नाम से स्पेल कीजिए (दिन 2): H 'आश' है, I 'ई', G झ़े। फ़ोन से पहले अपने नाम का अभ्यास कीजिए।"
+      "en": "Spell your name with French letter names (Day 2): H is 'ash' (आश), I is 'i' (ई), G is जे. Practise your own name before the call.",
+      "hi": "अपना नाम फ़्रेंच अक्षरों के नाम से स्पेल कीजिए (दिन 2): H 'आश' है, I 'ई', G जे। फ़ोन से पहले अपने नाम का अभ्यास कीजिए।"
     },
     "scenario": {
       "setting": { "en": "A phone call to a medical clinic in Montréal.", "hi": "मॉन्ट्रियाल के एक मेडिकल क्लिनिक को फ़ोन।" },
@@ -144,10 +144,10 @@
       "hi": "विषय: आपके अपॉइंटमेंट की पुष्टि\nनमस्ते श्रीमती शर्मा,\nहम शुक्रवार 14 नवंबर, शाम 6 बजे, दंत-चिकित्सक डॉक्टर एलेन लांबैर के साथ आपके अपॉइंटमेंट की पुष्टि करते हैं।\nपता: पार्क डेंटल क्लिनिक, 3200, एवेन्यू दु पार्क, कमरा 210 (दूसरी मंज़िल)।\nकृपया अपॉइंटमेंट से दस मिनट पहले आइए: आपको रिसेप्शन पर एक स्वास्थ्य फ़ॉर्म भरना होगा। अपना बीमा कार्ड और एक पहचान पत्र लाना न भूलिए।\nअपॉइंटमेंट बदलने या रद्द करने के लिए कम से कम 24 घंटे पहले 514 555-0133 पर फ़ोन कीजिए। देर से रद्द करने पर 50 डॉलर शुल्क लगेगा।\nइमारत के पीछे पार्किंग मुफ़्त है।\nजल्द मिलते हैं!\nपार्क डेंटल क्लिनिक की टीम"
     },
     "questions": [
-      { "q": { "en": "On which floor is the clinic?" }, "options": ["Ground floor", "Second floor", "Tenth floor"], "answer": 1, "explanation": { "en": "'bureau 210 (deuxième étage)'.", "hi": "'bureau 210 (deuxième étage)' — दूसरी मंज़िल।" }, "kind": "literal", "evidence": "bureau 210 (deuxième étage)" },
-      { "q": { "en": "At what time should Priya arrive?" }, "options": ["5:50 p.m.", "6:00 p.m.", "6:10 p.m."], "answer": 0, "explanation": { "en": "The appointment is at 6 p.m. and she must arrive ten minutes before.", "hi": "अपॉइंटमेंट शाम 6 बजे है और उसे दस मिनट पहले आना है।" }, "kind": "inference", "evidence": "Merci d'arriver dix minutes avant votre rendez-vous" },
-      { "q": { "en": "What must she bring?" }, "options": ["Her insurance card and ID", "A completed health form", "$50"], "answer": 0, "explanation": { "en": "'N'oubliez pas votre carte d'assurance et une pièce d'identité.' The form is filled in at reception.", "hi": "बीमा कार्ड और पहचान पत्र। फ़ॉर्म रिसेप्शन पर भरा जाएगा।" }, "kind": "literal", "evidence": "N'oubliez pas votre carte d'assurance et une pièce d'identité." },
-      { "q": { "en": "Priya wants to cancel on Friday morning. What will happen?" }, "options": ["Nothing, it's free", "She will pay a $50 fee", "She must come anyway"], "answer": 1, "explanation": { "en": "Less than 24 hours before: 'Des frais de 50 $ s'appliquent pour les annulations tardives.'", "hi": "24 घंटे से कम पहले: देर से रद्द करने पर 50 डॉलर।" }, "kind": "inference", "evidence": "Des frais de 50 $ s'appliquent pour les annulations tardives." }
+      { "q": { "en": "On which floor is the clinic?", "hi": "क्लिनिक किस मंज़िल पर है?" }, "options": ["Ground floor", "Second floor", "Tenth floor"], "optionsHi": ["भूतल पर", "दूसरी मंज़िल पर", "दसवीं मंज़िल पर"], "answer": 1, "explanation": { "en": "'bureau 210 (deuxième étage)'.", "hi": "'bureau 210 (deuxième étage)' — दूसरी मंज़िल।" }, "kind": "literal", "evidence": "bureau 210 (deuxième étage)" },
+      { "q": { "en": "At what time should Priya arrive?", "hi": "प्रिया को कितने बजे पहुँचना चाहिए?" }, "options": ["5:50 p.m.", "6:00 p.m.", "6:10 p.m."], "answer": 0, "explanation": { "en": "The appointment is at 6 p.m. and she must arrive ten minutes before.", "hi": "अपॉइंटमेंट शाम 6 बजे है और उसे दस मिनट पहले आना है।" }, "kind": "inference", "evidence": "Merci d'arriver dix minutes avant votre rendez-vous" },
+      { "q": { "en": "What must she bring?", "hi": "उसे क्या लाना होगा?" }, "options": ["Her insurance card and ID", "A completed health form", "$50"], "optionsHi": ["अपना बीमा कार्ड और पहचान-पत्र", "भरा हुआ स्वास्थ्य फ़ॉर्म", "$50"], "answer": 0, "explanation": { "en": "'N'oubliez pas votre carte d'assurance et une pièce d'identité.' The form is filled in at reception.", "hi": "बीमा कार्ड और पहचान पत्र। फ़ॉर्म रिसेप्शन पर भरा जाएगा।" }, "kind": "literal", "evidence": "N'oubliez pas votre carte d'assurance et une pièce d'identité." },
+      { "q": { "en": "Priya wants to cancel on Friday morning. What will happen?", "hi": "प्रिया शुक्रवार की सुबह रद्द करना चाहती है। क्या होगा?" }, "options": ["Nothing, it's free", "She will pay a $50 fee", "She must come anyway"], "optionsHi": ["कुछ नहीं, यह मुफ़्त है", "उसे $50 का शुल्क देना होगा", "उसे फिर भी आना होगा"], "answer": 1, "explanation": { "en": "Less than 24 hours before: 'Des frais de 50 $ s'appliquent pour les annulations tardives.'", "hi": "24 घंटे से कम पहले: देर से रद्द करने पर 50 डॉलर।" }, "kind": "inference", "evidence": "Des frais de 50 $ s'appliquent pour les annulations tardives." }
     ]
   },
   "writing": {
@@ -163,9 +163,9 @@
       { "en": "Use je voudrais for the request and je vais + infinitive for your plans.", "hi": "अनुरोध के लिए je voudrais और अपनी योजनाओं के लिए je vais + मूल रूप लिखिए।" }
     ],
     "usefulPhrases": [
-      { "fr": "Objet : Demande de rendez-vous", "en": "Subject: Appointment request", "hi": "विषय: अपॉइंटमेंट का अनुरोध", "pron": "ऑब-झ़ै द्ö-माँद दö ग़ाँ-दे-वू" },
-      { "fr": "Je suis disponible le … après … heures.", "en": "I'm available on … after … o'clock.", "hi": "मैं … को … बजे के बाद ख़ाली हूँ।", "pron": "झ़ö स्üई दीस-पो-नीब्ल लö … आ-प्रै … ज़öग़" },
-      { "fr": "Pouvez-vous confirmer, s'il vous plaît ?", "en": "Could you confirm, please?", "hi": "क्या आप कृपया पुष्टि कर सकते हैं?", "pron": "पू-वे वू कोँ-फ़ीग़-मे सील वू प्लै" }
+      { "fr": "Objet : Demande de rendez-vous", "en": "Subject: Appointment request", "hi": "विषय: अपॉइंटमेंट का अनुरोध", "pron": "ऑब-जे द-माँद द राँ-दे-वू" },
+      { "fr": "Je suis disponible le … après … heures.", "en": "I'm available on … after … o'clock.", "hi": "मैं … को … बजे के बाद ख़ाली हूँ।", "pron": "ज स्यूई दीस-पो-नीब्ल ल … आ-प्रे … ज़र" },
+      { "fr": "Pouvez-vous confirmer, s'il vous plaît ?", "en": "Could you confirm, please?", "hi": "क्या आप कृपया पुष्टि कर सकते हैं?", "pron": "पू-वे वू कों-फ़ीर-मे सील वू प्ले" }
     ],
     "model": {
       "fr": "Objet : Demande de rendez-vous\nBonjour Madame, Monsieur,\nJe m'appelle Arjun Singh et je voudrais prendre rendez-vous avec un médecin. J'ai mal au dos depuis deux semaines. La semaine prochaine, je vais travailler le matin, mais je suis disponible le mardi et le jeudi après seize heures. Pouvez-vous confirmer l'heure par courriel, s'il vous plaît ?\nCordialement,\nArjun Singh",
@@ -181,13 +181,13 @@
     "fromDays": [2, 13, 15, 16, 32, 36],
     "items": [
       { "fr": "Comment ça s'écrit ?", "en": "How is that spelt?", "hi": "इसकी स्पेलिंग क्या है?", "pron": "को-माँ सा से-क्री" },
-      { "fr": "le vendredi quatorze novembre", "en": "Friday 14 November", "hi": "शुक्रवार, 14 नवंबर", "pron": "लö वाँ-द्रö-दी का-तॉग़्ज़ नो-वाँब्ग़" },
-      { "fr": "à dix-huit heures", "en": "at 6 p.m.", "hi": "शाम छह बजे", "pron": "आ दी-ज़üई तöग़" },
-      { "fr": "Je vais au travail.", "en": "I'm going to work.", "hi": "मैं काम पर जा रहा/रही हूँ।", "pron": "झ़ö वै ज़ो त्रा-वाय" },
-      { "fr": "Je ne peux pas venir lundi.", "en": "I can't come on Monday.", "hi": "मैं सोमवार को नहीं आ सकता/सकती।", "pron": "झ़ö न्ö पö पा व्ö-नीग़ लैँ-दी" },
-      { "fr": "J'ai mal au dos.", "en": "I have back pain.", "hi": "मेरी पीठ में दर्द है।", "pron": "झ़े माल ओ दो" },
-      { "fr": "depuis deux semaines", "en": "for two weeks", "hi": "दो हफ़्ते से", "pron": "द्ö-प्üई दö स्ö-मैन" },
-      { "fr": "Il faut arriver à l'heure.", "en": "You must arrive on time.", "hi": "समय पर पहुँचना चाहिए।", "pron": "ईल फ़ो आ-ग़ी-वे आ लöग़" }
+      { "fr": "le vendredi quatorze novembre", "en": "Friday 14 November", "hi": "शुक्रवार, 14 नवंबर", "pron": "ल वाँ-द्र-दी का-तॉर्ज़ नो-वाँब्र" },
+      { "fr": "à dix-huit heures", "en": "at 6 p.m.", "hi": "शाम छह बजे", "pron": "आ दी-ज़्यूई तर" },
+      { "fr": "Je vais au travail.", "en": "I'm going to work.", "hi": "मैं काम पर जा रहा/रही हूँ।", "pron": "ज वे ज़ो त्रा-वाय" },
+      { "fr": "Je ne peux pas venir lundi.", "en": "I can't come on Monday.", "hi": "मैं सोमवार को नहीं आ सकता/सकती।", "pron": "ज न प पा व-नीर लैं-दी" },
+      { "fr": "J'ai mal au dos.", "en": "I have back pain.", "hi": "मेरी पीठ में दर्द है।", "pron": "जे माल ओ दो" },
+      { "fr": "depuis deux semaines", "en": "for two weeks", "hi": "दो हफ़्ते से", "pron": "द-प्यूई द स-मेन" },
+      { "fr": "Il faut arriver à l'heure.", "en": "You must arrive on time.", "hi": "समय पर पहुँचना चाहिए।", "pron": "ईल फ़ो आ-री-वे आ लर" }
     ]
   },
   "assessment": [

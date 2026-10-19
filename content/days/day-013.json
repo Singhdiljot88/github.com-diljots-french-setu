@@ -13,29 +13,29 @@
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "lundi, mardi, mercredi", "en": "Monday, Tuesday, Wednesday", "hi": "सोमवार, मंगलवार, बुधवार", "pron": "लैँ-दी माग़-दी मैग़-क्ग़ö-दी", "ipa": "lɛ̃di maʁdi mɛʁkʁədi", "pos": "noun", "gender": "m", "lemma": "lundi", "note": { "en": "All days are masculine and written with a small letter.", "hi": "सभी दिन पुल्लिंग हैं और छोटे अक्षर से लिखे जाते हैं।" } },
-    { "fr": "jeudi, vendredi", "en": "Thursday, Friday", "hi": "गुरुवार, शुक्रवार", "pron": "झ़ö-दी वाँ-द्ग़ö-दी", "ipa": "ʒødi vɑ̃dʁədi", "pos": "noun", "gender": "m", "lemma": "jeudi" },
+    { "fr": "lundi, mardi, mercredi", "en": "Monday, Tuesday, Wednesday", "hi": "सोमवार, मंगलवार, बुधवार", "pron": "लैं-दी मार-दी मेर-क्र-दी", "ipa": "lɛ̃di maʁdi mɛʁkʁədi", "pos": "noun", "gender": "m", "lemma": "lundi", "note": { "en": "All days are masculine and written with a small letter.", "hi": "सभी दिन पुल्लिंग हैं और छोटे अक्षर से लिखे जाते हैं।" } },
+    { "fr": "jeudi, vendredi", "en": "Thursday, Friday", "hi": "गुरुवार, शुक्रवार", "pron": "ज-दी वाँ-द्र-दी", "ipa": "ʒødi vɑ̃dʁədi", "pos": "noun", "gender": "m", "lemma": "jeudi" },
     { "fr": "samedi, dimanche", "en": "Saturday, Sunday", "hi": "शनिवार, रविवार", "pron": "साम-दी दी-माँश", "ipa": "samdi dimɑ̃ʃ", "pos": "noun", "gender": "m", "lemma": "samedi" },
-    { "fr": "janvier, février, mars, avril", "en": "January, February, March, April", "hi": "जनवरी, फ़रवरी, मार्च, अप्रैल", "pron": "झ़ाँ-व्ये फ़े-व्ग़ी-ये माग़्स आ-व्ग़ील", "ipa": "ʒɑ̃vje fevʁije maʁs avʁil", "pos": "noun", "gender": "m", "lemma": "janvier", "note": { "en": "In mars the s is pronounced.", "hi": "mars में s बोला जाता है।" } },
-    { "fr": "mai, juin, juillet, août", "en": "May, June, July, August", "hi": "मई, जून, जुलाई, अगस्त", "pron": "मै झ़üऐँ झ़üई-यै ऊत", "ipa": "mɛ ʒɥɛ̃ ʒɥijɛ ut", "pos": "noun", "gender": "m", "lemma": "mai", "note": { "en": "août: one sound, ऊ or ऊत — both are heard.", "hi": "août: एक ही आवाज़, ऊ या ऊत — दोनों सुनाई देते हैं।" } },
-    { "fr": "septembre, octobre, novembre, décembre", "en": "September, October, November, December", "hi": "सितंबर, अक्टूबर, नवंबर, दिसंबर", "pron": "सैप-ताँब्ग़ ऑक-तॉब्ग़ नो-वाँब्ग़ दे-साँब्ग़", "ipa": "sɛptɑ̃bʁ ɔktɔbʁ nɔvɑ̃bʁ desɑ̃bʁ", "pos": "noun", "gender": "m", "lemma": "septembre" },
-    { "fr": "la semaine", "en": "week", "hi": "सप्ताह / हफ़्ता", "pron": "ला सö-मैन", "ipa": "la səmɛn", "pos": "noun", "gender": "f", "lemma": "semaine", "note": { "en": "Feminine in French; हफ़्ता is masculine in Hindi.", "hi": "फ़्रेंच में स्त्रीलिंग; हिंदी में 'हफ़्ता' पुल्लिंग है।" } },
-    { "fr": "le mois", "en": "month", "hi": "महीना", "pron": "लö म्वा", "ipa": "lə mwa", "pos": "noun", "gender": "m", "lemma": "mois" },
+    { "fr": "janvier, février, mars, avril", "en": "January, February, March, April", "hi": "जनवरी, फ़रवरी, मार्च, अप्रैल", "pron": "जाँ-व्ये फ़े-व्री-ये मार्स आ-व्रील", "ipa": "ʒɑ̃vje fevʁije maʁs avʁil", "pos": "noun", "gender": "m", "lemma": "janvier", "note": { "en": "In mars the s is pronounced.", "hi": "mars में s बोला जाता है।" } },
+    { "fr": "mai, juin, juillet, août", "en": "May, June, July, August", "hi": "मई, जून, जुलाई, अगस्त", "pron": "मे ज्यूऐं ज्यूई-ये ऊत", "ipa": "mɛ ʒɥɛ̃ ʒɥijɛ ut", "pos": "noun", "gender": "m", "lemma": "mai", "note": { "en": "août: one sound, ऊ or ऊत — both are heard.", "hi": "août: एक ही आवाज़, ऊ या ऊत — दोनों सुनाई देते हैं।" } },
+    { "fr": "septembre, octobre, novembre, décembre", "en": "September, October, November, December", "hi": "सितंबर, अक्टूबर, नवंबर, दिसंबर", "pron": "सेप-ताँब्र ऑक-तॉब्र नो-वाँब्र दे-साँब्र", "ipa": "sɛptɑ̃bʁ ɔktɔbʁ nɔvɑ̃bʁ desɑ̃bʁ", "pos": "noun", "gender": "m", "lemma": "septembre" },
+    { "fr": "la semaine", "en": "week", "hi": "सप्ताह / हफ़्ता", "pron": "ला स-मेन", "ipa": "la səmɛn", "pos": "noun", "gender": "f", "lemma": "semaine", "note": { "en": "Feminine in French; हफ़्ता is masculine in Hindi.", "hi": "फ़्रेंच में स्त्रीलिंग; हिंदी में 'हफ़्ता' पुल्लिंग है।" } },
+    { "fr": "le mois", "en": "month", "hi": "महीना", "pron": "ल म्वा", "ipa": "lə mwa", "pos": "noun", "gender": "m", "lemma": "mois" },
     { "fr": "l'année", "en": "year", "hi": "साल / वर्ष", "pron": "ला-ने", "ipa": "lane", "pos": "noun", "gender": "f", "lemma": "année", "note": { "en": "For age you use 'ans'; for a year as a period, 'année': une bonne année.", "hi": "उम्र के लिए 'ans'; एक अवधि के रूप में साल के लिए 'année': une bonne année।" } },
-    { "fr": "aujourd'hui", "en": "today", "hi": "आज", "pron": "ओ-झ़ूग़-द्üई", "ipa": "oʒuʁdɥi", "pos": "adverb" },
-    { "fr": "demain", "en": "tomorrow", "hi": "कल (आने वाला)", "pron": "दö-मैँ", "ipa": "dəmɛ̃", "pos": "adverb", "note": { "en": "Hindi कल means both yesterday and tomorrow; French has demain (tomorrow) and hier (yesterday).", "hi": "हिंदी में 'कल' बीता और आने वाला दोनों है; फ़्रेंच में demain (आने वाला कल) और hier (बीता कल) अलग हैं।" } },
-    { "fr": "l'anniversaire", "en": "birthday; anniversary", "hi": "जन्मदिन; सालगिरह", "pron": "ला-नी-वैग़-सैग़", "ipa": "lanivɛʁsɛʁ", "pos": "noun", "gender": "m", "lemma": "anniversaire" },
-    { "fr": "le rendez-vous", "en": "appointment; meeting", "hi": "अपॉइंटमेंट / मुलाक़ात का समय", "pron": "लö ग़ाँ-दे-वू", "ipa": "lə ʁɑ̃devu", "pos": "noun", "gender": "m", "lemma": "rendez-vous", "note": { "en": "Used for doctors, offices and friends — not only romantic dates.", "hi": "डॉक्टर, दफ़्तर और दोस्तों के लिए भी — सिर्फ़ रोमांटिक मुलाक़ात नहीं।" } },
+    { "fr": "aujourd'hui", "en": "today", "hi": "आज", "pron": "ओ-जूर-द्यूई", "ipa": "oʒuʁdɥi", "pos": "adverb" },
+    { "fr": "demain", "en": "tomorrow", "hi": "कल (आने वाला)", "pron": "द-मैं", "ipa": "dəmɛ̃", "pos": "adverb", "note": { "en": "Hindi कल means both yesterday and tomorrow; French has demain (tomorrow) and hier (yesterday).", "hi": "हिंदी में 'कल' बीता और आने वाला दोनों है; फ़्रेंच में demain (आने वाला कल) और hier (बीता कल) अलग हैं।" } },
+    { "fr": "l'anniversaire", "en": "birthday; anniversary", "hi": "जन्मदिन; सालगिरह", "pron": "ला-नी-वेर-सेर", "ipa": "lanivɛʁsɛʁ", "pos": "noun", "gender": "m", "lemma": "anniversaire" },
+    { "fr": "le rendez-vous", "en": "appointment; meeting", "hi": "अपॉइंटमेंट / मुलाक़ात का समय", "pron": "ल राँ-दे-वू", "ipa": "lə ʁɑ̃devu", "pos": "noun", "gender": "m", "lemma": "rendez-vous", "note": { "en": "Used for doctors, offices and friends — not only romantic dates.", "hi": "डॉक्टर, दफ़्तर और दोस्तों के लिए भी — सिर्फ़ रोमांटिक मुलाक़ात नहीं।" } },
     { "fr": "la date", "en": "date (on a calendar)", "hi": "तारीख़", "pron": "ला दात", "ipa": "la dat", "pos": "noun", "gender": "f", "lemma": "date" }
   ],
   "phrases": [
-    { "fr": "On est quel jour aujourd'hui ?", "en": "What day is it today?", "hi": "आज कौन-सा दिन है?", "pron": "ओँ नै कैल झ़ूग़ ओ-झ़ूग़-द्üई", "ipa": "ɔ̃ nɛ kɛl ʒuʁ oʒuʁdɥi" },
-    { "fr": "Aujourd'hui, c'est lundi.", "en": "Today is Monday.", "hi": "आज सोमवार है।", "pron": "ओ-झ़ूग़-द्üई सै लैँ-दी", "ipa": "oʒuʁdɥi sɛ lɛ̃di" },
-    { "fr": "Quelle est la date ?", "en": "What's the date?", "hi": "आज कौन-सी तारीख़ है?", "pron": "कै लै ला दात", "ipa": "kɛ lɛ la dat" },
-    { "fr": "On est le 3 mars.", "en": "It's 3 March.", "hi": "आज 3 मार्च है।", "pron": "ओँ नै लö त्ग़्वा माग़्स", "ipa": "ɔ̃ nɛ lə tʁwa maʁs" },
-    { "fr": "Mon anniversaire, c'est le 15 août.", "en": "My birthday is on 15 August.", "hi": "मेरा जन्मदिन 15 अगस्त को है।", "pron": "मो ना-नी-वैग़-सैग़ सै लö कैँज़ ऊत", "ipa": "mɔ̃ nanivɛʁsɛʁ sɛ lə kɛ̃z ut" },
-    { "fr": "D'accord !", "en": "OK! / Agreed!", "hi": "ठीक है!", "pron": "दा-कॉग़", "ipa": "dakɔʁ" },
-    { "fr": "le premier janvier", "en": "the first of January", "hi": "पहली जनवरी", "pron": "लö प्ग़ö-म्ये झ़ाँ-व्ये", "ipa": "lə pʁəmje ʒɑ̃vje" }
+    { "fr": "On est quel jour aujourd'hui ?", "en": "What day is it today?", "hi": "आज कौन-सा दिन है?", "pron": "ओं ने केल जूर ओ-जूर-द्यूई", "ipa": "ɔ̃ nɛ kɛl ʒuʁ oʒuʁdɥi" },
+    { "fr": "Aujourd'hui, c'est lundi.", "en": "Today is Monday.", "hi": "आज सोमवार है।", "pron": "ओ-जूर-द्यूई से लैं-दी", "ipa": "oʒuʁdɥi sɛ lɛ̃di" },
+    { "fr": "Quelle est la date ?", "en": "What's the date?", "hi": "आज कौन-सी तारीख़ है?", "pron": "के ले ला दात", "ipa": "kɛ lɛ la dat" },
+    { "fr": "On est le 3 mars.", "en": "It's 3 March.", "hi": "आज 3 मार्च है।", "pron": "ओं ने ल त्र्वा मार्स", "ipa": "ɔ̃ nɛ lə tʁwa maʁs" },
+    { "fr": "Mon anniversaire, c'est le 15 août.", "en": "My birthday is on 15 August.", "hi": "मेरा जन्मदिन 15 अगस्त को है।", "pron": "मो ना-नी-वेर-सेर से ल कैंज़ ऊत", "ipa": "mɔ̃ nanivɛʁsɛʁ sɛ lə kɛ̃z ut" },
+    { "fr": "D'accord !", "en": "OK! / Agreed!", "hi": "ठीक है!", "pron": "दा-कॉर", "ipa": "dakɔʁ" },
+    { "fr": "le premier janvier", "en": "the first of January", "hi": "पहली जनवरी", "pron": "ल प्र-म्ये जाँ-व्ये", "ipa": "lə pʁəmje ʒɑ̃vje" }
   ],
   "grammar": {
     "title": { "en": "Saying dates: le + number + month", "hi": "तारीख़ बोलना: le + संख्या + महीना" },
@@ -48,11 +48,11 @@
       "hi": "अंग्रेज़ी में 'Monday, March 3' बड़े अक्षरों के साथ और पहले महीना लिखते हैं। फ़्रेंच में 'lundi 3 mars' — छोटे अक्षर, पहले तारीख़, बिल्कुल हिंदी '3 मार्च' जैसा। हिंदी में 'को' जुड़ता है (सोमवार को); फ़्रेंच में कुछ नहीं: 'Je travaille lundi.'। हिंदी का 'कल' बीता और आने वाला दोनों है; फ़्रेंच में demain और hier अलग हैं।"
     },
     "examples": [
-      { "fr": "Aujourd'hui, c'est mercredi 12 juin.", "en": "Today is Wednesday 12 June.", "hi": "आज बुधवार, 12 जून है।", "pron": "ओ-झ़ूग़-द्üई सै मैग़-क्ग़ö-दी दूज़ झ़üऐँ" },
-      { "fr": "Mon rendez-vous, c'est le premier avril.", "en": "My appointment is on the first of April.", "hi": "मेरा अपॉइंटमेंट पहली अप्रैल को है।", "pron": "मोँ ग़ाँ-दे-वू सै लö प्ग़ö-म्ये ग़ा-व्ग़ील" },
-      { "fr": "Demain, on est jeudi.", "en": "Tomorrow is Thursday.", "hi": "कल गुरुवार है।", "pron": "दö-मैँ ओँ नै झ़ö-दी" },
-      { "fr": "Je travaille le samedi.", "en": "I work on Saturdays.", "hi": "मैं हर शनिवार काम करता/करती हूँ।", "pron": "झ़ö त्ग़ा-वाय लö साम-दी" },
-      { "fr": "En décembre, il y a beaucoup de neige à Montréal.", "en": "In December, there is a lot of snow in Montréal.", "hi": "दिसंबर में मॉन्ट्रियाल में बहुत बर्फ़ होती है।", "pron": "आँ दे-साँब्ग़ ई-ल्या बो-कू दö नैझ़ आ मोँ-ग़े-आल" }
+      { "fr": "Aujourd'hui, c'est mercredi 12 juin.", "en": "Today is Wednesday 12 June.", "hi": "आज बुधवार, 12 जून है।", "pron": "ओ-जूर-द्यूई से मेर-क्र-दी दूज़ ज्यूऐं" },
+      { "fr": "Mon rendez-vous, c'est le premier avril.", "en": "My appointment is on the first of April.", "hi": "मेरा अपॉइंटमेंट पहली अप्रैल को है।", "pron": "मों राँ-दे-वू से ल प्र-म्ये रा-व्रील" },
+      { "fr": "Demain, on est jeudi.", "en": "Tomorrow is Thursday.", "hi": "कल गुरुवार है।", "pron": "द-मैं ओं ने ज-दी" },
+      { "fr": "Je travaille le samedi.", "en": "I work on Saturdays.", "hi": "मैं हर शनिवार काम करता/करती हूँ।", "pron": "ज त्रा-वाय ल साम-दी" },
+      { "fr": "En décembre, il y a beaucoup de neige à Montréal.", "en": "In December, there is a lot of snow in Montréal.", "hi": "दिसंबर में मॉन्ट्रियाल में बहुत बर्फ़ होती है।", "pron": "आँ दे-साँब्र ई-ल्या बो-कू द नेज आ मों-रे-आल" }
     ],
     "pitfalls": [
       { "en": "No capital letters: 'lundi 3 mars', not 'Lundi 3 Mars' (except at the start of a sentence).", "hi": "बड़े अक्षर नहीं: 'lundi 3 mars', 'Lundi 3 Mars' नहीं (वाक्य की शुरुआत को छोड़कर)।" },
@@ -63,16 +63,16 @@
   "pronunciation": {
     "focus": "Nasal /ɑ̃/ (dimanche, janvier) and /ɛ̃/ (juin, lundi)",
     "tip": {
-      "en": "Two different nasal sounds. /ɑ̃/ (an, en, am, em) is a deep आँ with the mouth open: dimanche, janvier, novembre. /ɛ̃/ (in, ain, un) is a flatter ऐँ with spread lips: juin, demain, lundi. The old 'un' sound /œ̃/ is now usually said as /ɛ̃/ too, so lundi = लैँ-दी. Never add an n or m at the end.",
-      "hi": "दो अलग नासिक्य आवाज़ें। /ɑ̃/ (an, en, am, em) — मुँह खोलकर गहरा 'आँ': dimanche, janvier, novembre। /ɛ̃/ (in, ain, un) — होंठ फैलाकर चपटा 'ऐँ': juin, demain, lundi। पुरानी 'un' वाली आवाज़ /œ̃/ भी अब आम तौर पर /ɛ̃/ बोली जाती है, इसलिए lundi = लैँ-दी। अंत में कभी न या म मत जोड़िए।"
+      "en": "Two different nasal sounds. /ɑ̃/ (an, en, am, em) is a deep आँ with the mouth open: dimanche, janvier, novembre. /ɛ̃/ (in, ain, un) is a flatter ऐं with spread lips: juin, demain, lundi. The old 'un' sound /œ̃/ is now usually said as /ɛ̃/ too, so lundi = लैं-दी. Never add an n or m at the end.",
+      "hi": "दो अलग नासिक्य आवाज़ें। /ɑ̃/ (an, en, am, em) — मुँह खोलकर गहरा 'आँ': dimanche, janvier, novembre। /ɛ̃/ (in, ain, un) — होंठ फैलाकर चपटा 'ऐं': juin, demain, lundi। पुरानी 'un' वाली आवाज़ /œ̃/ भी अब आम तौर पर /ɛ̃/ बोली जाती है, इसलिए lundi = लैं-दी। अंत में कभी न या म मत जोड़िए।"
     },
     "words": [
       { "fr": "dimanche", "en": "Sunday", "hi": "रविवार", "pron": "दी-माँश", "ipa": "dimɑ̃ʃ" },
-      { "fr": "janvier", "en": "January", "hi": "जनवरी", "pron": "झ़ाँ-व्ये", "ipa": "ʒɑ̃vje" },
-      { "fr": "novembre", "en": "November", "hi": "नवंबर", "pron": "नो-वाँब्ग़", "ipa": "nɔvɑ̃bʁ" },
-      { "fr": "juin", "en": "June", "hi": "जून", "pron": "झ़üऐँ", "ipa": "ʒɥɛ̃" },
-      { "fr": "lundi", "en": "Monday", "hi": "सोमवार", "pron": "लैँ-दी", "ipa": "lɛ̃di" },
-      { "fr": "demain", "en": "tomorrow", "hi": "आने वाला कल", "pron": "दö-मैँ", "ipa": "dəmɛ̃" }
+      { "fr": "janvier", "en": "January", "hi": "जनवरी", "pron": "जाँ-व्ये", "ipa": "ʒɑ̃vje" },
+      { "fr": "novembre", "en": "November", "hi": "नवंबर", "pron": "नॉ-वाँब्र", "ipa": "nɔvɑ̃bʁ" },
+      { "fr": "juin", "en": "June", "hi": "जून", "pron": "ज्यूऐं", "ipa": "ʒɥɛ̃" },
+      { "fr": "lundi", "en": "Monday", "hi": "सोमवार", "pron": "लैं-दी", "ipa": "lɛ̃di" },
+      { "fr": "demain", "en": "tomorrow", "hi": "आने वाला कल", "pron": "द-मैं", "ipa": "dəmɛ̃" }
     ]
   },
   "listening": {
@@ -91,11 +91,11 @@
       { "speaker": "Ravi", "voice": "m1", "fr": "Parfait. Rendez-vous dimanche au restaurant !", "en": "Perfect. See you on Sunday at the restaurant!", "hi": "बढ़िया। रविवार को रेस्टोरेंट में मिलते हैं!" }
     ],
     "questions": [
-      { "q": { "en": "When is Neha's birthday?" }, "options": ["2 March", "12 March", "13 March"], "answer": 1, "explanation": { "en": "'C'est le douze mars.' — douze = 12.", "hi": "'C'est le douze mars.' — douze = 12।" }, "kind": "literal", "evidence": "C'est le douze mars." },
-      { "q": { "en": "Which day of the week is her birthday?" }, "options": ["Saturday", "Sunday", "Monday"], "answer": 0, "explanation": { "en": "'C'est un samedi.'", "hi": "'C'est un samedi.' — शनिवार।" }, "kind": "literal", "evidence": "C'est un samedi." },
-      { "q": { "en": "Why don't they go on Saturday?" }, "options": ["The restaurant is closed", "Ravi is working", "Neha is ill"], "answer": 1, "explanation": { "en": "'Samedi, je travaille.'", "hi": "'Samedi, je travaille.' — रवि का शनिवार को काम है।" }, "kind": "inference", "evidence": "Samedi, je travaille." },
-      { "q": { "en": "What date do they choose?" }, "options": ["Saturday 12 March", "Sunday 13 March", "Sunday 3 March"], "answer": 1, "explanation": { "en": "'Dimanche treize mars ? D'accord !'", "hi": "'Dimanche treize mars ? D'accord !' — रविवार, 13 मार्च।" }, "kind": "literal", "evidence": "Dimanche treize mars ? D'accord !" },
-      { "q": { "en": "Where will they meet?" }, "options": ["At Neha's flat", "At the restaurant", "At work"], "answer": 1, "explanation": { "en": "'Rendez-vous dimanche au restaurant !'", "hi": "'Rendez-vous dimanche au restaurant !' — रेस्टोरेंट में।" }, "kind": "literal", "evidence": "Rendez-vous dimanche au restaurant !" }
+      { "q": { "en": "When is Neha's birthday?", "hi": "Neha का जन्मदिन कब है?" }, "options": ["2 March", "12 March", "13 March"], "answer": 1, "explanation": { "en": "'C'est le douze mars.' — douze = 12.", "hi": "'C'est le douze mars.' — douze = 12।" }, "kind": "literal", "evidence": "C'est le douze mars." },
+      { "q": { "en": "Which day of the week is her birthday?", "hi": "उसका जन्मदिन सप्ताह के किस दिन है?" }, "options": ["Saturday", "Sunday", "Monday"], "optionsHi": ["शनिवार", "रविवार", "सोमवार"], "answer": 0, "explanation": { "en": "'C'est un samedi.'", "hi": "'C'est un samedi.' — शनिवार।" }, "kind": "literal", "evidence": "C'est un samedi." },
+      { "q": { "en": "Why don't they go on Saturday?", "hi": "वे शनिवार को क्यों नहीं जाते?" }, "options": ["The restaurant is closed", "Ravi is working", "Neha is ill"], "optionsHi": ["रेस्तराँ बंद है", "Ravi काम कर रहा है", "Neha बीमार है"], "answer": 1, "explanation": { "en": "'Samedi, je travaille.'", "hi": "'Samedi, je travaille.' — रवि का शनिवार को काम है।" }, "kind": "inference", "evidence": "Samedi, je travaille." },
+      { "q": { "en": "What date do they choose?", "hi": "वे कौन-सी तारीख़ चुनते हैं?" }, "options": ["Saturday 12 March", "Sunday 13 March", "Sunday 3 March"], "answer": 1, "explanation": { "en": "'Dimanche treize mars ? D'accord !'", "hi": "'Dimanche treize mars ? D'accord !' — रविवार, 13 मार्च।" }, "kind": "literal", "evidence": "Dimanche treize mars ? D'accord !" },
+      { "q": { "en": "Where will they meet?", "hi": "वे कहाँ मिलेंगे?" }, "options": ["At Neha's flat", "At the restaurant", "At work"], "optionsHi": ["Neha के फ़्लैट पर", "रेस्तराँ में", "काम की जगह पर"], "answer": 1, "explanation": { "en": "'Rendez-vous dimanche au restaurant !'", "hi": "'Rendez-vous dimanche au restaurant !' — रेस्टोरेंट में।" }, "kind": "literal", "evidence": "Rendez-vous dimanche au restaurant !" }
     ],
     "dictation": ["C'est le douze mars.", "Samedi, je travaille.", "Rendez-vous dimanche !"],
     "gapFill": { "text": "C'est le ___ mars. … C'est un ___.", "answers": ["douze", "samedi"] }
@@ -107,11 +107,11 @@
       "hi": "हफ़्ते के दिन और महीने क्रम से बोलिए। फिर आज का दिन और तारीख़, अपना जन्मदिन और कोई एक अपॉइंटमेंट बताइए।"
     },
     "prompts": [
-      { "fr": "lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche", "en": "Monday … Sunday", "hi": "सोमवार … रविवार", "pron": "लैँ-दी माग़-दी मैग़-क्ग़ö-दी झ़ö-दी वाँ-द्ग़ö-दी साम-दी दी-माँश" },
-      { "fr": "Aujourd'hui, c'est … . On est le … .", "en": "Today is … . It's the … .", "hi": "आज … है। आज … तारीख़ है।", "pron": "ओ-झ़ूग़-द्üई सै … ओँ नै लö …", "model": "Aujourd'hui, c'est vendredi. On est le vingt-quatre mai." },
-      { "fr": "Mon anniversaire, c'est le … .", "en": "My birthday is on … .", "hi": "मेरा जन्मदिन … को है।", "pron": "मो ना-नी-वैग़-सैग़ सै लö", "model": "Mon anniversaire, c'est le premier novembre." },
-      { "fr": "J'ai un rendez-vous mardi.", "en": "I have an appointment on Tuesday.", "hi": "मंगलवार को मेरा एक अपॉइंटमेंट है।", "pron": "झ़े ऐँ ग़ाँ-दे-वू माग़-दी" },
-      { "fr": "Demain, on est … .", "en": "Tomorrow is … .", "hi": "कल … है।", "pron": "दö-मैँ ओँ नै" }
+      { "fr": "lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche", "en": "Monday … Sunday", "hi": "सोमवार … रविवार", "pron": "लैं-दी मार-दी मेर-क्र-दी ज-दी वाँ-द्र-दी साम-दी दी-माँश" },
+      { "fr": "Aujourd'hui, c'est … . On est le … .", "en": "Today is … . It's the … .", "hi": "आज … है। आज … तारीख़ है।", "pron": "ओ-जूर-द्यूई से … ओं ने ल …", "model": "Aujourd'hui, c'est vendredi. On est le vingt-quatre mai." },
+      { "fr": "Mon anniversaire, c'est le … .", "en": "My birthday is on … .", "hi": "मेरा जन्मदिन … को है।", "pron": "मो ना-नी-वेर-सेर से ल", "model": "Mon anniversaire, c'est le premier novembre." },
+      { "fr": "J'ai un rendez-vous mardi.", "en": "I have an appointment on Tuesday.", "hi": "मंगलवार को मेरा एक अपॉइंटमेंट है।", "pron": "जे ऐं राँ-दे-वू मार-दी" },
+      { "fr": "Demain, on est … .", "en": "Tomorrow is … .", "hi": "कल … है।", "pron": "द-मैं ओं ने" }
     ],
     "tip": {
       "en": "All days end in -di except dimanche. Say the first syllable clearly — that's where the difference is.",
@@ -127,10 +127,10 @@
       "hi": "सां-लोरां भाषा स्कूल — हफ़्ते की समय-सारणी\nसोमवार: शुरुआती फ़्रेंच\nमंगलवार: अंग्रेज़ी\nबुधवार: शुरुआती फ़्रेंच\nगुरुवार: स्पैनिश\nशुक्रवार: फ़्रेंच बातचीत\nशनिवार और रविवार: बंद\nक्लासें शुरू: सोमवार, 7 मार्च"
     },
     "questions": [
-      { "q": { "en": "On which days is there beginner French?" }, "options": ["Monday and Wednesday", "Tuesday and Thursday", "Friday only"], "answer": 0, "explanation": { "en": "lundi and mercredi: français débutant.", "hi": "lundi और mercredi: français débutant।" }, "kind": "literal", "evidence": "mercredi : français débutant" },
-      { "q": { "en": "When is the school closed?" }, "options": ["On Friday", "At the weekend", "On Monday 7 March"], "answer": 1, "explanation": { "en": "'samedi et dimanche : fermé'.", "hi": "'samedi et dimanche : fermé' — शनिवार और रविवार बंद।" }, "kind": "literal", "evidence": "samedi et dimanche : fermé" },
-      { "q": { "en": "When do the classes start?" }, "options": ["Monday 7 March", "Sunday 7 March", "Monday 17 March"], "answer": 0, "explanation": { "en": "'Début des cours : le lundi 7 mars'.", "hi": "'Début des cours : le lundi 7 mars' — सोमवार, 7 मार्च।" }, "kind": "literal", "evidence": "Début des cours : le lundi 7 mars" },
-      { "q": { "en": "You want to practise speaking French. Which day is best?" }, "options": ["Tuesday", "Thursday", "Friday"], "answer": 2, "explanation": { "en": "'vendredi : conversation en français'.", "hi": "'vendredi : conversation en français' — शुक्रवार।" }, "kind": "inference", "evidence": "vendredi : conversation en français" }
+      { "q": { "en": "On which days is there beginner French?", "hi": "शुरुआती फ़्रेंच किन दिनों में होती है?" }, "options": ["Monday and Wednesday", "Tuesday and Thursday", "Friday only"], "optionsHi": ["सोमवार और बुधवार", "मंगलवार और गुरुवार", "केवल शुक्रवार"], "answer": 0, "explanation": { "en": "lundi and mercredi: français débutant.", "hi": "lundi और mercredi: français débutant।" }, "kind": "literal", "evidence": "mercredi : français débutant" },
+      { "q": { "en": "When is the school closed?", "hi": "स्कूल कब बंद रहता है?" }, "options": ["On Friday", "At the weekend", "On Monday 7 March"], "optionsHi": ["शुक्रवार को", "सप्ताहांत में", "सोमवार 7 March को"], "answer": 1, "explanation": { "en": "'samedi et dimanche : fermé'.", "hi": "'samedi et dimanche : fermé' — शनिवार और रविवार बंद।" }, "kind": "literal", "evidence": "samedi et dimanche : fermé" },
+      { "q": { "en": "When do the classes start?", "hi": "कक्षाएँ कब शुरू होती हैं?" }, "options": ["Monday 7 March", "Sunday 7 March", "Monday 17 March"], "answer": 0, "explanation": { "en": "'Début des cours : le lundi 7 mars'.", "hi": "'Début des cours : le lundi 7 mars' — सोमवार, 7 मार्च।" }, "kind": "literal", "evidence": "Début des cours : le lundi 7 mars" },
+      { "q": { "en": "You want to practise speaking French. Which day is best?", "hi": "आप फ़्रेंच बोलने का अभ्यास करना चाहते हैं। कौन-सा दिन सबसे अच्छा है?" }, "options": ["Tuesday", "Thursday", "Friday"], "optionsHi": ["मंगलवार", "गुरुवार", "शुक्रवार"], "answer": 2, "explanation": { "en": "'vendredi : conversation en français'.", "hi": "'vendredi : conversation en français' — शुक्रवार।" }, "kind": "inference", "evidence": "vendredi : conversation en français" }
     ]
   },
   "writing": {
@@ -146,9 +146,9 @@
       { "en": "Use -er verbs you know: travailler, étudier, regarder, cuisiner, jouer.", "hi": "जानी हुई -er क्रियाएँ लगाइए: travailler, étudier, regarder, cuisiner, jouer।" }
     ],
     "usefulPhrases": [
-      { "fr": "lundi 7 mars : je travaille.", "en": "Monday 7 March: I'm working.", "hi": "सोमवार 7 मार्च: मैं काम करता/करती हूँ।", "pron": "लैँ-दी सैत माग़्स झ़ö त्ग़ा-वाय" },
-      { "fr": "J'ai un rendez-vous.", "en": "I have an appointment.", "hi": "मेरा एक अपॉइंटमेंट है।", "pron": "झ़े ऐँ ग़ाँ-दे-वू" },
-      { "fr": "C'est l'anniversaire de …", "en": "It's …'s birthday.", "hi": "… का जन्मदिन है।", "pron": "सै ला-नी-वैग़-सैग़ दö" }
+      { "fr": "lundi 7 mars : je travaille.", "en": "Monday 7 March: I'm working.", "hi": "सोमवार 7 मार्च: मैं काम करता/करती हूँ।", "pron": "लैं-दी सेत मार्स ज त्रा-वाय" },
+      { "fr": "J'ai un rendez-vous.", "en": "I have an appointment.", "hi": "मेरा एक अपॉइंटमेंट है।", "pron": "जे ऐं राँ-दे-वू" },
+      { "fr": "C'est l'anniversaire de …", "en": "It's …'s birthday.", "hi": "… का जन्मदिन है।", "pron": "से ला-नी-वेर-सेर द" }
     ],
     "model": { "fr": "lundi 7 mars : je travaille dans un bureau.\nmardi 8 mars : j'étudie le français.\nmercredi 9 mars : j'ai un rendez-vous à l'hôpital.\njeudi 10 mars : je cuisine pour la famille.\nvendredi 11 mars : je regarde un film.\nsamedi 12 mars : c'est l'anniversaire de Neha !", "en": "Monday 7 March: I work at the office.\nTuesday 8 March: I study French.\nWednesday 9 March: I have an appointment at the hospital.\nThursday 10 March: I cook for the family.\nFriday 11 March: I watch a film.\nSaturday 12 March: it's Neha's birthday!" },
     "checklist": [
@@ -160,11 +160,11 @@
   "review": {
     "fromDays": [9, 10, 11, 12],
     "items": [
-      { "fr": "douze, treize, trente et un", "en": "12, 13, 31", "hi": "बारह, तेरह, इकतीस", "pron": "दूज़ त्ग़ैज़ त्ग़ाँ-ते-ऐँ" },
-      { "fr": "Est-ce que tu travailles le week-end ?", "en": "Do you work at the weekend?", "hi": "क्या तुम वीकेंड पर काम करते हो?", "pron": "ऐस-कö तü त्ग़ा-वाय लö वी-कैन्द" },
-      { "fr": "Je n'aime pas le sport.", "en": "I don't like sport.", "hi": "मुझे खेल-कूद पसंद नहीं।", "pron": "झ़ö नैम पा लö स्पॉग़" },
-      { "fr": "Nous étudions le français.", "en": "We study French.", "hi": "हम फ़्रेंच पढ़ते हैं।", "pron": "नू ज़े-तü-द्योँ लö फ़्ग़ाँ-सै" },
-      { "fr": "Quel est votre numéro de téléphone ?", "en": "What's your phone number?", "hi": "आपका फ़ोन नंबर क्या है?", "pron": "कै लै वोत्ग़ नü-मे-ग़ो दö ते-ले-फ़ॉन" },
+      { "fr": "douze, treize, trente et un", "en": "12, 13, 31", "hi": "बारह, तेरह, इकतीस", "pron": "दूज़ त्रेज़ त्राँ-ते-ऐं" },
+      { "fr": "Est-ce que tu travailles le week-end ?", "en": "Do you work at the weekend?", "hi": "क्या तुम वीकेंड पर काम करते हो?", "pron": "एस-क त्यू त्रा-वाय ल वी-केन्द" },
+      { "fr": "Je n'aime pas le sport.", "en": "I don't like sport.", "hi": "मुझे खेल-कूद पसंद नहीं।", "pron": "ज नेम पा ल स्पॉर" },
+      { "fr": "Nous étudions le français.", "en": "We study French.", "hi": "हम फ़्रेंच पढ़ते हैं।", "pron": "नू ज़े-त्यू-द्यों ल फ़्राँ-से" },
+      { "fr": "Quel est votre numéro de téléphone ?", "en": "What's your phone number?", "hi": "आपका फ़ोन नंबर क्या है?", "pron": "के ले वोत्र न्यू-मे-रो द ते-ले-फ़ॉन" },
       { "fr": "Si !", "en": "Yes (I do)!", "hi": "हाँ, है!", "pron": "सी" }
     ]
   },

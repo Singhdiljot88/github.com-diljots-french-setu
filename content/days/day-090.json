@@ -31,7 +31,7 @@
       "fr": "le problème",
       "en": "problem",
       "hi": "समस्या",
-      "pron": "लö प्रो-ब्लैम",
+      "pron": "ल प्रो-ब्लेम",
       "ipa": "lə pʁɔblɛm",
       "pos": "noun",
       "gender": "m",
@@ -45,7 +45,7 @@
       "fr": "le programme",
       "en": "programme, schedule",
       "hi": "कार्यक्रम",
-      "pron": "लö प्रो-ग्राम",
+      "pron": "ल प्रो-ग्राम",
       "ipa": "lə pʁɔɡʁam",
       "pos": "noun",
       "gender": "m",
@@ -55,7 +55,7 @@
       "fr": "le musée",
       "en": "museum",
       "hi": "संग्रहालय",
-      "pron": "लö म्ü-ज़े",
+      "pron": "ल म्यू-ज़े",
       "ipa": "lə myze",
       "pos": "noun",
       "gender": "m",
@@ -69,7 +69,7 @@
       "fr": "le lycée",
       "en": "high school (France)",
       "hi": "हाई स्कूल (फ़्रांस)",
-      "pron": "लö ली-से",
+      "pron": "ल ली-से",
       "ipa": "lə lise",
       "pos": "noun",
       "gender": "m",
@@ -79,7 +79,7 @@
       "fr": "la plage",
       "en": "beach",
       "hi": "समुद्र तट",
-      "pron": "ला प्लाझ़",
+      "pron": "ला प्लाज",
       "ipa": "la plaʒ",
       "pos": "noun",
       "gender": "f",
@@ -93,7 +93,7 @@
       "fr": "l'image",
       "en": "picture, image",
       "hi": "चित्र / छवि",
-      "pron": "ली-माझ़",
+      "pron": "ली-माज",
       "ipa": "limaʒ",
       "pos": "noun",
       "gender": "f",
@@ -103,7 +103,7 @@
       "fr": "le silence",
       "en": "silence",
       "hi": "चुप्पी / ख़ामोशी",
-      "pron": "लö सी-लाँस",
+      "pron": "ल सी-लाँस",
       "ipa": "lə silɑ̃s",
       "pos": "noun",
       "gender": "m",
@@ -127,7 +127,7 @@
       "fr": "le légume",
       "en": "vegetable",
       "hi": "सब्ज़ी",
-      "pron": "लö ले-ग्üम",
+      "pron": "ल ले-ग्यूम",
       "ipa": "lə leɡym",
       "pos": "noun",
       "gender": "m",
@@ -155,7 +155,7 @@
       "fr": "le choix",
       "en": "choice",
       "hi": "विकल्प / चुनाव",
-      "pron": "लö श्वा",
+      "pron": "ल श्वा",
       "ipa": "lə ʃwa",
       "pos": "noun",
       "gender": "m",
@@ -175,7 +175,7 @@
       "fr": "l'environnement",
       "en": "environment",
       "hi": "पर्यावरण",
-      "pron": "लाँ-वी-ग़ॉन-माँ",
+      "pron": "लाँ-वी-रॉन-माँ",
       "ipa": "lɑ̃viʁɔnmɑ̃",
       "pos": "noun",
       "gender": "m",
@@ -187,37 +187,37 @@
       "fr": "C'est un grand problème.",
       "en": "It's a big problem.",
       "hi": "यह एक बड़ी समस्या है।",
-      "pron": "सै तैँ ग्ग़ाँ प्रो-ब्लैम"
+      "pron": "से तैं ग्राँ प्रो-ब्लेम"
     },
     {
       "fr": "Elle est arrivée hier soir.",
       "en": "She arrived last night.",
       "hi": "वह कल रात आई।",
-      "pron": "ऐ-लै ता-ग़ी-वे यैग़ स्वाग़"
+      "pron": "ए-ले ता-री-वे येर स्वार"
     },
     {
       "fr": "Les nouvelles chaises sont blanches.",
       "en": "The new chairs are white.",
       "hi": "नई कुर्सियाँ सफ़ेद हैं।",
-      "pron": "ले नू-वैल शैज़ सोँ ब्लाँश"
+      "pron": "ले नू-वेल शेज़ सों ब्लाँश"
     },
     {
       "fr": "Toutes les informations sont importantes.",
       "en": "All the information is important.",
       "hi": "सारी जानकारी ज़रूरी है।",
-      "pron": "तूत ले ज़ैँ-फ़ॉग़-मा-स्योँ सोँ तैँ-पॉग़-ताँत"
+      "pron": "तूत ले ज़ैं-फ़ॉर-मा-स्यों सों तैं-पॉर-ताँत"
     },
     {
       "fr": "Je vérifie le genre dans le dictionnaire.",
       "en": "I check the gender in the dictionary.",
       "hi": "मैं शब्दकोश में लिंग जाँचता हूँ।",
-      "pron": "झ़ö वे-ग़ी-फ़ी लö झ़ाँग्ग़ दाँ लö दिक-स्यो-नैग़"
+      "pron": "ज वे-री-फ़ी ल जाँग्र दाँ ल दिक-स्यो-नेर"
     },
     {
       "fr": "Ma meilleure amie est québécoise.",
       "en": "My best friend is from Québec.",
       "hi": "मेरी सबसे अच्छी सहेली क्यूबेक की है।",
-      "pron": "मा मै-यöग़ आ-मी ए के-बे-क्वाज़"
+      "pron": "मा मे-यर आ-मी ए के-बे-क्वाज़"
     }
   ],
   "grammar": {
@@ -238,73 +238,73 @@
         "fr": "✗ une problème important → ✓ un problème important",
         "en": "an important problem",
         "hi": "एक ज़रूरी समस्या",
-        "pron": "ऐँ प्रो-ब्लैम ऐँ-पॉग़-ताँ"
+        "pron": "ऐं प्रो-ब्लेम ऐं-पॉर-ताँ"
       },
       {
         "fr": "✗ le situation est difficile → ✓ la situation est difficile",
         "en": "the situation is difficult",
         "hi": "स्थिति कठिन है",
-        "pron": "ला सी-त्üआ-स्योँ ए दी-फ़ी-सील"
+        "pron": "ला सी-त्यूआ-स्यों ए दी-फ़ी-सील"
       },
       {
         "fr": "✗ un belle image → ✓ une belle image",
         "en": "a beautiful picture",
         "hi": "एक सुंदर चित्र",
-        "pron": "üन बैल ली-माझ़"
+        "pron": "यून बेल ली-माज"
       },
       {
         "fr": "✗ le logement est petite → ✓ le logement est petit",
         "en": "the accommodation is small",
         "hi": "घर छोटा है",
-        "pron": "लö लॉझ़-माँ ए प्ती"
+        "pron": "ल लॉज-माँ ए प्ती"
       },
       {
         "fr": "✗ des chaises blancs → ✓ des chaises blanches",
         "en": "white chairs",
         "hi": "सफ़ेद कुर्सियाँ",
-        "pron": "दे शैज़ ब्लाँश"
+        "pron": "दे शेज़ ब्लाँश"
       },
       {
         "fr": "✗ ma amie → ✓ mon amie",
         "en": "my (female) friend",
         "hi": "मेरी सहेली",
-        "pron": "मोँ ना-मी"
+        "pron": "मों ना-मी"
       },
       {
         "fr": "✗ Elle est arrivé → ✓ Elle est arrivée",
         "en": "She arrived.",
         "hi": "वह आई।",
-        "pron": "ऐ-लै ता-ग़ी-वे"
+        "pron": "ए-ले ता-री-वे"
       },
       {
         "fr": "✗ Nous sommes allé au musée → ✓ Nous sommes allés au musée",
         "en": "We went to the museum.",
         "hi": "हम संग्रहालय गए।",
-        "pron": "नू सोम ज़ा-ले ओ म्ü-ज़े"
+        "pron": "नू सोम ज़ा-ले ओ म्यू-ज़े"
       },
       {
         "fr": "✗ Elle a mangée une pomme → ✓ Elle a mangé une pomme",
         "en": "She ate an apple.",
         "hi": "उसने एक सेब खाया।",
-        "pron": "ऐ-ला माँ-झ़े üन पॉम"
+        "pron": "ए-ला माँ-जे यून पॉम"
       },
       {
         "fr": "✗ La lettre que j'ai écrit → ✓ La lettre que j'ai écrite",
         "en": "The letter I wrote",
         "hi": "वह पत्र जो मैंने लिखा",
-        "pron": "ला लैत्ग़ कö झ़े ए-क्ग़ीत"
+        "pron": "ला लेत्र क जे ए-क्रीत"
       },
       {
         "fr": "✗ toute les personnes → ✓ toutes les personnes",
         "en": "all the people",
         "hi": "सभी लोग",
-        "pron": "तूत ले पैग़-सॉन"
+        "pron": "तूत ले पेर-सॉन"
       },
       {
         "fr": "✗ Les enfants sont contents et fatigué → ✓ … contents et fatigués",
         "en": "The children are happy and tired.",
         "hi": "बच्चे ख़ुश और थके हुए हैं।",
-        "pron": "ले ज़ाँ-फ़ाँ सोँ कोँ-ताँ ए फ़ा-ती-गे"
+        "pron": "ले ज़ाँ-फ़ाँ सों कों-ताँ ए फ़ा-ती-गे"
       }
     ],
     "pitfalls": [
@@ -340,35 +340,35 @@
         "fr": "grand / grande",
         "en": "big, tall (m / f)",
         "hi": "बड़ा / बड़ी",
-        "pron": "ग्ग़ाँ / ग्ग़ाँद",
+        "pron": "ग्राँ / ग्राँद",
         "ipa": "ɡʁɑ̃ / ɡʁɑ̃d"
       },
       {
         "fr": "français / française",
         "en": "French (m / f)",
         "hi": "फ़्रांसीसी (पु. / स्त्री.)",
-        "pron": "फ़्ग़ाँ-सै / फ़्ग़ाँ-सैज़",
+        "pron": "फ़्राँ-से / फ़्राँ-सेज़",
         "ipa": "fʁɑ̃sɛ / fʁɑ̃sɛz"
       },
       {
         "fr": "premier / première",
         "en": "first (m / f)",
         "hi": "पहला / पहली",
-        "pron": "प्रö-म्ये / प्रö-म्यैग़",
+        "pron": "प्र-म्ये / प्र-म्येर",
         "ipa": "pʁəmje / pʁəmjɛʁ"
       },
       {
         "fr": "sportif / sportive",
         "en": "sporty (m / f)",
         "hi": "खेल-प्रेमी (पु. / स्त्री.)",
-        "pron": "स्पॉग़-तीफ़ / स्पॉग़-तीव",
+        "pron": "स्पॉर-तीफ़ / स्पॉर-तीव",
         "ipa": "spɔʁtif / spɔʁtiv"
       },
       {
         "fr": "heureux / heureuse",
         "en": "happy (m / f)",
         "hi": "ख़ुश (पु. / स्त्री.)",
-        "pron": "ö-ग़ö / ö-ग़öज़",
+        "pron": "अ-र / अ-रज़",
         "ipa": "øʁø / øʁøz"
       }
     ]
@@ -473,7 +473,8 @@
     "questions": [
       {
         "q": {
-          "en": "What is the kitchen table like?"
+          "en": "What is the kitchen table like?",
+          "hi": "रसोई की मेज़ कैसी है?"
         },
         "options": [
           "Big and white",
@@ -487,11 +488,18 @@
           "hi": "'elle est petite… elle est blanche' — स्त्रीलिंग अंत सुनाई देते हैं।"
         },
         "kind": "literal",
-        "evidence": "Elle est petite, mais elle est très jolie. Elle est blanche"
+        "evidence": "Elle est petite, mais elle est très jolie. Elle est blanche",
+        "optionsHi": [
+          "बड़ी और सफ़ेद",
+          "बड़ी और धूसर",
+          "छोटी और सफ़ेद",
+          "छोटी और हरी"
+        ]
       },
       {
         "q": {
-          "en": "What colour is the sofa?"
+          "en": "What colour is the sofa?",
+          "hi": "सोफ़ा किस रंग का है?"
         },
         "options": [
           "Dark green",
@@ -505,11 +513,18 @@
           "hi": "'vert foncé' — पुल्लिंग क्योंकि canapé पुल्लिंग है।"
         },
         "kind": "literal",
-        "evidence": "grand, confortable et vert foncé"
+        "evidence": "grand, confortable et vert foncé",
+        "optionsHi": [
+          "गहरा हरा",
+          "नीला",
+          "धूसर",
+          "सफ़ेद"
+        ]
       },
       {
         "q": {
-          "en": "Who gave them the lamp?"
+          "en": "Who gave them the lamp?",
+          "hi": "उन्हें लैंप किसने दिया?"
         },
         "options": [
           "The landlord",
@@ -523,11 +538,18 @@
           "hi": "नेहा कहती है 'la lampe que ma mère nous a offerte' — offerte पहले आए la lampe से मेल खाता है।"
         },
         "kind": "literal",
-        "evidence": "la lampe que ma mère nous a offerte"
+        "evidence": "la lampe que ma mère nous a offerte",
+        "optionsHi": [
+          "मकान-मालिक ने",
+          "पड़ोसियों ने",
+          "Julie की माँ ने",
+          "Neha की माँ ने"
+        ]
       },
       {
         "q": {
-          "en": "What is the problem with the washing machine?"
+          "en": "What is the problem with the washing machine?",
+          "hi": "वॉशिंग मशीन में क्या समस्या है?"
         },
         "options": [
           "It is old",
@@ -541,11 +563,18 @@
           "hi": "'elle est neuve, mais elle fait un bruit bizarre' — नई है पर अजीब आवाज़ करती है।"
         },
         "kind": "literal",
-        "evidence": "la machine à laver est neuve, mais elle fait un bruit bizarre"
+        "evidence": "la machine à laver est neuve, mais elle fait un bruit bizarre",
+        "optionsHi": [
+          "वह पुरानी है",
+          "उसमें से अजीब आवाज़ आती है",
+          "वह बिलकुल काम नहीं करती",
+          "वह बहुत छोटी है"
+        ]
       },
       {
         "q": {
-          "en": "Who are the upstairs neighbours?"
+          "en": "Who are the upstairs neighbours?",
+          "hi": "ऊपर रहने वाले पड़ोसी कौन हैं?"
         },
         "options": [
           "Two male students",
@@ -559,11 +588,18 @@
           "hi": "'deux étudiantes vietnamiennes… elles sont venues' — सब स्त्रीलिंग रूप।"
         },
         "kind": "grammar",
-        "evidence": "deux étudiantes vietnamiennes, très gentilles"
+        "evidence": "deux étudiantes vietnamiennes, très gentilles",
+        "optionsHi": [
+          "दो पुरुष छात्र",
+          "मकान-मालिक का परिवार",
+          "दो वियतनामी छात्राएँ",
+          "एक वियतनामी दंपती"
+        ]
       },
       {
         "q": {
-          "en": "What do they plan for Saturday?"
+          "en": "What do they plan for Saturday?",
+          "hi": "शनिवार के लिए उनकी क्या योजना है?"
         },
         "options": [
           "To invite the neighbours",
@@ -577,7 +613,13 @@
           "hi": "'on les invitera samedi' — शनिवार को बुलाएँगे।"
         },
         "kind": "literal",
-        "evidence": "On les invitera samedi pour fêter notre nouvelle vie ici."
+        "evidence": "On les invitera samedi pour fêter notre nouvelle vie ici.",
+        "optionsHi": [
+          "पड़ोसियों को बुलाना",
+          "Neha की माँ से मिलने जाना",
+          "फिर से घर बदलना",
+          "नई वॉशिंग मशीन खरीदना"
+        ]
       }
     ],
     "dictation": [
@@ -606,37 +648,37 @@
         "fr": "Ma cuisine est petite mais lumineuse.",
         "en": "My kitchen is small but bright.",
         "hi": "मेरी रसोई छोटी है पर रोशनी वाली है।",
-        "pron": "मा क्üई-ज़ीन ए प्तीत मै ल्ü-मी-नöज़"
+        "pron": "मा क्यूई-ज़ीन ए प्तीत मे ल्यू-मी-नज़"
       },
       {
         "fr": "Le salon est grand et confortable.",
         "en": "The living room is big and comfortable.",
         "hi": "बैठक बड़ी और आरामदायक है।",
-        "pron": "लö सा-लोँ ए ग्ग़ाँ ए कोँ-फ़ॉग़-ताब्ल"
+        "pron": "ल सा-लों ए ग्राँ ए कों-फ़ॉर-ताब्ल"
       },
       {
         "fr": "Les chambres sont claires et calmes.",
         "en": "The bedrooms are light and quiet.",
         "hi": "सोने के कमरे रोशन और शांत हैं।",
-        "pron": "ले शाँब्ग़ सोँ क्लैग़ ए काल्म"
+        "pron": "ले शाँब्र सों क्लेर ए काल्म"
       },
       {
         "fr": "Ma sœur est venue m'aider à déménager.",
         "en": "My sister came to help me move.",
         "hi": "मेरी बहन घर बदलने में मेरी मदद करने आई।",
-        "pron": "मा सöग़ ए वö-न्ü मे-दे आ दे-मे-ना-झ़े"
+        "pron": "मा सर ए व-न्यू मे-दे आ दे-मे-ना-जे"
       },
       {
         "fr": "Mes parents sont arrivés d'Inde le mois dernier.",
         "en": "My parents arrived from India last month.",
         "hi": "मेरे माता-पिता पिछले महीने भारत से आए।",
-        "pron": "मे पा-ग़ाँ सोँ ता-ग़ी-वे दैँद लö म्वा दैग़-न्ये"
+        "pron": "मे पा-राँ सों ता-री-वे दैंद ल म्वा देर-न्ये"
       },
       {
         "fr": "C'est une maison ancienne, mais la salle de bains est neuve.",
         "en": "It's an old house, but the bathroom is new.",
         "hi": "यह पुराना घर है, पर बाथरूम नया है।",
-        "pron": "सै तüन मै-ज़ोँ आँ-स्यैन मै ला साल दö बैँ ए नöव"
+        "pron": "से त्यून मे-ज़ों आँ-स्येन मे ला साल द बैं ए नव"
       }
     ],
     "tip": {
@@ -655,7 +697,8 @@
     "questions": [
       {
         "q": {
-          "en": "'nous sommes allé à Québec' (Anita and her sister). What is the correct form?"
+          "en": "'nous sommes allé à Québec' (Anita and her sister). What is the correct form?",
+          "hi": "'nous sommes allé à Québec' (Anita और उसकी बहन)। सही रूप क्या है?"
         },
         "options": [
           "nous sommes allés",
@@ -673,7 +716,8 @@
       },
       {
         "q": {
-          "en": "'une musée magnifique' — what is the correction?"
+          "en": "'une musée magnifique' — what is the correction?",
+          "hi": "'une musée magnifique' — इसका सुधार क्या है?"
         },
         "options": [
           "une musée magnifique",
@@ -691,7 +735,8 @@
       },
       {
         "q": {
-          "en": "'La serveuse était très gentil' — what is the correction?"
+          "en": "'La serveuse était très gentil' — what is the correction?",
+          "hi": "'La serveuse était très gentil' — इसका सुधार क्या है?"
         },
         "options": [
           "très gentille",
@@ -705,11 +750,18 @@
           "hi": "la serveuse स्त्रीलिंग है: gentil → gentille (दो l + e)।"
         },
         "kind": "grammar",
-        "evidence": "La serveuse était très gentil"
+        "evidence": "La serveuse était très gentil",
+        "optionsHi": [
+          "très gentille",
+          "très gentile",
+          "कोई त्रुटि नहीं",
+          "très gentils"
+        ]
       },
       {
         "q": {
-          "en": "'il y a eu une problème' — why is it wrong?"
+          "en": "'il y a eu une problème' — why is it wrong?",
+          "hi": "'il y a eu une problème' — यह ग़लत क्यों है?"
         },
         "options": [
           "It should be plural",
@@ -723,11 +775,18 @@
           "hi": "le problème: -e के बावजूद पुल्लिंग।"
         },
         "kind": "grammar",
-        "evidence": "il y a eu une problème avec notre réservation"
+        "evidence": "il y a eu une problème avec notre réservation",
+        "optionsHi": [
+          "इसे बहुवचन में होना चाहिए",
+          "यह सही है",
+          "Problème पुल्लिंग है: un problème",
+          "Il y a eu ग़लत है"
+        ]
       },
       {
         "q": {
-          "en": "Which sentence in the email is CORRECT?"
+          "en": "Which sentence in the email is CORRECT?",
+          "hi": "ईमेल में कौन-सा वाक्य सही है?"
         },
         "options": [
           "ma sœur était très fatigué",
@@ -745,7 +804,8 @@
       },
       {
         "q": {
-          "en": "'vos conseils, qui ont été très utiles' — is 'utiles' correct?"
+          "en": "'vos conseils, qui ont été très utiles' — is 'utiles' correct?",
+          "hi": "'vos conseils, qui ont été très utiles' — क्या 'utiles' सही है?"
         },
         "options": [
           "No, it should be 'utilles'",
@@ -759,7 +819,13 @@
           "hi": "-e पर ख़त्म होने वाले विशेषण लिंग से नहीं बदलते; बहुवचन में -s: utiles।"
         },
         "kind": "grammar",
-        "evidence": "Merci encore pour vos conseils, qui ont été très utiles !"
+        "evidence": "Merci encore pour vos conseils, qui ont été très utiles !",
+        "optionsHi": [
+          "नहीं, इसे 'utilles' होना चाहिए",
+          "नहीं, इसे 'utilées' होना चाहिए",
+          "नहीं, इसे 'utile' होना चाहिए",
+          "हाँ: conseils बहुवचन है, और utile पुल्लिंग और स्त्रीलिंग में एक-सा रहता है"
+        ]
       }
     ]
   },
@@ -787,19 +853,19 @@
         "fr": "la semaine dernière",
         "en": "last week",
         "hi": "पिछले हफ़्ते",
-        "pron": "ला स्मैन दैग़-न्यैग़"
+        "pron": "ला स्मेन देर-न्येर"
       },
       {
         "fr": "mon amie / son mari",
         "en": "my friend (f) / her husband",
         "hi": "मेरी सहेली / उसका पति",
-        "pron": "मोँ ना-मी / सोँ मा-ग़ी"
+        "pron": "मों ना-मी / सों मा-री"
       },
       {
         "fr": "un nouvel emploi",
         "en": "a new job",
         "hi": "एक नई नौकरी",
-        "pron": "ऐँ नू-वै लाँ-प्ल्वा"
+        "pron": "ऐं नू-वे लाँ-प्ल्वा"
       }
     ],
     "model": {
@@ -835,49 +901,49 @@
         "fr": "le livre / la table",
         "en": "the book / the table",
         "hi": "किताब / मेज़",
-        "pron": "लö लीव्ग़ / ला ताब्ल"
+        "pron": "ल लीव्र / ला ताब्ल"
       },
       {
         "fr": "une robe rouge, des pantalons noirs",
         "en": "a red dress, black trousers",
         "hi": "एक लाल ड्रेस, काली पतलूनें",
-        "pron": "üन ग़ॉब ग़ूझ़ दे पाँ-ता-लोँ न्वाग़"
+        "pron": "यून रॉब रूज दे पाँ-ता-लों न्वार"
       },
       {
         "fr": "un beau garçon / une belle fille",
         "en": "a handsome boy / a beautiful girl",
         "hi": "एक सुंदर लड़का / एक सुंदर लड़की",
-        "pron": "ऐँ बो गाग़-सोँ / üन बैल फ़ीय"
+        "pron": "ऐं बो गार-सों / यून बेल फ़ीय"
       },
       {
         "fr": "Elle est née à Pune.",
         "en": "She was born in Pune.",
         "hi": "वह पुणे में पैदा हुई।",
-        "pron": "ऐ-लै ने आ पुने"
+        "pron": "ए-ले ने आ पुने"
       },
       {
         "fr": "Ils se sont levés tôt.",
         "en": "They got up early.",
         "hi": "वे जल्दी उठे।",
-        "pron": "इल सö सोँ लö-वे तो"
+        "pron": "इल स सों ल-वे तो"
       },
       {
         "fr": "Je les ai vus hier.",
         "en": "I saw them yesterday.",
         "hi": "मैंने उन्हें कल देखा।",
-        "pron": "झ़ö ले ज़े व्ü यैग़"
+        "pron": "ज ले ज़े व्यू येर"
       },
       {
         "fr": "ses parents / sa sœur / son frère",
         "en": "his/her parents / sister / brother",
         "hi": "उसके माता-पिता / उसकी बहन / उसका भाई",
-        "pron": "से पा-ग़ाँ / सा सöग़ / सोँ फ़्ग़ैग़"
+        "pron": "से पा-राँ / सा सर / सों फ़्रेर"
       },
       {
         "fr": "un vieil ami",
         "en": "an old friend",
         "hi": "एक पुराना दोस्त",
-        "pron": "ऐँ व्यै या-मी"
+        "pron": "ऐं व्ये या-मी"
       }
     ]
   },

@@ -8,7 +8,7 @@
   },
   "objective": {
     "en": "Replace a direct object with le, la, l' or les to avoid repetition, and place the pronoun correctly: before the verb, before avoir in the passé composé, and before an infinitive.",
-    "hi": "दोहराव से बचने के लिए प्रत्यक्ष कर्म (direct object) की जगह le, la, l' या les लगाना, और सर्वनाम को सही जगह रखना: क्रिया से पहले, पासे कॉम्पोज़े में avoir से पहले, और मूल क्रिया (infinitive) से पहले।"
+    "hi": "दोहराव से बचने के लिए प्रत्यक्ष कर्म (direct object) की जगह le, la, l' या les लगाना, और सर्वनाम को सही जगह रखना: क्रिया से पहले, passé composé (पूर्ण भूतकाल) में avoir से पहले, और मूल क्रिया (infinitive) से पहले।"
   },
   "prerequisites": {
     "days": [
@@ -22,7 +22,7 @@
     ],
     "summary": {
       "en": "You need articles and gender (Day 6), plurals (Day 8), objects at home (Day 23), modal verbs and futur proche + infinitive (Days 32, 37) and the passé composé (Days 41–43).",
-      "hi": "आपको आर्टिकल और लिंग (दिन 6), बहुवचन (दिन 8), घर की चीज़ें (दिन 23), modal क्रियाएँ और futur proche + मूल क्रिया (दिन 32, 37) और पासे कॉम्पोज़े (दिन 41–43) याद होने चाहिए।"
+      "hi": "आपको आर्टिकल और लिंग (दिन 6), बहुवचन (दिन 8), घर की चीज़ें (दिन 23), modal क्रियाएँ और futur proche + मूल क्रिया (दिन 32, 37) और passé composé (दिन 41–43) याद होने चाहिए।"
     }
   },
   "light": false,
@@ -32,7 +32,7 @@
       "fr": "le passeport",
       "en": "the passport",
       "hi": "पासपोर्ट",
-      "pron": "लö पास-पॉग़",
+      "pron": "ल पास-पॉर",
       "ipa": "lə paspɔʁ",
       "pos": "noun",
       "gender": "m",
@@ -42,7 +42,7 @@
       "fr": "le chargeur",
       "en": "the charger",
       "hi": "चार्जर",
-      "pron": "लö शाग़-झ़öग़",
+      "pron": "ल शार-जर",
       "ipa": "lə ʃaʁʒœʁ",
       "pos": "noun",
       "gender": "m",
@@ -52,7 +52,7 @@
       "fr": "les lunettes",
       "en": "glasses, spectacles",
       "hi": "चश्मा",
-      "pron": "ले लü-नैत",
+      "pron": "ले ल्यू-नेत",
       "ipa": "le lynɛt",
       "pos": "noun",
       "gender": "f",
@@ -76,7 +76,7 @@
       "fr": "le linge",
       "en": "the laundry, the washing",
       "hi": "धुलाई के कपड़े",
-      "pron": "लö लैँझ़",
+      "pron": "ल लैंज",
       "ipa": "lə lɛ̃ʒ",
       "pos": "noun",
       "gender": "m",
@@ -86,7 +86,7 @@
       "fr": "la vaisselle",
       "en": "the dishes",
       "hi": "बर्तन (धोने वाले)",
-      "pron": "ला वै-सैल",
+      "pron": "ला वे-सेल",
       "ipa": "la vɛsɛl",
       "pos": "noun",
       "gender": "f",
@@ -100,7 +100,7 @@
       "fr": "la poubelle",
       "en": "the bin, the garbage",
       "hi": "कूड़ेदान",
-      "pron": "ला पू-बैल",
+      "pron": "ला पू-बेल",
       "ipa": "la pubɛl",
       "pos": "noun",
       "gender": "f",
@@ -130,7 +130,7 @@
       "fr": "vérifier",
       "en": "to check",
       "hi": "जाँचना",
-      "pron": "वे-ग़ी-फ़्ये",
+      "pron": "वे-री-फ़्ये",
       "ipa": "veʁifje",
       "pos": "verb"
     },
@@ -138,7 +138,7 @@
       "fr": "emporter",
       "en": "to take along",
       "hi": "साथ ले जाना",
-      "pron": "आँ-पॉग़-ते",
+      "pron": "आँ-पॉर-ते",
       "ipa": "ɑ̃pɔʁte",
       "pos": "verb"
     },
@@ -158,37 +158,37 @@
       "fr": "Tu as ton passeport ? — Oui, je l'ai.",
       "en": "Do you have your passport? — Yes, I have it.",
       "hi": "तुम्हारे पास पासपोर्ट है? — हाँ, है।",
-      "pron": "तü आ तोँ पास-पॉग़ — वी झ़ö ले"
+      "pron": "त्यू आ तों पास-पॉर — वी ज ले"
     },
     {
       "fr": "Je ne le trouve pas !",
       "en": "I can't find it!",
       "hi": "मुझे वह मिल नहीं रहा!",
-      "pron": "झ़ö नö लö त्रूव पा"
+      "pron": "ज न ल त्रूव पा"
     },
     {
       "fr": "Tu peux les mettre dans la valise ?",
       "en": "Can you put them in the suitcase?",
       "hi": "क्या तुम उन्हें सूटकेस में रख सकते हो?",
-      "pron": "तü पö ले मैत्ग़ दाँ ला वा-लीज़"
+      "pron": "त्यू प ले मेत्र दाँ ला वा-लीज़"
     },
     {
       "fr": "Je l'ai déjà fait.",
       "en": "I've already done it.",
       "hi": "मैंने वह पहले ही कर दिया।",
-      "pron": "झ़ö ले दे-झ़ा फ़ै"
+      "pron": "ज ले दे-जा फ़े"
     },
     {
       "fr": "Je vais le faire tout de suite.",
       "en": "I'll do it right away.",
       "hi": "मैं अभी कर देता/देती हूँ।",
-      "pron": "झ़ö वै लö फ़ैग़ तू द स्üइत"
+      "pron": "ज वे ल फ़ेर तू द स्यूइत"
     },
     {
       "fr": "Le voilà !",
       "en": "There it is!",
       "hi": "यह रहा!",
-      "pron": "लö व्वा-ला",
+      "pron": "ल व्वा-ला",
       "note": {
         "en": "Feminine: La voilà ! Plural: Les voilà !",
         "hi": "स्त्रीलिंग: La voilà ! बहुवचन: Les voilà !"
@@ -202,7 +202,7 @@
     },
     "explanation": {
       "en": "A direct object follows the verb with no preposition: Je prends le bus. To avoid repeating it, use le (masculine), la (feminine), l' (before a vowel or mute h), les (plural): Je le prends. These pronouns can replace things or people. Position: (1) before the conjugated verb: Je la vois. Negative: Je ne la vois pas. (2) In the passé composé, before avoir: Je l'ai vu. Je ne l'ai pas vu. (3) With a verb + infinitive (pouvoir, vouloir, devoir, aller + infinitive), before the infinitive: Je vais le faire. Tu peux les prendre ? In writing, the participle agrees with a feminine or plural pronoun placed before avoir: La valise ? Je l'ai prise. Les clés ? Je les ai trouvées.",
-      "hi": "प्रत्यक्ष कर्म (direct object) क्रिया के बाद बिना किसी पूर्वसर्ग (preposition) के आता है: Je prends le bus। उसे दोहराने से बचने के लिए le (पुल्लिंग), la (स्त्रीलिंग), l' (स्वर या मूक h से पहले), les (बहुवचन) लगाइए: Je le prends। ये सर्वनाम चीज़ों और लोगों, दोनों की जगह आ सकते हैं। जगह: (1) संयुग्मित (conjugated) क्रिया से पहले: Je la vois। नकार: Je ne la vois pas। (2) पासे कॉम्पोज़े में avoir से पहले: Je l'ai vu। Je ne l'ai pas vu। (3) क्रिया + मूल क्रिया (pouvoir, vouloir, devoir, aller + infinitive) में, मूल क्रिया से पहले: Je vais le faire। Tu peux les prendre ? लिखते समय, अगर स्त्रीलिंग या बहुवचन सर्वनाम avoir से पहले आए तो कृदंत मेल खाता है: La valise ? Je l'ai prise। Les clés ? Je les ai trouvées।"
+      "hi": "प्रत्यक्ष कर्म (direct object) क्रिया के बाद बिना किसी पूर्वसर्ग (preposition) के आता है: Je prends le bus। उसे दोहराने से बचने के लिए le (पुल्लिंग), la (स्त्रीलिंग), l' (स्वर या मूक h से पहले), les (बहुवचन) लगाइए: Je le prends। ये सर्वनाम चीज़ों और लोगों, दोनों की जगह आ सकते हैं। जगह: (1) संयुग्मित (conjugated) क्रिया से पहले: Je la vois। नकार: Je ne la vois pas। (2) passé composé में avoir से पहले: Je l'ai vu। Je ne l'ai pas vu। (3) क्रिया + मूल क्रिया (pouvoir, vouloir, devoir, aller + infinitive) में, मूल क्रिया से पहले: Je vais le faire। Tu peux les prendre ? लिखते समय, अगर स्त्रीलिंग या बहुवचन सर्वनाम avoir से पहले आए तो कृदंत मेल खाता है: La valise ? Je l'ai prise। Les clés ? Je les ai trouvées।"
     },
     "comparison": {
       "en": "Good news for Hindi speakers: Hindi already puts the object pronoun before the verb — 'मैं उसे देखता हूँ', 'मैंने उसे देखा'. French does the same: je le vois, je l'ai vu. English puts it after ('I see it'), which is why English speakers struggle. The difference: Hindi उसे doesn't show gender; French chooses le or la by the gender of the noun it replaces — la valise → la, even though सूटकेस is masculine in Hindi.",
@@ -213,31 +213,31 @@
         "fr": "Le pain ? Je l'achète à la boulangerie.",
         "en": "The bread? I buy it at the bakery.",
         "hi": "ब्रेड? मैं उसे बेकरी से ख़रीदता/ख़रीदती हूँ।",
-        "pron": "लö पैँ — झ़ö ला-शैत आ ला बू-लाँझ़-ग़ी"
+        "pron": "ल पैं — ज ला-शेत आ ला बू-लाँज-री"
       },
       {
         "fr": "La vaisselle ? Je la fais après le dîner.",
         "en": "The dishes? I do them after dinner.",
         "hi": "बर्तन? मैं उन्हें रात के खाने के बाद धोता/धोती हूँ।",
-        "pron": "ला वै-सैल — झ़ö ला फ़ै आ-प्रै लö दी-ने"
+        "pron": "ला वे-सेल — ज ला फ़े आ-प्रे ल दी-ने"
       },
       {
         "fr": "Tes clés ? Je ne les ai pas vues.",
         "en": "Your keys? I haven't seen them.",
         "hi": "तुम्हारी चाबियाँ? मैंने उन्हें नहीं देखा।",
-        "pron": "ते क्ले — झ़ö नö ले ज़े पा वü"
+        "pron": "ते क्ले — ज न ले ज़े पा व्यू"
       },
       {
         "fr": "Ce film ? Je vais le regarder ce soir.",
         "en": "That film? I'm going to watch it tonight.",
         "hi": "वह फ़िल्म? मैं उसे आज रात देखने वाला/वाली हूँ।",
-        "pron": "सö फ़िल्म — झ़ö वै लö ग़ö-गाग़-दे सö स्वाग़"
+        "pron": "स फ़िल्म — ज वे ल र-गार-दे स स्वार"
       },
       {
         "fr": "Ma voisine ? Je la connais bien.",
         "en": "My neighbour? I know her well.",
         "hi": "मेरी पड़ोसन? मैं उसे अच्छी तरह जानता/जानती हूँ।",
-        "pron": "मा व्वा-ज़ीन — झ़ö ला को-नै ब्यैँ"
+        "pron": "मा व्वा-ज़ीन — ज ला को-ने ब्यैं"
       }
     ],
     "pitfalls": [
@@ -258,43 +258,43 @@
   "pronunciation": {
     "focus": "Elision: je l'ai, je l'aime",
     "tip": {
-      "en": "le and la lose their vowel before a vowel sound and become l': je l'ai (झ़ö ले), je l'aime (झ़ö लैम). The l' attaches to the verb as one word. 'les' doesn't elide — it makes a z-liaison instead: je les‿aime (झ़ö ले ज़ैम).",
-      "hi": "स्वर की आवाज़ से पहले le और la अपना स्वर खो देते हैं और l' बन जाते हैं: je l'ai (झ़ö ले), je l'aime (झ़ö लैम)। l' क्रिया से एक शब्द की तरह जुड़ जाता है। 'les' का स्वर नहीं गिरता — उसकी जगह z वाला लियाज़ों होता है: je les‿aime (झ़ö ले ज़ैम)।"
+      "en": "le and la lose their vowel before a vowel sound and become l': je l'ai (ज ले), je l'aime (ज लेम). The l' attaches to the verb as one word. 'les' doesn't elide — it makes a z-liaison instead: je les‿aime (ज ले ज़ेम).",
+      "hi": "स्वर की आवाज़ से पहले le और la अपना स्वर खो देते हैं और l' बन जाते हैं: je l'ai (ज ले), je l'aime (ज लेम)। l' क्रिया से एक शब्द की तरह जुड़ जाता है। 'les' का स्वर नहीं गिरता — उसकी जगह z वाला लियाज़ों होता है: je les‿aime (ज ले ज़ेम)।"
     },
     "words": [
       {
         "fr": "je l'ai",
         "en": "I have it",
         "hi": "वह मेरे पास है",
-        "pron": "झ़ö ले",
+        "pron": "ज ले",
         "ipa": "ʒə le"
       },
       {
         "fr": "je l'aime",
         "en": "I love it / him / her",
         "hi": "मुझे वह पसंद है / मैं उससे प्यार करता/करती हूँ",
-        "pron": "झ़ö लैम",
+        "pron": "ज लेम",
         "ipa": "ʒə lɛm"
       },
       {
         "fr": "je l'achète",
         "en": "I buy it",
         "hi": "मैं उसे ख़रीदता/ख़रीदती हूँ",
-        "pron": "झ़ö ला-शैत",
+        "pron": "ज ला-शेत",
         "ipa": "ʒə laʃɛt"
       },
       {
         "fr": "tu l'as vu ?",
         "en": "did you see it?",
         "hi": "तुमने उसे देखा?",
-        "pron": "तü ला वü",
+        "pron": "त्यू ला व्यू",
         "ipa": "ty la vy"
       },
       {
         "fr": "je les aime",
         "en": "I love them",
         "hi": "मुझे वे पसंद हैं",
-        "pron": "झ़ö ले ज़ैम",
+        "pron": "ज ले ज़ेम",
         "ipa": "ʒə le zɛm"
       }
     ]
@@ -420,7 +420,8 @@
     "questions": [
       {
         "q": {
-          "en": "Where are the passports?"
+          "en": "Where are the passports?",
+          "hi": "पासपोर्ट कहाँ हैं?"
         },
         "options": [
           "In Arjun's backpack",
@@ -434,11 +435,18 @@
           "hi": "'Ils sont dans mon sac à dos.' (वे मेरे बैकपैक में हैं।)"
         },
         "kind": "literal",
-        "evidence": "Ils sont dans mon sac à dos."
+        "evidence": "Ils sont dans mon sac à dos.",
+        "optionsHi": [
+          "Arjun के बैकपैक में",
+          "बड़े सूटकेस में",
+          "टीवी के पीछे",
+          "Priya के बैग में"
+        ]
       },
       {
         "q": {
-          "en": "In 'Je les ai imprimés hier', what does 'les' refer to?"
+          "en": "In 'Je les ai imprimés hier', what does 'les' refer to?",
+          "hi": "'Je les ai imprimés hier' में 'les' किसके लिए आया है?"
         },
         "options": [
           "The passports",
@@ -451,11 +459,17 @@
           "hi": "प्रिया ने अभी-अभी 'les billets d'avion' (हवाई टिकट) के बारे में पूछा है।"
         },
         "kind": "grammar",
-        "evidence": "Je les ai imprimés hier"
+        "evidence": "Je les ai imprimés hier",
+        "optionsHi": [
+          "पासपोर्ट के लिए",
+          "हवाई जहाज़ के टिकटों के लिए",
+          "स्वेटरों के लिए"
+        ]
       },
       {
         "q": {
-          "en": "Why are they not taking their coats?"
+          "en": "Why are they not taking their coats?",
+          "hi": "वे अपने कोट क्यों नहीं ले जा रहे हैं?"
         },
         "options": [
           "It's 32 degrees in Delhi",
@@ -468,11 +482,17 @@
           "hi": "अर्जुन ने मौसम देखा: बत्तीस डिग्री।"
         },
         "kind": "inference",
-        "evidence": "trente-deux degrés ! On n'emporte pas les manteaux."
+        "evidence": "trente-deux degrés ! On n'emporte pas les manteaux.",
+        "optionsHi": [
+          "Delhi में 32 डिग्री है",
+          "सूटकेस भरा हुआ है",
+          "वे उन्हें भूल गए"
+        ]
       },
       {
         "q": {
-          "en": "What will Arjun do right away?"
+          "en": "What will Arjun do right away?",
+          "hi": "Arjun तुरंत क्या करेगा?"
         },
         "options": [
           "Call the taxi",
@@ -485,11 +505,17 @@
           "hi": "'Je vais la sortir tout de suite' — la = la poubelle (कूड़ा)।"
         },
         "kind": "literal",
-        "evidence": "Je vais la sortir tout de suite."
+        "evidence": "Je vais la sortir tout de suite.",
+        "optionsHi": [
+          "टैक्सी बुलाएगा",
+          "अपना चार्जर ढूँढेगा",
+          "कचरा बाहर रखेगा"
+        ]
       },
       {
         "q": {
-          "en": "Where were Priya's glasses?"
+          "en": "Where were Priya's glasses?",
+          "hi": "Priya का चश्मा कहाँ था?"
         },
         "options": [
           "In the suitcase",
@@ -502,7 +528,12 @@
           "hi": "चश्मा पूरे समय उसके सिर पर ही था।"
         },
         "kind": "literal",
-        "evidence": "elles sont sur ta tête !"
+        "evidence": "elles sont sur ta tête !",
+        "optionsHi": [
+          "सूटकेस में",
+          "उसके सिर पर",
+          "टीवी के पीछे"
+        ]
       }
     ],
     "dictation": [
@@ -530,35 +561,35 @@
         "fr": "Tu fais la vaisselle tous les jours ?",
         "en": "Do you do the dishes every day?",
         "hi": "क्या तुम रोज़ बर्तन धोते हो?",
-        "pron": "तü फ़ै ला वै-सैल तू ले झ़ूग़",
+        "pron": "त्यू फ़े ला वे-सेल तू ले जूर",
         "model": "Oui, je la fais tous les soirs après le dîner."
       },
       {
         "fr": "Tu regardes les nouvelles le matin ?",
         "en": "Do you watch the news in the morning?",
         "hi": "क्या तुम सुबह समाचार देखते हो?",
-        "pron": "तü ग़ö-गाग़द ले नू-वैल लö मा-तैँ",
+        "pron": "त्यू र-गारद ले नू-वेल ल मा-तैं",
         "model": "Non, je ne les regarde pas le matin. Je les écoute à la radio."
       },
       {
         "fr": "Tu as fini tes devoirs de français ?",
         "en": "Have you finished your French homework?",
         "hi": "क्या तुमने अपना फ़्रेंच का गृहकार्य पूरा कर लिया?",
-        "pron": "तü आ फ़ी-नी ते दö-व्वाग़ द फ़्राँ-सै",
+        "pron": "त्यू आ फ़ी-नी ते द-व्वार द फ़्राँ-से",
         "model": "Oui, je les ai finis hier soir."
       },
       {
         "fr": "Tu vas laver ta voiture ce week-end ?",
         "en": "Are you going to wash your car this weekend?",
         "hi": "क्या तुम इस वीकेंड अपनी गाड़ी धोने वाले हो?",
-        "pron": "तü वा ला-वे ता व्वा-तüग़ सö वी-कैन्द",
+        "pron": "त्यू वा ला-वे ता व्वा-त्यूर स वी-केन्द",
         "model": "Non, je ne vais pas la laver : il neige !"
       },
       {
         "fr": "Tu connais tes voisins ?",
         "en": "Do you know your neighbours?",
         "hi": "क्या तुम अपने पड़ोसियों को जानते हो?",
-        "pron": "तü को-नै ते व्वा-ज़ैँ",
+        "pron": "त्यू को-ने ते व्वा-ज़ैं",
         "model": "Oui, je les connais bien. Ils sont très gentils."
       }
     ],
@@ -578,7 +609,8 @@
     "questions": [
       {
         "q": {
-          "en": "Where can you top up your laundry card?"
+          "en": "Where can you top up your laundry card?",
+          "hi": "आप अपना लॉन्ड्री कार्ड कहाँ रिचार्ज कर सकते हैं?"
         },
         "options": [
           "At reception",
@@ -592,11 +624,18 @@
           "hi": "कार्ड रिसेप्शन से ख़रीदते हैं, पर उसे रिचार्ज ('la recharger') तहख़ाने में करते हैं।"
         },
         "kind": "literal",
-        "evidence": "Vous pouvez la recharger au sous-sol, à côté de l'ascenseur."
+        "evidence": "Vous pouvez la recharger au sous-sol, à côté de l'ascenseur.",
+        "optionsHi": [
+          "रिसेप्शन पर",
+          "तहख़ाने में, लिफ़्ट के पास",
+          "चौकीदार से",
+          "ऑनलाइन"
+        ]
       },
       {
         "q": {
-          "en": "In 'Vous le trouverez à l'intérieur de la porte', what is 'le'?"
+          "en": "In 'Vous le trouverez à l'intérieur de la porte', what is 'le'?",
+          "hi": "'Vous le trouverez à l'intérieur de la porte' में 'le' क्या है?"
         },
         "options": [
           "The programme",
@@ -609,11 +648,17 @@
           "hi": "इससे पहले वाला वाक्य 'le filtre' (फ़िल्टर) के बारे में है।"
         },
         "kind": "grammar",
-        "evidence": "nettoyez le filtre avant chaque utilisation. Vous le trouverez à l'intérieur de la porte."
+        "evidence": "nettoyez le filtre avant chaque utilisation. Vous le trouverez à l'intérieur de la porte.",
+        "optionsHi": [
+          "कार्यक्रम (प्रोग्राम)",
+          "कपड़े",
+          "फ़िल्टर"
+        ]
       },
       {
         "q": {
-          "en": "Why should you take your laundry out quickly?"
+          "en": "Why should you take your laundry out quickly?",
+          "hi": "आपको अपने कपड़े जल्दी क्यों निकाल लेने चाहिए?"
         },
         "options": [
           "Other people may need the machine",
@@ -626,11 +671,17 @@
           "hi": "हो सकता है दूसरे निवासी मशीन का इंतज़ार कर रहे हों।"
         },
         "kind": "inference",
-        "evidence": "les autres résidents attendent peut-être la machine"
+        "evidence": "les autres résidents attendent peut-être la machine",
+        "optionsHi": [
+          "दूसरे लोगों को मशीन की ज़रूरत हो सकती है",
+          "कमरा जल्दी बंद हो जाता है",
+          "कपड़े ख़राब हो जाएँगे"
+        ]
       },
       {
         "q": {
-          "en": "Can you start a wash at 11 p.m.?"
+          "en": "Can you start a wash at 11 p.m.?",
+          "hi": "क्या आप रात 11 बजे धुलाई शुरू कर सकते हैं?"
         },
         "options": [
           "Yes, it's open 24 hours",
@@ -643,11 +694,17 @@
           "hi": "सुबह 8 से रात 10 (22 h) बजे तक खुला है।"
         },
         "kind": "inference",
-        "evidence": "La buanderie est ouverte tous les jours de 8 h à 22 h."
+        "evidence": "La buanderie est ouverte tous les jours de 8 h à 22 h.",
+        "optionsHi": [
+          "हाँ, यह 24 घंटे खुला रहता है",
+          "सिर्फ़ सप्ताहांत में",
+          "नहीं, यह रात 10 बजे बंद हो जाता है"
+        ]
       },
       {
         "q": {
-          "en": "Which programme should you choose for towels?"
+          "en": "Which programme should you choose for towels?",
+          "hi": "तौलियों के लिए आपको कौन-सा प्रोग्राम चुनना चाहिए?"
         },
         "options": [
           "Hot",
@@ -660,7 +717,12 @@
           "hi": "चादरों और तौलियों के लिए: 'chaud' (गर्म) प्रोग्राम।"
         },
         "kind": "literal",
-        "evidence": "Pour les draps et les serviettes, choisissez le programme « chaud »."
+        "evidence": "Pour les draps et les serviettes, choisissez le programme « chaud ».",
+        "optionsHi": [
+          "गरम",
+          "ठंडा",
+          "तेज़"
+        ]
       }
     ]
   },
@@ -688,19 +750,19 @@
         "fr": "Je les ai trouvées.",
         "en": "I found them.",
         "hi": "मुझे वे मिल गईं।",
-        "pron": "झ़ö ले ज़े त्रू-वे"
+        "pron": "ज ले ज़े त्रू-वे"
       },
       {
         "fr": "Je l'ai mis sur la table.",
         "en": "I put it on the table.",
         "hi": "मैंने उसे मेज़ पर रख दिया।",
-        "pron": "झ़ö ले मी सüग़ ला ताब्ल"
+        "pron": "ज ले मी स्यूर ला ताब्ल"
       },
       {
         "fr": "Je vais la porter.",
         "en": "I'm going to wear it.",
         "hi": "मैं उसे पहनने वाला/वाली हूँ।",
-        "pron": "झ़ö वै ला पॉग़-ते"
+        "pron": "ज वे ला पॉर-ते"
       }
     ],
     "model": {
@@ -736,43 +798,43 @@
         "fr": "la clé, le sac, la porte",
         "en": "the key, the bag, the door",
         "hi": "चाबी, बैग, दरवाज़ा",
-        "pron": "ला क्ले लö साक ला पॉग़त"
+        "pron": "ला क्ले ल साक ला पॉरत"
       },
       {
         "fr": "sous le canapé",
         "en": "under the sofa",
         "hi": "सोफ़े के नीचे",
-        "pron": "सू लö का-ना-पे"
+        "pron": "सू ल का-ना-पे"
       },
       {
         "fr": "J'ai mis mon manteau.",
         "en": "I put on my coat.",
         "hi": "मैंने अपना कोट पहना।",
-        "pron": "झ़े मी मोँ माँ-तो"
+        "pron": "जे मी मों माँ-तो"
       },
       {
         "fr": "Je suis parti(e) à huit heures.",
         "en": "I left at eight.",
         "hi": "मैं आठ बजे निकला/निकली।",
-        "pron": "झ़ö स्üई पाग़-ती आ üई तöग़"
+        "pron": "ज स्यूई पार-ती आ यूई तर"
       },
       {
         "fr": "Je ferai la vaisselle demain.",
         "en": "I'll do the dishes tomorrow.",
         "hi": "मैं कल बर्तन धो दूँगा/दूँगी।",
-        "pron": "झ़ö फ़ö-ग़े ला वै-सैल दö-मैँ"
+        "pron": "ज फ़-रे ला वे-सेल द-मैं"
       },
       {
         "fr": "Cette valise est plus grande.",
         "en": "This suitcase is bigger.",
         "hi": "यह सूटकेस ज़्यादा बड़ा है।",
-        "pron": "सैत वा-लीज़ ए प्लü ग्राँद"
+        "pron": "सेत वा-लीज़ ए प्ल्यू ग्राँद"
       },
       {
         "fr": "Je dois sortir la poubelle.",
         "en": "I have to take out the garbage.",
         "hi": "मुझे कूड़ा बाहर रखना है।",
-        "pron": "झ़ö द्वा सॉग़-तीग़ ला पू-बैल"
+        "pron": "ज द्वा सॉर-तीर ला पू-बेल"
       }
     ]
   },
@@ -890,14 +952,14 @@
         "hi": "'je les aime' कैसे बोला जाता है?"
       },
       "options": [
-        "झ़ö ले ऐम",
-        "झ़ö ले ज़ैम",
-        "झ़ö लैम"
+        "ज ले एम",
+        "ज ले ज़ेम",
+        "ज लेम"
       ],
       "answer": 1,
       "explanation": {
-        "en": "les + vowel → z-liaison: ले ज़ैम.",
-        "hi": "les + स्वर → z वाला लियाज़ों: ले ज़ैम।"
+        "en": "les + vowel → z-liaison: ले ज़ेम.",
+        "hi": "les + स्वर → z वाला लियाज़ों: ले ज़ेम।"
       }
     }
   ]

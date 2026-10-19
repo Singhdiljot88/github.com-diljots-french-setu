@@ -13,28 +13,28 @@
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "vingt et un, vingt-deux, vingt-trois", "en": "21, 22, 23", "hi": "इक्कीस, बाईस, तेईस", "pron": "वैँ-ते-ऐँ वैँत-दö वैँत-त्ग़्वा", "ipa": "vɛ̃teɛ̃ vɛ̃tdø vɛ̃ttʁwa", "pos": "number", "note": { "en": "From 21 to 29 the t of vingt is pronounced.", "hi": "21 से 29 तक vingt का t बोला जाता है।" } },
-    { "fr": "trente", "en": "30", "hi": "तीस", "pron": "त्ग़ाँत", "ipa": "tʁɑ̃t", "pos": "number" },
-    { "fr": "quarante", "en": "40", "hi": "चालीस", "pron": "का-ग़ाँत", "ipa": "kaʁɑ̃t", "pos": "number" },
-    { "fr": "cinquante", "en": "50", "hi": "पचास", "pron": "सैँ-काँत", "ipa": "sɛ̃kɑ̃t", "pos": "number" },
+    { "fr": "vingt et un, vingt-deux, vingt-trois", "en": "21, 22, 23", "hi": "इक्कीस, बाईस, तेईस", "pron": "वैं-ते-ऐं वैंत-द वैंत-त्र्वा", "ipa": "vɛ̃teɛ̃ vɛ̃tdø vɛ̃ttʁwa", "pos": "number", "note": { "en": "From 21 to 29 the t of vingt is pronounced.", "hi": "21 से 29 तक vingt का t बोला जाता है।" } },
+    { "fr": "trente", "en": "30", "hi": "तीस", "pron": "त्राँत", "ipa": "tʁɑ̃t", "pos": "number" },
+    { "fr": "quarante", "en": "40", "hi": "चालीस", "pron": "का-राँत", "ipa": "kaʁɑ̃t", "pos": "number" },
+    { "fr": "cinquante", "en": "50", "hi": "पचास", "pron": "सैं-काँत", "ipa": "sɛ̃kɑ̃t", "pos": "number" },
     { "fr": "soixante", "en": "60", "hi": "साठ", "pron": "स्वा-साँत", "ipa": "swasɑ̃t", "pos": "number", "note": { "en": "The x sounds like s.", "hi": "x की आवाज़ 'स' है।" } },
     { "fr": "soixante-dix", "en": "70 (60 + 10)", "hi": "सत्तर (60 + 10)", "pron": "स्वा-साँत-दीस", "ipa": "swasɑ̃tdis", "pos": "number" },
-    { "fr": "soixante et onze", "en": "71 (60 + 11)", "hi": "इकहत्तर (60 + 11)", "pron": "स्वा-साँ-ते-ओँज़", "ipa": "swasɑ̃teɔ̃z", "pos": "number" },
-    { "fr": "quatre-vingts", "en": "80 (4 × 20)", "hi": "अस्सी (4 × 20)", "pron": "कात्ग़ö-वैँ", "ipa": "katʁəvɛ̃", "pos": "number", "note": { "en": "With s only when nothing follows: quatre-vingts, but quatre-vingt-un.", "hi": "s सिर्फ़ तब, जब आगे कुछ न हो: quatre-vingts, पर quatre-vingt-un।" } },
-    { "fr": "quatre-vingt-dix", "en": "90 (4 × 20 + 10)", "hi": "नब्बे (4 × 20 + 10)", "pron": "कात्ग़ö-वैँ-दीस", "ipa": "katʁəvɛ̃dis", "pos": "number" },
+    { "fr": "soixante et onze", "en": "71 (60 + 11)", "hi": "इकहत्तर (60 + 11)", "pron": "स्वा-साँ-ते-ओंज़", "ipa": "swasɑ̃teɔ̃z", "pos": "number" },
+    { "fr": "quatre-vingts", "en": "80 (4 × 20)", "hi": "अस्सी (4 × 20)", "pron": "का-त्र-वैं", "ipa": "katʁəvɛ̃", "pos": "number", "note": { "en": "With s only when nothing follows: quatre-vingts, but quatre-vingt-un.", "hi": "s सिर्फ़ तब, जब आगे कुछ न हो: quatre-vingts, पर quatre-vingt-un।" } },
+    { "fr": "quatre-vingt-dix", "en": "90 (4 × 20 + 10)", "hi": "नब्बे (4 × 20 + 10)", "pron": "का-त्र-वैं-दीस", "ipa": "katʁəvɛ̃dis", "pos": "number" },
     { "fr": "cent", "en": "100", "hi": "सौ", "pron": "साँ", "ipa": "sɑ̃", "pos": "number", "note": { "en": "Just 'cent', not 'un cent'.", "hi": "सिर्फ़ 'cent', 'un cent' नहीं।" } },
-    { "fr": "le numéro de téléphone", "en": "phone number", "hi": "फ़ोन नंबर", "pron": "लö नü-मे-ग़ो दö ते-ले-फ़ॉन", "ipa": "lə nymeʁo də telefɔn", "pos": "noun", "gender": "m", "lemma": "numéro" },
-    { "fr": "l'adresse", "en": "address", "hi": "पता", "pron": "ला-द्ग़ैस", "ipa": "ladʁɛs", "pos": "noun", "gender": "f", "lemma": "adresse", "note": { "en": "One d in French (English: address).", "hi": "फ़्रेंच में एक d (अंग्रेज़ी में दो)।" } },
-    { "fr": "le dollar / l'euro", "en": "dollar / euro", "hi": "डॉलर / यूरो", "pron": "लö दो-लाग़ / लö-ग़ो", "ipa": "lə dɔlaʁ / løʁo", "pos": "noun", "gender": "m", "lemma": "dollar" },
-    { "fr": "le prix", "en": "price", "hi": "क़ीमत / दाम", "pron": "लö प्ग़ी", "ipa": "lə pʁi", "pos": "noun", "gender": "m", "lemma": "prix", "note": { "en": "Masculine in French; क़ीमत is feminine in Hindi.", "hi": "फ़्रेंच में पुल्लिंग; हिंदी में 'क़ीमत' स्त्रीलिंग है।" } }
+    { "fr": "le numéro de téléphone", "en": "phone number", "hi": "फ़ोन नंबर", "pron": "ल न्यू-मे-रो द ते-ले-फ़ॉन", "ipa": "lə nymeʁo də telefɔn", "pos": "noun", "gender": "m", "lemma": "numéro" },
+    { "fr": "l'adresse", "en": "address", "hi": "पता", "pron": "ला-द्रेस", "ipa": "ladʁɛs", "pos": "noun", "gender": "f", "lemma": "adresse", "note": { "en": "One d in French (English: address).", "hi": "फ़्रेंच में एक d (अंग्रेज़ी में दो)।" } },
+    { "fr": "le dollar / l'euro", "en": "dollar / euro", "hi": "डॉलर / यूरो", "pron": "ल दो-लार / ल-रो", "ipa": "lə dɔlaʁ / løʁo", "pos": "noun", "gender": "m", "lemma": "dollar" },
+    { "fr": "le prix", "en": "price", "hi": "क़ीमत / दाम", "pron": "ल प्री", "ipa": "lə pʁi", "pos": "noun", "gender": "m", "lemma": "prix", "note": { "en": "Masculine in French; क़ीमत is feminine in Hindi.", "hi": "फ़्रेंच में पुल्लिंग; हिंदी में 'क़ीमत' स्त्रीलिंग है।" } }
   ],
   "phrases": [
-    { "fr": "Quel est votre numéro de téléphone ?", "en": "What is your phone number?", "hi": "आपका फ़ोन नंबर क्या है?", "pron": "कै लै वोत्ग़ नü-मे-ग़ो दö ते-ले-फ़ॉन", "ipa": "kɛ lɛ vɔtʁ nymeʁo də telefɔn" },
-    { "fr": "C'est le 06 12 34 56 78.", "en": "It's 06 12 34 56 78. (France, said in pairs)", "hi": "यह 06 12 34 56 78 है। (फ़्रांस, जोड़ियों में)", "pron": "सै लö ज़े-ग़ो सीस दूज़ त्ग़ाँत-कात्ग़ सैँ-काँत-सीस स्वा-साँत-दी-ज़üइत", "ipa": "sɛ lə zeʁo sis duz tʁɑ̃tkatʁ sɛ̃kɑ̃tsis swasɑ̃tdizɥit" },
-    { "fr": "Quelle est votre adresse ?", "en": "What is your address?", "hi": "आपका पता क्या है?", "pron": "कै लै वो-त्ग़ा-द्ग़ैस", "ipa": "kɛ lɛ vɔtʁadʁɛs" },
-    { "fr": "J'habite au 45, rue Laval.", "en": "I live at 45 Laval Street.", "hi": "मैं 45, रू लावाल पर रहता/रहती हूँ।", "pron": "झ़ा-बीत ओ का-ग़ाँत-सैँक ग़ü ला-वाल", "ipa": "ʒabit o kaʁɑ̃tsɛ̃k ʁy laval" },
-    { "fr": "C'est combien ? — Trente dollars.", "en": "How much is it? — Thirty dollars.", "hi": "यह कितने का है? — तीस डॉलर।", "pron": "सै कोँ-ब्यैँ — त्ग़ाँत दो-लाग़", "ipa": "sɛ kɔ̃bjɛ̃ — tʁɑ̃t dɔlaʁ" },
-    { "fr": "Je répète.", "en": "I'll repeat.", "hi": "मैं दोहराता/दोहराती हूँ।", "pron": "झ़ö ग़े-पैत", "ipa": "ʒə ʁepɛt" }
+    { "fr": "Quel est votre numéro de téléphone ?", "en": "What is your phone number?", "hi": "आपका फ़ोन नंबर क्या है?", "pron": "के ले वोत्र न्यू-मे-रो द ते-ले-फ़ॉन", "ipa": "kɛ lɛ vɔtʁ nymeʁo də telefɔn" },
+    { "fr": "C'est le 06 12 34 56 78.", "en": "It's 06 12 34 56 78. (France, said in pairs)", "hi": "यह 06 12 34 56 78 है। (फ़्रांस, जोड़ियों में)", "pron": "से ल ज़े-रो सीस दूज़ त्राँत-कात्र सैं-काँत-सीस स्वा-साँत-दी-ज़्यूइत", "ipa": "sɛ lə zeʁo sis duz tʁɑ̃tkatʁ sɛ̃kɑ̃tsis swasɑ̃tdizɥit" },
+    { "fr": "Quelle est votre adresse ?", "en": "What is your address?", "hi": "आपका पता क्या है?", "pron": "के ले वो-त्रा-द्रेस", "ipa": "kɛ lɛ vɔtʁadʁɛs" },
+    { "fr": "J'habite au 45, rue Laval.", "en": "I live at 45 Laval Street.", "hi": "मैं 45, रू लावाल पर रहता/रहती हूँ।", "pron": "जा-बीत ओ का-राँत-सैंक र्यू ला-वाल", "ipa": "ʒabit o kaʁɑ̃tsɛ̃k ʁy laval" },
+    { "fr": "C'est combien ? — Trente dollars.", "en": "How much is it? — Thirty dollars.", "hi": "यह कितने का है? — तीस डॉलर।", "pron": "से कों-ब्यैं — त्राँत दो-लार", "ipa": "sɛ kɔ̃bjɛ̃ — tʁɑ̃t dɔlaʁ" },
+    { "fr": "Je répète.", "en": "I'll repeat.", "hi": "मैं दोहराता/दोहराती हूँ।", "pron": "ज रे-पेत", "ipa": "ʒə ʁepɛt" }
   ],
   "grammar": {
     "title": { "en": "How French numbers are built (20–100)", "hi": "फ़्रेंच संख्याएँ कैसे बनती हैं (20–100)" },
@@ -47,12 +47,12 @@
       "hi": "हिंदी बोलने वाले पहले से 100 तक हर संख्या के लिए अलग शब्द याद करते हैं (इक्कीस, बाईस, सत्तासी…), इसलिए फ़्रेंच आसान है: 69 तक नियमित है। सिर्फ़ 70–99 में थोड़ा हिसाब लगता है: 'quatre-vingt-dix-sept' = 4 × 20 + 10 + 7 = 97। फ़ोन नंबर: फ़्रांस में लोग जोड़ियों में बोलते हैं (06 12 34 …); कनाडा में अक्सर अंक-अंक या समूहों में सुनाई देता है (cinq un quatre…)।"
     },
     "examples": [
-      { "fr": "trente et un", "en": "31", "hi": "इकतीस", "pron": "त्ग़ाँ-ते-ऐँ" },
-      { "fr": "quarante-sept", "en": "47", "hi": "सैंतालीस", "pron": "का-ग़ाँत-सैत" },
-      { "fr": "soixante-quinze", "en": "75 (60 + 15)", "hi": "पचहत्तर", "pron": "स्वा-साँत-कैँज़" },
-      { "fr": "quatre-vingt-trois", "en": "83 (4 × 20 + 3)", "hi": "तिरासी", "pron": "कात्ग़ö-वैँ-त्ग़्वा" },
-      { "fr": "quatre-vingt-dix-huit", "en": "98 (4 × 20 + 18)", "hi": "अट्ठानवे", "pron": "कात्ग़ö-वैँ-दी-ज़üइत" },
-      { "fr": "Ma mère a cinquante-deux ans.", "en": "My mother is fifty-two.", "hi": "मेरी माँ बावन साल की हैं।", "pron": "मा मैग़ आ सैँ-काँत-दö ज़ाँ" }
+      { "fr": "trente et un", "en": "31", "hi": "इकतीस", "pron": "त्राँ-ते-ऐं" },
+      { "fr": "quarante-sept", "en": "47", "hi": "सैंतालीस", "pron": "का-राँत-सेत" },
+      { "fr": "soixante-quinze", "en": "75 (60 + 15)", "hi": "पचहत्तर", "pron": "स्वा-साँत-कैंज़" },
+      { "fr": "quatre-vingt-trois", "en": "83 (4 × 20 + 3)", "hi": "तिरासी", "pron": "कात्र-वैं-त्र्वा" },
+      { "fr": "quatre-vingt-dix-huit", "en": "98 (4 × 20 + 18)", "hi": "अट्ठानवे", "pron": "कात्र-वैं-दी-ज़्यूइत" },
+      { "fr": "Ma mère a cinquante-deux ans.", "en": "My mother is fifty-two.", "hi": "मेरी माँ बावन साल की हैं।", "pron": "मा मेर आ सैं-काँत-द ज़ाँ" }
     ],
     "pitfalls": [
       { "en": "Don't say 'soixante-onze' — it's 'soixante et onze'. And don't say 'quatre-vingt et un' — it's 'quatre-vingt-un'.", "hi": "'soixante-onze' मत कहिए — 'soixante et onze' है। और 'quatre-vingt et un' नहीं — 'quatre-vingt-un' है।" },
@@ -63,16 +63,16 @@
   "pronunciation": {
     "focus": "quatre-vingts rhythm; liaison in vingt et un",
     "tip": {
-      "en": "Say quatre-vingts as one smooth unit: कात्ग़ö-वैँ, with a light ö between quatre and vingts. In vingt et un, the t links: वैँ-ते-ऐँ. In 22–29 the t of vingt is heard (वैँत-दö), but in 80–99 it never is (कात्ग़ö-वैँ-दö = 82).",
-      "hi": "quatre-vingts को एक ही लय में बोलिए: कात्ग़ö-वैँ, quatre और vingts के बीच हल्का ö। vingt et un में t जुड़ता है: वैँ-ते-ऐँ। 22–29 में vingt का t सुनाई देता है (वैँत-दö), पर 80–99 में कभी नहीं (कात्ग़ö-वैँ-दö = 82)।"
+      "en": "Say quatre-vingts as one smooth unit: कात्र-वैं, with a light अ between quatre and vingts. In vingt et un, the t links: वैं-ते-ऐं. In 22–29 the t of vingt is heard (वैंत-द), but in 80–99 it never is (कात्र-वैं-द = 82).",
+      "hi": "quatre-vingts को एक ही लय में बोलिए: कात्र-वैं, quatre और vingts के बीच हल्का अ। vingt et un में t जुड़ता है: वैं-ते-ऐं। 22–29 में vingt का t सुनाई देता है (वैंत-द), पर 80–99 में कभी नहीं (कात्र-वैं-द = 82)।"
     },
     "words": [
-      { "fr": "vingt et un", "en": "21", "hi": "इक्कीस", "pron": "वैँ-ते-ऐँ", "ipa": "vɛ̃teɛ̃" },
-      { "fr": "vingt-deux", "en": "22", "hi": "बाईस", "pron": "वैँत-दö", "ipa": "vɛ̃tdø" },
-      { "fr": "quatre-vingts", "en": "80", "hi": "अस्सी", "pron": "कात्ग़ö-वैँ", "ipa": "katʁəvɛ̃" },
-      { "fr": "quatre-vingt-deux", "en": "82", "hi": "बयासी", "pron": "कात्ग़ö-वैँ-दö", "ipa": "katʁəvɛ̃dø" },
-      { "fr": "quatre-vingts ans", "en": "eighty years", "hi": "अस्सी साल", "pron": "कात्ग़ö-वैँ ज़ाँ", "ipa": "katʁəvɛ̃ zɑ̃", "note": { "en": "The s links as z.", "hi": "s, 'ज़' बनकर जुड़ता है।" } },
-      { "fr": "cent euros", "en": "100 euros", "hi": "सौ यूरो", "pron": "साँ तö-ग़ो", "ipa": "sɑ̃ tøʁo" }
+      { "fr": "vingt et un", "en": "21", "hi": "इक्कीस", "pron": "वैं-ते-ऐं", "ipa": "vɛ̃teɛ̃" },
+      { "fr": "vingt-deux", "en": "22", "hi": "बाईस", "pron": "वैंत-द", "ipa": "vɛ̃tdø" },
+      { "fr": "quatre-vingts", "en": "80", "hi": "अस्सी", "pron": "का-त्र-वैं", "ipa": "katʁəvɛ̃" },
+      { "fr": "quatre-vingt-deux", "en": "82", "hi": "बयासी", "pron": "कात्र-वैं-द", "ipa": "katʁəvɛ̃dø" },
+      { "fr": "quatre-vingts ans", "en": "eighty years", "hi": "अस्सी साल", "pron": "कात्र-वैं ज़ाँ", "ipa": "katʁəvɛ̃ zɑ̃", "note": { "en": "The s links as z.", "hi": "s, 'ज़' बनकर जुड़ता है।" } },
+      { "fr": "cent euros", "en": "100 euros", "hi": "सौ यूरो", "pron": "साँ त-रो", "ipa": "sɑ̃ tøʁo" }
     ]
   },
   "listening": {
@@ -90,11 +90,11 @@
       { "speaker": "Paul", "voice": "m1", "fr": "Je répète : quarante-six, quatre-vingt-dix-sept. Merci, à bientôt !", "en": "I'll repeat: 46, 97. Thank you, talk soon!", "hi": "मैं दोहराता हूँ: 46, 97। धन्यवाद, जल्द बात करते हैं!" }
     ],
     "questions": [
-      { "q": { "en": "Who is Paul?" }, "options": ["Anita's brother", "The owner of the flat", "A teacher"], "answer": 1, "explanation": { "en": "'c'est Paul, le propriétaire de l'appartement' — propriétaire = owner.", "hi": "'c'est Paul, le propriétaire de l'appartement' — propriétaire = मालिक।" }, "kind": "vocabulary", "evidence": "c'est Paul, le propriétaire de l'appartement" },
-      { "q": { "en": "What is the street number?" }, "options": ["62", "72", "92"], "answer": 1, "explanation": { "en": "soixante-douze = 60 + 12 = 72.", "hi": "soixante-douze = 60 + 12 = 72।" }, "kind": "literal", "evidence": "le soixante-douze, rue Saint-Denis" },
-      { "q": { "en": "Which apartment is it?" }, "options": ["21", "31", "13"], "answer": 1, "explanation": { "en": "trente et un = 31.", "hi": "trente et un = 31।" }, "kind": "literal", "evidence": "C'est l'appartement trente et un." },
-      { "q": { "en": "How much is the parking?" }, "options": ["$80", "$20", "$90"], "answer": 0, "explanation": { "en": "quatre-vingts = 80.", "hi": "quatre-vingts = 80।" }, "kind": "literal", "evidence": "Le parking, c'est quatre-vingts dollars." },
-      { "q": { "en": "How does Paul's number end?" }, "options": ["… 46 77", "… 56 97", "… 46 97"], "answer": 2, "explanation": { "en": "quarante-six (46), quatre-vingt-dix-sept (97) — he repeats it.", "hi": "quarante-six (46), quatre-vingt-dix-sept (97) — वह इसे दोहराता है।" }, "kind": "literal", "evidence": "Je répète : quarante-six, quatre-vingt-dix-sept." }
+      { "q": { "en": "Who is Paul?", "hi": "Paul कौन है?" }, "options": ["Anita's brother", "The owner of the flat", "A teacher"], "optionsHi": ["Anita का भाई", "फ़्लैट का मालिक", "एक शिक्षक"], "answer": 1, "explanation": { "en": "'c'est Paul, le propriétaire de l'appartement' — propriétaire = owner.", "hi": "'c'est Paul, le propriétaire de l'appartement' — propriétaire = मालिक।" }, "kind": "vocabulary", "evidence": "c'est Paul, le propriétaire de l'appartement" },
+      { "q": { "en": "What is the street number?", "hi": "सड़क का नंबर क्या है?" }, "options": ["62", "72", "92"], "answer": 1, "explanation": { "en": "soixante-douze = 60 + 12 = 72.", "hi": "soixante-douze = 60 + 12 = 72।" }, "kind": "literal", "evidence": "le soixante-douze, rue Saint-Denis" },
+      { "q": { "en": "Which apartment is it?", "hi": "यह कौन-सा अपार्टमेंट है?" }, "options": ["21", "31", "13"], "answer": 1, "explanation": { "en": "trente et un = 31.", "hi": "trente et un = 31।" }, "kind": "literal", "evidence": "C'est l'appartement trente et un." },
+      { "q": { "en": "How much is the parking?", "hi": "पार्किंग कितने की है?" }, "options": ["$80", "$20", "$90"], "answer": 0, "explanation": { "en": "quatre-vingts = 80.", "hi": "quatre-vingts = 80।" }, "kind": "literal", "evidence": "Le parking, c'est quatre-vingts dollars." },
+      { "q": { "en": "How does Paul's number end?", "hi": "Paul के नंबर का अंत कैसे होता है?" }, "options": ["… 46 77", "… 56 97", "… 46 97"], "answer": 2, "explanation": { "en": "quarante-six (46), quatre-vingt-dix-sept (97) — he repeats it.", "hi": "quarante-six (46), quatre-vingt-dix-sept (97) — वह इसे दोहराता है।" }, "kind": "literal", "evidence": "Je répète : quarante-six, quatre-vingt-dix-sept." }
     ],
     "dictation": ["L'adresse, c'est le soixante-douze, rue Saint-Denis.", "C'est l'appartement trente et un.", "Le parking, c'est quatre-vingts dollars."],
     "gapFill": { "text": "C'est l'appartement ___. Le parking, c'est ___ dollars.", "answers": ["trente et un", "quatre-vingts"] }
@@ -106,11 +106,11 @@
       "hi": "ये फ़ोन नंबर ज़ोर से पढ़िए — फ़्रांसीसी नंबर जोड़ियों में, कनाडाई नंबर समूहों में। फिर अपना नंबर और अपनी उम्र बताइए।"
     },
     "prompts": [
-      { "fr": "06 12 34 56 78", "en": "06 12 34 56 78", "hi": "फ़ोन नंबर: 06 12 34 56 78", "pron": "ज़े-ग़ो सीस, दूज़, त्ग़ाँत-कात्ग़, सैँ-काँत-सीस, स्वा-साँत-दी-ज़üइत" },
-      { "fr": "07 21 45 80 99", "en": "07 21 45 80 99", "hi": "फ़ोन नंबर: 07 21 45 80 99", "pron": "ज़े-ग़ो सैत, वैँ-ते-ऐँ, का-ग़ाँत-सैँक, कात्ग़ö-वैँ, कात्ग़ö-वैँ-दीज़-नöफ़" },
-      { "fr": "514 555-0172", "en": "514 555-0172", "hi": "फ़ोन नंबर: 514 555-0172", "pron": "सैँक ऐँ कात्ग़, सैँक सैँक सैँक, ज़े-ग़ो, स्वा-साँत-दूज़" },
-      { "fr": "Mon numéro, c'est le …", "en": "My number is …", "hi": "मेरा नंबर … है", "pron": "मोँ नü-मे-ग़ो सै लö", "model": "Mon numéro, c'est le 416 555-0138." },
-      { "fr": "J'ai trente-quatre ans.", "en": "I'm thirty-four.", "hi": "मैं चौंतीस साल का / की हूँ।", "pron": "झ़े त्ग़ाँत-का-त्ग़ाँ" }
+      { "fr": "06 12 34 56 78", "en": "06 12 34 56 78", "hi": "फ़ोन नंबर: 06 12 34 56 78", "pron": "ज़े-रो सीस, दूज़, त्राँत-कात्र, सैं-काँत-सीस, स्वा-साँत-दी-ज़्यूइत" },
+      { "fr": "07 21 45 80 99", "en": "07 21 45 80 99", "hi": "फ़ोन नंबर: 07 21 45 80 99", "pron": "ज़े-रो सेत, वैं-ते-ऐं, का-राँत-सैंक, कात्र-वैं, कात्र-वैं-दीज़-नफ़" },
+      { "fr": "514 555-0172", "en": "514 555-0172", "hi": "फ़ोन नंबर: 514 555-0172", "pron": "सैंक ऐं कात्र, सैंक सैंक सैंक, ज़े-रो, स्वा-साँत-दूज़" },
+      { "fr": "Mon numéro, c'est le …", "en": "My number is …", "hi": "मेरा नंबर … है", "pron": "मों न्यू-मे-रो से ल", "model": "Mon numéro, c'est le 416 555-0138." },
+      { "fr": "J'ai trente-quatre ans.", "en": "I'm thirty-four.", "hi": "मैं चौंतीस साल का / की हूँ।", "pron": "जे त्राँत-का-त्राँ" }
     ],
     "tip": {
       "en": "For 70–99, think ahead: say the first part (soixante / quatre-vingt) and then add without pausing.",
@@ -126,10 +126,10 @@
       "hi": "बिक्री के लिए\nबच्चे की साइकिल: 45 डॉलर\nमेज़ और चार कुर्सियाँ: 90 डॉलर\nलैंप: 12 डॉलर\nफ़्रेंच की किताबें: 2 डॉलर प्रति किताब\nमारी को फ़ोन कीजिए: 819 555-0173\nपता: 28, मुख्य सड़क, गैटिनो"
     },
     "questions": [
-      { "q": { "en": "How much are the table and chairs?" }, "options": ["quatre-vingts dollars", "quatre-vingt-dix dollars", "soixante-dix dollars"], "answer": 1, "explanation": { "en": "90 $ = quatre-vingt-dix dollars.", "hi": "90 $ = quatre-vingt-dix dollars।" }, "kind": "literal", "evidence": "Table et quatre chaises : 90 $" },
-      { "q": { "en": "You want three French books. How much will you pay?" }, "options": ["$2", "$6", "$12"], "answer": 1, "explanation": { "en": "2 $ le livre → 3 × 2 = 6 dollars.", "hi": "2 $ प्रति किताब → 3 × 2 = 6 डॉलर।" }, "kind": "inference", "evidence": "Livres de français : 2 $ le livre" },
-      { "q": { "en": "In which city is Marie?" }, "options": ["Gatineau", "Montréal", "Ottawa"], "answer": 0, "explanation": { "en": "'28, rue Principale, Gatineau'.", "hi": "'28, rue Principale, Gatineau' — गैटिनो।" }, "kind": "literal", "evidence": "28, rue Principale, Gatineau" },
-      { "q": { "en": "How do you say the bike's price in French?" }, "options": ["quarante-cinq dollars", "cinquante-quatre dollars", "quatorze dollars"], "answer": 0, "explanation": { "en": "45 = quarante-cinq.", "hi": "45 = quarante-cinq।" }, "kind": "vocabulary", "evidence": "Vélo pour enfant : 45 $" }
+      { "q": { "en": "How much are the table and chairs?", "hi": "मेज़ और कुर्सियाँ कितने की हैं?" }, "options": ["quatre-vingts dollars", "quatre-vingt-dix dollars", "soixante-dix dollars"], "answer": 1, "explanation": { "en": "90 $ = quatre-vingt-dix dollars.", "hi": "90 $ = quatre-vingt-dix dollars।" }, "kind": "literal", "evidence": "Table et quatre chaises : 90 $" },
+      { "q": { "en": "You want three French books. How much will you pay?", "hi": "आपको तीन फ़्रेंच किताबें चाहिए। आप कितना भुगतान करेंगे?" }, "options": ["$2", "$6", "$12"], "answer": 1, "explanation": { "en": "2 $ le livre → 3 × 2 = 6 dollars.", "hi": "2 $ प्रति किताब → 3 × 2 = 6 डॉलर।" }, "kind": "inference", "evidence": "Livres de français : 2 $ le livre" },
+      { "q": { "en": "In which city is Marie?", "hi": "Marie किस शहर में है?" }, "options": ["Gatineau", "Montréal", "Ottawa"], "answer": 0, "explanation": { "en": "'28, rue Principale, Gatineau'.", "hi": "'28, rue Principale, Gatineau' — गैटिनो।" }, "kind": "literal", "evidence": "28, rue Principale, Gatineau" },
+      { "q": { "en": "How do you say the bike's price in French?", "hi": "फ़्रेंच में साइकिल की कीमत कैसे कहेंगे?" }, "options": ["quarante-cinq dollars", "cinquante-quatre dollars", "quatorze dollars"], "answer": 0, "explanation": { "en": "45 = quarante-cinq.", "hi": "45 = quarante-cinq।" }, "kind": "vocabulary", "evidence": "Vélo pour enfant : 45 $" }
     ]
   },
   "writing": {
@@ -145,9 +145,9 @@
       { "en": "et only in 21, 31, 41, 51, 61, 71.", "hi": "et सिर्फ़ 21, 31, 41, 51, 61, 71 में।" }
     ],
     "usefulPhrases": [
-      { "fr": "Mon numéro de téléphone, c'est le …", "en": "My phone number is …", "hi": "मेरा फ़ोन नंबर … है", "pron": "मोँ नü-मे-ग़ो दö ते-ले-फ़ॉन सै लö" },
-      { "fr": "Mon adresse, c'est …", "en": "My address is …", "hi": "मेरा पता … है", "pron": "मो ना-द्ग़ैस सै" },
-      { "fr": "J'ai … ans.", "en": "I'm … years old.", "hi": "मैं … साल का / की हूँ।", "pron": "झ़े … आँ" }
+      { "fr": "Mon numéro de téléphone, c'est le …", "en": "My phone number is …", "hi": "मेरा फ़ोन नंबर … है", "pron": "मों न्यू-मे-रो द ते-ले-फ़ॉन से ल" },
+      { "fr": "Mon adresse, c'est …", "en": "My address is …", "hi": "मेरा पता … है", "pron": "मो ना-द्रेस से" },
+      { "fr": "J'ai … ans.", "en": "I'm … years old.", "hi": "मैं … साल का / की हूँ।", "pron": "जे … आँ" }
     ],
     "model": { "fr": "Mon numéro de téléphone, c'est le quatre, un, six, cinq, cinq, cinq, vingt-trois, quatre-vingt-dix-huit. Mon adresse, c'est quarante-sept, rue King, Toronto. J'ai trente-deux ans.", "en": "My phone number is 416 555 23 98. My address is 47 King Street, Toronto. I'm thirty-two." },
     "checklist": [
@@ -159,12 +159,12 @@
   "review": {
     "fromDays": [2, 5, 11],
     "items": [
-      { "fr": "seize, dix-sept, dix-huit", "en": "16, 17, 18", "hi": "सोलह, सत्रह, अठारह", "pron": "सैज़ दी-सैत दी-ज़üइत" },
-      { "fr": "Tu as quel âge ?", "en": "How old are you?", "hi": "तुम्हारी उम्र क्या है?", "pron": "तü आ कै लाझ़" },
-      { "fr": "Comment ça s'écrit ?", "en": "How is that spelled?", "hi": "इसकी स्पेलिंग क्या है?", "pron": "को-माँ सा से-क्ग़ी" },
-      { "fr": "Est-ce que c'est gratuit ?", "en": "Is it free?", "hi": "क्या यह मुफ़्त है?", "pron": "ऐस-कö सै ग्ग़ा-तüई" },
-      { "fr": "Qu'est-ce que vous cherchez ?", "en": "What are you looking for?", "hi": "आप क्या ढूँढ रहे हैं?", "pron": "कैस-कö वू शैग़-शे" },
-      { "fr": "Répétez, s'il vous plaît.", "en": "Please repeat.", "hi": "कृपया दोहराइए।", "pron": "ग़े-पे-ते सील वू प्लै" }
+      { "fr": "seize, dix-sept, dix-huit", "en": "16, 17, 18", "hi": "सोलह, सत्रह, अठारह", "pron": "सेज़ दी-सेत दी-ज़्यूइत" },
+      { "fr": "Tu as quel âge ?", "en": "How old are you?", "hi": "तुम्हारी उम्र क्या है?", "pron": "त्यू आ के लाज" },
+      { "fr": "Comment ça s'écrit ?", "en": "How is that spelled?", "hi": "इसकी स्पेलिंग क्या है?", "pron": "को-माँ सा से-क्री" },
+      { "fr": "Est-ce que c'est gratuit ?", "en": "Is it free?", "hi": "क्या यह मुफ़्त है?", "pron": "एस-क से ग्रा-त्यूई" },
+      { "fr": "Qu'est-ce que vous cherchez ?", "en": "What are you looking for?", "hi": "आप क्या ढूँढ रहे हैं?", "pron": "केस-क वू शेर-शे" },
+      { "fr": "Répétez, s'il vous plaît.", "en": "Please repeat.", "hi": "कृपया दोहराइए।", "pron": "रे-पे-ते सील वू प्ले" }
     ]
   },
   "assessment": [

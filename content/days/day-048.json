@@ -31,7 +31,7 @@
       "fr": "l'avenir",
       "en": "the future (in life)",
       "hi": "भविष्य",
-      "pron": "लाव-नीग़",
+      "pron": "लाव-नीर",
       "ipa": "lavniʁ",
       "pos": "noun",
       "gender": "m",
@@ -45,7 +45,7 @@
       "fr": "l'année prochaine",
       "en": "next year",
       "hi": "अगले साल",
-      "pron": "ला-ने प्रो-शैन",
+      "pron": "ला-ने प्रो-शेन",
       "ipa": "lane pʁɔʃɛn",
       "pos": "phrase"
     },
@@ -53,7 +53,7 @@
       "fr": "dans cinq ans",
       "en": "in five years' time",
       "hi": "पाँच साल बाद",
-      "pron": "दाँ सैँ काँ",
+      "pron": "दाँ सैं काँ",
       "ipa": "dɑ̃ sɛ̃ kɑ̃",
       "pos": "phrase",
       "note": {
@@ -65,7 +65,7 @@
       "fr": "un jour",
       "en": "one day, someday",
       "hi": "एक दिन, किसी दिन",
-      "pron": "ऐँ झ़ूग़",
+      "pron": "ऐं जूर",
       "ipa": "ɛ̃ ʒuʁ",
       "pos": "phrase"
     },
@@ -73,7 +73,7 @@
       "fr": "peut-être",
       "en": "maybe, perhaps",
       "hi": "शायद",
-      "pron": "पö-तैत्ग़",
+      "pron": "प-तेत्र",
       "ipa": "pøtɛtʁ",
       "pos": "adverb"
     },
@@ -81,7 +81,7 @@
       "fr": "le projet",
       "en": "the plan, the project",
       "hi": "योजना, परियोजना",
-      "pron": "लö प्रो-झ़ै",
+      "pron": "ल प्रो-जे",
       "ipa": "lə pʁɔʒɛ",
       "pos": "noun",
       "gender": "m",
@@ -91,7 +91,7 @@
       "fr": "la promotion",
       "en": "the promotion (at work); a special offer",
       "hi": "पदोन्नति, प्रमोशन; ख़ास छूट",
-      "pron": "ला प्रो-मो-स्योँ",
+      "pron": "ला प्रो-मो-स्यों",
       "ipa": "la pʁɔmɔsjɔ̃",
       "pos": "noun",
       "gender": "f",
@@ -101,7 +101,7 @@
       "fr": "la citoyenneté",
       "en": "citizenship",
       "hi": "नागरिकता",
-      "pron": "ला सी-त्वा-यैन-ते",
+      "pron": "ला सी-त्वा-येन-ते",
       "ipa": "la sitwajɛnte",
       "pos": "noun",
       "gender": "f",
@@ -111,7 +111,7 @@
       "fr": "construire",
       "en": "to build",
       "hi": "बनाना, निर्माण करना",
-      "pron": "कोँस-त्र्üईग़",
+      "pron": "कोंस-त्र्यूईर",
       "ipa": "kɔ̃stʁɥiʁ",
       "pos": "verb"
     },
@@ -119,7 +119,7 @@
       "fr": "le quartier",
       "en": "the neighbourhood, the district",
       "hi": "मोहल्ला, इलाक़ा",
-      "pron": "लö काग़-त्ये",
+      "pron": "ल कार-त्ये",
       "ipa": "lə kaʁtje",
       "pos": "noun",
       "gender": "m",
@@ -149,7 +149,7 @@
       "fr": "L'année prochaine, je passerai le TEF.",
       "en": "Next year I will take the TEF.",
       "hi": "अगले साल मैं TEF दूँगा/दूँगी।",
-      "pron": "ला-ने प्रो-शैन झ़ö पास-ग़े लö तेफ़",
+      "pron": "ला-ने प्रो-शेन ज पास-रे ल तेफ़",
       "note": {
         "en": "passer un examen = to take (sit) an exam, not to pass it. To pass = réussir.",
         "hi": "passer un examen = परीक्षा देना, पास करना नहीं। पास करना = réussir।"
@@ -159,31 +159,31 @@
       "fr": "Dans cinq ans, j'aurai la citoyenneté.",
       "en": "In five years I will have citizenship.",
       "hi": "पाँच साल बाद मेरे पास नागरिकता होगी।",
-      "pron": "दाँ सैँ काँ झ़ो-ग़े ला सी-त्वा-यैन-ते"
+      "pron": "दाँ सैं काँ जो-रे ला सी-त्वा-येन-ते"
     },
     {
       "fr": "Qu'est-ce que tu feras après tes études ?",
       "en": "What will you do after your studies?",
       "hi": "पढ़ाई के बाद तुम क्या करोगे?",
-      "pron": "कैस-क तü फ़ö-ग़ा आ-प्रै ते ज़े-तüद"
+      "pron": "केस-क त्यू फ़-रा आ-प्रे ते ज़े-त्यूद"
     },
     {
       "fr": "S'il fait beau, nous irons au parc.",
       "en": "If the weather is nice, we'll go to the park.",
       "hi": "अगर मौसम अच्छा हुआ, तो हम पार्क जाएँगे।",
-      "pron": "सील फ़ै बो नू ज़ी-ग़ोँ ओ पाग़क"
+      "pron": "सील फ़े बो नू ज़ी-रों ओ पारक"
     },
     {
       "fr": "Un jour, je serai infirmière.",
       "en": "One day I'll be a nurse.",
       "hi": "एक दिन मैं नर्स बनूँगी।",
-      "pron": "ऐँ झ़ूग़ झ़ö स-ग़े ऐँ-फ़ीग़-म्यैग़"
+      "pron": "ऐं जूर ज स-रे ऐं-फ़ीर-म्येर"
     },
     {
       "fr": "On verra !",
       "en": "We'll see!",
       "hi": "देखते हैं!",
-      "pron": "ओँ वै-ग़ा",
+      "pron": "ओं वे-रा",
       "note": {
         "en": "voir → verr- in the future.",
         "hi": "भविष्य में voir → verr-।"
@@ -208,31 +208,31 @@
         "fr": "Je chercherai un travail à Montréal.",
         "en": "I will look for a job in Montréal.",
         "hi": "मैं मॉन्ट्रियाल में नौकरी ढूँढूँगा/ढूँढूँगी।",
-        "pron": "झ़ö शैग़-शö-ग़े ऐँ त्रा-वाय आ मोँ-ग़े-आल"
+        "pron": "ज शेर-श-रे ऐं त्रा-वाय आ मों-रे-आल"
       },
       {
         "fr": "Nous serons à Toronto en juillet.",
         "en": "We will be in Toronto in July.",
         "hi": "हम जुलाई में टोरंटो में होंगे।",
-        "pron": "नू स-ग़ोँ आ तो-ग़ोँ-तो आँ झ़üई-यै"
+        "pron": "नू स-रों आ तो-रों-तो आँ ज्यूई-ये"
       },
       {
         "fr": "Il fera froid demain.",
         "en": "It will be cold tomorrow.",
         "hi": "कल ठंड होगी।",
-        "pron": "ईल फ़ö-ग़ा फ़्रवा दö-मैँ"
+        "pron": "ईल फ़-रा फ़्रवा द-मैं"
       },
       {
         "fr": "Si tu viens samedi, je ferai un biryani.",
         "en": "If you come on Saturday, I'll make a biryani.",
         "hi": "अगर तुम शनिवार को आओगे, तो मैं बिरयानी बनाऊँगा/बनाऊँगी।",
-        "pron": "सी तü व्यैँ साम-दी झ़ö फ़ö-ग़े ऐँ बी-ग़्या-नी"
+        "pron": "सी त्यू व्यैं साम-दी ज फ़-रे ऐं बी-र्या-नी"
       },
       {
         "fr": "Vous pourrez parler avec le directeur.",
         "en": "You will be able to speak with the director.",
         "hi": "आप निदेशक से बात कर पाएँगे।",
-        "pron": "वू पू-ग़े पाग़-ले आ-वैक लö दी-ग़ैक-तöग़"
+        "pron": "वू पू-रे पार-ले आ-वेक ल दी-रेक-तर"
       }
     ],
     "pitfalls": [
@@ -253,43 +253,43 @@
   "pronunciation": {
     "focus": "/ʁ/ in future endings: parlerai, serai",
     "tip": {
-      "en": "Every future form has an r just before the ending. Make it a soft throaty ग़, never a rolled र, and don't drop it. The e of parlerai is often swallowed: पाग़ल-ग़े. Final -ai in the future sounds ए.",
-      "hi": "भविष्य के हर रूप में अंत से ठीक पहले एक r होता है। इसे गले से निकलने वाला नरम ग़ बनाइए, घुमाया हुआ र कभी नहीं, और इसे छोड़िए मत। parlerai का e अक्सर निगल लिया जाता है: पाग़ल-ग़े। भविष्य का आख़िरी -ai ए जैसा सुनाई देता है।"
+      "en": "Every future form has an r just before the ending. Make it a soft throaty र, never a rolled र, and don't drop it. The e of parlerai is often swallowed: पारल-रे. Final -ai in the future sounds ए.",
+      "hi": "भविष्य के हर रूप में अंत से ठीक पहले एक r होता है। इसे गले से निकलने वाला नरम र बनाइए, घुमाया हुआ र कभी नहीं, और इसे छोड़िए मत। parlerai का e अक्सर निगल लिया जाता है: पारल-रे। भविष्य का आख़िरी -ai ए जैसा सुनाई देता है।"
     },
     "words": [
       {
         "fr": "je parlerai",
         "en": "I will speak",
         "hi": "मैं बोलूँगा/बोलूँगी",
-        "pron": "झ़ö पाग़ल-ग़े",
+        "pron": "ज पारल-रे",
         "ipa": "ʒə paʁləʁe"
       },
       {
         "fr": "je serai",
         "en": "I will be",
         "hi": "मैं होऊँगा/होऊँगी",
-        "pron": "झ़ö स-ग़े",
+        "pron": "ज स-रे",
         "ipa": "ʒə səʁe"
       },
       {
         "fr": "j'aurai",
         "en": "I will have",
         "hi": "मेरे पास होगा",
-        "pron": "झ़ो-ग़े",
+        "pron": "जो-रे",
         "ipa": "ʒoʁe"
       },
       {
         "fr": "nous irons",
         "en": "we will go",
         "hi": "हम जाएँगे",
-        "pron": "नू ज़ी-ग़ोँ",
+        "pron": "नू ज़ी-रों",
         "ipa": "nu ziʁɔ̃"
       },
       {
         "fr": "ils feront",
         "en": "they will do/make",
         "hi": "वे करेंगे",
-        "pron": "ईल फ़ö-ग़ोँ",
+        "pron": "ईल फ़-रों",
         "ipa": "il fəʁɔ̃"
       }
     ]
@@ -415,7 +415,8 @@
     "questions": [
       {
         "q": {
-          "en": "What are Deepa's plans for next year?"
+          "en": "What are Deepa's plans for next year?",
+          "hi": "अगले साल के लिए Deepa की क्या योजनाएँ हैं?"
         },
         "options": [
           "Buy a house and a dog",
@@ -429,11 +430,18 @@
           "hi": "'je passerai le TEF et je chercherai un travail d'infirmière' (मैं TEF दूँगी और नर्स की नौकरी ढूँढूँगी)।"
         },
         "kind": "literal",
-        "evidence": "L'année prochaine, je passerai le TEF et je chercherai un travail d'infirmière."
+        "evidence": "L'année prochaine, je passerai le TEF et je chercherai un travail d'infirmière.",
+        "optionsHi": [
+          "घर और कुत्ता ख़रीदना",
+          "अस्पताल में रात की पाली में काम करना",
+          "अपने माता-पिता को Canada लाना",
+          "TEF देना और नर्सिंग की नौकरी ढूँढना"
+        ]
       },
       {
         "q": {
-          "en": "What does Deepa think will be difficult?"
+          "en": "What does Deepa think will be difficult?",
+          "hi": "Deepa को क्या मुश्किल लगता है?"
         },
         "options": [
           "The speaking test",
@@ -446,11 +454,17 @@
           "hi": "यह सुनकर कि उसे रात में काम करना पड़ेगा, वह कहती है 'ce sera difficile'।"
         },
         "kind": "inference",
-        "evidence": "Ah, ça, ce sera difficile !"
+        "evidence": "Ah, ça, ce sera difficile !",
+        "optionsHi": [
+          "बोलने की परीक्षा",
+          "रात में काम करना",
+          "घर ढूँढना"
+        ]
       },
       {
         "q": {
-          "en": "When will her parents come, according to Madame Étoile?"
+          "en": "When will her parents come, according to Madame Étoile?",
+          "hi": "Madame Étoile के अनुसार उसके माता-पिता कब आएँगे?"
         },
         "options": [
           "Next year in winter",
@@ -463,11 +477,17 @@
           "hi": "'dans deux ans, en été' (दो साल बाद, गर्मियों में)।"
         },
         "kind": "literal",
-        "evidence": "ils viendront dans deux ans, en été"
+        "evidence": "ils viendront dans deux ans, en été",
+        "optionsHi": [
+          "अगले साल सर्दियों में",
+          "पाँच साल में",
+          "दो साल में, गर्मियों में"
+        ]
       },
       {
         "q": {
-          "en": "Which sentence is a condition (if … then …)?"
+          "en": "Which sentence is a condition (if … then …)?",
+          "hi": "इनमें से कौन-सा वाक्य शर्त वाला है (अगर … तो …)?"
         },
         "options": [
           "Vous aurez une très bonne note à l'oral !",
@@ -484,7 +504,8 @@
       },
       {
         "q": {
-          "en": "How serious is the radio show?"
+          "en": "How serious is the radio show?",
+          "hi": "यह रेडियो कार्यक्रम कितना गंभीर है?"
         },
         "options": [
           "It's just a game for fun",
@@ -497,7 +518,12 @@
           "hi": "एंकर अंत में कहता है: 'C'est un jeu, bien sûr' (बेशक, यह एक खेल है)।"
         },
         "kind": "gist",
-        "evidence": "C'est un jeu, bien sûr"
+        "evidence": "C'est un jeu, bien sûr",
+        "optionsHi": [
+          "यह बस मज़े के लिए एक खेल है",
+          "यह भविष्य बताने की असली सेवा है",
+          "यह TEF की जानकारी देने वाला एक आधिकारिक कार्यक्रम है"
+        ]
       }
     ],
     "dictation": [
@@ -525,35 +551,35 @@
         "fr": "Où est-ce que vous habiterez dans cinq ans ?",
         "en": "Where will you live in five years?",
         "hi": "पाँच साल बाद आप कहाँ रहेंगे?",
-        "pron": "ऊ ऐस-क वू ज़ा-बी-त्ग़े दाँ सैँ काँ",
+        "pron": "ऊ एस-क वू ज़ा-बी-त्रे दाँ सैं काँ",
         "model": "Dans cinq ans, j'habiterai à Québec, peut-être dans le quartier Saint-Roch."
       },
       {
         "fr": "Quel travail est-ce que vous ferez ?",
         "en": "What job will you do?",
         "hi": "आप कौन-सा काम करेंगे?",
-        "pron": "कैल त्रा-वाय ऐस-क वू फ़ö-ग़े",
+        "pron": "केल त्रा-वाय एस-क वू फ़-रे",
         "model": "Je serai ingénieur dans une entreprise d'énergie."
       },
       {
         "fr": "Est-ce que vous parlerez bien français ?",
         "en": "Will you speak French well?",
         "hi": "क्या आप अच्छी फ़्रेंच बोलेंगे?",
-        "pron": "ऐस-क वू पाग़ल-ग़े ब्यैँ फ़्राँ-सै",
+        "pron": "एस-क वू पारल-रे ब्यैं फ़्राँ-से",
         "model": "Oui, si j'étudie tous les jours, je parlerai très bien !"
       },
       {
         "fr": "Qu'est-ce que votre famille fera ?",
         "en": "What will your family do?",
         "hi": "आपका परिवार क्या करेगा?",
-        "pron": "कैस-क वॉत्ग़ फ़ा-मीय फ़ö-ग़ा",
+        "pron": "केस-क वॉत्र फ़ा-मीय फ़-रा",
         "model": "Mes enfants iront à l'école en français et ma femme aura son propre cabinet."
       },
       {
         "fr": "Où est-ce que vous irez en vacances ?",
         "en": "Where will you go on holiday?",
         "hi": "आप छुट्टियों में कहाँ जाएँगे?",
-        "pron": "ऊ ऐस-क वू ज़ी-ग़े आँ वा-काँस",
+        "pron": "ऊ एस-क वू ज़ी-रे आँ वा-काँस",
         "model": "Nous irons en Inde tous les deux ans pour voir nos parents."
       }
     ],
@@ -573,7 +599,8 @@
     "questions": [
       {
         "q": {
-          "en": "When will the work be finished?"
+          "en": "When will the work be finished?",
+          "hi": "काम कब पूरा होगा?"
         },
         "options": [
           "Next spring",
@@ -587,11 +614,18 @@
           "hi": "काम अगले वसंत में शुरू होगा और 2030 में पूरा होगा।"
         },
         "kind": "literal",
-        "evidence": "Les travaux commenceront au printemps prochain et finiront en 2030."
+        "evidence": "Les travaux commenceront au printemps prochain et finiront en 2030.",
+        "optionsHi": [
+          "अगले वसंत में",
+          "15 मई को",
+          "2030 में",
+          "दस साल में"
+        ]
       },
       {
         "q": {
-          "en": "Who will the free French classes be for?"
+          "en": "Who will the free French classes be for?",
+          "hi": "मुफ़्त फ़्रेंच कक्षाएँ किनके लिए होंगी?"
         },
         "options": [
           "Newcomers",
@@ -604,11 +638,17 @@
           "hi": "'pour les nouveaux arrivants' = नए आने वालों के लिए।"
         },
         "kind": "literal",
-        "evidence": "des cours de français gratuits pour les nouveaux arrivants"
+        "evidence": "des cours de français gratuits pour les nouveaux arrivants",
+        "optionsHi": [
+          "नए आने वालों के लिए",
+          "सिर्फ़ बच्चों के लिए",
+          "इंजीनियरों के लिए"
+        ]
       },
       {
         "q": {
-          "en": "What will happen to the old car park on King Street?"
+          "en": "What will happen to the old car park on King Street?",
+          "hi": "King Street की पुरानी पार्किंग का क्या होगा?"
         },
         "options": [
           "It will become a library",
@@ -621,11 +661,17 @@
           "hi": "वह 'deviendra un grand parc' (बड़ा पार्क बन जाएगा) — भविष्य में devenir → deviendr-।"
         },
         "kind": "literal",
-        "evidence": "Le vieux stationnement de la rue King deviendra un grand parc"
+        "evidence": "Le vieux stationnement de la rue King deviendra un grand parc",
+        "optionsHi": [
+          "वह पुस्तकालय बन जाएगी",
+          "वह पार्क बन जाएगा",
+          "वहाँ एक नया बस स्टॉप बनेगा"
+        ]
       },
       {
         "q": {
-          "en": "How will residents know that their street will be closed?"
+          "en": "How will residents know that their street will be closed?",
+          "hi": "निवासियों को कैसे पता चलेगा कि उनकी सड़क बंद रहेगी?"
         },
         "options": [
           "They will get information one week before",
@@ -638,11 +684,17 @@
           "hi": "नगर हर सड़क बंद होने से एक हफ़्ता पहले सूचना देगा।"
         },
         "kind": "literal",
-        "evidence": "Nous vous informerons une semaine avant chaque fermeture."
+        "evidence": "Nous vous informerons une semaine avant chaque fermeture.",
+        "optionsHi": [
+          "उन्हें एक सप्ताह पहले जानकारी मिलेगी",
+          "उसी दिन एक बोर्ड लगा होगा",
+          "उन्हें शहर प्रशासन को फ़ोन करना होगा"
+        ]
       },
       {
         "q": {
-          "en": "Why might a resident go to the public meeting?"
+          "en": "Why might a resident go to the public meeting?",
+          "hi": "कोई निवासी सार्वजनिक बैठक में क्यों जा सकता है?"
         },
         "options": [
           "To get a free bike",
@@ -655,7 +707,12 @@
           "hi": "बैठक में जिनके प्रश्न हैं वे इंजीनियरों से बात कर सकेंगे।"
         },
         "kind": "inference",
-        "evidence": "vous pourrez parler avec les ingénieurs du projet"
+        "evidence": "vous pourrez parler avec les ingénieurs du projet",
+        "optionsHi": [
+          "मुफ़्त साइकिल पाने के लिए",
+          "इंजीनियरों से परियोजना के बारे में सवाल पूछने के लिए",
+          "फ़्रेंच कक्षाओं के लिए नाम लिखवाने के लिए"
+        ]
       }
     ]
   },
@@ -683,19 +740,19 @@
         "fr": "L'année prochaine, je …",
         "en": "Next year I will …",
         "hi": "अगले साल मैं …",
-        "pron": "ला-ने प्रो-शैन झ़ö"
+        "pron": "ला-ने प्रो-शेन ज"
       },
       {
         "fr": "Si tout va bien, …",
         "en": "If all goes well, …",
         "hi": "अगर सब ठीक रहा, तो …",
-        "pron": "सी तू वा ब्यैँ"
+        "pron": "सी तू वा ब्यैं"
       },
       {
         "fr": "Je serai très content(e).",
         "en": "I will be very happy.",
         "hi": "मैं बहुत ख़ुश होऊँगा/होऊँगी।",
-        "pron": "झ़ö स-ग़े त्रै कोँ-ताँ (कोँ-ताँत)"
+        "pron": "ज स-रे त्रे कों-ताँ (कों-ताँत)"
       }
     ],
     "model": {
@@ -731,43 +788,43 @@
         "fr": "Je vais prendre rendez-vous demain.",
         "en": "I'm going to make an appointment tomorrow.",
         "hi": "मैं कल अपॉइंटमेंट लेने वाला/वाली हूँ।",
-        "pron": "झ़ö वै प्राँद्ग़ ग़ाँ-दे-वू दö-मैँ"
+        "pron": "ज वे प्राँद्र राँ-दे-वू द-मैं"
       },
       {
         "fr": "Je veux devenir ingénieure.",
         "en": "I want to become an engineer.",
         "hi": "मैं इंजीनियर बनना चाहती हूँ।",
-        "pron": "झ़ö वö दö-व-नीग़ ऐँ-झ़े-न्यöग़"
+        "pron": "ज व द-व-नीर ऐं-जे-न्यर"
       },
       {
         "fr": "Je dois finir ce projet.",
         "en": "I must finish this project.",
         "hi": "मुझे यह प्रोजेक्ट पूरा करना है।",
-        "pron": "झ़ö द्वा फ़ी-नीग़ सö प्रो-झ़ै"
+        "pron": "ज द्वा फ़ी-नीर स प्रो-जे"
       },
       {
         "fr": "J'habite à Ottawa depuis un an.",
         "en": "I've been living in Ottawa for a year.",
         "hi": "मैं एक साल से ओटावा में रह रहा/रही हूँ।",
-        "pron": "झ़ा-बीत आ ओ-ता-वा दö-प्üई ऐँ नाँ"
+        "pron": "जा-बीत आ ओ-ता-वा द-प्यूई ऐं नाँ"
       },
       {
         "fr": "Quand j'étais petite, je voulais être pilote.",
         "en": "When I was little, I wanted to be a pilot.",
         "hi": "जब मैं छोटी थी, मैं पायलट बनना चाहती थी।",
-        "pron": "काँ झ़े-तै प्तीत झ़ö वू-लै ऐत्ग़ पी-लॉत"
+        "pron": "काँ जे-ते प्तीत ज वू-ले एत्र पी-लॉत"
       },
       {
         "fr": "Tout à coup, il a commencé à neiger.",
         "en": "All of a sudden it started to snow.",
         "hi": "एकाएक बर्फ़ गिरनी शुरू हो गई।",
-        "pron": "तू ता कू ई-ला को-माँ-से आ नै-झ़े"
+        "pron": "तू ता कू ई-ला को-माँ-से आ ने-जे"
       },
       {
         "fr": "Je suis arrivé(e) il y a deux ans.",
         "en": "I arrived two years ago.",
         "hi": "मैं दो साल पहले आया/आई।",
-        "pron": "झ़ö स्üई ज़ा-ग़ी-वे ई-लि-या दö ज़ाँ"
+        "pron": "ज स्यूई ज़ा-री-वे ई-लि-या द ज़ाँ"
       }
     ]
   },

@@ -32,7 +32,7 @@
       "fr": "la douzaine",
       "en": "the dozen",
       "hi": "दर्जन",
-      "pron": "ला दू-ज़ैन",
+      "pron": "ला दू-ज़ेन",
       "ipa": "la duzɛn",
       "pos": "noun",
       "gender": "f",
@@ -46,7 +46,7 @@
       "fr": "le sachet",
       "en": "the small bag, the packet",
       "hi": "पैकेट, थैली",
-      "pron": "लö सा-शै",
+      "pron": "ल सा-शे",
       "ipa": "lə saʃɛ",
       "pos": "noun",
       "gender": "m",
@@ -66,7 +66,7 @@
       "fr": "le pot",
       "en": "the jar, the pot",
       "hi": "डिब्बा, मर्तबान",
-      "pron": "लö पो",
+      "pron": "ल पो",
       "ipa": "lə po",
       "pos": "noun",
       "gender": "m",
@@ -76,7 +76,7 @@
       "fr": "la boîte de conserve",
       "en": "the tin, the can",
       "hi": "टिन का डिब्बा",
-      "pron": "ला ब्वात द कोँ-सैग़व",
+      "pron": "ला ब्वात द कों-सेरव",
       "ipa": "la bwat də kɔ̃sɛʁv",
       "pos": "noun",
       "gender": "f",
@@ -95,7 +95,7 @@
       "fr": "plusieurs",
       "en": "several",
       "hi": "कई",
-      "pron": "प्लü-ज़्यöग़",
+      "pron": "प्ल्यू-ज़्यर",
       "ipa": "plyzjœʁ",
       "pos": "determiner",
       "note": {
@@ -107,7 +107,7 @@
       "fr": "avoir besoin de",
       "en": "to need",
       "hi": "की ज़रूरत होना",
-      "pron": "आ-व्वाग़ बö-ज़्वैँ द",
+      "pron": "आ-वार ब-ज़्वैं द",
       "ipa": "avwaʁ bəzwɛ̃ də",
       "pos": "phrase",
       "note": {
@@ -131,7 +131,7 @@
       "fr": "la salle de sport",
       "en": "the gym",
       "hi": "जिम",
-      "pron": "ला साल द स्पॉग़",
+      "pron": "ला साल द स्पॉर",
       "ipa": "la sal də spɔʁ",
       "pos": "noun",
       "gender": "f",
@@ -141,7 +141,7 @@
       "fr": "le centre commercial",
       "en": "the shopping centre, the mall",
       "hi": "शॉपिंग मॉल",
-      "pron": "लö साँत्ग़ को-मैग़-स्याल",
+      "pron": "ल साँत्र को-मेर-स्याल",
       "ipa": "lə sɑ̃tʁ kɔmɛʁsjal",
       "pos": "noun",
       "gender": "m",
@@ -167,7 +167,7 @@
       "fr": "On y va !",
       "en": "Let's go!",
       "hi": "चलो चलें!",
-      "pron": "ओँ नी वा",
+      "pron": "ओं नी वा",
       "note": {
         "en": "Literally 'we go there'. Very common.",
         "hi": "शब्दशः 'हम वहाँ जाते हैं'। बहुत आम।"
@@ -177,19 +177,19 @@
       "fr": "J'en ai besoin.",
       "en": "I need it / I need some.",
       "hi": "मुझे इसकी ज़रूरत है।",
-      "pron": "झ़ाँ ने बö-ज़्वैँ"
+      "pron": "जाँ ने ब-ज़्वैं"
     },
     {
       "fr": "Il y en a combien ?",
       "en": "How many are there?",
       "hi": "कितने हैं?",
-      "pron": "ई-ल्याँ ना कोँ-ब्यैँ"
+      "pron": "ई-ल्याँ ना कों-ब्यैं"
     },
     {
       "fr": "J'en voudrais deux, s'il vous plaît.",
       "en": "I'd like two (of them), please.",
       "hi": "मुझे दो चाहिए, कृपया।",
-      "pron": "झ़ाँ वू-द्रै दö सील वू प्लै"
+      "pron": "जाँ वू-द्रे द सील वू प्ले"
     },
     {
       "fr": "Vous y allez souvent ?",
@@ -222,31 +222,31 @@
         "fr": "Le marché ? J'y vais le samedi.",
         "en": "The market? I go there on Saturdays.",
         "hi": "बाज़ार? मैं वहाँ शनिवार को जाता/जाती हूँ।",
-        "pron": "लö माग़-शे — झ़ी वै लö साम-दी"
+        "pron": "ल मार-शे — जी वे ल साम-दी"
       },
       {
         "fr": "Des pommes ? J'en ai acheté un kilo.",
         "en": "Apples? I bought a kilo (of them).",
         "hi": "सेब? मैंने एक किलो ख़रीदे।",
-        "pron": "दे पॉम — झ़ाँ ने आश-ते ऐँ की-लो"
+        "pron": "दे पॉम — जाँ ने आश-ते ऐं की-लो"
       },
       {
         "fr": "Tu as des frères ? — Oui, j'en ai deux.",
         "en": "Do you have brothers? — Yes, I have two.",
         "hi": "तुम्हारे भाई हैं? — हाँ, दो हैं।",
-        "pron": "तü आ दे फ़्रैग़ — वी झ़ाँ ने दö"
+        "pron": "त्यू आ दे फ़्रेर — वी जाँ ने द"
       },
       {
         "fr": "Du lait ? Il n'y en a pas.",
         "en": "Milk? There isn't any.",
         "hi": "दूध? बिल्कुल नहीं है।",
-        "pron": "दü लै — ईल नी याँ ना पा"
+        "pron": "द्यू ले — ईल नी याँ ना पा"
       },
       {
         "fr": "Ton rendez-vous ? Je vais y penser.",
         "en": "Your appointment? I'll think about it.",
         "hi": "तुम्हारी अपॉइंटमेंट? मैं इसके बारे में याद रखूँगा/रखूँगी।",
-        "pron": "तोँ ग़ाँ-दे-वू — झ़ö वै ज़ी पाँ-से"
+        "pron": "तों राँ-दे-वू — ज वे ज़ी पाँ-से"
       }
     ],
     "pitfalls": [
@@ -267,22 +267,22 @@
   "pronunciation": {
     "focus": "Liaison: j'en ai, on y va, vous en avez",
     "tip": {
-      "en": "y and en are vowels, so they create liaison and elision everywhere: je → j' (j'y, j'en); on‿y (ओँ नी), vous‿en‿avez (वू ज़ाँ ना-वे), il y‿en‿a (ई-ल्याँ ना). Say each group as one smooth word.",
-      "hi": "y और en स्वर हैं, इसलिए हर जगह लियाज़ों और elision होता है: je → j' (j'y, j'en); on‿y (ओँ नी), vous‿en‿avez (वू ज़ाँ ना-वे), il y‿en‿a (ई-ल्याँ ना)। हर समूह को एक सहज शब्द की तरह बोलिए।"
+      "en": "y and en are vowels, so they create liaison and elision everywhere: je → j' (j'y, j'en); on‿y (ओं नी), vous‿en‿avez (वू ज़ाँ ना-वे), il y‿en‿a (ई-ल्याँ ना). Say each group as one smooth word.",
+      "hi": "y और en स्वर हैं, इसलिए हर जगह लियाज़ों और elision होता है: je → j' (j'y, j'en); on‿y (ओं नी), vous‿en‿avez (वू ज़ाँ ना-वे), il y‿en‿a (ई-ल्याँ ना)। हर समूह को एक सहज शब्द की तरह बोलिए।"
     },
     "words": [
       {
         "fr": "j'en ai",
         "en": "I have some",
         "hi": "मेरे पास कुछ हैं",
-        "pron": "झ़ाँ ने",
+        "pron": "जाँ ने",
         "ipa": "ʒɑ̃ ne"
       },
       {
         "fr": "on y va",
         "en": "let's go",
         "hi": "चलो चलें",
-        "pron": "ओँ नी वा",
+        "pron": "ओं नी वा",
         "ipa": "ɔ̃ ni va"
       },
       {
@@ -303,7 +303,7 @@
         "fr": "nous y allons",
         "en": "we're going there",
         "hi": "हम वहाँ जा रहे हैं",
-        "pron": "नू ज़ी आ-लोँ",
+        "pron": "नू ज़ी आ-लों",
         "ipa": "nu zi alɔ̃"
       }
     ]
@@ -429,7 +429,8 @@
     "questions": [
       {
         "q": {
-          "en": "How many mangoes does Meena buy?"
+          "en": "How many mangoes does Meena buy?",
+          "hi": "Meena कितने आम ख़रीदती है?"
         },
         "options": [
           "Two",
@@ -447,7 +448,8 @@
       },
       {
         "q": {
-          "en": "Why will Meena come back tomorrow?"
+          "en": "Why will Meena come back tomorrow?",
+          "hi": "Meena कल वापस क्यों आएगी?"
         },
         "options": [
           "To pick up the cake",
@@ -460,11 +462,17 @@
           "hi": "आज धनिया नहीं है; ट्रक कल आएगा, और उसे इसकी ज़रूरत है।"
         },
         "kind": "inference",
-        "evidence": "J'en ai besoin pour mon chutney. Bon, je reviendrai demain."
+        "evidence": "J'en ai besoin pour mon chutney. Bon, je reviendrai demain.",
+        "optionsHi": [
+          "केक लेने के लिए",
+          "पैसे चुकाने के लिए",
+          "अपनी चटनी के लिए धनिया ख़रीदने के लिए"
+        ]
       },
       {
         "q": {
-          "en": "How many eggs does she take?"
+          "en": "How many eggs does she take?",
+          "hi": "वह कितने अंडे लेती है?"
         },
         "options": [
           "Six",
@@ -481,7 +489,8 @@
       },
       {
         "q": {
-          "en": "Where is the balloon shop?"
+          "en": "Where is the balloon shop?",
+          "hi": "ग़ुब्बारों की दुकान कहाँ है?"
         },
         "options": [
           "Next to the grocery",
@@ -494,11 +503,17 @@
           "hi": "'au centre commercial, à côté de la pharmacie' (मॉल में, फ़ार्मेसी के बग़ल में)।"
         },
         "kind": "literal",
-        "evidence": "au centre commercial, à côté de la pharmacie"
+        "evidence": "au centre commercial, à côté de la pharmacie",
+        "optionsHi": [
+          "किराने की दुकान के बग़ल में",
+          "शॉपिंग सेंटर में, दवाइयों की दुकान के बग़ल में",
+          "स्कूल के पास"
+        ]
       },
       {
         "q": {
-          "en": "In 'J'y vais souvent', what does 'y' replace?"
+          "en": "In 'J'y vais souvent', what does 'y' replace?",
+          "hi": "'J'y vais souvent' में 'y' किसकी जगह आया है?"
         },
         "options": [
           "The pharmacy",
@@ -511,7 +526,12 @@
           "hi": "y = वहाँ, अभी बताई गई जगह: मॉल वाली दुकान।"
         },
         "kind": "grammar",
-        "evidence": "J'y vais souvent pour mes petits-enfants."
+        "evidence": "J'y vais souvent pour mes petits-enfants.",
+        "optionsHi": [
+          "दवाइयों की दुकान की",
+          "किराने की दुकान की",
+          "शॉपिंग सेंटर / ग़ुब्बारों की दुकान की"
+        ]
       }
     ],
     "dictation": [
@@ -546,7 +566,7 @@
         "fr": "Vous buvez du thé ?",
         "en": "Do you drink tea?",
         "hi": "क्या आप चाय पीते हैं?",
-        "pron": "वू बü-वे दü ते",
+        "pron": "वू ब्यू-वे द्यू ते",
         "model": "Oui, j'en bois trois tasses par jour, avec du gingembre."
       },
       {
@@ -560,14 +580,14 @@
         "fr": "Vous êtes déjà allé(e) à Québec ?",
         "en": "Have you ever been to Québec City?",
         "hi": "क्या आप कभी क्यूबेक शहर गए हैं?",
-        "pron": "वू ज़ैत दे-झ़ा आ-ले आ के-बैक",
+        "pron": "वू ज़ेत दे-जा आ-ले आ के-बेक",
         "model": "Non, je n'y suis jamais allé, mais j'y vais l'été prochain."
       },
       {
         "fr": "Vous pensez à votre examen ?",
         "en": "Are you thinking about your exam?",
         "hi": "क्या आप अपनी परीक्षा के बारे में सोच रहे हैं?",
-        "pron": "वू पाँ-से आ वॉ-त्रैग-ज़ा-मैँ",
+        "pron": "वू पाँ-से आ वॉ-त्रेग-ज़ा-मैं",
         "model": "Oui, j'y pense tous les jours !"
       }
     ],
@@ -587,7 +607,8 @@
     "questions": [
       {
         "q": {
-          "en": "When does Arun go to the supermarket?"
+          "en": "When does Arun go to the supermarket?",
+          "hi": "Arun सुपरमार्केट कब जाता है?"
         },
         "options": [
           "Every day",
@@ -601,11 +622,18 @@
           "hi": "'J'y vais une fois par semaine, le samedi matin.' (हफ़्ते में एक बार, शनिवार सुबह।)"
         },
         "kind": "literal",
-        "evidence": "J'y vais une fois par semaine, le samedi matin."
+        "evidence": "J'y vais une fois par semaine, le samedi matin.",
+        "optionsHi": [
+          "हर दिन",
+          "कभी नहीं",
+          "सप्ताह में दो बार",
+          "सप्ताह में एक बार, शनिवार की सुबह"
+        ]
       },
       {
         "q": {
-          "en": "How many cups of coffee does he drink a day?"
+          "en": "How many cups of coffee does he drink a day?",
+          "hi": "वह दिन में कितने कप कॉफ़ी पीता है?"
         },
         "options": [
           "One",
@@ -622,7 +650,8 @@
       },
       {
         "q": {
-          "en": "Why doesn't Arun eat meat?"
+          "en": "Why doesn't Arun eat meat?",
+          "hi": "Arun मांस क्यों नहीं खाता?"
         },
         "options": [
           "He has been vegetarian since childhood",
@@ -635,11 +664,17 @@
           "hi": "'Je suis végétarien depuis mon enfance.' (मैं बचपन से शाकाहारी हूँ।)"
         },
         "kind": "literal",
-        "evidence": "Je suis végétarien depuis mon enfance."
+        "evidence": "Je suis végétarien depuis mon enfance.",
+        "optionsHi": [
+          "वह बचपन से शाकाहारी है",
+          "यह बहुत महँगा है",
+          "उसके डॉक्टर ने मना किया है"
+        ]
       },
       {
         "q": {
-          "en": "In answer 6, what does 'y' replace?"
+          "en": "In answer 6, what does 'y' replace?",
+          "hi": "उत्तर 6 में 'y' किसकी जगह आया है?"
         },
         "options": [
           "The supermarket",
@@ -652,11 +687,17 @@
           "hi": "प्रश्न था 'Vous pensez à l'environnement ?' → 'j'y pense'।"
         },
         "kind": "grammar",
-        "evidence": "Oui, j'y pense souvent."
+        "evidence": "Oui, j'y pense souvent.",
+        "optionsHi": [
+          "सुपरमार्केट की",
+          "पर्यावरण की (à l'environnement)",
+          "पार्क की"
+        ]
       },
       {
         "q": {
-          "en": "What can we guess about how Arun uses his car?"
+          "en": "What can we guess about how Arun uses his car?",
+          "hi": "Arun अपनी कार का इस्तेमाल कैसे करता है, इसके बारे में हम क्या अनुमान लगा सकते हैं?"
         },
         "options": [
           "He drives it every day to work",
@@ -669,7 +710,12 @@
           "hi": "वह उसे सिर्फ़ बहन से मिलने के लिए निकालता है; बाक़ी समय पैदल चलता है और हफ़्ते में एक बार ख़रीदारी करता है।"
         },
         "kind": "inference",
-        "evidence": "je la prends seulement pour aller chez ma sœur"
+        "evidence": "je la prends seulement pour aller chez ma sœur",
+        "optionsHi": [
+          "वह उसे रोज़ काम पर चलाता है",
+          "वह उसका इस्तेमाल कभी-कभार ही करता है",
+          "वह उसे जिम तक चलाता है"
+        ]
       }
     ]
   },
@@ -697,19 +743,19 @@
         "fr": "J'y vais … fois par semaine.",
         "en": "I go there … times a week.",
         "hi": "मैं वहाँ हफ़्ते में … बार जाता/जाती हूँ।",
-        "pron": "झ़ी वै … फ़्वा पाग़ स्मैन"
+        "pron": "जी वे … फ़्वा पार स्मेन"
       },
       {
         "fr": "J'en mange tous les jours.",
         "en": "I eat some every day.",
         "hi": "मैं रोज़ खाता/खाती हूँ।",
-        "pron": "झ़ाँ माँझ़ तू ले झ़ूग़"
+        "pron": "जाँ माँज तू ले जूर"
       },
       {
         "fr": "Je n'en ai pas.",
         "en": "I don't have any.",
         "hi": "मेरे पास बिल्कुल नहीं है।",
-        "pron": "झ़ö नाँ ने पा"
+        "pron": "ज नाँ ने पा"
       }
     ],
     "model": {
@@ -745,43 +791,43 @@
         "fr": "Je vais au marché.",
         "en": "I'm going to the market.",
         "hi": "मैं बाज़ार जा रहा/रही हूँ।",
-        "pron": "झ़ö वै ओ माग़-शे"
+        "pron": "ज वे ओ मार-शे"
       },
       {
         "fr": "Je mange du riz et des légumes.",
         "en": "I eat rice and vegetables.",
         "hi": "मैं चावल और सब्ज़ियाँ खाता/खाती हूँ।",
-        "pron": "झ़ö माँझ़ दü ग़ी ए दे ले-गüम"
+        "pron": "ज माँज द्यू री ए दे ले-ग्यूम"
       },
       {
         "fr": "un kilo de tomates",
         "en": "a kilo of tomatoes",
         "hi": "एक किलो टमाटर",
-        "pron": "ऐँ की-लो द तो-मात"
+        "pron": "ऐं की-लो द तो-मात"
       },
       {
         "fr": "Je ne vais jamais à la piscine.",
         "en": "I never go to the pool.",
         "hi": "मैं कभी स्विमिंग पूल नहीं जाता/जाती।",
-        "pron": "झ़ö नö वै झ़ा-मै आ ला पी-सीन"
+        "pron": "ज न वे जा-मे आ ला पी-सीन"
       },
       {
         "fr": "Je les achète au marché.",
         "en": "I buy them at the market.",
         "hi": "मैं उन्हें बाज़ार से ख़रीदता/ख़रीदती हूँ।",
-        "pron": "झ़ö ले ज़ा-शैत ओ माग़-शे"
+        "pron": "ज ले ज़ा-शेत ओ मार-शे"
       },
       {
         "fr": "Je lui offre des fleurs.",
         "en": "I give her flowers.",
         "hi": "मैं उसे फूल देता/देती हूँ।",
-        "pron": "झ़ö ल्üई ऑफ़्ग़ दे फ़्लöग़"
+        "pron": "ज ल्यूई ऑफ़्र दे फ़्लर"
       },
       {
         "fr": "Ça fait combien ?",
         "en": "How much is that?",
         "hi": "कितना हुआ?",
-        "pron": "सा फ़ै कोँ-ब्यैँ"
+        "pron": "सा फ़े कों-ब्यैं"
       }
     ]
   },
@@ -896,14 +942,14 @@
         "hi": "'on y va' कैसे बोला जाता है?"
       },
       "options": [
-        "ओँ ई वा",
-        "ओँ नी वा",
+        "ओं ई वा",
+        "ओं नी वा",
         "ओन यी वा"
       ],
       "answer": 1,
       "explanation": {
-        "en": "Liaison on‿y: the n joins y → ओँ नी वा.",
-        "hi": "लियाज़ों on‿y: n, y से जुड़ता है → ओँ नी वा।"
+        "en": "Liaison on‿y: the n joins y → ओं नी वा.",
+        "hi": "लियाज़ों on‿y: n, y से जुड़ता है → ओं नी वा।"
       }
     }
   ]

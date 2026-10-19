@@ -30,7 +30,7 @@
       "fr": "le répertoire",
       "en": "repertoire, personal collection (of phrases)",
       "hi": "भंडार / संग्रह",
-      "pron": "लö ग़े-पैग़-त्वाग़",
+      "pron": "ल रे-पेर-त्वार",
       "ipa": "lə ʁepɛʁtwaʁ",
       "pos": "noun",
       "gender": "m",
@@ -40,7 +40,7 @@
       "fr": "la formule",
       "en": "set phrase, formula",
       "hi": "तय वाक्यांश",
-      "pron": "ला फ़ोग़-मüल",
+      "pron": "ला फ़ोर-म्यूल",
       "ipa": "la fɔʁmyl",
       "pos": "noun",
       "gender": "f",
@@ -50,7 +50,7 @@
       "fr": "par cœur",
       "en": "by heart",
       "hi": "ज़बानी / कंठस्थ",
-      "pron": "पाग़ कöग़",
+      "pron": "पार कर",
       "ipa": "paʁ kœʁ",
       "pos": "phrase"
     },
@@ -58,7 +58,7 @@
       "fr": "réviser",
       "en": "to revise, to review",
       "hi": "दोहराना",
-      "pron": "ग़े-वी-ज़े",
+      "pron": "रे-वी-ज़े",
       "ipa": "ʁevize",
       "pos": "verb"
     },
@@ -76,7 +76,7 @@
       "fr": "à portée de main",
       "en": "within reach, handy",
       "hi": "हाथ के पास / आसानी से उपलब्ध",
-      "pron": "आ पोग़-ते दö मैँ",
+      "pron": "आ पोर-ते द मैं",
       "ipa": "a pɔʁte də mɛ̃",
       "pos": "phrase"
     }
@@ -86,25 +86,25 @@
       "fr": "Je relis mes formules préférées.",
       "en": "I reread my favourite set phrases.",
       "hi": "मैं अपने पसंदीदा तय वाक्यांश दोबारा पढ़ता / पढ़ती हूँ।",
-      "pron": "झ़ö ग़ö-ली मे फ़ोग़-मüल प्ग़े-फ़े-ग़े"
+      "pron": "ज र-ली मे फ़ोर-म्यूल प्रे-फ़े-रे"
     },
     {
       "fr": "Cette phrase, je la connais par cœur.",
       "en": "This sentence, I know it by heart.",
       "hi": "यह वाक्य मुझे ज़बानी याद है।",
-      "pron": "सैत फ़्ग़ाज़ झ़ö ला को-नै पाग़ कöग़"
+      "pron": "सेत फ़्राज़ ज ला को-ने पार कर"
     },
     {
       "fr": "Il vaut mieux bien connaître dix phrases que mal en connaître cinquante.",
       "en": "It's better to know ten phrases well than fifty badly.",
       "hi": "पचास वाक्य कच्चे जानने से अच्छा है दस वाक्य पक्के जानना।",
-      "pron": "ईल वो म्यö ब्यैँ को-नैत्ग़ दी फ़्ग़ाज़ कö माल आँ को-नैत्ग़ सैँ-काँत"
+      "pron": "ईल वो म्य ब्यैं को-नेत्र दी फ़्राज़ क माल आँ को-नेत्र सैं-काँत"
     },
     {
       "fr": "Pour conclure, …",
       "en": "To conclude, …",
       "hi": "निष्कर्ष में, …",
-      "pron": "पूग़ कोँ-क्लüग़"
+      "pron": "पूर कों-क्ल्यूर"
     }
   ],
   "grammar": {
@@ -121,19 +121,19 @@
         "fr": "À mon avis, le télétravail a plus d'avantages que d'inconvénients.",
         "en": "In my opinion, remote work has more advantages than disadvantages.",
         "hi": "मेरी राय में, घर से काम करने के नुक़सान से ज़्यादा फ़ायदे हैं।",
-        "pron": "आ मोँ ना-वी लö ते-ले-त्ग़ा-वाय आ प्लü दा-वाँ-ताझ़ कö दैँ-नैँ-कोँ-वे-न्याँ"
+        "pron": "आ मों ना-वी ल ते-ले-त्रा-वाय आ प्ल्यू दा-वाँ-ताज क दैं-नैं-कों-वे-न्याँ"
       },
       {
         "fr": "Je voudrais savoir si le matériel est fourni.",
         "en": "I'd like to know if the equipment is provided.",
         "hi": "मैं जानना चाहता / चाहती हूँ कि सामान दिया जाता है या नहीं।",
-        "pron": "झ़ö वू-द्ग़ै सा-वाग़ सी लö मा-ते-ग़्यैल ऐ फ़ूग़-नी"
+        "pron": "ज वू-द्रे सा-वार सी ल मा-ते-र्येल ए फ़ूर-नी"
       },
       {
         "fr": "Pour conclure, je pense que c'est une excellente occasion.",
         "en": "To conclude, I think it's an excellent opportunity.",
         "hi": "निष्कर्ष में, मुझे लगता है कि यह एक बेहतरीन मौक़ा है।",
-        "pron": "पूग़ कोँ-क्लüग़ झ़ö पाँस कö सै तüन ऐक-से-लाँत ओ-का-ज़्योँ"
+        "pron": "पूर कों-क्ल्यूर ज पाँस क से त्यून एक-से-लाँत ओ-का-ज़्यों"
       }
     ],
     "pitfalls": [
@@ -154,28 +154,28 @@
         "fr": "Je voudrais savoir si…",
         "en": "I'd like to know if…",
         "hi": "मैं जानना चाहता / चाहती हूँ कि…",
-        "pron": "झ़ö वू-द्ग़ै सा-वाग़ सी",
+        "pron": "ज वू-द्रे सा-वार सी",
         "ipa": "ʒə vudʁɛ savwaʁ si"
       },
       {
         "fr": "Veuillez agréer…",
         "en": "Please accept… (letter formula)",
         "hi": "कृपया स्वीकार करें… (पत्र का वाक्यांश)",
-        "pron": "वö-ये ज़ा-ग्ग़े-ए",
+        "pron": "व-ये ज़ा-ग्रे-ए",
         "ipa": "vœje aɡʁee"
       },
       {
         "fr": "Je suis convaincu que…",
         "en": "I am convinced that…",
         "hi": "मुझे पूरा यक़ीन है कि…",
-        "pron": "झ़ö सüइ कोँ-वैँ-कü कö",
+        "pron": "ज स्यूइ कों-वैं-क्यू क",
         "ipa": "ʒə sɥi kɔ̃vɛ̃ky kə"
       },
       {
         "fr": "Autrement dit…",
         "en": "In other words…",
         "hi": "दूसरे शब्दों में…",
-        "pron": "ओ-त्ग़ö-माँ दी",
+        "pron": "ओ-त्र-माँ दी",
         "ipa": "otʁəmɑ̃ di"
       }
     ]
@@ -238,7 +238,8 @@
     "questions": [
       {
         "q": {
-          "en": "How has Priya organised her phrases?"
+          "en": "How has Priya organised her phrases?",
+          "hi": "प्रिया ने अपने वाक्यांशों को कैसे व्यवस्थित किया है?"
         },
         "options": [
           "In a thick notebook",
@@ -252,11 +253,18 @@
           "hi": "'J'ai tout mis sur une seule page' — सब एक ही पन्ने पर।"
         },
         "kind": "literal",
-        "evidence": "j'ai tout mis sur une seule page"
+        "evidence": "j'ai tout mis sur une seule page",
+        "optionsHi": [
+          "एक मोटी नोटबुक में",
+          "एक ही पन्ने पर",
+          "अपने फ़ोन में",
+          "उसने उन्हें व्यवस्थित नहीं किया है"
+        ]
       },
       {
         "q": {
-          "en": "Why does Daniel like 'Je te comprends, mais justement…'?"
+          "en": "Why does Daniel like 'Je te comprends, mais justement…'?",
+          "hi": "डैनियल को 'Je te comprends, mais justement…' क्यों पसंद है?"
         },
         "options": [
           "It's very formal",
@@ -270,11 +278,18 @@
           "hi": "'Elle marche pour presque toutes les objections' — लगभग हर आपत्ति पर काम करता है।"
         },
         "kind": "literal",
-        "evidence": "Elle marche pour presque toutes les objections."
+        "evidence": "Elle marche pour presque toutes les objections.",
+        "optionsHi": [
+          "यह बहुत औपचारिक है",
+          "यह लगभग हर आपत्ति पर काम करता है",
+          "उसके शिक्षक ने इसे इस्तेमाल करने को कहा था",
+          "यह छोटा है"
+        ]
       },
       {
         "q": {
-          "en": "Why does Priya always start her letter the same way?"
+          "en": "Why does Priya always start her letter the same way?",
+          "hi": "प्रिया अपना पत्र हमेशा एक ही तरह से क्यों शुरू करती है?"
         },
         "options": [
           "To save time",
@@ -288,11 +303,18 @@
           "hi": "'Comme ça, je ne perds pas de temps' — समय बचाने के लिए।"
         },
         "kind": "inference",
-        "evidence": "Comme ça, je ne perds pas de temps."
+        "evidence": "Comme ça, je ne perds pas de temps.",
+        "optionsHi": [
+          "समय बचाने के लिए",
+          "क्योंकि यह ज़रूरी है",
+          "परीक्षक को प्रभावित करने के लिए",
+          "क्योंकि उसे दूसरे सूत्र-वाक्य नहीं आते"
+        ]
       },
       {
         "q": {
-          "en": "When will Daniel reread his sheet?"
+          "en": "When will Daniel reread his sheet?",
+          "hi": "डैनियल अपना पन्ना कब दोबारा पढ़ेगा?"
         },
         "options": [
           "Every night",
@@ -306,7 +328,13 @@
           "hi": "'Dans le métro, la veille du test' — परीक्षा से एक दिन पहले मेट्रो में।"
         },
         "kind": "literal",
-        "evidence": "je vais relire ma fiche dans le métro, la veille du test"
+        "evidence": "je vais relire ma fiche dans le métro, la veille du test",
+        "optionsHi": [
+          "हर रात",
+          "परीक्षा की सुबह",
+          "परीक्षा से एक दिन पहले, मेट्रो में",
+          "कभी नहीं"
+        ]
       }
     ],
     "dictation": [
@@ -332,27 +360,27 @@
         "fr": "Quelle est ta phrase préférée en français, et pourquoi ?",
         "en": "What is your favourite phrase in French, and why?",
         "hi": "फ़्रेंच में तुम्हारा पसंदीदा वाक्य कौन-सा है, और क्यों?",
-        "pron": "कैल ऐ ता फ़्ग़ाज़ प्ग़े-फ़े-ग़े आँ फ़्ग़ाँ-सै ए पूग़-क्वा",
+        "pron": "केल ए ता फ़्राज़ प्रे-फ़े-रे आँ फ़्राँ-से ए पूर-क्वा",
         "model": "Ma phrase préférée, c'est « Autrement dit ». Elle m'aide quand je ne trouve pas un mot : je peux reformuler sans m'arrêter. En plus, elle sonne très naturelle."
       },
       {
         "fr": "Qu'est-ce qui a le plus changé dans ton français depuis le début ?",
         "en": "What has changed most in your French since the beginning?",
         "hi": "शुरुआत से अब तक तुम्हारी फ़्रेंच में सबसे ज़्यादा क्या बदला है?",
-        "pron": "कैस की आ लö प्लü शाँ-झ़े दाँ तोँ फ़्ग़ाँ-सै द-प्üइ लö दे-बü",
+        "pron": "केस की आ ल प्ल्यू शाँ-जे दाँ तों फ़्राँ-से द-प्यूइ ल दे-ब्यू",
         "model": "À mon avis, c'est la compréhension orale. Au début, je ne comprenais presque rien à la radio. Maintenant, je comprends l'essentiel, même quand les gens parlent vite."
       },
       {
         "fr": "Comment est-ce que tu vas réviser la veille du test ?",
         "en": "How are you going to revise the day before the test?",
         "hi": "परीक्षा से एक दिन पहले तुम कैसे दोहराओगे?",
-        "pron": "को-माँ ऐस कö तü वा ग़े-वी-ज़े ला वैय दü तैस्त"
+        "pron": "को-माँ एस क त्यू वा रे-वी-ज़े ला वेय द्यू तेस्त"
       },
       {
         "fr": "Je te comprends, mais justement, c'est le moment de te reposer.",
         "en": "I understand you, but that's exactly why it's time to rest.",
         "hi": "मैं तुम्हें समझता / समझती हूँ, पर इसीलिए तो अब आराम करने का समय है।",
-        "pron": "झ़ö तö कोँ-प्ग़ाँ मै झ़üस-त-माँ सै लö मो-माँ दö तö ग़ö-पो-ज़े"
+        "pron": "ज त कों-प्राँ मे ज्यूस-त-माँ से ल मो-माँ द त र-पो-ज़े"
       }
     ],
     "tip": {
@@ -371,7 +399,8 @@
     "questions": [
       {
         "q": {
-          "en": "Why is Sonia sharing her sheet?"
+          "en": "Why is Sonia sharing her sheet?",
+          "hi": "सोनिया अपना पन्ना क्यों साझा कर रही है?"
         },
         "options": [
           "Her teacher asked her to",
@@ -385,11 +414,18 @@
           "hi": "'Au cas où elle serait utile à quelqu'un' — शायद किसी के काम आ जाए।"
         },
         "kind": "literal",
-        "evidence": "au cas où elle serait utile à quelqu'un"
+        "evidence": "au cas où elle serait utile à quelqu'un",
+        "optionsHi": [
+          "उसकी शिक्षिका ने कहा था",
+          "शायद दूसरों के काम आ जाए",
+          "उसे बेचने के लिए",
+          "क्योंकि उसकी परीक्षा पूरी हो चुकी है"
+        ]
       },
       {
         "q": {
-          "en": "How many phrases did she keep?"
+          "en": "How many phrases did she keep?",
+          "hi": "उसने कितने वाक्यांश रखे?"
         },
         "options": [
           "Six",
@@ -407,7 +443,8 @@
       },
       {
         "q": {
-          "en": "Why did she choose 'de plus', 'cependant' and 'par exemple'?"
+          "en": "Why did she choose 'de plus', 'cependant' and 'par exemple'?",
+          "hi": "उसने 'de plus', 'cependant' और 'par exemple' को क्यों चुना?"
         },
         "options": [
           "She really uses them",
@@ -421,11 +458,18 @@
           "hi": "'Parce que je les utilise vraiment' — क्योंकि वह इन्हें सच में इस्तेमाल करती है।"
         },
         "kind": "literal",
-        "evidence": "parce que je les utilise vraiment"
+        "evidence": "parce que je les utilise vraiment",
+        "optionsHi": [
+          "वह सचमुच इन्हें इस्तेमाल करती है",
+          "ये सबसे औपचारिक हैं",
+          "ये सबसे छोटे हैं",
+          "ये आधिकारिक सूची में हैं"
+        ]
       },
       {
         "q": {
-          "en": "Which sentence would Sonia mark as correct?"
+          "en": "Which sentence would Sonia mark as correct?",
+          "hi": "सोनिया किस वाक्य को सही मानेगी?"
         },
         "options": [
           "J'ai habité ici depuis deux ans.",
@@ -466,13 +510,13 @@
         "fr": "Merci pour ta fiche !",
         "en": "Thanks for your sheet!",
         "hi": "तुम्हारी पर्ची के लिए धन्यवाद!",
-        "pron": "मैग़-सी पूग़ ता फ़ीश"
+        "pron": "मेर-सी पूर ता फ़ीश"
       },
       {
         "fr": "Bonne chance pour ton test !",
         "en": "Good luck with your test!",
         "hi": "तुम्हारी परीक्षा के लिए शुभकामनाएँ!",
-        "pron": "बॉन शाँस पूग़ तोँ तैस्त"
+        "pron": "बॉन शाँस पूर तों तेस्त"
       }
     ],
     "model": {
@@ -510,49 +554,49 @@
         "fr": "Je vous appelle au sujet de votre annonce.",
         "en": "I'm calling about your advertisement.",
         "hi": "मैं आपके विज्ञापन के बारे में फ़ोन कर रहा / रही हूँ।",
-        "pron": "झ़ö वू ज़ा-पैल ओ सü-झ़े दö वोत्ग़ आ-नोँस"
+        "pron": "ज वू ज़ा-पेल ओ स्यू-जे द वॉत्र आ-नोंस"
       },
       {
         "fr": "Je voudrais savoir si …",
         "en": "I'd like to know if …",
         "hi": "मैं जानना चाहता / चाहती हूँ कि …",
-        "pron": "झ़ö वू-द्ग़ै सा-वाग़ सी"
+        "pron": "ज वू-द्रे सा-वार सी"
       },
       {
         "fr": "Pourriez-vous me dire … ?",
         "en": "Could you tell me …?",
         "hi": "क्या आप बता सकते हैं …?",
-        "pron": "पू-ग़ी-ये वू मö दीग़"
+        "pron": "पू-री-ये वू म दीर"
       },
       {
         "fr": "Vous voulez dire que … ?",
         "en": "Do you mean that …?",
         "hi": "आपका मतलब है कि …?",
-        "pron": "वू वू-ले दीग़ कö"
+        "pron": "वू वू-ले दीर क"
       },
       {
         "fr": "Autrement dit, …",
         "en": "In other words, …",
         "hi": "दूसरे शब्दों में, …",
-        "pron": "ओ-त्ग़ö-माँ दी"
+        "pron": "ओ-त्र-माँ दी"
       },
       {
         "fr": "Je te comprends, mais justement …",
         "en": "I understand, but that's exactly why …",
         "hi": "मैं समझता / समझती हूँ, पर इसीलिए तो …",
-        "pron": "झ़ö तö कोँ-प्ग़ाँ मै झ़üस-त-माँ"
+        "pron": "ज त कों-प्राँ मे ज्यूस-त-माँ"
       },
       {
         "fr": "À mon avis, …",
         "en": "In my opinion, …",
         "hi": "मेरी राय में, …",
-        "pron": "आ मोँ ना-वी"
+        "pron": "आ मों ना-वी"
       },
       {
         "fr": "Je ne partage pas cette opinion.",
         "en": "I don't share this opinion.",
         "hi": "मैं इस राय से सहमत नहीं हूँ।",
-        "pron": "झ़ö नö पाग़-ताझ़ पा सैत ओ-पी-न्योँ"
+        "pron": "ज न पार-ताज पा सेत ओ-पी-न्यों"
       },
       {
         "fr": "cependant",
@@ -564,31 +608,31 @@
         "fr": "Veuillez agréer mes salutations distinguées.",
         "en": "Yours faithfully.",
         "hi": "सादर।",
-        "pron": "वö-ये ज़ा-ग्ग़े-ए मे सा-लü-ता-स्योँ दीस-तैँ-गे"
+        "pron": "व-ये ज़ा-ग्रे-ए मे सा-ल्यू-ता-स्यों दिस-तैं-गे"
       },
       {
         "fr": "C'est une erreur qui revient souvent.",
         "en": "It's a mistake that often comes back.",
         "hi": "यह ऐसी ग़लती है जो अक्सर लौटती है।",
-        "pron": "सै तüन ए-ग़öग़ की ग़ö-व्यैँ सू-वाँ"
+        "pron": "से त्यून ए-रर की र-व्यैं सू-वाँ"
       },
       {
         "fr": "Je garde cinq minutes pour la relecture.",
         "en": "I keep five minutes for proofreading.",
         "hi": "मैं जाँचने के लिए पाँच मिनट बचाकर रखता / रखती हूँ।",
-        "pron": "झ़ö गाग़्द सैँ मी-नüत पूग़ ला ग़ö-लैक-तüग़"
+        "pron": "ज गार्द सैं मी-न्यूत पूर ला र-लेक-त्यूर"
       },
       {
         "fr": "la convocation",
         "en": "notice to attend",
         "hi": "बुलावा-पत्र",
-        "pron": "ला कोँ-वो-का-स्योँ"
+        "pron": "ला कों-वो-का-स्यों"
       },
       {
         "fr": "la pièce d'identité",
         "en": "identity document",
         "hi": "पहचान-पत्र",
-        "pron": "ला प्यैस दी-दाँ-ती-ते"
+        "pron": "ला प्येस दी-दाँ-ती-ते"
       }
     ]
   },

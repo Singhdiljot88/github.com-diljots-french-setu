@@ -13,29 +13,29 @@
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "ne … pas", "en": "not", "hi": "नहीं", "pron": "नö … पा", "ipa": "nə … pa", "pos": "adverb", "note": { "en": "Goes around the verb: je ne parle pas.", "hi": "क्रिया के दोनों ओर आता है: je ne parle pas।" } },
-    { "fr": "adorer", "en": "to love, to adore", "hi": "बहुत पसंद करना", "pron": "आ-दो-ग़े", "ipa": "adɔʁe", "pos": "verb" },
-    { "fr": "détester", "en": "to hate", "hi": "बिल्कुल नापसंद करना / नफ़रत करना", "pron": "दे-तैस-ते", "ipa": "detɛste", "pos": "verb" },
-    { "fr": "le thé", "en": "tea", "hi": "चाय", "pron": "लö ते", "ipa": "lə te", "pos": "noun", "gender": "m", "lemma": "thé", "note": { "en": "Masculine in French; चाय is feminine in Hindi.", "hi": "फ़्रेंच में पुल्लिंग; हिंदी में 'चाय' स्त्रीलिंग है।" } },
-    { "fr": "le café", "en": "coffee; café", "hi": "कॉफ़ी; कैफ़े", "pron": "लö का-फ़े", "ipa": "lə kafe", "pos": "noun", "gender": "m", "lemma": "café" },
-    { "fr": "le cricket", "en": "cricket", "hi": "क्रिकेट", "pron": "लö क्ग़ी-कैत", "ipa": "lə kʁikɛt", "pos": "noun", "gender": "m", "lemma": "cricket" },
-    { "fr": "le hockey", "en": "hockey (ice hockey in Canada)", "hi": "हॉकी (कनाडा में बर्फ़ पर)", "pron": "लö ऑ-कै", "ipa": "lə ɔkɛ", "pos": "noun", "gender": "m", "lemma": "hockey", "note": { "en": "No l' here: 'le hockey'. The h is silent but blocks elision.", "hi": "यहाँ l' नहीं: 'le hockey'। h बोला नहीं जाता, फिर भी l' नहीं बनता।" } },
-    { "fr": "la musique", "en": "music", "hi": "संगीत", "pron": "ला मü-ज़ीक", "ipa": "la myzik", "pos": "noun", "gender": "f", "lemma": "musique" },
-    { "fr": "le sport", "en": "sport", "hi": "खेल-कूद", "pron": "लö स्पॉग़", "ipa": "lə spɔʁ", "pos": "noun", "gender": "m", "lemma": "sport" },
-    { "fr": "le cinéma", "en": "cinema, the movies", "hi": "सिनेमा", "pron": "लö सी-ने-मा", "ipa": "lə sinema", "pos": "noun", "gender": "m", "lemma": "cinéma" },
-    { "fr": "le chocolat", "en": "chocolate", "hi": "चॉकलेट", "pron": "लö शो-को-ला", "ipa": "lə ʃɔkɔla", "pos": "noun", "gender": "m", "lemma": "chocolat" },
+    { "fr": "ne … pas", "en": "not", "hi": "नहीं", "pron": "न ... पा", "ipa": "nə … pa", "pos": "adverb", "note": { "en": "Goes around the verb: je ne parle pas.", "hi": "क्रिया के दोनों ओर आता है: je ne parle pas।" } },
+    { "fr": "adorer", "en": "to love, to adore", "hi": "बहुत पसंद करना", "pron": "आ-दो-रे", "ipa": "adɔʁe", "pos": "verb" },
+    { "fr": "détester", "en": "to hate", "hi": "बिल्कुल नापसंद करना / नफ़रत करना", "pron": "दे-तेस-ते", "ipa": "detɛste", "pos": "verb" },
+    { "fr": "le thé", "en": "tea", "hi": "चाय", "pron": "ल ते", "ipa": "lə te", "pos": "noun", "gender": "m", "lemma": "thé", "note": { "en": "Masculine in French; चाय is feminine in Hindi.", "hi": "फ़्रेंच में पुल्लिंग; हिंदी में 'चाय' स्त्रीलिंग है।" } },
+    { "fr": "le café", "en": "coffee; café", "hi": "कॉफ़ी; कैफ़े", "pron": "ल का-फ़े", "ipa": "lə kafe", "pos": "noun", "gender": "m", "lemma": "café" },
+    { "fr": "le cricket", "en": "cricket", "hi": "क्रिकेट", "pron": "ल क्री-केत", "ipa": "lə kʁikɛt", "pos": "noun", "gender": "m", "lemma": "cricket" },
+    { "fr": "le hockey", "en": "hockey (ice hockey in Canada)", "hi": "हॉकी (कनाडा में बर्फ़ पर)", "pron": "ल ओ-के", "ipa": "lə ɔkɛ", "pos": "noun", "gender": "m", "lemma": "hockey", "note": { "en": "No l' here: 'le hockey'. The h is silent but blocks elision.", "hi": "यहाँ l' नहीं: 'le hockey'। h बोला नहीं जाता, फिर भी l' नहीं बनता।" } },
+    { "fr": "la musique", "en": "music", "hi": "संगीत", "pron": "ला म्यू-ज़ीक", "ipa": "la myzik", "pos": "noun", "gender": "f", "lemma": "musique" },
+    { "fr": "le sport", "en": "sport", "hi": "खेल-कूद", "pron": "ल स्पॉर", "ipa": "lə spɔʁ", "pos": "noun", "gender": "m", "lemma": "sport" },
+    { "fr": "le cinéma", "en": "cinema, the movies", "hi": "सिनेमा", "pron": "ल सी-ने-मा", "ipa": "lə sinema", "pos": "noun", "gender": "m", "lemma": "cinéma" },
+    { "fr": "le chocolat", "en": "chocolate", "hi": "चॉकलेट", "pron": "ल शो-को-ला", "ipa": "lə ʃɔkɔla", "pos": "noun", "gender": "m", "lemma": "chocolat" },
     { "fr": "danser", "en": "to dance", "hi": "नाचना", "pron": "दाँ-से", "ipa": "dɑ̃se", "pos": "verb" },
-    { "fr": "regarder", "en": "to watch, to look at", "hi": "देखना", "pron": "ग़ö-गाग़-दे", "ipa": "ʁəɡaʁde", "pos": "verb" },
-    { "fr": "cuisiner", "en": "to cook", "hi": "खाना बनाना", "pron": "कüई-ज़ी-ने", "ipa": "kɥizine", "pos": "verb" }
+    { "fr": "regarder", "en": "to watch, to look at", "hi": "देखना", "pron": "र-गार-दे", "ipa": "ʁəɡaʁde", "pos": "verb" },
+    { "fr": "cuisiner", "en": "to cook", "hi": "खाना बनाना", "pron": "क्यूई-ज़ी-ने", "ipa": "kɥizine", "pos": "verb" }
   ],
   "phrases": [
-    { "fr": "Je n'aime pas le café.", "en": "I don't like coffee.", "hi": "मुझे कॉफ़ी पसंद नहीं है।", "pron": "झ़ö नैम पा लö का-फ़े", "ipa": "ʒə nɛm pa lə kafe" },
-    { "fr": "J'adore le cricket !", "en": "I love cricket!", "hi": "मुझे क्रिकेट बहुत पसंद है!", "pron": "झ़ा-दॉग़ लö क्ग़ी-कैत", "ipa": "ʒadɔʁ lə kʁikɛt" },
-    { "fr": "Tu aimes le thé ?", "en": "Do you like tea?", "hi": "क्या तुम्हें चाय पसंद है?", "pron": "तü ऐम लö ते", "ipa": "ty ɛm lə te" },
-    { "fr": "J'aime danser.", "en": "I like dancing.", "hi": "मुझे नाचना पसंद है।", "pron": "झ़ैम दाँ-से", "ipa": "ʒɛm dɑ̃se" },
-    { "fr": "Je ne parle pas espagnol.", "en": "I don't speak Spanish.", "hi": "मैं स्पैनिश नहीं बोलता/बोलती।", "pron": "झ़ö नö पाग़्ल पा ज़ैस-पा-न्योल", "ipa": "ʒə nə paʁl pa zɛspaɲɔl" },
-    { "fr": "Moi non plus.", "en": "Me neither.", "hi": "मुझे भी नहीं। / मैं भी नहीं।", "pron": "मवा नोँ प्लü", "ipa": "mwa nɔ̃ ply", "note": { "en": "Answer to a negative sentence. 'Moi aussi' answers a positive one.", "hi": "नकारात्मक वाक्य का जवाब। सकारात्मक वाक्य का जवाब 'Moi aussi' है।" } },
-    { "fr": "Je n'ai pas de frère.", "en": "I don't have a brother.", "hi": "मेरा कोई भाई नहीं है।", "pron": "झ़ö ने पा दö फ़्ग़ैग़", "ipa": "ʒə ne pa də fʁɛʁ" }
+    { "fr": "Je n'aime pas le café.", "en": "I don't like coffee.", "hi": "मुझे कॉफ़ी पसंद नहीं है।", "pron": "ज नेम पा ल का-फ़े", "ipa": "ʒə nɛm pa lə kafe" },
+    { "fr": "J'adore le cricket !", "en": "I love cricket!", "hi": "मुझे क्रिकेट बहुत पसंद है!", "pron": "जा-दॉर ल क्री-केत", "ipa": "ʒadɔʁ lə kʁikɛt" },
+    { "fr": "Tu aimes le thé ?", "en": "Do you like tea?", "hi": "क्या तुम्हें चाय पसंद है?", "pron": "त्यू एम ल ते", "ipa": "ty ɛm lə te" },
+    { "fr": "J'aime danser.", "en": "I like dancing.", "hi": "मुझे नाचना पसंद है।", "pron": "जेम दाँ-से", "ipa": "ʒɛm dɑ̃se" },
+    { "fr": "Je ne parle pas espagnol.", "en": "I don't speak Spanish.", "hi": "मैं स्पैनिश नहीं बोलता/बोलती।", "pron": "ज न पार्ल पा ज़ेस-पा-न्योल", "ipa": "ʒə nə paʁl pa zɛspaɲɔl" },
+    { "fr": "Moi non plus.", "en": "Me neither.", "hi": "मुझे भी नहीं। / मैं भी नहीं।", "pron": "मवा नों प्ल्यू", "ipa": "mwa nɔ̃ ply", "note": { "en": "Answer to a negative sentence. 'Moi aussi' answers a positive one.", "hi": "नकारात्मक वाक्य का जवाब। सकारात्मक वाक्य का जवाब 'Moi aussi' है।" } },
+    { "fr": "Je n'ai pas de frère.", "en": "I don't have a brother.", "hi": "मेरा कोई भाई नहीं है।", "pron": "ज ने पा द फ़्रेर", "ipa": "ʒə ne pa də fʁɛʁ" }
   ],
   "grammar": {
     "title": { "en": "ne … pas, and aimer / adorer / détester", "hi": "ne … pas, और aimer / adorer / détester" },
@@ -48,31 +48,31 @@
       "hi": "हिंदी में क्रिया से पहले एक शब्द 'नहीं' आता है: मैं चाय नहीं पीता। फ़्रेंच में क्रिया दो टुकड़ों के बीच आती है: ne … pas। साथ ही, हिंदी में 'मुझे चाय पसंद है' और अंग्रेज़ी में बिना 'the' के 'I like tea' कहते हैं; फ़्रेंच में 'J'aime le thé' — मैं + पसंद करता हूँ + 'the' चाय। रोज़ की बोलचाल में फ़्रांसीसी लोग अक्सर ne छोड़ देते हैं ('j'aime pas'), पर लिखते समय और TEF में हमेशा ne लगाइए।"
     },
     "examples": [
-      { "fr": "Je ne travaille pas.", "en": "I don't work. / I'm not working.", "hi": "मैं काम नहीं करता/करती।", "pron": "झ़ö नö त्ग़ा-वाय पा" },
-      { "fr": "Elle n'aime pas le sport.", "en": "She doesn't like sport.", "hi": "उसे खेल-कूद पसंद नहीं है।", "pron": "ऐल नैम पा लö स्पॉग़" },
-      { "fr": "Nous adorons la musique.", "en": "We love music.", "hi": "हमें संगीत बहुत पसंद है।", "pron": "नू ज़ा-दो-ग़ोँ ला मü-ज़ीक" },
-      { "fr": "Je déteste regarder la télé.", "en": "I hate watching TV.", "hi": "मुझे टीवी देखना बिल्कुल पसंद नहीं।", "pron": "झ़ö दे-तैस्त ग़ö-गाग़-दे ला ते-ले" },
-      { "fr": "Il n'y a pas de tableau.", "en": "There is no board.", "hi": "कोई बोर्ड नहीं है।", "pron": "ईल नी-या पा दö ता-ब्लो", "note": { "en": "il y a → il n'y a pas de.", "hi": "il y a → il n'y a pas de।" } },
-      { "fr": "Vous n'êtes pas fatigué ?", "en": "Aren't you tired?", "hi": "क्या आप थके हुए नहीं हैं?", "pron": "वू नैत पा फ़ा-ती-गे" }
+      { "fr": "Je ne travaille pas.", "en": "I don't work. / I'm not working.", "hi": "मैं काम नहीं करता/करती।", "pron": "ज न त्रा-वाय पा" },
+      { "fr": "Elle n'aime pas le sport.", "en": "She doesn't like sport.", "hi": "उसे खेल-कूद पसंद नहीं है।", "pron": "एल नेम पा ल स्पॉर" },
+      { "fr": "Nous adorons la musique.", "en": "We love music.", "hi": "हमें संगीत बहुत पसंद है।", "pron": "नू ज़ा-दो-रों ला म्यू-ज़ीक" },
+      { "fr": "Je déteste regarder la télé.", "en": "I hate watching TV.", "hi": "मुझे टीवी देखना बिल्कुल पसंद नहीं।", "pron": "ज दे-तेस्त र-गार-दे ला ते-ले" },
+      { "fr": "Il n'y a pas de tableau.", "en": "There is no board.", "hi": "कोई बोर्ड नहीं है।", "pron": "ईल नी-या पा द ता-ब्लो", "note": { "en": "il y a → il n'y a pas de.", "hi": "il y a → il n'y a pas de।" } },
+      { "fr": "Vous n'êtes pas fatigué ?", "en": "Aren't you tired?", "hi": "क्या आप थके हुए नहीं हैं?", "pron": "वू नेत पा फ़ा-ती-गे" }
     ],
     "pitfalls": [
       { "en": "Don't forget pas: 'Je ne parle français' is incomplete. Both pieces are needed in writing.", "hi": "pas मत भूलिए: 'Je ne parle français' अधूरा है। लिखते समय दोनों हिस्से ज़रूरी हैं।" },
-      { "en": "Don't drop the article with aimer: 'J'aime thé' is wrong → 'J'aime le thé'.", "hi": "aimer के साथ उपपद मत छोड़िए: 'J'aime thé' गलत है → 'J'aime le thé'।" },
+      { "en": "Don't drop the article with aimer: 'J'aime thé' is wrong → 'J'aime le thé'.", "hi": "aimer के साथ उपपद मत छोड़िए: 'J'aime thé' ग़लत है → 'J'aime le thé'।" },
       { "en": "Not 'Je n'ai pas un frère' → 'Je n'ai pas de frère'.", "hi": "'Je n'ai pas un frère' नहीं → 'Je n'ai pas de frère'।" }
     ]
   },
   "pronunciation": {
     "focus": "Nasal /ɔ̃/: non, bon, mon",
     "tip": {
-      "en": "For on/om, round your lips as for ओ and let air go through the nose: ओँ. Do not close with an n or m sound. 'non' is नोँ, not 'नॉन'. The same sound ends nous parlons, nous adorons.",
-      "hi": "on/om के लिए होंठ 'ओ' की तरह गोल कीजिए और हवा नाक से निकलने दीजिए: ओँ। अंत में न या म की आवाज़ मत लाइए। 'non' = नोँ, 'नॉन' नहीं। यही आवाज़ nous parlons, nous adorons के अंत में है।"
+      "en": "For on/om, round your lips as for ओ and let air go through the nose: ओं. Do not close with an n or m sound. 'non' is नों, not 'नॉन'. The same sound ends nous parlons, nous adorons.",
+      "hi": "on/om के लिए होंठ 'ओ' की तरह गोल कीजिए और हवा नाक से निकलने दीजिए: ओं। अंत में न या म की आवाज़ मत लाइए। 'non' = नों, 'नॉन' नहीं। यही आवाज़ nous parlons, nous adorons के अंत में है।"
     },
     "words": [
-      { "fr": "non", "en": "no", "hi": "नहीं", "pron": "नोँ", "ipa": "nɔ̃" },
-      { "fr": "bon", "en": "good", "hi": "अच्छा", "pron": "बोँ", "ipa": "bɔ̃" },
-      { "fr": "mon", "en": "my (m)", "hi": "मेरा", "pron": "मोँ", "ipa": "mɔ̃" },
-      { "fr": "on", "en": "we / people", "hi": "हम / लोग", "pron": "ओँ", "ipa": "ɔ̃" },
-      { "fr": "nous adorons", "en": "we love", "hi": "हमें बहुत पसंद है", "pron": "नू ज़ा-दो-ग़ोँ", "ipa": "nu zadɔʁɔ̃" }
+      { "fr": "non", "en": "no", "hi": "नहीं", "pron": "नों", "ipa": "nɔ̃" },
+      { "fr": "bon", "en": "good", "hi": "अच्छा", "pron": "बों", "ipa": "bɔ̃" },
+      { "fr": "mon", "en": "my (m)", "hi": "मेरा", "pron": "मों", "ipa": "mɔ̃" },
+      { "fr": "on", "en": "we / people", "hi": "हम / लोग", "pron": "ओं", "ipa": "ɔ̃" },
+      { "fr": "nous adorons", "en": "we love", "hi": "हमें बहुत पसंद है", "pron": "नू ज़ा-दो-रों", "ipa": "nu zadɔʁɔ̃" }
     ]
   },
   "listening": {
@@ -91,11 +91,11 @@
       { "speaker": "Neha", "voice": "f1", "fr": "Moi aussi ! J'adore la musique.", "en": "Me too! I love music.", "hi": "मुझे भी! मुझे संगीत बहुत पसंद है।" }
     ],
     "questions": [
-      { "q": { "en": "What does Neha think of coffee?" }, "options": ["She loves it", "She doesn't like it", "She drinks it every day"], "answer": 1, "explanation": { "en": "'je n'aime pas le café'.", "hi": "'je n'aime pas le café' — उसे कॉफ़ी पसंद नहीं।" }, "kind": "literal", "evidence": "Non, je n'aime pas le café." },
-      { "q": { "en": "What does Neha love?" }, "options": ["Tea", "Hockey", "Coffee"], "answer": 0, "explanation": { "en": "'J'adore le thé !'", "hi": "'J'adore le thé !' — चाय।" }, "kind": "literal", "evidence": "J'adore le thé !" },
-      { "q": { "en": "Which sport does Thomas love?" }, "options": ["Cricket", "Football", "Hockey"], "answer": 2, "explanation": { "en": "'J'adore le hockey !' He doesn't watch cricket.", "hi": "'J'adore le hockey !' वह क्रिकेट नहीं देखता।" }, "kind": "literal", "evidence": "J'adore le hockey !" },
-      { "q": { "en": "Does Thomas like dancing?" }, "options": ["Yes, a lot", "No", "Only with Neha"], "answer": 1, "explanation": { "en": "'je n'aime pas danser'.", "hi": "'je n'aime pas danser' — उसे नाचना पसंद नहीं।" }, "kind": "literal", "evidence": "Non, je n'aime pas danser." },
-      { "q": { "en": "What do Neha and Thomas both like?" }, "options": ["Tea", "Music", "Cricket"], "answer": 1, "explanation": { "en": "Thomas likes music a lot and Neha says 'Moi aussi ! J'adore la musique.'", "hi": "थॉमस को संगीत बहुत पसंद है और नेहा कहती है 'Moi aussi ! J'adore la musique.'" }, "kind": "inference", "evidence": "Mais j'aime beaucoup la musique." }
+      { "q": { "en": "What does Neha think of coffee?", "hi": "Neha को कॉफ़ी कैसी लगती है?" }, "options": ["She loves it", "She doesn't like it", "She drinks it every day"], "optionsHi": ["उसे यह बहुत पसंद है", "उसे यह पसंद नहीं है", "वह इसे रोज़ पीती है"], "answer": 1, "explanation": { "en": "'je n'aime pas le café'.", "hi": "'je n'aime pas le café' — उसे कॉफ़ी पसंद नहीं।" }, "kind": "literal", "evidence": "Non, je n'aime pas le café." },
+      { "q": { "en": "What does Neha love?", "hi": "Neha को क्या बहुत पसंद है?" }, "options": ["Tea", "Hockey", "Coffee"], "optionsHi": ["चाय", "हॉकी", "कॉफ़ी"], "answer": 0, "explanation": { "en": "'J'adore le thé !'", "hi": "'J'adore le thé !' — चाय।" }, "kind": "literal", "evidence": "J'adore le thé !" },
+      { "q": { "en": "Which sport does Thomas love?", "hi": "Thomas को कौन-सा खेल बहुत पसंद है?" }, "options": ["Cricket", "Football", "Hockey"], "optionsHi": ["क्रिकेट", "फ़ुटबॉल", "हॉकी"], "answer": 2, "explanation": { "en": "'J'adore le hockey !' He doesn't watch cricket.", "hi": "'J'adore le hockey !' वह क्रिकेट नहीं देखता।" }, "kind": "literal", "evidence": "J'adore le hockey !" },
+      { "q": { "en": "Does Thomas like dancing?", "hi": "क्या Thomas को नाचना पसंद है?" }, "options": ["Yes, a lot", "No", "Only with Neha"], "optionsHi": ["हाँ, बहुत", "नहीं", "केवल Neha के साथ"], "answer": 1, "explanation": { "en": "'je n'aime pas danser'.", "hi": "'je n'aime pas danser' — उसे नाचना पसंद नहीं।" }, "kind": "literal", "evidence": "Non, je n'aime pas danser." },
+      { "q": { "en": "What do Neha and Thomas both like?", "hi": "Neha और Thomas दोनों को क्या पसंद है?" }, "options": ["Tea", "Music", "Cricket"], "optionsHi": ["चाय", "संगीत", "क्रिकेट"], "answer": 1, "explanation": { "en": "Thomas likes music a lot and Neha says 'Moi aussi ! J'adore la musique.'", "hi": "थॉमस को संगीत बहुत पसंद है और नेहा कहती है 'Moi aussi ! J'adore la musique.'" }, "kind": "inference", "evidence": "Mais j'aime beaucoup la musique." }
     ],
     "dictation": ["Je n'aime pas le café.", "J'adore le thé !", "Je ne regarde pas le cricket."],
     "gapFill": { "text": "Non, je ___ pas le café. J'___ le thé !", "answers": ["n'aime", "adore"] }
@@ -107,15 +107,15 @@
       "hi": "हर मॉडल दोहराइए। फिर aimer, adorer, détester और ne … pas से तीन चीज़ें बताइए जो आपको पसंद हैं और तीन जो पसंद नहीं।"
     },
     "prompts": [
-      { "fr": "J'aime le thé.", "en": "I like tea.", "hi": "मुझे चाय पसंद है।", "pron": "झ़ैम लö ते" },
-      { "fr": "J'adore cuisiner.", "en": "I love cooking.", "hi": "मुझे खाना बनाना बहुत पसंद है।", "pron": "झ़ा-दॉग़ कüई-ज़ी-ने" },
-      { "fr": "Je n'aime pas le sport.", "en": "I don't like sport.", "hi": "मुझे खेल-कूद पसंद नहीं।", "pron": "झ़ö नैम पा लö स्पॉग़", "model": "Je n'aime pas le café." },
-      { "fr": "Je déteste regarder la télé.", "en": "I hate watching TV.", "hi": "मुझे टीवी देखना बिल्कुल पसंद नहीं।", "pron": "झ़ö दे-तैस्त ग़ö-गाग़-दे ला ते-ले" },
-      { "fr": "Je ne parle pas espagnol.", "en": "I don't speak Spanish.", "hi": "मैं स्पैनिश नहीं बोलता/बोलती।", "pron": "झ़ö नö पाग़्ल पा ज़ैस-पा-न्योल" }
+      { "fr": "J'aime le thé.", "en": "I like tea.", "hi": "मुझे चाय पसंद है।", "pron": "जेम ल ते" },
+      { "fr": "J'adore cuisiner.", "en": "I love cooking.", "hi": "मुझे खाना बनाना बहुत पसंद है।", "pron": "जा-दॉर क्यूई-ज़ी-ने" },
+      { "fr": "Je n'aime pas le sport.", "en": "I don't like sport.", "hi": "मुझे खेल-कूद पसंद नहीं।", "pron": "ज नेम पा ल स्पॉर", "model": "Je n'aime pas le café." },
+      { "fr": "Je déteste regarder la télé.", "en": "I hate watching TV.", "hi": "मुझे टीवी देखना बिल्कुल पसंद नहीं।", "pron": "ज दे-तेस्त र-गार-दे ला ते-ले" },
+      { "fr": "Je ne parle pas espagnol.", "en": "I don't speak Spanish.", "hi": "मैं स्पैनिश नहीं बोलता/बोलती।", "pron": "ज न पार्ल पा ज़ेस-पा-न्योल" }
     ],
     "tip": {
-      "en": "Say 'je n'aime pas' as one smooth group: झ़ö नैम पा. The n' attaches to aime.",
-      "hi": "'je n'aime pas' को एक साथ बोलिए: झ़ö नैम पा। n', aime से जुड़ जाता है।"
+      "en": "Say 'je n'aime pas' as one smooth group: ज नेम पा. The n' attaches to aime.",
+      "hi": "'je n'aime pas' को एक साथ बोलिए: ज नेम पा। n', aime से जुड़ जाता है।"
     }
   },
   "reading": {
@@ -127,10 +127,10 @@
       "hi": "दोस्तों का क्लब — प्रोफ़ाइल\nरवि, 20 साल, टोरंटो: मुझे क्रिकेट और सिनेमा बहुत पसंद हैं। मुझे कॉफ़ी पसंद नहीं।\nलेआ, 19 साल, मॉन्ट्रियाल: मुझे संगीत और नाचना पसंद है। मुझे खेल-कूद बिल्कुल पसंद नहीं।\nह्यूगो, 18 साल, ओटावा: मुझे खाना बनाना पसंद है और चॉकलेट बहुत पसंद है। मैं अंग्रेज़ी नहीं बोलता।"
     },
     "questions": [
-      { "q": { "en": "Who hates sport?" }, "options": ["Ravi", "Léa", "Hugo"], "answer": 1, "explanation": { "en": "Léa: 'Je déteste le sport.'", "hi": "लेआ: 'Je déteste le sport.'" }, "kind": "literal", "evidence": "Je déteste le sport." },
-      { "q": { "en": "Who would enjoy watching a cricket match?" }, "options": ["Ravi", "Léa", "Hugo"], "answer": 0, "explanation": { "en": "Ravi: 'J'adore le cricket'.", "hi": "रवि: 'J'adore le cricket'।" }, "kind": "inference", "evidence": "J'adore le cricket et le cinéma." },
-      { "q": { "en": "With Hugo, which language should you use?" }, "options": ["English", "French", "Hindi"], "answer": 1, "explanation": { "en": "He writes in French and says 'Je ne parle pas anglais.'", "hi": "वह फ़्रेंच में लिखता है और कहता है 'Je ne parle pas anglais.'" }, "kind": "inference", "evidence": "Je ne parle pas anglais." },
-      { "q": { "en": "What does Hugo love?" }, "options": ["Coffee", "Dancing", "Chocolate"], "answer": 2, "explanation": { "en": "'j'adore le chocolat'.", "hi": "'j'adore le chocolat' — चॉकलेट।" }, "kind": "literal", "evidence": "j'adore le chocolat" }
+      { "q": { "en": "Who hates sport?", "hi": "खेलों से कौन नफ़रत करता है?" }, "options": ["Ravi", "Léa", "Hugo"], "answer": 1, "explanation": { "en": "Léa: 'Je déteste le sport.'", "hi": "लेआ: 'Je déteste le sport.'" }, "kind": "literal", "evidence": "Je déteste le sport." },
+      { "q": { "en": "Who would enjoy watching a cricket match?", "hi": "क्रिकेट मैच देखने में किसे मज़ा आएगा?" }, "options": ["Ravi", "Léa", "Hugo"], "answer": 0, "explanation": { "en": "Ravi: 'J'adore le cricket'.", "hi": "रवि: 'J'adore le cricket'।" }, "kind": "inference", "evidence": "J'adore le cricket et le cinéma." },
+      { "q": { "en": "With Hugo, which language should you use?", "hi": "Hugo से बात करते समय आपको कौन-सी भाषा इस्तेमाल करनी चाहिए?" }, "options": ["English", "French", "Hindi"], "optionsHi": ["अंग्रेज़ी", "फ़्रेंच", "हिंदी"], "answer": 1, "explanation": { "en": "He writes in French and says 'Je ne parle pas anglais.'", "hi": "वह फ़्रेंच में लिखता है और कहता है 'Je ne parle pas anglais.'" }, "kind": "inference", "evidence": "Je ne parle pas anglais." },
+      { "q": { "en": "What does Hugo love?", "hi": "Hugo को क्या बहुत पसंद है?" }, "options": ["Coffee", "Dancing", "Chocolate"], "optionsHi": ["कॉफ़ी", "नाचना", "चॉकलेट"], "answer": 2, "explanation": { "en": "'j'adore le chocolat'.", "hi": "'j'adore le chocolat' — चॉकलेट।" }, "kind": "literal", "evidence": "j'adore le chocolat" }
     ]
   },
   "writing": {
@@ -146,9 +146,9 @@
       { "en": "n' before a vowel: je n'aime pas.", "hi": "स्वर से पहले n': je n'aime pas।" }
     ],
     "usefulPhrases": [
-      { "fr": "J'adore …", "en": "I love …", "hi": "मुझे … बहुत पसंद है", "pron": "झ़ा-दॉग़" },
-      { "fr": "Je n'aime pas …", "en": "I don't like …", "hi": "मुझे … पसंद नहीं", "pron": "झ़ö नैम पा" },
-      { "fr": "Je déteste …", "en": "I hate …", "hi": "मुझे … बिल्कुल पसंद नहीं", "pron": "झ़ö दे-तैस्त" }
+      { "fr": "J'adore …", "en": "I love …", "hi": "मुझे … बहुत पसंद है", "pron": "जा-दॉर" },
+      { "fr": "Je n'aime pas …", "en": "I don't like …", "hi": "मुझे … पसंद नहीं", "pron": "ज नेम पा" },
+      { "fr": "Je déteste …", "en": "I hate …", "hi": "मुझे … बिल्कुल पसंद नहीं", "pron": "ज दे-तेस्त" }
     ],
     "model": { "fr": "Je m'appelle Karan. J'ai dix-neuf ans et j'habite à Brampton. J'adore le cricket, j'aime la musique et j'aime cuisiner. Je n'aime pas le café. Je déteste danser !", "en": "My name is Karan. I'm nineteen and I live in Brampton. I love cricket, I like music and I like cooking. I don't like coffee. I hate dancing!" },
     "checklist": [
@@ -160,12 +160,12 @@
   "review": {
     "fromDays": [5, 8, 9],
     "items": [
-      { "fr": "Je parle hindi et anglais.", "en": "I speak Hindi and English.", "hi": "मैं हिंदी और अंग्रेज़ी बोलता/बोलती हूँ।", "pron": "झ़ö पाग़्ल इन-दी ए आँ-ग्लै" },
-      { "fr": "Je travaille dans un magasin.", "en": "I work in a shop.", "hi": "मैं एक दुकान में काम करता/करती हूँ।", "pron": "झ़ö त्ग़ा-वाय दाँ ज़ैँ मा-गा-ज़ैँ" },
-      { "fr": "Nous étudions le français.", "en": "We study French.", "hi": "हम फ़्रेंच पढ़ते हैं।", "pron": "नू ज़े-तü-द्योँ लö फ़्ग़ाँ-सै" },
-      { "fr": "Il y a beaucoup de livres.", "en": "There are a lot of books.", "hi": "बहुत सारी किताबें हैं।", "pron": "ई-ल्या बो-कू दö लीव्ग़" },
-      { "fr": "J'ai un frère.", "en": "I have a brother.", "hi": "मेरा एक भाई है।", "pron": "झ़े ऐँ फ़्ग़ैग़" },
-      { "fr": "Ils parlent français.", "en": "They speak French.", "hi": "वे फ़्रेंच बोलते हैं।", "pron": "ईल पाग़्ल फ़्ग़ाँ-सै" }
+      { "fr": "Je parle hindi et anglais.", "en": "I speak Hindi and English.", "hi": "मैं हिंदी और अंग्रेज़ी बोलता/बोलती हूँ।", "pron": "ज पार्ल इन-दी ए आँ-ग्ले" },
+      { "fr": "Je travaille dans un magasin.", "en": "I work in a shop.", "hi": "मैं एक दुकान में काम करता/करती हूँ।", "pron": "ज त्रा-वाय दाँ ज़ैं मा-गा-ज़ैं" },
+      { "fr": "Nous étudions le français.", "en": "We study French.", "hi": "हम फ़्रेंच पढ़ते हैं।", "pron": "नू ज़े-त्यू-द्यों ल फ़्राँ-से" },
+      { "fr": "Il y a beaucoup de livres.", "en": "There are a lot of books.", "hi": "बहुत सारी किताबें हैं।", "pron": "ई-ल्या बो-कू द लीव्र" },
+      { "fr": "J'ai un frère.", "en": "I have a brother.", "hi": "मेरा एक भाई है।", "pron": "जे ऐं फ़्रेर" },
+      { "fr": "Ils parlent français.", "en": "They speak French.", "hi": "वे फ़्रेंच बोलते हैं।", "pron": "ईल पार्ल फ़्राँ-से" }
     ]
   },
   "assessment": [

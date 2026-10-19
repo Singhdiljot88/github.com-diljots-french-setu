@@ -17,21 +17,21 @@
   "checkpoint": false,
   "mock": { "id": "mock-2", "part": "reading_listening" },
   "vocabulary": [
-    { "fr": "l'écran", "en": "screen", "hi": "स्क्रीन", "pron": "ले-क्ग़ाँ", "ipa": "lekʁɑ̃", "pos": "noun", "gender": "m", "lemma": "écran" },
+    { "fr": "l'écran", "en": "screen", "hi": "स्क्रीन", "pron": "ले-क्राँ", "ipa": "lekʁɑ̃", "pos": "noun", "gender": "m", "lemma": "écran" },
     { "fr": "cliquer", "en": "to click", "hi": "क्लिक करना", "pron": "क्ली-के", "ipa": "klike", "pos": "verb" },
     { "fr": "valider", "en": "to confirm, to submit", "hi": "पुष्टि करना / जमा करना", "pron": "वा-ली-दे", "ipa": "valide", "pos": "verb" },
-    { "fr": "le casque", "en": "headphones (headset)", "hi": "हेडफ़ोन", "pron": "लö कास्क", "ipa": "lə kask", "pos": "noun", "gender": "m", "lemma": "casque", "note": { "en": "Also means 'helmet'. In an exam room, it is the headset.", "hi": "इसका अर्थ 'हेलमेट' भी है। परीक्षा-कक्ष में इसका मतलब हेडफ़ोन है।" } },
-    { "fr": "régler le volume", "en": "to adjust the volume", "hi": "आवाज़ कम-ज़्यादा करना", "pron": "ग़े-ग्ले लö वो-लüम", "ipa": "ʁeɡle lə vɔlym", "pos": "phrase" },
-    { "fr": "sans frais", "en": "free of charge", "hi": "बिना शुल्क के", "pron": "साँ फ़्ग़ै", "ipa": "sɑ̃ fʁɛ", "pos": "phrase", "note": { "en": "A reformulation of 'gratuit'. The document says sans frais; the answer option says gratuit.", "hi": "'gratuit' का दूसरा रूप। दस्तावेज़ में sans frais होगा; उत्तर-विकल्प में gratuit।" } },
-    { "fr": "avoir lieu", "en": "to take place", "hi": "होना / आयोजित होना", "pron": "आ-व्वाग़ ल्यö", "ipa": "avwaʁ ljø", "pos": "phrase" },
-    { "fr": "défendu", "en": "forbidden", "hi": "मना / वर्जित", "pron": "दे-फ़ाँ-दü", "ipa": "defɑ̃dy", "pos": "adjective", "note": { "en": "Synonym of interdit. 'Il est défendu de stationner' = parking is not allowed.", "hi": "interdit का समानार्थी। 'Il est défendu de stationner' = गाड़ी खड़ी करना मना है।" } }
+    { "fr": "le casque", "en": "headphones (headset)", "hi": "हेडफ़ोन", "pron": "ल कास्क", "ipa": "lə kask", "pos": "noun", "gender": "m", "lemma": "casque", "note": { "en": "Also means 'helmet'. In an exam room, it is the headset.", "hi": "इसका अर्थ 'हेलमेट' भी है। परीक्षा-कक्ष में इसका मतलब हेडफ़ोन है।" } },
+    { "fr": "régler le volume", "en": "to adjust the volume", "hi": "आवाज़ कम-ज़्यादा करना", "pron": "रे-ग्ले ल वो-ल्यूम", "ipa": "ʁeɡle lə vɔlym", "pos": "phrase" },
+    { "fr": "sans frais", "en": "free of charge", "hi": "बिना शुल्क के", "pron": "साँ फ़्रे", "ipa": "sɑ̃ fʁɛ", "pos": "phrase", "note": { "en": "A reformulation of 'gratuit'. The document says sans frais; the answer option says gratuit.", "hi": "'gratuit' का दूसरा रूप। दस्तावेज़ में sans frais होगा; उत्तर-विकल्प में gratuit।" } },
+    { "fr": "avoir lieu", "en": "to take place", "hi": "होना / आयोजित होना", "pron": "आ-व्वार ल्य", "ipa": "avwaʁ ljø", "pos": "phrase" },
+    { "fr": "défendu", "en": "forbidden", "hi": "मना / वर्जित", "pron": "दे-फ़ाँ-द्यू", "ipa": "defɑ̃dy", "pos": "adjective", "note": { "en": "Synonym of interdit. 'Il est défendu de stationner' = parking is not allowed.", "hi": "interdit का समानार्थी। 'Il est défendu de stationner' = गाड़ी खड़ी करना मना है।" } }
   ],
   "phrases": [
-    { "fr": "Cliquez sur la bonne réponse, puis validez.", "en": "Click on the right answer, then confirm.", "hi": "सही उत्तर पर क्लिक कीजिए, फिर पुष्टि कीजिए।", "pron": "क्ली-के सüग़ ला बॉन ग़े-पोँस प्üई वा-ली-दे" },
-    { "fr": "Réglez le volume de votre casque.", "en": "Adjust the volume of your headset.", "hi": "अपने हेडफ़ोन की आवाज़ ठीक कीजिए।", "pron": "ग़े-ग्ले लö वो-लüम दö वॉत्ग़ कास्क" },
-    { "fr": "Il reste dix minutes.", "en": "There are ten minutes left.", "hi": "दस मिनट बचे हैं।", "pron": "ईल ग़ैस्त दी मी-नüत" },
-    { "fr": "Le document dit la même chose avec d'autres mots.", "en": "The document says the same thing in other words.", "hi": "दस्तावेज़ वही बात दूसरे शब्दों में कहता है।", "pron": "लö दो-कü-माँ दी ला मैम शोज़ आ-वैक दोत्ग़ मो" },
-    { "fr": "Je ne reste pas bloqué.", "en": "I don't stay stuck.", "hi": "मैं अटका नहीं रहता / रहती।", "pron": "झ़ö नö ग़ैस्त पा ब्लो-के" }
+    { "fr": "Cliquez sur la bonne réponse, puis validez.", "en": "Click on the right answer, then confirm.", "hi": "सही उत्तर पर क्लिक कीजिए, फिर पुष्टि कीजिए।", "pron": "क्ली-के स्यूर ला बॉन रे-पोंस प्यूई वा-ली-दे" },
+    { "fr": "Réglez le volume de votre casque.", "en": "Adjust the volume of your headset.", "hi": "अपने हेडफ़ोन की आवाज़ ठीक कीजिए।", "pron": "रे-ग्ले ल वो-ल्यूम द वॉत्र कास्क" },
+    { "fr": "Il reste dix minutes.", "en": "There are ten minutes left.", "hi": "दस मिनट बचे हैं।", "pron": "ईल रेस्त दी मी-न्यूत" },
+    { "fr": "Le document dit la même chose avec d'autres mots.", "en": "The document says the same thing in other words.", "hi": "दस्तावेज़ वही बात दूसरे शब्दों में कहता है।", "pron": "ल दो-क्यू-माँ दी ला मेम शोज़ आ-वेक दोत्र मो" },
+    { "fr": "Je ne reste pas bloqué.", "en": "I don't stay stuck.", "hi": "मैं अटका नहीं रहता / रहती।", "pron": "ज न रेस्त पा ब्लो-के" }
   ],
   "grammar": {
     "title": { "en": "Strategy recap and spotting reformulations", "hi": "रणनीति का दोहराव और दूसरे शब्दों में कही बात पहचानना" },
@@ -44,11 +44,11 @@
       "hi": "हिंदी में भी यही खेल है: 'मुफ़्त', 'निःशुल्क' और 'बिना पैसे के' — सबका अर्थ एक है। TEF के प्रश्न परखते हैं कि अलग शब्दों के पीछे का अर्थ आप पहचानते हैं या नहीं।"
     },
     "examples": [
-      { "fr": "La livraison est offerte. = La livraison est gratuite.", "en": "Delivery is free (offered). = Delivery is free.", "hi": "डिलीवरी मुफ़्त है।", "pron": "ला ली-व्ग़ै-ज़ोँ ऐ तॉ-फ़ैग़्त" },
-      { "fr": "Le cours n'aura pas lieu. = Le cours est annulé.", "en": "The class will not take place. = The class is cancelled.", "hi": "कक्षा नहीं होगी। = कक्षा रद्द है।", "pron": "लö कूग़ नो-ग़ा पा ल्यö" },
-      { "fr": "Vous êtes tenu de présenter une pièce d'identité.", "en": "You are required to show ID.", "hi": "आपको पहचान-पत्र दिखाना ज़रूरी है।", "pron": "वू ज़ैत तö-नü दö प्ग़े-ज़ाँ-ते üन प्यैस दी-दाँ-ती-ते" },
-      { "fr": "Il n'est pas permis de manger dans la salle.", "en": "Eating is not allowed in the room.", "hi": "कमरे में खाना मना है।", "pron": "ईल नै पा पैग़-मी दö माँ-झ़े दाँ ला साल" },
-      { "fr": "Les rendez-vous seront déplacés à la semaine suivante.", "en": "Appointments will be moved to the following week.", "hi": "मुलाक़ातें अगले हफ़्ते पर खिसका दी जाएँगी।", "pron": "ले ग़ाँ-दे-वू स-ग़ोँ दे-प्ला-से आ ला स-मैन स्üई-वाँत" }
+      { "fr": "La livraison est offerte. = La livraison est gratuite.", "en": "Delivery is free (offered). = Delivery is free.", "hi": "डिलीवरी मुफ़्त है।", "pron": "ला ली-व्रे-ज़ों ए तॉ-फ़ेर्त" },
+      { "fr": "Le cours n'aura pas lieu. = Le cours est annulé.", "en": "The class will not take place. = The class is cancelled.", "hi": "कक्षा नहीं होगी। = कक्षा रद्द है।", "pron": "ल कूर नो-रा पा ल्य" },
+      { "fr": "Vous êtes tenu de présenter une pièce d'identité.", "en": "You are required to show ID.", "hi": "आपको पहचान-पत्र दिखाना ज़रूरी है।", "pron": "वू ज़ेत त-न्यू द प्रे-ज़ाँ-ते यून प्येस दी-दाँ-ती-ते" },
+      { "fr": "Il n'est pas permis de manger dans la salle.", "en": "Eating is not allowed in the room.", "hi": "कमरे में खाना मना है।", "pron": "ईल ने पा पेर-मी द माँ-जे दाँ ला साल" },
+      { "fr": "Les rendez-vous seront déplacés à la semaine suivante.", "en": "Appointments will be moved to the following week.", "hi": "मुलाक़ातें अगले हफ़्ते पर खिसका दी जाएँगी।", "pron": "ले राँ-दे-वू स-रों दे-प्ला-से आ ला स-मेन स्यूई-वाँत" }
     ],
     "pitfalls": [
       { "en": "An option that copies the exact words of the document is often the trap; the correct one often uses synonyms.", "hi": "जो विकल्प दस्तावेज़ के शब्द ज्यों-के-त्यों उतारता है, वह अक्सर जाल होता है; सही विकल्प अक्सर समानार्थी शब्द इस्तेमाल करता है।" },
@@ -63,10 +63,10 @@
     },
     "words": [
       { "fr": "attentivement", "en": "carefully, attentively", "hi": "ध्यान से", "pron": "आ-ताँ-तीव-माँ", "ipa": "atɑ̃tivmɑ̃" },
-      { "fr": "la concentration", "en": "concentration", "hi": "एकाग्रता", "pron": "ला कोँ-साँ-त्ग़ा-स्योँ", "ipa": "la kɔ̃sɑ̃tʁasjɔ̃" },
-      { "fr": "respirez", "en": "breathe", "hi": "साँस लीजिए", "pron": "ग़ैस-पी-ग़े", "ipa": "ʁɛspiʁe" },
-      { "fr": "la question suivante", "en": "the next question", "hi": "अगला प्रश्न", "pron": "ला कैस-त्योँ स्üई-वाँत", "ipa": "la kɛstjɔ̃ sɥivɑ̃t" },
-      { "fr": "sans frais", "en": "free of charge", "hi": "बिना शुल्क", "pron": "साँ फ़्ग़ै", "ipa": "sɑ̃ fʁɛ" }
+      { "fr": "la concentration", "en": "concentration", "hi": "एकाग्रता", "pron": "ला कों-साँ-त्रा-स्यों", "ipa": "la kɔ̃sɑ̃tʁasjɔ̃" },
+      { "fr": "respirez", "en": "breathe", "hi": "साँस लीजिए", "pron": "रेस-पी-रे", "ipa": "ʁɛspiʁe" },
+      { "fr": "la question suivante", "en": "the next question", "hi": "अगला प्रश्न", "pron": "ला केस-त्यों स्यूई-वाँत", "ipa": "la kɛstjɔ̃ sɥivɑ̃t" },
+      { "fr": "sans frais", "en": "free of charge", "hi": "बिना शुल्क", "pron": "साँ फ़्रे", "ipa": "sɑ̃ fʁɛ" }
     ]
   },
   "listening": {
@@ -85,10 +85,10 @@
       { "speaker": "Annonce", "voice": "f1", "fr": "Nous vous remercions de votre patience.", "en": "Thank you for your patience.", "hi": "आपके धैर्य के लिए धन्यवाद।" }
     ],
     "questions": [
-      { "q": { "en": "How late will the train leave?" }, "options": ["About 10 minutes", "About 25 minutes", "About 45 minutes", "It is cancelled"], "answer": 1, "explanation": { "en": "'Un retard d'environ vingt-cinq minutes.' 45 is the train number and 10 is part of the time: number traps.", "hi": "'Un retard d'environ vingt-cinq minutes.' 45 ट्रेन का नंबर है और 10 समय का हिस्सा: संख्या वाले जाल।" }, "kind": "literal", "evidence": "un retard d'environ vingt-cinq minutes" },
-      { "q": { "en": "Where will passengers board?" }, "options": ["Gate 1", "Gate 45", "Gate 3", "At the service counter"], "answer": 2, "explanation": { "en": "'À la porte 3, et non à la porte 1.'", "hi": "'À la porte 3, et non à la porte 1' — गेट 3, गेट 1 नहीं।" }, "kind": "literal", "evidence": "à la porte 3, et non à la porte 1" },
-      { "q": { "en": "What do passengers going on to Québec City get?" }, "options": ["A new booking at no cost", "A meal voucher", "A refund only", "A taxi"], "answer": 0, "explanation": { "en": "'Une nouvelle réservation sans frais' — sans frais = at no cost (a reformulation of 'free').", "hi": "'Une nouvelle réservation sans frais' — sans frais = बिना शुल्क ('मुफ़्त' का दूसरा रूप)।" }, "kind": "vocabulary", "evidence": "une nouvelle réservation sans frais" },
-      { "q": { "en": "What is true about food on board?" }, "options": ["The dining car is open as usual", "Nothing will be available", "Food must be bought at the station", "Free drinks and snacks will be offered"], "answer": 3, "explanation": { "en": "The dining car is closed, 'toutefois' drinks and snacks are 'offertes' — offered, i.e. free.", "hi": "खाने का डिब्बा बंद है, 'toutefois' पेय और नाश्ता 'offertes' — यानी मुफ़्त दिया जाएगा।" }, "kind": "inference", "evidence": "des boissons et des collations seront toutefois offertes à bord" }
+      { "q": { "en": "How late will the train leave?", "hi": "ट्रेन कितनी देर से रवाना होगी?" }, "options": ["About 10 minutes", "About 25 minutes", "About 45 minutes", "It is cancelled"], "optionsHi": ["लगभग 10 मिनट", "लगभग 25 मिनट", "लगभग 45 मिनट", "वह रद्द हो गई है"], "answer": 1, "explanation": { "en": "'Un retard d'environ vingt-cinq minutes.' 45 is the train number and 10 is part of the time: number traps.", "hi": "'Un retard d'environ vingt-cinq minutes.' 45 ट्रेन का नंबर है और 10 समय का हिस्सा: संख्या वाले जाल।" }, "kind": "literal", "evidence": "un retard d'environ vingt-cinq minutes" },
+      { "q": { "en": "Where will passengers board?", "hi": "यात्री कहाँ से सवार होंगे?" }, "options": ["Gate 1", "Gate 45", "Gate 3", "At the service counter"], "answer": 2, "explanation": { "en": "'À la porte 3, et non à la porte 1.'", "hi": "'À la porte 3, et non à la porte 1' — गेट 3, गेट 1 नहीं।" }, "kind": "literal", "evidence": "à la porte 3, et non à la porte 1" },
+      { "q": { "en": "What do passengers going on to Québec City get?", "hi": "क्यूबेक सिटी आगे जाने वाले यात्रियों को क्या मिलता है?" }, "options": ["A new booking at no cost", "A meal voucher", "A refund only", "A taxi"], "optionsHi": ["बिना किसी शुल्क के नई बुकिंग", "खाने का वाउचर", "केवल पैसों की वापसी", "एक टैक्सी"], "answer": 0, "explanation": { "en": "'Une nouvelle réservation sans frais' — sans frais = at no cost (a reformulation of 'free').", "hi": "'Une nouvelle réservation sans frais' — sans frais = बिना शुल्क ('मुफ़्त' का दूसरा रूप)।" }, "kind": "vocabulary", "evidence": "une nouvelle réservation sans frais" },
+      { "q": { "en": "What is true about food on board?", "hi": "गाड़ी में खाने-पीने के बारे में क्या सही है?" }, "options": ["The dining car is open as usual", "Nothing will be available", "Food must be bought at the station", "Free drinks and snacks will be offered"], "optionsHi": ["डाइनिंग कार हमेशा की तरह खुली है", "कुछ भी उपलब्ध नहीं होगा", "खाना स्टेशन पर ख़रीदना होगा", "मुफ़्त पेय और नाश्ता दिया जाएगा"], "answer": 3, "explanation": { "en": "The dining car is closed, 'toutefois' drinks and snacks are 'offertes' — offered, i.e. free.", "hi": "खाने का डिब्बा बंद है, 'toutefois' पेय और नाश्ता 'offertes' — यानी मुफ़्त दिया जाएगा।" }, "kind": "inference", "evidence": "des boissons et des collations seront toutefois offertes à bord" }
     ],
     "dictation": [
       "L'embarquement se fera exceptionnellement à la porte 3.",
@@ -106,10 +106,10 @@
       "hi": "अभ्यास: स्टेशन की घोषणा को पंक्ति-दर-पंक्ति शैडो कीजिए (चलाइए, रोकिए, उसी गति से दोहराइए)। फिर नीचे के निर्देश ऐसे ज़ोर से पढ़िए जैसे आप परीक्षा-निरीक्षक हों।"
     },
     "prompts": [
-      { "fr": "Mettez votre casque et réglez le volume.", "en": "Put on your headset and adjust the volume.", "hi": "हेडफ़ोन लगाइए और आवाज़ ठीक कीजिए।", "pron": "मै-ते वॉत्ग़ कास्क ए ग़े-ग्ले लö वो-लüम" },
-      { "fr": "Lisez les questions avant d'écouter.", "en": "Read the questions before listening.", "hi": "सुनने से पहले प्रश्न पढ़िए।", "pron": "ली-ज़े ले कैस-त्योँ आ-वाँ दे-कू-ते" },
-      { "fr": "Cliquez sur une seule réponse.", "en": "Click on only one answer.", "hi": "सिर्फ़ एक उत्तर पर क्लिक कीजिए।", "pron": "क्ली-के सüग़ üन सöल ग़े-पोँस" },
-      { "fr": "Vous ne pourrez pas revenir en arrière.", "en": "You won't be able to go back.", "hi": "आप पीछे नहीं लौट पाएँगे।", "pron": "वू नö पू-ग़े पा ग़ö-व-नीग़ आँ ना-ग़्यैग़" }
+      { "fr": "Mettez votre casque et réglez le volume.", "en": "Put on your headset and adjust the volume.", "hi": "हेडफ़ोन लगाइए और आवाज़ ठीक कीजिए।", "pron": "मे-ते वॉत्र कास्क ए रे-ग्ले ल वो-ल्यूम" },
+      { "fr": "Lisez les questions avant d'écouter.", "en": "Read the questions before listening.", "hi": "सुनने से पहले प्रश्न पढ़िए।", "pron": "ली-ज़े ले केस-त्यों आ-वाँ दे-कू-ते" },
+      { "fr": "Cliquez sur une seule réponse.", "en": "Click on only one answer.", "hi": "सिर्फ़ एक उत्तर पर क्लिक कीजिए।", "pron": "क्ली-के स्यूर यून सल रे-पोंस" },
+      { "fr": "Vous ne pourrez pas revenir en arrière.", "en": "You won't be able to go back.", "hi": "आप पीछे नहीं लौट पाएँगे।", "pron": "वू न पू-रे पा र-व-नीर आँ ना-र्येर" }
     ],
     "tip": {
       "en": "Shadowing a real-speed announcement just before the mock tunes your ear to natural French. Two minutes are enough.",
@@ -122,14 +122,14 @@
     "text": "Du 2 au 6 décembre, notre comptoir de prescriptions sera en rénovation. Pendant cette période, les ordonnances seront préparées dans le local temporaire situé à côté de l'entrée principale.\n\nNos heures d'ouverture restent les mêmes : du lundi au vendredi de 8 h à 21 h, le samedi et le dimanche de 9 h à 18 h. Les clients qui ont besoin d'un conseil peuvent toujours parler à un pharmacien, sans rendez-vous, au comptoir principal.\n\nLe service de vaccination contre la grippe n'aura pas lieu pendant cette semaine. Les rendez-vous déjà pris seront déplacés à la semaine suivante ; notre équipe communiquera avec chaque personne concernée par téléphone.\n\nLa livraison à domicile reste offerte sans frais aux personnes de 65 ans et plus. Pour les autres clients, elle coûte 5 $.\n\nNous vous rappelons qu'il est défendu de stationner devant la porte de livraison, à l'arrière du bâtiment.\n\nMerci de votre compréhension.\nL'équipe de la Pharmacie du Boulevard",
     "translation": {
       "en": "From 2 to 6 December, our prescription counter will be under renovation. During this period, prescriptions will be prepared in the temporary room next to the main entrance.\n\nOur opening hours stay the same: Monday to Friday from 8 a.m. to 9 p.m., Saturday and Sunday from 9 a.m. to 6 p.m. Customers who need advice can still speak to a pharmacist, without an appointment, at the main counter.\n\nThe flu vaccination service will not take place during this week. Appointments already booked will be moved to the following week; our team will contact each person concerned by phone.\n\nHome delivery remains free of charge for people aged 65 and over. For other customers, it costs $5.\n\nWe remind you that parking in front of the delivery door, at the back of the building, is forbidden.\n\nThank you for your understanding.\nThe Pharmacie du Boulevard team",
-      "hi": "2 से 6 दिसंबर तक हमारे पर्चे वाले काउंटर की मरम्मत होगी। इस दौरान दवाएँ मुख्य प्रवेश-द्वार के पास बने अस्थायी कमरे में तैयार की जाएँगी।\n\nहमारे खुलने का समय वही रहेगा: सोमवार से शुक्रवार सुबह 8 से रात 9 बजे तक, शनिवार और रविवार सुबह 9 से शाम 6 बजे तक। जिन ग्राहकों को सलाह चाहिए, वे पहले की तरह बिना अपॉइंटमेंट के मुख्य काउंटर पर फ़ार्मासिस्ट से बात कर सकते हैं।\n\nइस हफ़्ते फ़्लू का टीका लगाने की सेवा नहीं होगी। पहले से तय मुलाक़ातें अगले हफ़्ते पर खिसका दी जाएँगी; हमारी टीम हर संबंधित व्यक्ति से फ़ोन पर संपर्क करेगी।\n\n65 साल और उससे ज़्यादा उम्र के लोगों के लिए घर तक डिलीवरी मुफ़्त बनी रहेगी। बाक़ी ग्राहकों के लिए इसका शुल्क 5 डॉलर है।\n\nहम याद दिलाते हैं कि इमारत के पीछे डिलीवरी वाले दरवाज़े के सामने गाड़ी खड़ी करना मना है।\n\nआपके सहयोग के लिए धन्यवाद।\nफ़ार्मेसी दü बुलवार की टीम"
+      "hi": "2 से 6 दिसंबर तक हमारे पर्चे वाले काउंटर की मरम्मत होगी। इस दौरान दवाएँ मुख्य प्रवेश-द्वार के पास बने अस्थायी कमरे में तैयार की जाएँगी।\n\nहमारे खुलने का समय वही रहेगा: सोमवार से शुक्रवार सुबह 8 से रात 9 बजे तक, शनिवार और रविवार सुबह 9 से शाम 6 बजे तक। जिन ग्राहकों को सलाह चाहिए, वे पहले की तरह बिना अपॉइंटमेंट के मुख्य काउंटर पर फ़ार्मासिस्ट से बात कर सकते हैं।\n\nइस हफ़्ते फ़्लू का टीका लगाने की सेवा नहीं होगी। पहले से तय मुलाक़ातें अगले हफ़्ते पर खिसका दी जाएँगी; हमारी टीम हर संबंधित व्यक्ति से फ़ोन पर संपर्क करेगी।\n\n65 साल और उससे ज़्यादा उम्र के लोगों के लिए घर तक डिलीवरी मुफ़्त बनी रहेगी। बाक़ी ग्राहकों के लिए इसका शुल्क 5 डॉलर है।\n\nहम याद दिलाते हैं कि इमारत के पीछे डिलीवरी वाले दरवाज़े के सामने गाड़ी खड़ी करना मना है।\n\nआपके सहयोग के लिए धन्यवाद।\nफ़ार्मेसी द्यू बुलवार की टीम"
     },
     "questions": [
-      { "q": { "en": "Where will prescriptions be prepared from 2 to 6 December?" }, "options": ["In another pharmacy", "At the delivery door", "At the usual counter", "In a temporary room next to the main entrance"], "answer": 3, "explanation": { "en": "'Dans le local temporaire situé à côté de l'entrée principale.'", "hi": "'Dans le local temporaire situé à côté de l'entrée principale' — मुख्य द्वार के पास अस्थायी कमरा।" }, "kind": "literal", "evidence": "dans le local temporaire situé à côté de l'entrée principale" },
-      { "q": { "en": "What happens to the flu vaccination that week?" }, "options": ["It is cancelled that week and appointments are moved", "It continues as usual", "It is offered at home", "It costs $5"], "answer": 0, "explanation": { "en": "'N'aura pas lieu' (= will not take place) and appointments 'seront déplacés'.", "hi": "'N'aura pas lieu' (= नहीं होगी) और मुलाक़ातें 'seront déplacés'।" }, "kind": "vocabulary", "evidence": "n'aura pas lieu pendant cette semaine" },
-      { "q": { "en": "Who gets free home delivery?" }, "options": ["Everyone during the renovation", "Customers aged 65 and over", "Customers who come by car", "Nobody"], "answer": 1, "explanation": { "en": "'Offerte sans frais aux personnes de 65 ans et plus.'", "hi": "'Offerte sans frais aux personnes de 65 ans et plus' — 65 और उससे ऊपर के लिए मुफ़्त।" }, "kind": "literal", "evidence": "sans frais aux personnes de 65 ans et plus" },
-      { "q": { "en": "What is not allowed?" }, "options": ["Calling the pharmacy", "Entering by the main door", "Parking in front of the delivery door", "Coming on Sundays"], "answer": 2, "explanation": { "en": "'Il est défendu de stationner devant la porte de livraison.' Défendu = interdit.", "hi": "'Il est défendu de stationner devant la porte de livraison.' Défendu = मना।" }, "kind": "vocabulary", "evidence": "il est défendu de stationner devant la porte de livraison" },
-      { "q": { "en": "What about the opening hours during the renovation?" }, "options": ["They don't change", "The pharmacy closes earlier", "It is closed at weekends", "It opens only in the morning"], "answer": 0, "explanation": { "en": "'Nos heures d'ouverture restent les mêmes.'", "hi": "'Nos heures d'ouverture restent les mêmes' — समय वही रहेगा।" }, "kind": "literal", "evidence": "Nos heures d'ouverture restent les mêmes" }
+      { "q": { "en": "Where will prescriptions be prepared from 2 to 6 December?", "hi": "2 से 6 दिसंबर तक नुस्ख़े (प्रिस्क्रिप्शन) कहाँ तैयार किए जाएँगे?" }, "options": ["In another pharmacy", "At the delivery door", "At the usual counter", "In a temporary room next to the main entrance"], "optionsHi": ["किसी दूसरी फ़ार्मेसी में", "डिलीवरी वाले दरवाज़े पर", "हमेशा वाले काउंटर पर", "मुख्य प्रवेश-द्वार के पास एक अस्थायी कमरे में"], "answer": 3, "explanation": { "en": "'Dans le local temporaire situé à côté de l'entrée principale.'", "hi": "'Dans le local temporaire situé à côté de l'entrée principale' — मुख्य द्वार के पास अस्थायी कमरा।" }, "kind": "literal", "evidence": "dans le local temporaire situé à côté de l'entrée principale" },
+      { "q": { "en": "What happens to the flu vaccination that week?", "hi": "उस सप्ताह फ़्लू के टीकाकरण का क्या होता है?" }, "options": ["It is cancelled that week and appointments are moved", "It continues as usual", "It is offered at home", "It costs $5"], "optionsHi": ["वह उस सप्ताह रद्द है और अपॉइंटमेंट बदले जाते हैं", "वह पहले की तरह जारी रहता है", "वह घर पर दिया जाता है", "उसकी क़ीमत 5 डॉलर है"], "answer": 0, "explanation": { "en": "'N'aura pas lieu' (= will not take place) and appointments 'seront déplacés'.", "hi": "'N'aura pas lieu' (= नहीं होगी) और मुलाक़ातें 'seront déplacés'।" }, "kind": "vocabulary", "evidence": "n'aura pas lieu pendant cette semaine" },
+      { "q": { "en": "Who gets free home delivery?", "hi": "मुफ़्त होम डिलीवरी किसे मिलती है?" }, "options": ["Everyone during the renovation", "Customers aged 65 and over", "Customers who come by car", "Nobody"], "optionsHi": ["मरम्मत के दौरान सभी को", "65 वर्ष और उससे अधिक आयु के ग्राहकों को", "कार से आने वाले ग्राहकों को", "किसी को नहीं"], "answer": 1, "explanation": { "en": "'Offerte sans frais aux personnes de 65 ans et plus.'", "hi": "'Offerte sans frais aux personnes de 65 ans et plus' — 65 और उससे ऊपर के लिए मुफ़्त।" }, "kind": "literal", "evidence": "sans frais aux personnes de 65 ans et plus" },
+      { "q": { "en": "What is not allowed?", "hi": "क्या अनुमति नहीं है?" }, "options": ["Calling the pharmacy", "Entering by the main door", "Parking in front of the delivery door", "Coming on Sundays"], "optionsHi": ["फ़ार्मेसी को फ़ोन करना", "मुख्य दरवाज़े से अंदर आना", "डिलीवरी वाले दरवाज़े के सामने गाड़ी खड़ी करना", "रविवार को आना"], "answer": 2, "explanation": { "en": "'Il est défendu de stationner devant la porte de livraison.' Défendu = interdit.", "hi": "'Il est défendu de stationner devant la porte de livraison.' Défendu = मना।" }, "kind": "vocabulary", "evidence": "il est défendu de stationner devant la porte de livraison" },
+      { "q": { "en": "What about the opening hours during the renovation?", "hi": "मरम्मत के दौरान खुलने के समय के बारे में क्या है?" }, "options": ["They don't change", "The pharmacy closes earlier", "It is closed at weekends", "It opens only in the morning"], "optionsHi": ["वे नहीं बदलते", "फ़ार्मेसी जल्दी बंद हो जाती है", "वह सप्ताहांत में बंद रहती है", "वह केवल सुबह खुलती है"], "answer": 0, "explanation": { "en": "'Nos heures d'ouverture restent les mêmes.'", "hi": "'Nos heures d'ouverture restent les mêmes' — समय वही रहेगा।" }, "kind": "literal", "evidence": "Nos heures d'ouverture restent les mêmes" }
     ]
   },
   "writing": {
@@ -146,8 +146,8 @@
       { "en": "Name one concrete strategy from your error summary.", "hi": "अपने ग़लतियों के सारांश से एक ठोस रणनीति लिखिए।" }
     ],
     "usefulPhrases": [
-      { "fr": "Lors de l'examen blanc 1, j'ai …", "en": "During mock 1, I …", "hi": "मॉक 1 के दौरान मैंने …", "pron": "लॉग़ दö लैग-ज़ा-मैँ ब्लाँ ऐँ झ़े" },
-      { "fr": "Cette fois, je …", "en": "This time, I will …", "hi": "इस बार मैं …", "pron": "सैत फ़्वा झ़ö" }
+      { "fr": "Lors de l'examen blanc 1, j'ai …", "en": "During mock 1, I …", "hi": "मॉक 1 के दौरान मैंने …", "pron": "लॉर द लेग-ज़ा-मैं ब्लाँ ऐं जे" },
+      { "fr": "Cette fois, je …", "en": "This time, I will …", "hi": "इस बार मैं …", "pron": "सेत फ़्वा ज" }
     ],
     "model": {
       "fr": "Lors de l'examen blanc 1, j'ai perdu beaucoup de temps sur deux longs articles. Cette fois, je passerai à la question suivante après deux minutes. Je chercherai aussi les reformulations, parce que la bonne réponse utilise souvent d'autres mots que le document.",
@@ -161,12 +161,12 @@
   "review": {
     "fromDays": [101, 103, 105, 106],
     "items": [
-      { "fr": "la consigne", "en": "the instruction", "hi": "निर्देश", "pron": "ला कोँ-सीन्य" },
-      { "fr": "une seule fois", "en": "only once", "hi": "सिर्फ़ एक बार", "pron": "üन सöल फ़्वा" },
-      { "fr": "la plupart", "en": "most", "hi": "ज़्यादातर", "pron": "ला प्लü-पाग़" },
-      { "fr": "reporté / annulé", "en": "postponed / cancelled", "hi": "टाला गया / रद्द", "pron": "ग़ö-पॉग़-ते / आ-नü-ले" },
-      { "fr": "en raison de", "en": "because of", "hi": "… के कारण", "pron": "आँ ग़ै-ज़ोँ दö" },
-      { "fr": "C'était un piège.", "en": "It was a trap.", "hi": "वह जाल था।", "pron": "से-तै ऐँ प्यैझ़" }
+      { "fr": "la consigne", "en": "the instruction", "hi": "निर्देश", "pron": "ला कों-सीन्य" },
+      { "fr": "une seule fois", "en": "only once", "hi": "सिर्फ़ एक बार", "pron": "यून सल फ़्वा" },
+      { "fr": "la plupart", "en": "most", "hi": "ज़्यादातर", "pron": "ला प्ल्यू-पार" },
+      { "fr": "reporté / annulé", "en": "postponed / cancelled", "hi": "टाला गया / रद्द", "pron": "र-पॉर-ते / आ-न्यू-ले" },
+      { "fr": "en raison de", "en": "because of", "hi": "… के कारण", "pron": "आँ रे-ज़ों द" },
+      { "fr": "C'était un piège.", "en": "It was a trap.", "hi": "वह जाल था।", "pron": "से-ते ऐं प्येज" }
     ]
   },
   "assessment": [

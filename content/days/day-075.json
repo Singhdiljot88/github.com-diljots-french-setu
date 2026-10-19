@@ -16,26 +16,26 @@
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "une règle", "en": "a rule", "hi": "नियम", "pron": "üन ग़ैग्ल", "ipa": "yn ʁɛɡl", "pos": "noun", "gender": "f", "lemma": "règle" },
-    { "fr": "obligatoire", "en": "compulsory", "hi": "अनिवार्य", "pron": "ओ-ब्ली-गा-त्वाग़", "ipa": "ɔbliɡatwaʁ", "pos": "adjective" },
-    { "fr": "permettre", "en": "to allow", "hi": "इजाज़त देना", "pron": "पैग़-मैत्ग़", "ipa": "pɛʁmɛtʁ", "pos": "verb", "note": { "en": "permettre à quelqu'un de + infinitive.", "hi": "permettre à quelqu'un de + infinitive (किसी को कुछ करने की इजाज़त देना)।" } },
+    { "fr": "une règle", "en": "a rule", "hi": "नियम", "pron": "यून रेग्ल", "ipa": "yn ʁɛɡl", "pos": "noun", "gender": "f", "lemma": "règle" },
+    { "fr": "obligatoire", "en": "compulsory", "hi": "अनिवार्य", "pron": "ऑ-ब्ली-गा-त्वार", "ipa": "ɔbliɡatwaʁ", "pos": "adjective" },
+    { "fr": "permettre", "en": "to allow", "hi": "इजाज़त देना", "pron": "पेर-मेत्र", "ipa": "pɛʁmɛtʁ", "pos": "verb", "note": { "en": "permettre à quelqu'un de + infinitive.", "hi": "permettre à quelqu'un de + infinitive (किसी को कुछ करने की इजाज़त देना)।" } },
     { "fr": "souhaiter", "en": "to wish", "hi": "चाहना, कामना करना", "pron": "स्वे-ते", "ipa": "swete", "pos": "verb" },
-    { "fr": "exiger", "en": "to demand, to insist on", "hi": "माँग करना, ज़ोर देना", "pron": "ऐग-ज़ी-झ़े", "ipa": "ɛɡziʒe", "pos": "verb" },
-    { "fr": "respecter", "en": "to respect, to follow (a rule)", "hi": "पालन करना, इज़्ज़त करना", "pron": "ग़ैस-पैक-ते", "ipa": "ʁɛspɛkte", "pos": "verb" },
-    { "fr": "ranger", "en": "to tidy up, to put away", "hi": "समेटना, जगह पर रखना", "pron": "ग़ाँ-झ़े", "ipa": "ʁɑ̃ʒe", "pos": "verb", "note": { "en": "ranger sa chambre = to tidy one's room.", "hi": "ranger sa chambre = अपना कमरा ठीक करना।" } },
-    { "fr": "les tâches ménagères", "en": "household chores", "hi": "घर के काम", "pron": "ले ताश मे-ना-झ़ैग़", "ipa": "le taʃ menaʒɛʁ", "pos": "noun", "gender": "f", "lemma": "tâche ménagère" },
-    { "fr": "un adolescent / une adolescente", "en": "a teenager", "hi": "किशोर / किशोरी", "pron": "ऐँ ना-दो-ले-साँ / üन ना-दो-ले-साँत", "ipa": "ɛ̃ nadɔlesɑ̃ / yn adɔlesɑ̃t", "pos": "noun", "gender": "mf", "lemma": "adolescent", "note": { "en": "Informal: un ado, une ado.", "hi": "अनौपचारिक: un ado, une ado।" } },
-    { "fr": "la confiance", "en": "trust", "hi": "भरोसा", "pron": "ला कोँ-फ़्याँस", "ipa": "la kɔ̃fjɑ̃s", "pos": "noun", "gender": "f", "lemma": "confiance", "note": { "en": "faire confiance à quelqu'un = to trust someone.", "hi": "faire confiance à quelqu'un = किसी पर भरोसा करना।" } },
+    { "fr": "exiger", "en": "to demand, to insist on", "hi": "माँग करना, ज़ोर देना", "pron": "एग-ज़ी-जे", "ipa": "ɛɡziʒe", "pos": "verb" },
+    { "fr": "respecter", "en": "to respect, to follow (a rule)", "hi": "पालन करना, इज़्ज़त करना", "pron": "रेस-पेक-ते", "ipa": "ʁɛspɛkte", "pos": "verb" },
+    { "fr": "ranger", "en": "to tidy up, to put away", "hi": "समेटना, जगह पर रखना", "pron": "राँ-जे", "ipa": "ʁɑ̃ʒe", "pos": "verb", "note": { "en": "ranger sa chambre = to tidy one's room.", "hi": "ranger sa chambre = अपना कमरा ठीक करना।" } },
+    { "fr": "les tâches ménagères", "en": "household chores", "hi": "घर के काम", "pron": "ले ताश मे-ना-जेर", "ipa": "le taʃ menaʒɛʁ", "pos": "noun", "gender": "f", "lemma": "tâche ménagère" },
+    { "fr": "un adolescent / une adolescente", "en": "a teenager", "hi": "किशोर / किशोरी", "pron": "ऐं ना-दो-ले-साँ / यून ना-दो-ले-साँत", "ipa": "ɛ̃ nadɔlesɑ̃ / yn adɔlesɑ̃t", "pos": "noun", "gender": "mf", "lemma": "adolescent", "note": { "en": "Informal: un ado, une ado.", "hi": "अनौपचारिक: un ado, une ado।" } },
+    { "fr": "la confiance", "en": "trust", "hi": "भरोसा", "pron": "ला कों-फ़्याँस", "ipa": "la kɔ̃fjɑ̃s", "pos": "noun", "gender": "f", "lemma": "confiance", "note": { "en": "faire confiance à quelqu'un = to trust someone.", "hi": "faire confiance à quelqu'un = किसी पर भरोसा करना।" } },
     { "fr": "négociable", "en": "negotiable", "hi": "जिस पर मोल-भाव हो सके", "pron": "ने-गो-स्याब्ल", "ipa": "neɡɔsjabl", "pos": "adjective" },
-    { "fr": "pour que", "en": "so that", "hi": "ताकि", "pron": "पूग़ कö", "ipa": "puʁ kə", "pos": "conjunction", "note": { "en": "Always followed by the subjunctive.", "hi": "इसके बाद हमेशा subjonctif आता है।" } }
+    { "fr": "pour que", "en": "so that", "hi": "ताकि", "pron": "पूर क", "ipa": "puʁ kə", "pos": "conjunction", "note": { "en": "Always followed by the subjunctive.", "hi": "इसके बाद हमेशा subjonctif आता है।" } }
   ],
   "phrases": [
-    { "fr": "Il faut que tu sois à la maison à onze heures.", "en": "You have to be home at eleven.", "hi": "तुम्हें ग्यारह बजे घर पर होना होगा।", "pron": "ईल फ़ो कö तü स्वा आ ला मै-ज़ोँ आ ओँज़ öग़" },
-    { "fr": "Je veux que tu ranges ta chambre.", "en": "I want you to tidy your room.", "hi": "मैं चाहती हूँ कि तुम अपना कमरा ठीक करो।", "pron": "झ़ö वö कö तü ग़ाँझ़ ता शाँब्ग़" },
-    { "fr": "Il faut qu'on fasse les courses.", "en": "We need to do the shopping.", "hi": "हमें सामान ख़रीदने जाना होगा।", "pron": "ईल फ़ो कोँ फ़ास ले कूग़स" },
-    { "fr": "Je t'appelle pour que tu sois rassuré.", "en": "I'm calling you so that you feel reassured.", "hi": "मैं तुम्हें फ़ोन कर रही हूँ ताकि तुम्हें तसल्ली रहे।", "pron": "झ़ö ता-पैल पूग़ कö तü स्वा ग़ा-सü-ग़े" },
-    { "fr": "Ce n'est pas négociable !", "en": "It's not negotiable!", "hi": "इस पर कोई मोल-भाव नहीं!", "pron": "सö नै पा ने-गो-स्याब्ल" },
-    { "fr": "D'accord, mais à une condition.", "en": "OK, but on one condition.", "hi": "ठीक है, लेकिन एक शर्त पर।", "pron": "दा-कॉग़ मै आ üन कोँ-दी-स्योँ" }
+    { "fr": "Il faut que tu sois à la maison à onze heures.", "en": "You have to be home at eleven.", "hi": "तुम्हें ग्यारह बजे घर पर होना होगा।", "pron": "ईल फ़ो क त्यू स्वा आ ला मे-ज़ों आ ओंज़ अर" },
+    { "fr": "Je veux que tu ranges ta chambre.", "en": "I want you to tidy your room.", "hi": "मैं चाहती हूँ कि तुम अपना कमरा ठीक करो।", "pron": "ज व क त्यू राँज ता शाँब्र" },
+    { "fr": "Il faut qu'on fasse les courses.", "en": "We need to do the shopping.", "hi": "हमें सामान ख़रीदने जाना होगा।", "pron": "ईल फ़ो कों फ़ास ले कूरस" },
+    { "fr": "Je t'appelle pour que tu sois rassuré.", "en": "I'm calling you so that you feel reassured.", "hi": "मैं तुम्हें फ़ोन कर रही हूँ ताकि तुम्हें तसल्ली रहे।", "pron": "ज ता-पेल पूर क त्यू स्वा रा-स्यू-रे" },
+    { "fr": "Ce n'est pas négociable !", "en": "It's not negotiable!", "hi": "इस पर कोई मोल-भाव नहीं!", "pron": "स ने पा ने-गो-स्याब्ल" },
+    { "fr": "D'accord, mais à une condition.", "en": "OK, but on one condition.", "hi": "ठीक है, लेकिन एक शर्त पर।", "pron": "दा-कॉर मे आ यून कों-दी-स्यों" }
   ],
   "grammar": {
     "title": { "en": "The present subjunctive after il faut que, je veux que, pour que", "hi": "il faut que, je veux que, pour que के बाद वर्तमान subjonctif" },
@@ -48,12 +48,12 @@
       "hi": "हिंदी में भी अपना 'subjonctif' है! तुलना कीजिए: 'मैं चाहता हूँ कि तुम आओ' ('तुम आते हो' नहीं) और 'ज़रूरी है कि वह समय पर पहुँचे' ('पहुँचता है' नहीं), या 'ताकि तुम समझ सको'। यह आओ / पहुँचे वाला रूप ठीक वही काम करता है जो फ़्रेंच subjonctif: इच्छा या ज़रूरत जताने पर कि के बाद आता है। अंग्रेज़ी ज़्यादातर 'want + to' इस्तेमाल करती है: I want you to come।"
     },
     "examples": [
-      { "fr": "Il faut que nous parlions.", "en": "We need to talk.", "hi": "हमें बात करनी होगी।", "pron": "ईल फ़ो कö नू पाग़-ल्योँ" },
-      { "fr": "Il faut que tu finisses tes devoirs.", "en": "You have to finish your homework.", "hi": "तुम्हें अपना होमवर्क ख़त्म करना होगा।", "pron": "ईल फ़ो कö तü फ़ी-नीस ते दö-व्वाग़" },
-      { "fr": "Je veux que vous soyez à l'heure.", "en": "I want you to be on time.", "hi": "मैं चाहता हूँ कि आप समय पर हों।", "pron": "झ़ö वö कö वू स्वा-ये ज़ा लöग़" },
-      { "fr": "Il faut qu'elle aille chez le médecin.", "en": "She has to go to the doctor.", "hi": "उसे डॉक्टर के पास जाना होगा।", "pron": "ईल फ़ो कैल आय शे लö मेद-सैँ" },
-      { "fr": "Je parle lentement pour que tu comprennes.", "en": "I'm speaking slowly so that you understand.", "hi": "मैं धीरे बोल रहा हूँ ताकि तुम समझ सको।", "pron": "झ़ö पाग़ल लाँत-माँ पूग़ कö तü कोँ-प्ग़ैन" },
-      { "fr": "Je ne veux pas que tu aies peur.", "en": "I don't want you to be afraid.", "hi": "मैं नहीं चाहता कि तुम डरो।", "pron": "झ़ö नö वö पा कö तü ऐ पöग़" }
+      { "fr": "Il faut que nous parlions.", "en": "We need to talk.", "hi": "हमें बात करनी होगी।", "pron": "ईल फ़ो क नू पार-ल्यों" },
+      { "fr": "Il faut que tu finisses tes devoirs.", "en": "You have to finish your homework.", "hi": "तुम्हें अपना होमवर्क ख़त्म करना होगा।", "pron": "ईल फ़ो क त्यू फ़ी-नीस ते द-व्वार" },
+      { "fr": "Je veux que vous soyez à l'heure.", "en": "I want you to be on time.", "hi": "मैं चाहता हूँ कि आप समय पर हों।", "pron": "ज व क वू स्वा-ये ज़ा लर" },
+      { "fr": "Il faut qu'elle aille chez le médecin.", "en": "She has to go to the doctor.", "hi": "उसे डॉक्टर के पास जाना होगा।", "pron": "ईल फ़ो केल आय शे ल मेद-सैं" },
+      { "fr": "Je parle lentement pour que tu comprennes.", "en": "I'm speaking slowly so that you understand.", "hi": "मैं धीरे बोल रहा हूँ ताकि तुम समझ सको।", "pron": "ज पारल लाँत-माँ पूर क त्यू कों-प्रेन" },
+      { "fr": "Je ne veux pas que tu aies peur.", "en": "I don't want you to be afraid.", "hi": "मैं नहीं चाहता कि तुम डरो।", "pron": "ज न व पा क त्यू ए पर" }
     ],
     "pitfalls": [
       { "en": "Same person → infinitive: Je veux sortir, never 'Je veux que je sorte'.", "hi": "एक ही व्यक्ति → infinitive: Je veux sortir, कभी 'Je veux que je sorte' नहीं।" },
@@ -65,16 +65,16 @@
   "pronunciation": {
     "focus": "Subjunctive forms: que je sois, que j'aie, que j'aille",
     "tip": {
-      "en": "Que je sois sounds [swa], like 'swa'. Que j'aie is just [ʒɛ], like the passé composé j'ai. Que j'aille ends with a clear [aj] sound, like the English 'eye'. Qu'il fasse has a hard [s], not [z]. Say the whole block 'il faut que tu…' quickly, as one rhythm group: il-fo-k-tü.",
-      "hi": "Que je sois की आवाज़ [swa] है, 'स्वा' जैसी। Que j'aie बस [ʒɛ] है, passé composé के j'ai जैसा। Que j'aille के आख़िर में साफ़ [aj] की आवाज़ है, 'आय' जैसी। Qu'il fasse में कड़ा [s] है, [z] नहीं। पूरे टुकड़े 'il faut que tu…' को तेज़ी से एक लय-समूह की तरह बोलिए: il-fo-k-tü।"
+      "en": "Que je sois sounds [swa], like 'swa'. Que j'aie is just [ʒɛ], like the passé composé j'ai. Que j'aille ends with a clear [aj] sound, like the English 'eye'. Qu'il fasse has a hard [s], not [z]. Say the whole block 'il faut que tu…' quickly, as one rhythm group: ईल-फ़ो-क-त्यू.",
+      "hi": "Que je sois की आवाज़ [swa] है, 'स्वा' जैसी। Que j'aie बस [ʒɛ] है, passé composé के j'ai जैसा। Que j'aille के आख़िर में साफ़ [aj] की आवाज़ है, 'आय' जैसी। Qu'il fasse में कड़ा [s] है, [z] नहीं। पूरे टुकड़े 'il faut que tu…' को तेज़ी से एक लय-समूह की तरह बोलिए: ईल-फ़ो-क-त्यू।"
     },
     "words": [
-      { "fr": "que je sois", "en": "that I be", "hi": "कि मैं होऊँ", "pron": "कö झ़ö स्वा", "ipa": "kə ʒə swa" },
-      { "fr": "que j'aie", "en": "that I have", "hi": "कि मेरे पास हो", "pron": "कö झ़ै", "ipa": "kə ʒɛ" },
-      { "fr": "que j'aille", "en": "that I go", "hi": "कि मैं जाऊँ", "pron": "कö झ़ाय", "ipa": "kə ʒaj" },
+      { "fr": "que je sois", "en": "that I be", "hi": "कि मैं होऊँ", "pron": "क ज स्वा", "ipa": "kə ʒə swa" },
+      { "fr": "que j'aie", "en": "that I have", "hi": "कि मेरे पास हो", "pron": "क जे", "ipa": "kə ʒɛ" },
+      { "fr": "que j'aille", "en": "that I go", "hi": "कि मैं जाऊँ", "pron": "क जाय", "ipa": "kə ʒaj" },
       { "fr": "qu'il fasse", "en": "that he do", "hi": "कि वह करे", "pron": "कील फ़ास", "ipa": "kil fas" },
-      { "fr": "que nous soyons", "en": "that we be", "hi": "कि हम हों", "pron": "कö नू स्वा-योँ", "ipa": "kə nu swajɔ̃" },
-      { "fr": "qu'ils aient", "en": "that they have", "hi": "कि उनके पास हो", "pron": "कील ज़ै", "ipa": "kil zɛ" }
+      { "fr": "que nous soyons", "en": "that we be", "hi": "कि हम हों", "pron": "क नू स्वा-यों", "ipa": "kə nu swajɔ̃" },
+      { "fr": "qu'ils aient", "en": "that they have", "hi": "कि उनके पास हो", "pron": "कील ज़े", "ipa": "kil zɛ" }
     ]
   },
   "listening": {
@@ -104,12 +104,12 @@
       { "speaker": "Priya", "voice": "f1", "fr": "Et il faut aussi que tu ranges ta chambre dimanche. Ça, ce n'est pas négociable !", "en": "And you also have to tidy your room on Sunday. That is not negotiable!", "hi": "और रविवार को तुम्हें अपना कमरा भी ठीक करना होगा। इस पर कोई मोल-भाव नहीं!" }
     ],
     "questions": [
-      { "q": { "en": "What does Priya ask for first?" }, "options": ["Money for a taxi", "The address and the parents' phone number", "The names of all the guests", "A photo of the party"], "answer": 1, "explanation": { "en": "She wants the address and the number of Lucas's parents.", "hi": "वह पता और लुका के माता-पिता का नंबर चाहती हैं।" }, "kind": "literal", "evidence": "Je veux que tu me donnes l'adresse et le numéro de ses parents." },
-      { "q": { "en": "What time do they finally agree on?" }, "options": ["Eleven o'clock", "One in the morning", "Quarter past midnight", "Midnight"], "answer": 3, "explanation": { "en": "Priya first says eleven, then accepts midnight on one condition.", "hi": "प्रिया पहले ग्यारह बजे कहती हैं, फिर एक शर्त पर आधी रात मान लेती हैं।" }, "kind": "literal", "evidence": "Minuit, d'accord, mais à une condition" },
-      { "q": { "en": "What is the condition for midnight?" }, "options": ["Finishing his maths homework before Saturday", "Cooking dinner on Sunday", "Taking the last bus", "Calling every hour"], "answer": 0, "explanation": { "en": "He has to finish his maths homework before Saturday.", "hi": "उसे शनिवार से पहले गणित का होमवर्क ख़त्म करना होगा।" }, "kind": "literal", "evidence": "il faut que tu finisses ton devoir de maths avant samedi" },
-      { "q": { "en": "Why will Priya call once, around ten?" }, "options": ["To ask him to come home early", "To check that the parents are there", "To feel reassured", "To tell him the bus time"], "answer": 2, "explanation": { "en": "It's so that she feels at ease (pour que je sois tranquille).", "hi": "ताकि उन्हें चैन रहे (pour que je sois tranquille)।" }, "kind": "inference", "evidence": "C'est pour que je sois tranquille." },
-      { "q": { "en": "How will Kabir get home?" }, "options": ["By the last bus", "His father will pick him up by car", "On foot with Lucas", "By taxi"], "answer": 1, "explanation": { "en": "His father will come by car: Priya doesn't want him to take the bus alone at night.", "hi": "उसके पापा गाड़ी से आएँगे: प्रिया नहीं चाहतीं कि वह रात में अकेले बस ले।" }, "kind": "literal", "evidence": "Ton père va te chercher en voiture." },
-      { "q": { "en": "Which rule can Kabir NOT discuss?" }, "options": ["The time he comes home", "The phone call", "Tidying his room on Sunday", "Giving the address"], "answer": 2, "explanation": { "en": "She says tidying his room is not negotiable.", "hi": "वह कहती हैं कि कमरा ठीक करने पर कोई मोल-भाव नहीं।" }, "kind": "inference", "evidence": "Ça, ce n'est pas négociable !" }
+      { "q": { "en": "What does Priya ask for first?", "hi": "Priya सबसे पहले क्या माँगती है?" }, "options": ["Money for a taxi", "The address and the parents' phone number", "The names of all the guests", "A photo of the party"], "optionsHi": ["टैक्सी के लिए पैसे", "पता और अभिभावकों का फ़ोन नंबर", "सभी मेहमानों के नाम", "पार्टी की एक फ़ोटो"], "answer": 1, "explanation": { "en": "She wants the address and the number of Lucas's parents.", "hi": "वह पता और लुका के माता-पिता का नंबर चाहती हैं।" }, "kind": "literal", "evidence": "Je veux que tu me donnes l'adresse et le numéro de ses parents." },
+      { "q": { "en": "What time do they finally agree on?", "hi": "आख़िर में वे किस समय पर सहमत होते हैं?" }, "options": ["Eleven o'clock", "One in the morning", "Quarter past midnight", "Midnight"], "answer": 3, "explanation": { "en": "Priya first says eleven, then accepts midnight on one condition.", "hi": "प्रिया पहले ग्यारह बजे कहती हैं, फिर एक शर्त पर आधी रात मान लेती हैं।" }, "kind": "literal", "evidence": "Minuit, d'accord, mais à une condition" },
+      { "q": { "en": "What is the condition for midnight?", "hi": "आधी रात की शर्त क्या है?" }, "options": ["Finishing his maths homework before Saturday", "Cooking dinner on Sunday", "Taking the last bus", "Calling every hour"], "optionsHi": ["शनिवार से पहले अपना गणित का होमवर्क पूरा करना", "रविवार को रात का खाना बनाना", "आख़िरी बस लेना", "हर घंटे फ़ोन करना"], "answer": 0, "explanation": { "en": "He has to finish his maths homework before Saturday.", "hi": "उसे शनिवार से पहले गणित का होमवर्क ख़त्म करना होगा।" }, "kind": "literal", "evidence": "il faut que tu finisses ton devoir de maths avant samedi" },
+      { "q": { "en": "Why will Priya call once, around ten?", "hi": "Priya लगभग दस बजे एक बार फ़ोन क्यों करेगी?" }, "options": ["To ask him to come home early", "To check that the parents are there", "To feel reassured", "To tell him the bus time"], "optionsHi": ["उससे जल्दी घर आने को कहने के लिए", "यह जाँचने के लिए कि अभिभावक वहाँ हैं", "तसल्ली पाने के लिए", "उसे बस का समय बताने के लिए"], "answer": 2, "explanation": { "en": "It's so that she feels at ease (pour que je sois tranquille).", "hi": "ताकि उन्हें चैन रहे (pour que je sois tranquille)।" }, "kind": "inference", "evidence": "C'est pour que je sois tranquille." },
+      { "q": { "en": "How will Kabir get home?", "hi": "Kabir घर कैसे आएगा?" }, "options": ["By the last bus", "His father will pick him up by car", "On foot with Lucas", "By taxi"], "optionsHi": ["आख़िरी बस से", "उसके पिता उसे कार से लेने आएँगे", "Lucas के साथ पैदल", "टैक्सी से"], "answer": 1, "explanation": { "en": "His father will come by car: Priya doesn't want him to take the bus alone at night.", "hi": "उसके पापा गाड़ी से आएँगे: प्रिया नहीं चाहतीं कि वह रात में अकेले बस ले।" }, "kind": "literal", "evidence": "Ton père va te chercher en voiture." },
+      { "q": { "en": "Which rule can Kabir NOT discuss?", "hi": "Kabir किस नियम पर बातचीत नहीं कर सकता?" }, "options": ["The time he comes home", "The phone call", "Tidying his room on Sunday", "Giving the address"], "optionsHi": ["घर आने का समय", "फ़ोन करना", "रविवार को अपना कमरा साफ़ करना", "पता बताना"], "answer": 2, "explanation": { "en": "She says tidying his room is not negotiable.", "hi": "वह कहती हैं कि कमरा ठीक करने पर कोई मोल-भाव नहीं।" }, "kind": "inference", "evidence": "Ça, ce n'est pas négociable !" }
     ],
     "dictation": [
       "Il faut que tu sois à la maison à onze heures.",
@@ -128,11 +128,11 @@
       "hi": "हर स्थिति में बताइए कि क्या होना चाहिए, il faut que या je veux que + subjonctif के साथ। जहाँ हो सके, pour que या parce que से कारण जोड़िए। सीधे उस व्यक्ति से बात कीजिए (बताए अनुसार tu या vous)।"
     },
     "prompts": [
-      { "fr": "Votre colocataire laisse toujours la vaisselle sale. (tu)", "en": "Your roommate always leaves the dirty dishes. (tu)", "hi": "आपका रूममेट हमेशा जूठे बर्तन छोड़ देता है। (tu)", "pron": "वो-त्ग़ö को-लो-का-तैग़ लैस तू-झ़ूग़ ला वै-सैल साल", "model": "Écoute, il faut que tu fasses ta vaisselle le soir, pour que la cuisine soit propre le matin." },
-      { "fr": "Votre fille veut un chien. (tu)", "en": "Your daughter wants a dog. (tu)", "hi": "आपकी बेटी कुत्ता चाहती है। (tu)", "pron": "वो-त्ग़ö फ़ीय वö ऐँ श्यैँ", "model": "D'accord, mais il faut que tu le promènes tous les jours, même en hiver." },
-      { "fr": "Un collègue arrive toujours en retard aux réunions. (vous)", "en": "A colleague always arrives late to meetings. (vous)", "hi": "एक सहकर्मी हमेशा बैठकों में देर से आता है। (vous)", "pron": "ऐँ को-लैग आ-ग़ीव तू-झ़ूग़ आँ ग़ö-ताग़ ओ ग़े-ü-न्योँ", "model": "Il faut que vous soyez à l'heure, parce que nous perdons du temps à vous attendre." },
-      { "fr": "Votre ami a un entretien d'embauche demain. (tu)", "en": "Your friend has a job interview tomorrow. (tu)", "hi": "आपके दोस्त का कल नौकरी का इंटरव्यू है। (tu)", "pron": "वो-त्ग़ा-मी आ ऐँ नाँ-त्ग़ö-त्यैँ दाँ-बोश दö-मैँ", "model": "Il faut que tu dormes bien ce soir et que tu ailles là-bas en avance." },
-      { "fr": "Vous organisez une fête et vous parlez aux invités. (vous)", "en": "You're organising a party and talking to the guests. (vous)", "hi": "आप एक पार्टी रख रहे हैं और मेहमानों से बात कर रहे हैं। (vous)", "pron": "वू ज़ॉग़-गा-नी-ज़े üन फ़ैत ए वू पाग़-ले ओ ज़ैँ-वी-ते", "model": "Je veux que chacun apporte un plat, pour que tout le monde ait quelque chose à manger." }
+      { "fr": "Votre colocataire laisse toujours la vaisselle sale. (tu)", "en": "Your roommate always leaves the dirty dishes. (tu)", "hi": "आपका रूममेट हमेशा जूठे बर्तन छोड़ देता है। (tu)", "pron": "वो-त्र को-लो-का-तेर लेस तू-जूर ला वे-सेल साल", "model": "Écoute, il faut que tu fasses ta vaisselle le soir, pour que la cuisine soit propre le matin." },
+      { "fr": "Votre fille veut un chien. (tu)", "en": "Your daughter wants a dog. (tu)", "hi": "आपकी बेटी कुत्ता चाहती है। (tu)", "pron": "वो-त्र फ़ीय व ऐं श्यैं", "model": "D'accord, mais il faut que tu le promènes tous les jours, même en hiver." },
+      { "fr": "Un collègue arrive toujours en retard aux réunions. (vous)", "en": "A colleague always arrives late to meetings. (vous)", "hi": "एक सहकर्मी हमेशा बैठकों में देर से आता है। (vous)", "pron": "ऐं को-लेग आ-रीव तू-जूर आँ र-तार ओ रे-यू-न्यों", "model": "Il faut que vous soyez à l'heure, parce que nous perdons du temps à vous attendre." },
+      { "fr": "Votre ami a un entretien d'embauche demain. (tu)", "en": "Your friend has a job interview tomorrow. (tu)", "hi": "आपके दोस्त का कल नौकरी का इंटरव्यू है। (tu)", "pron": "वो-त्रा-मी आ ऐं नाँ-त्र-त्यैं दाँ-बोश द-मैं", "model": "Il faut que tu dormes bien ce soir et que tu ailles là-bas en avance." },
+      { "fr": "Vous organisez une fête et vous parlez aux invités. (vous)", "en": "You're organising a party and talking to the guests. (vous)", "hi": "आप एक पार्टी रख रहे हैं और मेहमानों से बात कर रहे हैं। (vous)", "pron": "वू ज़ॉर-गा-नी-ज़े यून फ़ेत ए वू पार-ले ओ ज़ैं-वी-ते", "model": "Je veux que chacun apporte un plat, pour que tout le monde ait quelque chose à manger." }
     ],
     "tip": {
       "en": "Don't panic about the subjunctive while speaking. With -er verbs, the je/tu/il forms sound the same as the present, so il faut que tu ranges is easy. Concentrate on the four irregulars: sois, aie, aille, fasse. Say them twenty times today.",
@@ -148,11 +148,11 @@
       "hi": "एराब्ल सामुदायिक बगीचा — इस मौसम के नियम\n\nबगीचे में आपका स्वागत है! ताकि यह मौसम सबके लिए अच्छा गुज़रे, यहाँ कुछ आसान नियम हैं।\n\n1. आपकी क्यारी\nहर सदस्य को तीन मीटर गुणा चार मीटर की एक क्यारी मिलती है। आपको 15 जून से पहले उसमें खेती शुरू करनी होगी। तीन हफ़्ते से ज़्यादा समय तक छोड़ी गई क्यारी प्रतीक्षा-सूची के किसी व्यक्ति को दे दी जाएगी।\n\n2. पानी\nपानी क़ीमती है। आपको सुबह या शाम को पानी देना होगा, दोपहर में कभी नहीं। इस्तेमाल के बाद कृपया नल अच्छी तरह बंद कीजिए।\n\n3. औज़ार\nऔज़ार झोंपड़ी में हैं। हर सदस्य को उन्हें साफ़ करके वापस उनकी जगह पर रखना होगा। ताले का कोड पहली बैठक में दिया जाता है।\n\n4. रासायनिक पदार्थ\nकीटनाशक और रासायनिक खाद मना हैं। हम चाहते हैं कि बगीचा बच्चों, मधुमक्खियों और पक्षियों के लिए स्वस्थ रहे।\n\n5. मिल-जुलकर रहना\nहर सदस्य रास्तों की देखभाल के लिए महीने में दो घंटे देता है। आपको मौसम की तीन बैठकों में से कम से कम एक में जाना भी होगा। हम चाहते हैं कि हर कोई अपनेपन का अनुभव करे: विनम्र रहिए, अपने पड़ोसियों की मदद कीजिए और अगर फ़सल ज़्यादा हो तो बाँटिए!\n\nकोई सवाल? झोंपड़ी के लेटरबॉक्स में संदेश छोड़िए।\n\nबगीचा समिति"
     },
     "questions": [
-      { "q": { "en": "By when must members start cultivating their plot?" }, "options": ["Before the first meeting", "Before 15 June", "Within three weeks of the first meeting", "Before the end of May"], "answer": 1, "explanation": { "en": "You must cultivate it before 15 June.", "hi": "15 जून से पहले खेती शुरू करनी होगी।" }, "kind": "literal", "evidence": "Il faut que vous la cultiviez avant le 15 juin." },
-      { "q": { "en": "What happens if a member neglects their plot for a month?" }, "options": ["They pay a fine.", "The committee waters it for them.", "They lose it to someone on the waiting list.", "They must give four hours of work."], "answer": 2, "explanation": { "en": "A plot abandoned for more than three weeks goes to someone on the waiting list.", "hi": "तीन हफ़्ते से ज़्यादा छोड़ी गई क्यारी प्रतीक्षा-सूची के किसी व्यक्ति को मिल जाती है।" }, "kind": "inference", "evidence": "sera donnée à une personne de la liste d'attente" },
-      { "q": { "en": "When is watering not allowed?" }, "options": ["At noon", "In the morning", "In the evening", "On weekends"], "answer": 0, "explanation": { "en": "Water in the morning or the evening, never at noon.", "hi": "सुबह या शाम को पानी दीजिए, दोपहर में कभी नहीं।" }, "kind": "literal", "evidence": "jamais à midi" },
-      { "q": { "en": "Why are chemical products banned?" }, "options": ["Because they are too expensive", "Because the city forbids them in parks", "Because they damage the tools", "To keep the garden healthy for children and animals"], "answer": 3, "explanation": { "en": "The committee wants the garden to be healthy for children, bees and birds.", "hi": "समिति चाहती है कि बगीचा बच्चों, मधुमक्खियों और पक्षियों के लिए स्वस्थ रहे।" }, "kind": "inference", "evidence": "Nous voulons que le jardin soit sain pour les enfants, les abeilles et les oiseaux." },
-      { "q": { "en": "What does community life require of each member?" }, "options": ["Going to all three meetings", "Two hours a month and at least one meeting", "Sharing half of the harvest", "Cleaning the shed every week"], "answer": 1, "explanation": { "en": "Two hours a month for the paths, and at least one of the three meetings.", "hi": "रास्तों के लिए महीने में दो घंटे, और तीन में से कम से कम एक बैठक।" }, "kind": "literal", "evidence": "Chaque membre donne deux heures par mois" }
+      { "q": { "en": "By when must members start cultivating their plot?", "hi": "सदस्यों को अपना भूखंड कब तक जोतना शुरू कर देना चाहिए?" }, "options": ["Before the first meeting", "Before 15 June", "Within three weeks of the first meeting", "Before the end of May"], "optionsHi": ["पहली बैठक से पहले", "15 जून से पहले", "पहली बैठक के तीन सप्ताह के भीतर", "मई के अंत से पहले"], "answer": 1, "explanation": { "en": "You must cultivate it before 15 June.", "hi": "15 जून से पहले खेती शुरू करनी होगी।" }, "kind": "literal", "evidence": "Il faut que vous la cultiviez avant le 15 juin." },
+      { "q": { "en": "What happens if a member neglects their plot for a month?", "hi": "अगर कोई सदस्य एक महीने तक अपने भूखंड की उपेक्षा करे तो क्या होता है?" }, "options": ["They pay a fine.", "The committee waters it for them.", "They lose it to someone on the waiting list.", "They must give four hours of work."], "optionsHi": ["उसे जुर्माना देना पड़ता है।", "समिति उसके लिए पानी देती है।", "प्रतीक्षा सूची में मौजूद किसी व्यक्ति को वह भूखंड मिल जाता है।", "उसे चार घंटे काम करना पड़ता है।"], "answer": 2, "explanation": { "en": "A plot abandoned for more than three weeks goes to someone on the waiting list.", "hi": "तीन हफ़्ते से ज़्यादा छोड़ी गई क्यारी प्रतीक्षा-सूची के किसी व्यक्ति को मिल जाती है।" }, "kind": "inference", "evidence": "sera donnée à une personne de la liste d'attente" },
+      { "q": { "en": "When is watering not allowed?", "hi": "पानी देना कब मना है?" }, "options": ["At noon", "In the morning", "In the evening", "On weekends"], "optionsHi": ["दोपहर में", "सुबह", "शाम को", "सप्ताहांत में"], "answer": 0, "explanation": { "en": "Water in the morning or the evening, never at noon.", "hi": "सुबह या शाम को पानी दीजिए, दोपहर में कभी नहीं।" }, "kind": "literal", "evidence": "jamais à midi" },
+      { "q": { "en": "Why are chemical products banned?", "hi": "रासायनिक उत्पादों पर प्रतिबंध क्यों है?" }, "options": ["Because they are too expensive", "Because the city forbids them in parks", "Because they damage the tools", "To keep the garden healthy for children and animals"], "optionsHi": ["क्योंकि वे बहुत महँगे हैं", "क्योंकि शहर पार्कों में उन्हें मना करता है", "क्योंकि वे औज़ारों को ख़राब करते हैं", "बगीचे को बच्चों और जानवरों के लिए स्वस्थ रखने के लिए"], "answer": 3, "explanation": { "en": "The committee wants the garden to be healthy for children, bees and birds.", "hi": "समिति चाहती है कि बगीचा बच्चों, मधुमक्खियों और पक्षियों के लिए स्वस्थ रहे।" }, "kind": "inference", "evidence": "Nous voulons que le jardin soit sain pour les enfants, les abeilles et les oiseaux." },
+      { "q": { "en": "What does community life require of each member?", "hi": "सामुदायिक जीवन में हर सदस्य से क्या अपेक्षित है?" }, "options": ["Going to all three meetings", "Two hours a month and at least one meeting", "Sharing half of the harvest", "Cleaning the shed every week"], "optionsHi": ["तीनों बैठकों में जाना", "महीने में दो घंटे और कम से कम एक बैठक", "फ़सल का आधा हिस्सा बाँटना", "हर सप्ताह शेड की सफ़ाई करना"], "answer": 1, "explanation": { "en": "Two hours a month for the paths, and at least one of the three meetings.", "hi": "रास्तों के लिए महीने में दो घंटे, और तीन में से कम से कम एक बैठक।" }, "kind": "literal", "evidence": "Chaque membre donne deux heures par mois" }
     ]
   },
   "writing": {
@@ -170,10 +170,10 @@
       { "en": "Check the irregulars: soit, ait, aille, fasse.", "hi": "अनियमित रूप जाँचिए: soit, ait, aille, fasse।" }
     ],
     "usefulPhrases": [
-      { "fr": "Après notre discussion, voici les règles.", "en": "After our discussion, here are the rules.", "hi": "हमारी बातचीत के बाद, ये रहे नियम।", "pron": "आ-प्ग़ै नो-त्ग़ö दीस-कü-स्योँ वा-सी ले ग़ैग्ल" },
-      { "fr": "Il faut que chacun fasse…", "en": "Everyone has to do…", "hi": "हर किसी को … करना होगा", "pron": "ईल फ़ो कö शा-कैँ फ़ास" },
-      { "fr": "… pour que la vie ensemble reste agréable.", "en": "… so that living together stays pleasant.", "hi": "… ताकि साथ रहना सुखद बना रहे।", "pron": "पूग़ कö ला वी आँ-साँब्ल ग़ैस्त आ-ग्ग़े-आब्ल" },
-      { "fr": "Si vous avez d'autres idées, on en parle.", "en": "If you have other ideas, let's talk about them.", "hi": "अगर तुम्हारे पास और विचार हों, तो उन पर बात करते हैं।", "pron": "सी वू ज़ा-वे दोत्ग़ ज़ी-दे ओँ नाँ पाग़ल" }
+      { "fr": "Après notre discussion, voici les règles.", "en": "After our discussion, here are the rules.", "hi": "हमारी बातचीत के बाद, ये रहे नियम।", "pron": "आ-प्रे नो-त्र दीस-क्यू-स्यों वा-सी ले रेग्ल" },
+      { "fr": "Il faut que chacun fasse…", "en": "Everyone has to do…", "hi": "हर किसी को … करना होगा", "pron": "ईल फ़ो क शा-कैं फ़ास" },
+      { "fr": "… pour que la vie ensemble reste agréable.", "en": "… so that living together stays pleasant.", "hi": "… ताकि साथ रहना सुखद बना रहे।", "pron": "पूर क ला वी आँ-साँब्ल रेस्त आ-ग्रे-आब्ल" },
+      { "fr": "Si vous avez d'autres idées, on en parle.", "en": "If you have other ideas, let's talk about them.", "hi": "अगर तुम्हारे पास और विचार हों, तो उन पर बात करते हैं।", "pron": "सी वू ज़ा-वे दोत्र ज़ी-दे ओं नाँ पारल" }
     ],
     "model": {
       "fr": "Salut Maxime et Inès,\n\nAprès notre discussion d'hier, voici les règles de l'appartement. Elles sont simples, mais il faut que tout le monde les respecte, pour que la vie ensemble reste agréable.\n\nPour la cuisine, il faut que chacun fasse sa vaisselle le soir même. Je ne veux plus voir des assiettes sales dans l'évier le matin !\n\nPour le ménage, il faut qu'une personne différente nettoie la salle de bain chaque semaine. J'ai mis un calendrier sur le frigo.\n\nPour le bruit, il faut que la musique soit moins forte après vingt-deux heures, parce qu'Inès commence à travailler très tôt.\n\nPour les invités, c'est d'accord, bien sûr, mais il faut que vous parliez aux autres avant, surtout si quelqu'un dort ici.\n\nEnfin, pour les produits communs (papier toilette, savon, huile), je veux que nous ayons une petite caisse : dix dollars par personne et par mois.\n\nSi vous avez d'autres idées, on en parle dimanche.\n\nÀ plus,\nArjun",
@@ -189,14 +189,14 @@
   "review": {
     "fromDays": [62, 65, 68, 72, 73, 74],
     "items": [
-      { "fr": "Il est important de dormir huit heures.", "en": "It's important to sleep eight hours.", "hi": "आठ घंटे सोना ज़रूरी है।", "pron": "ई-लै तैँ-पोग़-ताँ दö दॉग़-मीग़ üइ तöग़" },
-      { "fr": "Il ne faut pas interdire les écrans.", "en": "We must not ban screens.", "hi": "स्क्रीन पर पाबंदी नहीं लगानी चाहिए।", "pron": "ईल नö फ़ो पा ऐँ-तैग़-दीग़ ले ज़े-क्ग़ाँ" },
-      { "fr": "Pourriez-vous m'aider, s'il vous plaît ?", "en": "Could you help me, please?", "hi": "क्या आप मेरी मदद कर सकेंगे?", "pron": "पू-ग़्ये वू मे-दे सील वू प्लै" },
-      { "fr": "Ce dont j'ai besoin, c'est du calme.", "en": "What I need is some quiet.", "hi": "मुझे जिस चीज़ की ज़रूरत है, वह है शांति।", "pron": "सö दोँ झ़े बö-ज़्वैँ सै दü काल्म" },
-      { "fr": "Je t'assure, ça vaut la peine.", "en": "I promise you, it's worth it.", "hi": "मेरा यक़ीन करो, यह इसके लायक़ है।", "pron": "झ़ö ता-सüग़ सा वो ला पैन" },
-      { "fr": "C'est vrai que c'est cher. Pourtant, c'est utile.", "en": "It's true that it's expensive. And yet it's useful.", "hi": "सच है कि यह महँगा है। फिर भी काम का है।", "pron": "सै व्ग़ै कö सै शैग़ पूग़-ताँ सै तü-तील" },
-      { "fr": "Je n'ai pas le temps parce que je travaille le soir.", "en": "I don't have time because I work in the evening.", "hi": "मेरे पास समय नहीं है क्योंकि मैं शाम को काम करता हूँ।", "pron": "झ़ö ने पा लö ताँ पाग़स कö झ़ö त्ग़ा-वाय लö स्वाग़" },
-      { "fr": "Tout d'abord, prenons un exemple.", "en": "First of all, let's take an example.", "hi": "सबसे पहले, एक उदाहरण लेते हैं।", "pron": "तू दा-बॉग़ प्ग़ö-नोँ ज़ैँ नैग-ज़ाँप्ल" }
+      { "fr": "Il est important de dormir huit heures.", "en": "It's important to sleep eight hours.", "hi": "आठ घंटे सोना ज़रूरी है।", "pron": "ई-ले तैं-पोर-ताँ द दॉर-मीर यूइ तर" },
+      { "fr": "Il ne faut pas interdire les écrans.", "en": "We must not ban screens.", "hi": "स्क्रीन पर पाबंदी नहीं लगानी चाहिए।", "pron": "ईल न फ़ो पा ऐं-तेर-दीर ले ज़े-क्राँ" },
+      { "fr": "Pourriez-vous m'aider, s'il vous plaît ?", "en": "Could you help me, please?", "hi": "क्या आप मेरी मदद कर सकेंगे?", "pron": "पू-र्ये वू मे-दे सील वू प्ले" },
+      { "fr": "Ce dont j'ai besoin, c'est du calme.", "en": "What I need is some quiet.", "hi": "मुझे जिस चीज़ की ज़रूरत है, वह है शांति।", "pron": "स दों जे ब-ज़्वैं से द्यू काल्म" },
+      { "fr": "Je t'assure, ça vaut la peine.", "en": "I promise you, it's worth it.", "hi": "मेरा यक़ीन करो, यह इसके लायक़ है।", "pron": "ज ता-स्यूर सा वो ला पेन" },
+      { "fr": "C'est vrai que c'est cher. Pourtant, c'est utile.", "en": "It's true that it's expensive. And yet it's useful.", "hi": "सच है कि यह महँगा है। फिर भी काम का है।", "pron": "से व्रे क से शेर पूर-ताँ से त्यू-तील" },
+      { "fr": "Je n'ai pas le temps parce que je travaille le soir.", "en": "I don't have time because I work in the evening.", "hi": "मेरे पास समय नहीं है क्योंकि मैं शाम को काम करता हूँ।", "pron": "ज ने पा ल ताँ पारस क ज त्रा-वाय ल स्वार" },
+      { "fr": "Tout d'abord, prenons un exemple.", "en": "First of all, let's take an example.", "hi": "सबसे पहले, एक उदाहरण लेते हैं।", "pron": "तू दा-बॉर प्र-नों ज़ैं नेग-ज़ाँप्ल" }
     ]
   },
   "assessment": [

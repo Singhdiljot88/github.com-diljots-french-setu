@@ -16,27 +16,27 @@
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "le père", "en": "father", "hi": "पिता", "pron": "लö पैग़", "ipa": "lə pɛʁ", "pos": "noun", "gender": "m", "lemma": "père" },
-    { "fr": "la mère", "en": "mother", "hi": "माँ / माता", "pron": "ला मैग़", "ipa": "la mɛʁ", "pos": "noun", "gender": "f", "lemma": "mère", "note": { "en": "In everyday talk: papa and maman.", "hi": "रोज़ की बातचीत में: papa और maman।" } },
-    { "fr": "les parents", "en": "parents (also: relatives)", "hi": "माता-पिता (रिश्तेदार भी)", "pron": "ले पा-ग़ाँ", "ipa": "le paʁɑ̃", "pos": "noun", "gender": "m", "lemma": "parent" },
-    { "fr": "le mari", "en": "husband", "hi": "पति", "pron": "लö मा-ग़ी", "ipa": "lə maʁi", "pos": "noun", "gender": "m", "lemma": "mari" },
-    { "fr": "la femme", "en": "wife / woman", "hi": "पत्नी / औरत", "pron": "ला फ़ाम", "ipa": "la fam", "pos": "noun", "gender": "f", "lemma": "femme", "note": { "en": "Spelling trap: 'femme' is said फ़ाम, not 'fem'. Ma femme = my wife.", "hi": "वर्तनी का जाल: 'femme' को फ़ाम बोलते हैं, 'फ़ेम' नहीं। Ma femme = मेरी पत्नी।" } },
-    { "fr": "le fils", "en": "son", "hi": "बेटा", "pron": "लö फ़ीस", "ipa": "lə fis", "pos": "noun", "gender": "m", "lemma": "fils", "note": { "en": "The l is silent and the s is pronounced: फ़ीस.", "hi": "l नहीं बोला जाता और s बोला जाता है: फ़ीस।" } },
+    { "fr": "le père", "en": "father", "hi": "पिता", "pron": "ल पेर", "ipa": "lə pɛʁ", "pos": "noun", "gender": "m", "lemma": "père" },
+    { "fr": "la mère", "en": "mother", "hi": "माँ / माता", "pron": "ला मेर", "ipa": "la mɛʁ", "pos": "noun", "gender": "f", "lemma": "mère", "note": { "en": "In everyday talk: papa and maman.", "hi": "रोज़ की बातचीत में: papa और maman।" } },
+    { "fr": "les parents", "en": "parents (also: relatives)", "hi": "माता-पिता (रिश्तेदार भी)", "pron": "ले पा-राँ", "ipa": "le paʁɑ̃", "pos": "noun", "gender": "m", "lemma": "parent" },
+    { "fr": "le mari", "en": "husband", "hi": "पति", "pron": "ल मा-री", "ipa": "lə maʁi", "pos": "noun", "gender": "m", "lemma": "mari" },
+    { "fr": "la femme", "en": "wife / woman", "hi": "पत्नी / औरत", "pron": "ला फ़ाम", "ipa": "la fam", "pos": "noun", "gender": "f", "lemma": "femme", "note": { "en": "Spelling trap: 'femme' is said फ़ाम, not 'fem'. Ma femme = my wife.", "hi": "वर्तनी की चेतावनी: 'femme' को फ़ाम बोलते हैं, 'फ़ेम' नहीं। Ma femme = मेरी पत्नी।" } },
+    { "fr": "le fils", "en": "son", "hi": "बेटा", "pron": "ल फ़ीस", "ipa": "lə fis", "pos": "noun", "gender": "m", "lemma": "fils", "note": { "en": "The l is silent and the s is pronounced: फ़ीस.", "hi": "l नहीं बोला जाता और s बोला जाता है: फ़ीस।" } },
     { "fr": "la fille", "en": "daughter / girl", "hi": "बेटी / लड़की", "pron": "ला फ़ीय", "ipa": "la fij", "pos": "noun", "gender": "f", "lemma": "fille", "note": { "en": "'ill' sounds like य: फ़ीय. Don't confuse with 'fils'.", "hi": "'ill' की आवाज़ य जैसी है: फ़ीय। 'fils' से मत मिलाइए।" } },
-    { "fr": "le grand-père / la grand-mère", "en": "grandfather / grandmother", "hi": "दादा या नाना / दादी या नानी", "pron": "लö ग्राँ-पैग़ / ला ग्राँ-मैग़", "ipa": "ɡʁɑ̃pɛʁ / ɡʁɑ̃mɛʁ", "pos": "noun", "gender": "mf", "lemma": "grand-parent", "note": { "en": "French doesn't distinguish father's side and mother's side: one word for दादा and नाना.", "hi": "फ़्रेंच में पिता की ओर और माँ की ओर का फ़र्क़ नहीं: दादा और नाना दोनों के लिए एक ही शब्द।" } },
-    { "fr": "l'oncle / la tante", "en": "uncle / aunt", "hi": "चाचा, मामा, ताऊ, मौसा, फूफा / चाची, मामी, मौसी, बुआ", "pron": "लोँक्ल / ला ताँत", "ipa": "lɔ̃kl / la tɑ̃t", "pos": "noun", "gender": "mf", "lemma": "oncle", "note": { "en": "Hindi has many words for uncles and aunts; French has just two.", "hi": "हिंदी में चाचा-मामा जैसे कई शब्द हैं; फ़्रेंच में बस दो।" } },
-    { "fr": "le cousin / la cousine", "en": "cousin (m. / f.)", "hi": "चचेरा-ममेरा भाई / चचेरी-ममेरी बहन", "pron": "लö कू-ज़ैँ / ला कू-ज़ीन", "ipa": "kuzɛ̃ / kuzin", "pos": "noun", "gender": "mf", "lemma": "cousin" },
+    { "fr": "le grand-père / la grand-mère", "en": "grandfather / grandmother", "hi": "दादा या नाना / दादी या नानी", "pron": "ल ग्राँ-पेर / ला ग्राँ-मेर", "ipa": "ɡʁɑ̃pɛʁ / ɡʁɑ̃mɛʁ", "pos": "noun", "gender": "mf", "lemma": "grand-parent", "note": { "en": "French doesn't distinguish father's side and mother's side: one word for दादा and नाना.", "hi": "फ़्रेंच में पिता की ओर और माँ की ओर का फ़र्क़ नहीं: दादा और नाना दोनों के लिए एक ही शब्द।" } },
+    { "fr": "l'oncle / la tante", "en": "uncle / aunt", "hi": "चाचा, मामा, ताऊ, मौसा, फूफा / चाची, मामी, मौसी, बुआ", "pron": "लोंक्ल / ला ताँत", "ipa": "lɔ̃kl / la tɑ̃t", "pos": "noun", "gender": "mf", "lemma": "oncle", "note": { "en": "Hindi has many words for uncles and aunts; French has just two.", "hi": "हिंदी में चाचा-मामा जैसे कई शब्द हैं; फ़्रेंच में बस दो।" } },
+    { "fr": "le cousin / la cousine", "en": "cousin (m. / f.)", "hi": "चचेरा-ममेरा भाई / चचेरी-ममेरी बहन", "pron": "ल कू-ज़ैं / ला कू-ज़ीन", "ipa": "kuzɛ̃ / kuzin", "pos": "noun", "gender": "mf", "lemma": "cousin" },
     { "fr": "marié / mariée", "en": "married", "hi": "शादीशुदा", "pron": "मा-ग्ये", "ipa": "maʁje", "pos": "adjective", "lemma": "marié" },
-    { "fr": "célibataire", "en": "single / unmarried", "hi": "अविवाहित / कुँवारा", "pron": "से-ली-बा-तैग़", "ipa": "selibatɛʁ", "pos": "adjective" },
+    { "fr": "célibataire", "en": "single / unmarried", "hi": "अविवाहित / कुँवारा", "pron": "से-ली-बा-तेर", "ipa": "selibatɛʁ", "pos": "adjective" },
     { "fr": "la famille", "en": "family", "hi": "परिवार", "pron": "ला फ़ा-मीय", "ipa": "la famij", "pos": "noun", "gender": "f", "lemma": "famille" }
   ],
   "phrases": [
     { "fr": "Voici ma famille.", "en": "This is my family.", "hi": "यह मेरा परिवार है।", "pron": "व्वा-सी मा फ़ा-मीय", "ipa": "vwasi ma famij" },
-    { "fr": "C'est qui, sur la photo ?", "en": "Who is that in the photo?", "hi": "फ़ोटो में यह कौन है?", "pron": "सै की सüग़ ला फ़ो-तो" },
+    { "fr": "C'est qui, sur la photo ?", "en": "Who is that in the photo?", "hi": "फ़ोटो में यह कौन है?", "pron": "से की स्यूर ला फ़ो-तो" },
     { "fr": "Vous avez des enfants ?", "en": "Do you have children?", "hi": "क्या आपके बच्चे हैं?", "pron": "वू ज़ा-वे दे ज़ाँ-फ़ाँ" },
-    { "fr": "Tu as des frères et sœurs ?", "en": "Do you have brothers and sisters?", "hi": "क्या तुम्हारे भाई-बहन हैं?", "pron": "तü आ दे फ़्रैग़ ए सöग़" },
-    { "fr": "Je suis marié. / Je suis mariée.", "en": "I'm married.", "hi": "मैं शादीशुदा हूँ।", "pron": "झ़ö स्üई मा-ग्ये" },
-    { "fr": "Je vous présente mon mari.", "en": "Let me introduce my husband.", "hi": "मैं आपको अपने पति से मिलवाती हूँ।", "pron": "झ़ö वू प्रे-ज़ाँत मोँ मा-ग़ी" }
+    { "fr": "Tu as des frères et sœurs ?", "en": "Do you have brothers and sisters?", "hi": "क्या तुम्हारे भाई-बहन हैं?", "pron": "त्यू आ दे फ़्रेर ए सर" },
+    { "fr": "Je suis marié. / Je suis mariée.", "en": "I'm married.", "hi": "मैं शादीशुदा हूँ।", "pron": "ज स्यूई मा-ग्ये" },
+    { "fr": "Je vous présente mon mari.", "en": "Let me introduce my husband.", "hi": "मैं आपको अपने पति से मिलवाती हूँ।", "pron": "ज वू प्रे-ज़ाँत मों मा-री" }
   ],
   "grammar": {
     "title": { "en": "Possessives: mon, ma, mes …", "hi": "संबंधसूचक शब्द (possessives): mon, ma, mes …" },
@@ -49,12 +49,12 @@
       "hi": "अच्छी ख़बर: हिंदी भी ऐसे ही चलती है! मेरा भाई, मेरी बहन, मेरे भाई — संबंधसूचक शब्द उस चीज़ से मेल खाता है जो किसी की है, बिल्कुल mon frère, ma sœur, mes frères की तरह। और son/sa भी उसका/उसकी की तरह यह नहीं बताते कि मालिक पुरुष है या महिला: sa femme = उसकी पत्नी, son mari = उसका पति। अंग्रेज़ी का 'his/her' मालिक पर निर्भर है — वह तर्क यहाँ भूल जाइए। दो जाल: फ़्रेंच लिंग हिंदी से अलग हो सकता है (मेरी किताब, पर mon livre), और फ़्रेंच में 'अपना' नहीं है: 'Je vous présente mon mari' (अपने पति से)।"
     },
     "examples": [
-      { "fr": "Voici mon frère et ma sœur.", "en": "Here are my brother and my sister.", "hi": "ये मेरा भाई और मेरी बहन हैं।", "pron": "व्वा-सी मोँ फ़्रैग़ ए मा सöग़" },
-      { "fr": "Mes parents habitent à Jaipur.", "en": "My parents live in Jaipur.", "hi": "मेरे माता-पिता जयपुर में रहते हैं।", "pron": "मे पा-ग़ाँ आ-बीत आ झ़ै-पूग़" },
-      { "fr": "Mon amie Sophie est mariée.", "en": "My friend Sophie is married.", "hi": "मेरी सहेली सोफ़ी शादीशुदा है।", "pron": "मोँ ना-मी सो-फ़ी ऐ मा-ग्ये", "note": { "en": "amie is feminine, but starts with a vowel: mon amie.", "hi": "amie स्त्रीलिंग है, पर स्वर से शुरू होता है: mon amie।" } },
-      { "fr": "Priya parle à son mari.", "en": "Priya is talking to her husband.", "hi": "प्रिया अपने पति से बात कर रही है।", "pron": "प्रिया पाग़ल आ सोँ मा-ग़ी" },
-      { "fr": "Arjun aime sa fille.", "en": "Arjun loves his daughter.", "hi": "अर्जुन अपनी बेटी से प्यार करता है।", "pron": "अग़-झ़ून ऐम सा फ़ीय" },
-      { "fr": "Nos enfants aiment leur école.", "en": "Our children like their school.", "hi": "हमारे बच्चों को अपना स्कूल पसंद है।", "pron": "नो ज़ाँ-फ़ाँ ऐम लöग़ ए-कॉल" }
+      { "fr": "Voici mon frère et ma sœur.", "en": "Here are my brother and my sister.", "hi": "ये मेरा भाई और मेरी बहन हैं।", "pron": "व्वा-सी मों फ़्रेर ए मा सर" },
+      { "fr": "Mes parents habitent à Jaipur.", "en": "My parents live in Jaipur.", "hi": "मेरे माता-पिता जयपुर में रहते हैं।", "pron": "मे पा-राँ आ-बीत आ जे-पूर" },
+      { "fr": "Mon amie Sophie est mariée.", "en": "My friend Sophie is married.", "hi": "मेरी सहेली सोफ़ी शादीशुदा है।", "pron": "मों ना-मी सो-फ़ी ए मा-ग्ये", "note": { "en": "amie is feminine, but starts with a vowel: mon amie.", "hi": "amie स्त्रीलिंग है, पर स्वर से शुरू होता है: mon amie।" } },
+      { "fr": "Priya parle à son mari.", "en": "Priya is talking to her husband.", "hi": "प्रिया अपने पति से बात कर रही है।", "pron": "प्रिया पारल आ सों मा-री" },
+      { "fr": "Arjun aime sa fille.", "en": "Arjun loves his daughter.", "hi": "अर्जुन अपनी बेटी से प्यार करता है।", "pron": "अर-जून एम सा फ़ीय" },
+      { "fr": "Nos enfants aiment leur école.", "en": "Our children like their school.", "hi": "हमारे बच्चों को अपना स्कूल पसंद है।", "pron": "नो ज़ाँ-फ़ाँ एम लर ए-कॉल" }
     ],
     "pitfalls": [
       { "en": "Not 'ma amie' — say 'mon amie' (vowel sound after).", "hi": "'ma amie' नहीं — 'mon amie' कहिए (आगे स्वर की आवाज़ है)।" },
@@ -65,16 +65,16 @@
   "pronunciation": {
     "focus": "/ɔ̃/ (mon, ton) vs /ɑ̃/ (maman, enfant)",
     "tip": {
-      "en": "Both are nasal, with no n at the end. For /ɔ̃/ (on, om) round your lips tightly, like ओ through the nose: मोँ. For /ɑ̃/ (an, en) open your mouth wide, like आ through the nose: आँ. 'mon' and 'ment' must sound clearly different.",
-      "hi": "दोनों नासिक्य हैं, आख़िर में 'न' नहीं। /ɔ̃/ (on, om) के लिए होंठ कसकर गोल कीजिए, नाक से ओ: मोँ। /ɑ̃/ (an, en) के लिए मुँह खुला रखिए, नाक से आ: आँ। 'mon' और 'ment' साफ़ अलग सुनाई देने चाहिए।"
+      "en": "Both are nasal, with no n at the end. For /ɔ̃/ (on, om) round your lips tightly, like ओ through the nose: मों. For /ɑ̃/ (an, en) open your mouth wide, like आ through the nose: आँ. 'mon' and 'ment' must sound clearly different.",
+      "hi": "दोनों नासिक्य हैं, आख़िर में 'न' नहीं। /ɔ̃/ (on, om) के लिए होंठ कसकर गोल कीजिए, नाक से ओ: मों। /ɑ̃/ (an, en) के लिए मुँह खुला रखिए, नाक से आ: आँ। 'mon' और 'ment' साफ़ अलग सुनाई देने चाहिए।"
     },
     "words": [
-      { "fr": "mon", "en": "my (m.)", "hi": "मेरा", "pron": "मोँ", "ipa": "mɔ̃" },
+      { "fr": "mon", "en": "my (m.)", "hi": "मेरा", "pron": "मों", "ipa": "mɔ̃" },
       { "fr": "maman", "en": "mum", "hi": "मम्मी", "pron": "मा-माँ", "ipa": "mamɑ̃" },
-      { "fr": "l'oncle", "en": "the uncle", "hi": "चाचा / मामा", "pron": "लोँक्ल", "ipa": "lɔ̃kl" },
+      { "fr": "l'oncle", "en": "the uncle", "hi": "चाचा / मामा", "pron": "लोंक्ल", "ipa": "lɔ̃kl" },
       { "fr": "la tante", "en": "the aunt", "hi": "चाची / मौसी", "pron": "ला ताँत", "ipa": "la tɑ̃t" },
       { "fr": "les enfants", "en": "the children", "hi": "बच्चे", "pron": "ले ज़ाँ-फ़ाँ", "ipa": "le zɑ̃fɑ̃" },
-      { "fr": "son grand-père", "en": "his/her grandfather", "hi": "उसके दादा", "pron": "सोँ ग्राँ-पैग़", "ipa": "sɔ̃ ɡʁɑ̃pɛʁ", "note": { "en": "Both nasals in one phrase: सोँ then ग्राँ.", "hi": "एक ही वाक्यांश में दोनों नासिक्य: पहले सोँ, फिर ग्राँ।" } }
+      { "fr": "son grand-père", "en": "his/her grandfather", "hi": "उसके दादा", "pron": "सों ग्राँ-पेर", "ipa": "sɔ̃ ɡʁɑ̃pɛʁ", "note": { "en": "Both nasals in one phrase: सों then ग्राँ.", "hi": "एक ही वाक्यांश में दोनों नासिक्य: पहले सों, फिर ग्राँ।" } }
     ]
   },
   "listening": {
@@ -99,11 +99,11 @@
       { "speaker": "Marc", "voice": "m2", "fr": "Oui ! Elle a quatre-vingt-dix ans et elle adore la musique.", "en": "Yes! She's ninety and she loves music.", "hi": "हाँ! वे नब्बे साल की हैं और उन्हें संगीत बहुत पसंद है।" }
     ],
     "questions": [
-      { "q": { "en": "How old is Priya's father?" }, "options": ["60", "65", "90", "75"], "answer": 1, "explanation": { "en": "'Il a soixante-cinq ans' — he is 65. Her mother is 60.", "hi": "'Il a soixante-cinq ans' — वे 65 साल के हैं। माँ 60 साल की हैं।" }, "kind": "literal", "evidence": "Il a soixante-cinq ans." },
-      { "q": { "en": "Who is Rohan?" }, "options": ["Priya's brother", "Marc's brother", "Anjali's husband"], "answer": 2, "explanation": { "en": "Talking about Anjali: 'Son mari s'appelle Rohan' — her husband is Rohan.", "hi": "अंजलि के बारे में: 'Son mari s'appelle Rohan' — उसके पति रोहन हैं।" }, "kind": "inference", "evidence": "Son mari s'appelle Rohan." },
-      { "q": { "en": "How many children does Anjali have?" }, "options": ["One son", "Two sons", "One daughter"], "answer": 0, "explanation": { "en": "'Oui, un fils. Il a quatre ans.'", "hi": "'Oui, un fils. Il a quatre ans.' — एक बेटा, चार साल का।" }, "kind": "literal", "evidence": "Oui, un fils. Il a quatre ans." },
-      { "q": { "en": "What do we learn about Marc's brother?" }, "options": ["He is married and lives in Montréal", "He is single and lives with their grandmother", "He has a son"], "answer": 1, "explanation": { "en": "'Il est célibataire et il habite à Québec avec notre grand-mère.'", "hi": "'Il est célibataire et il habite à Québec avec notre grand-mère.' — अविवाहित है और दादी के साथ रहता है।" }, "kind": "literal", "evidence": "Il est célibataire et il habite à Québec avec notre grand-mère." },
-      { "q": { "en": "In 'Son mari', why is it 'son' and not 'sa', when Anjali is a woman?" }, "options": ["Because 'mari' is masculine", "Because Priya is speaking", "Because it is a question"], "answer": 0, "explanation": { "en": "The possessive agrees with the thing owned (mari, masculine), not with the owner.", "hi": "संबंधसूचक शब्द मालिक से नहीं, उस चीज़ से मेल खाता है (mari, पुल्लिंग)।" }, "kind": "grammar", "evidence": "Son mari s'appelle Rohan." }
+      { "q": { "en": "How old is Priya's father?", "hi": "प्रिया के पिता की उम्र कितनी है?" }, "options": ["60", "65", "90", "75"], "answer": 1, "explanation": { "en": "'Il a soixante-cinq ans' — he is 65. Her mother is 60.", "hi": "'Il a soixante-cinq ans' — वे 65 साल के हैं। माँ 60 साल की हैं।" }, "kind": "literal", "evidence": "Il a soixante-cinq ans." },
+      { "q": { "en": "Who is Rohan?", "hi": "रोहन कौन है?" }, "options": ["Priya's brother", "Marc's brother", "Anjali's husband"], "optionsHi": ["प्रिया का भाई", "मार्क का भाई", "अंजलि का पति"], "answer": 2, "explanation": { "en": "Talking about Anjali: 'Son mari s'appelle Rohan' — her husband is Rohan.", "hi": "अंजलि के बारे में: 'Son mari s'appelle Rohan' — उसके पति रोहन हैं।" }, "kind": "inference", "evidence": "Son mari s'appelle Rohan." },
+      { "q": { "en": "How many children does Anjali have?", "hi": "अंजलि के कितने बच्चे हैं?" }, "options": ["One son", "Two sons", "One daughter"], "optionsHi": ["एक बेटा", "दो बेटे", "एक बेटी"], "answer": 0, "explanation": { "en": "'Oui, un fils. Il a quatre ans.'", "hi": "'Oui, un fils. Il a quatre ans.' — एक बेटा, चार साल का।" }, "kind": "literal", "evidence": "Oui, un fils. Il a quatre ans." },
+      { "q": { "en": "What do we learn about Marc's brother?", "hi": "मार्क के भाई के बारे में हमें क्या पता चलता है?" }, "options": ["He is married and lives in Montréal", "He is single and lives with their grandmother", "He has a son"], "optionsHi": ["वह शादीशुदा है और मॉन्ट्रियल में रहता है", "वह अविवाहित है और अपनी दादी के साथ रहता है", "उसका एक बेटा है"], "answer": 1, "explanation": { "en": "'Il est célibataire et il habite à Québec avec notre grand-mère.'", "hi": "'Il est célibataire et il habite à Québec avec notre grand-mère.' — अविवाहित है और दादी के साथ रहता है।" }, "kind": "literal", "evidence": "Il est célibataire et il habite à Québec avec notre grand-mère." },
+      { "q": { "en": "In 'Son mari', why is it 'son' and not 'sa', when Anjali is a woman?", "hi": "'Son mari' में 'son' क्यों है, 'sa' क्यों नहीं, जबकि अंजलि एक महिला है?" }, "options": ["Because 'mari' is masculine", "Because Priya is speaking", "Because it is a question"], "optionsHi": ["क्योंकि 'mari' पुल्लिंग है", "क्योंकि प्रिया बोल रही है", "क्योंकि यह एक प्रश्न है"], "answer": 0, "explanation": { "en": "The possessive agrees with the thing owned (mari, masculine), not with the owner.", "hi": "संबंधसूचक शब्द मालिक से नहीं, उस चीज़ से मेल खाता है (mari, पुल्लिंग)।" }, "kind": "grammar", "evidence": "Son mari s'appelle Rohan." }
     ],
     "dictation": ["Voici mes parents.", "Elle est mariée.", "J'ai un frère."],
     "gapFill": { "text": "Oui, c'est ___ sœur, Anjali. Elle est mariée. ___ mari s'appelle Rohan.", "answers": ["ma", "Son"] }
@@ -116,14 +116,14 @@
     },
     "prompts": [
       { "fr": "Voici ma famille.", "en": "This is my family.", "hi": "यह मेरा परिवार है।", "pron": "व्वा-सी मा फ़ा-मीय", "model": "Voici ma famille. Nous sommes cinq." },
-      { "fr": "Mon père s'appelle … . Il a … ans.", "en": "My father's name is … . He is … .", "hi": "मेरे पिता का नाम … है। वे … साल के हैं।", "pron": "मोँ पैग़ सा-पैल … ई ला … आँ", "model": "Mon père s'appelle Rajesh. Il a soixante-deux ans." },
-      { "fr": "Ma mère habite à … .", "en": "My mother lives in … .", "hi": "मेरी माँ … में रहती हैं।", "pron": "मा मैग़ आ-बीत आ", "model": "Ma mère habite à Lucknow avec mon père." },
-      { "fr": "J'ai un frère / une sœur. Il / Elle est … .", "en": "I have a brother / a sister. He / She is … .", "hi": "मेरा एक भाई / एक बहन है। वह … है।", "pron": "झ़े ऐँ फ़्रैग़ / üन सöग़", "model": "J'ai une sœur. Elle est mariée et son mari est très sympathique." },
-      { "fr": "Je suis marié(e) / célibataire.", "en": "I'm married / single.", "hi": "मैं शादीशुदा / अविवाहित हूँ।", "pron": "झ़ö स्üई मा-ग्ये / से-ली-बा-तैग़", "model": "Je suis célibataire et j'habite à Montréal." }
+      { "fr": "Mon père s'appelle … . Il a … ans.", "en": "My father's name is … . He is … .", "hi": "मेरे पिता का नाम … है। वे … साल के हैं।", "pron": "मों पेर सा-पेल … ई ला … आँ", "model": "Mon père s'appelle Rajesh. Il a soixante-deux ans." },
+      { "fr": "Ma mère habite à … .", "en": "My mother lives in … .", "hi": "मेरी माँ … में रहती हैं।", "pron": "मा मेर आ-बीत आ", "model": "Ma mère habite à Lucknow avec mon père." },
+      { "fr": "J'ai un frère / une sœur. Il / Elle est … .", "en": "I have a brother / a sister. He / She is … .", "hi": "मेरा एक भाई / एक बहन है। वह … है।", "pron": "जे ऐं फ़्रेर / यून सर", "model": "J'ai une sœur. Elle est mariée et son mari est très sympathique." },
+      { "fr": "Je suis marié(e) / célibataire.", "en": "I'm married / single.", "hi": "मैं शादीशुदा / अविवाहित हूँ।", "pron": "ज स्यूई मा-ग्ये / से-ली-बा-तेर", "model": "Je suis célibataire et j'habite à Montréal." }
     ],
     "tip": {
-      "en": "Before each sentence, think 'Is the person masculine or feminine?' — then choose mon or ma. Say 'mon' with tight round lips (मोँ), never 'mon-n'.",
-      "hi": "हर वाक्य से पहले सोचिए 'यह व्यक्ति पुल्लिंग है या स्त्रीलिंग?' — फिर mon या ma चुनिए। 'mon' कसे गोल होंठों से बोलिए (मोँ), 'मॉन' नहीं।"
+      "en": "Before each sentence, think 'Is the person masculine or feminine?' — then choose mon or ma. Say 'mon' with tight round lips (मों), never 'mon-n'.",
+      "hi": "हर वाक्य से पहले सोचिए 'यह व्यक्ति पुल्लिंग है या स्त्रीलिंग?' — फिर mon या ma चुनिए। 'mon' कसे गोल होंठों से बोलिए (मों), 'मॉन' नहीं।"
     }
   },
   "reading": {
@@ -135,10 +135,10 @@
       "hi": "मेरा नाम कविता है और मैं चौंतीस साल की हूँ। मैं शादीशुदा हूँ और अपने परिवार के साथ लावाल में रहती हूँ। मेरे पति का नाम विक्रम है। वे एक अस्पताल में काम करते हैं। हमारे दो बच्चे हैं: हमारी बेटी माया आठ साल की है और हमारा बेटा कबीर पाँच साल का। मेरे माता-पिता भारत में, चंडीगढ़ में रहते हैं। मेरे पिता सत्तर साल के हैं और मेरी माँ छियासठ की। विक्रम का भाई सुनील भी लावाल में रहता है। वह अविवाहित है और उसे क्रिकेट बहुत पसंद है। रविवार को पूरा परिवार हमारे घर पर साथ खाना खाता है। बच्चों को अपने चाचा बहुत पसंद हैं!"
     },
     "questions": [
-      { "q": { "en": "How many children do Kavita and Vikram have?" }, "options": ["One", "Two", "Three"], "answer": 1, "explanation": { "en": "'Nous avons deux enfants' — Maya and Kabir.", "hi": "'Nous avons deux enfants' — माया और कबीर।" }, "kind": "literal", "evidence": "Nous avons deux enfants" },
-      { "q": { "en": "Who is Sunil for Maya and Kabir?" }, "options": ["Their grandfather", "Their cousin", "Their uncle", "Their father"], "answer": 2, "explanation": { "en": "Sunil is Vikram's brother, so he is the children's uncle ('leur oncle').", "hi": "सुनील विक्रम का भाई है, इसलिए बच्चों का चाचा ('leur oncle') है।" }, "kind": "inference", "evidence": "Le frère de Vikram, Sunil, habite aussi à Laval." },
-      { "q": { "en": "Where do Kavita's parents live?" }, "options": ["In Laval", "In Chandigarh", "In Montréal"], "answer": 1, "explanation": { "en": "'Mes parents habitent à Chandigarh, en Inde.'", "hi": "'Mes parents habitent à Chandigarh, en Inde.' — मेरे माता-पिता चंडीगढ़ में रहते हैं।" }, "kind": "literal", "evidence": "Mes parents habitent à Chandigarh, en Inde." },
-      { "q": { "en": "What does the family do on Sundays?" }, "options": ["They play cricket", "They eat together at Kavita's home", "They call India"], "answer": 1, "explanation": { "en": "'Le dimanche, toute la famille mange ensemble chez nous.' 'Chez nous' = at our place.", "hi": "'Le dimanche, toute la famille mange ensemble chez nous.' 'Chez nous' = हमारे घर पर।" }, "kind": "literal", "evidence": "Le dimanche, toute la famille mange ensemble chez nous." }
+      { "q": { "en": "How many children do Kavita and Vikram have?", "hi": "कविता और विक्रम के कितने बच्चे हैं?" }, "options": ["One", "Two", "Three"], "optionsHi": ["एक", "दो", "तीन"], "answer": 1, "explanation": { "en": "'Nous avons deux enfants' — Maya and Kabir.", "hi": "'Nous avons deux enfants' — माया और कबीर।" }, "kind": "literal", "evidence": "Nous avons deux enfants" },
+      { "q": { "en": "Who is Sunil for Maya and Kabir?", "hi": "माया और कबीर के लिए सुनील कौन है?" }, "options": ["Their grandfather", "Their cousin", "Their uncle", "Their father"], "optionsHi": ["उनके दादा", "उनका चचेरा भाई", "उनके चाचा", "उनके पिता"], "answer": 2, "explanation": { "en": "Sunil is Vikram's brother, so he is the children's uncle ('leur oncle').", "hi": "सुनील विक्रम का भाई है, इसलिए बच्चों का चाचा ('leur oncle') है।" }, "kind": "inference", "evidence": "Le frère de Vikram, Sunil, habite aussi à Laval." },
+      { "q": { "en": "Where do Kavita's parents live?", "hi": "कविता के माता-पिता कहाँ रहते हैं?" }, "options": ["In Laval", "In Chandigarh", "In Montréal"], "optionsHi": ["लावाल में", "चंडीगढ़ में", "मॉन्ट्रियल में"], "answer": 1, "explanation": { "en": "'Mes parents habitent à Chandigarh, en Inde.'", "hi": "'Mes parents habitent à Chandigarh, en Inde.' — मेरे माता-पिता चंडीगढ़ में रहते हैं।" }, "kind": "literal", "evidence": "Mes parents habitent à Chandigarh, en Inde." },
+      { "q": { "en": "What does the family do on Sundays?", "hi": "परिवार रविवार को क्या करता है?" }, "options": ["They play cricket", "They eat together at Kavita's home", "They call India"], "optionsHi": ["वे क्रिकेट खेलते हैं", "वे कविता के घर पर साथ खाना खाते हैं", "वे भारत फ़ोन करते हैं"], "answer": 1, "explanation": { "en": "'Le dimanche, toute la famille mange ensemble chez nous.' 'Chez nous' = at our place.", "hi": "'Le dimanche, toute la famille mange ensemble chez nous.' 'Chez nous' = हमारे घर पर।" }, "kind": "literal", "evidence": "Le dimanche, toute la famille mange ensemble chez nous." }
     ]
   },
   "writing": {
@@ -155,8 +155,8 @@
     ],
     "usefulPhrases": [
       { "fr": "Dans ma famille, nous sommes …", "en": "In my family, there are … of us", "hi": "मेरे परिवार में हम … लोग हैं", "pron": "दाँ मा फ़ा-मीय नू सॉम" },
-      { "fr": "Il / Elle est marié(e) / célibataire.", "en": "He / She is married / single.", "hi": "वह शादीशुदा / अविवाहित है।", "pron": "ई लै / ए लै मा-ग्ये / से-ली-बा-तैग़" },
-      { "fr": "Il / Elle adore …", "en": "He / She loves …", "hi": "उसे … बहुत पसंद है", "pron": "ई ला-दॉग़ / ए ला-दॉग़" }
+      { "fr": "Il / Elle est marié(e) / célibataire.", "en": "He / She is married / single.", "hi": "वह शादीशुदा / अविवाहित है।", "pron": "ई ले / ए ले मा-ग्ये / से-ली-बा-तेर" },
+      { "fr": "Il / Elle adore …", "en": "He / She loves …", "hi": "उसे … बहुत पसंद है", "pron": "ई ला-दॉर / ए ला-दॉर" }
     ],
     "model": {
       "fr": "Dans ma famille, nous sommes quatre. Mon père s'appelle Rajesh et il a soixante-deux ans. Ma mère s'appelle Sunita. Mes parents habitent à Lucknow. J'ai une sœur, Neha. Elle est mariée et son mari est très sympathique. Ils ont une fille. Moi, je suis célibataire et j'habite à Montréal. Ma sœur adore la musique.",
@@ -171,14 +171,14 @@
   "review": {
     "fromDays": [5, 6, 18, 21],
     "items": [
-      { "fr": "J'ai un frère et une sœur.", "en": "I have a brother and a sister.", "hi": "मेरा एक भाई और एक बहन है।", "pron": "झ़े ऐँ फ़्रैग़ ए üन सöग़" },
-      { "fr": "Elle a dix-huit ans.", "en": "She is eighteen.", "hi": "वह अठारह साल की है।", "pron": "ए ला दी-ज़üईत आँ" },
-      { "fr": "un enfant", "en": "a child", "hi": "एक बच्चा", "pron": "ऐँ नाँ-फ़ाँ" },
-      { "fr": "Il est grand et gentil.", "en": "He is tall and kind.", "hi": "वह लंबा और दयालु है।", "pron": "ई लै ग्राँ ए झ़ाँ-ती" },
-      { "fr": "Elle est petite et contente.", "en": "She is short and happy.", "hi": "वह छोटी और ख़ुश है।", "pron": "ए लै प्ö-तीत ए कोँ-ताँत" },
-      { "fr": "Il s'appelle comment ?", "en": "What's his name?", "hi": "उसका नाम क्या है?", "pron": "ईल सा-पैल को-माँ" },
-      { "fr": "Ils habitent à Toronto.", "en": "They live in Toronto.", "hi": "वे टोरंटो में रहते हैं।", "pron": "ईल ज़ा-बीत आ तो-ग़ोँ-तो" },
-      { "fr": "Nous sommes cinq.", "en": "There are five of us.", "hi": "हम पाँच लोग हैं।", "pron": "नू सॉम सैँक" }
+      { "fr": "J'ai un frère et une sœur.", "en": "I have a brother and a sister.", "hi": "मेरा एक भाई और एक बहन है।", "pron": "जे ऐं फ़्रेर ए यून सर" },
+      { "fr": "Elle a dix-huit ans.", "en": "She is eighteen.", "hi": "वह अठारह साल की है।", "pron": "ए ला दी-ज़्यूईत आँ" },
+      { "fr": "un enfant", "en": "a child", "hi": "एक बच्चा", "pron": "ऐं नाँ-फ़ाँ" },
+      { "fr": "Il est grand et gentil.", "en": "He is tall and kind.", "hi": "वह लंबा और दयालु है।", "pron": "ई ले ग्राँ ए जाँ-ती" },
+      { "fr": "Elle est petite et contente.", "en": "She is short and happy.", "hi": "वह छोटी और ख़ुश है।", "pron": "ए ले प-तीत ए कों-ताँत" },
+      { "fr": "Il s'appelle comment ?", "en": "What's his name?", "hi": "उसका नाम क्या है?", "pron": "ईल सा-पेल को-माँ" },
+      { "fr": "Ils habitent à Toronto.", "en": "They live in Toronto.", "hi": "वे टोरंटो में रहते हैं।", "pron": "ईल ज़ा-बीत आ तो-रों-तो" },
+      { "fr": "Nous sommes cinq.", "en": "There are five of us.", "hi": "हम पाँच लोग हैं।", "pron": "नू सॉम सैंक" }
     ]
   },
   "assessment": [

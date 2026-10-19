@@ -16,26 +16,26 @@
   "light": false,
   "checkpoint": true,
   "vocabulary": [
-    { "fr": "d'habitude", "en": "usually", "hi": "आमतौर पर", "pron": "दा-बी-तüद", "ipa": "dabityd", "pos": "adverb" },
-    { "fr": "d'abord", "en": "first", "hi": "पहले", "pron": "दा-बॉग़", "ipa": "dabɔʁ", "pos": "adverb" },
-    { "fr": "ensuite", "en": "then / next", "hi": "उसके बाद", "pron": "आँ-स्üईत", "ipa": "ɑ̃sɥit", "pos": "adverb" },
-    { "fr": "enfin", "en": "finally", "hi": "आख़िर में", "pron": "आँ-फ़ैँ", "ipa": "ɑ̃fɛ̃", "pos": "adverb" },
-    { "fr": "se lever", "en": "to get up", "hi": "उठना", "pron": "स्ö ल्ö-वे", "ipa": "sə ləve", "pos": "verb", "lemma": "lever", "note": { "en": "je me lève (accent grave in je, tu, il, ils forms).", "hi": "je me lève (je, tu, il, ils रूपों में accent grave)।" } },
-    { "fr": "se coucher", "en": "to go to bed", "hi": "सोने जाना", "pron": "स्ö कू-शे", "ipa": "sə kuʃe", "pos": "verb", "lemma": "coucher" },
-    { "fr": "faire l'épicerie", "en": "to do the grocery shopping (Québec)", "hi": "किराने का सामान लाना", "pron": "फ़ैग़ ले-पीस-ग़ी", "ipa": "fɛʁ lepisʁi", "pos": "phrase", "lemma": "épicerie", "note": { "en": "In France: faire les courses.", "hi": "फ़्रांस में: faire les courses।" } },
-    { "fr": "la fin de semaine", "en": "the weekend (Québec)", "hi": "सप्ताहांत / वीकेंड", "pron": "ला फ़ैँ द्ö स्ö-मैन", "ipa": "la fɛ̃ d səmɛn", "pos": "noun", "gender": "f", "lemma": "fin", "note": { "en": "In France: le week-end.", "hi": "फ़्रांस में: le week-end।" } },
+    { "fr": "d'habitude", "en": "usually", "hi": "आमतौर पर", "pron": "दा-बी-त्यूद", "ipa": "dabityd", "pos": "adverb" },
+    { "fr": "d'abord", "en": "first", "hi": "पहले", "pron": "दा-बॉर", "ipa": "dabɔʁ", "pos": "adverb" },
+    { "fr": "ensuite", "en": "then / next", "hi": "उसके बाद", "pron": "आँ-स्यूईत", "ipa": "ɑ̃sɥit", "pos": "adverb" },
+    { "fr": "enfin", "en": "finally", "hi": "आख़िर में", "pron": "आँ-फ़ैं", "ipa": "ɑ̃fɛ̃", "pos": "adverb" },
+    { "fr": "se lever", "en": "to get up", "hi": "उठना", "pron": "स ल-वे", "ipa": "sə ləve", "pos": "verb", "lemma": "lever", "note": { "en": "je me lève (accent grave in je, tu, il, ils forms).", "hi": "je me lève (je, tu, il, ils रूपों में accent grave)।" } },
+    { "fr": "se coucher", "en": "to go to bed", "hi": "सोने जाना", "pron": "स कू-शे", "ipa": "sə kuʃe", "pos": "verb", "lemma": "coucher" },
+    { "fr": "faire l'épicerie", "en": "to do the grocery shopping (Québec)", "hi": "किराने का सामान लाना", "pron": "फ़ेर ले-पीस-री", "ipa": "fɛʁ lepisʁi", "pos": "phrase", "lemma": "épicerie", "note": { "en": "In France: faire les courses.", "hi": "फ़्रांस में: faire les courses।" } },
+    { "fr": "la fin de semaine", "en": "the weekend (Québec)", "hi": "सप्ताहांत / वीकेंड", "pron": "ला फ़ैं द स-मेन", "ipa": "la fɛ̃ d səmɛn", "pos": "noun", "gender": "f", "lemma": "fin", "note": { "en": "In France: le week-end.", "hi": "फ़्रांस में: le week-end।" } },
     { "fr": "souvent", "en": "often", "hi": "अक्सर", "pron": "सू-वाँ", "ipa": "suvɑ̃", "pos": "adverb" },
-    { "fr": "parfois", "en": "sometimes", "hi": "कभी-कभी", "pron": "पाग़-फ़्वा", "ipa": "paʁfwa", "pos": "adverb" },
-    { "fr": "occupé / occupée", "en": "busy", "hi": "व्यस्त", "pron": "ओ-कü-पे", "ipa": "ɔkype", "pos": "adjective", "lemma": "occupé" },
-    { "fr": "le quartier", "en": "neighbourhood", "hi": "मोहल्ला / इलाक़ा", "pron": "लö काग़-त्ये", "ipa": "lə kaʁtje", "pos": "noun", "gender": "m" }
+    { "fr": "parfois", "en": "sometimes", "hi": "कभी-कभी", "pron": "पार-फ़्वा", "ipa": "paʁfwa", "pos": "adverb" },
+    { "fr": "occupé / occupée", "en": "busy", "hi": "व्यस्त", "pron": "ऑ-क्यू-पे", "ipa": "ɔkype", "pos": "adjective", "lemma": "occupé" },
+    { "fr": "le quartier", "en": "neighbourhood", "hi": "मोहल्ला / इलाक़ा", "pron": "ल कार-त्ये", "ipa": "lə kaʁtje", "pos": "noun", "gender": "m" }
   ],
   "phrases": [
-    { "fr": "D'habitude, je me lève à six heures.", "en": "Usually I get up at six.", "hi": "आमतौर पर मैं छह बजे उठता/उठती हूँ।", "pron": "दा-बी-तüद झ़ö म्ö लैव आ सी ज़öग़" },
-    { "fr": "Je prends le métro pour aller au travail.", "en": "I take the metro to go to work.", "hi": "मैं काम पर जाने के लिए मेट्रो लेता/लेती हूँ।", "pron": "झ़ö प्राँ लö मे-त्रो पूग़ आ-ले ओ त्रा-वाय" },
-    { "fr": "Le soir, je fais la cuisine.", "en": "In the evening I cook.", "hi": "शाम को मैं खाना बनाता/बनाती हूँ।", "pron": "लö स्वाग़ झ़ö फ़ै ला क्üई-ज़ीन" },
-    { "fr": "La fin de semaine, je fais l'épicerie.", "en": "At the weekend I do the grocery shopping.", "hi": "वीकेंड पर मैं किराने का सामान लाता/लाती हूँ।", "pron": "ला फ़ैँ द्ö स्ö-मैन झ़ö फ़ै ले-पीस-ग़ी" },
-    { "fr": "Cette semaine, je suis très occupée.", "en": "This week I'm very busy.", "hi": "इस हफ़्ते मैं बहुत व्यस्त हूँ।", "pron": "सैत स्ö-मैन झ़ö स्üई त्रै ज़ो-कü-पे" },
-    { "fr": "Samedi, je vais voir mes amis.", "en": "On Saturday I'm going to see my friends.", "hi": "शनिवार को मैं अपने दोस्तों से मिलने जाऊँगा/जाऊँगी।", "pron": "सम-दी झ़ö वै व्वाग़ मे ज़ा-मी" }
+    { "fr": "D'habitude, je me lève à six heures.", "en": "Usually I get up at six.", "hi": "आमतौर पर मैं छह बजे उठता/उठती हूँ।", "pron": "दा-बी-त्यूद ज म लेव आ सी ज़र" },
+    { "fr": "Je prends le métro pour aller au travail.", "en": "I take the metro to go to work.", "hi": "मैं काम पर जाने के लिए मेट्रो लेता/लेती हूँ।", "pron": "ज प्राँ ल मे-त्रो पूर आ-ले ओ त्रा-वाय" },
+    { "fr": "Le soir, je fais la cuisine.", "en": "In the evening I cook.", "hi": "शाम को मैं खाना बनाता/बनाती हूँ।", "pron": "ल स्वार ज फ़े ला क्यूई-ज़ीन" },
+    { "fr": "La fin de semaine, je fais l'épicerie.", "en": "At the weekend I do the grocery shopping.", "hi": "वीकेंड पर मैं किराने का सामान लाता/लाती हूँ।", "pron": "ला फ़ैं द स-मेन ज फ़े ले-पीस-री" },
+    { "fr": "Cette semaine, je suis très occupée.", "en": "This week I'm very busy.", "hi": "इस हफ़्ते मैं बहुत व्यस्त हूँ।", "pron": "सेत स-मेन ज स्यूई त्रे ज़ो-क्यू-पे" },
+    { "fr": "Samedi, je vais voir mes amis.", "en": "On Saturday I'm going to see my friends.", "hi": "शनिवार को मैं अपने दोस्तों से मिलने जाऊँगा/जाऊँगी।", "pron": "सम-दी ज वे व्वार मे ज़ा-मी" }
   ],
   "grammar": {
     "title": { "en": "Checkpoint review: the toolkit of Phase 2", "hi": "जाँच का दोहराव: दूसरे चरण के औज़ार" },
@@ -48,12 +48,12 @@
       "hi": "दूसरे चरण के कई बिंदुओं का हिंदी में आईना है। संबंधसूचक: फ़्रेंच में यह चीज़ से मेल खाता है, जैसे हिंदी मेरा भाई / मेरी बहन (mon frère / ma sœur) — मालिक से नहीं। निजवाचक: je me lève ≈ 'मैं (ख़ुद) उठता हूँ'। partitive: हिंदी और अंग्रेज़ी में अक्सर कोई शब्द नहीं लगता ('मैं चावल खाता हूँ', 'I eat rice') पर फ़्रेंच में du चाहिए: je mange du riz। निकट भविष्य: je vais manger ≈ 'मैं खाने वाला हूँ'। quel / quelle ≈ कौन-सा / कौन-सी। parce que ≈ क्योंकि, alors ≈ तो / इसलिए।"
     },
     "examples": [
-      { "fr": "Ma sœur habite à Pune avec ses enfants.", "en": "My sister lives in Pune with her children.", "hi": "मेरी बहन अपने बच्चों के साथ पुणे में रहती है।", "pron": "मा सöग़ आ-बीत आ पुने आ-वैक से ज़ाँ-फ़ाँ" },
-      { "fr": "Le matin, je mange du pain et je bois du thé.", "en": "In the morning I eat bread and drink tea.", "hi": "सुबह मैं ब्रेड खाता/खाती हूँ और चाय पीता/पीती हूँ।", "pron": "लö मा-तैँ झ़ö माँझ़ दü पैँ ए झ़ö ब्वा दü ते" },
-      { "fr": "D'abord, je me lève, ensuite je me douche.", "en": "First I get up, then I shower.", "hi": "पहले मैं उठता/उठती हूँ, फिर नहाता/नहाती हूँ।", "pron": "दा-बॉग़ झ़ö म्ö लैव आँ-स्üईत झ़ö म्ö दूश" },
-      { "fr": "Je dois finir à cinq heures parce que je vais chez le médecin.", "en": "I have to finish at five because I'm going to the doctor's.", "hi": "मुझे पाँच बजे ख़त्म करना है क्योंकि मैं डॉक्टर के पास जा रहा/रही हूँ।", "pron": "झ़ö द्वा फ़ी-नीग़ आ सैँ क्öग़ पाग़्स-कö झ़ö वै शे लö मेद-सैँ" },
-      { "fr": "Il fait froid, alors je mets ma tuque.", "en": "It's cold, so I'm putting on my toque.", "hi": "ठंड है, इसलिए मैं अपनी ऊनी टोपी पहनता/पहनती हूँ।", "pron": "ईल फ़ै फ़्र्वा आ-लॉग़ झ़ö मै मा तüक" },
-      { "fr": "Cette fin de semaine, nous allons visiter Québec.", "en": "This weekend we're going to visit Québec City.", "hi": "इस वीकेंड हम क्यूबेक सिटी घूमने जाएँगे।", "pron": "सैत फ़ैँ द्ö स्ö-मैन नू ज़ा-लोँ वी-ज़ी-ते के-बैक" }
+      { "fr": "Ma sœur habite à Pune avec ses enfants.", "en": "My sister lives in Pune with her children.", "hi": "मेरी बहन अपने बच्चों के साथ पुणे में रहती है।", "pron": "मा सर आ-बीत आ पुने आ-वेक से ज़ाँ-फ़ाँ" },
+      { "fr": "Le matin, je mange du pain et je bois du thé.", "en": "In the morning I eat bread and drink tea.", "hi": "सुबह मैं ब्रेड खाता/खाती हूँ और चाय पीता/पीती हूँ।", "pron": "ल मा-तैं ज माँज द्यू पैं ए ज ब्वा द्यू ते" },
+      { "fr": "D'abord, je me lève, ensuite je me douche.", "en": "First I get up, then I shower.", "hi": "पहले मैं उठता/उठती हूँ, फिर नहाता/नहाती हूँ।", "pron": "दा-बॉर ज म लेव आँ-स्यूईत ज म दूश" },
+      { "fr": "Je dois finir à cinq heures parce que je vais chez le médecin.", "en": "I have to finish at five because I'm going to the doctor's.", "hi": "मुझे पाँच बजे ख़त्म करना है क्योंकि मैं डॉक्टर के पास जा रहा/रही हूँ।", "pron": "ज द्वा फ़ी-नीर आ सैं कर पार्स-क ज वे शे ल मेद-सैं" },
+      { "fr": "Il fait froid, alors je mets ma tuque.", "en": "It's cold, so I'm putting on my toque.", "hi": "ठंड है, इसलिए मैं अपनी ऊनी टोपी पहनता/पहनती हूँ।", "pron": "ईल फ़े फ़्र्वा आ-लॉर ज मे मा त्यूक" },
+      { "fr": "Cette fin de semaine, nous allons visiter Québec.", "en": "This weekend we're going to visit Québec City.", "hi": "इस वीकेंड हम क्यूबेक सिटी घूमने जाएँगे।", "pron": "सेत फ़ैं द स-मेन नू ज़ा-लों वी-ज़ी-ते के-बेक" }
     ],
     "pitfalls": [
       { "en": "After a negative, du / de la / des become de: Je ne mange pas de viande.", "hi": "नकारात्मक के बाद du / de la / des, de बन जाते हैं: Je ne mange pas de viande।" },
@@ -64,16 +64,16 @@
   "pronunciation": {
     "focus": "Phase 2 sound review: du / deux, s / z, liaison, silent final letters",
     "tip": {
-      "en": "Check four sound habits from Phase 2. 1) du (दü, lips round, tongue forward) is not deux (दö, lips round, more open). 2) Single s between vowels = z (poison), ss = s (poisson). 3) Liaison with z or t: nous allons arriver, cet ordinateur. 4) Final t and d are silent: Il fait froid. Record yourself saying the six words below and compare with the audio.",
-      "hi": "दूसरे चरण की चार ध्वनि-आदतें जाँचिए। 1) du (दü, होंठ गोल, जीभ आगे) और deux (दö, होंठ गोल, थोड़ा खुला) अलग हैं। 2) स्वरों के बीच अकेला s = ज़ (poison), ss = स (poisson)। 3) ज़ या त से लियेज़ों (liaison): nous allons arriver, cet ordinateur। 4) आख़िरी t और d मूक: Il fait froid। नीचे के छह शब्द बोलकर रिकॉर्ड कीजिए और ऑडियो से मिलाइए।"
+      "en": "Check four sound habits from Phase 2. 1) du (द्यू, lips round, tongue forward) is not deux (द, lips round, more open). 2) Single s between vowels = z (poison), ss = s (poisson). 3) Liaison with z or t: nous allons arriver, cet ordinateur. 4) Final t and d are silent: Il fait froid. Record yourself saying the six words below and compare with the audio.",
+      "hi": "दूसरे चरण की चार ध्वनि-आदतें जाँचिए। 1) du (द्यू, होंठ गोल, जीभ आगे) और deux (द, होंठ गोल, थोड़ा खुला) अलग हैं। 2) स्वरों के बीच अकेला s = ज़ (poison), ss = स (poisson)। 3) ज़ या त से लियेज़ों (liaison): nous allons arriver, cet ordinateur। 4) आख़िरी t और d मूक: Il fait froid। नीचे के छह शब्द बोलकर रिकॉर्ड कीजिए और ऑडियो से मिलाइए।"
     },
     "words": [
-      { "fr": "du pain", "en": "some bread", "hi": "थोड़ी ब्रेड", "pron": "दü पैँ", "ipa": "dy pɛ̃" },
-      { "fr": "deux pains", "en": "two loaves", "hi": "दो ब्रेड", "pron": "दö पैँ", "ipa": "dø pɛ̃" },
-      { "fr": "le poisson", "en": "fish", "hi": "मछली", "pron": "लö प्वा-सोँ", "ipa": "lə pwasɔ̃" },
-      { "fr": "nous allons arriver", "en": "we're going to arrive", "hi": "हम पहुँचने वाले हैं", "pron": "नू ज़ा-लोँ ज़ा-ग़ी-वे", "ipa": "nu zalɔ̃ zaʁive" },
-      { "fr": "cet ordinateur", "en": "this computer", "hi": "यह कंप्यूटर", "pron": "सै तॉग़-दी-ना-तöग़", "ipa": "sɛ tɔʁdinatœʁ" },
-      { "fr": "Il fait froid.", "en": "It's cold.", "hi": "ठंड है।", "pron": "ईल फ़ै फ़्र्वा", "ipa": "il fɛ fʁwa" }
+      { "fr": "du pain", "en": "some bread", "hi": "थोड़ी ब्रेड", "pron": "द्यू पैं", "ipa": "dy pɛ̃" },
+      { "fr": "deux pains", "en": "two loaves", "hi": "दो ब्रेड", "pron": "द पैं", "ipa": "dø pɛ̃" },
+      { "fr": "le poisson", "en": "fish", "hi": "मछली", "pron": "ल प्वा-सों", "ipa": "lə pwasɔ̃" },
+      { "fr": "nous allons arriver", "en": "we're going to arrive", "hi": "हम पहुँचने वाले हैं", "pron": "नू ज़ा-लों ज़ा-री-वे", "ipa": "nu zalɔ̃ zaʁive" },
+      { "fr": "cet ordinateur", "en": "this computer", "hi": "यह कंप्यूटर", "pron": "से तॉर-दी-ना-तर", "ipa": "sɛ tɔʁdinatœʁ" },
+      { "fr": "Il fait froid.", "en": "It's cold.", "hi": "ठंड है।", "pron": "ईल फ़े फ़्र्वा", "ipa": "il fɛ fʁwa" }
     ]
   },
   "listening": {
@@ -99,11 +99,11 @@
       { "speaker": "Priya", "voice": "f1", "fr": "Oui, avec plaisir ! Mais pas avant deux heures.", "en": "Yes, with pleasure! But not before two.", "hi": "हाँ, ख़ुशी से! पर दो बजे से पहले नहीं।" }
     ],
     "questions": [
-      { "q": { "en": "Why is Priya tired?" }, "options": ["She is ill", "She works a lot and gets up at 5:30", "She goes to bed very late"], "answer": 1, "explanation": { "en": "'je travaille beaucoup. Je me lève à cinq heures et demie tous les jours.'", "hi": "वह बहुत काम करती है और रोज़ साढ़े पाँच बजे उठती है।" }, "kind": "gist", "evidence": "Je me lève à cinq heures et demie tous les jours." },
-      { "q": { "en": "Why does she get up so early?" }, "options": ["She starts at 7 and takes two buses", "She does sport in the morning", "She cooks breakfast for Sophie"], "answer": 0, "explanation": { "en": "'je commence à sept heures à la pharmacie, et je prends deux bus'.", "hi": "वह सात बजे शुरू करती है और दो बसें लेती है।" }, "kind": "literal", "evidence": "je commence à sept heures à la pharmacie, et je prends deux bus" },
-      { "q": { "en": "What does Priya do first in the evening?" }, "options": ["Her French homework", "She cooks with Sophie", "She goes to bed"], "answer": 1, "explanation": { "en": "'D'abord, je fais la cuisine avec Sophie.'", "hi": "'D'abord' — पहले वह सोफ़ी के साथ खाना बनाती है।" }, "kind": "literal", "evidence": "D'abord, je fais la cuisine avec Sophie." },
-      { "q": { "en": "Why can Arjun do sport in the morning?" }, "options": ["He doesn't work", "He starts work at nine", "He works from home"], "answer": 1, "explanation": { "en": "'je travaille de neuf heures à cinq heures, alors je fais du sport le matin' — alors shows the result.", "hi": "वह नौ बजे काम शुरू करता है, 'alors' नतीजा दिखाता है।" }, "kind": "inference", "evidence": "je travaille de neuf heures à cinq heures, alors je fais du sport le matin" },
-      { "q": { "en": "What is Priya's plan for Sunday?" }, "options": ["Sleep until ten and stay home", "Play soccer with colleagues", "Call her family in India, then go to the park after two"], "answer": 2, "explanation": { "en": "'dimanche, je vais appeler ma famille en Inde' and 'Oui, avec plaisir ! Mais pas avant deux heures.'", "hi": "रविवार को वह परिवार को फ़ोन करेगी, और दो बजे के बाद पार्क जाएगी।" }, "kind": "inference", "evidence": "dimanche, je vais appeler ma famille en Inde" }
+      { "q": { "en": "Why is Priya tired?", "hi": "प्रिया थकी हुई क्यों है?" }, "options": ["She is ill", "She works a lot and gets up at 5:30", "She goes to bed very late"], "optionsHi": ["वह बीमार है", "वह बहुत काम करती है और सुबह 5:30 बजे उठती है", "वह बहुत देर से सोती है"], "answer": 1, "explanation": { "en": "'je travaille beaucoup. Je me lève à cinq heures et demie tous les jours.'", "hi": "वह बहुत काम करती है और रोज़ साढ़े पाँच बजे उठती है।" }, "kind": "gist", "evidence": "Je me lève à cinq heures et demie tous les jours." },
+      { "q": { "en": "Why does she get up so early?", "hi": "वह इतनी जल्दी क्यों उठती है?" }, "options": ["She starts at 7 and takes two buses", "She does sport in the morning", "She cooks breakfast for Sophie"], "optionsHi": ["वह 7 बजे शुरू करती है और दो बसें लेती है", "वह सुबह खेलकूद करती है", "वह सोफ़ी के लिए नाश्ता बनाती है"], "answer": 0, "explanation": { "en": "'je commence à sept heures à la pharmacie, et je prends deux bus'.", "hi": "वह सात बजे शुरू करती है और दो बसें लेती है।" }, "kind": "literal", "evidence": "je commence à sept heures à la pharmacie, et je prends deux bus" },
+      { "q": { "en": "What does Priya do first in the evening?", "hi": "प्रिया शाम को सबसे पहले क्या करती है?" }, "options": ["Her French homework", "She cooks with Sophie", "She goes to bed"], "optionsHi": ["अपना फ़्रेंच का गृहकार्य", "वह सोफ़ी के साथ खाना पकाती है", "वह सोने चली जाती है"], "answer": 1, "explanation": { "en": "'D'abord, je fais la cuisine avec Sophie.'", "hi": "'D'abord' — पहले वह सोफ़ी के साथ खाना बनाती है।" }, "kind": "literal", "evidence": "D'abord, je fais la cuisine avec Sophie." },
+      { "q": { "en": "Why can Arjun do sport in the morning?", "hi": "अर्जुन सुबह खेलकूद क्यों कर सकता है?" }, "options": ["He doesn't work", "He starts work at nine", "He works from home"], "optionsHi": ["वह काम नहीं करता", "वह नौ बजे काम शुरू करता है", "वह घर से काम करता है"], "answer": 1, "explanation": { "en": "'je travaille de neuf heures à cinq heures, alors je fais du sport le matin' — alors shows the result.", "hi": "वह नौ बजे काम शुरू करता है, 'alors' नतीजा दिखाता है।" }, "kind": "inference", "evidence": "je travaille de neuf heures à cinq heures, alors je fais du sport le matin" },
+      { "q": { "en": "What is Priya's plan for Sunday?", "hi": "रविवार के लिए प्रिया की क्या योजना है?" }, "options": ["Sleep until ten and stay home", "Play soccer with colleagues", "Call her family in India, then go to the park after two"], "optionsHi": ["दस बजे तक सोना और घर पर रहना", "सहकर्मियों के साथ फ़ुटबॉल खेलना", "भारत में अपने परिवार को फ़ोन करना, फिर दो बजे के बाद पार्क जाना"], "answer": 2, "explanation": { "en": "'dimanche, je vais appeler ma famille en Inde' and 'Oui, avec plaisir ! Mais pas avant deux heures.'", "hi": "रविवार को वह परिवार को फ़ोन करेगी, और दो बजे के बाद पार्क जाएगी।" }, "kind": "inference", "evidence": "dimanche, je vais appeler ma famille en Inde" }
     ],
     "dictation": ["Je me lève à cinq heures et demie.", "Le soir, qu'est-ce que tu fais ?", "Il va faire beau."],
     "gapFill": { "text": "D'abord, je fais la cuisine avec Sophie. Ensuite, je fais ___ devoirs de français. Je ___ couche à dix heures. Et dimanche, je ___ appeler ma famille en Inde.", "answers": ["mes", "me", "vais"] }
@@ -115,11 +115,11 @@
       "hi": "अपनी रोज़ की ज़िंदगी के बारे में लगभग दो मिनट बोलिए। अपना परिचय दीजिए, किसी आम दिन का क्रम से वर्णन कीजिए (d'abord, ensuite, enfin), बताइए कि आप शाम को और वीकेंड पर क्या करते हैं, और अगले हफ़्ते की एक-दो योजनाओं से ख़त्म कीजिए। कम से कम एक निजवाचक क्रिया, एक partitive, एक सहायक क्रिया और एक निकट भविष्य लगाइए।"
     },
     "prompts": [
-      { "fr": "Présentez-vous rapidement.", "en": "Introduce yourself briefly.", "hi": "संक्षेप में अपना परिचय दीजिए।", "pron": "प्रे-ज़ाँ-ते वू ग़ा-पीद-माँ", "model": "Je m'appelle Arjun Singh. J'ai trente-deux ans, je suis ingénieur et j'habite à Montréal, dans le quartier Rosemont." },
-      { "fr": "Décrivez une journée typique.", "en": "Describe a typical day.", "hi": "एक आम दिन का वर्णन कीजिए।", "pron": "दे-क्री-वे üन झ़ूग़-ने ती-पीक", "model": "D'habitude, je me lève à six heures et demie. D'abord, je me douche et je bois du thé. Ensuite, je prends le métro. Je travaille de neuf heures à dix-sept heures." },
-      { "fr": "Qu'est-ce que vous faites le soir ?", "en": "What do you do in the evening?", "hi": "आप शाम को क्या करते हैं?", "pron": "कैस-कö वू फ़ैत लö स्वाग़", "model": "Le soir, je fais la cuisine. Je mange souvent du riz et des légumes. Ensuite, j'étudie le français, et enfin je me couche vers onze heures." },
-      { "fr": "Et la fin de semaine ?", "en": "And at the weekend?", "hi": "और वीकेंड पर?", "pron": "ए ला फ़ैँ द्ö स्ö-मैन", "model": "Le samedi, je fais l'épicerie et parfois je joue au soccer. Le dimanche, je dois faire le ménage, mais j'appelle aussi ma famille en Inde." },
-      { "fr": "Quels sont vos projets pour la semaine prochaine ?", "en": "What are your plans for next week?", "hi": "अगले हफ़्ते के लिए आपकी क्या योजनाएँ हैं?", "pron": "कैल सोँ वो प्रो-झ़ै पूग़ ला स्ö-मैन प्रो-शैन", "model": "La semaine prochaine, je vais avoir un rendez-vous chez le dentiste, et samedi, je vais aller au cinéma avec des amis." }
+      { "fr": "Présentez-vous rapidement.", "en": "Introduce yourself briefly.", "hi": "संक्षेप में अपना परिचय दीजिए।", "pron": "प्रे-ज़ाँ-ते वू रा-पीद-माँ", "model": "Je m'appelle Arjun Singh. J'ai trente-deux ans, je suis ingénieur et j'habite à Montréal, dans le quartier Rosemont." },
+      { "fr": "Décrivez une journée typique.", "en": "Describe a typical day.", "hi": "एक आम दिन का वर्णन कीजिए।", "pron": "दे-क्री-वे यून जूर-ने ती-पीक", "model": "D'habitude, je me lève à six heures et demie. D'abord, je me douche et je bois du thé. Ensuite, je prends le métro. Je travaille de neuf heures à dix-sept heures." },
+      { "fr": "Qu'est-ce que vous faites le soir ?", "en": "What do you do in the evening?", "hi": "आप शाम को क्या करते हैं?", "pron": "केस-क वू फ़ेत ल स्वार", "model": "Le soir, je fais la cuisine. Je mange souvent du riz et des légumes. Ensuite, j'étudie le français, et enfin je me couche vers onze heures." },
+      { "fr": "Et la fin de semaine ?", "en": "And at the weekend?", "hi": "और वीकेंड पर?", "pron": "ए ला फ़ैं द स-मेन", "model": "Le samedi, je fais l'épicerie et parfois je joue au soccer. Le dimanche, je dois faire le ménage, mais j'appelle aussi ma famille en Inde." },
+      { "fr": "Quels sont vos projets pour la semaine prochaine ?", "en": "What are your plans for next week?", "hi": "अगले हफ़्ते के लिए आपकी क्या योजनाएँ हैं?", "pron": "केल सों वो प्रो-जे पूर ला स-मेन प्रो-शेन", "model": "La semaine prochaine, je vais avoir un rendez-vous chez le dentiste, et samedi, je vais aller au cinéma avec des amis." }
     ],
     "tip": {
       "en": "Two minutes is about 15–20 short sentences. Don't memorise a speech: use the five prompts as a map and link your sentences with d'abord, ensuite, mais, parce que and alors.",
@@ -135,10 +135,10 @@
       "hi": "रोज़मों का छोटा अख़बार — दिसंबर\nनए निवासियों का स्वागत है!\nइस साल चालीस परिवार हमारे मोहल्ले में आ रहे हैं। सामुदायिक केंद्र शुक्रवार 5 दिसंबर को शाम 6 बजे एक स्वागत-संध्या आयोजित कर रहा है। चाय, कॉफ़ी और कई देशों के पकवान होंगे। यह मुफ़्त है!\nफ़्रेंच कक्षाएँ: शाम की कक्षाएँ सोमवार 1 दिसंबर को शुरू होती हैं। 28 नवंबर से पहले पंजीकरण कराना ज़रूरी है।\nसर्दी: ध्यान दीजिए! नगरपालिका रात में सड़कों से बर्फ़ हटाएगी। जब नारंगी बोर्ड लगा हो, तब अपनी गाड़ी सड़क पर मत छोड़िए।\nस्वयंसेवक: क्या आपके पास हफ़्ते में दो घंटे हैं? फ़ूड बैंक को बुधवार दोपहर के लिए स्वयंसेवक चाहिए।\nअधिक जानकारी के लिए: 514 555-0190।"
     },
     "questions": [
-      { "q": { "en": "When is the welcome evening?" }, "options": ["Monday 1 December", "Friday 5 December at 6 p.m.", "Wednesday afternoon"], "answer": 1, "explanation": { "en": "'une soirée d'accueil le vendredi 5 décembre à 18 h'.", "hi": "शुक्रवार 5 दिसंबर, शाम 6 बजे।" }, "kind": "literal", "evidence": "le vendredi 5 décembre à 18 h" },
-      { "q": { "en": "How much does the welcome evening cost?" }, "options": ["Nothing", "$5", "$18"], "answer": 0, "explanation": { "en": "'C'est gratuit !'", "hi": "'C'est gratuit !' — मुफ़्त।" }, "kind": "literal", "evidence": "C'est gratuit !" },
-      { "q": { "en": "Arjun wants to register for the French class on 30 November. Is that possible?" }, "options": ["Yes, classes start on 1 December", "No, the deadline is 28 November", "Yes, there is no deadline"], "answer": 1, "explanation": { "en": "'Il faut s'inscrire avant le 28 novembre.' 30 November is too late.", "hi": "28 नवंबर से पहले पंजीकरण ज़रूरी है। 30 नवंबर बहुत देर है।" }, "kind": "inference", "evidence": "Il faut s'inscrire avant le 28 novembre." },
-      { "q": { "en": "Marc sees an orange sign in his street. What must he do?" }, "options": ["Clear the snow himself", "Not leave his car in the street", "Call the community centre"], "answer": 1, "explanation": { "en": "'Il ne faut pas laisser votre voiture dans la rue quand il y a un panneau orange.'", "hi": "नारंगी बोर्ड हो तो गाड़ी सड़क पर नहीं छोड़नी चाहिए।" }, "kind": "inference", "evidence": "Il ne faut pas laisser votre voiture dans la rue quand il y a un panneau orange." }
+      { "q": { "en": "When is the welcome evening?", "hi": "स्वागत की शाम कब है?" }, "options": ["Monday 1 December", "Friday 5 December at 6 p.m.", "Wednesday afternoon"], "optionsHi": ["सोमवार 1 दिसंबर", "शुक्रवार 5 दिसंबर, शाम 6 बजे", "बुधवार दोपहर"], "answer": 1, "explanation": { "en": "'une soirée d'accueil le vendredi 5 décembre à 18 h'.", "hi": "शुक्रवार 5 दिसंबर, शाम 6 बजे।" }, "kind": "literal", "evidence": "le vendredi 5 décembre à 18 h" },
+      { "q": { "en": "How much does the welcome evening cost?", "hi": "स्वागत की शाम में कितना खर्च होता है?" }, "options": ["Nothing", "$5", "$18"], "optionsHi": ["कुछ नहीं", "$5", "$18"], "answer": 0, "explanation": { "en": "'C'est gratuit !'", "hi": "'C'est gratuit !' — मुफ़्त।" }, "kind": "literal", "evidence": "C'est gratuit !" },
+      { "q": { "en": "Arjun wants to register for the French class on 30 November. Is that possible?", "hi": "अर्जुन 30 नवंबर को फ़्रेंच की कक्षा के लिए पंजीकरण कराना चाहता है। क्या यह संभव है?" }, "options": ["Yes, classes start on 1 December", "No, the deadline is 28 November", "Yes, there is no deadline"], "optionsHi": ["हाँ, कक्षाएँ 1 दिसंबर को शुरू होती हैं", "नहीं, अंतिम तिथि 28 नवंबर है", "हाँ, कोई अंतिम तिथि नहीं है"], "answer": 1, "explanation": { "en": "'Il faut s'inscrire avant le 28 novembre.' 30 November is too late.", "hi": "28 नवंबर से पहले पंजीकरण ज़रूरी है। 30 नवंबर बहुत देर है।" }, "kind": "inference", "evidence": "Il faut s'inscrire avant le 28 novembre." },
+      { "q": { "en": "Marc sees an orange sign in his street. What must he do?", "hi": "मार्क को अपनी गली में एक नारंगी रंग का बोर्ड दिखता है। उसे क्या करना होगा?" }, "options": ["Clear the snow himself", "Not leave his car in the street", "Call the community centre"], "optionsHi": ["बर्फ़ ख़ुद हटाना", "अपनी गाड़ी गली में खड़ी न छोड़ना", "सामुदायिक केंद्र को फ़ोन करना"], "answer": 1, "explanation": { "en": "'Il ne faut pas laisser votre voiture dans la rue quand il y a un panneau orange.'", "hi": "नारंगी बोर्ड हो तो गाड़ी सड़क पर नहीं छोड़नी चाहिए।" }, "kind": "inference", "evidence": "Il ne faut pas laisser votre voiture dans la rue quand il y a un panneau orange." }
     ]
   },
   "writing": {
@@ -155,9 +155,9 @@
       { "en": "Use the present for your routine and je vais + infinitive for the weekend.", "hi": "दिनचर्या के लिए वर्तमान काल और वीकेंड के लिए je vais + मूल रूप लगाइए।" }
     ],
     "usefulPhrases": [
-      { "fr": "Cette semaine, je suis très occupé(e).", "en": "This week I'm very busy.", "hi": "इस हफ़्ते मैं बहुत व्यस्त हूँ।", "pron": "सैत स्ö-मैन झ़ö स्üई त्रै ज़ो-कü-पे" },
-      { "fr": "Ici, il fait très froid.", "en": "Here it's very cold.", "hi": "यहाँ बहुत ठंड है।", "pron": "ई-सी ईल फ़ै त्रै फ़्र्वा" },
-      { "fr": "Et toi, quels sont tes projets ?", "en": "And you, what are your plans?", "hi": "और तुम्हारी क्या योजनाएँ हैं?", "pron": "ए त्वा कैल सोँ ते प्रो-झ़ै" }
+      { "fr": "Cette semaine, je suis très occupé(e).", "en": "This week I'm very busy.", "hi": "इस हफ़्ते मैं बहुत व्यस्त हूँ।", "pron": "सेत स-मेन ज स्यूई त्रे ज़ो-क्यू-पे" },
+      { "fr": "Ici, il fait très froid.", "en": "Here it's very cold.", "hi": "यहाँ बहुत ठंड है।", "pron": "ई-सी ईल फ़े त्रे फ़्र्वा" },
+      { "fr": "Et toi, quels sont tes projets ?", "en": "And you, what are your plans?", "hi": "और तुम्हारी क्या योजनाएँ हैं?", "pron": "ए त्वा केल सों ते प्रो-जे" }
     ],
     "model": {
       "fr": "Salut Kavita !\nComment ça va à Toronto ? Ici, à Montréal, il fait très froid : moins quinze degrés ce matin ! Cette semaine, je suis très occupée. Je me lève à cinq heures et demie parce que je commence à sept heures à la pharmacie. Le soir, d'abord je fais la cuisine avec Sophie, ensuite j'étudie le français. Jeudi, j'ai un rendez-vous chez le dentiste, alors je vais partir tôt. Mais samedi, je vais dormir jusqu'à dix heures ! Dimanche, je vais aller au parc avec Arjun et Marc. Et toi, quels sont tes projets ?\nBises,\nPriya",
@@ -172,18 +172,18 @@
   "review": {
     "fromDays": [22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 36, 37],
     "items": [
-      { "fr": "mon frère et ma sœur", "en": "my brother and my sister", "hi": "मेरा भाई और मेरी बहन", "pron": "मोँ फ़्रैग़ ए मा सöग़" },
-      { "fr": "Le livre est sur la table.", "en": "The book is on the table.", "hi": "किताब मेज़ पर है।", "pron": "लö लीव्ग़ ऐ स्üग़ ला ताब्ल" },
-      { "fr": "Je voudrais de l'eau, s'il vous plaît.", "en": "I'd like some water, please.", "hi": "मुझे थोड़ा पानी चाहिए, प्लीज़।", "pron": "झ़ö वू-द्रै द्ö लो सील वू प्लै" },
-      { "fr": "un kilo de tomates", "en": "a kilo of tomatoes", "hi": "एक किलो टमाटर", "pron": "ऐँ की-लो द्ö तो-मात" },
-      { "fr": "un manteau chaud", "en": "a warm coat", "hi": "एक गरम कोट", "pron": "ऐँ माँ-तो शो" },
-      { "fr": "Je me couche à onze heures.", "en": "I go to bed at eleven.", "hi": "मैं ग्यारह बजे सोता/सोती हूँ।", "pron": "झ़ö म्ö कूश आ ओँ ज़öग़" },
-      { "fr": "Prenez la deuxième rue à droite.", "en": "Take the second street on the right.", "hi": "दाईं ओर दूसरी सड़क लीजिए।", "pron": "प्रö-ने ला दö-ज़्यैम ग़ü आ द्ग़्वात" },
-      { "fr": "Nous attendons le bus.", "en": "We're waiting for the bus.", "hi": "हम बस का इंतज़ार कर रहे हैं।", "pron": "नू ज़ा-ताँ-दोँ लö बüस" },
-      { "fr": "Tu peux venir ce soir ?", "en": "Can you come tonight?", "hi": "क्या तुम आज रात आ सकते हो?", "pron": "तü पö व्ö-नीग़ स्ö स्वाग़" },
-      { "fr": "Il neige depuis ce matin.", "en": "It's been snowing since this morning.", "hi": "आज सुबह से बर्फ़ गिर रही है।", "pron": "ईल नैझ़ द्ö-प्üई स्ö मा-तैँ" },
-      { "fr": "J'ai mal à la gorge.", "en": "I have a sore throat.", "hi": "मेरे गले में दर्द है।", "pron": "झ़े माल आ ला गॉग़्झ़" },
-      { "fr": "Je vais annuler mon rendez-vous.", "en": "I'm going to cancel my appointment.", "hi": "मैं अपना अपॉइंटमेंट रद्द करने वाला/वाली हूँ।", "pron": "झ़ö वै ज़ा-नü-ले मोँ ग़ाँ-दे-वू" }
+      { "fr": "mon frère et ma sœur", "en": "my brother and my sister", "hi": "मेरा भाई और मेरी बहन", "pron": "मों फ़्रेर ए मा सर" },
+      { "fr": "Le livre est sur la table.", "en": "The book is on the table.", "hi": "किताब मेज़ पर है।", "pron": "ल लीव्र ए स्यूर ला ताब्ल" },
+      { "fr": "Je voudrais de l'eau, s'il vous plaît.", "en": "I'd like some water, please.", "hi": "मुझे थोड़ा पानी चाहिए, प्लीज़।", "pron": "ज वू-द्रे द लो सील वू प्ले" },
+      { "fr": "un kilo de tomates", "en": "a kilo of tomatoes", "hi": "एक किलो टमाटर", "pron": "ऐं की-लो द तो-मात" },
+      { "fr": "un manteau chaud", "en": "a warm coat", "hi": "एक गरम कोट", "pron": "ऐं माँ-तो शो" },
+      { "fr": "Je me couche à onze heures.", "en": "I go to bed at eleven.", "hi": "मैं ग्यारह बजे सोता/सोती हूँ।", "pron": "ज म कूश आ ओं ज़र" },
+      { "fr": "Prenez la deuxième rue à droite.", "en": "Take the second street on the right.", "hi": "दाईं ओर दूसरी सड़क लीजिए।", "pron": "प्र-ने ला द-ज़्येम र्यू आ द्र्वात" },
+      { "fr": "Nous attendons le bus.", "en": "We're waiting for the bus.", "hi": "हम बस का इंतज़ार कर रहे हैं।", "pron": "नू ज़ा-ताँ-दों ल ब्यूस" },
+      { "fr": "Tu peux venir ce soir ?", "en": "Can you come tonight?", "hi": "क्या तुम आज रात आ सकते हो?", "pron": "त्यू प व-नीर स स्वार" },
+      { "fr": "Il neige depuis ce matin.", "en": "It's been snowing since this morning.", "hi": "आज सुबह से बर्फ़ गिर रही है।", "pron": "ईल नेज द-प्यूई स मा-तैं" },
+      { "fr": "J'ai mal à la gorge.", "en": "I have a sore throat.", "hi": "मेरे गले में दर्द है।", "pron": "जे माल आ ला गॉर्ज" },
+      { "fr": "Je vais annuler mon rendez-vous.", "en": "I'm going to cancel my appointment.", "hi": "मैं अपना अपॉइंटमेंट रद्द करने वाला/वाली हूँ।", "pron": "ज वे ज़ा-न्यू-ले मों राँ-दे-वू" }
     ]
   },
   "assessment": [

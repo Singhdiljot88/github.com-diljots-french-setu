@@ -2,16 +2,18 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { Bi, useBiLabel } from "./bi";
+import { usePrefs } from "./prefs";
 
-const GROUPS: { title: string; items: { href: string; label: string; hi: string; icon: string }[] }[] = [
-  { title: "Learn", items: [
+const GROUPS: { title: { en: string; hi: string }; items: { href: string; label: string; hi: string; icon: string }[] }[] = [
+  { title: { en: "Learn", hi: "सीखें" }, items: [
     { href: "/today", label: "Today", hi: "आज", icon: "☀️" },
-    { href: "/course", label: "Course map", hi: "कोर्स नक्शा", icon: "🗺️" },
-    { href: "/review", label: "Review", hi: "दोहराई", icon: "🔁" },
+    { href: "/course", label: "Course map", hi: "पाठ्यक्रम", icon: "🗺️" },
+    { href: "/review", label: "Review", hi: "दोहराव", icon: "🔁" },
     { href: "/dictionary", label: "Dictionary", hi: "शब्दकोश", icon: "📖" },
     { href: "/words", label: "My words", hi: "मेरे शब्द", icon: "⭐" },
   ] },
-  { title: "Practise", items: [
+  { title: { en: "Practise", hi: "अभ्यास" }, items: [
     { href: "/pronunciation", label: "Pronunciation lab", hi: "उच्चारण लैब", icon: "👄" },
     { href: "/speaking", label: "Speaking tutor", hi: "बोलने का अभ्यास", icon: "🗣️" },
     { href: "/writing", label: "Writing studio", hi: "लेखन स्टूडियो", icon: "✍️" },
@@ -19,8 +21,8 @@ const GROUPS: { title: string; items: { href: string; label: string; hi: string;
     { href: "/reading", label: "Reading library", hi: "पढ़ने का अभ्यास", icon: "📰" },
     { href: "/discover", label: "Web discovery", hi: "वेब से सीखें", icon: "🔎" },
   ] },
-  { title: "TEF", items: [{ href: "/exam", label: "TEF practice & mocks", hi: "TEF अभ्यास", icon: "📝" }] },
-  { title: "You", items: [
+  { title: { en: "TEF", hi: "TEF" }, items: [{ href: "/exam", label: "TEF practice & mocks", hi: "TEF परीक्षा अभ्यास", icon: "📝" }] },
+  { title: { en: "You", hi: "आप" }, items: [
     { href: "/mistakes", label: "Mistake notebook", hi: "ग़लतियों की कॉपी", icon: "📒" },
     { href: "/progress", label: "Progress", hi: "प्रगति", icon: "📈" },
     { href: "/settings", label: "Settings", hi: "सेटिंग्स", icon: "⚙️" },
@@ -31,11 +33,13 @@ const MOBILE = [GROUPS[0].items[0], GROUPS[0].items[1], GROUPS[0].items[2], GROU
 
 function NavList({ onNavigate }: { onNavigate?: () => void }) {
   const path = usePathname();
+  const { explanationLang: lang } = usePrefs();
+  const L = useBiLabel();
   return (
-    <nav aria-label="Main">
+    <nav aria-label={L({ en: "Main", hi: "मुख्य" })}>
       {GROUPS.map((g) => (
-        <div key={g.title} className="mb-4">
-          <p className="px-3 pb-1 text-xs font-semibold uppercase tracking-wide text-muted">{g.title}</p>
+        <div key={g.title.en} className="mb-4">
+          <p className="px-3 pb-1 text-xs font-semibold uppercase tracking-wide text-muted">{lang === "hi" ? g.title.hi : g.title.en}</p>
           <ul>
             {g.items.map((it) => {
               const active = path === it.href || path.startsWith(it.href + "/");
@@ -44,8 +48,8 @@ function NavList({ onNavigate }: { onNavigate?: () => void }) {
                   <Link href={it.href} onClick={onNavigate} aria-current={active ? "page" : undefined}
                     className={`flex items-center gap-2 rounded-lg px-3 py-2 text-sm ${active ? "bg-brand-100 font-semibold text-brand-900 dark:bg-brand-900 dark:text-brand-50" : "hover:bg-[var(--surface-2)]"}`}>
                     <span aria-hidden>{it.icon}</span>
-                    <span>{it.label}</span>
-                    <span lang="hi" className="deva ml-auto text-xs text-muted">{it.hi}</span>
+                    {lang !== "hi" && <span>{it.label}</span>}
+                    {lang !== "en" && <span lang="hi" className={`deva ${lang === "both" ? "ml-auto text-xs text-muted" : ""}`}>{it.hi}</span>}
                   </Link>
                 </li>
               );
@@ -60,6 +64,8 @@ function NavList({ onNavigate }: { onNavigate?: () => void }) {
 export function AppNav({ demoAi, isGuest }: { demoAi: boolean; isGuest: boolean }) {
   const [open, setOpen] = useState(false);
   const path = usePathname();
+  const L = useBiLabel();
+  const { explanationLang: lang } = usePrefs();
   useEffect(() => setOpen(false), [path]);
   return (
     <>
@@ -73,25 +79,25 @@ export function AppNav({ demoAi, isGuest }: { demoAi: boolean; isGuest: boolean 
       </aside>
       <header className="surface sticky top-0 z-30 flex print:hidden items-center gap-2 border-x-0 border-t-0 px-4 py-2 lg:hidden">
         <Link href="/today" className="flex items-center gap-2 font-bold"><img src="/icons/icon-192.png" alt="" width={28} height={28} className="rounded-md" />French Setu</Link>
-        {demoAi && <span className="chip ml-auto bg-saffron-100 text-saffron-700">Demo AI</span>}
-        <button type="button" className={`btn btn-ghost btn-sm ${demoAi ? "" : "ml-auto"}`} onClick={() => setOpen(true)} aria-expanded={open} aria-controls="mobile-menu">☰ Menu</button>
+        {demoAi && <span className="chip ml-auto bg-saffron-100 text-saffron-700">{lang === "hi" ? "डेमो मोड" : "Demo AI"}</span>}
+        <button type="button" className={`btn btn-ghost btn-sm ${demoAi ? "" : "ml-auto"}`} onClick={() => setOpen(true)} aria-expanded={open} aria-controls="mobile-menu">☰ {lang === "hi" ? "मेन्यू" : "Menu"}</button>
       </header>
       {open && (
-        <div className="fixed inset-0 z-50 lg:hidden" role="dialog" aria-modal="true" aria-label="Menu" id="mobile-menu">
-          <button type="button" className="absolute inset-0 bg-black/40" aria-label="Close menu" onClick={() => setOpen(false)} />
+        <div className="fixed inset-0 z-50 lg:hidden" role="dialog" aria-modal="true" aria-label={L({ en: "Menu", hi: "मेन्यू" })} id="mobile-menu">
+          <button type="button" className="absolute inset-0 bg-black/40" aria-label={L({ en: "Close menu", hi: "मेन्यू बंद करें" })} onClick={() => setOpen(false)} />
           <div className="surface absolute inset-y-0 right-0 w-[85%] max-w-sm overflow-y-auto p-3">
-            <div className="mb-2 flex justify-end"><button type="button" className="btn btn-ghost btn-sm" onClick={() => setOpen(false)}>✕ Close</button></div>
+            <div className="mb-2 flex justify-end"><button type="button" className="btn btn-ghost btn-sm" onClick={() => setOpen(false)}>✕ <Bi as="span" t={{ en: "Close", hi: "बंद करें" }} /></button></div>
             <NavList onNavigate={() => setOpen(false)} />
             <Badges demoAi={demoAi} isGuest={isGuest} />
           </div>
         </div>
       )}
-      <nav aria-label="Quick" className="print:hidden surface fixed inset-x-0 bottom-0 z-30 grid grid-cols-4 border-x-0 border-b-0 pb-[env(safe-area-inset-bottom)] lg:hidden">
+      <nav aria-label={L({ en: "Quick links", hi: "जल्दी पहुँचें" })} className="print:hidden surface fixed inset-x-0 bottom-0 z-30 grid grid-cols-4 border-x-0 border-b-0 pb-[env(safe-area-inset-bottom)] lg:hidden">
         {MOBILE.map((it) => {
           const active = path === it.href || path.startsWith(it.href + "/");
           return (
             <Link key={it.href} href={it.href} aria-current={active ? "page" : undefined} className={`flex flex-col items-center py-2 text-xs ${active ? "font-semibold text-brand-700 dark:text-brand-200" : "text-muted"}`}>
-              <span aria-hidden className="text-lg">{it.icon}</span>{it.label}
+              <span aria-hidden className="text-lg">{it.icon}</span>{lang === "hi" ? <span lang="hi" className="deva">{it.hi}</span> : it.label}
             </Link>
           );
         })}
@@ -103,9 +109,12 @@ export function AppNav({ demoAi, isGuest }: { demoAi: boolean; isGuest: boolean 
 function Badges({ demoAi, isGuest }: { demoAi: boolean; isGuest: boolean }) {
   return (
     <div className="mt-2 space-y-2 px-3 text-xs text-muted">
-      {demoAi && <p className="rounded-lg bg-saffron-100 p-2 text-saffron-700"><strong>Demo mode.</strong> No AI key is configured, so feedback comes from rule-based and scripted helpers, clearly labelled. It is not live AI.</p>}
-      {isGuest && <p className="rounded-lg surface-2 p-2">You are using a guest account. <Link className="underline" href="/settings#account">Add an email and password</Link> to keep it.</p>}
-      <form action="/api/auth/signout" method="post"><button className="underline" type="submit">Sign out</button></form>
+      {demoAi && <Bi className="rounded-lg bg-saffron-100 p-2 text-saffron-700" t={{
+        en: "Demo mode. No AI key is configured, so feedback comes from rule-based and scripted helpers, clearly labelled. It is not live AI.",
+        hi: "यह डेमो मोड है। कोई AI कुंजी सेट नहीं है, इसलिए फ़ीडबैक नियमों पर आधारित और पहले से लिखे सहायकों से आता है, जिन पर साफ़ लेबल लगा होता है। यह लाइव AI नहीं है।",
+      }} />}
+      {isGuest && <p className="rounded-lg surface-2 p-2"><Bi as="span" t={{ en: "You are using a guest account.", hi: "आप मेहमान खाते का इस्तेमाल कर रहे हैं।" }} /> <Link className="underline" href="/settings#account"><Bi as="span" t={{ en: "Add an email and password to keep it.", hi: "इसे बनाए रखने के लिए ईमेल और पासवर्ड जोड़ें।" }} /></Link></p>}
+      <form action="/api/auth/signout" method="post"><button className="underline" type="submit"><Bi as="span" t={{ en: "Sign out", hi: "साइन आउट करें" }} /></button></form>
     </div>
   );
 }

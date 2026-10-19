@@ -6,17 +6,18 @@ import { courseMap } from "@/server/content";
 import { CHECKPOINT_DAYS, MOCK_DAYS, PHASES, isLightDay } from "@/content/outline";
 import { dateForDay } from "@/lib/schedule";
 import { formatLocalDate } from "@/lib/dates";
+import { Bi } from "@/components/bi";
 
 export const metadata = { title: "Course map" };
 export const dynamic = "force-dynamic";
 
 type State = "done" | "today" | "started" | "missed" | "upcoming";
-const STATE_STYLE: Record<State, { icon: string; label: string; cls: string }> = {
-  done: { icon: "✓", label: "Done", cls: "bg-brand-600 text-white" },
-  today: { icon: "●", label: "Today", cls: "bg-amber-400 text-black" },
-  started: { icon: "◐", label: "Started", cls: "bg-brand-100 text-brand-900" },
-  missed: { icon: "!", label: "Behind schedule", cls: "bg-red-100 text-red-900 dark:bg-red-950 dark:text-red-100" },
-  upcoming: { icon: "", label: "Upcoming", cls: "surface-2 text-muted" },
+const STATE_STYLE: Record<State, { icon: string; label: { en: string; hi: string }; cls: string }> = {
+  done: { icon: "✓", label: { en: "Done", hi: "पूरा" }, cls: "bg-brand-600 text-white" },
+  today: { icon: "●", label: { en: "Today", hi: "आज" }, cls: "bg-amber-400 text-black" },
+  started: { icon: "◐", label: { en: "Started", hi: "शुरू किया" }, cls: "bg-brand-100 text-brand-900" },
+  missed: { icon: "!", label: { en: "Behind schedule", hi: "योजना से पीछे" }, cls: "bg-red-100 text-red-900 dark:bg-red-950 dark:text-red-100" },
+  upcoming: { icon: "", label: { en: "Upcoming", hi: "आने वाला" }, cls: "surface-2 text-muted" },
 };
 
 export default async function CoursePage() {
@@ -28,6 +29,7 @@ export default async function CoursePage() {
   const map = await courseMap();
   const prog = new Map(st.progress.map((p) => [p.day, p]));
   const available = map.filter((d) => d.available).length;
+  const label = (t: { en: string; hi: string }) => (profile.explanationLang === "hi" ? t.hi : profile.explanationLang === "both" ? `${t.en} · ${t.hi}` : t.en);
 
   const stateOf = (day: number): State => {
     const p = prog.get(day);
@@ -41,11 +43,11 @@ export default async function CoursePage() {
   return (
     <div className="space-y-6">
       <header>
-        <h1 className="text-2xl font-bold">Course map <span lang="hi" className="deva text-lg font-normal text-muted">· कोर्स नक्शा</span></h1>
-        <p className="text-muted">{st.completed.size} of 120 days done · {available} of 120 lessons available in this build.</p>
-        <ul className="mt-2 flex flex-wrap gap-2 text-xs" aria-label="Legend">
-          {(Object.keys(STATE_STYLE) as State[]).map((k) => <li key={k} className="flex items-center gap-1"><span className={`inline-flex h-5 w-5 items-center justify-center rounded-full ${STATE_STYLE[k].cls}`} aria-hidden>{STATE_STYLE[k].icon}</span>{STATE_STYLE[k].label}</li>)}
-          <li className="chip">🌙 Light day</li><li className="chip">🏁 Checkpoint</li><li className="chip">📝 Mock exam</li>
+        <h1 className="text-2xl font-bold"><Bi as="span" t={{ en: "Course map", hi: "पाठ्यक्रम" }} /></h1>
+        <Bi className="text-muted" t={{ en: `${st.completed.size} of 120 days done · ${available} of 120 lessons available in this build.`, hi: `120 में से ${st.completed.size} दिन पूरे · इस संस्करण में 120 में से ${available} पाठ उपलब्ध।` }} />
+        <ul className="mt-2 flex flex-wrap gap-2 text-xs" aria-label={label({ en: "Legend", hi: "संकेत" })}>
+          {(Object.keys(STATE_STYLE) as State[]).map((k) => <li key={k} className="flex items-center gap-1"><span className={`inline-flex h-5 w-5 items-center justify-center rounded-full ${STATE_STYLE[k].cls}`} aria-hidden>{STATE_STYLE[k].icon}</span><Bi as="span" t={STATE_STYLE[k].label} /></li>)}
+          <li className="chip">🌙 <Bi as="span" t={{ en: "Light day", hi: "हल्का दिन" }} /></li><li className="chip">🏁 <Bi as="span" t={{ en: "Checkpoint", hi: "चेकपॉइंट" }} /></li><li className="chip">📝 <Bi as="span" t={{ en: "Mock exam", hi: "मॉक परीक्षा" }} /></li>
         </ul>
       </header>
       {PHASES.map((ph) => {
@@ -56,10 +58,10 @@ export default async function CoursePage() {
           <details key={ph.phase} className="card" open={open}>
             <summary className="cursor-pointer list-none">
               <div className="flex flex-wrap items-baseline justify-between gap-2">
-                <h2 className="text-lg font-semibold">Phase {ph.phase}: {ph.en} <span lang="hi" className="deva font-normal text-muted">({ph.hi})</span></h2>
-                <span className="text-sm text-muted">Days {ph.from}–{ph.to} · {done}/{days.length} done</span>
+                <h2 className="text-lg font-semibold"><Bi as="span" t={{ en: `Phase ${ph.phase}: ${ph.en}`, hi: `चरण ${ph.phase}: ${ph.hi}` }} /></h2>
+                <Bi as="span" className="text-sm text-muted" t={{ en: `Days ${ph.from}–${ph.to} · ${done}/${days.length} done`, hi: `दिन ${ph.from}–${ph.to} · ${done}/${days.length} पूरे` }} />
               </div>
-              <div className="mt-2 h-2 overflow-hidden rounded-full surface-2" role="progressbar" aria-valuenow={done} aria-valuemin={0} aria-valuemax={days.length} aria-label={`Phase ${ph.phase} progress`}>
+              <div className="mt-2 h-2 overflow-hidden rounded-full surface-2" role="progressbar" aria-valuenow={done} aria-valuemin={0} aria-valuemax={days.length} aria-label={label({ en: `Phase ${ph.phase} progress`, hi: `चरण ${ph.phase} की प्रगति` })}>
                 <div className="h-full bg-brand-600" style={{ width: `${(done / days.length) * 100}%` }} />
               </div>
             </summary>
@@ -73,17 +75,17 @@ export default async function CoursePage() {
                 return (
                   <li key={d.day}>
                     <Link href={`/lesson/${d.day}`} className="flex items-start gap-3 py-2 hover:bg-[var(--surface-2)] focus-visible:bg-[var(--surface-2)] rounded-lg px-1">
-                      <span className={`mt-0.5 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-semibold ${style.cls}`} aria-label={style.label}>{style.icon || d.day}</span>
+                      <span className={`mt-0.5 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-semibold ${style.cls}`} aria-label={label(style.label)}>{style.icon || d.day}</span>
                       <span className="min-w-0 flex-1">
-                        <span className="block font-medium">Day {d.day}: {d.title}</span>
+                        <Bi as="span" className="block font-medium" t={{ en: `Day ${d.day}: ${d.title}`, hi: `दिन ${d.day}: ${d.titleHi ?? d.title}` }} />
                         {d.titleFr && <span className="block text-sm text-muted" lang="fr">{d.titleFr}</span>}
                         <span className="mt-0.5 flex flex-wrap gap-1 text-xs text-muted">
                           {date && <span>{formatLocalDate(date)}</span>}
-                          {isLightDay(d.day) && <span className="chip">🌙 Light</span>}
-                          {CHECKPOINT_DAYS.includes(d.day) && <span className="chip">🏁 Checkpoint</span>}
-                          {mock && <span className="chip">📝 {mock.id.replace("mock-", "Mock ")}</span>}
-                          {!d.available && <span className="chip">Outline only</span>}
-                          {p?.assessmentScore != null && <span className="chip">Check: {Math.round(p.assessmentScore * 100)}%</span>}
+                          {isLightDay(d.day) && <span className="chip">🌙 <Bi as="span" t={{ en: "Light", hi: "हल्का" }} /></span>}
+                          {CHECKPOINT_DAYS.includes(d.day) && <span className="chip">🏁 <Bi as="span" t={{ en: "Checkpoint", hi: "चेकपॉइंट" }} /></span>}
+                          {mock && <span className="chip">📝 <Bi as="span" t={{ en: mock.id.replace("mock-", "Mock "), hi: mock.id.replace("mock-", "मॉक ") }} /></span>}
+                          {!d.available && <Bi as="span" className="chip" t={{ en: "Outline only", hi: "सिर्फ़ रूपरेखा" }} />}
+                          {p?.assessmentScore != null && <Bi as="span" className="chip" t={{ en: `Check: ${Math.round(p.assessmentScore * 100)}%`, hi: `जाँच: ${Math.round(p.assessmentScore * 100)}%` }} />}
                         </span>
                       </span>
                     </Link>

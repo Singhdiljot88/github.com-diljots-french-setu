@@ -5,6 +5,7 @@ import { allLessons } from "@/server/content";
 import { loadPronunciationFromDisk } from "@/content/load";
 import { PronunciationLab, type ShadowLine } from "@/components/pronunciation-lab";
 import type { SayItem } from "@/components/say-it";
+import { Bi } from "@/components/bi";
 
 export const metadata = { title: "Pronunciation lab" };
 export const dynamic = "force-dynamic";
@@ -30,8 +31,8 @@ export default async function PronunciationPage({ searchParams }: { searchParams
   return (
     <div className="space-y-4">
       <header>
-        <h1 className="text-2xl font-bold">Pronunciation lab <span lang="hi" className="deva text-lg font-normal text-muted">· उच्चारण लैब</span></h1>
-        <p className="text-muted">The sounds of French explained for Hindi and English speakers. Listen, record yourself, and compare by ear.</p>
+        <h1 className="text-2xl font-bold"><Bi as="span" t={{ en: "Pronunciation lab", hi: "उच्चारण लैब" }} /></h1>
+        <Bi className="text-muted" t={{ en: "The sounds of French explained for Hindi and English speakers. Listen, record yourself, and compare by ear.", hi: "हिंदी और अंग्रेज़ी बोलने वालों के लिए फ़्रेंच की ध्वनियाँ, समझाकर। सुनें, अपनी आवाज़ रिकॉर्ड करें, और कान से तुलना करें।" }} />
       </header>
       <PronunciationLab content={content} shadow={lines} say={say} today={st.todayDay} initialSound={sp.sound} initialTab={sp.tab} />
     </div>

@@ -16,26 +16,26 @@
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "rédiger", "en": "to write, to draft (a text)", "hi": "लिखना / मसौदा तैयार करना", "pron": "ग़े-दी-झ़े", "ipa": "ʁediʒe", "pos": "verb" },
-    { "fr": "tout d'abord", "en": "first of all", "hi": "सबसे पहले", "pron": "तू दा-बॉग़", "ipa": "tu dabɔʁ", "pos": "adverb" },
-    { "fr": "par ailleurs", "en": "furthermore, besides", "hi": "इसके अलावा / दूसरी बात", "pron": "पा ग़ा-यöग़", "ipa": "paʁ ajœʁ", "pos": "adverb" },
+    { "fr": "rédiger", "en": "to write, to draft (a text)", "hi": "लिखना / मसौदा तैयार करना", "pron": "रे-दी-जे", "ipa": "ʁediʒe", "pos": "verb" },
+    { "fr": "tout d'abord", "en": "first of all", "hi": "सबसे पहले", "pron": "तू दा-बॉर", "ipa": "tu dabɔʁ", "pos": "adverb" },
+    { "fr": "par ailleurs", "en": "furthermore, besides", "hi": "इसके अलावा / दूसरी बात", "pron": "पार आ-यर", "ipa": "paʁ ajœʁ", "pos": "adverb" },
     { "fr": "cependant", "en": "however", "hi": "फिर भी / हालाँकि", "pron": "स-पाँ-दाँ", "ipa": "səpɑ̃dɑ̃", "pos": "adverb" },
-    { "fr": "en effet", "en": "indeed (introduces an explanation)", "hi": "दरअसल / क्योंकि सच में", "pron": "आँ ने-फ़ै", "ipa": "ɑ̃n‿efɛ", "pos": "adverb", "note": { "en": "En effet explains or proves what you just said. It does not mean 'in effect'.", "hi": "En effet पिछली बात को समझाता या साबित करता है। इसका अर्थ 'in effect' नहीं है।" } },
-    { "fr": "par conséquent", "en": "consequently", "hi": "इसलिए / परिणामस्वरूप", "pron": "पाग़ कोँ-से-काँ", "ipa": "paʁ kɔ̃sekɑ̃", "pos": "adverb" },
-    { "fr": "grâce à", "en": "thanks to", "hi": "… की बदौलत", "pron": "ग्ग़ास आ", "ipa": "ɡʁas a", "pos": "preposition", "note": { "en": "Positive cause. For a negative cause, use 'à cause de'.", "hi": "अच्छे कारण के लिए। बुरे कारण के लिए 'à cause de'।" } },
-    { "fr": "à cause de", "en": "because of (negative cause)", "hi": "… की वजह से (बुरा कारण)", "pron": "आ कोज़ दö", "ipa": "a koz də", "pos": "preposition" },
-    { "fr": "même si", "en": "even if, even though", "hi": "भले ही", "pron": "मैम सी", "ipa": "mɛm si", "pos": "conjunction" },
-    { "fr": "ainsi", "en": "in this way, thus", "hi": "इस तरह", "pron": "ऐँ-सी", "ipa": "ɛ̃si", "pos": "adverb" },
-    { "fr": "en conclusion", "en": "in conclusion", "hi": "निष्कर्ष में", "pron": "आँ कोँ-क्लü-ज़्योँ", "ipa": "ɑ̃ kɔ̃klyzjɔ̃", "pos": "adverb" },
+    { "fr": "en effet", "en": "indeed (introduces an explanation)", "hi": "दरअसल / क्योंकि सच में", "pron": "आँ ने-फ़े", "ipa": "ɑ̃n‿efɛ", "pos": "adverb", "note": { "en": "En effet explains or proves what you just said. It does not mean 'in effect'.", "hi": "En effet पिछली बात को समझाता या साबित करता है। इसका अर्थ 'in effect' नहीं है।" } },
+    { "fr": "par conséquent", "en": "consequently", "hi": "इसलिए / परिणामस्वरूप", "pron": "पार कों-से-काँ", "ipa": "paʁ kɔ̃sekɑ̃", "pos": "adverb" },
+    { "fr": "grâce à", "en": "thanks to", "hi": "… की बदौलत", "pron": "ग्रास आ", "ipa": "ɡʁas a", "pos": "preposition", "note": { "en": "Positive cause. For a negative cause, use 'à cause de'.", "hi": "अच्छे कारण के लिए। बुरे कारण के लिए 'à cause de'।" } },
+    { "fr": "à cause de", "en": "because of (negative cause)", "hi": "… की वजह से (बुरा कारण)", "pron": "आ कोज़ द", "ipa": "a koz də", "pos": "preposition" },
+    { "fr": "même si", "en": "even if, even though", "hi": "भले ही", "pron": "मेम सी", "ipa": "mɛm si", "pos": "conjunction" },
+    { "fr": "ainsi", "en": "in this way, thus", "hi": "इस तरह", "pron": "ऐं-सी", "ipa": "ɛ̃si", "pos": "adverb" },
+    { "fr": "en conclusion", "en": "in conclusion", "hi": "निष्कर्ष में", "pron": "आँ कों-क्ल्यू-ज़्यों", "ipa": "ɑ̃ kɔ̃klyzjɔ̃", "pos": "adverb" },
     { "fr": "la piste cyclable", "en": "cycle lane", "hi": "साइकिल लेन", "pron": "ला पीस्त सी-क्लाब्ल", "ipa": "la pist siklabl", "pos": "noun", "gender": "f", "lemma": "piste" }
   ],
   "phrases": [
-    { "fr": "Je partage en partie cette opinion.", "en": "I partly share this opinion.", "hi": "मैं इस राय से कुछ हद तक सहमत हूँ।", "pron": "झ़ö पाग़-ताझ़ आँ पाग़-ती सैत ओ-पी-न्योँ" },
-    { "fr": "Il est vrai que …, cependant …", "en": "It is true that …, however …", "hi": "यह सच है कि …, फिर भी …", "pron": "ई लै व्ग़ै कö … स-पाँ-दाँ" },
-    { "fr": "C'est pourquoi je propose …", "en": "That is why I suggest …", "hi": "इसीलिए मैं सुझाव देता / देती हूँ …", "pron": "सै पूग़-क्वा झ़ö प्ग़ो-पोज़" },
-    { "fr": "Je relis en cinq minutes avec ma liste.", "en": "I proofread in five minutes with my checklist.", "hi": "मैं अपनी सूची के साथ पाँच मिनट में दोबारा पढ़ता / पढ़ती हूँ।", "pron": "झ़ö ग़ö-ली आँ सैँ मी-नüत आ-वैक मा लीस्त" },
-    { "fr": "Je compte mes mots.", "en": "I count my words.", "hi": "मैं अपने शब्द गिनता / गिनती हूँ।", "pron": "झ़ö कोँत मे मो" },
-    { "fr": "Cela irait trop loin.", "en": "That would go too far.", "hi": "यह बहुत ज़्यादा हो जाएगा।", "pron": "स-ला ई-ग़ै त्ग़ो ल्वैँ" }
+    { "fr": "Je partage en partie cette opinion.", "en": "I partly share this opinion.", "hi": "मैं इस राय से कुछ हद तक सहमत हूँ।", "pron": "ज पार-ताज आँ पार-ती सेत ओ-पी-न्यों" },
+    { "fr": "Il est vrai que …, cependant …", "en": "It is true that …, however …", "hi": "यह सच है कि …, फिर भी …", "pron": "ई-ले व्रे क स-पाँ-दाँ" },
+    { "fr": "C'est pourquoi je propose …", "en": "That is why I suggest …", "hi": "इसीलिए मैं सुझाव देता / देती हूँ …", "pron": "से पूर-क्वा ज प्रो-पोज़" },
+    { "fr": "Je relis en cinq minutes avec ma liste.", "en": "I proofread in five minutes with my checklist.", "hi": "मैं अपनी सूची के साथ पाँच मिनट में दोबारा पढ़ता / पढ़ती हूँ।", "pron": "ज र-ली आँ सैं मी-न्यूत आ-वेक मा लीस्त" },
+    { "fr": "Je compte mes mots.", "en": "I count my words.", "hi": "मैं अपने शब्द गिनता / गिनती हूँ।", "pron": "ज कोंत मे मो" },
+    { "fr": "Cela irait trop loin.", "en": "That would go too far.", "hi": "यह बहुत ज़्यादा हो जाएगा।", "pron": "स-ला ई-रे त्रो ल्वैं" }
   ],
   "grammar": {
     "title": { "en": "Time plans for A and B, a final checklist, and linking words", "hi": "A और B के लिए समय-योजना, अंतिम जाँच-सूची, और योजक शब्द" },
@@ -48,11 +48,11 @@
       "hi": "हिंदी में 'car' और 'parce que' दोनों के लिए 'क्योंकि', और 'grâce à' व 'à cause de' दोनों के लिए 'की वजह से' चलता है। फ़्रेंच इन्हें अलग रखती है: grâce à अच्छे कारण के लिए, à cause de बुरे कारण के लिए।"
     },
     "examples": [
-      { "fr": "Tout d'abord, l'air devient plus propre.", "en": "First of all, the air becomes cleaner.", "hi": "सबसे पहले, हवा ज़्यादा साफ़ हो जाती है।", "pron": "तू दा-बॉग़ लैग़ दö-व्यैँ प्लü प्ग़ॉप्ग़" },
-      { "fr": "En effet, les piétons s'arrêtent plus souvent dans les commerces.", "en": "Indeed, pedestrians stop more often in the shops.", "hi": "दरअसल, पैदल चलने वाले दुकानों पर ज़्यादा बार रुकते हैं।", "pron": "आँ ने-फ़ै ले प्ये-तोँ सा-ग़ैत प्लü सू-वाँ दाँ ले को-मैग़्स" },
-      { "fr": "Cependant, l'hiver dure plusieurs mois au Canada.", "en": "However, winter lasts several months in Canada.", "hi": "फिर भी, कनाडा में सर्दी कई महीने चलती है।", "pron": "स-पाँ-दाँ ली-वैग़ दüग़ प्लü-ज़्यöग़ म्वा ओ का-ना-दा" },
-      { "fr": "Grâce à la nouvelle piste cyclable, je vais au travail à vélo.", "en": "Thanks to the new cycle lane, I cycle to work.", "hi": "नई साइकिल लेन की बदौलत मैं साइकिल से काम पर जाता / जाती हूँ।", "pron": "ग्ग़ास आ ला नू-वैल पीस्त सी-क्लाब्ल झ़ö वै ओ त्ग़ा-वाय आ वे-लो" },
-      { "fr": "Même si c'est cher, c'est une bonne solution.", "en": "Even if it's expensive, it's a good solution.", "hi": "भले ही यह महँगा है, यह एक अच्छा उपाय है।", "pron": "मैम सी सै शैग़ सै तüन बॉन सो-लü-स्योँ" }
+      { "fr": "Tout d'abord, l'air devient plus propre.", "en": "First of all, the air becomes cleaner.", "hi": "सबसे पहले, हवा ज़्यादा साफ़ हो जाती है।", "pron": "तू दा-बॉर लेर द-व्यैं प्ल्यू प्रॉप्र" },
+      { "fr": "En effet, les piétons s'arrêtent plus souvent dans les commerces.", "en": "Indeed, pedestrians stop more often in the shops.", "hi": "दरअसल, पैदल चलने वाले दुकानों पर ज़्यादा बार रुकते हैं।", "pron": "आँ ने-फ़े ले प्ये-तों सा-रेत प्ल्यू सू-वाँ दाँ ले को-मेर्स" },
+      { "fr": "Cependant, l'hiver dure plusieurs mois au Canada.", "en": "However, winter lasts several months in Canada.", "hi": "फिर भी, कनाडा में सर्दी कई महीने चलती है।", "pron": "स-पाँ-दाँ ली-वेर द्यूर प्ल्यू-ज़्यर म्वा ओ का-ना-दा" },
+      { "fr": "Grâce à la nouvelle piste cyclable, je vais au travail à vélo.", "en": "Thanks to the new cycle lane, I cycle to work.", "hi": "नई साइकिल लेन की बदौलत मैं साइकिल से काम पर जाता / जाती हूँ।", "pron": "ग्रास आ ला नू-वेल पीस्त सी-क्लाब्ल ज वे ओ त्रा-वाय आ वे-लो" },
+      { "fr": "Même si c'est cher, c'est une bonne solution.", "en": "Even if it's expensive, it's a good solution.", "hi": "भले ही यह महँगा है, यह एक अच्छा उपाय है।", "pron": "मेम सी से शेर से त्यून बॉन सो-ल्यू-स्यों" }
     ],
     "pitfalls": [
       { "en": "Don't write for 35 minutes without checking. Five minutes of checking usually saves more marks than five more sentences.", "hi": "बिना जाँचे 35 मिनट लिखते मत रहिए। पाँच मिनट की जाँच से आम तौर पर पाँच और वाक्यों से ज़्यादा अंक बचते हैं।" },
@@ -68,10 +68,10 @@
     },
     "words": [
       { "fr": "cependant", "en": "however", "hi": "फिर भी", "pron": "स-पाँ-दाँ", "ipa": "səpɑ̃dɑ̃" },
-      { "fr": "par conséquent", "en": "consequently", "hi": "इसलिए", "pron": "पाग़ कोँ-से-काँ", "ipa": "paʁ kɔ̃sekɑ̃" },
-      { "fr": "en effet", "en": "indeed", "hi": "दरअसल", "pron": "आँ ने-फ़ै", "ipa": "ɑ̃n‿efɛ", "note": { "en": "Liaison: en‿effet. The final t is silent.", "hi": "लियाज़ों: en‿effet। आख़िरी t नहीं बोला जाता।" } },
-      { "fr": "par ailleurs", "en": "furthermore", "hi": "इसके अलावा", "pron": "पा ग़ा-यöग़", "ipa": "paʁ ajœʁ" },
-      { "fr": "c'est pourquoi", "en": "that is why", "hi": "इसीलिए", "pron": "सै पूग़-क्वा", "ipa": "sɛ puʁkwa" }
+      { "fr": "par conséquent", "en": "consequently", "hi": "इसलिए", "pron": "पार कों-से-काँ", "ipa": "paʁ kɔ̃sekɑ̃" },
+      { "fr": "en effet", "en": "indeed", "hi": "दरअसल", "pron": "आँ ने-फ़े", "ipa": "ɑ̃n‿efɛ", "note": { "en": "Liaison: en‿effet. The final t is silent.", "hi": "लियाज़ों: en‿effet। आख़िरी t नहीं बोला जाता।" } },
+      { "fr": "par ailleurs", "en": "furthermore", "hi": "इसके अलावा", "pron": "पार आ-यर", "ipa": "paʁ ajœʁ" },
+      { "fr": "c'est pourquoi", "en": "that is why", "hi": "इसीलिए", "pron": "से पूर-क्वा", "ipa": "sɛ puʁkwa" }
     ]
   },
   "listening": {
@@ -90,11 +90,11 @@
       { "speaker": "Journaliste", "voice": "m2", "fr": "La mairie, de son côté, annonce que l'expérience sera prolongée jusqu'à la fin septembre. Une consultation publique aura lieu en octobre pour décider de l'avenir du projet.", "en": "The town hall, for its part, announces that the experiment will be extended until the end of September. A public consultation will take place in October to decide the project's future.", "hi": "नगरपालिका ने अपनी ओर से घोषणा की है कि यह प्रयोग सितंबर के अंत तक बढ़ाया जाएगा। परियोजना के भविष्य पर फ़ैसले के लिए अक्टूबर में एक सार्वजनिक परामर्श होगा।" }
     ],
     "questions": [
-      { "q": { "en": "When is the main street closed to cars?" }, "options": ["Every day in summer", "From Friday evening to Sunday evening", "Only on Sundays", "Only on Saturday mornings"], "answer": 1, "explanation": { "en": "'Du vendredi soir au dimanche soir.'", "hi": "'Du vendredi soir au dimanche soir' — शुक्रवार शाम से रविवार शाम तक।" }, "kind": "literal", "evidence": "du vendredi soir au dimanche soir" },
-      { "q": { "en": "What has happened to the baker's business?" }, "options": ["Her Saturday sales have risen by about 20%", "She has lost clients", "She has closed on Saturdays", "Nothing has changed"], "answer": 0, "explanation": { "en": "'Mes ventes du samedi ont augmenté d'environ vingt pour cent.' She was afraid at first — a possible trap.", "hi": "'Mes ventes du samedi ont augmenté d'environ vingt pour cent.' शुरू में उसे डर था — यह जाल हो सकता है।" }, "kind": "literal", "evidence": "mes ventes du samedi ont augmenté d'environ vingt pour cent" },
-      { "q": { "en": "What does the resident complain about?" }, "options": ["Parking", "The birds", "Noise on Sunday evenings", "The price of terraces"], "answer": 2, "explanation": { "en": "'Le dimanche soir, avec les terrasses, c'est assez bruyant.'", "hi": "'Le dimanche soir, avec les terrasses, c'est assez bruyant' — रविवार शाम शोर।" }, "kind": "literal", "evidence": "c'est assez bruyant" },
-      { "q": { "en": "What would the mother like?" }, "options": ["A playground", "Cars to come back", "Free parking", "More benches and some shade"], "answer": 3, "explanation": { "en": "'Ce serait bien d'avoir plus de bancs et un peu d'ombre.'", "hi": "'Ce serait bien d'avoir plus de bancs et un peu d'ombre' — और बेंच और छाँव।" }, "kind": "literal", "evidence": "plus de bancs et un peu d'ombre" },
-      { "q": { "en": "What will happen in October?" }, "options": ["The street will reopen to cars", "A public consultation", "The end of the experiment", "A street festival"], "answer": 1, "explanation": { "en": "'Une consultation publique aura lieu en octobre.' The experiment is extended until the end of September.", "hi": "'Une consultation publique aura lieu en octobre.' प्रयोग सितंबर के अंत तक बढ़ाया गया है।" }, "kind": "literal", "evidence": "Une consultation publique aura lieu en octobre" }
+      { "q": { "en": "When is the main street closed to cars?", "hi": "मुख्य सड़क कारों के लिए कब बंद रहती है?" }, "options": ["Every day in summer", "From Friday evening to Sunday evening", "Only on Sundays", "Only on Saturday mornings"], "optionsHi": ["गर्मियों में हर दिन", "शुक्रवार शाम से रविवार शाम तक", "केवल रविवार को", "केवल शनिवार की सुबह"], "answer": 1, "explanation": { "en": "'Du vendredi soir au dimanche soir.'", "hi": "'Du vendredi soir au dimanche soir' — शुक्रवार शाम से रविवार शाम तक।" }, "kind": "literal", "evidence": "du vendredi soir au dimanche soir" },
+      { "q": { "en": "What has happened to the baker's business?", "hi": "बेकरी वाली महिला के व्यवसाय का क्या हुआ है?" }, "options": ["Her Saturday sales have risen by about 20%", "She has lost clients", "She has closed on Saturdays", "Nothing has changed"], "optionsHi": ["शनिवार की उसकी बिक्री लगभग 20% बढ़ गई है", "उसने ग्राहक खो दिए हैं", "उसने शनिवार को दुकान बंद कर दी है", "कुछ नहीं बदला है"], "answer": 0, "explanation": { "en": "'Mes ventes du samedi ont augmenté d'environ vingt pour cent.' She was afraid at first — a possible trap.", "hi": "'Mes ventes du samedi ont augmenté d'environ vingt pour cent.' शुरू में उसे डर था — यह जाल हो सकता है।" }, "kind": "literal", "evidence": "mes ventes du samedi ont augmenté d'environ vingt pour cent" },
+      { "q": { "en": "What does the resident complain about?", "hi": "निवासी किस बात की शिकायत करता है?" }, "options": ["Parking", "The birds", "Noise on Sunday evenings", "The price of terraces"], "optionsHi": ["पार्किंग की", "पक्षियों की", "रविवार शाम के शोर की", "टेरेस की क़ीमत की"], "answer": 2, "explanation": { "en": "'Le dimanche soir, avec les terrasses, c'est assez bruyant.'", "hi": "'Le dimanche soir, avec les terrasses, c'est assez bruyant' — रविवार शाम शोर।" }, "kind": "literal", "evidence": "c'est assez bruyant" },
+      { "q": { "en": "What would the mother like?", "hi": "माँ क्या चाहेगी?" }, "options": ["A playground", "Cars to come back", "Free parking", "More benches and some shade"], "optionsHi": ["एक खेल का मैदान", "कारों का लौट आना", "मुफ़्त पार्किंग", "ज़्यादा बेंच और थोड़ी छाया"], "answer": 3, "explanation": { "en": "'Ce serait bien d'avoir plus de bancs et un peu d'ombre.'", "hi": "'Ce serait bien d'avoir plus de bancs et un peu d'ombre' — और बेंच और छाँव।" }, "kind": "literal", "evidence": "plus de bancs et un peu d'ombre" },
+      { "q": { "en": "What will happen in October?", "hi": "अक्टूबर में क्या होगा?" }, "options": ["The street will reopen to cars", "A public consultation", "The end of the experiment", "A street festival"], "optionsHi": ["सड़क फिर से कारों के लिए खुल जाएगी", "एक सार्वजनिक परामर्श", "प्रयोग का अंत", "एक सड़क उत्सव"], "answer": 1, "explanation": { "en": "'Une consultation publique aura lieu en octobre.' The experiment is extended until the end of September.", "hi": "'Une consultation publique aura lieu en octobre.' प्रयोग सितंबर के अंत तक बढ़ाया गया है।" }, "kind": "literal", "evidence": "Une consultation publique aura lieu en octobre" }
     ],
     "dictation": [
       "La rue principale est réservée aux piétons du vendredi soir au dimanche soir.",
@@ -122,11 +122,11 @@
       ]
     },
     "prompts": [
-      { "fr": "À mon avis, il faudrait réduire les voitures, pas les interdire.", "en": "In my view, we should reduce cars, not ban them.", "hi": "मेरी राय में गाड़ियाँ कम करनी चाहिए, बंद नहीं।", "pron": "आ मो ना-वी ईल फ़ो-द्ग़ै ग़े-दüईग़ ले व्वा-तüग़ पा ले ज़ैँ-तैग़-दीग़" },
-      { "fr": "Il est vrai que l'air serait plus propre, cependant …", "en": "It's true that the air would be cleaner, however …", "hi": "यह सच है कि हवा ज़्यादा साफ़ होगी, फिर भी …", "pron": "ई लै व्ग़ै कö लैग़ स-ग़ै प्लü प्ग़ॉप्ग़ स-पाँ-दाँ" },
-      { "fr": "Prenons un exemple : dans ma ville, …", "en": "Let's take an example: in my town, …", "hi": "एक उदाहरण लेते हैं: मेरे शहर में, …", "pron": "प्ग़ö-नोँ ज़ैँ नैग-ज़ाँप्ल दाँ मा वील" },
-      { "fr": "Je comprends ton point de vue, mais pense aux personnes âgées.", "en": "I understand your point of view, but think of elderly people.", "hi": "मैं तुम्हारा नज़रिया समझता / समझती हूँ, पर बुज़ुर्गों के बारे में सोचो।", "pron": "झ़ö कोँ-प्ग़ाँ तोँ प्वैँ द वü मै पाँस ओ पैग़-सॉन ज़ा-झ़े" },
-      { "fr": "Et si on trouvait un compromis ?", "en": "What if we found a compromise?", "hi": "क्यों न हम कोई बीच का रास्ता ढूँढें?", "pron": "ए सी ओँ त्ग़ू-वै ऐँ कोँ-प्ग़ो-मी" }
+      { "fr": "À mon avis, il faudrait réduire les voitures, pas les interdire.", "en": "In my view, we should reduce cars, not ban them.", "hi": "मेरी राय में गाड़ियाँ कम करनी चाहिए, बंद नहीं।", "pron": "आ मो ना-वी ईल फ़ो-द्रे रे-द्यूईर ले व्वा-त्यूर पा ले ज़ैं-तेर-दीर" },
+      { "fr": "Il est vrai que l'air serait plus propre, cependant …", "en": "It's true that the air would be cleaner, however …", "hi": "यह सच है कि हवा ज़्यादा साफ़ होगी, फिर भी …", "pron": "ई ले व्रे क लेर स-रे प्ल्यू प्रॉप्र स-पाँ-दाँ" },
+      { "fr": "Prenons un exemple : dans ma ville, …", "en": "Let's take an example: in my town, …", "hi": "एक उदाहरण लेते हैं: मेरे शहर में, …", "pron": "प्र-नों ज़ैं नेग-ज़ाँप्ल दाँ मा वील" },
+      { "fr": "Je comprends ton point de vue, mais pense aux personnes âgées.", "en": "I understand your point of view, but think of elderly people.", "hi": "मैं तुम्हारा नज़रिया समझता / समझती हूँ, पर बुज़ुर्गों के बारे में सोचो।", "pron": "ज कों-प्राँ तों प्वैं द व्यू मे पाँस ओ पेर-सॉन ज़ा-जे" },
+      { "fr": "Et si on trouvait un compromis ?", "en": "What if we found a compromise?", "hi": "क्यों न हम कोई बीच का रास्ता ढूँढें?", "pron": "ए सी ओं त्रू-वे ऐं कों-प्रो-मी" }
     ],
     "tip": {
       "en": "Speaking first helps writing: the arguments you defend aloud come faster on paper. Note the two best ones before you start the timed letter.",
@@ -142,11 +142,11 @@
       "hi": "हर हफ़्ते हमारा अख़बार पाठकों के सामने एक कथन रखता है। इस हफ़्ते: 'बड़े शहरों को अपने शहर-केंद्र में गाड़ियों पर रोक लगा देनी चाहिए।'\n\nयूरोप के कई शहर अपने बीच के इलाक़ों में गाड़ियों का आवागमन पहले ही काफ़ी कम कर चुके हैं। इस क़दम के समर्थकों का कहना है कि वहाँ हवा ज़्यादा साफ़ है, सड़कें ज़्यादा शांत हैं और आस-पास की दुकानों को फ़ायदा होता है, क्योंकि पैदल चलने वाले और साइकिल वाले गाड़ी वालों से ज़्यादा आसानी से रुकते हैं।\n\nविरोधी याद दिलाते हैं कि कनाडा में दूरियाँ लंबी हैं और सर्दी की वजह से कई महीने साइकिल चलाना मुश्किल होता है। उनके अनुसार रोक लगाने से सबसे पहले बुज़ुर्गों, छोटे बच्चों के माता-पिता और उपनगरों में रहने वाले कामकाजी लोगों को नुक़सान होगा, जहाँ बसें कम ही आती हैं। कुछ दुकानदारों को दूर से आने वाले ग्राहक खोने का डर भी है।\n\nइन दोनों रायों के बीच के रास्ते भी हैं: सिर्फ़ गर्मियों में पैदल-मार्ग, शहर के प्रवेश पर मुफ़्त पार्किंग जो शटल बसों से केंद्र से जुड़ी हो, या फिर भीड़ के समय गाड़ियों पर टोल।\n\nऔर आप, आप क्या सोचते हैं? शुक्रवार से पहले हमें अपना पत्र (कम से कम 200 शब्द) भेजिए। सबसे अच्छे पत्र हमारे शनिवार के अंक में छापे जाएँगे।"
     },
     "questions": [
-      { "q": { "en": "According to supporters, why do local shops benefit?" }, "options": ["Rents are lower", "Pedestrians and cyclists stop more readily", "Deliveries are easier", "Parking is free"], "answer": 1, "explanation": { "en": "Shops benefit 'puisque les piétons et les cyclistes s'arrêtent plus volontiers'.", "hi": "दुकानों को फ़ायदा 'puisque les piétons et les cyclistes s'arrêtent plus volontiers'।" }, "kind": "literal", "evidence": "les commerces de proximité en profitent" },
-      { "q": { "en": "Why, according to opponents, is cycling not a full solution in Canada?" }, "options": ["Bikes are expensive", "There are no cycle lanes", "Winter makes it difficult for months", "It is dangerous at night"], "answer": 2, "explanation": { "en": "'L'hiver rend le vélo difficile pendant plusieurs mois.'", "hi": "'L'hiver rend le vélo difficile pendant plusieurs mois' — सर्दी में कई महीने मुश्किल।" }, "kind": "literal", "evidence": "l'hiver rend le vélo difficile pendant plusieurs mois" },
-      { "q": { "en": "Who would be penalised first by a ban, according to opponents?" }, "options": ["Elderly people, parents of young children and suburban workers", "Tourists", "Cyclists", "Bus drivers"], "answer": 0, "explanation": { "en": "'Pénaliserait d'abord les personnes âgées, les parents de jeunes enfants et les travailleurs qui habitent en banlieue.'", "hi": "'Pénaliserait d'abord les personnes âgées, les parents de jeunes enfants et les travailleurs qui habitent en banlieue।'" }, "kind": "literal", "evidence": "pénaliserait d'abord les personnes âgées" },
-      { "q": { "en": "Which of these is presented as an intermediate solution?" }, "options": ["Banning cars all year", "Closing all shops on Sundays", "Building more motorways", "Pedestrian streets only in summer"], "answer": 3, "explanation": { "en": "'Des rues piétonnes seulement l'été' is one of the compromise solutions.", "hi": "'Des rues piétonnes seulement l'été' बीच के रास्तों में से एक है।" }, "kind": "literal", "evidence": "des rues piétonnes seulement l'été" },
-      { "q": { "en": "What is the author's position in this text?" }, "options": ["Strongly for the ban", "Neutral: presents both sides and asks readers", "Strongly against the ban", "In favour of tolls only"], "answer": 1, "explanation": { "en": "The text presents supporters, opponents and compromises, then asks 'qu'en pensez-vous ?' — a neutral introduction.", "hi": "पाठ समर्थकों, विरोधियों और बीच के रास्तों को रखता है, फिर पूछता है 'qu'en pensez-vous ?' — यह निष्पक्ष भूमिका है।" }, "kind": "inference", "evidence": "Et vous, qu'en pensez-vous ?" }
+      { "q": { "en": "According to supporters, why do local shops benefit?", "hi": "समर्थकों के अनुसार स्थानीय दुकानों को फ़ायदा क्यों होता है?" }, "options": ["Rents are lower", "Pedestrians and cyclists stop more readily", "Deliveries are easier", "Parking is free"], "optionsHi": ["किराया कम है", "पैदल और साइकिल चलाने वाले ज़्यादा आसानी से रुकते हैं", "माल की डिलीवरी आसान है", "पार्किंग मुफ़्त है"], "answer": 1, "explanation": { "en": "Shops benefit 'puisque les piétons et les cyclistes s'arrêtent plus volontiers'.", "hi": "दुकानों को फ़ायदा 'puisque les piétons et les cyclistes s'arrêtent plus volontiers'।" }, "kind": "literal", "evidence": "les commerces de proximité en profitent" },
+      { "q": { "en": "Why, according to opponents, is cycling not a full solution in Canada?", "hi": "विरोधियों के अनुसार कनाडा में साइकिल चलाना पूरा समाधान क्यों नहीं है?" }, "options": ["Bikes are expensive", "There are no cycle lanes", "Winter makes it difficult for months", "It is dangerous at night"], "optionsHi": ["साइकिलें महँगी हैं", "साइकिल लेन हैं ही नहीं", "सर्दी कई महीनों तक इसे मुश्किल बना देती है", "रात में यह ख़तरनाक है"], "answer": 2, "explanation": { "en": "'L'hiver rend le vélo difficile pendant plusieurs mois.'", "hi": "'L'hiver rend le vélo difficile pendant plusieurs mois' — सर्दी में कई महीने मुश्किल।" }, "kind": "literal", "evidence": "l'hiver rend le vélo difficile pendant plusieurs mois" },
+      { "q": { "en": "Who would be penalised first by a ban, according to opponents?", "hi": "विरोधियों के अनुसार, प्रतिबंध से सबसे पहले किसे नुकसान होगा?" }, "options": ["Elderly people, parents of young children and suburban workers", "Tourists", "Cyclists", "Bus drivers"], "optionsHi": ["बुज़ुर्गों, छोटे बच्चों के माता-पिता और उपनगर के कामगारों को", "पर्यटकों को", "साइकिल चालकों को", "बस चालकों को"], "answer": 0, "explanation": { "en": "'Pénaliserait d'abord les personnes âgées, les parents de jeunes enfants et les travailleurs qui habitent en banlieue.'", "hi": "'Pénaliserait d'abord les personnes âgées, les parents de jeunes enfants et les travailleurs qui habitent en banlieue।'" }, "kind": "literal", "evidence": "pénaliserait d'abord les personnes âgées" },
+      { "q": { "en": "Which of these is presented as an intermediate solution?", "hi": "इनमें से कौन-सा समाधान बीच के रास्ते के रूप में प्रस्तुत किया गया है?" }, "options": ["Banning cars all year", "Closing all shops on Sundays", "Building more motorways", "Pedestrian streets only in summer"], "optionsHi": ["पूरे साल कारों पर प्रतिबंध", "रविवार को सभी दुकानें बंद करना", "और अधिक राजमार्ग बनाना", "केवल गर्मियों में पैदल-यात्री सड़कें"], "answer": 3, "explanation": { "en": "'Des rues piétonnes seulement l'été' is one of the compromise solutions.", "hi": "'Des rues piétonnes seulement l'été' बीच के रास्तों में से एक है।" }, "kind": "literal", "evidence": "des rues piétonnes seulement l'été" },
+      { "q": { "en": "What is the author's position in this text?", "hi": "इस लेख में लेखक का पक्ष क्या है?" }, "options": ["Strongly for the ban", "Neutral: presents both sides and asks readers", "Strongly against the ban", "In favour of tolls only"], "optionsHi": ["प्रतिबंध के पूरी तरह पक्ष में", "तटस्थ: दोनों पक्ष रखता है और पाठकों से राय पूछता है", "प्रतिबंध के पूरी तरह विरुद्ध", "केवल टोल के पक्ष में"], "answer": 1, "explanation": { "en": "The text presents supporters, opponents and compromises, then asks 'qu'en pensez-vous ?' — a neutral introduction.", "hi": "पाठ समर्थकों, विरोधियों और बीच के रास्तों को रखता है, फिर पूछता है 'qu'en pensez-vous ?' — यह निष्पक्ष भूमिका है।" }, "kind": "inference", "evidence": "Et vous, qu'en pensez-vous ?" }
     ]
   },
   "writing": {
@@ -164,9 +164,9 @@
       { "en": "Keep the last 5 minutes for the six-point checklist.", "hi": "आख़िरी 5 मिनट छह बिंदुओं वाली जाँच-सूची के लिए रखिए।" }
     ],
     "usefulPhrases": [
-      { "fr": "Je vous écris pour réagir à l'affirmation selon laquelle …", "en": "I am writing to react to the statement that …", "hi": "मैं इस कथन पर प्रतिक्रिया देने के लिए लिख रहा / रही हूँ कि …", "pron": "झ़ö वू ज़े-क्ग़ी पूग़ ग़े-आ-झ़ीग़ आ ला-फ़ीग़-मा-स्योँ स-लोँ ला-कैल" },
-      { "fr": "Il est vrai que …", "en": "It is true that …", "hi": "यह सच है कि …", "pron": "ई लै व्ग़ै कö" },
-      { "fr": "Veuillez agréer, Madame, Monsieur, mes salutations distinguées.", "en": "Yours faithfully.", "hi": "भवदीय।", "pron": "वö-ये ज़ा-ग्ग़े-ए मा-दाम मö-स्यö मे सा-लü-ता-स्योँ दीस-तैँ-गे" }
+      { "fr": "Je vous écris pour réagir à l'affirmation selon laquelle …", "en": "I am writing to react to the statement that …", "hi": "मैं इस कथन पर प्रतिक्रिया देने के लिए लिख रहा / रही हूँ कि …", "pron": "ज वू ज़े-क्री पूर रे-आ-जीर आ ला-फ़ीर-मा-स्यों स-लों ला-केल" },
+      { "fr": "Il est vrai que …", "en": "It is true that …", "hi": "यह सच है कि …", "pron": "ई ले व्रे क" },
+      { "fr": "Veuillez agréer, Madame, Monsieur, mes salutations distinguées.", "en": "Yours faithfully.", "hi": "भवदीय।", "pron": "व-ये ज़ा-ग्रे-ए मा-दाम म-स्य मे सा-ल्यू-ता-स्यों दीस-तैं-गे" }
     ],
     "model": {
       "fr": "Madame, Monsieur,\n\nJe vous écris pour réagir à l'affirmation selon laquelle les grandes villes devraient interdire les voitures dans leur centre-ville. Je partage en partie cette opinion, mais je pense qu'une interdiction totale serait une erreur.\n\nTout d'abord, il est vrai que la réduction de la circulation présente de nombreux avantages. En effet, l'air devient plus propre et les rues plus sûres pour les enfants. Dans ma ville, une rue piétonne a été ouverte l'été dernier, et j'ai constaté qu'elle était toujours pleine de familles.\n\nCependant, au Canada, l'hiver dure plusieurs mois. Il est difficile de marcher vingt minutes par moins vingt degrés, surtout pour les personnes âgées ou les parents avec une poussette. Par conséquent, une interdiction totale toute l'année pénaliserait d'abord les plus fragiles.\n\nPar ailleurs, de nombreux travailleurs habitent en banlieue, là où les autobus sont rares. Sans voiture, certains mettraient deux heures pour aller au travail. Pour eux, la voiture n'est pas un luxe, mais une nécessité.\n\nC'est pourquoi je propose une solution intermédiaire : des rues piétonnes pendant la belle saison, des stationnements gratuits à l'entrée de la ville et des navettes fréquentes vers le centre. Ainsi, on améliorerait la qualité de vie sans exclure personne.\n\nEn conclusion, fermer certaines rues est une bonne idée, mais interdire complètement les voitures irait trop loin.\n\nVeuillez agréer, Madame, Monsieur, mes salutations distinguées.\n\nRavi Kumar",
@@ -182,14 +182,14 @@
   "review": {
     "fromDays": [88, 89, 97, 102, 104, 106],
     "items": [
-      { "fr": "Certes …, mais …", "en": "Admittedly …, but …", "hi": "माना कि …, लेकिन …", "pron": "सैग़्त … मै" },
-      { "fr": "selon moi", "en": "in my opinion", "hi": "मेरे अनुसार", "pron": "स-लोँ म्वा" },
-      { "fr": "Il avait déjà quitté la maison.", "en": "He had already left the house.", "hi": "वह पहले ही घर से निकल चुका था।", "pron": "ई ला-वै दे-झ़ा की-ते ला मै-ज़ोँ" },
-      { "fr": "de nombreux avantages", "en": "numerous advantages", "hi": "अनेक फ़ायदे", "pron": "दö नोँ-ब्ग़ö ज़ा-वाँ-ताझ़" },
-      { "fr": "permettre de", "en": "to make it possible to", "hi": "संभव बनाना", "pron": "पैग़-मैत्ग़ दö" },
-      { "fr": "Autrement dit, …", "en": "In other words, …", "hi": "दूसरे शब्दों में, …", "pron": "ओ-त्ग़ö-माँ दी" },
-      { "fr": "Je vérifie les accords.", "en": "I check the agreements.", "hi": "मैं मेल जाँचता / जाँचती हूँ।", "pron": "झ़ö वे-ग़ी-फ़ी ले ज़ा-कॉग़" },
-      { "fr": "aux heures de pointe", "en": "at rush hour", "hi": "भीड़ के समय", "pron": "ओ ज़öग़ दö प्वैँत" }
+      { "fr": "Certes …, mais …", "en": "Admittedly …, but …", "hi": "माना कि …, लेकिन …", "pron": "सेर्त … मे" },
+      { "fr": "selon moi", "en": "in my opinion", "hi": "मेरे अनुसार", "pron": "स-लों म्वा" },
+      { "fr": "Il avait déjà quitté la maison.", "en": "He had already left the house.", "hi": "वह पहले ही घर से निकल चुका था।", "pron": "ई ला-वे दे-जा की-ते ला मे-ज़ों" },
+      { "fr": "de nombreux avantages", "en": "numerous advantages", "hi": "अनेक फ़ायदे", "pron": "द नों-ब्र ज़ा-वाँ-ताज" },
+      { "fr": "permettre de", "en": "to make it possible to", "hi": "संभव बनाना", "pron": "पेर-मेत्र द" },
+      { "fr": "Autrement dit, …", "en": "In other words, …", "hi": "दूसरे शब्दों में, …", "pron": "ओ-त्र-माँ दी" },
+      { "fr": "Je vérifie les accords.", "en": "I check the agreements.", "hi": "मैं मेल जाँचता / जाँचती हूँ।", "pron": "ज वे-री-फ़ी ले ज़ा-कॉर" },
+      { "fr": "aux heures de pointe", "en": "at rush hour", "hi": "भीड़ के समय", "pron": "ओ ज़र द प्वैंत" }
     ]
   },
   "assessment": [

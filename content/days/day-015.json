@@ -13,29 +13,29 @@
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "l'heure", "en": "hour; time (on the clock)", "hi": "घंटा; समय (घड़ी का)", "pron": "लöग़", "ipa": "lœʁ", "pos": "noun", "gender": "f", "lemma": "heure", "note": { "en": "Feminine: une heure. Silent h, so l'heure.", "hi": "स्त्रीलिंग: une heure। h नहीं बोला जाता, इसलिए l'heure।" } },
-    { "fr": "Quelle heure est-il ?", "en": "What time is it?", "hi": "कितने बजे हैं?", "pron": "कै लöग़ ऐ-तील", "ipa": "kɛ lœʁ ɛtil", "pos": "phrase", "note": { "en": "Casual: Il est quelle heure ?", "hi": "बोलचाल में: Il est quelle heure ?" } },
-    { "fr": "et quart", "en": "quarter past", "hi": "सवा", "pron": "ए काग़", "ipa": "e kaʁ", "pos": "phrase" },
-    { "fr": "et demie", "en": "half past", "hi": "साढ़े", "pron": "ए दö-मी", "ipa": "e dəmi", "pos": "phrase" },
-    { "fr": "moins le quart", "en": "quarter to", "hi": "पौने", "pron": "म्वैँ लö काग़", "ipa": "mwɛ̃ lə kaʁ", "pos": "phrase" },
+    { "fr": "l'heure", "en": "hour; time (on the clock)", "hi": "घंटा; समय (घड़ी का)", "pron": "लर", "ipa": "lœʁ", "pos": "noun", "gender": "f", "lemma": "heure", "note": { "en": "Feminine: une heure. Silent h, so l'heure.", "hi": "स्त्रीलिंग: une heure। h नहीं बोला जाता, इसलिए l'heure।" } },
+    { "fr": "Quelle heure est-il ?", "en": "What time is it?", "hi": "कितने बजे हैं?", "pron": "के लर ए-तील", "ipa": "kɛ lœʁ ɛtil", "pos": "phrase", "note": { "en": "Casual: Il est quelle heure ?", "hi": "बोलचाल में: Il est quelle heure ?" } },
+    { "fr": "et quart", "en": "quarter past", "hi": "सवा", "pron": "ए कार", "ipa": "e kaʁ", "pos": "phrase" },
+    { "fr": "et demie", "en": "half past", "hi": "साढ़े", "pron": "ए द-मी", "ipa": "e dəmi", "pos": "phrase" },
+    { "fr": "moins le quart", "en": "quarter to", "hi": "पौने", "pron": "म्वैं ल कार", "ipa": "mwɛ̃ lə kaʁ", "pos": "phrase" },
     { "fr": "midi", "en": "noon, midday", "hi": "दोपहर के बारह बजे", "pron": "मी-दी", "ipa": "midi", "pos": "noun", "gender": "m" },
-    { "fr": "minuit", "en": "midnight", "hi": "आधी रात", "pron": "मी-नüई", "ipa": "minɥi", "pos": "noun", "gender": "m" },
-    { "fr": "le matin", "en": "morning", "hi": "सुबह", "pron": "लö मा-तैँ", "ipa": "lə matɛ̃", "pos": "noun", "gender": "m", "lemma": "matin" },
-    { "fr": "l'après-midi", "en": "afternoon", "hi": "दोपहर बाद", "pron": "ला-प्ग़ै-मी-दी", "ipa": "lapʁɛmidi", "pos": "noun", "gender": "m", "lemma": "après-midi" },
-    { "fr": "le soir", "en": "evening", "hi": "शाम", "pron": "लö स्वाग़", "ipa": "lə swaʁ", "pos": "noun", "gender": "m", "lemma": "soir", "note": { "en": "Masculine in French; शाम is feminine in Hindi.", "hi": "फ़्रेंच में पुल्लिंग; हिंदी में 'शाम' स्त्रीलिंग है।" } },
-    { "fr": "le train", "en": "train", "hi": "रेलगाड़ी / ट्रेन", "pron": "लö त्ग़ैँ", "ipa": "lə tʁɛ̃", "pos": "noun", "gender": "m", "lemma": "train" },
-    { "fr": "le départ", "en": "departure", "hi": "रवानगी / छूटने का समय", "pron": "लö दे-पाग़", "ipa": "lə depaʁ", "pos": "noun", "gender": "m", "lemma": "départ" },
-    { "fr": "manger", "en": "to eat", "hi": "खाना", "pron": "माँ-झ़े", "ipa": "mɑ̃ʒe", "pos": "verb", "note": { "en": "Regular -er, except nous mangeons (keeps the e).", "hi": "नियमित -er, सिर्फ़ nous mangeons में e बना रहता है।" } },
-    { "fr": "rentrer", "en": "to go back home, to return", "hi": "घर लौटना", "pron": "ग़ाँ-त्ग़े", "ipa": "ʁɑ̃tʁe", "pos": "verb" }
+    { "fr": "minuit", "en": "midnight", "hi": "आधी रात", "pron": "मी-न्यूई", "ipa": "minɥi", "pos": "noun", "gender": "m" },
+    { "fr": "le matin", "en": "morning", "hi": "सुबह", "pron": "ल मा-तैं", "ipa": "lə matɛ̃", "pos": "noun", "gender": "m", "lemma": "matin" },
+    { "fr": "l'après-midi", "en": "afternoon", "hi": "दोपहर बाद", "pron": "ला-प्रे-मी-दी", "ipa": "lapʁɛmidi", "pos": "noun", "gender": "m", "lemma": "après-midi" },
+    { "fr": "le soir", "en": "evening", "hi": "शाम", "pron": "ल स्वार", "ipa": "lə swaʁ", "pos": "noun", "gender": "m", "lemma": "soir", "note": { "en": "Masculine in French; शाम is feminine in Hindi.", "hi": "फ़्रेंच में पुल्लिंग; हिंदी में 'शाम' स्त्रीलिंग है।" } },
+    { "fr": "le train", "en": "train", "hi": "रेलगाड़ी / ट्रेन", "pron": "ल त्रैं", "ipa": "lə tʁɛ̃", "pos": "noun", "gender": "m", "lemma": "train" },
+    { "fr": "le départ", "en": "departure", "hi": "रवानगी / छूटने का समय", "pron": "ल दे-पार", "ipa": "lə depaʁ", "pos": "noun", "gender": "m", "lemma": "départ" },
+    { "fr": "manger", "en": "to eat", "hi": "खाना", "pron": "माँ-जे", "ipa": "mɑ̃ʒe", "pos": "verb", "note": { "en": "Regular -er, except nous mangeons (keeps the e).", "hi": "नियमित -er, सिर्फ़ nous mangeons में e बना रहता है।" } },
+    { "fr": "rentrer", "en": "to go back home, to return", "hi": "घर लौटना", "pron": "राँ-त्रे", "ipa": "ʁɑ̃tʁe", "pos": "verb" }
   ],
   "phrases": [
-    { "fr": "Il est trois heures.", "en": "It's three o'clock.", "hi": "तीन बजे हैं।", "pron": "ई लै त्ग़्वा ज़öग़", "ipa": "i lɛ tʁwa zœʁ" },
-    { "fr": "Il est une heure et demie.", "en": "It's half past one.", "hi": "डेढ़ बजे हैं।", "pron": "ई लै ü नöग़ ए दö-मी", "ipa": "i lɛ y nœʁ e dəmi" },
-    { "fr": "Il est huit heures moins le quart.", "en": "It's a quarter to eight.", "hi": "पौने आठ बजे हैं।", "pron": "ई लै üइ तöग़ म्वैँ लö काग़", "ipa": "i lɛ ɥi tœʁ mwɛ̃ lə kaʁ" },
-    { "fr": "Il est midi.", "en": "It's noon.", "hi": "दोपहर के बारह बजे हैं।", "pron": "ई लै मी-दी", "ipa": "i lɛ midi" },
-    { "fr": "Je travaille à neuf heures.", "en": "I start work at nine. / I work at nine.", "hi": "मैं नौ बजे काम करता/करती हूँ।", "pron": "झ़ö त्ग़ा-वाय आ नö वöग़", "ipa": "ʒə tʁavaj a nø vœʁ" },
-    { "fr": "à dix-huit heures trente", "en": "at 18:30 (6:30 p.m.)", "hi": "शाम साढ़े छह बजे (18:30)", "pron": "आ दी-ज़üइ तöग़ त्ग़ाँत", "ipa": "a dizɥi tœʁ tʁɑ̃t" },
-    { "fr": "le soir, à dix heures", "en": "at ten in the evening", "hi": "रात दस बजे", "pron": "लö स्वाग़ आ दी ज़öग़", "ipa": "lə swaʁ a di zœʁ" }
+    { "fr": "Il est trois heures.", "en": "It's three o'clock.", "hi": "तीन बजे हैं।", "pron": "ई ले त्र्वा ज़र", "ipa": "i lɛ tʁwa zœʁ" },
+    { "fr": "Il est une heure et demie.", "en": "It's half past one.", "hi": "डेढ़ बजे हैं।", "pron": "ई ले यू नर ए द-मी", "ipa": "i lɛ y nœʁ e dəmi" },
+    { "fr": "Il est huit heures moins le quart.", "en": "It's a quarter to eight.", "hi": "पौने आठ बजे हैं।", "pron": "ई ले यूइ तर म्वैं ल कार", "ipa": "i lɛ ɥi tœʁ mwɛ̃ lə kaʁ" },
+    { "fr": "Il est midi.", "en": "It's noon.", "hi": "दोपहर के बारह बजे हैं।", "pron": "ई ले मी-दी", "ipa": "i lɛ midi" },
+    { "fr": "Je travaille à neuf heures.", "en": "I start work at nine. / I work at nine.", "hi": "मैं नौ बजे काम करता/करती हूँ।", "pron": "ज त्रा-वाय आ न वर", "ipa": "ʒə tʁavaj a nø vœʁ" },
+    { "fr": "à dix-huit heures trente", "en": "at 18:30 (6:30 p.m.)", "hi": "शाम साढ़े छह बजे (18:30)", "pron": "आ दी-ज़्यूइ तर त्राँत", "ipa": "a dizɥi tœʁ tʁɑ̃t" },
+    { "fr": "le soir, à dix heures", "en": "at ten in the evening", "hi": "रात दस बजे", "pron": "ल स्वार आ दी ज़र", "ipa": "lə swaʁ a di zœʁ" }
   ],
   "grammar": {
     "title": { "en": "Telling the time; à + time", "hi": "समय बताना; à + समय" },
@@ -48,11 +48,11 @@
       "hi": "हिंदी में चौथाई के लिए पहले से शब्द हैं, जो सीधे मेल खाते हैं: सवा तीन = trois heures et quart, साढ़े तीन = trois heures et demie, पौने चार = quatre heures moins le quart। 'पौने' की तरह 'moins le quart' में भी अगला घंटा आता है। हिंदी 'बजे' ≈ heure(s): तीन बजे = à trois heures। अंग्रेज़ी में 'It's three' कहते हैं — फ़्रेंच में heures कभी नहीं छूटता।"
     },
     "examples": [
-      { "fr": "Il est deux heures et quart.", "en": "It's a quarter past two.", "hi": "सवा दो बजे हैं।", "pron": "ई लै दö ज़öग़ ए काग़" },
-      { "fr": "Il est six heures moins dix.", "en": "It's ten to six.", "hi": "छह बजने में दस मिनट हैं।", "pron": "ई लै सी ज़öग़ म्वैँ दीस" },
-      { "fr": "La clinique ferme à dix-sept heures trente.", "en": "The clinic closes at 17:30.", "hi": "क्लिनिक शाम साढ़े पाँच बजे बंद होता है।", "pron": "ला क्ली-नीक फ़ैग़्म आ दी-सै तöग़ त्ग़ाँत" },
-      { "fr": "Je mange à midi et je rentre à six heures du soir.", "en": "I eat at noon and I go home at six in the evening.", "hi": "मैं दोपहर बारह बजे खाता/खाती हूँ और शाम छह बजे घर लौटता/लौटती हूँ।", "pron": "झ़ö माँझ़ आ मी-दी ए झ़ö ग़ाँत्ग़ आ सी ज़öग़ दü स्वाग़" },
-      { "fr": "Le départ est à vingt et une heures.", "en": "Departure is at 21:00.", "hi": "रवानगी रात 9 बजे (21:00) है।", "pron": "लö दे-पाग़ ऐ ता वैँ-ते-ü नöग़", "note": { "en": "une, because heure is feminine: vingt et une heures.", "hi": "heure स्त्रीलिंग है, इसलिए une: vingt et une heures।" } }
+      { "fr": "Il est deux heures et quart.", "en": "It's a quarter past two.", "hi": "सवा दो बजे हैं।", "pron": "ई ले द ज़र ए कार" },
+      { "fr": "Il est six heures moins dix.", "en": "It's ten to six.", "hi": "छह बजने में दस मिनट हैं।", "pron": "ई ले सी ज़र म्वैं दीस" },
+      { "fr": "La clinique ferme à dix-sept heures trente.", "en": "The clinic closes at 17:30.", "hi": "क्लिनिक शाम साढ़े पाँच बजे बंद होता है।", "pron": "ला क्ली-नीक फ़ेर्म आ दी-से तर त्राँत" },
+      { "fr": "Je mange à midi et je rentre à six heures du soir.", "en": "I eat at noon and I go home at six in the evening.", "hi": "मैं दोपहर बारह बजे खाता/खाती हूँ और शाम छह बजे घर लौटता/लौटती हूँ।", "pron": "ज माँज आ मी-दी ए ज राँत्र आ सी ज़र द्यू स्वार" },
+      { "fr": "Le départ est à vingt et une heures.", "en": "Departure is at 21:00.", "hi": "रवानगी रात 9 बजे (21:00) है।", "pron": "ल दे-पार ए ता वैं-ते-यू नर", "note": { "en": "une, because heure is feminine: vingt et une heures.", "hi": "heure स्त्रीलिंग है, इसलिए une: vingt et une heures।" } }
     ],
     "pitfalls": [
       { "en": "Don't drop heures: 'Il est trois', not correct. Say 'Il est trois heures'.", "hi": "heures मत छोड़िए: 'Il est trois' सही नहीं। 'Il est trois heures' कहिए।" },
@@ -63,16 +63,16 @@
   "pronunciation": {
     "focus": "Liaison: deux heures, trois heures, six heures",
     "tip": {
-      "en": "heure starts with a silent h, so the number links into it. deux heures = दö ज़öग़, trois heures = त्ग़्वा ज़öग़, six heures = सी ज़öग़, dix heures = दी ज़öग़ (s and x become z). neuf heures = नö वöग़ (f becomes v). huit heures = üइ तöग़, une heure = ü नöग़.",
-      "hi": "heure मौन h से शुरू होता है, इसलिए संख्या उससे जुड़ जाती है। deux heures = दö ज़öग़, trois heures = त्ग़्वा ज़öग़, six heures = सी ज़öग़, dix heures = दी ज़öग़ (s और x 'ज़' बन जाते हैं)। neuf heures = नö वöग़ (f 'व' बन जाता है)। huit heures = üइ तöग़, une heure = ü नöग़।"
+      "en": "heure starts with a silent h, so the number links into it. deux heures = द ज़र, trois heures = त्र्वा ज़र, six heures = सी ज़र, dix heures = दी ज़र (s and x become z). neuf heures = न वर (f becomes v). huit heures = यूइ तर, une heure = यू नर.",
+      "hi": "heure मौन h से शुरू होता है, इसलिए संख्या उससे जुड़ जाती है। deux heures = द ज़र, trois heures = त्र्वा ज़र, six heures = सी ज़र, dix heures = दी ज़र (s और x 'ज़' बन जाते हैं)। neuf heures = न वर (f 'व' बन जाता है)। huit heures = यूइ तर, une heure = यू नर।"
     },
     "words": [
-      { "fr": "deux heures", "en": "two o'clock", "hi": "दो बजे", "pron": "दö ज़öग़", "ipa": "dø zœʁ" },
-      { "fr": "trois heures", "en": "three o'clock", "hi": "तीन बजे", "pron": "त्ग़्वा ज़öग़", "ipa": "tʁwa zœʁ" },
-      { "fr": "six heures", "en": "six o'clock", "hi": "छह बजे", "pron": "सी ज़öग़", "ipa": "si zœʁ" },
-      { "fr": "neuf heures", "en": "nine o'clock", "hi": "नौ बजे", "pron": "नö वöग़", "ipa": "nœ vœʁ" },
-      { "fr": "une heure", "en": "one o'clock", "hi": "एक बजे", "pron": "ü नöग़", "ipa": "y nœʁ" },
-      { "fr": "huit heures", "en": "eight o'clock", "hi": "आठ बजे", "pron": "üइ तöग़", "ipa": "ɥi tœʁ" }
+      { "fr": "deux heures", "en": "two o'clock", "hi": "दो बजे", "pron": "द ज़र", "ipa": "dø zœʁ" },
+      { "fr": "trois heures", "en": "three o'clock", "hi": "तीन बजे", "pron": "त्र्वा ज़र", "ipa": "tʁwa zœʁ" },
+      { "fr": "six heures", "en": "six o'clock", "hi": "छह बजे", "pron": "सी ज़र", "ipa": "si zœʁ" },
+      { "fr": "neuf heures", "en": "nine o'clock", "hi": "नौ बजे", "pron": "न वर", "ipa": "nœ vœʁ" },
+      { "fr": "une heure", "en": "one o'clock", "hi": "एक बजे", "pron": "यून अर", "ipa": "y nœʁ" },
+      { "fr": "huit heures", "en": "eight o'clock", "hi": "आठ बजे", "pron": "यूइ तर", "ipa": "ɥi tœʁ" }
     ]
   },
   "listening": {
@@ -90,11 +90,11 @@
       { "speaker": "Voyageuse", "voice": "f1", "fr": "Merci ! Mon train est à dix heures quinze.", "en": "Thank you! My train is at 10:15.", "hi": "धन्यवाद! मेरी ट्रेन 10:15 पर है।" }
     ],
     "questions": [
-      { "q": { "en": "When does the train to Québec leave?" }, "options": ["10:15", "11:30", "13:00"], "answer": 0, "explanation": { "en": "'départ à dix heures quinze'.", "hi": "'départ à dix heures quinze' — 10:15।" }, "kind": "literal", "evidence": "Le train pour Québec : départ à dix heures quinze, voie trois." },
-      { "q": { "en": "Which track for Toronto?" }, "options": ["Three", "Five", "Thirteen"], "answer": 1, "explanation": { "en": "'voie cinq'.", "hi": "'voie cinq' — प्लेटफ़ॉर्म पाँच।" }, "kind": "literal", "evidence": "départ à onze heures trente, voie cinq" },
-      { "q": { "en": "What is the problem with the Ottawa train?" }, "options": ["It is cancelled", "It is late — now at 13:00", "It leaves from track three"], "answer": 1, "explanation": { "en": "'en retard' = late; 'Départ à treize heures'.", "hi": "'en retard' = देर से; 'Départ à treize heures' — 13:00।" }, "kind": "literal", "evidence": "le train pour Ottawa est en retard. Départ à treize heures." },
-      { "q": { "en": "What time is it when the traveller asks?" }, "options": ["9:45", "10:45", "10:15"], "answer": 0, "explanation": { "en": "'dix heures moins le quart' = quarter to ten = 9:45 (पौने दस).", "hi": "'dix heures moins le quart' = पौने दस = 9:45।" }, "kind": "inference", "evidence": "Il est dix heures moins le quart, madame." },
-      { "q": { "en": "Where is the traveller going?" }, "options": ["Toronto", "Ottawa", "Québec"], "answer": 2, "explanation": { "en": "Her train is at 10:15 — the Québec train.", "hi": "उसकी ट्रेन 10:15 पर है — क्यूबेक वाली ट्रेन।" }, "kind": "inference", "evidence": "Mon train est à dix heures quinze." }
+      { "q": { "en": "When does the train to Québec leave?", "hi": "Québec की ट्रेन कब रवाना होती है?" }, "options": ["10:15", "11:30", "13:00"], "answer": 0, "explanation": { "en": "'départ à dix heures quinze'.", "hi": "'départ à dix heures quinze' — 10:15।" }, "kind": "literal", "evidence": "Le train pour Québec : départ à dix heures quinze, voie trois." },
+      { "q": { "en": "Which track for Toronto?", "hi": "Toronto के लिए कौन-सा प्लेटफ़ॉर्म है?" }, "options": ["Three", "Five", "Thirteen"], "answer": 1, "explanation": { "en": "'voie cinq'.", "hi": "'voie cinq' — प्लेटफ़ॉर्म पाँच।" }, "kind": "literal", "evidence": "départ à onze heures trente, voie cinq" },
+      { "q": { "en": "What is the problem with the Ottawa train?", "hi": "Ottawa की ट्रेन में क्या समस्या है?" }, "options": ["It is cancelled", "It is late — now at 13:00", "It leaves from track three"], "optionsHi": ["वह रद्द हो गई है", "वह देर से है — अब 13:00 बजे जाएगी", "वह प्लेटफ़ॉर्म तीन से रवाना होती है"], "answer": 1, "explanation": { "en": "'en retard' = late; 'Départ à treize heures'.", "hi": "'en retard' = देर से; 'Départ à treize heures' — 13:00।" }, "kind": "literal", "evidence": "le train pour Ottawa est en retard. Départ à treize heures." },
+      { "q": { "en": "What time is it when the traveller asks?", "hi": "जब यात्री पूछता है, तब कितने बजे हैं?" }, "options": ["9:45", "10:45", "10:15"], "answer": 0, "explanation": { "en": "'dix heures moins le quart' = quarter to ten = 9:45 (पौने दस).", "hi": "'dix heures moins le quart' = पौने दस = 9:45।" }, "kind": "inference", "evidence": "Il est dix heures moins le quart, madame." },
+      { "q": { "en": "Where is the traveller going?", "hi": "यात्री कहाँ जा रहा है?" }, "options": ["Toronto", "Ottawa", "Québec"], "answer": 2, "explanation": { "en": "Her train is at 10:15 — the Québec train.", "hi": "उसकी ट्रेन 10:15 पर है — क्यूबेक वाली ट्रेन।" }, "kind": "inference", "evidence": "Mon train est à dix heures quinze." }
     ],
     "dictation": ["Il est dix heures moins le quart.", "Départ à treize heures.", "Mon train est à dix heures quinze."],
     "gapFill": { "text": "Le train pour Toronto : départ à onze heures ___, voie ___.", "answers": ["trente", "cinq"] }
@@ -106,15 +106,15 @@
       "hi": "हर समय ज़ोर से बोलिए। फिर 'Quelle heure est-il ?' पूछिए और अभी का समय बताइए। आख़िर में तीन काम बताइए जो आप करते हैं और कब।"
     },
     "prompts": [
-      { "fr": "Il est sept heures et quart.", "en": "It's a quarter past seven.", "hi": "सवा सात बजे हैं।", "pron": "ई लै सै तöग़ ए काग़" },
-      { "fr": "Il est onze heures et demie.", "en": "It's half past eleven.", "hi": "साढ़े ग्यारह बजे हैं।", "pron": "ई लै ओँ ज़öग़ ए दö-मी" },
-      { "fr": "Il est cinq heures moins le quart.", "en": "It's a quarter to five.", "hi": "पौने पाँच बजे हैं।", "pron": "ई लै सैँ कöग़ म्वैँ लö काग़" },
-      { "fr": "Quelle heure est-il ? — Il est …", "en": "What time is it? — It's …", "hi": "कितने बजे हैं? — … बजे हैं।", "pron": "कै लöग़ ऐ-तील — ई लै", "model": "Il est huit heures dix." },
-      { "fr": "Je travaille à … et je rentre à …", "en": "I work at … and I go home at …", "hi": "मैं … बजे काम करता/करती हूँ और … बजे घर लौटता/लौटती हूँ।", "pron": "झ़ö त्ग़ा-वाय आ … ए झ़ö ग़ाँत्ग़ आ …", "model": "Je travaille à neuf heures et je rentre à dix-sept heures." }
+      { "fr": "Il est sept heures et quart.", "en": "It's a quarter past seven.", "hi": "सवा सात बजे हैं।", "pron": "ई ले से तर ए कार" },
+      { "fr": "Il est onze heures et demie.", "en": "It's half past eleven.", "hi": "साढ़े ग्यारह बजे हैं।", "pron": "ई ले ओं ज़र ए द-मी" },
+      { "fr": "Il est cinq heures moins le quart.", "en": "It's a quarter to five.", "hi": "पौने पाँच बजे हैं।", "pron": "ई ले सैं कर म्वैं ल कार" },
+      { "fr": "Quelle heure est-il ? — Il est …", "en": "What time is it? — It's …", "hi": "कितने बजे हैं? — … बजे हैं।", "pron": "के लर ए-तील — ई ले", "model": "Il est huit heures dix." },
+      { "fr": "Je travaille à … et je rentre à …", "en": "I work at … and I go home at …", "hi": "मैं … बजे काम करता/करती हूँ और … बजे घर लौटता/लौटती हूँ।", "pron": "ज त्रा-वाय आ … ए ज राँत्र आ …", "model": "Je travaille à neuf heures et je rentre à dix-sept heures." }
     ],
     "tip": {
-      "en": "Link the number to heure: onze heures = ओँ ज़öग़. Never say 'onze… heures' with a pause.",
-      "hi": "संख्या को heure से जोड़िए: onze heures = ओँ ज़öग़। बीच में रुककर 'onze… heures' कभी मत कहिए।"
+      "en": "Link the number to heure: onze heures = ओं ज़र. Never say 'onze… heures' with a pause.",
+      "hi": "संख्या को heure से जोड़िए: onze heures = ओं ज़र। बीच में रुककर 'onze… heures' कभी मत कहिए।"
     }
   },
   "reading": {
@@ -126,10 +126,10 @@
       "hi": "खुलने का समय\nपार्क फ़ार्मेसी: सोमवार से शुक्रवार, सुबह 9 – रात 9; शनिवार और रविवार, सुबह 10 – शाम 6\nमेडिकल क्लिनिक: सोमवार से गुरुवार, सुबह 8 – शाम 5:30; शुक्रवार, सुबह 8 – दोपहर 12; वीकेंड पर बंद\nबोनप्री सुपरमार्केट: रोज़, सुबह 7 – रात 11"
     },
     "questions": [
-      { "q": { "en": "When does the clinic close on Friday?" }, "options": ["At noon", "At 17:30", "At 21:00"], "answer": 0, "explanation": { "en": "'vendredi, 8 h – 12 h' — 12 h = midi.", "hi": "'vendredi, 8 h – 12 h' — 12 h = midi (दोपहर 12)।" }, "kind": "literal", "evidence": "vendredi, 8 h – 12 h" },
-      { "q": { "en": "It's Sunday at 11 a.m. Where can you buy medicine?" }, "options": ["At the clinic", "At the pharmacy", "Nowhere"], "answer": 1, "explanation": { "en": "The pharmacy is open on Sunday from 10 h to 18 h; the clinic is closed at the weekend.", "hi": "फ़ार्मेसी रविवार को 10 h से 18 h तक खुली है; क्लिनिक वीकेंड पर बंद है।" }, "kind": "inference", "evidence": "samedi et dimanche, 10 h – 18 h" },
-      { "q": { "en": "What does 'tous les jours' mean?" }, "options": ["Every day", "At the weekend", "Only in the morning"], "answer": 0, "explanation": { "en": "tous les jours = every day: the supermarket is open daily.", "hi": "tous les jours = रोज़: सुपरमार्केट हर दिन खुला है।" }, "kind": "vocabulary", "evidence": "Supermarché Bonprix : tous les jours, 7 h – 23 h" },
-      { "q": { "en": "Is the clinic open on Saturday?" }, "options": ["Yes, 8 h – 12 h", "Yes, 10 h – 18 h", "No, it's closed"], "answer": 2, "explanation": { "en": "'fermé le week-end'.", "hi": "'fermé le week-end' — वीकेंड पर बंद।" }, "kind": "literal", "evidence": "fermé le week-end" }
+      { "q": { "en": "When does the clinic close on Friday?", "hi": "शुक्रवार को क्लिनिक कब बंद होता है?" }, "options": ["At noon", "At 17:30", "At 21:00"], "optionsHi": ["दोपहर 12 बजे", "17:30 बजे", "21:00 बजे"], "answer": 0, "explanation": { "en": "'vendredi, 8 h – 12 h' — 12 h = midi.", "hi": "'vendredi, 8 h – 12 h' — 12 h = midi (दोपहर 12)।" }, "kind": "literal", "evidence": "vendredi, 8 h – 12 h" },
+      { "q": { "en": "It's Sunday at 11 a.m. Where can you buy medicine?", "hi": "रविवार को सुबह 11 बजे दवा कहाँ मिल सकती है?" }, "options": ["At the clinic", "At the pharmacy", "Nowhere"], "optionsHi": ["क्लिनिक में", "फ़ार्मेसी में", "कहीं नहीं"], "answer": 1, "explanation": { "en": "The pharmacy is open on Sunday from 10 h to 18 h; the clinic is closed at the weekend.", "hi": "फ़ार्मेसी रविवार को 10 h से 18 h तक खुली है; क्लिनिक वीकेंड पर बंद है।" }, "kind": "inference", "evidence": "samedi et dimanche, 10 h – 18 h" },
+      { "q": { "en": "What does 'tous les jours' mean?", "hi": "'tous les jours' का क्या अर्थ है?" }, "options": ["Every day", "At the weekend", "Only in the morning"], "optionsHi": ["हर दिन", "सप्ताहांत में", "केवल सुबह"], "answer": 0, "explanation": { "en": "tous les jours = every day: the supermarket is open daily.", "hi": "tous les jours = रोज़: सुपरमार्केट हर दिन खुला है।" }, "kind": "vocabulary", "evidence": "Supermarché Bonprix : tous les jours, 7 h – 23 h" },
+      { "q": { "en": "Is the clinic open on Saturday?", "hi": "क्या क्लिनिक शनिवार को खुला रहता है?" }, "options": ["Yes, 8 h – 12 h", "Yes, 10 h – 18 h", "No, it's closed"], "optionsHi": ["हाँ, 8 h – 12 h", "हाँ, 10 h – 18 h", "नहीं, वह बंद रहता है"], "answer": 2, "explanation": { "en": "'fermé le week-end'.", "hi": "'fermé le week-end' — वीकेंड पर बंद।" }, "kind": "literal", "evidence": "fermé le week-end" }
     ]
   },
   "writing": {
@@ -145,9 +145,9 @@
       { "en": "Verbs you know: travailler, étudier, manger, rentrer, regarder, cuisiner, écouter.", "hi": "जानी हुई क्रियाएँ: travailler, étudier, manger, rentrer, regarder, cuisiner, écouter।" }
     ],
     "usefulPhrases": [
-      { "fr": "Le matin, à … heures, je …", "en": "In the morning, at …, I …", "hi": "सुबह … बजे मैं …", "pron": "लö मा-तैँ आ … öग़ झ़ö" },
-      { "fr": "À midi, je mange.", "en": "At noon, I eat.", "hi": "दोपहर बारह बजे मैं खाना खाता/खाती हूँ।", "pron": "आ मी-दी झ़ö माँझ़" },
-      { "fr": "Le soir, je rentre à …", "en": "In the evening, I go home at …", "hi": "शाम को मैं … बजे घर लौटता/लौटती हूँ।", "pron": "लö स्वाग़ झ़ö ग़ाँत्ग़ आ" }
+      { "fr": "Le matin, à … heures, je …", "en": "In the morning, at …, I …", "hi": "सुबह … बजे मैं …", "pron": "ल मा-तैं आ … अर ज" },
+      { "fr": "À midi, je mange.", "en": "At noon, I eat.", "hi": "दोपहर बारह बजे मैं खाना खाता/खाती हूँ।", "pron": "आ मी-दी ज माँज" },
+      { "fr": "Le soir, je rentre à …", "en": "In the evening, I go home at …", "hi": "शाम को मैं … बजे घर लौटता/लौटती हूँ।", "pron": "ल स्वार ज राँत्र आ" }
     ],
     "model": { "fr": "Le matin, à sept heures, j'écoute la radio. À huit heures et demie, je travaille. À midi, je mange avec des amis. L'après-midi, j'étudie le français. Je rentre à dix-huit heures. Le soir, je cuisine et je regarde un film à neuf heures.", "en": "In the morning, at seven, I listen to the radio. At half past eight, I work. At noon, I eat with friends. In the afternoon, I study French. I go home at 6 p.m. In the evening, I cook and I watch a film at nine." },
     "checklist": [
@@ -159,12 +159,12 @@
   "review": {
     "fromDays": [9, 12, 13, 14],
     "items": [
-      { "fr": "lundi, mardi, mercredi", "en": "Monday, Tuesday, Wednesday", "hi": "सोमवार, मंगलवार, बुधवार", "pron": "लैँ-दी माग़-दी मैग़-क्ग़ö-दी" },
-      { "fr": "On est le 16 avril.", "en": "It's 16 April.", "hi": "आज 16 अप्रैल है।", "pron": "ओँ नै लö सैज़ आ-व्ग़ील" },
-      { "fr": "trente, quarante, cinquante", "en": "30, 40, 50", "hi": "तीस, चालीस, पचास", "pron": "त्ग़ाँत का-ग़ाँत सैँ-काँत" },
-      { "fr": "C'est complet.", "en": "It's full.", "hi": "सब भरा हुआ है।", "pron": "सै कोँ-प्लै" },
-      { "fr": "Je travaille le samedi.", "en": "I work on Saturdays.", "hi": "मैं हर शनिवार काम करता/करती हूँ।", "pron": "झ़ö त्ग़ा-वाय लö साम-दी" },
-      { "fr": "fermé / ouvert", "en": "closed / open", "hi": "बंद / खुला", "pron": "फ़ैग़-मे / ऊ-वैग़" }
+      { "fr": "lundi, mardi, mercredi", "en": "Monday, Tuesday, Wednesday", "hi": "सोमवार, मंगलवार, बुधवार", "pron": "लैं-दी मार-दी मेर-क्र-दी" },
+      { "fr": "On est le 16 avril.", "en": "It's 16 April.", "hi": "आज 16 अप्रैल है।", "pron": "ओं ने ल सेज़ आ-व्रील" },
+      { "fr": "trente, quarante, cinquante", "en": "30, 40, 50", "hi": "तीस, चालीस, पचास", "pron": "त्राँत का-राँत सैं-काँत" },
+      { "fr": "C'est complet.", "en": "It's full.", "hi": "सब भरा हुआ है।", "pron": "से कों-प्ले" },
+      { "fr": "Je travaille le samedi.", "en": "I work on Saturdays.", "hi": "मैं हर शनिवार काम करता/करती हूँ।", "pron": "ज त्रा-वाय ल साम-दी" },
+      { "fr": "fermé / ouvert", "en": "closed / open", "hi": "बंद / खुला", "pron": "फ़ेर-मे / ऊ-वेर" }
     ]
   },
   "assessment": [
@@ -174,6 +174,6 @@
     { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "It's noon.", "hi": "दोपहर के बारह बजे हैं।" }, "answer": "Il est midi.", "accept": ["Il est midi", "il est midi.", "Il est douze heures."], "explanation": { "en": "midi, with no heures. In official style: douze heures.", "hi": "midi, बिना heures के। औपचारिक शैली में: douze heures।" } },
     { "type": "reorder", "prompt": { "en": "Put the words in order: I eat at seven o'clock.", "hi": "शब्दों को सही क्रम में रखिए: मैं सात बजे खाना खाता हूँ।" }, "words": ["à", "Je", "sept", "mange", "heures."], "answer": "Je mange à sept heures.", "explanation": { "en": "Subject + verb + à + time.", "hi": "कर्ता + क्रिया + à + समय।" } },
     { "type": "mcq", "prompt": { "en": "A notice says '18 h 30'. How is it read?", "hi": "सूचना में '18 h 30' लिखा है। इसे कैसे पढ़ेंगे?" }, "options": ["dix-huit heures trente", "dix-huit heures et demie", "huit heures trente"], "answer": 0, "explanation": { "en": "24-hour clock → read the minutes as a number.", "hi": "24 घंटे की घड़ी → मिनट को संख्या की तरह पढ़िए।" } },
-    { "type": "mcq", "prompt": { "en": "How is 'trois heures' pronounced?", "hi": "'trois heures' कैसे बोला जाता है?" }, "options": ["त्ग़्वा öग़", "त्ग़्वा ज़öग़", "त्ग़्वास हöग़"], "answer": 1, "explanation": { "en": "Liaison: the s becomes z and the h is silent.", "hi": "जोड़: s 'ज़' बनता है और h चुप है।" } }
+    { "type": "mcq", "prompt": { "en": "How is 'trois heures' pronounced?", "hi": "'trois heures' कैसे बोला जाता है?" }, "options": ["त्र्वा अर", "त्र्वा ज़र", "त्र्वास हर"], "answer": 1, "explanation": { "en": "Liaison: the s becomes z and the h is silent.", "hi": "जोड़: s 'ज़' बनता है और h चुप है।" } }
   ]
 }

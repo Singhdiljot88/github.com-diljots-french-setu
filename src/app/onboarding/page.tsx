@@ -13,8 +13,6 @@ export default async function Page() {
   if (profile?.onboardedAt) redirect("/today");
   return (
     <main id="main" className="mx-auto max-w-2xl px-4 py-8">
-      <h1 className="text-2xl font-bold">Let&apos;s set up your plan</h1>
-      <p lang="hi" className="deva mb-6 text-muted">चलिए आपकी योजना बनाते हैं</p>
       <OnboardingForm defaultTz="UTC" today={localDate("UTC")} />
     </main>
   );

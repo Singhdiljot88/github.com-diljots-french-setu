@@ -7,6 +7,8 @@ import { previewIntervals, suggestRating, type Rating, type SrsCard } from "@/li
 import { Speak, usePlayer } from "./audio";
 import { AccentBar } from "./accent-bar";
 import { ResultLine } from "./exercises";
+import { Bi, useBiLabel } from "./bi";
+import { usePrefs } from "./prefs";
 
 type Kind = "fr_to_meaning" | "meaning_to_fr" | "audio" | "gender" | "dictation" | "cloze";
 type QCard = {
@@ -17,7 +19,10 @@ type QCard = {
 };
 type Queue = { cards: QCard[]; dueTotal: number; overdueCapped: boolean; newWaiting: number; newLimitRemaining: number };
 
-const KIND_LABEL: Record<Kind, string> = { fr_to_meaning: "French → meaning", meaning_to_fr: "Meaning → French", audio: "Listen → word", gender: "Gender", dictation: "Dictation", cloze: "Fill the gap" };
+const KIND_LABEL: Record<Kind, { en: string; hi: string }> = {
+  fr_to_meaning: { en: "French → meaning", hi: "फ़्रेंच → अर्थ" }, meaning_to_fr: { en: "Meaning → French", hi: "अर्थ → फ़्रेंच" }, audio: { en: "Listen → word", hi: "सुनें → शब्द" },
+  gender: { en: "Gender", hi: "लिंग" }, dictation: { en: "Dictation", hi: "श्रुतलेख" }, cloze: { en: "Fill the gap", hi: "खाली जगह भरें" },
+};
 const RATINGS: { r: Rating; label: string; hi: string; cls: string }[] = [
   { r: "again", label: "Again", hi: "फिर से", cls: "border-red-400" },
   { r: "hard", label: "Hard", hi: "मुश्किल", cls: "border-amber-400" },
@@ -34,6 +39,7 @@ export function ReviewSession() {
   const [error, setError] = useState<string | null>(null);
   const [done, setDone] = useState({ count: 0, again: 0 });
   const [now, setNow] = useState(() => Date.now());
+  const L = useBiLabel();
 
   const load = useCallback(async () => {
     try {
@@ -63,31 +69,34 @@ export function ReviewSession() {
     setNow(Date.now());
   };
 
-  if (error) return <div className="card" role="alert">Could not load your review: {error} <button className="btn btn-secondary btn-sm ml-2" onClick={load}>Retry</button></div>;
-  if (!queue) return <p className="text-muted">Loading your cards…</p>;
+  if (error) return <div className="card" role="alert"><Bi as="span" t={{ en: "Could not load your review:", hi: "आपका दोहराव लोड नहीं हो सका:" }} /> {error} <button className="btn btn-secondary btn-sm ml-2" onClick={load}><Bi as="span" t={{ en: "Retry", hi: "फिर से कोशिश करें" }} /></button></div>;
+  if (!queue) return <Bi className="text-muted" t={{ en: "Loading your cards…", hi: "आपके कार्ड लोड हो रहे हैं…" }} />;
 
   return (
     <div className="space-y-3">
       <div className="flex flex-wrap gap-2 text-sm text-muted" aria-live="polite">
-        <span className="chip">{cards.length} left</span>
-        <span className="chip">{done.count} reviewed</span>
-        {queue.overdueCapped && <span className="chip" title="Today's limit for your daily time">Showing today&apos;s limit of overdue cards; the rest stay for tomorrow</span>}
+        <Bi as="span" className="chip" t={{ en: `${cards.length} left`, hi: `${cards.length} बाक़ी` }} />
+        <Bi as="span" className="chip" t={{ en: `${done.count} reviewed`, hi: `${done.count} दोहराए गए` }} />
+        {queue.overdueCapped && <span className="chip" title={L({ en: "Today's limit for your daily time", hi: "आपके रोज़ के समय के हिसाब से आज की सीमा" })}><Bi as="span" t={{ en: "Showing today's limit of overdue cards; the rest stay for tomorrow", hi: "बकाया कार्ड आज की सीमा तक दिखाए जा रहे हैं; बाक़ी कल के लिए रहेंगे" }} /></span>}
       </div>
       {current ? (
         <CardView key={`${current.card.id}:${current.card.dueAt}`} c={current} onRate={(r, a) => rate(current, r, a)} />
       ) : waiting.length ? (
         <div className="card space-y-2">
-          <p className="font-medium">Nice. {waiting.length} card{waiting.length > 1 ? "s" : ""} in learning will come back shortly.</p>
-          <p className="text-sm text-muted">Next one at {new Date(waiting[0].card.dueAt).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}. You can wait here or come back later today.</p>
-          <button className="btn btn-secondary btn-sm" onClick={() => setNow(new Date(waiting[0].card.dueAt).getTime())}>Show it now</button>
+          <Bi className="font-medium" t={{ en: `Nice. ${waiting.length} card${waiting.length > 1 ? "s" : ""} in learning will come back shortly.`, hi: `बढ़िया। सीखे जा रहे ${waiting.length} कार्ड थोड़ी देर में वापस आएँगे।` }} />
+          <Bi className="text-sm text-muted" t={{
+            en: `Next one at ${new Date(waiting[0].card.dueAt).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}. You can wait here or come back later today.`,
+            hi: `अगला कार्ड ${new Date(waiting[0].card.dueAt).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })} पर। आप यहीं रुक सकते हैं या आज बाद में लौट सकते हैं।`,
+          }} />
+          <button className="btn btn-secondary btn-sm" onClick={() => setNow(new Date(waiting[0].card.dueAt).getTime())}><Bi as="span" t={{ en: "Show it now", hi: "अभी दिखाएँ" }} /></button>
         </div>
       ) : (
         <div className="card space-y-2">
-          <p className="text-lg font-semibold">{done.count ? "Review done for today 🎉" : "Nothing to review right now."}</p>
-          {done.count > 0 && <p className="text-sm text-muted">{done.count} cards reviewed, {done.again} marked Again.</p>}
-          {queue.newWaiting > 0 && queue.newLimitRemaining === 0 && <p className="text-sm text-muted">{queue.newWaiting} new cards are waiting. Today&apos;s new-card limit is reached, so they start tomorrow.</p>}
-          {queue.newWaiting === 0 && done.count === 0 && <p className="text-sm text-muted">Words from your lessons and words you save in the dictionary appear here.</p>}
-          <div className="flex gap-2"><Link className="btn btn-primary" href="/today">Back to today</Link><Link className="btn btn-secondary" href="/words">My words</Link></div>
+          <Bi className="text-lg font-semibold" t={done.count ? { en: "Review done for today 🎉", hi: "आज का दोहराव पूरा 🎉" } : { en: "Nothing to review right now.", hi: "अभी दोहराने के लिए कुछ नहीं है।" }} />
+          {done.count > 0 && <Bi className="text-sm text-muted" t={{ en: `${done.count} cards reviewed, ${done.again} marked Again.`, hi: `${done.count} कार्ड दोहराए गए, ${done.again} को “फिर से” चिह्नित किया गया।` }} />}
+          {queue.newWaiting > 0 && queue.newLimitRemaining === 0 && <Bi className="text-sm text-muted" t={{ en: `${queue.newWaiting} new cards are waiting. Today's new-card limit is reached, so they start tomorrow.`, hi: `${queue.newWaiting} नए कार्ड इंतज़ार में हैं। आज के नए कार्ड की सीमा पूरी हो गई है, इसलिए ये कल से शुरू होंगे।` }} />}
+          {queue.newWaiting === 0 && done.count === 0 && <Bi className="text-sm text-muted" t={{ en: "Words from your lessons and words you save in the dictionary appear here.", hi: "आपके पाठों के शब्द और शब्दकोश में सहेजे गए शब्द यहाँ दिखते हैं।" }} />}
+          <div className="flex gap-2"><Link className="btn btn-primary" href="/today"><Bi as="span" t={{ en: "Back to today", hi: "आज पर वापस जाएँ" }} /></Link><Link className="btn btn-secondary" href="/words"><Bi as="span" t={{ en: "My words", hi: "मेरे शब्द" }} /></Link></div>
         </div>
       )}
     </div>
@@ -104,6 +113,8 @@ function CardView({ c, onRate }: { c: QCard; onRate: (r: Rating, answer?: string
   const [busy, setBusy] = useState(false);
   const started = useRef(Date.now());
   const { play } = usePlayer();
+  const L = useBiLabel();
+  const { explanationLang } = usePrefs();
   const typed = kind === "meaning_to_fr" || kind === "audio" || kind === "dictation" || (kind === "cloze" && !!c.example?.cloze);
   const cloze = kind === "cloze" && c.example?.cloze ? c.example : null;
   const expected = kind === "cloze" ? cloze?.answer ?? w.fr : kind === "audio" ? bare(w.fr) : w.fr;
@@ -136,23 +147,23 @@ function CardView({ c, onRate }: { c: QCard; onRate: (r: Rating, answer?: string
 
   const meaning = (
     <div>
-      <p><span className="text-xs text-muted">English: </span>{w.en}</p>
-      {w.hi && <p><span className="text-xs text-muted">Hindi meaning: </span><span lang="hi" className="deva">{w.hi}</span></p>}
+      <p><span className="text-xs text-muted">{L({ en: "English", hi: "अंग्रेज़ी" })}: </span>{w.en}</p>
+      {w.hi && <p><span className="text-xs text-muted">{L({ en: "Hindi meaning", hi: "हिंदी अर्थ" })}: </span><span lang="hi" className="deva">{w.hi}</span></p>}
     </div>
   );
 
   return (
-    <section className="card space-y-4" aria-label={`Review card: ${KIND_LABEL[kind]}`}>
-      <p className="text-xs uppercase tracking-wide text-muted">{KIND_LABEL[kind]}{c.card.state === "new" ? " · new" : ""}</p>
+    <section className="card space-y-4" aria-label={L({ en: `Review card: ${KIND_LABEL[kind].en}`, hi: `दोहराव कार्ड: ${KIND_LABEL[kind].hi}` })}>
+      <p className="text-xs uppercase tracking-wide text-muted">{L(KIND_LABEL[kind])}{c.card.state === "new" ? ` · ${L({ en: "new", hi: "नया" })}` : ""}</p>
 
       {/* Prompt */}
       {kind === "fr_to_meaning" && <p className="flex items-center gap-2 text-3xl font-semibold" lang="fr">{w.fr}<Speak text={w.fr} /></p>}
-      {kind === "meaning_to_fr" && <div className="text-lg">{meaning}{gender && <p className="text-xs text-muted">Noun · include the article if you know it</p>}</div>}
-      {listenFirst && <div className="flex items-center gap-2"><Speak text={w.fr} size="md" label="the word" /><span className="text-sm text-muted">Type what you hear.</span></div>}
+      {kind === "meaning_to_fr" && <div className="text-lg">{meaning}{gender && <Bi className="text-xs text-muted" t={{ en: "Noun · include the article if you know it", hi: "संज्ञा · अगर आर्टिकल पता हो तो उसे भी लिखें" }} />}</div>}
+      {listenFirst && <div className="flex items-center gap-2"><Speak text={w.fr} size="md" label={L({ en: "the word", hi: "शब्द" })} /><Bi as="span" className="text-sm text-muted" t={{ en: "Type what you hear.", hi: "जो सुनें, वह टाइप करें।" }} /></div>}
       {kind === "gender" && <p className="text-3xl font-semibold" lang="fr">{bare(w.fr)}</p>}
       {kind === "cloze" && (cloze
-        ? <div><p className="text-xl" lang="fr">{cloze.cloze}</p>{(cloze.en || cloze.hi) && <p className="text-sm text-muted">{cloze.en}{cloze.hi && <> · <span lang="hi" className="deva">{cloze.hi}</span></>}</p>}<p className="mt-1 text-xs text-muted">Hint: {w.en}</p></div>
-        : <div><p className="text-sm text-muted">No example sentence yet for this word. Recall it from its meaning:</p>{meaning}</div>)}
+        ? <div><p className="text-xl" lang="fr">{cloze.cloze}</p>{(cloze.en || cloze.hi) && <p className="text-sm text-muted">{cloze.en ? <Bi as="span" t={{ en: cloze.en, hi: cloze.hi }} /> : <span lang="hi" className="deva">{cloze.hi}</span>}</p>}<Bi className="mt-1 text-xs text-muted" t={{ en: `Hint: ${w.en}`, hi: `संकेत: ${w.hi || w.en}` }} /></div>
+        : <div><Bi className="text-sm text-muted" t={{ en: "No example sentence yet for this word. Recall it from its meaning:", hi: "इस शब्द का अभी कोई उदाहरण वाक्य नहीं है। इसके अर्थ से इसे याद कीजिए:" }} />{meaning}</div>)}
 
       {/* Answer */}
       {kind === "gender" && !revealed && (
@@ -163,13 +174,13 @@ function CardView({ c, onRate }: { c: QCard; onRate: (r: Rating, answer?: string
       )}
       {typed && !revealed && (
         <form className="space-y-2" onSubmit={(e) => { e.preventDefault(); submit(); }}>
-          <label htmlFor="rv-in" className="sr-only">Your answer in French</label>
-          <input id="rv-in" className="input text-lg" lang="fr" value={input} onChange={(e) => setInput(e.target.value)} autoFocus autoComplete="off" autoCapitalize="off" spellCheck={false} placeholder="Type in French" />
+          <label htmlFor="rv-in" className="sr-only">{L({ en: "Your answer in French", hi: "फ़्रेंच में आपका उत्तर" })}</label>
+          <input id="rv-in" className="input text-lg" lang="fr" value={input} onChange={(e) => setInput(e.target.value)} autoFocus autoComplete="off" autoCapitalize="off" spellCheck={false} placeholder={L({ en: "Type in French", hi: "फ़्रेंच में लिखें" })} />
           <AccentBar targetId="rv-in" />
-          <div className="flex gap-2"><button className="btn btn-primary">Check</button><button type="button" className="btn btn-ghost" onClick={() => { setRevealed(true); setSuggested("again"); }}>I don&apos;t know</button></div>
+          <div className="flex gap-2"><button className="btn btn-primary"><Bi as="span" t={{ en: "Check", hi: "उत्तर जाँचें" }} /></button><button type="button" className="btn btn-ghost" onClick={() => { setRevealed(true); setSuggested("again"); }}><Bi as="span" t={{ en: "I don't know", hi: "मुझे नहीं पता" }} /></button></div>
         </form>
       )}
-      {!typed && kind !== "gender" && !revealed && <button className="btn btn-primary w-full" onClick={() => setRevealed(true)} autoFocus>Show answer</button>}
+      {!typed && kind !== "gender" && !revealed && <button className="btn btn-primary w-full" onClick={() => setRevealed(true)} autoFocus><Bi as="span" t={{ en: "Show answer", hi: "उत्तर देखें" }} /></button>}
 
       {revealed && (
         <div className="space-y-3 border-t border-app pt-3">
@@ -178,19 +189,19 @@ function CardView({ c, onRate }: { c: QCard; onRate: (r: Rating, answer?: string
           {kind !== "meaning_to_fr" && meaning}
           {c.example && kind !== "cloze" && <p className="text-sm" lang="fr">{c.example.fr}</p>}
           <div>
-            <p className="mb-1 text-sm text-muted">{suggested ? "Suggested rating is highlighted. You decide." : "How well did you know it?"}</p>
-            <div className="grid grid-cols-4 gap-2" role="group" aria-label="Rate this card">
+            <Bi className="mb-1 text-sm text-muted" t={suggested ? { en: "Suggested rating is highlighted. You decide.", hi: "सुझाई गई रेटिंग हाइलाइट की गई है। फ़ैसला आपका है।" } : { en: "How well did you know it?", hi: "आपको यह कितना अच्छी तरह याद था?" }} />
+            <div className="grid grid-cols-4 gap-2" role="group" aria-label={L({ en: "Rate this card", hi: "इस कार्ड को रेट करें" })}>
               {RATINGS.map((x, i) => (
                 <button key={x.r} type="button" disabled={busy} onClick={() => doRate(x.r)}
                   className={`btn flex-col gap-0 border-2 px-1 py-2 ${x.cls} ${suggested === x.r ? "ring-2 ring-offset-2 ring-[var(--focus)]" : ""}`}
-                  aria-label={`${x.label}, next review in ${c.preview[x.r]} (key ${i + 1})`}>
-                  <span className="font-semibold">{x.label}</span>
-                  <span className="deva text-xs" lang="hi">{x.hi}</span>
+                  aria-label={L({ en: `${x.label}, next review in ${c.preview[x.r]} (key ${i + 1})`, hi: `${x.hi}, अगला दोहराव ${c.preview[x.r]} में (कुंजी ${i + 1})` })}>
+                  {explanationLang !== "hi" && <span className="font-semibold">{x.label}</span>}
+                  {explanationLang !== "en" && <span className={`deva ${explanationLang === "hi" ? "font-semibold" : "text-xs"}`} lang="hi">{x.hi}</span>}
                   <span className="text-xs text-muted">{c.preview[x.r]}</span>
                 </button>
               ))}
             </div>
-            <p className="mt-1 hidden text-xs text-muted sm:block">Keys 1–4 also rate.</p>
+            <Bi className="mt-1 hidden text-xs text-muted sm:block" t={{ en: "Keys 1–4 also rate.", hi: "1–4 कुंजियों से भी रेट कर सकते हैं।" }} />
           </div>
         </div>
       )}

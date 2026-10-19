@@ -13,7 +13,7 @@ export async function signUpAndOnboard(page: Page, tag: string) {
   for (let i = 0; i < 10; i++) {
     const start = page.getByRole("button", { name: /^Start Day/ });
     if (await start.isVisible()) { await start.click(); break; }
-    await page.getByRole("button", { name: "Next", exact: true }).click();
+    await page.getByRole("button", { name: /^Next\b/ }).click();
   }
   await page.waitForURL("**/today");
   return { email, password: "password123" };

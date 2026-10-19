@@ -16,28 +16,28 @@
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "le métier", "en": "job / trade / profession", "hi": "पेशा / काम", "pron": "लö मे-त्ये", "ipa": "lə metje", "pos": "noun", "gender": "m", "lemma": "métier" },
-    { "fr": "infirmier / infirmière", "en": "nurse", "hi": "नर्स", "pron": "ऐँ-फ़ीग़-म्ये / ऐँ-फ़ीग़-म्यैग़", "ipa": "ɛ̃fiʁmje / ɛ̃fiʁmjɛʁ", "pos": "noun", "gender": "mf", "lemma": "infirmier" },
-    { "fr": "ingénieur / ingénieure", "en": "engineer", "hi": "इंजीनियर", "pron": "ऐँ-झ़े-न्यöग़", "ipa": "ɛ̃ʒenjœʁ", "pos": "noun", "gender": "mf", "lemma": "ingénieur", "note": { "en": "The feminine 'ingénieure' sounds the same. It is standard in Canada and now common in France too.", "hi": "स्त्रीलिंग 'ingénieure' एक जैसा ही सुनाई देता है। कनाडा में यह मानक है और अब फ़्रांस में भी आम है।" } },
-    { "fr": "le médecin", "en": "doctor", "hi": "डॉक्टर", "pron": "लö मेद-सैँ", "ipa": "lə medsɛ̃", "pos": "noun", "gender": "mf", "lemma": "médecin", "note": { "en": "Same form for women: Elle est médecin. 'Docteur' is used to address a doctor.", "hi": "महिलाओं के लिए भी यही रूप: Elle est médecin। डॉक्टर को संबोधित करने के लिए 'Docteur' कहते हैं।" } },
-    { "fr": "enseignant / enseignante", "en": "teacher", "hi": "शिक्षक / शिक्षिका", "pron": "आँ-सै-न्याँ / आँ-सै-न्याँत", "ipa": "ɑ̃sɛɲɑ̃ / ɑ̃sɛɲɑ̃t", "pos": "noun", "gender": "mf", "lemma": "enseignant" },
-    { "fr": "cuisinier / cuisinière", "en": "cook / chef", "hi": "रसोइया / बावर्ची", "pron": "क्üई-ज़ी-न्ये / क्üई-ज़ी-न्यैग़", "ipa": "kɥizinje / kɥizinjɛʁ", "pos": "noun", "gender": "mf", "lemma": "cuisinier", "note": { "en": "'Une cuisinière' is also a cooking stove.", "hi": "'Une cuisinière' का मतलब चूल्हा/स्टोव भी होता है।" } },
-    { "fr": "vendeur / vendeuse", "en": "salesperson / shop assistant", "hi": "विक्रेता / दुकान का कर्मचारी", "pron": "वाँ-दöग़ / वाँ-दöज़", "ipa": "vɑ̃dœʁ / vɑ̃døz", "pos": "noun", "gender": "mf", "lemma": "vendeur" },
-    { "fr": "caissier / caissière", "en": "cashier", "hi": "कैशियर / ख़ज़ांची", "pron": "कै-स्ये / कै-स्यैग़", "ipa": "kɛsje / kɛsjɛʁ", "pos": "noun", "gender": "mf", "lemma": "caissier" },
-    { "fr": "informaticien / informaticienne", "en": "IT specialist / computer programmer", "hi": "आईटी विशेषज्ञ / कंप्यूटर इंजीनियर", "pron": "ऐँ-फ़ॉग़-मा-ती-स्यैँ / ऐँ-फ़ॉग़-मा-ती-स्यैन", "ipa": "ɛ̃fɔʁmatisjɛ̃ / ɛ̃fɔʁmatisjɛn", "pos": "noun", "gender": "mf", "lemma": "informaticien" },
-    { "fr": "comptable", "en": "accountant", "hi": "अकाउंटेंट / मुनीम", "pron": "कोँ-ताब्ल", "ipa": "kɔ̃tabl", "pos": "noun", "gender": "mf", "note": { "en": "Silent p! Same form for men and women.", "hi": "p मूक है! पुरुष और महिला दोनों के लिए एक ही रूप।" } },
-    { "fr": "l'entreprise", "en": "company / business", "hi": "कंपनी", "pron": "लाँ-त्रö-प्रीज़", "ipa": "lɑ̃tʁəpʁiz", "pos": "noun", "gender": "f", "lemma": "entreprise" },
-    { "fr": "le bureau", "en": "office / desk", "hi": "दफ़्तर / डेस्क", "pron": "लö बü-ग़ो", "ipa": "lə byʁo", "pos": "noun", "gender": "m", "lemma": "bureau" },
-    { "fr": "l'usine", "en": "factory", "hi": "कारख़ाना / फ़ैक्टरी", "pron": "लü-ज़ीन", "ipa": "lyzin", "pos": "noun", "gender": "f", "lemma": "usine" },
-    { "fr": "le / la collègue", "en": "colleague", "hi": "सहकर्मी", "pron": "लö / ला को-लैग", "ipa": "kɔlɛɡ", "pos": "noun", "gender": "mf", "lemma": "collègue" }
+    { "fr": "le métier", "en": "job / trade / profession", "hi": "पेशा / काम", "pron": "ल मे-त्ये", "ipa": "lə metje", "pos": "noun", "gender": "m", "lemma": "métier" },
+    { "fr": "infirmier / infirmière", "en": "nurse", "hi": "नर्स", "pron": "ऐं-फ़ीर-म्ये / ऐं-फ़ीर-म्येर", "ipa": "ɛ̃fiʁmje / ɛ̃fiʁmjɛʁ", "pos": "noun", "gender": "mf", "lemma": "infirmier" },
+    { "fr": "ingénieur / ingénieure", "en": "engineer", "hi": "इंजीनियर", "pron": "ऐं-जे-न्यर", "ipa": "ɛ̃ʒenjœʁ", "pos": "noun", "gender": "mf", "lemma": "ingénieur", "note": { "en": "The feminine 'ingénieure' sounds the same. It is standard in Canada and now common in France too.", "hi": "स्त्रीलिंग 'ingénieure' एक जैसा ही सुनाई देता है। कनाडा में यह मानक है और अब फ़्रांस में भी आम है।" } },
+    { "fr": "le médecin", "en": "doctor", "hi": "डॉक्टर", "pron": "ल मेद-सैं", "ipa": "lə medsɛ̃", "pos": "noun", "gender": "mf", "lemma": "médecin", "note": { "en": "Same form for women: Elle est médecin. 'Docteur' is used to address a doctor.", "hi": "महिलाओं के लिए भी यही रूप: Elle est médecin। डॉक्टर को संबोधित करने के लिए 'Docteur' कहते हैं।" } },
+    { "fr": "enseignant / enseignante", "en": "teacher", "hi": "शिक्षक / शिक्षिका", "pron": "आँ-से-न्याँ / आँ-से-न्याँत", "ipa": "ɑ̃sɛɲɑ̃ / ɑ̃sɛɲɑ̃t", "pos": "noun", "gender": "mf", "lemma": "enseignant" },
+    { "fr": "cuisinier / cuisinière", "en": "cook / chef", "hi": "रसोइया / बावर्ची", "pron": "क्यूई-ज़ी-न्ये / क्यूई-ज़ी-न्येर", "ipa": "kɥizinje / kɥizinjɛʁ", "pos": "noun", "gender": "mf", "lemma": "cuisinier", "note": { "en": "'Une cuisinière' is also a cooking stove.", "hi": "'Une cuisinière' का मतलब चूल्हा/स्टोव भी होता है।" } },
+    { "fr": "vendeur / vendeuse", "en": "salesperson / shop assistant", "hi": "विक्रेता / दुकान का कर्मचारी", "pron": "वाँ-दर / वाँ-दज़", "ipa": "vɑ̃dœʁ / vɑ̃døz", "pos": "noun", "gender": "mf", "lemma": "vendeur" },
+    { "fr": "caissier / caissière", "en": "cashier", "hi": "कैशियर / ख़ज़ांची", "pron": "के-स्ये / के-स्येर", "ipa": "kɛsje / kɛsjɛʁ", "pos": "noun", "gender": "mf", "lemma": "caissier" },
+    { "fr": "informaticien / informaticienne", "en": "IT specialist / computer programmer", "hi": "आईटी विशेषज्ञ / कंप्यूटर इंजीनियर", "pron": "ऐं-फ़ॉर-मा-ती-स्यैं / ऐं-फ़ॉर-मा-ती-स्येन", "ipa": "ɛ̃fɔʁmatisjɛ̃ / ɛ̃fɔʁmatisjɛn", "pos": "noun", "gender": "mf", "lemma": "informaticien" },
+    { "fr": "comptable", "en": "accountant", "hi": "अकाउंटेंट / मुनीम", "pron": "कों-ताब्ल", "ipa": "kɔ̃tabl", "pos": "noun", "gender": "mf", "note": { "en": "Silent p! Same form for men and women.", "hi": "p मूक है! पुरुष और महिला दोनों के लिए एक ही रूप।" } },
+    { "fr": "l'entreprise", "en": "company / business", "hi": "कंपनी", "pron": "लाँ-त्र-प्रीज़", "ipa": "lɑ̃tʁəpʁiz", "pos": "noun", "gender": "f", "lemma": "entreprise" },
+    { "fr": "le bureau", "en": "office / desk", "hi": "दफ़्तर / डेस्क", "pron": "ल ब्यू-रो", "ipa": "lə byʁo", "pos": "noun", "gender": "m", "lemma": "bureau" },
+    { "fr": "l'usine", "en": "factory", "hi": "कारख़ाना / फ़ैक्टरी", "pron": "ल्यू-ज़ीन", "ipa": "lyzin", "pos": "noun", "gender": "f", "lemma": "usine" },
+    { "fr": "le / la collègue", "en": "colleague", "hi": "सहकर्मी", "pron": "ल / ला को-लेग", "ipa": "kɔlɛɡ", "pos": "noun", "gender": "mf", "lemma": "collègue" }
   ],
   "phrases": [
-    { "fr": "Quel est votre métier ?", "en": "What is your job?", "hi": "आपका पेशा क्या है?", "pron": "कै लै वॉत्ग़ मे-त्ये" },
-    { "fr": "Je suis infirmière.", "en": "I'm a nurse. (woman)", "hi": "मैं नर्स हूँ।", "pron": "झ़ö स्üई ज़ैँ-फ़ीग़-म्यैग़", "note": { "en": "No article: not 'je suis une infirmière'.", "hi": "कोई आर्टिकल नहीं: 'je suis une infirmière' नहीं।" } },
-    { "fr": "Je travaille comme cuisinier dans un restaurant.", "en": "I work as a cook in a restaurant.", "hi": "मैं एक रेस्टोरेंट में रसोइये का काम करता हूँ।", "pron": "झ़ö त्रा-वाय कॉम क्üई-ज़ी-न्ये दाँ ज़ैँ ग़ैस-तो-ग़ाँ" },
-    { "fr": "Je travaille dans une entreprise d'informatique.", "en": "I work in an IT company.", "hi": "मैं एक आईटी कंपनी में काम करता/करती हूँ।", "pron": "झ़ö त्रा-वाय दाँ ज़üन आँ-त्रö-प्रीज़ दैँ-फ़ॉग़-मा-तीक" },
-    { "fr": "Je cherche du travail.", "en": "I'm looking for work.", "hi": "मैं नौकरी ढूँढ रहा/रही हूँ।", "pron": "झ़ö शैग़श दü त्रा-वाय" },
-    { "fr": "Au Canada, je voudrais être ingénieure.", "en": "In Canada I'd like to be an engineer.", "hi": "कनाडा में मैं इंजीनियर बनना चाहूँगी।", "pron": "ओ का-ना-दा झ़ö वू-द्रै ज़ैत्ग़ ऐँ-झ़े-न्यöग़" }
+    { "fr": "Quel est votre métier ?", "en": "What is your job?", "hi": "आपका पेशा क्या है?", "pron": "के ले वॉत्र मे-त्ये" },
+    { "fr": "Je suis infirmière.", "en": "I'm a nurse. (woman)", "hi": "मैं नर्स हूँ।", "pron": "ज स्यूई ज़ैं-फ़ीर-म्येर", "note": { "en": "No article: not 'je suis une infirmière'.", "hi": "कोई आर्टिकल नहीं: 'je suis une infirmière' नहीं।" } },
+    { "fr": "Je travaille comme cuisinier dans un restaurant.", "en": "I work as a cook in a restaurant.", "hi": "मैं एक रेस्टोरेंट में रसोइये का काम करता हूँ।", "pron": "ज त्रा-वाय कॉम क्यूई-ज़ी-न्ये दाँ ज़ैं रेस-तो-राँ" },
+    { "fr": "Je travaille dans une entreprise d'informatique.", "en": "I work in an IT company.", "hi": "मैं एक आईटी कंपनी में काम करता/करती हूँ।", "pron": "ज त्रा-वाय दाँ ज़्यून आँ-त्र-प्रीज़ दैं-फ़ॉर-मा-तीक" },
+    { "fr": "Je cherche du travail.", "en": "I'm looking for work.", "hi": "मैं नौकरी ढूँढ रहा/रही हूँ।", "pron": "ज शेरश द्यू त्रा-वाय" },
+    { "fr": "Au Canada, je voudrais être ingénieure.", "en": "In Canada I'd like to be an engineer.", "hi": "कनाडा में मैं इंजीनियर बनना चाहूँगी।", "pron": "ओ का-ना-दा ज वू-द्रे ज़ेत्र ऐं-जे-न्यर" }
   ],
   "grammar": {
     "title": { "en": "Job words: gender, and 'il est' vs 'c'est un'", "hi": "पेशे के शब्द: लिंग, और 'il est' बनाम 'c'est un'" },
@@ -50,32 +50,32 @@
       "hi": "अंग्रेज़ी में हमेशा 'a' चाहिए: She is a nurse। हिंदी में कोई आर्टिकल नहीं: वह नर्स है। यहाँ फ़्रेंच हिंदी जैसी है: Elle est infirmière। सिर्फ़ c'est के साथ, या विशेषण होने पर, फ़्रेंच un/une जोड़ती है (C'est une bonne infirmière — जबकि हिंदी में अब भी 'वह अच्छी नर्स है')। एक और फ़र्क़: हिंदी में अक्सर दोनों लिंगों के लिए एक ही रूप होता है (डॉक्टर, इंजीनियर, नर्स), पर फ़्रेंच में आमतौर पर अंत बदलता है — infirmier/infirmière।"
     },
     "examples": [
-      { "fr": "Elle est infirmière à l'hôpital.", "en": "She's a nurse at the hospital.", "hi": "वह अस्पताल में नर्स है।", "pron": "ए लै तैँ-फ़ीग़-म्यैग़ आ लो-पी-ताल" },
-      { "fr": "Mon mari est ingénieur.", "en": "My husband is an engineer.", "hi": "मेरे पति इंजीनियर हैं।", "pron": "मोँ मा-ग़ी ऐ तैँ-झ़े-न्यöग़" },
-      { "fr": "C'est un bon médecin.", "en": "He/She is a good doctor.", "hi": "वह अच्छा डॉक्टर है।", "pron": "सै तैँ बोँ मेद-सैँ" },
-      { "fr": "Ma sœur est informaticienne à Toronto.", "en": "My sister is an IT specialist in Toronto.", "hi": "मेरी बहन टोरंटो में आईटी विशेषज्ञ है।", "pron": "मा सöग़ ऐ तैँ-फ़ॉग़-मा-ती-स्यैन आ तो-ग़ोँ-तो" },
-      { "fr": "Il travaille comme vendeur dans un magasin de vêtements.", "en": "He works as a salesman in a clothes shop.", "hi": "वह कपड़ों की एक दुकान में सेल्समैन का काम करता है।", "pron": "ईल त्रा-वाय कॉम वाँ-दöग़ दाँ ज़ैँ मा-गा-ज़ैँ दö वैत-माँ" },
-      { "fr": "C'est une enseignante très sympathique.", "en": "She's a very nice teacher.", "hi": "वह बहुत मिलनसार शिक्षिका है।", "pron": "सै तü-नाँ-सै-न्याँत त्रै सैँ-पा-तीक" }
+      { "fr": "Elle est infirmière à l'hôpital.", "en": "She's a nurse at the hospital.", "hi": "वह अस्पताल में नर्स है।", "pron": "ए ले तैं-फ़ीर-म्येर आ लो-पी-ताल" },
+      { "fr": "Mon mari est ingénieur.", "en": "My husband is an engineer.", "hi": "मेरे पति इंजीनियर हैं।", "pron": "मों मा-री ए तैं-जे-न्यर" },
+      { "fr": "C'est un bon médecin.", "en": "He/She is a good doctor.", "hi": "वह अच्छा डॉक्टर है।", "pron": "से तैं बों मेद-सैं" },
+      { "fr": "Ma sœur est informaticienne à Toronto.", "en": "My sister is an IT specialist in Toronto.", "hi": "मेरी बहन टोरंटो में आईटी विशेषज्ञ है।", "pron": "मा सर ए तैं-फ़ॉर-मा-ती-स्येन आ तो-रों-तो" },
+      { "fr": "Il travaille comme vendeur dans un magasin de vêtements.", "en": "He works as a salesman in a clothes shop.", "hi": "वह कपड़ों की एक दुकान में सेल्समैन का काम करता है।", "pron": "ईल त्रा-वाय कॉम वाँ-दर दाँ ज़ैं मा-गा-ज़ैं द वेत-माँ" },
+      { "fr": "C'est une enseignante très sympathique.", "en": "She's a very nice teacher.", "hi": "वह बहुत मिलनसार शिक्षिका है।", "pron": "से त्यू-नाँ-से-न्याँत त्रे सैं-पा-तीक" }
     ],
     "pitfalls": [
       { "en": "Not 'Il est un ingénieur' — say 'Il est ingénieur' or 'C'est un ingénieur'.", "hi": "'Il est un ingénieur' नहीं — 'Il est ingénieur' या 'C'est un ingénieur' कहिए।" },
       { "en": "Not 'Elle est bonne infirmière' — with an adjective: 'C'est une bonne infirmière'.", "hi": "'Elle est bonne infirmière' नहीं — विशेषण के साथ: 'C'est une bonne infirmière'।" },
-      { "en": "Listen for the ending: infirmier (म्ये) vs infirmière (म्यैग़) tell you if it's a man or a woman.", "hi": "अंत ध्यान से सुनिए: infirmier (म्ये) और infirmière (म्यैग़) से पता चलता है कि पुरुष है या महिला।" }
+      { "en": "Listen for the ending: infirmier (म्ये) vs infirmière (म्येर) tell you if it's a man or a woman.", "hi": "अंत ध्यान से सुनिए: infirmier (म्ये) और infirmière (म्येर) से पता चलता है कि पुरुष है या महिला।" }
     ]
   },
   "pronunciation": {
     "focus": "-ien/-ienne and -ier/-ière endings",
     "tip": {
-      "en": "-ien is nasal (स्यैँ, no n sound); -ienne opens the nasal and pronounces the n (स्यैन). -ier ends in a tense ए (म्ये); -ière ends in an open ऐ plus a light r (म्यैग़). These endings carry the gender, so say them clearly.",
-      "hi": "-ien नासिक्य है (स्यैँ, n की आवाज़ नहीं); -ienne में नासिक्य खुल जाता है और n बोला जाता है (स्यैन)। -ier कसे हुए ए पर ख़त्म होता है (म्ये); -ière खुले ऐ और हल्के r पर (म्यैग़)। ये अंत लिंग बताते हैं, इसलिए इन्हें साफ़ बोलिए।"
+      "en": "-ien is nasal (स्यैं, no n sound); -ienne opens the nasal and pronounces the n (स्येन). -ier ends in a tense ए (म्ये); -ière ends in an open ए plus a light r (म्येर). These endings carry the gender, so say them clearly.",
+      "hi": "-ien नासिक्य है (स्यैं, n की आवाज़ नहीं); -ienne में नासिक्य खुल जाता है और n बोला जाता है (स्येन)। -ier कसे हुए ए पर ख़त्म होता है (म्ये); -ière खुले ए और हल्के r पर (म्येर)। ये अंत लिंग बताते हैं, इसलिए इन्हें साफ़ बोलिए।"
     },
     "words": [
-      { "fr": "informaticien", "en": "IT specialist (m.)", "hi": "आईटी विशेषज्ञ (पुरुष)", "pron": "ऐँ-फ़ॉग़-मा-ती-स्यैँ", "ipa": "ɛ̃fɔʁmatisjɛ̃" },
-      { "fr": "informaticienne", "en": "IT specialist (f.)", "hi": "आईटी विशेषज्ञ (महिला)", "pron": "ऐँ-फ़ॉग़-मा-ती-स्यैन", "ipa": "ɛ̃fɔʁmatisjɛn" },
-      { "fr": "pharmacien / pharmacienne", "en": "pharmacist", "hi": "फ़ार्मासिस्ट / दवा-विक्रेता", "pron": "फ़ाग़-मा-स्यैँ / फ़ाग़-मा-स्यैन", "ipa": "faʁmasjɛ̃ / faʁmasjɛn" },
-      { "fr": "infirmier", "en": "nurse (m.)", "hi": "नर्स (पुरुष)", "pron": "ऐँ-फ़ीग़-म्ये", "ipa": "ɛ̃fiʁmje" },
-      { "fr": "infirmière", "en": "nurse (f.)", "hi": "नर्स (महिला)", "pron": "ऐँ-फ़ीग़-म्यैग़", "ipa": "ɛ̃fiʁmjɛʁ" },
-      { "fr": "caissière", "en": "cashier (f.)", "hi": "कैशियर (महिला)", "pron": "कै-स्यैग़", "ipa": "kɛsjɛʁ" }
+      { "fr": "informaticien", "en": "IT specialist (m.)", "hi": "आईटी विशेषज्ञ (पुरुष)", "pron": "ऐं-फ़ॉर-मा-ती-स्यैं", "ipa": "ɛ̃fɔʁmatisjɛ̃" },
+      { "fr": "informaticienne", "en": "IT specialist (f.)", "hi": "आईटी विशेषज्ञ (महिला)", "pron": "ऐं-फ़ॉर-मा-ती-स्येन", "ipa": "ɛ̃fɔʁmatisjɛn" },
+      { "fr": "pharmacien / pharmacienne", "en": "pharmacist", "hi": "फ़ार्मासिस्ट / दवा-विक्रेता", "pron": "फ़ार-मा-स्यैं / फ़ार-मा-स्येन", "ipa": "faʁmasjɛ̃ / faʁmasjɛn" },
+      { "fr": "infirmier", "en": "nurse (m.)", "hi": "नर्स (पुरुष)", "pron": "ऐं-फ़ीर-म्ये", "ipa": "ɛ̃fiʁmje" },
+      { "fr": "infirmière", "en": "nurse (f.)", "hi": "नर्स (महिला)", "pron": "ऐं-फ़ीर-म्येर", "ipa": "ɛ̃fiʁmjɛʁ" },
+      { "fr": "caissière", "en": "cashier (f.)", "hi": "कैशियर (महिला)", "pron": "के-स्येर", "ipa": "kɛsjɛʁ" }
     ]
   },
   "listening": {
@@ -100,11 +100,11 @@
       { "speaker": "Nadia", "voice": "f2", "fr": "De rien. Bonne chance !", "en": "You're welcome. Good luck!", "hi": "कोई बात नहीं। शुभकामनाएँ!" }
     ],
     "questions": [
-      { "q": { "en": "What does Arjun do in Canada at the moment?" }, "options": ["He is an engineer in a construction company", "He is a cashier in a supermarket", "He is an accountant in a bank"], "answer": 1, "explanation": { "en": "'au Canada, je travaille comme caissier dans un supermarché'.", "hi": "'au Canada, je travaille comme caissier dans un supermarché' — सुपरमार्केट में कैशियर।" }, "kind": "literal", "evidence": "au Canada, je travaille comme caissier dans un supermarché" },
-      { "q": { "en": "What kind of job does Arjun want?" }, "options": ["Engineer in a construction company", "Nurse in a hospital", "Salesman in a shop"], "answer": 0, "explanation": { "en": "'Je voudrais travailler dans une entreprise de construction.'", "hi": "'Je voudrais travailler dans une entreprise de construction.' — निर्माण कंपनी में।" }, "kind": "literal", "evidence": "Je voudrais travailler dans une entreprise de construction." },
-      { "q": { "en": "When does Nadia work?" }, "options": ["In the morning", "At night", "At the weekend only"], "answer": 1, "explanation": { "en": "'Je travaille dans un hôpital à Laval, la nuit.'", "hi": "'… la nuit' — रात में।" }, "kind": "literal", "evidence": "Je travaille dans un hôpital à Laval, la nuit." },
-      { "q": { "en": "What is Nadia's husband's job?" }, "options": ["Nurse", "Engineer", "Accountant"], "answer": 2, "explanation": { "en": "'il est comptable dans une banque' — no article after il est.", "hi": "'il est comptable dans une banque' — il est के बाद कोई आर्टिकल नहीं।" }, "kind": "literal", "evidence": "il est comptable dans une banque" },
-      { "q": { "en": "Why does Nadia tell Arjun about Bâtir Plus?" }, "options": ["They are looking for engineers", "Her husband works there", "It is a hospital"], "answer": 0, "explanation": { "en": "'Ils cherchent des ingénieurs !'", "hi": "'Ils cherchent des ingénieurs !' — उन्हें इंजीनियर चाहिए।" }, "kind": "inference", "evidence": "Ils cherchent des ingénieurs !" }
+      { "q": { "en": "What does Arjun do in Canada at the moment?", "hi": "इस समय अर्जुन कनाडा में क्या काम करता है?" }, "options": ["He is an engineer in a construction company", "He is a cashier in a supermarket", "He is an accountant in a bank"], "optionsHi": ["वह एक निर्माण कंपनी में इंजीनियर है", "वह एक सुपरमार्केट में कैशियर है", "वह एक बैंक में अकाउंटेंट है"], "answer": 1, "explanation": { "en": "'au Canada, je travaille comme caissier dans un supermarché'.", "hi": "'au Canada, je travaille comme caissier dans un supermarché' — सुपरमार्केट में कैशियर।" }, "kind": "literal", "evidence": "au Canada, je travaille comme caissier dans un supermarché" },
+      { "q": { "en": "What kind of job does Arjun want?", "hi": "अर्जुन किस तरह की नौकरी चाहता है?" }, "options": ["Engineer in a construction company", "Nurse in a hospital", "Salesman in a shop"], "optionsHi": ["निर्माण कंपनी में इंजीनियर", "अस्पताल में नर्स", "दुकान में सेल्समैन"], "answer": 0, "explanation": { "en": "'Je voudrais travailler dans une entreprise de construction.'", "hi": "'Je voudrais travailler dans une entreprise de construction.' — निर्माण कंपनी में।" }, "kind": "literal", "evidence": "Je voudrais travailler dans une entreprise de construction." },
+      { "q": { "en": "When does Nadia work?", "hi": "नादिया कब काम करती है?" }, "options": ["In the morning", "At night", "At the weekend only"], "optionsHi": ["सुबह", "रात में", "केवल सप्ताहांत में"], "answer": 1, "explanation": { "en": "'Je travaille dans un hôpital à Laval, la nuit.'", "hi": "'… la nuit' — रात में।" }, "kind": "literal", "evidence": "Je travaille dans un hôpital à Laval, la nuit." },
+      { "q": { "en": "What is Nadia's husband's job?", "hi": "नादिया के पति का पेशा क्या है?" }, "options": ["Nurse", "Engineer", "Accountant"], "optionsHi": ["नर्स", "इंजीनियर", "अकाउंटेंट"], "answer": 2, "explanation": { "en": "'il est comptable dans une banque' — no article after il est.", "hi": "'il est comptable dans une banque' — il est के बाद कोई आर्टिकल नहीं।" }, "kind": "literal", "evidence": "il est comptable dans une banque" },
+      { "q": { "en": "Why does Nadia tell Arjun about Bâtir Plus?", "hi": "नादिया अर्जुन को Bâtir Plus के बारे में क्यों बताती है?" }, "options": ["They are looking for engineers", "Her husband works there", "It is a hospital"], "optionsHi": ["वे इंजीनियरों की तलाश में हैं", "उसका पति वहाँ काम करता है", "यह एक अस्पताल है"], "answer": 0, "explanation": { "en": "'Ils cherchent des ingénieurs !'", "hi": "'Ils cherchent des ingénieurs !' — उन्हें इंजीनियर चाहिए।" }, "kind": "inference", "evidence": "Ils cherchent des ingénieurs !" }
     ],
     "dictation": ["Je cherche du travail.", "Je suis infirmière.", "Il est comptable dans une banque."],
     "gapFill": { "text": "Je suis ___, mais au Canada, je travaille ___ caissier dans un supermarché.", "answers": ["ingénieur", "comme"] }
@@ -116,11 +116,11 @@
       "hi": "अपने काम के बारे में — या कनाडा में जो काम आप चाहते हैं उसके बारे में — सवालों के जवाब दीजिए। हर बार कम से कम एक जानकारी जोड़िए: कहाँ, कब, किसके साथ, क्यों पसंद है।"
     },
     "prompts": [
-      { "fr": "Quel est votre métier ?", "en": "What is your job?", "hi": "आपका पेशा क्या है?", "pron": "कै लै वॉत्ग़ मे-त्ये", "model": "Je suis comptable. Je travaille dans une petite entreprise." },
+      { "fr": "Quel est votre métier ?", "en": "What is your job?", "hi": "आपका पेशा क्या है?", "pron": "के ले वॉत्र मे-त्ये", "model": "Je suis comptable. Je travaille dans une petite entreprise." },
       { "fr": "Vous travaillez où ?", "en": "Where do you work?", "hi": "आप कहाँ काम करते हैं?", "pron": "वू त्रा-वा-ये ऊ", "model": "Je travaille dans un bureau au centre-ville, près du métro." },
-      { "fr": "Vous travaillez quels jours ?", "en": "Which days do you work?", "hi": "आप किन दिनों काम करते हैं?", "pron": "वू त्रा-वा-ये कैल झ़ूग़", "model": "Je travaille du lundi au vendredi, de neuf heures à dix-sept heures." },
-      { "fr": "Vous aimez votre travail ?", "en": "Do you like your job?", "hi": "क्या आपको अपना काम पसंद है?", "pron": "वू ज़ै-मे वॉत्ग़ त्रा-वाय", "model": "Oui, j'aime beaucoup mon travail. Mes collègues sont sympathiques." },
-      { "fr": "Au Canada, quel métier voudriez-vous faire ?", "en": "In Canada, what job would you like to do?", "hi": "कनाडा में आप कौन-सा काम करना चाहेंगे?", "pron": "ओ का-ना-दा कैल मे-त्ये वू-द्री-ये वू फ़ैग़", "model": "Je voudrais être infirmière dans un hôpital." }
+      { "fr": "Vous travaillez quels jours ?", "en": "Which days do you work?", "hi": "आप किन दिनों काम करते हैं?", "pron": "वू त्रा-वा-ये केल जूर", "model": "Je travaille du lundi au vendredi, de neuf heures à dix-sept heures." },
+      { "fr": "Vous aimez votre travail ?", "en": "Do you like your job?", "hi": "क्या आपको अपना काम पसंद है?", "pron": "वू ज़े-मे वॉत्र त्रा-वाय", "model": "Oui, j'aime beaucoup mon travail. Mes collègues sont sympathiques." },
+      { "fr": "Au Canada, quel métier voudriez-vous faire ?", "en": "In Canada, what job would you like to do?", "hi": "कनाडा में आप कौन-सा काम करना चाहेंगे?", "pron": "ओ का-ना-दा केल मे-त्ये वू-द्री-ये वू फ़ेर", "model": "Je voudrais être infirmière dans un hôpital." }
     ],
     "tip": {
       "en": "Say 'Je suis + job' with no article. If you want to add 'good' or 'new', switch to 'C'est un/une …' or simply describe the job separately: 'Je suis comptable. C'est un travail intéressant.'",
@@ -136,10 +136,10 @@
       "hi": "1. लावाल की सांते प्लस फ़ार्मेसी को एक कैशियर (पुरुष या महिला) चाहिए। आंशिक समय: हफ़्ते में 20 घंटे, शाम और सप्ताहांत में। फ़्रेंच ज़रूरी, अंग्रेज़ी हो तो अच्छा। 17 डॉलर प्रति घंटा।\n2. ल सां-लोरां रेस्टोरेंट को एक रसोइया चाहिए। पूर्णकालिक, मंगलवार से शनिवार। दो साल का अनुभव। 22 डॉलर प्रति घंटा।\n3. ले ज़ेराबल प्राइमरी स्कूल को गणित का एक शिक्षक या शिक्षिका चाहिए। एक साल का अनुबंध, सितंबर से। शिक्षा में डिग्री ज़रूरी।\nअपना बायोडाटा ईमेल से emplois@exemple.ca पर भेजिए।"
     },
     "questions": [
-      { "q": { "en": "Which job is part-time?" }, "options": ["Cashier at the pharmacy", "Cook at the restaurant", "Teacher at the school"], "answer": 0, "explanation": { "en": "'Temps partiel : 20 heures par semaine' is in the pharmacy ad.", "hi": "'Temps partiel : 20 heures par semaine' फ़ार्मेसी के विज्ञापन में है।" }, "kind": "literal", "evidence": "Temps partiel : 20 heures par semaine, le soir et le week-end." },
-      { "q": { "en": "Which job pays $22 an hour?" }, "options": ["Cashier", "Cook", "Teacher"], "answer": 1, "explanation": { "en": "The restaurant ad: '22 $ de l'heure'.", "hi": "रेस्टोरेंट का विज्ञापन: '22 $ de l'heure'।" }, "kind": "literal", "evidence": "Deux ans d'expérience. 22 $ de l'heure." },
-      { "q": { "en": "Meera speaks very good English but little French. Which ad is a problem for her?" }, "options": ["The pharmacy ad", "The restaurant ad", "None"], "answer": 0, "explanation": { "en": "The pharmacy requires French: 'Français obligatoire, anglais un atout'.", "hi": "फ़ार्मेसी में फ़्रेंच ज़रूरी है: 'Français obligatoire, anglais un atout'।" }, "kind": "inference", "evidence": "Français obligatoire, anglais un atout." },
-      { "q": { "en": "When does the teaching job start?" }, "options": ["In January", "In September", "Immediately"], "answer": 1, "explanation": { "en": "'à partir de septembre' = starting in September.", "hi": "'à partir de septembre' = सितंबर से।" }, "kind": "literal", "evidence": "Contrat d'un an, à partir de septembre." }
+      { "q": { "en": "Which job is part-time?", "hi": "कौन-सी नौकरी पार्ट-टाइम है?" }, "options": ["Cashier at the pharmacy", "Cook at the restaurant", "Teacher at the school"], "optionsHi": ["फ़ार्मेसी में कैशियर", "रेस्तराँ में रसोइया", "स्कूल में शिक्षक"], "answer": 0, "explanation": { "en": "'Temps partiel : 20 heures par semaine' is in the pharmacy ad.", "hi": "'Temps partiel : 20 heures par semaine' फ़ार्मेसी के विज्ञापन में है।" }, "kind": "literal", "evidence": "Temps partiel : 20 heures par semaine, le soir et le week-end." },
+      { "q": { "en": "Which job pays $22 an hour?", "hi": "कौन-सी नौकरी में $22 प्रति घंटा मिलता है?" }, "options": ["Cashier", "Cook", "Teacher"], "optionsHi": ["कैशियर", "रसोइया", "शिक्षक"], "answer": 1, "explanation": { "en": "The restaurant ad: '22 $ de l'heure'.", "hi": "रेस्टोरेंट का विज्ञापन: '22 $ de l'heure'।" }, "kind": "literal", "evidence": "Deux ans d'expérience. 22 $ de l'heure." },
+      { "q": { "en": "Meera speaks very good English but little French. Which ad is a problem for her?", "hi": "मीरा बहुत अच्छी अंग्रेज़ी बोलती है, लेकिन फ़्रेंच थोड़ी ही। उसके लिए कौन-सा विज्ञापन समस्या है?" }, "options": ["The pharmacy ad", "The restaurant ad", "None"], "optionsHi": ["फ़ार्मेसी का विज्ञापन", "रेस्तराँ का विज्ञापन", "कोई नहीं"], "answer": 0, "explanation": { "en": "The pharmacy requires French: 'Français obligatoire, anglais un atout'.", "hi": "फ़ार्मेसी में फ़्रेंच ज़रूरी है: 'Français obligatoire, anglais un atout'।" }, "kind": "inference", "evidence": "Français obligatoire, anglais un atout." },
+      { "q": { "en": "When does the teaching job start?", "hi": "शिक्षण की नौकरी कब शुरू होती है?" }, "options": ["In January", "In September", "Immediately"], "optionsHi": ["जनवरी में", "सितंबर में", "तुरंत"], "answer": 1, "explanation": { "en": "'à partir de septembre' = starting in September.", "hi": "'à partir de septembre' = सितंबर से।" }, "kind": "literal", "evidence": "Contrat d'un an, à partir de septembre." }
     ]
   },
   "writing": {
@@ -155,9 +155,9 @@
       { "en": "Use de … à … for hours and days: de neuf heures à dix-sept heures, du lundi au vendredi.", "hi": "घंटों और दिनों के लिए de … à …: de neuf heures à dix-sept heures, du lundi au vendredi।" }
     ],
     "usefulPhrases": [
-      { "fr": "Je travaille du lundi au vendredi.", "en": "I work Monday to Friday.", "hi": "मैं सोमवार से शुक्रवार तक काम करता/करती हूँ।", "pron": "झ़ö त्रा-वाय दü लैँ-दी ओ वाँ-द्रö-दी" },
-      { "fr": "Mes collègues sont sympathiques.", "en": "My colleagues are nice.", "hi": "मेरे सहकर्मी अच्छे हैं।", "pron": "मे को-लैग सोँ सैँ-पा-तीक" },
-      { "fr": "C'est un travail intéressant.", "en": "It's an interesting job.", "hi": "यह दिलचस्प काम है।", "pron": "सै तैँ त्रा-वाय ऐँ-ते-ग़े-साँ" }
+      { "fr": "Je travaille du lundi au vendredi.", "en": "I work Monday to Friday.", "hi": "मैं सोमवार से शुक्रवार तक काम करता/करती हूँ।", "pron": "ज त्रा-वाय द्यू लैं-दी ओ वाँ-द्र-दी" },
+      { "fr": "Mes collègues sont sympathiques.", "en": "My colleagues are nice.", "hi": "मेरे सहकर्मी अच्छे हैं।", "pron": "मे को-लेग सों सैं-पा-तीक" },
+      { "fr": "C'est un travail intéressant.", "en": "It's an interesting job.", "hi": "यह दिलचस्प काम है।", "pron": "से तैं त्रा-वाय ऐं-ते-रे-साँ" }
     ],
     "model": {
       "fr": "Je suis informaticienne. Je travaille dans une entreprise d'informatique à Montréal. Mon bureau est au centre-ville, près du métro. Je travaille du lundi au vendredi, de neuf heures à dix-sept heures. Mes collègues sont très sympathiques. Mon chef est ingénieur. C'est un travail intéressant, mais un peu difficile. J'aime beaucoup mon métier !",
@@ -172,14 +172,14 @@
   "review": {
     "fromDays": [3, 9, 13, 15, 22, 29],
     "items": [
-      { "fr": "Je suis indien. / Je suis indienne.", "en": "I'm Indian.", "hi": "मैं भारतीय हूँ।", "pron": "झ़ö स्üई ज़ैँ-द्यैँ / ज़ैँ-द्यैन" },
-      { "fr": "Je travaille à Toronto.", "en": "I work in Toronto.", "hi": "मैं टोरंटो में काम करता/करती हूँ।", "pron": "झ़ö त्रा-वाय आ तो-ग़ोँ-तो" },
-      { "fr": "du lundi au vendredi", "en": "from Monday to Friday", "hi": "सोमवार से शुक्रवार तक", "pron": "दü लैँ-दी ओ वाँ-द्रö-दी" },
-      { "fr": "à neuf heures", "en": "at nine o'clock", "hi": "नौ बजे", "pron": "आ नö वöग़" },
-      { "fr": "Ma femme est médecin.", "en": "My wife is a doctor.", "hi": "मेरी पत्नी डॉक्टर हैं।", "pron": "मा फ़ाम ऐ मेद-सैँ" },
-      { "fr": "Je prends le métro.", "en": "I take the metro.", "hi": "मैं मेट्रो लेता/लेती हूँ।", "pron": "झ़ö प्राँ लö मे-त्रो" },
-      { "fr": "Il est grand et sympathique.", "en": "He's tall and nice.", "hi": "वह लंबा और मिलनसार है।", "pron": "ई लै ग्राँ ए सैँ-पा-तीक" },
-      { "fr": "Qu'est-ce que vous faites dans la vie ?", "en": "What do you do for a living?", "hi": "आप क्या काम करते हैं?", "pron": "कैस-कö वू फ़ैत दाँ ला वी" }
+      { "fr": "Je suis indien. / Je suis indienne.", "en": "I'm Indian.", "hi": "मैं भारतीय हूँ।", "pron": "ज स्यूई ज़ैं-द्यैं / ज़ैं-द्येन" },
+      { "fr": "Je travaille à Toronto.", "en": "I work in Toronto.", "hi": "मैं टोरंटो में काम करता/करती हूँ।", "pron": "ज त्रा-वाय आ तो-रों-तो" },
+      { "fr": "du lundi au vendredi", "en": "from Monday to Friday", "hi": "सोमवार से शुक्रवार तक", "pron": "द्यू लैं-दी ओ वाँ-द्र-दी" },
+      { "fr": "à neuf heures", "en": "at nine o'clock", "hi": "नौ बजे", "pron": "आ न वर" },
+      { "fr": "Ma femme est médecin.", "en": "My wife is a doctor.", "hi": "मेरी पत्नी डॉक्टर हैं।", "pron": "मा फ़ाम ए मेद-सैं" },
+      { "fr": "Je prends le métro.", "en": "I take the metro.", "hi": "मैं मेट्रो लेता/लेती हूँ।", "pron": "ज प्राँ ल मे-त्रो" },
+      { "fr": "Il est grand et sympathique.", "en": "He's tall and nice.", "hi": "वह लंबा और मिलनसार है।", "pron": "ई ले ग्राँ ए सैं-पा-तीक" },
+      { "fr": "Qu'est-ce que vous faites dans la vie ?", "en": "What do you do for a living?", "hi": "आप क्या काम करते हैं?", "pron": "केस-क वू फ़ेत दाँ ला वी" }
     ]
   },
   "assessment": [
@@ -189,6 +189,6 @@
     { "type": "fill", "prompt": { "en": "Complete: I work as a cook.", "hi": "पूरा कीजिए: मैं रसोइये का काम करता हूँ।" }, "sentence": "Je travaille ___ cuisinier.", "answer": "comme", "accept": [], "explanation": { "en": "travailler comme + job, no article.", "hi": "travailler comme + पेशा, कोई आर्टिकल नहीं।" } },
     { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "I'm looking for work.", "hi": "मैं नौकरी ढूँढ रहा हूँ।" }, "answer": "Je cherche du travail.", "accept": ["je cherche du travail", "Je cherche du travail", "Je cherche un travail.", "Je cherche un emploi."], "explanation": { "en": "chercher du travail — partitive, because 'work' is unspecified.", "hi": "chercher du travail — 'कुछ' वाला आर्टिकल, क्योंकि 'काम' अनिश्चित है।" } },
     { "type": "reorder", "prompt": { "en": "Put the words in order: My sister is an accountant in a bank.", "hi": "शब्दों को सही क्रम में रखिए: मेरी बहन एक बैंक में अकाउंटेंट है।" }, "words": ["comptable", "sœur", "Ma", "est", "dans", "banque", "une", "."], "answer": "Ma sœur est comptable dans une banque.", "explanation": { "en": "est + job without article.", "hi": "est + बिना आर्टिकल पेशा।" } },
-    { "type": "mcq", "prompt": { "en": "You hear 'ऐँ-फ़ीग़-म्यैग़'. Who is it?", "hi": "आप सुनते हैं 'ऐँ-फ़ीग़-म्यैग़'। कौन है?" }, "options": ["A male nurse", "A female nurse", "A doctor"], "answer": 1, "explanation": { "en": "The ending यैग़ (-ière) is feminine.", "hi": "अंत यैग़ (-ière) स्त्रीलिंग है।" } }
+    { "type": "mcq", "prompt": { "en": "You hear 'ऐं-फ़ीर-म्येर'. Who is it?", "hi": "आप सुनते हैं 'ऐं-फ़ीर-म्येर'। कौन है?" }, "options": ["A male nurse", "A female nurse", "A doctor"], "answer": 1, "explanation": { "en": "The ending येर (-ière) is feminine.", "hi": "अंत येर (-ière) स्त्रीलिंग है।" } }
   ]
 }

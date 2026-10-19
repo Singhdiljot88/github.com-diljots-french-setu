@@ -20,7 +20,7 @@
     ],
     "summary": {
       "en": "You need basic negation ne … pas (Day 12), the passé composé (Days 41 and 43), the futur simple (Day 48) and indirect object pronouns (Day 52).",
-      "hi": "आपको साधारण निषेध ne … pas (दिन 12), पासे कॉम्पोज़े (दिन 41 और 43), फ़्यूतूर सैंप्ल (दिन 48) और अप्रत्यक्ष कर्म सर्वनाम (दिन 52) याद होने चाहिए।"
+      "hi": "आपको साधारण निषेध ne … pas (दिन 12), passé composé (पूर्ण भूतकाल) (दिन 41 और 43), फ़्यूतूर सैंप्ल (दिन 48) और अप्रत्यक्ष कर्म सर्वनाम (दिन 52) याद होने चाहिए।"
     }
   },
   "light": false,
@@ -30,7 +30,7 @@
       "fr": "un message vocal",
       "en": "a voicemail (message)",
       "hi": "वॉइसमेल, आवाज़ वाला संदेश",
-      "pron": "ऐँ मे-साझ़ वो-काल",
+      "pron": "ऐं मे-साज वो-काल",
       "ipa": "ɛ̃ mesaʒ vɔkal",
       "pos": "noun",
       "gender": "m",
@@ -44,7 +44,7 @@
       "fr": "une annonce",
       "en": "an announcement; an ad",
       "hi": "घोषणा; विज्ञापन",
-      "pron": "ü ना-नोँस",
+      "pron": "यू ना-नोंस",
       "ipa": "yn anɔ̃s",
       "pos": "noun",
       "gender": "f",
@@ -54,7 +54,7 @@
       "fr": "rappeler",
       "en": "to call back",
       "hi": "वापस फ़ोन करना",
-      "pron": "ग़ा-प्ले",
+      "pron": "रा-प्ले",
       "ipa": "ʁaple",
       "pos": "verb",
       "note": {
@@ -66,7 +66,7 @@
       "fr": "annuler",
       "en": "to cancel",
       "hi": "रद्द करना",
-      "pron": "आ-नü-ले",
+      "pron": "आ-न्यू-ले",
       "ipa": "anyle",
       "pos": "verb",
       "note": {
@@ -90,7 +90,7 @@
       "fr": "confirmer",
       "en": "to confirm",
       "hi": "पुष्टि करना",
-      "pron": "कोँ-फ़ीग़-मे",
+      "pron": "कों-फ़ीर-मे",
       "ipa": "kɔ̃fiʁme",
       "pos": "verb"
     },
@@ -98,7 +98,7 @@
       "fr": "en raison de",
       "en": "because of, due to",
       "hi": "की वजह से",
-      "pron": "आँ ग़ै-ज़ोँ दö",
+      "pron": "आँ रे-ज़ों द",
       "ipa": "ɑ̃ ʁɛzɔ̃ də",
       "pos": "phrase",
       "note": {
@@ -124,7 +124,7 @@
       "fr": "le quai",
       "en": "the platform (metro, train)",
       "hi": "प्लेटफ़ॉर्म",
-      "pron": "लö कै",
+      "pron": "ल के",
       "ipa": "lə ke",
       "pos": "noun",
       "gender": "m",
@@ -134,7 +134,7 @@
       "fr": "la sortie",
       "en": "the exit",
       "hi": "निकास, बाहर जाने का रास्ता",
-      "pron": "ला सोग़-ती",
+      "pron": "ला सोर-ती",
       "ipa": "la sɔʁti",
       "pos": "noun",
       "gender": "f",
@@ -144,7 +144,7 @@
       "fr": "jamais",
       "en": "never",
       "hi": "कभी नहीं",
-      "pron": "झ़ा-मै",
+      "pron": "जा-मे",
       "ipa": "ʒamɛ",
       "pos": "adverb",
       "note": {
@@ -156,7 +156,7 @@
       "fr": "rien",
       "en": "nothing",
       "hi": "कुछ नहीं",
-      "pron": "ग़्यैँ",
+      "pron": "र्यैं",
       "ipa": "ʁjɛ̃",
       "pos": "pronoun",
       "note": {
@@ -168,7 +168,7 @@
       "fr": "personne",
       "en": "nobody",
       "hi": "कोई नहीं",
-      "pron": "पैग़-सॉन",
+      "pron": "पेर-सॉन",
       "ipa": "pɛʁsɔn",
       "pos": "pronoun",
       "note": {
@@ -182,37 +182,37 @@
       "fr": "Vous êtes bien sur la boîte vocale de …",
       "en": "You have reached the voicemail of …",
       "hi": "आप … के वॉइसमेल पर पहुँचे हैं",
-      "pron": "वू ज़ैत ब्यैँ सüग़ ला ब्वात वो-काल दö"
+      "pron": "वू ज़ेत ब्यैं स्यूर ला ब्वात वो-काल द"
     },
     {
       "fr": "Laissez un message après le bip.",
       "en": "Leave a message after the beep.",
       "hi": "बीप के बाद संदेश छोड़िए।",
-      "pron": "लै-से ज़ैँ मे-साझ़ आ-प्रै लö बीप"
+      "pron": "ले-से ज़ैं मे-साज आ-प्रे ल बीप"
     },
     {
       "fr": "Votre attention, s'il vous plaît.",
       "en": "Your attention, please.",
       "hi": "कृपया ध्यान दीजिए।",
-      "pron": "वो-त्रा-ताँ-स्योँ सील वू प्लै"
+      "pron": "वो-त्रा-ताँ-स्यों सील वू प्ले"
     },
     {
       "fr": "Je n'ai plus de batterie.",
       "en": "My battery is dead (I have no more battery).",
       "hi": "मेरी बैटरी ख़त्म हो गई है।",
-      "pron": "झ़ö ने प्लü दö बा-त्ग़ी"
+      "pron": "ज ने प्ल्यू द बा-त्री"
     },
     {
       "fr": "Il n'y a personne.",
       "en": "There's nobody there.",
       "hi": "वहाँ कोई नहीं है।",
-      "pron": "ईल न्या पैग़-सॉन"
+      "pron": "ईल न्या पेर-सॉन"
     },
     {
       "fr": "Je n'ai que dix minutes.",
       "en": "I only have ten minutes.",
       "hi": "मेरे पास सिर्फ़ दस मिनट हैं।",
-      "pron": "झ़ö ने कö दी मी-नüत"
+      "pron": "ज ने क दी मी-न्यूत"
     },
     {
       "fr": "J'sais pas.",
@@ -228,7 +228,7 @@
     },
     "explanation": {
       "en": "Like ne … pas, these negations wrap around the conjugated verb: ne … plus (no longer, no more): Je ne travaille plus le mardi. ne … jamais (never): Il ne mange jamais de viande. ne … rien (nothing): Je ne comprends rien. ne … personne (nobody): Je ne connais personne ici. ne … que (only, it is not really negative): Il ne reste que deux places. As with pas, des/du/un become de after plus and jamais: Je n'ai plus d'argent. In the passé composé, plus, jamais and rien go before the participle (Je n'ai rien vu, Je ne suis jamais allé à Vancouver), but personne goes after it (Je n'ai vu personne). Rien and personne can also be the subject, with ne before the verb: Personne n'est venu. Rien ne marche. In relaxed speech, French speakers usually drop ne: J'sais pas, Y a plus de pain, T'as rien mangé ? The negative meaning stays in pas, plus, rien … Understand it when you hear it, but keep ne in writing and in formal speaking.",
-      "hi": "ne … pas की तरह ये निषेध भी संयुग्मित क्रिया को दोनों ओर से घेरते हैं: ne … plus (अब नहीं, और नहीं): Je ne travaille plus le mardi। ne … jamais (कभी नहीं): Il ne mange jamais de viande। ne … rien (कुछ नहीं): Je ne comprends rien। ne … personne (कोई नहीं): Je ne connais personne ici। ne … que (सिर्फ़, असल में यह नकारात्मक नहीं है): Il ne reste que deux places। pas की तरह plus और jamais के बाद des/du/un बदलकर de हो जाते हैं: Je n'ai plus d'argent। पासे कॉम्पोज़े में plus, jamais और rien कृदंत से पहले आते हैं (Je n'ai rien vu, Je ne suis jamais allé à Vancouver), पर personne कृदंत के बाद (Je n'ai vu personne)। rien और personne कर्ता भी हो सकते हैं, तब ne क्रिया से पहले: Personne n'est venu। Rien ne marche। आराम की बोलचाल में फ़्रेंच बोलने वाले अक्सर ne छोड़ देते हैं: J'sais pas, Y a plus de pain, T'as rien mangé ? नकारात्मक अर्थ pas, plus, rien … में बना रहता है। सुनें तो समझिए, पर लिखते समय और औपचारिक बातचीत में ne रखिए।"
+      "hi": "ne … pas की तरह ये निषेध भी संयुग्मित क्रिया को दोनों ओर से घेरते हैं: ne … plus (अब नहीं, और नहीं): Je ne travaille plus le mardi। ne … jamais (कभी नहीं): Il ne mange jamais de viande। ne … rien (कुछ नहीं): Je ne comprends rien। ne … personne (कोई नहीं): Je ne connais personne ici। ne … que (सिर्फ़, असल में यह नकारात्मक नहीं है): Il ne reste que deux places। pas की तरह plus और jamais के बाद des/du/un बदलकर de हो जाते हैं: Je n'ai plus d'argent। passé composé में plus, jamais और rien कृदंत से पहले आते हैं (Je n'ai rien vu, Je ne suis jamais allé à Vancouver), पर personne कृदंत के बाद (Je n'ai vu personne)। rien और personne कर्ता भी हो सकते हैं, तब ne क्रिया से पहले: Personne n'est venu। Rien ne marche। आराम की बोलचाल में फ़्रेंच बोलने वाले अक्सर ne छोड़ देते हैं: J'sais pas, Y a plus de pain, T'as rien mangé ? नकारात्मक अर्थ pas, plus, rien … में बना रहता है। सुनें तो समझिए, पर लिखते समय और औपचारिक बातचीत में ne रखिए।"
     },
     "comparison": {
       "en": "Hindi works much the same way: नहीं is the negative, and a second word adds the meaning: कभी नहीं (ne … jamais), कुछ नहीं (ne … rien), कोई नहीं (ne … personne), अब नहीं (ne … plus). 'कोई नहीं आया' is exactly 'Personne n'est venu'. Only ne … que is different: it means सिर्फ़ / केवल, a positive meaning, so 'Je n'ai que dix minutes' = 'मेरे पास सिर्फ़ दस मिनट हैं'.",
@@ -239,37 +239,37 @@
         "fr": "Le docteur ne travaille plus le mardi.",
         "en": "The doctor no longer works on Tuesdays.",
         "hi": "डॉक्टर अब मंगलवार को काम नहीं करते।",
-        "pron": "लö दॉक-तöग़ नö त्रा-वाय प्लü लö माग़-दी"
+        "pron": "ल दॉक-तर न त्रा-वाय प्ल्यू ल मार-दी"
       },
       {
         "fr": "Je ne suis jamais allé à Vancouver.",
         "en": "I've never been to Vancouver.",
         "hi": "मैं कभी वैंकूवर नहीं गया।",
-        "pron": "झ़ö नö सüई झ़ा-मै ज़ा-ले आ वाँ-कू-वैग़"
+        "pron": "ज न स्यूई जा-मे ज़ा-ले आ वाँ-कू-वेर"
       },
       {
         "fr": "Je n'ai rien trouvé.",
         "en": "I didn't find anything.",
         "hi": "मुझे कुछ नहीं मिला।",
-        "pron": "झ़ö ने ग़्यैँ त्रू-वे"
+        "pron": "ज ने र्यैं त्रू-वे"
       },
       {
         "fr": "Je n'ai vu personne.",
         "en": "I didn't see anyone.",
         "hi": "मैंने किसी को नहीं देखा।",
-        "pron": "झ़ö ने वü पैग़-सॉन"
+        "pron": "ज ने व्यू पेर-सॉन"
       },
       {
         "fr": "Il ne reste que deux places.",
         "en": "There are only two places left.",
         "hi": "सिर्फ़ दो जगहें बची हैं।",
-        "pron": "ईल नö ग़ैस्त कö दö प्लास"
+        "pron": "ईल न रेस्त क द प्लास"
       },
       {
         "fr": "Y a plus de pain.",
         "en": "There's no bread left. (casual)",
         "hi": "ब्रेड ख़त्म हो गई। (बोलचाल)",
-        "pron": "या प्लü दö पैँ"
+        "pron": "या प्ल्यू द पैं"
       }
     ],
     "pitfalls": [
@@ -279,19 +279,19 @@
       },
       {
         "en": "In the passé composé, personne goes after the participle: 'Je n'ai vu personne', not 'Je n'ai personne vu'.",
-        "hi": "पासे कॉम्पोज़े में personne कृदंत के बाद आता है: 'Je n'ai vu personne', 'Je n'ai personne vu' नहीं।"
+        "hi": "passé composé में personne कृदंत के बाद आता है: 'Je n'ai vu personne', 'Je n'ai personne vu' नहीं।"
       },
       {
-        "en": "In speech, 'Y a plus de pain' means there is NO more bread (ne dropped), while 'Il y a plus de pain' with the s pronounced (प्लüस) means there is MORE bread. Listen for the context.",
-        "hi": "बोलचाल में 'Y a plus de pain' का अर्थ है ब्रेड ख़त्म हो गई (ne छूटा हुआ), जबकि s बोलकर (प्लüस) 'Il y a plus de pain' का अर्थ है ज़्यादा ब्रेड है। संदर्भ पर ध्यान दीजिए।"
+        "en": "In speech, 'Y a plus de pain' means there is NO more bread (ne dropped), while 'Il y a plus de pain' with the s pronounced (प्ल्यूस) means there is MORE bread. Listen for the context.",
+        "hi": "बोलचाल में 'Y a plus de pain' का अर्थ है ब्रेड ख़त्म हो गई (ne छूटा हुआ), जबकि s बोलकर (प्ल्यूस) 'Il y a plus de pain' का अर्थ है ज़्यादा ब्रेड है। संदर्भ पर ध्यान दीजिए।"
       }
     ]
   },
   "pronunciation": {
     "focus": "Natural speech: dropped ne, j'sais pas",
     "tip": {
-      "en": "In fast, relaxed speech, ne disappears and short words shrink: je ne sais pas → j'sais pas, which sounds like शे पा (the j becomes श next to s); il n'y a pas → y a pas (या पा); tu as → t'as (ता); je suis → j'suis (श्üई). You need to recognise these forms in the TEF listening sections and in daily life. When you speak in a formal situation, say the full forms.",
-      "hi": "तेज़ और सहज बोली में ne ग़ायब हो जाता है और छोटे शब्द सिकुड़ जाते हैं: je ne sais pas → j'sais pas, जो शे पा जैसा सुनाई देता है (s के पास j, श बन जाता है); il n'y a pas → y a pas (या पा); tu as → t'as (ता); je suis → j'suis (श्üई)। TEF के सुनवाई भागों में और रोज़मर्रा की ज़िंदगी में आपको ये रूप पहचानने होंगे। औपचारिक स्थिति में बोलते समय पूरे रूप बोलिए।"
+      "en": "In fast, relaxed speech, ne disappears and short words shrink: je ne sais pas → j'sais pas, which sounds like शे पा (the j becomes श next to s); il n'y a pas → y a pas (या पा); tu as → t'as (ता); je suis → j'suis (श्यूई). You need to recognise these forms in the TEF listening sections and in daily life. When you speak in a formal situation, say the full forms.",
+      "hi": "तेज़ और सहज बोली में ne ग़ायब हो जाता है और छोटे शब्द सिकुड़ जाते हैं: je ne sais pas → j'sais pas, जो शे पा जैसा सुनाई देता है (s के पास j, श बन जाता है); il n'y a pas → y a pas (या पा); tu as → t'as (ता); je suis → j'suis (श्यूई)। TEF के सुनवाई भागों में और रोज़मर्रा की ज़िंदगी में आपको ये रूप पहचानने होंगे। औपचारिक स्थिति में बोलते समय पूरे रूप बोलिए।"
     },
     "words": [
       {
@@ -312,21 +312,21 @@
         "fr": "t'as vu ?",
         "en": "did you see? (tu as vu)",
         "hi": "तुमने देखा?",
-        "pron": "ता वü",
+        "pron": "ता व्यू",
         "ipa": "ta vy"
       },
       {
         "fr": "j'suis pas là",
         "en": "I'm not there (je ne suis pas là)",
         "hi": "मैं वहाँ नहीं हूँ",
-        "pron": "श्üई पा ला",
+        "pron": "श्यूई पा ला",
         "ipa": "ʃɥi pa la"
       },
       {
         "fr": "c'est pas grave",
         "en": "it doesn't matter (ce n'est pas grave)",
         "hi": "कोई बात नहीं",
-        "pron": "सै पा ग्ग़ाव",
+        "pron": "से पा ग्राव",
         "ipa": "sɛ pa ɡʁav"
       }
     ]
@@ -438,7 +438,8 @@
     "questions": [
       {
         "q": {
-          "en": "Why is Saturday's plan cancelled?"
+          "en": "Why is Saturday's plan cancelled?",
+          "hi": "शनिवार की योजना क्यों रद्द हुई?"
         },
         "options": [
           "Julie is sick",
@@ -452,11 +453,18 @@
           "hi": "'Y a plus de place au restaurant' = il n'y a plus de place (ne छूटा हुआ): रेस्टोरेंट में जगह नहीं बची।"
         },
         "kind": "literal",
-        "evidence": "Y a plus de place au restaurant"
+        "evidence": "Y a plus de place au restaurant",
+        "optionsHi": [
+          "Julie बीमार है",
+          "रेस्तराँ में कोई जगह नहीं बची",
+          "Aarav ने उसके संदेश का जवाब नहीं दिया",
+          "रेस्तराँ काम की वजह से बंद है"
+        ]
       },
       {
         "q": {
-          "en": "What does Julie want from Aarav?"
+          "en": "What does Julie want from Aarav?",
+          "hi": "Julie, Aarav से क्या चाहती है?"
         },
         "options": [
           "The name of a good Indian restaurant",
@@ -469,11 +477,17 @@
           "hi": "'Tu connais pas un bon resto indien près du centre ?' उसे उम्मीद है कि वह कोई रेस्टोरेंट सुझाएगा।"
         },
         "kind": "inference",
-        "evidence": "Tu connais pas un bon resto indien près du centre ?"
+        "evidence": "Tu connais pas un bon resto indien près du centre ?",
+        "optionsHi": [
+          "किसी अच्छे भारतीय रेस्तराँ का नाम",
+          "शहर के केंद्र तक लिफ़्ट",
+          "उसका नया फ़ोन नंबर"
+        ]
       },
       {
         "q": {
-          "en": "When is Ms Kaur's new appointment?"
+          "en": "When is Ms Kaur's new appointment?",
+          "hi": "Ms Kaur का नया अपॉइंटमेंट कब है?"
         },
         "options": [
           "Tuesday the 14th at 10:30",
@@ -491,7 +505,8 @@
       },
       {
         "q": {
-          "en": "Why should Ms Kaur confirm quickly?"
+          "en": "Why should Ms Kaur confirm quickly?",
+          "hi": "Ms Kaur को जल्दी पुष्टि क्यों करनी चाहिए?"
         },
         "options": [
           "The clinic is closing",
@@ -504,11 +519,17 @@
           "hi": "ne … que = सिर्फ़: 'Il ne reste que deux places jeudi' (गुरुवार को सिर्फ़ दो जगहें बची हैं)।"
         },
         "kind": "grammar",
-        "evidence": "Il ne reste que deux places jeudi"
+        "evidence": "Il ne reste que deux places jeudi",
+        "optionsHi": [
+          "क्लिनिक बंद होने वाला है",
+          "डॉक्टर जाने वाले हैं",
+          "गुरुवार को सिर्फ़ दो जगहें बची हैं"
+        ]
       },
       {
         "q": {
-          "en": "What should metro passengers do to continue their trip?"
+          "en": "What should metro passengers do to continue their trip?",
+          "hi": "अपनी यात्रा जारी रखने के लिए मेट्रो यात्रियों को क्या करना चाहिए?"
         },
         "options": [
           "Wait on the platform",
@@ -522,11 +543,18 @@
           "hi": "'Des autobus gratuits vous attendent à la sortie principale' (मुख्य निकास पर मुफ़्त बसें इंतज़ार कर रही हैं)।"
         },
         "kind": "inference",
-        "evidence": "Des autobus gratuits vous attendent à la sortie principale de la station."
+        "evidence": "Des autobus gratuits vous attendent à la sortie principale de la station.",
+        "optionsHi": [
+          "प्लेटफ़ॉर्म पर इंतज़ार करना",
+          "मुख्य निकास पर मिलने वाली मुफ़्त बसें लेना",
+          "दूसरी लाइन तक सीढ़ियाँ इस्तेमाल करना",
+          "पटरियों के साथ-साथ पैदल चलना"
+        ]
       },
       {
         "q": {
-          "en": "When will the green line run normally again?"
+          "en": "When will the green line run normally again?",
+          "hi": "हरी लाइन फिर से सामान्य रूप से कब चलेगी?"
         },
         "options": [
           "Tonight",
@@ -539,7 +567,12 @@
           "hi": "'Nous ne savons pas encore quand le service reprendra.' (हमें अभी नहीं पता कि सेवा कब फिर शुरू होगी।)"
         },
         "kind": "literal",
-        "evidence": "Nous ne savons pas encore quand le service reprendra."
+        "evidence": "Nous ne savons pas encore quand le service reprendra.",
+        "optionsHi": [
+          "आज रात",
+          "कल सुबह",
+          "अभी किसी को नहीं पता"
+        ]
       }
     ],
     "dictation": [
@@ -568,35 +601,35 @@
         "fr": "Saluez et dites qui vous êtes.",
         "en": "Greet and say who you are.",
         "hi": "अभिवादन कीजिए और बताइए कि आप कौन हैं।",
-        "pron": "सा-लüए ए दीत की वू ज़ैत",
+        "pron": "सा-ल्यूए ए दीत की वू ज़ेत",
         "model": "Bonjour, ici Ananya Sharma. Je suis inscrite au cours de français du mardi soir."
       },
       {
         "fr": "Expliquez le problème.",
         "en": "Explain the problem.",
         "hi": "समस्या समझाइए।",
-        "pron": "ऐक्स-प्ली-के लö प्रो-ब्लैम",
+        "pron": "एक्स-प्ली-के ल प्रो-ब्लेम",
         "model": "Je ne peux plus venir le mardi, parce que mon nouveau travail finit à vingt heures."
       },
       {
         "fr": "Dites ce que vous avez déjà essayé.",
         "en": "Say what you have already tried.",
         "hi": "बताइए कि आपने पहले क्या कोशिश की।",
-        "pron": "दीत सö कö वू ज़ा-वे दे-झ़ा ए-से-ये",
+        "pron": "दीत स क वू ज़ा-वे दे-जा ए-से-ये",
         "model": "J'ai envoyé un courriel lundi, mais je n'ai rien reçu, et ce matin, personne n'a répondu au téléphone."
       },
       {
         "fr": "Faites votre demande.",
         "en": "Make your request.",
         "hi": "अपना अनुरोध रखिए।",
-        "pron": "फ़ैत वोत्ग़ दö-माँद",
+        "pron": "फ़ेत वोत्र द-माँद",
         "model": "Est-ce que je peux changer de groupe ? Le jeudi soir, c'est parfait pour moi."
       },
       {
         "fr": "Donnez vos coordonnées et terminez.",
         "en": "Give your contact details and finish.",
         "hi": "अपना संपर्क विवरण दीजिए और संदेश ख़त्म कीजिए।",
-        "pron": "दो-ने वो को-ओग़-दो-ने ए तैग़-मी-ने",
+        "pron": "दो-ने वो को-ओर-दो-ने ए तेर-मी-ने",
         "model": "Vous pouvez me rappeler au 438 555-0176, après dix-sept heures. Merci beaucoup et bonne journée."
       }
     ],
@@ -616,7 +649,8 @@
     "questions": [
       {
         "q": {
-          "en": "What changes at the pool from 1 September?"
+          "en": "What changes at the pool from 1 September?",
+          "hi": "1 सितंबर से स्विमिंग पूल में क्या बदलता है?"
         },
         "options": [
           "It closes on weekends",
@@ -630,11 +664,18 @@
           "hi": "'la piscine extérieure ne sera plus ouverte le soir' (पूल अब शाम को नहीं खुलेगा)।"
         },
         "kind": "literal",
-        "evidence": "la piscine extérieure ne sera plus ouverte le soir"
+        "evidence": "la piscine extérieure ne sera plus ouverte le soir",
+        "optionsHi": [
+          "वह सप्ताहांत में बंद रहेगा",
+          "वह शाम को खुला नहीं रहेगा",
+          "वह मुफ़्त हो जाएगा",
+          "वह जल्दी खुलेगा"
+        ]
       },
       {
         "q": {
-          "en": "Neha, aged six, wants to swim while her father reads in the café. Is this allowed?"
+          "en": "Neha, aged six, wants to swim while her father reads in the café. Is this allowed?",
+          "hi": "छह साल की Neha तैरना चाहती है, जबकि उसके पिता कैफ़े में पढ़ रहे हैं। क्या इसकी अनुमति है?"
         },
         "options": [
           "Yes, every day",
@@ -647,11 +688,17 @@
           "hi": "आठ साल से छोटे बच्चे 'ne peuvent jamais nager sans un adulte' (बड़ों के बिना कभी नहीं तैर सकते)।"
         },
         "kind": "inference",
-        "evidence": "les enfants de moins de huit ans ne peuvent jamais nager sans un adulte"
+        "evidence": "les enfants de moins de huit ans ne peuvent jamais nager sans un adulte",
+        "optionsHi": [
+          "हाँ, हर दिन",
+          "हाँ, लेकिन सिर्फ़ शाम 5 बजे से पहले",
+          "नहीं, उसे किसी वयस्क के साथ तैरना होगा"
+        ]
       },
       {
         "q": {
-          "en": "How should you return library books at the moment?"
+          "en": "How should you return library books at the moment?",
+          "hi": "फ़िलहाल आपको पुस्तकालय की किताबें कैसे लौटानी चाहिए?"
         },
         "options": [
           "Put them in the outdoor box",
@@ -665,11 +712,18 @@
           "hi": "'Rapportez vos livres au comptoir' (अपनी किताबें काउंटर पर लौटाइए)।"
         },
         "kind": "literal",
-        "evidence": "Rapportez vos livres au comptoir"
+        "evidence": "Rapportez vos livres au comptoir",
+        "optionsHi": [
+          "उन्हें बाहर के डिब्बे में डालें",
+          "उन्हें काउंटर पर लाएँ",
+          "उन्हें डाक से भेजें",
+          "उन्हें अगले सप्ताह लौटाएँ"
+        ]
       },
       {
         "q": {
-          "en": "What may tenants not do on 9 October in the morning?"
+          "en": "What may tenants not do on 9 October in the morning?",
+          "hi": "9 अक्टूबर की सुबह किरायेदार क्या नहीं कर सकते?"
         },
         "options": [
           "Use the washing machines",
@@ -682,11 +736,17 @@
           "hi": "'Personne ne doit utiliser les laveuses pendant les travaux.' (काम के दौरान कोई भी वॉशिंग मशीन इस्तेमाल न करे।)"
         },
         "kind": "literal",
-        "evidence": "Personne ne doit utiliser les laveuses pendant les travaux."
+        "evidence": "Personne ne doit utiliser les laveuses pendant les travaux.",
+        "optionsHi": [
+          "वॉशिंग मशीनों का इस्तेमाल",
+          "चौकीदार को फ़ोन",
+          "इमारत से बाहर जाना"
+        ]
       },
       {
         "q": {
-          "en": "A tenant's tap is dripping a little on 9 October. Should they call the caretaker that day?"
+          "en": "A tenant's tap is dripping a little on 9 October. Should they call the caretaker that day?",
+          "hi": "9 अक्टूबर को किसी किरायेदार का नल थोड़ा टपक रहा है। क्या उसे उस दिन चौकीदार को फ़ोन करना चाहिए?"
         },
         "options": [
           "Yes, he answers all calls",
@@ -700,7 +760,13 @@
           "hi": "ne … que = सिर्फ़: 'le concierge ne répondra qu'aux urgences'। हल्का टपकना आपात स्थिति नहीं है।"
         },
         "kind": "inference",
-        "evidence": "le concierge ne répondra qu'aux urgences"
+        "evidence": "le concierge ne répondra qu'aux urgences",
+        "optionsHi": [
+          "हाँ, वह सभी फ़ोन उठाता है",
+          "नहीं, वह सिर्फ़ आपात स्थितियों में फ़ोन उठाता है",
+          "हाँ, लेकिन दोपहर 1 बजे के बाद ही",
+          "नहीं, वह छुट्टी पर है"
+        ]
       }
     ]
   },
@@ -728,19 +794,19 @@
         "fr": "J'ai bien reçu ton message.",
         "en": "I got your message.",
         "hi": "मुझे तुम्हारा संदेश मिल गया।",
-        "pron": "झ़े ब्यैँ ग़ö-सü तोँ मे-साझ़"
+        "pron": "जे ब्यैं र-स्यू तों मे-साज"
       },
       {
         "fr": "Je ne suis jamais libre avant …",
         "en": "I'm never free before …",
         "hi": "मैं … से पहले कभी ख़ाली नहीं होता/होती",
-        "pron": "झ़ö नö सüई झ़ा-मै लीब्ग़ आ-वाँ"
+        "pron": "ज न स्यूई जा-मे लीब्र आ-वाँ"
       },
       {
         "fr": "Qu'est-ce que tu en penses ?",
         "en": "What do you think (of it)?",
         "hi": "तुम्हारा क्या ख़याल है?",
-        "pron": "कैस-कö तü आँ पाँस"
+        "pron": "केस-क त्यू आँ पाँस"
       }
     ],
     "model": {
@@ -776,43 +842,43 @@
         "fr": "Je ne mange pas de viande.",
         "en": "I don't eat meat.",
         "hi": "मैं मांस नहीं खाता/खाती।",
-        "pron": "झ़ö नö माँझ़ पा दö व्याँद"
+        "pron": "ज न माँज पा द व्याँद"
       },
       {
         "fr": "Hier, j'ai pris le métro.",
         "en": "Yesterday I took the metro.",
         "hi": "कल मैंने मेट्रो ली।",
-        "pron": "ई-यैग़ झ़े प्री लö मे-त्रो"
+        "pron": "ई-येर जे प्री ल मे-त्रो"
       },
       {
         "fr": "Je n'ai pas compris la question.",
         "en": "I didn't understand the question.",
         "hi": "मुझे प्रश्न समझ नहीं आया।",
-        "pron": "झ़ö ने पा कोँ-प्री ला कैस-त्योँ"
+        "pron": "ज ने पा कों-प्री ला केस-त्यों"
       },
       {
         "fr": "Il pleuvait quand je suis sorti.",
         "en": "It was raining when I went out.",
         "hi": "जब मैं बाहर निकला तब बारिश हो रही थी।",
-        "pron": "ईल प्लö-वै काँ झ़ö सüई सोग़-ती"
+        "pron": "ईल प्ल-वे काँ ज स्यूई सोर-ती"
       },
       {
         "fr": "Je lui ai envoyé un texto.",
         "en": "I sent him/her a text.",
         "hi": "मैंने उसे एक मैसेज भेजा।",
-        "pron": "झ़ö ल्üई ए आँ-व्वा-ये ऐँ तैक्स-तो"
+        "pron": "ज ल्यूई ए आँ-व्वा-ये ऐं तेक्स-तो"
       },
       {
         "fr": "Ensuite, téléphonez au propriétaire.",
         "en": "Then call the landlord.",
         "hi": "फिर मकान-मालिक को फ़ोन कीजिए।",
-        "pron": "आँ-स्üईत ते-ले-फ़ो-ने ओ प्रो-प्री-ए-तैग़"
+        "pron": "आँ-स्यूईत ते-ले-फ़ो-ने ओ प्रो-प्री-ए-तेर"
       },
       {
         "fr": "Je n'ai pas encore reçu ma carte.",
         "en": "I haven't received my card yet.",
         "hi": "मुझे अभी तक मेरा कार्ड नहीं मिला।",
-        "pron": "झ़ö ने पा ज़ाँ-कोग़ ग़ö-सü मा काग़्त"
+        "pron": "ज ने पा ज़ाँ-कोर र-स्यू मा कार्त"
       }
     ]
   },

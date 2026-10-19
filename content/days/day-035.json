@@ -1,7 +1,7 @@
 {
   "day": 35,
   "phase": 2,
-  "title": { "fr": "Révision : se déplacer et la vie quotidienne", "en": "Review day: getting around and daily life", "hi": "दोहराई का दिन: आना-जाना और रोज़ की ज़िंदगी" },
+  "title": { "fr": "Révision : se déplacer et la vie quotidienne", "en": "Review day: getting around and daily life", "hi": "दोहराव का दिन: आना-जाना और रोज़ की ज़िंदगी" },
   "objective": {
     "en": "Get through a busy day in the city: ask for directions and permission, react to the weather and delays, read an events calendar and describe your weekend — reusing days 29–34.",
     "hi": "शहर में एक व्यस्त दिन सँभालना: रास्ता और अनुमति पूछना, मौसम और देरी पर प्रतिक्रिया देना, कार्यक्रमों का कैलेंडर पढ़ना और अपने सप्ताहांत का वर्णन करना — दिन 29–34 को दोहराते हुए।"
@@ -16,23 +16,23 @@
   "light": true,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "le festival", "en": "festival", "hi": "उत्सव / महोत्सव", "pron": "लö फ़ैस-ती-वाल", "ipa": "lə fɛstival", "pos": "noun", "gender": "m", "lemma": "festival", "note": { "en": "Plural: des festivals.", "hi": "बहुवचन: des festivals।" } },
-    { "fr": "le spectacle", "en": "show / performance", "hi": "कार्यक्रम / शो", "pron": "लö स्पैक-ताक्ल", "ipa": "lə spɛktakl", "pos": "noun", "gender": "m", "lemma": "spectacle" },
-    { "fr": "gratuit / gratuite", "en": "free (no cost)", "hi": "मुफ़्त", "pron": "ग्रा-त्üई / ग्रा-त्üईत", "ipa": "ɡʁatɥi / ɡʁatɥit", "pos": "adjective", "lemma": "gratuit", "note": { "en": "Only for price. 'Free' as in 'not busy' is libre.", "hi": "सिर्फ़ दाम के लिए। 'ख़ाली' (व्यस्त नहीं) के लिए libre।" } },
-    { "fr": "l'horaire", "en": "timetable / schedule", "hi": "समय-सारणी", "pron": "लो-ग़ैग़", "ipa": "lɔʁɛʁ", "pos": "noun", "gender": "m", "lemma": "horaire" },
-    { "fr": "en retard", "en": "late", "hi": "देर से / लेट", "pron": "आँ ग़ö-ताग़", "ipa": "ɑ̃ ʁətaʁ", "pos": "phrase" },
-    { "fr": "à l'heure", "en": "on time", "hi": "समय पर", "pron": "आ लöग़", "ipa": "a lœʁ", "pos": "phrase" },
+    { "fr": "le festival", "en": "festival", "hi": "उत्सव / महोत्सव", "pron": "ल फ़ेस-ती-वाल", "ipa": "lə fɛstival", "pos": "noun", "gender": "m", "lemma": "festival", "note": { "en": "Plural: des festivals.", "hi": "बहुवचन: des festivals।" } },
+    { "fr": "le spectacle", "en": "show / performance", "hi": "कार्यक्रम / शो", "pron": "ल स्पेक-ताक्ल", "ipa": "lə spɛktakl", "pos": "noun", "gender": "m", "lemma": "spectacle" },
+    { "fr": "gratuit / gratuite", "en": "free (no cost)", "hi": "मुफ़्त", "pron": "ग्रा-त्यूई / ग्रा-त्यूइत", "ipa": "ɡʁatɥi / ɡʁatɥit", "pos": "adjective", "lemma": "gratuit", "note": { "en": "Only for price. 'Free' as in 'not busy' is libre.", "hi": "सिर्फ़ दाम के लिए। 'ख़ाली' (व्यस्त नहीं) के लिए libre।" } },
+    { "fr": "l'horaire", "en": "timetable / schedule", "hi": "समय-सारणी", "pron": "लो-रेर", "ipa": "lɔʁɛʁ", "pos": "noun", "gender": "m", "lemma": "horaire" },
+    { "fr": "en retard", "en": "late", "hi": "देर से / लेट", "pron": "आँ र-तार", "ipa": "ɑ̃ ʁətaʁ", "pos": "phrase" },
+    { "fr": "à l'heure", "en": "on time", "hi": "समय पर", "pron": "आ लर", "ipa": "a lœʁ", "pos": "phrase" },
     { "fr": "la place", "en": "square (in a town) / seat", "hi": "चौक / सीट", "pron": "ला प्लास", "ipa": "la plas", "pos": "noun", "gender": "f", "lemma": "place" }
   ],
   "phrases": [
-    { "fr": "Je suis en retard !", "en": "I'm late!", "hi": "मुझे देर हो गई है!", "pron": "झ़ö स्üई ज़ाँ ग़ö-ताग़" },
-    { "fr": "Le spectacle commence à quelle heure ?", "en": "What time does the show start?", "hi": "शो कितने बजे शुरू होता है?", "pron": "लö स्पैक-ताक्ल को-माँस आ कै लöग़" },
-    { "fr": "Est-ce que je peux entrer sans billet ?", "en": "Can I go in without a ticket?", "hi": "क्या मैं बिना टिकट अंदर जा सकता/सकती हूँ?", "pron": "ऐस-कö झ़ö पö आँ-त्रे साँ बी-यै" },
-    { "fr": "Pour aller au Vieux-Port, s'il vous plaît ?", "en": "How do I get to the Old Port, please?", "hi": "कृपया, पुराने बंदरगाह (वियो-पोर) कैसे जाऊँ?", "pron": "पूग़ आ-ले ओ व्यö पॉग़ सील वू प्लै" },
-    { "fr": "À tout à l'heure !", "en": "See you in a bit!", "hi": "थोड़ी देर में मिलते हैं!", "pron": "आ तू ता लöग़" }
+    { "fr": "Je suis en retard !", "en": "I'm late!", "hi": "मुझे देर हो गई है!", "pron": "ज स्यूई ज़ाँ र-तार" },
+    { "fr": "Le spectacle commence à quelle heure ?", "en": "What time does the show start?", "hi": "शो कितने बजे शुरू होता है?", "pron": "ल स्पेक-ताक्ल को-माँस आ के लर" },
+    { "fr": "Est-ce que je peux entrer sans billet ?", "en": "Can I go in without a ticket?", "hi": "क्या मैं बिना टिकट अंदर जा सकता/सकती हूँ?", "pron": "एस-क ज प आँ-त्रे साँ बी-ये" },
+    { "fr": "Pour aller au Vieux-Port, s'il vous plaît ?", "en": "How do I get to the Old Port, please?", "hi": "कृपया, पुराने बंदरगाह (वियो-पोर) कैसे जाऊँ?", "pron": "पूर आ-ले ओ व्य पॉर सील वू प्ले" },
+    { "fr": "À tout à l'heure !", "en": "See you in a bit!", "hi": "थोड़ी देर में मिलते हैं!", "pron": "आ तू ता लर" }
   ],
   "grammar": {
-    "title": { "en": "Recap: the key structures of days 29–34", "hi": "दोहराई: दिन 29–34 की मुख्य संरचनाएँ" },
+    "title": { "en": "Recap: the key structures of days 29–34", "hi": "दोहराव: दिन 29–34 की मुख्य संरचनाएँ" },
     "explanation": {
       "en": "1) prendre: je prends, nous prenons, ils prennent; transport: en métro, en bus, à pied. 2) Imperative: Tournez / Tourne (no s for -er tu forms), Prenez, Continuez, Descendez. 3) Jobs: Il est infirmier (no article) but C'est un bon infirmier. 4) -ir: je finis, nous finissons, ils finissent; -re: j'attends, il attend, ils attendent; attendre le bus (no 'pour'), répondre à. 5) Modals + infinitive: je peux / je veux / je dois + venir. 6) Weather: il fait froid, il pleut, il neige, il y a du vent; but j'ai froid. 7) Free time: faire du vélo, jouer au hockey, jouer de la guitare; adverb after the verb: je vais souvent au parc; je ne fais jamais de sport.",
       "hi": "1) prendre: je prends, nous prenons, ils prennent; यातायात: en métro, en bus, à pied। 2) आज्ञार्थ: Tournez / Tourne (-er के tu रूप में s नहीं), Prenez, Continuez, Descendez। 3) पेशे: Il est infirmier (कोई आर्टिकल नहीं) पर C'est un bon infirmier। 4) -ir: je finis, nous finissons, ils finissent; -re: j'attends, il attend, ils attendent; attendre le bus ('pour' नहीं), répondre à। 5) सहायक क्रिया + मूल रूप: je peux / je veux / je dois + venir। 6) मौसम: il fait froid, il pleut, il neige, il y a du vent; पर j'ai froid। 7) फ़ुर्सत: faire du vélo, jouer au hockey, jouer de la guitare; शब्द क्रिया के बाद: je vais souvent au parc; je ne fais jamais de sport।"
@@ -42,12 +42,12 @@
       "hi": "तीन जगह जहाँ हिंदी सोच मदद करती है: Prenez / Prends = लीजिए / लो (आज्ञार्थ में शिष्टता); jouer à / jouer de = खेलना / बजाना; Il est médecin = वह डॉक्टर है (कोई आर्टिकल नहीं)। तीन जगह जहाँ वह भटकाती है: मुझे जाना है → je dois partir ('मुझे' नहीं); मुझे ठंड लग रही है → j'ai froid (avoir); बस का इंतज़ार → attendre le bus ('का' नहीं)।"
     },
     "examples": [
-      { "fr": "Prenez la ligne verte et descendez à Papineau.", "en": "Take the green line and get off at Papineau.", "hi": "ग्रीन लाइन लीजिए और पापिनो पर उतरिए।", "pron": "प्रö-ने ला लीन्य वैग़्त ए दे-साँ-दे ज़ा पा-पी-नो" },
-      { "fr": "Ma voisine est infirmière. Elle finit à minuit.", "en": "My neighbour is a nurse. She finishes at midnight.", "hi": "मेरी पड़ोसन नर्स है। वह आधी रात को काम ख़त्म करती है।", "pron": "मा व्वा-ज़ीन ऐ तैँ-फ़ीग़-म्यैग़ ऐल फ़ी-नी आ मी-न्üई" },
-      { "fr": "Nous attendons l'autobus depuis vingt minutes !", "en": "We've been waiting for the bus for twenty minutes!", "hi": "हम बीस मिनट से बस का इंतज़ार कर रहे हैं!", "pron": "नू ज़ा-ताँ-दोँ लो-तो-बüस द्ö-प्üई वैँ मी-नüत" },
-      { "fr": "Il pleut : tu dois prendre ton parapluie.", "en": "It's raining: you must take your umbrella.", "hi": "बारिश हो रही है: तुम्हें अपना छाता लेना होगा।", "pron": "ईल प्लö तü द्वा प्राँद्ग़ तोँ पा-ग़ा-प्लüई" },
-      { "fr": "Est-ce que je peux payer en espèces ?", "en": "Can I pay cash?", "hi": "क्या मैं नक़द दे सकता/सकती हूँ?", "pron": "ऐस-कö झ़ö पö पे-ये आँ नैस-पैस" },
-      { "fr": "Le dimanche, je fais souvent du vélo.", "en": "On Sundays I often go cycling.", "hi": "रविवार को मैं अक्सर साइकिल चलाता/चलाती हूँ।", "pron": "लö दी-माँश झ़ö फ़ै सू-वाँ दü वे-लो" }
+      { "fr": "Prenez la ligne verte et descendez à Papineau.", "en": "Take the green line and get off at Papineau.", "hi": "ग्रीन लाइन लीजिए और पापिनो पर उतरिए।", "pron": "प्र-ने ला लीन्य वेर्त ए दे-साँ-दे ज़ा पा-पी-नो" },
+      { "fr": "Ma voisine est infirmière. Elle finit à minuit.", "en": "My neighbour is a nurse. She finishes at midnight.", "hi": "मेरी पड़ोसन नर्स है। वह आधी रात को काम ख़त्म करती है।", "pron": "मा व्वा-ज़ीन ए तैं-फ़ीर-म्येर एल फ़ी-नी आ मी-न्यूई" },
+      { "fr": "Nous attendons l'autobus depuis vingt minutes !", "en": "We've been waiting for the bus for twenty minutes!", "hi": "हम बीस मिनट से बस का इंतज़ार कर रहे हैं!", "pron": "नू ज़ा-ताँ-दों लो-तो-ब्यूस द-प्यूई वैं मी-न्यूत" },
+      { "fr": "Il pleut : tu dois prendre ton parapluie.", "en": "It's raining: you must take your umbrella.", "hi": "बारिश हो रही है: तुम्हें अपना छाता लेना होगा।", "pron": "ईल प्ल त्यू द्वा प्राँद्र तों पा-रा-प्ल्यूई" },
+      { "fr": "Est-ce que je peux payer en espèces ?", "en": "Can I pay cash?", "hi": "क्या मैं नक़द दे सकता/सकती हूँ?", "pron": "एस-क ज प पे-ये आँ नेस-पेस" },
+      { "fr": "Le dimanche, je fais souvent du vélo.", "en": "On Sundays I often go cycling.", "hi": "रविवार को मैं अक्सर साइकिल चलाता/चलाती हूँ।", "pron": "ल दी-माँश ज फ़े सू-वाँ द्यू वे-लो" }
     ],
     "pitfalls": [
       { "en": "'Il est froid' (weather) → 'Il fait froid'. 'Je suis froid' → 'J'ai froid'.", "hi": "'Il est froid' (मौसम) → 'Il fait froid'। 'Je suis froid' → 'J'ai froid'।" },
@@ -58,16 +58,16 @@
   "pronunciation": {
     "focus": "Review: /ʁ/ and the three nasal vowels",
     "tip": {
-      "en": "Two families to keep clean. The throaty r (ग़): retard, prenez, rue, Montréal. The three nasals with no n at the end: आँ (en, temps, prendre), ओँ (bon, station, Montréal), ऐँ (vingt, matin, printemps). 'Le printemps' has two different nasals: प्रैँ-ताँ.",
-      "hi": "दो परिवारों को साफ़ रखिए। गले वाला r (ग़): retard, prenez, rue, Montréal। तीन नासिक्य स्वर, आख़िर में n नहीं: आँ (en, temps, prendre), ओँ (bon, station, Montréal), ऐँ (vingt, matin, printemps)। 'Le printemps' में दो अलग नासिक्य हैं: प्रैँ-ताँ।"
+      "en": "Two families to keep clean. The throaty r, written र in our guides but never rolled: retard, prenez, rue, Montréal. The three nasals with no n at the end: आँ (en, temps, prendre), ओं (bon, station, Montréal), ऐं (vingt, matin, printemps). 'Le printemps' has two different nasals: प्रैं-ताँ.",
+      "hi": "दो परिवारों को साफ़ रखिए। गले वाला r, जिसे हमारी गाइड में र लिखा जाता है पर घुमाया नहीं जाता: retard, prenez, rue, Montréal। तीन नासिक्य स्वर, आख़िर में n नहीं: आँ (en, temps, prendre), ओं (bon, station, Montréal), ऐं (vingt, matin, printemps)। 'Le printemps' में दो अलग नासिक्य हैं: प्रैं-ताँ।"
     },
     "words": [
-      { "fr": "en retard", "en": "late", "hi": "देर से", "pron": "आँ ग़ö-ताग़", "ipa": "ɑ̃ ʁətaʁ" },
-      { "fr": "Prenez la rue Sainte-Catherine.", "en": "Take Sainte-Catherine Street.", "hi": "सैंत-कैथरीन स्ट्रीट लीजिए।", "pron": "प्रö-ने ला ग़ü सैँत-का-त्ग़ीन" },
-      { "fr": "le printemps", "en": "spring", "hi": "वसंत", "pron": "लö प्रैँ-ताँ", "ipa": "lə pʁɛ̃tɑ̃" },
-      { "fr": "un bon restaurant", "en": "a good restaurant", "hi": "एक अच्छा रेस्टोरेंट", "pron": "ऐँ बोँ ग़ैस-तो-ग़ाँ", "ipa": "œ̃ bɔ̃ ʁɛstɔʁɑ̃", "note": { "en": "All three nasals in one phrase: ऐँ, ओँ, आँ.", "hi": "एक ही वाक्यांश में तीनों नासिक्य: ऐँ, ओँ, आँ।" } },
-      { "fr": "Il pleut à Montréal.", "en": "It's raining in Montréal.", "hi": "मॉन्ट्रियाल में बारिश हो रही है।", "pron": "ईल प्लö आ मोँ-ग़े-आल" },
-      { "fr": "le spectacle commence", "en": "the show starts", "hi": "शो शुरू होता है", "pron": "लö स्पैक-ताक्ल को-माँस" }
+      { "fr": "en retard", "en": "late", "hi": "देर से", "pron": "आँ र-तार", "ipa": "ɑ̃ ʁətaʁ" },
+      { "fr": "Prenez la rue Sainte-Catherine.", "en": "Take Sainte-Catherine Street.", "hi": "सैंत-कैथरीन स्ट्रीट लीजिए।", "pron": "प्र-ने ला र्यू सैंत-का-त्रीन" },
+      { "fr": "le printemps", "en": "spring", "hi": "वसंत", "pron": "ल प्रैं-ताँ", "ipa": "lə pʁɛ̃tɑ̃" },
+      { "fr": "un bon restaurant", "en": "a good restaurant", "hi": "एक अच्छा रेस्टोरेंट", "pron": "ऐं बों रेस-तो-राँ", "ipa": "œ̃ bɔ̃ ʁɛstɔʁɑ̃", "note": { "en": "All three nasals in one phrase: ऐं, ओं, आँ.", "hi": "एक ही वाक्यांश में तीनों नासिक्य: ऐं, ओं, आँ।" } },
+      { "fr": "Il pleut à Montréal.", "en": "It's raining in Montréal.", "hi": "मॉन्ट्रियाल में बारिश हो रही है।", "pron": "ईल प्ल आ मों-रे-आल" },
+      { "fr": "le spectacle commence", "en": "the show starts", "hi": "शो शुरू होता है", "pron": "ल स्पेक-ताक्ल को-माँस" }
     ]
   },
   "listening": {
@@ -93,11 +93,11 @@
       { "speaker": "Arjun", "voice": "m1", "fr": "À tout à l'heure !", "en": "See you in a bit!", "hi": "थोड़ी देर में मिलते हैं!" }
     ],
     "questions": [
-      { "q": { "en": "Why is Priya late?" }, "options": ["She is still at work", "There's a problem in the metro", "She lost her ticket"], "answer": 1, "explanation": { "en": "'Il y a un problème dans le métro.'", "hi": "'Il y a un problème dans le métro.' — मेट्रो में दिक़्क़त।" }, "kind": "literal", "evidence": "Je suis en retard ! Il y a un problème dans le métro." },
-      { "q": { "en": "What time does the show start?" }, "options": ["7 p.m.", "8 p.m.", "8:15 p.m."], "answer": 1, "explanation": { "en": "'Le spectacle commence à vingt heures.'", "hi": "'Le spectacle commence à vingt heures.' — रात आठ बजे।" }, "kind": "literal", "evidence": "Le spectacle commence à vingt heures." },
-      { "q": { "en": "Why does Arjun suggest a taxi?" }, "options": ["It's too far to walk", "It's raining and Priya has no umbrella", "The buses are not running"], "answer": 1, "explanation": { "en": "Priya: 'il pleut beaucoup, et je n'ai pas de parapluie'.", "hi": "प्रिया: 'il pleut beaucoup, et je n'ai pas de parapluie' — बारिश है और छाता नहीं।" }, "kind": "inference", "evidence": "Mais il pleut beaucoup, et je n'ai pas de parapluie !" },
-      { "q": { "en": "Which way must Priya go after leaving the station?" }, "options": ["Left on Sainte-Catherine Street", "Right on Sainte-Catherine Street", "Straight to the bus stop"], "answer": 1, "explanation": { "en": "'tourne à droite sur la rue Sainte-Catherine'.", "hi": "'tourne à droite sur la rue Sainte-Catherine' — दाईं ओर।" }, "kind": "literal", "evidence": "tourne à droite sur la rue Sainte-Catherine et continue tout droit" },
-      { "q": { "en": "Does Priya need a ticket?" }, "options": ["Yes, $20", "No, it's free", "Only for the concert"], "answer": 1, "explanation": { "en": "'Oui, c'est gratuit !' — she can go in without a ticket.", "hi": "'Oui, c'est gratuit !' — बिना टिकट जा सकती है।" }, "kind": "inference", "evidence": "Oui, c'est gratuit !" }
+      { "q": { "en": "Why is Priya late?", "hi": "प्रिया देर से क्यों आ रही है?" }, "options": ["She is still at work", "There's a problem in the metro", "She lost her ticket"], "optionsHi": ["वह अभी भी काम पर है", "मेट्रो में कोई समस्या है", "उसका टिकट खो गया है"], "answer": 1, "explanation": { "en": "'Il y a un problème dans le métro.'", "hi": "'Il y a un problème dans le métro.' — मेट्रो में दिक़्क़त।" }, "kind": "literal", "evidence": "Je suis en retard ! Il y a un problème dans le métro." },
+      { "q": { "en": "What time does the show start?", "hi": "शो कितने बजे शुरू होता है?" }, "options": ["7 p.m.", "8 p.m.", "8:15 p.m."], "answer": 1, "explanation": { "en": "'Le spectacle commence à vingt heures.'", "hi": "'Le spectacle commence à vingt heures.' — रात आठ बजे।" }, "kind": "literal", "evidence": "Le spectacle commence à vingt heures." },
+      { "q": { "en": "Why does Arjun suggest a taxi?", "hi": "अर्जुन टैक्सी का सुझाव क्यों देता है?" }, "options": ["It's too far to walk", "It's raining and Priya has no umbrella", "The buses are not running"], "optionsHi": ["पैदल जाने के लिए यह बहुत दूर है", "बारिश हो रही है और प्रिया के पास छाता नहीं है", "बसें नहीं चल रही हैं"], "answer": 1, "explanation": { "en": "Priya: 'il pleut beaucoup, et je n'ai pas de parapluie'.", "hi": "प्रिया: 'il pleut beaucoup, et je n'ai pas de parapluie' — बारिश है और छाता नहीं।" }, "kind": "inference", "evidence": "Mais il pleut beaucoup, et je n'ai pas de parapluie !" },
+      { "q": { "en": "Which way must Priya go after leaving the station?", "hi": "स्टेशन से निकलने के बाद प्रिया को किस ओर जाना चाहिए?" }, "options": ["Left on Sainte-Catherine Street", "Right on Sainte-Catherine Street", "Straight to the bus stop"], "optionsHi": ["सेंट-कैथरीन स्ट्रीट पर बाएँ", "सेंट-कैथरीन स्ट्रीट पर दाएँ", "सीधे बस स्टॉप तक"], "answer": 1, "explanation": { "en": "'tourne à droite sur la rue Sainte-Catherine'.", "hi": "'tourne à droite sur la rue Sainte-Catherine' — दाईं ओर।" }, "kind": "literal", "evidence": "tourne à droite sur la rue Sainte-Catherine et continue tout droit" },
+      { "q": { "en": "Does Priya need a ticket?", "hi": "क्या प्रिया को टिकट की ज़रूरत है?" }, "options": ["Yes, $20", "No, it's free", "Only for the concert"], "optionsHi": ["हाँ, $20 का", "नहीं, यह मुफ़्त है", "केवल संगीत समारोह के लिए"], "answer": 1, "explanation": { "en": "'Oui, c'est gratuit !' — she can go in without a ticket.", "hi": "'Oui, c'est gratuit !' — बिना टिकट जा सकती है।" }, "kind": "inference", "evidence": "Oui, c'est gratuit !" }
     ],
     "dictation": ["Je suis en retard !", "Le spectacle commence à vingt heures.", "Oui, c'est gratuit !"],
     "gapFill": { "text": "Sors de la station, ___ à droite sur la rue Sainte-Catherine et ___ tout droit.", "answers": ["tourne", "continue"] }
@@ -109,11 +109,11 @@
       "hi": "बारिश वाले शनिवार को आप एक संग्रहालय पहुँचते हैं। रिसेप्शनिस्ट से अनुमति माँगिए (कोट रखना, फ़ोटो लेना, कार्ड से भुगतान) और कैफ़े व मेट्रो का रास्ता पूछिए।"
     },
     "prompts": [
-      { "fr": "Bonjour ! Bienvenue au musée.", "en": "Hello! Welcome to the museum.", "hi": "नमस्ते! संग्रहालय में स्वागत है।", "pron": "बोँ-झ़ूग़ ब्यैँ-व्नü ओ मü-ज़े", "model": "Bonjour ! Est-ce que je peux laisser mon manteau ici ? Il est mouillé, il pleut !" },
-      { "fr": "Oui, le vestiaire est à gauche.", "en": "Yes, the cloakroom is on the left.", "hi": "हाँ, क्लोकरूम बाईं ओर है।", "pron": "वी लö वैस-त्यैग़ ऐ ता गोश", "model": "Merci. Et est-ce qu'on peut prendre des photos ?" },
-      { "fr": "Oui, mais sans flash.", "en": "Yes, but without flash.", "hi": "हाँ, पर बिना फ़्लैश के।", "pron": "वी मै साँ फ़्लाश", "model": "D'accord. Je peux payer par carte ?" },
-      { "fr": "Bien sûr. Ça fait vingt dollars.", "en": "Of course. That's twenty dollars.", "hi": "ज़रूर। बीस डॉलर हुए।", "pron": "ब्यैँ सüग़ सा फ़ै वैँ दो-लाग़", "model": "Voilà. Où est le café, s'il vous plaît ?" },
-      { "fr": "Montez au deuxième étage et tournez à droite.", "en": "Go up to the second floor and turn right.", "hi": "दूसरी मंज़िल पर जाइए और दाईं ओर मुड़िए।", "pron": "मोँ-ते ओ दö-ज़्यैम ए-ताझ़ ए तूग़-ने आ द्र्वात", "model": "Merci ! Et après, pour aller au métro, je prends quelle rue ?" }
+      { "fr": "Bonjour ! Bienvenue au musée.", "en": "Hello! Welcome to the museum.", "hi": "नमस्ते! संग्रहालय में स्वागत है।", "pron": "बों-जूर ब्यैं-व्न्यू ओ म्यू-ज़े", "model": "Bonjour ! Est-ce que je peux laisser mon manteau ici ? Il est mouillé, il pleut !" },
+      { "fr": "Oui, le vestiaire est à gauche.", "en": "Yes, the cloakroom is on the left.", "hi": "हाँ, क्लोकरूम बाईं ओर है।", "pron": "वी ल वेस-त्येर ए ता गोश", "model": "Merci. Et est-ce qu'on peut prendre des photos ?" },
+      { "fr": "Oui, mais sans flash.", "en": "Yes, but without flash.", "hi": "हाँ, पर बिना फ़्लैश के।", "pron": "वी मे साँ फ़्लाश", "model": "D'accord. Je peux payer par carte ?" },
+      { "fr": "Bien sûr. Ça fait vingt dollars.", "en": "Of course. That's twenty dollars.", "hi": "ज़रूर। बीस डॉलर हुए।", "pron": "ब्यैं स्यूर सा फ़े वैं दो-लार", "model": "Voilà. Où est le café, s'il vous plaît ?" },
+      { "fr": "Montez au deuxième étage et tournez à droite.", "en": "Go up to the second floor and turn right.", "hi": "दूसरी मंज़िल पर जाइए और दाईं ओर मुड़िए।", "pron": "मों-ते ओ द-ज़्येम ए-ताज ए तूर-ने आ द्र्वात", "model": "Merci ! Et après, pour aller au métro, je prends quelle rue ?" }
     ],
     "tip": {
       "en": "Every permission question starts the same way: 'Est-ce que je peux …' / 'Est-ce qu'on peut …' + infinitive. Repeat the direction back to check: 'Deuxième étage, à droite ?'",
@@ -139,10 +139,10 @@
       "hi": "सोमवार: मोहल्ले की लाइब्रेरी में किताब-क्लब, शाम 7 बजे। मुफ़्त।\nमंगलवार: ल पों कैफ़े में फ़्रेंच-अंग्रेज़ी बातचीत की शाम, 6:30 बजे। बुकिंग ज़रूरी।\nबुधवार: सामुदायिक केंद्र में भारतीय खाना बनाने की कक्षा, शाम 6 बजे। 15 डॉलर।\nगुरुवार: पुराने मॉन्ट्रियाल का पैदल गाइडेड टूर, सुबह 10 बजे। नोत्र-दाम बेसिलिका के सामने से शुरुआत। 12 डॉलर।\nशुक्रवार: पार्क में जैज़ कॉन्सर्ट, रात 8 बजे। मुफ़्त। बारिश हुई तो कॉन्सर्ट रद्द।\nशनिवार: 5 किलोमीटर की दौड़, सुबह 9 बजे। पंजीकरण अनिवार्य। बच्चे भी भाग ले सकते हैं।\nरविवार: वियो-पोर में खुली स्केटिंग, दोपहर 1 से 5 बजे तक। स्केट वहीं किराये पर।"
     },
     "questions": [
-      { "q": { "en": "For which event must you book?" }, "options": ["The book club", "The conversation evening", "The jazz concert"], "answer": 1, "explanation": { "en": "Tuesday: 'Vous devez réserver.'", "hi": "मंगलवार: 'Vous devez réserver.' — बुकिंग करनी होगी।" }, "kind": "literal", "evidence": "Vous devez réserver." },
-      { "q": { "en": "What happens to Friday's concert if it rains?" }, "options": ["It moves inside", "It is cancelled", "It starts later"], "answer": 1, "explanation": { "en": "'S'il pleut, le concert est annulé.'", "hi": "'S'il pleut, le concert est annulé.' — रद्द।" }, "kind": "literal", "evidence": "S'il pleut, le concert est annulé." },
-      { "q": { "en": "Where does the guided tour start?" }, "options": ["At the library", "In front of Notre-Dame Basilica", "At the Old Port"], "answer": 1, "explanation": { "en": "'Départ devant la basilique Notre-Dame.'", "hi": "'Départ devant la basilique Notre-Dame.' — बेसिलिका के सामने से।" }, "kind": "literal", "evidence": "Départ devant la basilique Notre-Dame." },
-      { "q": { "en": "Kavita wants to do an activity with her children on Saturday morning. What can they do?" }, "options": ["The 5 km run", "The jazz concert", "The cooking class"], "answer": 0, "explanation": { "en": "Saturday at 9 a.m.: the 5 km run — 'Les enfants peuvent participer.' They must register first.", "hi": "शनिवार सुबह 9 बजे: 5 किलोमीटर की दौड़ — 'Les enfants peuvent participer.' पहले पंजीकरण करना होगा।" }, "kind": "inference", "evidence": "Les enfants peuvent participer." }
+      { "q": { "en": "For which event must you book?", "hi": "किस कार्यक्रम के लिए आपको पहले से बुकिंग करानी होगी?" }, "options": ["The book club", "The conversation evening", "The jazz concert"], "optionsHi": ["पुस्तक क्लब", "बातचीत की शाम", "जैज़ संगीत समारोह"], "answer": 1, "explanation": { "en": "Tuesday: 'Vous devez réserver.'", "hi": "मंगलवार: 'Vous devez réserver.' — बुकिंग करनी होगी।" }, "kind": "literal", "evidence": "Vous devez réserver." },
+      { "q": { "en": "What happens to Friday's concert if it rains?", "hi": "अगर बारिश हो तो शुक्रवार के संगीत समारोह का क्या होता है?" }, "options": ["It moves inside", "It is cancelled", "It starts later"], "optionsHi": ["यह भीतर चला जाता है", "यह रद्द हो जाता है", "यह देर से शुरू होता है"], "answer": 1, "explanation": { "en": "'S'il pleut, le concert est annulé.'", "hi": "'S'il pleut, le concert est annulé.' — रद्द।" }, "kind": "literal", "evidence": "S'il pleut, le concert est annulé." },
+      { "q": { "en": "Where does the guided tour start?", "hi": "निर्देशित भ्रमण (गाइडेड टूर) कहाँ से शुरू होता है?" }, "options": ["At the library", "In front of Notre-Dame Basilica", "At the Old Port"], "optionsHi": ["पुस्तकालय से", "नोत्र-दाम बेसिलिका के सामने से", "पुराने बंदरगाह से"], "answer": 1, "explanation": { "en": "'Départ devant la basilique Notre-Dame.'", "hi": "'Départ devant la basilique Notre-Dame.' — बेसिलिका के सामने से।" }, "kind": "literal", "evidence": "Départ devant la basilique Notre-Dame." },
+      { "q": { "en": "Kavita wants to do an activity with her children on Saturday morning. What can they do?", "hi": "कविता शनिवार की सुबह अपने बच्चों के साथ कोई गतिविधि करना चाहती है। वे क्या कर सकते हैं?" }, "options": ["The 5 km run", "The jazz concert", "The cooking class"], "optionsHi": ["5 किमी की दौड़", "जैज़ संगीत समारोह", "खाना पकाने की कक्षा"], "answer": 0, "explanation": { "en": "Saturday at 9 a.m.: the 5 km run — 'Les enfants peuvent participer.' They must register first.", "hi": "शनिवार सुबह 9 बजे: 5 किलोमीटर की दौड़ — 'Les enfants peuvent participer.' पहले पंजीकरण करना होगा।" }, "kind": "inference", "evidence": "Les enfants peuvent participer." }
     ]
   },
   "writing": {
@@ -158,9 +158,9 @@
       { "en": "Invite your friend with tu veux + infinitive.", "hi": "tu veux + मूल रूप से दोस्त को बुलाइए।" }
     ],
     "usefulPhrases": [
-      { "fr": "Samedi, il fait beau, alors …", "en": "On Saturday it's nice, so …", "hi": "शनिवार को मौसम अच्छा है, तो …", "pron": "सम-दी ईल फ़ै बो आ-लॉग़" },
-      { "fr": "Dimanche, je dois …", "en": "On Sunday I have to …", "hi": "रविवार को मुझे … करना है", "pron": "दी-माँश झ़ö द्वा" },
-      { "fr": "Tu veux venir ?", "en": "Do you want to come?", "hi": "क्या तुम आना चाहोगे?", "pron": "तü वö व्ö-नीग़" }
+      { "fr": "Samedi, il fait beau, alors …", "en": "On Saturday it's nice, so …", "hi": "शनिवार को मौसम अच्छा है, तो …", "pron": "सम-दी ईल फ़े बो आ-लॉर" },
+      { "fr": "Dimanche, je dois …", "en": "On Sunday I have to …", "hi": "रविवार को मुझे … करना है", "pron": "दी-माँश ज द्वा" },
+      { "fr": "Tu veux venir ?", "en": "Do you want to come?", "hi": "क्या तुम आना चाहोगे?", "pron": "त्यू व व-नीर" }
     ],
     "model": {
       "fr": "Salut Sophie ! Samedi, il fait beau, alors je fais du vélo au parc le matin. L'après-midi, je prends le métro et je vais au Vieux-Port avec Arjun. Tu veux venir ? Dimanche, il pleut. Je dois travailler à la pharmacie de dix heures à seize heures. Le soir, je joue souvent de la guitare : tu peux venir chez moi ! Bisous, Priya",
@@ -175,20 +175,20 @@
   "review": {
     "fromDays": [29, 30, 31, 32, 33, 34],
     "items": [
-      { "fr": "Je prends le métro.", "en": "I take the metro.", "hi": "मैं मेट्रो लेता/लेती हूँ।", "pron": "झ़ö प्राँ लö मे-त्रो" },
-      { "fr": "Tournez à gauche au feu.", "en": "Turn left at the lights.", "hi": "सिग्नल पर बाईं ओर मुड़िए।", "pron": "तूग़-ने आ गोश ओ फ़ö" },
-      { "fr": "Continuez tout droit.", "en": "Keep going straight.", "hi": "सीधे चलते जाइए।", "pron": "कोँ-ती-नü-ए तू द्र्वा" },
-      { "fr": "Elle est informaticienne.", "en": "She's an IT specialist.", "hi": "वह आईटी विशेषज्ञ है।", "pron": "ए लै तैँ-फ़ॉग़-मा-ती-स्यैन" },
-      { "fr": "C'est un bon médecin.", "en": "He/She is a good doctor.", "hi": "वह अच्छा डॉक्टर है।", "pron": "सै तैँ बोँ मेद-सैँ" },
-      { "fr": "Nous finissons à midi.", "en": "We finish at noon.", "hi": "हम दोपहर बारह बजे ख़त्म करते हैं।", "pron": "नू फ़ी-नी-सोँ आ मी-दी" },
-      { "fr": "J'attends l'autobus.", "en": "I'm waiting for the bus.", "hi": "मैं बस का इंतज़ार कर रहा/रही हूँ।", "pron": "झ़ा-ताँ लो-तो-बüस" },
-      { "fr": "Est-ce que je peux entrer ?", "en": "May I come in?", "hi": "क्या मैं अंदर आ सकता/सकती हूँ?", "pron": "ऐस-कö झ़ö पö आँ-त्रे" },
-      { "fr": "Vous devez réserver.", "en": "You must book.", "hi": "आपको बुकिंग करनी होगी।", "pron": "वू द्ö-वे ग़े-ज़ैग़-वे" },
-      { "fr": "Il fait moins dix et il neige.", "en": "It's minus ten and it's snowing.", "hi": "माइनस दस है और बर्फ़ गिर रही है।", "pron": "ईल फ़ै म्वैँ दीस ए ईल नैझ़" },
-      { "fr": "J'ai froid !", "en": "I'm cold!", "hi": "मुझे ठंड लग रही है!", "pron": "झ़े फ़्र्वा" },
-      { "fr": "Je joue souvent au hockey.", "en": "I often play hockey.", "hi": "मैं अक्सर हॉकी खेलता/खेलती हूँ।", "pron": "झ़ö झ़ू सू-वाँ ओ ओ-कै" },
-      { "fr": "Il joue de la guitare.", "en": "He plays the guitar.", "hi": "वह गिटार बजाता है।", "pron": "ईल झ़ू दö ला गी-ताग़" },
-      { "fr": "Je ne fais jamais de patin.", "en": "I never skate.", "hi": "मैं कभी स्केटिंग नहीं करता/करती।", "pron": "झ़ö न्ö फ़ै झ़ा-मै दö पा-तैँ" }
+      { "fr": "Je prends le métro.", "en": "I take the metro.", "hi": "मैं मेट्रो लेता/लेती हूँ।", "pron": "ज प्राँ ल मे-त्रो" },
+      { "fr": "Tournez à gauche au feu.", "en": "Turn left at the lights.", "hi": "सिग्नल पर बाईं ओर मुड़िए।", "pron": "तूर-ने आ गोश ओ फ़" },
+      { "fr": "Continuez tout droit.", "en": "Keep going straight.", "hi": "सीधे चलते जाइए।", "pron": "कों-ती-न्यू-ए तू द्र्वा" },
+      { "fr": "Elle est informaticienne.", "en": "She's an IT specialist.", "hi": "वह आईटी विशेषज्ञ है।", "pron": "ए ले तैं-फ़ॉर-मा-ती-स्येन" },
+      { "fr": "C'est un bon médecin.", "en": "He/She is a good doctor.", "hi": "वह अच्छा डॉक्टर है।", "pron": "से तैं बों मेद-सैं" },
+      { "fr": "Nous finissons à midi.", "en": "We finish at noon.", "hi": "हम दोपहर बारह बजे ख़त्म करते हैं।", "pron": "नू फ़ी-नी-सों आ मी-दी" },
+      { "fr": "J'attends l'autobus.", "en": "I'm waiting for the bus.", "hi": "मैं बस का इंतज़ार कर रहा/रही हूँ।", "pron": "जा-ताँ लो-तो-ब्यूस" },
+      { "fr": "Est-ce que je peux entrer ?", "en": "May I come in?", "hi": "क्या मैं अंदर आ सकता/सकती हूँ?", "pron": "एस-क ज प आँ-त्रे" },
+      { "fr": "Vous devez réserver.", "en": "You must book.", "hi": "आपको बुकिंग करनी होगी।", "pron": "वू द-वे रे-ज़ेर-वे" },
+      { "fr": "Il fait moins dix et il neige.", "en": "It's minus ten and it's snowing.", "hi": "माइनस दस है और बर्फ़ गिर रही है।", "pron": "ईल फ़े म्वैं दीस ए ईल नेज" },
+      { "fr": "J'ai froid !", "en": "I'm cold!", "hi": "मुझे ठंड लग रही है!", "pron": "जे फ़्र्वा" },
+      { "fr": "Je joue souvent au hockey.", "en": "I often play hockey.", "hi": "मैं अक्सर हॉकी खेलता/खेलती हूँ।", "pron": "ज जू सू-वाँ ओ ओ-के" },
+      { "fr": "Il joue de la guitare.", "en": "He plays the guitar.", "hi": "वह गिटार बजाता है।", "pron": "ईल जू द ला गी-तार" },
+      { "fr": "Je ne fais jamais de patin.", "en": "I never skate.", "hi": "मैं कभी स्केटिंग नहीं करता/करती।", "pron": "ज न फ़े जा-मे द पा-तैं" }
     ]
   },
   "assessment": [

@@ -17,23 +17,23 @@
   "checkpoint": false,
   "mock": { "id": "mock-1", "part": "writing_speaking" },
   "vocabulary": [
-    { "fr": "le plan", "en": "outline, plan (of a text)", "hi": "रूपरेखा", "pron": "लö प्लाँ", "ipa": "lə plɑ̃", "pos": "noun", "gender": "m", "lemma": "plan" },
-    { "fr": "le brouillon", "en": "rough draft, scrap paper", "hi": "कच्चा मसौदा / रफ़", "pron": "लö ब्ग़ू-योँ", "ipa": "lə bʁujɔ̃", "pos": "noun", "gender": "m", "lemma": "brouillon" },
-    { "fr": "l'idée principale", "en": "the main idea", "hi": "मुख्य विचार", "pron": "ली-दे प्ग़ैँ-सी-पाल", "ipa": "lide pʁɛ̃sipal", "pos": "noun", "gender": "f", "lemma": "idée" },
-    { "fr": "l'argument", "en": "argument, point", "hi": "तर्क", "pron": "लाग़-गü-माँ", "ipa": "laʁɡymɑ̃", "pos": "noun", "gender": "m", "lemma": "argument" },
-    { "fr": "développer", "en": "to develop, to expand on", "hi": "विस्तार से समझाना", "pron": "दे-व-लो-पे", "ipa": "devlɔpe", "pos": "verb" },
-    { "fr": "la conclusion", "en": "conclusion", "hi": "निष्कर्ष", "pron": "ला कोँ-क्लü-ज़्योँ", "ipa": "la kɔ̃klyzjɔ̃", "pos": "noun", "gender": "f", "lemma": "conclusion" },
-    { "fr": "relire", "en": "to reread, to proofread", "hi": "दोबारा पढ़ना / जाँचना", "pron": "ग़ö-लीग़", "ipa": "ʁəliʁ", "pos": "verb" },
-    { "fr": "l'accord", "en": "agreement (grammar)", "hi": "मेल (लिंग-वचन का)", "pron": "ला-कॉग़", "ipa": "lakɔʁ", "pos": "noun", "gender": "m", "lemma": "accord", "note": { "en": "Final d is silent. 'Être d'accord' means 'to agree' with someone.", "hi": "आख़िरी d नहीं बोला जाता। 'Être d'accord' का मतलब है किसी से सहमत होना।" } },
-    { "fr": "la faute d'inattention", "en": "careless mistake", "hi": "लापरवाही की ग़लती", "pron": "ला फ़ोत दी-ना-ताँ-स्योँ", "ipa": "la fot dinatɑ̃sjɔ̃", "pos": "noun", "gender": "f", "lemma": "faute" }
+    { "fr": "le plan", "en": "outline, plan (of a text)", "hi": "रूपरेखा", "pron": "ल प्लाँ", "ipa": "lə plɑ̃", "pos": "noun", "gender": "m", "lemma": "plan" },
+    { "fr": "le brouillon", "en": "rough draft, scrap paper", "hi": "कच्चा मसौदा / रफ़", "pron": "ल ब्रू-यों", "ipa": "lə bʁujɔ̃", "pos": "noun", "gender": "m", "lemma": "brouillon" },
+    { "fr": "l'idée principale", "en": "the main idea", "hi": "मुख्य विचार", "pron": "ली-दे प्रैं-सी-पाल", "ipa": "lide pʁɛ̃sipal", "pos": "noun", "gender": "f", "lemma": "idée" },
+    { "fr": "l'argument", "en": "argument, point", "hi": "तर्क", "pron": "लार-ग्यू-माँ", "ipa": "laʁɡymɑ̃", "pos": "noun", "gender": "m", "lemma": "argument" },
+    { "fr": "développer", "en": "to develop, to expand on", "hi": "विस्तार से समझाना", "pron": "देव-लो-पे", "ipa": "devlɔpe", "pos": "verb" },
+    { "fr": "la conclusion", "en": "conclusion", "hi": "निष्कर्ष", "pron": "ला कों-क्ल्यू-ज़्यों", "ipa": "la kɔ̃klyzjɔ̃", "pos": "noun", "gender": "f", "lemma": "conclusion" },
+    { "fr": "relire", "en": "to reread, to proofread", "hi": "दोबारा पढ़ना / जाँचना", "pron": "र-लीर", "ipa": "ʁəliʁ", "pos": "verb" },
+    { "fr": "l'accord", "en": "agreement (grammar)", "hi": "मेल (लिंग-वचन का)", "pron": "ला-कॉर", "ipa": "lakɔʁ", "pos": "noun", "gender": "m", "lemma": "accord", "note": { "en": "Final d is silent. 'Être d'accord' means 'to agree' with someone.", "hi": "आख़िरी d नहीं बोला जाता। 'Être d'accord' का मतलब है किसी से सहमत होना।" } },
+    { "fr": "la faute d'inattention", "en": "careless mistake", "hi": "लापरवाही की ग़लती", "pron": "ला फ़ोत दी-ना-ताँ-स्यों", "ipa": "la fot dinatɑ̃sjɔ̃", "pos": "noun", "gender": "f", "lemma": "faute" }
   ],
   "phrases": [
-    { "fr": "Je commence par faire un plan.", "en": "I start by making an outline.", "hi": "मैं रूपरेखा बनाकर शुरू करता / करती हूँ।", "pron": "झ़ö को-माँस पाग़ फ़ैग़ ऐँ प्लाँ" },
-    { "fr": "D'abord …, ensuite …, enfin …", "en": "First …, then …, finally …", "hi": "पहले …, फिर …, आख़िर में …", "pron": "दा-बॉग़ … आँ-स्üइत … आँ-फ़ैँ" },
-    { "fr": "Il me reste cinq minutes.", "en": "I have five minutes left.", "hi": "मेरे पास पाँच मिनट बचे हैं।", "pron": "ईल मö ग़ैस्त सैँ मी-नüत" },
-    { "fr": "Je relis mon texte.", "en": "I'm rereading my text.", "hi": "मैं अपना पाठ दोबारा पढ़ रहा / रही हूँ।", "pron": "झ़ö ग़ö-ली मोँ तैक्स्त" },
-    { "fr": "Je vérifie les accords.", "en": "I'm checking the agreements.", "hi": "मैं मेल (agreement) जाँच रहा / रही हूँ।", "pron": "झ़ö वे-ग़ी-फ़ी ले ज़ा-कॉग़" },
-    { "fr": "Pour conclure, …", "en": "To conclude, …", "hi": "निष्कर्ष के तौर पर, …", "pron": "पूग़ कोँ-क्लüग़" }
+    { "fr": "Je commence par faire un plan.", "en": "I start by making an outline.", "hi": "मैं रूपरेखा बनाकर शुरू करता / करती हूँ।", "pron": "ज को-माँस पार फ़ेर ऐं प्लाँ" },
+    { "fr": "D'abord …, ensuite …, enfin …", "en": "First …, then …, finally …", "hi": "पहले …, फिर …, आख़िर में …", "pron": "दा-बॉर आँ-स्यूईत आँ-फ़ैं" },
+    { "fr": "Il me reste cinq minutes.", "en": "I have five minutes left.", "hi": "मेरे पास पाँच मिनट बचे हैं।", "pron": "ईल म रेस्त सैं मी-न्यूत" },
+    { "fr": "Je relis mon texte.", "en": "I'm rereading my text.", "hi": "मैं अपना पाठ दोबारा पढ़ रहा / रही हूँ।", "pron": "ज र-ली मों तेक्स्त" },
+    { "fr": "Je vérifie les accords.", "en": "I'm checking the agreements.", "hi": "मैं मेल (agreement) जाँच रहा / रही हूँ।", "pron": "ज वे-री-फ़ी ले ज़ा-कॉर" },
+    { "fr": "Pour conclure, …", "en": "To conclude, …", "hi": "निष्कर्ष के तौर पर, …", "pron": "पूर कों-क्ल्यूर" }
   ],
   "grammar": {
     "title": { "en": "A 3-minute plan and a 3-minute agreement check", "hi": "3 मिनट की योजना और 3 मिनट की मेल-जाँच" },
@@ -46,11 +46,11 @@
       "hi": "हिंदी में भी क्रिया लिंग से मेल खाती है (वह आई / वह आया), इसलिए यह विचार जाना-पहचाना है। लेकिन फ़्रेंच का लिंग अक्सर हिंदी से अलग होता है: la voiture स्त्रीलिंग है, जैसे गाड़ी, पर le problème पुल्लिंग है, जबकि समस्या स्त्रीलिंग है। फ़्रेंच लिंग जाँचिए; हिंदी से नक़ल मत कीजिए।"
     },
     "examples": [
-      { "fr": "Ma position : je ne suis pas d'accord.", "en": "My position: I disagree.", "hi": "मेरी राय: मैं सहमत नहीं हूँ।", "pron": "मा पो-ज़ी-स्योँ झ़ö नö स्üई पा दा-कॉग़" },
-      { "fr": "Les nouvelles règles sont importantes.", "en": "The new rules are important.", "hi": "नए नियम महत्वपूर्ण हैं।", "pron": "ले नू-वैल ग़ैग्ल सोँ ज़ैँ-पॉग़-ताँत" },
-      { "fr": "Elle est arrivée en retard.", "en": "She arrived late.", "hi": "वह देर से पहुँची।", "pron": "ऐल ऐ ता-ग़ी-वे आँ ग़ö-ताग़" },
-      { "fr": "Les voisins avaient entendu un bruit.", "en": "The neighbours had heard a noise.", "hi": "पड़ोसियों ने एक आवाज़ सुनी थी।", "pron": "ले व्वा-ज़ैँ ज़ा-वै ताँ-ताँ-दü ऐँ ब्ग़üई" },
-      { "fr": "Beaucoup de gens pensent que c'est utile.", "en": "Many people think it is useful.", "hi": "बहुत-से लोग सोचते हैं कि यह उपयोगी है।", "pron": "बो-कू दö झ़ाँ पाँस कö सै तü-तील" }
+      { "fr": "Ma position : je ne suis pas d'accord.", "en": "My position: I disagree.", "hi": "मेरी राय: मैं सहमत नहीं हूँ।", "pron": "मा पो-ज़ी-स्यों ज न स्यूई पा दा-कॉर" },
+      { "fr": "Les nouvelles règles sont importantes.", "en": "The new rules are important.", "hi": "नए नियम महत्वपूर्ण हैं।", "pron": "ले नू-वेल रेग्ल सों ज़ैं-पॉर-ताँत" },
+      { "fr": "Elle est arrivée en retard.", "en": "She arrived late.", "hi": "वह देर से पहुँची।", "pron": "एल ए ता-री-वे आँ र-तार" },
+      { "fr": "Les voisins avaient entendu un bruit.", "en": "The neighbours had heard a noise.", "hi": "पड़ोसियों ने एक आवाज़ सुनी थी।", "pron": "ले व्वा-ज़ैं ज़ा-वे ताँ-ताँ-द्यू ऐं ब्र्यूई" },
+      { "fr": "Beaucoup de gens pensent que c'est utile.", "en": "Many people think it is useful.", "hi": "बहुत-से लोग सोचते हैं कि यह उपयोगी है।", "pron": "बो-कू द जाँ पाँस क से त्यू-तील" }
     ],
     "pitfalls": [
       { "en": "Don't skip the plan to 'save time'. Without a plan, B texts often repeat the same argument three times.", "hi": "'समय बचाने' के लिए योजना मत छोड़िए। बिना योजना के B वाले पाठ में अक्सर एक ही तर्क तीन बार दोहराया जाता है।" },
@@ -65,11 +65,11 @@
       "hi": "हर टंग-ट्विस्टर तीन बार बोलिए: धीरे, सामान्य, फिर तेज़। होंठों की हरकत बढ़ा-चढ़ाकर कीजिए। बोलने से पहले पाँच मिनट का यह अभ्यास मुँह को साफ़ फ़्रेंच के लिए तैयार कर देता है।"
     },
     "words": [
-      { "fr": "Les chaussettes de l'archiduchesse sont-elles sèches ?", "en": "Are the archduchess's socks dry?", "hi": "क्या आर्चडचेस के मोज़े सूखे हैं?", "pron": "ले शो-सैत दö लाग़-शी-दü-शैस सोँ-तैल सैश", "note": { "en": "A classic French tongue twister: alternate श and स cleanly.", "hi": "फ़्रेंच का मशहूर टंग-ट्विस्टर: श और स को साफ़-साफ़ बदलते रहिए।" } },
-      { "fr": "Un chasseur sachant chasser", "en": "A hunter who knows how to hunt", "hi": "शिकार करना जानने वाला शिकारी", "pron": "ऐँ शा-सöग़ सा-शाँ शा-से" },
-      { "fr": "relire", "en": "to reread", "hi": "दोबारा पढ़ना", "pron": "ग़ö-लीग़", "ipa": "ʁəliʁ" },
-      { "fr": "argument", "en": "argument", "hi": "तर्क", "pron": "आग़-गü-माँ", "ipa": "aʁɡymɑ̃" },
-      { "fr": "brouillon", "en": "draft", "hi": "रफ़ मसौदा", "pron": "ब्ग़ू-योँ", "ipa": "bʁujɔ̃" }
+      { "fr": "Les chaussettes de l'archiduchesse sont-elles sèches ?", "en": "Are the archduchess's socks dry?", "hi": "क्या आर्चडचेस के मोज़े सूखे हैं?", "pron": "ले शो-सेत द लार-शी-द्यू-शेस सों-तेल सेश", "note": { "en": "A classic French tongue twister: alternate श and स cleanly.", "hi": "फ़्रेंच का मशहूर टंग-ट्विस्टर: श और स को साफ़-साफ़ बदलते रहिए।" } },
+      { "fr": "Un chasseur sachant chasser", "en": "A hunter who knows how to hunt", "hi": "शिकार करना जानने वाला शिकारी", "pron": "ऐं शा-सर सा-शाँ शा-से" },
+      { "fr": "relire", "en": "to reread", "hi": "दोबारा पढ़ना", "pron": "र-लीर", "ipa": "ʁəliʁ" },
+      { "fr": "argument", "en": "argument", "hi": "तर्क", "pron": "आर-ग्यू-माँ", "ipa": "aʁɡymɑ̃" },
+      { "fr": "brouillon", "en": "draft", "hi": "रफ़ मसौदा", "pron": "ब्रू-यों", "ipa": "bʁujɔ̃" }
     ]
   },
   "listening": {
@@ -90,11 +90,11 @@
       { "speaker": "Sophie", "voice": "f2", "fr": "Vous pouvez me joindre au 613 555 0177. Bonne journée !", "en": "You can reach me at 613 555 0177. Have a nice day!", "hi": "आप मुझसे 613 555 0177 पर संपर्क कर सकते हैं। आपका दिन शुभ हो!" }
     ],
     "questions": [
-      { "q": { "en": "Why is Sophie calling?" }, "options": ["To cancel a yoga class", "To call back about a membership", "To announce that the pool is closed", "To offer a job"], "answer": 1, "explanation": { "en": "'Je vous rappelle au sujet de l'abonnement' — she is returning your call about the membership.", "hi": "'Je vous rappelle au sujet de l'abonnement' — वह सदस्यता के बारे में आपको वापस फ़ोन कर रही है।" }, "kind": "gist", "evidence": "Je vous rappelle au sujet de l'abonnement." },
-      { "q": { "en": "When does the pool close on Fridays?" }, "options": ["At 10 p.m.", "At 5 p.m.", "At 7 p.m.", "At 2 p.m."], "answer": 2, "explanation": { "en": "'Elle ferme à 19 h le vendredi.' 22 h is Monday to Thursday.", "hi": "'Elle ferme à 19 h le vendredi.' रात 10 बजे सोमवार से गुरुवार के लिए है।" }, "kind": "literal", "evidence": "elle ferme à 19 h le vendredi" },
-      { "q": { "en": "What does a student need for the discount?" }, "options": ["A valid student card", "A letter from the university", "A minimum age of 25", "Nothing at all"], "answer": 0, "explanation": { "en": "'Il suffit d'apporter votre carte étudiante valide.'", "hi": "'Il suffit d'apporter votre carte étudiante valide.' — बस वैध विद्यार्थी-कार्ड चाहिए।" }, "kind": "literal", "evidence": "Il suffit d'apporter votre carte étudiante valide." },
-      { "q": { "en": "What is true about the yoga classes?" }, "options": ["They are free for members", "They are only on Fridays", "They are cancelled", "They cost extra"], "answer": 3, "explanation": { "en": "They are 'pas compris dans l'abonnement' and cost 8 dollars per session.", "hi": "वे 'pas compris dans l'abonnement' हैं और हर सत्र के 8 डॉलर लगते हैं।" }, "kind": "inference", "evidence": "les cours de yoga ne sont pas compris dans l'abonnement" },
-      { "q": { "en": "What does Sophie suggest?" }, "options": ["Visiting the centre tomorrow afternoon", "Sending an email", "Coming on Friday evening", "Paying online today"], "answer": 0, "explanation": { "en": "She is available 'demain entre 14 h et 17 h' for a visit.", "hi": "वह मुलाक़ात के लिए 'demain entre 14 h et 17 h' उपलब्ध है।" }, "kind": "literal", "evidence": "je suis là demain entre 14 h et 17 h" }
+      { "q": { "en": "Why is Sophie calling?", "hi": "सोफ़ी फ़ोन क्यों कर रही है?" }, "options": ["To cancel a yoga class", "To call back about a membership", "To announce that the pool is closed", "To offer a job"], "optionsHi": ["योग की कक्षा रद्द करने के लिए", "सदस्यता के बारे में वापस फ़ोन करने के लिए", "यह बताने के लिए कि स्विमिंग पूल बंद है", "नौकरी का प्रस्ताव देने के लिए"], "answer": 1, "explanation": { "en": "'Je vous rappelle au sujet de l'abonnement' — she is returning your call about the membership.", "hi": "'Je vous rappelle au sujet de l'abonnement' — वह सदस्यता के बारे में आपको वापस फ़ोन कर रही है।" }, "kind": "gist", "evidence": "Je vous rappelle au sujet de l'abonnement." },
+      { "q": { "en": "When does the pool close on Fridays?", "hi": "स्विमिंग पूल शुक्रवार को कब बंद होता है?" }, "options": ["At 10 p.m.", "At 5 p.m.", "At 7 p.m.", "At 2 p.m."], "answer": 2, "explanation": { "en": "'Elle ferme à 19 h le vendredi.' 22 h is Monday to Thursday.", "hi": "'Elle ferme à 19 h le vendredi.' रात 10 बजे सोमवार से गुरुवार के लिए है।" }, "kind": "literal", "evidence": "elle ferme à 19 h le vendredi" },
+      { "q": { "en": "What does a student need for the discount?", "hi": "छात्र को छूट के लिए क्या चाहिए?" }, "options": ["A valid student card", "A letter from the university", "A minimum age of 25", "Nothing at all"], "optionsHi": ["मान्य छात्र पहचान-पत्र", "विश्वविद्यालय का पत्र", "कम से कम 25 वर्ष की आयु", "कुछ भी नहीं"], "answer": 0, "explanation": { "en": "'Il suffit d'apporter votre carte étudiante valide.'", "hi": "'Il suffit d'apporter votre carte étudiante valide.' — बस वैध विद्यार्थी-कार्ड चाहिए।" }, "kind": "literal", "evidence": "Il suffit d'apporter votre carte étudiante valide." },
+      { "q": { "en": "What is true about the yoga classes?", "hi": "योग की कक्षाओं के बारे में क्या सही है?" }, "options": ["They are free for members", "They are only on Fridays", "They are cancelled", "They cost extra"], "optionsHi": ["सदस्यों के लिए वे मुफ़्त हैं", "वे केवल शुक्रवार को होती हैं", "वे रद्द हो गई हैं", "उनके लिए अतिरिक्त शुल्क देना पड़ता है"], "answer": 3, "explanation": { "en": "They are 'pas compris dans l'abonnement' and cost 8 dollars per session.", "hi": "वे 'pas compris dans l'abonnement' हैं और हर सत्र के 8 डॉलर लगते हैं।" }, "kind": "inference", "evidence": "les cours de yoga ne sont pas compris dans l'abonnement" },
+      { "q": { "en": "What does Sophie suggest?", "hi": "सोफ़ी क्या सुझाव देती है?" }, "options": ["Visiting the centre tomorrow afternoon", "Sending an email", "Coming on Friday evening", "Paying online today"], "optionsHi": ["कल दोपहर केंद्र में आना", "ईमेल भेजना", "शुक्रवार शाम को आना", "आज ही ऑनलाइन भुगतान करना"], "answer": 0, "explanation": { "en": "She is available 'demain entre 14 h et 17 h' for a visit.", "hi": "वह मुलाक़ात के लिए 'demain entre 14 h et 17 h' उपलब्ध है।" }, "kind": "literal", "evidence": "je suis là demain entre 14 h et 17 h" }
     ],
     "dictation": [
       "Les cours de yoga ne sont pas compris dans l'abonnement.",
@@ -112,7 +112,7 @@
       "hi": "मौखिक खंड A का अभ्यास (छोटा रूप, 3 मिनट)। नीचे दिया कुकिंग-क्लास का विज्ञापन पढ़िए। स्कूल को फ़ोन कीजिए और जानकारी के लिए कम से कम छह प्रश्न पूछिए। शिष्ट अप्रत्यक्ष प्रश्न इस्तेमाल कीजिए। फिर पूरी मॉक मौखिक परीक्षा दीजिए (A: 5 मिनट, B: 10 मिनट)।"
     },
     "scenario": {
-      "setting": { "en": "A phone call to Atelier Saveurs, a cooking school in Ottawa, about the advertisement.", "hi": "विज्ञापन के बारे में ओटावा के कुकिंग स्कूल आतलिए सावöर को फ़ोन।" },
+      "setting": { "en": "A phone call to Atelier Saveurs, a cooking school in Ottawa, about the advertisement.", "hi": "विज्ञापन के बारे में ओटावा के कुकिंग स्कूल आतलिए सावर को फ़ोन।" },
       "learnerRole": { "en": "You are interested in a class and want details before booking.", "hi": "आपकी एक कक्षा में रुचि है और बुकिंग से पहले आप पूरी जानकारी चाहते हैं।" },
       "partnerRole": { "en": "The receptionist of the school, who answers politely but only what is asked.", "hi": "स्कूल का रिसेप्शनिस्ट, जो शिष्टता से जवाब देता है, पर सिर्फ़ उतना ही जितना पूछा जाए।" },
       "goals": [
@@ -122,12 +122,12 @@
       ]
     },
     "prompts": [
-      { "fr": "Bonjour, j'appelle au sujet de votre annonce.", "en": "Hello, I'm calling about your advertisement.", "hi": "नमस्ते, मैं आपके विज्ञापन के बारे में फ़ोन कर रहा / रही हूँ।", "pron": "बोँ-झ़ूग़ झ़ा-पैल ओ सü-झ़ै दö वॉत्ग़ आ-नोँस" },
-      { "fr": "Je voudrais savoir s'il reste des places pour le cours de cuisine indienne.", "en": "I'd like to know if there are places left in the Indian cooking class.", "hi": "मैं जानना चाहता / चाहती हूँ कि भारतीय खाने की कक्षा में जगह बची है या नहीं।", "pron": "झ़ö वू-द्ग़ै सा-वाग़ सील ग़ैस्त दे प्लास पूग़ लö कूग़ दö कüई-ज़ीन ऐँ-द्यैन" },
-      { "fr": "Pourriez-vous me dire à quelle heure commence le cours du mercredi ?", "en": "Could you tell me what time the Wednesday class starts?", "hi": "क्या आप बता सकते हैं कि बुधवार की कक्षा कितने बजे शुरू होती है?", "pron": "पू-ग़ी-ये वू मö दीग़ आ कैल öग़ को-माँस लö कूग़ दü मैग़-क्ग़ö-दी" },
-      { "fr": "Est-ce qu'il y a une option pour les personnes allergiques ?", "en": "Is there an option for people with allergies?", "hi": "क्या एलर्जी वाले लोगों के लिए कोई विकल्प है?", "pron": "ऐस कील या üन ऑप-स्योँ पूग़ ले पैग़-सॉन ज़ा-लैग़-झ़ीक" },
-      { "fr": "Est-ce qu'on peut payer en plusieurs fois ?", "en": "Can you pay in several instalments?", "hi": "क्या किस्तों में भुगतान किया जा सकता है?", "pron": "ऐस कोँ पö पे-ये आँ प्लü-ज़्यöग़ फ़्वा" },
-      { "fr": "Comment se passe la réservation, exactement ?", "en": "How does booking work, exactly?", "hi": "बुकिंग ठीक-ठीक कैसे होती है?", "pron": "को-माँ सö पास ला ग़े-ज़ैग़-वा-स्योँ ऐग-ज़ाक-तö-माँ", "model": "Est-ce que je dois réserver par téléphone, ou est-ce que je peux le faire en ligne ?" }
+      { "fr": "Bonjour, j'appelle au sujet de votre annonce.", "en": "Hello, I'm calling about your advertisement.", "hi": "नमस्ते, मैं आपके विज्ञापन के बारे में फ़ोन कर रहा / रही हूँ।", "pron": "बों-जूर जा-पेल ओ स्यू-जे द वॉत्र आ-नोंस" },
+      { "fr": "Je voudrais savoir s'il reste des places pour le cours de cuisine indienne.", "en": "I'd like to know if there are places left in the Indian cooking class.", "hi": "मैं जानना चाहता / चाहती हूँ कि भारतीय खाने की कक्षा में जगह बची है या नहीं।", "pron": "ज वू-द्रे सा-वार सील रेस्त दे प्लास पूर ल कूर द क्यूई-ज़ीन ऐं-द्येन" },
+      { "fr": "Pourriez-vous me dire à quelle heure commence le cours du mercredi ?", "en": "Could you tell me what time the Wednesday class starts?", "hi": "क्या आप बता सकते हैं कि बुधवार की कक्षा कितने बजे शुरू होती है?", "pron": "पू-री-ये वू म दीर आ केल अर को-माँस ल कूर द्यू मेर-क्र-दी" },
+      { "fr": "Est-ce qu'il y a une option pour les personnes allergiques ?", "en": "Is there an option for people with allergies?", "hi": "क्या एलर्जी वाले लोगों के लिए कोई विकल्प है?", "pron": "एस कील या यून ऑप-स्यों पूर ले पेर-सॉन ज़ा-लेर-जीक" },
+      { "fr": "Est-ce qu'on peut payer en plusieurs fois ?", "en": "Can you pay in several instalments?", "hi": "क्या किस्तों में भुगतान किया जा सकता है?", "pron": "एस कों प पे-ये आँ प्ल्यू-ज़्यर फ़्वा" },
+      { "fr": "Comment se passe la réservation, exactement ?", "en": "How does booking work, exactly?", "hi": "बुकिंग ठीक-ठीक कैसे होती है?", "pron": "को-माँ स पास ला रे-ज़ेर-वा-स्यों एग-ज़ाक-त-माँ", "model": "Est-ce que je dois réserver par téléphone, ou est-ce que je peux le faire en ligne ?" }
     ],
     "tip": {
       "en": "In section A, don't just read the ad back. The advertisement gives some facts; your job is to ask about what it does not say, in varied forms: Je voudrais savoir si…, Pourriez-vous me dire…, Est-ce que…",
@@ -140,14 +140,14 @@
     "text": "Vous aimez cuisiner ou vous voulez enfin apprendre ? L'Atelier Saveurs vous propose des cours en petits groupes de huit personnes maximum, dans une cuisine professionnelle entièrement équipée, au cœur du marché By.\n\nAu programme cet automne : cuisine indienne végétarienne, pâtes fraîches italiennes, cuisine libanaise et pâtisserie française. Chaque cours dure trois heures et se termine par un repas pris ensemble. Vous repartez avec les recettes et, souvent, avec une boîte de restes !\n\nNos chefs parlent français et anglais. Aucune expérience n'est nécessaire : il suffit d'avoir envie d'apprendre. Tous les ingrédients et le matériel sont fournis, mais nous vous conseillons d'apporter un tablier.\n\nTarifs : 75 $ le cours, ou 260 $ pour une série de quatre cours. Des cartes-cadeaux sont disponibles toute l'année.\n\nLes cours ont lieu le samedi après-midi et le mercredi soir. La réservation est obligatoire au moins une semaine à l'avance, par téléphone ou à l'accueil. En cas d'annulation moins de 48 heures avant le cours, aucun remboursement ne sera accordé.\n\nAtelier Saveurs — 613 555 0123",
     "translation": {
       "en": "Do you love cooking, or do you finally want to learn? Atelier Saveurs offers classes in small groups of eight people maximum, in a fully equipped professional kitchen, in the heart of the ByWard Market.\n\nOn the programme this autumn: vegetarian Indian cooking, fresh Italian pasta, Lebanese cooking and French pastry. Each class lasts three hours and ends with a meal eaten together. You leave with the recipes and often with a box of leftovers!\n\nOur chefs speak French and English. No experience is needed: you just have to want to learn. All ingredients and equipment are provided, but we advise you to bring an apron.\n\nPrices: $75 per class, or $260 for a series of four classes. Gift cards are available all year round.\n\nClasses take place on Saturday afternoons and Wednesday evenings. Booking is compulsory at least one week in advance, by phone or at the reception desk. If you cancel less than 48 hours before the class, no refund will be given.\n\nAtelier Saveurs — 613 555 0123",
-      "hi": "क्या आपको खाना बनाना पसंद है, या आप आख़िरकार सीखना चाहते हैं? आतलिए सावöर बाय मार्केट के बीचोंबीच, पूरी तरह सुसज्जित पेशेवर रसोई में, अधिकतम आठ लोगों के छोटे समूहों में कक्षाएँ देता है।\n\nइस पतझड़ के कार्यक्रम में: शाकाहारी भारतीय खाना, ताज़ा इतालवी पास्ता, लेबनानी खाना और फ़्रेंच मिठाइयाँ। हर कक्षा तीन घंटे की होती है और अंत में सब साथ बैठकर खाना खाते हैं। आप रेसिपी लेकर जाते हैं और अक्सर बचे हुए खाने का एक डिब्बा भी!\n\nहमारे शेफ़ फ़्रेंच और अंग्रेज़ी बोलते हैं। किसी अनुभव की ज़रूरत नहीं: बस सीखने की इच्छा होनी चाहिए। सारी सामग्री और बर्तन हम देते हैं, लेकिन हमारी सलाह है कि आप एक एप्रन ले आएँ।\n\nशुल्क: एक कक्षा के 75 डॉलर, या चार कक्षाओं की शृंखला के 260 डॉलर। उपहार-कार्ड पूरे साल मिलते हैं।\n\nकक्षाएँ शनिवार दोपहर और बुधवार शाम को होती हैं। कम से कम एक हफ़्ता पहले फ़ोन पर या रिसेप्शन पर बुकिंग करना ज़रूरी है। कक्षा से 48 घंटे से कम पहले रद्द करने पर कोई पैसा वापस नहीं मिलेगा।\n\nआतलिए सावöर — 613 555 0123"
+      "hi": "क्या आपको खाना बनाना पसंद है, या आप आख़िरकार सीखना चाहते हैं? आतलिए सावर बाय मार्केट के बीचोंबीच, पूरी तरह सुसज्जित पेशेवर रसोई में, अधिकतम आठ लोगों के छोटे समूहों में कक्षाएँ देता है।\n\nइस पतझड़ के कार्यक्रम में: शाकाहारी भारतीय खाना, ताज़ा इतालवी पास्ता, लेबनानी खाना और फ़्रेंच मिठाइयाँ। हर कक्षा तीन घंटे की होती है और अंत में सब साथ बैठकर खाना खाते हैं। आप रेसिपी लेकर जाते हैं और अक्सर बचे हुए खाने का एक डिब्बा भी!\n\nहमारे शेफ़ फ़्रेंच और अंग्रेज़ी बोलते हैं। किसी अनुभव की ज़रूरत नहीं: बस सीखने की इच्छा होनी चाहिए। सारी सामग्री और बर्तन हम देते हैं, लेकिन हमारी सलाह है कि आप एक एप्रन ले आएँ।\n\nशुल्क: एक कक्षा के 75 डॉलर, या चार कक्षाओं की शृंखला के 260 डॉलर। उपहार-कार्ड पूरे साल मिलते हैं।\n\nकक्षाएँ शनिवार दोपहर और बुधवार शाम को होती हैं। कम से कम एक हफ़्ता पहले फ़ोन पर या रिसेप्शन पर बुकिंग करना ज़रूरी है। कक्षा से 48 घंटे से कम पहले रद्द करने पर कोई पैसा वापस नहीं मिलेगा।\n\nआतलिए सावर — 613 555 0123"
     },
     "questions": [
-      { "q": { "en": "How big are the groups?" }, "options": ["Four people at most", "Eight people at most", "Twelve people", "There is no limit"], "answer": 1, "explanation": { "en": "'En petits groupes de huit personnes maximum.'", "hi": "'En petits groupes de huit personnes maximum' — अधिकतम आठ लोग।" }, "kind": "literal", "evidence": "huit personnes maximum" },
-      { "q": { "en": "How does each class end?" }, "options": ["With a written test", "With a market visit", "With a meal eaten together", "With a cooking competition"], "answer": 2, "explanation": { "en": "Each class 'se termine par un repas pris ensemble'.", "hi": "हर कक्षा 'se termine par un repas pris ensemble' — साथ खाने से ख़त्म होती है।" }, "kind": "literal", "evidence": "se termine par un repas pris ensemble" },
-      { "q": { "en": "What should participants bring?" }, "options": ["An apron", "Their own ingredients", "Knives and pans", "A recipe book"], "answer": 0, "explanation": { "en": "Everything is provided, 'mais nous vous conseillons d'apporter un tablier'.", "hi": "सब कुछ दिया जाता है, 'mais nous vous conseillons d'apporter un tablier' — बस एप्रन लाइए।" }, "kind": "vocabulary", "evidence": "nous vous conseillons d'apporter un tablier" },
-      { "q": { "en": "Why is the series of four classes interesting?" }, "options": ["It includes a gift card", "It is cheaper than four single classes", "It gives access to Saturday classes only", "It includes a free apron"], "answer": 1, "explanation": { "en": "Four classes at $75 = $300; the series costs $260.", "hi": "चार कक्षाएँ 75 डॉलर में = 300 डॉलर; शृंखला 260 डॉलर की है।" }, "kind": "inference", "evidence": "260 $ pour une série de quatre cours" },
-      { "q": { "en": "You cancel the day before the class. What happens?" }, "options": ["You get a full refund", "You get half of the price back", "You can change to another date for free", "You get no refund"], "answer": 3, "explanation": { "en": "The day before is less than 48 hours: 'aucun remboursement ne sera accordé'.", "hi": "एक दिन पहले का मतलब 48 घंटे से कम: 'aucun remboursement ne sera accordé'।" }, "kind": "inference", "evidence": "aucun remboursement ne sera accordé" }
+      { "q": { "en": "How big are the groups?", "hi": "समूह कितने बड़े होते हैं?" }, "options": ["Four people at most", "Eight people at most", "Twelve people", "There is no limit"], "optionsHi": ["अधिकतम चार लोग", "अधिकतम आठ लोग", "बारह लोग", "कोई सीमा नहीं है"], "answer": 1, "explanation": { "en": "'En petits groupes de huit personnes maximum.'", "hi": "'En petits groupes de huit personnes maximum' — अधिकतम आठ लोग।" }, "kind": "literal", "evidence": "huit personnes maximum" },
+      { "q": { "en": "How does each class end?", "hi": "हर कक्षा का अंत कैसे होता है?" }, "options": ["With a written test", "With a market visit", "With a meal eaten together", "With a cooking competition"], "optionsHi": ["लिखित परीक्षा से", "बाज़ार की सैर से", "साथ मिलकर खाए गए भोजन से", "खाना बनाने की प्रतियोगिता से"], "answer": 2, "explanation": { "en": "Each class 'se termine par un repas pris ensemble'.", "hi": "हर कक्षा 'se termine par un repas pris ensemble' — साथ खाने से ख़त्म होती है।" }, "kind": "literal", "evidence": "se termine par un repas pris ensemble" },
+      { "q": { "en": "What should participants bring?", "hi": "प्रतिभागियों को क्या लाना चाहिए?" }, "options": ["An apron", "Their own ingredients", "Knives and pans", "A recipe book"], "optionsHi": ["एप्रन", "अपनी खुद की सामग्री", "चाकू और पैन", "रेसिपी की किताब"], "answer": 0, "explanation": { "en": "Everything is provided, 'mais nous vous conseillons d'apporter un tablier'.", "hi": "सब कुछ दिया जाता है, 'mais nous vous conseillons d'apporter un tablier' — बस एप्रन लाइए।" }, "kind": "vocabulary", "evidence": "nous vous conseillons d'apporter un tablier" },
+      { "q": { "en": "Why is the series of four classes interesting?", "hi": "चार कक्षाओं की शृंखला क्यों फ़ायदेमंद है?" }, "options": ["It includes a gift card", "It is cheaper than four single classes", "It gives access to Saturday classes only", "It includes a free apron"], "optionsHi": ["इसमें एक गिफ़्ट कार्ड शामिल है", "यह चार अलग-अलग कक्षाओं से सस्ती है", "इससे केवल शनिवार की कक्षाओं में प्रवेश मिलता है", "इसमें एक मुफ़्त एप्रन शामिल है"], "answer": 1, "explanation": { "en": "Four classes at $75 = $300; the series costs $260.", "hi": "चार कक्षाएँ 75 डॉलर में = 300 डॉलर; शृंखला 260 डॉलर की है।" }, "kind": "inference", "evidence": "260 $ pour une série de quatre cours" },
+      { "q": { "en": "You cancel the day before the class. What happens?", "hi": "आप कक्षा से एक दिन पहले रद्द करते हैं। क्या होता है?" }, "options": ["You get a full refund", "You get half of the price back", "You can change to another date for free", "You get no refund"], "optionsHi": ["आपको पूरा पैसा वापस मिलता है", "आपको आधा पैसा वापस मिलता है", "आप मुफ़्त में दूसरी तारीख़ चुन सकते हैं", "आपको कोई पैसा वापस नहीं मिलता"], "answer": 3, "explanation": { "en": "The day before is less than 48 hours: 'aucun remboursement ne sera accordé'.", "hi": "एक दिन पहले का मतलब 48 घंटे से कम: 'aucun remboursement ne sera accordé'।" }, "kind": "inference", "evidence": "aucun remboursement ne sera accordé" }
     ]
   },
   "writing": {
@@ -164,9 +164,9 @@
       { "en": "Introduction: Madame, Monsieur, + Je vous écris pour réagir à… + your position.", "hi": "भूमिका: Madame, Monsieur, + Je vous écris pour réagir à… + आपकी राय।" }
     ],
     "usefulPhrases": [
-      { "fr": "Je vous écris pour réagir à …", "en": "I am writing to react to …", "hi": "मैं … पर प्रतिक्रिया देने के लिए लिख रहा / रही हूँ", "pron": "झ़ö वू ज़े-क्ग़ी पूग़ ग़े-आ-झ़ीग़ आ" },
-      { "fr": "Je ne partage pas cette opinion.", "en": "I do not share this opinion.", "hi": "मैं इस राय से सहमत नहीं हूँ।", "pron": "झ़ö नö पाग़-ताझ़ पा सैत ओ-पी-न्योँ" },
-      { "fr": "pour trois raisons principales", "en": "for three main reasons", "hi": "तीन मुख्य कारणों से", "pron": "पूग़ त्ग़्वा ग़ै-ज़ोँ प्ग़ैँ-सी-पाल" }
+      { "fr": "Je vous écris pour réagir à …", "en": "I am writing to react to …", "hi": "मैं … पर प्रतिक्रिया देने के लिए लिख रहा / रही हूँ", "pron": "ज वू ज़े-क्री पूर रे-आ-जीर आ" },
+      { "fr": "Je ne partage pas cette opinion.", "en": "I do not share this opinion.", "hi": "मैं इस राय से सहमत नहीं हूँ।", "pron": "ज न पार-ताज पा सेत ओ-पी-न्यों" },
+      { "fr": "pour trois raisons principales", "en": "for three main reasons", "hi": "तीन मुख्य कारणों से", "pron": "पूर त्र्वा रे-ज़ों प्रैं-सी-पाल" }
     ],
     "model": {
       "fr": "Plan : je ne suis pas d'accord. Argument 1 : le contact humain avec le professeur. Argument 2 : la motivation des élèves. Argument 3 : tout le monde n'a pas un bon accès à Internet. Conclusion : combiner les deux formules.\n\nMadame, Monsieur,\nJe vous écris pour réagir à l'affirmation selon laquelle les cours en ligne devraient remplacer les cours en classe. Même si l'enseignement à distance présente de vrais avantages, je ne partage pas cette opinion, pour trois raisons principales.",
@@ -181,13 +181,13 @@
   "review": {
     "fromDays": [86, 87, 88, 89, 95, 96],
     "items": [
-      { "fr": "Je voudrais savoir si le poste est à temps plein.", "en": "I'd like to know if the job is full-time.", "hi": "मैं जानना चाहता / चाहती हूँ कि क्या यह नौकरी पूरे समय की है।", "pron": "झ़ö वू-द्ग़ै सा-वाग़ सी लö पोस्त ऐ ता ताँ प्लैँ" },
-      { "fr": "Pourriez-vous me dire combien coûte le loyer ?", "en": "Could you tell me how much the rent is?", "hi": "क्या आप बता सकते हैं कि किराया कितना है?", "pron": "पू-ग़ी-ये वू मö दीग़ कोँ-ब्यैँ कूत लö ल्वा-ये" },
-      { "fr": "À ta place, je m'inscrirais.", "en": "If I were you, I would sign up.", "hi": "तुम्हारी जगह मैं होता / होती, तो नाम लिखवा लेता / लेती।", "pron": "आ ता प्लास झ़ö मैँस-क्ग़ी-ग़ै" },
-      { "fr": "Tu devrais essayer.", "en": "You should try.", "hi": "तुम्हें कोशिश करनी चाहिए।", "pron": "तü दö-व्ग़ै ए-से-ये" },
-      { "fr": "Le conducteur avait oublié ses clés.", "en": "The driver had forgotten his keys.", "hi": "ड्राइवर अपनी चाबियाँ भूल गया था।", "pron": "लö कोँ-दüक-तöग़ आ-वै तू-ब्ली-ये से क्ले" },
-      { "fr": "Veuillez agréer, Madame, Monsieur, mes salutations distinguées.", "en": "Yours faithfully.", "hi": "भवदीय (औपचारिक पत्र का अंत)।", "pron": "वö-ये ज़ा-ग्ग़े-ए मा-दाम मö-स्यö मे सा-लü-ता-स्योँ दीस-तैँ-गे" },
-      { "fr": "le chauffage inclus", "en": "heating included", "hi": "हीटिंग शामिल", "pron": "लö शो-फ़ाझ़ ऐँ-क्लü" }
+      { "fr": "Je voudrais savoir si le poste est à temps plein.", "en": "I'd like to know if the job is full-time.", "hi": "मैं जानना चाहता / चाहती हूँ कि क्या यह नौकरी पूरे समय की है।", "pron": "ज वू-द्रे सा-वार सी ल पॉस्त ए ता ताँ प्लैं" },
+      { "fr": "Pourriez-vous me dire combien coûte le loyer ?", "en": "Could you tell me how much the rent is?", "hi": "क्या आप बता सकते हैं कि किराया कितना है?", "pron": "पू-री-ये वू म दीर कों-ब्यैं कूत ल ल्वा-ये" },
+      { "fr": "À ta place, je m'inscrirais.", "en": "If I were you, I would sign up.", "hi": "तुम्हारी जगह मैं होता / होती, तो नाम लिखवा लेता / लेती।", "pron": "आ ता प्लास ज मैंस-क्री-रे" },
+      { "fr": "Tu devrais essayer.", "en": "You should try.", "hi": "तुम्हें कोशिश करनी चाहिए।", "pron": "त्यू द-व्रे ए-से-ये" },
+      { "fr": "Le conducteur avait oublié ses clés.", "en": "The driver had forgotten his keys.", "hi": "ड्राइवर अपनी चाबियाँ भूल गया था।", "pron": "ल कों-द्यूक-तर आ-वे तू-ब्ली-ये से क्ले" },
+      { "fr": "Veuillez agréer, Madame, Monsieur, mes salutations distinguées.", "en": "Yours faithfully.", "hi": "भवदीय (औपचारिक पत्र का अंत)।", "pron": "व-ये ज़ा-ग्रे-ए मा-दाम म-स्य मे सा-ल्यू-ता-स्यों दीस-तैं-गे" },
+      { "fr": "le chauffage inclus", "en": "heating included", "hi": "हीटिंग शामिल", "pron": "ल शो-फ़ाज ऐं-क्ल्यू" }
     ]
   },
   "assessment": [

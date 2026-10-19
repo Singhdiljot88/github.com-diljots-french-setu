@@ -31,7 +31,7 @@
       "fr": "le loyer",
       "en": "the rent",
       "hi": "किराया",
-      "pron": "लö ल्वा-ये",
+      "pron": "ल ल्वा-ये",
       "ipa": "lə lwaje",
       "pos": "noun",
       "gender": "m",
@@ -41,7 +41,7 @@
       "fr": "le coût de la vie",
       "en": "the cost of living",
       "hi": "रहन-सहन का ख़र्च",
-      "pron": "लö कू द ला वी",
+      "pron": "ल कू द ला वी",
       "ipa": "lə ku də la vi",
       "pos": "noun",
       "gender": "m",
@@ -51,7 +51,7 @@
       "fr": "bon marché",
       "en": "cheap, inexpensive",
       "hi": "सस्ता",
-      "pron": "बोँ माग़-शे",
+      "pron": "बों मार-शे",
       "ipa": "bɔ̃ maʁʃe",
       "pos": "adjective",
       "note": {
@@ -63,7 +63,7 @@
       "fr": "le climat",
       "en": "the climate",
       "hi": "जलवायु",
-      "pron": "लö क्ली-मा",
+      "pron": "ल क्ली-मा",
       "ipa": "lə klima",
       "pos": "noun",
       "gender": "m",
@@ -73,7 +73,7 @@
       "fr": "humide",
       "en": "humid, damp",
       "hi": "नम, उमस भरा",
-      "pron": "ü-मीद",
+      "pron": "यू-मीद",
       "ipa": "ymid",
       "pos": "adjective",
       "gender": "mf"
@@ -82,7 +82,7 @@
       "fr": "sec / sèche",
       "en": "dry",
       "hi": "सूखा / सूखी",
-      "pron": "सैक / सैश",
+      "pron": "सेक / सेश",
       "ipa": "sɛk / sɛʃ",
       "pos": "adjective",
       "lemma": "sec"
@@ -91,7 +91,7 @@
       "fr": "les transports en commun",
       "en": "public transport",
       "hi": "सार्वजनिक यातायात",
-      "pron": "ले त्राँस-पॉग़ आँ को-मैँ",
+      "pron": "ले त्राँस-पॉर आँ को-मैं",
       "ipa": "le tʁɑ̃spɔʁ ɑ̃ kɔmɛ̃",
       "pos": "noun",
       "gender": "m",
@@ -101,7 +101,7 @@
       "fr": "sûr / sûre",
       "en": "safe; sure",
       "hi": "सुरक्षित; पक्का",
-      "pron": "सüग़",
+      "pron": "स्यूर",
       "ipa": "syʁ",
       "pos": "adjective",
       "lemma": "sûr",
@@ -123,7 +123,7 @@
       "fr": "la pollution",
       "en": "pollution",
       "hi": "प्रदूषण",
-      "pron": "ला पो-लü-स्योँ",
+      "pron": "ला पो-ल्यू-स्यों",
       "ipa": "la pɔlysjɔ̃",
       "pos": "noun",
       "gender": "f",
@@ -133,7 +133,7 @@
       "fr": "l'embouteillage",
       "en": "the traffic jam",
       "hi": "ट्रैफ़िक जाम",
-      "pron": "लाँ-बू-तै-याझ़",
+      "pron": "लाँ-बू-ते-याज",
       "ipa": "lɑ̃butɛjaʒ",
       "pos": "noun",
       "gender": "m",
@@ -155,31 +155,31 @@
       "fr": "Le loyer est plus cher à Toronto qu'à Montréal.",
       "en": "Rent is more expensive in Toronto than in Montréal.",
       "hi": "टोरंटो में किराया मॉन्ट्रियाल से ज़्यादा महँगा है।",
-      "pron": "लö ल्वा-ये ए प्लü शैग़ आ तो-ग़ोँ-तो का मोँ-ग़े-आल"
+      "pron": "ल ल्वा-ये ए प्ल्यू शेर आ तो-रों-तो का मों-रे-आल"
     },
     {
       "fr": "Il fait moins froid à Vancouver.",
       "en": "It's less cold in Vancouver.",
       "hi": "वैंकूवर में ठंड कम होती है।",
-      "pron": "ईल फ़ै म्वैँ फ़्रवा आ वाँ-कू-वैग़"
+      "pron": "ईल फ़े म्वैं फ़्रवा आ वाँ-कू-वेर"
     },
     {
       "fr": "Les bus sont aussi rapides que le métro.",
       "en": "The buses are as fast as the metro.",
       "hi": "बसें भी मेट्रो जितनी तेज़ हैं।",
-      "pron": "ले बüस सोँ तो-सी ग़ा-पीद क लö मे-त्रो"
+      "pron": "ले ब्यूस सों तो-सी रा-पीद क ल मे-त्रो"
     },
     {
       "fr": "Il y a plus de travail ici.",
       "en": "There is more work here.",
       "hi": "यहाँ ज़्यादा काम है।",
-      "pron": "ई-लि-या प्लü द त्रा-वाय ई-सी"
+      "pron": "ई-लि-या प्ल्यू द त्रा-वाय ई-सी"
     },
     {
       "fr": "C'est la meilleure ville pour les familles.",
       "en": "It's the best city for families.",
       "hi": "यह परिवारों के लिए सबसे अच्छा शहर है।",
-      "pron": "सै ला मै-यöग़ वील पूग़ ले फ़ा-मीय"
+      "pron": "से ला मे-यर वील पूर ले फ़ा-मीय"
     },
     {
       "fr": "Ça dépend !",
@@ -206,31 +206,31 @@
         "fr": "L'hiver est plus long à Québec qu'à Toronto.",
         "en": "Winter is longer in Québec City than in Toronto.",
         "hi": "क्यूबेक शहर में सर्दी टोरंटो से ज़्यादा लंबी होती है।",
-        "pron": "ली-वैग़ ए प्लü लोँ आ के-बैक का तो-ग़ोँ-तो"
+        "pron": "ली-वेर ए प्ल्यू लों आ के-बेक का तो-रों-तो"
       },
       {
         "fr": "À Delhi, il y a moins de neige mais plus de pollution.",
         "en": "In Delhi there is less snow but more pollution.",
         "hi": "दिल्ली में बर्फ़ कम है पर प्रदूषण ज़्यादा।",
-        "pron": "आ दे-ली ई-लि-या म्वैँ द नैझ़ मै प्लü द पो-लü-स्योँ"
+        "pron": "आ दे-ली ई-लि-या म्वैं द नेज मे प्ल्यू द पो-ल्यू-स्यों"
       },
       {
         "fr": "Ce café est meilleur que l'autre.",
         "en": "This coffee is better than the other one.",
         "hi": "यह कॉफ़ी दूसरी वाली से बेहतर है।",
-        "pron": "सö का-फ़े ए मै-यöग़ क लोत्ग़"
+        "pron": "स का-फ़े ए मे-यर क लोत्र"
       },
       {
         "fr": "Tu parles mieux français maintenant !",
         "en": "You speak French better now!",
         "hi": "अब तुम बेहतर फ़्रेंच बोलते हो!",
-        "pron": "तü पाग़ल म्यö फ़्राँ-सै मैँत-नाँ"
+        "pron": "त्यू पारल म्य फ़्राँ-से मैंत-नाँ"
       },
       {
         "fr": "C'est le quartier le plus animé de la ville.",
         "en": "It's the liveliest neighbourhood in the city.",
         "hi": "यह शहर का सबसे चहल-पहल वाला इलाक़ा है।",
-        "pron": "सै लö काग़-त्ये लö प्लü ज़ा-नी-मे द ला वील"
+        "pron": "से ल कार-त्ये ल प्ल्यू ज़ा-नी-मे द ला वील"
       }
     ],
     "pitfalls": [
@@ -251,43 +251,43 @@
   "pronunciation": {
     "focus": "/œ/ in meilleur; /ø/ in mieux",
     "tip": {
-      "en": "Both sounds are 'rounded ए'. In mieux (and deux, peu) the mouth is closed and tense: म्यö. In meilleur (and heure, sœur) the mouth is more open and relaxed, and the r follows: मै-यöग़. Also: 'plus' is said प्लü before a consonant, but liaises with z before a vowel: plus‿agréable.",
-      "hi": "दोनों आवाज़ें 'गोल होंठों वाला ए' हैं। mieux (और deux, peu) में मुँह बंद और कसा हुआ: म्यö। meilleur (और heure, sœur) में मुँह ज़्यादा खुला और ढीला, फिर r आता है: मै-यöग़। साथ ही: व्यंजन से पहले 'plus' को प्लü बोलते हैं, पर स्वर से पहले z के साथ जुड़ता है: plus‿agréable।"
+      "en": "Both sounds are a 'rounded ए': say ए with your lips rounded as for ओ. Our guides show this vowel with the bare consonant (म्य, यर). In mieux (and deux, peu) the mouth is closed and tense: म्य. In meilleur (and heure, sœur) the mouth is more open and relaxed, and the r follows: मे-यर. Also: 'plus' is said प्ल्यू before a consonant, but liaises with z before a vowel: plus‿agréable.",
+      "hi": "दोनों आवाज़ें 'गोल होंठों वाला ए' हैं: ए बोलिए और होंठ ओ की तरह गोल कीजिए। हमारी गाइड में यह स्वर सिर्फ़ व्यंजन से दिखाया जाता है (म्य, यर)। mieux (और deux, peu) में मुँह बंद और कसा हुआ: म्य। meilleur (और heure, sœur) में मुँह ज़्यादा खुला और ढीला, फिर r आता है: मे-यर। साथ ही: व्यंजन से पहले 'plus' को प्ल्यू बोलते हैं, पर स्वर से पहले z के साथ जुड़ता है: plus‿agréable।"
     },
     "words": [
       {
         "fr": "meilleur",
         "en": "better (adjective)",
         "hi": "बेहतर",
-        "pron": "मै-यöग़",
+        "pron": "मे-यर",
         "ipa": "mɛjœʁ"
       },
       {
         "fr": "mieux",
         "en": "better (adverb)",
         "hi": "बेहतर ढंग से",
-        "pron": "म्यö",
+        "pron": "म्य",
         "ipa": "mjø"
       },
       {
         "fr": "plus cher",
         "en": "more expensive",
         "hi": "ज़्यादा महँगा",
-        "pron": "प्लü शैग़",
+        "pron": "प्ल्यू शेर",
         "ipa": "ply ʃɛʁ"
       },
       {
         "fr": "plus agréable",
         "en": "more pleasant",
         "hi": "ज़्यादा सुहाना",
-        "pron": "प्लü ज़ा-ग्रे-आब्ल",
+        "pron": "प्ल्यू ज़ा-ग्रे-आब्ल",
         "ipa": "ply zaɡʁeabl"
       },
       {
         "fr": "moins",
         "en": "less",
         "hi": "कम",
-        "pron": "म्वैँ",
+        "pron": "म्वैं",
         "ipa": "mwɛ̃"
       }
     ]
@@ -406,7 +406,8 @@
     "questions": [
       {
         "q": {
-          "en": "What is Toronto's main advantage for Aditi?"
+          "en": "What is Toronto's main advantage for Aditi?",
+          "hi": "Aditi के लिए Toronto का मुख्य फ़ायदा क्या है?"
         },
         "options": [
           "Lower rent",
@@ -420,11 +421,18 @@
           "hi": "'plus de travail dans mon domaine, la finance' (मेरे क्षेत्र फ़ाइनेंस में ज़्यादा काम)।"
         },
         "kind": "literal",
-        "evidence": "il y a plus de travail dans mon domaine, la finance"
+        "evidence": "il y a plus de travail dans mon domaine, la finance",
+        "optionsHi": [
+          "कम किराया",
+          "वित्त क्षेत्र में ज़्यादा नौकरियाँ",
+          "कम बर्फ़",
+          "बेहतर फ़्रेंच"
+        ]
       },
       {
         "q": {
-          "en": "How much does a similar flat cost in Montréal?"
+          "en": "How much does a similar flat cost in Montréal?",
+          "hi": "Montréal में वैसे ही फ़्लैट की क़ीमत कितनी है?"
         },
         "options": [
           "About 2,600 dollars",
@@ -441,7 +449,8 @@
       },
       {
         "q": {
-          "en": "According to Rohit, what is worse in Toronto?"
+          "en": "According to Rohit, what is worse in Toronto?",
+          "hi": "Rohit के अनुसार Toronto में क्या ज़्यादा बुरा है?"
         },
         "options": [
           "The traffic jams",
@@ -454,11 +463,17 @@
           "hi": "'à Toronto, il y a plus d'embouteillages' (टोरंटो में ट्रैफ़िक जाम ज़्यादा हैं)।"
         },
         "kind": "literal",
-        "evidence": "à Toronto, il y a plus d'embouteillages"
+        "evidence": "à Toronto, il y a plus d'embouteillages",
+        "optionsHi": [
+          "ट्रैफ़िक जाम",
+          "सार्वजनिक परिवहन",
+          "बर्फ़"
+        ]
       },
       {
         "q": {
-          "en": "What does Rohit mean by 'La rue, c'est la meilleure école'?"
+          "en": "What does Rohit mean by 'La rue, c'est la meilleure école'?",
+          "hi": "'La rue, c'est la meilleure école' से Rohit का क्या मतलब है?"
         },
         "options": [
           "Montréal's schools are in the street",
@@ -471,11 +486,17 @@
           "hi": "मॉन्ट्रियाल में रोज़ फ़्रेंच सुनने और बोलने से उसकी फ़्रेंच सबसे तेज़ी से सुधरेगी।"
         },
         "kind": "inference",
-        "evidence": "La rue, c'est la meilleure école !"
+        "evidence": "La rue, c'est la meilleure école !",
+        "optionsHi": [
+          "Montréal के स्कूल सड़क पर हैं",
+          "रोज़ फ़्रेंच में जीना सीखने का सबसे अच्छा तरीक़ा है",
+          "Aditi को रात में पढ़ाई करनी चाहिए"
+        ]
       },
       {
         "q": {
-          "en": "Why does Aditi say Rohit isn't objective?"
+          "en": "Why does Aditi say Rohit isn't objective?",
+          "hi": "Aditi यह क्यों कहती है कि Rohit निष्पक्ष नहीं है?"
         },
         "options": [
           "Because he lives in Montréal",
@@ -488,7 +509,12 @@
           "hi": "'tu habites à Montréal !' — स्वाभाविक है कि वह अपने शहर को पसंद करता है।"
         },
         "kind": "inference",
-        "evidence": "Tu n'es pas très objectif : tu habites à Montréal !"
+        "evidence": "Tu n'es pas très objectif : tu habites à Montréal !",
+        "optionsHi": [
+          "क्योंकि वह Montréal में रहता है",
+          "क्योंकि वह कभी Toronto नहीं गया",
+          "क्योंकि वह वित्त क्षेत्र में काम करता है"
+        ]
       }
     ],
     "dictation": [
@@ -516,35 +542,35 @@
         "fr": "Où est-ce que le climat est plus agréable ?",
         "en": "Where is the climate more pleasant?",
         "hi": "कहाँ का मौसम ज़्यादा सुहाना है?",
-        "pron": "ऊ ऐस-क लö क्ली-मा ए प्लü ज़ा-ग्रे-आब्ल",
+        "pron": "ऊ एस-क ल क्ली-मा ए प्ल्यू ज़ा-ग्रे-आब्ल",
         "model": "Le climat est plus agréable à Bangalore qu'à Ottawa : il fait moins froid."
       },
       {
         "fr": "Où est-ce que la vie coûte moins cher ?",
         "en": "Where does life cost less?",
         "hi": "कहाँ रहना सस्ता है?",
-        "pron": "ऊ ऐस-क ला वी कूत म्वैँ शैग़",
+        "pron": "ऊ एस-क ला वी कूत म्वैं शेर",
         "model": "La vie coûte moins cher à Bangalore, mais les salaires sont plus bas."
       },
       {
         "fr": "Les transports sont meilleurs où ?",
         "en": "Where is transport better?",
         "hi": "यातायात कहाँ बेहतर है?",
-        "pron": "ले त्राँस-पॉग़ सोँ मै-यöग़ ऊ",
+        "pron": "ले त्राँस-पॉर सों मे-यर ऊ",
         "model": "À Ottawa, il y a moins d'embouteillages, et les bus sont plus ponctuels."
       },
       {
         "fr": "Où est-ce qu'il y a plus de choses à faire ?",
         "en": "Where is there more to do?",
         "hi": "कहाँ करने को ज़्यादा चीज़ें हैं?",
-        "pron": "ऊ ऐस-कि-लि-या प्लü द शोज़ आ फ़ैग़",
+        "pron": "ऊ एस-कि-लि-या प्ल्यू द शोज़ आ फ़ेर",
         "model": "Il y a plus de restaurants et de fêtes à Bangalore."
       },
       {
         "fr": "Pour vous, quelle est la meilleure ville ? Pourquoi ?",
         "en": "For you, which is the best city? Why?",
         "hi": "आपके लिए सबसे अच्छा शहर कौन-सा है? क्यों?",
-        "pron": "पूग़ वू कैल ए ला मै-यöग़ वील — पूग़-क्वा",
+        "pron": "पूर वू केल ए ला मे-यर वील — पूर-क्वा",
         "model": "Pour ma famille, Ottawa est la meilleure ville, parce que c'est plus sûr et plus calme."
       }
     ],
@@ -564,7 +590,8 @@
     "questions": [
       {
         "q": {
-          "en": "Which city has the mildest winter in Canada?"
+          "en": "Which city has the mildest winter in Canada?",
+          "hi": "Canada में किस शहर की सर्दी सबसे हल्की होती है?"
         },
         "options": [
           "Winnipeg",
@@ -577,11 +604,17 @@
           "hi": "'l'hiver est le plus doux du Canada' — वैंकूवर के बारे में।"
         },
         "kind": "literal",
-        "evidence": "À Vancouver, l'hiver est le plus doux du Canada"
+        "evidence": "À Vancouver, l'hiver est le plus doux du Canada",
+        "optionsHi": [
+          "Winnipeg",
+          "Toronto",
+          "Vancouver"
+        ]
       },
       {
         "q": {
-          "en": "Compared with Vancouver, what does Winnipeg have more of?"
+          "en": "Compared with Vancouver, what does Winnipeg have more of?",
+          "hi": "Vancouver की तुलना में Winnipeg में किसकी अधिकता है?"
         },
         "options": [
           "Rain",
@@ -594,11 +627,17 @@
           "hi": "'il y a plus de soleil qu'à Vancouver' (वैंकूवर से ज़्यादा धूप)।"
         },
         "kind": "literal",
-        "evidence": "il y a plus de soleil qu'à Vancouver"
+        "evidence": "il y a plus de soleil qu'à Vancouver",
+        "optionsHi": [
+          "बारिश",
+          "धूप",
+          "महँगे फ़्लैट"
+        ]
       },
       {
         "q": {
-          "en": "How does rent in Winnipeg compare with Vancouver?"
+          "en": "How does rent in Winnipeg compare with Vancouver?",
+          "hi": "Winnipeg का किराया Vancouver के किराये से कैसा है?"
         },
         "options": [
           "It is about half the price",
@@ -611,11 +650,17 @@
           "hi": "1,400 बनाम 2,800 डॉलर: विनिपेग में लगभग आधा।"
         },
         "kind": "inference",
-        "evidence": "un appartement coûte environ 1 400 dollars par mois, contre 2 800 à Vancouver"
+        "evidence": "un appartement coûte environ 1 400 dollars par mois, contre 2 800 à Vancouver",
+        "optionsHi": [
+          "यह लगभग आधा है",
+          "यह बराबर है",
+          "यह दोगुना महँगा है"
+        ]
       },
       {
         "q": {
-          "en": "Which statement about summer is true?"
+          "en": "Which statement about summer is true?",
+          "hi": "गर्मी के बारे में कौन-सा कथन सही है?"
         },
         "options": [
           "Winnipeg is hotter than Delhi",
@@ -628,11 +673,17 @@
           "hi": "'L'été à Delhi est beaucoup plus chaud que l'été à Winnipeg' (दिल्ली की गर्मी विनिपेग से कहीं ज़्यादा)।"
         },
         "kind": "literal",
-        "evidence": "L'été à Delhi est beaucoup plus chaud que l'été à Winnipeg"
+        "evidence": "L'été à Delhi est beaucoup plus chaud que l'été à Winnipeg",
+        "optionsHi": [
+          "Winnipeg, Delhi से ज़्यादा गर्म है",
+          "Delhi, Winnipeg से कहीं ज़्यादा गर्म है",
+          "दोनों लगभग 26 °C हैं"
+        ]
       },
       {
         "q": {
-          "en": "According to the article, who should choose Winnipeg over Vancouver?"
+          "en": "According to the article, who should choose Winnipeg over Vancouver?",
+          "hi": "लेख के अनुसार किसे Vancouver के बजाय Winnipeg चुनना चाहिए?"
         },
         "options": [
           "People who hate snow",
@@ -645,7 +696,12 @@
           "hi": "'Si vous aimez le soleil, Winnipeg est un meilleur choix' (अगर आपको धूप पसंद है, तो विनिपेग बेहतर है)।"
         },
         "kind": "inference",
-        "evidence": "Si vous aimez le soleil, Winnipeg est un meilleur choix que Vancouver."
+        "evidence": "Si vous aimez le soleil, Winnipeg est un meilleur choix que Vancouver.",
+        "optionsHi": [
+          "जिन्हें बर्फ़ से नफ़रत है",
+          "जो हल्की सर्दी चाहते हैं",
+          "जिन्हें धूप पसंद है"
+        ]
       }
     ]
   },
@@ -673,19 +729,19 @@
         "fr": "À …, il fait plus chaud qu'à …",
         "en": "In …, it's hotter than in …",
         "hi": "… में … से ज़्यादा गर्मी होती है",
-        "pron": "आ … ईल फ़ै प्लü शो का"
+        "pron": "आ … ईल फ़े प्ल्यू शो का"
       },
       {
         "fr": "Le coût de la vie est moins élevé.",
         "en": "The cost of living is lower.",
         "hi": "रहन-सहन का ख़र्च कम है।",
-        "pron": "लö कू द ला वी ए म्वैँ ज़ेल-वे"
+        "pron": "ल कू द ला वी ए म्वैं ज़ेल-वे"
       },
       {
         "fr": "Pour moi, … est le meilleur choix.",
         "en": "For me, … is the best choice.",
         "hi": "मेरे लिए … सबसे अच्छा विकल्प है।",
-        "pron": "पूग़ म्वा … ए लö मै-यöग़ श्वा"
+        "pron": "पूर म्वा … ए ल मे-यर श्वा"
       }
     ],
     "model": {
@@ -721,43 +777,43 @@
         "fr": "un appartement à louer",
         "en": "a flat for rent",
         "hi": "किराए के लिए एक फ़्लैट",
-        "pron": "ऐँ ना-पाग़-त-माँ आ लू-वे"
+        "pron": "ऐं ना-पार-त-माँ आ लू-वे"
       },
       {
         "fr": "Combien ça coûte ?",
         "en": "How much does it cost?",
         "hi": "यह कितने का है?",
-        "pron": "कोँ-ब्यैँ सा कूत"
+        "pron": "कों-ब्यैं सा कूत"
       },
       {
         "fr": "Prenez le métro, ligne verte.",
         "en": "Take the metro, green line.",
         "hi": "मेट्रो लीजिए, ग्रीन लाइन।",
-        "pron": "प्रö-ने लö मे-त्रो लीन्य वैग़त"
+        "pron": "प्र-ने ल मे-त्रो लीन्य वेरत"
       },
       {
         "fr": "Il fait moins vingt.",
         "en": "It's minus twenty.",
         "hi": "माइनस बीस डिग्री है।",
-        "pron": "ईल फ़ै म्वैँ वैँ"
+        "pron": "ईल फ़े म्वैं वैं"
       },
       {
         "fr": "J'habite ici depuis deux ans.",
         "en": "I've been living here for two years.",
         "hi": "मैं दो साल से यहाँ रह रहा/रही हूँ।",
-        "pron": "झ़ा-बीत ई-सी दö-प्üई दö ज़ाँ"
+        "pron": "जा-बीत ई-सी द-प्यूई द ज़ाँ"
       },
       {
         "fr": "L'année prochaine, je déménagerai.",
         "en": "Next year I'll move.",
         "hi": "अगले साल मैं घर बदलूँगा/बदलूँगी।",
-        "pron": "ला-ने प्रो-शैन झ़ö दे-मे-नाझ़-ग़े"
+        "pron": "ला-ने प्रो-शेन ज दे-मे-नाज-रे"
       },
       {
         "fr": "Il y avait beaucoup de pollution.",
         "en": "There was a lot of pollution.",
         "hi": "बहुत प्रदूषण था।",
-        "pron": "ई-लि-या-वै बो-कू द पो-लü-स्योँ"
+        "pron": "ई-लि-या-वे बो-कू द पो-ल्यू-स्यों"
       }
     ]
   },

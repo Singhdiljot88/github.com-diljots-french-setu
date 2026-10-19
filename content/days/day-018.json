@@ -30,7 +30,7 @@
       "fr": "grand / grande",
       "en": "tall, big (m / f)",
       "hi": "लंबा / लंबी, बड़ा / बड़ी",
-      "pron": "ग्ग़ाँ / ग्ग़ाँद",
+      "pron": "ग्राँ / ग्राँद",
       "ipa": "ɡʁɑ̃ / ɡʁɑ̃d",
       "pos": "adjective",
       "lemma": "grand"
@@ -39,7 +39,7 @@
       "fr": "petit / petite",
       "en": "short, small (m / f)",
       "hi": "छोटा / छोटी, नाटा / नाटी",
-      "pron": "पö-ती / पö-तीत",
+      "pron": "प्ती / प्तीत",
       "ipa": "pəti / pətit",
       "pos": "adjective",
       "lemma": "petit"
@@ -48,7 +48,7 @@
       "fr": "jeune",
       "en": "young",
       "hi": "जवान / कम उम्र का",
-      "pron": "झ़öन",
+      "pron": "जन",
       "ipa": "ʒœn",
       "pos": "adjective",
       "note": {
@@ -60,7 +60,7 @@
       "fr": "beau / belle",
       "en": "handsome, beautiful (m / f)",
       "hi": "सुंदर (पुरुष / स्त्री)",
-      "pron": "बो / बैल",
+      "pron": "बो / बेल",
       "ipa": "bo / bɛl",
       "pos": "adjective",
       "lemma": "beau"
@@ -69,7 +69,7 @@
       "fr": "gentil / gentille",
       "en": "kind, nice (m / f)",
       "hi": "दयालु / भला / भली",
-      "pron": "झ़ाँ-ती / झ़ाँ-तीय",
+      "pron": "जाँ-ती / जाँ-तीय",
       "ipa": "ʒɑ̃ti / ʒɑ̃tij",
       "pos": "adjective",
       "lemma": "gentil"
@@ -78,7 +78,7 @@
       "fr": "sympa",
       "en": "friendly, nice (casual)",
       "hi": "मिलनसार / अच्छा (बोलचाल)",
-      "pron": "सैँ-पा",
+      "pron": "सैं-पा",
       "ipa": "sɛ̃pa",
       "pos": "adjective",
       "note": {
@@ -98,7 +98,7 @@
       "fr": "les cheveux",
       "en": "hair (on the head)",
       "hi": "बाल",
-      "pron": "ले शö-वö",
+      "pron": "ले श-व",
       "ipa": "le ʃəvø",
       "pos": "noun",
       "gender": "m",
@@ -112,21 +112,21 @@
       "fr": "les yeux",
       "en": "eyes",
       "hi": "आँखें",
-      "pron": "ले ज़्यö",
+      "pron": "ले ज़्य",
       "ipa": "le zjø",
       "pos": "noun",
       "gender": "m",
       "lemma": "œil",
       "note": {
-        "en": "Singular: un œil (one eye). Liaison: les‿yeux = ले ज़्यö.",
-        "hi": "एकवचन: un œil (एक आँख)। जोड़: les yeux = ले ज़्यö।"
+        "en": "Singular: un œil (one eye). Liaison: les‿yeux = ले ज़्य.",
+        "hi": "एकवचन: un œil (एक आँख)। जोड़: les yeux = ले ज़्य।"
       }
     },
     {
       "fr": "brun / brune",
       "en": "dark-haired; brown (hair)",
       "hi": "भूरे/गहरे बालों वाला",
-      "pron": "ब्ग़ैँ / ब्ग़üन",
+      "pron": "ब्रैं / ब्र्यून",
       "ipa": "bʁɛ̃ / bʁyn",
       "pos": "adjective",
       "lemma": "brun"
@@ -135,7 +135,7 @@
       "fr": "blond / blonde",
       "en": "blond, fair-haired",
       "hi": "सुनहरे बालों वाला / वाली",
-      "pron": "ब्लोँ / ब्लोँद",
+      "pron": "ब्लों / ब्लोंद",
       "ipa": "blɔ̃ / blɔ̃d",
       "pos": "adjective",
       "lemma": "blond"
@@ -144,7 +144,7 @@
       "fr": "noir / noire",
       "en": "black",
       "hi": "काला / काली",
-      "pron": "न्वाग़",
+      "pron": "न्वार",
       "ipa": "nwaʁ",
       "pos": "adjective",
       "lemma": "noir"
@@ -153,7 +153,7 @@
       "fr": "court / courte",
       "en": "short (length)",
       "hi": "छोटा / छोटी (लंबाई में)",
-      "pron": "कूग़ / कूग़्त",
+      "pron": "कूर / कूर्त",
       "ipa": "kuʁ / kuʁt",
       "pos": "adjective",
       "lemma": "court",
@@ -166,7 +166,7 @@
       "fr": "long / longue",
       "en": "long",
       "hi": "लंबा / लंबी",
-      "pron": "लोँ / लोँग",
+      "pron": "लों / लोंग",
       "ipa": "lɔ̃ / lɔ̃ɡ",
       "pos": "adjective",
       "lemma": "long"
@@ -177,35 +177,35 @@
       "fr": "Il est comment ?",
       "en": "What is he like? / What does he look like?",
       "hi": "वह कैसा है? / दिखने में कैसा है?",
-      "pron": "ई लै को-माँ",
+      "pron": "ई ले को-माँ",
       "ipa": "i lɛ kɔmɑ̃"
     },
     {
       "fr": "Elle est grande et brune.",
       "en": "She is tall and dark-haired.",
       "hi": "वह लंबी है और उसके बाल गहरे रंग के हैं।",
-      "pron": "ऐ लै ग्ग़ाँद ए ब्ग़üन",
+      "pron": "ए ले ग्राँद ए ब्र्यून",
       "ipa": "ɛ lɛ ɡʁɑ̃d e bʁyn"
     },
     {
       "fr": "Il a les cheveux courts.",
       "en": "He has short hair.",
       "hi": "उसके बाल छोटे हैं।",
-      "pron": "ई ला ले शö-वö कूग़",
+      "pron": "ई ला ले श-व कूर",
       "ipa": "i la le ʃəvø kuʁ"
     },
     {
       "fr": "Elle a les yeux noirs.",
       "en": "She has dark (black) eyes.",
       "hi": "उसकी आँखें काली हैं।",
-      "pron": "ऐ ला ले ज़्यö न्वाग़",
+      "pron": "ए ला ले ज़्य न्वार",
       "ipa": "ɛ la le zjø nwaʁ"
     },
     {
       "fr": "Il porte un t-shirt bleu.",
       "en": "He is wearing a blue T-shirt.",
       "hi": "उसने नीली टी-शर्ट पहनी है।",
-      "pron": "ईल पॉग़्त ऐँ ती-शöग़्त ब्लö",
+      "pron": "ईल पॉर्त ऐं ती-शर्त ब्ल",
       "ipa": "il pɔʁt ɛ̃ tiʃœʁt blø",
       "note": {
         "en": "porter = to wear (regular -er verb).",
@@ -216,7 +216,7 @@
       "fr": "C'est une petite fille très gentille.",
       "en": "She's a very kind little girl.",
       "hi": "वह एक बहुत प्यारी छोटी बच्ची है।",
-      "pron": "सै तüन पö-तीत फ़ीय त्ग़ै झ़ाँ-तीय",
+      "pron": "से त्यून प-तीत फ़ीय त्रे जाँ-तीय",
       "ipa": "sɛ tyn pətit fij tʁɛ ʒɑ̃tij"
     }
   ],
@@ -238,37 +238,37 @@
         "fr": "un petit garçon, une petite fille",
         "en": "a little boy, a little girl",
         "hi": "एक छोटा लड़का, एक छोटी लड़की",
-        "pron": "ऐँ पö-ती गाग़-सोँ, üन पö-तीत फ़ीय"
+        "pron": "ऐं प-ती गार-सों, यून प-तीत फ़ीय"
       },
       {
         "fr": "Mon frère est grand. Ma sœur est grande aussi.",
         "en": "My brother is tall. My sister is tall too.",
         "hi": "मेरा भाई लंबा है। मेरी बहन भी लंबी है।",
-        "pron": "मोँ फ़्ग़ैग़ ऐ ग्ग़ाँ मा सöग़ ऐ ग्ग़ाँद ओ-सी"
+        "pron": "मों फ़्रेर ए ग्राँ मा सर ए ग्राँद ओ-सी"
       },
       {
         "fr": "C'est une femme gentille et timide.",
         "en": "She's a kind, shy woman.",
         "hi": "वह एक भली और शर्मीली महिला है।",
-        "pron": "सै तüन फ़ाम झ़ाँ-तीय ए ती-मीद"
+        "pron": "से त्यून फ़ाम जाँ-तीय ए ती-मीद"
       },
       {
         "fr": "Ils ont les cheveux blonds et les yeux bleus.",
         "en": "They have blond hair and blue eyes.",
         "hi": "उनके बाल सुनहरे हैं और आँखें नीली।",
-        "pron": "ईल ज़ोँ ले शö-वö ब्लोँ ए ले ज़्यö ब्लö"
+        "pron": "ईल ज़ों ले श-व ब्लों ए ले ज़्य ब्ल"
       },
       {
         "fr": "un beau parc, une belle ville",
         "en": "a beautiful park, a beautiful city",
         "hi": "एक सुंदर पार्क, एक सुंदर शहर",
-        "pron": "ऐँ बो पाग़्क, üन बैल वील"
+        "pron": "ऐं बो पार्क, यून बेल वील"
       }
     ],
     "pitfalls": [
       {
         "en": "Don't forget the feminine -e: 'Elle est petit' is wrong → 'Elle est petite'.",
-        "hi": "स्त्रीलिंग का -e मत भूलिए: 'Elle est petit' गलत है → 'Elle est petite'।"
+        "hi": "स्त्रीलिंग का -e मत भूलिए: 'Elle est petit' ग़लत है → 'Elle est petite'।"
       },
       {
         "en": "Don't put ordinary adjectives first: 'un timide garçon' → 'un garçon timide'.",
@@ -283,50 +283,50 @@
   "pronunciation": {
     "focus": "Final consonant pronounced in feminine forms: petit/petite, grand/grande",
     "tip": {
-      "en": "In the masculine the last consonant is silent; the feminine -e makes it heard. petit (पö-ती) → petite (पö-तीत), grand (ग्ग़ाँ) → grande (ग्ग़ाँद), court (कूग़) → courte (कूग़्त), blond (ब्लोँ) → blonde (ब्लोँद). With brun/brune the nasal disappears: ब्ग़ैँ → ब्ग़üन. Listening for this final sound tells you if a man or a woman is described.",
-      "hi": "पुल्लिंग में आख़िरी व्यंजन चुप रहता है; स्त्रीलिंग का -e उसे सुनाई देने लायक बना देता है। petit (पö-ती) → petite (पö-तीत), grand (ग्ग़ाँ) → grande (ग्ग़ाँद), court (कूग़) → courte (कूग़्त), blond (ब्लोँ) → blonde (ब्लोँद)। brun/brune में नासिक्य आवाज़ ग़ायब हो जाती है: ब्ग़ैँ → ब्ग़üन। यही आख़िरी आवाज़ सुनकर पता चलता है कि वर्णन पुरुष का है या स्त्री का।"
+      "en": "In the masculine the last consonant is silent; the feminine -e makes it heard. petit (प-ती) → petite (प-तीत), grand (ग्राँ) → grande (ग्राँद), court (कूर) → courte (कूर्त), blond (ब्लों) → blonde (ब्लोंद). With brun/brune the nasal disappears: ब्रैं → ब्र्यून. Listening for this final sound tells you if a man or a woman is described.",
+      "hi": "पुल्लिंग में आख़िरी व्यंजन चुप रहता है; स्त्रीलिंग का -e उसे सुनाई देने लायक बना देता है। petit (प-ती) → petite (प-तीत), grand (ग्राँ) → grande (ग्राँद), court (कूर) → courte (कूर्त), blond (ब्लों) → blonde (ब्लोंद)। brun/brune में नासिक्य आवाज़ ग़ायब हो जाती है: ब्रैं → ब्र्यून। यही आख़िरी आवाज़ सुनकर पता चलता है कि वर्णन पुरुष का है या स्त्री का।"
     },
     "words": [
       {
         "fr": "petit / petite",
         "en": "small (m / f)",
         "hi": "छोटा / छोटी",
-        "pron": "पö-ती / पö-तीत",
+        "pron": "प्ती / प्तीत",
         "ipa": "pəti / pətit"
       },
       {
         "fr": "grand / grande",
         "en": "tall (m / f)",
         "hi": "लंबा / लंबी",
-        "pron": "ग्ग़ाँ / ग्ग़ाँद",
+        "pron": "ग्राँ / ग्राँद",
         "ipa": "ɡʁɑ̃ / ɡʁɑ̃d"
       },
       {
         "fr": "court / courte",
         "en": "short (m / f)",
         "hi": "छोटा / छोटी",
-        "pron": "कूग़ / कूग़्त",
+        "pron": "कूर / कूर्त",
         "ipa": "kuʁ / kuʁt"
       },
       {
         "fr": "blond / blonde",
         "en": "blond (m / f)",
         "hi": "सुनहरे बालों वाला / वाली",
-        "pron": "ब्लोँ / ब्लोँद",
+        "pron": "ब्लों / ब्लोंद",
         "ipa": "blɔ̃ / blɔ̃d"
       },
       {
         "fr": "brun / brune",
         "en": "dark-haired (m / f)",
         "hi": "गहरे बालों वाला / वाली",
-        "pron": "ब्ग़ैँ / ब्ग़üन",
+        "pron": "ब्रैं / ब्र्यून",
         "ipa": "bʁɛ̃ / bʁyn"
       },
       {
         "fr": "gentil / gentille",
         "en": "kind (m / f)",
         "hi": "भला / भली",
-        "pron": "झ़ाँ-ती / झ़ाँ-तीय",
+        "pron": "जाँ-ती / जाँ-तीय",
         "ipa": "ʒɑ̃ti / ʒɑ̃tij"
       }
     ]
@@ -403,7 +403,8 @@
     "questions": [
       {
         "q": {
-          "en": "How old is Rohan?"
+          "en": "How old is Rohan?",
+          "hi": "Rohan की उम्र कितनी है?"
         },
         "options": [
           "Six",
@@ -420,7 +421,8 @@
       },
       {
         "q": {
-          "en": "What is Rohan's hair like?"
+          "en": "What is Rohan's hair like?",
+          "hi": "Rohan के बाल कैसे हैं?"
         },
         "options": [
           "Long and black",
@@ -433,11 +435,17 @@
           "hi": "'les cheveux noirs et courts' — काले और छोटे।"
         },
         "kind": "literal",
-        "evidence": "Il a les cheveux noirs et courts"
+        "evidence": "Il a les cheveux noirs et courts",
+        "optionsHi": [
+          "लंबे और काले",
+          "छोटे और काले",
+          "छोटे और सुनहरे"
+        ]
       },
       {
         "q": {
-          "en": "What is Rohan wearing?"
+          "en": "What is Rohan wearing?",
+          "hi": "Rohan ने क्या पहन रखा है?"
         },
         "options": [
           "A red T-shirt and a blue bag",
@@ -450,11 +458,17 @@
           "hi": "'Un t-shirt bleu et un petit sac rouge.' — नीली टी-शर्ट और छोटा लाल बैग।"
         },
         "kind": "literal",
-        "evidence": "Un t-shirt bleu et un petit sac rouge."
+        "evidence": "Un t-shirt bleu et un petit sac rouge.",
+        "optionsHi": [
+          "लाल टी-शर्ट और नीला बैग",
+          "काली टी-शर्ट",
+          "नीली टी-शर्ट और एक छोटा लाल बैग"
+        ]
       },
       {
         "q": {
-          "en": "What is Rohan's personality like?"
+          "en": "What is Rohan's personality like?",
+          "hi": "Rohan का स्वभाव कैसा है?"
         },
         "options": [
           "A little shy",
@@ -467,11 +481,17 @@
           "hi": "'Il est un peu timide.' — थोड़ा शर्मीला।"
         },
         "kind": "literal",
-        "evidence": "Il est un peu timide."
+        "evidence": "Il est un peu timide.",
+        "optionsHi": [
+          "थोड़ा शर्मीला",
+          "बहुत खेल-प्रेमी",
+          "रूखे स्वभाव का"
+        ]
       },
       {
         "q": {
-          "en": "Where is Rohan at the end?"
+          "en": "Where is Rohan at the end?",
+          "hi": "अंत में Rohan कहाँ है?"
         },
         "options": [
           "In the car park",
@@ -484,7 +504,12 @@
           "hi": "'Il est à l'accueil, avec ma collègue. Il va bien.' — रिसेप्शन पर, सहकर्मी के साथ, ठीक है।"
         },
         "kind": "gist",
-        "evidence": "Il est à l'accueil, avec ma collègue."
+        "evidence": "Il est à l'accueil, avec ma collègue.",
+        "optionsHi": [
+          "कार पार्क में",
+          "सूचना-डेस्क पर एजेंट के सहकर्मी के साथ",
+          "बैंक में"
+        ]
       }
     ],
     "dictation": [
@@ -511,38 +536,38 @@
         "fr": "C'est ma sœur / mon frère. Elle / Il s'appelle …",
         "en": "This is my sister / brother. Her / His name is …",
         "hi": "यह मेरी बहन / मेरा भाई है। उसका नाम … है।",
-        "pron": "सै मा सöग़ / मोँ फ़्ग़ैग़ ऐल / ईल सा-पैल",
+        "pron": "से मा सर / मों फ़्रेर एल / ईल सा-पेल",
         "model": "C'est ma sœur. Elle s'appelle Kavya."
       },
       {
         "fr": "Elle a … ans.",
         "en": "She is … years old.",
         "hi": "वह … साल की है।",
-        "pron": "ऐ ला … आँ",
+        "pron": "ए ला … आँ",
         "model": "Elle a vingt-cinq ans."
       },
       {
         "fr": "Elle est grande / petite.",
         "en": "She is tall / short.",
         "hi": "वह लंबी / छोटे क़द की है।",
-        "pron": "ऐ लै ग्ग़ाँद / पö-तीत"
+        "pron": "ए ले ग्राँद / प-तीत"
       },
       {
         "fr": "Elle a les cheveux longs et les yeux noirs.",
         "en": "She has long hair and dark eyes.",
         "hi": "उसके बाल लंबे हैं और आँखें काली।",
-        "pron": "ऐ ला ले शö-वö लोँ ए ले ज़्यö न्वाग़"
+        "pron": "ए ला ले श-व लों ए ले ज़्य न्वार"
       },
       {
         "fr": "Elle est très gentille et un peu timide.",
         "en": "She is very kind and a little shy.",
         "hi": "वह बहुत भली है और थोड़ी शर्मीली।",
-        "pron": "ऐ लै त्ग़ै झ़ाँ-तीय ए ऐँ पö ती-मीद"
+        "pron": "ए ले त्रे जाँ-तीय ए ऐं प ती-मीद"
       }
     ],
     "tip": {
-      "en": "Make the feminine endings audible: grande (ग्ग़ाँद), petite (पö-तीत), gentille (झ़ाँ-तीय). That's how the listener knows it's a woman.",
-      "hi": "स्त्रीलिंग अंत साफ़ सुनाई दें: grande (ग्ग़ाँद), petite (पö-तीत), gentille (झ़ाँ-तीय)। इसी से सुनने वाला समझता है कि बात किसी स्त्री की है।"
+      "en": "Make the feminine endings audible: grande (ग्राँद), petite (प-तीत), gentille (जाँ-तीय). That's how the listener knows it's a woman.",
+      "hi": "स्त्रीलिंग अंत साफ़ सुनाई दें: grande (ग्राँद), petite (प-तीत), gentille (जाँ-तीय)। इसी से सुनने वाला समझता है कि बात किसी स्त्री की है।"
     }
   },
   "reading": {
@@ -556,7 +581,8 @@
     "questions": [
       {
         "q": {
-          "en": "What does Sunita look like?"
+          "en": "What does Sunita look like?",
+          "hi": "Sunita देखने में कैसी है?"
         },
         "options": [
           "Short with short hair",
@@ -569,11 +595,17 @@
           "hi": "'Elle est grande, elle a les cheveux longs et noirs et elle porte des lunettes.' — लंबी, लंबे काले बाल, चश्मा।"
         },
         "kind": "literal",
-        "evidence": "Elle est grande, elle a les cheveux longs et noirs et elle porte des lunettes."
+        "evidence": "Elle est grande, elle a les cheveux longs et noirs et elle porte des lunettes.",
+        "optionsHi": [
+          "छोटे क़द की और छोटे बालों वाली",
+          "लंबी, लंबे काले बालों और चश्मे वाली",
+          "लंबी और सुनहरे बालों वाली"
+        ]
       },
       {
         "q": {
-          "en": "What is her personality like?"
+          "en": "What is her personality like?",
+          "hi": "उसका स्वभाव कैसा है?"
         },
         "options": [
           "Very kind and a little shy",
@@ -586,11 +618,17 @@
           "hi": "'Elle est très gentille et un peu timide.' — बहुत भली और थोड़ी शर्मीली।"
         },
         "kind": "literal",
-        "evidence": "Elle est très gentille et un peu timide."
+        "evidence": "Elle est très gentille et un peu timide.",
+        "optionsHi": [
+          "बहुत दयालु और थोड़ी शर्मीली",
+          "बहुत दयालु नहीं",
+          "बहुत शोर मचाने वाली"
+        ]
       },
       {
         "q": {
-          "en": "Where can you find Sunita?"
+          "en": "Where can you find Sunita?",
+          "hi": "Sunita कहाँ मिल सकती है?"
         },
         "options": [
           "In the kitchen",
@@ -603,11 +641,17 @@
           "hi": "'Elle travaille au bureau 14, à côté de la cuisine.' — ऑफ़िस 14, रसोई के बगल में।"
         },
         "kind": "literal",
-        "evidence": "Elle travaille au bureau 14, à côté de la cuisine."
+        "evidence": "Elle travaille au bureau 14, à côté de la cuisine.",
+        "optionsHi": [
+          "रसोई में",
+          "रिसेप्शन पर",
+          "रसोई के बगल में, कार्यालय 14 में"
+        ]
       },
       {
         "q": {
-          "en": "Why is it written 'gentille' and not 'gentil'?"
+          "en": "Why is it written 'gentille' and not 'gentil'?",
+          "hi": "'gentil' की जगह 'gentille' क्यों लिखा गया है?"
         },
         "options": [
           "Because Sunita is a woman",
@@ -620,7 +664,12 @@
           "hi": "स्त्री के लिए gentil → gentille।"
         },
         "kind": "grammar",
-        "evidence": "Elle est très gentille"
+        "evidence": "Elle est très gentille",
+        "optionsHi": [
+          "क्योंकि Sunita एक महिला है",
+          "क्योंकि यह बहुवचन है",
+          "क्योंकि यह एक प्रश्न है"
+        ]
       }
     ]
   },
@@ -647,19 +696,19 @@
         "fr": "Il / Elle est grand(e), petit(e) …",
         "en": "He / She is tall, short …",
         "hi": "वह लंबा/लंबी, छोटा/छोटी … है",
-        "pron": "ई / ऐ लै ग्ग़ाँ(द), पö-ती(त)"
+        "pron": "ई / ए ले ग्राँ(द), प-ती(त)"
       },
       {
         "fr": "Il / Elle a les cheveux … et les yeux …",
         "en": "He / She has … hair and … eyes",
         "hi": "उसके बाल … और आँखें … हैं",
-        "pron": "ई / ऐ ला ले शö-वö … ए ले ज़्यö"
+        "pron": "ई / ए ला ले श-व … ए ले ज़्य"
       },
       {
         "fr": "Il / Elle est très sympa.",
         "en": "He / She is very friendly.",
         "hi": "वह बहुत मिलनसार है।",
-        "pron": "ई / ऐ लै त्ग़ै सैँ-पा"
+        "pron": "ई / ए ले त्रे सैं-पा"
       }
     ],
     "model": {
@@ -694,13 +743,13 @@
         "fr": "Elle est française.",
         "en": "She is French.",
         "hi": "वह फ़्रांसीसी है।",
-        "pron": "ऐ लै फ़्ग़ाँ-सैज़"
+        "pron": "ए ले फ़्राँ-सेज़"
       },
       {
         "fr": "Nous sommes contents.",
         "en": "We are happy.",
         "hi": "हम ख़ुश हैं।",
-        "pron": "नू सॉम कोँ-ताँ"
+        "pron": "नू सॉम कों-ताँ"
       },
       {
         "fr": "Il a six ans.",
@@ -712,19 +761,19 @@
         "fr": "Il s'appelle comment ?",
         "en": "What's his name?",
         "hi": "उसका नाम क्या है?",
-        "pron": "ईल सा-पैल को-माँ"
+        "pron": "ईल सा-पेल को-माँ"
       },
       {
         "fr": "Tu fais quoi samedi ?",
         "en": "What are you doing on Saturday?",
         "hi": "शनिवार को क्या कर रहे हो?",
-        "pron": "तü फ़ै क्वा साम-दी"
+        "pron": "त्यू फ़े क्वा साम-दी"
       },
       {
         "fr": "Je cherche la gare.",
         "en": "I'm looking for the station.",
         "hi": "मैं स्टेशन ढूँढ रहा/रही हूँ।",
-        "pron": "झ़ö शैग़्श ला गाग़"
+        "pron": "ज शेर्श ला गार"
       }
     ]
   },
@@ -831,15 +880,15 @@
       ],
       "answer": 1,
       "explanation": {
-        "en": "gentil → gentille (double l, said झ़ाँ-तीय).",
-        "hi": "gentil → gentille (दो l, बोलते हैं झ़ाँ-तीय)।"
+        "en": "gentil → gentille (double l, said जाँ-तीय).",
+        "hi": "gentil → gentille (दो l, बोलते हैं जाँ-तीय)।"
       }
     },
     {
       "type": "mcq",
       "prompt": {
-        "en": "You hear 'पö-तीत'. Who is being described?",
-        "hi": "आप 'पö-तीत' सुनते हैं। किसका वर्णन हो रहा है?"
+        "en": "You hear 'प-तीत'. Who is being described?",
+        "hi": "आप 'प-तीत' सुनते हैं। किसका वर्णन हो रहा है?"
       },
       "options": [
         "A man (petit)",

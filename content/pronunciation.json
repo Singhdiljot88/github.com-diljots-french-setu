@@ -16,33 +16,33 @@
     "hi": "ई बोलिए और उसे पकड़े रखिए। जीभ को हिलाए बिना होंठों को ऊ जैसा गोल कर लीजिए, जैसे सीटी बजाने वाले हों। जीभ आगे ही रहती है, सिर्फ़ होंठ बदलते हैं।"
    },
    "trap": {
-    "en": "Hindi and English have no such vowel, so it is easy to say ऊ (tu becomes 'tou', which means 'all') or यू ('tyoo'). Both change the word.",
-    "hi": "हिंदी और अंग्रेज़ी में यह स्वर नहीं है, इसलिए इसे ऊ (tu का 'तू', जिसका अर्थ 'tout' यानी 'सब' हो जाता है) या यू बोलना आसान है। दोनों से शब्द बदल जाता है।"
+    "en": "Hindi and English have no such vowel, so it is easy to say ऊ (tu becomes 'tou', which means 'all') or English 'you' with a य glide ('tyoo'). The यू in our guides is neither: it is ई said with lips rounded as for ऊ, one pure sound. ऊ changes the word; the glide sounds foreign.",
+    "hi": "हिंदी और अंग्रेज़ी में यह स्वर नहीं है, इसलिए इसे ऊ (tu का 'तू', जिसका अर्थ 'tout' यानी 'सब' हो जाता है) या अंग्रेज़ी 'you' की तरह 'य' की फिसलन के साथ बोलना आसान है। हमारी गाइड का यू इन दोनों में से कोई नहीं है: यह होंठ ऊ की तरह गोल करके बोला गया ई है, एक ही साफ़ आवाज़। ऊ से शब्द बदल जाता है, और फिसलन विदेशी लगती है।"
    },
    "examples": [
     {
      "fr": "tu",
-     "pron": "तü",
+     "pron": "त्यू",
      "en": "you"
     },
     {
      "fr": "la rue",
-     "pron": "ला ग़ü",
+     "pron": "ला र्यू",
      "en": "the street"
     },
     {
      "fr": "salut",
-     "pron": "सा-लü",
+     "pron": "सा-ल्यू",
      "en": "hi"
     },
     {
      "fr": "une voiture",
-     "pron": "üन वा-तüग़",
+     "pron": "यून वा-त्यूर",
      "en": "a car"
     },
     {
      "fr": "Tu as vu la lune ?",
-     "pron": "तü आ वü ला लüन ?",
+     "pron": "त्यू आ व्यू ला ल्यून ?",
      "en": "Did you see the moon?"
     }
    ]
@@ -73,17 +73,17 @@
     },
     {
      "fr": "la roue",
-     "pron": "ला ग़ू",
+     "pron": "ला रू",
      "en": "the wheel"
     },
     {
      "fr": "bonjour",
-     "pron": "बोँ-झ़ूग़",
+     "pron": "बों-जूर",
      "en": "hello"
     },
     {
      "fr": "Où est la douche ?",
-     "pron": "ऊ ऐ ला दूश ?",
+     "pron": "ऊ ए ला दूश ?",
      "en": "Where is the shower?"
     }
    ]
@@ -109,27 +109,27 @@
    "examples": [
     {
      "fr": "deux",
-     "pron": "दö",
+     "pron": "द",
      "en": "two"
     },
     {
      "fr": "un peu",
-     "pron": "ऐँ पö",
+     "pron": "ऐं प",
      "en": "a little"
     },
     {
      "fr": "ma sœur",
-     "pron": "मा सöग़",
+     "pron": "मा सर",
      "en": "my sister"
     },
     {
      "fr": "une heure",
-     "pron": "üन öग़",
+     "pron": "यून अर",
      "en": "one hour"
     },
     {
      "fr": "Il pleut un peu.",
-     "pron": "इल प्लö ऐँ पö",
+     "pron": "इल प्ल ऐं प",
      "en": "It's raining a little."
     }
    ]
@@ -146,7 +146,7 @@
    "difficulty": 2,
    "mouth": {
     "en": "A short, relaxed version of eu with lightly rounded lips. In everyday speech it often disappears: samedi sounds like 'sam-di', je suis like 'jsui'.",
-    "hi": "eu का छोटा, ढीला रूप, होंठ हल्के गोल। रोज़ की बोलचाल में यह अक्सर गायब हो जाता है: samedi 'साम-दी' और je suis 'श्सüई' जैसा सुनाई देता है।"
+    "hi": "eu का छोटा, ढीला रूप, होंठ हल्के गोल। रोज़ की बोलचाल में यह अक्सर गायब हो जाता है: samedi 'साम-दी' और je suis 'श्स्यूई' जैसा सुनाई देता है।"
    },
    "trap": {
     "en": "Saying ए in le makes it sound like les (plural). Keep le rounded.",
@@ -155,12 +155,12 @@
    "examples": [
     {
      "fr": "le livre",
-     "pron": "लö लीव्ग़",
+     "pron": "ल लीव्र",
      "en": "the book"
     },
     {
      "fr": "je",
-     "pron": "झ़ö",
+     "pron": "ज",
      "en": "I"
     },
     {
@@ -196,12 +196,12 @@
    "examples": [
     {
      "fr": "le café",
-     "pron": "लö का-फ़े",
+     "pron": "ल का-फ़े",
      "en": "coffee"
     },
     {
      "fr": "parler",
-     "pron": "पाग़-ले",
+     "pron": "पार-ले",
      "en": "to speak"
     },
     {
@@ -227,8 +227,8 @@
    "group": "vowel",
    "difficulty": 1,
    "mouth": {
-    "en": "Like ऐ in ऐसा as many Hindi speakers say it, or 'e' in English 'bed'. The jaw is lower than for é.",
-    "hi": "जैसे बहुत से लोग ऐसा में ऐ बोलते हैं, या अंग्रेज़ी 'bed' का e। जबड़ा é से नीचे रहता है।"
+    "en": "Our guides write it ए, like é, but it is a little more open: like 'e' in English 'bed'. The jaw is lower than for é.",
+    "hi": "हमारी गाइड में इसे भी é की तरह ए लिखा जाता है, पर यह थोड़ा ज़्यादा खुला है: अंग्रेज़ी 'bed' के e जैसा। जबड़ा é से नीचे रहता है।"
    },
    "trap": {
     "en": "Saying it like the 'ai' in English 'said' is fine; avoid the diphthong 'aai'.",
@@ -237,22 +237,22 @@
    "examples": [
     {
      "fr": "la mère",
-     "pron": "ला मैग़",
+     "pron": "ला मेर",
      "en": "the mother"
     },
     {
      "fr": "la fête",
-     "pron": "ला फ़ैत",
+     "pron": "ला फ़ेत",
      "en": "the party"
     },
     {
      "fr": "le lait",
-     "pron": "लö लै",
+     "pron": "ल ले",
      "en": "milk"
     },
     {
      "fr": "merci",
-     "pron": "मैग़-सी",
+     "pron": "मेर-सी",
      "en": "thank you"
     }
    ]
@@ -288,12 +288,12 @@
     },
     {
      "fr": "la porte",
-     "pron": "ला पॉग़्त",
+     "pron": "ला पॉर्त",
      "en": "the door"
     },
     {
      "fr": "Il fait beau.",
-     "pron": "इल फ़ै बो",
+     "pron": "इल फ़े बो",
      "en": "The weather is nice."
     }
    ]
@@ -319,12 +319,12 @@
    "examples": [
     {
      "fr": "un enfant",
-     "pron": "ऐँ नाँ-फ़ाँ",
+     "pron": "ऐं नाँ-फ़ाँ",
      "en": "a child"
     },
     {
      "fr": "le temps",
-     "pron": "लö ताँ",
+     "pron": "ल ताँ",
      "en": "time, weather"
     },
     {
@@ -334,7 +334,7 @@
     },
     {
      "fr": "J'attends maman.",
-     "pron": "झ़ा-ताँ मा-माँ",
+     "pron": "जा-ताँ मा-माँ",
      "en": "I'm waiting for mum."
     }
    ]
@@ -350,8 +350,8 @@
    "group": "nasal",
    "difficulty": 2,
    "mouth": {
-    "en": "Round the lips tightly as for ओ and send the air through the nose: ओँ. Lips are more rounded than for an.",
-    "hi": "होंठ ओ की तरह कसकर गोल कीजिए और हवा नाक से भेजिए: ओँ। होंठ an से ज़्यादा गोल रहते हैं।"
+    "en": "Round the lips tightly as for ओ and send the air through the nose: ओं. Lips are more rounded than for an.",
+    "hi": "होंठ ओ की तरह कसकर गोल कीजिए और हवा नाक से भेजिए: ओं। होंठ an से ज़्यादा गोल रहते हैं।"
    },
    "trap": {
     "en": "If the lips relax, bon (good) becomes banc (bench). Watch your lips in a mirror.",
@@ -360,22 +360,22 @@
    "examples": [
     {
      "fr": "bon",
-     "pron": "बोँ",
+     "pron": "बों",
      "en": "good"
     },
     {
      "fr": "le nom",
-     "pron": "लö नोँ",
+     "pron": "ल नों",
      "en": "the name"
     },
     {
      "fr": "nous sommes onze",
-     "pron": "नू सॉम ओँज़",
+     "pron": "नू सॉम ओंज़",
      "en": "we are eleven"
     },
     {
      "fr": "Bonjour, mon oncle !",
-     "pron": "बोँ-झ़ूग़, मोँ नोँक्ल !",
+     "pron": "बों-जूर, मों नोंक्ल !",
      "en": "Hello, uncle!"
     }
    ]
@@ -391,8 +391,8 @@
    "group": "nasal",
    "difficulty": 2,
    "mouth": {
-    "en": "Spread lips as for ऐ and send air through the nose: ऐँ. Most speakers today say un the same way.",
-    "hi": "होंठ ऐ की तरह फैलाइए और हवा नाक से भेजिए: ऐँ। आजकल ज़्यादातर लोग un भी ऐसे ही बोलते हैं।"
+    "en": "Spread lips as for an open ए and send air through the nose: ऐं. Most speakers today say un the same way.",
+    "hi": "होंठ खुले ए की तरह फैलाइए और हवा नाक से भेजिए: ऐं। आजकल ज़्यादातर लोग un भी ऐसे ही बोलते हैं।"
    },
    "trap": {
     "en": "Saying 'in' as in English or ईं. vin (wine) then sounds like vent (wind) or 'veen'.",
@@ -401,22 +401,22 @@
    "examples": [
     {
      "fr": "le vin",
-     "pron": "लö वैँ",
+     "pron": "ल वैं",
      "en": "wine"
     },
     {
      "fr": "le pain",
-     "pron": "लö पैँ",
+     "pron": "ल पैं",
      "en": "bread"
     },
     {
      "fr": "un",
-     "pron": "ऐँ",
+     "pron": "ऐं",
      "en": "one"
     },
     {
      "fr": "Lundi matin",
-     "pron": "लैँ-दी मा-तैँ",
+     "pron": "लैं-दी मा-तैं",
      "en": "Monday morning"
     }
    ]
@@ -432,8 +432,8 @@
    "group": "consonant",
    "difficulty": 3,
    "mouth": {
-    "en": "Press the tip of the tongue behind the lower teeth. Raise the back of the tongue towards the soft palate and let air rub there, like a soft ग़ (as in ग़लत) or gentle gargling. Keep it voiced and light.",
-    "hi": "जीभ की नोक को नीचे के दाँतों के पीछे दबाइए। जीभ का पिछला हिस्सा कोमल तालू की ओर उठाइए और वहाँ हवा रगड़ने दीजिए, जैसे हल्का ग़ (ग़लत वाला) या धीमा गरारा। आवाज़ हल्की रखिए।"
+    "en": "Press the tip of the tongue behind the lower teeth. Raise the back of the tongue towards the soft palate and let air rub there, like the soft ग़ in ग़लत or gentle gargling. Keep it voiced and light. Our guides write this French r as र, but it is not the rolled Hindi र.",
+    "hi": "जीभ की नोक को नीचे के दाँतों के पीछे दबाइए। जीभ का पिछला हिस्सा कोमल तालू की ओर उठाइए और वहाँ हवा रगड़ने दीजिए, लगभग 'ग़लत' के नरम ग़ जैसा, या धीमा गरारा। आवाज़ हल्की रखिए। हमारी गाइड में यह फ़्रेंच r र लिखा जाता है, पर इसे हिंदी र की तरह कभी घुमाया (रोल) नहीं जाता।"
    },
    "trap": {
     "en": "A rolled र or English r is understood but sounds strongly foreign. Do not over-gargle either.",
@@ -442,22 +442,22 @@
    "examples": [
     {
      "fr": "rouge",
-     "pron": "ग़ूझ़",
+     "pron": "रूज",
      "en": "red"
     },
     {
      "fr": "Paris",
-     "pron": "पा-ग़ी",
+     "pron": "पा-री",
      "en": "Paris"
     },
     {
      "fr": "merci",
-     "pron": "मैग़-सी",
+     "pron": "मेर-सी",
      "en": "thank you"
     },
     {
      "fr": "le train arrive",
-     "pron": "लö त्ग़ैँ आ-ग़ीव",
+     "pron": "ल त्रैं आ-रीव",
      "en": "the train arrives"
     }
    ]
@@ -473,32 +473,32 @@
    "group": "consonant",
    "difficulty": 2,
    "mouth": {
-    "en": "The sound in English 'measure' or झ़ in टेलीविझ़न: श with voice. The tongue does not touch the palate, so it is not ज.",
-    "hi": "अंग्रेज़ी 'measure' वाली या टेलीविझ़न के झ़ जैसी आवाज़: आवाज़ के साथ श। जीभ तालू को नहीं छूती, इसलिए यह ज नहीं है।"
+    "en": "In our guides ज stands for this soft French j: the sound in the middle of English 'measure' or of टेलीविज़न, श with voice. It is a continuous buzz: the tongue does not touch the palate, so it is not the Hindi ज with a stop.",
+    "hi": "हमारी गाइड में ज इसी नरम फ़्रेंच j के लिए है: अंग्रेज़ी 'measure' के बीच वाली या टेलीविज़न जैसी आवाज़, यानी आवाज़ के साथ श। यह लगातार गूँजने वाली आवाज़ है: जीभ तालू को नहीं छूती, इसलिए यह रुककर बोला जाने वाला हिंदी ज नहीं है।"
    },
    "trap": {
-    "en": "Saying ज (je → 'jay'). That is the English j in 'jam', which French does not have.",
-    "hi": "ज बोल देना (je → 'जö')। यह अंग्रेज़ी 'jam' वाला j है, जो फ़्रेंच में नहीं है।"
+    "en": "Saying a hard ज with a stop, as in English 'jay' or 'jam' (je → 'jay'). French does not have that sound: the ज in our guides is the soft, continuous sound in the middle of 'measure'.",
+    "hi": "रुककर बोला जाने वाला कड़ा हिंदी ज बोल देना, जैसे अंग्रेज़ी 'jay' या 'jam' में (je → 'jay')। यह आवाज़ फ़्रेंच में नहीं है: हमारी गाइड का ज 'measure' के बीच वाली नरम, लगातार गूँजने वाली आवाज़ है।"
    },
    "examples": [
     {
      "fr": "je",
-     "pron": "झ़ö",
+     "pron": "ज",
      "en": "I"
     },
     {
      "fr": "bonjour",
-     "pron": "बोँ-झ़ूग़",
+     "pron": "बों-जूर",
      "en": "hello"
     },
     {
      "fr": "manger",
-     "pron": "माँ-झ़े",
+     "pron": "माँ-जे",
      "en": "to eat"
     },
     {
      "fr": "Je joue au judo.",
-     "pron": "झ़ö झ़ू ओ झ़ü-दो",
+     "pron": "ज जू ओ ज्यू-दो",
      "en": "I do judo."
     }
    ]
@@ -524,12 +524,12 @@
    "examples": [
     {
      "fr": "la montagne",
-     "pron": "ला मोँ-तान्य",
+     "pron": "ला मों-तान्य",
      "en": "the mountain"
     },
     {
      "fr": "Espagne",
-     "pron": "ऐस-पान्य",
+     "pron": "एस-पान्य",
      "en": "Spain"
     },
     {
@@ -565,17 +565,17 @@
     },
     {
      "fr": "le thé",
-     "pron": "लö ते",
+     "pron": "ल ते",
      "en": "tea"
     },
     {
      "fr": "quatre",
-     "pron": "कात्ग़",
+     "pron": "कात्र",
      "en": "four"
     },
     {
      "fr": "Tu dors ?",
-     "pron": "तü दॉग़ ?",
+     "pron": "त्यू दॉर ?",
      "en": "Are you asleep?"
     }
    ]
@@ -601,17 +601,17 @@
    "examples": [
     {
      "fr": "huit",
-     "pron": "üइत",
+     "pron": "यूईत",
      "en": "eight"
     },
     {
      "fr": "la nuit",
-     "pron": "ला नüई",
+     "pron": "ला न्यूई",
      "en": "the night"
     },
     {
      "fr": "je suis",
-     "pron": "झ़ö सüई",
+     "pron": "ज स्यूई",
      "en": "I am"
     }
    ]
@@ -642,17 +642,17 @@
     },
     {
      "fr": "grand / grande",
-     "pron": "ग्ग़ाँ / ग्ग़ाँद",
+     "pron": "ग्राँ / ग्राँद",
      "en": "big (m / f)"
     },
     {
      "fr": "l'hôtel",
-     "pron": "लो-तैल",
+     "pron": "लो-तेल",
      "en": "the hotel"
     },
     {
      "fr": "Ils parlent.",
-     "pron": "इल पाग़्ल",
+     "pron": "इल पार्ल",
      "en": "They speak."
     }
    ]
@@ -892,17 +892,17 @@
      },
      {
       "fr": "un enfant",
-      "pron": "ऐँ नाँ-फ़ाँ",
+      "pron": "ऐं नाँ-फ़ाँ",
       "en": "a child"
      },
      {
       "fr": "deux heures",
-      "pron": "दö ज़öग़",
+      "pron": "द ज़र",
       "en": "two hours / two o'clock"
      },
      {
       "fr": "très important",
-      "pron": "त्ग़ै ज़ैँ-पॉग़-ताँ",
+      "pron": "त्रे ज़ैं-पॉर-ताँ",
       "en": "very important"
      },
      {
@@ -920,17 +920,17 @@
     "examples": [
      {
       "fr": "et elle",
-      "pron": "ए ऐल",
+      "pron": "ए एल",
       "en": "and she"
      },
      {
       "fr": "les héros",
-      "pron": "ले ए-ग़ो",
+      "pron": "ले ए-रो",
       "en": "the heroes"
      },
      {
       "fr": "un étudiant intelligent",
-      "pron": "ऐँ ने-तü-द्याँ ऐँ-ते-ली-झ़ाँ",
+      "pron": "ऐं ने-त्यू-द्याँ ऐं-ते-ली-जाँ",
       "en": "an intelligent student"
      }
     ]
@@ -943,22 +943,22 @@
     "examples": [
      {
       "fr": "il est",
-      "pron": "ई लै",
+      "pron": "ई ले",
       "en": "he is"
      },
      {
       "fr": "elle arrive",
-      "pron": "ऐ ला-ग़ीव",
+      "pron": "ए ला-रीव",
       "en": "she arrives"
      },
      {
       "fr": "avec elle",
-      "pron": "आ-वै कैल",
+      "pron": "आ-वे केल",
       "en": "with her"
      },
      {
       "fr": "quatre amis",
-      "pron": "का-त्ग़ा-मी",
+      "pron": "का-त्रा-मी",
       "en": "four friends"
      }
     ]

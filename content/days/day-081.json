@@ -31,7 +31,7 @@
       "fr": "les horaires d'ouverture",
       "en": "opening hours",
       "hi": "खुलने का समय",
-      "pron": "ले ज़ो-ग़ैग़ दू-वैग़-तüग़",
+      "pron": "ले ज़ो-रेर दू-वेर-त्यूर",
       "ipa": "lez‿ɔʁɛʁ duvɛʁtyʁ",
       "pos": "noun",
       "gender": "m",
@@ -45,7 +45,7 @@
       "fr": "fermé exceptionnellement",
       "en": "exceptionally closed",
       "hi": "अपवाद के तौर पर बंद",
-      "pron": "फ़ैग़-मे ऐक-सैप-स्यो-नैल-माँ",
+      "pron": "फ़ेर-मे एक-सेप-स्यो-नेल-माँ",
       "ipa": "fɛʁme ɛksɛpsjɔnɛlmɑ̃",
       "pos": "phrase"
     },
@@ -53,7 +53,7 @@
       "fr": "un jour férié",
       "en": "a public holiday",
       "hi": "सरकारी छुट्टी का दिन",
-      "pron": "ऐँ झ़ूग़ फ़े-ग़्ये",
+      "pron": "ऐं जूर फ़े-र्ये",
       "ipa": "ɛ̃ ʒuʁ feʁje",
       "pos": "noun",
       "gender": "m",
@@ -63,7 +63,7 @@
       "fr": "le tarif",
       "en": "price, rate",
       "hi": "दाम / शुल्क की दर",
-      "pron": "लö ता-ग़ीफ़",
+      "pron": "ल ता-रीफ़",
       "ipa": "lə taʁif",
       "pos": "noun",
       "gender": "m",
@@ -77,7 +77,7 @@
       "fr": "gratuit",
       "en": "free (no cost)",
       "hi": "मुफ़्त",
-      "pron": "ग्रा-तüई",
+      "pron": "ग्रा-त्यूई",
       "ipa": "ɡʁatɥi",
       "pos": "adjective",
       "note": {
@@ -89,7 +89,7 @@
       "fr": "sur réservation",
       "en": "by reservation only",
       "hi": "पहले से बुकिंग करके",
-      "pron": "सüग़ ग़े-ज़ैग़-वा-स्योँ",
+      "pron": "स्यूर रे-ज़ेर-वा-स्यों",
       "ipa": "syʁ ʁezɛʁvasjɔ̃",
       "pos": "phrase"
     },
@@ -105,7 +105,7 @@
       "fr": "à partir de",
       "en": "from, starting on",
       "hi": "… से (शुरू होकर)",
-      "pron": "आ पाग़-तीग़ दö",
+      "pron": "आ पार-तीर द",
       "ipa": "a paʁtiʁ də",
       "pos": "preposition",
       "note": {
@@ -117,7 +117,7 @@
       "fr": "un abonnement",
       "en": "a subscription, a pass",
       "hi": "सदस्यता / मासिक-वार्षिक पास",
-      "pron": "ऐँ ना-बॉन-माँ",
+      "pron": "ऐं ना-बॉन-माँ",
       "ipa": "ɛ̃n‿abɔnmɑ̃",
       "pos": "noun",
       "gender": "m",
@@ -127,7 +127,7 @@
       "fr": "emprunter",
       "en": "to borrow",
       "hi": "उधार लेना",
-      "pron": "आँ-प्रैँ-ते",
+      "pron": "आँ-प्रैं-ते",
       "ipa": "ɑ̃pʁɛ̃te",
       "pos": "verb",
       "note": {
@@ -139,7 +139,7 @@
       "fr": "interdit",
       "en": "forbidden, prohibited",
       "hi": "मना / वर्जित",
-      "pron": "ऐँ-तैग़-दी",
+      "pron": "ऐं-तेर-दी",
       "ipa": "ɛ̃tɛʁdi",
       "pos": "adjective"
     },
@@ -147,7 +147,7 @@
       "fr": "une pièce d'identité",
       "en": "a piece of ID",
       "hi": "पहचान पत्र",
-      "pron": "üन प्यैस दी-दाँ-ती-ते",
+      "pron": "यून प्येस दी-दाँ-ती-ते",
       "ipa": "yn pjɛs didɑ̃tite",
       "pos": "noun",
       "gender": "f",
@@ -157,7 +157,7 @@
       "fr": "le stationnement",
       "en": "parking",
       "hi": "गाड़ी खड़ी करना / पार्किंग",
-      "pron": "लö स्ता-स्यॉन-माँ",
+      "pron": "ल स्ता-स्यॉन-माँ",
       "ipa": "lə stasjɔnmɑ̃",
       "pos": "noun",
       "gender": "m",
@@ -173,13 +173,13 @@
       "fr": "Vous ne pouvez emprunter que dix documents.",
       "en": "You can only borrow ten items.",
       "hi": "आप सिर्फ़ दस चीज़ें उधार ले सकते हैं।",
-      "pron": "वू नö पू-वे आँ-प्रैँ-ते कö दी दो-क्ü-माँ"
+      "pron": "वू न पू-वे आँ-प्रैं-ते क दी दो-क्यू-माँ"
     },
     {
       "fr": "Fermé le dimanche et les jours fériés.",
       "en": "Closed on Sundays and public holidays.",
       "hi": "रविवार और सरकारी छुट्टियों पर बंद।",
-      "pron": "फ़ैग़-मे लö दी-माँश ए ले झ़ूग़ फ़े-ग़्ये"
+      "pron": "फ़ेर-मे ल दी-माँश ए ले जूर फ़े-र्ये"
     },
     {
       "fr": "Dans la limite des stocks disponibles.",
@@ -191,7 +191,7 @@
       "fr": "Merci de votre compréhension.",
       "en": "Thank you for your understanding.",
       "hi": "आपकी समझदारी के लिए धन्यवाद।",
-      "pron": "मैग़-सी दö वॉत्ग़ कोँ-प्रे-आँ-स्योँ"
+      "pron": "मेर-सी द वॉत्र कों-प्रे-आँ-स्यों"
     },
     {
       "fr": "Places limitées.",
@@ -203,7 +203,7 @@
       "fr": "Ouvert du lundi au vendredi, de 9 h à 20 h.",
       "en": "Open Monday to Friday, 9 a.m. to 8 p.m.",
       "hi": "सोमवार से शुक्रवार, सुबह 9 से रात 8 बजे तक खुला।",
-      "pron": "ऊ-वैग़ दü लैँ-दी ओ वाँ-द्रö-दी दö नö-वöग़ आ वैँ-तöग़"
+      "pron": "ऊ-वेर द्यू लैं-दी ओ वाँ-द्र-दी द न-वर आ वैं-तर"
     }
   ],
   "grammar": {
@@ -224,31 +224,31 @@
         "fr": "La piscine n'ouvre que le week-end.",
         "en": "The pool only opens at the weekend.",
         "hi": "स्विमिंग पूल सिर्फ़ सप्ताहांत में खुलता है।",
-        "pron": "ला पी-सीन नू-व्ग़ö कö लö वी-कैंड"
+        "pron": "ला पी-सीन नू-व्र क ल वी-कैंड"
       },
       {
         "fr": "Cette offre n'est valable que jusqu'à 18 h.",
         "en": "This offer is only valid until 6 p.m.",
         "hi": "यह ऑफ़र सिर्फ़ शाम 6 बजे तक मान्य है।",
-        "pron": "सैत ऑफ़्ग़ नै वा-लाब्ल कö झ़üस-का दी-ज़üई-तöग़"
+        "pron": "सेत ऑफ़्र ने वा-लाब्ल क ज्यूस-का दी-ज़्यूई-तर"
       },
       {
         "fr": "Il n'y a que trois places libres.",
         "en": "There are only three free places.",
         "hi": "सिर्फ़ तीन ख़ाली जगहें हैं।",
-        "pron": "इल नी या कö त्रवा प्लास लीब्ग़"
+        "pron": "इल नी या क त्रवा प्लास लीब्र"
       },
       {
         "fr": "Fermeture du 3 au 9 juillet.",
         "en": "Closed from 3 to 9 July.",
         "hi": "3 से 9 जुलाई तक बंद।",
-        "pron": "फ़ैग़-मö-तüग़ दü त्रवा ओ नöफ़ झ़üई-यै"
+        "pron": "फ़ेर-म-त्यूर द्यू त्रवा ओ नफ़ ज्यूई-ये"
       },
       {
         "fr": "Le cours commence le 1er octobre à 18 h 30.",
         "en": "The class starts on 1 October at 6:30 p.m.",
         "hi": "क्लास 1 अक्तूबर को शाम 6:30 बजे शुरू होती है।",
-        "pron": "लö कूग़ को-माँस लö प्रö-म्ये ऑक-तॉब्ग़ आ दी-ज़üई-तöग़ त्ग़ाँत"
+        "pron": "ल कूर को-माँस ल प्र-म्ये ऑक-तॉब्र आ दी-ज़्यूई-तर त्राँत"
       }
     ],
     "pitfalls": [
@@ -277,7 +277,7 @@
         "fr": "dix-huit heures",
         "en": "6 p.m. (18:00)",
         "hi": "शाम 6 बजे",
-        "pron": "दी-ज़üई-तöग़",
+        "pron": "दी-ज़्यूई-तर",
         "ipa": "dizɥitœʁ",
         "note": {
           "en": "x sounds like z, and the t of huit links to heures.",
@@ -288,7 +288,7 @@
         "fr": "vingt heures",
         "en": "8 p.m. (20:00)",
         "hi": "रात 8 बजे",
-        "pron": "वैँ-तöग़",
+        "pron": "वैं-तर",
         "ipa": "vɛ̃tœʁ",
         "note": {
           "en": "The t of vingt is heard before a vowel.",
@@ -299,21 +299,21 @@
         "fr": "le premier juillet",
         "en": "the first of July",
         "hi": "1 जुलाई",
-        "pron": "लö प्रö-म्ये झ़üई-यै",
+        "pron": "ल प्र-म्ये ज्यूई-ये",
         "ipa": "lə pʁəmje ʒɥijɛ"
       },
       {
         "fr": "douze dollars",
         "en": "twelve dollars",
         "hi": "बारह डॉलर",
-        "pron": "दूज़ दो-लाग़",
+        "pron": "दूज़ दो-लार",
         "ipa": "duz dɔlaʁ"
       },
       {
         "fr": "exceptionnellement",
         "en": "exceptionally",
         "hi": "अपवाद के तौर पर",
-        "pron": "ऐक-सैप-स्यो-नैल-माँ",
+        "pron": "एक-सेप-स्यो-नेल-माँ",
         "ipa": "ɛksɛpsjɔnɛlmɑ̃"
       }
     ]
@@ -411,7 +411,8 @@
     "questions": [
       {
         "q": {
-          "en": "Until when can you buy the strawberries at the special price?"
+          "en": "Until when can you buy the strawberries at the special price?",
+          "hi": "स्ट्रॉबेरी विशेष कीमत पर कब तक खरीदी जा सकती हैं?"
         },
         "options": [
           "Until 8 p.m.",
@@ -425,11 +426,18 @@
           "hi": "'dix-huit heures' = 18:00, यानी शाम 6 बजे। 'cinq' दाम है, समय नहीं।"
         },
         "kind": "literal",
-        "evidence": "Cette offre n'est valable que jusqu'à dix-huit heures"
+        "evidence": "Cette offre n'est valable que jusqu'à dix-huit heures",
+        "optionsHi": [
+          "रात 8 बजे तक",
+          "शाम 5 बजे तक",
+          "शाम 6 बजे तक",
+          "सप्ताह के अंत तक"
+        ]
       },
       {
         "q": {
-          "en": "What should library users do now?"
+          "en": "What should library users do now?",
+          "hi": "पुस्तकालय के उपयोगकर्ताओं को अब क्या करना चाहिए?"
         },
         "options": [
           "Go to the loans desk",
@@ -443,11 +451,18 @@
           "hi": "उन्हें 'comptoir de prêt' (उधार काउंटर) पर जाकर किताबें दर्ज कराने को कहा गया है।"
         },
         "kind": "literal",
-        "evidence": "Nous vous invitons à vous présenter au comptoir de prêt"
+        "evidence": "Nous vous invitons à vous présenter au comptoir de prêt",
+        "optionsHi": [
+          "उधार काउंटर पर जाएँ",
+          "सोमवार को वापस आएँ",
+          "अपनी सभी किताबें लौटा दें",
+          "अपनी किताबें मेज़ों पर छोड़ दें"
+        ]
       },
       {
         "q": {
-          "en": "Why will the library be closed next Monday?"
+          "en": "Why will the library be closed next Monday?",
+          "hi": "अगले सोमवार को पुस्तकालय क्यों बंद रहेगा?"
         },
         "options": [
           "Because of a staff meeting",
@@ -461,11 +476,18 @@
           "hi": "'jour férié' = सरकारी छुट्टी। तकनीकी समस्या खेल केंद्र वाली घोषणा में है।"
         },
         "kind": "literal",
-        "evidence": "la bibliothèque sera fermée lundi prochain, jour férié"
+        "evidence": "la bibliothèque sera fermée lundi prochain, jour férié",
+        "optionsHi": [
+          "कर्मचारियों की बैठक की वजह से",
+          "मरम्मत के लिए",
+          "तकनीकी समस्या की वजह से",
+          "क्योंकि सार्वजनिक छुट्टी है"
+        ]
       },
       {
         "q": {
-          "en": "What happens to the 7 p.m. yoga class?"
+          "en": "What happens to the 7 p.m. yoga class?",
+          "hi": "शाम 7 बजे की योग कक्षा का क्या होगा?"
         },
         "options": [
           "It moves to the first floor",
@@ -479,11 +501,18 @@
           "hi": "योग क्लास 'annulé' (रद्द) है और उसकी जगह स्ट्रेचिंग सत्र है।"
         },
         "kind": "literal",
-        "evidence": "le cours de yoga de dix-neuf heures est annulé ce soir"
+        "evidence": "le cours de yoga de dix-neuf heures est annulé ce soir",
+        "optionsHi": [
+          "वह पहली मंज़िल पर चली जाएगी",
+          "वह रद्द हो गई है और उसकी जगह स्ट्रेचिंग होगी",
+          "वह देर से शुरू होगी",
+          "वह अगले सप्ताह के लिए टाल दी गई है"
+        ]
       },
       {
         "q": {
-          "en": "What can registered participants do?"
+          "en": "What can registered participants do?",
+          "hi": "पंजीकृत प्रतिभागी क्या कर सकते हैं?"
         },
         "options": [
           "Nothing, the class is not refunded",
@@ -497,11 +526,18 @@
           "hi": "'seront remboursées OU pourront choisir un autre cours': दो विकल्प हैं।"
         },
         "kind": "inference",
-        "evidence": "Les personnes inscrites seront remboursées ou pourront choisir un autre cours de la semaine."
+        "evidence": "Les personnes inscrites seront remboursées ou pourront choisir un autre cours de la semaine.",
+        "optionsHi": [
+          "कुछ नहीं, कक्षा का पैसा वापस नहीं होगा",
+          "केवल पैसे वापस ले सकते हैं",
+          "पैसे वापस ले सकते हैं या दूसरी कक्षा चुन सकते हैं",
+          "केवल स्ट्रेचिंग में शामिल हो सकते हैं"
+        ]
       },
       {
         "q": {
-          "en": "When is garbage collected this week?"
+          "en": "When is garbage collected this week?",
+          "hi": "इस सप्ताह कचरा कब उठाया जाता है?"
         },
         "options": [
           "Wednesday",
@@ -515,7 +551,13 @@
           "hi": "'mercredi au lieu de mardi' = मंगलवार की बजाय बुधवार।"
         },
         "kind": "literal",
-        "evidence": "la collecte des ordures aura lieu mercredi au lieu de mardi cette semaine"
+        "evidence": "la collecte des ordures aura lieu mercredi au lieu de mardi cette semaine",
+        "optionsHi": [
+          "बुधवार",
+          "गुरुवार",
+          "मंगलवार",
+          "सोमवार"
+        ]
       }
     ],
     "dictation": [
@@ -543,35 +585,35 @@
         "fr": "C'est une affiche de la pharmacie. Elle est fermée le dimanche.",
         "en": "It's a poster from the pharmacy. It's closed on Sundays.",
         "hi": "यह फ़ार्मेसी का पोस्टर है। वह रविवार को बंद रहती है।",
-        "pron": "सै तüन ना-फ़िश दö ला फ़ाग़-मा-सी। ऐल ए फ़ैग़-मे लö दी-माँश",
+        "pron": "से त्यून ना-फ़िश द ला फ़ार-मा-सी। एल ए फ़ेर-मे ल दी-माँश",
         "model": "C'est une affiche de la pharmacie. Elle est ouverte en semaine de 9 h à 20 h, mais elle est fermée le dimanche. Si c'est urgent, tu peux appeler le 811."
       },
       {
         "fr": "La piscine est fermée du 3 au 9 juillet.",
         "en": "The pool is closed from 3 to 9 July.",
         "hi": "स्विमिंग पूल 3 से 9 जुलाई तक बंद है।",
-        "pron": "ला पी-सीन ए फ़ैग़-मे दü त्रवा ओ नöफ़ झ़üई-यै",
+        "pron": "ला पी-सीन ए फ़ेर-मे द्यू त्रवा ओ नफ़ ज्यूई-ये",
         "model": "La piscine est fermée du 3 au 9 juillet pour des travaux, mais ne t'inquiète pas : ton abonnement est prolongé d'une semaine."
       },
       {
         "fr": "Tu ne peux emprunter que dix documents.",
         "en": "You can only borrow ten items.",
         "hi": "तुम सिर्फ़ दस चीज़ें उधार ले सकते हो।",
-        "pron": "तü नö पö आँ-प्रैँ-ते कö दी दो-क्ü-माँ",
+        "pron": "त्यू न प आँ-प्रैं-ते क दी दो-क्यू-माँ",
         "model": "À la bibliothèque, tu ne peux emprunter que dix documents à la fois, et tu dois les rendre dans trois semaines."
       },
       {
         "fr": "Pour le musée, il faut réserver la visite guidée.",
         "en": "For the museum, you have to book the guided tour.",
         "hi": "संग्रहालय के लिए गाइड वाला दौरा बुक करना पड़ता है।",
-        "pron": "पूग़ लö म्ü-ज़े इल फ़ो ग़े-ज़ैग़-वे ला वी-ज़ीत गी-दे",
+        "pron": "पूर ल म्यू-ज़े इल फ़ो रे-ज़ेर-वे ला वी-ज़ीत गी-दे",
         "model": "Pour le musée, tu paies 12 dollars avec ta carte étudiante, mais il faut réserver si tu veux une visite guidée."
       },
       {
         "fr": "Attention, le stationnement est interdit le mardi matin.",
         "en": "Careful, parking is not allowed on Tuesday mornings.",
         "hi": "ध्यान रहे, मंगलवार सुबह गाड़ी खड़ी करना मना है।",
-        "pron": "आ-ताँ-स्योँ लö स्ता-स्यॉन-माँ ए तैँ-तैग़-दी लö माग़-दी मा-तैँ",
+        "pron": "आ-ताँ-स्यों ल स्ता-स्यॉन-माँ ए तैं-तेर-दी ल मार-दी मा-तैं",
         "model": "Attention, le stationnement est interdit le mardi de 8 h à 10 h, sinon ta voiture sera remorquée."
       }
     ],
@@ -591,7 +633,8 @@
     "questions": [
       {
         "q": {
-          "en": "Document A: You need medicine on a Sunday afternoon. What does the pharmacy suggest?"
+          "en": "Document A: You need medicine on a Sunday afternoon. What does the pharmacy suggest?",
+          "hi": "दस्तावेज़ A: रविवार दोपहर को आपको दवा चाहिए। दवाखाना क्या सुझाव देता है?"
         },
         "options": [
           "Come on Saturday before 8 p.m.",
@@ -605,11 +648,18 @@
           "hi": "फ़ार्मेसी रविवार को बंद है; तुरंत ज़रूरत के लिए वह 811 नंबर देती है।"
         },
         "kind": "inference",
-        "evidence": "En cas de besoin urgent, composez le 811"
+        "evidence": "En cas de besoin urgent, composez le 811",
+        "optionsHi": [
+          "शनिवार को रात 8 बजे से पहले आएँ",
+          "अगर ज़रूरी हो तो स्वास्थ्य हेल्पलाइन पर फ़ोन करें",
+          "बाहर लगे 24 घंटे वाले बॉक्स का इस्तेमाल करें",
+          "किसी दूसरी शाखा में जाएँ"
+        ]
       },
       {
         "q": {
-          "en": "Document B: What happens to swimmers who have a pass?"
+          "en": "Document B: What happens to swimmers who have a pass?",
+          "hi": "दस्तावेज़ B: जिन तैराकों के पास पास (पास कार्ड) है, उनके साथ क्या होता है?"
         },
         "options": [
           "They can swim in another pool",
@@ -623,11 +673,18 @@
           "hi": "'prolongés d'une semaine' = एक हफ़्ते के लिए बढ़ाए गए।"
         },
         "kind": "literal",
-        "evidence": "Les abonnements en cours seront prolongés d'une semaine."
+        "evidence": "Les abonnements en cours seront prolongés d'une semaine.",
+        "optionsHi": [
+          "वे किसी दूसरे स्विमिंग पूल में तैर सकते हैं",
+          "उनका एक सप्ताह कट जाता है",
+          "उन्हें पैसे वापस मिलते हैं",
+          "उन्हें एक सप्ताह अतिरिक्त मिलता है"
+        ]
       },
       {
         "q": {
-          "en": "Document C: Which statement is true?"
+          "en": "Document C: Which statement is true?",
+          "hi": "दस्तावेज़ C: कौन-सा कथन सही है?"
         },
         "options": [
           "You can have at most 10 items at a time",
@@ -641,11 +698,18 @@
           "hi": "'ne … que 10 documents' = सिर्फ़ 10 चीज़ें। बाहर के बक्से में भी लौटा सकते हैं, और समय-सीमा 21 दिन है।"
         },
         "kind": "grammar",
-        "evidence": "Vous ne pouvez emprunter que 10 documents à la fois."
+        "evidence": "Vous ne pouvez emprunter que 10 documents à la fois.",
+        "optionsHi": [
+          "आप एक समय में अधिकतम 10 चीज़ें रख सकते हैं",
+          "आपको चीज़ें 10 दिनों के भीतर लौटानी होंगी",
+          "आप जितनी चाहें उतनी चीज़ें उधार ले सकते हैं",
+          "आपको चीज़ें केवल काउंटर पर ही लौटानी होंगी"
+        ]
       },
       {
         "q": {
-          "en": "Document D: How should you contact Marc?"
+          "en": "Document D: How should you contact Marc?",
+          "hi": "दस्तावेज़ D: आपको Marc से संपर्क कैसे करना चाहिए?"
         },
         "options": [
           "Through the building manager",
@@ -659,11 +723,18 @@
           "hi": "वह ईमेल पता देता है और लिखता है 'Pas d'appel' — फ़ोन नहीं।"
         },
         "kind": "literal",
-        "evidence": "Écrire à marc.l@courriel.ca. Pas d'appel, SVP."
+        "evidence": "Écrire à marc.l@courriel.ca. Pas d'appel, SVP.",
+        "optionsHi": [
+          "इमारत के प्रबंधक के माध्यम से",
+          "फ़ोन से",
+          "ईमेल से",
+          "तीसरी मंज़िल पर जाकर"
+        ]
       },
       {
         "q": {
-          "en": "Document E: It is Tuesday 14 May, 9 a.m. Can you park on this street?"
+          "en": "Document E: It is Tuesday 14 May, 9 a.m. Can you park on this street?",
+          "hi": "दस्तावेज़ E: आज मंगलवार, 14 मई है और सुबह 9 बजे हैं। क्या आप इस सड़क पर गाड़ी खड़ी कर सकते हैं?"
         },
         "options": [
           "Yes, the rule starts in December",
@@ -677,11 +748,18 @@
           "hi": "मंगलवार, सुबह 8 से 10 के बीच, 1 अप्रैल से 1 दिसंबर के बीच: गाड़ी खड़ी करना मना है।"
         },
         "kind": "inference",
-        "evidence": "Stationnement interdit le mardi de 8 h à 10 h, du 1er avril au 1er décembre"
+        "evidence": "Stationnement interdit le mardi de 8 h à 10 h, du 1er avril au 1er décembre",
+        "optionsHi": [
+          "हाँ, नियम दिसंबर से शुरू होता है",
+          "नहीं, उस समय यह मना है",
+          "हाँ, लेकिन केवल एक घंटे के लिए",
+          "केवल दूसरी तरफ़"
+        ]
       },
       {
         "q": {
-          "en": "Document F: A 20-year-old student wants a guided tour. What must she do?"
+          "en": "Document F: A 20-year-old student wants a guided tour. What must she do?",
+          "hi": "दस्तावेज़ F: 20 साल की एक छात्रा गाइडेड टूर करना चाहती है। उसे क्या करना होगा?"
         },
         "options": [
           "Come with someone over 65",
@@ -695,11 +773,18 @@
           "hi": "छात्रों को पहचान पत्र दिखाकर रियायती दाम मिलता है, और गाइड वाला दौरा सिर्फ़ बुकिंग से होता है।"
         },
         "kind": "inference",
-        "evidence": "Visites guidées sur réservation uniquement."
+        "evidence": "Visites guidées sur réservation uniquement.",
+        "optionsHi": [
+          "65 वर्ष से अधिक उम्र के किसी व्यक्ति के साथ आना",
+          "पूरी कीमत चुकाना",
+          "कुछ नहीं, यह मुफ़्त है",
+          "पहचान-पत्र दिखाना और पहले से बुकिंग करना"
+        ]
       },
       {
         "q": {
-          "en": "Document G: How can you register for the cooking class?"
+          "en": "Document G: How can you register for the cooking class?",
+          "hi": "दस्तावेज़ G: आप खाना पकाने की कक्षा के लिए पंजीकरण कैसे कर सकते हैं?"
         },
         "options": [
           "At the reception desk",
@@ -713,7 +798,13 @@
           "hi": "'inscription au comptoir d'accueil seulement' — सिर्फ़ रिसेप्शन काउंटर पर।"
         },
         "kind": "literal",
-        "evidence": "inscription au comptoir d'accueil seulement"
+        "evidence": "inscription au comptoir d'accueil seulement",
+        "optionsHi": [
+          "रिसेप्शन डेस्क पर",
+          "पहली कक्षा में",
+          "ऑनलाइन",
+          "फ़ोन से"
+        ]
       }
     ]
   },
@@ -745,25 +836,25 @@
         "fr": "Nous vous informons que…",
         "en": "We inform you that…",
         "hi": "हम आपको सूचित करते हैं कि…",
-        "pron": "नू वू ज़ैँ-फ़ॉग़-मोँ कö"
+        "pron": "नू वू ज़ैं-फ़ॉर-मों क"
       },
       {
         "fr": "en raison de travaux",
         "en": "because of repair work",
         "hi": "मरम्मत के काम के कारण",
-        "pron": "आँ ग़ै-ज़ोँ दö त्ग़ा-वो"
+        "pron": "आँ रे-ज़ों द त्रा-वो"
       },
       {
         "fr": "Merci de votre compréhension.",
         "en": "Thank you for your understanding.",
         "hi": "आपकी समझदारी के लिए धन्यवाद।",
-        "pron": "मैग़-सी दö वॉत्ग़ कोँ-प्रे-आँ-स्योँ"
+        "pron": "मेर-सी द वॉत्र कों-प्रे-आँ-स्यों"
       },
       {
         "fr": "Pour toute question, contactez…",
         "en": "For any question, contact…",
         "hi": "किसी भी सवाल के लिए संपर्क कीजिए…",
-        "pron": "पूग़ तूत कैस-त्योँ कोँ-ताक-ते"
+        "pron": "पूर तूत केस-त्यों कों-ताक-ते"
       }
     ],
     "model": {
@@ -802,49 +893,49 @@
         "fr": "Je n'ai plus de billets.",
         "en": "I have no tickets left.",
         "hi": "मेरे पास अब टिकट नहीं बचे।",
-        "pron": "झ़ö ने प्लü दö बी-यै"
+        "pron": "ज ने प्ल्यू द बी-ये"
       },
       {
         "fr": "Ne pas fumer.",
         "en": "No smoking.",
         "hi": "धूम्रपान न करें।",
-        "pron": "नö पा फ़ü-मे"
+        "pron": "न पा फ़्यू-मे"
       },
       {
         "fr": "Prenez-le à l'accueil.",
         "en": "Take it at reception.",
         "hi": "इसे रिसेप्शन पर ले लीजिए।",
-        "pron": "प्रö-ने लö आ ला-कöय"
+        "pron": "प्र-ने ल आ ला-कय"
       },
       {
         "fr": "Je voudrais savoir si c'est gratuit.",
         "en": "I'd like to know if it's free.",
         "hi": "मैं जानना चाहूँगा कि क्या यह मुफ़्त है।",
-        "pron": "झ़ö वू-द्रै सा-वाग़ सी सै ग्रा-तüई"
+        "pron": "ज वू-द्रे सा-वार सी से ग्रा-त्यूई"
       },
       {
         "fr": "Pourriez-vous me dire l'heure d'ouverture ?",
         "en": "Could you tell me the opening time?",
         "hi": "क्या आप मुझे खुलने का समय बता सकते हैं?",
-        "pron": "पू-ग़्ये वू मö दीग़ लöग़ दू-वैग़-तüग़"
+        "pron": "पू-र्ये वू म दीर लर दू-वेर-त्यूर"
       },
       {
         "fr": "Personne n'est venu.",
         "en": "Nobody came.",
         "hi": "कोई नहीं आया।",
-        "pron": "पैग़-सॉन नै वö-नü"
+        "pron": "पेर-सॉन ने व-न्यू"
       },
       {
         "fr": "l'incident s'est produit hier",
         "en": "the incident happened yesterday",
         "hi": "घटना कल हुई",
-        "pron": "लैँ-सी-दाँ सै प्रो-दüई यैग़"
+        "pron": "लैं-सी-दाँ से प्रो-द्यूई येर"
       },
       {
         "fr": "la boîte aux lettres",
         "en": "the mailbox",
         "hi": "डाक का डिब्बा",
-        "pron": "ला ब्वात ओ लैत्ग़"
+        "pron": "ला ब्वात ओ लेत्र"
       }
     ]
   },

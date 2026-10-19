@@ -2,7 +2,7 @@ import type { Day } from "@/content/schema";
 
 /** Lesson as sent to the browser: comprehension and assessment answers stay on the server until the learner answers. */
 export function toClientLesson(d: Day) {
-  const stripMcq = (q: Day["listening"]["questions"][number]) => ({ q: q.q, options: q.options, kind: q.kind });
+  const stripMcq = (q: Day["listening"]["questions"][number]) => ({ q: q.q, options: q.options, optionsHi: q.optionsHi, kind: q.kind });
   return {
     ...d,
     listening: { ...d.listening, questions: d.listening.questions.map(stripMcq) },

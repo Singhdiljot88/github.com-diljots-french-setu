@@ -154,3 +154,7 @@ Deploy steps: `docs/DEPLOY.md`.
 - Keep AI calls behind `server/ai` with a Zod schema and a labelled non-AI fallback.
 - Don't add score predictions or CEFR/CLB mappings.
 - Keep English and Hindi side by side for any learner-facing text; Hindi elements get `lang="hi"` and the `deva` class.
+
+## 2026-10-19 update
+
+The Hindi fix list v2 work is on branch `hindi-fix-list` (see BUILD_STATUS.md for what passed and what is left). Do not merge it to main until the 4 failing browser journeys pass. Pronunciation guides follow content/CONVENTIONS.md section 3; Hindi text follows docs/HINDI_STYLE_GUIDE.md. The demo notice deliberately leaves out "progress is saved on this device", because on the hosted app progress is saved to the account database.

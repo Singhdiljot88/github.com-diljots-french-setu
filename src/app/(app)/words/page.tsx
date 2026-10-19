@@ -1,4 +1,5 @@
 import { MyWords } from "@/components/my-words";
+import { Bi } from "@/components/bi";
 
 export const metadata = { title: "My words" };
 
@@ -7,8 +8,8 @@ export default async function WordsPage({ searchParams }: { searchParams: Promis
   return (
     <div className="space-y-4">
       <header>
-        <h1 className="text-2xl font-bold">My words <span lang="hi" className="deva text-lg font-normal text-muted">· मेरे शब्द</span></h1>
-        <p className="text-muted">Everything you saved from lessons and the dictionary. Add your own example sentence to remember a word better.</p>
+        <h1 className="text-2xl font-bold"><Bi as="span" t={{ en: "My words", hi: "मेरे शब्द" }} /></h1>
+        <Bi className="text-muted" t={{ en: "Everything you saved from lessons and the dictionary. Add your own example sentence to remember a word better.", hi: "पाठों और शब्दकोश से आपने जो कुछ सहेजा है, सब यहाँ है। किसी शब्द को बेहतर याद रखने के लिए उसका अपना उदाहरण वाक्य जोड़ें।" }} />
       </header>
       <MyWords addInitial={add ?? ""} />
     </div>

@@ -31,7 +31,7 @@
       "fr": "l'inscription",
       "en": "registration, sign-up",
       "hi": "रजिस्ट्रेशन / नाम लिखवाना",
-      "pron": "लैँस-क्ग़िप-स्योँ",
+      "pron": "लैंस-क्रीप-स्यों",
       "ipa": "lɛ̃skʁipsjɔ̃",
       "pos": "noun",
       "gender": "f",
@@ -41,7 +41,7 @@
       "fr": "réserver",
       "en": "to book, to reserve",
       "hi": "बुक करना",
-      "pron": "ग़े-ज़ैग़-वे",
+      "pron": "रे-ज़ेर-वे",
       "ipa": "ʁezɛʁve",
       "pos": "verb"
     },
@@ -59,7 +59,7 @@
       "fr": "complet / complète",
       "en": "full (no places left)",
       "hi": "भरा हुआ (जगह नहीं)",
-      "pron": "कोँ-प्लै / कोँ-प्लैत",
+      "pron": "कों-प्ले / कों-प्लेत",
       "ipa": "kɔ̃plɛ / kɔ̃plɛt",
       "pos": "adjective",
       "lemma": "complet"
@@ -68,7 +68,7 @@
       "fr": "confirmer",
       "en": "to confirm",
       "hi": "पक्का करना / पुष्टि करना",
-      "pron": "कोँ-फ़ीग़-मे",
+      "pron": "कों-फ़ीर-मे",
       "ipa": "kɔ̃fiʁme",
       "pos": "verb"
     },
@@ -76,7 +76,7 @@
       "fr": "à 18 h (dix-huit heures)",
       "en": "at 6 p.m.",
       "hi": "शाम 6 बजे",
-      "pron": "आ दी-ज़üइ तöग़",
+      "pron": "आ दी-ज़्यूइ तर",
       "ipa": "a dizɥi tœʁ",
       "pos": "phrase",
       "note": {
@@ -90,35 +90,35 @@
       "fr": "Est-ce qu'il y a des places ?",
       "en": "Are there any places left?",
       "hi": "क्या जगह ख़ाली है?",
-      "pron": "ऐस-की-ल्या दे प्लास",
+      "pron": "एस-की-ल्या दे प्लास",
       "ipa": "ɛskilja de plas"
     },
     {
       "fr": "C'est complet.",
       "en": "It's full.",
       "hi": "सब भरा हुआ है।",
-      "pron": "सै कोँ-प्लै",
+      "pron": "से कों-प्ले",
       "ipa": "sɛ kɔ̃plɛ"
     },
     {
       "fr": "C'est combien ?",
       "en": "How much is it?",
       "hi": "यह कितने का है?",
-      "pron": "सै कोँ-ब्यैँ",
+      "pron": "से कों-ब्यैं",
       "ipa": "sɛ kɔ̃bjɛ̃"
     },
     {
       "fr": "Je confirme pour le jeudi 16 avril.",
       "en": "I confirm for Thursday 16 April.",
       "hi": "मैं गुरुवार, 16 अप्रैल के लिए पक्का करता/करती हूँ।",
-      "pron": "झ़ö कोँ-फ़ीग़्म पूग़ लö झ़ö-दी सैज़ आ-व्ग़ील",
+      "pron": "ज कों-फ़ीर्म पूर ल ज-दी सेज़ आ-व्रील",
       "ipa": "ʒə kɔ̃fiʁm puʁ lə ʒødi sɛz avʁil"
     },
     {
       "fr": "Je réserve une place, s'il vous plaît.",
       "en": "I'd like to book a place, please.",
       "hi": "कृपया मेरे लिए एक जगह बुक कीजिए।",
-      "pron": "झ़ö ग़े-ज़ैग़्व üन प्लास सील वू प्लै",
+      "pron": "ज रे-ज़ेर्व यून प्लास सील वू प्ले",
       "ipa": "ʒə ʁezɛʁv yn plas sil vu plɛ"
     }
   ],
@@ -140,25 +140,25 @@
         "fr": "Il n'y a pas de place le samedi.",
         "en": "There's no place on Saturdays.",
         "hi": "शनिवार को जगह नहीं है।",
-        "pron": "ईल नी-या पा दö प्लास लö साम-दी"
+        "pron": "ईल नी-या पा द प्लास ल साम-दी"
       },
       {
         "fr": "Est-ce que le cours est le mardi ?",
         "en": "Is the class on Tuesdays?",
         "hi": "क्या क्लास मंगलवार को होती है?",
-        "pron": "ऐस-कö लö कूग़ ऐ लö माग़-दी"
+        "pron": "एस-क ल कूर ए ल मार-दी"
       },
       {
         "fr": "Le cours, c'est quatre-vingt-dix dollars.",
         "en": "The course is ninety dollars.",
         "hi": "कोर्स नब्बे डॉलर का है।",
-        "pron": "लö कूग़ सै कात्ग़ö-वैँ-दीस दो-लाग़"
+        "pron": "ल कूर से कात्र-वैं-दीस दो-लार"
       },
       {
         "fr": "Nous ne travaillons pas le dimanche.",
         "en": "We don't work on Sundays.",
         "hi": "हम रविवार को काम नहीं करते।",
-        "pron": "नू नö त्ग़ा-वा-योँ पा लö दी-माँश"
+        "pron": "नू न त्रा-वा-यों पा ल दी-माँश"
       }
     ],
     "pitfalls": [
@@ -175,19 +175,19 @@
   "pronunciation": {
     "focus": "Review of nasal vowels: ɔ̃, ɑ̃, ɛ̃",
     "tip": {
-      "en": "Three nasals, no n or m at the end. ओँ (on): non, bon, combien. आँ (an/en): cent, dimanche, trente. ऐँ (in/un): vingt, lundi, demain. Practise in a row: bon – banc – bain (बोँ – बाँ – बैँ).",
-      "hi": "तीन नासिक्य स्वर, अंत में न या म नहीं। ओँ (on): non, bon, combien। आँ (an/en): cent, dimanche, trente। ऐँ (in/un): vingt, lundi, demain। लगातार अभ्यास कीजिए: bon – banc – bain (बोँ – बाँ – बैँ)।"
+      "en": "Three nasals, no n or m at the end. ओं (on): non, bon, combien. आँ (an/en): cent, dimanche, trente. ऐं (in/un): vingt, lundi, demain. Practise in a row: bon – banc – bain (बों – बाँ – बैं).",
+      "hi": "तीन नासिक्य स्वर, अंत में न या म नहीं। ओं (on): non, bon, combien। आँ (an/en): cent, dimanche, trente। ऐं (in/un): vingt, lundi, demain। लगातार अभ्यास कीजिए: bon – banc – bain (बों – बाँ – बैं)।"
     },
     "words": [
       {
         "fr": "combien",
         "en": "how much",
         "hi": "कितना",
-        "pron": "कोँ-ब्यैँ",
+        "pron": "कों-ब्यैं",
         "ipa": "kɔ̃bjɛ̃",
         "note": {
-          "en": "Two nasals in one word: ओँ + ऐँ.",
-          "hi": "एक शब्द में दो नासिक्य: ओँ + ऐँ।"
+          "en": "Two nasals in one word: ओं + ऐं.",
+          "hi": "एक शब्द में दो नासिक्य: ओं + ऐं।"
         }
       },
       {
@@ -201,21 +201,21 @@
         "fr": "vingt",
         "en": "twenty",
         "hi": "बीस",
-        "pron": "वैँ",
+        "pron": "वैं",
         "ipa": "vɛ̃"
       },
       {
         "fr": "trente",
         "en": "thirty",
         "hi": "तीस",
-        "pron": "त्ग़ाँत",
+        "pron": "त्राँत",
         "ipa": "tʁɑ̃t"
       },
       {
         "fr": "bon – banc – bain",
         "en": "good – bench – bath",
         "hi": "अच्छा – बेंच – स्नान",
-        "pron": "बोँ – बाँ – बैँ",
+        "pron": "बों – बाँ – बैं",
         "ipa": "bɔ̃ – bɑ̃ – bɛ̃"
       }
     ]
@@ -237,7 +237,7 @@
         "voice": "f2",
         "fr": "Centre communautaire des Pins, bonjour !",
         "en": "Pins Community Centre, hello!",
-        "hi": "पैँ सामुदायिक केंद्र, नमस्ते!"
+        "hi": "पैं सामुदायिक केंद्र, नमस्ते!"
       },
       {
         "speaker": "Karan",
@@ -292,7 +292,8 @@
     "questions": [
       {
         "q": {
-          "en": "On which days is the French class?"
+          "en": "On which days is the French class?",
+          "hi": "फ़्रेंच कक्षा किन दिनों में होती है?"
         },
         "options": [
           "Monday and Wednesday",
@@ -305,11 +306,17 @@
           "hi": "'le mardi et le jeudi' — मंगलवार और गुरुवार।"
         },
         "kind": "literal",
-        "evidence": "Le cours est le mardi et le jeudi"
+        "evidence": "Le cours est le mardi et le jeudi",
+        "optionsHi": [
+          "सोमवार और बुधवार",
+          "मंगलवार और गुरुवार",
+          "केवल शनिवार"
+        ]
       },
       {
         "q": {
-          "en": "Why can't Karan go on Tuesdays?"
+          "en": "Why can't Karan go on Tuesdays?",
+          "hi": "Karan मंगलवार को क्यों नहीं जा सकता?"
         },
         "options": [
           "It's full",
@@ -322,11 +329,17 @@
           "hi": "'Le mardi, je travaille.' — उसका काम होता है।"
         },
         "kind": "inference",
-        "evidence": "Le mardi, je travaille."
+        "evidence": "Le mardi, je travaille.",
+        "optionsHi": [
+          "वह कक्षा भरी हुई है",
+          "उसका जन्मदिन है",
+          "वह काम करता है"
+        ]
       },
       {
         "q": {
-          "en": "What about the Saturday class?"
+          "en": "What about the Saturday class?",
+          "hi": "शनिवार की कक्षा के बारे में क्या पता चलता है?"
         },
         "options": [
           "It's full",
@@ -339,11 +352,17 @@
           "hi": "'Le samedi, c'est complet.' — भरा हुआ है।"
         },
         "kind": "literal",
-        "evidence": "Le samedi, c'est complet."
+        "evidence": "Le samedi, c'est complet.",
+        "optionsHi": [
+          "वह भरी हुई है",
+          "उसमें जगह ख़ाली है",
+          "वह 16 April से शुरू होती है"
+        ]
       },
       {
         "q": {
-          "en": "When is Karan's first class?"
+          "en": "When is Karan's first class?",
+          "hi": "Karan की पहली कक्षा कब है?"
         },
         "options": [
           "Thursday 16 April",
@@ -360,7 +379,8 @@
       },
       {
         "q": {
-          "en": "How much does the class cost?"
+          "en": "How much does the class cost?",
+          "hi": "कक्षा की फ़ीस कितनी है?"
         },
         "options": [
           "$14",
@@ -400,31 +420,31 @@
         "fr": "Bonjour, madame. Est-ce qu'il y a des places pour le cours de cuisine ?",
         "en": "Hello, madam. Are there places in the cooking class?",
         "hi": "नमस्ते, मैडम। क्या कुकिंग क्लास में जगह है?",
-        "pron": "बोँ-झ़ूग़ मा-दाम ऐस-की-ल्या दे प्लास पूग़ लö कूग़ दö कüई-ज़ीन"
+        "pron": "बों-जूर मा-दाम एस-की-ल्या दे प्लास पूर ल कूर द क्यूई-ज़ीन"
       },
       {
         "fr": "Le cours est quel jour ?",
         "en": "What day is the class?",
         "hi": "क्लास किस दिन है?",
-        "pron": "लö कूग़ ऐ कैल झ़ूग़"
+        "pron": "ल कूर ए केल जूर"
       },
       {
         "fr": "C'est quelle date, le premier cours ?",
         "en": "What date is the first class?",
         "hi": "पहली क्लास किस तारीख़ को है?",
-        "pron": "सै कैल दात लö प्ग़ö-म्ये कूग़"
+        "pron": "से केल दात ल प्र-म्ये कूर"
       },
       {
         "fr": "C'est combien ?",
         "en": "How much is it?",
         "hi": "कितने का है?",
-        "pron": "सै कोँ-ब्यैँ"
+        "pron": "से कों-ब्यैं"
       },
       {
         "fr": "Mon nom, c'est … : …",
         "en": "My name is … (then spell it)",
         "hi": "मेरा नाम … है (फिर स्पेलिंग)",
-        "pron": "मोँ नोँ सै",
+        "pron": "मों नों से",
         "model": "Mon nom, c'est Singh : S-I-N-G-H."
       }
     ],
@@ -435,7 +455,7 @@
     "scenario": {
       "setting": {
         "en": "A phone call to the Pins Community Centre in Ottawa.",
-        "hi": "ओटावा के पैँ सामुदायिक केंद्र को फ़ोन।"
+        "hi": "ओटावा के पैं सामुदायिक केंद्र को फ़ोन।"
       },
       "learnerRole": {
         "en": "A newcomer who wants to join a class.",
@@ -467,12 +487,13 @@
     "text": "CENTRE COMMUNAUTAIRE DES PINS — ACTIVITÉS D'AVRIL\nCours de français : mardi et jeudi, 18 h — 40 $\nCuisine du monde : mercredi, 19 h — 25 $\nCricket pour enfants : samedi, 10 h — gratuit\nYoga : dimanche, 9 h — complet\nInscription : 613 555-0110",
     "translation": {
       "en": "PINS COMMUNITY CENTRE — APRIL ACTIVITIES\nFrench class: Tuesday and Thursday, 6 p.m. — $40\nWorld cooking: Wednesday, 7 p.m. — $25\nCricket for children: Saturday, 10 a.m. — free\nYoga: Sunday, 9 a.m. — full\nRegistration: 613 555-0110",
-      "hi": "पैँ सामुदायिक केंद्र — अप्रैल की गतिविधियाँ\nफ़्रेंच क्लास: मंगलवार और गुरुवार, शाम 6 बजे — 40 डॉलर\nदुनिया भर का खाना बनाना: बुधवार, शाम 7 बजे — 25 डॉलर\nबच्चों के लिए क्रिकेट: शनिवार, सुबह 10 बजे — मुफ़्त\nयोग: रविवार, सुबह 9 बजे — भरा हुआ\nरजिस्ट्रेशन: 613 555-0110"
+      "hi": "पैं सामुदायिक केंद्र — अप्रैल की गतिविधियाँ\nफ़्रेंच क्लास: मंगलवार और गुरुवार, शाम 6 बजे — 40 डॉलर\nदुनिया भर का खाना बनाना: बुधवार, शाम 7 बजे — 25 डॉलर\nबच्चों के लिए क्रिकेट: शनिवार, सुबह 10 बजे — मुफ़्त\nयोग: रविवार, सुबह 9 बजे — भरा हुआ\nरजिस्ट्रेशन: 613 555-0110"
     },
     "questions": [
       {
         "q": {
-          "en": "Which activity is free?"
+          "en": "Which activity is free?",
+          "hi": "कौन-सी गतिविधि मुफ़्त है?"
         },
         "options": [
           "Yoga",
@@ -485,11 +506,17 @@
           "hi": "'Cricket pour enfants : samedi, 10 h — gratuit' — मुफ़्त।"
         },
         "kind": "literal",
-        "evidence": "Cricket pour enfants : samedi, 10 h — gratuit"
+        "evidence": "Cricket pour enfants : samedi, 10 h — gratuit",
+        "optionsHi": [
+          "योग",
+          "बच्चों के लिए क्रिकेट",
+          "विश्व के व्यंजनों की कुकिंग"
+        ]
       },
       {
         "q": {
-          "en": "Can you still join yoga?"
+          "en": "Can you still join yoga?",
+          "hi": "क्या योग में अब भी शामिल हुआ जा सकता है?"
         },
         "options": [
           "Yes, on Sunday",
@@ -502,11 +529,17 @@
           "hi": "'Yoga : dimanche, 9 h — complet' — भरा हुआ है।"
         },
         "kind": "inference",
-        "evidence": "Yoga : dimanche, 9 h — complet"
+        "evidence": "Yoga : dimanche, 9 h — complet",
+        "optionsHi": [
+          "हाँ, रविवार को",
+          "केवल बच्चे",
+          "नहीं, वह भरा हुआ है"
+        ]
       },
       {
         "q": {
-          "en": "How do you say the price of the cooking class?"
+          "en": "How do you say the price of the cooking class?",
+          "hi": "कुकिंग क्लास की कीमत फ़्रेंच में कैसे कही जाती है?"
         },
         "options": [
           "vingt-cinq dollars",
@@ -523,7 +556,8 @@
       },
       {
         "q": {
-          "en": "How do you register?"
+          "en": "How do you register?",
+          "hi": "पंजीकरण कैसे किया जाता है?"
         },
         "options": [
           "By email",
@@ -536,7 +570,12 @@
           "hi": "'Inscription : 613 555-0110' — एक फ़ोन नंबर।"
         },
         "kind": "inference",
-        "evidence": "Inscription : 613 555-0110"
+        "evidence": "Inscription : 613 555-0110",
+        "optionsHi": [
+          "ईमेल से",
+          "फ़ोन से",
+          "कैफ़े में"
+        ]
       }
     ]
   },
@@ -563,19 +602,19 @@
         "fr": "Je confirme ma place pour …",
         "en": "I confirm my place for …",
         "hi": "मैं … के लिए अपनी जगह पक्की करता/करती हूँ",
-        "pron": "झ़ö कोँ-फ़ीग़्म मा प्लास पूग़"
+        "pron": "ज कों-फ़ीर्म मा प्लास पूर"
       },
       {
         "fr": "le jeudi 16 avril, à 18 h",
         "en": "on Thursday 16 April, at 6 p.m.",
         "hi": "गुरुवार, 16 अप्रैल, शाम 6 बजे",
-        "pron": "लö झ़ö-दी सैज़ आ-व्ग़ील आ दी-ज़üइ तöग़"
+        "pron": "ल ज-दी सेज़ आ-व्रील आ दी-ज़्यूइ तर"
       },
       {
         "fr": "Merci et à bientôt !",
         "en": "Thank you and see you soon!",
         "hi": "धन्यवाद, जल्द मिलते हैं!",
-        "pron": "मैग़-सी ए आ ब्यैँ-तो"
+        "pron": "मेर-सी ए आ ब्यैं-तो"
       }
     ],
     "model": {
@@ -611,73 +650,73 @@
         "fr": "Il y a beaucoup d'étudiants.",
         "en": "There are a lot of students.",
         "hi": "बहुत सारे विद्यार्थी हैं।",
-        "pron": "ई-ल्या बो-कू दे-तü-द्याँ"
+        "pron": "ई-ल्या बो-कू दे-त्यू-द्याँ"
       },
       {
         "fr": "C'est un cahier. Ce sont des crayons.",
         "en": "It's a notebook. They're pencils.",
         "hi": "यह एक कॉपी है। ये पेंसिलें हैं।",
-        "pron": "सै तैँ का-ये सö सोँ दे क्ग़े-योँ"
+        "pron": "से तैं का-ये स सों दे क्रे-यों"
       },
       {
         "fr": "Je parle hindi et un peu français.",
         "en": "I speak Hindi and a little French.",
         "hi": "मैं हिंदी और थोड़ी फ़्रेंच बोलता/बोलती हूँ।",
-        "pron": "झ़ö पाग़्ल इन-दी ए ऐँ पö फ़्ग़ाँ-सै"
+        "pron": "ज पार्ल इन-दी ए ऐं प फ़्राँ-से"
       },
       {
         "fr": "Ils travaillent dans une usine.",
         "en": "They work in a factory.",
         "hi": "वे एक फ़ैक्ट्री में काम करते हैं।",
-        "pron": "ईल त्ग़ा-वाय दाँ ज़üन नü-ज़ीन"
+        "pron": "ईल त्रा-वाय दाँ ज़्यून न्यू-ज़ीन"
       },
       {
         "fr": "Je n'aime pas danser.",
         "en": "I don't like dancing.",
         "hi": "मुझे नाचना पसंद नहीं।",
-        "pron": "झ़ö नैम पा दाँ-से"
+        "pron": "ज नेम पा दाँ-से"
       },
       {
         "fr": "Moi non plus.",
         "en": "Me neither.",
         "hi": "मुझे भी नहीं।",
-        "pron": "मवा नोँ प्लü"
+        "pron": "मवा नों प्ल्यू"
       },
       {
         "fr": "Est-ce que vous parlez anglais ?",
         "en": "Do you speak English?",
         "hi": "क्या आप अंग्रेज़ी बोलते हैं?",
-        "pron": "ऐस-कö वू पाग़-ले आँ-ग्लै"
+        "pron": "एस-क वू पार-ले आँ-ग्ले"
       },
       {
         "fr": "Qu'est-ce que tu aimes ?",
         "en": "What do you like?",
         "hi": "तुम्हें क्या पसंद है?",
-        "pron": "कैस-कö तü ऐम"
+        "pron": "केस-क त्यू एम"
       },
       {
         "fr": "Tu n'es pas fatigué ? — Si !",
         "en": "Aren't you tired? — Yes, I am!",
         "hi": "तुम थके नहीं हो? — हूँ!",
-        "pron": "तü नै पा फ़ा-ती-गे — सी"
+        "pron": "त्यू ने पा फ़ा-ती-गे — सी"
       },
       {
         "fr": "soixante-dix, quatre-vingts, quatre-vingt-dix",
         "en": "70, 80, 90",
         "hi": "सत्तर, अस्सी, नब्बे",
-        "pron": "स्वा-साँत-दीस कात्ग़ö-वैँ कात्ग़ö-वैँ-दीस"
+        "pron": "स्वा-साँत-दीस कात्र-वैं कात्र-वैं-दीस"
       },
       {
         "fr": "Quelle est la date ? — C'est le premier mai.",
         "en": "What's the date? — It's the first of May.",
         "hi": "आज कौन-सी तारीख़ है? — पहली मई।",
-        "pron": "कै लै ला दात — सै लö प्ग़ö-म्ये मै"
+        "pron": "के ले ला दात — से ल प्र-म्ये मे"
       },
       {
         "fr": "J'ai un rendez-vous demain.",
         "en": "I have an appointment tomorrow.",
         "hi": "कल मेरा एक अपॉइंटमेंट है।",
-        "pron": "झ़े ऐँ ग़ाँ-दे-वू दö-मैँ"
+        "pron": "जे ऐं राँ-दे-वू द-मैं"
       }
     ]
   },

@@ -21,7 +21,7 @@
     ],
     "summary": {
       "en": "You need il y a (there is, Day 8), dates (Day 13), depuis with health (Day 36), and the passé composé with avoir and être (Days 41–44).",
-      "hi": "आपको il y a (है/हैं, दिन 8), तारीख़ें (दिन 13), सेहत वाले वाक्यों में depuis (दिन 36), और avoir तथा être वाला पासे कॉम्पोज़े (दिन 41–44) याद होना चाहिए।"
+      "hi": "आपको il y a (है/हैं, दिन 8), तारीख़ें (दिन 13), सेहत वाले वाक्यों में depuis (दिन 36), और avoir तथा être वाला passé composé (पूर्ण भूतकाल) (दिन 41–44) याद होना चाहिए।"
     }
   },
   "light": false,
@@ -51,7 +51,7 @@
       "fr": "depuis",
       "en": "since; for (and still now)",
       "hi": "से (अब तक)",
-      "pron": "दö-प्üई",
+      "pron": "द-प्यूई",
       "ipa": "dəpɥi",
       "pos": "preposition"
     },
@@ -59,7 +59,7 @@
       "fr": "longtemps",
       "en": "a long time",
       "hi": "लंबे समय तक, बहुत देर",
-      "pron": "लोँ-ताँ",
+      "pron": "लों-ताँ",
       "ipa": "lɔ̃tɑ̃",
       "pos": "adverb",
       "note": {
@@ -71,7 +71,7 @@
       "fr": "récemment",
       "en": "recently",
       "hi": "हाल ही में",
-      "pron": "ग़े-सा-माँ",
+      "pron": "रे-सा-माँ",
       "ipa": "ʁesamɑ̃",
       "pos": "adverb",
       "note": {
@@ -83,7 +83,7 @@
       "fr": "une année",
       "en": "a year (its length, its content)",
       "hi": "एक साल (पूरा साल)",
-      "pron": "ü-ना-ने",
+      "pron": "यू-ना-ने",
       "ipa": "yn ane",
       "pos": "noun",
       "gender": "f",
@@ -97,7 +97,7 @@
       "fr": "le lycée",
       "en": "secondary school, high school",
       "hi": "हाई स्कूल / उच्च माध्यमिक विद्यालय",
-      "pron": "लö ली-से",
+      "pron": "ल ली-से",
       "ipa": "lə lise",
       "pos": "noun",
       "gender": "m",
@@ -111,7 +111,7 @@
       "fr": "l'université",
       "en": "the university",
       "hi": "विश्वविद्यालय",
-      "pron": "लü-नी-वैग़-सी-ते",
+      "pron": "ल्यू-नी-वेर-सी-ते",
       "ipa": "lynivɛʁsite",
       "pos": "noun",
       "gender": "f",
@@ -121,7 +121,7 @@
       "fr": "le diplôme",
       "en": "the degree, the diploma",
       "hi": "डिग्री, उपाधि",
-      "pron": "लö दी-प्लोम",
+      "pron": "ल दी-प्लोम",
       "ipa": "lə diplom",
       "pos": "noun",
       "gender": "m",
@@ -131,7 +131,7 @@
       "fr": "déménager",
       "en": "to move (house)",
       "hi": "घर बदलना, शिफ़्ट होना",
-      "pron": "दे-मे-ना-झ़े",
+      "pron": "दे-मे-ना-जे",
       "ipa": "demenaʒe",
       "pos": "verb",
       "note": {
@@ -143,7 +143,7 @@
       "fr": "se marier",
       "en": "to get married",
       "hi": "शादी करना",
-      "pron": "सö मा-ग़्ये",
+      "pron": "स मा-र्ये",
       "ipa": "sə maʁje",
       "pos": "verb",
       "note": {
@@ -165,42 +165,42 @@
       "fr": "Je suis arrivé(e) il y a deux ans.",
       "en": "I arrived two years ago.",
       "hi": "मैं दो साल पहले आया/आई।",
-      "pron": "झ़ö स्üई ज़ा-ग़ी-वे ई-लि-या दö ज़ाँ",
+      "pron": "ज स्यूई ज़ा-री-वे ई-लि-या द ज़ाँ",
       "ipa": "ʒə sɥi zaʁive ilja dø zɑ̃"
     },
     {
       "fr": "J'habite ici depuis six mois.",
       "en": "I have been living here for six months.",
       "hi": "मैं छह महीने से यहाँ रह रहा/रही हूँ।",
-      "pron": "झ़ा-बीत ई-सी दö-प्üई सी म्वा",
+      "pron": "जा-बीत ई-सी द-प्यूई सी म्वा",
       "ipa": "ʒabit isi dəpɥi si mwa"
     },
     {
       "fr": "Vous apprenez le français depuis combien de temps ?",
       "en": "How long have you been learning French?",
       "hi": "आप कब से फ़्रेंच सीख रहे हैं?",
-      "pron": "वू ज़ा-प्रö-ने लö फ़्राँ-सै दö-प्üई कोँ-ब्यैँ द ताँ",
+      "pron": "वू ज़ा-प्र-ने ल फ़्राँ-से द-प्यूई कों-ब्यैं द ताँ",
       "ipa": "vu zapʁəne lə fʁɑ̃sɛ dəpɥi kɔ̃bjɛ̃ də tɑ̃"
     },
     {
       "fr": "J'ai travaillé pendant cinq ans à Pune.",
       "en": "I worked in Pune for five years.",
       "hi": "मैंने पाँच साल पुणे में काम किया।",
-      "pron": "झ़े त्रा-वा-ये पाँ-दाँ सैँ काँ आ पु-ने",
+      "pron": "जे त्रा-वा-ये पाँ-दाँ सैं काँ आ पु-ने",
       "ipa": "ʒe tʁavaje pɑ̃dɑ̃ sɛ̃ kɑ̃ a pune"
     },
     {
       "fr": "Il y a combien de temps ?",
       "en": "How long ago?",
       "hi": "कितने समय पहले?",
-      "pron": "ई-लि-या कोँ-ब्यैँ द ताँ",
+      "pron": "ई-लि-या कों-ब्यैं द ताँ",
       "ipa": "ilja kɔ̃bjɛ̃ də tɑ̃"
     },
     {
       "fr": "J'ai trouvé un travail en trois semaines.",
       "en": "I found a job in three weeks.",
       "hi": "मुझे तीन हफ़्तों में नौकरी मिल गई।",
-      "pron": "झ़े त्रू-वे ऐँ त्रा-वाय आँ त्रवा स्मैन",
+      "pron": "जे त्रू-वे ऐं त्रा-वाय आँ त्रवा स्मेन",
       "ipa": "ʒe tʁuve ɛ̃ tʁavaj ɑ̃ tʁwa smɛn"
     }
   ],
@@ -222,37 +222,37 @@
         "fr": "Nous sommes arrivés à Ottawa il y a un an.",
         "en": "We arrived in Ottawa a year ago.",
         "hi": "हम एक साल पहले ओटावा पहुँचे।",
-        "pron": "नू सॉम ज़ा-ग़ी-वे ज़ा ओ-ता-वा ई-लि-या ऐँ नाँ"
+        "pron": "नू सॉम ज़ा-री-वे ज़ा ओ-ता-वा ई-लि-या ऐं नाँ"
       },
       {
         "fr": "Elle a étudié à l'université pendant quatre ans.",
         "en": "She studied at university for four years.",
         "hi": "उसने चार साल विश्वविद्यालय में पढ़ाई की।",
-        "pron": "ऐ-ला ए-तü-द्ये आ लü-नी-वैग़-सी-ते पाँ-दाँ का-त्राँ"
+        "pron": "ए-ला ए-त्यू-द्ये आ ल्यू-नी-वेर-सी-ते पाँ-दाँ का-त्राँ"
       },
       {
         "fr": "Je travaille dans cette entreprise depuis mars.",
         "en": "I have been working in this company since March.",
         "hi": "मैं मार्च से इस कंपनी में काम कर रहा/रही हूँ।",
-        "pron": "झ़ö त्रा-वाय दाँ सै ताँ-त्रö-प्रीज़ दö-प्üई माग़स"
+        "pron": "ज त्रा-वाय दाँ से ताँ-त्र-प्रीज़ द-प्यूई मारस"
       },
       {
         "fr": "Il a fini le formulaire en dix minutes.",
         "en": "He finished the form in ten minutes.",
         "hi": "उसने दस मिनट में फ़ॉर्म पूरा कर दिया।",
-        "pron": "ई-ला फ़ी-नी लö फ़ॉग़-मü-लैग़ आँ दी मी-नüत"
+        "pron": "ई-ला फ़ी-नी ल फ़ॉर-म्यू-लेर आँ दी मी-न्यूत"
       },
       {
         "fr": "Depuis quand est-ce que tu as mal à la tête ? — Depuis ce matin.",
         "en": "Since when have you had a headache? — Since this morning.",
         "hi": "तुम्हारे सिर में दर्द कब से है? — आज सुबह से।",
-        "pron": "दö-प्üई काँ ऐस-क तü आ माल आ ला तैत — दö-प्üई सö मा-तैँ"
+        "pron": "द-प्यूई काँ एस-क त्यू आ माल आ ला तेत — द-प्यूई स मा-तैं"
       }
     ],
     "pitfalls": [
       {
         "en": "Don't use the passé composé with depuis for something still true: 'J'ai habité ici depuis deux ans' is wrong → 'J'habite ici depuis deux ans'.",
-        "hi": "जो बात अब भी सच है, उसके लिए depuis के साथ पासे कॉम्पोज़े मत लगाइए: 'J'ai habité ici depuis deux ans' ग़लत है → 'J'habite ici depuis deux ans'।"
+        "hi": "जो बात अब भी सच है, उसके लिए depuis के साथ passé composé मत लगाइए: 'J'ai habité ici depuis deux ans' ग़लत है → 'J'habite ici depuis deux ans'।"
       },
       {
         "en": "'il y a' goes before the duration, not after: 'il y a deux ans' (not 'deux ans il y a', not 'deux ans avant').",
@@ -267,15 +267,15 @@
   "pronunciation": {
     "focus": "The glide /j/ in hier, travailler, il y a",
     "tip": {
-      "en": "/j/ is the य sound. French writes it in many ways: i before a vowel (hier), -ill- (travailler, famille), y (il y a, payer). Keep it short and light, gliding straight into the next vowel: यैग़, not ही-ऐग़.",
-      "hi": "/j/ हिंदी की य वाली आवाज़ है। फ़्रेंच इसे कई तरह से लिखती है: स्वर से पहले i (hier), -ill- (travailler, famille), y (il y a, payer)। इसे छोटा और हल्का रखिए, सीधे अगले स्वर में फिसलते हुए: यैग़, ही-ऐग़ नहीं।"
+      "en": "/j/ is the य sound. French writes it in many ways: i before a vowel (hier), -ill- (travailler, famille), y (il y a, payer). Keep it short and light, gliding straight into the next vowel: येर, not ही-एर.",
+      "hi": "/j/ हिंदी की य वाली आवाज़ है। फ़्रेंच इसे कई तरह से लिखती है: स्वर से पहले i (hier), -ill- (travailler, famille), y (il y a, payer)। इसे छोटा और हल्का रखिए, सीधे अगले स्वर में फिसलते हुए: येर, ही-एर नहीं।"
     },
     "words": [
       {
         "fr": "hier",
         "en": "yesterday",
         "hi": "बीता कल",
-        "pron": "यैग़",
+        "pron": "येर",
         "ipa": "jɛʁ"
       },
       {
@@ -296,7 +296,7 @@
         "fr": "il y a",
         "en": "there is; ago",
         "hi": "है/हैं; पहले",
-        "pron": "ई-लि-या",
+        "pron": "इल या",
         "ipa": "ilja"
       },
       {
@@ -422,7 +422,8 @@
     "questions": [
       {
         "q": {
-          "en": "How long has Ravi been in Canada?"
+          "en": "How long has Ravi been in Canada?",
+          "hi": "Ravi को Canada में कितना समय हुआ है?"
         },
         "options": [
           "Two months",
@@ -440,7 +441,8 @@
       },
       {
         "q": {
-          "en": "Why did Ravi move to Ottawa?"
+          "en": "Why did Ravi move to Ottawa?",
+          "hi": "Ravi Ottawa क्यों गया?"
         },
         "options": [
           "For his studies",
@@ -453,11 +455,17 @@
           "hi": "वह दो महीने पहले 'pour un travail' (नौकरी के लिए) शिफ़्ट हुआ।"
         },
         "kind": "literal",
-        "evidence": "J'ai déménagé il y a deux mois pour un travail."
+        "evidence": "J'ai déménagé il y a deux mois pour un travail.",
+        "optionsHi": [
+          "अपनी पढ़ाई के लिए",
+          "अपने परिवार के पास जाने के लिए",
+          "नौकरी के लिए"
+        ]
       },
       {
         "q": {
-          "en": "How long did he work at the bank in Bangalore?"
+          "en": "How long did he work at the bank in Bangalore?",
+          "hi": "उसने Bangalore में बैंक में कितने समय तक काम किया?"
         },
         "options": [
           "Seven years",
@@ -474,7 +482,8 @@
       },
       {
         "q": {
-          "en": "How long has he been learning French?"
+          "en": "How long has he been learning French?",
+          "hi": "वह कितने समय से फ़्रेंच सीख रहा है?"
         },
         "options": [
           "For one year",
@@ -487,11 +496,17 @@
           "hi": "'depuis un an seulement' — और उसने भारत में, आने से पहले, शुरुआत की।"
         },
         "kind": "literal",
-        "evidence": "Non, depuis un an seulement."
+        "evidence": "Non, depuis un an seulement.",
+        "optionsHi": [
+          "एक साल से",
+          "जब से वह Canada आया है",
+          "बहुत समय से"
+        ]
       },
       {
         "q": {
-          "en": "Where are Ravi's wife and daughter now?"
+          "en": "Where are Ravi's wife and daughter now?",
+          "hi": "Ravi की पत्नी और बेटी अब कहाँ हैं?"
         },
         "options": [
           "In Ottawa with him",
@@ -504,7 +519,12 @@
           "hi": "वे दिसंबर में आने वाली हैं, यानी अभी कनाडा में नहीं हैं।"
         },
         "kind": "inference",
-        "evidence": "Ma femme et ma fille vont arriver en décembre."
+        "evidence": "Ma femme et ma fille vont arriver en décembre.",
+        "optionsHi": [
+          "Ottawa में उसके साथ",
+          "Toronto में",
+          "अभी Canada में नहीं हैं"
+        ]
       }
     ],
     "dictation": [
@@ -525,42 +545,42 @@
     "type": "conversation",
     "instructions": {
       "en": "Answer each question about your own life. Pay attention to the tense: depuis + present, il y a and pendant + passé composé.",
-      "hi": "हर प्रश्न का जवाब अपनी ज़िंदगी के बारे में दीजिए। काल पर ध्यान दीजिए: depuis + वर्तमान, il y a और pendant + पासे कॉम्पोज़े।"
+      "hi": "हर प्रश्न का जवाब अपनी ज़िंदगी के बारे में दीजिए। काल पर ध्यान दीजिए: depuis + वर्तमान, il y a और pendant + passé composé।"
     },
     "prompts": [
       {
         "fr": "Vous habitez dans votre ville depuis combien de temps ?",
         "en": "How long have you lived in your city?",
         "hi": "आप अपने शहर में कब से रह रहे हैं?",
-        "pron": "वू ज़ा-बीत दाँ वॉत्ग़ वील दö-प्üई कोँ-ब्यैँ द ताँ",
+        "pron": "वू ज़ा-बीत दाँ वॉत्र वील द-प्यूई कों-ब्यैं द ताँ",
         "model": "J'habite à Pune depuis douze ans."
       },
       {
         "fr": "Vous apprenez le français depuis quand ?",
         "en": "Since when have you been learning French?",
         "hi": "आप कब से फ़्रेंच सीख रहे हैं?",
-        "pron": "वू ज़ा-प्रö-ने लö फ़्राँ-सै दö-प्üई काँ",
+        "pron": "वू ज़ा-प्र-ने ल फ़्राँ-से द-प्यूई काँ",
         "model": "J'apprends le français depuis un mois et demi."
       },
       {
         "fr": "Vous avez fini vos études il y a combien de temps ?",
         "en": "How long ago did you finish your studies?",
         "hi": "आपने कितने समय पहले पढ़ाई पूरी की?",
-        "pron": "वू ज़ा-वे फ़ी-नी वो ज़े-तüद ई-लि-या कोँ-ब्यैँ द ताँ",
+        "pron": "वू ज़ा-वे फ़ी-नी वो ज़े-त्यूद ई-लि-या कों-ब्यैं द ताँ",
         "model": "J'ai fini mes études il y a six ans."
       },
       {
         "fr": "Pendant combien de temps avez-vous étudié ?",
         "en": "For how long did you study?",
         "hi": "आपने कितने समय तक पढ़ाई की?",
-        "pron": "पाँ-दाँ कोँ-ब्यैँ द ताँ आ-वे वू ए-तü-द्ये",
+        "pron": "पाँ-दाँ कों-ब्यैं द ताँ आ-वे वू ए-त्यू-द्ये",
         "model": "J'ai étudié la comptabilité pendant trois ans."
       },
       {
         "fr": "Vous avez déjà déménagé ? Il y a combien de temps ?",
         "en": "Have you ever moved house? How long ago?",
         "hi": "क्या आपने कभी घर बदला है? कितने समय पहले?",
-        "pron": "वू ज़ा-वे दे-झ़ा दे-मे-ना-झ़े — ई-लि-या कोँ-ब्यैँ द ताँ",
+        "pron": "वू ज़ा-वे दे-जा दे-मे-ना-जे — ई-लि-या कों-ब्यैं द ताँ",
         "model": "Oui, j'ai déménagé il y a deux ans, de Nagpur à Pune."
       }
     ],
@@ -580,7 +600,8 @@
     "questions": [
       {
         "q": {
-          "en": "Where did Rajiv's love of cooking probably begin?"
+          "en": "Where did Rajiv's love of cooking probably begin?",
+          "hi": "Rajiv का खाना पकाने का शौक़ शायद कहाँ से शुरू हुआ?"
         },
         "options": [
           "At university in Pune",
@@ -594,11 +615,18 @@
           "hi": "बचपन में वह अपनी दादी की रसोई में बहुत समय बिताते थे।"
         },
         "kind": "inference",
-        "evidence": "il a passé beaucoup de temps dans la cuisine de sa grand-mère"
+        "evidence": "il a passé beaucoup de temps dans la cuisine de sa grand-mère",
+        "optionsHi": [
+          "Pune के विश्वविद्यालय में",
+          "अपनी दादी/नानी की रसोई में",
+          "London के एक रेस्तराँ में",
+          "Montréal में"
+        ]
       },
       {
         "q": {
-          "en": "How long did Rajiv work in London?"
+          "en": "How long did Rajiv work in London?",
+          "hi": "Rajiv ने London में कितने समय तक काम किया?"
         },
         "options": [
           "Three years",
@@ -615,7 +643,8 @@
       },
       {
         "q": {
-          "en": "How long did it take him to learn French?"
+          "en": "How long did it take him to learn French?",
+          "hi": "उसे फ़्रेंच सीखने में कितना समय लगा?"
         },
         "options": [
           "One year",
@@ -632,7 +661,8 @@
       },
       {
         "q": {
-          "en": "Is Le Petit Bombay still open today?"
+          "en": "Is Le Petit Bombay still open today?",
+          "hi": "क्या Le Petit Bombay आज भी खुला है?"
         },
         "options": [
           "No, it closed in 2020",
@@ -645,11 +675,17 @@
           "hi": "'son restaurant est toujours ouvert' — यहाँ toujours का मतलब 'अब भी' है।"
         },
         "kind": "literal",
-        "evidence": "son restaurant est toujours ouvert"
+        "evidence": "son restaurant est toujours ouvert",
+        "optionsHi": [
+          "नहीं, वह 2020 में बंद हो गया",
+          "हाँ, वह अब भी खुला है",
+          "पाठ में यह नहीं बताया गया है"
+        ]
       },
       {
         "q": {
-          "en": "What does Rajiv mean by 'my real mother tongue'?"
+          "en": "What does Rajiv mean by 'my real mother tongue'?",
+          "hi": "'my real mother tongue' से Rajiv का क्या मतलब है?"
         },
         "options": [
           "He speaks Hindi at home",
@@ -662,7 +698,12 @@
           "hi": "वह ज़िंदगी भर खाना बनाते आए हैं; उनके लिए खाना बनाना मातृभाषा जितना सहज है।"
         },
         "kind": "inference",
-        "evidence": "La cuisine, c'est ma vraie langue maternelle !"
+        "evidence": "La cuisine, c'est ma vraie langue maternelle !",
+        "optionsHi": [
+          "वह घर पर हिंदी बोलता है",
+          "खाना पकाना ही वह तरीक़ा है जिससे वह सबसे स्वाभाविक रूप से अपने को व्यक्त करता है",
+          "वह रविवार को भाषाएँ पढ़ाता है"
+        ]
       }
     ]
   },
@@ -690,19 +731,19 @@
         "fr": "Je suis né(e) à … en …",
         "en": "I was born in … in …",
         "hi": "मेरा जन्म … में … में हुआ",
-        "pron": "झ़ö स्üई ने आ … आँ"
+        "pron": "ज स्यूई ने आ … आँ"
       },
       {
         "fr": "J'ai étudié … pendant … ans.",
         "en": "I studied … for … years.",
         "hi": "मैंने … साल तक … पढ़ा।",
-        "pron": "झ़े ए-तü-द्ये … पाँ-दाँ … आँ"
+        "pron": "जे ए-त्यू-द्ये … पाँ-दाँ … आँ"
       },
       {
         "fr": "Depuis …, je …",
         "en": "Since …, I have been …",
         "hi": "… से मैं …",
-        "pron": "दö-प्üई … झ़ö"
+        "pron": "द-प्यूई … ज"
       }
     ],
     "model": {
@@ -738,43 +779,43 @@
         "fr": "le 3 janvier",
         "en": "the 3rd of January",
         "hi": "3 जनवरी",
-        "pron": "लö त्रवा झ़ाँ-व्ये"
+        "pron": "ल त्रवा जाँ-व्ये"
       },
       {
         "fr": "Je travaille comme infirmière.",
         "en": "I work as a nurse.",
         "hi": "मैं नर्स के तौर पर काम करती हूँ।",
-        "pron": "झ़ö त्रा-वाय कॉम ऐँ-फ़ीग़-म्यैग़"
+        "pron": "ज त्रा-वाय कॉम ऐं-फ़ीर-म्येर"
       },
       {
         "fr": "J'ai mal au dos depuis hier.",
         "en": "My back has been hurting since yesterday.",
         "hi": "मेरी पीठ में कल से दर्द है।",
-        "pron": "झ़े मा-लो दो दö-प्üई यैग़"
+        "pron": "जे मा-लो दो द-प्यूई येर"
       },
       {
         "fr": "Je suis parti(e) de Delhi.",
         "en": "I left Delhi.",
         "hi": "मैं दिल्ली से निकला/निकली।",
-        "pron": "झ़ö स्üई पाग़-ती दö दे-ली"
+        "pron": "ज स्यूई पार-ती द दे-ली"
       },
       {
         "fr": "Nous sommes restés une semaine.",
         "en": "We stayed a week.",
         "hi": "हम एक हफ़्ता रुके।",
-        "pron": "नू सॉम ग़ैस-ते üन स्मैन"
+        "pron": "नू सॉम रेस-ते यून स्मेन"
       },
       {
         "fr": "J'ai eu mon permis.",
         "en": "I got my licence.",
         "hi": "मुझे लाइसेंस मिल गया।",
-        "pron": "झ़े ü मोँ पैग़-मी"
+        "pron": "जे यू मों पेर-मी"
       },
       {
         "fr": "J'ai pris des cours en ligne.",
         "en": "I took online classes.",
         "hi": "मैंने ऑनलाइन कक्षाएँ लीं।",
-        "pron": "झ़े प्री दे कूग़ आँ लीन्य"
+        "pron": "जे प्री दे कूर आँ लीन्य"
       }
     ]
   },
@@ -825,7 +866,7 @@
       "answer": 1,
       "explanation": {
         "en": "pendant + passé composé describes a finished period.",
-        "hi": "pendant + पासे कॉम्पोज़े एक ख़त्म हो चुकी अवधि बताता है।"
+        "hi": "pendant + passé composé एक ख़त्म हो चुकी अवधि बताता है।"
       }
     },
     {

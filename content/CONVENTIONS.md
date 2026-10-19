@@ -21,6 +21,8 @@ France and India).
   common Hindi word with the English term in brackets once, e.g. "लिंग (gender)",
   "क्रिया (verb)", "सर्वनाम (pronoun)", "उपपद / आर्टिकल (article)".
   Never leave instructional text in English inside a `hi` field.
+  Follow the [Hindi style guide](../docs/HINDI_STYLE_GUIDE.md): आप register, one glossary
+  term per concept, the nukta rule, and the release QA checklist.
 - **Hindi meaning (`hi`) and approximate pronunciation (`pron`) are different things.**
   `hi` = what it means in Hindi. `pron` = how the French roughly sounds, written in
   Devanagari. Never put a transliteration in `hi`.
@@ -34,34 +36,44 @@ helps; separate rhythm groups with spaces.
 | French sound | IPA | Write | Note |
 |---|---|---|---|
 | é, -er, -ez | e | ए | tense "e" |
-| è, ê, -ais, -et | ɛ | ऐ | open "e" like Hindi ऐ (ऐसा) |
+| è, ê, -ais, -et | ɛ | ए / े | open "e"; written like é (merci = मेर-सी). Only the nasal ɛ̃ uses ऐं |
 | a | a | आ / ा | short, open |
 | o (closed) | o | ओ | |
 | o (open) | ɔ | ऑ | as in "ऑफ़िस" |
 | ou | u | ऊ / उ | |
-| **u** (tu, rue) | y | **ü** | no Hindi letter: say ई with lips rounded as for ऊ |
-| eu (deux), e muet (le) | ø, ə | **ö** | no Hindi letter: say ए with rounded lips |
-| eu (heure, peur) | œ | **ö** | more open; the lab teaches the ø/œ difference |
-| on / om | ɔ̃ | ओँ | nasal; do **not** pronounce an "n/m" |
-| an / en / am / em | ɑ̃ | आँ | nasal |
-| in / ain / ein / un | ɛ̃ | ऐँ | nasal |
-| r | ʁ | **ग़** | throaty, close to Urdu/Hindi ग़ (as in "ग़लत"), never a rolled र |
-| j, g+e/i | ʒ | झ़ | as in "टेलीविझ़न" |
+| **u** (tu, rue) | y | **यू** (after a consonant **्यू**) | tu = त्यू, salut = सा-ल्यू, une = यून. Not English "you": say ई with lips rounded as for ऊ, one pure sound, no य glide |
+| eu (deux), e muet (le) | ø, ə | **inherent vowel** (bare consonant), **अ** when alone | le = ल, de = द, je = ज, deux = द. A bare consonant means a short, relaxed vowel said with rounded lips |
+| eu (heure, peur) | œ | **inherent vowel**, **अ** when alone | sœur = सर, heure = अर. Round the lips more for eu; the lab teaches the ø/œ difference |
+| on / om | ɔ̃ | ओं / ों | nasal; do **not** pronounce an "n/m" (bon = बों) |
+| an / en / am / em | ɑ̃ | आँ / ाँ | nasal |
+| in / ain / ein / un | ɛ̃ | ऐं / ैं | nasal (vin = वैं) |
+| r | ʁ | **र** | in our guides र is the French r: soft, at the back of the throat, tongue tip down behind the lower teeth (mouth position close to the ग़ in "ग़लत"). Never the rolled Hindi र, never a hard ग |
+| j, g+e/i | ʒ | **ज** | the soft French j: a continuous buzz as in the middle of "measure" / टेलीविज़न, not the Hindi ज with a stop (bonjour = बों-जूर) |
 | ch | ʃ | श | |
 | gn | ɲ | न्य | |
 | ill / y / i+vowel | j | य | |
 | oi | wa | वा | moi = मवा |
-| ui | ɥi | üइ | huit = üईत |
+| ui | ɥi | यूइ / ्यूइ | huit = यूइत, la nuit = ला न्यूई |
 | p, t, k | p t k | प त क | unaspirated, dental त (never ट) |
 | d | d | द | dental (never ड) |
 | s / ss / ç | s | स | |
-| s between vowels, z | z | ज़ | |
-| f / v | f v | फ़ / व | |
+| s between vowels, z | z | ज़ | keep the nukta (ज़ = z, ज = French j) |
+| f / v | f v | फ़ / व | keep the nukta on फ़ |
 | silent letters | — | omit | e.g. "petit" = प्ती (final t silent) |
 
-Examples: `bonjour` → `बोँ-झ़ूग़`, `merci` → `मैग़-सी`, `Je m'appelle Priya` →
-`झ़ö मा-पैल प्रिया`, `vous avez` → `वू ज़ा-वे` (liaison), `deux euros` → `दö ज़ö-ग़ो`,
-`tu` → `तü`, `un vin blanc` → `ऐँ वैँ ब्लाँ`.
+Nasals: chandrabindu (ँ) is written as anusvara (ं) on any letter that already has a
+mark above the line (ों, ैं, ओं, ऐं); आँ / ाँ and ऊँ keep the chandrabindu. A nasal never
+has an n/m sound at the end.
+
+Examples: `bonjour` → `बों-जूर`, `merci` → `मेर-सी`, `Je m'appelle Priya` →
+`ज मा-पेल प्रिया`, `vous avez` → `वू ज़ा-वे` (liaison), `deux euros` → `द ज़-रो`,
+`tu` → `त्यू`, `salut` → `सा-ल्यू`, `une heure` → `यून अर`, `ma sœur` → `मा सर`,
+`un vin blanc` → `ऐं वैं ब्लाँ`.
+
+Explanatory texts (tips, notes, explanations) must use the same letters when they quote a
+pronunciation, and say what a guide letter means when they teach a sound (e.g. "यू in our
+guides is not English 'you'"; "र here is the French r"). Ordinary Hindi words keep their
+nukta (ग़लत, काग़ज़).
 
 Pronunciation scaffolding is provided for: all vocabulary, phrases, grammar examples,
 pronunciation words, speaking prompts and review items. Dialogue lines and reading

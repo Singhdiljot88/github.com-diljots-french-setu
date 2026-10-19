@@ -13,23 +13,23 @@
   "light": false,
   "checkpoint": true,
   "vocabulary": [
-    { "fr": "les nouveaux arrivants", "en": "newcomers (new immigrants)", "hi": "नए आए लोग (नए प्रवासी)", "pron": "ले नू-वो ज़ा-ग़ी-वाँ", "ipa": "le nuvo zaʁivɑ̃", "pos": "noun", "gender": "m", "lemma": "arrivant", "note": { "en": "One woman: une nouvelle arrivante. A very common phrase in Canadian services.", "hi": "एक महिला के लिए: une nouvelle arrivante। कनाडा की सेवाओं में बहुत आम वाक्यांश।" } },
-    { "fr": "l'accueil", "en": "welcome; reception desk", "hi": "स्वागत; रिसेप्शन", "pron": "ला-कöय", "ipa": "lakœj", "pos": "noun", "gender": "m", "lemma": "accueil", "note": { "en": "Spelling trap: ueil is said like öय.", "hi": "वर्तनी का जाल: ueil को 'öय' बोलते हैं।" } },
-    { "fr": "l'aide", "en": "help", "hi": "मदद", "pron": "लैद", "ipa": "lɛd", "pos": "noun", "gender": "f", "lemma": "aide" },
-    { "fr": "le quartier", "en": "neighbourhood", "hi": "मोहल्ला / इलाक़ा", "pron": "लö काग़-त्ये", "ipa": "lə kaʁtje", "pos": "noun", "gender": "m", "lemma": "quartier" },
-    { "fr": "l'atelier", "en": "workshop", "hi": "वर्कशॉप / कार्यशाला", "pron": "ला-तö-ल्ये", "ipa": "latəlje", "pos": "noun", "gender": "m", "lemma": "atelier" },
-    { "fr": "le formulaire", "en": "form (to fill in)", "hi": "फ़ॉर्म", "pron": "लö फ़ॉग़-मü-लैग़", "ipa": "lə fɔʁmylɛʁ", "pos": "noun", "gender": "m", "lemma": "formulaire" },
+    { "fr": "les nouveaux arrivants", "en": "newcomers (new immigrants)", "hi": "नए आए लोग (नए प्रवासी)", "pron": "ले नू-वो ज़ा-री-वाँ", "ipa": "le nuvo zaʁivɑ̃", "pos": "noun", "gender": "m", "lemma": "arrivant", "note": { "en": "One woman: une nouvelle arrivante. A very common phrase in Canadian services.", "hi": "एक महिला के लिए: une nouvelle arrivante। कनाडा की सेवाओं में बहुत आम वाक्यांश।" } },
+    { "fr": "l'accueil", "en": "welcome; reception desk", "hi": "स्वागत; रिसेप्शन", "pron": "ला-कय", "ipa": "lakœj", "pos": "noun", "gender": "m", "lemma": "accueil", "note": { "en": "Spelling trap: ueil is said like अय.", "hi": "वर्तनी की चेतावनी: ueil को 'अय' बोलते हैं।" } },
+    { "fr": "l'aide", "en": "help", "hi": "मदद", "pron": "लेद", "ipa": "lɛd", "pos": "noun", "gender": "f", "lemma": "aide" },
+    { "fr": "le quartier", "en": "neighbourhood", "hi": "मोहल्ला / इलाक़ा", "pron": "ल कार-त्ये", "ipa": "lə kaʁtje", "pos": "noun", "gender": "m", "lemma": "quartier" },
+    { "fr": "l'atelier", "en": "workshop", "hi": "वर्कशॉप / कार्यशाला", "pron": "ला-त-ल्ये", "ipa": "latəlje", "pos": "noun", "gender": "m", "lemma": "atelier" },
+    { "fr": "le formulaire", "en": "form (to fill in)", "hi": "फ़ॉर्म", "pron": "ल फ़ॉर-म्यू-लेर", "ipa": "lə fɔʁmylɛʁ", "pos": "noun", "gender": "m", "lemma": "formulaire" },
     { "fr": "l'emploi", "en": "job, employment", "hi": "नौकरी / रोज़गार", "pron": "लाँ-प्ल्वा", "ipa": "lɑ̃plwa", "pos": "noun", "gender": "m", "lemma": "emploi", "note": { "en": "Masculine in French; नौकरी is feminine in Hindi.", "hi": "फ़्रेंच में पुल्लिंग; हिंदी में 'नौकरी' स्त्रीलिंग है।" } },
-    { "fr": "le logement", "en": "housing, accommodation", "hi": "रहने की जगह / मकान", "pron": "लö लॉझ़-माँ", "ipa": "lə lɔʒmɑ̃", "pos": "noun", "gender": "m", "lemma": "logement" },
-    { "fr": "le / la bénévole", "en": "volunteer", "hi": "स्वयंसेवक / स्वयंसेविका", "pron": "लö / ला बे-ने-वॉल", "ipa": "lə / la benevɔl", "pos": "noun", "gender": "mf", "lemma": "bénévole" },
-    { "fr": "la rencontre", "en": "meeting, get-together", "hi": "मुलाक़ात / मिलन", "pron": "ला ग़ाँ-कोँत्ग़", "ipa": "la ʁɑ̃kɔ̃tʁ", "pos": "noun", "gender": "f", "lemma": "rencontre" }
+    { "fr": "le logement", "en": "housing, accommodation", "hi": "रहने की जगह / मकान", "pron": "ल लॉज-माँ", "ipa": "lə lɔʒmɑ̃", "pos": "noun", "gender": "m", "lemma": "logement" },
+    { "fr": "le / la bénévole", "en": "volunteer", "hi": "स्वयंसेवक / स्वयंसेविका", "pron": "ल / ला बे-ने-वॉल", "ipa": "lə / la benevɔl", "pos": "noun", "gender": "mf", "lemma": "bénévole" },
+    { "fr": "la rencontre", "en": "meeting, get-together", "hi": "मुलाक़ात / मिलन", "pron": "ला राँ-कोंत्र", "ipa": "la ʁɑ̃kɔ̃tʁ", "pos": "noun", "gender": "f", "lemma": "rencontre" }
   ],
   "phrases": [
-    { "fr": "Je suis nouveau ici. / Je suis nouvelle ici.", "en": "I'm new here. (m / f)", "hi": "मैं यहाँ नया / नई हूँ।", "pron": "झ़ö सüई नू-वो ई-सी / झ़ö सüई नू-वैल ई-सी", "ipa": "ʒə sɥi nuvo isi / ʒə sɥi nuvɛl isi" },
-    { "fr": "Je cherche un emploi.", "en": "I'm looking for a job.", "hi": "मैं नौकरी ढूँढ रहा/रही हूँ।", "pron": "झ़ö शैग़्श ऐँ नाँ-प्ल्वा", "ipa": "ʒə ʃɛʁʃ ɛ̃ nɑ̃plwa" },
-    { "fr": "Est-ce que c'est gratuit ?", "en": "Is it free?", "hi": "क्या यह मुफ़्त है?", "pron": "ऐस-कö सै ग्ग़ा-तüई", "ipa": "ɛskə sɛ ɡʁatɥi" },
-    { "fr": "Je voudrais m'inscrire, s'il vous plaît.", "en": "I'd like to sign up, please.", "hi": "मैं नाम लिखवाना चाहता/चाहती हूँ, कृपया।", "pron": "झ़ö वू-द्ग़ै मैँस-क्ग़ीग़ सील वू प्लै", "ipa": "ʒə vudʁɛ mɛ̃skʁiʁ sil vu plɛ" },
-    { "fr": "Vous pouvez répéter, s'il vous plaît ?", "en": "Could you repeat, please?", "hi": "क्या आप दोहरा सकते हैं, कृपया?", "pron": "वू पू-वे ग़े-पे-ते सील वू प्लै", "ipa": "vu puve ʁepete sil vu plɛ" },
+    { "fr": "Je suis nouveau ici. / Je suis nouvelle ici.", "en": "I'm new here. (m / f)", "hi": "मैं यहाँ नया / नई हूँ।", "pron": "ज स्यूई नू-वो ई-सी / ज स्यूई नू-वेल ई-सी", "ipa": "ʒə sɥi nuvo isi / ʒə sɥi nuvɛl isi" },
+    { "fr": "Je cherche un emploi.", "en": "I'm looking for a job.", "hi": "मैं नौकरी ढूँढ रहा/रही हूँ।", "pron": "ज शेर्श ऐं नाँ-प्ल्वा", "ipa": "ʒə ʃɛʁʃ ɛ̃ nɑ̃plwa" },
+    { "fr": "Est-ce que c'est gratuit ?", "en": "Is it free?", "hi": "क्या यह मुफ़्त है?", "pron": "एस-क से ग्रा-त्यूई", "ipa": "ɛskə sɛ ɡʁatɥi" },
+    { "fr": "Je voudrais m'inscrire, s'il vous plaît.", "en": "I'd like to sign up, please.", "hi": "मैं नाम लिखवाना चाहता/चाहती हूँ, कृपया।", "pron": "ज वू-द्रे मैंस-क्रीर सील वू प्ले", "ipa": "ʒə vudʁɛ mɛ̃skʁiʁ sil vu plɛ" },
+    { "fr": "Vous pouvez répéter, s'il vous plaît ?", "en": "Could you repeat, please?", "hi": "क्या आप दोहरा सकते हैं, कृपया?", "pron": "वू पू-वे रे-पे-ते सील वू प्ले", "ipa": "vu puve ʁepete sil vu plɛ" },
     { "fr": "Bonne chance !", "en": "Good luck!", "hi": "शुभकामनाएँ!", "pron": "बॉन शाँस", "ipa": "bɔn ʃɑ̃s" }
   ],
   "grammar": {
@@ -43,11 +43,11 @@
       "hi": "पहले चरण में अंग्रेज़ी और हिंदी बोलने वालों के पाँच जाल: उम्र में avoir लगता है, être नहीं (मैं 30 साल का हूँ ≠ je suis); हर संज्ञा का लिंग होता है जो अक्सर हिंदी से अलग है (किताब स्त्री. / le livre पु.); aimer के साथ उपपद लगता है (J'aime le thé, 'J'aime thé' नहीं); नकार क्रिया को घेरता है (ne … pas, 'नहीं' जैसा एक शब्द नहीं); और vous ≈ आप, पर 'तू' जैसा स्तर नहीं है, इसलिए अजनबियों से vous ही बोलिए।"
     },
     "examples": [
-      { "fr": "Je suis indienne et j'ai vingt-neuf ans.", "en": "I'm Indian and I'm twenty-nine.", "hi": "मैं भारतीय हूँ और उनतीस साल की हूँ।", "pron": "झ़ö सüई ज़ैँ-द्यैन ए झ़े वैँत-नö वाँ" },
-      { "fr": "Nous habitons à Sherbrooke, dans un petit appartement.", "en": "We live in Sherbrooke, in a small flat.", "hi": "हम शेरब्रुक में, एक छोटे फ़्लैट में रहते हैं।", "pron": "नू ज़ा-बी-तोँ ज़ा शैग़-ब्ग़ुक दाँ ज़ैँ पö-ती ता-पाग़्त-माँ" },
-      { "fr": "Je n'ai pas de voiture, mais je vais au travail en bus.", "en": "I don't have a car, but I go to work by bus.", "hi": "मेरे पास कार नहीं है, पर मैं बस से काम पर जाता/जाती हूँ।", "pron": "झ़ö ने पा दö व्वा-तüग़ मै झ़ö वै ज़ो त्ग़ा-वाय आँ बüस" },
-      { "fr": "Est-ce que le cours est le lundi à dix-huit heures trente ?", "en": "Is the class on Mondays at 18:30?", "hi": "क्या क्लास हर सोमवार शाम 6:30 बजे है?", "pron": "ऐस-कö लö कूग़ ऐ लö लैँ-दी आ दी-ज़üइ तöग़ त्ग़ाँत" },
-      { "fr": "Je voudrais un formulaire, s'il vous plaît.", "en": "I'd like a form, please.", "hi": "मुझे एक फ़ॉर्म चाहिए, कृपया।", "pron": "झ़ö वू-द्ग़ै ऐँ फ़ॉग़-मü-लैग़ सील वू प्लै" }
+      { "fr": "Je suis indienne et j'ai vingt-neuf ans.", "en": "I'm Indian and I'm twenty-nine.", "hi": "मैं भारतीय हूँ और उनतीस साल की हूँ।", "pron": "ज स्यूई ज़ैं-द्येन ए जे वैंत-न वाँ" },
+      { "fr": "Nous habitons à Sherbrooke, dans un petit appartement.", "en": "We live in Sherbrooke, in a small flat.", "hi": "हम शेरब्रुक में, एक छोटे फ़्लैट में रहते हैं।", "pron": "नू ज़ा-बी-तों ज़ा शेर-ब्रुक दाँ ज़ैं प-ती ता-पार्त-माँ" },
+      { "fr": "Je n'ai pas de voiture, mais je vais au travail en bus.", "en": "I don't have a car, but I go to work by bus.", "hi": "मेरे पास कार नहीं है, पर मैं बस से काम पर जाता/जाती हूँ।", "pron": "ज ने पा द व्वा-त्यूर मे ज वे ज़ो त्रा-वाय आँ ब्यूस" },
+      { "fr": "Est-ce que le cours est le lundi à dix-huit heures trente ?", "en": "Is the class on Mondays at 18:30?", "hi": "क्या क्लास हर सोमवार शाम 6:30 बजे है?", "pron": "एस-क ल कूर ए ल लैं-दी आ दी-ज़्यूइ तर त्राँत" },
+      { "fr": "Je voudrais un formulaire, s'il vous plaît.", "en": "I'd like a form, please.", "hi": "मुझे एक फ़ॉर्म चाहिए, कृपया।", "pron": "ज वू-द्रे ऐं फ़ॉर-म्यू-लेर सील वू प्ले" }
     ],
     "pitfalls": [
       { "en": "'Je suis 30 ans' → 'J'ai trente ans'.", "hi": "'Je suis 30 ans' → 'J'ai trente ans'।" },
@@ -57,18 +57,18 @@
     ]
   },
   "pronunciation": {
-    "focus": "Phase 1 sound review: ü/ou, nasals, r, silent endings, liaison",
+    "focus": "Phase 1 sound review: u/ou, nasals, r, silent endings, liaison",
     "tip": {
-      "en": "Five habits to check: 1) tu (ü) ≠ tout (ऊ). 2) Three nasals with no n at the end: bon (ओँ), banc (आँ), bain (ऐँ). 3) A soft throaty r (ग़): rue, Paris. 4) Silent endings: ils parlent = ईल पाग़्ल. 5) Liaison: vous êtes (वू ज़ैत), deux heures (दö ज़öग़).",
-      "hi": "पाँच आदतें जाँचिए: 1) tu (ü) ≠ tout (ऊ)। 2) तीन नासिक्य, अंत में न नहीं: bon (ओँ), banc (आँ), bain (ऐँ)। 3) गले से नरम r (ग़): rue, Paris। 4) चुप अंत: ils parlent = ईल पाग़्ल। 5) जोड़: vous êtes (वू ज़ैत), deux heures (दö ज़öग़)।"
+      "en": "Five habits to check: 1) tu (यू) ≠ tout (ऊ). 2) Three nasals with no n at the end: bon (ओं), banc (आँ), bain (ऐं). 3) A soft throaty r (र in our guides, never rolled): rue, Paris. 4) Silent endings: ils parlent = ईल पार्ल. 5) Liaison: vous êtes (वू ज़ेत), deux heures (द ज़र).",
+      "hi": "पाँच आदतें जाँचिए: 1) tu (यू) ≠ tout (ऊ)। 2) तीन नासिक्य, अंत में न नहीं: bon (ओं), banc (आँ), bain (ऐं)। 3) गले से नरम r (गाइड का र, रोल किया हुआ नहीं): rue, Paris। 4) चुप अंत: ils parlent = ईल पार्ल। 5) जोड़: vous êtes (वू ज़ेत), deux heures (द ज़र)।"
     },
     "words": [
-      { "fr": "tu / tout", "en": "you / all", "hi": "तुम / सब", "pron": "तü / तू", "ipa": "ty / tu" },
-      { "fr": "bon / banc / bain", "en": "good / bench / bath", "hi": "अच्छा / बेंच / स्नान", "pron": "बोँ / बाँ / बैँ", "ipa": "bɔ̃ / bɑ̃ / bɛ̃" },
-      { "fr": "la rue", "en": "the street", "hi": "सड़क", "pron": "ला ग़ü", "ipa": "la ʁy" },
-      { "fr": "ils parlent", "en": "they speak", "hi": "वे बोलते हैं", "pron": "ईल पाग़्ल", "ipa": "il paʁl" },
-      { "fr": "vous êtes", "en": "you are", "hi": "आप हैं", "pron": "वू ज़ैत", "ipa": "vu zɛt" },
-      { "fr": "deux heures", "en": "two o'clock", "hi": "दो बजे", "pron": "दö ज़öग़", "ipa": "dø zœʁ" }
+      { "fr": "tu / tout", "en": "you / all", "hi": "तुम / सब", "pron": "त्यू / तू", "ipa": "ty / tu" },
+      { "fr": "bon / banc / bain", "en": "good / bench / bath", "hi": "अच्छा / बेंच / स्नान", "pron": "बों / बाँ / बैं", "ipa": "bɔ̃ / bɑ̃ / bɛ̃" },
+      { "fr": "la rue", "en": "the street", "hi": "सड़क", "pron": "ला र्यू", "ipa": "la ʁy" },
+      { "fr": "ils parlent", "en": "they speak", "hi": "वे बोलते हैं", "pron": "इल पार्ल", "ipa": "il paʁl" },
+      { "fr": "vous êtes", "en": "you are", "hi": "आप हैं", "pron": "वू ज़ेत", "ipa": "vu zɛt" },
+      { "fr": "deux heures", "en": "two o'clock", "hi": "दो बजे", "pron": "द ज़र", "ipa": "dø zœʁ" }
     ]
   },
   "listening": {
@@ -87,11 +87,11 @@
       { "speaker": "Deepak", "voice": "m1", "fr": "Parfait ! Je ne travaille pas le mardi. Je voudrais m'inscrire, s'il vous plaît.", "en": "Perfect! I don't work on Tuesdays. I'd like to sign up, please.", "hi": "बढ़िया! मैं मंगलवार को काम नहीं करता। मैं नाम लिखवाना चाहता हूँ, कृपया।" }
     ],
     "questions": [
-      { "q": { "en": "How old is Deepak?" }, "options": ["22", "32", "42"], "answer": 1, "explanation": { "en": "'j'ai trente-deux ans' = 32.", "hi": "'j'ai trente-deux ans' = 32।" }, "kind": "literal", "evidence": "Je suis indien et j'ai trente-deux ans." },
-      { "q": { "en": "Who does Deepak live with?" }, "options": ["His parents", "His wife and his daughter", "Alone"], "answer": 1, "explanation": { "en": "'avec ma femme et ma fille'.", "hi": "'avec ma femme et ma fille' — पत्नी और बेटी के साथ।" }, "kind": "literal", "evidence": "J'habite à Sherbrooke avec ma femme et ma fille." },
-      { "q": { "en": "Which languages does Deepak speak well?" }, "options": ["Hindi, English and Telugu", "French and English", "Only Hindi"], "answer": 0, "explanation": { "en": "'Je parle hindi, anglais et télougou.' His French is 'un peu'.", "hi": "'Je parle hindi, anglais et télougou.' उसकी फ़्रेंच 'un peu' (थोड़ी) है।" }, "kind": "literal", "evidence": "Je parle hindi, anglais et télougou." },
-      { "q": { "en": "When is the job workshop?" }, "options": ["Monday evening", "Tuesday at 10", "Thursday at 10"], "answer": 1, "explanation": { "en": "'un atelier emploi le mardi à dix heures'.", "hi": "'un atelier emploi le mardi à dix heures' — मंगलवार, दस बजे।" }, "kind": "literal", "evidence": "Il y a un atelier emploi le mardi à dix heures" },
-      { "q": { "en": "Why can Deepak go to the job workshop?" }, "options": ["Because it's free and he doesn't work on Tuesdays", "Because his daughter is five", "Because he speaks French well"], "answer": 0, "explanation": { "en": "'C'est gratuit' and 'Je ne travaille pas le mardi.'", "hi": "'C'est gratuit' और 'Je ne travaille pas le mardi.' — मुफ़्त है और मंगलवार को उसका काम नहीं।" }, "kind": "inference", "evidence": "Je ne travaille pas le mardi." }
+      { "q": { "en": "How old is Deepak?", "hi": "Deepak की उम्र कितनी है?" }, "options": ["22", "32", "42"], "answer": 1, "explanation": { "en": "'j'ai trente-deux ans' = 32.", "hi": "'j'ai trente-deux ans' = 32।" }, "kind": "literal", "evidence": "Je suis indien et j'ai trente-deux ans." },
+      { "q": { "en": "Who does Deepak live with?", "hi": "Deepak किसके साथ रहता है?" }, "options": ["His parents", "His wife and his daughter", "Alone"], "optionsHi": ["अपने माता-पिता के साथ", "अपनी पत्नी और बेटी के साथ", "अकेले"], "answer": 1, "explanation": { "en": "'avec ma femme et ma fille'.", "hi": "'avec ma femme et ma fille' — पत्नी और बेटी के साथ।" }, "kind": "literal", "evidence": "J'habite à Sherbrooke avec ma femme et ma fille." },
+      { "q": { "en": "Which languages does Deepak speak well?", "hi": "Deepak कौन-सी भाषाएँ अच्छी तरह बोलता है?" }, "options": ["Hindi, English and Telugu", "French and English", "Only Hindi"], "optionsHi": ["हिंदी, अंग्रेज़ी और तेलुगु", "फ़्रेंच और अंग्रेज़ी", "केवल हिंदी"], "answer": 0, "explanation": { "en": "'Je parle hindi, anglais et télougou.' His French is 'un peu'.", "hi": "'Je parle hindi, anglais et télougou.' उसकी फ़्रेंच 'un peu' (थोड़ी) है।" }, "kind": "literal", "evidence": "Je parle hindi, anglais et télougou." },
+      { "q": { "en": "When is the job workshop?", "hi": "जॉब वर्कशॉप कब है?" }, "options": ["Monday evening", "Tuesday at 10", "Thursday at 10"], "optionsHi": ["सोमवार की शाम", "मंगलवार को 10 बजे", "गुरुवार को 10 बजे"], "answer": 1, "explanation": { "en": "'un atelier emploi le mardi à dix heures'.", "hi": "'un atelier emploi le mardi à dix heures' — मंगलवार, दस बजे।" }, "kind": "literal", "evidence": "Il y a un atelier emploi le mardi à dix heures" },
+      { "q": { "en": "Why can Deepak go to the job workshop?", "hi": "Deepak जॉब वर्कशॉप में क्यों जा सकता है?" }, "options": ["Because it's free and he doesn't work on Tuesdays", "Because his daughter is five", "Because he speaks French well"], "optionsHi": ["क्योंकि यह मुफ़्त है और वह मंगलवार को काम नहीं करता", "क्योंकि उसकी बेटी पाँच साल की है", "क्योंकि वह फ़्रेंच अच्छी तरह बोलता है"], "answer": 0, "explanation": { "en": "'C'est gratuit' and 'Je ne travaille pas le mardi.'", "hi": "'C'est gratuit' और 'Je ne travaille pas le mardi.' — मुफ़्त है और मंगलवार को उसका काम नहीं।" }, "kind": "inference", "evidence": "Je ne travaille pas le mardi." }
     ],
     "dictation": ["Je suis indien et j'ai trente-deux ans.", "Est-ce que vous parlez français ?", "Je ne travaille pas le mardi."],
     "gapFill": { "text": "Il y a un atelier emploi le ___ à dix heures, et des cours de français le lundi et le jeudi soir. C'est ___.", "answers": ["mardi", "gratuit"] }
@@ -103,16 +103,16 @@
       "hi": "भाग 1: लगभग एक मिनट में अपना पूरा परिचय दीजिए (नाम, राष्ट्रीयता, आप कहाँ से हैं, शहर, उम्र, परिवार, भाषाएँ, काम या पढ़ाई, पसंद और नापसंद)। भाग 2: स्वयंसेविका से स्वागत केंद्र के बारे में पाँच प्रश्न पूछिए।"
     },
     "prompts": [
-      { "fr": "Je m'appelle … . Je suis … et j'ai … ans.", "en": "My name is … . I'm … and I'm … years old.", "hi": "मेरा नाम … है। मैं … हूँ और … साल का/की हूँ।", "pron": "झ़ö मा-पैल … झ़ö सüई … ए झ़े … आँ", "model": "Je m'appelle Neha. Je suis indienne et j'ai vingt-sept ans." },
-      { "fr": "Je viens de … . J'habite à … avec …", "en": "I'm from … . I live in … with …", "hi": "मैं … से हूँ। मैं … में … के साथ रहता/रहती हूँ।", "pron": "झ़ö व्यैँ दö … झ़ा-बीत आ … आ-वैक", "model": "Je viens de Jaipur. J'habite à Gatineau avec mon mari." },
-      { "fr": "Je parle … . J'aime … mais je n'aime pas …", "en": "I speak … . I like … but I don't like …", "hi": "मैं … बोलता/बोलती हूँ। मुझे … पसंद है पर … पसंद नहीं।", "pron": "झ़ö पाग़्ल … झ़ैम … मै झ़ö नैम पा", "model": "Je parle hindi et anglais. J'aime la musique mais je n'aime pas le sport." },
-      { "fr": "Est-ce que les cours sont gratuits ?", "en": "Are the classes free?", "hi": "क्या क्लासें मुफ़्त हैं?", "pron": "ऐस-कö ले कूग़ सोँ ग्ग़ा-तüई" },
-      { "fr": "Quand est-ce que l'atelier commence ? Où est la salle ?", "en": "When does the workshop start? Where is the room?", "hi": "वर्कशॉप कब शुरू होती है? कमरा कहाँ है?", "pron": "काँ-तैस-कö ला-तö-ल्ये को-माँस — ऊ ऐ ला साल" },
-      { "fr": "Combien de personnes il y a dans le cours ? Qui est le professeur ?", "en": "How many people are in the class? Who is the teacher?", "hi": "क्लास में कितने लोग हैं? शिक्षक कौन है?", "pron": "कोँ-ब्यैँ दö पैग़-सॉन ई-ल्या दाँ लö कूग़ — की ऐ लö प्ग़ो-फ़ै-सöग़" }
+      { "fr": "Je m'appelle … . Je suis … et j'ai … ans.", "en": "My name is … . I'm … and I'm … years old.", "hi": "मेरा नाम … है। मैं … हूँ और … साल का/की हूँ।", "pron": "ज मा-पेल … ज स्यूई … ए जे … आँ", "model": "Je m'appelle Neha. Je suis indienne et j'ai vingt-sept ans." },
+      { "fr": "Je viens de … . J'habite à … avec …", "en": "I'm from … . I live in … with …", "hi": "मैं … से हूँ। मैं … में … के साथ रहता/रहती हूँ।", "pron": "ज व्यैं द … जा-बीत आ … आ-वेक", "model": "Je viens de Jaipur. J'habite à Gatineau avec mon mari." },
+      { "fr": "Je parle … . J'aime … mais je n'aime pas …", "en": "I speak … . I like … but I don't like …", "hi": "मैं … बोलता/बोलती हूँ। मुझे … पसंद है पर … पसंद नहीं।", "pron": "ज पार्ल … जेम … मे ज नेम पा", "model": "Je parle hindi et anglais. J'aime la musique mais je n'aime pas le sport." },
+      { "fr": "Est-ce que les cours sont gratuits ?", "en": "Are the classes free?", "hi": "क्या क्लासें मुफ़्त हैं?", "pron": "एस-क ले कूर सों ग्रा-त्यूई" },
+      { "fr": "Quand est-ce que l'atelier commence ? Où est la salle ?", "en": "When does the workshop start? Where is the room?", "hi": "वर्कशॉप कब शुरू होती है? कमरा कहाँ है?", "pron": "काँ-तेस-क ला-त-ल्ये को-माँस — ऊ ए ला साल" },
+      { "fr": "Combien de personnes il y a dans le cours ? Qui est le professeur ?", "en": "How many people are in the class? Who is the teacher?", "hi": "क्लास में कितने लोग हैं? शिक्षक कौन है?", "pron": "कों-ब्यैं द पेर-सॉन ई-ल्या दाँ ल कूर — की ए ल प्रो-फ़े-सर" }
     ],
     "tip": {
       "en": "This is your first TEF-style self-presentation. Speak in short, complete sentences, and keep going even if you make a small mistake. Use vous with the volunteer.",
-      "hi": "यह आपकी पहली TEF जैसी आत्म-प्रस्तुति है। छोटे, पूरे वाक्यों में बोलिए, और छोटी गलती हो जाए तब भी रुकिए मत। स्वयंसेविका से vous बोलिए।"
+      "hi": "यह आपकी पहली TEF जैसी आत्म-प्रस्तुति है। छोटे, पूरे वाक्यों में बोलिए, और छोटी ग़लती हो जाए तब भी रुकिए मत। स्वयंसेविका से vous बोलिए।"
     }
   },
   "reading": {
@@ -124,10 +124,10 @@
       "hi": "नए आए लोगों का स्वागत है!\nशेरब्रुक स्वागत केंद्र\n• नौकरी वाली वर्कशॉप: हर मंगलवार, सुबह 10 से दोपहर 12 बजे तक\n• फ़्रेंच क्लासें: हर सोमवार और गुरुवार, शाम 6:30 से 8:30 तक\n• फ़ॉर्म भरने में मदद: हर बुधवार दोपहर बाद\n• बातचीत कैफ़े: हर शुक्रवार शाम 4 बजे। आइए, स्वयंसेवकों के साथ फ़्रेंच बोलिए!\nसभी सेवाएँ मुफ़्त हैं।\nपता: 85, किंग स्ट्रीट पश्चिम\nसोमवार से शुक्रवार खुला। वीकेंड पर बंद।"
     },
     "questions": [
-      { "q": { "en": "You need help with an immigration form. When do you go?" }, "options": ["Tuesday morning", "Wednesday afternoon", "Saturday"], "answer": 1, "explanation": { "en": "'Aide pour les formulaires : le mercredi après-midi'.", "hi": "'Aide pour les formulaires : le mercredi après-midi' — बुधवार दोपहर बाद।" }, "kind": "inference", "evidence": "Aide pour les formulaires : le mercredi après-midi" },
-      { "q": { "en": "Where can you practise speaking French with volunteers?" }, "options": ["At the job workshop", "At the conversation café on Fridays", "At the reception on Sunday"], "answer": 1, "explanation": { "en": "'Café-rencontre : le vendredi à 16 h. Venez parler français avec des bénévoles !'", "hi": "'Café-rencontre : le vendredi à 16 h. Venez parler français avec des bénévoles !' — शुक्रवार, शाम 4 बजे।" }, "kind": "literal", "evidence": "Venez parler français avec des bénévoles !" },
-      { "q": { "en": "How much do the services cost?" }, "options": ["Nothing", "$10 per class", "It depends on the service"], "answer": 0, "explanation": { "en": "'Tous les services sont gratuits.'", "hi": "'Tous les services sont gratuits.' — सब मुफ़्त।" }, "kind": "literal", "evidence": "Tous les services sont gratuits." },
-      { "q": { "en": "Can you visit the centre on Saturday?" }, "options": ["Yes, in the morning", "Yes, at 4 p.m.", "No, it's closed at the weekend"], "answer": 2, "explanation": { "en": "'Fermé le week-end.'", "hi": "'Fermé le week-end.' — वीकेंड पर बंद।" }, "kind": "literal", "evidence": "Fermé le week-end." }
+      { "q": { "en": "You need help with an immigration form. When do you go?", "hi": "आपको इमिग्रेशन फ़ॉर्म में मदद चाहिए। आप कब जाएँगे?" }, "options": ["Tuesday morning", "Wednesday afternoon", "Saturday"], "optionsHi": ["मंगलवार सुबह", "बुधवार दोपहर", "शनिवार"], "answer": 1, "explanation": { "en": "'Aide pour les formulaires : le mercredi après-midi'.", "hi": "'Aide pour les formulaires : le mercredi après-midi' — बुधवार दोपहर बाद।" }, "kind": "inference", "evidence": "Aide pour les formulaires : le mercredi après-midi" },
+      { "q": { "en": "Where can you practise speaking French with volunteers?", "hi": "स्वयंसेवकों के साथ फ़्रेंच बोलने का अभ्यास कहाँ किया जा सकता है?" }, "options": ["At the job workshop", "At the conversation café on Fridays", "At the reception on Sunday"], "optionsHi": ["जॉब वर्कशॉप में", "शुक्रवार को कन्वर्सेशन कैफ़े में", "रविवार को रिसेप्शन पर"], "answer": 1, "explanation": { "en": "'Café-rencontre : le vendredi à 16 h. Venez parler français avec des bénévoles !'", "hi": "'Café-rencontre : le vendredi à 16 h. Venez parler français avec des bénévoles !' — शुक्रवार, शाम 4 बजे।" }, "kind": "literal", "evidence": "Venez parler français avec des bénévoles !" },
+      { "q": { "en": "How much do the services cost?", "hi": "सेवाओं की फ़ीस कितनी है?" }, "options": ["Nothing", "$10 per class", "It depends on the service"], "optionsHi": ["कुछ नहीं", "प्रति कक्षा $10", "सेवा के अनुसार अलग-अलग"], "answer": 0, "explanation": { "en": "'Tous les services sont gratuits.'", "hi": "'Tous les services sont gratuits.' — सब मुफ़्त।" }, "kind": "literal", "evidence": "Tous les services sont gratuits." },
+      { "q": { "en": "Can you visit the centre on Saturday?", "hi": "क्या शनिवार को केंद्र में जाया जा सकता है?" }, "options": ["Yes, in the morning", "Yes, at 4 p.m.", "No, it's closed at the weekend"], "optionsHi": ["हाँ, सुबह", "हाँ, शाम 4 बजे", "नहीं, सप्ताहांत में बंद रहता है"], "answer": 2, "explanation": { "en": "'Fermé le week-end.'", "hi": "'Fermé le week-end.' — वीकेंड पर बंद।" }, "kind": "literal", "evidence": "Fermé le week-end." }
     ]
   },
   "writing": {
@@ -144,9 +144,9 @@
       { "en": "Write numbers in words (trente-deux).", "hi": "संख्याएँ शब्दों में लिखिए (trente-deux)।" }
     ],
     "usefulPhrases": [
-      { "fr": "Je suis nouveau / nouvelle à …", "en": "I'm new in …", "hi": "मैं … में नया / नई हूँ", "pron": "झ़ö सüई नू-वो / नू-वैल आ" },
-      { "fr": "Je cherche un emploi / un logement.", "en": "I'm looking for a job / housing.", "hi": "मैं नौकरी / रहने की जगह ढूँढ रहा/रही हूँ।", "pron": "झ़ö शैग़्श ऐँ नाँ-प्ल्वा / ऐँ लॉझ़-माँ" },
-      { "fr": "J'aime … mais je n'aime pas …", "en": "I like … but I don't like …", "hi": "मुझे … पसंद है पर … पसंद नहीं", "pron": "झ़ैम … मै झ़ö नैम पा" }
+      { "fr": "Je suis nouveau / nouvelle à …", "en": "I'm new in …", "hi": "मैं … में नया / नई हूँ", "pron": "ज स्यूई नू-वो / नू-वेल आ" },
+      { "fr": "Je cherche un emploi / un logement.", "en": "I'm looking for a job / housing.", "hi": "मैं नौकरी / रहने की जगह ढूँढ रहा/रही हूँ।", "pron": "ज शेर्श ऐं नाँ-प्ल्वा / ऐं लॉज-माँ" },
+      { "fr": "J'aime … mais je n'aime pas …", "en": "I like … but I don't like …", "hi": "मुझे … पसंद है पर … पसंद नहीं", "pron": "जेम … मे ज नेम पा" }
     ],
     "model": { "fr": "Bonjour ! Je m'appelle Deepak Rao. Je suis indien, je viens de Hyderabad et j'ai trente-deux ans. Je suis nouveau à Sherbrooke. J'habite ici avec ma femme et ma fille. Ma fille a cinq ans. Je parle hindi, anglais, télougou et un peu français. Je suis informaticien. J'aime le cricket et la cuisine indienne, mais je n'aime pas l'hiver ! Je cherche un emploi et des amis. À bientôt !", "en": "Hello! My name is Deepak Rao. I'm Indian, I'm from Hyderabad and I'm thirty-two. I'm new in Sherbrooke. I live here with my wife and my daughter. My daughter is five. I speak Hindi, English, Telugu and a little French. I'm an IT specialist. I like cricket and Indian food, but I don't like winter! I'm looking for a job and friends. See you soon!" },
     "checklist": [
@@ -159,16 +159,16 @@
   "review": {
     "fromDays": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
     "items": [
-      { "fr": "Comment ça s'écrit ?", "en": "How is that spelled?", "hi": "इसकी स्पेलिंग क्या है?", "pron": "को-माँ सा से-क्ग़ी" },
-      { "fr": "Vous êtes d'où ?", "en": "Where are you from?", "hi": "आप कहाँ से हैं?", "pron": "वू ज़ैत दू" },
-      { "fr": "Quel âge avez-vous ?", "en": "How old are you?", "hi": "आपकी उम्र क्या है?", "pron": "कै लाझ़ आ-वे वू" },
-      { "fr": "Il y a des chaises et une table.", "en": "There are chairs and a table.", "hi": "कुर्सियाँ और एक मेज़ है।", "pron": "ई-ल्या दे शैज़ ए üन ताब्ल" },
-      { "fr": "Je ne parle pas espagnol.", "en": "I don't speak Spanish.", "hi": "मैं स्पैनिश नहीं बोलता/बोलती।", "pron": "झ़ö नö पाग़्ल पा ज़ैस-पा-न्योल" },
-      { "fr": "Quelle est la date ? — C'est le 3 mars.", "en": "What's the date? — It's 3 March.", "hi": "आज कौन-सी तारीख़ है? — 3 मार्च।", "pron": "कै लै ला दात — सै लö त्ग़्वा माग़्स" },
-      { "fr": "Il est huit heures moins le quart.", "en": "It's a quarter to eight.", "hi": "पौने आठ बजे हैं।", "pron": "ई लै üइ तöग़ म्वैँ लö काग़" },
-      { "fr": "Je vais au marché.", "en": "I'm going to the market.", "hi": "मैं बाज़ार जा रहा/रही हूँ।", "pron": "झ़ö वै ज़ो माग़-शे" },
-      { "fr": "Elle a les cheveux longs.", "en": "She has long hair.", "hi": "उसके बाल लंबे हैं।", "pron": "ऐ ला ले शö-वö लोँ" },
-      { "fr": "Je voudrais l'addition, s'il vous plaît.", "en": "I'd like the bill, please.", "hi": "मुझे बिल चाहिए, कृपया।", "pron": "झ़ö वू-द्ग़ै ला-दी-स्योँ सील वू प्लै" }
+      { "fr": "Comment ça s'écrit ?", "en": "How is that spelled?", "hi": "इसकी स्पेलिंग क्या है?", "pron": "को-माँ सा से-क्री" },
+      { "fr": "Vous êtes d'où ?", "en": "Where are you from?", "hi": "आप कहाँ से हैं?", "pron": "वू ज़ेत दू" },
+      { "fr": "Quel âge avez-vous ?", "en": "How old are you?", "hi": "आपकी उम्र क्या है?", "pron": "के लाज आ-वे वू" },
+      { "fr": "Il y a des chaises et une table.", "en": "There are chairs and a table.", "hi": "कुर्सियाँ और एक मेज़ है।", "pron": "ई-ल्या दे शेज़ ए यून ताब्ल" },
+      { "fr": "Je ne parle pas espagnol.", "en": "I don't speak Spanish.", "hi": "मैं स्पैनिश नहीं बोलता/बोलती।", "pron": "ज न पार्ल पा ज़ेस-पा-न्योल" },
+      { "fr": "Quelle est la date ? — C'est le 3 mars.", "en": "What's the date? — It's 3 March.", "hi": "आज कौन-सी तारीख़ है? — 3 मार्च।", "pron": "के ले ला दात — से ल त्र्वा मार्स" },
+      { "fr": "Il est huit heures moins le quart.", "en": "It's a quarter to eight.", "hi": "पौने आठ बजे हैं।", "pron": "ई ले यूइ तर म्वैं ल कार" },
+      { "fr": "Je vais au marché.", "en": "I'm going to the market.", "hi": "मैं बाज़ार जा रहा/रही हूँ।", "pron": "ज वे ओ मार-शे" },
+      { "fr": "Elle a les cheveux longs.", "en": "She has long hair.", "hi": "उसके बाल लंबे हैं।", "pron": "ए ला ले श-व लों" },
+      { "fr": "Je voudrais l'addition, s'il vous plaît.", "en": "I'd like the bill, please.", "hi": "मुझे बिल चाहिए, कृपया।", "pron": "ज वू-द्रे ला-दी-स्यों सील वू प्ले" }
     ]
   },
   "assessment": [

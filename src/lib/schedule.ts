@@ -5,7 +5,7 @@ export type BlockKey = "review" | "learn" | "listening" | "speaking" | "reading"
 export const BLOCK_ORDER: BlockKey[] = ["review", "learn", "listening", "speaking", "reading", "writing", "assessment"];
 
 export const BLOCK_LABELS: Record<BlockKey, { en: string; hi: string }> = {
-  review: { en: "Spaced review", hi: "दोहराई (स्पेस्ड रिव्यू)" },
+  review: { en: "Spaced review", hi: "दोहराव (स्पेस्ड रिव्यू)" },
   learn: { en: "New vocabulary and grammar", hi: "नए शब्द और व्याकरण" },
   listening: { en: "Listening", hi: "सुनना" },
   speaking: { en: "Speaking and pronunciation", hi: "बोलना और उच्चारण" },
@@ -119,7 +119,7 @@ export function recoveryPlan(s: ScheduleInput, today: string, nextIncompleteDay:
     {
       key: "catch_up",
       en: `Continue with Day ${nextIncompleteDay}. Each day, do that lesson plus a 10-minute review of the key words from the days you missed, until you are back on track.`,
-      hi: `दिन ${nextIncompleteDay} से आगे बढ़िए। हर दिन वह पाठ कीजिए और छूटे हुए दिनों के मुख्य शब्दों की 10 मिनट दोहराई कीजिए, जब तक आप फिर से समय पर न आ जाएँ।`,
+      hi: `दिन ${nextIncompleteDay} से आगे बढ़िए। हर दिन वह पाठ कीजिए और छूटे हुए दिनों के मुख्य शब्दों का 10 मिनट का दोहराव कीजिए, जब तक आप फिर से समय पर न आ जाएँ।`,
     },
     {
       key: "shift",

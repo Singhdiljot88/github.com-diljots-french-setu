@@ -7,9 +7,10 @@ import { Pron } from "@/components/fr-item";
 import { SaveWordButton } from "@/components/save-word";
 import { Bi } from "@/components/bi";
 import { ReportProblem } from "@/components/report-problem";
+import { posBi, registerBi } from "../labels";
 
 export const dynamic = "force-dynamic";
-const GENDER: Record<string, string> = { m: "masculine", f: "feminine", mf: "masculine or feminine" };
+const GENDER: Record<string, { en: string; hi: string }> = { m: { en: "masculine", hi: "पुल्लिंग" }, f: { en: "feminine", hi: "स्त्रीलिंग" }, mf: { en: "masculine or feminine", hi: "पुल्लिंग या स्त्रीलिंग" } };
 const ARTICLE: Record<string, string> = { m: "un", f: "une", mf: "un / une" };
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
@@ -23,22 +24,25 @@ export default async function EntryPage({ params }: { params: Promise<{ id: stri
   if (!hit) notFound();
   const e = hit.entry;
   const table = e.verb ? conjugate(e.lemma, e.verb) : null;
+  const g = e.gender ? GENDER[e.gender] : null;
+  const head = (pos: string, gender: string, register: string) => `${pos}${g ? ` · ${gender} (${ARTICLE[e.gender!]} ${e.lemma})` : ""} · ${e.level}${e.register !== "neutral" ? ` · ${register}` : ""}`;
+  const meta = {
+    en: head(e.pos, g?.en ?? "", e.register) + (e.verb ? ` · group ${e.verb.group} · passé composé with ${e.verb.aux}${e.verb.pronominal ? " · pronominal" : ""}` : ""),
+    hi: head(posBi(e.pos).hi, g?.hi ?? "", registerBi(e.register).hi) + (e.verb ? ` · समूह ${e.verb.group} · passé composé में ${e.verb.aux} के साथ${e.verb.pronominal ? " · आत्मवाचक क्रिया" : ""}` : ""),
+  };
   return (
     <article className="space-y-4">
-      <Link href="/dictionary" className="text-sm underline">← Dictionary</Link>
+      <Link href="/dictionary" className="text-sm underline">← <Bi as="span" t={{ en: "Dictionary", hi: "शब्दकोश" }} /></Link>
       <header className="card space-y-2">
         <div className="flex flex-wrap items-center gap-2">
           <h1 className="text-3xl font-bold" lang="fr">{e.lemma}</h1>
           <Speak text={e.lemma} size="md" />
           <SaveWordButton word={{ fr: e.lemma, en: e.en.join(", "), hi: e.hi.join(", "), gender: e.gender, entryId: id }} source="dictionary" />
         </div>
-        <p className="text-sm text-muted">
-          {e.pos}{e.gender ? ` · ${GENDER[e.gender]} (${ARTICLE[e.gender]} ${e.lemma})` : ""} · {e.level}{e.register !== "neutral" ? ` · ${e.register}` : ""}
-          {e.verb ? ` · group ${e.verb.group} · passé composé with ${e.verb.aux}${e.verb.pronominal ? " · pronominal" : ""}` : ""}
-        </p>
-        {(e.plural || e.feminine) && <p className="text-sm" lang="fr">{e.plural && <>Plural: <strong>{e.plural}</strong> </>}{e.feminine && <>Feminine: <strong>{e.feminine}</strong></>}</p>}
-        <p><span className="text-xs text-muted">English: </span>{e.en.join("; ")}</p>
-        <p><span className="text-xs text-muted">Hindi meaning: </span><span lang="hi" className="deva">{e.hi.join("; ")}</span></p>
+        <Bi className="text-sm text-muted" t={meta} />
+        {(e.plural || e.feminine) && <p className="text-sm" lang="fr">{e.plural && <><Bi as="span" t={{ en: "Plural", hi: "बहुवचन" }} />: <strong>{e.plural}</strong> </>}{e.feminine && <><Bi as="span" t={{ en: "Feminine", hi: "स्त्रीलिंग रूप" }} />: <strong>{e.feminine}</strong></>}</p>}
+        <p><Bi as="span" className="text-xs text-muted" t={{ en: "English", hi: "अंग्रेज़ी" }} />: {e.en.join("; ")}</p>
+        <p><Bi as="span" className="text-xs text-muted" t={{ en: "Hindi meaning", hi: "हिंदी अर्थ" }} />: <span lang="hi" className="deva">{e.hi.join("; ")}</span></p>
         <div className="flex flex-wrap items-center gap-2">
           {e.ipa && <span className="text-sm"><span className="text-xs text-muted">IPA </span><span className="font-mono">{e.ipa}</span></span>}
           <Pron pron={e.pron} />
@@ -46,7 +50,7 @@ export default async function EntryPage({ params }: { params: Promise<{ id: stri
       </header>
 
       <section className="card space-y-2" aria-labelledby="ex-h">
-        <h2 id="ex-h" className="font-semibold">Examples</h2>
+        <h2 id="ex-h" className="font-semibold"><Bi as="span" t={{ en: "Examples", hi: "उदाहरण" }} /></h2>
         <ul className="space-y-3">
           {e.examples.map((x, i) => (
             <li key={i}>
@@ -56,24 +60,26 @@ export default async function EntryPage({ params }: { params: Promise<{ id: stri
             </li>
           ))}
         </ul>
-        {e.collocations.length > 0 && <p className="text-sm"><span className="text-muted">Often used with: </span><span lang="fr">{e.collocations.join(" · ")}</span></p>}
+        {e.collocations.length > 0 && <p className="text-sm"><Bi as="span" className="text-muted" t={{ en: "Often used with", hi: "अक्सर इनके साथ" }} />: <span lang="fr">{e.collocations.join(" · ")}</span></p>}
       </section>
 
       {e.mistakes.length > 0 && (
         <section className="card space-y-2" aria-labelledby="mis-h">
-          <h2 id="mis-h" className="font-semibold">Watch out</h2>
+          <h2 id="mis-h" className="font-semibold"><Bi as="span" t={{ en: "Watch out", hi: "ध्यान दें" }} /></h2>
           <ul className="list-disc space-y-1 pl-5 text-sm">{e.mistakes.map((m, i) => <Bi key={i} as="li" t={m} />)}</ul>
         </section>
       )}
 
       {table && (
         <section className="card space-y-3" aria-labelledby="conj-h">
-          <h2 id="conj-h" className="font-semibold">Conjugation</h2>
-          <p className="text-xs text-muted">Generated by the app&apos;s conjugation engine{e.verb?.irregular ? " from the irregular forms in this entry" : " using the regular pattern"}.</p>
+          <h2 id="conj-h" className="font-semibold"><Bi as="span" t={{ en: "Conjugation", hi: "क्रिया के रूप" }} /></h2>
+          <Bi className="text-xs text-muted" t={e.verb?.irregular
+            ? { en: "Generated by the app's conjugation engine from the irregular forms in this entry.", hi: "ये रूप ऐप के क्रिया-रूप इंजन ने इस प्रविष्टि के अनियमित रूपों से बनाए हैं।" }
+            : { en: "Generated by the app's conjugation engine using the regular pattern.", hi: "ये रूप ऐप के क्रिया-रूप इंजन ने नियमित पैटर्न से बनाए हैं।" }} />
           <div className="grid gap-3 sm:grid-cols-2">
             {(Object.keys(table) as Tense[]).map((t) => (
               <div key={t} className="rounded-lg surface-2 p-3">
-                <h3 className="text-sm font-semibold">{TENSE_LABELS[t].fr} <span className="font-normal text-muted">· {TENSE_LABELS[t].en} · <span lang="hi" className="deva">{TENSE_LABELS[t].hi}</span></span></h3>
+                <h3 className="text-sm font-semibold">{TENSE_LABELS[t].fr} <span className="font-normal text-muted">· <Bi as="span" t={{ en: TENSE_LABELS[t].en, hi: TENSE_LABELS[t].hi }} /></span></h3>
                 <table className="mt-1 w-full text-sm" lang="fr">
                   <tbody>{table[t].map((r, i) => <tr key={i}><td className="w-24 py-0.5 pr-2 text-muted">{r.person}</td><td className="py-0.5">{r.form}</td></tr>)}</tbody>
                 </table>
@@ -84,14 +90,15 @@ export default async function EntryPage({ params }: { params: Promise<{ id: stri
       )}
 
       {(e.related.length > 0 || e.synonyms.length > 0) && (
-        <section className="card text-sm" aria-label="Related words">
-          {e.synonyms.length > 0 && <p><span className="text-muted">Synonyms: </span>{e.synonyms.map((s, i) => <span key={s}>{i > 0 && ", "}<Link className="underline" lang="fr" href={`/dictionary?q=${encodeURIComponent(s)}`}>{s}</Link></span>)}</p>}
-          {e.related.length > 0 && <p><span className="text-muted">Related: </span>{e.related.map((s, i) => <span key={s}>{i > 0 && ", "}<Link className="underline" lang="fr" href={`/dictionary?q=${encodeURIComponent(s)}`}>{s}</Link></span>)}</p>}
+        <section className="card text-sm" aria-labelledby="rel-h">
+          <h2 id="rel-h" className="sr-only"><Bi as="span" t={{ en: "Related words", hi: "संबंधित शब्द" }} /></h2>
+          {e.synonyms.length > 0 && <p><Bi as="span" className="text-muted" t={{ en: "Synonyms", hi: "समानार्थी शब्द" }} />: {e.synonyms.map((s, i) => <span key={s}>{i > 0 && ", "}<Link className="underline" lang="fr" href={`/dictionary?q=${encodeURIComponent(s)}`}>{s}</Link></span>)}</p>}
+          {e.related.length > 0 && <p><Bi as="span" className="text-muted" t={{ en: "Related", hi: "संबंधित" }} />: {e.related.map((s, i) => <span key={s}>{i > 0 && ", "}<Link className="underline" lang="fr" href={`/dictionary?q=${encodeURIComponent(s)}`}>{s}</Link></span>)}</p>}
         </section>
       )}
 
       <footer className="text-xs text-muted space-y-1">
-        <p>Source: {hit.source}. Meanings, Hindi glosses and pronunciation hints have not yet been checked by a human editor.</p>
+        <Bi t={{ en: `Source: ${hit.source}. Meanings, Hindi glosses and pronunciation hints have not yet been checked by a human editor.`, hi: `स्रोत: ${hit.source}। अर्थ, हिंदी अर्थ और उच्चारण सहायता अभी किसी मानव संपादक ने नहीं जाँचे हैं।` }} />
         <ReportProblem target={`dict:${id}`} />
       </footer>
     </article>

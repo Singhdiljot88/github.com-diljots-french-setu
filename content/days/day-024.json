@@ -16,28 +16,28 @@
   "light": false,
   "checkpoint": false,
   "vocabulary": [
-    { "fr": "le pain", "en": "bread", "hi": "ब्रेड / डबलरोटी", "pron": "लö पैँ", "ipa": "lə pɛ̃", "pos": "noun", "gender": "m", "lemma": "pain" },
-    { "fr": "le beurre", "en": "butter", "hi": "मक्खन", "pron": "लö बöग़", "ipa": "lə bœʁ", "pos": "noun", "gender": "m", "lemma": "beurre" },
-    { "fr": "le fromage", "en": "cheese", "hi": "चीज़", "pron": "लö फ़्रो-माझ़", "ipa": "lə fʁɔmaʒ", "pos": "noun", "gender": "m", "lemma": "fromage", "note": { "en": "Paneer is often called 'fromage indien' or simply 'paneer' in Canadian shops.", "hi": "कनाडा की दुकानों में पनीर को अक्सर 'fromage indien' या सीधे 'paneer' कहते हैं।" } },
-    { "fr": "la confiture", "en": "jam", "hi": "जैम / मुरब्बा", "pron": "ला कोँ-फ़ी-तüग़", "ipa": "la kɔ̃fityʁ", "pos": "noun", "gender": "f", "lemma": "confiture" },
-    { "fr": "le lait", "en": "milk", "hi": "दूध", "pron": "लö लै", "ipa": "lə lɛ", "pos": "noun", "gender": "m", "lemma": "lait", "note": { "en": "Silent t: लै.", "hi": "t मूक है: लै।" } },
+    { "fr": "le pain", "en": "bread", "hi": "ब्रेड / डबलरोटी", "pron": "ल पैं", "ipa": "lə pɛ̃", "pos": "noun", "gender": "m", "lemma": "pain" },
+    { "fr": "le beurre", "en": "butter", "hi": "मक्खन", "pron": "ल बर", "ipa": "lə bœʁ", "pos": "noun", "gender": "m", "lemma": "beurre" },
+    { "fr": "le fromage", "en": "cheese", "hi": "चीज़", "pron": "ल फ़्रो-माज", "ipa": "lə fʁɔmaʒ", "pos": "noun", "gender": "m", "lemma": "fromage", "note": { "en": "Paneer is often called 'fromage indien' or simply 'paneer' in Canadian shops.", "hi": "कनाडा की दुकानों में पनीर को अक्सर 'fromage indien' या सीधे 'paneer' कहते हैं।" } },
+    { "fr": "la confiture", "en": "jam", "hi": "जैम / मुरब्बा", "pron": "ला कों-फ़ी-त्यूर", "ipa": "la kɔ̃fityʁ", "pos": "noun", "gender": "f", "lemma": "confiture" },
+    { "fr": "le lait", "en": "milk", "hi": "दूध", "pron": "ल ले", "ipa": "lə lɛ", "pos": "noun", "gender": "m", "lemma": "lait", "note": { "en": "Silent t: ले.", "hi": "t मूक है: ले।" } },
     { "fr": "l'eau", "en": "water", "hi": "पानी", "pron": "लो", "ipa": "lo", "pos": "noun", "gender": "f", "lemma": "eau", "note": { "en": "Feminine in French (la eau → l'eau), masculine in Hindi (पानी).", "hi": "फ़्रेंच में स्त्रीलिंग (la eau → l'eau), हिंदी में 'पानी' पुल्लिंग।" } },
-    { "fr": "un œuf / des œufs", "en": "an egg / eggs", "hi": "एक अंडा / अंडे", "pron": "ऐँ नöफ़ / दे ज़ö", "ipa": "œ̃ nœf / de zø", "pos": "noun", "gender": "m", "lemma": "œuf", "note": { "en": "Singular: the f is said (नöफ़). Plural: the f is silent (ज़ö)!", "hi": "एकवचन में f बोला जाता है (नöफ़)। बहुवचन में f मूक है (ज़ö)!" } },
-    { "fr": "le riz", "en": "rice", "hi": "चावल", "pron": "लö ग़ी", "ipa": "lə ʁi", "pos": "noun", "gender": "m", "lemma": "riz" },
+    { "fr": "un œuf / des œufs", "en": "an egg / eggs", "hi": "एक अंडा / अंडे", "pron": "ऐं नफ़ / दे ज़", "ipa": "œ̃ nœf / de zø", "pos": "noun", "gender": "m", "lemma": "œuf", "note": { "en": "Singular: the f is said (नफ़). Plural: the f is silent (ज़)!", "hi": "एकवचन में f बोला जाता है (नफ़)। बहुवचन में f मूक है (ज़)!" } },
+    { "fr": "le riz", "en": "rice", "hi": "चावल", "pron": "ल री", "ipa": "lə ʁi", "pos": "noun", "gender": "m", "lemma": "riz" },
     { "fr": "la viande", "en": "meat", "hi": "मांस / गोश्त", "pron": "ला व्याँद", "ipa": "la vjɑ̃d", "pos": "noun", "gender": "f", "lemma": "viande" },
-    { "fr": "le poulet", "en": "chicken", "hi": "चिकन / मुर्ग़ा", "pron": "लö पू-लै", "ipa": "lə pulɛ", "pos": "noun", "gender": "m", "lemma": "poulet" },
-    { "fr": "le poisson", "en": "fish", "hi": "मछली", "pron": "लö प्वा-सोँ", "ipa": "lə pwasɔ̃", "pos": "noun", "gender": "m", "lemma": "poisson", "note": { "en": "Masculine in French, feminine in Hindi (मछली).", "hi": "फ़्रेंच में पुल्लिंग, हिंदी में 'मछली' स्त्रीलिंग।" } },
-    { "fr": "les légumes", "en": "vegetables", "hi": "सब्ज़ियाँ", "pron": "ले ले-गüम", "ipa": "le leɡym", "pos": "noun", "gender": "m", "lemma": "légume", "note": { "en": "Masculine: un légume, des légumes. Hindi सब्ज़ी is feminine.", "hi": "पुल्लिंग: un légume, des légumes। हिंदी में 'सब्ज़ी' स्त्रीलिंग है।" } },
-    { "fr": "le petit-déjeuner", "en": "breakfast", "hi": "नाश्ता", "pron": "लö प्ती-दे-झ़ö-ने", "ipa": "lə ptideʒœne", "pos": "noun", "gender": "m", "lemma": "petit-déjeuner" },
-    { "fr": "le déjeuner / le dîner", "en": "lunch / dinner (in France)", "hi": "दोपहर का खाना / रात का खाना (फ़्रांस में)", "pron": "लö दे-झ़ö-ने / लö दी-ने", "ipa": "deʒœne / dine", "pos": "noun", "gender": "m", "lemma": "déjeuner", "note": { "en": "In Québec: le déjeuner = breakfast, le dîner = lunch, le souper = dinner. In France: petit-déjeuner, déjeuner, dîner.", "hi": "क्यूबेक में: le déjeuner = नाश्ता, le dîner = दोपहर का खाना, le souper = रात का खाना। फ़्रांस में: petit-déjeuner, déjeuner, dîner।" } }
+    { "fr": "le poulet", "en": "chicken", "hi": "चिकन / मुर्ग़ा", "pron": "ल पू-ले", "ipa": "lə pulɛ", "pos": "noun", "gender": "m", "lemma": "poulet" },
+    { "fr": "le poisson", "en": "fish", "hi": "मछली", "pron": "ल प्वा-सों", "ipa": "lə pwasɔ̃", "pos": "noun", "gender": "m", "lemma": "poisson", "note": { "en": "Masculine in French, feminine in Hindi (मछली).", "hi": "फ़्रेंच में पुल्लिंग, हिंदी में 'मछली' स्त्रीलिंग।" } },
+    { "fr": "les légumes", "en": "vegetables", "hi": "सब्ज़ियाँ", "pron": "ले ले-ग्यूम", "ipa": "le leɡym", "pos": "noun", "gender": "m", "lemma": "légume", "note": { "en": "Masculine: un légume, des légumes. Hindi सब्ज़ी is feminine.", "hi": "पुल्लिंग: un légume, des légumes। हिंदी में 'सब्ज़ी' स्त्रीलिंग है।" } },
+    { "fr": "le petit-déjeuner", "en": "breakfast", "hi": "नाश्ता", "pron": "ल प्ती-दे-ज-ने", "ipa": "lə ptideʒœne", "pos": "noun", "gender": "m", "lemma": "petit-déjeuner" },
+    { "fr": "le déjeuner / le dîner", "en": "lunch / dinner (in France)", "hi": "दोपहर का खाना / रात का खाना (फ़्रांस में)", "pron": "ल दे-ज-ने / ल दी-ने", "ipa": "deʒœne / dine", "pos": "noun", "gender": "m", "lemma": "déjeuner", "note": { "en": "In Québec: le déjeuner = breakfast, le dîner = lunch, le souper = dinner. In France: petit-déjeuner, déjeuner, dîner.", "hi": "क्यूबेक में: le déjeuner = नाश्ता, le dîner = दोपहर का खाना, le souper = रात का खाना। फ़्रांस में: petit-déjeuner, déjeuner, dîner।" } }
   ],
   "phrases": [
-    { "fr": "Qu'est-ce que vous mangez au petit-déjeuner ?", "en": "What do you eat for breakfast?", "hi": "आप नाश्ते में क्या खाते हैं?", "pron": "कैस-कö वू माँ-झ़े ओ प्ती-दे-झ़ö-ने" },
-    { "fr": "Je mange du riz et des légumes.", "en": "I eat rice and vegetables.", "hi": "मैं चावल और सब्ज़ियाँ खाता/खाती हूँ।", "pron": "झ़ö माँझ़ दü ग़ी ए दे ले-गüम" },
-    { "fr": "Je bois du thé.", "en": "I drink tea.", "hi": "मैं चाय पीता/पीती हूँ।", "pron": "झ़ö ब्वा दü ते", "note": { "en": "boire (to drink) is irregular: je bois, tu bois, il boit, nous buvons, vous buvez, ils boivent. Learn 'je bois' as a chunk for now.", "hi": "boire (पीना) अनियमित है: je bois, tu bois, il boit, nous buvons, vous buvez, ils boivent। अभी 'je bois' को एक टुकड़े की तरह याद कीजिए।" } },
-    { "fr": "Je ne mange pas de viande.", "en": "I don't eat meat.", "hi": "मैं मांस नहीं खाता/खाती।", "pron": "झ़ö न्ö माँझ़ पा दö व्याँद" },
-    { "fr": "Je suis végétarien. / Je suis végétarienne.", "en": "I'm vegetarian.", "hi": "मैं शाकाहारी हूँ।", "pron": "झ़ö स्üई वे-झ़े-ता-ग्यैँ / वे-झ़े-ता-ग्यैन" },
-    { "fr": "Il y a du lait ?", "en": "Is there any milk?", "hi": "क्या दूध है?", "pron": "ई ल्या दü लै" }
+    { "fr": "Qu'est-ce que vous mangez au petit-déjeuner ?", "en": "What do you eat for breakfast?", "hi": "आप नाश्ते में क्या खाते हैं?", "pron": "केस-क वू माँ-जे ओ प्ती-दे-ज-ने" },
+    { "fr": "Je mange du riz et des légumes.", "en": "I eat rice and vegetables.", "hi": "मैं चावल और सब्ज़ियाँ खाता/खाती हूँ।", "pron": "ज माँज द्यू री ए दे ले-ग्यूम" },
+    { "fr": "Je bois du thé.", "en": "I drink tea.", "hi": "मैं चाय पीता/पीती हूँ।", "pron": "ज ब्वा द्यू ते", "note": { "en": "boire (to drink) is irregular: je bois, tu bois, il boit, nous buvons, vous buvez, ils boivent. Learn 'je bois' as a chunk for now.", "hi": "boire (पीना) अनियमित है: je bois, tu bois, il boit, nous buvons, vous buvez, ils boivent। अभी 'je bois' को एक टुकड़े की तरह याद कीजिए।" } },
+    { "fr": "Je ne mange pas de viande.", "en": "I don't eat meat.", "hi": "मैं मांस नहीं खाता/खाती।", "pron": "ज न माँज पा द व्याँद" },
+    { "fr": "Je suis végétarien. / Je suis végétarienne.", "en": "I'm vegetarian.", "hi": "मैं शाकाहारी हूँ।", "pron": "ज स्यूई वे-जे-ता-ग्यैं / वे-जे-ता-ग्येन" },
+    { "fr": "Il y a du lait ?", "en": "Is there any milk?", "hi": "क्या दूध है?", "pron": "ई ल्या द्यू ले" }
   ],
   "grammar": {
     "title": { "en": "Partitive articles: du, de la, de l', des — and pas de", "hi": "'कुछ' वाले आर्टिकल (partitive): du, de la, de l', des — और pas de" },
@@ -50,12 +50,12 @@
       "hi": "यह आपकी दोनों भाषाओं के लिए नई बात है। अंग्रेज़ी में 'I eat bread' या 'Do you have any milk?' — कोई आर्टिकल नहीं, या 'some/any'। हिंदी में 'मैं रोटी खाता हूँ', 'दूध है?' — कोई आर्टिकल है ही नहीं। फ़्रेंच में संज्ञा अकेली नहीं रह सकती: 'Je mange pain' ग़लत है। आसान परीक्षण: अगर अंग्रेज़ी में 'some' या 'any' जोड़ा जा सकता है (I eat some bread, Is there any milk?), तो फ़्रेंच में du / de la / de l' / des चाहिए। और लिंग फ़्रेंच वाला ही लगेगा: हिंदी में 'पानी' पुल्लिंग है पर फ़्रेंच में de l'eau (स्त्रीलिंग), हिंदी में 'मछली' स्त्रीलिंग है पर फ़्रेंच में du poisson।"
     },
     "examples": [
-      { "fr": "Le matin, je mange du pain avec du beurre.", "en": "In the morning I eat bread with butter.", "hi": "सुबह मैं मक्खन के साथ ब्रेड खाता/खाती हूँ।", "pron": "लö मा-तैँ झ़ö माँझ़ दü पैँ आ-वैक दü बöग़" },
-      { "fr": "Elle mange de la confiture.", "en": "She eats (some) jam.", "hi": "वह जैम खाती है।", "pron": "ऐल माँझ़ दö ला कोँ-फ़ी-तüग़" },
-      { "fr": "Il y a de l'eau dans le frigo.", "en": "There's (some) water in the fridge.", "hi": "फ़्रिज में पानी है।", "pron": "ई ल्या दö लो दाँ लö फ़्री-गो" },
-      { "fr": "Nous mangeons des œufs le dimanche.", "en": "We eat eggs on Sundays.", "hi": "हम रविवार को अंडे खाते हैं।", "pron": "नू माँ-झ़ोँ दे ज़ö लö दी-माँश", "note": { "en": "manger keeps an e with nous: nous mangeons, so the g stays soft.", "hi": "nous के साथ manger में e रहता है: nous mangeons, ताकि g की आवाज़ नरम (झ़) रहे।" } },
-      { "fr": "Il n'y a pas de lait.", "en": "There isn't any milk.", "hi": "दूध नहीं है।", "pron": "ईल न्या पा दö लै" },
-      { "fr": "J'aime le café, mais je ne bois pas de café le soir.", "en": "I like coffee, but I don't drink coffee in the evening.", "hi": "मुझे कॉफ़ी पसंद है, पर मैं शाम को कॉफ़ी नहीं पीता/पीती।", "pron": "झ़ैम लö का-फ़े मै झ़ö न्ö ब्वा पा दö का-फ़े लö स्वाग़" }
+      { "fr": "Le matin, je mange du pain avec du beurre.", "en": "In the morning I eat bread with butter.", "hi": "सुबह मैं मक्खन के साथ ब्रेड खाता/खाती हूँ।", "pron": "ल मा-तैं ज माँज द्यू पैं आ-वेक द्यू बर" },
+      { "fr": "Elle mange de la confiture.", "en": "She eats (some) jam.", "hi": "वह जैम खाती है।", "pron": "एल माँज द ला कों-फ़ी-त्यूर" },
+      { "fr": "Il y a de l'eau dans le frigo.", "en": "There's (some) water in the fridge.", "hi": "फ़्रिज में पानी है।", "pron": "ई ल्या द लो दाँ ल फ़्री-गो" },
+      { "fr": "Nous mangeons des œufs le dimanche.", "en": "We eat eggs on Sundays.", "hi": "हम रविवार को अंडे खाते हैं।", "pron": "नू माँ-जों दे ज़ ल दी-माँश", "note": { "en": "manger keeps an e with nous: nous mangeons, so the g stays soft.", "hi": "nous के साथ manger में e रहता है: nous mangeons, ताकि g की आवाज़ नरम (ज) रहे।" } },
+      { "fr": "Il n'y a pas de lait.", "en": "There isn't any milk.", "hi": "दूध नहीं है।", "pron": "ईल न्या पा द ले" },
+      { "fr": "J'aime le café, mais je ne bois pas de café le soir.", "en": "I like coffee, but I don't drink coffee in the evening.", "hi": "मुझे कॉफ़ी पसंद है, पर मैं शाम को कॉफ़ी नहीं पीता/पीती।", "pron": "जेम ल का-फ़े मे ज न ब्वा पा द का-फ़े ल स्वार" }
     ],
     "pitfalls": [
       { "en": "Never a bare noun: not 'Je mange pain', but 'Je mange du pain'.", "hi": "संज्ञा अकेली कभी नहीं: 'Je mange pain' नहीं, 'Je mange du pain'।" },
@@ -66,15 +66,15 @@
   "pronunciation": {
     "focus": "/ø/: deux, peu, des œufs",
     "tip": {
-      "en": "/ø/ has no Hindi letter. Say ए, keep your tongue there, and round your lips forward as for ओ. That is ö. Keep it short and tense: दö (deux), पö (peu). In 'des œufs' the f is silent: दे ज़ö.",
-      "hi": "/ø/ के लिए कोई हिंदी अक्षर नहीं है। ए बोलिए, जीभ वहीं रखिए, और होंठ ओ की तरह आगे गोल कीजिए। यही ö है। इसे छोटा और कसा हुआ रखिए: दö (deux), पö (peu)। 'des œufs' में f मूक है: दे ज़ö।"
+      "en": "/ø/ has no Hindi letter. Say ए, keep your tongue there, and round your lips forward as for ओ. Our guides write this sound with a bare consonant (no vowel sign), so here say द and प with this rounded vowel. Keep it short and tense: द (deux), प (peu). In 'des œufs' the f is silent: दे ज़.",
+      "hi": "/ø/ के लिए कोई हिंदी अक्षर नहीं है। ए बोलिए, जीभ वहीं रखिए, और होंठ ओ की तरह आगे गोल कीजिए। हमारी गाइड में यह आवाज़ बिना मात्रा वाले व्यंजन से लिखी जाती है, इसलिए यहाँ द और प को इसी गोल होंठों वाले स्वर के साथ बोलिए। इसे छोटा और कसा हुआ रखिए: द (deux), प (peu)। 'des œufs' में f मूक है: दे ज़।"
     },
     "words": [
-      { "fr": "deux", "en": "two", "hi": "दो", "pron": "दö", "ipa": "dø" },
-      { "fr": "un peu", "en": "a little", "hi": "थोड़ा", "pron": "ऐँ पö", "ipa": "œ̃ pø" },
-      { "fr": "des œufs", "en": "eggs", "hi": "अंडे", "pron": "दे ज़ö", "ipa": "de zø" },
-      { "fr": "jeudi", "en": "Thursday", "hi": "गुरुवार", "pron": "झ़ö-दी", "ipa": "ʒødi" },
-      { "fr": "monsieur", "en": "sir", "hi": "सर / श्रीमान", "pron": "मö-स्यö", "ipa": "məsjø" }
+      { "fr": "deux", "en": "two", "hi": "दो", "pron": "द", "ipa": "dø" },
+      { "fr": "un peu", "en": "a little", "hi": "थोड़ा", "pron": "ऐं प", "ipa": "œ̃ pø" },
+      { "fr": "des œufs", "en": "eggs", "hi": "अंडे", "pron": "दे ज़", "ipa": "de zø" },
+      { "fr": "jeudi", "en": "Thursday", "hi": "गुरुवार", "pron": "ज-दी", "ipa": "ʒødi" },
+      { "fr": "monsieur", "en": "sir", "hi": "सर / श्रीमान", "pron": "म-स्य", "ipa": "məsjø" }
     ]
   },
   "listening": {
@@ -100,11 +100,11 @@
       { "speaker": "Arjun", "voice": "m1", "fr": "Oui, j'adore le fromage !", "en": "Yes, I love cheese!", "hi": "हाँ, मुझे चीज़ बहुत पसंद है!" }
     ],
     "questions": [
-      { "q": { "en": "What does Arjun eat for breakfast in Canada?" }, "options": ["Parathas with yoghurt", "Bread with butter", "Eggs and jam"], "answer": 1, "explanation": { "en": "'Ici, je mange du pain avec du beurre.' Parathas are what he eats in India.", "hi": "'Ici, je mange du pain avec du beurre.' पराठे वह भारत में खाता है।" }, "kind": "literal", "evidence": "Ici, je mange du pain avec du beurre." },
-      { "q": { "en": "What does Arjun drink in the morning?" }, "options": ["A big coffee", "Tea with milk", "Water"], "answer": 1, "explanation": { "en": "'Je bois du thé avec du lait.' Julie is the one who drinks a big coffee.", "hi": "'Je bois du thé avec du lait.' बड़ी कॉफ़ी तो जूली पीती है।" }, "kind": "literal", "evidence": "Je bois du thé avec du lait." },
-      { "q": { "en": "In Québec, what is 'le souper'?" }, "options": ["Breakfast", "Lunch", "The evening meal"], "answer": 2, "explanation": { "en": "Julie: « souper » le soir — the evening meal.", "hi": "जूली: « souper » le soir — शाम/रात का खाना।" }, "kind": "vocabulary", "evidence": "« souper » le soir" },
-      { "q": { "en": "Why doesn't Arjun eat meat?" }, "options": ["He is vegetarian", "He doesn't like chicken", "He eats only at night"], "answer": 0, "explanation": { "en": "'Je ne mange pas de viande : je suis végétarien.'", "hi": "'Je ne mange pas de viande : je suis végétarien.' — वह शाकाहारी है।" }, "kind": "literal", "evidence": "je suis végétarien" },
-      { "q": { "en": "Why does Arjun say 'pas de café' and not 'pas du café'?" }, "options": ["Because café is feminine", "Because after a negative, du becomes de", "Because he likes coffee"], "answer": 1, "explanation": { "en": "After ne … pas, du / de la / des become de.", "hi": "ne … pas के बाद du / de la / des बदलकर de हो जाते हैं।" }, "kind": "grammar", "evidence": "Non, je ne bois pas de café." }
+      { "q": { "en": "What does Arjun eat for breakfast in Canada?", "hi": "कनाडा में अर्जुन नाश्ते में क्या खाता है?" }, "options": ["Parathas with yoghurt", "Bread with butter", "Eggs and jam"], "optionsHi": ["दही के साथ पराठे", "मक्खन के साथ ब्रेड", "अंडे और जैम"], "answer": 1, "explanation": { "en": "'Ici, je mange du pain avec du beurre.' Parathas are what he eats in India.", "hi": "'Ici, je mange du pain avec du beurre.' पराठे वह भारत में खाता है।" }, "kind": "literal", "evidence": "Ici, je mange du pain avec du beurre." },
+      { "q": { "en": "What does Arjun drink in the morning?", "hi": "अर्जुन सुबह क्या पीता है?" }, "options": ["A big coffee", "Tea with milk", "Water"], "optionsHi": ["एक बड़ा कप कॉफ़ी", "दूध वाली चाय", "पानी"], "answer": 1, "explanation": { "en": "'Je bois du thé avec du lait.' Julie is the one who drinks a big coffee.", "hi": "'Je bois du thé avec du lait.' बड़ी कॉफ़ी तो जूली पीती है।" }, "kind": "literal", "evidence": "Je bois du thé avec du lait." },
+      { "q": { "en": "In Québec, what is 'le souper'?", "hi": "क्यूबेक में 'le souper' क्या होता है?" }, "options": ["Breakfast", "Lunch", "The evening meal"], "optionsHi": ["सुबह का नाश्ता", "दोपहर का खाना", "रात का खाना"], "answer": 2, "explanation": { "en": "Julie: « souper » le soir — the evening meal.", "hi": "जूली: « souper » le soir — शाम/रात का खाना।" }, "kind": "vocabulary", "evidence": "« souper » le soir" },
+      { "q": { "en": "Why doesn't Arjun eat meat?", "hi": "अर्जुन माँस क्यों नहीं खाता?" }, "options": ["He is vegetarian", "He doesn't like chicken", "He eats only at night"], "optionsHi": ["वह शाकाहारी है", "उसे चिकन पसंद नहीं है", "वह केवल रात को खाता है"], "answer": 0, "explanation": { "en": "'Je ne mange pas de viande : je suis végétarien.'", "hi": "'Je ne mange pas de viande : je suis végétarien.' — वह शाकाहारी है।" }, "kind": "literal", "evidence": "je suis végétarien" },
+      { "q": { "en": "Why does Arjun say 'pas de café' and not 'pas du café'?", "hi": "अर्जुन 'pas du café' के बजाय 'pas de café' क्यों कहता है?" }, "options": ["Because café is feminine", "Because after a negative, du becomes de", "Because he likes coffee"], "optionsHi": ["क्योंकि café स्त्रीलिंग है", "क्योंकि निषेध के बाद du, de बन जाता है", "क्योंकि उसे कॉफ़ी पसंद है"], "answer": 1, "explanation": { "en": "After ne … pas, du / de la / des become de.", "hi": "ne … pas के बाद du / de la / des बदलकर de हो जाते हैं।" }, "kind": "grammar", "evidence": "Non, je ne bois pas de café." }
     ],
     "dictation": ["Je mange du pain avec du beurre.", "Je ne bois pas de café.", "Je mange des œufs."],
     "gapFill": { "text": "Je bois ___ thé avec ___ lait. Je ne mange pas ___ viande.", "answers": ["du", "du", "de"] }
@@ -116,11 +116,11 @@
       "hi": "अपने खाने के बारे में हर सवाल का पूरे वाक्य में जवाब दीजिए। एक चीज़ बताइए जो आप खाते हैं और एक जो आप नहीं खाते या पीते।"
     },
     "prompts": [
-      { "fr": "Qu'est-ce que vous mangez au petit-déjeuner ?", "en": "What do you eat for breakfast?", "hi": "आप नाश्ते में क्या खाते हैं?", "pron": "कैस-कö वू माँ-झ़े ओ प्ती-दे-झ़ö-ने", "model": "Au petit-déjeuner, je mange du pain avec du beurre et des œufs." },
-      { "fr": "Vous buvez du café ou du thé ?", "en": "Do you drink coffee or tea?", "hi": "आप कॉफ़ी पीते हैं या चाय?", "pron": "वू बü-वे दü का-फ़े ऊ दü ते", "model": "Je bois du thé avec du lait. Je ne bois pas de café." },
-      { "fr": "Qu'est-ce que vous mangez à midi ?", "en": "What do you eat at noon?", "hi": "आप दोपहर में क्या खाते हैं?", "pron": "कैस-कö वू माँ-झ़े आ मी-दी", "model": "À midi, je mange du riz, du dal et des légumes." },
-      { "fr": "Vous mangez de la viande ?", "en": "Do you eat meat?", "hi": "क्या आप मांस खाते हैं?", "pron": "वू माँ-झ़े दö ला व्याँद", "model": "Non, je ne mange pas de viande. Je suis végétarienne." },
-      { "fr": "Qu'est-ce que vous aimez beaucoup ?", "en": "What do you really like?", "hi": "आपको क्या बहुत पसंद है?", "pron": "कैस-कö वू ज़ै-मे बो-कू", "model": "J'adore le fromage et la confiture." }
+      { "fr": "Qu'est-ce que vous mangez au petit-déjeuner ?", "en": "What do you eat for breakfast?", "hi": "आप नाश्ते में क्या खाते हैं?", "pron": "केस-क वू माँ-जे ओ प्ती-दे-ज-ने", "model": "Au petit-déjeuner, je mange du pain avec du beurre et des œufs." },
+      { "fr": "Vous buvez du café ou du thé ?", "en": "Do you drink coffee or tea?", "hi": "आप कॉफ़ी पीते हैं या चाय?", "pron": "वू ब्यू-वे द्यू का-फ़े ऊ द्यू ते", "model": "Je bois du thé avec du lait. Je ne bois pas de café." },
+      { "fr": "Qu'est-ce que vous mangez à midi ?", "en": "What do you eat at noon?", "hi": "आप दोपहर में क्या खाते हैं?", "pron": "केस-क वू माँ-जे आ मी-दी", "model": "À midi, je mange du riz, du dal et des légumes." },
+      { "fr": "Vous mangez de la viande ?", "en": "Do you eat meat?", "hi": "क्या आप मांस खाते हैं?", "pron": "वू माँ-जे द ला व्याँद", "model": "Non, je ne mange pas de viande. Je suis végétarienne." },
+      { "fr": "Qu'est-ce que vous aimez beaucoup ?", "en": "What do you really like?", "hi": "आपको क्या बहुत पसंद है?", "pron": "केस-क वू ज़े-मे बो-कू", "model": "J'adore le fromage et la confiture." }
     ],
     "tip": {
       "en": "Listen to the article in the question and reuse it — 'Vous mangez de la viande ?' → 'Non, je ne mange pas de viande.' Remember to switch to de in the negative.",
@@ -136,10 +136,10 @@
       "hi": "दोपहर के खाने का मेनू — 10 नवंबर का सप्ताह\nसोमवार: सब्ज़ियों का सूप, चिकन और चावल, सेब\nमंगलवार: टमाटर सॉस वाला पास्ता, सलाद, दही\nबुधवार: मछली, आलू और गाजर, चीज़\nगुरुवार: शाकाहारी चिली, ब्रेड, संतरा\nशुक्रवार: चीज़ पिज़्ज़ा, सब्ज़ियाँ, केक\nहर दिन एक शाकाहारी व्यंजन होता है। हमारे भोजन में सूअर का मांस नहीं होता। बच्चे पानी या दूध पीते हैं। मीठे पेय नहीं होते। क़ीमत: 6 डॉलर प्रति भोजन।"
     },
     "questions": [
-      { "q": { "en": "On which day is there fish?" }, "options": ["Monday", "Wednesday", "Friday"], "answer": 1, "explanation": { "en": "'Mercredi : poisson, …'", "hi": "'Mercredi : poisson, …' — बुधवार।" }, "kind": "literal", "evidence": "Mercredi : poisson" },
-      { "q": { "en": "What can the children drink?" }, "options": ["Juice or water", "Water or milk", "Milk or soft drinks"], "answer": 1, "explanation": { "en": "'Les enfants boivent de l'eau ou du lait.' Sugary drinks are not available.", "hi": "'Les enfants boivent de l'eau ou du lait.' मीठे पेय नहीं मिलते।" }, "kind": "literal", "evidence": "Les enfants boivent de l'eau ou du lait." },
-      { "q": { "en": "This is a Québec school. Which meal is the 'menu du dîner' for?" }, "options": ["Breakfast", "Lunch", "Evening meal"], "answer": 1, "explanation": { "en": "In Québec, le dîner is the midday meal — the school lunch.", "hi": "क्यूबेक में le dîner दोपहर का खाना है — स्कूल का लंच।" }, "kind": "inference", "evidence": "Menu du dîner" },
-      { "q": { "en": "A parent asks if there is pork. What is the answer?" }, "options": ["Yes, on Monday", "Only in the pizza", "No, never"], "answer": 2, "explanation": { "en": "'Il n'y a pas de porc dans nos repas.' Note pas de after the negative.", "hi": "'Il n'y a pas de porc dans nos repas.' नकारात्मक के बाद pas de पर ध्यान दीजिए।" }, "kind": "literal", "evidence": "Il n'y a pas de porc dans nos repas." }
+      { "q": { "en": "On which day is there fish?", "hi": "किस दिन मछली मिलती है?" }, "options": ["Monday", "Wednesday", "Friday"], "optionsHi": ["सोमवार", "बुधवार", "शुक्रवार"], "answer": 1, "explanation": { "en": "'Mercredi : poisson, …'", "hi": "'Mercredi : poisson, …' — बुधवार।" }, "kind": "literal", "evidence": "Mercredi : poisson" },
+      { "q": { "en": "What can the children drink?", "hi": "बच्चे क्या पी सकते हैं?" }, "options": ["Juice or water", "Water or milk", "Milk or soft drinks"], "optionsHi": ["जूस या पानी", "पानी या दूध", "दूध या सॉफ़्ट ड्रिंक"], "answer": 1, "explanation": { "en": "'Les enfants boivent de l'eau ou du lait.' Sugary drinks are not available.", "hi": "'Les enfants boivent de l'eau ou du lait.' मीठे पेय नहीं मिलते।" }, "kind": "literal", "evidence": "Les enfants boivent de l'eau ou du lait." },
+      { "q": { "en": "This is a Québec school. Which meal is the 'menu du dîner' for?", "hi": "यह क्यूबेक का एक स्कूल है। 'menu du dîner' किस भोजन के लिए है?" }, "options": ["Breakfast", "Lunch", "Evening meal"], "optionsHi": ["सुबह के नाश्ते के लिए", "दोपहर के खाने के लिए", "रात के खाने के लिए"], "answer": 1, "explanation": { "en": "In Québec, le dîner is the midday meal — the school lunch.", "hi": "क्यूबेक में le dîner दोपहर का खाना है — स्कूल का लंच।" }, "kind": "inference", "evidence": "Menu du dîner" },
+      { "q": { "en": "A parent asks if there is pork. What is the answer?", "hi": "एक अभिभावक पूछते हैं कि क्या सूअर का माँस है। उत्तर क्या है?" }, "options": ["Yes, on Monday", "Only in the pizza", "No, never"], "optionsHi": ["हाँ, सोमवार को", "केवल पिज़्ज़ा में", "नहीं, कभी नहीं"], "answer": 2, "explanation": { "en": "'Il n'y a pas de porc dans nos repas.' Note pas de after the negative.", "hi": "'Il n'y a pas de porc dans nos repas.' नकारात्मक के बाद pas de पर ध्यान दीजिए।" }, "kind": "literal", "evidence": "Il n'y a pas de porc dans nos repas." }
     ]
   },
   "writing": {
@@ -155,9 +155,9 @@
       { "en": "Check every food word: du, de la, de l' or des? And pas de in the negative.", "hi": "हर खाने के शब्द को जाँचिए: du, de la, de l' या des? और नकारात्मक में pas de।" }
     ],
     "usefulPhrases": [
-      { "fr": "Au petit-déjeuner, je mange …", "en": "For breakfast I eat …", "hi": "नाश्ते में मैं … खाता/खाती हूँ", "pron": "ओ प्ती-दे-झ़ö-ने झ़ö माँझ़" },
-      { "fr": "Je bois de l'eau.", "en": "I drink water.", "hi": "मैं पानी पीता/पीती हूँ।", "pron": "झ़ö ब्वा दö लो" },
-      { "fr": "Je ne mange pas de …", "en": "I don't eat …", "hi": "मैं … नहीं खाता/खाती", "pron": "झ़ö न्ö माँझ़ पा दö" }
+      { "fr": "Au petit-déjeuner, je mange …", "en": "For breakfast I eat …", "hi": "नाश्ते में मैं … खाता/खाती हूँ", "pron": "ओ प्ती-दे-ज-ने ज माँज" },
+      { "fr": "Je bois de l'eau.", "en": "I drink water.", "hi": "मैं पानी पीता/पीती हूँ।", "pron": "ज ब्वा द लो" },
+      { "fr": "Je ne mange pas de …", "en": "I don't eat …", "hi": "मैं … नहीं खाता/खाती", "pron": "ज न माँज पा द" }
     ],
     "model": {
       "fr": "Le matin, je mange du pain avec de la confiture et je bois du thé. Je ne bois pas de café. À midi, je mange du riz, du dal et des légumes. Le soir, je mange de la soupe et du poulet. Je bois de l'eau. Je ne mange pas de dessert.",
@@ -172,14 +172,14 @@
   "review": {
     "fromDays": [10, 15, 19, 22, 23],
     "items": [
-      { "fr": "J'aime le thé.", "en": "I like tea.", "hi": "मुझे चाय पसंद है।", "pron": "झ़ैम लö ते" },
-      { "fr": "Je n'aime pas le café.", "en": "I don't like coffee.", "hi": "मुझे कॉफ़ी पसंद नहीं।", "pron": "झ़ö नैम पा लö का-फ़े" },
-      { "fr": "Je voudrais un verre d'eau, s'il vous plaît.", "en": "I'd like a glass of water, please.", "hi": "मुझे एक गिलास पानी चाहिए, कृपया।", "pron": "झ़ö वू-द्रै ऐँ वैग़ दो सील वू प्लै" },
-      { "fr": "L'addition, s'il vous plaît.", "en": "The bill, please.", "hi": "बिल लाइए, कृपया।", "pron": "ला-दी-स्योँ सील वू प्लै" },
+      { "fr": "J'aime le thé.", "en": "I like tea.", "hi": "मुझे चाय पसंद है।", "pron": "जेम ल ते" },
+      { "fr": "Je n'aime pas le café.", "en": "I don't like coffee.", "hi": "मुझे कॉफ़ी पसंद नहीं।", "pron": "ज नेम पा ल का-फ़े" },
+      { "fr": "Je voudrais un verre d'eau, s'il vous plaît.", "en": "I'd like a glass of water, please.", "hi": "मुझे एक गिलास पानी चाहिए, कृपया।", "pron": "ज वू-द्रे ऐं वेर दो सील वू प्ले" },
+      { "fr": "L'addition, s'il vous plaît.", "en": "The bill, please.", "hi": "बिल लाइए, कृपया।", "pron": "ला-दी-स्यों सील वू प्ले" },
       { "fr": "à midi", "en": "at noon", "hi": "दोपहर बारह बजे", "pron": "आ मी-दी" },
-      { "fr": "le soir", "en": "in the evening", "hi": "शाम को", "pron": "लö स्वाग़" },
-      { "fr": "Ma mère adore la cuisine indienne.", "en": "My mother loves Indian cooking.", "hi": "मेरी माँ को भारतीय खाना बनाना बहुत पसंद है।", "pron": "मा मैग़ आ-दॉग़ ला क्üई-ज़ीन ऐँ-द्यैन" },
-      { "fr": "Il y a une table dans la cuisine.", "en": "There's a table in the kitchen.", "hi": "रसोई में एक मेज़ है।", "pron": "ई ल्या üन ताब्ल दाँ ला क्üई-ज़ीन" }
+      { "fr": "le soir", "en": "in the evening", "hi": "शाम को", "pron": "ल स्वार" },
+      { "fr": "Ma mère adore la cuisine indienne.", "en": "My mother loves Indian cooking.", "hi": "मेरी माँ को भारतीय खाना बनाना बहुत पसंद है।", "pron": "मा मेर आ-दॉर ला क्यूई-ज़ीन ऐं-द्येन" },
+      { "fr": "Il y a une table dans la cuisine.", "en": "There's a table in the kitchen.", "hi": "रसोई में एक मेज़ है।", "pron": "ई ल्या यून ताब्ल दाँ ला क्यूई-ज़ीन" }
     ]
   },
   "assessment": [
@@ -187,7 +187,7 @@
     { "type": "fill", "prompt": { "en": "Complete: She drinks water.", "hi": "पूरा कीजिए: वह पानी पीती है।" }, "sentence": "Elle boit ___ eau.", "answer": "de l'", "accept": ["de l’"], "explanation": { "en": "eau starts with a vowel: de l'eau.", "hi": "eau स्वर से शुरू होता है: de l'eau।" } },
     { "type": "fill", "prompt": { "en": "Complete: I don't eat meat.", "hi": "पूरा कीजिए: मैं मांस नहीं खाता।" }, "sentence": "Je ne mange pas ___ viande.", "answer": "de", "accept": [], "explanation": { "en": "After ne … pas: de (not de la).", "hi": "ne … pas के बाद: de (de la नहीं)।" } },
     { "type": "mcq", "prompt": { "en": "Which sentence is correct?", "hi": "कौन-सा वाक्य सही है?" }, "options": ["J'aime du fromage.", "J'aime le fromage.", "J'aime de fromage."], "answer": 1, "explanation": { "en": "After aimer we speak in general: le fromage.", "hi": "aimer के बाद आम बात होती है: le fromage।" } },
-    { "type": "mcq", "prompt": { "en": "Complete: Nous mangeons ___ œufs.", "hi": "पूरा कीजिए: Nous mangeons ___ œufs।" }, "options": ["du", "de la", "des"], "answer": 2, "explanation": { "en": "œufs is plural: des œufs (दे ज़ö).", "hi": "œufs बहुवचन है: des œufs (दे ज़ö)।" } },
+    { "type": "mcq", "prompt": { "en": "Complete: Nous mangeons ___ œufs.", "hi": "पूरा कीजिए: Nous mangeons ___ œufs।" }, "options": ["du", "de la", "des"], "answer": 2, "explanation": { "en": "œufs is plural: des œufs (दे ज़).", "hi": "œufs बहुवचन है: des œufs (दे ज़)।" } },
     { "type": "translate", "prompt": { "en": "Write in French.", "hi": "फ़्रेंच में लिखिए।" }, "source": { "en": "There isn't any milk.", "hi": "दूध नहीं है।" }, "answer": "Il n'y a pas de lait.", "accept": ["il n'y a pas de lait", "Il n’y a pas de lait.", "Il n'y a pas de lait"], "explanation": { "en": "il y a → il n'y a pas de.", "hi": "il y a → il n'y a pas de।" } },
     { "type": "reorder", "prompt": { "en": "Put the words in order: I eat rice and vegetables.", "hi": "शब्दों को सही क्रम में रखिए: मैं चावल और सब्ज़ियाँ खाता हूँ।" }, "words": ["des", "mange", "Je", "riz", "du", "légumes", "et", "."], "answer": "Je mange du riz et des légumes.", "explanation": { "en": "du riz (m.), des légumes (pl.).", "hi": "du riz (पुं.), des légumes (बहु.)।" } },
     { "type": "mcq", "prompt": { "en": "In Québec, 'le déjeuner' is …", "hi": "क्यूबेक में 'le déjeuner' है …" }, "options": ["breakfast", "lunch", "dinner"], "answer": 0, "explanation": { "en": "Québec: déjeuner (morning), dîner (noon), souper (evening).", "hi": "क्यूबेक: déjeuner (सुबह), dîner (दोपहर), souper (शाम)।" } }

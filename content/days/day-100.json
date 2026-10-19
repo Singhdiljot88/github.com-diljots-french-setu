@@ -8,7 +8,7 @@
   },
   "objective": {
     "en": "Check everything from Phase 5 in TEF-style conditions: a mixed listening set heard once, a mixed reading set, quick speaking A and B practice on one ad, a 200-word TEF B letter and a 12-question review test.",
-    "hi": "चरण 5 की हर चीज़ को TEF जैसी स्थिति में जाँचना: एक बार सुना जाने वाला मिला-जुला सुनने का सेट, मिला-जुला पठन सेट, एक ही विज्ञापन पर मौखिक A और B का छोटा अभ्यास, 200 शब्दों का TEF B पत्र और 12 सवालों की दोहराई परीक्षा।"
+    "hi": "चरण 5 की हर चीज़ को TEF जैसी स्थिति में जाँचना: एक बार सुना जाने वाला मिला-जुला सुनने का सेट, मिला-जुला पठन सेट, एक ही विज्ञापन पर मौखिक A और B का छोटा अभ्यास, 200 शब्दों का TEF B पत्र और 12 सवालों का दोहराव परीक्षा।"
   },
   "prerequisites": {
     "days": [
@@ -37,7 +37,7 @@
       "fr": "une démarche",
       "en": "a procedure, a step (administrative)",
       "hi": "एक प्रक्रिया / काग़ज़ी कार्रवाई",
-      "pron": "üन दे-माग़श",
+      "pron": "यून दे-मारश",
       "ipa": "yn demaʁʃ",
       "pos": "noun",
       "gender": "f",
@@ -61,7 +61,7 @@
       "fr": "le bénévolat",
       "en": "volunteering",
       "hi": "स्वयंसेवा",
-      "pron": "लö बे-ने-वो-ला",
+      "pron": "ल बे-ने-वो-ला",
       "ipa": "lə benevɔla",
       "pos": "noun",
       "gender": "m",
@@ -71,7 +71,7 @@
       "fr": "le jardin communautaire",
       "en": "community garden",
       "hi": "सामुदायिक बग़ीचा",
-      "pron": "लö झ़ाग़-दैँ को-म्ü-नो-तैग़",
+      "pron": "ल जार-दैं को-म्यू-नो-तेर",
       "ipa": "lə ʒaʁdɛ̃ kɔmynotɛʁ",
       "pos": "noun",
       "gender": "m",
@@ -81,7 +81,7 @@
       "fr": "une parcelle",
       "en": "a plot (of land)",
       "hi": "ज़मीन का छोटा टुकड़ा / क्यारी",
-      "pron": "üन पाग़-सैल",
+      "pron": "यून पार-सेल",
       "ipa": "yn paʁsɛl",
       "pos": "noun",
       "gender": "f",
@@ -91,7 +91,7 @@
       "fr": "un abonnement",
       "en": "a subscription, a pass",
       "hi": "सदस्यता / पास",
-      "pron": "ऐँ ना-बोन-माँ",
+      "pron": "ऐं ना-बॉन-माँ",
       "ipa": "ɛ̃n‿abɔnmɑ̃",
       "pos": "noun",
       "gender": "m",
@@ -101,7 +101,7 @@
       "fr": "la consigne",
       "en": "instruction (for a task)",
       "hi": "निर्देश",
-      "pron": "ला कोँ-सीन्य",
+      "pron": "ला कों-सीन्य",
       "ipa": "la kɔ̃siɲ",
       "pos": "noun",
       "gender": "f",
@@ -115,7 +115,7 @@
       "fr": "obligatoire",
       "en": "compulsory",
       "hi": "अनिवार्य",
-      "pron": "ओ-ब्ली-गा-त्वाग़",
+      "pron": "ऑ-ब्ली-गा-त्वार",
       "ipa": "ɔbliɡatwaʁ",
       "pos": "adjective"
     },
@@ -123,7 +123,7 @@
       "fr": "les frais",
       "en": "fees, costs",
       "hi": "ख़र्च / फ़ीस",
-      "pron": "ले फ़्ग़ै",
+      "pron": "ले फ़्रे",
       "ipa": "le fʁɛ",
       "pos": "noun",
       "gender": "m",
@@ -137,7 +137,7 @@
       "fr": "s'engager",
       "en": "to commit oneself, to get involved",
       "hi": "ज़िम्मेदारी लेना / जुड़ना",
-      "pron": "साँ-गा-झ़े",
+      "pron": "साँ-गा-जे",
       "ipa": "sɑ̃ɡaʒe",
       "pos": "verb",
       "note": {
@@ -151,37 +151,37 @@
       "fr": "Je vous appelle au sujet de votre annonce.",
       "en": "I'm calling about your advertisement.",
       "hi": "मैं आपके विज्ञापन के सिलसिले में फ़ोन कर रहा हूँ।",
-      "pron": "झ़ö वू ज़ा-पैल ओ सü-झ़े दö वॉत्ग़ आ-नोँस"
+      "pron": "ज वू ज़ा-पेल ओ स्यू-जे द वॉत्र आ-नोंस"
     },
     {
       "fr": "Pourriez-vous me dire ce qui est compris dans le prix ?",
       "en": "Could you tell me what is included in the price?",
       "hi": "क्या आप बता सकते हैं कि क़ीमत में क्या-क्या शामिल है?",
-      "pron": "पू-ग़्ये वू मö दीग़ सö की ए कोँ-प्ग़ी दाँ लö प्ग़ी"
+      "pron": "पू-र्ये वू म दीर स की ए कों-प्री दाँ ल प्री"
     },
     {
       "fr": "Il s'agit d'un jardin communautaire près de chez nous.",
       "en": "It's a community garden near our place.",
       "hi": "यह हमारे घर के पास एक सामुदायिक बग़ीचा है।",
-      "pron": "इल सा-झ़ी दैँ झ़ाग़-दैँ को-म्ü-नो-तैग़ प्ग़ै दö शे नू"
+      "pron": "इल सा-जी दैं जार-दैं को-म्यू-नो-तेर प्रे द शे नू"
     },
     {
       "fr": "Certes…, il n'en reste pas moins que…",
       "en": "Admittedly…, the fact remains that…",
       "hi": "माना कि…, फिर भी सच यह है कि…",
-      "pron": "सैग़त इल नाँ ग़ैस्त पा म्वैँ कö"
+      "pron": "सेरत इल नाँ रेस्त पा म्वैं क"
     },
     {
       "fr": "Veuillez agréer mes salutations distinguées.",
       "en": "Yours faithfully.",
       "hi": "सादर।",
-      "pron": "वö-ये ज़ा-ग्ग़े-ए मे सा-लü-ता-स्योँ दिस-तैँ-गे"
+      "pron": "व-ये ज़ा-ग्रे-ए मे सा-ल्यू-ता-स्यों दिस-तैं-गे"
     }
   ],
   "grammar": {
     "title": {
       "en": "Phase 5 review: the ten structures that score in the TEF",
-      "hi": "चरण 5 की दोहराई: TEF में अंक दिलाने वाली दस संरचनाएँ"
+      "hi": "चरण 5 का दोहराव: TEF में अंक दिलाने वाली दस संरचनाएँ"
     },
     "explanation": {
       "en": "1) ne … que = only (Il ne reste que deux places). 2) Indirect questions: Je voudrais savoir si… / Pourriez-vous me dire ce que… (no inversion after the frame). 3) Inversion with a noun subject: Le loyer comprend-il… ? 4) Plus-que-parfait for an earlier past: Il avait déjà quitté la maison quand… 5) Passive: être + agreeing participle + par: La décision a été prise par la Ville. 6) Gérondif: En s'inscrivant tôt, on paie moins. 7) TEF B moves: Il s'agit de… → arguments (en plus, sans compter que) → objections (Je comprends, mais… / Justement !). 8) Concession + refutation: Certes… mais… ; Bien que + subjunctive. 9) Places: à + city, en + feminine / vowel, au + masculine, aux + plural. 10) Verbs + à / de and tense consistency: commencer à, essayer de; si + présent → futur; quand + futur.",
@@ -196,49 +196,49 @@
         "fr": "Il ne reste que trois parcelles libres.",
         "en": "There are only three free plots left.",
         "hi": "सिर्फ़ तीन ख़ाली क्यारियाँ बची हैं।",
-        "pron": "इल नö ग़ैस्त कö त्ग़्वा पाग़-सैल लीब्ग़"
+        "pron": "इल न रेस्त क त्र्वा पार-सेल लीब्र"
       },
       {
         "fr": "Je voudrais savoir s'il faut apporter ses propres outils.",
         "en": "I'd like to know if you have to bring your own tools.",
         "hi": "मैं जानना चाहूँगा कि क्या अपने औज़ार ख़ुद लाने होंगे।",
-        "pron": "झ़ö वू-द्ग़ै सा-वाग़ सील फ़ो आ-पॉग़-ते से प्ग़ॉप्ग़ ज़ू-ती"
+        "pron": "ज वू-द्रे सा-वार सील फ़ो आ-पॉर-ते से प्रॉप्र ज़ू-ती"
       },
       {
         "fr": "Le prix de l'abonnement comprend-il l'eau ?",
         "en": "Does the price of the membership include water?",
         "hi": "क्या सदस्यता की क़ीमत में पानी शामिल है?",
-        "pron": "लö प्ग़ी दö ला-बोन-माँ कोँ-प्ग़ाँ-तील लो"
+        "pron": "ल प्री द ला-बोन-माँ कों-प्राँ-तील लो"
       },
       {
         "fr": "Quand je suis arrivé, les inscriptions avaient déjà commencé.",
         "en": "When I arrived, registration had already started.",
         "hi": "जब मैं पहुँचा, पंजीकरण शुरू हो चुका था।",
-        "pron": "काँ झ़ö स्üई ज़ा-ग़ी-वे ले ज़ैँस-क्ग़ीप-स्योँ आ-वै दे-झ़ा को-माँ-से"
+        "pron": "काँ ज स्यूई ज़ा-री-वे ले ज़ैंस-क्रीप-स्यों आ-वे दे-जा को-माँ-से"
       },
       {
         "fr": "Le jardin a été créé par des bénévoles du quartier.",
         "en": "The garden was created by volunteers from the neighbourhood.",
         "hi": "बग़ीचा मोहल्ले के स्वयंसेवकों ने बनाया था।",
-        "pron": "लö झ़ाग़-दैँ आ ए-ते क्ग़े-ए पाग़ दे बे-ने-वोल दü काग़-त्ये"
+        "pron": "ल जार-दैं आ ए-ते क्रे-ए पार दे बे-ने-वोल द्यू कार-त्ये"
       },
       {
         "fr": "En t'inscrivant avant le 1er avril, tu paies moitié prix.",
         "en": "By registering before 1 April, you pay half price.",
         "hi": "1 अप्रैल से पहले नाम लिखवाकर तुम आधी क़ीमत देते हो।",
-        "pron": "आँ तैँस-क्ग़ी-वाँ आ-वाँ लö प्ग़ö-म्ये ग़ा-व्ग़ील तü पै म्वा-त्ये प्ग़ी"
+        "pron": "आँ तैंस-क्री-वाँ आ-वाँ ल प्र-म्ये रा-व्रील त्यू पे म्वा-त्ये प्री"
       },
       {
         "fr": "Bien que ce soit un engagement, ça ne prend que deux heures par semaine.",
         "en": "Although it's a commitment, it only takes two hours a week.",
         "hi": "हालाँकि यह एक ज़िम्मेदारी है, इसमें हफ़्ते में सिर्फ़ दो घंटे लगते हैं।",
-        "pron": "ब्यैँ कö सö स्वा ऐँ नाँ-गाझ़-माँ सा नö प्ग़ाँ कö दö ज़öग़ पाग़ सö-मैन"
+        "pron": "ब्यैं क स स्वा ऐं नाँ-गाज-माँ सा न प्राँ क द ज़र पार स-मेन"
       },
       {
         "fr": "Si tu essaies de jardiner cet été, tu ne le regretteras pas.",
         "en": "If you try gardening this summer, you won't regret it.",
         "hi": "अगर तुम इस गर्मी में बाग़बानी करने की कोशिश करोगे, तो पछताओगे नहीं।",
-        "pron": "सी तü ए-सै दö झ़ाग़-दी-ने सै ते-ते तü नö लö ग़ö-ग्ग़ैत-ग़ा पा"
+        "pron": "सी त्यू ए-से द जार-दी-ने से ते-ते त्यू न ल र-ग्रेत-रा पा"
       }
     ],
     "pitfalls": [
@@ -256,42 +256,42 @@
     "focus": "Phase 5 sound review",
     "tip": {
       "en": "Before the speaking tasks, warm up with five sound families from this phase: the nasal [ɑ̃] of the gérondif, liaison after prepositions (en‿Inde), the soft ch [ʃ], -tion [sjɔ̃], and the falling tone of indirect questions.",
-      "hi": "मौखिक कामों से पहले इस चरण की पाँच ध्वनियों से अभ्यास कीजिए: gérondif की नाक वाली आँ, पूर्वसर्ग के बाद liaison (en‿Inde), मुलायम 'श', -tion = स्योँ, और अप्रत्यक्ष प्रश्नों में नीचे जाती आवाज़।"
+      "hi": "मौखिक कामों से पहले इस चरण की पाँच ध्वनियों से अभ्यास कीजिए: gérondif की नाक वाली आँ, पूर्वसर्ग के बाद liaison (en‿Inde), मुलायम 'श', -tion = स्यों, और अप्रत्यक्ष प्रश्नों में नीचे जाती आवाज़।"
     },
     "words": [
       {
         "fr": "en s'inscrivant",
         "en": "by registering",
         "hi": "नाम लिखवाकर",
-        "pron": "आँ सैँस-क्ग़ी-वाँ",
+        "pron": "आँ सैंस-क्री-वाँ",
         "ipa": "ɑ̃ sɛ̃skʁivɑ̃"
       },
       {
         "fr": "en Inde",
         "en": "in India",
         "hi": "भारत में",
-        "pron": "आँ नैँद",
+        "pron": "आँ नैंद",
         "ipa": "ɑ̃n‿ɛ̃d"
       },
       {
         "fr": "le chauffage",
         "en": "heating",
         "hi": "हीटिंग",
-        "pron": "लö शो-फ़ाझ़",
+        "pron": "ल शो-फ़ाज",
         "ipa": "lə ʃofaʒ"
       },
       {
         "fr": "l'inscription",
         "en": "registration",
         "hi": "पंजीकरण / नाम लिखवाना",
-        "pron": "लैँस-क्ग़ीप-स्योँ",
+        "pron": "लैंस-क्रीप-स्यों",
         "ipa": "lɛ̃skʁipsjɔ̃"
       },
       {
         "fr": "je voudrais savoir si",
         "en": "I'd like to know if",
         "hi": "मैं जानना चाहूँगा कि क्या",
-        "pron": "झ़ö वू-द्ग़ै सा-वाग़ सी",
+        "pron": "ज वू-द्रे सा-वार सी",
         "ipa": "ʒə vudʁɛ savwaʁ si"
       }
     ]
@@ -382,7 +382,8 @@
     "questions": [
       {
         "q": {
-          "en": "Document 1: What is offered during the metro closure?"
+          "en": "Document 1: What is offered during the metro closure?",
+          "hi": "दस्तावेज़ 1: मेट्रो बंद रहने के दौरान क्या सुविधा दी जाती है?"
         },
         "options": [
           "A discount on monthly passes",
@@ -396,11 +397,18 @@
           "hi": "'des navettes gratuites seront offertes toutes les cinq minutes' — हर पाँच मिनट पर मुफ़्त शटल।"
         },
         "kind": "literal",
-        "evidence": "Des navettes gratuites seront offertes toutes les cinq minutes."
+        "evidence": "Des navettes gratuites seront offertes toutes les cinq minutes.",
+        "optionsHi": [
+          "मासिक पासों पर छूट",
+          "कुछ नहीं; यात्रियों को पैदल चलना होगा",
+          "हर पाँच मिनट पर मुफ़्त शटल",
+          "मुफ़्त टैक्सियाँ"
+        ]
       },
       {
         "q": {
-          "en": "Document 1: What are travellers advised to do?"
+          "en": "Document 1: What are travellers advised to do?",
+          "hi": "दस्तावेज़ 1: यात्रियों को क्या करने की सलाह दी गई है?"
         },
         "options": [
           "Allow twenty extra minutes",
@@ -414,11 +422,18 @@
           "hi": "'prévoyez vingt minutes de plus' — बीस मिनट ज़्यादा रखिए।"
         },
         "kind": "literal",
-        "evidence": "Prévoyez vingt minutes de plus pour vos déplacements."
+        "evidence": "Prévoyez vingt minutes de plus pour vos déplacements.",
+        "optionsHi": [
+          "बीस मिनट अतिरिक्त रखें",
+          "केवल सोमवार को यात्रा करें",
+          "ऑरेंज लाइन का इस्तेमाल करें",
+          "पहले से टिकट खरीद लें"
+        ]
       },
       {
         "q": {
-          "en": "Document 2: What is missing from the file?"
+          "en": "Document 2: What is missing from the file?",
+          "hi": "दस्तावेज़ 2: फ़ाइल में क्या कमी है?"
         },
         "options": [
           "The payment",
@@ -432,11 +447,18 @@
           "hi": "'il manque une pièce d'identité' — पहचान-पत्र कम है।"
         },
         "kind": "literal",
-        "evidence": "il manque une pièce d'identité."
+        "evidence": "il manque une pièce d'identité.",
+        "optionsHi": [
+          "भुगतान",
+          "एक फ़ोटो",
+          "पते का प्रमाण",
+          "एक पहचान-पत्र"
+        ]
       },
       {
         "q": {
-          "en": "Document 2: What does 'il ne reste que deux places' imply?"
+          "en": "Document 2: What does 'il ne reste que deux places' imply?",
+          "hi": "दस्तावेज़ 2: 'il ne reste que deux places' से क्या संकेत मिलता है?"
         },
         "options": [
           "Two classes are offered",
@@ -450,11 +472,18 @@
           "hi": "ne … que = सिर्फ़: मंगलवार वाला समूह लगभग भर गया है, इसलिए जल्दी फ़ाइल पूरी करना बेहतर है।"
         },
         "kind": "inference",
-        "evidence": "le groupe du mardi est presque complet : il ne reste que deux places."
+        "evidence": "le groupe du mardi est presque complet : il ne reste que deux places.",
+        "optionsHi": [
+          "दो कक्षाएँ उपलब्ध हैं",
+          "व्यक्ति को जल्दी कदम उठाना चाहिए",
+          "कक्षा रद्द हो गई है",
+          "कक्षा मुफ़्त है"
+        ]
       },
       {
         "q": {
-          "en": "Document 3: What has the garden brought Mme Okafor?"
+          "en": "Document 3: What has the garden brought Mme Okafor?",
+          "hi": "दस्तावेज़ 3: बगीचे से Mme Okafor को क्या मिला है?"
         },
         "options": [
           "Money from selling vegetables",
@@ -468,11 +497,18 @@
           "hi": "'en jardinant ici, j'ai rencontré mes voisins' — पड़ोसियों से मेल-जोल (gérondif)।"
         },
         "kind": "literal",
-        "evidence": "En jardinant ici, j'ai rencontré mes voisins"
+        "evidence": "En jardinant ici, j'ai rencontré mes voisins",
+        "optionsHi": [
+          "सब्ज़ियाँ बेचकर पैसे",
+          "एक नया अपार्टमेंट",
+          "अपने पड़ोसियों से मेलजोल",
+          "एक नौकरी"
+        ]
       },
       {
         "q": {
-          "en": "Document 3: How does M. Lavoie structure his answer?"
+          "en": "Document 3: How does M. Lavoie structure his answer?",
+          "hi": "दस्तावेज़ 3: M. Lavoie अपना जवाब कैसे गढ़ता है?"
         },
         "options": [
           "He concedes a drawback, then gives a stronger advantage",
@@ -486,7 +522,13 @@
           "hi": "'certes, ça demande du travail… il n'en reste pas moins que…' — रियायत + खंडन।"
         },
         "kind": "gist",
-        "evidence": "Certes, ça demande du travail : il faut arroser presque tous les jours en juillet."
+        "evidence": "Certes, ça demande du travail : il faut arroser presque tous les jours en juillet.",
+        "optionsHi": [
+          "वह एक कमी स्वीकार करता है, फिर उससे बड़ा एक फ़ायदा बताता है",
+          "वह केवल काम की शिकायत करता है",
+          "वह आँकड़े देता है",
+          "वह जवाब देने से इनकार करता है"
+        ]
       }
     ],
     "dictation": [
@@ -507,7 +549,7 @@
     "type": "tef_a",
     "instructions": {
       "en": "Quick TEF practice on one ad (today's reading, document A: the Jardin des Lilas community garden). Part 1 — section A (5 minutes): phone the garden coordinator and ask about ten questions the ad does not answer. Part 2 — section B, short version (5 minutes): present the same ad to a friend and convince them to share a plot with you, answering at least three objections.",
-      "hi": "एक ही विज्ञापन पर TEF का छोटा अभ्यास (आज का पठन, दस्तावेज़ A: जार्दैँ दे लीला सामुदायिक बग़ीचा)। भाग 1 — भाग A (5 मिनट): बग़ीचे की संयोजिका को फ़ोन कीजिए और लगभग दस ऐसे सवाल पूछिए जिनका जवाब विज्ञापन में नहीं है। भाग 2 — भाग B, छोटा रूप (5 मिनट): वही विज्ञापन एक दोस्त के सामने पेश कीजिए और उसे अपने साथ एक क्यारी साझा करने के लिए मनाइए, कम से कम तीन आपत्तियों का जवाब देते हुए।"
+      "hi": "एक ही विज्ञापन पर TEF का छोटा अभ्यास (आज का पठन, दस्तावेज़ A: जार्दैं दे लीला सामुदायिक बग़ीचा)। भाग 1 — भाग A (5 मिनट): बग़ीचे की संयोजिका को फ़ोन कीजिए और लगभग दस ऐसे सवाल पूछिए जिनका जवाब विज्ञापन में नहीं है। भाग 2 — भाग B, छोटा रूप (5 मिनट): वही विज्ञापन एक दोस्त के सामने पेश कीजिए और उसे अपने साथ एक क्यारी साझा करने के लिए मनाइए, कम से कम तीन आपत्तियों का जवाब देते हुए।"
     },
     "scenario": {
       "setting": {
@@ -538,50 +580,50 @@
         "fr": "Bonjour, madame. Je vous appelle au sujet des parcelles du jardin des Lilas.",
         "en": "Hello, madam. I'm calling about the plots in the Lilas garden.",
         "hi": "नमस्ते, मैडम। मैं लीला बग़ीचे की क्यारियों के बारे में फ़ोन कर रहा हूँ।",
-        "pron": "बोँ-झ़ूग़ मा-दाम झ़ö वू ज़ा-पैल ओ सü-झ़े दे पाग़-सैल दü झ़ाग़-दैँ दे ली-ला"
+        "pron": "बों-जूर मा-दाम ज वू ज़ा-पेल ओ स्यू-जे दे पार-सेल द्यू जार-दैं दे ली-ला"
       },
       {
         "fr": "Je voudrais savoir si les outils sont fournis.",
         "en": "I'd like to know if tools are provided.",
         "hi": "मैं जानना चाहूँगा कि क्या औज़ार दिए जाते हैं।",
-        "pron": "झ़ö वू-द्ग़ै सा-वाग़ सी ले ज़ू-ती सोँ फ़ूग़-नी"
+        "pron": "ज वू-द्रे सा-वार सी ले ज़ू-ती सों फ़ूर-नी"
       },
       {
         "fr": "Les débutants reçoivent-ils de l'aide ?",
         "en": "Do beginners get help?",
         "hi": "क्या नौसिखियों को मदद मिलती है?",
-        "pron": "ले दे-ब्ü-ताँ ग़ö-स्वाव-तील दö लैद"
+        "pron": "ले दे-ब्यू-ताँ र-स्वाव-तील द लेद"
       },
       {
         "fr": "Pourriez-vous me dire ce qui se passe si je pars en vacances en août ?",
         "en": "Could you tell me what happens if I go on holiday in August?",
         "hi": "क्या आप बता सकती हैं कि अगर मैं अगस्त में छुट्टी पर जाऊँ तो क्या होगा?",
-        "pron": "पू-ग़्ये वू मö दीग़ सö की सö पास सी झ़ö पाग़ आँ वा-काँस आँ नूत"
+        "pron": "पू-र्ये वू म दीर स की स पास सी ज पार आँ वा-काँस आँ नूत"
       },
       {
         "fr": "Arnav, regarde : il s'agit d'un jardin communautaire à deux rues de chez nous.",
         "en": "Arnav, look: it's a community garden two streets from our place.",
         "hi": "अर्णव, देखो: यह हमारे घर से दो गलियाँ दूर एक सामुदायिक बग़ीचा है।",
-        "pron": "आग़-नाव ग़ö-गाग़्द इल सा-झ़ी दैँ झ़ाग़-दैँ को-म्ü-नो-तैग़ आ दö ग़ü दö शे नू",
+        "pron": "आर-नाव र-गार्द इल सा-जी दैं जार-दैं को-म्यू-नो-तेर आ द र्यू द शे नू",
         "model": "Arnav, regarde : il s'agit d'un jardin communautaire à deux rues de chez nous. Pour trente-cinq dollars par année, on aurait une parcelle de douze mètres carrés, de mai à octobre, avec l'eau comprise."
       },
       {
         "fr": "Certes, tu n'y connais rien, mais justement, des bénévoles aident les débutants.",
         "en": "Admittedly, you know nothing about it, but that's the point: volunteers help beginners.",
         "hi": "माना कि तुम्हें इसका कुछ नहीं पता, पर यही तो बात है: स्वयंसेवक नौसिखियों की मदद करते हैं।",
-        "pron": "सैग़त तü नी को-नै ग़्यैँ मै झ़üस-तö-माँ दे बे-ने-वोल ज़ैद ले दे-ब्ü-ताँ"
+        "pron": "सेरत त्यू नी को-ने र्यैं मे ज्यूस-त-माँ दे बे-ने-वोल ज़ेद ले दे-ब्यू-ताँ"
       },
       {
         "fr": "En partageant la parcelle, on n'aurait qu'une heure de travail chacun par semaine.",
         "en": "By sharing the plot, we'd each have only one hour of work a week.",
         "hi": "क्यारी साझा करके हम दोनों को हफ़्ते में सिर्फ़ एक-एक घंटा काम करना होगा।",
-        "pron": "आँ पाग़-ता-झ़ाँ ला पाग़-सैल ओँ नो-ग़ै कüन öग़ दö त्ग़ा-वाय शा-कैँ पाग़ सö-मैन"
+        "pron": "आँ पार-ता-जाँ ला पार-सेल ओं नो-रे क्यून अर द त्रा-वाय शा-कैं पार स-मेन"
       },
       {
         "fr": "Et quand tu seras en Inde, je m'occuperai de tout !",
         "en": "And when you're in India, I'll take care of everything!",
         "hi": "और जब तुम भारत में होगे, मैं सब सँभाल लूँगा!",
-        "pron": "ए काँ तü सö-ग़ा ज़ाँ नैँद झ़ö मो-क्ü-प्ग़े दö तू"
+        "pron": "ए काँ त्यू स-रा ज़ाँ नैंद ज मो-क्यू-प्रे द तू"
       }
     ],
     "tip": {
@@ -600,7 +642,8 @@
     "questions": [
       {
         "q": {
-          "en": "Document A: What happens if there are more requests than plots?"
+          "en": "Document A: What happens if there are more requests than plots?",
+          "hi": "दस्तावेज़ A: अगर भूखंडों से ज़्यादा अनुरोध आएँ तो क्या होता है?"
         },
         "options": [
           "The fee goes up",
@@ -614,11 +657,18 @@
           "hi": "'attribuées par tirage au sort' — लॉटरी से दी जाएँगी।"
         },
         "kind": "literal",
-        "evidence": "Les parcelles seront attribuées par tirage au sort si les demandes dépassent les places disponibles."
+        "evidence": "Les parcelles seront attribuées par tirage au sort si les demandes dépassent les places disponibles.",
+        "optionsHi": [
+          "शुल्क बढ़ जाता है",
+          "भूखंड लॉटरी से दिए जाते हैं",
+          "जो पहले पंजीकरण करते हैं उन्हें मिलते हैं",
+          "भूखंड छोटे कर दिए जाते हैं"
+        ]
       },
       {
         "q": {
-          "en": "Document B: What changes for the conversation workshop?"
+          "en": "Document B: What changes for the conversation workshop?",
+          "hi": "दस्तावेज़ B: बातचीत की कार्यशाला में क्या बदलता है?"
         },
         "options": [
           "The time",
@@ -632,11 +682,18 @@
           "hi": "कार्यशाला सामुदायिक केंद्र के कमरा 2 में जाती है; 'l'horaire ne change pas' — समय वही।"
         },
         "kind": "literal",
-        "evidence": "L'horaire ne change pas : de 18 h 30 à 20 h."
+        "evidence": "L'horaire ne change pas : de 18 h 30 à 20 h.",
+        "optionsHi": [
+          "समय",
+          "दिन",
+          "संचालक",
+          "कमरा"
+        ]
       },
       {
         "q": {
-          "en": "Document B: Why is 'avaient prêté' in the plus-que-parfait?"
+          "en": "Document B: Why is 'avaient prêté' in the plus-que-parfait?",
+          "hi": "दस्तावेज़ B: 'avaient prêté' plus-que-parfait में क्यों है?"
         },
         "options": [
           "The lending happened before the current situation",
@@ -650,11 +707,18 @@
           "hi": "किताबें पहले, बंद होने से पहले उधार दी गई थीं: एक संदर्भ-बिंदु से पहले की क्रिया।"
         },
         "kind": "grammar",
-        "evidence": "Les personnes qui avaient prêté des livres à la bibliothèque peuvent les récupérer à l'accueil jusqu'au 30 mars."
+        "evidence": "Les personnes qui avaient prêté des livres à la bibliothèque peuvent les récupérer à l'accueil jusqu'au 30 mars.",
+        "optionsHi": [
+          "उधार देना मौजूदा स्थिति से पहले हुआ था",
+          "यह भविष्य की क्रिया है",
+          "यह विनम्र अनुरोध है",
+          "यह वर्तमान की एक आदत बताता है"
+        ]
       },
       {
         "q": {
-          "en": "Document C: According to its supporters, what would compulsory volunteering allow?"
+          "en": "Document C: According to its supporters, what would compulsory volunteering allow?",
+          "hi": "दस्तावेज़ C: समर्थकों के अनुसार अनिवार्य स्वयंसेवा से क्या संभव होगा?"
         },
         "options": [
           "Replacing classes",
@@ -668,11 +732,18 @@
           "hi": "'… découvrir le monde du travail et de s'engager dans leur communauté' — काम की दुनिया को जानना और समुदाय से जुड़ना।"
         },
         "kind": "literal",
-        "evidence": "cette mesure permettrait aux jeunes de découvrir le monde du travail et de s'engager dans leur communauté."
+        "evidence": "cette mesure permettrait aux jeunes de découvrir le monde du travail et de s'engager dans leur communauté.",
+        "optionsHi": [
+          "कक्षाओं की जगह लेना",
+          "परिवारों की आर्थिक मदद करना",
+          "काम की दुनिया को जानना और समुदाय में शामिल होना",
+          "विश्वविद्यालय के लिए पैसे कमाना"
+        ]
       },
       {
         "q": {
-          "en": "Document C: Which students might be penalised, according to some parents?"
+          "en": "Document C: Which students might be penalised, according to some parents?",
+          "hi": "दस्तावेज़ C: कुछ अभिभावकों के अनुसार किन छात्रों को नुकसान हो सकता है?"
         },
         "options": [
           "Those who live far from school",
@@ -686,11 +757,18 @@
           "hi": "'… les élèves qui travaillent déjà le week-end pour aider leur famille' — जो पहले से सप्ताहांत में काम करते हैं।"
         },
         "kind": "literal",
-        "evidence": "elle risque de pénaliser les élèves qui travaillent déjà le week-end pour aider leur famille."
+        "evidence": "elle risque de pénaliser les élèves qui travaillent déjà le week-end pour aider leur famille.",
+        "optionsHi": [
+          "जो स्कूल से दूर रहते हैं",
+          "जो अपने परिवार की मदद के लिए पहले से सप्ताहांत में काम करते हैं",
+          "जिन्हें स्कूल पसंद नहीं है",
+          "जो पहले से स्वयंसेवा करते हैं"
+        ]
       },
       {
         "q": {
-          "en": "Document C: What is the article's overall tone?"
+          "en": "Document C: What is the article's overall tone?",
+          "hi": "दस्तावेज़ C: लेख का समग्र लहजा कैसा है?"
         },
         "options": [
           "Strongly in favour of the measure",
@@ -704,7 +782,13 @@
           "hi": "यह समर्थकों, चिंतित माता-पिता और दूसरे आलोचकों की बात बताता है, फिर बिना पक्ष लिए परामर्श की घोषणा करता है।"
         },
         "kind": "gist",
-        "evidence": "Une consultation publique sera organisée au mois de mai."
+        "evidence": "Une consultation publique sera organisée au mois de mai.",
+        "optionsHi": [
+          "उपाय के पक्ष में पूरी तरह",
+          "उपाय के विरोध में पूरी तरह",
+          "हास्यपूर्ण",
+          "संतुलित: यह दोनों पक्ष और आगामी परामर्श प्रस्तुत करता है"
+        ]
       }
     ]
   },
@@ -736,19 +820,19 @@
         "fr": "Je souhaite réagir à votre article paru le…",
         "en": "I would like to respond to your article published on…",
         "hi": "मैं … को छपे आपके लेख पर प्रतिक्रिया देना चाहता हूँ।",
-        "pron": "झ़ö स्वैत ग़े-आ-झ़ीग़ आ वॉत्ग़ आग़-तीक्ल पा-ग़ü लö"
+        "pron": "ज स्वेत रे-आ-जीर आ वॉत्र आर-तीक्ल पा-र्यू ल"
       },
       {
         "fr": "À mon avis, cette mesure devrait être adoptée.",
         "en": "In my opinion, this measure should be adopted.",
         "hi": "मेरी राय में यह क़दम अपनाया जाना चाहिए।",
-        "pron": "आ मोँ ना-वी सैत मö-ज़üग़ दö-व्ग़ै तैत्ग़ आ-दॉप-ते"
+        "pron": "आ मों ना-वी सेत म-ज़्यूर द-व्रे तेत्र आ-दॉप-ते"
       },
       {
         "fr": "En aidant les autres, on apprend à…",
         "en": "By helping others, you learn to…",
         "hi": "दूसरों की मदद करते हुए हम … सीखते हैं",
-        "pron": "आँ नै-दाँ ले ज़ोत्ग़ ओँ ना-प्ग़ाँ आ"
+        "pron": "आँ ने-दाँ ले ज़ोत्र ओं ना-प्राँ आ"
       }
     ],
     "model": {
@@ -792,73 +876,73 @@
         "fr": "Le bureau n'ouvre qu'à dix heures.",
         "en": "The office only opens at ten.",
         "hi": "दफ़्तर सिर्फ़ दस बजे खुलता है।",
-        "pron": "लö ब्ü-ग़ो नू-व्ग़ö का दी ज़öग़"
+        "pron": "ल ब्यू-रो नू-व्र का दी ज़र"
       },
       {
         "fr": "Pourriez-vous me dire quand le poste commence ?",
         "en": "Could you tell me when the job starts?",
         "hi": "क्या आप बता सकते हैं कि नौकरी कब शुरू होती है?",
-        "pron": "पू-ग़्ये वू मö दीग़ काँ लö पॉस्त को-माँस"
+        "pron": "पू-र्ये वू म दीर काँ ल पॉस्त को-माँस"
       },
       {
         "fr": "Les pompiers étaient déjà arrivés quand la police a appelé.",
         "en": "The firefighters had already arrived when the police called.",
         "hi": "जब पुलिस ने फ़ोन किया तब तक दमकल वाले पहुँच चुके थे।",
-        "pron": "ले पोँ-प्ये ए-तै दे-झ़ा ज़ा-ग़ी-वे काँ ला पो-लीस आ आप-ले"
+        "pron": "ले पों-प्ये ए-ते दे-जा ज़ा-री-वे काँ ला पो-लीस आ आप-ले"
       },
       {
         "fr": "une petite maison, un grand appartement",
         "en": "a small house, a big apartment",
         "hi": "एक छोटा घर, एक बड़ा फ़्लैट",
-        "pron": "üन पö-तीत मे-ज़ोँ ऐँ ग्ग़ाँ ता-पाग़-तö-माँ"
+        "pron": "यून प-तीत मे-ज़ों ऐं ग्राँ ता-पार-त-माँ"
       },
       {
         "fr": "Les résultats seront publiés en juin.",
         "en": "The results will be published in June.",
         "hi": "नतीजे जून में प्रकाशित किए जाएँगे।",
-        "pron": "ले ग़े-ज़üल-ता सö-ग़ोँ प्ü-ब्ली-ये आँ झ़्वैँ"
+        "pron": "ले रे-ज़्यूल-ता स-रों प्यू-ब्ली-ये आँ ज्वैं"
       },
       {
         "fr": "Tout en travaillant, il prépare le TEF.",
         "en": "While working, he is preparing for the TEF.",
         "hi": "काम करते हुए भी वह TEF की तैयारी कर रहा है।",
-        "pron": "तू ताँ त्ग़ा-वा-याँ इल प्ग़े-पाग़ लö तैफ़"
+        "pron": "तू ताँ त्रा-वा-याँ इल प्रे-पार ल तेफ़"
       },
       {
         "fr": "Le chauffage est-il inclus dans le loyer ?",
         "en": "Is heating included in the rent?",
         "hi": "क्या हीटिंग किराये में शामिल है?",
-        "pron": "लö शो-फ़ाझ़ ए-तील ऐँ-क्लü दाँ लö ल्वा-ये"
+        "pron": "ल शो-फ़ाज ए-तील ऐं-क्ल्यू दाँ ल ल्वा-ये"
       },
       {
         "fr": "Sans compter que la formation est gratuite.",
         "en": "Not to mention that the course is free.",
         "hi": "ऊपर से कोर्स मुफ़्त है।",
-        "pron": "साँ कोँ-ते कö ला फ़ॉग़-मा-स्योँ ए ग्ग़ा-त्üइत"
+        "pron": "साँ कों-ते क ला फ़ॉर-मा-स्यों ए ग्रा-त्यूइत"
       },
       {
         "fr": "Bien que ce soit cher, c'est utile.",
         "en": "Although it's expensive, it's useful.",
         "hi": "हालाँकि यह महँगा है, उपयोगी है।",
-        "pron": "ब्यैँ कö सö स्वा शैग़ सै तü-तील"
+        "pron": "ब्यैं क स स्वा शेर से त्यू-तील"
       },
       {
         "fr": "J'ai décidé de m'installer au Québec.",
         "en": "I decided to settle in Québec.",
         "hi": "मैंने क्यूबेक में बसने का फ़ैसला किया।",
-        "pron": "झ़े दे-सी-दे दö मैँ-स्ता-ले ओ के-बैक"
+        "pron": "जे दे-सी-दे द मैं-स्ता-ले ओ के-बेक"
       },
       {
         "fr": "Elle a commencé à travailler en Alberta.",
         "en": "She started working in Alberta.",
         "hi": "उसने अल्बर्टा में काम करना शुरू किया।",
-        "pron": "ऐ-ला को-माँ-से आ त्ग़ा-वा-ये आँ नाल-बैग़-ता"
+        "pron": "ए-ला को-माँ-से आ त्रा-वा-ये आँ नाल-बेर-ता"
       },
       {
         "fr": "S'il fait beau, nous irons au parc.",
         "en": "If the weather is nice, we'll go to the park.",
         "hi": "अगर मौसम अच्छा हुआ, तो हम पार्क जाएँगे।",
-        "pron": "सील फ़ै बो नू ज़ी-ग़ोँ ओ पाग़क"
+        "pron": "सील फ़े बो नू ज़ी-रों ओ पारक"
       }
     ]
   },

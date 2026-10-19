@@ -17,26 +17,26 @@
   "checkpoint": false,
   "mock": { "id": "mock-2", "part": "review" },
   "vocabulary": [
-    { "fr": "par rapport à", "en": "compared with", "hi": "… की तुलना में", "pron": "पाग़ ग़ा-पॉग़ आ", "ipa": "paʁ ʁapɔʁ a", "pos": "preposition" },
-    { "fr": "s'améliorer", "en": "to improve, to get better", "hi": "सुधरना / बेहतर होना", "pron": "सा-मे-ल्यो-ग़े", "ipa": "sameljɔʁe", "pos": "verb" },
-    { "fr": "baisser", "en": "to go down, to drop", "hi": "घटना / कम होना", "pron": "बै-से", "ipa": "bese", "pos": "verb" },
+    { "fr": "par rapport à", "en": "compared with", "hi": "… की तुलना में", "pron": "पार रा-पॉर आ", "ipa": "paʁ ʁapɔʁ a", "pos": "preposition" },
+    { "fr": "s'améliorer", "en": "to improve, to get better", "hi": "सुधरना / बेहतर होना", "pron": "सा-मे-ल्यो-रे", "ipa": "sameljɔʁe", "pos": "verb" },
+    { "fr": "baisser", "en": "to go down, to drop", "hi": "घटना / कम होना", "pron": "बे-से", "ipa": "bese", "pos": "verb" },
     { "fr": "augmenter", "en": "to increase", "hi": "बढ़ना", "pron": "ओग-माँ-ते", "ipa": "ɔɡmɑ̃te", "pos": "verb" },
-    { "fr": "rester stable", "en": "to stay the same, to remain stable", "hi": "स्थिर रहना", "pron": "ग़ैस-ते स्ताब्ल", "ipa": "ʁɛste stabl", "pos": "phrase" },
-    { "fr": "la progression", "en": "progress, improvement", "hi": "प्रगति", "pron": "ला प्ग़ो-ग्ग़ै-स्योँ", "ipa": "la pʁɔɡʁɛsjɔ̃", "pos": "noun", "gender": "f", "lemma": "progression" },
-    { "fr": "persister", "en": "to persist, to keep happening", "hi": "बने रहना / बार-बार होना", "pron": "पैग़-सीस-ते", "ipa": "pɛʁsiste", "pos": "verb" },
-    { "fr": "résolu", "en": "solved", "hi": "सुलझा हुआ", "pron": "ग़े-ज़ो-लü", "ipa": "ʁezɔly", "pos": "adjective" },
-    { "fr": "désormais", "en": "from now on", "hi": "अब से", "pron": "दे-ज़ॉग़-मै", "ipa": "dezɔʁmɛ", "pos": "adverb" },
-    { "fr": "le loyer moyen", "en": "the average rent", "hi": "औसत किराया", "pron": "लö ल्वा-ये म्वा-यैँ", "ipa": "lə lwaje mwajɛ̃", "pos": "noun", "gender": "m", "lemma": "loyer" },
+    { "fr": "rester stable", "en": "to stay the same, to remain stable", "hi": "स्थिर रहना", "pron": "रेस-ते स्ताब्ल", "ipa": "ʁɛste stabl", "pos": "phrase" },
+    { "fr": "la progression", "en": "progress, improvement", "hi": "प्रगति", "pron": "ला प्रो-ग्रे-स्यों", "ipa": "la pʁɔɡʁɛsjɔ̃", "pos": "noun", "gender": "f", "lemma": "progression" },
+    { "fr": "persister", "en": "to persist, to keep happening", "hi": "बने रहना / बार-बार होना", "pron": "पेर-सिस-ते", "ipa": "pɛʁsiste", "pos": "verb" },
+    { "fr": "résolu", "en": "solved", "hi": "सुलझा हुआ", "pron": "रे-ज़ो-ल्यू", "ipa": "ʁezɔly", "pos": "adjective" },
+    { "fr": "désormais", "en": "from now on", "hi": "अब से", "pron": "दे-ज़ॉर-मे", "ipa": "dezɔʁmɛ", "pos": "adverb" },
+    { "fr": "le loyer moyen", "en": "the average rent", "hi": "औसत किराया", "pron": "ल ल्वा-ये म्वा-यैं", "ipa": "lə lwaje mwajɛ̃", "pos": "noun", "gender": "m", "lemma": "loyer" },
     { "fr": "la hausse", "en": "rise, increase", "hi": "बढ़ोतरी", "pron": "ला ओस", "ipa": "la os", "pos": "noun", "gender": "f", "lemma": "hausse", "note": { "en": "The h is silent but 'aspirated': la hausse, never l'hausse.", "hi": "h बोला नहीं जाता, पर यह 'aspiré' है: la hausse, l'hausse कभी नहीं।" } },
-    { "fr": "le bail", "en": "lease (pl. les baux)", "hi": "किराए का अनुबंध", "pron": "लö बाय", "ipa": "lə baj", "pos": "noun", "gender": "m", "lemma": "bail" }
+    { "fr": "le bail", "en": "lease (pl. les baux)", "hi": "किराए का अनुबंध", "pron": "ल बाय", "ipa": "lə baj", "pos": "noun", "gender": "m", "lemma": "bail" }
   ],
   "phrases": [
-    { "fr": "Par rapport au premier examen, j'ai gagné quatre points.", "en": "Compared with the first exam, I gained four points.", "hi": "पहली परीक्षा की तुलना में मेरे चार अंक बढ़े।", "pron": "पाग़ ग़ा-पॉग़ ओ प्ग़ö-म्ये ग़ैग-ज़ा-मैँ झ़े गा-न्ये कात्ग़ प्वैँ" },
-    { "fr": "Mon score en écoute est resté stable.", "en": "My listening score stayed the same.", "hi": "सुनने में मेरे अंक स्थिर रहे।", "pron": "मोँ स्कॉग़ आँ ने-कूत ऐ ग़ैस-ते स्ताब्ल" },
-    { "fr": "Je fais moins d'erreurs d'accord qu'avant.", "en": "I make fewer agreement mistakes than before.", "hi": "मैं पहले से कम मेल वाली ग़लतियाँ करता / करती हूँ।", "pron": "झ़ö फ़ै म्वैँ दे-ग़öग़ दा-कॉग़ का-वाँ" },
-    { "fr": "Cette erreur persiste.", "en": "This mistake keeps happening.", "hi": "यह ग़लती अब भी होती है।", "pron": "सै तै-ग़öग़ पैग़-सीस्त" },
-    { "fr": "Désormais, je vais me concentrer sur l'écrit.", "en": "From now on, I'll focus on writing.", "hi": "अब से मैं लिखने पर ध्यान दूँगा / दूँगी।", "pron": "दे-ज़ॉग़-मै झ़ö वै मö कोँ-साँ-त्ग़े सüग़ ले-क्ग़ी" },
-    { "fr": "C'est résolu !", "en": "That's solved!", "hi": "यह सुलझ गया!", "pron": "सै ग़े-ज़ो-लü" }
+    { "fr": "Par rapport au premier examen, j'ai gagné quatre points.", "en": "Compared with the first exam, I gained four points.", "hi": "पहली परीक्षा की तुलना में मेरे चार अंक बढ़े।", "pron": "पार रा-पॉर ओ प्र-म्ये रेग-ज़ा-मैं जे गा-न्ये कात्र प्वैं" },
+    { "fr": "Mon score en écoute est resté stable.", "en": "My listening score stayed the same.", "hi": "सुनने में मेरे अंक स्थिर रहे।", "pron": "मों स्कॉर आँ ने-कूत ए रेस-ते स्ताब्ल" },
+    { "fr": "Je fais moins d'erreurs d'accord qu'avant.", "en": "I make fewer agreement mistakes than before.", "hi": "मैं पहले से कम मेल वाली ग़लतियाँ करता / करती हूँ।", "pron": "ज फ़े म्वैं दे-रर दा-कॉर का-वाँ" },
+    { "fr": "Cette erreur persiste.", "en": "This mistake keeps happening.", "hi": "यह ग़लती अब भी होती है।", "pron": "से ते-रर पेर-सीस्त" },
+    { "fr": "Désormais, je vais me concentrer sur l'écrit.", "en": "From now on, I'll focus on writing.", "hi": "अब से मैं लिखने पर ध्यान दूँगा / दूँगी।", "pron": "दे-ज़ॉर-मे ज वे म कों-साँ-त्रे स्यूर ले-क्री" },
+    { "fr": "C'est résolu !", "en": "That's solved!", "hi": "यह सुलझ गया!", "pron": "से रे-ज़ो-ल्यू" }
   ],
   "grammar": {
     "title": { "en": "Comparing two results and describing change", "hi": "दो नतीजों की तुलना करना और बदलाव बताना" },
@@ -49,11 +49,11 @@
       "hi": "हिंदी में तुलना का शब्द आधार के बाद आता है: 'पहले से बेहतर'। फ़्रेंच में que आधार से पहले आता है: 'meilleur qu'avant'। और जैसे अंग्रेज़ी में 'more good' ग़लत है, वैसे ही फ़्रेंच में 'plus bon' ग़लत है: meilleur लिखिए।"
     },
     "examples": [
-      { "fr": "Mon score en lecture est meilleur qu'au premier examen.", "en": "My reading score is better than in the first exam.", "hi": "पठन में मेरे अंक पहली परीक्षा से बेहतर हैं।", "pron": "मोँ स्कॉग़ आँ लैक-तüग़ ऐ मै-यöग़ को प्ग़ö-म्ये ग़ैग-ज़ा-मैँ" },
-      { "fr": "Je suis passé de 22 à 27 sur 40.", "en": "I went from 22 to 27 out of 40.", "hi": "मैं 40 में से 22 से 27 पर पहुँचा।", "pron": "झ़ö स्üई पा-से दö वैँ-त-दö आ वैँत-सैत सüग़ का-ग़ाँत" },
-      { "fr": "J'ai fait autant de fautes de genre que la dernière fois.", "en": "I made as many gender mistakes as last time.", "hi": "मैंने पिछली बार जितनी ही लिंग की ग़लतियाँ कीं।", "pron": "झ़े फ़ै ओ-ताँ द फ़ोत द झ़ाँग्ग़ कö ला दैग़-न्यैग़ फ़्वा" },
-      { "fr": "Les erreurs de détail ont baissé de moitié.", "en": "Detail errors have dropped by half.", "hi": "बारीक जानकारी वाली ग़लतियाँ आधी हो गई हैं।", "pron": "ले ज़े-ग़öग़ दö दे-ताय ओँ बै-से दö म्वा-त्ये" },
-      { "fr": "J'écoute mieux qu'avant, mais je lis moins vite.", "en": "I listen better than before, but I read less quickly.", "hi": "मैं पहले से बेहतर सुनता / सुनती हूँ, पर पढ़ता / पढ़ती धीरे हूँ।", "pron": "झ़े-कूत म्यö का-वाँ मै झ़ö ली म्वैँ वीत" }
+      { "fr": "Mon score en lecture est meilleur qu'au premier examen.", "en": "My reading score is better than in the first exam.", "hi": "पठन में मेरे अंक पहली परीक्षा से बेहतर हैं।", "pron": "मों स्कॉर आँ लेक-त्यूर ए मे-यर को प्र-म्ये रेग-ज़ा-मैं" },
+      { "fr": "Je suis passé de 22 à 27 sur 40.", "en": "I went from 22 to 27 out of 40.", "hi": "मैं 40 में से 22 से 27 पर पहुँचा।", "pron": "ज स्यूई पा-से द वैं-त-द आ वैंत-सेत स्यूर का-राँत" },
+      { "fr": "J'ai fait autant de fautes de genre que la dernière fois.", "en": "I made as many gender mistakes as last time.", "hi": "मैंने पिछली बार जितनी ही लिंग की ग़लतियाँ कीं।", "pron": "जे फ़े ओ-ताँ द फ़ोत द जाँग्र क ला देर-न्येर फ़्वा" },
+      { "fr": "Les erreurs de détail ont baissé de moitié.", "en": "Detail errors have dropped by half.", "hi": "बारीक जानकारी वाली ग़लतियाँ आधी हो गई हैं।", "pron": "ले ज़े-रर द दे-ताय ओं बे-से द म्वा-त्ये" },
+      { "fr": "J'écoute mieux qu'avant, mais je lis moins vite.", "en": "I listen better than before, but I read less quickly.", "hi": "मैं पहले से बेहतर सुनता / सुनती हूँ, पर पढ़ता / पढ़ती धीरे हूँ।", "pron": "जे-कूत म्य का-वाँ मे ज ली म्वैं वीत" }
     ],
     "pitfalls": [
       { "en": "'Plus bon' and 'plus bien' don't exist: say meilleur (adjective) and mieux (adverb).", "hi": "'Plus bon' और 'plus bien' होते ही नहीं: meilleur (विशेषण) और mieux (क्रियाविशेषण) कहिए।" },
@@ -68,11 +68,11 @@
       "hi": "संख्याएँ सुनने में आम जाल थीं। नीचे की रेडियो रिपोर्ट को शैडो कीजिए और हर संख्या को एक टुकड़े की तरह बोलिए: mille-quatre-cent-cinquante। फिर सिर्फ़ संख्याएँ तेज़ी से तीन बार बोलिए।"
     },
     "words": [
-      { "fr": "mille quatre cent cinquante", "en": "one thousand four hundred and fifty", "hi": "एक हज़ार चार सौ पचास", "pron": "मील कात्ग़ साँ सैँ-काँत", "ipa": "mil katʁ sɑ̃ sɛ̃kɑ̃t" },
-      { "fr": "mille trois cent quarante", "en": "one thousand three hundred and forty", "hi": "एक हज़ार तीन सौ चालीस", "pron": "मील त्ग़्वा साँ का-ग़ाँत", "ipa": "mil tʁwa sɑ̃ kaʁɑ̃t" },
-      { "fr": "huit pour cent", "en": "eight per cent", "hi": "आठ प्रतिशत", "pron": "üईत पूग़ साँ", "ipa": "ɥit puʁ sɑ̃" },
-      { "fr": "mille huit cents", "en": "one thousand eight hundred", "hi": "एक हज़ार आठ सौ", "pron": "मील üई साँ", "ipa": "mil ɥi sɑ̃", "note": { "en": "Before a consonant, the t of huit is silent: huit cents = üई साँ.", "hi": "व्यंजन से पहले huit का t नहीं बोला जाता: huit cents = üई साँ।" } },
-      { "fr": "de moitié", "en": "by half", "hi": "आधा", "pron": "दö म्वा-त्ये", "ipa": "də mwatje" }
+      { "fr": "mille quatre cent cinquante", "en": "one thousand four hundred and fifty", "hi": "एक हज़ार चार सौ पचास", "pron": "मील कात्र साँ सैं-काँत", "ipa": "mil katʁ sɑ̃ sɛ̃kɑ̃t" },
+      { "fr": "mille trois cent quarante", "en": "one thousand three hundred and forty", "hi": "एक हज़ार तीन सौ चालीस", "pron": "मील त्र्वा साँ का-राँत", "ipa": "mil tʁwa sɑ̃ kaʁɑ̃t" },
+      { "fr": "huit pour cent", "en": "eight per cent", "hi": "आठ प्रतिशत", "pron": "यूईत पूर साँ", "ipa": "ɥit puʁ sɑ̃" },
+      { "fr": "mille huit cents", "en": "one thousand eight hundred", "hi": "एक हज़ार आठ सौ", "pron": "मील यूई साँ", "ipa": "mil ɥi sɑ̃", "note": { "en": "Before a consonant, the t of huit is silent: huit cents = यूई साँ.", "hi": "व्यंजन से पहले huit का t नहीं बोला जाता: huit cents = यूई साँ।" } },
+      { "fr": "de moitié", "en": "by half", "hi": "आधा", "pron": "द म्वा-त्ये", "ipa": "də mwatje" }
     ]
   },
   "listening": {
@@ -91,11 +91,11 @@
       { "speaker": "Journaliste", "voice": "f2", "fr": "Pour les locataires, la situation ne devrait pas s'améliorer avant deux ou trois ans, estime l'économiste Julie Paquette. Elle conseille de signer des baux de longue durée lorsque c'est possible.", "en": "For tenants, the situation is not expected to improve for another two or three years, says the economist Julie Paquette. She advises signing long leases when possible.", "hi": "अर्थशास्त्री जूली पाकेत का अनुमान है कि किरायेदारों के लिए हालात दो-तीन साल से पहले नहीं सुधरेंगे। उनकी सलाह है कि जहाँ हो सके, लंबी अवधि के अनुबंध पर हस्ताक्षर करें।" }
     ],
     "questions": [
-      { "q": { "en": "By how much has the average rent in Gatineau risen?" }, "options": ["Two per cent", "Five per cent", "Eight per cent", "Eighteen per cent"], "answer": 2, "explanation": { "en": "'A augmenté de huit pour cent en un an.' Five is Ottawa; two is the vacancy rate.", "hi": "'A augmenté de huit pour cent en un an.' पाँच ओटावा का है; दो ख़ाली मकानों का अनुपात।" }, "kind": "literal", "evidence": "a augmenté de huit pour cent en un an" },
-      { "q": { "en": "What was the average rent in Gatineau last year?" }, "options": ["$1,340", "$1,450", "$1,800", "$1,540"], "answer": 0, "explanation": { "en": "'Contre mille trois cent quarante l'an dernier.' 1,450 is the current rent.", "hi": "'Contre mille trois cent quarante l'an dernier.' 1,450 मौजूदा किराया है।" }, "kind": "literal", "evidence": "contre mille trois cent quarante l'an dernier" },
-      { "q": { "en": "How does Ottawa compare with Gatineau?" }, "options": ["Rents are lower and rising faster", "Rents are higher but rising more slowly", "Rents are the same", "Rents are falling"], "answer": 1, "explanation": { "en": "'La hausse est moins forte … mais les loyers restent plus élevés.'", "hi": "'La hausse est moins forte … mais les loyers restent plus élevés' — बढ़ोतरी कम, किराए ज़्यादा।" }, "kind": "inference", "evidence": "la hausse est moins forte" },
-      { "q": { "en": "What happened to the vacancy rate?" }, "options": ["It doubled", "It went down", "It went up slightly", "It stayed the same"], "answer": 3, "explanation": { "en": "'Est resté stable à deux pour cent.'", "hi": "'Est resté stable à deux pour cent' — स्थिर रहा।" }, "kind": "vocabulary", "evidence": "est resté stable à deux pour cent" },
-      { "q": { "en": "What does the economist advise tenants?" }, "options": ["To move to Ottawa", "To buy a house", "To sign long leases when possible", "To wait two years before moving"], "answer": 2, "explanation": { "en": "'Elle conseille de signer des baux de longue durée lorsque c'est possible.'", "hi": "'Elle conseille de signer des baux de longue durée lorsque c'est possible' — लंबे अनुबंध।" }, "kind": "literal", "evidence": "signer des baux de longue durée" }
+      { "q": { "en": "By how much has the average rent in Gatineau risen?", "hi": "गातिनो में औसत किराया कितना बढ़ा है?" }, "options": ["Two per cent", "Five per cent", "Eight per cent", "Eighteen per cent"], "answer": 2, "explanation": { "en": "'A augmenté de huit pour cent en un an.' Five is Ottawa; two is the vacancy rate.", "hi": "'A augmenté de huit pour cent en un an.' पाँच ओटावा का है; दो ख़ाली मकानों का अनुपात।" }, "kind": "literal", "evidence": "a augmenté de huit pour cent en un an" },
+      { "q": { "en": "What was the average rent in Gatineau last year?", "hi": "पिछले साल गातिनो में औसत किराया कितना था?" }, "options": ["$1,340", "$1,450", "$1,800", "$1,540"], "answer": 0, "explanation": { "en": "'Contre mille trois cent quarante l'an dernier.' 1,450 is the current rent.", "hi": "'Contre mille trois cent quarante l'an dernier.' 1,450 मौजूदा किराया है।" }, "kind": "literal", "evidence": "contre mille trois cent quarante l'an dernier" },
+      { "q": { "en": "How does Ottawa compare with Gatineau?", "hi": "ओटावा की तुलना गातिनो से कैसे की गई है?" }, "options": ["Rents are lower and rising faster", "Rents are higher but rising more slowly", "Rents are the same", "Rents are falling"], "optionsHi": ["किराए कम हैं और ज़्यादा तेज़ी से बढ़ रहे हैं", "किराए ज़्यादा हैं पर धीमे बढ़ रहे हैं", "किराए समान हैं", "किराए गिर रहे हैं"], "answer": 1, "explanation": { "en": "'La hausse est moins forte … mais les loyers restent plus élevés.'", "hi": "'La hausse est moins forte … mais les loyers restent plus élevés' — बढ़ोतरी कम, किराए ज़्यादा।" }, "kind": "inference", "evidence": "la hausse est moins forte" },
+      { "q": { "en": "What happened to the vacancy rate?", "hi": "रिक्तता दर (वेकेंसी रेट) का क्या हुआ?" }, "options": ["It doubled", "It went down", "It went up slightly", "It stayed the same"], "optionsHi": ["वह दोगुनी हो गई", "वह घट गई", "वह थोड़ी बढ़ गई", "वह वैसी ही रही"], "answer": 3, "explanation": { "en": "'Est resté stable à deux pour cent.'", "hi": "'Est resté stable à deux pour cent' — स्थिर रहा।" }, "kind": "vocabulary", "evidence": "est resté stable à deux pour cent" },
+      { "q": { "en": "What does the economist advise tenants?", "hi": "अर्थशास्त्री किरायेदारों को क्या सलाह देता है?" }, "options": ["To move to Ottawa", "To buy a house", "To sign long leases when possible", "To wait two years before moving"], "optionsHi": ["ओटावा चले जाएँ", "घर ख़रीद लें", "जहाँ संभव हो, लंबी अवधि के अनुबंध करें", "घर बदलने से पहले दो साल इंतज़ार करें"], "answer": 2, "explanation": { "en": "'Elle conseille de signer des baux de longue durée lorsque c'est possible.'", "hi": "'Elle conseille de signer des baux de longue durée lorsque c'est possible' — लंबे अनुबंध।" }, "kind": "literal", "evidence": "signer des baux de longue durée" }
     ],
     "dictation": [
       "Il atteint désormais mille quatre cent cinquante dollars par mois.",
@@ -123,11 +123,11 @@
       ]
     },
     "prompts": [
-      { "fr": "Bonjour monsieur, je vous appelle au sujet de l'appartement à louer.", "en": "Hello sir, I'm calling about the flat for rent.", "hi": "नमस्ते सर, मैं किराए के फ़्लैट के बारे में फ़ोन कर रहा / रही हूँ।", "pron": "बोँ-झ़ूग़ मö-स्यö झ़ö वू ज़ा-पैल ओ सü-झ़ै दö ला-पाग़-तö-माँ आ लू-ए" },
-      { "fr": "Ah, très bien. Et le chauffage, il est inclus ?", "en": "Ah, very good. And is heating included?", "hi": "अच्छा, बहुत बढ़िया। और हीटिंग, क्या वह शामिल है?", "pron": "आ त्ग़ै ब्यैँ ए लö शो-फ़ाझ़ ई लै तैँ-क्लü" },
-      { "fr": "D'accord. Est-ce que le bail est d'un an ?", "en": "OK. Is the lease for one year?", "hi": "ठीक है। क्या अनुबंध एक साल का है?", "pron": "दा-कॉग़ ऐस कö लö बाय ऐ दैँ नाँ" },
-      { "fr": "Je comprends. Et pour la caution, combien faut-il prévoir ?", "en": "I see. And for the deposit, how much should I plan for?", "hi": "समझ गया / गई। और ज़मानत राशि के लिए कितना रखना होगा?", "pron": "झ़ö कोँ-प्ग़ाँ ए पूग़ ला को-स्योँ कोँ-ब्यैँ फ़ो-तील प्ग़े-व्वाग़" },
-      { "fr": "Si je résume, le loyer est de 1 450 dollars, chauffage compris. Est-ce que je pourrais visiter samedi ?", "en": "To sum up, the rent is $1,450, heating included. Could I visit on Saturday?", "hi": "संक्षेप में, किराया 1,450 डॉलर है, हीटिंग मिलाकर। क्या मैं शनिवार को देखने आ सकता / सकती हूँ?", "pron": "सी झ़ö ग़े-ज़üम लö ल्वा-ये ऐ दö मील कात्ग़ साँ सैँ-काँत दो-लाग़ शो-फ़ाझ़ कोँ-प्ग़ी ऐस कö झ़ö पू-ग़ै वी-ज़ी-ते सम-दी" }
+      { "fr": "Bonjour monsieur, je vous appelle au sujet de l'appartement à louer.", "en": "Hello sir, I'm calling about the flat for rent.", "hi": "नमस्ते सर, मैं किराए के फ़्लैट के बारे में फ़ोन कर रहा / रही हूँ।", "pron": "बों-जूर म-स्य ज वू ज़ा-पेल ओ स्यू-जे द ला-पार-त-माँ आ लू-ए" },
+      { "fr": "Ah, très bien. Et le chauffage, il est inclus ?", "en": "Ah, very good. And is heating included?", "hi": "अच्छा, बहुत बढ़िया। और हीटिंग, क्या वह शामिल है?", "pron": "आ त्रे ब्यैं ए ल शो-फ़ाज ई ले तैं-क्ल्यू" },
+      { "fr": "D'accord. Est-ce que le bail est d'un an ?", "en": "OK. Is the lease for one year?", "hi": "ठीक है। क्या अनुबंध एक साल का है?", "pron": "दा-कॉर एस क ल बाय ए दैं नाँ" },
+      { "fr": "Je comprends. Et pour la caution, combien faut-il prévoir ?", "en": "I see. And for the deposit, how much should I plan for?", "hi": "समझ गया / गई। और ज़मानत राशि के लिए कितना रखना होगा?", "pron": "ज कों-प्राँ ए पूर ला को-स्यों कों-ब्यैं फ़ो-तील प्रे-व्वार" },
+      { "fr": "Si je résume, le loyer est de 1 450 dollars, chauffage compris. Est-ce que je pourrais visiter samedi ?", "en": "To sum up, the rent is $1,450, heating included. Could I visit on Saturday?", "hi": "संक्षेप में, किराया 1,450 डॉलर है, हीटिंग मिलाकर। क्या मैं शनिवार को देखने आ सकता / सकती हूँ?", "pron": "सी ज रे-ज़्यूम ल ल्वा-ये ए द मील कात्र साँ सैं-काँत दो-लार शो-फ़ाज कों-प्री एस क ज पू-रे वी-ज़ी-ते सम-दी" }
     ],
     "tip": {
       "en": "Short reactions (Ah, très bien. / Je comprends. / D'accord.) make section A sound like a real conversation instead of a list of questions.",
@@ -143,12 +143,12 @@
       "hi": "एक महीने पहले, अपनी पहली मॉक परीक्षा के बाद, मैंने ग़लतियों की एक कॉपी शुरू की। शुरू में मुझे इस पर ज़्यादा भरोसा नहीं था: मुझे लगता था कि अभ्यास करना काफ़ी है। मैं ग़लत थी।\n\nमेरी कॉपी के हर पन्ने पर तीन कॉलम हैं। पहले में मैं ग़लत वाक्य लिखती हूँ; दूसरे में सुधरा हुआ वाक्य; तीसरे में ग़लती का प्रकार। हर रविवार मैं सब दोबारा पढ़ती हूँ और प्रकार के हिसाब से ग़लतियाँ गिनती हूँ।\n\nनतीजे साफ़ हैं। मेल (agreement) की मेरी ग़लतियाँ लगभग ग़ायब हो गई हैं: पहले मैं हर पाठ में लगभग दस करती थी, अब दो-तीन करती हूँ। दूसरी ओर, पूर्वसर्ग अब भी मेरा कमज़ोर पहलू हैं। मैं अब भी 'je pense à' की जगह 'je pense de' लिखती हूँ, और अक्सर 'en Inde' और 'au Canada' का फ़र्क़ भूल जाती हूँ।\n\nसुनकर समझने में मेरे अंक स्थिर रहे हैं, लेकिन अब संख्याओं में मेरे अंक नहीं कटते। मैंने बस हर दिन पाँच मिनट मौसम का बुलेटिन सुना और तापमान लिखे।\n\nसबसे हैरानी की बात यह है कि मेरी कॉपी ने मुझे मेरी प्रगति भी दिखाई। जिन दिनों मैं निराश होती हूँ, मैं पहले पन्ने दोबारा पढ़ती हूँ और देखती हूँ कि वे ग़लतियाँ अब मैं नहीं करती।\n\nमेरी सलाह? अपनी सारी ग़लतियाँ मत लिखिए: वे चुनिए जो बार-बार लौटती हैं। और धैर्य रखिए: एक हफ़्ते में कॉपी कुछ नहीं बदलती, पर एक महीने में बहुत कुछ बदल देती है।\n\n— काव्या, TEF की तैयारी कर रही विद्यार्थी"
     },
     "questions": [
-      { "q": { "en": "What did Kavya think at first about the notebook?" }, "options": ["That it would be very useful", "That exercises alone were enough", "That it was too expensive", "That her teacher wanted it"], "answer": 1, "explanation": { "en": "'Je pensais que faire des exercices suffisait. Je me trompais.'", "hi": "'Je pensais que faire des exercices suffisait. Je me trompais.' — उसे लगता था अभ्यास काफ़ी है।" }, "kind": "literal", "evidence": "je pensais que faire des exercices suffisait" },
-      { "q": { "en": "What goes in the third column?" }, "options": ["The corrected sentence", "The date", "The type of error", "The wrong sentence"], "answer": 2, "explanation": { "en": "'Dans la troisième, le type d'erreur.'", "hi": "'Dans la troisième, le type d'erreur' — तीसरे में ग़लती का प्रकार।" }, "kind": "literal", "evidence": "dans la troisième, le type d'erreur" },
-      { "q": { "en": "How have her agreement errors changed?" }, "options": ["From about ten to two or three per text", "They have stayed the same", "They have doubled", "They have completely disappeared"], "answer": 0, "explanation": { "en": "'J'en faisais une dizaine par texte, j'en fais maintenant deux ou trois.' 'Presque disparu' means almost, not completely: a trap.", "hi": "'J'en faisais une dizaine par texte, j'en fais maintenant deux ou trois.' 'Presque disparu' का मतलब लगभग है, पूरी तरह नहीं: यह जाल है।" }, "kind": "inference", "evidence": "j'en faisais une dizaine par texte, j'en fais maintenant deux ou trois" },
-      { "q": { "en": "What is still her weak point?" }, "options": ["Numbers", "Agreement", "Vocabulary", "Prepositions"], "answer": 3, "explanation": { "en": "'Les prépositions restent mon point faible.'", "hi": "'Les prépositions restent mon point faible' — पूर्वसर्ग।" }, "kind": "literal", "evidence": "les prépositions restent mon point faible" },
-      { "q": { "en": "How did she stop losing points on numbers?" }, "options": ["By reading newspapers", "By listening to a weather forecast daily and noting temperatures", "By taking a course", "By writing numbers in her notebook"], "answer": 1, "explanation": { "en": "'J'ai simplement écouté chaque jour cinq minutes de bulletin météo en notant les températures.'", "hi": "'J'ai simplement écouté chaque jour cinq minutes de bulletin météo en notant les températures।'" }, "kind": "literal", "evidence": "écouté chaque jour cinq minutes de bulletin météo" },
-      { "q": { "en": "What is her main advice?" }, "options": ["Write down every single mistake", "Choose the recurring mistakes and be patient", "Stop doing mocks", "Change notebooks every week"], "answer": 1, "explanation": { "en": "'Choisissez celles qui reviennent. Et soyez patients.'", "hi": "'Choisissez celles qui reviennent. Et soyez patients.' — बार-बार वाली ग़लतियाँ चुनिए और धैर्य रखिए।" }, "kind": "gist", "evidence": "choisissez celles qui reviennent" }
+      { "q": { "en": "What did Kavya think at first about the notebook?", "hi": "नोटबुक के बारे में काव्या ने शुरू में क्या सोचा था?" }, "options": ["That it would be very useful", "That exercises alone were enough", "That it was too expensive", "That her teacher wanted it"], "optionsHi": ["कि वह बहुत उपयोगी होगी", "कि अकेले अभ्यास-कार्य ही काफ़ी हैं", "कि वह बहुत महँगी है", "कि उसकी शिक्षिका उसे चाहती हैं"], "answer": 1, "explanation": { "en": "'Je pensais que faire des exercices suffisait. Je me trompais.'", "hi": "'Je pensais que faire des exercices suffisait. Je me trompais.' — उसे लगता था अभ्यास काफ़ी है।" }, "kind": "literal", "evidence": "je pensais que faire des exercices suffisait" },
+      { "q": { "en": "What goes in the third column?", "hi": "तीसरे स्तंभ में क्या लिखा जाता है?" }, "options": ["The corrected sentence", "The date", "The type of error", "The wrong sentence"], "optionsHi": ["सही किया गया वाक्य", "तारीख़", "ग़लती का प्रकार", "ग़लत वाक्य"], "answer": 2, "explanation": { "en": "'Dans la troisième, le type d'erreur.'", "hi": "'Dans la troisième, le type d'erreur' — तीसरे में ग़लती का प्रकार।" }, "kind": "literal", "evidence": "dans la troisième, le type d'erreur" },
+      { "q": { "en": "How have her agreement errors changed?", "hi": "उसकी सामंजस्य (अग्रीमेंट) की ग़लतियों में क्या बदलाव आया है?" }, "options": ["From about ten to two or three per text", "They have stayed the same", "They have doubled", "They have completely disappeared"], "optionsHi": ["लगभग दस से घटकर हर पाठ में दो-तीन रह गई हैं", "वे वैसी ही हैं", "वे दोगुनी हो गई हैं", "वे पूरी तरह ख़त्म हो गई हैं"], "answer": 0, "explanation": { "en": "'J'en faisais une dizaine par texte, j'en fais maintenant deux ou trois.' 'Presque disparu' means almost, not completely: a trap.", "hi": "'J'en faisais une dizaine par texte, j'en fais maintenant deux ou trois.' 'Presque disparu' का मतलब लगभग है, पूरी तरह नहीं: यह जाल है।" }, "kind": "inference", "evidence": "j'en faisais une dizaine par texte, j'en fais maintenant deux ou trois" },
+      { "q": { "en": "What is still her weak point?", "hi": "उसकी कमज़ोरी अब भी क्या है?" }, "options": ["Numbers", "Agreement", "Vocabulary", "Prepositions"], "optionsHi": ["संख्याएँ", "सामंजस्य (अग्रीमेंट)", "शब्दावली", "पूर्वसर्ग (प्रिपोज़िशन)"], "answer": 3, "explanation": { "en": "'Les prépositions restent mon point faible.'", "hi": "'Les prépositions restent mon point faible' — पूर्वसर्ग।" }, "kind": "literal", "evidence": "les prépositions restent mon point faible" },
+      { "q": { "en": "How did she stop losing points on numbers?", "hi": "संख्याओं में अंक गँवाना उसने कैसे बंद किया?" }, "options": ["By reading newspapers", "By listening to a weather forecast daily and noting temperatures", "By taking a course", "By writing numbers in her notebook"], "optionsHi": ["अख़बार पढ़कर", "रोज़ मौसम का पूर्वानुमान सुनकर और तापमान लिखकर", "कोई पाठ्यक्रम करके", "अपनी नोटबुक में संख्याएँ लिखकर"], "answer": 1, "explanation": { "en": "'J'ai simplement écouté chaque jour cinq minutes de bulletin météo en notant les températures.'", "hi": "'J'ai simplement écouté chaque jour cinq minutes de bulletin météo en notant les températures।'" }, "kind": "literal", "evidence": "écouté chaque jour cinq minutes de bulletin météo" },
+      { "q": { "en": "What is her main advice?", "hi": "उसकी मुख्य सलाह क्या है?" }, "options": ["Write down every single mistake", "Choose the recurring mistakes and be patient", "Stop doing mocks", "Change notebooks every week"], "optionsHi": ["हर एक ग़लती लिख लें", "बार-बार होने वाली ग़लतियाँ चुनें और धैर्य रखें", "मॉक टेस्ट देना बंद कर दें", "हर हफ़्ते नोटबुक बदलें"], "answer": 1, "explanation": { "en": "'Choisissez celles qui reviennent. Et soyez patients.'", "hi": "'Choisissez celles qui reviennent. Et soyez patients.' — बार-बार वाली ग़लतियाँ चुनिए और धैर्य रखिए।" }, "kind": "gist", "evidence": "choisissez celles qui reviennent" }
     ]
   },
   "writing": {
@@ -165,8 +165,8 @@
       { "en": "Restate the statement in the introduction; give a real example in the argument.", "hi": "भूमिका में कथन दोबारा लिखिए; तर्क में एक असली उदाहरण दीजिए।" }
     ],
     "usefulPhrases": [
-      { "fr": "Je suis tout à fait favorable à cette idée.", "en": "I am completely in favour of this idea.", "hi": "मैं इस विचार के पूरी तरह पक्ष में हूँ।", "pron": "झ़ö स्üई तू ता फ़े फ़ा-वो-ग़ाब्ल आ सै ती-दे" },
-      { "fr": "Prenons l'exemple de …", "en": "Let's take the example of …", "hi": "… का उदाहरण लेते हैं", "pron": "प्ग़ö-नोँ लैग-ज़ाँप्ल दö" }
+      { "fr": "Je suis tout à fait favorable à cette idée.", "en": "I am completely in favour of this idea.", "hi": "मैं इस विचार के पूरी तरह पक्ष में हूँ।", "pron": "ज स्यूई तू ता फ़े फ़ा-वो-राब्ल आ से ती-दे" },
+      { "fr": "Prenons l'exemple de …", "en": "Let's take the example of …", "hi": "… का उदाहरण लेते हैं", "pron": "प्र-नों लेग-ज़ाँप्ल द" }
     ],
     "model": {
       "fr": "Madame, Monsieur,\nJe vous écris pour réagir à l'idée selon laquelle les écoles devraient proposer une heure de sport par jour. Je suis tout à fait favorable à cette proposition.\nTout d'abord, l'activité physique quotidienne améliore la santé des enfants. Prenons l'exemple de mon neveu : depuis que son école organise une course de vingt minutes chaque matin, il dort mieux et il est plus concentré en classe. Ses enseignants ont constaté le même effet chez la plupart des élèves.\nEn conclusion, une heure de sport par jour n'est pas une perte de temps pour l'école : au contraire, elle aide les enfants à mieux apprendre.",
@@ -182,13 +182,13 @@
     "fromDays": [99, 103, 104, 105, 108],
     "items": [
       { "fr": "penser à", "en": "to think about", "hi": "… के बारे में सोचना", "pron": "पाँ-से आ" },
-      { "fr": "J'ai cru que …, alors que …", "en": "I thought that …, whereas …", "hi": "मुझे लगा कि …, जबकि …", "pron": "झ़े क्ग़ü कö … आ-लॉग़ कö" },
-      { "fr": "le carnet d'erreurs", "en": "error notebook", "hi": "ग़लतियों की कॉपी", "pron": "लö काग़-नै दे-ग़öग़" },
-      { "fr": "sans frais", "en": "free of charge", "hi": "बिना शुल्क", "pron": "साँ फ़्ग़ै" },
-      { "fr": "de nombreux", "en": "many", "hi": "अनेक", "pron": "दö नोँ-ब्ग़ö" },
-      { "fr": "le chauffage inclus", "en": "heating included", "hi": "हीटिंग शामिल", "pron": "लö शो-फ़ाझ़ ऐँ-क्लü" },
-      { "fr": "la caution", "en": "the deposit", "hi": "ज़मानत राशि", "pron": "ला को-स्योँ" },
-      { "fr": "le point faible", "en": "weak point", "hi": "कमज़ोर पहलू", "pron": "लö प्वैँ फ़ैब्ल" }
+      { "fr": "J'ai cru que …, alors que …", "en": "I thought that …, whereas …", "hi": "मुझे लगा कि …, जबकि …", "pron": "जे क्र्यू क … आ-लॉर क" },
+      { "fr": "le carnet d'erreurs", "en": "error notebook", "hi": "ग़लतियों की कॉपी", "pron": "ल कार-ने दे-रर" },
+      { "fr": "sans frais", "en": "free of charge", "hi": "बिना शुल्क", "pron": "साँ फ़्रे" },
+      { "fr": "de nombreux", "en": "many", "hi": "अनेक", "pron": "द नों-ब्र" },
+      { "fr": "le chauffage inclus", "en": "heating included", "hi": "हीटिंग शामिल", "pron": "ल शो-फ़ाज ऐं-क्ल्यू" },
+      { "fr": "la caution", "en": "the deposit", "hi": "ज़मानत राशि", "pron": "ला को-स्यों" },
+      { "fr": "le point faible", "en": "weak point", "hi": "कमज़ोर पहलू", "pron": "ल प्वैं फ़ेब्ल" }
     ]
   },
   "assessment": [

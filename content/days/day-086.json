@@ -31,7 +31,7 @@
       "fr": "le poste",
       "en": "position, job",
       "hi": "पद / नौकरी",
-      "pron": "लö पॉस्त",
+      "pron": "ल पॉस्त",
       "ipa": "lə pɔst",
       "pos": "noun",
       "gender": "m",
@@ -45,7 +45,7 @@
       "fr": "à temps plein",
       "en": "full-time",
       "hi": "पूर्णकालिक",
-      "pron": "आ ताँ प्लैँ",
+      "pron": "आ ताँ प्लैं",
       "ipa": "a tɑ̃ plɛ̃",
       "pos": "phrase"
     },
@@ -53,7 +53,7 @@
       "fr": "à temps partiel",
       "en": "part-time",
       "hi": "अंशकालिक",
-      "pron": "आ ताँ पाग़-स्यैल",
+      "pron": "आ ताँ पार-स्येल",
       "ipa": "a tɑ̃ paʁsjɛl",
       "pos": "phrase"
     },
@@ -61,7 +61,7 @@
       "fr": "le salaire",
       "en": "salary, pay",
       "hi": "वेतन / तनख़्वाह",
-      "pron": "लö सा-लैग़",
+      "pron": "ल सा-लेर",
       "ipa": "lə salɛʁ",
       "pos": "noun",
       "gender": "m",
@@ -75,7 +75,7 @@
       "fr": "la période d'essai",
       "en": "probation period",
       "hi": "परिवीक्षा (प्रोबेशन) अवधि",
-      "pron": "ला पे-ग़्योद दै-सै",
+      "pron": "ला पे-र्योद दे-से",
       "ipa": "la peʁjɔd desɛ",
       "pos": "noun",
       "gender": "f",
@@ -85,7 +85,7 @@
       "fr": "le contrat",
       "en": "contract",
       "hi": "अनुबंध / कॉन्ट्रैक्ट",
-      "pron": "लö कोँ-त्ग़ा",
+      "pron": "ल कों-त्रा",
       "ipa": "lə kɔ̃tʁa",
       "pos": "noun",
       "gender": "m",
@@ -99,7 +99,7 @@
       "fr": "les avantages sociaux",
       "en": "employee benefits",
       "hi": "कर्मचारी सुविधाएँ (बीमा आदि)",
-      "pron": "ले ज़ा-वाँ-ताझ़ सो-स्यो",
+      "pron": "ले ज़ा-वाँ-ताज सो-स्यो",
       "ipa": "le zavɑ̃taʒ sɔsjo",
       "pos": "noun",
       "gender": "m",
@@ -109,7 +109,7 @@
       "fr": "la formation",
       "en": "training",
       "hi": "प्रशिक्षण",
-      "pron": "ला फ़ॉग़-मा-स्योँ",
+      "pron": "ला फ़ॉर-मा-स्यों",
       "ipa": "la fɔʁmasjɔ̃",
       "pos": "noun",
       "gender": "f",
@@ -119,7 +119,7 @@
       "fr": "la candidature",
       "en": "application",
       "hi": "आवेदन",
-      "pron": "ला काँ-दी-दा-त्üग़",
+      "pron": "ला काँ-दी-दा-त्यूर",
       "ipa": "la kɑ̃didatyʁ",
       "pos": "noun",
       "gender": "f",
@@ -133,7 +133,7 @@
       "fr": "exigé",
       "en": "required",
       "hi": "ज़रूरी / अनिवार्य",
-      "pron": "ऐग-ज़ी-झ़े",
+      "pron": "एग-ज़ी-जे",
       "ipa": "ɛɡziʒe",
       "pos": "adjective"
     },
@@ -141,7 +141,7 @@
       "fr": "un atout",
       "en": "an asset, a plus",
       "hi": "एक अतिरिक्त ख़ूबी / फ़ायदा",
-      "pron": "ऐँ ना-तू",
+      "pron": "ऐं ना-तू",
       "ipa": "ɛ̃n‿atu",
       "pos": "noun",
       "gender": "m",
@@ -151,7 +151,7 @@
       "fr": "le quart de travail",
       "en": "work shift (Québec)",
       "hi": "काम की शिफ़्ट",
-      "pron": "लö काग़ दö त्ग़ा-वाय",
+      "pron": "ल कार द त्रा-वाय",
       "ipa": "lə kaʁ də tʁavaj",
       "pos": "noun",
       "gender": "m",
@@ -165,7 +165,7 @@
       "fr": "l'entrevue",
       "en": "job interview (Québec)",
       "hi": "इंटरव्यू",
-      "pron": "लाँ-त्ग़ö-व्ü",
+      "pron": "लाँ-त्र-व्यू",
       "ipa": "lɑ̃tʁəvy",
       "pos": "noun",
       "gender": "f",
@@ -181,37 +181,37 @@
       "fr": "Je vous appelle au sujet de votre annonce.",
       "en": "I'm calling about your advertisement.",
       "hi": "मैं आपके विज्ञापन के सिलसिले में फ़ोन कर रहा हूँ।",
-      "pron": "झ़ö वू ज़ा-पैल ओ सü-झ़े दö वॉत्ग़ आ-नोँस"
+      "pron": "ज वू ज़ा-पेल ओ स्यू-जे द वॉत्र आ-नोंस"
     },
     {
       "fr": "Pourriez-vous me dire quels sont les horaires ?",
       "en": "Could you tell me what the hours are?",
       "hi": "क्या आप मुझे बता सकते हैं कि काम का समय क्या है?",
-      "pron": "पू-ग़्ये वू मö दीग़ कैल सोँ ले ज़ो-ग़ैग़"
+      "pron": "पू-र्ये वू म दीर केल सों ले ज़ो-रेर"
     },
     {
       "fr": "Je voudrais savoir si le poste est toujours disponible.",
       "en": "I'd like to know if the position is still available.",
       "hi": "मैं जानना चाहूँगा कि क्या पद अभी भी ख़ाली है।",
-      "pron": "झ़ö वू-द्रै सा-वाग़ सी लö पॉस्त ए तू-झ़ूग़ दिस-पो-नीब्ल"
+      "pron": "ज वू-द्रे सा-वार सी ल पॉस्त ए तू-जूर दिस-पो-नीब्ल"
     },
     {
       "fr": "Est-ce que vous pourriez m'indiquer le salaire ?",
       "en": "Could you tell me the salary?",
       "hi": "क्या आप मुझे वेतन बता सकेंगे?",
-      "pron": "ऐस-कö वू पू-ग़्ये मैँ-दी-के लö सा-लैग़"
+      "pron": "एस-क वू पू-र्ये मैं-दी-के ल सा-लेर"
     },
     {
       "fr": "Comment dois-je envoyer ma candidature ?",
       "en": "How should I send my application?",
       "hi": "मुझे अपना आवेदन कैसे भेजना चाहिए?",
-      "pron": "को-माँ द्वा-झ़ आँ-व्वा-ये मा काँ-दी-दा-त्üग़"
+      "pron": "को-माँ द्वा-ज आँ-व्वा-ये मा काँ-दी-दा-त्यूर"
     },
     {
       "fr": "Merci beaucoup pour ces informations.",
       "en": "Thank you very much for this information.",
       "hi": "इस जानकारी के लिए बहुत धन्यवाद।",
-      "pron": "मैग़-सी बो-कू पूग़ से ज़ैँ-फ़ॉग़-मा-स्योँ"
+      "pron": "मेर-सी बो-कू पूर से ज़ैं-फ़ॉर-मा-स्यों"
     }
   ],
   "grammar": {
@@ -232,37 +232,37 @@
         "fr": "Est-ce que le poste est disponible ? → Je voudrais savoir si le poste est disponible.",
         "en": "Is the job available? → I'd like to know if the job is available.",
         "hi": "क्या पद ख़ाली है? → मैं जानना चाहूँगा कि क्या पद ख़ाली है।",
-        "pron": "झ़ö वू-द्रै सा-वाग़ सी लö पॉस्त ए दिस-पो-नीब्ल"
+        "pron": "ज वू-द्रे सा-वार सी ल पॉस्त ए दिस-पो-नीब्ल"
       },
       {
         "fr": "Quand commence le contrat ? → Pourriez-vous me dire quand le contrat commence ?",
         "en": "When does the contract start? → Could you tell me when the contract starts?",
         "hi": "अनुबंध कब शुरू होता है? → क्या आप बता सकते हैं कि अनुबंध कब शुरू होता है?",
-        "pron": "पू-ग़्ये वू मö दीग़ काँ लö कोँ-त्ग़ा को-माँस"
+        "pron": "पू-र्ये वू म दीर काँ ल कों-त्रा को-माँस"
       },
       {
         "fr": "Qu'est-ce que je dois apporter ? → J'aimerais savoir ce que je dois apporter.",
         "en": "What must I bring? → I'd like to know what I must bring.",
         "hi": "मुझे क्या लाना है? → मैं जानना चाहूँगा कि मुझे क्या लाना है।",
-        "pron": "झ़ै-म्ग़ै सा-वाग़ सö कö झ़ö द्वा आ-पॉग़-ते"
+        "pron": "जे-म्रे सा-वार स क ज द्वा आ-पॉर-ते"
       },
       {
         "fr": "Combien d'heures par semaine faut-il travailler ? → Pourriez-vous m'indiquer combien d'heures il faut travailler ?",
         "en": "How many hours a week? → Could you tell me how many hours one must work?",
         "hi": "हफ़्ते में कितने घंटे काम करना है? → क्या आप बता सकते हैं कि कितने घंटे काम करना है?",
-        "pron": "पू-ग़्ये वू मैँ-दी-के कोँ-ब्यैँ दöग़ इल फ़ो त्ग़ा-वा-ये"
+        "pron": "पू-र्ये वू मैं-दी-के कों-ब्यैं दर इल फ़ो त्रा-वा-ये"
       },
       {
         "fr": "Où se trouve le restaurant ? → Je voudrais savoir où se trouve le restaurant.",
         "en": "Where is the restaurant? → I'd like to know where the restaurant is.",
         "hi": "रेस्तराँ कहाँ है? → मैं जानना चाहूँगा कि रेस्तराँ कहाँ है।",
-        "pron": "झ़ö वू-द्रै सा-वाग़ ऊ सö त्ग़ूव लö ग़ैस-तो-ग़ाँ"
+        "pron": "ज वू-द्रे सा-वार ऊ स त्रूव ल रेस-तो-राँ"
       },
       {
         "fr": "Qu'est-ce qui est inclus ? → Pourriez-vous me dire ce qui est inclus ?",
         "en": "What is included? → Could you tell me what is included?",
         "hi": "क्या-क्या शामिल है? → क्या आप बता सकते हैं कि क्या-क्या शामिल है?",
-        "pron": "पू-ग़्ये वू मö दीग़ सö की ए तैँ-क्ल्ü"
+        "pron": "पू-र्ये वू म दीर स की ए तैं-क्ल्यू"
       }
     ],
     "pitfalls": [
@@ -291,32 +291,32 @@
         "fr": "pourriez-vous",
         "en": "could you",
         "hi": "क्या आप … सकेंगे",
-        "pron": "पू-ग़्ये वू",
+        "pron": "पू-र्ये वू",
         "ipa": "puʁje vu",
         "note": {
-          "en": "Two r's merge into one throaty sound: पू-ग़्ये.",
-          "hi": "दो r एक ही गले वाली आवाज़ बनाते हैं: पू-ग़्ये।"
+          "en": "Two r's merge into one throaty sound: पू-र्ये.",
+          "hi": "दो r एक ही गले वाली आवाज़ बनाते हैं: पू-र्ये।"
         }
       },
       {
         "fr": "je voudrais savoir",
         "en": "I'd like to know",
         "hi": "मैं जानना चाहूँगा",
-        "pron": "झ़ö वू-द्रै सा-वाग़",
+        "pron": "ज वू-द्रे सा-वार",
         "ipa": "ʒə vudʁɛ savwaʁ"
       },
       {
         "fr": "m'indiquer",
         "en": "to tell me, to indicate to me",
         "hi": "मुझे बताना",
-        "pron": "मैँ-दी-के",
+        "pron": "मैं-दी-के",
         "ipa": "mɛ̃dike"
       },
       {
         "fr": "disponible",
         "en": "available",
         "hi": "उपलब्ध",
-        "pron": "दिस-पो-नीब्ल",
+        "pron": "दीस-पॉ-नीब्ल",
         "ipa": "dispɔnibl"
       },
       {
@@ -345,7 +345,7 @@
         "voice": "m1",
         "fr": "Voyages Horizon, bonjour. Jean Leblanc à l'appareil.",
         "en": "Voyages Horizon, hello. Jean Leblanc speaking.",
-        "hi": "वोयाझ़ ओरिज़ोन, नमस्ते। मैं ज़ाँ लब्लाँ बोल रहा हूँ।"
+        "hi": "वोयाज ओरिज़ोन, नमस्ते। मैं ज़ाँ लब्लाँ बोल रहा हूँ।"
       },
       {
         "speaker": "Priya",
@@ -470,7 +470,8 @@
     "questions": [
       {
         "q": {
-          "en": "Until when can candidates apply?"
+          "en": "Until when can candidates apply?",
+          "hi": "उम्मीदवार किस तारीख़ तक आवेदन कर सकते हैं?"
         },
         "options": [
           "Until 3 April",
@@ -484,11 +485,18 @@
           "hi": "'nous recevons les candidatures jusqu'au 30 avril' — 30 अप्रैल तक।"
         },
         "kind": "literal",
-        "evidence": "Nous recevons les candidatures jusqu'au 30 avril."
+        "evidence": "Nous recevons les candidatures jusqu'au 30 avril.",
+        "optionsHi": [
+          "3 अप्रैल तक",
+          "कोई अंतिम तिथि नहीं है",
+          "30 अप्रैल तक",
+          "परख अवधि के अंत तक"
+        ]
       },
       {
         "q": {
-          "en": "What are the working hours?"
+          "en": "What are the working hours?",
+          "hi": "काम के घंटे क्या हैं?"
         },
         "options": [
           "35 hours, Monday to Friday, sometimes one Saturday a month",
@@ -502,11 +510,18 @@
           "hi": "पूर्णकालिक 35 घंटे, सोमवार–शुक्रवार, 'parfois … un samedi par mois'। 24 घंटे का वेतन है।"
         },
         "kind": "literal",
-        "evidence": "trente-cinq heures par semaine, du lundi au vendredi. Il faut parfois travailler un samedi par mois."
+        "evidence": "trente-cinq heures par semaine, du lundi au vendredi. Il faut parfois travailler un samedi par mois.",
+        "optionsHi": [
+          "35 घंटे, सोमवार से शुक्रवार, कभी-कभी महीने में एक शनिवार",
+          "सप्ताह में 24 घंटे",
+          "शामें और सप्ताहांत",
+          "35 घंटे, हर सप्ताह सोमवार से शनिवार"
+        ]
       },
       {
         "q": {
-          "en": "When can Priya work from home?"
+          "en": "When can Priya work from home?",
+          "hi": "Priya घर से काम कब कर सकती है?"
         },
         "options": [
           "After the probation period, every day",
@@ -520,11 +535,18 @@
           "hi": "पहले तीन महीने दफ़्तर में, फिर हफ़्ते में दो दिन घर से।"
         },
         "kind": "literal",
-        "evidence": "Ensuite, vous pouvez faire deux jours de télétravail par semaine."
+        "evidence": "Ensuite, vous pouvez faire deux jours de télétravail par semaine.",
+        "optionsHi": [
+          "परख अवधि के बाद, हर दिन",
+          "पहले दिन से",
+          "कभी नहीं",
+          "तीन महीने बाद, सप्ताह में दो दिन"
+        ]
       },
       {
         "q": {
-          "en": "Which benefit is mentioned?"
+          "en": "Which benefit is mentioned?",
+          "hi": "किस लाभ का उल्लेख किया गया है?"
         },
         "options": [
           "A company car",
@@ -538,11 +560,18 @@
           "hi": "'assurance dentaire et trois semaines de vacances' — तीन हफ़्ते, चार नहीं।"
         },
         "kind": "literal",
-        "evidence": "assurance dentaire et trois semaines de vacances"
+        "evidence": "assurance dentaire et trois semaines de vacances",
+        "optionsHi": [
+          "कंपनी की कार",
+          "दंत चिकित्सा बीमा",
+          "एशिया की मुफ़्त यात्राएँ",
+          "चार सप्ताह की छुट्टी"
+        ]
       },
       {
         "q": {
-          "en": "Why could Priya's languages help her?"
+          "en": "Why could Priya's languages help her?",
+          "hi": "Priya की भाषाएँ उसकी मदद क्यों कर सकती हैं?"
         },
         "options": [
           "Her manager speaks Hindi",
@@ -556,11 +585,18 @@
           "hi": "तीसरी भाषा 'un atout' है क्योंकि कई ग्राहक एशिया जाते हैं।"
         },
         "kind": "inference",
-        "evidence": "Ce n'est pas obligatoire, mais c'est un atout. Beaucoup de nos clients voyagent en Asie."
+        "evidence": "Ce n'est pas obligatoire, mais c'est un atout. Beaucoup de nos clients voyagent en Asie.",
+        "optionsHi": [
+          "उसकी प्रबंधक हिंदी बोलती है",
+          "नौकरी के लिए तीन भाषाएँ ज़रूरी हैं",
+          "बहुत-से ग्राहक एशिया की यात्रा करते हैं",
+          "दफ़्तर भारत में है"
+        ]
       },
       {
         "q": {
-          "en": "What experience is required?"
+          "en": "What experience is required?",
+          "hi": "किस अनुभव की आवश्यकता है?"
         },
         "options": [
           "Customer service experience",
@@ -574,7 +610,13 @@
           "hi": "'une expérience en service à la clientèle suffit' — ग्राहक सेवा का अनुभव काफ़ी है।"
         },
         "kind": "literal",
-        "evidence": "une expérience en service à la clientèle suffit"
+        "evidence": "une expérience en service à la clientèle suffit",
+        "optionsHi": [
+          "ग्राहक सेवा का अनुभव",
+          "बिलकुल किसी अनुभव की नहीं",
+          "शिक्षण का अनुभव",
+          "ट्रैवल एजेंसी का अनुभव"
+        ]
       }
     ],
     "dictation": [
@@ -630,62 +672,62 @@
         "fr": "Bonjour, madame. Je vous appelle au sujet de l'annonce pour le poste d'aide-cuisinier.",
         "en": "Hello, madam. I'm calling about the ad for the kitchen-helper position.",
         "hi": "नमस्ते, मैडम। मैं सहायक रसोइए के पद वाले विज्ञापन के बारे में फ़ोन कर रहा हूँ।",
-        "pron": "बोँ-झ़ूग़ मा-दाम झ़ö वू ज़ा-पैल ओ सü-झ़े दö ला-नोँस पूग़ लö पॉस्त दैद-क्üई-ज़ी-न्ये"
+        "pron": "बों-जूर मा-दाम ज वू ज़ा-पेल ओ स्यू-जे द ला-नोंस पूर ल पॉस्त देद-क्यूई-ज़ी-न्ये"
       },
       {
         "fr": "Pourriez-vous me dire quels sont les quarts de travail ?",
         "en": "Could you tell me what the shifts are?",
         "hi": "क्या आप बता सकती हैं कि शिफ़्टें क्या हैं?",
-        "pron": "पू-ग़्ये वू मö दीग़ कैल सोँ ले काग़ दö त्ग़ा-वाय",
+        "pron": "पू-र्ये वू म दीर केल सों ले कार द त्रा-वाय",
         "model": "Pourriez-vous me dire quels sont les quarts de travail ? Est-ce qu'il faut travailler le soir et le week-end ?"
       },
       {
         "fr": "Je voudrais savoir si le poste est à temps plein.",
         "en": "I'd like to know if the job is full-time.",
         "hi": "मैं जानना चाहूँगा कि क्या यह पूर्णकालिक पद है।",
-        "pron": "झ़ö वू-द्रै सा-वाग़ सी लö पॉस्त ए ता ताँ प्लैँ"
+        "pron": "ज वू-द्रे सा-वार सी ल पॉस्त ए ता ताँ प्लैं"
       },
       {
         "fr": "Quel est le salaire de départ, et y a-t-il des pourboires ?",
         "en": "What is the starting salary, and are there tips?",
         "hi": "शुरुआती वेतन क्या है, और क्या टिप भी मिलती है?",
-        "pron": "कै लै लö सा-लैग़ दö दे-पाग़ ए या-तील दे पूग़-ब्वाग़"
+        "pron": "के ले ल सा-लेर द दे-पार ए या-तील दे पूर-ब्वार"
       },
       {
         "fr": "J'aimerais savoir quand le poste commence.",
         "en": "I'd like to know when the job starts.",
         "hi": "मैं जानना चाहूँगा कि नौकरी कब शुरू होती है।",
-        "pron": "झ़ै-म्ग़ै सा-वाग़ काँ लö पॉस्त को-माँस"
+        "pron": "जे-म्रे सा-वार काँ ल पॉस्त को-माँस"
       },
       {
         "fr": "Est-ce que les repas sont fournis pendant le travail ?",
         "en": "Are meals provided during work?",
         "hi": "क्या काम के दौरान खाना दिया जाता है?",
-        "pron": "ऐस-कö ले ग़ö-पा सोँ फ़ूग़-नी पाँ-दाँ लö त्ग़ा-वाय"
+        "pron": "एस-क ले र-पा सों फ़ूर-नी पाँ-दाँ ल त्रा-वाय"
       },
       {
         "fr": "Faut-il un certificat en hygiène alimentaire ?",
         "en": "Is a food-safety certificate needed?",
         "hi": "क्या खाद्य स्वच्छता का प्रमाणपत्र ज़रूरी है?",
-        "pron": "फ़ो-तील ऐँ सैग़-ती-फ़ी-का आँ नी-झ़्यैन आ-ली-माँ-तैग़"
+        "pron": "फ़ो-तील ऐं सेर-ती-फ़ी-का आँ नी-ज्येन आ-ली-माँ-तेर"
       },
       {
         "fr": "Le restaurant est-il accessible en autobus ?",
         "en": "Can you get to the restaurant by bus?",
         "hi": "क्या रेस्तराँ तक बस से पहुँचा जा सकता है?",
-        "pron": "लö ग़ैस-तो-ग़ाँ ए-तील आक-सै-सीब्ल आँ नो-तो-ब्üस"
+        "pron": "ल रेस-तो-राँ ए-तील आक-से-सीब्ल आँ नो-तो-ब्यूस"
       },
       {
         "fr": "Comment se passe l'entrevue ?",
         "en": "How does the interview go?",
         "hi": "इंटरव्यू कैसे होता है?",
-        "pron": "को-माँ सö पास लाँ-त्ग़ö-व्ü"
+        "pron": "को-माँ स पास लाँ-त्र-व्यू"
       },
       {
         "fr": "Merci beaucoup, madame. Je vous envoie mon CV aujourd'hui. Bonne journée !",
         "en": "Thank you very much, madam. I'll send you my CV today. Have a good day!",
         "hi": "बहुत धन्यवाद, मैडम। मैं आज ही अपना सीवी भेज दूँगा। आपका दिन शुभ हो!",
-        "pron": "मैग़-सी बो-कू मा-दाम झ़ö वू ज़ाँ-व्वा मोँ से-वे ओ-झ़ूग़-द्üई बॉन झ़ूग़-ने"
+        "pron": "मेर-सी बो-कू मा-दाम ज वू ज़ाँ-व्वा मों से-वे ओ-जूर-द्यूई बॉन जूर-ने"
       }
     ],
     "tip": {
@@ -704,7 +746,8 @@
     "questions": [
       {
         "q": {
-          "en": "Which task is part of the job?"
+          "en": "Which task is part of the job?",
+          "hi": "नौकरी के कामों में से कौन-सा काम शामिल है?"
         },
         "options": [
           "Serving customers at the tables",
@@ -718,11 +761,18 @@
           "hi": "'faire la plonge' = रेस्तराँ में बर्तन धोना।"
         },
         "kind": "vocabulary",
-        "evidence": "Faire la plonge et garder la cuisine propre"
+        "evidence": "Faire la plonge et garder la cuisine propre",
+        "optionsHi": [
+          "मेज़ों पर ग्राहकों को परोसना",
+          "बर्तन धोना और रसोई साफ़ रखना",
+          "घरों पर खाना पहुँचाना",
+          "टीम का प्रबंधन करना"
+        ]
       },
       {
         "q": {
-          "en": "Is knowledge of Indian cuisine required?"
+          "en": "Is knowledge of Indian cuisine required?",
+          "hi": "क्या भारतीय व्यंजनों की जानकारी ज़रूरी है?"
         },
         "options": [
           "No, it is not mentioned",
@@ -736,11 +786,18 @@
           "hi": "'un atout' = अतिरिक्त ख़ूबी, ज़रूरी शर्त नहीं।"
         },
         "kind": "vocabulary",
-        "evidence": "Connaissance de la cuisine indienne : un atout"
+        "evidence": "Connaissance de la cuisine indienne : un atout",
+        "optionsHi": [
+          "नहीं, इसका उल्लेख नहीं है",
+          "केवल शेफ़ के लिए",
+          "हाँ, यह अनिवार्य है",
+          "नहीं, लेकिन यह एक अतिरिक्त लाभ है"
+        ]
       },
       {
         "q": {
-          "en": "What do we know about the working hours?"
+          "en": "What do we know about the working hours?",
+          "hi": "काम के घंटों के बारे में हम क्या जानते हैं?"
         },
         "options": [
           "Between 30 and 40 hours depending on the season",
@@ -754,11 +811,18 @@
           "hi": "'de 30 à 40 heures par semaine selon la saison' — मौसम के हिसाब से।"
         },
         "kind": "literal",
-        "evidence": "de 30 à 40 heures par semaine selon la saison"
+        "evidence": "de 30 à 40 heures par semaine selon la saison",
+        "optionsHi": [
+          "मौसम के अनुसार 30 से 40 घंटे के बीच",
+          "केवल शामें",
+          "अंशकालिक, 20 घंटे",
+          "हमेशा सप्ताह में 40 घंटे"
+        ]
       },
       {
         "q": {
-          "en": "Which question would be USEFUL to ask in a TEF A call (information not in the ad)?"
+          "en": "Which question would be USEFUL to ask in a TEF A call (information not in the ad)?",
+          "hi": "TEF के भाग A में फ़ोन कॉल में कौन-सा सवाल पूछना उपयोगी होगा (ऐसी जानकारी जो विज्ञापन में नहीं है)?"
         },
         "options": [
           "Is the restaurant closed on Mondays?",
@@ -772,11 +836,18 @@
           "hi": "विज्ञापन में सिर्फ़ 'salaire concurrentiel, selon l'expérience' लिखा है, सही वेतन नहीं। बाक़ी जवाब विज्ञापन में पहले से हैं।"
         },
         "kind": "inference",
-        "evidence": "Salaire concurrentiel, selon l'expérience"
+        "evidence": "Salaire concurrentiel, selon l'expérience",
+        "optionsHi": [
+          "क्या रेस्तराँ सोमवार को बंद रहता है?",
+          "क्या नौकरी स्थायी है?",
+          "शुरुआती प्रति घंटा वेतन ठीक-ठीक कितना है?",
+          "क्या प्रशिक्षण मिलता है?"
+        ]
       },
       {
         "q": {
-          "en": "You want to apply in person. When can you go?"
+          "en": "You want to apply in person. When can you go?",
+          "hi": "आप खुद जाकर आवेदन करना चाहते हैं। आप कब जा सकते हैं?"
         },
         "options": [
           "Monday morning",
@@ -790,11 +861,18 @@
           "hi": "मंगलवार से शुक्रवार, दोपहर 2 से 4 बजे के बीच। सोमवार को रेस्तराँ बंद है।"
         },
         "kind": "inference",
-        "evidence": "présentez-vous au restaurant du mardi au vendredi, entre 14 h et 16 h"
+        "evidence": "présentez-vous au restaurant du mardi au vendredi, entre 14 h et 16 h",
+        "optionsHi": [
+          "सोमवार सुबह",
+          "मंगलवार दोपहर 3 बजे",
+          "शनिवार दोपहर 2 बजे",
+          "किसी भी दिन शाम 6 बजे"
+        ]
       },
       {
         "q": {
-          "en": "What happens if you are not selected?"
+          "en": "What happens if you are not selected?",
+          "hi": "अगर आपका चयन नहीं होता तो क्या होता है?"
         },
         "options": [
           "You get a phone call",
@@ -808,7 +886,13 @@
           "hi": "'seules les personnes retenues … seront contactées' — बाक़ी लोगों से संपर्क नहीं होगा।"
         },
         "kind": "inference",
-        "evidence": "Seules les personnes retenues pour une entrevue seront contactées."
+        "evidence": "Seules les personnes retenues pour une entrevue seront contactées.",
+        "optionsHi": [
+          "आपको फ़ोन आता है",
+          "आपका CV वापस भेज दिया जाता है",
+          "आपको ईमेल मिलता है",
+          "आपसे संपर्क नहीं किया जाएगा"
+        ]
       }
     ]
   },
@@ -835,19 +919,19 @@
         "fr": "Pourriez-vous me dire…",
         "en": "Could you tell me…",
         "hi": "क्या आप बता सकते हैं…",
-        "pron": "पू-ग़्ये वू मö दीग़"
+        "pron": "पू-री-ये वू म दीर"
       },
       {
         "fr": "J'aimerais savoir combien…",
         "en": "I'd like to know how much/many…",
         "hi": "मैं जानना चाहूँगा कि कितना/कितने…",
-        "pron": "झ़ै-म्ग़ै सा-वाग़ कोँ-ब्यैँ"
+        "pron": "जे-म्रे सा-वार कों-ब्यैं"
       },
       {
         "fr": "Est-il possible de…",
         "en": "Is it possible to…",
         "hi": "क्या … संभव है",
-        "pron": "ए-तील पो-सीब्ल दö"
+        "pron": "ए-तील पो-सीब्ल द"
       }
     ],
     "model": {
@@ -886,49 +970,49 @@
         "fr": "Pouvez-vous répéter, s'il vous plaît ?",
         "en": "Can you repeat, please?",
         "hi": "क्या आप दोहरा सकते हैं, कृपया?",
-        "pron": "पू-वे वू ग़े-पे-ते सील वू प्लै"
+        "pron": "पू-वे-वू रे-पे-ते सील वू प्ले"
       },
       {
         "fr": "Je travaille comme infirmière.",
         "en": "I work as a nurse.",
         "hi": "मैं नर्स का काम करती हूँ।",
-        "pron": "झ़ö त्ग़ा-वाय कॉम ऐँ-फ़ीग़-म्यैग़"
+        "pron": "ज त्रा-वाय कॉम ऐं-फ़ीर-म्येर"
       },
       {
         "fr": "Ça vous dérangerait de m'envoyer les détails ?",
         "en": "Would you mind sending me the details?",
         "hi": "क्या आपको मुझे ब्योरा भेजने में दिक़्क़त होगी?",
-        "pron": "सा वू दे-ग़ाँझ़-ग़ै दö माँ-व्वा-ये ले दे-ताय"
+        "pron": "सा वू दे-राँज-रे द माँ-व्वा-ये ले दे-ताय"
       },
       {
         "fr": "ce dont j'ai besoin",
         "en": "what I need",
         "hi": "जिसकी मुझे ज़रूरत है",
-        "pron": "सö दोँ झ़े बö-ज़्वैँ"
+        "pron": "स दों जे ब-ज़्वैं"
       },
       {
         "fr": "C'est-à-dire ?",
         "en": "Meaning?",
         "hi": "मतलब?",
-        "pron": "सै-ता-दीग़"
+        "pron": "से ता दीर"
       },
       {
         "fr": "Pourriez-vous préciser ?",
         "en": "Could you be more specific?",
         "hi": "क्या आप थोड़ा स्पष्ट कर सकते हैं?",
-        "pron": "पू-ग़्ये वू प्रे-सी-ज़े"
+        "pron": "पू-र्ये वू प्रे-सी-ज़े"
       },
       {
         "fr": "Et en ce qui concerne les vacances ?",
         "en": "And regarding holidays?",
         "hi": "और छुट्टियों के बारे में?",
-        "pron": "ए आँ सö की कोँ-सैग़न ले वा-काँस"
+        "pron": "ए आँ स की कों-सेरन ले वा-काँस"
       },
       {
         "fr": "Ah bon ?",
         "en": "Really?",
         "hi": "अच्छा?",
-        "pron": "आ बोँ"
+        "pron": "आ बों"
       }
     ]
   },

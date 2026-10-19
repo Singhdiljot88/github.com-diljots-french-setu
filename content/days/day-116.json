@@ -34,7 +34,7 @@
       "fr": "le plan",
       "en": "plan, outline",
       "hi": "योजना / रूपरेखा",
-      "pron": "लö प्लाँ",
+      "pron": "ल प्लाँ",
       "ipa": "lə plɑ̃",
       "pos": "noun",
       "gender": "m",
@@ -44,7 +44,7 @@
       "fr": "la relecture",
       "en": "proofreading, rereading",
       "hi": "दोबारा पढ़कर जाँचना",
-      "pron": "ला ग़ö-लैक-तüग़",
+      "pron": "ला र-लेक-त्यूर",
       "ipa": "la ʁəlɛktyʁ",
       "pos": "noun",
       "gender": "f",
@@ -54,7 +54,7 @@
       "fr": "la thèse",
       "en": "position, thesis",
       "hi": "मुख्य राय / पक्ष",
-      "pron": "ला तैज़",
+      "pron": "ला तेज़",
       "ipa": "la tɛz",
       "pos": "noun",
       "gender": "f",
@@ -64,7 +64,7 @@
       "fr": "convaincre",
       "en": "to convince",
       "hi": "राज़ी करना / क़ायल करना",
-      "pron": "कोँ-वैँक्ग़",
+      "pron": "कों-वैंक्र",
       "ipa": "kɔ̃vɛ̃kʁ",
       "pos": "verb"
     },
@@ -72,7 +72,7 @@
       "fr": "nuancer",
       "en": "to qualify, to add nuance",
       "hi": "बात को संतुलित करना",
-      "pron": "नü-आँ-से",
+      "pron": "न्यूआँ-से",
       "ipa": "nɥɑ̃se",
       "pos": "verb"
     },
@@ -80,7 +80,7 @@
       "fr": "le bénévolat",
       "en": "volunteering",
       "hi": "स्वयंसेवा",
-      "pron": "लö बे-ने-वो-ला",
+      "pron": "ल बे-ने-वो-ला",
       "ipa": "lə benevɔla",
       "pos": "noun",
       "gender": "m",
@@ -90,7 +90,7 @@
       "fr": "le bénévole",
       "en": "volunteer",
       "hi": "स्वयंसेवक",
-      "pron": "लö बे-ने-वॉल",
+      "pron": "ल बे-ने-वॉल",
       "ipa": "lə benevɔl",
       "pos": "noun",
       "gender": "mf",
@@ -100,7 +100,7 @@
       "fr": "l'engagement",
       "en": "commitment",
       "hi": "प्रतिबद्धता / ज़िम्मेदारी",
-      "pron": "लाँ-गाझ़-माँ",
+      "pron": "लाँ-गाज-माँ",
       "ipa": "lɑ̃ɡaʒmɑ̃",
       "pos": "noun",
       "gender": "m",
@@ -110,7 +110,7 @@
       "fr": "épanouissant",
       "en": "fulfilling",
       "hi": "संतोष देने वाला",
-      "pron": "ए-पा-नू-ई-साँ",
+      "pron": "ए-पा-न्वी-साँ",
       "ipa": "epanwisɑ̃",
       "pos": "adjective"
     }
@@ -120,31 +120,31 @@
       "fr": "D'abord, je fais mon plan en trois minutes.",
       "en": "First, I make my plan in three minutes.",
       "hi": "पहले मैं तीन मिनट में अपनी योजना बनाता / बनाती हूँ।",
-      "pron": "दा-बोग़ झ़ö फ़ै मोँ प्लाँ आँ त्ग़्वा मी-नüत"
+      "pron": "दा-बोर ज फ़े मों प्लाँ आँ त्र्वा मी-न्यूत"
     },
     {
       "fr": "Je garde cinq minutes pour la relecture.",
       "en": "I keep five minutes for proofreading.",
       "hi": "मैं जाँचने के लिए पाँच मिनट बचाकर रखता / रखती हूँ।",
-      "pron": "झ़ö गाग़्द सैँ मी-नüत पूग़ ला ग़ö-लैक-तüग़"
+      "pron": "ज गार्द सैं मी-न्यूत पूर ला र-लेक-त्यूर"
     },
     {
       "fr": "Je comprends ton hésitation, mais …",
       "en": "I understand your hesitation, but …",
       "hi": "मैं तुम्हारी हिचकिचाहट समझता / समझती हूँ, लेकिन …",
-      "pron": "झ़ö कोँ-प्ग़ाँ तोँ ने-ज़ी-ता-स्योँ मै"
+      "pron": "ज कों-प्राँ तों ने-ज़ी-ता-स्यों मे"
     },
     {
       "fr": "Tu ne le regretteras pas.",
       "en": "You won't regret it.",
       "hi": "तुम्हें इसका पछतावा नहीं होगा।",
-      "pron": "तü नö लö ग़ö-ग्ग़ै-त-ग़ा पा"
+      "pron": "त्यू न ल र-ग्रे-त-रा पा"
     },
     {
       "fr": "Je suis convaincu que …",
       "en": "I am convinced that …",
       "hi": "मुझे पूरा यक़ीन है कि …",
-      "pron": "झ़ö सüइ कोँ-वैँ-कü कö"
+      "pron": "ज स्यूइ कों-वैं-क्यू क"
     }
   ],
   "grammar": {
@@ -165,25 +165,25 @@
         "fr": "D'abord, le bénévolat permet de rencontrer des gens.",
         "en": "First, volunteering lets you meet people.",
         "hi": "पहली बात, स्वयंसेवा से लोगों से मिलना होता है।",
-        "pron": "दा-बोग़ लö बे-ने-वो-ला पैग़-मै दö ग़ाँ-कोँ-त्ग़े दे झ़ाँ"
+        "pron": "दा-बोर ल बे-ने-वो-ला पेर-मे द राँ-कों-त्रे दे जाँ"
       },
       {
         "fr": "De plus, c'est une expérience utile pour trouver un emploi.",
         "en": "Moreover, it is a useful experience for finding a job.",
         "hi": "इसके अलावा, नौकरी ढूँढने के लिए यह एक काम का अनुभव है।",
-        "pron": "दö प्लüस सै तüन ऐक-स्पे-ग़्याँस ü-तील पूग़ त्ग़ू-वे ऐँ नाँ-प्ल्वा"
+        "pron": "द प्ल्यूस से त्यून एक-स्पे-र्याँस यू-तील पूर त्रू-वे ऐं नाँ-प्ल्वा"
       },
       {
         "fr": "Cependant, il faut savoir gérer son temps.",
         "en": "However, you need to know how to manage your time.",
         "hi": "फिर भी, अपना समय सँभालना आना चाहिए।",
-        "pron": "स-पाँ-दाँ ईल फ़ो सा-वाग़ झ़े-ग़े सोँ ताँ"
+        "pron": "स-पाँ-दाँ ईल फ़ो सा-वार जे-रे सों ताँ"
       },
       {
         "fr": "Enfin, aider les autres est très épanouissant.",
         "en": "Finally, helping others is very fulfilling.",
         "hi": "आख़िर में, दूसरों की मदद करना बहुत संतोष देता है।",
-        "pron": "आँ-फ़ैँ ए-दे ले ज़ोत्ग़ ऐ त्ग़ै ज़े-पा-नू-ई-साँ"
+        "pron": "आँ-फ़ैं ए-दे ले ज़ोत्र ए त्रे ज़े-पा-नू-ई-साँ"
       }
     ],
     "pitfalls": [
@@ -208,21 +208,21 @@
         "fr": "d'abord",
         "en": "first",
         "hi": "पहले",
-        "pron": "दा-बोग़",
+        "pron": "दा-बॉर",
         "ipa": "dabɔʁ"
       },
       {
         "fr": "ensuite",
         "en": "then",
         "hi": "फिर",
-        "pron": "आँ-सüइत",
+        "pron": "आँ-स्यूईत",
         "ipa": "ɑ̃sɥit"
       },
       {
         "fr": "de plus",
         "en": "moreover",
         "hi": "इसके अलावा",
-        "pron": "दö प्लüस",
+        "pron": "द प्ल्यूस",
         "ipa": "də plys"
       },
       {
@@ -236,7 +236,7 @@
         "fr": "en effet",
         "en": "indeed",
         "hi": "दरअसल",
-        "pron": "आँ ने-फ़ै",
+        "pron": "आँ ने-फ़े",
         "ipa": "ɑ̃n‿efɛ"
       }
     ]
@@ -313,7 +313,8 @@
     "questions": [
       {
         "q": {
-          "en": "What is Julien's first objection?"
+          "en": "What is Julien's first objection?",
+          "hi": "जूलियन की पहली आपत्ति क्या है?"
         },
         "options": [
           "Saturday is his only day to rest",
@@ -327,11 +328,18 @@
           "hi": "'Le samedi, c'est mon seul jour pour dormir un peu' — शनिवार ही आराम का इकलौता दिन है।"
         },
         "kind": "literal",
-        "evidence": "le samedi, c'est mon seul jour pour dormir un peu"
+        "evidence": "le samedi, c'est mon seul jour pour dormir un peu",
+        "optionsHi": [
+          "शनिवार ही उसके आराम का एकमात्र दिन है",
+          "उसे फ़ूड बैंक पसंद नहीं है",
+          "वह शनिवार को काम करता है",
+          "वह बहुत दूर रहता है"
+        ]
       },
       {
         "q": {
-          "en": "How often would Julien volunteer?"
+          "en": "How often would Julien volunteer?",
+          "hi": "जूलियन कितनी बार स्वयंसेवक के रूप में काम करेगा?"
         },
         "options": [
           "Every Saturday",
@@ -345,11 +353,18 @@
           "hi": "'Deux samedis par mois' — महीने में दो शनिवार।"
         },
         "kind": "literal",
-        "evidence": "c'est juste deux samedis par mois"
+        "evidence": "c'est juste deux samedis par mois",
+        "optionsHi": [
+          "हर शनिवार",
+          "महीने में एक बार",
+          "महीने में दो शनिवार",
+          "हर सुबह"
+        ]
       },
       {
         "q": {
-          "en": "Why does Nadia think Julien would be good at reception?"
+          "en": "Why does Nadia think Julien would be good at reception?",
+          "hi": "नादिया को क्यों लगता है कि जूलियन स्वागत-कक्ष (रिसेप्शन) में अच्छा रहेगा?"
         },
         "options": [
           "He is very strong",
@@ -363,11 +378,18 @@
           "hi": "'Toi qui parles trois langues' — वह तीन भाषाएँ बोलता है।"
         },
         "kind": "literal",
-        "evidence": "Toi qui parles trois langues, tu serais parfait à l'accueil."
+        "evidence": "Toi qui parles trois langues, tu serais parfait à l'accueil.",
+        "optionsHi": [
+          "वह बहुत ताक़तवर है",
+          "उसे कॉफ़ी पसंद है",
+          "वह पहले स्वयंसेवा कर चुका है",
+          "वह तीन भाषाएँ बोलता है"
+        ]
       },
       {
         "q": {
-          "en": "Which benefit does Julien himself mention?"
+          "en": "Which benefit does Julien himself mention?",
+          "hi": "जूलियन स्वयं कौन-सा लाभ बताता है?"
         },
         "options": [
           "Meeting new friends",
@@ -381,11 +403,18 @@
           "hi": "'Ça ferait bien sur mon CV' — वह ख़ुद फ़ायदा बताता है, यानी नादिया के जवाब काम कर गए।"
         },
         "kind": "inference",
-        "evidence": "ça ferait bien sur mon CV"
+        "evidence": "ça ferait bien sur mon CV",
+        "optionsHi": [
+          "नए दोस्त बनाना",
+          "मुफ़्त खाना मिलना",
+          "इससे उसके सीवी (CV) में अच्छा लगेगा",
+          "खाना बनाना सीखना"
+        ]
       },
       {
         "q": {
-          "en": "How does the conversation end?"
+          "en": "How does the conversation end?",
+          "hi": "बातचीत का अंत कैसे होता है?"
         },
         "options": [
           "Julien refuses",
@@ -399,7 +428,13 @@
           "hi": "'Inscris-moi pour le premier samedi de mars' — मार्च के पहले शनिवार के लिए नाम लिखवाओ।"
         },
         "kind": "gist",
-        "evidence": "Inscris-moi pour le premier samedi de mars."
+        "evidence": "Inscris-moi pour le premier samedi de mars.",
+        "optionsHi": [
+          "जूलियन मना कर देता है",
+          "जूलियन मार्च के लिए अपना नाम लिखवाने को कहता है",
+          "नादिया हार मान लेती है",
+          "वे इस पर सोचने का फ़ैसला करते हैं"
+        ]
       }
     ],
     "dictation": [
@@ -453,33 +488,33 @@
         "fr": "Regarde cette annonce : la banque alimentaire cherche des bénévoles.",
         "en": "Look at this ad: the food bank is looking for volunteers.",
         "hi": "यह विज्ञापन देखो: फ़ूड बैंक को स्वयंसेवक चाहिए।",
-        "pron": "ग़ö-गाग़्द सैत आ-नोँस ला बाँक आ-ली-माँ-तैग़ शैग़्श दे बे-ने-वॉल",
+        "pron": "र-गार्द सेत आ-नोंस ला बाँक आ-ली-माँ-तेर शेर्श दे बे-ने-वॉल",
         "model": "Regarde cette annonce : la banque alimentaire du quartier cherche des bénévoles deux samedis par mois, de dix heures à midi. Il n'y a pas besoin d'expérience, et une formation est donnée le premier jour."
       },
       {
         "fr": "Je comprends, mais ça ne prend que deux heures.",
         "en": "I understand, but it only takes two hours.",
         "hi": "मैं समझता / समझती हूँ, लेकिन इसमें सिर्फ़ दो घंटे लगते हैं।",
-        "pron": "झ़ö कोँ-प्ग़ाँ मै सा नö प्ग़ाँ कö दö ज़öग़",
+        "pron": "ज कों-प्राँ मे सा न प्राँ क द ज़र",
         "model": "Je comprends que tu sois fatigué le samedi, mais ça ne prend que deux heures, et ça commence à dix heures : tu peux dormir avant !"
       },
       {
         "fr": "Pas besoin d'expérience : ils forment tout le monde.",
         "en": "No experience needed: they train everyone.",
         "hi": "अनुभव की ज़रूरत नहीं: वे सबको सिखाते हैं।",
-        "pron": "पा बö-ज़्वैँ दैक-स्पे-ग़्याँस ईल फ़ोग़्म तू लö मोँद"
+        "pron": "पा ब-ज़्वैं देक-स्पे-र्याँस ईल फ़ोर्म तू ल मोंद"
       },
       {
         "fr": "En plus, c'est une expérience utile pour ton CV.",
         "en": "Plus, it's a useful experience for your CV.",
         "hi": "इसके अलावा, यह तुम्हारे सीवी के लिए काम का अनुभव है।",
-        "pron": "आँ प्लüस सै तüन ऐक-स्पे-ग़्याँस ü-तील पूग़ तोँ से-वे"
+        "pron": "आँ प्ल्यूस से त्यून एक-स्पे-र्याँस यू-तील पूर तों से-वे"
       },
       {
         "fr": "On se retrouve samedi devant l'entrée à dix heures ?",
         "en": "Shall we meet on Saturday in front of the entrance at ten?",
         "hi": "शनिवार को दस बजे प्रवेश-द्वार के सामने मिलें?",
-        "pron": "ओँ सö ग़ö-त्ग़ूव सम-दी द-वाँ लाँ-त्ग़े आ दी ज़öग़"
+        "pron": "ओं स र-त्रूव सम-दी द-वाँ लाँ-त्रे आ दी ज़र"
       }
     ],
     "tip": {
@@ -498,7 +533,8 @@
     "questions": [
       {
         "q": {
-          "en": "What is the writer's overall position?"
+          "en": "What is the writer's overall position?",
+          "hi": "लेखक का समग्र पक्ष क्या है?"
         },
         "options": [
           "He is completely against volunteering",
@@ -512,11 +548,18 @@
           "hi": "'Je partage en partie cette opinion' और निष्कर्ष: बढ़ावा दें, 'mais avec souplesse' — लचीलेपन के साथ।"
         },
         "kind": "gist",
-        "evidence": "Je partage en partie cette opinion."
+        "evidence": "Je partage en partie cette opinion.",
+        "optionsHi": [
+          "वह स्वयंसेवा के पूरी तरह विरुद्ध है",
+          "वह आंशिक रूप से सहमत है: स्वयंसेवा को प्रोत्साहित करें, पर कड़ी बाध्यता के रूप में नहीं",
+          "वह 80 घंटे अनिवार्य करना चाहता है",
+          "उसका मानना है कि केवल वयस्कों को स्वयंसेवा करनी चाहिए"
+        ]
       },
       {
         "q": {
-          "en": "What example does he give about his daughter?"
+          "en": "What example does he give about his daughter?",
+          "hi": "अपनी बेटी के बारे में वह कौन-सा उदाहरण देता है?"
         },
         "options": [
           "She works at a food bank",
@@ -530,11 +573,18 @@
           "hi": "बेटी ने पुस्तकालय में मदद की और अब लाइब्रेरियन बनने की सोच रही है।"
         },
         "kind": "literal",
-        "evidence": "elle pense maintenant devenir bibliothécaire"
+        "evidence": "elle pense maintenant devenir bibliothécaire",
+        "optionsHi": [
+          "वह फ़ूड बैंक में काम करती है",
+          "उसने स्वयंसेवा करने से मना कर दिया",
+          "उसने पुस्तकालय में मदद की और अब पुस्तकालयाध्यक्ष बनने की सोचती है",
+          "वह एक खेल क्लब में खेलती है"
+        ]
       },
       {
         "q": {
-          "en": "Which skills does volunteering teach, according to the letter?"
+          "en": "Which skills does volunteering teach, according to the letter?",
+          "hi": "पत्र के अनुसार स्वयंसेवा कौन-से कौशल सिखाती है?"
         },
         "options": [
           "Punctuality, teamwork, speaking with the public",
@@ -548,11 +598,18 @@
           "hi": "समय का पाबंद होना, टीम में काम करना, लोगों से बात करना।"
         },
         "kind": "literal",
-        "evidence": "on apprend à être ponctuel, à travailler en équipe et à parler avec le public"
+        "evidence": "on apprend à être ponctuel, à travailler en équipe et à parler avec le public",
+        "optionsHi": [
+          "समय की पाबंदी, टीमवर्क, जनता से बात करना",
+          "खाना बनाना और सफ़ाई करना",
+          "गाड़ी चलाना और मरम्मत करना",
+          "लिखना और चित्र बनाना"
+        ]
       },
       {
         "q": {
-          "en": "Why does the word 'obligatoire' bother him?"
+          "en": "Why does the word 'obligatoire' bother him?",
+          "hi": "'obligatoire' शब्द उसे क्यों खटकता है?"
         },
         "options": [
           "Because volunteering is useless",
@@ -566,11 +623,18 @@
           "hi": "'Un engagement imposé n'a pas toujours le même sens qu'un engagement choisi' — यह उसका विरोधी-तर्क वाला अनुच्छेद है।"
         },
         "kind": "inference",
-        "evidence": "Un engagement imposé n'a pas toujours le même sens qu'un engagement choisi."
+        "evidence": "Un engagement imposé n'a pas toujours le même sens qu'un engagement choisi.",
+        "optionsHi": [
+          "क्योंकि स्वयंसेवा बेकार है",
+          "क्योंकि थोपी गई प्रतिबद्धता चुनी हुई प्रतिबद्धता जैसी नहीं होती",
+          "क्योंकि स्कूलों के पास पैसे नहीं हैं",
+          "क्योंकि उसकी बेटी मना करती है"
+        ]
       },
       {
         "q": {
-          "en": "What does he suggest for students who have a job?"
+          "en": "What does he suggest for students who have a job?",
+          "hi": "जो विद्यार्थी नौकरी करते हैं, उनके लिए वह क्या सुझाव देता है?"
         },
         "options": [
           "No diploma",
@@ -584,7 +648,13 @@
           "hi": "'Moins d'heures pour les élèves qui ont un emploi' — नौकरी करने वाले विद्यार्थियों के लिए कम घंटे।"
         },
         "kind": "literal",
-        "evidence": "moins d'heures pour les élèves qui ont un emploi"
+        "evidence": "moins d'heures pour les élèves qui ont un emploi",
+        "optionsHi": [
+          "कोई डिप्लोमा नहीं",
+          "घंटे दोगुने करना",
+          "केवल गर्मियों में स्वयंसेवा",
+          "शायद कम घंटे"
+        ]
       }
     ]
   },
@@ -612,19 +682,19 @@
         "fr": "Je ne partage pas cette opinion.",
         "en": "I don't share this opinion.",
         "hi": "मैं इस राय से सहमत नहीं हूँ।",
-        "pron": "झ़ö नö पाग़-ताझ़ पा सैत ओ-पी-न्योँ"
+        "pron": "ज न पार-ताज पा सेत ओ-पी-न्यों"
       },
       {
         "fr": "Prenons l'exemple de …",
         "en": "Let's take the example of …",
         "hi": "… का उदाहरण लेते हैं",
-        "pron": "प्ग़ö-नोँ लैग-ज़ाँप्ल दö"
+        "pron": "प्र-नों लेग-ज़ाँप्ल द"
       },
       {
         "fr": "Il me semble que …",
         "en": "It seems to me that …",
         "hi": "मुझे लगता है कि …",
-        "pron": "ईल मö साँब्ल कö"
+        "pron": "इल म साँब्ल क"
       }
     ],
     "model": {
@@ -659,43 +729,43 @@
         "fr": "Un paragraphe, une idée.",
         "en": "One paragraph, one idea.",
         "hi": "एक अनुच्छेद, एक विचार।",
-        "pron": "ऐँ पा-ग़ा-ग्ग़ाफ़ üन ई-दे"
+        "pron": "ऐं पा-रा-ग्राफ़ यून ई-दे"
       },
       {
         "fr": "le contre-argument",
         "en": "counter-argument",
         "hi": "विरोधी तर्क",
-        "pron": "लö कोँ-त्ग़ आग़-गü-माँ"
+        "pron": "ल कों-त्र आर-ग्यू-माँ"
       },
       {
         "fr": "Ça te dirait de venir avec moi ?",
         "en": "Would you like to come with me?",
         "hi": "क्या तुम मेरे साथ चलना चाहोगे?",
-        "pron": "सा तö दी-ग़ै दö व-नीग़ आ-वैक म्वा"
+        "pron": "सा त दी-रे द व-नीर आ-वेक म्वा"
       },
       {
         "fr": "Pourriez-vous me dire … ?",
         "en": "Could you tell me …?",
         "hi": "क्या आप बता सकते हैं …?",
-        "pron": "पू-ग़ी-ये वू मö दीग़"
+        "pron": "पू-री-ये वू म दीर"
       },
       {
         "fr": "le brouillon",
         "en": "the draft",
         "hi": "रफ़ मसौदा",
-        "pron": "लö ब्ग़ू-योँ"
+        "pron": "ल ब्रू-यों"
       },
       {
         "fr": "Il me reste cinq minutes.",
         "en": "I have five minutes left.",
         "hi": "मेरे पास पाँच मिनट बचे हैं।",
-        "pron": "ईल मö ग़ैस्त सैँ मी-नüत"
+        "pron": "ईल म रेस्त सैं मी-न्यूत"
       },
       {
         "fr": "Veuillez agréer mes salutations distinguées.",
         "en": "Yours faithfully.",
         "hi": "सादर।",
-        "pron": "वö-ये ज़ा-ग्ग़े-ए मे सा-लü-ता-स्योँ दीस-तैँ-गे"
+        "pron": "व-ये ज़ा-ग्रे-ए मे सा-ल्यू-ता-स्यों दिस-तैं-गे"
       }
     ]
   },

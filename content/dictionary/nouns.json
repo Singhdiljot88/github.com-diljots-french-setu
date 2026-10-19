@@ -157,8 +157,8 @@
   ],
   "mistakes": [
    {
-    "en": "One form for both: \"un enfant\" (boy), \"une enfant\" (girl). With \"les enfants\", liaison: लै ज़ाँ-फ़ाँ.",
-    "hi": "लड़के और लड़की दोनों के लिए एक ही रूप: \"un enfant\", \"une enfant\"। \"les enfants\" में liaison: लै ज़ाँ-फ़ाँ।"
+    "en": "One form for both: \"un enfant\" (boy), \"une enfant\" (girl). With \"les enfants\", liaison: ले ज़ाँ-फ़ाँ.",
+    "hi": "लड़के और लड़की दोनों के लिए एक ही रूप: \"un enfant\", \"une enfant\"। \"les enfants\" में liaison: ले ज़ाँ-फ़ाँ।"
    }
   ],
   "related": [
@@ -187,7 +187,7 @@
    "लड़का"
   ],
   "ipa": "ɡaʁsɔ̃",
-  "pron": "गाग़-सोँ",
+  "pron": "गार-सों",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -297,7 +297,7 @@
    "पापा"
   ],
   "ipa": "pɛʁ",
-  "pron": "पैग़",
+  "pron": "पेर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -343,7 +343,7 @@
    "माता"
   ],
   "ipa": "mɛʁ",
-  "pron": "मैग़",
+  "pron": "मेर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -363,8 +363,8 @@
   ],
   "mistakes": [
    {
-    "en": "Don't confuse \"la mère\" (mother), \"la mer\" (sea) and \"le maire\" (mayor): same sound मैग़, context decides.",
-    "hi": "\"la mère\" (माँ), \"la mer\" (समुद्र) और \"le maire\" (महापौर) — तीनों की आवाज़ एक (मैग़), संदर्भ से अर्थ समझें।"
+    "en": "Don't confuse \"la mère\" (mother), \"la mer\" (sea) and \"le maire\" (mayor): same sound मेर, context decides.",
+    "hi": "\"la mère\" (माँ), \"la mer\" (समुद्र) और \"le maire\" (महापौर) — तीनों की आवाज़ एक (मेर), संदर्भ से अर्थ समझें।"
    }
   ],
   "related": [
@@ -393,7 +393,7 @@
    "भाई"
   ],
   "ipa": "fʁɛʁ",
-  "pron": "फ़्ग़ैग़",
+  "pron": "फ़्रेर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -439,7 +439,7 @@
    "बहन"
   ],
   "ipa": "sœʁ",
-  "pron": "सöग़",
+  "pron": "सर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -536,7 +536,7 @@
    "रिश्तेदार"
   ],
   "ipa": "paʁɑ̃",
-  "pron": "पा-ग़ाँ",
+  "pron": "पा-राँ",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -588,7 +588,7 @@
    "पति"
   ],
   "ipa": "maʁi",
-  "pron": "मा-ग़ी",
+  "pron": "मा-री",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -632,7 +632,7 @@
    "नाना"
   ],
   "ipa": "ɡʁɑ̃pɛʁ",
-  "pron": "ग्ग़ाँ-पैग़",
+  "pron": "ग्राँ-पेर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -683,7 +683,7 @@
    "नानी"
   ],
   "ipa": "ɡʁɑ̃mɛʁ",
-  "pron": "ग्ग़ाँ-मैग़",
+  "pron": "ग्राँ-मेर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -731,7 +731,7 @@
    "फूफा"
   ],
   "ipa": "ɔ̃kl",
-  "pron": "ओँक्ल",
+  "pron": "ओंक्ल",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -822,7 +822,7 @@
    "कज़िन"
   ],
   "ipa": "kuzɛ̃",
-  "pron": "कू-ज़ैँ",
+  "pron": "कू-ज़ैं",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -867,7 +867,7 @@
    "भांजा"
   ],
   "ipa": "nəvø",
-  "pron": "नö-वö",
+  "pron": "न-व",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -911,7 +911,7 @@
    "भांजी"
   ],
   "ipa": "njɛs",
-  "pron": "न्यैस",
+  "pron": "न्येस",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -1056,7 +1056,7 @@
    "बॉयफ़्रेंड"
   ],
   "ipa": "kɔpɛ̃",
-  "pron": "कॉ-पैँ",
+  "pron": "कॉ-पैं",
   "level": "A2",
   "register": "informal",
   "topics": [
@@ -1108,7 +1108,7 @@
    "पड़ोसन"
   ],
   "ipa": "vwazɛ̃",
-  "pron": "वा-ज़ैँ",
+  "pron": "वा-ज़ैं",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -1156,7 +1156,7 @@
    "साथ काम करने वाला"
   ],
   "ipa": "kɔlɛɡ",
-  "pron": "कॉ-लैग",
+  "pron": "कॉ-लेग",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -1207,7 +1207,7 @@
    "विद्यार्थी"
   ],
   "ipa": "elɛv",
-  "pron": "ए-लैव",
+  "pron": "ए-लेव",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -1258,7 +1258,7 @@
    "विद्यार्थी"
   ],
   "ipa": "etydjɑ̃",
-  "pron": "ए-तü-द्याँ",
+  "pron": "ए-त्यू-द्याँ",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -1284,8 +1284,8 @@
   ],
   "mistakes": [
    {
-    "en": "The feminine \"étudiante\" sounds different: ए-तü-द्याँत (final t pronounced).",
-    "hi": "स्त्रीलिंग \"étudiante\" अलग सुनाई देता है: ए-तü-द्याँत (आख़िरी t बोला जाता है)।"
+    "en": "The feminine \"étudiante\" sounds different: ए-त्यू-द्याँत (final t pronounced).",
+    "hi": "स्त्रीलिंग \"étudiante\" अलग सुनाई देता है: ए-त्यू-द्याँत (आख़िरी t बोला जाता है)।"
    }
   ],
   "related": [
@@ -1374,7 +1374,7 @@
    "आदमी"
   ],
   "ipa": "pɛʁsɔn",
-  "pron": "पैग़-सॉन",
+  "pron": "पेर-सॉन",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -1432,7 +1432,7 @@
    "लोग"
   ],
   "ipa": "ʒɑ̃",
-  "pron": "झ़ाँ",
+  "pron": "जाँ",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -1493,7 +1493,7 @@
    "सज्जन"
   ],
   "ipa": "məsjø",
-  "pron": "मö-स्यö",
+  "pron": "म-स्य",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -1517,8 +1517,8 @@
   ],
   "mistakes": [
    {
-    "en": "Pronounced मö-स्यö — the \"on\" is not nasal and the r is silent. Plural: \"messieurs\".",
-    "hi": "उच्चारण मö-स्यö है — \"on\" नासिक्य नहीं और r चुप। बहुवचन: \"messieurs\"।"
+    "en": "Pronounced म-स्य — the \"on\" is not nasal and the r is silent. Plural: \"messieurs\".",
+    "hi": "उच्चारण म-स्य है — \"on\" नासिक्य नहीं और r चुप। बहुवचन: \"messieurs\"।"
    }
   ],
   "related": [
@@ -1595,7 +1595,7 @@
    "बड़ा"
   ],
   "ipa": "adylt",
-  "pron": "आ-दüल्त",
+  "pron": "आ-द्यूल्त",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -1684,7 +1684,7 @@
    "पति/पत्नी"
   ],
   "ipa": "kɔ̃ʒwɛ̃",
-  "pron": "कोँ-झ़्वैँ",
+  "pron": "कों-ज्वैं",
   "level": "B1",
   "register": "formal",
   "topics": [
@@ -1784,7 +1784,7 @@
    "विवाह"
   ],
   "ipa": "maʁjaʒ",
-  "pron": "मा-ग़्याझ़",
+  "pron": "मा-र्याज",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -1881,7 +1881,7 @@
    "रिटायर्ड व्यक्ति"
   ],
   "ipa": "ʁətʁete",
-  "pron": "ग़ö-त्ग़ै-ते",
+  "pron": "र-त्रे-ते",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -1923,7 +1923,7 @@
    "सिर"
   ],
   "ipa": "tɛt",
-  "pron": "तैत",
+  "pron": "तेत",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -1980,7 +1980,7 @@
    "चेहरा"
   ],
   "ipa": "vizaʒ",
-  "pron": "वी-ज़ाझ़",
+  "pron": "वी-ज़ाज",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -2032,7 +2032,7 @@
    "आँख"
   ],
   "ipa": "œj",
-  "pron": "öय",
+  "pron": "अय",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -2057,8 +2057,8 @@
   ],
   "mistakes": [
    {
-    "en": "Very irregular plural: \"un œil\" but \"des yeux\" (दे ज़्यö).",
-    "hi": "बहुत अनियमित बहुवचन: \"un œil\" पर \"des yeux\" (दे ज़्यö)।"
+    "en": "Very irregular plural: \"un œil\" but \"des yeux\" (दे ज़्य).",
+    "hi": "बहुत अनियमित बहुवचन: \"un œil\" पर \"des yeux\" (दे ज़्य)।"
    },
    {
     "en": "Masculine in French (l'œil, les yeux bleus), feminine in Hindi (आँख).",
@@ -2093,7 +2093,7 @@
    "कान"
   ],
   "ipa": "ɔʁɛj",
-  "pron": "ऑ-ग़ैय",
+  "pron": "ऑ-रेय",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -2273,7 +2273,7 @@
    "बाल"
   ],
   "ipa": "ʃəvø",
-  "pron": "शö-वö",
+  "pron": "श-व",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -2324,7 +2324,7 @@
    "हाथ"
   ],
   "ipa": "mɛ̃",
-  "pron": "मैँ",
+  "pron": "मैं",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -2375,7 +2375,7 @@
    "बाज़ू"
   ],
   "ipa": "bʁa",
-  "pron": "ब्ग़ा",
+  "pron": "ब्रा",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -2418,7 +2418,7 @@
    "पैर"
   ],
   "ipa": "ʒɑ̃b",
-  "pron": "झ़ाँब",
+  "pron": "जाँब",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -2599,7 +2599,7 @@
    "पेट"
   ],
   "ipa": "vɑ̃tʁ",
-  "pron": "वाँत्ग़",
+  "pron": "वाँत्र",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -2648,7 +2648,7 @@
    "हृदय"
   ],
   "ipa": "kœʁ",
-  "pron": "कöग़",
+  "pron": "कर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -2789,7 +2789,7 @@
    "घुटना"
   ],
   "ipa": "ʒənu",
-  "pron": "झ़ö-नू",
+  "pron": "ज-नू",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -2878,7 +2878,7 @@
    "गला"
   ],
   "ipa": "ɡɔʁʒ",
-  "pron": "गॉग़्झ़",
+  "pron": "गॉर्ज",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -2926,7 +2926,7 @@
    "देह"
   ],
   "ipa": "kɔʁ",
-  "pron": "कॉग़",
+  "pron": "कॉर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -2947,7 +2947,7 @@
   "mistakes": [
    {
     "en": "The p and s are silent: kɔʁ. Same form in the plural.",
-    "hi": "p और s चुप हैं: \"कॉग़\"। बहुवचन में भी वही रूप।"
+    "hi": "p और s चुप हैं: \"कॉर\"। बहुवचन में भी वही रूप।"
    }
   ],
   "related": [
@@ -3072,7 +3072,7 @@
    "पीड़ा"
   ],
   "ipa": "dulœʁ",
-  "pron": "दू-लöग़",
+  "pron": "दू-लर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -3118,7 +3118,7 @@
    "बुख़ार"
   ],
   "ipa": "fjɛvʁ",
-  "pron": "फ़्यैव्ग़",
+  "pron": "फ़्येव्र",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -3165,7 +3165,7 @@
    "सर्दी"
   ],
   "ipa": "ʁym",
-  "pron": "ग़üम",
+  "pron": "र्यूम",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -3212,7 +3212,7 @@
    "इन्फ़्लुएंज़ा"
   ],
   "ipa": "ɡʁip",
-  "pron": "ग्ग़ीप",
+  "pron": "ग्रीप",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -3298,7 +3298,7 @@
    "घाव"
   ],
   "ipa": "blesyʁ",
-  "pron": "ब्ले-सüग़",
+  "pron": "ब्ले-स्यूर",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -3396,7 +3396,7 @@
    "नुस्ख़ा"
   ],
   "ipa": "ɔʁdɔnɑ̃s",
-  "pron": "ऑग़-दॉ-नाँस",
+  "pron": "ऑर-दॉ-नाँस",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -3440,7 +3440,7 @@
    "फ़ार्मेसी"
   ],
   "ipa": "faʁmasi",
-  "pron": "फ़ाग़-मा-सी",
+  "pron": "फ़ार-मा-सी",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -3486,7 +3486,7 @@
    "मुलाक़ात का समय"
   ],
   "ipa": "ʁɑ̃devu",
-  "pron": "ग़ाँ-दे-वू",
+  "pron": "राँ-दे-वू",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -3592,7 +3592,7 @@
    "इमरजेंसी"
   ],
   "ipa": "yʁʒɑ̃s",
-  "pron": "üग़-झ़ाँस",
+  "pron": "यूर-जाँस",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -3645,7 +3645,7 @@
    "एम्बुलेंस"
   ],
   "ipa": "ɑ̃bylɑ̃s",
-  "pron": "आँ-बü-लाँस",
+  "pron": "आँ-ब्यू-लाँस",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -3684,7 +3684,7 @@
    "वैक्सीन"
   ],
   "ipa": "vaksɛ̃",
-  "pron": "वाक-सैँ",
+  "pron": "वाक-सैं",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -3704,8 +3704,8 @@
   ],
   "mistakes": [
    {
-    "en": "\"cc\" here sounds \"ks\": वाक-सैँ. The word is masculine: \"le vaccin\", \"un vaccin\".",
-    "hi": "यहाँ \"cc\" का उच्चारण \"क्स\" है: वाक-सैँ। शब्द पुल्लिंग है: \"le vaccin\", \"un vaccin\"।"
+    "en": "\"cc\" here sounds \"ks\": वाक-सैं. The word is masculine: \"le vaccin\", \"un vaccin\".",
+    "hi": "यहाँ \"cc\" का उच्चारण \"क्स\" है: वाक-सैं। शब्द पुल्लिंग है: \"le vaccin\", \"un vaccin\"।"
    }
   ],
   "related": [
@@ -3731,7 +3731,7 @@
    "एलर्जी"
   ],
   "ipa": "alɛʁʒi",
-  "pron": "आ-लैग़-झ़ी",
+  "pron": "आ-लेर-जी",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -3976,7 +3976,7 @@
    "इलाज"
   ],
   "ipa": "swɛ̃",
-  "pron": "स्वैँ",
+  "pron": "स्वैं",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -4024,7 +4024,7 @@
    "स्ट्रेस"
   ],
   "ipa": "stʁɛs",
-  "pron": "स्त्ग़ैस",
+  "pron": "स्त्रेस",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -4066,7 +4066,7 @@
    "नींद"
   ],
   "ipa": "sɔmɛj",
-  "pron": "सॉ-मैय",
+  "pron": "सॉ-मेय",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -4159,7 +4159,7 @@
    "आमाशय"
   ],
   "ipa": "ɛstɔma",
-  "pron": "ऐस-तॉ-मा",
+  "pron": "एस-तॉ-मा",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -4206,7 +4206,7 @@
    "मकान"
   ],
   "ipa": "mɛzɔ̃",
-  "pron": "मै-ज़ोँ",
+  "pron": "मे-ज़ों",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -4265,7 +4265,7 @@
    "अपार्टमेंट"
   ],
   "ipa": "apaʁtəmɑ̃",
-  "pron": "आ-पाग़्त-माँ",
+  "pron": "आ-पार्त-माँ",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -4329,7 +4329,7 @@
    "मकान"
   ],
   "ipa": "lɔʒmɑ̃",
-  "pron": "लॉझ़-माँ",
+  "pron": "लॉज-माँ",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -4491,7 +4491,7 @@
    "सिक्योरिटी डिपॉज़िट"
   ],
   "ipa": "kosjɔ̃",
-  "pron": "को-स्योँ",
+  "pron": "को-स्यों",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -4546,7 +4546,7 @@
    "गरम करने की व्यवस्था"
   ],
   "ipa": "ʃofaʒ",
-  "pron": "शो-फ़ाझ़",
+  "pron": "शो-फ़ाज",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -4604,7 +4604,7 @@
    "मकान-मालिक"
   ],
   "ipa": "pʁɔpʁijetɛʁ",
-  "pron": "प्ग़ॉ-प्ग़ी-ए-तैग़",
+  "pron": "प्रॉ-प्री-ए-तेर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -4652,7 +4652,7 @@
    "किरायेदार"
   ],
   "ipa": "lɔkatɛʁ",
-  "pron": "लॉ-का-तैग़",
+  "pron": "लॉ-का-तेर",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -4696,7 +4696,7 @@
    "रूममेट"
   ],
   "ipa": "kolɔkatɛʁ",
-  "pron": "को-लॉ-का-तैग़",
+  "pron": "को-लॉ-का-तेर",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -4742,7 +4742,7 @@
    "किराया"
   ],
   "ipa": "lɔkasjɔ̃",
-  "pron": "लॉ-का-स्योँ",
+  "pron": "लॉ-का-स्यों",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -4792,7 +4792,7 @@
    "बिल्डिंग"
   ],
   "ipa": "imœbl",
-  "pron": "ई-मöब्ल",
+  "pron": "ई-मब्ल",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -4841,7 +4841,7 @@
    "कमरा"
   ],
   "ipa": "ʃɑ̃bʁ",
-  "pron": "शाँब्ग़",
+  "pron": "शाँब्र",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -4901,7 +4901,7 @@
    "नाटक"
   ],
   "ipa": "pjɛs",
-  "pron": "प्यैस",
+  "pron": "प्येस",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -4959,7 +4959,7 @@
    "खाना बनाना"
   ],
   "ipa": "kɥizin",
-  "pron": "क्üई-ज़ीन",
+  "pron": "क्यूई-ज़ीन",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -5009,7 +5009,7 @@
    "ग़ुसलख़ाना"
   ],
   "ipa": "sal də bɛ̃",
-  "pron": "साल दö बैँ",
+  "pron": "साल द बैं",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -5058,7 +5058,7 @@
    "ड्रॉइंग रूम"
   ],
   "ipa": "salɔ̃",
-  "pron": "सा-लोँ",
+  "pron": "सा-लों",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -5101,7 +5101,7 @@
    "दरवाज़ा"
   ],
   "ipa": "pɔʁt",
-  "pron": "पॉग़्त",
+  "pron": "पॉर्त",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -5148,7 +5148,7 @@
    "खिड़की"
   ],
   "ipa": "fənɛtʁ",
-  "pron": "फ़ö-नैत्ग़",
+  "pron": "फ़-नेत्र",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -5238,7 +5238,7 @@
    "ज़ीना"
   ],
   "ipa": "ɛskalje",
-  "pron": "ऐस-का-ल्ये",
+  "pron": "एस-का-ल्ये",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -5281,7 +5281,7 @@
    "लिफ़्ट"
   ],
   "ipa": "asɑ̃sœʁ",
-  "pron": "आ-साँ-सöग़",
+  "pron": "आ-साँ-सर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -5328,7 +5328,7 @@
    "मंज़िल"
   ],
   "ipa": "etaʒ",
-  "pron": "ए-ताझ़",
+  "pron": "ए-ताज",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -5416,7 +5416,7 @@
    "छज्जा"
   ],
   "ipa": "balkɔ̃",
-  "pron": "बाल-कोँ",
+  "pron": "बाल-कों",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -5460,7 +5460,7 @@
    "बाग़"
   ],
   "ipa": "ʒaʁdɛ̃",
-  "pron": "झ़ाग़-दैँ",
+  "pron": "जार-दैं",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -5509,7 +5509,7 @@
    "सामान"
   ],
   "ipa": "mœbl",
-  "pron": "मöब्ल",
+  "pron": "मब्ल",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -5650,7 +5650,7 @@
    "कुर्सी"
   ],
   "ipa": "ʃɛz",
-  "pron": "शैज़",
+  "pron": "शेज़",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -5735,7 +5735,7 @@
    "अलमारी"
   ],
   "ipa": "aʁmwaʁ",
-  "pron": "आग़-म्वाग़",
+  "pron": "आर-म्वार",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -5776,7 +5776,7 @@
    "फ़्रिज"
   ],
   "ipa": "ʁefʁiʒeʁatœʁ",
-  "pron": "ग़े-फ़्ग़ी-झ़े-ग़ा-तöग़",
+  "pron": "रे-फ़्री-जे-रा-तर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -5824,7 +5824,7 @@
    "भट्टी"
   ],
   "ipa": "fuʁ",
-  "pron": "फ़ूग़",
+  "pron": "फ़ूर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -5914,7 +5914,7 @@
    "लॉन्ड्री"
   ],
   "ipa": "bɥɑ̃dʁi",
-  "pron": "बüआँ-द्ग़ी",
+  "pron": "ब्यूआँ-द्री",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -5959,7 +5959,7 @@
    "बिजली"
   ],
   "ipa": "elɛktʁisite",
-  "pron": "ए-लैक-त्ग़ी-सी-ते",
+  "pron": "ए-लेक-त्री-सी-ते",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -6004,7 +6004,7 @@
    "सामान शिफ़्ट करना"
   ],
   "ipa": "demenaʒmɑ̃",
-  "pron": "दे-मे-नाझ़-माँ",
+  "pron": "दे-मे-नाज-माँ",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -6047,7 +6047,7 @@
    "एक कमरे का फ़्लैट"
   ],
   "ipa": "stydjo",
-  "pron": "स्तü-द्यो",
+  "pron": "स्त्यू-द्यो",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -6063,8 +6063,8 @@
   "collocations": [],
   "mistakes": [
    {
-    "en": "The u is the French \"ü\" sound: स्तü-द्यो, not \"stoo-dio\".",
-    "hi": "u का उच्चारण \"ü\" है: स्तü-द्यो, \"स्टूडियो\" नहीं।"
+    "en": "The u is the French \"यू\" sound: स्त्यू-द्यो, not \"stoo-dio\".",
+    "hi": "u का उच्चारण \"यू\" है: स्त्यू-द्यो, \"स्टूडियो\" नहीं।"
    }
   ],
   "related": [
@@ -6089,7 +6089,7 @@
    "दीवार"
   ],
   "ipa": "myʁ",
-  "pron": "मüग़",
+  "pron": "म्यूर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -6132,7 +6132,7 @@
    "छत (अंदर की)"
   ],
   "ipa": "plafɔ̃",
-  "pron": "प्ला-फ़ोँ",
+  "pron": "प्ला-फ़ों",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -6306,7 +6306,7 @@
    "पर्दा"
   ],
   "ipa": "ʁido",
-  "pron": "ग़ी-दो",
+  "pron": "री-दो",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -6400,7 +6400,7 @@
    "परिवार"
   ],
   "ipa": "menaʒ",
-  "pron": "मे-नाझ़",
+  "pron": "मे-नाज",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -6449,7 +6449,7 @@
    "डस्टबिन"
   ],
   "ipa": "pubɛl",
-  "pron": "पू-बैल",
+  "pron": "पू-बेल",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -6500,7 +6500,7 @@
    "इमारत का देखभालकर्ता"
   ],
   "ipa": "kɔ̃sjɛʁʒ",
-  "pron": "कोँ-स्यैग़्झ़",
+  "pron": "कों-स्येर्ज",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -6544,7 +6544,7 @@
    "मरम्मत"
   ],
   "ipa": "ʁepaʁasjɔ̃",
-  "pron": "ग़े-पा-ग़ा-स्योँ",
+  "pron": "रे-पा-रा-स्यों",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -6587,7 +6587,7 @@
    "डाक-पेटी"
   ],
   "ipa": "bwat o lɛtʁ",
-  "pron": "ब्वात ओ लैत्ग़",
+  "pron": "ब्वात ओ लेत्र",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -6633,7 +6633,7 @@
    "आहार"
   ],
   "ipa": "nuʁityʁ",
-  "pron": "नू-ग़ी-तüग़",
+  "pron": "नू-री-त्यूर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -6681,7 +6681,7 @@
    "रोटी"
   ],
   "ipa": "pɛ̃",
-  "pron": "पैँ",
+  "pron": "पैं",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -6781,7 +6781,7 @@
    "दूध"
   ],
   "ipa": "lɛ",
-  "pron": "लै",
+  "pron": "ले",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -6802,7 +6802,7 @@
   "mistakes": [
    {
     "en": "The t is silent: \"lɛ\".",
-    "hi": "t नहीं बोला जाता: \"लै\"।"
+    "hi": "t नहीं बोला जाता: \"ले\"।"
    }
   ],
   "related": [
@@ -6933,7 +6933,7 @@
    "जूस"
   ],
   "ipa": "ʒy",
-  "pron": "झ़ü",
+  "pron": "ज्यू",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -6952,8 +6952,8 @@
   ],
   "mistakes": [
    {
-    "en": "The s is silent and the u is ü: झ़ü, not \"joos\".",
-    "hi": "s चुप है और u का उच्चारण ü: झ़ü, \"जूस\" नहीं।"
+    "en": "The s is silent and the u is यू: ज्यू, not \"joos\".",
+    "hi": "s चुप है और u का उच्चारण यू: ज्यू, \"जूस\" नहीं।"
    }
   ],
   "related": [
@@ -6979,7 +6979,7 @@
    "वाइन"
   ],
   "ipa": "vɛ̃",
-  "pron": "वैँ",
+  "pron": "वैं",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -7022,7 +7022,7 @@
    "बियर"
   ],
   "ipa": "bjɛʁ",
-  "pron": "ब्यैग़",
+  "pron": "ब्येर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -7061,7 +7061,7 @@
    "पीने की चीज़"
   ],
   "ipa": "bwasɔ̃",
-  "pron": "ब्वा-सोँ",
+  "pron": "ब्वा-सों",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -7108,7 +7108,7 @@
    "चीज़"
   ],
   "ipa": "fʁɔmaʒ",
-  "pron": "फ़्ग़ॉ-माझ़",
+  "pron": "फ़्रॉ-माज",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -7202,7 +7202,7 @@
    "मुर्ग़ा"
   ],
   "ipa": "pulɛ",
-  "pron": "पू-लै",
+  "pron": "पू-ले",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -7242,7 +7242,7 @@
    "मछली"
   ],
   "ipa": "pwasɔ̃",
-  "pron": "प्वा-सोँ",
+  "pron": "प्वा-सों",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -7285,7 +7285,7 @@
    "अंडा"
   ],
   "ipa": "œf",
-  "pron": "öफ़",
+  "pron": "अफ़",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -7304,8 +7304,8 @@
   ],
   "mistakes": [
    {
-    "en": "Singular \"un œuf\" (öफ़, f pronounced), plural \"des œufs\" (दे ज़ö — f and s both silent).",
-    "hi": "एकवचन \"un œuf\" (f बोला जाता है), बहुवचन \"des œufs\" (दे ज़ö — f और s दोनों चुप)।"
+    "en": "Singular \"un œuf\" (अफ़, f pronounced), plural \"des œufs\" (दे ज़ — f and s both silent).",
+    "hi": "एकवचन \"un œuf\" (f बोला जाता है), बहुवचन \"des œufs\" (दे ज़ — f और s दोनों चुप)।"
    }
   ],
   "related": [
@@ -7331,7 +7331,7 @@
    "चावल"
   ],
   "ipa": "ʁi",
-  "pron": "ग़ी",
+  "pron": "री",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -7351,7 +7351,7 @@
   "mistakes": [
    {
     "en": "The z is silent: just \"ʁi\". Same form in the plural.",
-    "hi": "z नहीं बोला जाता: बस \"ग़ी\"। बहुवचन में वही रूप।"
+    "hi": "z नहीं बोला जाता: बस \"री\"। बहुवचन में वही रूप।"
    }
   ],
   "related": [
@@ -7421,7 +7421,7 @@
    "सब्ज़ी"
   ],
   "ipa": "legym",
-  "pron": "ले-गüम",
+  "pron": "ले-ग्यूम",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -7467,7 +7467,7 @@
    "फल"
   ],
   "ipa": "fʁɥi",
-  "pron": "फ़्ग़üई",
+  "pron": "फ़्र्यूई",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -7599,7 +7599,7 @@
    "संतरा"
   ],
   "ipa": "ɔʁɑ̃ʒ",
-  "pron": "ऑ-ग़ाँझ़",
+  "pron": "ऑ-राँज",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -7683,7 +7683,7 @@
    "आलू"
   ],
   "ipa": "pɔm də tɛʁ",
-  "pron": "पॉम दö तैग़",
+  "pron": "पॉम द तेर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -7732,7 +7732,7 @@
    "प्याज़"
   ],
   "ipa": "ɔɲɔ̃",
-  "pron": "ऑ-न्योँ",
+  "pron": "ऑ-न्यों",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -7748,8 +7748,8 @@
   "collocations": [],
   "mistakes": [
    {
-    "en": "Spelled \"oignon\" but pronounced ऑ-न्योँ (the i is silent). The 1990 reform also allows \"ognon\".",
-    "hi": "वर्तनी \"oignon\" पर उच्चारण ऑ-न्योँ (i चुप)। 1990 के सुधार से \"ognon\" भी मान्य है।"
+    "en": "Spelled \"oignon\" but pronounced ऑ-न्यों (the i is silent). The 1990 reform also allows \"ognon\".",
+    "hi": "वर्तनी \"oignon\" पर उच्चारण ऑ-न्यों (i चुप)। 1990 के सुधार से \"ognon\" भी मान्य है।"
    }
   ],
   "related": [
@@ -7775,7 +7775,7 @@
    "गाजर"
   ],
   "ipa": "kaʁɔt",
-  "pron": "का-ग़ॉत",
+  "pron": "का-रॉत",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -7909,7 +7909,7 @@
    "शक्कर"
   ],
   "ipa": "sykʁ",
-  "pron": "सüक्ग़",
+  "pron": "स्यूक्र",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -7956,7 +7956,7 @@
    "नमक"
   ],
   "ipa": "sɛl",
-  "pron": "सैल",
+  "pron": "सेल",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -7993,7 +7993,7 @@
    "काली मिर्च"
   ],
   "ipa": "pwavʁ",
-  "pron": "प्वाव्ग़",
+  "pron": "प्वाव्र",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -8036,7 +8036,7 @@
    "मक्खन"
   ],
   "ipa": "bœʁ",
-  "pron": "बöग़",
+  "pron": "बर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -8082,7 +8082,7 @@
    "तेल"
   ],
   "ipa": "ɥil",
-  "pron": "üईल",
+  "pron": "यूईल",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -8129,7 +8129,7 @@
    "मैदा"
   ],
   "ipa": "faʁin",
-  "pron": "फ़ा-ग़ीन",
+  "pron": "फ़ा-रीन",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -8389,7 +8389,7 @@
    "खाना"
   ],
   "ipa": "ʁəpa",
-  "pron": "ग़ö-पा",
+  "pron": "र-पा",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -8436,7 +8436,7 @@
    "नाश्ता"
   ],
   "ipa": "pətidejœne",
-  "pron": "प्ती-दे-झ़ö-ने",
+  "pron": "प्ती-दे-ज-ने",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -8486,7 +8486,7 @@
    "नाश्ता (क्यूबेक)"
   ],
   "ipa": "dejœne",
-  "pron": "दे-झ़ö-ने",
+  "pron": "दे-ज-ने",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -8633,7 +8633,7 @@
    "भोजनालय"
   ],
   "ipa": "ʁɛstɔʁɑ̃",
-  "pron": "ग़ैस-तॉ-ग़ाँ",
+  "pron": "रेस-तॉ-राँ",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -8654,8 +8654,8 @@
   ],
   "mistakes": [
    {
-    "en": "The final t is silent: ग़ैस-तॉ-ग़ाँ. Familiar: \"le resto\".",
-    "hi": "आख़िरी t चुप: ग़ैस-तॉ-ग़ाँ। बोलचाल में: \"le resto\"।"
+    "en": "The final t is silent: रेस-तॉ-राँ. Familiar: \"le resto\".",
+    "hi": "आख़िरी t चुप: रेस-तॉ-राँ। बोलचाल में: \"le resto\"।"
    }
   ],
   "related": [
@@ -8686,7 +8686,7 @@
    "व्यंजन-सूची"
   ],
   "ipa": "məny",
-  "pron": "मö-नü",
+  "pron": "म-न्यू",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -8781,7 +8781,7 @@
    "डेज़र्ट"
   ],
   "ipa": "desɛʁ",
-  "pron": "दे-सैग़",
+  "pron": "दे-सेर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -8827,7 +8827,7 @@
    "जोड़"
   ],
   "ipa": "adisjɔ̃",
-  "pron": "आ-दी-स्योँ",
+  "pron": "आ-दी-स्यों",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -8873,7 +8873,7 @@
    "बख़्शीश"
   ],
   "ipa": "puʁbwaʁ",
-  "pron": "पूग़-ब्वाग़",
+  "pron": "पूर-ब्वार",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -8920,7 +8920,7 @@
    "काँच"
   ],
   "ipa": "vɛʁ",
-  "pron": "वैग़",
+  "pron": "वेर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -9012,7 +9012,7 @@
    "बोतल"
   ],
   "ipa": "butɛj",
-  "pron": "बू-तैय",
+  "pron": "बू-तेय",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -9054,7 +9054,7 @@
    "थाली"
   ],
   "ipa": "asjɛt",
-  "pron": "आ-स्यैत",
+  "pron": "आ-स्येत",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -9092,7 +9092,7 @@
    "काँटा"
   ],
   "ipa": "fuʁʃɛt",
-  "pron": "फ़ूग़-शैत",
+  "pron": "फ़ूर-शेत",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -9177,7 +9177,7 @@
    "चम्मच"
   ],
   "ipa": "kɥijɛʁ",
-  "pron": "क्üई-यैग़",
+  "pron": "क्यूई-येर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -9196,8 +9196,8 @@
   ],
   "mistakes": [
    {
-    "en": "Also spelled \"cuiller\". The \"ui\" is üइ, not \"kwee\".",
-    "hi": "\"cuiller\" भी लिखा जाता है। \"ui\" का उच्चारण üइ है।"
+    "en": "Also spelled \"cuiller\". The \"ui\" is यूइ, not \"kwee\".",
+    "hi": "\"cuiller\" भी लिखा जाता है। \"ui\" का उच्चारण यूइ है।"
    }
   ],
   "related": [
@@ -9225,7 +9225,7 @@
    "बनाने की विधि"
   ],
   "ipa": "ʁəsɛt",
-  "pron": "ग़ö-सैत",
+  "pron": "र-सेत",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -9267,7 +9267,7 @@
    "भूख"
   ],
   "ipa": "fɛ̃",
-  "pron": "फ़ैँ",
+  "pron": "फ़ैं",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -9417,7 +9417,7 @@
    "चाँदी"
   ],
   "ipa": "aʁʒɑ̃",
-  "pron": "आग़-झ़ाँ",
+  "pron": "आर-जाँ",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -9477,7 +9477,7 @@
    "पुरस्कार"
   ],
   "ipa": "pʁi",
-  "pron": "प्ग़ी",
+  "pron": "प्री",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -9534,7 +9534,7 @@
    "स्टोर"
   ],
   "ipa": "maɡazɛ̃",
-  "pron": "मा-गा-ज़ैँ",
+  "pron": "मा-गा-ज़ैं",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -9587,7 +9587,7 @@
    "परचून"
   ],
   "ipa": "episʁi",
-  "pron": "ए-पीस-ग़ी",
+  "pron": "ए-पीस-री",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -9640,7 +9640,7 @@
    "सुपरमार्केट"
   ],
   "ipa": "sypɛʁmaʁʃe",
-  "pron": "सü-पैग़-माग़-शे",
+  "pron": "स्यू-पेर-मार-शे",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -9681,7 +9681,7 @@
    "मंडी"
   ],
   "ipa": "maʁʃe",
-  "pron": "माग़-शे",
+  "pron": "मार-शे",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -9728,7 +9728,7 @@
    "बेकरी"
   ],
   "ipa": "bulɑ̃ʒʁi",
-  "pron": "बू-लाँझ़-ग़ी",
+  "pron": "बू-लाँज-री",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -9821,7 +9821,7 @@
    "डिब्बा"
   ],
   "ipa": "kɛs",
-  "pron": "कैस",
+  "pron": "केस",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -9873,7 +9873,7 @@
    "मेन्यू"
   ],
   "ipa": "kaʁt",
-  "pron": "काग़्त",
+  "pron": "कार्त",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -9932,7 +9932,7 @@
    "मुद्रा"
   ],
   "ipa": "mɔnɛ",
-  "pron": "मॉ-नै",
+  "pron": "मॉ-ने",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -9983,7 +9983,7 @@
    "नोट"
   ],
   "ipa": "bijɛ",
-  "pron": "बी-यै",
+  "pron": "बी-ये",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -10009,8 +10009,8 @@
   ],
   "mistakes": [
    {
-    "en": "\"-illet\" sounds \"iyɛ\" (बी-यै); the ll is not an \"l\". Masculine, while Hindi टिकट is usually feminine.",
-    "hi": "\"-illet\" का उच्चारण \"ईयै\" है (बी-यै); ll का \"ल\" नहीं बोलते। पुल्लिंग, जबकि हिंदी में टिकट आम तौर पर स्त्रीलिंग।"
+    "en": "\"-illet\" sounds \"iyɛ\" (बी-ये); the ll is not an \"l\". Masculine, while Hindi टिकट is usually feminine.",
+    "hi": "\"-illet\" का उच्चारण \"ईये\" है (बी-ये); ll का \"ल\" नहीं बोलते। पुल्लिंग, जबकि हिंदी में टिकट आम तौर पर स्त्रीलिंग।"
    }
   ],
   "related": [
@@ -10037,7 +10037,7 @@
    "डॉलर"
   ],
   "ipa": "dɔlaʁ",
-  "pron": "दॉ-लाग़",
+  "pron": "दॉ-लार",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -10080,7 +10080,7 @@
    "यूरो"
   ],
   "ipa": "øʁo",
-  "pron": "ö-ग़ो",
+  "pron": "अ-रो",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -10096,8 +10096,8 @@
   "collocations": [],
   "mistakes": [
    {
-    "en": "Liaison with numbers: \"deux euros\" = दö ज़ö-ग़ो, \"neuf euros\" = नöव ö-ग़ो.",
-    "hi": "संख्याओं के साथ liaison: \"deux euros\" = दö ज़ö-ग़ो, \"neuf euros\" = नöव ö-ग़ो।"
+    "en": "Liaison with numbers: \"deux euros\" = द ज़-रो, \"neuf euros\" = नव अ-रो.",
+    "hi": "संख्याओं के साथ liaison: \"deux euros\" = द ज़-रो, \"neuf euros\" = नव अ-रो।"
    }
   ],
   "related": [
@@ -10281,7 +10281,7 @@
    "डिस्काउंट"
   ],
   "ipa": "ʁabɛ",
-  "pron": "ग़ा-बै",
+  "pron": "रा-बे",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -10331,7 +10331,7 @@
    "रसीद"
   ],
   "ipa": "ʁəsy",
-  "pron": "ग़ö-सü",
+  "pron": "र-स्यू",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -10381,7 +10381,7 @@
    "चालान"
   ],
   "ipa": "faktyʁ",
-  "pron": "फ़ाक-तüग़",
+  "pron": "फ़ाक-त्यूर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -10479,7 +10479,7 @@
    "अकाउंट"
   ],
   "ipa": "kɔ̃t",
-  "pron": "कोँत",
+  "pron": "कोंत",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -10506,8 +10506,8 @@
   ],
   "mistakes": [
    {
-    "en": "The p is silent: कोँत. \"Tenir compte de\" = to take into account.",
-    "hi": "p चुप है: कोँत। \"tenir compte de\" = ध्यान में रखना।"
+    "en": "The p is silent: कोंत. \"Tenir compte de\" = to take into account.",
+    "hi": "p चुप है: कोंत। \"tenir compte de\" = ध्यान में रखना।"
    }
   ],
   "related": [
@@ -10535,7 +10535,7 @@
    "अदायगी"
   ],
   "ipa": "pɛmɑ̃",
-  "pron": "पै-माँ",
+  "pron": "पे-माँ",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -10555,8 +10555,8 @@
   ],
   "mistakes": [
    {
-    "en": "The e after \"i\" is silent: पै-माँ. Masculine, while Hindi अदायगी is feminine.",
-    "hi": "\"i\" के बाद वाला e चुप है: पै-माँ। पुल्लिंग।"
+    "en": "The e after \"i\" is silent: पे-माँ. Masculine, while Hindi अदायगी is feminine.",
+    "hi": "\"i\" के बाद वाला e चुप है: पे-माँ। पुल्लिंग।"
    }
   ],
   "related": [
@@ -10632,7 +10632,7 @@
    "आयकर"
   ],
   "ipa": "ɛ̃po",
-  "pron": "ऐँ-पो",
+  "pron": "ऐं-पो",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -10653,8 +10653,8 @@
   ],
   "mistakes": [
    {
-    "en": "The p is pronounced, the t is silent: ऐँ-पो.",
-    "hi": "p बोला जाता है, t चुप: ऐँ-पो।"
+    "en": "The p is pronounced, the t is silent: ऐं-पो.",
+    "hi": "p बोला जाता है, t चुप: ऐं-पो।"
    }
   ],
   "related": [
@@ -10832,7 +10832,7 @@
    "बजट"
   ],
   "ipa": "bydʒɛ",
-  "pron": "बüद-झ़ै",
+  "pron": "ब्यूद-जे",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -11023,7 +11023,7 @@
    "पोशाक"
   ],
   "ipa": "vɛtmɑ̃",
-  "pron": "वैत-माँ",
+  "pron": "वेत-माँ",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -11074,7 +11074,7 @@
    "शर्ट"
   ],
   "ipa": "ʃəmiz",
-  "pron": "शö-मीज़",
+  "pron": "श-मीज़",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -11119,7 +11119,7 @@
    "पतलून"
   ],
   "ipa": "pɑ̃talɔ̃",
-  "pron": "पाँ-ता-लोँ",
+  "pron": "पाँ-ता-लों",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -11204,7 +11204,7 @@
    "घाघरा"
   ],
   "ipa": "ʒyp",
-  "pron": "झ़üप",
+  "pron": "ज्यूप",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -11243,7 +11243,7 @@
    "ड्रेस"
   ],
   "ipa": "ʁɔb",
-  "pron": "ग़ॉब",
+  "pron": "रॉब",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -11336,7 +11336,7 @@
    "जैकेट"
   ],
   "ipa": "vɛst",
-  "pron": "वैस्त",
+  "pron": "वेस्त",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -11379,7 +11379,7 @@
    "स्वेटर"
   ],
   "ipa": "pyl",
-  "pron": "पüल",
+  "pron": "प्यूल",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -11395,8 +11395,8 @@
   "collocations": [],
   "mistakes": [
    {
-    "en": "Pronounced पüल (French u), not \"pool\". In Quebec people often say \"un chandail\".",
-    "hi": "उच्चारण पüल है (फ़्रेंच u), \"पुल\" नहीं। क्यूबेक में अक्सर \"un chandail\" कहते हैं।"
+    "en": "Pronounced प्यूल (French u), not \"pool\". In Quebec people often say \"un chandail\".",
+    "hi": "उच्चारण प्यूल है (फ़्रेंच u), \"पुल\" नहीं। क्यूबेक में अक्सर \"un chandail\" कहते हैं।"
    }
   ],
   "related": [
@@ -11424,7 +11424,7 @@
    "जूता"
   ],
   "ipa": "ʃosyʁ",
-  "pron": "शो-सüग़",
+  "pron": "शो-स्यूर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -11515,7 +11515,7 @@
    "मोज़ा"
   ],
   "ipa": "ʃosɛt",
-  "pron": "शो-सैत",
+  "pron": "शो-सेत",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -11559,7 +11559,7 @@
    "ऊनी टोपी"
   ],
   "ipa": "tyk",
-  "pron": "तüक",
+  "pron": "त्यूक",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -11652,7 +11652,7 @@
    "बिना उँगलियों वाला दस्ताना"
   ],
   "ipa": "mitɛn",
-  "pron": "मी-तैन",
+  "pron": "मी-तेन",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -11698,7 +11698,7 @@
    "स्कार्फ़"
   ],
   "ipa": "eʃaʁp",
-  "pron": "ए-शाग़्प",
+  "pron": "ए-शार्प",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -11789,7 +11789,7 @@
    "पेटी"
   ],
   "ipa": "sɛ̃tyʁ",
-  "pron": "सैँ-तüग़",
+  "pron": "सैं-त्यूर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -11831,7 +11831,7 @@
    "चश्मा"
   ],
   "ipa": "lynɛt",
-  "pron": "लü-नैत",
+  "pron": "ल्यू-नेत",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -11879,7 +11879,7 @@
    "ज़ेवर"
   ],
   "ipa": "biʒu",
-  "pron": "बी-झ़ू",
+  "pron": "बी-जू",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -11980,7 +11980,7 @@
    "ग्राम"
   ],
   "ipa": "vilaʒ",
-  "pron": "वी-लाझ़",
+  "pron": "वी-लाज",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -12024,7 +12024,7 @@
    "सड़क"
   ],
   "ipa": "ʁy",
-  "pron": "ग़ü",
+  "pron": "र्यू",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -12079,7 +12079,7 @@
    "इलाक़ा"
   ],
   "ipa": "kaʁtje",
-  "pron": "काग़-त्ये",
+  "pron": "कार-त्ये",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -12130,7 +12130,7 @@
    "डाउनटाउन"
   ],
   "ipa": "sɑ̃tʁəvil",
-  "pron": "साँ-त्ग़ö-वील",
+  "pron": "साँ-त्र-वील",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -12235,7 +12235,7 @@
    "स्थान"
   ],
   "ipa": "ɑ̃dʁwa",
-  "pron": "आँ-द्ग़्वा",
+  "pron": "आँ-द्र्वा",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -12284,7 +12284,7 @@
    "उद्यान"
   ],
   "ipa": "paʁk",
-  "pron": "पाग़्क",
+  "pron": "पार्क",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -12325,7 +12325,7 @@
    "पुल"
   ],
   "ipa": "pɔ̃",
-  "pron": "पोँ",
+  "pron": "पों",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -12342,8 +12342,8 @@
   "collocations": [],
   "mistakes": [
    {
-    "en": "The t is silent: nasal पोँ.",
-    "hi": "t चुप है: नासिक्य पोँ।"
+    "en": "The t is silent: nasal पों.",
+    "hi": "t चुप है: नासिक्य पों।"
    }
   ],
   "related": [
@@ -12416,7 +12416,7 @@
    "लाइब्रेरी"
   ],
   "ipa": "biblijɔtɛk",
-  "pron": "बी-ब्ली-यॉ-तैक",
+  "pron": "बी-ब्ली-यॉ-तेक",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -12465,7 +12465,7 @@
    "किताबों की दुकान"
   ],
   "ipa": "libʁɛʁi",
-  "pron": "ली-ब्ग़ै-ग़ी",
+  "pron": "ली-ब्रे-री",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -12650,7 +12650,7 @@
    "म्यूज़ियम"
   ],
   "ipa": "myze",
-  "pron": "मü-ज़े",
+  "pron": "म्यू-ज़े",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -12741,7 +12741,7 @@
    "थिएटर"
   ],
   "ipa": "teɑtʁ",
-  "pron": "ते-आत्ग़",
+  "pron": "ते-आत्र",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -12758,8 +12758,8 @@
   "collocations": [],
   "mistakes": [
    {
-    "en": "The h is silent: ते-आत्ग़.",
-    "hi": "h चुप है: ते-आत्ग़।"
+    "en": "The h is silent: ते-आत्र.",
+    "hi": "h चुप है: ते-आत्र।"
    }
   ],
   "related": [
@@ -12786,7 +12786,7 @@
    "होटल"
   ],
   "ipa": "ɔtɛl",
-  "pron": "ओ-तैल",
+  "pron": "ओ-तेल",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -12835,7 +12835,7 @@
    "टाउन हॉल"
   ],
   "ipa": "mɛʁi",
-  "pron": "मै-ग़ी",
+  "pron": "मे-री",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -12932,7 +12932,7 @@
    "इलाक़ा"
   ],
   "ipa": "kwɛ̃",
-  "pron": "क्वैँ",
+  "pron": "क्वैं",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -12979,7 +12979,7 @@
    "ट्रैफ़िक लाइट"
   ],
   "ipa": "fø",
-  "pron": "फ़ö",
+  "pron": "फ़",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -13034,7 +13034,7 @@
    "पटरी"
   ],
   "ipa": "tʁɔtwaʁ",
-  "pron": "त्ग़ॉ-त्वाग़",
+  "pron": "त्रॉ-त्वार",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -13072,7 +13072,7 @@
    "चौराहा"
   ],
   "ipa": "kaʁfuʁ",
-  "pron": "काग़-फ़ूग़",
+  "pron": "कार-फ़ूर",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -13120,7 +13120,7 @@
    "कौशल"
   ],
   "ipa": "adʁɛs",
-  "pron": "आ-द्ग़ैस",
+  "pron": "आ-द्रेस",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -13226,7 +13226,7 @@
    "रेलवे स्टेशन"
   ],
   "ipa": "ɡaʁ",
-  "pron": "गाग़",
+  "pron": "गार",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -13275,7 +13275,7 @@
    "रिसॉर्ट"
   ],
   "ipa": "stasjɔ̃",
-  "pron": "स्ता-स्योँ",
+  "pron": "स्ता-स्यों",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -13319,7 +13319,7 @@
    "ठहराव"
   ],
   "ipa": "aʁɛ",
-  "pron": "आ-ग़ै",
+  "pron": "आ-रे",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -13368,7 +13368,7 @@
    "एयरपोर्ट"
   ],
   "ipa": "aeʁɔpɔʁ",
-  "pron": "आ-ए-ग़ो-पॉग़",
+  "pron": "आ-ए-रो-पॉर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -13414,7 +13414,7 @@
    "कार"
   ],
   "ipa": "vwatyʁ",
-  "pron": "वा-तüग़",
+  "pron": "वा-त्यूर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -13465,7 +13465,7 @@
    "बस"
   ],
   "ipa": "ɔtɔbys",
-  "pron": "ओ-तो-बüस",
+  "pron": "ओ-तो-ब्यूस",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -13516,7 +13516,7 @@
    "मेट्रो"
   ],
   "ipa": "metʁo",
-  "pron": "मे-त्ग़ो",
+  "pron": "मे-त्रो",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -13565,7 +13565,7 @@
    "ट्रेन"
   ],
   "ipa": "tʁɛ̃",
-  "pron": "त्ग़ैँ",
+  "pron": "त्रैं",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -13614,7 +13614,7 @@
    "विमान"
   ],
   "ipa": "avjɔ̃",
-  "pron": "आ-व्योँ",
+  "pron": "आ-व्यों",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -13751,7 +13751,7 @@
    "ट्रक"
   ],
   "ipa": "kamjɔ̃",
-  "pron": "का-म्योँ",
+  "pron": "का-म्यों",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -13789,7 +13789,7 @@
    "टिकट"
   ],
   "ipa": "tikɛ",
-  "pron": "ती-कै",
+  "pron": "ती-के",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -13809,8 +13809,8 @@
   ],
   "mistakes": [
    {
-    "en": "The final t is silent: ती-कै. For planes and trains, French prefers \"un billet\".",
-    "hi": "आख़िरी t चुप: ती-कै। हवाई जहाज़ और ट्रेन के लिए फ़्रेंच में \"un billet\" बेहतर है।"
+    "en": "The final t is silent: ती-के. For planes and trains, French prefers \"un billet\".",
+    "hi": "आख़िरी t चुप: ती-के। हवाई जहाज़ और ट्रेन के लिए फ़्रेंच में \"un billet\" बेहतर है।"
    }
   ],
   "related": [
@@ -13884,7 +13884,7 @@
    "लगेज"
   ],
   "ipa": "baɡaʒ",
-  "pron": "बा-गाझ़",
+  "pron": "बा-गाज",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -13933,7 +13933,7 @@
    "सफ़र"
   ],
   "ipa": "vwajaʒ",
-  "pron": "वा-याझ़",
+  "pron": "वा-याज",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -14038,7 +14038,7 @@
    "सैलानी"
   ],
   "ipa": "tuʁist",
-  "pron": "तू-ग़ीस्त",
+  "pron": "तू-रीस्त",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -14132,7 +14132,7 @@
    "मार्ग"
   ],
   "ipa": "ʁut",
-  "pron": "ग़ूत",
+  "pron": "रूत",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -14182,7 +14182,7 @@
    "राजमार्ग"
   ],
   "ipa": "otoʁut",
-  "pron": "ओ-तो-ग़ूत",
+  "pron": "ओ-तो-रूत",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -14222,7 +14222,7 @@
    "पगडंडी"
   ],
   "ipa": "ʃəmɛ̃",
-  "pron": "शö-मैँ",
+  "pron": "श-मैं",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -14271,7 +14271,7 @@
    "प्रबंधन"
   ],
   "ipa": "diʁɛksjɔ̃",
-  "pron": "दी-ग़ैक-स्योँ",
+  "pron": "दी-रेक-स्यों",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -14282,7 +14282,7 @@
    {
     "fr": "Prenez le métro direction Côte-Vertu.",
     "en": "Take the metro towards Côte-Vertu.",
-    "hi": "कोत-वैर्तü की दिशा वाली मेट्रो लीजिए।"
+    "hi": "कोत-वेर्त्यू की दिशा वाली मेट्रो लीजिए।"
    },
    {
     "fr": "La direction a annoncé des changements.",
@@ -14326,7 +14326,7 @@
    "आना-जाना"
   ],
   "ipa": "tʁaʒɛ",
-  "pron": "त्ग़ा-झ़ै",
+  "pron": "त्रा-जे",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -14373,7 +14373,7 @@
    "ट्रैफ़िक"
   ],
   "ipa": "siʁkylasjɔ̃",
-  "pron": "सीग़-कü-ला-स्योँ",
+  "pron": "सीर-क्यू-ला-स्यों",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -14419,7 +14419,7 @@
    "ट्रैफ़िक जाम"
   ],
   "ipa": "ɑ̃butɛjaʒ",
-  "pron": "आँ-बू-तै-याझ़",
+  "pron": "आँ-बू-ते-याज",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -14467,7 +14467,7 @@
    "विलंब"
   ],
   "ipa": "ʁətaʁ",
-  "pron": "ग़ö-ताग़",
+  "pron": "र-तार",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -14524,7 +14524,7 @@
    "शुरुआत"
   ],
   "ipa": "depaʁ",
-  "pron": "दे-पाग़",
+  "pron": "दे-पार",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -14572,7 +14572,7 @@
    "पहुँचना"
   ],
   "ipa": "aʁive",
-  "pron": "आ-ग़ी-वे",
+  "pron": "आ-री-वे",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -14676,7 +14676,7 @@
    "सवारी"
   ],
   "ipa": "pasaʒe",
-  "pron": "पा-सा-झ़े",
+  "pron": "पा-सा-जे",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -14716,7 +14716,7 @@
    "ड्राइवर"
   ],
   "ipa": "kɔ̃dyktœʁ",
-  "pron": "कोँ-दüक-तöग़",
+  "pron": "कों-द्यूक-तर",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -14765,7 +14765,7 @@
    "टाइमटेबल"
   ],
   "ipa": "ɔʁɛʁ",
-  "pron": "ऑ-ग़ैग़",
+  "pron": "ऑ-रेर",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -14822,7 +14822,7 @@
    "पत्राचार"
   ],
   "ipa": "kɔʁɛspɔ̃dɑ̃s",
-  "pron": "कॉ-ग़ैस-पोँ-दाँस",
+  "pron": "कॉ-रेस-पों-दाँस",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -15057,7 +15057,7 @@
    "लोग"
   ],
   "ipa": "mɔ̃d",
-  "pron": "मोँद",
+  "pron": "मोंद",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -15112,7 +15112,7 @@
    "सरहद"
   ],
   "ipa": "fʁɔ̃tjɛʁ",
-  "pron": "फ़्ग़ोँ-त्यैग़",
+  "pron": "फ़्रों-त्येर",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -15157,7 +15157,7 @@
    "प्रवास"
   ],
   "ipa": "seʒuʁ",
-  "pron": "से-झ़ूग़",
+  "pron": "से-जूर",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -15207,7 +15207,7 @@
    "आरक्षण"
   ],
   "ipa": "ʁezɛʁvasjɔ̃",
-  "pron": "ग़े-ज़ैग़-वा-स्योँ",
+  "pron": "रे-ज़ेर-वा-स्यों",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -15254,7 +15254,7 @@
    "सोमवार"
   ],
   "ipa": "lœ̃di",
-  "pron": "लैँ-दी",
+  "pron": "लैं-दी",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -15302,7 +15302,7 @@
    "मंगलवार"
   ],
   "ipa": "maʁdi",
-  "pron": "माग़-दी",
+  "pron": "मार-दी",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -15350,7 +15350,7 @@
    "बुधवार"
   ],
   "ipa": "mɛʁkʁədi",
-  "pron": "मैग़-क्ग़ö-दी",
+  "pron": "मेर-क्र-दी",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -15399,7 +15399,7 @@
    "बृहस्पतिवार"
   ],
   "ipa": "ʒødi",
-  "pron": "झ़ö-दी",
+  "pron": "ज-दी",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -15447,7 +15447,7 @@
    "शुक्रवार"
   ],
   "ipa": "vɑ̃dʁədi",
-  "pron": "वाँ-द्ग़ö-दी",
+  "pron": "वाँ-द्र-दी",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -15592,7 +15592,7 @@
    "जनवरी"
   ],
   "ipa": "ʒɑ̃vje",
-  "pron": "झ़ाँ-व्ये",
+  "pron": "जाँ-व्ये",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -15640,7 +15640,7 @@
    "फ़रवरी"
   ],
   "ipa": "fevʁije",
-  "pron": "फ़े-व्ग़ी-ये",
+  "pron": "फ़े-व्री-ये",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -15689,7 +15689,7 @@
    "मार्च"
   ],
   "ipa": "maʁs",
-  "pron": "माग़्स",
+  "pron": "मार्स",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -15738,7 +15738,7 @@
    "अप्रैल"
   ],
   "ipa": "avʁil",
-  "pron": "आ-व्ग़ील",
+  "pron": "आ-व्रील",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -15787,7 +15787,7 @@
    "मई"
   ],
   "ipa": "mɛ",
-  "pron": "मै",
+  "pron": "मे",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -15836,7 +15836,7 @@
    "जून"
   ],
   "ipa": "ʒɥɛ̃",
-  "pron": "झ़üऐँ",
+  "pron": "ज्यूऐं",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -15885,7 +15885,7 @@
    "जुलाई"
   ],
   "ipa": "ʒɥijɛ",
-  "pron": "झ़üई-यै",
+  "pron": "ज्यूई-ये",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -15987,7 +15987,7 @@
    "सितंबर"
   ],
   "ipa": "sɛptɑ̃bʁ",
-  "pron": "सैप-ताँब्ग़",
+  "pron": "सेप-ताँब्र",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -16036,7 +16036,7 @@
    "अक्टूबर"
   ],
   "ipa": "ɔktɔbʁ",
-  "pron": "ऑक-तॉब्ग़",
+  "pron": "ऑक-तॉब्र",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -16085,7 +16085,7 @@
    "नवंबर"
   ],
   "ipa": "nɔvɑ̃bʁ",
-  "pron": "नॉ-वाँब्ग़",
+  "pron": "नॉ-वाँब्र",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -16134,7 +16134,7 @@
    "दिसंबर"
   ],
   "ipa": "desɑ̃bʁ",
-  "pron": "दे-साँब्ग़",
+  "pron": "दे-साँब्र",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -16183,7 +16183,7 @@
    "दिन"
   ],
   "ipa": "ʒuʁ",
-  "pron": "झ़ूग़",
+  "pron": "जूर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -16239,7 +16239,7 @@
    "दिन भर"
   ],
   "ipa": "ʒuʁne",
-  "pron": "झ़ूग़-ने",
+  "pron": "जूर-ने",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -16294,7 +16294,7 @@
    "हफ़्ता"
   ],
   "ipa": "səmɛn",
-  "pron": "सö-मैन",
+  "pron": "स-मेन",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -16345,7 +16345,7 @@
    "वीकेंड"
   ],
   "ipa": "wikɛnd",
-  "pron": "वी-कैन्द",
+  "pron": "वी-केन्द",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -16562,7 +16562,7 @@
    "समय"
   ],
   "ipa": "œʁ",
-  "pron": "öग़",
+  "pron": "अर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -16589,8 +16589,8 @@
   ],
   "mistakes": [
    {
-    "en": "The h is silent: \"l'heure\", \"deux heures\" (दö ज़öग़). Feminine, while Hindi घंटा is masculine.",
-    "hi": "h चुप है: \"l'heure\", \"deux heures\" (दö ज़öग़)। स्त्रीलिंग, जबकि हिंदी में घंटा पुल्लिंग।"
+    "en": "The h is silent: \"l'heure\", \"deux heures\" (द ज़र). Feminine, while Hindi घंटा is masculine.",
+    "hi": "h चुप है: \"l'heure\", \"deux heures\" (द ज़र)। स्त्रीलिंग, जबकि हिंदी में घंटा पुल्लिंग।"
    },
    {
     "en": "\"Tout à l'heure\" = a little while ago / in a little while.",
@@ -16621,7 +16621,7 @@
    "मिनट"
   ],
   "ipa": "minyt",
-  "pron": "मी-नüत",
+  "pron": "मी-न्यूत",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -16640,8 +16640,8 @@
   ],
   "mistakes": [
    {
-    "en": "Feminine, while Hindi मिनट is masculine. The u is ü: मी-नüत.",
-    "hi": "स्त्रीलिंग, जबकि हिंदी में मिनट पुल्लिंग। u का उच्चारण ü: मी-नüत।"
+    "en": "Feminine, while Hindi मिनट is masculine. The u is यू: मी-न्यूत.",
+    "hi": "स्त्रीलिंग, जबकि हिंदी में मिनट पुल्लिंग। u का उच्चारण यू: मी-न्यूत।"
    }
   ],
   "related": [
@@ -16667,7 +16667,7 @@
    "सवेरा"
   ],
   "ipa": "matɛ̃",
-  "pron": "मा-तैँ",
+  "pron": "मा-तैं",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -16717,7 +16717,7 @@
    "दोपहर के बाद"
   ],
   "ipa": "apʁɛmidi",
-  "pron": "आ-प्ग़ै-मी-दी",
+  "pron": "आ-प्रे-मी-दी",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -16765,7 +16765,7 @@
    "शाम"
   ],
   "ipa": "swaʁ",
-  "pron": "स्वाग़",
+  "pron": "स्वार",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -16815,7 +16815,7 @@
    "पार्टी"
   ],
   "ipa": "swaʁe",
-  "pron": "स्वा-ग़े",
+  "pron": "स्वा-रे",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -16867,7 +16867,7 @@
    "रात"
   ],
   "ipa": "nɥi",
-  "pron": "नüई",
+  "pron": "न्यूई",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -16971,7 +16971,7 @@
    "आधी रात"
   ],
   "ipa": "minɥi",
-  "pron": "मी-नüई",
+  "pron": "मी-न्यूई",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -17064,7 +17064,7 @@
    "पंचांग"
   ],
   "ipa": "kalɑ̃dʁije",
-  "pron": "का-लाँ-द्ग़ी-ये",
+  "pron": "का-लाँ-द्री-ये",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -17103,7 +17103,7 @@
    "ऋतु"
   ],
   "ipa": "sɛzɔ̃",
-  "pron": "सै-ज़ोँ",
+  "pron": "से-ज़ों",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -17153,7 +17153,7 @@
    "बसंत"
   ],
   "ipa": "pʁɛ̃tɑ̃",
-  "pron": "प्ग़ैँ-ताँ",
+  "pron": "प्रैं-ताँ",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -17296,7 +17296,7 @@
    "जाड़ा"
   ],
   "ipa": "ivɛʁ",
-  "pron": "ई-वैग़",
+  "pron": "ई-वेर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -17318,8 +17318,8 @@
   ],
   "mistakes": [
    {
-    "en": "The h is silent: \"l'hiver\", \"en hiver\" (आँ नी-वैग़). Masculine, while Hindi सर्दी is feminine.",
-    "hi": "h चुप है: \"l'hiver\", \"en hiver\" (आँ नी-वैग़)। पुल्लिंग, जबकि हिंदी में सर्दी स्त्रीलिंग।"
+    "en": "The h is silent: \"l'hiver\", \"en hiver\" (आँ नी-वेर). Masculine, while Hindi सर्दी is feminine.",
+    "hi": "h चुप है: \"l'hiver\", \"en hiver\" (आँ नी-वेर)। पुल्लिंग, जबकि हिंदी में सर्दी स्त्रीलिंग।"
    }
   ],
   "related": [
@@ -17347,7 +17347,7 @@
    "सालगिरह"
   ],
   "ipa": "anivɛʁsɛʁ",
-  "pron": "आ-नी-वैग़-सैग़",
+  "pron": "आ-नी-वेर-सेर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -17401,7 +17401,7 @@
    "उत्सव"
   ],
   "ipa": "fɛt",
-  "pron": "फ़ैत",
+  "pron": "फ़ेत",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -17568,7 +17568,7 @@
    "धूप"
   ],
   "ipa": "sɔlɛj",
-  "pron": "सॉ-लैय",
+  "pron": "सॉ-लेय",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -17619,7 +17619,7 @@
    "वर्षा"
   ],
   "ipa": "plɥi",
-  "pron": "प्लüई",
+  "pron": "प्ल्यूई",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -17668,7 +17668,7 @@
    "हिम"
   ],
   "ipa": "nɛʒ",
-  "pron": "नैझ़",
+  "pron": "नेज",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -17767,7 +17767,7 @@
    "मेघ"
   ],
   "ipa": "nɥaʒ",
-  "pron": "नüआझ़",
+  "pron": "न्यूआज",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -17811,7 +17811,7 @@
    "गरज के साथ बारिश"
   ],
   "ipa": "ɔʁaʒ",
-  "pron": "ऑ-ग़ाझ़",
+  "pron": "ऑ-राज",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -17855,7 +17855,7 @@
    "आँधी"
   ],
   "ipa": "tɑ̃pɛt",
-  "pron": "ताँ-पैत",
+  "pron": "ताँ-पेत",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -17903,7 +17903,7 @@
    "सर्दी"
   ],
   "ipa": "fʁwa",
-  "pron": "फ़्ग़्वा",
+  "pron": "फ़्र्वा",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -17958,7 +17958,7 @@
    "ताप"
   ],
   "ipa": "ʃalœʁ",
-  "pron": "शा-लöग़",
+  "pron": "शा-लर",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -17999,7 +17999,7 @@
    "तापमान"
   ],
   "ipa": "tɑ̃peʁatyʁ",
-  "pron": "ताँ-पे-ग़ा-तüग़",
+  "pron": "ताँ-पे-रा-त्यूर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -18048,7 +18048,7 @@
    "अंश"
   ],
   "ipa": "dəɡʁe",
-  "pron": "दö-ग्ग़े",
+  "pron": "द-ग्रे",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -18147,7 +18147,7 @@
    "सड़क पर जमी पारदर्शी बर्फ़"
   ],
   "ipa": "vɛʁɡla",
-  "pron": "वैग़-ग्ला",
+  "pron": "वेर-ग्ला",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -18197,7 +18197,7 @@
    "स्वर्ग"
   ],
   "ipa": "sjɛl",
-  "pron": "स्यैल",
+  "pron": "स्येल",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -18241,7 +18241,7 @@
    "क़ुदरत"
   ],
   "ipa": "natyʁ",
-  "pron": "ना-तüग़",
+  "pron": "ना-त्यूर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -18284,7 +18284,7 @@
    "वृक्ष"
   ],
   "ipa": "aʁbʁ",
-  "pron": "आग़्ब्ग़",
+  "pron": "आर्ब्र",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -18332,7 +18332,7 @@
    "पुष्प"
   ],
   "ipa": "flœʁ",
-  "pron": "फ़्लöग़",
+  "pron": "फ़्लर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -18380,7 +18380,7 @@
    "वन"
   ],
   "ipa": "fɔʁɛ",
-  "pron": "फ़ॉ-ग़ै",
+  "pron": "फ़ॉ-रे",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -18472,7 +18472,7 @@
    "नदी (बड़ी)"
   ],
   "ipa": "flœv",
-  "pron": "फ़्लöव",
+  "pron": "फ़्लव",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -18516,7 +18516,7 @@
    "नदी"
   ],
   "ipa": "ʁivjɛʁ",
-  "pron": "ग़ी-व्यैग़",
+  "pron": "री-व्येर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -18554,7 +18554,7 @@
    "सागर"
   ],
   "ipa": "mɛʁ",
-  "pron": "मैग़",
+  "pron": "मेर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -18604,7 +18604,7 @@
    "पर्वत"
   ],
   "ipa": "mɔ̃taɲ",
-  "pron": "मोँ-तान्य",
+  "pron": "मों-तान्य",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -18654,7 +18654,7 @@
    "बीच"
   ],
   "ipa": "plaʒ",
-  "pron": "प्लाझ़",
+  "pron": "प्लाज",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -18702,7 +18702,7 @@
    "पृथ्वी"
   ],
   "ipa": "tɛʁ",
-  "pron": "तैग़",
+  "pron": "तेर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -18852,7 +18852,7 @@
    "कुतिया"
   ],
   "ipa": "ʃjɛ̃",
-  "pron": "श्यैँ",
+  "pron": "श्यैं",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -18953,8 +18953,8 @@
   "collocations": [],
   "mistakes": [
    {
-    "en": "Plural in -x: \"oiseaux\" (लै ज़्वा-ज़ो). Masculine, while Hindi चिड़िया is feminine.",
-    "hi": "बहुवचन -x से: \"oiseaux\" (लै ज़्वा-ज़ो)। पुल्लिंग, जबकि हिंदी में चिड़िया स्त्रीलिंग।"
+    "en": "Plural in -x: \"oiseaux\" (ले ज़्वा-ज़ो). Masculine, while Hindi चिड़िया is feminine.",
+    "hi": "बहुवचन -x से: \"oiseaux\" (ले ज़्वा-ज़ो)। पुल्लिंग, जबकि हिंदी में चिड़िया स्त्रीलिंग।"
    }
   ],
   "related": [
@@ -18980,7 +18980,7 @@
    "घोड़ा"
   ],
   "ipa": "ʃəval",
-  "pron": "शö-वाल",
+  "pron": "श-वाल",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -19029,7 +19029,7 @@
    "लहजा"
   ],
   "ipa": "ɛʁ",
-  "pron": "ऐग़",
+  "pron": "एर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -19086,7 +19086,7 @@
    "श्रम"
   ],
   "ipa": "tʁavaj",
-  "pron": "त्ग़ा-वाय",
+  "pron": "त्रा-वाय",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -19117,8 +19117,8 @@
     "hi": "अनियमित बहुवचन \"travaux\", जिसका अर्थ आम तौर पर निर्माण या मरम्मत का काम होता है (\"des travaux dans l'appartement\")।"
    },
    {
-    "en": "Masculine; \"-ail\" sounds \"aye\" (त्ग़ा-वाय).",
-    "hi": "पुल्लिंग; \"-ail\" का उच्चारण \"आय\" (त्ग़ा-वाय)।"
+    "en": "Masculine; \"-ail\" sounds \"aye\" (त्रा-वाय).",
+    "hi": "पुल्लिंग; \"-ail\" का उच्चारण \"आय\" (त्रा-वाय)।"
    }
   ],
   "related": [
@@ -19257,7 +19257,7 @@
    "व्यवसाय"
   ],
   "ipa": "ɑ̃tʁəpʁiz",
-  "pron": "आँ-त्ग़ö-प्ग़ीज़",
+  "pron": "आँ-त्र-प्रीज़",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -19306,7 +19306,7 @@
    "मेज़"
   ],
   "ipa": "byʁo",
-  "pron": "बü-ग़ो",
+  "pron": "ब्यू-रो",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -19355,7 +19355,7 @@
    "मीटिंग"
   ],
   "ipa": "ʁeynjɔ̃",
-  "pron": "ग़े-üन्योँ",
+  "pron": "रे-यून्यों",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -19405,7 +19405,7 @@
    "तनख़्वाह"
   ],
   "ipa": "salɛʁ",
-  "pron": "सा-लैग़",
+  "pron": "सा-लेर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -19457,7 +19457,7 @@
    "बॉस"
   ],
   "ipa": "patʁɔ̃",
-  "pron": "पा-त्ग़ोँ",
+  "pron": "पा-त्रों",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -19543,7 +19543,7 @@
    "बेरोज़गारी"
   ],
   "ipa": "ʃomaʒ",
-  "pron": "शो-माझ़",
+  "pron": "शो-माज",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -19643,7 +19643,7 @@
    "रखरखाव"
   ],
   "ipa": "ɑ̃tʁətjɛ̃",
-  "pron": "आँ-त्ग़ö-त्यैँ",
+  "pron": "आँ-त्र-त्यैं",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -19696,7 +19696,7 @@
    "प्रयोग"
   ],
   "ipa": "ɛkspeʁjɑ̃s",
-  "pron": "ऐक्स-पे-ग़्याँस",
+  "pron": "एक्स-पे-र्याँस",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -19748,7 +19748,7 @@
    "योग्यता"
   ],
   "ipa": "kɔ̃petɑ̃s",
-  "pron": "कोँ-पे-ताँस",
+  "pron": "कों-पे-ताँस",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -19839,7 +19839,7 @@
    "अवकाश"
   ],
   "ipa": "kɔ̃ʒe",
-  "pron": "कोँ-झ़े",
+  "pron": "कों-जे",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -19892,7 +19892,7 @@
    "पेंशन"
   ],
   "ipa": "ʁətʁɛt",
-  "pron": "ग़ö-त्ग़ैत",
+  "pron": "र-त्रेत",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -19936,7 +19936,7 @@
    "पेशेवर जीवन"
   ],
   "ipa": "kaʁjɛʁ",
-  "pron": "का-ग़्यैग़",
+  "pron": "का-र्येर",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -19978,7 +19978,7 @@
    "प्रशिक्षण"
   ],
   "ipa": "staʒ",
-  "pron": "स्ताझ़",
+  "pron": "स्ताज",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -20024,7 +20024,7 @@
    "टेलीवर्क"
   ],
   "ipa": "teletʁavaj",
-  "pron": "ते-ले-त्ग़ा-वाय",
+  "pron": "ते-ले-त्रा-वाय",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -20082,7 +20082,7 @@
    "चिकित्सक"
   ],
   "ipa": "medsɛ̃",
-  "pron": "मेद-सैँ",
+  "pron": "मेद-सैं",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -20112,8 +20112,8 @@
     "hi": "पेशे के साथ \"être\" के बाद उपपद नहीं: \"elle est médecin\"। पारंपरिक रूप से पुल्लिंग; अब \"une médecin\" भी आम है, ख़ासकर कनाडा में।"
    },
    {
-    "en": "The first e is silent: मेद-सैँ, not \"mé-dé-cin\".",
-    "hi": "पहला e चुप है: मेद-सैँ।"
+    "en": "The first e is silent: मेद-सैं, not \"mé-dé-cin\".",
+    "hi": "पहला e चुप है: मेद-सैं।"
    }
   ],
   "related": [
@@ -20145,7 +20145,7 @@
    "परिचारक"
   ],
   "ipa": "ɛ̃fiʁmje",
-  "pron": "ऐँ-फ़ीग़-म्ये",
+  "pron": "ऐं-फ़ीर-म्ये",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -20162,8 +20162,8 @@
   "collocations": [],
   "mistakes": [
    {
-    "en": "Feminine \"infirmière\" (ऐँ-फ़ीग़-म्यैग़). False friend: \"infirme\" means disabled — don't mix them up.",
-    "hi": "स्त्रीलिंग \"infirmière\" (ऐँ-फ़ीग़-म्यैग़)। \"infirme\" का अर्थ विकलांग है — इनमें गड़बड़ न करें।"
+    "en": "Feminine \"infirmière\" (ऐं-फ़ीर-म्येर). False friend: \"infirme\" means disabled — don't mix them up.",
+    "hi": "स्त्रीलिंग \"infirmière\" (ऐं-फ़ीर-म्येर)। \"infirme\" का अर्थ विकलांग है — इनमें गड़बड़ न करें।"
    }
   ],
   "related": [
@@ -20194,7 +20194,7 @@
    "प्रोफ़ेसर"
   ],
   "ipa": "pʁɔfesœʁ",
-  "pron": "प्ग़ॉ-फ़े-सöग़",
+  "pron": "प्रॉ-फ़े-सर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -20247,7 +20247,7 @@
    "अभियंता"
   ],
   "ipa": "ɛ̃ʒenjœʁ",
-  "pron": "ऐँ-झ़े-न्यöग़",
+  "pron": "ऐं-जे-न्यर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -20348,7 +20348,7 @@
    "अभिनेत्री"
   ],
   "ipa": "aktœʁ",
-  "pron": "आक-तöग़",
+  "pron": "आक-तर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -20395,7 +20395,7 @@
    "दुकान पर काम करने वाला"
   ],
   "ipa": "vɑ̃dœʁ",
-  "pron": "वाँ-दöग़",
+  "pron": "वाँ-दर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -20442,7 +20442,7 @@
    "परोसने वाला"
   ],
   "ipa": "sɛʁvœʁ",
-  "pron": "सैग़-वöग़",
+  "pron": "सेर-वर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -20488,7 +20488,7 @@
    "बावर्ची"
   ],
   "ipa": "kɥizinje",
-  "pron": "क्üई-ज़ी-न्ये",
+  "pron": "क्यूई-ज़ी-न्ये",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -20534,7 +20534,7 @@
    "चालक"
   ],
   "ipa": "ʃofœʁ",
-  "pron": "शो-फ़öग़",
+  "pron": "शो-फ़र",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -20582,7 +20582,7 @@
    "बेकर"
   ],
   "ipa": "bulɑ̃ʒe",
-  "pron": "बू-लाँ-झ़े",
+  "pron": "बू-लाँ-जे",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -20622,7 +20622,7 @@
    "दवा-विक्रेता"
   ],
   "ipa": "faʁmasjɛ̃",
-  "pron": "फ़ाग़-मा-स्यैँ",
+  "pron": "फ़ार-मा-स्यैं",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -20639,8 +20639,8 @@
   "collocations": [],
   "mistakes": [
    {
-    "en": "Feminine \"pharmacienne\" (-ien → -ienne): फ़ाग़-मा-स्यैन.",
-    "hi": "स्त्रीलिंग \"pharmacienne\" (-ien → -ienne): फ़ाग़-मा-स्यैन।"
+    "en": "Feminine \"pharmacienne\" (-ien → -ienne): फ़ार-मा-स्येन.",
+    "hi": "स्त्रीलिंग \"pharmacienne\" (-ien → -ienne): फ़ार-मा-स्येन।"
    }
   ],
   "related": [
@@ -20752,7 +20752,7 @@
    "फ़ायरमैन"
   ],
   "ipa": "pɔ̃pje",
-  "pron": "पोँ-प्ये",
+  "pron": "पों-प्ये",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -20835,7 +20835,7 @@
    "प्रधानाचार्य"
   ],
   "ipa": "diʁɛktœʁ",
-  "pron": "दी-ग़ैक-तöग़",
+  "pron": "दी-रेक-तर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -20885,7 +20885,7 @@
    "कंप्यूटर विशेषज्ञ"
   ],
   "ipa": "ɛ̃fɔʁmatisjɛ̃",
-  "pron": "ऐँ-फ़ॉग़-मा-ती-स्यैँ",
+  "pron": "ऐं-फ़ॉर-मा-ती-स्यैं",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -20902,8 +20902,8 @@
   "collocations": [],
   "mistakes": [
    {
-    "en": "\"-ticien\" sounds ती-स्यैँ. Computer science itself is \"l'informatique\" (f).",
-    "hi": "\"-ticien\" का उच्चारण ती-स्यैँ है। कंप्यूटर विज्ञान = \"l'informatique\" (स्त्रीलिंग)।"
+    "en": "\"-ticien\" sounds ती-स्यैं. Computer science itself is \"l'informatique\" (f).",
+    "hi": "\"-ticien\" का उच्चारण ती-स्यैं है। कंप्यूटर विज्ञान = \"l'informatique\" (स्त्रीलिंग)।"
    }
   ],
   "related": [
@@ -20931,7 +20931,7 @@
    "मुनीम"
   ],
   "ipa": "kɔ̃tabl",
-  "pron": "कोँ-ताब्ल",
+  "pron": "कों-ताब्ल",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -20948,8 +20948,8 @@
   "collocations": [],
   "mistakes": [
    {
-    "en": "The p is silent: कोँ-ताब्ल. Same form for both genders.",
-    "hi": "p चुप है: कोँ-ताब्ल। दोनों लिंगों के लिए एक ही रूप।"
+    "en": "The p is silent: कों-ताब्ल. Same form for both genders.",
+    "hi": "p चुप है: कों-ताब्ल। दोनों लिंगों के लिए एक ही रूप।"
    }
   ],
   "related": [
@@ -20977,7 +20977,7 @@
    "सेक्रेटरी"
   ],
   "ipa": "səkʁetɛʁ",
-  "pron": "सö-क्ग़े-तैग़",
+  "pron": "स-क्रे-तेर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -21017,7 +21017,7 @@
    "इलेक्ट्रीशियन"
   ],
   "ipa": "elɛktʁisjɛ̃",
-  "pron": "ए-लैक-त्ग़ी-स्यैँ",
+  "pron": "ए-लेक-त्री-स्यैं",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -21058,7 +21058,7 @@
    "नलसाज़"
   ],
   "ipa": "plɔ̃bje",
-  "pron": "प्लोँ-ब्ये",
+  "pron": "प्लों-ब्ये",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -21097,7 +21097,7 @@
    "पत्रकार"
   ],
   "ipa": "ʒuʁnalist",
-  "pron": "झ़ूग़-ना-लीस्त",
+  "pron": "जूर-ना-लीस्त",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -21139,7 +21139,7 @@
    "हेयरड्रेसर"
   ],
   "ipa": "kwafœʁ",
-  "pron": "क्वा-फ़öग़",
+  "pron": "क्वा-फ़र",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -21183,7 +21183,7 @@
    "कृषक"
   ],
   "ipa": "aɡʁikyltœʁ",
-  "pron": "आ-ग्ग़ी-कüल-तöग़",
+  "pron": "आ-ग्री-क्यूल-तर",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -21336,7 +21336,7 @@
    "क्लास"
   ],
   "ipa": "kuʁ",
-  "pron": "कूग़",
+  "pron": "कूर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -21386,7 +21386,7 @@
    "यूनिवर्सिटी"
   ],
   "ipa": "ynivɛʁsite",
-  "pron": "ü-नी-वैग़-सी-ते",
+  "pron": "यू-नी-वेर-सी-ते",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -21435,7 +21435,7 @@
    "कॉलेज (क्यूबेक)"
   ],
   "ipa": "kɔlɛʒ",
-  "pron": "कॉ-लैझ़",
+  "pron": "कॉ-लेज",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -21538,7 +21538,7 @@
    "जाँच"
   ],
   "ipa": "ɛɡzamɛ̃",
-  "pron": "ऐग-ज़ा-मैँ",
+  "pron": "एग-ज़ा-मैं",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -21564,8 +21564,8 @@
     "hi": "\"passer un examen\" = परीक्षा देना (पास होना नहीं); पास होना = \"réussir un examen\"।"
    },
    {
-    "en": "Masculine, while Hindi परीक्षा is feminine. \"-en\" here sounds ऐँ: ऐग-ज़ा-मैँ.",
-    "hi": "पुल्लिंग, जबकि हिंदी में परीक्षा स्त्रीलिंग। यहाँ \"-en\" का उच्चारण ऐँ: ऐग-ज़ा-मैँ।"
+    "en": "Masculine, while Hindi परीक्षा is feminine. \"-en\" here sounds ऐं: एग-ज़ा-मैं.",
+    "hi": "पुल्लिंग, जबकि हिंदी में परीक्षा स्त्रीलिंग। यहाँ \"-en\" का उच्चारण ऐं: एग-ज़ा-मैं।"
    }
   ],
   "related": [
@@ -21650,7 +21650,7 @@
    "कर्तव्य"
   ],
   "ipa": "dəvwaʁ",
-  "pron": "दö-व्वाग़",
+  "pron": "द-व्वार",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -21696,7 +21696,7 @@
    "पुस्तक"
   ],
   "ipa": "livʁ",
-  "pron": "लीव्ग़",
+  "pron": "लीव्र",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -21850,7 +21850,7 @@
    "मुद्दा"
   ],
   "ipa": "kɛstjɔ̃",
-  "pron": "कैस-त्योँ",
+  "pron": "केस-त्यों",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -21871,8 +21871,8 @@
   ],
   "mistakes": [
    {
-    "en": "\"Poser une question\" (not \"demander une question\"). \"Ti\" is pronounced \"ti\" here (कैस-त्योँ), not \"si\".",
-    "hi": "\"poser une question\" कहें (\"demander une question\" नहीं)। यहाँ \"ti\" का उच्चारण \"ति\" है (कैस-त्योँ), \"सि\" नहीं।"
+    "en": "\"Poser une question\" (not \"demander une question\"). \"Ti\" is pronounced \"ti\" here (केस-त्यों), not \"si\".",
+    "hi": "\"poser une question\" कहें (\"demander une question\" नहीं)। यहाँ \"ti\" का उच्चारण \"ति\" है (केस-त्यों), \"सि\" नहीं।"
    }
   ],
   "related": [
@@ -21899,7 +21899,7 @@
    "जवाब"
   ],
   "ipa": "ʁepɔ̃s",
-  "pron": "ग़े-पोँस",
+  "pron": "रे-पोंस",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -21948,7 +21948,7 @@
    "पढ़ाई"
   ],
   "ipa": "etyd",
-  "pron": "ए-तüद",
+  "pron": "ए-त्यूद",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -22002,7 +22002,7 @@
    "संगणक"
   ],
   "ipa": "ɔʁdinatœʁ",
-  "pron": "ऑग़-दी-ना-तöग़",
+  "pron": "ऑर-दी-ना-तर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -22095,7 +22095,7 @@
    "मोबाइल फ़ोन"
   ],
   "ipa": "selylɛʁ",
-  "pron": "से-लü-लैग़",
+  "pron": "से-ल्यू-लेर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -22142,7 +22142,7 @@
    "लैपटॉप"
   ],
   "ipa": "pɔʁtabl",
-  "pron": "पॉग़-ताब्ल",
+  "pron": "पॉर-ताब्ल",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -22185,7 +22185,7 @@
    "इंटरनेट"
   ],
   "ipa": "ɛ̃tɛʁnɛt",
-  "pron": "ऐँ-तैग़-नैत",
+  "pron": "ऐं-तेर-नेत",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -22281,7 +22281,7 @@
    "ईमेल"
   ],
   "ipa": "kuʁjɛl",
-  "pron": "कू-ग़्यैल",
+  "pron": "कू-र्येल",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -22335,7 +22335,7 @@
    "मैसेज"
   ],
   "ipa": "mesaʒ",
-  "pron": "मे-साझ़",
+  "pron": "मे-साज",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -22431,7 +22431,7 @@
    "एप्लिकेशन"
   ],
   "ipa": "aplikasjɔ̃",
-  "pron": "आ-प्ली-का-स्योँ",
+  "pron": "आ-प्ली-का-स्यों",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -22480,7 +22480,7 @@
    "परदा"
   ],
   "ipa": "ekʁɑ̃",
-  "pron": "ए-क्ग़ाँ",
+  "pron": "ए-क्राँ",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -22526,7 +22526,7 @@
    "जाल"
   ],
   "ipa": "ʁezo",
-  "pron": "ग़े-ज़ो",
+  "pron": "रे-ज़ो",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -22579,7 +22579,7 @@
    "डायरी"
   ],
   "ipa": "ʒuʁnal",
-  "pron": "झ़ूग़-नाल",
+  "pron": "जूर-नाल",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -22629,7 +22629,7 @@
    "टीवी"
   ],
   "ipa": "televizjɔ̃",
-  "pron": "ते-ले-वी-ज़्योँ",
+  "pron": "ते-ले-वी-ज़्यों",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -22681,7 +22681,7 @@
    "एक्स-रे"
   ],
   "ipa": "ʁadjo",
-  "pron": "ग़ा-द्यो",
+  "pron": "रा-द्यो",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -22727,7 +22727,7 @@
    "सामान"
   ],
   "ipa": "aʁtikl",
-  "pron": "आग़-तीक्ल",
+  "pron": "आर-तीक्ल",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -22771,7 +22771,7 @@
    "विज्ञापन"
   ],
   "ipa": "pyblisite",
-  "pron": "पü-ब्ली-सी-ते",
+  "pron": "प्यू-ब्ली-सी-ते",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -22824,7 +22824,7 @@
    "समाचार"
   ],
   "ipa": "ɛ̃fɔʁmasjɔ̃",
-  "pron": "ऐँ-फ़ॉग़-मा-स्योँ",
+  "pron": "ऐं-फ़ॉर-मा-स्यों",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -22882,7 +22882,7 @@
    "लाइसेंस"
   ],
   "ipa": "pɛʁmi",
-  "pron": "पैग़-मी",
+  "pron": "पेर-मी",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -22941,7 +22941,7 @@
    "माँग"
   ],
   "ipa": "dəmɑ̃d",
-  "pron": "दö-माँद",
+  "pron": "द-माँद",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -23058,7 +23058,7 @@
    "प्रपत्र"
   ],
   "ipa": "fɔʁmylɛʁ",
-  "pron": "फ़ॉग़-मü-लैग़",
+  "pron": "फ़ॉर-म्यू-लेर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -23108,7 +23108,7 @@
    "हेल्थ कार्ड"
   ],
   "ipa": "kaʁt dasyʁɑ̃s maladi",
-  "pron": "काग़्त दा-सü-ग़ाँस मा-ला-दी",
+  "pron": "कार्त दा-स्यू-राँस मा-ला-दी",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -23168,7 +23168,7 @@
    "आत्मविश्वास"
   ],
   "ipa": "asyʁɑ̃s",
-  "pron": "आ-सü-ग़ाँस",
+  "pron": "आ-स्यू-राँस",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -23220,7 +23220,7 @@
    "पासपोर्ट"
   ],
   "ipa": "paspɔʁ",
-  "pron": "पास-पॉग़",
+  "pron": "पास-पॉर",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -23315,7 +23315,7 @@
    "संज्ञा"
   ],
   "ipa": "nɔ̃",
-  "pron": "नोँ",
+  "pron": "नों",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -23336,8 +23336,8 @@
   ],
   "mistakes": [
    {
-    "en": "On forms, \"nom\" = last name and \"prénom\" = first name. The m is silent (nasal नोँ).",
-    "hi": "फ़ॉर्मों पर \"nom\" = सरनेम और \"prénom\" = पहला नाम। m चुप (नासिक्य नोँ)।"
+    "en": "On forms, \"nom\" = last name and \"prénom\" = first name. The m is silent (nasal नों).",
+    "hi": "फ़ॉर्मों पर \"nom\" = सरनेम और \"prénom\" = पहला नाम। m चुप (नासिक्य नों)।"
    }
   ],
   "related": [
@@ -23362,7 +23362,7 @@
    "पहला नाम"
   ],
   "ipa": "pʁenɔ̃",
-  "pron": "प्ग़े-नोँ",
+  "pron": "प्रे-नों",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -23406,7 +23406,7 @@
    "दस्तख़त"
   ],
   "ipa": "siɲatyʁ",
-  "pron": "सी-न्या-तüग़",
+  "pron": "सी-न्या-त्यूर",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -23422,8 +23422,8 @@
   "collocations": [],
   "mistakes": [
    {
-    "en": "\"gn\" = न्य: सी-न्या-तüग़. Feminine, while Hindi हस्ताक्षर is masculine.",
-    "hi": "\"gn\" = न्य: सी-न्या-तüग़। स्त्रीलिंग, जबकि हिंदी में हस्ताक्षर पुल्लिंग।"
+    "en": "\"gn\" = न्य: सी-न्या-त्यूर. Feminine, while Hindi हस्ताक्षर is masculine.",
+    "hi": "\"gn\" = न्य: सी-न्या-त्यूर। स्त्रीलिंग, जबकि हिंदी में हस्ताक्षर पुल्लिंग।"
    }
   ],
   "related": [
@@ -23449,7 +23449,7 @@
    "काग़ज़ात"
   ],
   "ipa": "dɔkymɑ̃",
-  "pron": "दॉ-कü-माँ",
+  "pron": "दॉ-क्यू-माँ",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -23493,7 +23493,7 @@
    "प्रमाण"
   ],
   "ipa": "pʁœv",
-  "pron": "प्ग़öव",
+  "pron": "प्रव",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -23544,7 +23544,7 @@
    "प्रतीक्षा-अवधि"
   ],
   "ipa": "delɛ",
-  "pron": "दे-लै",
+  "pron": "दे-ले",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -23598,7 +23598,7 @@
    "नागरिकता"
   ],
   "ipa": "sitwajɛnte",
-  "pron": "सी-त्वा-यैन-ते",
+  "pron": "सी-त्वा-येन-ते",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -23644,7 +23644,7 @@
    "आवास"
   ],
   "ipa": "ʁezidɑ̃s",
-  "pron": "ग़े-ज़ी-दाँस",
+  "pron": "रे-ज़ी-दाँस",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -23695,7 +23695,7 @@
    "इमिग्रेशन"
   ],
   "ipa": "imiɡʁasjɔ̃",
-  "pron": "ई-मी-ग्ग़ा-स्योँ",
+  "pron": "ई-मी-ग्रा-स्यों",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -23745,7 +23745,7 @@
    "प्रवासी"
   ],
   "ipa": "imiɡʁɑ̃",
-  "pron": "ई-मी-ग्ग़ाँ",
+  "pron": "ई-मी-ग्राँ",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -23789,7 +23789,7 @@
    "शासन"
   ],
   "ipa": "ɡuvɛʁnəmɑ̃",
-  "pron": "गू-वैग़न-माँ",
+  "pron": "गू-वेरन-माँ",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -23891,7 +23891,7 @@
    "क़ानून (विषय)"
   ],
   "ipa": "dʁwa",
-  "pron": "द्ग़्वा",
+  "pron": "द्र्वा",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -23990,7 +23990,7 @@
    "अंक"
   ],
   "ipa": "nymeʁo",
-  "pron": "नü-मे-ग़ो",
+  "pron": "न्यू-मे-रो",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -24037,7 +24037,7 @@
    "प्रदूषण"
   ],
   "ipa": "pɔlysjɔ̃",
-  "pron": "पॉ-लü-स्योँ",
+  "pron": "पॉ-ल्यू-स्यों",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -24092,7 +24092,7 @@
    "रीसाइक्लिंग"
   ],
   "ipa": "ʁəsiklaʒ",
-  "pron": "ग़ö-सी-क्लाझ़",
+  "pron": "र-सी-क्लाज",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -24242,7 +24242,7 @@
    "जन स्वास्थ्य"
   ],
   "ipa": "sɑ̃te pyblik",
-  "pron": "साँ-ते पü-ब्लीक",
+  "pron": "साँ-ते प्यू-ब्लीक",
   "level": "B2",
   "register": "neutral",
   "topics": [
@@ -24331,7 +24331,7 @@
    "वातावरण"
   ],
   "ipa": "ɑ̃viʁɔnmɑ̃",
-  "pron": "आँ-वी-ग़ॉन-माँ",
+  "pron": "आँ-वी-रॉन-माँ",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -24383,7 +24383,7 @@
    "अपशिष्ट"
   ],
   "ipa": "deʃɛ",
-  "pron": "दे-शै",
+  "pron": "दे-शे",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -24437,7 +24437,7 @@
    "शक्ति"
   ],
   "ipa": "enɛʁʒi",
-  "pron": "ए-नैग़-झ़ी",
+  "pron": "ए-नेर-जी",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -24528,7 +24528,7 @@
    "तापवृद्धि"
   ],
   "ipa": "ʁeʃofmɑ̃",
-  "pron": "ग़े-शोफ़-माँ",
+  "pron": "रे-शोफ़-माँ",
   "level": "B2",
   "register": "neutral",
   "topics": [
@@ -24621,7 +24621,7 @@
    "आबादी"
   ],
   "ipa": "pɔpylasjɔ̃",
-  "pron": "पॉ-पü-ला-स्योँ",
+  "pron": "पॉ-प्यू-ला-स्यों",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -24664,7 +24664,7 @@
    "खेती"
   ],
   "ipa": "kyltyʁ",
-  "pron": "कüल-तüग़",
+  "pron": "क्यूल-त्यूर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -24708,7 +24708,7 @@
    "रीति-रिवाज"
   ],
   "ipa": "tʁadisjɔ̃",
-  "pron": "त्ग़ा-दी-स्योँ",
+  "pron": "त्रा-दी-स्यों",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -24753,7 +24753,7 @@
    "घुलना-मिलना"
   ],
   "ipa": "ɛ̃teɡʁasjɔ̃",
-  "pron": "ऐँ-ते-ग्ग़ा-स्योँ",
+  "pron": "ऐं-ते-ग्रा-स्यों",
   "level": "B2",
   "register": "neutral",
   "topics": [
@@ -24795,7 +24795,7 @@
    "विविधता"
   ],
   "ipa": "divɛʁsite",
-  "pron": "दी-वैग़-सी-ते",
+  "pron": "दी-वेर-सी-ते",
   "level": "B2",
   "register": "neutral",
   "topics": [
@@ -24838,7 +24838,7 @@
    "निर्धनता"
   ],
   "ipa": "povʁəte",
-  "pron": "पो-व्ग़ö-ते",
+  "pron": "पो-व्र-ते",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -24880,7 +24880,7 @@
    "सुरक्षा"
   ],
   "ipa": "sekyʁite",
-  "pron": "से-कü-ग़ी-ते",
+  "pron": "से-क्यू-री-ते",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -24927,7 +24927,7 @@
    "यातायात"
   ],
   "ipa": "tʁɑ̃spɔʁ",
-  "pron": "त्ग़ाँस-पॉग़",
+  "pron": "त्राँस-पॉर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -24978,7 +24978,7 @@
    "खपत"
   ],
   "ipa": "kɔ̃sɔmasjɔ̃",
-  "pron": "कोँ-सॉ-मा-स्योँ",
+  "pron": "कों-सॉ-मा-स्यों",
   "level": "B2",
   "register": "neutral",
   "topics": [
@@ -25093,7 +25093,7 @@
    "विचार"
   ],
   "ipa": "ɔpinjɔ̃",
-  "pron": "ऑ-पी-न्योँ",
+  "pron": "ऑ-पी-न्यों",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -25145,7 +25145,7 @@
    "नज़रिया"
   ],
   "ipa": "pwɛ̃ d vy",
-  "pron": "प्वैँ द वü",
+  "pron": "प्वैं द व्यू",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -25195,7 +25195,7 @@
    "तर्क"
   ],
   "ipa": "ʁɛzɔ̃",
-  "pron": "ग़ै-ज़ोँ",
+  "pron": "रे-ज़ों",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -25256,7 +25256,7 @@
    "लाभ"
   ],
   "ipa": "avɑ̃taʒ",
-  "pron": "आ-वाँ-ताझ़",
+  "pron": "आ-वाँ-ताज",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -25309,7 +25309,7 @@
    "असुविधा"
   ],
   "ipa": "ɛ̃kɔ̃venjɑ̃",
-  "pron": "ऐँ-कोँ-वे-न्याँ",
+  "pron": "ऐं-कों-वे-न्याँ",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -25330,8 +25330,8 @@
   ],
   "mistakes": [
    {
-    "en": "Not \"inconvenience\" in the sense of bother; \"un inconvénient\" is a disadvantage. Note \"-ient\": ऐँ-कोँ-वे-न्याँ.",
-    "hi": "अंग्रेज़ी \"inconvenience\" (परेशानी) से थोड़ा अलग: \"inconvénient\" = नुक़सान/कमी। \"-ient\" पर ध्यान दें: ऐँ-कोँ-वे-न्याँ।"
+    "en": "Not \"inconvenience\" in the sense of bother; \"un inconvénient\" is a disadvantage. Note \"-ient\": ऐं-कों-वे-न्याँ.",
+    "hi": "अंग्रेज़ी \"inconvenience\" (परेशानी) से थोड़ा अलग: \"inconvénient\" = नुक़सान/कमी। \"-ient\" पर ध्यान दें: ऐं-कों-वे-न्याँ।"
    }
   ],
   "related": [
@@ -25362,7 +25362,7 @@
    "दिक़्क़त"
   ],
   "ipa": "pʁɔblɛm",
-  "pron": "प्ग़ॉ-ब्लैम",
+  "pron": "प्रॉ-ब्लेम",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -25422,7 +25422,7 @@
    "उपाय"
   ],
   "ipa": "sɔlysjɔ̃",
-  "pron": "सॉ-लü-स्योँ",
+  "pron": "सॉ-ल्यू-स्यों",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -25573,7 +25573,7 @@
    "आवश्यकता"
   ],
   "ipa": "bəzwɛ̃",
-  "pron": "बö-ज़्वैँ",
+  "pron": "ब-ज़्वैं",
   "level": "A1",
   "register": "neutral",
   "topics": [
@@ -25680,7 +25680,7 @@
    "भय"
   ],
   "ipa": "pœʁ",
-  "pron": "पöग़",
+  "pron": "पर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -25728,7 +25728,7 @@
    "आनंद"
   ],
   "ipa": "ʒwa",
-  "pron": "झ़्वा",
+  "pron": "ज्वा",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -25770,7 +25770,7 @@
    "ख़ुशी"
   ],
   "ipa": "bɔnœʁ",
-  "pron": "बॉ-नöग़",
+  "pron": "बॉ-नर",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -25817,7 +25817,7 @@
    "क्रोध"
   ],
   "ipa": "kɔlɛʁ",
-  "pron": "कॉ-लैग़",
+  "pron": "कॉ-लेर",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -25864,7 +25864,7 @@
    "मोहब्बत"
   ],
   "ipa": "amuʁ",
-  "pron": "आ-मूग़",
+  "pron": "आ-मूर",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -25950,7 +25950,7 @@
    "उम्मीद"
   ],
   "ipa": "ɛspwaʁ",
-  "pron": "ऐस-प्वाग़",
+  "pron": "एस-प्वार",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -25998,7 +25998,7 @@
    "विश्वास"
   ],
   "ipa": "kɔ̃fjɑ̃s",
-  "pron": "कोँ-फ़्याँस",
+  "pron": "कों-फ़्याँस",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -26151,7 +26151,7 @@
    "मिसाल"
   ],
   "ipa": "ɛɡzɑ̃pl",
-  "pron": "ऐग-ज़ाँप्ल",
+  "pron": "एग-ज़ाँप्ल",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -26201,7 +26201,7 @@
    "ढंग"
   ],
   "ipa": "fasɔ̃",
-  "pron": "फ़ा-सोँ",
+  "pron": "फ़ा-सों",
   "level": "A2",
   "register": "neutral",
   "topics": [
@@ -26252,7 +26252,7 @@
    "तरीक़ा"
   ],
   "ipa": "mwajɛ̃",
-  "pron": "म्वा-यैँ",
+  "pron": "म्वा-यैं",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -26304,7 +26304,7 @@
    "गोल"
   ],
   "ipa": "byt",
-  "pron": "बüत",
+  "pron": "ब्यूत",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -26325,8 +26325,8 @@
   ],
   "mistakes": [
    {
-    "en": "The t is usually pronounced (बüत), though some speakers drop it. \"Marquer un but\" = to score a goal.",
-    "hi": "t आम तौर पर बोला जाता है (बüत), हालाँकि कुछ लोग नहीं बोलते। \"marquer un but\" = गोल करना।"
+    "en": "The t is usually pronounced (ब्यूत), though some speakers drop it. \"Marquer un but\" = to score a goal.",
+    "hi": "t आम तौर पर बोला जाता है (ब्यूत), हालाँकि कुछ लोग नहीं बोलते। \"marquer un but\" = गोल करना।"
    }
   ],
   "related": [
@@ -26354,7 +26354,7 @@
    "नतीजा"
   ],
   "ipa": "kɔ̃sekɑ̃s",
-  "pron": "कोँ-से-काँस",
+  "pron": "कों-से-काँस",
   "level": "B1",
   "register": "neutral",
   "topics": [
@@ -26508,7 +26508,7 @@
    "दलील"
   ],
   "ipa": "aʁɡymɑ̃",
-  "pron": "आग़-गü-माँ",
+  "pron": "आर-ग्यू-माँ",
   "level": "B2",
   "register": "neutral",
   "topics": [

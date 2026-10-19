@@ -12,7 +12,7 @@ export function RecoveryCard({ plan }: { plan: Plan }) {
   const [chosen, setChosen] = useState<string | null>(null);
   return (
     <section className="card border-saffron-500/50" aria-labelledby="recovery-h">
-      <h2 id="recovery-h" className="font-semibold">Welcome back — let&apos;s get you back on track</h2>
+      <h2 id="recovery-h" className="font-semibold"><Bi as="span" t={{ en: "Welcome back — let's get you back on track", hi: "फिर से स्वागत है — चलिए, आपको दोबारा समय पर लाते हैं" }} /></h2>
       <Bi className="text-sm text-muted" t={{ en: `Life happens. You are ${plan.behindBy} day(s) behind the plan, and your completed work is safe. Pick what feels manageable:`, hi: `ऐसा होता है। आप योजना से ${plan.behindBy} दिन पीछे हैं, और आपका पूरा किया हुआ काम सुरक्षित है। जो आसान लगे, वह चुनिए:` }} />
       <div className="mt-3 grid gap-2 sm:grid-cols-2">
         {plan.options.map((o) => (
@@ -25,7 +25,7 @@ export function RecoveryCard({ plan }: { plan: Plan }) {
           </button>
         ))}
       </div>
-      {chosen === "catch_up" && <p className="mt-2 text-sm">Good choice. Start with today&apos;s review, then continue with Day {plan.currentDay}.</p>}
+      {chosen === "catch_up" && <Bi className="mt-2 text-sm" t={{ en: `Good choice. Start with today's review, then continue with Day ${plan.currentDay}.`, hi: `अच्छा फ़ैसला। आज के दोहराव से शुरू कीजिए, फिर दिन ${plan.currentDay} जारी रखिए।` }} />}
       {plan.examWarning && <Bi className="mt-3 rounded-lg bg-saffron-100 p-2 text-sm text-saffron-700" t={plan.examWarning} />}
     </section>
   );
