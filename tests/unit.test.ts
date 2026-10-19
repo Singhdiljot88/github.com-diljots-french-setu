@@ -330,3 +330,15 @@ describe("database setup errors", async () => {
     expect(asDbSetupError(new Error("syntax error at or near"))).toBeNull();
   });
 });
+
+describe("database address", async () => {
+  const { databaseUrl } = await import("@/db");
+  it("uses DATABASE_URL, or POSTGRES_URL from the Vercel Supabase integration with SSL on", () => {
+    expect(databaseUrl({})).toEqual({ ssl: false });
+    expect(databaseUrl({ DATABASE_URL: "postgres://u:p@localhost:5432/db" })).toEqual({ url: "postgres://u:p@localhost:5432/db", ssl: false });
+    const v = databaseUrl({ POSTGRES_URL: "postgres://postgres.ref:p@aws-0-ca-central-1.pooler.supabase.com:6543/postgres?sslmode=require&supa=base-pooler.x" });
+    expect(v.ssl).toBe(true);
+    expect(v.url).not.toContain("sslmode");
+    expect(v.url).toContain("supa=base-pooler.x");
+  });
+});
