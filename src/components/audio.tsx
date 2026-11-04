@@ -56,9 +56,12 @@ async function speakOne(engine: EngineState, line: AudioLine, slow: boolean, voi
   if (signal.cancelled) return;
   const voice = line.voice ?? "narrator";
   if (engine.kind === "server") {
-    const url = `/api/tts?${new URLSearchParams({ text: line.text, voice, slow: slow ? "1" : "0", v: "2" })}`;
+    // Slow playback is done in the browser (pitch kept), because not every server voice honours a speed setting.
+    const url = `/api/tts?${new URLSearchParams({ text: line.text, voice, slow: "0", v: "2" })}`;
     const ok = await new Promise<boolean>((resolve) => {
-      const a = new Audio(url);
+      const a = new Audio(url) as HTMLAudioElement & { webkitPreservesPitch?: boolean };
+      a.preservesPitch = true; a.webkitPreservesPitch = true;
+      a.defaultPlaybackRate = a.playbackRate = slow ? SLOW_RATE : 1;
       currentAudio = a;
       a.onended = () => resolve(true);
       a.onerror = () => resolve(false);
