@@ -117,7 +117,7 @@ export default async function ProgressPage({ searchParams }: { searchParams: Pro
   );
 }
 
-function CheckpointView({ lang, r, savedAt, reached, pacing }: { lang: Lang; r: CheckpointReport; savedAt: Date | null; reached: boolean; pacing: string[] }) {
+function CheckpointView({ lang, r, savedAt, reached, pacing }: { lang: Lang; r: CheckpointReport; savedAt: Date | null; reached: boolean; pacing: { en: string; hi: string }[] }) {
   const label = (t: T) => pick(lang, t);
   return (
     <div className="space-y-4">
@@ -171,13 +171,13 @@ function CheckpointView({ lang, r, savedAt, reached, pacing }: { lang: Lang; r: 
 
       <section className="card space-y-2 text-sm">
         <h2 className="font-semibold"><Bi as="span" t={{ en: "What to do next", hi: "आगे क्या करें" }} /></h2>
-        <ul className="list-disc space-y-1 pl-5">{r.next.map((n, i) => <li key={i}>{n.text} <Link href={n.href} className="underline"><Bi as="span" t={{ en: "Go →", hi: "चलें →" }} /></Link></li>)}</ul>
+        <ul className="list-disc space-y-1 pl-5">{r.next.map((n, i) => <li key={i}><Bi as="span" t={{ en: n.text, hi: n.hi }} /> <Link href={n.href} className="underline"><Bi as="span" t={{ en: "Go →", hi: "चलें →" }} /></Link></li>)}</ul>
         <Bi className="text-xs text-muted" t={{ en: "Suggestions from simple rules applied to your own numbers. This report does not estimate a TEF score or level.", hi: "ये सुझाव आपकी अपनी संख्याओं पर लगाए गए सरल नियमों से आते हैं। यह रिपोर्ट TEF अंक या स्तर का अनुमान नहीं लगाती।" }} />
       </section>
 
       <section className="card space-y-2 text-sm">
         <h2 className="font-semibold"><Bi as="span" t={{ en: "Exam date and workload", hi: "परीक्षा की तारीख़ और काम का बोझ" }} /></h2>
-        <ul className="list-disc space-y-1 pl-5">{pacing.map((n, i) => <li key={i}>{n}</li>)}</ul>
+        <ul className="list-disc space-y-1 pl-5">{pacing.map((n, i) => <Bi key={i} as="li" t={n} />)}</ul>
         <Link href="/settings" className="underline"><Bi as="span" t={{ en: "Change daily time or exam date →", hi: "रोज़ का समय या परीक्षा की तारीख़ बदलें →" }} /></Link>
       </section>
     </div>

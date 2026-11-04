@@ -20,7 +20,7 @@
     ],
     "summary": {
       "en": "Forms (Day 2), email register (Day 39), formal instructions with the infinitive (Day 58), polite requests (Day 65) and everyday documents (Day 81).",
-      "hi": "फ़ॉर्म (दिन 2), ईमेल की शैली (दिन 39), infinitive वाले औपचारिक निर्देश (दिन 58), शिष्ट अनुरोध (दिन 65) और रोज़मर्रा के दस्तावेज़ (दिन 81)।"
+      "hi": "फ़ॉर्म (दिन 2), ईमेल की शैली (दिन 39), मूल क्रिया (infinitive) वाले औपचारिक निर्देश (दिन 58), शिष्ट अनुरोध (दिन 65) और रोज़मर्रा के दस्तावेज़ (दिन 81)।"
     }
   },
   "light": false,
@@ -208,7 +208,7 @@
     },
     "explanation": {
       "en": "Official and workplace documents avoid 'you must'. Instead they use: Veuillez + infinitive (please…); Il est demandé de / Il est obligatoire de + infinitive; Prière de + infinitive; Merci de + infinitive; the infinitive alone (Ne pas jeter); the future for rules (Toute demande incomplète sera refusée); the passive (Les documents doivent être remis). Dates of effect: à compter du / à partir du / dès le. Documents also turn verbs into nouns to be short and impersonal (nominalisation): renouveler → le renouvellement; remettre → la remise; fermer → la fermeture; inscrire → l'inscription; rembourser → le remboursement; arriver → l'arrivée. In a TEF question, the answer often uses the verb while the text uses the noun (or the reverse): 'la remise des badges' = 'on rend les badges'.",
-      "hi": "आधिकारिक और कार्यस्थल के दस्तावेज़ 'आपको करना होगा' कहने से बचते हैं। इसकी जगह ये इस्तेमाल होते हैं: Veuillez + infinitive (कृपया…); Il est demandé de / Il est obligatoire de + infinitive; Prière de + infinitive; Merci de + infinitive; अकेला infinitive (Ne pas jeter); नियमों के लिए भविष्य काल (Toute demande incomplète sera refusée); passive (Les documents doivent être remis)। लागू होने की तारीख़: à compter du / à partir du / dès le। दस्तावेज़ छोटे और अवैयक्तिक रहने के लिए क्रियाओं को संज्ञा बनाते हैं (nominalisation): renouveler → le renouvellement; remettre → la remise; fermer → la fermeture; inscrire → l'inscription; rembourser → le remboursement; arriver → l'arrivée। TEF के सवाल में जवाब अक्सर क्रिया इस्तेमाल करता है जबकि पाठ में संज्ञा होती है (या उलटा): 'la remise des badges' = 'on rend les badges'।"
+      "hi": "आधिकारिक और कार्यस्थल के दस्तावेज़ 'आपको करना होगा' कहने से बचते हैं। इसकी जगह ये इस्तेमाल होते हैं: Veuillez + मूल क्रिया (infinitive) (कृपया…); Il est demandé de / Il est obligatoire de + मूल क्रिया (infinitive); Prière de + मूल क्रिया (infinitive); Merci de + मूल क्रिया (infinitive); अकेला मूल क्रिया (infinitive) (Ne pas jeter); नियमों के लिए भविष्य काल (Toute demande incomplète sera refusée); कर्मवाच्य (passive) (Les documents doivent être remis)। लागू होने की तारीख़: à compter du / à partir du / dès le। दस्तावेज़ छोटे और अवैयक्तिक रहने के लिए क्रियाओं को संज्ञा बनाते हैं (nominalisation): renouveler → le renouvellement; remettre → la remise; fermer → la fermeture; inscrire → l'inscription; rembourser → le remboursement; arriver → l'arrivée। TEF के सवाल में जवाब अक्सर क्रिया इस्तेमाल करता है जबकि पाठ में संज्ञा होती है (या उलटा): 'la remise des badges' = 'on rend les badges'।"
     },
     "comparison": {
       "en": "Hindi official language does the same with Sanskrit-based nouns: 'नवीनीकरण', 'प्रस्तुतीकरण', 'अनुपालन' instead of everyday verbs. If you can read a Hindi government notice, you already know the strategy: turn the noun back into a simple verb in your head.",
@@ -950,7 +950,7 @@
       "answer": 2,
       "explanation": {
         "en": "Veuillez + infinitive is typical of formal documents.",
-        "hi": "veuillez + infinitive औपचारिक दस्तावेज़ों की पहचान है।"
+        "hi": "veuillez + मूल क्रिया (infinitive) औपचारिक दस्तावेज़ों की पहचान है।"
       }
     },
     {
@@ -970,7 +970,7 @@
       ],
       "explanation": {
         "en": "Veuillez + infinitive; ci-joint = attached.",
-        "hi": "veuillez + infinitive; ci-joint = संलग्न।"
+        "hi": "veuillez + मूल क्रिया (infinitive); ci-joint = संलग्न।"
       }
     },
     {
@@ -984,7 +984,7 @@
       "accept": [],
       "explanation": {
         "en": "Il est demandé de + infinitive.",
-        "hi": "il est demandé de + infinitive।"
+        "hi": "il est demandé de + मूल क्रिया (infinitive)।"
       }
     },
     {
@@ -1004,7 +1004,7 @@
       "answer": "Toute demande incomplète sera refusée.",
       "explanation": {
         "en": "Toute + noun + adjective + future passive.",
-        "hi": "toute + संज्ञा + विशेषण + भविष्य passive।"
+        "hi": "toute + संज्ञा + विशेषण + भविष्य कर्मवाच्य (passive)।"
       }
     }
   ]

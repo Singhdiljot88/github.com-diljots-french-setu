@@ -221,7 +221,7 @@
     },
     "explanation": {
       "en": "In TEF section A you must ask many questions politely and with VARIETY — the examiner rewards different forms. An indirect question starts with a polite frame (Pourriez-vous me dire / m'indiquer…, Je voudrais savoir…, J'aimerais savoir…) and then the question becomes a normal statement: NO inversion, NO est-ce que, and a falling tone. Changes: yes/no question → si (Est-ce que c'est payé ? → Je voudrais savoir si c'est payé); qu'est-ce que → ce que (Qu'est-ce que je dois faire ? → Pourriez-vous me dire ce que je dois faire ?); qu'est-ce qui → ce qui; question words stay: quand, où, combien, comment, pourquoi, quel(le)s (Quand commence le poste ? → Pourriez-vous me dire quand le poste commence ?).",
-      "hi": "TEF के भाग A में आपको कई सवाल शिष्टता से और विविधता के साथ पूछने होते हैं — परीक्षक अलग-अलग रूपों के लिए अंक देता है। अप्रत्यक्ष प्रश्न एक शिष्ट ढाँचे से शुरू होता है (Pourriez-vous me dire / m'indiquer…, Je voudrais savoir…, J'aimerais savoir…) और फिर सवाल सामान्य वाक्य बन जाता है: न inversion, न est-ce que, और आवाज़ नीचे की ओर। बदलाव: हाँ/ना वाला सवाल → si (Est-ce que c'est payé ? → Je voudrais savoir si c'est payé); qu'est-ce que → ce que (Qu'est-ce que je dois faire ? → Pourriez-vous me dire ce que je dois faire ?); qu'est-ce qui → ce qui; प्रश्नवाचक शब्द वही रहते हैं: quand, où, combien, comment, pourquoi, quel(le)s (Quand commence le poste ? → Pourriez-vous me dire quand le poste commence ?)।"
+      "hi": "TEF के भाग A में आपको कई सवाल शिष्टता से और विविधता के साथ पूछने होते हैं — परीक्षक अलग-अलग रूपों के लिए अंक देता है। अप्रत्यक्ष प्रश्न एक शिष्ट ढाँचे से शुरू होता है (Pourriez-vous me dire / m'indiquer…, Je voudrais savoir…, J'aimerais savoir…) और फिर सवाल सामान्य वाक्य बन जाता है: न उलटा क्रम (inversion), न est-ce que, और आवाज़ नीचे की ओर। बदलाव: हाँ/ना वाला सवाल → si (Est-ce que c'est payé ? → Je voudrais savoir si c'est payé); qu'est-ce que → ce que (Qu'est-ce que je dois faire ? → Pourriez-vous me dire ce que je dois faire ?); qu'est-ce qui → ce qui; प्रश्नवाचक शब्द वही रहते हैं: quand, où, combien, comment, pourquoi, quel(le)s (Quand commence le poste ? → Pourriez-vous me dire quand le poste commence ?)।"
     },
     "comparison": {
       "en": "English does the same ('Where is it?' → 'Could you tell me where it is?'). Hindi simply adds 'क्या आप बता सकते हैं कि…' and keeps the question. French is closer to English: the word order of a statement after the frame.",
@@ -268,7 +268,7 @@
     "pitfalls": [
       {
         "en": "Not 'Pourriez-vous me dire quand commence-t-il ?' — no inversion after the frame: '… quand il commence'.",
-        "hi": "'Pourriez-vous me dire quand commence-t-il ?' नहीं — ढाँचे के बाद inversion नहीं: '… quand il commence'।"
+        "hi": "'Pourriez-vous me dire quand commence-t-il ?' नहीं — ढाँचे के बाद उलटा क्रम (inversion) नहीं: '… quand il commence'।"
       },
       {
         "en": "Not 'Je voudrais savoir est-ce que…' — use si. And si + il becomes s'il: 'Je voudrais savoir s'il y a une cafétéria.'",
@@ -907,7 +907,7 @@
     "hints": [
       {
         "en": "Mix forms: Est-ce que…, inversion (Faut-il…), Pourriez-vous me dire…, Je voudrais savoir si…, J'aimerais savoir combien…",
-        "hi": "रूप मिलाइए: Est-ce que…, inversion (Faut-il…), Pourriez-vous me dire…, Je voudrais savoir si…, J'aimerais savoir combien…"
+        "hi": "रूप मिलाइए: Est-ce que…, उलटा क्रम (inversion) (Faut-il…), Pourriez-vous me dire…, Je voudrais savoir si…, J'aimerais savoir combien…"
       },
       {
         "en": "Cover different categories: pay, shifts, start date, transport, uniform, meals, interview.",
@@ -945,7 +945,7 @@
       },
       {
         "en": "Are at least five of them indirect, with no inversion after the frame?",
-        "hi": "क्या कम से कम पाँच अप्रत्यक्ष हैं, ढाँचे के बाद बिना inversion के?"
+        "hi": "क्या कम से कम पाँच अप्रत्यक्ष हैं, ढाँचे के बाद बिना उलटा क्रम (inversion) के?"
       },
       {
         "en": "Did you write 'si' (not 'est-ce que') after 'Je voudrais savoir'?",
@@ -1032,7 +1032,7 @@
       "answer": 0,
       "explanation": {
         "en": "After the frame: statement order, no inversion, no est-ce que.",
-        "hi": "ढाँचे के बाद: सामान्य वाक्य वाला क्रम, न inversion, न est-ce que।"
+        "hi": "ढाँचे के बाद: सामान्य वाक्य वाला क्रम, न उलटा क्रम (inversion), न est-ce que।"
       }
     },
     {

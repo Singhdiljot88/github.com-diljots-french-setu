@@ -8,7 +8,7 @@
   },
   "objective": {
     "en": "Present a volunteering ad to a friend and try to convince them for several minutes: give advice (tu devrais, à ta place), use the conditional and the imperative, and answer each objection with a new argument.",
-    "hi": "एक दोस्त के सामने स्वयंसेवा का विज्ञापन रखना और कुछ मिनट तक उसे मनाने की कोशिश करना: सलाह देना (tu devrais, à ta place), conditionnel और imperative इस्तेमाल करना, और हर आपत्ति का जवाब एक नए तर्क से देना।"
+    "hi": "एक दोस्त के सामने स्वयंसेवा का विज्ञापन रखना और कुछ मिनट तक उसे मनाने की कोशिश करना: सलाह देना (tu devrais, à ta place), conditionnel और आज्ञार्थ (imperative) इस्तेमाल करना, और हर आपत्ति का जवाब एक नए तर्क से देना।"
   },
   "prerequisites": {
     "days": [
@@ -21,7 +21,7 @@
     ],
     "summary": {
       "en": "The imperative (Day 29), pronouns with the imperative (Days 51, 58), the conditional (Days 65–66), persuasion (Day 72) and handling objections (Day 73).",
-      "hi": "imperative (दिन 29), imperative के साथ सर्वनाम (दिन 51, 58), conditionnel (दिन 65–66), मनाना (दिन 72) और आपत्तियों का जवाब (दिन 73)।"
+      "hi": "आज्ञार्थ (imperative) (दिन 29), आज्ञार्थ (imperative) के साथ सर्वनाम (दिन 51, 58), conditionnel (दिन 65–66), मनाना (दिन 72) और आपत्तियों का जवाब (दिन 73)।"
     }
   },
   "light": false,
@@ -185,11 +185,11 @@
   "grammar": {
     "title": {
       "en": "Advice and persuasion: devoir and pouvoir in the conditional, à ta place, the imperative",
-      "hi": "सलाह और मनाना: conditionnel में devoir और pouvoir, à ta place, imperative"
+      "hi": "सलाह और मनाना: conditionnel में devoir और pouvoir, à ta place, आज्ञार्थ (imperative)"
     },
     "explanation": {
       "en": "TEF section B is a conversation with a friend (tu!). You present an ad, then persuade. Useful structures: (1) Conditional advice — tu devrais + infinitive (you should), tu pourrais + infinitive (you could), ce serait + adjective (it would be…), ça te ferait du bien (it would do you good). (2) À ta place, je + conditional: À ta place, je m'inscrirais. (3) Imperative for energy: Viens ! Essaie ! Inscris-toi ! N'hésite pas ! With a pronoun in the affirmative imperative the pronoun comes after with a hyphen (Appelle-les), in the negative it comes before (Ne les appelle pas). (4) Concession + new argument for objections: Je comprends, mais… / C'est vrai, pourtant… / Justement… Keep a reason after every piece of advice: 'Tu devrais essayer, parce que…'",
-      "hi": "TEF का भाग B एक दोस्त के साथ बातचीत है (tu!)। आप एक विज्ञापन पेश करते हैं, फिर मनाते हैं। उपयोगी ढाँचे: (1) conditionnel में सलाह — tu devrais + infinitive (तुम्हें … चाहिए), tu pourrais + infinitive (तुम … सकते हो), ce serait + विशेषण (यह … होगा), ça te ferait du bien (इससे तुम्हें अच्छा लगेगा)। (2) À ta place, je + conditionnel: À ta place, je m'inscrirais (तुम्हारी जगह मैं होता तो नाम लिखवाता)। (3) जोश के लिए imperative: Viens ! Essaie ! Inscris-toi ! N'hésite pas ! सकारात्मक imperative में सर्वनाम बाद में hyphen के साथ आता है (Appelle-les), नकारात्मक में पहले (Ne les appelle pas)। (4) आपत्तियों के लिए मान लेना + नया तर्क: Je comprends, mais… / C'est vrai, pourtant… / Justement… हर सलाह के बाद एक कारण दीजिए: 'Tu devrais essayer, parce que…'"
+      "hi": "TEF का भाग B एक दोस्त के साथ बातचीत है (tu!)। आप एक विज्ञापन पेश करते हैं, फिर मनाते हैं। उपयोगी ढाँचे: (1) conditionnel में सलाह — tu devrais + मूल क्रिया (infinitive) (तुम्हें … चाहिए), tu pourrais + मूल क्रिया (infinitive) (तुम … सकते हो), ce serait + विशेषण (यह … होगा), ça te ferait du bien (इससे तुम्हें अच्छा लगेगा)। (2) À ta place, je + conditionnel: À ta place, je m'inscrirais (तुम्हारी जगह मैं होता तो नाम लिखवाता)। (3) जोश के लिए आज्ञार्थ (imperative): Viens ! Essaie ! Inscris-toi ! N'hésite pas ! सकारात्मक आज्ञार्थ (imperative) में सर्वनाम बाद में hyphen के साथ आता है (Appelle-les), नकारात्मक में पहले (Ne les appelle pas)। (4) आपत्तियों के लिए मान लेना + नया तर्क: Je comprends, mais… / C'est vrai, pourtant… / Justement… हर सलाह के बाद एक कारण दीजिए: 'Tu devrais essayer, parce que…'"
     },
     "comparison": {
       "en": "Hindi softens advice with 'चाहिए' and 'ज़रा' ('तुम्हें ज़रा कोशिश करनी चाहिए'). French softens with the conditional: 'tu dois' sounds like an order, 'tu devrais' sounds like friendly advice — use devrais.",
@@ -236,7 +236,7 @@
     "pitfalls": [
       {
         "en": "In the imperative, -er verbs lose the s with tu: 'Essaie !', 'Viens !' but 'Écoute !' (not 'Écoutes !').",
-        "hi": "imperative में tu के साथ -er क्रियाओं का s हट जाता है: 'Écoute !' ('Écoutes !' नहीं)।"
+        "hi": "आज्ञार्थ (imperative) में tu के साथ -er क्रियाओं का s हट जाता है: 'Écoute !' ('Écoutes !' नहीं)।"
       },
       {
         "en": "Don't switch to vous in section B: the examiner plays a friend. Use tu, ton, ta, tes throughout.",
@@ -599,7 +599,7 @@
         },
         {
           "en": "Use tu devrais, à ta place, a conditional and an imperative.",
-          "hi": "tu devrais, à ta place, एक conditionnel और एक imperative इस्तेमाल कीजिए।"
+          "hi": "tu devrais, à ta place, एक conditionnel और एक आज्ञार्थ (imperative) इस्तेमाल कीजिए।"
         }
       ]
     },
@@ -973,7 +973,7 @@
       "type": "mcq",
       "prompt": {
         "en": "Correct affirmative imperative: 'Call them!' (tu)",
-        "hi": "सही सकारात्मक imperative: 'उन्हें फ़ोन करो!' (tu)"
+        "hi": "सही सकारात्मक आज्ञार्थ (imperative): 'उन्हें फ़ोन करो!' (tu)"
       },
       "options": [
         "Appelle leur !",
@@ -1036,7 +1036,7 @@
       "accept": [],
       "explanation": {
         "en": "Negative imperative of s'inquiéter: Ne t'inquiète pas.",
-        "hi": "s'inquiéter का नकारात्मक imperative: Ne t'inquiète pas।"
+        "hi": "s'inquiéter का नकारात्मक आज्ञार्थ (imperative): Ne t'inquiète pas।"
       }
     },
     {

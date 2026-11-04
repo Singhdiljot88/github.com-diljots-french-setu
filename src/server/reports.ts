@@ -100,28 +100,29 @@ export async function buildCheckpointReport(userId: string, checkpoint: number, 
   };
 }
 
-type Rec = { text: string; href: string };
+type Rec = { text: string; hi?: string; href: string };
 const SKILL_HREF: Partial<Record<Skill, Rec>> = {
-  listening: { text: "Listening was your weakest area here. Redo a few recordings in exam mode in the listening library.", href: "/listening" },
-  reading: { text: "Reading was your weakest area here. Try texts from this phase in timed mode.", href: "/reading" },
-  vocabulary: { text: "Vocabulary checks were the weakest. Clear your review queue every day this week.", href: "/review" },
-  grammar: { text: "Grammar was the weakest. Drill the grammar items in your mistake notebook.", href: "/mistakes" },
-  writing: { text: "Writing tasks were the weakest. Redo one lesson writing task from this phase with feedback.", href: "/writing" },
-  speaking: { text: "Practise a role-play from this phase in the speaking tutor.", href: "/speaking" },
-  pronunciation: { text: "Spend ten minutes on minimal pairs in the pronunciation lab.", href: "/pronunciation" },
+  listening: { text: "Listening was your weakest area here. Redo a few recordings in exam mode in the listening library.", hi: "इस हिस्से में सुनना सबसे कमज़ोर रहा। सुनने के अभ्यास में कुछ रिकॉर्डिंग परीक्षा मोड में फिर से कीजिए।", href: "/listening" },
+  reading: { text: "Reading was your weakest area here. Try texts from this phase in timed mode.", hi: "इस हिस्से में पढ़ना सबसे कमज़ोर रहा। इस चरण के पाठ समय सीमा वाले मोड में पढ़िए।", href: "/reading" },
+  vocabulary: { text: "Vocabulary checks were the weakest. Clear your review queue every day this week.", hi: "शब्दावली सबसे कमज़ोर रही। इस हफ़्ते रोज़ अपने दोहराव के सारे कार्ड पूरे कीजिए।", href: "/review" },
+  grammar: { text: "Grammar was the weakest. Drill the grammar items in your mistake notebook.", hi: "व्याकरण सबसे कमज़ोर रहा। ग़लतियों की कॉपी में व्याकरण वाले अभ्यास कीजिए।", href: "/mistakes" },
+  writing: { text: "Writing tasks were the weakest. Redo one lesson writing task from this phase with feedback.", hi: "लिखना सबसे कमज़ोर रहा। इस चरण के किसी पाठ का एक लेखन अभ्यास फ़ीडबैक के साथ दोबारा कीजिए।", href: "/writing" },
+  speaking: { text: "Practise a role-play from this phase in the speaking tutor.", hi: "बोलने के अभ्यास में इस चरण का एक रोल-प्ले कीजिए।", href: "/speaking" },
+  pronunciation: { text: "Spend ten minutes on minimal pairs in the pronunciation lab.", hi: "उच्चारण लैब में दस मिनट मिलती-जुलती आवाज़ों वाले शब्द-जोड़ों (minimal pairs) का अभ्यास कीजिए।", href: "/pronunciation" },
 };
 
 /** Concrete next steps from the learner's own numbers. Plain rules, stated as suggestions. */
 export function recommendations(skills: { skill: Skill; attempts: number; accuracy: number | null }[], missing: number[], mistakeCats: { category: string; open: number }[]): Rec[] {
   const out: Rec[] = [];
-  if (missing.length) out.push({ text: `Catch up on the ${missing.length} day${missing.length === 1 ? "" : "s"} in this block that the plan has passed (${missing.slice(0, 6).join(", ")}${missing.length > 6 ? "…" : ""}).`, href: `/lesson/${missing[0]}` });
+  const list = `${missing.slice(0, 6).join(", ")}${missing.length > 6 ? "…" : ""}`;
+  if (missing.length) out.push({ text: `Catch up on the ${missing.length} day${missing.length === 1 ? "" : "s"} in this block that the plan has passed (${list}).`, hi: `इस हिस्से के वे ${missing.length} दिन पूरे कीजिए जिनकी तारीख़ निकल चुकी है (${list})।`, href: `/lesson/${missing[0]}` });
   const scored = skills.filter((s) => s.accuracy !== null).sort((a, b) => a.accuracy! - b.accuracy!);
   const weak = scored.filter((s) => s.accuracy! < 0.7).slice(0, 2);
   for (const w of weak) { const r = SKILL_HREF[w.skill]; if (r) out.push(r); }
   const topCat = [...mistakeCats].sort((a, b) => b.open - a.open)[0];
-  if (topCat && topCat.open >= 3) out.push({ text: `Your most frequent open errors are ${(CATEGORY_LABEL[topCat.category]?.en ?? topCat.category).toLowerCase()} errors. Drill them in the mistake notebook.`, href: "/mistakes" });
-  if (!skills.some((s) => s.skill === "speaking")) out.push({ text: "There is no speaking practice recorded in this block. Do one role-play.", href: "/speaking" });
-  if (!out.length) out.push({ text: "No weak spots stand out in this block. Keep to the plan and take a practice exam section when you reach the next phase.", href: "/exam" });
+  if (topCat && topCat.open >= 3) out.push({ text: `Your most frequent open errors are ${(CATEGORY_LABEL[topCat.category]?.en ?? topCat.category).toLowerCase()} errors. Drill them in the mistake notebook.`, hi: `आपकी सबसे ज़्यादा बची हुई ग़लतियाँ «${CATEGORY_LABEL[topCat.category]?.hi ?? topCat.category}» की हैं। ग़लतियों की कॉपी में उनका अभ्यास कीजिए।`, href: "/mistakes" });
+  if (!skills.some((s) => s.skill === "speaking")) out.push({ text: "There is no speaking practice recorded in this block. Do one role-play.", hi: "इस हिस्से में बोलने का कोई अभ्यास दर्ज नहीं है। एक रोल-प्ले कीजिए।", href: "/speaking" });
+  if (!out.length) out.push({ text: "No weak spots stand out in this block. Keep to the plan and take a practice exam section when you reach the next phase.", hi: "इस हिस्से में कोई ख़ास कमज़ोरी नहीं दिखी। योजना के अनुसार चलते रहिए और अगले चरण पर पहुँचकर परीक्षा का एक अभ्यास भाग दीजिए।", href: "/exam" });
   return out.slice(0, 5);
 }
 
@@ -130,12 +131,12 @@ export function pacingNote(profile: Profile, today: string, nextIncomplete: numb
   const s = scheduleInput(profile);
   const end = courseEndDate(s);
   const behind = Math.max(0, scheduledDay - nextIncomplete);
-  const notes: string[] = [];
-  if (profile.examDate && diffDays(profile.examDate, end) > 0) notes.push(`At the current plan the course ends on ${end}, after your exam date (${profile.examDate}). Consider moving the exam date or adding daily study time in Settings.`);
-  else if (profile.examDate) notes.push(`The course is planned to end on ${end}, ${diffDays(end, profile.examDate)} days before your exam date (${profile.examDate}).`);
-  else notes.push(`The course is planned to end on ${end}. You have not set an exam date.`);
-  if (behind >= 3) notes.push(`You are ${behind} lessons behind the plan. The recovery plan on Today can shift the schedule without losing finished work, or a shorter daily plan may suit you better.`);
-  else if (diffDays(today, end) > 0) notes.push("Your pace matches the plan. No change to the workload looks necessary.");
+  const notes: { en: string; hi: string }[] = [];
+  if (profile.examDate && diffDays(profile.examDate, end) > 0) notes.push({ en: `At the current plan the course ends on ${end}, after your exam date (${profile.examDate}). Consider moving the exam date or adding daily study time in Settings.`, hi: `मौजूदा योजना से कोर्स ${end} को ख़त्म होगा, यानी आपकी परीक्षा की तारीख़ (${profile.examDate}) के बाद। सेटिंग्स में परीक्षा की तारीख़ आगे करने या रोज़ का समय बढ़ाने पर विचार कीजिए।` });
+  else if (profile.examDate) notes.push({ en: `The course is planned to end on ${end}, ${diffDays(end, profile.examDate)} days before your exam date (${profile.examDate}).`, hi: `कोर्स ${end} को ख़त्म होना तय है, आपकी परीक्षा की तारीख़ (${profile.examDate}) से ${diffDays(end, profile.examDate)} दिन पहले।` });
+  else notes.push({ en: `The course is planned to end on ${end}. You have not set an exam date.`, hi: `कोर्स ${end} को ख़त्म होना तय है। आपने परीक्षा की तारीख़ नहीं डाली है।` });
+  if (behind >= 3) notes.push({ en: `You are ${behind} lessons behind the plan. The recovery plan on Today can shift the schedule without losing finished work, or a shorter daily plan may suit you better.`, hi: `आप योजना से ${behind} पाठ पीछे हैं। «आज» पेज पर रिकवरी प्लान पूरा किया हुआ काम खोए बिना समय-सारणी आगे खिसका सकता है, या रोज़ का छोटा प्लान आपके लिए बेहतर हो सकता है।` });
+  else if (diffDays(today, end) > 0) notes.push({ en: "Your pace matches the plan. No change to the workload looks necessary.", hi: "आपकी रफ़्तार योजना के मुताबिक है। काम का बोझ बदलने की ज़रूरत नहीं लगती।" });
   return notes;
 }
 

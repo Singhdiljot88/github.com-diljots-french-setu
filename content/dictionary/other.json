@@ -1021,7 +1021,7 @@
   "mistakes": [
    {
     "en": "The h is 'aspirate': no liaison and no elision: le haut, les / hauts (ले ओ).",
-    "hi": "यहाँ h 'aspiré' है: liaison या elision नहीं होती: le haut, les hauts (ले ओ)।"
+    "hi": "यहाँ h 'aspiré' है: liaison या संक्षेप (elision) नहीं होती: le haut, les hauts (ले ओ)।"
    }
   ],
   "related": [
@@ -2465,7 +2465,7 @@
   "mistakes": [
    {
     "en": "Keep the circumflex: 'sûr' (sure) vs 'sur' (on).",
-    "hi": "circumflex ज़रूरी है: 'sûr' (पक्का) और 'sur' (पर) अलग हैं।"
+    "hi": "टोपी (circumflex) ज़रूरी है: 'sûr' (पक्का) और 'sur' (पर) अलग हैं।"
    }
   ],
   "related": [
@@ -2563,7 +2563,7 @@
   "mistakes": [
    {
     "en": "'il est important que' takes the subjunctive: il est important que tu viennes.",
-    "hi": "'il est important que' के बाद subjunctive आता है: que tu viennes।"
+    "hi": "'il est important que' के बाद संभावनार्थ रूप (subjunctive) आता है: que tu viennes।"
    }
   ],
   "related": [
@@ -3261,7 +3261,7 @@
   "mistakes": [
    {
     "en": "'merci pour' + noun (merci pour le cadeau); 'merci de' + infinitive (merci de m'avoir aidé).",
-    "hi": "'merci pour' + संज्ञा; 'merci de' + infinitive।"
+    "hi": "'merci pour' + संज्ञा; 'merci de' + मूल क्रिया (infinitive)।"
    },
    {
     "en": "A plain 'merci' when offered something can mean 'no thanks'; say 'oui, merci' to accept.",
@@ -3793,7 +3793,7 @@
   "mistakes": [
    {
     "en": "Negative takes the subjunctive: je ne pense pas que ce soit vrai.",
-    "hi": "नकारात्मक में subjunctive: je ne pense pas que ce soit vrai।"
+    "hi": "नकारात्मक में संभावनार्थ रूप (subjunctive): je ne pense pas que ce soit vrai।"
    }
   ],
   "related": [
@@ -3920,7 +3920,7 @@
    },
    {
     "en": "'il faut que' + subjunctive: il faut que tu viennes.",
-    "hi": "'il faut que' + subjunctive।"
+    "hi": "'il faut que' + संभावनार्थ रूप (subjunctive)।"
    }
   ],
   "related": [
@@ -3966,7 +3966,7 @@
   "mistakes": [
    {
     "en": "+ infinitive, or 'que' + subjunctive.",
-    "hi": "+ infinitive, या 'que' + subjunctive।"
+    "hi": "+ मूल क्रिया (infinitive), या 'que' + संभावनार्थ रूप (subjunctive)।"
    }
   ],
   "related": [
@@ -4143,7 +4143,7 @@
   "mistakes": [
    {
     "en": "French has no -ing tense: 'je cuisine' already means 'I'm cooking'. Use 'en train de' + infinitive to stress 'right now'.",
-    "hi": "फ़्रेंच में -ing काल नहीं है: 'je cuisine' = मैं खाना बना रहा हूँ। 'अभी' पर ज़ोर के लिए en train de + infinitive।"
+    "hi": "फ़्रेंच में -ing काल नहीं है: 'je cuisine' = मैं खाना बना रहा हूँ। 'अभी' पर ज़ोर के लिए en train de + मूल क्रिया (infinitive)।"
    }
   ],
   "related": [
@@ -4443,7 +4443,7 @@
   "mistakes": [
    {
     "en": "+ noun or + infinitive (au lieu de dormir).",
-    "hi": "+ संज्ञा या + infinitive (au lieu de dormir)।"
+    "hi": "+ संज्ञा या + मूल क्रिया (infinitive) (au lieu de dormir)।"
    }
   ],
   "related": [
@@ -4484,7 +4484,7 @@
   "mistakes": [
    {
     "en": "+ infinitive, same subject. More formal than 'pour'.",
-    "hi": "+ infinitive, कर्ता एक हो। 'pour' से ज़्यादा औपचारिक।"
+    "hi": "+ मूल क्रिया (infinitive), कर्ता एक हो। 'pour' से ज़्यादा औपचारिक।"
    }
   ],
   "related": [
@@ -7905,7 +7905,7 @@
    },
    {
     "en": "'il est essentiel que' + subjunctive.",
-    "hi": "'il est essentiel que' के बाद subjunctive।"
+    "hi": "'il est essentiel que' के बाद संभावनार्थ रूप (subjunctive)।"
    }
   ],
   "related": [
@@ -14682,7 +14682,7 @@
    },
    {
     "en": "No elision in writing: tu es (not *t'es, which is spoken slang).",
-    "hi": "लिखते समय elision नहीं: tu es (*t'es बोलचाल है)।"
+    "hi": "लिखते समय संक्षेप (elision) नहीं: tu es (*t'es बोलचाल है)।"
    }
   ],
   "related": [
@@ -15512,7 +15512,7 @@
    },
    {
     "en": "'qui' never elides: qui est (not *qu'est).",
-    "hi": "'qui' का elision कभी नहीं: qui est।"
+    "hi": "'qui' का संक्षेप (elision) कभी नहीं: qui est।"
    }
   ],
   "related": [
@@ -16556,7 +16556,7 @@
   "mistakes": [
    {
     "en": "Partitive: for an unspecified quantity of something you can't count (du pain, du riz). English says nothing or 'some'.",
-    "hi": "partitive: बिना गिनी मात्रा के लिए (du pain, du riz)। अंग्रेज़ी में अक्सर कुछ नहीं लगता।"
+    "hi": "'कुछ' वाला आर्टिकल (partitive): बिना गिनी मात्रा के लिए (du pain, du riz)। अंग्रेज़ी में अक्सर कुछ नहीं लगता।"
    },
    {
     "en": "After a negative du → de: je ne bois pas de café.",
@@ -16848,7 +16848,7 @@
   "mistakes": [
    {
     "en": "No circumflex as a determiner: votre nom. 'le vôtre' (yours) has one.",
-    "hi": "determiner में circumflex नहीं: votre। 'le vôtre' (आपका वाला) में होता है।"
+    "hi": "determiner में टोपी (circumflex) नहीं: votre। 'le vôtre' (आपका वाला) में होता है।"
    }
   ],
   "related": [
@@ -17711,7 +17711,7 @@
   "mistakes": [
    {
     "en": "'sans' + noun takes no article: sans sucre. Before a verb use the infinitive: sans parler.",
-    "hi": "'sans' + संज्ञा बिना आर्टिकल: sans sucre। क्रिया के साथ infinitive: sans parler।"
+    "hi": "'sans' + संज्ञा बिना आर्टिकल: sans sucre। क्रिया के साथ मूल क्रिया (infinitive): sans parler।"
    }
   ],
   "related": [
@@ -17762,7 +17762,7 @@
   "mistakes": [
    {
     "en": "'pour' + infinitive (in order to). Not *pour à.",
-    "hi": "'pour' + infinitive = के लिए/ताकि।"
+    "hi": "'pour' + मूल क्रिया (infinitive) = के लिए/ताकि।"
    },
    {
     "en": "Duration in the past uses 'pendant', not 'pour': j'ai habité là pendant deux ans.",
@@ -18027,7 +18027,7 @@
   "mistakes": [
    {
     "en": "Before a verb: 'avant de' + infinitive (avant de partir).",
-    "hi": "क्रिया से पहले 'avant de' + infinitive: avant de partir।"
+    "hi": "क्रिया से पहले 'avant de' + मूल क्रिया (infinitive): avant de partir।"
    }
   ],
   "related": [
@@ -18346,7 +18346,7 @@
   "mistakes": [
    {
     "en": "'malgré' + noun. With a full clause use 'bien que' + subjunctive. *malgré que is avoided in careful writing.",
-    "hi": "'malgré' + संज्ञा। पूरे वाक्य के साथ 'bien que' + subjunctive।"
+    "hi": "'malgré' + संज्ञा। पूरे वाक्य के साथ 'bien que' + संभावनार्थ रूप (subjunctive)।"
    }
   ],
   "related": [
@@ -19087,7 +19087,7 @@
    },
    {
     "en": "Never future or conditional after 'si' (if): si j'ai le temps (not *si j'aurai).",
-    "hi": "'si' (अगर) के बाद भविष्य या conditional नहीं: si j'ai le temps।"
+    "hi": "'si' (अगर) के बाद भविष्य या शर्तवाला रूप (conditional) नहीं: si j'ai le temps।"
    }
   ],
   "related": [
@@ -19298,7 +19298,7 @@
    },
    {
     "en": "Shows contrast; followed by the indicative.",
-    "hi": "विरोध दिखाता है; इसके बाद indicative।"
+    "hi": "विरोध दिखाता है; इसके बाद सामान्य रूप (indicative)।"
    }
   ],
   "related": [
@@ -19389,7 +19389,7 @@
   "mistakes": [
    {
     "en": "Followed by the subjunctive: bien qu'il fasse (not *bien qu'il fait).",
-    "hi": "इसके बाद subjunctive आता है: bien qu'il fasse (not *bien qu'il fait)।"
+    "hi": "इसके बाद संभावनार्थ रूप (subjunctive) आता है: bien qu'il fasse (not *bien qu'il fait)।"
    },
    {
     "en": "A strong connector for TEF writing and speaking (Section B argumentation).",
@@ -19438,7 +19438,7 @@
   "mistakes": [
    {
     "en": "Unlike 'bien que', 'même si' takes the indicative: même si c'est difficile.",
-    "hi": "'bien que' के उलट 'même si' के बाद indicative: même si c'est difficile।"
+    "hi": "'bien que' के उलट 'même si' के बाद सामान्य रूप (indicative): même si c'est difficile।"
    },
    {
     "en": "A strong connector for TEF writing and speaking (Section B argumentation).",
@@ -19484,11 +19484,11 @@
   "mistakes": [
    {
     "en": "Followed by the subjunctive: afin que tu puisses.",
-    "hi": "इसके बाद subjunctive आता है: afin que tu puisses।"
+    "hi": "इसके बाद संभावनार्थ रूप (subjunctive) आता है: afin que tu puisses।"
    },
    {
     "en": "Same subject? Use 'afin de' + infinitive: j'étudie afin de réussir.",
-    "hi": "कर्ता एक हो तो 'afin de' + infinitive: afin de réussir।"
+    "hi": "कर्ता एक हो तो 'afin de' + मूल क्रिया (infinitive): afin de réussir।"
    }
   ],
   "related": [
@@ -19532,7 +19532,7 @@
   "mistakes": [
    {
     "en": "Followed by the subjunctive: pour que tu viennes.",
-    "hi": "इसके बाद subjunctive आता है: pour que tu viennes।"
+    "hi": "इसके बाद संभावनार्थ रूप (subjunctive) आता है: pour que tu viennes।"
    },
    {
     "en": "Don't use it to answer 'pourquoi ?' with a cause — that's 'parce que'.",
@@ -20096,7 +20096,7 @@
   "mistakes": [
    {
     "en": "Shows a result: followed by the indicative (unlike 'pour que').",
-    "hi": "परिणाम दिखाता है: इसके बाद indicative ('pour que' के उलट)।"
+    "hi": "परिणाम दिखाता है: इसके बाद सामान्य रूप (indicative) ('pour que' के उलट)।"
    }
   ],
   "related": [
@@ -20397,11 +20397,11 @@
   "mistakes": [
    {
     "en": "Followed by the subjunctive: avant qu'il pleuve.",
-    "hi": "इसके बाद subjunctive आता है: avant qu'il pleuve।"
+    "hi": "इसके बाद संभावनार्थ रूप (subjunctive) आता है: avant qu'il pleuve।"
    },
    {
     "en": "Same subject? use 'avant de' + infinitive.",
-    "hi": "कर्ता एक हो तो 'avant de' + infinitive।"
+    "hi": "कर्ता एक हो तो 'avant de' + मूल क्रिया (infinitive)।"
    }
   ],
   "related": [
@@ -20441,7 +20441,7 @@
   "mistakes": [
    {
     "en": "Followed by the subjunctive: à moins qu'il fasse.",
-    "hi": "इसके बाद subjunctive आता है: à moins qu'il fasse।"
+    "hi": "इसके बाद संभावनार्थ रूप (subjunctive) आता है: à moins qu'il fasse।"
    }
   ],
   "related": [
@@ -21025,7 +21025,7 @@
   "mistakes": [
    {
     "en": "No liaison/elision before 'huit': le huit mai.",
-    "hi": "'huit' से पहले elision नहीं: le huit mai।"
+    "hi": "'huit' से पहले संक्षेप (elision) नहीं: le huit mai।"
    }
   ],
   "related": [],
@@ -21140,7 +21140,7 @@
   "mistakes": [
    {
     "en": "No elision: le onze (not *l'onze).",
-    "hi": "elision नहीं: le onze।"
+    "hi": "संक्षेप (elision) नहीं: le onze।"
    }
   ],
   "related": [],

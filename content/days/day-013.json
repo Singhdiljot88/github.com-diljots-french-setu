@@ -33,7 +33,7 @@
     { "fr": "Aujourd'hui, c'est lundi.", "en": "Today is Monday.", "hi": "आज सोमवार है।", "pron": "ओ-जूर-द्यूई से लैं-दी", "ipa": "oʒuʁdɥi sɛ lɛ̃di" },
     { "fr": "Quelle est la date ?", "en": "What's the date?", "hi": "आज कौन-सी तारीख़ है?", "pron": "के ले ला दात", "ipa": "kɛ lɛ la dat" },
     { "fr": "On est le 3 mars.", "en": "It's 3 March.", "hi": "आज 3 मार्च है।", "pron": "ओं ने ल त्र्वा मार्स", "ipa": "ɔ̃ nɛ lə tʁwa maʁs" },
-    { "fr": "Mon anniversaire, c'est le 15 août.", "en": "My birthday is on 15 August.", "hi": "मेरा जन्मदिन 15 अगस्त को है।", "pron": "मो ना-नी-वेर-सेर से ल कैंज़ ऊत", "ipa": "mɔ̃ nanivɛʁsɛʁ sɛ lə kɛ̃z ut" },
+    { "fr": "Mon anniversaire, c'est le 15 août.", "en": "My birthday is on 15 August.", "hi": "मेरा जन्मदिन 15 अगस्त को है।", "pron": "मों ना-नी-वेर-सेर से ल कैंज़ ऊत", "ipa": "mɔ̃ nanivɛʁsɛʁ sɛ lə kɛ̃z ut" },
     { "fr": "D'accord !", "en": "OK! / Agreed!", "hi": "ठीक है!", "pron": "दा-कॉर", "ipa": "dakɔʁ" },
     { "fr": "le premier janvier", "en": "the first of January", "hi": "पहली जनवरी", "pron": "ल प्र-म्ये जाँ-व्ये", "ipa": "lə pʁəmje ʒɑ̃vje" }
   ],
@@ -109,7 +109,7 @@
     "prompts": [
       { "fr": "lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche", "en": "Monday … Sunday", "hi": "सोमवार … रविवार", "pron": "लैं-दी मार-दी मेर-क्र-दी ज-दी वाँ-द्र-दी साम-दी दी-माँश" },
       { "fr": "Aujourd'hui, c'est … . On est le … .", "en": "Today is … . It's the … .", "hi": "आज … है। आज … तारीख़ है।", "pron": "ओ-जूर-द्यूई से … ओं ने ल …", "model": "Aujourd'hui, c'est vendredi. On est le vingt-quatre mai." },
-      { "fr": "Mon anniversaire, c'est le … .", "en": "My birthday is on … .", "hi": "मेरा जन्मदिन … को है।", "pron": "मो ना-नी-वेर-सेर से ल", "model": "Mon anniversaire, c'est le premier novembre." },
+      { "fr": "Mon anniversaire, c'est le … .", "en": "My birthday is on … .", "hi": "मेरा जन्मदिन … को है।", "pron": "मों ना-नी-वेर-सेर से ल", "model": "Mon anniversaire, c'est le premier novembre." },
       { "fr": "J'ai un rendez-vous mardi.", "en": "I have an appointment on Tuesday.", "hi": "मंगलवार को मेरा एक अपॉइंटमेंट है।", "pron": "जे ऐं राँ-दे-वू मार-दी" },
       { "fr": "Demain, on est … .", "en": "Tomorrow is … .", "hi": "कल … है।", "pron": "द-मैं ओं ने" }
     ],

@@ -260,7 +260,7 @@
                 "answer": 2,
                 "explanation": {
                   "en": "'Pour + infinitive' expresses purpose (in order to). 'Parce que' and 'bien que' need a full clause, and 'malgré' needs a noun.",
-                  "hi": "'pour + infinitive' मक़सद बताता है (ताकि / के लिए)। 'parce que' और 'bien que' के बाद पूरा उपवाक्य चाहिए, और 'malgré' के बाद संज्ञा।"
+                  "hi": "'pour + मूल क्रिया (infinitive)' मक़सद बताता है (ताकि / के लिए)। 'parce que' और 'bien que' के बाद पूरा उपवाक्य चाहिए, और 'malgré' के बाद संज्ञा।"
                 },
                 "kind": "grammar"
               }
@@ -314,7 +314,7 @@
                 "answer": 3,
                 "explanation": {
                   "en": "'Si + imparfait' (plantait) is followed by the conditional (ferait): a hypothetical situation, like English 'if… would'.",
-                  "hi": "'Si + imparfait' (plantait) के बाद संभावनार्थ / conditional (ferait) आता है: काल्पनिक स्थिति, जैसे हिंदी में 'अगर… लगाता, तो… होती'।"
+                  "hi": "'Si + imparfait' (plantait) के बाद संभावनार्थ / शर्तवाला रूप (conditional) (ferait) आता है: काल्पनिक स्थिति, जैसे हिंदी में 'अगर… लगाता, तो… होती'।"
                 },
                 "kind": "grammar"
               }
@@ -377,7 +377,7 @@
                 "answer": 2,
                 "explanation": {
                   "en": "A real condition with 'si' takes the present tense: 'Si de l'air froid entre…, posez…'. Never the future or conditional right after 'si'.",
-                  "hi": "वास्तविक शर्त में 'si' के बाद वर्तमान काल (present) आता है: 'Si de l'air froid entre…, posez…'। 'si' के ठीक बाद भविष्य या conditional नहीं आता।"
+                  "hi": "वास्तविक शर्त में 'si' के बाद वर्तमान काल (present) आता है: 'Si de l'air froid entre…, posez…'। 'si' के ठीक बाद भविष्य या शर्तवाला रूप (conditional) नहीं आता।"
                 },
                 "kind": "grammar"
               },
@@ -395,7 +395,7 @@
                 "answer": 2,
                 "explanation": {
                   "en": "Purpose + infinitive: 'afin de garder' (in order to keep). 'Pour que' needs a subjunctive clause, 'à cause de' gives a cause, 'au lieu de' means 'instead of'.",
-                  "hi": "मक़सद + infinitive: 'afin de garder' (बनाए रखने के लिए)। 'pour que' के बाद subjunctive वाला उपवाक्य चाहिए, 'à cause de' कारण बताता है, 'au lieu de' का अर्थ है 'के बजाय'।"
+                  "hi": "मक़सद + मूल क्रिया (infinitive): 'afin de garder' (बनाए रखने के लिए)। 'pour que' के बाद संभावनार्थ रूप (subjunctive) वाला उपवाक्य चाहिए, 'à cause de' कारण बताता है, 'au lieu de' का अर्थ है 'के बजाय'।"
                 },
                 "kind": "grammar"
               },
@@ -413,7 +413,7 @@
                 "answer": 1,
                 "explanation": {
                   "en": "Fixed structure: 'C'est à quelqu'un de + infinitive' = it is someone's job to… → 'c'est à lui de faire'.",
-                  "hi": "तय ढाँचा: 'C'est à quelqu'un de + infinitive' = यह किसी की ज़िम्मेदारी है कि… → 'c'est à lui de faire' (यह उसका काम है)।"
+                  "hi": "तय ढाँचा: 'C'est à quelqu'un de + मूल क्रिया (infinitive)' = यह किसी की ज़िम्मेदारी है कि… → 'c'est à lui de faire' (यह उसका काम है)।"
                 },
                 "kind": "grammar"
               },

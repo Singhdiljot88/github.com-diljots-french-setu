@@ -8,7 +8,7 @@
   },
   "objective": {
     "en": "Read a press article and answer inference questions: recognise the passive voice, find the author's viewpoint and tone, and understand what is suggested but not said directly.",
-    "hi": "अख़बार का एक लेख पढ़कर अनुमान वाले सवालों के जवाब देना: passive voice पहचानना, लेखक का नज़रिया और लहजा ढूँढना, और जो सीधे नहीं कहा गया पर इशारा किया गया है उसे समझना।"
+    "hi": "अख़बार का एक लेख पढ़कर अनुमान वाले सवालों के जवाब देना: कर्मवाच्य (passive) voice पहचानना, लेखक का नज़रिया और लहजा ढूँढना, और जो सीधे नहीं कहा गया पर इशारा किया गया है उसे समझना।"
   },
   "prerequisites": {
     "days": [
@@ -48,7 +48,7 @@
       "lemma": "une",
       "note": {
         "en": "No elision: la une. 'Faire la une' = to be front-page news.",
-        "hi": "elision नहीं होता: la une। 'faire la une' = मुख पृष्ठ की ख़बर बनना।"
+        "hi": "संक्षेप (elision) नहीं होता: la une। 'faire la une' = मुख पृष्ठ की ख़बर बनना।"
       }
     },
     {
@@ -197,11 +197,11 @@
   "grammar": {
     "title": {
       "en": "The passive voice and the author's viewpoint",
-      "hi": "passive voice और लेखक का नज़रिया"
+      "hi": "कर्मवाच्य (passive) voice और लेखक का नज़रिया"
     },
     "explanation": {
       "en": "PASSIVE: être (in any tense) + past participle agreeing with the subject, + par for the agent. Active: La ville a adopté la loi. → Passive: La loi a été adoptée (par la ville). Present: est jeté; future: sera interdit; passé composé: a été adoptée. Articles use it to focus on the action, or to hide who is responsible ('Des erreurs ont été commises' — by whom?). VIEWPOINT: in TEF inference questions, look for (1) evaluative adjectives and adverbs: heureusement, malheureusement, hélas, enfin (= at last!), inquiétant, scandaleux, encourageant; (2) concession structures: 'Certes… mais' — the author's real opinion comes after mais; (3) the conditional for unconfirmed information: 'Le ministre aurait refusé' = reportedly refused; (4) quotation marks or 'soi-disant' to keep a distance; (5) rhetorical questions in the conclusion ('Combien de temps faudra-t-il encore attendre ?') = criticism.",
-      "hi": "PASSIVE: être (किसी भी काल में) + कर्ता से मेल खाता past participle, + करने वाले के लिए par। सक्रिय: La ville a adopté la loi। → कर्मवाच्य: La loi a été adoptée (par la ville)। वर्तमान: est jeté; भविष्य: sera interdit; passé composé: a été adoptée। लेख इसका इस्तेमाल काम पर ध्यान देने के लिए, या ज़िम्मेदार को छिपाने के लिए करते हैं ('Des erreurs ont été commises' — किसने?)। नज़रिया: TEF के अनुमान वाले सवालों में देखिए (1) मूल्यांकन करने वाले विशेषण और क्रियाविशेषण: heureusement, malheureusement, hélas, enfin (= आख़िरकार!), inquiétant, scandaleux, encourageant; (2) रियायत का ढाँचा: 'Certes… mais' — लेखक की असली राय mais के बाद आती है; (3) अपुष्ट जानकारी के लिए conditionnel: 'Le ministre aurait refusé' = कथित तौर पर मना किया; (4) दूरी बनाने के लिए उद्धरण चिह्न या 'soi-disant'; (5) निष्कर्ष में अलंकारिक प्रश्न ('Combien de temps faudra-t-il encore attendre ?') = आलोचना।"
+      "hi": "PASSIVE: être (किसी भी काल में) + कर्ता से मेल खाता भूत कृदंत (past participle), + करने वाले के लिए par। सक्रिय: La ville a adopté la loi। → कर्मवाच्य: La loi a été adoptée (par la ville)। वर्तमान: est jeté; भविष्य: sera interdit; passé composé: a été adoptée। लेख इसका इस्तेमाल काम पर ध्यान देने के लिए, या ज़िम्मेदार को छिपाने के लिए करते हैं ('Des erreurs ont été commises' — किसने?)। नज़रिया: TEF के अनुमान वाले सवालों में देखिए (1) मूल्यांकन करने वाले विशेषण और क्रियाविशेषण: heureusement, malheureusement, hélas, enfin (= आख़िरकार!), inquiétant, scandaleux, encourageant; (2) रियायत का ढाँचा: 'Certes… mais' — लेखक की असली राय mais के बाद आती है; (3) अपुष्ट जानकारी के लिए conditionnel: 'Le ministre aurait refusé' = कथित तौर पर मना किया; (4) दूरी बनाने के लिए उद्धरण चिह्न या 'soi-disant'; (5) निष्कर्ष में अलंकारिक प्रश्न ('Combien de temps faudra-t-il encore attendre ?') = आलोचना।"
     },
     "comparison": {
       "en": "Hindi also has a passive ('क़ानून पारित किया गया', 'खाना फेंका जाता है'), used the same way in news. English 'was adopted' = French 'a été adoptée' — but French adds agreement: la loi a été adoptéE.",
@@ -248,7 +248,7 @@
     "pitfalls": [
       {
         "en": "Don't confuse the passive (a été adoptée = was passed) with the passé composé of être verbs (est arrivée = arrived). Test: can you add 'par quelqu'un'?",
-        "hi": "passive (a été adoptée = पारित हुई) को être वाली क्रियाओं के passé composé (est arrivée = आई) से मत मिलाइए। जाँच: क्या आप 'par quelqu'un' जोड़ सकते हैं?"
+        "hi": "कर्मवाच्य (passive) (a été adoptée = पारित हुई) को être वाली क्रियाओं के passé composé (est arrivée = आई) से मत मिलाइए। जाँच: क्या आप 'par quelqu'un' जोड़ सकते हैं?"
       },
       {
         "en": "An inference question's answer is NOT written word for word. If an option copies a sentence exactly, check that it really answers the question asked.",
@@ -264,7 +264,7 @@
     "focus": "Reading an article aloud",
     "tip": {
       "en": "Read the title with a falling tone, pause after the lead paragraph, and slow down on numbers and names. In the passive, say a‿été as one group: आ ए-ते.",
-      "hi": "शीर्षक नीचे जाती आवाज़ में पढ़िए, परिचय अनुच्छेद के बाद रुकिए, और संख्याओं व नामों पर धीमे हो जाइए। passive में a‿été को एक समूह की तरह बोलिए: आ ए-ते।"
+      "hi": "शीर्षक नीचे जाती आवाज़ में पढ़िए, परिचय अनुच्छेद के बाद रुकिए, और संख्याओं व नामों पर धीमे हो जाइए। कर्मवाच्य (passive) में a‿été को एक समूह की तरह बोलिए: आ ए-ते।"
     },
     "words": [
       {
@@ -321,7 +321,7 @@
     "mode": "natural",
     "context": {
       "en": "A short radio report about a city testing electric buses, with a driver and a passenger interviewed. Notice the passive forms and the journalist's careful, neutral tone.",
-      "hi": "एक शहर में बिजली वाली बसों के परीक्षण पर छोटी रेडियो रिपोर्ट, एक ड्राइवर और एक यात्री से बातचीत के साथ। passive रूपों और पत्रकार के सधे, तटस्थ लहजे पर ध्यान दीजिए।"
+      "hi": "एक शहर में बिजली वाली बसों के परीक्षण पर छोटी रेडियो रिपोर्ट, एक ड्राइवर और एक यात्री से बातचीत के साथ। कर्मवाच्य (passive) रूपों और पत्रकार के सधे, तटस्थ लहजे पर ध्यान दीजिए।"
     },
     "lines": [
       {
@@ -410,7 +410,7 @@
         "answer": 2,
         "explanation": {
           "en": "Passive: 'dont la moitié a été payée par le gouvernement provincial'.",
-          "hi": "passive: 'dont la moitié a été payée par le gouvernement provincial'।"
+          "hi": "कर्मवाच्य (passive): 'dont la moitié a été payée par le gouvernement provincial'।"
         },
         "kind": "literal",
         "evidence": "dont la moitié a été payée par le gouvernement provincial",
@@ -727,7 +727,7 @@
         "answer": 1,
         "explanation": {
           "en": "Passive 'sont retirées des rayons parce qu'ils sont « moches » ou proches de leur date de péremption'.",
-          "hi": "passive 'sont retirées des rayons parce qu'ils sont « moches » ou proches de leur date de péremption'।"
+          "hi": "कर्मवाच्य (passive) 'sont retirées des rayons parce qu'ils sont « moches » ou proches de leur date de péremption'।"
         },
         "kind": "literal",
         "evidence": "sont retirées des rayons parce qu'ils sont « moches » ou proches de leur date de péremption",
@@ -905,7 +905,7 @@
       "type": "fill",
       "prompt": {
         "en": "Make it passive: On jette des tonnes de nourriture. → Des tonnes de nourriture sont ___.",
-        "hi": "passive बनाइए: On jette des tonnes de nourriture. → Des tonnes de nourriture sont ___."
+        "hi": "कर्मवाच्य (passive) बनाइए: On jette des tonnes de nourriture. → Des tonnes de nourriture sont ___."
       },
       "sentence": "Des tonnes de nourriture sont ___.",
       "answer": "jetées",
