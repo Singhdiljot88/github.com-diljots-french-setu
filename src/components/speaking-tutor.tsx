@@ -109,7 +109,13 @@ export function Conversation({ id, isDemo, scenario: s, onExit, transport, deadl
   const label = useBiLabel();
 
   useEffect(() => { if (autoPlay && !initialTurns?.length && !initialReport) play([{ text: s.opening, voice: "f1" }]); }, []); // eslint-disable-line react-hooks/exhaustive-deps
-  useEffect(() => { endRef.current?.scrollIntoView({ block: "end", behavior: "smooth" }); }, [turns.length, report]);
+  // Scroll to new turns, but not on first render, so the task instructions at the top stay visible.
+  const seen = useRef<number | null>(null);
+  useEffect(() => {
+    const n = turns.length + (report ? 1 : 0);
+    if (seen.current !== null && n > seen.current) endRef.current?.scrollIntoView({ block: "end", behavior: "smooth" });
+    seen.current = n;
+  }, [turns.length, report]);
   useEffect(() => { if ((!s.timeLimitSec && !deadline) || report) return; const t = setInterval(() => setNow(Date.now()), 1000); return () => clearInterval(t); }, [s.timeLimitSec, deadline, report]);
   const left = deadline ? Math.max(0, Math.ceil((new Date(deadline).getTime() - (now + clockOffsetMs)) / 1000))
     : s.timeLimitSec ? Math.max(0, s.timeLimitSec - Math.floor((now - started) / 1000)) : null;
@@ -267,15 +273,17 @@ function MicButton({ onText, disabled }: { onText: (t: string, via: "speech_brow
     } catch { setState("error"); setMsg({ en: "The microphone couldn't be started. Allow the microphone for this site in your browser, check that another app isn't using it, and try again. You can also type your reply.", hi: "माइक्रोफ़ोन शुरू नहीं हो सका। ब्राउज़र में इस साइट के लिए माइक्रोफ़ोन की अनुमति दें, देख लें कि कोई दूसरा ऐप उसे इस्तेमाल नहीं कर रहा, और दोबारा कोशिश करें। आप अपना जवाब टाइप भी कर सकते हैं।" }); }
   };
   const toggle = () => {
-    if (state === "listening") { sr.current?.stop(); if (mr.current?.state === "recording") mr.current.stop(); if (SRClass) setState("idle"); return; }
-    if (SRClass) startBrowser(); else startServer();
+    // Server recognition (Speko) is preferred when available: Safari's built-in recognizer often aborts on iPhone.
+    const useBrowser = !!SRClass && !canServer;
+    if (state === "listening") { sr.current?.stop(); if (mr.current?.state === "recording") mr.current.stop(); if (useBrowser) setState("idle"); return; }
+    if (useBrowser) startBrowser(); else startServer();
   };
   return (
     <span className="flex flex-wrap items-center gap-2">
       <button type="button" className={`btn ${state === "listening" ? "btn-primary animate-pulse" : "btn-secondary"}`} onClick={toggle} disabled={disabled || state === "sending"} aria-pressed={state === "listening"}>
         🎤 {state === "listening" ? label({ en: "Stop", hi: "रोकें" }) : state === "sending" ? label({ en: "Transcribing…", hi: "लिखित रूप में बदला जा रहा है…" }) : label({ en: "Speak", hi: "बोलें" })}
       </button>
-      {!micOptIn && state === "idle" && <Bi as="span" className="text-xs text-muted" t={SRClass ? { en: "Your browser's speech service turns speech into text; check the text before sending.", hi: "आपके ब्राउज़र की स्पीच सेवा बोली को लिखित रूप में बदलती है; भेजने से पहले लिखा हुआ जाँच लें।" } : { en: "Audio is sent to the server for transcription and not kept.", hi: "ऑडियो लिखित रूप में बदलने के लिए सर्वर पर भेजा जाता है और रखा नहीं जाता।" }} />}
+      {!micOptIn && state === "idle" && <Bi as="span" className="text-xs text-muted" t={SRClass && !canServer ? { en: "Your browser's speech service turns speech into text; check the text before sending.", hi: "आपके ब्राउज़र की स्पीच सेवा बोली को लिखित रूप में बदलती है; भेजने से पहले लिखा हुआ जाँच लें।" } : { en: "Audio is sent to the server for transcription and not kept.", hi: "ऑडियो लिखित रूप में बदलने के लिए सर्वर पर भेजा जाता है और रखा नहीं जाता।" }} />}
       {msg && <span role="alert" className="text-xs">{label(msg)}</span>}
     </span>
   );

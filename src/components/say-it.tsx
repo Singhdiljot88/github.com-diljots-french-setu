@@ -6,6 +6,8 @@ import { matchPhrase, statusFor, STATUS_LABEL, type PhraseMatch } from "@/lib/sp
 import { Speak } from "./audio";
 import { Pron } from "./fr-item";
 import { Bi, useBiLabel } from "./bi";
+import { usePrefs } from "./prefs";
+import { ServerSpeechRecognition } from "@/lib/server-speech";
 
 export type SayItem = { day: number; fr: string; en: string; hi: string; pron?: string };
 
@@ -27,7 +29,9 @@ export function SayIt({ items, today }: { items: SayItem[]; today: number }) {
   const days = useMemo(() => [...new Set(items.map((i) => i.day))].sort((a, b) => b - a), [items]);
   const [day, setDay] = useState(days.includes(today) ? today : days[0]);
   const [sr, setSr] = useState<(new () => SR) | null | undefined>(undefined);
-  useEffect(() => setSr(() => getSR()), []);
+  const { providers } = usePrefs();
+  // Speko recognition on the server is preferred when configured: Safari's built-in recognizer often aborts on iPhone.
+  useEffect(() => setSr(() => (providers.stt.server ? (ServerSpeechRecognition as unknown as new () => SR) : getSR())), [providers.stt.server]);
   const label = useBiLabel();
   const list = items.filter((i) => i.day === day);
   return (
@@ -35,7 +39,8 @@ export function SayIt({ items, today }: { items: SayItem[]; today: number }) {
       <div className="rounded-xl surface-2 p-3 text-sm space-y-1">
         <Bi t={{ en: "How this works. Say a phrase. A French speech recognizer writes down what it heard, and we compare that with the phrase word by word. If a word comes out right, the recognizer understood that sound clearly. This is not an accent score.", hi: "यह कैसे काम करता है: कोई वाक्यांश बोलें। फ़्रेंच बोली पहचानने वाला सिस्टम जो सुनता है उसे लिख देता है, और हम उसे वाक्यांश से शब्द-दर-शब्द मिलाते हैं। अगर कोई शब्द सही आता है, तो सिस्टम ने वह ध्वनि साफ़ समझी। यह आपके उच्चारण के लिए कोई अंक नहीं है।" }} />
         {sr === null && <Bi t={{ en: "Your browser has no built-in speech recognition (Chrome and Edge have it). You can still use your phone's voice keyboard set to French: tap the box under a phrase, speak, then press Check.", hi: "आपके ब्राउज़र में बोली पहचानने की सुविधा नहीं है (Chrome और Edge में है)। फिर भी आप फ़ोन का वॉइस कीबोर्ड फ़्रेंच पर सेट करके इस्तेमाल कर सकते हैं: वाक्यांश के नीचे वाले बॉक्स पर टैप करें, बोलें, फिर “उत्तर जाँचें” दबाएँ।" }} />}
-        {sr && <Bi className="text-xs text-muted" t={{ en: "The browser's recognizer sends your audio to its own service (Google for Chrome, Microsoft for Edge) to turn it into text. French Setu only stores the text.", hi: "ब्राउज़र आपकी आवाज़ को लिखित रूप में बदलने के लिए उसे अपनी सेवा (Chrome के लिए Google, Edge के लिए Microsoft) पर भेजता है। French Setu सिर्फ़ लिखा हुआ पाठ रखता है।" }} />}
+        {sr && providers.stt.server && <Bi className="text-xs text-muted" t={{ en: "Your recording is sent to the server to be turned into text, then deleted. French Setu only stores the text.", hi: "आपकी रिकॉर्डिंग लिखित रूप में बदलने के लिए सर्वर पर भेजी जाती है, फिर मिटा दी जाती है। French Setu सिर्फ़ लिखा हुआ पाठ रखता है।" }} />}
+        {sr && !providers.stt.server && <Bi className="text-xs text-muted" t={{ en: "The browser's recognizer sends your audio to its own service (Google for Chrome, Microsoft for Edge) to turn it into text. French Setu only stores the text.", hi: "ब्राउज़र आपकी आवाज़ को लिखित रूप में बदलने के लिए उसे अपनी सेवा (Chrome के लिए Google, Edge के लिए Microsoft) पर भेजता है। French Setu सिर्फ़ लिखा हुआ पाठ रखता है।" }} />}
       </div>
       <div className="flex flex-wrap items-end gap-3">
         <label className="text-sm font-medium">{label({ en: "Phrases from", hi: "वाक्यांश कहाँ से" })}
