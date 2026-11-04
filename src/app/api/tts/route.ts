@@ -8,7 +8,10 @@ import { ttsProvider } from "@/server/providers/config";
 // Two women's and two men's voices per provider; "narrator" uses the first.
 const AZURE_VOICES: Record<string, string> = { f1: "fr-CA-SylvieNeural", f2: "fr-FR-DeniseNeural", m1: "fr-CA-JeanNeural", m2: "fr-FR-HenriNeural", narrator: "fr-CA-SylvieNeural" };
 const OPENAI_VOICES: Record<string, string> = { f1: "nova", f2: "shimmer", m1: "onyx", m2: "echo", narrator: "alloy" };
-const esc = (s: string) => s.replace(/[<>&'"]/g, (c) => ({ "<": "&lt;", ">": "&gt;", "&": "&amp;", "'": "&apos;", '"': "&quot;" })[c]!);
+// ElevenLabs French voices routed through Speko. The narrator can be swapped for a cloned voice with SPEKO_NARRATOR_VOICE_ID.
+const SPEKO_VOICES: Record<string, string> = { f1: "sQfOhaIRbFZ7R8bP1x9f", f2: "w85ZODduJOHPSdpVT1ia", m1: "IbTlccXlWxGVwnbGUHEd", m2: "jvSOBXJ1cP2sdvT5RgUP", narrator: "sQfOhaIRbFZ7R8bP1x9f" };
+const spekoVoice = (voice: string) => (voice === "narrator" && process.env.SPEKO_NARRATOR_VOICE_ID?.trim()) || SPEKO_VOICES[voice];
+const esc =(s: string) => s.replace(/[<>&'"]/g, (c) => ({ "<": "&lt;", ">": "&gt;", "&": "&amp;", "'": "&apos;", '"': "&quot;" })[c]!);
 
 /** Server text-to-speech, cached by (provider, voice, speed, text). Only used when a TTS provider is configured. */
 export const GET = authed(async ({ req }) => {
@@ -20,7 +23,8 @@ export const GET = authed(async ({ req }) => {
   const voice = u.searchParams.get("voice") ?? "narrator";
   if (!(voice in AZURE_VOICES)) throw new HttpError(400, "Unknown voice");
   const slow = u.searchParams.get("slow") === "1";
-  const key = createHash("sha256").update(JSON.stringify([provider, voice, slow, text])).digest("hex");
+  const voiceId = provider === "speko" ? spekoVoice(voice) : voice;
+  const key = createHash("sha256").update(JSON.stringify([provider, voiceId, slow, text])).digest("hex");
   const db = await getDb();
   const [hit] = await db.select().from(ttsCache).where(eq(ttsCache.key, key));
   if (hit) return new Response(new Uint8Array(hit.audio), { headers: { "content-type": hit.mime, "cache-control": "private, max-age=86400" } });
@@ -29,7 +33,20 @@ export const GET = authed(async ({ req }) => {
   const timer = setTimeout(() => ctrl.abort(), 20_000);
   let audio: Buffer, mime: string;
   try {
-    if (provider === "azure") {
+    if (provider === "speko") {
+      const r = await fetch(`${process.env.SPEKO_BASE_URL?.trim() || "https://api.speko.dev"}/v1/synthesize`, {
+        method: "POST", signal: ctrl.signal,
+        headers: { authorization: `Bearer ${process.env.SPEKO_API_KEY!.trim()}`, "content-type": "application/json" },
+        body: JSON.stringify({
+          text, intent: { language: "fr" }, voice: voiceId,
+          model: process.env.SPEKO_TTS_MODEL?.trim() || "eleven_multilingual_v2",
+          ...(slow && { speed: 0.75 }),
+          constraints: { allowedProviders: { tts: ["elevenlabs"] } },
+        }),
+      });
+      if (!r.ok) throw new HttpError(502, `Speech service error (${r.status}).`);
+      audio = Buffer.from(await r.arrayBuffer()); mime = r.headers.get("content-type") || "audio/mpeg";
+    } else if (provider === "azure") {
       const ssml = `<speak version="1.0" xml:lang="fr-CA"><voice name="${AZURE_VOICES[voice]}"><prosody rate="${slow ? "-30%" : "0%"}">${esc(text)}</prosody></voice></speak>`;
       const r = await fetch(`https://${process.env.AZURE_SPEECH_REGION}.tts.speech.microsoft.com/cognitiveservices/v1`, {
         method: "POST", body: ssml, signal: ctrl.signal,

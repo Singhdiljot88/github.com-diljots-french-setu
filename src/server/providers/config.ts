@@ -11,9 +11,10 @@ export function aiProvider(): "anthropic" | "openai" | "demo" {
   return "demo";
 }
 
-export function ttsProvider(): "openai" | "azure" | "device" {
+export function ttsProvider(): "speko" | "openai" | "azure" | "device" {
   const p = env("TTS_PROVIDER");
   if (p === "device") return "device";
+  if ((p === "speko" || !p) && env("SPEKO_API_KEY")) return "speko";
   if ((p === "azure" || !p) && env("AZURE_SPEECH_KEY") && env("AZURE_SPEECH_REGION")) return "azure";
   if ((p === "openai" || !p) && env("OPENAI_API_KEY") && p === "openai") return "openai";
   return "device";
@@ -39,13 +40,13 @@ export function searchProvider(): "brave" | "tavily" | "none" {
   return "none";
 }
 
-const NAMES = { anthropic: "Claude (Anthropic)", openai: "OpenAI", demo: "Demo mode", azure: "Azure AI Speech", device: "device voice", browser: "browser speech recognition", none: "not configured", brave: "Brave Search", tavily: "Tavily" } as const;
+const NAMES = { speko: "Speko", anthropic: "Claude (Anthropic)", openai: "OpenAI", demo: "Demo mode", azure: "Azure AI Speech", device: "device voice", browser: "browser speech recognition", none: "not configured", brave: "Brave Search", tavily: "Tavily" } as const;
 
 export function providerStatus(): ProviderStatus {
   const ai = aiProvider(), tts = ttsProvider(), stt = sttProvider(), pr = pronunciationProvider(), se = searchProvider();
   return {
     ai: { available: ai !== "demo", name: NAMES[ai] },
-    tts: { server: tts !== "device", name: tts === "openai" ? "OpenAI TTS" : NAMES[tts] },
+    tts: { server: tts !== "device", name: tts === "openai" ? "OpenAI TTS" : tts === "speko" && env("SPEKO_NARRATOR_VOICE_ID") ? "Speko, narrator in a cloned voice" : NAMES[tts] },
     stt: { server: stt !== "browser", name: stt === "openai" ? "OpenAI transcription" : NAMES[stt] },
     pronunciation: { available: pr !== "none", name: NAMES[pr] },
     search: { available: se !== "none", name: NAMES[se] },
