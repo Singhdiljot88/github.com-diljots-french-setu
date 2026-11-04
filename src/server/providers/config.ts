@@ -3,11 +3,12 @@ import type { ProviderStatus } from "@/components/prefs";
 
 const env = (k: string) => process.env[k]?.trim() || undefined;
 
-export function aiProvider(): "anthropic" | "openai" | "demo" {
+export function aiProvider(): "anthropic" | "openai" | "speko" | "demo" {
   const p = env("AI_PROVIDER");
   if (p === "demo") return "demo";
   if ((p === "anthropic" || !p) && env("ANTHROPIC_API_KEY")) return "anthropic";
   if ((p === "openai" || !p) && env("OPENAI_API_KEY")) return "openai";
+  if ((p === "speko" || !p) && env("SPEKO_API_KEY")) return "speko";
   return "demo";
 }
 
@@ -20,9 +21,10 @@ export function ttsProvider(): "speko" | "openai" | "azure" | "device" {
   return "device";
 }
 
-export function sttProvider(): "openai" | "azure" | "browser" {
+export function sttProvider(): "speko" | "openai" | "azure" | "browser" {
   const p = env("STT_PROVIDER");
   if (p === "browser") return "browser";
+  if ((p === "speko" || !p) && env("SPEKO_API_KEY")) return "speko";
   if ((p === "openai" || !p) && env("OPENAI_API_KEY")) return "openai";
   if ((p === "azure" || !p) && env("AZURE_SPEECH_KEY") && env("AZURE_SPEECH_REGION")) return "azure";
   return "browser";
@@ -45,9 +47,9 @@ const NAMES = { speko: "Speko", anthropic: "Claude (Anthropic)", openai: "OpenAI
 export function providerStatus(): ProviderStatus {
   const ai = aiProvider(), tts = ttsProvider(), stt = sttProvider(), pr = pronunciationProvider(), se = searchProvider();
   return {
-    ai: { available: ai !== "demo", name: NAMES[ai] },
+    ai: { available: ai !== "demo", name: ai === "speko" ? "Claude via Speko" : NAMES[ai] },
     tts: { server: tts !== "device", name: tts === "openai" ? "OpenAI TTS" : tts === "speko" && env("SPEKO_NARRATOR_VOICE_ID") ? "Speko, narrator in a cloned voice" : NAMES[tts] },
-    stt: { server: stt !== "browser", name: stt === "openai" ? "OpenAI transcription" : NAMES[stt] },
+    stt: { server: stt !== "browser", name: stt === "openai" ? "OpenAI transcription" : stt === "speko" ? "Speko speech recognition" : NAMES[stt] },
     pronunciation: { available: pr !== "none", name: NAMES[pr] },
     search: { available: se !== "none", name: NAMES[se] },
   };

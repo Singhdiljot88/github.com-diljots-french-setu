@@ -6,6 +6,7 @@ import { z, type ZodType } from "zod";
 import { getDb } from "@/db";
 import { aiCache, aiUsage } from "@/db/schema";
 import { aiProvider } from "../providers/config";
+import { speko, spekoLlm } from "../providers/speko";
 import { HttpError } from "../http";
 
 /**
@@ -14,7 +15,7 @@ import { HttpError } from "../http";
  * the browser and API keys never leave the server.
  */
 
-export type AiFeature = "writing_feedback" | "speaking_turn" | "speaking_feedback" | "web_lesson";
+export type AiFeature = "writing_feedback" | "speaking_turn" | "speaking_feedback" | "web_lesson" | "hindi_bridge";
 
 export class AiUnavailable extends Error {}
 
@@ -22,7 +23,9 @@ const DAILY_LIMIT = Number(process.env.AI_DAILY_LIMIT_PER_USER || 60);
 const TIMEOUT_MS = Number(process.env.AI_TIMEOUT_MS || 60_000);
 
 export function aiModel() {
-  return process.env.AI_MODEL?.trim() || (aiProvider() === "openai" ? "gpt-4.1-mini" : "claude-opus-5-5");
+  const p = aiProvider();
+  if (p === "speko") return spekoLlm();
+  return process.env.AI_MODEL?.trim() || (p === "openai" ? "gpt-4.1-mini" : "claude-opus-5-5");
 }
 
 /** Wrap text the learner or a web page supplied so the model treats it as data, not instructions. */
@@ -138,6 +141,49 @@ async function callOpenAI(o: { system: string; prompt: string; jsonSchema: Recor
 }
 
 /**
+ * Speko's /v1/complete has no JSON-schema response format, so the schema is sent as the
+ * parameters of one tool the model is required to call; its arguments are the answer.
+ */
+async function callSpeko(o: { system: string; prompt: string; jsonSchema: Record<string, unknown>; maxTokens: number; effort: "low" | "medium" }) {
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
+  try {
+    for (let attempt = 0; ; attempt++) {
+      try {
+        const res = await speko().complete({
+          messages: [{ role: "user", content: o.prompt }],
+          systemPrompt: o.system,
+          intent: { language: "fr", optimizeFor: "accuracy" },
+          maxTokens: o.maxTokens,
+          temperature: 0.3,
+          constraints: { allowedProviders: { llm: [spekoLlm()] } },
+          tools: [{ name: "submit_result", description: "Submit the complete answer. Always call this exactly once.", parameters: o.jsonSchema }],
+          toolChoice: { type: "function", function: { name: "submit_result" } },
+        }, ctrl.signal);
+        const call = res.toolCalls?.find((c) => c.name === "submit_result");
+        if (call) return JSON.parse(call.args) as unknown;
+        // Some models answer with plain JSON text instead of calling the tool.
+        const m = /\{[\s\S]*\}/.exec(res.text ?? "");
+        if (m) return JSON.parse(m[0]) as unknown;
+        throw new AiUnavailable("The AI did not return an answer. Please try again.");
+      } catch (e) {
+        if (e instanceof AiUnavailable || e instanceof SyntaxError || (e as Error).name === "AbortError") throw e;
+        const status = (e as { status?: number }).status ?? 0;
+        if ((status === 429 || status >= 500 || status === 0) && attempt < 2) { await new Promise((s) => setTimeout(s, 1000 * 2 ** attempt)); continue; }
+        if (status === 401 || status === 403) throw new AiUnavailable("The Speko key on the server is invalid. Check SPEKO_API_KEY.");
+        if (status === 402) throw new AiUnavailable("The Speko account is out of credit. Top it up at speko.ai to use AI features again.");
+        throw new AiUnavailable(`The AI service returned an error (${status || "network"}).`);
+      }
+    }
+  } catch (e) {
+    if (e instanceof AiUnavailable) throw e;
+    if ((e as Error).name === "AbortError") throw new AiUnavailable("The AI service took too long to answer. Please try again.");
+    if (e instanceof SyntaxError) throw new AiUnavailable("The AI returned a malformed answer.");
+    throw new AiUnavailable("Could not reach the AI service.");
+  } finally { clearTimeout(t); }
+}
+
+/**
  * Ask the configured model for JSON matching `schema`. Results are validated with zod, cached by
  * input hash when `cache` is set, counted against a per-user daily limit, and never invented:
  * if no provider is configured this throws AiUnavailable and callers show their labelled demo path.
@@ -159,7 +205,7 @@ export async function generateJson<T>(feature: AiFeature, userId: string, o: { s
   const args = { system: o.system, prompt: o.prompt, jsonSchema, maxTokens: o.maxTokens ?? 8000, effort: o.effort ?? "low" };
   let ok = false;
   try {
-    const raw = provider === "anthropic" ? await callAnthropic(args) : await callOpenAI(args);
+    const raw = provider === "anthropic" ? await callAnthropic(args) : provider === "speko" ? await callSpeko(args) : await callOpenAI(args);
     const parsed = o.schema.safeParse(dropNulls(raw));
     if (!parsed.success) throw new AiUnavailable("The AI answer did not match the expected format, so it was discarded.");
     ok = true;

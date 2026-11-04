@@ -8,6 +8,7 @@ import { usePrefs } from "./prefs";
 const GROUPS: { title: { en: string; hi: string }; items: { href: string; label: string; hi: string; icon: string }[] }[] = [
   { title: { en: "Learn", hi: "सीखें" }, items: [
     { href: "/today", label: "Today", hi: "आज", icon: "☀️" },
+    { href: "/hindi", label: "Hindi → French", hi: "हिंदी से फ़्रेंच", icon: "🔤" },
     { href: "/course", label: "Course map", hi: "पाठ्यक्रम", icon: "🗺️" },
     { href: "/review", label: "Review", hi: "दोहराव", icon: "🔁" },
     { href: "/dictionary", label: "Dictionary", hi: "शब्दकोश", icon: "📖" },

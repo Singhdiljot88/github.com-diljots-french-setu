@@ -1,5 +1,6 @@
 import { authed, HttpError } from "@/server/http";
 import { sttProvider } from "@/server/providers/config";
+import { speko } from "@/server/providers/speko";
 
 const MAX_BYTES = 4_000_000;
 
@@ -14,6 +15,12 @@ export const POST = authed(async ({ req }) => {
   const ctrl = new AbortController();
   const t = setTimeout(() => ctrl.abort(), 30_000);
   try {
+    if (provider === "speko") {
+      // lang=hi lets the Hindi → French helper take spoken Hindi/Hinglish; everything else is French.
+      const lang = new URL(req.url).searchParams.get("lang") === "hi" ? "hi" : "fr";
+      const r = await speko().transcribe(new Uint8Array(await audio.arrayBuffer()), { language: lang, contentType: audio.type || "audio/webm" }, ctrl.signal);
+      return { text: r.text ?? "", provider: "speko" };
+    }
     if (provider === "openai") {
       const out = new FormData();
       out.append("file", audio, "speech.webm");
