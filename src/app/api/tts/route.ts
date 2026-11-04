@@ -11,7 +11,15 @@ const OPENAI_VOICES: Record<string, string> = { f1: "nova", f2: "shimmer", m1: "
 // ElevenLabs French voices routed through Speko. The narrator can be swapped for a cloned voice with SPEKO_NARRATOR_VOICE_ID.
 const SPEKO_VOICES: Record<string, string> = { f1: "sQfOhaIRbFZ7R8bP1x9f", f2: "w85ZODduJOHPSdpVT1ia", m1: "IbTlccXlWxGVwnbGUHEd", m2: "jvSOBXJ1cP2sdvT5RgUP", narrator: "sQfOhaIRbFZ7R8bP1x9f" };
 const spekoVoice = (voice: string) => (voice === "narrator" && process.env.SPEKO_NARRATOR_VOICE_ID?.trim()) || SPEKO_VOICES[voice];
-const esc =(s: string) => s.replace(/[<>&'"]/g, (c) => ({ "<": "&lt;", ">": "&gt;", "&": "&amp;", "'": "&apos;", '"': "&quot;" })[c]!);
+function pcmToWav(pcm: Buffer, rate: number): Buffer {
+  const h = Buffer.alloc(44);
+  h.write("RIFF", 0); h.writeUInt32LE(36 + pcm.length, 4); h.write("WAVE", 8);
+  h.write("fmt ", 12); h.writeUInt32LE(16, 16); h.writeUInt16LE(1, 20); h.writeUInt16LE(1, 22);
+  h.writeUInt32LE(rate, 24); h.writeUInt32LE(rate * 2, 28); h.writeUInt16LE(2, 32); h.writeUInt16LE(16, 34);
+  h.write("data", 36); h.writeUInt32LE(pcm.length, 40);
+  return Buffer.concat([h, pcm]);
+}
+const esc = (s: string) => s.replace(/[<>&'"]/g, (c) => ({ "<": "&lt;", ">": "&gt;", "&": "&amp;", "'": "&apos;", '"': "&quot;" })[c]!);
 
 /** Server text-to-speech, cached by (provider, voice, speed, text). Only used when a TTS provider is configured. */
 export const GET = authed(async ({ req }) => {
@@ -46,6 +54,12 @@ export const GET = authed(async ({ req }) => {
       });
       if (!r.ok) throw new HttpError(502, `Speech service error (${r.status}).`);
       audio = Buffer.from(await r.arrayBuffer()); mime = r.headers.get("content-type") || "audio/mpeg";
+      // Some providers return raw 16-bit mono PCM, which browsers cannot play: wrap it in a WAV header.
+      const pcm = /^audio\/(pcm|l16)/i.exec(mime);
+      if (pcm) {
+        audio = pcmToWav(audio, Number(/rate=(\d+)/i.exec(mime)?.[1]) || 24000);
+        mime = "audio/wav";
+      }
     } else if (provider === "azure") {
       const ssml = `<speak version="1.0" xml:lang="fr-CA"><voice name="${AZURE_VOICES[voice]}"><prosody rate="${slow ? "-30%" : "0%"}">${esc(text)}</prosody></voice></speak>`;
       const r = await fetch(`https://${process.env.AZURE_SPEECH_REGION}.tts.speech.microsoft.com/cognitiveservices/v1`, {
