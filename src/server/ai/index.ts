@@ -15,7 +15,7 @@ import { HttpError } from "../http";
  * the browser and API keys never leave the server.
  */
 
-export type AiFeature = "writing_feedback" | "speaking_turn" | "speaking_feedback" | "web_lesson" | "hindi_bridge";
+export type AiFeature = "writing_feedback" | "speaking_turn" | "speaking_feedback" | "web_lesson" | "hindi_bridge" | "lesson_tutor";
 
 export class AiUnavailable extends Error {}
 

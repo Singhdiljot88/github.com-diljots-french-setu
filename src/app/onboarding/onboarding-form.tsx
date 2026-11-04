@@ -75,7 +75,7 @@ export function OnboardingForm({ defaultTz, today }: { defaultTz: string; today:
   };
 
   const radio = (name: string, value: string, checked: boolean, onChange: () => void, label: React.ReactNode, hint?: React.ReactNode) => (
-    <label className={`flex cursor-pointer gap-3 rounded-xl border p-3 ${checked ? "border-brand-500 bg-brand-50 dark:bg-brand-900/40" : "border-app"}`}>
+    <label key={`${name}:${value}`} className={`flex cursor-pointer gap-3 rounded-xl border p-3 ${checked ? "border-brand-500 bg-brand-50 dark:bg-brand-900/40" : "border-app"}`}>
       <input type="radio" name={name} value={value} checked={checked} onChange={onChange} className="mt-1" />
       <span><span className="font-medium">{label}</span>{hint && <span className="block text-sm text-muted">{hint}</span>}</span>
     </label>

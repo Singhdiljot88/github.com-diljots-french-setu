@@ -1,4 +1,5 @@
 "use client";
+import { AskTutor } from "./ask-tutor";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import type { ClientLesson } from "@/server/lesson-view";
@@ -140,6 +141,8 @@ export function LessonPlayer({ lesson: d, activities: initial, minutes, share, r
       <Section hidden={!shown("assessment")} id="assessment" minutes={minutes.assessment} done={done.assessment} onDone={() => mark("assessment")} requireNote={{ en: "Submit the check first.", hi: "पहले जाँच के उत्तर जमा करें।" }}>
         <AssessmentBlock d={d} onSubmitted={() => !done.assessment && mark("assessment")} />
       </Section>
+
+      <AskTutor day={d.day} />
 
       {completed && (
         <div className="card border-brand-500 bg-brand-50 text-center dark:bg-brand-900/30" role="status">
