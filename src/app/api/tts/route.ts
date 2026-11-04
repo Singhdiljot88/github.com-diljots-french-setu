@@ -35,7 +35,11 @@ export const GET = authed(async ({ req }) => {
   const key = createHash("sha256").update(JSON.stringify([provider, voiceId, slow, text])).digest("hex");
   const db = await getDb();
   const [hit] = await db.select().from(ttsCache).where(eq(ttsCache.key, key));
-  if (hit) return new Response(new Uint8Array(hit.audio), { headers: { "content-type": hit.mime, "cache-control": "private, max-age=86400" } });
+  if (hit) {
+    const raw = /^audio\/(pcm|l16)/i.test(hit.mime);
+    const body = raw ? pcmToWav(Buffer.from(hit.audio), Number(/rate=(\d+)/i.exec(hit.mime)?.[1]) || 24000) : hit.audio;
+    return new Response(new Uint8Array(body), { headers: { "content-type": raw ? "audio/wav" : hit.mime, "cache-control": "private, max-age=86400" } });
+  }
 
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), 20_000);
