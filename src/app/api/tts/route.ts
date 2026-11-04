@@ -11,6 +11,21 @@ const OPENAI_VOICES: Record<string, string> = { f1: "nova", f2: "shimmer", m1: "
 // ElevenLabs French voices routed through Speko. The narrator can be swapped for a cloned voice with SPEKO_NARRATOR_VOICE_ID.
 const SPEKO_VOICES: Record<string, string> = { f1: "sQfOhaIRbFZ7R8bP1x9f", f2: "w85ZODduJOHPSdpVT1ia", m1: "IbTlccXlWxGVwnbGUHEd", m2: "jvSOBXJ1cP2sdvT5RgUP", narrator: "sQfOhaIRbFZ7R8bP1x9f" };
 const spekoVoice = (voice: string) => (voice === "narrator" && process.env.SPEKO_NARRATOR_VOICE_ID?.trim()) || SPEKO_VOICES[voice];
+/** Safari plays <audio> only from servers that answer Range requests with 206, so honour a single byte range. */
+function audioResponse(req: Request, bytes: Uint8Array, mime: string): Response {
+  const headers: Record<string, string> = { "content-type": mime, "cache-control": "private, max-age=86400", "accept-ranges": "bytes" };
+  const m = /^bytes=(\d*)-(\d*)$/.exec(req.headers.get("range") ?? "");
+  const size = bytes.length;
+  if (m && (m[1] || m[2])) {
+    const start = m[1] ? Number(m[1]) : Math.max(0, size - Number(m[2]));
+    const end = m[1] && m[2] ? Math.min(Number(m[2]), size - 1) : size - 1;
+    if (start >= size || start > end) return new Response(null, { status: 416, headers: { ...headers, "content-range": `bytes */${size}` } });
+    const part = new Uint8Array(bytes.subarray(start, end + 1));
+    return new Response(part, { status: 206, headers: { ...headers, "content-range": `bytes ${start}-${end}/${size}`, "content-length": String(part.length) } });
+  }
+  return new Response(new Uint8Array(bytes), { headers: { ...headers, "content-length": String(size) } });
+}
+
 function pcmToWav(pcm: Buffer, rate: number): Buffer {
   const h = Buffer.alloc(44);
   h.write("RIFF", 0); h.writeUInt32LE(36 + pcm.length, 4); h.write("WAVE", 8);
@@ -38,7 +53,7 @@ export const GET = authed(async ({ req }) => {
   if (hit) {
     const raw = /^audio\/(pcm|l16)/i.test(hit.mime);
     const body = raw ? pcmToWav(Buffer.from(hit.audio), Number(/rate=(\d+)/i.exec(hit.mime)?.[1]) || 24000) : hit.audio;
-    return new Response(new Uint8Array(body), { headers: { "content-type": raw ? "audio/wav" : hit.mime, "cache-control": "private, max-age=86400" } });
+    return audioResponse(req, new Uint8Array(body), raw ? "audio/wav" : hit.mime);
   }
 
   const ctrl = new AbortController();
@@ -86,5 +101,5 @@ export const GET = authed(async ({ req }) => {
     throw new HttpError(502, (e as Error).name === "AbortError" ? "Speech service timed out." : "Could not reach the speech service.");
   } finally { clearTimeout(timer); }
   await db.insert(ttsCache).values({ key, provider, mime, audio }).onConflictDoNothing();
-  return new Response(new Uint8Array(audio), { headers: { "content-type": mime, "cache-control": "private, max-age=86400" } });
+  return audioResponse(req, new Uint8Array(audio), mime);
 });
