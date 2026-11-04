@@ -56,7 +56,7 @@ async function speakOne(engine: EngineState, line: AudioLine, slow: boolean, voi
   if (signal.cancelled) return;
   const voice = line.voice ?? "narrator";
   if (engine.kind === "server") {
-    const url = `/api/tts?${new URLSearchParams({ text: line.text, voice, slow: slow ? "1" : "0" })}`;
+    const url = `/api/tts?${new URLSearchParams({ text: line.text, voice, slow: slow ? "1" : "0", v: "2" })}`;
     const ok = await new Promise<boolean>((resolve) => {
       const a = new Audio(url);
       currentAudio = a;
