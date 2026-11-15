@@ -6,6 +6,7 @@ import { loadPronunciationFromDisk } from "@/content/load";
 import { PronunciationLab, type ShadowLine } from "@/components/pronunciation-lab";
 import type { SayItem } from "@/components/say-it";
 import { Bi } from "@/components/bi";
+import { PAIR_PRONS } from "@/lib/pair-prons";
 
 export const metadata = { title: "Pronunciation lab" };
 export const dynamic = "force-dynamic";
@@ -27,6 +28,8 @@ export default async function PronunciationPage({ searchParams }: { searchParams
   for (const { day } of [...(await allLessons()).values()].filter((l) => l.day.day <= Math.max(st.todayDay, 1))) {
     for (const p of [...day.phrases, ...day.vocabulary]) say.push({ day: day.day, fr: p.fr, en: p.en, hi: p.hi, pron: p.pron });
   }
+  // Devanagari guides for the minimal-pair words (hand-written: a dictionary lookup can't apply liaison).
+  const pairProns = PAIR_PRONS;
   const sp = await searchParams;
   return (
     <div className="space-y-4">
@@ -34,7 +37,7 @@ export default async function PronunciationPage({ searchParams }: { searchParams
         <h1 className="text-2xl font-bold"><Bi as="span" t={{ en: "Pronunciation lab", hi: "उच्चारण लैब" }} /></h1>
         <Bi className="text-muted" t={{ en: "The sounds of French explained for Hindi and English speakers. Listen, record yourself, and compare by ear.", hi: "हिंदी और अंग्रेज़ी बोलने वालों के लिए फ़्रेंच की ध्वनियाँ, समझाकर। सुनें, अपनी आवाज़ रिकॉर्ड करें, और कान से तुलना करें।" }} />
       </header>
-      <PronunciationLab content={content} shadow={lines} say={say} today={st.todayDay} initialSound={sp.sound} initialTab={sp.tab} />
+      <PronunciationLab content={content} pairProns={pairProns} shadow={lines} say={say} today={st.todayDay} initialSound={sp.sound} initialTab={sp.tab} />
     </div>
   );
 }

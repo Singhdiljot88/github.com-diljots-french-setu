@@ -66,6 +66,61 @@ function dropNulls(v: unknown): unknown {
   return v;
 }
 
+/** Short, readable list of validation problems (paths and codes only, no learner text). */
+export function describeIssues(err: z.ZodError): string {
+  return err.issues.slice(0, 8).map((i) => `${i.path.join(".") || "(root)"}: ${i.code}${"expected" in i ? ` (expected ${String(i.expected)})` : ""}`).join("; ");
+}
+
+const tryJson = (s: string): unknown => { try { return JSON.parse(s); } catch { return undefined; } };
+
+/** Strings that are really JSON objects or arrays (models sometimes double-encode nested fields). */
+function decodeNested(v: unknown): unknown {
+  if (typeof v === "string") {
+    const t = v.trim();
+    if ((t.startsWith("{") && t.endsWith("}")) || (t.startsWith("[") && t.endsWith("]"))) { const j = tryJson(t); if (j && typeof j === "object") return decodeNested(j); }
+    return v;
+  }
+  if (Array.isArray(v)) return v.map(decodeNested);
+  if (v && typeof v === "object") return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, decodeNested(x)]));
+  return v;
+}
+
+function getAt(root: unknown, path: PropertyKey[]): unknown { return path.reduce<unknown>((o, k) => (o && typeof o === "object" ? (o as Record<PropertyKey, unknown>)[k] : undefined), root); }
+function setAt(root: unknown, path: PropertyKey[], value: unknown) {
+  if (!path.length) return;
+  const parent = getAt(root, path.slice(0, -1));
+  if (parent && typeof parent === "object") (parent as Record<PropertyKey, unknown>)[path[path.length - 1]] = value;
+}
+
+/**
+ * Validates an AI answer, first fixing the harmless ways real models miss a schema: a JSON string
+ * instead of an object, the answer wrapped in one extra key, nested fields double-encoded, nulls
+ * for optional fields, and texts or lists slightly over their length limits (trimmed, not rejected).
+ * Wrong types or missing fields still fail, so nothing is invented.
+ */
+export function coerceToSchema<T>(schema: ZodType<T>, raw: unknown): z.ZodSafeParseResult<T> {
+  let v: unknown = typeof raw === "string" ? tryJson(raw) ?? raw : raw;
+  v = dropNulls(decodeNested(v));
+  let r = schema.safeParse(v);
+  if (!r.success && v && typeof v === "object" && !Array.isArray(v)) {
+    const vals = Object.values(v);
+    if (vals.length === 1 && vals[0] && typeof vals[0] === "object") { const inner = schema.safeParse(vals[0]); if (inner.success) return inner; v = vals[0]; r = inner; }
+  }
+  for (let round = 0; round < 3 && !r.success; round++) {
+    let fixed = false;
+    for (const i of r.error.issues) {
+      if (i.code !== "too_big") continue;
+      const cur = getAt(v, i.path);
+      const max = Number((i as { maximum?: number | bigint }).maximum);
+      if (typeof cur === "string" && Number.isFinite(max)) { setAt(v, i.path, cur.slice(0, max).trimEnd()); fixed = true; }
+      else if (Array.isArray(cur) && Number.isFinite(max)) { setAt(v, i.path, cur.slice(0, max)); fixed = true; }
+    }
+    if (!fixed) break;
+    r = schema.safeParse(v);
+  }
+  return r;
+}
+
 async function checkQuota(userId: string) {
   const db = await getDb();
   const since = new Date(Date.now() - 24 * 3600_000);
@@ -161,7 +216,8 @@ async function callSpeko(o: { system: string; prompt: string; jsonSchema: Record
           toolChoice: { type: "function", function: { name: "submit_result" } },
         }, ctrl.signal);
         const call = res.toolCalls?.find((c) => c.name === "submit_result");
-        if (call) return JSON.parse(call.args) as unknown;
+        // A cut-off or slightly broken argument string is passed on as text: validation then asks for a repair.
+        if (call) return tryJson(call.args) ?? call.args;
         // Some models answer with plain JSON text instead of calling the tool.
         const m = /\{[\s\S]*\}/.exec(res.text ?? "");
         if (m) return JSON.parse(m[0]) as unknown;
@@ -205,9 +261,18 @@ export async function generateJson<T>(feature: AiFeature, userId: string, o: { s
   const args = { system: o.system, prompt: o.prompt, jsonSchema, maxTokens: o.maxTokens ?? 8000, effort: o.effort ?? "low" };
   let ok = false;
   try {
-    const raw = provider === "anthropic" ? await callAnthropic(args) : provider === "speko" ? await callSpeko(args) : await callOpenAI(args);
-    const parsed = o.schema.safeParse(dropNulls(raw));
-    if (!parsed.success) throw new AiUnavailable("The AI answer did not match the expected format, so it was discarded.");
+    const call = (a: typeof args) => (provider === "anthropic" ? callAnthropic(a) : provider === "speko" ? callSpeko(a) : callOpenAI(a));
+    let parsed = coerceToSchema(o.schema, await call(args));
+    if (!parsed.success) {
+      // One repair round: tell the model exactly what was wrong and ask for the corrected JSON.
+      console.warn(`[ai] ${feature}: answer failed validation, asking for a repair`, describeIssues(parsed.error));
+      const repair = { ...args, prompt: `${o.prompt}\n\nYour previous answer did not match the required JSON format. Problems: ${describeIssues(parsed.error)}. Answer again with every required field filled in, keeping texts short.` };
+      parsed = coerceToSchema(o.schema, await call(repair));
+    }
+    if (!parsed.success) {
+      console.warn(`[ai] ${feature}: answer discarded after repair`, describeIssues(parsed.error));
+      throw new AiUnavailable("The AI answer did not match the expected format, so it was discarded. Please try again.");
+    }
     ok = true;
     if (o.cache) await db.insert(aiCache).values({ key, value: parsed.data as object }).onConflictDoUpdate({ target: aiCache.key, set: { value: parsed.data as object, createdAt: new Date() } });
     return { data: parsed.data, provider, model, cached: false };

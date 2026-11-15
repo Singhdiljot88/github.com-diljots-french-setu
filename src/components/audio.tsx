@@ -11,8 +11,10 @@ const SLOW_RATE = 0.7;
 /** Picks French voices available on this device. */
 function frenchVoices(): SpeechSynthesisVoice[] {
   if (typeof window === "undefined" || !("speechSynthesis" in window)) return [];
-  const all = window.speechSynthesis.getVoices().filter((v) => v.lang?.toLowerCase().startsWith("fr"));
-  const score = (v: SpeechSynthesisVoice) => (v.lang === "fr-FR" ? 0 : v.lang === "fr-CA" ? 1 : 2) + (v.localService ? 0 : 0.5) - (/natural|neural|premium|enhanced|google/i.test(v.name) ? 1 : 0);
+  // Android Chrome reports some voices as "fr_FR", so normalise the separator before comparing.
+  const lang = (v: SpeechSynthesisVoice) => (v.lang ?? "").replace("_", "-").toLowerCase();
+  const all = window.speechSynthesis.getVoices().filter((v) => lang(v).startsWith("fr"));
+  const score = (v: SpeechSynthesisVoice) => (lang(v) === "fr-fr" ? 0 : lang(v) === "fr-ca" ? 1 : 2) + (v.localService ? 0 : 0.5) - (/natural|neural|premium|enhanced|google/i.test(v.name) ? 1 : 0);
   return all.sort((a, b) => score(a) - score(b));
 }
 
@@ -37,6 +39,33 @@ export function useAudioEngine(): EngineState {
 }
 
 let currentAudio: HTMLAudioElement | null = null;
+/** Called when playback is cut short, so a waiting play() promise always settles. */
+let settleCurrent: (() => void) | null = null;
+
+/**
+ * Phones (iOS Safari above all) only allow sound that starts inside a tap. Audio that starts later,
+ * after a fetch or a React effect, is blocked. So on the first tap anywhere we "unlock" both engines:
+ * one shared <audio> element that is reused for every server clip, and speechSynthesis.
+ */
+let sharedAudio: HTMLAudioElement | null = null;
+let unlocked = false;
+const SILENT_WAV = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=";
+function unlockAudio() {
+  if (unlocked || typeof window === "undefined") return;
+  unlocked = true;
+  try {
+    sharedAudio ??= new Audio();
+    sharedAudio.src = SILENT_WAV;
+    sharedAudio.play().catch(() => { /* still unlocked enough for most browsers */ });
+  } catch { /* no audio element support */ }
+  try {
+    if ("speechSynthesis" in window) { const u = new SpeechSynthesisUtterance(""); u.volume = 0; window.speechSynthesis.speak(u); }
+  } catch { /* no speech synthesis */ }
+}
+if (typeof window !== "undefined") {
+  for (const ev of ["pointerdown", "keydown", "touchend"] as const) window.addEventListener(ev, unlockAudio, { once: true, capture: true, passive: true });
+}
+function audioElement(): HTMLAudioElement { return (sharedAudio ??= new Audio()); }
 
 const ERR = {
   serverAndDevice: { en: "The server voice failed and this device has no French voice.", hi: "सर्वर की आवाज़ नहीं चल पाई और इस डिवाइस पर कोई फ़्रेंच आवाज़ नहीं है।" },
@@ -50,6 +79,7 @@ const errorBi = (en: string) => ({ en, hi: Object.values(ERR).find((e) => e.en =
 export function stopAll() {
   if (typeof window !== "undefined" && "speechSynthesis" in window) window.speechSynthesis.cancel();
   if (currentAudio) { currentAudio.pause(); currentAudio = null; }
+  const s = settleCurrent; settleCurrent = null; s?.();
 }
 
 async function speakOne(engine: EngineState, line: AudioLine, slow: boolean, voiceIndex: Map<VoiceKey, number>, signal: { cancelled: boolean }) {
@@ -59,13 +89,17 @@ async function speakOne(engine: EngineState, line: AudioLine, slow: boolean, voi
     // Slow playback is done in the browser (pitch kept), because not every server voice honours a speed setting.
     const url = `/api/tts?${new URLSearchParams({ text: line.text, voice, slow: "0", v: "2" })}`;
     const ok = await new Promise<boolean>((resolve) => {
-      const a = new Audio(url) as HTMLAudioElement & { webkitPreservesPitch?: boolean };
+      const a = audioElement() as HTMLAudioElement & { webkitPreservesPitch?: boolean };
+      let done = false;
+      const finish = (v: boolean) => { if (done) return; done = true; settleCurrent = null; a.onended = a.onerror = null; resolve(v); };
+      a.onended = () => finish(true);
+      a.onerror = () => finish(false);
+      settleCurrent = () => finish(true);
+      a.src = url;
       a.preservesPitch = true; a.webkitPreservesPitch = true;
       a.defaultPlaybackRate = a.playbackRate = slow ? SLOW_RATE : 1;
       currentAudio = a;
-      a.onended = () => resolve(true);
-      a.onerror = () => resolve(false);
-      a.play().catch(() => resolve(false));
+      a.play().catch(() => finish(false));
     });
     if (ok || signal.cancelled) return;
     // Server voice failed: fall back to the device voice for this line.
@@ -76,17 +110,32 @@ async function speakOne(engine: EngineState, line: AudioLine, slow: boolean, voi
   if (!engine.voices.length) throw new Error(ERR.noVoice.en);
   await new Promise<void>((resolve, reject) => {
     const u = new SpeechSynthesisUtterance(line.text);
+    // Chrome sometimes never fires onend (and stalls a whole dialogue). A watchdog based on the
+    // length of the text keeps the sequence moving. Chrome also cuts off utterances after ~15 s
+    // unless the engine is nudged, so we resume it periodically.
+    let settled = false;
+    const expectedMs = Math.max(2500, line.text.length * (slow ? 140 : 95)) + 2000;
+    const keepAlive = setInterval(() => { if (!/Android/i.test(navigator.userAgent) && window.speechSynthesis.speaking && !window.speechSynthesis.paused) { window.speechSynthesis.pause(); window.speechSynthesis.resume(); } }, 10_000);
+    const watchdog = setTimeout(() => settle(), expectedMs);
+    function settle(err?: Error) {
+      if (settled) return;
+      settled = true; clearTimeout(watchdog); clearInterval(keepAlive); settleCurrent = null;
+      if (err) reject(err); else resolve();
+    }
+    settleCurrent = () => settle();
     if (!voiceIndex.has(voice)) voiceIndex.set(voice, voiceIndex.size % engine.voices.length);
     u.voice = engine.voices[voiceIndex.get(voice)!];
-    u.lang = u.voice.lang;
+    u.lang = u.voice.lang.replace("_", "-");
     u.rate = slow ? SLOW_RATE : 1;
     // Natural pitch: changing it to imitate different speakers distorts the model sound.
     u.pitch = 1;
-    u.onend = () => resolve();
+    u.onend = () => settle();
     u.onerror = (e) => {
-      if (signal.cancelled || e.error === "canceled" || e.error === "interrupted") resolve();
-      else reject(new Error(ERR.playback.en));
+      if (signal.cancelled || e.error === "canceled" || e.error === "interrupted") settle();
+      else settle(new Error(ERR.playback.en));
     };
+    // A stuck queue (common after the tab was in the background) swallows new utterances.
+    if (window.speechSynthesis.paused) window.speechSynthesis.resume();
     window.speechSynthesis.speak(u);
   });
   await new Promise((r) => setTimeout(r, 250));
@@ -146,14 +195,19 @@ export function Speak({ text, voice, label, showSlow = true, size = "sm" }: { te
   );
 }
 
+/** One short line about where the audio comes from; the details open on request. */
 export function AudioSourceNote() {
   const engine = useAudioEngine();
+  const none = engine.kind === "none";
   return (
-    <p className="text-xs text-muted" role="note">
-      🔊 <Bi as="span" t={engine.kind === "none"
+    <details className={`text-xs ${none ? "rounded-lg bg-rose-50 p-2 text-rose-800 dark:bg-rose-950/40 dark:text-rose-200" : "text-muted"}`} role="note">
+      <summary className="cursor-pointer list-none">
+        🔊 <Bi as="span" t={none ? { en: "No French voice on this device: tap to fix", hi: "इस डिवाइस पर फ़्रेंच आवाज़ नहीं है: ठीक करने के लिए टैप करें" } : { en: "Computer voice · about audio", hi: "कंप्यूटर की आवाज़ · ऑडियो के बारे में" }} /> <span aria-hidden>ⓘ</span>
+      </summary>
+      <Bi as="p" className="mt-1" t={none
         ? { en: `${engine.label}. Install a French text-to-speech voice in your device settings (Language → Text-to-speech → add French) or ask your administrator to enable server voices. Text transcripts remain available.`, hi: `${engine.labelHi}। डिवाइस की सेटिंग्स में फ़्रेंच टेक्स्ट-टू-स्पीच आवाज़ जोड़ें (भाषा → टेक्स्ट-टू-स्पीच → फ़्रेंच जोड़ें), या अपने एडमिनिस्ट्रेटर से सर्वर की आवाज़ें चालू करने को कहें। लिखा हुआ पाठ फिर भी उपलब्ध रहेगा।` }
         : { en: `${engine.label}. This is synthetic speech, not a recording of a native speaker.`, hi: `${engine.labelHi}। यह कंप्यूटर से बनी आवाज़ है, किसी फ़्रेंच भाषी व्यक्ति की रिकॉर्डिंग नहीं।` }} />
-    </p>
+    </details>
   );
 }
 

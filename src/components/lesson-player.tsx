@@ -8,7 +8,7 @@ import { ReportProblem } from "./report-problem";
 import { BLOCK_LABELS, BLOCK_ORDER, type BlockKey } from "@/lib/schedule";
 import { Bi, useBiLabel } from "./bi";
 import { FrItem, Meaning, Pron } from "./fr-item";
-import { AudioSourceNote, Speak, usePlayer } from "./audio";
+import { AudioError, AudioSourceNote, Speak, usePlayer } from "./audio";
 import { Dictation, GapFill, McqLive, ResultLine } from "./exercises";
 import { Recorder } from "./recorder";
 import { TappableText } from "./tappable";
@@ -228,7 +228,7 @@ export function ListeningBlock({ d, share }: { d: ClientLesson; share: number })
         <button type="button" className="btn btn-secondary" onClick={() => play(lines, { slow: true })}>🐢 <Bi as="span" t={{ en: "Play slowly", hi: "धीरे सुनें" }} /></button>
         {playing !== null && <span className="self-center text-sm text-muted" aria-live="polite"><Bi as="span" t={{ en: `Line ${playing + 1} of ${lines.length}`, hi: `पंक्ति ${playing + 1} / ${lines.length}` }} /></span>}
       </div>
-      {error && <p role="alert" className="text-sm">{error}</p>}
+      <AudioError error={error} />
       <AudioSourceNote />
       <Bi className="text-sm" t={{ en: "Listen first, answer the questions, then reveal the transcript.", hi: "पहले सुनें, प्रश्नों के उत्तर दें, फिर लिखा हुआ पाठ देखें।" }} />
       <div className="space-y-3">

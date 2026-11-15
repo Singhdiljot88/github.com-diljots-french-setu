@@ -4,7 +4,8 @@ import { api } from "@/lib/api-client";
 import type { Scenario, SpeakingMode, SpeakingReport } from "@/server/speaking";
 import { usePrefs } from "./prefs";
 import { Bi, useBiLabel } from "./bi";
-import { Speak, usePlayer, AudioSourceNote } from "./audio";
+import { Speak, usePlayer, AudioSourceNote, stopAll } from "./audio";
+import { ServerSpeechRecognition } from "@/lib/server-speech";
 import { AccentBar } from "./accent-bar";
 import { TappableText } from "./tappable";
 import { CorrectionItem, noticeBi } from "./writing-editor";
@@ -221,25 +222,28 @@ function TurnView({ t, noHelp }: { t: Turn; noHelp?: boolean }) {
   );
 }
 
-/** Speech input: browser recognition when available; otherwise records and sends audio to the server if it has a speech-to-text provider. */
+/** Speech input: server recognition (Speko) when configured, else the browser's recognizer; typing always works. */
 function MicButton({ onText, disabled }: { onText: (t: string, via: "speech_browser" | "speech_server") => void; disabled: boolean }) {
   const { providers, micOptIn } = usePrefs();
   const [state, setState] = useState<"idle" | "listening" | "sending" | "error">("idle");
   const [msg, setMsg] = useState<BiT | null>(null);
   const label = useBiLabel();
   const sr = useRef<SR | null>(null);
-  const mr = useRef<MediaRecorder | null>(null);
   // Detected after mount so the server render and the first client render match.
   const [SRClass, setSRClass] = useState<(new () => SR) | null | undefined>(undefined);
   useEffect(() => setSRClass(() => getSR()), []);
+  useEffect(() => () => { sr.current?.abort(); }, []);
   if (SRClass === undefined) return null;
   const canServer = providers.stt.server;
   if (!SRClass && !canServer) return <Bi as="span" className="text-xs text-muted" t={{ en: "Speech input isn't available in this browser. You can type your reply instead (Chrome and Edge support speech input).", hi: "इस ब्राउज़र में बोलकर लिखने की सुविधा नहीं है। आप अपना जवाब टाइप कर सकते हैं (Chrome और Edge में यह सुविधा मिलती है)।" }} />;
+  // Server recognition (Speko) is preferred when available: Safari's built-in recognizer often aborts on iPhone.
+  const useServer = canServer;
 
-  const startBrowser = () => {
-    const r = new SRClass!();
+  const start = () => {
+    stopAll(); // never let the partner's voice play into the microphone
+    const r: SR & { onprocessing?: (() => void) | null } = useServer ? (new ServerSpeechRecognition() as unknown as SR) : new SRClass!();
     r.lang = "fr-FR"; r.interimResults = false; r.continuous = false;
-    r.onresult = (e) => { const out = Array.from({ length: e.results.length }, (_, i) => e.results[i][0].transcript).join(" ").trim(); if (out) onText(out, "speech_browser"); };
+    r.onresult = (e) => { const out = Array.from({ length: e.results.length }, (_, i) => e.results[i][0].transcript).join(" ").trim(); if (out) onText(out, useServer ? "speech_server" : "speech_browser"); };
     r.onerror = (e) => {
       setState("error");
       setMsg(e.error === "not-allowed" || e.error === "service-not-allowed"
@@ -248,42 +252,27 @@ function MicButton({ onText, disabled }: { onText: (t: string, via: "speech_brow
           ? { en: "The microphone didn't pick up any speech. Check that it's switched on and not being used by another app, then try again, a little closer to the mic.", hi: "माइक्रोफ़ोन में कोई आवाज़ नहीं आई। देख लें कि वह चालू है और कोई दूसरा ऐप उसे इस्तेमाल नहीं कर रहा, फिर माइक के थोड़ा पास आकर दोबारा कोशिश करें।" }
           : e.error === "audio-capture"
             ? { en: "No working microphone was found. Check that one is connected and not being used by another app, then try again. You can also type your reply.", hi: "कोई चालू माइक्रोफ़ोन नहीं मिला। देख लें कि माइक जुड़ा है और कोई दूसरा ऐप उसे इस्तेमाल नहीं कर रहा, फिर दोबारा कोशिश करें। आप अपना जवाब टाइप भी कर सकते हैं।" }
-            : { en: `Speech recognition stopped unexpectedly (${e.error}). Please try again, or type your reply.`, hi: "बोली पहचानने की सुविधा अचानक रुक गई। कृपया दोबारा कोशिश करें, या अपना जवाब टाइप करें।" });
+            : e.error === "network"
+              ? { en: "Your speech couldn't be turned into text (no connection to the speech service). Check your internet and try again, or type your reply.", hi: "आपकी आवाज़ को लिखा नहीं जा सका (स्पीच सेवा से कनेक्शन नहीं हुआ)। इंटरनेट जाँचें और दोबारा कोशिश करें, या अपना जवाब टाइप करें।" }
+              : { en: `Speech recognition stopped unexpectedly (${e.error}). Please try again, or type your reply.`, hi: "बोली पहचानने की सुविधा अचानक रुक गई। कृपया दोबारा कोशिश करें, या अपना जवाब टाइप करें।" });
     };
-    r.onend = () => setState((s) => (s === "listening" ? "idle" : s));
+    r.onprocessing = () => setState("sending");
+    r.onend = () => setState((s) => (s === "listening" || s === "sending" ? "idle" : s));
     sr.current = r;
     setMsg(null); setState("listening");
-    r.start();
-  };
-  const startServer = async () => {
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      const rec = new MediaRecorder(stream);
-      const chunks: Blob[] = [];
-      rec.ondataavailable = (e) => chunks.push(e.data);
-      rec.onstop = async () => {
-        stream.getTracks().forEach((t) => t.stop());
-        setState("sending");
-        const fd = new FormData(); fd.append("audio", new Blob(chunks, { type: rec.mimeType }));
-        const r = await fetch("/api/stt", { method: "POST", body: fd });
-        const j = await r.json().catch(() => ({}));
-        if (r.ok && j.text) { onText(j.text, "speech_server"); setState("idle"); } else { setState("error"); setMsg({ en: j.error ?? "Your recording couldn't be turned into text. Please try again, or type your reply.", hi: "आपकी रिकॉर्डिंग को लिखित रूप में नहीं बदला जा सका। कृपया दोबारा कोशिश करें, या अपना जवाब टाइप करें।" }); }
-      };
-      mr.current = rec; rec.start(); setMsg(null); setState("listening");
-    } catch { setState("error"); setMsg({ en: "The microphone couldn't be started. Allow the microphone for this site in your browser, check that another app isn't using it, and try again. You can also type your reply.", hi: "माइक्रोफ़ोन शुरू नहीं हो सका। ब्राउज़र में इस साइट के लिए माइक्रोफ़ोन की अनुमति दें, देख लें कि कोई दूसरा ऐप उसे इस्तेमाल नहीं कर रहा, और दोबारा कोशिश करें। आप अपना जवाब टाइप भी कर सकते हैं।" }); }
+    try { r.start(); } catch { setState("error"); setMsg({ en: "Speech input couldn't start. Wait a moment and try again, or type your reply.", hi: "बोलकर लिखना शुरू नहीं हो सका। थोड़ा रुककर दोबारा कोशिश करें, या अपना जवाब टाइप करें।" }); }
   };
   const toggle = () => {
-    // Server recognition (Speko) is preferred when available: Safari's built-in recognizer often aborts on iPhone.
-    const useBrowser = !!SRClass && !canServer;
-    if (state === "listening") { sr.current?.stop(); if (mr.current?.state === "recording") mr.current.stop(); if (useBrowser) setState("idle"); return; }
-    if (useBrowser) startBrowser(); else startServer();
+    if (state === "listening") { sr.current?.stop(); return; }
+    start();
   };
   return (
     <span className="flex flex-wrap items-center gap-2">
-      <button type="button" className={`btn ${state === "listening" ? "btn-primary animate-pulse" : "btn-secondary"}`} onClick={toggle} disabled={disabled || state === "sending"} aria-pressed={state === "listening"}>
-        🎤 {state === "listening" ? label({ en: "Stop", hi: "रोकें" }) : state === "sending" ? label({ en: "Transcribing…", hi: "लिखित रूप में बदला जा रहा है…" }) : label({ en: "Speak", hi: "बोलें" })}
+      <button type="button" className={`btn ${state === "listening" ? "btn-primary mic-live" : "btn-secondary"}`} onClick={toggle} disabled={disabled || state === "sending"} aria-pressed={state === "listening"}>
+        🎤 {state === "listening" ? label({ en: "Done speaking", hi: "बोल लिया" }) : state === "sending" ? label({ en: "Transcribing…", hi: "लिखित रूप में बदला जा रहा है…" }) : label({ en: "Speak", hi: "बोलें" })}
       </button>
-      {!micOptIn && state === "idle" && <Bi as="span" className="text-xs text-muted" t={SRClass && !canServer ? { en: "Your browser's speech service turns speech into text; check the text before sending.", hi: "आपके ब्राउज़र की स्पीच सेवा बोली को लिखित रूप में बदलती है; भेजने से पहले लिखा हुआ जाँच लें।" } : { en: "Audio is sent to the server for transcription and not kept.", hi: "ऑडियो लिखित रूप में बदलने के लिए सर्वर पर भेजा जाता है और रखा नहीं जाता।" }} />}
+      {state === "listening" && <Bi as="span" className="text-xs font-medium text-rose-700 dark:text-rose-300" t={{ en: "● Recording: speak, then tap “Done speaking”.", hi: "● रिकॉर्डिंग: बोलिए, फिर “बोल लिया” दबाइए।" }} />}
+      {!micOptIn && state === "idle" && <Bi as="span" className="text-xs text-muted" t={!useServer ? { en: "Your browser's speech service turns speech into text; check the text before sending.", hi: "आपके ब्राउज़र की स्पीच सेवा बोली को लिखित रूप में बदलती है; भेजने से पहले लिखा हुआ जाँच लें।" } : { en: "Audio is sent to the server for transcription and not kept.", hi: "ऑडियो लिखित रूप में बदलने के लिए सर्वर पर भेजा जाता है और रखा नहीं जाता।" }} />}
       {msg && <span role="alert" className="text-xs">{label(msg)}</span>}
     </span>
   );

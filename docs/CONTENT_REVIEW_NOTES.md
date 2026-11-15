@@ -96,3 +96,9 @@ specific items the authors flagged.
 - Base lemma chosen over the lesson phrase: arrivant, course, centre (commercial), carnet, compréhension (écrite), courrier (des lecteurs), brosse (à dents), bonnet.
 - Confirm tone of the baisse/baise mistake note; cricket lists "criquet" as a misspelling; consigne (Québec bottle deposit) and aîné (Québec seniors).
 - CEFR levels are estimates, especially the B2 ones.
+
+## Added 2026-11-15 (AI-drafted, review pending)
+
+- `src/lib/confusables.ts`: 31 false friends, sound-alikes and Hindi ↔ French gender traps, with Hindi meanings. Check the Hindi genders quoted (किताब f, घर m, कमरा m, रोटी f, पत्र m / चिट्ठी f).
+- `src/lib/pair-prons.ts`: Devanagari guides for every minimal-pair word in the pronunciation lab.
+- `src/lib/nombres.ts` (`numberPron`): generated Devanagari for spoken numbers, prices and times, including liaison (deux euros = द ज़-रो, neuf heures = न वर).

@@ -3,7 +3,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { api } from "@/lib/api-client";
 import { matchPhrase, statusFor, STATUS_LABEL, type PhraseMatch } from "@/lib/speech-match";
-import { Speak } from "./audio";
+import { Speak, stopAll } from "./audio";
 import { Pron } from "./fr-item";
 import { Bi, useBiLabel } from "./bi";
 import { usePrefs } from "./prefs";
@@ -13,7 +13,7 @@ export type SayItem = { day: number; fr: string; en: string; hi: string; pron?: 
 
 type BiT = { en: string; hi: string };
 type Alt = { transcript: string };
-type SR = { start: () => void; stop: () => void; lang: string; interimResults: boolean; maxAlternatives: number; continuous: boolean;
+type SR = { start: () => void; stop: () => void; abort?: () => void; onprocessing?: (() => void) | null; lang: string; interimResults: boolean; maxAlternatives: number; continuous: boolean;
   onresult: ((e: { results: ArrayLike<ArrayLike<Alt> & { isFinal: boolean }> }) => void) | null; onerror: ((e: { error: string }) => void) | null; onend: (() => void) | null };
 const getSR = (): (new () => SR) | null => {
   if (typeof window === "undefined") return null;
@@ -56,13 +56,15 @@ export function SayIt({ items, today }: { items: SayItem[]; today: number }) {
 }
 
 function SayCard({ it, sr }: { it: SayItem; sr: (new () => SR) | null }) {
-  const [state, setState] = useState<"idle" | "listening" | "error">("idle");
+  const [state, setState] = useState<"idle" | "listening" | "processing" | "error">("idle");
   const [msg, setMsg] = useState<BiT | null>(null);
   const label = useBiLabel();
   const [typed, setTyped] = useState("");
   const [result, setResult] = useState<{ transcript: string; m: PhraseMatch } | null>(null);
   const [best, setBest] = useState<number | null>(null);
   const rec = useRef<SR | null>(null);
+  // Leaving the page mid-recording releases the microphone.
+  useEffect(() => () => { rec.current?.abort?.(); }, []);
 
   const record = async (transcript: string, via: "speech_browser" | "typed_keyboard") => {
     const m = matchPhrase(it.fr, transcript);
@@ -78,6 +80,7 @@ function SayCard({ it, sr }: { it: SayItem; sr: (new () => SR) | null }) {
 
   const listen = () => {
     if (!sr) return;
+    stopAll(); // the model audio must not be playing into the microphone
     const r = new sr();
     r.lang = "fr-FR"; r.interimResults = false; r.maxAlternatives = 3; r.continuous = false;
     r.onresult = (e) => {
@@ -99,7 +102,8 @@ function SayCard({ it, sr }: { it: SayItem; sr: (new () => SR) | null }) {
               ? { en: "The browser's speech service couldn't be reached. Check your internet connection and try again, or use your voice keyboard in the box below.", hi: "ब्राउज़र की स्पीच सेवा से जुड़ नहीं पाए। अपना इंटरनेट कनेक्शन जाँचें और दोबारा कोशिश करें, या नीचे वाले बॉक्स में वॉइस कीबोर्ड इस्तेमाल करें।" }
               : { en: `Speech recognition stopped (${e.error}). Please try again.`, hi: "बोली पहचानने की सुविधा रुक गई। कृपया दोबारा कोशिश करें।" });
     };
-    r.onend = () => setState((s) => (s === "listening" ? "idle" : s));
+    r.onprocessing = () => setState("processing");
+    r.onend = () => setState((s) => (s === "listening" || s === "processing" ? "idle" : s));
     rec.current = r; setMsg(null); setState("listening");
     try { r.start(); } catch { setState("error"); setMsg({ en: "Speech recognition couldn't start. Please try again in a moment, or use your voice keyboard in the box below.", hi: "बोली पहचानने की सुविधा शुरू नहीं हो सकी। थोड़ी देर में दोबारा कोशिश करें, या नीचे वाले बॉक्स में वॉइस कीबोर्ड इस्तेमाल करें।" }); }
   };
@@ -117,8 +121,10 @@ function SayCard({ it, sr }: { it: SayItem; sr: (new () => SR) | null }) {
       </div>
       <div className="flex flex-wrap items-center gap-2">
         {sr && (state === "listening"
-          ? <button type="button" className="btn btn-primary btn-sm animate-pulse" onClick={() => rec.current?.stop()}>■ {label({ en: "Listening… tap to stop", hi: "सुन रहे हैं… रोकने के लिए टैप करें" })}</button>
-          : <button type="button" className="btn btn-primary btn-sm" onClick={listen}>🎤 {label({ en: "Say it", hi: "बोलें" })}</button>)}
+          ? <button type="button" className="btn btn-primary btn-sm mic-live" onClick={() => rec.current?.stop()}>■ {label({ en: "Listening… tap when done", hi: "सुन रहे हैं… बोलकर टैप करें" })}</button>
+          : state === "processing"
+            ? <button type="button" className="btn btn-secondary btn-sm" disabled aria-busy="true">⏳ {label({ en: "Turning speech into text…", hi: "आवाज़ को लिखा जा रहा है…" })}</button>
+            : <button type="button" className="btn btn-primary btn-sm" onClick={listen}>🎤 {label({ en: "Say it", hi: "बोलें" })}</button>)}
         {best !== null && <span className="text-xs text-muted">{label({ en: `Best this session: ${best} of ${result?.m.total} words`, hi: `इस बार का सबसे अच्छा: ${result?.m.total} में से ${best} शब्द` })}</span>}
       </div>
       <form className="flex flex-wrap gap-2" onSubmit={(e) => { e.preventDefault(); if (typed.trim()) { record(typed.trim(), "typed_keyboard"); setTyped(""); } }}>

@@ -1,7 +1,8 @@
 "use client";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { api, ApiError } from "@/lib/api-client";
-import { Speak } from "./audio";
+import { Speak, stopAll } from "./audio";
+import { ServerSpeechRecognition, browserRecognizer } from "@/lib/server-speech";
 import { Bi, useBiLabel } from "./bi";
 import { usePrefs } from "./prefs";
 import { SaveWordButton } from "./save-word";
@@ -30,7 +31,6 @@ export function HindiToFrench() {
   const [err, setErr] = useState<string | null>(null);
   const [res, setRes] = useState<Result | null>(null);
   const [rec, setRec] = useState<"idle" | "listening" | "sending">("idle");
-  const mr = useRef<MediaRecorder | null>(null);
 
   const go = async (t = text) => {
     const q = t.trim();
@@ -41,25 +41,28 @@ export function HindiToFrench() {
     finally { setBusy(false); }
   };
 
-  const mic = async () => {
-    if (rec === "listening") { mr.current?.stop(); return; }
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      const r = new MediaRecorder(stream);
-      const chunks: Blob[] = [];
-      r.ondataavailable = (e) => chunks.push(e.data);
-      r.onstop = async () => {
-        stream.getTracks().forEach((tr) => tr.stop());
-        setRec("sending");
-        const fd = new FormData(); fd.append("audio", new Blob(chunks, { type: r.mimeType }));
-        const resp = await fetch("/api/stt?lang=hi", { method: "POST", body: fd });
-        const j = await resp.json().catch(() => ({}));
-        setRec("idle");
-        if (resp.ok && j.text) { setText(j.text); go(j.text); }
-        else setErr(j.error ?? "Your recording couldn't be turned into text. Please try again or type.");
-      };
-      mr.current = r; r.start(); setErr(null); setRec("listening");
-    } catch { setRec("idle"); setErr("The microphone couldn't start. Allow the microphone for this site in your browser settings, or type instead."); }
+  // Server recognition (Speko) when configured; otherwise Chrome/Edge/Safari's own recognizer in Hindi (hi-IN).
+  type Rec = { lang: string; interimResults: boolean; continuous: boolean; start(): void; stop(): void; abort(): void; onresult: ((e: { results: ArrayLike<ArrayLike<{ transcript: string }>> }) => void) | null; onerror: ((e: { error: string; message?: string }) => void) | null; onend: (() => void) | null; onprocessing?: (() => void) | null };
+  const [BrowserRec, setBrowserRec] = useState<(new () => Rec) | null>(null);
+  useEffect(() => setBrowserRec(() => browserRecognizer<Rec>()), []);
+  const recRef = useRef<Rec | null>(null);
+  useEffect(() => () => { recRef.current?.abort(); }, []);
+  const canSpeak = providers.stt.server || !!BrowserRec;
+
+  const mic = () => {
+    if (rec === "listening") { recRef.current?.stop(); return; }
+    stopAll();
+    const r: Rec = providers.stt.server ? (new ServerSpeechRecognition() as unknown as Rec) : new BrowserRec!();
+    r.lang = "hi-IN"; r.interimResults = false; r.continuous = false;
+    r.onresult = (e) => { const t = Array.from({ length: e.results.length }, (_, i) => e.results[i][0].transcript).join(" ").trim(); if (t) { setText(t); go(t); } };
+    r.onerror = (e) => setErr(e.error === "not-allowed" || e.error === "service-not-allowed"
+      ? "The microphone isn't allowed. Allow it for this site in your browser settings, or type instead. · माइक्रोफ़ोन की अनुमति नहीं है। ब्राउज़र की सेटिंग्स में अनुमति दें, या टाइप करें।"
+      : e.error === "no-speech" ? "No speech was heard. Try again a little closer to the mic. · कोई आवाज़ सुनाई नहीं दी। माइक के पास आकर दोबारा बोलें।"
+      : e.message ?? "Your speech couldn't be turned into text. Please try again or type. · आपकी आवाज़ लिखी नहीं जा सकी। दोबारा कोशिश करें या टाइप करें।");
+    r.onprocessing = () => setRec("sending");
+    r.onend = () => setRec("idle");
+    recRef.current = r; setErr(null); setRec("listening");
+    try { r.start(); } catch { setRec("idle"); setErr("The microphone couldn't start. Please try again or type. · माइक्रोफ़ोन शुरू नहीं हुआ। दोबारा कोशिश करें या टाइप करें।"); }
   };
 
   if (!providers.ai.available) {
@@ -78,9 +81,9 @@ export function HindiToFrench() {
           <button type="submit" className="btn btn-primary" disabled={busy || !text.trim()}>
             {busy ? L({ en: "Translating…", hi: "अनुवाद हो रहा है…" }) : L({ en: "Say it in French", hi: "फ़्रेंच में बताओ" })}
           </button>
-          {providers.stt.server && (
-            <button type="button" className={`btn ${rec === "listening" ? "btn-primary animate-pulse" : "btn-secondary"}`} onClick={mic} disabled={busy || rec === "sending"} aria-pressed={rec === "listening"}>
-              🎤 {rec === "listening" ? L({ en: "Stop", hi: "रोकें" }) : rec === "sending" ? L({ en: "Listening…", hi: "सुन रहे हैं…" }) : L({ en: "Speak Hindi", hi: "हिंदी में बोलें" })}
+          {canSpeak && (
+            <button type="button" className={`btn ${rec === "listening" ? "btn-primary mic-live" : "btn-secondary"}`} onClick={mic} disabled={busy || rec === "sending"} aria-pressed={rec === "listening"}>
+              🎤 {rec === "listening" ? L({ en: "Stop", hi: "रोकें" }) : rec === "sending" ? L({ en: "Transcribing…", hi: "लिखा जा रहा है…" }) : L({ en: "Speak Hindi", hi: "हिंदी में बोलें" })}
             </button>
           )}
         </div>

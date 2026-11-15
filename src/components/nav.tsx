@@ -5,12 +5,15 @@ import { useEffect, useState } from "react";
 import { Bi, useBiLabel } from "./bi";
 import { usePrefs } from "./prefs";
 
+const SHORT: Record<string, { en: string; hi: string }> = { "/play": { en: "Games", hi: "खेल" }, "/speaking": { en: "Speak", hi: "बोलें" }, "/hindi": { en: "Hindi→FR", hi: "हिंदी→FR" } };
+
 const GROUPS: { title: { en: string; hi: string }; items: { href: string; label: string; hi: string; icon: string }[] }[] = [
   { title: { en: "Learn", hi: "सीखें" }, items: [
     { href: "/today", label: "Today", hi: "आज", icon: "☀️" },
     { href: "/hindi", label: "Hindi → French", hi: "हिंदी से फ़्रेंच", icon: "🔤" },
     { href: "/course", label: "Course map", hi: "पाठ्यक्रम", icon: "🗺️" },
     { href: "/review", label: "Review", hi: "दोहराव", icon: "🔁" },
+    { href: "/play", label: "Practice games", hi: "अभ्यास के खेल", icon: "🎯" },
     { href: "/dictionary", label: "Dictionary", hi: "शब्दकोश", icon: "📖" },
     { href: "/words", label: "My words", hi: "मेरे शब्द", icon: "⭐" },
   ] },
@@ -22,7 +25,10 @@ const GROUPS: { title: { en: string; hi: string }; items: { href: string; label:
     { href: "/reading", label: "Reading library", hi: "पढ़ने का अभ्यास", icon: "📰" },
     { href: "/discover", label: "Web discovery", hi: "वेब से सीखें", icon: "🔎" },
   ] },
-  { title: { en: "TEF", hi: "TEF" }, items: [{ href: "/exam", label: "TEF practice & mocks", hi: "TEF परीक्षा अभ्यास", icon: "📝" }] },
+  { title: { en: "TEF", hi: "TEF" }, items: [
+    { href: "/exam", label: "TEF practice & mocks", hi: "TEF परीक्षा अभ्यास", icon: "📝" },
+    { href: "/resources", label: "Free resources", hi: "मुफ़्त संसाधन", icon: "🧭" },
+  ] },
   { title: { en: "You", hi: "आप" }, items: [
     { href: "/mistakes", label: "Mistake notebook", hi: "ग़लतियों की कॉपी", icon: "📒" },
     { href: "/progress", label: "Progress", hi: "प्रगति", icon: "📈" },
@@ -30,7 +36,8 @@ const GROUPS: { title: { en: string; hi: string }; items: { href: string; label:
   ] },
 ];
 
-const MOBILE = [GROUPS[0].items[0], GROUPS[0].items[1], GROUPS[0].items[2], GROUPS[0].items[3]];
+const find = (href: string) => GROUPS.flatMap((g) => g.items).find((i) => i.href === href)!;
+const MOBILE = [find("/today"), find("/review"), find("/play"), find("/speaking"), find("/hindi")].map((i) => ({ ...i, short: SHORT[i.href] ?? { en: i.label, hi: i.hi } }));
 
 function NavList({ onNavigate }: { onNavigate?: () => void }) {
   const path = usePathname();
@@ -47,8 +54,8 @@ function NavList({ onNavigate }: { onNavigate?: () => void }) {
               return (
                 <li key={it.href}>
                   <Link href={it.href} onClick={onNavigate} aria-current={active ? "page" : undefined}
-                    className={`flex items-center gap-2 rounded-lg px-3 py-2 text-sm ${active ? "bg-brand-100 font-semibold text-brand-900 dark:bg-brand-900 dark:text-brand-50" : "hover:bg-[var(--surface-2)]"}`}>
-                    <span aria-hidden>{it.icon}</span>
+                    className={`relative flex items-center gap-2.5 rounded-xl px-3 py-2 text-sm transition-colors ${active ? "bg-brand-100 font-semibold text-brand-900 before:absolute before:inset-y-2 before:left-0 before:w-1 before:rounded-full before:bg-brand-600 dark:bg-brand-900 dark:text-brand-50" : "hover:bg-[var(--surface-2)]"}`}>
+                    <span aria-hidden className="grid size-7 place-items-center rounded-lg bg-[var(--surface-2)] text-base">{it.icon}</span>
                     {lang !== "hi" && <span>{it.label}</span>}
                     {lang !== "en" && <span lang="hi" className={`deva ${lang === "both" ? "ml-auto text-xs text-muted" : ""}`}>{it.hi}</span>}
                   </Link>
@@ -78,7 +85,7 @@ export function AppNav({ demoAi, isGuest }: { demoAi: boolean; isGuest: boolean 
         <NavList />
         <Badges demoAi={demoAi} isGuest={isGuest} />
       </aside>
-      <header className="surface sticky top-0 z-30 flex print:hidden items-center gap-2 border-x-0 border-t-0 px-4 py-2 lg:hidden">
+      <header className="sticky top-0 z-30 flex print:hidden items-center gap-2 border-b border-app bg-[color-mix(in_srgb,var(--surface)_88%,transparent)] px-4 py-2 backdrop-blur-lg lg:hidden">
         <Link href="/today" className="flex items-center gap-2 font-bold"><img src="/icons/icon-192.png" alt="" width={28} height={28} className="rounded-md" />French Setu</Link>
         {demoAi && <span className="chip ml-auto bg-saffron-100 text-saffron-700">{lang === "hi" ? "डेमो मोड" : "Demo AI"}</span>}
         <button type="button" className={`btn btn-ghost btn-sm ${demoAi ? "" : "ml-auto"}`} onClick={() => setOpen(true)} aria-expanded={open} aria-controls="mobile-menu">☰ {lang === "hi" ? "मेन्यू" : "Menu"}</button>
@@ -93,12 +100,12 @@ export function AppNav({ demoAi, isGuest }: { demoAi: boolean; isGuest: boolean 
           </div>
         </div>
       )}
-      <nav aria-label={L({ en: "Quick links", hi: "जल्दी पहुँचें" })} className="print:hidden surface fixed inset-x-0 bottom-0 z-30 grid grid-cols-4 border-x-0 border-b-0 pb-[env(safe-area-inset-bottom)] lg:hidden">
+      <nav aria-label={L({ en: "Quick links", hi: "जल्दी पहुँचें" })} className="print:hidden fixed inset-x-0 bottom-0 z-30 grid grid-cols-5 border-t border-app bg-[color-mix(in_srgb,var(--surface)_88%,transparent)] pb-[env(safe-area-inset-bottom)] backdrop-blur-lg lg:hidden">
         {MOBILE.map((it) => {
           const active = path === it.href || path.startsWith(it.href + "/");
           return (
-            <Link key={it.href} href={it.href} aria-current={active ? "page" : undefined} className={`flex flex-col items-center py-2 text-xs ${active ? "font-semibold text-brand-700 dark:text-brand-200" : "text-muted"}`}>
-              <span aria-hidden className="text-lg">{it.icon}</span>{lang === "hi" ? <span lang="hi" className="deva">{it.hi}</span> : it.label}
+            <Link key={it.href} href={it.href} aria-current={active ? "page" : undefined} className={`flex flex-col items-center gap-0.5 py-2 text-[11px] ${active ? "font-semibold text-brand-700 dark:text-brand-200" : "text-muted"}`}>
+              <span aria-hidden className={`grid h-7 w-12 place-items-center rounded-full text-lg transition-colors ${active ? "bg-brand-100 dark:bg-brand-900" : ""}`}>{it.icon}</span>{lang === "hi" ? <span lang="hi" className="deva">{it.short.hi}</span> : it.short.en}
             </Link>
           );
         })}

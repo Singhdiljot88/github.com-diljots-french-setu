@@ -1,5 +1,5 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import type { PronunciationContent } from "@/content/pronunciation-schema";
 import { api } from "@/lib/api-client";
 import { Speak, usePlayer, AudioSourceNote, AudioError, type VoiceKey } from "./audio";
@@ -22,7 +22,7 @@ const GROUPS = {
 } as const;
 const STATUS_HI: Record<string, string> = { "AI-drafted, editorial review pending": "AI से तैयार मसौदा, संपादकीय जाँच अभी बाक़ी" };
 
-export function PronunciationLab({ content, shadow, say, today, initialSound, initialTab }: { content: PronunciationContent; shadow: ShadowLine[]; say: SayItem[]; today: number; initialSound?: string; initialTab?: string }) {
+export function PronunciationLab({ content, pairProns = {}, shadow, say, today, initialSound, initialTab }: { content: PronunciationContent; pairProns?: Record<string, string>; shadow: ShadowLine[]; say: SayItem[]; today: number; initialSound?: string; initialTab?: string }) {
   const [tab, setTab] = useState<Tab>((TABS.find((t) => t.id === initialTab)?.id) ?? "sounds");
   const { providers } = usePrefs();
   const label = useBiLabel();
@@ -36,11 +36,11 @@ export function PronunciationLab({ content, shadow, say, today, initialSound, in
         ))}
       </div>
       <AudioSourceNote />
-      {!providers.pronunciation.available && <Bi className="text-xs text-muted" t={{ en: "No pronunciation score is shown: automatic scoring needs a speech-assessment service (Azure) on the server. Compare your recording with the model by ear.", hi: "उच्चारण के लिए कोई अंक नहीं दिखाए जाते: अपने-आप अंक देने के लिए सर्वर पर बोली जाँचने वाली सेवा (Azure) चाहिए। अपनी रिकॉर्डिंग की तुलना नमूने से कान से करें।" }} />}
+      {!providers.pronunciation.available && <details className="text-xs text-muted"><summary className="cursor-pointer list-none">🎯 <Bi as="span" t={{ en: "No accent score · why", hi: "उच्चारण का अंक नहीं · क्यों" }} /> <span aria-hidden>ⓘ</span></summary><Bi className="mt-1" t={{ en: "No pronunciation score is shown: automatic scoring needs a speech-assessment service (Azure) on the server. Compare your recording with the model by ear.", hi: "उच्चारण के लिए कोई अंक नहीं दिखाए जाते: अपने-आप अंक देने के लिए सर्वर पर बोली जाँचने वाली सेवा (Azure) चाहिए। अपनी रिकॉर्डिंग की तुलना नमूने से कान से करें।" }} /></details>}
       <div role="tabpanel" id={`panel-${tab}`} aria-labelledby={`tab-${tab}`}>
         {tab === "say" && <SayIt items={say} today={today} />}
         {tab === "sounds" && <Sounds content={content} initial={initialSound} />}
-        {tab === "pairs" && <MinimalPairs sets={content.minimalPairs} />}
+        {tab === "pairs" && <MinimalPairs sets={content.minimalPairs} pairProns={pairProns} />}
         {tab === "liaison" && <Liaison l={content.liaison} />}
         {tab === "shadowing" && <Shadowing lines={shadow} />}
       </div>
@@ -87,7 +87,7 @@ function Sounds({ content, initial }: { content: PronunciationContent; initial?:
   );
 }
 
-function MinimalPairs({ sets }: { sets: PronunciationContent["minimalPairs"] }) {
+function MinimalPairs({ sets, pairProns }: { sets: PronunciationContent["minimalPairs"]; pairProns: Record<string, string> }) {
   const [setIdx, setSetIdx] = useState(0);
   const set = sets[setIdx];
   const label = useBiLabel();
@@ -103,31 +103,35 @@ function MinimalPairs({ sets }: { sets: PronunciationContent["minimalPairs"] }) 
         <ul className="grid gap-2 sm:grid-cols-2">
           {set.pairs.map(([a, b]) => (
             <li key={a + b} className="flex flex-wrap items-center gap-2 rounded-lg surface-2 p-2" lang="fr">
-              <span className="font-medium">{a}</span><Speak text={a} showSlow={false} /><span className="text-muted">{label({ en: "vs", hi: "बनाम" })}</span><span className="font-medium">{b}</span><Speak text={b} showSlow={false} />
+              <span className="font-medium">{a}</span>{pairProns[a] && <span lang="hi" className="deva text-sm text-saffron-700 dark:text-saffron-300">{pairProns[a]}</span>}<Speak text={a} showSlow={false} /><span className="text-muted">{label({ en: "vs", hi: "बनाम" })}</span><span className="font-medium">{b}</span>{pairProns[b] && <span lang="hi" className="deva text-sm text-saffron-700 dark:text-saffron-300">{pairProns[b]}</span>}<Speak text={b} showSlow={false} />
             </li>
           ))}
         </ul>
       </div>
-      <PairQuiz key={set.contrast} set={set} />
+      <PairQuiz key={set.contrast} set={set} prons={pairProns} />
     </div>
   );
 }
 
-function PairQuiz({ set }: { set: PronunciationContent["minimalPairs"][number] }) {
+function PairQuiz({ set, prons }: { set: PronunciationContent["minimalPairs"][number]; prons: Record<string, string> }) {
   const ROUNDS = 8;
-  const rounds = useMemo(() => Array.from({ length: ROUNDS }, () => { const p = set.pairs[Math.floor(Math.random() * set.pairs.length)]; return { pair: p, target: Math.random() < 0.5 ? 0 : 1 }; }), [set]);
+  // Rounds are drawn after mount: random choices during render would differ between server and browser.
+  const draw = () => Array.from({ length: ROUNDS }, () => { const p = set.pairs[Math.floor(Math.random() * set.pairs.length)]; return { pair: p, target: Math.random() < 0.5 ? 0 : 1 }; });
+  const [rounds, setRounds] = useState<{ pair: string[]; target: number }[] | null>(null);
+  useEffect(() => setRounds(draw()), [set]); // eslint-disable-line react-hooks/exhaustive-deps
   const [i, setI] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
   const [score, setScore] = useState(0);
-  const { play, error } = usePlayer();
+  const { play, playing, error } = usePlayer();
   const label = useBiLabel();
+  if (!rounds) return null;
   const r = rounds[i];
   if (i >= ROUNDS) {
     return (
       <div className="card space-y-2">
         <p className="text-lg font-semibold">{label({ en: `${score} / ${ROUNDS} heard correctly`, hi: `${ROUNDS} में से ${score} सही सुने` })}</p>
         <Bi className="text-sm text-muted" t={score === ROUNDS ? { en: "Your ear can tell these apart. Now practise saying them.", hi: "आपका कान इनका अंतर पहचान लेता है। अब इन्हें बोलने का अभ्यास करें।" } : { en: "Listen to the pairs above a few more times, then try again.", hi: "ऊपर दी गई जोड़ियों को कुछ बार और सुनें, फिर दोबारा कोशिश करें।" }} />
-        <button className="btn btn-primary btn-sm" onClick={() => { setI(0); setScore(0); setPicked(null); }}>{label({ en: "Try again", hi: "फिर से कोशिश करें" })}</button>
+        <button className="btn btn-primary btn-sm" onClick={() => { setRounds(draw()); setI(0); setScore(0); setPicked(null); }}>{label({ en: "Try again", hi: "फिर से कोशिश करें" })}</button>
       </div>
     );
   }
@@ -137,21 +141,30 @@ function PairQuiz({ set }: { set: PronunciationContent["minimalPairs"][number] }
     if (ok) setScore((s) => s + 1);
     api("/api/attempts", { body: { kind: "minimal_pair", itemRef: `pair:${set.contrast}:${r.pair[r.target]}`, skill: "pronunciation", correct: ok, response: { heard: r.pair[r.target], chose: r.pair[k] } } }).catch(() => {});
   };
+  const goNext = () => { setPicked(null); setI(i + 1); const n = rounds[i + 1]; if (n) void play([{ text: n.pair[n.target] }]); };
   return (
     <div className="card space-y-3">
       <h2 className="font-semibold">{label({ en: "Which word do you hear?", hi: "आपको कौन-सा शब्द सुनाई देता है?" })} <span className="text-sm font-normal text-muted">({label({ en: `${i + 1} of ${ROUNDS}`, hi: `${ROUNDS} में से ${i + 1}` })})</span></h2>
-      <button className="btn btn-secondary" onClick={() => play([{ text: r.pair[r.target] }])}>▶ {label({ en: "Play", hi: "सुनें" })}</button>
+      <div className="flex flex-wrap gap-2">
+        <button className="btn btn-primary" onClick={() => play([{ text: r.pair[r.target] }])}>{playing !== null ? "🔊" : "▶"} {label({ en: "Play", hi: "सुनें" })}</button>
+        <button className="btn btn-secondary" onClick={() => play([{ text: r.pair[r.target] }], { slow: true })}>🐢 {label({ en: "Slow", hi: "धीमा" })}</button>
+      </div>
       <AudioError error={error} />
       <div className="grid grid-cols-2 gap-2">
         {r.pair.map((w, k) => (
-          <button key={k} lang="fr" disabled={picked !== null} onClick={() => choose(k)}
-            className={`btn text-lg ${picked === null ? "btn-secondary" : k === r.target ? "border-2 border-green-600" : k === picked ? "border-2 border-red-500" : "btn-secondary"}`}>{w}</button>
+          <button key={k} disabled={picked !== null} onClick={() => choose(k)}
+            className={`choice-btn flex-col ${picked === null ? "" : k === r.target ? "is-right" : k === picked ? "is-wrong" : "is-dim"}`}>
+            <span lang="fr" className="text-lg font-semibold">{w}</span>
+            {prons[w] && <span lang="hi" className="deva text-sm font-normal text-saffron-700 dark:text-saffron-300">{prons[w]}</span>}
+          </button>
         ))}
       </div>
+      {Object.keys(prons).length > 0 && <Bi className="text-xs text-muted" t={{ en: "Under each word: approximate pronunciation in Devanagari.", hi: "हर शब्द के नीचे: देवनागरी में लगभग उच्चारण।" }} />}
       {picked !== null && (
-        <div className="flex items-center gap-2" aria-live="polite">
+        <div className="flex flex-wrap items-center gap-2" aria-live="polite">
           <span>{picked === r.target ? `✓ ${label({ en: "Right", hi: "सही" })}` : label({ en: `It was “${r.pair[r.target]}”`, hi: `यह “${r.pair[r.target]}” था` })}</span>
-          <button className="btn btn-primary btn-sm ml-auto" onClick={() => { setPicked(null); setI(i + 1); }}>{label({ en: "Next", hi: "आगे" })}</button>
+          <Speak text={r.pair[0]} label={r.pair[0]} showSlow={false} /><Speak text={r.pair[1]} label={r.pair[1]} showSlow={false} />
+          <button className="btn btn-primary btn-sm ml-auto" onClick={goNext}>{label({ en: "Next", hi: "आगे" })}</button>
         </div>
       )}
       <Bi className="text-xs text-muted" t={{ en: "Synthetic voices can blur some contrasts. If two words sound identical here, trust the explanation in Sounds.", hi: "कंप्यूटर से बनी आवाज़ें कुछ अंतर धुँधले कर सकती हैं। अगर यहाँ दो शब्द एक जैसे सुनाई दें, तो “ध्वनियाँ” में दी गई व्याख्या पर भरोसा करें।" }} />

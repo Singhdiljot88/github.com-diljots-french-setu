@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import { usePrefs } from "./prefs";
-import { usePlayer, AudioError, type VoiceKey } from "./audio";
+import { usePlayer, AudioError, stopAll, type VoiceKey } from "./audio";
 import { Bi, useBiLabel } from "./bi";
 
 export type RecorderState = "idle" | "explain" | "requesting" | "denied" | "unsupported" | "recording" | "recorded" | "error";
@@ -29,6 +29,7 @@ export function Recorder({ model, voice, refKey, onRecorded, compact = false }: 
     if (typeof window === "undefined" || !navigator.mediaDevices?.getUserMedia || typeof MediaRecorder === "undefined") { setState("unsupported"); return; }
     if (!micOptIn && state !== "explain") { setState("explain"); return; }
     setState("requesting");
+    stopAll(); // the model voice must not be recorded along with the learner
     try {
       stream.current = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true } });
     } catch (e) {
@@ -39,6 +40,7 @@ export function Recorder({ model, voice, refKey, onRecorded, compact = false }: 
     const chunks: BlobPart[] = [];
     mr.ondataavailable = (ev) => ev.data.size && chunks.push(ev.data);
     mr.onstop = () => {
+      if (timer.current) { clearInterval(timer.current); timer.current = null; }
       const b = new Blob(chunks, { type: mr.mimeType || "audio/webm" });
       stream.current?.getTracks().forEach((t) => t.stop());
       if (url) URL.revokeObjectURL(url);
@@ -49,7 +51,14 @@ export function Recorder({ model, voice, refKey, onRecorded, compact = false }: 
     rec.current = mr;
     mr.start();
     setSecs(0);
-    timer.current = setInterval(() => setSecs((s) => { if (s >= 59) { mr.state === "recording" && mr.stop(); } return s + 1; }), 1000);
+    if (timer.current) clearInterval(timer.current);
+    const startedAt = Date.now();
+    // Stop at 60 s. The check lives outside the state updater, which React may run twice.
+    timer.current = setInterval(() => {
+      const s = Math.floor((Date.now() - startedAt) / 1000);
+      setSecs(s);
+      if (s >= 60 && mr.state === "recording") mr.stop();
+    }, 500);
     setState("recording");
   };
   const stop = () => { if (timer.current) clearInterval(timer.current); rec.current?.state === "recording" && rec.current.stop(); };
@@ -58,8 +67,10 @@ export function Recorder({ model, voice, refKey, onRecorded, compact = false }: 
     if (!blob) return;
     setSaved("saving");
     const fd = new FormData(); fd.append("audio", blob); fd.append("ref", refKey); fd.append("kind", "practice");
-    const r = await fetch("/api/recordings", { method: "POST", body: fd });
-    setSaved(r.ok ? "yes" : "error");
+    try {
+      const r = await fetch("/api/recordings", { method: "POST", body: fd });
+      setSaved(r.ok ? "yes" : "error");
+    } catch { setSaved("error"); }
   };
 
   return (
@@ -78,12 +89,13 @@ export function Recorder({ model, voice, refKey, onRecorded, compact = false }: 
           ? <button type="button" className="btn btn-primary btn-sm" onClick={start} disabled={state === "requesting"}>● {state === "recorded" ? label({ en: "Record again", hi: "फिर से रिकॉर्ड करें" }) : label({ en: "Record", hi: "रिकॉर्ड करें" })}</button>
           : <button type="button" className="btn btn-primary btn-sm" onClick={stop}>■ {label({ en: `Stop (${secs}s)`, hi: `रोकें (${secs} सेकंड)` })}</button>}
         {url && <audio controls src={url} className="h-9 max-w-full" aria-label={label({ en: "Your recording", hi: "आपकी रिकॉर्डिंग" })} />}
-        {url && model && <button type="button" className="btn btn-secondary btn-sm" onClick={async () => { await play([{ text: model, voice }]); const a = new Audio(url); await a.play(); }}>⇄ {label({ en: "Compare", hi: "तुलना करें" })}</button>}
+        {url && model && <button type="button" className="btn btn-secondary btn-sm" onClick={async () => { await play([{ text: model, voice }]); const a = new Audio(url); await a.play().catch(() => {}); }}>⇄ {label({ en: "Compare", hi: "तुलना करें" })}</button>}
         {url && <button type="button" className="btn btn-ghost btn-sm" onClick={discard}>{label({ en: "Delete", hi: "हटाएँ" })}</button>}
         {url && keepRecordings && saved !== "yes" && <button type="button" className="btn btn-ghost btn-sm" onClick={keep} disabled={saved === "saving"}>{label({ en: "Keep in my account", hi: "मेरे खाते में रखें" })}</button>}
         {saved === "yes" && <Bi as="span" className="text-xs text-muted" t={{ en: "Saved. Manage recordings in Settings.", hi: "सहेजा गया। रिकॉर्डिंग सेटिंग्स में सँभालें।" }} />}
+        {saved === "error" && <Bi as="span" className="text-xs text-rose-700 dark:text-rose-300" t={{ en: "Couldn't save the recording. Try again.", hi: "रिकॉर्डिंग सहेजी नहीं जा सकी। दोबारा कोशिश करें।" }} />}
       </div>
-      {state === "recording" && <p className="text-sm" aria-live="polite">{label({ en: "Recording… speak now.", hi: "रिकॉर्डिंग हो रही है… अब बोलें।" })}</p>}
+      {state === "recording" && <p className="text-sm font-medium text-rose-700 dark:text-rose-300" aria-live="polite">● {label({ en: "Recording… speak now.", hi: "रिकॉर्डिंग हो रही है… अब बोलें।" })}</p>}
       {state === "denied" && <p role="alert" className="text-sm"><Bi as="span" t={{ en: "The browser hasn't been allowed to use the microphone. To record, allow the microphone for this site in your browser settings (usually the lock icon in the address bar), then try again. You can still listen, repeat aloud and compare yourself without recording.", hi: "ब्राउज़र को माइक्रोफ़ोन इस्तेमाल करने की अनुमति नहीं मिली है। रिकॉर्ड करने के लिए ब्राउज़र की सेटिंग्स में इस साइट के लिए माइक्रोफ़ोन की अनुमति दें (अक्सर पता-पट्टी में ताले वाला निशान), फिर दोबारा कोशिश करें। रिकॉर्ड किए बिना भी आप सुन सकते हैं, ज़ोर से दोहरा सकते हैं और ख़ुद तुलना कर सकते हैं।" }} /></p>}
       {state === "unsupported" && <p role="alert" className="text-sm"><Bi as="span" t={{ en: "This browser can't record audio. Try a recent Chrome, Edge, Firefox or Safari. You can still repeat aloud after the model.", hi: "यह ब्राउज़र ऑडियो रिकॉर्ड नहीं कर सकता। Chrome, Edge, Firefox या Safari का नया संस्करण आज़माएँ। तब तक आप नमूने के बाद ज़ोर से दोहरा सकते हैं।" }} /></p>}
       {state === "error" && <p role="alert" className="text-sm"><Bi as="span" t={{ en: "The microphone couldn't be started. Check that one is connected and not being used by another app, then try again.", hi: "माइक्रोफ़ोन शुरू नहीं हो सका। देख लें कि माइक जुड़ा है और कोई दूसरा ऐप उसे इस्तेमाल नहीं कर रहा, फिर दोबारा कोशिश करें।" }} /></p>}

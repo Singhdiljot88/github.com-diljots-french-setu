@@ -123,3 +123,16 @@ Verified on 2026-10-19: `npx tsc --noEmit` clean, `npm test` 52/52, `npx tsx scr
 Done: Hindi question text on all lessons; French-voice playback fix; time-zone picker; owner's pronunciation spellings (बों-जूर, सा-ल्यू, मेर-सी, ल) across all guides and teaching texts, one guide per French word; banned-string, mixed-script and old-letter lint; sound-help panels; TEF exam page and exam screens in Hindi; Hindi-only interface sweep; guided one-step lesson view; Hindi bridge boxes (tu/vous, gender, nasals, reflexives, depuis, passé composé); gender note; mnemonic field (no data yet); docs/HINDI_STYLE_GUIDE.md with QA checklist.
 
 Left: native Hindi reviewer sign-off; 100 mnemonics; some server-built text (adaptive tips, checkpoint advice, review interval previews, page titles) is still English in Hindi-only mode; owner decisions (spaced review vs repetition, ग़लत vs गलत spelling, demo notice wording).
+
+## Interactive refresh (2026-11-15)
+
+Verified: `npx tsc --noEmit` clean, `npm test` 65/65, `npm run build` passes, browser journeys 8/8.
+
+| Area | Status | Notes |
+|---|---|---|
+| Practice games (`/play`) | ✅ | Gender sprint (60 s, le/la), Number catcher (prices, times, phone numbers, years, 70–99, with Devanagari for every number), False friends quiz + browse list (31 items incl. Hindi gender traps), Listen & pick. One scored attempt per session, minutes logged, at most 5 misses go to the mistake notebook (`src/server/practice.ts`, `/api/practice`). |
+| Today redesign | ✅ | Hero with next step, minutes ring, study streak (days, not proficiency); 5-minute practice tiles; compact stats; details (skills, 12-week heatmap, mistakes) folded away. `src/server/activity.ts`. |
+| Free resources (`/resources`) | ✅ | Official TEF/IRCC links, RFI, TV5MONDE, Radio-Canada, each with "how to use it with French Setu", plus a weekly routine. Links checked 2026-11-15. |
+| Ask the tutor | ✅ | Floating button → chat panel; follow-ups keep the last 3 turns; voice questions in Hindi (Speko or the browser's hi-IN recognizer); suggested follow-ups; examples with Devanagari and audio. Fixed "AI answer did not match the expected format": answers are now coerced (JSON strings, wrapper keys, nulls, over-long texts trimmed) and one repair round is attempted; tutor max tokens raised to 6000 because Devanagari is token-heavy. |
+| Speech reliability | ✅ | Shared audio element unlocked on first tap (iPhone), stop always settles a waiting play, Chrome onend watchdog, Android `fr_FR` voices, model audio stopped before any recording, server recognizer handles stop-before-permission, 30 s cap, "transcribing…" state, abort on leaving the page; recorder timer leak fixed; one-play exam listening refuses to start when no French voice exists; minimal-pair quiz no longer mismatches between server and browser. |
+| Decluttering | ✅ | Audio and scoring notes are one-line toggles; tips behind "details"; nav adds Games and Resources; bottom bar: Today, Review, Games, Speak, Hindi→FR. |

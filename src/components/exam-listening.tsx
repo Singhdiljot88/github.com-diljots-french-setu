@@ -11,7 +11,7 @@ type Result = { correct: boolean; answer: number; explanation: { en: string; hi:
 /** Exam-style listening: questions first, the recording plays once at normal speed, no pause or replay, transcript only after submitting. */
 export function ExamListening({ d }: { d: ClientLesson }) {
   const Ls = d.listening;
-  const { play, playing, error } = usePlayer();
+  const { play, playing, error, engine } = usePlayer();
   const [phase, setPhase] = useState<"ready" | "playing" | "answer" | "done">("ready");
   const [choices, setChoices] = useState<(number | null)[]>(Ls.questions.map(() => null));
   const [results, setResults] = useState<Result[] | null>(null);
@@ -38,7 +38,8 @@ export function ExamListening({ d }: { d: ClientLesson }) {
         {explanationLang !== "en" && <p lang="hi" className={`deva ${explanationLang === "both" ? "text-muted mt-0.5" : ""}`}>पहले प्रश्न पढ़ें। रिकॉर्डिंग सामान्य गति से <strong>केवल एक बार</strong> चलती है, बिना रुके और बिना दोबारा चले। आप उसके चलते-चलते उत्तर दे सकते हैं। जमा करने के बाद लिखित पाठ दिखेगा।</p>}
       </div>
       <AudioSourceNote />
-      {phase === "ready" && <button type="button" className="btn btn-primary" onClick={start}>▶ {L({ en: "Start the recording (plays once)", hi: "रिकॉर्डिंग सुनें (एक ही बार चलेगी)" })}</button>}
+      {phase === "ready" && engine.kind === "none" && <Bi className="text-sm font-medium text-rose-700 dark:text-rose-300" t={{ en: "No French voice is available on this device, so the recording can't play yet. Add a French text-to-speech voice in your device settings, then reload.", hi: "इस डिवाइस पर कोई फ़्रेंच आवाज़ नहीं है, इसलिए रिकॉर्डिंग अभी नहीं चल सकती। डिवाइस की सेटिंग्स में फ़्रेंच टेक्स्ट-टू-स्पीच आवाज़ जोड़ें, फिर पेज दोबारा लोड करें।" }} />}
+      {phase === "ready" && <button type="button" className="btn btn-primary" onClick={start} disabled={engine.kind === "none"}>▶ {L({ en: "Start the recording (plays once)", hi: "रिकॉर्डिंग सुनें (एक ही बार चलेगी)" })}</button>}
       {phase === "playing" && <p className="font-medium" aria-live="polite">🔊 {L({ en: `Playing… line ${(playing ?? 0) + 1} of ${Ls.lines.length}`, hi: `चल रही है… ${Ls.lines.length} में से पंक्ति ${(playing ?? 0) + 1}` })}</p>}
       {phase === "answer" && <p className="text-sm text-muted" aria-live="polite">{L({ en: "The recording has finished. Answer and submit.", hi: "रिकॉर्डिंग ख़त्म हो गई। उत्तर दें और जमा करें।" })}</p>}
       <AudioError error={error} />

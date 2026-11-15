@@ -267,7 +267,7 @@ function Listening({ v, act, strict, onSubmit, reload }: { v: ListeningV } & Com
   const [view, setView] = useState(v.position);
   const [phase, setPhase] = useState<"idle" | "playing">("idle");
   const [played, setPlayed] = useState<number[]>(v.played);
-  const { play, playing, error, stop } = usePlayer();
+  const { play, playing, error, stop, engine } = usePlayer();
   const cur = done ? null : v.items[strict ? v.position : view];
   const L = useBiLabel();
 
@@ -322,7 +322,8 @@ function Listening({ v, act, strict, onSubmit, reload }: { v: ListeningV } & Com
         <p lang="fr" className="font-medium">{cur.context}</p>
         {phase === "playing"
           ? <p className="font-medium" aria-live="polite">🔊 {L({ en: "Playing…", hi: "चल रही है…" })} {playing !== null ? L({ en: `line ${playing + 1}`, hi: `पंक्ति ${playing + 1}` }) : ""}</p>
-          : (!hasPlayed || !strict) && <button type="button" className="btn btn-primary" onClick={start}>▶ {L(hasPlayed ? { en: "Play again", hi: "फिर से सुनें" } : strict ? { en: "Play the recording (once)", hi: "रिकॉर्डिंग सुनें (एक बार)" } : { en: "Play the recording", hi: "रिकॉर्डिंग सुनें" })}</button>}
+          : (!hasPlayed || !strict) && <button type="button" className="btn btn-primary" onClick={start} disabled={engine.kind === "none"}>▶ {L(hasPlayed ? { en: "Play again", hi: "फिर से सुनें" } : strict ? { en: "Play the recording (once)", hi: "रिकॉर्डिंग सुनें (एक बार)" } : { en: "Play the recording", hi: "रिकॉर्डिंग सुनें" })}</button>}
+        {engine.kind === "none" && !hasPlayed && <Bi className="text-sm font-medium text-rose-700 dark:text-rose-300" t={{ en: "No French voice is available on this device, so the recording can't play. Add a French text-to-speech voice in your device settings and reload before you use your one play.", hi: "इस डिवाइस पर कोई फ़्रेंच आवाज़ नहीं है, इसलिए रिकॉर्डिंग नहीं चल सकती। अपनी एक बार की सुनवाई इस्तेमाल करने से पहले डिवाइस की सेटिंग्स में फ़्रेंच टेक्स्ट-टू-स्पीच आवाज़ जोड़ें और पेज दोबारा लोड करें।" }} />}
         {hasPlayed && strict && phase === "idle" && <Bi className="text-sm text-muted" t={{ en: "The recording has been played.", hi: "रिकॉर्डिंग चल चुकी है।" }} />}
         <AudioError error={error} />
         {cur.questions.map((q, qi) => <QuestionCard key={q.id} q={q} n={qi + 1} name={q.id} chosen={answers[q.id] as number | undefined} locked={false} onChoose={(j) => choose(q.id, j)} />)}
