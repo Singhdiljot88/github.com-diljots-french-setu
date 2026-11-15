@@ -1,4 +1,5 @@
 import type { DictEntry } from "@/content/dictionary-schema";
+import { H_ASPIRE } from "./elision";
 
 export type Tense = "present" | "passe_compose" | "imparfait" | "futur" | "conditionnel" | "subjonctif" | "imperatif";
 export const TENSE_LABELS: Record<Tense, { fr: string; en: string; hi: string }> = {
@@ -14,7 +15,6 @@ export const TENSE_LABELS: Record<Tense, { fr: string; en: string; hi: string }>
 const PRONOUNS = ["je", "tu", "il/elle/on", "nous", "vous", "ils/elles"];
 const REFLEXIVE = ["me", "te", "se", "nous", "vous", "se"];
 const vowelStart = (s: string) => /^[aeiouyhâàäéèêëîïôöûùüœ]/i.test(s);
-const H_ASPIRE = new Set(["haïr", "hurler", "heurter", "hâter", "hisser", "hausser"]);
 const elides = (s: string, inf: string) => vowelStart(s) && !(s.startsWith("h") && H_ASPIRE.has(inf));
 
 export type VerbInfo = NonNullable<DictEntry["verb"]>;

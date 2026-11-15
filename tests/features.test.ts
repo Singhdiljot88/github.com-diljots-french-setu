@@ -89,3 +89,27 @@ describe("false friends data", () => {
     expect(CONFUSABLES.filter((c) => c.kind === "false_friend").length).toBeGreaterThanOrEqual(10);
   });
 });
+
+import { definite, elides } from "@/lib/elision";
+import { blockMinutes } from "@/lib/schedule";
+
+describe("elision and h aspiré", () => {
+  it("elides before vowels and h muet only", () => {
+    expect(definite("hockey", "m")).toBe("le hockey");
+    expect(definite("hausse", "f")).toBe("la hausse");
+    expect(definite("hindi", "m")).toBe("le hindi");
+    expect(definite("homme", "m")).toBe("l'homme");
+    expect(definite("hôtel", "m")).toBe("l'hôtel");
+    expect(definite("eau", "f")).toBe("l'eau");
+    expect(definite("maison", "f")).toBe("la maison");
+    expect(elides("huit")).toBe(false);
+    expect(elides("heure")).toBe(true);
+  });
+});
+
+describe("45-minute plan", () => {
+  it("has writing at 0 minutes, so it is optional for completion", () => {
+    expect(blockMinutes(2, 45, "compact").writing).toBe(0);
+    expect(blockMinutes(2, 150, "complete").writing).toBeGreaterThan(0);
+  });
+});

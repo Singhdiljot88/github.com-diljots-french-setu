@@ -24,7 +24,7 @@ const take = <T,>(arr: T[], share: number, min = 2) => (share >= 1 ? arr : arr.s
 
 export function LessonPlayer({ lesson: d, activities: initial, minutes, share, reviewStatus, dueCount }: Props) {
   const [done, setDone] = useState<Record<string, boolean>>(initial);
-  const [completed, setCompleted] = useState(BLOCK_ORDER.every((b) => initial[b]));
+  const [completed, setCompleted] = useState(BLOCK_ORDER.every((b) => initial[b] || minutes[b] === 0));
   const lastMark = useRef(Date.now());
   // Guided view shows one block at a time; the full lesson stays one tap away.
   const [guided, setGuided] = useState(true);
@@ -138,7 +138,7 @@ export function LessonPlayer({ lesson: d, activities: initial, minutes, share, r
           learn={{ hints: d.writing.hints, phrases: d.writing.usefulPhrases, model: d.writing.model, checklist: d.writing.checklist }} defaultMode="practice" />
       </Section>
 
-      <Section hidden={!shown("assessment")} id="assessment" minutes={minutes.assessment} done={done.assessment} onDone={() => mark("assessment")} requireNote={{ en: "Submit the check first.", hi: "पहले जाँच के उत्तर जमा करें।" }}>
+      <Section hidden={!shown("assessment")} id="assessment" minutes={minutes.assessment} done={done.assessment} onDone={() => mark("assessment")} manual={false} requireNote={{ en: "Submit your answers above to complete this part.", hi: "यह हिस्सा पूरा करने के लिए ऊपर अपने उत्तर जमा करें।" }}>
         <AssessmentBlock d={d} onSubmitted={() => !done.assessment && mark("assessment")} />
       </Section>
 
@@ -177,7 +177,7 @@ function GenderNote() {
   );
 }
 
-function Section({ id, hidden, minutes, done, onDone, children, doneNote, requireNote }: { id: BlockKey; hidden?: boolean; minutes: number; done?: boolean; onDone: () => Promise<void> | void; children: React.ReactNode; doneNote?: BiText; requireNote?: BiText }) {
+function Section({ id, hidden, minutes, done, onDone, children, doneNote, requireNote, manual = true }: { id: BlockKey; hidden?: boolean; minutes: number; done?: boolean; onDone: () => Promise<void> | void; children: React.ReactNode; doneNote?: BiText; requireNote?: BiText; manual?: boolean }) {
   const [busy, setBusy] = useState(false);
   return (
     <section id={id} hidden={hidden} className="card scroll-mt-20" aria-labelledby={`${id}-h`}>
@@ -187,7 +187,7 @@ function Section({ id, hidden, minutes, done, onDone, children, doneNote, requir
       </div>
       {children}
       <div className="mt-4 flex flex-wrap items-center gap-3 border-t border-app pt-3">
-        {done ? <span className="text-sm font-medium text-brand-700 dark:text-brand-200">✓ <Bi as="span" t={{ en: "Completed", hi: "पूरा हुआ" }} /></span> : (
+        {done ? <span className="text-sm font-medium text-brand-700 dark:text-brand-200">✓ <Bi as="span" t={{ en: "Completed", hi: "पूरा हुआ" }} /></span> : !manual ? null : (
           <button type="button" className="btn btn-secondary" disabled={busy} onClick={async () => { setBusy(true); try { await onDone(); } finally { setBusy(false); } }}><Bi as="span" t={{ en: `Mark ${BLOCK_LABELS[id].en.toLowerCase()} done`, hi: "पूर्ण चिह्नित करें" }} /></button>
         )}
         {doneNote && !done && <Bi as="span" className="text-xs text-muted" t={doneNote} />}

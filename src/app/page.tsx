@@ -24,7 +24,8 @@ export default async function Welcome({ searchParams }: { searchParams: Promise<
         approximate Devanagari pronunciation help, listening and speaking from Day 1, and TEF Canada practice later in the course.
       </p>
       <div className="mt-8 flex flex-wrap gap-3">
-        <Link href="/signup" className="btn btn-primary">Start the course</Link>
+        <Link href="/try" className="btn btn-primary">Try 5 words now · <span lang="hi" className="deva">अभी 5 शब्द सीखें</span></Link>
+        <Link href="/signup" className="btn btn-secondary">Start the course</Link>
         <Link href="/signin" className="btn btn-secondary">Sign in</Link>
         <GuestButton />
       </div>
@@ -38,6 +39,7 @@ export default async function Welcome({ searchParams }: { searchParams: Promise<
           <li key={t} className="card"><p className="font-semibold">{t}</p><p className="text-sm text-muted">{d}</p></li>
         ))}
       </ul>
+      <footer className="mt-10 flex gap-4 text-sm text-muted"><Link href="/privacy" className="underline">Privacy · <span lang="hi" className="deva">गोपनीयता</span></Link><Link href="/try" className="underline">Try it · <span lang="hi" className="deva">आज़माएँ</span></Link></footer>
     </main>
   );
 }

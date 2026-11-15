@@ -6,7 +6,7 @@ import { CURRICULUM_VERSION } from "@/content/load";
 import type { AssessmentQ, Day, Mcq } from "@/content/schema";
 import { localDate } from "@/lib/dates";
 import { checkAnswer } from "@/lib/text";
-import { BLOCK_ORDER, type BlockKey } from "@/lib/schedule";
+import { BLOCK_ORDER, blockMinutes, type BlockKey } from "@/lib/schedule";
 import { getLesson } from "./content";
 import { HttpError } from "./http";
 import { saveWord } from "./words";
@@ -19,16 +19,24 @@ export async function ensureDayRow(userId: string, day: number) {
   return row;
 }
 
-/** Blocks that count towards completing a lesson (writing has 0 minutes in the 45-minute compact plan but is still offered). */
-export function requiredBlocks(): BlockKey[] { return BLOCK_ORDER; }
+/**
+ * Blocks that count towards completing a lesson for this learner's plan. A block with 0 planned
+ * minutes (writing in the 45-minute compact plan) is offered as optional and does not block completion.
+ */
+export function requiredBlocks(day: number, profile: Pick<Profile, "dailyMinutes" | "pace">): BlockKey[] {
+  const m = blockMinutes(day, profile.dailyMinutes, profile.pace);
+  return BLOCK_ORDER.filter((b) => m[b] > 0);
+}
 
 export async function completeBlock(userId: string, profile: Profile, day: number, block: BlockKey, minutes: number) {
   const lesson = await getLesson(day);
   if (!lesson) throw new HttpError(404, "Lesson not found");
   const db = await getDb();
   const row = await ensureDayRow(userId, day);
+  // The check has to be answered, not just ticked: the score is saved when it is submitted.
+  if (block === "assessment" && row.assessmentScore == null && lesson.day.assessment.length > 0) throw new HttpError(409, "Submit the check first. · पहले जाँच के उत्तर जमा करें।");
   const activities = { ...row.activities, [block]: true };
-  const allDone = requiredBlocks().every((b) => activities[b]);
+  const allDone = requiredBlocks(day, profile).every((b) => activities[b]);
   await db.update(dayProgress).set({
     activities,
     status: allDone ? "completed" : row.status,

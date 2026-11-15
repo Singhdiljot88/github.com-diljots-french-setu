@@ -33,6 +33,7 @@ const GROUPS: { title: { en: string; hi: string }; items: { href: string; label:
     { href: "/mistakes", label: "Mistake notebook", hi: "ग़लतियों की कॉपी", icon: "📒" },
     { href: "/progress", label: "Progress", hi: "प्रगति", icon: "📈" },
     { href: "/settings", label: "Settings", hi: "सेटिंग्स", icon: "⚙️" },
+    { href: "/privacy", label: "Privacy", hi: "गोपनीयता", icon: "🔒" },
   ] },
 ];
 

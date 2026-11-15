@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getEntry } from "@/server/content";
+import { dictIndex, getEntry } from "@/server/content";
 import { conjugate, TENSE_LABELS, type Tense } from "@/lib/conjugate";
 import { Speak } from "@/components/audio";
 import { Pron } from "@/components/fr-item";
@@ -23,6 +23,10 @@ export default async function EntryPage({ params }: { params: Promise<{ id: stri
   const hit = await getEntry(id);
   if (!hit) notFound();
   const e = hit.entry;
+  // Cross-references link straight to an entry when the dictionary has that exact word; others stay plain text (no dead links).
+  const idx = await dictIndex();
+  const idByLemma = new Map(idx.entries.map((x) => [x.entry.lemma.toLowerCase(), x.id]));
+  const refLink = (w: string) => { const rid = idByLemma.get(w.toLowerCase()); return rid ? <Link className="underline" lang="fr" href={`/dictionary/${encodeURIComponent(rid)}`}>{w}</Link> : <span lang="fr">{w}</span>; };
   const table = e.verb ? conjugate(e.lemma, e.verb) : null;
   const g = e.gender ? GENDER[e.gender] : null;
   const head = (pos: string, gender: string, register: string) => `${pos}${g ? ` · ${gender} (${ARTICLE[e.gender!]} ${e.lemma})` : ""} · ${e.level}${e.register !== "neutral" ? ` · ${register}` : ""}`;
@@ -92,8 +96,8 @@ export default async function EntryPage({ params }: { params: Promise<{ id: stri
       {(e.related.length > 0 || e.synonyms.length > 0) && (
         <section className="card text-sm" aria-labelledby="rel-h">
           <h2 id="rel-h" className="sr-only"><Bi as="span" t={{ en: "Related words", hi: "संबंधित शब्द" }} /></h2>
-          {e.synonyms.length > 0 && <p><Bi as="span" className="text-muted" t={{ en: "Synonyms", hi: "समानार्थी शब्द" }} />: {e.synonyms.map((s, i) => <span key={s}>{i > 0 && ", "}<Link className="underline" lang="fr" href={`/dictionary?q=${encodeURIComponent(s)}`}>{s}</Link></span>)}</p>}
-          {e.related.length > 0 && <p><Bi as="span" className="text-muted" t={{ en: "Related", hi: "संबंधित" }} />: {e.related.map((s, i) => <span key={s}>{i > 0 && ", "}<Link className="underline" lang="fr" href={`/dictionary?q=${encodeURIComponent(s)}`}>{s}</Link></span>)}</p>}
+          {e.synonyms.length > 0 && <p><Bi as="span" className="text-muted" t={{ en: "Synonyms", hi: "समानार्थी शब्द" }} />: {e.synonyms.map((s, i) => <span key={s}>{i > 0 && ", "}{refLink(s)}</span>)}</p>}
+          {e.related.length > 0 && <p><Bi as="span" className="text-muted" t={{ en: "Related", hi: "संबंधित" }} />: {e.related.map((s, i) => <span key={s}>{i > 0 && ", "}{refLink(s)}</span>)}</p>}
         </section>
       )}
 

@@ -213,10 +213,16 @@ export function OnboardingForm({ defaultTz, today }: { defaultTz: string; today:
         </fieldset>
       )}
 
+      {step === 0 && <Bi className="text-sm text-muted" t={{ en: "“Start Day 1 now” uses the recommended plan (TEF Canada, 150 min a day, from zero, Devanagari help on). You can change any of it later in Settings.", hi: "“अभी दिन 1 शुरू करें” सुझाई गई योजना इस्तेमाल करता है (TEF Canada, रोज़ 150 मिनट, शुरुआत से, देवनागरी मदद चालू)। बाद में सेटिंग्स में कुछ भी बदल सकते हैं।" }} />}
       {error && <p role="alert" className="text-sm text-red-700 dark:text-red-300">{error}</p>}
       <div className="flex justify-between gap-3">
         <button type="button" className="btn btn-secondary" onClick={() => setStep((s) => s - 1)} disabled={step === 0}>{b({ en: "Back", hi: "पीछे" })}</button>
-        {step < steps.length - 1
+        {step === 0
+          ? <span className="flex flex-wrap justify-end gap-2">
+              <button type="button" className="btn btn-secondary" onClick={() => setStep(1)}>{b({ en: "Customise my plan", hi: "अपनी योजना बनाएँ" })}</button>
+              <button type="button" className="btn btn-primary" onClick={submit} disabled={busy}>{b(busy ? { en: "Saving…", hi: "सहेजा जा रहा है…" } : { en: "Start Day 1 now", hi: "अभी दिन 1 शुरू करें" })}</button>
+            </span>
+          : step < steps.length - 1
           ? <button type="button" className="btn btn-primary" onClick={() => setStep((s) => s + 1)}>{b({ en: "Next", hi: "आगे" })}</button>
           : <button type="button" className="btn btn-primary" onClick={submit} disabled={busy}>{b(busy ? { en: "Saving…", hi: "सहेजा जा रहा है…" } : { en: `Start Day ${f.placementDay}`, hi: `दिन ${f.placementDay} शुरू करें` })}</button>}
       </div>

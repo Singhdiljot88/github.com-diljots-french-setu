@@ -3,6 +3,7 @@ import { conjugate } from "@/lib/conjugate";
 import { stripAccents, wordCount } from "@/lib/text";
 import type { Correction, WritingFeedback } from "@/lib/feedback-schema";
 import { dictIndex } from "./content";
+import { H_ASPIRE } from "@/lib/elision";
 
 /**
  * Rule-based checker used when no AI provider is configured. It is NOT AI and is labelled so in the UI:
@@ -42,8 +43,6 @@ async function spellings(): Promise<Spellings> {
 }
 
 const VOWEL_START = /^[aeiouyhâàéèêëîïôûœ]/i;
-// h aspiré words take no elision
-const H_ASPIRE = new Set(["haricot", "héros", "hibou", "homard", "honte", "hors", "huit", "hasard", "haut", "hall", "handicap", "hockey"]);
 
 const BE_HAVE: Record<string, Record<string, string>> = {
   je: { es: "suis", est: "suis", sont: "suis", as: "ai", a: "ai", avons: "ai" },

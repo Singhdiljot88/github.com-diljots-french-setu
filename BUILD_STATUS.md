@@ -136,3 +136,17 @@ Verified: `npx tsc --noEmit` clean, `npm test` 65/65, `npm run build` passes, br
 | Ask the tutor | ✅ | Floating button → chat panel; follow-ups keep the last 3 turns; voice questions in Hindi (Speko or the browser's hi-IN recognizer); suggested follow-ups; examples with Devanagari and audio. Fixed "AI answer did not match the expected format": answers are now coerced (JSON strings, wrapper keys, nulls, over-long texts trimmed) and one repair round is attempted; tutor max tokens raised to 6000 because Devanagari is token-heavy. |
 | Speech reliability | ✅ | Shared audio element unlocked on first tap (iPhone), stop always settles a waiting play, Chrome onend watchdog, Android `fr_FR` voices, model audio stopped before any recording, server recognizer handles stop-before-permission, 30 s cap, "transcribing…" state, abort on leaving the page; recorder timer leak fixed; one-play exam listening refuses to start when no French voice exists; minimal-pair quiz no longer mismatches between server and browser. |
 | Decluttering | ✅ | Audio and scoring notes are one-line toggles; tips behind "details"; nav adds Games and Resources; bottom bar: Today, Review, Games, Speak, Hindi→FR. |
+
+## Audit fixes (2026-11-15, from external review)
+
+| Finding | Status |
+|---|---|
+| Games could write "l'hockey" | ✅ Fixed. Shared `src/lib/elision.ts` (h aspiré list) now used by games, conjugation and the writing checker. |
+| Hindi speech sent to French recognition | ✅ Fixed for every provider: `/api/stt?lang=hi` now reaches OpenAI (`language=hi`) and Azure (`hi-IN`), not only Speko. |
+| Check could be ticked without answering | ✅ Fixed. No manual tick on the check; the server refuses to complete it until answers are submitted. |
+| 45-minute plan: optional writing still blocked completion | ✅ Fixed. Blocks with 0 planned minutes don't count towards completion (server and client). |
+| Dictionary cross-references (978 related, 209 synonyms) not in the dictionary | ✅ UI: links go straight to the entry when it exists; other words show as plain text (no dead links). Adding the missing entries is content work. |
+| Day 80 French title used "Checkpoint" | ✅ Now "Bilan 4 : opinions et interaction". |
+| Long onboarding before trying anything | ✅ Public `/try` (5 words, Devanagari, audio, mini check, no account); landing page leads with it; onboarding step 1 has "Start Day 1 now" with the recommended plan. |
+| Privacy page missing | ✅ Draft `/privacy` matching what the code does. Needs operator name/contact and a legal review before a paid launch. |
+| Open | Days 101–120: ~11 readings under the 200-word target (content work). Terms, support contact and pricing pages need the owner's decisions. Human expert review of AI-drafted content. |

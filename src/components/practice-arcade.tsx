@@ -4,6 +4,7 @@ import { Bi, useBiLabel } from "./bi";
 import { Speak, usePlayer, AudioSourceNote, AudioError } from "./audio";
 import { api } from "@/lib/api-client";
 import { CONFUSABLES, type Confusable } from "@/lib/confusables";
+import { definite } from "@/lib/elision";
 import { checkNumber, makeChallenge, type NumberChallenge, type NumberKind } from "@/lib/nombres";
 
 export type ArcadeNoun = { lemma: string; gender: "m" | "f"; en: string; hi: string; pron?: string };
@@ -12,8 +13,7 @@ type Miss = { original: string; corrected: string; en: string; hi?: string };
 type T = { en: string; hi: string };
 
 const shuffle = <X,>(xs: X[]): X[] => { const a = [...xs]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
-const vowelStart = (w: string) => /^[aeiouyhâàéèêîïôûœ]/i.test(w);
-const withArticle = (n: ArcadeNoun) => (vowelStart(n.lemma) ? `l'${n.lemma}` : `${n.gender === "m" ? "le" : "la"} ${n.lemma}`);
+const withArticle = (n: ArcadeNoun) => definite(n.lemma, n.gender);
 const indef = (n: ArcadeNoun) => `${n.gender === "m" ? "un" : "une"} ${n.lemma}`;
 
 function readBest(key: string): number { try { return Number(localStorage.getItem(`fs-best-${key}`) ?? 0) || 0; } catch { return 0; } }
