@@ -1,41 +1,15 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Bi, useBiLabel } from "./bi";
 import { usePrefs } from "./prefs";
+import { CommandPalette } from "./command-palette";
+import { NAV_GROUPS } from "@/lib/nav-items";
 
 const SHORT: Record<string, { en: string; hi: string }> = { "/play": { en: "Games", hi: "खेल" }, "/speaking": { en: "Speak", hi: "बोलें" }, "/hindi": { en: "Hindi→FR", hi: "हिंदी→FR" } };
 
-const GROUPS: { title: { en: string; hi: string }; items: { href: string; label: string; hi: string; icon: string }[] }[] = [
-  { title: { en: "Learn", hi: "सीखें" }, items: [
-    { href: "/today", label: "Today", hi: "आज", icon: "☀️" },
-    { href: "/hindi", label: "Hindi → French", hi: "हिंदी से फ़्रेंच", icon: "🔤" },
-    { href: "/course", label: "Course map", hi: "पाठ्यक्रम", icon: "🗺️" },
-    { href: "/review", label: "Review", hi: "दोहराव", icon: "🔁" },
-    { href: "/play", label: "Practice games", hi: "अभ्यास के खेल", icon: "🎯" },
-    { href: "/dictionary", label: "Dictionary", hi: "शब्दकोश", icon: "📖" },
-    { href: "/words", label: "My words", hi: "मेरे शब्द", icon: "⭐" },
-  ] },
-  { title: { en: "Practise", hi: "अभ्यास" }, items: [
-    { href: "/pronunciation", label: "Pronunciation lab", hi: "उच्चारण लैब", icon: "👄" },
-    { href: "/speaking", label: "Speaking tutor", hi: "बोलने का अभ्यास", icon: "🗣️" },
-    { href: "/writing", label: "Writing studio", hi: "लेखन स्टूडियो", icon: "✍️" },
-    { href: "/listening", label: "Listening library", hi: "सुनने का अभ्यास", icon: "🎧" },
-    { href: "/reading", label: "Reading library", hi: "पढ़ने का अभ्यास", icon: "📰" },
-    { href: "/discover", label: "Web discovery", hi: "वेब से सीखें", icon: "🔎" },
-  ] },
-  { title: { en: "TEF", hi: "TEF" }, items: [
-    { href: "/exam", label: "TEF practice & mocks", hi: "TEF परीक्षा अभ्यास", icon: "📝" },
-    { href: "/resources", label: "Free resources", hi: "मुफ़्त संसाधन", icon: "🧭" },
-  ] },
-  { title: { en: "You", hi: "आप" }, items: [
-    { href: "/mistakes", label: "Mistake notebook", hi: "ग़लतियों की कॉपी", icon: "📒" },
-    { href: "/progress", label: "Progress", hi: "प्रगति", icon: "📈" },
-    { href: "/settings", label: "Settings", hi: "सेटिंग्स", icon: "⚙️" },
-    { href: "/privacy", label: "Privacy", hi: "गोपनीयता", icon: "🔒" },
-  ] },
-];
+const GROUPS = NAV_GROUPS;
 
 const find = (href: string) => GROUPS.flatMap((g) => g.items).find((i) => i.href === href)!;
 const MOBILE = [find("/today"), find("/review"), find("/play"), find("/speaking"), find("/hindi")].map((i) => ({ ...i, short: SHORT[i.href] ?? { en: i.label, hi: i.hi } }));
@@ -70,26 +44,37 @@ function NavList({ onNavigate }: { onNavigate?: () => void }) {
   );
 }
 
+const PAGES = GROUPS.flatMap((g) => g.items.map((i) => ({ href: i.href, en: i.label, hi: i.hi, icon: i.icon })));
+
 export function AppNav({ demoAi, isGuest }: { demoAi: boolean; isGuest: boolean }) {
   const [open, setOpen] = useState(false);
+  const [palette, setPalette] = useState(false);
   const path = usePathname();
   const L = useBiLabel();
   const { explanationLang: lang } = usePrefs();
+  const openPalette = useCallback(() => setPalette(true), []);
+  const closePalette = useCallback(() => setPalette(false), []);
   useEffect(() => setOpen(false), [path]);
   return (
     <>
       <aside className="surface fixed inset-y-0 left-0 hidden print:!hidden w-64 overflow-y-auto border-y-0 border-l-0 p-3 lg:block">
-        <Link href="/today" className="mb-4 flex items-center gap-2 px-3 py-2">
+        <Link href="/today" className="mb-3 flex items-center gap-2 px-3 py-2">
           <img src="/icons/icon-192.png" alt="" width={32} height={32} className="rounded-lg" />
           <span className="font-bold">French Setu</span>
         </Link>
+        <button type="button" onClick={openPalette} className="mb-3 flex w-full items-center gap-2 rounded-xl border border-app px-3 py-2 text-left text-sm text-muted hover:border-brand-400">
+          <span aria-hidden>🔎</span>
+          <span className="min-w-0 flex-1 truncate">{lang === "hi" ? "खोजें या जाएँ" : "Search or jump to…"}</span>
+          <kbd className="chip surface-2">Ctrl K</kbd>
+        </button>
         <NavList />
         <Badges demoAi={demoAi} isGuest={isGuest} />
       </aside>
       <header className="sticky top-0 z-30 flex print:hidden items-center gap-2 border-b border-app bg-[color-mix(in_srgb,var(--surface)_88%,transparent)] px-4 py-2 backdrop-blur-lg lg:hidden">
-        <Link href="/today" className="flex items-center gap-2 font-bold"><img src="/icons/icon-192.png" alt="" width={28} height={28} className="rounded-md" />French Setu</Link>
-        {demoAi && <span className="chip ml-auto bg-saffron-100 text-saffron-700">{lang === "hi" ? "डेमो मोड" : "Demo AI"}</span>}
-        <button type="button" className={`btn btn-ghost btn-sm ${demoAi ? "" : "ml-auto"}`} onClick={() => setOpen(true)} aria-expanded={open} aria-controls="mobile-menu">☰ {lang === "hi" ? "मेन्यू" : "Menu"}</button>
+        <Link href="/today" className="flex min-w-0 items-center gap-2 font-bold"><img src="/icons/icon-192.png" alt="" width={28} height={28} className="rounded-md" /><span className="truncate">French Setu</span></Link>
+        {demoAi && <span className="chip ml-auto shrink-0 bg-saffron-100 text-saffron-700">{lang === "hi" ? "डेमो मोड" : "Demo AI"}</span>}
+        <button type="button" className={`btn btn-ghost btn-sm shrink-0 ${demoAi ? "" : "ml-auto"}`} onClick={openPalette} aria-label={L({ en: "Search or jump to", hi: "खोजें या जाएँ" })}>🔎</button>
+        <button type="button" className="btn btn-ghost btn-sm shrink-0" onClick={() => setOpen(true)} aria-expanded={open} aria-controls="mobile-menu" aria-label={L({ en: "Menu", hi: "मेन्यू" })}><span aria-hidden>☰</span> <span className="hidden sm:inline">{lang === "hi" ? "मेन्यू" : "Menu"}</span></button>
       </header>
       {open && (
         <div className="fixed inset-0 z-50 lg:hidden" role="dialog" aria-modal="true" aria-label={L({ en: "Menu", hi: "मेन्यू" })} id="mobile-menu">
@@ -111,6 +96,7 @@ export function AppNav({ demoAi, isGuest }: { demoAi: boolean; isGuest: boolean 
           );
         })}
       </nav>
+      <CommandPalette open={palette} onOpen={openPalette} onClose={closePalette} pages={PAGES} />
     </>
   );
 }

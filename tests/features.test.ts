@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { z } from "zod";
 import { checkNumber, frenchNumber, makeChallenge, numberPron } from "@/lib/nombres";
+import { dayFromQuery, filterPages, isDayOnlyQuery, matchesDayQuery } from "@/lib/jump";
 import { summarise } from "@/server/activity";
 import { coerceToSchema } from "@/server/ai";
 import { TutorAnswer } from "@/server/lesson-tutor";
@@ -37,6 +38,38 @@ describe("French numbers", () => {
     expect(checkNumber(t, "14h30")).toBe(true);
     expect(checkNumber(t, "14:31")).toBe(false);
     expect(checkNumber(t, "")).toBe(false);
+  });
+});
+
+describe("jump search", () => {
+  const pages = [
+    { href: "/today", en: "Today", hi: "आज", icon: "☀️" },
+    { href: "/dictionary", en: "Dictionary", hi: "शब्दकोश", icon: "📖" },
+  ];
+  it("filters pages and recognises a lesson day", () => {
+    expect(filterPages(pages, "").map((p) => p.href)).toEqual(["/today", "/dictionary"]);
+    expect(filterPages(pages, "dict").map((p) => p.href)).toEqual(["/dictionary"]);
+    expect(filterPages(pages, "शब्द").map((p) => p.href)).toEqual(["/dictionary"]);
+    expect(dayFromQuery("12")).toBe(12);
+    expect(dayFromQuery("day 120")).toBe(120);
+    expect(dayFromQuery("दिन 7")).toBe(7);
+    expect(dayFromQuery("0")).toBeNull();
+    expect(dayFromQuery("121")).toBeNull();
+    expect(dayFromQuery("bonjour")).toBeNull();
+    expect(isDayOnlyQuery("jour 3")).toBe(true);
+    expect(isDayOnlyQuery("bonjour")).toBe(false);
+  });
+  it("matches course days by number or title", () => {
+    const days = [
+      { day: 1, titleEn: "Bonjour", titleHi: "बोंजूर", titleFr: "Bonjour" },
+      { day: 12, titleEn: "Numbers", titleHi: "संख्याएँ", titleFr: "Les nombres" },
+      { day: 120, titleEn: "Exam day", titleHi: "परीक्षा", titleFr: "Jour d'examen" },
+    ];
+    expect(days.filter((d) => matchesDayQuery(d, "12")).map((d) => d.day)).toEqual([12, 120]);
+    expect(days.filter((d) => matchesDayQuery(d, "bonjour")).map((d) => d.day)).toEqual([1]);
+    expect(days.filter((d) => matchesDayQuery(d, "nombre")).map((d) => d.day)).toEqual([12]);
+    expect(days.filter((d) => matchesDayQuery(d, "संख्या")).map((d) => d.day)).toEqual([12]);
+    expect(matchesDayQuery(days[0], "")).toBe(true);
   });
 });
 

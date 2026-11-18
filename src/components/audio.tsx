@@ -181,17 +181,30 @@ export function Speak({ text, voice, label, showSlow = true, size = "sm" }: { te
   const busy = playing !== null;
   const cls = size === "sm" ? "btn btn-secondary btn-sm" : "btn btn-secondary";
   return (
-    <span className="inline-flex flex-wrap gap-1 align-middle">
-      <button type="button" className={cls} onClick={() => (busy ? stop() : play([{ text, voice }]))} aria-label={busy ? L({ en: "Stop audio", hi: "आवाज़ रोकें" }) : L({ en: `Play audio: ${label ?? text}`, hi: `सुनें: ${label ?? text}` })} title={L({ en: engine.label, hi: engine.labelHi })}>
-        <span aria-hidden>{busy ? "■" : "▶"}</span>{size === "md" && <span>{busy ? L({ en: "Stop", hi: "रोकें" }) : L({ en: "Listen", hi: "सुनें" })}</span>}
-      </button>
-      {showSlow && (
-        <button type="button" className={cls} onClick={() => play([{ text, voice }], { slow: true })} aria-label={L({ en: `Play slowly: ${label ?? text}`, hi: `धीरे सुनें: ${label ?? text}` })} title={L({ en: "Slow pedagogical playback", hi: "सीखने के लिए धीमी गति से सुनें" })}>
-          <span aria-hidden>🐢</span>{size === "md" && <span>{L({ en: "Slow", hi: "धीमा" })}</span>}
+    <span className="inline-flex min-w-0 max-w-full flex-col items-stretch gap-1 align-top">
+      <span className="inline-flex flex-wrap gap-1">
+        <button type="button" className={cls} onClick={() => (busy ? stop() : play([{ text, voice }]))} aria-label={busy ? L({ en: "Stop audio", hi: "आवाज़ रोकें" }) : L({ en: `Play audio: ${label ?? text}`, hi: `सुनें: ${label ?? text}` })} title={L({ en: engine.label, hi: engine.labelHi })}>
+          <span aria-hidden>{busy ? "■" : "▶"}</span>{size === "md" && <span>{busy ? L({ en: "Stop", hi: "रोकें" }) : L({ en: "Listen", hi: "सुनें" })}</span>}
         </button>
-      )}
-      {error && <span role="alert" className="basis-full text-sm text-red-700 dark:text-red-300"><Bi as="span" t={errorBi(error)} /></span>}
+        {showSlow && (
+          <button type="button" className={cls} onClick={() => play([{ text, voice }], { slow: true })} aria-label={L({ en: `Play slowly: ${label ?? text}`, hi: `धीरे सुनें: ${label ?? text}` })} title={L({ en: "Slow pedagogical playback", hi: "सीखने के लिए धीमी गति से सुनें" })}>
+            <span aria-hidden>🐢</span>{size === "md" && <span>{L({ en: "Slow", hi: "धीमा" })}</span>}
+          </button>
+        )}
+      </span>
+      {error && <span role="alert" className="max-w-72 text-left text-xs leading-snug break-words text-red-700 dark:text-red-300"><Bi as="span" t={errorBi(error)} /></span>}
     </span>
+  );
+}
+
+/** One note when this device has no French voice, so the warning is not repeated on every word. */
+export function VoiceNotice() {
+  const engine = useAudioEngine();
+  if (engine.kind !== "none") return null;
+  return (
+    <div role="status" className="rounded-xl bg-saffron-100 p-3 text-sm text-saffron-700 dark:bg-saffron-700/20 dark:text-saffron-200">
+      <Bi t={ERR.noVoice} />
+    </div>
   );
 }
 

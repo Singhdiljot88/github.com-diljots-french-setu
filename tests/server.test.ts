@@ -15,7 +15,7 @@ vi.mock("next/headers", () => ({
 import { and, eq, sql } from "drizzle-orm";
 import { closeDb, getDb } from "@/db";
 import * as t from "@/db/schema";
-import { hashPassword } from "@/server/auth";
+import { claimGuest, hashPassword, verifyPassword } from "@/server/auth";
 import { HttpError } from "@/server/http";
 import { getOrCreateDraft, loadDraft, saveDraft } from "@/server/writing";
 import { addMistake } from "@/server/progress";
@@ -177,5 +177,23 @@ describe("data export and account deletion", () => {
       expect(Number(r.n)).toBe(0);
     }
     expect((await listMistakes(B)).length).toBe(1);
+  });
+});
+
+describe("keeping a guest account", () => {
+  it("adds an email and password without changing the user id or resetting progress", async () => {
+    const db = await getDb();
+    const [g] = await db.insert(t.users).values({ email: "guest-keep@guest.french-setu.local", passwordHash: await hashPassword("temporary-secret"), isGuest: true }).returning();
+    await db.insert(t.profiles).values({ userId: g.id, startDate: "2026-10-01", timezone: "UTC" });
+    expect(await claimGuest(g.id, "not-an-email", "password123")).toEqual({ error: "Please enter a valid email address." });
+    expect(await claimGuest(g.id, "kept@test.local", "short")).toEqual({ error: "Use at least 8 characters for your password." });
+    expect(await claimGuest(g.id, "b@test.local", "password123")).toEqual({ error: "An account with this email already exists. Try signing in." });
+    expect(await claimGuest(g.id, "Kept@test.local", "password123")).toEqual({ ok: true });
+    const [after] = await db.select().from(t.users).where(eq(t.users.id, g.id));
+    expect(after.email).toBe("kept@test.local");
+    expect(after.isGuest).toBe(false);
+    expect(await verifyPassword("password123", after.passwordHash)).toBe(true);
+    expect(await db.select().from(t.profiles).where(eq(t.profiles.userId, g.id))).toHaveLength(1);
+    expect(await claimGuest(g.id, "other@test.local", "password123")).toEqual({ error: "This account already has an email and password." });
   });
 });

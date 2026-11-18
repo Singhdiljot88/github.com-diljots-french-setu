@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { redirect } from "next/navigation";
 import { getCurrentUser, getProfile } from "@/server/auth";
 import { learnerState, scheduleInput } from "@/server/learner";
@@ -7,6 +6,7 @@ import { CHECKPOINT_DAYS, MOCK_DAYS, PHASES, isLightDay } from "@/content/outlin
 import { dateForDay } from "@/lib/schedule";
 import { formatLocalDate } from "@/lib/dates";
 import { Bi } from "@/components/bi";
+import { CourseBrowser, type CoursePhase } from "@/components/course-browser";
 
 export const metadata = { title: "Course map" };
 export const dynamic = "force-dynamic";
@@ -50,52 +50,25 @@ export default async function CoursePage() {
           <li className="chip">🌙 <Bi as="span" t={{ en: "Light day", hi: "हल्का दिन" }} /></li><li className="chip">🏁 <Bi as="span" t={{ en: "Checkpoint", hi: "चेकपॉइंट" }} /></li><li className="chip">📝 <Bi as="span" t={{ en: "Mock exam", hi: "मॉक परीक्षा" }} /></li>
         </ul>
       </header>
-      {PHASES.map((ph) => {
+      <CourseBrowser todayDay={st.todayDay} phases={PHASES.map((ph): CoursePhase => {
         const days = map.filter((d) => d.day >= ph.from && d.day <= ph.to);
-        const done = days.filter((d) => prog.get(d.day)?.status === "completed").length;
-        const open = st.todayDay >= ph.from && st.todayDay <= ph.to;
-        return (
-          <details key={ph.phase} className="card" open={open}>
-            <summary className="cursor-pointer list-none">
-              <div className="flex flex-wrap items-baseline justify-between gap-2">
-                <h2 className="text-lg font-semibold"><Bi as="span" t={{ en: `Phase ${ph.phase}: ${ph.en}`, hi: `चरण ${ph.phase}: ${ph.hi}` }} /></h2>
-                <Bi as="span" className="text-sm text-muted" t={{ en: `Days ${ph.from}–${ph.to} · ${done}/${days.length} done`, hi: `दिन ${ph.from}–${ph.to} · ${done}/${days.length} पूरे` }} />
-              </div>
-              <div className="mt-2 h-2 overflow-hidden rounded-full surface-2" role="progressbar" aria-valuenow={done} aria-valuemin={0} aria-valuemax={days.length} aria-label={label({ en: `Phase ${ph.phase} progress`, hi: `चरण ${ph.phase} की प्रगति` })}>
-                <div className="h-full bg-brand-600" style={{ width: `${(done / days.length) * 100}%` }} />
-              </div>
-            </summary>
-            <ol className="mt-3 divide-y divide-[var(--border)]">
-              {days.map((d) => {
-                const state = stateOf(d.day);
-                const style = STATE_STYLE[state];
-                const p = prog.get(d.day);
-                const mock = MOCK_DAYS[d.day];
-                const date = d.day >= profile.placementDay ? dateForDay(s, d.day) : null;
-                return (
-                  <li key={d.day}>
-                    <Link href={`/lesson/${d.day}`} className="flex items-start gap-3 py-2 hover:bg-[var(--surface-2)] focus-visible:bg-[var(--surface-2)] rounded-lg px-1">
-                      <span className={`mt-0.5 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-semibold ${style.cls}`} aria-label={label(style.label)}>{style.icon || d.day}</span>
-                      <span className="min-w-0 flex-1">
-                        <Bi as="span" className="block font-medium" t={{ en: `Day ${d.day}: ${d.title}`, hi: `दिन ${d.day}: ${d.titleHi ?? d.title}` }} />
-                        {d.titleFr && <span className="block text-sm text-muted" lang="fr">{d.titleFr}</span>}
-                        <span className="mt-0.5 flex flex-wrap gap-1 text-xs text-muted">
-                          {date && <span>{formatLocalDate(date)}</span>}
-                          {isLightDay(d.day) && <span className="chip">🌙 <Bi as="span" t={{ en: "Light", hi: "हल्का" }} /></span>}
-                          {CHECKPOINT_DAYS.includes(d.day) && <span className="chip">🏁 <Bi as="span" t={{ en: "Checkpoint", hi: "चेकपॉइंट" }} /></span>}
-                          {mock && <span className="chip">📝 <Bi as="span" t={{ en: mock.id.replace("mock-", "Mock "), hi: mock.id.replace("mock-", "मॉक ") }} /></span>}
-                          {!d.available && <Bi as="span" className="chip" t={{ en: "Outline only", hi: "सिर्फ़ रूपरेखा" }} />}
-                          {p?.assessmentScore != null && <Bi as="span" className="chip" t={{ en: `Check: ${Math.round(p.assessmentScore * 100)}%`, hi: `जाँच: ${Math.round(p.assessmentScore * 100)}%` }} />}
-                        </span>
-                      </span>
-                    </Link>
-                  </li>
-                );
-              })}
-            </ol>
-          </details>
-        );
-      })}
+        return {
+          phase: ph.phase, en: ph.en, hi: ph.hi, from: ph.from, to: ph.to,
+          done: days.filter((d) => prog.get(d.day)?.status === "completed").length,
+          open: st.todayDay >= ph.from && st.todayDay <= ph.to,
+          days: days.map((d) => {
+            const p = prog.get(d.day);
+            const date = d.day >= profile.placementDay ? dateForDay(s, d.day) : null;
+            return {
+              day: d.day, titleEn: d.title, titleHi: d.titleHi ?? d.title, titleFr: d.titleFr ?? null,
+              state: stateOf(d.day), dateLabel: date ? formatLocalDate(date) : null,
+              light: isLightDay(d.day), checkpoint: CHECKPOINT_DAYS.includes(d.day),
+              mock: MOCK_DAYS[d.day]?.id ?? null, available: d.available,
+              score: p?.assessmentScore ?? null,
+            };
+          }),
+        };
+      })} />
     </div>
   );
 }
