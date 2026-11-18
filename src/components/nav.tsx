@@ -35,6 +35,7 @@ const GROUPS: { title: { en: string; hi: string }; items: { href: string; label:
   { title: { en: "You", hi: "आप" }, items: [
     { href: "/mistakes", label: "Mistake notebook", hi: "ग़लतियों की कॉपी", icon: "📒" },
     { href: "/progress", label: "Progress", hi: "प्रगति", icon: "📈" },
+    { href: "/milestones", label: "Milestones", hi: "उपलब्धियाँ", icon: "🏅" },
     { href: "/settings", label: "Settings", hi: "सेटिंग्स", icon: "⚙️" },
     { href: "/privacy", label: "Privacy", hi: "गोपनीयता", icon: "🔒" },
   ] },

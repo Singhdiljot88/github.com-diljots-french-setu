@@ -12,6 +12,7 @@ const USER_TABLES = {
   writingDrafts: t.writingDrafts, writingRevisions: t.writingRevisions, writingFeedback: t.writingFeedback,
   speakingSessions: t.speakingSessions, mistakes: t.mistakes, mockAttempts: t.mockAttempts,
   checkpointReports: t.checkpointReports, webResources: t.webResources, contentReports: t.contentReports, aiUsage: t.aiUsage,
+  evaluations: t.evaluations, milestones: t.milestones,
 } as const;
 
 /** Everything stored about the learner, as JSON. Audio recordings are listed without their audio bytes. */

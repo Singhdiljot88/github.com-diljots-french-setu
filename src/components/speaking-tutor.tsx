@@ -9,6 +9,7 @@ import { ServerSpeechRecognition } from "@/lib/server-speech";
 import { AccentBar } from "./accent-bar";
 import { TappableText } from "./tappable";
 import { CorrectionItem, noticeBi } from "./writing-editor";
+import { EvaluationCard } from "./evaluation-card";
 
 type BiT = { en: string; hi: string };
 type Catalog = { topics: { id: string; title: BiT; level: string }[]; presentations: { id: string; title: BiT; level: string }[]; tef: { id: string; title: string }[]; roleplays: { id: string; title: BiT }[] };
@@ -298,6 +299,7 @@ function ReportView({ r, onAgain, againLabel }: { r: SpeakingReport; onAgain: ()
         en: `${f.corrections.some((c) => c.isError) ? "Errors were added to your mistake notebook. " : ""}No pronunciation score is given: the feedback is based on the text of what you said. Tap any word in your partner's replies to look it up.`,
         hi: `${f.corrections.some((c) => c.isError) ? "ग़लतियाँ आपकी ग़लतियों की कॉपी में जोड़ दी गई हैं। " : ""}उच्चारण के लिए कोई अंक नहीं दिए जाते: फ़ीडबैक आपकी कही बात के लिखित रूप पर आधारित है। साथी के जवाबों में किसी भी शब्द पर टैप करके उसका अर्थ देखें।`,
       }} />
+      {r.evaluation && <EvaluationCard ev={r.evaluation} />}
       <button className="btn btn-primary" onClick={onAgain}>{againLabel ?? label({ en: "Practise again", hi: "फिर से अभ्यास करें" })}</button>
     </section>
   );
