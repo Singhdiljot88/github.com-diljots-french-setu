@@ -45,7 +45,7 @@ Those four are what this change adds. They use the lessons and the dictionary th
 
 - `/grammar` — searchable grammar from all 120 lessons, a verb drill, and the Hindi bridges in one list.
 - `/phrases` — lesson phrases grouped by situation, with audio.
-- OpenAI calls go through the Vercel AI SDK (`ai` + `@ai-sdk/openai`), server-side only. They read the existing `OPENAI_API_KEY`. If that variable is empty, the old labelled demo path still runs.
+- OpenAI calls go through the Vercel AI SDK (`ai` + `@ai-sdk/openai`), server-side only, when `OPENAI_API_KEY` is set. If that variable is empty and `SPEKO_API_KEY` is set, the same chat features use Speko. The labelled demo path runs only when neither key is set.
 - A correction of `l'hindi` to `le hindi`. The h is aspiré. The dictionary, the elision list and day 9 disagreed; day 9 was wrong.
 - Sign-in no longer returns faster for an unknown email. Guest, sign-in and sign-up are rate-limited per server instance. A migration enables row-level security so the Supabase public API cannot read the tables. See `docs/AUDIT.md`.
 

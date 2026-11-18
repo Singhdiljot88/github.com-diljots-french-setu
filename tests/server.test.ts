@@ -6,6 +6,8 @@ vi.hoisted(() => {
   delete process.env.DATABASE_URL;
   delete process.env.ANTHROPIC_API_KEY;
   delete process.env.OPENAI_API_KEY;
+  delete process.env.SPEKO_API_KEY;
+  delete process.env.AI_PROVIDER;
 });
 const jar = new Map<string, string>();
 vi.mock("next/headers", () => ({
