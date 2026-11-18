@@ -2,6 +2,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { getCurrentUser } from "@/server/auth";
 import { Bi } from "@/components/bi";
+import { PocketReference } from "@/components/pocket-reference";
 
 export const metadata = { title: "Free resources" };
 export const dynamic = "force-dynamic";
@@ -71,6 +72,14 @@ export default async function ResourcesPage() {
         <h1 className="text-3xl font-bold tracking-tight"><Bi as="span" t={{ en: "Free resources for TEF Canada", hi: "TEF Canada के लिए मुफ़्त संसाधन" }} /></h1>
         <Bi className="text-muted" t={{ en: "A short, hand-picked list of free and official sources, and a weekly routine that ties them to your course. Habits beat cramming: short daily practice keeps you going.", hi: "मुफ़्त और आधिकारिक स्रोतों की छोटी, चुनी हुई सूची, और एक साप्ताहिक दिनचर्या जो इन्हें आपके पाठ्यक्रम से जोड़ती है। रटने से ज़्यादा आदत काम आती है: रोज़ का छोटा अभ्यास आपको आगे बढ़ाता रहता है।" }} />
       </header>
+
+      <section id="pocket" className="scroll-mt-24 space-y-3" aria-labelledby="pocket-h">
+        <div>
+          <h2 id="pocket-h" className="text-lg font-semibold"><span aria-hidden>🗂️</span> <Bi as="span" t={{ en: "Pocket reference", hi: "जेब में रखने लायक कार्ड" }} /></h2>
+          <Bi className="text-sm text-muted" t={{ en: "The facts you look up while studying: say a number the France way, and keep articles, être, avoir and question words one tap away. This is a reminder, not a scored exercise.", hi: "पढ़ाई के दौरान जो बातें बार-बार देखनी पड़ती हैं: संख्या को फ़्रांस वाले ढंग से बोलें, और articles, être, avoir व प्रश्न शब्द एक टैप पर रखें। यह याद दिलाने के लिए है, कोई जाँचा हुआ अभ्यास नहीं।" }} />
+        </div>
+        <PocketReference />
+      </section>
 
       <section className="card space-y-3" aria-labelledby="routine-h">
         <h2 id="routine-h" className="text-lg font-semibold"><Bi as="span" t={{ en: "A simple weekly routine", hi: "एक आसान साप्ताहिक दिनचर्या" }} /></h2>

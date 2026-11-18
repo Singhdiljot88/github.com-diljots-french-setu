@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getLesson } from "@/server/content";
 import { PrefsProvider, defaultPrefs } from "@/components/prefs";
+import { VoiceNotice } from "@/components/audio";
 import { TryWords, type TryWord } from "./try-words";
 import { GuestButton } from "@/components/auth-form";
 
@@ -25,6 +26,7 @@ export default async function TryPage() {
           <p className="text-muted">No sign-up. Listen, read the Devanagari, say it aloud, then check yourself.</p>
           <p lang="hi" className="deva text-sm text-muted">साइन-अप की ज़रूरत नहीं। सुनिए, देवनागरी पढ़िए, ज़ोर से बोलिए, फिर ख़ुद को जाँचिए।</p>
         </header>
+        <VoiceNotice />
         <TryWords words={words} />
         <section className="card space-y-3">
           <p className="font-semibold">Like it? This is how all 120 days work. · <span lang="hi" className="deva">पसंद आया? सभी 120 दिन ऐसे ही चलते हैं।</span></p>

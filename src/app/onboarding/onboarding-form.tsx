@@ -102,8 +102,8 @@ export function OnboardingForm({ defaultTz, today }: { defaultTz: string; today:
           {radio("lang", "both", f.explanationLang === "both", () => set("explanationLang", "both"), "English and Hindi", <span lang="hi" className="deva">अंग्रेज़ी और हिंदी दोनों</span>)}
           {radio("lang", "en", f.explanationLang === "en", () => set("explanationLang", "en"), "English")}
           {radio("lang", "hi", f.explanationLang === "hi", () => set("explanationLang", "hi"), <span lang="hi" className="deva">हिंदी</span>, b({ en: "Explanations in Hindi; French words still show English meanings too.", hi: "हिंदी में समझाया जाएगा; फ़्रेंच शब्दों के साथ अंग्रेज़ी अर्थ भी दिखते रहेंगे।" }))}
-          <label className="block pt-2"><span className="text-sm font-medium">{L({ en: "What should we call you? (optional)", hi: "हम आपको किस नाम से बुलाएँ? (वैकल्पिक)" })}</span>
-            <input className="input mt-1" value={f.displayName} onChange={(e) => set("displayName", e.target.value)} maxLength={60} /></label>
+          <label className="block pt-2" htmlFor="display-name"><span className="text-sm font-medium">{L({ en: "What should we call you? (optional)", hi: "हम आपको किस नाम से बुलाएँ? (वैकल्पिक)" })}</span>
+            <input id="display-name" name="displayName" autoComplete="nickname" className="input mt-1" value={f.displayName} onChange={(e) => set("displayName", e.target.value)} maxLength={60} /></label>
         </fieldset>
       )}
 
@@ -112,8 +112,8 @@ export function OnboardingForm({ defaultTz, today }: { defaultTz: string; today:
           <legend className="mb-2 text-xl font-semibold">{b({ en: "Which exam are you preparing for?", hi: "आप किस परीक्षा की तैयारी कर रहे हैं?" })}</legend>
           <Bi className="text-sm text-muted" t={{ en: "Please confirm. TEF variants have different formats and are kept separate. This app's exam simulator currently follows the TEF Canada format; for other variants you can still follow the course, but the simulator will say it is not configured for your exam.", hi: "कृपया पुष्टि करें। TEF के अलग-अलग प्रकारों का प्रारूप अलग होता है और इन्हें अलग रखा गया है। इस ऐप का परीक्षा सिम्युलेटर अभी TEF Canada के प्रारूप पर चलता है; दूसरे प्रकारों के लिए भी आप पाठ्यक्रम कर सकते हैं, पर सिम्युलेटर बताएगा कि वह आपकी परीक्षा के लिए तैयार नहीं है।" }} />
           {VARIANTS.map(([v, l]) => radio("variant", v, f.examVariant === v, () => set("examVariant", v), b(l)))}
-          <label className="block pt-2"><span className="text-sm font-medium">{L({ en: "What result are you hoping for? (optional)", hi: "आप कौन-सा परिणाम चाहते हैं? (वैकल्पिक)" })}</span>
-            <input className="input mt-1" placeholder={L({ en: "e.g. NCLC 7 in all skills for Express Entry", hi: "जैसे Express Entry के लिए सभी कौशलों में NCLC 7" })} value={f.desiredOutcome} onChange={(e) => set("desiredOutcome", e.target.value)} maxLength={300} /></label>
+          <label className="block pt-2" htmlFor="desired-outcome"><span className="text-sm font-medium">{L({ en: "What result are you hoping for? (optional)", hi: "आप कौन-सा परिणाम चाहते हैं? (वैकल्पिक)" })}</span>
+            <input id="desired-outcome" name="desiredOutcome" autoComplete="off" className="input mt-1" placeholder={L({ en: "e.g. NCLC 7 in all skills for Express Entry", hi: "जैसे Express Entry के लिए सभी कौशलों में NCLC 7" })} value={f.desiredOutcome} onChange={(e) => set("desiredOutcome", e.target.value)} maxLength={300} /></label>
           <Bi className="text-sm text-muted" t={{ en: "We will use this to plan, not to promise. Many beginners need more than 120 days to reach upper-intermediate levels; we will show you honest evidence of your progress along the way.", hi: "हम इसे योजना बनाने के लिए इस्तेमाल करेंगे, कोई वादा करने के लिए नहीं। कई शुरुआती सीखने वालों को ऊपरी-मध्यम स्तर तक पहुँचने में 120 दिन से ज़्यादा लगते हैं; रास्ते में हम आपको आपकी प्रगति के सच्चे प्रमाण दिखाएँगे।" }} />
         </fieldset>
       )}
@@ -134,8 +134,8 @@ export function OnboardingForm({ defaultTz, today }: { defaultTz: string; today:
           )}
           <Bi className="rounded-lg bg-brand-50 p-3 text-sm dark:bg-brand-900/40" t={note} />
           <div className="grid gap-3 sm:grid-cols-2">
-            <label><span className="text-sm font-medium">{L({ en: "Start date", hi: "शुरू होने की तारीख़" })}</span><input type="date" className="input mt-1" value={f.startDate} onChange={(e) => set("startDate", e.target.value)} required /></label>
-            <label><span className="text-sm font-medium">{L({ en: "Exam date (optional)", hi: "परीक्षा की तारीख़ (वैकल्पिक)" })}</span><input type="date" className="input mt-1" value={f.examDate} min={f.startDate} onChange={(e) => set("examDate", e.target.value)} /></label>
+            <label htmlFor="start-date"><span className="text-sm font-medium">{L({ en: "Start date", hi: "शुरू होने की तारीख़" })}</span><input id="start-date" name="startDate" type="date" autoComplete="off" className="input mt-1" value={f.startDate} onChange={(e) => set("startDate", e.target.value)} required /></label>
+            <label htmlFor="exam-date"><span className="text-sm font-medium">{L({ en: "Exam date (optional)", hi: "परीक्षा की तारीख़ (वैकल्पिक)" })}</span><input id="exam-date" name="examDate" type="date" autoComplete="off" className="input mt-1" value={f.examDate} min={f.startDate} onChange={(e) => set("examDate", e.target.value)} /></label>
           </div>
           <TimeZoneSelect value={f.timezone} onChange={(z) => set("timezone", z)} />
           <Bi className="text-sm" t={{ en: `Planned course end: ${end}.`, hi: `पाठ्यक्रम ख़त्म होने की तय तारीख़: ${end}।` }} />
@@ -192,9 +192,9 @@ export function OnboardingForm({ defaultTz, today }: { defaultTz: string; today:
               <Bi as="li" t={{ en: "You can always type instead of speaking.", hi: "आप बोलने के बजाय हमेशा टाइप भी कर सकते हैं।" }} />
             </ul>
           </div>
-          <label className="flex items-start gap-3"><input type="checkbox" className="mt-1" checked={f.micOptIn} onChange={(e) => set("micOptIn", e.target.checked)} /><span>{b({ en: "I want to use my microphone for speaking practice.", hi: "मैं बोलने के अभ्यास के लिए अपना माइक्रोफ़ोन इस्तेमाल करना चाहता/चाहती हूँ।" })} <Bi as="span" className="block text-sm text-muted" t={{ en: "Your browser will still ask for permission the first time.", hi: "आपका ब्राउज़र पहली बार फिर भी अनुमति माँगेगा।" }} /></span></label>
-          <label className="flex items-start gap-3"><input type="checkbox" className="mt-1" checked={f.keepRecordings} onChange={(e) => set("keepRecordings", e.target.checked)} /><span>{b({ en: "Keep my recordings in my account so I can hear my progress later.", hi: "मेरी रिकॉर्डिंग मेरे खाते में रखें ताकि मैं बाद में अपनी प्रगति सुन सकूँ।" })} <Bi as="span" className="block text-sm text-muted" t={{ en: "Off by default. You can delete them any time.", hi: "यह पहले से बंद है। आप इन्हें कभी भी मिटा सकते हैं।" }} /></span></label>
-          <label className="flex items-start gap-3"><input type="checkbox" className="mt-1" checked={f.slowAudioDefault} onChange={(e) => set("slowAudioDefault", e.target.checked)} />{b({ en: "Offer slow audio by default in learning mode.", hi: "सीखते समय धीमा ऑडियो पहले से उपलब्ध रखें।" })}</label>
+          <label className="flex items-start gap-3"><input type="checkbox" name="micOptIn" className="mt-1" checked={f.micOptIn} onChange={(e) => set("micOptIn", e.target.checked)} /><span>{b({ en: "I want to use my microphone for speaking practice.", hi: "मैं बोलने के अभ्यास के लिए अपना माइक्रोफ़ोन इस्तेमाल करना चाहता/चाहती हूँ।" })} <Bi as="span" className="block text-sm text-muted" t={{ en: "Your browser will still ask for permission the first time.", hi: "आपका ब्राउज़र पहली बार फिर भी अनुमति माँगेगा।" }} /></span></label>
+          <label className="flex items-start gap-3"><input type="checkbox" name="keepRecordings" className="mt-1" checked={f.keepRecordings} onChange={(e) => set("keepRecordings", e.target.checked)} /><span>{b({ en: "Keep my recordings in my account so I can hear my progress later.", hi: "मेरी रिकॉर्डिंग मेरे खाते में रखें ताकि मैं बाद में अपनी प्रगति सुन सकूँ।" })} <Bi as="span" className="block text-sm text-muted" t={{ en: "Off by default. You can delete them any time.", hi: "यह पहले से बंद है। आप इन्हें कभी भी मिटा सकते हैं।" }} /></span></label>
+          <label className="flex items-start gap-3"><input type="checkbox" name="slowAudioDefault" className="mt-1" checked={f.slowAudioDefault} onChange={(e) => set("slowAudioDefault", e.target.checked)} />{b({ en: "Offer slow audio by default in learning mode.", hi: "सीखते समय धीमा ऑडियो पहले से उपलब्ध रखें।" })}</label>
         </fieldset>
       )}
 
@@ -209,7 +209,7 @@ export function OnboardingForm({ defaultTz, today }: { defaultTz: string; today:
           {radio("deva", "auto", f.devanagariMode === "auto", () => set("devanagariMode", "auto"), b({ en: "Follow the course (recommended)", hi: "पाठ्यक्रम के हिसाब से (सुझाया गया)" }), b({ en: "Visible on Days 1–30, tap-to-show on Days 31–60, audio first on Days 61–90, off in exam practice after Day 90.", hi: "दिन 1–30 में दिखेगा, दिन 31–60 में टैप करने पर दिखेगा, दिन 61–90 में पहले ऑडियो, और दिन 90 के बाद परीक्षा अभ्यास में बंद।" }))}
           {radio("deva", "always", f.devanagariMode === "always", () => set("devanagariMode", "always"), b({ en: "Always show it", hi: "हमेशा दिखाएँ" }))}
           {radio("deva", "never", f.devanagariMode === "never", () => set("devanagariMode", "never"), b({ en: "Never show it", hi: "कभी न दिखाएँ" }))}
-          <label className="flex items-start gap-3"><input type="checkbox" className="mt-1" checked={f.showIpa} onChange={(e) => set("showIpa", e.target.checked)} />{b({ en: "Also show IPA phonetic symbols where available.", hi: "जहाँ उपलब्ध हों, IPA ध्वन्यात्मक चिह्न भी दिखाएँ।" })}</label>
+          <label className="flex items-start gap-3"><input type="checkbox" name="showIpa" className="mt-1" checked={f.showIpa} onChange={(e) => set("showIpa", e.target.checked)} />{b({ en: "Also show IPA phonetic symbols where available.", hi: "जहाँ उपलब्ध हों, IPA ध्वन्यात्मक चिह्न भी दिखाएँ।" })}</label>
         </fieldset>
       )}
 
