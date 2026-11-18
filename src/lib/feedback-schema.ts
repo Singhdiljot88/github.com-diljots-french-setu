@@ -1,4 +1,5 @@
 import { z } from "zod";
+import type { ScoredEvaluation } from "@/lib/score";
 
 export const ERROR_CATEGORIES = ["grammar", "spelling", "gender", "agreement", "tense", "vocabulary", "organization"] as const;
 
@@ -25,7 +26,7 @@ export const WritingFeedback = z.object({
 });
 export type WritingFeedback = z.infer<typeof WritingFeedback>;
 
-export type FeedbackEnvelope = { provider: string; isDemo: boolean; label: string; feedback: WritingFeedback; limitations?: string };
+export type FeedbackEnvelope = { provider: string; isDemo: boolean; label: string; feedback: WritingFeedback; limitations?: string; evaluation?: ScoredEvaluation };
 
 export const SpeakingFeedback = z.object({
   strengths: z.array(z.string().max(300)).max(5),

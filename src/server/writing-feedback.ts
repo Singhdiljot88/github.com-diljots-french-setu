@@ -3,6 +3,7 @@ import { WritingFeedback, type FeedbackEnvelope } from "@/lib/feedback-schema";
 import { AiUnavailable, generateJson, untrusted } from "./ai";
 import { getProfile } from "./auth";
 import { addMistake } from "./progress";
+import { recordEvaluation } from "./evaluation";
 import { ruleBasedFeedback } from "./writing-check";
 
 const SYSTEM = `You are a French writing tutor for adult beginners preparing for TEF Canada. They speak English and Hindi.
@@ -43,6 +44,7 @@ export async function writingFeedbackFor(userId: string, o: { text: string; prom
   for (const c of env.feedback.corrections.filter((c) => c.isError)) {
     await addMistake(userId, { category: c.category, source: "writing", sourceRef: o.taskRef, original: c.original, corrected: c.corrected, explanation: c.explanation, drill: c.practice });
   }
+  env.evaluation = await recordEvaluation(userId, { skill: "writing", sourceRef: o.taskRef, task: o.prompt, learnerText: o.text, spoken: false, useAi: o.useAi && !env.isDemo });
   return env;
 }
 

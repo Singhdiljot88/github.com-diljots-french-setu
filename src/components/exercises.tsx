@@ -3,6 +3,8 @@ import { useState } from "react";
 import { api } from "@/lib/api-client";
 import { checkAnswer, type AnswerCheck } from "@/lib/text";
 import { Bi } from "./bi";
+import { EvaluationCard } from "./evaluation-card";
+import type { ScoredEvaluation } from "@/lib/score";
 import { Speak } from "./audio";
 import { AccentBar } from "./accent-bar";
 
@@ -64,6 +66,8 @@ export function ResultLine({ r }: { r: AnswerCheck }) {
 export function Dictation({ sentences, day, voice = "f1" }: { sentences: string[]; day?: number; voice?: "f1" | "m1" }) {
   const [vals, setVals] = useState<string[]>(sentences.map(() => ""));
   const [res, setRes] = useState<(AnswerCheck | null)[]>(sentences.map(() => null));
+  const [score, setScore] = useState<ScoredEvaluation | null>(null);
+  const [scoring, setScoring] = useState(false);
   const check = async (i: number) => {
     const r = checkAnswer(vals[i], sentences[i]);
     setRes((p) => p.map((x, j) => (j === i ? r : x)));
@@ -80,6 +84,13 @@ export function Dictation({ sentences, day, voice = "f1" }: { sentences: string[
         </li>
       ))}
       <li><AccentBar /></li>
+      {res.every(Boolean) && !score && <li><button type="button" className="btn btn-primary btn-sm" disabled={scoring} onClick={async () => {
+        setScoring(true);
+        try {
+          setScore(await api<ScoredEvaluation>("/api/evaluate", { body: { sourceRef: `day:${day ?? 0}:dictation`, task: "Dictation", items: sentences.map((expected, i) => ({ prompt: `Sentence ${i + 1}`, learner: vals[i], expected })) } }));
+        } finally { setScoring(false); }
+      }}><Bi as="span" t={{ en: scoring ? "Scoring…" : "Score this practice", hi: scoring ? "अंक दिए जा रहे हैं…" : "इस अभ्यास के अंक देखें" }} /></button></li>}
+      {score && <li><EvaluationCard ev={score} /></li>}
     </ol>
   );
 }

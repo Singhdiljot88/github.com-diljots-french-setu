@@ -14,6 +14,8 @@ import { Bi } from "@/components/bi";
 import { activitySummary } from "@/server/activity";
 import { ActivityHeatmap } from "@/components/activity-heatmap";
 import { ProgressRing } from "@/components/practice-arcade";
+import { Celebration } from "@/components/celebration";
+import { syncMilestones } from "@/server/milestones";
 
 export const metadata = { title: "Today" };
 export const dynamic = "force-dynamic";
@@ -28,6 +30,7 @@ export default async function Today() {
   if (!user) redirect("/signin");
   const profile = (await getProfile(user.id))!;
   const st = await learnerState(user.id, profile);
+  const marks = await syncMilestones(user.id, profile.timezone);
   const day = st.todayDay;
   const lesson = await getLesson(day);
   const minutes = profile.dailyMinutes as DailyMinutes;
@@ -60,6 +63,7 @@ export default async function Today() {
 
   return (
     <div className="space-y-5">
+      {marks.fresh.length > 0 && <Celebration items={marks.fresh} />}
       <section className="hero animate-fade-up" aria-labelledby="next-h">
         <div className="relative z-10 flex flex-col gap-5 sm:flex-row sm:items-center">
           <div className="min-w-0 flex-1 space-y-2">

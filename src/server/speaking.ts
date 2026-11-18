@@ -4,6 +4,7 @@ import { z } from "zod";
 import { getDb } from "@/db";
 import { speakingSessions, type SpeakingTurn } from "@/db/schema";
 import { SpeakingFeedback } from "@/lib/feedback-schema";
+import type { ScoredEvaluation } from "@/lib/score";
 import { searchKey, stripAccents, wordCount } from "@/lib/text";
 import { AiUnavailable, generateJson, untrusted } from "./ai";
 import { aiProvider } from "./providers/config";
@@ -11,6 +12,7 @@ import { getLesson, getMocks } from "./content";
 import { HttpError } from "./http";
 import { addMistake, recordAttempt } from "./progress";
 import { spokenFixes, spokenReaction, spokenRecast } from "@/lib/spoken-repair";
+import { recordEvaluation } from "./evaluation";
 import { ruleBasedFeedback } from "./writing-check";
 
 export const SPEAKING_MODES = ["roleplay", "conversation", "interview", "presentation", "tef_a", "tef_b"] as const;
@@ -209,7 +211,7 @@ export async function takeTurn(userId: string, id: string, text: string, via: Sp
   return { partner, finished, note, label: row.isDemo ? DemoTurn.label : undefined };
 }
 
-export type SpeakingReport = { provider: string; isDemo: boolean; label: string; limitations?: string; stats: { turns: number; words: number; questions: number; connectors: string[]; minutes: number }; feedback: z.infer<typeof SpeakingFeedback> };
+export type SpeakingReport = { provider: string; isDemo: boolean; label: string; limitations?: string; stats: { turns: number; words: number; questions: number; connectors: string[]; minutes: number }; feedback: z.infer<typeof SpeakingFeedback>; evaluation?: ScoredEvaluation };
 
 const CONNECTORS = ["d'abord", "ensuite", "puis", "enfin", "parce que", "car", "donc", "mais", "par contre", "en plus", "de plus", "cependant", "pourtant", "par exemple", "à mon avis", "selon moi", "je pense que", "je trouve que", "alors", "aussi"];
 
@@ -284,6 +286,7 @@ Also give strengths, up to 6 corrections (isError=false only for real style choi
       },
     };
   }
+  report.evaluation = await recordEvaluation(userId, { skill: "speaking", sourceRef: `speaking:${row.id}`, task: s.title.en, learnerText: all, spoken: true, useAi: !row.isDemo });
   for (const c of report.feedback.corrections.filter((c) => c.isError)) {
     await addMistake(userId, { category: c.category, source: "speaking", sourceRef: `speaking:${row.id}`, original: c.original, corrected: c.corrected, explanation: c.explanation, drill: c.practice });
   }
