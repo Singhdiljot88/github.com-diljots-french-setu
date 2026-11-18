@@ -50,12 +50,26 @@ export default async function CoursePage() {
           <li className="chip">🌙 <Bi as="span" t={{ en: "Light day", hi: "हल्का दिन" }} /></li><li className="chip">🏁 <Bi as="span" t={{ en: "Checkpoint", hi: "चेकपॉइंट" }} /></li><li className="chip">📝 <Bi as="span" t={{ en: "Mock exam", hi: "मॉक परीक्षा" }} /></li>
         </ul>
       </header>
+      <nav className="phase-map" aria-label={label({ en: "Phases", hi: "चरण" })}>
+        {PHASES.map((ph) => {
+          const days = map.filter((d) => d.day >= ph.from && d.day <= ph.to);
+          const done = days.filter((d) => prog.get(d.day)?.status === "completed").length;
+          const current = st.todayDay >= ph.from && st.todayDay <= ph.to;
+          return (
+            <a key={ph.phase} href={`#phase-${ph.phase}`} className="phase-node" data-current={current ? "true" : undefined} aria-current={current ? "true" : undefined}>
+              <span className="text-xs font-semibold uppercase tracking-wide text-muted"><Bi as="span" t={{ en: `Phase ${ph.phase}`, hi: `चरण ${ph.phase}` }} /></span>
+              <Bi className="text-sm font-semibold leading-snug" t={{ en: ph.en, hi: ph.hi }} />
+              <span className="phase-meter" style={{ ["--p" as string]: days.length ? done / days.length : 0 }} role="progressbar" aria-valuenow={done} aria-valuemin={0} aria-valuemax={days.length} aria-label={label({ en: `${done} of ${days.length} days finished`, hi: `${days.length} में से ${done} दिन पूरे` })}><span /></span>
+            </a>
+          );
+        })}
+      </nav>
       {PHASES.map((ph) => {
         const days = map.filter((d) => d.day >= ph.from && d.day <= ph.to);
         const done = days.filter((d) => prog.get(d.day)?.status === "completed").length;
         const open = st.todayDay >= ph.from && st.todayDay <= ph.to;
         return (
-          <details key={ph.phase} className="card" open={open}>
+          <details key={ph.phase} id={`phase-${ph.phase}`} className="card" open={open}>
             <summary className="cursor-pointer list-none">
               <div className="flex flex-wrap items-baseline justify-between gap-2">
                 <h2 className="text-lg font-semibold"><Bi as="span" t={{ en: `Phase ${ph.phase}: ${ph.en}`, hi: `चरण ${ph.phase}: ${ph.hi}` }} /></h2>

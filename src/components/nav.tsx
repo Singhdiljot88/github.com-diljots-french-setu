@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Bi, useBiLabel } from "./bi";
 import { usePrefs } from "./prefs";
+import { ThemeToggle } from "./theme-toggle";
 
 const SHORT: Record<string, { en: string; hi: string }> = { "/play": { en: "Games", hi: "खेल" }, "/speaking": { en: "Speak", hi: "बोलें" }, "/hindi": { en: "Hindi→FR", hi: "हिंदी→FR" } };
 
@@ -81,10 +82,11 @@ export function AppNav({ demoAi, isGuest }: { demoAi: boolean; isGuest: boolean 
   return (
     <>
       <aside className="surface fixed inset-y-0 left-0 hidden print:!hidden w-64 overflow-y-auto border-y-0 border-l-0 p-3 lg:block">
-        <Link href="/today" className="mb-4 flex items-center gap-2 px-3 py-2">
+        <Link href="/today" className="mb-3 flex items-center gap-2 px-3 py-2">
           <img src="/icons/icon-192.png" alt="" width={32} height={32} className="rounded-lg" />
           <span className="font-bold">French Setu</span>
         </Link>
+        <div className="mb-4 px-3"><ThemeToggle /></div>
         <NavList />
         <Badges demoAi={demoAi} isGuest={isGuest} />
       </aside>
@@ -97,7 +99,7 @@ export function AppNav({ demoAi, isGuest }: { demoAi: boolean; isGuest: boolean 
         <div className="fixed inset-0 z-50 lg:hidden" role="dialog" aria-modal="true" aria-label={L({ en: "Menu", hi: "मेन्यू" })} id="mobile-menu">
           <button type="button" className="absolute inset-0 bg-black/40" aria-label={L({ en: "Close menu", hi: "मेन्यू बंद करें" })} onClick={() => setOpen(false)} />
           <div className="surface absolute inset-y-0 right-0 w-[85%] max-w-sm overflow-y-auto p-3">
-            <div className="mb-2 flex justify-end"><button type="button" className="btn btn-ghost btn-sm" onClick={() => setOpen(false)}>✕ <Bi as="span" t={{ en: "Close", hi: "बंद करें" }} /></button></div>
+            <div className="mb-2 flex items-center justify-between gap-2"><ThemeToggle /><button type="button" className="btn btn-ghost btn-sm" onClick={() => setOpen(false)}>✕ <Bi as="span" t={{ en: "Close", hi: "बंद करें" }} /></button></div>
             <NavList onNavigate={() => setOpen(false)} />
             <Badges demoAi={demoAi} isGuest={isGuest} />
           </div>

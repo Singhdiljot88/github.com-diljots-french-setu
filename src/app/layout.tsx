@@ -20,6 +20,9 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: `try{var t=localStorage.getItem("fs-theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}` }} />
+      </head>
       <body className="min-h-dvh antialiased">
         <a href="#main" className="skip-link">Skip to main content · <span lang="hi" className="deva">मुख्य सामग्री पर जाएँ</span></a>
         {children}

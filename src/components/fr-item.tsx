@@ -5,6 +5,7 @@ import { Speak } from "./audio";
 import { Bi } from "./bi";
 import { usePrefs, useScaffold } from "./prefs";
 import { SaveWordButton } from "./save-word";
+import { ExplainButton } from "./explain-button";
 
 export type FrItemData = { fr: string; en: string; hi: string; pron?: string; ipa?: string; note?: { en: string; hi: string }; gender?: string; pos?: string; lemma?: string; mnemonic?: { hi: string; en?: string; reviewed?: boolean } };
 
@@ -76,6 +77,7 @@ export function FrItem({ item, day, save = true, source = "lesson", sourceRef, c
         <span lang="fr" className="fr text-lg">{item.fr}</span>
         {genderLabel && <span className={`chip ${item.gender === "f" ? "bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-100" : "bg-sky-100 text-sky-800 dark:bg-sky-900/40 dark:text-sky-100"}`}><Bi as="span" t={genderLabel} /></span>}
         <Speak text={item.fr} label={item.fr} />
+        {!compact && item.fr.includes(" ") && <ExplainButton fr={item.fr} en={item.en} hi={item.hi} context={day ? `day ${day}` : undefined} />}
         {save && <SaveWordButton word={{ fr: item.fr, en: item.en, hi: item.hi, gender: item.gender, isPhrase: item.fr.trim().includes(" ") && !item.lemma, lemma: item.lemma }} source={source} sourceRef={sourceRef ?? (day ? `day:${day}` : undefined)} />}
       </div>
       <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1 text-sm">

@@ -153,7 +153,7 @@ function CardView({ c, onRate }: { c: QCard; onRate: (r: Rating, answer?: string
   );
 
   return (
-    <section className="card space-y-4" aria-label={L({ en: `Review card: ${KIND_LABEL[kind].en}`, hi: `दोहराव कार्ड: ${KIND_LABEL[kind].hi}` })}>
+    <section className={`card space-y-4 ${check?.result === "correct" || check?.result === "accent" ? "answer-ok" : check?.result === "wrong" ? "answer-no" : ""}`} aria-label={L({ en: `Review card: ${KIND_LABEL[kind].en}`, hi: `दोहराव कार्ड: ${KIND_LABEL[kind].hi}` })}>
       <p className="text-xs uppercase tracking-wide text-muted">{L(KIND_LABEL[kind])}{c.card.state === "new" ? ` · ${L({ en: "new", hi: "नया" })}` : ""}</p>
 
       {/* Prompt */}
@@ -183,7 +183,7 @@ function CardView({ c, onRate }: { c: QCard; onRate: (r: Rating, answer?: string
       {!typed && kind !== "gender" && !revealed && <button className="btn btn-primary w-full" onClick={() => setRevealed(true)} autoFocus><Bi as="span" t={{ en: "Show answer", hi: "उत्तर देखें" }} /></button>}
 
       {revealed && (
-        <div className="space-y-3 border-t border-app pt-3">
+        <div className="reveal-in space-y-3 border-t border-app pt-3">
           {check && <ResultLine r={check} />}
           <div className="flex items-center gap-2"><span className="text-xl font-semibold" lang="fr">{w.fr}</span><Speak text={w.fr} /></div>
           {kind !== "meaning_to_fr" && meaning}

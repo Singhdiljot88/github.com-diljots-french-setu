@@ -55,9 +55,9 @@ export function McqLive({ q, index, endpoint, section, onAnswered, name }: { q: 
 }
 
 export function ResultLine({ r }: { r: AnswerCheck }) {
-  if (r.result === "correct") return <p className="text-sm text-green-700 dark:text-green-300">✓ <Bi as="span" t={{ en: "Correct", hi: "सही" }} /></p>;
-  if (r.result === "accent") return <p className="text-sm text-saffron-700"><Bi as="span" t={{ en: "Almost. Check the accents:", hi: "लगभग सही। accent के निशान जाँचें:" }} /> <span lang="fr" className="font-medium">{r.expected}</span></p>;
-  return <p className="text-sm text-red-700 dark:text-red-300"><Bi as="span" t={{ en: "Expected:", hi: "सही उत्तर:" }} /> <span lang="fr" className="font-medium">{r.expected}</span></p>;
+  if (r.result === "correct") return <p className="reveal-in text-sm font-semibold text-green-700 dark:text-green-300">✓ <Bi as="span" t={{ en: "Correct", hi: "सही" }} /></p>;
+  if (r.result === "accent") return <p className="reveal-in text-sm text-saffron-700"><Bi as="span" t={{ en: "Almost. Check the accents:", hi: "लगभग सही। accent के निशान जाँचें:" }} /> <span lang="fr" className="font-medium">{r.expected}</span></p>;
+  return <p className="reveal-in text-sm text-red-700 dark:text-red-300"><Bi as="span" t={{ en: "Expected:", hi: "सही उत्तर:" }} /> <span lang="fr" className="font-medium">{r.expected}</span></p>;
 }
 
 /** Dictation: listen, type, compare. */
