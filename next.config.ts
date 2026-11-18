@@ -10,6 +10,7 @@ const securityHeaders = [
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
+  experimental: { agentUpgrade: "security" },
   serverExternalPackages: ["@electric-sql/pglite", "pg"],
   outputFileTracingIncludes: { "/**": ["./content/**/*.json", "./drizzle/**/*"] },
   async headers() {
