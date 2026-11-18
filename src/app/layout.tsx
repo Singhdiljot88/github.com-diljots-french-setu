@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className="min-h-dvh antialiased">
-        <a href="#main" className="skip-link">Skip to main content</a>
+        <a href="#main" className="skip-link">Skip to main content · <span lang="hi" className="deva">मुख्य सामग्री पर जाएँ</span></a>
         {children}
         <SwRegister />
       </body>

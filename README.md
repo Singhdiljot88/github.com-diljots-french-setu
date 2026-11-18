@@ -26,7 +26,7 @@ Copy `.env.example` to `.env.local` and fill in what you have. Restart `npm run 
 
 | Feature | Without a key | With a key |
 |---|---|---|
-| Writing feedback | Rule-based checker, labelled "not AI" | `ANTHROPIC_API_KEY` (Claude) or `OPENAI_API_KEY` |
+| Writing feedback, tutor, speaking partner | Rule-based checker and scripted partner, labelled "not AI" | The existing `OPENAI_API_KEY` (Vercel AI SDK, server-side). Do not rename it. |
 | Database | Embedded PGlite in `.data/` | `DATABASE_URL` (Postgres, Supabase, Neon) |
 
 See [docs/DEPLOY.md](docs/DEPLOY.md) for putting it online, and [BUILD_STATUS.md](BUILD_STATUS.md) for what is built so far.

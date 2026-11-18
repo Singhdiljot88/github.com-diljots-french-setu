@@ -3,12 +3,17 @@ import type { ProviderStatus } from "@/components/prefs";
 
 const env = (k: string) => process.env[k]?.trim() || undefined;
 
-export function aiProvider(): "anthropic" | "openai" | "speko" | "demo" {
+/**
+ * Chat features use the existing OPENAI_API_KEY (same name as the speech routes).
+ * Nothing is renamed. With that variable empty, the app stays in labelled demo mode.
+ * AI_PROVIDER=anthropic or speko selects those backends only when that provider's own key is set.
+ */
+export function aiProvider(): "openai" | "anthropic" | "speko" | "demo" {
   const p = env("AI_PROVIDER");
   if (p === "demo") return "demo";
-  if ((p === "anthropic" || !p) && env("ANTHROPIC_API_KEY")) return "anthropic";
-  if ((p === "openai" || !p) && env("OPENAI_API_KEY")) return "openai";
-  if ((p === "speko" || !p) && env("SPEKO_API_KEY")) return "speko";
+  if (p === "anthropic") return env("ANTHROPIC_API_KEY") ? "anthropic" : "demo";
+  if (p === "speko") return env("SPEKO_API_KEY") ? "speko" : "demo";
+  if (p === "openai" || !p) return env("OPENAI_API_KEY") ? "openai" : "demo";
   return "demo";
 }
 

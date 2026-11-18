@@ -101,6 +101,18 @@ export default async function Today() {
         </ul>
       </section>
 
+      <section className="card flex flex-col gap-3 sm:flex-row sm:items-center" aria-labelledby="ref-h">
+        <div className="min-w-0 flex-1">
+          <h2 id="ref-h" className="font-semibold"><Bi as="span" t={{ en: "Stuck on a form?", hi: "कोई रूप अटका है?" }} /></h2>
+          <Bi className="text-sm text-muted" t={{ en: "Look up the grammar point, drill the verb, or grab a phrase for a real situation.", hi: "व्याकरण बिंदु देखें, क्रिया का अभ्यास करें, या असली मौके का वाक्यांश लें।" }} />
+        </div>
+        <div className="flex flex-wrap gap-2">
+          <Link href="/grammar" className="btn btn-secondary btn-sm"><Bi as="span" t={{ en: "Grammar", hi: "व्याकरण" }} /></Link>
+          <Link href="/grammar#drill" className="btn btn-secondary btn-sm"><Bi as="span" t={{ en: "Verb drill", hi: "क्रिया अभ्यास" }} /></Link>
+          <Link href="/phrases" className="btn btn-secondary btn-sm"><Bi as="span" t={{ en: "Phrases", hi: "वाक्यांश" }} /></Link>
+        </div>
+      </section>
+
       <section className="card" aria-labelledby="tasks-h">
         <div className="flex flex-wrap items-baseline justify-between gap-2">
           <h2 id="tasks-h" className="text-lg font-semibold"><Bi as="span" t={{ en: "Today's tasks", hi: "आज के काम" }} /> {parts > 1 && <Bi as="span" className="text-sm font-normal text-muted" t={{ en: `(part ${part} of ${parts} of this lesson)`, hi: `(इस पाठ का भाग ${part} / ${parts})` }} />}</h2>
