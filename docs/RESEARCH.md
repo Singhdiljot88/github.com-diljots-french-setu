@@ -59,6 +59,15 @@ Those four are what this change adds. They use the lessons and the dictionary th
 6. **Pronunciation scoring only with a real provider.** The app correctly shows nothing rather than a guess. Keep that until a provider is chosen.
 7. **Do not add a level badge, a streak that punishes a missed day, or a leaderboard.** The streak that exists counts study days and says so. A guilt streak fights the spacing research, which wants people to come back after a gap.
 
+## Follow-up on this branch
+
+After the first pull request merged, the next pass adds the pieces the research called “find it again” and “produce a line and get a reason”:
+
+- A theme control (system, light, dark) and stronger answer feedback, with `prefers-reduced-motion` still turning animation off.
+- A phase map and a phase progress bar. The bar counts days finished in the current phase. It is not a level and not XP.
+- Explain, on a sentence or a grammar example, in English and Hindi. It uses the existing `OPENAI_API_KEY` through the server AI SDK. With the key empty, a labelled non-AI note uses the gloss already on the line.
+- A quiz built from open mistakes, and a role-play for each phrasebook situation with a check on the learner’s line. The check never shows a TEF, CEFR or NCLC score. Writing and speaking feedback that already existed keeps using the same server path and the same daily limit.
+
 ## What not to build
 
 - A second curriculum. The 120 days are the product.

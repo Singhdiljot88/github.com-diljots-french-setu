@@ -141,7 +141,24 @@ mark.del { background: #f8d1d1; color: #6b1010; text-decoration: line-through; b
 .res-card { display: flex; flex-direction: column; gap: .35rem; border-radius: 1rem; padding: 1rem; background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow-sm); transition: border-color .15s, transform .15s; }
 .res-card:hover { border-color: var(--color-brand-400); transform: translateY(-1px); }
 
-@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+.reveal-in { animation: fade-up .35s both; }
+.answer-ok { border-color: #16a34a; box-shadow: 0 0 0 3px color-mix(in srgb, #16a34a 28%, transparent); }
+.answer-no { border-color: #e11d48; box-shadow: 0 0 0 3px color-mix(in srgb, #e11d48 22%, transparent); animation: shake .35s ease-in-out; }
+.phase-map { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .6rem; }
+@media (min-width: 800px) { .phase-map { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+.phase-node { display: flex; min-height: 44px; flex-direction: column; gap: .35rem; border-radius: 1rem; padding: .7rem; background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow-sm); transition: transform .15s, border-color .15s; }
+.phase-node:hover { transform: translateY(-2px); border-color: var(--color-brand-400); }
+.phase-node[data-current="true"] { border-color: var(--color-saffron-500); }
+.phase-meter { height: .4rem; overflow: hidden; border-radius: 99px; background: var(--surface-2); }
+.phase-meter > span { display: block; height: 100%; width: calc(var(--p, 0) * 100%); border-radius: inherit; background: linear-gradient(90deg, var(--color-brand-500), var(--color-saffron-500)); transition: width .6s ease; }
+.card { transition: transform .15s, box-shadow .15s, border-color .15s; }
+.btn { transition: background .15s, border-color .15s, transform .1s; }
+.btn:active:not(:disabled) { transform: translateY(1px) scale(.99); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  .phase-node:hover, .game-tile:hover, .res-card:hover { transform: none; }
+}
 
 /* Printing (reports): light colours on white paper whatever the screen theme. */
 @media print {

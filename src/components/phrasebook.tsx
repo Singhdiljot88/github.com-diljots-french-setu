@@ -3,6 +3,8 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { Bi, useBiLabel } from "./bi";
 import { Speak } from "./audio";
+import { ExplainButton } from "./explain-button";
+import { SituationRoleplay } from "./situation-roleplay";
 import { Pron } from "./practice-arcade";
 import { searchKey } from "@/lib/text";
 import type { Situation } from "@/lib/situations";
@@ -46,11 +48,16 @@ export function Phrasebook({ book, courseDay }: { book: Situation[]; courseDay: 
           ))}
         </ul>
       )}
-      {sit && !q && <Bi className="text-sm text-muted" t={sit.blurb} />}
+      {sit && !q && (
+        <div className="space-y-3">
+          <Bi className="text-sm text-muted" t={sit.blurb} />
+          <SituationRoleplay id={sit.id} />
+        </div>
+      )}
       <ul className="space-y-3">
         {lines.map((line) => (
           <li key={`${line.situation}-${line.fr}`} className="card space-y-1">
-            <p className="flex flex-wrap items-center gap-2 text-lg font-medium" lang="fr"><span>{line.fr}</span><Speak text={line.fr} /></p>
+            <p className="flex flex-wrap items-center gap-2 text-lg font-medium" lang="fr"><span>{line.fr}</span><Speak text={line.fr} /><ExplainButton fr={line.fr} en={line.en} hi={line.hi} context={`day ${line.day}`} /></p>
             {line.pron && <Pron text={line.pron} />}
             <p className="text-sm">{line.en}</p>
             <p className="text-sm deva" lang="hi">{line.hi}</p>

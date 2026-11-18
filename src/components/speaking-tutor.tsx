@@ -273,7 +273,7 @@ function MicButton({ onText, disabled }: { onText: (t: string, via: "speech_brow
 }
 
 function ReportView({ r, onAgain, againLabel }: { r: SpeakingReport; onAgain: () => void; againLabel?: string }) {
-  const [practice, setPractice] = useState<number | null>(null);
+  const [practice, setPractice] = useState<Record<number, string>>({});
   const label = useBiLabel();
   const f = r.feedback;
   return (
