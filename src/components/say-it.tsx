@@ -30,7 +30,6 @@ export function SayIt({ items, today }: { items: SayItem[]; today: number }) {
   const [day, setDay] = useState(days.includes(today) ? today : days[0]);
   const [sr, setSr] = useState<(new () => SR) | null | undefined>(undefined);
   const { providers } = usePrefs();
-  // Speko recognition on the server is preferred when configured: Safari's built-in recognizer often aborts on iPhone.
   useEffect(() => setSr(() => (providers.stt.server ? (ServerSpeechRecognition as unknown as new () => SR) : getSR())), [providers.stt.server]);
   const label = useBiLabel();
   const list = items.filter((i) => i.day === day);
@@ -63,7 +62,6 @@ function SayCard({ it, sr }: { it: SayItem; sr: (new () => SR) | null }) {
   const [result, setResult] = useState<{ transcript: string; m: PhraseMatch } | null>(null);
   const [best, setBest] = useState<number | null>(null);
   const rec = useRef<SR | null>(null);
-  // Leaving the page mid-recording releases the microphone.
   useEffect(() => () => { rec.current?.abort?.(); }, []);
 
   const record = async (transcript: string, via: "speech_browser" | "typed_keyboard") => {
@@ -80,15 +78,14 @@ function SayCard({ it, sr }: { it: SayItem; sr: (new () => SR) | null }) {
 
   const listen = () => {
     if (!sr) return;
-    stopAll(); // the model audio must not be playing into the microphone
+    stopAll();
     const r = new sr();
-    r.lang = "fr-FR"; r.interimResults = false; r.maxAlternatives = 3; r.continuous = false;
+    r.lang = "fr-FR"; r.interimResults = true; r.maxAlternatives = 3; r.continuous = false;
     r.onresult = (e) => {
-      // Of the recognizer's guesses, keep the one closest to the phrase: that is what it could have understood.
       const alts = Array.from({ length: e.results[0]?.length ?? 0 }, (_, i) => e.results[0][i].transcript.trim()).filter(Boolean);
       if (!alts.length) return;
       const pick = alts.map((a) => ({ a, h: matchPhrase(it.fr, a).heard })).sort((x, y) => y.h - x.h)[0].a;
-      record(pick, "speech_browser");
+      if (e.results[0].isFinal) record(pick, "speech_browser");
     };
     r.onerror = (e) => {
       setState("error");
@@ -109,6 +106,7 @@ function SayCard({ it, sr }: { it: SayItem; sr: (new () => SR) | null }) {
   };
 
   const st = result ? statusFor(result.m.heard, result.m.total) : null;
+  const missed = result?.m.words.filter((w) => !w.heard).map((w) => w.word) ?? [];
   return (
     <li className="card space-y-2">
       <div className="flex flex-wrap items-start justify-between gap-2">
@@ -134,13 +132,19 @@ function SayCard({ it, sr }: { it: SayItem; sr: (new () => SR) | null }) {
       </form>
       {msg && <p role="alert" className="text-sm">{label(msg)}</p>}
       {result && st && (
-        <div className="rounded-lg surface-2 p-2 text-sm" aria-live="polite">
+        <div className="rounded-lg surface-2 p-2 text-sm space-y-1" aria-live="polite">
           <p>{label({ en: "Heard:", hi: "सुना गया:" })} <q lang="fr">{result.transcript}</q></p>
           <p className="mt-1" lang="fr">{result.m.words.map((w, i) => <span key={i} className={`mr-1 rounded px-1 ${w.heard ? "bg-green-100 text-green-900 dark:bg-green-900/40 dark:text-green-100" : "bg-red-100 text-red-900 line-through decoration-1 dark:bg-red-900/40 dark:text-red-100"}`}>{w.word}</span>)}</p>
           <p className="mt-1">{STATUS_LABEL[st].icon} {label({
             en: `${result.m.heard} of ${result.m.total} words recognised.${st !== "all" ? " Listen to the model again, then try once more." : ""}`,
             hi: `${result.m.total} में से ${result.m.heard} शब्द पहचाने गए।${st !== "all" ? " नमूना फिर से सुनें, फिर एक बार और कोशिश करें।" : ""}`,
           })}</p>
+          {missed.length > 0 && st !== "all" && (
+            <p className="text-xs text-muted">{label({
+              en: `Try focusing on: ${missed.slice(0, 3).join(", ")}${missed.length > 3 ? "…" : ""}`,
+              hi: `इन पर ध्यान दें: ${missed.slice(0, 3).join(", ")}${missed.length > 3 ? "…" : ""}`,
+            })}</p>
+          )}
         </div>
       )}
     </li>
