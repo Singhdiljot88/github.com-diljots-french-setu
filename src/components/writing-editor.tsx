@@ -24,7 +24,7 @@ const NOTICE_HI: [string, string][] = [
   ["Rule-based check (not AI)", "नियम-आधारित जाँच (AI नहीं)"],
   ["AI feedback — check anything that looks wrong; AI can make mistakes.", "AI फ़ीडबैक — जो ग़लत लगे उसे ज़रूर जाँचें; AI से भी ग़लती हो सकती है।"],
   ["AI feedback on your transcript. It cannot hear your accent; check anything that looks wrong.", "आपके लिखित रूप (ट्रांसक्रिप्ट) पर AI फ़ीडबैक। यह आपका उच्चारण नहीं सुन सकता; जो ग़लत लगे उसे जाँच लें।"],
-  ["This is a fixed list of common beginner checks, not an AI tutor. It misses many errors and cannot judge meaning or task completion. Add an AI key on the server for full feedback.", "यह शुरुआती स्तर की आम ग़लतियों की एक तय सूची है, AI शिक्षक नहीं। यह कई ग़लतियाँ छोड़ देती है और अर्थ या कार्य पूरा हुआ या नहीं, यह नहीं परख सकती। पूरे फ़ीडबैक के लिए सर्वर पर AI कुंजी जोड़ें।"],
+  ["This is a fixed list of common beginner checks, not an AI tutor. It misses many errors and cannot judge meaning or task completion. Full feedback uses the server's existing OPENAI_API_KEY.", "यह शुरुआती स्तर की आम ग़लतियों की एक तय सूची है, AI शिक्षक नहीं। यह कई ग़लतियाँ छोड़ देती है और अर्थ या कार्य पूरा हुआ या नहीं, यह नहीं परख सकती। पूरा फ़ीडबैक सर्वर की मौजूदा OPENAI_API_KEY से आता है।"],
   ["This checks your transcript for a fixed list of common errors. It cannot judge meaning, fluency, task completion or pronunciation.", "यह आपके ट्रांसक्रिप्ट में आम ग़लतियों की एक तय सूची जाँचता है। यह अर्थ, धाराप्रवाह, कार्य पूरा होना या उच्चारण नहीं परख सकता।"],
 ];
 export function noticeBi(en: string): { en: string; hi?: string } {

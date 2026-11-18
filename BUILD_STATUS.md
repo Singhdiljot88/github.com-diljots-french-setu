@@ -100,7 +100,7 @@ Azure pronunciation assessment would give real accent feedback, but I could not 
 
 | Integration | Variables | Without it |
 |---|---|---|
-| AI feedback, speaking partner, web lessons | `ANTHROPIC_API_KEY` or `OPENAI_API_KEY` | Rule-based checker and scripted partner, both labelled |
+| AI feedback, speaking partner, web lessons | `OPENAI_API_KEY`, otherwise `SPEKO_API_KEY` (or `ANTHROPIC_API_KEY` if it is the only key) | Rule-based checker and scripted partner, both labelled |
 | Server text-to-speech | `AZURE_SPEECH_KEY` + `AZURE_SPEECH_REGION`, or OpenAI | Device voice (labelled synthetic) |
 | Server speech-to-text | OpenAI or Azure | Browser recognition where available |
 | Pronunciation scoring | Azure Speech (adapter not built yet) | Not shown at all |

@@ -13,8 +13,8 @@ const SECTIONS: { h: string; hi: string; body: string[] }[] = [
     "Recordings: only if you turn on “Keep my recordings” in Settings. Otherwise recordings are played back in your browser and never stored.",
   ] },
   { h: "What is sent to other services", hi: "दूसरी सेवाओं को क्या भेजा जाता है", body: [
-    "When you use an AI feature (the tutor, writing feedback, speaking partner, Hindi → French), the text you enter and the lesson context are sent to the configured AI provider (Speko, Anthropic or OpenAI) to produce the answer.",
-    "When you use server speech recognition, your recording is sent to the speech provider for transcription and then discarded. Server text-to-speech sends the French text only.",
+    "When you use an AI feature (the tutor, writing feedback, speaking partner, Hindi → French), the text you enter and the lesson context are sent to OpenAI. The server reads the existing variable OPENAI_API_KEY. That key never goes to your browser. If the variable is empty, these features stay in labelled demo mode and the text is not sent.",
+    "When you use server speech recognition, your recording is sent to the speech provider for transcription and then discarded. With OPENAI_API_KEY set and speech left on its default, that provider is OpenAI. Set STT_PROVIDER=browser to keep recognition on the device. Server text-to-speech sends the French text only, and only if a server voice is configured.",
     "Without these services configured, the app runs in a labelled demo mode and nothing is sent.",
   ] },
   { h: "Cookies", hi: "कुकीज़", body: ["One sign-in cookie (fs_session) keeps you logged in. There are no advertising or analytics cookies."] },
@@ -31,7 +31,7 @@ export default function PrivacyPage() {
       <Link href="/" className="text-sm underline">← French Setu</Link>
       <header>
         <h1 className="text-3xl font-bold">Privacy · <span lang="hi" className="deva">गोपनीयता</span></h1>
-        <p className="text-sm text-muted">How French Setu handles your data, in plain language. Last updated 15 November 2026.</p>
+        <p className="text-sm text-muted">How French Setu handles your data, in plain language. Last updated 18 November 2026.</p>
       </header>
       {SECTIONS.map((s) => (
         <section key={s.h} className="card space-y-2">

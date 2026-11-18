@@ -26,6 +26,8 @@ export async function verifyPassword(pw: string, stored: string): Promise<boolea
 }
 
 const tokenHash = (t: string) => crypto.createHash("sha256").update(t).digest("hex");
+/** Same scrypt cost as a real hash, so a missing account does not answer faster than a wrong password. */
+const DUMMY_HASH = `scrypt$${Buffer.alloc(16, 7).toString("base64")}$${Buffer.alloc(64, 9).toString("base64")}`;
 
 export async function createSession(userId: string) {
   const db = await getDb();
@@ -113,7 +115,11 @@ export async function signIn(email: string, password: string) {
   const db = await getDb();
   const e = email.trim().toLowerCase();
   const [u] = await db.select().from(users).where(eq(users.email, e));
-  if (!u || !(await verifyPassword(password, u.passwordHash))) return { error: "Email or password is incorrect." } as const;
+  if (!u) {
+    await verifyPassword(password, DUMMY_HASH);
+    return { error: "Email or password is incorrect." } as const;
+  }
+  if (!(await verifyPassword(password, u.passwordHash))) return { error: "Email or password is incorrect." } as const;
   await createSession(u.id);
   return { userId: u.id } as const;
 }

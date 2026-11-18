@@ -43,7 +43,7 @@ export function AskTutor({ day }: { day: number }) {
     return (
       <details className="card text-sm">
         <summary className="cursor-pointer font-medium">🙋 <Bi as="span" t={{ en: "Ask the tutor", hi: "टीचर से पूछें" }} /></summary>
-        <Bi className="mt-2 text-muted" t={{ en: "The AI tutor needs an AI key on the server (Speko, Anthropic or OpenAI). Until then, use the grammar box, the dictionary and the mistake notebook.", hi: "AI टीचर के लिए सर्वर पर AI कुंजी चाहिए (Speko, Anthropic या OpenAI)। तब तक व्याकरण बॉक्स, शब्दकोश और ग़लतियों की कॉपी इस्तेमाल करें।" }} />
+        <Bi className="mt-2 text-muted" t={{ en: "The tutor is in demo mode because OPENAI_API_KEY is empty on the server (that is the variable this app already uses). Until then, use the grammar box, the dictionary and the mistake notebook.", hi: "टीचर डेमो मोड में है क्योंकि सर्वर पर OPENAI_API_KEY खाली है (यही नाम यह ऐप पहले से इस्तेमाल करता है)। तब तक व्याकरण बॉक्स, शब्दकोश और ग़लतियों की कॉपी इस्तेमाल करें।" }} />
       </details>
     );
   }

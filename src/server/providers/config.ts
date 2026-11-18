@@ -3,12 +3,26 @@ import type { ProviderStatus } from "@/components/prefs";
 
 const env = (k: string) => process.env[k]?.trim() || undefined;
 
-export function aiProvider(): "anthropic" | "openai" | "speko" | "demo" {
+/**
+ * Chat features (tutor, speaking partner, writing feedback) use a real model
+ * whenever a key exists. OPENAI_API_KEY is preferred. SPEKO_API_KEY is the
+ * fallback and is enough on its own. ANTHROPIC_API_KEY is used when it is the
+ * only key. AI_PROVIDER can force one of those, or "demo". If the named
+ * provider has no key, the same order applies, so a missing OpenAI key still
+ * reaches Speko. Demo mode is only the last resort.
+ */
+export function aiProvider(): "openai" | "anthropic" | "speko" | "demo" {
   const p = env("AI_PROVIDER");
   if (p === "demo") return "demo";
-  if ((p === "anthropic" || !p) && env("ANTHROPIC_API_KEY")) return "anthropic";
-  if ((p === "openai" || !p) && env("OPENAI_API_KEY")) return "openai";
-  if ((p === "speko" || !p) && env("SPEKO_API_KEY")) return "speko";
+  const openai = !!env("OPENAI_API_KEY");
+  const speko = !!env("SPEKO_API_KEY");
+  const anthropic = !!env("ANTHROPIC_API_KEY");
+  if (p === "openai" && openai) return "openai";
+  if (p === "speko" && speko) return "speko";
+  if (p === "anthropic" && anthropic) return "anthropic";
+  if (openai) return "openai";
+  if (speko) return "speko";
+  if (anthropic) return "anthropic";
   return "demo";
 }
 

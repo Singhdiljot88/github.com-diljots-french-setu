@@ -1,6 +1,8 @@
 import "server-only";
 import { createHash } from "node:crypto";
 import Anthropic from "@anthropic-ai/sdk";
+import { createOpenAI } from "@ai-sdk/openai";
+import { APICallError, NoObjectGeneratedError, Output, generateText } from "ai";
 import { and, eq, gte, sql } from "drizzle-orm";
 import { z, type ZodType } from "zod";
 import { getDb } from "@/db";
@@ -11,8 +13,11 @@ import { HttpError } from "../http";
 
 /**
  * One server-side entry point for every AI feature (writing feedback, speaking partner,
- * lesson generation from web pages). The provider is chosen by env; nothing here runs in
- * the browser and API keys never leave the server.
+ * the lesson tutor, lesson generation from web pages). OpenAI is called through the
+ * Vercel AI SDK (`@ai-sdk/openai`) when OPENAI_API_KEY is set. Otherwise Speko is used
+ * when SPEKO_API_KEY is set. Nothing here runs in the browser and no key leaves the
+ * server. With no chat key, this throws AiUnavailable and callers use their labelled
+ * demo path.
  */
 
 export type AiFeature = "writing_feedback" | "speaking_turn" | "speaking_feedback" | "web_lesson" | "hindi_bridge" | "lesson_tutor";
@@ -25,7 +30,8 @@ const TIMEOUT_MS = Number(process.env.AI_TIMEOUT_MS || 60_000);
 export function aiModel() {
   const p = aiProvider();
   if (p === "speko") return spekoLlm();
-  return process.env.AI_MODEL?.trim() || (p === "openai" ? "gpt-4.1-mini" : "claude-opus-5-5");
+  if (p === "openai") return process.env.AI_MODEL?.trim() || "gpt-4.1-mini";
+  return process.env.AI_MODEL?.trim() || "claude-opus-5-5";
 }
 
 /** Wrap text the learner or a web page supplied so the model treats it as data, not instructions. */
@@ -166,31 +172,45 @@ async function callAnthropic(o: { system: string; prompt: string; jsonSchema: Re
   }
 }
 
-async function callOpenAI(o: { system: string; prompt: string; jsonSchema: Record<string, unknown>; maxTokens: number }) {
+let openai: ReturnType<typeof createOpenAI> | null = null;
+function openAI() {
+  // The key is read here, on the server, and is never returned to the browser.
+  return (openai ??= createOpenAI({
+    apiKey: process.env.OPENAI_API_KEY,
+    baseURL: process.env.OPENAI_BASE_URL?.trim() || undefined,
+  }));
+}
+
+/** Structured JSON from OpenAI through the Vercel AI SDK. A missing or bad key becomes AiUnavailable so callers use their labelled demo path. */
+async function callOpenAI(o: { system: string; prompt: string; schema: ZodType; maxTokens: number }) {
+  if (!process.env.OPENAI_API_KEY?.trim()) throw new AiUnavailable("No AI provider is configured on the server.");
   const ctrl = new AbortController();
   const t = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
   try {
-    for (let attempt = 0; ; attempt++) {
-      const r = await fetch(`${process.env.OPENAI_BASE_URL || "https://api.openai.com/v1"}/chat/completions`, {
-        method: "POST", signal: ctrl.signal,
-        headers: { "content-type": "application/json", authorization: `Bearer ${process.env.OPENAI_API_KEY}` },
-        body: JSON.stringify({
-          model: aiModel(), max_completion_tokens: o.maxTokens,
-          response_format: { type: "json_schema", json_schema: { name: "result", strict: true, schema: o.jsonSchema } },
-          messages: [{ role: "system", content: o.system }, { role: "user", content: o.prompt }],
-        }),
-      });
-      if ((r.status === 429 || r.status >= 500) && attempt < 2) { await new Promise((s) => setTimeout(s, 1000 * 2 ** attempt)); continue; }
-      if (!r.ok) throw new AiUnavailable(`The AI service returned an error (${r.status}).`);
-      const j = await r.json() as { choices?: { message?: { content?: string; refusal?: string } }[] };
-      const m = j.choices?.[0]?.message;
-      if (m?.refusal) throw new AiUnavailable("The AI declined this request.");
-      return JSON.parse(m?.content ?? "") as unknown;
-    }
+    const { output } = await generateText({
+      model: openAI()(aiModel()),
+      output: Output.object({ schema: o.schema, name: "result" }),
+      system: o.system,
+      prompt: o.prompt,
+      maxOutputTokens: o.maxTokens,
+      maxRetries: 2,
+      abortSignal: ctrl.signal,
+    });
+    if (output == null) throw new AiUnavailable("The AI did not return an answer. Please try again.");
+    return output;
   } catch (e) {
     if (e instanceof AiUnavailable) throw e;
+    if (NoObjectGeneratedError.isInstance(e)) {
+      if (e.finishReason === "length") throw new AiUnavailable("The AI response was cut off. Try a shorter text.");
+      if (e.text) return tryJson(e.text) ?? e.text;
+      throw new AiUnavailable("The AI returned a malformed answer.");
+    }
+    if (APICallError.isInstance(e)) {
+      if (e.statusCode === 401 || e.statusCode === 403) throw new AiUnavailable("The AI key on the server is invalid. Ask whoever runs this app to check OPENAI_API_KEY.");
+      if (e.statusCode === 429) throw new AiUnavailable("The AI service is busy right now. Please try again in a minute.");
+      throw new AiUnavailable(`The AI service returned an error (${e.statusCode ?? "network"}).`);
+    }
     if ((e as Error).name === "AbortError") throw new AiUnavailable("The AI service took too long to answer. Please try again.");
-    if (e instanceof SyntaxError) throw new AiUnavailable("The AI returned a malformed answer.");
     throw new AiUnavailable("Could not reach the AI service.");
   } finally { clearTimeout(t); }
 }
@@ -258,7 +278,7 @@ export async function generateJson<T>(feature: AiFeature, userId: string, o: { s
   }
   await checkQuota(userId);
   const jsonSchema = toOutputSchema(o.schema);
-  const args = { system: o.system, prompt: o.prompt, jsonSchema, maxTokens: o.maxTokens ?? 8000, effort: o.effort ?? "low" };
+  const args = { system: o.system, prompt: o.prompt, jsonSchema, schema: o.schema, maxTokens: o.maxTokens ?? 8000, effort: o.effort ?? "low" as const };
   let ok = false;
   try {
     const call = (a: typeof args) => (provider === "anthropic" ? callAnthropic(a) : provider === "speko" ? callSpeko(a) : callOpenAI(a));

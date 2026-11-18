@@ -9,7 +9,7 @@ The app is a standard Next.js server. It needs a Node.js host and, online, a rea
 3. **Host.** At https://vercel.com, choose Add New → Project and import the repository. Under Environment Variables add:
    - `DATABASE_URL`: the Supabase string, with your password filled in.
    - `DATABASE_SSL`: `require`
-   - Optionally `ANTHROPIC_API_KEY` for AI writing feedback.
+   - AI chat (writing feedback, the tutor, the speaking partner, Hindi → French, lessons from a web page) uses `OPENAI_API_KEY` when that variable is set, and `SPEKO_API_KEY` when it is not. Do not rename either key and do not add a new one. Demo mode runs only when neither key is set.
 4. Deploy. On the first request, the tables are created and the course is loaded.
 
 ## Other hosts

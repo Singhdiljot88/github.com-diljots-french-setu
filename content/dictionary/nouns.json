@@ -21757,7 +21757,7 @@
   ],
   "examples": [
    {
-    "fr": "Je parle trois langues : l'hindi, l'anglais et un peu de français.",
+    "fr": "Je parle trois langues : le hindi, l'anglais et un peu de français.",
     "en": "I speak three languages: Hindi, English and a little French.",
     "hi": "मैं तीन भाषाएँ बोलता हूँ: हिंदी, अंग्रेज़ी और थोड़ी फ़्रेंच।"
    }
@@ -21770,8 +21770,8 @@
   ],
   "mistakes": [
    {
-    "en": "The u is silent: लाँग, not \"lan-gu\". Language names are masculine: \"le français\", \"l'hindi\".",
-    "hi": "u चुप है: लाँग। भाषाओं के नाम पुल्लिंग हैं: \"le français\", \"l'hindi\"।"
+    "en": "The u is silent: लाँग, not \"lan-gu\". Language names are masculine: \"le français\", \"le hindi\" (h aspiré, so not l'hindi), \"l'anglais\".",
+    "hi": "u चुप है: लाँग। भाषाओं के नाम पुल्लिंग हैं: \"le français\", \"le hindi\" (h aspiré, इसलिए l'hindi नहीं), \"l'anglais\"।"
    }
   ],
   "related": [
