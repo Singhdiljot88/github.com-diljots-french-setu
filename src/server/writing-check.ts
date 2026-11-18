@@ -62,7 +62,7 @@ function corr(original: string, corrected: string, category: Correction["categor
 
 const capFirst = (src: string, out: string) => (/^\p{Lu}/u.test(src) ? out.charAt(0).toUpperCase() + out.slice(1) : out);
 
-export async function ruleBasedFeedback(text: string, o: { minWords?: number } = {}): Promise<WritingFeedback> {
+export async function ruleBasedFeedback(text: string, o: { minWords?: number; spoken?: boolean } = {}): Promise<WritingFeedback> {
   const { byBare, gender } = await spellings();
   const corrections: Correction[] = [];
   const seen = new Set<string>();
@@ -160,14 +160,14 @@ export async function ruleBasedFeedback(text: string, o: { minWords?: number } =
     push(corr(w, out, "spelling", `Accents are part of the spelling: “${accented[0]}”. On the exam a missing accent counts as a spelling mistake.`, `Accent वर्तनी का हिस्सा है: “${accented[0]}”। परीक्षा में accent छूटना वर्तनी की ग़लती मानी जाती है।`, { prompt: `Write with the correct accents: ${lw}`, answer: accented[0] }), new RegExp(`(?<![\\p{L}])${esc(w)}(?![\\p{L}])`, "gu"), out);
   }
 
-  // 7. Sentence capital and final punctuation (style, not errors)
-  const trimmed = text.trim();
-  if (trimmed && /^\p{Ll}/u.test(trimmed)) push(corr(trimmed.split(/\s+/)[0], trimmed.split(/\s+/)[0].replace(/^\p{Ll}/u, (c) => c.toUpperCase()), "organization", "Start the first sentence with a capital letter.", "पहला वाक्य बड़े अक्षर (capital) से शुरू करें।", { prompt: "Capitalise: bonjour, je m'appelle Ana.", answer: "Bonjour, je m'appelle Ana." }, false));
-  if (trimmed && !/[.!?…»)]$/.test(trimmed)) { const tail = trimmed.split(/\s+/).slice(-3).join(" ");
-    push(corr(tail, `${tail}.`, "organization", "End your text with a full stop.", "पाठ को पूर्णविराम (.) से ख़त्म करें।", { prompt: "Add the final punctuation: Je suis étudiant", answer: "Je suis étudiant." }, false)); fixed = fixed.trimEnd() + "."; }
-
-  // capitals at sentence starts in the corrected text (fixes above may have lowercased one)
-  fixed = fixed.replace(/(^\s*|[.!?]\s+)(\p{Ll})/gu, (_, a: string, b: string) => a + b.toUpperCase());
+  // 7. Sentence capital and final punctuation. Spoken turns (speech-to-text) have neither, so skip them.
+  if (!o.spoken) {
+    const trimmed = text.trim();
+    if (trimmed && /^\p{Ll}/u.test(trimmed)) push(corr(trimmed.split(/\s+/)[0], trimmed.split(/\s+/)[0].replace(/^\p{Ll}/u, (c) => c.toUpperCase()), "organization", "Start the first sentence with a capital letter.", "पहला वाक्य बड़े अक्षर (capital) से शुरू करें।", { prompt: "Capitalise: bonjour, je m'appelle Ana.", answer: "Bonjour, je m'appelle Ana." }, false));
+    if (trimmed && !/[.!?…»)]$/.test(trimmed)) { const tail = trimmed.split(/\s+/).slice(-3).join(" ");
+      push(corr(tail, `${tail}.`, "organization", "End your text with a full stop.", "पाठ को पूर्णविराम (.) से ख़त्म करें।", { prompt: "Add the final punctuation: Je suis étudiant", answer: "Je suis étudiant." }, false)); fixed = fixed.trimEnd() + "."; }
+    fixed = fixed.replace(/(^\s*|[.!?]\s+)(\p{Ll})/gu, (_, a: string, b: string) => a + b.toUpperCase());
+  }
 
   const wc = wordCount(text);
   const taskNotes: string[] = [];
