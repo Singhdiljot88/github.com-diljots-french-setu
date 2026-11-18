@@ -196,6 +196,7 @@ export function Conversation({ id, isDemo, scenario: s, onExit, transport, deadl
             <label className="flex items-center gap-1"><input type="checkbox" checked={autoPlay} onChange={(e) => setAutoPlay(e.target.checked)} /> {label({ en: "Read aloud", hi: "बोलकर सुनाएँ" })}</label>
             {!exam && <button className="underline" onClick={onExit}>{label({ en: "Leave", hi: "बाहर जाएँ" })}</button>}
           </div>
+          <AudioSourceNote />
         </div>
       )}
       {report && <ReportView r={report} onAgain={onExit} againLabel={exam ? label({ en: "Continue", hi: "जारी रखें" }) : undefined} />}
@@ -229,57 +230,74 @@ function TurnView({ t, noHelp }: { t: Turn; noHelp?: boolean }) {
   );
 }
 
-function MicButton({ disabled, onText }: { disabled: boolean; onText: (text: string, via: "speech_browser" | "speech_server") => void }) {
-  const [state, setState] = useState<"idle" | "listening" | "processing">("idle");
-  const [err, setErr] = useState<string | null>(null);
-  const rec = useRef<SR | null>(null);
-  const { providers } = usePrefs();
+function MicButton({ onText, disabled }: { onText: (t: string, via: "speech_browser" | "speech_server") => void; disabled: boolean }) {
+  const { providers, micOptIn } = usePrefs();
+  const [state, setState] = useState<"idle" | "listening" | "sending" | "error">("idle");
+  const [msg, setMsg] = useState<BiT | null>(null);
   const label = useBiLabel();
-  const BrowserSR = getSR();
-  const can = providers.stt.server || !!BrowserSR;
-  useEffect(() => () => { rec.current?.abort(); }, []);
-  if (!can) return null;
+  const sr = useRef<SR | null>(null);
+  const [SRClass, setSRClass] = useState<(new () => SR) | null | undefined>(undefined);
+  useEffect(() => setSRClass(() => getSR()), []);
+  useEffect(() => () => { sr.current?.abort(); }, []);
+  if (SRClass === undefined) return null;
+  const canServer = providers.stt.server;
+  if (!SRClass && !canServer) return <Bi as="span" className="text-xs text-muted" t={{ en: "Speech input isn't available in this browser. You can type your reply instead (Chrome and Edge support speech input).", hi: "इस ब्राउज़र में बोलकर लिखने की सुविधा नहीं है। आप अपना जवाब टाइप कर सकते हैं (Chrome और Edge में यह सुविधा मिलती है)।" }} />;
+  const useServer = canServer;
+
   const start = () => {
     stopAll();
-    const r: SR = providers.stt.server ? (new ServerSpeechRecognition() as unknown as SR) : new BrowserSR!();
+    const r: SR & { onprocessing?: (() => void) | null } = useServer ? (new ServerSpeechRecognition() as unknown as SR) : new SRClass!();
     r.lang = "fr-FR"; r.interimResults = false; r.continuous = false;
-    r.onresult = (e) => {
-      const t = Array.from({ length: e.results.length }, (_, i) => e.results[i][0].transcript).join(" ").trim();
-      if (t) onText(t, providers.stt.server ? "speech_server" : "speech_browser");
+    r.onresult = (e) => { const out = Array.from({ length: e.results.length }, (_, i) => e.results[i][0].transcript).join(" ").trim(); if (out) onText(out, useServer ? "speech_server" : "speech_browser"); };
+    r.onerror = (e) => {
+      setState("error");
+      setMsg(e.error === "not-allowed" || e.error === "service-not-allowed"
+        ? { en: "The browser hasn't been allowed to use the microphone. Allow the microphone for this site in your browser settings, then try again. You can also type your reply.", hi: "ब्राउज़र को माइक्रोफ़ोन इस्तेमाल करने की अनुमति नहीं मिली है। ब्राउज़र की सेटिंग्स में इस साइट के लिए माइक्रोफ़ोन की अनुमति दें, फिर दोबारा कोशिश करें। आप अपना जवाब टाइप भी कर सकते हैं।" }
+        : e.error === "no-speech"
+          ? { en: "The microphone didn't pick up any speech. Check that it's switched on and not being used by another app, then try again, a little closer to the mic.", hi: "माइक्रोफ़ोन में कोई आवाज़ नहीं आई। देख लें कि वह चालू है और कोई दूसरा ऐप उसे इस्तेमाल नहीं कर रहा, फिर उसके थोड़ा पास आकर दोबारा कोशिश करें।" }
+          : { en: `Speech recognition stopped (${e.error}). Please try again or type your reply.`, hi: "बोली पहचानने की सुविधा रुक गई। कृपया दोबारा कोशिश करें या टाइप करें।" });
     };
-    r.onerror = (e) => setErr(e.error);
-    r.onend = () => setState("idle");
-    rec.current = r; setErr(null); setState("listening");
-    try { r.start(); } catch { setState("idle"); }
+    r.onend = () => setState((s) => (s === "listening" || s === "sending" ? "idle" : s));
+    r.onprocessing = () => setState("sending");
+    sr.current = r; setMsg(null); setState("listening");
+    try { r.start(); } catch { setState("error"); setMsg({ en: "Speech recognition couldn't start. Please try again or type your reply.", hi: "बोली पहचानने की सुविधा शुरू नहीं हो सकी। दोबारा कोशिश करें या टाइप करें।" }); }
   };
   return (
     <>
-      <button type="button" className={`btn ${state === "listening" ? "mic-live" : "btn-secondary"}`} disabled={disabled || state === "processing"} onClick={() => (state === "listening" ? rec.current?.stop() : start())} aria-label={label({ en: state === "listening" ? "Stop" : "Speak", hi: state === "listening" ? "रोकें" : "बोलें" })}>
-        {state === "listening" ? "■" : state === "processing" ? "⏳" : "🎤"} {label({ en: state === "listening" ? "Stop" : "Speak", hi: state === "listening" ? "रोकें" : "बोलें" })}
+      <button type="button" className={`btn ${state === "listening" ? "mic-live" : "btn-secondary"}`} disabled={disabled || state === "sending"} onClick={() => (state === "listening" ? sr.current?.stop() : start())} aria-label={label({ en: state === "listening" ? "Stop" : "Speak", hi: state === "listening" ? "रोकें" : "बोलें" })}>
+        {state === "listening" ? "■" : state === "sending" ? "⏳" : "🎤"} {label({ en: state === "listening" ? "Stop" : "Speak", hi: state === "listening" ? "रोकें" : "बोलें" })}
       </button>
-      {err && <span className="text-xs text-rose-700">{err}</span>}
+      {msg && <span className="text-xs text-rose-700 dark:text-rose-300">{label(msg)}</span>}
     </>
   );
 }
 
 function ReportView({ r, onAgain, againLabel }: { r: SpeakingReport; onAgain: () => void; againLabel?: string }) {
+  const [practice, setPractice] = useState<number | null>(null);
   const label = useBiLabel();
+  const f = r.feedback;
   return (
     <section className="card space-y-3" aria-labelledby="sp-report">
       <h2 id="sp-report" className="font-semibold">{label({ en: "Feedback", hi: "फ़ीडबैक" })}</h2>
-      {r.note && <Bi className="text-sm text-muted" t={noticeBi(r.note)} />}
-      <div className="grid gap-2 sm:grid-cols-2">
-        {r.scores && Object.entries(r.scores).map(([k, v]) => (
-          <div key={k} className="rounded-lg surface-2 p-2 text-sm">
-            <p className="font-medium capitalize">{k}</p>
-            <p className="text-2xl font-semibold">{typeof v === "number" ? v.toFixed(1) : v}</p>
-          </div>
-        ))}
-      </div>
-      {r.corrections?.length > 0 && (
-        <ul className="space-y-2">{r.corrections.map((c, i) => <CorrectionItem key={i} c={c} />)}</ul>
-      )}
-      {r.summary && <Bi t={r.summary} />}
+      <dl className="grid grid-cols-2 gap-2 text-sm sm:grid-cols-4">
+        <div><dt className="text-muted">{label({ en: "Turns", hi: "बारी" })}</dt><dd className="text-lg font-semibold">{r.stats.turns}</dd></div>
+        <div><dt className="text-muted">{label({ en: "Words", hi: "शब्द" })}</dt><dd className="text-lg font-semibold">{r.stats.words}</dd></div>
+        <div><dt className="text-muted">{label({ en: "Questions", hi: "सवाल" })}</dt><dd className="text-lg font-semibold">{r.stats.questions}</dd></div>
+        <div><dt className="text-muted">{label({ en: "Minutes", hi: "मिनट" })}</dt><dd className="text-lg font-semibold">{r.stats.minutes}</dd></div>
+      </dl>
+      {f.strengths.length > 0 && <><Bi as="h3" className="font-semibold" t={{ en: "What went well", hi: "क्या अच्छा रहा" }} /><ul className="list-disc pl-5 text-sm">{f.strengths.map((s, i) => <li key={i}>{s}</li>)}</ul></>}
+      <Bi as="h3" className="font-semibold" t={{ en: `Corrections (${f.corrections.length})`, hi: `सुधार (${f.corrections.length})` }} />
+      {f.corrections.length === 0 && <Bi className="text-sm" t={r.isDemo
+        ? { en: "None found by the rule-based checker, which only knows common patterns.", hi: "नियम-आधारित जाँच को कोई ग़लती नहीं मिली; यह केवल आम पैटर्न जानती है।" }
+        : { en: "None found.", hi: "कोई ग़लती नहीं मिली।" }} />}
+      <ol className="space-y-3">{f.corrections.map((c, i) => <CorrectionItem key={i} c={c} i={i} practice={practice} setPractice={setPractice} />)}</ol>
+      {f.grammarVocab.length > 0 && <><Bi as="h3" className="font-semibold" t={{ en: "Grammar and vocabulary", hi: "व्याकरण और शब्दावली" }} /><ul className="list-disc pl-5 text-sm">{f.grammarVocab.map((s, i) => <li key={i}>{s}</li>)}</ul></>}
+      {f.strongerVersions.length > 0 && <><Bi as="h3" className="font-semibold" t={{ en: "Say it more strongly", hi: "इसे और असरदार ढंग से कहें" }} /><ul className="space-y-2 text-sm">{f.strongerVersions.map((s, i) => <li key={i}><span lang="fr" className="text-muted line-through">{s.original}</span><br /><span lang="fr" className="font-medium">{s.stronger}</span> <Speak text={s.stronger} /></li>)}</ul></>}
+      <div className="rounded-lg surface-2 p-3 text-sm"><Bi className="font-semibold" t={{ en: "Try again", hi: "फिर से कोशिश करें" }} /><p>{f.retry.instruction}</p><ul className="mt-1 list-disc pl-5" lang="fr">{f.retry.prompts.map((p, i) => <li key={i}>{p}</li>)}</ul></div>
+      <Bi className="text-xs text-muted" t={{
+        en: `${f.corrections.some((c) => c.isError) ? "Errors were added to your mistake notebook. " : ""}No pronunciation score is given: the feedback is based on the text of what you said. Tap any word in your partner's replies to look it up.`,
+        hi: `${f.corrections.some((c) => c.isError) ? "ग़लतियाँ आपकी ग़लतियों की कॉपी में जोड़ दी गई हैं। " : ""}उच्चारण के लिए कोई अंक नहीं दिए जाते: फ़ीडबैक आपकी कही बात के लिखित रूप पर आधारित है। साथी के जवाबों में किसी भी शब्द पर टैप करके उसका अर्थ देखें।`,
+      }} />
       <button className="btn btn-primary" onClick={onAgain}>{againLabel ?? label({ en: "Practise again", hi: "फिर से अभ्यास करें" })}</button>
     </section>
   );
