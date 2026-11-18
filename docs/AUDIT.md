@@ -44,7 +44,7 @@ Severity: **high** can expose data or teach the wrong French. **medium** mislead
 | Low | `/grammar?all=1` | Loading every grammar point at once is about 2 MB. The default page sends only days the learner has reached (about 55 KB on day 1). | Leave the full list as an explicit click. |
 | Low | `src/app/privacy/page.tsx` | Still a draft: no operator name or contact. | Add those before any paid launch. The OpenAI paragraph was updated to match the code. |
 | Low | Days 101–120 | `BUILD_STATUS.md` already notes some readings under the 200-word target. | Content work, not done in this pass. |
-| Info | Env var | AI chat features read **`OPENAI_API_KEY`**. That is the name already used by `/api/tts` and `/api/stt`. It is already set on the Vercel project. This branch does not rename it, does not add a second variable, and does not change the value. | No action. If the variable is removed, those features fall back to the labelled demo checker and the scripted speaking partner. |
+| Info | Env var | AI chat features prefer **`OPENAI_API_KEY`** and fall back to **`SPEKO_API_KEY`**. Neither name is renamed, and no new variable is required. Demo mode runs only when both are empty. | No action. |
 
 ## How the checks were run
 

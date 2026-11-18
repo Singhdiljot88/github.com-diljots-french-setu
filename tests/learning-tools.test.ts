@@ -94,21 +94,37 @@ describe("sign-in rate limit", () => {
   });
 });
 
-describe("OpenAI provider selection", () => {
-  it("reads the existing OPENAI_API_KEY and stays in demo mode when it is empty", () => {
-    const key = process.env.OPENAI_API_KEY;
-    const provider = process.env.AI_PROVIDER;
+describe("chat provider selection", () => {
+  it("prefers OpenAI, falls back to Speko, and uses demo only when no chat key is set", () => {
+    const saved = {
+      openai: process.env.OPENAI_API_KEY,
+      speko: process.env.SPEKO_API_KEY,
+      anthropic: process.env.ANTHROPIC_API_KEY,
+      provider: process.env.AI_PROVIDER,
+    };
     try {
       delete process.env.AI_PROVIDER;
       delete process.env.OPENAI_API_KEY;
+      delete process.env.SPEKO_API_KEY;
+      delete process.env.ANTHROPIC_API_KEY;
       expect(aiProvider()).toBe("demo");
+      process.env.SPEKO_API_KEY = "speko-already-set";
+      expect(aiProvider()).toBe("speko");
       process.env.OPENAI_API_KEY = "sk-already-set";
       expect(aiProvider()).toBe("openai");
+      delete process.env.OPENAI_API_KEY;
+      process.env.AI_PROVIDER = "openai";
+      expect(aiProvider()).toBe("speko");
       process.env.AI_PROVIDER = "demo";
       expect(aiProvider()).toBe("demo");
     } finally {
-      if (key === undefined) delete process.env.OPENAI_API_KEY; else process.env.OPENAI_API_KEY = key;
-      if (provider === undefined) delete process.env.AI_PROVIDER; else process.env.AI_PROVIDER = provider;
+      const restore = (name: "OPENAI_API_KEY" | "SPEKO_API_KEY" | "ANTHROPIC_API_KEY" | "AI_PROVIDER", value: string | undefined) => {
+        if (value === undefined) delete process.env[name]; else process.env[name] = value;
+      };
+      restore("OPENAI_API_KEY", saved.openai);
+      restore("SPEKO_API_KEY", saved.speko);
+      restore("ANTHROPIC_API_KEY", saved.anthropic);
+      restore("AI_PROVIDER", saved.provider);
     }
   });
 });

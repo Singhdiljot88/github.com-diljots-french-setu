@@ -13,11 +13,11 @@ import { HttpError } from "../http";
 
 /**
  * One server-side entry point for every AI feature (writing feedback, speaking partner,
- * lesson generation from web pages). OpenAI is called through the Vercel AI SDK
- * (`@ai-sdk/openai`). The key is the existing OPENAI_API_KEY — the same variable the
- * speech routes already read. Nothing here runs in the browser and the key never leaves
- * the server. With that variable empty, this throws AiUnavailable and callers use their
- * labelled demo path.
+ * the lesson tutor, lesson generation from web pages). OpenAI is called through the
+ * Vercel AI SDK (`@ai-sdk/openai`) when OPENAI_API_KEY is set. Otherwise Speko is used
+ * when SPEKO_API_KEY is set. Nothing here runs in the browser and no key leaves the
+ * server. With no chat key, this throws AiUnavailable and callers use their labelled
+ * demo path.
  */
 
 export type AiFeature = "writing_feedback" | "speaking_turn" | "speaking_feedback" | "web_lesson" | "hindi_bridge" | "lesson_tutor";
