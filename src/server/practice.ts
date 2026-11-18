@@ -9,6 +9,7 @@ export const GAMES = {
   nombres: { skill: "listening", category: "comprehension" },
   faux_amis: { skill: "vocabulary", category: "vocabulary" },
   listen_pick: { skill: "listening", category: "vocabulary" },
+  verb_drill: { skill: "grammar", category: "tense" },
 } as const satisfies Record<string, { skill: Skill; category: MistakeCategory }>;
 export type GameKey = keyof typeof GAMES;
 

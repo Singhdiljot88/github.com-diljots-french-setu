@@ -12,6 +12,8 @@ const GROUPS: { title: { en: string; hi: string }; items: { href: string; label:
     { href: "/today", label: "Today", hi: "आज", icon: "☀️" },
     { href: "/hindi", label: "Hindi → French", hi: "हिंदी से फ़्रेंच", icon: "🔤" },
     { href: "/course", label: "Course map", hi: "पाठ्यक्रम", icon: "🗺️" },
+    { href: "/grammar", label: "Grammar & verbs", hi: "व्याकरण और क्रिया", icon: "🧩" },
+    { href: "/phrases", label: "Phrasebook", hi: "वाक्यांश", icon: "💬" },
     { href: "/review", label: "Review", hi: "दोहराव", icon: "🔁" },
     { href: "/play", label: "Practice games", hi: "अभ्यास के खेल", icon: "🎯" },
     { href: "/dictionary", label: "Dictionary", hi: "शब्दकोश", icon: "📖" },
