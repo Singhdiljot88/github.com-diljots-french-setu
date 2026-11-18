@@ -10,7 +10,13 @@ type Answer = { answer: { en: string; hi: string }; examples: { fr: string; pron
 type QA = { q: string; a: Answer };
 type Rec = { lang: string; interimResults: boolean; continuous: boolean; start(): void; stop(): void; abort(): void; onresult: ((e: { results: ArrayLike<ArrayLike<{ transcript: string }>> }) => void) | null; onerror: ((e: { error: string }) => void) | null; onend: (() => void) | null; onprocessing?: (() => void) | null };
 
-const STARTERS = ["इस पाठ का व्याकरण आसान भाषा में समझाइए", "हिंदी बोलने वाले यहाँ क्या ग़लती करते हैं?", "इस पाठ के 3 सबसे ज़रूरी वाक्य बताइए"];
+const STARTERS = [
+  "इस पाठ का व्याकरण आसान भाषा में समझाइए",
+  "हिंदी बोलने वाले यहाँ क्या ग़लती करते हैं?",
+  "इस पाठ के 3 सबसे ज़रूरी वाक्य बताइए",
+  "इस पाठ से एक छोटा रोल-प्ले बनाइए",
+  "मुझे इस पाठ के शब्दों से अभ्यास कराइए"
+];
 
 /**
  * "Ask the tutor": one button that opens a small chat about this lesson. Ask in Hindi, Hinglish or
@@ -63,11 +69,18 @@ export function AskTutor({ day }: { day: number }) {
     const r: Rec = providers.stt.server ? (new ServerSpeechRecognition() as unknown as Rec) : new BrowserRec!();
     r.lang = "hi-IN"; r.interimResults = false; r.continuous = false;
     r.onresult = (e) => { const t = Array.from({ length: e.results.length }, (_, i) => e.results[i][0].transcript).join(" ").trim(); if (t) void ask(t); };
-    r.onerror = (e) => setErr(e.error === "not-allowed" ? "Allow the microphone for this site, or type. · इस साइट को माइक की अनुमति दें, या टाइप करें।" : e.error === "no-speech" ? "Nothing was heard. Try again. · कुछ सुनाई नहीं दिया, दोबारा बोलें।" : "Your speech couldn't be turned into text. Please type. · आवाज़ लिखी नहीं जा सकी, टाइप करें।");
+    r.onerror = (e) => setErr(e.error === "not-allowed" ? "Allow the microphone for this site, or type. · इस साइट को माइक की अनुमति दें, या टाइप करें।" : e.error === "no-speech" ? "Nothing was heard. Try again. · कुछ सुनाई नहीं दिया, दोबारा बोलें।" : "Your speech couldn't be turned into text. Please type. · आवाज लिखी नहीं जा सकी, टाइप करें।");
     r.onprocessing = () => setMic("sending");
     r.onend = () => setMic("idle");
     recRef.current = r; setErr(null); setMic("listening");
     try { r.start(); } catch { setMic("idle"); }
+  };
+
+  const clearChat = () => {
+    setChat([]);
+    setQ("");
+    setErr(null);
+    setPending(null);
   };
 
   // Closed: a small floating button, so the tutor is one tap away anywhere in the lesson without taking space.
@@ -85,7 +98,10 @@ export function AskTutor({ day }: { day: number }) {
     <section role="dialog" aria-modal="false" className="card fixed inset-x-2 bottom-20 z-40 flex max-h-[78vh] flex-col space-y-3 !shadow-2xl animate-fade-up print:hidden sm:left-auto sm:right-4 sm:w-[26rem] lg:bottom-6 lg:right-6" aria-labelledby={`ask-h-${day}`}>
       <div className="flex items-center justify-between gap-2">
         <h2 id={`ask-h-${day}`} className="font-semibold">🙋 <Bi as="span" t={{ en: "Ask the tutor", hi: "टीचर से पूछें" }} /></h2>
-        <button type="button" className="btn btn-ghost btn-sm" onClick={() => setOpen(false)} aria-label={L({ en: "Close the tutor", hi: "टीचर बंद करें" })}>✕</button>
+        <div className="flex gap-1">
+          {chat.length > 0 && <button type="button" className="btn btn-ghost btn-sm" onClick={clearChat} aria-label={L({ en: "Clear chat", hi: "चैट साफ़ करें" })}>🗑</button>}
+          <button type="button" className="btn btn-ghost btn-sm" onClick={() => setOpen(false)} aria-label={L({ en: "Close the tutor", hi: "टीचर बंद करें" })}>✕</button>
+        </div>
       </div>
 
       <ol className="min-h-0 flex-1 space-y-3 overflow-y-auto pr-1" aria-live="polite">
@@ -136,12 +152,28 @@ export function AskTutor({ day }: { day: number }) {
 
 function AnswerBubble({ a }: { a: Answer }) {
   const [showEn, setShowEn] = useState(false);
+  const [copied, setCopied] = useState(false);
   const { explanationLang } = usePrefs();
   const main = explanationLang === "en" ? a.answer.en : a.answer.hi || a.answer.en;
   const other = explanationLang === "en" ? a.answer.hi : a.answer.en;
+
+  const copyAnswer = async () => {
+    const text = [main, ...a.examples.map((x) => x.fr)].join("\n");
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1500);
+    } catch { /* ignore */ }
+  };
+
   return (
-    <div className="max-w-[92%] space-y-2 rounded-2xl rounded-bl-sm surface-2 p-3 text-sm">
-      <p lang={explanationLang === "en" ? "en" : "hi"} className={explanationLang === "en" ? "" : "deva"}>{main}</p>
+    <div className="max-w-[92%] space-y-2 rounded-2xl rounded-bl-sm surface-2 p-3 text-sm relative">
+      <div className="flex justify-between items-start gap-2">
+        <p lang={explanationLang === "en" ? "en" : "hi"} className={explanationLang === "en" ? "" : "deva flex-1"}>{main}</p>
+        <button type="button" className="text-xs opacity-60 hover:opacity-100 shrink-0" onClick={copyAnswer} title="Copy">
+          {copied ? "✓" : "📋"}
+        </button>
+      </div>
       {other && other !== main && (
         <>
           <button type="button" className="text-xs underline text-muted" onClick={() => setShowEn((s) => !s)}>{explanationLang === "en" ? (showEn ? "हिंदी छिपाएँ" : "हिंदी में देखें") : (showEn ? "Hide English" : "Show in English")}</button>
