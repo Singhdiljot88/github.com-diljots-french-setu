@@ -9,6 +9,7 @@ export type RecorderState = "idle" | "explain" | "requesting" | "denied" | "unsu
 /**
  * Records the learner's voice for self-comparison. Audio stays in this tab
  * (object URL) unless the learner opted in to keeping recordings.
+ * Shows a simple live level meter while recording.
  */
 export function Recorder({ model, voice, refKey, onRecorded, compact = false }: { model?: string; voice?: VoiceKey; refKey: string; onRecorded?: (blob: Blob) => void; compact?: boolean }) {
   const { micOptIn, keepRecordings } = usePrefs();
@@ -17,19 +18,50 @@ export function Recorder({ model, voice, refKey, onRecorded, compact = false }: 
   const [blob, setBlob] = useState<Blob | null>(null);
   const [saved, setSaved] = useState<"no" | "saving" | "yes" | "error">("no");
   const [secs, setSecs] = useState(0);
+  const [level, setLevel] = useState(0);
   const rec = useRef<MediaRecorder | null>(null);
   const stream = useRef<MediaStream | null>(null);
   const timer = useRef<ReturnType<typeof setInterval> | null>(null);
+  const analyserRef = useRef<AnalyserNode | null>(null);
+  const levelTimer = useRef<ReturnType<typeof setInterval> | null>(null);
   const { play, error: audioError } = usePlayer();
   const label = useBiLabel();
 
-  useEffect(() => () => { stream.current?.getTracks().forEach((t) => t.stop()); if (url) URL.revokeObjectURL(url); if (timer.current) clearInterval(timer.current); }, [url]);
+  useEffect(() => () => {
+    stream.current?.getTracks().forEach((t) => t.stop());
+    if (url) URL.revokeObjectURL(url);
+    if (timer.current) clearInterval(timer.current);
+    if (levelTimer.current) clearInterval(levelTimer.current);
+  }, [url]);
+
+  const startLevelMeter = (s: MediaStream) => {
+    try {
+      const ctx = new AudioContext();
+      const src = ctx.createMediaStreamSource(s);
+      const analyser = ctx.createAnalyser();
+      analyser.fftSize = 256;
+      src.connect(analyser);
+      analyserRef.current = analyser;
+      const data = new Uint8Array(analyser.frequencyBinCount);
+      levelTimer.current = setInterval(() => {
+        analyser.getByteFrequencyData(data);
+        const avg = data.reduce((a, b) => a + b, 0) / data.length;
+        setLevel(Math.min(100, Math.round((avg / 128) * 100)));
+      }, 100);
+    } catch { /* ignore if AudioContext fails */ }
+  };
+
+  const stopLevelMeter = () => {
+    if (levelTimer.current) { clearInterval(levelTimer.current); levelTimer.current = null; }
+    analyserRef.current = null;
+    setLevel(0);
+  };
 
   const start = async () => {
     if (typeof window === "undefined" || !navigator.mediaDevices?.getUserMedia || typeof MediaRecorder === "undefined") { setState("unsupported"); return; }
     if (!micOptIn && state !== "explain") { setState("explain"); return; }
     setState("requesting");
-    stopAll(); // the model voice must not be recorded along with the learner
+    stopAll();
     try {
       stream.current = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true } });
     } catch (e) {
@@ -41,6 +73,7 @@ export function Recorder({ model, voice, refKey, onRecorded, compact = false }: 
     mr.ondataavailable = (ev) => ev.data.size && chunks.push(ev.data);
     mr.onstop = () => {
       if (timer.current) { clearInterval(timer.current); timer.current = null; }
+      stopLevelMeter();
       const b = new Blob(chunks, { type: mr.mimeType || "audio/webm" });
       stream.current?.getTracks().forEach((t) => t.stop());
       if (url) URL.revokeObjectURL(url);
@@ -50,10 +83,10 @@ export function Recorder({ model, voice, refKey, onRecorded, compact = false }: 
     };
     rec.current = mr;
     mr.start();
+    startLevelMeter(stream.current);
     setSecs(0);
     if (timer.current) clearInterval(timer.current);
     const startedAt = Date.now();
-    // Stop at 60 s. The check lives outside the state updater, which React may run twice.
     timer.current = setInterval(() => {
       const s = Math.floor((Date.now() - startedAt) / 1000);
       setSecs(s);
@@ -61,8 +94,8 @@ export function Recorder({ model, voice, refKey, onRecorded, compact = false }: 
     }, 500);
     setState("recording");
   };
-  const stop = () => { if (timer.current) clearInterval(timer.current); rec.current?.state === "recording" && rec.current.stop(); };
-  const discard = () => { if (url) URL.revokeObjectURL(url); setUrl(null); setBlob(null); setState("idle"); };
+  const stop = () => { if (timer.current) clearInterval(timer.current); stopLevelMeter(); rec.current?.state === "recording" && rec.current.stop(); };
+  const discard = () => { if (url) URL.revokeObjectURL(url); setUrl(null); setBlob(null); setState("idle"); stopLevelMeter(); };
   const keep = async () => {
     if (!blob) return;
     setSaved("saving");
@@ -95,7 +128,14 @@ export function Recorder({ model, voice, refKey, onRecorded, compact = false }: 
         {saved === "yes" && <Bi as="span" className="text-xs text-muted" t={{ en: "Saved. Manage recordings in Settings.", hi: "सहेजा गया। रिकॉर्डिंग सेटिंग्स में सँभालें।" }} />}
         {saved === "error" && <Bi as="span" className="text-xs text-rose-700 dark:text-rose-300" t={{ en: "Couldn't save the recording. Try again.", hi: "रिकॉर्डिंग सहेजी नहीं जा सकी। दोबारा कोशिश करें।" }} />}
       </div>
-      {state === "recording" && <p className="text-sm font-medium text-rose-700 dark:text-rose-300" aria-live="polite">● {label({ en: "Recording… speak now.", hi: "रिकॉर्डिंग हो रही है… अब बोलें।" })}</p>}
+      {state === "recording" && (
+        <div className="space-y-1">
+          <p className="text-sm font-medium text-rose-700 dark:text-rose-300" aria-live="polite">● {label({ en: "Recording… speak now.", hi: "रिकॉर्डिंग हो रही है… अब बोलें।" })}</p>
+          <div className="h-2 w-full rounded-full bg-rose-100 dark:bg-rose-900/40 overflow-hidden">
+            <div className="h-full bg-rose-500 transition-all duration-100" style={{ width: `${level}%` }} />
+          </div>
+        </div>
+      )}
       {state === "denied" && <p role="alert" className="text-sm"><Bi as="span" t={{ en: "The browser hasn't been allowed to use the microphone. To record, allow the microphone for this site in your browser settings (usually the lock icon in the address bar), then try again. You can still listen, repeat aloud and compare yourself without recording.", hi: "ब्राउज़र को माइक्रोफ़ोन इस्तेमाल करने की अनुमति नहीं मिली है। रिकॉर्ड करने के लिए ब्राउज़र की सेटिंग्स में इस साइट के लिए माइक्रोफ़ोन की अनुमति दें (अक्सर पता-पट्टी में ताले वाला निशान), फिर दोबारा कोशिश करें। रिकॉर्ड किए बिना भी आप सुन सकते हैं, ज़ोर से दोहरा सकते हैं और ख़ुद तुलना कर सकते हैं।" }} /></p>}
       {state === "unsupported" && <p role="alert" className="text-sm"><Bi as="span" t={{ en: "This browser can't record audio. Try a recent Chrome, Edge, Firefox or Safari. You can still repeat aloud after the model.", hi: "यह ब्राउज़र ऑडियो रिकॉर्ड नहीं कर सकता। Chrome, Edge, Firefox या Safari का नया संस्करण आज़माएँ। तब तक आप नमूने के बाद ज़ोर से दोहरा सकते हैं।" }} /></p>}
       {state === "error" && <p role="alert" className="text-sm"><Bi as="span" t={{ en: "The microphone couldn't be started. Check that one is connected and not being used by another app, then try again.", hi: "माइक्रोफ़ोन शुरू नहीं हो सका। देख लें कि माइक जुड़ा है और कोई दूसरा ऐप उसे इस्तेमाल नहीं कर रहा, फिर दोबारा कोशिश करें।" }} /></p>}
