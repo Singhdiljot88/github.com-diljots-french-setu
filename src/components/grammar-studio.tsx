@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Bi, useBiLabel } from "./bi";
 import { Speak } from "./audio";
+import { ExplainButton } from "./explain-button";
 import { AccentBar } from "./accent-bar";
 import { Pron } from "./practice-arcade";
 import { HINDI_BRIDGES, BRIDGE_DAYS } from "@/lib/hindi-bridges";
@@ -77,7 +78,7 @@ function Lookup({ points, total, showAll, courseDay }: { points: GrammarPoint[];
             <ul className="space-y-2">
               {p.examples.map((e) => (
                 <li key={e.fr}>
-                  <p className="flex items-center gap-2 font-medium" lang="fr"><span>{e.fr}</span><Speak text={e.fr} /></p>
+                  <p className="flex flex-wrap items-center gap-2 font-medium" lang="fr"><span>{e.fr}</span><Speak text={e.fr} /><ExplainButton fr={e.fr} en={e.en} hi={e.hi} context={`day ${p.day}`} /></p>
                   {e.pron && <Pron text={e.pron} />}
                   <p className="text-sm">{e.en}</p>
                   <p className="text-sm deva" lang="hi">{e.hi}</p>

@@ -85,6 +85,15 @@ export default async function Today() {
         {st.slot.beforeStart && <Bi className="relative z-10 mt-4 rounded-lg bg-white/10 p-2 text-sm" t={{ en: `Your plan starts on ${formatLocalDate(profile.startDate)}. You can already look at Day ${day}.`, hi: `आपकी योजना ${formatLocalDate(profile.startDate)} से शुरू होगी। आप अभी से दिन ${day} देख सकते हैं।` }} />}
       </section>
 
+      <section className="card" aria-label={label({ en: "Phase progress", hi: "चरण की प्रगति" })}>
+        <div className="flex flex-wrap items-baseline justify-between gap-2 text-sm">
+          <Bi className="font-semibold" t={{ en: `Phase ${phase.phase}: ${phase.en}`, hi: `चरण ${phase.phase}: ${phase.hi}` }} />
+          <span className="tabular-nums text-muted">{st.progress.filter((p) => p.day >= phase.from && p.day <= phase.to && p.status === "completed").length}/{phase.to - phase.from + 1}</span>
+        </div>
+        <div className="phase-meter mt-2" style={{ ["--p" as string]: (st.progress.filter((p) => p.day >= phase.from && p.day <= phase.to && p.status === "completed").length) / (phase.to - phase.from + 1) }} role="progressbar" aria-valuenow={st.progress.filter((p) => p.day >= phase.from && p.day <= phase.to && p.status === "completed").length} aria-valuemin={0} aria-valuemax={phase.to - phase.from + 1} aria-label={label({ en: "Days finished in this phase", hi: "इस चरण में पूरे किए गए दिन" })}><span /></div>
+        <Bi className="mt-1 text-xs text-muted" t={{ en: "Days finished in this phase. This is not a level.", hi: "इस चरण में पूरे किए गए दिन। यह कोई स्तर नहीं है।" }} />
+      </section>
+
       {st.recovery && <RecoveryCard plan={st.recovery} />}
 
       <section aria-labelledby="quick-h" className="space-y-2">
