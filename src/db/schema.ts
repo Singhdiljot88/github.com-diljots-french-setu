@@ -352,3 +352,24 @@ export const ttsCache = pgTable("tts_cache", {
   audio: bytea("audio").notNull(),
   createdAt: createdAt(),
 });
+
+/** Practice estimates for speaking, writing and exercises. Not official TEF results. */
+export const evaluations = pgTable("evaluations", {
+  id: uuid("id").primaryKey().defaultRandom(),
+  userId: uuid("user_id").notNull().references(() => users.id, { onDelete: "cascade" }),
+  skill: text("skill").$type<"speaking" | "writing" | "exercise">().notNull(),
+  sourceRef: text("source_ref").notNull(),
+  provider: text("provider").notNull(),
+  isDemo: boolean("is_demo").notNull(),
+  overall: real("overall").notNull(),
+  nclc: integer("nclc").notNull(),
+  evaluation: jsonb("evaluation").notNull(),
+  createdAt: createdAt(),
+}, (t) => [index("evaluations_user_idx").on(t.userId, t.createdAt)]);
+
+export const milestones = pgTable("milestones", {
+  userId: uuid("user_id").notNull().references(() => users.id, { onDelete: "cascade" }),
+  key: text("key").notNull(),
+  note: jsonb("note").$type<{ en: string; hi: string }>().notNull(),
+  unlockedAt: ts("unlocked_at").notNull().defaultNow(),
+}, (t) => [primaryKey({ columns: [t.userId, t.key] })]);

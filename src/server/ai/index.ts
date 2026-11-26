@@ -20,7 +20,7 @@ import { HttpError } from "../http";
  * demo path.
  */
 
-export type AiFeature = "writing_feedback" | "speaking_turn" | "speaking_feedback" | "web_lesson" | "hindi_bridge" | "lesson_tutor" | "explain" | "mistake_practice" | "situation_roleplay" | "situation_reply";
+export type AiFeature = "writing_feedback" | "speaking_turn" | "speaking_feedback" | "web_lesson" | "hindi_bridge" | "lesson_tutor" | "explain" | "mistake_practice" | "situation_roleplay" | "situation_reply" | "scored_evaluation" | "milestone_note";
 
 export class AiUnavailable extends Error {}
 

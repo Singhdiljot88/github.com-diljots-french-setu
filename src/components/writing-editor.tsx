@@ -4,6 +4,7 @@ import { api } from "@/lib/api-client";
 import { checkAnswer, diffWords, wordCount, type AnswerCheck } from "@/lib/text";
 import { ResultLine } from "./exercises";
 import type { FeedbackEnvelope } from "@/lib/feedback-schema";
+import { EvaluationCard } from "./evaluation-card";
 import { AccentBar } from "./accent-bar";
 import { Bi, useBiLabel } from "./bi";
 import { FrItem } from "./fr-item";
@@ -185,6 +186,7 @@ export function WritingEditor(p: WritingEditorProps) {
       )}
       {submitted && mode !== "learn" && p.learn && <LearnPanel aids={p.learn} showModel={showModel} setShowModel={setShowModel} afterSubmit />}
       {feedback && <FeedbackView fb={feedback} original={text} onRetry={(t) => retry(t)} />}
+      {feedback?.evaluation && <EvaluationCard ev={feedback.evaluation} />}
       {assisted ? null : null}
     </div>
   );
