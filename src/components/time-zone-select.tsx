@@ -59,9 +59,9 @@ export function TimeZoneSelect({ value, onChange }: { value: string; onChange: (
   return (
     <div className="space-y-1.5 text-sm">
       <label htmlFor={`${id}-q`} className="block font-medium">Find your country or city <span lang="hi" className="deva font-normal text-muted">· अपना देश या शहर खोजें</span></label>
-      <input id={`${id}-q`} type="search" className="input" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="India, Canada, Toronto, भारत…" autoComplete="off" />
+      <input id={`${id}-q`} name="timezone-search" type="search" className="input" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="India, Canada, Toronto, भारत…" autoComplete="off" />
       <label htmlFor={`${id}-z`} className="block font-medium">Time zone <span lang="hi" className="deva font-normal text-muted">· समय क्षेत्र</span></label>
-      <select id={`${id}-z`} className="input" value={value} onChange={(e) => onChange(e.target.value)}>
+      <select id={`${id}-z`} name="timezone" className="input" value={value} onChange={(e) => onChange(e.target.value)}>
         {shown.map((o) => <option key={o.zone} value={o.zone}>{o.label}</option>)}
       </select>
       {q && matches.length === 0 && <p role="status" className="text-muted">No match. Your time zone has not changed. <span lang="hi" className="deva">कुछ नहीं मिला। आपका समय क्षेत्र नहीं बदला है।</span></p>}

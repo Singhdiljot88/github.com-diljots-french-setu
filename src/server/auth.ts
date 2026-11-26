@@ -87,6 +87,30 @@ export async function signUp(email: string, password: string, isGuest = false) {
   return { userId: u.id } as const;
 }
 
+/**
+ * Turns the signed-in guest into a normal account, keeping the same user id
+ * (and therefore every lesson, word and draft already saved).
+ */
+export async function claimGuest(userId: string, email: string, password: string) {
+  const db = await getDb();
+  const [u] = await db.select().from(users).where(eq(users.id, userId));
+  if (!u) return { error: "Please sign in." } as const;
+  if (!u.isGuest) return { error: "This account already has an email and password." } as const;
+  const e = email.trim().toLowerCase();
+  if (!validateEmail(e)) return { error: "Please enter a valid email address." } as const;
+  if (password.length < 8) return { error: "Use at least 8 characters for your password." } as const;
+  const exists = await db.select({ id: users.id }).from(users).where(eq(users.email, e));
+  if (exists.length) return { error: "An account with this email already exists. Try signing in." } as const;
+  try {
+    await db.update(users).set({ email: e, passwordHash: await hashPassword(password), isGuest: false }).where(eq(users.id, userId));
+  } catch (err) {
+    const code = (err as { code?: string }).code;
+    if (code === "23505" || /users_email_idx|unique/i.test(String(err))) return { error: "An account with this email already exists. Try signing in." } as const;
+    throw err;
+  }
+  return { ok: true } as const;
+}
+
 export async function signIn(email: string, password: string) {
   const db = await getDb();
   const e = email.trim().toLowerCase();

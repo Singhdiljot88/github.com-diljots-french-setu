@@ -16,7 +16,7 @@ export function TryWords({ words }: { words: TryWord[] }) {
     <section className="space-y-3">
       <ol className="space-y-2">
         {words.map((w, i) => (
-          <li key={w.fr} className="card flex items-center gap-3 animate-fade-up" style={{ animationDelay: `${i * 60}ms` }}>
+          <li key={w.fr} className="card flex flex-wrap items-start gap-3 animate-fade-up" style={{ animationDelay: `${i * 60}ms` }}>
             <span className="grid size-8 shrink-0 place-items-center rounded-full bg-brand-100 text-sm font-bold text-brand-900">{i + 1}</span>
             <span className="min-w-0 flex-1">
               <span lang="fr" className="block text-xl font-semibold">{w.fr}</span>

@@ -99,6 +99,7 @@ export default async function Today() {
             <li key={q.href}><Link href={q.href} className="game-tile !items-center !p-3"><span aria-hidden className="grid size-10 shrink-0 place-items-center rounded-xl bg-[var(--surface-2)] text-xl">{q.icon}</span><Bi as="span" className="text-sm font-semibold" t={q.t} /></Link></li>
           ))}
         </ul>
+        <p className="text-sm"><Link href="/resources#pocket" className="underline"><Bi as="span" t={{ en: "Pocket card: numbers, articles, être and avoir", hi: "जेब कार्ड: संख्याएँ, articles, être और avoir" }} /></Link></p>
       </section>
 
       <section className="card flex flex-col gap-3 sm:flex-row sm:items-center" aria-labelledby="ref-h">

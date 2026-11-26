@@ -42,10 +42,11 @@ export function SettingsForm({ initial, variants, isGuest }: { initial: Prefs; v
 
   return (
     <div className="space-y-5">
+      {isGuest && <KeepAccount />}
       <form onSubmit={save} className="card space-y-4" aria-labelledby="prefs-h">
         <h2 id="prefs-h" className="text-lg font-semibold"><Bi as="span" t={{ en: "Learning preferences", hi: "सीखने की पसंद" }} /></h2>
-        <label className="block text-sm font-medium">{L({ en: "Name (optional)", hi: "नाम (वैकल्पिक)" })}
-          <input className="input mt-1" value={p.displayName} maxLength={60} onChange={(e) => set("displayName", e.target.value)} />
+        <label className="block text-sm font-medium" htmlFor="display-name">{L({ en: "Name (optional)", hi: "नाम (वैकल्पिक)" })}
+          <input id="display-name" name="displayName" autoComplete="nickname" className="input mt-1" value={p.displayName} maxLength={60} onChange={(e) => set("displayName", e.target.value)} />
         </label>
         <fieldset>
           <legend className="text-sm font-medium">{L({ en: "Explanations in", hi: "समझाने की भाषा" })}</legend>
@@ -59,39 +60,39 @@ export function SettingsForm({ initial, variants, isGuest }: { initial: Prefs; v
             {([["auto", { en: "Follow the course (fade out over time)", hi: "पाठ्यक्रम के हिसाब से (धीरे-धीरे कम होंगे)" }], ["always", { en: "Always show", hi: "हमेशा दिखाएँ" }], ["never", { en: "Never show", hi: "कभी न दिखाएँ" }]] as const).map(([v, l]) => <label key={v} className="flex items-center gap-1"><input type="radio" name="deva" checked={p.devanagariMode === v} onChange={() => set("devanagariMode", v)} /> {L(l)}</label>)}
           </div>
         </fieldset>
-        <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={p.showIpa} onChange={(e) => set("showIpa", e.target.checked)} /> {L({ en: "Show IPA (phonetic alphabet)", hi: "IPA (ध्वन्यात्मक वर्णमाला) दिखाएँ" })}</label>
-        <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={p.slowAudioDefault} onChange={(e) => set("slowAudioDefault", e.target.checked)} /> {L({ en: "Offer slow audio by default", hi: "धीमा ऑडियो पहले से उपलब्ध रखें" })}</label>
+        <label className="flex items-center gap-2 text-sm"><input type="checkbox" name="showIpa" checked={p.showIpa} onChange={(e) => set("showIpa", e.target.checked)} /> {L({ en: "Show IPA (phonetic alphabet)", hi: "IPA (ध्वन्यात्मक वर्णमाला) दिखाएँ" })}</label>
+        <label className="flex items-center gap-2 text-sm"><input type="checkbox" name="slowAudioDefault" checked={p.slowAudioDefault} onChange={(e) => set("slowAudioDefault", e.target.checked)} /> {L({ en: "Offer slow audio by default", hi: "धीमा ऑडियो पहले से उपलब्ध रखें" })}</label>
 
         <div className="grid gap-3 sm:grid-cols-2">
-          <label className="block text-sm font-medium">{L({ en: "Daily study time", hi: "रोज़ पढ़ाई का समय" })}
-            <select className="input mt-1" value={p.dailyMinutes} onChange={(e) => set("dailyMinutes", Number(e.target.value) as Prefs["dailyMinutes"])}>
+          <label className="block text-sm font-medium" htmlFor="daily-minutes">{L({ en: "Daily study time", hi: "रोज़ पढ़ाई का समय" })}
+            <select id="daily-minutes" name="dailyMinutes" className="input mt-1" value={p.dailyMinutes} onChange={(e) => set("dailyMinutes", Number(e.target.value) as Prefs["dailyMinutes"])}>
               {[45, 90, 150, 180].map((m) => <option key={m} value={m}>{L({ en: `${m} minutes`, hi: `${m} मिनट` })}</option>)}
             </select>
           </label>
-          <label className="block text-sm font-medium">{L({ en: "Pace with less time", hi: "कम समय होने पर रफ़्तार" })}
-            <select className="input mt-1" value={p.pace} onChange={(e) => set("pace", e.target.value as Prefs["pace"])}>
+          <label className="block text-sm font-medium" htmlFor="pace">{L({ en: "Pace with less time", hi: "कम समय होने पर रफ़्तार" })}
+            <select id="pace" name="pace" className="input mt-1" value={p.pace} onChange={(e) => set("pace", e.target.value as Prefs["pace"])}>
               <option value="complete">{L({ en: "Complete every lesson (takes more days)", hi: "हर पाठ पूरा करें (ज़्यादा दिन लगेंगे)" })}</option>
               <option value="compact">{L({ en: "Trim lessons to fit the day", hi: "पाठ को दिन के समय के हिसाब से छोटा करें" })}</option>
             </select>
           </label>
-          <label className="block text-sm font-medium">{L({ en: "Exam date (optional)", hi: "परीक्षा की तारीख़ (वैकल्पिक)" })}
-            <input type="date" className="input mt-1" min={p.startDate} value={p.examDate ?? ""} onChange={(e) => set("examDate", e.target.value || null)} />
+          <label className="block text-sm font-medium" htmlFor="exam-date">{L({ en: "Exam date (optional)", hi: "परीक्षा की तारीख़ (वैकल्पिक)" })}
+            <input id="exam-date" name="examDate" type="date" autoComplete="off" className="input mt-1" min={p.startDate} value={p.examDate ?? ""} onChange={(e) => set("examDate", e.target.value || null)} />
           </label>
-          <label className="block text-sm font-medium">{L({ en: "Exam", hi: "परीक्षा" })}
-            <select className="input mt-1" value={p.examVariant} onChange={(e) => set("examVariant", e.target.value)}>
+          <label className="block text-sm font-medium" htmlFor="exam-variant">{L({ en: "Exam", hi: "परीक्षा" })}
+            <select id="exam-variant" name="examVariant" className="input mt-1" value={p.examVariant} onChange={(e) => set("examVariant", e.target.value)}>
               {variants.map((v) => <option key={v.id} value={v.id}>{L({ en: `${v.en}${v.supported ? "" : " (not supported yet)"}`, hi: `${EXAM_VARIANT_HI[v.id] ?? v.en}${v.supported ? "" : " (अभी उपलब्ध नहीं)"}` })}</option>)}
             </select>
           </label>
           <TimeZoneSelect value={p.timezone} onChange={(z) => set("timezone", z)} />
         </div>
-        <label className="block text-sm font-medium">{L({ en: "Your goal (optional)", hi: "आपका लक्ष्य (वैकल्पिक)" })}
-          <input className="input mt-1" value={p.desiredOutcome} maxLength={300} onChange={(e) => set("desiredOutcome", e.target.value)} />
+        <label className="block text-sm font-medium" htmlFor="desired-outcome">{L({ en: "Your goal (optional)", hi: "आपका लक्ष्य (वैकल्पिक)" })}
+          <input id="desired-outcome" name="desiredOutcome" autoComplete="off" className="input mt-1" value={p.desiredOutcome} maxLength={300} onChange={(e) => set("desiredOutcome", e.target.value)} />
         </label>
         <Bi className="text-xs text-muted" t={{ en: `Changing daily time or pace changes how future days are split; days you have finished stay finished. The course start date (${p.startDate}) is fixed; use the recovery plan on Today to shift the schedule.`, hi: `रोज़ का समय या रफ़्तार बदलने से आगे के दिनों का बँटवारा बदलता है; जो दिन आप पूरे कर चुके हैं, वे पूरे ही रहेंगे। पाठ्यक्रम शुरू होने की तारीख़ (${p.startDate}) तय है; योजना आगे खिसकाने के लिए “आज” पेज पर वापसी की योजना इस्तेमाल करें।` }} />
 
         <h2 className="pt-2 text-lg font-semibold"><Bi as="span" t={{ en: "Microphone and recordings", hi: "माइक्रोफ़ोन और रिकॉर्डिंग" }} /></h2>
-        <label className="flex items-start gap-2 text-sm"><input type="checkbox" className="mt-1" checked={p.micOptIn} onChange={(e) => set("micOptIn", e.target.checked)} /> <Bi as="span" t={{ en: "Use the microphone for speaking practice. Your browser will still ask for permission.", hi: "बोलने के अभ्यास के लिए माइक्रोफ़ोन इस्तेमाल करें। आपका ब्राउज़र फिर भी अनुमति माँगेगा।" }} /></label>
-        <label className="flex items-start gap-2 text-sm"><input type="checkbox" className="mt-1" checked={p.keepRecordings} onChange={(e) => set("keepRecordings", e.target.checked)} /> <Bi as="span" t={{ en: "Keep my recordings on the server so I can listen to them later. Off by default: recordings are otherwise played back in your browser and never stored.", hi: "मेरी रिकॉर्डिंग सर्वर पर रखें ताकि मैं उन्हें बाद में सुन सकूँ। यह पहले से बंद है: वरना रिकॉर्डिंग सिर्फ़ आपके ब्राउज़र में चलाई जाती हैं और कभी सहेजी नहीं जातीं।" }} /></label>
+        <label className="flex items-start gap-2 text-sm"><input type="checkbox" name="micOptIn" className="mt-1" checked={p.micOptIn} onChange={(e) => set("micOptIn", e.target.checked)} /> <Bi as="span" t={{ en: "Use the microphone for speaking practice. Your browser will still ask for permission.", hi: "बोलने के अभ्यास के लिए माइक्रोफ़ोन इस्तेमाल करें। आपका ब्राउज़र फिर भी अनुमति माँगेगा।" }} /></label>
+        <label className="flex items-start gap-2 text-sm"><input type="checkbox" name="keepRecordings" className="mt-1" checked={p.keepRecordings} onChange={(e) => set("keepRecordings", e.target.checked)} /> <Bi as="span" t={{ en: "Keep my recordings on the server so I can listen to them later. Off by default: recordings are otherwise played back in your browser and never stored.", hi: "मेरी रिकॉर्डिंग सर्वर पर रखें ताकि मैं उन्हें बाद में सुन सकूँ। यह पहले से बंद है: वरना रिकॉर्डिंग सिर्फ़ आपके ब्राउज़र में चलाई जाती हैं और कभी सहेजी नहीं जातीं।" }} /></label>
         {turningOffRecordings && <div role="alert" className="rounded-lg border border-saffron-500 p-2 text-sm"><Bi t={{ en: "Saving with this turned off deletes all your kept recordings.", hi: "इसे बंद करके सहेजने पर आपकी सारी रखी हुई रिकॉर्डिंग मिट जाएँगी।" }} /></div>}
 
         <div className="flex flex-wrap items-center gap-3">
@@ -141,6 +142,46 @@ function Recordings({ enabled }: { enabled: boolean }) {
   );
 }
 
+function KeepAccount() {
+  const router = useRouter();
+  const L = useBiLabel();
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState<string | null>(null);
+  const [done, setDone] = useState(false);
+  const [busy, setBusy] = useState(false);
+  const submit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setBusy(true); setError(null);
+    try {
+      await api("/api/auth/claim", { body: { email, password } });
+      setDone(true);
+      router.refresh();
+    } catch (err) { setError((err as Error).message); }
+    finally { setBusy(false); }
+  };
+  if (done) return (
+    <section id="account" className="card scroll-mt-24 space-y-1" role="status">
+      <h2 className="text-lg font-semibold"><Bi as="span" t={{ en: "Account saved", hi: "खाता सहेज लिया गया" }} /></h2>
+      <Bi t={{ en: "This account now uses your email and password. Your lessons, words and writing stay with it, and you can sign in on another device.", hi: "यह खाता अब आपके ईमेल और पासवर्ड से चलता है। आपके पाठ, शब्द और लेखन इसी में रहेंगे, और आप दूसरे डिवाइस पर साइन इन कर सकते हैं।" }} />
+    </section>
+  );
+  return (
+    <form id="account" onSubmit={submit} className="card scroll-mt-24 space-y-3">
+      <h2 className="text-lg font-semibold"><Bi as="span" t={{ en: "Keep this guest account", hi: "इस मेहमान खाते को सहेजें" }} /></h2>
+      <Bi className="text-sm text-muted" t={{ en: "A guest account lives only in this browser. Add an email and password and the same progress stays — nothing is reset.", hi: "मेहमान खाता सिर्फ़ इसी ब्राउज़र में रहता है। ईमेल और पासवर्ड जोड़ने पर वही प्रगति बनी रहती है — कुछ भी रीसेट नहीं होता।" }} />
+      <label className="block text-sm font-medium" htmlFor="claim-email">{L({ en: "Email", hi: "ईमेल" })}
+        <input id="claim-email" name="email" type="email" autoComplete="email" required className="input mt-1" value={email} onChange={(e) => setEmail(e.target.value)} />
+      </label>
+      <label className="block text-sm font-medium" htmlFor="claim-password">{L({ en: "Password (at least 8 characters)", hi: "पासवर्ड (कम से कम 8 अक्षर)" })}
+        <input id="claim-password" name="password" type="password" autoComplete="new-password" minLength={8} required className="input mt-1" value={password} onChange={(e) => setPassword(e.target.value)} />
+      </label>
+      {error && <p role="alert" className="text-sm text-red-700 dark:text-red-300">{error}</p>}
+      <button className="btn btn-primary" disabled={busy}><Bi as="span" t={busy ? { en: "Saving…", hi: "सहेजा जा रहा है…" } : { en: "Save this account", hi: "यह खाता सहेजें" }} /></button>
+    </form>
+  );
+}
+
 function DataSection({ isGuest }: { isGuest: boolean }) {
   const [open, setOpen] = useState(false);
   const [confirm, setConfirm] = useState("");
@@ -164,11 +205,11 @@ function DataSection({ isGuest }: { isGuest: boolean }) {
         {!open ? <button type="button" className="btn btn-sm text-red-700 underline dark:text-red-300" onClick={() => setOpen(true)}><Bi as="span" t={{ en: "Delete my account…", hi: "मेरा खाता मिटाएँ…" }} /></button> : (
           <form onSubmit={del} className="space-y-2 rounded-lg border border-red-500 p-3">
             <Bi className="text-sm font-medium" t={{ en: "This permanently deletes your account and all your data. It cannot be undone. Download your data first if you want a copy.", hi: "इससे आपका खाता और आपका सारा डेटा हमेशा के लिए मिट जाएगा। इसे वापस नहीं लाया जा सकता। अगर आपको एक कॉपी चाहिए, तो पहले अपना डेटा डाउनलोड कर लें।" }} />
-            <label className="block text-sm">{L({ en: "Type DELETE to confirm", hi: "पुष्टि के लिए DELETE लिखें" })}
-              <input className="input mt-1" value={confirm} onChange={(e) => setConfirm(e.target.value)} autoComplete="off" />
+            <label className="block text-sm" htmlFor="delete-confirm">{L({ en: "Type DELETE to confirm", hi: "पुष्टि के लिए DELETE लिखें" })}
+              <input id="delete-confirm" name="confirm" className="input mt-1" value={confirm} onChange={(e) => setConfirm(e.target.value)} autoComplete="off" />
             </label>
-            {!isGuest && <label className="block text-sm">{L({ en: "Your password", hi: "आपका पासवर्ड" })}
-              <input type="password" className="input mt-1" value={password} onChange={(e) => setPassword(e.target.value)} autoComplete="current-password" />
+            {!isGuest && <label className="block text-sm" htmlFor="delete-password">{L({ en: "Your password", hi: "आपका पासवर्ड" })}
+              <input id="delete-password" name="password" type="password" className="input mt-1" value={password} onChange={(e) => setPassword(e.target.value)} autoComplete="current-password" />
             </label>}
             {error && <p role="alert" className="text-sm text-red-700 dark:text-red-300">{error}</p>}
             <div className="flex gap-2">
